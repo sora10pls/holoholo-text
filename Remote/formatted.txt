@@ -480,6 +480,10 @@ RESOURCE ID: event_datetime_range_key_febmonthly2024
 TEXT: February 1, 10:00 a.m. –
 February 29, 8:00 p.m. local time
 
+RESOURCE ID: event_datetime_range_key_lny2024
+TEXT: February 5, 10:00 a.m. –
+February 11, 8:00 p.m. local time
+
 RESOURCE ID: event_datetime_range_key_tgrtakejan2024
 TEXT: January 27, 12:00 a.m. –
 February 1, 11:59 p.m. local time
@@ -700,6 +704,16 @@ Details can be found in the in-game News.
 RESOURCE ID: general1.ticket.2_hisuiraid2023_typhlosion_title
 TEXT: Hisuian Typhlosion Raid Day Ticket
 
+RESOURCE ID: general1.ticket.2_lny2024_description
+TEXT: A ticket to access the Lunar New Year: Dragons Unleashed Timed Research from February 5 at 10:00 a.m. to February 11, 2024, at 8:00 p.m. local time, wherever you are. Research rewards include:
+
+- Encounters with Drampa, Bagon, Gible, Axew, Deino, Goomy, Turtonator, and more
+- 2 Lucky Eggs, 12,000 XP, and 6,000 Stardust
+
+<b>Please note that Timed Research expires.</b> The tasks associated with this Timed Research must be completed and their rewards claimed before February 11, 2024, at 8:00 p.m. local time.
+
+<b>You must play during the specified time to receive all the special event bonuses.</b>
+
 RESOURCE ID: general1.ticket.2_tgrtakejan2024_description
 TEXT: A ticket to access the Team GO Rocket Timed Research, which includes an avatar pose as one of the rewards! This Timed Research is active from January 27, 2024, at 12:00 a.m. to February 1, 2024, at 11:59 p.m. local time.
 
@@ -718,6 +732,9 @@ TEXT: Team GO Rocket Timed Research Ticket
 
 RESOURCE ID: general1.ticket._battleevent2024_title
 TEXT: Raging Battles Ticket
+
+RESOURCE ID: general1.ticket._lny2024_title
+TEXT: Lunar New Year: Dragons Unleashed
 
 RESOURCE ID: general1.ticket.shinyshayminmasterwork_title
 TEXT: Masterwork Research: Glimmers of Gratitude
@@ -1276,7 +1293,7 @@ RESOURCE ID: item_event_ticket_pink_details_rowlet
 TEXT: This ticket will automatically activate to give you access to the Special Research story Of a Feather on January 6, 2024, wherever you are.
 
 RESOURCE ID: item_evergreen_ticket_desc
-TEXT: A ticket to access the Raging Battles Timed Research from January 19 at 10:00 a.m. to January 24, 2024, at 8:00 p.m. local time, wherever you are.
+TEXT: A ticket to access the Lunar New Year: Dragons Unleashed Timed Research from February 5 at 10:00 a.m. to February 11, 2024, at 8:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_evergreen_ticket_desc_catchmastery
 TEXT: A ticket to access a second set of the Catch Mastery Timed Research until December 9, 2023, at 8:00 p.m. local time, wherever you are.
@@ -1284,17 +1301,23 @@ TEXT: A ticket to access a second set of the Catch Mastery Timed Research until 
 RESOURCE ID: item_evergreen_ticket_desc_dazzlingdream
 TEXT: A ticket to access the Dazzling Dream Timed Research from January 13 at 10:00 a.m. to January 16, 2024, at 8:00 p.m. local time, wherever you are.
 
+RESOURCE ID: item_evergreen_ticket_desc_ragingbattles
+TEXT: A ticket to access the Raging Battles Timed Research from January 19 at 10:00 a.m. to January 24, 2024, at 8:00 p.m. local time, wherever you are.
+
 RESOURCE ID: item_evergreen_ticket_desc_winterholiday2
 TEXT: A ticket to access the Winter Holiday Timed Research until December 31, 8:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_evergreen_ticket_details
-TEXT: This ticket will automatically activate to give you access to the Raging Battles Timed Research from January 19 at 10:00 a.m. until January 24, 2024, at 8:00 p.m. local time, wherever you are.
+TEXT: This ticket will automatically activate to give you access to the Lunar New Year: Dragons Unleashed Timed Research until February 11, 2024, at 8:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_evergreen_ticket_details_catchmastery
 TEXT: This ticket will automatically activate to give you access to a second set of the Catch Mastery Timed Research, wherever you are.
 
 RESOURCE ID: item_evergreen_ticket_details_dazzlingdream
 TEXT: This ticket will automatically activate to give you access to the Dazzling Dream Timed Research until January 16, 2024, at 8:00 p.m. local time, wherever you are.
+
+RESOURCE ID: item_evergreen_ticket_details_ragingbattles
+TEXT: This ticket will automatically activate to give you access to the Raging Battles Timed Research from January 19 at 10:00 a.m. until January 24, 2024, at 8:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_evergreen_ticket_details_winterholiday2
 TEXT: This ticket will automatically activate to give you access to the Winter Holiday Timed Research, wherever you are.
@@ -1355,10 +1378,10 @@ RESOURCE ID: masterwork_shiny_shaymin_title_06
 TEXT: Masterwork Research: Glimmers of Gratitude (7/7)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-01-31T22:59:01.506200
-at SHA 865c098786
-Pipeline 2073121, job 25076578
-Patch from: 0.299.0-SHA-63b2fb45-RC2, 0.297.0-SHA-dbc86213-RC1
+TEXT: Built at 2024-02-01T23:02:47.812271
+at SHA 6dccf8cf22
+Pipeline 2076268, job 25119913
+Patch from: 0.299.0-SHA-7c79eea1-RC1, 0.297.0-SHA-cb22f9aa-RC2
 
 RESOURCE ID: n__glasses_drpikachu_0_display_name
 TEXT: Pikachu, Ph.D. Glasses
@@ -1613,7 +1636,7 @@ RESOURCE ID: n_glasses_goteamrocketarlo_0_display_name
 TEXT: Arlo-Style Glasses
 
 RESOURCE ID: n_glasses_grandoakglasses_0_display_name
-TEXT: Grand Oak’s Glassess
+TEXT: Grand Oak’s Glasses
 
 RESOURCE ID: n_glasses_jogger_0_display_name
 TEXT: Jogger Sunglasses
@@ -2980,7 +3003,7 @@ RESOURCE ID: n_shirt_fw2022_b_0_display_name
 TEXT: Mareanie Jacket (Cropped)
 
 RESOURCE ID: n_shirt_galarfarfetchditems_0_display_name
-TEXT: Galarian Farfetch’d T-Shirt and Bag
+TEXT: Galarian Farfetch'd T-Shirt and Bag
 
 RESOURCE ID: n_shirt_galaxyoutfit_a_0_display_name
 TEXT: Team Galactic Outfit (Skirt)
@@ -4100,6 +4123,12 @@ TEXT: SHORT
 RESOURCE ID: neutral_avatar_hat
 TEXT: HATS
 
+RESOURCE ID: neutral_avatar_hat_blocked
+TEXT: {0} is incompatible with this hairstyle.
+
+RESOURCE ID: neutral_avatar_hat_removed
+TEXT: {0} removed
+
 RESOURCE ID: neutral_avatar_head
 TEXT: HEAD
 
@@ -4905,6 +4934,13 @@ TEXT: <b>Includes:</b>
 • 3× XP awarded for your first spin and first catch each day
 • Timed Research that awards 30,000 XP, 30,000 Stardust, and an encounter with Hisuian Growlithe
 • Hold 2× as many Gifts in your Item Bag (40 total)
+• And more!
+
+RESOURCE ID: text_rewards_key_lny2024
+TEXT: <b>Includes:</b>
+• Encounters with Drampa, Bagon, Gible, Axew, Deino, Goomy, Turtonator, and more
+• 2 Lucky Eggs
+• 12,000 XP and 6,000 Stardust
 • And more!
 
 RESOURCE ID: text_rewards_key_tgrtakejan2024
