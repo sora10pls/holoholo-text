@@ -398,6 +398,18 @@ TEXT: 2× duration for Spacial Rend’s Adventure Effect
 RESOURCE ID: bonus_ticketed_timed_research
 TEXT: Exclusive Timed Research now available
 
+RESOURCE ID: carnival_of_love_event_collection_challenge
+TEXT: Carnival of Love Collection Challenge
+
+RESOURCE ID: carnival_of_love_event_title
+TEXT: Carnival of Love
+
+RESOURCE ID: carnival_of_love_event_title_brazil
+TEXT: Carnival of Love: Brazil
+
+RESOURCE ID: carnival_of_love_paid_tr
+TEXT: Carnival of Love Timed Research
+
 RESOURCE ID: collection_aa2024_bali_day_01
 TEXT: Pikachu's Indonesia Journey - Collection Challenge
 
@@ -443,8 +455,17 @@ TEXT: Collection Challenge: Seaside Metropolis
 RESOURCE ID: collection_gotour_2024_seaside_metropolis_day_preview
 TEXT: Collection Challenge: Seaside Metropolis
 
+RESOURCE ID: combat_arlo_quote__male_speaker
+TEXT: Arrogance leads to failure.
+
+RESOURCE ID: combat_cliff_quote__male_speaker
+TEXT: Too bad you’ll be losing this battle!
+
 RESOURCE ID: combat_giovanni_quote__male_speaker
 TEXT: I’ll remind you and your Pokémon of your place.
+
+RESOURCE ID: combat_sierra_quote__female_speaker
+TEXT: Fancy a battle?
 
 RESOURCE ID: community_day_chansey_event_name
 TEXT: Community Day: Chansey
@@ -479,6 +500,9 @@ TEXT: Lunar New Year: Dragons Unleashed (2/2)
 RESOURCE ID: event_datetime_range_key_febmonthly2024
 TEXT: February 1, 10:00 a.m. –
 February 29, 8:00 p.m. local time
+
+RESOURCE ID: event_datetime_range_key_hisuidecidueye2024
+TEXT: February 11, 2:00 p.m. — 10:00 p.m. local time
 
 RESOURCE ID: event_datetime_range_key_lny2024
 TEXT: February 5, 10:00 a.m. –
@@ -546,7 +570,7 @@ RESOURCE ID: field_effect_stop_move
 TEXT: Do you want to stop using {0}?
 
 RESOURCE ID: field_effect_time_prefix
-TEXT: Time  {0}
+TEXT: Time {0}
 
 RESOURCE ID: filter_key_caught_in_party
 TEXT: party
@@ -689,6 +713,18 @@ TEXT: A ticket to access the Dazzling Dream Timed Research from January 13 at 10
 RESOURCE ID: general1.ticket.2_fairyevent2024_title
 TEXT: Dazzling Dream Ticket
 
+RESOURCE ID: general1.ticket.2_hisuidecidueye2024_description
+TEXT: A ticket to access the following bonuses on Sunday, February 11, 2024, from 2:00 p.m. to 10:00 p.m. local time, wherever you are.
+
+- Eight additional Raid Passes from spinning Photo Discs at Gyms
+- Increased chance to receive Rare Candy XL from raids
+- 50% more XP for successfully completing raids
+- 2× Stardust for successfully completing raids
+
+Details can be found in the in-game News.
+
+<b>You must play during the specified time to receive all the special event bonuses.</b>
+
 RESOURCE ID: general1.ticket.2_hisuiraid2023_typhlosion_description
 TEXT: A ticket to access the following bonuses on Sunday, January 14, 2024, from 2:00 p.m. to 10:00 p.m. local time, wherever you are.
 
@@ -732,6 +768,9 @@ TEXT: Team GO Rocket Timed Research Ticket
 
 RESOURCE ID: general1.ticket._battleevent2024_title
 TEXT: Raging Battles Ticket
+
+RESOURCE ID: general1.ticket._hisuidecidueye2024_title
+TEXT: Hisuian Decidueye Raid Day Ticket
 
 RESOURCE ID: general1.ticket._lny2024_title
 TEXT: Lunar New Year: Dragons Unleashed
@@ -1262,6 +1301,12 @@ TEXT: Let’s see what you’ve learned.
 RESOURCE ID: gotour_2024_sierra_victory
 TEXT: A pity this alliance is temporary... You’d reach such heights if you joined Team GO Rocket.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_hisuidecidueye2024
+TEXT: A ticket to access special bonuses on Sunday, February 11, 2024, from 2:00 p.m. to 10:00 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_evergreen_details_hisuidecidueye2024
+TEXT: This ticket will automatically activate to give you access to special bonuses on February 11, wherever you are.
+
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: A ticket for Eggs-pedition Access: February, which is active from February 1 at 10:00 a.m. to February 29, 2024, at 8:00 p.m. local time, wherever you are.
 
@@ -1346,8 +1391,14 @@ TEXT: This ticket will automatically activate to give you access to the Glimmers
 RESOURCE ID: item_global_event_ticket_details_takeover2024
 TEXT: This ticket will automatically activate to give you access to the Team GO Rocket Timed Research, wherever you are.
 
+RESOURCE ID: item_incense_ordinary_name_plural
+TEXT: Incense
+
 RESOURCE ID: item_lucky_egg_name_plural
 TEXT: Lucky Eggs
+
+RESOURCE ID: item_star_piece_name_plural
+TEXT: Star Pieces
 
 RESOURCE ID: m_avatar_poses_bundle_pose_61
 TEXT: Luvdisc Tambourine
@@ -1378,10 +1429,10 @@ RESOURCE ID: masterwork_shiny_shaymin_title_06
 TEXT: Masterwork Research: Glimmers of Gratitude (7/7)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-02-01T23:02:47.812271
-at SHA 6dccf8cf22
-Pipeline 2076268, job 25119913
-Patch from: 0.299.0-SHA-7c79eea1-RC1, 0.297.0-SHA-cb22f9aa-RC2
+TEXT: Built at 2024-02-02T22:26:50.693035
+at SHA de20c01065
+Pipeline 2078687, job 25161965
+Patch from: 0.297.0-SHA-a3fb0870-RC3, 0.299.0-SHA-63b2fb45-RC2
 
 RESOURCE ID: n__glasses_drpikachu_0_display_name
 TEXT: Pikachu, Ph.D. Glasses
@@ -1536,6 +1587,9 @@ TEXT: Ultra Moon Bag
 RESOURCE ID: n_backpack_ultra_b_0_display_name
 TEXT: Ultra Sun Backpack
 
+RESOURCE ID: n_backpack_unequip_0_display_name
+TEXT: No Bag
+
 RESOURCE ID: n_backpack_verizon2021_0_display_name
 TEXT: Verizon Backpack
 
@@ -1556,6 +1610,9 @@ TEXT: Team Rocket Belt
 
 RESOURCE ID: n_belt_teamrocket_1_display_name
 TEXT: Team Rainbow Rocket Belt
+
+RESOURCE ID: n_belt_unequip_0_display_name
+TEXT: No Belt
 
 RESOURCE ID: n_face_3dmask_0_display_name
 TEXT: Grass-type Mask
@@ -1610,6 +1667,9 @@ TEXT: Sableye Mask
 
 RESOURCE ID: n_face_teamskull_0_display_name
 TEXT: Team Skull Mask
+
+RESOURCE ID: n_face_unequip_0_display_name
+TEXT: No Mask
 
 RESOURCE ID: n_face_verizon2020mask_0_display_name
 TEXT: Verizon Mask
@@ -1670,6 +1730,9 @@ TEXT: Aviator Sunglasses
 
 RESOURCE ID: n_glasses_thick_4_display_name
 TEXT: Focus Frames
+
+RESOURCE ID: n_glasses_unequip_0_display_name
+TEXT: No Glasses
 
 RESOURCE ID: n_gloves_acetrainersm_0_display_name
 TEXT: Ace Gloves
@@ -1793,6 +1856,9 @@ TEXT: Spark-Style Gloves (Classic)
 
 RESOURCE ID: n_gloves_teamspark_b_0_display_name
 TEXT: Spark-Style Gloves (Sleek)
+
+RESOURCE ID: n_gloves_unequip_0_display_name
+TEXT: No Gloves
 
 RESOURCE ID: n_gloves_wintergloves2023_0_display_name
 TEXT: Holiday Gloves
@@ -2237,6 +2303,9 @@ TEXT: Rhi-Style Helmet with Goggles
 RESOURCE ID: n_hat_ultrareconsquadb_0_display_name
 TEXT: Rhi-Style Helmet
 
+RESOURCE ID: n_hat_unequip_0_display_name
+TEXT: No Hat
+
 RESOURCE ID: n_hat_verizon2021_0_display_name
 TEXT: Verizon Cap
 
@@ -2269,6 +2338,9 @@ TEXT: Love Choker
 
 RESOURCE ID: n_necklace_star_0_display_name
 TEXT: Super Choker
+
+RESOURCE ID: n_necklace_unequip_0_display_name
+TEXT: No Necklace
 
 RESOURCE ID: n_pants_6thanniversary_0_display_name
 TEXT: 6th Anniversary White Suit Pants
@@ -4012,6 +4084,9 @@ TEXT: Ultra Shoes (Green)
 RESOURCE ID: n_shoes_ultrareconsquad_0_display_name
 TEXT: Rhi-Style Shoes
 
+RESOURCE ID: n_shoes_unequip_0_display_name
+TEXT: No Footwear
+
 RESOURCE ID: n_shoes_veterantrainerxy_a_0_display_name
 TEXT: Veteran Boots (Short)
 
@@ -4075,6 +4150,9 @@ TEXT: Team Aqua Tights
 RESOURCE ID: n_socks_thighhighs_0_display_name
 TEXT: Wool Leg Warmers
 
+RESOURCE ID: n_socks_unequip_0_display_name
+TEXT: No Socks
+
 RESOURCE ID: neutral_avatar_backpack
 TEXT: BAGS
 
@@ -4124,10 +4202,10 @@ RESOURCE ID: neutral_avatar_hat
 TEXT: HATS
 
 RESOURCE ID: neutral_avatar_hat_blocked
-TEXT: {0} is incompatible with this hairstyle.
+TEXT: Equipped hat is incompatible with this hairstyle.
 
 RESOURCE ID: neutral_avatar_hat_removed
-TEXT: {0} removed
+TEXT: Equipped hat removed.
 
 RESOURCE ID: neutral_avatar_head
 TEXT: HEAD
@@ -4231,6 +4309,9 @@ TEXT: #0894: Catch {0} Electric-type Pokémon
 RESOURCE ID: party_challenge_0895
 TEXT: #0895: Catch {0} Dragon-type Pokémon
 
+RESOURCE ID: party_play_code_of_conduct_button
+TEXT: CODE OF CONDUCT
+
 RESOURCE ID: photobomb_five_chansey
 TEXT: 5 surprise encounters with Chansey in GO Snapshot
 
@@ -4275,6 +4356,9 @@ TEXT: Violent Actors Policy
 
 RESOURCE ID: pokemon_encounter_desc
 TEXT: {0} Encounter
+
+RESOURCE ID: ptc_auth_validate_title
+TEXT: {0} Reward
 
 RESOURCE ID: quest_achieve_lvl_40
 TEXT: Reach level 40
@@ -4666,6 +4750,71 @@ TEXT: https://nianticlabs.com/safety/mental-health-resources
 RESOURCE ID: route_not_playable
 TEXT: This Route is not currently public.
 
+RESOURCE ID: route_rejection_appeal_approved_description
+TEXT: Appeal Route Removal
+
+RESOURCE ID: route_rejection_appeal_approved_title
+TEXT: Your appeal was approved and your Route was published!
+
+RESOURCE ID: route_rejection_appeal_confirmation_title
+TEXT: Are you sure you want to submit this appeal?
+
+RESOURCE ID: route_rejection_appeal_confirmation_warning
+TEXT: A Route rejection can only be appealed once. Please ensure you have provided all relevant information before you submit.
+
+RESOURCE ID: route_rejection_appeal_denied_description
+TEXT: After review, your appeal was denied. This Route rejection is now final and cannot be appealed again.
+
+RESOURCE ID: route_rejection_appeal_denied_title
+TEXT: Your appeal was denied
+
+RESOURCE ID: route_rejection_appeal_error_already_submitted
+TEXT: You already submitted an appeal.
+
+RESOURCE ID: route_rejection_appeal_form_details_description
+TEXT: For more in-depth information about this rejection reason, please see our <a href="route_guidelines_link">Routes Guidelines</a>.
+
+RESOURCE ID: route_rejection_appeal_form_error_all_fields
+TEXT: All fields must be completed.
+
+RESOURCE ID: route_rejection_appeal_form_language_description
+TEXT: Your responses may need to be translated in order to be reviewed.
+
+RESOURCE ID: route_rejection_appeal_form_language_header
+TEXT: Preferred language:
+
+RESOURCE ID: route_rejection_appeal_form_reasons_description
+TEXT: Share as much specific and detailed information as possible.
+
+RESOURCE ID: route_rejection_appeal_form_reasons_header
+TEXT: Reasons for appeal:
+
+RESOURCE ID: route_rejection_appeal_form_reasons_hint
+TEXT: Enter reasons...
+
+RESOURCE ID: route_rejection_appeal_form_title
+TEXT: Appeal Route Rejection
+
+RESOURCE ID: route_rejection_appeal_submitted_description
+TEXT: You can check the status of your appeal via the Routes section of your Trainer profile.
+
+You will be notified when a decision is made. If your appeal is denied, the decision is final. 
+
+RESOURCE ID: route_rejection_appeal_submitted_title
+TEXT: Appeal submitted
+
+RESOURCE ID: route_removal_appeal_approved_title
+TEXT: Your appeal was approved and your Route was republished!
+
+RESOURCE ID: route_removal_appeal_confirmation_warning
+TEXT: A Route removal can only be appealed once. Please ensure you have provided all relevant information before you submit.
+
+RESOURCE ID: route_removal_appeal_denied_description
+TEXT: After review, your appeal was denied. The removal of this Route from publication is now final and the decision cannot be appealed again.
+
+RESOURCE ID: route_removal_appeal_form_details_description
+TEXT: For more in-depth information about this report reason, please see our <a href="route_guidelines_link">Routes Guidelines</a>.
+
 RESOURCE ID: route_reported_result_description_primary_geolocation
 TEXT: Your Route was reported because it violated our <a href="route_guidelines_link">Routes Guidelines</a>. Your Route was found to travel through:
 
@@ -4684,11 +4833,38 @@ TEXT: As a result, your Route was removed from publication. Please edit and resu
 RESOURCE ID: route_reported_result_title
 TEXT: Your Route was reported
 
+RESOURCE ID: route_status_appealed
+TEXT: Appealed
+
+RESOURCE ID: route_status_appealed_timestamp
+TEXT: Appealed {0}
+
 RESOURCE ID: route_status_reported
 TEXT: Removed
 
 RESOURCE ID: route_status_reported_timestamp
 TEXT: Removed {0}
+
+RESOURCE ID: route_status_update_appeal_denied
+TEXT: Appeal denied
+
+RESOURCE ID: route_status_update_appeal_submitted
+TEXT: Appeal submitted
+
+RESOURCE ID: route_status_update_published
+TEXT: Route published
+
+RESOURCE ID: route_status_update_rejected
+TEXT: Route rejected because:
+
+RESOURCE ID: route_status_update_removed
+TEXT: Route removed because:
+
+RESOURCE ID: route_status_update_resubmitted
+TEXT: Route resubmitted
+
+RESOURCE ID: route_status_update_submitted
+TEXT: Route submitted
 
 RESOURCE ID: route_submission_bad_desc
 TEXT: Please remove all invalid characters from the Route description.
@@ -4720,6 +4896,9 @@ TEXT: If you believe this was a mistake, submit an appeal.
 RESOURCE ID: route_submission_result_reject_reasons_secondary_text
 TEXT: Please edit and resubmit your Route for review.
 
+RESOURCE ID: route_submit_appeal_button
+TEXT: SUBMIT APPEAL
+
 RESOURCE ID: routes_current_path_length
 TEXT: ROUTE LENGTH:
 
@@ -4732,8 +4911,14 @@ TEXT: Disable reactive movement for hair and clothing.
 RESOURCE ID: settings_enable_real_time_dynamics_description_on
 TEXT: Reactive movement for hair and clothing.
 
+RESOURCE ID: shop_quick_exchange_incense_ordinary
+TEXT: Exchange PokéCoins for an Incense?
+
 RESOURCE ID: shop_quick_exchange_lucky_egg
 TEXT: Exchange PokéCoins for a Lucky Egg?
+
+RESOURCE ID: shop_quick_exchange_star_piece
+TEXT: Exchange PokéCoins for a Star Piece?
 
 RESOURCE ID: shop_quick_title
 TEXT: You’re out of {0}!
@@ -4788,7 +4973,7 @@ RESOURCE ID: sr_go_tour_2024_branch_turtwig_title
 TEXT: Choose Turtwig
 
 RESOURCE ID: sr_go_tour_2024_global_event_title
-TEXT: GO Tour 2024: It's About Time (and Space) 
+TEXT: GO Tour 2024: It's About Time (and Space)
 
 RESOURCE ID: sr_go_tour_2024_global_event_title_00
 TEXT: GO Tour 2024: It’s About Time (and Space) (1/4)
@@ -4919,6 +5104,9 @@ TEXT: For now, let us wait for the professor’s return so we can learn how we c
 RESOURCE ID: story_timeless_travels_14_6
 TEXT: Thank you for your assistance. I am sure I will see you again soon.
 
+RESOURCE ID: story_timeless_travels_1_3
+TEXT: And you know what that means—it’s a great time to head out and see what Pokémon we encounter!
+
 RESOURCE ID: story_timeless_travels_9_0
 TEXT: I’m so glad to see you, %PLAYERNAME%!
 
@@ -4935,6 +5123,12 @@ TEXT: <b>Includes:</b>
 • Timed Research that awards 30,000 XP, 30,000 Stardust, and an encounter with Hisuian Growlithe
 • Hold 2× as many Gifts in your Item Bag (40 total)
 • And more!
+
+RESOURCE ID: text_rewards_key_hisuidecidueye2024
+TEXT: <b>Includes:</b>
+• Eight additional Raid Passes from spinning Photo Discs at Gyms
+• Increased chance to receive Rare Candy XL from raids
+• 50% more XP and 2× Stardust for successfully completing raids
 
 RESOURCE ID: text_rewards_key_lny2024
 TEXT: <b>Includes:</b>
