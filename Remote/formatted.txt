@@ -874,10 +874,10 @@ TEXT: Luvdisc Tambourine
 Pose
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-02-08T22:27:00.253504
-at SHA fc779fc463
-Pipeline 2091930, job 25349166
-Patch from: 0.299.0-SHA-bf2ebcde-RC3, 0.301.0-SHA-a34e83fc-RC1
+TEXT: Built at 2024-02-12T18:36:55.690955
+at SHA fa86c4f4aa
+Pipeline 2098238, job 25418984
+Patch from: 0.301.0-SHA-c4eba8c6-RC1, 0.299.1-SHA-ce408a1d-RC1
 
 RESOURCE ID: n__glasses_drpikachu_0_display_name
 TEXT: Pikachu, Ph.D. Glasses
@@ -1824,16 +1824,16 @@ RESOURCE ID: n_pants_bwn_0_display_name
 TEXT: N-Style Pants
 
 RESOURCE ID: n_pants_casual_a_0_display_name
-TEXT: Causal Pants 2
+TEXT: Causal Pants (Gray)
 
 RESOURCE ID: n_pants_casual_a_1_display_name
-TEXT: Casual Pants 1
+TEXT: Casual Pants (Khaki)
 
 RESOURCE ID: n_pants_casual_b_0_display_name
-TEXT: Casual Pants 4
+TEXT: Causal Pants (Gray)
 
 RESOURCE ID: n_pants_casual_b_1_display_name
-TEXT: Casual Pants 3
+TEXT: Casual Pants (Khaki)
 
 RESOURCE ID: n_pants_clay_0_display_name
 TEXT: Clay-Style Pants
@@ -3563,7 +3563,7 @@ RESOURCE ID: n_socks_default_a_0_display_name
 TEXT: Long Leg Warmers
 
 RESOURCE ID: n_socks_default_b_0_display_name
-TEXT: Leggings
+TEXT: Leggings (Black)
 
 RESOURCE ID: n_socks_fw2022_a_0_display_name
 TEXT: Mareanie Socks (Short)
@@ -3761,7 +3761,7 @@ RESOURCE ID: player_guidelines_ext_policy_spam
 TEXT: Spam Policy
 
 RESOURCE ID: player_guidelines_ext_policy_suicide
-TEXT: Self Harm and Suicide Policy
+TEXT: Self-Harm and Suicide Policy
 
 RESOURCE ID: player_guidelines_ext_policy_violent_actors
 TEXT: Violent Actors Policy
@@ -3876,6 +3876,12 @@ TEXT: Bullying or harassment
 
 RESOURCE ID: report_route_reason_hate
 TEXT: Hateful content
+
+RESOURCE ID: report_route_reason_inappropriate
+TEXT: Other inappropriate or irrelevant content
+
+RESOURCE ID: report_route_reason_inappropriate_ex
+TEXT: e.g. profanity, religious promotion, or political promotion 
 
 RESOURCE ID: report_route_reason_misinformation_ex
 TEXT: i.e. incorrect or misleading information
@@ -4180,6 +4186,9 @@ TEXT: Disable reactive movement for hair and clothing.
 
 RESOURCE ID: settings_enable_real_time_dynamics_description_on
 TEXT: Reactive movement for hair and clothing.
+
+RESOURCE ID: settings_route_guidance_tip_zygarde_only
+TEXT: Know when there are mysterious appearances nearby. 
 
 RESOURCE ID: shop_quick_exchange_incense_ordinary
 TEXT: Exchange PokéCoins for an Incense?
