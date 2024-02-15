@@ -176,6 +176,9 @@ TEXT: Giratina caught from raids will know the Charged Attack Shadow Force
 RESOURCE ID: bonus_road_to_sinnoh_heatran_move
 TEXT: Heatran caught from raids will know the Charged Attack Magma Storm
 
+RESOURCE ID: buddy_evolution_progress_title
+TEXT: EVOLUTION PROGRESS
+
 RESOURCE ID: carnival_of_love_event_collection_challenge
 TEXT: Carnival of Love Collection Challenge
 
@@ -201,10 +204,10 @@ RESOURCE ID: combat_arlo_quote__male_speaker
 TEXT: Arrogance leads to failure.
 
 RESOURCE ID: combat_challenge_error_1000_1
-TEXT: Battle has expired, try again
+TEXT: Battle has expired. Please try again.
 
 RESOURCE ID: combat_challenge_error_1000_2
-TEXT: Battle has expired, try again
+TEXT: Battle has expired. Please try again.
 
 RESOURCE ID: combat_cliff_quote__male_speaker
 TEXT: Too bad you’ll be losing this battle!
@@ -880,9 +883,9 @@ TEXT: Luvdisc Tambourine
 Pose
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-02-14T19:09:35.895895
-at SHA 5478752c81
-Pipeline 2105168, job 25512283
+TEXT: Built at 2024-02-15T19:18:44.804155
+at SHA c74861c9a9
+Pipeline 2108115, job 25557167
 Patch from: 0.301.0-SHA-fcdde01b-RC2, 0.299.1-SHA-ce408a1d-RC1
 
 RESOURCE ID: n__glasses_drpikachu_0_display_name
@@ -3896,7 +3899,7 @@ RESOURCE ID: report_route_reason_inappropriate
 TEXT: Other inappropriate or irrelevant content
 
 RESOURCE ID: report_route_reason_inappropriate_ex
-TEXT: e.g. profanity, religious promotion, or political promotion 
+TEXT: e.g., profanity, religious promotion, or political promotion
 
 RESOURCE ID: report_route_reason_misinformation_ex
 TEXT: i.e. incorrect or misleading information
@@ -4045,7 +4048,7 @@ RESOURCE ID: route_rejection_appeal_approved_description
 TEXT: Appeal Route Removal
 
 RESOURCE ID: route_rejection_appeal_approved_title
-TEXT: Your appeal was approved and your Route was published!
+TEXT: Your appeal was approved, and your Route was published!
 
 RESOURCE ID: route_rejection_appeal_confirmation_title
 TEXT: Are you sure you want to submit this appeal?
@@ -4063,13 +4066,13 @@ RESOURCE ID: route_rejection_appeal_error_already_submitted
 TEXT: You already submitted an appeal.
 
 RESOURCE ID: route_rejection_appeal_form_details_description
-TEXT: For more in-depth information about this rejection reason, please see our <a href="route_guidelines_link">Routes Guidelines</a>.
+TEXT: For a more in-depth description of this rejection reason, please see our <a href="route_guidelines_link">Route Guidelines</a>.
 
 RESOURCE ID: route_rejection_appeal_form_error_all_fields
 TEXT: All fields must be completed.
 
 RESOURCE ID: route_rejection_appeal_form_language_description
-TEXT: Your responses may need to be translated in order to be reviewed.
+TEXT: Your responses may need to be translated to be reviewed.
 
 RESOURCE ID: route_rejection_appeal_form_language_header
 TEXT: Preferred language:
@@ -4095,22 +4098,22 @@ RESOURCE ID: route_rejection_appeal_submitted_title
 TEXT: Appeal submitted
 
 RESOURCE ID: route_removal_appeal_approved_title
-TEXT: Your appeal was approved and your Route was republished!
+TEXT: Your appeal was approved, and your Route was republished!
 
 RESOURCE ID: route_removal_appeal_confirmation_warning
 TEXT: A Route removal can only be appealed once. Please ensure you have provided all relevant information before you submit.
 
 RESOURCE ID: route_removal_appeal_denied_description
-TEXT: After review, your appeal was denied. The removal of this Route from publication is now final and the decision cannot be appealed again.
+TEXT: After review, your appeal was denied. The removal of this Route is now final and the decision cannot be appealed again.
 
 RESOURCE ID: route_removal_appeal_form_details_description
-TEXT: For more in-depth information about this report reason, please see our <a href="route_guidelines_link">Routes Guidelines</a>.
+TEXT: For a more in-depth description of this report reason, please see our <a href="route_guidelines_link">Route Guidelines</a>.
 
 RESOURCE ID: route_reported_result_description_primary_geolocation
 TEXT: Your Route was rejected because it violated our <a href="route_guidelines_link">Route Guidelines</a>. Your Route was found to travel through:
 
 RESOURCE ID: route_reported_result_description_primary_text
-TEXT: Your Route was reported because it violated our <a href="route_guidelines_link">Route Guidelines</a>. Your Route was found to travel through:
+TEXT: Your Route was reported because it violated our <ahref="party_play_code_of_conduct_link">Player Guidelines</a>. Your Route’s title or description was found to include:
 
 RESOURCE ID: route_reported_result_description_secondary
 TEXT: As a result, your Route was removed. If you believe this is a mistake, please submit an appeal.
@@ -4193,6 +4196,9 @@ TEXT: SUBMIT APPEAL
 RESOURCE ID: routes_current_path_length
 TEXT: ROUTE LENGTH:
 
+RESOURCE ID: set_buddy_pokemon_page
+TEXT: Choose Buddy
+
 RESOURCE ID: settings_enable_real_time_dynamics
 TEXT: Reactive Movement
 
@@ -4203,7 +4209,7 @@ RESOURCE ID: settings_enable_real_time_dynamics_description_on
 TEXT: Reactive movement for hair and clothing.
 
 RESOURCE ID: settings_route_guidance_tip_zygarde_only
-TEXT: Know when there are mysterious appearances nearby. 
+TEXT: Know when there are mysterious appearances nearby.
 
 RESOURCE ID: shop_quick_exchange_incense_ordinary
 TEXT: Exchange PokéCoins for an Incense?
