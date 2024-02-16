@@ -246,6 +246,10 @@ RESOURCE ID: event_datetime_range_key_febmonthly2024
 TEXT: February 1, 10:00 a.m. –
 February 29, 8:00 p.m. local time
 
+RESOURCE ID: event_datetime_range_key_gotour2024
+TEXT: February 19, 10:00 a.m. –
+ February 25, 8:00 p.m. local time
+
 RESOURCE ID: event_datetime_range_key_hisuidecidueye2024
 TEXT: February 11, 2:00 p.m. — 10:00 p.m. local time
 
@@ -295,6 +299,33 @@ TEXT: Origin Forme
 RESOURCE ID: form_white_striped
 TEXT: White-Striped
 
+RESOURCE ID: general1.ticket.2_gotourhatch2024_description
+TEXT: A ticket to access the Road to Sinnoh: Hatch Timed Research. This will give you the following bonuses from Monday, February 19 at 10:00 a.m. to Sunday, February 25, 2024, at 8:00 p.m. local time:
+
+- 2× Hatch XP
+- 2× Hatch Stardust
+- 2× Hatch Candy
+
+Research rewards include the following:
+
+- Pikachu Mask avatar item
+- One Super Incubator
+- 4,000 Stardust
+- Opportunities to encounter Pachirisu, Chatot, Carnivine, and more!
+
+RESOURCE ID: general1.ticket.2_gotourraid2024_description
+TEXT: A ticket to access the Road to Sinnoh: Raids Timed Research. This will give you the following bonuses from Monday, February 19 at 10:00 a.m. to Sunday, February 25, 2024, at 8:00 p.m. local time:
+
+- Additional 5,000 XP awarded for successful raids
+- One additional Candy from raids
+- Two additional free Raid Passes per day from spinning Gym Photo Discs
+
+Research rewards include the following:
+
+- Eevee Mask avatar item
+- 5 Heatran Candy XL, 5 Giratina Candy XL, 5 Cresselia Candy XL, and 5 Darkrai Candy XL
+- 10 Dialga Candy and 10 Palkia Candy
+
 RESOURCE ID: general1.ticket.2_hisuidecidueye2024_description
 TEXT: A ticket to access the following bonuses on Sunday, February 11, 2024, from 2:00 p.m. to 10:00 p.m. local time, wherever you are.
 
@@ -316,6 +347,15 @@ TEXT: A ticket to access the Lunar New Year: Dragons Unleashed Timed Research fr
 <b>Please note that Timed Research expires.</b> The tasks associated with this Timed Research must be completed and their rewards claimed before February 11, 2024, at 8:00 p.m. local time.
 
 <b>You must play during the specified time to receive all the special event bonuses.</b>
+
+RESOURCE ID: general1.ticket.2_shayminmasterwork2024_description
+TEXT: A ticket to access Masterwork Research leading to an encounter with Shiny Shaymin. Additional research rewards include:
+
+- 10 Dialga Candy, 10 Palkia Candy, 10 Giratina Candy, and 30 Shaymin Candy
+- 10,548 XP and 9,840 Stardust
+- 2 Rare Candy XL and 3 Rare Candies for Trainers level 31 and up
+- 5 Rare Candies for Trainers level 30 and below
+- 60 Ultra Balls, 3 Rocket Radars, 1 Lure Module, 1 Mossy Lure Module, 1 Glacial Lure Module, 2 Incense, and more!
 
 RESOURCE ID: general1.ticket.2_tgrtakejan2024_description
 TEXT: A ticket to access the Team GO Rocket Timed Research, which includes an avatar pose as one of the rewards! This Timed Research is active from January 27, 2024, at 12:00 a.m. to February 1, 2024, at 11:59 p.m. local time.
@@ -344,6 +384,12 @@ TEXT: A ticket to access the Carnival of Love Timed Research from Tuesday, Febru
 <b>Please note that Timed Research expires.</b> The tasks associated with this Timed Research must be completed and their rewards claimed before February 15, 2024, at 8:00 p.m. local time.
 
 <b>You must play during the specified time to receive all the special event bonuses.</b>
+
+RESOURCE ID: general1.ticket._gotourhatch2024_title
+TEXT: Road to Sinnoh: Hatch
+
+RESOURCE ID: general1.ticket._gotourraid2024_title
+TEXT: Road to Sinnoh: Raids
 
 RESOURCE ID: general1.ticket._hisuidecidueye2024_title
 TEXT: Hisuian Decidueye Raid Day Ticket
@@ -803,6 +849,24 @@ TEXT: Let’s see what you’ve learned.
 RESOURCE ID: gotour_2024_sierra_victory
 TEXT: A pity this alliance is temporary... You’d reach such heights if you joined Team GO Rocket.
 
+RESOURCE ID: item_event_ticket_05_desc
+TEXT: A ticket to access the Road to Sinnoh: Hatch Timed Research from Monday, February 19 at 10:00 a.m. to Sunday, February 25, 2024, at 8:00 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_05_name
+TEXT: Road to Sinnoh: Hatch
+
+RESOURCE ID: item_event_ticket_06_desc
+TEXT: A ticket to access the Road to Sinnoh: Raids Timed Research from Monday, February 19 at 10:00 a.m. to Sunday, February 25, 2024, at 8:00 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_06_name
+TEXT: Road to Sinnoh: Raids
+
+RESOURCE ID: item_event_ticket_global_details_gotourhatch2024
+TEXT: This ticket will automatically activate to give you access to the Road to Sinnoh: Hatch Timed Research from Monday, February 19 at 10:00 a.m. to Sunday, February 25, 2024, at 8:00 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_global_details_gotourraid2024
+TEXT: This ticket will automatically activate to give you access to the Road to Sinnoh: Raids Timed Research from Monday, February 19 at 10:00 a.m. to Sunday, February 25, 2024, at 8:00 p.m. local time, wherever you are.
+
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: A ticket for Eggs-pedition Access: February, which is active from February 1 at 10:00 a.m. to February 29, 2024, at 8:00 p.m. local time, wherever you are.
 
@@ -883,10 +947,10 @@ TEXT: Luvdisc Tambourine
 Pose
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-02-15T19:18:44.804155
-at SHA c74861c9a9
-Pipeline 2108115, job 25557167
-Patch from: 0.301.0-SHA-fcdde01b-RC2, 0.299.1-SHA-ce408a1d-RC1
+TEXT: Built at 2024-02-16T01:12:23.337911
+at SHA e13e59034a
+Pipeline 2109545, job 25575741
+Patch from: 0.301.0-SHA-e334a1da-RC4, 0.299.1-SHA-ce408a1d-RC1
 
 RESOURCE ID: n__glasses_drpikachu_0_display_name
 TEXT: Pikachu, Ph.D. Glasses
@@ -1833,13 +1897,13 @@ RESOURCE ID: n_pants_bwn_0_display_name
 TEXT: N-Style Pants
 
 RESOURCE ID: n_pants_casual_a_0_display_name
-TEXT: Causal Pants (Gray)
+TEXT: Casual Pants (Gray)
 
 RESOURCE ID: n_pants_casual_a_1_display_name
 TEXT: Casual Pants (Khaki)
 
 RESOURCE ID: n_pants_casual_b_0_display_name
-TEXT: Causal Pants (Gray)
+TEXT: Casual Pants (Gray)
 
 RESOURCE ID: n_pants_casual_b_1_display_name
 TEXT: Casual Pants (Khaki)
@@ -3569,10 +3633,10 @@ RESOURCE ID: n_shoes_winterboots_3_display_name
 TEXT: Winter Boots (Green)
 
 RESOURCE ID: n_socks_default_a_0_display_name
-TEXT: Long Leg Warmers
+TEXT: Leggings (Gray Stripe)
 
 RESOURCE ID: n_socks_default_b_0_display_name
-TEXT: Leggings (Black)
+TEXT: Leggings (Red Stripe)
 
 RESOURCE ID: n_socks_fw2022_a_0_display_name
 TEXT: Mareanie Socks (Short)
@@ -3774,6 +3838,9 @@ TEXT: Self-Harm and Suicide Policy
 
 RESOURCE ID: player_guidelines_ext_policy_violent_actors
 TEXT: Violent Actors Policy
+
+RESOURCE ID: player_guidelines_link_dsa
+TEXT: https://nianticlabs.com/safety/player-guidelines
 
 RESOURCE ID: pokemon_desc_0483_2829
 TEXT: Radiant light caused Dialga to take on a form bearing a striking resemblance to the creator Pokémon. Dialga now wields such colossal strength that one must conclude this is its true form.
@@ -4377,6 +4444,27 @@ TEXT: I’m sure you’ve noticed more Team GO Rocket skulking about lately.
 RESOURCE ID: story_timeless_travels_9_2
 TEXT: Would you mind poking around for clues about whatever scheme they’re up to now?
 
+RESOURCE ID: text_rewards_key_gotourhatch2024
+TEXT: <b>Included bonuses:</b>
+• 2× Hatch XP
+• 2× Hatch Stardust
+• 2× Hatch Candy
+<b>Included rewards:</b>
+• Pikachu Mask avatar item
+• One Super Incubator
+• 4,000 Stardust
+• Opportunities to encounter Pachirisu, Chatot, Carnivine, and more!
+
+RESOURCE ID: text_rewards_key_gotourraid2024
+TEXT: <b>Included bonuses:</b>
+• Additional 5,000 XP awarded for successful raids
+• One additional Candy from raids 
+• Two additional free Raid Passes per day from spinning Gym Photo Discs
+<b>Included rewards:</b>
+• Eevee Mask avatar item
+• 5 Heatran Candy XL, 5 Giratina Candy XL, 5 Cresselia Candy XL, and 5 Darkrai Candy XL
+• 10 Dialga Candy and 10 Palkia Candy
+
 RESOURCE ID: text_rewards_key_hisuidecidueye2024
 TEXT: <b>Includes:</b>
 • Eight additional Raid Passes from spinning Photo Discs at Gyms
@@ -4389,6 +4477,15 @@ TEXT: <b>Includes:</b>
 • 2 Lucky Eggs
 • 12,000 XP and 6,000 Stardust
 • And more!
+
+RESOURCE ID: text_rewards_key_shayminmasterwork2024
+TEXT: <b>Includes:</b>
+• An encounter with Shiny Shaymin
+• 10 Dialga Candy, 10 Palkia Candy, 10 Giratina Candy, and 30 Shaymin Candy
+• 10,548 XP and 9,840 Stardust
+• 2 Rare Candy XL and 3 Rare Candies for Trainers level 31 and up
+• 5 Rare Candies for Trainers level 30 and below
+• 60 Ultra Balls, 3 Rocket Radars, 1 Lure Module, 1 Mossy Lure Module, 1 Glacial Lure Module, 2 Incense, and more!
 
 RESOURCE ID: text_rewards_key_tgrtakejan2024
 TEXT: <b>Includes:</b>
