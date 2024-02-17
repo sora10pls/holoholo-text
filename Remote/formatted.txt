@@ -947,9 +947,9 @@ TEXT: Luvdisc Tambourine
 Pose
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-02-16T01:12:23.337911
-at SHA e13e59034a
-Pipeline 2109545, job 25575741
+TEXT: Built at 2024-02-17T00:19:28.202346
+at SHA c2cf4011b4
+Pipeline 2112540, job 25618279
 Patch from: 0.301.0-SHA-e334a1da-RC4, 0.299.1-SHA-ce408a1d-RC1
 
 RESOURCE ID: n__glasses_drpikachu_0_display_name
@@ -3945,7 +3945,7 @@ RESOURCE ID: report_route_header_1_b
 TEXT: This Route violates our <a href="route_guidelines_link">Route Guidelines</a> by traveling through:
 
 RESOURCE ID: report_route_header_2_b
-TEXT: This Route violates our <a href="party_play_code_of_conduct_link">Player Guidelines</a> by including:
+TEXT: This Route violates <a href="player_guidelines_link_dsa">Player Guidelines</a> by including:
 
 RESOURCE ID: report_route_issue_type_violation_b
 TEXT: Player Guidelines or Route Guidelines violation
@@ -4034,6 +4034,9 @@ TEXT: Pauses the timers of the following items, extending their duration:
 RESOURCE ID: route_appeal_info_link
 TEXT: https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/135-submitting-a-ban-appeal/
 
+RESOURCE ID: route_completion_modal_description
+TEXT: 
+
 RESOURCE ID: route_completion_toast
 TEXT: Open the Route menu when you are ready to complete your Route.
 
@@ -4047,57 +4050,61 @@ RESOURCE ID: route_enforcement_cta_b
 TEXT: If you believe this was a mistake, please <a href="route_appeal_info_link">submit an appeal</a>.
 
 RESOURCE ID: route_enforcement_long_ban_context
-TEXT: Further violations may result in a permanent ban from Pokémon GO. Please review our Player Guidelines to avoid future violations.
+TEXT: Further violations may result in a permanent ban from Pokémon GO. Please review our <a href="player_guidelines_link_dsa">Player Guidelines</a> to avoid future violations. 
 
 RESOURCE ID: route_enforcement_long_ban_description_b
-TEXT: Your Pokémon GO account has been banned for {0} years due to repeated or severe violations against our Player Guidelines.
+TEXT: Your Pokémon GO account has been banned for {0} years due to repeated or severe violations against our <a href="player_guidelines_link_dsa">Player Guidelines</a>.
 
 One or more of the Routes you created was found to violate the following policies:
 
 RESOURCE ID: route_enforcement_long_ban_description_b_singular
-TEXT: Your Pokémon GO account has been banned for {0} years due to repeated or severe violations against our Player Guidelines.
+TEXT: Your Pokémon GO account has been banned for {0} years due to repeated or severe violations against our <a href="player_guidelines_link_dsa">Player Guidelines</a>.
 
 One or more of the Routes you created was found to violate the following policy:
 
 RESOURCE ID: route_enforcement_permanent_ban_description_b
-TEXT: Your Pokémon GO account has been banned due to repeated or severe violations against our Player Guidelines.
+TEXT: Your Pokémon GO account has been banned due to repeated or severe violations against our <a href="player_guidelines_link_dsa">Player Guidelines</a>.
 
 One or more of the Routes you created was found to violate the following policies:
 
 RESOURCE ID: route_enforcement_permanent_ban_description_b_singular
-TEXT: Your Pokémon GO account has been banned due to repeated or severe violations against our Player Guidelines.
+TEXT: Your Pokémon GO account has been banned due to repeated or severe violations against our <a href="player_guidelines_link_dsa">Player Guidelines</a>.
 
 One or more of the Routes you created was found to violate the following policy:
 
 RESOURCE ID: route_enforcement_suspension_context
-TEXT: You can access your Pokémon GO account in {0} days. Further violations may result in a permanent ban from Pokémon GO. Please review our Player Guidelines to avoid future violations. 
+TEXT: You can access your Pokémon GO account in {0} days. Further violations may result in a permanent ban from Pokémon GO. Please review our <a href="player_guidelines_link_dsa">Player Guidelines</a> to avoid future violations. 
 
 RESOURCE ID: route_enforcement_suspension_context_singular
-TEXT: You can access your Pokémon GO account in 1 day. Further violations may result in a permanent ban from Pokémon GO. Please review our Player Guidelines to avoid future violations. 
+TEXT: You can access your Pokémon GO account in 1 day. Further violations may result in a permanent ban from Pokémon GO. Please review our <a href="player_guidelines_link_dsa">Player Guidelines</a> to avoid future violations. 
 
 RESOURCE ID: route_enforcement_suspension_description_b
-TEXT: Your Pokémon GO account has been suspended for {0} days due to repeated or severe violations against our Player Guidelines.
+TEXT: Your Pokémon GO account has been suspended for {0} days due to repeated or severe violations against our <a href="player_guidelines_link_dsa">Player Guidelines</a>.
 
 One or more of the Routes you created was found to violate the following policies:
 
 RESOURCE ID: route_enforcement_suspension_description_b_singular
-TEXT: Your Pokémon GO account has been suspended for {0} days due to repeated or severe violations against our Player Guidelines.
+TEXT: Your Pokémon GO account has been suspended for {0} days due to repeated or severe violations against our <a href="player_guidelines_link_dsa">Player Guidelines</a>.
 
 One or more of the Routes you created was found to violate the following policy:
 
 RESOURCE ID: route_enforcement_warning_context
-TEXT: Further violations may result in a temporary suspension from Pokémon GO.
+TEXT: Further violations may result in a temporary suspension from Pokémon GO. Please help us create the best possible Routes experience by following our <a href="player_guidelines_link_dsa">Player Guidelines</a>.
 
 RESOURCE ID: route_enforcement_warning_description_primary_b
-TEXT: This is a reminder to follow our <a href="party_play_code_of_conduct_link">Player Guidelines</a> while creating Routes. One or more of the Routes you created was found to violate the following policies:
+TEXT: This is a reminder to follow our <a href="player_guidelines_link_dsa">Player Guidelines</a> while creating Routes.
+
+One or more of the Routes you created was found to violate the following policies:
 
 RESOURCE ID: route_enforcement_warning_description_primary_b_singular
-TEXT: This is a reminder to follow our <a href="party_play_code_of_conduct_link">Player Guidelines</a> while creating Routes. One or more of the Routes you created was found to violate the following policy:
+TEXT: This is a reminder to follow our <a href="player_guidelines_link_dsa">Player Guidelines</a> while creating Routes.
+
+One or more of the Routes you created was found to violate the following policy:
 
 RESOURCE ID: route_enforcement_warning_description_secondary_b
-TEXT: Please help us create the best possible Routes experience by following our <a href="party_play_code_of_conduct_link">Player Guidelines</a>. Thank you for playing Pokémon GO!
+TEXT: Thank you for playing Pokémon GO!
 
-If you believe this was a mistake, <a href="route_appeal_info_link">please submit an appeal</a>.
+If you believe this was a mistake, <a href="route_appeal_info_link">submit an appeal</a>.
 
 RESOURCE ID: route_enforcement_warning_title
 TEXT: Policy Reminder
@@ -4159,7 +4166,7 @@ TEXT: Appeal Route Rejection
 RESOURCE ID: route_rejection_appeal_submitted_description
 TEXT: You can check the status of your appeal via the Routes section of your Trainer profile.
 
-You will be notified when a decision is made. If your appeal is denied, the decision is final. 
+You will be notified when a decision is made. If your appeal is denied, the decision is final.
 
 RESOURCE ID: route_rejection_appeal_submitted_title
 TEXT: Appeal submitted
@@ -4180,7 +4187,7 @@ RESOURCE ID: route_reported_result_description_primary_geolocation
 TEXT: Your Route was rejected because it violated our <a href="route_guidelines_link">Route Guidelines</a>. Your Route was found to travel through:
 
 RESOURCE ID: route_reported_result_description_primary_text
-TEXT: Your Route was reported because it violated our <ahref="party_play_code_of_conduct_link">Player Guidelines</a>. Your Route’s title or description was found to include:
+TEXT: Your Route was reported because it violated our <a href="player_guidelines_link_dsa">Player Guidelines</a>. Your Route’s title or description was found to include:
 
 RESOURCE ID: route_reported_result_description_secondary
 TEXT: As a result, your Route was removed. If you believe this is a mistake, please submit an appeal.
@@ -4233,6 +4240,11 @@ TEXT: Please remove all invalid characters from the Route description.
 RESOURCE ID: route_submission_bad_name
 TEXT: Please remove all invalid characters from the Route title.
 
+RESOURCE ID: route_submission_result_publish_description
+TEXT: Please note, it may take some time for your Route to become visible.
+
+Thank you for your contribution to the Pokémon GO community!
+
 RESOURCE ID: route_submission_result_reject_message_bullying
 TEXT: Niantic does not allow bullying, harassment, humiliation, or threats against anyone.
 
@@ -4243,13 +4255,13 @@ RESOURCE ID: route_submission_result_reject_message_suicide
 TEXT: If you or someone you know has thoughts of suicide or self-harm, help is available. Please take a look at the <a href="route_mental_health_resources_link">Mental Health Resources</a> page.
 
 RESOURCE ID: route_submission_result_reject_reasons_generic
-TEXT: Violates Route Guidelines or Player Guidelines. 
+TEXT: Violates Route Guidelines or Player Guidelines.
 
 RESOURCE ID: route_submission_result_reject_reasons_primary_geolocation
 TEXT: Your Route was rejected because it violated our <a href="route_guidelines_link">Routes Guidelines</a>. Your Route was found to travel through:
 
 RESOURCE ID: route_submission_result_reject_reasons_primary_text
-TEXT: Your Route was rejected because it violated our <a href="party_play_code_of_conduct_link">Player Guidelines</a>. Your Route’s title or description was found to include:
+TEXT: Your Route was rejected because it violated our <a href="player_guidelines_link_dsa">Player Guidelines</a>. Your Route’s title or description was found to include:
 
 RESOURCE ID: route_submission_result_reject_reasons_secondary_geolocation
 TEXT: If you believe this was a mistake, please submit an appeal.
