@@ -950,10 +950,10 @@ TEXT: Luvdisc Tambourine
 Pose
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-02-20T23:30:58.702798
-at SHA 7dcc2795df
-Pipeline 2117706, job 25687424
-Patch from: 0.301.0-SHA-fcdde01b-RC2, 0.299.1-SHA-ce408a1d-RC1, 0.303.0-SHA-bd58f209-RC1
+TEXT: Built at 2024-02-22T18:14:21.758281
+at SHA 614c9900e9
+Pipeline 2123949, job 25771672
+Patch from: 0.301.0-SHA-a2488088-RC3, 0.303.0-SHA-bd58f209-RC1, 0.299.1-SHA-ce408a1d-RC1
 
 RESOURCE ID: n__glasses_drpikachu_0_display_name
 TEXT: Pikachu, Ph.D. Glasses
@@ -3938,6 +3938,9 @@ TEXT: And now that we’re finished, I’m famished. It’s time for me to go en
 RESOURCE ID: raid_day_hisuian_decidueye
 TEXT: Raid Day: Hisuian Decidueye
 
+RESOURCE ID: raid_xp_25_fivestar
+TEXT: 1.25× XP for five-star raids
+
 RESOURCE ID: report_route_error_issue_type_max
 TEXT: You already reported this Route for this type of issue. You can report it again in {0} days.
 
@@ -4192,14 +4195,14 @@ TEXT: Your Route was rejected because it violated our <a href="route_guidelines_
 RESOURCE ID: route_reported_result_description_primary_text
 TEXT: Your Route was reported because it violated our <a href="player_guidelines_link_dsa">Player Guidelines</a>. Your Route’s title or description was found to include:
 
-RESOURCE ID: route_reported_result_description_secondary
+RESOURCE ID: route_reported_result_description_secondary_appeal
 TEXT: As a result, your Route was removed. If you believe this is a mistake, please submit an appeal.
+
+RESOURCE ID: route_reported_result_description_secondary_edit
+TEXT: As a result, your Route was removed. Please edit and resubmit your Route.
 
 RESOURCE ID: route_reported_result_description_secondary_final
 TEXT: As a result, your Route was removed.
-
-RESOURCE ID: route_reported_result_description_tertiary
-TEXT: As a result, your Route was removed. Please edit and resubmit your Route.
 
 RESOURCE ID: route_reported_result_title
 TEXT: Your Route was reported
@@ -4267,7 +4270,7 @@ RESOURCE ID: route_submission_result_reject_reasons_primary_text
 TEXT: Your Route was rejected because it violated our <a href="player_guidelines_link_dsa">Player Guidelines</a>. Your Route’s title or description was found to include:
 
 RESOURCE ID: route_submission_result_reject_reasons_secondary_geolocation
-TEXT: If you believe this was a mistake, please submit an appeal.
+TEXT:  
 
 RESOURCE ID: route_submission_result_reject_reasons_secondary_text
 TEXT: Please edit and resubmit your Route for review.
