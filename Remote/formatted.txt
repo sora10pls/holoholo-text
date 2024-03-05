@@ -23,16 +23,16 @@ RESOURCE ID: anime_collab_march5_tr
 TEXT: Captain Pikachu’s Bonus Timed Research
 
 RESOURCE ID: ar_plus_arcore_installation_desc
-TEXT: AR requires ARCore to be installed. Do you want to install now? You'll need to restart Pokémon GO.
+TEXT: AR requires ARCore to be installed. Do you want to install ARCore now? You’ll need to restart Pokémon GO.
 
 RESOURCE ID: ar_plus_arcore_update_desc
-TEXT: AR requires an updated ARCore. Do you want to update now? You'll need to restart Pokémon GO.
+TEXT: ARCore must be updated to use AR. Do you want to update now? You’ll need to restart Pokémon GO.
 
 RESOURCE ID: ar_plus_ios_update_desc
-TEXT: AR requires an updated version of iOS. Do you want to update now? You'll need to restart Pokémon GO.
+TEXT: Your device requires an iOS update to use AR. Do you want to update now? You’ll need to restart Pokémon GO.
 
 RESOURCE ID: ar_plus_safety_toast
-TEXT: Make sure to use AR only while in a safe location.
+TEXT: Make sure you only use AR while in a safe location.
 
 RESOURCE ID: avatar_f_hat_poipole_00_bundle_icon
 TEXT: Poipole Helmet
@@ -225,6 +225,9 @@ TEXT: Joltik
 
 RESOURCE ID: buddy_evolution_progress_title
 TEXT: EVOLVE
+
+RESOURCE ID: catch_cup_little_title
+TEXT: Catch Cup: Little Edition
 
 RESOURCE ID: collection_aa2024_bali_day_01
 TEXT: Pikachu’s Indonesia Journey Collection Challenge
@@ -422,7 +425,7 @@ RESOURCE ID: gym_raid
 TEXT: ELITE RAID GYM
 
 RESOURCE ID: gym_raid_message
-TEXT: This is an Elite Raid Gym. This Gym is capable of hosting Elite Raids.
+TEXT: This is an Elite Raid Gym. This Gym can host Elite Raids.
 
 RESOURCE ID: gym_raid_title
 TEXT: ELITE RAID GYM
@@ -488,10 +491,9 @@ RESOURCE ID: m_avatar_poses_bundle_pose_62
 TEXT: Hala-Style Pose
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-03-01T22:53:03.457585
-at SHA 1e0b115587
-Pipeline 2145763, job 26057790
-Patch from: 0.303.0-SHA-9eaec405-RC4, 0.301.0-SHA-a34e83fc-RC1
+TEXT: Built at 2024-03-05T00:58:03.149384
+at SHA 96df414e92
+Patch from: 0.301.0-SHA-aef213e0-RC5, 0.303.0-SHA-ab10f723-RC2, 0.305.0-SHA-4804483c-RC1
 
 RESOURCE ID: move_name_0390
 TEXT: Nature’s Madness
@@ -1006,8 +1008,14 @@ TEXT: Team Magma Shoes (Classic)
 RESOURCE ID: n_shoes_teamrocket_a_0_display_name
 TEXT: Team Rocket Boots (Tall)
 
+RESOURCE ID: n_shoes_teamrocket_a_1_display_name
+TEXT: Team Rainbow Rocket Boots (Tall)
+
 RESOURCE ID: n_shoes_teamrocket_b_0_display_name
 TEXT: Team Rocket Boots (Short)
+
+RESOURCE ID: n_shoes_teamrocket_b_1_display_name
+TEXT: Team Rainbow Rocket Boots (Short)
 
 RESOURCE ID: n_shoes_teamskull_a_0_display_name
 TEXT: Team Skull Shoes (Tall)
@@ -1061,16 +1069,16 @@ RESOURCE ID: party_play_claim_challenge_reward_toast
 TEXT: You must claim your Party Challenge reward first.
 
 RESOURCE ID: party_play_encounter_challenge_reward_tutorial_body
-TEXT: For Pokémon encounters rewarded by Party Challenges, only one encounter can be kept in the Party Tab at a time.
+TEXT: Only one encounter earned from Party Challenges can be kept on the party page at a time.
 
 RESOURCE ID: party_play_encounter_challenge_reward_tutorial_title
 TEXT: Party Challenge Encounters
 
 RESOURCE ID: party_play_encounter_challenge_reward_warning_body
-TEXT: Only one Pokémon encounter can be kept in the Party Tab at a time.
+TEXT: Only one Pokémon encounter can be kept on the party page at a time.
 
 RESOURCE ID: party_play_encounter_challenge_reward_warning_title
-TEXT: Do you want to flee this encounter?
+TEXT: Are you sure you want to leave this encounter?
 
 RESOURCE ID: party_play_end_extra_generic
 TEXT: Others
@@ -1120,6 +1128,9 @@ TEXT: Which of these Pokémon are you looking forward to encountering the most?
 RESOURCE ID: quest_special_dialogue_season8_3_0
 TEXT: Hey, %PLAYERNAME%! Great to see you, as always.
 
+RESOURCE ID: quests_log_complete_party_quest
+TEXT: Completed Party Research: {0}
+
 RESOURCE ID: raid_xp_25_fivestar
 TEXT: 1.25× XP for five-star raids
 
@@ -1138,6 +1149,9 @@ TEXT: This Route violates our <a href="player_guidelines_link_dsa">Player Guidel
 RESOURCE ID: report_route_issue_type_violation_b
 TEXT: Player Guidelines or Route Guidelines violation
 
+RESOURCE ID: report_route_reason_cheating
+TEXT: Game cheats or hacks
+
 RESOURCE ID: report_route_reason_child_safety
 TEXT: Content that is unsafe for children
 
@@ -1153,11 +1167,14 @@ TEXT: e.g., places that may violate someone's privacy or cause someone discomfor
 RESOURCE ID: report_route_reason_misinformation_ex
 TEXT: i.e., incorrect or misleading information
 
+RESOURCE ID: report_route_reason_self_harm
+TEXT: Messages of self-harm or suicide
+
 RESOURCE ID: route_completion_modal_description
 TEXT: 
 
 RESOURCE ID: route_enforcement_long_ban_context
-TEXT: Further violations may result in a permanent ban from Pokémon GO. Please review our <a href="player_guidelines_link_dsa">Player Guidelines</a> to avoid future violations. 
+TEXT: Further violations may result in a permanent ban from Pokémon GO. Please review our <a href="player_guidelines_link_dsa">Player Guidelines</a> to avoid future violations.
 
 RESOURCE ID: route_enforcement_long_ban_description_b
 TEXT: Your Pokémon GO account has been banned for {0} years due to repeated or severe violations against our <a href="player_guidelines_link_dsa">Player Guidelines</a>.
@@ -1180,10 +1197,10 @@ TEXT: Your Pokémon GO account has been banned due to repeated or severe violati
 One or more of the Routes you created was found to violate the following policy:
 
 RESOURCE ID: route_enforcement_suspension_context
-TEXT: You can access your Pokémon GO account in {0} days. Further violations may result in a permanent ban from Pokémon GO. Please review our <a href="player_guidelines_link_dsa">Player Guidelines</a> to avoid future violations. 
+TEXT: You can access your Pokémon GO account in {0} days. Further violations may result in a permanent ban from Pokémon GO. Please review our <a href="player_guidelines_link_dsa">Player Guidelines</a> to avoid future violations.
 
 RESOURCE ID: route_enforcement_suspension_context_singular
-TEXT: You can access your Pokémon GO account in 1 day. Further violations may result in a permanent ban from Pokémon GO. Please review our <a href="player_guidelines_link_dsa">Player Guidelines</a> to avoid future violations. 
+TEXT: You can access your Pokémon GO account in 1 day. Further violations may result in a permanent ban from Pokémon GO. Please review our <a href="player_guidelines_link_dsa">Player Guidelines</a> to avoid future violations.
 
 RESOURCE ID: route_enforcement_suspension_description_b
 TEXT: Your Pokémon GO account has been suspended for {0} days due to repeated or severe violations against our <a href="player_guidelines_link_dsa">Player Guidelines</a>.
@@ -1221,6 +1238,15 @@ Thank you for your contribution to the Pokémon GO community!
 RESOURCE ID: route_rejection_appeal_approved_title
 TEXT: Your appeal was approved, and your Route was published!
 
+RESOURCE ID: route_rejection_appeal_error_reason_bad_desc
+TEXT: Please remove all invalid characters from your response.
+
+RESOURCE ID: route_rejection_appeal_error_reason_invalid
+TEXT: This Route rejection or removal cannot be appealed.
+
+RESOURCE ID: route_rejection_appeal_error_reason_length
+TEXT: Your response must not exceed {0} characters.
+
 RESOURCE ID: route_rejection_appeal_form_details_description
 TEXT: For a more in-depth description of this rejection reason, please see our <a href="route_guidelines_link">Route Guidelines</a>.
 
@@ -1244,6 +1270,9 @@ TEXT: For a more in-depth description of this report reason, please see our <a h
 RESOURCE ID: route_removal_appeal_form_title
 TEXT: Appeal Route Removal
 
+RESOURCE ID: route_report_body
+TEXT: When you report a Route to Niantic, we review the Route and take appropriate action in line with our policies. Your identity will never be shared with the Route’s creator. By submitting a report, you confirm that the report is truthful.
+
 RESOURCE ID: route_reported_result_description_primary_geolocation
 TEXT: Your Route was rejected because it violated our <a href="route_guidelines_link">Route Guidelines</a>. Your Route was found to travel through:
 
@@ -1259,6 +1288,9 @@ TEXT: As a result, your Route was removed. Please edit and resubmit your Route.
 RESOURCE ID: route_reported_result_description_secondary_final
 TEXT: As a result, your Route was removed.
 
+RESOURCE ID: route_sort_proximity
+TEXT: Distance to start point
+
 RESOURCE ID: route_submission_result_publish_description
 TEXT: Please note, it may take some time for your Route to become visible.
 
@@ -1271,13 +1303,19 @@ RESOURCE ID: route_submission_result_reject_message_suicide
 TEXT: If you or someone you know has thoughts of suicide or self-harm, help is available. Please take a look at the <a href="route_mental_health_resources_link">Mental Health Resources</a> page.
 
 RESOURCE ID: route_submission_result_reject_reasons_generic
-TEXT: Violates Route Guidelines or Player Guidelines.
+TEXT: violative content
 
 RESOURCE ID: route_submission_result_reject_reasons_primary_text
 TEXT: Your Route was rejected because it violated our <a href="player_guidelines_link_dsa">Player Guidelines</a>. Your Route’s title or description was found to include:
 
 RESOURCE ID: route_submission_result_reject_reasons_secondary_geolocation
-TEXT:  
+TEXT: 
+
+RESOURCE ID: routes_path_length_max
+TEXT: (Max: {0} km)
+
+RESOURCE ID: routes_path_length_min_meters
+TEXT: (Min: {0} m)
 
 RESOURCE ID: sa_forgot_password_url
 TEXT: https://sso.niantic.kidswebservices.com/en/password/forgot
@@ -1489,4 +1527,7 @@ TEXT: Wonder Ticket Part 3 (2/3)
 
 RESOURCE ID: wonder_ticket_part_3_sub_3
 TEXT: Wonder Ticket Part 3 (3/3)
+
+RESOURCE ID: zygarde_tappable_push_notification_combined
+TEXT: Something mysterious appeared! Open Pokémon GO to investigate.
 
