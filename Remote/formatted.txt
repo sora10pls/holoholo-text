@@ -281,7 +281,10 @@ RESOURCE ID: electric_rd_mar24_tr_title
 TEXT: Charged-Up Research Day Timed Research
 
 RESOURCE ID: encounter_caught_pokemon_held_item_plural
-TEXT: {0} dropped {1}!
+TEXT: {0} dropped {2} {1}!
+
+RESOURCE ID: encounter_caught_pokemon_held_item_singular
+TEXT: {0} dropped 1 {1}!
 
 RESOURCE ID: europe_international_championships_bonus_2024
 TEXT: 2024 Pokémon Europe International Championships – Bonus
@@ -533,10 +536,10 @@ RESOURCE ID: m_avatar_poses_bundle_pose_62
 TEXT: Hala-Style Pose
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-03-06T20:42:49.044487
-at SHA 2eeebd0418
-Pipeline 2155781, job 26184512
-Patch from: 0.301.0-SHA-fcdde01b-RC2, 0.305.0-SHA-4804483c-RC1, 0.303.0-SHA-ab10f723-RC2
+TEXT: Built at 2024-03-08T21:06:59.875064+00:00 for en-US
+at SHA 6a220cf67b
+Pipeline 2162601, job 26266376
+Patch from: 0.301.0-SHA-c4eba8c6-RC1, 0.303.0-SHA-9eaec405-RC4, 0.305.0-SHA-f544791d-RC2
 
 RESOURCE ID: move_name_0390
 TEXT: Nature’s Madness
@@ -1097,7 +1100,7 @@ RESOURCE ID: n_socks_fw2022_b_0_display_name
 TEXT: Mareanie Socks (Short)
 
 RESOURCE ID: neutral_avatar_exit_style_shop_description
-TEXT: You don’t own some of the items you have selected.
+TEXT: You can only wear owned items before leaving the shop.
 
 RESOURCE ID: neutral_avatar_exit_style_shop_purchase
 TEXT: EXCHANGE
@@ -1107,6 +1110,9 @@ TEXT: REMOVE AND EXIT
 
 RESOURCE ID: neutral_avatar_exit_style_shop_title
 TEXT: Exchange PokéCoins for items you don’t own?
+
+RESOURCE ID: neutral_avatar_set_display_name
+TEXT: Set
 
 RESOURCE ID: party_play_claim_challenge_reward_toast
 TEXT: You must claim your Party Challenge reward first.
@@ -1125,6 +1131,9 @@ TEXT: Are you sure you want to leave this encounter?
 
 RESOURCE ID: party_play_end_extra_generic
 TEXT: Others
+
+RESOURCE ID: party_play_error_already_awarded
+TEXT: Reward has already been awarded.
 
 RESOURCE ID: player_guidelines_ext_policy_suicide
 TEXT: Self-Harm and Suicide Policy
@@ -1192,6 +1201,9 @@ TEXT: 1.25× XP for one-star and three-star raids
 RESOURCE ID: raid_xp_50_onethreestar
 TEXT: 1.5× XP for one-star and three-star raids
 
+RESOURCE ID: rating_updated_toast
+TEXT: Rating updated.
+
 RESOURCE ID: report_route_header_1_b
 TEXT: This Route violates our <a href="route_guidelines_link">Route Guidelines</a> by traveling through:
 
@@ -1222,8 +1234,35 @@ TEXT: i.e., incorrect or misleading information
 RESOURCE ID: report_route_reason_self_harm
 TEXT: Messages of self-harm or suicide
 
+RESOURCE ID: route_change_rating_button
+TEXT: CHANGE RATING
+
+RESOURCE ID: route_community_activity
+TEXT: Community Activity
+
 RESOURCE ID: route_completion_modal_description
 TEXT: 
+
+RESOURCE ID: route_elevation_profile_label_flat
+TEXT: Flat
+
+RESOURCE ID: route_elevation_profile_label_mostly_flat
+TEXT: Mostly Flat
+
+RESOURCE ID: route_elevation_profile_label_slightly_hilly
+TEXT: Slightly Hilly
+
+RESOURCE ID: route_elevation_profile_label_steep_decline
+TEXT: Steep Decline
+
+RESOURCE ID: route_elevation_profile_label_steep_incline
+TEXT: Steep Incline
+
+RESOURCE ID: route_elevation_profile_label_very_hilly
+TEXT: Very Hilly
+
+RESOURCE ID: route_end_points_closed_error
+TEXT: You cannot follow this Route right now because the start or end point is closed.
 
 RESOURCE ID: route_enforcement_long_ban_context
 TEXT: Further violations may result in a permanent ban from Pokémon GO. Please review our <a href="player_guidelines_link_dsa">Player Guidelines</a> to avoid future violations.
@@ -1281,6 +1320,21 @@ RESOURCE ID: route_enforcement_warning_description_secondary_b
 TEXT: Thank you for playing Pokémon GO!
 
 If you believe this was a mistake, please <a href="route_appeal_info_link">submit an appeal</a>.
+
+RESOURCE ID: route_last_trip_label
+TEXT: Last Trip
+
+RESOURCE ID: route_no_rating
+TEXT: No Ratings
+
+RESOURCE ID: route_not_public_error
+TEXT: You cannot follow this Route because it is no longer public.
+
+RESOURCE ID: route_rate_button
+TEXT: RATE ROUTE
+
+RESOURCE ID: route_rating_change_error
+TEXT: You already changed the rating for this Route today. You can change it again tomorrow.
 
 RESOURCE ID: route_rejection_appeal_approved_description
 TEXT: Please note, it may take some time for your Route to become visible.
@@ -1343,6 +1397,12 @@ TEXT: As a result, your Route was removed.
 RESOURCE ID: route_sort_proximity
 TEXT: Distance to start point
 
+RESOURCE ID: route_sort_rating
+TEXT: RATING
+
+RESOURCE ID: route_sort_trips
+TEXT: TRIPS
+
 RESOURCE ID: route_submission_result_publish_description
 TEXT: Please note, it may take some time for your Route to become visible.
 
@@ -1362,6 +1422,12 @@ TEXT: Your Route was rejected because it violated our <a href="player_guidelines
 
 RESOURCE ID: route_submission_result_reject_reasons_secondary_geolocation
 TEXT: 
+
+RESOURCE ID: route_total_trips_label
+TEXT: Total Trips
+
+RESOURCE ID: route_your_activity
+TEXT: Your Activity
 
 RESOURCE ID: routes_path_length_max
 TEXT: (Max: {0} km)
@@ -1383,6 +1449,9 @@ TEXT: Choose Buddy
 
 RESOURCE ID: settings_ar_plus
 TEXT: AR
+
+RESOURCE ID: settings_daily_bonus_reminder
+TEXT: Daily Bonus Reminder
 
 RESOURCE ID: settings_legendary_multi_selection_confirmation_description
 TEXT: Enabling this setting will allow you to transfer Legendary Pokémon, Ultra Beasts, and certain Mythical Pokémon when selecting multiple Pokémon in your Pokémon storage. Transferring Pokémon to Professor Willow cannot be undone.
@@ -1554,6 +1623,9 @@ TEXT: Check your network settings or find a location where you have coverage.
 
 RESOURCE ID: vps_localization_stop_server_error_body
 TEXT: Sorry, something went wrong. Please try again later.
+
+RESOURCE ID: weather_boost_bonus_stardust
+TEXT: Increased Stardust from Pokémon caught with Weather Boost
 
 RESOURCE ID: wonder_ticket
 TEXT: Wonder Ticket
