@@ -1,5 +1,5 @@
 # holoholo-text
-Repository containing English text for Pokémon GO.  
+A repository containing all text for Pokémon GO, in all available languages.  
 Includes text from the latest release (0.305.0), as well as the latest remote text.
 
 # Credits
