@@ -304,11 +304,14 @@ TEXT: วันวิจัยชารจไฟ: บาชูรุ
 RESOURCE ID: electric_rd_mar24_tr_title
 TEXT: งานวิจัยแบบจำกัดเวลา "วันวิจัยชารจไฟ"
 
+RESOURCE ID: encounter_caught_pokemon_held_item
+TEXT: {0}มี{1}ดวยละ!
+
 RESOURCE ID: encounter_caught_pokemon_held_item_plural
-TEXT: {0} มี {1} ดวยละ!
+TEXT: {0}มี{1} {2} ชิ้นดวยละ!
 
 RESOURCE ID: encounter_caught_pokemon_held_item_singular
-TEXT: {0} dropped 1 {1}!
+TEXT: {0}มี{1} 1 ชิ้นดวยละ!
 
 RESOURCE ID: europe_international_championships_bonus_2024
 TEXT: Pokémon Europe International Championships 2024 -โบนัส
@@ -338,6 +341,9 @@ TEXT: 1 มีนาคม 10:00 น. ถึง
 RESOURCE ID: event_datetime_range_key_zarude
 TEXT: 21 มีนาคม 10:00 น. ถึง
 25 มีนาคม 20:00 น.
+
+RESOURCE ID: event_name_takeover_s14
+TEXT: โลกสุดพิศวง: ยึดครอง
 
 RESOURCE ID: event_season14_name
 TEXT: ฤดูกาลปจจุบัน: โลกสุดพิศวง
@@ -611,10 +617,10 @@ RESOURCE ID: mar24_weather_collection_challenge_2
 TEXT: คำทานักสะสมสัปดาหสภาพอากาศ
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-03-15T21:33:09.334149+00:00 for th-TH
-at SHA b89668d081
-Pipeline 2181530, job 26482986
-Patch from: 0.303.1-SHA-d6629c9f-RC1, 0.305.0-SHA-2887d25f-RC5
+TEXT: Built at 2024-03-18T22:56:35.607000+00:00 for th-TH
+at SHA 0e9444f193
+Pipeline 2186388, job 26532020
+Patch from: 0.305.0-SHA-2887d25f-RC5, 0.303.0-SHA-ab10f723-RC2, 0.307.0-SHA-1d58aad9-RC1
 
 RESOURCE ID: move_name_0390
 TEXT: ธรรมชาติพิโรธ
@@ -2320,6 +2326,97 @@ RESOURCE ID: quest_special_dialogue_litten_3_3
 TEXT: ขอใหจิตวิญญาณของเธอลุกโชนและ
 เติบโตตอไปเรื่อย ๆ นะ ไวเจอกันใหม!
 
+RESOURCE ID: quest_special_dialogue_rogue_jungle_0_0
+TEXT: โอ! นึกอยูแลววาวันนี้เราตองไดเจอกันแน ๆ %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_rogue_jungle_0_1
+TEXT: กอนหนานี้ตอนออกไปเดินปา ฉันเห็นอะไร
+บางอยางพุงผานระหวางตนไมไปอยางรวดเร็ว
+
+RESOURCE ID: quest_special_dialogue_rogue_jungle_0_2
+TEXT: ฉันก็ไมมั่นใจหรอกนะ แตคิดวามันอาจจะเปน
+โปเกมอนมายา ซารูด! ถาฉันไมไดดูใบไม
+ที่รวงหลนตามพื้นผิดไปละก็นะ
+
+RESOURCE ID: quest_special_dialogue_rogue_jungle_0_3
+TEXT: ยังไงก็ตาม เธอชวยจับตามองโปเกมอน
+ประเภทหญาในชวงที่ออกไปสำรวจไดไหม?
+
+RESOURCE ID: quest_special_dialogue_rogue_jungle_1_0
+TEXT: %PLAYERNAME% กำลังอยากเจออยูพอดีเลย!
+
+RESOURCE ID: quest_special_dialogue_rogue_jungle_1_1
+TEXT: ฉันเจอเจาสิ่งที่วองไวมากนั่นอีกแลว
+และฉันมั่นใจวามันตองเปนโปเกมอน
+อยางแนนอน!
+
+RESOURCE ID: quest_special_dialogue_rogue_jungle_1_2
+TEXT: นาเสียดายที่มันหายตัวไปอยางรวดเร็ว
+กอนที่ฉันจะไดเห็นมันใกล ๆ
+เธอเองก็ลองไปสำรวจดูสิ
+
+RESOURCE ID: quest_special_dialogue_rogue_jungle_1_3
+TEXT: ระหวางนี้ ฉันจะลองอานรายงานเกา ๆ ดู
+เผื่อจะเจอขอมูลเกี่ยวกับมันบาง
+
+RESOURCE ID: quest_special_dialogue_rogue_jungle_2_0
+TEXT: กลับมาไดจังหวะพอดีเลย! ฉันมีขาวดี %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_rogue_jungle_2_1
+TEXT: หลังจากที่ฉันลองคนเอกสารตาง ๆ ดู
+ฉันขอยืนยันวาเจาโปเกมอนปริศนาตัวนี้
+จะเปนอะไรไปไมไดนอกจาก
+โปเกมอนมายา ซารูด!
+
+RESOURCE ID: quest_special_dialogue_rogue_jungle_2_2
+TEXT: พวกมันมักจะเคลื่อนไหวเปนฝูง
+เพราะงั้นเปนไปไดวามันอาจจะมีมากกวา
+ตัวเดียว แตไมวามันจะมีกี่ตัว
+เราก็ตองระวังไวใหดี!
+
+RESOURCE ID: quest_special_dialogue_rogue_jungle_2_3
+TEXT: ฉันจะกลับไปคนควาขอมูลเกี่ยวกับ
+พฤติกรรมของซารูด เธอจะไดเตรียมตัว
+กอนไปเผชิญหนากับมันไดถูก
+
+RESOURCE ID: quest_special_dialogue_rogue_jungle_3_0
+TEXT: กลับมาแลวเหรอ %PLAYERNAME%!
+ฉันมีเกร็ดความรูนาสนใจเกี่ยวกับ
+ซารูดมาแบงปนละ!
+
+RESOURCE ID: quest_special_dialogue_rogue_jungle_3_1
+TEXT: ถาเถาวัลยที่งอกตามตัวของมันขาด
+จะกลายเปนสารอาหารในดิน
+เลี้ยงตนไมในปาใหเติบโต
+
+RESOURCE ID: quest_special_dialogue_rogue_jungle_3_2
+TEXT: นาสนใจ แถมยังมีประโยชนดวยใชไหมละ!
+ถาเราตามหาบริเวณที่แมกไมหนาแนน
+เราอาจจะเจอซารูดอยูใกล ๆ ก็ได!
+
+RESOURCE ID: quest_special_dialogue_rogue_jungle_3_3
+TEXT: ฝากดวยละ ถาเจอที่แบบนั้นเมื่อไหร
+ก็บอกฉันดวย สวนฉันจะคนควาเกี่ยวกับ
+เรื่องนี้ตออีกหนอย
+
+RESOURCE ID: quest_special_dialogue_rogue_jungle_4_0
+TEXT: %PLAYERNAME% ขอบคุณที่ชวยทำงาน
+ภาคสนามนะ ตอนนี้ฉันพบตำแหนงที่ชัดเจน
+ของซารูดแลว
+
+RESOURCE ID: quest_special_dialogue_rogue_jungle_4_1
+TEXT: เธอรูใชไหมวา มันเปนโปเกมอนที่ดุรายมาก
+และโปเกมอนในปาก็หวาดกลัวมัน
+แตฉันเชื่อวาเทรนเนอรฝมือดีแบบเธอ
+จะตองทำใหมันเชื่อใจไดแน
+
+RESOURCE ID: quest_special_dialogue_rogue_jungle_4_2
+TEXT: ขอแคเปดใจและเขาหามันดวยความอดทน
+อยางที่เธอทำมาตลอด มันจะตองยอมรับเธอแน!
+
+RESOURCE ID: quest_special_dialogue_rogue_jungle_4_3
+TEXT: พยายามตอไปละ ขอใหโชคดีนะ!
+
 RESOURCE ID: quest_title_litten
 TEXT: ไฟลุกฮึกเหิม
 
@@ -2335,6 +2432,24 @@ TEXT: ไฟลุกฮึกเหิม (3/4)
 RESOURCE ID: quest_title_litten_3
 TEXT: ไฟลุกฮึกเหิม (4/4)
 
+RESOURCE ID: quest_title_rogue_jungle
+TEXT: วานรพาลแหงปาดงดิบ
+
+RESOURCE ID: quest_title_rogue_jungle_0
+TEXT: วานรพาลแหงปาดงดิบ (1/5)
+
+RESOURCE ID: quest_title_rogue_jungle_1
+TEXT: วานรพาลแหงปาดงดิบ (2/5)
+
+RESOURCE ID: quest_title_rogue_jungle_2
+TEXT: วานรพาลแหงปาดงดิบ (3/5)
+
+RESOURCE ID: quest_title_rogue_jungle_3
+TEXT: วานรพาลแหงปาดงดิบ (4/5)
+
+RESOURCE ID: quest_title_rogue_jungle_4
+TEXT: วานรพาลแหงปาดงดิบ (5/5)
+
 RESOURCE ID: quest_torracat_evolve_b_plural
 TEXT: วิวัฒนาการเนียฮีท {0} ตัว
 
@@ -2344,11 +2459,2039 @@ TEXT: วิวัฒนาการเนียฮีท
 RESOURCE ID: quests_log_complete_party_quest
 TEXT: บรรลุคำทาปารตี้: {0}
 
+RESOURCE ID: raid_day_abomasnow
+TEXT: วันตีบอส: ยูกิโนะโอ
+
+RESOURCE ID: raid_day_abra
+TEXT: วันตีบอส: เคซี
+
+RESOURCE ID: raid_day_absol
+TEXT: วันตีบอส: แอบโซล
+
+RESOURCE ID: raid_day_accelgor
+TEXT: วันตีบอส: อกิลดา
+
+RESOURCE ID: raid_day_aerodactyl
+TEXT: วันตีบอส: พเทอรา
+
+RESOURCE ID: raid_day_aggron
+TEXT: วันตีบอส: บอสโกโดรา
+
+RESOURCE ID: raid_day_aipom
+TEXT: วันตีบอส: เอยแพม
+
+RESOURCE ID: raid_day_alakazam
+TEXT: วันตีบอส: ฟูดิน
+
+RESOURCE ID: raid_day_alomomola
+TEXT: วันตีบอส: มามันโบ
+
+RESOURCE ID: raid_day_altaria
+TEXT: วันตีบอส: ทิลทาลิส
+
+RESOURCE ID: raid_day_ambipom
+TEXT: วันตีบอส: เอเทโบธ
+
+RESOURCE ID: raid_day_amoonguss
+TEXT: วันตีบอส: โมโรบาเรรุ
+
+RESOURCE ID: raid_day_ampharos
+TEXT: วันตีบอส: เด็นริว
+
+RESOURCE ID: raid_day_anorith
+TEXT: วันตีบอส: อน็อปธ
+
+RESOURCE ID: raid_day_arbok
+TEXT: วันตีบอส: อารบ็อก
+
+RESOURCE ID: raid_day_arcanine
+TEXT: วันตีบอส: วินดี
+
+RESOURCE ID: raid_day_arceus
+TEXT: วันตีบอส: อารเซอุส
+
+RESOURCE ID: raid_day_archen
+TEXT: วันตีบอส: อาเคน
+
+RESOURCE ID: raid_day_archeops
+TEXT: วันตีบอส: อาเคโอส
+
+RESOURCE ID: raid_day_ariados
+TEXT: วันตีบอส: อาริอาโดส
+
+RESOURCE ID: raid_day_armaldo
+TEXT: วันตีบอส: อามัลโด
+
+RESOURCE ID: raid_day_aron
+TEXT: วันตีบอส: โคโคโดรา
+
+RESOURCE ID: raid_day_articuno
+TEXT: วันตีบอส: ฟรีเซอร
+
+RESOURCE ID: raid_day_audino
+TEXT: วันตีบอส: ทาบุนเนะ
+
+RESOURCE ID: raid_day_axew
+TEXT: วันตีบอส: คิบาโกะ
+
+RESOURCE ID: raid_day_azelf
+TEXT: วันตีบอส: อักนอม
+
+RESOURCE ID: raid_day_azumarill
+TEXT: วันตีบอส: มาริลลิ
+
+RESOURCE ID: raid_day_azurill
+TEXT: วันตีบอส: รูริริ
+
+RESOURCE ID: raid_day_bagon
+TEXT: วันตีบอส: ทัทซึเบ
+
+RESOURCE ID: raid_day_baltoy
+TEXT: วันตีบอส: ยาจิลอน
+
+RESOURCE ID: raid_day_banette
+TEXT: วันตีบอส: จุปเปตตะ
+
+RESOURCE ID: raid_day_barboach
+TEXT: วันตีบอส: โดโจทช
+
+RESOURCE ID: raid_day_basculin
+TEXT: วันตีบอส: บาสราโอ
+
+RESOURCE ID: raid_day_bastiodon
+TEXT: วันตีบอส: โทริเด็ปส
+
+RESOURCE ID: raid_day_bayleef
+TEXT: วันตีบอส: เบยลีฟ
+
+RESOURCE ID: raid_day_beartic
+TEXT: วันตีบอส: ทันแบร
+
+RESOURCE ID: raid_day_beautifly
+TEXT: วันตีบอส: อาเกฮันท
+
+RESOURCE ID: raid_day_beedrill
+TEXT: วันตีบอส: สเปยร
+
+RESOURCE ID: raid_day_beheeyem
+TEXT: วันตีบอส: โอเบ็ม
+
+RESOURCE ID: raid_day_beldum
+TEXT: วันตีบอส: ดันบัล
+
+RESOURCE ID: raid_day_bellossom
+TEXT: วันตีบอส: คิเรอิฮานะ
+
+RESOURCE ID: raid_day_bellsprout
+TEXT: วันตีบอส: มาดาซึโบมิ
+
+RESOURCE ID: raid_day_bibarel
+TEXT: วันตีบอส: บีดารุ
+
+RESOURCE ID: raid_day_bidoof
+TEXT: วันตีบอส: บิปปา
+
+RESOURCE ID: raid_day_bisharp
+TEXT: วันตีบอส: คิริคิซัน
+
+RESOURCE ID: raid_day_blastoise
+TEXT: วันตีบอส: คาเม็กซ
+
+RESOURCE ID: raid_day_blaziken
+TEXT: วันตีบอส: บาชาโม
+
+RESOURCE ID: raid_day_blissey
+TEXT: วันตีบอส: แฮปปนาส
+
+RESOURCE ID: raid_day_blitzle
+TEXT: วันตีบอส: ชิมามา
+
+RESOURCE ID: raid_day_boldore
+TEXT: วันตีบอส: กันเทิล
+
+RESOURCE ID: raid_day_bonsly
+TEXT: วันตีบอส: อุโซฮาจิ
+
+RESOURCE ID: raid_day_bouffalant
+TEXT: วันตีบอส: บัฟฟรอน
+
+RESOURCE ID: raid_day_braixen
+TEXT: วันตีบอส: เทลนาร
+
+RESOURCE ID: raid_day_braviary
+TEXT: วันตีบอส: วอรเกิล
+
+RESOURCE ID: raid_day_breloom
+TEXT: วันตีบอส: คิโนกัซซา
+
+RESOURCE ID: raid_day_bronzong
+TEXT: วันตีบอส: โดทาคุน
+
+RESOURCE ID: raid_day_bronzor
+TEXT: วันตีบอส: โดมิเรอร
+
+RESOURCE ID: raid_day_budew
+TEXT: วันตีบอส: ซึโบมี
+
+RESOURCE ID: raid_day_buizel
+TEXT: วันตีบอส: บุยเซล
+
+RESOURCE ID: raid_day_bulbasaur
+TEXT: วันตีบอส: ฟุชิกิดาเนะ
+
+RESOURCE ID: raid_day_buneary
+TEXT: วันตีบอส: มิมิโรล
+
+RESOURCE ID: raid_day_bunnelby
+TEXT: วันตีบอส: โฮรุบี
+
+RESOURCE ID: raid_day_burmy
+TEXT: วันตีบอส: มิโนมุจจิ
+
+RESOURCE ID: raid_day_butterfree
+TEXT: วันตีบอส: บัตเตอรฟรี
+
+RESOURCE ID: raid_day_cacnea
+TEXT: วันตีบอส: ซาโบเนีย
+
+RESOURCE ID: raid_day_cacturne
+TEXT: วันตีบอส: น็อคทัส
+
+RESOURCE ID: raid_day_camerupt
+TEXT: วันตีบอส: บาคูดา
+
+RESOURCE ID: raid_day_carnivine
+TEXT: วันตีบอส: มัสคิปปา
+
+RESOURCE ID: raid_day_carracosta
+TEXT: วันตีบอส: อบาโกรา
+
+RESOURCE ID: raid_day_carvanha
+TEXT: วันตีบอส: คิบาเนีย
+
+RESOURCE ID: raid_day_cascoon
+TEXT: วันตีบอส: มายูลด
+
+RESOURCE ID: raid_day_castform
+TEXT: วันตีบอส: โปวาลุน
+
+RESOURCE ID: raid_day_caterpie
+TEXT: วันตีบอส: คาเตอรป
+
+RESOURCE ID: raid_day_celebi
+TEXT: วันตีบอส: เซเลบี
+
+RESOURCE ID: raid_day_chandelure
+TEXT: วันตีบอส: แชนเดลา
+
+RESOURCE ID: raid_day_chansey
+TEXT: วันตีบอส: ลัคกี
+
+RESOURCE ID: raid_day_charizard
+TEXT: วันตีบอส: ลิซารดอน
+
+RESOURCE ID: raid_day_charmander
+TEXT: วันตีบอส: ฮิโตคาเงะ
+
+RESOURCE ID: raid_day_charmeleon
+TEXT: วันตีบอส: ลิซารโดะ
+
+RESOURCE ID: raid_day_chatot
+TEXT: วันตีบอส: เพแรป
+
+RESOURCE ID: raid_day_cherrim
+TEXT: วันตีบอส: เชอริม
+
+RESOURCE ID: raid_day_cherubi
+TEXT: วันตีบอส: เชอรินโบ
+
+RESOURCE ID: raid_day_chesnaught
+TEXT: วันตีบอส: บริการอน
+
+RESOURCE ID: raid_day_chespin
+TEXT: วันตีบอส: ฮาริมารอน
+
+RESOURCE ID: raid_day_chikorita
+TEXT: วันตีบอส: จิโคริตา
+
+RESOURCE ID: raid_day_chimchar
+TEXT: วันตีบอส: ฮิโกซารุ
+
+RESOURCE ID: raid_day_chimecho
+TEXT: วันตีบอส: ชิรีน
+
+RESOURCE ID: raid_day_chinchou
+TEXT: วันตีบอส: ชอนชี
+
+RESOURCE ID: raid_day_chingling
+TEXT: วันตีบอส: ลีชาน
+
+RESOURCE ID: raid_day_cinccino
+TEXT: วันตีบอส: จิลาจีโน
+
+RESOURCE ID: raid_day_clamperl
+TEXT: วันตีบอส: ปาลูลุ
+
+RESOURCE ID: raid_day_claydol
+TEXT: วันตีบอส: เนนดอลล
+
+RESOURCE ID: raid_day_clefable
+TEXT: วันตีบอส: ปคซี
+
+RESOURCE ID: raid_day_clefairy
+TEXT: วันตีบอส: ปปป
+
+RESOURCE ID: raid_day_cleffa
+TEXT: วันตีบอส: ป
+
+RESOURCE ID: raid_day_cloyster
+TEXT: วันตีบอส: พารเชน
+
+RESOURCE ID: raid_day_cobalion
+TEXT: วันตีบอส: โคบัลออน
+
+RESOURCE ID: raid_day_cofagrigus
+TEXT: วันตีบอส: เดธคาน
+
+RESOURCE ID: raid_day_combee
+TEXT: วันตีบอส: มิทซึฮันนี
+
+RESOURCE ID: raid_day_combusken
+TEXT: วันตีบอส: วาคาชาโม
+
+RESOURCE ID: raid_day_conkeldurr
+TEXT: วันตีบอส: โรบูชิน
+
+RESOURCE ID: raid_day_corphish
+TEXT: วันตีบอส: เฮกานิ
+
+RESOURCE ID: raid_day_corsola
+TEXT: วันตีบอส: ซันนีโก
+
+RESOURCE ID: raid_day_cottonee
+TEXT: วันตีบอส: โมนเมน
+
+RESOURCE ID: raid_day_cradily
+TEXT: วันตีบอส: ยูเรเดิล
+
+RESOURCE ID: raid_day_cranidos
+TEXT: วันตีบอส: ซึไกโดส
+
+RESOURCE ID: raid_day_crawdaunt
+TEXT: วันตีบอส: ชิซาริเกอร
+
+RESOURCE ID: raid_day_cresselia
+TEXT: วันตีบอส: เครเซเลีย
+
+RESOURCE ID: raid_day_croagunk
+TEXT: วันตีบอส: กูเรกกรู
+
+RESOURCE ID: raid_day_crobat
+TEXT: วันตีบอส: โครแบท
+
+RESOURCE ID: raid_day_croconaw
+TEXT: วันตีบอส: อัลลิเกต
+
+RESOURCE ID: raid_day_crustle
+TEXT: วันตีบอส: อิวาพาเลซ
+
+RESOURCE ID: raid_day_cryogonal
+TEXT: วันตีบอส: ฟรีจิโอ
+
+RESOURCE ID: raid_day_cubchoo
+TEXT: วันตีบอส: คูมะชุน
+
+RESOURCE ID: raid_day_cubone
+TEXT: วันตีบอส: คาระคาระ
+
+RESOURCE ID: raid_day_cyndaquil
+TEXT: วันตีบอส: ฮิโนอาราชิ
+
+RESOURCE ID: raid_day_darkrai
+TEXT: วันตีบอส: ดารกไร
+
+RESOURCE ID: raid_day_darmanitan
+TEXT: วันตีบอส: ฮิฮิดารุมะ
+
+RESOURCE ID: raid_day_darumaka
+TEXT: วันตีบอส: ดารุมักกะ
+
+RESOURCE ID: raid_day_dedenne
+TEXT: วันตีบอส: เดเด็นเนะ
+
+RESOURCE ID: raid_day_deerling
+TEXT: วันตีบอส: ชิคิจิกะ
+
+RESOURCE ID: raid_day_deino
+TEXT: วันตีบอส: โมโนซึ
+
+RESOURCE ID: raid_day_delcatty
+TEXT: วันตีบอส: เอเนโคโรโระ
+
+RESOURCE ID: raid_day_delibird
+TEXT: วันตีบอส: เดลิเบิรด
+
+RESOURCE ID: raid_day_deoxys
+TEXT: วันตีบอส: ดีอ็อกซิส
+
+RESOURCE ID: raid_day_dewgong
+TEXT: วันตีบอส: จูกอน
+
+RESOURCE ID: raid_day_dewott
+TEXT: วันตีบอส: ฟุตาจิมารุ
+
+RESOURCE ID: raid_day_dialga
+TEXT: วันตีบอส: ดีอัลกา
+
+RESOURCE ID: raid_day_diggersby
+TEXT: วันตีบอส: โฮรูโด
+
+RESOURCE ID: raid_day_diglett
+TEXT: วันตีบอส: ดิกดา
+
+RESOURCE ID: raid_day_ditto
+TEXT: วันตีบอส: เมตามอน
+
+RESOURCE ID: raid_day_dodrio
+TEXT: วันตีบอส: โดโดริโอ
+
+RESOURCE ID: raid_day_doduo
+TEXT: วันตีบอส: โดโด
+
+RESOURCE ID: raid_day_donphan
+TEXT: วันตีบอส: ดอนแฟน
+
+RESOURCE ID: raid_day_dragonair
+TEXT: วันตีบอส: ฮาคุริว
+
+RESOURCE ID: raid_day_dragonite
+TEXT: วันตีบอส: ไคริว
+
+RESOURCE ID: raid_day_drapion
+TEXT: วันตีบอส: โดราเปยน
+
+RESOURCE ID: raid_day_dratini
+TEXT: วันตีบอส: มินิริว
+
+RESOURCE ID: raid_day_drifblim
+TEXT: วันตีบอส: ฟูวาไรด
+
+RESOURCE ID: raid_day_drifloon
+TEXT: วันตีบอส: ฟูวันเต
+
+RESOURCE ID: raid_day_drilbur
+TEXT: วันตีบอส: โมกุริว
+
+RESOURCE ID: raid_day_drowzee
+TEXT: วันตีบอส: สลีป
+
+RESOURCE ID: raid_day_druddigon
+TEXT: วันตีบอส: คริมแกน
+
+RESOURCE ID: raid_day_ducklett
+TEXT: วันตีบอส: โคอารูฮี
+
+RESOURCE ID: raid_day_dugtrio
+TEXT: วันตีบอส: ดักทริโอ
+
+RESOURCE ID: raid_day_dunsparce
+TEXT: วันตีบอส: โนก็อจจิ
+
+RESOURCE ID: raid_day_duosion
+TEXT: วันตีบอส: ดาบูลัน
+
+RESOURCE ID: raid_day_durant
+TEXT: วันตีบอส: ไอแอนท
+
+RESOURCE ID: raid_day_dusclops
+TEXT: วันตีบอส: ซามาโยรุ
+
+RESOURCE ID: raid_day_dusknoir
+TEXT: วันตีบอส: โยนัวร
+
+RESOURCE ID: raid_day_duskull
+TEXT: วันตีบอส: โยมาวารุ
+
+RESOURCE ID: raid_day_dustox
+TEXT: วันตีบอส: โดคุเคล
+
+RESOURCE ID: raid_day_dwebble
+TEXT: วันตีบอส: อิชิซึไม
+
+RESOURCE ID: raid_day_eelektrik
+TEXT: วันตีบอส: ชิบิบีล
+
+RESOURCE ID: raid_day_eelektross
+TEXT: วันตีบอส: ชิบิรูดอน
+
+RESOURCE ID: raid_day_eevee
+TEXT: วันตีบอส: อีวุย
+
+RESOURCE ID: raid_day_ekans
+TEXT: วันตีบอส: อารโบ
+
+RESOURCE ID: raid_day_electabuzz
+TEXT: วันตีบอส: เอเลบู
+
+RESOURCE ID: raid_day_electivire
+TEXT: วันตีบอส: เอเลคิเบิล
+
+RESOURCE ID: raid_day_electrike
+TEXT: วันตีบอส: ราคุไร
+
+RESOURCE ID: raid_day_electrode
+TEXT: วันตีบอส: มารุมายน
+
+RESOURCE ID: raid_day_elekid
+TEXT: วันตีบอส: เอเลคิด
+
+RESOURCE ID: raid_day_elgyem
+TEXT: วันตีบอส: ลีเกรย
+
+RESOURCE ID: raid_day_emboar
+TEXT: วันตีบอส: เอ็นบูโอ
+
+RESOURCE ID: raid_day_emolga
+TEXT: วันตีบอส: เอมอนกา
+
+RESOURCE ID: raid_day_empoleon
+TEXT: วันตีบอส: เอ็มเพลท
+
+RESOURCE ID: raid_day_entei
+TEXT: วันตีบอส: เอ็นเต
+
+RESOURCE ID: raid_day_escavalier
+TEXT: วันตีบอส: ชูวัลโก
+
+RESOURCE ID: raid_day_espeon
+TEXT: วันตีบอส: เอฟ
+
+RESOURCE ID: raid_day_espurr
+TEXT: วันตีบอส: เนียสเปอร
+
+RESOURCE ID: raid_day_excadrill
+TEXT: วันตีบอส: โดริวซึ
+
+RESOURCE ID: raid_day_exeggcute
+TEXT: วันตีบอส: ทามะทามะ
+
+RESOURCE ID: raid_day_exeggutor
+TEXT: วันตีบอส: นัชชี
+
+RESOURCE ID: raid_day_exploud
+TEXT: วันตีบอส: บาคุองก
+
+RESOURCE ID: raid_day_farfetch'd
+TEXT: วันตีบอส: คาโมเนกิ
+
+RESOURCE ID: raid_day_fearow
+TEXT: วันตีบอส: โอนิดริล
+
+RESOURCE ID: raid_day_feebas
+TEXT: วันตีบอส: ฮินบาส
+
+RESOURCE ID: raid_day_fennekin
+TEXT: วันตีบอส: ฟอกโกะ
+
+RESOURCE ID: raid_day_feraligatr
+TEXT: วันตีบอส: ออไดล
+
+RESOURCE ID: raid_day_ferroseed
+TEXT: วันตีบอส: เทสซีด
+
+RESOURCE ID: raid_day_ferrothorn
+TEXT: วันตีบอส: นัทเทรย
+
+RESOURCE ID: raid_day_finneon
+TEXT: วันตีบอส: เคโคโอ
+
+RESOURCE ID: raid_day_flaaffy
+TEXT: วันตีบอส: โมโคโค
+
+RESOURCE ID: raid_day_flabébé
+TEXT: วันตีบอส: ฟลาเบเบ
+
+RESOURCE ID: raid_day_flareon
+TEXT: วันตีบอส: บูสเตอร
+
+RESOURCE ID: raid_day_fletchinder
+TEXT: วันตีบอส: ฮิโนยาโคมะ
+
+RESOURCE ID: raid_day_fletchling
+TEXT: วันตีบอส: ยายาโคมะ
+
+RESOURCE ID: raid_day_floatzel
+TEXT: วันตีบอส: โฟลเซล
+
+RESOURCE ID: raid_day_flygon
+TEXT: วันตีบอส: ฟลายกอน
+
+RESOURCE ID: raid_day_foongus
+TEXT: วันตีบอส: ทามาเกะทาเคะ
+
+RESOURCE ID: raid_day_forretress
+TEXT: วันตีบอส: ฟอเรทอส
+
+RESOURCE ID: raid_day_fraxure
+TEXT: วันตีบอส: โอโนนโดะ
+
+RESOURCE ID: raid_day_frillish
+TEXT: วันตีบอส: พูรูริล
+
+RESOURCE ID: raid_day_froakie
+TEXT: วันตีบอส: เคโรมัตซึ
+
+RESOURCE ID: raid_day_frogadier
+TEXT: วันตีบอส: เกโคกาชิระ
+
+RESOURCE ID: raid_day_froslass
+TEXT: วันตีบอส: ยูกิเมโนโกะ
+
+RESOURCE ID: raid_day_furret
+TEXT: วันตีบอส: โอโอทาจิ
+
+RESOURCE ID: raid_day_gabite
+TEXT: วันตีบอส: กาไบต
+
+RESOURCE ID: raid_day_gallade
+TEXT: วันตีบอส: เอรูเรโด
+
+RESOURCE ID: raid_day_galvantula
+TEXT: วันตีบอส: เดนทูลา
+
+RESOURCE ID: raid_day_garbodor
+TEXT: วันตีบอส: ดัสตดาส
+
+RESOURCE ID: raid_day_garchomp
+TEXT: วันตีบอส: กาเบรียส
+
+RESOURCE ID: raid_day_gardevoir
+TEXT: วันตีบอส: เซอไนท
+
+RESOURCE ID: raid_day_gastly
+TEXT: วันตีบอส: โกส
+
+RESOURCE ID: raid_day_gastrodon
+TEXT: วันตีบอส: ไทรโทดอน
+
+RESOURCE ID: raid_day_genesect
+TEXT: วันตีบอส: เกโนเซ็กท
+
+RESOURCE ID: raid_day_gengar
+TEXT: วันตีบอส: เก็งกา
+
+RESOURCE ID: raid_day_geodude
+TEXT: วันตีบอส: อิชิซึบูเตะ
+
+RESOURCE ID: raid_day_gible
+TEXT: วันตีบอส: ฟุคามารุ
+
+RESOURCE ID: raid_day_gigalith
+TEXT: วันตีบอส: กิไกอาซ
+
+RESOURCE ID: raid_day_girafarig
+TEXT: วันตีบอส: คิรินริกิ
+
+RESOURCE ID: raid_day_giratina
+TEXT: วันตีบอส: กิราตินา
+
+RESOURCE ID: raid_day_glaceon
+TEXT: วันตีบอส: กราเซีย
+
+RESOURCE ID: raid_day_glalie
+TEXT: วันตีบอส: โอนิโกริ
+
+RESOURCE ID: raid_day_glameow
+TEXT: วันตีบอส: เนียรุมา
+
+RESOURCE ID: raid_day_gligar
+TEXT: วันตีบอส: ไกลกา
+
+RESOURCE ID: raid_day_gliscor
+TEXT: วันตีบอส: ไกลออน
+
+RESOURCE ID: raid_day_gloom
+TEXT: วันตีบอส: คุไซฮานะ
+
+RESOURCE ID: raid_day_golbat
+TEXT: วันตีบอส: โกลแบท
+
+RESOURCE ID: raid_day_goldeen
+TEXT: วันตีบอส: โทซาคินโตะ
+
+RESOURCE ID: raid_day_golduck
+TEXT: วันตีบอส: โกลดัก
+
+RESOURCE ID: raid_day_golem
+TEXT: วันตีบอส: โกโลเนีย
+
+RESOURCE ID: raid_day_golett
+TEXT: วันตีบอส: โกบิท
+
+RESOURCE ID: raid_day_golurk
+TEXT: วันตีบอส: โกลูก
+
+RESOURCE ID: raid_day_goomy
+TEXT: วันตีบอส: นูเมรา
+
+RESOURCE ID: raid_day_gorebyss
+TEXT: วันตีบอส: ซาคุราบิส
+
+RESOURCE ID: raid_day_gothita
+TEXT: วันตีบอส: โกธิมู
+
+RESOURCE ID: raid_day_gothitelle
+TEXT: วันตีบอส: โกธิรูเซล
+
+RESOURCE ID: raid_day_gothorita
+TEXT: วันตีบอส: โกธิมิรุ
+
+RESOURCE ID: raid_day_granbull
+TEXT: วันตีบอส: แกรนบูล
+
+RESOURCE ID: raid_day_graveler
+TEXT: วันตีบอส: โกโลน
+
+RESOURCE ID: raid_day_greninja
+TEXT: วันตีบอส: เก็คโคกะ
+
+RESOURCE ID: raid_day_grimer
+TEXT: วันตีบอส: เบโตเบตา
+
+RESOURCE ID: raid_day_grotle
+TEXT: วันตีบอส: ฮายาชิกาเมะ
+
+RESOURCE ID: raid_day_groudon
+TEXT: วันตีบอส: กราดอน
+
+RESOURCE ID: raid_day_grovyle
+TEXT: วันตีบอส: จุปไทล
+
+RESOURCE ID: raid_day_growlithe
+TEXT: วันตีบอส: การดี
+
+RESOURCE ID: raid_day_grumpig
+TEXT: วันตีบอส: บูพิก
+
+RESOURCE ID: raid_day_gulpin
+TEXT: วันตีบอส: โกคูลิน
+
+RESOURCE ID: raid_day_gurdurr
+TEXT: วันตีบอส: โดเท็คคทซึ
+
+RESOURCE ID: raid_day_gyarados
+TEXT: วันตีบอส: เกียราดอส
+
+RESOURCE ID: raid_day_happiny
+TEXT: วันตีบอส: พินพูคุ
+
+RESOURCE ID: raid_day_hariyama
+TEXT: วันตีบอส: ฮาริเทยามะ
+
+RESOURCE ID: raid_day_haunter
+TEXT: วันตีบอส: โกสท
+
+RESOURCE ID: raid_day_haxorus
+TEXT: วันตีบอส: โอโนโนคุส
+
+RESOURCE ID: raid_day_heatmor
+TEXT: วันตีบอส: คุยทาแรน
+
+RESOURCE ID: raid_day_heatran
+TEXT: วันตีบอส: ฮีดราน
+
+RESOURCE ID: raid_day_heracross
+TEXT: วันตีบอส: เฮราครอส
+
+RESOURCE ID: raid_day_herdier
+TEXT: วันตีบอส: เฮอเดอเรีย
+
+RESOURCE ID: raid_day_hippopotas
+TEXT: วันตีบอส: ฮิปโปโปตัส
+
+RESOURCE ID: raid_day_hippowdon
+TEXT: วันตีบอส: คาบัลดอน
+
+RESOURCE ID: raid_day_hitmonchan
+TEXT: วันตีบอส: เอบิวาลาร
+
+RESOURCE ID: raid_day_hitmonlee
+TEXT: วันตีบอส: ซาวามูลาร
+
+RESOURCE ID: raid_day_hitmontop
+TEXT: วันตีบอส: คาโพเอลาร
+
+RESOURCE ID: raid_day_ho-oh
+TEXT: วันตีบอส: โฮโอ
+
+RESOURCE ID: raid_day_honchkrow
+TEXT: วันตีบอส: ดอนคาราซึ
+
+RESOURCE ID: raid_day_hoothoot
+TEXT: วันตีบอส: โฮโฮ
+
+RESOURCE ID: raid_day_hoppip
+TEXT: วันตีบอส: ฮาเน็กโกะ
+
+RESOURCE ID: raid_day_horsea
+TEXT: วันตีบอส: ทัททู
+
+RESOURCE ID: raid_day_houndoom
+TEXT: วันตีบอส: เฮลการ
+
+RESOURCE ID: raid_day_houndour
+TEXT: วันตีบอส: เดลวิล
+
+RESOURCE ID: raid_day_huntail
+TEXT: วันตีบอส: ฮันเทล
+
+RESOURCE ID: raid_day_hydreigon
+TEXT: วันตีบอส: ซาซันดรา
+
+RESOURCE ID: raid_day_hypno
+TEXT: วันตีบอส: สลีปเปอร
+
+RESOURCE ID: raid_day_igglybuff
+TEXT: วันตีบอส: พูพูริน
+
+RESOURCE ID: raid_day_illumise
+TEXT: วันตีบอส: อิลูมิเซะ
+
+RESOURCE ID: raid_day_infernape
+TEXT: วันตีบอส: โกคาซารุ
+
+RESOURCE ID: raid_day_ivysaur
+TEXT: วันตีบอส: ฟุชิกิโซ
+
+RESOURCE ID: raid_day_jellicent
+TEXT: วันตีบอส: บูรุนเจล
+
+RESOURCE ID: raid_day_jigglypuff
+TEXT: วันตีบอส: พูริน
+
+RESOURCE ID: raid_day_jirachi
+TEXT: วันตีบอส: จิราชิ
+
+RESOURCE ID: raid_day_jolteon
+TEXT: วันตีบอส: ธันเดอรส
+
+RESOURCE ID: raid_day_joltik
+TEXT: วันตีบอส: บาชูรุ
+
+RESOURCE ID: raid_day_jumpluff
+TEXT: วันตีบอส: วาทักโกะ
+
+RESOURCE ID: raid_day_jynx
+TEXT: วันตีบอส: รูจูลา
+
+RESOURCE ID: raid_day_kabuto
+TEXT: วันตีบอส: คาบูโตะ
+
+RESOURCE ID: raid_day_kabutops
+TEXT: วันตีบอส: คาบูท็อปส
+
+RESOURCE ID: raid_day_kadabra
+TEXT: วันตีบอส: ยุนเกเรอร
+
+RESOURCE ID: raid_day_kakuna
+TEXT: วันตีบอส: โคคูน
+
+RESOURCE ID: raid_day_kangaskhan
+TEXT: วันตีบอส: การูรา
+
+RESOURCE ID: raid_day_karrablast
+TEXT: วันตีบอส: คาบูรูโมะ
+
+RESOURCE ID: raid_day_kecleon
+TEXT: วันตีบอส: คาคุเลียน
+
+RESOURCE ID: raid_day_keldeo
+TEXT: วันตีบอส: เคลดิโอ
+
+RESOURCE ID: raid_day_kingdra
+TEXT: วันตีบอส: คิงดรา
+
+RESOURCE ID: raid_day_kingler
+TEXT: วันตีบอส: คิงเกลอร
+
+RESOURCE ID: raid_day_kirlia
+TEXT: วันตีบอส: เคอเรีย
+
+RESOURCE ID: raid_day_klang
+TEXT: วันตีบอส: กิเกียร
+
+RESOURCE ID: raid_day_kleavor
+TEXT: วันตีบอส: บาซากิริ
+
+RESOURCE ID: raid_day_klefki
+TEXT: วันตีบอส: เคลฟฟ
+
+RESOURCE ID: raid_day_klink
+TEXT: วันตีบอส: เกียร
+
+RESOURCE ID: raid_day_klinklang
+TEXT: วันตีบอส: กิกิเกียร
+
+RESOURCE ID: raid_day_koffing
+TEXT: วันตีบอส: โดกาซ
+
+RESOURCE ID: raid_day_krabby
+TEXT: วันตีบอส: แครบ
+
+RESOURCE ID: raid_day_kricketot
+TEXT: วันตีบอส: โคโรโบชิ
+
+RESOURCE ID: raid_day_kricketune
+TEXT: วันตีบอส: โคโรท็อก
+
+RESOURCE ID: raid_day_krokorok
+TEXT: วันตีบอส: วารุวิล
+
+RESOURCE ID: raid_day_krookodile
+TEXT: วันตีบอส: วารุเวียล
+
+RESOURCE ID: raid_day_kyogre
+TEXT: วันตีบอส: ไคออกา
+
+RESOURCE ID: raid_day_kyurem
+TEXT: วันตีบอส: คิวเรม
+
+RESOURCE ID: raid_day_lairon
+TEXT: วันตีบอส: โคโดรา
+
+RESOURCE ID: raid_day_lampent
+TEXT: วันตีบอส: แลมพูลา
+
+RESOURCE ID: raid_day_landorus
+TEXT: วันตีบอส: แลนโดลอส
+
+RESOURCE ID: raid_day_lanturn
+TEXT: วันตีบอส: แลนเทอรน
+
+RESOURCE ID: raid_day_lapras
+TEXT: วันตีบอส: ลาพลาซ
+
+RESOURCE ID: raid_day_larvesta
+TEXT: วันตีบอส: เมลารวา
+
+RESOURCE ID: raid_day_larvitar
+TEXT: วันตีบอส: โยกิราส
+
+RESOURCE ID: raid_day_latias
+TEXT: วันตีบอส: ลาทิอาส
+
+RESOURCE ID: raid_day_latios
+TEXT: วันตีบอส: ลาทิโอส
+
+RESOURCE ID: raid_day_leafeon
+TEXT: วันตีบอส: ลีเฟย
+
+RESOURCE ID: raid_day_leavanny
+TEXT: วันตีบอส: ฮาฮาโคโมริ
+
+RESOURCE ID: raid_day_ledian
+TEXT: วันตีบอส: เรเดียน
+
+RESOURCE ID: raid_day_ledyba
+TEXT: วันตีบอส: เรดิบา
+
+RESOURCE ID: raid_day_lickilicky
+TEXT: วันตีบอส: เบโรเบลท
+
+RESOURCE ID: raid_day_lickitung
+TEXT: วันตีบอส: เบโรรินกา
+
+RESOURCE ID: raid_day_liepard
+TEXT: วันตีบอส: เลพัลดัส
+
+RESOURCE ID: raid_day_lileep
+TEXT: วันตีบอส: ลิลีลา
+
+RESOURCE ID: raid_day_lilligant
+TEXT: วันตีบอส: เดรเดีย
+
+RESOURCE ID: raid_day_lillipup
+TEXT: วันตีบอส: โยเทอรี
+
+RESOURCE ID: raid_day_linoone
+TEXT: วันตีบอส: มัสสึกุมะ
+
+RESOURCE ID: raid_day_litleo
+TEXT: วันตีบอส: ชิชิโกะ
+
+RESOURCE ID: raid_day_litwick
+TEXT: วันตีบอส: ฮิโตโมชิ
+
+RESOURCE ID: raid_day_lombre
+TEXT: วันตีบอส: ฮาซึเบรโร
+
+RESOURCE ID: raid_day_lopunny
+TEXT: วันตีบอส: มิมิล็อป
+
+RESOURCE ID: raid_day_lotad
+TEXT: วันตีบอส: ฮาซึโบ
+
+RESOURCE ID: raid_day_loudred
+TEXT: วันตีบอส: โดกอม
+
+RESOURCE ID: raid_day_lucario
+TEXT: วันตีบอส: ลูคาริโอ
+
+RESOURCE ID: raid_day_ludicolo
+TEXT: วันตีบอส: รุนปปปา
+
+RESOURCE ID: raid_day_lugia
+TEXT: วันตีบอส: ลูเกีย
+
+RESOURCE ID: raid_day_lumineon
+TEXT: วันตีบอส: เนโอแลนท
+
+RESOURCE ID: raid_day_lunatone
+TEXT: วันตีบอส: ลูนาโทน
+
+RESOURCE ID: raid_day_luvdisc
+TEXT: วันตีบอส: เลิฟคัส
+
+RESOURCE ID: raid_day_luxio
+TEXT: วันตีบอส: ลุคซิโอ
+
+RESOURCE ID: raid_day_luxray
+TEXT: วันตีบอส: เร็นโทรา
+
+RESOURCE ID: raid_day_machamp
+TEXT: วันตีบอส: ไคริกี
+
+RESOURCE ID: raid_day_machoke
+TEXT: วันตีบอส: โกริกี
+
+RESOURCE ID: raid_day_machop
+TEXT: วันตีบอส: วันริกี
+
+RESOURCE ID: raid_day_magby
+TEXT: วันตีบอส: บูบี
+
+RESOURCE ID: raid_day_magcargo
+TEXT: วันตีบอส: มักคารโก
+
+RESOURCE ID: raid_day_magikarp
+TEXT: วันตีบอส: คอยคิง
+
+RESOURCE ID: raid_day_magmar
+TEXT: วันตีบอส: บูเบอร
+
+RESOURCE ID: raid_day_magmortar
+TEXT: วันตีบอส: บูเบิรน
+
+RESOURCE ID: raid_day_magnemite
+TEXT: วันตีบอส: คอยล
+
+RESOURCE ID: raid_day_magneton
+TEXT: วันตีบอส: แรคอยล
+
+RESOURCE ID: raid_day_magnezone
+TEXT: วันตีบอส: จิบะคอยล
+
+RESOURCE ID: raid_day_makuhita
+TEXT: วันตีบอส: มาคุโนชิตะ
+
+RESOURCE ID: raid_day_mamoswine
+TEXT: วันตีบอส: แมมมู
+
+RESOURCE ID: raid_day_manaphy
+TEXT: วันตีบอส: มานาฟ
+
+RESOURCE ID: raid_day_mandibuzz
+TEXT: วันตีบอส: วัลจีนา
+
+RESOURCE ID: raid_day_manectric
+TEXT: วันตีบอส: ไลโวลต
+
+RESOURCE ID: raid_day_mankey
+TEXT: วันตีบอส: แมนคี
+
+RESOURCE ID: raid_day_mantine
+TEXT: วันตีบอส: แมนไทน
+
+RESOURCE ID: raid_day_mantyke
+TEXT: วันตีบอส: ทาแมนทา
+
+RESOURCE ID: raid_day_maractus
+TEXT: วันตีบอส: มาราคัจจิ
+
+RESOURCE ID: raid_day_mareep
+TEXT: วันตีบอส: เมรีป
+
+RESOURCE ID: raid_day_marill
+TEXT: วันตีบอส: มาริล
+
+RESOURCE ID: raid_day_marowak
+TEXT: วันตีบอส: การะการะ
+
+RESOURCE ID: raid_day_marshtomp
+TEXT: วันตีบอส: นูมาโคร
+
+RESOURCE ID: raid_day_masquerain
+TEXT: วันตีบอส: อาเมมอธ
+
+RESOURCE ID: raid_day_mawile
+TEXT: วันตีบอส: คูชีท
+
+RESOURCE ID: raid_day_medicham
+TEXT: วันตีบอส: ชาเรม
+
+RESOURCE ID: raid_day_meditite
+TEXT: วันตีบอส: อาซานัน
+
+RESOURCE ID: raid_day_mega_gyarados
+TEXT: วันตีบอส: เมกาเกียราดอส
+
+RESOURCE ID: raid_day_mega_kangaskhan
+TEXT: วันตีบอส: เมกาการูรา
+
+RESOURCE ID: raid_day_meganium
+TEXT: วันตีบอส: เมกาเนียม
+
+RESOURCE ID: raid_day_meloetta
+TEXT: วันตีบอส: เมโลเอตตา
+
+RESOURCE ID: raid_day_meowstic
+TEXT: วันตีบอส: เนียโอนิกซ
+
+RESOURCE ID: raid_day_meowth
+TEXT: วันตีบอส: เนียส
+
+RESOURCE ID: raid_day_mesprit
+TEXT: วันตีบอส: เอ็มริต
+
+RESOURCE ID: raid_day_metagross
+TEXT: วันตีบอส: เมทากรอส
+
+RESOURCE ID: raid_day_metang
+TEXT: วันตีบอส: เมแทงก
+
+RESOURCE ID: raid_day_metapod
+TEXT: วันตีบอส: ทรานเซล
+
+RESOURCE ID: raid_day_mew
+TEXT: วันตีบอส: มิว
+
+RESOURCE ID: raid_day_mewtwo
+TEXT: วันตีบอส: มิวทู
+
+RESOURCE ID: raid_day_mienfoo
+TEXT: วันตีบอส: โคโจฟู
+
+RESOURCE ID: raid_day_mienshao
+TEXT: วันตีบอส: โคโจนโดะ
+
+RESOURCE ID: raid_day_mightyena
+TEXT: วันตีบอส: กราเอนา
+
+RESOURCE ID: raid_day_milotic
+TEXT: วันตีบอส: มิโลคารอส
+
+RESOURCE ID: raid_day_miltank
+TEXT: วันตีบอส: มิลแทงค
+
+RESOURCE ID: raid_day_mime jr.
+TEXT: วันตีบอส: มาเนเน
+
+RESOURCE ID: raid_day_minccino
+TEXT: วันตีบอส: จิลามี
+
+RESOURCE ID: raid_day_minun
+TEXT: วันตีบอส: ไมนัน
+
+RESOURCE ID: raid_day_misdreavus
+TEXT: วันตีบอส: มูมา
+
+RESOURCE ID: raid_day_mismagius
+TEXT: วันตีบอส: มูมาจิ
+
+RESOURCE ID: raid_day_moltres
+TEXT: วันตีบอส: ไฟเยอร
+
+RESOURCE ID: raid_day_monferno
+TEXT: วันตีบอส: โมคาซารุ
+
+RESOURCE ID: raid_day_mothim
+TEXT: วันตีบอส: กาเมล
+
+RESOURCE ID: raid_day_mr. mime
+TEXT: วันตีบอส: บารเรียด
+
+RESOURCE ID: raid_day_mudkip
+TEXT: วันตีบอส: มิซึโกโร
+
+RESOURCE ID: raid_day_muk
+TEXT: วันตีบอส: เบโตเบตัน
+
+RESOURCE ID: raid_day_munchlax
+TEXT: วันตีบอส: กอนเบะ
+
+RESOURCE ID: raid_day_munna
+TEXT: วันตีบอส: มุนนะ
+
+RESOURCE ID: raid_day_murkrow
+TEXT: วันตีบอส: ยามิคาราซึ
+
+RESOURCE ID: raid_day_musharna
+TEXT: วันตีบอส: มุชานา
+
+RESOURCE ID: raid_day_natu
+TEXT: วันตีบอส: เนที
+
+RESOURCE ID: raid_day_nidoking
+TEXT: วันตีบอส: นิโดคิง
+
+RESOURCE ID: raid_day_nidoqueen
+TEXT: วันตีบอส: นิโดควีน
+
+RESOURCE ID: raid_day_nidoranfemale
+TEXT: วันตีบอส: นิโดรัน♀
+
+RESOURCE ID: raid_day_nidoranmale
+TEXT: วันตีบอส: นิโดรัน♂
+
+RESOURCE ID: raid_day_nidorina
+TEXT: วันตีบอส: นิโดรินา
+
+RESOURCE ID: raid_day_nidorino
+TEXT: วันตีบอส: นิโดริโน
+
+RESOURCE ID: raid_day_nincada
+TEXT: วันตีบอส: สึจินิน
+
+RESOURCE ID: raid_day_ninetales
+TEXT: วันตีบอส: คิวคอน
+
+RESOURCE ID: raid_day_ninjask
+TEXT: วันตีบอส: เท็คคานิน
+
+RESOURCE ID: raid_day_noctowl
+TEXT: วันตีบอส: โยรุโนะซึคุ
+
+RESOURCE ID: raid_day_noibat
+TEXT: วันตีบอส: ออนแบท
+
+RESOURCE ID: raid_day_noivern
+TEXT: วันตีบอส: ออนเวิรน
+
+RESOURCE ID: raid_day_nosepass
+TEXT: วันตีบอส: โนซพาส
+
+RESOURCE ID: raid_day_numel
+TEXT: วันตีบอส: ดอนเมล
+
+RESOURCE ID: raid_day_nuzleaf
+TEXT: วันตีบอส: โคโนฮานะ
+
+RESOURCE ID: raid_day_octillery
+TEXT: วันตีบอส: ออคตัน
+
+RESOURCE ID: raid_day_oddish
+TEXT: วันตีบอส: นาโซโนะคุสะ
+
+RESOURCE ID: raid_day_omanyte
+TEXT: วันตีบอส: ออมไนต
+
+RESOURCE ID: raid_day_omastar
+TEXT: วันตีบอส: ออมสตาร
+
+RESOURCE ID: raid_day_onix
+TEXT: วันตีบอส: อิวารค
+
+RESOURCE ID: raid_day_oshawott
+TEXT: วันตีบอส: มิจูมารุ
+
+RESOURCE ID: raid_day_pachirisu
+TEXT: วันตีบอส: พาจิริซึ
+
+RESOURCE ID: raid_day_palkia
+TEXT: วันตีบอส: พัลเกีย
+
+RESOURCE ID: raid_day_palpitoad
+TEXT: วันตีบอส: กามาการุ
+
+RESOURCE ID: raid_day_panpour
+TEXT: วันตีบอส: ฮิยัปปุ
+
+RESOURCE ID: raid_day_pansage
+TEXT: วันตีบอส: ยานัปปุ
+
+RESOURCE ID: raid_day_pansear
+TEXT: วันตีบอส: บาอปปุ
+
+RESOURCE ID: raid_day_paras
+TEXT: วันตีบอส: พารัส
+
+RESOURCE ID: raid_day_parasect
+TEXT: วันตีบอส: พาราเซ็คท
+
+RESOURCE ID: raid_day_patrat
+TEXT: วันตีบอส: มิเนซูมิ
+
+RESOURCE ID: raid_day_pawniard
+TEXT: วันตีบอส: โคมาทานา
+
+RESOURCE ID: raid_day_pelipper
+TEXT: วันตีบอส: เพลิปเปอร
+
+RESOURCE ID: raid_day_persian
+TEXT: วันตีบอส: เปอรเซียน
+
+RESOURCE ID: raid_day_petilil
+TEXT: วันตีบอส: จูริเน
+
+RESOURCE ID: raid_day_phanpy
+TEXT: วันตีบอส: โกมาโซ
+
+RESOURCE ID: raid_day_phione
+TEXT: วันตีบอส: ฟโอเน
+
+RESOURCE ID: raid_day_pichu
+TEXT: วันตีบอส: พิชู
+
+RESOURCE ID: raid_day_pidgeot
+TEXT: วันตีบอส: พีเจียต
+
+RESOURCE ID: raid_day_pidgeotto
+TEXT: วันตีบอส: พีเจียน
+
+RESOURCE ID: raid_day_pidgey
+TEXT: วันตีบอส: ปอปโปะ
+
+RESOURCE ID: raid_day_pidove
+TEXT: วันตีบอส: มาเมพาโตะ
+
+RESOURCE ID: raid_day_pignite
+TEXT: วันตีบอส: จาโอบู
+
+RESOURCE ID: raid_day_pikachu
+TEXT: วันตีบอส: พิคาชู
+
+RESOURCE ID: raid_day_piloswine
+TEXT: วันตีบอส: อิโนมู
+
+RESOURCE ID: raid_day_pineco
+TEXT: วันตีบอส: คุนุกิดามะ
+
+RESOURCE ID: raid_day_pinsir
+TEXT: วันตีบอส: ไคลอส
+
+RESOURCE ID: raid_day_piplup
+TEXT: วันตีบอส: โพจจามะ
+
+RESOURCE ID: raid_day_plusle
+TEXT: วันตีบอส: พราเซิล
+
+RESOURCE ID: raid_day_politoed
+TEXT: วันตีบอส: เนียวโรโทโนะ
+
+RESOURCE ID: raid_day_poliwag
+TEXT: วันตีบอส: เนียวโรโมะ
+
+RESOURCE ID: raid_day_poliwhirl
+TEXT: วันตีบอส: เนียวโรโซ
+
+RESOURCE ID: raid_day_poliwrath
+TEXT: วันตีบอส: เนียวโรบอน
+
+RESOURCE ID: raid_day_ponyta
+TEXT: วันตีบอส: โพนีตะ
+
+RESOURCE ID: raid_day_poochyena
+TEXT: วันตีบอส: โปชิเอนา
+
+RESOURCE ID: raid_day_porygon
+TEXT: วันตีบอส: โพรีกอน
+
+RESOURCE ID: raid_day_porygon-z
+TEXT: วันตีบอส: โพรีกอน-แซด
+
+RESOURCE ID: raid_day_porygon2
+TEXT: วันตีบอส: โพรีกอน2
+
 RESOURCE ID: raid_day_primal_groudon
 TEXT: วันตีบอส: กราดอนตนกำเนิด
 
 RESOURCE ID: raid_day_primal_kyogre
 TEXT: วันตีบอส: ไคออกาตนกำเนิด
+
+RESOURCE ID: raid_day_primeape
+TEXT: วันตีบอส: โอโคริซารุ
+
+RESOURCE ID: raid_day_prinplup
+TEXT: วันตีบอส: โพจไทชิ
+
+RESOURCE ID: raid_day_probopass
+TEXT: วันตีบอส: ไดโนซ
+
+RESOURCE ID: raid_day_psyduck
+TEXT: วันตีบอส: โคดัก
+
+RESOURCE ID: raid_day_pupitar
+TEXT: วันตีบอส: ซานากิราส
+
+RESOURCE ID: raid_day_purrloin
+TEXT: วันตีบอส: โจโรเนโกะ
+
+RESOURCE ID: raid_day_purugly
+TEXT: วันตีบอส: บูเนียตโตะ
+
+RESOURCE ID: raid_day_pyroar
+TEXT: วันตีบอส: คาเอ็นจิชิ
+
+RESOURCE ID: raid_day_quagsire
+TEXT: วันตีบอส: นูโอ
+
+RESOURCE ID: raid_day_quilava
+TEXT: วันตีบอส: แม็กมาราชิ
+
+RESOURCE ID: raid_day_quilladin
+TEXT: วันตีบอส: ฮาริบอรก
+
+RESOURCE ID: raid_day_qwilfish
+TEXT: วันตีบอส: ฮารีเซน
+
+RESOURCE ID: raid_day_raichu
+TEXT: วันตีบอส: ไรชู
+
+RESOURCE ID: raid_day_raikou
+TEXT: วันตีบอส: ไรโค
+
+RESOURCE ID: raid_day_ralts
+TEXT: วันตีบอส: ราลทซ
+
+RESOURCE ID: raid_day_rampardos
+TEXT: วันตีบอส: แรมพารด
+
+RESOURCE ID: raid_day_rapidash
+TEXT: วันตีบอส: แกลล็อป
+
+RESOURCE ID: raid_day_raticate
+TEXT: วันตีบอส: รัตตา
+
+RESOURCE ID: raid_day_rattata
+TEXT: วันตีบอส: โครัตตา
+
+RESOURCE ID: raid_day_rayquaza
+TEXT: วันตีบอส: เร็คควอซา
+
+RESOURCE ID: raid_day_regice
+TEXT: วันตีบอส: เรจิไอซ
+
+RESOURCE ID: raid_day_regigigas
+TEXT: วันตีบอส: เรจิกิกัส
+
+RESOURCE ID: raid_day_regirock
+TEXT: วันตีบอส: เรจิร็อก
+
+RESOURCE ID: raid_day_registeel
+TEXT: วันตีบอส: เรจิสตีล
+
+RESOURCE ID: raid_day_relicanth
+TEXT: วันตีบอส: จีแลนซ
+
+RESOURCE ID: raid_day_remoraid
+TEXT: วันตีบอส: เทปโปโอ
+
+RESOURCE ID: raid_day_reshiram
+TEXT: วันตีบอส: เรชิรัม
+
+RESOURCE ID: raid_day_reuniclus
+TEXT: วันตีบอส: แลนคูลัส
+
+RESOURCE ID: raid_day_rhydon
+TEXT: วันตีบอส: ไซดอน
+
+RESOURCE ID: raid_day_rhyhorn
+TEXT: วันตีบอส: ไซฮอรน
+
+RESOURCE ID: raid_day_rhyperior
+TEXT: วันตีบอส: โดไซดอน
+
+RESOURCE ID: raid_day_riolu
+TEXT: วันตีบอส: ริโอลุ
+
+RESOURCE ID: raid_day_roggenrola
+TEXT: วันตีบอส: ดันโกโร
+
+RESOURCE ID: raid_day_roselia
+TEXT: วันตีบอส: โรเซเลีย
+
+RESOURCE ID: raid_day_roserade
+TEXT: วันตีบอส: โรสเรด
+
+RESOURCE ID: raid_day_rotom
+TEXT: วันตีบอส: โรตอม
+
+RESOURCE ID: raid_day_rufflet
+TEXT: วันตีบอส: วาชิบอน
+
+RESOURCE ID: raid_day_sableye
+TEXT: วันตีบอส: ยามิรามิ
+
+RESOURCE ID: raid_day_salamence
+TEXT: วันตีบอส: โบมันเดอร
+
+RESOURCE ID: raid_day_samurott
+TEXT: วันตีบอส: ไดเคนคิ
+
+RESOURCE ID: raid_day_sandile
+TEXT: วันตีบอส: เมะกุโรโกะ
+
+RESOURCE ID: raid_day_sandshrew
+TEXT: วันตีบอส: แซนด
+
+RESOURCE ID: raid_day_sandslash
+TEXT: วันตีบอส: แซนดแพน
+
+RESOURCE ID: raid_day_sawk
+TEXT: วันตีบอส: ดาเกคิ
+
+RESOURCE ID: raid_day_sawsbuck
+TEXT: วันตีบอส: เมบูคิจิกะ
+
+RESOURCE ID: raid_day_sceptile
+TEXT: วันตีบอส: จูไคน
+
+RESOURCE ID: raid_day_scizor
+TEXT: วันตีบอส: ฮัซซัม
+
+RESOURCE ID: raid_day_scolipede
+TEXT: วันตีบอส: เพนโดรา
+
+RESOURCE ID: raid_day_scrafty
+TEXT: วันตีบอส: ซึรุซึคิน
+
+RESOURCE ID: raid_day_scraggy
+TEXT: วันตีบอส: ซึรุกกุ
+
+RESOURCE ID: raid_day_scyther
+TEXT: วันตีบอส: สไตรค
+
+RESOURCE ID: raid_day_seadra
+TEXT: วันตีบอส: ซีดรา
+
+RESOURCE ID: raid_day_seaking
+TEXT: วันตีบอส: อซึมาโอ
+
+RESOURCE ID: raid_day_sealeo
+TEXT: วันตีบอส: โทดอกเกลอร
+
+RESOURCE ID: raid_day_seedot
+TEXT: วันตีบอส: ทาเนโบ
+
+RESOURCE ID: raid_day_seel
+TEXT: วันตีบอส: เพาเวา
+
+RESOURCE ID: raid_day_seismitoad
+TEXT: วันตีบอส: กามาเกโรเกะ
+
+RESOURCE ID: raid_day_sentret
+TEXT: วันตีบอส: โอทาจิ
+
+RESOURCE ID: raid_day_serperior
+TEXT: วันตีบอส: จาโลดา
+
+RESOURCE ID: raid_day_servine
+TEXT: วันตีบอส: จาโนวี
+
+RESOURCE ID: raid_day_seviper
+TEXT: วันตีบอส: ฮาบูเนค
+
+RESOURCE ID: raid_day_sewaddle
+TEXT: วันตีบอส: คูรูมีรุ
+
+RESOURCE ID: raid_day_sharpedo
+TEXT: วันตีบอส: ซาเมฮาเดอร
+
+RESOURCE ID: raid_day_shaymin
+TEXT: วันตีบอส: เชมิน
+
+RESOURCE ID: raid_day_shedinja
+TEXT: วันตีบอส: นูเคนิน
+
+RESOURCE ID: raid_day_shelgon
+TEXT: วันตีบอส: โคโมรู
+
+RESOURCE ID: raid_day_shellder
+TEXT: วันตีบอส: เชลเดอร
+
+RESOURCE ID: raid_day_shellos
+TEXT: วันตีบอส: คารานะคูชิ
+
+RESOURCE ID: raid_day_shelmet
+TEXT: วันตีบอส: โชโบมากิ
+
+RESOURCE ID: raid_day_shieldon
+TEXT: วันตีบอส: ทาเทท็อปส
+
+RESOURCE ID: raid_day_shiftry
+TEXT: วันตีบอส: ดาเทนกุ
+
+RESOURCE ID: raid_day_shinx
+TEXT: วันตีบอส: โคลิงก
+
+RESOURCE ID: raid_day_shroomish
+TEXT: วันตีบอส: คิโนโคโค
+
+RESOURCE ID: raid_day_shuckle
+TEXT: วันตีบอส: สึโบสึโบะ
+
+RESOURCE ID: raid_day_shuppet
+TEXT: วันตีบอส: คาเงะโบสึ
+
+RESOURCE ID: raid_day_sigilyph
+TEXT: วันตีบอส: ซิมโบลา
+
+RESOURCE ID: raid_day_silcoon
+TEXT: วันตีบอส: คาราซาลิส
+
+RESOURCE ID: raid_day_simipour
+TEXT: วันตีบอส: ฮิยักกี
+
+RESOURCE ID: raid_day_simisage
+TEXT: วันตีบอส: ยานักกี
+
+RESOURCE ID: raid_day_simisear
+TEXT: วันตีบอส: บาอกกี
+
+RESOURCE ID: raid_day_skarmory
+TEXT: วันตีบอส: แอรมุโด
+
+RESOURCE ID: raid_day_skiploom
+TEXT: วันตีบอส: โพพ็อกโกะ
+
+RESOURCE ID: raid_day_skitty
+TEXT: วันตีบอส: เอเนโค
+
+RESOURCE ID: raid_day_skorupi
+TEXT: วันตีบอส: สกอรป
+
+RESOURCE ID: raid_day_skuntank
+TEXT: วันตีบอส: สกาแทงค
+
+RESOURCE ID: raid_day_slaking
+TEXT: วันตีบอส: เค็คคิง
+
+RESOURCE ID: raid_day_slakoth
+TEXT: วันตีบอส: นามาเคโร
+
+RESOURCE ID: raid_day_slowbro
+TEXT: วันตีบอส: ยาโดรัน
+
+RESOURCE ID: raid_day_slowking
+TEXT: วันตีบอส: ยาโดคิง
+
+RESOURCE ID: raid_day_slowpoke
+TEXT: วันตีบอส: ยาดง
+
+RESOURCE ID: raid_day_slugma
+TEXT: วันตีบอส: มักแม็ก
+
+RESOURCE ID: raid_day_smeargle
+TEXT: วันตีบอส: โดเบิล
+
+RESOURCE ID: raid_day_smoochum
+TEXT: วันตีบอส: มุจูล
+
+RESOURCE ID: raid_day_sneasel
+TEXT: วันตีบอส: นิวลา
+
+RESOURCE ID: raid_day_snivy
+TEXT: วันตีบอส: สึทาจะ
+
+RESOURCE ID: raid_day_snorlax
+TEXT: วันตีบอส: คาบิกอน
+
+RESOURCE ID: raid_day_snorunt
+TEXT: วันตีบอส: ยูกิวาราชิ
+
+RESOURCE ID: raid_day_snover
+TEXT: วันตีบอส: ยูกิคาบูริ
+
+RESOURCE ID: raid_day_snubbull
+TEXT: วันตีบอส: บูล
+
+RESOURCE ID: raid_day_solosis
+TEXT: วันตีบอส: ยูนิรัน
+
+RESOURCE ID: raid_day_solrock
+TEXT: วันตีบอส: โซลร็อก
+
+RESOURCE ID: raid_day_spearow
+TEXT: วันตีบอส: โอนิสึซึเมะ
+
+RESOURCE ID: raid_day_spheal
+TEXT: วันตีบอส: ทามาซาราชิ
+
+RESOURCE ID: raid_day_spinarak
+TEXT: วันตีบอส: อิโตมารุ
+
+RESOURCE ID: raid_day_spinda
+TEXT: วันตีบอส: พัทชีล
+
+RESOURCE ID: raid_day_spiritomb
+TEXT: วันตีบอส: มิคารูเกะ
+
+RESOURCE ID: raid_day_spoink
+TEXT: วันตีบอส: บาเนบู
+
+RESOURCE ID: raid_day_squirtle
+TEXT: วันตีบอส: เซนิกาเมะ
+
+RESOURCE ID: raid_day_stantler
+TEXT: วันตีบอส: โอโดชิชิ
+
+RESOURCE ID: raid_day_staraptor
+TEXT: วันตีบอส: มุคูฮอวก
+
+RESOURCE ID: raid_day_staravia
+TEXT: วันตีบอส: มุคูเบิรด
+
+RESOURCE ID: raid_day_starly
+TEXT: วันตีบอส: มุคคูรุ
+
+RESOURCE ID: raid_day_starmie
+TEXT: วันตีบอส: สตารมี
+
+RESOURCE ID: raid_day_staryu
+TEXT: วันตีบอส: ฮิโตเดมัน
+
+RESOURCE ID: raid_day_steelix
+TEXT: วันตีบอส: ฮากาเนล
+
+RESOURCE ID: raid_day_stoutland
+TEXT: วันตีบอส: มูแลนด
+
+RESOURCE ID: raid_day_stunfisk
+TEXT: วันตีบอส: มักเกียว
+
+RESOURCE ID: raid_day_stunky
+TEXT: วันตีบอส: สกังพู
+
+RESOURCE ID: raid_day_sudowoodo
+TEXT: วันตีบอส: อุซกกี
+
+RESOURCE ID: raid_day_suicune
+TEXT: วันตีบอส: ซุยคูน
+
+RESOURCE ID: raid_day_sunflora
+TEXT: วันตีบอส: คิมาวาริ
+
+RESOURCE ID: raid_day_sunkern
+TEXT: วันตีบอส: ฮิมานัทส
+
+RESOURCE ID: raid_day_surskit
+TEXT: วันตีบอส: อาเมทามะ
+
+RESOURCE ID: raid_day_swablu
+TEXT: วันตีบอส: ทิลทโท
+
+RESOURCE ID: raid_day_swadloon
+TEXT: วันตีบอส: คูรูมายุ
+
+RESOURCE ID: raid_day_swalot
+TEXT: วันตีบอส: มารุโนม
+
+RESOURCE ID: raid_day_swampert
+TEXT: วันตีบอส: ลากลาจ
+
+RESOURCE ID: raid_day_swanna
+TEXT: วันตีบอส: สวอนนา
+
+RESOURCE ID: raid_day_swellow
+TEXT: วันตีบอส: โอโอสึบาเมะ
+
+RESOURCE ID: raid_day_swinub
+TEXT: วันตีบอส: อุริมู
+
+RESOURCE ID: raid_day_swoobat
+TEXT: วันตีบอส: โคโคโรโมริ
+
+RESOURCE ID: raid_day_taillow
+TEXT: วันตีบอส: สึบาเมะ
+
+RESOURCE ID: raid_day_talonflame
+TEXT: วันตีบอส: ไฟรแอโรว
+
+RESOURCE ID: raid_day_tangela
+TEXT: วันตีบอส: มอนจารา
+
+RESOURCE ID: raid_day_tangrowth
+TEXT: วันตีบอส: โมจัมโบ
+
+RESOURCE ID: raid_day_tauros
+TEXT: วันตีบอส: เคนเทารอส
+
+RESOURCE ID: raid_day_teddiursa
+TEXT: วันตีบอส: ฮิเมกุมะ
+
+RESOURCE ID: raid_day_tentacool
+TEXT: วันตีบอส: เมโนคุราเกะ
+
+RESOURCE ID: raid_day_tentacruel
+TEXT: วันตีบอส: โดคุคุราเกะ
+
+RESOURCE ID: raid_day_tepig
+TEXT: วันตีบอส: โพคาบู
+
+RESOURCE ID: raid_day_terrakion
+TEXT: วันตีบอส: เทราคิออน
+
+RESOURCE ID: raid_day_throh
+TEXT: วันตีบอส: นาเกคิ
+
+RESOURCE ID: raid_day_thundurus
+TEXT: วันตีบอส: โวลโทลอส
+
+RESOURCE ID: raid_day_timburr
+TEXT: วันตีบอส: ด็อคโคเรอร
+
+RESOURCE ID: raid_day_tirtouga
+TEXT: วันตีบอส: โปรโตกา
+
+RESOURCE ID: raid_day_togekiss
+TEXT: วันตีบอส: โทเกคิส
+
+RESOURCE ID: raid_day_togepi
+TEXT: วันตีบอส: โทเกป
+
+RESOURCE ID: raid_day_togetic
+TEXT: วันตีบอส: โทเกชิก
+
+RESOURCE ID: raid_day_torchic
+TEXT: วันตีบอส: อาชาโม
+
+RESOURCE ID: raid_day_torkoal
+TEXT: วันตีบอส: โคทอยซ
+
+RESOURCE ID: raid_day_tornadus
+TEXT: วันตีบอส: ทอรเนลอส
+
+RESOURCE ID: raid_day_torterra
+TEXT: วันตีบอส: โดไดโทส
+
+RESOURCE ID: raid_day_totodile
+TEXT: วันตีบอส: วานิโนโกะ
+
+RESOURCE ID: raid_day_toxicroak
+TEXT: วันตีบอส: โดคูร็อก
+
+RESOURCE ID: raid_day_tranquill
+TEXT: วันตีบอส: ฮาโทโบ
+
+RESOURCE ID: raid_day_trapinch
+TEXT: วันตีบอส: นัคครา
+
+RESOURCE ID: raid_day_treecko
+TEXT: วันตีบอส: คิโมริ
+
+RESOURCE ID: raid_day_tropius
+TEXT: วันตีบอส: โทรพิอุส
+
+RESOURCE ID: raid_day_trubbish
+TEXT: วันตีบอส: ยาบุคุรอน
+
+RESOURCE ID: raid_day_turtwig
+TEXT: วันตีบอส: นาเอเติล
+
+RESOURCE ID: raid_day_tympole
+TEXT: วันตีบอส: โอทามาโร
+
+RESOURCE ID: raid_day_tynamo
+TEXT: วันตีบอส: ชิบิชิราซึ
+
+RESOURCE ID: raid_day_typhlosion
+TEXT: วันตีบอส: บาคุฟูน
+
+RESOURCE ID: raid_day_tyranitar
+TEXT: วันตีบอส: บันกิราส
+
+RESOURCE ID: raid_day_tyrogue
+TEXT: วันตีบอส: บัลกี
+
+RESOURCE ID: raid_day_umbreon
+TEXT: วันตีบอส: แบล็กกี
+
+RESOURCE ID: raid_day_unfezant
+TEXT: วันตีบอส: เคนโฮโล
+
+RESOURCE ID: raid_day_unown
+TEXT: วันตีบอส: อันโนน
+
+RESOURCE ID: raid_day_ursaring
+TEXT: วันตีบอส: ริงกุมะ
+
+RESOURCE ID: raid_day_uxie
+TEXT: วันตีบอส: ยุคซี
+
+RESOURCE ID: raid_day_vanillish
+TEXT: วันตีบอส: วานิริช
+
+RESOURCE ID: raid_day_vanillite
+TEXT: วันตีบอส: วานิเพ็ตติ
+
+RESOURCE ID: raid_day_vanilluxe
+TEXT: วันตีบอส: ไบวานิลลา
+
+RESOURCE ID: raid_day_vaporeon
+TEXT: วันตีบอส: ชาวเวอรส
+
+RESOURCE ID: raid_day_venipede
+TEXT: วันตีบอส: ฟูชิเดะ
+
+RESOURCE ID: raid_day_venomoth
+TEXT: วันตีบอส: มอรฟอน
+
+RESOURCE ID: raid_day_venonat
+TEXT: วันตีบอส: คองปง
+
+RESOURCE ID: raid_day_venusaur
+TEXT: วันตีบอส: ฟุชิกิบานะ
+
+RESOURCE ID: raid_day_vespiquen
+TEXT: วันตีบอส: บีควิน
+
+RESOURCE ID: raid_day_vibrava
+TEXT: วันตีบอส: วิบราวา
+
+RESOURCE ID: raid_day_victini
+TEXT: วันตีบอส: วิคทินี
+
+RESOURCE ID: raid_day_victreebel
+TEXT: วันตีบอส: อุซึบ็อท
+
+RESOURCE ID: raid_day_vigoroth
+TEXT: วันตีบอส: ยารุคิโมโนะ
+
+RESOURCE ID: raid_day_vileplume
+TEXT: วันตีบอส: รัฟเฟรเซีย
+
+RESOURCE ID: raid_day_virizion
+TEXT: วันตีบอส: วิริซิออน
+
+RESOURCE ID: raid_day_volbeat
+TEXT: วันตีบอส: บารูบีท
+
+RESOURCE ID: raid_day_volcarona
+TEXT: วันตีบอส: อุลกามอธ
+
+RESOURCE ID: raid_day_voltorb
+TEXT: วันตีบอส: บิริริดามา
+
+RESOURCE ID: raid_day_vullaby
+TEXT: วันตีบอส: วัลไจ
+
+RESOURCE ID: raid_day_vulpix
+TEXT: วันตีบอส: โรคอน
+
+RESOURCE ID: raid_day_wailmer
+TEXT: วันตีบอส: เวลโกะ
+
+RESOURCE ID: raid_day_wailord
+TEXT: วันตีบอส: เวลโอ
+
+RESOURCE ID: raid_day_walrein
+TEXT: วันตีบอส: โทโดเซรุกา
+
+RESOURCE ID: raid_day_wartortle
+TEXT: วันตีบอส: คาเมล
+
+RESOURCE ID: raid_day_watchog
+TEXT: วันตีบอส: มิรูฮอก
+
+RESOURCE ID: raid_day_weavile
+TEXT: วันตีบอส: มานิวลา
+
+RESOURCE ID: raid_day_weedle
+TEXT: วันตีบอส: บีเดิล
+
+RESOURCE ID: raid_day_weepinbell
+TEXT: วันตีบอส: อุซึดง
+
+RESOURCE ID: raid_day_weezing
+TEXT: วันตีบอส: มาตาโดกัซ
+
+RESOURCE ID: raid_day_whimsicott
+TEXT: วันตีบอส: เอลฟูน
+
+RESOURCE ID: raid_day_whirlipede
+TEXT: วันตีบอส: วีกา
+
+RESOURCE ID: raid_day_whiscash
+TEXT: วันตีบอส: นามาซูน
+
+RESOURCE ID: raid_day_whismur
+TEXT: วันตีบอส: โกเนียวเนียว
+
+RESOURCE ID: raid_day_wigglytuff
+TEXT: วันตีบอส: พูคูริน
+
+RESOURCE ID: raid_day_wingull
+TEXT: วันตีบอส: คาโมเมะ
+
+RESOURCE ID: raid_day_wobbuffet
+TEXT: วันตีบอส: โซนานส
+
+RESOURCE ID: raid_day_woobat
+TEXT: วันตีบอส: โคโรโมริ
+
+RESOURCE ID: raid_day_wooper
+TEXT: วันตีบอส: อูปา
+
+RESOURCE ID: raid_day_wormadam
+TEXT: วันตีบอส: มิโนมาดาม
+
+RESOURCE ID: raid_day_wurmple
+TEXT: วันตีบอส: เคมุตโสะ
+
+RESOURCE ID: raid_day_wynaut
+TEXT: วันตีบอส: โซนาโนะ
+
+RESOURCE ID: raid_day_xatu
+TEXT: วันตีบอส: เนทิโอ
+
+RESOURCE ID: raid_day_yamask
+TEXT: วันตีบอส: เดธมาส
+
+RESOURCE ID: raid_day_yanma
+TEXT: วันตีบอส: ยันยันมา
+
+RESOURCE ID: raid_day_yanmega
+TEXT: วันตีบอส: เมกะยันมา
+
+RESOURCE ID: raid_day_zangoose
+TEXT: วันตีบอส: แซงกูส
+
+RESOURCE ID: raid_day_zapdos
+TEXT: วันตีบอส: ธันเดอร
+
+RESOURCE ID: raid_day_zebstrika
+TEXT: วันตีบอส: ซีบรายกา
+
+RESOURCE ID: raid_day_zekrom
+TEXT: วันตีบอส: เซครอม
+
+RESOURCE ID: raid_day_zigzagoon
+TEXT: วันตีบอส: จิกุซากุมะ
+
+RESOURCE ID: raid_day_zoroark
+TEXT: วันตีบอส: โซโรอารค
+
+RESOURCE ID: raid_day_zorua
+TEXT: วันตีบอส: โซรัว
+
+RESOURCE ID: raid_day_zubat
+TEXT: วันตีบอส: ซูแบท
+
+RESOURCE ID: raid_day_zweilous
+TEXT: วันตีบอส: จิเฮด
+
+RESOURCE ID: raid_weekend_shadow_mewtwo
+TEXT: สุดสัปดาหตีบอสชาโดว: มิวทู
 
 RESOURCE ID: raid_xp_25_onethreestar
 TEXT: 1.25× XP ที่ไดรับจากตีบอสหนึ่งดาวและสามดาว
@@ -2370,6 +4513,9 @@ TEXT: เชน คำหยาบคาย การสงเสริม
 
 RESOURCE ID: report_route_reason_self_harm
 TEXT: ขอความเกี่ยวกับการทำรายตัวเองหรือฆาตัวตาย
+
+RESOURCE ID: rogue_jungle_event_name
+TEXT: วานรพาลแหงปาดงดิบ
 
 RESOURCE ID: route_change_rating_button
 TEXT: CHANGE RATING
@@ -2645,8 +4791,29 @@ TEXT: ตองการแลกโปเกคอยนเปน “�
 RESOURCE ID: spawn_litten
 TEXT: เนียบีปรากฏตัวออกมามากขึ้น!
 
+RESOURCE ID: special_research_zarude
+TEXT: ทำงานวิจัยพิเศษ "วานรพาลแหงปาดงดิบ" ใหเสร็จสิ้นเพื่อเผชิญหนากับซารูด
+
 RESOURCE ID: sponsorship_web_offer_redeem_confirmation
 TEXT: ยินดีดวย! คุณไดใชขอเสนอออนไลนเรียบรอยแลว
+
+RESOURCE ID: story_rockethq14_title
+TEXT: It’s a Rocket World
+
+RESOURCE ID: story_rockethq14_title_0
+TEXT: It’s a Rocket World (1/5)
+
+RESOURCE ID: story_rockethq14_title_1
+TEXT: It’s a Rocket World (2/5)
+
+RESOURCE ID: story_rockethq14_title_2
+TEXT: It’s a Rocket World (3/5)
+
+RESOURCE ID: story_rockethq14_title_3
+TEXT: It’s a Rocket World (4/5)
+
+RESOURCE ID: story_rockethq14_title_4
+TEXT: It’s a Rocket World (5/5)
 
 RESOURCE ID: story_worldofwonders
 TEXT: โลกสุดพิศวง
@@ -2781,6 +4948,9 @@ TEXT: สามารถซื้อตั๋วสำหรับงานว�
 RESOURCE ID: ticket_litten
 TEXT: สามารถซื้อตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษ "เนียบีคอมมิวนิตี้เดย" ไดที่รานคา
 
+RESOURCE ID: ticket_rogue_jungle
+TEXT: สามารถซื้อตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษ "วานรพาลแหงปาดงดิบ" ไดที่รานคา
+
 RESOURCE ID: tips_loading_screen_golden_razz_gym
 TEXT: ปอนผลราสสีทองใหโปเกมอนที่กำลัง
 ปองกันยิมเพื่อฟ้นฟูพลังชีวิตทั้งหมด
@@ -2788,6 +4958,9 @@ TEXT: ปอนผลราสสีทองใหโปเกมอน�
 RESOURCE ID: tips_razzberry_tutorial_message
 TEXT: ใชผลราสหรือผลราสสีทองเพื่อใหจับ
 โปเกมอนไดงายขึ้น
+
+RESOURCE ID: verdant_wonders_event_collection_challenge
+TEXT: คำทานักสะสมสิ่งพิศวงอันเขียวขจี
 
 RESOURCE ID: verdant_wonders_event_name
 TEXT: สิ่งพิศวงอันเขียวขจี
