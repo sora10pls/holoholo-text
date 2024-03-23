@@ -137,6 +137,18 @@ TEXT: Investigación de socio: Prime Gaming (3/4)
 RESOURCE ID: badge_event_0085_title_03
 TEXT: Investigación de socio: Prime Gaming (4/4)
 
+RESOURCE ID: badge_legendary_battle_won_title
+TEXT: Combates Legendarios
+
+RESOURCE ID: badge_prestige_dropped_title
+TEXT: Prestigio Disminuido
+
+RESOURCE ID: badge_prestige_raised_title
+TEXT: Prestigio Aumentado
+
+RESOURCE ID: badge_unique_mega_evos_title
+TEXT: Maestro de la Megaevolución
+
 RESOURCE ID: bonus_cd_move_litten
 TEXT: ¡Haz evolucionar a Torracat para conseguir un Incineroar que conozca el ataque cargado Anillo Ígneo!
 
@@ -191,11 +203,23 @@ TEXT: Joltik
 RESOURCE ID: buddy_candy_distance_half_party
 TEXT: 1/2 distance to earn Buddy Candy while in a Party
 
+RESOURCE ID: buddy_detail_gift
+TEXT: Encuentra regalos
+
+RESOURCE ID: buddy_detail_nearby
+TEXT: Encuentra ubicaciones
+
 RESOURCE ID: buddy_evolution_progress_title
 TEXT: EVOLUCIÓN
 
 RESOURCE ID: buddy_gift_increase_party
 TEXT: Buddy will bring you items more often while in a Party
+
+RESOURCE ID: buddy_phone_not_ar_capable_desc
+TEXT: Buddy AR is currently unavailable on this device.
+
+RESOURCE ID: buddy_phone_not_ar_capable_title
+TEXT: Unsupported device
 
 RESOURCE ID: catch_candy_double_party
 TEXT: 2× Catch Candy while in a Party
@@ -295,6 +319,10 @@ TEXT: 23 de marzo de 14:00 a 22:00 en tu hora local
 RESOURCE ID: event_datetime_range_key_primalkyogreraidday
 TEXT: 17 de marzo de 14:00 a 22:00 en tu hora local
 
+RESOURCE ID: event_datetime_range_key_takeovermarch24
+TEXT: Del 27 de marzo a las 00:00 al
+31 de marzo a las 23:59.
+
 RESOURCE ID: event_datetime_range_key_valentines2024
 TEXT: Del 13 de febrero a las 10:00 al
 15 de febrero a las 20:00.
@@ -347,6 +375,9 @@ TEXT: Entrada: Día de Incursiones de Groudon Primigenio
 
 RESOURCE ID: general1.ticket._primalkyogreraidday_title
 TEXT: Entrada: Día de Incursiones de Kyogre Primigenio
+
+RESOURCE ID: general1.ticket._takeovermarch24_title
+TEXT: Entrada: Investigación temporal "Persiguiendo al Team GO Rocket"
 
 RESOURCE ID: general1.ticket._wonderticket_title
 TEXT: Una entrada maravillosa (básica)
@@ -513,6 +544,18 @@ TEXT: Esta entrada se activará automáticamente para darte acceso a la investig
 RESOURCE ID: item_event_ticket_pink_details_electric
 TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal "Día de investigación electrizante" el 3 de marzo de 2024 de 14:00 a 17:00 en tu hora local, estés donde estés.
 
+RESOURCE ID: item_evergreen_ticket_desc
+TEXT: Una entrada para acceder a la investigación temporal "Persiguiendo al Team GO Rocket" hasta el 31 de marzo a las 23:59. en tu hora local, estés donde estés.
+
+RESOURCE ID: item_evergreen_ticket_desc_lny2024
+TEXT: Una entrada para acceder a la investigación temporal de Año Lunar Nuevo: Dragones desatados desde el 5 de febrero de 2024 a las 10 a. m. hasta el 11 de febrero de 2024 a las 8 p. m. en tu hora local, estés donde estés.
+
+RESOURCE ID: item_evergreen_ticket_details
+TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal "Persiguiendo al Team GO Rocket", estés donde estés.
+
+RESOURCE ID: item_evergreen_ticket_details_lny2024
+TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal de Año Lunar Nuevo: Dragones desatados hasta el 11 de febrero de 2024 a las 8 p. m. en tu hora local, estés donde estés.
+
 RESOURCE ID: item_global_event_ticket_desc
 TEXT: Una entrada para acceder a la investigación especial del Festival de Pokémon GO 2024 (Global) desde el 13 de julio de 2024 a las 10:00 en tu hora local, estés donde estés.
 
@@ -550,10 +593,10 @@ RESOURCE ID: mar24_weather_collection_challenge_2
 TEXT: Desafío de colección de la Semana meteorológica
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-03-21T18:21:27.154643+00:00 for es-ES
-at SHA ae089ef803
-Pipeline 2195413, job 26637627
-Patch from: 0.303.1-SHA-d6629c9f-RC1, 0.305.0-SHA-757fcdb7-RC3, 0.307.0-SHA-1d58aad9-RC1
+TEXT: Built at 2024-03-22T23:34:27.158342+00:00 for es-ES
+at SHA 0556d150ae
+Pipeline 2200671, job 26691428
+Patch from: 0.303.2-SHA-6ec75bef-RC2, 0.305.0-SHA-757fcdb7-RC3, 0.307.0-SHA-1d58aad9-RC1
 
 RESOURCE ID: move_name_0390
 TEXT: Furia Natural
@@ -1465,7 +1508,7 @@ RESOURCE ID: n_necklace_unequip_0_display_name
 TEXT: Sin collar
 
 RESOURCE ID: n_pants_6thanniversary_0_display_name
-TEXT: Pantalones (traje del 6.º aniversario)
+TEXT: Pantalones de traje del 6.º aniversario
 
 RESOURCE ID: n_pants_7thanniversary_0_display_name
 TEXT: Pantalones del 7.º aniversario
@@ -1876,10 +1919,10 @@ RESOURCE ID: n_pose_empty_display_name
 TEXT: Pose En Reposo
 
 RESOURCE ID: n_shirt_6thanniversary_a_0_display_name
-TEXT: Chaqueta ajustada (traje del 6.º aniversario)
+TEXT: Chaqueta de traje ajustada del 6.º aniversario
 
 RESOURCE ID: n_shirt_6thanniversary_b_0_display_name
-TEXT: Chaqueta (traje del 6.º aniversario)
+TEXT: Chaqueta de traje ancha del 6.º aniversario
 
 RESOURCE ID: n_shirt_7thanniversary_0_display_name
 TEXT: Sudadera y chaqueta del 7.º aniversario
@@ -3405,6 +3448,9 @@ TEXT: Calificación actualizada.
 RESOURCE ID: rejoin_warning_modal_instructions
 TEXT: You can rejoin your party from the Party Tab.
 
+RESOURCE ID: rejoin_warning_modal_message
+TEXT: Si sales, perderás el progreso del desafío y las recompensas.
+
 RESOURCE ID: rejoin_warning_modal_message_disband
 TEXT: If you leave, your party will be disbanded and will lose challenge progress and unclaimed rewards.
 
@@ -3437,6 +3483,15 @@ TEXT: CAMBIAR CALIFICACIÓN
 
 RESOURCE ID: route_community_activity
 TEXT: Actividad de la comunidad
+
+RESOURCE ID: route_creation_recording_controls_title
+TEXT: Registro: {0}
+
+RESOURCE ID: route_creation_recording_controls_title_name
+TEXT: Registro:
+
+RESOURCE ID: route_creation_recording_state_active
+TEXT: Activo
 
 RESOURCE ID: route_elevation_profile_label_flat
 TEXT: Plana
@@ -3667,6 +3722,9 @@ TEXT: Tu Ruta ha sido rechazada porque incumplía nuestras <a href="player_guide
 RESOURCE ID: route_submission_result_reject_reasons_secondary_geolocation
 TEXT: 
 
+RESOURCE ID: route_submission_status_review
+TEXT: Enviada: {0}
+
 RESOURCE ID: route_submit_appeal_button
 TEXT: RECURRIR
 
@@ -3745,6 +3803,93 @@ TEXT: Completa la investigación especial "Simiestro de la selva" para encontrar
 
 RESOURCE ID: sponsorship_web_offer_redeem_confirmation
 TEXT: ¡Enhorabuena! Has canjeado correctamente una oferta en línea.
+
+RESOURCE ID: sr_gofest2022_f2
+TEXT: Un reencuentro radiante (parte 1)
+
+RESOURCE ID: sr_gofest2022_f2_3
+TEXT: Un reencuentro radiante (1/6)
+
+RESOURCE ID: sr_gofest2022_f2_4
+TEXT: Un reencuentro radiante (2/6)
+
+RESOURCE ID: sr_gofest2022_f3
+TEXT: Un reencuentro radiante (parte 2)
+
+RESOURCE ID: sr_gofest2022_f3_5
+TEXT: Un reencuentro radiante (3/6)
+
+RESOURCE ID: sr_gofest2022_f3_6
+TEXT: Un reencuentro radiante (4/6)
+
+RESOURCE ID: sr_gofest2022_f4
+TEXT: Un reencuentro radiante (parte 3)
+
+RESOURCE ID: sr_gofest2022_f4_7
+TEXT: Un reencuentro radiante (5/6)
+
+RESOURCE ID: sr_gofest2022_f4_8
+TEXT: Un reencuentro radiante (6/6)
+
+RESOURCE ID: story_rockethq14_0_0
+TEXT: Hola, %PLAYERNAME%. Traigo malas noticias.
+
+RESOURCE ID: story_rockethq14_0_1
+TEXT: Los miembros del Team GO Rocket han estado apareciendo como setas. Y ya sabemos que el caos está asegurado por donde pisan esos malhechores.
+
+RESOURCE ID: story_rockethq14_0_2
+TEXT: Necesitamos algo más de información. ¿Por qué no te enfrentas a algunos de ellos y ves qué puedes sonsacarles?
+
+RESOURCE ID: story_rockethq14_0_3
+TEXT: Cuanto más descubramos, mejor preparados estaremos para pararles los pies: ¡el saber es poder!
+
+RESOURCE ID: story_rockethq14_1_0
+TEXT: No estaban muy dicharacheros esos Reclutas del Team GO Rocket, ¿verdad, %PLAYERNAME%?
+
+RESOURCE ID: story_rockethq14_1_1
+TEXT: ¡Nada de lo que preocuparse! ¡Iremos directamente a la fuente y encontraremos dónde se esconden sus agitadores líderes!
+
+RESOURCE ID: story_rockethq14_1_2
+TEXT: Pero hasta entonces, sigue detrás de los Reclutas y purifica todos los Pokémon oscuros que te encuentres. Rescatarlos de las garras de esos bandidos es una absoluta prioridad.
+
+RESOURCE ID: story_rockethq14_1_3
+TEXT: ¡A los Entrenadores como tú nunca les tiembla la mano con este tipo de tareas!
+
+RESOURCE ID: story_rockethq14_2_0
+TEXT: ¡Gran trabajo, %PLAYERNAME%! Ojalá pudiera decir que he cumplido con mi parte.
+
+RESOURCE ID: story_rockethq14_2_1
+TEXT: Por desgracia, no he podido encontrar a los líderes del Team GO Rocket, Arlo, Cliff y Sierra. ¡Pero no te preocupes! ¡Cualquier Profesor que se precie siempre tiene un plan B!
+
+RESOURCE ID: story_rockethq14_2_2
+TEXT: Si logras recoger algunos Componentes Misteriosos, ¡podremos armar un Radar Rocket!­
+
+RESOURCE ID: story_rockethq14_2_3
+TEXT: Con una tecnología tan avanzada en nuestras manos, seguro que esos bribones no podrán esconderse.
+
+RESOURCE ID: story_rockethq14_3_0
+TEXT: ¡Un trabajo fantástico, %PLAYERNAME%! ¡Les has dado para el pelo a esos líderes del Team GO Rocket!
+
+RESOURCE ID: story_rockethq14_3_1
+TEXT: Aunque eso no parece haber parado la actividad del Team GO Rocket. Así que vamos a tener que acudir a una instancia superior: Giovanni.
+
+RESOURCE ID: story_rockethq14_3_2
+TEXT: Ve con cuidado. Es más fuerte que el resto de miembros del Team GO Rocket. Aunque, si hay alguien que puede hacerle frente, eres tú.
+
+RESOURCE ID: story_rockethq14_3_3
+TEXT: ¡Buena suerte, %PLAYERNAME%!
+
+RESOURCE ID: story_rockethq14_4_0
+TEXT: ¡Espectacular, %PLAYERNAME%! ¡Les has demostrado a Giovanni y a esa panda de abusones que no son bienvenidos por aquí!
+
+RESOURCE ID: story_rockethq14_4_1
+TEXT: Aunque solo sea por ahora... No me cabe ninguna duda de que volverán en algún momento. Mientras tanto, los Pokémon de la zona estarán a salvo, y todo gracias a ti.
+
+RESOURCE ID: story_rockethq14_4_2
+TEXT: Una victoria de este calibre merece una celebración. ¿Quizá con un rico bol de Bayas Pinia?
+
+RESOURCE ID: story_rockethq14_4_3
+TEXT: Y que sepas que soy del todo sincero cuando digo esto: gracias por mantener a los Pokémon de nuestro mundo a salvo. ¡Ahora ve a disfrutar de un merecido descanso!
 
 RESOURCE ID: story_rockethq14_title
 TEXT: Mundo Rocket
@@ -3853,6 +3998,11 @@ TEXT: <b>Incluye:</b>
 • Mayor probabilidad de recibir Caramelos Raros ++ en incursiones
 • 50 % más PX y el doble de Polvos Estelares al ganar incursiones
 
+RESOURCE ID: text_rewards_key_takeovermarch24
+TEXT: <b>Recompensas incluidas:</b>
+• Un encuentro con Pawniard
+• 6 Componentes Misteriosos, 1 Superincubadora y 1 Radar Rocket
+
 RESOURCE ID: text_rewards_key_wonderticket
 TEXT: <b>Esta entrada incluye tres investigaciones temporales a las que tendrás acceso de manera automática cuando estén disponibles.</b> Comprar esta entrada te dará acceso a la primera investigación temporal.
 
@@ -3870,6 +4020,18 @@ TEXT: <b>Recompensas incluidas:</b>
 • Encuentros con Zigzagoon de Galar, Seedot, Cacnea, Absol y Scraggy
 • 5 Caramelos Raros, 10 Caramelos Zarude, 3 Caramelos Zarude ++
 • 2 Pases de combate prémium, 1 Incienso, 10 Ultra Balls, 6 Bayas Pinia Plateadas ¡y más!
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title
+TEXT: Un Mundo Maravilloso: Toma de control
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title_1
+TEXT: Un Mundo Maravilloso: Toma de control (1/2)
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title_2
+TEXT: Un Mundo Maravilloso: Toma de control (2/2)
+
+RESOURCE ID: tgr_takeover_mar_2024_paid_ticket_title
+TEXT: Investigación temporal: Persiguiendo al Team GO Rocket
 
 RESOURCE ID: ticket_electric_rd_mar24
 TEXT: La entrada para la investigación temporal con opciones "Día de investigación electrizante" está disponible en la tienda

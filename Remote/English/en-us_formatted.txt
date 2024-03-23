@@ -196,6 +196,12 @@ TEXT: EVOLVE
 RESOURCE ID: buddy_gift_increase_party
 TEXT: Buddy will bring you items more often while in a Party
 
+RESOURCE ID: buddy_phone_not_ar_capable_desc
+TEXT: Buddy AR is currently unavailable on this device.
+
+RESOURCE ID: buddy_phone_not_ar_capable_title
+TEXT: Unsupported device
+
 RESOURCE ID: catch_candy_double_party
 TEXT: 2× Catch Candy while in a Party
 
@@ -292,6 +298,10 @@ TEXT: March 23, 2:00 p.m. — 10:00 p.m.
 RESOURCE ID: event_datetime_range_key_primalkyogreraidday
 TEXT: March 17, 2:00 p.m. — 10:00 p.m.
 
+RESOURCE ID: event_datetime_range_key_takeovermarch24
+TEXT: March 27, 12:00 a.m. –
+March 31, 11:59 p.m.
+
 RESOURCE ID: event_datetime_range_key_tgrtakejan2024
 TEXT: January 27, 12:00 a.m. –
 February 1, 11:59 p.m.
@@ -373,6 +383,9 @@ TEXT: Primal Groudon Raid Day Ticket
 
 RESOURCE ID: general1.ticket._primalkyogreraidday_title
 TEXT: Primal Kyogre Raid Day Ticket
+
+RESOURCE ID: general1.ticket._takeovermarch24_title
+TEXT: Chasing Team GO Rocket Timed Research Ticket
 
 RESOURCE ID: general1.ticket._wonderticket_title
 TEXT: Wonder Ticket (Basic)
@@ -548,6 +561,18 @@ TEXT: This ticket will automatically activate to give you access to the Carnival
 RESOURCE ID: item_event_ticket_pink_details_electric
 TEXT: This ticket will automatically activate to give you access to the Charged-Up Timed Research on March 3, 2024, from 2:00 p.m. to 5:00 p.m. local time, wherever you are.
 
+RESOURCE ID: item_evergreen_ticket_desc
+TEXT: A ticket to access the Chasing Team GO Rocket Timed Research until March 31 at 11:59 p.m. local time, wherever you are.
+
+RESOURCE ID: item_evergreen_ticket_desc_lny2024
+TEXT: A ticket to access the Lunar New Year: Dragons Unleashed Timed Research from February 5 at 10:00 a.m. to February 11, 2024, at 8:00 p.m. local time, wherever you are.
+
+RESOURCE ID: item_evergreen_ticket_details
+TEXT: This ticket will automatically activate to give you access to Chasing Team GO Rocket Timed Research, wherever you are.
+
+RESOURCE ID: item_evergreen_ticket_details_lny2024
+TEXT: This ticket will automatically activate to give you access to the Lunar New Year: Dragons Unleashed Timed Research until February 11, 2024, at 8:00 p.m. local time, wherever you are.
+
 RESOURCE ID: item_global_event_ticket_desc
 TEXT: A ticket to access the Special Research for Pokémon GO Fest 2024: Global starting July 13, 2024, at 10:00 a.m. local time, wherever you are.
 
@@ -582,10 +607,10 @@ RESOURCE ID: mar24_weather_collection_challenge_2
 TEXT: Weather Week Collection Challenge
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-03-21T18:21:27.154643+00:00 for en-US
-at SHA ae089ef803
-Pipeline 2195413, job 26637627
-Patch from: 0.303.1-SHA-d6629c9f-RC1, 0.305.0-SHA-757fcdb7-RC3, 0.307.0-SHA-1d58aad9-RC1
+TEXT: Built at 2024-03-22T23:34:27.158342+00:00 for en-US
+at SHA 0556d150ae
+Pipeline 2200671, job 26691428
+Patch from: 0.303.2-SHA-6ec75bef-RC2, 0.305.0-SHA-757fcdb7-RC3, 0.307.0-SHA-1d58aad9-RC1
 
 RESOURCE ID: move_name_0390
 TEXT: Nature’s Madness
@@ -1451,6 +1476,9 @@ TEXT: You can rejoin your previous party and continue your party challenge.
 RESOURCE ID: rejoin_warning_modal_instructions
 TEXT: You can rejoin your party from the Party Tab.
 
+RESOURCE ID: rejoin_warning_modal_message
+TEXT: If you leave, you will lose challenge progress and unclaimed rewards.
+
 RESOURCE ID: rejoin_warning_modal_message_disband
 TEXT: If you leave, your party will be disbanded and will lose challenge progress and unclaimed rewards.
 
@@ -1486,6 +1514,12 @@ TEXT: Community Activity
 
 RESOURCE ID: route_completion_modal_description
 TEXT: 
+
+RESOURCE ID: route_decayed_modal_description
+TEXT: Your Route was archived because the start or end point was moved or removed. Archived Routes will remain visible on your Created Routes page, but they cannot be followed and they are not publicly discoverable.
+
+RESOURCE ID: route_decayed_modal_title
+TEXT: Your Route was archived.
 
 RESOURCE ID: route_elevation_profile_label_flat
 TEXT: Flat
@@ -1709,6 +1743,66 @@ TEXT: Complete the Rogue of the Jungle Special Research story to encounter Zarud
 RESOURCE ID: sponsorship_web_offer_redeem_confirmation
 TEXT: Congratulations! You have successfully redeemed an offer online.
 
+RESOURCE ID: story_rockethq14_0_0
+TEXT: Hi, %PLAYERNAME%. I have some troubling news to share.
+
+RESOURCE ID: story_rockethq14_0_1
+TEXT: Team GO Rocket members have been popping up in greater numbers—and you and I both know that wherever those troublemakers are, chaos is sure to follow.
+
+RESOURCE ID: story_rockethq14_0_2
+TEXT: We need more info. Why don’t you go confront some of them and see what intel you can get your hands on?
+
+RESOURCE ID: story_rockethq14_0_3
+TEXT: The more we learn, the better prepared we’ll be to stop them—that’s the power of knowledge!
+
+RESOURCE ID: story_rockethq14_1_0
+TEXT: Those Team GO Rocket Grunts weren’t the chatty sort, were they, %PLAYERNAME%?
+
+RESOURCE ID: story_rockethq14_1_1
+TEXT: Not to worry! We’ll just cut right to the source and find where their rabble-rousing leaders are hiding!
+
+RESOURCE ID: story_rockethq14_1_2
+TEXT: But until we can track them down, keep seeking out Grunts and purify any Shadow Pokémon you come across. Rescuing them from those rascals is a top priority.
+
+RESOURCE ID: story_rockethq14_1_3
+TEXT: I know a Trainer like you is more than up to the task!
+
+RESOURCE ID: story_rockethq14_2_0
+TEXT: Great work out there, %PLAYERNAME%! I wish I could say I did as well with my own search here.
+
+RESOURCE ID: story_rockethq14_2_1
+TEXT: Sadly, I haven’t been able to track down Team GO Rocket’s leaders—Arlo, Cliff, and Sierra. Not to worry, though! Any professor worth their salt always has a plan B!
+
+RESOURCE ID: story_rockethq14_2_2
+TEXT: If you can collect some Mysterious Components, we’ll be able to knock together a Rocket Radar!
+
+RESOURCE ID: story_rockethq14_2_3
+TEXT: With top-tier tech like that in our hands, there’s no way those miscreants will be able to hide from us.
+
+RESOURCE ID: story_rockethq14_3_0
+TEXT: Amazing work, %PLAYERNAME%! You really gave those Team GO Rocket leaders what for!
+
+RESOURCE ID: story_rockethq14_3_1
+TEXT: That said, even putting their leaders out of commission hasn’t put a stop to Team GO Rocket’s activity. Which means we’ll need to escalate our little issue all the way to the top—to Giovanni.
+
+RESOURCE ID: story_rockethq14_3_2
+TEXT: Be careful, though. He’s more powerful than any other member of Team GO Rocket. But if there’s anyone who can put him in his place, it’s you.
+
+RESOURCE ID: story_rockethq14_3_3
+TEXT: Good luck, %PLAYERNAME%!
+
+RESOURCE ID: story_rockethq14_4_0
+TEXT: Kudos to you, %PLAYERNAME%! You showed Giovanni and his band of bullies and malcontents that they aren’t welcome around here!
+
+RESOURCE ID: story_rockethq14_4_1
+TEXT: ...For now, at least. There’s not a doubt in my mind that those louts will be back eventually. But at least for now, the Pokémon in this area are safe, and we have you to thank.
+
+RESOURCE ID: story_rockethq14_4_2
+TEXT: A victory like this calls for a celebration—perhaps a nice bowl of Pinap Berries?
+
+RESOURCE ID: story_rockethq14_4_3
+TEXT: And know I speak from the heart when I say this: thank you for keeping the Pokémon of our world safe. Now go and enjoy some well-earned rest!
+
 RESOURCE ID: story_rockethq14_title
 TEXT: It’s a Rocket World
 
@@ -1816,6 +1910,11 @@ TEXT: <b>Includes:</b>
 • Increased chance to receive Rare Candy XL from raids
 • 50% more XP and 2× Stardust for successfully completing raids
 
+RESOURCE ID: text_rewards_key_takeovermarch24
+TEXT: <b>Included rewards:</b>
+• An encounter with Pawniard
+• 6 Mysterious Components, 1 Super Incubator, and 1 Rocket Radar
+
 RESOURCE ID: text_rewards_key_wonderticket
 TEXT: <b>This ticket includes three Timed Research opportunities, which you will automatically get access to as they become available.</b> Purchasing this ticket will grant you access to the first Timed Research.
 
@@ -1833,6 +1932,18 @@ TEXT: <b>Included rewards:</b>
 • Encounters with Galarian Zigzagoon, Seedot, Cacnea, Absol, and Scraggy
 • 5 Rare Candies, 10 Zarude Candy, 3 Zarude Candy XL
 • 2 Premium Battle Passes, 1 Incense, 10 Ultra Balls, 6 Silver Pinap Berries, and more!
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title
+TEXT: World of Wonders: Taken Over
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title_1
+TEXT: World of Wonders: Taken Over (1/2)
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title_2
+TEXT: World of Wonders: Taken Over (2/2)
+
+RESOURCE ID: tgr_takeover_mar_2024_paid_ticket_title
+TEXT: Chasing Team GO Rocket Timed Research
 
 RESOURCE ID: ticket_electric_rd_mar24
 TEXT: Ticket for the Charged-Up Research Day Branching Timed Research available in the shop

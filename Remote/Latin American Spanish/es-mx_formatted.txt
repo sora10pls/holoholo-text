@@ -20,6 +20,9 @@ RESOURCE ID: ar_plus_safety_toast
 TEXT: Asegúrate de usar RA sólo mientras te encuentres
 en un lugar seguro.
 
+RESOURCE ID: arlo_challenge#10
+TEXT: Te falta dignidad para estar en presencia del Equipo GO Rocket. Terminaré esto un abrir y cerrar de ojos.
+
 RESOURCE ID: as_go_to_style
 TEXT: VOLVER
 
@@ -278,6 +281,9 @@ TEXT: Mayor probabilidad de recibir Caramelos Raros XL en las incursiones de niv
 RESOURCE ID: bonus_pearl_badge_xl_candy
 TEXT: Tres Caramelos Dialga XL adicionales al atrapar Dialga en incursiones
 
+RESOURCE ID: bonus_primal_rumblings_absol
+TEXT: Aparecerán una gran cantidad de Absol durante 5 minutos al mediodía
+
 RESOURCE ID: bonus_raid_1_xl_candy
 TEXT: Un Caramelo XL adicional al atrapar Pokémon en incursiones de nivel 5 y megaincursiones
 
@@ -361,6 +367,12 @@ TEXT: Buddy will bring you items more often while in a Party
 
 RESOURCE ID: buddy_multiplayer_freeplay_tutorial_2_description
 TEXT: Toca a tu compañero para que te preste atención. Interactuará contigo de varias formas según el número de golpecitos. La interacción puede ser limitada si el nivel de compañero es bajo.
+
+RESOURCE ID: buddy_phone_not_ar_capable_desc
+TEXT: Buddy AR is currently unavailable on this device.
+
+RESOURCE ID: buddy_phone_not_ar_capable_title
+TEXT: Unsupported device
 
 RESOURCE ID: buddy_tutorial_petting_content_p2
 TEXT: Toca a tu compañero para que te preste atención. Interactuará contigo de varias formas según el número de golpecitos. La interacción puede ser limitada si el nivel de compañero es bajo.
@@ -524,6 +536,9 @@ TEXT: No es posible abandonar la sala de incursión.
 RESOURCE ID: europe_international_championships_bonus_2024
 TEXT: Campeonato Internacional Pokémon de Europa 2024: Bonificación
 
+RESOURCE ID: event_astral_eclipse
+TEXT: Evento de Eclipse astral
+
 RESOURCE ID: event_datetime_range_key_chargedtr2024
 TEXT: 3 de marzo de 2024 de 2 p. m. a 5 p. m.
 
@@ -552,6 +567,10 @@ TEXT: 23 de marzo de 2 p. m. a 10 p. m.
 
 RESOURCE ID: event_datetime_range_key_primalkyogreraidday
 TEXT: 17 de marzo de 2 p. m. a 10 p. m.
+
+RESOURCE ID: event_datetime_range_key_takeovermarch24
+TEXT: Del 27 de marzo a las 12:00 a. m. al
+31 de marzo a las 11:59 p. m.
 
 RESOURCE ID: event_datetime_range_key_valentines2024
 TEXT: Del 13 de febrero a las 10 a. m. al
@@ -733,6 +752,9 @@ TEXT: Entrada: Día de Incursiones de Groudon Primigenio
 RESOURCE ID: general1.ticket._primalkyogreraidday_title
 TEXT: Entrada: Día de Incursiones de Kyogre Primigenio
 
+RESOURCE ID: general1.ticket._takeovermarch24_title
+TEXT: Entrada: Investigación Temporal "Tras el Equipo GO Rocket"
+
 RESOURCE ID: general1.ticket._valentines2024_title
 TEXT: Entrada: Carnaval del amor
 
@@ -802,6 +824,9 @@ TEXT: Entrada: Día de la Comunidad de Litten
 
 RESOURCE ID: gift_from_sponsor
 TEXT: ¡Abre un regalo de patrocinador!
+
+RESOURCE ID: giovanni_defeat#3
+TEXT: ... ¡Esta vez dejaré que te vayas!
 
 RESOURCE ID: go_tour_2024_global_sr_dialog_00_00_chimchar
 TEXT: ¿Fue por algún motivo especial o simplemente elegiste a Chimchar porque es adorable?
@@ -1319,9 +1344,15 @@ RESOURCE ID: item_event_ticket_pink_details_electric
 TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Temporal "Día de Investigación Electrizante" el 3 de marzo de 2024 de 2 p. m. a 5 p. m. en tu hora local, estés donde estés.
 
 RESOURCE ID: item_evergreen_ticket_desc
+TEXT: Una entrada para acceder a la Investigación Temporal "Tras el Equipo GO Rocket" hasta el 31 de marzo a las 11:59 p. m. en tu hora local, estés donde estés.
+
+RESOURCE ID: item_evergreen_ticket_desc_lny2024
 TEXT: Una entrada para acceder a la Investigación Temporal de Año Lunar Nuevo: Dragones desatados desde el 5 de febrero de 2024 a las 10 a. m. hasta el 11 de febrero de 2024 a las 8 p. m. en tu hora local, estés donde estés.
 
 RESOURCE ID: item_evergreen_ticket_details
+TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Temporal "Tras el Equipo GO Rocket", estés donde estés.
+
+RESOURCE ID: item_evergreen_ticket_details_lny2024
 TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Temporal de Año Lunar Nuevo: Dragones desatados hasta el 11 de febrero de 2024 a las 8 p. m. en tu hora local, estés donde estés.
 
 RESOURCE ID: item_global_event_ticket_desc
@@ -1378,6 +1409,9 @@ TEXT: Desafío de Colección de la Semana Meteorológica: Castform
 RESOURCE ID: mar24_weather_collection_challenge_2
 TEXT: Desafío de Colección de la Semana Meteorológica
 
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_00_07
+TEXT: ¡Puede que analizar uno de esos Pokémon nos dé la pista que necesitamos!
+
 RESOURCE ID: mega_evo_bonus_buff_desc_mult_2
 TEXT: Mientras {0} esté megaevolucionado, ganarás Caramelos y EXP adicionales, y tendrás una mayor probabilidad de obtener Caramelos XL cuando atrapes Pokémon de tipo <b>{1}</b> o <b>{2}</b>.
 
@@ -1409,10 +1443,10 @@ RESOURCE ID: mega_raid_event
 TEXT: Desafío de Megaincursión
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-03-21T18:21:27.154643+00:00 for es-MX
-at SHA ae089ef803
-Pipeline 2195413, job 26637627
-Patch from: 0.303.1-SHA-d6629c9f-RC1, 0.305.0-SHA-757fcdb7-RC3, 0.307.0-SHA-1d58aad9-RC1
+TEXT: Built at 2024-03-22T23:34:27.158342+00:00 for es-MX
+at SHA 0556d150ae
+Pipeline 2200671, job 26691428
+Patch from: 0.303.2-SHA-6ec75bef-RC2, 0.305.0-SHA-757fcdb7-RC3, 0.307.0-SHA-1d58aad9-RC1
 
 RESOURCE ID: move_name_0390
 TEXT: Ira Natural
@@ -4174,6 +4208,9 @@ TEXT: Atrapa un Pidgey o Murkrow
 RESOURCE ID: quest_catch_type_psychic_fighting_plural
 TEXT: Atrapa {0} Pokémon de tipo Psíquico o Pelea
 
+RESOURCE ID: quest_complete_st
+TEXT: Veo doble
+
 RESOURCE ID: quest_evolve_type_dragon_plural
 TEXT: Evoluciona {0} Pokémon de tipo Dragón
 
@@ -4432,6 +4469,21 @@ TEXT: Simiestro de la selva (4/5)
 RESOURCE ID: quest_title_rogue_jungle_4
 TEXT: Simiestro de la selva (5/5)
 
+RESOURCE ID: quest_title_st
+TEXT: Veo doble
+
+RESOURCE ID: quest_title_st_0
+TEXT: Veo doble (1/4)
+
+RESOURCE ID: quest_title_st_1
+TEXT: Veo doble (2/4)
+
+RESOURCE ID: quest_title_st_2
+TEXT: Veo doble (3/4)
+
+RESOURCE ID: quest_title_st_3
+TEXT: Veo doble (4/4)
+
 RESOURCE ID: quest_torracat_evolve_b_plural
 TEXT: Evoluciona {0} Torracat
 
@@ -4467,6 +4519,9 @@ TEXT: Calificación actualizada.
 
 RESOURCE ID: rejoin_warning_modal_instructions
 TEXT: You can rejoin your party from the Party Tab.
+
+RESOURCE ID: rejoin_warning_modal_message
+TEXT: Si sales, perderás el progreso del desafío y las recompensas.
 
 RESOURCE ID: rejoin_warning_modal_message_disband
 TEXT: If you leave, your party will be disbanded and will lose challenge progress and unclaimed rewards.
@@ -4866,6 +4921,9 @@ TEXT: https://sso.niantic.kidswebservices.com/es/password/forgot
 RESOURCE ID: sa_registration_url
 TEXT: https://sso.niantic.kidswebservices.com/es/register
 
+RESOURCE ID: score_15_11_singular
+TEXT: Hizo 1 lanzamiento genial de bola curva
+
 RESOURCE ID: season_gbl_forecast_title_11
 TEXT: Pokémon GO: Gemas Ocultas
 
@@ -4882,16 +4940,16 @@ RESOURCE ID: settings_ar_plus
 TEXT: RA
 
 RESOURCE ID: settings_buddy_ar
-TEXT: AR Buddy
+TEXT: Compañero en RA
 
 RESOURCE ID: settings_buddy_ar_tip
-TEXT: Niantic AR for Buddy Play
+TEXT: RA de Niantic para juego con compañero
 
 RESOURCE ID: settings_connected_devices_title
 TEXT: Conectar dispositivo o servicio
 
 RESOURCE ID: settings_daily_bonus_reminder
-TEXT: Daily Streak Bonus Reminder
+TEXT: Recordatorio de bonificación de días seguidos
 
 RESOURCE ID: settings_enable_real_time_dynamics
 TEXT: Movimiento reactivo
@@ -4903,10 +4961,10 @@ RESOURCE ID: settings_enable_real_time_dynamics_description_on
 TEXT: Movimiento reactivo para el pelo y la ropa.
 
 RESOURCE ID: settings_encounter_ar
-TEXT: AR Encounters
+TEXT: Encuentros en RA
 
 RESOURCE ID: settings_encounter_ar_tip
-TEXT: Niantic AR for Pokémon Encounters
+TEXT: RA de Niantic para los encuentros con Pokémon
 
 RESOURCE ID: settings_route_guidance_tip_zygarde_only
 TEXT: Descubre cuándo hay apariciones misteriosas cerca de ti.
@@ -4946,6 +5004,69 @@ TEXT: ¡Felicitaciones! Canjeaste con éxito una oferta de investigación.
 
 RESOURCE ID: sponsorship_web_offer_redeem_confirmation
 TEXT: ¡Felicitaciones! Canjeaste correctamente una oferta en línea.
+
+RESOURCE ID: stardust_blast_event_name
+TEXT: Lluvia de Estrellas
+
+RESOURCE ID: story_rockethq14_0_0
+TEXT: Hola, %PLAYERNAME%. Tengo malas noticias.
+
+RESOURCE ID: story_rockethq14_0_1
+TEXT: Los miembros del Equipo GO Rocket están apareciendo por todos lados y, como bien sabes, vayan a donde vayan, estos sinvergüenzas siempre siembran el caos.
+
+RESOURCE ID: story_rockethq14_0_2
+TEXT: Necesitamos más información. ¿Por qué no te enfrentas a algunos de ellos y ves qué puedes averiguar?
+
+RESOURCE ID: story_rockethq14_0_3
+TEXT: Cuanto más descubramos, mejor preparados estaremos para detenerlos: ¡el saber es poder!
+
+RESOURCE ID: story_rockethq14_1_0
+TEXT: Parece que esos Reclutas del Equipo GO Rocket no tenían ganas de charlar, ¿no, %PLAYERNAME%?
+
+RESOURCE ID: story_rockethq14_1_1
+TEXT: ¡No importa! ¡Iremos directamente a la fuente y encontraremos dónde se esconden sus líderes agitadores!
+
+RESOURCE ID: story_rockethq14_1_2
+TEXT: Pero hasta entonces, sigue encargándote de los Reclutas y purifica todos los Pokémon oscuros que te encuentres. Rescatarlos de las garras de esos bandidos es una absoluta prioridad.
+
+RESOURCE ID: story_rockethq14_1_3
+TEXT: ¡No será ningún inconveniente para alguien como tú!
+
+RESOURCE ID: story_rockethq14_2_0
+TEXT: ¡Gran trabajo, %PLAYERNAME%! Ojalá pudiera decir que a mí también me fue así de bien.
+
+RESOURCE ID: story_rockethq14_2_1
+TEXT: Por desgracia, no pude encontrar a los Líderes del Equipo GO Rocket, Arlo, Cliff y Sierra. ¡Pero no te preocupes! ¡Cualquier Profesor que se respete siempre tiene un plan B!
+
+RESOURCE ID: story_rockethq14_2_2
+TEXT: Si logras encontrar algunos Componentes Misteriosos, ¡podremos armar un Radar Rocket!­
+
+RESOURCE ID: story_rockethq14_2_3
+TEXT: Con una tecnología tan avanzada en nuestras manos, seguro que esos malhechores no podrán esconderse.
+
+RESOURCE ID: story_rockethq14_3_0
+TEXT: ¡Un trabajo fantástico, %PLAYERNAME%! ¡Realmente les diste su merecido a esos Líderes del Equipo GO Rocket!
+
+RESOURCE ID: story_rockethq14_3_1
+TEXT: Aunque dejar a sus Líderes fuera de juego no bastó para poner fin a las actividades del Equipo GO Rocket. Así que vamos a tener que llevar el asunto a un nivel superior: Giovanni.
+
+RESOURCE ID: story_rockethq14_3_2
+TEXT: Ten cuidado. Es más fuerte que el resto de los miembros del Equipo GO Rocket. Aunque, si hay alguien que puede hacerle frente, eres tú.
+
+RESOURCE ID: story_rockethq14_3_3
+TEXT: ¡Buena suerte, %PLAYERNAME%!
+
+RESOURCE ID: story_rockethq14_4_0
+TEXT: ¡Espectacular, %PLAYERNAME%! ¡Les demostraste a Giovanni y a esa pandilla de abusones que no son bienvenidos por aquí!
+
+RESOURCE ID: story_rockethq14_4_1
+TEXT: Por ahora... No me cabe ninguna duda de que volverán en algún momento. Mientras tanto, los Pokémon de la zona estarán a salvo, y todo gracias a ti.
+
+RESOURCE ID: story_rockethq14_4_2
+TEXT: Una victoria de este calibre merece una celebración. ¿Quizá con un festín de Bayas Pinia?
+
+RESOURCE ID: story_rockethq14_4_3
+TEXT: Te agradezco de todo corazón por mantener a los Pokémon de nuestro mundo a salvo. ¡Ahora disfruta de tu merecido descanso!
 
 RESOURCE ID: story_rockethq14_title
 TEXT: It’s a Rocket World
@@ -5086,6 +5207,11 @@ TEXT: <b>Incluye:</b>
 • 5 Caramelos Raros para los Entrenadores de nivel 30 o inferior
 • 60 Ultrabolas, 3 Radares Rocket, 1 Módulo Señuelo, 1 Módulo Señuelo Musgoso, 1 Módulo Señuelo Glaciar, 2 Inciensos ¡y mucho más!
 
+RESOURCE ID: text_rewards_key_takeovermarch24
+TEXT: <b>Recompensas incluidas:</b>
+• Un encuentro con Pawniard
+• 6 Componentes Misteriosos, 1 Superincubadora y 1 Radar Rocket
+
 RESOURCE ID: text_rewards_key_valentines2024
 TEXT: <b>Incluye:</b>
 • Cinco encuentros con Spinda con dibujo de corazón
@@ -5110,6 +5236,18 @@ TEXT: <b>Recompensas incluidas:</b>
 • Encuentros con Zigzagoon de Galar, Seedot, Cacnea, Absol y Scraggy
 • 5 Caramelos Raros, 10 Caramelos Zarude, 3 Caramelos Zarude XL
 • 2 Pases de Combate Prémium, 1 Incienso, 10 Ultrabolas, 6 Bayas Pinia Plateadas ¡y más!
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title
+TEXT: Mundo de las Maravillas: Invasión
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title_1
+TEXT: Mundo de las Maravillas: Invasión (1/2)
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title_2
+TEXT: Mundo de las Maravillas: Invasión (2/2)
+
+RESOURCE ID: tgr_takeover_mar_2024_paid_ticket_title
+TEXT: Investigación Temporal: Tras el Equipo GO Rocket
 
 RESOURCE ID: ticket_electric_rd_mar24
 TEXT: La entrada para la Investigación Temporal con opciones "Día de Investigación Electrizante" está disponible en la tienda

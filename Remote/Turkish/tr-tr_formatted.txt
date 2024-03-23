@@ -205,6 +205,12 @@ TEXT: EVRİM
 RESOURCE ID: buddy_gift_increase_party
 TEXT: Buddy will bring you items more often while in a Party
 
+RESOURCE ID: buddy_phone_not_ar_capable_desc
+TEXT: Buddy AR is currently unavailable on this device.
+
+RESOURCE ID: buddy_phone_not_ar_capable_title
+TEXT: Unsupported device
+
 RESOURCE ID: catch_candy_double_party
 TEXT: 2× Catch Candy while in a Party
 
@@ -303,6 +309,10 @@ TEXT: 23 Mart, 14.00 - 22.00
 RESOURCE ID: event_datetime_range_key_primalkyogreraidday
 TEXT: 17 Mart, 14.00 - 22.00
 
+RESOURCE ID: event_datetime_range_key_takeovermarch24
+TEXT: 27 Mart, 00.00 –
+31 Mart, 23.59
+
 RESOURCE ID: event_datetime_range_key_valentines2024
 TEXT: 13 Şubat, 10.00 -
 15 Şubat, 20.00
@@ -354,6 +364,9 @@ TEXT: Kadim Groudon Akın Günü Bileti
 
 RESOURCE ID: general1.ticket._primalkyogreraidday_title
 TEXT: Kadim Kyogre Akın Günü Bileti
+
+RESOURCE ID: general1.ticket._takeovermarch24_title
+TEXT: GO Roket Takımı’nın Peşinde Süreli Araştırması Bileti
 
 RESOURCE ID: general1.ticket._wonderticket_title
 TEXT: Mucize Bileti (Temel kategori)
@@ -520,6 +533,18 @@ TEXT: Bu bilet 13 Şubat 2024 Salı, yerel saatle 10.00 - 15 Şubat 2024 Perşem
 RESOURCE ID: item_event_ticket_pink_details_electric
 TEXT: Bu bilet 3 Mart 2024’te, yerel saatle 14.00-17.00 arasında gerçekleşecek Elektrikli Araştırma Günü süreli araştırmasına dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
 
+RESOURCE ID: item_evergreen_ticket_desc
+TEXT: 31 Mart 2024’te, yerel saatle 23.59’a kadar sürecek GO Roket Takımı’nın Peşinde süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
+
+RESOURCE ID: item_evergreen_ticket_desc_lny2024
+TEXT: 5 Şubat 2024, yerel saatle 10.00 - 11 Şubat 2024, yerel saatle 20.00 arasında gerçekleşecek Yeni Ay Yılı: Her Yer Ejderha süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
+
+RESOURCE ID: item_evergreen_ticket_details
+TEXT: Bu bilet GO Roket Takımı’nın Peşinde süreli araştırmasına dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
+
+RESOURCE ID: item_evergreen_ticket_details_lny2024
+TEXT: Bu bilet 11 Şubat 2024, yerel saatle 20.00’ye kadar Yeni Ay Yılı: Her Yer Ejderha süreli araştırmasına dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
+
 RESOURCE ID: item_global_event_ticket_desc
 TEXT: 13 Temmuz 2024, yerel saatle 10.00’da başlayacak Pokémon GO Festivali 2024: Küresel özel araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
@@ -560,10 +585,10 @@ RESOURCE ID: mar24_weather_collection_challenge_2
 TEXT: Hava Durumu Haftası Toplama Görevi
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-03-21T18:21:27.154643+00:00 for tr-TR
-at SHA ae089ef803
-Pipeline 2195413, job 26637627
-Patch from: 0.303.1-SHA-d6629c9f-RC1, 0.305.0-SHA-757fcdb7-RC3, 0.307.0-SHA-1d58aad9-RC1
+TEXT: Built at 2024-03-22T23:34:27.158342+00:00 for tr-TR
+at SHA 0556d150ae
+Pipeline 2200671, job 26691428
+Patch from: 0.303.2-SHA-6ec75bef-RC2, 0.305.0-SHA-757fcdb7-RC3, 0.307.0-SHA-1d58aad9-RC1
 
 RESOURCE ID: move_name_0390
 TEXT: Doğanın Çılgınlığı
@@ -2389,6 +2414,9 @@ TEXT: Puanlama güncellendi.
 RESOURCE ID: rejoin_warning_modal_instructions
 TEXT: You can rejoin your party from the Party Tab.
 
+RESOURCE ID: rejoin_warning_modal_message
+TEXT: Ayrılırsanız görev ilerlemenizi ve almadığınız ödülleri kaybedeceksiniz.
+
 RESOURCE ID: rejoin_warning_modal_message_disband
 TEXT: If you leave, your party will be disbanded and will lose challenge progress and unclaimed rewards.
 
@@ -2729,6 +2757,66 @@ TEXT: Zarude ile karşılaşmak için Orman Haydudu özel araştırma hikâyesin
 RESOURCE ID: sponsorship_web_offer_redeem_confirmation
 TEXT: Tebrikler! Çevrimiçi bir teklifi başarıyla kullandınız.
 
+RESOURCE ID: story_rockethq14_0_0
+TEXT: Selam %PLAYERNAME%. Sana pek de hoş olmayan haberlerim var.
+
+RESOURCE ID: story_rockethq14_0_1
+TEXT: GO Roket Takımı üyeleri etrafa giderek daha fazla üşüşmeye başladı. İkimiz de biliyoruz ki nereye toplansalar orada çok geçmeden karmaşa baş gösterir.
+
+RESOURCE ID: story_rockethq14_0_2
+TEXT: Daha fazla bilgiye ihtiyacımız var. Gidip onlarla yüzleşmeye ve ne gibi bilgiler toplayabileceğini görmeye ne dersin?
+
+RESOURCE ID: story_rockethq14_0_3
+TEXT: Ne kadar çok şey öğrenirsek onları durdurmaya o kadar hazırlıklı olabiliriz. Bilgiden kuvvet doğar!
+
+RESOURCE ID: story_rockethq14_1_0
+TEXT: Şu GO Roket Takımı Serserilerinin de ağızlarını bıçak açmıyordu, değil mi %PLAYERNAME%?
+
+RESOURCE ID: story_rockethq14_1_1
+TEXT: Endişelenmeye gerek yok! Doğrudan bilginin kaynağına gidip Serserileri kışkırtan liderlerinin nerede saklandığını bulacağız!
+
+RESOURCE ID: story_rockethq14_1_2
+TEXT: Ama onları buluncaya kadar Serserilerin izini sürüp karşına çıkan Gölge Pokémon’ları arındırmaya devam et. Gölge Pokémon’ları kurtarmak en öncelikli işimiz olmalı.
+
+RESOURCE ID: story_rockethq14_1_3
+TEXT: Senin gibi bir Eğitmen bu iş için biçilmiş kaftan ne de olsa!
+
+RESOURCE ID: story_rockethq14_2_0
+TEXT: Harika iş çıkardın %PLAYERNAME%! Kendi araştırmamın gidişatı için de aynısını söyleyebilseydim keşke.
+
+RESOURCE ID: story_rockethq14_2_1
+TEXT: Ne yazık ki GO Roket Takımı liderleri Arlo, Cliff ve Sierra’nın izini bulamadım. Ama dert değil! İşinin erbabı bir profesörün her zaman B planı vardır!
+
+RESOURCE ID: story_rockethq14_2_2
+TEXT: Bir miktar Gizemli Bileşen toplarsan bir Roket Radarı oluşturabiliriz!
+
+RESOURCE ID: story_rockethq14_2_3
+TEXT: Elimizde böyle son teknoloji bir aygıt olduğu sürece o vicdansızların gözümüzden kaçması mümkün değil.
+
+RESOURCE ID: story_rockethq14_3_0
+TEXT: Müthiş iş çıkardın %PLAYERNAME%! GO Roket Takımı liderlerine günlerini gösterdin!
+
+RESOURCE ID: story_rockethq14_3_1
+TEXT: Ama ne yazık ki liderlerini devreden çıkarmak bile GO Roket Takımı’nın faaliyetlerini durdurmaya yetmedi. Bu da demektir ki mücadelemizi en üst seviyeye, yani Giovanni’ye taşımamız gerekecek.
+
+RESOURCE ID: story_rockethq14_3_2
+TEXT: Aman dikkatli ol. GO Roket Takımı’nın herhangi bir üyesinden çok daha güçlüdür Giovanni. Gerçi ona haddini bildirebilecek biri varsa o da sensin.
+
+RESOURCE ID: story_rockethq14_3_3
+TEXT: İyi şanslar %PLAYERNAME%!
+
+RESOURCE ID: story_rockethq14_4_0
+TEXT: Aferin %PLAYERNAME%! Giovanni ve zorba güruhuna buralarda istenmediklerini gösterdin!
+
+RESOURCE ID: story_rockethq14_4_1
+TEXT: En azından şimdilik... Eninde sonunda o zibidilerin geri geleceğine adım gibi eminim. Ama senin sayende bu bölgedeki Pokémon’lar şimdilik güvende.
+
+RESOURCE ID: story_rockethq14_4_2
+TEXT: Böyle büyük bir zaferi kutlamak gerek! Şöyle bir kase dolusu Pinap Meyvesine ne dersin?
+
+RESOURCE ID: story_rockethq14_4_3
+TEXT: Şunu içtenlikle söylediğimden emin olabilirsin: Dünyamızdaki Pokémon’ları güvende tuttuğun için sana minnettarım. Hadi şimdi gidip bir güzel dinlen!
+
 RESOURCE ID: story_rockethq14_title
 TEXT: Dünya Roket Dünyası
 
@@ -2837,6 +2925,11 @@ TEXT: <b>Ödüller arasında</b>
 • Akınlardan daha yüksek Nadir Büyük Şeker kazanma şansı
 • Başarıyla tamamlanan akınlardan %50 daha fazla TP ve 2× yıldız tozu yer alıyor.
 
+RESOURCE ID: text_rewards_key_takeovermarch24
+TEXT: <b>Ödüller arasında</b>
+• Pawniard ile bir karşılaşma
+• 6 Gizemli Bileşen, 1 Süper Kuluçka Makinesi ve 1 Roket Radarı yer alıyor.
+
 RESOURCE ID: text_rewards_key_wonderticket
 TEXT: <b>Bu bilet, çıktıklarında otomatik olarak erişim hakkı kazanacağınız üç süreli araştırma fırsatı içerir.</b> Bu bileti satın alarak ilk süreli araştırmaya katılmaya olanak kazanırsınız.
 
@@ -2854,6 +2947,18 @@ TEXT: <b>Ödüller arasında</b>
 • Galarlı Zigzagoon, Seedot, Cacnea, Absol ve Scraggy ile karşılaşmalar
 • 5 Nadir Şeker, 10 Zarude şekeri, 3 Zarude büyük şekeri
 • 2 Premium Maç Bileti, 1 Tütsü, 10 Ultra Top, 6 Gümüş Pinap Meyvesi ve daha fazlası yer alıyor!
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title
+TEXT: Mucizeler Diyarı: İstila
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title_1
+TEXT: Mucizeler Diyarı: İstila (1/2)
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title_2
+TEXT: Mucizeler Diyarı: İstila (2/2)
+
+RESOURCE ID: tgr_takeover_mar_2024_paid_ticket_title
+TEXT: GO Roket Takımı’nın Peşinde Süreli Araştırması
 
 RESOURCE ID: ticket_electric_rd_mar24
 TEXT: Farklı kollara ayrılan Elektrikli Araştırma Günü süreli araştırma bileti şimdi mağazada

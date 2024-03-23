@@ -199,6 +199,12 @@ TEXT: ENTWICKELN
 RESOURCE ID: buddy_gift_increase_party
 TEXT: Buddy will bring you items more often while in a Party
 
+RESOURCE ID: buddy_phone_not_ar_capable_desc
+TEXT: Buddy AR is currently unavailable on this device.
+
+RESOURCE ID: buddy_phone_not_ar_capable_title
+TEXT: Unsupported device
+
 RESOURCE ID: catch_candy_double_party
 TEXT: 2× Catch Candy while in a Party
 
@@ -280,6 +286,10 @@ TEXT: 23. März, 14:00 bis 22:00 Uhr Ortszeit
 RESOURCE ID: event_datetime_range_key_primalkyogreraidday
 TEXT: 17. März, 14:00 bis 22:00 Uhr Ortszeit
 
+RESOURCE ID: event_datetime_range_key_takeovermarch24
+TEXT: 27. März, 0:00 Uhr bis
+31. März, 23:59 Uhr
+
 RESOURCE ID: event_datetime_range_key_wonderticket
 TEXT: 1. März um 10:00 Uhr – 
 14. Juni um 20:00 Uhr Ortszeit 
@@ -327,6 +337,9 @@ TEXT: Ticket: Raid-Tag mit Proto-Groudon
 
 RESOURCE ID: general1.ticket._primalkyogreraidday_title
 TEXT: Ticket: Raid-Tag mit Proto-Kyogre
+
+RESOURCE ID: general1.ticket._takeovermarch24_title
+TEXT: Ticket zur Befristeten Forschung: Team GO Rocket auf der Spur
 
 RESOURCE ID: general1.ticket._wonderticket_title
 TEXT: Wunderticket (Basis)
@@ -493,6 +506,18 @@ TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befri
 RESOURCE ID: item_event_ticket_pink_details_electric
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Forschung „Unter Strom“ am 3. März 2024 von 14:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
 
+RESOURCE ID: item_evergreen_ticket_desc
+TEXT: Ein Ticket für den Zugang zur Befristeten Forschung „Team GO Rocket auf der Spur“ bis zum 31. März 2024 um 23:59 Uhr Ortszeit (wo immer du dich befindest).
+
+RESOURCE ID: item_evergreen_ticket_desc_lny2024
+TEXT: Ein Ticket für den Zugang zur Befristeten Forschung „Entfesselte Drachen“ vom 5. Februar 2024 um 10:00 Uhr bis 11. Februar 2024 um 20:00 Uhr Ortszeit (wo immer du dich befindest).
+
+RESOURCE ID: item_evergreen_ticket_details
+TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Forschung „Team GO Rocket auf der Spur“ (wo immer du dich befindest).
+
+RESOURCE ID: item_evergreen_ticket_details_lny2024
+TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Forschung „Entfesselte Drachen“ bis zum 11. Februar 2024 um 20:00 Uhr Ortszeit (wo immer du dich befindest).
+
 RESOURCE ID: item_global_event_ticket_desc
 TEXT: Ein Ticket zur Teilnahme an der Spezialforschung zum Pokémon GO Fest 2024: Global ab dem 13. Juli 2024 um 10:00 Uhr Ortszeit (wo immer du dich befindest).
 
@@ -530,10 +555,10 @@ RESOURCE ID: mar24_weather_collection_challenge_2
 TEXT: Wetterwoche: Sammler-Herausforderung
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-03-21T18:21:27.154643+00:00 for de-DE
-at SHA ae089ef803
-Pipeline 2195413, job 26637627
-Patch from: 0.303.1-SHA-d6629c9f-RC1, 0.305.0-SHA-757fcdb7-RC3, 0.307.0-SHA-1d58aad9-RC1
+TEXT: Built at 2024-03-22T23:34:27.158342+00:00 for de-DE
+at SHA 0556d150ae
+Pipeline 2200671, job 26691428
+Patch from: 0.303.2-SHA-6ec75bef-RC2, 0.305.0-SHA-757fcdb7-RC3, 0.307.0-SHA-1d58aad9-RC1
 
 RESOURCE ID: move_name_0390
 TEXT: Naturzorn
@@ -2737,6 +2762,9 @@ TEXT: Bewertung geändert.
 RESOURCE ID: rejoin_warning_modal_instructions
 TEXT: You can rejoin your party from the Party Tab.
 
+RESOURCE ID: rejoin_warning_modal_message
+TEXT: Falls du das Team verlässt, verlierst du Herausforderungsfortschritte und unbeanspruchte Belohnungen.
+
 RESOURCE ID: rejoin_warning_modal_message_disband
 TEXT: If you leave, your party will be disbanded and will lose challenge progress and unclaimed rewards.
 
@@ -3074,6 +3102,66 @@ TEXT: Schließe das Spezialforschungs-Abenteuer „Mich laust der Finsteraffe“
 RESOURCE ID: sponsorship_web_offer_redeem_confirmation
 TEXT: Glückwunsch! Du hast ein Angebot erfolgreich online eingelöst.
 
+RESOURCE ID: story_rockethq14_0_0
+TEXT: Hallöchen, %PLAYERNAME%! Ich habe unangenehme Neuigkeiten.
+
+RESOURCE ID: story_rockethq14_0_1
+TEXT: In der letzten Zeit treiben sich wieder vermehrt Team GO Rocket-Mitglieder herum – und wir wissen beide, dass, wo auch immer diese Unruhestifter auftauchen, das Chaos vorprogrammiert ist.
+
+RESOURCE ID: story_rockethq14_0_2
+TEXT: Wir brauchen mehr Informationen. Warum knöpfst du dir nicht ein paar von ihnen vor und schaust, was für Hinweise du bekommen kannst?
+
+RESOURCE ID: story_rockethq14_0_3
+TEXT: Je mehr wir erfahren, desto besser können wir ihnen Einhalt gebieten – das ist die Macht des Wissens!
+
+RESOURCE ID: story_rockethq14_1_0
+TEXT: Diese Team GO Rocket-Rüpel waren wohl nicht sehr gesprächig, nicht wahr, %PLAYERNAME%?
+
+RESOURCE ID: story_rockethq14_1_1
+TEXT: Keine Sorge! Wir gehen einfach direkt zur Quelle und finden heraus, wo sich ihre aufrührerischen Bosse verstecken!
+
+RESOURCE ID: story_rockethq14_1_2
+TEXT: Aber bis wir ihnen auf die Spur kommen, kannst du dich um die Rüpel kümmern und ihre Crypto-Pokémon erlösen. Sie vor diesen Schuften zu retten ist unsere Priorität.
+
+RESOURCE ID: story_rockethq14_1_3
+TEXT: Ich weiß, dass ein Trainer wie du dieser Aufgabe mehr als gewachsen ist!
+
+RESOURCE ID: story_rockethq14_2_0
+TEXT: Großartige Arbeit da draußen, %PLAYERNAME%! Ich wünschte, ich könnte dasselbe über meine eigene Recherche sagen.
+
+RESOURCE ID: story_rockethq14_2_1
+TEXT: Ich konnte die Bosse von Team GO Rocket – Arlo, Cliff und Sierra – leider nicht ausfindig machen. Aber keine Sorge! Jeder gute Professor hat immer einen Plan B!
+
+RESOURCE ID: story_rockethq14_2_2
+TEXT: Wenn du ein paar Mysteriöse Teile sammelst, können wir uns ein Rocket-Radar bauen!
+
+RESOURCE ID: story_rockethq14_2_3
+TEXT: Wenn wir eine solche Top-Technik in unseren Händen haben, können sich diese Übeltäter nicht weiter vor uns verstecken.
+
+RESOURCE ID: story_rockethq14_3_0
+TEXT: Ausgezeichnete Arbeit, %PLAYERNAME%! Du hast es den Team GO Rocket-Bossen gezeigt!
+
+RESOURCE ID: story_rockethq14_3_1
+TEXT: Aber selbst die Konfrontation mit ihren Bossen konnte den Untaten von Team GO Rocket keinen Einhalt gebieten. Das heißt, dass wir unser kleines Problem direkt an der Spitze vortragen werden – bei Giovanni.
+
+RESOURCE ID: story_rockethq14_3_2
+TEXT: Aber Vorsicht! Er ist stärker als die anderen Team GO Rocket-Mitglieder. Aber wenn es jemanden gibt, der ihm Einhalt gebieten kann, dann bist du es.
+
+RESOURCE ID: story_rockethq14_3_3
+TEXT: Viel Glück, %PLAYERNAME%!
+
+RESOURCE ID: story_rockethq14_4_0
+TEXT: Respekt, %PLAYERNAME%! Du hast Giovanni und seiner Bande von Rüpeln und Querulanten gezeigt, dass sie hier nicht willkommen sind!
+
+RESOURCE ID: story_rockethq14_4_1
+TEXT: ... Zumindest vorerst. Ich habe keinen Zweifel daran, dass diese Flegel irgendwann wieder hier auftauchen werden. Aber die Pokémon in diesem Gebiet sind wenigstens momentan sicher und das haben wir dir zu verdanken.
+
+RESOURCE ID: story_rockethq14_4_2
+TEXT: Ein Sieg wie dieser muss gefeiert werden – wie wärs mit einem Schälchen Sananabeeren?
+
+RESOURCE ID: story_rockethq14_4_3
+TEXT: Es kommt von Herzen, wenn ich dir dies sage: Vielen Dank dafür, dass du die Pokémon unserer Welt beschützt. Gönn dir jetzt erst einmal etwas wohlverdiente Ruhe!
+
 RESOURCE ID: story_rockethq14_title
 TEXT: Eine Rocket-Welt
 
@@ -3190,6 +3278,11 @@ TEXT: <b>Enthält:</b>
 • Erhöhte Chance auf Sonderbonbons XL für Raids
 • 50 % mehr EP und 2× Sternenstaub für den erfolgreichen Abschluss von Raids
 
+RESOURCE ID: text_rewards_key_takeovermarch24
+TEXT: <b>Enthaltene Belohnungen:</b>
+• Eine Begegnung mit Gladiantri
+• 6 Mysteriöse Teile, 1 Super-Brutmaschine und 1 Rocket-Radar
+
 RESOURCE ID: text_rewards_key_wonderticket
 TEXT: <b>Dieses Ticket enthält drei Möglichkeiten zu Befristeten Forschungen, zu denen du automatisch Zugang erhältst, wenn sie verfügbar werden.</b> Der Kauf dieses Tickets gibt dir Zugang zur ersten Befristeten Forschung.
 
@@ -3207,6 +3300,18 @@ TEXT: <b>Enthaltene Belohnungen:</b>
 • Begegnungen mit Galar-Zigzachs, Samurzel, Tuska, Absol und Zurrokex
 • 5 Sonderbonbons, 10 Zarude-Bonbons, 3 Zarude-Bonbons XL
 • 2 Premium-Kampf-Pässe, 1 Rauch, 10 Hyperbälle, 6 Silberne Sananabeeren und mehr!
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title
+TEXT: Welt voller Wunder: Übernahme
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title_1
+TEXT: Welt voller Wunder: Übernahme (1/2)
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title_2
+TEXT: Welt voller Wunder: Übernahme (2/2)
+
+RESOURCE ID: tgr_takeover_mar_2024_paid_ticket_title
+TEXT: Befristete Forschung „Team GO Rocket auf der Spur“
 
 RESOURCE ID: ticket_electric_rd_mar24
 TEXT: Ticket für die Befristete Forschung am Forschungstag unter Strom im Shop erhältlich

@@ -196,6 +196,12 @@ TEXT: ÉVOLUTION
 RESOURCE ID: buddy_gift_increase_party
 TEXT: Buddy will bring you items more often while in a Party
 
+RESOURCE ID: buddy_phone_not_ar_capable_desc
+TEXT: Buddy AR is currently unavailable on this device.
+
+RESOURCE ID: buddy_phone_not_ar_capable_title
+TEXT: Unsupported device
+
 RESOURCE ID: catch_candy_double_party
 TEXT: 2× Catch Candy while in a Party
 
@@ -292,6 +298,10 @@ TEXT: Le 23 mars de 14h à 22h, heures locales
 RESOURCE ID: event_datetime_range_key_primalkyogreraidday
 TEXT: Le 17 mars de 14h à 22h, heures locales
 
+RESOURCE ID: event_datetime_range_key_takeovermarch24
+TEXT: Du 27 mars à minuit
+au 31 mars à 23h59
+
 RESOURCE ID: event_datetime_range_key_valentines2024
 TEXT: Du 13 février à 10h
 au 15 février à 20h
@@ -345,6 +355,9 @@ TEXT: Ticket pour la Journée de Raids Primo-Groudon
 
 RESOURCE ID: general1.ticket._primalkyogreraidday_title
 TEXT: Ticket pour la Journée de Raids Primo-Kyogre
+
+RESOURCE ID: general1.ticket._takeovermarch24_title
+TEXT: Étude ponctuelle À la poursuite de la Team GO Rocket
 
 RESOURCE ID: general1.ticket._wonderticket_title
 TEXT: Ticket merveilleux (version de base)
@@ -511,6 +524,18 @@ TEXT: Ce ticket sera automatiquement activé pour te donner accès à l’Étude
 RESOURCE ID: item_event_ticket_pink_details_electric
 TEXT: Ce ticket sera automatiquement activé pour te donner accès à l’Étude ponctuelle Chargé à bloc le 3 mars 2024 de 14h à 17h (heures locales), où que tu sois.
 
+RESOURCE ID: item_evergreen_ticket_desc
+TEXT: Un ticket pour accéder à l’Étude ponctuelle À la poursuite de la Team GO Rocket jusqu’au 31 mars 2024 à 23h59, heure locale, où que tu sois.
+
+RESOURCE ID: item_evergreen_ticket_desc_lny2024
+TEXT: Un ticket pour accéder à l’Étude ponctuelle Nouvel An lunaire : Dragons déchaînés du 5 février à 10h au 11 février 2024 à 20h, heures locales, où que tu sois.
+
+RESOURCE ID: item_evergreen_ticket_details
+TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude ponctuelle À la poursuite de la Team GO Rocket, où que tu sois.
+
+RESOURCE ID: item_evergreen_ticket_details_lny2024
+TEXT: Ce ticket sera automatiquement activé pour te donner accès à l’Étude ponctuelle Nouvel An lunaire : Dragons déchaînés jusqu’au 11 février 2024 à 20h, heure locale, où que tu sois.
+
 RESOURCE ID: item_global_event_ticket_desc
 TEXT: Un ticket pour accéder à l’Étude spéciale du Festival Pokémon GO 2024 : Mondial, à partir du 13 juillet 2024 à 10h, heure locale, où que tu sois.
 
@@ -548,10 +573,10 @@ RESOURCE ID: mar24_weather_collection_challenge_2
 TEXT: Défi de collection de la Semaine météo
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-03-21T18:21:27.154643+00:00 for fr-FR
-at SHA ae089ef803
-Pipeline 2195413, job 26637627
-Patch from: 0.303.1-SHA-d6629c9f-RC1, 0.305.0-SHA-757fcdb7-RC3, 0.307.0-SHA-1d58aad9-RC1
+TEXT: Built at 2024-03-22T23:34:27.158342+00:00 for fr-FR
+at SHA 0556d150ae
+Pipeline 2200671, job 26691428
+Patch from: 0.303.2-SHA-6ec75bef-RC2, 0.305.0-SHA-757fcdb7-RC3, 0.307.0-SHA-1d58aad9-RC1
 
 RESOURCE ID: move_name_0390
 TEXT: Ire de la Nature
@@ -2350,6 +2375,9 @@ TEXT: Évaluation mise à jour.
 RESOURCE ID: rejoin_warning_modal_instructions
 TEXT: You can rejoin your party from the Party Tab.
 
+RESOURCE ID: rejoin_warning_modal_message
+TEXT: Si tu quittes le Jeu en équipe, tu perdras les récompenses non récupérées et ta progression dans les défis.
+
 RESOURCE ID: rejoin_warning_modal_message_disband
 TEXT: If you leave, your party will be disbanded and will lose challenge progress and unclaimed rewards.
 
@@ -2689,6 +2717,66 @@ TEXT: Termine l’Étude spéciale Vilain de la jungle pour rencontrer Zarude
 RESOURCE ID: sponsorship_web_offer_redeem_confirmation
 TEXT: Félicitations ! Tu as échangé une offre en ligne.
 
+RESOURCE ID: story_rockethq14_0_0
+TEXT: Salut, %PLAYERNAME%. J’ai quelques nouvelles inquiétantes.
+
+RESOURCE ID: story_rockethq14_0_1
+TEXT: Les membres de la Team GO Rocket sont de plus en plus nombreux ces derniers temps, et nous savons tous les deux que cela ne présage rien de bon.
+
+RESOURCE ID: story_rockethq14_0_2
+TEXT: Nous devons en savoir plus. Pourquoi n’irais-tu pas les confronter et voir si tu peux récupérer des informations ?
+
+RESOURCE ID: story_rockethq14_0_3
+TEXT: Nous serons plus à même de les stopper si nous savons ce qu’ils manigancent. C’est le pouvoir de la connaissance !
+
+RESOURCE ID: story_rockethq14_1_0
+TEXT: Ces Sbires de la Team GO Rocket n’étaient pas très bavards, n’est-ce pas, %PLAYERNAME% ?
+
+RESOURCE ID: story_rockethq14_1_1
+TEXT: Ne t’inquiète pas ! Allons directement à la source pour découvrir quel plan sinistre leurs chefs ont concocté.
+
+RESOURCE ID: story_rockethq14_1_2
+TEXT: Mais jusqu’à ce que nous retrouvions leur trace, continue de t’occuper des Sbires de la Team GO Rocket et purifie tous les Pokémon Obscurs que tu croises. Nous devons les sauver coûte que coûte.
+
+RESOURCE ID: story_rockethq14_1_3
+TEXT: Je sais que cela ne sera qu’une formalité pour une personne aussi talentueuse que toi.
+
+RESOURCE ID: story_rockethq14_2_0
+TEXT: Excellent travail, %PLAYERNAME% ! J’aimerais pouvoir en dire autant.
+
+RESOURCE ID: story_rockethq14_2_1
+TEXT: Malheureusement, je n’ai pas réussi retrouver les chefs de la Team GO Rocket, Arlo, Cliff et Sierra. Pas d’inquiétude cependant ! Tout Professeur digne de ce nom a toujours un plan B !
+
+RESOURCE ID: story_rockethq14_2_2
+TEXT: Si tu récupères des Éléments mystérieux, nous pourrons les utiliser pour créer un Radar Rocket !
+
+RESOURCE ID: story_rockethq14_2_3
+TEXT: Avec ce petit bijou technologique, ces vauriens ne pourront pas continuer à se cacher longtemps.
+
+RESOURCE ID: story_rockethq14_3_0
+TEXT: Excellent travail, %PLAYERNAME% ! Tu as donné une bonne leçon à ces chefs de la Team GO Rocket !
+
+RESOURCE ID: story_rockethq14_3_1
+TEXT: Cependant, cela n’a pas suffi pour faire cesser les activités de la Team GO Rocket. Ce qui veut dire que nous allons devoir aller directement à la source, et mettre Giovanni hors d’état de nuire.
+
+RESOURCE ID: story_rockethq14_3_2
+TEXT: Fais attention cependant. Il est plus puissant que tous les autres membres de la Team GO Rocket. Mais si quelqu’un peut lui régler son compte, c’est bien toi.
+
+RESOURCE ID: story_rockethq14_3_3
+TEXT: Bonne chance, %PLAYERNAME% !
+
+RESOURCE ID: story_rockethq14_4_0
+TEXT: Bravo, %PLAYERNAME% ! Tu as montré à Giovanni et à sa bande de malfrats qu’ils ne sont pas les bienvenus ici !
+
+RESOURCE ID: story_rockethq14_4_1
+TEXT: ...Pour le moment, en tout cas. Je n’ai aucun doute sur le fait que ces brigands tenteront à nouveau de sévir. Mais pour l’instant, les Pokémon des environs n’ont rien à craindre, et c’est grâce à toi.
+
+RESOURCE ID: story_rockethq14_4_2
+TEXT: Il faut fêter ça ! Que dirais-tu d’un bon bol de Baies Nanana ?
+
+RESOURCE ID: story_rockethq14_4_3
+TEXT: En tout cas, je te remercie sincèrement de protéger les Pokémon de notre monde. Maintenant, va te reposer, tu le mérites !
+
 RESOURCE ID: story_rockethq14_title
 TEXT: Un monde 100 % Rocket
 
@@ -2796,6 +2884,11 @@ TEXT: <b>Donne accès à :</b>
 • Plus de chances de recevoir un Super Bonbon L dans les Combats de Raids
 • 50 % de PX en plus et le double de Poussières Étoiles quand tu gagnes des Raids
 
+RESOURCE ID: text_rewards_key_takeovermarch24
+TEXT: <b>Donne accès à :</b>
+• une rencontre avec Scalpion
+• 6 Éléments mystérieux, 1 Super-Incubateur et 1 Radar Rocket
+
 RESOURCE ID: text_rewards_key_wonderticket
 TEXT: <b>Avec ce ticket, tu peux accéder à trois Études ponctuelles auxquelles tu auras automatiquement accès une fois qu’elles seront disponibles.</b> L’achat de ce ticket te donne accès à la première Étude ponctuelle.
 
@@ -2813,6 +2906,18 @@ TEXT: <b>Donne accès aux récompenses suivantes :</b>
 • Des rencontres avec Zigzaton de Galar, Grainipiot, Cacnea, Absol et Baggiguane
 • 5 Super Bonbons, 10 Bonbons Zarude, 3 Bonbons L Zarude
 • 2 passes de combat premium, 1 Encens, 10 Hyper Balls, 6 Baies Nanana argentées et plus encore !
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title
+TEXT: Monde Merveilleux : Offensive
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title_1
+TEXT: Monde Merveilleux : Offensive (1/2)
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title_2
+TEXT: Monde Merveilleux : Offensive (2/2)
+
+RESOURCE ID: tgr_takeover_mar_2024_paid_ticket_title
+TEXT: Étude ponctuelle À la poursuite de la Team GO Rocket
 
 RESOURCE ID: ticket_electric_rd_mar24
 TEXT: Ticket pour accéder à l’Étude ponctuelle Journée Étude Chargé à bloc disponible dans la Boutique

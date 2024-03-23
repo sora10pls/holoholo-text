@@ -196,6 +196,12 @@ TEXT: EVOLUZIONE
 RESOURCE ID: buddy_gift_increase_party
 TEXT: Buddy will bring you items more often while in a Party
 
+RESOURCE ID: buddy_phone_not_ar_capable_desc
+TEXT: Buddy AR is currently unavailable on this device.
+
+RESOURCE ID: buddy_phone_not_ar_capable_title
+TEXT: Unsupported device
+
 RESOURCE ID: catch_candy_double_party
 TEXT: 2× Catch Candy while in a Party
 
@@ -295,6 +301,10 @@ TEXT: Il 23 marzo dalle 14:00 alle 22:00
 RESOURCE ID: event_datetime_range_key_primalkyogreraidday
 TEXT: Il 17 marzo dalle 14:00 alle 22:00
 
+RESOURCE ID: event_datetime_range_key_takeovermarch24
+TEXT: Dal 27 marzo alle 00:00
+al 31 marzo alle 23:59
+
 RESOURCE ID: event_datetime_range_key_tgrtakejan2024
 TEXT: Dal 27 gennaio alle 00:00 al 
 1 febbraio alle 23:59
@@ -350,6 +360,9 @@ TEXT: Biglietto per il giorno di raid dedicato ad ArcheoGroudon
 
 RESOURCE ID: general1.ticket._primalkyogreraidday_title
 TEXT: Biglietto per il giorno di raid dedicato ad ArcheoKyogre
+
+RESOURCE ID: general1.ticket._takeovermarch24_title
+TEXT: Biglietto per la ricerca a tempo “All’inseguimento del Team GO Rocket”
 
 RESOURCE ID: general1.ticket._wonderticket_title
 TEXT: Biglietto meraviglia (base)
@@ -516,6 +529,18 @@ TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso all
 RESOURCE ID: item_event_ticket_pink_details_electric
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo elettrizzante il 3 marzo 2024 dalle 14:00 alle 17:00 ora locale, ovunque ti trovi.
 
+RESOURCE ID: item_evergreen_ticket_desc
+TEXT: Un biglietto per accedere alla ricerca a tempo “All’inseguimento del Team GO Rocket” fino alle 23:59 ora locale del 31 marzo, ovunque ti trovi.
+
+RESOURCE ID: item_evergreen_ticket_desc_lny2024
+TEXT: Un biglietto per accedere alla ricerca a tempo “Capodanno lunare: Draghi scatenati” dal 5 febbraio alle 10:00 all’11 febbraio 2024 alle 20:00 ora locale, ovunque ti trovi.
+
+RESOURCE ID: item_evergreen_ticket_details
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo “All’inseguimento del Team GO Rocket”, ovunque ti trovi.
+
+RESOURCE ID: item_evergreen_ticket_details_lny2024
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo “Capodanno lunare: Draghi scatenati” fino alle 20:00 dell’11 febbraio 2024 ora locale, ovunque ti trovi.
+
 RESOURCE ID: item_global_event_ticket_desc
 TEXT: Un biglietto per accedere alla ricerca speciale del Festival di Pokémon GO 2024 (globale) dal 13 luglio 2024 alle 10:00 ora locale, ovunque ti trovi.
 
@@ -556,10 +581,10 @@ RESOURCE ID: mar24_weather_collection_challenge_2
 TEXT: Sfida di collezione della settimana del clima
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-03-21T18:21:27.154643+00:00 for it-IT
-at SHA ae089ef803
-Pipeline 2195413, job 26637627
-Patch from: 0.303.1-SHA-d6629c9f-RC1, 0.305.0-SHA-757fcdb7-RC3, 0.307.0-SHA-1d58aad9-RC1
+TEXT: Built at 2024-03-22T23:34:27.158342+00:00 for it-IT
+at SHA 0556d150ae
+Pipeline 2200671, job 26691428
+Patch from: 0.303.2-SHA-6ec75bef-RC2, 0.305.0-SHA-757fcdb7-RC3, 0.307.0-SHA-1d58aad9-RC1
 
 RESOURCE ID: move_name_0390
 TEXT: Ira della Natura
@@ -2604,6 +2629,9 @@ TEXT: Valutazione aggiornata.
 RESOURCE ID: rejoin_warning_modal_instructions
 TEXT: You can rejoin your party from the Party Tab.
 
+RESOURCE ID: rejoin_warning_modal_message
+TEXT: Se lasci il gioco in gruppo, i tuoi progressi nella sfida e le ricompense non riscattate verranno persi.
+
 RESOURCE ID: rejoin_warning_modal_message_disband
 TEXT: If you leave, your party will be disbanded and will lose challenge progress and unclaimed rewards.
 
@@ -2953,23 +2981,83 @@ TEXT: Completa la ricerca speciale “Minaccia nella giungla” per incontrare Z
 RESOURCE ID: sponsorship_web_offer_redeem_confirmation
 TEXT: Congratulazioni! Hai riscattato un’offerta online.
 
+RESOURCE ID: story_rockethq14_0_0
+TEXT: Ciao, %PLAYERNAME%, cattive notizie.
+
+RESOURCE ID: story_rockethq14_0_1
+TEXT: I membri del Team GO Rocket stanno spuntando in gran numero e, come ben sai, ovunque si trovino quei piantagrane sono sempre pronti a seminare il caos.
+
+RESOURCE ID: story_rockethq14_0_2
+TEXT: Ci servono più informazioni. Perché non vai ad affrontarne qualcuno e cerchi di capire cosa stanno tramando?
+
+RESOURCE ID: story_rockethq14_0_3
+TEXT: Più riusciamo a scoprire sui loro piani, più efficace sarà la nostra reazione: è questo il grande potere della conoscenza!
+
+RESOURCE ID: story_rockethq14_1_0
+TEXT: Quelle reclute del Team GO Rocket erano di poche parole, vero %PLAYERNAME%?
+
+RESOURCE ID: story_rockethq14_1_1
+TEXT: Non preoccuparti! Andremo direttamente alla fonte e troveremo il nascondiglio di quegli attaccabrighe dei loro leader!
+
+RESOURCE ID: story_rockethq14_1_2
+TEXT: Mentre ci mettiamo sulle loro tracce, continua a cercare le reclute e purifica tutti i Pokémon Ombra in cui ti imbatti. Salvarli da questi mascalzoni è uno dei nostri obiettivi primari.
+
+RESOURCE ID: story_rockethq14_1_3
+TEXT: Sono certo che con il tuo grande talento siamo in ottime mani!
+
+RESOURCE ID: story_rockethq14_2_0
+TEXT: Ottimo lavoro, %PLAYERNAME%! Mi piacerebbe poterti dire che anche la mia ricerca è andata bene.
+
+RESOURCE ID: story_rockethq14_2_1
+TEXT: Purtroppo, non sono riuscito a scovare i leader del Team GO Rocket: Arlo, Cliff, e Sierra. Non c’è da preoccuparsi, però! Ogni Professore che si rispetti ha sempre un piano B!
+
+RESOURCE ID: story_rockethq14_2_2
+TEXT: Se raccogli qualche componente misterioso potremo mettere insieme un radar Rocket!
+
+RESOURCE ID: story_rockethq14_2_3
+TEXT: Con questa tecnologia di prim’ordine nelle nostre mani nessun furfante potrà farla franca.
+
+RESOURCE ID: story_rockethq14_3_0
+TEXT: Fantastico, %PLAYERNAME%! Hai dato ai leader del Team GO Rocket quello che si meritano!
+
+RESOURCE ID: story_rockethq14_3_1
+TEXT: Purtroppo, sconfiggere i leader non è bastato a porre fine alle attività del Team GO Rocket. Ciò significa che dobbiamo mirare ancora più in alto e affrontare Giovanni.
+
+RESOURCE ID: story_rockethq14_3_2
+TEXT: Attenzione, però: è molto più forte di qualsiasi altro membro del Team GO Rocket. Ma se c’è qualcuno in grado di rimetterlo in riga, sei tu.
+
+RESOURCE ID: story_rockethq14_3_3
+TEXT: Buona fortuna, %PLAYERNAME%!
+
+RESOURCE ID: story_rockethq14_4_0
+TEXT: Ben fatto, %PLAYERNAME%! Hai mostrato a Giovanni e alla sua banda di bulli e manigoldi che qui non sono i benvenuti...
+
+RESOURCE ID: story_rockethq14_4_1
+TEXT: ...almeno per adesso. Non ho alcun dubbio che quei mascalzoni torneranno alla carica. Ma per ora, i Pokémon della zona sono al sicuro e tutto questo grazie a te.
+
+RESOURCE ID: story_rockethq14_4_2
+TEXT: Una vittoria come questa merita i giusti festeggiamenti! Che ne dici di una bella scorpacciata di Baccananas?
+
+RESOURCE ID: story_rockethq14_4_3
+TEXT: Ti ringrazio con tutto il cuore per il tuo impegno nel proteggere i Pokémon e tenerli al sicuro. Ora vai e goditi un po’ di meritato riposo!
+
 RESOURCE ID: story_rockethq14_title
-TEXT: It’s a Rocket World
+TEXT: Mondo Rocket
 
 RESOURCE ID: story_rockethq14_title_0
-TEXT: It’s a Rocket World (1/5)
+TEXT: Mondo Rocket (1/5)
 
 RESOURCE ID: story_rockethq14_title_1
-TEXT: It’s a Rocket World (2/5)
+TEXT: Mondo Rocket (2/5)
 
 RESOURCE ID: story_rockethq14_title_2
-TEXT: It’s a Rocket World (3/5)
+TEXT: Mondo Rocket (3/5)
 
 RESOURCE ID: story_rockethq14_title_3
-TEXT: It’s a Rocket World (4/5)
+TEXT: Mondo Rocket (4/5)
 
 RESOURCE ID: story_rockethq14_title_4
-TEXT: It’s a Rocket World (5/5)
+TEXT: Mondo Rocket (5/5)
 
 RESOURCE ID: story_worldofwonders
 TEXT: Mondo di meraviglie
@@ -3060,6 +3148,11 @@ TEXT: <b>Include:</b>
 • Maggiori probabilità di ottenere Caramelle Rare L nei raid
 • 50% di PE in più e doppio della polvere di stelle quando porti a termine un raid con successo
 
+RESOURCE ID: text_rewards_key_takeovermarch24
+TEXT: <b>Le ricompense includono:</b>
+• Un incontro con Pawniard
+• Sei componenti misteriosi, una Superincubatrice e un radar Rocket
+
 RESOURCE ID: text_rewards_key_wonderticket
 TEXT: <b>Questo biglietto include tre ricerche a tempo esclusive, a cui potrai accedere man mano che diventano disponibili.</b> Acquistando questo biglietto avrai accesso alla prima ricerca a tempo.
 
@@ -3077,6 +3170,18 @@ TEXT: <b>Le ricompense includono:</b>
 • Incontri con Zigzagoon di Galar, Seedot, Cacnea, Absol e Scraggy
 • cinque Caramelle Rare, 10 caramelle Zarude, tre caramelle Zarude L
 • due biglietti lotta premium, un aroma, 10 Ultra Ball, sei Baccananas argentate e altro ancora!
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title
+TEXT: Attacco del Mondo di meraviglie
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title_1
+TEXT: Attacco del Mondo di meraviglie (1/2)
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title_2
+TEXT: Attacco del Mondo di meraviglie (2/2)
+
+RESOURCE ID: tgr_takeover_mar_2024_paid_ticket_title
+TEXT: Ricerca a tempo “All’inseguimento del Team GO Rocket”
 
 RESOURCE ID: ticket_electric_rd_mar24
 TEXT: I biglietti per la ricerca a tempo con sviluppi alternativi della giornata di ricerca elettrizzante sono disponibili nel negozio

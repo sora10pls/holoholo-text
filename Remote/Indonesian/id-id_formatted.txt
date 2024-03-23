@@ -199,6 +199,12 @@ TEXT: EVOLUSI
 RESOURCE ID: buddy_gift_increase_party
 TEXT: Buddy will bring you items more often while in a Party
 
+RESOURCE ID: buddy_phone_not_ar_capable_desc
+TEXT: Buddy AR is currently unavailable on this device.
+
+RESOURCE ID: buddy_phone_not_ar_capable_title
+TEXT: Unsupported device
+
 RESOURCE ID: catch_candy_double_party
 TEXT: 2× Catch Candy while in a Party
 
@@ -289,6 +295,10 @@ TEXT: 23 Maret, pukul 14.00–22.00 waktu setempat
 RESOURCE ID: event_datetime_range_key_primalkyogreraidday
 TEXT: 17 Maret, pukul 14.00–22.00 waktu setempat
 
+RESOURCE ID: event_datetime_range_key_takeovermarch24
+TEXT: 27 Maret 00.00–
+31 Maret 23.59
+
 RESOURCE ID: event_datetime_range_key_wonderticket
 TEXT: 1 Maret, pukul 10.00 –
 14 Juni, pukul 20.00 waktu setempat
@@ -353,6 +363,9 @@ TEXT: Tiket Hari Raid Groudon Primal
 
 RESOURCE ID: general1.ticket._primalkyogreraidday_title
 TEXT: Tiket Hari Raid Kyogre Primal
+
+RESOURCE ID: general1.ticket._takeovermarch24_title
+TEXT: Tiket Penelitian Berwaktu Pengejaran Tim Roket GO
 
 RESOURCE ID: general1.ticket._wonderticket_title
 TEXT: Tiket Keajaiban (Dasar)
@@ -519,6 +532,18 @@ TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Ber
 RESOURCE ID: item_event_ticket_pink_details_electric
 TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Berwaktu: Pengisian Daya pada 3 Maret 2024, mulai pukul 14.00 hingga 17.00 waktu setempat, di mana pun kamu berada.
 
+RESOURCE ID: item_evergreen_ticket_desc
+TEXT: Tiket untuk mengakses Penelitian Berwaktu Pengejaran Tim Roket GO hingga 31 Maret 2024, pukul 23.59 waktu setempat, di mana pun kamu berada.
+
+RESOURCE ID: item_evergreen_ticket_desc_lny2024
+TEXT: Tiket untuk mengakses Penelitian Berwaktu Tahun Baru Lunar: Pembebasan Naga dari 5 Februari, pukul 10.00 hingga 11 Februari 2024, pukul 20.00 waktu setempat, di mana pun kamu berada.
+
+RESOURCE ID: item_evergreen_ticket_details
+TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Berwaktu Pengejaran Tim Roket GO, di mana pun kamu berada.
+
+RESOURCE ID: item_evergreen_ticket_details_lny2024
+TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Berwaktu Tahun Baru Lunar: Pembebasan Naga hingga 11 Februari 2024, pukul 20.00 waktu setempat, di mana pun kamu berada.
+
 RESOURCE ID: item_global_event_ticket_desc
 TEXT: Tiket untuk mengakses Penelitian Spesial Pokémon GO Fest 2024: Global mulai 13 Juli 2024 pukul 10.00 waktu setempat, di mana pun kamu berada.
 
@@ -559,10 +584,10 @@ RESOURCE ID: mar24_weather_collection_challenge_2
 TEXT: Pekan Cuaca: Tantangan Tangkapan
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-03-21T18:21:27.154643+00:00 for id-ID
-at SHA ae089ef803
-Pipeline 2195413, job 26637627
-Patch from: 0.303.1-SHA-d6629c9f-RC1, 0.305.0-SHA-757fcdb7-RC3, 0.307.0-SHA-1d58aad9-RC1
+TEXT: Built at 2024-03-22T23:34:27.158342+00:00 for id-ID
+at SHA 0556d150ae
+Pipeline 2200671, job 26691428
+Patch from: 0.303.2-SHA-6ec75bef-RC2, 0.305.0-SHA-757fcdb7-RC3, 0.307.0-SHA-1d58aad9-RC1
 
 RESOURCE ID: minicollect_medal_progress_description
 TEXT: Semua Tantangan Koleksi yang sudah diselesaikan dapat dilihat di medali Kolektor Elite.
@@ -2261,6 +2286,9 @@ TEXT: Penilaian diperbarui.
 RESOURCE ID: rejoin_warning_modal_instructions
 TEXT: You can rejoin your party from the Party Tab.
 
+RESOURCE ID: rejoin_warning_modal_message
+TEXT: Jika pergi dari grup, kamu akan kehilangan progres tantangan dan hadiah yang belum diambil.
+
 RESOURCE ID: rejoin_warning_modal_message_disband
 TEXT: If you leave, your party will be disbanded and will lose challenge progress and unclaimed rewards.
 
@@ -2295,7 +2323,7 @@ RESOURCE ID: route_elevation_profile_label_mostly_flat
 TEXT: Sebagian Besar Datar
 
 RESOURCE ID: route_elevation_profile_label_slightly_hilly
-TEXT: Agak Menanjak
+TEXT: Agak Berbukit
 
 RESOURCE ID: route_elevation_profile_label_steep_decline
 TEXT: Turunan Tajam
@@ -2304,7 +2332,7 @@ RESOURCE ID: route_elevation_profile_label_steep_incline
 TEXT: Tanjakan Tajam
 
 RESOURCE ID: route_elevation_profile_label_very_hilly
-TEXT: Sangat Menanjak
+TEXT: Sangat Berbukit
 
 RESOURCE ID: route_end_points_closed_error
 TEXT: Tidak dapat menelusuri Rute ini saat ini dikarenakan Titik Awal atau Akhir ditutup.
@@ -2367,7 +2395,7 @@ TEXT: Terima kasih untuk selalu setia bermain Pokémon GO!
 Jika kamu merasa ini adalah kesalahan, <a href="route_appeal_info_link">silakan mengajukan banding</a>.
 
 RESOURCE ID: route_last_trip_label
-TEXT: Penelusuran Terakhir
+TEXT: Terakhir
 
 RESOURCE ID: route_no_rating
 TEXT: Takada Penilaian
@@ -2479,7 +2507,7 @@ RESOURCE ID: route_sort_rating
 TEXT: NILAI
 
 RESOURCE ID: route_sort_trips
-TEXT: PENELUSURAN
+TEXT: FREKUENSI
 
 RESOURCE ID: route_status_appealed
 TEXT: Diajukan
@@ -2521,7 +2549,7 @@ RESOURCE ID: route_submit_appeal_button
 TEXT: AJUKAN BANDING
 
 RESOURCE ID: route_total_trips_label
-TEXT: Total Penelusuran
+TEXT: Total
 
 RESOURCE ID: route_your_activity
 TEXT: Aktivitasmu
@@ -2597,6 +2625,66 @@ TEXT: Selesaikan cerita Penelitian Spesial: Pemberontak dari Rimba untuk bertemu
 
 RESOURCE ID: sponsorship_web_offer_redeem_confirmation
 TEXT: Selamat! Penukaran penawaran secara daring berhasil dilakukan.
+
+RESOURCE ID: story_rockethq14_0_0
+TEXT: Halo, %PLAYERNAME%. Sepertinya kita punya masalah nih.
+
+RESOURCE ID: story_rockethq14_0_1
+TEXT: Anggota Tim Roket GO muncul dalam jumlah besar. Kamu tahu sendiri 'kan? Di mana ada Tim Roket GO, di situlah sumber masalah.
+
+RESOURCE ID: story_rockethq14_0_2
+TEXT: Mereka berencana apa kali ini? Maukah kamu membantuku mencari informasi dari orang yang sekiranya tahu rencana mereka?
+
+RESOURCE ID: story_rockethq14_0_3
+TEXT: Bagus! Oke, ayo kumpulkan informasi sebanyak-banyaknya, lalu kita pikirkan cara mengatasi mereka!
+
+RESOURCE ID: story_rockethq14_1_0
+TEXT: Hmm ... jadi para Bawahan Tim Roket GO itu tidak tahu dan tidak memiliki informasi penting ya, %PLAYERNAME%.
+
+RESOURCE ID: story_rockethq14_1_1
+TEXT: Jangan khawatir. Kita masih bisa mengorek informasi dari para Pemimpinnya!
+
+RESOURCE ID: story_rockethq14_1_2
+TEXT: Hadapi para Bawahan dan selamatkan Pokémon Bayangan sebanyak mungkin selagi aku melacak keberadaan para Pemimpinnya. Keselamatan para Pokémon adalah prioritas kita.
+
+RESOURCE ID: story_rockethq14_1_3
+TEXT: Aku percaya kamu pasti bisa melakukannya!
+
+RESOURCE ID: story_rockethq14_2_0
+TEXT: Kerja bagus, %PLAYERNAME%! Seandainya saja pekerjaanku berjalan selancar dirimu ...
+
+RESOURCE ID: story_rockethq14_2_1
+TEXT: Sayang sekali, aku belum berhasil melacak keberadaan Arlo, Cliff, dan Sierra, para Pemimpin Tim Roket GO. Namun, jangan khawatir, aku masih punya rencana lainnya.
+
+RESOURCE ID: story_rockethq14_2_2
+TEXT: Jika kamu dapat mengumpulkan beberapa Komponen Misterius, kita dapat membuat Radar Roket.
+
+RESOURCE ID: story_rockethq14_2_3
+TEXT: Di mana pun mereka bersembunyi, kita bisa menemukan mereka dengan kehebatan teknologi canggih ini.
+
+RESOURCE ID: story_rockethq14_3_0
+TEXT: Mantap betul, %PLAYERNAME%! Para Pemimpin Tim Roket GO itu pasti kapok menghadapimu!
+
+RESOURCE ID: story_rockethq14_3_1
+TEXT: Namun, kita masih belum bisa menghentikan rencana jahat Tim Roket GO hanya dengan mengalahkan para Pemimpinnya. Kita harus menghadapi Giovanni yang berada di posisi tertinggi.
+
+RESOURCE ID: story_rockethq14_3_2
+TEXT: Kita tahu betul betapa kuat Giovanni. Kuyakin kamu bisa mengalahkannya, tetapi tetaplah waspada ya.
+
+RESOURCE ID: story_rockethq14_3_3
+TEXT: Semoga beruntung, %PLAYERNAME%!
+
+RESOURCE ID: story_rockethq14_4_0
+TEXT: Kamu berhasil, %PLAYERNAME%! Dengan begini Giovanni dan para bawahannya akan sedikit kapok ...
+
+RESOURCE ID: story_rockethq14_4_1
+TEXT: ... Untuk sekarang sih ya. Suatu saat mereka pasti akan muncul lagi dengan rencana jahatnya. Namun paling tidak, untuk saat ini para Pokémon di area selamat berkatmu.
+
+RESOURCE ID: story_rockethq14_4_2
+TEXT: Kemenangan ini patut dirayakan! Bagaimana kalau dirayakan dengan semangkuk Beri Pinap?
+
+RESOURCE ID: story_rockethq14_4_3
+TEXT: Tanpa bantuanmu, aku tak 'kan bisa menyelamatkan para Pokémon. Makasih banyak ya! Selamat beristirahat dan menikmati waktumu!
 
 RESOURCE ID: story_rockethq14_title
 TEXT: Inilah Dunia Roket!
@@ -2705,6 +2793,11 @@ TEXT: <b>Termasuk:</b>
 • Peningkatan peluang perolehan Permen Langka XL dari Raid
 • Ekstra 50% XP dan Debu Bintang ×2 dengan memenangkan Raid
 
+RESOURCE ID: text_rewards_key_takeovermarch24
+TEXT: <b>Termasuk Hadiah:</b>
+• Pertemuan dengan Pawniard
+• 6 Komponen Misterius, 1 Mesin Penetas Super, dan 1 Radar Roket
+
 RESOURCE ID: text_rewards_key_wonderticket
 TEXT: <b>Terdapat tiga kesempatan Penelitian Berwaktu yang akan otomatis aktif dan dapat diakses begitu tersedia pada tiket ini.</b> Pembelian tiket ini akan memberimu akses ke Penelitian Berwaktu pertama.
 
@@ -2722,6 +2815,18 @@ TEXT: <b>Termasuk Hadiah:</b>
 • Pertemuan dengan Galarian Zigzagoon, Seedot, Cacnea, Absol, dan Scraggy
 • 5 Permen Langka, 10 Permen Zarude, 3 Permen XL Zarude
 • 2 Tiket Pertarungan Premium, 1 Pewangi, 10 Bola Ultra, 6 Beri Pinap Perak, dan banyak lagi!
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title
+TEXT: Dunia Penuh Keajaiban: Pengambilalihan
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title_1
+TEXT: Dunia Penuh Keajaiban: Pengambilalihan (1/2)
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title_2
+TEXT: Dunia Penuh Keajaiban: Pengambilalihan (2/2)
+
+RESOURCE ID: tgr_takeover_mar_2024_paid_ticket_title
+TEXT: Penelitian Berwaktu Pengejaran Tim Roket GO
 
 RESOURCE ID: ticket_electric_rd_mar24
 TEXT: Tiket untuk Penelitian Berwaktu Hari Penelitian Pengisian Daya tersedia di toko

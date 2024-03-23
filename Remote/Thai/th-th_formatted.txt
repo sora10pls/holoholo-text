@@ -262,6 +262,12 @@ TEXT: วิวัฒนาการ
 RESOURCE ID: buddy_gift_increase_party
 TEXT: Buddy will bring you items more often while in a Party
 
+RESOURCE ID: buddy_phone_not_ar_capable_desc
+TEXT: Buddy AR is currently unavailable on this device.
+
+RESOURCE ID: buddy_phone_not_ar_capable_title
+TEXT: Unsupported device
+
 RESOURCE ID: catch_candy_double_party
 TEXT: 2× Catch Candy while in a Party
 
@@ -364,6 +370,10 @@ TEXT: วันที่ 23 มีนาคม 2024 เวลา 14:00-22:00 น
 RESOURCE ID: event_datetime_range_key_primalkyogreraidday
 TEXT: วันที่ 17 มีนาคม 2024 เวลา 14:00-22:00 น.
 
+RESOURCE ID: event_datetime_range_key_takeovermarch24
+TEXT: 27 มีนาคม 00:00 น. ถึง
+31 มีนาคม 23:59 น.
+
 RESOURCE ID: event_datetime_range_key_wonderticket
 TEXT: 1 มีนาคม 10:00 น. ถึง
 14 มิถุนายน 20:00 น. ตามเวลาทองถิ่น
@@ -412,6 +422,9 @@ TEXT: ตั๋ว "วันตีบอสกราดอนตนกำเ
 
 RESOURCE ID: general1.ticket._primalkyogreraidday_title
 TEXT: ตั๋ว "วันตีบอสไคออกาตนกำเนิด"
+
+RESOURCE ID: general1.ticket._takeovermarch24_title
+TEXT: ตั๋วงานวิจัยแบบจำกัดเวลาไลลาแกงโกร็อกเกต
 
 RESOURCE ID: general1.ticket._wonderticket_title
 TEXT: ตั๋วพิศวง (พื้นฐาน)
@@ -628,6 +641,24 @@ TEXT: ตั๋วนี้จะทำใหคุณเขารว�
 แบบจำกัดเวลา "ชารจไฟ"
 ในวันที่ 3 มีนาคม 2024 ตั้งแตเวลา 14:00-17:00 น. ไดโดยอัตโนมัติไมวาคุณจะอยูที่ใดในโลก
 
+RESOURCE ID: item_evergreen_ticket_desc
+TEXT: ตั๋วสำหรับเขารวม "งานวิจัยแบบจำกัดเวลาไลลาแกงโกร็อกเกต"
+ถึงวันที่ 31 มีนาคม เวลา 23:59 น. ตามเวลาทองถิ่นทั่วโลก
+
+RESOURCE ID: item_evergreen_ticket_desc_lny2024
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลา "อีเวนตตรุษจีน: ปลดปลอยมังกร" ตั้งแตวันที่ 5 กุมภาพันธ เวลา 10:00 น. ถึงวันที่ 11 กุมภาพันธ 2024 เวลา 20:00 น. ตามเวลาทองถิ่นไมวาคุณจะอยูที่ใด
+
+RESOURCE ID: item_evergreen_ticket_details
+TEXT: ตั๋วสำหรับเขารวม "งานวิจัยแบบจำกัดเวลาไลลาแกงโกร็อกเกต"
+คุณจะสามารถเขารวมไดโดยอัตโนมัติ
+ตามเวลาทองถิ่นทั่วโลก
+
+RESOURCE ID: item_evergreen_ticket_details_lny2024
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลา "อีเวนตตรุษจีน: ปลดปลอยมังกร"
+ถึงวันที่ 11 กุมภาพันธ 2024 เวลา 20:00 น.
+คุณจะสามารถเขารวมไดโดยอัตโนมัติ
+ตามเวลาทองถิ่นทั่วโลก
+
 RESOURCE ID: item_global_event_ticket_desc
 TEXT: ตั๋วนี้จะทำใหคุณเขารวมงานวิจัยพิเศษ "Pokémon GO Fest 2024: ทั่วโลก" ตั้งแตวันที่ 13 กรกฎาคม 2024 เวลา 10:00 น. ตามเวลาทองถิ่นไมวาคุณจะอยูที่ใด
 
@@ -677,10 +708,10 @@ RESOURCE ID: mar24_weather_collection_challenge_2
 TEXT: คำทานักสะสมสัปดาหสภาพอากาศ
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-03-21T18:21:27.154643+00:00 for th-TH
-at SHA ae089ef803
-Pipeline 2195413, job 26637627
-Patch from: 0.303.1-SHA-d6629c9f-RC1, 0.305.0-SHA-757fcdb7-RC3, 0.307.0-SHA-1d58aad9-RC1
+TEXT: Built at 2024-03-22T23:34:27.158342+00:00 for th-TH
+at SHA 0556d150ae
+Pipeline 2200671, job 26691428
+Patch from: 0.303.2-SHA-6ec75bef-RC2, 0.305.0-SHA-757fcdb7-RC3, 0.307.0-SHA-1d58aad9-RC1
 
 RESOURCE ID: move_name_0390
 TEXT: ธรรมชาติพิโรธ
@@ -2812,6 +2843,106 @@ RESOURCE ID: pokemon_desc_0349
 TEXT: ครีบที่มีมาตั้งแตเกิดนั้นมีสภาพรุงริ่งดูไมได
 ทำใหเปนโปเกมอนที่ไมมีใครสนใจ อาศัยอยู
 ไดทั้งในแมน้ำและทะเล
+
+RESOURCE ID: pokemon_desc_0350
+TEXT: วากันวาเปนโปเกมอนที่งดงามที่สุด มีพลังใน
+การบรรเทาความรูสึกอยางความโกรธแคนและ
+ความเกลียดชัง ทำใหความขัดแยงสงบลงได
+
+RESOURCE ID: pokemon_desc_0351
+TEXT: โปเกมอนที่เปลี่ยนแปลงรูปรางไปตามสภาพ
+อากาศ มีความสามารถในการใชพลังอันยิ่งใหญ
+จากธรรมชาติเพื่อปกปองรางเล็ก ๆ ของมัน
+
+RESOURCE ID: pokemon_desc_0352
+TEXT: สามารถเปลี่ยนสีของรางกายใหกลมกลืนกับ
+สภาพแวดลอมไดอยางอิสระ มีเพียงลาย
+ซิกแซ็กบนหนาทองที่ไมสามารถเปลี่ยนได
+
+RESOURCE ID: pokemon_desc_0353
+TEXT: ถูกดึงดูดดวยความริษยาพยาบาท เมื่อความรูสึก
+พยาบาทในจิตใจรุนแรงขึ้น เหลาคาเงะโบสึจะมา
+ปรากฏตัวเรียงรายอยูใตชายคาบาน
+
+RESOURCE ID: pokemon_desc_0354
+TEXT: เมื่อใชเข็มปกลงบนรางของตัวเอง จะปลดปลอย
+พลังงานคำสาปรุนแรงออกมา เดิมเปนตุกตา
+นาสงสารที่ถูกทิ้ง
+
+RESOURCE ID: pokemon_desc_0355
+TEXT: ทะลุผนังไดทุกที่ไมวาผนังจะหนาแคไหน
+ถาถูกมันหมายตาเมื่อไหร ก็จะถูกไลตาม
+ไปตลอดจนกวาพระอาทิตยจะขึ้นเลยนะ
+
+RESOURCE ID: pokemon_desc_0356
+TEXT: ขางในตัวเปนโพรงโลง ๆ วากันวามันจะดูด
+ทุกสิ่งทุกอยางเขาไปเหมือนกับหลุมดำ
+และสิ่งที่ถูกดูดเขาไปจะไมมีวันไดกลับออกมา
+
+RESOURCE ID: pokemon_desc_0357
+TEXT: พวงที่คอนั้นมีรสหวานทำใหเปนที่นิยมในหมู
+เด็ก ๆ ดูเหมือนวาจะโปรดปรานผลไมมากขนาด
+กินอยางตอเนื่องจนมีผลไมโตขึ้นมาตรงคอ
+
+RESOURCE ID: pokemon_desc_0358
+TEXT: ทำใหเสียงสะทอนกองภายในรางที่กลวง
+เสียงรองตอนโกรธจะกลายเปนคลื่นเสียง
+ความถี่สูงที่พัดศัตรูใหปลิวกระเด็นไปไดเลย
+
+RESOURCE ID: pokemon_desc_0359
+TEXT: เมื่อแอบโซลปรากฏตัวขึ้นตอหนาผูคน จะมีภัย
+พิบัติอยางแผนดินไหวหรือคลื่นขนาดยักษเกิดขึ้น
+เสมอ ทำใหมันมีอีกสมญาวาโปเกมอนหายนะ
+
+RESOURCE ID: pokemon_desc_0360
+TEXT: โซนาโนะมีใบหนายิ้มแยมอยูตลอด
+แตในเวลาที่มันโกรธ ใหสังเกตดูที่หาง
+มันจะเอาหางฟาดพื้นปาบ ๆ เลยนะ
+
+RESOURCE ID: pokemon_desc_0361
+TEXT: โปเกมอนที่อาศัยอยูในบริเวณหิมะตกหนัก ในฤดู
+ที่หิมะไมตกอยางฤดูใบไมผลิหรือฤดูรอน จะไป
+ใชชีวิตอยางเงียบสงบในสวนลึกของถ้ำหินปูน
+
+RESOURCE ID: pokemon_desc_0362
+TEXT: หุมกายที่เปนหินใหทนทานขึ้นดวยเกราะน้ำแข็ง
+เปนโปเกมอนที่มีความสามารถในการแชแข็ง
+น้ำในอากาศใหเปนรูปรางตามตองการได
+
+RESOURCE ID: pokemon_desc_0363
+TEXT: ถากลิ้งจะเร็วกวาเดินไปเองอยางเห็นไดชัด
+พอถึงเวลาอาหาร มักจะตบมือดีใจกันอยาง
+พรอมเพรียง ซึ่งคอนขางเสียงดังหนวกหู
+
+RESOURCE ID: pokemon_desc_0364
+TEXT: มีนิสัยที่มักจะนำสิ่งที่เพิ่งเคยเห็นเปนครั้งแรก
+ขึ้นไปหมุนบนจมูกเสมอ บางครั้งก็เอา
+ทามาซาราชิมาหมุนเลน
+
+RESOURCE ID: pokemon_desc_0365
+TEXT: เขี้ยวทั้งสองที่พัฒนาจนโตขึ้นสามารถบดขยี้
+ภูเขาน้ำแข็งที่หนักถึง 10 ตันไดในทีเดียว
+มีไขมันหนา แมอุณหภูมิติดลบก็อยูไดสบาย ๆ
+
+RESOURCE ID: pokemon_desc_0366
+TEXT: เปลือกที่ทนทานนั้นนอกจากจะชวยปองกันตัว
+แลว ยังใชหนีบและจับเหยื่อไดอีกดวย เปลือก
+ของปาลูลุที่โตแลวจะเต็มไปดวยรอยขีดขวน
+
+RESOURCE ID: pokemon_desc_0367
+TEXT: เนื่องจากอาศัยอยูในกนทะเลลึก ทำใหไมมีผูคน
+พบเห็นมันมาเปนเวลานาน มีดวงตาที่สามารถ
+มองเห็นไดแมอยูใตทะเลลึกสุดมืดมิด
+
+RESOURCE ID: pokemon_desc_0368
+TEXT: โปเกมอนที่อาศัยอยูในทะเลลึกทางตอนใต
+รางกายที่ทนทานตอแรงดันน้ำใตทะเลลึกนั้น
+แมจะโดนโจมตีเขาก็ไมเกิดรอยขีดขวนงาย ๆ
+
+RESOURCE ID: pokemon_desc_0369
+TEXT: โปเกมอนที่มีรูปรางเหมือนเดิมมาเปนเวลานาน
+กวารอยลานปและอาศัยอยูใตทะเลลึก
+กินจุลินทรียเปนอาหารดวยปากที่ไรฟนของมัน
 
 RESOURCE ID: pokemon_presents_event_name
 TEXT: Pokémon Presents
@@ -5111,10 +5242,13 @@ RESOURCE ID: raid_xp_50_onethreestar
 TEXT: 1.5× XP ที่ไดรับจากตีบอสหนึ่งดาวและสามดาว
 
 RESOURCE ID: rating_updated_toast
-TEXT: Rating updated.
+TEXT: อัปเดตคะแนนแลว
 
 RESOURCE ID: rejoin_warning_modal_instructions
 TEXT: You can rejoin your party from the Party Tab.
+
+RESOURCE ID: rejoin_warning_modal_message
+TEXT: หากคุณออกจากปารตี้ คุณจะสูญเสียความคืบหนาของคำทาและรางวัลที่ยังไมไดรับ
 
 RESOURCE ID: rejoin_warning_modal_message_disband
 TEXT: If you leave, your party will be disbanded and will lose challenge progress and unclaimed rewards.
@@ -5138,31 +5272,31 @@ RESOURCE ID: rogue_jungle_event_name
 TEXT: วานรพาลแหงปาดงดิบ
 
 RESOURCE ID: route_change_rating_button
-TEXT: CHANGE RATING
+TEXT: เปลี่ยนคะแนน
 
 RESOURCE ID: route_community_activity
-TEXT: Community Activity
+TEXT: กิจกรรมคอมมิวนิตี้
 
 RESOURCE ID: route_elevation_profile_label_flat
-TEXT: Flat
+TEXT: ทางราบ
 
 RESOURCE ID: route_elevation_profile_label_mostly_flat
-TEXT: Mostly Flat
+TEXT: ทางราบเกือบตลอดทาง
 
 RESOURCE ID: route_elevation_profile_label_slightly_hilly
-TEXT: Slightly Hilly
+TEXT: มีเนินเล็กนอย
 
 RESOURCE ID: route_elevation_profile_label_steep_decline
-TEXT: Steep Decline
+TEXT: ทางลงลาดชัน
 
 RESOURCE ID: route_elevation_profile_label_steep_incline
-TEXT: Steep Incline
+TEXT: ทางขึ้นลาดชัน
 
 RESOURCE ID: route_elevation_profile_label_very_hilly
-TEXT: Very Hilly
+TEXT: มีเนินเยอะ
 
 RESOURCE ID: route_end_points_closed_error
-TEXT: You cannot follow this Route right now because the start or end point is closed.
+TEXT: คุณไมสามารถเลนเสนทางนี้ไดในขณะนี้ เนื่องจากจุดเริ่มตนหรือจุดสิ้นสุดปดอยู
 
 RESOURCE ID: route_enforcement_long_ban_context
 TEXT: หากยังไมหยุดการละเมิด อาจสงผลใหบัญชีถูกระงับการใชงานถาวรจาก Pokémon GO โปรดตรวจสอบ<a href="player_guidelines_link_dsa">แนวทางสำหรับผูเลน</a>เพื่อหลีกเลี่ยงการละเมิดในอนาคต
@@ -5222,19 +5356,19 @@ TEXT: ขอบคุณสำหรับการเลน Pokémon GO!
 โปรด<a href="route_appeal_info_link">ยื่นอุทธรณ</a>หากคุณเชื่อวานี่เปนขอผิดพลาด
 
 RESOURCE ID: route_last_trip_label
-TEXT: Last Trip
+TEXT: ครั้งสุดทาย
 
 RESOURCE ID: route_no_rating
 TEXT: ไมมีคะแนน
 
 RESOURCE ID: route_not_public_error
-TEXT: You cannot follow this Route because it is no longer public.
+TEXT: คุณไมสามารถเลนเสนทางนี้ได เนื่องจากเสนทางนี้ไมเผยแพรใหใชงานอีกตอไป
 
 RESOURCE ID: route_rate_button
 TEXT: ใหคะแนนเสนทาง
 
 RESOURCE ID: route_rating_change_error
-TEXT: You already changed the rating for this Route today. You can change it again tomorrow.
+TEXT: คุณเปลี่ยนคะแนนของเสนทางนี้ในวันนี้แลว สามารถเปลี่ยนคะแนนไดใหมในวันพรุงนี้
 
 RESOURCE ID: route_rejection_appeal_approved_description
 TEXT: โปรดทราบวา อาจใชเวลาสักระยะหนึ่งกวาที่เสนทางจะปรากฏขึ้นมา
@@ -5328,7 +5462,7 @@ RESOURCE ID: route_sort_proximity
 TEXT: ระยะทางถึงจุดเริ่มตน
 
 RESOURCE ID: route_sort_trips
-TEXT: TRIPS
+TEXT: จำนวนเที่ยว
 
 RESOURCE ID: route_status_appealed
 TEXT: ยื่นอุทธรณแลว
@@ -5369,11 +5503,14 @@ TEXT:
 RESOURCE ID: route_submit_appeal_button
 TEXT: ยื่นอุทธรณ
 
+RESOURCE ID: route_tag_hilly
+TEXT: มีเนิน
+
 RESOURCE ID: route_total_trips_label
-TEXT: Total Trips
+TEXT: จำนวนเที่ยวทั้งหมด
 
 RESOURCE ID: route_your_activity
-TEXT: Your Activity
+TEXT: กิจกรรมของคุณ
 
 RESOURCE ID: routes_path_length_max
 TEXT: (ยาวสุด: {0} กม.)
@@ -5440,6 +5577,96 @@ TEXT: ทำงานวิจัยพิเศษ "วานรพาลแห
 
 RESOURCE ID: sponsorship_web_offer_redeem_confirmation
 TEXT: ยินดีดวย! คุณไดใชขอเสนอออนไลนเรียบรอยแลว
+
+RESOURCE ID: story_rockethq14_0_0
+TEXT: ไง %PLAYERNAME% ฉันมีขาวรายมาบอกละ
+
+RESOURCE ID: story_rockethq14_0_1
+TEXT: ชวงนี้เห็นสมาชิกแกงโกร็อกเกตมา
+ปวนเป้ยนแถวนี้ และอยางที่เรารูกันดีวา
+พวกนั้นเปนตัวปญหาที่มักมาพรอมกับแผนราย
+
+RESOURCE ID: story_rockethq14_0_2
+TEXT: เราตองไปหาขอมูลดูวาพวกนั้นกำลัง
+วางแผนอะไรอยู เธอชวยไปประมือ
+กับพวกนั้นหนอยไดไหม? เผื่อจะไดขอมูลอะไรมาบาง
+
+RESOURCE ID: story_rockethq14_0_3
+TEXT: ยิ่งมีขอมูลในมือมากเทาไหร
+เรายิ่งเตรียมการรับมือกับพวกนั้นไดดีขึ้น!
+
+RESOURCE ID: story_rockethq14_1_0
+TEXT: ลูกสมุนแกงโกร็อกเกตพวกนั้นไมหลุด
+ขอมูลมาเลยงั้นเหรอ %PLAYERNAME%?
+
+RESOURCE ID: story_rockethq14_1_1
+TEXT: ไมตองกังวลไป! เราไปหาตนตอของขอมูล
+โดยตรงดวยการหาตัวหัวหนาของ
+พวกนั้นกันเถอะ!
+
+RESOURCE ID: story_rockethq14_1_2
+TEXT: ระหวางที่ตามหาพวกหัวหนาก็อยาลืม
+จัดการกับพวกลูกสมุนและชำระลาง
+โปเกมอนชาโดวที่เจอดวยละ
+การชวยเหลือโปเกมอนเปนสิ่งที่สำคัญที่สุด
+
+RESOURCE ID: story_rockethq14_1_3
+TEXT: ถาเปนเธอละก็ตองทำไดแนนอน!
+
+RESOURCE ID: story_rockethq14_2_0
+TEXT: ยอดเยี่ยมมาก %PLAYERNAME%!
+ทางฉันเองก็อยากจะบอกวาการตรวจสอบ
+ดำเนินไปไดดวยดีนะ แต...
+
+RESOURCE ID: story_rockethq14_2_1
+TEXT: นาเสียดายที่ฉันยังไมเจอตัวอารโล
+คลิฟ หรือเซียรราเลย แตไมตองกังวลไป
+ฉันยังมีแผนสำรองอยู!
+
+RESOURCE ID: story_rockethq14_2_2
+TEXT: ถาเธอสามารถรวบรวมชิ้นสวนลึกลับไดละก็
+เราจะสามารถเอามาประกอบเปน
+ร็อกเกตเรดารได!
+
+RESOURCE ID: story_rockethq14_2_3
+TEXT: หากเรามีของไฮเทคชิ้นนั้นละก็ พวกนั้น
+ไมมีทางซอนตัวจากพวกเราพนแน 
+
+RESOURCE ID: story_rockethq14_3_0
+TEXT: ยอดไปเลย %PLAYERNAME%!
+พวกหัวหนาแกงโกร็อกเกตคงไดรับ
+บทเรียนกลับไปแลวแน!
+
+RESOURCE ID: story_rockethq14_3_1
+TEXT: แตถึงพวกหัวหนาจะไมอยูแลว แผนการของ
+แกงโกร็อกเกตก็ใชวาจะหยุดหากเรายังไม
+จัดการกับหัวหนาใหญของพวกนั้น ซากากิ!
+
+RESOURCE ID: story_rockethq14_3_2
+TEXT: แตตองระวังใหดี เพราะวาหมอนั่นแข็งแกรง
+ที่สุดในแกงโกร็อกเกต ถาจะมีใครจัดการ
+เขาไดก็ตองเปนเธอนี่แหละ
+
+RESOURCE ID: story_rockethq14_3_3
+TEXT: ขอใหโชคดี %PLAYERNAME%!
+
+RESOURCE ID: story_rockethq14_4_0
+TEXT: สุดยอดเลย %PLAYERNAME%!
+ซากากิและพวกลูกสมุนคงไดรับบทเรียน
+ไปไมนอยเลยทีเดียว!
+
+RESOURCE ID: story_rockethq14_4_1
+TEXT: ...อยางนอยก็ในตอนนี้ เดี๋ยวพวกนั้นก็คง
+วางแผนอะไรมาอีก แตตอนนี้พวกโปเกมอน
+ในบริเวณนี้ปลอดภัยก็ดีแลว
+
+RESOURCE ID: story_rockethq14_4_2
+TEXT: อยากฉลองชัยชนะในครั้งนี้ดวย
+ผลไพนสักชามจัง
+
+RESOURCE ID: story_rockethq14_4_3
+TEXT: ตองขอบคุณเธอมากจริง ๆ ที่คอยชวย
+โปเกมอนอยูเสมอ ไปพักผอนใหเต็มที่เถอะ!
 
 RESOURCE ID: story_rockethq14_title
 TEXT: โลกแหงร็อกเกต
@@ -5566,6 +5793,11 @@ TEXT: <b>สิ่งที่จะไดรับ:</b>
 - เพิ่มโอกาสไดรับลูกอมประหลาด XL จากตีบอส 
 - เพิ่ม XP 50% และ 2× สตารดัสตเมื่อตีบอสเสร็จสิ้น
 
+RESOURCE ID: text_rewards_key_takeovermarch24
+TEXT: <b>โบนัสที่จะไดรับ:</b>
+- การเผชิญหนากับโคมาทานา
+- ชิ้นสวนลึกลับ 6 ชิ้น, เครื่องฟกไขชั้นเยี่ยม 1 ชิ้น และร็อกเกตเรดาร 1 ชิ้น
+
 RESOURCE ID: text_rewards_key_wonderticket
 TEXT: <b>คุณจะไดรับงานวิจัยแบบจำกัดเวลารวม 3 สวน โดยจะไดรับงานวิจัยโดยอัตโนมัติตามลำดับเมื่องานวิจัยสามารถใชงานได</b>
 คุณจะไดรับงานวิจัยแบบจำกัดเวลาสวนที่ 1 เมื่อซื้อตั๋วนี้
@@ -5585,6 +5817,18 @@ TEXT: <b>โบนัสที่จะไดรับ:</b>
 - การเผชิญหนากับจิกุซากุมะ (รางกาลาร), ทาเนโบ, ซาโบเนีย, แอบโซล และซึรุกกุ
 - ลูกอมประหลาด 5 เม็ด, ลูกอมซารูด 10 เม็ด และลูกอม XL ซารูด 3 เม็ด
 - บัตรแบตเทิลพรีเมียม 2 ใบ, เครื่องหอม 1 ชิ้น, ไฮเปอรบอล 10 ลูก, ผลไพนสีเงิน 6 ชิ้น และอื่น ๆ
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title
+TEXT: โลกสุดพิศวง: ยึดครอง
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title_1
+TEXT: โลกสุดพิศวง: ยึดครอง (1/2)
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title_2
+TEXT: โลกสุดพิศวง: ยึดครอง (2/2)
+
+RESOURCE ID: tgr_takeover_mar_2024_paid_ticket_title
+TEXT: งานวิจัยแบบจำกัดเวลาไลลาแกงโกร็อกเกต
 
 RESOURCE ID: ticket_electric_rd_mar24
 TEXT: สามารถซื้อตั๋วสำหรับงานวิจัยแบบจำกัดเวลาที่มีทางเลือก "วันวิจัยชารจไฟ" ไดที่รานคา

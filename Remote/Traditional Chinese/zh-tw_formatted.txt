@@ -227,6 +227,12 @@ TEXT: 進化
 RESOURCE ID: buddy_gift_increase_party
 TEXT: Buddy will bring you items more often while in a Party
 
+RESOURCE ID: buddy_phone_not_ar_capable_desc
+TEXT: Buddy AR is currently unavailable on this device.
+
+RESOURCE ID: buddy_phone_not_ar_capable_title
+TEXT: Unsupported device
+
 RESOURCE ID: catch_candy_double_party
 TEXT: 2× Catch Candy while in a Party
 
@@ -314,6 +320,10 @@ TEXT: 3月23日14:00～22:00（當地時間）
 RESOURCE ID: event_datetime_range_key_primalkyogreraidday
 TEXT: 3月17日14:00～22:00（當地時間）
 
+RESOURCE ID: event_datetime_range_key_takeovermarch24
+TEXT: 3月27日12:00～
+3月31日23:59
+
 RESOURCE ID: event_datetime_range_key_wonderticket
 TEXT: 3月1日10:00～
 6月14日20:00（當地時間）
@@ -361,6 +371,9 @@ TEXT: 原始固拉多團體戰日入場券
 
 RESOURCE ID: general1.ticket._primalkyogreraidday_title
 TEXT: 原始蓋歐卡團體戰日入場券
+
+RESOURCE ID: general1.ticket._takeovermarch24_title
+TEXT: 追蹤GO火箭隊限時調查入場券
 
 RESOURCE ID: general1.ticket._wonderticket_title
 TEXT: 驚奇入場券（基本）
@@ -527,6 +540,18 @@ TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時�
 RESOURCE ID: item_event_ticket_pink_details_electric
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間2024年3月3日14:00～17:00參與電力研究日限時調查。
 
+RESOURCE ID: item_evergreen_ticket_desc
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年3月31日23:59前參與限時調查「追蹤GO火箭隊」。
+
+RESOURCE ID: item_evergreen_ticket_desc_lny2024
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年2月5日10:00～2月11日20:00領取「農曆春節活動」的限時調查。
+
+RESOURCE ID: item_evergreen_ticket_details
+TEXT: 入場券將會自動啟用，不論你身在何處，都能領取參與限時調查「追蹤GO火箭隊」。
+
+RESOURCE ID: item_evergreen_ticket_details_lny2024
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間2024年2月11日20:00前領取「農曆春節活動」的限時調查。
+
 RESOURCE ID: item_global_event_ticket_desc
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年7月13日10:00參與「Pokémon GO Fest 2024：全球」的特殊調查。
 
@@ -567,10 +592,10 @@ RESOURCE ID: mar24_weather_collection_challenge_2
 TEXT: 氣象週收藏家挑戰
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-03-21T18:21:27.154643+00:00 for zh-TW
-at SHA ae089ef803
-Pipeline 2195413, job 26637627
-Patch from: 0.303.1-SHA-d6629c9f-RC1, 0.305.0-SHA-757fcdb7-RC3, 0.307.0-SHA-1d58aad9-RC1
+TEXT: Built at 2024-03-22T23:34:27.158342+00:00 for zh-TW
+at SHA 0556d150ae
+Pipeline 2200671, job 26691428
+Patch from: 0.303.2-SHA-6ec75bef-RC2, 0.305.0-SHA-757fcdb7-RC3, 0.307.0-SHA-1d58aad9-RC1
 
 RESOURCE ID: move_name_0390
 TEXT: 自然之怒
@@ -965,10 +990,13 @@ RESOURCE ID: raid_xp_50_onethreestar
 TEXT: 參加一星團體戰和三星團體戰可獲得的XP增為1.5倍
 
 RESOURCE ID: rating_updated_toast
-TEXT: Rating updated.
+TEXT: 已更新評價
 
 RESOURCE ID: rejoin_warning_modal_instructions
 TEXT: You can rejoin your party from the Party Tab.
+
+RESOURCE ID: rejoin_warning_modal_message
+TEXT: 如果你離開小隊，挑戰進度和尚未領取的獎勵將會消失。
 
 RESOURCE ID: rejoin_warning_modal_message_disband
 TEXT: If you leave, your party will be disbanded and will lose challenge progress and unclaimed rewards.
@@ -992,31 +1020,31 @@ RESOURCE ID: rogue_jungle_event_name
 TEXT: 密林流氓
 
 RESOURCE ID: route_change_rating_button
-TEXT: CHANGE RATING
+TEXT: 修改評價
 
 RESOURCE ID: route_community_activity
-TEXT: Community Activity
+TEXT: 社群活動紀錄
 
 RESOURCE ID: route_elevation_profile_label_flat
-TEXT: Flat
+TEXT: 沒有起伏
 
 RESOURCE ID: route_elevation_profile_label_mostly_flat
-TEXT: Mostly Flat
+TEXT: 幾乎沒有起伏
 
 RESOURCE ID: route_elevation_profile_label_slightly_hilly
-TEXT: Slightly Hilly
+TEXT: 稍有起伏
 
 RESOURCE ID: route_elevation_profile_label_steep_decline
-TEXT: Steep Decline
+TEXT: 陡斜下坡
 
 RESOURCE ID: route_elevation_profile_label_steep_incline
-TEXT: Steep Incline
+TEXT: 陡斜上坡
 
 RESOURCE ID: route_elevation_profile_label_very_hilly
-TEXT: Very Hilly
+TEXT: 有起伏
 
 RESOURCE ID: route_end_points_closed_error
-TEXT: You cannot follow this Route right now because the start or end point is closed.
+TEXT: 由於起點或終點現正封閉，因此無法使用
 
 RESOURCE ID: route_enforcement_long_ban_context
 TEXT: 若持續違規，你的Pokémon GO帳號將有可能被永久凍結。請再度確認<a href="player_guidelines_link_dsa">玩家指南</a>。
@@ -1072,19 +1100,19 @@ TEXT: 感謝遊玩Pokémon GO。
 如認為顯示的警告有誤，請 <a href="route_appeal_info_link">提出異議</a>。
 
 RESOURCE ID: route_last_trip_label
-TEXT: Last Trip
+TEXT: 最後遊玩日期
 
 RESOURCE ID: route_no_rating
-TEXT: No Ratings
+TEXT: 無評價
 
 RESOURCE ID: route_not_public_error
-TEXT: You cannot follow this Route because it is no longer public.
+TEXT: 由於此為非公開的路線，因此無法使用
 
 RESOURCE ID: route_rate_button
-TEXT: RATE ROUTE
+TEXT: 評價路線
 
 RESOURCE ID: route_rating_change_error
-TEXT: You already changed the rating for this Route today. You can change it again tomorrow.
+TEXT: 今天已修正過此路線的評價。明天可再度修正。
 
 RESOURCE ID: route_rejection_appeal_approved_description
 TEXT: 有時會需要過一段時間才能看見路線。
@@ -1175,10 +1203,10 @@ RESOURCE ID: route_reported_result_description_secondary_edit
 TEXT: 基於上述原因，路線已被刪除。請編輯路線後重新提交。
 
 RESOURCE ID: route_sort_rating
-TEXT: RATING
+TEXT: 評價
 
 RESOURCE ID: route_sort_trips
-TEXT: TRIPS
+TEXT: 次數
 
 RESOURCE ID: route_status_appealed
 TEXT: 已提出異議
@@ -1220,10 +1248,10 @@ RESOURCE ID: route_submit_appeal_button
 TEXT: 提出異議
 
 RESOURCE ID: route_total_trips_label
-TEXT: Total Trips
+TEXT: 總次數
 
 RESOURCE ID: route_your_activity
-TEXT: Your Activity
+TEXT: 你的活動紀錄
 
 RESOURCE ID: routes_path_length_max
 TEXT: （最長：{0} km）
@@ -1256,7 +1284,7 @@ RESOURCE ID: settings_buddy_ar_tip
 TEXT: Niantic AR for Buddy Play
 
 RESOURCE ID: settings_daily_bonus_reminder
-TEXT: Daily Streak Bonus Reminder
+TEXT: 每日連續獎勵提醒
 
 RESOURCE ID: settings_encounter_ar
 TEXT: AR Encounters
@@ -1293,6 +1321,66 @@ TEXT: 完成特殊調查「密林流氓」以遇見薩戮德
 
 RESOURCE ID: sponsorship_web_offer_redeem_confirmation
 TEXT: 已成功適用優惠！
+
+RESOURCE ID: story_rockethq14_0_0
+TEXT: 嗨，%PLAYERNAME%。有件稍嫌麻煩的事發生了。
+
+RESOURCE ID: story_rockethq14_0_1
+TEXT: GO火箭隊那群傢伙，人馬又變多了。沒錯，有GO火箭隊在的地方就有麻煩事。
+
+RESOURCE ID: story_rockethq14_0_2
+TEXT: 他們究竟有何企圖，可以拜託你去幫我調查看看是否有誰知道內情嗎？
+
+RESOURCE ID: story_rockethq14_0_3
+TEXT: 等蒐集到情報後再想要怎麼應付吧。我們一定要確實地阻止他們的詭計！
+
+RESOURCE ID: story_rockethq14_1_0
+TEXT: %PLAYERNAME%，看你的樣子，應該是從GO火箭隊手下那裡沒有得到任何情報吧？
+
+RESOURCE ID: story_rockethq14_1_1
+TEXT: 真是這樣的話，那就只能去找幹部了。
+
+RESOURCE ID: story_rockethq14_1_2
+TEXT: 在你找到幹部之前，請你繼續幫暗影寶可夢淨化吧。拯救寶可夢才是當務之急。
+
+RESOURCE ID: story_rockethq14_1_3
+TEXT: 把事情交給你，我是很放心的喔！
+
+RESOURCE ID: story_rockethq14_2_0
+TEXT: 你表現得太棒了，%PLAYERNAME%！我很想說我這裡也一切順利……
+
+RESOURCE ID: story_rockethq14_2_1
+TEXT: 但把亞洛、克里夫和希爾拉找出來這件事實在難度頗高。不過沒問題，是時候把秘密策略搬出來用了。
+
+RESOURCE ID: story_rockethq14_2_2
+TEXT: 那就是，去收集神秘零件，越快越好。等收集到之後我們就來做火箭隊雷達吧！
+
+RESOURCE ID: story_rockethq14_2_3
+TEXT: 運用高科技的力量，讓他們無處可躲。
+
+RESOURCE ID: story_rockethq14_3_0
+TEXT: 了不起啊，%PLAYERNAME%！幹部他們勢必也得到教訓了吧！
+
+RESOURCE ID: story_rockethq14_3_1
+TEXT: 但就算如此，要完全阻止GO火箭隊的詭計，就必須找到他們的老大，也就是阪木。
+
+RESOURCE ID: story_rockethq14_3_2
+TEXT: 我想你應該很清楚阪木的實力有多強。雖然你一定可以成功打倒他，但對戰時還是多加留意吧。
+
+RESOURCE ID: story_rockethq14_3_3
+TEXT: %PLAYERNAME%，祝你好運！
+
+RESOURCE ID: story_rockethq14_4_0
+TEXT: 做得好，%PLAYERNAME%！這下不管是阪木還是他的手下，應該多少都吃到苦頭了吧。
+
+RESOURCE ID: story_rockethq14_4_1
+TEXT: .....就目前而言啦。雖然在不久的將來他們肯定又會開始動歪腦筋，但我們總算是保護了寶可夢的安全。這些都是你的功勞。
+
+RESOURCE ID: story_rockethq14_4_2
+TEXT: 我巴不得現在就用凰梨果來慶功了！
+
+RESOURCE ID: story_rockethq14_4_3
+TEXT: 唔，我是認真的。如果沒有你，是不可能救得出這麼多寶可夢的。感激不盡。接下來你就好好休息吧。
 
 RESOURCE ID: story_rockethq14_title
 TEXT: 戰勝惡勢力！
@@ -1397,6 +1485,11 @@ TEXT: <b>可獲得的獎勵：</b>
 ・在團體戰獲得神奇糖果XL的機率提高
 ・在團體戰中獲勝時可獲得1.5倍XP及2倍星星沙子
 
+RESOURCE ID: text_rewards_key_takeovermarch24
+TEXT: <b>可獲得的獎勵：</b>
+・與駒刀小兵相遇的機會
+・6個神秘零件、1個超級孵化器、1個火箭隊雷達
+
 RESOURCE ID: text_rewards_key_wonderticket
 TEXT: <b>只要擁有這張入場券，就能依序領取3個階段的限時調查。</b>購買這張入場券後，即可獲得第1階段的限時調查課題。
 
@@ -1414,6 +1507,18 @@ TEXT: <b>可獲得的獎勵：</b>
 ・與蛇紋熊（伽勒爾的樣子）、橡實果、刺球仙人掌、阿勃梭魯、滑滑小子相遇的機會
 ・5個神奇糖果、10個薩戮德的糖果、3個薩戮德的糖果XL
 ・2張特級對戰入場券、1個薰香、10個高級球、6個銀色凰梨果等
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title
+TEXT: 驚奇多多的世界：佔領
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title_1
+TEXT: 驚奇多多的世界：佔領 (1/2)
+
+RESOURCE ID: tgr_takeover_mar_2024_free_ticket_title_2
+TEXT: 驚奇多多的世界：佔領 (2/2)
+
+RESOURCE ID: tgr_takeover_mar_2024_paid_ticket_title
+TEXT: 追蹤GO火箭隊限時調查
 
 RESOURCE ID: ticket_electric_rd_mar24
 TEXT: 「電力研究日」限時調查入場券在商店裡上架了
