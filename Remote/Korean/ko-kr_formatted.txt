@@ -7,8 +7,20 @@ TEXT: 사용하시는 디바이스로 AR을 사용하려면 iOS를 업데이트�
 RESOURCE ID: ar_plus_safety_toast
 TEXT: 안전한 장소에서만 AR+를 사용해 주세요.
 
+RESOURCE ID: avatar_f_pants_casual_0_bundle_icon
+TEXT: Casual Pants (Gray)
+
+RESOURCE ID: avatar_f_pants_casual_1_bundle_icon
+TEXT: Casual Pants (Khaki)
+
 RESOURCE ID: avatar_f_shirt_gofest2024gray_00_bundle_icon
 TEXT: GO Fest 2024 티셔츠(그레이)
+
+RESOURCE ID: avatar_m_pants_casual_0_bundle_icon
+TEXT: Casual Pants (Gray)
+
+RESOURCE ID: avatar_m_pants_casual_1_bundle_icon
+TEXT: Casual Pants (Khaki)
 
 RESOURCE ID: avatar_m_shirt_gofest2024gray_00_bundle_icon
 TEXT: GO Fest 2024 티셔츠(그레이)
@@ -40,14 +52,8 @@ TEXT: 냐오히트를 어흥염으로 진화시키면 블라스트번을 배운�
 RESOURCE ID: bonus_implicit_social_litten_raid
 TEXT: 트레이너가 협력해서 레이드배틀에서 냐오히트를 이기면 그 체육관 주변에 30분동안 냐오불이 나타남
 
-RESOURCE ID: buddy_candy_distance_half_party
-TEXT: 1/2 distance to earn Buddy Candy while in a party
-
 RESOURCE ID: buddy_evolution_progress_title
 TEXT: 진화
-
-RESOURCE ID: buddy_gift_increase_party
-TEXT: Buddy will bring you items more often while in a party
 
 RESOURCE ID: buddy_level_1
 TEXT: 굿 파트너
@@ -127,7 +133,7 @@ RESOURCE ID: event_name_takeover_s14
 TEXT: 월드 오브 원더즈: 점령
 
 RESOURCE ID: extra_items_pokestop_spins_party
-TEXT: Extra Items when Spinning Pokéstops while in a party
+TEXT: Extra items from PokéStop spins while in a party
 
 RESOURCE ID: fifteen_free_raid_passes
 TEXT: 체육관 포토디스크를 돌려 레이드패스 15개까지 입수
@@ -167,15 +173,6 @@ TEXT: 2× Hatch Candy while in a party
 
 RESOURCE ID: hatch_stardust_double_party
 TEXT: 2× Hatch Stardust while in a party
-
-RESOURCE ID: incense_effectiveness_double_party
-TEXT: 2× Incense effectiveness while in a party
-
-RESOURCE ID: incense_effectiveness_generic_party
-TEXT: Increased Incense effectiveness while in a party
-
-RESOURCE ID: incense_effectiveness_triple_party
-TEXT: 3× Incense effectiveness while in a party
 
 RESOURCE ID: incubator_distance_half_party
 TEXT: 1/2 Hatch Distance while in a party
@@ -340,10 +337,10 @@ RESOURCE ID: mar24_weather_collection_challenge_2
 TEXT: 웨더 위크 컬렉션 챌린지
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-03-25T23:55:03.233190+00:00 for ko-KR
-at SHA d0442f2630
-Pipeline 2205000, job 26734483
-Patch from: 0.307.0-SHA-1d58aad9-RC1, 0.305.1-SHA-b1ab6a41-RC1
+TEXT: Built at 2024-03-27T21:37:04.144739+00:00 for ko-KR
+at SHA 714a5fcbed
+Pipeline 2211780, job 26816633
+Patch from: 0.307.0-SHA-58f237c6-RC2, 0.305.1-SHA-b1ab6a41-RC1, 0.307.0-SHA-f20a77ce-RC3
 
 RESOURCE ID: monodepth_ar_plus_required_toast
 TEXT: AR블렌딩을 사용하려면 Niantic AR을 켜야합니다.
@@ -783,23 +780,26 @@ TEXT: 나의 활동
 RESOURCE ID: routes_path_length_min_meters
 TEXT: (최단: {0}m)
 
+RESOURCE ID: settings_advanced_haptics
+TEXT: 햅틱
+
 RESOURCE ID: settings_ar_plus
 TEXT: AR
 
 RESOURCE ID: settings_buddy_ar
-TEXT: AR Buddy
+TEXT: 파트너 화면의 AR
 
 RESOURCE ID: settings_buddy_ar_tip
-TEXT: Niantic AR for Buddy Play
+TEXT: 파트너 포켓몬과 놀 때 Niantic AR 사용
 
 RESOURCE ID: settings_daily_bonus_reminder
 TEXT: 데일리 연속 보너스 리마인드
 
 RESOURCE ID: settings_encounter_ar
-TEXT: AR Encounters
+TEXT: 잡는 화면의 AR
 
 RESOURCE ID: settings_encounter_ar_tip
-TEXT: Niantic AR for Pokémon Encounters
+TEXT: 포켓몬을 잡을 때 Niantic AR 사용
 
 RESOURCE ID: shop_quick_exchange_incense_ordinary
 TEXT: 포켓코인으로 교환하겠습니까?
@@ -924,7 +924,7 @@ TEXT: <b>받을 수 있는 것:</b>
 - 6월 6일까지 구매로 의상 아이템 달의 왕관을 받을 수 있는 시간제한 리서치(5월 31일~6월 6일까지 플레이)
 - 5월 6일까지 구매로 의상 아이템 태양의 왕관(선행)을 받을 수 있는 시간제한 리서치(4월 30일~5월 6일까지 플레이)
 
- 이 글로벌 이벤트 티켓은 1가지만 구매할 수 있습니다. 
+ 이 글로벌 이벤트 티켓은 1가지만 구매할 수 있습니다. 한정 색상 의상 아이템 티셔츠를 리워드에 포함하는 버전을 원하실 경우 <a href="https://gofest.pokemongolive.com/global">여기</a>에서 확인하세요.
 
 RESOURCE ID: text_rewards_key_littencd2024
 TEXT: <b>받을 수 있는 것:</b>
@@ -956,7 +956,7 @@ TEXT: <b>3가지로 구성된 시간제한 리서치를 순차적으로 받을 �
 - 프리미엄 배틀패스 1개, 향로 1개, 이상한사탕 5개, 행복의알 1개, 별의조각 1개
 - 20,000XP와 별의모래 10,000
 
-파트2, 3의 자세한 내용은 추후 안내됩니다! <b>베이직 원더 티켓을 구매하면 Web Store의 프리미엄 버전은 구매할 수 없습니다. </b>프리미엄 버전에 대한 정보는 웹사이트에서 확인하세요.
+파트2, 3의 자세한 내용은 추후 안내됩니다! <b>베이직 원더 티켓을 구매하면 Web Store의 프리미엄 버전은 구매할 수 없습니다. </b>프리미엄 버전에 대한 정보는 <a href="https://pokemongolive.com/post/the-wonder-ticket-part-1">여기</a>에서 확인하세요.
 
 RESOURCE ID: text_rewards_key_zarude
 TEXT: <b>받을 수 있는 리워드:</b>
@@ -1041,10 +1041,10 @@ RESOURCE ID: weather_boost_bonus_stardust
 TEXT: 날씨 부스트로 잡은 포켓몬의 별의모래 증가
 
 RESOURCE ID: xl_candy_chance_party
-TEXT: Increased XL Candy Chance when Catching Pokémon while in a party
+TEXT: Increased Candy XL chance from catching Pokémon while in a party
 
 RESOURCE ID: xp_bonus_route_completion_party
-TEXT: Increased XP when Completing a Route while in a party
+TEXT: Increased XP for completing Routes while in a party
 
 RESOURCE ID: zygarde_tappable_push_notification_combined
 TEXT: 신비한 것이 출현! Pokémon GO를 켜서 확인해 보자.

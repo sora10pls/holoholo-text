@@ -10,8 +10,20 @@ TEXT: iOS perangkatmu perlu diperbarui untuk menggunakan AR. Perbarui sekarang? 
 RESOURCE ID: ar_plus_safety_toast
 TEXT: Pastikan kamu menggunakan AR hanya ketika berada di lokasi yang aman.
 
+RESOURCE ID: avatar_f_pants_casual_0_bundle_icon
+TEXT: Casual Pants (Gray)
+
+RESOURCE ID: avatar_f_pants_casual_1_bundle_icon
+TEXT: Casual Pants (Khaki)
+
 RESOURCE ID: avatar_f_shirt_gofest2024gray_00_bundle_icon
 TEXT: Kaus GO Fest 2024/n(Abu-abu)
+
+RESOURCE ID: avatar_m_pants_casual_0_bundle_icon
+TEXT: Casual Pants (Gray)
+
+RESOURCE ID: avatar_m_pants_casual_1_bundle_icon
+TEXT: Casual Pants (Khaki)
 
 RESOURCE ID: avatar_m_shirt_gofest2024gray_00_bundle_icon
 TEXT: Kaus GO Fest 2024/n(Abu-abu)
@@ -43,17 +55,14 @@ TEXT: Evolusikan Torracat untuk mendapatkan Incineroar yang mempelajari Blast Bu
 RESOURCE ID: bonus_implicit_social_litten_raid
 TEXT: Jika Pelatih bekerja sama untuk memenangkan Raid Torracat, Litten akan muncul dalam jumlah besar di area selama 30 menit
 
-RESOURCE ID: buddy_candy_distance_half_party
-TEXT: 1/2 distance to earn Buddy Candy while in a party
-
-RESOURCE ID: buddy_gift_increase_party
-TEXT: Buddy will bring you items more often while in a party
-
 RESOURCE ID: buddy_phone_not_ar_capable_desc
 TEXT: Buddy AR is currently unavailable on this device.
 
 RESOURCE ID: buddy_phone_not_ar_capable_title
 TEXT: Unsupported device
+
+RESOURCE ID: bug_out_event_name
+TEXT: Awas Serangga
 
 RESOURCE ID: catch_candy_double_party
 TEXT: 2× Catch Candy while in a party
@@ -118,7 +127,7 @@ RESOURCE ID: event_name_takeover_s14
 TEXT: Dunia Penuh Keajaiban: Pengambilalihan
 
 RESOURCE ID: extra_items_pokestop_spins_party
-TEXT: Extra Items when Spinning Pokéstops while in a party
+TEXT: Extra items from PokéStop spins while in a party
 
 RESOURCE ID: fifteen_free_raid_passes
 TEXT: Dapatkan hingga 15 Tiket Raid gratis dengan memutar Disk Foto di Gym
@@ -155,15 +164,6 @@ TEXT: 2× Hatch Candy while in a party
 
 RESOURCE ID: hatch_stardust_double_party
 TEXT: 2× Hatch Stardust while in a party
-
-RESOURCE ID: incense_effectiveness_double_party
-TEXT: 2× Incense effectiveness while in a party
-
-RESOURCE ID: incense_effectiveness_generic_party
-TEXT: Increased Incense effectiveness while in a party
-
-RESOURCE ID: incense_effectiveness_triple_party
-TEXT: 3× Incense effectiveness while in a party
 
 RESOURCE ID: incubator_distance_half_party
 TEXT: 1/2 Hatch Distance while in a party
@@ -322,10 +322,10 @@ RESOURCE ID: mar24_weather_collection_challenge_2
 TEXT: Pekan Cuaca: Tantangan Tangkapan
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-03-25T23:55:03.233190+00:00 for id-ID
-at SHA d0442f2630
-Pipeline 2205000, job 26734483
-Patch from: 0.307.0-SHA-1d58aad9-RC1, 0.305.1-SHA-b1ab6a41-RC1
+TEXT: Built at 2024-03-27T21:37:04.144739+00:00 for id-ID
+at SHA 714a5fcbed
+Pipeline 2211780, job 26816633
+Patch from: 0.307.0-SHA-58f237c6-RC2, 0.305.1-SHA-b1ab6a41-RC1, 0.307.0-SHA-f20a77ce-RC3
 
 RESOURCE ID: minicollect_medal_progress_description
 TEXT: Semua Tantangan Koleksi yang sudah diselesaikan dapat dilihat di medali Kolektor Elite.
@@ -527,6 +527,12 @@ TEXT: Kulit punggung Sandshrew sekeras baja. Perutnya yang empuk diincar sehingg
 
 RESOURCE ID: pokemon_desc_0028_0054
 TEXT: Dahulu Sandslash tinggal di padang pasir. Pokémon ini menancapkan dengan baik cakarnya yang tajam dan memanjat gunung es dengan cepat tanpa terpeleset.
+
+RESOURCE ID: pokemon_desc_0030
+TEXT: Saat bersama teman dan keluarganya, Nidorina memasukkan durinya agar tidak saling melukai. Tampaknya Pokémon ini merasa tidak tenang jika terpisah dari teman-temannya.
+
+RESOURCE ID: pokemon_desc_0031
+TEXT: Nidoqueen ahli serangan menghempaskan lawan dengan menyerudukkan tubuhnya yang dilapisi sisik keras. Pokémon ini paling kuat saat melindungi anak-anaknya.
 
 RESOURCE ID: pokemon_desc_0032
 TEXT: Otot yang menggerakkan telinga Nidoran♂ berkembang dan telinganya dapat digerakkan dengan bebas ke segala arah. Suara sekecil apa pun tidak akan lepas dari perhatian Pokémon ini.
@@ -908,6 +914,9 @@ TEXT: Prinplup hidup sendiri tanpa membuat teman. Serangan tunggal sayapnya yang
 
 RESOURCE ID: pokemon_desc_0397
 TEXT: Staravia hidup di hutan dan padang rumput. Ketika bertemu kelompok Staravia lain, mereka akan memulai pertikaian untuk memperebutkan wilayah teritorial.
+
+RESOURCE ID: pokemon_desc_0399
+TEXT: Bidoof selalu mengunyah batang kayu dan batu untuk mengikis gigi depannya yang kuat. Pokémon ini membuat sarang dan hidup di dekat air.
 
 RESOURCE ID: pokemon_desc_0403
 TEXT: Jika Shinx merasakan bahaya, bulu di seluruh tubuhnya akan bersinar. Pokémon ini akan kabur selagi lawan buta sementara akibat sinar tersebut.
@@ -2201,7 +2210,7 @@ TEXT: <b>Termasuk:</b>
 • Beli hingga 6 Juni dan mainkan antara tanggal 31 Mei dan 6 Juni untuk Penelitian Berwaktu yang berhadiah item avatar Mahkota Bulan!
 • Beli hingga 6 Mei dan mainkan antara tanggal 30 April dan 6 Mei untuk Penelitian Berwaktu yang berhadiah akses awal ke item avatar Mahkota Matahari DAN Penelitian Berwaktu yang tertera di atas!
 
-Harap diingat bahwa kamu hanya dapat membeli satu versi tiket Pokémon GO Fest: 2024. Jika kamu membeli versi ini, kamu tidak dapat membeli versi tiket yang berhadiah item avatar Kaus berwarna eksklusif.
+Harap diingat bahwa kamu hanya dapat membeli satu versi tiket Pokémon GO Fest: 2024. Jika kamu membeli versi ini, kamu tidak dapat membeli versi tiket yang berhadiah item avatar Kaus berwarna eksklusif. Pelajari lebih lanjut tentang versi ini dan bonus tiketnya <a href="https://gofest.pokemongolive.com/global">di sini</a>.
 
 RESOURCE ID: text_rewards_key_littencd2024
 TEXT: <b>Termasuk:</b>
@@ -2234,7 +2243,7 @@ TEXT: <b>Terdapat tiga kesempatan Penelitian Berwaktu yang akan otomatis aktif d
 - 1 Tiket Pertarungan Premium, 1 Pewangi, 5 Permen Langka, 1 Telur Kebahagiaan, 1 Serpihan Bintang, dan banyak lagi
 - 20.000 XP dan 10.000 Debu Bintang!
 
-Detail mengenai dua kesempatan Penelitian Berwaktu berikutnya beserta hadiah premiumnya akan segera diumumkan! <b>Harap diingat bahwa jika kamu membeli Tiket Keajaiban versi ini, kamu tidak dapat membeli tiket dengan versi yang mengandung item tambahan.</b> Informasi terkait bonus item premium berikut tersedia di situs web kami.
+Detail mengenai dua kesempatan Penelitian Berwaktu berikutnya beserta hadiah premiumnya akan segera diumumkan! <b>Harap diingat bahwa jika kamu membeli Tiket Keajaiban versi ini, kamu tidak dapat membeli tiket dengan versi yang mengandung item tambahan.</b> Informasi terkait bonus item premium berikut tersedia di <a href="https://pokemongolive.com/post/the-wonder-ticket-part-1">sini</a>.
 
 RESOURCE ID: text_rewards_key_zarude
 TEXT: <b>Termasuk Hadiah:</b>
@@ -2322,10 +2331,10 @@ RESOURCE ID: weather_boost_bonus_stardust
 TEXT: Peningkatan Debu Bintang dari Pokémon yang tertangkap dengan Pemacu Cuaca.
 
 RESOURCE ID: xl_candy_chance_party
-TEXT: Increased XL Candy Chance when Catching Pokémon while in a party
+TEXT: Increased Candy XL chance from catching Pokémon while in a party
 
 RESOURCE ID: xp_bonus_route_completion_party
-TEXT: Increased XP when Completing a Route while in a party
+TEXT: Increased XP for completing Routes while in a party
 
 RESOURCE ID: zygarde_tappable_push_notification_combined
 TEXT: Sesuatu yang misterius muncul! Buka Pokémon GO dan selidiki.
