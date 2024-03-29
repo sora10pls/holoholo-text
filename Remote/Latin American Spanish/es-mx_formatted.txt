@@ -205,6 +205,12 @@ TEXT: Tres Caramelos XL adicionales al atrapar Pokémon en incursiones de nivel 
 RESOURCE ID: bonus_rare_candy_xl_chance_raids
 TEXT: Mayor probabilidad de obtener Caramelos Raros XL en las incursiones
 
+RESOURCE ID: bonus_tr_gbl_euic_2024_a_desc
+TEXT: 2024 Pokémon LAIC’s Champion: Bonus Timed Research
+
+RESOURCE ID: bonus_tr_gbl_euic_2024_a_title
+TEXT: 2024 Pokémon LAIC’s Champion
+
 RESOURCE ID: bonus_xl_candy_5x
 TEXT: Mayor probabilidad de recibir Caramelos XL por atrapar Pokémon
 
@@ -361,6 +367,9 @@ TEXT: No es posible abandonar la sala de incursión.
 RESOURCE ID: event_astral_eclipse
 TEXT: Evento de Eclipse astral
 
+RESOURCE ID: event_datetime_range_key_bagoncdc
+TEXT: 7 de abril de 2:00 p. m. a 5:00 p. m.
+
 RESOURCE ID: event_datetime_range_key_chargedtr2024
 TEXT: 3 de marzo de 2024 de 2 p. m. a 5 p. m.
 
@@ -434,6 +443,9 @@ TEXT: Toma, aquí tienes algunas Pokébolas. ¡Te ayudarán a atraparlo!
 
 RESOURCE ID: forgot_login_button
 TEXT: ¿Olvidaste tus credenciales?
+
+RESOURCE ID: general1.ticket.2_bagon_title
+TEXT: Clásicos del Día de la Comunidad: Bagon
 
 RESOURCE ID: general1.ticket.2_chargedtr2024_title
 TEXT: Investigación Temporal “Día de Investigación Electrizante”
@@ -821,7 +833,7 @@ RESOURCE ID: item_event_ticket_gray_details_febmonthly2024
 TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Especial "Clásicos del Día de la Comunidad: Porygon" el 20 de enero de 2024, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Una entrada para acceder a la Investigación Especial del Día de la Comunidad de Litten el 16 de marzo de 2024 de 2 p. m. a 5 p. m. en tu hora local, estés donde estés.
+TEXT: Una entrada para acceder a la Investigación Especial "Clásicos del Día de la Comunidad: Bagon" el 7 de abril de 2024 de 2:00 p. m. a 5:00 p. m. en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_desc_carnivaloflove
 TEXT: Una entrada para acceder a la Investigación Temporal "Carnaval del amor" desde el martes 13 de febrero a las 10 a. m. hasta el jueves 15 de febrero de 2024 a las 8 p. m. en tu hora local, estés donde estés.
@@ -829,14 +841,20 @@ TEXT: Una entrada para acceder a la Investigación Temporal "Carnaval del amor" 
 RESOURCE ID: item_event_ticket_pink_desc_electric
 TEXT: Una entrada para acceder a la Investigación Temporal "Día de Investigación Electrizante" el 3 de marzo de 2024 de 2 p. m. a 5 p. m. en tu hora local, estés donde estés.
 
+RESOURCE ID: item_event_ticket_pink_desc_litten
+TEXT: Una entrada para acceder a la Investigación Especial del Día de la Comunidad de Litten el 16 de marzo de 2024 de 2 p. m. a 5 p. m. en tu hora local, estés donde estés.
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Especial "Jugando con fuego" el 16 de marzo de 2024, estés donde estés.
+TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Especial "Clásicos del Día de la Comunidad: Bagon" el 7 de abril de 2024, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_details_carnivaloflove
 TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Temporal "Carnaval del amor" desde el martes 13 de febrero a las 10 a. m. hasta el jueves 15 de febrero de 2024 a las 8 p. m. en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_details_electric
 TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Temporal "Día de Investigación Electrizante" el 3 de marzo de 2024 de 2 p. m. a 5 p. m. en tu hora local, estés donde estés.
+
+RESOURCE ID: item_event_ticket_pink_details_litten
+TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Especial "Jugando con fuego" el 16 de marzo de 2024, estés donde estés.
 
 RESOURCE ID: item_evergreen_ticket_desc
 TEXT: Una entrada para acceder a la Investigación Temporal "Tras el Equipo GO Rocket" hasta el 31 de marzo a las 11:59 p. m. en tu hora local, estés donde estés.
@@ -929,10 +947,10 @@ RESOURCE ID: mega_raid_event
 TEXT: Desafío de Megaincursión
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-03-27T21:37:04.144739+00:00 for es-MX
-at SHA 714a5fcbed
-Pipeline 2211780, job 26816633
-Patch from: 0.307.0-SHA-58f237c6-RC2, 0.305.1-SHA-b1ab6a41-RC1, 0.307.0-SHA-f20a77ce-RC3
+TEXT: Built at 2024-03-28T20:31:34.268982+00:00 for es-MX
+at SHA a8655340fb
+Pipeline 2215250, job 26861483
+Patch from: 0.307.0-SHA-f20a77ce-RC3, 0.307.0-SHA-58f237c6-RC2, 0.305.1-SHA-b1ab6a41-RC1
 
 RESOURCE ID: mp_bonus_buff_desc_2
 TEXT: Mientras {0} esté megaevolucionado, ganarás Caramelos y EXP adicionales, y tendrás una mayor probabilidad de obtener Caramelos XL cuando atrapes Pokémon de tipo <b>{1}</b>, <b>{2}</b> o <b>{3}</b>.
@@ -2879,16 +2897,16 @@ RESOURCE ID: n_shirt_teamaqua_b_0_display_name
 TEXT: Camiseta con hombros descubiertos del Equipo Aqua
 
 RESOURCE ID: n_shirt_teamblanche_a_0_display_name
-TEXT: Abrigo abierto estilo Blanche
+TEXT: Abrigo estilo Blanche
 
 RESOURCE ID: n_shirt_teamblanche_b_0_display_name
 TEXT: Abrigo cerrado estilo Blanche
 
 RESOURCE ID: n_shirt_teamcandela_a_0_display_name
-TEXT: Chamarra cruzada estilo Candela
+TEXT: Chamarra estilo Candela
 
 RESOURCE ID: n_shirt_teamcandela_b_0_display_name
-TEXT: Chamarra estilo Candela
+TEXT: Chamarra abierta estilo Candela
 
 RESOURCE ID: n_shirt_teammagma_a_0_display_name
 TEXT: Sudadera corta del Equipo Magma
@@ -3101,7 +3119,7 @@ RESOURCE ID: n_shoes_elesa_b_0_display_name
 TEXT: Tenis estilo Elesa
 
 RESOURCE ID: n_shoes_fashionweek2022_0_display_name
-TEXT: Tenis negras a la moda
+TEXT: Tenis negros a la moda
 
 RESOURCE ID: n_shoes_fisher_0_display_name
 TEXT: Botas estilo Pescador
@@ -3131,7 +3149,7 @@ RESOURCE ID: n_shoes_gothitelleitems_0_display_name
 TEXT: Zapatos de Gothitelle
 
 RESOURCE ID: n_shoes_green_a_0_display_name
-TEXT: Botas con punta puntiaguda estilo Azul
+TEXT: Botas con punta fina estilo Azul
 
 RESOURCE ID: n_shoes_green_b_0_display_name
 TEXT: Botas con punta redonda estilo Azul
@@ -3565,6 +3583,9 @@ TEXT: Ya recibiste esta recompensa.
 RESOURCE ID: party_play_invite_more_players
 TEXT: ¡Invita a otros Entrenadores!
 
+RESOURCE ID: party_play_join_nearby_body
+TEXT: Para escanear o introducir el código de equipo, debes estar cerca de la persona que lo creó.
+
 RESOURCE ID: party_play_party_code_description
 TEXT: Introduce el código del equipo al que deseas unirte. Debes estar cerca de la persona que lo creó.
 
@@ -3594,6 +3615,9 @@ Te recomendamos encarecidamente que detengas esta actividad. En caso de reincide
 RESOURCE ID: poi_contrib_entry_report_invalid
 TEXT: REPORTAR POKÉPARADA
 
+RESOURCE ID: poi_sub_faq_web_link
+TEXT: https://niantic.helpshift.com/a/wayfarer/?s=wayspot-criteria
+
 RESOURCE ID: pokemon_info_candy_exchange_player_lv_too_low
 TEXT: Tu nivel de Entrenador es demasiado bajo para transformar Caramelos en Caramelos XL.
 
@@ -3608,6 +3632,9 @@ TEXT: Normal
 
 RESOURCE ID: pokestop_spin_xp_double_party
 TEXT: 2× XP for spinning PokéStops while in a party
+
+RESOURCE ID: postcard_nocard_dialog
+TEXT: Puedes guardar postales de los regalos de tus amistades o de los tuyos antes de enviarlos.
 
 RESOURCE ID: primal_perk_xl_bonus_excellent
 TEXT: Excelente probabilidad de obtener Caramelos XL
@@ -3668,6 +3695,9 @@ TEXT: Toma una foto de {0} Litten
 
 RESOURCE ID: quest_reward_desc_2
 TEXT: Obtendrás un logro de investigación con:
+
+RESOURCE ID: quest_special_dialogue_axew_0_2
+TEXT: Hoy fue un día muy poco fructífero para recolectar Bayas Pinia, pero tengo el presentimiento de que la culpa la tiene un Pokémon, ¡y eso significa que tenemos algo que investigar!
 
 RESOURCE ID: quest_special_dialogue_chansey_0_0
 TEXT: Hola, %PLAYERNAME%. Justo te estaba buscando.
@@ -3786,6 +3816,9 @@ TEXT: ¡Incineroar es igual de formidable descargando ráfagas de demoledores pu
 RESOURCE ID: quest_special_dialogue_litten_3_3
 TEXT: Tengo muchísimas ganas de ver todo lo lejos que puedes llegar. Hasta la próxima, ¡y que no se apague tu llama!
 
+RESOURCE ID: quest_special_dialogue_lvl_50_0_3
+TEXT: Unas cuantas respiraciones profundas son de gran ayuda para despejar tu mente y concentrarte en tus tareas, y necesitarás mucha concentración para lo que te estoy por lanzar.
+
 RESOURCE ID: quest_special_dialogue_macht_2_4
 TEXT: Ay, me repito... En cualquier caso, aunque Machop y Machoke son Pokémon muy impresionantes, Machamp está en un nivel completamente diferente.
 
@@ -3798,14 +3831,17 @@ TEXT: ¡Ay...!
 RESOURCE ID: quest_special_dialogue_melemele_0_5
 TEXT: ¿Por qué no buscas algunos Pokémon descubiertos originalmente en Alola mientras me preparo otro vasito de jugo? ¡Seguro que tenemos mucho que aprender sobre nuestros visitantes!
 
+RESOURCE ID: quest_special_dialogue_melemele_3_4
+TEXT: ¿Crees que tendremos la oportunidad de ver al resto de los guardianes de las islas, %PLAYERNAME%? Eso sería increíble.
+
 RESOURCE ID: quest_special_dialogue_noibat_1_0
 TEXT: ¡%PLAYERNAME%! Hola de nuev... ¡Ooh!
 
 RESOURCE ID: quest_special_dialogue_noibat_3_1
-TEXT: Según mi investigación, este Pokémon posee un carácter violento, por lo que no muestra reparos en aprovechar la oscuridad para atacar a enemigos indefensos.
+TEXT: Según mi investigación, este Pokémon posee un carácter cruel, por lo que no muestra reparos en aprovechar la oscuridad para atacar a enemigos indefensos.
 
 RESOURCE ID: quest_special_dialogue_noibat_3_4
-TEXT: Obviamente, me refería al amor por las bayas, ¡no al carácter violento!
+TEXT: Obviamente, me refería al amor por las bayas, ¡no al carácter cruel!
 
 RESOURCE ID: quest_special_dialogue_rockethq13_4_3
 TEXT: Creo que es hora de que descanses y celebres tu victoria con los Pokémon que liberaste de las garras del Equipo GO Rocket.
@@ -3881,6 +3917,9 @@ TEXT: Son famosos por frotar sus hocicos contra el suelo para desenterrar comida
 
 RESOURCE ID: quest_special_dialogue_tcc_0_1
 TEXT: Ahora que ya investigamos Pokémon hallados en esas regiones...,
+
+RESOURCE ID: quest_special_dialogue_teddiursa_0_2
+TEXT: ¿Piensas que me tiré el jugo de bayas encima de nuevo? ¡Me subestimas, %PLAYERNAME%! ¡Nunca arruinaría esta chamarra nueva tan elegante!
 
 RESOURCE ID: quest_special_dialogue_wt_0_2
 TEXT: En fin, sigamos...
@@ -4007,6 +4046,10 @@ TEXT: If you leave, your party will disband. You will lose challenge progress an
 
 RESOURCE ID: rejoin_warning_modal_title
 TEXT: Are you sure you want to leave your party?
+
+RESOURCE ID: remote_raid_invite_push_notif
+TEXT: Invitación a una incursión
+ ¡{0} te invitó a unirte a una incursión!
 
 RESOURCE ID: report_route_header_2_b
 TEXT: Esta Ruta incumple nuestras <a href="player_guidelines_link_dsa">Instrucciones para jugadores</a> porque incluye:
@@ -4292,6 +4335,9 @@ TEXT: Los guardianes de las islas de Alola... Ya veo... quizá presintieron que 
 RESOURCE ID: stardust_blast_event_name
 TEXT: Lluvia de Estrellas
 
+RESOURCE ID: story_quest_rockethq15_2_1
+TEXT: ¡Los derrotaste tan rápido que hasta me dieron ganas de hacer mi propia fiesta!
+
 RESOURCE ID: story_rockethq14_0_0
 TEXT: Hola, %PLAYERNAME%. Tengo malas noticias.
 
@@ -4415,11 +4461,43 @@ TEXT: Por favor, continúa investigando este suceso.
 RESOURCE ID: story_worldofwonders_2
 TEXT: Mundo de las Maravillas (3/5)
 
+RESOURCE ID: story_worldofwonders_2_0
+TEXT: ¡%PLAYERNAME%! ¡Justo te estaba buscando!
+
+RESOURCE ID: story_worldofwonders_2_1
+TEXT: Nos están llegando noticias muy alarmantes: están volviendo a aparecer Ultraentes.
+
+RESOURCE ID: story_worldofwonders_2_2
+TEXT: Estoy desesperado por saber qué está pasando, pero como no son de este mundo, debemos tener cuidado hasta que comprendamos lo que ocurre.
+
+RESOURCE ID: story_worldofwonders_2_3
+TEXT: Rhi y yo nos pondremos a investigar para ver qué podemos hacer. ¿Podrías salir a recopilar información?
+
 RESOURCE ID: story_worldofwonders_3
 TEXT: Mundo de las Maravillas (4/5)
 
+RESOURCE ID: story_worldofwonders_3_0
+TEXT: Rhi y yo pudimos confirmar que los informes estaban en lo cierto: hay Ultraentes en la zona.
+
+RESOURCE ID: story_worldofwonders_3_1
+TEXT: Y sólo verificamos los informes de avistamientos que nos llegaron, podrían haber más.
+
+RESOURCE ID: story_worldofwonders_3_2
+TEXT: ¿Qué significa todo esto? ¿Por qué volvieron? ¿Está nuestro mundo en peligro?
+
+RESOURCE ID: story_worldofwonders_3_3
+TEXT: Su aparición repentina plantea muchas incógnitas, pero no te preocupes. Rhi y yo no vamos a parar hasta encontrar la causa de este fenómeno.
+
+RESOURCE ID: story_worldofwonders_3_4
+TEXT: Sigue informándonos de todo lo que creas que nos puede ayudar en nuestra investigación hasta que logremos avanzar un poco más. Y te recomiendo que tengas cuidado afuera.
+
 RESOURCE ID: story_worldofwonders_4
 TEXT: Mundo de las Maravillas (5/5)
+
+RESOURCE ID: text_rewards_key_bagoncdc
+TEXT: <b>Recompensas incluidas:</b>
+• Artículos prémium dentro del juego, como Caramelos Raros y Ultrabolas, entre otros. 
+• Encuentros adicionales con Bagon y sus evoluciones.
 
 RESOURCE ID: text_rewards_key_chargedtr2024
 TEXT: Esta entrada te permite elegir entre encuentros adicionales con Chinchou, Electrike, Joltik, Blitzle o Helioptile.
@@ -4504,15 +4582,16 @@ TEXT: <b>Incluye:</b>
 • 2,500 Polvos Estrella
 
 RESOURCE ID: text_rewards_key_wonderticket
-TEXT: <b>Esta entrada incluye tres Investigaciones Temporales a las que tendrás acceso de manera automática cuando estén disponibles.</b> Comprar esta entrada te dará acceso a la primera Investigación Temporal.
+TEXT: <b>Esta entrada incluye tres Investigaciones Temporales a las que tendrás acceso de manera automática cuando estén disponibles.</b> Comprar esta entrada te dará acceso a la primera y a la segunda Investigación Temporal.
 
-<b>Recompensas de la parte 1:</b>
+<b>Recompensas de la parte 1 y 2:</b>
 - Casco de Poipole para el avatar
 - Encuentros con Beedrill, Slowpoke de Galar y Cacnea
-- 1 Pase de Combate Prémium, 1 Incienso, 5 Caramelos Raros, 1 Huevo Suerte, 1 Fragmento Estrella y más
-- ¡20,000 EXP y 10,000 Polvos Estrella!
+- Encuentros con Eevee y sus evoluciones con flores de cerezo
+- 2 Pases de Combate Prémium, 2 Inciensos, 5 Caramelos Raros, 2 Huevos Suerte, 2 Fragmentos Estrella y más
+- ¡40,000 EXP y 20,000 Polvos Estrella!
 
-¡Los detalles y las recompensas prémium de las dos siguientes Investigaciones Temporales se anunciarán muy pronto! <b>Ten en cuenta que si adquieres esta versión de "Entrada Maravillosa", no podrás comprar la versión que tiene objetos prémium adicionales.</b> Obtén información sobre estos objetos prémium <a href="https://pokemongolive.com/es/post/the-wonder-ticket-part-1">aquí</a>.
+¡Los detalles y las recompensas prémium de la tercera Investigación Temporal se anunciarán muy pronto! <b>Ten en cuenta que si adquieres esta versión de "Entrada Maravillosa", no podrás comprar la versión que tiene artículos adicionales.</b> Obtén información sobre estos objetos prémium <a href="https://pokemongolive.com/post/the-wonder-ticket-part-2-eevee-evolutions">aquí</a>.
 
 RESOURCE ID: text_rewards_key_zarude
 TEXT: <b>Recompensas incluidas:</b>

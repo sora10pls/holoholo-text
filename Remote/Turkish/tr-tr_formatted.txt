@@ -61,6 +61,12 @@ TEXT: Torracat’i evrimleştirerek Tahrip Yanığı güçlü saldırısını bi
 RESOURCE ID: bonus_implicit_social_litten_raid
 TEXT: Eğitmenler bir spor salonunda birlikte Torracat akın maçı kazanırsa 30 dakika boyunca o bölgede çok sayıda Litten ortaya çıkacak
 
+RESOURCE ID: bonus_tr_gbl_euic_2024_a_desc
+TEXT: 2024 Pokémon LAIC’s Champion: Bonus Timed Research
+
+RESOURCE ID: bonus_tr_gbl_euic_2024_a_title
+TEXT: 2024 Pokémon LAIC’s Champion
+
 RESOURCE ID: buddy_evolution_progress_title
 TEXT: EVRİM
 
@@ -105,6 +111,9 @@ TEXT: {0} {2} {1} düşürdü!
 
 RESOURCE ID: encounter_caught_pokemon_held_item_singular
 TEXT: {0} 1 {1} düşürdü!
+
+RESOURCE ID: event_datetime_range_key_bagoncdc
+TEXT: 7 Nisan, 14.00 - 17.00
 
 RESOURCE ID: event_datetime_range_key_gofest2024ver1
 TEXT: 13-14 Temmuz
@@ -153,6 +162,9 @@ TEXT: Extra items from PokéStop spins while in a party
 
 RESOURCE ID: fifteen_free_raid_passes
 TEXT: Spor salonlarındaki fotoğraf disklerini döndürerek ücretsiz olarak 15 adede kadar Akın Bileti alın
+
+RESOURCE ID: general1.ticket.2_bagon_title
+TEXT: Topluluk Günü Klasik: Bagon
 
 RESOURCE ID: general1.ticket._gofest2024ver1_title
 TEXT: Pokémon GO Festivali 2024: Küresel Bileti
@@ -296,16 +308,22 @@ RESOURCE ID: item_event_ticket_gray_details_febmonthly2024
 TEXT: Bu bilet şubat ayı boyunca dilediğiniz yerde geçerli olacak Kuluçkalı Keşif Bileti erişimi için otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: 16 Mart 2024’te, yerel saatle 14.00-17.00 arasında gerçekleşecek Litten Topluluk Günü özel araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
+TEXT: 7 Nisan 2024’te, yerel saatle 14.00-17.00 arasında gerçekleşecek Topluluk Günü Klasik: Bagon özel araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
 RESOURCE ID: item_event_ticket_pink_desc_electric
 TEXT: 3 Mart 2024’te, yerel saatle 14.00-17.00 arasında gerçekleşecek Elektrikli Araştırma Günü süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
+RESOURCE ID: item_event_ticket_pink_desc_litten
+TEXT: 16 Mart 2024’te, yerel saatle 14.00-17.00 arasında gerçekleşecek Litten Topluluk Günü özel araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Bu bilet 16 Mart 2024’te gerçekleşecek Ateşle Oyun özel araştırma hikâyesine dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
+TEXT: Bu bilet 7 Nisan 2024’te Topluluk Günü Klasik: Bagon özel araştırmasına dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_pink_details_electric
 TEXT: Bu bilet 3 Mart 2024’te, yerel saatle 14.00-17.00 arasında gerçekleşecek Elektrikli Araştırma Günü süreli araştırmasına dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
+
+RESOURCE ID: item_event_ticket_pink_details_litten
+TEXT: Bu bilet 16 Mart 2024’te gerçekleşecek Ateşle Oyun özel araştırma hikâyesine dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_evergreen_ticket_desc
 TEXT: 31 Mart 2024’te, yerel saatle 23.59’a kadar sürecek GO Roket Takımı’nın Peşinde süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
@@ -344,10 +362,10 @@ RESOURCE ID: mar24_weather_collection_challenge_2
 TEXT: Hava Durumu Haftası Toplama Görevi
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-03-27T21:37:04.144739+00:00 for tr-TR
-at SHA 714a5fcbed
-Pipeline 2211780, job 26816633
-Patch from: 0.307.0-SHA-58f237c6-RC2, 0.305.1-SHA-b1ab6a41-RC1, 0.307.0-SHA-f20a77ce-RC3
+TEXT: Built at 2024-03-28T20:31:34.268982+00:00 for tr-TR
+at SHA a8655340fb
+Pipeline 2215250, job 26861483
+Patch from: 0.307.0-SHA-f20a77ce-RC3, 0.307.0-SHA-58f237c6-RC2, 0.305.1-SHA-b1ab6a41-RC1
 
 RESOURCE ID: n__glasses_drpikachu_0_display_name
 TEXT: Doktoralı Pikachu Gözlüğü
@@ -1915,6 +1933,9 @@ TEXT: Bu ödülü zaten aldınız.
 RESOURCE ID: photobomb_five_litten
 TEXT: GO Fotoğrafta Litten ile 5 sürpriz karşılaşma
 
+RESOURCE ID: poi_sub_faq_web_link
+TEXT: https://niantic.helpshift.com/a/wayfarer/?s=wayspot-criteria
+
 RESOURCE ID: pokemon_desc_0383
 TEXT: Groudon'ın toprağın vücut bulmuş hali olduğu söylenir. Doğanın gücünü kazanmak için Kyogre'la yaptıkları savaşlar efsanelere konu olmuştur.
 
@@ -2354,6 +2375,39 @@ TEXT: Dünya Roket Dünyası (4/5)
 RESOURCE ID: story_rockethq14_title_4
 TEXT: Dünya Roket Dünyası (5/5)
 
+RESOURCE ID: story_worldofwonders_2_0
+TEXT: %PLAYERNAME%! Ben de tam seni arıyordum!
+
+RESOURCE ID: story_worldofwonders_2_1
+TEXT: Çok şaşırtıcı bazı raporlar alıyoruz. Ultra Yaratıkları gördüğünü söyleyenler yine belirdi.
+
+RESOURCE ID: story_worldofwonders_2_2
+TEXT: Neler olduğunu anlamak için sabırsızlanıyorum ama bu dünyaya ait olmadıkları için bu olayların sebebini anlamadan temkini elden bırakmamalıyız.
+
+RESOURCE ID: story_worldofwonders_2_3
+TEXT: Rhi ve ben hemen araştırmaya başlıyoruz. Sen de gidip bilgi toplayabilir misin?
+
+RESOURCE ID: story_worldofwonders_3_0
+TEXT: Rhi ile birlikte raporların doğru olduğunu teyit ettik. Ultra Yaratıklar burada.
+
+RESOURCE ID: story_worldofwonders_3_1
+TEXT: Tabii sadece bizim bulabildiklerimizden bahsediyorum. Daha fazlası da olabilir.
+
+RESOURCE ID: story_worldofwonders_3_2
+TEXT: Tüm bunlar ne anlama geliyor? Neden geri döndüler? Dünyamız tehlikede mi?
+
+RESOURCE ID: story_worldofwonders_3_3
+TEXT: Ultra Yaratıkların yeniden ortaya çıkışı birçok soruyu da beraberinde getiriyor ama endişe etme. Rhi ve ben bu olayın nedenini bulmakta kararlıyız.
+
+RESOURCE ID: story_worldofwonders_3_4
+TEXT: Biz araştırmamıza devam ederken sen de bir şeyler bulduğunda bizimle paylaşmaktan çekinme. Kendine dikkat et.
+
+RESOURCE ID: text_rewards_key_bagoncdc
+TEXT: <b>Ödüller arasında</b>
+• Nadir Şeker ve Ultra Top gibi premium oyun içi eşyalar
+• Bagon ve evrimleriyle ilave karşılaşmalar
+• ve dahası yer alıyor!
+
 RESOURCE ID: text_rewards_key_gofest2024ver1
 TEXT: <b>Ödüller arasında şunlar yer alıyor:</b>
 • Mitolojik Pokémon Marshadow ile bir karşılaşma
@@ -2392,15 +2446,16 @@ TEXT: <b>Ödüller arasında</b>
 • 6 Gizemli Bileşen, 1 Süper Kuluçka Makinesi ve 1 Roket Radarı yer alıyor.
 
 RESOURCE ID: text_rewards_key_wonderticket
-TEXT: <b>Bu bilet, çıktıklarında otomatik olarak erişim hakkı kazanacağınız üç süreli araştırma fırsatı içerir.</b> Bu bileti satın alarak ilk süreli araştırmaya katılmaya olanak kazanırsınız.
+TEXT: <b>Bu bilet, çıktıklarında otomatik olarak erişim hakkı kazanacağınız üç süreli araştırma fırsatı içerir.</b> Bu bileti satın alarak birinci ve ikinci süreli araştırmalara katılmaya olanak kazanırsınız.
 
-<b>1. Kısım ödülleri şunlar:</b>
+<b>1. ve 2. Kısım ödülleri şunlar:</b>
 - Poipole Kaskı avatar eşyası
 - Beedrill, Galarlı Slowpoke ve Cacnea ile karşılaşmalar
-- 1 Premium Maç Bileti, 1 Tütsü, 5 Nadir Şeker, 1 Şans Yumurtası, 1 Yıldız Parçası ve daha fazlası
-- 20.000 TP ve 10.000 yıldız tozu!
+- Kiraz çiçeği takmış Eevee ve evrimleriyle karşılaşmalar
+- 2 Premium Maç Bileti, 2 Tütsü, 5 Nadir Şeker, 2 Şans Yumurtası, 2 Yıldız Parçası ve daha fazlası
+- 40.000 TP ve 20.000 yıldız tozu!
 
-Bundan sonraki iki süreli araştırma fırsatı ve premium ödülleri hakkındaki ayrıntılar yakında açıklanacak! <b>Lütfen unutmayın: Mucize Bileti’nin bu versiyonunu satın alırsanız daha fazla eşya kazandıran diğer versiyonunu satın alamazsınız.</b> Premium bonus eşyalar hakkındaki ayrıntıları <a href="https://pokemongolive.com/tr/post/the-wonder-ticket-part-1">buradan</a> öğrenebilirsiniz.
+Üçüncü süreli araştırma fırsatı ve premium ödülleri hakkındaki ayrıntılar yakında açıklanacak! <b>Lütfen unutmayın: Mucize Bileti’nin bu versiyonunu satın alırsanız daha fazla eşya kazandıran diğer versiyonunu satın alamazsınız.</b> Premium bonus eşyalar hakkındaki ayrıntıları <a href="https://pokemongolive.com/post/the-wonder-ticket-part-2-eevee-evolutions">buradan</a> öğrenebilirsiniz.
 
 RESOURCE ID: text_rewards_key_zarude
 TEXT: <b>Ödüller arasında</b>

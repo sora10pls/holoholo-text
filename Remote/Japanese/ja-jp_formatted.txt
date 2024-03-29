@@ -100,6 +100,12 @@ TEXT: 1/2　タマゴふか距離
 RESOURCE ID: bonus_reward_quarter_hatch_distance
 TEXT: 1/4　タマゴふか距離
 
+RESOURCE ID: bonus_tr_gbl_euic_2024_a_desc
+TEXT: 2024 Pokémon LAIC’s Champion: Bonus Timed Research
+
+RESOURCE ID: bonus_tr_gbl_euic_2024_a_title
+TEXT: 2024 Pokémon LAIC’s Champion
+
 RESOURCE ID: buddy_phone_not_ar_capable_desc
 TEXT: このデバイスで相棒画面のARを使用できません
 
@@ -163,6 +169,9 @@ TEXT: {0}が{1}を持っていた！
 RESOURCE ID: err_pokemon_could_not_be_found
 TEXT: ポケモンが見つかりませんでした
 
+RESOURCE ID: event_datetime_range_key_bagoncdc
+TEXT: 4月7日2:00PM～5:00PM
+
 RESOURCE ID: event_datetime_range_key_gofest2024ver1
 TEXT: 7月13・14日
 
@@ -197,6 +206,9 @@ TEXT: ジムのフォトディスクを回してレイドパス15枚まで入手
 
 RESOURCE ID: first_daily_spin_3x_xp
 TEXT: 3x　最初のポケストップ／ジムスピンXP
+
+RESOURCE ID: general1.ticket.2_bagon_title
+TEXT: タツベイコミュニティ・デイ復刻
 
 RESOURCE ID: general1.ticket._gofest2024ver1_title
 TEXT: Pokémon GO Fest 2024：グローバルチケット
@@ -349,16 +361,22 @@ RESOURCE ID: item_event_ticket_gray_details_febmonthly2024
 TEXT: このチケットは自動的に発動し2月のふかアクセスが受け取れるようになります。
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: 現地時間2024年3月16日2:00PM～5:00PMにニャビーコミュニティ・デイのスペシャルリサーチを行うためのチケット。
+TEXT: 現地時間2024年4月7日2:00PM～5:00PMにタツベイコミュニティ・デイ復刻のスペシャルリサーチを行うためのチケット。
 
 RESOURCE ID: item_event_ticket_pink_desc_electric
 TEXT: 現地時間2024年3月3日2:00PM～5:00PMにエレクトリックタイムチャレンジを行うためのチケット。
 
+RESOURCE ID: item_event_ticket_pink_desc_litten
+TEXT: 現地時間2024年3月16日2:00PM～5:00PMにニャビーコミュニティ・デイのスペシャルリサーチを行うためのチケット。
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: このチケットは自動的に発動し2024年3月16日に「ひねこポケモンを解明せよ！」スペシャルリサーチが行えるようになります。
+TEXT: このチケットは自動的に発動し2024年4月7日にタツベイコミュニティ・デイ復刻のスペシャルリサーチが行えるようになります。
 
 RESOURCE ID: item_event_ticket_pink_details_electric
 TEXT: このチケットは自動的に発動し現地時間2024年3月3日2:00PM～5:00PMにエレクトリックタイムチャレンジが行えるようになります。
+
+RESOURCE ID: item_event_ticket_pink_details_litten
+TEXT: このチケットは自動的に発動し2024年3月16日に「ひねこポケモンを解明せよ！」スペシャルリサーチが行えるようになります。
 
 RESOURCE ID: item_evergreen_ticket_desc
 TEXT: 現地時間2024年3月31日11:59PMまでGOロケット団追跡タイムチャレンジが行えるチケット。
@@ -403,10 +421,10 @@ RESOURCE ID: mega_duration_triple
 TEXT: 3×　メガシンカ時間
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-03-27T21:37:04.144739+00:00 for ja-JP
-at SHA 714a5fcbed
-Pipeline 2211780, job 26816633
-Patch from: 0.307.0-SHA-58f237c6-RC2, 0.305.1-SHA-b1ab6a41-RC1, 0.307.0-SHA-f20a77ce-RC3
+TEXT: Built at 2024-03-28T20:31:34.268982+00:00 for ja-JP
+at SHA a8655340fb
+Pipeline 2215250, job 26861483
+Patch from: 0.307.0-SHA-f20a77ce-RC3, 0.307.0-SHA-58f237c6-RC2, 0.305.1-SHA-b1ab6a41-RC1
 
 RESOURCE ID: n_backpack_hgss_a_0_display_name
 TEXT: ジョウトバッグ（１）
@@ -894,6 +912,9 @@ TEXT: GOスナップショットでニャビーのサプライズ5回
 RESOURCE ID: poffin_duration_double
 TEXT: 2×　ポフィン時間
 
+RESOURCE ID: poi_sub_faq_web_link
+TEXT: https://niantic.helpshift.com/a/wayfarer/?s=wayspot-criteria
+
 RESOURCE ID: pokecoins_daily_limit_reached
 TEXT: 一日の{0}ポケコイン獲得上限に達しています。
 
@@ -1089,17 +1110,20 @@ TEXT: 2×　レイドXP
 RESOURCE ID: rating_updated_toast
 TEXT: 評価が更新されました
 
+RESOURCE ID: rejoin_modal_subtitle
+TEXT: もとのチームへ戻りチームチャレンジを続けることができます。
+
 RESOURCE ID: rejoin_warning_modal_instructions
-TEXT: You can rejoin from the party page.
+TEXT: チーム画面から再参加できます。
 
 RESOURCE ID: rejoin_warning_modal_message
 TEXT: チームを抜けるとチャレンジ進捗と受け取っていないリワードは失われます。
 
 RESOURCE ID: rejoin_warning_modal_message_disband
-TEXT: If you leave, your party will disband. You will lose challenge progress and unclaimed rewards.
+TEXT: チームを抜けるとチャレンジ進捗と受け取っていないリワードは失われます。
 
 RESOURCE ID: rejoin_warning_modal_title
-TEXT: Are you sure you want to leave your party?
+TEXT: チームを抜けてもいいですか？
 
 RESOURCE ID: report_route_reason_cheating
 TEXT: ゲームのチート・ハッキング
@@ -1115,6 +1139,12 @@ TEXT: 評価を変える
 
 RESOURCE ID: route_community_activity
 TEXT: コミュニティアクティビティ
+
+RESOURCE ID: route_decayed_modal_description
+TEXT: あなたの作成したルートはスタート・ゴール地点が移動もしくは閉鎖されたためアーカイブされました。アーカイブされたルートはプレイヤーから発見されず遊ぶこともできませんが、ルート作成画面には残ります。
+
+RESOURCE ID: route_decayed_modal_title
+TEXT: ルートのアーカイブ
 
 RESOURCE ID: route_elevation_profile_label_flat
 TEXT: 平坦
@@ -1213,16 +1243,16 @@ RESOURCE ID: sizeable_surprises_event_name
 TEXT: サイズサプライズ
 
 RESOURCE ID: songkran_2024_title
-TEXT: April Splash 2024
+TEXT: エイプリルスプラッシュ2024
 
 RESOURCE ID: songkran_title_00
-TEXT: April Splash (1/3)
+TEXT: エイプリルスプラッシュ (1/3)
 
 RESOURCE ID: songkran_title_01
-TEXT: April Splash (2/3)
+TEXT: エイプリルスプラッシュ (2/3)
 
 RESOURCE ID: songkran_title_02
-TEXT: April Splash (3/3)
+TEXT: エイプリルスプラッシュ (3/3)
 
 RESOURCE ID: spawn_litten
 TEXT: ニャビーがより多く野生で出現
@@ -1314,6 +1344,38 @@ TEXT: 悪の組織に打ち勝て！(4/5)
 RESOURCE ID: story_rockethq14_title_4
 TEXT: 悪の組織に打ち勝て！(5/5)
 
+RESOURCE ID: story_worldofwonders_2_0
+TEXT: %PLAYERNAME%、探していたんだ！
+
+RESOURCE ID: story_worldofwonders_2_1
+TEXT: ウルトラビーストの目撃情報が入ってきた。
+
+RESOURCE ID: story_worldofwonders_2_2
+TEXT: 何が起こっているのか確かめたいんだが、ウルトラビーストとあっては、慎重に進めなければならない。
+
+RESOURCE ID: story_worldofwonders_2_3
+TEXT: リイとわたしで目撃情報を精査するから、きみにはフィールドでの調査をお願いしたい。
+
+RESOURCE ID: story_worldofwonders_3_0
+TEXT: リイとわたしで確認し終わったよ。確かにウルトラビーストが現れたようだ。
+
+RESOURCE ID: story_worldofwonders_3_1
+TEXT: 見たことがあるウルトラビーストのほかに、未知のものもいるかもしれない。
+
+RESOURCE ID: story_worldofwonders_3_2
+TEXT: なぜ今になって再び現れたんだ？この世界の危機を示唆しているのか？
+
+RESOURCE ID: story_worldofwonders_3_3
+TEXT: 突然の出現には、たくさんの疑問が生じる。だが心配しなくていい。リイと一緒にこの現象の原因を突き止めてみせるさ。
+
+RESOURCE ID: story_worldofwonders_3_4
+TEXT: きみからの報告も待っているよ。十分に注意して調査を続けてくれ。
+
+RESOURCE ID: text_rewards_key_bagoncdc
+TEXT: <b>もらえるもの：</b>
+・タツベイとその進化形ポケモンとの出会い
+・ふしぎなアメ、ハイパーボールなどの道具 
+
 RESOURCE ID: text_rewards_key_gofest2024ver1
 TEXT: <b>もらえるもの：</b>
 ・マーシャドーとの出会い
@@ -1353,13 +1415,14 @@ TEXT: <b>もらえるもの：</b>
 RESOURCE ID: text_rewards_key_wonderticket
 TEXT: <b>3部構成タイムチャレンジが順次受け取れるチケット。</b>このチケット購入で最初のタイムチャレンジから行えるようになります。
 
-<b>パート1完了でもらえるもの：</b>
-・アバターのベベノム ヘッドウェア
+<b>パート1とパート2完了でもらえるもの：</b>
+・アバターのベベノムヘッドウェア
 ・スピアー、ガラルのヤドン、サボネアとの出会い
-・プレミアムバトルパス1枚、おこう1個、ふしぎなアメ5個、しあわせタマゴ1個、ほしのかけら1個
-・20000XPと10000ほしのすな
+・桜をつけたイーブイとその進化形ポケモンとの出会い
+・プレミアムバトルパス2枚、おこう2個、ふしぎなアメ5個、しあわせタマゴ2個、ほしのかけら2個
+・40000XPと20000ほしのすな、など
 
-パート2と3に関する詳細は、後日発表されます！ <b>ベーシックワンダーチケットを購入すると、ウェブストアのプレミアムバージョンは購入できません。</b>プレミアムバージョンについての情報は<a href="https://pokemongolive.com/post/the-wonder-ticket-part-1">こちら</a>でご確認いただけます。
+パート3に関する詳細は、後日発表されます！ <b>ベーシックワンダーチケットを購入すると、ウェブストアのプレミアムバージョンは購入できません。</b>プレミアムバージョンについての情報は<a href="https://pokemongolive.com/post/the-wonder-ticket-part-2-eevee-evolutions">こちら</a>でご確認いただけます。
 
 RESOURCE ID: text_rewards_key_zarude
 TEXT: <b>もらえるもの：</b>

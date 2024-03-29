@@ -55,6 +55,12 @@ TEXT: Evolusikan Torracat untuk mendapatkan Incineroar yang mempelajari Blast Bu
 RESOURCE ID: bonus_implicit_social_litten_raid
 TEXT: Jika Pelatih bekerja sama untuk memenangkan Raid Torracat, Litten akan muncul dalam jumlah besar di area selama 30 menit
 
+RESOURCE ID: bonus_tr_gbl_euic_2024_a_desc
+TEXT: 2024 Pokémon LAIC’s Champion: Bonus Timed Research
+
+RESOURCE ID: bonus_tr_gbl_euic_2024_a_title
+TEXT: 2024 Pokémon LAIC’s Champion
+
 RESOURCE ID: buddy_phone_not_ar_capable_desc
 TEXT: Buddy AR is currently unavailable on this device.
 
@@ -103,6 +109,9 @@ TEXT: {0} menjatuhkan {2} {1}!
 RESOURCE ID: encounter_caught_pokemon_held_item_singular
 TEXT: {0} menjatuhkan 1 {1}!
 
+RESOURCE ID: event_datetime_range_key_bagoncdc
+TEXT: 7 April 2024, pukul 14.00 hingga 17.00
+
 RESOURCE ID: event_datetime_range_key_gofest2024ver1
 TEXT: 13–14 Juli
 
@@ -131,6 +140,9 @@ TEXT: Extra items from PokéStop spins while in a party
 
 RESOURCE ID: fifteen_free_raid_passes
 TEXT: Dapatkan hingga 15 Tiket Raid gratis dengan memutar Disk Foto di Gym
+
+RESOURCE ID: general1.ticket.2_bagon_title
+TEXT: Hari Komunitas Klasik: Bagon
 
 RESOURCE ID: general1.ticket._gofest2024ver1_title
 TEXT: Pokémon GO Fest 2024: Tiket Global
@@ -274,16 +286,22 @@ RESOURCE ID: item_event_ticket_gray_details_febmonthly2024
 TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Akses Penelur-suran untuk bulan Februari, di mana pun kamu berada.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Tiket untuk mengakses Penelitian Spesial: Hari Komunitas Litten pada 16 Maret 2024, mulai pukul 14.00 hingga 17.00 waktu setempat, di mana pun kamu berada.
+TEXT: Tiket untuk mengakses Penelitian Spesial Hari Komunitas Klasik: Bagon pada 7 April 2024, mulai pukul 14.00 hingga 17.00 waktu setempat, di mana pun kamu berada.
 
 RESOURCE ID: item_event_ticket_pink_desc_electric
 TEXT: Tiket untuk mengakses Penelitian Berwaktu: Pengisian Daya pada 3 Maret 2024, mulai pukul 14.00 hingga 17.00 waktu setempat, di mana pun kamu berada.
 
+RESOURCE ID: item_event_ticket_pink_desc_litten
+TEXT: Tiket untuk mengakses Penelitian Spesial: Hari Komunitas Litten pada 16 Maret 2024, mulai pukul 14.00 hingga 17.00 waktu setempat, di mana pun kamu berada.
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke cerita Penelitian Spesial: Menyala Semua pada 16 Maret 2024, di mana pun kamu berada.
+TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Spesial Hari Komunitas Klasik: Bagon pada 7 April 2024, di mana pun kamu berada.
 
 RESOURCE ID: item_event_ticket_pink_details_electric
 TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Berwaktu: Pengisian Daya pada 3 Maret 2024, mulai pukul 14.00 hingga 17.00 waktu setempat, di mana pun kamu berada.
+
+RESOURCE ID: item_event_ticket_pink_details_litten
+TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke cerita Penelitian Spesial: Menyala Semua pada 16 Maret 2024, di mana pun kamu berada.
 
 RESOURCE ID: item_evergreen_ticket_desc
 TEXT: Tiket untuk mengakses Penelitian Berwaktu Pengejaran Tim Roket GO hingga 31 Maret 2024, pukul 23.59 waktu setempat, di mana pun kamu berada.
@@ -322,10 +340,10 @@ RESOURCE ID: mar24_weather_collection_challenge_2
 TEXT: Pekan Cuaca: Tantangan Tangkapan
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-03-27T21:37:04.144739+00:00 for id-ID
-at SHA 714a5fcbed
-Pipeline 2211780, job 26816633
-Patch from: 0.307.0-SHA-58f237c6-RC2, 0.305.1-SHA-b1ab6a41-RC1, 0.307.0-SHA-f20a77ce-RC3
+TEXT: Built at 2024-03-28T20:31:34.268982+00:00 for id-ID
+at SHA a8655340fb
+Pipeline 2215250, job 26861483
+Patch from: 0.307.0-SHA-f20a77ce-RC3, 0.307.0-SHA-58f237c6-RC2, 0.305.1-SHA-b1ab6a41-RC1
 
 RESOURCE ID: minicollect_medal_progress_description
 TEXT: Semua Tantangan Koleksi yang sudah diselesaikan dapat dilihat di medali Kolektor Elite.
@@ -476,6 +494,9 @@ TEXT: 5 pertemuan kejutan dengan Litten dalam Foto GO
 
 RESOURCE ID: poi_powered_up_duration
 TEXT: Sisa peningkatan: {0:ddd hh:mm tt}
+
+RESOURCE ID: poi_sub_faq_web_link
+TEXT: https://niantic.helpshift.com/a/wayfarer/?s=wayspot-criteria
 
 RESOURCE ID: pokemon_desc_0001
 TEXT: Dapat ditemukan wujud Bulbasaur yang tidur siang di bawah sinar matahari. Dengan bermandikan banyak sinar matahari, benih di punggungnya tumbuh membesar.
@@ -972,11 +993,17 @@ TEXT: Hampir semua pertarungan dilakukan oleh anak buahnya. Honchkrow hanya akan
 RESOURCE ID: pokemon_desc_0433
 TEXT: Ketika Chingling melompat-lompat, bola di dalam mulutnya terpantul ke sana kemari dan mengeluarkan warna nada seperti suara bel.
 
+RESOURCE ID: pokemon_desc_0434
+TEXT: Stunky melindungi dirinya dengan menyemprotkan cairan yang berbau busuk dari bagian belakangnya. Bau tersebut tidak hilang selama 24 jam.
+
 RESOURCE ID: pokemon_desc_0438
 TEXT: Bonsly akan mati jika tubuhnya terlalu lembap sehingga Pokémon ini mengeluarkan unsur air dari matanya bagaikan keringat.
 
 RESOURCE ID: pokemon_desc_0439
 TEXT: Ahil dalam menirukan sesuatu. Mime Jr. senang ketika lawannya terkejut sehingga kadang-kadang lupa kalau ia sedang menirukan sesuatu.
+
+RESOURCE ID: pokemon_desc_0440
+TEXT: Ketika ia melihat sesuatu yang bundar dan berwarna putih, Happiny mengambilnya dan memasukkannya ke dalam kantong di perutnya sampai penuh dan menyebabkan ia tidak dapat bergerak.
 
 RESOURCE ID: pokemon_desc_0443
 TEXT: Gible berasal dari daerah yang jauh lebih panas daripada Alola. Tinggal bersamanya akan menyebabkan biaya pemanas membengkak.
@@ -1784,6 +1811,9 @@ Ia akan mendapat jumlah CP yang tinggi, biaya untuk peningkatan lebih sedikit, d
 RESOURCE ID: pokestop_spin_xp_double_party
 TEXT: 2× XP for spinning PokéStops while in a party
 
+RESOURCE ID: postcard_sharing_optin_prompt_dismiss
+TEXT: BATAL
+
 RESOURCE ID: primal_raids_increase
 TEXT: Peningkatan Jumlah Raid Primal
 
@@ -1964,17 +1994,20 @@ TEXT: Raid Bayangan Akhir Pekan: Mewtwo
 RESOURCE ID: rating_updated_toast
 TEXT: Penilaian diperbarui.
 
+RESOURCE ID: rejoin_modal_subtitle
+TEXT: Kamu bisa gabung lagi ke grup sebelumnya dan melanjutkan Tantangan Grupmu.
+
 RESOURCE ID: rejoin_warning_modal_instructions
-TEXT: You can rejoin from the party page.
+TEXT: Kamu bisa bergabung lagi melalui laman grup.
 
 RESOURCE ID: rejoin_warning_modal_message
 TEXT: Jika pergi dari grup, kamu akan kehilangan progres tantangan dan hadiah yang belum diambil.
 
 RESOURCE ID: rejoin_warning_modal_message_disband
-TEXT: If you leave, your party will disband. You will lose challenge progress and unclaimed rewards.
+TEXT: Jika pergi dari grup, grupmu akan dibubarkan. Kamu akan kehilangan progres tantangan dan hadiah yang belum diambil.
 
 RESOURCE ID: rejoin_warning_modal_title
-TEXT: Are you sure you want to leave your party?
+TEXT: Yakin ingin meninggalkan grup?
 
 RESOURCE ID: report_route_reason_cheating
 TEXT: Tindakan kecurangan atau peretasan
@@ -1990,6 +2023,15 @@ TEXT: UBAH PENILAIAN
 
 RESOURCE ID: route_community_activity
 TEXT: Aktivitas Komunitas
+
+RESOURCE ID: route_decayed_modal_description
+TEXT: Rutemu telah diarsipkan karena Titik Awal atau Akhir telah dipindahkan atau dihapus. Rute Terarsip tidak dapat dimainkan atau ditemukan secara umum, tetapi tetap ada pada halaman Pembuatan Rutemu.
+
+RESOURCE ID: route_decayed_modal_title
+TEXT: Rutemu telah diarsipkan.
+
+RESOURCE ID: route_edit_exit_button_secondary
+TEXT: BATAL
 
 RESOURCE ID: route_elevation_profile_label_flat
 TEXT: Datar
@@ -2100,16 +2142,16 @@ RESOURCE ID: sizeable_surprises_event_name
 TEXT: Kejutan Terukur
 
 RESOURCE ID: songkran_2024_title
-TEXT: April Splash 2024
+TEXT: Gebyuran April 2024
 
 RESOURCE ID: songkran_title_00
-TEXT: April Splash (1/3)
+TEXT: Gebyuran April (1/3)
 
 RESOURCE ID: songkran_title_01
-TEXT: April Splash (2/3)
+TEXT: Gebyuran April (2/3)
 
 RESOURCE ID: songkran_title_02
-TEXT: April Splash (3/3)
+TEXT: Gebyuran April (3/3)
 
 RESOURCE ID: spawn_litten
 TEXT: Lebih banyak Litten yang muncul di alam liar!
@@ -2198,6 +2240,38 @@ TEXT: Inilah Dunia Roket! (4/5)
 RESOURCE ID: story_rockethq14_title_4
 TEXT: Inilah Dunia Roket! (5/5)
 
+RESOURCE ID: story_worldofwonders_2_0
+TEXT: %PLAYERNAME%! Aku mencari-carimu, lho!
+
+RESOURCE ID: story_worldofwonders_2_1
+TEXT: Aku mendapat beberapa laporan kesaksian terkait Ultra Beast.
+
+RESOURCE ID: story_worldofwonders_2_2
+TEXT: Aku ingin langsung memastikan apa yang sedang terjadi, tetapi kalau berurusan dengan Ultra Beast, kita harus bertindak dengan hati-hati.
+
+RESOURCE ID: story_worldofwonders_2_3
+TEXT: Aku dan Rhi akan mempelajari laporan kesaksian tersebut. Selagi itu, kuingin kamu melakukan penyelidikan di lapangan.
+
+RESOURCE ID: story_worldofwonders_3_0
+TEXT: Aku dan Rhi telah selesai mempelajari laporannya. Tak salah lagi, Ultra Beast memang telah muncul.
+
+RESOURCE ID: story_worldofwonders_3_1
+TEXT: Selain Ultra Beast yang pernah kita lihat, ada juga beberapa yang sama sekali belum dikenali.
+
+RESOURCE ID: story_worldofwonders_3_2
+TEXT: Kenapa mereka muncul lagi sekarang? Apakah dunia ini sedang dalam bahaya?
+
+RESOURCE ID: story_worldofwonders_3_3
+TEXT: Kemunculan spontan mereka menimbulkan banyak pertanyaan. Namun, jangan khawatir. Aku dan Rhi akan menemukan penyebab dari fenomena ini.
+
+RESOURCE ID: story_worldofwonders_3_4
+TEXT: Sementara itu, laporkan apa pun yang kamu temukan yang mungkin dapat membantu penyeledikan kita. Tetap waspada ya.
+
+RESOURCE ID: text_rewards_key_bagoncdc
+TEXT: <b>Termasuk Hadiah:</b>
+• Item Premium dalam game seperti Permen Langka, Bola Ultra, dan lain sebagainya
+• Pertemuan ekstra dengan Bagon dan Evolusinya
+
 RESOURCE ID: text_rewards_key_gofest2024ver1
 TEXT: <b>Termasuk:</b>
 • Pertemuan dengan Marshadow, Pokémon Mitos
@@ -2235,15 +2309,16 @@ TEXT: <b>Termasuk Hadiah:</b>
 • 6 Komponen Misterius, 1 Mesin Penetas Super, dan 1 Radar Roket
 
 RESOURCE ID: text_rewards_key_wonderticket
-TEXT: <b>Terdapat tiga kesempatan Penelitian Berwaktu yang akan otomatis aktif dan dapat diakses begitu tersedia pada tiket ini.</b> Pembelian tiket ini akan memberimu akses ke Penelitian Berwaktu pertama.
+TEXT: <b>Terdapat tiga kesempatan Penelitian Berwaktu yang akan otomatis aktif dan dapat diakses begitu tersedia pada tiket ini.</b> Pembelian tiket ini akan memberimu akses ke Penelitian Berwaktu pertama dan kedua.
 
-<b>Hadiah untuk Bag. 1:</b>
+<b>Hadiah untuk Bag. 1 dan 2:</b>
 - Item avatar Helm Poipole
 - Pertemuan dengan Beedrill, Galarian Slowpoke, dan Cacnea
-- 1 Tiket Pertarungan Premium, 1 Pewangi, 5 Permen Langka, 1 Telur Kebahagiaan, 1 Serpihan Bintang, dan banyak lagi
-- 20.000 XP dan 10.000 Debu Bintang!
+- Pertemuan dengan Eevee dan Evolusinya yang berhias sakura
+- 2 Tiket Pertarungan Premium, 2 Pewangi, 5 Permen Langka, 2 Telur Kebahagiaan, 2 Serpihan Bintang, dan banyak lagi
+- 40.000 XP dan 20.000 Debu Bintang!
 
-Detail mengenai dua kesempatan Penelitian Berwaktu berikutnya beserta hadiah premiumnya akan segera diumumkan! <b>Harap diingat bahwa jika kamu membeli Tiket Keajaiban versi ini, kamu tidak dapat membeli tiket dengan versi yang mengandung item tambahan.</b> Informasi terkait bonus item premium berikut tersedia di <a href="https://pokemongolive.com/post/the-wonder-ticket-part-1">sini</a>.
+Detail mengenai kesempatan Penelitian Berwaktu ketiga beserta hadiah premiumnya akan segera diumumkan! <b>Harap diingat bahwa jika kamu membeli Tiket Keajaiban versi ini, kamu tidak dapat membeli tiket dengan versi yang mengandung item tambahan.</b> Informasi terkait bonus item premium berikut tersedia di <a href="https://pokemongolive.com/post/the-wonder-ticket-part-2-eevee-evolutions">sini</a>.
 
 RESOURCE ID: text_rewards_key_zarude
 TEXT: <b>Termasuk Hadiah:</b>
