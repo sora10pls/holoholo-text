@@ -55,6 +55,9 @@ TEXT: Vâris
 RESOURCE ID: badge_type_steel_title
 TEXT: Demiryolu Çalışanı
 
+RESOURCE ID: bonus_cd_move_bagon
+TEXT: Shelgon’ı evrimleştirerek Öfke Krizi güçlü saldırısını bilen Salamence elde edebilirsiniz
+
 RESOURCE ID: bonus_cd_move_litten
 TEXT: Torracat’i evrimleştirerek Tahrip Yanığı güçlü saldırısını bilen Incineroar elde edin!
 
@@ -62,10 +65,10 @@ RESOURCE ID: bonus_implicit_social_litten_raid
 TEXT: Eğitmenler bir spor salonunda birlikte Torracat akın maçı kazanırsa 30 dakika boyunca o bölgede çok sayıda Litten ortaya çıkacak
 
 RESOURCE ID: bonus_tr_gbl_euic_2024_a_desc
-TEXT: 2024 Pokémon LAIC’s Champion: Bonus Timed Research
+TEXT: 2024 Pokémon LAIC Şampiyonu: Bonus Süreli Araştırma
 
 RESOURCE ID: bonus_tr_gbl_euic_2024_a_title
-TEXT: 2024 Pokémon LAIC’s Champion
+TEXT: 2024 Pokémon LAIC Şampiyonu
 
 RESOURCE ID: buddy_evolution_progress_title
 TEXT: EVRİM
@@ -374,10 +377,10 @@ RESOURCE ID: mar24_weather_collection_challenge_2
 TEXT: Hava Durumu Haftası Toplama Görevi
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-03-30T00:04:46.641565+00:00 for tr-TR
-at SHA f2f59ab42a
-Pipeline 2219866, job 26922296
-Patch from: 0.307.0-SHA-58f237c6-RC2, 0.305.1-SHA-b1ab6a41-RC1, 0.307.0-SHA-f20a77ce-RC3
+TEXT: Built at 2024-04-01T21:49:04.366995+00:00 for tr-TR
+at SHA 55f23136ba
+Pipeline 2223389, job 26961361
+Patch from: 0.305.1-SHA-b1ab6a41-RC1, 0.307.0-SHA-f20a77ce-RC3, 0.307.0-SHA-58f237c6-RC2, 0.309.0-SHA-14c1a086-RC1
 
 RESOURCE ID: n__glasses_drpikachu_0_display_name
 TEXT: Doktoralı Pikachu Gözlüğü
@@ -1942,6 +1945,9 @@ TEXT: Bu karşılaşmadan ayrılmak istediğinizden emin misiniz?
 RESOURCE ID: party_play_error_already_awarded
 TEXT: Bu ödülü zaten aldınız.
 
+RESOURCE ID: photobomb_five_bagon
+TEXT: GO Fotoğrafta Bagon ile 5 sürpriz karşılaşma
+
 RESOURCE ID: photobomb_five_litten
 TEXT: GO Fotoğrafta Litten ile 5 sürpriz karşılaşma
 
@@ -1963,6 +1969,18 @@ TEXT: 2× XP for spinning PokéStops while in a party
 RESOURCE ID: primal_raids_increase
 TEXT: Artırılmış kadim akın sayısı
 
+RESOURCE ID: quest_bagon_catch_b
+TEXT: {0} Bagon yakalayın
+
+RESOURCE ID: quest_bagon_evolve_b_plural
+TEXT: {0} Bagon evrimleştirin
+
+RESOURCE ID: quest_bagon_evolve_b_singular
+TEXT: Bir Bagon evrimleştirin
+
+RESOURCE ID: quest_bagon_snapshot_b
+TEXT: {0} Bagon’ın fotoğrafını çekin
+
 RESOURCE ID: quest_litten_catch_b
 TEXT: {0} Litten yakalayın
 
@@ -1974,6 +1992,60 @@ TEXT: Bir Litten evrimleştirin
 
 RESOURCE ID: quest_litten_snapshot_b
 TEXT: {0} Litten’ın fotoğrafını çekin
+
+RESOURCE ID: quest_shelgon_evolve_b_plural
+TEXT: {0} Shelgon evrimleştirin
+
+RESOURCE ID: quest_shelgon_evolve_b_singular
+TEXT: Bir Shelgon evrimleştirin
+
+RESOURCE ID: quest_special_dialogue_bagon_0_0
+TEXT: Hmm... Anlıyorum... Evet... Aa! Sen nereden çıktın öyle %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_bagon_0_1
+TEXT: Araştırmaya dalıp gitmişim. Etrafta çok garip şeyler oluyor, belki sen de fark etmişsindir.
+
+RESOURCE ID: quest_special_dialogue_bagon_0_2
+TEXT: Her yerde kocaman kayalar ve bir yerden kopup düşmüş gibi duran taş parçaları var.
+
+RESOURCE ID: quest_special_dialogue_bagon_0_3
+TEXT: Bu gizemi çözmek için yardımına ihtiyacım var. Etrafı şöyle bir kolaçan edip dikkate değer bir şey görürsen bana haber verebilir misin?
+
+RESOURCE ID: quest_special_dialogue_bagon_1_0
+TEXT: Hah! Etraftaki kaya parçalarının sorumlusu Kaya Kafalı Pokémon Bagon’muş.
+
+RESOURCE ID: quest_special_dialogue_bagon_1_1
+TEXT: Bagon bir gün göklere yükselmenin hayalini kurar. Bunun yapamamanın verdiği hüsranı gidermek istermişçesine kafasını kocaman taşlara vurup durur ve böylece kayaları parçalayıp küçük çakıllara dönüştürür.
+
+RESOURCE ID: quest_special_dialogue_bagon_1_2
+TEXT: Bazı teorilere göre kafasını vurup durması hücrelerini uyararak evrimleşmesine etki edebilirmiş!
+
+RESOURCE ID: quest_special_dialogue_bagon_1_3
+TEXT: Ne kadar ilginç, değil mi? Hadi bir Bagon evrimleştirerek bu teorileri test edelim!
+
+RESOURCE ID: quest_special_dialogue_bagon_2_0
+TEXT: Nasıl gitti %PLAYERNAME%? Oo, Dayanıklı Pokémon Shelgon bu! Yine harika bir iş çıkarmışsın.
+
+RESOURCE ID: quest_special_dialogue_bagon_2_1
+TEXT: Shelgon’ın kabuğu demir kadar sert ve düşman saldırılarına karşı dayanıklıdır. Evrimleşmeyi beklerken genelde bir mağarada saklanır.
+
+RESOURCE ID: quest_special_dialogue_bagon_2_2
+TEXT: Duyduğuma göre kabuğunun içine çekilmiş olarak beklerken bile bir gün uçabilmeyi hayal edermiş.
+
+RESOURCE ID: quest_special_dialogue_bagon_2_3
+TEXT: Shelgon’ının uçmasına yardım edip ne kadar yükselebileceğini görmek istemez misin?
+
+RESOURCE ID: quest_special_dialogue_bagon_3_0
+TEXT: Şahane! Sheldon’ın hayallerini gerçekleştirmesini sağladın!
+
+RESOURCE ID: quest_special_dialogue_bagon_3_1
+TEXT: Salamence’ler sonunda uçuşa geçebildikleri için çok mutludurlar. Her yere uçarak giderler, aşırı yorulup uykuları gelmedikçe de pek yere inmezler.
+
+RESOURCE ID: quest_special_dialogue_bagon_3_2
+TEXT: Gerçekten çok ufuk açıcı bilgiler edindik. Kafam Ejderha türü Pokémon’lar hakkında bir sürü yeni soruyla doldu.
+
+RESOURCE ID: quest_special_dialogue_bagon_3_3
+TEXT: Hayallerini gerçekleştirmek için kafanı kayalara vurmanı istemem ama umarım sen de her istediğine kavuşursun %PLAYERNAME%!
 
 RESOURCE ID: quest_special_dialogue_litten_0_0
 TEXT: Selam %PLAYERNAME%! Geçen gece çok tuhaf bir rüya gördüm... Ağzımdan alevler çıkıyordu!
@@ -2085,6 +2157,21 @@ TEXT: Ona aynı diğer Pokémon’lara yaptığın gibi sabır ve sevgiyle yakla
 
 RESOURCE ID: quest_special_dialogue_rogue_jungle_4_3
 TEXT: Şimdiye kadar çok iyi iş çıkardın. İlerisi için şimdiden iyi şanslar!
+
+RESOURCE ID: quest_title_bagon
+TEXT: Topluluk Günü Klasik: Bagon
+
+RESOURCE ID: quest_title_bagon_0
+TEXT: Topluluk Günü Klasik: Bagon (1/4)
+
+RESOURCE ID: quest_title_bagon_1
+TEXT: Topluluk Günü Klasik: Bagon (2/4)
+
+RESOURCE ID: quest_title_bagon_2
+TEXT: Topluluk Günü Klasik: Bagon (3/4)
+
+RESOURCE ID: quest_title_bagon_3
+TEXT: Topluluk Günü Klasik: Bagon (4/4)
 
 RESOURCE ID: quest_title_litten
 TEXT: Ateşle Oyun
@@ -2318,6 +2405,9 @@ TEXT: Nisan Yağmuru (2/3)
 RESOURCE ID: songkran_title_02
 TEXT: Nisan Yağmuru (3/3)
 
+RESOURCE ID: spawn_bagon
+TEXT: Doğada daha fazla Bagon ortaya çıkıyor!
+
 RESOURCE ID: spawn_litten
 TEXT: Doğada daha fazla Litten ortaya çıkıyor!
 
@@ -2485,7 +2575,7 @@ TEXT: <b>Bu bilet, çıktıklarında otomatik olarak erişim hakkı kazanacağı
 - 2 Premium Maç Bileti, 2 Tütsü, 5 Nadir Şeker, 2 Şans Yumurtası, 2 Yıldız Parçası ve daha fazlası
 - 40.000 TP ve 20.000 yıldız tozu!
 
-Üçüncü süreli araştırma fırsatı ve premium ödülleri hakkındaki ayrıntılar yakında açıklanacak! <b>Lütfen unutmayın: Mucize Bileti’nin bu versiyonunu satın alırsanız daha fazla eşya kazandıran diğer versiyonunu satın alamazsınız.</b> Premium bonus eşyalar hakkındaki ayrıntıları <a href="https://pokemongolive.com/post/the-wonder-ticket-part-2-eevee-evolutions">buradan</a> öğrenebilirsiniz.
+Üçüncü süreli araştırma fırsatı ve premium ödülleri hakkındaki ayrıntılar yakında açıklanacak! <b>Lütfen unutmayın: Mucize Bileti’nin bu versiyonunu satın alırsanız daha fazla eşya kazandıran diğer versiyonunu satın alamazsınız.</b> Premium bonus eşyalar hakkındaki ayrıntıları internet sitemizden öğrenebilirsiniz.
 
 RESOURCE ID: text_rewards_key_zarude
 TEXT: <b>Ödüller arasında</b>
@@ -2505,6 +2595,9 @@ TEXT: Mucizeler Diyarı: İstila (2/2)
 
 RESOURCE ID: tgr_takeover_mar_2024_paid_ticket_title
 TEXT: GO Roket Takımı’nın Peşinde Süreli Araştırması
+
+RESOURCE ID: ticket_bagon_cdc
+TEXT: Bagon Topluluk Günü Klasik özel araştırma hikâyesi biletini mağazadan alabilirsiniz
 
 RESOURCE ID: ticket_litten
 TEXT: Litten Topluluk Günü özel araştırma hikâyesi biletini mağazadan alabilirsiniz

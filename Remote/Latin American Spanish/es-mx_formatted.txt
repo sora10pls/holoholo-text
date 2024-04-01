@@ -154,6 +154,9 @@ TEXT: 2× probabilidades de obtener Caramelos Zigzagoon XL por atrapar Zigzagoon
 RESOURCE ID: bonus_candy_xl_candy_nice_great_excel
 TEXT: Caramelos adicionales y mayor probabilidad de recibir Caramelos XL por atrapar Pokémon con lanzamientos buenos, geniales y excelentes
 
+RESOURCE ID: bonus_cd_move_bagon
+TEXT: Evoluciona a Shelgon para conseguir un Salamence que conozca el ataque cargado Enfado
+
 RESOURCE ID: bonus_cd_move_litten
 TEXT: ¡Evoluciona a Torracat para conseguir un Incineroar que conozca el ataque cargado Anillo de Fuego!
 
@@ -206,10 +209,10 @@ RESOURCE ID: bonus_rare_candy_xl_chance_raids
 TEXT: Mayor probabilidad de obtener Caramelos Raros XL en las incursiones
 
 RESOURCE ID: bonus_tr_gbl_euic_2024_a_desc
-TEXT: 2024 Pokémon LAIC’s Champion: Bonus Timed Research
+TEXT: Campeón del Campeonato Internacional Pokémon de Latinoamérica 2024: Bonificación de Investigación Temporal
 
 RESOURCE ID: bonus_tr_gbl_euic_2024_a_title
-TEXT: 2024 Pokémon LAIC’s Champion
+TEXT: Campeón del Campeonato Internacional Pokémon de Latinoamérica 2024
 
 RESOURCE ID: bonus_xl_candy_5x
 TEXT: Mayor probabilidad de recibir Caramelos XL por atrapar Pokémon
@@ -959,10 +962,10 @@ RESOURCE ID: mega_raid_event
 TEXT: Desafío de Megaincursión
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-03-30T00:04:46.641565+00:00 for es-MX
-at SHA f2f59ab42a
-Pipeline 2219866, job 26922296
-Patch from: 0.307.0-SHA-58f237c6-RC2, 0.305.1-SHA-b1ab6a41-RC1, 0.307.0-SHA-f20a77ce-RC3
+TEXT: Built at 2024-04-01T21:49:04.366995+00:00 for es-MX
+at SHA 55f23136ba
+Pipeline 2223389, job 26961361
+Patch from: 0.305.1-SHA-b1ab6a41-RC1, 0.307.0-SHA-f20a77ce-RC3, 0.307.0-SHA-58f237c6-RC2, 0.309.0-SHA-14c1a086-RC1
 
 RESOURCE ID: mp_bonus_buff_desc_2
 TEXT: Mientras {0} esté megaevolucionado, ganarás Caramelos y EXP adicionales, y tendrás una mayor probabilidad de obtener Caramelos XL cuando atrapes Pokémon de tipo <b>{1}</b>, <b>{2}</b> o <b>{3}</b>.
@@ -3610,6 +3613,9 @@ TEXT: Si quieres permanecer dentro del equipo, debes quedarte cerca de la person
 RESOURCE ID: party_play_zone_warning_ok
 TEXT: DE ACUERDO
 
+RESOURCE ID: photobomb_five_bagon
+TEXT: 5 encuentros sorpresa con Bagon al usar Foto GO
+
 RESOURCE ID: photobomb_five_litten
 TEXT: 5 encuentros sorpresa con Litten al usar Foto GO
 
@@ -3663,6 +3669,18 @@ TEXT: Mientras {0} esté en su forma Primigenia, ganarás Caramelos y EXP adicio
 RESOURCE ID: primal_reversion_bonus_buff_desc_3
 TEXT: Mientras {0} esté en su forma Primigenia, ganarás Caramelos y EXP adicionales, y tendrás una mayor probabilidad de obtener Caramelos XL cuando atrapes Pokémon de tipo <b>{1}</b>, <b>{2}</b> o <b>{3}</b>.
 
+RESOURCE ID: quest_bagon_catch_b
+TEXT: Atrapa {0} Bagon
+
+RESOURCE ID: quest_bagon_evolve_b_plural
+TEXT: Evoluciona {0} Bagon
+
+RESOURCE ID: quest_bagon_evolve_b_singular
+TEXT: Evoluciona un Bagon
+
+RESOURCE ID: quest_bagon_snapshot_b
+TEXT: Toma una foto de {0} Bagon
+
 RESOURCE ID: quest_catch_special21_singular
 TEXT: Atrapa un Rattata o un Pikachu
 
@@ -3708,8 +3726,62 @@ TEXT: Toma una foto de {0} Litten
 RESOURCE ID: quest_reward_desc_2
 TEXT: Obtendrás un logro de investigación con:
 
+RESOURCE ID: quest_shelgon_evolve_b_plural
+TEXT: Evoluciona {0} Shelgon
+
+RESOURCE ID: quest_shelgon_evolve_b_singular
+TEXT: Evoluciona un Shelgon
+
 RESOURCE ID: quest_special_dialogue_axew_0_2
 TEXT: Hoy fue un día muy poco fructífero para recolectar Bayas Pinia, pero tengo el presentimiento de que la culpa la tiene un Pokémon, ¡y eso significa que tenemos algo que investigar!
+
+RESOURCE ID: quest_special_dialogue_bagon_0_0
+TEXT: Ajá, ya veo... Ajá, ajá... ¡Oh! ¡Qué bueno verte de nuevo, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_bagon_0_1
+TEXT: Estaba completamente absorto en mi investigación de un curioso fenómeno que está ocurriendo en la zona. Es posible que ya lo hayas visto.
+
+RESOURCE ID: quest_special_dialogue_bagon_0_2
+TEXT: Sabes a lo que me refiero, ¿no? Hablo de esas grandes piedras y los pedazos de roca que hay por todos lados.
+
+RESOURCE ID: quest_special_dialogue_bagon_0_3
+TEXT: Quizás puedes ayudarme a entender este asunto. ¿Te importaría revisar el área y decirme si encuentras algo relevante?
+
+RESOURCE ID: quest_special_dialogue_bagon_1_0
+TEXT: ¡Interesante! Al parecer Bagon, el Pokémon Cabeza Rocosa, es el responsable de este demoledor caos.
+
+RESOURCE ID: quest_special_dialogue_bagon_1_1
+TEXT: El sueño de los Bagon es poder surcar los cielos algún día. Frustrados ante la imposibilidad de volar, parece que se desahogan dándose cabezazos contra rocas enormes hasta hacerlas añicos.
+
+RESOURCE ID: quest_special_dialogue_bagon_1_2
+TEXT: De hecho, según una teoría, ¡los fuertes cabezazos que propinan estimulan las células implicadas en su evolución!
+
+RESOURCE ID: quest_special_dialogue_bagon_1_3
+TEXT: ¿Fascinante, verdad? ¡Pongamos en práctica la teoría y evolucionemos un Bagon!
+
+RESOURCE ID: quest_special_dialogue_bagon_2_0
+TEXT: ¿Qué tenemos aquí, %PLAYERNAME%? Vaya, vaya, ¡es Shelgon, el Pokémon Resistencia! Excelente trabajo.
+
+RESOURCE ID: quest_special_dialogue_bagon_2_1
+TEXT: La coraza de Shelgon es dura como el acero y hace rebotar los ataques enemigos. Este Pokémon se esconde en las cavernas para evolucionar.
+
+RESOURCE ID: quest_special_dialogue_bagon_2_2
+TEXT: Mientras se recluye en su dura coraza, sueña con el día en el que pueda surcar el cielo volando.
+
+RESOURCE ID: quest_special_dialogue_bagon_2_3
+TEXT: ¿Y si ayudamos a tu Shelgon a surcar nuevos horizontes, aunque sea metafóricamente?
+
+RESOURCE ID: quest_special_dialogue_bagon_3_0
+TEXT: ¡Impresionante! ¡Ayudaste a Shelgon a cumplir su sueño!
+
+RESOURCE ID: quest_special_dialogue_bagon_3_1
+TEXT: Ahora que por fin puede volar, Salamence surca los cielos con una sonrisa en el rostro. No pisa tierra firme a menos que tenga que dormir o esté exhausto.
+
+RESOURCE ID: quest_special_dialogue_bagon_3_2
+TEXT: Debo decir que esto genera todo tipo de preguntas sobre qué más pueden lograr los Pokémon de tipo Dragón. Es realmente inspirador.
+
+RESOURCE ID: quest_special_dialogue_bagon_3_3
+TEXT: Aunque no te recomiendo dar cabezazos contra las rocas para hacer que se cumplan tus sueños, ¡estoy convencido de que tú también lograrás volar muy alto, %PLAYERNAME%!
 
 RESOURCE ID: quest_special_dialogue_chansey_0_0
 TEXT: Hola, %PLAYERNAME%. Justo te estaba buscando.
@@ -3855,6 +3927,9 @@ TEXT: Según mi investigación, este Pokémon posee un carácter cruel, por lo q
 RESOURCE ID: quest_special_dialogue_noibat_3_4
 TEXT: Obviamente, me refería al amor por las bayas, ¡no al carácter cruel!
 
+RESOURCE ID: quest_special_dialogue_poliwag_0_0
+TEXT: ¡%PLAYERNAME%! Adivina lo que vi en mi caminata hace un rato. ¡Una laguna repleta de Poliwag!
+
 RESOURCE ID: quest_special_dialogue_rockethq13_4_3
 TEXT: Creo que es hora de que descanses y celebres tu victoria con los Pokémon que liberaste de las garras del Equipo GO Rocket.
 
@@ -3938,6 +4013,24 @@ TEXT: En fin, sigamos...
 
 RESOURCE ID: quest_special_dialogue_zygarde_0_2
 TEXT: Según la hipótesis del autor, Zygarde vigila el ecosistema en el que vive desde las profundidades de su caverna. Y cuando el ecosistema se encuentra en peligro, aparece y revela su poder secreto.
+
+RESOURCE ID: quest_timed_dialogue_cornet_0_2
+TEXT: Te voy a dar un par de pistas y tendrás que adivinar cuál es el Pokémon del que estoy hablando. ¡Empecemos!
+
+RESOURCE ID: quest_title_bagon
+TEXT: Clásicos del Día de la Comunidad: Bagon
+
+RESOURCE ID: quest_title_bagon_0
+TEXT: Clásicos del Día de la Comunidad: Bagon (1/4)
+
+RESOURCE ID: quest_title_bagon_1
+TEXT: Clásicos del Día de la Comunidad: Bagon (2/4)
+
+RESOURCE ID: quest_title_bagon_2
+TEXT: Clásicos del Día de la Comunidad: Bagon (3/4)
+
+RESOURCE ID: quest_title_bagon_3
+TEXT: Clásicos del Día de la Comunidad: Bagon (4/4)
 
 RESOURCE ID: quest_title_genesect
 TEXT: Una investigación ROMpedora
@@ -4098,7 +4191,7 @@ RESOURCE ID: route_creation_recording_controls_title_name
 TEXT: Registro de trayectoria:
 
 RESOURCE ID: route_creation_recording_end_toast
-TEXT: Te encuentras en el punto de llegada de la Ruta. Abre la página de registro de la trayectoria para comenzar el registro de la trayectoria de Ruta.
+TEXT: Estás en el punto de llegada de la Ruta. Abre la página de registro de la trayectoria para finalizar el registro de la Ruta.
 
 RESOURCE ID: route_decayed_modal_description
 TEXT: Tu Ruta fue archivada porque se movió o eliminó el punto de partida o de llegada. Las Rutas archivadas seguirán siendo visibles en tu página de Rutas creadas, pero no podrán recorrerse y no serán visibles públicamente.
@@ -4227,10 +4320,10 @@ RESOURCE ID: route_reported_result_description_primary_text
 TEXT: Tu Ruta fue denunciada porque incumplía nuestras <a href="player_guidelines_link_dsa">Instrucciones para jugadores</a>. El título o la descripción de la Ruta incluían:
 
 RESOURCE ID: route_sort_length
-TEXT: Extensión
+TEXT: Distancia
 
 RESOURCE ID: route_sort_proximity
-TEXT: Distancia hasta el punto de partida
+TEXT: Hasta el punto de partida
 
 RESOURCE ID: route_sort_rating
 TEXT: CALIFICACIÓN
@@ -4344,6 +4437,9 @@ TEXT: En abril, poca lluvia y nubes mil (2/3)
 RESOURCE ID: songkran_title_02
 TEXT: En abril, poca lluvia y nubes mil (3/3)
 
+RESOURCE ID: spawn_bagon
+TEXT: ¡Están apareciendo más Bagon salvajes!
+
 RESOURCE ID: spawn_litten
 TEXT: ¡Están apareciendo más Litten salvajes!
 
@@ -4376,6 +4472,9 @@ TEXT: Lluvia de Estrellas
 
 RESOURCE ID: story_quest_rockethq15_2_1
 TEXT: ¡Los derrotaste tan rápido que hasta me dieron ganas de hacer mi propia fiesta!
+
+RESOURCE ID: story_quest_rockethq16_0_3
+TEXT: Tengo la sensación de que un buen combate les mostrará que sus artimañas no son bienvenidas. ¿Quieres hacer el papel de Profesor por un día?
 
 RESOURCE ID: story_rockethq14_0_0
 TEXT: Hola, %PLAYERNAME%. Tengo malas noticias.
@@ -4630,7 +4729,7 @@ TEXT: <b>Esta entrada incluye tres Investigaciones Temporales a las que tendrás
 - 2 Pases de Combate Prémium, 2 Inciensos, 5 Caramelos Raros, 2 Huevos Suerte, 2 Fragmentos Estrella y más
 - ¡40,000 EXP y 20,000 Polvos Estrella!
 
-¡Los detalles y las recompensas prémium de la tercera Investigación Temporal se anunciarán muy pronto! <b>Ten en cuenta que si adquieres esta versión de "Entrada Maravillosa", no podrás comprar la versión que tiene artículos adicionales.</b> Obtén información sobre estos objetos prémium <a href="https://pokemongolive.com/post/the-wonder-ticket-part-2-eevee-evolutions">aquí</a>.
+¡Los detalles y las recompensas prémium de la tercera Investigación Temporal se anunciarán muy pronto! <b>Ten en cuenta que si adquieres esta versión de "Entrada Maravillosa", no podrás comprar la versión que tiene artículos adicionales.</b> Obtén información sobre estos artículos prémium en nuestro sitio web.
 
 RESOURCE ID: text_rewards_key_zarude
 TEXT: <b>Recompensas incluidas:</b>
@@ -4650,6 +4749,9 @@ TEXT: Mundo de las Maravillas: Invasión (2/2)
 
 RESOURCE ID: tgr_takeover_mar_2024_paid_ticket_title
 TEXT: Investigación Temporal: Tras el Equipo GO Rocket
+
+RESOURCE ID: ticket_bagon_cdc
+TEXT: Las entradas para la historia de Investigación Especial "Clásicos del Día de la Comunidad: Bagon" están disponibles en la Tienda
 
 RESOURCE ID: ticket_litten
 TEXT: Las entradas para la historia de Investigación Especial del Día de la Comunidad de Litten están disponibles en la Tienda

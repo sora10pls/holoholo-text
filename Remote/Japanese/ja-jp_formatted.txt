@@ -64,6 +64,9 @@ TEXT: 3×　ポケモンを捕まえたときのXP
 RESOURCE ID: bonus_4x_catch_xp_stufful
 TEXT: 4×　ポケモンを捕まえたときのXP
 
+RESOURCE ID: bonus_cd_move_bagon
+TEXT: コモルーをボーマンダに進化させるとげきりんを覚えている
+
 RESOURCE ID: bonus_cd_move_litten
 TEXT: ニャヒートをガオガエンに進化させるとブラストバーンを覚えている
 
@@ -101,7 +104,7 @@ RESOURCE ID: bonus_reward_quarter_hatch_distance
 TEXT: 1/4　タマゴふか距離
 
 RESOURCE ID: bonus_tr_gbl_euic_2024_a_desc
-TEXT: 2024 Pokémon LAIC’s Champion: Bonus Timed Research
+TEXT: 2024PokémonLAICチャンピオン：ボーナスタイムチャレンジ
 
 RESOURCE ID: bonus_tr_gbl_euic_2024_a_title
 TEXT: 2024PokémonLAICチャンピオン
@@ -433,10 +436,10 @@ RESOURCE ID: mega_duration_triple
 TEXT: 3×　メガシンカ時間
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-03-30T00:04:46.641565+00:00 for ja-JP
-at SHA f2f59ab42a
-Pipeline 2219866, job 26922296
-Patch from: 0.307.0-SHA-58f237c6-RC2, 0.305.1-SHA-b1ab6a41-RC1, 0.307.0-SHA-f20a77ce-RC3
+TEXT: Built at 2024-04-01T21:49:04.366995+00:00 for ja-JP
+at SHA 55f23136ba
+Pipeline 2223389, job 26961361
+Patch from: 0.305.1-SHA-b1ab6a41-RC1, 0.307.0-SHA-f20a77ce-RC3, 0.307.0-SHA-58f237c6-RC2, 0.309.0-SHA-14c1a086-RC1
 
 RESOURCE ID: n_backpack_hgss_a_0_display_name
 TEXT: ジョウトバッグ（１）
@@ -918,6 +921,9 @@ TEXT: この出会いから逃げてもいいですか？
 RESOURCE ID: party_play_error_already_awarded
 TEXT: このリワードは入手済みです
 
+RESOURCE ID: photobomb_five_bagon
+TEXT: GOスナップショットでタツベイのサプライズ5回
+
 RESOURCE ID: photobomb_five_litten
 TEXT: GOスナップショットでニャビーのサプライズ5回
 
@@ -945,6 +951,18 @@ TEXT: 3x　ポケストップスピンXP
 RESOURCE ID: primal_raids_increase
 TEXT: ゲンシレイド数アップ
 
+RESOURCE ID: quest_bagon_catch_b
+TEXT: タツベイを{0}匹捕まえる
+
+RESOURCE ID: quest_bagon_evolve_b_plural
+TEXT: タツベイを{0}匹進化させる
+
+RESOURCE ID: quest_bagon_evolve_b_singular
+TEXT: タツベイを進化させる
+
+RESOURCE ID: quest_bagon_snapshot_b
+TEXT: タツベイのGOスナップショット写真を{0}枚撮る
+
 RESOURCE ID: quest_litten_catch_b
 TEXT: ニャビーを{0}匹捕まえる
 
@@ -956,6 +974,60 @@ TEXT: ニャビーを進化させる
 
 RESOURCE ID: quest_litten_snapshot_b
 TEXT: ニャビーのGOスナップショット写真を{0}枚撮る
+
+RESOURCE ID: quest_shelgon_evolve_b_plural
+TEXT: コモルーを{0}匹進化させる
+
+RESOURCE ID: quest_shelgon_evolve_b_singular
+TEXT: コモルーを進化させる
+
+RESOURCE ID: quest_special_dialogue_bagon_0_0
+TEXT: ふむ、こ、これは．．．これも。そうか．．．。あっ、%PLAYERNAME%じゃないか！
+
+RESOURCE ID: quest_special_dialogue_bagon_0_1
+TEXT: きみも見たか？この不思議な現象。
+
+RESOURCE ID: quest_special_dialogue_bagon_0_2
+TEXT: 大きな岩のかけらや、コナゴナになった石のようなものが散らばっている。
+
+RESOURCE ID: quest_special_dialogue_bagon_0_3
+TEXT: 周りを調査して、何が起こったのか明らかにしてほしい。よろしく頼むよ！
+
+RESOURCE ID: quest_special_dialogue_bagon_1_0
+TEXT: やっぱり！いしあたまポケモンのタツベイだったか！
+
+RESOURCE ID: quest_special_dialogue_bagon_1_1
+TEXT: タツベイは大空を飛ぶことを夢見ているんだが、飛べない。だからそのくやしさを晴らすように大岩に頭を打ちつけてコナゴナに砕くんだ。
+
+RESOURCE ID: quest_special_dialogue_bagon_1_2
+TEXT: 頭を打ちつける、この行動が進化に影響する細胞を刺激しているという説もある。
+
+RESOURCE ID: quest_special_dialogue_bagon_1_3
+TEXT: 興味深いと思わないか？進化させて調査してみよう！
+
+RESOURCE ID: quest_special_dialogue_bagon_2_0
+TEXT: 順調かな、%PLAYERNAME%？どれどれ、にんたいポケモンであるコモルーだね。よくやった。
+
+RESOURCE ID: quest_special_dialogue_bagon_2_1
+TEXT: コモルーの体は硬いカラで覆われているから、敵の攻撃を跳ね返す。進化を待つときは、洞穴に身を潜めると言われている。
+
+RESOURCE ID: quest_special_dialogue_bagon_2_2
+TEXT: そうやって硬いカラの中に閉じこもっているあいだも、空を飛ぶ日を夢見ているんだ。
+
+RESOURCE ID: quest_special_dialogue_bagon_2_3
+TEXT: コモルーと空との距離を縮めてやるのはどうだろう？
+
+RESOURCE ID: quest_special_dialogue_bagon_3_0
+TEXT: すばらしい！コモルーの夢をかなえたぞ！
+
+RESOURCE ID: quest_special_dialogue_bagon_3_1
+TEXT: ついに飛べる、というボーマンダの喜びが伝わってくる気がする。喜びのあまり、大空を飛び回り、疲れ果てるまで地上に降りてこないぞ。
+
+RESOURCE ID: quest_special_dialogue_bagon_3_2
+TEXT: これはドラゴンタイプのポケモン全般について、思いを馳せるきっかけになるな。いったいどんな可能性を秘めているのか。どんな思いを抱いているのか。
+
+RESOURCE ID: quest_special_dialogue_bagon_3_3
+TEXT: 夢の実現のために岩に頭を打ちつけることはおすすめしないが、こころざしを高く持つ、という点においては、%PLAYERNAME%、きみもタツベイのように進んでいくといい！
 
 RESOURCE ID: quest_special_dialogue_litten_0_0
 TEXT: やぁ、%PLAYERNAME%！最近見た変な夢のなか．．．わたしは火を吹いていた！
@@ -1064,6 +1136,21 @@ TEXT: きみなら、ちゃんと忍耐と広い心を持って仲良くなれ�
 
 RESOURCE ID: quest_special_dialogue_rogue_jungle_4_3
 TEXT: あと少しだ。よろしく頼むよ！
+
+RESOURCE ID: quest_title_bagon
+TEXT: タツベイコミュニティ・デイ復刻
+
+RESOURCE ID: quest_title_bagon_0
+TEXT: タツベイコミュニティ・デイ復刻(1/4)
+
+RESOURCE ID: quest_title_bagon_1
+TEXT: タツベイコミュニティ・デイ復刻(2/4)
+
+RESOURCE ID: quest_title_bagon_2
+TEXT: タツベイコミュニティ・デイ復刻(3/4)
+
+RESOURCE ID: quest_title_bagon_3
+TEXT: タツベイコミュニティ・デイ復刻(4/4)
 
 RESOURCE ID: quest_title_litten
 TEXT: ひねこポケモンを解明せよ！
@@ -1281,6 +1368,9 @@ TEXT: エイプリルスプラッシュ (2/3)
 RESOURCE ID: songkran_title_02
 TEXT: エイプリルスプラッシュ (3/3)
 
+RESOURCE ID: spawn_bagon
+TEXT: タツベイがより多く野生で出現
+
 RESOURCE ID: spawn_litten
 TEXT: ニャビーがより多く野生で出現
 
@@ -1449,7 +1539,7 @@ TEXT: <b>3部構成タイムチャレンジが順次受け取れるチケット�
 ・プレミアムバトルパス2枚、おこう2個、ふしぎなアメ5個、しあわせタマゴ2個、ほしのかけら2個
 ・40000XPと20000ほしのすな、など
 
-パート3に関する詳細は、後日発表されます！ <b>ベーシックワンダーチケットを購入すると、ウェブストアのプレミアムバージョンは購入できません。</b>プレミアムバージョンについての情報は<a href="https://pokemongolive.com/post/the-wonder-ticket-part-2-eevee-evolutions">こちら</a>でご確認いただけます。
+パート3に関する詳細は、後日発表されます！ <b>ベーシックワンダーチケットを購入すると、ウェブストアのプレミアムバージョンは購入できません。</b>プレミアムバージョンについての情報はウェブサイトでご確認ください。
 
 RESOURCE ID: text_rewards_key_zarude
 TEXT: <b>もらえるもの：</b>
@@ -1469,6 +1559,9 @@ TEXT: ワールド・オブ・ワンダーズ：占拠(2/2)
 
 RESOURCE ID: tgr_takeover_mar_2024_paid_ticket_title
 TEXT: GOロケット団追跡タイムチャレンジ
+
+RESOURCE ID: ticket_bagon_cdc
+TEXT: タツベイコミュニティ・デイ復刻スペシャルリサーチのチケットがショップに登場
 
 RESOURCE ID: ticket_litten
 TEXT: ニャビーコミュニティ・デイスペシャルリサーチのチケットがショップに登場
