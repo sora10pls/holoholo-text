@@ -4,3 +4,6 @@ Includes text from the latest release (0.307.1), as well as the latest remote te
 
 # Credits
 Formatted text is inspired by [PokeMiners](https://github.com/PokeMiners). Thanks for all your hard work over the years.
+
+## Assets
+Looking for assets? That can be found in my other repository, [holoholo-assets](https://github.com/sora10pls/holoholo-assets).
