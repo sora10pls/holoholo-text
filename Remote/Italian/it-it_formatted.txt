@@ -104,34 +104,37 @@ RESOURCE ID: buddy_detail_map
 TEXT: Compagno di viaggio
 
 RESOURCE ID: buddy_phone_not_ar_capable_desc
-TEXT: Buddy AR is currently unavailable on this device.
+TEXT: La modalità AR con il tuo compagno non è supportata su questo dispositivo.
 
 RESOURCE ID: buddy_phone_not_ar_capable_title
-TEXT: Unsupported device
+TEXT: Dispositivo non supportato
 
 RESOURCE ID: catch_candy_double_party
-TEXT: 2× Catch Candy while in a party
+TEXT: Doppio delle caramelle da cattura quando sei in gruppo
 
 RESOURCE ID: catch_candy_triple_party
-TEXT: 3× Catch Candy while in a party
+TEXT: Triplo delle caramelle da cattura quando sei in gruppo
 
 RESOURCE ID: catch_stardust_double_party
-TEXT: 2× Catch Stardust while in a party
+TEXT: Doppio della polvere di stelle da cattura quando sei in gruppo
 
 RESOURCE ID: catch_stardust_triple_party
-TEXT: 3× Catch Stardust while in a party
+TEXT: Triplo della polvere di stelle da cattura quando sei in gruppo
 
 RESOURCE ID: catch_xp_double_party
-TEXT: 2× Catch XP while in a party
+TEXT: Doppio dei PE da cattura quando sei in gruppo
 
 RESOURCE ID: catch_xp_quadruple_party
-TEXT: 4× Catch XP while in a party
+TEXT: Quadruplo dei PE da cattura quando sei in gruppo
 
 RESOURCE ID: catch_xp_triple_party
-TEXT: 3× Catch XP while in a party
+TEXT: Triplo dei PE da cattura quando sei in gruppo
 
 RESOURCE ID: community_day_bagon_event_name_cdc
 TEXT: Community Day Classico dedicato a Bagon
+
+RESOURCE ID: community_day_bellsprout_event_name
+TEXT: Community Day dedicato a Bellsprout
 
 RESOURCE ID: encounter_caught_pokemon_held_item_plural
 TEXT: {0} ha lasciato cadere {2} {1}!
@@ -186,7 +189,7 @@ RESOURCE ID: excellent_opportunity_tr_2
 TEXT: Un’eccellente opportunità (2/2)
 
 RESOURCE ID: extra_items_pokestop_spins_party
-TEXT: Extra items from PokéStop spins while in a party
+TEXT: Ricevi oggetti extra facendo girare i dischi dei Pokéstop quando sei in gruppo
 
 RESOURCE ID: f_avatar_poses_bundle_pose_62
 TEXT: Stile Hala
@@ -207,19 +210,25 @@ RESOURCE ID: general1.ticket._zarude_title
 TEXT: Minaccia nella giungla
 
 RESOURCE ID: hatch_candy_double_party
-TEXT: 2× Hatch Candy while in a party
+TEXT: Doppio delle caramelle da schiusa quando sei in gruppo
+
+RESOURCE ID: hatch_day_azurill_timed_research
+TEXT: Ricerca a tempo della giornata della schiusa dedicata a Azurill
+
+RESOURCE ID: hatch_day_riolu_limited_research
+TEXT: Ricerca a tempo della giornata della schiusa dedicata a Riolu
 
 RESOURCE ID: hatch_stardust_double_party
-TEXT: 2× Hatch Stardust while in a party
+TEXT: Doppio della polvere di stelle da schiusa quando sei in gruppo
 
 RESOURCE ID: increased_remote_raid_limit
 TEXT: Aumento del limite di raid da remoto
 
 RESOURCE ID: incubator_distance_half_party
-TEXT: 1/2 Hatch Distance while in a party
+TEXT: Distanza per la schiusa ridotta della metà quando sei in gruppo
 
 RESOURCE ID: incubator_distance_quarter_party
-TEXT: 1/4 Hatch Distance while in a party
+TEXT: Distanza per la schiusa ridotta del 75% quando sei in gruppo
 
 RESOURCE ID: irisisocial_tutorial_body_eight
 TEXT: You can use stickers to decorate the pictures you take. Have fun and share your photos with others. You never know what you’ll find!
@@ -312,19 +321,19 @@ RESOURCE ID: item_evergreen_ticket_details_lny2024
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo “Capodanno lunare: Draghi scatenati” fino alle 20:00 dell’11 febbraio 2024 ora locale, ovunque ti trovi.
 
 RESOURCE ID: lure_duration_double_party
-TEXT: 2× Lure Module duration while in a party
+TEXT: Durata del modulo esca raddoppiata quando sei in gruppo
 
 RESOURCE ID: lure_duration_three_hours_party
-TEXT: 3-hour Lure Module duration while in a party
+TEXT: I moduli esca durano 3 ore quando sei in gruppo
 
 RESOURCE ID: m_avatar_poses_bundle_pose_62
 TEXT: Stile Hala
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-05T00:06:17.843038+00:00 for it-IT
-at SHA bd50dea72e
-Pipeline 2234142, job 27079179
-Patch from: 0.307.1-SHA-728a3ebb-RC1, 0.309.0-SHA-14c1a086-RC1
+TEXT: Built at 2024-04-10T00:28:47.661130+00:00 for it-IT
+at SHA 91f9e11e95
+Pipeline 2245280, job 27207752
+Patch from: 0.309.0-SHA-04f6859a-RC2, 0.307.1-SHA-728a3ebb-RC1
 
 RESOURCE ID: n__glasses_drpikachu_0_display_name
 TEXT: Occhiali Pikachu Scienziata
@@ -2103,10 +2112,11 @@ RESOURCE ID: photobomb_five_bagon
 TEXT: Cinque incontri a sorpresa con Bagon in modalità foto GO
 
 RESOURCE ID: poi_sub_faq_web_link
-TEXT: https://niantic.helpshift.com/a/wayfarer/?s=wayspot-criteria
+TEXT: https://niantic.helpshift.com/hc/it/21-wayfarer/section/166-wayspot-criteria/?s=wayspot-criteria
+
 
 RESOURCE ID: pokestop_spin_xp_double_party
-TEXT: 2× XP for spinning PokéStops while in a party
+TEXT: Doppio dei PE facendo girare i dischi dei Pokéstop quando sei in gruppo
 
 RESOURCE ID: quest_bagon_catch_b
 TEXT: Cattura {0} Bagon
@@ -2387,6 +2397,9 @@ TEXT: INCONTRI IN AR
 RESOURCE ID: settings_encounter_ar_tip
 TEXT: Niantic AR per gli incontri con i Pokémon
 
+RESOURCE ID: share_caps
+TEXT: CONDIVIDI
+
 RESOURCE ID: size_xxs_xxl_increase
 TEXT: Maggiori probabilità di trovare Pokémon XXS e XXL
 
@@ -2589,17 +2602,23 @@ TEXT: I biglietti per la ricerca speciale del Community Day Classico dedicato a 
 RESOURCE ID: ticket_rogue_jungle
 TEXT: I biglietti per la ricerca speciale “Minaccia nella giungla” sono disponibili nel negozio
 
+RESOURCE ID: title_hatch_day_azurill
+TEXT: Giornata della schiusa dedicata a Azurill
+
+RESOURCE ID: title_hatch_day_riolu
+TEXT: Giornata della schiusa dedicata a Riolu
+
 RESOURCE ID: trade_stardust_half_party
-TEXT: 1/2 Stardust cost for trades while in a party
+TEXT: Gli scambi costano il 50% di polvere di stelle in meno quando sei in gruppo
 
 RESOURCE ID: trade_stardust_quarter_party
-TEXT: 1/4 Stardust cost for trades while in a party
+TEXT: Gli scambi costano il 75% di polvere di stelle in meno quando sei in gruppo
 
 RESOURCE ID: transfer_candy_double_party
-TEXT: 2× Transfer Candy while in a party
+TEXT: Doppio delle caramelle da trasferimento quando sei in gruppo
 
 RESOURCE ID: transfer_candy_triple_party
-TEXT: 3× Transfer Candy while in a party
+TEXT: Triplo delle caramelle da trasferimento quando sei in gruppo
 
 RESOURCE ID: verdant_wonders_event_collection_challenge
 TEXT: Sfida di collezione dell’evento “Meraviglie rigogliose”
@@ -2635,8 +2654,8 @@ RESOURCE ID: vps_localization_start_button
 TEXT: I see it
 
 RESOURCE ID: xl_candy_chance_party
-TEXT: Increased Candy XL chance from catching Pokémon while in a party
+TEXT: Maggiori probabilità di ricevere caramelle L da cattura quando sei in gruppo
 
 RESOURCE ID: xp_bonus_route_completion_party
-TEXT: Increased XP for completing Routes while in a party
+TEXT: Maggior numero di PE completando dei percorsi quando sei in gruppo
 
