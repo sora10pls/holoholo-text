@@ -10,6 +10,63 @@ TEXT: Bacomania: sfida di collezione 3
 RESOURCE ID: april2024_bug_out_collection_challenge_4
 TEXT: Bacomania: sfida di collezione 4
 
+RESOURCE ID: ar_iris_tutorial_decorate_description
+TEXT: Puoi usare gli adesivi per decorare le foto che scatti. Divertiti e condividi le tue creazioni: potrebbero esserci delle sorprese ad attenderti!
+
+RESOURCE ID: ar_iris_tutorial_decorate_title
+TEXT: Decora e condividi le tue foto!
+
+RESOURCE ID: ar_iris_tutorial_flying_description
+TEXT: Alcuni Pokémon possono essere posizionati a distanza dal suolo. Trascina l’icona sopra la linea dell’orizzonte per posizionare un Pokémon in cielo!
+
+RESOURCE ID: ar_iris_tutorial_flying_title
+TEXT: Posizionare i Pokémon a mezz’aria
+
+RESOURCE ID: ar_iris_tutorial_groupphoto_desciption
+TEXT: Usa la modalità foto di gruppo per scattare foto dei tuoi Pokémon insieme. Gioca con loro e osserva le loro reazioni!
+
+RESOURCE ID: ar_iris_tutorial_groupphoto_title
+TEXT: Scatta una foto di gruppo
+
+RESOURCE ID: ar_iris_tutorial_intro_description
+TEXT: Puoi far uscire fino a tre Pokémon dalle loro Poké Ball per fare foto insieme. Utilizza la modalità foto di gruppo per immortalare lo scatto perfetto con i tuoi amici!
+
+RESOURCE ID: ar_iris_tutorial_intro_title
+TEXT: Scatta foto con i tuoi Pokémon quando e dove vuoi!
+
+RESOURCE ID: ar_iris_tutorial_placement_description
+TEXT: Puoi far uscire fino a tre Pokémon dalle loro Poké Ball e scattare delle foto insieme a loro. Con un po’ di fortuna, potrebbe succedere qualcosa di inaspettato!
+
+RESOURCE ID: ar_iris_tutorial_position_description
+TEXT: Trova una superficie piatta e poi tocca le impronte oppure trascina il Pokémon dal menu per posizionarlo.
+
+RESOURCE ID: ar_iris_tutorial_position_title
+TEXT: Posiziona il tuo Pokémon
+
+RESOURCE ID: ar_iris_tutorial_reposition_description
+TEXT: Puoi far rientrare un Pokémon nella sua Poké Ball toccando l’apposito tasto, dopodiché puoi spostare il Pokémon in una nuova posizione.
+
+RESOURCE ID: ar_iris_tutorial_reposition_title
+TEXT: Riposiziona il Pokémon
+
+RESOURCE ID: ar_iris_tutorial_rotate_description
+TEXT: Tocca l’apposito tasto per iniziare a usare il giocattolo; puoi muoverlo qua e là per attirare l’attenzione del Pokémon.
+
+RESOURCE ID: ar_iris_tutorial_rotate_title
+TEXT: Fai girare il Pokémon
+
+RESOURCE ID: ar_landscape_error
+TEXT: I Pokémon possono essere posizionati sul suolo solo in modalità panoramica.
+
+RESOURCE ID: ar_landscape_placement_error
+TEXT: I Pokémon non si possono posizionare a mezz’aria in modalità panoramica.
+
+RESOURCE ID: ar_settings_heading
+TEXT: AR
+
+RESOURCE ID: ar_tap_to_place
+TEXT: Tocca per posizionare un Pokémon
+
 RESOURCE ID: avatar_f_backpack_combeebackpack_00_bundle_icon
 TEXT: Borsa Combee maschio
 
@@ -254,7 +311,7 @@ RESOURCE ID: avatar_m_shoes_winterboots2023_00_bundle_icon
 TEXT: Stivali delle feste
 
 RESOURCE ID: avatar_shop_description
-TEXT: Check out these items!
+TEXT: Dai un’occhiata a questi oggetti!
 
 RESOURCE ID: avatar_shop_description_new
 TEXT: Disponibili nuovi look!
@@ -282,6 +339,9 @@ TEXT: La modalità AR con il tuo compagno non è supportata su questo dispositiv
 
 RESOURCE ID: buddy_phone_not_ar_capable_title
 TEXT: Dispositivo non supportato
+
+RESOURCE ID: camera_settings_heading
+TEXT: FOTOCAMERA
 
 RESOURCE ID: catch_candy_double_party
 TEXT: Doppio delle caramelle da cattura quando sei in gruppo
@@ -319,8 +379,14 @@ TEXT: {0} ha lasciato cadere {2} {1}!
 RESOURCE ID: encounter_caught_pokemon_held_item_singular
 TEXT: {0} ha lasciato cadere 1 {1}!
 
+RESOURCE ID: error_consuming_stickers
+TEXT: Si è verificato un errore durante il salvataggio. Gli adesivi sono tornati nella tua Borsa.
+
 RESOURCE ID: error_disabled_fused_pokemon
 TEXT: Questo Pokémon è stato fuso con un altro Pokémon.
+
+RESOURCE ID: error_not_enough_stickers
+TEXT: Non ci sono abbastanza adesivi nella Borsa.
 
 RESOURCE ID: event_datetime_range_key_bagoncdc
 TEXT: 7 aprile dalle 14:00 alle 17:00.
@@ -395,13 +461,13 @@ RESOURCE ID: fusion_description
 TEXT: Questo Pokémon può fondersi con {0} per diventare {1}, o con {2} per diventare {3}.
 
 RESOURCE ID: fusion_description_calyrex
-TEXT: This Pokémon can fuse with Glastrier to become Ice Rider Calyrex, or Spectrier to become Shadow Rider Calyrex.
+TEXT: This Pokémon can unite with Glastrier to become Ice Rider Calyrex or Spectrier to become Shadow Rider Calyrex.
 
 RESOURCE ID: fusion_description_kyurem
-TEXT: This Pokémon can fuse with Reshiram to become White Kyurem, or Zekrom to become Black Kyurem.
+TEXT: This Pokémon can fuse with Reshiram to become White Kyurem or Zekrom to become Black Kyurem.
 
 RESOURCE ID: fusion_description_necrozma
-TEXT: This Pokémon can fuse with Solgaleo to become Duskmane Necrozma, or Lunala to become Dawnwing Necrozma.
+TEXT: This Pokémon can fuse with Solgaleo to become Dusk Mane Necrozma or Lunala to become Dawn Wings Necrozma.
 
 RESOURCE ID: fusion_feature_name
 TEXT: Fusione
@@ -443,22 +509,22 @@ RESOURCE ID: fusion_unfuse_description
 TEXT: Separando questo {0} otterrai {1} e {2}.
 
 RESOURCE ID: fusion_unfuse_description_calyrex_icerider
-TEXT: This Calyrex will unfuse into Glastrier and Calyrex.
+TEXT: Ice Rider Calyrex will separate into Glastrier and Calyrex.
 
 RESOURCE ID: fusion_unfuse_description_calyrex_shadowrider
-TEXT: This Calyrex will unfuse into Spectrier and Calyrex.
+TEXT: Shadow Rider Calyrex will separate into Spectrier and Calyrex.
 
 RESOURCE ID: fusion_unfuse_description_kyurem_black
-TEXT: This Kyurem will unfuse into Zekrom and Kyurem.
+TEXT: Black Kyurem will separate into Zekrom and Kyurem.
 
 RESOURCE ID: fusion_unfuse_description_kyurem_white
-TEXT: This Kyurem will unfuse into Reshiram and Kyurem.
+TEXT: White Kyurem will separate into Reshiram and Kyurem.
 
 RESOURCE ID: fusion_unfuse_description_necrozma_dawnwings
-TEXT: This Necrozma will unfuse into Necrozma and Lunala.
+TEXT: Dawn Wings Necrozma will separate into Necrozma and Lunala.
 
 RESOURCE ID: fusion_unfuse_description_necrozma_duskmane
-TEXT: This Necrozma will unfuse into Necrozma and Solgaleo.
+TEXT: Dusk Mane Necrozma will separate into Necrozma and Solgaleo.
 
 RESOURCE ID: fusion_unfuse_error_toast
 TEXT: Impossibile separare i Pokémon. Riprova.
@@ -501,6 +567,12 @@ TEXT: Distanza per la schiusa ridotta della metà quando sei in gruppo
 
 RESOURCE ID: incubator_distance_quarter_party
 TEXT: Distanza per la schiusa ridotta del 75% quando sei in gruppo
+
+RESOURCE ID: iris_flair_free_description
+TEXT: Dai un tocco di brio ai tuoi momenti preferiti con qualche decorazione! Questi nuovi strumenti servono solamente per adornare le tue foto.
+
+RESOURCE ID: iris_flair_free_title
+TEXT: Aggiungi qualche decorazione
 
 RESOURCE ID: irisisocial_tutorial_body_eight
 TEXT: You can use stickers to decorate the pictures you take. Have fun and share your photos with others. You never know what you’ll find!
@@ -615,11 +687,17 @@ calda
 RESOURCE ID: m_avatar_poses_bundle_pose_62
 TEXT: Stile Hala
 
+RESOURCE ID: meshing_option_description
+TEXT: Consente di posizionare i Pokémon in modalità AR in ambienti più complessi. 
+
+RESOURCE ID: meshing_option_title
+TEXT: Meshing
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-10T21:00:35.108415+00:00 for it-IT
-at SHA cc24cc9df2
-Pipeline 2247343, job 27235285
-Patch from: 0.309.0-SHA-67463ddf-RC3, 0.307.1-SHA-728a3ebb-RC1
+TEXT: Built at 2024-04-16T18:04:21.471330+00:00 for it-IT
+at SHA f2b447b808
+Pipeline 2260338, job 27387012
+Patch from: 0.309.0-SHA-f6bcbc01-RC4, 0.307.1-SHA-728a3ebb-RC1, 0.311.0-SHA-fd704a60-RC1
 
 RESOURCE ID: n__glasses_drpikachu_0_display_name
 TEXT: Occhiali Pikachu Scienziata
@@ -790,10 +868,10 @@ RESOURCE ID: n_gloves_default-new_0_display_name
 TEXT: Guanti Allenatore
 
 RESOURCE ID: n_gloves_default_a_0_display_name
-TEXT: Guanti senza dita (gialli)
+TEXT: Guanti senza dita
 
 RESOURCE ID: n_gloves_default_b_0_display_name
-TEXT: Guanti senza dita (grigi)
+TEXT: Guanti senza dita
 
 RESOURCE ID: n_gloves_frlg_a_0_display_name
 TEXT: Polsini Verde Foglia
@@ -853,10 +931,10 @@ RESOURCE ID: n_gloves_teamrocket_0_display_name
 TEXT: Guanti Team Rocket
 
 RESOURCE ID: n_gloves_teamspark_a_0_display_name
-TEXT: Guanti stile Spark (classici)
+TEXT: Guanti stile Spark (eleganti)
 
 RESOURCE ID: n_gloves_teamspark_b_0_display_name
-TEXT: Guanti stile Spark (eleganti)
+TEXT: Guanti stile Spark (classici)
 
 RESOURCE ID: n_gloves_unequip_0_display_name
 TEXT: Senza guanti
@@ -1276,10 +1354,10 @@ RESOURCE ID: n_pants_lysandre_0_display_name
 TEXT: Pantaloni stile Elisio
 
 RESOURCE ID: n_pants_mewtwo_a_0_display_name
-TEXT: Pantaloni Mewtwo (aderenti)
+TEXT: Pantaloni Mewtwo (comodi)
 
 RESOURCE ID: n_pants_mewtwo_b_0_display_name
-TEXT: Pantaloni Mewtwo (comodi)
+TEXT: Pantaloni Mewtwo (aderenti)
 
 RESOURCE ID: n_pants_miniskirt-wave_2_display_name
 TEXT: Minigonna onde
@@ -1330,7 +1408,7 @@ RESOURCE ID: n_pants_skinnyjeans_a_0_display_name
 TEXT: Jeans aderenti (blu)
 
 RESOURCE ID: n_pants_skinnyjeans_b_0_display_name
-TEXT: Jeans aderenti (neri)
+TEXT: Jeans aderenti
 
 RESOURCE ID: n_pants_steven_0_display_name
 TEXT: Pantaloni stile Rocco
@@ -1390,10 +1468,10 @@ RESOURCE ID: n_pants_teamrocket_b_0_display_name
 TEXT: Pantaloni Team Rocket
 
 RESOURCE ID: n_pants_teamskull_a_0_display_name
-TEXT: Pantaloncini Team Skull (lunghi)
+TEXT: Pantaloncini Team Skull (corti)
 
 RESOURCE ID: n_pants_teamskull_b_0_display_name
-TEXT: Pantaloncini Team Skull (corti)
+TEXT: Pantaloncini Team Skull (lunghi)
 
 RESOURCE ID: n_pants_teamspark_a_0_display_name
 TEXT: Pantaloni stile Spark (aderenti)
@@ -1963,7 +2041,7 @@ RESOURCE ID: n_shirt_svdlc2spring_0_display_name
 TEXT: Uniforme primaverile di Paldea (Istituto Mirtillo)
 
 RESOURCE ID: n_shirt_sweater-30_2_display_name
-TEXT: Maglia 30 (nera)
+TEXT: Maglia 30
 
 RESOURCE ID: n_shirt_sweatshirt-streak_0_display_name
 TEXT: Felpa fucsia
@@ -2005,10 +2083,10 @@ RESOURCE ID: n_shirt_tcgcollabtshirtandcap_0_display_name
 TEXT: T-shirt Pikachu del GCC Pokémon
 
 RESOURCE ID: n_shirt_teamaqua_a_0_display_name
-TEXT: Maglia Team Idro (maniche corte)
+TEXT: Maglia Team Idro (smanicata)
 
 RESOURCE ID: n_shirt_teamaqua_b_0_display_name
-TEXT: Maglia Team Idro (smanicata)
+TEXT: Maglia Team Idro (maniche corte)
 
 RESOURCE ID: n_shirt_teamblanche_a_0_display_name
 TEXT: Cappotto stile Blanche (aderente)
@@ -2065,7 +2143,7 @@ RESOURCE ID: n_shirt_tshirt-global-goals-2017_0_display_name
 TEXT: T-shirt Obiettivi Globali 2017
 
 RESOURCE ID: n_shirt_turtleneck-30_0_display_name
-TEXT: Maglia 30 (turchese)
+TEXT: Maglia 30
 
 RESOURCE ID: n_shirt_turtwigonesie_0_display_name
 TEXT: Costume Turtwig
@@ -2089,7 +2167,7 @@ RESOURCE ID: n_shirt_veterantrainerxy_b_0_display_name
 TEXT: Giacca Veterano (corta)
 
 RESOURCE ID: n_shirt_wcs2022_0_display_name
-TEXT: T-shirt Mondiali 2023
+TEXT: T-shirt Mondiali 2022
 
 RESOURCE ID: n_shirt_wcs2022tshirtbulu_0_display_name
 TEXT: T-shirt Mondiali 2022
@@ -2164,10 +2242,10 @@ RESOURCE ID: n_shoes_default-new_0_display_name
 TEXT: Sneakers Allenatore
 
 RESOURCE ID: n_shoes_default_a_0_display_name
-TEXT: Scarpe sportive (gialle)
+TEXT: Scarpe sportive
 
 RESOURCE ID: n_shoes_default_b_0_display_name
-TEXT: Scarpe sportive (rosse)
+TEXT: Scarpe sportive
 
 RESOURCE ID: n_shoes_delibird_0_display_name
 TEXT: Stivali Delibird
@@ -2218,10 +2296,10 @@ RESOURCE ID: n_shoes_hala_0_display_name
 TEXT: Infradito stile Hala
 
 RESOURCE ID: n_shoes_hgss_a_0_display_name
-TEXT: Scarpe Johto (grigie)
+TEXT: Scarpe Johto (rosse)
 
 RESOURCE ID: n_shoes_hgss_b_0_display_name
-TEXT: Scarpe Johto (rosse)
+TEXT: Scarpe Johto (grigie)
 
 RESOURCE ID: n_shoes_ingo_0_display_name
 TEXT: Scarpe stile Andy (Hisui)
@@ -2284,10 +2362,10 @@ RESOURCE ID: n_shoes_ruinmaniac_b_0_display_name
 TEXT: Scarpe Scoprirovine (marroni)
 
 RESOURCE ID: n_shoes_ss_a_0_display_name
-TEXT: Scarpe Galar (basse)
+TEXT: Scarpe Galar (alte)
 
 RESOURCE ID: n_shoes_ss_b_0_display_name
-TEXT: Scarpe Galar (alte)
+TEXT: Scarpe Galar (basse)
 
 RESOURCE ID: n_shoes_steven_0_display_name
 TEXT: Scarpe stile Rocco (Rubino/Zaffiro)
@@ -2356,10 +2434,10 @@ RESOURCE ID: n_shoes_teamspark_b_0_display_name
 TEXT: Scarpe stile Spark (classiche)
 
 RESOURCE ID: n_shoes_ultra_a_0_display_name
-TEXT: Scarpe Ultra (verdi)
+TEXT: Scarpe Ultra
 
 RESOURCE ID: n_shoes_ultra_b_0_display_name
-TEXT: Scarpe Ultra (rosse)
+TEXT: Scarpe Ultra
 
 RESOURCE ID: n_shoes_ultrareconsquad_0_display_name
 TEXT: Scarpe stile Rhi
@@ -2424,8 +2502,200 @@ TEXT: Necrozma Criniera del Vespro
 RESOURCE ID: neutral_avatar_exit_style_shop_description
 TEXT: Puoi uscire dal negozio solo indossando oggetti che possiedi.
 
+RESOURCE ID: neutral_avatar_hat_blocked
+TEXT: L’acconciatura scelta non è compatibile con questo oggetto.
+
+RESOURCE ID: occlusions_option_description
+TEXT: Consente ai Pokémon in modalità AR di adattarsi più facilmente all’ambiente circostante e muoversi dietro gli oggetti.
+
+RESOURCE ID: occlusions_option_title
+TEXT: Realtà integrata
+
 RESOURCE ID: party_play_error_already_awarded
 TEXT: Hai già ricevuto questa ricompensa.
+
+RESOURCE ID: photo_burst_option_description
+TEXT: Scatta delle foto in sequenza ogni volta che tocchi il pulsante di scatto.
+
+RESOURCE ID: photo_burst_option_title
+TEXT: Sequenza rapida
+
+RESOURCE ID: photo_countdown_option_10s
+TEXT: 10 secondi
+
+RESOURCE ID: photo_countdown_option_5s
+TEXT: 5 secondi
+
+RESOURCE ID: photo_countdown_option_description
+TEXT: Imposta un timer prima che la foto venga scattata automaticamente.
+
+RESOURCE ID: photo_countdown_option_off
+TEXT: Disattivato
+
+RESOURCE ID: photo_countdown_option_title
+TEXT: Timer
+
+RESOURCE ID: photo_hub_featured_groups
+TEXT: gruppi in primo piano
+
+RESOURCE ID: photo_hub_hashtags
+TEXT: Usa gli hashtag #GOSnapshot #PokemonGO
+
+RESOURCE ID: photo_hub_popular_groups
+TEXT: gruppi gettonati
+
+RESOURCE ID: photo_hub_recently_caught
+TEXT: Pokémon catturati di recente
+
+RESOURCE ID: photo_hub_select_pokemon
+TEXT: seleziona i Pokémon
+
+RESOURCE ID: photo_hub_share_nudge
+TEXT: Condividi le tue foto GO!
+
+RESOURCE ID: photo_hub_suggestions
+TEXT: suggerimenti
+
+RESOURCE ID: photo_hub_take_photo
+TEXT: scatta la foto
+
+RESOURCE ID: photo_set_alola
+TEXT: Alola
+
+RESOURCE ID: photo_set_babies
+TEXT: Dolcissimi bebè
+
+RESOURCE ID: photo_set_battle_pokemon
+TEXT: Maestri marziali
+
+RESOURCE ID: photo_set_beach
+TEXT: Litorale sabbioso
+
+RESOURCE ID: photo_set_city
+TEXT: Ritmo cittadino
+
+RESOURCE ID: photo_set_clawed_cuties
+TEXT: Coccole e graffi
+
+RESOURCE ID: photo_set_cute_pokemon_pink
+TEXT: Amici in rosa
+
+RESOURCE ID: photo_set_fall_vibes
+TEXT: Atmosfera autunnale
+
+RESOURCE ID: photo_set_fancy
+TEXT: Maestri di stile
+
+RESOURCE ID: photo_set_feathered_friends
+TEXT: Eleganti e piumati 2
+
+RESOURCE ID: photo_set_feathered_friends_small
+TEXT: Eleganti e piumati 1
+
+RESOURCE ID: photo_set_fossil
+TEXT: Fossili antichi
+
+RESOURCE ID: photo_set_furry_friends
+TEXT: Amici pelosi 1
+
+RESOURCE ID: photo_set_furry_friends_big
+TEXT: Amici pelosi 2
+
+RESOURCE ID: photo_set_garden
+TEXT: Giardino rilassante
+
+RESOURCE ID: photo_set_graceful_flyers
+TEXT: Leggiadri e volanti
+
+RESOURCE ID: photo_set_hisui
+TEXT: Hisui
+
+RESOURCE ID: photo_set_hoenn
+TEXT: Hoenn
+
+RESOURCE ID: photo_set_johto
+TEXT: Johto
+
+RESOURCE ID: photo_set_kalos
+TEXT: Kalos
+
+RESOURCE ID: photo_set_kanto
+TEXT: Kanto
+
+RESOURCE ID: photo_set_little_chonkers
+TEXT: Paffutelli
+
+RESOURCE ID: photo_set_lovely
+TEXT: Semplicemente adorabili
+
+RESOURCE ID: photo_set_mountain
+TEXT: Valico montano
+
+RESOURCE ID: photo_set_museum_fossils
+TEXT: Fossili da museo
+
+RESOURCE ID: photo_set_night
+TEXT: Ombre nella notte
+
+RESOURCE ID: photo_set_paldea
+TEXT: Paldea
+
+RESOURCE ID: photo_set_playful_pals_big
+TEXT: Amici giocherelloni 2
+
+RESOURCE ID: photo_set_playful_pals_small
+TEXT: Amici giocherelloni 1
+
+RESOURCE ID: photo_set_safari
+TEXT: Percorso safari
+
+RESOURCE ID: photo_set_sinnoh
+TEXT: Sinnoh
+
+RESOURCE ID: photo_set_small_and_cute
+TEXT: Piccoli e carini
+
+RESOURCE ID: photo_set_small_cute_pokemon
+TEXT: Quadretto perfetto
+
+RESOURCE ID: photo_set_small_cute_pokemon_pikachu_and_eevee
+TEXT: Let’s GO
+
+RESOURCE ID: photo_set_small_cute_pokemon_pink
+TEXT: Amici in rosa
+
+RESOURCE ID: photo_set_small_flower_pokemon
+TEXT: Germogli rigogliosi
+
+RESOURCE ID: photo_set_small_flower_pokemon_medium
+TEXT: Splendide infiorescenze
+
+RESOURCE ID: photo_set_small_flower_pokemon_seeds
+TEXT: Piccoli virgulti
+
+RESOURCE ID: photo_set_small_water_pokemon
+TEXT: Schizzi e spruzzi
+
+RESOURCE ID: photo_set_spring_vibes
+TEXT: Atmosfera primaverile
+
+RESOURCE ID: photo_set_starters
+TEXT: Primi compagni d’avventura
+
+RESOURCE ID: photo_set_summer_vibes
+TEXT: Atmosfera estiva
+
+RESOURCE ID: photo_set_tiny_tikes
+TEXT: Piccoletti
+
+RESOURCE ID: photo_set_unova
+TEXT: Unima
+
+RESOURCE ID: photo_set_wings_pokemon
+TEXT: Insetti graziosi
+
+RESOURCE ID: photo_set_winter_vibes
+TEXT: Atmosfera invernale
 
 RESOURCE ID: photobomb_five_bagon
 TEXT: Cinque incontri a sorpresa con Bagon in modalità foto GO
@@ -2722,6 +2992,21 @@ TEXT: Vuoi davvero abbandonare il tuo gruppo?
 RESOURCE ID: rogue_jungle_event_name
 TEXT: Minaccia nella giungla
 
+RESOURCE ID: route_appealed_deletion_confirm_description
+TEXT: This action cannot be undone. If you proceed, this Route will be completely lost and unrecoverable, and the appeal you submitted will not be reviewed.
+
+RESOURCE ID: route_archived_info_modal_description
+TEXT: If there is an abundance of Routes in a given area, only the top {0} Routes in the area are highlighted to Trainers nearby. Which Routes are highlighted nearby changes day to day and may be impacted by these factors:
+• ratings
+• popularity
+• age
+
+RESOURCE ID: route_archived_info_modal_title
+TEXT: Visibility of Nearby Routes
+
+RESOURCE ID: route_archived_notice
+TEXT: This Route is not currently highlighted to nearby Trainers.
+
 RESOURCE ID: route_change_rating_button
 TEXT: CAMBIA LA VALUTAZIONE
 
@@ -2755,6 +3040,12 @@ TEXT: Perlopiù collinare
 RESOURCE ID: route_end_points_closed_error
 TEXT: Non puoi seguire questo percorso al momento perché il punto di partenza o il punto di arrivo è chiuso.
 
+RESOURCE ID: route_favorite_error_max
+TEXT: You already have the maximum number of favorite Routes.
+
+RESOURCE ID: route_favorite_error_rate_limited
+TEXT: Unable to favorite this Route. Please try again later.
+
 RESOURCE ID: route_last_trip_label
 TEXT: ULTIMA ESCURSIONE
 
@@ -2763,6 +3054,21 @@ TEXT: Nessuna valutazione
 
 RESOURCE ID: route_not_public_error
 TEXT: Non puoi seguire questo percorso perché non è più pubblico.
+
+RESOURCE ID: route_pin_error_not_enough_stickers
+TEXT: Choose a different sticker.
+
+RESOURCE ID: route_pin_error_pin_not_found
+TEXT: Please try again later.
+
+RESOURCE ID: route_pin_error_sticker_limit
+TEXT: You’ve already added a sticker on this message today.
+
+RESOURCE ID: route_pin_error_sticker_not_found
+TEXT: Choose a different sticker.
+
+RESOURCE ID: route_pin_interaction_error_unknown
+TEXT: Unable to complete the requested action. Please try again.
 
 RESOURCE ID: route_player_rating_label
 TEXT: VALUTAZIONE
@@ -2791,6 +3097,9 @@ TEXT: TOTALE ESCURSIONI
 RESOURCE ID: route_your_activity
 TEXT: La tua attività
 
+RESOURCE ID: select_a_pokemon
+TEXT: Seleziona un Pokémon
+
 RESOURCE ID: settings_buddy_ar
 TEXT: Compagno in AR
 
@@ -2805,6 +3114,9 @@ TEXT: INCONTRI IN AR
 
 RESOURCE ID: settings_encounter_ar_tip
 TEXT: Niantic AR per gli incontri con i Pokémon
+
+RESOURCE ID: settings_title
+TEXT: FOTO GO
 
 RESOURCE ID: share_caps
 TEXT: CONDIVIDI
@@ -2841,6 +3153,39 @@ TEXT: Più Bellsprout stanno apparendo allo stato selvatico!
 
 RESOURCE ID: special_research_zarude
 TEXT: Completa la ricerca speciale “Minaccia nella giungla” per incontrare Zarude
+
+RESOURCE ID: sticker_photo_dontsave
+TEXT: NON SALVARE
+
+RESOURCE ID: sticker_photo_save
+TEXT: SALVA
+
+RESOURCE ID: sticker_photo_save_description
+TEXT: La tua foto decorata verrà salvata come immagine. Gli adesivi applicati verranno consumati.
+
+RESOURCE ID: sticker_photo_save_header
+TEXT: Vuoi salvare i cambiamenti?
+
+RESOURCE ID: stickers_tutorial_adjust_body
+TEXT: Per posizionare un adesivo, selezionalo e poi tocca il punto della foto in cui vuoi posizionarlo. Stringilo con le dita per cambiarne le dimensioni. Tocca la X per rimuoverlo.
+
+RESOURCE ID: stickers_tutorial_adjust_title
+TEXT: Cambia la posizione degli adesivi come preferisci
+
+RESOURCE ID: stickers_tutorial_intro_body
+TEXT: Puoi usare gli adesivi per decorare le foto che scatti. Nella parte bassa dello schermo, scorri il pannello degli adesivi verso l’alto per selezionare gli adesivi.
+
+RESOURCE ID: stickers_tutorial_intro_title
+TEXT: Decora le tue foto!
+
+RESOURCE ID: stickers_tutorial_save_body
+TEXT: Gli adesivi posizionati sulle foto verranno consumati una volta salvata la foto. Per farli tornare nella tua Borsa, tocca “non salvare” quando ti viene chiesto.
+
+RESOURCE ID: stickers_tutorial_save_title
+TEXT: Salva e condividi le tue foto!
+
+RESOURCE ID: stickers_v2_deco_category
+TEXT: Decorazioni
 
 RESOURCE ID: story_rockethq14_0_0
 TEXT: Ciao, %PLAYERNAME%, cattive notizie.

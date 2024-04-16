@@ -10,6 +10,63 @@ TEXT: Коллекционное испытание Насекомомания 
 RESOURCE ID: april2024_bug_out_collection_challenge_4
 TEXT: Коллекционное испытание Насекомомания 4
 
+RESOURCE ID: ar_iris_tutorial_decorate_description
+TEXT: Ты можешь добавлять наклейки, чтобы украсить сделанные фото. Создавай креативные фото и делись ими.
+
+RESOURCE ID: ar_iris_tutorial_decorate_title
+TEXT: Украшай фото и делись ими!
+
+RESOURCE ID: ar_iris_tutorial_flying_description
+TEXT: Некоторых Покемонов можно разместить над землёй. Чтобы разместить Покемона в небе, перетащи иконку размещения выше линии горизонта!
+
+RESOURCE ID: ar_iris_tutorial_flying_title
+TEXT: Размещение Покемона в воздухе
+
+RESOURCE ID: ar_iris_tutorial_groupphoto_desciption
+TEXT: Используй режим группового фото, чтобы сфотографировать своих Покемонов всех вместе. Поиграй с ними, чтобы посмотреть на их реакцию!
+
+RESOURCE ID: ar_iris_tutorial_groupphoto_title
+TEXT: Делай групповые фото
+
+RESOURCE ID: ar_iris_tutorial_intro_description
+TEXT: Ты можешь выпустить до трёх Покемонов из Поке-Боллов и сфотографироваться с ними. Используй режим группового фото, чтобы сфотографировать своих Покемонов!
+
+RESOURCE ID: ar_iris_tutorial_intro_title
+TEXT: Фотографируйся со своими Покемонами где и когда захочешь!
+
+RESOURCE ID: ar_iris_tutorial_placement_description
+TEXT: Ты можешь выпустить до трёх Покемонов из Поке-Боллов. Фотографируйся с ними, и тебя может ждать сюрприз!
+
+RESOURCE ID: ar_iris_tutorial_position_description
+TEXT: Найди ровную поверхность и либо нажми на следы, либо перетащи Покемона из меню, чтобы поместить его в выбранное место.
+
+RESOURCE ID: ar_iris_tutorial_position_title
+TEXT: Размести своего Покемона
+
+RESOURCE ID: ar_iris_tutorial_reposition_description
+TEXT: Ты можешь вернуть Покемона в Поке-Болл, нажав на кнопку возврата. Затем ты можешь расположить Покемона в новом месте.
+
+RESOURCE ID: ar_iris_tutorial_reposition_title
+TEXT: Передвигай Покемонов
+
+RESOURCE ID: ar_iris_tutorial_rotate_description
+TEXT: Нажми на кнопку поворота, чтобы использовать игрушку. Подвигай игрушкой, чтобы привлечь внимание твоего Покемона.
+
+RESOURCE ID: ar_iris_tutorial_rotate_title
+TEXT: Поворачивай Покемонов
+
+RESOURCE ID: ar_landscape_error
+TEXT: Покемонов можно разместить на земле только при использовании горизонтального режима.
+
+RESOURCE ID: ar_landscape_placement_error
+TEXT: Покемоны не могут быть размещены в воздухе при использовании горизонтального режима.
+
+RESOURCE ID: ar_settings_heading
+TEXT: AR
+
+RESOURCE ID: ar_tap_to_place
+TEXT: Перетащи Покемона или коснись его, чтобы разместить
+
 RESOURCE ID: ardk_download_confirm_body
 TEXT: Чтобы воспользоваться функцией AR-режима для приятеля, загрузи AR-платформу Niantic. (Ты можешь отключить эту пробную версию в любое время.)
 
@@ -98,13 +155,16 @@ RESOURCE ID: avatar_m_shirt_gofest2024purple_00_bundle_icon
 TEXT: Футболка Фестиваль GO 2024
 
 RESOURCE ID: avatar_shop_description
-TEXT: Check out these items!
+TEXT: Посмотри эти предметы!
 
 RESOURCE ID: avatar_shop_description_new
 TEXT: Новинки!
 
 RESOURCE ID: badge_pokedex_entries_gen8a_singular
 TEXT: Зарегистрируй в Покедексе {0} Покемона, впервые обнаруженного в регионе Гисуи.
+
+RESOURCE ID: beluga_transfer_privacy_warning
+TEXT: Когда ты подключаешь Pokémon GO к играм Pokémon: Let's Go, Pikachu! или Pokémon: Let's Go, Eevee!, во время отправки Покемонов определённые ограниченные данные будут передаваться компании Nintendo. Дополнительную информацию смотри в статье раздела Помощь. Передаваемые компании данные регулируются политикой конфиденциальности Nintendo.
 
 RESOURCE ID: bonus_cd_move_bagon
 TEXT: Эволюционируй Шелгона, чтобы получить Саламенса, который знает заряженную атаку Гнев
@@ -126,6 +186,12 @@ TEXT: Функция AR-режима для приятеля в данный м�
 
 RESOURCE ID: buddy_phone_not_ar_capable_title
 TEXT: Неподдерживаемое устройство
+
+RESOURCE ID: bug_out_event_name
+TEXT: Насекомомания
+
+RESOURCE ID: camera_settings_heading
+TEXT: КАМЕРА
 
 RESOURCE ID: catch_candy_double_party
 TEXT: 2× конфет за поимку при игре в команде
@@ -163,8 +229,14 @@ TEXT: Самый большой
 RESOURCE ID: disabled_fused
 TEXT: Объединённые Покемоны не могут быть оставлены в Гимах.
 
+RESOURCE ID: error_consuming_stickers
+TEXT: Произошла ошибка при сохранении твоей работы. Наклейки были отправлены обратно в инвентарь.
+
 RESOURCE ID: error_disabled_fused_pokemon
 TEXT: Этот Покемон объединён с другим Покемоном.
+
+RESOURCE ID: error_not_enough_stickers
+TEXT: В инвентаре недостаточно наклеек.
 
 RESOURCE ID: event_datetime_range_key_bagoncdc
 TEXT: 7 апреля, 14:00 – 17:00
@@ -214,13 +286,13 @@ RESOURCE ID: fusion_description
 TEXT: Этого Покемона можно объединить с Покемоном {0}, чтобы получился {1} или с Покемоном {2}, чтобы получился {3}.
 
 RESOURCE ID: fusion_description_calyrex
-TEXT: This Pokémon can fuse with Glastrier to become Ice Rider Calyrex, or Spectrier to become Shadow Rider Calyrex.
+TEXT: This Pokémon can unite with Glastrier to become Ice Rider Calyrex or Spectrier to become Shadow Rider Calyrex.
 
 RESOURCE ID: fusion_description_kyurem
-TEXT: This Pokémon can fuse with Reshiram to become White Kyurem, or Zekrom to become Black Kyurem.
+TEXT: This Pokémon can fuse with Reshiram to become White Kyurem or Zekrom to become Black Kyurem.
 
 RESOURCE ID: fusion_description_necrozma
-TEXT: This Pokémon can fuse with Solgaleo to become Duskmane Necrozma, or Lunala to become Dawnwing Necrozma.
+TEXT: This Pokémon can fuse with Solgaleo to become Dusk Mane Necrozma or Lunala to become Dawn Wings Necrozma.
 
 RESOURCE ID: fusion_feature_name
 TEXT: Объединение
@@ -262,22 +334,22 @@ RESOURCE ID: fusion_unfuse_description
 TEXT: {0} будет разделён на Покемонов {1} и {2}.
 
 RESOURCE ID: fusion_unfuse_description_calyrex_icerider
-TEXT: This Calyrex will unfuse into Glastrier and Calyrex.
+TEXT: Ice Rider Calyrex will separate into Glastrier and Calyrex.
 
 RESOURCE ID: fusion_unfuse_description_calyrex_shadowrider
-TEXT: This Calyrex will unfuse into Spectrier and Calyrex.
+TEXT: Shadow Rider Calyrex will separate into Spectrier and Calyrex.
 
 RESOURCE ID: fusion_unfuse_description_kyurem_black
-TEXT: This Kyurem will unfuse into Zekrom and Kyurem.
+TEXT: Black Kyurem will separate into Zekrom and Kyurem.
 
 RESOURCE ID: fusion_unfuse_description_kyurem_white
-TEXT: This Kyurem will unfuse into Reshiram and Kyurem.
+TEXT: White Kyurem will separate into Reshiram and Kyurem.
 
 RESOURCE ID: fusion_unfuse_description_necrozma_dawnwings
-TEXT: This Necrozma will unfuse into Necrozma and Lunala.
+TEXT: Dawn Wings Necrozma will separate into Necrozma and Lunala.
 
 RESOURCE ID: fusion_unfuse_description_necrozma_duskmane
-TEXT: This Necrozma will unfuse into Necrozma and Solgaleo.
+TEXT: Dusk Mane Necrozma will separate into Necrozma and Solgaleo.
 
 RESOURCE ID: fusion_unfuse_error_toast
 TEXT: Не удалось разделить Покемонов. Попробуй ещё раз.
@@ -306,6 +378,9 @@ TEXT: 2× конфет за вынашивание яиц при игре в�
 RESOURCE ID: hatch_stardust_double_party
 TEXT: 2× звёздной пыли за вынашивание яиц при игре в команде
 
+RESOURCE ID: home_form_revert_warning
+TEXT: {0} появится как {1} в Pokémon HOME.
+
 RESOURCE ID: increased_remote_raid_limit
 TEXT: Увеличен лимит удалённых рейдов
 
@@ -317,6 +392,12 @@ TEXT: 1/4 расстояния для вынашивания при игре в
 
 RESOURCE ID: ios_health_read_helptext
 TEXT: Pokémon GO необходимо иметь данные о твоей активности, чтобы вынашивать яйца Покемонов, помогать твоим Покемонам находить конфеты и показывать пройденное расстояние.
+
+RESOURCE ID: iris_flair_free_description
+TEXT: Украшай свои снимки наклейками для фото! Используй эти эксклюзивные новые предметы, чтобы сделать фото ещё ярче.
+
+RESOURCE ID: iris_flair_free_title
+TEXT: Добавляй наклейки для фото
 
 RESOURCE ID: irisisocial_tutorial_body_eight
 TEXT: You can use stickers to decorate the pictures you take. Have fun and share your photos with others. You never know what you’ll find!
@@ -420,11 +501,17 @@ TEXT: 2× действие приманки при игре в команде
 RESOURCE ID: lure_duration_three_hours_party
 TEXT: 3-часовое действие приманки при игре в команде
 
+RESOURCE ID: meshing_option_description
+TEXT: Позволяет располагать Покемонов в AR-режиме в более сложных условиях.
+
+RESOURCE ID: meshing_option_title
+TEXT: Совмещённое наложение
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-10T21:00:35.108415+00:00 for ru-RU
-at SHA cc24cc9df2
-Pipeline 2247343, job 27235285
-Patch from: 0.309.0-SHA-67463ddf-RC3, 0.307.1-SHA-728a3ebb-RC1
+TEXT: Built at 2024-04-16T18:04:21.471330+00:00 for ru-RU
+at SHA f2b447b808
+Pipeline 2260338, job 27387012
+Patch from: 0.309.0-SHA-f6bcbc01-RC4, 0.307.1-SHA-728a3ebb-RC1, 0.311.0-SHA-fd704a60-RC1
 
 RESOURCE ID: n__glasses_drpikachu_0_display_name
 TEXT: Очки Пикачу-учёный
@@ -589,10 +676,10 @@ RESOURCE ID: n_gloves_bwn_0_display_name
 TEXT: Браслет в стиле Н
 
 RESOURCE ID: n_gloves_default_a_0_display_name
-TEXT: Перчатки без пальцев (жёлтые)
+TEXT: Перчатки без пальцев
 
 RESOURCE ID: n_gloves_default_b_0_display_name
-TEXT: Перчатки без пальцев (серые)
+TEXT: Перчатки без пальцев
 
 RESOURCE ID: n_gloves_geeta_0_display_name
 TEXT: Перчатки в стиле Гиты
@@ -649,10 +736,10 @@ RESOURCE ID: n_gloves_teamaqua_b_0_display_name
 TEXT: Перчатки Команды Аква (чёрные)
 
 RESOURCE ID: n_gloves_teamspark_a_0_display_name
-TEXT: Перчатки в стиле Спарка 2
+TEXT: Перчатки в стиле Спарка 1
 
 RESOURCE ID: n_gloves_teamspark_b_0_display_name
-TEXT: Перчатки в стиле Спарка 1
+TEXT: Перчатки в стиле Спарка 2
 
 RESOURCE ID: n_gloves_unequip_0_display_name
 TEXT: Без перчаток
@@ -1054,10 +1141,10 @@ RESOURCE ID: n_pants_lysandre_0_display_name
 TEXT: Штаны в стиле Лисандра
 
 RESOURCE ID: n_pants_mewtwo_a_0_display_name
-TEXT: Штаны Мьюту 2
+TEXT: Штаны Мьюту 1
 
 RESOURCE ID: n_pants_mewtwo_b_0_display_name
-TEXT: Штаны Мьюту 1
+TEXT: Штаны Мьюту 2
 
 RESOURCE ID: n_pants_miniskirt-wave_2_display_name
 TEXT: Юбка Волна
@@ -1096,7 +1183,7 @@ RESOURCE ID: n_pants_skinnyjeans_a_0_display_name
 TEXT: Узкие джинсы (тёмно-синие)
 
 RESOURCE ID: n_pants_skinnyjeans_b_0_display_name
-TEXT: Узкие джинсы (чёрные)
+TEXT: Узкие джинсы
 
 RESOURCE ID: n_pants_steven_0_display_name
 TEXT: Брюки в стиле Стивена
@@ -1153,10 +1240,10 @@ RESOURCE ID: n_pants_teammagma_b_0_display_name
 TEXT: Шорты Команды Магма 2
 
 RESOURCE ID: n_pants_teamskull_a_0_display_name
-TEXT: Шорты Команды Череп 2
+TEXT: Шорты Команды Череп 1
 
 RESOURCE ID: n_pants_teamskull_b_0_display_name
-TEXT: Шорты Команды Череп 1
+TEXT: Шорты Команды Череп 2
 
 RESOURCE ID: n_pants_teamspark_a_0_display_name
 TEXT: Брюки в стиле Спарка 1
@@ -1831,7 +1918,7 @@ RESOURCE ID: n_shirt_svdlc1_0_display_name
 TEXT: Пальдейский комплект (Китаками)
 
 RESOURCE ID: n_shirt_sweater-30_2_display_name
-TEXT: Водолазка 30 2
+TEXT: Водолазка 30 1
 
 RESOURCE ID: n_shirt_sweater-instinct_0_display_name
 TEXT: Водолазка Команды Инстинкт
@@ -1867,10 +1954,10 @@ RESOURCE ID: n_shirt_tcgcollabtshirtandcap_0_display_name
 TEXT: Футболка Пикачу ККИ
 
 RESOURCE ID: n_shirt_teamaqua_a_0_display_name
-TEXT: Футболка Команды Аква 2
+TEXT: Водолазка Команды Аква 1
 
 RESOURCE ID: n_shirt_teamaqua_b_0_display_name
-TEXT: Водолазка Команды Аква 1
+TEXT: Футболка Команды Аква 2
 
 RESOURCE ID: n_shirt_teamblanche_a_0_display_name
 TEXT: Пальто в стиле Бланш 1
@@ -1930,7 +2017,7 @@ RESOURCE ID: n_shirt_tshirt-global-goals-2017_0_display_name
 TEXT: Футболка Глобальные цели 2017
 
 RESOURCE ID: n_shirt_turtleneck-30_0_display_name
-TEXT: Водолазка 30 1
+TEXT: Водолазка 30 2
 
 RESOURCE ID: n_shirt_ultra_a_0_display_name
 TEXT: Топ Ультрасолнце (оранжевый)
@@ -1963,7 +2050,7 @@ RESOURCE ID: n_shirt_victinitshirts_0_display_name
 TEXT: Футболка Виктини
 
 RESOURCE ID: n_shirt_wcs2022_0_display_name
-TEXT: Футболка ЧМ 2023
+TEXT: Футболка ЧМ 2022
 
 RESOURCE ID: n_shirt_wcs2022tshirtbulu_0_display_name
 TEXT: Футболка ЧМ 2022
@@ -2044,10 +2131,10 @@ RESOURCE ID: n_shoes_dedenneitems_0_display_name
 TEXT: Кроссовки Деденне
 
 RESOURCE ID: n_shoes_default_a_0_display_name
-TEXT: Кроссовки (жёлтые)
+TEXT: Кроссовки
 
 RESOURCE ID: n_shoes_default_b_0_display_name
-TEXT: Кроссовки (красные)
+TEXT: Кроссовки
 
 RESOURCE ID: n_shoes_delibird_0_display_name
 TEXT: Сапоги Делибёрд
@@ -2083,10 +2170,10 @@ RESOURCE ID: n_shoes_hala_0_display_name
 TEXT: Сандалии в стиле Халы
 
 RESOURCE ID: n_shoes_hgss_a_0_display_name
-TEXT: Обувь Джото (серая)
+TEXT: Ботинки Джото (красные)
 
 RESOURCE ID: n_shoes_hgss_b_0_display_name
-TEXT: Ботинки Джото (красные)
+TEXT: Обувь Джото (серая)
 
 RESOURCE ID: n_shoes_ingo_0_display_name
 TEXT: Ботинки в стиле Инго (Гисуи)
@@ -2155,10 +2242,10 @@ RESOURCE ID: n_shoes_solgaleoitems_0_display_name
 TEXT: Ботинки Солгалео
 
 RESOURCE ID: n_shoes_ss_a_0_display_name
-TEXT: Галарская обувь 2
+TEXT: Галарская обувь 1
 
 RESOURCE ID: n_shoes_ss_b_0_display_name
-TEXT: Галарская обувь 1
+TEXT: Галарская обувь 2
 
 RESOURCE ID: n_shoes_steven_0_display_name
 TEXT: Обувь в стиле Стивена (Ruby/Sapphire)
@@ -2224,10 +2311,10 @@ RESOURCE ID: n_shoes_teamspark_b_0_display_name
 TEXT: Обувь в стиле Спарка 2
 
 RESOURCE ID: n_shoes_ultra_a_0_display_name
-TEXT: Ультраобувь (зелёная)
+TEXT: Ультраобувь
 
 RESOURCE ID: n_shoes_ultra_b_0_display_name
-TEXT: Ультраобувь (красная)
+TEXT: Ультраобувь
 
 RESOURCE ID: n_shoes_ultrareconsquad_0_display_name
 TEXT: Обувь в стиле Ри
@@ -2288,6 +2375,198 @@ TEXT: Некрозма-Рассветные Крылья
 
 RESOURCE ID: necrozma_dusk_mane
 TEXT: Некрозма-Сумеречная Грива
+
+RESOURCE ID: neutral_avatar_hat_blocked
+TEXT: Выбранная причёска несовместима с этим предметом.
+
+RESOURCE ID: occlusions_option_description
+TEXT: Позволяет Покемонам в AR-режиме более реалистично вписываться в окружающую обстановку, а также двигаться позади объектов.
+
+RESOURCE ID: occlusions_option_title
+TEXT: Реалистичное наложение
+
+RESOURCE ID: photo_burst_option_description
+TEXT: При одном нажатии на кнопку спуска делается несколько фото.
+
+RESOURCE ID: photo_burst_option_title
+TEXT: Серийная съёмка
+
+RESOURCE ID: photo_countdown_option_10s
+TEXT: 10 секунд
+
+RESOURCE ID: photo_countdown_option_5s
+TEXT: 5 секунд
+
+RESOURCE ID: photo_countdown_option_description
+TEXT: Установи таймер для съёмки в автоматическом режиме.
+
+RESOURCE ID: photo_countdown_option_off
+TEXT: Выкл.
+
+RESOURCE ID: photo_countdown_option_title
+TEXT: Таймер
+
+RESOURCE ID: photo_hub_featured_groups
+TEXT: актуальные группы
+
+RESOURCE ID: photo_hub_hashtags
+TEXT: Используй хэштеги #GOSnapshot #PokemonGO
+
+RESOURCE ID: photo_hub_popular_groups
+TEXT: популярные группы
+
+RESOURCE ID: photo_hub_recently_caught
+TEXT: недавно пойманные Покемоны
+
+RESOURCE ID: photo_hub_select_pokemon
+TEXT: выбрать Покемонов
+
+RESOURCE ID: photo_hub_share_nudge
+TEXT: Делись фото из Стоп-кадра GO!
+
+RESOURCE ID: photo_hub_suggestions
+TEXT: предложения
+
+RESOURCE ID: photo_hub_take_photo
+TEXT: сделать фото
+
+RESOURCE ID: photo_set_alola
+TEXT: Алола
+
+RESOURCE ID: photo_set_babies
+TEXT: Забавные карапузы
+
+RESOURCE ID: photo_set_battle_pokemon
+TEXT: Мастера боя
+
+RESOURCE ID: photo_set_beach
+TEXT: Песчаный берег
+
+RESOURCE ID: photo_set_city
+TEXT: Большой город
+
+RESOURCE ID: photo_set_clawed_cuties
+TEXT: Милые лапки
+
+RESOURCE ID: photo_set_cute_pokemon_pink
+TEXT: Розовые друзья
+
+RESOURCE ID: photo_set_fall_vibes
+TEXT: Осеннее настроение
+
+RESOURCE ID: photo_set_fancy
+TEXT: Яркая внешность
+
+RESOURCE ID: photo_set_feathered_friends
+TEXT: Пернатые приятели 2
+
+RESOURCE ID: photo_set_feathered_friends_small
+TEXT: Пернатые приятели 1
+
+RESOURCE ID: photo_set_fossil
+TEXT: Древние ископаемые
+
+RESOURCE ID: photo_set_furry_friends
+TEXT: Лохматые друзья 1
+
+RESOURCE ID: photo_set_furry_friends_big
+TEXT: Лохматые друзья 2
+
+RESOURCE ID: photo_set_garden
+TEXT: Тихий сад
+
+RESOURCE ID: photo_set_graceful_flyers
+TEXT: Взмах крыльев
+
+RESOURCE ID: photo_set_hisui
+TEXT: Гисуи
+
+RESOURCE ID: photo_set_hoenn
+TEXT: Хоэнн
+
+RESOURCE ID: photo_set_johto
+TEXT: Джото
+
+RESOURCE ID: photo_set_kalos
+TEXT: Калос
+
+RESOURCE ID: photo_set_kanto
+TEXT: Канто
+
+RESOURCE ID: photo_set_little_chonkers
+TEXT: Пухлые шарики
+
+RESOURCE ID: photo_set_lovely
+TEXT: Просто прелесть
+
+RESOURCE ID: photo_set_mountain
+TEXT: Горный хребет
+
+RESOURCE ID: photo_set_museum_fossils
+TEXT: Музейные древности
+
+RESOURCE ID: photo_set_night
+TEXT: Ночные тени
+
+RESOURCE ID: photo_set_paldea
+TEXT: Пальдея
+
+RESOURCE ID: photo_set_playful_pals_big
+TEXT: Игривые питомцы 2
+
+RESOURCE ID: photo_set_playful_pals_small
+TEXT: Игривые питомцы 1
+
+RESOURCE ID: photo_set_safari
+TEXT: Сафари-тур
+
+RESOURCE ID: photo_set_sinnoh
+TEXT: Синно
+
+RESOURCE ID: photo_set_small_and_cute
+TEXT: Маленькие милашки
+
+RESOURCE ID: photo_set_small_cute_pokemon
+TEXT: Идеальное фото
+
+RESOURCE ID: photo_set_small_cute_pokemon_pikachu_and_eevee
+TEXT: Лучшие друзья
+
+RESOURCE ID: photo_set_small_cute_pokemon_pink
+TEXT: Розовые друзья
+
+RESOURCE ID: photo_set_small_flower_pokemon
+TEXT: Нежные бутоны
+
+RESOURCE ID: photo_set_small_flower_pokemon_medium
+TEXT: Прекрасные цветы
+
+RESOURCE ID: photo_set_small_flower_pokemon_seeds
+TEXT: Зелёные побеги
+
+RESOURCE ID: photo_set_small_water_pokemon
+TEXT: Брызги воды
+
+RESOURCE ID: photo_set_spring_vibes
+TEXT: Весеннее настроение
+
+RESOURCE ID: photo_set_starters
+TEXT: Первые напарники
+
+RESOURCE ID: photo_set_summer_vibes
+TEXT: Летнее настроение
+
+RESOURCE ID: photo_set_tiny_tikes
+TEXT: Милые малыши
+
+RESOURCE ID: photo_set_unova
+TEXT: Юнова
+
+RESOURCE ID: photo_set_wings_pokemon
+TEXT: Беспокойные букашки
+
+RESOURCE ID: photo_set_winter_vibes
+TEXT: Зимнее настроение
 
 RESOURCE ID: photobomb_five_bagon
 TEXT: 5 неожиданных встреч с Бейгоном в Стоп-кадре GO
@@ -2589,6 +2868,21 @@ TEXT: Читы или спам
 RESOURCE ID: rogue_jungle_event_name
 TEXT: Плут из джунглей
 
+RESOURCE ID: route_appealed_deletion_confirm_description
+TEXT: This action cannot be undone. If you proceed, this Route will be completely lost and unrecoverable, and the appeal you submitted will not be reviewed.
+
+RESOURCE ID: route_archived_info_modal_description
+TEXT: If there is an abundance of Routes in a given area, only the top {0} Routes in the area are highlighted to Trainers nearby. Which Routes are highlighted nearby changes day to day and may be impacted by these factors:
+• ratings
+• popularity
+• age
+
+RESOURCE ID: route_archived_info_modal_title
+TEXT: Visibility of Nearby Routes
+
+RESOURCE ID: route_archived_notice
+TEXT: This Route is not currently highlighted to nearby Trainers.
+
 RESOURCE ID: route_change_rating_button
 TEXT: ИЗМЕНИТЬ ОЦЕНКУ
 
@@ -2622,6 +2916,12 @@ TEXT: Очень холмистый
 RESOURCE ID: route_end_points_closed_error
 TEXT: Ты не можешь пройти по этому маршруту сейчас, потому что точка старта или точка финиша закрыты.
 
+RESOURCE ID: route_favorite_error_max
+TEXT: You already have the maximum number of favorite Routes.
+
+RESOURCE ID: route_favorite_error_rate_limited
+TEXT: Unable to favorite this Route. Please try again later.
+
 RESOURCE ID: route_last_trip_label
 TEXT: Последняя прогулка
 
@@ -2630,6 +2930,21 @@ TEXT: Оценок нет
 
 RESOURCE ID: route_not_public_error
 TEXT: Ты не можешь пройти по этому маршруту, так как он больше не доступен игрокам.
+
+RESOURCE ID: route_pin_error_not_enough_stickers
+TEXT: Choose a different sticker.
+
+RESOURCE ID: route_pin_error_pin_not_found
+TEXT: Please try again later.
+
+RESOURCE ID: route_pin_error_sticker_limit
+TEXT: You’ve already added a sticker on this message today.
+
+RESOURCE ID: route_pin_error_sticker_not_found
+TEXT: Choose a different sticker.
+
+RESOURCE ID: route_pin_interaction_error_unknown
+TEXT: Unable to complete the requested action. Please try again.
 
 RESOURCE ID: route_player_rating_label
 TEXT: ОЦЕНКА
@@ -2658,6 +2973,12 @@ TEXT: Подойди к точке старта, чтобы начать мар�
 RESOURCE ID: route_your_activity
 TEXT: Твоя активность
 
+RESOURCE ID: select_a_pokemon
+TEXT: Выбери Покемона
+
+RESOURCE ID: settings_advanced_haptics
+TEXT: Тактильный отклик
+
 RESOURCE ID: settings_buddy_ar
 TEXT: AR-приятель
 
@@ -2672,6 +2993,12 @@ TEXT: Встречи с Покемонами в AR-режиме
 
 RESOURCE ID: settings_encounter_ar_tip
 TEXT: Niantic AR для встреч с Покемонами
+
+RESOURCE ID: settings_switch_privacy
+TEXT: Когда ты подключаешь Pokémon GO к играм Pokémon: Let's Go, Pikachu! или Pokémon: Let's Go, Eevee!, во время отправки Покемонов определённые ограниченные данные будут передаваться компании Nintendo. Дополнительную информацию смотри в статье раздела Помощь. Передаваемые компании данные регулируются политикой конфиденциальности Nintendo.
+
+RESOURCE ID: settings_title
+TEXT: СТОП-КАДР GO
 
 RESOURCE ID: share_caps
 TEXT: ПОДЕЛИТЬСЯ
@@ -2708,6 +3035,39 @@ TEXT: Появляется больше диких Беллспраутов!
 
 RESOURCE ID: special_research_zarude
 TEXT: Заверши специальный квест Плут из джунглей, чтобы встретить Заруда
+
+RESOURCE ID: sticker_photo_dontsave
+TEXT: НЕ СОХРАНЯТЬ
+
+RESOURCE ID: sticker_photo_save
+TEXT: СОХРАНИТЬ
+
+RESOURCE ID: sticker_photo_save_description
+TEXT: Украшенное фото будет сохранено как отдельная картинка. Прикреплённые к фото наклейки будут использованы.
+
+RESOURCE ID: sticker_photo_save_header
+TEXT: Сохранить изменения наклеек?
+
+RESOURCE ID: stickers_tutorial_adjust_body
+TEXT: Чтобы добавить наклейку на фото, выбери её и коснись там, куда хочешь её поместить. Меняй размер наклейки, растягивая её пальцами. Наклейку можно убрать, коснувшись X.
+
+RESOURCE ID: stickers_tutorial_adjust_title
+TEXT: Меняй наклейки и их размер
+
+RESOURCE ID: stickers_tutorial_intro_body
+TEXT: Ты можешь украшать сделанные фото при помощи наклеек. Чтобы выбрать наклейки, проведи вверх по панели наклеек внизу экрана.
+
+RESOURCE ID: stickers_tutorial_intro_title
+TEXT: Украшай свои фото!
+
+RESOURCE ID: stickers_tutorial_save_body
+TEXT: Если ты сохранишь фото, то прикреплённые к нему наклейки будут использованы. Чтобы наклейки вернулись в твой инвентарь, выбери «Не сохранять» при подтверждении сохранения.
+
+RESOURCE ID: stickers_tutorial_save_title
+TEXT: Сохраняй свои фото и делись ими!
+
+RESOURCE ID: stickers_v2_deco_category
+TEXT: Для фото
 
 RESOURCE ID: story_rockethq14_0_0
 TEXT: Привет, %PLAYERNAME%. Мне стали известны тревожные новости.
@@ -2894,6 +3254,9 @@ TEXT: Ты не можешь обменять объединённого Пок�
 
 RESOURCE ID: trade_exclusion_fusion_component
 TEXT: Ты не можешь обменять Покемона, входящего в состав объединённого Покемона!
+
+RESOURCE ID: trade_exclusion_reason_player_reached_daily_limit
+TEXT: Сегодня уже был совершён специальный обмен.
 
 RESOURCE ID: trade_stardust_half_party
 TEXT: 1/2 цены звёздной пыли для обмена при игре в команде

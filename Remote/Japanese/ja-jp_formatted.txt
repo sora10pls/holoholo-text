@@ -10,6 +10,60 @@ TEXT: むしタイプコレクションチャレンジ3
 RESOURCE ID: april2024_bug_out_collection_challenge_4
 TEXT: むしタイプコレクションチャレンジ4
 
+RESOURCE ID: ar_iris_tutorial_decorate_description
+TEXT: ステッカーを使って撮った写真を飾ることができます。お気に入りや渾身の一枚をみんなにシェアしましょう！
+
+RESOURCE ID: ar_iris_tutorial_decorate_title
+TEXT: デコってシェア
+
+RESOURCE ID: ar_iris_tutorial_flying_description
+TEXT: 空に出すことができるポケモンもいます。配置アイコンを地平線の上にドラッグしてポケモンを飛ばしましょう。
+
+RESOURCE ID: ar_iris_tutorial_flying_title
+TEXT: 空中に出す
+
+RESOURCE ID: ar_iris_tutorial_groupphoto_desciption
+TEXT: 集合写真モードを使うとポケモンたちの写真が撮れます。ポケモンの反応も表示されます。
+
+RESOURCE ID: ar_iris_tutorial_groupphoto_title
+TEXT: 集合写真を撮る
+
+RESOURCE ID: ar_iris_tutorial_intro_description
+TEXT: モンスターボールから3匹までポケモンを出して一緒に写真を撮ることができます。楽しい集合写真カットを狙いましょう！
+
+RESOURCE ID: ar_iris_tutorial_intro_title
+TEXT: ポケモンの写真を撮ろう！
+
+RESOURCE ID: ar_iris_tutorial_placement_description
+TEXT: モンスターボールから3匹までポケモンを出して一緒に写真が撮れます。撮影中にサプライズがあるかもしれません。
+
+RESOURCE ID: ar_iris_tutorial_position_description
+TEXT: 平面を探し、足跡をタップするか、選択メニューに表示されているポケモンをドラッグして好きな場所に置きます。
+
+RESOURCE ID: ar_iris_tutorial_position_title
+TEXT: 位置を決める
+
+RESOURCE ID: ar_iris_tutorial_reposition_description
+TEXT: 戻すボタンをタップしてモンスターボールに戻してから、別の場所に出します。
+
+RESOURCE ID: ar_iris_tutorial_reposition_title
+TEXT: 場所を変える
+
+RESOURCE ID: ar_iris_tutorial_rotate_description
+TEXT: 回転ボタンをタップし、おもちゃアイコンを動かしてポケモンの気を引きます。
+
+RESOURCE ID: ar_iris_tutorial_rotate_title
+TEXT: 気を引く
+
+RESOURCE ID: ar_landscape_error
+TEXT: 横向き画面であるとき、ポケモンは地面上にしか置けません
+
+RESOURCE ID: ar_landscape_placement_error
+TEXT: 横向き画面でポケモンを空に置くことはできません
+
+RESOURCE ID: ar_settings_heading
+TEXT: AR
+
 RESOURCE ID: avatar_f_backpack_combeebackpack_00_bundle_icon
 TEXT: ミツハニー
 ポシェット
@@ -163,6 +217,9 @@ TEXT: このデバイスで相棒画面のARを使用できません
 RESOURCE ID: buddy_phone_not_ar_capable_title
 TEXT: サポートされていないデバイス
 
+RESOURCE ID: camera_settings_heading
+TEXT: カメラ
+
 RESOURCE ID: catch_candy_double_party
 TEXT: 2×　チーム参加中ポケモンを捕まえたときのアメ
 
@@ -211,8 +268,14 @@ TEXT: コミュニティ・デイ：マダツボミ
 RESOURCE ID: disabled_fused
 TEXT: 合体したポケモンをジムに配置することはできません
 
+RESOURCE ID: error_consuming_stickers
+TEXT: 編集時にエラーが発生したため、ステッカーはバッグに戻されました
+
 RESOURCE ID: error_disabled_fused_pokemon
 TEXT: このポケモンは他のポケモンと合体しています
+
+RESOURCE ID: error_not_enough_stickers
+TEXT: ステッカーが足りません！
 
 RESOURCE ID: event_datetime_range_key_bagoncdc
 TEXT: 4月7日2:00PM～5:00PM
@@ -262,13 +325,13 @@ RESOURCE ID: fusion_description
 TEXT: このポケモンは{0}と合体して{1}か、{2}と合体して{3}になることができます。
 
 RESOURCE ID: fusion_description_calyrex
-TEXT: This Pokémon can fuse with Glastrier to become Ice Rider Calyrex, or Spectrier to become Shadow Rider Calyrex.
+TEXT: このポケモンは、ブリザポスと合体してバドレックス（はくばじょうのすがた）もしくは、レイスポスと合体してバドレックス（こくばじょうのすがた）になることができます。
 
 RESOURCE ID: fusion_description_kyurem
-TEXT: This Pokémon can fuse with Reshiram to become White Kyurem, or Zekrom to become Black Kyurem.
+TEXT: このポケモンは、レシラムと合体してホワイトキュレム、もしくは、ゼクロムと合体してブラックキュレムになることができます。
 
 RESOURCE ID: fusion_description_necrozma
-TEXT: This Pokémon can fuse with Solgaleo to become Duskmane Necrozma, or Lunala to become Dawnwing Necrozma.
+TEXT: このポケモンはソルガレオと合体してネクロズマ（たそがれのたてがみ）もしくは、ルナアーラと合体してネクロズマ（あかつきのつばさ）になることができます。
 
 RESOURCE ID: fusion_feature_name
 TEXT: 合体
@@ -292,10 +355,10 @@ RESOURCE ID: fusion_no_pokemon_to_fuse
 TEXT: 合体させる{0}がいません
 
 RESOURCE ID: fusion_resource_dawnwings_necrozma_name
-TEXT: Lunar Fusion Energy
+TEXT: ムーンエナジー
 
 RESOURCE ID: fusion_resource_duskmane_necrozma_name
-TEXT: Solar Fusion Energy
+TEXT: サンエナジー
 
 RESOURCE ID: fusion_unfuse_button
 TEXT: 分離
@@ -310,22 +373,22 @@ RESOURCE ID: fusion_unfuse_description
 TEXT: この{0}は{1}と{2}に分離されます。
 
 RESOURCE ID: fusion_unfuse_description_calyrex_icerider
-TEXT: This Calyrex will unfuse into Glastrier and Calyrex.
+TEXT: このバドレックスはブリザポスとバドレックスに分離します。
 
 RESOURCE ID: fusion_unfuse_description_calyrex_shadowrider
-TEXT: This Calyrex will unfuse into Spectrier and Calyrex.
+TEXT: このバドレックスはレイスポスとバドレックスに分離します。
 
 RESOURCE ID: fusion_unfuse_description_kyurem_black
-TEXT: This Kyurem will unfuse into Zekrom and Kyurem.
+TEXT: このキュレムはゼクロムとキュレムに分離します。
 
 RESOURCE ID: fusion_unfuse_description_kyurem_white
-TEXT: This Kyurem will unfuse into Reshiram and Kyurem.
+TEXT: このキュレムはレシラムとキュレムに分離します。
 
 RESOURCE ID: fusion_unfuse_description_necrozma_dawnwings
-TEXT: This Necrozma will unfuse into Necrozma and Lunala.
+TEXT: このネクロズマはネクロズマとルナアーラに分離します。
 
 RESOURCE ID: fusion_unfuse_description_necrozma_duskmane
-TEXT: This Necrozma will unfuse into Necrozma and Solgaleo.
+TEXT: このネクロズマはネクロズマとソルガレオに分離します。
 
 RESOURCE ID: fusion_unfuse_error_toast
 TEXT: 分離できませんでした。再度お試しください。
@@ -350,9 +413,6 @@ TEXT: マダツボミコミュニティ・デイチケット
 
 RESOURCE ID: gift_open_double
 TEXT: 2×　開封できるギフト
-
-RESOURCE ID: gift_storage_double
-TEXT: 2×　道具バッグ内に持てるギフト
 
 RESOURCE ID: hatch_candy_double
 TEXT: 2×　タマゴふかアメ
@@ -380,6 +440,12 @@ TEXT: 1/2　チーム参加中タマゴふか距離
 
 RESOURCE ID: incubator_distance_quarter_party
 TEXT: 1/4　チーム参加中タマゴふか距離
+
+RESOURCE ID: iris_flair_free_description
+TEXT: GOスナップショットで撮った写真をデコろう！「デコ」はGOスナップショットに貼って使える専用アイテムです。
+
+RESOURCE ID: iris_flair_free_title
+TEXT: 「デコ」を使おう！
 
 RESOURCE ID: irisisocial_tutorial_body_eight
 TEXT: You can use stickers to decorate the pictures you take. Have fun and share your photos with others. You never know what you’ll find!
@@ -489,41 +555,295 @@ TEXT: チーム参加中ルアーモジュール持続3時間
 RESOURCE ID: mega_duration_triple
 TEXT: 3×　メガシンカ時間
 
+RESOURCE ID: meshing_option_description
+TEXT: AR使用時ポケモンがより複雑な環境に置ける
+
+RESOURCE ID: meshing_option_title
+TEXT: メッシュ生成
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-10T21:00:35.108415+00:00 for ja-JP
-at SHA cc24cc9df2
-Pipeline 2247343, job 27235285
-Patch from: 0.309.0-SHA-67463ddf-RC3, 0.307.1-SHA-728a3ebb-RC1
+TEXT: Built at 2024-04-16T18:04:21.471330+00:00 for ja-JP
+at SHA f2b447b808
+Pipeline 2260338, job 27387012
+Patch from: 0.309.0-SHA-f6bcbc01-RC4, 0.307.1-SHA-728a3ebb-RC1, 0.311.0-SHA-fd704a60-RC1
 
 RESOURCE ID: n_backpack_combeebackpack_0_display_name
-TEXT: Male Combee Bag
+TEXT: ミノムッチ　ピアス（くさきのミノ）
 
 RESOURCE ID: n_backpack_combeebackpack_1_display_name
-TEXT: Female Combee Bag
+TEXT: ミノムッチ　ピアス（すなちのミノ）
+
+RESOURCE ID: n_backpack_giratinaitems_0_display_name
+TEXT: ギラティナ　翼
+
+RESOURCE ID: n_backpack_lunarnewyr_0_display_name
+TEXT: 赤いランタン風　リュック
+
+RESOURCE ID: n_backpack_ultra_b_0_display_name
+TEXT: ウルトラサン バッグ
+
+RESOURCE ID: n_backpack_unequip_0_display_name
+TEXT: バッグなし
+
+RESOURCE ID: n_belt_unequip_0_display_name
+TEXT: ベルトなし
+
+RESOURCE ID: n_face_facestickerghostpika_0_display_name
+TEXT: ハロウィン フェイスステッカー
+
+RESOURCE ID: n_face_gracidea_0_display_name
+TEXT: グラシデアの花　フェイスステッカー
+
+RESOURCE ID: n_face_unequip_0_display_name
+TEXT: マスクなし
+
+RESOURCE ID: n_glasses_frillishglasses_0_display_name
+TEXT: プルリル　サングラス
+
+RESOURCE ID: n_glasses_gimmighoulitems_0_display_name
+TEXT: コレクレー　サングラス
+
+RESOURCE ID: n_glasses_grandoakglasses_0_display_name
+TEXT: ダイオーキドのメガネ
+
+RESOURCE ID: n_glasses_unequip_0_display_name
+TEXT: メガネなし
+
+RESOURCE ID: n_gloves_bea_0_display_name
+TEXT: サイトウ　グローブ
+
+RESOURCE ID: n_gloves_guzma_0_display_name
+TEXT: グズマ　リストバンド
+
+RESOURCE ID: n_gloves_teamspark_a_0_display_name
+TEXT: スパーク風グローブセット（１）
+
+RESOURCE ID: n_gloves_teamspark_b_0_display_name
+TEXT: スパーク風グローブセット（２）
+
+RESOURCE ID: n_gloves_unequip_0_display_name
+TEXT: グローブなし
+
+RESOURCE ID: n_hat_6thanniversary_a_0_display_name
+TEXT: 6周年　ケーキハット（１）
+
+RESOURCE ID: n_hat_6thanniversary_b_0_display_name
+TEXT: 6周年　ケーキハット（２）
+
+RESOURCE ID: n_hat_bea_a_0_display_name
+TEXT: サイトウ　ヘアバンド（１）
+
+RESOURCE ID: n_hat_bea_b_0_display_name
+TEXT: サイトウ　ヘアバンド（２）
+
+RESOURCE ID: n_hat_diancie_0_display_name
+TEXT: ディアンシー ヘッドホン
+
+RESOURCE ID: n_hat_dp_a_0_display_name
+TEXT: シンオウ主人公風 帽子（１）
+
+RESOURCE ID: n_hat_dp_b_0_display_name
+TEXT: シンオウ主人公風 帽子（２）
+
+RESOURCE ID: n_hat_dusclopsmummy_0_display_name
+TEXT: サマヨール　ヘッドウェア
 
 RESOURCE ID: n_hat_earringsburmyplant_0_display_name
-TEXT: Burmy Earrings (Plant Cloak)
+TEXT: ミノムッチ　ピアス（ゴミのミノ）
 
 RESOURCE ID: n_hat_earringsburmysandy_0_display_name
-TEXT: Burmy Earrings (Sandy Cloak)
-
-RESOURCE ID: n_hat_earringsburmytrash_0_display_name
-TEXT: Burmy Earrings (Trash Cloak)
-
-RESOURCE ID: n_hat_gofest24mooncrownprepurchase_0_display_name
-TEXT: GO Fest
-2024 月の冠
-
-RESOURCE ID: n_hat_gofest24suncrownprepurchase_0_display_name
-TEXT: GO Fest
-2024 太陽の冠
-
-RESOURCE ID: n_hat_poipole_0_display_name
 TEXT: ベベノム
 ヘッドウェア
 
+RESOURCE ID: n_hat_earringsburmytrash_0_display_name
+TEXT: GO Fest
+2024 Tシャツ
+グレー
+
+RESOURCE ID: n_hat_flabebepack_0_display_name
+TEXT: フラベベ　ヘアアクセサリー
+
+RESOURCE ID: n_hat_galarfarfetchditems_0_display_name
+TEXT: ガラルカモネ キャップセット
+
+RESOURCE ID: n_hat_gimmighoulitems_0_display_name
+TEXT: コレクレー　ニットキャップ
+
+RESOURCE ID: n_hat_giratinaitems_0_display_name
+TEXT: ギラティナ ヘッドウェア
+
+RESOURCE ID: n_hat_gladion_0_display_name
+TEXT: グラジオ　イヤーカフ
+
+RESOURCE ID: n_hat_gofest24mooncrownprepurchase_0_display_name
+TEXT: ミツハニー ポシェット （オスのすがた）
+
+RESOURCE ID: n_hat_gofest24suncrownprepurchase_0_display_name
+TEXT: ミツハニー ポシェット （メスのすがた）
+
+RESOURCE ID: n_hat_gtr2024eeveefanmask_0_display_name
+TEXT: イーブイ　お面
+
+RESOURCE ID: n_hat_gtr2024pikachufanmask_0_display_name
+TEXT: ピカチュウ　お面
+
+RESOURCE ID: n_hat_guzma_0_display_name
+TEXT: グズマ　サングラス
+
+RESOURCE ID: n_hat_gyaradoscap_0_display_name
+TEXT: ギャラドス 帽子
+
+RESOURCE ID: n_hat_laprasbandana_a_0_display_name
+TEXT: ウォーターフェスティバル　バンダナ（１）
+
+RESOURCE ID: n_hat_laprasbandana_b_0_display_name
+TEXT: ウォーターフェスティバル　バンダナ（２）
+
+RESOURCE ID: n_hat_lasecuritycorps_0_display_name
+TEXT: ギンガ団　警備隊 わら帽子
+
+RESOURCE ID: n_hat_megarayquaza_0_display_name
+TEXT: メガレックウザ ヘルメット
+
+RESOURCE ID: n_hat_newyear2022_0_display_name
+TEXT: ニューイヤー2022　カチューシャ
+
+RESOURCE ID: n_hat_newyearhat2021_0_display_name
+TEXT: パーティーハット
+
+RESOURCE ID: n_hat_oras_a_0_display_name
+TEXT: ホウエン主人公風
+ヘッドウェア（１）
+
+RESOURCE ID: n_hat_oras_b_0_display_name
+TEXT: ホウエン主人公風
+ヘッドウェア（２）
+
+RESOURCE ID: n_hat_oricoriopink_0_display_name
+TEXT: ふらふらスタイル　キャップ
+
+RESOURCE ID: n_hat_pikachupumpkinhead_0_display_name
+TEXT: ピカチュウ かぼちゃヘッドウェア
+
+RESOURCE ID: n_hat_poipole_0_display_name
+TEXT: GO Fest
+2024 月の冠
+
+RESOURCE ID: n_hat_sandygasthat_0_display_name
+TEXT: スナバァ　帽子
+
+RESOURCE ID: n_hat_snorlaxnightcap_0_display_name
+TEXT: ナイトキャップ
+
+RESOURCE ID: n_hat_ss_a_0_display_name
+TEXT: ガラル主人公 ベレー帽
+
+RESOURCE ID: n_hat_ss_b_0_display_name
+TEXT: ガラル主人公 ニット帽
+
+RESOURCE ID: n_hat_svcostumescarletschool_0_display_name
+TEXT: パルデア主人公風　スカーレット　ハット
+
+RESOURCE ID: n_hat_svcostumevioletschool_0_display_name
+TEXT: パルデア主人公風　バイオレット　ハット
+
+RESOURCE ID: n_hat_teamskull_0_display_name
+TEXT: スカル団　ニットキャップ
+
+RESOURCE ID: n_hat_ultrareconsquad_0_display_name
+TEXT: リイ　ヘルメット　ゴーグル付き
+
+RESOURCE ID: n_hat_unequip_0_display_name
+TEXT: 帽子なし
+
+RESOURCE ID: n_hat_wcs2022winnersitems_0_display_name
+TEXT: ポケモンWCS　チャンピオン　ハット 2022
+
+RESOURCE ID: n_necklace_unequip_0_display_name
+TEXT: ネックレスなし
+
+RESOURCE ID: n_pants_6thanniversary_0_display_name
+TEXT: 6周年　白スーツ　パンツ
+
+RESOURCE ID: n_pants_7thanniversary_0_display_name
+TEXT: 7周年　パンツ
+
+RESOURCE ID: n_pants_casual_a_0_display_name
+TEXT: カジュアル　パンツ２
+
+RESOURCE ID: n_pants_casual_a_1_display_name
+TEXT: カジュアル　パンツ１
+
+RESOURCE ID: n_pants_casual_b_0_display_name
+TEXT: カジュアル　パンツ４
+
+RESOURCE ID: n_pants_casual_b_1_display_name
+TEXT: カジュアル　パンツ３
+
+RESOURCE ID: n_pants_fw2022_a_0_display_name
+TEXT: ヒドイデ　パンツ（１）
+
+RESOURCE ID: n_pants_fw2022_b_0_display_name
+TEXT: ヒドイデ　パンツ（２）
+
+RESOURCE ID: n_pants_green_a_0_display_name
+TEXT: グリーン ボトムス（１）
+
+RESOURCE ID: n_pants_green_b_0_display_name
+TEXT: グリーン ボトムス（２）
+
 RESOURCE ID: n_pants_hala_0_display_name
 TEXT: ハラ　パンツ
+
+RESOURCE ID: n_pants_newyear2022_0_display_name
+TEXT: ニューイヤー2022　パンツ
+
+RESOURCE ID: n_pants_oras_a_0_display_name
+TEXT: ホウエン主人公風
+ボトムス（１）
+
+RESOURCE ID: n_pants_oras_b_0_display_name
+TEXT: ホウエン主人公風
+ボトムス（２）
+
+RESOURCE ID: n_pants_pajamas2022_0_display_name
+TEXT: ホリデー　パジャマ　パンツ
+
+RESOURCE ID: n_pants_skinnyjeans_a_0_display_name
+TEXT: スキニーデニム（ネイビー）
+
+RESOURCE ID: n_pants_skinnyjeans_b_0_display_name
+TEXT: スキニーデニム（黒）
+
+RESOURCE ID: n_pants_swshuniformdark_a_0_display_name
+TEXT: スポーツレッグ　あく（１）
+
+RESOURCE ID: n_pants_swshuniformdark_b_0_display_name
+TEXT: スポーツレッグ　あく（２）
+
+RESOURCE ID: n_pants_swshuniformdefault_a_0_display_name
+TEXT: スポーツパンツ　チャレンジ（１）
+
+RESOURCE ID: n_pants_swshuniformdefault_b_0_display_name
+TEXT: スポーツパンツ　チャレンジ（２）
+
+RESOURCE ID: n_pants_swshuniformdragon_a_0_display_name
+TEXT: スポーツパンツ　ドラゴン（１）
+
+RESOURCE ID: n_pants_swshuniformdragon_b_0_display_name
+TEXT: スポーツパンツ　ドラゴン（２）
+
+RESOURCE ID: n_pants_teamskull_a_0_display_name
+TEXT: スカル団　パンツ（２）
+
+RESOURCE ID: n_pants_teamskull_b_0_display_name
+TEXT: スカル団　パンツ（１）
+
+RESOURCE ID: n_pants_wcs2022winnersitems_0_display_name
+TEXT: ポケモンWCS　チャンピオン　パンツ 2022
+
+RESOURCE ID: n_pose_061_display_name
+TEXT: ラブカス タンバリンポーズ
 
 RESOURCE ID: n_pose_062_display_name
 TEXT: ハラ　ポーズ
@@ -531,11 +851,95 @@ TEXT: ハラ　ポーズ
 RESOURCE ID: n_pose_empty_display_name
 TEXT: ポーズなし
 
+RESOURCE ID: n_shirt_6thanniversary_a_0_display_name
+TEXT: 6周年　白スーツ　トップスセット（１）
+
+RESOURCE ID: n_shirt_6thanniversary_b_0_display_name
+TEXT: 6周年　白スーツ　トップスセット（２）
+
+RESOURCE ID: n_shirt_7thanniversary_0_display_name
+TEXT: 7周年　トップスセット
+
+RESOURCE ID: n_shirt_alolacomfey_0_display_name
+TEXT: アローラ　キュワワー　シャツ
+
+RESOURCE ID: n_shirt_ballguy_0_display_name
+TEXT: ボールガイ　セット
+
+RESOURCE ID: n_shirt_bea_a_0_display_name
+TEXT: サイトウ　セット（１）
+
+RESOURCE ID: n_shirt_bea_b_0_display_name
+TEXT: サイトウ　セット（２）
+
 RESOURCE ID: n_shirt_bounsweetitems_a_0_display_name
-TEXT: Steenee Shirt (Short)
+TEXT: アママイコ トップスセット（１）
 
 RESOURCE ID: n_shirt_bounsweetitems_b_0_display_name
-TEXT: Steenee Shirt (Long)
+TEXT: アママイコ トップスセット（２）
+
+RESOURCE ID: n_shirt_casual_a_0_display_name
+TEXT: カジュアルトップス１
+
+RESOURCE ID: n_shirt_casual_a_1_display_name
+TEXT: カジュアルトップス４
+
+RESOURCE ID: n_shirt_casual_a_2_display_name
+TEXT: カジュアルトップス６
+
+RESOURCE ID: n_shirt_casual_a_3_display_name
+TEXT: カジュアルトップス８
+
+RESOURCE ID: n_shirt_casual_b_0_display_name
+TEXT: カジュアルトップス２
+
+RESOURCE ID: n_shirt_casual_b_1_display_name
+TEXT: カジュアルトップス３
+
+RESOURCE ID: n_shirt_casual_b_2_display_name
+TEXT: カジュアルトップス５
+
+RESOURCE ID: n_shirt_casual_b_3_display_name
+TEXT: カジュアルトップス７
+
+RESOURCE ID: n_shirt_dp_a_0_display_name
+TEXT: シンオウ主人公風 トップスセット（１）
+
+RESOURCE ID: n_shirt_dp_b_0_display_name
+TEXT: シンオウ主人公風 トップスセット（２）
+
+RESOURCE ID: n_shirt_dusclopsmummy_0_display_name
+TEXT: サマヨール　セット
+
+RESOURCE ID: n_shirt_elesa_a_0_display_name
+TEXT: カミツレ トップス（１）
+
+RESOURCE ID: n_shirt_elesa_b_0_display_name
+TEXT: カミツレ トップス（２）
+
+RESOURCE ID: n_shirt_fashionweek2022_0_display_name
+TEXT: 白黒ファッションシャツ
+
+RESOURCE ID: n_shirt_fw2022_a_0_display_name
+TEXT: ヒドイデ　トップス（１）
+
+RESOURCE ID: n_shirt_fw2022_b_0_display_name
+TEXT: ヒドイデ　トップス（２）
+
+RESOURCE ID: n_shirt_galarfarfetchditems_0_display_name
+TEXT: ガラルカモネギのＴシャツのバッグ
+
+RESOURCE ID: n_shirt_galaxyoutfit_a_0_display_name
+TEXT: ギンガ団　セット（１）
+
+RESOURCE ID: n_shirt_galaxyoutfit_b_0_display_name
+TEXT: ギンガ団　セット（２）
+
+RESOURCE ID: n_shirt_giratinaitems_0_display_name
+TEXT: ギラティナ ジャケット
+
+RESOURCE ID: n_shirt_gofest2023_0_display_name
+TEXT: GO Fest 2023 Tシャツ 黒
 
 RESOURCE ID: n_shirt_gofest24_display_name
 TEXT: GO Fest
@@ -548,23 +952,271 @@ TEXT: GO Fest
 
 RESOURCE ID: n_shirt_gofest24webexclusive_display_name
 TEXT: GO Fest
-2024 Tシャツ
-グレー
+2024 太陽の冠
 
 RESOURCE ID: n_shirt_goteamrocketarlo_a_0_display_name
-TEXT: Arlo-Style Outfit (Black)
+TEXT: アルロ セットアップ（１）
 
 RESOURCE ID: n_shirt_goteamrocketarlo_b_0_display_name
-TEXT: Arlo-Style Outfit (Gray Stripe)
+TEXT: アルロ セットアップ（２）
+
+RESOURCE ID: n_shirt_gotour2023_0_display_name
+TEXT: GO Tour 2023　Tシャツ
+
+RESOURCE ID: n_shirt_gotour2024_0_display_name
+TEXT: GO Tour 2024　Tシャツ
 
 RESOURCE ID: n_shirt_hala_0_display_name
 TEXT: ハラ　トップス
 
+RESOURCE ID: n_shirt_jacket-newyear2022_0_display_name
+TEXT: ニューイヤー2022　トップスセット
+
+RESOURCE ID: n_shirt_james_b_0_display_name
+TEXT: コジロウ セット
+
 RESOURCE ID: n_shirt_keldeotshirt_0_display_name
-TEXT: Keldeo T-Shirt
+TEXT: ケルディオ　Tシャツ
+
+RESOURCE ID: n_shirt_korrina_a_0_display_name
+TEXT: コルニ　トップス（１）
+
+RESOURCE ID: n_shirt_korrina_b_0_display_name
+TEXT: コルニ　トップス（２）
+
+RESOURCE ID: n_shirt_ladiamondoutfit_a_0_display_name
+TEXT: コンゴウ団　セット（１）
+
+RESOURCE ID: n_shirt_ladiamondoutfit_b_0_display_name
+TEXT: コンゴウ団　セット（２）
+
+RESOURCE ID: n_shirt_lapearloutfit_a_0_display_name
+TEXT: シンジュ団　セット（１）
+
+RESOURCE ID: n_shirt_lapearloutfit_b_0_display_name
+TEXT: シンジュ団　セット（２）
+
+RESOURCE ID: n_shirt_lasecuritycorps_a_0_display_name
+TEXT: ギンガ団　警備隊 セット（１）
+
+RESOURCE ID: n_shirt_lasecuritycorps_b_0_display_name
+TEXT: ギンガ団　警備隊 セット（２）
+
+RESOURCE ID: n_shirt_legendofarceus_a_0_display_name
+TEXT: 調査隊　セット（１）
+
+RESOURCE ID: n_shirt_legendofarceus_b_0_display_name
+TEXT: 調査隊　セット（２）
+
+RESOURCE ID: n_shirt_movie2020jessiejames_a_0_display_name
+TEXT: ムサシ セット 映画 2020
+
+RESOURCE ID: n_shirt_movie2020jessiejames_b_0_display_name
+TEXT: コジロウ セット 映画 2020
+
+RESOURCE ID: n_shirt_oras_a_0_display_name
+TEXT: ホウエン主人公風
+トップス（１）
+
+RESOURCE ID: n_shirt_oras_b_0_display_name
+TEXT: ホウエン主人公風
+トップス（２）
+
+RESOURCE ID: n_shirt_pajamas2022_0_display_name
+TEXT: ホリデー　パジャマ　トップス
+
+RESOURCE ID: n_shirt_projectguitar_0_display_name
+TEXT: 「＝」 フーディー
+
+RESOURCE ID: n_shirt_shayminlandtshirt_0_display_name
+TEXT: シェイミ（ランドフォルム）　Tシャツ
+
+RESOURCE ID: n_shirt_shayminskytshirt_0_display_name
+TEXT: シェイミ（スカイフォルム）　Tシャツ
+
+RESOURCE ID: n_shirt_ss_a_0_display_name
+TEXT: ガラル主人公 ワンピース
+
+RESOURCE ID: n_shirt_ss_b_0_display_name
+TEXT: ガラル主人公 シャツ
+
+RESOURCE ID: n_shirt_sustainability2021_a_0_display_name
+TEXT: サスティナビリティウィーク
+Tシャツ（１）
+
+RESOURCE ID: n_shirt_sustainability2021_b_0_display_name
+TEXT: サスティナビリティウィーク
+Tシャツ（２）
+
+RESOURCE ID: n_shirt_svcostumescarletschool_0_display_name
+TEXT: パルデア主人公風　スカーレット　セット
+
+RESOURCE ID: n_shirt_svcostumevioletschool_0_display_name
+TEXT: パルデア主人公風　バイオレット　セット
+
+RESOURCE ID: n_shirt_sweater-30_2_display_name
+TEXT: ザ・サーティ（２）
+
+RESOURCE ID: n_shirt_swshuniformdark_a_0_display_name
+TEXT: スポーツシャツ　あく（１）
+
+RESOURCE ID: n_shirt_swshuniformdark_b_0_display_name
+TEXT: スポーツシャツ　あく（２）
+
+RESOURCE ID: n_shirt_tcgcollabtshirtandcap_0_display_name
+TEXT: ポケモンカードゲーム　ピカチュウ　Tシャツ
+
+RESOURCE ID: n_shirt_teamaqua_a_0_display_name
+TEXT: アクア団トップス（１）
+
+RESOURCE ID: n_shirt_teamaqua_b_0_display_name
+TEXT: アクア団トップス（２）
+
+RESOURCE ID: n_shirt_teamskull_0_display_name
+TEXT: スカル団　トップスセット
+
+RESOURCE ID: n_shirt_tracksuitsgroudon_0_display_name
+TEXT: ゲンシグラードン　ジャージ
+
+RESOURCE ID: n_shirt_tracksuitskyogre_0_display_name
+TEXT: ゲンシカイオーガ　ジャージ
+
+RESOURCE ID: n_shirt_tshirt-fest-chicago-2017_0_display_name
+TEXT: GO FEST 2017 Tシャツ
+
+RESOURCE ID: n_shirt_tshirt-fest-chicago-2018_0_display_name
+TEXT: GO FEST 2018 Tシャツ
+
+RESOURCE ID: n_shirt_tshirt-global-goals-2017_0_display_name
+TEXT: Global Goals シャツ 2017
+
+RESOURCE ID: n_shirt_turtleneck-30_0_display_name
+TEXT: ザ・サーティ（１）
+
+RESOURCE ID: n_shirt_ultrareconsquad_a_0_display_name
+TEXT: リイ　セット（１）
+
+RESOURCE ID: n_shirt_ultrareconsquad_b_0_display_name
+TEXT: リイ　セット（２）
+
+RESOURCE ID: n_shirt_wcs2022_0_display_name
+TEXT: 2022 Worlds Tee
+
+RESOURCE ID: n_shirt_wcs2022tshirtred_0_display_name
+TEXT: ポケモンWCS　2022　来場者Tシャツ
+
+RESOURCE ID: n_shirt_wcs2022winnersitems_0_display_name
+TEXT: ポケモンWCS　チャンピオン　トップス 2022
+
+RESOURCE ID: n_shirt_wcs2023_0_display_name
+TEXT: ポケモンWCS　リージョナルチャンピオン　Tシャツ 2023
+
+RESOURCE ID: n_shirt_wcsyokohama_0_display_name
+TEXT: ポケモンWCS 2023 VTシャツ
+
+RESOURCE ID: n_shoes_default_a_0_display_name
+TEXT: ランニングシューズ（１）
+
+RESOURCE ID: n_shoes_default_b_0_display_name
+TEXT: ランニングシューズ
+
+RESOURCE ID: n_shoes_elesa_a_0_display_name
+TEXT: カミツレ シューズ（１）
+
+RESOURCE ID: n_shoes_elesa_b_0_display_name
+TEXT: カミツレ シューズ（２）
+
+RESOURCE ID: n_shoes_green_a_0_display_name
+TEXT: グリーン シューズ（１）
+
+RESOURCE ID: n_shoes_green_b_0_display_name
+TEXT: グリーン シューズ（２）
 
 RESOURCE ID: n_shoes_hala_0_display_name
 TEXT: ハラ　サンダル
+
+RESOURCE ID: n_shoes_ladiamondoutfit_a_0_display_name
+TEXT: コンゴウ団　ブーツ（１）
+
+RESOURCE ID: n_shoes_ladiamondoutfit_b_0_display_name
+TEXT: コンゴウ団　ブーツ（２）
+
+RESOURCE ID: n_shoes_lapearloutfit_a_0_display_name
+TEXT: シンジュ団　ブーツ（１）
+
+RESOURCE ID: n_shoes_lapearloutfit_b_0_display_name
+TEXT: シンジュ団　ブーツ（２）
+
+RESOURCE ID: n_shoes_legendofarceus_a_0_display_name
+TEXT: 調査隊　シューズ（１）
+
+RESOURCE ID: n_shoes_legendofarceus_b_0_display_name
+TEXT: 調査隊　シューズ（２）
+
+RESOURCE ID: n_shoes_newyear2022_0_display_name
+TEXT: ニューイヤー2022　シューズ
+
+RESOURCE ID: n_shoes_oras_a_0_display_name
+TEXT: ホウエン主人公風
+シューズ（１）
+
+RESOURCE ID: n_shoes_oras_b_0_display_name
+TEXT: ホウエン主人公風
+シューズ（２）
+
+RESOURCE ID: n_shoes_ss_a_0_display_name
+TEXT: ガラル主人公 シューズ（１）
+
+RESOURCE ID: n_shoes_ss_b_0_display_name
+TEXT: ガラル主人公 シューズ（２）
+
+RESOURCE ID: n_shoes_svcostumescarletschool_0_display_name
+TEXT: パルデア主人公風　スカーレット　シューズ
+
+RESOURCE ID: n_shoes_svcostumevioletschool_0_display_name
+TEXT: パルデア主人公風　バイオレット　シューズ
+
+RESOURCE ID: n_shoes_teamskull_a_0_display_name
+TEXT: スカル団　シューズ（１）
+
+RESOURCE ID: n_shoes_teamskull_b_0_display_name
+TEXT: スカル団　シューズ（２）
+
+RESOURCE ID: n_shoes_ultra_a_0_display_name
+TEXT: アローラ主人公風　サンダル
+
+RESOURCE ID: n_shoes_ultra_b_0_display_name
+TEXT: アローラ主人公風　シューズ
+
+RESOURCE ID: n_shoes_unequip_0_display_name
+TEXT: 靴なし
+
+RESOURCE ID: n_shoes_wcs2022winnersitems_0_display_name
+TEXT: ポケモンWCS　チャンピオン　シューズ 2022
+
+RESOURCE ID: n_shoes_winterboots_0_display_name
+TEXT: ウィンターブーツ（黄）
+
+RESOURCE ID: n_shoes_winterboots_1_display_name
+TEXT: ウィンターブーツ（黒）
+
+RESOURCE ID: n_shoes_winterboots_2_display_name
+TEXT: ウィンターブーツ（白）
+
+RESOURCE ID: n_shoes_winterboots_3_display_name
+TEXT: ウィンターブーツ（緑）
+
+RESOURCE ID: n_socks_fw2022_a_0_display_name
+TEXT: ヒドイデ　ソックス（１）
+
+RESOURCE ID: n_socks_fw2022_b_0_display_name
+TEXT: ヒドイデ　ソックス（２）
+
+RESOURCE ID: n_socks_sollunaitems_0_display_name
+TEXT: 星空　タイツ
+
+RESOURCE ID: n_socks_unequip_0_display_name
+TEXT: 靴下なし
 
 RESOURCE ID: necrozma_dawn_wings
 TEXT: ネクロズマ（あかつきのつばさ）
@@ -577,6 +1229,195 @@ TEXT: 持っているアイテムを着用した状態でのみショップか�
 
 RESOURCE ID: neutral_avatar_hat_blocked
 TEXT: 選んだヘアスタイルに使用できません
+
+RESOURCE ID: occlusions_option_description
+TEXT: AR使用時にポケモンが物体の後ろに隠れる
+
+RESOURCE ID: occlusions_option_title
+TEXT: ARブレンディング
+
+RESOURCE ID: photo_burst_option_description
+TEXT: シャッターボタンをワンタップで連続撮影
+
+RESOURCE ID: photo_burst_option_title
+TEXT: 連写モード
+
+RESOURCE ID: photo_countdown_option_10s
+TEXT: 10秒
+
+RESOURCE ID: photo_countdown_option_5s
+TEXT: 5秒
+
+RESOURCE ID: photo_countdown_option_description
+TEXT: 自動的にシャッターを切るまでの時間
+
+RESOURCE ID: photo_countdown_option_off
+TEXT: タイマーオフ
+
+RESOURCE ID: photo_countdown_option_title
+TEXT: セルフタイマー
+
+RESOURCE ID: photo_hub_featured_groups
+TEXT: フィーチャーグループ
+
+RESOURCE ID: photo_hub_hashtags
+TEXT: ハッシュタグ→#GOSnapshot #PokemonGO
+
+RESOURCE ID: photo_hub_popular_groups
+TEXT: 人気グループ
+
+RESOURCE ID: photo_hub_recently_caught
+TEXT: 最近捕まえたポケモン
+
+RESOURCE ID: photo_hub_select_pokemon
+TEXT: ポケモンを選ぶ
+
+RESOURCE ID: photo_hub_share_nudge
+TEXT: GOスナップショット自慢しよう！
+
+RESOURCE ID: photo_hub_suggestions
+TEXT: 提案
+
+RESOURCE ID: photo_hub_take_photo
+TEXT: 写真を撮る
+
+RESOURCE ID: photo_set_alola
+TEXT: アローラ
+
+RESOURCE ID: photo_set_babies
+TEXT: キューティーベイビィ
+
+RESOURCE ID: photo_set_battle_pokemon
+TEXT: かくとう組
+
+RESOURCE ID: photo_set_beach
+TEXT: 砂浜海岸
+
+RESOURCE ID: photo_set_city
+TEXT: シティコーナー
+
+RESOURCE ID: photo_set_clawed_cuties
+TEXT: もふもふキューティー
+
+RESOURCE ID: photo_set_cute_pokemon_pink
+TEXT: ぷくぷくトリオ
+
+RESOURCE ID: photo_set_fall_vibes
+TEXT: オータムムード
+
+RESOURCE ID: photo_set_fancy
+TEXT: ファンシーフレンド
+
+RESOURCE ID: photo_set_feathered_friends
+TEXT: ふわふわフレンド2
+
+RESOURCE ID: photo_set_feathered_friends_small
+TEXT: ふわふわフレンド1
+
+RESOURCE ID: photo_set_fossil
+TEXT: 古代遺跡
+
+RESOURCE ID: photo_set_furry_friends
+TEXT: もふもふフレンド1
+
+RESOURCE ID: photo_set_furry_friends_big
+TEXT: もふもふフレンド2
+
+RESOURCE ID: photo_set_garden
+TEXT: グリーンガーデン
+
+RESOURCE ID: photo_set_graceful_flyers
+TEXT: エレガント＆フライング
+
+RESOURCE ID: photo_set_hisui
+TEXT: ヒスイ
+
+RESOURCE ID: photo_set_hoenn
+TEXT: ホウエン
+
+RESOURCE ID: photo_set_johto
+TEXT: ジョウト
+
+RESOURCE ID: photo_set_kalos
+TEXT: カロス
+
+RESOURCE ID: photo_set_kanto
+TEXT: カントー
+
+RESOURCE ID: photo_set_little_chonkers
+TEXT: まるまるフレンド
+
+RESOURCE ID: photo_set_lovely
+TEXT: キューティーピンク
+
+RESOURCE ID: photo_set_mountain
+TEXT: スノーマウンテン
+
+RESOURCE ID: photo_set_museum_fossils
+TEXT: 博物館グループ
+
+RESOURCE ID: photo_set_night
+TEXT: ナイトシャドー
+
+RESOURCE ID: photo_set_paldea
+TEXT: パルデア
+
+RESOURCE ID: photo_set_playful_pals_big
+TEXT: わんぱくフレンド2
+
+RESOURCE ID: photo_set_playful_pals_small
+TEXT: わんぱくフレンド1
+
+RESOURCE ID: photo_set_safari
+TEXT: サファリロード
+
+RESOURCE ID: photo_set_sinnoh
+TEXT: シンオウ
+
+RESOURCE ID: photo_set_small_and_cute
+TEXT: ちいさかわいい
+
+RESOURCE ID: photo_set_small_cute_pokemon
+TEXT: ピクチャーパーフェクト
+
+RESOURCE ID: photo_set_small_cute_pokemon_pikachu_and_eevee
+TEXT: Let's GO
+
+RESOURCE ID: photo_set_small_cute_pokemon_pink
+TEXT: ぷくぷくトリオ
+
+RESOURCE ID: photo_set_small_flower_pokemon
+TEXT: 芽吹きグループ
+
+RESOURCE ID: photo_set_small_flower_pokemon_medium
+TEXT: ブーケグループ
+
+RESOURCE ID: photo_set_small_flower_pokemon_seeds
+TEXT: つぼみグループ
+
+RESOURCE ID: photo_set_small_water_pokemon
+TEXT: スプラッシュグループ
+
+RESOURCE ID: photo_set_spring_vibes
+TEXT: スプリングムード
+
+RESOURCE ID: photo_set_starters
+TEXT: 最初のパートナー
+
+RESOURCE ID: photo_set_summer_vibes
+TEXT: サマームード
+
+RESOURCE ID: photo_set_tiny_tikes
+TEXT: キューティー＆ミニ
+
+RESOURCE ID: photo_set_unova
+TEXT: イッシュ
+
+RESOURCE ID: photo_set_wings_pokemon
+TEXT: ビジーバグズ
+
+RESOURCE ID: photo_set_winter_vibes
+TEXT: ウィンタームード
 
 RESOURCE ID: photobomb_five_bagon
 TEXT: GOスナップショットでタツベイのサプライズ5回
@@ -887,17 +1728,56 @@ TEXT: チームを抜けてもいいですか？
 RESOURCE ID: rogue_jungle_event_name
 TEXT: 密林のならず者
 
+RESOURCE ID: route_appealed_deletion_confirm_description
+TEXT: この操作はやり直せません。決定すると、このルートは完全に失われ、提出されている異議申し立ては審査されません。
+
+RESOURCE ID: route_archived_info_modal_description
+TEXT: ひとつのエリア内にルートが豊富にある場合、上から{0}個のみが近くにいるトレーナーに強調されます。どのルートが表示されるかは日によって違い、以下の要素に左右されます：
+・評価
+・人気度
+・作成された日
+
+RESOURCE ID: route_archived_info_modal_title
+TEXT: 近くのルートの見え方
+
+RESOURCE ID: route_archived_notice
+TEXT: このルートは強調表示の対象外です
+
 RESOURCE ID: route_decayed_modal_description
 TEXT: あなたの作成したルートはスタート・ゴール地点が移動もしくは閉鎖されたためアーカイブされました。アーカイブされたルートはプレイヤーから発見されず遊ぶこともできませんが、ルート作成画面には残ります。
 
 RESOURCE ID: route_decayed_modal_title
 TEXT: ルートのアーカイブ
 
+RESOURCE ID: route_favorite_error_max
+TEXT: お気に入りルートの上限に達しました
+
+RESOURCE ID: route_favorite_error_rate_limited
+TEXT: このルートをお気に入りに追加できませんでした。しばらくしてから再度お試しください。
+
+RESOURCE ID: route_pin_error_not_enough_stickers
+TEXT: Choose a different sticker.
+
+RESOURCE ID: route_pin_error_pin_not_found
+TEXT: Please try again later.
+
+RESOURCE ID: route_pin_error_sticker_limit
+TEXT: You’ve already added a sticker on this message today.
+
+RESOURCE ID: route_pin_error_sticker_not_found
+TEXT: Choose a different sticker.
+
+RESOURCE ID: route_pin_interaction_error_unknown
+TEXT: Unable to complete the requested action. Please try again.
+
 RESOURCE ID: route_player_rating_label
 TEXT: 評価
 
 RESOURCE ID: route_player_trips_label
 TEXT: 回数
+
+RESOURCE ID: select_a_pokemon
+TEXT: ポケモンを選んでください
 
 RESOURCE ID: settings_buddy_ar
 TEXT: 相棒画面のAR
@@ -913,6 +1793,9 @@ TEXT: 捕まえる画面のAR
 
 RESOURCE ID: settings_encounter_ar_tip
 TEXT: ポケモンを捕まえるときにNiantic AR使用
+
+RESOURCE ID: settings_title
+TEXT: GOスナップショット
 
 RESOURCE ID: share_caps
 TEXT: シェア
@@ -952,6 +1835,39 @@ TEXT: 密林のならず者スペシャルリサーチを完了してザルー�
 
 RESOURCE ID: star_piece_duration_double
 TEXT: 2×　ほしのかけら時間
+
+RESOURCE ID: sticker_photo_dontsave
+TEXT: 保存しない
+
+RESOURCE ID: sticker_photo_save
+TEXT: 保存
+
+RESOURCE ID: sticker_photo_save_description
+TEXT: 別画像として保存されます。保存すると貼ったステッカーは消費されます。
+
+RESOURCE ID: sticker_photo_save_header
+TEXT: 変更を保存しますか？
+
+RESOURCE ID: stickers_tutorial_adjust_body
+TEXT: ステッカーを選び、写真上で貼りたい箇所をタップします。ピンチイン／アウトで大きさを変え、「x」タップではがします。
+
+RESOURCE ID: stickers_tutorial_adjust_title
+TEXT: ステッカーの貼り方
+
+RESOURCE ID: stickers_tutorial_intro_body
+TEXT: ステッカーを使って撮った写真を飾ることができます。画面下のステッカーパネルを上にスワイプして使いたいステッカーを選びます。
+
+RESOURCE ID: stickers_tutorial_intro_title
+TEXT: 写真をデコろう！
+
+RESOURCE ID: stickers_tutorial_save_body
+TEXT: 写真を保存するとステッカーは消費されます。ステッカーをバッグに戻したい場合は「保存しない」をタップしてください。
+
+RESOURCE ID: stickers_tutorial_save_title
+TEXT: 保存してシェアしよう！
+
+RESOURCE ID: stickers_v2_deco_category
+TEXT: デコ
 
 RESOURCE ID: story_rockethq14_0_0
 TEXT: やぁ、%PLAYERNAME%。少し困ったことが起こった。

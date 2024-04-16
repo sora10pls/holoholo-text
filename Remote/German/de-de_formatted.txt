@@ -10,6 +10,63 @@ TEXT: Käferkrabbelei: Sammler-Herausforderung 3
 RESOURCE ID: april2024_bug_out_collection_challenge_4
 TEXT: Käferkrabbelei: Sammler-Herausforderung 4
 
+RESOURCE ID: ar_iris_tutorial_decorate_description
+TEXT: Du kannst Sticker zum Dekorieren deiner Schnappschüsse benutzen. Hab Spaß und teile deine Kreationen. Du weißt nie, was dabei herauskommt!
+
+RESOURCE ID: ar_iris_tutorial_decorate_title
+TEXT: Dekoriere und teile deine Fotos!
+
+RESOURCE ID: ar_iris_tutorial_flying_description
+TEXT: Einige Pokémon können über dem Boden platziert werden. Ziehe das Platzierungssymbol über die Horizontlinie, um ein Pokémon in der Luft zu platzieren!
+
+RESOURCE ID: ar_iris_tutorial_flying_title
+TEXT: Pokémon in der Luft in Position bringen
+
+RESOURCE ID: ar_iris_tutorial_groupphoto_desciption
+TEXT: Benutze den Modus für Gruppenfotos, um gemeinsame Schnappschüsse deiner Pokémon zu machen. Spiele mit ihnen, um zu sehen, wie sie reagieren!
+
+RESOURCE ID: ar_iris_tutorial_groupphoto_title
+TEXT: Mach ein Gruppenfoto
+
+RESOURCE ID: ar_iris_tutorial_intro_description
+TEXT: Du kannst bis zu drei Pokémon aus ihren Pokébällen herauslassen und Fotos mit ihnen machen. Nutze den Gruppenfoto-Modus, um den perfekten Schnappschuss von deinen Freunden zu machen!
+
+RESOURCE ID: ar_iris_tutorial_intro_title
+TEXT: Mach Fotos mit deinen Pokémon – jederzeit und überall!
+
+RESOURCE ID: ar_iris_tutorial_placement_description
+TEXT: Du kannst bis zu drei Pokémon aus ihren Pokébällen herauslassen und gemeinsame Fotos von ihnen machen. Vielleicht erwartet dich während der Schnappschüsse sogar eine Überraschung.
+
+RESOURCE ID: ar_iris_tutorial_position_description
+TEXT: Finde eine flache Oberfläche und tippe entweder auf die Fußabdrücke oder ziehe das Pokémon aus dem Auswahlmenü, um es zu platzieren.
+
+RESOURCE ID: ar_iris_tutorial_position_title
+TEXT: Bringe deine Pokémon in Position
+
+RESOURCE ID: ar_iris_tutorial_reposition_description
+TEXT: Du kannst ein Pokémon zurück in seinen Pokéball bringen, indem du die Schaltfläche „Zurückrufen“ betätigst. Danach kannst du dein Pokémon an einen anderen Standort bewegen.
+
+RESOURCE ID: ar_iris_tutorial_reposition_title
+TEXT: Ändere die Position deiner Pokémon
+
+RESOURCE ID: ar_iris_tutorial_rotate_description
+TEXT: Tippe auf die Schaltfläche „Rotieren“ um das Spielzeug zu benutzen und es zu bewegen, damit du die Aufmerksamkeit deines Pokémon hast.
+
+RESOURCE ID: ar_iris_tutorial_rotate_title
+TEXT: Rotiere deine Pokémon
+
+RESOURCE ID: ar_landscape_error
+TEXT: Pokémon können im Querformat nur auf dem Boden platziert werden.
+
+RESOURCE ID: ar_landscape_placement_error
+TEXT: Im Querformat können Pokémon nicht in der Luft platziert werden.
+
+RESOURCE ID: ar_settings_heading
+TEXT: AR
+
+RESOURCE ID: ar_tap_to_place
+TEXT: Ziehe oder tippe, um ein Pokémon zu platzieren.
+
 RESOURCE ID: authentication_failed_sign_out
 TEXT: Über ein anderes Konto versuchen
 
@@ -80,7 +137,7 @@ RESOURCE ID: avatar_m_shirt_gofest2024purple_00_bundle_icon
 TEXT: T-Shirt zum GO Fest 2024
 
 RESOURCE ID: avatar_shop_description
-TEXT: Check out these items!
+TEXT: Schau dir diese Items an!
 
 RESOURCE ID: avatar_shop_description_new
 TEXT: Neue Outfits erhältlich!
@@ -105,6 +162,9 @@ TEXT: Kumpel-AR ist auf diesem Gerät derzeit nicht verfügbar.
 
 RESOURCE ID: buddy_phone_not_ar_capable_title
 TEXT: Nicht unterstütztes Gerät
+
+RESOURCE ID: camera_settings_heading
+TEXT: KAMERA
 
 RESOURCE ID: catch_candy_double_party
 TEXT: 2× Bonbons für das Fangen von Pokémon, während du in einem Team bist
@@ -139,8 +199,14 @@ TEXT: Dieser Showcase hat die maximale Anzahl an Teilnehmern erreicht.
 RESOURCE ID: disabled_fused
 TEXT: Fusionierte Pokémon können keinen Arenen zugewiesen werden.
 
+RESOURCE ID: error_consuming_stickers
+TEXT: Beim Speichern deines Werks ist ein Fehler aufgetreten. Die Sticker wurden an dein Inventar zurückgeschickt.
+
 RESOURCE ID: error_disabled_fused_pokemon
 TEXT: Dieses Pokémon wurde mit einem anderen Pokémon fusioniert.
+
+RESOURCE ID: error_not_enough_stickers
+TEXT: Nicht genug Sticker im Inventar.
 
 RESOURCE ID: event_datetime_range_key_bagoncdc
 TEXT: 7. April, 14:00 bis 17:00 Uhr
@@ -184,13 +250,13 @@ RESOURCE ID: fusion_description
 TEXT: Dieses Pokémon kann mit {0} fusioniert werden, um {1} zu werden, oder mit {2}, um {3} zu werden.
 
 RESOURCE ID: fusion_description_calyrex
-TEXT: This Pokémon can fuse with Glastrier to become Ice Rider Calyrex, or Spectrier to become Shadow Rider Calyrex.
+TEXT: This Pokémon can unite with Glastrier to become Ice Rider Calyrex or Spectrier to become Shadow Rider Calyrex.
 
 RESOURCE ID: fusion_description_kyurem
-TEXT: This Pokémon can fuse with Reshiram to become White Kyurem, or Zekrom to become Black Kyurem.
+TEXT: This Pokémon can fuse with Reshiram to become White Kyurem or Zekrom to become Black Kyurem.
 
 RESOURCE ID: fusion_description_necrozma
-TEXT: This Pokémon can fuse with Solgaleo to become Duskmane Necrozma, or Lunala to become Dawnwing Necrozma.
+TEXT: This Pokémon can fuse with Solgaleo to become Dusk Mane Necrozma or Lunala to become Dawn Wings Necrozma.
 
 RESOURCE ID: fusion_feature_name
 TEXT: Fusion
@@ -232,22 +298,22 @@ RESOURCE ID: fusion_unfuse_description
 TEXT: Dieses {0} wird zu {1} und {2} getrennt.
 
 RESOURCE ID: fusion_unfuse_description_calyrex_icerider
-TEXT: This Calyrex will unfuse into Glastrier and Calyrex.
+TEXT: Ice Rider Calyrex will separate into Glastrier and Calyrex.
 
 RESOURCE ID: fusion_unfuse_description_calyrex_shadowrider
-TEXT: This Calyrex will unfuse into Spectrier and Calyrex.
+TEXT: Shadow Rider Calyrex will separate into Spectrier and Calyrex.
 
 RESOURCE ID: fusion_unfuse_description_kyurem_black
-TEXT: This Kyurem will unfuse into Zekrom and Kyurem.
+TEXT: Black Kyurem will separate into Zekrom and Kyurem.
 
 RESOURCE ID: fusion_unfuse_description_kyurem_white
-TEXT: This Kyurem will unfuse into Reshiram and Kyurem.
+TEXT: White Kyurem will separate into Reshiram and Kyurem.
 
 RESOURCE ID: fusion_unfuse_description_necrozma_dawnwings
-TEXT: This Necrozma will unfuse into Necrozma and Lunala.
+TEXT: Dawn Wings Necrozma will separate into Necrozma and Lunala.
 
 RESOURCE ID: fusion_unfuse_description_necrozma_duskmane
-TEXT: This Necrozma will unfuse into Necrozma and Solgaleo.
+TEXT: Dusk Mane Necrozma will separate into Necrozma and Solgaleo.
 
 RESOURCE ID: fusion_unfuse_error_toast
 TEXT: Die Pokémon konnten nicht getrennt werden. Bitte versuche es erneut.
@@ -284,6 +350,12 @@ TEXT: 1/2 Schlüpf-Distanz, während du in einem Team bist
 
 RESOURCE ID: incubator_distance_quarter_party
 TEXT: 1/4 Schlüpf-Distanz, während du in einem Team bist
+
+RESOURCE ID: iris_flair_free_description
+TEXT: Verpasse deinen Erinnerungsfotos ein gewisses Extra! Diese neuen Items werden ausschließlich verwendet, um deine Schnappschüsse aufzupeppen.
+
+RESOURCE ID: iris_flair_free_title
+TEXT: Etwas Flair verpassen
 
 RESOURCE ID: irisisocial_tutorial_body_eight
 TEXT: You can use stickers to decorate the pictures you take. Have fun and share your photos with others. You never know what you’ll find!
@@ -387,11 +459,17 @@ TEXT: 2× Wirkungszeit für Lockmodule, während du in einem Team bist
 RESOURCE ID: lure_duration_three_hours_party
 TEXT: 3-stündige Lockmodul-Wirkungszeit, während du in einem Team bist
 
+RESOURCE ID: meshing_option_description
+TEXT: Ermöglicht, das Pokémon auch in einer komplexeren Umgebung platziert werden können.
+
+RESOURCE ID: meshing_option_title
+TEXT: Meshing
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-10T21:00:35.108415+00:00 for de-DE
-at SHA cc24cc9df2
-Pipeline 2247343, job 27235285
-Patch from: 0.309.0-SHA-67463ddf-RC3, 0.307.1-SHA-728a3ebb-RC1
+TEXT: Built at 2024-04-16T18:04:21.471330+00:00 for de-DE
+at SHA f2b447b808
+Pipeline 2260338, job 27387012
+Patch from: 0.309.0-SHA-f6bcbc01-RC4, 0.307.1-SHA-728a3ebb-RC1, 0.311.0-SHA-fd704a60-RC1
 
 RESOURCE ID: n__glasses_drpikachu_0_display_name
 TEXT: Professoren-Pikachu-Brille
@@ -595,10 +673,10 @@ RESOURCE ID: n_gloves_default-new_0_display_name
 TEXT: Trainer-Handschuhe
 
 RESOURCE ID: n_gloves_default_a_0_display_name
-TEXT: Fingerlose Handschuhe (gelb)
+TEXT: Fingerlose Handschuhe
 
 RESOURCE ID: n_gloves_default_b_0_display_name
-TEXT: Fingerlose Handschuhe (grau)
+TEXT: Fingerlose Handschuhe
 
 RESOURCE ID: n_gloves_delibird_0_display_name
 TEXT: Botogel-Handschuhe
@@ -670,10 +748,10 @@ RESOURCE ID: n_gloves_teamrocket_0_display_name
 TEXT: Team Rocket-Handschuhe
 
 RESOURCE ID: n_gloves_teamspark_a_0_display_name
-TEXT: Handschuhe im Stil von Spark (klassisch)
+TEXT: Handschuhe im Stil von Spark (modisch)
 
 RESOURCE ID: n_gloves_teamspark_b_0_display_name
-TEXT: Handschuhe im Stil von Spark (modisch)
+TEXT: Handschuhe im Stil von Spark (klassisch)
 
 RESOURCE ID: n_gloves_unequip_0_display_name
 TEXT: Keine Handschuhe
@@ -1108,10 +1186,10 @@ RESOURCE ID: n_pants_lysandre_0_display_name
 TEXT: Hose im Stil von Flordelis
 
 RESOURCE ID: n_pants_mewtwo_a_0_display_name
-TEXT: Mewtu-Hose (eng)
+TEXT: Mewtu-Hose (bequem)
 
 RESOURCE ID: n_pants_mewtwo_b_0_display_name
-TEXT: Mewtu-Hose (bequem)
+TEXT: Mewtu-Hose (eng)
 
 RESOURCE ID: n_pants_newyear2022_0_display_name
 TEXT: Neujahrs-Hose
@@ -1204,10 +1282,10 @@ RESOURCE ID: n_pants_teammagma_b_0_display_name
 TEXT: Team Magma-Shorts (lang)
 
 RESOURCE ID: n_pants_teamskull_a_0_display_name
-TEXT: Team Skull-Shorts (lang)
+TEXT: Team Skull-Shorts (kurz)
 
 RESOURCE ID: n_pants_teamskull_b_0_display_name
-TEXT: Team Skull-Shorts (kurz)
+TEXT: Team Skull-Shorts (lang)
 
 RESOURCE ID: n_pants_teamspark_a_0_display_name
 TEXT: Hose im Stil von Spark (eng)
@@ -1280,6 +1358,9 @@ TEXT: Liebiskus-Tamburin-Pose
 
 RESOURCE ID: n_pose_062_display_name
 TEXT: Pose im Stil von Hala
+
+RESOURCE ID: n_pose_empty_display_name
+TEXT: Keine Pose
 
 RESOURCE ID: n_shirt_6thanniversary_a_0_display_name
 TEXT: Weiße Anzugjacke zum 6. Jubiläum (tailliert)
@@ -1834,7 +1915,7 @@ RESOURCE ID: n_shirt_svdlc2spring_0_display_name
 TEXT: Paldea-Frühlingsuniform (Blaubeer-Akademie)
 
 RESOURCE ID: n_shirt_sweater-30_2_display_name
-TEXT: The Thirty (schwarz)
+TEXT: The Thirty (blaugrün)
 
 RESOURCE ID: n_shirt_sweater-instinct_0_display_name
 TEXT: Team Intuition-Rollkragenpulli
@@ -1879,10 +1960,10 @@ RESOURCE ID: n_shirt_tcgcollabtshirtandcap_0_display_name
 TEXT: Sammelkartenspiel-Pikachu-T-Shirt
 
 RESOURCE ID: n_shirt_teamaqua_a_0_display_name
-TEXT: Team Aqua-Top (kurzärmelig)
+TEXT: Team Aqua-Top (ärmellos)
 
 RESOURCE ID: n_shirt_teamaqua_b_0_display_name
-TEXT: Team Aqua-Top (ärmellos)
+TEXT: Team Aqua-Top (kurzärmelig)
 
 RESOURCE ID: n_shirt_teamblanche_a_0_display_name
 TEXT: Jacke im Stil von Blanche (tailliert)
@@ -1957,7 +2038,7 @@ RESOURCE ID: n_shirt_tshirt_pikachu_0_display_name
 TEXT: Pikachu-T-Shirt
 
 RESOURCE ID: n_shirt_turtleneck-30_0_display_name
-TEXT: The Thirty (blaugrün)
+TEXT: The Thirty (schwarz)
 
 RESOURCE ID: n_shirt_turtwigonesie_0_display_name
 TEXT: Chelast-Kostüm
@@ -1990,7 +2071,7 @@ RESOURCE ID: n_shirt_victinitshirts_0_display_name
 TEXT: Victini-T-Shirt
 
 RESOURCE ID: n_shirt_wcs2022_0_display_name
-TEXT: T-Shirt WM 2023
+TEXT: T-Shirt WM 2022
 
 RESOURCE ID: n_shirt_wcs2022tshirtbulu_0_display_name
 TEXT: T-Shirt WM 2022
@@ -2059,10 +2140,10 @@ RESOURCE ID: n_shoes_default-new_0_display_name
 TEXT: Trainer-Turnschuhe
 
 RESOURCE ID: n_shoes_default_a_0_display_name
-TEXT: Turboschuhe (gelb)
+TEXT: Turboschuhe
 
 RESOURCE ID: n_shoes_default_b_0_display_name
-TEXT: Turboschuhe (rot)
+TEXT: Turboschuhe
 
 RESOURCE ID: n_shoes_delibird_0_display_name
 TEXT: Botogel-Stiefel
@@ -2104,10 +2185,10 @@ RESOURCE ID: n_shoes_hala_0_display_name
 TEXT: Sandalen im Stil von Hala
 
 RESOURCE ID: n_shoes_hgss_a_0_display_name
-TEXT: Johto-Schuhe (grau)
+TEXT: Johto-Schuhe (rot)
 
 RESOURCE ID: n_shoes_hgss_b_0_display_name
-TEXT: Johto-Schuhe (rot)
+TEXT: Johto-Schuhe (grau)
 
 RESOURCE ID: n_shoes_ingo_0_display_name
 TEXT: Schuhe im Stil von Hin (Hisui)
@@ -2185,10 +2266,10 @@ RESOURCE ID: n_shoes_solgaleoitems_0_display_name
 TEXT: Solgaleo-Schuhe
 
 RESOURCE ID: n_shoes_ss_a_0_display_name
-TEXT: Galar-Schuhe (kurz)
+TEXT: Galar-Schuhe (hoch)
 
 RESOURCE ID: n_shoes_ss_b_0_display_name
-TEXT: Galar-Schuhe (hoch)
+TEXT: Galar-Schuhe (kurz)
 
 RESOURCE ID: n_shoes_steven_0_display_name
 TEXT: Schuhe im Stil von Troy (Rubin/Saphir)
@@ -2266,10 +2347,10 @@ RESOURCE ID: n_shoes_teamspark_b_0_display_name
 TEXT: Schuhe im Stil von Spark (klassisch)
 
 RESOURCE ID: n_shoes_ultra_a_0_display_name
-TEXT: Ultra-Schuhe (grün)
+TEXT: Ultra-Schuhe
 
 RESOURCE ID: n_shoes_ultra_b_0_display_name
-TEXT: Ultra-Schuhe (rot)
+TEXT: Ultra-Schuhe
 
 RESOURCE ID: n_shoes_ultrareconsquad_0_display_name
 TEXT: Schuhe im Stil von Rhi
@@ -2342,6 +2423,198 @@ TEXT: Abendmähne Necrozma
 
 RESOURCE ID: neutral_avatar_bust
 TEXT: BRUSTKORB
+
+RESOURCE ID: neutral_avatar_hat_blocked
+TEXT: Die gewählte Frisur ist mit diesem Artikel nicht kompatibel.
+
+RESOURCE ID: occlusions_option_description
+TEXT: Ermöglicht, dass Pokémon in AR besser mit deiner Umgebung verschmelzen und hinter Objekte platziert werden können.
+
+RESOURCE ID: occlusions_option_title
+TEXT: Reality Blending
+
+RESOURCE ID: photo_burst_option_description
+TEXT: Erstelle bei jeder Betätigung des Auslösers eine Serie von Fotos.
+
+RESOURCE ID: photo_burst_option_title
+TEXT: Fotoserie
+
+RESOURCE ID: photo_countdown_option_10s
+TEXT: 10 Sekunden
+
+RESOURCE ID: photo_countdown_option_5s
+TEXT: 5 Sekunden
+
+RESOURCE ID: photo_countdown_option_description
+TEXT: Stelle einen Timer ein, bevor automatisch ein Foto gemacht wird.
+
+RESOURCE ID: photo_countdown_option_off
+TEXT: Aus
+
+RESOURCE ID: photo_countdown_option_title
+TEXT: Timer
+
+RESOURCE ID: photo_hub_featured_groups
+TEXT: ausgewählte Gruppen
+
+RESOURCE ID: photo_hub_hashtags
+TEXT: Benutze die Hashtags #GOSnapshot #PokemonGO
+
+RESOURCE ID: photo_hub_popular_groups
+TEXT: beliebte Gruppen
+
+RESOURCE ID: photo_hub_recently_caught
+TEXT: kürzlich gefangene Pokémon
+
+RESOURCE ID: photo_hub_select_pokemon
+TEXT: Pokémon auswählen
+
+RESOURCE ID: photo_hub_share_nudge
+TEXT: Speichere deine GO-Schnappschüsse!
+
+RESOURCE ID: photo_hub_suggestions
+TEXT: Vorschläge
+
+RESOURCE ID: photo_hub_take_photo
+TEXT: Foto machen
+
+RESOURCE ID: photo_set_alola
+TEXT: Alola
+
+RESOURCE ID: photo_set_babies
+TEXT: Spaßige Sprösslinge
+
+RESOURCE ID: photo_set_battle_pokemon
+TEXT: Kampfkunst-Meister
+
+RESOURCE ID: photo_set_beach
+TEXT: Sandige Schätze
+
+RESOURCE ID: photo_set_city
+TEXT: Großstadtgemüter
+
+RESOURCE ID: photo_set_clawed_cuties
+TEXT: Knuddelige Krallen
+
+RESOURCE ID: photo_set_cute_pokemon_pink
+TEXT: Rosa Runde
+
+RESOURCE ID: photo_set_fall_vibes
+TEXT: Herbst-Vibes
+
+RESOURCE ID: photo_set_fancy
+TEXT: Fancy fühlen
+
+RESOURCE ID: photo_set_feathered_friends
+TEXT: Feine Federn 2
+
+RESOURCE ID: photo_set_feathered_friends_small
+TEXT: Feine Federn 1
+
+RESOURCE ID: photo_set_fossil
+TEXT: Uralte Fossile
+
+RESOURCE ID: photo_set_furry_friends
+TEXT: Flauschige Freunde 1
+
+RESOURCE ID: photo_set_furry_friends_big
+TEXT: Flauschige Freunde 2
+
+RESOURCE ID: photo_set_garden
+TEXT: Glücklicher Garten
+
+RESOURCE ID: photo_set_graceful_flyers
+TEXT: Feine Falter
+
+RESOURCE ID: photo_set_hisui
+TEXT: Hisui
+
+RESOURCE ID: photo_set_hoenn
+TEXT: Hoenn
+
+RESOURCE ID: photo_set_johto
+TEXT: Johto
+
+RESOURCE ID: photo_set_kalos
+TEXT: Kalos
+
+RESOURCE ID: photo_set_kanto
+TEXT: Kanto
+
+RESOURCE ID: photo_set_little_chonkers
+TEXT: Runde Runde
+
+RESOURCE ID: photo_set_lovely
+TEXT: Einfach süß
+
+RESOURCE ID: photo_set_mountain
+TEXT: Bergpass
+
+RESOURCE ID: photo_set_museum_fossils
+TEXT: Museumsfossilien
+
+RESOURCE ID: photo_set_night
+TEXT: Schatten der Nacht
+
+RESOURCE ID: photo_set_paldea
+TEXT: Paldea
+
+RESOURCE ID: photo_set_playful_pals_big
+TEXT: Verspielte Vierbeiner 2
+
+RESOURCE ID: photo_set_playful_pals_small
+TEXT: Verspielte Vierbeiner 1
+
+RESOURCE ID: photo_set_safari
+TEXT: Safari-Schar
+
+RESOURCE ID: photo_set_sinnoh
+TEXT: Sinnoh
+
+RESOURCE ID: photo_set_small_and_cute
+TEXT: Klein und niedlich
+
+RESOURCE ID: photo_set_small_cute_pokemon
+TEXT: Bildhübsch
+
+RESOURCE ID: photo_set_small_cute_pokemon_pikachu_and_eevee
+TEXT: Nichts wie raus und GO
+
+RESOURCE ID: photo_set_small_cute_pokemon_pink
+TEXT: Rosa Runde
+
+RESOURCE ID: photo_set_small_flower_pokemon
+TEXT: Knuffige Knospen
+
+RESOURCE ID: photo_set_small_flower_pokemon_medium
+TEXT: Bezaubernde Blüten
+
+RESOURCE ID: photo_set_small_flower_pokemon_seeds
+TEXT: Schöne Sprösslinge
+
+RESOURCE ID: photo_set_small_water_pokemon
+TEXT: Plitsch-Platsch
+
+RESOURCE ID: photo_set_spring_vibes
+TEXT: Frühlings-Vibes
+
+RESOURCE ID: photo_set_starters
+TEXT: Erste Partner
+
+RESOURCE ID: photo_set_summer_vibes
+TEXT: Sommer-Vibes
+
+RESOURCE ID: photo_set_tiny_tikes
+TEXT: Kleine Kumpel
+
+RESOURCE ID: photo_set_unova
+TEXT: Einall
+
+RESOURCE ID: photo_set_wings_pokemon
+TEXT: Kultige Käfer
+
+RESOURCE ID: photo_set_winter_vibes
+TEXT: Winter-Vibes
 
 RESOURCE ID: photobomb_five_bagon
 TEXT: 5 überraschende Begegnungen mit Kindwurm in GO-Schnappschuss
@@ -2640,6 +2913,21 @@ TEXT: Bist du sicher, dass du dein Team verlassen willst?
 RESOURCE ID: rogue_jungle_event_name
 TEXT: Mich laust der Finsteraffe
 
+RESOURCE ID: route_appealed_deletion_confirm_description
+TEXT: This action cannot be undone. If you proceed, this Route will be completely lost and unrecoverable, and the appeal you submitted will not be reviewed.
+
+RESOURCE ID: route_archived_info_modal_description
+TEXT: If there is an abundance of Routes in a given area, only the top {0} Routes in the area are highlighted to Trainers nearby. Which Routes are highlighted nearby changes day to day and may be impacted by these factors:
+• ratings
+• popularity
+• age
+
+RESOURCE ID: route_archived_info_modal_title
+TEXT: Visibility of Nearby Routes
+
+RESOURCE ID: route_archived_notice
+TEXT: This Route is not currently highlighted to nearby Trainers.
+
 RESOURCE ID: route_change_rating_button
 TEXT: BEWERTUNG ÄNDERN
 
@@ -2673,6 +2961,12 @@ TEXT: Sehr hügelig
 RESOURCE ID: route_end_points_closed_error
 TEXT: Du kannst dieser Route gerade nicht folgen, weil der Start- oder Endpunkt geschlossen ist.
 
+RESOURCE ID: route_favorite_error_max
+TEXT: You already have the maximum number of favorite Routes.
+
+RESOURCE ID: route_favorite_error_rate_limited
+TEXT: Unable to favorite this Route. Please try again later.
+
 RESOURCE ID: route_last_trip_label
 TEXT: Zuletzt abgeschlossen
 
@@ -2681,6 +2975,21 @@ TEXT: Keine Bewertungen
 
 RESOURCE ID: route_not_public_error
 TEXT: Du kannst dieser Route nicht folgen, weil sie nicht mehr öffentlich ist.
+
+RESOURCE ID: route_pin_error_not_enough_stickers
+TEXT: Choose a different sticker.
+
+RESOURCE ID: route_pin_error_pin_not_found
+TEXT: Please try again later.
+
+RESOURCE ID: route_pin_error_sticker_limit
+TEXT: You’ve already added a sticker on this message today.
+
+RESOURCE ID: route_pin_error_sticker_not_found
+TEXT: Choose a different sticker.
+
+RESOURCE ID: route_pin_interaction_error_unknown
+TEXT: Unable to complete the requested action. Please try again.
 
 RESOURCE ID: route_play_rate_route_description
 TEXT: Deine Bewertung hilft anderen, tolle Routen zu entdecken!
@@ -2709,6 +3018,9 @@ TEXT: Insgesamt abgeschlossen
 RESOURCE ID: route_your_activity
 TEXT: Deine Aktivität
 
+RESOURCE ID: select_a_pokemon
+TEXT: Wähle ein Pokémon
+
 RESOURCE ID: settings_buddy_ar
 TEXT: AR-Kumpel
 
@@ -2723,6 +3035,9 @@ TEXT: AR-Begegnungen
 
 RESOURCE ID: settings_encounter_ar_tip
 TEXT: Niantic-AR für Pokémon-Begegnungen
+
+RESOURCE ID: settings_title
+TEXT: GO-SCHNAPPSCHUSS
 
 RESOURCE ID: share_caps
 TEXT: TEILEN
@@ -2762,6 +3077,39 @@ TEXT: Wilde Knofensa erscheinen mit vermehrter Häufigkeit!
 
 RESOURCE ID: special_research_zarude
 TEXT: Schließe das Spezialforschungs-Abenteuer „Mich laust der Finsteraffe“ ab, um Zarude zu begegnen.
+
+RESOURCE ID: sticker_photo_dontsave
+TEXT: NICHT SPEICHERN
+
+RESOURCE ID: sticker_photo_save
+TEXT: SPEICHERN
+
+RESOURCE ID: sticker_photo_save_description
+TEXT: Dein dekorierter Schnappschuss wird als separates Bild gespeichert. Alle angebrachten Sticker werden aufgebraucht.
+
+RESOURCE ID: sticker_photo_save_header
+TEXT: Sticker-Änderungen speichern?
+
+RESOURCE ID: stickers_tutorial_adjust_body
+TEXT: Platziere einen Sticker, indem du ihn anwählst und danach dort auf den Schnappschuss tippst, wo du ihn haben willst. Ziehe den Sticker mit zwei Fingern, um seine Größe zu ändern. Tippe auf „X“, um ihn zu entfernen.
+
+RESOURCE ID: stickers_tutorial_adjust_title
+TEXT: Passe die Sticker an dein Foto an
+
+RESOURCE ID: stickers_tutorial_intro_body
+TEXT: Du kannst deine Schnappschüsse mit Stickern dekorieren. Wische auf dem Sticker-Panel an der Unterseite des Bildschirms hoch, um Sticker auszuwählen.
+
+RESOURCE ID: stickers_tutorial_intro_title
+TEXT: Dekoriere deine Fotos!
+
+RESOURCE ID: stickers_tutorial_save_body
+TEXT: Auf dem Foto platzierte Sticker werden verbraucht, wenn du dein Bild speicherst. Wenn du die Sticker wieder in dein Inventar bringen willst, tippe auf „Nicht speichern“, wenn du gefragt wirst.
+
+RESOURCE ID: stickers_tutorial_save_title
+TEXT: Speichere und teile deine Schnappschüsse!
+
+RESOURCE ID: stickers_v2_deco_category
+TEXT: Flair
 
 RESOURCE ID: story_rockethq14_0_0
 TEXT: Hallöchen, %PLAYERNAME%! Ich habe unangenehme Neuigkeiten.
