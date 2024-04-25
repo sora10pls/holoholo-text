@@ -185,13 +185,13 @@ RESOURCE ID: badge_aa_2024_surabaya_day_02_title
 TEXT: Pikachu’s Indonesia Journey
 
 RESOURCE ID: badge_gofest_2024_global
-TEXT: July 13-14, 2024
+TEXT: 2024年7月13日～14日
 
 RESOURCE ID: badge_gofest_2024_global_title
 TEXT: Pokémon GO Fest 2024
 
 RESOURCE ID: badge_gofest_2024_test
-TEXT: July 13-14, 2024
+TEXT: 2024年7月13日～14日
 
 RESOURCE ID: badge_gofest_2024_test_title
 TEXT: Pokémon GO Fest 2024
@@ -204,6 +204,15 @@ TEXT: 讓口呆花進化成大食花，牠就能學會一般招式「魔法葉�
 
 RESOURCE ID: bonus_implicit_social_bellsprout_raid
 TEXT: 如果訓練家們同心協力在團體戰中擊敗口呆花，接下來的30分鐘裡將會有大量喇叭芽在附近出現。
+
+RESOURCE ID: bonus_pokemon_town_lapras_raid
+TEXT: 戴著圍巾的拉普拉斯出現在團體戰中
+
+RESOURCE ID: bonus_pokemon_town_spawn_lapras
+TEXT: 更多拉普拉斯出現在地圖上
+
+RESOURCE ID: bonus_pokemon_town_spawn_pikachu
+TEXT: 更多皮卡丘出現在地圖上
 
 RESOURCE ID: bonus_tr_gbl_euic_2024_a_desc
 TEXT: 2024 Pokémon LAIC冠軍賽：獎勵限時調查
@@ -245,7 +254,7 @@ RESOURCE ID: cleffa_hatch_event_name
 TEXT: 皮寶寶孵化日
 
 RESOURCE ID: cleffa_hatch_event_name_leadup
-TEXT: 皮寶寶孵化日擴充版獎勵
+TEXT: 孵化日擴充版獎勵
 
 RESOURCE ID: cleffa_hatch_event_name_ticket
 TEXT: 皮寶寶孵化日特級限時調查
@@ -428,43 +437,19 @@ RESOURCE ID: gofest2024_habitat4
 TEXT: Darkest Night
 
 RESOURCE ID: gofest2024_hour_habitat1
-TEXT: Now: Dawn Meadow!
+TEXT: Now: Dawn Meadow habitat!
 
 RESOURCE ID: gofest2024_hour_habitat2
-TEXT: Now: Shining Day!
+TEXT: Now: Shining Day habitat!
 
 RESOURCE ID: gofest2024_hour_habitat3
-TEXT: Now: Creeping Dusk!
+TEXT: Now: Creeping Dusk habitat!
 
 RESOURCE ID: gofest2024_hour_habitat4
-TEXT: Now: Darkest Night!
-
-RESOURCE ID: gofest2024_quest_branch_crabrawler_description
-TEXT: Pick this branch, and your radar will be focused on Crabrawler. When they are nearby, they’ll be prioritized in your nearby Pokémon list!
-
-RESOURCE ID: gofest2024_quest_branch_crabrawler_title
-TEXT: Radar Tuning: Crabrawler
-
-RESOURCE ID: gofest2024_quest_branch_ducklett_description
-TEXT: Pick this branch, and your radar will be focused on Ducklett. When they are nearby, they’ll be prioritized in your nearby Pokémon list!
-
-RESOURCE ID: gofest2024_quest_branch_ducklett_title
-TEXT: Radar Tuning: Ducklett
-
-RESOURCE ID: gofest2024_quest_branch_emolga_description
-TEXT: Pick this branch, and your radar will be focused on Emolga. When they are nearby, they’ll be prioritized in your nearby Pokémon list!
-
-RESOURCE ID: gofest2024_quest_branch_emolga_title
-TEXT: Radar Tuning: Emolga
-
-RESOURCE ID: gofest2024_quest_branch_radiance_title
-TEXT: Basking in the Radiance
-
-RESOURCE ID: gofest2024_quest_branch_umbra_title
-TEXT: Hidden in the Umbra
+TEXT: Now: Darkest Night habitat!
 
 RESOURCE ID: gofest2024_ticketed
-TEXT: GO Fest 2024 - Ticketed Experience
+TEXT: Pokémon GO Fest 2024 – Ticketed Experience
 
 RESOURCE ID: hatch_candy_double_party
 TEXT: 在參加小隊時孵化寶可夢獲得的糖果增為2倍
@@ -542,10 +527,10 @@ RESOURCE ID: meshing_option_title
 TEXT: 網格化
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-22T20:23:30.367120+00:00 for zh-TW
-at SHA f69f656f4e
-Pipeline 2275077, job 27546326
-Patch from: 0.309.1-SHA-bdca83ab-RC1, 0.311.0-SHA-fd704a60-RC1
+TEXT: Built at 2024-04-25T18:21:03.661599+00:00 for zh-TW
+at SHA eeb70ebfec
+Pipeline 2285758, job 27662246
+Patch from: 0.309.0-SHA-67463ddf-RC3, 0.311.0-SHA-e728d329-RC3
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found during the night and allows nighttime evolutions.
@@ -1795,6 +1780,12 @@ TEXT: 沒有足夠的{0}！
 RESOURCE ID: pokemon_info_transfer_fused_pokemon
 TEXT: 不能傳送已合體的寶可夢！
 
+RESOURCE ID: pokemon_town_event_2024
+TEXT: Pokémon Town 2024
+
+RESOURCE ID: pokemon_town_event_2024_lapras
+TEXT: Pokémon Town 2024 – 拉普拉斯之湖
+
 RESOURCE ID: pokestop_spin_xp_double_party
 TEXT: 在參加小隊時旋轉寶可夢補給站獲得的XP增為2倍
 
@@ -1824,6 +1815,12 @@ TEXT: 為喇叭芽拍攝{0}張GO Snapshot照片
 
 RESOURCE ID: quest_fuse_necrozma
 TEXT: Fuse Necrozma
+
+RESOURCE ID: quest_local_trainer_battle
+TEXT: Battle a Trainer locally by scanning their Battle Code.
+
+RESOURCE ID: quest_power_up_singular_marshadow
+TEXT: Power up Marshadow
 
 RESOURCE ID: quest_shelgon_evolve_b_plural
 TEXT: 讓{0}隻甲殼龍進化
@@ -1994,25 +1991,25 @@ RESOURCE ID: rejoin_modal_subtitle
 TEXT: 可回到原本的小隊並繼續小隊挑戰。
 
 RESOURCE ID: route_appealed_deletion_confirm_description
-TEXT: 此操作無法重來。一經確定，此路線將會失效，且提出的異議不會被審查。
+TEXT: 此操作無法復原。一旦確定，此路線就會被完全刪除，且提出的異議不會被審查。
 
 RESOURCE ID: route_archived_info_modal_description
-TEXT: 當一個區域內有豐富多樣的路線時，會由上至下強調顯示最多{0}個路線給在附近的訓練家。顯示的路線每天都不一樣，會受到以下的因素影響：
+TEXT: 當一個區域內有豐富多樣的路線時，僅會由上依序精選{0}條路線給在附近的訓練家。顯示的路線每天都不一樣，會受到以下的因素影響：
 ・評價
-・受歡迎程度
+・熱門程度
 ・建立日期
 
 RESOURCE ID: route_archived_info_modal_title
-TEXT: 附近路線的可見性
+TEXT: 附近路線的顯示方式
 
 RESOURCE ID: route_archived_notice
-TEXT: 此路線不會強調顯示
+TEXT: 此路線非精選對象
 
 RESOURCE ID: route_favorite_error_max
 TEXT: 設為「我的最愛」的路線數量已達上限
 
 RESOURCE ID: route_favorite_error_rate_limited
-TEXT: 未成功將此路線加入我的最愛。請稍後再試一次。
+TEXT: 無法將此路線加入我的最愛。請稍後再試一次。
 
 RESOURCE ID: route_pin_error_not_enough_stickers
 TEXT: Choose a different sticker.

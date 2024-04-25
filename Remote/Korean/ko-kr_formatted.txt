@@ -180,13 +180,13 @@ RESOURCE ID: badge_aa_2024_surabaya_day_02_title
 TEXT: Pikachu’s Indonesia Journey
 
 RESOURCE ID: badge_gofest_2024_global
-TEXT: July 13-14, 2024
+TEXT: 2024년 7월 13일, 14일
 
 RESOURCE ID: badge_gofest_2024_global_title
 TEXT: Pokémon GO Fest 2024
 
 RESOURCE ID: badge_gofest_2024_test
-TEXT: July 13-14, 2024
+TEXT: 2024년 7월 13일, 14일
 
 RESOURCE ID: badge_gofest_2024_test_title
 TEXT: Pokémon GO Fest 2024
@@ -199,6 +199,15 @@ TEXT: 우츠동을 우츠보트로 진화시키면 매지컬리프를 배울 수
 
 RESOURCE ID: bonus_implicit_social_bellsprout_raid
 TEXT: 트레이너가 협력해서 레이드배틀에서 우츠동을 이기면 그 체육관 주변에 30분동안 모다피가 나타남
+
+RESOURCE ID: bonus_pokemon_town_lapras_raid
+TEXT: 스카프를 한 라프라스가 레이드에 출현
+
+RESOURCE ID: bonus_pokemon_town_spawn_lapras
+TEXT: 라프라스가 야생에서 자주 출현
+
+RESOURCE ID: bonus_pokemon_town_spawn_pikachu
+TEXT: 피카츄가 야생에서 많이 출현
 
 RESOURCE ID: bonus_tr_gbl_euic_2024_a_desc
 TEXT: 2024 Pokémon LAIC 챔피언: 보너스 시간제한 리서치
@@ -240,7 +249,7 @@ RESOURCE ID: cleffa_hatch_event_name
 TEXT: 삐 부화데이
 
 RESOURCE ID: cleffa_hatch_event_name_leadup
-TEXT: Cleffa Hatch Day Extended Bonus
+TEXT: 부화데이 확대 보너스
 
 RESOURCE ID: cleffa_hatch_event_name_ticket
 TEXT: 삐 부화데이 프리미엄 시간제한 리서치
@@ -291,13 +300,13 @@ RESOURCE ID: fusion_description
 TEXT: 이 포켓몬은 {0}와 합체해서 {1}, 또는 {2}와 합체해서 {3}가 될 수 있습니다.
 
 RESOURCE ID: fusion_description_calyrex
-TEXT: This Pokémon can unite with Glastrier to become Ice Rider Calyrex or Spectrier to become Shadow Rider Calyrex.
+TEXT: 이 포켓몬은 블리자포스와 합체하여 버드렉스(백마 탄 모습) 또는 레이스포스와 합체하여 버드렉스(흑마 탄 모습)가 될 수 있습니다.
 
 RESOURCE ID: fusion_description_kyurem
-TEXT: This Pokémon can fuse with Reshiram to become White Kyurem or Zekrom to become Black Kyurem.
+TEXT: 이 포켓몬은 레시라무와 합체하여 화이트큐레무 또는 제크로무와 합체하여 블랙큐레무가 될 수 있습니다.
 
 RESOURCE ID: fusion_description_necrozma
-TEXT: This Pokémon can fuse with Solgaleo to become Dusk Mane Necrozma or Lunala to become Dawn Wings Necrozma.
+TEXT: 이 포켓몬은 솔가레오와 합체하여 네크로즈마(황혼의 갈기) 또는 루나아라와 합체하여 네크로즈마(새벽의 날개)가 될 수 있습니다.
 
 RESOURCE ID: fusion_feature_name
 TEXT: 합체
@@ -321,16 +330,16 @@ RESOURCE ID: fusion_no_pokemon_to_fuse
 TEXT: 합체할 {0}가 없습니다
 
 RESOURCE ID: fusion_resource_dawnwings_necrozma_name
-TEXT: Lunar Fusion Energy
+TEXT: 문 에너지
 
 RESOURCE ID: fusion_resource_dawnwings_necrozma_name_plural
-TEXT: Lunar Fusion Energy
+TEXT: 문 에너지
 
 RESOURCE ID: fusion_resource_duskmane_necrozma_name
-TEXT: Solar Fusion Energy
+TEXT: 선 에너지
 
 RESOURCE ID: fusion_resource_duskmane_necrozma_name_plural
-TEXT: Solar Fusion Energy
+TEXT: 선 에너지
 
 RESOURCE ID: fusion_unfuse_button
 TEXT: 분리
@@ -345,22 +354,22 @@ RESOURCE ID: fusion_unfuse_description
 TEXT: 이 {0}(은)는 {1}(와)과 {2}(으)로 분리됩니다.
 
 RESOURCE ID: fusion_unfuse_description_calyrex_icerider
-TEXT: Ice Rider Calyrex will separate into Glastrier and Calyrex.
+TEXT: 이 버드렉스는 블리자포스와 버드렉스로 분리합니다.
 
 RESOURCE ID: fusion_unfuse_description_calyrex_shadowrider
-TEXT: Shadow Rider Calyrex will separate into Spectrier and Calyrex.
+TEXT: 이 버드렉스는 레이스포스와 버드렉스로 분리합니다.
 
 RESOURCE ID: fusion_unfuse_description_kyurem_black
-TEXT: Black Kyurem will separate into Zekrom and Kyurem.
+TEXT: 이 블랙큐레무는 제크로무와 큐레무로 분리합니다.
 
 RESOURCE ID: fusion_unfuse_description_kyurem_white
-TEXT: White Kyurem will separate into Reshiram and Kyurem.
+TEXT: 이 화이트큐레무는 레시라무와 큐레무로 분리합니다.
 
 RESOURCE ID: fusion_unfuse_description_necrozma_dawnwings
-TEXT: Dawn Wings Necrozma will separate into Necrozma and Lunala.
+TEXT: 이 네크로즈마는 네크로즈마와 루나아라로 분리합니다.
 
 RESOURCE ID: fusion_unfuse_description_necrozma_duskmane
-TEXT: Dusk Mane Necrozma will separate into Necrozma and Solgaleo.
+TEXT: 이 네크로즈마는 네크로즈마와 솔가레오로 분리합니다.
 
 RESOURCE ID: fusion_unfuse_error_toast
 TEXT: 분리하지 못했습니다. 다시 시도해 주십시오.
@@ -420,43 +429,19 @@ RESOURCE ID: gofest2024_habitat4
 TEXT: Darkest Night
 
 RESOURCE ID: gofest2024_hour_habitat1
-TEXT: Now: Dawn Meadow!
+TEXT: Now: Dawn Meadow habitat!
 
 RESOURCE ID: gofest2024_hour_habitat2
-TEXT: Now: Shining Day!
+TEXT: Now: Shining Day habitat!
 
 RESOURCE ID: gofest2024_hour_habitat3
-TEXT: Now: Creeping Dusk!
+TEXT: Now: Creeping Dusk habitat!
 
 RESOURCE ID: gofest2024_hour_habitat4
-TEXT: Now: Darkest Night!
-
-RESOURCE ID: gofest2024_quest_branch_crabrawler_description
-TEXT: Pick this branch, and your radar will be focused on Crabrawler. When they are nearby, they’ll be prioritized in your nearby Pokémon list!
-
-RESOURCE ID: gofest2024_quest_branch_crabrawler_title
-TEXT: Radar Tuning: Crabrawler
-
-RESOURCE ID: gofest2024_quest_branch_ducklett_description
-TEXT: Pick this branch, and your radar will be focused on Ducklett. When they are nearby, they’ll be prioritized in your nearby Pokémon list!
-
-RESOURCE ID: gofest2024_quest_branch_ducklett_title
-TEXT: Radar Tuning: Ducklett
-
-RESOURCE ID: gofest2024_quest_branch_emolga_description
-TEXT: Pick this branch, and your radar will be focused on Emolga. When they are nearby, they’ll be prioritized in your nearby Pokémon list!
-
-RESOURCE ID: gofest2024_quest_branch_emolga_title
-TEXT: Radar Tuning: Emolga
-
-RESOURCE ID: gofest2024_quest_branch_radiance_title
-TEXT: Basking in the Radiance
-
-RESOURCE ID: gofest2024_quest_branch_umbra_title
-TEXT: Hidden in the Umbra
+TEXT: Now: Darkest Night habitat!
 
 RESOURCE ID: gofest2024_ticketed
-TEXT: GO Fest 2024 - Ticketed Experience
+TEXT: Pokémon GO Fest 2024 – Ticketed Experience
 
 RESOURCE ID: hatch_candy_double_party
 TEXT: 2× 팀 참가 중 알 부화했을 때의 사탕
@@ -465,7 +450,7 @@ RESOURCE ID: hatch_day_2k_cleffa
 TEXT: 삐가 2km 알에서 부화
 
 RESOURCE ID: hatch_day_bonus
-TEXT: Hatch Day Ticket Bonus
+TEXT: 부화데이 티켓 보너스
 
 RESOURCE ID: hatch_stardust_double_party
 TEXT: 2× 팀 참가 중 알 부화했을 때의 별의모래
@@ -531,19 +516,19 @@ RESOURCE ID: meshing_option_title
 TEXT: 메싱
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-22T20:23:30.367120+00:00 for ko-KR
-at SHA f69f656f4e
-Pipeline 2275077, job 27546326
-Patch from: 0.309.1-SHA-bdca83ab-RC1, 0.311.0-SHA-fd704a60-RC1
+TEXT: Built at 2024-04-25T18:21:03.661599+00:00 for ko-KR
+at SHA eeb70ebfec
+Pipeline 2285758, job 27662246
+Patch from: 0.309.0-SHA-67463ddf-RC3, 0.311.0-SHA-e728d329-RC3
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found during the night and allows nighttime evolutions.
 
 RESOURCE ID: move_name_0404
-TEXT: Sunsteel Strike
+TEXT: 메테오드라이브
 
 RESOURCE ID: move_name_0405
-TEXT: Moongeist Beam
+TEXT: 섀도레이
 
 RESOURCE ID: n_backpack_combeebackpack_0_display_name
 TEXT: 도롱충이 귀걸이 (초목도롱)
@@ -1739,6 +1724,12 @@ TEXT: {0}(이)가 부족합니다!
 RESOURCE ID: pokemon_info_transfer_fused_pokemon
 TEXT: 합체한 포켓몬은 보낼 수 없습니다!
 
+RESOURCE ID: pokemon_town_event_2024
+TEXT: Pokémon Town 2024
+
+RESOURCE ID: pokemon_town_event_2024_lapras
+TEXT: Pokémon Town 2024 -라프라스의 호수
+
 RESOURCE ID: pokestop_spin_xp_double_party
 TEXT: 2× 팀 참가 중 포켓스톱 스핀 XP
 
@@ -1768,6 +1759,12 @@ TEXT: 모다피의 GO스냅샷을 {0}장 찍는다
 
 RESOURCE ID: quest_fuse_necrozma
 TEXT: Fuse Necrozma
+
+RESOURCE ID: quest_local_trainer_battle
+TEXT: Battle a Trainer locally by scanning their Battle Code.
+
+RESOURCE ID: quest_power_up_singular_marshadow
+TEXT: Power up Marshadow
 
 RESOURCE ID: quest_shelgon_evolve_b_plural
 TEXT: 쉘곤을 {0}마리 진화시킨다
@@ -1947,25 +1944,25 @@ RESOURCE ID: rejoin_warning_modal_title
 TEXT: 팀에서 빠지겠습니까?
 
 RESOURCE ID: route_appealed_deletion_confirm_description
-TEXT: This action cannot be undone. If you proceed, this Route will be completely lost and unrecoverable, and the appeal you submitted will not be reviewed.
+TEXT: 이 조작은 다시 할 수 없습니다. 결정하면 이 루트는 완전히 사라지며 제출한 이의신청은 심사가 진행되지 않습니다.
 
 RESOURCE ID: route_archived_info_modal_description
-TEXT: If there are a lot of Routes in an area, only the top {0} Routes are highlighted to nearby Trainers. Which Routes are highlighted changes from day to day and may be impacted by these factors:
-• ratings
-• popularity
-• age
+TEXT: 하나의 에리어 내에 루트가 많이 있는 경우, 위에서 {0}개만이 근처에 있는 루트로 강조됩니다. 어떤 루트가 표시될지 날마다 다르며 다음 요소에 따라 달라집니다:
+- 평가
+- 인기
+- 작성된 날
 
 RESOURCE ID: route_archived_info_modal_title
-TEXT: Visibility of Nearby Routes
+TEXT: 근처 루트가 보이는 방식
 
 RESOURCE ID: route_archived_notice
-TEXT: This Route is not currently highlighted to nearby Trainers.
+TEXT: 이 루트는 강조표시 제외 대상입니다.
 
 RESOURCE ID: route_favorite_error_max
-TEXT: You’ve already reached the maximum number of favorite Routes.
+TEXT: 즐겨찾기 루트가 최대 수에 도달했습니다
 
 RESOURCE ID: route_favorite_error_rate_limited
-TEXT: Unable to favorite this Route. Please try again later.
+TEXT: 이 루트를 즐겨찾기에 추가하지 못했습니다. 잠시 후 다시 시도해 주십시오.
 
 RESOURCE ID: route_pin_error_not_enough_stickers
 TEXT: Choose a different sticker.
@@ -2138,10 +2135,10 @@ RESOURCE ID: ticket_bellsprout
 TEXT: 모다피 커뮤니티 데이 스페셜리서치 티켓이 숍에 등장
 
 RESOURCE ID: tr_gofest2024_earlybird1
-TEXT: Timed Research: Radiance
+TEXT: 시간제한 리서치: 부드러운 햇빛
 
 RESOURCE ID: tr_gofest2024_earlybird2
-TEXT: Timed Research: Umbra
+TEXT: 시간제한 리서치: 날카로운 달빛
 
 RESOURCE ID: trade_exclusion_fusion
 TEXT: 합체한 포켓몬은 교환에 보낼 수 없습니다.

@@ -167,13 +167,13 @@ RESOURCE ID: badge_aa_2024_surabaya_day_02_title
 TEXT: Jornada de Pikachu na Indonésia
 
 RESOURCE ID: badge_gofest_2024_global
-TEXT: July 13-14, 2024
+TEXT: July 13–14, 2024
 
 RESOURCE ID: badge_gofest_2024_global_title
 TEXT: Pokémon GO Fest 2024
 
 RESOURCE ID: badge_gofest_2024_test
-TEXT: July 13-14, 2024
+TEXT: July 13–14, 2024
 
 RESOURCE ID: badge_gofest_2024_test_title
 TEXT: Pokémon GO Fest 2024
@@ -186,6 +186,15 @@ TEXT: Evolua Weepinbell para conseguir Victreebel que sabe o ataque ágil Folha 
 
 RESOURCE ID: bonus_implicit_social_bellsprout_raid
 TEXT: Se Treinadores trabalharem juntos para vencer um Reide de Weepinbell, um grande número de Bellsprout aparecerá na área por 30 minutos
+
+RESOURCE ID: bonus_pokemon_town_lapras_raid
+TEXT: Lapras com cachecol aparecendo em Reides
+
+RESOURCE ID: bonus_pokemon_town_spawn_lapras
+TEXT: Lapras selvagens estão aparecendo com mais frequência
+
+RESOURCE ID: bonus_pokemon_town_spawn_pikachu
+TEXT: Pikachu selvagens estão aparecendo com mais frequência
 
 RESOURCE ID: bonus_tr_gbl_euic_2024_a_desc
 TEXT: Campeão do CIAL 2024: pesquisa temporária bônus
@@ -227,7 +236,7 @@ RESOURCE ID: cleffa_hatch_event_name
 TEXT: Dia de Chocar Cleffa
 
 RESOURCE ID: cleffa_hatch_event_name_leadup
-TEXT: Cleffa Hatch Day Extended Bonus
+TEXT: Bônus adicionais do Dia de Chocar
 
 RESOURCE ID: cleffa_hatch_event_name_ticket
 TEXT: Pesquisa Temporária Premium de O Dia de Chocar Cleffa
@@ -410,43 +419,19 @@ RESOURCE ID: gofest2024_habitat4
 TEXT: Darkest Night
 
 RESOURCE ID: gofest2024_hour_habitat1
-TEXT: Now: Dawn Meadow!
+TEXT: Now: Dawn Meadow habitat!
 
 RESOURCE ID: gofest2024_hour_habitat2
-TEXT: Now: Shining Day!
+TEXT: Now: Shining Day habitat!
 
 RESOURCE ID: gofest2024_hour_habitat3
-TEXT: Now: Creeping Dusk!
+TEXT: Now: Creeping Dusk habitat!
 
 RESOURCE ID: gofest2024_hour_habitat4
-TEXT: Now: Darkest Night!
-
-RESOURCE ID: gofest2024_quest_branch_crabrawler_description
-TEXT: Pick this branch, and your radar will be focused on Crabrawler. When they are nearby, they’ll be prioritized in your nearby Pokémon list!
-
-RESOURCE ID: gofest2024_quest_branch_crabrawler_title
-TEXT: Radar Tuning: Crabrawler
-
-RESOURCE ID: gofest2024_quest_branch_ducklett_description
-TEXT: Pick this branch, and your radar will be focused on Ducklett. When they are nearby, they’ll be prioritized in your nearby Pokémon list!
-
-RESOURCE ID: gofest2024_quest_branch_ducklett_title
-TEXT: Radar Tuning: Ducklett
-
-RESOURCE ID: gofest2024_quest_branch_emolga_description
-TEXT: Pick this branch, and your radar will be focused on Emolga. When they are nearby, they’ll be prioritized in your nearby Pokémon list!
-
-RESOURCE ID: gofest2024_quest_branch_emolga_title
-TEXT: Radar Tuning: Emolga
-
-RESOURCE ID: gofest2024_quest_branch_radiance_title
-TEXT: Basking in the Radiance
-
-RESOURCE ID: gofest2024_quest_branch_umbra_title
-TEXT: Hidden in the Umbra
+TEXT: Now: Darkest Night habitat!
 
 RESOURCE ID: gofest2024_ticketed
-TEXT: GO Fest 2024 - Ticketed Experience
+TEXT: Pokémon GO Fest 2024 – Ticketed Experience
 
 RESOURCE ID: hatch_candy_double_party
 TEXT: 2× doces por chocar Ovos enquanto estiver em um grupo
@@ -455,7 +440,7 @@ RESOURCE ID: hatch_day_2k_cleffa
 TEXT: Cleffa pode chocar de Ovos de 2 km
 
 RESOURCE ID: hatch_day_bonus
-TEXT: Hatch Day Ticket Bonus
+TEXT: Bônus do ingresso do Dia de Chocar
 
 RESOURCE ID: hatch_stardust_double_party
 TEXT: 2× Poeira Estelar por chocar Ovos enquanto estiver em um grupo
@@ -524,10 +509,10 @@ RESOURCE ID: meshing_option_title
 TEXT: Combinação
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-22T20:23:30.367120+00:00 for pt-BR
-at SHA f69f656f4e
-Pipeline 2275077, job 27546326
-Patch from: 0.309.1-SHA-bdca83ab-RC1, 0.311.0-SHA-fd704a60-RC1
+TEXT: Built at 2024-04-25T18:21:03.661599+00:00 for pt-BR
+at SHA eeb70ebfec
+Pipeline 2285758, job 27662246
+Patch from: 0.309.0-SHA-67463ddf-RC3, 0.311.0-SHA-e728d329-RC3
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found during the night and allows nighttime evolutions.
@@ -859,6 +844,12 @@ TEXT: Você precisa de mais {0} para fundir.
 RESOURCE ID: pokemon_info_transfer_fused_pokemon
 TEXT: Você não pode transferir um Pokémon fundido!
 
+RESOURCE ID: pokemon_town_event_2024
+TEXT: Cidade Pokémon 2024
+
+RESOURCE ID: pokemon_town_event_2024_lapras
+TEXT: Cidade Pokémon 2024: Lago Lapras
+
 RESOURCE ID: pokestop_spin_xp_double_party
 TEXT: 2× PE ao girar Poképaradas enquanto estiver em um grupo
 
@@ -897,6 +888,12 @@ TEXT: Fuse Necrozma
 
 RESOURCE ID: quest_land_nice_curve_plural
 TEXT: Jogar {0} boas bolas curvas.
+
+RESOURCE ID: quest_local_trainer_battle
+TEXT: Battle a Trainer locally by scanning their Battle Code.
+
+RESOURCE ID: quest_power_up_singular_marshadow
+TEXT: Power up Marshadow
 
 RESOURCE ID: quest_shelgon_evolve_b_plural
 TEXT: Evoluir {0} Shelgon.
@@ -1063,26 +1060,29 @@ TEXT: Dia de Reides: Mega Heracross
 RESOURCE ID: raid_ticketed_bonus_plural
 TEXT: Bônus do ingresso para o Dia de Reides
 
+RESOURCE ID: rivals_event_name
+TEXT: Semana dos Rivais
+
 RESOURCE ID: route_appealed_deletion_confirm_description
-TEXT: This action cannot be undone. If you proceed, this Route will be completely lost and unrecoverable, and the appeal you submitted will not be reviewed.
+TEXT: Esta ação não pode ser desfeita. Se você prosseguir, esta Rota será completamente perdida e não poderá ser recuperada, e o recurso que você submeteu não será revisado.
 
 RESOURCE ID: route_archived_info_modal_description
-TEXT: If there are a lot of Routes in an area, only the top {0} Routes are highlighted to nearby Trainers. Which Routes are highlighted changes from day to day and may be impacted by these factors:
-• ratings
-• popularity
-• age
+TEXT: Se houver muitas Rotas em uma área, apenas as {0} principais Rotas estarão destacadas para os Treinadores próximos. As Rotas destacadas mudam de um dia para o outro e podem ser impactadas pelos seguintes fatores:
+• avaliação
+• popularidade
+• tempo de existência
 
 RESOURCE ID: route_archived_info_modal_title
-TEXT: Visibility of Nearby Routes
+TEXT: Visibilidade de Rotas próximas
 
 RESOURCE ID: route_archived_notice
-TEXT: This Route is not currently highlighted to nearby Trainers.
+TEXT: No momento, esta Rota não está destacada para Treinadores próximos.
 
 RESOURCE ID: route_favorite_error_max
-TEXT: You’ve already reached the maximum number of favorite Routes.
+TEXT: Você já atingiu o número máximo de Rotas favoritas.
 
 RESOURCE ID: route_favorite_error_rate_limited
-TEXT: Unable to favorite this Route. Please try again later.
+TEXT: Não foi possível adicionar esta Rota aos favoritos. Tente novamente mais tarde.
 
 RESOURCE ID: route_pin_error_not_enough_stickers
 TEXT: Choose a different sticker.
@@ -1247,10 +1247,10 @@ RESOURCE ID: ticket_bellsprout
 TEXT: Ingresso para a narrativa de pesquisa especial do Dia Comunitário de Bellsprout está disponível na loja
 
 RESOURCE ID: tr_gofest2024_earlybird1
-TEXT: Timed Research: Radiance
+TEXT: Pesquisa Temporária: Um Vislumbre da Luz do Sol
 
 RESOURCE ID: tr_gofest2024_earlybird2
-TEXT: Timed Research: Umbra
+TEXT: Pesquisa Temporária: A Ascensão da Luz da Lua
 
 RESOURCE ID: trade_exclusion_fusion
 TEXT: Você não pode trocar um Pokémon fundido!
