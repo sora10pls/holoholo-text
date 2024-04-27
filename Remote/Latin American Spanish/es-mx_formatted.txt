@@ -107,6 +107,9 @@ TEXT: Solo los locos tendrían el valor de desafiarme.
 RESOURCE ID: as_outfit_only_own_items
 TEXT: Solo puedes guardar estilos creados con artículos que ya tienes.
 
+RESOURCE ID: avatar_detail_walking_distance
+TEXT: Distancia recorrida
+
 RESOURCE ID: avatar_f_backpack_combeebackpack_00_bundle_icon
 TEXT: Bolsa de Combee macho
 
@@ -284,6 +287,9 @@ TEXT: Elige esta bonificación para disfrutar de una duración prolongada de los
 
 RESOURCE ID: bonus_choice_2x_star_piece_desc
 TEXT: Elige esta bonificación para disfrutar de una duración prolongada de los Fragmentos Estrella durante el resto de la sesión con entrada.
+
+RESOURCE ID: bonus_daily_field_research_pokecoins
+TEXT: You will receive a Field Research task to earn 20 Poké Coins daily if you have 3 or fewer Field Research tasks!
 
 RESOURCE ID: bonus_diamond_badge_candy
 TEXT: Tres Caramelos Dialga adicionales por atrapar Dialga en incursiones
@@ -548,7 +554,7 @@ RESOURCE ID: cleffa_hatch_event_name
 TEXT: Día de Eclosiones de Cleffa
 
 RESOURCE ID: cleffa_hatch_event_name_leadup
-TEXT: Hatch Day Extended Bonus
+TEXT: Bonificaciones complementarias del Día de Eclosiones
 
 RESOURCE ID: cleffa_hatch_event_name_ticket
 TEXT: Investigación Temporal Prémium del Día de Eclosiones de Cleffa
@@ -571,6 +577,15 @@ TEXT: Desafío de Colección de Pikachu de viaje por Indonesia
 
 RESOURCE ID: collection_aa2024_surabaya_day_02
 TEXT: Desafío de Colección de Pikachu de viaje por Indonesia
+
+RESOURCE ID: combat_debuff_lvl1
+TEXT: {0}: ¡bajó!
+
+RESOURCE ID: combat_debuff_lvl2
+TEXT: {0}: ¡bajó mucho!
+
+RESOURCE ID: combat_debuff_lvl3
+TEXT: {0}: ¡bajó muchísimo!
 
 RESOURCE ID: combat_giovanni_quote#3
 TEXT: Tu Profesor no te preparó para esto.
@@ -614,6 +629,9 @@ TEXT: Solo un ejemplar por especie puede ser asignado simultáneamente para defe
 RESOURCE ID: dusk_mane_move_content
 TEXT: Shines the light of a meteor for {0}. Attracts Pokémon found during the day and allows daytime evolutions.
 
+RESOURCE ID: encounter_score_pokemon_caught
+TEXT: Pokémon atrapado
+
 RESOURCE ID: end_of_season_reminder
 TEXT: ¡Solo te queda una semana para aumentar tu rango en la Liga de Combates GO de esta temporada!
 
@@ -634,6 +652,9 @@ TEXT: 20 de abril de 2:00 p. m. a 5:00 p. m.
 
 RESOURCE ID: event_datetime_range_key_cleffahatchday2024
 TEXT: 28 de abril de 2:00 p. m. a 5:00 p. m.
+
+RESOURCE ID: event_datetime_range_key_cointicket2024
+TEXT: May 16, 2024 at 12:00 a.m. to May 30, 2024, at 11:59 p.m.
 
 RESOURCE ID: event_datetime_range_key_gotour2024
 TEXT: Del 19 de febrero a las 10 a. m.
@@ -658,6 +679,9 @@ TEXT: ¡Cuando veo un Pokémon suave solo quiero abrazarlo bien fuerte! ¡Ayyy!
 
 RESOURCE ID: event_fashion_week_sept21_npc06_combat_quote
 TEXT: Y créeme, mis Pokémon no son solo bonitos.
+
+RESOURCE ID: event_name_glitzglam
+TEXT: Destellos y diamantes
 
 RESOURCE ID: event_season9_name
 TEXT: Temporada 9: Deseos Míticos
@@ -702,6 +726,9 @@ TEXT: 2× Polvo Estrella por tu primera captura del día
 
 RESOURCE ID: firstspin_experience_triple
 TEXT: 3× EXP por girar el primer fotodisco del día
+
+RESOURCE ID: fitness_distance_report
+TEXT: ¡Esta semana has recorrido {0:0.#} {1}!
 
 RESOURCE ID: free_box_push_2
 TEXT: ¡Tu Caja Gratis Diaria contiene objetos seleccionados solo para ti! Encuéntrala en la Tienda del juego.
@@ -793,6 +820,9 @@ TEXT: No se pudo separar a los Pokémon. Vuelve a intentarlo.
 
 RESOURCE ID: fusion_unfuse_question
 TEXT: ¿Quieres separar a {0}?
+
+RESOURCE ID: gbl_championships_2024_bonus_event
+TEXT: Evento de bonificación: ¡A combatir!
 
 RESOURCE ID: general1.ticket.2_augcd2023_description
 TEXT: Una entrada para acceder a la Investigación Especial del Día de la Comunidad de Froakie el 13 de agosto de 2023 de 2 p. m. a 5 p. m. en tu hora local, estés donde estés.
@@ -1096,6 +1126,9 @@ TEXT: Entrada: Día de la Comunidad de Bellsprout
 RESOURCE ID: general1.ticket_cleffahatchday2024_title
 TEXT: Entrada: Investigación Temporal Prémium del Día de Eclosiones de Cleffa
 
+RESOURCE ID: general1.ticket_cointicket2024_title
+TEXT: Daily Poké Coin Field Research Ticket
+
 RESOURCE ID: general1.ticket_cosmog2023_description
 TEXT: Una entrada para acceder al conjunto adicional de Investigaciones Especiales de "Cielo estrellado" del viernes 16 de junio de 2023 a las 10 a. m. al domingo 25 de junio de 2023 a las 8 p. m. en tu hora local, estés donde estés. ¡Esta Investigación Especial te dará la oportunidad de tener un encuentro adicional con Cosmog!
 
@@ -1306,13 +1339,28 @@ RESOURCE ID: hatch_day_2k_cleffa
 TEXT: Cleffa puede eclosionar de los Huevos de 2 km
 
 RESOURCE ID: hatch_day_bonus
-TEXT: Hatch Day Ticket Bonus
+TEXT: Bonificación de la entrada del Día de Eclosiones
 
 RESOURCE ID: hatch_stardust_double_party
 TEXT: 2× Polvo Estrella por eclosión cuando estés en un equipo
 
 RESOURCE ID: hatch_xp_triple
 TEXT: 3× EXP por eclosión
+
+RESOURCE ID: holiday_2019_catch_1
+TEXT: Evento festivo: Atrapa {0} Pokémon de tipo Hielo
+
+RESOURCE ID: holiday_2019_catch_sd
+TEXT: Evento festivo: Atrapa {0} Delibird o Snover
+
+RESOURCE ID: holiday_2019_hatch
+TEXT: Evento festivo: Eclosiona {0} Huevos
+
+RESOURCE ID: holiday_2019_snapshot
+TEXT: Evento festivo: Toma {0} fotos de Pokémon de tipo Hielo
+
+RESOURCE ID: holidayw_2019_evolve
+TEXT: Evento festivo: Evoluciona {0} Pokémon de tipo Hielo
 
 RESOURCE ID: incense_use_error2
 TEXT: Solo puedes usar un tipo de Incienso a la vez.
@@ -1349,6 +1397,12 @@ TEXT: Solo puedes usar Revivir con Pokémon debilitados.
 
 RESOURCE ID: item_event_ticket_10_desc
 TEXT: Una entrada para acceder a la Investigación Temporal "Entrada Maravillosa" del 1 de marzo a las 10:00 a. m. al 14 de junio a las 8:00 p. m. en tu hora local, estés donde estés.
+
+RESOURCE ID: item_event_ticket_evergreen_desc_cointicket2024
+TEXT: A ticket to receive a Field Research task when you have an open Field Research slot that includes a reward for 20 Poké Coins when completed, once a day.
+
+RESOURCE ID: item_event_ticket_evergreen_details_cointicket2024
+TEXT: This ticket will automatically activate to give you access to the Daily Poké Coin Field Research Ticket experience on May 16, wherever you are.
 
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: Una entrada para acceder a bonificaciones especiales el sábado 13 de abril de 2024 de 2:00 p. m. a 10:00 p. m. en tu hora local, estés donde estés.
@@ -1474,16 +1528,40 @@ RESOURCE ID: meshing_option_title
 TEXT: Mallado
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-25T18:21:03.661599+00:00 for es-MX
-at SHA eeb70ebfec
-Pipeline 2285758, job 27662246
-Patch from: 0.309.0-SHA-67463ddf-RC3, 0.311.0-SHA-e728d329-RC3
+TEXT: Built at 2024-04-27T05:36:04.016345+00:00 for es-MX
+at SHA 092ed54817
+Pipeline 2291761, job 27728627
+Patch from: 0.309.1-SHA-bdca83ab-RC1, 0.311.0-SHA-848704ba-RC6, 0.313.0-SHA-b99ca9ed-RC1
 
 RESOURCE ID: minicollect_help_subtitle
 TEXT: Algunos Pokémon solo se pueden encontrar de una forma determinada. Consulta los símbolos a continuación para saber cómo encontrarte con el Pokémon que quieras.
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found during the night and allows nighttime evolutions.
+
+RESOURCE ID: move_name_0047
+TEXT: Tormenta de Pétalos
+
+RESOURCE ID: move_name_0081
+TEXT: Aliento de Dragón
+
+RESOURCE ID: move_name_0204
+TEXT: Aliento de Dragón
+
+RESOURCE ID: move_name_0240
+TEXT: Colmillo de Fuego
+
+RESOURCE ID: move_name_0326
+TEXT: Colmillo de Trueno
+
+RESOURCE ID: move_name_0327
+TEXT: Colmillo de Hielo
+
+RESOURCE ID: move_name_0343
+TEXT: Tormenta de Hojas
+
+RESOURCE ID: move_name_0384
+TEXT: Ascenso Dracónico
 
 RESOURCE ID: move_name_0404
 TEXT: Meteoimpacto
@@ -1610,6 +1688,9 @@ TEXT: Un equipo solo puede durar {0} horas.
 
 RESOURCE ID: party_play_expire_body_singular
 TEXT: Un equipo solo puede durar 1 hora.
+
+RESOURCE ID: party_play_join
+TEXT: Unirse
 
 RESOURCE ID: party_play_leave_party_message
 TEXT: Puedes volver a unirte introduciendo el código del equipo mientras te encuentres cerca de la persona que lo creó.
@@ -2102,6 +2183,12 @@ TEXT: Ahora solo nos queda sentarnos y disfrutar de la música.
 RESOURCE ID: quest_gofest_2021_dialogue_rockstarponyta_4_1
 TEXT: Se sabe que Ponyta de Galar puede leerle la mente a cualquiera con tan solo mirarlo a los ojos. Si detecta algún pensamiento ruin, desaparece instantáneamente.
 
+RESOURCE ID: quest_gotour_kanto_bonus
+TEXT: Tour de Pokémon GO: Kanto - Evento de bonificación
+
+RESOURCE ID: quest_gotour_kanto_bonus_1
+TEXT: Tour de Pokémon GO: Kanto - Evento de bonificación (1/3)
+
 RESOURCE ID: quest_local_trainer_battle
 TEXT: Battle a Trainer locally by scanning their Battle Code.
 
@@ -2453,6 +2540,24 @@ TEXT: Descubriendo a Bellsprout (3/4)
 RESOURCE ID: quest_title_bellsprout_3
 TEXT: Descubriendo a Bellsprout (4/4)
 
+RESOURCE ID: quest_title_global_diancie_0
+TEXT: Destellos y diamantes (1/6)
+
+RESOURCE ID: quest_title_global_diancie_1
+TEXT: Destellos y diamantes (2/6)
+
+RESOURCE ID: quest_title_global_diancie_2
+TEXT: Destellos y diamantes (3/6)
+
+RESOURCE ID: quest_title_global_diancie_3
+TEXT: Destellos y diamantes (4/6)
+
+RESOURCE ID: quest_title_global_diancie_4
+TEXT: Destellos y diamantes (5/6)
+
+RESOURCE ID: quest_title_global_diancie_5
+TEXT: Destellos y diamantes (6/6)
+
 RESOURCE ID: quest_title_rediscover_kanto
 TEXT: Redescubre Kanto
 
@@ -2580,19 +2685,19 @@ RESOURCE ID: rocket_raid_increase
 TEXT: Están apareciendo incursiones oscuras con más frecuencia
 
 RESOURCE ID: route_appealed_deletion_confirm_description
-TEXT: This action cannot be undone. If you proceed, this Route will be completely lost and unrecoverable, and the appeal you submitted will not be reviewed.
+TEXT: Esta acción no se puede deshacer. Si continúas, esta Ruta se perderá completamente y no se podrá recuperar, y la apelación que enviaste no será revisada.
 
 RESOURCE ID: route_archived_info_modal_description
-TEXT: If there are a lot of Routes in an area, only the top {0} Routes are highlighted to nearby Trainers. Which Routes are highlighted changes from day to day and may be impacted by these factors:
-• ratings
-• popularity
-• age
+TEXT: Si hay muchas Rutas en una zona, solo se destacan las {0} Rutas principales para los Entrenadores cercanos. Las Rutas destacadas cambian cada día y pueden verse afectadas por estos factores:
+• calificaciones
+• popularidad
+• tiempo desde su creación
 
 RESOURCE ID: route_archived_info_modal_title
-TEXT: Visibility of Nearby Routes
+TEXT: Visibilidad de las Rutas cercanas
 
 RESOURCE ID: route_archived_notice
-TEXT: This Route is not currently highlighted to nearby Trainers.
+TEXT: Esta Ruta no aparece destacada para los Entrenadores cercanos en este momento.
 
 RESOURCE ID: route_creation_edit_error
 TEXT: Ya editaste la Ruta enviada. Las Rutas enviadas solo se pueden editar una vez.
@@ -2604,10 +2709,10 @@ RESOURCE ID: route_creation_recording_end_toast
 TEXT: Estás en el punto de llegada de la Ruta. Abre la página de registro de la trayectoria para finalizar el registro de la Ruta.
 
 RESOURCE ID: route_favorite_error_max
-TEXT: You’ve already reached the maximum number of favorite Routes.
+TEXT: Ya alcanzaste el número máximo de Rutas favoritas.
 
 RESOURCE ID: route_favorite_error_rate_limited
-TEXT: Unable to favorite this Route. Please try again later.
+TEXT: No es posible marcar esta Ruta como favorita. Vuelve a intentarlo más tarde.
 
 RESOURCE ID: route_mental_health_resources_link
 TEXT: https://nianticlabs.com/safety/mental-health-resources?hl=es
@@ -2846,6 +2951,87 @@ TEXT: Lo pude ver solo por un segundo, pero sus colores morado y rosa eran tan v
 RESOURCE ID: story_worldofwonders_3_1
 TEXT: Y solo verificamos los informes de avistamientos que nos llegaron, podrían haber más.
 
+RESOURCE ID: storyquest_global_diancie_0_0
+TEXT: Hola, %PLAYERNAME%. Qué gusto verte. Tengo una excelente noticia.
+
+RESOURCE ID: storyquest_global_diancie_0_1
+TEXT: Alguien de mi equipo de investigación fue a una excavación hace poco y encontró unos diamantes muy curiosos.
+
+RESOURCE ID: storyquest_global_diancie_0_2
+TEXT: El equipo sospecha que no son unos diamantes normales, ¡sino que están creados por el Pokémon Joya, Diancie!
+
+RESOURCE ID: storyquest_global_diancie_0_3
+TEXT: Me van a enviar unas muestras. ¡No veo la hora de examinarlas más a fondo!
+
+RESOURCE ID: storyquest_global_diancie_0_4
+TEXT: Mientras esperamos a que lleguen, ¡voy a empezar a preparar algunos datos deslumbrantes sobre Diancie para compartirlos contigo!
+
+RESOURCE ID: storyquest_global_diancie_1_0
+TEXT: ¡Hola de nuevo!
+
+RESOURCE ID: storyquest_global_diancie_1_1
+TEXT: Me temo que las muestras que me tienen que enviar siguen en camino, pero te prometí información sobre Diancie y no pienso Dian-cepcionarte.
+
+RESOURCE ID: storyquest_global_diancie_1_2
+TEXT: Se dice que Diancie puede crear una gran cantidad de diamantes en un instante al comprimir con las manos el carbono que flota en el aire.
+
+RESOURCE ID: storyquest_global_diancie_1_3
+TEXT: ¿Impresionante, verdad? Me pregunto si el color y el brillo de estos diamantes son diferentes a los de otros diamantes...
+
+RESOURCE ID: storyquest_global_diancie_2_0
+TEXT: ¡Buen trabajo, %PLAYERNAME%! Te ganaste una adivinanza: ¿de qué Pokémon es una transformación súbita Diancie?
+
+RESOURCE ID: storyquest_global_diancie_2_1
+TEXT: ¡Claro que sí, de Carbink! Se dice que en las profundidades subterráneas viven grupos enteros de Carbink con su reina, rodeados de todo tipo de joyas.
+
+RESOURCE ID: storyquest_global_diancie_2_2
+TEXT: Debe ser un verdadero espectáculo. ¿Será Diancie su reina?
+
+RESOURCE ID: storyquest_global_diancie_2_3
+TEXT: Bueno, mientras esperamos a que lleguen las muestras, ¿por qué no sales a explorar la zona por si te encuentras con un Carbink que podamos observar?
+
+RESOURCE ID: storyquest_global_diancie_3_0
+TEXT: ¡Qué gran trabajo! ¡Encontraste un Carbink!
+
+RESOURCE ID: storyquest_global_diancie_3_1
+TEXT: Aquí va un dato que quizás no conocías: desde su nacimiento, lleva cientos de millones de años durmiendo en las profundidades subterráneas.
+
+RESOURCE ID: storyquest_global_diancie_3_2
+TEXT: Me encantaría pulir mi conocimiento sobre un Pokémon tan longevo.
+
+RESOURCE ID: storyquest_global_diancie_3_3
+TEXT: En fin, me llegó una notificación de que las muestras que me enviaron deberían llegar muy pronto.
+
+RESOURCE ID: storyquest_global_diancie_3_4
+TEXT: Si se parecen mínimamente a Diancie, ¡prepárate, porque tus ojos se iluminarán al verlas!
+
+RESOURCE ID: storyquest_global_diancie_4_0
+TEXT: ¡Llegaron las muestras!
+
+RESOURCE ID: storyquest_global_diancie_4_1
+TEXT: Tras analizarlas, pude confirmar que son diamantes creados por Diancie. ¡Mira cuánto brillo!
+
+RESOURCE ID: storyquest_global_diancie_4_2
+TEXT: Son unos diamantes excepcionales, pero ver a Diancie es algo aún más excepcional.
+
+RESOURCE ID: storyquest_global_diancie_4_3
+TEXT: Dato curioso: Diancie es un Pokémon de tipo Roca y Hada, ¡una combinación también excepcional!
+
+RESOURCE ID: storyquest_global_diancie_4_4
+TEXT: Además, Diancie puede megaevolucionar, lo que hace que brille aún más. Es un Pokémon realmente deslumbrante.
+
+RESOURCE ID: storyquest_global_diancie_5_0
+TEXT: ¡Gracias por tu ayuda investigando a Carbink y Diancie!
+
+RESOURCE ID: storyquest_global_diancie_5_1
+TEXT: Siempre atesoro el tiempo que pasamos juntos.
+
+RESOURCE ID: storyquest_global_diancie_5_2
+TEXT: Puede que nos hayamos pasado el día hablando de los destellos y diamantes de un Pokémon mítico, pero tú también brillas por cuenta propia.
+
+RESOURCE ID: storyquest_global_diancie_5_3
+TEXT: Sigue brillando, %PLAYERNAME%. ¡Hasta la próxima!
+
 RESOURCE ID: sunsteel_strike_adventure_effects_mapview_dialog
 TEXT: Shines the light of a meteor. Attracts Pokémon found during the day and allows daytime evolutions.
 
@@ -2877,6 +3063,11 @@ TEXT: <b>Las bonificaciones incluyen lo siguiente:</b>
 <b>Las recompensas incluyen las siguientes:</b>
 • 1 Superincubadora y 1 Fragmento Estrella
 • 2,500 EXP
+
+RESOURCE ID: text_rewards_key_cointicket2024
+TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from May 16, 2024 at 12:00 a.m. to May 30, 2024, at 11:59 p.m. local time, wherever you are.
+If you purchase this ticket, every day from May 16 - May 30, you may receive a bonus Field Research the first time you login each day. 
+Please note: You must have 3 or fewer Field Research in your account to be granted this bonus Field Research the first time you login that day! Also, you will only receive the 20 Poké Coins if you claim the reward after task completion. You can learn more about bonus Field Research <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here </a>
 
 RESOURCE ID: text_rewards_key_febmonthly2024
 TEXT: <b>Incluye:</b>

@@ -202,6 +202,9 @@ TEXT: コモルーをボーマンダに進化させるとげきりんを覚え�
 RESOURCE ID: bonus_cd_move_bellsprout
 TEXT: ウツドンをウツボットに進化させるとマジカルリーフを覚えている
 
+RESOURCE ID: bonus_daily_field_research_pokecoins
+TEXT: You will receive a Field Research task to earn 20 Poké Coins daily if you have 3 or fewer Field Research tasks!
+
 RESOURCE ID: bonus_implicit_social_bellsprout_raid
 TEXT: トレーナーが協力してレイドでウツドンを倒すと、そのジムの周りに30分間マダツボミが現れる
 
@@ -268,8 +271,14 @@ TEXT: 4月20日2:00PM～5:00PM
 RESOURCE ID: event_datetime_range_key_cleffahatchday2024
 TEXT: 4月28日2:00PM～5:00PM
 
+RESOURCE ID: event_datetime_range_key_cointicket2024
+TEXT: May 16, 2024 at 12:00 a.m. to May 30, 2024, at 11:59 p.m.
+
 RESOURCE ID: event_datetime_range_key_megaheracrossraidday
 TEXT: 4月13日2:00PM～10:00PM
+
+RESOURCE ID: event_name_glitzglam
+TEXT: ピンクの輝き
 
 RESOURCE ID: fusion_buddy_error_toast
 TEXT: 相棒のポケモンを合体させることはできません！
@@ -364,6 +373,9 @@ TEXT: マダツボミコミュニティ・デイチケット
 RESOURCE ID: general1.ticket_cleffahatchday2024_title
 TEXT: ピィふかの日プレミアムタイムチャレンジチケット
 
+RESOURCE ID: general1.ticket_cointicket2024_title
+TEXT: Daily Poké Coin Field Research Ticket
+
 RESOURCE ID: gofest2024
 TEXT: Pokémon GO Fest 2024
 
@@ -454,6 +466,12 @@ TEXT: GOスナップショットで撮った写真をデコろう！「デコ」
 RESOURCE ID: iris_flair_free_title
 TEXT: 「デコ」を使おう！
 
+RESOURCE ID: item_event_ticket_evergreen_desc_cointicket2024
+TEXT: A ticket to receive a Field Research task when you have an open Field Research slot that includes a reward for 20 Poké Coins when completed, once a day.
+
+RESOURCE ID: item_event_ticket_evergreen_details_cointicket2024
+TEXT: This ticket will automatically activate to give you access to the Daily Poké Coin Field Research Ticket experience on May 16, wherever you are.
+
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: 現地時間2024年4月13日2:00PM～10:00PMにボーナスを受け取るためのチケット。
 
@@ -491,10 +509,10 @@ RESOURCE ID: meshing_option_title
 TEXT: メッシュ生成
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-25T18:21:03.661599+00:00 for ja-JP
-at SHA eeb70ebfec
-Pipeline 2285758, job 27662246
-Patch from: 0.309.0-SHA-67463ddf-RC3, 0.311.0-SHA-e728d329-RC3
+TEXT: Built at 2024-04-27T05:36:04.016345+00:00 for ja-JP
+at SHA 092ed54817
+Pipeline 2291761, job 27728627
+Patch from: 0.309.1-SHA-bdca83ab-RC1, 0.311.0-SHA-848704ba-RC6, 0.313.0-SHA-b99ca9ed-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found during the night and allows nighttime evolutions.
@@ -1562,6 +1580,24 @@ TEXT: フラワーポケモンを解明せよ！(3/4)
 RESOURCE ID: quest_title_bellsprout_3
 TEXT: フラワーポケモンを解明せよ！(4/4)
 
+RESOURCE ID: quest_title_global_diancie_0
+TEXT: ピンクの輝き (1/6)
+
+RESOURCE ID: quest_title_global_diancie_1
+TEXT: ピンクの輝き (2/6)
+
+RESOURCE ID: quest_title_global_diancie_2
+TEXT: ピンクの輝き (3/6)
+
+RESOURCE ID: quest_title_global_diancie_3
+TEXT: ピンクの輝き (4/6)
+
+RESOURCE ID: quest_title_global_diancie_4
+TEXT: ピンクの輝き (5/6)
+
+RESOURCE ID: quest_title_global_diancie_5
+TEXT: ピンクの輝き (6/6)
+
 RESOURCE ID: quest_title_rediscover_kanto
 TEXT: カントー地方ふたたび
 
@@ -1735,6 +1771,87 @@ TEXT: 保存してシェアしよう！
 RESOURCE ID: stickers_v2_deco_category
 TEXT: デコ
 
+RESOURCE ID: storyquest_global_diancie_0_0
+TEXT: やぁ、%PLAYERNAME%！会えてうれしいよ。素敵なニュースがある！
+
+RESOURCE ID: storyquest_global_diancie_0_1
+TEXT: 研究者仲間が発掘調査に行って、不思議なダイヤモンドを見つけたんだ。
+
+RESOURCE ID: storyquest_global_diancie_0_2
+TEXT: ただのダイヤじゃない。ほうせきポケモン、ディアンシーが作り出したダイヤじゃないかと言うんだ。
+
+RESOURCE ID: storyquest_global_diancie_0_3
+TEXT: 一部を送ってくれるそうだから、待つあいだ、きみに調査をお願いしよう。
+
+RESOURCE ID: storyquest_global_diancie_0_4
+TEXT: 届くまでに、わたしのほうでもディアンシーに関する情報をまとめておくよ！
+
+RESOURCE ID: storyquest_global_diancie_1_0
+TEXT: おかえり！
+
+RESOURCE ID: storyquest_global_diancie_1_1
+TEXT: まだダイヤが届いていないんだが、先にマメ知識を。
+
+RESOURCE ID: storyquest_global_diancie_1_2
+TEXT: なんと、ディアンシーは、両手のすき間で空気中の炭素を圧縮することで、一瞬にしてたくさんのダイヤを生み出すことができる。
+
+RESOURCE ID: storyquest_global_diancie_1_3
+TEXT: すごいと思わないか？そうやって生み出されたダイヤと、鉱物のダイヤモンドの色に違いはあるのだろうか．．．。
+
+RESOURCE ID: storyquest_global_diancie_2_0
+TEXT: 順調だね、%PLAYERNAME%。次はクイズだ。ディアンシーが突然変異した言われている、そのもとのポケモンは？
+
+RESOURCE ID: storyquest_global_diancie_2_1
+TEXT: そう、メレシーだ！地底の奥深くには、メレシーの群れと、その女王が暮らす宝石の国があると言うものもいる。
+
+RESOURCE ID: storyquest_global_diancie_2_2
+TEXT: どんな光景なんだろう？女王というのは、ディアンシーなんだろうか？
+
+RESOURCE ID: storyquest_global_diancie_2_3
+TEXT: そうだ。メレシーがいないか探してみてくれないか？そのほうがダイヤの到着を待つより早いぞ。
+
+RESOURCE ID: storyquest_global_diancie_3_0
+TEXT: 見つけてくれたんだね、メレシーを！
+
+RESOURCE ID: storyquest_global_diancie_3_1
+TEXT: 生まれてから数億年のあいだ地底で眠っていたメレシー！
+
+RESOURCE ID: storyquest_global_diancie_3_2
+TEXT: その数億年のあいだ、どんなことが起こっていたのか、想像もできないな。
+
+RESOURCE ID: storyquest_global_diancie_3_3
+TEXT: ふむ、どうやら、ダイヤはもうすぐ届きそうだ。
+
+RESOURCE ID: storyquest_global_diancie_3_4
+TEXT: もしもディアンシーを見かけたりしたら、驚きすぎないように準備しておくといい。
+
+RESOURCE ID: storyquest_global_diancie_4_0
+TEXT: 研究者仲間の送ってくれたダイヤが届いたよ。
+
+RESOURCE ID: storyquest_global_diancie_4_1
+TEXT: 分析してみたが、確かにディアンシーが作り出したダイヤモンドだ。この輝き！
+
+RESOURCE ID: storyquest_global_diancie_4_2
+TEXT: ダイヤ自体も非常にめずらしいが、ディアンシーを目撃するなんてめったにないことだ。
+
+RESOURCE ID: storyquest_global_diancie_4_3
+TEXT: ディアンシーは、いわタイプとフェアリータイプを持つ。この2つの組み合わせは、めずらしいと同時に興味深い！
+
+RESOURCE ID: storyquest_global_diancie_4_4
+TEXT: それに、ディアンシーはメガシンカできる。メガシンカすると、さらにまばゆく輝くんだ。まさに輝けるピンクの女王といったところだ！
+
+RESOURCE ID: storyquest_global_diancie_5_0
+TEXT: 今日はメレシーとディアンシーを一緒に調査してくれて、ありがとう。
+
+RESOURCE ID: storyquest_global_diancie_5_1
+TEXT: 一緒に調査できる、この時間はいつでも貴重なものだと感じるよ。
+
+RESOURCE ID: storyquest_global_diancie_5_2
+TEXT: 今日は幻のポケモンとその輝き、がテーマみたいになってしまったが、きみのようなトレーナーと一緒に調査することこそが宝物のような体験なんだ。
+
+RESOURCE ID: storyquest_global_diancie_5_3
+TEXT: これからもよろしく頼むよ、%PLAYERNAME%！じゃ、またすぐ会おう。
+
 RESOURCE ID: sunsteel_strike_adventure_effects_mapview_dialog
 TEXT: Shines the light of a meteor. Attracts Pokémon found during the day and allows daytime evolutions.
 
@@ -1755,6 +1872,11 @@ TEXT: <b>適用ボーナス：</b>
 <b>もらえるもの：</b>
 ・スーパーふかそうち1個とほしのかけら1個
 ・2500XP
+
+RESOURCE ID: text_rewards_key_cointicket2024
+TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from May 16, 2024 at 12:00 a.m. to May 30, 2024, at 11:59 p.m. local time, wherever you are.
+If you purchase this ticket, every day from May 16 - May 30, you may receive a bonus Field Research the first time you login each day. 
+Please note: You must have 3 or fewer Field Research in your account to be granted this bonus Field Research the first time you login that day! Also, you will only receive the 20 Poké Coins if you claim the reward after task completion. You can learn more about bonus Field Research <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here </a>
 
 RESOURCE ID: text_rewards_key_megaheracrossraidday
 TEXT: <b>もらえるもの：</b>

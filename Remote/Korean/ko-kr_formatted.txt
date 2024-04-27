@@ -197,6 +197,9 @@ TEXT: 쉘곤을 보만다로 진화시키면 스페셜 어택 역린을 배운�
 RESOURCE ID: bonus_cd_move_bellsprout
 TEXT: 우츠동을 우츠보트로 진화시키면 매지컬리프를 배울 수 있다
 
+RESOURCE ID: bonus_daily_field_research_pokecoins
+TEXT: You will receive a Field Research task to earn 20 Poké Coins daily if you have 3 or fewer Field Research tasks!
+
 RESOURCE ID: bonus_implicit_social_bellsprout_raid
 TEXT: 트레이너가 협력해서 레이드배틀에서 우츠동을 이기면 그 체육관 주변에 30분동안 모다피가 나타남
 
@@ -287,8 +290,14 @@ TEXT: 4월 20일 14시 ~ 17시
 RESOURCE ID: event_datetime_range_key_cleffahatchday2024
 TEXT: 4월 28일 14시 ~ 17시
 
+RESOURCE ID: event_datetime_range_key_cointicket2024
+TEXT: May 16, 2024 at 12:00 a.m. to May 30, 2024, at 11:59 p.m.
+
 RESOURCE ID: event_datetime_range_key_megaheracrossraidday
 TEXT: 4월 13일 14시 ~ 22시
+
+RESOURCE ID: event_name_glitzglam
+TEXT: 분홍빛의 반짝임
 
 RESOURCE ID: extra_items_pokestop_spins_party
 TEXT: 팀 참가 중 포켓스톱에서 받을 수 있는 도구 추가
@@ -386,6 +395,9 @@ TEXT: 모다피 커뮤니티 데이 티켓
 RESOURCE ID: general1.ticket_cleffahatchday2024_title
 TEXT: 삐 부화데이 프리미엄 시간제한 리서치
 
+RESOURCE ID: general1.ticket_cointicket2024_title
+TEXT: Daily Poké Coin Field Research Ticket
+
 RESOURCE ID: gofest2024
 TEXT: Pokémon GO Fest 2024
 
@@ -473,6 +485,12 @@ TEXT: GO스냅샷에서 찍은 사진을 꾸미자! '데코레이션'은 GO스�
 RESOURCE ID: iris_flair_free_title
 TEXT: 데코레이션 하자!
 
+RESOURCE ID: item_event_ticket_evergreen_desc_cointicket2024
+TEXT: A ticket to receive a Field Research task when you have an open Field Research slot that includes a reward for 20 Poké Coins when completed, once a day.
+
+RESOURCE ID: item_event_ticket_evergreen_details_cointicket2024
+TEXT: This ticket will automatically activate to give you access to the Daily Poké Coin Field Research Ticket experience on May 16, wherever you are.
+
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: 현지 시간 2024년 4월 13일 14시~ 22시에 보너스를 받기 위한 티켓.
 
@@ -516,10 +534,10 @@ RESOURCE ID: meshing_option_title
 TEXT: 메싱
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-25T18:21:03.661599+00:00 for ko-KR
-at SHA eeb70ebfec
-Pipeline 2285758, job 27662246
-Patch from: 0.309.0-SHA-67463ddf-RC3, 0.311.0-SHA-e728d329-RC3
+TEXT: Built at 2024-04-27T05:36:04.016345+00:00 for ko-KR
+at SHA 092ed54817
+Pipeline 2291761, job 27728627
+Patch from: 0.309.1-SHA-bdca83ab-RC1, 0.311.0-SHA-848704ba-RC6, 0.313.0-SHA-b99ca9ed-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found during the night and allows nighttime evolutions.
@@ -1901,6 +1919,24 @@ TEXT: 꽃포켓몬의 수수께끼를 풀어라!(3/4)
 RESOURCE ID: quest_title_bellsprout_3
 TEXT: 꽃포켓몬의 수수께끼를 풀어라!(4/4)
 
+RESOURCE ID: quest_title_global_diancie_0
+TEXT: 분홍빛의 반짝임(1/6)
+
+RESOURCE ID: quest_title_global_diancie_1
+TEXT: 분홍빛의 반짝임(2/6)
+
+RESOURCE ID: quest_title_global_diancie_2
+TEXT: 분홍빛의 반짝임(3/6)
+
+RESOURCE ID: quest_title_global_diancie_3
+TEXT: 분홍빛의 반짝임(4/6)
+
+RESOURCE ID: quest_title_global_diancie_4
+TEXT: 분홍빛의 반짝임(5/6)
+
+RESOURCE ID: quest_title_global_diancie_5
+TEXT: 분홍빛의 반짝임(6/6)
+
 RESOURCE ID: quest_title_rediscover_kanto
 TEXT: 또다시 관동지방
 
@@ -2090,6 +2126,87 @@ TEXT: 저장하고 공유하세요!
 RESOURCE ID: stickers_v2_deco_category
 TEXT: 데코레이션
 
+RESOURCE ID: storyquest_global_diancie_0_0
+TEXT: 안녕, %PLAYERNAME%! 만나서 반갑군. 멋진 소식이 있어!
+
+RESOURCE ID: storyquest_global_diancie_0_1
+TEXT: 연구자 동료가 발굴 조사에 가서 신비한 다이아몬드를 발견했어.
+
+RESOURCE ID: storyquest_global_diancie_0_2
+TEXT: 보통 다이아가 아니야. 보석포켓몬 디안시가 만든 다이아가 아닌가 하고 말하더라고.
+
+RESOURCE ID: storyquest_global_diancie_0_3
+TEXT: 일부를 보내줄 테니 기다리는 동안 네게 조사를 부탁할게.
+
+RESOURCE ID: storyquest_global_diancie_0_4
+TEXT: 도착할 때까지 나도 디안시에 대해서 정보를 정리해 둘게!
+
+RESOURCE ID: storyquest_global_diancie_1_0
+TEXT: 어서와!
+
+RESOURCE ID: storyquest_global_diancie_1_1
+TEXT: 아직 다이아가 도착하지 않았지만 먼저 간단 상식을 알려 주지.
+
+RESOURCE ID: storyquest_global_diancie_1_2
+TEXT: 놀랍게도 디안시는 양손 틈새에서 공기 중의 탄소를 압축해서 한순간에 많은 다이아를 만들 수 있어.
+
+RESOURCE ID: storyquest_global_diancie_1_3
+TEXT: 대단하지 않니? 이렇게 태어난 다이아몬드와 광물의 다이아몬드의 색에는 차이가 있는 걸까?
+
+RESOURCE ID: storyquest_global_diancie_2_0
+TEXT: %PLAYERNAME%, 순조로운 것 같군. 다음은 퀴즈야. 디안시가 갑자기 변이했다고 전해지는 그 원래 포켓몬은?
+
+RESOURCE ID: storyquest_global_diancie_2_1
+TEXT: 맞아, 멜리시! 땅속 깊은 곳에서 멜리시 무리와 그 여왕이 사는 보석의 나라가 있다고 전해지고 있어.
+
+RESOURCE ID: storyquest_global_diancie_2_2
+TEXT: 어떤 광경일까? 여왕이라는 건 디안시를 말하는 걸까?
+
+RESOURCE ID: storyquest_global_diancie_2_3
+TEXT: 그래, 멜리시가 있는지 찾아봐 주지 않을래? 그쪽이 다이아몬드 도착을 기다리는 것보다 빠르겠어.
+
+RESOURCE ID: storyquest_global_diancie_3_0
+TEXT: 멜리시를 발견했구나!
+
+RESOURCE ID: storyquest_global_diancie_3_1
+TEXT: 태어나고 수억 년 동안 땅속에서 잠들었던 멜리시!
+
+RESOURCE ID: storyquest_global_diancie_3_2
+TEXT: 그 수억 년 동안 어떤 일이 일어났는지 상상조차 할 수 없구나.
+
+RESOURCE ID: storyquest_global_diancie_3_3
+TEXT: 흠, 아무래도 다이아몬드가 곧 도착할 거 같군.
+
+RESOURCE ID: storyquest_global_diancie_3_4
+TEXT: 만약 디안시를 봤다면 놀라지 않도록 준비하는 게 좋아.
+
+RESOURCE ID: storyquest_global_diancie_4_0
+TEXT: 연구자 동료가 보내준 다이아몬드 말이야.
+
+RESOURCE ID: storyquest_global_diancie_4_1
+TEXT: 분석해봤는데 확실하게 디안시가 만들어 낸 다이아몬드가 맞아. 이 빛!
+
+RESOURCE ID: storyquest_global_diancie_4_2
+TEXT: 다이아몬드 자체도 아주 희귀하지만, 디안시를 목격하다니 정말 드문 일이야.
+
+RESOURCE ID: storyquest_global_diancie_4_3
+TEXT: 디안시는 바위타입과 페어리타입을 가지고 있어. 이 2가지 조합은 드물기도 하고 흥미롭지!
+
+RESOURCE ID: storyquest_global_diancie_4_4
+TEXT: 그리고 디안시는 메가진화할 수 있어. 메가진화 하면 더 눈부시게 빛나. 마치 빛나는 핑크의 여왕 같은 느낌이야!
+
+RESOURCE ID: storyquest_global_diancie_5_0
+TEXT: 오늘은 멜리시와 디안시를 함께 조사해줘서 고마워.
+
+RESOURCE ID: storyquest_global_diancie_5_1
+TEXT: 함께 조사할 수 있는 이 시간은 언제가 귀중하다고 생각하고 있어.
+
+RESOURCE ID: storyquest_global_diancie_5_2
+TEXT: 오늘은 환상의 포켓몬과 그 빛이 주제가 되었지만, 너 같은 트레이너와 함께 조사하는 것 자체가 보물 같은 체험이지.
+
+RESOURCE ID: storyquest_global_diancie_5_3
+TEXT: 앞으로도 잘 부탁해, %PLAYERNAME%! 그럼 또 보자.
+
 RESOURCE ID: sunsteel_strike_adventure_effects_mapview_dialog
 TEXT: Shines the light of a meteor. Attracts Pokémon found during the day and allows daytime evolutions.
 
@@ -2109,6 +2226,11 @@ TEXT: <b>적용 되는 보너스:</b>
 - 알 부화로 받을 수 있는 별의모래 2배<b>받을 수 있는 리워드:</b>
 - 슈퍼 부화장치 1개와 별의조각 1개
 - 2,500XP
+
+RESOURCE ID: text_rewards_key_cointicket2024
+TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from May 16, 2024 at 12:00 a.m. to May 30, 2024, at 11:59 p.m. local time, wherever you are.
+If you purchase this ticket, every day from May 16 - May 30, you may receive a bonus Field Research the first time you login each day. 
+Please note: You must have 3 or fewer Field Research in your account to be granted this bonus Field Research the first time you login that day! Also, you will only receive the 20 Poké Coins if you claim the reward after task completion. You can learn more about bonus Field Research <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here </a>
 
 RESOURCE ID: text_rewards_key_megaheracrossraidday
 TEXT: <b>받을 수 있는 것:</b>

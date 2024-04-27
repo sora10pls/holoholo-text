@@ -164,16 +164,16 @@ RESOURCE ID: badge_aa_2024_surabaya_day_02_title
 TEXT: Путешествие Пикачу в Индонезии
 
 RESOURCE ID: badge_gofest_2024_global
-TEXT: July 13–14, 2024
+TEXT: 13-14 июля 2024
 
 RESOURCE ID: badge_gofest_2024_global_title
-TEXT: Pokémon GO Fest 2024
+TEXT: Фестиваль Pokémon GO 2024
 
 RESOURCE ID: badge_gofest_2024_test
-TEXT: July 13–14, 2024
+TEXT: 13-14 июля 2024
 
 RESOURCE ID: badge_gofest_2024_test_title
-TEXT: Pokémon GO Fest 2024
+TEXT: Фестиваль Pokémon GO 2024
 
 RESOURCE ID: badge_pokedex_entries_gen8a_singular
 TEXT: Зарегистрируй в Покедексе {0} Покемона, впервые обнаруженного в регионе Гисуи.
@@ -186,6 +186,9 @@ TEXT: Эволюционируй Шелгона, чтобы получить С�
 
 RESOURCE ID: bonus_cd_move_bellsprout
 TEXT: Эволюционируй Випинбелла, чтобы получить Виктрибела, который знает быструю атаку Волшебный Лист!
+
+RESOURCE ID: bonus_daily_field_research_pokecoins
+TEXT: You will receive a Field Research task to earn 20 Poké Coins daily if you have 3 or fewer Field Research tasks!
 
 RESOURCE ID: bonus_implicit_social_bellsprout_raid
 TEXT: Если Тренеры в результате совместной работы победят Випинбелла в рейде, то в течение 30 минут в окрестностях будет появляться много Беллспраутов
@@ -286,8 +289,14 @@ TEXT: 20 апреля, 14:00 – 17:00
 RESOURCE ID: event_datetime_range_key_cleffahatchday2024
 TEXT: 28 апреля, 14:00 – 17:00
 
+RESOURCE ID: event_datetime_range_key_cointicket2024
+TEXT: May 16, 2024 at 12:00 a.m. to May 30, 2024, at 11:59 p.m.
+
 RESOURCE ID: event_datetime_range_key_megaheracrossraidday
 TEXT: 13 апреля, 14:00 – 22:00
+
+RESOURCE ID: event_name_glitzglam
+TEXT: Блеск и сияние
 
 RESOURCE ID: extra_items_pokestop_spins_party
 TEXT: Дополнительные предметы за прокрутку Покестопов при игре в команде
@@ -388,6 +397,9 @@ TEXT: Билет на день сообщества Беллспраут
 RESOURCE ID: general1.ticket_cleffahatchday2024_title
 TEXT: Билет: премиум-квест на время День вынашивания яиц Клеффа
 
+RESOURCE ID: general1.ticket_cointicket2024_title
+TEXT: Daily Poké Coin Field Research Ticket
+
 RESOURCE ID: gofest2024
 TEXT: Pokémon GO Fest 2024
 
@@ -478,6 +490,12 @@ TEXT: Украшай свои снимки наклейками для фото!
 RESOURCE ID: iris_flair_free_title
 TEXT: Добавляй наклейки для фото
 
+RESOURCE ID: item_event_ticket_evergreen_desc_cointicket2024
+TEXT: A ticket to receive a Field Research task when you have an open Field Research slot that includes a reward for 20 Poké Coins when completed, once a day.
+
+RESOURCE ID: item_event_ticket_evergreen_details_cointicket2024
+TEXT: This ticket will automatically activate to give you access to the Daily Poké Coin Field Research Ticket experience on May 16, wherever you are.
+
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: Билет, дающий доступ к специальным бонусам 13 апреля 2024 с 14:00 до 22:00 по местному времени, вне зависимости от твоего местонахождения.
 
@@ -521,10 +539,10 @@ RESOURCE ID: meshing_option_title
 TEXT: Совмещённое наложение
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-25T18:21:03.661599+00:00 for ru-RU
-at SHA eeb70ebfec
-Pipeline 2285758, job 27662246
-Patch from: 0.309.0-SHA-67463ddf-RC3, 0.311.0-SHA-e728d329-RC3
+TEXT: Built at 2024-04-27T05:36:04.016345+00:00 for ru-RU
+at SHA 092ed54817
+Pipeline 2291761, job 27728627
+Patch from: 0.309.1-SHA-bdca83ab-RC1, 0.311.0-SHA-848704ba-RC6, 0.313.0-SHA-b99ca9ed-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found during the night and allows nighttime evolutions.
@@ -1027,6 +1045,24 @@ TEXT: Всё о Беллспрауте (3/4)
 RESOURCE ID: quest_title_bellsprout_3
 TEXT: Всё о Беллспрауте (4/4)
 
+RESOURCE ID: quest_title_global_diancie_0
+TEXT: Блеск и сияние (1/6)
+
+RESOURCE ID: quest_title_global_diancie_1
+TEXT: Блеск и сияние (2/6)
+
+RESOURCE ID: quest_title_global_diancie_2
+TEXT: Блеск и сияние (3/6)
+
+RESOURCE ID: quest_title_global_diancie_3
+TEXT: Блеск и сияние (4/6)
+
+RESOURCE ID: quest_title_global_diancie_4
+TEXT: Блеск и сияние (5/6)
+
+RESOURCE ID: quest_title_global_diancie_5
+TEXT: Блеск и сияние (6/6)
+
 RESOURCE ID: quest_title_rediscover_kanto
 TEXT: Новое путешествие в Канто
 
@@ -1201,6 +1237,87 @@ TEXT: Сохраняй свои фото и делись ими!
 RESOURCE ID: stickers_v2_deco_category
 TEXT: Для фото
 
+RESOURCE ID: storyquest_global_diancie_0_0
+TEXT: Привет, %PLAYERNAME%! Рад тебя видеть. У меня прекрасные новости.
+
+RESOURCE ID: storyquest_global_diancie_0_1
+TEXT: Один мой коллега-исследователь недавно на раскопках наткнулся на необычные алмазы.
+
+RESOURCE ID: storyquest_global_diancie_0_2
+TEXT: Наша команда подозревает, что алмазы эти непростые. Они могли быть созданы Дианси, Покемоном-Драгоценный Камень.
+
+RESOURCE ID: storyquest_global_diancie_0_3
+TEXT: Коллега скоро отправит мне образцы, и я с удовольствием займусь их изучением.
+
+RESOURCE ID: storyquest_global_diancie_0_4
+TEXT: А пока мы ждём прибытия алмазов, я поищу яркие факты о Дианси, чтобы поделиться ими с тобой!
+
+RESOURCE ID: storyquest_global_diancie_1_0
+TEXT: С возвращением!
+
+RESOURCE ID: storyquest_global_diancie_1_1
+TEXT: Боюсь, что образцы от моего коллеги всё ещё в пути. Но я, помнится, обещал тебе пару фактов о Дианси.
+
+RESOURCE ID: storyquest_global_diancie_1_2
+TEXT: Только представь: Дианси может в одно мгновение создать большое количество бриллиантов, если руками сожмёт углекислый газ в воздухе.
+
+RESOURCE ID: storyquest_global_diancie_1_3
+TEXT: Разве это не поразительно? Интересно, отличается ли их цвет и блеск от обычных бриллиантов...
+
+RESOURCE ID: storyquest_global_diancie_2_0
+TEXT: Отличная работа, %PLAYERNAME%! Вот тебе за это головоломка: из какого Покемона при внезапной трансформации возникает Дианси?
+
+RESOURCE ID: storyquest_global_diancie_2_1
+TEXT: Правильно, из Карбинка! Некоторые говорят, что глубоко под землёй в королевстве драгоценных камней живёт группа Карбинков со своей королевой.
+
+RESOURCE ID: storyquest_global_diancie_2_2
+TEXT: Это, должно быть, удивительное зрелище. Как ты думаешь, королева – это Дианси?
+
+RESOURCE ID: storyquest_global_diancie_2_3
+TEXT: Что ж, пока мы ждём прибытия образцов, почему бы тебе не исследовать местность? Давай попробуем найти Карбинка, которого мы сможем изучить.
+
+RESOURCE ID: storyquest_global_diancie_3_0
+TEXT: Вижу, Карбинк был найден. Блестящая работа!
+
+RESOURCE ID: storyquest_global_diancie_3_1
+TEXT: А вот этого ты, возможно, не знаешь: Карбинк спал под землёй сотни миллионов лет с момента своего рождения!
+
+RESOURCE ID: storyquest_global_diancie_3_2
+TEXT: Я хотел бы почерпнуть пару-тройку «блестящих» идей от этого древнего Покемона.
+
+RESOURCE ID: storyquest_global_diancie_3_3
+TEXT: Кстати, только что пришло сообщение, что уже скоро придут образцы алмазов от коллеги.
+
+RESOURCE ID: storyquest_global_diancie_3_4
+TEXT: Если они хоть капельку похожи на Дианси, приготовься к самому прекрасному зрелищу в мире!
+
+RESOURCE ID: storyquest_global_diancie_4_0
+TEXT: Образцы, отправленные коллегой, наконец-то пришли!
+
+RESOURCE ID: storyquest_global_diancie_4_1
+TEXT: Результаты моей проверки подтверждают, что это действительно алмазы, сделанные Дианси. Только посмотри на это мерцание!
+
+RESOURCE ID: storyquest_global_diancie_4_2
+TEXT: Эти алмазы редки, но увидеть Дианси удаётся ещё реже.
+
+RESOURCE ID: storyquest_global_diancie_4_3
+TEXT: Интересный факт: Дианси – это Покемон типа Камень и Фея. Поистине необычное сочетание!
+
+RESOURCE ID: storyquest_global_diancie_4_4
+TEXT: А ещё Дианси может мегаэволюционировать: тогда её сияние становится ещё ярче. Вот уж действительно ослепительный Покемон.
+
+RESOURCE ID: storyquest_global_diancie_5_0
+TEXT: Спасибо тебе за помощь в исследовании Карбинков и Дианси!
+
+RESOURCE ID: storyquest_global_diancie_5_1
+TEXT: Я ценю время с тобой больше любых сокровищ.
+
+RESOURCE ID: storyquest_global_diancie_5_2
+TEXT: Мы сегодня весь день обсуждали сияние Мифического Покемона, но наша с тобой дружба не менее ценна, чем алмазы Дианси.
+
+RESOURCE ID: storyquest_global_diancie_5_3
+TEXT: Продолжай блистать, %PLAYERNAME%! До следующего раза.
+
 RESOURCE ID: sunsteel_strike_adventure_effects_mapview_dialog
 TEXT: Shines the light of a meteor. Attracts Pokémon found during the day and allows daytime evolutions.
 
@@ -1221,6 +1338,11 @@ TEXT: <b>Включает следующий бонус:</b>
 <b>Включает следующие награды:</b>
 • 1 суперинкубатор и 1 осколок звезды
 • 2500 XP
+
+RESOURCE ID: text_rewards_key_cointicket2024
+TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from May 16, 2024 at 12:00 a.m. to May 30, 2024, at 11:59 p.m. local time, wherever you are.
+If you purchase this ticket, every day from May 16 - May 30, you may receive a bonus Field Research the first time you login each day. 
+Please note: You must have 3 or fewer Field Research in your account to be granted this bonus Field Research the first time you login that day! Also, you will only receive the 20 Poké Coins if you claim the reward after task completion. You can learn more about bonus Field Research <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here </a>
 
 RESOURCE ID: text_rewards_key_megaheracrossraidday
 TEXT: <b>Включает следующие бонусы:</b>

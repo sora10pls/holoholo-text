@@ -204,13 +204,13 @@ RESOURCE ID: badge_aa_2024_surabaya_day_02_title
 TEXT: Pikachu’s Indonesia Journey
 
 RESOURCE ID: badge_gofest_2024_global
-TEXT: July 13–14, 2024
+TEXT: 13-14 กรกฎาคม 2024
 
 RESOURCE ID: badge_gofest_2024_global_title
 TEXT: Pokémon GO Fest 2024
 
 RESOURCE ID: badge_gofest_2024_test
-TEXT: July 13–14, 2024
+TEXT: 13-14 กรกฎาคม 2024
 
 RESOURCE ID: badge_gofest_2024_test_title
 TEXT: Pokémon GO Fest 2024
@@ -220,6 +220,9 @@ TEXT: วิวัฒนาการโคโมรูเปนโบมั�
 
 RESOURCE ID: bonus_cd_move_bellsprout
 TEXT: วิวัฒนาการอุซึดงเปนอุซึบ็อทที่รูทาโจมตีเร็ว "เมจิคัลลีฟ"
+
+RESOURCE ID: bonus_daily_field_research_pokecoins
+TEXT: You will receive a Field Research task to earn 20 Poké Coins daily if you have 3 or fewer Field Research tasks!
 
 RESOURCE ID: bonus_implicit_social_bellsprout_raid
 TEXT: หากเทรนเนอรรวมมือกันเอาชนะอุซึดงในตีบอสไดสำเร็จ มาดาซึโบมิจำนวนมากจะปรากฏตัวในบริเวณรอบ ๆ เปนเวลา 30 นาที
@@ -315,8 +318,14 @@ TEXT: วันที่ 20 เมษายน 2024 เวลา 14:00-17:00 น
 RESOURCE ID: event_datetime_range_key_cleffahatchday2024
 TEXT: วันที่ 28 เมษายน 2024 เวลา 14:00-17:00 น.
 
+RESOURCE ID: event_datetime_range_key_cointicket2024
+TEXT: May 16, 2024 at 12:00 a.m. to May 30, 2024, at 11:59 p.m.
+
 RESOURCE ID: event_datetime_range_key_megaheracrossraidday
 TEXT: วันที่ 13 เมษายน 2024 เวลา 14:00-22:00 น.
+
+RESOURCE ID: event_name_glitzglam
+TEXT: เสนหเยายวนสีชมพู
 
 RESOURCE ID: extra_items_pokestop_spins_party
 TEXT: รับไอเท็มเพิ่มขึ้นจากการหมุนเสาโปเกสต็อประหวางเลนแบบปารตี้
@@ -437,6 +446,9 @@ TEXT: ตั๋วมาดาซึโบมิคอมมิวนิตี�
 RESOURCE ID: general1.ticket_cleffahatchday2024_title
 TEXT: ตั๋วงานวิจัยแบบจำกัดเวลาพรีเมียม: วันฟกไขป
 
+RESOURCE ID: general1.ticket_cointicket2024_title
+TEXT: Daily Poké Coin Field Research Ticket
+
 RESOURCE ID: gofest2024
 TEXT: Pokémon GO Fest 2024
 
@@ -530,6 +542,12 @@ TEXT: แตงแตมชีวิตชีวาใหกับค�
 RESOURCE ID: iris_flair_free_title
 TEXT: ตกแตงเพิ่ม!
 
+RESOURCE ID: item_event_ticket_evergreen_desc_cointicket2024
+TEXT: A ticket to receive a Field Research task when you have an open Field Research slot that includes a reward for 20 Poké Coins when completed, once a day.
+
+RESOURCE ID: item_event_ticket_evergreen_details_cointicket2024
+TEXT: This ticket will automatically activate to give you access to the Daily Poké Coin Field Research Ticket experience on May 16, wherever you are.
+
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: ตั๋วสำหรับรับโบนัสพิเศษในวันที่
 13 เมษายน 2024 เวลา 14:00-22:00 น.
@@ -600,10 +618,10 @@ RESOURCE ID: meshing_option_title
 TEXT: ระบบ Mesh
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-25T18:21:03.661599+00:00 for th-TH
-at SHA eeb70ebfec
-Pipeline 2285758, job 27662246
-Patch from: 0.309.0-SHA-67463ddf-RC3, 0.311.0-SHA-e728d329-RC3
+TEXT: Built at 2024-04-27T05:36:04.016345+00:00 for th-TH
+at SHA 092ed54817
+Pipeline 2291761, job 27728627
+Patch from: 0.309.1-SHA-bdca83ab-RC1, 0.311.0-SHA-848704ba-RC6, 0.313.0-SHA-b99ca9ed-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found during the night and allows nighttime evolutions.
@@ -3355,6 +3373,24 @@ TEXT: รูเฟ่องเรื่องมาดาซึโบม�
 RESOURCE ID: quest_title_bellsprout_3
 TEXT: รูเฟ่องเรื่องมาดาซึโบมิ (4/4)
 
+RESOURCE ID: quest_title_global_diancie_0
+TEXT: เสนหเยายวนสีชมพู (1/6)
+
+RESOURCE ID: quest_title_global_diancie_1
+TEXT: เสนหเยายวนสีชมพู (2/6)
+
+RESOURCE ID: quest_title_global_diancie_2
+TEXT: เสนหเยายวนสีชมพู (3/6)
+
+RESOURCE ID: quest_title_global_diancie_3
+TEXT: เสนหเยายวนสีชมพู (4/6)
+
+RESOURCE ID: quest_title_global_diancie_4
+TEXT: เสนหเยายวนสีชมพู (5/6)
+
+RESOURCE ID: quest_title_global_diancie_5
+TEXT: เสนหเยายวนสีชมพู (6/6)
+
 RESOURCE ID: quest_title_rediscover_kanto
 TEXT: ผจญภัยครั้งใหมในคันโต
 
@@ -3557,6 +3593,122 @@ TEXT: บันทึกและแชรภาพของคุณ!
 RESOURCE ID: stickers_v2_deco_category
 TEXT: ตกแตง
 
+RESOURCE ID: storyquest_global_diancie_0_0
+TEXT: ไง %PLAYERNAME%! มาไดถูกจังหวะพอดีเลย ฉันมีขาวดีมาฝากดวยละ
+
+RESOURCE ID: storyquest_global_diancie_0_1
+TEXT: พวกเพื่อนนักวิจัยของฉันออกไปทำการขุดคน
+แลวพบเขากับเพชรนาพิศวงเขา
+
+RESOURCE ID: storyquest_global_diancie_0_2
+TEXT: ในทีมสงสัยกันวามันไมนาเปนแคเพชรทั่วไป
+แตนาจะเปนเพชรที่ถูกสรางขึ้นโดยโปเกมอนอัญมณี
+ดีแอนซี!
+
+RESOURCE ID: storyquest_global_diancie_0_3
+TEXT: และเขาจะสงตัวอยางบางสวนมาใหดวย
+ฉันอดใจรอที่จะเอามันมาตรวจสอบแทบไมไหว
+เลยละ
+
+RESOURCE ID: storyquest_global_diancie_0_4
+TEXT: ระหวางที่รอเพชรสงมาถึง ฉันจะเรียบเรียง
+ขอมูลเกี่ยวกับดีแอนซีไวแลวกัน!
+
+RESOURCE ID: storyquest_global_diancie_1_0
+TEXT: กลับมาแลวเหรอ!
+
+RESOURCE ID: storyquest_global_diancie_1_1
+TEXT: เพชรที่เพื่อนของฉันสงมาใหยังมาไมถึงเลย
+แตฉันเรียบเรียงขอมูลเกี่ยวกับดีแอนซี
+ไวใหเธอแลว
+
+RESOURCE ID: storyquest_global_diancie_1_2
+TEXT: ดีแอนซีจะบีบอัดคารบอนที่อยูในอากาศระหวาง
+มือทั้งสองเพื่อสรางเพชรจำนวนมากในพริบตา
+
+RESOURCE ID: storyquest_global_diancie_1_3
+TEXT: นั่นมันนาทึ่งไปเลยวาไหม? สีและประกายของเพชร
+ที่มันสรางขึ้นมากับเพชรทั่วไปตางกัน
+ขนาดไหนกันนะ...
+
+RESOURCE ID: storyquest_global_diancie_2_0
+TEXT: เยี่ยมมาก %PLAYERNAME%! ตอไปเปนคำถาม!
+รูไหมวาดีแอนซีเปนรางกลายพันธุของอะไร?
+
+RESOURCE ID: storyquest_global_diancie_2_1
+TEXT: ใชแลว เมเลซีนั่นเอง! วากันวาลึกลงไปใตพื้นพิภพ
+มีนครแหงอัญมณีที่ฝูงเมเลซีและราชินีของพวกมัน
+อาศัยอยู
+
+RESOURCE ID: storyquest_global_diancie_2_2
+TEXT: นั่นตองเปนทิวทัศนที่มหัศจรรยมากแน ๆ
+เธอคิดวาราชินีของพวกมันใชดีแอนซีไหม?
+
+RESOURCE ID: storyquest_global_diancie_2_3
+TEXT: ระหวางที่เรารอตัวอยางสงมาถึง
+ทำไมเธอไมออกไปสำรวจรอบ ๆ บริเวณ
+เพื่อหาเมเลซีดูละ?
+
+RESOURCE ID: storyquest_global_diancie_3_0
+TEXT: พบเมเลซีแลวสินะ เยี่ยมมาก!
+
+RESOURCE ID: storyquest_global_diancie_3_1
+TEXT: รูไหมวาตั้งแตเมเลซีเกิดมาก็หลับใหลอยูใต
+พื้นพิภพเปนเวลาหลายรอยลานป
+แตบางครั้งก็จะพบตัวมันตอนขุดถ้ำ!
+
+RESOURCE ID: storyquest_global_diancie_3_2
+TEXT: โปเกมอนที่อยูมายาวนานแบบนี้จะตองมี
+ประสบการณสองประกายมาใหเรา
+เรียนรูอยางแนนอน
+
+RESOURCE ID: storyquest_global_diancie_3_3
+TEXT: เอาเถอะ ดูเหมือนวาเพชรที่เพื่อนของฉัน
+สงมาใหจะใกลมาถึงแลว
+
+RESOURCE ID: storyquest_global_diancie_3_4
+TEXT: เตรียมตัวเตรียมใจไวใหพรอม ถามันคลายคลึง
+กับดีแอนซีละก็ จะตองเปนเพชรที่งดงามมาก
+อยางแนนอน!
+
+RESOURCE ID: storyquest_global_diancie_4_0
+TEXT: ตัวอยางจากเพื่อนของฉันมาถึงแลว!
+
+RESOURCE ID: storyquest_global_diancie_4_1
+TEXT: หลังจากลองไปทดสอบหลาย ๆ อยางดู
+ฉันก็มั่นใจวานี่จะตองเปนเพชรที่สรางโดย
+ดีแอนซีอยางแนนอน ดูประกายนี่สิ!
+
+RESOURCE ID: storyquest_global_diancie_4_2
+TEXT: เพชรพวกนี้เปนเพชรที่หายาก แตการไดเจอ
+กับดีแอนซีนาจะเปนซึ่งที่เกิดขึ้นไดยากยิ่งกวา
+
+RESOURCE ID: storyquest_global_diancie_4_3
+TEXT: เกร็ดนารูเกี่ยวกับดีแอนซี มันเปนโปเกมอน
+ประเภทหินและแฟรี่ ซึ่งเปนการจับคูที่แปลกมาก!
+
+RESOURCE ID: storyquest_global_diancie_4_4
+TEXT: และดีแอนซียังสามารถวิวัฒนาการเมกาไดอีกดวย
+ซึ่งจะทำใหรางของมันทอประกายยิ่งกวาเดิม
+สมกับเปนโปเกมอนที่เปลงประกายเจิดจาจริง ๆ
+
+RESOURCE ID: storyquest_global_diancie_5_0
+TEXT: ขอบคุณที่มาชวยฉันวิจัยเกี่ยวกับเมเลซี
+และดีแอนซีนะ!
+
+RESOURCE ID: storyquest_global_diancie_5_1
+TEXT: ฉันรูสึกมีความสุขทุกครั้งที่ไดใชเวลาวิจัย
+รวมกับเธอ
+
+RESOURCE ID: storyquest_global_diancie_5_2
+TEXT: เหมือนวันนี้เราจะคุยกันเรื่องความเปลงประกาย
+และเจิดจาของโปเกมอนมายากันใชไหม
+แตรูไหมวาตัวเธอเองก็เปนเพชรที่สองประกาย
+เจิดจาเชนกัน
+
+RESOURCE ID: storyquest_global_diancie_5_3
+TEXT: ขอใหเธอเปลงประกายตอไปนะ %PLAYERNAME%! ไวเจอกันใหมครั้งหนา
+
 RESOURCE ID: sunsteel_strike_adventure_effects_mapview_dialog
 TEXT: Shines the light of a meteor. Attracts Pokémon found during the day and allows daytime evolutions.
 
@@ -3583,6 +3735,11 @@ TEXT: <b>โบนัสที่จะไดรับ:</b>
 - เครื่องฟกไขชั้นเยี่ยม 1 ชิ้น
 - สะเก็ดดาว 1 ชิ้น
 - 2,500 XP
+
+RESOURCE ID: text_rewards_key_cointicket2024
+TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from May 16, 2024 at 12:00 a.m. to May 30, 2024, at 11:59 p.m. local time, wherever you are.
+If you purchase this ticket, every day from May 16 - May 30, you may receive a bonus Field Research the first time you login each day. 
+Please note: You must have 3 or fewer Field Research in your account to be granted this bonus Field Research the first time you login that day! Also, you will only receive the 20 Poké Coins if you claim the reward after task completion. You can learn more about bonus Field Research <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here </a>
 
 RESOURCE ID: text_rewards_key_megaheracrossraidday
 TEXT: <b>โบนัสที่จะไดรับ:</b> 

@@ -178,6 +178,9 @@ TEXT: Evolve Shelgon to get a Salamence that knows the Charged Attack Outrage
 RESOURCE ID: bonus_cd_move_bellsprout
 TEXT: Evolve Weepinbell to get a Victreebel that knows the Fast Attack Magical Leaf!
 
+RESOURCE ID: bonus_daily_field_research_pokecoins
+TEXT: You will receive a Field Research task to earn 20 Poké Coins daily if you have 3 or fewer Field Research tasks!
+
 RESOURCE ID: bonus_implicit_social_bellsprout_raid
 TEXT: If Trainers work together to win a Weepinbell raid, large numbers of Bellsprout will appear in the area for 30 minutes
 
@@ -235,8 +238,14 @@ TEXT: April 20, 2:00 p.m. – 5:00 p.m.
 RESOURCE ID: event_datetime_range_key_cleffahatchday2024
 TEXT: April 28, 2:00 p.m. – 5:00 p.m.
 
+RESOURCE ID: event_datetime_range_key_cointicket2024
+TEXT: May 16, 2024 at 12:00 a.m. to May 30, 2024, at 11:59 p.m.
+
 RESOURCE ID: event_datetime_range_key_megaheracrossraidday
 TEXT: April 13, 2:00 p.m. – 10:00 p.m.
+
+RESOURCE ID: event_name_glitzglam
+TEXT: Glitz and Glam
 
 RESOURCE ID: fusion_buddy_error_toast
 TEXT: You can’t fuse your buddy!
@@ -331,6 +340,9 @@ TEXT: Bellsprout Community Day Ticket
 RESOURCE ID: general1.ticket_cleffahatchday2024_title
 TEXT: Cleffa Hatch Day Premium Timed Research Ticket
 
+RESOURCE ID: general1.ticket_cointicket2024_title
+TEXT: Daily Poké Coin Field Research Ticket
+
 RESOURCE ID: gofest2024
 TEXT: Pokémon GO Fest 2024
 
@@ -406,6 +418,12 @@ TEXT: Add some pizzazz to your memories with flair! These new items are used exc
 RESOURCE ID: iris_flair_free_title
 TEXT: Add Some Flair
 
+RESOURCE ID: item_event_ticket_evergreen_desc_cointicket2024
+TEXT: A ticket to receive a Field Research task when you have an open Field Research slot that includes a reward for 20 Poké Coins when completed, once a day.
+
+RESOURCE ID: item_event_ticket_evergreen_details_cointicket2024
+TEXT: This ticket will automatically activate to give you access to the Daily Poké Coin Field Research Ticket experience on May 16, wherever you are.
+
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: A ticket to access special bonuses on Saturday, April 13, 2024, from 2:00 p.m. to 10:00 p.m. local time, wherever you are.
 
@@ -443,10 +461,10 @@ RESOURCE ID: meshing_option_title
 TEXT: Meshing
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-25T18:21:03.661599+00:00 for en-US
-at SHA eeb70ebfec
-Pipeline 2285758, job 27662246
-Patch from: 0.309.0-SHA-67463ddf-RC3, 0.311.0-SHA-e728d329-RC3
+TEXT: Built at 2024-04-27T05:36:04.016345+00:00 for en-US
+at SHA 092ed54817
+Pipeline 2291761, job 27728627
+Patch from: 0.309.1-SHA-bdca83ab-RC1, 0.311.0-SHA-848704ba-RC6, 0.313.0-SHA-b99ca9ed-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found during the night and allows nighttime evolutions.
@@ -955,6 +973,24 @@ TEXT: All About Bellsprout (3/4)
 RESOURCE ID: quest_title_bellsprout_3
 TEXT: All About Bellsprout (4/4)
 
+RESOURCE ID: quest_title_global_diancie_0
+TEXT: Glitz and Glam (1/6)
+
+RESOURCE ID: quest_title_global_diancie_1
+TEXT: Glitz and Glam (2/6)
+
+RESOURCE ID: quest_title_global_diancie_2
+TEXT: Glitz and Glam (3/6)
+
+RESOURCE ID: quest_title_global_diancie_3
+TEXT: Glitz and Glam (4/6)
+
+RESOURCE ID: quest_title_global_diancie_4
+TEXT: Glitz and Glam (5/6)
+
+RESOURCE ID: quest_title_global_diancie_5
+TEXT: Glitz and Glam (6/6)
+
 RESOURCE ID: quest_title_rediscover_kanto
 TEXT: Rediscover Kanto
 
@@ -1123,6 +1159,87 @@ TEXT: Save and share your snapshots!
 RESOURCE ID: stickers_v2_deco_category
 TEXT: Flair
 
+RESOURCE ID: storyquest_global_diancie_0_0
+TEXT: Hello, %PLAYERNAME%! It’s good to see you. I’ve got the loveliest news to share.
+
+RESOURCE ID: storyquest_global_diancie_0_1
+TEXT: One of my research colleagues recently went on an excavation and came across some unusual diamonds.
+
+RESOURCE ID: storyquest_global_diancie_0_2
+TEXT: The team suspects these aren’t just any diamonds, but ones created by the Jewel Pokémon Diancie!
+
+RESOURCE ID: storyquest_global_diancie_0_3
+TEXT: My colleague is sending me samples, and I’m eager to examine them further.
+
+RESOURCE ID: storyquest_global_diancie_0_4
+TEXT: While we wait for them to arrive, I’ll start prepping some dazzling facts about Diancie to share!
+
+RESOURCE ID: storyquest_global_diancie_1_0
+TEXT: Welcome back!
+
+RESOURCE ID: storyquest_global_diancie_1_1
+TEXT: I’m afraid the samples from my colleague are still in transit, but I promised you Diancie trivia—and I won’t keep you on the edge of your Dian-seat.
+
+RESOURCE ID: storyquest_global_diancie_1_2
+TEXT: Get this: Diancie can instantly create diamonds by compressing the carbon in the air between its hands.
+
+RESOURCE ID: storyquest_global_diancie_1_3
+TEXT: Isn’t that just phenomenal? I wonder how their color and luster compare to other diamonds...
+
+RESOURCE ID: storyquest_global_diancie_2_0
+TEXT: Great work out there, %PLAYERNAME%! You’ve earned a brain-teaser: which Pokémon is Diancie a sudden transformation of?
+
+RESOURCE ID: storyquest_global_diancie_2_1
+TEXT: That’s right—Carbink! Some say that deep beneath the surface of the world, a pack of Carbink live with their queen in a kingdom of jewels.
+
+RESOURCE ID: storyquest_global_diancie_2_2
+TEXT: That must be an astonishing sight. Do you think that queen is Diancie?
+
+RESOURCE ID: storyquest_global_diancie_2_3
+TEXT: Well, as long as we’re still waiting for the samples to arrive, why don’t you explore the area and see if you can locate a Carbink for us to observe?
+
+RESOURCE ID: storyquest_global_diancie_3_0
+TEXT: Brilliant work finding a Carbink!
+
+RESOURCE ID: storyquest_global_diancie_3_1
+TEXT: Here’s something you might not know—Carbink has slept underground for hundreds of millions of years since its birth!
+
+RESOURCE ID: storyquest_global_diancie_3_2
+TEXT: I sure would love to “gleam” insights from such a long-lived Pokémon.
+
+RESOURCE ID: storyquest_global_diancie_3_3
+TEXT: Anyway, I was just notified that the diamond samples from my colleague should be arriving very soon.
+
+RESOURCE ID: storyquest_global_diancie_3_4
+TEXT: If they’re anything like Diancie itself, prepare yourself for the loveliest sight in the world!
+
+RESOURCE ID: storyquest_global_diancie_4_0
+TEXT: The samples from my colleague are finally here!
+
+RESOURCE ID: storyquest_global_diancie_4_1
+TEXT: After some testing, I’ve determined that these are indeed diamonds made by Diancie. Look at that shimmer!
+
+RESOURCE ID: storyquest_global_diancie_4_2
+TEXT: These diamonds are rare, but catching a glimpse of Diancie is an even more extraordinary event.
+
+RESOURCE ID: storyquest_global_diancie_4_3
+TEXT: Fun fact: Diancie is a Rock- and Fairy-type Pokémon—an unusual combination indeed!
+
+RESOURCE ID: storyquest_global_diancie_4_4
+TEXT: Diancie can also Mega Evolve, making it shine even more brilliantly than ever. It really is one devastatingly dazzling Pokémon.
+
+RESOURCE ID: storyquest_global_diancie_5_0
+TEXT: Thanks for helping me research Carbink and Diancie!
+
+RESOURCE ID: storyquest_global_diancie_5_1
+TEXT: I always treasure our time together.
+
+RESOURCE ID: storyquest_global_diancie_5_2
+TEXT: We may have spent the day discussing the glitz and glamor of a Mythical Pokémon, but you’re no less of a gem yourself.
+
+RESOURCE ID: storyquest_global_diancie_5_3
+TEXT: Keep shining, %PLAYERNAME%! Until next time.
+
 RESOURCE ID: sunsteel_strike_adventure_effects_mapview_dialog
 TEXT: Shines the light of a meteor. Attracts Pokémon found during the day and allows daytime evolutions.
 
@@ -1143,6 +1260,11 @@ TEXT: <b>Included bonus:</b>
 <b>Included rewards:</b>
 • 1 Super Incubator and 1 Star Piece
 • 2,500 XP
+
+RESOURCE ID: text_rewards_key_cointicket2024
+TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from May 16, 2024 at 12:00 a.m. to May 30, 2024, at 11:59 p.m. local time, wherever you are.
+If you purchase this ticket, every day from May 16 - May 30, you may receive a bonus Field Research the first time you login each day. 
+Please note: You must have 3 or fewer Field Research in your account to be granted this bonus Field Research the first time you login that day! Also, you will only receive the 20 Poké Coins if you claim the reward after task completion. You can learn more about bonus Field Research <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here </a>
 
 RESOURCE ID: text_rewards_key_megaheracrossraidday
 TEXT: <b>Included bonuses:</b>

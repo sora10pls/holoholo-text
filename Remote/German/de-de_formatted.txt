@@ -181,6 +181,9 @@ TEXT: Entwickle Draschel, um ein Brutalanda zu erhalten, das die Lade-Attacke Wu
 RESOURCE ID: bonus_cd_move_bellsprout
 TEXT: Entwickle Ultrigaria, um ein Sarzenia zu erhalten, das die Sofort-Attacke Zauberblatt beherrscht!
 
+RESOURCE ID: bonus_daily_field_research_pokecoins
+TEXT: You will receive a Field Research task to earn 20 Poké Coins daily if you have 3 or fewer Field Research tasks!
+
 RESOURCE ID: bonus_implicit_social_bellsprout_raid
 TEXT: Wenn Trainer zusammen einen Ultrigaria-Raid gewinnen, werden Knofensa in dieser Gegend für 30 Minuten vermehrt auftauchen
 
@@ -253,8 +256,14 @@ TEXT: 20. April, 14:00 bis 17:00 Uhr
 RESOURCE ID: event_datetime_range_key_cleffahatchday2024
 TEXT: 28. April, 14:00 bis 17:00 Uhr
 
+RESOURCE ID: event_datetime_range_key_cointicket2024
+TEXT: May 16, 2024 at 12:00 a.m. to May 30, 2024, at 11:59 p.m.
+
 RESOURCE ID: event_datetime_range_key_megaheracrossraidday
 TEXT: 13. April, 14:00 bis 22:00 Uhr
+
+RESOURCE ID: event_name_glitzglam
+TEXT: Edles Schimmern
 
 RESOURCE ID: fusion_buddy_error_toast
 TEXT: Du kannst deinen Kumpel nicht fusionieren!
@@ -349,6 +358,9 @@ TEXT: Ticket: Community Day mit Knofensa
 RESOURCE ID: general1.ticket_cleffahatchday2024_title
 TEXT: Ticket für die Befristete Premium-Forschung am Pii-Schlüpftag
 
+RESOURCE ID: general1.ticket_cointicket2024_title
+TEXT: Daily Poké Coin Field Research Ticket
+
 RESOURCE ID: gofest2024
 TEXT: Pokémon GO Fest 2024
 
@@ -424,6 +436,12 @@ TEXT: Verpasse deinen Erinnerungsfotos ein gewisses Extra! Diese neuen Items wer
 RESOURCE ID: iris_flair_free_title
 TEXT: Etwas Flair verpassen
 
+RESOURCE ID: item_event_ticket_evergreen_desc_cointicket2024
+TEXT: A ticket to receive a Field Research task when you have an open Field Research slot that includes a reward for 20 Poké Coins when completed, once a day.
+
+RESOURCE ID: item_event_ticket_evergreen_details_cointicket2024
+TEXT: This ticket will automatically activate to give you access to the Daily Poké Coin Field Research Ticket experience on May 16, wherever you are.
+
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: Ein Ticket für den Zugang zu besonderen Boni am Samstag, 13. April 2024 von 14:00 bis 22:00 Uhr Ortszeit (wo immer du dich befindest).
 
@@ -461,10 +479,10 @@ RESOURCE ID: meshing_option_title
 TEXT: Meshing
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-25T18:21:03.661599+00:00 for de-DE
-at SHA eeb70ebfec
-Pipeline 2285758, job 27662246
-Patch from: 0.309.0-SHA-67463ddf-RC3, 0.311.0-SHA-e728d329-RC3
+TEXT: Built at 2024-04-27T05:36:04.016345+00:00 for de-DE
+at SHA 092ed54817
+Pipeline 2291761, job 27728627
+Patch from: 0.309.1-SHA-bdca83ab-RC1, 0.311.0-SHA-848704ba-RC6, 0.313.0-SHA-b99ca9ed-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found during the night and allows nighttime evolutions.
@@ -967,6 +985,24 @@ TEXT: Hier kommt Knofensa (3/4)
 RESOURCE ID: quest_title_bellsprout_3
 TEXT: Hier kommt Knofensa (4/4)
 
+RESOURCE ID: quest_title_global_diancie_0
+TEXT: Edles Schimmern (1/6)
+
+RESOURCE ID: quest_title_global_diancie_1
+TEXT: Edles Schimmern (2/6)
+
+RESOURCE ID: quest_title_global_diancie_2
+TEXT: Edles Schimmern (3/6)
+
+RESOURCE ID: quest_title_global_diancie_3
+TEXT: Edles Schimmern (4/6)
+
+RESOURCE ID: quest_title_global_diancie_4
+TEXT: Edles Schimmern (5/6)
+
+RESOURCE ID: quest_title_global_diancie_5
+TEXT: Edles Schimmern (6/6)
+
 RESOURCE ID: quest_title_rediscover_kanto
 TEXT: Entdecke Kanto aufs Neue
 
@@ -1135,6 +1171,87 @@ TEXT: Speichere und teile deine Schnappschüsse!
 RESOURCE ID: stickers_v2_deco_category
 TEXT: Flair
 
+RESOURCE ID: storyquest_global_diancie_0_0
+TEXT: Hallo, %PLAYERNAME%. Es freut mich, dich zu sehen. Ich habe tolle Neuigkeiten mitgebracht.
+
+RESOURCE ID: storyquest_global_diancie_0_1
+TEXT: Einer meiner Forscherkollegen war vor kurzem auf einer Ausgrabung und ist auf einige ungewöhnliche Diamanten gestoßen.
+
+RESOURCE ID: storyquest_global_diancie_0_2
+TEXT: Das Team vermutet, dass es sich da nicht um gewöhnliche Diamanten handelt, sondern um jene, die vom Edelstein-Pokémon Diancie erzeugt wurden!
+
+RESOURCE ID: storyquest_global_diancie_0_3
+TEXT: Mein Kollege wird mir Proben schicken und ich freue mich schon darauf, sie zu untersuchen.
+
+RESOURCE ID: storyquest_global_diancie_0_4
+TEXT: Während wir auf die Lieferung warten, werde ich mich darum kümmern, Wissenswertes über Diancie herauszufinden!
+
+RESOURCE ID: storyquest_global_diancie_1_0
+TEXT: Willkommen zurück!
+
+RESOURCE ID: storyquest_global_diancie_1_1
+TEXT: Leider befinden sich die Proben meiner Kollegen immer noch auf dem Weg, aber ich hatte dir Wissenswertes über Diancie versprochen – und ich will dich nicht länger im Ungewissen lassen.
+
+RESOURCE ID: storyquest_global_diancie_1_2
+TEXT: Hast du schon gewusst? Diancie kann im Nu viele Diamanten erzeugen, indem es luftgebundene Kohlenstoffpartikel mit seinen Händen komprimiert.
+
+RESOURCE ID: storyquest_global_diancie_1_3
+TEXT: Ist das nicht phänomenal? Ich frage mich, wie ihre Farbe und ihr Glanz im Vergleich zu anderen Diamanten sind ...
+
+RESOURCE ID: storyquest_global_diancie_2_0
+TEXT: Großartige Arbeit da draußen, %PLAYERNAME%! Du hast dir eine Denksportaufgabe verdient: Diancie ist eine Mutation von welchem Pokémon?
+
+RESOURCE ID: storyquest_global_diancie_2_1
+TEXT: Du liegst goldrichtig – es ist Rocara! Tief unter der Erde gibt es angeblich ein Königreich aus Diamanten, in dem Rocara zusammen mit ihrer Königin leben.
+
+RESOURCE ID: storyquest_global_diancie_2_2
+TEXT: Das muss ein unglaublicher Anblick sein. Was meinst du, ob es sich bei ihrer Königin um Diancie handelt? 
+
+RESOURCE ID: storyquest_global_diancie_2_3
+TEXT: Nun ja, wie wäre es, wenn du, während wir auf die Proben warten, die Umgebung erkundest und nach einem Rocara schauen kannst, das wir unter die Lupe nehmen können?
+
+RESOURCE ID: storyquest_global_diancie_3_0
+TEXT: Makellose Arbeit! Du hast ein Rocara gefunden!
+
+RESOURCE ID: storyquest_global_diancie_3_1
+TEXT: Hier ist etwas, das du vielleicht noch nicht gewusst hast – Rocara hat nach seiner Geburt hunderte von Millionen Jahren tief schlafend unter der Erde verbracht!
+
+RESOURCE ID: storyquest_global_diancie_3_2
+TEXT: Die Geschichten dieses langlebigen Pokémon sind sicherlich Gold wert.
+
+RESOURCE ID: storyquest_global_diancie_3_3
+TEXT: Mir wurde gerade mitgeteilt, dass die Diamantproben meines Kollegen in Kürze da sein sollten.
+
+RESOURCE ID: storyquest_global_diancie_3_4
+TEXT: Wenn sie etwas mit Diancie gemein haben, kannst du dich auf den bezauberndsten Anblick der Welt gefasst machen!
+
+RESOURCE ID: storyquest_global_diancie_4_0
+TEXT: Die Proben meines Kollegen sind endlich angekommen!
+
+RESOURCE ID: storyquest_global_diancie_4_1
+TEXT: Meine Tests haben ergeben, dass diese Diamanten tatsächlich von Diancie hergestellt wurden. Weide deine Augen an diesem Anblick!
+
+RESOURCE ID: storyquest_global_diancie_4_2
+TEXT: Diese Diamanten sind sehr selten, aber der Anblick eines Diancie ist ein noch selteneres Ereignis.
+
+RESOURCE ID: storyquest_global_diancie_4_3
+TEXT: Nebenbei: Diancie ist ein Pokémon vom Typ Gestein und Fee – eine wirklich ungewöhnliche Kombination!
+
+RESOURCE ID: storyquest_global_diancie_4_4
+TEXT: Diancie kann auch die Mega-Entwicklung durchführen und leuchtet dann wie nie zuvor. Es ist wirklich ein äußerst umwerfendes Pokémon.
+
+RESOURCE ID: storyquest_global_diancie_5_0
+TEXT: Danke, dass du mir bei der Forschung zu Rocara und Diancie geholfen hast!
+
+RESOURCE ID: storyquest_global_diancie_5_1
+TEXT: Ich weiß unsere gemeinsame Zeit sehr zu schätzen.
+
+RESOURCE ID: storyquest_global_diancie_5_2
+TEXT: Auch wenn wir uns den ganzen Tag über das edle Schimmern eines Mysteriösen Pokémon unterhalten haben, bist du doch selbst ein wahres Juwel.
+
+RESOURCE ID: storyquest_global_diancie_5_3
+TEXT: Strahle weiterhin wie ein Diamant, %PLAYERNAME%! Bis zum nächsten Mal.
+
 RESOURCE ID: sunsteel_strike_adventure_effects_mapview_dialog
 TEXT: Shines the light of a meteor. Attracts Pokémon found during the day and allows daytime evolutions.
 
@@ -1155,6 +1272,11 @@ TEXT: <b>Enthaltene Boni:</b>
 <b>Enthaltene Belohnungen:</b>
 • 1 Super-Brutmaschine und 1 Sternenstück
 • 2 500 EP
+
+RESOURCE ID: text_rewards_key_cointicket2024
+TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from May 16, 2024 at 12:00 a.m. to May 30, 2024, at 11:59 p.m. local time, wherever you are.
+If you purchase this ticket, every day from May 16 - May 30, you may receive a bonus Field Research the first time you login each day. 
+Please note: You must have 3 or fewer Field Research in your account to be granted this bonus Field Research the first time you login that day! Also, you will only receive the 20 Poké Coins if you claim the reward after task completion. You can learn more about bonus Field Research <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here </a>
 
 RESOURCE ID: text_rewards_key_megaheracrossraidday
 TEXT: <b>Enthaltene Boni:</b>

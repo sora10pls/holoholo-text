@@ -178,6 +178,9 @@ TEXT: डैगोवच को वकसत कर एक ऐसा �
 RESOURCE ID: bonus_cd_move_bellsprout
 TEXT: फ़ाट अटैक मैजकल लफ़ को जानने वाल वटीबेल को पाने क लए वीिपनबेल को वकसत करं!
 
+RESOURCE ID: bonus_daily_field_research_pokecoins
+TEXT: You will receive a Field Research task to earn 20 Poké Coins daily if you have 3 or fewer Field Research tasks!
+
 RESOURCE ID: bonus_implicit_social_bellsprout_raid
 TEXT: अगर टनस साथ मलकर वीिपनबेल रड जीतते हैं, तो 30 मनटों क लए उस इलाक में बड़ी संया में बेलाउट दखेंगे।
 
@@ -268,8 +271,14 @@ TEXT: 20 अैल, दोपहर 2:00 बजे - शाम 5:00।
 RESOURCE ID: event_datetime_range_key_cleffahatchday2024
 TEXT: 28 अैल, दोपहर 2:00 बजे - शाम 5:00।
 
+RESOURCE ID: event_datetime_range_key_cointicket2024
+TEXT: May 16, 2024 at 12:00 a.m. to May 30, 2024, at 11:59 p.m.
+
 RESOURCE ID: event_datetime_range_key_megaheracrossraidday
 TEXT: 13 माच, दोपहर 2:00 बजे - शाम 10:00।
+
+RESOURCE ID: event_name_glitzglam
+TEXT: चमक-धमक
 
 RESOURCE ID: extra_items_pokestop_spins_party
 TEXT: टम में रहते ए पोकटॉप िपन से अतरत आइटम
@@ -281,13 +290,13 @@ RESOURCE ID: fusion_description
 TEXT: यह पोकमॉन {0} क साथ जुड़कर {1} बन सकता है, या {2} क साथ जुड़कर {3} बन सकता है।
 
 RESOURCE ID: fusion_description_calyrex
-TEXT: This Pokémon can unite with Glastrier to become Ice Rider Calyrex or Spectrier to become Shadow Rider Calyrex.
+TEXT: यह पोकमॉन लज़ाश क साथ मलकर आइस राइडर बडशाह या पराश क साथ मलकर शैडो राइडर बडशाह बन सकता है।
 
 RESOURCE ID: fusion_description_kyurem
-TEXT: This Pokémon can fuse with Reshiram to become White Kyurem or Zekrom to become Black Kyurem.
+TEXT: यह पोकमॉन रशरैम क साथ मलकर हाइट यूरम या ज़ेोम क साथ मलकर लैक यूरम बन सकता है।
 
 RESOURCE ID: fusion_description_necrozma
-TEXT: This Pokémon can fuse with Solgaleo to become Dusk Mane Necrozma or Lunala to become Dawn Wings Necrozma.
+TEXT: यह पोकमॉन सोललयो क साथ मलकर ट्वाइलाइट मेन नैॉ़मा या लूनाला क साथ मलकर मॉनंग वंग नैॉ़मा बन सकता है।
 
 RESOURCE ID: fusion_feature_name
 TEXT: जुड़ाव
@@ -311,13 +320,13 @@ RESOURCE ID: fusion_no_pokemon_to_fuse
 TEXT: आपक पास जोड़ने क लए {0} नहीं है।
 
 RESOURCE ID: fusion_resource_dawnwings_necrozma_name
-TEXT: Lunar Fusion Energy
+TEXT: लूनर यूज़न एनिज
 
 RESOURCE ID: fusion_resource_dawnwings_necrozma_name_plural
 TEXT: Lunar Fusion Energy
 
 RESOURCE ID: fusion_resource_duskmane_necrozma_name
-TEXT: Solar Fusion Energy
+TEXT: सोलर यूज़न एनिज
 
 RESOURCE ID: fusion_resource_duskmane_necrozma_name_plural
 TEXT: Solar Fusion Energy
@@ -335,22 +344,22 @@ RESOURCE ID: fusion_unfuse_description
 TEXT: यह {0}, अलग हो कर {1} और {2} बन जाएगा।
 
 RESOURCE ID: fusion_unfuse_description_calyrex_icerider
-TEXT: Ice Rider Calyrex will separate into Glastrier and Calyrex.
+TEXT: आइस राइडर बडशाह, लज़ाश और बडशाह में अलग हो जाएगा।
 
 RESOURCE ID: fusion_unfuse_description_calyrex_shadowrider
-TEXT: Shadow Rider Calyrex will separate into Spectrier and Calyrex.
+TEXT: शैडो राइडर बडशाह, पराश और बडशाह में अलग हो जाएगा।
 
 RESOURCE ID: fusion_unfuse_description_kyurem_black
-TEXT: Black Kyurem will separate into Zekrom and Kyurem.
+TEXT: लैक यूरम, ज़ेोम और यूरम में अलग हो जाएगा।
 
 RESOURCE ID: fusion_unfuse_description_kyurem_white
-TEXT: White Kyurem will separate into Reshiram and Kyurem.
+TEXT: हाइट यूरम, रशरैम और यूरम में अलग हो जाएगा।
 
 RESOURCE ID: fusion_unfuse_description_necrozma_dawnwings
-TEXT: Dawn Wings Necrozma will separate into Necrozma and Lunala.
+TEXT: मॉनंग वंग नैॉ़मा, नैॉ़मा और लूनाला में अलग हो जाएगा।
 
 RESOURCE ID: fusion_unfuse_description_necrozma_duskmane
-TEXT: Dusk Mane Necrozma will separate into Necrozma and Solgaleo.
+TEXT: ट्वाइलाइट मेन नैॉ़मा, नैॉ़मा और सोललयो में अलग हो जाएगा।
 
 RESOURCE ID: fusion_unfuse_error_toast
 TEXT: पोकमॉन को अलग नहीं कया जा सका। कृपया फर से कोशश करं।
@@ -366,6 +375,9 @@ TEXT: बेलाउट कयुनट डे टकट
 
 RESOURCE ID: general1.ticket_cleffahatchday2024_title
 TEXT: लफ़ा हैच डे ीमयम सीमत समय वाल रसच टकट
+
+RESOURCE ID: general1.ticket_cointicket2024_title
+TEXT: Daily Poké Coin Field Research Ticket
 
 RESOURCE ID: gofest2024
 TEXT: Pokémon GO Fest 2024
@@ -454,6 +466,12 @@ TEXT: अपनी यादों में फ़ैंसी क साथ
 RESOURCE ID: iris_flair_free_title
 TEXT: फ़ैंसी का उपयोग करं
 
+RESOURCE ID: item_event_ticket_evergreen_desc_cointicket2024
+TEXT: A ticket to receive a Field Research task when you have an open Field Research slot that includes a reward for 20 Poké Coins when completed, once a day.
+
+RESOURCE ID: item_event_ticket_evergreen_details_cointicket2024
+TEXT: This ticket will automatically activate to give you access to the Daily Poké Coin Field Research Ticket experience on May 16, wherever you are.
+
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: थानीय समयानुसार, 13 अैल, 2024 को दुपहर 2:00 बजे से लकर शाम 10:00 बजे तक पेशल बोनस को एसेस करने का टकट।
 
@@ -497,19 +515,19 @@ RESOURCE ID: meshing_option_title
 TEXT: मेशंग
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-25T18:21:03.661599+00:00 for hi-IN
-at SHA eeb70ebfec
-Pipeline 2285758, job 27662246
-Patch from: 0.309.0-SHA-67463ddf-RC3, 0.311.0-SHA-e728d329-RC3
+TEXT: Built at 2024-04-27T05:36:04.016345+00:00 for hi-IN
+at SHA 092ed54817
+Pipeline 2291761, job 27728627
+Patch from: 0.309.1-SHA-bdca83ab-RC1, 0.311.0-SHA-848704ba-RC6, 0.313.0-SHA-b99ca9ed-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found during the night and allows nighttime evolutions.
 
 RESOURCE ID: move_name_0404
-TEXT: Sunsteel Strike
+TEXT: सनटल टाइक
 
 RESOURCE ID: move_name_0405
-TEXT: Moongeist Beam
+TEXT: मूनगाइट बीम
 
 RESOURCE ID: n_backpack_combeebackpack_0_display_name
 TEXT: बोरकट ईयररंग (लांट लोक)
@@ -1906,6 +1924,24 @@ TEXT: बेलाउट को जानें (3/4)
 RESOURCE ID: quest_title_bellsprout_3
 TEXT: बेलाउट को जानें (4/4)
 
+RESOURCE ID: quest_title_global_diancie_0
+TEXT: चमक-धमक (1/6)
+
+RESOURCE ID: quest_title_global_diancie_1
+TEXT: चमक-धमक (2/6)
+
+RESOURCE ID: quest_title_global_diancie_2
+TEXT: चमक-धमक (3/6)
+
+RESOURCE ID: quest_title_global_diancie_3
+TEXT: चमक-धमक (4/6)
+
+RESOURCE ID: quest_title_global_diancie_4
+TEXT: चमक-धमक (5/6)
+
+RESOURCE ID: quest_title_global_diancie_5
+TEXT: चमक-धमक (6/6)
+
 RESOURCE ID: quest_title_rediscover_kanto
 TEXT: रडकवर कांतो
 
@@ -1955,25 +1991,25 @@ RESOURCE ID: rivals_event_name
 TEXT: रड सताह
 
 RESOURCE ID: route_appealed_deletion_confirm_description
-TEXT: This action cannot be undone. If you proceed, this Route will be completely lost and unrecoverable, and the appeal you submitted will not be reviewed.
+TEXT: इस एशन को वापस नहीं कया जा सकता। यद आप आगे बढ़ते हैं, तो यह ट पूर तरह से खो जाएगा और पुनर्ात करने योय नहीं होगा, और आपक ारा सबमट क गई अपील क समीा नहीं क जाएगी।
 
 RESOURCE ID: route_archived_info_modal_description
-TEXT: If there are a lot of Routes in an area, only the top {0} Routes are highlighted to nearby Trainers. Which Routes are highlighted changes from day to day and may be impacted by these factors:
-• ratings
-• popularity
-• age
+TEXT: यद कसी े में बत सार ट हैं, इसलए कवल शीष {0} टों को ही आसपास क टनस क लए हाइलाइट कया जाता है। कौन सा ट हाइलाट होगा यह दन पर नभर करता है और इन कारकों से भावत हो सकता है:
+• रटंग
+• लोकयता
+• उ
 
 RESOURCE ID: route_archived_info_modal_title
-TEXT: Visibility of Nearby Routes
+TEXT: नकटवती ट क वज़बलट
 
 RESOURCE ID: route_archived_notice
-TEXT: This Route is not currently highlighted to nearby Trainers.
+TEXT: यह ट वतमान में आस-पास क टनस क लए हाइलाइट नहीं कया गया है।
 
 RESOURCE ID: route_favorite_error_max
-TEXT: You’ve already reached the maximum number of favorite Routes.
+TEXT: आपने पहल ही अधकतम कारणों का चयन कर लया है।
 
 RESOURCE ID: route_favorite_error_rate_limited
-TEXT: Unable to favorite this Route. Please try again later.
+TEXT: इस ट फ़वरट में नहीं जोड़ा जा सका। कृपया बाद में पुन: यास करं।
 
 RESOURCE ID: route_pin_error_not_enough_stickers
 TEXT: Choose a different sticker.
@@ -2104,6 +2140,87 @@ TEXT: अपने नैपशॉट सेव कर साझा कर
 RESOURCE ID: stickers_v2_deco_category
 TEXT: फ़ैंसी
 
+RESOURCE ID: storyquest_global_diancie_0_0
+TEXT: हेलो, %PLAYERNAME%! आपसे मलकर अछा लगा। मेर पास एक बत अछी खबर है।
+
+RESOURCE ID: storyquest_global_diancie_0_1
+TEXT: मेरा एक रसच सहयोगी को हाल ही में खुदाई क दौरान कछ असामाय हीर मल थे।
+
+RESOURCE ID: storyquest_global_diancie_0_2
+TEXT: टम को संदेह है क ये कोई मामूल हीर नहीं हैं, बक वेल पोकमॉन डायंसी ारा बनाए गए हीर हैं!
+
+RESOURCE ID: storyquest_global_diancie_0_3
+TEXT: मेरा सहयोगी मुझे नमूने भेजेगा और मैं उनक जाँच क लए उसुक ँ।
+
+RESOURCE ID: storyquest_global_diancie_0_4
+TEXT: जब तक हम उनक आने का इंतज़ार कर रहे हैं, मैं डायंसी क बार में कछ दलचप जानकार जमा करता ँ!
+
+RESOURCE ID: storyquest_global_diancie_1_0
+TEXT: आपका फर से वागत है!
+
+RESOURCE ID: storyquest_global_diancie_1_1
+TEXT: मुझे डर है क मेर सहयोगी क नमूने अभी तक पँचे नहीं हैं, इसलए मैं पहल बैसक जानकार दे देता ँ।
+
+RESOURCE ID: storyquest_global_diancie_1_2
+TEXT: तो बात यह है क, डायंसी हवा क काबन को अपने हाथों क बीच दबाकर तुरंत ढेर सार हीर बना सकते है।
+
+RESOURCE ID: storyquest_global_diancie_1_3
+TEXT: है न कमाल? पता नहीं उनका रंग और चमक अय हीरों क तुलना में कसी है...
+
+RESOURCE ID: storyquest_global_diancie_2_0
+TEXT: बत बढ़या, %PLAYERNAME%! ये रही आपक लए एक पहेल - कौन सा पोकमॉन अचानक डायंसी में वकसत होता है?
+
+RESOURCE ID: storyquest_global_diancie_2_1
+TEXT: सही जवाब - काबीरा! कछ लोग कहते हैं क दुनया क सतह क नीचे गहनों क सााय में काबीरा का एक झुंड अपनी रानी क साथ रहता है।
+
+RESOURCE ID: storyquest_global_diancie_2_2
+TEXT: वह अवय ही एक आचयजनक दृय होगा। या आपको लगता है क वह रानी डायंसी है?
+
+RESOURCE ID: storyquest_global_diancie_2_3
+TEXT: ठीक है, जब तक हम नमूनों क आने का इंतज़ार कर रहे हैं, आप उस रजन का पता यों नहीं लगाते और देखते क या आप हमार जाँच क लए काबीरा का पता लगा सकते हैं?
+
+RESOURCE ID: storyquest_global_diancie_3_0
+TEXT: वाह आपने काबीरा का पता लगा ही लया!
+
+RESOURCE ID: storyquest_global_diancie_3_1
+TEXT: कछ ऐसा है जो आप नहीं जानते होंगे—काबीरा अपने जम क बाद से सैकड़ों लाखों वषों तक भूमगत सोते रहे हैं!
+
+RESOURCE ID: storyquest_global_diancie_3_2
+TEXT: मैं कपना भी नहीं कर सकता क उन करोड़ों वषों क दौरान या आ होगा।
+
+RESOURCE ID: storyquest_global_diancie_3_3
+TEXT: मुझे अभी सूचना मल है क मेर सहयोगी क हीर क नमूने बत जद आने वाल हैं।
+
+RESOURCE ID: storyquest_global_diancie_3_4
+TEXT: यद वे डायंसी जतने ही सुंदर हैं, तो तैया हो जाइए दुनया क सबसे खूबसूरत दृय को देखने क लए!
+
+RESOURCE ID: storyquest_global_diancie_4_0
+TEXT: मेर सहयोगी क नमूने पँच गए हैं!
+
+RESOURCE ID: storyquest_global_diancie_4_1
+TEXT: जाँच क बाद, मैं इस नतीजे पर पँचा ँ क ये वातव में डायंसी ारा बनाए गए हीर हैं। उनक चमक तो देखो!
+
+RESOURCE ID: storyquest_global_diancie_4_2
+TEXT: ये हीर दुलभ हैं, लकन डायंसी क एक झलक पाना और भी असाधारण घटना है।
+
+RESOURCE ID: storyquest_global_diancie_4_3
+TEXT: मज़ेदार फैट - डायंसी एक रॉक औरफ़ेर टाइप पोकमॉन है, जो वातव में एक कॉबनेशन है!
+
+RESOURCE ID: storyquest_global_diancie_4_4
+TEXT: डायंसी मेगा एवॉव भी कर सकते हैं, जससे ये पहल से भी अधक शानदार ढंग से चमकते हैं। यह वातव में चकाचौंध वाला पोकमॉन है।
+
+RESOURCE ID: storyquest_global_diancie_5_0
+TEXT: काबीरा और डायंसी पर रसच करने में मेर मदद करने क लए धयवाद!
+
+RESOURCE ID: storyquest_global_diancie_5_1
+TEXT: आपक साथ हमेशा मज़ा आता है।
+
+RESOURCE ID: storyquest_global_diancie_5_2
+TEXT: हो सकता है क हमने मथकल पोकमॉन क चकाचौंध और लैमर पर चचा करते ए पूरा दन बताया हो, लकन आप वयं भी कसी हीर से कम नहीं हैं।
+
+RESOURCE ID: storyquest_global_diancie_5_3
+TEXT: चमकते रहो, %PLAYERNAME%! अगल बार तक।
+
 RESOURCE ID: sunsteel_strike_adventure_effects_mapview_dialog
 TEXT: Shines the light of a meteor. Attracts Pokémon found during the day and allows daytime evolutions.
 
@@ -2124,6 +2241,11 @@ TEXT: <b>बोनस में ये चीज़ें शामल है
 <b>शामल रवॉड :</b>
 • 1 सुपर इनयूबेटर और 1 टार पीस
 • 2,500 XP
+
+RESOURCE ID: text_rewards_key_cointicket2024
+TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from May 16, 2024 at 12:00 a.m. to May 30, 2024, at 11:59 p.m. local time, wherever you are.
+If you purchase this ticket, every day from May 16 - May 30, you may receive a bonus Field Research the first time you login each day. 
+Please note: You must have 3 or fewer Field Research in your account to be granted this bonus Field Research the first time you login that day! Also, you will only receive the 20 Poké Coins if you claim the reward after task completion. You can learn more about bonus Field Research <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here </a>
 
 RESOURCE ID: text_rewards_key_megaheracrossraidday
 TEXT: <b>इसमें ये चीज़ें शामल हैं -</b>
@@ -2150,10 +2272,10 @@ RESOURCE ID: ticket_bellsprout
 TEXT: बेलाउट कयुनट डे क पेशल रसच टोर का टकट शॉप में उपलध
 
 RESOURCE ID: tr_gofest2024_earlybird1
-TEXT: Timed Research: A Glimpse of Daylight
+TEXT: सीमत समय वाल रसच - रोशनी क झलक
 
 RESOURCE ID: tr_gofest2024_earlybird2
-TEXT: Timed Research: The Rise of Moonlight
+TEXT: सीमत समय वाल रसच - चांदनी क चमक
 
 RESOURCE ID: trade_exclusion_fusion
 TEXT: आप जुड़े ए पोकमॉन को टड नहीं कर सकते!
