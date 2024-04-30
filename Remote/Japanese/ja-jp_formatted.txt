@@ -203,7 +203,7 @@ RESOURCE ID: bonus_cd_move_bellsprout
 TEXT: ウツドンをウツボットに進化させるとマジカルリーフを覚えている
 
 RESOURCE ID: bonus_daily_field_research_pokecoins
-TEXT: You will receive a Field Research task to earn 20 Poké Coins daily if you have 3 or fewer Field Research tasks!
+TEXT: You will receive a Field Research task that awards 20 PokéCoins daily if you have three or fewer Field Research tasks when you first log in for the day!
 
 RESOURCE ID: bonus_implicit_social_bellsprout_raid
 TEXT: トレーナーが協力してレイドでウツドンを倒すと、そのジムの周りに30分間マダツボミが現れる
@@ -272,7 +272,7 @@ RESOURCE ID: event_datetime_range_key_cleffahatchday2024
 TEXT: 4月28日2:00PM～5:00PM
 
 RESOURCE ID: event_datetime_range_key_cointicket2024
-TEXT: May 16, 2024 at 12:00 a.m. to May 30, 2024, at 11:59 p.m.
+TEXT: May 16, 2024, at 12:00 a.m. to May 30, 2024, at 11:59 p.m.
 
 RESOURCE ID: event_datetime_range_key_megaheracrossraidday
 TEXT: 4月13日2:00PM～10:00PM
@@ -374,7 +374,7 @@ RESOURCE ID: general1.ticket_cleffahatchday2024_title
 TEXT: ピィふかの日プレミアムタイムチャレンジチケット
 
 RESOURCE ID: general1.ticket_cointicket2024_title
-TEXT: Daily Poké Coin Field Research Ticket
+TEXT: デイリーポケコインフィールドリサーチチケット
 
 RESOURCE ID: gofest2024
 TEXT: Pokémon GO Fest 2024
@@ -433,6 +433,9 @@ TEXT: 現在の生息地：邪悪な夜
 RESOURCE ID: gofest2024_ticketed
 TEXT: Pokémon GO Fest 2024 – チケット制体験
 
+RESOURCE ID: gym_spin_xp_ten
+TEXT: 10×　ジムのフォトディスクを回してもらえるXP
+
 RESOURCE ID: hatch_day_2k_cleffa
 TEXT: ピィが2kmタマゴから生まれる
 
@@ -467,10 +470,10 @@ RESOURCE ID: iris_flair_free_title
 TEXT: 「デコ」を使おう！
 
 RESOURCE ID: item_event_ticket_evergreen_desc_cointicket2024
-TEXT: A ticket to receive a Field Research task when you have an open Field Research slot that includes a reward for 20 Poké Coins when completed, once a day.
+TEXT: 毎日1つ、完了すると20ポケコインもらえるフィールドリサーチが、空き枠があると入手できるチケット。
 
 RESOURCE ID: item_event_ticket_evergreen_details_cointicket2024
-TEXT: This ticket will automatically activate to give you access to the Daily Poké Coin Field Research Ticket experience on May 16, wherever you are.
+TEXT: このチケットは自動的に発動し5月16日にデイリーポケコインフィールドリサーチチケットが適用されます。
 
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: 現地時間2024年4月13日2:00PM～10:00PMにボーナスを受け取るためのチケット。
@@ -509,10 +512,10 @@ RESOURCE ID: meshing_option_title
 TEXT: メッシュ生成
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-27T05:36:04.016345+00:00 for ja-JP
-at SHA 092ed54817
-Pipeline 2291761, job 27728627
-Patch from: 0.309.1-SHA-bdca83ab-RC1, 0.311.0-SHA-848704ba-RC6, 0.313.0-SHA-b99ca9ed-RC1
+TEXT: Built at 2024-04-29T23:46:50.893832+00:00 for ja-JP
+at SHA c1bdd70a23
+Pipeline 2295091, job 27759546
+Patch from: 0.309.1-SHA-bdca83ab-RC1, 0.313.0-SHA-b99ca9ed-RC1, 0.311.0-SHA-848704ba-RC6
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found during the night and allows nighttime evolutions.
@@ -524,10 +527,10 @@ RESOURCE ID: move_name_0405
 TEXT: シャドーレイ
 
 RESOURCE ID: n_backpack_combeebackpack_0_display_name
-TEXT: ミノムッチ　ピアス（くさきのミノ）
+TEXT: ミツハニー ポシェット （オスのすがた）
 
 RESOURCE ID: n_backpack_combeebackpack_1_display_name
-TEXT: ミノムッチ　ピアス（すなちのミノ）
+TEXT: ミツハニー ポシェット （メスのすがた）
 
 RESOURCE ID: n_backpack_default-new_0_display_name
 TEXT: トレーナー　バッグ
@@ -611,16 +614,13 @@ RESOURCE ID: n_hat_dusclopsmummy_0_display_name
 TEXT: サマヨール　ヘッドウェア
 
 RESOURCE ID: n_hat_earringsburmyplant_0_display_name
-TEXT: ミノムッチ　ピアス（ゴミのミノ）
+TEXT: ミノムッチ　ピアス（くさきのミノ）
 
 RESOURCE ID: n_hat_earringsburmysandy_0_display_name
-TEXT: ベベノム
-ヘッドウェア
+TEXT: ミノムッチ　ピアス（すなちのミノ）
 
 RESOURCE ID: n_hat_earringsburmytrash_0_display_name
-TEXT: GO Fest
-2024 Tシャツ
-グレー
+TEXT: ミノムッチ　ピアス（ゴミのミノ）
 
 RESOURCE ID: n_hat_flabebepack_0_display_name
 TEXT: フラベベ　ヘアアクセサリー
@@ -638,10 +638,12 @@ RESOURCE ID: n_hat_gladion_0_display_name
 TEXT: グラジオ　イヤーカフ
 
 RESOURCE ID: n_hat_gofest24mooncrownprepurchase_0_display_name
-TEXT: ミツハニー ポシェット （オスのすがた）
+TEXT: GO Fest
+2024 月の冠
 
 RESOURCE ID: n_hat_gofest24suncrownprepurchase_0_display_name
-TEXT: ミツハニー ポシェット （メスのすがた）
+TEXT: GO Fest
+2024 太陽の冠
 
 RESOURCE ID: n_hat_gtr2024eeveefanmask_0_display_name
 TEXT: イーブイ　お面
@@ -688,8 +690,8 @@ RESOURCE ID: n_hat_pikachupumpkinhead_0_display_name
 TEXT: ピカチュウ かぼちゃヘッドウェア
 
 RESOURCE ID: n_hat_poipole_0_display_name
-TEXT: GO Fest
-2024 月の冠
+TEXT: ベベノム
+ヘッドウェア
 
 RESOURCE ID: n_hat_sandygasthat_0_display_name
 TEXT: スナバァ　帽子
@@ -926,7 +928,8 @@ TEXT: GO Fest
 
 RESOURCE ID: n_shirt_gofest24webexclusive_display_name
 TEXT: GO Fest
-2024 太陽の冠
+2024 Tシャツ
+グレー
 
 RESOURCE ID: n_shirt_goteamrocketarlo_a_0_display_name
 TEXT: アルロ セットアップ（１）
@@ -1628,6 +1631,18 @@ TEXT: レイドデイ：メガヘラクロス
 RESOURCE ID: raid_ticketed_bonus_plural
 TEXT: レイドデイチケットボーナス
 
+RESOURCE ID: rivals_event_heatmor_durant_name
+TEXT: ライバルウィーク：クイタランVSアイアント
+
+RESOURCE ID: rivals_event_sawk_throh_name
+TEXT: ライバルウィーク：ナゲキVSダゲキ
+
+RESOURCE ID: rivals_event_seviper_zangoose_name
+TEXT: ライバルウィーク：ザングースVSハブネーク
+
+RESOURCE ID: rivals_timed_research_title
+TEXT: ライバルウィーク
+
 RESOURCE ID: route_appealed_deletion_confirm_description
 TEXT: この操作はやり直せません。決定すると、このルートは完全に失われ、提出されている異議申し立ては審査されません。
 
@@ -1874,9 +1889,9 @@ TEXT: <b>適用ボーナス：</b>
 ・2500XP
 
 RESOURCE ID: text_rewards_key_cointicket2024
-TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from May 16, 2024 at 12:00 a.m. to May 30, 2024, at 11:59 p.m. local time, wherever you are.
-If you purchase this ticket, every day from May 16 - May 30, you may receive a bonus Field Research the first time you login each day. 
-Please note: You must have 3 or fewer Field Research in your account to be granted this bonus Field Research the first time you login that day! Also, you will only receive the 20 Poké Coins if you claim the reward after task completion. You can learn more about bonus Field Research <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here </a>
+TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from May 16, 2024, at 12:00 a.m. to May 30, 2024, at 11:59 p.m. local time, wherever you are.
+If you purchase this ticket, every day from May 16 to May 30, you may receive a bonus Field Research the first time you log in each day.
+Please note: You must have three or fewer Field Research tasks active to be granted this bonus Field Research the first time you log on a given day! Also, you must claim the 20 PokéCoins reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
 
 RESOURCE ID: text_rewards_key_megaheracrossraidday
 TEXT: <b>もらえるもの：</b>
