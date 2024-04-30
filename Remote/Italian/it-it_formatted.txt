@@ -328,6 +328,12 @@ TEXT: 13 e 14 luglio 2024
 RESOURCE ID: badge_gofest_2024_test_title
 TEXT: Festival di Pokémon GO 2024
 
+RESOURCE ID: badge_mvt_title
+TEXT: Artista dei raid
+
+RESOURCE ID: badge_raid_battle_stat_title
+TEXT: Artista dei raid
+
 RESOURCE ID: bonus_cd_move_bagon
 TEXT: Fai evolvere Shelgon per ottenere un Salamence che conosce l’attacco caricato Oltraggio
 
@@ -435,6 +441,10 @@ TEXT: 28 aprile dalle 14:00 alle 17:00
 
 RESOURCE ID: event_datetime_range_key_cointicket2024
 TEXT: May 16, 2024, at 12:00 a.m. to May 30, 2024, at 11:59 p.m.
+
+RESOURCE ID: event_datetime_range_key_gobattlemay2024
+TEXT: Dal 4 maggio alle 00:00
+al 5 maggio alle 23:59
 
 RESOURCE ID: event_datetime_range_key_megaheracrossraidday
 TEXT: Il 13 aprile dalle 14:00 alle 22:00
@@ -552,6 +562,12 @@ TEXT: Biglietto per la ricerca a tempo premium della giornata della schiusa dedi
 RESOURCE ID: general1.ticket_cointicket2024_title
 TEXT: Daily PokéCoin Field Research Ticket
 
+RESOURCE ID: general1.ticket_gobattlemay2024_title
+TEXT: Biglietto per la ricerca a tempo premium del weekend Lotte GO
+
+RESOURCE ID: gifts_event_name
+TEXT: Evento dedicato ai pacchi amicizia
+
 RESOURCE ID: gofest2024
 TEXT: Pokémon GO Fest 2024
 
@@ -630,6 +646,9 @@ TEXT: Ricerca a tempo della giornata della schiusa dedicata a Riolu
 RESOURCE ID: hatch_stardust_double_party
 TEXT: Doppio della polvere di stelle da schiusa quando sei in gruppo
 
+RESOURCE ID: home_event_name
+TEXT: Evento dedicato a Pokémon HOME
+
 RESOURCE ID: increased_remote_raid_limit
 TEXT: Aumento del limite di raid da remoto
 
@@ -667,7 +686,7 @@ RESOURCE ID: item_event_ticket_gray_details_primalkyogre
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso ai bonus speciali il 17 marzo, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Un biglietto per accedere alla ricerca a tempo premium della giornata della schiusa dedicata a Cleffa il 28 aprile 2024 dalle 14:00 alle 17:00 ora locale, ovunque ti trovi.
+TEXT: Un biglietto per accedere alla ricerca a tempo premium del weekend Lotte GO fino alle 23:59 ora locale del 5 maggio, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_pink_desc_bagon
 TEXT: Un biglietto per accedere alla ricerca speciale del Community Day Classico dedicato a Bagon il 7 aprile 2024 dalle 14:00 alle 17:00 ora locale, ovunque ti trovi.
@@ -675,14 +694,23 @@ TEXT: Un biglietto per accedere alla ricerca speciale del Community Day Classico
 RESOURCE ID: item_event_ticket_pink_desc_bellsprout
 TEXT: Un biglietto per accedere alla ricerca speciale del Community Day dedicato a Bellsprout il 20 aprile alle 14:00 ora locale, ovunque ti trovi.
 
+RESOURCE ID: item_event_ticket_pink_desc_cleffahatch
+TEXT: Un biglietto per accedere alla ricerca a tempo premium della giornata della schiusa dedicata a Cleffa il 28 aprile 2024 dalle 14:00 alle 17:00 ora locale, ovunque ti trovi.
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo premium della giornata della schiusa dedicata a Cleffa il 28 aprile, ovunque ti trovi.
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo premium del weekend Lotte GO, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_pink_details_bagon
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca speciale del Community Day Classico dedicato a Bagon, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_pink_details_bellsprout
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca speciale “Gira tutto intorno a Bellsprout” il 20 aprile, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_pink_details_cleffahatch
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo premium della giornata della schiusa dedicata a Cleffa il 28 aprile, ovunque ti trovi.
+
+RESOURCE ID: lake_trio_event_name
+TEXT: Evento “Leggende dei laghi”
 
 RESOURCE ID: lure_duration_double_party
 TEXT: Durata del modulo esca raddoppiata quando sei in gruppo
@@ -705,10 +733,10 @@ RESOURCE ID: meshing_option_title
 TEXT: Meshing
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-29T23:46:50.893832+00:00 for it-IT
-at SHA c1bdd70a23
-Pipeline 2295091, job 27759546
-Patch from: 0.309.1-SHA-bdca83ab-RC1, 0.313.0-SHA-b99ca9ed-RC1, 0.311.0-SHA-848704ba-RC6
+TEXT: Built at 2024-04-30T18:44:42.246002+00:00 for it-IT
+at SHA 151574ed6e
+Pipeline 2296830, job 27781597
+Patch from: 0.309.0-SHA-dade6e10-RC5, 0.311.0-SHA-63c99d6f-RC5, 0.313.0-SHA-b99ca9ed-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found during the night and allows nighttime evolutions.
@@ -1532,6 +1560,11 @@ TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from
 If you purchase this ticket, every day from May 16 to May 30, you may receive a bonus Field Research the first time you log in each day.
 Please note: You must have three or fewer Field Research tasks active to be granted this bonus Field Research the first time you log on a given day! Also, you must claim the 20 PokéCoins reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
 
+RESOURCE ID: text_rewards_key_gobattlemay2024
+TEXT: <b>Include:</b>
+• 30.000 unità di polvere di stelle
+• Tre Caramelle Rare, tre Caramelle Rare L, un Pezzo Stella
+
 RESOURCE ID: text_rewards_key_megaheracrossraidday
 TEXT: <b>Bonus inclusi:</b>
 • Otto biglietti raid aggiuntivi facendo girare i dischi foto delle Palestre
@@ -1539,6 +1572,18 @@ TEXT: <b>Bonus inclusi:</b>
 • 50% di PE in più e doppio della polvere di stelle quando porti a termine un raid con successo
 
 RESOURCE ID: text_rewards_key_wonderticket
+TEXT: <b>Questo biglietto include tre ricerche a tempo esclusive, a cui potrai accedere automaticamente.</b>
+<b>Le ricompense includono:</b>
+- Oggetto avatar elmetto Poipole
+- Un incontro con Poipole
+- Incontri con Beedrill, Slowpoke di Galar, Cacnea, Trubbish e Skrelp
+- Incontri con Eevee e le sue evoluzioni, tutti adornati di fiori di ciliegio
+- Tre biglietti lotta premium, tre aromi, 15 Caramelle Rare, tre Fortunuova, tre Pezzi Stella, 30 caramelle Poipole e molto altro
+- 60.000 PE e 30.000 unità di polvere di stelle
+
+<b>Ricorda che se acquisterai questa versione del Biglietto meraviglia non potrai più acquistare la versione che contiene articoli aggiuntivi.</b> Trovi tutte le informazioni sugli articoli premium aggiuntivi sul nostro sito web.
+
+RESOURCE ID: text_rewards_key_wonderticket_part2
 TEXT: <b>Questo biglietto include tre ricerche a tempo esclusive, a cui potrai accedere man mano che diventano disponibili.</b> Acquistando questo biglietto avrai accesso alla prima e alla seconda ricerca a tempo.
 
 <b>Ricompense della 1ª e della 2ª parte :</b>

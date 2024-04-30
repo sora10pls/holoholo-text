@@ -77,7 +77,7 @@ RESOURCE ID: ar_iris_tutorial_position_title
 TEXT: Coloca a tu Pokémon
 
 RESOURCE ID: ar_iris_tutorial_reposition_description
-TEXT: Puedes devolver un Pokémon a su Pokébola tocando el botón correspondiente. Después, puedes mover tu Pokémon a una nueva posición.
+TEXT: Puedes regresar un Pokémon a su Pokébola tocando el botón correspondiente. Después, puedes mover tu Pokémon a una nueva ubicación.
 
 RESOURCE ID: ar_iris_tutorial_reposition_title
 TEXT: Reacomoda tu Pokémon
@@ -225,16 +225,16 @@ RESOURCE ID: badge_aa_2024_surabaya_day_02_title
 TEXT: Pikachu de viaje por Indonesia
 
 RESOURCE ID: badge_gofest_2024_global
-TEXT: July 13–14, 2024
+TEXT: 13 y 14 de julio de 2024
 
 RESOURCE ID: badge_gofest_2024_global_title
-TEXT: Pokémon GO Fest 2024
+TEXT: Festival de Pokémon GO 2024
 
 RESOURCE ID: badge_gofest_2024_test
-TEXT: July 13–14, 2024
+TEXT: 13 y 14 de julio de 2024
 
 RESOURCE ID: badge_gofest_2024_test_title
-TEXT: Pokémon GO Fest 2024
+TEXT: Festival de Pokémon GO 2024
 
 RESOURCE ID: badge_travel_km
 TEXT: Recorre {0} km.
@@ -471,9 +471,21 @@ TEXT: 1/2 de la distancia para obtener un corazón con tu compañero
 RESOURCE ID: buddy_candy_distance_half
 TEXT: 1/2 de la distancia para obtener Caramelos de compañero
 
+RESOURCE ID: buddy_detail_basic_buddy
+TEXT: Si aumentas tu nivel de compañero, ¡obtendrás más beneficios! Toca un corazón para ver más información.
+
+RESOURCE ID: buddy_detail_nearby
+TEXT: Encontrar lugares
+
+RESOURCE ID: buddy_general_term_description_location
+TEXT: Tu compañero intentará encontrar lugares interesantes para ti.
+
 RESOURCE ID: buddy_history
 TEXT: Historial de
 compañeros
+
+RESOURCE ID: buddy_multiplayer_freeplay_tutorial_0_description
+TEXT: Desliza el dedo sobre el Pokémon para que te mire.
 
 RESOURCE ID: buddy_multiplayer_tutorial_3_title
 TEXT: Presten atención a un solo objeto
@@ -493,12 +505,25 @@ TEXT: Pequeño ramo de flores confeccionado con dedicación y esmero solo para t
 RESOURCE ID: buddy_swap_warning_normal
 TEXT: Solo puedes cambiar de compañero una vez al día.
 
+RESOURCE ID: buddy_take_photo
+TEXT: Tomar una foto
+
 RESOURCE ID: buddy_tutorial_basic_content_p1
 TEXT: Conseguirás un corazón por cada {0} km que camines con tu compañero hasta {1} veces al día.
 La distancia a pie se cuenta solo mientras tu compañero camina contigo en el mapa.
 
+RESOURCE ID: buddy_tutorial_candy_content
+TEXT: Mientras caminas, puedes ganar Caramelos para el Pokémon que elijas como compañero. Si tu compañero está entusiasmado, ¡la distancia necesaria para ganar Caramelos se reducirá! ¡Usa un Pokocho para que tu compañero se entusiasme aún más rápido que con otras golosinas!
+
 RESOURCE ID: buddy_tutorial_cpboost_content
 TEXT: Este Pokémon tiene potenciador de PC, que solo se aplica cuando tu compañero actual está también en el nivel de Mejor Compañero.
+
+RESOURCE ID: buddy_tutorial_petting_content_p0
+TEXT: Desliza el dedo sobre el Pokémon para que te mire.
+
+RESOURCE ID: buddy_visit_new_place
+TEXT: Visitar un lugar nuevo
+
 
 RESOURCE ID: camera_settings_heading
 TEXT: CÁMARA
@@ -559,6 +584,9 @@ TEXT: 4× EXP por captura cuando estés en un equipo
 
 RESOURCE ID: catch_xp_triple_party
 TEXT: 3× EXP por captura cuando estés en un equipo
+
+RESOURCE ID: challenge_buddy_treat_single
+TEXT: Dar golosinas a tu compañero
 
 RESOURCE ID: cleffa_hatch_event_name
 TEXT: Día de Eclosiones de Cleffa
@@ -666,6 +694,10 @@ TEXT: 28 de abril de 2:00 p. m. a 5:00 p. m.
 RESOURCE ID: event_datetime_range_key_cointicket2024
 TEXT: May 16, 2024, at 12:00 a.m. to May 30, 2024, at 11:59 p.m.
 
+RESOURCE ID: event_datetime_range_key_gobattlemay2024
+TEXT: Del 4 de mayo a las 12:00 a. m. al
+5 de mayo a las 11:59 p. m.
+
 RESOURCE ID: event_datetime_range_key_gotour2024
 TEXT: Del 19 de febrero a las 10 a. m.
 al 25 de febrero a las 8 p. m.
@@ -741,10 +773,10 @@ RESOURCE ID: fitness_distance_report
 TEXT: ¡Esta semana has recorrido {0:0.#} {1}!
 
 RESOURCE ID: fitness_enable_modal_message_candyfound
-TEXT: ¡Deja que Pokémon GO cuente tus pasos mientras el juego está cerrado para ayudarte a eclosionar Huevos y conseguir más Caramelos!
+TEXT: ¡Deja que Pokémon GO cuente tus pasos mientras el juego está cerrado para ayudarte a eclosionar Huevos y ahorrar batería!
 
 RESOURCE ID: fitness_enable_modal_message_egghatch
-TEXT: ¡Deja que Pokémon GO cuente tus pasos mientras el juego está cerrado para ayudarte a eclosionar Huevos y conseguir más Caramelos!
+TEXT: ¡Deja que Pokémon GO cuente tus pasos mientras el juego está cerrado para ayudarte a eclosionar Huevos y ahorrar batería!
 
 RESOURCE ID: followed_routes_title
 TEXT: RUTAS SEGUIDAS
@@ -1159,6 +1191,9 @@ Puedes encontrar más información en las Noticias dentro de la aplicación.
 
 <b>Debes jugar durante las horas especificadas para recibir todas las bonificaciones de este evento especial.</b>
 
+RESOURCE ID: general1.ticket_gobattlemay2024_title
+TEXT: Entrada: Investigación Temporal Prémium del Fin de Semana de Combates GO
+
 RESOURCE ID: giovanni_defeat#2
 TEXT: Tu amor por los Pokémon te dio la ventaja... solo por esta vez.
 
@@ -1439,7 +1474,7 @@ RESOURCE ID: item_event_ticket_gray_details_primalkyogre
 TEXT: Esta entrada se activará automáticamente para darte acceso a bonificaciones especiales el 17 de marzo, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Una entrada para acceder a la Investigación Temporal Prémium del Día de Eclosiones de Cleffa el 28 de abril de 2024 de 2 p. m. a 5 p. m. en tu hora local, estés donde estés.
+TEXT: Una entrada para acceder a la Investigación Temporal Prémium del Fin de Semana de Combates GO hasta el 5 de mayo a las 11:59 p. m. en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_desc_bagon
 TEXT: Una entrada para acceder a la Investigación Especial "Clásicos del Día de la Comunidad: Bagon" el 7 de abril de 2024 de 2:00 p. m. a 5:00 p. m. en tu hora local, estés donde estés.
@@ -1447,14 +1482,20 @@ TEXT: Una entrada para acceder a la Investigación Especial "Clásicos del Día 
 RESOURCE ID: item_event_ticket_pink_desc_bellsprout
 TEXT: Una entrada para acceder a la Investigación Especial del Día de la Comunidad de Bellsprout desde el 20 de abril a las 2:00 p. m. en tu hora local, estés donde estés.
 
+RESOURCE ID: item_event_ticket_pink_desc_cleffahatch
+TEXT: Una entrada para acceder a la Investigación Temporal Prémium del Día de Eclosiones de Cleffa el 28 de abril de 2024 de 2 p. m. a 5 p. m. en tu hora local, estés donde estés.
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Temporal Prémium del Día de Eclosiones de Cleffa el 28 de abril, estés donde estés.
+TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Temporal Prémium del Fin de Semana de Combates GO, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_details_bagon
 TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Especial "Clásicos del Día de la Comunidad: Bagon" el 7 de abril de 2024, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_details_bellsprout
 TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Especial "Descubriendo a Bellsprout" el 20 de abril, estés donde estés.
+
+RESOURCE ID: item_event_ticket_pink_details_cleffahatch
+TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Temporal Prémium del Día de Eclosiones de Cleffa el 28 de abril, estés donde estés.
 
 RESOURCE ID: item_evergreen_ticket_details_catchmastery
 TEXT: Esta entrada se activará automáticamente para darte acceso a un segundo conjunto de la Investigación Temporal de Arte de la Captura, estés donde estés.
@@ -1550,10 +1591,10 @@ RESOURCE ID: meshing_option_title
 TEXT: Mallado
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-29T23:46:50.893832+00:00 for es-MX
-at SHA c1bdd70a23
-Pipeline 2295091, job 27759546
-Patch from: 0.309.1-SHA-bdca83ab-RC1, 0.313.0-SHA-b99ca9ed-RC1, 0.311.0-SHA-848704ba-RC6
+TEXT: Built at 2024-04-30T18:44:42.246002+00:00 for es-MX
+at SHA 151574ed6e
+Pipeline 2296830, job 27781597
+Patch from: 0.309.0-SHA-dade6e10-RC5, 0.311.0-SHA-63c99d6f-RC5, 0.313.0-SHA-b99ca9ed-RC1
 
 RESOURCE ID: minicollect_help_subtitle
 TEXT: Algunos Pokémon solo se pueden encontrar de una forma determinada. Consulta los símbolos a continuación para saber cómo encontrarte con el Pokémon que quieras.
@@ -2157,6 +2198,9 @@ TEXT: Política de Privacidad de Niantic<br><br><br>Fecha de entrada en vigor: 1
 RESOURCE ID: profile_pokestops_visited
 TEXT: Poképaradas visitadas
 
+RESOURCE ID: purchase_limit_one
+TEXT: SOLO UNA VEZ
+
 RESOURCE ID: quest_bagon_catch_b
 TEXT: Atrapa {0} Bagon
 
@@ -2418,6 +2462,9 @@ TEXT: Te recomiendo que aprendas de tus compañeros Entrenadores y respetes sus 
 RESOURCE ID: quest_special_dialogue_magit_1_4
 TEXT: Tal vez deberías usar Bayas Pinia cuando intentes atrapar Magikarp, ¡no solo son sabrosas, sino que además son muy útiles!
 
+RESOURCE ID: quest_special_dialogue_may22_alola_branch_quest_0_1
+TEXT: Ando muy motivado desde que vi a Tapu Fini. Y cuanto más pienso en ese encuentro, más me doy cuenta de que en los últimos meses hemos visto bastantes Pokémon que fueron descubiertos originalmente en Alola.
+
 RESOURCE ID: quest_special_dialogue_may22_alola_branch_quest_0_4
 TEXT: Después de todo, ¡los Profesores debemos mucho de nuestro aprendizaje a Entrenadores aventureros como tú!
 
@@ -2498,6 +2545,9 @@ TEXT: Quizá sea solo yo, pero cuando escucho "al revés" pienso inmediatamente 
 
 RESOURCE ID: quest_special_dialogue_season4_7_2
 TEXT: Me pregunto si alguna vez llegaremos a presenciarlo. Supongo que por ahora solo podemos continuar con nuestra investigación.
+
+RESOURCE ID: quest_special_dialogue_season8_10_2
+TEXT: Los Pokémon son criaturas maravillosas. Debo anotar este comportamiento.
 
 RESOURCE ID: quest_special_dialogue_shaymin_global_0_4
 TEXT: Me pregunto si sabríamos más sobre Shaymin si tan solo prestáramos un poco más de atención.
@@ -2656,6 +2706,13 @@ actualizadas: {0}
 RESOURCE ID: quests_collect_stamps_message
 TEXT: ¡Completa Investigaciones de Campo para coleccionar sellos y obtener recompensas! Solo puedes recibir un sello de investigación al día por completar una Investigación de Campo.
 
+RESOURCE ID: quests_new_challenge_received
+TEXT: ¡Nueva Investigación
+de Campo!
+
+RESOURCE ID: quickstart_pokestopspin|1
+TEXT: Gira el fotodisco en el centro de la estructura para que salgan objetos. Toca o desliza el dedo sobre ellos para recolectarlos.
+
 RESOURCE ID: raid_day_hisuian_decidueye
 TEXT: Día de Incursiones: Decidueye de Hisui
 
@@ -2806,8 +2863,23 @@ TEXT: Elegir Pokémon
 RESOURCE ID: settings_advanced_adjust_performance_sub
 TEXT: Optimiza tu experiencia de juego en función de tu dispositivo para mejorar el rendimiento o ahorrar batería.
 
+RESOURCE ID: settings_allow_paid_gifts
+TEXT: Permitir que tus amistades te envíen regalos pagados
+
+RESOURCE ID: settings_legendary_multi_selection_confirmation_description
+TEXT: Si habilitas esta opción, podrás transferir Pokémon legendarios, ciertos Pokémon míticos, y Ultraentes al seleccionar varios Pokémon en tu almacenamiento de Pokémon. Si transfieres Pokémon al Profesor Willow, no podrás recuperarlos.
+
 RESOURCE ID: settings_raid_friend_requests_tip
 TEXT: Solo válido para incursiones en persona y cercanas.
+
+RESOURCE ID: settings_save_image_tip
+TEXT: Guarda fotos de RA en tu dispositivo
+
+RESOURCE ID: settings_select_legendary_tip
+TEXT: Permite transferir Pokémon legendarios y ciertos Pokémon míticos al seleccionar varios Pokémon en tu almacenamiento de Pokémon.
+
+RESOURCE ID: settings_share_recent_catch_friends
+TEXT: Comparte la información sobre los Pokémon que atrapaste recientemente con tus amistades
 
 RESOURCE ID: settings_title
 TEXT: FOTO GO
@@ -3124,6 +3196,11 @@ TEXT: <b>Incluye:</b>
 • Puedes llevar 2× regalos en tu Bolsa (40 en total)
 • ¡Y mucho más!
 
+RESOURCE ID: text_rewards_key_gobattlemay2024
+TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+• 30,000 Polvos Estrella
+• 3 Caramelos Raros, 3 Caramelos Raros XL y 1 Fragmento Estrella
+
 RESOURCE ID: text_rewards_key_gofest2024ver1
 TEXT: <b>Incluye:</b>
 • Un encuentro con el Pokémon mítico Marshadow
@@ -3189,6 +3266,18 @@ TEXT: <b>Las recompensas incluyen lo siguiente:</b>
 • 6 Componentes Misteriosos, 1 Superincubadora y 1 Radar Rocket
 
 RESOURCE ID: text_rewards_key_wonderticket
+TEXT: <b>Esta entrada incluye tres Investigaciones Temporales a las que tendrás acceso de manera automática.</b>
+<b>Las recompensas incluyen:</b>
+- Casco de Poipole para el avatar
+- Un encuentro con Poipole
+- Encuentros con Beedrill, Slowpoke de Galar, Cacnea, Trubbish y Skrelp
+- Encuentros con Eevee y sus evoluciones con flores de cerezo
+- 3 Pases de Combate Prémium, 3 Inciensos, 15 Caramelos Raros, 3 Huevos Suerte, 3 Fragmentos Estrella, 30 Caramelos Poipole y mucho más
+- 60,000 EXP y 30,000 Polvos Estrella
+
+<b>Ten en cuenta que, si adquieres esta versión de "Entrada Maravillosa", no podrás comprar la versión que tiene artículos adicionales.</b> Obtén información sobre estos artículos prémium en nuestro sitio web.
+
+RESOURCE ID: text_rewards_key_wonderticket_part2
 TEXT: <b>Esta entrada incluye tres Investigaciones Temporales a las que tendrás acceso de manera automática cuando estén disponibles.</b> Comprar esta entrada te dará acceso a la primera y a la segunda Investigación Temporal.
 
 <b>Recompensas de la parte 1 y 2:</b>
@@ -3221,6 +3310,12 @@ TEXT: La entrada para la Investigación Temporal con opciones "Día de Investiga
 
 RESOURCE ID: ticket_grubbin
 TEXT: Las entradas para la historia de Investigación Especial del Día de la Comunidad: Grubbin están disponibles en la Tienda
+
+RESOURCE ID: tips_loading_screen_discard_all_items
+TEXT: Descarta rápidamente todas las unidades de cualquier objeto de tu Bolsa tocando el botón - en la pantalla de descarte.
+
+RESOURCE ID: tips_lures_locked_conversation_0
+TEXT: Aquí es donde puedes colocar un Módulo Señuelo, que atraerá a los Pokémon cercanos a esta Poképarada. ¿No te parece que los Pokémon son criaturas fascinantes?
 
 RESOURCE ID: tr_gofest2024_earlybird1
 TEXT: Investigación Temporal: Un rayito de sol
@@ -3269,6 +3364,20 @@ TEXT: Night Pokémon attracted to your area.
 
 RESOURCE ID: use_sunsteel_strike_effect
 TEXT: Daytime Pokémon attracted to your area.
+
+RESOURCE ID: use_system_settings
+TEXT: Configuración del dispositivo
+
+RESOURCE ID: username_suggestion_name_looks_good_banned_name
+TEXT: ¡Se ve bien!
+
+RESOURCE ID: username_suggestion_name_looks_good_change_name
+TEXT: ¡Se ve bien!
+Puedes cambiar tu apodo una vez.
+
+RESOURCE ID: username_suggestion_name_looks_good_new_user
+TEXT: ¡Se ve bien!
+Puedes cambiar tu apodo más tarde.
 
 RESOURCE ID: visit_a_pokestop|3
 TEXT: A partir de ahora, podrás explorar el mundo que te rodea. Espero que salgas y atrapes muchos Pokémon, ¡y que los registres en tu Pokédex!

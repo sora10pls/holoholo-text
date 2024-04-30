@@ -377,6 +377,10 @@ TEXT: 28 de abril de 14:00 a 17:00
 RESOURCE ID: event_datetime_range_key_cointicket2024
 TEXT: May 16, 2024, at 12:00 a.m. to May 30, 2024, at 11:59 p.m.
 
+RESOURCE ID: event_datetime_range_key_gobattlemay2024
+TEXT: Del 4 de mayo a las 00:00 al
+5 de mayo a las 23:59.
+
 RESOURCE ID: event_datetime_range_key_megaheracrossraidday
 TEXT: 13 de abril de 14:00 a 22:00
 
@@ -481,6 +485,9 @@ TEXT: Entrada: Investigación temporal prémium del Día de eclosiones de Cleffa
 
 RESOURCE ID: general1.ticket_cointicket2024_title
 TEXT: Daily PokéCoin Field Research Ticket
+
+RESOURCE ID: general1.ticket_gobattlemay2024_title
+TEXT: Entrada: Investigación temporal prémium del Fin de semana de Combates GO
 
 RESOURCE ID: gofest2024
 TEXT: Pokémon GO Fest 2024
@@ -591,7 +598,7 @@ RESOURCE ID: item_event_ticket_gray_details_primalkyogre
 TEXT: Esta entrada se activará automáticamente para darte acceso a bonus especiales el 17 de marzo, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Una entrada para acceder a la investigación temporal prémium del Día de eclosiones de Cleffa el 28 de abril de 2024 de 14:00 a 17:00 en tu hora local, estés donde estés.
+TEXT: Una entrada para acceder a la investigación temporal prémium del Fin de semana de Combates GO hasta el 5 de mayo a las 23:59 en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_desc_bagon
 TEXT: Una entrada para acceder a la investigación especial "Clásicos del Día de la Comunidad: Bagon" el 7 de abril de 2024 de 14:00 a 17:00 en tu hora local, estés donde estés.
@@ -599,14 +606,20 @@ TEXT: Una entrada para acceder a la investigación especial "Clásicos del Día 
 RESOURCE ID: item_event_ticket_pink_desc_bellsprout
 TEXT: Una entrada para acceder a la investigación especial del Día de la Comunidad de Bellsprout desde el 20 de abril a las 14:00 en tu hora local, estés donde estés.
 
+RESOURCE ID: item_event_ticket_pink_desc_cleffahatch
+TEXT: Una entrada para acceder a la investigación temporal prémium del Día de eclosiones de Cleffa el 28 de abril de 2024 de 14:00 a 17:00 en tu hora local, estés donde estés.
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal prémium del Día de eclosiones de Cleffa el 28 de abril, estés donde estés.
+TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal prémium del Fin de semana de Combates GO, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_details_bagon
 TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación especial "Clásicos del Día de la Comunidad: Bagon" el 7 de abril de 2024, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_details_bellsprout
 TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación especial "Descubriendo a Bellsprout" el 20 de abril, estés donde estés.
+
+RESOURCE ID: item_event_ticket_pink_details_cleffahatch
+TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal prémium del Día de eclosiones de Cleffa el 28 de abril, estés donde estés.
 
 RESOURCE ID: lure_duration_double_party
 TEXT: Doble de duración de los Módulos Cebo cuando estés en un equipo
@@ -621,10 +634,10 @@ RESOURCE ID: meshing_option_title
 TEXT: Mallado
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-29T23:46:50.893832+00:00 for es-ES
-at SHA c1bdd70a23
-Pipeline 2295091, job 27759546
-Patch from: 0.309.1-SHA-bdca83ab-RC1, 0.313.0-SHA-b99ca9ed-RC1, 0.311.0-SHA-848704ba-RC6
+TEXT: Built at 2024-04-30T18:44:42.246002+00:00 for es-ES
+at SHA 151574ed6e
+Pipeline 2296830, job 27781597
+Patch from: 0.309.0-SHA-dade6e10-RC5, 0.311.0-SHA-63c99d6f-RC5, 0.313.0-SHA-b99ca9ed-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found during the night and allows nighttime evolutions.
@@ -1447,6 +1460,11 @@ TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from
 If you purchase this ticket, every day from May 16 to May 30, you may receive a bonus Field Research the first time you log in each day.
 Please note: You must have three or fewer Field Research tasks active to be granted this bonus Field Research the first time you log on a given day! Also, you must claim the 20 PokéCoins reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
 
+RESOURCE ID: text_rewards_key_gobattlemay2024
+TEXT: <b>Recompensas incluidas:</b>
+• 30 000 Polvos Estelares
+• 3 Caramelos Raros, 3 Caramelos Raros ++ y 1 Trozo Estrella
+
 RESOURCE ID: text_rewards_key_megaheracrossraidday
 TEXT: <b>Bonus incluidos:</b>
 • Ocho Pases de incursión adicionales al dar vueltas a fotodiscos en Gimnasios
@@ -1454,6 +1472,17 @@ TEXT: <b>Bonus incluidos:</b>
 • 50 % más PX y el doble de Polvos Estelares al ganar incursiones
 
 RESOURCE ID: text_rewards_key_wonderticket
+TEXT: <b>Esta entrada incluye tres investigaciones temporales a las que tendrás acceso de manera automática.</b>
+<b>Las recompensas incluyen:</b>
+- Casco de Poipole para el avatar
+- Un encuentro con Poipole
+- Encuentros con Beedrill, Slowpoke de Galar, Cacnea, Trubbish y Skrelp
+- Encuentros con Eevee y sus evoluciones con flores de cerezo
+- 3 Pases de combate prémium, 3 Inciensos, 15 Caramelos Raros, 3 Huevos Suerte, 3 Trozos Estrella, 30 Caramelos Poipole y mucho más
+- 60 000 PX y 30 000 Polvos Estelares
+<b>Ten en cuenta que, si adquieres esta versión de "Una entrada maravillosa", no podrás comprar la versión que tiene artículos adicionales.</b> Encontrarás más información sobre estos artículos prémium en nuestro sitio web.
+
+RESOURCE ID: text_rewards_key_wonderticket_part2
 TEXT: <b>Esta entrada incluye tres investigaciones temporales a las que tendrás acceso de manera automática cuando estén disponibles.</b> Comprar esta entrada te dará acceso a la primera y a la segunda investigación temporal.
 
 <b>Recompensas de la parte 1 y 2:</b>

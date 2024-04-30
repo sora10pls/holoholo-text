@@ -280,6 +280,10 @@ TEXT: 28 Nisan, 14.00-17.00
 RESOURCE ID: event_datetime_range_key_cointicket2024
 TEXT: May 16, 2024, at 12:00 a.m. to May 30, 2024, at 11:59 p.m.
 
+RESOURCE ID: event_datetime_range_key_gobattlemay2024
+TEXT: 4 Mayıs, 00.00 –
+5 Mayıs, 23.59
+
 RESOURCE ID: event_datetime_range_key_megaheracrossraidday
 TEXT: 13 Nisan, 14.00-22.00
 
@@ -391,6 +395,9 @@ TEXT: Yumurtadan Çıkan Cleffa Günü Premium Süreli Araştırması Bileti
 RESOURCE ID: general1.ticket_cointicket2024_title
 TEXT: Daily PokéCoin Field Research Ticket
 
+RESOURCE ID: general1.ticket_gobattlemay2024_title
+TEXT: GO Maç Hafta Sonu Premium Süreli Araştırması Bileti
+
 RESOURCE ID: gofest2024
 TEXT: Pokémon GO Fest 2024
 
@@ -500,7 +507,7 @@ RESOURCE ID: item_event_ticket_gray_details_primalkyogre
 TEXT: Bu bilet 17 Mart’ta geçerli olacak özel bonuslara dilediğiniz yerden hak kazanabilmeniz için otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: 28 Nisan 2024’te, yerel saatle 14.00-17.00 arasında gerçekleşecek Yumurtadan Çıkan Cleffa Günü premium süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
+TEXT: 5 Mayıs, yerel saatle 23.59’a kadar sürecek GO Maç Hafta Sonu premium süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
 RESOURCE ID: item_event_ticket_pink_desc_bagon
 TEXT: 7 Nisan 2024’te, yerel saatle 14.00-17.00 arasında gerçekleşecek Topluluk Günü Klasik: Bagon özel araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
@@ -508,14 +515,20 @@ TEXT: 7 Nisan 2024’te, yerel saatle 14.00-17.00 arasında gerçekleşecek Topl
 RESOURCE ID: item_event_ticket_pink_desc_bellsprout
 TEXT: 20 Nisan’da, yerel saatle 14.00’te başlayacak Bellsprout Topluluk Günü özel araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
+RESOURCE ID: item_event_ticket_pink_desc_cleffahatch
+TEXT: 28 Nisan 2024’te, yerel saatle 14.00-17.00 arasında gerçekleşecek Yumurtadan Çıkan Cleffa Günü premium süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Bu bilet 28 Nisan’da gerçekleşecek Yumurtadan Çıkan Cleffa Günü premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
+TEXT: Bu bilet GO Maç Hafta Sonu premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_pink_details_bagon
 TEXT: Bu bilet 7 Nisan 2024’te Topluluk Günü Klasik: Bagon özel araştırmasına dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_pink_details_bellsprout
 TEXT: Bu bilet 20 Nisan’da gerçekleşecek Bellsprout Hakkında Her Şey özel araştırma hikâyesine dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
+
+RESOURCE ID: item_event_ticket_pink_details_cleffahatch
+TEXT: Bu bilet 28 Nisan’da gerçekleşecek Yumurtadan Çıkan Cleffa Günü premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: lure_duration_double_party
 TEXT: Bir ekipteyken 2× Yem Modülü süresi
@@ -530,10 +543,10 @@ RESOURCE ID: meshing_option_title
 TEXT: İç İçe Geçme
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-29T23:46:50.893832+00:00 for tr-TR
-at SHA c1bdd70a23
-Pipeline 2295091, job 27759546
-Patch from: 0.309.1-SHA-bdca83ab-RC1, 0.313.0-SHA-b99ca9ed-RC1, 0.311.0-SHA-848704ba-RC6
+TEXT: Built at 2024-04-30T18:44:42.246002+00:00 for tr-TR
+at SHA 151574ed6e
+Pipeline 2296830, job 27781597
+Patch from: 0.309.0-SHA-dade6e10-RC5, 0.311.0-SHA-63c99d6f-RC5, 0.313.0-SHA-b99ca9ed-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found during the night and allows nighttime evolutions.
@@ -1350,6 +1363,11 @@ TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from
 If you purchase this ticket, every day from May 16 to May 30, you may receive a bonus Field Research the first time you log in each day.
 Please note: You must have three or fewer Field Research tasks active to be granted this bonus Field Research the first time you log on a given day! Also, you must claim the 20 PokéCoins reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
 
+RESOURCE ID: text_rewards_key_gobattlemay2024
+TEXT: <b>Şu ödülleri içerir:</b>
+• 30.000 yıldız tozu
+• 3 Nadir Şeker, 3 Nadir Büyük Şeker, 1 Yıldız Parçası
+
 RESOURCE ID: text_rewards_key_megaheracrossraidday
 TEXT: <b>Bonuslar arasında şunlar yer alıyor:</b>
 • Spor salonu fotoğraf disklerini döndürerek fazladan 8 Akın Bileti
@@ -1357,6 +1375,18 @@ TEXT: <b>Bonuslar arasında şunlar yer alıyor:</b>
 • Başarıyla tamamlanan akınlardan %50 daha fazla TP ve 2× yıldız tozu
 
 RESOURCE ID: text_rewards_key_wonderticket
+TEXT: <b>Bu bilet otomatik olarak erişim hakkı kazanacağınız üç süreli araştırma fırsatı içerir.</b>
+<b>Ödüller arasında şunlar yer alıyor:</b>
+- Poipole Kaskı avatar eşyası
+- Poipole ile bir karşılaşma
+- Beedrill, Galarlı Slowpoke, Cacnea, Trubbish ve Skrelp ile karşılaşmalar
+- Kiraz çiçeği takmış Eevee ve evrimleriyle karşılaşmalar
+- 3 Premium Maç Bileti, 3 Tütsü, 15 Nadir Şeker, 3 Şans Yumurtası, 3 Yıldız Parçası, 30 Poipole şekeri ve daha fazlası
+- 60.000 TP ve 30.000 yıldız tozu
+
+<b>Lütfen unutmayın: Mucize Bileti’nin bu versiyonunu satın alırsanız daha fazla eşya kazandıran diğer versiyonunu satın alamazsınız.</b> Premium bonus eşyalar hakkındaki ayrıntıları internet sitemizden öğrenebilirsiniz.
+
+RESOURCE ID: text_rewards_key_wonderticket_part2
 TEXT: <b>Bu bilet, çıktıklarında otomatik olarak erişim hakkı kazanacağınız üç süreli araştırma fırsatı içerir.</b> Bu bileti satın alarak birinci ve ikinci süreli araştırmalara katılmaya olanak kazanırsınız.
 
 <b>1. ve 2. Kısım ödülleri şunlar:</b>

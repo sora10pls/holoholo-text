@@ -308,6 +308,10 @@ TEXT: 28 April, pukul 14.00 hingga 17.00
 RESOURCE ID: event_datetime_range_key_cointicket2024
 TEXT: May 16, 2024, at 12:00 a.m. to May 30, 2024, at 11:59 p.m.
 
+RESOURCE ID: event_datetime_range_key_gobattlemay2024
+TEXT: 4 Mei 00.00–
+5 Mei 23.59
+
 RESOURCE ID: event_datetime_range_key_megaheracrossraidday
 TEXT: 13 April 2024, pukul 14.00 hingga 22.00
 
@@ -412,6 +416,9 @@ TEXT: Tiket Penelitian Berwaktu Premium: Hari Penetasan Cleffa
 
 RESOURCE ID: general1.ticket_cointicket2024_title
 TEXT: Daily PokéCoin Field Research Ticket
+
+RESOURCE ID: general1.ticket_gobattlemay2024_title
+TEXT: Tiket Penelitian Berwaktu Premium: GO Battle Akhir Pekan
 
 RESOURCE ID: gofest2024
 TEXT: Pokémon GO Fest 2024
@@ -522,7 +529,7 @@ RESOURCE ID: item_event_ticket_gray_details_primalkyogre
 TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke bonus spesial pada tanggal 17 Maret, di mana pun kamu berada.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Tiket untuk mengakses Penelitian Berwaktu Premium: Hari Penetasan Cleffa pada 28 April 2024, mulai pukul 14.00 hingga 17.00 waktu setempat, di mana pun kamu berada.
+TEXT: Tiket untuk mengakses Penelitian Berwaktu Premium GO Battle Akhir Pekan hingga 5 Mei 2024, pukul 23.59 waktu setempat, di mana pun kamu berada.
 
 RESOURCE ID: item_event_ticket_pink_desc_bagon
 TEXT: Tiket untuk mengakses Penelitian Spesial Hari Komunitas Klasik: Bagon pada 7 April 2024, mulai pukul 14.00 hingga 17.00 waktu setempat, di mana pun kamu berada.
@@ -530,14 +537,20 @@ TEXT: Tiket untuk mengakses Penelitian Spesial Hari Komunitas Klasik: Bagon pada
 RESOURCE ID: item_event_ticket_pink_desc_bellsprout
 TEXT: Tiket untuk mengakses Penelitian Spesial: Hari Komunitas Bellsprout mulai 20 April 2023, pukul 14.00 waktu setempat, di mana pun kamu berada.
 
+RESOURCE ID: item_event_ticket_pink_desc_cleffahatch
+TEXT: Tiket untuk mengakses Penelitian Berwaktu Premium: Hari Penetasan Cleffa pada 28 April 2024, mulai pukul 14.00 hingga 17.00 waktu setempat, di mana pun kamu berada.
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Berwaktu Premium: Hari Penetasan Cleffa, di mana pun kamu berada.
+TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Berwaktu Premium GO Battle Akhir Pekan, di mana pun kamu berada.
 
 RESOURCE ID: item_event_ticket_pink_details_bagon
 TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Spesial Hari Komunitas Klasik: Bagon pada 7 April 2024, di mana pun kamu berada.
 
 RESOURCE ID: item_event_ticket_pink_details_bellsprout
 TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke cerita Penelitian Spesial: Segala Tentang Bellsprout pada 20 April, di mana pun kamu berada.
+
+RESOURCE ID: item_event_ticket_pink_details_cleffahatch
+TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Berwaktu Premium: Hari Penetasan Cleffa, di mana pun kamu berada.
 
 RESOURCE ID: lure_duration_double_party
 TEXT: Durasi Modul Umpan ×2 saat tergabung di grup
@@ -552,10 +565,10 @@ RESOURCE ID: meshing_option_title
 TEXT: Penyatuan Mesh
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-29T23:46:50.893832+00:00 for id-ID
-at SHA c1bdd70a23
-Pipeline 2295091, job 27759546
-Patch from: 0.309.1-SHA-bdca83ab-RC1, 0.313.0-SHA-b99ca9ed-RC1, 0.311.0-SHA-848704ba-RC6
+TEXT: Built at 2024-04-30T18:44:42.246002+00:00 for id-ID
+at SHA 151574ed6e
+Pipeline 2296830, job 27781597
+Patch from: 0.309.0-SHA-dade6e10-RC5, 0.311.0-SHA-63c99d6f-RC5, 0.313.0-SHA-b99ca9ed-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found during the night and allows nighttime evolutions.
@@ -2327,6 +2340,11 @@ TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from
 If you purchase this ticket, every day from May 16 to May 30, you may receive a bonus Field Research the first time you log in each day.
 Please note: You must have three or fewer Field Research tasks active to be granted this bonus Field Research the first time you log on a given day! Also, you must claim the 20 PokéCoins reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
 
+RESOURCE ID: text_rewards_key_gobattlemay2024
+TEXT: <b>Termasuk Hadiah:</b>
+• 30.000 Debu Bintang
+• 3 Permen Langka, 3 Permen Langka XL, 1 Serpihan Bintang
+
 RESOURCE ID: text_rewards_key_megaheracrossraidday
 TEXT: <b>Termasuk Bonus:</b>
 • Ekstra 8 Tiket Raid dari memutar Disk Foto di Gym
@@ -2334,6 +2352,18 @@ TEXT: <b>Termasuk Bonus:</b>
 • Ekstra 50% XP dan Debu Bintang ×2 dengan memenangkan Raid
 
 RESOURCE ID: text_rewards_key_wonderticket
+TEXT: <b>Terdapat tiga kesempatan Penelitian Berwaktu yang akan otomatis aktif dan dapat diakses begitu tersedia pada tiket ini.</b>
+<b>Termasuk Hadiah:</b>
+- Item avatar Helm Poipole
+- Pertemuan dengan Poipole
+- Pertemuan dengan Beedrill, Galarian Slowpoke, Cacnea, Trubbish, dan Skrelp
+- Pertemuan dengan Eevee dan Evolusinya yang berhias sakura
+- 3 Tiket Pertarungan Premium, 3 Pewangi, 15 Permen Langka, 3 Telur Kebahagiaan, 3 Serpihan Bintang, 30 Permen Poipole, dan banyak lagi
+- 60.000 XP dan 30.000 Debu Bintang
+
+<b>Harap diingat bahwa jika kamu membeli Tiket Keajaiban versi ini, kamu tidak dapat membeli tiket dengan versi yang mengandung item tambahan.</b> Informasi terkait bonus item premium berikut tersedia di situs web kami.
+
+RESOURCE ID: text_rewards_key_wonderticket_part2
 TEXT: <b>Terdapat tiga kesempatan Penelitian Berwaktu yang akan otomatis aktif dan dapat diakses begitu tersedia pada tiket ini.</b> Pembelian tiket ini akan memberimu akses ke Penelitian Berwaktu pertama dan kedua.
 
 <b>Hadiah untuk Bag. 1 dan 2:</b>

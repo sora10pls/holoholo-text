@@ -259,6 +259,10 @@ TEXT: 28. April, 14:00 bis 17:00 Uhr
 RESOURCE ID: event_datetime_range_key_cointicket2024
 TEXT: May 16, 2024, at 12:00 a.m. to May 30, 2024, at 11:59 p.m.
 
+RESOURCE ID: event_datetime_range_key_gobattlemay2024
+TEXT: 4. Mai, 12:00 Uhr –
+5. Mai, 23:59 Uhr
+
 RESOURCE ID: event_datetime_range_key_megaheracrossraidday
 TEXT: 13. April, 14:00 bis 22:00 Uhr
 
@@ -361,6 +365,9 @@ TEXT: Ticket für die Befristete Premium-Forschung am Pii-Schlüpftag
 RESOURCE ID: general1.ticket_cointicket2024_title
 TEXT: Daily PokéCoin Field Research Ticket
 
+RESOURCE ID: general1.ticket_gobattlemay2024_title
+TEXT: GO-Kampfwochenende: Befristete Premium-Forschung
+
 RESOURCE ID: gofest2024
 TEXT: Pokémon GO Fest 2024
 
@@ -458,7 +465,7 @@ RESOURCE ID: item_event_ticket_gray_details_primalkyogre
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zu besonderen Boni am 17. März (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Ein Ticket zur Teilnahme an der Befristeten Premium-Forschung zum Pii-Schlüpftag am 28. April 2024 von 14:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
+TEXT: Ein Ticket für den Zugang zur Befristeten Premium-Forschung am GO-Kampfwochenende bis zum 5. Mai 2024 um 23:59 Uhr Ortszeit (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_pink_desc_bagon
 TEXT: Ein Ticket zur Teilnahme an der Spezialforschung zum Community Day Classic mit Kindwurm am 7. April 2024 von 14:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
@@ -466,14 +473,20 @@ TEXT: Ein Ticket zur Teilnahme an der Spezialforschung zum Community Day Classic
 RESOURCE ID: item_event_ticket_pink_desc_bellsprout
 TEXT: Ein Ticket zur Teilnahme an der Spezialforschung zum Community Day mit Knofensa am 20. April 2024 von 14:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
 
+RESOURCE ID: item_event_ticket_pink_desc_cleffahatch
+TEXT: Ein Ticket zur Teilnahme an der Befristeten Premium-Forschung zum Pii-Schlüpftag am 28. April 2024 von 14:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Premium-Forschung zum Pii-Schlüpftag am 28. April 2024 (wo immer du dich befindest).
+TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Premium-Forschung am GO-Kampfwochenende (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_pink_details_bagon
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zum Spezialforschungs-Abenteuer des Community Day Classic mit Kindwurm am 7. April 2024 (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_pink_details_bellsprout
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zum Spezialforschungs-Abenteuer „Hier kommt Knofensa“ am 20. April 2024 (wo immer du dich befindest).
+
+RESOURCE ID: item_event_ticket_pink_details_cleffahatch
+TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Premium-Forschung zum Pii-Schlüpftag am 28. April 2024 (wo immer du dich befindest).
 
 RESOURCE ID: meshing_option_description
 TEXT: Ermöglicht, das Pokémon auch in einer komplexeren Umgebung platziert werden können.
@@ -482,10 +495,10 @@ RESOURCE ID: meshing_option_title
 TEXT: Meshing
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-29T23:46:50.893832+00:00 for de-DE
-at SHA c1bdd70a23
-Pipeline 2295091, job 27759546
-Patch from: 0.309.1-SHA-bdca83ab-RC1, 0.313.0-SHA-b99ca9ed-RC1, 0.311.0-SHA-848704ba-RC6
+TEXT: Built at 2024-04-30T18:44:42.246002+00:00 for de-DE
+at SHA 151574ed6e
+Pipeline 2296830, job 27781597
+Patch from: 0.309.0-SHA-dade6e10-RC5, 0.311.0-SHA-63c99d6f-RC5, 0.313.0-SHA-b99ca9ed-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found during the night and allows nighttime evolutions.
@@ -1293,6 +1306,11 @@ TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from
 If you purchase this ticket, every day from May 16 to May 30, you may receive a bonus Field Research the first time you log in each day.
 Please note: You must have three or fewer Field Research tasks active to be granted this bonus Field Research the first time you log on a given day! Also, you must claim the 20 PokéCoins reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
 
+RESOURCE ID: text_rewards_key_gobattlemay2024
+TEXT: <b>Enthält folgende Belohnungen:</b>
+• 30 000 Sternenstaub
+• 3 Sonderbonbons, 3 Sonderbonbons XL, 1 Sternenstück
+
 RESOURCE ID: text_rewards_key_megaheracrossraidday
 TEXT: <b>Enthaltene Boni:</b>
 • Acht zusätzliche Raid-Pässe durch das Drehen von Fotoscheiben auf Arenen
@@ -1300,6 +1318,18 @@ TEXT: <b>Enthaltene Boni:</b>
 • 50 % mehr EP und 2× Sternenstaub für den erfolgreichen Abschluss von Raids
 
 RESOURCE ID: text_rewards_key_wonderticket
+TEXT: <b>Dieses Ticket enthält drei Möglichkeiten zu Befristeten Forschungen, zu denen du automatisch Zugang erhältst.</b>
+<b>Zu den Belohnungen gehören:</b>
+- Venicro-Helm Avatar-Artikel
+- Eine Begegnung mit Venicro
+- Begegnungen mit Bibor, Galar-Flegmon, Tuska, Unratütox und Algitt
+- Begegnungen mit Evoli und seinen Entwicklungen mit Kirschblüten
+- 3 Premium-Kampfpässe, 3 Rauch, 15 Sonderbonbons, 3 Glücks-Eier, 3 Sternenstücke, 30 Venicro-Bonbons und mehr
+- 60 000 EP and 30 000 Sternenstaub
+
+<b>Bitte beachte, dass du durch den Kauf dieser Version des Wundertickets nicht die Version mit zusätzlichen Artikeln erwerben kannst.</b> Informationen über diese Premium-Bonus-Artikel gibt es auf unserer Webseite.
+
+RESOURCE ID: text_rewards_key_wonderticket_part2
 TEXT: <b>Dieses Ticket enthält drei Möglichkeiten zu Befristeten Forschungen, zu denen du automatisch Zugang erhältst, wenn sie verfügbar werden.</b> Der Kauf dieses Tickets gibt dir Zugang zur ersten und zweiten Befristeten Forschung.
 
 <b>Belohnungen für Teil 1 und 2:</b>

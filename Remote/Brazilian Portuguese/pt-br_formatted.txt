@@ -280,6 +280,10 @@ TEXT: 28 de abril, das 14h às 17h
 RESOURCE ID: event_datetime_range_key_cointicket2024
 TEXT: May 16, 2024, at 12:00 a.m. to May 30, 2024, at 11:59 p.m.
 
+RESOURCE ID: event_datetime_range_key_gobattlemay2024
+TEXT: De 4 de maio, à 0h –
+ Até 5 de maio, às 23h59
+
 RESOURCE ID: event_datetime_range_key_gofest2024ver1
 TEXT: De 13 a 14 de julho
 
@@ -391,6 +395,9 @@ TEXT: Ingresso para a Pesquisa Temporária Premium de O Dia de chocar Cleffa
 RESOURCE ID: general1.ticket_cointicket2024_title
 TEXT: Daily PokéCoin Field Research Ticket
 
+RESOURCE ID: general1.ticket_gobattlemay2024_title
+TEXT: Ingresso para a Pesquisa Temporária Premium do Fim de Semana de Batalhas GO
+
 RESOURCE ID: gofest2024
 TEXT: Pokémon GO Fest 2024
 
@@ -500,7 +507,7 @@ RESOURCE ID: item_event_ticket_gray_details_primalkyogre
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a bônus especiais em 17 de março, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Um ingresso para acessar a Pesquisa Temporária Premium de O Dia de chocar Cleffa até 28 de abril, às 17h do seu horário local, de onde você estiver.
+TEXT: Um ingresso para acessar a Pesquisa Temporária Premium do Fim de Semana de Batalhas GO até 5 de maio, às 23h59 do seu horário local, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_pink_desc_bagon
 TEXT: Um ingresso para acessar a pesquisa especial do Clássicos do Dia Comunitário: Bagon em 7 de abril de 2024, das 14h às 17h do seu horário local, de onde você estiver.
@@ -508,14 +515,20 @@ TEXT: Um ingresso para acessar a pesquisa especial do Clássicos do Dia Comunit�
 RESOURCE ID: item_event_ticket_pink_desc_bellsprout
 TEXT: Um ingresso para acessar a pesquisa especial do Dia Comunitário de Bellsprout a partir de 20 de abril, às 14h do seu horário local, de onde você estiver.
 
+RESOURCE ID: item_event_ticket_pink_desc_cleffahatch
+TEXT: Um ingresso para acessar a Pesquisa Temporária Premium de O Dia de chocar Cleffa até 28 de abril, às 17h do seu horário local, de onde você estiver.
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à Pesquisa Temporária Premium de O Dia de chocar Cleffa, de onde você estiver.
+TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à Pesquisa Temporária Premium do Fim de Semana de Batalhas GO, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_pink_details_bagon
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à pesquisa especial do Clássicos do Dia Comunitário: Bagon em 7 de abril de 2024, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_pink_details_bellsprout
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à narrativa de pesquisa especial de O Germinar de Bellsprout no dia 20 de abril, de onde você estiver.
+
+RESOURCE ID: item_event_ticket_pink_details_cleffahatch
+TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à Pesquisa Temporária Premium de O Dia de chocar Cleffa, de onde você estiver.
 
 RESOURCE ID: live_events_ticket_calendar_event_add_button
 TEXT: Colocar no calendário
@@ -533,10 +546,10 @@ RESOURCE ID: meshing_option_title
 TEXT: Combinação
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-29T23:46:50.893832+00:00 for pt-BR
-at SHA c1bdd70a23
-Pipeline 2295091, job 27759546
-Patch from: 0.309.1-SHA-bdca83ab-RC1, 0.313.0-SHA-b99ca9ed-RC1, 0.311.0-SHA-848704ba-RC6
+TEXT: Built at 2024-04-30T18:44:42.246002+00:00 for pt-BR
+at SHA 151574ed6e
+Pipeline 2296830, job 27781597
+Patch from: 0.309.0-SHA-dade6e10-RC5, 0.311.0-SHA-63c99d6f-RC5, 0.313.0-SHA-b99ca9ed-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found during the night and allows nighttime evolutions.
@@ -1362,6 +1375,11 @@ TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from
 If you purchase this ticket, every day from May 16 to May 30, you may receive a bonus Field Research the first time you log in each day.
 Please note: You must have three or fewer Field Research tasks active to be granted this bonus Field Research the first time you log on a given day! Also, you must claim the 20 PokéCoins reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
 
+RESOURCE ID: text_rewards_key_gobattlemay2024
+TEXT: <b>As recompensas incluem:</b>
+• 30.000 Poeira Estelar
+• 3 Doces Raros, 3 Doces Raros GG, 1 Pedaço de Estrela
+
 RESOURCE ID: text_rewards_key_megaheracrossraidday
 TEXT: <b>Os bônus incluem:</b>
 • Oito Passes de Reide adicionais ao girar fotodiscos de Ginásios
@@ -1369,6 +1387,18 @@ TEXT: <b>Os bônus incluem:</b>
 • 50% a mais de PE e 2× Poeira Estelar por completar Reides com sucesso
 
 RESOURCE ID: text_rewards_key_wonderticket
+TEXT: <b>Este ingresso inclui três oportunidades de pesquisa temporária, que você terá acesso automaticamente assim que elas estiverem disponíveis.</b>
+<b>As recompensas incluem:</b>
+- Item de avatar Capacete de Poipole
+- Um encontro com Poipole
+- Encontros com Beedrill, Slowpoke de Galar, Cacnea, Trubbish e Skrelp
+- Encontros com Eevee e suas Evoluções enfeitados com flores de cerejeira
+- 3 Passes de Batalha Premium, 3 Incensos, 15 Doces Raros, 3 Ovos da Sorte, 3 Pedaços de Estrela, 30 doces de Poipole e muito mais
+- 60.000 PE e 30.000 Poeira Estelar
+
+<b>Observe que, se você comprar esta versão do Ingresso das Maravilhas, você não poderá comprar a versão que vem com itens adicionais.</b> Informações sobre esses itens premium bônus estão disponíveis no nosso site.
+
+RESOURCE ID: text_rewards_key_wonderticket_part2
 TEXT: <b>Este ingresso inclui três oportunidades de pesquisa temporária, que você terá acesso automaticamente assim que elas estiverem disponíveis.</b> A compra deste ingresso lhe dará acesso à primeira e à segunda pesquisa temporária.
 
 <b>Recompensas das partes 1 e 2:</b>

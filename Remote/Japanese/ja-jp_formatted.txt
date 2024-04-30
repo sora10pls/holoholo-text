@@ -203,7 +203,7 @@ RESOURCE ID: bonus_cd_move_bellsprout
 TEXT: ウツドンをウツボットに進化させるとマジカルリーフを覚えている
 
 RESOURCE ID: bonus_daily_field_research_pokecoins
-TEXT: You will receive a Field Research task that awards 20 PokéCoins daily if you have three or fewer Field Research tasks when you first log in for the day!
+TEXT: 毎日初めてログインするときにフィールドリサーチタスクが3件以下であれば20ポケコインがもらえるタスクを入手
 
 RESOURCE ID: bonus_implicit_social_bellsprout_raid
 TEXT: トレーナーが協力してレイドでウツドンを倒すと、そのジムの周りに30分間マダツボミが現れる
@@ -272,7 +272,11 @@ RESOURCE ID: event_datetime_range_key_cleffahatchday2024
 TEXT: 4月28日2:00PM～5:00PM
 
 RESOURCE ID: event_datetime_range_key_cointicket2024
-TEXT: May 16, 2024, at 12:00 a.m. to May 30, 2024, at 11:59 p.m.
+TEXT: 2024年5月16日12:00AM～5月30日11:59PM
+
+RESOURCE ID: event_datetime_range_key_gobattlemay2024
+TEXT: 5月4日12:00AM～
+5月5日11:59PM
 
 RESOURCE ID: event_datetime_range_key_megaheracrossraidday
 TEXT: 4月13日2:00PM～10:00PM
@@ -376,6 +380,9 @@ TEXT: ピィふかの日プレミアムタイムチャレンジチケット
 RESOURCE ID: general1.ticket_cointicket2024_title
 TEXT: デイリーポケコインフィールドリサーチチケット
 
+RESOURCE ID: general1.ticket_gobattlemay2024_title
+TEXT: GOバトルリーグウィークエンドプレミアムタイムチャレンジチケット
+
 RESOURCE ID: gofest2024
 TEXT: Pokémon GO Fest 2024
 
@@ -464,16 +471,16 @@ RESOURCE ID: incubator_distance_quarter
 TEXT: 1/4　タマゴふか距離
 
 RESOURCE ID: iris_flair_free_description
-TEXT: GOスナップショットで撮った写真をデコろう！「デコ」はGOスナップショットに貼って使える専用アイテムです。
+TEXT: GOスナップショットで撮った写真をデコろう！「デコ」ステッカーはGOスナップショットに貼れる、専用ステッカーです。
 
 RESOURCE ID: iris_flair_free_title
-TEXT: 「デコ」を使おう！
+TEXT: 「デコ」ステッカーを貼ろう！
 
 RESOURCE ID: item_event_ticket_evergreen_desc_cointicket2024
-TEXT: 毎日1つ、完了すると20ポケコインもらえるフィールドリサーチが、空き枠があると入手できるチケット。
+TEXT: 空き枠があるとフィールドリサーチタスクがもらえるチケット。毎日1つ、完了すると20ポケコインが入手できます。
 
 RESOURCE ID: item_event_ticket_evergreen_details_cointicket2024
-TEXT: このチケットは自動的に発動し5月16日にデイリーポケコインフィールドリサーチチケットが適用されます。
+TEXT: このチケットは自動的に発動し5月16日にデイリーポケコインフィールドリサーチチケットの体験ができるようになります。
 
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: 現地時間2024年4月13日2:00PM～10:00PMにボーナスを受け取るためのチケット。
@@ -488,7 +495,7 @@ RESOURCE ID: item_event_ticket_gray_details_primalkyogre
 TEXT: このチケットは自動的に発動し2024年3月17日にボーナスが受け取れるようになります。
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: 現地時間2024年4月28日2:00PM～5:00PMにピィふかの日プレミアムタイムチャレンジが行えるチケット。
+TEXT: 現地時間2024年5月5日11:59PMまでGOバトルリーグウィークエンドプレミアムタイムチャレンジが行えるチケット。
 
 RESOURCE ID: item_event_ticket_pink_desc_bagon
 TEXT: 現地時間2024年4月7日2:00PM～5:00PMにタツベイコミュニティ・デイ復刻のスペシャルリサーチを行うためのチケット。
@@ -496,14 +503,20 @@ TEXT: 現地時間2024年4月7日2:00PM～5:00PMにタツベイコミュニテ�
 RESOURCE ID: item_event_ticket_pink_desc_bellsprout
 TEXT: 現地時間2024年4月20日2:00PMからマダツボミコミュニティ・デイのスペシャルリサーチを行うためのチケット。
 
+RESOURCE ID: item_event_ticket_pink_desc_cleffahatch
+TEXT: 現地時間2024年4月28日2:00PM～5:00PMにピィふかの日プレミアムタイムチャレンジが行えるチケット。
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: このチケットは自動的に発動し4月28日にピィふかの日プレミアムタイムチャレンジが行えるようになります。
+TEXT: このチケットは自動的に発動しGOバトルリーグウィークエンドプレミアムタイムチャレンジが行えるようになります。
 
 RESOURCE ID: item_event_ticket_pink_details_bagon
 TEXT: このチケットは自動的に発動し2024年4月7日にタツベイコミュニティ・デイ復刻のスペシャルリサーチが行えるようになります。
 
 RESOURCE ID: item_event_ticket_pink_details_bellsprout
 TEXT: このチケットは自動的に発動し4月20日に「フラワーポケモンを解明せよ！」スペシャルリサーチが行えるようになります。
+
+RESOURCE ID: item_event_ticket_pink_details_cleffahatch
+TEXT: このチケットは自動的に発動し4月28日にピィふかの日プレミアムタイムチャレンジが行えるようになります。
 
 RESOURCE ID: meshing_option_description
 TEXT: AR使用時ポケモンがより複雑な環境に置ける
@@ -512,10 +525,10 @@ RESOURCE ID: meshing_option_title
 TEXT: メッシュ生成
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-29T23:46:50.893832+00:00 for ja-JP
-at SHA c1bdd70a23
-Pipeline 2295091, job 27759546
-Patch from: 0.309.1-SHA-bdca83ab-RC1, 0.313.0-SHA-b99ca9ed-RC1, 0.311.0-SHA-848704ba-RC6
+TEXT: Built at 2024-04-30T18:44:42.246002+00:00 for ja-JP
+at SHA 151574ed6e
+Pipeline 2296830, job 27781597
+Patch from: 0.309.0-SHA-dade6e10-RC5, 0.311.0-SHA-63c99d6f-RC5, 0.313.0-SHA-b99ca9ed-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found during the night and allows nighttime evolutions.
@@ -1443,10 +1456,10 @@ RESOURCE ID: quest_fuse_necrozma
 TEXT: ネクロズマを合体させる
 
 RESOURCE ID: quest_local_trainer_battle
-TEXT: Battle a Trainer locally by scanning their Battle Code.
+TEXT: 対戦コードを読み込んで近くのトレーナーと対戦する
 
 RESOURCE ID: quest_power_up_singular_marshadow
-TEXT: Power up Marshadow
+TEXT: マーシャドーを強化する
 
 RESOURCE ID: quest_shelgon_evolve_b_plural
 TEXT: コモルーを{0}匹進化させる
@@ -1889,9 +1902,13 @@ TEXT: <b>適用ボーナス：</b>
 ・2500XP
 
 RESOURCE ID: text_rewards_key_cointicket2024
-TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from May 16, 2024, at 12:00 a.m. to May 30, 2024, at 11:59 p.m. local time, wherever you are.
-If you purchase this ticket, every day from May 16 to May 30, you may receive a bonus Field Research the first time you log in each day.
-Please note: You must have three or fewer Field Research tasks active to be granted this bonus Field Research the first time you log on a given day! Also, you must claim the 20 PokéCoins reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
+TEXT: 現地時間2024年5月16日12:00AM～5月30日11:59PMにポケコインがもらえるデイリーボーナスフィールドリサーチがもらえるチケット。
+5月16日～30日に毎日最初のログイン時、持っているフィールドリサーチが3件以下であれば、ボーナスフィールドリサーチを受け取れます。リワードのポケコインはタスクを完了時に忘れず受け取ってください。ボーナスフィールドリサーチタスクについては<a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">こちら</a>をご参照ください。
+
+RESOURCE ID: text_rewards_key_gobattlemay2024
+TEXT: <b>もらえるもの：</b>
+・30000ほしのすな
+・ふしぎなアメ3個、ふしぎなアメXL3個、ほしのかけら1個など
 
 RESOURCE ID: text_rewards_key_megaheracrossraidday
 TEXT: <b>もらえるもの：</b>
@@ -1900,6 +1917,17 @@ TEXT: <b>もらえるもの：</b>
 ・レイドに勝ってもらえるXP50%増とほしのすな2倍
 
 RESOURCE ID: text_rewards_key_wonderticket
+TEXT: <b>3部構成タイムチャレンジが行えるチケット。</b>
+<b>もらえるもの：</b>
+・アバターのベベノムヘッドウェア
+・ベベノムとの出会い
+・スピアー、ガラルのヤドン、サボネア、ヤブクロン、クズモーとの出会い
+・桜をつけたイーブイとその進化形ポケモンとの出会い
+・プレミアムバトルパス3枚、おこう3個、ふしぎなアメ15個、しあわせタマゴ3個、ほしのかけら3個、ベベノムのアメ30個
+・60000XPと30000ほしのすな、など
+<b>このチケットを購入すると、ウェブストアのプレミアムバージョンは購入できません。</b>プレミアムバージョンについての情報はウェブサイトでご確認ください。
+
+RESOURCE ID: text_rewards_key_wonderticket_part2
 TEXT: <b>3部構成タイムチャレンジが順次受け取れるチケット。</b>このチケット購入で最初のタイムチャレンジから行えるようになります。
 
 <b>パート1とパート2完了でもらえるもの：</b>

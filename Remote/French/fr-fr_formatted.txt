@@ -280,6 +280,10 @@ TEXT: Le 28 avril de 14h à 17h
 RESOURCE ID: event_datetime_range_key_cointicket2024
 TEXT: May 16, 2024, at 12:00 a.m. to May 30, 2024, at 11:59 p.m.
 
+RESOURCE ID: event_datetime_range_key_gobattlemay2024
+TEXT: Du 4 mai à minuit
+ au 5 mai à 23h59
+
 RESOURCE ID: event_datetime_range_key_megaheracrossraidday
 TEXT: Le 13 avril de 14h à 22h
 
@@ -384,6 +388,9 @@ TEXT: Ticket Étude ponctuelle premium de la Journée Éclosion de Mélo
 
 RESOURCE ID: general1.ticket_cointicket2024_title
 TEXT: Daily PokéCoin Field Research Ticket
+
+RESOURCE ID: general1.ticket_gobattlemay2024_title
+TEXT: Ticket pour l’Étude ponctuelle premium du Week-end Combat GO
 
 RESOURCE ID: gofest2024
 TEXT: Pokémon GO Fest 2024
@@ -494,7 +501,7 @@ RESOURCE ID: item_event_ticket_gray_details_primalkyogre
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à des bonus spéciaux le 17 mars, où que tu sois.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Un ticket pour accéder à l’Étude ponctuelle premium de la Journée Éclosion de Mélo le 28 avril 2024 de 14h à 17h (heures locales), où que tu sois.
+TEXT: Un ticket pour accéder à l’Étude ponctuelle premium du Week-end Combat GO jusqu’au 5 mai à 23h59, heures locales, où que tu sois.
 
 RESOURCE ID: item_event_ticket_pink_desc_bagon
 TEXT: Un ticket pour accéder à l’Étude spéciale de la Journée Communauté de Draby le 7 avril 2024 de 14h à 17h (heures locales), où que tu sois.
@@ -502,14 +509,20 @@ TEXT: Un ticket pour accéder à l’Étude spéciale de la Journée Communauté
 RESOURCE ID: item_event_ticket_pink_desc_bellsprout
 TEXT: Un ticket pour accéder à l’Étude spéciale de la Journée Communauté de Chétiflor dès le 20 avril 2024 à 14h, heure locale, où que tu sois.
 
+RESOURCE ID: item_event_ticket_pink_desc_cleffahatch
+TEXT: Un ticket pour accéder à l’Étude ponctuelle premium de la Journée Éclosion de Mélo le 28 avril 2024 de 14h à 17h (heures locales), où que tu sois.
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude ponctuelle premium de la Journée Éclosion de Mélo le 28 avril, où que tu sois.
+TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude ponctuelle premium du Week-end Combat GO, où que tu sois.
 
 RESOURCE ID: item_event_ticket_pink_details_bagon
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude spéciale Les classiques de la Journée Communauté de Draby le 7 avril 2024, où que tu sois.
 
 RESOURCE ID: item_event_ticket_pink_details_bellsprout
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude spéciale “Chétiflor, j’adore” le 20 avril 2024, où que tu sois.
+
+RESOURCE ID: item_event_ticket_pink_details_cleffahatch
+TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude ponctuelle premium de la Journée Éclosion de Mélo le 28 avril, où que tu sois.
 
 RESOURCE ID: lure_duration_double_party
 TEXT: Durée des Modules Leurre doublée en équipe
@@ -524,10 +537,10 @@ RESOURCE ID: meshing_option_title
 TEXT: Maillage
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-29T23:46:50.893832+00:00 for fr-FR
-at SHA c1bdd70a23
-Pipeline 2295091, job 27759546
-Patch from: 0.309.1-SHA-bdca83ab-RC1, 0.313.0-SHA-b99ca9ed-RC1, 0.311.0-SHA-848704ba-RC6
+TEXT: Built at 2024-04-30T18:44:42.246002+00:00 for fr-FR
+at SHA 151574ed6e
+Pipeline 2296830, job 27781597
+Patch from: 0.309.0-SHA-dade6e10-RC5, 0.311.0-SHA-63c99d6f-RC5, 0.313.0-SHA-b99ca9ed-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found during the night and allows nighttime evolutions.
@@ -1347,6 +1360,11 @@ TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from
 If you purchase this ticket, every day from May 16 to May 30, you may receive a bonus Field Research the first time you log in each day.
 Please note: You must have three or fewer Field Research tasks active to be granted this bonus Field Research the first time you log on a given day! Also, you must claim the 20 PokéCoins reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
 
+RESOURCE ID: text_rewards_key_gobattlemay2024
+TEXT: <b>Donne accès aux bonus suivants :</b>
+• 30 000 Poussières Étoiles
+• 3 Super Bonbons, 3 Super Bonbon L, 1 Morceau d’Étoile
+
 RESOURCE ID: text_rewards_key_megaheracrossraidday
 TEXT: <b>Donne accès à :</b>
 • 8 passes de Raid supplémentaires en faisant tourner les PhotoDisques des Arènes
@@ -1354,6 +1372,17 @@ TEXT: <b>Donne accès à :</b>
 • 50 % de PX en plus et le double de Poussières Étoiles quand tu gagnes des Raids
 
 RESOURCE ID: text_rewards_key_wonderticket
+TEXT: <b>Avec ce ticket, tu peux accéder automatiquement à trois Études ponctuelles.</b>
+<b>Parmi les récompenses :</b>
+- L’objet pour avatar Casque Vémini
+- Une rencontre avec Vémini
+- Des rencontres avec Dardargnan, Ramoloss de Galar, Cacnea, Miamiasme et Venalgue
+- Des rencontres avec Évoli et ses Évolutions parés de fleurs de cerisier
+- 3 passes de combat premium, 3 Encens, 15 Super Bonbons, 3 Œufs Chance, 3 Morceaux d’Étoiles, 30 Bonbons Vémini et plus encore
+- 60 000 PX et 30 000 Poussières Étoiles
+<b>Attention, si tu achètes cette version du Ticket merveilleux, tu ne pourras pas acheter la version contenant des objets supplémentaires.</b> Plus d’informations sur ces objets bonus premium sont disponibles sur notre site Web.
+
+RESOURCE ID: text_rewards_key_wonderticket_part2
 TEXT: <b>Avec ce ticket, tu peux accéder à trois Études ponctuelles auxquelles tu auras automatiquement accès une fois qu’elles seront disponibles.</b> L’achat de ce ticket te donne accès à la première et à la deuxième Étude ponctuelle.
 
 <b>Récompenses de la 1ʳᵉ partie et de la 2ᵉ partie :</b>

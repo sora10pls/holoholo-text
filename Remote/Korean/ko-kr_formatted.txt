@@ -293,6 +293,10 @@ TEXT: 4월 28일 14시 ~ 17시
 RESOURCE ID: event_datetime_range_key_cointicket2024
 TEXT: May 16, 2024, at 12:00 a.m. to May 30, 2024, at 11:59 p.m.
 
+RESOURCE ID: event_datetime_range_key_gobattlemay2024
+TEXT: 5월 4일 0:00~
+5월 5일 23:59
+
 RESOURCE ID: event_datetime_range_key_megaheracrossraidday
 TEXT: 4월 13일 14시 ~ 22시
 
@@ -397,6 +401,9 @@ TEXT: 삐 부화데이 프리미엄 시간제한 리서치
 
 RESOURCE ID: general1.ticket_cointicket2024_title
 TEXT: Daily PokéCoin Field Research Ticket
+
+RESOURCE ID: general1.ticket_gobattlemay2024_title
+TEXT: GO배틀 위켄드 프리미엄 시간제한 리서치 티켓
 
 RESOURCE ID: gofest2024
 TEXT: Pokémon GO Fest 2024
@@ -507,7 +514,7 @@ RESOURCE ID: item_event_ticket_gray_details_primalkyogre
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2024년 3월 17일에 발생하는 보너스를 손에 넣을 수 있습니다.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: 현지시간 2024년 4월 28일 14시~17시에 삐 부화데이 프리미엄 시간제한 리서치를 진행하기 위한 티켓.
+TEXT: 현지시간 2024년 5월 5일 23시 59분까지 'GO배틀 위켄드' 프리미엄 시간제한 리서치를 진행할 수 있는 티켓.
 
 RESOURCE ID: item_event_ticket_pink_desc_bagon
 TEXT: 현지시간 2024년 4월 7일 14:00~17:00까지 아공이 커뮤니티 데이(복각) 스페셜리서치를 진행하기 위한 티켓.
@@ -515,14 +522,20 @@ TEXT: 현지시간 2024년 4월 7일 14:00~17:00까지 아공이 커뮤니티 �
 RESOURCE ID: item_event_ticket_pink_desc_bellsprout
 TEXT: 현지시간 2024년 4월 20일 14시부터 모다피 커뮤니티 데이 스페셜리서치를 진행하기 위한 티켓.
 
+RESOURCE ID: item_event_ticket_pink_desc_cleffahatch
+TEXT: 현지시간 2024년 4월 28일 14시~17시에 삐 부화데이 프리미엄 시간제한 리서치를 진행하기 위한 티켓.
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: 이 티켓은 자동으로 활성화되어 현지시간 4월 28일에 삐 부화데이 프리미엄 시간제한 리서치가 진행됩니다.
+TEXT: 이 티켓은 자동으로 활성화되어 'GO배틀 위켄드 프리미엄 시간제한 리서치'가 진행됩니다.
 
 RESOURCE ID: item_event_ticket_pink_details_bagon
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2024년 4월 7일 아공이 커뮤니티 데이(복각) 스페셜리서치가 진행됩니다.
 
 RESOURCE ID: item_event_ticket_pink_details_bellsprout
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 4월 20일에 '꽃포켓몬의 수수께끼를 풀어라!' 스페셜리서치가 진행됩니다.
+
+RESOURCE ID: item_event_ticket_pink_details_cleffahatch
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 4월 28일에 삐 부화데이 프리미엄 시간제한 리서치가 진행됩니다.
 
 RESOURCE ID: lure_duration_double_party
 TEXT: 2× 팀 참가 중 루어모듈 시간
@@ -537,10 +550,10 @@ RESOURCE ID: meshing_option_title
 TEXT: 메싱
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-29T23:46:50.893832+00:00 for ko-KR
-at SHA c1bdd70a23
-Pipeline 2295091, job 27759546
-Patch from: 0.309.1-SHA-bdca83ab-RC1, 0.313.0-SHA-b99ca9ed-RC1, 0.311.0-SHA-848704ba-RC6
+TEXT: Built at 2024-04-30T18:44:42.246002+00:00 for ko-KR
+at SHA 151574ed6e
+Pipeline 2296830, job 27781597
+Patch from: 0.309.0-SHA-dade6e10-RC5, 0.311.0-SHA-63c99d6f-RC5, 0.313.0-SHA-b99ca9ed-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found during the night and allows nighttime evolutions.
@@ -2247,6 +2260,11 @@ TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from
 If you purchase this ticket, every day from May 16 to May 30, you may receive a bonus Field Research the first time you log in each day.
 Please note: You must have three or fewer Field Research tasks active to be granted this bonus Field Research the first time you log on a given day! Also, you must claim the 20 PokéCoins reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
 
+RESOURCE ID: text_rewards_key_gobattlemay2024
+TEXT: <b>받을 수 있는 리워드:</b>
+- 30,000 별의모래, 
+- 이상한사탕 3개, 이상한사탕XL 3개, 별의조각 1개 등
+
 RESOURCE ID: text_rewards_key_megaheracrossraidday
 TEXT: <b>받을 수 있는 것:</b>
 - 체육관 포토 디스크를 돌려 추가 레이드패스 8개
@@ -2254,6 +2272,17 @@ TEXT: <b>받을 수 있는 것:</b>
 - 레이드배틀 승리 시 받을 수 있는 XP 50% 증가와 별의모래 2배 
 
 RESOURCE ID: text_rewards_key_wonderticket
+TEXT: <b>3가지로 구성된 시간제한 리서치를 진행할 수 있는 티켓. </b>
+<b>받을 수 있는 리워드:</b>
+- 의상 아이템 베베놈 머리 장식
+- 베베놈과의 만남
+- 독침붕, 야돈(가라르의 모습), 선인왕, 깨봉이, 수레기와의 만남
+- 벚꽃 단 이브이와 그 진화형 포켓몬과의 만남
+- 프리미엄 배틀패스 3개, 향로 3개, 이상한사탕 15개, 행복의알 3개, 별의조각 3개, 베베놈의 사탕 30개
+- 60,000XP와 별의모래 30,000 등
+<b>이 티켓을 구매하면 Web Store의 프리미엄 버전은 구매할 수 없습니다.</b>프리미엄 버전에 대한 정보는 웹사이트에서 확인하세요.
+
+RESOURCE ID: text_rewards_key_wonderticket_part2
 TEXT: <b>3가지로 구성된 시간제한 리서치를 순차적으로 받을 수 있는 티켓. </b>이 티켓을 구매하면 처음 시간제한 리서치부터 진행할 수 있게 됩니다.
 
 <b>파트1과 파트2 완료 후 받을 수 있는 리워드: </b>

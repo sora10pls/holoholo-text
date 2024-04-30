@@ -241,6 +241,10 @@ TEXT: April 28, 2:00 p.m. – 5:00 p.m.
 RESOURCE ID: event_datetime_range_key_cointicket2024
 TEXT: May 16, 2024, at 12:00 a.m. to May 30, 2024, at 11:59 p.m.
 
+RESOURCE ID: event_datetime_range_key_gobattlemay2024
+TEXT: May 4, 12:00 a.m. –
+May 5, 11:59 p.m.
+
 RESOURCE ID: event_datetime_range_key_megaheracrossraidday
 TEXT: April 13, 2:00 p.m. – 10:00 p.m.
 
@@ -343,6 +347,9 @@ TEXT: Cleffa Hatch Day Premium Timed Research Ticket
 RESOURCE ID: general1.ticket_cointicket2024_title
 TEXT: Daily PokéCoin Field Research Ticket
 
+RESOURCE ID: general1.ticket_gobattlemay2024_title
+TEXT: GO Battle Weekend Premium Timed Research Ticket
+
 RESOURCE ID: gofest2024
 TEXT: Pokémon GO Fest 2024
 
@@ -440,7 +447,7 @@ RESOURCE ID: item_event_ticket_gray_details_primalkyogre
 TEXT: This ticket will automatically activate to give you access to special bonuses on March 17, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: A ticket to access the Cleffa Hatch Day Premium Timed Research on April 28, 2024, from 2:00 p.m. to 5:00 p.m. local time,  wherever you are.
+TEXT: A ticket to access the GO Battle Weekend Premium Timed Research until May 5, 11:59 p.m. local time, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_desc_bagon
 TEXT: A ticket to access the Community Day Classic: Bagon Special Research on April 7, 2024, from 2:00 p.m. to 5:00 p.m. local time, wherever you are.
@@ -448,14 +455,20 @@ TEXT: A ticket to access the Community Day Classic: Bagon Special Research on Ap
 RESOURCE ID: item_event_ticket_pink_desc_bellsprout
 TEXT: A ticket to access the Bellsprout Community Day Special Research starting April 20 at 2:00 p.m. local time, wherever you are.
 
+RESOURCE ID: item_event_ticket_pink_desc_cleffahatch
+TEXT: A ticket to access the Cleffa Hatch Day Premium Timed Research on April 28, 2024, from 2:00 p.m. to 5:00 p.m. local time,  wherever you are.
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: This ticket will automatically activate to give you access to the Cleffa Hatch Day Premium Timed Research on April 28, wherever you are.
+TEXT: This ticket will automatically activate to give you access to the GO Battle Weekend Premium Timed Research, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_details_bagon
 TEXT: This ticket will automatically activate to give you access to the Community Day Classic: Bagon Special Research story on April 7, 2024, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_details_bellsprout
 TEXT: This ticket will automatically activate to give you access to the Special Research story All About Bellsprout on April 20, wherever you are.
+
+RESOURCE ID: item_event_ticket_pink_details_cleffahatch
+TEXT: This ticket will automatically activate to give you access to the Cleffa Hatch Day Premium Timed Research on April 28, wherever you are.
 
 RESOURCE ID: meshing_option_description
 TEXT: Enable Pokémon in AR to be placed in more complex environments.
@@ -464,10 +477,10 @@ RESOURCE ID: meshing_option_title
 TEXT: Meshing
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-04-29T23:46:50.893832+00:00 for en-US
-at SHA c1bdd70a23
-Pipeline 2295091, job 27759546
-Patch from: 0.309.1-SHA-bdca83ab-RC1, 0.313.0-SHA-b99ca9ed-RC1, 0.311.0-SHA-848704ba-RC6
+TEXT: Built at 2024-04-30T18:44:42.246002+00:00 for en-US
+at SHA 151574ed6e
+Pipeline 2296830, job 27781597
+Patch from: 0.309.0-SHA-dade6e10-RC5, 0.311.0-SHA-63c99d6f-RC5, 0.313.0-SHA-b99ca9ed-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found during the night and allows nighttime evolutions.
@@ -1281,6 +1294,11 @@ TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from
 If you purchase this ticket, every day from May 16 to May 30, you may receive a bonus Field Research the first time you log in each day.
 Please note: You must have three or fewer Field Research tasks active to be granted this bonus Field Research the first time you log on a given day! Also, you must claim the 20 PokéCoins reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
 
+RESOURCE ID: text_rewards_key_gobattlemay2024
+TEXT: <b>Included rewards:</b>
+• 30,000 Stardust
+• 3 Rare Candies, 3 Rare Candy XL, 1 Star Piece
+
 RESOURCE ID: text_rewards_key_megaheracrossraidday
 TEXT: <b>Included bonuses:</b>
 • Eight additional Raid Passes from spinning Photo Discs at Gyms
@@ -1288,6 +1306,18 @@ TEXT: <b>Included bonuses:</b>
 • 50% more XP and 2× Stardust for successfully completing raids
 
 RESOURCE ID: text_rewards_key_wonderticket
+TEXT: <b>This ticket includes three Timed Research opportunities, which you will automatically get access to.</b>
+<b>Rewards include:</b>
+- Poipole Helmet avatar item
+- An encounter with Poipole
+- Encounters with Beedrill, Galarian Slowpoke, Cacnea, Trubbish, and Skrelp
+- Encounters with Eevee and its Evolutions adorned with cherry blossoms
+- 3 Premium Battle Passes, 3 Incense, 15 Rare Candies, 3 Lucky Eggs, 3 Star Pieces, 30 Poipole Candies, and more
+- 60,000 XP and 30,000 Stardust
+
+<b>Please note that if you purchase this version of the Wonder Ticket, you will not be able to purchase the version that comes with additional items.</b> Information about these premium bonus items is available on our website.
+
+RESOURCE ID: text_rewards_key_wonderticket_part2
 TEXT: <b>This ticket includes three Timed Research opportunities, which you will automatically get access to as they become available.</b> Purchasing this ticket will grant you access to the first and second Timed Research.
 
 <b>Rewards for Part 1 and 2:</b>
