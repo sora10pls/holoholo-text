@@ -293,6 +293,12 @@ TEXT: 13 y 14 de julio de 2024
 RESOURCE ID: badge_gofest_2024_global_title
 TEXT: Festival de Pokémon GO 2024
 
+RESOURCE ID: badge_gofest_2024_pjcs_city
+TEXT: Yokohama, June 1 - 2, 2024
+
+RESOURCE ID: badge_gofest_2024_pjcs_city_title
+TEXT: Pokémon GO Fest 2024: PJCS
+
 RESOURCE ID: badge_gofest_2024_test
 TEXT: 13 y 14 de julio de 2024
 
@@ -360,6 +366,24 @@ TEXT: Tres Caramelos Dialga adicionales por atrapar Dialga en incursiones
 RESOURCE ID: bonus_diamond_badge_xl_candy
 TEXT: Tres Caramelos Palkia XL adicionales por atrapar Palkia en incursiones
 
+RESOURCE ID: bonus_go_fest_2024_crabrawler_party_play
+TEXT: Crabrawler may appear as Party Play reward Encounters
+
+RESOURCE ID: bonus_go_fest_2024_crabrawler_routes
+TEXT: Crabrawler may appear when you’re following Routes
+
+RESOURCE ID: bonus_go_fest_2024_ducklett_party_play
+TEXT: Ducklett may appear as Party Play reward Encounters
+
+RESOURCE ID: bonus_go_fest_2024_ducklett_routes
+TEXT: Ducklett may appear when you’re following Routes
+
+RESOURCE ID: bonus_go_fest_2024_emolga_party_play
+TEXT: Emolga may appear as Party Play reward Encounters
+
+RESOURCE ID: bonus_go_fest_2024_emolga_routes
+TEXT: Emolga may appear when you’re following Routes
+
 RESOURCE ID: bonus_go_tour_2023_add_on_hatch_01
 TEXT: 3× Polvo Estrella por eclosión
 
@@ -398,6 +422,9 @@ TEXT: Están apareciendo Pikachu Volador con globos naranja en la zona
 
 RESOURCE ID: bonus_jeju_costume_pikachu
 TEXT: Están apareciendo Pikachu con camisa azul de cítricos en la zona
+
+RESOURCE ID: bonus_party_play_encounter_generic
+TEXT: Featured Pokémon may appear when you’re following Routes
 
 RESOURCE ID: bonus_pearl_badge_candy
 TEXT: Tres Caramelos Dialga adicionales por atrapar Dialga en incursiones
@@ -446,6 +473,9 @@ TEXT: 1/2 de la distancia para eclosionar
 
 RESOURCE ID: bonus_reward_quarter_hatch_distance
 TEXT: 1/4 de la distancia para eclosionar
+
+RESOURCE ID: bonus_routes_encounter_generic
+TEXT: Featured Pokémon may appear as Party Play reward Encounters
 
 RESOURCE ID: bonus_tr_gbl_championships_2024_a_desc
 TEXT: Esto es solo el comienzo: Bonificación de Investigación Temporal
@@ -690,6 +720,9 @@ RESOURCE ID: field_effect_override_body
 TEXT: Solo puedes usar un Efecto aventura a la vez. Si usas {0}, no podrás mantener los efectos de {1}.
 
 ¿Quieres continuar?
+
+RESOURCE ID: filter_key_evolve_with_quest
+TEXT: evolvequest
 
 RESOURCE ID: firstcatch_experience_50p
 TEXT: 1.5× EXP por tu primera captura del día
@@ -1332,12 +1365,6 @@ TEXT: Decora tus fotos
 RESOURCE ID: item_bag_revive_not_fainted
 TEXT: Solo puedes usar Revivir con Pokémon debilitados.
 
-RESOURCE ID: item_event_ticket_evergreen_desc_cointicket2024
-TEXT: Una entrada que te permite recibir una tarea de Investigación de Campo cuando tienes un hueco disponible en las tareas de Investigación de Campo. La tarea se puede completar una vez al día y otorga 20 Pokémonedas.
-
-RESOURCE ID: item_event_ticket_evergreen_details_cointicket2024
-TEXT: Esta entrada se activará automáticamente para darte acceso a la experiencia de la Investigación de Campo Diaria de Pokémonedas el 16 de mayo, estés donde estés.
-
 RESOURCE ID: item_event_ticket_pink_desc
 TEXT: Una entrada para acceder a la Investigación Temporal Prémium del Fin de Semana de Combates GO hasta el 5 de mayo a las 11:59 p. m. en tu hora local, estés donde estés.
 
@@ -1361,6 +1388,18 @@ TEXT: Esta entrada se activará automáticamente para darte acceso a la Investig
 
 RESOURCE ID: item_event_ticket_pink_details_cleffahatch
 TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Temporal Prémium del Día de Eclosiones de Cleffa el 28 de abril, estés donde estés.
+
+RESOURCE ID: item_evergreen_ticket_desc
+TEXT: Una entrada que te permite recibir una tarea de Investigación de Campo cuando tienes un hueco disponible en las tareas de Investigación de Campo. La tarea se puede completar una vez al día y otorga 20 Pokémonedas.
+
+RESOURCE ID: item_evergreen_ticket_desc_s14tgr
+TEXT: Una entrada para acceder a la Investigación Temporal "Tras el Equipo GO Rocket" hasta el 31 de marzo a las 11:59 p. m. en tu hora local, estés donde estés.
+
+RESOURCE ID: item_evergreen_ticket_details
+TEXT: Esta entrada se activará automáticamente para darte acceso a la experiencia de la Investigación de Campo Diaria de Pokémonedas el 16 de mayo, estés donde estés.
+
+RESOURCE ID: item_evergreen_ticket_details_s14tgr
+TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Temporal "Tras el Equipo GO Rocket", estés donde estés.
 
 RESOURCE ID: item_legendary_raid_ticket_desc
 TEXT: Pase de Incursión EX para unirse a una incursión especial. Solo puedes usar este pase en el evento de tiempo limitado indicado.
@@ -1449,10 +1488,10 @@ RESOURCE ID: meshing_option_title
 TEXT: Mallado
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-05-03T23:53:14.951872+00:00 for es-MX
-at SHA 6a59c70982
-Pipeline 2308349, job 27902544
-Patch from: 0.311.2-SHA-64de1b92-RC1, 0.313.0-SHA-b99ca9ed-RC1
+TEXT: Built at 2024-05-06T23:52:14.307137+00:00 for es-MX
+at SHA 24654f27b7
+Pipeline 2311346, job 27933454
+Patch from: 0.311.2-SHA-64de1b92-RC1, 0.313.0-SHA-06cb3af8-RC2
 
 RESOURCE ID: minicollect_help_subtitle
 TEXT: Algunos Pokémon solo se pueden encontrar de una forma determinada. Consulta los símbolos a continuación para saber cómo encontrarte con el Pokémon que quieras.

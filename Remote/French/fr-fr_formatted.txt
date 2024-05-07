@@ -148,6 +148,12 @@ TEXT: Du 13 au 14 juillet 2024
 RESOURCE ID: badge_gofest_2024_global_title
 TEXT: Festival Pokémon GO 2024
 
+RESOURCE ID: badge_gofest_2024_pjcs_city
+TEXT: Yokohama, June 1 - 2, 2024
+
+RESOURCE ID: badge_gofest_2024_pjcs_city_title
+TEXT: Pokémon GO Fest 2024: PJCS
+
 RESOURCE ID: badge_gofest_2024_test
 TEXT: Du 13 au 14 juillet 2024
 
@@ -172,11 +178,32 @@ TEXT: Faites évoluer Têtarte pour obtenir un Tartard connaissant l’Attaque I
 RESOURCE ID: bonus_daily_field_research_pokecoins
 TEXT: Tu recevras une tâche d’Étude de terrain qui te donnera quotidiennement 20 PokéPièces si tu disposes de 3 tâches d’Études de terrain ou moins lorsque tu te connectes au jeu la première fois de la journée !
 
+RESOURCE ID: bonus_go_fest_2024_crabrawler_party_play
+TEXT: Crabrawler may appear as Party Play reward Encounters
+
+RESOURCE ID: bonus_go_fest_2024_crabrawler_routes
+TEXT: Crabrawler may appear when you’re following Routes
+
+RESOURCE ID: bonus_go_fest_2024_ducklett_party_play
+TEXT: Ducklett may appear as Party Play reward Encounters
+
+RESOURCE ID: bonus_go_fest_2024_ducklett_routes
+TEXT: Ducklett may appear when you’re following Routes
+
+RESOURCE ID: bonus_go_fest_2024_emolga_party_play
+TEXT: Emolga may appear as Party Play reward Encounters
+
+RESOURCE ID: bonus_go_fest_2024_emolga_routes
+TEXT: Emolga may appear when you’re following Routes
+
 RESOURCE ID: bonus_implicit_social_bellsprout_raid
 TEXT: Si des Dresseurs et Dresseuses collaborent pour remporter un Raid face à Boustiflor, un grand nombre de Chétiflor apparaîtront dans les environs pendant 30 minutes
 
 RESOURCE ID: bonus_implicit_social_poliwag_raid
 TEXT: Si des Dresseurs et Dresseuses collaborent pour remporter un Raid face à Têtarte, un grand nombre de Ptitard apparaîtront dans les environs pendant 30 minutes
+
+RESOURCE ID: bonus_party_play_encounter_generic
+TEXT: Featured Pokémon may appear when you’re following Routes
 
 RESOURCE ID: bonus_pokemon_town_lapras_raid
 TEXT: Lokhlass portant une écharpe apparaît dans les Raids
@@ -186,6 +213,9 @@ TEXT: Davantage de Lokhlass apparaissent dans la nature
 
 RESOURCE ID: bonus_pokemon_town_spawn_pikachu
 TEXT: Davantage de Pikachu apparaissent dans la nature
+
+RESOURCE ID: bonus_routes_encounter_generic
+TEXT: Featured Pokémon may appear as Party Play reward Encounters
 
 RESOURCE ID: bonus_weekend_booster_desc_01
 TEXT: Connecte-toi chaque week-end jusqu’au 16 juin 2024 pour recevoir une Étude ponctuelle qui te permettra de gagner des Baies, des Poké Balls et de l’Encens !
@@ -244,6 +274,9 @@ TEXT: Du 4 mai à minuit
 
 RESOURCE ID: event_name_glitzglam
 TEXT: Brillant et scintillant
+
+RESOURCE ID: filter_key_evolve_with_quest
+TEXT: evolvequest
 
 RESOURCE ID: flock_together_rd_may24_event_title
 TEXT: Journée Étude Prendre son envol
@@ -419,12 +452,6 @@ TEXT: Donnez du panache à vos souvenirs avec des éléments décoratifs ! Ces 
 RESOURCE ID: iris_flair_free_title
 TEXT: Ajoutez des éléments décoratifs
 
-RESOURCE ID: item_event_ticket_evergreen_desc_cointicket2024
-TEXT: Un ticket qui te permet d’obtenir une tâche d’Étude de terrain lorsque tu disposes d’un espace d’Étude de terrain disponible. Cette tâche peut être terminée une fois par jour et te donne 20 PokéPièces en récompense.
-
-RESOURCE ID: item_event_ticket_evergreen_details_cointicket2024
-TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude de terrain quotidienne donnant des PokéPièces le 16 mai, où que tu sois.
-
 RESOURCE ID: item_event_ticket_pink_desc
 TEXT: Un ticket pour accéder à l’Étude ponctuelle premium du Week-end Combat GO jusqu’au 5 mai à 23h59, heures locales, où que tu sois.
 
@@ -448,6 +475,18 @@ TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude
 
 RESOURCE ID: item_event_ticket_pink_details_cleffahatch
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude ponctuelle premium de la Journée Éclosion de Mélo le 28 avril, où que tu sois.
+
+RESOURCE ID: item_evergreen_ticket_desc
+TEXT: Un ticket qui te permet d’obtenir une tâche d’Étude de terrain lorsque tu disposes d’un espace d’Étude de terrain disponible. Cette tâche peut être terminée une fois par jour et te donne 20 PokéPièces en récompense.
+
+RESOURCE ID: item_evergreen_ticket_desc_s14tgr
+TEXT: Un ticket pour accéder à l’Étude ponctuelle À la poursuite de la Team GO Rocket jusqu’au 31 mars 2024 à 23h59, heure locale, où que tu sois.
+
+RESOURCE ID: item_evergreen_ticket_details
+TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude de terrain quotidienne donnant des PokéPièces le 16 mai, où que tu sois.
+
+RESOURCE ID: item_evergreen_ticket_details_s14tgr
+TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude ponctuelle À la poursuite de la Team GO Rocket, où que tu sois.
 
 RESOURCE ID: jeju_poliwag_bonus_tr_desc
 TEXT: Journée Communauté de Ptitard : Étude ponctuelle bonus, île de Jeju
@@ -480,10 +519,10 @@ RESOURCE ID: meshing_option_title
 TEXT: Maillage
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-05-03T23:53:14.951872+00:00 for fr-FR
-at SHA 6a59c70982
-Pipeline 2308349, job 27902544
-Patch from: 0.311.2-SHA-64de1b92-RC1, 0.313.0-SHA-b99ca9ed-RC1
+TEXT: Built at 2024-05-06T23:52:14.307137+00:00 for fr-FR
+at SHA 24654f27b7
+Pipeline 2311346, job 27933454
+Patch from: 0.311.2-SHA-64de1b92-RC1, 0.313.0-SHA-06cb3af8-RC2
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found during the night and allows nighttime evolutions.

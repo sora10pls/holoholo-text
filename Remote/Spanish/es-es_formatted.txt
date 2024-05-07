@@ -142,6 +142,12 @@ TEXT: 13 y 14 de julio de 2024
 RESOURCE ID: badge_gofest_2024_global_title
 TEXT: Festival de Pokémon GO 2024
 
+RESOURCE ID: badge_gofest_2024_pjcs_city
+TEXT: Yokohama, June 1 - 2, 2024
+
+RESOURCE ID: badge_gofest_2024_pjcs_city_title
+TEXT: Pokémon GO Fest 2024: PJCS
+
 RESOURCE ID: badge_gofest_2024_test
 TEXT: 13 y 14 de julio de 2024
 
@@ -166,11 +172,32 @@ TEXT: ¡Haz evolucionar a Poliwhirl para conseguir un Poliwrath que conozca el a
 RESOURCE ID: bonus_daily_field_research_pokecoins
 TEXT: ¡Recibirás una tarea de investigación de campo que tiene como recompensa 20 Pokémonedas diarias si tienes tres tareas de investigación de campo o menos cuando accedas por primera vez al juego cada día!
 
+RESOURCE ID: bonus_go_fest_2024_crabrawler_party_play
+TEXT: Crabrawler may appear as Party Play reward Encounters
+
+RESOURCE ID: bonus_go_fest_2024_crabrawler_routes
+TEXT: Crabrawler may appear when you’re following Routes
+
+RESOURCE ID: bonus_go_fest_2024_ducklett_party_play
+TEXT: Ducklett may appear as Party Play reward Encounters
+
+RESOURCE ID: bonus_go_fest_2024_ducklett_routes
+TEXT: Ducklett may appear when you’re following Routes
+
+RESOURCE ID: bonus_go_fest_2024_emolga_party_play
+TEXT: Emolga may appear as Party Play reward Encounters
+
+RESOURCE ID: bonus_go_fest_2024_emolga_routes
+TEXT: Emolga may appear when you’re following Routes
+
 RESOURCE ID: bonus_implicit_social_bellsprout_raid
 TEXT: Si los Entrenadores trabajan juntos para ganar en una incursión de Weepinbell, aparecerán grandes cantidades de Bellsprout en la zona durante 30 minutos.
 
 RESOURCE ID: bonus_implicit_social_poliwag_raid
 TEXT: Si los Entrenadores trabajan juntos para ganar a Poliwhirl en una incursión, aparecerán grandes cantidades de Poliwag en la zona durante 30 minutos.
+
+RESOURCE ID: bonus_party_play_encounter_generic
+TEXT: Featured Pokémon may appear when you’re following Routes
 
 RESOURCE ID: bonus_pokemon_town_lapras_raid
 TEXT: Lapras con un pañuelo está apareciendo en incursiones
@@ -180,6 +207,9 @@ TEXT: Están apareciendo más Lapras en estado salvaje
 
 RESOURCE ID: bonus_pokemon_town_spawn_pikachu
 TEXT: Están apareciendo más Pikachu en estado salvaje
+
+RESOURCE ID: bonus_routes_encounter_generic
+TEXT: Featured Pokémon may appear as Party Play reward Encounters
 
 RESOURCE ID: bonus_weekend_booster_desc_01
 TEXT: ¡Inicia sesión cada fin de semana hasta el 16 de junio de 2024 para recibir investigaciones temporales con las que podrás conseguir bayas, Poké Balls e Incienso como recompensas adicionales!
@@ -238,6 +268,9 @@ TEXT: Del 4 de mayo a las 00:00 al
 
 RESOURCE ID: event_name_glitzglam
 TEXT: Destellos y diamantes
+
+RESOURCE ID: filter_key_evolve_with_quest
+TEXT: evolvequest
 
 RESOURCE ID: flock_together_rd_may24_event_title
 TEXT: Día de investigación en bandada
@@ -413,12 +446,6 @@ TEXT: ¡Dale un toque de estilo a tus recuerdos con las decoraciones! Estos nuev
 RESOURCE ID: iris_flair_free_title
 TEXT: Añade un poco de decoración
 
-RESOURCE ID: item_event_ticket_evergreen_desc_cointicket2024
-TEXT: Una entrada que te permite recibir una tarea de investigación de campo cuando tienes un hueco disponible en las tareas de investigación de campo. La tarea se puede completar una vez al día y entrega 20 Pokémonedas.
-
-RESOURCE ID: item_event_ticket_evergreen_details_cointicket2024
-TEXT: Esta entrada se activará automáticamente para darte acceso a la experiencia de la investigación de campo diaria de Pokémonedas el 16 de mayo, estés donde estés.
-
 RESOURCE ID: item_event_ticket_pink_desc
 TEXT: Una entrada para acceder a la investigación temporal prémium del Fin de semana de Combates GO hasta el 5 de mayo a las 23:59 en tu hora local, estés donde estés.
 
@@ -442,6 +469,18 @@ TEXT: Esta entrada se activará automáticamente para darte acceso a la investig
 
 RESOURCE ID: item_event_ticket_pink_details_cleffahatch
 TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal prémium del Día de eclosiones de Cleffa el 28 de abril, estés donde estés.
+
+RESOURCE ID: item_evergreen_ticket_desc
+TEXT: Una entrada que te permite recibir una tarea de investigación de campo cuando tienes un hueco disponible en las tareas de investigación de campo. La tarea se puede completar una vez al día y entrega 20 Pokémonedas.
+
+RESOURCE ID: item_evergreen_ticket_desc_s14tgr
+TEXT: Una entrada para acceder a la investigación temporal "Persiguiendo al Team GO Rocket" hasta el 31 de marzo a las 23:59. en tu hora local, estés donde estés.
+
+RESOURCE ID: item_evergreen_ticket_details
+TEXT: Esta entrada se activará automáticamente para darte acceso a la experiencia de la investigación de campo diaria de Pokémonedas el 16 de mayo, estés donde estés.
+
+RESOURCE ID: item_evergreen_ticket_details_s14tgr
+TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal "Persiguiendo al Team GO Rocket", estés donde estés.
 
 RESOURCE ID: jeju_poliwag_bonus_tr_desc
 TEXT: Día de la Comunidad de Poliwag: Bonus de investigación temporal (Isla de Jeju)
@@ -474,10 +513,10 @@ RESOURCE ID: meshing_option_title
 TEXT: Mallado
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-05-03T23:53:14.951872+00:00 for es-ES
-at SHA 6a59c70982
-Pipeline 2308349, job 27902544
-Patch from: 0.311.2-SHA-64de1b92-RC1, 0.313.0-SHA-b99ca9ed-RC1
+TEXT: Built at 2024-05-06T23:52:14.307137+00:00 for es-ES
+at SHA 24654f27b7
+Pipeline 2311346, job 27933454
+Patch from: 0.311.2-SHA-64de1b92-RC1, 0.313.0-SHA-06cb3af8-RC2
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found during the night and allows nighttime evolutions.
