@@ -729,7 +729,7 @@ RESOURCE ID: event_title_catching_wonders
 TEXT: Capturas maravillosas
 
 RESOURCE ID: filter_key_evolve_with_quest
-TEXT: evolvequest
+TEXT: investigacionevolucion
 
 RESOURCE ID: firstcatch_experience_10x
 TEXT: 10 veces más PX con tu primera captura del día
@@ -1122,7 +1122,7 @@ RESOURCE ID: iris_flair_free_title
 TEXT: Añade un poco de decoración
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Una entrada para acceder a la investigación temporal del Día de investigación en bandada el 11 de mayo de 2024 de 14:00 a 17:00 en tu hora local, estés donde estés.
+TEXT: Una entrada para acceder a la investigación especial del Día de la Comunidad de Bounsweet desde el 19 de mayo a las 14:00 en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_desc_bagon
 TEXT: Una entrada para acceder a la investigación especial "Clásicos del Día de la Comunidad: Bagon" el 7 de abril de 2024 de 14:00 a 17:00 en tu hora local, estés donde estés.
@@ -1130,17 +1130,17 @@ TEXT: Una entrada para acceder a la investigación especial "Clásicos del Día 
 RESOURCE ID: item_event_ticket_pink_desc_bellsprout
 TEXT: Una entrada para acceder a la investigación especial del Día de la Comunidad de Bellsprout desde el 20 de abril a las 14:00 en tu hora local, estés donde estés.
 
-RESOURCE ID: item_event_ticket_pink_desc_bounsweetcd2024
-TEXT: Una entrada para acceder a la investigación especial del Día de la Comunidad de Bounsweet desde el 19 de mayo a las 14:00 en tu hora local, estés donde estés.
-
 RESOURCE ID: item_event_ticket_pink_desc_cleffahatch
 TEXT: Una entrada para acceder a la investigación temporal prémium del Día de eclosiones de Cleffa el 28 de abril de 2024 de 14:00 a 17:00 en tu hora local, estés donde estés.
+
+RESOURCE ID: item_event_ticket_pink_desc_flying
+TEXT: Una entrada para acceder a la investigación temporal del Día de investigación en bandada el 11 de mayo de 2024 de 14:00 a 17:00 en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_desc_s14gbw
 TEXT: Una entrada para acceder a la investigación temporal prémium del Fin de semana de Combates GO hasta el 5 de mayo a las 23:59 en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal del Día de investigación en bandada el 11 de mayo, estés donde estés.
+TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación especial "Una dulce sorpresa" el 19 de mayo, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_details_bagon
 TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación especial "Clásicos del Día de la Comunidad: Bagon" el 7 de abril de 2024, estés donde estés.
@@ -1148,11 +1148,11 @@ TEXT: Esta entrada se activará automáticamente para darte acceso a la investig
 RESOURCE ID: item_event_ticket_pink_details_bellsprout
 TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación especial "Descubriendo a Bellsprout" el 20 de abril, estés donde estés.
 
-RESOURCE ID: item_event_ticket_pink_details_bounsweetcd2024
-TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación especial "Una dulce sorpresa" el 19 de mayo, estés donde estés.
-
 RESOURCE ID: item_event_ticket_pink_details_cleffahatch
 TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal prémium del Día de eclosiones de Cleffa el 28 de abril, estés donde estés.
+
+RESOURCE ID: item_event_ticket_pink_details_flying
+TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal del Día de investigación en bandada el 11 de mayo, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_details_s14gbw
 TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal prémium del Fin de semana de Combates GO, estés donde estés.
@@ -1200,10 +1200,10 @@ RESOURCE ID: meshing_option_title
 TEXT: Mallado
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-05-10T20:08:02.313950+00:00 for es-ES
-at SHA 30026cf67a
-Pipeline 2322890, job 28074191
-Patch from: 0.311.0-SHA-fd704a60-RC1, 0.313.0-SHA-cd7c3cfb-RC4
+TEXT: Built at 2024-05-13T19:00:37.002161+00:00 for es-ES
+at SHA e99a37ce35
+Pipeline 2326119, job 28114283
+Patch from: 0.311.0-SHA-b520a87e-RC2, 0.313.0-SHA-cd7c3cfb-RC4, 0.315.0-SHA-8377362e-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found during the night and allows nighttime evolutions.
@@ -1222,6 +1222,12 @@ TEXT: Bolso de Combee (macho)
 
 RESOURCE ID: n_backpack_combeebackpack_1_display_name
 TEXT: Bolso de Combee (hembra)
+
+RESOURCE ID: n_gloves_default_a_0_display_name
+TEXT: Guantes sin dedos
+
+RESOURCE ID: n_gloves_default_b_0_display_name
+TEXT: Guantes sin dedos
 
 RESOURCE ID: n_gloves_teamspark_a_0_display_name
 TEXT: Guantes estilo Spark
@@ -1256,6 +1262,9 @@ TEXT: Pantalones holgados de ejercicio de Mewtwo
 RESOURCE ID: n_pants_mewtwo_b_0_display_name
 TEXT: Pantalones estrechos de ejercicio de Mewtwo
 
+RESOURCE ID: n_pants_skinnyjeans_b_0_display_name
+TEXT: Vaqueros ajustados
+
 RESOURCE ID: n_pants_teamskull_a_0_display_name
 TEXT: Pantalones cortos del Team Skull
 
@@ -1278,7 +1287,7 @@ RESOURCE ID: n_shirt_gofest24eventexclusive_display_name
 TEXT: Camiseta gris oscuro del Festival de GO 2024
 
 RESOURCE ID: n_shirt_sweater-30_2_display_name
-TEXT: Jersey azul de cuello vuelto 30
+TEXT: Jersey de cuello vuelto 30
 
 RESOURCE ID: n_shirt_teamaqua_a_0_display_name
 TEXT: Camiseta sin mangas del Equipo Aqua
@@ -1287,10 +1296,16 @@ RESOURCE ID: n_shirt_teamaqua_b_0_display_name
 TEXT: Camiseta de manga corta del Equipo Aqua
 
 RESOURCE ID: n_shirt_turtleneck-30_0_display_name
-TEXT: Jersey negro de cuello vuelto 30
+TEXT: Jersey de cuello vuelto 30
 
 RESOURCE ID: n_shirt_wcs2022_0_display_name
 TEXT: Camiseta del Mundial 2022
+
+RESOURCE ID: n_shoes_default_a_0_display_name
+TEXT: Zapatos de correr
+
+RESOURCE ID: n_shoes_default_b_0_display_name
+TEXT: Zapatos de correr
 
 RESOURCE ID: n_shoes_hgss_a_0_display_name
 TEXT: Zapatos rojos de Johto
@@ -1303,6 +1318,18 @@ TEXT: Botas de Galar
 
 RESOURCE ID: n_shoes_ss_b_0_display_name
 TEXT: Botines de Galar
+
+RESOURCE ID: n_shoes_ultra_a_0_display_name
+TEXT: Calzado (Ultra)
+
+RESOURCE ID: n_shoes_ultra_b_0_display_name
+TEXT: Calzado (Ultra)
+
+RESOURCE ID: n_socks_default_a_0_display_name
+TEXT: Mallas
+
+RESOURCE ID: n_socks_default_b_0_display_name
+TEXT: Mallas
 
 RESOURCE ID: necrozma_dawn_wings
 TEXT: Necrozma Alas del Alba
