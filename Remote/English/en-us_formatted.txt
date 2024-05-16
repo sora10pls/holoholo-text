@@ -436,6 +436,9 @@ TEXT: Complete Routes {0} times.
 RESOURCE ID: badge_total_route_play_title
 TEXT: Expert Navigator
 
+RESOURCE ID: bonus_cd_move_bounsweet
+TEXT: Evolve Steenee to get a Tsareena that knows the Charged Attack High Jump Kick!
+
 RESOURCE ID: bonus_daily_field_research_pokecoins
 TEXT: You will receive a Field Research task that awards 20 PokéCoins daily if you have three or fewer Field Research tasks when you first log in for the day!
 
@@ -456,6 +459,9 @@ TEXT: You may encounter Emolga as a reward for completing a Party Challenge
 
 RESOURCE ID: bonus_go_fest_2024_emolga_routes
 TEXT: Emolga may appear while following Routes
+
+RESOURCE ID: bonus_implicit_social_bounsweet_raid
+TEXT: If Trainers work together to win a Steenee raid, large numbers of Bounsweet will appear in the area for 30 minutes
 
 RESOURCE ID: bonus_party_play_encounter_generic
 TEXT: Featured Pokémon may appear while following Routes
@@ -542,6 +548,18 @@ TEXT: Catching Wonders
 RESOURCE ID: exit_to_map_button
 TEXT: EXIT TO MAP
 
+RESOURCE ID: f_backpack_naganadelawings_00_bundle_icon
+TEXT: Naganadel Wings
+
+RESOURCE ID: f_naganadel jacket
+TEXT: Naganadel Jacket
+
+RESOURCE ID: f_naganadel pants
+TEXT: Naganadel Pants
+
+RESOURCE ID: f_shirt_wcs2024_00_bundle_icon
+TEXT: Regional Champ 2024 Tee
+
 RESOURCE ID: ferroseed_incense_day
 TEXT: Incense Day: Ferroseed
 
@@ -550,6 +568,9 @@ TEXT: This Pokémon knows an attack with an effect that can be activated outside
 
 RESOURCE ID: filter_key_evolve_with_quest
 TEXT: evolvequest
+
+RESOURCE ID: filter_key_fusion
+TEXT: fuse
 
 RESOURCE ID: first_daily_spin_10x_xp
 TEXT: 10× XP when you spin the Photo Disc at a Gym or PokéStop for the first time that day
@@ -580,6 +601,9 @@ TEXT: Flock Together Research Day: Taillow
 
 RESOURCE ID: flock_together_rd_may24_tr_title
 TEXT: Flock Together Research Day: Timed Research
+
+RESOURCE ID: fusion_raid_escape_toast
+TEXT: Looks like {0} has separated from {1} and escaped, leaving {1} behind!
 
 RESOURCE ID: general1.ticket.2_flocktr24_title
 TEXT: Flock Together Research Day Timed Research
@@ -942,11 +966,23 @@ TEXT: Are you sure you want to leave?
 RESOURCE ID: location_space_limit_message
 TEXT: There isn’t enough space for that Pokémon right now.
 
+RESOURCE ID: m_backpack_naganadelawings_00_bundle_icon
+TEXT: Naganadel Wings
+
+RESOURCE ID: m_naganadel jacket
+TEXT: Naganadel Jacket
+
+RESOURCE ID: m_naganadel pants
+TEXT: Naganadel Pants
+
+RESOURCE ID: m_shirt_wcs2024_00_bundle_icon
+TEXT: Regional Champ 2024 Tee
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-05-16T16:59:29.747315+00:00 for en-US
-at SHA f6733a494b
-Pipeline 2337976, job 28242742
-Patch from: 0.313.0-SHA-cd7c3cfb-RC4, 0.315.0-SHA-cc792826-RC2
+TEXT: Built at 2024-05-16T22:38:56.336842+00:00 for en-US
+at SHA 243ca54e81
+Pipeline 2340031, job 28262422
+Patch from: 0.315.0-SHA-cc792826-RC2, 0.313.0-SHA-cd7c3cfb-RC4
 
 RESOURCE ID: move_name_0408
 TEXT: High Jump Kick
@@ -960,8 +996,20 @@ TEXT: Burmy Earring (Sandy Cloak)
 RESOURCE ID: n_hat_earringsburmytrash_0_display_name
 TEXT: Burmy Earring (Trash Cloak)
 
+RESOURCE ID: n_naganadel_backpack
+TEXT: Naganadel Wings
+
+RESOURCE ID: n_naganadel_jacket
+TEXT: Naganadel Jacket
+
+RESOURCE ID: n_naganadel_pants
+TEXT: Naganadel Pants
+
 RESOURCE ID: n_shirt_gofest2024gray_0_display_name
 TEXT: GO Fest 2024 Tee (Gray)
+
+RESOURCE ID: n_wcstee_regional
+TEXT: Regional Champ 2024 Tee
 
 RESOURCE ID: need_more_scans
 TEXT: This PokéStop needs to be scanned more to support group photos.
@@ -1032,11 +1080,29 @@ TEXT: Playful Pals
 RESOURCE ID: photo_set_small_cute_pokemon_pink
 TEXT: Pink Pals 1
 
+RESOURCE ID: photobomb_five_bounsweet
+TEXT: 5 surprise encounters with Bounsweet in GO Snapshot
+
 RESOURCE ID: photobomb_maractus
 TEXT: Chance for a surprise encounter with Maractus in GO Snapshot
 
 RESOURCE ID: pjcs2024
 TEXT: PJCS 2024
+
+RESOURCE ID: pokemon_desc_0800_2718
+TEXT: This is its form while it is devouring the light of Solgaleo. It pounces on foes and then slashes them with the claws on its four limbs and back.
+
+RESOURCE ID: pokemon_desc_0800_2719
+TEXT: This is its form while it's devouring the light of Lunala. It grasps foes in its giant claws and rips them apart with brute force.
+
+RESOURCE ID: quest_bounsweet_catch_b
+TEXT: Catch {0} Bounsweet
+
+RESOURCE ID: quest_bounsweet_evolve_b_plural
+TEXT: Evolve {0} Bounsweet
+
+RESOURCE ID: quest_bounsweet_evolve_b_singular
+TEXT: Evolve a Bounsweet
 
 RESOURCE ID: quest_catch_costumed_plural
 TEXT: Catch {0} Eevee wearing a sun crown or moon crown
@@ -1131,11 +1197,80 @@ TEXT: Challenge a nearby Trainer by scanning their Battle Code.
 RESOURCE ID: quest_power_up_plural_psychic
 TEXT: Power up {0} Psychic-type Pokémon
 
+RESOURCE ID: quest_special_dialogue_bounsweet_0_0
+TEXT: What a pleasure to see you, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_0_1
+TEXT: Go ahead and take a deep breath in! Smell that sweet scent wafting in the air?
+
+RESOURCE ID: quest_special_dialogue_bounsweet_0_2
+TEXT: There’s no deceiving a Pokémon Professor’s nose! That lovely aroma’s all the proof we need that the Grass-type Bounsweet must be nearby. And in great numbers, by the scent of it!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_0_3
+TEXT: Now go on, follow your nose! Try and bring a Bounsweet back so we can study it!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_1_0
+TEXT: I’d recognize that smell of success a mile away, %PLAYERNAME%! You’ve happened on a bounty of Bounsweet!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_1_1
+TEXT: Here’s a fact: we’re not the only ones interested in Bounsweet. Bird Pokémon are always after them, too!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_1_2
+TEXT: One fact isn’t enough for you? Well, did you know that Bounsweet secrete a sweet—and delicious—sweat? Now you do! I sure wish I smelled that good!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_1_3
+TEXT: Ahem. In any event, why don’t you head out and catch some more so we can keep our sweet new friends safe?
+
+RESOURCE ID: quest_special_dialogue_bounsweet_2_0
+TEXT: Welcome back, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_2_1
+TEXT: Now that we’re acquainted with the delightful Bounsweet, let’s familiarize ourselves with its Evolution, Steenee.
+
+RESOURCE ID: quest_special_dialogue_bounsweet_2_2
+TEXT: Keep a sharp eye out for a Steenee performing its signature twirl. When they spin like that, they’re spreading their amazing scent far and wide.
+
+RESOURCE ID: quest_special_dialogue_bounsweet_2_3
+TEXT: Just a whiff will give you a surge of happiness, in fact. So what are you waiting for, %PLAYERNAME%? We’ve got joy to...well, enjoy!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_3_0
+TEXT: Wow! What an impressive Tsareena!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_3_1
+TEXT: But make sure you keep your guard up!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_3_2
+TEXT: Tsareena’s kick can hit hard enough to take out even the toughest kickboxing champ.
+
+RESOURCE ID: quest_special_dialogue_bounsweet_3_3
+TEXT: Anyhow, thanks for all the assists today, %PLAYERNAME%. Stay sharp and keep well out of kicking distance!
+
 RESOURCE ID: quest_special_dialogue_flock_together_rd_may24_1_0
 TEXT: Great to see you, %PLAYERNAME%! We’ve got all sorts of Pokémon to catch and research that needs doing. I can’t wait to get started!
 
 RESOURCE ID: quest_special_dialogue_flock_together_rd_may24_1_1
 TEXT: Which of these fine feathered friends are you hoping to spot?
+
+RESOURCE ID: quest_steenee_evolve_b_plural
+TEXT: Evolve {0} Steenee
+
+RESOURCE ID: quest_steenee_evolve_b_singular
+TEXT: Evolve a Steenee
+
+RESOURCE ID: quest_title_bounsweet
+TEXT: A Sweet Surprise
+
+RESOURCE ID: quest_title_bounsweet_0
+TEXT: A Sweet Surprise (1/4)
+
+RESOURCE ID: quest_title_bounsweet_1
+TEXT: A Sweet Surprise (2/4)
+
+RESOURCE ID: quest_title_bounsweet_2
+TEXT: A Sweet Surprise (3/4)
+
+RESOURCE ID: quest_title_bounsweet_3
+TEXT: A Sweet Surprise (4/4)
 
 RESOURCE ID: quest_title_catching_wonders_sr_0
 TEXT: Masterwork Research: Catching Wonders
@@ -1226,6 +1361,9 @@ TEXT: Español (España)
 
 RESOURCE ID: spanishlatinamerican
 TEXT: Español (LATAM)
+
+RESOURCE ID: spawn_bounsweet
+TEXT: More Bounsweet are appearing in the wild!
 
 RESOURCE ID: sr_gofest2024_madrid_city
 TEXT: GO Fest 2024: Madrid City Skies
@@ -1493,6 +1631,9 @@ TEXT: <b>This ticket includes three Timed Research opportunities, which you will
 - 40,000 XP and 20,000 Stardust!
 
 Details about the third Timed Research opportunity and the premium rewards it includes will be revealed soon! <b>Please note that if you purchase this version of the Wonder Ticket, you will not be able to purchase the version that comes with additional items.</b> Information about these premium bonus items is available on our website.
+
+RESOURCE ID: ticket_bounsweet
+TEXT: Ticket for the Bounsweet Community Day Special Research story available in the shop
 
 RESOURCE ID: today_view_flock_together_rd_may24
 TEXT: Ticket for the Flock Together Research Day Timed Research available in the shop

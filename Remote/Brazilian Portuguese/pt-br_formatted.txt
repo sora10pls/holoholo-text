@@ -449,6 +449,9 @@ TEXT: Completou Rotas {0} vezes.
 RESOURCE ID: badge_total_route_play_title
 TEXT: Navegante profissional
 
+RESOURCE ID: bonus_cd_move_bounsweet
+TEXT: Evolua Steenee para conseguir Tsareena que sabe o ataque carregado Chute de Pulo Alto!
+
 RESOURCE ID: bonus_cd_move_poliwag_politoed
 TEXT: Evolua Poliwhirl para conseguir Politoed que sabe o ataque carregado Raio Congelante.
 
@@ -475,6 +478,9 @@ TEXT: Você pode encontrar Emolga como uma recompensa por completar um Desafio d
 
 RESOURCE ID: bonus_go_fest_2024_emolga_routes
 TEXT: Emolga podem aparecer enquanto você estiver seguindo Rotas
+
+RESOURCE ID: bonus_implicit_social_bounsweet_raid
+TEXT: Se Treinadores trabalharem juntos para vencer um Reide de Steenee, um grande número de Bounsweet aparecerá na área por 30 minutos
 
 RESOURCE ID: bonus_implicit_social_poliwag_raid
 TEXT: Se Treinadores trabalharem juntos para vencer um Reide de Poliwhirl, um grande número de Poliwag aparecerá na área por 30 minutos
@@ -567,6 +573,18 @@ TEXT: Maravilhas da Captura
 RESOURCE ID: exit_to_map_button
 TEXT: EXIT TO MAP
 
+RESOURCE ID: f_backpack_naganadelawings_00_bundle_icon
+TEXT: Asas de Naganadel
+
+RESOURCE ID: f_naganadel jacket
+TEXT: Jaqueta de Naganadel
+
+RESOURCE ID: f_naganadel pants
+TEXT: Calça de Naganadel
+
+RESOURCE ID: f_shirt_wcs2024_00_bundle_icon
+TEXT: Camiseta de Campeão Regional 2024
+
 RESOURCE ID: ferroseed_incense_day
 TEXT: Dia de Incenso: Ferroseed
 
@@ -575,6 +593,9 @@ TEXT: This Pokémon knows an attack with an effect that can be activated outside
 
 RESOURCE ID: filter_key_evolve_with_quest
 TEXT: evoluirmissao
+
+RESOURCE ID: filter_key_fusion
+TEXT: fuse
 
 RESOURCE ID: first_daily_spin_10x_xp
 TEXT: 10× PE quando você girar o fotodisco em um Ginásio ou Poképarada pela primeira vez naquele dia
@@ -605,6 +626,9 @@ TEXT: Dia de Pesquisar: Revoada de Montão com Taillow
 
 RESOURCE ID: flock_together_rd_may24_tr_title
 TEXT: Pesquisa temporária do Dia de Pesquisar: Revoada de Montão
+
+RESOURCE ID: fusion_raid_escape_toast
+TEXT: Looks like {0} has separated from {1} and escaped, leaving {1} behind!
 
 RESOURCE ID: general1.ticket.2_flocktr24_title
 TEXT: Pesquisa temporária do Dia de Pesquisar: Revoada de Montão
@@ -1036,17 +1060,41 @@ TEXT: Are you sure you want to leave?
 RESOURCE ID: location_space_limit_message
 TEXT: There isn’t enough space for that Pokémon right now.
 
+RESOURCE ID: m_backpack_naganadelawings_00_bundle_icon
+TEXT: Asas de Naganadel
+
+RESOURCE ID: m_naganadel jacket
+TEXT: Jaqueta de Naganadel
+
+RESOURCE ID: m_naganadel pants
+TEXT: Calça de Naganadel
+
+RESOURCE ID: m_shirt_wcs2024_00_bundle_icon
+TEXT: Camiseta de Campeão Regional 2024
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-05-16T16:59:29.747315+00:00 for pt-BR
-at SHA f6733a494b
-Pipeline 2337976, job 28242742
-Patch from: 0.313.0-SHA-cd7c3cfb-RC4, 0.315.0-SHA-cc792826-RC2
+TEXT: Built at 2024-05-16T22:38:56.336842+00:00 for pt-BR
+at SHA 243ca54e81
+Pipeline 2340031, job 28262422
+Patch from: 0.315.0-SHA-cc792826-RC2, 0.313.0-SHA-cd7c3cfb-RC4
 
 RESOURCE ID: move_name_0408
 TEXT: Chute de Pulo Alto
 
+RESOURCE ID: n_naganadel_backpack
+TEXT: Asas de Naganadel
+
+RESOURCE ID: n_naganadel_jacket
+TEXT: Jaqueta de Naganadel
+
+RESOURCE ID: n_naganadel_pants
+TEXT: Calça de Naganadel
+
 RESOURCE ID: n_shirt_gofest2024gray_0_display_name
 TEXT: Camiseta do Festival de Pokémon GO 2024 (cinza)
+
+RESOURCE ID: n_wcstee_regional
+TEXT: Camiseta de Campeão Regional 2024
 
 RESOURCE ID: need_more_scans
 TEXT: This PokéStop needs to be scanned more to support group photos.
@@ -1117,11 +1165,29 @@ TEXT: Au-aumigos
 RESOURCE ID: photo_set_small_cute_pokemon_pink
 TEXT: Amizade Cor-de-rosa 1
 
+RESOURCE ID: photobomb_five_bounsweet
+TEXT: 5 encontros surpresa com Bounsweet ao usar o Retrato GO
+
 RESOURCE ID: photobomb_maractus
 TEXT: Chance de um encontro surpresa com Maractus ao usar o Retrato GO
 
 RESOURCE ID: pjcs2024
 TEXT: Campeonato Pokémon do Japão 2024
+
+RESOURCE ID: pokemon_desc_0800_2718
+TEXT: This is its form while it is devouring the light of Solgaleo. It pounces on foes and then slashes them with the claws on its four limbs and back.
+
+RESOURCE ID: pokemon_desc_0800_2719
+TEXT: This is its form while it's devouring the light of Lunala. It grasps foes in its giant claws and rips them apart with brute force.
+
+RESOURCE ID: quest_bounsweet_catch_b
+TEXT: Pegar {0} Bounsweet.
+
+RESOURCE ID: quest_bounsweet_evolve_b_plural
+TEXT: Evoluir {0} Bounsweet.
+
+RESOURCE ID: quest_bounsweet_evolve_b_singular
+TEXT: Evoluir 1 Bounsweet.
 
 RESOURCE ID: quest_catch_costumed_plural
 TEXT: Pegar {0} Eevee usando uma coroa de sol ou coroa de lua.
@@ -1228,6 +1294,54 @@ TEXT: Fortalecer {0} Pokémon de tipo Psíquico.
 RESOURCE ID: quest_power_up_singular_marshadow
 TEXT: Fortalecer Marshadow.
 
+RESOURCE ID: quest_special_dialogue_bounsweet_0_0
+TEXT: Que bom te ver, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_0_1
+TEXT: Vai, respira fundo! Está sentindo um aroma doce no ar?
+
+RESOURCE ID: quest_special_dialogue_bounsweet_0_2
+TEXT: Nada engana um nariz de Professor Pokémon! Aquele perfume agradável só prova que o Pokémon de tipo Planta Bounsweet está por perto. E devem ter muito deles, pela intensidade do cheiro!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_0_3
+TEXT: Agora vai lá, siga seu faro! Tente trazer uma Bounsweet aqui pra gente estudar ela melhor.
+
+RESOURCE ID: quest_special_dialogue_bounsweet_1_0
+TEXT: Eu sentiria esse cheiro de sucesso a quilômetros de distância, %PLAYERNAME%! Você está diante de uma abundância de Bounsweet!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_1_1
+TEXT: A verdade é que nós não somos os únicos interessados em Bounsweet. Os Pokémon pássaro estão sempre atrás delas também!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_1_2
+TEXT: Só um fato não basta pra você? Bem, você sabia que Bounsweet secreta um suor doce e delicioso? Agora você sabe! Quem me dera cheirar tão bem assim!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_1_3
+TEXT: Hum, enfim, por que você não sai e pega mais algumas pra gente manter nossas novas amiguinhas em segurança?
+
+RESOURCE ID: quest_special_dialogue_bounsweet_2_0
+TEXT: Que bom que você voltou, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_2_1
+TEXT: Agora que já conhecemos os encantos de Bounsweet, vamos nos familiarizar com sua Evolução, Steenee.
+
+RESOURCE ID: quest_special_dialogue_bounsweet_2_2
+TEXT: Fique de olho para ver Steenee executando seu giro característico. Quando elas giram dessa maneira, estão espalhando seu perfume incrível por toda parte.
+
+RESOURCE ID: quest_special_dialogue_bounsweet_2_3
+TEXT: Na verdade, uma baforadinha de nada já vai te dar uma onda de felicidade. Então, está esperando o quê, %PLAYERNAME%? Temos alegria para... bem, desfrutar!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_3_0
+TEXT: Uau! Que Tsareena impressionante!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_3_1
+TEXT: Mas não se esqueça de manter a guarda alta!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_3_2
+TEXT: O chute da Tsareena tem força suficiente para derrubar até o mais forte dos lutadores de kickboxing.
+
+RESOURCE ID: quest_special_dialogue_bounsweet_3_3
+TEXT: De qualquer forma, obrigado por toda a ajuda hoje, %PLAYERNAME%. Fique alerta e bem longe do alcance dos chutes dela!
+
 RESOURCE ID: quest_special_dialogue_flock_together_rd_may24_1_0
 TEXT: Que bom te ver, %PLAYERNAME%! Temos todo tipo de Pokémon para pegar e pesquisas para serem feitas. Mal posso esperar para começar!
 
@@ -1305,6 +1419,27 @@ TEXT: De qualquer forma, faça como Poliwag que estão aprendendo a andar ao abo
 
 RESOURCE ID: quest_special_dialogue_poliwag_3_4
 TEXT: Até a próxima. Vamos nessa!
+
+RESOURCE ID: quest_steenee_evolve_b_plural
+TEXT: Evoluir {0} Steenee.
+
+RESOURCE ID: quest_steenee_evolve_b_singular
+TEXT: Evoluir 1 Steenee.
+
+RESOURCE ID: quest_title_bounsweet
+TEXT: Uma Doce Surpresa
+
+RESOURCE ID: quest_title_bounsweet_0
+TEXT: Uma Doce Surpresa (1/4)
+
+RESOURCE ID: quest_title_bounsweet_1
+TEXT: Uma Doce Surpresa (2/4)
+
+RESOURCE ID: quest_title_bounsweet_2
+TEXT: Uma Doce Surpresa (3/4)
+
+RESOURCE ID: quest_title_bounsweet_3
+TEXT: Uma Doce Surpresa (4/4)
 
 RESOURCE ID: quest_title_catching_wonders_sr_0
 TEXT: Pesquisa magistral: Maravilhas da Captura
@@ -1410,6 +1545,9 @@ TEXT: Español (España)
 
 RESOURCE ID: spanishlatinamerican
 TEXT: Español (LATAM)
+
+RESOURCE ID: spawn_bounsweet
+TEXT: Bounsweet selvagens estão aparecendo com mais frequência!
 
 RESOURCE ID: sr_gofest2024_global_day1
 TEXT: Festival de Pokémon GO 2024: Uma Travessura nas Sombras
@@ -1728,6 +1866,9 @@ TEXT: <b>Este ingresso inclui três oportunidades de pesquisa temporária, que v
 - 40.000 PE e 20.000 Poeira Estelar!
 
 Mais detalhes sobre a terceira oportunidade de pesquisa temporária e as recompensas premium que ela inclui serão revelados em breve! <b>Observe que, se você comprar essa versão do Ingresso das Maravilhas, você não poderá comprar a versão que vem com itens adicionais.</b> Informações sobre esses itens premium bônus estão disponíveis no nosso site.
+
+RESOURCE ID: ticket_bounsweet
+TEXT: Ingresso para a narrativa de pesquisa especial do Dia Comunitário de Bounsweet está disponível na loja
 
 RESOURCE ID: timed_quest_adventure_adv23_branch_0
 TEXT: Acabei de — *ofegante* — sair para correr — *ofegante* — seguindo um desses mapas que encontrei. Que tal você tentar também enquanto eu — *ofegante* — descanso um pouco?

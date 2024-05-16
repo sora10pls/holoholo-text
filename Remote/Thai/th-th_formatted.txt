@@ -427,6 +427,9 @@ TEXT: เลนเสนทางจนสิ้นสุด {0} ครั
 RESOURCE ID: badge_total_route_play_title
 TEXT: เนวิเกเตอรผูเชี่ยวชาญ
 
+RESOURCE ID: bonus_cd_move_bounsweet
+TEXT: วิวัฒนาการอมามาอิโกะเปนอมาโจที่รูทาโจมตีชารจ "กระโดดแทงเขา"
+
 RESOURCE ID: bonus_cd_move_poliwag_poliwrath
 TEXT: วิวัฒนาการเนียวโรโซเปนเนียวโรบอนที่รูทาโจมตีเร็ว "ตอบโต"
 
@@ -450,6 +453,9 @@ TEXT: คุณอาจเผชิญหนากับเอมอนก�
 
 RESOURCE ID: bonus_go_fest_2024_emolga_routes
 TEXT: เอมอนกาอาจปรากฏตัวขึ้นระหวางเดินตามเสนทาง
+
+RESOURCE ID: bonus_implicit_social_bounsweet_raid
+TEXT: หากเทรนเนอรรวมมือกันเอาชนะอมามาอิโกะในตีบอสไดสำเร็จ อมาคาจิจำนวนมากจะปรากฏตัวในบริเวณรอบ ๆ เปนเวลา 30 นาที
 
 RESOURCE ID: bonus_implicit_social_poliwag_raid
 TEXT: หากเทรนเนอรรวมมือกันเอาชนะเนียวโรโซในตีบอสไดสำเร็จ เนียวโรโมะจำนวนมากจะปรากฏตัวในบริเวณรอบ ๆ เปนเวลา 30 นาที
@@ -550,6 +556,18 @@ TEXT: จับสิ่งพิศวง
 RESOURCE ID: exit_to_map_button
 TEXT: EXIT TO MAP
 
+RESOURCE ID: f_backpack_naganadelawings_00_bundle_icon
+TEXT: ปกอาโกโยง
+
+RESOURCE ID: f_naganadel jacket
+TEXT: เสื้อแจ็กเก็ตอาโกโยง
+
+RESOURCE ID: f_naganadel pants
+TEXT: กางเกงอาโกโยง
+
+RESOURCE ID: f_shirt_wcs2024_00_bundle_icon
+TEXT: เสื้อยืดแชมปภูมิภาค WCS 2024
+
 RESOURCE ID: ferroseed_incense_day
 TEXT: วันเครื่องหอม: เทสซีด
 
@@ -558,6 +576,9 @@ TEXT: This Pokémon knows an attack with an effect that can be activated outside
 
 RESOURCE ID: filter_key_evolve_with_quest
 TEXT: เงื่อนไขวิวัฒนาการ
+
+RESOURCE ID: filter_key_fusion
+TEXT: fuse
 
 RESOURCE ID: first_daily_spin_10x_xp
 TEXT: XP x10 เมื่อหมุนแผนภาพที่ยิมหรือเสาโปเกสต็อปเปนครั้งแรกของวัน
@@ -588,6 +609,9 @@ TEXT: วันวิจัยโบยบินพรอมหนา: ส
 
 RESOURCE ID: flock_together_rd_may24_tr_title
 TEXT: วันวิจัยโบยบินพรอมหนา: งานวิจัยแบบจำกัดเวลา
+
+RESOURCE ID: fusion_raid_escape_toast
+TEXT: Looks like {0} has separated from {1} and escaped, leaving {1} behind!
 
 RESOURCE ID: general1.ticket.2_flocktr24_title
 TEXT: งานวิจัยแบบจำกัดเวลา: วันวิจัยโบยบินพรอมหนา
@@ -1046,11 +1070,23 @@ TEXT: Are you sure you want to leave?
 RESOURCE ID: location_space_limit_message
 TEXT: There isn’t enough space for that Pokémon right now.
 
+RESOURCE ID: m_backpack_naganadelawings_00_bundle_icon
+TEXT: ปกอาโกโยง
+
+RESOURCE ID: m_naganadel jacket
+TEXT: เสื้อแจ็กเก็ตอาโกโยง
+
+RESOURCE ID: m_naganadel pants
+TEXT: กางเกงอาโกโยง
+
+RESOURCE ID: m_shirt_wcs2024_00_bundle_icon
+TEXT: เสื้อยืดแชมปภูมิภาค WCS 2024
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-05-16T16:59:29.747315+00:00 for th-TH
-at SHA f6733a494b
-Pipeline 2337976, job 28242742
-Patch from: 0.313.0-SHA-cd7c3cfb-RC4, 0.315.0-SHA-cc792826-RC2
+TEXT: Built at 2024-05-16T22:38:56.336842+00:00 for th-TH
+at SHA 243ca54e81
+Pipeline 2340031, job 28262422
+Patch from: 0.315.0-SHA-cc792826-RC2, 0.313.0-SHA-cd7c3cfb-RC4
 
 RESOURCE ID: move_name_0408
 TEXT: กระโดดแทงเขา
@@ -1082,9 +1118,21 @@ RESOURCE ID: n_hat_poipole_0_display_name
 TEXT: หมวกกันน็อก
 เบเวนอม
 
+RESOURCE ID: n_naganadel_backpack
+TEXT: ปกอาโกโยง
+
+RESOURCE ID: n_naganadel_jacket
+TEXT: เสื้อแจ็กเก็ตอาโกโยง
+
+RESOURCE ID: n_naganadel_pants
+TEXT: กางเกงอาโกโยง
+
 RESOURCE ID: n_shirt_gofest2024gray_0_display_name
 TEXT: เสื้อยืด GO Fest 2024
 (สีเทา)
+
+RESOURCE ID: n_wcstee_regional
+TEXT: เสื้อยืดแชมปภูมิภาค WCS 2024
 
 RESOURCE ID: need_more_scans
 TEXT: This PokéStop needs to be scanned more to support group photos.
@@ -1155,11 +1203,29 @@ TEXT: เจาเพื่อนยาก
 RESOURCE ID: photo_set_small_cute_pokemon_pink
 TEXT: แกงชมพู 1
 
+RESOURCE ID: photobomb_five_bounsweet
+TEXT: อมาคาจิแยงซีนถายรูปในโกสแนปช็อต 5 ครั้ง
+
 RESOURCE ID: photobomb_maractus
 TEXT: โอกาสในการเผชิญหนากับมาราคัจจิในโกสแนปช็อต
 
 RESOURCE ID: pjcs2024
 TEXT: PJCS 2024
+
+RESOURCE ID: pokemon_desc_0800_2718
+TEXT: This is its form while it is devouring the light of Solgaleo. It pounces on foes and then slashes them with the claws on its four limbs and back.
+
+RESOURCE ID: pokemon_desc_0800_2719
+TEXT: This is its form while it's devouring the light of Lunala. It grasps foes in its giant claws and rips them apart with brute force.
+
+RESOURCE ID: quest_bounsweet_catch_b
+TEXT: จับอมาคาจิ {0} ตัว
+
+RESOURCE ID: quest_bounsweet_evolve_b_plural
+TEXT: วิวัฒนาการอมาคาจิ {0} ตัว
+
+RESOURCE ID: quest_bounsweet_evolve_b_singular
+TEXT: วิวัฒนาการอมาคาจิ
 
 RESOURCE ID: quest_catch_costumed_plural
 TEXT: จับอีวุยสวมมงกุฎสุริยาหรืออีวุยสวมมงกุฎจันทรา {0} ตัว
@@ -1275,6 +1341,72 @@ TEXT: พาวเวอรอัปโปเกมอนประเภท�
 RESOURCE ID: quest_power_up_singular_marshadow
 TEXT: พาวเวอรอัปมารชาโดว
 
+RESOURCE ID: quest_special_dialogue_bounsweet_0_0
+TEXT: อาว %PLAYERNAME% เธอมาไดจังหวะพอดีเลย!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_0_1
+TEXT: ลองหายใจเขาลึก ๆ ดูสิ ไดกลิ่นหอมหวาน
+ที่ลอยอบอวลอยูในอากาศนี่ไหม?
+
+RESOURCE ID: quest_special_dialogue_bounsweet_0_2
+TEXT: หลอกจมูกของศาสตราจารยโปเกมอนอยางฉัน
+ไมไดหรอก! กลิ่นหอมนี่เปนของอมาคาจิ
+หมายความวารอบ ๆ นี้ตองมีเจาโปเกมอน
+ประเภทหญานั่นอยูไมนอยแน ๆ
+
+RESOURCE ID: quest_special_dialogue_bounsweet_0_3
+TEXT: ใชประสาทรับกลิ่นของเธอในการตามหา
+และพาตัวอมาคาจิกลับมาศึกษากันเถอะ!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_1_0
+TEXT: กลิ่นหอมของอมาคาจินี่คือกลิ่นของความสำเร็จ
+ของเธอสินะ %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_1_1
+TEXT: รูไหมวานอกจากพวกเราแลว อมาคาจิก็ดูเปน
+ที่สนอกสนใจของโปเกมอนนกดวย!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_1_2
+TEXT: ขอมูลอื่นงั้นเหรอ? อืม...เธอรูเรื่องที่เหงื่อของ
+อมาคาจินั้นทั้งหวานและอรอยไหม?
+เอาเปนวาเธอรูแลวนะ! ถาฉันตัวหอมแบบนั้นบางก็คงดี!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_1_3
+TEXT: อะแฮม เอาเปนวาเธอออกไปจับตอไหม?
+คอยระวังเพื่อนตัวหอมหวานของเรา
+จากพวกโปเกมอนนกดวยละ
+
+RESOURCE ID: quest_special_dialogue_bounsweet_2_0
+TEXT: ยินดีตอนรับกลับมานะ %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_2_1
+TEXT: ตอนนี้เราก็เริ่มเขาใจเกี่ยวกับอมาคาจิแลว
+ตอไปเราไปศึกษารางวิวัฒนาการของมัน
+หรือก็คืออมามาอิโกะกันเถอะ
+
+RESOURCE ID: quest_special_dialogue_bounsweet_2_2
+TEXT: อมามาอิโกะจะหมุนตัวราวกับเตนรำเพื่อกระจาย
+กลิ่นหอมหวานออกมา
+
+RESOURCE ID: quest_special_dialogue_bounsweet_2_3
+TEXT: หากใครไดดมกลิ่นนั้นแลวจะทำใหรูสึกมีความสุข
+นาสนใจใชไหมละ %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_bounsweet_3_0
+TEXT: วาว! อมาโจตัวนี้ดูสงางามมาก!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_3_1
+TEXT: แตระวังตัวไวใหดีละ!
+
+RESOURCE ID: quest_special_dialogue_bounsweet_3_2
+TEXT: อมาโจใชทาเตะไดอยางงดงาม ลมไดกระทั่ง
+แชมปคิกบ็อกซิงในการโจมตีหนเดียวเลยนะ
+
+RESOURCE ID: quest_special_dialogue_bounsweet_3_3
+TEXT: ขอบคุณที่มาชวยงานวิจัยในวันนี้นะ
+%PLAYERNAME% ระมัดระวังตัวไวใหดี
+และอยูนอกระยะเตะดวยละ!
+
 RESOURCE ID: quest_special_dialogue_flock_together_rd_may24_1_0
 TEXT: ไง %PLAYERNAME%! ยังมีโปเกมอนที่เราตองจับและศึกษาอีกมาก มาเริ่มกันเลย!
 
@@ -1389,6 +1521,27 @@ TEXT: ไมวาจะเปนตัวไหนก็อยา�
 RESOURCE ID: quest_special_dialogue_poliwag_3_4
 TEXT: ไวพบกันใหมนะ เล็ตสโก!
 
+RESOURCE ID: quest_steenee_evolve_b_plural
+TEXT: วิวัฒนาการอมามาอิโกะ {0} ตัว
+
+RESOURCE ID: quest_steenee_evolve_b_singular
+TEXT: วิวัฒนาการอมามาอิโกะ
+
+RESOURCE ID: quest_title_bounsweet
+TEXT: เซอรไพรสหอมหวาน
+
+RESOURCE ID: quest_title_bounsweet_0
+TEXT: เซอรไพรสหอมหวาน (1/4)
+
+RESOURCE ID: quest_title_bounsweet_1
+TEXT: เซอรไพรสหอมหวาน (2/4)
+
+RESOURCE ID: quest_title_bounsweet_2
+TEXT: เซอรไพรสหอมหวาน (3/4)
+
+RESOURCE ID: quest_title_bounsweet_3
+TEXT: เซอรไพรสหอมหวาน (4/4)
+
 RESOURCE ID: quest_title_catching_wonders_sr_0
 TEXT: งานวิจัยระยะยาว: จับสิ่งพิศวง
 
@@ -1494,6 +1647,9 @@ TEXT: Español (España)
 
 RESOURCE ID: spanishlatinamerican
 TEXT: Español (LATAM)
+
+RESOURCE ID: spawn_bounsweet
+TEXT: อมาคาจิปรากฏตัวออกมามากขึ้น!
 
 RESOURCE ID: sr_gofest2024_global_day1
 TEXT: GO Fest 2024: เงาโลดโผน
@@ -1869,6 +2025,9 @@ TEXT: <b>คุณจะไดรับงานวิจัยแบบจ�
 รายละเอียดเกี่ยวกับงานวิจัยแบบจำกัดเวลาสวนที่ 3 รวมถึงรางวัลตาง ๆ จะเปดเผยเร็ว ๆ นี้!
 <b>โปรดทราบวาหากคุณซื้อตั๋วพิศวงเวอรชันนี้ คุณจะไมสามารถซื้อเวอรชันที่มีไอเท็มพรีเมียมได</b>
 อานรายละเอียดเพิ่มเติมเกี่ยวกับเวอรชันที่มีไอเท็มพรีเมียมไดที่เว็บไซตของเรา
+
+RESOURCE ID: ticket_bounsweet
+TEXT: สามารถซื้อตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษ "อมาคาจิคอมมิวนิตี้เดย" ไดที่รานคา
 
 RESOURCE ID: timed_quest_adventure_adv23_branch_0
 TEXT: แฮก ๆ ฉันเพิ่งออกไปวิ่งตามแผนที่
