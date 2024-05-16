@@ -542,6 +542,9 @@ TEXT: Catching Wonders
 RESOURCE ID: exit_to_map_button
 TEXT: EXIT TO MAP
 
+RESOURCE ID: ferroseed_incense_day
+TEXT: Incense Day: Ferroseed
+
 RESOURCE ID: field_effect_ftue_short
 TEXT: This Pokémon knows an attack with an effect that can be activated outside of battle.
 
@@ -940,10 +943,10 @@ RESOURCE ID: location_space_limit_message
 TEXT: There isn’t enough space for that Pokémon right now.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-05-16T00:32:53.586942+00:00 for en-US
-at SHA 8d681bb633
-Pipeline 2336124, job 28218071
-Patch from: 0.313.0-SHA-b99ca9ed-RC1, 0.315.0-SHA-cc792826-RC2
+TEXT: Built at 2024-05-16T16:59:29.747315+00:00 for en-US
+at SHA f6733a494b
+Pipeline 2337976, job 28242742
+Patch from: 0.313.0-SHA-cd7c3cfb-RC4, 0.315.0-SHA-cc792826-RC2
 
 RESOURCE ID: move_name_0408
 TEXT: High Jump Kick
@@ -968,6 +971,57 @@ TEXT: It looks like there aren’t any Pokémon here yet! Would you like to add 
 
 RESOURCE ID: no_pokemon_found_header
 TEXT: No Pokémon Found!
+
+RESOURCE ID: party_play_party_share_card_title
+TEXT: Share items with your party!
+
+RESOURCE ID: party_play_party_share_error_insufficient_inventory
+TEXT: There was an error with item sharing. Please try again later.
+
+RESOURCE ID: party_play_party_share_error_party_unable_to_receive
+TEXT: You can’t share any more {0} today.
+
+RESOURCE ID: party_play_party_share_error_player_not_in_party
+TEXT: The Trainer has left the party and will not receive any items.
+
+RESOURCE ID: party_play_party_share_share_button
+TEXT: SHARE
+
+RESOURCE ID: party_play_party_share_tutorial_description
+TEXT: Share items with your party. Each party member will receive part of the item’s effects.
+
+RESOURCE ID: party_play_party_share_tutorial_header
+TEXT: Party Share
+
+RESOURCE ID: party_play_share_error_limit_reached
+TEXT: You’ve reached the daily limit.
+
+RESOURCE ID: party_share_avatar_gui_title
+TEXT: You can share {0} {1}
+
+RESOURCE ID: party_share_avatar_gui_title_plural
+TEXT: Share up to {0} {1}
+
+RESOURCE ID: party_share_avatar_warning_modal_no_items
+TEXT: This Trainer cannot use another {0} right now.
+
+RESOURCE ID: party_share_avatar_warning_modal_no_items_plural
+TEXT: These Trainers cannot use another {0} right now.
+
+RESOURCE ID: party_share_avatar_warning_modal_some_items
+TEXT: This Trainer will not receive the full duration shared.
+
+RESOURCE ID: party_share_avatar_warning_modal_some_items_plural
+TEXT: These Trainers will not receive the full duration shared.
+
+RESOURCE ID: party_share_item_shared_tooltip
+TEXT: Shared {0}
+
+RESOURCE ID: party_share_ticker_message
+TEXT: {0} shared {1} {2}
+
+RESOURCE ID: party_share_ticker_message_plural
+TEXT: {0} shared {1} {2}
 
 RESOURCE ID: photo_set_cute_pokemon_pink
 TEXT: Pink Pals 2
@@ -1454,6 +1508,9 @@ TEXT: Weekend Rewards, May 2024
 
 RESOURCE ID: tr_weekend_booster_desc_05
 TEXT: Weekend Rewards, June 2024
+
+RESOURCE ID: ultra_space_wonders_event_name
+TEXT: Ultra Space Wonders
 
 RESOURCE ID: vps_guardian_oob_toast
 TEXT: Please move back into the boundary.

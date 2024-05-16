@@ -542,6 +542,9 @@ TEXT: Fang-Wunder
 RESOURCE ID: exit_to_map_button
 TEXT: ZUR KARTE ZURÜCKKEHREN
 
+RESOURCE ID: ferroseed_incense_day
+TEXT: Rauch-Tag mit Kastadur
+
 RESOURCE ID: field_effect_ftue_short
 TEXT: This Pokémon knows an attack with an effect that can be activated outside of battle.
 
@@ -991,10 +994,10 @@ RESOURCE ID: location_space_limit_message
 TEXT: Es gibt momentan nicht genug Platz für dieses Pokémon.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-05-16T00:32:53.586942+00:00 for de-DE
-at SHA 8d681bb633
-Pipeline 2336124, job 28218071
-Patch from: 0.313.0-SHA-b99ca9ed-RC1, 0.315.0-SHA-cc792826-RC2
+TEXT: Built at 2024-05-16T16:59:29.747315+00:00 for de-DE
+at SHA f6733a494b
+Pipeline 2337976, job 28242742
+Patch from: 0.313.0-SHA-cd7c3cfb-RC4, 0.315.0-SHA-cc792826-RC2
 
 RESOURCE ID: move_name_0408
 TEXT: Turmkick
@@ -1019,6 +1022,57 @@ TEXT: Es sieht so aus, als gäbe es hier noch keine Pokémon! Möchtest du dein 
 
 RESOURCE ID: no_pokemon_found_header
 TEXT: Kein Pokémon gefunden!
+
+RESOURCE ID: party_play_party_share_card_title
+TEXT: Teile Items mit deinem Team!
+
+RESOURCE ID: party_play_party_share_error_insufficient_inventory
+TEXT: Es ist ein Fehler beim Teilen von Items aufgetreten. Bitte versuche es später noch einmal.
+
+RESOURCE ID: party_play_party_share_error_party_unable_to_receive
+TEXT: Du kannst heute kein {0} mehr teilen.
+
+RESOURCE ID: party_play_party_share_error_player_not_in_party
+TEXT: Der Trainer hat das Team verlassen und wird keine Items erhalten.
+
+RESOURCE ID: party_play_party_share_share_button
+TEXT: TEILEN
+
+RESOURCE ID: party_play_party_share_tutorial_description
+TEXT: Teile Items mit deinem Team. Jedes Teammitglied erhält einen Teil der Item-Effekte.
+
+RESOURCE ID: party_play_party_share_tutorial_header
+TEXT: Team-Beitrag
+
+RESOURCE ID: party_play_share_error_limit_reached
+TEXT: Du hast das tägliche Limit erreicht.
+
+RESOURCE ID: party_share_avatar_gui_title
+TEXT: Du kannst {0}-mal {1} teilen
+
+RESOURCE ID: party_share_avatar_gui_title_plural
+TEXT: Teile bis zu {0}-mal {1}
+
+RESOURCE ID: party_share_avatar_warning_modal_no_items
+TEXT: Dieser Trainer kann {0} momentan nicht erneut einsetzen.
+
+RESOURCE ID: party_share_avatar_warning_modal_no_items_plural
+TEXT: Diese Trainer können {0} momentan nicht erneut einsetzen.
+
+RESOURCE ID: party_share_avatar_warning_modal_some_items
+TEXT: Dieser Trainer wird nicht die vollständige Wirkdauer erhalten.
+
+RESOURCE ID: party_share_avatar_warning_modal_some_items_plural
+TEXT: Diese Trainer werden nicht die vollständige Wirkdauer erhalten.
+
+RESOURCE ID: party_share_item_shared_tooltip
+TEXT: {0} wurde geteilt
+
+RESOURCE ID: party_share_ticker_message
+TEXT: {0} teilte {1}-mal {2}
+
+RESOURCE ID: party_share_ticker_message_plural
+TEXT: {0} teilte {1}-mal {2}
 
 RESOURCE ID: photo_set_cute_pokemon_pink
 TEXT: Rosa Runde 2
@@ -1577,6 +1631,9 @@ TEXT: Wochenendbelohnungen, Mai 2024
 
 RESOURCE ID: tr_weekend_booster_desc_05
 TEXT: Wochenendbelohnungen, Juni 2024
+
+RESOURCE ID: ultra_space_wonders_event_name
+TEXT: Ultradimensions-Wunder
 
 RESOURCE ID: vps_guardian_oob_toast
 TEXT: Bitte begib dich zurück in den Bereich.

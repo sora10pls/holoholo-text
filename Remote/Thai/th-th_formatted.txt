@@ -434,31 +434,31 @@ RESOURCE ID: bonus_daily_field_research_pokecoins
 TEXT: เมื่อคุณล็อกอินครั้งแรกในแตละวัน หากคุณมีงานวิจัยภาคสนามไมเกิน 3 งาน คุณจะไดรับงานวิจัยภาคสนามที่มอบ 20 โปเกคอยนเปนรางวัล!
 
 RESOURCE ID: bonus_go_fest_2024_crabrawler_party_play
-TEXT: You may encounter Crabrawler as a reward for completing a Party Challenge
+TEXT: คุณอาจเผชิญหนากับมาเค็นคานิเมื่อทำคำทาปารตี้เสร็จสิ้น
 
 RESOURCE ID: bonus_go_fest_2024_crabrawler_routes
-TEXT: Crabrawler may appear while following Routes
+TEXT: มาเค็นคานิอาจปรากฏตัวขึ้นระหวางเดินตามเสนทาง
 
 RESOURCE ID: bonus_go_fest_2024_ducklett_party_play
-TEXT: You may encounter Ducklett as a reward for completing a Party Challenge
+TEXT: คุณอาจเผชิญหนากับโคอารูฮีเมื่อทำคำทาปารตี้เสร็จสิ้น
 
 RESOURCE ID: bonus_go_fest_2024_ducklett_routes
-TEXT: Ducklett may appear while following Routes
+TEXT: โคอารูฮีอาจปรากฏตัวขึ้นระหวางเดินตามเสนทาง
 
 RESOURCE ID: bonus_go_fest_2024_emolga_party_play
-TEXT: You may encounter Emolga as a reward for completing a Party Challenge
+TEXT: คุณอาจเผชิญหนากับเอมอนกาเมื่อทำคำทาปารตี้เสร็จสิ้น
 
 RESOURCE ID: bonus_go_fest_2024_emolga_routes
-TEXT: Emolga may appear while following Routes
+TEXT: เอมอนกาอาจปรากฏตัวขึ้นระหวางเดินตามเสนทาง
 
 RESOURCE ID: bonus_implicit_social_poliwag_raid
 TEXT: หากเทรนเนอรรวมมือกันเอาชนะเนียวโรโซในตีบอสไดสำเร็จ เนียวโรโมะจำนวนมากจะปรากฏตัวในบริเวณรอบ ๆ เปนเวลา 30 นาที
 
 RESOURCE ID: bonus_party_play_encounter_generic
-TEXT: Featured Pokémon may appear while following Routes
+TEXT: โปเกมอนเดนอาจปรากฏตัวขึ้นระหวางเดินตามเสนทาง
 
 RESOURCE ID: bonus_routes_encounter_generic
-TEXT: You may encounter a featured Pokémon as a reward for completing a Party Challenge
+TEXT: คุณอาจเผชิญหนากับโปเกมอนเดนเมื่อทำคำทาปารตี้เสร็จสิ้น
 
 RESOURCE ID: bonus_weekend_booster_desc_01
 TEXT: ล็อกอินทุกสุดสัปดาหจนถึง 16 มิถุนายน 2024 เพื่อรับงานวิจัยแบบจำกัดเวลาที่มีรางวัลเปนผลไม, มอนสเตอรบอล และเครื่องหอม!
@@ -525,7 +525,7 @@ RESOURCE ID: community_day_bounsweet_event_name
 TEXT: คอมมิวนิตี้เดย: อมาคาจิ
 
 RESOURCE ID: error_reward_item_reach_limit
-TEXT: You’ve reached the inventory limit for one or more of these items.
+TEXT: คุณมีไอเท็มนี้ถึงขีดจำกัดจำนวนสูงสุดแลว
 
 RESOURCE ID: event_datetime_range_key_bounsweetcd2024
 TEXT: วันที่ 19 พฤษภาคม 2024 เวลา 14:00-17:00 น.
@@ -549,6 +549,9 @@ TEXT: จับสิ่งพิศวง
 
 RESOURCE ID: exit_to_map_button
 TEXT: EXIT TO MAP
+
+RESOURCE ID: ferroseed_incense_day
+TEXT: วันเครื่องหอม: เทสซีด
 
 RESOURCE ID: field_effect_ftue_short
 TEXT: This Pokémon knows an attack with an effect that can be activated outside of battle.
@@ -1044,10 +1047,10 @@ RESOURCE ID: location_space_limit_message
 TEXT: There isn’t enough space for that Pokémon right now.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-05-16T00:32:53.586942+00:00 for th-TH
-at SHA 8d681bb633
-Pipeline 2336124, job 28218071
-Patch from: 0.313.0-SHA-b99ca9ed-RC1, 0.315.0-SHA-cc792826-RC2
+TEXT: Built at 2024-05-16T16:59:29.747315+00:00 for th-TH
+at SHA f6733a494b
+Pipeline 2337976, job 28242742
+Patch from: 0.313.0-SHA-cd7c3cfb-RC4, 0.315.0-SHA-cc792826-RC2
 
 RESOURCE ID: move_name_0408
 TEXT: กระโดดแทงเขา
@@ -1091,6 +1094,57 @@ TEXT: It looks like there aren’t any Pokémon here yet! Would you like to add 
 
 RESOURCE ID: no_pokemon_found_header
 TEXT: No Pokémon Found!
+
+RESOURCE ID: party_play_party_share_card_title
+TEXT: แชรไอเท็มกับปารตี้ของคุณ!
+
+RESOURCE ID: party_play_party_share_error_insufficient_inventory
+TEXT: เกิดขอผิดพลาดในการแชรไอเท็ม โปรดลองใหมอีกครั้งในภายหลัง
+
+RESOURCE ID: party_play_party_share_error_party_unable_to_receive
+TEXT: คุณไมสามารถแชร{0}ไดอีกในวันนี้
+
+RESOURCE ID: party_play_party_share_error_player_not_in_party
+TEXT: เทรนเนอรคนนี้ออกจากปารตี้แลว และจะไมไดรับไอเท็ม
+
+RESOURCE ID: party_play_party_share_share_button
+TEXT: แชร
+
+RESOURCE ID: party_play_party_share_tutorial_description
+TEXT: แชรไอเท็มกับปารตี้ของคุณ สมาชิกปารตี้แตละคนจะไดรับเอฟเฟกตสวนหนึ่งของไอเท็ม
+
+RESOURCE ID: party_play_party_share_tutorial_header
+TEXT: ปารตี้แชร
+
+RESOURCE ID: party_play_share_error_limit_reached
+TEXT: ถึงขีดจำกัดประจำวันแลว
+
+RESOURCE ID: party_share_avatar_gui_title
+TEXT: คุณสามารถแชร{1} {0} ชิ้นได
+
+RESOURCE ID: party_share_avatar_gui_title_plural
+TEXT: แชร{1}ไดถึง {0} ชิ้น
+
+RESOURCE ID: party_share_avatar_warning_modal_no_items
+TEXT: เทรนเนอรคนนี้ไมสามารถใช{0}อีกชิ้นไดในขณะนี้
+
+RESOURCE ID: party_share_avatar_warning_modal_no_items_plural
+TEXT: เทรนเนอรเหลานี้ไมสามารถใช{0}อีกชิ้นไดในขณะนี้
+
+RESOURCE ID: party_share_avatar_warning_modal_some_items
+TEXT: เทรนเนอรคนนี้จะไมไดรับระยะเวลาของไอเท็มที่ถูกแชรครบทั้งชวง
+
+RESOURCE ID: party_share_avatar_warning_modal_some_items_plural
+TEXT: เทรนเนอรเหลานี้จะไมไดรับระยะเวลาของไอเท็มที่ถูกแชรครบทั้งชวง
+
+RESOURCE ID: party_share_item_shared_tooltip
+TEXT: แชร{0}แลว
+
+RESOURCE ID: party_share_ticker_message
+TEXT: {0} แชร{2} {1} ชิ้นแลว
+
+RESOURCE ID: party_share_ticker_message_plural
+TEXT: {0} แชร{2} {1} ชิ้นแลว
 
 RESOURCE ID: photo_set_cute_pokemon_pink
 TEXT: แกงชมพู 2
@@ -1849,6 +1903,9 @@ TEXT: ของกำนัลสุดสัปดาห, พฤษภาค
 
 RESOURCE ID: tr_weekend_booster_desc_05
 TEXT: ของกำนัลสุดสัปดาห, มิถุนายน 2024
+
+RESOURCE ID: ultra_space_wonders_event_name
+TEXT: อัลตราสเปซพิศวง
 
 RESOURCE ID: vps_guardian_oob_toast
 TEXT: Please move back into the boundary.
