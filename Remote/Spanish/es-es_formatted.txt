@@ -16,6 +16,18 @@ TEXT: Para usar el modo RA, necesitamos acceso a tu cámara y galería, de forma
 RESOURCE ID: ar_mode_safety_string
 TEXT: Cuando estés usando el modo RA, asegúrate de estar en un lugar seguro y de que los menores estén bajo supervisión en todo momento.
 
+RESOURCE ID: avatar_f_backpack_naganadelawings_00_bundle_icon
+TEXT: Alas de Naganadel
+
+RESOURCE ID: avatar_f_shirt_wcs2024_00_bundle_icon
+TEXT: Camiseta de Campeones Regionales 2024
+
+RESOURCE ID: avatar_m_backpack_naganadelawings_00_bundle_icon
+TEXT: Alas de Naganadel
+
+RESOURCE ID: avatar_m_shirt_wcs2024_00_bundle_icon
+TEXT: Camiseta de Campeones Regionales 2024
+
 RESOURCE ID: badge_gofest_2024_global
 TEXT: 13 y 14 de julio de 2024
 
@@ -436,11 +448,33 @@ TEXT: 13 y 14 de julio de 2024
 RESOURCE ID: badge_gofest_2024_test_title
 TEXT: Festival de Pokémon GO 2024
 
+RESOURCE ID: badge_num_unique_route_play
+TEXT: Complete {0} unique Routes.
+
+RESOURCE ID: badge_num_unique_route_play_title
+TEXT: Route Scout
+
 RESOURCE ID: badge_total_route_play
 TEXT: Rutas completadas {0} veces.
 
 RESOURCE ID: badge_total_route_play_title
 TEXT: Maestría en Navegación
+
+RESOURCE ID: badge_you_earned_bronze
+TEXT: Congratulations!
+You earned a bronze medal!
+
+RESOURCE ID: badge_you_earned_gold
+TEXT: Congratulations!
+You earned a gold medal!
+
+RESOURCE ID: badge_you_earned_platinum
+TEXT: Congratulations!
+You earned a platinum medal!
+
+RESOURCE ID: badge_you_earned_silver
+TEXT: Congratulations!
+You earned a silver medal!
 
 RESOURCE ID: bonus_cd_move_bounsweet
 TEXT: ¡Haz evolucionar a Steenee para conseguir un Tsareena que conozca el ataque cargado Patada Salto Alta!
@@ -566,23 +600,17 @@ TEXT: Capturas maravillosas
 RESOURCE ID: exit_to_map_button
 TEXT: SALIR AL MAPA
 
-RESOURCE ID: f_backpack_naganadelawings_00_bundle_icon
-TEXT: Alas de Naganadel
-
 RESOURCE ID: f_naganadel jacket
 TEXT: Chaqueta de Naganadel
 
 RESOURCE ID: f_naganadel pants
 TEXT: Pantalones de Naganadel
 
-RESOURCE ID: f_shirt_wcs2024_00_bundle_icon
-TEXT: Camiseta de Campeones Regionales 2024
-
 RESOURCE ID: ferroseed_incense_day
 TEXT: Día del Incienso: Ferroseed
 
 RESOURCE ID: field_effect_ftue_short
-TEXT: This Pokémon knows an attack with an effect that can be activated outside of battle.
+TEXT: Este Pokémon conoce un ataque con un efecto que puede activarse fuera del combate.
 
 RESOURCE ID: filter_key_evolve_with_quest
 TEXT: investigacionevolucion
@@ -1053,23 +1081,17 @@ TEXT: ¿Seguro que quieres salir?
 RESOURCE ID: location_space_limit_message
 TEXT: Ahora mismo no hay suficiente espacio para ese Pokémon.
 
-RESOURCE ID: m_backpack_naganadelawings_00_bundle_icon
-TEXT: Alas de Naganadel
-
 RESOURCE ID: m_naganadel jacket
 TEXT: Chaqueta de Naganadel
 
 RESOURCE ID: m_naganadel pants
 TEXT: Pantalones de Naganadel
 
-RESOURCE ID: m_shirt_wcs2024_00_bundle_icon
-TEXT: Camiseta de Campeones Regionales 2024
-
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-05-16T22:38:56.336842+00:00 for es-ES
-at SHA 243ca54e81
-Pipeline 2340031, job 28262422
-Patch from: 0.315.0-SHA-cc792826-RC2, 0.313.0-SHA-cd7c3cfb-RC4
+TEXT: Built at 2024-05-17T23:26:01.049687+00:00 for es-ES
+at SHA 09c1d316db
+Pipeline 2343082, job 28304442
+Patch from: 0.313.0-SHA-c2913018-RC5, 0.315.0-SHA-cc792826-RC2
 
 RESOURCE ID: monodepth_ar_plus_required_toast
 TEXT: Activa Niantic AR para usar la función Realidad combinada.
@@ -1237,7 +1259,7 @@ RESOURCE ID: pokemon_desc_0800_2718
 TEXT: This is its form while it is devouring the light of Solgaleo. It pounces on foes and then slashes them with the claws on its four limbs and back.
 
 RESOURCE ID: pokemon_desc_0800_2719
-TEXT: This is its form while it's devouring the light of Lunala. It grasps foes in its giant claws and rips them apart with brute force.
+TEXT: This is its form while it’s devouring the light of Lunala. It grasps foes in its giant claws and rips them apart with brute force.
 
 RESOURCE ID: quest_bounsweet_catch_b
 TEXT: Captura {0} Bounsweet
@@ -1551,6 +1573,12 @@ TEXT: Tu Ruta ha sido archivada porque se ha movido o eliminado el punto de part
 RESOURCE ID: route_archived_modal_title
 TEXT: Tu Ruta ha sido archivada.
 
+RESOURCE ID: route_creation_error_conflicting_tags
+TEXT: Only one tag related to this detail can be selected.
+
+RESOURCE ID: route_creation_error_max_tags
+TEXT: You have already selected the maximum number of tags.
+
 RESOURCE ID: route_decayed_info
 TEXT: Esta Ruta no aparece destacada para los Entrenadores cercanos en este momento.
 
@@ -1582,14 +1610,140 @@ TEXT: Elige una pegatina diferente.
 RESOURCE ID: route_pin_interaction_error_unknown
 TEXT: No se ha podido completar la acción solicitada. Inténtalo de nuevo.
 
+RESOURCE ID: route_play_completion_reject_description_secondary_temp
+TEXT: Please resume the Route and return to the end point when you have traveled more distance.
+
+RESOURCE ID: route_play_partial_completion_body_primary
+TEXT: You have reached the end point, but you have not traveled the full Route distance.
+
+RESOURCE ID: route_play_partial_completion_body_secondary
+TEXT: If you complete the Route now, you will receive adjusted rewards based on your travel distance. Resume the Route and return to the end point when you have traveled the complete distance to receive full rewards.
+
 RESOURCE ID: route_status_archived
 TEXT: Archivadas
+
+RESOURCE ID: route_submission_add_name_desc_title
+TEXT: Add Name and Description
+
+RESOURCE ID: route_submission_add_tags_title
+TEXT: Add tags <color=#95AAAB>(Optional)</color>
 
 RESOURCE ID: route_submission_result_reject_reasons_secondary_geolocation
 TEXT: Si crees que se trata de un error, puedes presentar un recurso.
 
+RESOURCE ID: route_submission_selected_tags_label_primary
+TEXT: No tags selected.
+
+RESOURCE ID: route_submission_selected_tags_label_secondary
+TEXT: Select up to {0} tags from those listed above that best describe your Route.
+
+RESOURCE ID: route_submission_selected_tags_title
+TEXT: Selected tags: (Max {0})
+
 RESOURCE ID: route_submission_status_archived
 TEXT: Archivadas: {0}
+
+RESOURCE ID: route_tag_afternoon
+TEXT: Best in the afternoon
+
+RESOURCE ID: route_tag_architecture
+TEXT: Architecture
+
+RESOURCE ID: route_tag_beachy
+TEXT: Beachy
+
+RESOURCE ID: route_tag_bike_path
+TEXT: Bike path
+
+RESOURCE ID: route_tag_biking
+TEXT: Good for biking
+
+RESOURCE ID: route_tag_body_of_water
+TEXT: Waterside
+
+RESOURCE ID: route_tag_buildings
+TEXT: Lots of buildings
+
+RESOURCE ID: route_tag_category_misc
+TEXT: Miscellaneous
+
+RESOURCE ID: route_tag_category_nearby
+TEXT: Nearby
+
+RESOURCE ID: route_tag_category_suitability
+TEXT: Suitability
+
+RESOURCE ID: route_tag_category_terrain
+TEXT: Terrain
+
+RESOURCE ID: route_tag_category_theme
+TEXT: Theme
+
+RESOURCE ID: route_tag_city_life
+TEXT: City life
+
+RESOURCE ID: route_tag_culture
+TEXT: Culture
+
+RESOURCE ID: route_tag_foliage
+TEXT: Lots of foliage
+
+RESOURCE ID: route_tag_food
+TEXT: Food
+
+RESOURCE ID: route_tag_grassy
+TEXT: Grassy
+
+RESOURCE ID: route_tag_morning
+TEXT: Best in the morning
+
+RESOURCE ID: route_tag_muddy
+TEXT: Muddy
+
+RESOURCE ID: route_tag_night
+TEXT: Best at night
+
+RESOURCE ID: route_tag_no_parking
+TEXT: No Parking nearby
+
+RESOURCE ID: route_tag_open_space
+TEXT: Lots of open space
+
+RESOURCE ID: route_tag_parking
+TEXT: Parking nearby
+
+RESOURCE ID: route_tag_partially_paved
+TEXT: Partially paved path
+
+RESOURCE ID: route_tag_paved
+TEXT: Paved path
+
+RESOURCE ID: route_tag_rocky
+TEXT: Rocky
+
+RESOURCE ID: route_tag_running
+TEXT: Good for running
+
+RESOURCE ID: route_tag_sandy
+TEXT: Sandy
+
+RESOURCE ID: route_tag_sightseeing
+TEXT: Sightseeing
+
+RESOURCE ID: route_tag_tree_cover
+TEXT: Tree cover
+
+RESOURCE ID: route_tag_unpaved
+TEXT: Unpaved path
+
+RESOURCE ID: route_tag_walking
+TEXT: Good for walking
+
+RESOURCE ID: route_tag_wildlife
+TEXT: Lots of wildlife
+
+RESOURCE ID: route_tag_woodsy
+TEXT: Woodsy
 
 RESOURCE ID: settings_enable_real_time_dynamics_description_off
 TEXT: Desactivar movimiento reactivo del pelo y la ropa.
@@ -1733,25 +1887,25 @@ RESOURCE ID: sr_gofest2024_newyork_park_6
 TEXT: Festival de Pokémon GO 2024: Excursión por el parque (Nueva York) (6/6)
 
 RESOURCE ID: sr_gofest2024_pjcs
-TEXT: GO Fest 2024: PJCS
+TEXT: Festival de GO 2024: Campeonato Pokémon de Japón
 
 RESOURCE ID: sr_gofest2024_pjcs_1
-TEXT: GO Fest 2024: PJCS (1/6)
+TEXT: Festival de GO 2024: Campeonato Pokémon de Japón (1/6)
 
 RESOURCE ID: sr_gofest2024_pjcs_2
-TEXT: GO Fest 2024: PJCS (2/6)
+TEXT: Festival de GO 2024: Campeonato Pokémon de Japón (2/6)
 
 RESOURCE ID: sr_gofest2024_pjcs_3
-TEXT: GO Fest 2024: PJCS (3/6)
+TEXT: Festival de GO 2024: Campeonato Pokémon de Japón (3/6)
 
 RESOURCE ID: sr_gofest2024_pjcs_4
-TEXT: GO Fest 2024: PJCS (4/6)
+TEXT: Festival de GO 2024: Campeonato Pokémon de Japón (4/6)
 
 RESOURCE ID: sr_gofest2024_pjcs_5
-TEXT: GO Fest 2024: PJCS (5/6)
+TEXT: Festival de GO 2024: Campeonato Pokémon de Japón (5/6)
 
 RESOURCE ID: sr_gofest2024_pjcs_6
-TEXT: GO Fest 2024: PJCS (6/6)
+TEXT: Festival de GO 2024: Campeonato Pokémon de Japón (6/6)
 
 RESOURCE ID: sr_gofest2024_sendai_city
 TEXT: Festival de Pokémon GO 2024: Cielos de ciudad (Sendai)
@@ -1952,6 +2106,10 @@ TEXT: Recompensas del finde (mayo de 2024)
 
 RESOURCE ID: tr_weekend_booster_desc_05
 TEXT: Recompensas del finde (junio de 2024)
+
+RESOURCE ID: tutorial_route_play_body_3_temp
+TEXT: 1. Stay near the Route’s path to ensure your progress is recorded.
+2. You can complete a Route without traveling the full length of the Route, but you may earn reduced rewards by doing so.
 
 RESOURCE ID: ultra_space_wonders_event_name
 TEXT: Maravillas del Ultraespacio

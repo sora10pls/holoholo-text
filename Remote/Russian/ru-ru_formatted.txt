@@ -2,10 +2,13 @@ RESOURCE ID: adventure_sync_needs_background_location_body
 TEXT: Для активирования Синхронизации приключений необходимо включить фоновое местоположение, чтобы зарабатывать конфеты, вынашивать яйца Покемонов и получать награды, даже если ты не играешь в Pokémon GO.
 
 RESOURCE ID: ar_mode_camera_permissions
-TEXT: To use AR mode, we need access to your camera and gallery so you can take photos and save them.
+TEXT: Чтобы использовать режим AR, нам нужно получить доступ к твоей камере и галерее. После этого ты сможешь делать фото и сохранять их.
 
 RESOURCE ID: ar_mode_safety_string
-TEXT: While using AR mode, make sure you’re in a safe location and that children are supervised at all times.
+TEXT: При использовании режима AR убедись, что ты находишься в безопасном месте и все дети находятся под присмотром взрослых.
+
+RESOURCE ID: avatar_f_backpack_naganadelawings_00_bundle_icon
+TEXT: Крылья Наганадел
 
 RESOURCE ID: avatar_f_hat_burmyearrings11_00_bundle_icon
 TEXT: Серёжка Бурми (Растительный покров)
@@ -16,11 +19,17 @@ TEXT: Серёжка Бурми (Песочный покров)
 RESOURCE ID: avatar_f_hat_burmyearrings13_00_bundle_icon
 TEXT: Серёжка Бурми (Мусорный покров)
 
+RESOURCE ID: avatar_f_shirt_wcs2024_00_bundle_icon
+TEXT: Футболка регионального чемпиона 2024
+
 RESOURCE ID: avatar_f_shoes_hala_00_bundle_icon
 TEXT: Шлёпанцы в стиле Халы
 
 RESOURCE ID: avatar_f_shoes_loosepants_0_bundle_icon
 TEXT: Шлёпанцы 2020
+
+RESOURCE ID: avatar_m_backpack_naganadelawings_00_bundle_icon
+TEXT: Крылья Наганадел
 
 RESOURCE ID: avatar_m_hat_burmyearrings11_00_bundle_icon
 TEXT: Серёжка Бурми (Растительный покров)
@@ -30,6 +39,9 @@ TEXT: Серёжка Бурми (Песочный покров)
 
 RESOURCE ID: avatar_m_hat_burmyearrings13_00_bundle_icon
 TEXT: Серёжка Бурми (Мусорный покров)
+
+RESOURCE ID: avatar_m_shirt_wcs2024_00_bundle_icon
+TEXT: Футболка регионального чемпиона 2024
 
 RESOURCE ID: avatar_m_shoes_hala_00_bundle_icon
 TEXT: Шлёпанцы в стиле Халы
@@ -457,6 +469,12 @@ TEXT: 13-14 июля 2024
 RESOURCE ID: badge_gofest_2024_test_title
 TEXT: Фестиваль Pokémon GO 2024
 
+RESOURCE ID: badge_num_unique_route_play
+TEXT: Complete {0} unique Routes.
+
+RESOURCE ID: badge_num_unique_route_play_title
+TEXT: Route Scout
+
 RESOURCE ID: badge_pokemon_purified
 TEXT: Очисти Теневых Покемонов ×{0}.
 
@@ -465,6 +483,22 @@ TEXT: Пройди маршруты ×{0}.
 
 RESOURCE ID: badge_total_route_play_title
 TEXT: Эксперт по навигации
+
+RESOURCE ID: badge_you_earned_bronze
+TEXT: Congratulations!
+You earned a bronze medal!
+
+RESOURCE ID: badge_you_earned_gold
+TEXT: Congratulations!
+You earned a gold medal!
+
+RESOURCE ID: badge_you_earned_platinum
+TEXT: Congratulations!
+You earned a platinum medal!
+
+RESOURCE ID: badge_you_earned_silver
+TEXT: Congratulations!
+You earned a silver medal!
 
 RESOURCE ID: bonus_cd_move_bounsweet
 TEXT: Эволюционируй Стини, чтобы получить Царину, которая знает заряженную атаку Прыжок-Удар!
@@ -582,10 +616,7 @@ RESOURCE ID: event_title_catching_wonders
 TEXT: Чудеса поимки
 
 RESOURCE ID: exit_to_map_button
-TEXT: EXIT TO MAP
-
-RESOURCE ID: f_backpack_naganadelawings_00_bundle_icon
-TEXT: Крылья Наганадел
+TEXT: ВЫЙТИ НА КАРТУ
 
 RESOURCE ID: f_naganadel jacket
 TEXT: Куртка Наганадел
@@ -593,14 +624,11 @@ TEXT: Куртка Наганадел
 RESOURCE ID: f_naganadel pants
 TEXT: Штаны Наганадел
 
-RESOURCE ID: f_shirt_wcs2024_00_bundle_icon
-TEXT: Футболка регионального чемпиона 2024
-
 RESOURCE ID: ferroseed_incense_day
 TEXT: День ладана: Ферросид
 
 RESOURCE ID: field_effect_ftue_short
-TEXT: This Pokémon knows an attack with an effect that can be activated outside of battle.
+TEXT: Этот Покемон знает атаку с эффектом, который можно активировать вне сражений.
 
 RESOURCE ID: filter_key_evolve_with_quest
 TEXT: эволюциявквесте
@@ -921,10 +949,10 @@ RESOURCE ID: ios_loc_conf_dialog_body
 TEXT: Включи фоновое местоположение, чтобы зарабатывать конфеты, вынашивать яйца Покемонов и получать награды, даже если ты не играешь в Pokémon GO.
 
 RESOURCE ID: iris_social_choose_pokemon_toast
-TEXT: Choose Pokémon to place in this area.
+TEXT: Выбери Покемонов, которых хочешь разместить здесь.
 
 RESOURCE ID: iris_social_name
-TEXT: Group Photo
+TEXT: Групповое фото
 
 RESOURCE ID: iris_social_option_details_key
 TEXT: Enter details
@@ -954,20 +982,20 @@ RESOURCE ID: iris_social_option_two_localization_key
 TEXT: I don’t know where to point my camera
 
 RESOURCE ID: iris_social_pokemon_info_recall_button
-TEXT: RECALL
+TEXT: ПОЗВАТЬ
 
 RESOURCE ID: iris_social_recall_confirmation_modal_body
-TEXT: You cannot undo this action.
+TEXT: Это действие нельзя отменить.
 
 RESOURCE ID: iris_social_recall_confirmation_modal_title
-TEXT: Do you want to recall {0}?
+TEXT: Позвать этого Покемона обратно: {0}?
 
 RESOURCE ID: iris_social_recall_fail_toast
-TEXT: Error recalling {0}.
-Please try again.
+TEXT: Ошибка при попытке позвать этого Покемона обратно: {0}.
+Попробуй ещё раз.
 
 RESOURCE ID: iris_social_recall_success_toast
-TEXT: {0} has successfully returned to you.
+TEXT: {0} вернулся к тебе.
 
 RESOURCE ID: iris_social_select_option_key
 TEXT: Please select the option that best describes your issue.
@@ -976,58 +1004,58 @@ RESOURCE ID: iris_social_thank_you_feedback_key
 TEXT: Thank you for your report!
 
 RESOURCE ID: iris_social_tired_pokemon_journal_string
-TEXT: returned from playing at
+TEXT: вернулся после игры на Покестопе
 
 RESOURCE ID: iris_social_tired_pokemon_string
-TEXT: played until getting tired and came back!
+TEXT: наигрался, устал и вернулся!
 
 RESOURCE ID: irisisocial_tutorial_body_eight
-TEXT: You can use stickers to decorate the pictures you take. Add a little creative flair, then share your photos with others—your next masterpiece awaits!
+TEXT: Ты можешь использовать наклейки, чтобы украсить сделанные тобой снимки. Делись своими креативными фото и удивляй других своими шедеврами!
 
 RESOURCE ID: irisisocial_tutorial_body_five
-TEXT: You can call a Pokémon back by tapping the Poké Ball button beneath their icon. Your Pokémon will then be ready to be placed somewhere new!
+TEXT: Ты можешь позвать Покемона обратно, нажав на кнопку Поке-Болла под его значком. После этого твой Покемон будет готов к размещению в новом месте!
 
 RESOURCE ID: irisisocial_tutorial_body_four
-TEXT: Find a flat surface and either tap the footprints or drag one of your Pokémon from the list to place it.
+TEXT: Найди ровную поверхность и либо нажми на следы, либо перетащи одного из своих Покемонов из меню, чтобы поместить его в выбранное место.
 
 RESOURCE ID: irisisocial_tutorial_body_one
-TEXT: You can take up to three Pokémon out of their Poké Balls and snap photos together! You may even encounter other Pokémon while you do!
+TEXT: Ты можешь выпустить до трёх Покемонов из Поке-Боллов, чтобы сфотографироваться с ними. Ты также можешь встретить других Покемонов!
 
 RESOURCE ID: irisisocial_tutorial_body_seven
-TEXT: Use the group photo option to snap the perfect shot of your Pokémon! You can also play with them to see how it affects their mood.
+TEXT: Используй режим группового фото, чтобы сделать отличные снимки твоих Покемонов! Ты также можешь поиграть с Покемонами и посмотреть, как изменится их настроение.
 
 RESOURCE ID: irisisocial_tutorial_body_six
-TEXT: Tap the rotate button to start using the toy. Move it around your Pokémon to get their attention!
+TEXT: Нажми на кнопку поворота, чтобы использовать игрушку. Подвигай игрушкой, чтобы привлечь внимание твоих Покемонов.
 
 RESOURCE ID: irisisocial_tutorial_body_three
-TEXT: Connect to the PokéStop location by scanning the area. Doing so will allow you to view and interact with any Pokémon there.
+TEXT: Подключись к Покестопу, сканируя место вокруг него. Это позволит тебе видеть находящихся там Покемонов и взаимодействовать с ними.
 
 RESOURCE ID: irisisocial_tutorial_body_two
-TEXT: Unless you call them back, your Pokémon will stay in place for 48 hours, after which they’ll get tired and return to you. While they’re away, they may greet other Trainers and Pokémon!
+TEXT: Если ты не позовёшь своих Покемонов обратно, они останутся в этом месте на 48 часов, а потом устанут и вернутся к тебе. Пока они там, они могут общаться с другими Тренерами и Покемонами!
 
 RESOURCE ID: irisisocial_tutorial_header_eight
-TEXT: Decorate and share your photos!
+TEXT: Украшай фото и делись ими!
 
 RESOURCE ID: irisisocial_tutorial_header_five
-TEXT: Reposition your Pokémon
+TEXT: Передвигай Покемонов
 
 RESOURCE ID: irisisocial_tutorial_header_four
-TEXT: Position your Pokémon
+TEXT: Размещай своих Покемонов
 
 RESOURCE ID: irisisocial_tutorial_header_one
-TEXT: Take photos of your Pokémon with others!
+TEXT: Фотографируй своих Покемонов с другими Покемонами!
 
 RESOURCE ID: irisisocial_tutorial_header_seven
-TEXT: Take a Group Photo
+TEXT: Делай групповые фото
 
 RESOURCE ID: irisisocial_tutorial_header_six
-TEXT: Rotate your Pokémon
+TEXT: Поворачивай Покемонов
 
 RESOURCE ID: irisisocial_tutorial_header_three
-TEXT: Scan PokéStop Location to Connect!
+TEXT: Сканируй Покестоп, чтобы подключиться!
 
 RESOURCE ID: irisisocial_tutorial_header_two
-TEXT: Your Pokémon will hang out and play!
+TEXT: Твои Покемоны будут общаться и играть!
 
 RESOURCE ID: item_event_ticket_pink_desc
 TEXT: Билет на специальный квест дня сообщества Баунсвит с 14:00 19 мая по местному времени, вне зависимости от твоего местонахождения.
@@ -1072,16 +1100,13 @@ RESOURCE ID: latam_live_op_title
 TEXT: Новое приключение в Латинской Америке
 
 RESOURCE ID: leave_pokemon_message_body
-TEXT: Your Pokémon will be here when you come back.
+TEXT: Твои Покемоны будут здесь, когда ты вернёшься.
 
 RESOURCE ID: leave_pokemon_message_header
-TEXT: Are you sure you want to leave?
+TEXT: Ты точно хочешь выйти?
 
 RESOURCE ID: location_space_limit_message
-TEXT: There isn’t enough space for that Pokémon right now.
-
-RESOURCE ID: m_backpack_naganadelawings_00_bundle_icon
-TEXT: Крылья Наганадел
+TEXT: Для этого Покемона сейчас не хватает места.
 
 RESOURCE ID: m_naganadel jacket
 TEXT: Куртка Наганадел
@@ -1089,14 +1114,11 @@ TEXT: Куртка Наганадел
 RESOURCE ID: m_naganadel pants
 TEXT: Штаны Наганадел
 
-RESOURCE ID: m_shirt_wcs2024_00_bundle_icon
-TEXT: Футболка регионального чемпиона 2024
-
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-05-16T22:38:56.336842+00:00 for ru-RU
-at SHA 243ca54e81
-Pipeline 2340031, job 28262422
-Patch from: 0.315.0-SHA-cc792826-RC2, 0.313.0-SHA-cd7c3cfb-RC4
+TEXT: Built at 2024-05-17T23:26:01.049687+00:00 for ru-RU
+at SHA 09c1d316db
+Pipeline 2343082, job 28304442
+Patch from: 0.313.0-SHA-c2913018-RC5, 0.315.0-SHA-cc792826-RC2
 
 RESOURCE ID: move_name_0408
 TEXT: Прыжок-Удар
@@ -1135,13 +1157,13 @@ RESOURCE ID: n_wcstee_regional
 TEXT: Футболка регионального чемпиона 2024
 
 RESOURCE ID: need_more_scans
-TEXT: This PokéStop needs to be scanned more to support group photos.
+TEXT: Чтобы этот Покестоп стал поддерживать групповые фото, его нужно больше сканировать.
 
 RESOURCE ID: no_pokemon_found_body
-TEXT: It looks like there aren’t any Pokémon here yet! Would you like to add your own?
+TEXT: Похоже, здесь пока нет Покемонов! Ты хочешь добавить своих Покемонов?
 
 RESOURCE ID: no_pokemon_found_header
-TEXT: No Pokémon Found!
+TEXT: Покемоны не найдены!
 
 RESOURCE ID: party_play_party_share_card_title
 TEXT: Поделись предметами со своей командой!
@@ -1216,7 +1238,7 @@ RESOURCE ID: pokemon_desc_0800_2718
 TEXT: This is its form while it is devouring the light of Solgaleo. It pounces on foes and then slashes them with the claws on its four limbs and back.
 
 RESOURCE ID: pokemon_desc_0800_2719
-TEXT: This is its form while it's devouring the light of Lunala. It grasps foes in its giant claws and rips them apart with brute force.
+TEXT: This is its form while it’s devouring the light of Lunala. It grasps foes in its giant claws and rips them apart with brute force.
 
 RESOURCE ID: quest_bounsweet_catch_b
 TEXT: Поймай Баунсвит ×{0}
@@ -1468,7 +1490,7 @@ RESOURCE ID: quest_title_global_diancie_5
 TEXT: Блеск и сияние (6/6)
 
 RESOURCE ID: recall_pokemon_button
-TEXT: Recall all Pokémon
+TEXT: Позвать всех Покемонов
 
 RESOURCE ID: research_masterball_catching_wonders
 TEXT: Непревзойдённый квест: Чудеса поимки даёт шанс получить Мастер-Болл
@@ -1490,6 +1512,12 @@ TEXT: Твой маршрут был архивирован из-за того, 
 
 RESOURCE ID: route_archived_modal_title
 TEXT: Твой маршрут был архивирован.
+
+RESOURCE ID: route_creation_error_conflicting_tags
+TEXT: Only one tag related to this detail can be selected.
+
+RESOURCE ID: route_creation_error_max_tags
+TEXT: You have already selected the maximum number of tags.
 
 RESOURCE ID: route_decayed_info
 TEXT: Этот маршрут не отображается для Тренеров поблизости.
@@ -1521,14 +1549,140 @@ TEXT: Выбери другую наклейку.
 RESOURCE ID: route_pin_interaction_error_unknown
 TEXT: Не удалось выполнить запрос. Попробуй ещё раз.
 
+RESOURCE ID: route_play_completion_reject_description_secondary_temp
+TEXT: Please resume the Route and return to the end point when you have traveled more distance.
+
+RESOURCE ID: route_play_partial_completion_body_primary
+TEXT: You have reached the end point, but you have not traveled the full Route distance.
+
+RESOURCE ID: route_play_partial_completion_body_secondary
+TEXT: If you complete the Route now, you will receive adjusted rewards based on your travel distance. Resume the Route and return to the end point when you have traveled the complete distance to receive full rewards.
+
 RESOURCE ID: route_status_archived
 TEXT: Архивирован
+
+RESOURCE ID: route_submission_add_name_desc_title
+TEXT: Add Name and Description
+
+RESOURCE ID: route_submission_add_tags_title
+TEXT: Add tags <color=#95AAAB>(Optional)</color>
 
 RESOURCE ID: route_submission_result_reject_reasons_secondary_geolocation
 TEXT: Если ты считаешь, что произошла ошибка, ты можешь подать апелляцию.
 
+RESOURCE ID: route_submission_selected_tags_label_primary
+TEXT: No tags selected.
+
+RESOURCE ID: route_submission_selected_tags_label_secondary
+TEXT: Select up to {0} tags from those listed above that best describe your Route.
+
+RESOURCE ID: route_submission_selected_tags_title
+TEXT: Selected tags: (Max {0})
+
 RESOURCE ID: route_submission_status_archived
 TEXT: Архивирован {0}
+
+RESOURCE ID: route_tag_afternoon
+TEXT: Best in the afternoon
+
+RESOURCE ID: route_tag_architecture
+TEXT: Architecture
+
+RESOURCE ID: route_tag_beachy
+TEXT: Beachy
+
+RESOURCE ID: route_tag_bike_path
+TEXT: Bike path
+
+RESOURCE ID: route_tag_biking
+TEXT: Good for biking
+
+RESOURCE ID: route_tag_body_of_water
+TEXT: Waterside
+
+RESOURCE ID: route_tag_buildings
+TEXT: Lots of buildings
+
+RESOURCE ID: route_tag_category_misc
+TEXT: Miscellaneous
+
+RESOURCE ID: route_tag_category_nearby
+TEXT: Nearby
+
+RESOURCE ID: route_tag_category_suitability
+TEXT: Suitability
+
+RESOURCE ID: route_tag_category_terrain
+TEXT: Terrain
+
+RESOURCE ID: route_tag_category_theme
+TEXT: Theme
+
+RESOURCE ID: route_tag_city_life
+TEXT: City life
+
+RESOURCE ID: route_tag_culture
+TEXT: Culture
+
+RESOURCE ID: route_tag_foliage
+TEXT: Lots of foliage
+
+RESOURCE ID: route_tag_food
+TEXT: Food
+
+RESOURCE ID: route_tag_grassy
+TEXT: Grassy
+
+RESOURCE ID: route_tag_morning
+TEXT: Best in the morning
+
+RESOURCE ID: route_tag_muddy
+TEXT: Muddy
+
+RESOURCE ID: route_tag_night
+TEXT: Best at night
+
+RESOURCE ID: route_tag_no_parking
+TEXT: No Parking nearby
+
+RESOURCE ID: route_tag_open_space
+TEXT: Lots of open space
+
+RESOURCE ID: route_tag_parking
+TEXT: Parking nearby
+
+RESOURCE ID: route_tag_partially_paved
+TEXT: Partially paved path
+
+RESOURCE ID: route_tag_paved
+TEXT: Paved path
+
+RESOURCE ID: route_tag_rocky
+TEXT: Rocky
+
+RESOURCE ID: route_tag_running
+TEXT: Good for running
+
+RESOURCE ID: route_tag_sandy
+TEXT: Sandy
+
+RESOURCE ID: route_tag_sightseeing
+TEXT: Sightseeing
+
+RESOURCE ID: route_tag_tree_cover
+TEXT: Tree cover
+
+RESOURCE ID: route_tag_unpaved
+TEXT: Unpaved path
+
+RESOURCE ID: route_tag_walking
+TEXT: Good for walking
+
+RESOURCE ID: route_tag_wildlife
+TEXT: Lots of wildlife
+
+RESOURCE ID: route_tag_woodsy
+TEXT: Woodsy
 
 RESOURCE ID: settings_enable_real_time_dynamics_description_off
 TEXT: Отключить эффект движения волос и одежды.
@@ -1672,25 +1826,25 @@ RESOURCE ID: sr_gofest2024_newyork_park_6
 TEXT: Фестиваль GO 2024: Нью-Йорк – Развлечения в парке (6/6)
 
 RESOURCE ID: sr_gofest2024_pjcs
-TEXT: GO Fest 2024: PJCS
+TEXT: Фестиваль GO 2024: Чемпионат Покемон в Японии
 
 RESOURCE ID: sr_gofest2024_pjcs_1
-TEXT: GO Fest 2024: PJCS (1/6)
+TEXT: Фестиваль GO 2024: Чемпионат Покемон в Японии (1/6)
 
 RESOURCE ID: sr_gofest2024_pjcs_2
-TEXT: GO Fest 2024: PJCS (2/6)
+TEXT: Фестиваль GO 2024: Чемпионат Покемон в Японии (2/6)
 
 RESOURCE ID: sr_gofest2024_pjcs_3
-TEXT: GO Fest 2024: PJCS (3/6)
+TEXT: Фестиваль GO 2024: Чемпионат Покемон в Японии (3/6)
 
 RESOURCE ID: sr_gofest2024_pjcs_4
-TEXT: GO Fest 2024: PJCS (4/6)
+TEXT: Фестиваль GO 2024: Чемпионат Покемон в Японии (4/6)
 
 RESOURCE ID: sr_gofest2024_pjcs_5
-TEXT: GO Fest 2024: PJCS (5/6)
+TEXT: Фестиваль GO 2024: Чемпионат Покемон в Японии (5/6)
 
 RESOURCE ID: sr_gofest2024_pjcs_6
-TEXT: GO Fest 2024: PJCS (6/6)
+TEXT: Фестиваль GO 2024: Чемпионат Покемон в Японии (6/6)
 
 RESOURCE ID: sr_gofest2024_sendai_city
 TEXT: Фестиваль GO 2024: Сендай – Небо города
@@ -1867,10 +2021,10 @@ RESOURCE ID: today_view_flock_together_rd_may24
 TEXT: Билет, дающий доступ к квесту на время День исследований Пернатый отряд, доступен в магазине
 
 RESOURCE ID: too_far_away_iris_social
-TEXT: You are too far away from this PokéStop to take a group photo.
+TEXT: Ты слишком далеко от этого Покестопа, чтобы делать групповые фото.
 
 RESOURCE ID: too_far_away_scan
-TEXT: You are too far away from this PokéStop to place any Pokémon or interact.
+TEXT: Ты слишком далеко от этого Покестопа, чтобы размещать Покемонов или взаимодействовать с ними.
 
 RESOURCE ID: tr_weekend_booster_desc_04
 TEXT: Награды выходных, май 2024
@@ -1878,66 +2032,70 @@ TEXT: Награды выходных, май 2024
 RESOURCE ID: tr_weekend_booster_desc_05
 TEXT: Награды выходных, июнь 2024
 
+RESOURCE ID: tutorial_route_play_body_3_temp
+TEXT: 1. Stay near the Route’s path to ensure your progress is recorded.
+2. You can complete a Route without traveling the full length of the Route, but you may earn reduced rewards by doing so.
+
 RESOURCE ID: ultra_space_wonders_event_name
 TEXT: Чудеса Ультраизмерения
 
 RESOURCE ID: vps_guardian_oob_toast
-TEXT: Please move back into the boundary.
+TEXT: Вернись в рамку.
 
 RESOURCE ID: vps_localization_error_generic_body
-TEXT: Be sure to point your camera at the location matching the hint image as you walk slowly around it to capture multiple angles.
+TEXT: Наведи камеру на место, которое изображено на фото с подсказкой, и медленно обойди вокруг него, чтобы снять его с разных ракурсов.
 
 RESOURCE ID: vps_localization_error_generic_header
-TEXT: Something went wrong.
+TEXT: Что-то пошло не так.
 
 RESOURCE ID: vps_localization_exit_confirmation_body
-TEXT: You won’t be able to connect to the area if you do.
+TEXT: Если сканирование прекратится, ты не сможешь подключиться к этому Покестопу.
 
 RESOURCE ID: vps_localization_exit_confirmation_header
-TEXT: Stop scanning the area?
+TEXT: Прекратить сканирование места?
 
 RESOURCE ID: vps_localization_guidance_avoidglare
-TEXT: The lighting is too bright at this angle! Find another direction to reduce glare.
+TEXT: Слишком яркий свет! Найди другой ракурс, чтобы уменьшить блики.
 
 RESOURCE ID: vps_localization_guidance_betterlighting
-TEXT: The lighting is too dark at this angle! Find a better-lit direction.
+TEXT: Слишком мало света! Найди ракурс с лучшим освещением.
 
 RESOURCE ID: vps_localization_guidance_betternetwork
-TEXT: Things are taking longer than expected. Check your network settings or try again at a different location.
+TEXT: Это действие занимает больше времени, чем ожидалось. Проверь настройки сети или попробуй ещё раз в другом месте.
 
 RESOURCE ID: vps_localization_guidance_blurry
-TEXT: Clean your camera lens.
+TEXT: Протри камеру.
 
 RESOURCE ID: vps_localization_guidance_lookup
-TEXT: Aim for the area shown in the hint image.
+TEXT: Направляй камеру на место, которое изображено на фото с подсказкой.
 
 RESOURCE ID: vps_localization_guidance_obstructed
-TEXT: Make sure your camera isn’t blocked.
+TEXT: Убедись, что камера ничем не закрыта.
 
 RESOURCE ID: vps_localization_guidance_slowdown
-TEXT: Slow down.
+TEXT: Двигайся медленнее.
 
 RESOURCE ID: vps_localization_instruction_body
-TEXT: Look for this area around the PokéStop.
+TEXT: Найди это место около Покестопа.
 
 RESOURCE ID: vps_localization_instruction_header
-TEXT: Find the PokéStop Area
+TEXT: Найди место около Покестопа
 
 RESOURCE ID: vps_localization_retry_button
-TEXT: Try again
+TEXT: Попробовать ещё раз
 
 RESOURCE ID: vps_localization_start_button
-TEXT: I’m ready!
+TEXT: Всё готово!
 
 RESOURCE ID: vps_localization_stop_client_error_body
-TEXT: Sorry, something is wrong. Would you like to report this issue?
+TEXT: Что-то пошло не так. Ты хочешь сообщить об этой проблеме?
 
 RESOURCE ID: vps_localization_stop_network_error_body
-TEXT: Check your network settings or find a location where you have a better connection.
+TEXT: Проверь настройки сети или найди место с лучшей связью.
 
 RESOURCE ID: vps_localization_stop_server_error_body
-TEXT: Sorry, something went wrong. Please try again later.
+TEXT: Что-то пошло не так. Повтори попытку позже.
 
 RESOURCE ID: vps_localization_toast
-TEXT: Walk slowly around the location.
+TEXT: Медленно обойди вокруг.
 

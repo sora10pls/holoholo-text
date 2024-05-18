@@ -7,6 +7,18 @@ TEXT: While using AR mode, make sure you’re in a safe location and that childr
 RESOURCE ID: arlo_defeat#4
 TEXT: इस तरह से आखर बार मुझे कडेला ने मेर बेइज़्ज़ती क थी। तुम सभी को इसक कमत चुकानी होगी...
 
+RESOURCE ID: avatar_f_backpack_naganadelawings_00_bundle_icon
+TEXT: सुईलॉग पंख
+
+RESOURCE ID: avatar_f_shirt_wcs2024_00_bundle_icon
+TEXT: ेीय चैिपयन 2024 टशट
+
+RESOURCE ID: avatar_m_backpack_naganadelawings_00_bundle_icon
+TEXT: सुईलॉग पंख
+
+RESOURCE ID: avatar_m_shirt_wcs2024_00_bundle_icon
+TEXT: ेीय चैिपयन 2024 टशट
+
 RESOURCE ID: badge_gofest_2024_global
 TEXT: जुलाई 13–14, 2024
 
@@ -427,11 +439,33 @@ TEXT: जुलाई 13–14, 2024
 RESOURCE ID: badge_gofest_2024_test_title
 TEXT: Pokémon GO फ़ेटवल 2024
 
+RESOURCE ID: badge_num_unique_route_play
+TEXT: Complete {0} unique Routes.
+
+RESOURCE ID: badge_num_unique_route_play_title
+TEXT: Route Scout
+
 RESOURCE ID: badge_total_route_play
 TEXT: ट को {0} बार पूरा कया!
 
 RESOURCE ID: badge_total_route_play_title
 TEXT: नेवगेशन एसपट
+
+RESOURCE ID: badge_you_earned_bronze
+TEXT: Congratulations!
+You earned a bronze medal!
+
+RESOURCE ID: badge_you_earned_gold
+TEXT: Congratulations!
+You earned a gold medal!
+
+RESOURCE ID: badge_you_earned_platinum
+TEXT: Congratulations!
+You earned a platinum medal!
+
+RESOURCE ID: badge_you_earned_silver
+TEXT: Congratulations!
+You earned a silver medal!
 
 RESOURCE ID: bonus_cd_move_bounsweet
 TEXT: डांसीरनी को वकसत कर एक ऐसे शीरवीनी को पाएँ जसे चाज्ड अटैक हाई जप कक आती हो!
@@ -554,17 +588,11 @@ TEXT: अजूबों का पीछा
 RESOURCE ID: exit_to_map_button
 TEXT: EXIT TO MAP
 
-RESOURCE ID: f_backpack_naganadelawings_00_bundle_icon
-TEXT: सुईलॉग पंख
-
 RESOURCE ID: f_naganadel jacket
 TEXT: सुईलॉग जैकट
 
 RESOURCE ID: f_naganadel pants
 TEXT: सुईलॉग पैंट
-
-RESOURCE ID: f_shirt_wcs2024_00_bundle_icon
-TEXT: ेीय चैिपयन 2024 टशट
 
 RESOURCE ID: ferroseed_incense_day
 TEXT: इंसेंस डे - लौसीडो
@@ -1080,23 +1108,17 @@ TEXT: Are you sure you want to leave?
 RESOURCE ID: location_space_limit_message
 TEXT: There isn’t enough space for that Pokémon right now.
 
-RESOURCE ID: m_backpack_naganadelawings_00_bundle_icon
-TEXT: सुईलॉग पंख
-
 RESOURCE ID: m_naganadel jacket
 TEXT: सुईलॉग जैकट
 
 RESOURCE ID: m_naganadel pants
 TEXT: सुईलॉग पैंट
 
-RESOURCE ID: m_shirt_wcs2024_00_bundle_icon
-TEXT: ेीय चैिपयन 2024 टशट
-
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-05-16T22:38:56.336842+00:00 for hi-IN
-at SHA 243ca54e81
-Pipeline 2340031, job 28262422
-Patch from: 0.315.0-SHA-cc792826-RC2, 0.313.0-SHA-cd7c3cfb-RC4
+TEXT: Built at 2024-05-17T23:26:01.049687+00:00 for hi-IN
+at SHA 09c1d316db
+Pipeline 2343082, job 28304442
+Patch from: 0.313.0-SHA-c2913018-RC5, 0.315.0-SHA-cc792826-RC2
 
 RESOURCE ID: move_name_0404
 TEXT: सनटल टाइक
@@ -1252,7 +1274,7 @@ RESOURCE ID: pokemon_desc_0800_2718
 TEXT: This is its form while it is devouring the light of Solgaleo. It pounces on foes and then slashes them with the claws on its four limbs and back.
 
 RESOURCE ID: pokemon_desc_0800_2719
-TEXT: This is its form while it's devouring the light of Lunala. It grasps foes in its giant claws and rips them apart with brute force.
+TEXT: This is its form while it’s devouring the light of Lunala. It grasps foes in its giant claws and rips them apart with brute force.
 
 RESOURCE ID: pokemon_desc_tmpevo_0015_0001
 TEXT: इसक पैर ज़हर क डंक बन गए हैं। ये अपने पैर पर लगे डंक से शकार को बार-बार मारते हैं और डंक क ज़रए आखर वार उसक पीठ पर करते हैं।
@@ -1651,6 +1673,12 @@ TEXT: आपका ट आकाइव कया गया।
 RESOURCE ID: route_archived_notice
 TEXT: यह ट वतमान में आस-पास क टनस क लए हाइलाइट नहीं कया गया है।
 
+RESOURCE ID: route_creation_error_conflicting_tags
+TEXT: Only one tag related to this detail can be selected.
+
+RESOURCE ID: route_creation_error_max_tags
+TEXT: You have already selected the maximum number of tags.
+
 RESOURCE ID: route_decayed_info
 TEXT: यह ट वतमान में आस-पास क टनस क लए हाइलाइट नहीं कया गया है।
 
@@ -1687,14 +1715,140 @@ TEXT: कसी अय टकर को चुनें।
 RESOURCE ID: route_pin_interaction_error_unknown
 TEXT: अनुरोध पूरा नहीं कया जा सका। कृपया दुबारा कोशश करं।
 
+RESOURCE ID: route_play_completion_reject_description_secondary_temp
+TEXT: Please resume the Route and return to the end point when you have traveled more distance.
+
+RESOURCE ID: route_play_partial_completion_body_primary
+TEXT: You have reached the end point, but you have not traveled the full Route distance.
+
+RESOURCE ID: route_play_partial_completion_body_secondary
+TEXT: If you complete the Route now, you will receive adjusted rewards based on your travel distance. Resume the Route and return to the end point when you have traveled the complete distance to receive full rewards.
+
 RESOURCE ID: route_status_archived
 TEXT: Archived
+
+RESOURCE ID: route_submission_add_name_desc_title
+TEXT: Add Name and Description
+
+RESOURCE ID: route_submission_add_tags_title
+TEXT: Add tags <color=#95AAAB>(Optional)</color>
 
 RESOURCE ID: route_submission_result_reject_reasons_secondary_geolocation
 TEXT: अगर आपको लगता है क ऐसा गलती से आ था,तो कृपया एक अपील सबमट करं।
 
+RESOURCE ID: route_submission_selected_tags_label_primary
+TEXT: No tags selected.
+
+RESOURCE ID: route_submission_selected_tags_label_secondary
+TEXT: Select up to {0} tags from those listed above that best describe your Route.
+
+RESOURCE ID: route_submission_selected_tags_title
+TEXT: Selected tags: (Max {0})
+
 RESOURCE ID: route_submission_status_archived
 TEXT: {0} को आकाइव कया गया
+
+RESOURCE ID: route_tag_afternoon
+TEXT: Best in the afternoon
+
+RESOURCE ID: route_tag_architecture
+TEXT: Architecture
+
+RESOURCE ID: route_tag_beachy
+TEXT: Beachy
+
+RESOURCE ID: route_tag_bike_path
+TEXT: Bike path
+
+RESOURCE ID: route_tag_biking
+TEXT: Good for biking
+
+RESOURCE ID: route_tag_body_of_water
+TEXT: Waterside
+
+RESOURCE ID: route_tag_buildings
+TEXT: Lots of buildings
+
+RESOURCE ID: route_tag_category_misc
+TEXT: Miscellaneous
+
+RESOURCE ID: route_tag_category_nearby
+TEXT: Nearby
+
+RESOURCE ID: route_tag_category_suitability
+TEXT: Suitability
+
+RESOURCE ID: route_tag_category_terrain
+TEXT: Terrain
+
+RESOURCE ID: route_tag_category_theme
+TEXT: Theme
+
+RESOURCE ID: route_tag_city_life
+TEXT: City life
+
+RESOURCE ID: route_tag_culture
+TEXT: Culture
+
+RESOURCE ID: route_tag_foliage
+TEXT: Lots of foliage
+
+RESOURCE ID: route_tag_food
+TEXT: Food
+
+RESOURCE ID: route_tag_grassy
+TEXT: Grassy
+
+RESOURCE ID: route_tag_morning
+TEXT: Best in the morning
+
+RESOURCE ID: route_tag_muddy
+TEXT: Muddy
+
+RESOURCE ID: route_tag_night
+TEXT: Best at night
+
+RESOURCE ID: route_tag_no_parking
+TEXT: No Parking nearby
+
+RESOURCE ID: route_tag_open_space
+TEXT: Lots of open space
+
+RESOURCE ID: route_tag_parking
+TEXT: Parking nearby
+
+RESOURCE ID: route_tag_partially_paved
+TEXT: Partially paved path
+
+RESOURCE ID: route_tag_paved
+TEXT: Paved path
+
+RESOURCE ID: route_tag_rocky
+TEXT: Rocky
+
+RESOURCE ID: route_tag_running
+TEXT: Good for running
+
+RESOURCE ID: route_tag_sandy
+TEXT: Sandy
+
+RESOURCE ID: route_tag_sightseeing
+TEXT: Sightseeing
+
+RESOURCE ID: route_tag_tree_cover
+TEXT: Tree cover
+
+RESOURCE ID: route_tag_unpaved
+TEXT: Unpaved path
+
+RESOURCE ID: route_tag_walking
+TEXT: Good for walking
+
+RESOURCE ID: route_tag_wildlife
+TEXT: Lots of wildlife
+
+RESOURCE ID: route_tag_woodsy
+TEXT: Woodsy
 
 RESOURCE ID: settings_enable_real_time_dynamics_description_off
 TEXT: बालों और कपड़ों क लए रएटव मूवमेंट को डसेबल करं।
@@ -2056,6 +2210,10 @@ TEXT: वीकंड रवॉड, मई 2024
 
 RESOURCE ID: tr_weekend_booster_desc_05
 TEXT: वीकंड रवॉड, जून 2024
+
+RESOURCE ID: tutorial_route_play_body_3_temp
+TEXT: 1. Stay near the Route’s path to ensure your progress is recorded.
+2. You can complete a Route without traveling the full length of the Route, but you may earn reduced rewards by doing so.
 
 RESOURCE ID: ultra_space_wonders_event_name
 TEXT: अटा पेस वंडर
