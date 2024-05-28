@@ -25,6 +25,9 @@ TEXT: Untuk menggunakan mode AR, akses kamera dan galeri diperlukan untuk dapat 
 RESOURCE ID: ar_mode_safety_string
 TEXT: Pastikan untuk menggunakan mode AR di lokasi yang aman dan selalu awasi anak-anak.
 
+RESOURCE ID: ar_tap_to_place
+TEXT: Ketuk untuk menempatkan Pokémon.
+
 RESOURCE ID: avatar_f_backpack_naganadelawings_00_bundle_icon
 TEXT: Sayap Naganadel
 
@@ -549,13 +552,13 @@ RESOURCE ID: bonus_tr_gbl_laic_2025_a_title_01
 TEXT: 2024 Pokémon NAIC Champion (2/2)
 
 RESOURCE ID: bonus_tr_gbl_naic_2024_a_desc
-TEXT: 2024 Pokémon EUIC’s Champion: Bonus Timed Research
+TEXT: Champion Pokémon EUIC 2024: Bonus Penelitian Berwaktu
 
 RESOURCE ID: bonus_tr_gbl_naic_2024_a_title_00
-TEXT: 2024 Pokémon EUIC’s Champion (1/2)
+TEXT: Champion Pokémon EUIC 2024 (1/2)
 
 RESOURCE ID: bonus_tr_gbl_naic_2024_a_title_01
-TEXT: 2024 Pokémon EUIC’s Champion (2/2)
+TEXT: Champion Pokémon EUIC 2024 (2/2)
 
 RESOURCE ID: bonus_tr_gbl_naic_2025_a_desc
 TEXT: 2025 Pokémon EUIC Champion - Bonus Timed Research
@@ -1271,20 +1274,19 @@ RESOURCE ID: iris_social_option_two_localization_key
 TEXT: I don’t know where to point my camera
 
 RESOURCE ID: iris_social_pokemon_info_recall_button
-TEXT: RECALL
+TEXT: BALIKKAN
 
 RESOURCE ID: iris_social_recall_confirmation_modal_body
-TEXT: You cannot undo this action.
+TEXT: Tindakan ini tidak dapat dibatalkan.
 
 RESOURCE ID: iris_social_recall_confirmation_modal_title
-TEXT: Do you want to recall {0}?
+TEXT: Balikkan {0}?
 
 RESOURCE ID: iris_social_recall_fail_toast
-TEXT: Error recalling {0}.
-Please try again.
+TEXT: Kesalahan saat membalikkan {0}. Harap coba lagi.
 
 RESOURCE ID: iris_social_recall_success_toast
-TEXT: {0} has successfully returned to you.
+TEXT: {0} telah berhasil kembali.
 
 RESOURCE ID: iris_social_select_option_key
 TEXT: Please select the option that best describes your issue.
@@ -1305,7 +1307,7 @@ RESOURCE ID: irisisocial_tutorial_body_five
 TEXT: Untuk memanggil kembali Pokémon, ketuk tombol Bola Pokémon di bawah ikon mereka. Pokémonmu kemudian akan siap untuk diposisikan di tempat baru!
 
 RESOURCE ID: irisisocial_tutorial_body_four
-TEXT: Cari permukaan datar dan ketuk jejak kaki atau tarik Pokémon dari menu pilihan untuk memposisikannya.
+TEXT: Cari permukaan datar dan ketuk jejak kaki atau tarik Pokémon dari lis untuk memposisikannya.
 
 RESOURCE ID: irisisocial_tutorial_body_one
 TEXT: Kamu dapat mengeluarkan hingga 3 Pokémon dari Bola Pokémon dan berfoto bersama. Kamu mungkin akan bertemu Pokémon lain juga saat melakukannya!
@@ -1320,7 +1322,7 @@ RESOURCE ID: irisisocial_tutorial_body_three
 TEXT: Sambungkan ke lokasi PokéStop dengan memindai area. Dengan melakukannya, kamu akan bisa melihat dan berinteraksi dengan berbagai Pokémon yang ada di sana.
 
 RESOURCE ID: irisisocial_tutorial_body_two
-TEXT: Selama tidak memanggilnya kembali, Pokémonmu akan berada di posisi tersebut selama 48 jam setelah mereka lelah dan kembali sendiri. Mereka mungkin akan menyapa Pelatih dan Pokémon lain!
+TEXT: Selama tidak memanggilnya kembali, Pokémonmu akan berada di posisi tersebut selama 24 jam, setelah itu mereka lelah dan kembali sendiri. Mereka mungkin akan menyapa Pelatih dan Pokémon lain!
 
 RESOURCE ID: irisisocial_tutorial_header_eight
 TEXT: Hias dan bagikan fotomu!
@@ -1335,7 +1337,7 @@ RESOURCE ID: irisisocial_tutorial_header_one
 TEXT: Ambil foto Pokémonmu bersama semuanya!
 
 RESOURCE ID: irisisocial_tutorial_header_seven
-TEXT: Mengambil Foto Grup
+TEXT: Ambil Foto Grup
 
 RESOURCE ID: irisisocial_tutorial_header_six
 TEXT: Putar Pokémon
@@ -1419,10 +1421,10 @@ RESOURCE ID: meetups_ended_desc
 TEXT: Meetup has ended.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-05-26T15:58:30.200454+00:00 for id-ID
-at SHA 2babe6b57e7
-Pipeline 2358349, job 28491426
-Patch from: 0.315.0-SHA-cc792826-RC2, 0.313.1-SHA-95f9866c-RC1, 0.317.0-SHA-75d3f099-RC1
+TEXT: Built at 2024-05-28T16:46:15.386395+00:00 for id-ID
+at SHA 8b1f951d88
+Pipeline 2359720, job 28512012
+Patch from: 0.315.1-SHA-f741b97f-RC1, 0.313.1-SHA-95f9866c-RC1, 0.317.0-SHA-75d3f099-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found at night and allows nighttime Evolution during the day.
@@ -1488,7 +1490,7 @@ RESOURCE ID: n_wcstee_regional
 TEXT: Kaus Juara Regional 2024
 
 RESOURCE ID: need_more_scans
-TEXT: PokéStop ini perlu dipindai lebih banyak untuk melakukan Foto Grup.
+TEXT: PokéStop ini perlu dipindai lebih lanjut untuk melakukan Foto Grup.
 
 RESOURCE ID: no_meetups_desc
 TEXT: No events nearby for {0}
@@ -1812,7 +1814,7 @@ RESOURCE ID: raid_xp_2x_ultrabeast
 TEXT: XP Raid Ultra Beast  ×2
 
 RESOURCE ID: recall_pokemon_button
-TEXT: Panggil semua Pokémon
+TEXT: Balikkan semua Pokémon
 
 RESOURCE ID: research_masterball_catching_wonders
 TEXT: Bola Master tersedia melalui Penelitian Mahakarya: Menangkap Keajaiban
@@ -2443,7 +2445,7 @@ RESOURCE ID: use_moongeist_beam_effect
 TEXT: Nighttime Pokémon attracted to your area.
 
 RESOURCE ID: vps_guardian_oob_toast
-TEXT: Harap kembali ke perbatasan.
+TEXT: Kamu berada di luar area bermain
 
 RESOURCE ID: vps_localization_error_generic_body
 TEXT: Pastikan kamera mengarah ke lokasi yang cocok dengan gambar petunjuk sambil berjalan secara perlahan di sekitarnya untuk menangkapnya dari berbagai sudut.
@@ -2452,16 +2454,16 @@ RESOURCE ID: vps_localization_error_generic_header
 TEXT: Terjadi kesalahan.
 
 RESOURCE ID: vps_localization_exit_confirmation_body
-TEXT: Tidak dapat menghubunkan ke area jika dilakukan.
+TEXT: Tidak dapat menghubungkan ke area jika dilakukan.
 
 RESOURCE ID: vps_localization_exit_confirmation_header
 TEXT: Hentikan pemindaian area?
 
 RESOURCE ID: vps_localization_guidance_avoidglare
-TEXT: Pencahayaan terlalu terang! Harap coba sudut lain yang pencahayaannya agak gelap.
+TEXT: Pencahayaan terlalu terang dari sudut ini! Harap coba arah lain untuk mengurangi kesilauan.
 
 RESOURCE ID: vps_localization_guidance_betterlighting
-TEXT: Pencahayaan terlalu gelap! Harap coba sudut lain yang pencahayaannya lebih terang.
+TEXT: Pencahayaan terlalu gelap dari sudut ini! Harap coba arah lain yang lebih terang.
 
 RESOURCE ID: vps_localization_guidance_betternetwork
 TEXT: Memakan waktu yang terlalu lama. Harap periksa pengaturan koneksi atau coba lagi di lokasi berbeda.
@@ -2476,13 +2478,13 @@ RESOURCE ID: vps_localization_guidance_obstructed
 TEXT: Pastikan kamera tidak ditutupi.
 
 RESOURCE ID: vps_localization_guidance_slowdown
-TEXT: Berjalanlah perlahan.
+TEXT: Jalan perlahan.
 
 RESOURCE ID: vps_localization_instruction_body
 TEXT: Temukan area ini di sekitar PokéStop.
 
 RESOURCE ID: vps_localization_instruction_header
-TEXT: Menemukan Area PokéStop
+TEXT: Temukan Area PokéStop
 
 RESOURCE ID: vps_localization_retry_button
 TEXT: Coba lagi
