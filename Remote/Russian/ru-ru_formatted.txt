@@ -1,6 +1,9 @@
 RESOURCE ID: adventure_effect_incense_table_header
 TEXT: Attracted Pokémon
 
+RESOURCE ID: adventure_effect_other_incense_active
+TEXT: {0} can’t be used while {1} is active.
+
 RESOURCE ID: adventure_sync_needs_background_location_body
 TEXT: Для активирования Синхронизации приключений необходимо включить фоновое местоположение, чтобы зарабатывать конфеты, вынашивать яйца Покемонов и получать награды, даже если ты не играешь в Pokémon GO.
 
@@ -52,6 +55,21 @@ TEXT: Шлёпанцы в стиле Халы
 RESOURCE ID: avatar_f_shoes_loosepants_0_bundle_icon
 TEXT: Шлёпанцы 2020
 
+RESOURCE ID: avatar_komalabackpack
+TEXT: Рюкзак Комала
+
+RESOURCE ID: avatar_lanaoutfit
+TEXT: Одежда в стиле Ланы
+
+RESOURCE ID: avatar_lanapose
+TEXT: Поза Ланы
+
+RESOURCE ID: avatar_lanashoes
+TEXT: Шлёпанцы в стиле Ланы
+
+RESOURCE ID: avatar_lanawig
+TEXT: Парик в стиле Ланы
+
 RESOURCE ID: avatar_m_backpack_naganadelawings_00_bundle_icon
 TEXT: Крылья Наганадел
 
@@ -93,6 +111,60 @@ TEXT: Yogyakarta, August 25, 2024
 
 RESOURCE ID: badge_airadventures_2024_yogyakarta_day_02_general_title
 TEXT: Pikachu's Indonesia Journey
+
+RESOURCE ID: badge_event_0089
+TEXT: Partner Research - Shared Skies : SoftBank
+
+RESOURCE ID: badge_event_0089_title
+TEXT: Partner Research : SoftBank
+
+RESOURCE ID: badge_event_0089_title_00
+TEXT: Partner Research : SoftBank (1/4)
+
+RESOURCE ID: badge_event_0089_title_01
+TEXT: Partner Research : SoftBank (2/4)
+
+RESOURCE ID: badge_event_0089_title_02
+TEXT: Partner Research : SoftBank (3/4)
+
+RESOURCE ID: badge_event_0089_title_03
+TEXT: Partner Research : SoftBank (4/4)
+
+RESOURCE ID: badge_event_0090
+TEXT: Partner Research - Shared Skies : 7/11 Korea
+
+RESOURCE ID: badge_event_0090_title
+TEXT: Partner Research : 7/11 Korea
+
+RESOURCE ID: badge_event_0090_title_00
+TEXT: Partner Research : 7/11 Korea (1/4)
+
+RESOURCE ID: badge_event_0090_title_01
+TEXT: Partner Research : 7/11 Korea (2/4)
+
+RESOURCE ID: badge_event_0090_title_02
+TEXT: Partner Research : 7/11 Korea (3/4)
+
+RESOURCE ID: badge_event_0090_title_03
+TEXT: Partner Research : 7/11 Korea (4/4)
+
+RESOURCE ID: badge_event_0091
+TEXT: Partner Research - Shared Skies : Google Play
+
+RESOURCE ID: badge_event_0091_title
+TEXT: Partner Research : Google Play
+
+RESOURCE ID: badge_event_0091_title_00
+TEXT: Partner Research : Google Play (1/4)
+
+RESOURCE ID: badge_event_0091_title_01
+TEXT: Partner Research : Google Play (2/4)
+
+RESOURCE ID: badge_event_0091_title_02
+TEXT: Partner Research : Google Play (3/4)
+
+RESOURCE ID: badge_event_0091_title_03
+TEXT: Partner Research : Google Play (4/4)
 
 RESOURCE ID: badge_gofest_2024_global
 TEXT: 13-14 июля 2024
@@ -600,13 +672,13 @@ RESOURCE ID: bonus_tr_gbl_laic_2025_a_title_01
 TEXT: 2024 Pokémon NAIC Champion (2/2)
 
 RESOURCE ID: bonus_tr_gbl_naic_2024_a_desc
-TEXT: 2024 Pokémon EUIC’s Champion: Bonus Timed Research
+TEXT: Победитель Международного Чемпионата Покемон в Европе 2024: Дополнительный квест на время
 
 RESOURCE ID: bonus_tr_gbl_naic_2024_a_title_00
-TEXT: 2024 Pokémon EUIC’s Champion (1/2)
+TEXT: Победитель Международного Чемпионата Покемон в Европе 2024 (1/2)
 
 RESOURCE ID: bonus_tr_gbl_naic_2024_a_title_01
-TEXT: 2024 Pokémon EUIC’s Champion (2/2)
+TEXT: Победитель Международного Чемпионата Покемон в Европе 2024 (2/2)
 
 RESOURCE ID: bonus_tr_gbl_naic_2025_a_desc
 TEXT: 2025 Pokémon EUIC Champion - Bonus Timed Research
@@ -666,10 +738,10 @@ RESOURCE ID: branch_flock_together_rd_may24_tailow_title_key
 TEXT: Тэйллоу
 
 RESOURCE ID: campfire_checkin_notification
-TEXT: {0} meetup starts at {1}! Check-in to claim your reward!
+TEXT: {0} meetup starts at {1}! Check in to claim your reward!
 
 RESOURCE ID: campfire_meetup_notification
-TEXT: Meetups nearby for upcoming {0}!
+TEXT: Meetups nearby for upcoming event: {0}!
 
 RESOURCE ID: catch_stardust_double_featured
 TEXT: 2× звёздной пыли за поимку Покемонов события
@@ -685,6 +757,9 @@ TEXT: Pikachu's Indonesia Journey - Collection Challenge
 
 RESOURCE ID: combat_description_season_15
 TEXT: Даты и время ниже указаны по местному времени.
+
+RESOURCE ID: combat_title_season_15
+TEXT: Боевая Лига GO: Под одним небом
 
 RESOURCE ID: community_day_bounsweet_event_name
 TEXT: День сообщества Баунсвит
@@ -717,12 +792,19 @@ RESOURCE ID: event_datetime_range_key_gobattlemay2024
 TEXT: 00:00 4 мая –
 23:59 5 мая
 
+RESOURCE ID: event_datetime_range_key_stadiumsights24
+TEXT: 10:00 1 июня –
+20:00 4 июня
+
 RESOURCE ID: event_datetime_range_key_ultraspace24
 TEXT: 10:00 23 мая –
 20:00 28 мая
 
 RESOURCE ID: event_name_glitzglam
 TEXT: Блеск и сияние
+
+RESOURCE ID: event_season15_name
+TEXT: Текущий сезон: Под одним небом
 
 RESOURCE ID: event_title_catching_wonders
 TEXT: Чудеса поимки
@@ -733,11 +815,26 @@ TEXT: ВЫЙТИ НА КАРТУ
 RESOURCE ID: f_avatar_poses_bundle_pose_63
 TEXT: Поза приветствия Алола
 
+RESOURCE ID: f_avatar_poses_bundle_pose_64
+TEXT: Поза Ланы
+
+RESOURCE ID: f_backpack_komala_00_bundle_icon
+TEXT: Рюкзак Комала
+
+RESOURCE ID: f_hat_lana_00_bundle_icon
+TEXT: Парик в стиле Ланы
+
 RESOURCE ID: f_naganadel jacket
 TEXT: Куртка Наганадел
 
 RESOURCE ID: f_naganadel pants
 TEXT: Штаны Наганадел
+
+RESOURCE ID: f_shirt_lana_00_bundle_icon
+TEXT: Одежда в стиле Ланы
+
+RESOURCE ID: f_shoes_lana_00_bundle_icon
+TEXT: Шлёпанцы в стиле Ланы
 
 RESOURCE ID: ferroseed_incense_day
 TEXT: День ладана: Ферросид
@@ -796,6 +893,9 @@ TEXT: Покемоны события в качестве награды в Бо
 RESOURCE ID: general1.ticket.2_flocktr24_title
 TEXT: Квест на время День исследований Пернатый отряд
 
+RESOURCE ID: general1.ticket._stadiumsights24_title
+TEXT: Билет: квест на время Полёт к победе
+
 RESOURCE ID: general1.ticket._ultraspace24_title
 TEXT: Билет: квест на время Чудеса Ультраизмерения
 
@@ -813,6 +913,9 @@ TEXT: Catch
 
 RESOURCE ID: general_spin
 TEXT: Spin
+
+RESOURCE ID: glide_victory_tr_name
+TEXT: Полёт к победе
 
 RESOURCE ID: go_fest_2024_irl_sr_city_00_00
 TEXT: Мои приветствия, %PLAYERNAME%. Какое облегчение видеть тебя здесь.
@@ -1461,12 +1564,18 @@ RESOURCE ID: item_event_ticket_pink_details_s14gbw
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к премиум-квесту на время Выходные сражений GO, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_evergreen_ticket_desc
+TEXT: Билет, дающий доступ к квесту на время Полёт к победе с 10:00 1 июня до 20:00 4 июня 2024 по местному времени, вне зависимости от твоего местонахождения.
+
+RESOURCE ID: item_evergreen_ticket_desc_pokecoins
 TEXT: Билет, дающий возможность получать задания полевых квестов, если у тебя есть место для нового полевого квеста. Каждое задание можно выполнять один раз в день, получая в награду 20 Покемонет.
 
 RESOURCE ID: item_evergreen_ticket_desc_s14tgr
 TEXT: Билет, дающий доступ к квесту на время Погоня за Командой Ракета GO до 23:59 31 марта 2024 по местному времени, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_evergreen_ticket_details
+TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к квесту на время Полёт к победе 1 июня, вне зависимости от твоего местонахождения.
+
+RESOURCE ID: item_evergreen_ticket_details_pokecoins
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к Билету на ежедневные полевые квесты с Покемонетами 16 мая, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_evergreen_ticket_details_s14tgr
@@ -1493,20 +1602,35 @@ TEXT: Для этого Покемона сейчас не хватает мес
 RESOURCE ID: m_avatar_poses_bundle_pose_63
 TEXT: Поза приветствия Алола
 
+RESOURCE ID: m_avatar_poses_bundle_pose_64
+TEXT: Поза Ланы
+
+RESOURCE ID: m_backpack_komala_00_bundle_icon
+TEXT: Рюкзак Комала
+
+RESOURCE ID: m_hat_lana_00_bundle_icon
+TEXT: Парик в стиле Ланы
+
 RESOURCE ID: m_naganadel jacket
 TEXT: Куртка Наганадел
 
 RESOURCE ID: m_naganadel pants
 TEXT: Штаны Наганадел
 
+RESOURCE ID: m_shirt_lana_00_bundle_icon
+TEXT: Одежда в стиле Ланы
+
+RESOURCE ID: m_shoes_lana_00_bundle_icon
+TEXT: Шлёпанцы в стиле Ланы
+
 RESOURCE ID: meetups_ended_desc
 TEXT: Meetup has ended.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-05-28T16:46:15.386395+00:00 for ru-RU
-at SHA 8b1f951d88
-Pipeline 2359720, job 28512012
-Patch from: 0.315.1-SHA-f741b97f-RC1, 0.313.1-SHA-95f9866c-RC1, 0.317.0-SHA-75d3f099-RC1
+TEXT: Built at 2024-05-30T16:00:54.867741+00:00 for ru-RU
+at SHA 88b9bc7dc0
+Pipeline 2365732, job 28588295
+Patch from: 0.315.0-SHA-8377362e-RC1, 0.317.0-SHA-75d3f099-RC1, 0.313.1-SHA-95f9866c-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Выпускает зловещий луч. Привлекает Покемонов, активных ночью, и позволяет им эволюционировать в дневное время вместо ночного.
@@ -1557,7 +1681,7 @@ RESOURCE ID: need_more_scans
 TEXT: Чтобы этот Покестоп стал поддерживать групповые фото, его нужно больше сканировать.
 
 RESOURCE ID: no_meetups_desc
-TEXT: No events nearby for {0}
+TEXT: No meetups nearby for {0}
 
 RESOURCE ID: no_pokemon_found_body
 TEXT: Похоже, здесь пока нет Покемонов! Ты хочешь добавить своих Покемонов?
@@ -1616,6 +1740,9 @@ TEXT: Тренер {0} поделился предметами: {1}×{2}
 RESOURCE ID: party_share_ticker_message_plural
 TEXT: Тренер {0} поделился предметами: {1}×{2}
 
+RESOURCE ID: photo_hub_hashtags
+TEXT: Используй хэштеги #GOsnapshot #PokemonGO
+
 RESOURCE ID: photo_set_cute_pokemon_pink
 TEXT: Розовые друзья 2
 
@@ -1660,6 +1787,12 @@ TEXT: Поймай Даклеттов ×{0}
 
 RESOURCE ID: quest_catch_emolga_plural
 TEXT: Поймай Эмолг ×{0}
+
+RESOURCE ID: quest_catch_type_electric_flying_plural
+TEXT: Поймай Покемонов типа Электро или Летающий ×{0}
+
+RESOURCE ID: quest_catch_type_water_ground_plural
+TEXT: Поймай Покемонов типа Вода или Земля ×{0}
 
 RESOURCE ID: quest_change_form_furfrou
 TEXT: Поменяй стрижку Фурфу
@@ -1892,6 +2025,9 @@ TEXT: Блеск и сияние (5/6)
 RESOURCE ID: quest_title_global_diancie_5
 TEXT: Блеск и сияние (6/6)
 
+RESOURCE ID: quest_waina_sleep_days_singular
+TEXT: Track sleep using Pokémon GO Plus + for 1 day
+
 RESOURCE ID: raid_xp_2x_ultrabeast
 TEXT: 2× XP в рейдах против Ультрачудовищ
 
@@ -2090,6 +2226,9 @@ TEXT: Lots of Wildlife
 RESOURCE ID: route_tag_woodsy
 TEXT: Woodsy
 
+RESOURCE ID: season_gbl_forecast_title_15
+TEXT: Pokémon GO: Под одним небом
+
 RESOURCE ID: see_meetups_button
 TEXT: See nearby meetups
 
@@ -2097,7 +2236,7 @@ RESOURCE ID: see_other_meetups_button
 TEXT: See other meetups
 
 RESOURCE ID: settings_campfire_meetup_desc
-TEXT: View nearby Campfire meetups to upcoming events.
+TEXT: View nearby Campfire meetups for upcoming events.
 
 RESOURCE ID: settings_campfire_meetup_title
 TEXT: Nearby Meetups
@@ -2312,6 +2451,9 @@ TEXT: Фестиваль GO 2024: Сендай – Развлечения в п�
 RESOURCE ID: sr_gofest2024_sendai_park_6
 TEXT: Фестиваль GO 2024: Сендай – Развлечения в парке (6/6)
 
+RESOURCE ID: stadium_sights_event_name
+TEXT: Вид на стадион
+
 RESOURCE ID: story_worldofwonders_4_0
 TEXT: Мои приветствия, %PLAYERNAME%. Как приятно видеть тебя. Несомненно, увидеться при более благоприятных обстоятельствах было бы предпочтительнее.
 
@@ -2415,7 +2557,7 @@ RESOURCE ID: storyquest_global_diancie_5_3
 TEXT: Продолжай блистать, %PLAYERNAME%! До следующего раза.
 
 RESOURCE ID: streaks_widget_description
-TEXT: Use Daily Streaks to keep track of your daily Pokémon catch and PokéStop spin streaks. Earn even larger bonuses on the 7th day!
+TEXT: Use the Daily Streaks widget to keep track of your streaks for catching Pokémon and spinning PokéStops. Earn extra big bonuses on the seventh day!
 
 RESOURCE ID: streaks_widget_title
 TEXT: Daily Streaks
@@ -2446,6 +2588,11 @@ RESOURCE ID: text_rewards_key_gobattlemay2024
 TEXT: <b>Включает следующие награды:</b>
 • 30 000 звёздной пыли
 • 3 редкие конфеты, 3 редкие конфеты XL, 1 осколок звезды
+
+RESOURCE ID: text_rewards_key_stadiumsights24
+TEXT: <b>Включает следующие награды:</b>
+• 5 встреч с Эмолгой
+• 1 инкубатор, 1 суперинкубатор и 20 Эмолга-конфет
 
 RESOURCE ID: text_rewards_key_ultraspace24
 TEXT: <b>Включает следующие награды:</b>
@@ -2480,6 +2627,9 @@ TEXT: <b>Этот билет включает в себя 3 квеста на�
 RESOURCE ID: ticket_bounsweet
 TEXT: Билет на специальный квест дня сообщества Баунсвит доступен в магазине
 
+RESOURCE ID: ticket_glide_victory_tr
+TEXT: Билет, дающий доступ к квесту на время Полёт к победе, доступен в магазине
+
 RESOURCE ID: ticket_ultra_space_wonders
 TEXT: Билет, дающий доступ к квесту на время Чудеса Ультраизмерения, доступен в магазине
 
@@ -2491,6 +2641,15 @@ TEXT: Ты слишком далеко от этого Покестопа, чт�
 
 RESOURCE ID: too_far_away_scan
 TEXT: Ты слишком далеко от этого Покестопа, чтобы размещать Покемонов или взаимодействовать с ними.
+
+RESOURCE ID: tr_name_season15_part_1
+TEXT: Под одним небом: Часть 1
+
+RESOURCE ID: tr_name_season15_part_2
+TEXT: Под одним небом: Часть 2
+
+RESOURCE ID: tr_name_season15_part_3
+TEXT: Под одним небом: Часть 3
 
 RESOURCE ID: tr_weekend_booster_desc_04
 TEXT: Награды выходных, май 2024
