@@ -23,7 +23,7 @@ RESOURCE ID: air_adventures_yogyakarta_sr_title_04
 TEXT: Pikachu's Indonesia Journey: Yogyakarta (5/5)
 
 RESOURCE ID: anime_collab_june_india_title
-TEXT: Pokémon Horizons: The Series Celebration Event - India and Indonesia
+TEXT: Pokémon Horizons: The Series Celebration Event – India and Indonesia
 
 RESOURCE ID: ar_mode_camera_permissions
 TEXT: To use AR mode, we need access to your camera and gallery so you can take photos and save them.
@@ -164,6 +164,9 @@ RESOURCE ID: badge_you_earned_silver
 TEXT: Congratulations!
 You earned a silver medal!
 
+RESOURCE ID: beach_bash_tr_name
+TEXT: Beach Bash
+
 RESOURCE ID: bonus_cap_pikachu_volt_tackle
 TEXT: Pikachu wearing Cap’s hat will know the Charged Attack Volt Tackle
 
@@ -177,7 +180,7 @@ RESOURCE ID: bonus_cd_move_goomy
 TEXT: Evolve Sliggoo to get a Goodra that knows the Charged Attack Thunder Punch!
 
 RESOURCE ID: bonus_fr_cap_pikachu
-TEXT: Event Field Research rewarding encounters with Pikachu wearing Cap’s hat
+TEXT: Event-themed Field Research awarding encounters with Pikachu wearing Cap’s hat
 
 RESOURCE ID: bonus_implicit_social_bounsweet_raid
 TEXT: If Trainers work together to win a Steenee raid, large numbers of Bounsweet will appear in the area for 30 minutes
@@ -242,8 +245,14 @@ TEXT: Dates and times below are listed in local time.
 RESOURCE ID: combat_title_season_15
 TEXT: GO Battle League: Shared Skies
 
+RESOURCE ID: community_day_cdc_cyndaquil_event_name
+TEXT: Community Day Classic: Cyndaquil
+
 RESOURCE ID: community_day_goomy_event_name
 TEXT: Community Day: Goomy
+
+RESOURCE ID: complete_route_travel_error_toast
+TEXT: Unable to complete this Route at this time. Please try again.
 
 RESOURCE ID: daily_streaks
 TEXT: DAILY STREAKS
@@ -610,6 +619,9 @@ TEXT: I guess what I really mean to say is: thank you for your friendship, %PLAY
 RESOURCE ID: incense_day_pokemon_ferroseed
 TEXT: Ferroseed attracted to Incense
 
+RESOURCE ID: incident_already_completed_error
+TEXT: Battle already completed.
+
 RESOURCE ID: iris_social_choose_pokemon_toast
 TEXT: Choose Pokémon to place in this area.
 
@@ -722,14 +734,8 @@ TEXT: Your Pokémon will hang out and play!
 RESOURCE ID: item_event_ticket_evergreen_desc_anniversary24
 TEXT: A ticket to access the 8th Anniversary Party Premium Timed Research until July 3, at 8:00 p.m. local time, wherever you are.
 
-RESOURCE ID: item_event_ticket_evergreen_desc_slumberingsands24
-TEXT: A ticket to access the Slumbering Sands Premium Timed Research until June 12, 2024, at 8:00 p.m. local time, wherever you are.
-
 RESOURCE ID: item_event_ticket_evergreen_details_anniversary24
 TEXT: This ticket will automatically activate to give you access to the 8th Anniversary Party Premium Timed Research on July 3, wherever you are.
-
-RESOURCE ID: item_event_ticket_evergreen_details_slumberingsands24
-TEXT: This ticket will automatically activate to give you access to the Slumbering Sands Premium Timed Research on June 7, wherever you are.
 
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: A ticket to access the Ultra Space Wonders Timed Research from May 23 at 10:00 a.m. to May 28, 2024, at 8:00 p.m. local time, wherever you are.
@@ -750,7 +756,7 @@ RESOURCE ID: item_event_ticket_pink_desc_bounsweet
 TEXT: A ticket to access the Bounsweet Community Day Special Research starting May 19 at 2:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_desc_cyndaquilcdc2024
-TEXT: A ticket to access the Cyndaquil Community Day Classic Special Research starting June 22, at 2:00 p.m. local time, wherever you are.
+TEXT: A ticket to access the Cyndaquil Community Day Classic Special Research starting June 22 at 2:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_desc_flying
 TEXT: A ticket to access the Flock Together Research Day Timed Research on May 11, 2024, from 2:00 p.m. to 5:00 p.m. local time, wherever you are.
@@ -768,16 +774,22 @@ RESOURCE ID: item_event_ticket_pink_details_flying
 TEXT: This ticket will automatically activate to give you access to the Flock Together Research Day Timed Research on May 11, wherever you are.
 
 RESOURCE ID: item_evergreen_ticket_desc
-TEXT: A ticket to access the Glide to Victory Timed Research from June 1 at 10:00 a.m. to June 4, 2024, at 8:00 p.m. local time, wherever you are.
+TEXT: A ticket to access the Slumbering Sands Premium Timed Research until June 12, 2024, at 8:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_evergreen_ticket_desc_pokecoins
 TEXT: A ticket that allows you to receive a Field Research task when you have an open Field Research slot. The task can be completed once per day and rewards 20 PokéCoins.
 
+RESOURCE ID: item_evergreen_ticket_desc_stadiumsights
+TEXT: A ticket to access the Glide to Victory Timed Research from June 1 at 10:00 a.m. to June 4, 2024, at 8:00 p.m. local time, wherever you are.
+
 RESOURCE ID: item_evergreen_ticket_details
-TEXT: This ticket will automatically activate to give you access to the Glide to Victory Timed Research on June 1, wherever you are.
+TEXT: This ticket will automatically activate to give you access to the Slumbering Sands Premium Timed Research on June 7, wherever you are.
 
 RESOURCE ID: item_evergreen_ticket_details_pokecoins
 TEXT: This ticket will automatically activate to give you access to the Daily PokéCoin Field Research Ticket experience on May 16, wherever you are.
+
+RESOURCE ID: item_evergreen_ticket_details_stadiumsights
+TEXT: This ticket will automatically activate to give you access to the Glide to Victory Timed Research on June 1, wherever you are.
 
 RESOURCE ID: leave_pokemon_message_body
 TEXT: If you leave your Pokémon here, they’ll be here waiting when you come back.
@@ -816,10 +828,10 @@ RESOURCE ID: meetups_ended_desc
 TEXT: Meetup has ended.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-06-05T00:09:47.020119+00:00 for en-US
-at SHA 5aaef48988c
-Pipeline 2378477, job 28746794
-Patch from: 0.315.2-SHA-b02c96e9-RC3, 0.317.0-SHA-75d3f099-RC1
+TEXT: Built at 2024-06-06T19:17:47.791833+00:00 for en-US
+at SHA 15f462e4650
+Pipeline 2383442, job 28816491
+Patch from: 0.315.1-SHA-f741b97f-RC1, 0.317.0-SHA-75d3f099-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found at night and allows nighttime Evolution during the day.
@@ -922,6 +934,9 @@ TEXT: 5 surprise encounters with Cyndaquil in GO Snapshot
 
 RESOURCE ID: photobomb_five_goomy
 TEXT: 5 surprise encounters with Goomy in GO Snapshot
+
+RESOURCE ID: pokedex_sort_unfavorite
+TEXT: Unfavorite
 
 RESOURCE ID: pokemon_desc_0800_2718
 TEXT: This is its form while it is devouring the light of Solgaleo. It pounces on foes and then slashes them with the claws on its four limbs and back.
@@ -1038,7 +1053,7 @@ RESOURCE ID: quest_special_dialogue_cyndaquil_0_3
 TEXT: Why don’t you grab a pocket fan to stay cool and try to catch one of these fascinating Pokémon?
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_0
-TEXT: That’s quite a Cyndaquil you’ve befriended, %PLAYERNAME%! You’re on fire—er, not literally, thankfully. 
+TEXT: That’s quite a Cyndaquil you’ve befriended, %PLAYERNAME%! You’re on fire—er, not literally, thankfully.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_1
 TEXT: Let me reward you with some fun tidbits! Did you know that a Cyndaquil’s flames burn hottest when they’re startled?
@@ -1199,6 +1214,9 @@ TEXT: Recall all Pokémon
 RESOURCE ID: research_masterball_catching_wonders
 TEXT: Master Ball available through Masterwork Research: Catching Wonders
 
+RESOURCE ID: rocky_shore_event_name
+TEXT: Spelunker’s Cove
+
 RESOURCE ID: route_creation_error_conflicting_tags
 TEXT: Only one tag related to this detail can be selected.
 
@@ -1213,6 +1231,12 @@ TEXT: You have reached the end point, but you have not traveled the full Route d
 
 RESOURCE ID: route_play_partial_completion_body_secondary
 TEXT: If you complete the Route now, you will receive rewards adjusted to your travel distance. To receive the full reward, resume the Route and return to the end point when you have traveled the complete distance.
+
+RESOURCE ID: route_point_invalid
+TEXT: Invalid Point
+
+RESOURCE ID: route_status_update_archived
+TEXT: Route archived.
 
 RESOURCE ID: route_submission_add_name_desc_title
 TEXT: Add Title and Description
@@ -1337,6 +1361,9 @@ TEXT: Lots of Wildlife
 RESOURCE ID: route_tag_woodsy
 TEXT: Woodsy
 
+RESOURCE ID: scorching_steps_event_name
+TEXT: Scorching Steps
+
 RESOURCE ID: season_gbl_forecast_title_15
 TEXT: Pokémon GO: Shared Skies
 
@@ -1375,6 +1402,9 @@ TEXT: These are rare backgrounds you may receive when catching Pokémon during c
 
 RESOURCE ID: special_background_ftue_header
 TEXT: You got a Special Background!
+
+RESOURCE ID: spelunker_cove_event_name
+TEXT: Spelunker’s Cove
 
 RESOURCE ID: sr_gofest2024_pjcs
 TEXT: GO Fest 2024: PJCS
@@ -1478,6 +1508,9 @@ TEXT: <b>Included rewards:</b>
 • Seven encounters with Mareanie
 • Naganadel Wings 
 • 4 Premium Battle Passes, 15 Ultra Balls, 15 Great Balls, 15 Poké Balls, and 1 Lucky Egg
+
+RESOURCE ID: ticket_beach_bash_tr
+TEXT: Ticket for the Beach Bash Timed Research available in the shop
 
 RESOURCE ID: ticket_bounsweet
 TEXT: Ticket for the Bounsweet Community Day Special Research story available in the shop
