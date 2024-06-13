@@ -198,7 +198,7 @@ RESOURCE ID: bonus_cd_move_bounsweet
 TEXT: Эволюционируй Стини, чтобы получить Царину, которая знает заряженную атаку Прыжок-Удар!
 
 RESOURCE ID: bonus_cd_move_cyndaquil
-TEXT: Evolve Quilava to get a Typhlosion that knows the Charged Attack Blast Burn!
+TEXT: Эволюционируй Квилаву, чтобы получить Тайфложна, который знает заряженную атаку Обжигающий Взрыв!
 
 RESOURCE ID: bonus_cd_move_goomy
 TEXT: Эволюционируй Слиггу, чтобы получить Гудру, который знает заряженную атаку Громовой Кулак!
@@ -275,6 +275,9 @@ TEXT: 2025 Pokémon EUIC Champion (1/2)
 RESOURCE ID: bonus_tr_gbl_naic_2025_a_title_01
 TEXT: 2025 Pokémon EUIC Champion (2/2)
 
+RESOURCE ID: bonuses_active
+TEXT: Bonuses Active!
+
 RESOURCE ID: campfire_checkin_notification
 TEXT: Встреча для события {0} начнётся в {1}! Зайди, чтобы получить награду!
 
@@ -334,8 +337,8 @@ RESOURCE ID: event_datetime_range_key_goomycd2024
 TEXT: 9 июня, 14:00 – 17:00
 
 RESOURCE ID: event_datetime_range_key_shinycelebi24
-TEXT: June 28, 10:00 a.m. –
-July 3, 8:00 p.m.
+TEXT: 10:00 28 июня –
+20:00 3 июля
 
 RESOURCE ID: event_datetime_range_key_slumberingsands24
 TEXT: 10:00 7 июня –
@@ -413,13 +416,13 @@ RESOURCE ID: fusion_raid_escape_toast
 TEXT: Похоже, {1} и {0} были разделены. {0} тут же сбежал!
 
 RESOURCE ID: fusion_resource_dawnwings_necrozma_desc
-TEXT:  
+TEXT: 
 
 RESOURCE ID: fusion_resource_dawnwings_necrozma_name_plural
 TEXT: Лунная энергия объединения
 
 RESOURCE ID: fusion_resource_duskmane_necrozma_desc
-TEXT:  
+TEXT: 
 
 RESOURCE ID: fusion_resource_duskmane_necrozma_name_plural
 TEXT: Солнечная энергия объединения
@@ -431,7 +434,7 @@ RESOURCE ID: general1.ticket._anniversary24_title
 TEXT: 8th Anniversary Party Premium Timed Research Ticket
 
 RESOURCE ID: general1.ticket._shinycelebi24_title
-TEXT: Whispers in the Woods Masterwork Research Ticket
+TEXT: Билет: непревзойдённый квест Лесные шорохи
 
 RESOURCE ID: general1.ticket._slumberingsands24_title
 TEXT: Билет: премиум-квест на время Спящие пески
@@ -443,7 +446,7 @@ RESOURCE ID: general1.ticket._ultraspace24_title
 TEXT: Билет: квест на время Чудеса Ультраизмерения
 
 RESOURCE ID: general1.ticket_cyndaquilcdc2024_title
-TEXT: Билет на Классический день сообщества Синдаквил
+TEXT: Билет: Классический день сообщества Синдаквил
 
 RESOURCE ID: general1.ticket_goomycd2024_title
 TEXT: Билет на день сообщества Гуми
@@ -456,6 +459,15 @@ TEXT: Прокрутка
 
 RESOURCE ID: glide_victory_tr_name
 TEXT: Полёт к победе
+
+RESOURCE ID: global_challenge_bonuses
+TEXT: Global Challenge Bonuses
+
+RESOURCE ID: global_challenge_complete
+TEXT: Global Challenge Complete
+
+RESOURCE ID: global_challenge_completed
+TEXT: Global Challenge Completed!
 
 RESOURCE ID: global_day_1_ticket_0_0
 TEXT: Hey there, %PLAYERNAME%! It's great to see you, but I'm afraid I have some troubling news to share.
@@ -949,6 +961,9 @@ TEXT: Фестиваль Pokémon GO 2024
 RESOURCE ID: gofest2024_content_hashtag
 TEXT: Публикуй фото с хэштегом #PokemonGOFest2024, а мы поделимся понравившимися нам снимками!
 
+RESOURCE ID: hatch_day_extended_bonuses
+TEXT: Hatch Day Extended Bonuses
+
 RESOURCE ID: incense_day_pokemon_beldum
 TEXT: Ладан привлекает Белдамов
 
@@ -1098,13 +1113,13 @@ RESOURCE ID: item_event_ticket_gray_desc
 TEXT: Билет, дающий доступ к квесту на время Чудеса Ультраизмерения с 10:00 23 мая до 20:00 28 мая 2024 по местному времени, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_gray_desc_shinycelebi24
-TEXT: A ticket to access the Whispers in the Woods Masterwork Research starting June 28, 2024, at 10:00 a.m. local time, wherever you are.
+TEXT: Билет на непревзойдённый квест Лесные шорохи с 10:00 28 июня 2024 по местному времени, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_gray_details
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к квесту на время Чудеса Ультраизмерения 23 мая, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_gray_details_shinycelebi24
-TEXT: This ticket will automatically activate to give you access to the Whispers in the Woods Masterwork Research on June 28, wherever you are.
+TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к непревзойдённому квесту Лесные шорохи 28 июня, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_pink_desc
 TEXT: Билет на специальный квест дня сообщества Гуми с 14:00 9 июня по местному времени, вне зависимости от твоего местонахождения.
@@ -1185,10 +1200,10 @@ RESOURCE ID: meetups_ended_desc
 TEXT: Встреча закончилась.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-06-12T00:07:19.876401+00:00 for ru-RU
-at SHA 43fa72b0ae
-Pipeline 2397520, job 28980325
-Patch from: 0.317.0-SHA-f00910d6-RC4, 0.319.0-SHA-0a543be8-RC1, 0.315.2-SHA-0a0b68b4-RC1
+TEXT: Built at 2024-06-13T00:10:49.612362+00:00 for ru-RU
+at SHA f1b58c946c
+Pipeline 2401003, job 29025760
+Patch from: 0.317.0-SHA-f00910d6-RC4, 0.315.2-SHA-0a0b68b4-RC1, 0.319.0-SHA-0a543be8-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Выпускает зловещий луч. Привлекает Покемонов, активных ночью, и позволяет им эволюционировать в дневное время вместо ночного.
@@ -1296,7 +1311,7 @@ RESOURCE ID: photobomb_five_bounsweet
 TEXT: 5 неожиданных встреч с Баунсвит в Стоп-кадре GO
 
 RESOURCE ID: photobomb_five_cyndaquil
-TEXT: 5 surprise encounters with Cyndaquil in GO Snapshot
+TEXT: 5 неожиданных встреч с Синдаквилом в Стоп-кадре GO
 
 RESOURCE ID: photobomb_five_goomy
 TEXT: 5 неожиданных встреч с Гуми в Стоп-кадре GO
@@ -1304,8 +1319,11 @@ TEXT: 5 неожиданных встреч с Гуми в Стоп-кадр�
 RESOURCE ID: pjcs2024
 TEXT: Чемпионат Покемон в Японии 2024
 
+RESOURCE ID: pokedex_mode_name_primal
+TEXT: Primal
+
 RESOURCE ID: pokedex_sort_unfavorite
-TEXT: Unfavorite
+TEXT: Удалить из избранных
 
 RESOURCE ID: pokemon_desc_0800_2718
 TEXT: Некрозма принимает эту форму по мере того, как поглощает свет, исходящий от Солгалео. Он набрасывается на врагов, нанося режущие удары когтями на спине и конечностях.
@@ -1338,13 +1356,13 @@ RESOURCE ID: quest_catch_type_water_ground_plural
 TEXT: Поймай Покемонов типа Вода или Земля ×{0}
 
 RESOURCE ID: quest_cyndaquil_catch_b
-TEXT: Catch {0} Cyndaquil
+TEXT: Поймай Синдаквилов ×{0}
 
 RESOURCE ID: quest_cyndaquil_evolve_b_plural
-TEXT: Evolve {0} Cyndaquil
+TEXT: Эволюционируй Синдаквилов ×{0}
 
 RESOURCE ID: quest_cyndaquil_evolve_b_singular
-TEXT: Evolve a Cyndaquil
+TEXT: Эволюционируй Синдаквила
 
 RESOURCE ID: quest_dialogue_jirachi_global_0_2
 TEXT: Мы собираемся сосредоточить наши усилия на Покемонах, впервые обнаруженных в регионе Хоэнн, потому что у меня есть некоторые догадки о Покемонах, которых я раньше никогда не видел!
@@ -1362,10 +1380,10 @@ RESOURCE ID: quest_goomy_evolve_b_singular
 TEXT: Эволюционируй Гуми
 
 RESOURCE ID: quest_quilava_evolve_b_plural
-TEXT: Evolve {0} Quilava
+TEXT: Эволюционируй Квилав ×{0}
 
 RESOURCE ID: quest_quilava_evolve_b_singular
-TEXT: Evolve a Quilava
+TEXT: Эволюционируй Квилаву
 
 RESOURCE ID: quest_rocket_purify_plural
 TEXT: Очисти Теневых Покемонов ×{0}
@@ -1431,52 +1449,52 @@ RESOURCE ID: quest_special_dialogue_bounsweet_3_3
 TEXT: Спасибо за помощь сегодня, %PLAYERNAME%. Не зевай и держи дистанцию!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_0_0
-TEXT: %PLAYERNAME%, hi! It’s pretty hot out here, don’t you think? The heat must be coming from all the Cyndaquil running about!
+TEXT: %PLAYERNAME%, привет! Сегодня припекает, не правда ли? Кажется, стало так жарко из-за Синдаквилов, которые бегают в округе!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_0_1
-TEXT: Are you familiar with it? It’s a Fire-type Pokémon known for its timid nature.
+TEXT: Тебе уже знаком Синдаквил? Это Покемон типа Огонь, известный своей робкой натурой.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_0_2
-TEXT: Since they scare easily, they’re usually found curled up in a little ball—and they’ll flare the flames on their backs to protect themselves when attacked!
+TEXT: Поскольку его легко напугать, он часто сворачивается в комок. Если его атакуют, он защищается, зажигая пламя на спине.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_0_3
-TEXT: Why don’t you grab a pocket fan to stay cool and try to catch one of these fascinating Pokémon?
+TEXT: Предлагаю тебе запастись веером, чтобы не перегреться, и попытаться поймать одного из этих увлекательных Покемонов.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_0
-TEXT: That’s quite a Cyndaquil you’ve befriended, %PLAYERNAME%! You’re on fire—er, not literally, thankfully.
+TEXT: Так приятно видеть, что у вас с Синдаквилом такие тёплые отношения, %PLAYERNAME%!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_1
-TEXT: Let me reward you with some fun tidbits! Did you know that a Cyndaquil’s flames burn hottest when they’re startled?
+TEXT: Позволь поделиться парой горяченьких фактов об этом Покемоне! Знаешь ли ты, что его пламя горит сильнее всего, когда он напуган?
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_2
-TEXT: And its Evolution, Quilava, will turn its back on opponents just to show off how ferociously its fire blazes!
+TEXT: А его эволюция, Квилава, поворачивается к противникам спиной, чтобы показать, как свирепо пылает его огонь!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_3
-TEXT: Let’s evolve your Cyndaquil into a Quilava. While I’m not jumping at the idea of making it even hotter around here, I AM eager to study the variance in flame intensity as they evolve.
+TEXT: Давай эволюционируем твоего Синдаквила в Квилаву. Не то чтобы здесь было прохладно, но мне хочется понаблюдать, как меняется интенсивность пламени по мере эволюции этого Покемона.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_2_0
-TEXT: Amazing work, %PLAYERNAME%! Now, let’s take a closer look at your Quilava. You’re on a hot streak!
+TEXT: Удалось же тебе дать жару, %PLAYERNAME%! Теперь давай поближе познакомимся с твоим Квилавой.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_2_1
-TEXT: As I mentioned, Quilava tend to use the heat of their flames to intimidate foes. Those flames burn even stronger when it prepares to fight!
+TEXT: Как я уже упоминал, Квилава склонен использовать жар своего пламени для устрашения врагов. Это пламя горит ещё сильнее, когда этот Покемон готовится к бою!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_2_2
-TEXT: Your Quilava seems like a real firebrand! I bet it’ll be even more of a force to be reckoned with once it evolves.
+TEXT: Такого Квилаву днём с огнём не сыщешь! Держу пари, его мощь только возрастёт, когда он эволюционирует.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_2_3
-TEXT: On that note, let’s turn the thermostat up to max—evolve your Quilava into Typhlosion! There’s learning to be had!
+TEXT: Что ж, давай подкинем ещё дровишек – эволюционируй своего Квилаву в Тайфложна! Нам ещё столько предстоит узнать!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_3_0
-TEXT: Oh! I was wondering why I was feeling so toasty, but now I see—you’re back with Typhlosion! Let’s take a moment to marvel at its raw power.
+TEXT: О! А я думаю, что это меня в жар бросило... Теперь понятно – это вы с Тайфложном пришли! Дай мне полюбоваться его необузданной силой.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_3_1
-TEXT: When a Typhlosion’s rage peaks, it gets so hot that it’ll send anything that touches it up in flames!
+TEXT: В ярости Тайфложн так разогревается, что всё, к чему он прикасается, тут же сгорает до угольков!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_3_2
-TEXT: I’m pretty sure my eyebrows are getting singed, but it’s totally worth it for an up-close encounter with such an awe-inspiring Pokémon!
+TEXT: Похоже, у меня брови слегка опалились, но это того стоило – я так рад, что могу вблизи наблюдать этого потрясающего Покемона!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_3_3
-TEXT: You never disappoint, %PLAYERNAME%. Until our next adventure—stay cool!
+TEXT: Я горячо тебе признателен за помощь, %PLAYERNAME%. До следующего приключения!
 
 RESOURCE ID: quest_special_dialogue_dec20cd_1_2
 TEXT: Мы раскрыли секрет эволюции путём обмена и встретили огромное количество Покемонов, впервые обнаруженных в регионе Юнова.
@@ -1584,19 +1602,19 @@ RESOURCE ID: quest_title_catching_wonders_sr_4
 TEXT: Непревзойдённый квест: Чудеса поимки (4/4)
 
 RESOURCE ID: quest_title_cyndaquil
-TEXT: Community Day Classic: Cyndaquil
+TEXT: Классический день сообщества Синдаквил
 
 RESOURCE ID: quest_title_cyndaquil_0
-TEXT: Community Day Classic: Cyndaquil (1/4)
+TEXT: Классический день сообщества Синдаквил (1/4)
 
 RESOURCE ID: quest_title_cyndaquil_1
-TEXT: Community Day Classic: Cyndaquil (2/4)
+TEXT: Классический день сообщества Синдаквил (2/4)
 
 RESOURCE ID: quest_title_cyndaquil_2
-TEXT: Community Day Classic: Cyndaquil (3/4)
+TEXT: Классический день сообщества Синдаквил (3/4)
 
 RESOURCE ID: quest_title_cyndaquil_3
-TEXT: Community Day Classic: Cyndaquil (4/4)
+TEXT: Классический день сообщества Синдаквил (4/4)
 
 RESOURCE ID: quest_title_goomy
 TEXT: День сообщества Гуми
@@ -1818,7 +1836,7 @@ RESOURCE ID: spawn_bounsweet
 TEXT: Появляется больше диких Баунсвит!
 
 RESOURCE ID: spawn_cyndaquil
-TEXT: More Cyndaquil are appearing in the wild!
+TEXT: Появляется больше диких Синдаквилов!
 
 RESOURCE ID: spawn_goomy
 TEXT: Появляется больше диких Гуми!
@@ -1915,12 +1933,12 @@ TEXT: <b>Включает следующие награды:</b>
 • Дополнительные встречи с Гуми и его эволюциями
 
 RESOURCE ID: text_rewards_key_shinycelebi24
-TEXT: A ticket to access Masterwork Research that leads to an encounter with one of the most elusive Pokémon, Shiny Celebi, and includes the following rewards:
-• 3 Super Incubators, 153 Ultra Balls, 1 Poffin, and 1 Incense
-• 1 Premium Battle Pass and 3 Charged TMs
-• 3 Rare Candies and 3 Rare Candy XL
-• 1 Glacial Lure Module and 1 Mossy Lure Module
-• 40,411 XP and 17,570 Stardust
+TEXT: Билет на непревзойдённый квест. Во время квеста ты сможешь повстречать одного из самых неуловимых Покемонов – Сияющего Селеби, а также получить следующие награды:
+• 3 суперинкубатора, 153 Ультра-Болла, 1 Поффин и 1 ладан
+• 1 боевой премиум-пропуск и 3 заряженные TM
+• 3 редкие конфеты и 3 редкие конфеты XL
+• 1 ледяную приманку и 1 травяную приманку
+• 40 411 XP и 17 570 звёздной пыли
 
 RESOURCE ID: text_rewards_key_slumberingsands24
 TEXT: <b>Награды включают:</b>
@@ -1946,7 +1964,7 @@ RESOURCE ID: ticket_bounsweet
 TEXT: Билет на специальный квест дня сообщества Баунсвит доступен в магазине
 
 RESOURCE ID: ticket_cyndaquil_cdc
-TEXT: Ticket for the Cyndaquil Community Day Classic Special Research story available in the shop
+TEXT: Билет на специальный квест Классического дня сообщества Синдаквил доступен в магазине
 
 RESOURCE ID: ticket_glide_victory_tr
 TEXT: Билет, дающий доступ к квесту на время Полёт к победе, доступен в магазине
@@ -1956,6 +1974,15 @@ TEXT: Билет на специальный квест дня сообщест
 
 RESOURCE ID: ticket_ultra_space_wonders
 TEXT: Билет, дающий доступ к квесту на время Чудеса Ультраизмерения, доступен в магазине
+
+RESOURCE ID: timed_challenge_bonus_header_active_v2
+TEXT: Active Bonuses
+
+RESOURCE ID: timed_challenge_bonus_header_inactive_v2
+TEXT: Completion Rewards
+
+RESOURCE ID: timed_challenge_work_together_v2
+TEXT: All trainers must work together as a global community to complete this challenge.
 
 RESOURCE ID: too_far_away_iris_social
 TEXT: Ты слишком далеко от этого Покестопа, чтобы делать групповые фото.

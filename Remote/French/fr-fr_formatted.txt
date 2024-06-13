@@ -186,7 +186,7 @@ RESOURCE ID: bonus_cd_move_bounsweet
 TEXT: Fais évoluer Candine pour obtenir une Sucreine connaissant l’Attaque Chargée Pied Voltige.
 
 RESOURCE ID: bonus_cd_move_cyndaquil
-TEXT: Evolve Quilava to get a Typhlosion that knows the Charged Attack Blast Burn!
+TEXT: Fais évoluer Feurisson pour obtenir un Typhlosion connaissant l’Attaque Chargée Rafale Feu !
 
 RESOURCE ID: bonus_cd_move_goomy
 TEXT: Fais évoluer Colimucus pour obtenir un Muplodocus connaissant l’Attaque Chargée Poing Éclair.
@@ -259,6 +259,9 @@ TEXT: 2025 Pokémon EUIC Champion (1/2)
 
 RESOURCE ID: bonus_tr_gbl_naic_2025_a_title_01
 TEXT: 2025 Pokémon EUIC Champion (2/2)
+
+RESOURCE ID: bonuses_active
+TEXT: Bonuses Active!
 
 RESOURCE ID: campfire_checkin_notification
 TEXT: L’évènement en personne “{0}” commence à {1} ! Participes-y pour récupérer ta récompense.
@@ -371,7 +374,7 @@ RESOURCE ID: field_effect_ftue_short
 TEXT: Ce Pokémon connaît une attaque qui est accompagnée d’un effet qui peut être activé en dehors des combats.
 
 RESOURCE ID: filter_key_any_background
-TEXT: background
+TEXT: fond
 
 RESOURCE ID: filter_key_evolve_with_quest
 TEXT: évolutionparquête
@@ -380,10 +383,10 @@ RESOURCE ID: filter_key_fusion
 TEXT: fusion
 
 RESOURCE ID: filter_key_location_card_temp
-TEXT: locationbackground
+TEXT: fonddelieu
 
 RESOURCE ID: filter_key_special_background
-TEXT: specialbackground
+TEXT: fondspécial
 
 RESOURCE ID: first_daily_spin_10x_xp
 TEXT: 10 fois plus de PX quand tu fais tourner le PhotoDisque d’une Arène ou d’un PokéStop pour la première fois ce jour-là
@@ -401,13 +404,13 @@ RESOURCE ID: fusion_raid_escape_toast
 TEXT: {0} s’est enfui en abandonnant {1} !
 
 RESOURCE ID: fusion_resource_dawnwings_necrozma_desc
-TEXT:  
+TEXT: 
 
 RESOURCE ID: fusion_resource_dawnwings_necrozma_name_plural
 TEXT: Énergie fusion lunaire
 
 RESOURCE ID: fusion_resource_duskmane_necrozma_desc
-TEXT:  
+TEXT: 
 
 RESOURCE ID: fusion_resource_duskmane_necrozma_name_plural
 TEXT: Énergie fusion solaire
@@ -441,6 +444,15 @@ TEXT: Faire tourner
 
 RESOURCE ID: glide_victory_tr_name
 TEXT: Vol plané vers la victoire
+
+RESOURCE ID: global_challenge_bonuses
+TEXT: Global Challenge Bonuses
+
+RESOURCE ID: global_challenge_complete
+TEXT: Global Challenge Complete
+
+RESOURCE ID: global_challenge_completed
+TEXT: Global Challenge Completed!
 
 RESOURCE ID: global_day_1_ticket_0_0
 TEXT: Hey there, %PLAYERNAME%! It's great to see you, but I'm afraid I have some troubling news to share.
@@ -934,6 +946,9 @@ TEXT: Festival Pokémon GO 2024
 RESOURCE ID: gofest2024_content_hashtag
 TEXT: Publie tes photos avec #PokemonGOFest2024, et nous partagerons nos préférées !
 
+RESOURCE ID: hatch_day_extended_bonuses
+TEXT: Hatch Day Extended Bonuses
+
 RESOURCE ID: incense_day_pokemon_ferroseed
 TEXT: Grindur attiré par l’Encens
 
@@ -1149,10 +1164,10 @@ RESOURCE ID: meetups_ended_desc
 TEXT: L’évènement en personne est terminé.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-06-12T00:07:19.876401+00:00 for fr-FR
-at SHA 43fa72b0ae
-Pipeline 2397520, job 28980325
-Patch from: 0.317.0-SHA-f00910d6-RC4, 0.319.0-SHA-0a543be8-RC1, 0.315.2-SHA-0a0b68b4-RC1
+TEXT: Built at 2024-06-13T00:10:49.612362+00:00 for fr-FR
+at SHA f1b58c946c
+Pipeline 2401003, job 29025760
+Patch from: 0.317.0-SHA-f00910d6-RC4, 0.315.2-SHA-0a0b68b4-RC1, 0.319.0-SHA-0a543be8-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Émet un rayon de lumière mystérieux. Attire des Pokémon que l’on rencontre la nuit et permet aux Pokémon qui évoluent la nuit de le faire pendant le jour.
@@ -1251,10 +1266,13 @@ RESOURCE ID: photobomb_five_bounsweet
 TEXT: Croquine s’introduit 5 fois dans tes Clichés GO
 
 RESOURCE ID: photobomb_five_cyndaquil
-TEXT: 5 surprise encounters with Cyndaquil in GO Snapshot
+TEXT: Héricendre s’introduit 5 fois dans tes Clichés GO
 
 RESOURCE ID: photobomb_five_goomy
 TEXT: Mucuscule s’introduit 5 fois dans tes Clichés GO
+
+RESOURCE ID: pokedex_mode_name_primal
+TEXT: Primal
 
 RESOURCE ID: pokedex_sort_unfavorite
 TEXT: Retirer des favoris
@@ -1281,13 +1299,13 @@ RESOURCE ID: quest_catch_type_water_ground_plural
 TEXT: Attrape {0} Pokémon de type Eau ou Sol
 
 RESOURCE ID: quest_cyndaquil_catch_b
-TEXT: Catch {0} Cyndaquil
+TEXT: Attrape {0} Héricendre
 
 RESOURCE ID: quest_cyndaquil_evolve_b_plural
-TEXT: Evolve {0} Cyndaquil
+TEXT: Fais évoluer {0} Héricendre
 
 RESOURCE ID: quest_cyndaquil_evolve_b_singular
-TEXT: Evolve a Cyndaquil
+TEXT: Fais évoluer un Héricendre
 
 RESOURCE ID: quest_goomy_catch_b
 TEXT: Attrape {0} Mucuscule
@@ -1299,10 +1317,10 @@ RESOURCE ID: quest_goomy_evolve_b_singular
 TEXT: Fais évoluer un Mucuscule
 
 RESOURCE ID: quest_quilava_evolve_b_plural
-TEXT: Evolve {0} Quilava
+TEXT: Fais évoluer {0} Feurisson
 
 RESOURCE ID: quest_quilava_evolve_b_singular
-TEXT: Evolve a Quilava
+TEXT: Fais évoluer un Feurisson
 
 RESOURCE ID: quest_sliggoo_evolve_b_plural
 TEXT: Fais évoluer {0} Colimucus
@@ -1362,52 +1380,52 @@ RESOURCE ID: quest_special_dialogue_bounsweet_3_3
 TEXT: Merci pour toute l’aide que tu m’as apportée aujourd’hui, %PLAYERNAME%. Reste à l’affût et prendre garde à ne pas te prendre de coup de pied !
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_0_0
-TEXT: %PLAYERNAME%, hi! It’s pretty hot out here, don’t you think? The heat must be coming from all the Cyndaquil running about!
+TEXT: Salut %PLAYERNAME% ! Il fait chaud ici, tu ne trouves pas ? Cette chaleur est sûrement causée par tous les Héricendre qui se trouvent dans les parages !
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_0_1
-TEXT: Are you familiar with it? It’s a Fire-type Pokémon known for its timid nature.
+TEXT: Tu en as entendu parler ? C’est un Pokémon de type Feu connu pour sa nature timide.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_0_2
-TEXT: Since they scare easily, they’re usually found curled up in a little ball—and they’ll flare the flames on their backs to protect themselves when attacked!
+TEXT: Comme il est plutôt timoré, il a coutume de se recroqueviller sur lui-même et des flammes jaillissent de son dos pour le protéger lorsqu’il est attaqué !
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_0_3
-TEXT: Why don’t you grab a pocket fan to stay cool and try to catch one of these fascinating Pokémon?
+TEXT: Prends un ventilateur de poche avec toi pour rester au frais et essaie d’attraper l’un de ces fascinants Pokémon !
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_0
-TEXT: That’s quite a Cyndaquil you’ve befriended, %PLAYERNAME%! You’re on fire—er, not literally, thankfully.
+TEXT: C’est un impressionnant Héricendre que tu as là, %PLAYERNAME% ! Tu as mis le feu ! Enfin, pas littéralement, heureusement.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_1
-TEXT: Let me reward you with some fun tidbits! Did you know that a Cyndaquil’s flames burn hottest when they’re startled?
+TEXT: Pour te récompenser, laisse-moi te donner quelques infos amusantes. Savais-tu que les flammes d’un Héricendre s’intensifient lorsqu’il prend peur ?
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_2
-TEXT: And its Evolution, Quilava, will turn its back on opponents just to show off how ferociously its fire blazes!
+TEXT: Et son Évolution, Feurisson, tourne le dos à ses adversaires juste pour montrer ses flammes dans toute leur splendeur.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_3
-TEXT: Let’s evolve your Cyndaquil into a Quilava. While I’m not jumping at the idea of making it even hotter around here, I AM eager to study the variance in flame intensity as they evolve.
+TEXT: Faisons évoluer ton Héricendre en Feurisson. Je ne brûle pas d’enthousiasme à l’idée qu’il fasse encore plus chaud ici, mais je suis impatient d’étudier l’intensité des flammes de Héricendre au fur et à mesure qu’il évolue.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_2_0
-TEXT: Amazing work, %PLAYERNAME%! Now, let’s take a closer look at your Quilava. You’re on a hot streak!
+TEXT: Excellent travail, %PLAYERNAME% ! Tu n’as clairement pas peur de jouer avec le feu. Maintenant, examinons de plus près ton Feurisson.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_2_1
-TEXT: As I mentioned, Quilava tend to use the heat of their flames to intimidate foes. Those flames burn even stronger when it prepares to fight!
+TEXT: Comme je l’ai déjà dit, Feurisson a tendance à utiliser la chaleur de ses flammes pour intimider ses ennemis. Elles s’intensifient lorsqu’il se prépare à combattre.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_2_2
-TEXT: Your Quilava seems like a real firebrand! I bet it’ll be even more of a force to be reckoned with once it evolves.
+TEXT: Ton Feurisson a l’air tout feu tout flamme ! Je parie qu’il sera encore plus puissant une fois qu’il aura évolué.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_2_3
-TEXT: On that note, let’s turn the thermostat up to max—evolve your Quilava into Typhlosion! There’s learning to be had!
+TEXT: Sur ce, faisons encore monter la température ! Fais évoluer ton Feurisson en Typhlosion. Nous avons encore beaucoup à apprendre !
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_3_0
-TEXT: Oh! I was wondering why I was feeling so toasty, but now I see—you’re back with Typhlosion! Let’s take a moment to marvel at its raw power.
+TEXT: Oh ! Je me demandais pourquoi il faisait aussi chaud d’un seul coup, mais je vois que tu es de retour avec Typhlosion ! Prenons un moment pour admirer sa puissance brute.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_3_1
-TEXT: When a Typhlosion’s rage peaks, it gets so hot that it’ll send anything that touches it up in flames!
+TEXT: Quand la colère d’un Typhlosion atteint son paroxysme, son corps devient si chaud que tout ce qu’il touche s’enflamme instantanément !
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_3_2
-TEXT: I’m pretty sure my eyebrows are getting singed, but it’s totally worth it for an up-close encounter with such an awe-inspiring Pokémon!
+TEXT: Je suis presque sûr que mes sourcils sont en train de brûler, mais ça en vaut la peine si cela me permet de voir de près un Pokémon aussi impressionnant !
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_3_3
-TEXT: You never disappoint, %PLAYERNAME%. Until our next adventure—stay cool!
+TEXT: Tu ne me déçois jamais, %PLAYERNAME%. À la prochaine, et ne laisse pas ton esprit s’échauffer !
 
 RESOURCE ID: quest_special_dialogue_goomy_0_0
 TEXT: Oh, salut %PLAYERNAME% ! Ne fais pas attention à ces taches...
@@ -1497,19 +1515,19 @@ RESOURCE ID: quest_title_catching_wonders_sr_4
 TEXT: Étude magistrale : Merveilles à attraper (4/4)
 
 RESOURCE ID: quest_title_cyndaquil
-TEXT: Community Day Classic: Cyndaquil
+TEXT: Les classiques de la Journée Communauté : Héricendre
 
 RESOURCE ID: quest_title_cyndaquil_0
-TEXT: Community Day Classic: Cyndaquil (1/4)
+TEXT: Les classiques de la Journée Communauté : Héricendre (1/4)
 
 RESOURCE ID: quest_title_cyndaquil_1
-TEXT: Community Day Classic: Cyndaquil (2/4)
+TEXT: Les classiques de la Journée Communauté : Héricendre (2/4)
 
 RESOURCE ID: quest_title_cyndaquil_2
-TEXT: Community Day Classic: Cyndaquil (3/4)
+TEXT: Les classiques de la Journée Communauté : Héricendre (3/4)
 
 RESOURCE ID: quest_title_cyndaquil_3
-TEXT: Community Day Classic: Cyndaquil (4/4)
+TEXT: Les classiques de la Journée Communauté : Héricendre (4/4)
 
 RESOURCE ID: quest_title_goomy
 TEXT: Journée Communauté : Mucuscule
@@ -1725,7 +1743,7 @@ RESOURCE ID: spawn_bounsweet
 TEXT: Davantage de Croquine apparaissent dans la nature.
 
 RESOURCE ID: spawn_cyndaquil
-TEXT: More Cyndaquil are appearing in the wild!
+TEXT: Davantage de Héricendre apparaissent dans la nature.
 
 RESOURCE ID: spawn_goomy
 TEXT: Davantage de Mucuscule apparaissent dans la nature.
@@ -1853,7 +1871,7 @@ RESOURCE ID: ticket_bounsweet
 TEXT: Ticket pour l’Étude spéciale de la Journée Communauté de Croquine dans la Boutique
 
 RESOURCE ID: ticket_cyndaquil_cdc
-TEXT: Ticket for the Cyndaquil Community Day Classic Special Research story available in the shop
+TEXT: Ticket pour l’Étude spéciale dans la Boutique : Les classiques de la Journée Communauté – Héricendre
 
 RESOURCE ID: ticket_glide_victory_tr
 TEXT: Ticket pour accéder à l’Étude ponctuelle Vol plané vers la victoire disponible dans la Boutique
@@ -1863,6 +1881,15 @@ TEXT: Ticket pour l’Étude spéciale de la Journée Communauté de Mucuscule d
 
 RESOURCE ID: ticket_ultra_space_wonders
 TEXT: Ticket pour accéder à l’Étude ponctuelle Étude Merveilles de l’Ultra-Dimension disponible dans la Boutique
+
+RESOURCE ID: timed_challenge_bonus_header_active_v2
+TEXT: Active Bonuses
+
+RESOURCE ID: timed_challenge_bonus_header_inactive_v2
+TEXT: Completion Rewards
+
+RESOURCE ID: timed_challenge_work_together_v2
+TEXT: All trainers must work together as a global community to complete this challenge.
 
 RESOURCE ID: too_far_away_iris_social
 TEXT: Tu es trop loin du PokéStop pour prendre une photo de groupe.

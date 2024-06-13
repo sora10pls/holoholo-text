@@ -322,6 +322,9 @@ TEXT: 2025 Pokémon EUIC Champion (1/2)
 RESOURCE ID: bonus_tr_gbl_naic_2025_a_title_01
 TEXT: 2025 Pokémon EUIC Champion (2/2)
 
+RESOURCE ID: bonuses_active
+TEXT: Bonuses Active!
+
 RESOURCE ID: calavera_bonus_tr_title
 TEXT: Cráneo Monumental: งานวิจัยแบบจำกัดเวลาโบนัส
 
@@ -393,7 +396,7 @@ TEXT: June 28, 10:00 a.m. –
 July 3, 8:00 p.m.
 
 RESOURCE ID: event_datetime_range_key_cyndaquilcdc2024
-TEXT: June 22, 2:00 p.m. – 5:00 p.m.
+TEXT: วันที่ 22 มิถุนายน 2024 เวลา 14:00-17:00 น.
 
 RESOURCE ID: event_datetime_range_key_goomycd2024
 TEXT: วันที่ 9 มิถุนายน 2024 เวลา 14:00-17:00 น.
@@ -478,13 +481,13 @@ RESOURCE ID: fusion_raid_escape_toast
 TEXT: ดูเหมือนวา{0}จะทิ้ง{1}ไวและหนีไปแลว!
 
 RESOURCE ID: fusion_resource_dawnwings_necrozma_desc
-TEXT:  
+TEXT: 
 
 RESOURCE ID: fusion_resource_dawnwings_necrozma_name_plural
 TEXT: พลังงานลูนาร
 
 RESOURCE ID: fusion_resource_duskmane_necrozma_desc
-TEXT:  
+TEXT: 
 
 RESOURCE ID: fusion_resource_duskmane_necrozma_name_plural
 TEXT: พลังงานโซลาร
@@ -505,7 +508,7 @@ RESOURCE ID: general1.ticket._ultraspace24_title
 TEXT: ตั๋วงานวิจัยแบบจำกัดเวลาอัลตราสเปซพิศวง
 
 RESOURCE ID: general1.ticket_cyndaquilcdc2024_title
-TEXT: Cyndaquil Community Day Classic Ticket
+TEXT: ตั๋ว "ฮิโนอาราชิคอมมิวนิตี้เดย (รีเทิรน)"
 
 RESOURCE ID: general1.ticket_goomycd2024_title
 TEXT: ตั๋วนูเมราคอมมิวนิตี้เดย
@@ -518,6 +521,15 @@ TEXT: หมุน
 
 RESOURCE ID: glide_victory_tr_name
 TEXT: บินถลาสูชัยชนะ
+
+RESOURCE ID: global_challenge_bonuses
+TEXT: Global Challenge Bonuses
+
+RESOURCE ID: global_challenge_complete
+TEXT: Global Challenge Complete
+
+RESOURCE ID: global_challenge_completed
+TEXT: Global Challenge Completed!
 
 RESOURCE ID: global_day_1_ticket_0_0
 TEXT: Hey there, %PLAYERNAME%! It's great to see you, but I'm afraid I have some troubling news to share.
@@ -1157,6 +1169,9 @@ TEXT: อยากไดไอเท็มอีกเหรอ? แกต
 RESOURCE ID: grunt_steal#3__male_speaker
 TEXT: อยากไดไอเท็มอีกเหรอ? แกตองชนะฉันใหไดกอน!
 
+RESOURCE ID: hatch_day_extended_bonuses
+TEXT: Hatch Day Extended Bonuses
+
 RESOURCE ID: incense_day_pokemon_ferroseed
 TEXT: เทสซีดถูกดึงดูดดวยเครื่องหอม
 
@@ -1312,7 +1327,10 @@ TEXT: ตั๋วสำหรับเขารวมงานวิจ�
 ตามเวลาทองถิ่นทั่วโลก
 
 RESOURCE ID: item_event_ticket_pink_desc_cyndaquilcdc2024
-TEXT: A ticket to access the Cyndaquil Community Day Classic Special Research starting June 22 at 2:00 p.m. local time, wherever you are.
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษ
+ฮิโนอาราชิคอมมิวนิตี้เดย (รีเทิรน)
+ในวันที่ 22 มิถุนายน 2024 14:00 น.
+ตามเวลาทองถิ่นทั่วโลก
 
 RESOURCE ID: item_event_ticket_pink_desc_flying
 TEXT: ตั๋วสำหรับเขารวมงานงานวิจัย
@@ -1333,7 +1351,10 @@ TEXT: ตั๋วสำหรับเขารวมงานวิจ�
 ตามเวลาทองถิ่นทั่วโลก
 
 RESOURCE ID: item_event_ticket_pink_details_cyndaquilcdc2024
-TEXT: This ticket will automatically activate to give you access to the Special Research story Community Day Classic: Cyndaquil on June 22, wherever you are.
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษ "คอมมิวนิตี้เดย (รีเทิรน): ฮิโนอาราชิ"
+ในวันที่ 22 มิถุนายน 2024
+คุณจะสามารถเขารวมไดโดยอัตโนมัติ
+ตามเวลาทองถิ่นทั่วโลก
 
 RESOURCE ID: item_event_ticket_pink_details_flying
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลา: วันวิจัยโบยบินพรอมหนา
@@ -1415,10 +1436,10 @@ RESOURCE ID: mega_raid_event
 TEXT: คำทาตีบอสเมกา
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-06-12T00:07:19.876401+00:00 for th-TH
-at SHA 43fa72b0ae
-Pipeline 2397520, job 28980325
-Patch from: 0.317.0-SHA-f00910d6-RC4, 0.319.0-SHA-0a543be8-RC1, 0.315.2-SHA-0a0b68b4-RC1
+TEXT: Built at 2024-06-13T00:10:49.612362+00:00 for th-TH
+at SHA f1b58c946c
+Pipeline 2401003, job 29025760
+Patch from: 0.317.0-SHA-f00910d6-RC4, 0.315.2-SHA-0a0b68b4-RC1, 0.319.0-SHA-0a543be8-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: ปลดปลอยแสงพิศวง ดึงดูดโปเกมอนที่พบในเวลากลางคืน และทำใหโปเกมอนวิวัฒนาการกลางคืนสามารถวิวัฒนาการในเวลากลางวันได
@@ -1522,6 +1543,9 @@ TEXT: 5 surprise encounters with Cyndaquil in GO Snapshot
 
 RESOURCE ID: photobomb_five_goomy
 TEXT: นูเมราแยงซีนถายรูปในโกสแนปช็อต 5 ครั้ง
+
+RESOURCE ID: pokedex_mode_name_primal
+TEXT: Primal
 
 RESOURCE ID: pokedex_sort_unfavorite
 TEXT: Unfavorite
@@ -2179,9 +2203,11 @@ TEXT: <b>Included rewards:</b>
 • 1 Super Incubator, 1 Premium Battle Pass, 1 Incense, 1 Incubator, 1 Rocket Radar, 1 Lucky Egg, and more
 
 RESOURCE ID: text_rewards_key_cyndaquilcdc2024
-TEXT: <b>Included rewards:</b>
-• Premium in-game items, such as Rare Candies, Ultra Balls, and more
-• Extra encounters with Cyndaquil and its Evolutions
+TEXT: <b>รางวัลที่จะไดรับ:</b>
+- ไอเท็มภายในเกม เชน ลูกอมประหลาด
+ไฮเปอรบอล และอื่น ๆ
+- เผชิญหนากับฮิโนอาราชิและรางวิวัฒนาการ
+ของมันเพิ่มขึ้น
 
 RESOURCE ID: text_rewards_key_goomycd2024
 TEXT: <b>รางวัลที่จะไดรับ:</b>
@@ -2232,6 +2258,15 @@ TEXT: สามารถซื้อตั๋วสำหรับเนื้�
 
 RESOURCE ID: ticket_ultra_space_wonders
 TEXT: สามารถซื้อตั๋วสำหรับงานวิจัยแบบจำกัดเวลา "อัลตราสเปซพิศวง" ไดที่รานคา
+
+RESOURCE ID: timed_challenge_bonus_header_active_v2
+TEXT: Active Bonuses
+
+RESOURCE ID: timed_challenge_bonus_header_inactive_v2
+TEXT: Completion Rewards
+
+RESOURCE ID: timed_challenge_work_together_v2
+TEXT: All trainers must work together as a global community to complete this challenge.
 
 RESOURCE ID: too_far_away_iris_social
 TEXT: คุณอยูหางจากเสาโปเกสต็อปนี้เกินกวาที่จะถายภาพหมูได
