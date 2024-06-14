@@ -31,6 +31,12 @@ TEXT: AR모드 사용은 찍은 사진을 저장하기 위해 카메라와 갤�
 RESOURCE ID: ar_mode_safety_string
 TEXT: 안전을 확인 후 AR 모드를 사용해 주세요. 아이가 있으면 아이에게서 눈을 떼지 마세요.
 
+RESOURCE ID: ar_tracking_error
+TEXT: AR 트래킹에서 문제가 발생했습니다. 포켓스톱 주변을 다시 스캔하거나 잠시 후 시도해 주십시오,
+
+RESOURCE ID: ar_tracking_reconnecting
+TEXT: AR 트래킹 다시 접속 중
+
 RESOURCE ID: avatar_f_backpack_komala_00_bundle_icon
 TEXT: 자말라 백팩
 
@@ -281,6 +287,9 @@ TEXT: CP 부스트
 RESOURCE ID: buddy_tutorial_cpboost_title
 TEXT: CP 부스트
 
+RESOURCE ID: buddy_widget_description
+TEXT: 언제나 모험 모드로 앱을 켜지 않았을 때도 파트너 포켓몬의 하트 양을 추적할 수 있습니다.
+
 RESOURCE ID: campfire_checkin_notification
 TEXT: {1} 시작의 {0} 모임에 체크인!
 
@@ -320,6 +329,9 @@ TEXT: {0} 동안 수상한 광선을 뿜어내 밤에 나타나는 포켓몬을 
 RESOURCE ID: dusk_mane_move_content
 TEXT: {0} 동안 유성 빛을 뿜어내 낮에 나타나는 포켓몬을 끌어와, 밤에도 낮의 진화를 가능하게 한다.
 
+RESOURCE ID: eggs_widget_description
+TEXT: 언제나 모험 모드로 백그라운드에서 알의 부화 진행을 확인한다.
+
 RESOURCE ID: error_no_meetups
 TEXT: 근처에 모임은 없습니다
 
@@ -331,7 +343,7 @@ TEXT: June 28, 10:00 a.m. –
 July 3, 8:00 p.m.
 
 RESOURCE ID: event_datetime_range_key_cyndaquilcdc2024
-TEXT: June 22, 2:00 p.m. – 5:00 p.m.
+TEXT: 6월 22일 14시~17시
 
 RESOURCE ID: event_datetime_range_key_goomycd2024
 TEXT: 6월 9일 14시~17시
@@ -343,6 +355,10 @@ July 3, 8:00 p.m.
 RESOURCE ID: event_datetime_range_key_slumberingsands24
 TEXT: 6월 7일 10:00~
 6월 12일 20:00
+
+RESOURCE ID: event_datetime_range_key_spelunkercove24
+TEXT: 6월 15일 10시~
+6월 18일 20시
 
 RESOURCE ID: event_datetime_range_key_stadiumsights24
 TEXT: 6월 1일 10:00~
@@ -436,6 +452,9 @@ TEXT: Whispers in the Woods Masterwork Research Ticket
 RESOURCE ID: general1.ticket._slumberingsands24_title
 TEXT: 초여름의 선잠 프리미엄 시간제한 리서치 티켓
 
+RESOURCE ID: general1.ticket._spelunkercove24_title
+TEXT: 비치 파티 시간제한 리서치 티켓
+
 RESOURCE ID: general1.ticket._stadiumsights24_title
 TEXT: 승리의 활공 시간제한 리서치 티켓
 
@@ -443,7 +462,7 @@ RESOURCE ID: general1.ticket._ultraspace24_title
 TEXT: 울트라스페이스 원더 시간제한 리서치 티켓
 
 RESOURCE ID: general1.ticket_cyndaquilcdc2024_title
-TEXT: Cyndaquil Community Day Classic Ticket
+TEXT: 브케인 커뮤니티 데이(복각) 티켓
 
 RESOURCE ID: general1.ticket_goomycd2024_title
 TEXT: 미끄메라 커뮤니티 데이 티켓
@@ -1057,8 +1076,17 @@ TEXT: 메리프가 향로에 반응
 RESOURCE ID: incident_already_completed_error
 TEXT: 배틀이 완료 되었습니다.
 
+RESOURCE ID: iris_color_sort
+TEXT: Color
+
+RESOURCE ID: iris_social_add_pokemon_key
+TEXT: 포켓몬 추가
+
 RESOURCE ID: iris_social_choose_pokemon_toast
 TEXT: 이 에리어에 놔둘 포켓몬을 선택한다
+
+RESOURCE ID: iris_social_empty_pokemon_bag_key
+TEXT: 내보낼 포켓몬이 없습니다
 
 RESOURCE ID: iris_social_limited_pokemon_key
 TEXT: 지금은 포켓몬을 둘 장소가 없습니다
@@ -1096,6 +1124,9 @@ TEXT: I don’t know where to point my camera
 RESOURCE ID: iris_social_pokemon_info_recall_button
 TEXT: 돌아오기
 
+RESOURCE ID: iris_social_pokemon_resting_key
+TEXT: 포켓몬은 자고 있는 것 같습니다. 잠시후 다시 확인해 주세요.
+
 RESOURCE ID: iris_social_recall_confirmation_modal_body
 TEXT: 이 조작은 취소할 수 없습니다.
 
@@ -1118,8 +1149,17 @@ TEXT: Thank you for your report!
 RESOURCE ID: iris_social_tired_pokemon_journal_string
 TEXT: {0}(이)가 {1}에서 놀다 돌아왔습니다!
 
+RESOURCE ID: iris_social_tired_pokemon_multiple_string
+TEXT: {0}(와)과 다른 {1}마리의 포켓몬이 놀다가 지쳐서 돌아왔다!
+
 RESOURCE ID: iris_social_tired_pokemon_string
 TEXT: 놀다 지쳐서 돌아왔습니다!
+
+RESOURCE ID: iris_temperature_warning_body
+TEXT: Due to the high temperature of the smartphone, the camera has been temporarily disabled. Please wait until the smartphone cools down to its normal temperature.
+
+RESOURCE ID: iris_temperature_warning_title
+TEXT: High Temperature Caution
 
 RESOURCE ID: irisisocial_tutorial_body_eight
 TEXT: 스티커를 붙이거나 찍은 사진을 꾸밀 수 있습니다. 사진을 꾸미고 공유하세요!
@@ -1188,43 +1228,49 @@ RESOURCE ID: item_event_ticket_gray_details_shinycelebi24
 TEXT: This ticket will automatically activate to give you access to the Whispers in the Woods Masterwork Research on June 28, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: 현지시간 2024년 6월 9일 14시부터 미끄메라 커뮤니티 데이 스페셜리서치를 진행하기 위한 티켓.
+TEXT: 현지시간 2024년 6월 22일 14시부터 브케인 커뮤니티 데이(복각) 스페셜리서치를 진행하기 위한 티켓.
 
 RESOURCE ID: item_event_ticket_pink_desc_bounsweet
 TEXT: 현지시간 2024년 5월 19일 14시부터 달콤아 커뮤니티 데이 스페셜리서치를 진행하기 위한 티켓.
 
-RESOURCE ID: item_event_ticket_pink_desc_cyndaquilcdc2024
-TEXT: A ticket to access the Cyndaquil Community Day Classic Special Research starting June 22 at 2:00 p.m. local time, wherever you are.
-
 RESOURCE ID: item_event_ticket_pink_desc_flying
 TEXT: 현지시간 2024년 5월 11일 14시~17시 비행 리서치데이 시간제한 리서치를 진행하기 위한 티켓.
 
+RESOURCE ID: item_event_ticket_pink_desc_goomy
+TEXT: 현지시간 2024년 6월 9일 14시부터 미끄메라 커뮤니티 데이 스페셜리서치를 진행하기 위한 티켓.
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: 이 티켓은 자동으로 활성화되어 현지시간 6월 9일 미끄메라 커뮤니티 데이 스페셜리서치가 진행됩니다.
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2024년6월 22일에 커뮤니티 데이(복각): 브케인 스페셜리서치가 진행됩니다.
 
 RESOURCE ID: item_event_ticket_pink_details_bounsweet
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 5월 19일에 '후르츠포켓몬의 수수께끼를 풀어라!' 스페셜리서치가 진행됩니다.
 
-RESOURCE ID: item_event_ticket_pink_details_cyndaquilcdc2024
-TEXT: This ticket will automatically activate to give you access to the Special Research story Community Day Classic: Cyndaquil on June 22, wherever you are.
-
 RESOURCE ID: item_event_ticket_pink_details_flying
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 5월 11일에비행 리서치데이 시간제한 리서치가 진행됩니다.
 
+RESOURCE ID: item_event_ticket_pink_details_goomy
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 6월 9일 미끄메라 커뮤니티 데이 스페셜리서치가 진행됩니다.
+
 RESOURCE ID: item_evergreen_ticket_desc
-TEXT: 현지시간 2024년 6월 12일 20시까지 초여름의 선잠 프리미엄 시간제한 리서치를 진행할 수 있는 티켓.
+TEXT: 현지시간 2024년 6월 18일 20시까지 비치 파티 시간제한 리서치를 진행할 수 있는 티켓.
 
 RESOURCE ID: item_evergreen_ticket_desc_pokecoins
 TEXT: 빈칸이 있으면 필드리서치 과제를 받을 수 있는 티켓. 매일 1개 완료하면 20포켓코인을 손에 넣을 수 있습니다.
+
+RESOURCE ID: item_evergreen_ticket_desc_slumberingsands
+TEXT: 현지시간 2024년 6월 12일 20시까지 초여름의 선잠 프리미엄 시간제한 리서치를 진행할 수 있는 티켓.
 
 RESOURCE ID: item_evergreen_ticket_desc_stadiumsights
 TEXT: 현지시간 2024년 6월 1일 10시 ~ 6월 4일 20시에 승리의 활공 시간제한 리서치를 진행할 수 있는 티켓.
 
 RESOURCE ID: item_evergreen_ticket_details
-TEXT: 이 티켓은 자동으로 활성화되어 현지시간 6월 7일에 초여름의 선잠 시간제한 리서치가 진행됩니다.
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 6월 15일에 비치 파티 시간제한 리서치가 진행됩니다.
 
 RESOURCE ID: item_evergreen_ticket_details_pokecoins
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 5월 16일에 데일리 필드리서치 티켓이 진행됩니다.
+
+RESOURCE ID: item_evergreen_ticket_details_slumberingsands
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 6월 7일에 초여름의 선잠 시간제한 리서치가 진행됩니다.
 
 RESOURCE ID: item_evergreen_ticket_details_stadiumsights
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 6월 1일에 승리의 활공 시간제한 리서치가 진행됩니다.
@@ -1278,10 +1324,10 @@ RESOURCE ID: mega_evo_bonus_buff_title
 TEXT: {0}의 메가진화 보너스
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-06-13T00:10:49.612362+00:00 for ko-KR
-at SHA f1b58c946c
-Pipeline 2401003, job 29025760
-Patch from: 0.317.0-SHA-f00910d6-RC4, 0.315.2-SHA-0a0b68b4-RC1, 0.319.0-SHA-0a543be8-RC1
+TEXT: Built at 2024-06-13T23:42:12.560664+00:00 for ko-KR
+at SHA e44a744008d
+Pipeline 2404364, job 29067112
+Patch from: 0.315.2-SHA-0a0b68b4-RC1, 0.317.0-SHA-dcf47c39-RC3, 0.319.0-SHA-0a543be8-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: 수상한 광선을 뿜어내 밤에 나타나는 포켓몬을 끌어와, 낮에도 밤의 진화를 가능하게 한다.
@@ -1318,6 +1364,21 @@ TEXT: 여기에 포켓몬은 없는 것 같습니다. 나의 포켓몬을 두겠
 
 RESOURCE ID: no_pokemon_found_header
 TEXT: 포켓몬을 찾을 수 없습니다
+
+RESOURCE ID: notification_from_gym_title
+TEXT: 체육관에서
+
+RESOURCE ID: notification_from_play_body
+TEXT: 포켓스톱 또는 체육관에서 논 포켓몬은 지치면 트레이너 곁으로 돌아옵니다
+
+RESOURCE ID: notification_from_play_title
+TEXT: 놀다가
+
+RESOURCE ID: notification_return_title
+TEXT: 포켓몬의 귀환
+
+RESOURCE ID: oob_toast_string_key
+TEXT: 플레이 에리어 내에 돌아간 후 포켓몬을 꺼냅니다.
 
 RESOURCE ID: party_play_party_share_card_title
 TEXT: 팀 내에서 도구를 공유하자!
@@ -1370,8 +1431,20 @@ TEXT: {0}님이 {2}{1}개를 공유했습니다
 RESOURCE ID: party_share_ticker_message_plural
 TEXT: {0}님이 {2}{1}개를 공유했습니다
 
+RESOURCE ID: photo_hub_all_groups_title
+TEXT: ALL GROUPS
+
+RESOURCE ID: photo_hub_decorate
+TEXT: Decorate
+
 RESOURCE ID: photo_hub_hashtags
 TEXT: 해시태그 #GOsnapshot #PokemonGO
+
+RESOURCE ID: photo_hub_last_used
+TEXT: Previously Photographed
+
+RESOURCE ID: photo_hub_see_all_groups
+TEXT: SEE ALL GROUPS
 
 RESOURCE ID: photo_set_playful_pals_big
 TEXT: 장난꾸러기 프렌드
@@ -1386,7 +1459,7 @@ RESOURCE ID: photobomb_five_goomy
 TEXT: GO스냅샷으로 미끄메라의 서프라이즈 5회
 
 RESOURCE ID: pokedex_mode_name_primal
-TEXT: Primal
+TEXT: Primal Reversion
 
 RESOURCE ID: pokedex_sort_unfavorite
 TEXT: 즐겨찾기 해제
@@ -1602,7 +1675,7 @@ RESOURCE ID: quest_special_dialogue_goomy_3_3
 TEXT: 오늘도 끈적이게 조사해 줘서 고마워. 미끄래곤과의 모험을 충분히 즐겨줘!
 
 RESOURCE ID: quest_special_dialogue_litwick_1_2
-TEXT: "Life force," Professor Willow says? Peculiar. I wonder—would those flames transform if Litwick were to evolve?
+TEXT: 사람과 포켓몬의 생명력이 불타고 있구나... 저 불꽃은... 진화하면 불꽃은 어떻게 되는 걸까?
 
 RESOURCE ID: quest_steenee_evolve_b_plural
 TEXT: 달무리나를 {0}마리 진화시킨다
@@ -2025,9 +2098,9 @@ TEXT: <b>Included rewards:</b>
 • 1 Super Incubator, 1 Premium Battle Pass, 1 Incense, 1 Incubator, 1 Rocket Radar, 1 Lucky Egg, and more
 
 RESOURCE ID: text_rewards_key_cyndaquilcdc2024
-TEXT: <b>Included rewards:</b>
-• Premium in-game items, such as Rare Candies, Ultra Balls, and more
-• Extra encounters with Cyndaquil and its Evolutions
+TEXT: <b>받을 수 있는 것:</b>
+- 브케인과 그 진화형 포켓몬과의 만남
+- 이상한사탕, 하이퍼볼 등의 도구
 
 RESOURCE ID: text_rewards_key_goomycd2024
 TEXT: <b>받을 수 있는 것:</b>
@@ -2047,6 +2120,12 @@ TEXT: <b>받을 수 있는 리워드: </b>
 - 자말라 백팩
 - 자말라와 선캡 쓴 게을로와의 만남
 - 10,000XP, 별의모래 2,500, 몬스터볼 25개, 은 파인열매 2개, 황금 라즈열매 2개, 별의조각 1개 등
+
+RESOURCE ID: text_rewards_key_spelunkercove24
+TEXT: <b>받을 수 있는 것:</b>
+- 오기지게와의 만남 5회
+- 프리미엄 배틀패스 5장
+- 오기지게의 사탕 20개 등
 
 RESOURCE ID: text_rewards_key_stadiumsights24
 TEXT: <b>받을 수 있는 리워드:</b>
@@ -2132,6 +2211,9 @@ TEXT: 힌트 이미지에 표시된 장소에 카메라를 향하게 하고 주�
 RESOURCE ID: vps_localization_error_generic_header
 TEXT: 스캔하지 못했습니다.
 
+RESOURCE ID: vps_localization_error_too_far
+TEXT: 대상에게 다가가세요
+
 RESOURCE ID: vps_localization_exit_confirmation_body
 TEXT: 체험을 여기에서 종료합니다. 
 
@@ -2182,6 +2264,9 @@ TEXT: 오류가 발생했습니다. 잠시 후 시도해 주세요.
 
 RESOURCE ID: vps_localization_toast
 TEXT: 천천히 주변을 걸어주세요.
+
+RESOURCE ID: vps_localization_toast_alternative
+TEXT: 포켓몬을 찾고 있습니다.
 
 RESOURCE ID: waina_24_tr_title
 TEXT: Pokémon Sleep 시간제한 리서치

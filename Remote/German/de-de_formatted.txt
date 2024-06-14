@@ -34,6 +34,12 @@ TEXT: Um den AR-Modus benutzen zu können, benötigen wir Zugang zu deiner Kamer
 RESOURCE ID: ar_mode_safety_string
 TEXT: Während der AR-Modus aktiv ist, vergewissere dich, dass du dich an einem sicheren Ort befindest und dass Kinder jederzeit beaufsichtigt sind.
 
+RESOURCE ID: ar_tracking_error
+TEXT: Es ist ein Problem beim AR-Tracking aufgetreten. Versuche bitte, den Bereich um den PokéStop erneut zu scannen oder versuche es später erneut.
+
+RESOURCE ID: ar_tracking_reconnecting
+TEXT: AR-Tracking wird wiederhergestellt
+
 RESOURCE ID: avatar_f_backpack_komala_00_bundle_icon
 TEXT: Koalelu-Rucksack
 
@@ -233,6 +239,9 @@ TEXT: 2025 Pokémon EUIC Champion (2/2)
 RESOURCE ID: bonuses_active
 TEXT: Bonuses Active!
 
+RESOURCE ID: buddy_widget_description
+TEXT: Nutze Abenteuer-Sync, um die Herzanzeige deines Kumpel-Pokémons zu verfolgen, wenn Pokémon GO im Hintergrund geöffnet ist.
+
 RESOURCE ID: campfire_checkin_notification
 TEXT: Treffen für {0} beginnt um {1}! Schau vorbei und schnapp dir deine Belohnung!
 
@@ -275,6 +284,9 @@ TEXT: Zugewiesene Pokémon: {0}
 RESOURCE ID: dusk_mane_move_content
 TEXT: Scheint für {0} das Licht eines Meteors. Lockt am Tag gefundene Pokémon an und ermöglicht üblicherweise am Tag durchgeführte Entwicklungen in der Nacht.
 
+RESOURCE ID: eggs_widget_description
+TEXT: Nutze Abenteuer-Sync, um den Fortschritt beim Ausbrüten von Eiern zu verfolgen, während Pokémon GO im Hintergrund läuft.
+
 RESOURCE ID: error_gift_does_not_exist
 TEXT: Geschenk-Fehler. Bitte, versuche es erneut.
 
@@ -298,6 +310,10 @@ TEXT: 28. Juni um 10:00 Uhr –
 RESOURCE ID: event_datetime_range_key_slumberingsands24
 TEXT: 7. Juni um 10:00 Uhr –
 12. Juni um 20:00 Uhr
+
+RESOURCE ID: event_datetime_range_key_spelunkercove24
+TEXT: 15. Juni um 10:00 Uhr –
+18. Juni um 20:00 Uhr
 
 RESOURCE ID: event_datetime_range_key_stadiumsights24
 TEXT: 1. Juni um 10:00 Uhr – 
@@ -387,6 +403,9 @@ TEXT: Ticket für die Meisterwerk-Forschung „Waldgeflüster“
 
 RESOURCE ID: general1.ticket._slumberingsands24_title
 TEXT: Ticket für die Befristete Premium-Forschung: Schlummernder Sand
+
+RESOURCE ID: general1.ticket._spelunkercove24_title
+TEXT: Ticket für die Befristete Forschung Strandrandale
 
 RESOURCE ID: general1.ticket._stadiumsights24_title
 TEXT: Ticket für die Befristete Forschung „Zum Sieg gleiten“
@@ -916,8 +935,17 @@ TEXT: Kastadur werden von Rauch angelockt
 RESOURCE ID: incident_already_completed_error
 TEXT: Kampf bereits abgeschlossen.
 
+RESOURCE ID: iris_color_sort
+TEXT: Color
+
+RESOURCE ID: iris_social_add_pokemon_key
+TEXT: Pokémon hinzufügen
+
 RESOURCE ID: iris_social_choose_pokemon_toast
 TEXT: Wähle ein Pokémon, um es in diesen Bereich zu platzieren.
+
+RESOURCE ID: iris_social_empty_pokemon_bag_key
+TEXT: Du hast kein Pokémon, das du platzieren kannst.
 
 RESOURCE ID: iris_social_limited_pokemon_key
 TEXT: Es gibt momentan nicht genug Platz für dieses Pokémon.
@@ -955,6 +983,9 @@ TEXT: I don’t know where to point my camera
 RESOURCE ID: iris_social_pokemon_info_recall_button
 TEXT: ZURÜCKRUFEN
 
+RESOURCE ID: iris_social_pokemon_resting_key
+TEXT: Zeit für ein Päuschen! Bitte komm später wieder.
+
 RESOURCE ID: iris_social_recall_confirmation_modal_body
 TEXT: Diese Aktion kann nicht rückgängig gemacht werden.
 
@@ -977,8 +1008,17 @@ TEXT: Thank you for your report!
 RESOURCE ID: iris_social_tired_pokemon_journal_string
 TEXT: {0} ist zurück von {1}
 
+RESOURCE ID: iris_social_tired_pokemon_multiple_string
+TEXT: {0} und {1} andere Pokémon haben sich müde gespielt und sind zurück!
+
 RESOURCE ID: iris_social_tired_pokemon_string
 TEXT: hat sich müde gespielt und ist zurück!
+
+RESOURCE ID: iris_temperature_warning_body
+TEXT: Due to the high temperature of the smartphone, the camera has been temporarily disabled. Please wait until the smartphone cools down to its normal temperature.
+
+RESOURCE ID: iris_temperature_warning_title
+TEXT: High Temperature Caution
 
 RESOURCE ID: irisisocial_tutorial_body_eight
 TEXT: Dekoriere deine Fotos mit Aufklebern. Füge ein wenig kreatives Flair hinzu und teile dann deine Fotos mit anderen – dein nächstes Meisterwerk wartet schon!
@@ -1047,43 +1087,49 @@ RESOURCE ID: item_event_ticket_gray_details_shinycelebi24
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Meisterwerk-Forschung „Waldgeflüster“ am 28. Juni 2024 (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Ein Ticket zur Teilnahme an der Spezialforschung zum Community Day mit Viscora am 9. Juni 2024 um 14:00 Uhr Ortszeit (wo immer du dich befindest).
+TEXT: Ein Ticket zur Teilnahme an der Spezialforschung zum Community Day Classic mit Feurigel am 22. Juni 2024 um 14:00 Uhr Ortszeit (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_pink_desc_bounsweet
 TEXT: Ein Ticket zur Teilnahme an der Spezialforschung zum Community Day mit Frubberl am 19. Mai 2024 um 14:00 Uhr Ortszeit (wo immer du dich befindest).
 
-RESOURCE ID: item_event_ticket_pink_desc_cyndaquilcdc2024
-TEXT: Ein Ticket zur Teilnahme an der Spezialforschung zum Community Day Classic mit Feurigel am 22. Juni 2024 um 14:00 Uhr Ortszeit (wo immer du dich befindest).
-
 RESOURCE ID: item_event_ticket_pink_desc_flying
 TEXT: Ein Ticket zur Teilnahme an der Befristeten Forschung zum Forschungstag Flugformation am 11. Mai 2024 von 14:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
 
+RESOURCE ID: item_event_ticket_pink_desc_goomy
+TEXT: Ein Ticket zur Teilnahme an der Spezialforschung zum Community Day mit Viscora am 9. Juni 2024 um 14:00 Uhr Ortszeit (wo immer du dich befindest).
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Spezialforschung zum Community Day mit Viscora am 9. Juni 2024 (wo immer du dich befindest).
+TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zum Spezialforschungs-Abenteuer des Community Day Classic mit Feurigel am 22. Juni 2024 (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_pink_details_bounsweet
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugangzum Spezialforschungs-Abenteuer „Eine süße Überraschung“ am 19. Mai 2024 (wo immer du dich befindest).
 
-RESOURCE ID: item_event_ticket_pink_details_cyndaquilcdc2024
-TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zum Spezialforschungs-Abenteuer des Community Day Classic mit Feurigel am 22. Juni 2024 (wo immer du dich befindest).
-
 RESOURCE ID: item_event_ticket_pink_details_flying
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Forschung zum Forschungstag Flugformation am 11. Mai 2024 (wo immer du dich befindest).
 
+RESOURCE ID: item_event_ticket_pink_details_goomy
+TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Spezialforschung zum Community Day mit Viscora am 9. Juni 2024 (wo immer du dich befindest).
+
 RESOURCE ID: item_evergreen_ticket_desc
-TEXT: Ein Ticket für den Zugang zur Befristeten Premium-Forschung „Schlummernder Sand“ bis zum 12. Juni 2024 um 20:00 Uhr Ortszeit (wo immer du dich befindest).
+TEXT: Ein Ticket für den Zugang zur Befristeten Forschung Strandrandale bis zum 18. Juni 2024 um 20:00 Uhr Ortszeit (wo immer du dich befindest).
 
 RESOURCE ID: item_evergreen_ticket_desc_pokecoins
 TEXT: Ein Ticket, mit dem du eine Feldforschungsaufgabe erhalten kannst, wenn du eine freie Feldforschungsstelle hast. Die Aufgabe kann einmal täglich abgeschlossen werden und belohnt dich mit 20 PokéMünzen.
+
+RESOURCE ID: item_evergreen_ticket_desc_slumberingsands
+TEXT: Ein Ticket für den Zugang zur Befristeten Premium-Forschung „Schlummernder Sand“ bis zum 12. Juni 2024 um 20:00 Uhr Ortszeit (wo immer du dich befindest).
 
 RESOURCE ID: item_evergreen_ticket_desc_stadiumsights
 TEXT: Ein Ticket für den Zugang zur Befristeten Forschung „Zum Sieg gleiten“ vom 1. Juni 2024 um 10:00 Uhr bis zum 4. Juni 2024 um 20:00 Uhr Ortszeit (wo immer du dich befindest).
 
 RESOURCE ID: item_evergreen_ticket_details
-TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Premium-Forschung „Schlummernder Sand“ am 7. Juni 2024 (wo immer du dich befindest).
+TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Forschung Strandrandale am 15. Juni (wo immer du dich befindest).
 
 RESOURCE ID: item_evergreen_ticket_details_pokecoins
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Täglichen Feldforschung: PokéMünzen am 16. Mai 2024 (wo immer du dich befindest).
+
+RESOURCE ID: item_evergreen_ticket_details_slumberingsands
+TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Premium-Forschung „Schlummernder Sand“ am 7. Juni 2024 (wo immer du dich befindest).
 
 RESOURCE ID: item_evergreen_ticket_details_stadiumsights
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Forschung „Zum Sieg gleiten“ am 1. Juni 2024 (wo immer du dich befindest).
@@ -1125,10 +1171,10 @@ RESOURCE ID: meetups_ended_desc
 TEXT: Das Treffen ist beendet.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-06-13T00:10:49.612362+00:00 for de-DE
-at SHA f1b58c946c
-Pipeline 2401003, job 29025760
-Patch from: 0.317.0-SHA-f00910d6-RC4, 0.315.2-SHA-0a0b68b4-RC1, 0.319.0-SHA-0a543be8-RC1
+TEXT: Built at 2024-06-13T23:42:12.560664+00:00 for de-DE
+at SHA e44a744008d
+Pipeline 2404364, job 29067112
+Patch from: 0.315.2-SHA-0a0b68b4-RC1, 0.317.0-SHA-dcf47c39-RC3, 0.319.0-SHA-0a543be8-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Sendet einen unheilvollen Strahl aus. Lockt in der Nacht gefundene Pokémon an und ermöglicht üblicherweise in der Nacht durchgeführte Entwicklungen am Tag.
@@ -1165,6 +1211,21 @@ TEXT: Es sieht so aus, als gäbe es hier noch keine Pokémon! Möchtest du dein 
 
 RESOURCE ID: no_pokemon_found_header
 TEXT: Kein Pokémon gefunden!
+
+RESOURCE ID: notification_from_gym_title
+TEXT: Aus einer Arena
+
+RESOURCE ID: notification_from_play_body
+TEXT: Ein Pokémon, das zum Spielen bei einem PokéStop oder einer Arena zurückgelassen wird, wird zu dir zurückkehren, wenn es fertig ist.
+
+RESOURCE ID: notification_from_play_title
+TEXT: Vom Spielen
+
+RESOURCE ID: notification_return_title
+TEXT: Pokémon zurückgekehrt
+
+RESOURCE ID: oob_toast_string_key
+TEXT: Kehre zum Spielbereich zurück, um Pokémon zu platzieren.
 
 RESOURCE ID: party_play_party_share_card_title
 TEXT: Teile Items mit deinem Team!
@@ -1217,8 +1278,20 @@ TEXT: {0} teilte {1}-mal {2}
 RESOURCE ID: party_share_ticker_message_plural
 TEXT: {0} teilte {1}-mal {2}
 
+RESOURCE ID: photo_hub_all_groups_title
+TEXT: ALL GROUPS
+
+RESOURCE ID: photo_hub_decorate
+TEXT: Decorate
+
 RESOURCE ID: photo_hub_hashtags
 TEXT: Benutze die Hashtags #GOsnapshot #PokemonGO
+
+RESOURCE ID: photo_hub_last_used
+TEXT: Previously Photographed
+
+RESOURCE ID: photo_hub_see_all_groups
+TEXT: SEE ALL GROUPS
 
 RESOURCE ID: photo_set_playful_pals_big
 TEXT: Verspielte Vierbeiner
@@ -1233,7 +1306,7 @@ RESOURCE ID: photobomb_five_goomy
 TEXT: 5 überraschende Begegnungen mit Viscora in GO-Schnappschuss
 
 RESOURCE ID: pokedex_mode_name_primal
-TEXT: Primal
+TEXT: Primal Reversion
 
 RESOURCE ID: pokedex_sort_unfavorite
 TEXT: Entfavorisieren
@@ -1437,7 +1510,7 @@ RESOURCE ID: quest_special_dialogue_goomy_3_3
 TEXT: Jedenfalls danke, dass du an dieser Forschung kleben bleibst! Ich hoffe, du und dein Viscogon haben noch viele Jahre vor euch!
 
 RESOURCE ID: quest_special_dialogue_litwick_1_2
-TEXT: "Life force," Professor Willow says? Peculiar. I wonder—would those flames transform if Litwick were to evolve?
+TEXT: „Lebenskraft“, sagt Professor Willow? Sonderbar. Ich frage mich, ob sich diese Flammen verwandeln, wenn Lichtel sich weiterentwickelt.
 
 RESOURCE ID: quest_steenee_evolve_b_plural
 TEXT: Entwickle {0} Frubaila
@@ -1817,6 +1890,12 @@ TEXT: <b>Enthält folgende Belohnungen:</b>
 • Begegnungen mit Koalelu und Bummelz mit Visor
 • 10.000 EP, 2.500 Sternenstaub, 25 Pokébälle, 2 Silberne Sananabeeren, 2 Goldene Himmihbeeren und 1 Sternenstück
 
+RESOURCE ID: text_rewards_key_spelunkercove24
+TEXT: <b>Enthält folgende Belohnungen:</b>
+• 5 Begegnungen mit Krabbox
+• 5 Premium-Kampfpässe
+• 20 Krabbox-Bonbons
+
 RESOURCE ID: text_rewards_key_stadiumsights24
 TEXT: <b>Enthält folgende Belohnungen:</b>
 • 5 Begegnungen mit Emolga
@@ -1901,6 +1980,9 @@ TEXT: Stelle sicher, dass du deine Kamera wie auf dem Hinweisbild auf den Bereic
 RESOURCE ID: vps_localization_error_generic_header
 TEXT: Etwas ist schiefgelaufen.
 
+RESOURCE ID: vps_localization_error_too_far
+TEXT: Bewege dich näher ans Ziel.
+
 RESOURCE ID: vps_localization_exit_confirmation_body
 TEXT: Du wirst nicht mehr in der Lage sein, eine Verbindung zu dem Bereich herzustellen.
 
@@ -1951,6 +2033,9 @@ TEXT: Sorry, etwas ist schiefgelaufen. Bitte versuche es später erneut.
 
 RESOURCE ID: vps_localization_toast
 TEXT: Gehe langsam um den Standort herum.
+
+RESOURCE ID: vps_localization_toast_alternative
+TEXT: Suche nach Pokémon in deiner Umgebung
 
 RESOURCE ID: waina_24_tr_title
 TEXT: Befristete Forschung: Pokémon Sleep

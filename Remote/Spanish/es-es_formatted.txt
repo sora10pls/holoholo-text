@@ -40,6 +40,12 @@ TEXT: Para usar el modo RA, necesitamos acceso a tu cámara y galería, de forma
 RESOURCE ID: ar_mode_safety_string
 TEXT: Cuando estés usando el modo RA, asegúrate de estar en un lugar seguro y de que los menores estén bajo supervisión en todo momento.
 
+RESOURCE ID: ar_tracking_error
+TEXT: Ha habido un problema con el seguimiento de RA. Trata de escanear la zona de la Poképarada de nuevo o vuelve a intentarlo más tarde.
+
+RESOURCE ID: ar_tracking_reconnecting
+TEXT: Reconectando el seguimiento de RA
+
 RESOURCE ID: avatar_f_backpack_komala_00_bundle_icon
 TEXT: Mochila de Komala
 
@@ -96,6 +102,9 @@ TEXT: Yogyakarta, August 25, 2024
 
 RESOURCE ID: badge_airadventures_2024_yogyakarta_day_02_general_title
 TEXT: Pikachu's Indonesia Journey
+
+RESOURCE ID: badge_event_0074
+TEXT: Campeonato Mundial Pokémon 2023: Bonus de investigación temporal
 
 RESOURCE ID: badge_event_0089
 TEXT: Investigación de socio de Bajo el Mismo Cielo: SoftBank
@@ -266,6 +275,9 @@ TEXT: 2025 Pokémon EUIC Champion (2/2)
 RESOURCE ID: bonuses_active
 TEXT: Bonuses Active!
 
+RESOURCE ID: buddy_widget_description
+TEXT: Usa Sincroaventura para seguir el progreso de los corazones de tu compañero cuando Pokémon GO esté funcionando en segundo plano.
+
 RESOURCE ID: campfire_checkin_notification
 TEXT: Hora de comienzo de la quedada de {0}: {1}. ¡Inscríbete para recibir tu recompensa!
 
@@ -305,6 +317,9 @@ TEXT: Emite un rayo misterioso durante {0}. Atrae Pokémon nocturnos y permite l
 RESOURCE ID: dusk_mane_move_content
 TEXT: Brilla con la luz de un meteoro durante {0}. Atrae Pokémon diurnos y permite la evolución diurna durante la noche.
 
+RESOURCE ID: eggs_widget_description
+TEXT: Usa Sincroaventura para seguir el progreso de eclosión de los Huevos cuando Pokémon GO esté funcionando en segundo plano.
+
 RESOURCE ID: error_gift_does_not_exist
 TEXT: Ha habido un error con este regalo. Inténtalo de nuevo.
 
@@ -315,8 +330,8 @@ RESOURCE ID: error_reward_item_reach_limit
 TEXT: Has alcanzado el límite en tu inventario para uno o más de estos objetos.
 
 RESOURCE ID: event_datetime_range_key_anniversary24
-TEXT: June 28, 10:00 a.m. –
-July 3, 8:00 p.m.
+TEXT: Del 28 de junio a las 10:00 al
+3 de julio a las 20:00.
 
 RESOURCE ID: event_datetime_range_key_cyndaquilcdc2024
 TEXT: 22 de junio de 14:00 a 17:00
@@ -331,6 +346,10 @@ TEXT: Del 28 de junio a las 10:00 al
 RESOURCE ID: event_datetime_range_key_slumberingsands24
 TEXT: Del 7 de junio a las 10:00 al
 12 de junio a las 20:00.
+
+RESOURCE ID: event_datetime_range_key_spelunkercove24
+TEXT: Del 15 de junio a las 10:00 al
+18 de junio a las 20:00.
 
 RESOURCE ID: event_datetime_range_key_stadiumsights24
 TEXT: Del 1 de junio a las 10:00 al
@@ -416,13 +435,16 @@ RESOURCE ID: fusion_resource_duskmane_necrozma_name_plural
 TEXT: Energía Fusión Solar
 
 RESOURCE ID: general1.ticket._anniversary24_title
-TEXT: 8th Anniversary Party Premium Timed Research Ticket
+TEXT: Entrada: Investigación temporal prémium de Fiesta del 8.º Aniversario
 
 RESOURCE ID: general1.ticket._shinycelebi24_title
 TEXT: Entrada: Investigación magistral "El susurro del bosque"
 
 RESOURCE ID: general1.ticket._slumberingsands24_title
 TEXT: Entrada: Investigación temporal prémium "Arenas estivales"
+
+RESOURCE ID: general1.ticket._spelunkercove24_title
+TEXT: Entrada: Investigación temporal "Encontronazo playero"
 
 RESOURCE ID: general1.ticket._stadiumsights24_title
 TEXT: Entrada: Investigación temporal "Planeando hacia la victoria"
@@ -955,8 +977,17 @@ TEXT: Los Ferroseed son atraídos por el Incienso
 RESOURCE ID: incident_already_completed_error
 TEXT: Combate ya completado.
 
+RESOURCE ID: iris_color_sort
+TEXT: Color
+
+RESOURCE ID: iris_social_add_pokemon_key
+TEXT: Añadir Pokémon
+
 RESOURCE ID: iris_social_choose_pokemon_toast
 TEXT: Elige al Pokémon que quieres colocar en esta zona.
+
+RESOURCE ID: iris_social_empty_pokemon_bag_key
+TEXT: No tienes ningún Pokémon para colocar.
 
 RESOURCE ID: iris_social_limited_pokemon_key
 TEXT: Ahora mismo no hay suficiente espacio para ese Pokémon.
@@ -994,6 +1025,9 @@ TEXT: I don’t know where to point my camera
 RESOURCE ID: iris_social_pokemon_info_recall_button
 TEXT: LLAMAR
 
+RESOURCE ID: iris_social_pokemon_resting_key
+TEXT: ¡Es hora de descansar! Vuelve más adelante.
+
 RESOURCE ID: iris_social_recall_confirmation_modal_body
 TEXT: Esta acción no se puede revertir.
 
@@ -1016,8 +1050,17 @@ TEXT: Thank you for your report!
 RESOURCE ID: iris_social_tired_pokemon_journal_string
 TEXT: {0} ha vuelto después de jugar en {1}.
 
+RESOURCE ID: iris_social_tired_pokemon_multiple_string
+TEXT: ¡{0} y otros {1} Pokémon han jugado hasta cansarse y han vuelto!
+
 RESOURCE ID: iris_social_tired_pokemon_string
 TEXT: ¡ha jugado hasta cansarse y ha vuelto!
+
+RESOURCE ID: iris_temperature_warning_body
+TEXT: Due to the high temperature of the smartphone, the camera has been temporarily disabled. Please wait until the smartphone cools down to its normal temperature.
+
+RESOURCE ID: iris_temperature_warning_title
+TEXT: High Temperature Caution
 
 RESOURCE ID: irisisocial_tutorial_body_eight
 TEXT: Puedes usar pegatinas para decorar las fotos que hagas. Dales un toque creativo y luego comparte tus imágenes con otros jugadores. ¿A qué esperas para crear tu próxima obra maestra?
@@ -1068,10 +1111,10 @@ RESOURCE ID: irisisocial_tutorial_header_two
 TEXT: ¡Tus Pokémon jugarán y se lo pasarán en grande!
 
 RESOURCE ID: item_event_ticket_evergreen_desc_anniversary24
-TEXT: A ticket to access the 8th Anniversary Party Premium Timed Research until July 3, 2024, at 8:00 p.m. local time, wherever you are.
+TEXT: Una entrada para acceder a la investigación temporal prémium de Fiesta del 8.º Aniversario hasta el 3 de julio de 2024 a las 20:00 en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_evergreen_details_anniversary24
-TEXT: This ticket will automatically activate to give you access to the 8th Anniversary Party Premium Timed Research on June 28, wherever you are.
+TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal prémium de Fiesta del 8.º Aniversario el 28 de junio, estés donde estés.
 
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: Una entrada para acceder a la investigación temporal "Maravillas del Ultraespacio" desde el martes 23 de mayo las 10:00 hasta el martes 28 de mayo de 2024 a las 20:00 en tu hora local, estés donde estés.
@@ -1086,43 +1129,49 @@ RESOURCE ID: item_event_ticket_gray_details_shinycelebi24
 TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación magistral "El susurro del bosque" el 28 de junio, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Una entrada para acceder a la investigación especial del Día de la Comunidad de Goomy desde el 9 de junio a las 14:00 en tu hora local, estés donde estés.
+TEXT: Una entrada para acceder a la investigación especial del evento Clásicos del Día de la Comunidad de Cyndaquil desde el 22 de junio a las 14:00 en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_desc_bounsweet
 TEXT: Una entrada para acceder a la investigación especial del Día de la Comunidad de Bounsweet desde el 19 de mayo a las 14:00 en tu hora local, estés donde estés.
 
-RESOURCE ID: item_event_ticket_pink_desc_cyndaquilcdc2024
-TEXT: Una entrada para acceder a la investigación especial del evento Clásicos del Día de la Comunidad de Cyndaquil desde el 22 de junio a las 14:00 en tu hora local, estés donde estés.
-
 RESOURCE ID: item_event_ticket_pink_desc_flying
 TEXT: Una entrada para acceder a la investigación temporal del Día de investigación en bandada el 11 de mayo de 2024 de 14:00 a 17:00 en tu hora local, estés donde estés.
 
+RESOURCE ID: item_event_ticket_pink_desc_goomy
+TEXT: Una entrada para acceder a la investigación especial del Día de la Comunidad de Goomy desde el 9 de junio a las 14:00 en tu hora local, estés donde estés.
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación especial del Día de la Comunidad de Goomy el 9 de junio, estés donde estés.
+TEXT: Esta entrada se activará automáticamente para darte acceso a la historia de investigación especial del evento Clásicos del Día de la Comunidad de Cyndaquil el 22 de junio, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_details_bounsweet
 TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación especial "Una dulce sorpresa" el 19 de mayo, estés donde estés.
 
-RESOURCE ID: item_event_ticket_pink_details_cyndaquilcdc2024
-TEXT: Esta entrada se activará automáticamente para darte acceso a la historia de investigación especial del evento Clásicos del Día de la Comunidad de Cyndaquil el 22 de junio, estés donde estés.
-
 RESOURCE ID: item_event_ticket_pink_details_flying
 TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal del Día de investigación en bandada el 11 de mayo, estés donde estés.
 
+RESOURCE ID: item_event_ticket_pink_details_goomy
+TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación especial del Día de la Comunidad de Goomy el 9 de junio, estés donde estés.
+
 RESOURCE ID: item_evergreen_ticket_desc
-TEXT: Una entrada para acceder a la investigación temporal prémium "Arenas estivales" hasta el 12 de junio de 2024 a las 20:00 en tu hora local, estés donde estés.
+TEXT: Una entrada para acceder de la investigación temporal "Encontronazo playero" hasta el 18 de junio de 2024 a las 20:00 en tu hora local, estés donde estés.
 
 RESOURCE ID: item_evergreen_ticket_desc_pokecoins
 TEXT: Una entrada que te permite recibir una tarea de investigación de campo cuando tienes un hueco disponible en las tareas de investigación de campo. La tarea se puede completar una vez al día y entrega 20 Pokémonedas.
+
+RESOURCE ID: item_evergreen_ticket_desc_slumberingsands
+TEXT: Una entrada para acceder a la investigación temporal prémium "Arenas estivales" hasta el 12 de junio de 2024 a las 20:00 en tu hora local, estés donde estés.
 
 RESOURCE ID: item_evergreen_ticket_desc_stadiumsights
 TEXT: Una entrada para acceder a la investigación temporal "Planeando hacia la victoria" desde el 1 de junio a las 10:00 hasta el 4 de junio de 2024 a las 20:00 en tu hora local, estés donde estés.
 
 RESOURCE ID: item_evergreen_ticket_details
-TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal prémium "Arenas estivales" el 7 de junio, estés donde estés.
+TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal "Encontronazo playero" el 15 de junio, estés donde estés.
 
 RESOURCE ID: item_evergreen_ticket_details_pokecoins
 TEXT: Esta entrada se activará automáticamente para darte acceso a la experiencia de la investigación de campo diaria de Pokémonedas el 16 de mayo, estés donde estés.
+
+RESOURCE ID: item_evergreen_ticket_details_slumberingsands
+TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal prémium "Arenas estivales" el 7 de junio, estés donde estés.
 
 RESOURCE ID: item_evergreen_ticket_details_stadiumsights
 TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal "Planeando hacia la victoria" el 1 de junio, estés donde estés.
@@ -1179,10 +1228,10 @@ RESOURCE ID: meetups_ended_desc
 TEXT: La quedada ha terminado.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-06-13T00:10:49.612362+00:00 for es-ES
-at SHA f1b58c946c
-Pipeline 2401003, job 29025760
-Patch from: 0.317.0-SHA-f00910d6-RC4, 0.315.2-SHA-0a0b68b4-RC1, 0.319.0-SHA-0a543be8-RC1
+TEXT: Built at 2024-06-13T23:42:12.560664+00:00 for es-ES
+at SHA e44a744008d
+Pipeline 2404364, job 29067112
+Patch from: 0.315.2-SHA-0a0b68b4-RC1, 0.317.0-SHA-dcf47c39-RC3, 0.319.0-SHA-0a543be8-RC1
 
 RESOURCE ID: monodepth_ar_plus_required_toast
 TEXT: Activa Niantic AR para usar la función Realidad combinada.
@@ -1262,6 +1311,18 @@ TEXT: ¡Parece que todavía no hay ningún Pokémon aquí! ¿Quieres dejar el tu
 RESOURCE ID: no_pokemon_found_header
 TEXT: ¡No se ha encontrado ningún Pokémon!
 
+RESOURCE ID: notification_from_gym_title
+TEXT: De un Gimnasio
+
+RESOURCE ID: notification_from_play_body
+TEXT: Un Pokémon que se haya dejado en una Poképarada o en un Gimnasio volverá cuando haya acabado.
+
+RESOURCE ID: notification_from_play_title
+TEXT: De un área de juego
+
+RESOURCE ID: notification_return_title
+TEXT: Regreso del Pokémon
+
 RESOURCE ID: occlusions_forced_on_toast
 TEXT: Función Realidad combinada habilitada
 
@@ -1285,6 +1346,9 @@ TEXT: Esta función permite a los Pokémon en modo RA integrarse mejor en su ent
 
 RESOURCE ID: occlusions_tutorial_title
 TEXT: Realidad combinada
+
+RESOURCE ID: oob_toast_string_key
+TEXT: Vuelve al área de juego para colocar Pokémon.
 
 RESOURCE ID: party_play_party_share_card_title
 TEXT: ¡Comparte objetos con tu equipo!
@@ -1337,8 +1401,20 @@ TEXT: {0} ha compartido {1} {2}
 RESOURCE ID: party_share_ticker_message_plural
 TEXT: {0} ha compartido {1} {2}
 
+RESOURCE ID: photo_hub_all_groups_title
+TEXT: ALL GROUPS
+
+RESOURCE ID: photo_hub_decorate
+TEXT: Decorate
+
 RESOURCE ID: photo_hub_hashtags
 TEXT: Usa los hashtags #GOsnapshot y #PokemonGO
+
+RESOURCE ID: photo_hub_last_used
+TEXT: Previously Photographed
+
+RESOURCE ID: photo_hub_see_all_groups
+TEXT: SEE ALL GROUPS
 
 RESOURCE ID: photo_set_playful_pals_big
 TEXT: Compañeros de juego
@@ -1353,7 +1429,7 @@ RESOURCE ID: photobomb_five_goomy
 TEXT: 5 encuentros sorpresa con Goomy al usar Instantánea de GO
 
 RESOURCE ID: pokedex_mode_name_primal
-TEXT: Primal
+TEXT: Primal Reversion
 
 RESOURCE ID: pokedex_sort_unfavorite
 TEXT: Quitar de favoritos
@@ -1557,7 +1633,7 @@ RESOURCE ID: quest_special_dialogue_goomy_3_3
 TEXT: ¡Gracias por pegarte a mí en esta investigación! ¡Espero que tu Goodra y tú permanezcáis unidos durante muchos años!
 
 RESOURCE ID: quest_special_dialogue_litwick_1_2
-TEXT: "Life force," Professor Willow says? Peculiar. I wonder—would those flames transform if Litwick were to evolve?
+TEXT: ¿El Profesor Willow afirma que es la "energía vital"? Qué peculiar. Me pregunto si esas llamas se transformarían al evolucionar a Litwick.
 
 RESOURCE ID: quest_special_dialogue_poliwag_0_1
 TEXT: Como son un poco torpes al caminar con sus jóvenes patas, los Poliwag suelen preferir quedarse en el agua..
@@ -1917,10 +1993,10 @@ RESOURCE ID: sunsteel_strike_adventure_effects_mapview_dialog
 TEXT: Brilla con la luz de un meteoro. Atrae Pokémon diurnos y permite la evolución diurna durante la noche.
 
 RESOURCE ID: text_rewards_key_anniversary24
-TEXT: <b>Included rewards:</b>
-• An encounter with Meltan
-• 88,888 XP
-• 1 Super Incubator, 1 Premium Battle Pass, 1 Incense, 1 Incubator, 1 Rocket Radar, 1 Lucky Egg, and more
+TEXT: <b>Recompensas incluidas:</b>
+• Un encuentro con Meltan
+• 88 888 PX
+• 1 Superincubadora, 1 Pase de combate prémium, 1 Incienso, 1 Incubadora, 1 Radar Rocket, 1 Huevo Suerte y más
 
 RESOURCE ID: text_rewards_key_cyndaquilcdc2024
 TEXT: <b>Recompensas incluidas:</b>
@@ -1945,6 +2021,12 @@ TEXT: <b>Recompensas incluidas:</b>
 • Mochila de Komala para el avatar
 • Encuentros con Komala y Slakoth con visera
 • 10 000 PX, 2500 Polvos Estelares, 25 Poké Balls, 2 Bayas Pinia Plateadas, 2 Bayas Frambu Doradas y 1 Trozo Estrella
+
+RESOURCE ID: text_rewards_key_spelunkercove24
+TEXT: <b>Recompensas incluidas:</b>
+• Cinco encuentros con Crabrawler
+• Cinco Pases de combate prémium
+• 20 Caramelos Crabrawler
 
 RESOURCE ID: text_rewards_key_stadiumsights24
 TEXT: <b>Recompensas incluidas:</b>
@@ -2030,6 +2112,9 @@ TEXT: Asegúrate de apuntar tu cámara a la ubicación que coincida con la image
 RESOURCE ID: vps_localization_error_generic_header
 TEXT: Se ha producido un error.
 
+RESOURCE ID: vps_localization_error_too_far
+TEXT: Acércate al lugar.
+
 RESOURCE ID: vps_localization_exit_confirmation_body
 TEXT: Si lo haces, no podrás conectarte a la zona.
 
@@ -2080,6 +2165,9 @@ TEXT: Se ha producido un error. Vuelve a intentarlo más tarde.
 
 RESOURCE ID: vps_localization_toast
 TEXT: Camina lentamente en torno a la ubicación.
+
+RESOURCE ID: vps_localization_toast_alternative
+TEXT: Buscando Pokémon en la zona
 
 RESOURCE ID: waina_24_tr_title
 TEXT: Investigación temporal de Pokémon Sleep

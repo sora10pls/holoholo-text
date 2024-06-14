@@ -34,6 +34,12 @@ TEXT: Pastikan untuk menggunakan mode AR di lokasi yang aman dan selalu awasi an
 RESOURCE ID: ar_tap_to_place
 TEXT: Ketuk untuk menempatkan Pokémon.
 
+RESOURCE ID: ar_tracking_error
+TEXT: Terjadi kesalahan dengan pelacakan AR. Harap pindai ulang area sekitar PokéStop atau coba lagi nanti.
+
+RESOURCE ID: ar_tracking_reconnecting
+TEXT: Menyambungkan kembali pelacakan AR
+
 RESOURCE ID: arphoto_share_card_hashtag
 TEXT: #GOsnapshot
 
@@ -222,7 +228,7 @@ RESOURCE ID: bonus_cd_move_bounsweet
 TEXT: Evolusikan Steenee untuk mendapatkan Tsareena yang mempelajari Tendangan Lutut Melompat!
 
 RESOURCE ID: bonus_cd_move_cyndaquil
-TEXT: Evolve Quilava to get a Typhlosion that knows the Charged Attack Blast Burn!
+TEXT: Evolusikan Quilava untuk mendapatkan Typhlosion yang mempelajari Blast Burn!
 
 RESOURCE ID: bonus_cd_move_goomy
 TEXT: Evolusikan Sliggoo untuk mendapatkan Goodra yang mempelajari Pukulan Guntur!
@@ -299,6 +305,9 @@ TEXT: 2025 Pokémon EUIC Champion (2/2)
 RESOURCE ID: bonuses_active
 TEXT: Bonuses Active!
 
+RESOURCE ID: buddy_widget_description
+TEXT: Gunakan Sinkronisasi Petualangan untuk melacak barometer hati Pokémon Partner saat Pokémon GO terbuka di latar belakang.
+
 RESOURCE ID: campfire_checkin_notification
 TEXT: Pertemuan {0} dimulai pada {1}! Check in dan dapatkan hadiahnya!
 
@@ -335,6 +344,9 @@ TEXT: Memancarkan sinar menyeramkan selama {0}. Memikat Pokémon yang ditemukan 
 RESOURCE ID: dusk_mane_move_content
 TEXT: Memancarkan sinar meteor selama {0}. Memikat Pokémon yang ditemukan pada siang hari dan memperbolehkan Evolusi siang pada malam hari.
 
+RESOURCE ID: eggs_widget_description
+TEXT: Gunakan Sinkronisasi Petualangan untuk melacak progres penetasan Telur saat Pokémon GO terbuka di latar belakang.
+
 RESOURCE ID: error_gift_does_not_exist
 TEXT: Terjadi kesalahan dengan Hadiah ini. Coba lagi nanti.
 
@@ -361,6 +373,10 @@ July 3, 8:00 p.m.
 RESOURCE ID: event_datetime_range_key_slumberingsands24
 TEXT: 7 Juni 10.00 –
 12 Juni 20.00
+
+RESOURCE ID: event_datetime_range_key_spelunkercove24
+TEXT: 15 Juni 10.00 –
+18 Juni 20.00
 
 RESOURCE ID: event_datetime_range_key_stadiumsights24
 TEXT: 1 Juni 10.00 –
@@ -450,6 +466,9 @@ TEXT: Whispers in the Woods Masterwork Research Ticket
 
 RESOURCE ID: general1.ticket._slumberingsands24_title
 TEXT: Penelitian Berwaktu Premium: Bersantai di Pasir
+
+RESOURCE ID: general1.ticket._spelunkercove24_title
+TEXT: Tiket Penelitian Pesta Pantai
 
 RESOURCE ID: general1.ticket._stadiumsights24_title
 TEXT: Tiket Penelitian Berwaktu: Meluncur Menuju Kemenangan
@@ -982,8 +1001,17 @@ TEXT: Ferroseed terpikat oleh Pewangi
 RESOURCE ID: incident_already_completed_error
 TEXT: Pertarungan telah selesai.
 
+RESOURCE ID: iris_color_sort
+TEXT: Color
+
+RESOURCE ID: iris_social_add_pokemon_key
+TEXT: Tambahkan Pokémon
+
 RESOURCE ID: iris_social_choose_pokemon_toast
 TEXT: Pilih Pokémon untuk diposisikan di area ini.
+
+RESOURCE ID: iris_social_empty_pokemon_bag_key
+TEXT: Tidak ada Pokémon untuk ditempatkan.
 
 RESOURCE ID: iris_social_limited_pokemon_key
 TEXT: Tidak ada ruang cukup untuk memposisikan Pokémon itu.
@@ -1021,6 +1049,9 @@ TEXT: I don’t know where to point my camera
 RESOURCE ID: iris_social_pokemon_info_recall_button
 TEXT: BALIKKAN
 
+RESOURCE ID: iris_social_pokemon_resting_key
+TEXT: Pokémonmu sedang beristirahat! Datang lagi nanti.
+
 RESOURCE ID: iris_social_recall_confirmation_modal_body
 TEXT: Tindakan ini tidak dapat dibatalkan.
 
@@ -1042,8 +1073,17 @@ TEXT: Thank you for your report!
 RESOURCE ID: iris_social_tired_pokemon_journal_string
 TEXT: {0} kembali setelah bermain di {1}
 
+RESOURCE ID: iris_social_tired_pokemon_multiple_string
+TEXT: {0} dan {1} Pokémon lainnya kembali setelah bermain hingga kelelahan!
+
 RESOURCE ID: iris_social_tired_pokemon_string
 TEXT: Kembali setelah bermain sampai kelelahan!
+
+RESOURCE ID: iris_temperature_warning_body
+TEXT: Due to the high temperature of the smartphone, the camera has been temporarily disabled. Please wait until the smartphone cools down to its normal temperature.
+
+RESOURCE ID: iris_temperature_warning_title
+TEXT: High Temperature Caution
 
 RESOURCE ID: irisisocial_tutorial_body_eight
 TEXT: Gunakan stiker untuk menghias foto yang diambil! Tambahkan hiasan yang unik dan bagikan mahakaryamu dengan semuanya!
@@ -1112,43 +1152,49 @@ RESOURCE ID: item_event_ticket_gray_details_shinycelebi24
 TEXT: This ticket will automatically activate to give you access to the Whispers in the Woods Masterwork Research on June 28, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Tiket untuk mengakses Penelitian Spesial: Hari Komunitas Goomy mulai 9 Juni, pukul 14.00 waktu setempat, di mana pun kamu berada.
+TEXT: Tiket untuk mengakses Penelitian Spesial Hari Komunitas Klasik: Cyndaquil pada 22 Juni, mulai pukul 14.00 waktu setempat, di mana pun kamu berada.
 
 RESOURCE ID: item_event_ticket_pink_desc_bounsweet
 TEXT: Tiket untuk mengakses Penelitian Spesial: Hari Komunitas Bounsweet mulai 19 Mei, pukul 14.00 waktu setempat, di mana pun kamu berada.
 
-RESOURCE ID: item_event_ticket_pink_desc_cyndaquilcdc2024
-TEXT: Tiket untuk mengakses Penelitian Spesial Hari Komunitas Klasik: Cyndaquil pada 22 Juni, mulai pukul 14.00 waktu setempat, di mana pun kamu berada.
-
 RESOURCE ID: item_event_ticket_pink_desc_flying
 TEXT: Tiket untuk mengakses Penelitian Berwaktu: Hari Penelitian Terbang Bersama pada 11 Mei 2024, mulai pukul 14.00 hingga 17.00 waktu setempat, di mana pun kamu berada.
 
+RESOURCE ID: item_event_ticket_pink_desc_goomy
+TEXT: Tiket untuk mengakses Penelitian Spesial: Hari Komunitas Goomy mulai 9 Juni, pukul 14.00 waktu setempat, di mana pun kamu berada.
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Spesial: Hari Komunitas Goomy pada 9 Juni, di mana pun kamu berada.
+TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke cerita Penelitian Spesial: Hari Komunitas Klasik Cyndaquil, pada 22 Juni, di mana pun kamu berada.
 
 RESOURCE ID: item_event_ticket_pink_details_bounsweet
 TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke cerita Penelitian Spesial: Kejutan Manis pada 19 Mei, di mana pun kamu berada.
 
-RESOURCE ID: item_event_ticket_pink_details_cyndaquilcdc2024
-TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke cerita Penelitian Spesial: Hari Komunitas Klasik Cyndaquil, pada 22 Juni, di mana pun kamu berada.
-
 RESOURCE ID: item_event_ticket_pink_details_flying
 TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Berwaktu: Hari Penelitian Terbang Bersama pada 11 Mei, di mana pun kamu berada.
 
+RESOURCE ID: item_event_ticket_pink_details_goomy
+TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Spesial: Hari Komunitas Goomy pada 9 Juni, di mana pun kamu berada.
+
 RESOURCE ID: item_evergreen_ticket_desc
-TEXT: Tiket untuk mengakses Penelitian Berwaktu Premium: Bersantai di Pasir hingga 12 Juni 2024, pukul 20.00 waktu setempat, di mana pun kamu berada.
+TEXT: Tiket untuk mengakses Penelitian Berwaktu: Pesta Pantai hingga 18 Juni 2024, pukul 20.00 waktu setempat, di mana pun kamu berada.
 
 RESOURCE ID: item_evergreen_ticket_desc_pokecoins
 TEXT: Tiket yang memungkinkan kamu untuk menerima satu tugas Penelitian Lapangan jika kamu memiliki satu slot Penelitian Lapangan yang terbuka. Tugas ini dapat diselesaikan sekali per hari dan menghadiahkan 20 PokéCoin. 
+
+RESOURCE ID: item_evergreen_ticket_desc_slumberingsands
+TEXT: Tiket untuk mengakses Penelitian Berwaktu Premium: Bersantai di Pasir hingga 12 Juni 2024, pukul 20.00 waktu setempat, di mana pun kamu berada.
 
 RESOURCE ID: item_evergreen_ticket_desc_stadiumsights
 TEXT: Tiket untuk mengakses Penelitian Berwaktu: Meluncur Menuju Kemenangan pada 1 Juni, pukul 10.00 hingga 4 Juni 2024, pukul 20.00 waktu setempat, di mana pun kamu berada.
 
 RESOURCE ID: item_evergreen_ticket_details
-TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Berwaktu: Bersantai di Pasir pada 7 Juni, di mana pun kamu berada.
+TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Berwaktu: Pesta Pantai pada 15 Juni, di mana pun kamu berada.
 
 RESOURCE ID: item_evergreen_ticket_details_pokecoins
 TEXT: Tiket ini akan aktif otomatis dan memberimu akses ke pengalaman Tiket Penelitian Lapangan PokéCoin Harian pada 16 Mei, di mana pun kamu berada.
+
+RESOURCE ID: item_evergreen_ticket_details_slumberingsands
+TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Berwaktu: Bersantai di Pasir pada 7 Juni, di mana pun kamu berada.
 
 RESOURCE ID: item_evergreen_ticket_details_stadiumsights
 TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Berwaktu: Meluncur Menuju Kemenangan pada 1 Juni, di mana pun kamu berada.
@@ -1190,10 +1236,10 @@ RESOURCE ID: meetups_ended_desc
 TEXT: Pertemuan telah selesai
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-06-13T00:10:49.612362+00:00 for id-ID
-at SHA f1b58c946c
-Pipeline 2401003, job 29025760
-Patch from: 0.317.0-SHA-f00910d6-RC4, 0.315.2-SHA-0a0b68b4-RC1, 0.319.0-SHA-0a543be8-RC1
+TEXT: Built at 2024-06-13T23:42:12.560664+00:00 for id-ID
+at SHA e44a744008d
+Pipeline 2404364, job 29067112
+Patch from: 0.315.2-SHA-0a0b68b4-RC1, 0.317.0-SHA-dcf47c39-RC3, 0.319.0-SHA-0a543be8-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Memancarkan sinar menyeramkan selama {0}. Memikat Pokémon yang ditemukan pada malam hari dan memperbolehkan Evolusi malam pada siang hari.
@@ -1230,6 +1276,21 @@ TEXT: Tampaknya belum ada Pokémon di sini. Keluarkan Pokémonmu?
 
 RESOURCE ID: no_pokemon_found_header
 TEXT: Pokémon Tidak Ditemukan!
+
+RESOURCE ID: notification_from_gym_title
+TEXT: Dari Gym
+
+RESOURCE ID: notification_from_play_body
+TEXT: Pokémon yang ditinggalkan untuk bermain di PokéStop atau Gym akan kembali setelah ia selesai.
+
+RESOURCE ID: notification_from_play_title
+TEXT: Dari Bermain
+
+RESOURCE ID: notification_return_title
+TEXT: Pokémon Kembali
+
+RESOURCE ID: oob_toast_string_key
+TEXT: Kembali ke area bermain untuk menempatkan Pokémon.
 
 RESOURCE ID: party_play_party_share_card_title
 TEXT: Berbagi item dengan grupmu!
@@ -1282,8 +1343,20 @@ TEXT: {0} membagikan {1} {2}
 RESOURCE ID: party_share_ticker_message_plural
 TEXT: {0} membagikan {1} {2}
 
+RESOURCE ID: photo_hub_all_groups_title
+TEXT: ALL GROUPS
+
+RESOURCE ID: photo_hub_decorate
+TEXT: Decorate
+
 RESOURCE ID: photo_hub_hashtags
 TEXT: Gunakan tagar #GOsnapshot #PokemonGO
+
+RESOURCE ID: photo_hub_last_used
+TEXT: Previously Photographed
+
+RESOURCE ID: photo_hub_see_all_groups
+TEXT: SEE ALL GROUPS
 
 RESOURCE ID: photo_set_playful_pals_big
 TEXT: Sobat Bermain
@@ -1292,13 +1365,13 @@ RESOURCE ID: photobomb_five_bounsweet
 TEXT: 5 pertemuan kejutan dengan Bounsweet di Foto GO
 
 RESOURCE ID: photobomb_five_cyndaquil
-TEXT: 5 surprise encounters with Cyndaquil in GO Snapshot
+TEXT: 5 pertemuan kejutan dengan Cyndaquil di Foto GO
 
 RESOURCE ID: photobomb_five_goomy
 TEXT: 5 pertemuan kejutan dengan Goomy di Foto GO
 
 RESOURCE ID: pokedex_mode_name_primal
-TEXT: Primal
+TEXT: Primal Reversion
 
 RESOURCE ID: pokedex_sort_unfavorite
 TEXT: Unfavorite
@@ -1325,13 +1398,13 @@ RESOURCE ID: quest_catch_type_water_ground_plural
 TEXT: Tangkap {0} Pokémon tipe Air atau Tanah
 
 RESOURCE ID: quest_cyndaquil_catch_b
-TEXT: Catch {0} Cyndaquil
+TEXT: Tangkap {0} Cyndaquil
 
 RESOURCE ID: quest_cyndaquil_evolve_b_plural
-TEXT: Evolve {0} Cyndaquil
+TEXT: Evolusikan {0} Cyndaquil
 
 RESOURCE ID: quest_cyndaquil_evolve_b_singular
-TEXT: Evolve a Cyndaquil
+TEXT: Evolusikan Cyndaquil
 
 RESOURCE ID: quest_goomy_catch_b
 TEXT: Tangkap {0} Goomy
@@ -1343,10 +1416,10 @@ RESOURCE ID: quest_goomy_evolve_b_singular
 TEXT: Evolusikan Goomy
 
 RESOURCE ID: quest_quilava_evolve_b_plural
-TEXT: Evolve {0} Quilava
+TEXT: Evolusikan {0} Quilava
 
 RESOURCE ID: quest_quilava_evolve_b_singular
-TEXT: Evolve a Quilava
+TEXT: Evolusikan Quilava
 
 RESOURCE ID: quest_sliggoo_evolve_b_plural
 TEXT: Evolusikan {0} Sliggoo
@@ -1406,52 +1479,52 @@ RESOURCE ID: quest_special_dialogue_bounsweet_3_3
 TEXT: Oke, lanjutkahlah petualanganmu sambil tetap menjaga jarak dengan Tsareena supaya tidak ditendang ya. Terima kasih atas bantuanmu hari ini, %PLAYERNAME%. Sampai jumpa!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_0_0
-TEXT: %PLAYERNAME%, hi! It’s pretty hot out here, don’t you think? The heat must be coming from all the Cyndaquil running about!
+TEXT: Halo, %PLAYERNAME%! Di sini terasa cukup panas, bukan? Hawa panas ini pasti disebabkan oleh si Cyndaquil!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_0_1
-TEXT: Are you familiar with it? It’s a Fire-type Pokémon known for its timid nature.
+TEXT: Apakah kamu mengetahuinya? Ia merupakan Pokémon tipe Api yang penakut.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_0_2
-TEXT: Since they scare easily, they’re usually found curled up in a little ball—and they’ll flare the flames on their backs to protect themselves when attacked!
+TEXT: Seperti yang kukatakan barusan, ia berkepribadian penaakut sehingga selalu membulatkan tubuhnya. Saat diserang, ia melindungi diri dengan membuat api di punggungnya membara.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_0_3
-TEXT: Why don’t you grab a pocket fan to stay cool and try to catch one of these fascinating Pokémon?
+TEXT: Sambil tetap hati-hati agar tidak kepanasan, bagaimana kalau kamu coba menangkapnya?
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_0
-TEXT: That’s quite a Cyndaquil you’ve befriended, %PLAYERNAME%! You’re on fire—er, not literally, thankfully.
+TEXT: Kekuatan api Cyndaquil milikmu luar biasa, %PLAYERNAME%!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_1
-TEXT: Let me reward you with some fun tidbits! Did you know that a Cyndaquil’s flames burn hottest when they’re startled?
+TEXT: Kuberi tahu kamu hal menarik. Api Cyndaquil membara lebih kuat saat ia terkejut, lho.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_2
-TEXT: And its Evolution, Quilava, will turn its back on opponents just to show off how ferociously its fire blazes!
+TEXT: Namun, begitu ia berevolusi menjadi Quilava, ia tidak lagi menjadi penakut. Sebelum bertarung, ia menghadapkan punggungnya ke lawan untuk memamerkan kehebatan apinya.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_3
-TEXT: Let’s evolve your Cyndaquil into a Quilava. While I’m not jumping at the idea of making it even hotter around here, I AM eager to study the variance in flame intensity as they evolve.
+TEXT: Ayo evolusikan Cyndaquil ke Quilava supaya kita bisa mengamatinya secara langsung! Mungkin akan jadi merepotkan jika udaranya jadi makin panas, tetapi aku ingin sekali mempelajari intensitas apinya setelah ia berevolusi.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_2_0
-TEXT: Amazing work, %PLAYERNAME%! Now, let’s take a closer look at your Quilava. You’re on a hot streak!
+TEXT: Mantap betul, %PLAYERNAME%! Oke, ayo kita amati lebih dekat Quilava milikmu.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_2_1
-TEXT: As I mentioned, Quilava tend to use the heat of their flames to intimidate foes. Those flames burn even stronger when it prepares to fight!
+TEXT: Seperti yang kujelaskan sebelumnya, Quilava memamerkan apinya untuk mengintimidasi musuh. Api tersebut membara makin kuat saat ia bersiap untuk bertarung.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_2_2
-TEXT: Your Quilava seems like a real firebrand! I bet it’ll be even more of a force to be reckoned with once it evolves.
+TEXT: Quilava milikmu terlihat cukup mengintimidasi. Namun, ia akan jadi makin keren begitu kamu mengevolusikannya, lho!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_2_3
-TEXT: On that note, let’s turn the thermostat up to max—evolve your Quilava into Typhlosion! There’s learning to be had!
+TEXT: Jadi, tunggu apa lagi? Evolusikanlah Quilava milikmu ke Typhlosion!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_3_0
-TEXT: Oh! I was wondering why I was feeling so toasty, but now I see—you’re back with Typhlosion! Let’s take a moment to marvel at its raw power.
+TEXT: Duh, panas sekali di sini! Rasanya seperti terpanggang. Oh! Ternyata kamu sudah kembali bersama Typhlosion ya.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_3_1
-TEXT: When a Typhlosion’s rage peaks, it gets so hot that it’ll send anything that touches it up in flames!
+TEXT: Dikatakan bahwa, saat kemarahannya mencapai puncak, ia menjadi begitu panas sehingga dapat membakar semua yang memegangnya dalam sekejap.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_3_2
-TEXT: I’m pretty sure my eyebrows are getting singed, but it’s totally worth it for an up-close encounter with such an awe-inspiring Pokémon!
+TEXT: Sayang sekali kita tidak bisa berada terlalu dekat dengannya ya. Hm? Kok tercium bau hangus ya? Jangan-jangan alismu atau alisku terbakar nih!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_3_3
-TEXT: You never disappoint, %PLAYERNAME%. Until our next adventure—stay cool!
+TEXT: Oke, penyelidikan hari ini pun luar biasa, %PLAYERNAME%. Jangan lupa menjaga diri tetap sejuk ya. Sampai jumpa!
 
 RESOURCE ID: quest_special_dialogue_goomy_0_0
 TEXT: Oh! Halo, %PLAYERNAME%! Tunggu sebentar ya ....
@@ -1502,7 +1575,7 @@ RESOURCE ID: quest_special_dialogue_goomy_3_3
 TEXT: Oke, terima kasih karena mau menemani penyelidikan hari ini! Nikmatilah petualanganmu bersama Goodra!
 
 RESOURCE ID: quest_special_dialogue_litwick_1_2
-TEXT: "Life force," Professor Willow says? Peculiar. I wonder—would those flames transform if Litwick were to evolve?
+TEXT: Profesor Willow bilang "Vitalitas"? Menarik. Aku penasaran, apakah api tersebut akan berubah jika Litwick berevolusi?
 
 RESOURCE ID: quest_steenee_evolve_b_plural
 TEXT: Evolusikan {0} Steenee
@@ -1541,19 +1614,19 @@ RESOURCE ID: quest_title_catching_wonders_sr_4
 TEXT: Penelitian Mahakarya: Menangkap Keajaiban (4/4)
 
 RESOURCE ID: quest_title_cyndaquil
-TEXT: Community Day Classic: Cyndaquil
+TEXT: Hari Komunitas Klasik: Cyndaquil
 
 RESOURCE ID: quest_title_cyndaquil_0
-TEXT: Community Day Classic: Cyndaquil (1/4)
+TEXT: Hari Komunitas Klasik: Cyndaquil (1/4)
 
 RESOURCE ID: quest_title_cyndaquil_1
-TEXT: Community Day Classic: Cyndaquil (2/4)
+TEXT: Hari Komunitas Klasik: Cyndaquil (2/4)
 
 RESOURCE ID: quest_title_cyndaquil_2
-TEXT: Community Day Classic: Cyndaquil (3/4)
+TEXT: Hari Komunitas Klasik: Cyndaquil (3/4)
 
 RESOURCE ID: quest_title_cyndaquil_3
-TEXT: Community Day Classic: Cyndaquil (4/4)
+TEXT: Hari Komunitas Klasik: Cyndaquil (4/4)
 
 RESOURCE ID: quest_title_goomy
 TEXT: Hari Komunitas: Goomy
@@ -1575,6 +1648,9 @@ TEXT: Lacak tidurmu dengan Pokémon GO Plus + selama 1 hari
 
 RESOURCE ID: raid_xp_2x_ultrabeast
 TEXT: XP Raid Ultra Beast  ×2
+
+RESOURCE ID: rare_xl_candy_usage_confirmation
+TEXT: Ubah Permen Langka XL menjadi Permen XL {0}?
 
 RESOURCE ID: recall_pokemon_button
 TEXT: Balikkan semua Pokémon
@@ -1772,7 +1848,7 @@ RESOURCE ID: spawn_bounsweet
 TEXT: Lebih banyak Bounsweet yang muncul di alam liar!
 
 RESOURCE ID: spawn_cyndaquil
-TEXT: More Cyndaquil are appearing in the wild!
+TEXT: Lebih banyak Cyndaquil yang muncul di alam liar!
 
 RESOURCE ID: spawn_goomy
 TEXT: Lebih banyak Goomy yang muncul di alam liar!
@@ -1882,6 +1958,12 @@ TEXT: <b>Termasuk Hadiah:</b>
 • Pertemuan dengan Komala dan Slakoth bertopi visor
 • 10.000 XP, 2.500 Debu Bintang, 25 Bola Pokémon, 2 Beri Pinap Perak, 2 Beri Razz Emas, dan 1 Serpihan Bintang
 
+RESOURCE ID: text_rewards_key_spelunkercove24
+TEXT: <b>Termasuk Hadiah:</b>
+• 5 pertemuan dengan Crabrawler
+• 5 Tiket Pertarungan Premium
+• 20 Permen Crabrawler
+
 RESOURCE ID: text_rewards_key_stadiumsights24
 TEXT: <b>Termasuk Hadiah:</b>
 • 5 pertemuan dengan Emolga
@@ -1900,7 +1982,7 @@ RESOURCE ID: ticket_bounsweet
 TEXT: Tiket untuk cerita Penelitian Spesial Hari Komunitas Bounsweet tersedia di toko
 
 RESOURCE ID: ticket_cyndaquil_cdc
-TEXT: Ticket for the Cyndaquil Community Day Classic Special Research story available in the shop
+TEXT: Tiket untuk cerita Penelitian Spesial Hari Komunitas Klasik Cyndaquil tersedia di toko
 
 RESOURCE ID: ticket_glide_victory_tr
 TEXT: Tiket untuk Penelitian Berwaktu Meluncur Menuju Kemenangan tersedia di toko
@@ -1966,6 +2048,9 @@ TEXT: Pastikan kamera mengarah ke lokasi yang cocok dengan gambar petunjuk sambi
 RESOURCE ID: vps_localization_error_generic_header
 TEXT: Terjadi kesalahan.
 
+RESOURCE ID: vps_localization_error_too_far
+TEXT: Mendekatlah ke target
+
 RESOURCE ID: vps_localization_exit_confirmation_body
 TEXT: Tidak dapat menghubungkan ke area jika dilakukan.
 
@@ -2016,6 +2101,9 @@ TEXT: Terjadi kesalahan. Coba lagi.
 
 RESOURCE ID: vps_localization_toast
 TEXT: Berjalan perlahan di sekitar lokasi.
+
+RESOURCE ID: vps_localization_toast_alternative
+TEXT: Mencari Pokémon di area
 
 RESOURCE ID: waina_24_tr_title
 TEXT: Penelitian Berwaktu: Pokémon Sleep

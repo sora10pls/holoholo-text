@@ -34,6 +34,12 @@ TEXT: Para usar o Modo de RA, precisamos acessar a sua câmera e galeria para qu
 RESOURCE ID: ar_mode_safety_string
 TEXT: Enquanto usa o Modo de RA, certifique-se de estar em um local seguro e supervisionar as crianças o tempo todo.
 
+RESOURCE ID: ar_tracking_error
+TEXT: Houve um problema com o acompanhamento de RA. Tente escanear novamente a área em volta da Poképarada  ou tente mais tarde.
+
+RESOURCE ID: ar_tracking_reconnecting
+TEXT: Reconectando o acompanhamento de RA
+
 RESOURCE ID: avatar_f_backpack_komala_00_bundle_icon
 TEXT: Mochila de Komala
 
@@ -189,7 +195,7 @@ RESOURCE ID: bonus_cd_move_bounsweet
 TEXT: Evolua Steenee para conseguir Tsareena que sabe o ataque carregado Chute de Pulo Alto!
 
 RESOURCE ID: bonus_cd_move_cyndaquil
-TEXT: Evolve Quilava to get a Typhlosion that knows the Charged Attack Blast Burn!
+TEXT: Evolua Quilava para conseguir Typhlosion que sabe o ataque carregado Queimadura Explosiva!
 
 RESOURCE ID: bonus_cd_move_goomy
 TEXT: Evolua Sliggoo para conseguir Goodra que sabe o ataque carregado Soco Trovoada!
@@ -266,6 +272,9 @@ TEXT: 2025 Pokémon EUIC Champion (2/2)
 RESOURCE ID: bonuses_active
 TEXT: Bonuses Active!
 
+RESOURCE ID: buddy_widget_description
+TEXT: Use Sincroaventura para rastrear o medidor de afetividade do seu Pokémon companheiro quando Pokémon GO estiver aberto em segundo plano.
+
 RESOURCE ID: campfire_checkin_notification
 TEXT: O encontro de {0} começa às {1}! Faça o check-in para resgatar sua recompensa!
 
@@ -294,7 +303,7 @@ RESOURCE ID: community_day_goomy_event_name
 TEXT: Dia Comunitário: Goomy
 
 RESOURCE ID: complete_route_travel_error_toast
-TEXT: Unable to complete this Route at this time. Please try again.
+TEXT: Não foi possível completar esta Rota no momento. Tente novamente.
 
 RESOURCE ID: daily_streaks
 TEXT: PROGRESSOS DIÁRIOS
@@ -304,6 +313,9 @@ TEXT: Emite um raio sinistro por {0}. Atrai Pokémon encontrados à noite e perm
 
 RESOURCE ID: dusk_mane_move_content
 TEXT: Brilha a luz de um meteoro por {0}. Atrai Pokémon encontrados durante o dia e permite Evolução diurna à noite.
+
+RESOURCE ID: eggs_widget_description
+TEXT: Use a Sincroaventura para acompanhar o progresso de Ovos que estão sendo chocados quando o Pokémon GO estiver em segundo plano.
 
 RESOURCE ID: error_gift_does_not_exist
 TEXT: Ocorreu um erro com este presente. Tente novamente.
@@ -329,12 +341,16 @@ RESOURCE ID: event_datetime_range_key_goomycd2024
 TEXT: 9 de junho, das 14h às 17h
 
 RESOURCE ID: event_datetime_range_key_shinycelebi24
-TEXT: June 28, 10:00 a.m. –
-July 3, 8:00 p.m.
+TEXT: De 28 de junho, às 10h –
+Até 3 de julho, às 20h
 
 RESOURCE ID: event_datetime_range_key_slumberingsands24
 TEXT: De 7 de junho, às 10h –
 Até 12 de junho, às 20h
+
+RESOURCE ID: event_datetime_range_key_spelunkercove24
+TEXT: De 15 de junho, às 10h –
+Até 18 de junho, às 20h
 
 RESOURCE ID: event_datetime_range_key_stadiumsights24
 TEXT: De 1º de junho, às 10h –
@@ -423,10 +439,13 @@ RESOURCE ID: general1.ticket._anniversary24_title
 TEXT: 8th Anniversary Party Premium Timed Research Ticket
 
 RESOURCE ID: general1.ticket._shinycelebi24_title
-TEXT: Whispers in the Woods Masterwork Research Ticket
+TEXT: Ingresso para a pesquisa magistral Sussurros na Floresta
 
 RESOURCE ID: general1.ticket._slumberingsands24_title
 TEXT: Ingresso para a Pesquisa Temporária Premium de Areias Relaxantes
+
+RESOURCE ID: general1.ticket._spelunkercove24_title
+TEXT: Ingresso para a pesquisa temporária Barraco na Praia
 
 RESOURCE ID: general1.ticket._stadiumsights24_title
 TEXT: Ingresso para a pesquisa temporária Planagem Vitoriosa
@@ -959,8 +978,17 @@ TEXT: Ferroseed atraídos por Incensos
 RESOURCE ID: incident_already_completed_error
 TEXT: Batalha já concluída.
 
+RESOURCE ID: iris_color_sort
+TEXT: Color
+
+RESOURCE ID: iris_social_add_pokemon_key
+TEXT: Adicionar Pokémon
+
 RESOURCE ID: iris_social_choose_pokemon_toast
 TEXT: Escolha o Pokémon para colocar nesta área.
+
+RESOURCE ID: iris_social_empty_pokemon_bag_key
+TEXT: Você não tem Pokémon para colocar.
 
 RESOURCE ID: iris_social_limited_pokemon_key
 TEXT: Não há espaço suficiente para este Pokémon neste momento.
@@ -998,6 +1026,9 @@ TEXT: I don’t know where to point my camera
 RESOURCE ID: iris_social_pokemon_info_recall_button
 TEXT: CHAMAR DE VOLTA
 
+RESOURCE ID: iris_social_pokemon_resting_key
+TEXT: É hora de descansar! Volte mais tarde.
+
 RESOURCE ID: iris_social_recall_confirmation_modal_body
 TEXT: Você não pode desfazer esta ação.
 
@@ -1020,8 +1051,17 @@ TEXT: Thank you for your report!
 RESOURCE ID: iris_social_tired_pokemon_journal_string
 TEXT: {0} retornou depois de brincar em {1}
 
+RESOURCE ID: iris_social_tired_pokemon_multiple_string
+TEXT: {0} e outros {1} Pokémon brincaram até cansar e retornaram!
+
 RESOURCE ID: iris_social_tired_pokemon_string
 TEXT: brincou até cansar e voltou!
+
+RESOURCE ID: iris_temperature_warning_body
+TEXT: Due to the high temperature of the smartphone, the camera has been temporarily disabled. Please wait until the smartphone cools down to its normal temperature.
+
+RESOURCE ID: iris_temperature_warning_title
+TEXT: High Temperature Caution
 
 RESOURCE ID: irisisocial_tutorial_body_eight
 TEXT: Você pode usar adesivos para decorar as fotos que tirar. Acrescente um toque de criatividade e compartilhe as suas fotos. A sua próxima obra de arte está por vir!
@@ -1081,52 +1121,58 @@ RESOURCE ID: item_event_ticket_gray_desc
 TEXT: Um ingresso para acessar a pesquisa temporária Maravilhas do Ultraespaço, de 23 de maio de 2024, às 10h, até 28 de maio de 2024, às 20h do seu horário local, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_gray_desc_shinycelebi24
-TEXT: A ticket to access the Whispers in the Woods Masterwork Research starting June 28, 2024, at 10:00 a.m. local time, wherever you are.
+TEXT: Um ingresso para acessar a pesquisa magistral Sussurros na Floresta a partir de 28 de junho de 2024, às 10h do seu horário local, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_gray_details
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à pesquisa temporária Maravilhas do Ultraespaço no dia 23 de maio de 2024, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_gray_details_shinycelebi24
-TEXT: This ticket will automatically activate to give you access to the Whispers in the Woods Masterwork Research on June 28, wherever you are.
+TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à pesquisa magistral Sussurros na Floresta no dia 28 de junho de 2024, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Um ingresso para acessar a pesquisa especial do Dia Comunitário de Goomy a partir de 9 de junho, às 14h do seu horário local, de onde você estiver.
+TEXT: Um ingresso para acessar a pesquisa especial do Clássicos do Dia Comunitário de Cyndaquil a partir de 22 de junho, às 14h do seu horário local, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_pink_desc_bounsweet
 TEXT: Um ingresso para acessar a pesquisa especial do Dia Comunitário de Bounsweet a partir de 19 de maio, às 14h do seu horário local, de onde você estiver.
 
-RESOURCE ID: item_event_ticket_pink_desc_cyndaquilcdc2024
-TEXT: Um ingresso para acessar a pesquisa especial do Clássicos do Dia Comunitário de Cyndaquil a partir de 22 de junho, às 14h do seu horário local, de onde você estiver.
-
 RESOURCE ID: item_event_ticket_pink_desc_flying
 TEXT: Um ingresso para acessar a pesquisa temporária do Dia de Pesquisar: Revoada de Montão no dia 11 de maio de 2024, das 14h às 17h do seu horário local, de onde você estiver.
 
+RESOURCE ID: item_event_ticket_pink_desc_goomy
+TEXT: Um ingresso para acessar a pesquisa especial do Dia Comunitário de Goomy a partir de 9 de junho, às 14h do seu horário local, de onde você estiver.
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à pesquisa especial do Dia Comunitário de Goomy no dia 9 de junho de 2024, de onde você estiver.
+TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à narrativa de pesquisa especial do Clássicos do Dia Comunitário: Cyndaquil no dia 22 de junho, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_pink_details_bounsweet
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à narrativa de pesquisa especial de Uma Doce Surpresa no dia 19 de maio, de onde você estiver.
 
-RESOURCE ID: item_event_ticket_pink_details_cyndaquilcdc2024
-TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à narrativa de pesquisa especial do Clássicos do Dia Comunitário: Cyndaquil no dia 22 de junho, de onde você estiver.
-
 RESOURCE ID: item_event_ticket_pink_details_flying
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à pesquisa temporária do Dia de Pesquisar: Revoada de Montão no dia 11 de maio de 2024, de onde você estiver.
 
+RESOURCE ID: item_event_ticket_pink_details_goomy
+TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à pesquisa especial do Dia Comunitário de Goomy no dia 9 de junho de 2024, de onde você estiver.
+
 RESOURCE ID: item_evergreen_ticket_desc
-TEXT: Um ingresso para acessar a Pesquisa Temporária Premium de Areias Relaxantes até 12 de junho de 2024, às 20h do seu horário local, de onde você estiver.
+TEXT: Um ingresso para acessar a pesquisa temporária Barraco na Praia até 18 de junho de 2024, às 20h do seu horário local, de onde você estiver.
 
 RESOURCE ID: item_evergreen_ticket_desc_pokecoins
 TEXT: Um ingresso que permite que você receba uma tarefa de pesquisa de campo quando você tiver espaço livre para receber pesquisa de campo. A tarefa pode ser completada uma vez por dia e dá 20 Pokémoedas como recompensa.
+
+RESOURCE ID: item_evergreen_ticket_desc_slumberingsands
+TEXT: Um ingresso para acessar a Pesquisa Temporária Premium de Areias Relaxantes até 12 de junho de 2024, às 20h do seu horário local, de onde você estiver.
 
 RESOURCE ID: item_evergreen_ticket_desc_stadiumsights
 TEXT: Um ingresso para acessar a pesquisa temporária Planagem Vitoriosa, de 1º de junho de 2024, às 10h, até 4 de junho de 2024, às 20h do seu horário local, de onde você estiver.
 
 RESOURCE ID: item_evergreen_ticket_details
-TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à Pesquisa Temporária Premium de Areias Relaxantes no dia 7 de junho de 2024, de onde você estiver.
+TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à pesquisa temporária Barraco na Praia no dia 15 de junho de 2024, de onde você estiver.
 
 RESOURCE ID: item_evergreen_ticket_details_pokecoins
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à experiência da pesquisa de campo diária de Pokémoedas no dia 16 de maio de 2024, de onde você estiver.
+
+RESOURCE ID: item_evergreen_ticket_details_slumberingsands
+TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à Pesquisa Temporária Premium de Areias Relaxantes no dia 7 de junho de 2024, de onde você estiver.
 
 RESOURCE ID: item_evergreen_ticket_details_stadiumsights
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à pesquisa temporária Planagem Vitoriosa no dia 1º de junho de 2024, de onde você estiver.
@@ -1168,10 +1214,10 @@ RESOURCE ID: meetups_ended_desc
 TEXT: O encontro terminou.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-06-13T00:10:49.612362+00:00 for pt-BR
-at SHA f1b58c946c
-Pipeline 2401003, job 29025760
-Patch from: 0.317.0-SHA-f00910d6-RC4, 0.315.2-SHA-0a0b68b4-RC1, 0.319.0-SHA-0a543be8-RC1
+TEXT: Built at 2024-06-13T23:42:12.560664+00:00 for pt-BR
+at SHA e44a744008d
+Pipeline 2404364, job 29067112
+Patch from: 0.315.2-SHA-0a0b68b4-RC1, 0.317.0-SHA-dcf47c39-RC3, 0.319.0-SHA-0a543be8-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emite um raio sinistro. Atrai Pokémon encontrados à noite e permite Evolução noturna durante o dia.
@@ -1208,6 +1254,21 @@ TEXT: Parece que ainda não tem nenhum Pokémon aqui! Gostaria de colocar um dos
 
 RESOURCE ID: no_pokemon_found_header
 TEXT: Nenhum Pokémon encontrado!
+
+RESOURCE ID: notification_from_gym_title
+TEXT: De um Ginásio
+
+RESOURCE ID: notification_from_play_body
+TEXT: Um Pokémon deixado para brincar em uma Poképarada ou Ginásio retornará para você quando tiver terminado.
+
+RESOURCE ID: notification_from_play_title
+TEXT: Da área de brincar
+
+RESOURCE ID: notification_return_title
+TEXT: Retorno do Pokémon
+
+RESOURCE ID: oob_toast_string_key
+TEXT: Volte para a área de brincar para colocar um Pokémon.
 
 RESOURCE ID: party_play_party_share_card_title
 TEXT: Compartilhe itens com seu grupo!
@@ -1260,8 +1321,20 @@ TEXT: {0} compartilhou {1} {2}
 RESOURCE ID: party_share_ticker_message_plural
 TEXT: {0} compartilhou {1} {2}
 
+RESOURCE ID: photo_hub_all_groups_title
+TEXT: ALL GROUPS
+
+RESOURCE ID: photo_hub_decorate
+TEXT: Decorate
+
 RESOURCE ID: photo_hub_hashtags
 TEXT: Use as hashtags #GOsnapshot #PokemonGO
+
+RESOURCE ID: photo_hub_last_used
+TEXT: Previously Photographed
+
+RESOURCE ID: photo_hub_see_all_groups
+TEXT: SEE ALL GROUPS
 
 RESOURCE ID: photo_set_playful_pals_big
 TEXT: Au-aumigos
@@ -1270,13 +1343,13 @@ RESOURCE ID: photobomb_five_bounsweet
 TEXT: 5 encontros surpresa com Bounsweet ao usar o Retrato GO
 
 RESOURCE ID: photobomb_five_cyndaquil
-TEXT: 5 surprise encounters with Cyndaquil in GO Snapshot
+TEXT: 5 encontros surpresa com Cyndaquil ao usar o Retrato GO
 
 RESOURCE ID: photobomb_five_goomy
 TEXT: 5 encontros surpresa com Goomy ao usar o Retrato GO
 
 RESOURCE ID: pokedex_mode_name_primal
-TEXT: Primal
+TEXT: Primal Reversion
 
 RESOURCE ID: pokedex_sort_unfavorite
 TEXT: Remover Favorito
@@ -1303,13 +1376,13 @@ RESOURCE ID: quest_catch_type_water_ground_plural
 TEXT: Pegar {0} Pokémon de tipo Água ou Terrestre.
 
 RESOURCE ID: quest_cyndaquil_catch_b
-TEXT: Catch {0} Cyndaquil
+TEXT: Pegar {0} Cyndaquil.
 
 RESOURCE ID: quest_cyndaquil_evolve_b_plural
-TEXT: Evolve {0} Cyndaquil
+TEXT: Evoluir {0} Cyndaquil.
 
 RESOURCE ID: quest_cyndaquil_evolve_b_singular
-TEXT: Evolve a Cyndaquil
+TEXT: Evoluir 1 Cyndaquil.
 
 RESOURCE ID: quest_goomy_catch_b
 TEXT: Pegar {0} Goomy.
@@ -1324,10 +1397,10 @@ RESOURCE ID: quest_poliwag_catch_b
 TEXT: Pegar {0} Poliwag.
 
 RESOURCE ID: quest_quilava_evolve_b_plural
-TEXT: Evolve {0} Quilava
+TEXT: Evoluir {0} Quilava.
 
 RESOURCE ID: quest_quilava_evolve_b_singular
-TEXT: Evolve a Quilava
+TEXT: Evoluir 1 Quilava.
 
 RESOURCE ID: quest_sliggoo_evolve_b_plural
 TEXT: Evoluir {0} Sliggoo.
@@ -1387,52 +1460,52 @@ RESOURCE ID: quest_special_dialogue_bounsweet_3_3
 TEXT: De qualquer forma, obrigado por toda a ajuda hoje, %PLAYERNAME%. Fique alerta e bem longe do alcance dos chutes dela!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_0_0
-TEXT: %PLAYERNAME%, hi! It’s pretty hot out here, don’t you think? The heat must be coming from all the Cyndaquil running about!
+TEXT: Olá, %PLAYERNAME%! Tá muito quente aqui, você não acha? Esse calor todo deve estar vindo desse monte de Cyndaquil correndo pra lá e pra cá!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_0_1
-TEXT: Are you familiar with it? It’s a Fire-type Pokémon known for its timid nature.
+TEXT: Você conhece? É um Pokémon de tipo Fogo, conhecido por sua natureza tímida.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_0_2
-TEXT: Since they scare easily, they’re usually found curled up in a little ball—and they’ll flare the flames on their backs to protect themselves when attacked!
+TEXT: Como se assustam facilmente, esses Pokémon geralmente se enrolam como uma bola e acenderão as chamas nas suas costas para se protegerem quando são atacados!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_0_3
-TEXT: Why don’t you grab a pocket fan to stay cool and try to catch one of these fascinating Pokémon?
+TEXT: Que tal pegar um ventilador de portátil pra se refrescar e tentar pegar um desses Pokémon fascinantes?
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_0
-TEXT: That’s quite a Cyndaquil you’ve befriended, %PLAYERNAME%! You’re on fire—er, not literally, thankfully.
+TEXT: Que Cyndaquil legal que você fez amizade, %PLAYERNAME%! Você está em chamas, digo, não literalmente, ainda bem.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_1
-TEXT: Let me reward you with some fun tidbits! Did you know that a Cyndaquil’s flames burn hottest when they’re startled?
+TEXT: Vou recompensar você com algumas curiosidades divertidas! Você sabia que as chamas de Cyndaquil queimam mais ainda quando se assustam?
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_2
-TEXT: And its Evolution, Quilava, will turn its back on opponents just to show off how ferociously its fire blazes!
+TEXT: E sua evolução, Quilava, vira as costas para os oponentes só para exibir como suas chamas queimam ferozmente!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_3
-TEXT: Let’s evolve your Cyndaquil into a Quilava. While I’m not jumping at the idea of making it even hotter around here, I AM eager to study the variance in flame intensity as they evolve.
+TEXT: Vamos evoluir seu Cyndaquil para Quilava. Embora eu não esteja tão contente com a ideia de aumentar o calor por aqui, MAL POSSO ESPERAR para estudar a variação na intensidade das chamas conforme evoluem.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_2_0
-TEXT: Amazing work, %PLAYERNAME%! Now, let’s take a closer look at your Quilava. You’re on a hot streak!
+TEXT: Que trabalho incrível, %PLAYERNAME%! Agora, vamos observar mais de perto seu Quilava. Você está a todo vapor!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_2_1
-TEXT: As I mentioned, Quilava tend to use the heat of their flames to intimidate foes. Those flames burn even stronger when it prepares to fight!
+TEXT: Como mencionei, Quilava costumam usar o calor de suas chamas para intimidar os oponentes. Essas chamas queimam ainda mais forte quando se preparam para batalhar!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_2_2
-TEXT: Your Quilava seems like a real firebrand! I bet it’ll be even more of a force to be reckoned with once it evolves.
+TEXT: Seu Quilava parece uma tocha de verdade! Aposto que será ainda mais forte quando evoluir.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_2_3
-TEXT: On that note, let’s turn the thermostat up to max—evolve your Quilava into Typhlosion! There’s learning to be had!
+TEXT: Falando nisso, vamos aumentar o termostato ao máximo. Evolua seu Quilava para Typhlosion! Há muito o que aprender!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_3_0
-TEXT: Oh! I was wondering why I was feeling so toasty, but now I see—you’re back with Typhlosion! Let’s take a moment to marvel at its raw power.
+TEXT: Ah! Eu estava me perguntando por que estava com tanto calor, mas agora já sei: você voltou com Typhlosion! Vamos aproveitar para admirar seu poder bruto.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_3_1
-TEXT: When a Typhlosion’s rage peaks, it gets so hot that it’ll send anything that touches it up in flames!
+TEXT: Quando a ira de Typhlosion atinge seu pico, esse Pokémon fica tão quente que qualquer coisa que o toque pega fogo!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_3_2
-TEXT: I’m pretty sure my eyebrows are getting singed, but it’s totally worth it for an up-close encounter with such an awe-inspiring Pokémon!
+TEXT: Tenho certeza de que minhas sobrancelhas estão chamuscando, mas vale muito a pena pra ver de perto esse Pokémon tão impressionante!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_3_3
-TEXT: You never disappoint, %PLAYERNAME%. Until our next adventure—stay cool!
+TEXT: Você nunca decepciona, %PLAYERNAME%. Até a nossa próxima aventura. Fica frio!
 
 RESOURCE ID: quest_special_dialogue_goomy_0_0
 TEXT: Ah! Oi, %PLAYERNAME%! Não repara na bagunça...
@@ -1483,7 +1556,7 @@ RESOURCE ID: quest_special_dialogue_goomy_3_3
 TEXT: Enfim, obrigado por não desgrudar dessa pesquisa! Tomara que você e Goodra fiquem juntos por muitos anos!
 
 RESOURCE ID: quest_special_dialogue_litwick_1_2
-TEXT: "Life force," Professor Willow says? Peculiar. I wonder—would those flames transform if Litwick were to evolve?
+TEXT: Força vital, diz o Professor Willow? Peculiar. Será que essas chamas se transformariam se Litwick evoluísse?
 
 RESOURCE ID: quest_steenee_evolve_b_plural
 TEXT: Evoluir {0} Steenee.
@@ -1522,19 +1595,19 @@ RESOURCE ID: quest_title_catching_wonders_sr_4
 TEXT: Pesquisa magistral: Maravilhas da Captura (4/4)
 
 RESOURCE ID: quest_title_cyndaquil
-TEXT: Community Day Classic: Cyndaquil
+TEXT: Clássicos do Dia Comunitário: Cyndaquil
 
 RESOURCE ID: quest_title_cyndaquil_0
-TEXT: Community Day Classic: Cyndaquil (1/4)
+TEXT: Clássicos do Dia Comunitário: Cyndaquil (1/4)
 
 RESOURCE ID: quest_title_cyndaquil_1
-TEXT: Community Day Classic: Cyndaquil (2/4)
+TEXT: Clássicos do Dia Comunitário: Cyndaquil (2/4)
 
 RESOURCE ID: quest_title_cyndaquil_2
-TEXT: Community Day Classic: Cyndaquil (3/4)
+TEXT: Clássicos do Dia Comunitário: Cyndaquil (3/4)
 
 RESOURCE ID: quest_title_cyndaquil_3
-TEXT: Community Day Classic: Cyndaquil (4/4)
+TEXT: Clássicos do Dia Comunitário: Cyndaquil (4/4)
 
 RESOURCE ID: quest_title_goomy
 TEXT: Dia Comunitário: Goomy
@@ -1582,10 +1655,13 @@ RESOURCE ID: route_play_partial_completion_body_secondary
 TEXT: Se completar a Rota agora, você receberá recompensas com base na sua distância percorrida. Para receber a recompensa completa, retome a Rota e volte ao ponto final quando tiver percorrido a distância completa.
 
 RESOURCE ID: route_point_invalid
-TEXT: Invalid Point
+TEXT: Ponto inválido
+
+RESOURCE ID: route_status_archived
+TEXT: Arquivada
 
 RESOURCE ID: route_status_update_archived
-TEXT: Route archived.
+TEXT: Rota arquivada.
 
 RESOURCE ID: route_submission_add_name_desc_title
 TEXT: Adicionar nome e descrição
@@ -1735,10 +1811,10 @@ RESOURCE ID: shop_discount_disclaimer_helpshift_url
 TEXT: https://niantic.helpshift.com/hc/faq/4707-notice-regarding-discount-rates-displayed-in-the-shop/
 
 RESOURCE ID: shop_discount_disclaimer_modal_body
-TEXT: Discounts and Timers: Discount tags shown for item bundles in the Shop are calculated based on the total value of the items in the bundle. Timers indicate the amount of time remaining to purchase that specific item, pack or bundle.
+TEXT: Descontos e cronômetros: as etiquetas de descontos mostradas para combos de itens na loja são calculadas com base no valor total dos itens no combo. Os cronômetros indicam o tempo restante para comprar aquele item específico, pacote ou combo.
 
 RESOURCE ID: shop_discount_disclaimer_modal_title
-TEXT: Limited Time Only Discounts
+TEXT: Descontos por tempo limitado
 
 RESOURCE ID: shop_discount_disclaimer_publish_id
 TEXT: 4707
@@ -1753,7 +1829,7 @@ RESOURCE ID: spawn_bounsweet
 TEXT: Bounsweet selvagens estão aparecendo com mais frequência!
 
 RESOURCE ID: spawn_cyndaquil
-TEXT: More Cyndaquil are appearing in the wild!
+TEXT: Cyndaquil selvagens estão aparecendo com mais frequência!
 
 RESOURCE ID: spawn_goomy
 TEXT: Goomy selvagens estão aparecendo com mais frequência!
@@ -1850,18 +1926,24 @@ TEXT: <b>As recompensas incluem:</b>
 • Encontros extra com Goomy e suas Evoluções
 
 RESOURCE ID: text_rewards_key_shinycelebi24
-TEXT: A ticket to access Masterwork Research that leads to an encounter with one of the most elusive Pokémon, Shiny Celebi, and includes the following rewards:
-• 3 Super Incubators, 153 Ultra Balls, 1 Poffin, and 1 Incense
-• 1 Premium Battle Pass and 3 Charged TMs
-• 3 Rare Candies and 3 Rare Candy XL
-• 1 Glacial Lure Module and 1 Mossy Lure Module
-• 40,411 XP and 17,570 Stardust
+TEXT: Um ingresso para acessar a Pesquisa magistral que leva a um encontro com um dos Pokémon mais elusivos, Celebi Brilhante, e inclui as seguintes recompensas:
+• 3 Superincubadoras, 153 Ultra Bolas, 1 Poffin e 1 Incenso
+• 1 Passe de Batalha Premium e 3 MTs de ataque carregado
+• 3 Doces Raros e 3 Doces Raros GG
+• 1 Módulo Atrair Glacial e 1 Módulo Atrair Musgoso
+• 40.411 PE e 17.570 Poeira Estelar
 
 RESOURCE ID: text_rewards_key_slumberingsands24
 TEXT: <b>As recompensas incluem:</b>
 • Item de avatar Mochila de Komala
 • Encontros com Komala e Slakoth de viseira
 • 10.000 PE, 2.500 Poeira Estelar, 25 Poké Bolas, 2 Frutas Caxí prateadas, 2 Frutas Frambo douradas e 1 Pedaço de Estrela
+
+RESOURCE ID: text_rewards_key_spelunkercove24
+TEXT: <b>As recompensas incluem:</b>
+• Cinco encontros com Crabrawler
+• Cinco Passes de Batalha Premium
+• 20 doces de Crabrawler
 
 RESOURCE ID: text_rewards_key_stadiumsights24
 TEXT: <b>As recompensas incluem:</b>
@@ -1881,7 +1963,7 @@ RESOURCE ID: ticket_bounsweet
 TEXT: Ingresso para a narrativa de pesquisa especial do Dia Comunitário de Bounsweet está disponível na loja
 
 RESOURCE ID: ticket_cyndaquil_cdc
-TEXT: Ticket for the Cyndaquil Community Day Classic Special Research story available in the shop
+TEXT: O ingresso para a narrativa de pesquisa especial do Clássicos do Dia Comunitário de Cyndaquil está disponível na loja
 
 RESOURCE ID: ticket_glide_victory_tr
 TEXT: O ingresso para a pesquisa temporária Planagem Vitoriosa está disponível na loja
@@ -1947,6 +2029,9 @@ TEXT: Certifique-se de apontar a sua câmera no local para sincronizar a imagem 
 RESOURCE ID: vps_localization_error_generic_header
 TEXT: Houve um erro.
 
+RESOURCE ID: vps_localization_error_too_far
+TEXT: Aproxime-se do local desejado.
+
 RESOURCE ID: vps_localization_exit_confirmation_body
 TEXT: Você não poderá conectar-se com a área se você fizer isso.
 
@@ -1997,6 +2082,9 @@ TEXT: Houve um erro. Tente novamente mais tarde.
 
 RESOURCE ID: vps_localization_toast
 TEXT: Ande devagar em volta do local.
+
+RESOURCE ID: vps_localization_toast_alternative
+TEXT: Procurando por Pokémon na área
 
 RESOURCE ID: waina_24_tr_title
 TEXT: Pesquisa temporária Pokémon Sleep

@@ -31,6 +31,12 @@ TEXT: Pour utiliser le mode RA, nous avons besoin d’accéder à ton appareil 
 RESOURCE ID: ar_mode_safety_string
 TEXT: Assure-toi que tu es dans un endroit sûr lorsque tu utilises le mode RA et que les enfants sont sous surveillance à tout moment.
 
+RESOURCE ID: ar_tracking_error
+TEXT: Un problème s’est produit avec le suivi RA. Essaie de scanner à nouveau la zone autour du PokéStop ou réessaie plus tard.
+
+RESOURCE ID: ar_tracking_reconnecting
+TEXT: Reconnexion du suivi RA
+
 RESOURCE ID: avatar_f_backpack_combeebackpack_00_bundle_icon
 TEXT: Sac Apitrini mâle
 
@@ -263,6 +269,9 @@ TEXT: 2025 Pokémon EUIC Champion (2/2)
 RESOURCE ID: bonuses_active
 TEXT: Bonuses Active!
 
+RESOURCE ID: buddy_widget_description
+TEXT: Utilise le Suivi d’exploration pour surveiller la jauge cœur de ton Copain Pokémon lorsque Pokémon GO est ouvert en arrière-plan.
+
 RESOURCE ID: campfire_checkin_notification
 TEXT: L’évènement en personne “{0}” commence à {1} ! Participes-y pour récupérer ta récompense.
 
@@ -302,6 +311,9 @@ TEXT: Émet un rayon de lumière mystérieux pendant {0}. Attire des Pokémon qu
 RESOURCE ID: dusk_mane_move_content
 TEXT: Brille telle une météorite pendant {0}. Attire des Pokémon que l’on rencontre le jour et permet aux Pokémon qui évoluent le jour de le faire pendant la nuit.
 
+RESOURCE ID: eggs_widget_description
+TEXT: Utilisez le Suivi d’exploration pour suivre la progression de l’éclosion de vos Œufs lorsque Pokémon GO est en arrière-plan.
+
 RESOURCE ID: error_gift_does_not_exist
 TEXT: Une erreur s’est produite avec ce Cadeau. Réessaie.
 
@@ -328,6 +340,10 @@ au 3 juillet à 20h
 RESOURCE ID: event_datetime_range_key_slumberingsands24
 TEXT: Du 7 juin à 10h
 au 12 juin à 20h
+
+RESOURCE ID: event_datetime_range_key_spelunkercove24
+TEXT: Du 15 juin à 10h
+au 18 juin à 20h
 
 RESOURCE ID: event_datetime_range_key_stadiumsights24
 TEXT: Du 1ᵉʳ juin à 10h
@@ -423,6 +439,9 @@ TEXT: Ticket pour l’Étude magistrale Murmures dans les bois
 
 RESOURCE ID: general1.ticket._slumberingsands24_title
 TEXT: Ticket pour l’Étude ponctuelle premium Sable sommeillant
+
+RESOURCE ID: general1.ticket._spelunkercove24_title
+TEXT: Ticket pour l’Étude ponctuelle Plage en fête
 
 RESOURCE ID: general1.ticket._stadiumsights24_title
 TEXT: Ticket pour l’Étude ponctuelle Vol plané vers la victoire
@@ -955,8 +974,17 @@ TEXT: Grindur attiré par l’Encens
 RESOURCE ID: incident_already_completed_error
 TEXT: Combat déjà terminé.
 
+RESOURCE ID: iris_color_sort
+TEXT: Color
+
+RESOURCE ID: iris_social_add_pokemon_key
+TEXT: Ajouter des Pokémon
+
 RESOURCE ID: iris_social_choose_pokemon_toast
 TEXT: Choisis les Pokémon à placer dans cette zone.
+
+RESOURCE ID: iris_social_empty_pokemon_bag_key
+TEXT: Tu n’as pas encore de Pokémon à placer.
 
 RESOURCE ID: iris_social_limited_pokemon_key
 TEXT: Il n’y a pas assez de place pour ce Pokémon pour l’instant.
@@ -994,6 +1022,9 @@ TEXT: I don’t know where to point my camera
 RESOURCE ID: iris_social_pokemon_info_recall_button
 TEXT: RAPPELER
 
+RESOURCE ID: iris_social_pokemon_resting_key
+TEXT: C’est un moment de repos ! Reviens plus tard.
+
 RESOURCE ID: iris_social_recall_confirmation_modal_body
 TEXT: Cette action ne peut pas être annulée.
 
@@ -1016,8 +1047,17 @@ TEXT: Thank you for your report!
 RESOURCE ID: iris_social_tired_pokemon_journal_string
 TEXT: {0} est revenu après avoir joué à cet endroit : {1}
 
+RESOURCE ID: iris_social_tired_pokemon_multiple_string
+TEXT: {0} et {1} autres Pokémon ont joué jusqu’à ce qu’ils soient fatigués et sont revenus !
+
 RESOURCE ID: iris_social_tired_pokemon_string
 TEXT: a joué jusqu’à ce qu’il soit fatigué et est revenu !
+
+RESOURCE ID: iris_temperature_warning_body
+TEXT: Due to the high temperature of the smartphone, the camera has been temporarily disabled. Please wait until the smartphone cools down to its normal temperature.
+
+RESOURCE ID: iris_temperature_warning_title
+TEXT: High Temperature Caution
 
 RESOURCE ID: irisisocial_tutorial_body_eight
 TEXT: Tu peux utiliser des stickers pour décorer les photos que tu prends. Ajoute une petite touche créative, puis partage tes photos avec les autres. À quand ton prochain chef d'œuvre ?
@@ -1086,43 +1126,49 @@ RESOURCE ID: item_event_ticket_gray_details_shinycelebi24
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude magistrale Murmures dans les bois le 28 juin, où que tu sois.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Un ticket pour accéder à l’Étude spéciale de la Journée Communauté de Mucuscule dès le 9 juin 2024 à 14h, heure locale, où que tu sois.
+TEXT: Un ticket pour accéder à l’Étude spéciale : Les classiques de la Journée Communauté – Héricendre, dès le 22 juin 2024 à 14h, heure locale, où que tu sois.
 
 RESOURCE ID: item_event_ticket_pink_desc_bounsweet
 TEXT: Un ticket pour accéder à l’Étude spéciale de la Journée Communauté de Croquine dès le 19 mai 2024 à 14h, heure locale, où que tu sois.
 
-RESOURCE ID: item_event_ticket_pink_desc_cyndaquilcdc2024
-TEXT: Un ticket pour accéder à l’Étude spéciale : Les classiques de la Journée Communauté – Héricendre, dès le 22 juin 2024 à 14h, heure locale, où que tu sois.
-
 RESOURCE ID: item_event_ticket_pink_desc_flying
 TEXT: Un ticket pour accéder à l’Étude ponctuelle de la Journée Étude Prendre son envol le 11 mai 2024 de 14h à 17h (heures locales), où que tu sois.
 
+RESOURCE ID: item_event_ticket_pink_desc_goomy
+TEXT: Un ticket pour accéder à l’Étude spéciale de la Journée Communauté de Mucuscule dès le 9 juin 2024 à 14h, heure locale, où que tu sois.
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude spéciale de la Journée Communauté de Mucuscule le 9 juin, où que tu sois.
+TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude spéciale : Les classiques de la Journée Communauté – Héricendre, le 22 juin, où que tu sois.
 
 RESOURCE ID: item_event_ticket_pink_details_bounsweet
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude spéciale “Une surprise à croquer” le 19 mai 2024, où que tu sois.
 
-RESOURCE ID: item_event_ticket_pink_details_cyndaquilcdc2024
-TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude spéciale : Les classiques de la Journée Communauté – Héricendre, le 22 juin, où que tu sois.
-
 RESOURCE ID: item_event_ticket_pink_details_flying
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude ponctuelle de la Journée Étude Prendre son envol le 11 mai, où que tu sois.
 
+RESOURCE ID: item_event_ticket_pink_details_goomy
+TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude spéciale de la Journée Communauté de Mucuscule le 9 juin, où que tu sois.
+
 RESOURCE ID: item_evergreen_ticket_desc
-TEXT: Un ticket pour accéder à l’Étude ponctuelle premium Sable sommeillant jusqu’au 12 juin 2024 à 20h, heure locale, où que tu sois.
+TEXT: Un ticket pour accéder à l’Étude ponctuelle Plage en fête jusqu’au 18 juin 2024 à 20h, heure locale, où que tu sois.
 
 RESOURCE ID: item_evergreen_ticket_desc_pokecoins
 TEXT: Un ticket qui te permet d’obtenir une tâche d’Étude de terrain lorsque tu disposes d’un espace d’Étude de terrain disponible. Cette tâche peut être terminée une fois par jour et te donne 20 PokéPièces en récompense.
+
+RESOURCE ID: item_evergreen_ticket_desc_slumberingsands
+TEXT: Un ticket pour accéder à l’Étude ponctuelle premium Sable sommeillant jusqu’au 12 juin 2024 à 20h, heure locale, où que tu sois.
 
 RESOURCE ID: item_evergreen_ticket_desc_stadiumsights
 TEXT: Un ticket pour accéder à l’Étude ponctuelle Vol plané vers la victoire du 1ᵉʳ juin à 10h au 4 juin 2024 à 20h, heures locales, où que tu sois.
 
 RESOURCE ID: item_evergreen_ticket_details
-TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude ponctuelle premium Sable sommeillant le 7 juin, où que tu sois.
+TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude ponctuelle Plage en fête le 15 juin, où que tu sois.
 
 RESOURCE ID: item_evergreen_ticket_details_pokecoins
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude de terrain quotidienne donnant des PokéPièces le 16 mai, où que tu sois.
+
+RESOURCE ID: item_evergreen_ticket_details_slumberingsands
+TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude ponctuelle premium Sable sommeillant le 7 juin, où que tu sois.
 
 RESOURCE ID: item_evergreen_ticket_details_stadiumsights
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude ponctuelle Vol plané vers la victoire le 1ᵉʳ juin, où que tu sois.
@@ -1164,10 +1210,10 @@ RESOURCE ID: meetups_ended_desc
 TEXT: L’évènement en personne est terminé.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-06-13T00:10:49.612362+00:00 for fr-FR
-at SHA f1b58c946c
-Pipeline 2401003, job 29025760
-Patch from: 0.317.0-SHA-f00910d6-RC4, 0.315.2-SHA-0a0b68b4-RC1, 0.319.0-SHA-0a543be8-RC1
+TEXT: Built at 2024-06-13T23:42:12.560664+00:00 for fr-FR
+at SHA e44a744008d
+Pipeline 2404364, job 29067112
+Patch from: 0.315.2-SHA-0a0b68b4-RC1, 0.317.0-SHA-dcf47c39-RC3, 0.319.0-SHA-0a543be8-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Émet un rayon de lumière mystérieux. Attire des Pokémon que l’on rencontre la nuit et permet aux Pokémon qui évoluent la nuit de le faire pendant le jour.
@@ -1204,6 +1250,21 @@ TEXT: Il n'y a pas encore de Pokémon ici ! Veux-tu ajouter les tiens ?
 
 RESOURCE ID: no_pokemon_found_header
 TEXT: Aucun Pokémon trouvé !
+
+RESOURCE ID: notification_from_gym_title
+TEXT: Depuis une Arène
+
+RESOURCE ID: notification_from_play_body
+TEXT: Un Pokémon que tu as laissé jouer à un PokéStop ou une Arène reviendra vers toi quand il aura fini.
+
+RESOURCE ID: notification_from_play_title
+TEXT: Après avoir joué
+
+RESOURCE ID: notification_return_title
+TEXT: Retour d’un Pokémon
+
+RESOURCE ID: oob_toast_string_key
+TEXT: Retourne dans la zone de jeu pour placer des Pokémon.
 
 RESOURCE ID: party_play_party_share_card_title
 TEXT: Partage des objets avec ton équipe !
@@ -1256,8 +1317,20 @@ TEXT: {0} a partagé {1} {2}
 RESOURCE ID: party_share_ticker_message_plural
 TEXT: {0} a partagé {1} {2}
 
+RESOURCE ID: photo_hub_all_groups_title
+TEXT: ALL GROUPS
+
+RESOURCE ID: photo_hub_decorate
+TEXT: Decorate
+
 RESOURCE ID: photo_hub_hashtags
 TEXT: Utilise les hashtags #GOsnapshot #PokemonGO
+
+RESOURCE ID: photo_hub_last_used
+TEXT: Previously Photographed
+
+RESOURCE ID: photo_hub_see_all_groups
+TEXT: SEE ALL GROUPS
 
 RESOURCE ID: photo_set_playful_pals_big
 TEXT: Amis fidèles
@@ -1272,7 +1345,7 @@ RESOURCE ID: photobomb_five_goomy
 TEXT: Mucuscule s’introduit 5 fois dans tes Clichés GO
 
 RESOURCE ID: pokedex_mode_name_primal
-TEXT: Primal
+TEXT: Primal Reversion
 
 RESOURCE ID: pokedex_sort_unfavorite
 TEXT: Retirer des favoris
@@ -1476,7 +1549,7 @@ RESOURCE ID: quest_special_dialogue_goomy_3_3
 TEXT: Merci en tout cas, cette enquête ne t’a pas posé de colle ! J’espère que ton Muplodocus te tiendra compagnie pendant longtemps !
 
 RESOURCE ID: quest_special_dialogue_litwick_1_2
-TEXT: "Life force," Professor Willow says? Peculiar. I wonder—would those flames transform if Litwick were to evolve?
+TEXT: Le Professeur Willow dit que c’est « la force vitale » ? Étrange. Je me demande si ces flammes changent lorsque Funécire évolue.
 
 RESOURCE ID: quest_steenee_evolve_b_plural
 TEXT: Fais évoluer {0} Candine
@@ -1853,6 +1926,12 @@ TEXT: <b>Donne accès à :</b>
 • Des rencontres avec Dodoala et avec Parecool portant une visière
 • 10 000 PX, 2 500 Poussières Étoiles, 25 Poké Balls, 2 Baies Nanana argentées, 2 Baies Framby dorées et 1 Morceau d’Étoile
 
+RESOURCE ID: text_rewards_key_spelunkercove24
+TEXT: <b>Parmi les récompenses :</b>
+• 5 rencontres avec Crabagarre
+• 5 passes de combat premium
+• 20 Bonbons Crabagarre
+
 RESOURCE ID: text_rewards_key_stadiumsights24
 TEXT: <b>Donne accès à :</b>
 • 5 rencontres avec Emolga
@@ -1937,6 +2016,9 @@ TEXT: Pointe ton appareil photo vers l’emplacement correspondant à l’image 
 RESOURCE ID: vps_localization_error_generic_header
 TEXT: Une erreur s’est produite.
 
+RESOURCE ID: vps_localization_error_too_far
+TEXT: Rapproche-toi de la cible.
+
 RESOURCE ID: vps_localization_exit_confirmation_body
 TEXT: Tu ne pourras plus te connecter à la zone.
 
@@ -1987,6 +2069,9 @@ TEXT: Une erreur s’est produite. Réessaie plus tard.
 
 RESOURCE ID: vps_localization_toast
 TEXT: Marche lentement autour de l’endroit.
+
+RESOURCE ID: vps_localization_toast_alternative
+TEXT: À la recherche de Pokémon dans la zone
 
 RESOURCE ID: waina_24_tr_title
 TEXT: Étude ponctuelle Pokémon Sleep

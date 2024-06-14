@@ -34,6 +34,12 @@ TEXT: AR modunu kullanabilmek için kameranıza ve fotoğraf galerinize erişim 
 RESOURCE ID: ar_mode_safety_string
 TEXT: AR modunu kullanırken güvenli bir yerde olduğunuzdan ve çocukların her zaman gözetim altında olduğundan emin olun.
 
+RESOURCE ID: ar_tracking_error
+TEXT: AR izleme ile ilgili bir hata oluştu. Lütfen PokéDurak etrafındaki alanı yeniden taramaya çalışın veya daha sonra tekrar deneyin.
+
+RESOURCE ID: ar_tracking_reconnecting
+TEXT: AR izleme yeniden bağlanıyor
+
 RESOURCE ID: avatar_f_backpack_komala_00_bundle_icon
 TEXT: Komala Sırt Çantası
 
@@ -177,7 +183,7 @@ RESOURCE ID: bonus_cd_move_bounsweet
 TEXT: Steenee’yi evrimleştirerek Yüksek Sıçrama Tekmesi güçlü saldırısını bilen Tsareena elde edebilirsiniz.
 
 RESOURCE ID: bonus_cd_move_cyndaquil
-TEXT: Evolve Quilava to get a Typhlosion that knows the Charged Attack Blast Burn!
+TEXT: Quilava’yı evrimleştirerek Tahrip Yanığı güçlü saldırısını bilen Typhlosion elde edin!
 
 RESOURCE ID: bonus_cd_move_goomy
 TEXT: Sliggoo’yu evrimleştirerek Gök Gürültüsü Yumruğu güçlü saldırısını bilen Goodra elde edin!
@@ -254,6 +260,9 @@ TEXT: 2025 Pokémon EUIC Champion (2/2)
 RESOURCE ID: bonuses_active
 TEXT: Bonuses Active!
 
+RESOURCE ID: buddy_widget_description
+TEXT: Pokémon GO arka planda açıkken Macera Senkronizasyonu ile Dost Pokémon’unuzun kalp sayacını izleyin.
+
 RESOURCE ID: campfire_checkin_notification
 TEXT: {0} buluşmasının başlangıç saati: {1}. Ödülünüzü almak için giriş yapın!
 
@@ -293,6 +302,9 @@ TEXT: {0} boyunca tekinsiz bir ışın yayar. Geceleri ortaya çıkan Pokémon�
 RESOURCE ID: dusk_mane_move_content
 TEXT: {0} boyunca meteor ışığı yayar. Gündüzleri ortaya çıkan Pokémon’ları çeker ver gündüzleri gerçekleşen evrimlerin gece de yapılabilmesini sağlar.
 
+RESOURCE ID: eggs_widget_description
+TEXT: Pokémon GO arka planda çalışırken yumurta çatlama ilerlemesini görmek için Macera Senkronizasyonu'nu kullanın.
+
 RESOURCE ID: error_gift_does_not_exist
 TEXT: Bu hediyeyle ilgili bir hata oluştu. Lütfen daha sonra tekrar deneyin.
 
@@ -303,8 +315,8 @@ RESOURCE ID: error_reward_item_reach_limit
 TEXT: Bu eşyalardan biri veya birkaçı için envanter sınırına ulaştınız.
 
 RESOURCE ID: event_datetime_range_key_anniversary24
-TEXT: June 28, 10:00 a.m. –
-July 3, 8:00 p.m.
+TEXT: 28 Haziran, 10.00 -
+3 Temmuz, 20.00
 
 RESOURCE ID: event_datetime_range_key_cyndaquilcdc2024
 TEXT: 22 Haziran, 14.00-17.00
@@ -319,6 +331,10 @@ TEXT: 28 Haziran, 10.00 -
 RESOURCE ID: event_datetime_range_key_slumberingsands24
 TEXT: 7 Haziran, 10.00 -
 12 Haziran, 20.00
+
+RESOURCE ID: event_datetime_range_key_spelunkercove24
+TEXT: 15 Haziran, 10.00 -
+18 Haziran, 20.00
 
 RESOURCE ID: event_datetime_range_key_stadiumsights24
 TEXT: 1 Haziran, 10.00 -
@@ -404,13 +420,16 @@ RESOURCE ID: fusion_resource_duskmane_necrozma_name_plural
 TEXT: Güneş Füzyon Enerjisi
 
 RESOURCE ID: general1.ticket._anniversary24_title
-TEXT: 8th Anniversary Party Premium Timed Research Ticket
+TEXT: 8. Yıl Dönümü Partisi Premium Süreli Araştırması Bileti
 
 RESOURCE ID: general1.ticket._shinycelebi24_title
 TEXT: Ormandaki Fısıltılar Ustalık Araştırması Bileti
 
 RESOURCE ID: general1.ticket._slumberingsands24_title
 TEXT: Uyuklayan Kumlar Premium Süreli Araştırması Bileti
+
+RESOURCE ID: general1.ticket._spelunkercove24_title
+TEXT: Plajda Cümbüş Süreli Araştırması Bileti
 
 RESOURCE ID: general1.ticket._stadiumsights24_title
 TEXT: Zafere Yükseliş Süreli Araştırması Bileti
@@ -943,8 +962,17 @@ TEXT: Ferroseed Tütsüye geliyor
 RESOURCE ID: incident_already_completed_error
 TEXT: Maç zaten tamamlanmış.
 
+RESOURCE ID: iris_color_sort
+TEXT: Color
+
+RESOURCE ID: iris_social_add_pokemon_key
+TEXT: Pokémon ekleyin
+
 RESOURCE ID: iris_social_choose_pokemon_toast
 TEXT: Bu bölgeye yerleştirmek için Pokémon seçin.
+
+RESOURCE ID: iris_social_empty_pokemon_bag_key
+TEXT: Yerleştirecek Pokémon’unuz yok.
 
 RESOURCE ID: iris_social_limited_pokemon_key
 TEXT: Şu anda bu Pokémon’a yetecek kadar yer yok.
@@ -982,6 +1010,9 @@ TEXT: I don’t know where to point my camera
 RESOURCE ID: iris_social_pokemon_info_recall_button
 TEXT: GERİ ÇAĞIR
 
+RESOURCE ID: iris_social_pokemon_resting_key
+TEXT: Dinlenme vakti! Lütfen daha sonra tekrar deneyin.
+
 RESOURCE ID: iris_social_recall_confirmation_modal_body
 TEXT: Bu eylemi geri alamazsınız.
 
@@ -1004,8 +1035,17 @@ TEXT: Thank you for your report!
 RESOURCE ID: iris_social_tired_pokemon_journal_string
 TEXT: {0} şurada oynayıp geri döndü: {1}
 
+RESOURCE ID: iris_social_tired_pokemon_multiple_string
+TEXT: {0} ve {1} diğer Pokémon yorulana kadar oynayıp geri döndü!
+
 RESOURCE ID: iris_social_tired_pokemon_string
 TEXT: yorulana kadar oynadı ve geri döndü!
+
+RESOURCE ID: iris_temperature_warning_body
+TEXT: Due to the high temperature of the smartphone, the camera has been temporarily disabled. Please wait until the smartphone cools down to its normal temperature.
+
+RESOURCE ID: iris_temperature_warning_title
+TEXT: High Temperature Caution
 
 RESOURCE ID: irisisocial_tutorial_body_eight
 TEXT: Çektiğiniz fotoğrafları süslemek için çıkartma kullanabilirsiniz. Yaratıcılığınızı konuşturun, sonra da fotoğrafınızı paylaşın. Sonuç bir şaheser olabilir!
@@ -1056,10 +1096,10 @@ RESOURCE ID: irisisocial_tutorial_header_two
 TEXT: Pokémon’larınız birlikte takılıp oyun oynayacak!
 
 RESOURCE ID: item_event_ticket_evergreen_desc_anniversary24
-TEXT: A ticket to access the 8th Anniversary Party Premium Timed Research until July 3, 2024, at 8:00 p.m. local time, wherever you are.
+TEXT: 3 Temmuz 2024, yerel saatle 20.00’ye kadar sürecek 8. Yıl Dönümü Partisi premium süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
 RESOURCE ID: item_event_ticket_evergreen_details_anniversary24
-TEXT: This ticket will automatically activate to give you access to the 8th Anniversary Party Premium Timed Research on June 28, wherever you are.
+TEXT: Bu bilet 8. Yıl Dönümü Partisi premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için 28 Haziran’da otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: 23 Mayıs 2024, yerel saatle 10.00 - 28 Mayıs 2024, yerel saatle 20.00 arasında gerçekleşecek Ultra Uzay Mucizeleri süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
@@ -1074,43 +1114,49 @@ RESOURCE ID: item_event_ticket_gray_details_shinycelebi24
 TEXT: Bu bilet Ormandaki Fısıltılar ustalık araştırmasına dilediğiniz yerden erişebilmeniz için 28 Haziran’da otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: 9 Haziran’da, yerel saatle 14.00’te başlayacak Goomy Topluluk Günü özel araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
+TEXT: 22 Haziran’da, yerel saatle 14.00’te başlayacak Cyndaquil Topluluk Günü Klasik özel araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
 RESOURCE ID: item_event_ticket_pink_desc_bounsweet
 TEXT: 19 Mayıs’ta, yerel saatle 14.00’te başlayacak Bounsweet Topluluk Günü özel araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
-RESOURCE ID: item_event_ticket_pink_desc_cyndaquilcdc2024
-TEXT: 22 Haziran’da, yerel saatle 14.00’te başlayacak Cyndaquil Topluluk Günü Klasik özel araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
-
 RESOURCE ID: item_event_ticket_pink_desc_flying
 TEXT: 11 Mayıs 2024’te, yerel saatle 14.00-17.00 arasında gerçekleşecek Sürüsüne Bereket Araştırma Günü süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
+RESOURCE ID: item_event_ticket_pink_desc_goomy
+TEXT: 9 Haziran’da, yerel saatle 14.00’te başlayacak Goomy Topluluk Günü özel araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Bu bilet Goomy Topluluk Günü özel araştırmasına dilediğiniz yerden erişebilmeniz için 9 Haziran’da otomatik olarak etkinleştirilecek.
+TEXT: Bu bilet 22 Haziran’da gerçekleşecek Topluluk Günü Klasik: Cyndaquil özel araştırma hikâyesine dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_pink_details_bounsweet
 TEXT: Bu bilet 19 Mayıs’ta gerçekleşecek Tatlı Bir Sürpriz özel araştırma hikâyesine dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
 
-RESOURCE ID: item_event_ticket_pink_details_cyndaquilcdc2024
-TEXT: Bu bilet 22 Haziran’da gerçekleşecek Topluluk Günü Klasik: Cyndaquil özel araştırma hikâyesine dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
-
 RESOURCE ID: item_event_ticket_pink_details_flying
 TEXT: Bu bilet 11 Mayıs’ta gerçekleşecek Sürüsüne Bereket Araştırma Günü süreli araştırmasına dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
 
+RESOURCE ID: item_event_ticket_pink_details_goomy
+TEXT: Bu bilet Goomy Topluluk Günü özel araştırmasına dilediğiniz yerden erişebilmeniz için 9 Haziran’da otomatik olarak etkinleştirilecek.
+
 RESOURCE ID: item_evergreen_ticket_desc
-TEXT: 12 Haziran 2024, yerel saatle 20.00’ye kadar sürecek Uyuklayan Kumlar premium süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
+TEXT: 18 Haziran 2024, yerel saatle 20.00’ye kadar sürecek Plajda Cümbüş süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
 RESOURCE ID: item_evergreen_ticket_desc_pokecoins
 TEXT: Alan araştırması için boş bir yeriniz olduğunda bir alan araştırması görevi alabilmenizi sağlayan bir bilet. Bu görev günde bir kere tamamlanabilir ve 20 PokéPara ödülü verir.
+
+RESOURCE ID: item_evergreen_ticket_desc_slumberingsands
+TEXT: 12 Haziran 2024, yerel saatle 20.00’ye kadar sürecek Uyuklayan Kumlar premium süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
 RESOURCE ID: item_evergreen_ticket_desc_stadiumsights
 TEXT: 1 Haziran 2024, yerel saatle 10.00 - 4 Haziran 2024, yerel saatle 20.00 arasında gerçekleşecek Zafere Yükseliş süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
 RESOURCE ID: item_evergreen_ticket_details
-TEXT: Bu bilet Uyuklayan Kumlar premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için 7 Haziran’da otomatik olarak etkinleştirilecek.
+TEXT: Bu bilet Plajda Cümbüş süreli araştırmasına dilediğiniz yerden erişebilmeniz için 15 Haziran’da otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_evergreen_ticket_details_pokecoins
 TEXT: Bu bilet Günlük Poképara Alan Araştırması Bileti deneyimine dilediğiniz yerden erişebilmeniz için 16 Mayıs’ta otomatik olarak etkinleştirilecek.
+
+RESOURCE ID: item_evergreen_ticket_details_slumberingsands
+TEXT: Bu bilet Uyuklayan Kumlar premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için 7 Haziran’da otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_evergreen_ticket_details_stadiumsights
 TEXT: Bu bilet Zafere Yükseliş süreli araştırmasına dilediğiniz yerden erişebilmeniz için 1 Haziran’da otomatik olarak etkinleştirilecek.
@@ -1152,10 +1198,10 @@ RESOURCE ID: meetups_ended_desc
 TEXT: Buluşma sona erdi.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-06-13T00:10:49.612362+00:00 for tr-TR
-at SHA f1b58c946c
-Pipeline 2401003, job 29025760
-Patch from: 0.317.0-SHA-f00910d6-RC4, 0.315.2-SHA-0a0b68b4-RC1, 0.319.0-SHA-0a543be8-RC1
+TEXT: Built at 2024-06-13T23:42:12.560664+00:00 for tr-TR
+at SHA e44a744008d
+Pipeline 2404364, job 29067112
+Patch from: 0.315.2-SHA-0a0b68b4-RC1, 0.317.0-SHA-dcf47c39-RC3, 0.319.0-SHA-0a543be8-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Tekinsiz bir ışın yayar. Geceleri ortaya çıkan Pokémon’ları çeker ve geceleri gerçekleşen evrimlerin gündüz de yapılabilmesini sağlar.
@@ -1192,6 +1238,21 @@ TEXT: Görünüşe göre burada henüz hiç Pokémon yok! Kendi Pokémon’unuzu
 
 RESOURCE ID: no_pokemon_found_header
 TEXT: Hiç Pokémon bulunamadı!
+
+RESOURCE ID: notification_from_gym_title
+TEXT: Spor Salonundan
+
+RESOURCE ID: notification_from_play_body
+TEXT: PokéDurakta veya spor salonunda bırakılan bir Pokémon işi bittiğinde size geri döner.
+
+RESOURCE ID: notification_from_play_title
+TEXT: Oyundan
+
+RESOURCE ID: notification_return_title
+TEXT: Pokémon Geri Dönüşü
+
+RESOURCE ID: oob_toast_string_key
+TEXT: Pokémon yerleştirmek için oyun alanına geri dönün.
 
 RESOURCE ID: party_play_party_share_card_title
 TEXT: Ekibinizle eşya paylaşın!
@@ -1244,8 +1305,20 @@ TEXT: {0} {1} {2} paylaştı
 RESOURCE ID: party_share_ticker_message_plural
 TEXT: {0} {1} {2} paylaştı
 
+RESOURCE ID: photo_hub_all_groups_title
+TEXT: ALL GROUPS
+
+RESOURCE ID: photo_hub_decorate
+TEXT: Decorate
+
 RESOURCE ID: photo_hub_hashtags
 TEXT: #GOsnapshot #PokemonGO etiketlerini kullanın
+
+RESOURCE ID: photo_hub_last_used
+TEXT: Previously Photographed
+
+RESOURCE ID: photo_hub_see_all_groups
+TEXT: SEE ALL GROUPS
 
 RESOURCE ID: photo_set_playful_pals_big
 TEXT: Oyuncu Dostlar
@@ -1254,13 +1327,13 @@ RESOURCE ID: photobomb_five_bounsweet
 TEXT: GO Fotoğrafta Bounsweet ile 5 sürpriz karşılaşma
 
 RESOURCE ID: photobomb_five_cyndaquil
-TEXT: 5 surprise encounters with Cyndaquil in GO Snapshot
+TEXT: GO Fotoğrafta Cyndaquil ile 5 sürpriz karşılaşma
 
 RESOURCE ID: photobomb_five_goomy
 TEXT: GO Fotoğrafta Goomy ile 5 sürpriz karşılaşma
 
 RESOURCE ID: pokedex_mode_name_primal
-TEXT: Primal
+TEXT: Kadim Dönüşüm
 
 RESOURCE ID: pokedex_sort_unfavorite
 TEXT: Favorilerden Çıkar
@@ -1287,13 +1360,13 @@ RESOURCE ID: quest_catch_type_water_ground_plural
 TEXT: {0} Su veya Yer türü Pokémon yakalayın
 
 RESOURCE ID: quest_cyndaquil_catch_b
-TEXT: Catch {0} Cyndaquil
+TEXT: {0} Cyndaquil yakalayın
 
 RESOURCE ID: quest_cyndaquil_evolve_b_plural
-TEXT: Evolve {0} Cyndaquil
+TEXT: {0} Cyndaquil evrimleştirin
 
 RESOURCE ID: quest_cyndaquil_evolve_b_singular
-TEXT: Evolve a Cyndaquil
+TEXT: Bir Cyndaquil evrimleştirin
 
 RESOURCE ID: quest_goomy_catch_b
 TEXT: {0} Goomy yakalayın
@@ -1305,10 +1378,10 @@ RESOURCE ID: quest_goomy_evolve_b_singular
 TEXT: Bir Goomy evrimleştirin
 
 RESOURCE ID: quest_quilava_evolve_b_plural
-TEXT: Evolve {0} Quilava
+TEXT: {0} Quilava evrimleştirin
 
 RESOURCE ID: quest_quilava_evolve_b_singular
-TEXT: Evolve a Quilava
+TEXT: Bir Quilava evrimleştirin
 
 RESOURCE ID: quest_sliggoo_evolve_b_plural
 TEXT: {0} Sliggoo evrimleştirin
@@ -1368,52 +1441,52 @@ RESOURCE ID: quest_special_dialogue_bounsweet_3_3
 TEXT: Her neyse, bugünkü yardımların için çok teşekkürler %PLAYERNAME%. Hadi kendine dikkat et, tekmelerden kendini koru!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_0_0
-TEXT: %PLAYERNAME%, hi! It’s pretty hot out here, don’t you think? The heat must be coming from all the Cyndaquil running about!
+TEXT: Selam %PLAYERNAME%! Hava ne kadar da sıcak, değil mi? Bu sıcaklık etrafta koşturup duran Cyndaquil’lerden kaynaklanıyor olmalı!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_0_1
-TEXT: Are you familiar with it? It’s a Fire-type Pokémon known for its timid nature.
+TEXT: Cyndaquil’i biliyor musun? Ürkek bir mizaca sahip bir Ateş türü bir Pokémon’dur.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_0_2
-TEXT: Since they scare easily, they’re usually found curled up in a little ball—and they’ll flare the flames on their backs to protect themselves when attacked!
+TEXT: Kolayca ürktükleri için genellikle kendilerini küçücük birer top haline getirirler. Saldırıya maruz kaldıklarında da kendilerini sırtlarındaki alevlerle korurlar!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_0_3
-TEXT: Why don’t you grab a pocket fan to stay cool and try to catch one of these fascinating Pokémon?
+TEXT: Serinlemek için yanına bir el vantilatörü alıp bu ilginç Pokémon’lardan birkaç tane yakalamaya ne dersin?
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_0
-TEXT: That’s quite a Cyndaquil you’ve befriended, %PLAYERNAME%! You’re on fire—er, not literally, thankfully.
+TEXT: Bulduğun Cyndaquil yakıyor %PLAYERNAME%!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_1
-TEXT: Let me reward you with some fun tidbits! Did you know that a Cyndaquil’s flames burn hottest when they’re startled?
+TEXT: Sana ödül olarak ilginç bilgiler vereyim! Cyndaquil’in alevlerinin en sıcak olduğu zamanın irkildikleri anlar olduğunu biliyor muydun?
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_2
-TEXT: And its Evolution, Quilava, will turn its back on opponents just to show off how ferociously its fire blazes!
+TEXT: Cyndaquil’in evrimi Quilava ise sırtını rakiplerine dönüp ateşinin ne kadar gürül gürül yandığını gösterir!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_3
-TEXT: Let’s evolve your Cyndaquil into a Quilava. While I’m not jumping at the idea of making it even hotter around here, I AM eager to study the variance in flame intensity as they evolve.
+TEXT: Hadi Cyndaquil’ini Quilava’ya evrimleştirelim. Ortalık daha da ısınsın istemiyorum gerçi, ama evrimleştikçe alevlerinin şiddetindeki değişikliği inceleme fırsatı çok cazip.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_2_0
-TEXT: Amazing work, %PLAYERNAME%! Now, let’s take a closer look at your Quilava. You’re on a hot streak!
+TEXT: Harika bir iş çıkardın %PLAYERNAME%! Hadi Quilava’nı daha yakından inceleyelim. Ortalığı yakıyorsun!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_2_1
-TEXT: As I mentioned, Quilava tend to use the heat of their flames to intimidate foes. Those flames burn even stronger when it prepares to fight!
+TEXT: Daha önce de bahsettiğim gibi, Quilava alevlerinin sıcaklığını düşmanlarının gözünü korkutmakta kullanır. Bu alevler Quilava dövüşmeye hazırlanırken daha da güçlü hale gelir!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_2_2
-TEXT: Your Quilava seems like a real firebrand! I bet it’ll be even more of a force to be reckoned with once it evolves.
+TEXT: Quilava’n tam bir deli fişek çıktı! Eminim evrimleştiğinde daha da dişli bir rakip haline gelecek.
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_2_3
-TEXT: On that note, let’s turn the thermostat up to max—evolve your Quilava into Typhlosion! There’s learning to be had!
+TEXT: Hadi Quilava’nı Typhlosion’a evrimleştirip ortamı daha da kızıştıralım! Öğrenmemiz gereken şeyler var!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_3_0
-TEXT: Oh! I was wondering why I was feeling so toasty, but now I see—you’re back with Typhlosion! Let’s take a moment to marvel at its raw power.
+TEXT: Ah! Neden böyle sıcak bastığını merak ediyordum ki bir baktım Typhlosion’la gelmişsin! Ne kadar da kuvvetli, değil mi?
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_3_1
-TEXT: When a Typhlosion’s rage peaks, it gets so hot that it’ll send anything that touches it up in flames!
+TEXT: Typhlosion’ın öfkesi tavan yaptığında ısısı o kadar artar ki ona dokunan her şey alev alır!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_3_2
-TEXT: I’m pretty sure my eyebrows are getting singed, but it’s totally worth it for an up-close encounter with such an awe-inspiring Pokémon!
+TEXT: Bu kadar yakınında durunca kaşlarım yanıyordur eminim, ama böylesi hayranlık uyandıran bir Pokémon’u yakından inceleme fırsatı için buna değer!
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_3_3
-TEXT: You never disappoint, %PLAYERNAME%. Until our next adventure—stay cool!
+TEXT: Beni hiç hayal kırıklığına uğratmıyorsun %PLAYERNAME%. Bir sonraki maceramıza dek içini serin tut!
 
 RESOURCE ID: quest_special_dialogue_goomy_0_0
 TEXT: Aa! Selam %PLAYERNAME%! Üstüm kirli, kusura bakma...
@@ -1464,7 +1537,7 @@ RESOURCE ID: quest_special_dialogue_goomy_3_3
 TEXT: Araştırmayı sonuna kadar yürüttüğün için teşekkürler! Goodra’nla birlikte uzun yıllar geçirirsiniz umarım!
 
 RESOURCE ID: quest_special_dialogue_litwick_1_2
-TEXT: "Life force," Professor Willow says? Peculiar. I wonder—would those flames transform if Litwick were to evolve?
+TEXT: Profesör Willow “yaşam gücü”nden mi kaynaklanıyor dedi? İlginç. Acaba Litwick evrimleşirse bu alev de değişim geçirir mi?
 
 RESOURCE ID: quest_steenee_evolve_b_plural
 TEXT: {0} Steenee evrimleştirin
@@ -1503,19 +1576,19 @@ RESOURCE ID: quest_title_catching_wonders_sr_4
 TEXT: Ustalık Araştırması: Mucizeyi Yakala (4/4)
 
 RESOURCE ID: quest_title_cyndaquil
-TEXT: Community Day Classic: Cyndaquil
+TEXT: Topluluk Günü Klasik: Cyndaquil
 
 RESOURCE ID: quest_title_cyndaquil_0
-TEXT: Community Day Classic: Cyndaquil (1/4)
+TEXT: Topluluk Günü Klasik: Cyndaquil (1/4)
 
 RESOURCE ID: quest_title_cyndaquil_1
-TEXT: Community Day Classic: Cyndaquil (2/4)
+TEXT: Topluluk Günü Klasik: Cyndaquil (2/4)
 
 RESOURCE ID: quest_title_cyndaquil_2
-TEXT: Community Day Classic: Cyndaquil (3/4)
+TEXT: Topluluk Günü Klasik: Cyndaquil (3/4)
 
 RESOURCE ID: quest_title_cyndaquil_3
-TEXT: Community Day Classic: Cyndaquil (4/4)
+TEXT: Topluluk Günü Klasik: Cyndaquil (4/4)
 
 RESOURCE ID: quest_title_goomy
 TEXT: Topluluk Günü: Goomy
@@ -1731,7 +1804,7 @@ RESOURCE ID: spawn_bounsweet
 TEXT: Doğada daha fazla Bounsweet ortaya çıkıyor!
 
 RESOURCE ID: spawn_cyndaquil
-TEXT: More Cyndaquil are appearing in the wild!
+TEXT: Doğada daha fazla Cyndaquil ortaya çıkıyor!
 
 RESOURCE ID: spawn_goomy
 TEXT: Doğada daha fazla Goomy ortaya çıkıyor!
@@ -1812,10 +1885,10 @@ RESOURCE ID: sunsteel_strike_adventure_effects_mapview_dialog
 TEXT: Meteor ışığı yayar. Gündüzleri ortaya çıkan Pokémon’ları çeker ver gündüzleri gerçekleşen evrimlerin gece de yapılabilmesini sağlar.
 
 RESOURCE ID: text_rewards_key_anniversary24
-TEXT: <b>Included rewards:</b>
-• An encounter with Meltan
-• 88,888 XP
-• 1 Super Incubator, 1 Premium Battle Pass, 1 Incense, 1 Incubator, 1 Rocket Radar, 1 Lucky Egg, and more
+TEXT: <b>Şu ödülleri içerir:</b>
+• Meltan ile bir karşılaşma
+• 88.888 TP
+• 1 Süper Kuluçka Makinesi, 1 Premium Maç Bileti, 1 Tütsü, 1 Kuluçka Makinesi, 1 Roket Radarı, 1 Şans Yumurtası ve daha fazlası
 
 RESOURCE ID: text_rewards_key_cyndaquilcdc2024
 TEXT: <b>Şu ödülleri içerir:</b>
@@ -1841,6 +1914,12 @@ TEXT: <b>Şu ödülleri içerir:</b>
 • Komala ve siperlikli Slakoth ile karşılaşmalar
 • 10.000 TP, 2500 yıldız tozu, 25 Poké Topu, 2 Gümüş Pinap Meyvesi, 2 Altın Razz Meyvesi ve 1 Yıldız Parçası
 
+RESOURCE ID: text_rewards_key_spelunkercove24
+TEXT: <b>Şu ödülleri içerir:</b>
+• Crabrawler ile 5 karşılaşma
+• 5 Premium Maç Bileti
+• 20 Crabrawler şekeri
+
 RESOURCE ID: text_rewards_key_stadiumsights24
 TEXT: <b>Şu ödülleri içerir:</b>
 • Emolga ile 5 karşılaşma
@@ -1859,7 +1938,7 @@ RESOURCE ID: ticket_bounsweet
 TEXT: Bounsweet Topluluk Günü özel araştırma hikâyesi biletini mağazadan alabilirsiniz
 
 RESOURCE ID: ticket_cyndaquil_cdc
-TEXT: Ticket for the Cyndaquil Community Day Classic Special Research story available in the shop
+TEXT: Cyndaquil Topluluk Günü Klasik özel araştırma hikâyesi biletini mağazadan alabilirsiniz
 
 RESOURCE ID: ticket_glide_victory_tr
 TEXT: Zafere Yükseliş süreli araştırma bileti şimdi mağazada
@@ -1925,6 +2004,9 @@ TEXT: Birden fazla açı yakalamak için konumun etrafında yavaşça yürürken
 RESOURCE ID: vps_localization_error_generic_header
 TEXT: Bir hata oluştu.
 
+RESOURCE ID: vps_localization_error_too_far
+TEXT: Hedefe yaklaşın.
+
 RESOURCE ID: vps_localization_exit_confirmation_body
 TEXT: Bunu seçerseniz bölgeye bağlanamayacaksınız.
 
@@ -1975,6 +2057,9 @@ TEXT: Üzgünüz, bir hata oluştu. Lütfen daha sonra tekrar deneyin.
 
 RESOURCE ID: vps_localization_toast
 TEXT: Konumun etrafında yavaşça yürüyün.
+
+RESOURCE ID: vps_localization_toast_alternative
+TEXT: Bölgede Pokémon aranıyor
 
 RESOURCE ID: waina_24_tr_title
 TEXT: Pokémon Sleep Süreli Araştırması

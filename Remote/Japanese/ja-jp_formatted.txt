@@ -31,6 +31,12 @@ TEXT: ARモード使用には撮影し撮った写真を保存するため、カ
 RESOURCE ID: ar_mode_safety_string
 TEXT: 安全を十分に確認したうえでARモードを使用し、お子さま連れの場合は、お子さまから目を離さないようお願いいたします。
 
+RESOURCE ID: ar_tracking_error
+TEXT: ARトラッキングで問題が発生しました。ポケストップの周りを再スキャンするか、しばらくしてから再開してください。
+
+RESOURCE ID: ar_tracking_reconnecting
+TEXT: ARトラッキング再接続中
+
 RESOURCE ID: avatar_f_backpack_komala_00_bundle_icon
 TEXT: ネッコアラ　バックパック
 
@@ -234,6 +240,9 @@ TEXT: 2025 Pokémon EUIC Champion (2/2)
 RESOURCE ID: bonuses_active
 TEXT: Bonuses Active!
 
+RESOURCE ID: buddy_widget_description
+TEXT: いつでも冒険モードで、アプリを起動していないときでも相棒のハートポイントを追跡できます
+
 RESOURCE ID: campfire_checkin_notification
 TEXT: {1}スタートの「{0}」ミートアップにチェックイン！
 
@@ -276,6 +285,9 @@ TEXT: {0}のあいだ怪しい光線を放ち、夜間に現れるポケモン�
 RESOURCE ID: dusk_mane_move_content
 TEXT: {0}のあいだ流星の光を放ち、昼間に現れるポケモンを引き寄せ、夜でも昼の進化を可能にする。
 
+RESOURCE ID: eggs_widget_description
+TEXT: いつでも冒険モードで、アプリを起動していないときでもタマゴふかの進み具合を追跡できます
+
 RESOURCE ID: error_gift_does_not_exist
 TEXT: 開けたギフトにエラーが発生しました。再度お試しください。
 
@@ -299,6 +311,10 @@ TEXT: 6月28日10:00AM～
 RESOURCE ID: event_datetime_range_key_slumberingsands24
 TEXT: 6月7日10:00AM～
 6月12日8:00PM
+
+RESOURCE ID: event_datetime_range_key_spelunkercove24
+TEXT: 6月15日10:00AM～
+6月18日8:00PM
 
 RESOURCE ID: event_datetime_range_key_stadiumsights24
 TEXT: 6月1日10:00AM～
@@ -394,6 +410,9 @@ TEXT: 森のささやき続行リサーチチケット
 
 RESOURCE ID: general1.ticket._slumberingsands24_title
 TEXT: 初夏のまどろみプレミアムタイムチャレンジチケット
+
+RESOURCE ID: general1.ticket._spelunkercove24_title
+TEXT: ビーチパーティータイムチャレンジチケット
 
 RESOURCE ID: general1.ticket._stadiumsights24_title
 TEXT: 勝利の滑空タイムチャレンジチケット
@@ -945,8 +964,17 @@ TEXT: テッシードがおこうに反応
 RESOURCE ID: incident_already_completed_error
 TEXT: バトルは完了しています
 
+RESOURCE ID: iris_color_sort
+TEXT: Color
+
+RESOURCE ID: iris_social_add_pokemon_key
+TEXT: ポケモンを追加
+
 RESOURCE ID: iris_social_choose_pokemon_toast
 TEXT: このエリアに置くポケモンを選びます
+
+RESOURCE ID: iris_social_empty_pokemon_bag_key
+TEXT: 出せるポケモンがありません
 
 RESOURCE ID: iris_social_limited_pokemon_key
 TEXT: 今はポケモンを置く場所がありません
@@ -984,6 +1012,9 @@ TEXT: カメラをどこに向ければいいかわからない
 RESOURCE ID: iris_social_pokemon_info_recall_button
 TEXT: 戻す
 
+RESOURCE ID: iris_social_pokemon_resting_key
+TEXT: ポケモンは寝てしまったようです。しばらくしてから再度チェックしてください。
+
 RESOURCE ID: iris_social_recall_confirmation_modal_body
 TEXT: この操作はやり直せません。
 
@@ -1006,8 +1037,17 @@ TEXT: ご報告いただきありがとうございます！
 RESOURCE ID: iris_social_tired_pokemon_journal_string
 TEXT: {0}が{1}で遊んでから戻ってきた！
 
+RESOURCE ID: iris_social_tired_pokemon_multiple_string
+TEXT: {0}と他{1}匹のポケモンが遊び疲れて戻ってきた！
+
 RESOURCE ID: iris_social_tired_pokemon_string
 TEXT: 遊び疲れて戻ってきた！
+
+RESOURCE ID: iris_temperature_warning_body
+TEXT: Due to the high temperature of the smartphone, the camera has been temporarily disabled. Please wait until the smartphone cools down to its normal temperature.
+
+RESOURCE ID: iris_temperature_warning_title
+TEXT: High Temperature Caution
 
 RESOURCE ID: irisisocial_tutorial_body_eight
 TEXT: ステッカーを貼り、撮った写真を飾ることができます。写真をデコってシェアしましょう！
@@ -1076,43 +1116,49 @@ RESOURCE ID: item_event_ticket_gray_details_shinycelebi24
 TEXT: このチケットは自動的に発動し6月28日に「森のささやき」続行リサーチが行えるようになります。
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: 現地時間2024年6月9日2:00PMからヌメラコミュニティ・デイのスペシャルリサーチを行うためのチケット。
+TEXT: 現地時間2024年6月22日2:00PMからヒノアラシコミュニティ・デイ復刻のスペシャルリサーチを行うためのチケット。
 
 RESOURCE ID: item_event_ticket_pink_desc_bounsweet
 TEXT: 現地時間2024年5月19日2:00PMからアマカジコミュニティ・デイのスペシャルリサーチを行うためのチケット。
 
-RESOURCE ID: item_event_ticket_pink_desc_cyndaquilcdc2024
-TEXT: 現地時間2024年6月22日2:00PMからヒノアラシコミュニティ・デイ復刻のスペシャルリサーチを行うためのチケット。
-
 RESOURCE ID: item_event_ticket_pink_desc_flying
 TEXT: 現地時間2024年5月11日2:00PM～5:00PMにひこうリサーチデイタイムチャレンジを行うためのチケット。
 
+RESOURCE ID: item_event_ticket_pink_desc_goomy
+TEXT: 現地時間2024年6月9日2:00PMからヌメラコミュニティ・デイのスペシャルリサーチを行うためのチケット。
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: このチケットは自動的に発動し6月9日にヌメラコミュニティ・デイのスペシャルリサーチが行えるようになります。
+TEXT: このチケットは自動的に発動し6月22日にヒノアラシコミュニティ・デイ復刻のスペシャルリサーチが行えるようになります。
 
 RESOURCE ID: item_event_ticket_pink_details_bounsweet
 TEXT: このチケットは自動的に発動し5月19日に「フルーツポケモンを解明せよ！」スペシャルリサーチが行えるようになります。
 
-RESOURCE ID: item_event_ticket_pink_details_cyndaquilcdc2024
-TEXT: このチケットは自動的に発動し6月22日にヒノアラシコミュニティ・デイ復刻のスペシャルリサーチが行えるようになります。
-
 RESOURCE ID: item_event_ticket_pink_details_flying
 TEXT: このチケットは自動的に発動し5月11日にひこうリサーチデイタイムチャレンジが行えるようになります。
 
+RESOURCE ID: item_event_ticket_pink_details_goomy
+TEXT: このチケットは自動的に発動し6月9日にヌメラコミュニティ・デイのスペシャルリサーチが行えるようになります。
+
 RESOURCE ID: item_evergreen_ticket_desc
-TEXT: 現地時間2024年6月12日8:00PMまで初夏のまどろみプレミアムタイムチャレンジが行えるチケット。
+TEXT: 現地時間2024年6月18日8:00PMまでビーチパーティータイムチャレンジが行えるチケット。
 
 RESOURCE ID: item_evergreen_ticket_desc_pokecoins
 TEXT: 空き枠があるとフィールドリサーチタスクがもらえるチケット。毎日1つ、完了すると20ポケコインが入手できます。
+
+RESOURCE ID: item_evergreen_ticket_desc_slumberingsands
+TEXT: 現地時間2024年6月12日8:00PMまで初夏のまどろみプレミアムタイムチャレンジが行えるチケット。
 
 RESOURCE ID: item_evergreen_ticket_desc_stadiumsights
 TEXT: 現地時間2024年6月1日10:00AM～6月4日8:00PMに勝利の滑空タイムチャレンジが行えるチケット。
 
 RESOURCE ID: item_evergreen_ticket_details
-TEXT: このチケットは自動的に発動し6月7日に初夏のまどろみタイムチャレンジが行えるようになります。
+TEXT: このチケットは自動的に発動し6月15日にビーチパーティータイムチャレンジが行えるようになります。
 
 RESOURCE ID: item_evergreen_ticket_details_pokecoins
 TEXT: このチケットは自動的に発動し5月16日にデイリーポケコインフィールドリサーチチケットの体験ができるようになります。
+
+RESOURCE ID: item_evergreen_ticket_details_slumberingsands
+TEXT: このチケットは自動的に発動し6月7日に初夏のまどろみタイムチャレンジが行えるようになります。
 
 RESOURCE ID: item_evergreen_ticket_details_stadiumsights
 TEXT: このチケットは自動的に発動し6月1日に勝利の滑空タイムチャレンジが行えるようになります。
@@ -1154,10 +1200,10 @@ RESOURCE ID: meetups_ended_desc
 TEXT: ミートアップ終了
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-06-13T00:10:49.612362+00:00 for ja-JP
-at SHA f1b58c946c
-Pipeline 2401003, job 29025760
-Patch from: 0.317.0-SHA-f00910d6-RC4, 0.315.2-SHA-0a0b68b4-RC1, 0.319.0-SHA-0a543be8-RC1
+TEXT: Built at 2024-06-13T23:42:12.560664+00:00 for ja-JP
+at SHA e44a744008d
+Pipeline 2404364, job 29067112
+Patch from: 0.315.2-SHA-0a0b68b4-RC1, 0.317.0-SHA-dcf47c39-RC3, 0.319.0-SHA-0a543be8-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: 怪しい光線を放ち、夜間に現れるポケモンを引き寄せ、昼でも夜の進化を可能にする。
@@ -1199,6 +1245,21 @@ TEXT: ここにポケモンはいないようです。自分のポケモンを�
 
 RESOURCE ID: no_pokemon_found_header
 TEXT: ポケモンが見つかりません
+
+RESOURCE ID: notification_from_gym_title
+TEXT: ジムから
+
+RESOURCE ID: notification_from_play_body
+TEXT: ポケストップ・ジムで遊んだポケモンは疲れるとプレイヤーのもとに戻る
+
+RESOURCE ID: notification_from_play_title
+TEXT: 遊んでから
+
+RESOURCE ID: notification_return_title
+TEXT: ポケモンの帰還
+
+RESOURCE ID: oob_toast_string_key
+TEXT: プレイエリア内に戻ってからポケモンを出します
 
 RESOURCE ID: party_play_party_share_card_title
 TEXT: チーム内で道具をシェアしよう！
@@ -1251,8 +1312,20 @@ TEXT: {0}さんが{2}{1}個をシェアしました
 RESOURCE ID: party_share_ticker_message_plural
 TEXT: {0}さんが{2}{1}個をシェアしました
 
+RESOURCE ID: photo_hub_all_groups_title
+TEXT: ALL GROUPS
+
+RESOURCE ID: photo_hub_decorate
+TEXT: Decorate
+
 RESOURCE ID: photo_hub_hashtags
 TEXT: ハッシュタグ #GOsnapshot #PokemonGO で投稿！
+
+RESOURCE ID: photo_hub_last_used
+TEXT: Previously Photographed
+
+RESOURCE ID: photo_hub_see_all_groups
+TEXT: SEE ALL GROUPS
 
 RESOURCE ID: photo_set_playful_pals_big
 TEXT: わんぱくフレンズ
@@ -1489,7 +1562,7 @@ RESOURCE ID: quest_special_dialogue_goomy_3_3
 TEXT: 今日も粘り強く調査してくれてありがとう。ヌメルゴンとの冒険を十分に楽しんでくれ！
 
 RESOURCE ID: quest_special_dialogue_litwick_1_2
-TEXT: "Life force," Professor Willow says? Peculiar. I wonder—would those flames transform if Litwick were to evolve?
+TEXT: 人やポケモンの生命力が燃えているんだね．．．あの炎は．．．進化すると炎はどうなってしまうのだろう。
 
 RESOURCE ID: quest_steenee_evolve_b_plural
 TEXT: アママイコを{0}匹進化させる
@@ -1876,6 +1949,12 @@ TEXT: <b>もらえるもの：</b>
 ・ネッコアラとバイザーをつけたナマケロとの出会い
 ・10000XP、2500ほしのすな、モンスターボール25個、ぎんのパイルのみ2個、きんのズリのみ2個、ほしのかけら1個など
 
+RESOURCE ID: text_rewards_key_spelunkercove24
+TEXT: <b>もらえるもの：</b>
+・マケンカニとの出会い5回
+・プレミアムバトルパス5枚
+・マケンカニのアメ20個など
+
 RESOURCE ID: text_rewards_key_stadiumsights24
 TEXT: <b>もらえるもの：</b>
 ・エモンガとの出会い5回
@@ -1963,6 +2042,9 @@ TEXT: ヒント画像で表示されている場所にカメラを向け、周�
 RESOURCE ID: vps_localization_error_generic_header
 TEXT: 問題が発生しました
 
+RESOURCE ID: vps_localization_error_too_far
+TEXT: 対象に近づいてください
+
 RESOURCE ID: vps_localization_exit_confirmation_body
 TEXT: 止めるとこの場所に接続できません。
 
@@ -2013,6 +2095,9 @@ TEXT: エラーが発生しました。しばらくしてから再度お試し�
 
 RESOURCE ID: vps_localization_toast
 TEXT: ゆっくり周りを歩いてください
+
+RESOURCE ID: vps_localization_toast_alternative
+TEXT: ポケモンを探しています
 
 RESOURCE ID: waina_24_tr_title
 TEXT: Pokémon Sleep タイムチャレンジ

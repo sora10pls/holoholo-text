@@ -31,6 +31,12 @@ TEXT: 如果要使用AR模式，需要能將拍攝的照片保存在裝置裡，
 RESOURCE ID: ar_mode_safety_string
 TEXT: 使用AR前請先確認四周安全，不要讓小朋友離開你的視線。
 
+RESOURCE ID: ar_tracking_error
+TEXT: AR定位發生問題。請重新掃描寶可補給站的四周，或是稍後再試一次。
+
+RESOURCE ID: ar_tracking_reconnecting
+TEXT: 正在重新連結AR定位
+
 RESOURCE ID: avatar_f_backpack_komala_00_bundle_icon
 TEXT: 樹枕尾熊背包
 
@@ -258,6 +264,9 @@ TEXT: 2025 Pokémon EUIC Champion (2/2)
 RESOURCE ID: bonuses_active
 TEXT: Bonuses Active!
 
+RESOURCE ID: buddy_widget_description
+TEXT: 開啟時時刻刻冒險後，即便沒有啟動遊戲，也能追蹤夥伴的心心。
+
 RESOURCE ID: bundle.general1.tiny.1_title
 TEXT: 新手訓練家禮盒
 
@@ -303,6 +312,9 @@ TEXT: 會在{0}內發出奇怪的光線，吸引晚上現身的寶可夢，也�
 RESOURCE ID: dusk_mane_move_content
 TEXT: 會在{0}內發出流星的光芒，吸引白天現身的寶可夢，也能讓白天進化的寶可夢在晚上完成進化。
 
+RESOURCE ID: eggs_widget_description
+TEXT: 在背景模式中執行Pokémon GO時，可透過「時時刻刻冒險」模式來確認蛋的孵化進度
+
 RESOURCE ID: error_no_meetups
 TEXT: 附近沒有聚會
 
@@ -326,6 +338,10 @@ TEXT: 6月28日10:00AM～
 RESOURCE ID: event_datetime_range_key_slumberingsands24
 TEXT: 6月7日10:00～
 6月12日20:00
+
+RESOURCE ID: event_datetime_range_key_spelunkercove24
+TEXT: 6月15日10:00～
+6月18日20:00
 
 RESOURCE ID: event_datetime_range_key_stadiumsights24
 TEXT: 6月1日10:00～
@@ -427,6 +443,9 @@ TEXT: 森林細語長期調查入場券
 
 RESOURCE ID: general1.ticket._slumberingsands24_title
 TEXT: 初夏小憩特級限時調查入場券
+
+RESOURCE ID: general1.ticket._spelunkercove24_title
+TEXT: 海灘派對限時調查入場券
 
 RESOURCE ID: general1.ticket._stadiumsights24_title
 TEXT: 勝利滑翔限時調查入場券
@@ -956,8 +975,17 @@ TEXT: 薰香可吸引種子鐵球
 RESOURCE ID: incident_already_completed_error
 TEXT: 對戰已結束
 
+RESOURCE ID: iris_color_sort
+TEXT: Color
+
+RESOURCE ID: iris_social_add_pokemon_key
+TEXT: 增加寶可夢
+
 RESOURCE ID: iris_social_choose_pokemon_toast
 TEXT: 選擇要放在這個地點的寶可夢
+
+RESOURCE ID: iris_social_empty_pokemon_bag_key
+TEXT: 沒有可放出的寶可夢
 
 RESOURCE ID: iris_social_limited_pokemon_key
 TEXT: 現在沒有空間可以放置寶可夢
@@ -995,6 +1023,9 @@ TEXT: I don’t know where to point my camera
 RESOURCE ID: iris_social_pokemon_info_recall_button
 TEXT: 收回
 
+RESOURCE ID: iris_social_pokemon_resting_key
+TEXT: 寶可夢好像睡著了。請稍後再確認一次。
+
 RESOURCE ID: iris_social_recall_confirmation_modal_body
 TEXT: 此操作無法取消。
 
@@ -1017,8 +1048,17 @@ TEXT: Thank you for your report!
 RESOURCE ID: iris_social_tired_pokemon_journal_string
 TEXT: {0}從{1}玩回來了！
 
+RESOURCE ID: iris_social_tired_pokemon_multiple_string
+TEXT: {0}和其他{1}隻寶可夢玩累後回來了！
+
 RESOURCE ID: iris_social_tired_pokemon_string
 TEXT: 寶可夢玩累後回來了！
+
+RESOURCE ID: iris_temperature_warning_body
+TEXT: Due to the high temperature of the smartphone, the camera has been temporarily disabled. Please wait until the smartphone cools down to its normal temperature.
+
+RESOURCE ID: iris_temperature_warning_title
+TEXT: High Temperature Caution
 
 RESOURCE ID: irisisocial_tutorial_body_eight
 TEXT: 你可以貼貼圖來裝飾拍攝的照片。裝飾並分享照片給大家看吧！
@@ -1087,43 +1127,49 @@ RESOURCE ID: item_event_ticket_gray_details_shinycelebi24
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在6月28日領取森林細語長期調查。
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年6月9日14:00開始參與黏黏寶社群日的特殊調查。
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年6月22日14:00開始參與火球鼠經典社群日的特殊調查。
 
 RESOURCE ID: item_event_ticket_pink_desc_bounsweet
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年5月19日14:00開始參與甜竹竹社群日的特殊調查。
 
-RESOURCE ID: item_event_ticket_pink_desc_cyndaquilcdc2024
-TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年6月22日14:00開始參與火球鼠經典社群日的特殊調查。
-
 RESOURCE ID: item_event_ticket_pink_desc_flying
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年5月11日14:00～17:00參與飛行調查日限時調查。
 
+RESOURCE ID: item_event_ticket_pink_desc_goomy
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年6月9日14:00開始參與黏黏寶社群日的特殊調查。
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: 入場券將會自動啟用，不論你身在何處，都能在6月9日參與黏黏寶社群日特殊調查。
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間6月22日參與火球鼠經典社群日的特殊調查。
 
 RESOURCE ID: item_event_ticket_pink_details_bounsweet
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在5月19日參與特殊調查「解開水果寶可夢之謎！」。
 
-RESOURCE ID: item_event_ticket_pink_details_cyndaquilcdc2024
-TEXT: 入場券將會自動啟用，不論你身在何處，都都能在當地時間6月22日參與火球鼠經典社群日的特殊調查。
-
 RESOURCE ID: item_event_ticket_pink_details_flying
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在5月11日參與飛行調查日的限時調查。
 
+RESOURCE ID: item_event_ticket_pink_details_goomy
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在6月9日參與黏黏寶社群日特殊調查。
+
 RESOURCE ID: item_evergreen_ticket_desc
-TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年6月12日20:00前參與初夏小憩特級限時調查。
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年6月18日20:00前參與海灘派對限時調查。
 
 RESOURCE ID: item_evergreen_ticket_desc_pokecoins
 TEXT: 只要擁有這張入場券，就能在田野調查一覽有空位時領取田野調查課題。每日可完成1個課題並獲得20寶可幣。
+
+RESOURCE ID: item_evergreen_ticket_desc_slumberingsands
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年6月12日20:00前參與初夏小憩特級限時調查。
 
 RESOURCE ID: item_evergreen_ticket_desc_stadiumsights
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年6月1日10:00～6月4日20:00參與限時調查「勝利滑翔」。
 
 RESOURCE ID: item_evergreen_ticket_details
-TEXT: 入場券將會自動啟用，不論你身在何處，都能在6月7日參與初夏小憩限時調查。
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在6月15日參與海灘派對限時調查。
 
 RESOURCE ID: item_evergreen_ticket_details_pokecoins
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在5月16日試用每日寶可幣田野調查入場券。
+
+RESOURCE ID: item_evergreen_ticket_details_slumberingsands
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在6月7日參與初夏小憩限時調查。
 
 RESOURCE ID: item_evergreen_ticket_details_stadiumsights
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在6月1日參與限時調查「勝利滑翔」。
@@ -1165,10 +1211,10 @@ RESOURCE ID: meetups_ended_desc
 TEXT: 聚會已結束
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-06-13T00:10:49.612362+00:00 for zh-TW
-at SHA f1b58c946c
-Pipeline 2401003, job 29025760
-Patch from: 0.317.0-SHA-f00910d6-RC4, 0.315.2-SHA-0a0b68b4-RC1, 0.319.0-SHA-0a543be8-RC1
+TEXT: Built at 2024-06-13T23:42:12.560664+00:00 for zh-TW
+at SHA e44a744008d
+Pipeline 2404364, job 29067112
+Patch from: 0.315.2-SHA-0a0b68b4-RC1, 0.317.0-SHA-dcf47c39-RC3, 0.319.0-SHA-0a543be8-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: 會發出奇怪的光線，吸引晚上現身的寶可夢，也能讓晚上進化的寶可夢在白天完成進化。
@@ -1207,6 +1253,21 @@ TEXT: 這裡好像沒有寶可夢。要放置自己的寶可夢嗎？
 
 RESOURCE ID: no_pokemon_found_header
 TEXT: 沒有找到寶可夢
+
+RESOURCE ID: notification_from_gym_title
+TEXT: 從道館回來
+
+RESOURCE ID: notification_from_play_body
+TEXT: 在寶可補給站或道館玩耍的寶可夢會在玩累後回到訓練家身邊
+
+RESOURCE ID: notification_from_play_title
+TEXT: 玩完後回來
+
+RESOURCE ID: notification_return_title
+TEXT: 寶可夢回來了
+
+RESOURCE ID: oob_toast_string_key
+TEXT: 返回可遊玩的區域來放出寶可夢
 
 RESOURCE ID: party_play_party_share_card_title
 TEXT: 在小隊裡分享道具吧！
@@ -1259,8 +1320,20 @@ TEXT: {0}分享了{1}個{2}
 RESOURCE ID: party_share_ticker_message_plural
 TEXT: {0}分享了{1}個{2}
 
+RESOURCE ID: photo_hub_all_groups_title
+TEXT: ALL GROUPS
+
+RESOURCE ID: photo_hub_decorate
+TEXT: Decorate
+
 RESOURCE ID: photo_hub_hashtags
 TEXT: 使用標籤 #GOsnapshot #PokemonGO 來投稿！
+
+RESOURCE ID: photo_hub_last_used
+TEXT: Previously Photographed
+
+RESOURCE ID: photo_hub_see_all_groups
+TEXT: SEE ALL GROUPS
 
 RESOURCE ID: photo_set_playful_pals_big
 TEXT: 淘氣好朋友
@@ -1275,7 +1348,7 @@ RESOURCE ID: photobomb_five_goomy
 TEXT: 黏黏寶將在GO Snapshot中驚喜現身5次
 
 RESOURCE ID: pokedex_mode_name_primal
-TEXT: Primal
+TEXT: Primal Reversion
 
 RESOURCE ID: pokedex_sort_unfavorite
 TEXT: 移除我的最愛
@@ -1386,52 +1459,52 @@ RESOURCE ID: quest_special_dialogue_bounsweet_3_3
 TEXT: 和甜冷美后保持不會被牠踢到的距離，繼續去冒險吧！感謝你的協助，%PLAYERNAME%。我們下次再見吧。
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_0_0
-TEXT: %PLAYERNAME%, hi! It’s pretty hot out here, don’t you think? The heat must be coming from all the Cyndaquil running about!
+TEXT: %PLAYERNAME%，你好啊！不覺得很熱嗎？看來似乎是火鼠寶可夢的活躍活動讓這附近的溫度上升了……
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_0_1
-TEXT: Are you familiar with it? It’s a Fire-type Pokémon known for its timid nature.
+TEXT: 沒錯，就是火球鼠。
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_0_2
-TEXT: Since they scare easily, they’re usually found curled up in a little ball—and they’ll flare the flames on their backs to protect themselves when attacked!
+TEXT: 這種寶可夢因為生性膽小，總是將身子縮成一團。牠一旦被襲擊，背上就會噴出火焰來保護自己。
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_0_3
-TEXT: Why don’t you grab a pocket fan to stay cool and try to catch one of these fascinating Pokémon?
+TEXT: 能請你多加留意不要中暑，試著捉住火球鼠嗎？
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_0
-TEXT: That’s quite a Cyndaquil you’ve befriended, %PLAYERNAME%! You’re on fire—er, not literally, thankfully.
+TEXT: 你的火球鼠火力真強啊，%PLAYERNAME%！
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_1
-TEXT: Let me reward you with some fun tidbits! Did you know that a Cyndaquil’s flames burn hottest when they’re startled?
+TEXT: 牠受到驚嚇的時候，背上的火焰就會燃燒得更加強烈喔。
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_2
-TEXT: And its Evolution, Quilava, will turn its back on opponents just to show off how ferociously its fire blazes!
+TEXT: 但是進化成火岩鼠之後，那膽小的個性就會消失。牠甚至會在戰鬥前會轉身背向對手，向對手展示自己的火焰有多麼厲害。
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_1_3
-TEXT: Let’s evolve your Cyndaquil into a Quilava. While I’m not jumping at the idea of making it even hotter around here, I AM eager to study the variance in flame intensity as they evolve.
+TEXT: 讓牠進化並實際觀察看看吧。雖然再繼續變熱下去我會很頭痛，但很想比較一下牠們的火焰強度呢。
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_2_0
-TEXT: Amazing work, %PLAYERNAME%! Now, let’s take a closer look at your Quilava. You’re on a hot streak!
+TEXT: 太棒了，%PLAYERNAME%！你讓牠進化成火岩鼠了呢。我們來仔細地觀察牠吧。
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_2_1
-TEXT: As I mentioned, Quilava tend to use the heat of their flames to intimidate foes. Those flames burn even stronger when it prepares to fight!
+TEXT: 牠不只會用火焰來威嚇，進入迎戰狀態時火勢就會變得更加猛烈喔。
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_2_2
-TEXT: Your Quilava seems like a real firebrand! I bet it’ll be even more of a force to be reckoned with once it evolves.
+TEXT: 你的火岩鼠大概還只是威嚇狀態，進化後會變得更不得了喔。
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_2_3
-TEXT: On that note, let’s turn the thermostat up to max—evolve your Quilava into Typhlosion! There’s learning to be had!
+TEXT: 來一口氣掀起爆炸氣浪，讓牠進化成火爆獸吧。
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_3_0
-TEXT: Oh! I was wondering why I was feeling so toasty, but now I see—you’re back with Typhlosion! Let’s take a moment to marvel at its raw power.
+TEXT: 好燙！突然熱到要燒起來的原因是……看來你讓牠進化成火爆獸了呢。
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_3_1
-TEXT: When a Typhlosion’s rage peaks, it gets so hot that it’ll send anything that touches it up in flames!
+TEXT: 據說火爆獸憤怒到極點時，能將碰到的所有東西瞬間點燃。
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_3_2
-TEXT: I’m pretty sure my eyebrows are getting singed, but it’s totally worth it for an up-close encounter with such an awe-inspiring Pokémon!
+TEXT: 根本靠近不了啊。你聞，有股毛髮燒焦的味道喔。是你的眉毛嗎？還是我的眉毛？
 
 RESOURCE ID: quest_special_dialogue_cyndaquil_3_3
-TEXT: You never disappoint, %PLAYERNAME%. Until our next adventure—stay cool!
+TEXT: 今天也來了場很棒的調查呢，%PLAYERNAME%。記得好好降溫一下，下次冒險時再見吧！
 
 RESOURCE ID: quest_special_dialogue_goomy_0_0
 TEXT: 啊，嗨，%PLAYERNAME%！稍等我一下……
@@ -1482,7 +1555,7 @@ RESOURCE ID: quest_special_dialogue_goomy_3_3
 TEXT: 今天也謝謝你緊黏不放地協助調查。希望你能盡情享受和黏美龍的冒險！
 
 RESOURCE ID: quest_special_dialogue_litwick_1_2
-TEXT: "Life force," Professor Willow says? Peculiar. I wonder—would those flames transform if Litwick were to evolve?
+TEXT: 維羅博士說那是靠著吸取人與寶可夢的生命力來燃燒的？……原來是這樣啊……那燭光進化之後不知道會長什麼樣子。
 
 RESOURCE ID: quest_steenee_evolve_b_plural
 TEXT: 讓{0}隻甜舞妮進化
@@ -1843,7 +1916,7 @@ TEXT: <b>Included rewards:</b>
 
 RESOURCE ID: text_rewards_key_cyndaquilcdc2024
 TEXT: <b>可獲得的獎勵：</b>
-・與火球鼠及其進化形態相遇的機會
+・與火球鼠及其進化形相遇的機會
 ・神奇糖果、高級球等道具
 
 RESOURCE ID: text_rewards_key_goomycd2024
@@ -1864,6 +1937,12 @@ TEXT: <b>可獲得的獎勵：</b>
 ・樹枕尾熊背包
 ・與樹枕尾熊、戴著遮陽帽的懶人獺相遇的機會
 ・10000XP、2500星星沙子、25個精靈球、2個銀色凰梨果、2個金色蔓莓果、1個星星碎片等
+
+RESOURCE ID: text_rewards_key_spelunkercove24
+TEXT: <b>可獲得的獎勵：</b>
+・與好勝蟹相遇5次的機會
+・5張特級對戰入場券
+・20個好勝蟹的糖果等
 
 RESOURCE ID: text_rewards_key_stadiumsights24
 TEXT: <b>可獲得的獎勵：</b>
@@ -1952,6 +2031,9 @@ TEXT: 將相機對準提示圖片中顯示的地點，慢慢地在周圍走動�
 RESOURCE ID: vps_localization_error_generic_header
 TEXT: 掃描失敗
 
+RESOURCE ID: vps_localization_error_too_far
+TEXT: 請靠近目標
+
 RESOURCE ID: vps_localization_exit_confirmation_body
 TEXT: 停止後將無法與這個地點連結。
 
@@ -2002,6 +2084,9 @@ TEXT: 發生錯誤。請稍後再試一次。
 
 RESOURCE ID: vps_localization_toast
 TEXT: 請慢慢地在周圍走動
+
+RESOURCE ID: vps_localization_toast_alternative
+TEXT: 正在尋找寶可夢
 
 RESOURCE ID: waina_24_tr_title
 TEXT: Pokémon Sleep限時調查
