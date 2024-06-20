@@ -28,8 +28,29 @@ TEXT: Pikachu's Indonesia Journey: Yogyakarta (5/5)
 RESOURCE ID: anime_collab_june_india_title
 TEXT: Festeggiamenti per la serie Orizzonti Pokémon - India e Indonesia
 
+RESOURCE ID: anniversary_2024_event_day1_2
+TEXT: Festa dell’8° anniversario: prima e seconda giornata
+
+RESOURCE ID: anniversary_2024_event_day3_4
+TEXT: Festa dell’8° anniversario: terza e quarta giornata
+
+RESOURCE ID: anniversary_2024_event_day5_6
+TEXT: Festa dell’8° anniversario: quinta e sesta giornata
+
 RESOURCE ID: anniversary_2024_event_title
 TEXT: Festa dell’8° anniversario
+
+RESOURCE ID: anniversary_2024_premium_timed_research
+TEXT: Ricerca a tempo premium dedicata alla Festa dell’8° anniversario
+
+RESOURCE ID: anniversary_2024_timed_research
+TEXT: Ricerca a tempo dedicata alla Festa dell’8° anniversario
+
+RESOURCE ID: anniversary_2024_timed_research_0
+TEXT: Ricerca a tempo dedicata alla Festa dell’8° anniversario (1/2)
+
+RESOURCE ID: anniversary_2024_timed_research_1
+TEXT: Ricerca a tempo dedicata alla Festa dell’8° anniversario (2/2)
 
 RESOURCE ID: ar_mode_camera_permissions
 TEXT: Per utilizzare la modalità AR ci serve l’accesso alla fotocamera e alla tua galleria, così potrai scattare le foto e salvarle.
@@ -294,7 +315,7 @@ RESOURCE ID: bonus_tr_gbl_naic_2025_a_title_01
 TEXT: 2025 Pokémon EUIC Champion (2/2)
 
 RESOURCE ID: bonuses_active
-TEXT: Bonuses Active!
+TEXT: Bonuses active!
 
 RESOURCE ID: buddy_widget_description
 TEXT: Usa Sincroavventura per tenere d’occhio l’indicatore con i cuori del tuo Pokémon compagno quando Pokémon GO è attivo in background.
@@ -340,6 +361,9 @@ TEXT: Emana la luce di una meteora per {0}. Attira i Pokémon che appaiono di gi
 
 RESOURCE ID: eggs_widget_description
 TEXT: Usa la funzionalità Sincroavventura per tenere traccia dei progressi nella schiusa delle Uova quando Pokémon GO è attivo in background.
+
+RESOURCE ID: elite_raid_mega_rayquaza_event_name
+TEXT: Raid fuoriclasse contro MegaRayquaza
 
 RESOURCE ID: error_no_meetups
 TEXT: Non ci sono ritrovi nelle vicinanze
@@ -425,11 +449,20 @@ TEXT: evoluzionetramitericerca
 RESOURCE ID: filter_key_fusion
 TEXT: fusione
 
-RESOURCE ID: filter_key_location_card_temp
+RESOURCE ID: filter_key_location_card
 TEXT: sfondodiposizione
+
+RESOURCE ID: filter_key_location_card_old
+TEXT: schedericordo
 
 RESOURCE ID: filter_key_special_background
 TEXT: sfondospeciale
+
+RESOURCE ID: filter_label_location_card
+TEXT: Sfondo di posizione
+
+RESOURCE ID: filter_label_location_card_legacy
+TEXT: Con scheda ricordo
 
 RESOURCE ID: first_daily_spin_10x_xp
 TEXT: Dieci volte il numero dei PE facendo girare i dischi foto di una Palestra o Pokéstop per la prima volta in quel giorno
@@ -492,13 +525,13 @@ RESOURCE ID: global_challenge_bonuses
 TEXT: Global Challenge Bonuses
 
 RESOURCE ID: global_challenge_bonuses_active
-TEXT: Bonuses Active!
+TEXT: Bonuses active!
 
 RESOURCE ID: global_challenge_complete
 TEXT: Global Challenge Complete
 
 RESOURCE ID: global_challenge_completed
-TEXT: Global Challenge Completed!
+TEXT: Global Challenge completed!
 
 RESOURCE ID: global_day_1_ticket_0_0
 TEXT: %PLAYERNAME%! As great as it is to see you, I have troubling news to share.
@@ -1007,17 +1040,26 @@ TEXT: Color
 RESOURCE ID: iris_social_add_pokemon_key
 TEXT: Aggiungi Pokémon
 
+RESOURCE ID: iris_social_already_deployed_key
+TEXT: This Pokémon is at another location.
+
 RESOURCE ID: iris_social_choose_pokemon_toast
 TEXT: Scegli i Pokémon da posizionare in quest’area.
 
 RESOURCE ID: iris_social_empty_pokemon_bag_key
 TEXT: Non hai nessun Pokémon da posizionare.
 
+RESOURCE ID: iris_social_is_mega_key
+TEXT: Mega-Evolved Pokémon or those affected by Primal Reversion cannot be selected.
+
 RESOURCE ID: iris_social_limited_pokemon_key
 TEXT: Non c’è abbastanza spazio per questo Pokémon adesso.
 
 RESOURCE ID: iris_social_name
 TEXT: Foto di gruppo
+
+RESOURCE ID: iris_social_not_available_toast_key
+TEXT: This Pokémon cannot be selected.
 
 RESOURCE ID: iris_social_option_details_key
 TEXT: Enter details
@@ -1206,9 +1248,6 @@ TEXT: Se lasci qui i tuoi Pokémon, ti aspetteranno quando tornerai.
 RESOURCE ID: leave_pokemon_message_header
 TEXT: Vuoi davvero andartene?
 
-RESOURCE ID: location_background_filter_header
-TEXT: Sfondo di posizione
-
 RESOURCE ID: location_space_limit_message
 TEXT: Non c’è abbastanza spazio per questo Pokémon adesso.
 
@@ -1237,10 +1276,10 @@ RESOURCE ID: meetups_ended_desc
 TEXT: Il ritrovo è terminato.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-06-18T17:48:34.987876+00:00 for it-IT
-at SHA 1631f7086a
-Pipeline 2414594, job 29189288
-Patch from: 0.319.0-SHA-f0faea37-RC2, 0.317.0-SHA-75d3f099-RC1, 0.317.1-SHA-6c60c37a-RC1
+TEXT: Built at 2024-06-20T20:12:09.488481+00:00 for it-IT
+at SHA ccbab924d8
+Pipeline 2419246, job 29259135
+Patch from: 0.319.0-SHA-f0faea37-RC2, 0.317.0-SHA-dcf47c39-RC3, 0.317.1-SHA-6c60c37a-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Proietta un misterioso raggio di luce. Attira i Pokémon che appaiono di notte e permette ai Pokémon che si evolvono durante la notte di farlo durante il giorno.
@@ -1909,7 +1948,7 @@ RESOURCE ID: special_background_ftue_header
 TEXT: Hai ottenuto uno Sfondo speciale!
 
 RESOURCE ID: special_background_fusion_desc
-TEXT: When fusing certain Pokémon together, their Special Backgrounds will be combined to create a unique one!
+TEXT: When fusing certain Pokémon together, their Special Backgrounds will combine to create a new one!
 
 RESOURCE ID: special_background_fusion_header
 TEXT: Special Background Fusion
@@ -1979,6 +2018,9 @@ TEXT: Ricerca a tempo dell’evento “Spiaggia e relax” (2/2)
 
 RESOURCE ID: sunsteel_strike_adventure_effects_mapview_dialog
 TEXT: Emana la luce di una meteora. Attira i Pokémon che appaiono di giorno e permette ai Pokémon che si evolvono durante il giorno di farlo durante la notte.
+
+RESOURCE ID: t5_bonus_explore_title
+TEXT: Explore Galore Timed Research
 
 RESOURCE ID: text_rewards_key_anniversary24
 TEXT: <b>Le ricompense includono:</b>
@@ -2056,13 +2098,13 @@ RESOURCE ID: ticket_ultra_space_wonders
 TEXT: I biglietti per la ricerca a tempo “Meraviglie dall’Ultramondo” sono disponibili nel negozio
 
 RESOURCE ID: timed_challenge_bonus_header_active_v2
-TEXT: Active Bonuses
+TEXT: ACTIVE BONUSES
 
 RESOURCE ID: timed_challenge_bonus_header_inactive_v2
-TEXT: Completion Rewards
+TEXT: COMPLETION REWARDS
 
 RESOURCE ID: timed_challenge_work_together_v2
-TEXT: All trainers must work together as a global community to complete this challenge.
+TEXT: Trainers must work together as a global community to complete this challenge.
 
 RESOURCE ID: too_far_away_iris_social
 TEXT: Questo Pokéstop è troppo lontano per scattare foto di gruppo.

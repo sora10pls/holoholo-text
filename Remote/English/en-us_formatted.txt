@@ -25,8 +25,29 @@ TEXT: Pikachu's Indonesia Journey: Yogyakarta (5/5)
 RESOURCE ID: anime_collab_june_india_title
 TEXT: Pokémon Horizons: The Series Celebration Event – India and Indonesia
 
+RESOURCE ID: anniversary_2024_event_day1_2
+TEXT: 8th Anniversary Party: Days 1 and 2
+
+RESOURCE ID: anniversary_2024_event_day3_4
+TEXT: 8th Anniversary Party: Days 3 and 4
+
+RESOURCE ID: anniversary_2024_event_day5_6
+TEXT: 8th Anniversary Party: Days 5 and 6
+
 RESOURCE ID: anniversary_2024_event_title
 TEXT: 8th Anniversary Party
+
+RESOURCE ID: anniversary_2024_premium_timed_research
+TEXT: 8th Anniversary Party Premium Timed Research
+
+RESOURCE ID: anniversary_2024_timed_research
+TEXT: 8th Anniversary Party Timed Research
+
+RESOURCE ID: anniversary_2024_timed_research_0
+TEXT: 8th Anniversary Party Timed Research (1/2)
+
+RESOURCE ID: anniversary_2024_timed_research_1
+TEXT: 8th Anniversary Party Timed Research (2/2)
 
 RESOURCE ID: ar_mode_camera_permissions
 TEXT: To use AR mode, we need access to your camera and gallery so you can take photos and save them.
@@ -264,7 +285,7 @@ RESOURCE ID: bonus_tr_gbl_naic_2025_a_title_01
 TEXT: 2025 Pokémon EUIC Champion (2/2)
 
 RESOURCE ID: bonuses_active
-TEXT: Bonuses Active!
+TEXT: Bonuses active!
 
 RESOURCE ID: buddy_widget_description
 TEXT: Use Adventure Sync to track your Buddy Pokémon’s heart meter when Pokémon GO is open in the background.
@@ -311,6 +332,9 @@ TEXT: Shines the light of a meteor for {0}. Attracts Pokémon found during the d
 RESOURCE ID: eggs_widget_description
 TEXT: Use Adventure Sync to track Egg-hatching progress when Pokémon GO is in the background.
 
+RESOURCE ID: elite_raid_mega_rayquaza_event_name
+TEXT: Elite Raid: Mega Rayquaza
+
 RESOURCE ID: error_gift_does_not_exist
 TEXT: There was an error with this Gift. Please try again.
 
@@ -354,7 +378,7 @@ RESOURCE ID: event_title_catching_wonders
 TEXT: Catching Wonders
 
 RESOURCE ID: exit_to_map_button
-TEXT: EXIT TO MAP
+TEXT: EXIT
 
 RESOURCE ID: f_avatar_poses_bundle_pose_63
 TEXT: Alola Greeting Pose
@@ -389,11 +413,20 @@ TEXT: background
 RESOURCE ID: filter_key_fusion
 TEXT: fusion
 
-RESOURCE ID: filter_key_location_card_temp
+RESOURCE ID: filter_key_location_card
 TEXT: locationbackground
+
+RESOURCE ID: filter_key_location_card_old
+TEXT: locationcards
 
 RESOURCE ID: filter_key_special_background
 TEXT: specialbackground
+
+RESOURCE ID: filter_label_location_card
+TEXT: Location Background
+
+RESOURCE ID: filter_label_location_card_legacy
+TEXT: Has Location Card
 
 RESOURCE ID: first_daily_spin_10x_xp
 TEXT: 10× XP when you spin the Photo Disc at a Gym or PokéStop for the first time that day
@@ -450,13 +483,13 @@ RESOURCE ID: global_challenge_bonuses
 TEXT: Global Challenge Bonuses
 
 RESOURCE ID: global_challenge_bonuses_active
-TEXT: Bonuses Active!
+TEXT: Bonuses active!
 
 RESOURCE ID: global_challenge_complete
 TEXT: Global Challenge Complete
 
 RESOURCE ID: global_challenge_completed
-TEXT: Global Challenge Completed!
+TEXT: Global Challenge completed!
 
 RESOURCE ID: global_day_1_ticket_0_0
 TEXT: %PLAYERNAME%! As great as it is to see you, I have troubling news to share.
@@ -959,17 +992,26 @@ TEXT: Color
 RESOURCE ID: iris_social_add_pokemon_key
 TEXT: Add Pokémon
 
+RESOURCE ID: iris_social_already_deployed_key
+TEXT: This Pokémon is at another location.
+
 RESOURCE ID: iris_social_choose_pokemon_toast
 TEXT: Choose Pokémon to place in this area.
 
 RESOURCE ID: iris_social_empty_pokemon_bag_key
 TEXT: You don’t have any Pokémon to place.
 
+RESOURCE ID: iris_social_is_mega_key
+TEXT: Mega-Evolved Pokémon or those affected by Primal Reversion cannot be selected.
+
 RESOURCE ID: iris_social_limited_pokemon_key
 TEXT: There isn’t enough space for that Pokémon right now.
 
 RESOURCE ID: iris_social_name
 TEXT: Group Photo
+
+RESOURCE ID: iris_social_not_available_toast_key
+TEXT: This Pokémon cannot be selected.
 
 RESOURCE ID: iris_social_option_details_key
 TEXT: Enter details
@@ -1153,13 +1195,10 @@ RESOURCE ID: item_evergreen_ticket_details_stadiumsights
 TEXT: This ticket will automatically activate to give you access to the Glide to Victory Timed Research on June 1, wherever you are.
 
 RESOURCE ID: leave_pokemon_message_body
-TEXT: If you leave your Pokémon here, they’ll be here waiting when you come back.
+TEXT: Pokémon left here will still be here for 24 hours.
 
 RESOURCE ID: leave_pokemon_message_header
 TEXT: Are you sure you want to leave?
-
-RESOURCE ID: location_background_filter_header
-TEXT: Location Background
 
 RESOURCE ID: location_space_limit_message
 TEXT: There isn’t enough space for that Pokémon right now.
@@ -1189,10 +1228,10 @@ RESOURCE ID: meetups_ended_desc
 TEXT: Meetup has ended.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-06-18T17:48:34.987876+00:00 for en-US
-at SHA 1631f7086a
-Pipeline 2414594, job 29189288
-Patch from: 0.319.0-SHA-f0faea37-RC2, 0.317.0-SHA-75d3f099-RC1, 0.317.1-SHA-6c60c37a-RC1
+TEXT: Built at 2024-06-20T20:12:09.488481+00:00 for en-US
+at SHA ccbab924d8
+Pipeline 2419246, job 29259135
+Patch from: 0.319.0-SHA-f0faea37-RC2, 0.317.0-SHA-dcf47c39-RC3, 0.317.1-SHA-6c60c37a-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emits a sinister ray. Attracts Pokémon found at night and allows nighttime Evolution during the day.
@@ -1906,7 +1945,7 @@ RESOURCE ID: special_background_ftue_header
 TEXT: You got a Special Background!
 
 RESOURCE ID: special_background_fusion_desc
-TEXT: When fusing certain Pokémon together, their Special Backgrounds will be combined to create a unique one!
+TEXT: When fusing certain Pokémon together, their Special Backgrounds will combine to create a new one!
 
 RESOURCE ID: special_background_fusion_header
 TEXT: Special Background Fusion
@@ -1977,6 +2016,9 @@ TEXT: Slumbering Sands Timed Research (2/2)
 RESOURCE ID: sunsteel_strike_adventure_effects_mapview_dialog
 TEXT: Shines the light of a meteor. Attracts Pokémon found during the day and allows daytime Evolution at night.
 
+RESOURCE ID: t5_bonus_explore_title
+TEXT: Explore Galore Timed Research
+
 RESOURCE ID: text_rewards_key_anniversary24
 TEXT: <b>Included rewards:</b>
 • An encounter with Meltan
@@ -2043,13 +2085,13 @@ RESOURCE ID: ticket_ultra_space_wonders
 TEXT: Ticket for the Ultra Space Wonders Timed Research available in the shop
 
 RESOURCE ID: timed_challenge_bonus_header_active_v2
-TEXT: Active Bonuses
+TEXT: ACTIVE BONUSES
 
 RESOURCE ID: timed_challenge_bonus_header_inactive_v2
-TEXT: Completion Rewards
+TEXT: COMPLETION REWARDS
 
 RESOURCE ID: timed_challenge_work_together_v2
-TEXT: All trainers must work together as a global community to complete this challenge.
+TEXT: Trainers must work together as a global community to complete this challenge.
 
 RESOURCE ID: too_far_away_iris_social
 TEXT: You are too far away from this PokéStop to take a group photo.
@@ -2101,7 +2143,7 @@ RESOURCE ID: vps_localization_exit_confirmation_body
 TEXT: You won’t be able to connect to the area if you do.
 
 RESOURCE ID: vps_localization_exit_confirmation_header
-TEXT: Stop scanning the area?
+TEXT: Are you sure you want to leave?
 
 RESOURCE ID: vps_localization_guidance_avoidglare
 TEXT: The lighting is too bright at this angle! Find another direction to reduce glare.
@@ -2134,7 +2176,7 @@ RESOURCE ID: vps_localization_retry_button
 TEXT: Try again
 
 RESOURCE ID: vps_localization_start_button
-TEXT: I’m ready!
+TEXT: I’m here
 
 RESOURCE ID: vps_localization_stop_client_error_body
 TEXT: Sorry, something is wrong. Would you like to report this issue?

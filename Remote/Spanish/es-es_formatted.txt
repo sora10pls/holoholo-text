@@ -28,8 +28,29 @@ TEXT: Pikachu's Indonesia Journey: Yogyakarta (5/5)
 RESOURCE ID: anime_collab_june_india_title
 TEXT: Celebración de la serie Horizontes Pokémon: India e Indonesia
 
+RESOURCE ID: anniversary_2024_event_day1_2
+TEXT: Fiesta del 8.º Aniversario: Días 1 y 2
+
+RESOURCE ID: anniversary_2024_event_day3_4
+TEXT: Fiesta del 8.º Aniversario: Días 3 y 4
+
+RESOURCE ID: anniversary_2024_event_day5_6
+TEXT: Fiesta del 8.º Aniversario: Días 5 y 6
+
 RESOURCE ID: anniversary_2024_event_title
 TEXT: Fiesta del 8.º Aniversario
+
+RESOURCE ID: anniversary_2024_premium_timed_research
+TEXT: Investigación temporal prémium de Fiesta del 8.º Aniversario
+
+RESOURCE ID: anniversary_2024_timed_research
+TEXT: Investigación temporal de Fiesta del 8.º Aniversario
+
+RESOURCE ID: anniversary_2024_timed_research_0
+TEXT: Investigación temporal de Fiesta del 8.º Aniversario (1/2)
+
+RESOURCE ID: anniversary_2024_timed_research_1
+TEXT: Investigación temporal de Fiesta del 8.º Aniversario (2/2)
 
 RESOURCE ID: ar_iris_tutorial_rotate_description
 TEXT: Toca el botón de girar para comenzar a usar el juguete y moverlo para llamar la atención de tu Pokémon.
@@ -306,7 +327,7 @@ RESOURCE ID: bonus_tr_gbl_naic_2025_a_title_01
 TEXT: 2025 Pokémon EUIC Champion (2/2)
 
 RESOURCE ID: bonuses_active
-TEXT: Bonuses Active!
+TEXT: Bonuses active!
 
 RESOURCE ID: buddy_widget_description
 TEXT: Usa Sincroaventura para seguir el progreso de los corazones de tu compañero cuando Pokémon GO esté funcionando en segundo plano.
@@ -352,6 +373,9 @@ TEXT: Brilla con la luz de un meteoro durante {0}. Atrae Pokémon diurnos y perm
 
 RESOURCE ID: eggs_widget_description
 TEXT: Usa Sincroaventura para seguir el progreso de eclosión de los Huevos cuando Pokémon GO esté funcionando en segundo plano.
+
+RESOURCE ID: elite_raid_mega_rayquaza_event_name
+TEXT: Incursión élite: Mega-Rayquaza
 
 RESOURCE ID: error_gift_does_not_exist
 TEXT: Ha habido un error con este regalo. Inténtalo de nuevo.
@@ -437,11 +461,20 @@ TEXT: investigacionevolucion
 RESOURCE ID: filter_key_fusion
 TEXT: fusión
 
-RESOURCE ID: filter_key_location_card_temp
+RESOURCE ID: filter_key_location_card
 TEXT: fondodelugar
+
+RESOURCE ID: filter_key_location_card_old
+TEXT: cartasdelugar
 
 RESOURCE ID: filter_key_special_background
 TEXT: fondoespecial
+
+RESOURCE ID: filter_label_location_card
+TEXT: Fondo de lugar
+
+RESOURCE ID: filter_label_location_card_legacy
+TEXT: Tienen una carta de lugar
 
 RESOURCE ID: first_daily_spin_10x_xp
 TEXT: Diez veces más PX al dar vueltas al fotodisco de un Gimnasio o Poképarada por primera vez en el día
@@ -504,13 +537,13 @@ RESOURCE ID: global_challenge_bonuses
 TEXT: Global Challenge Bonuses
 
 RESOURCE ID: global_challenge_bonuses_active
-TEXT: Bonuses Active!
+TEXT: Bonuses active!
 
 RESOURCE ID: global_challenge_complete
 TEXT: Global Challenge Complete
 
 RESOURCE ID: global_challenge_completed
-TEXT: Global Challenge Completed!
+TEXT: Global Challenge completed!
 
 RESOURCE ID: global_day_1_ticket_0_0
 TEXT: %PLAYERNAME%! As great as it is to see you, I have troubling news to share.
@@ -1005,7 +1038,7 @@ RESOURCE ID: gofest2024_content_hashtag
 TEXT: Publica fotos usando #PokemonGOFest2024, ¡y compartiremos las que más nos gusten!
 
 RESOURCE ID: hatch_day_extended_bonuses
-TEXT: Hatch Day Extended Bonuses
+TEXT: Bonus complementarios del Día de eclosiones
 
 RESOURCE ID: incense_day_pokemon_ferroseed
 TEXT: Los Ferroseed son atraídos por el Incienso
@@ -1019,17 +1052,26 @@ TEXT: Color
 RESOURCE ID: iris_social_add_pokemon_key
 TEXT: Añadir Pokémon
 
+RESOURCE ID: iris_social_already_deployed_key
+TEXT: This Pokémon is at another location.
+
 RESOURCE ID: iris_social_choose_pokemon_toast
 TEXT: Elige al Pokémon que quieres colocar en esta zona.
 
 RESOURCE ID: iris_social_empty_pokemon_bag_key
 TEXT: No tienes ningún Pokémon para colocar.
 
+RESOURCE ID: iris_social_is_mega_key
+TEXT: Mega-Evolved Pokémon or those affected by Primal Reversion cannot be selected.
+
 RESOURCE ID: iris_social_limited_pokemon_key
 TEXT: Ahora mismo no hay suficiente espacio para ese Pokémon.
 
 RESOURCE ID: iris_social_name
 TEXT: Foto de grupo
+
+RESOURCE ID: iris_social_not_available_toast_key
+TEXT: This Pokémon cannot be selected.
 
 RESOURCE ID: iris_social_option_details_key
 TEXT: Enter details
@@ -1233,9 +1275,6 @@ TEXT: Si dejas aquí a tus Pokémon, estarán aquí cuando regreses.
 RESOURCE ID: leave_pokemon_message_header
 TEXT: ¿Seguro que quieres salir?
 
-RESOURCE ID: location_background_filter_header
-TEXT: Fondo de lugar
-
 RESOURCE ID: location_space_limit_message
 TEXT: Ahora mismo no hay suficiente espacio para ese Pokémon.
 
@@ -1264,10 +1303,10 @@ RESOURCE ID: meetups_ended_desc
 TEXT: La quedada ha terminado.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-06-18T17:48:34.987876+00:00 for es-ES
-at SHA 1631f7086a
-Pipeline 2414594, job 29189288
-Patch from: 0.319.0-SHA-f0faea37-RC2, 0.317.0-SHA-75d3f099-RC1, 0.317.1-SHA-6c60c37a-RC1
+TEXT: Built at 2024-06-20T20:12:09.488481+00:00 for es-ES
+at SHA ccbab924d8
+Pipeline 2419246, job 29259135
+Patch from: 0.319.0-SHA-f0faea37-RC2, 0.317.0-SHA-dcf47c39-RC3, 0.317.1-SHA-6c60c37a-RC1
 
 RESOURCE ID: monodepth_ar_plus_required_toast
 TEXT: Activa Niantic AR para usar la función Realidad combinada.
@@ -2002,7 +2041,7 @@ RESOURCE ID: special_background_ftue_header
 TEXT: ¡Has conseguido un fondo especial!
 
 RESOURCE ID: special_background_fusion_desc
-TEXT: When fusing certain Pokémon together, their Special Backgrounds will be combined to create a unique one!
+TEXT: When fusing certain Pokémon together, their Special Backgrounds will combine to create a new one!
 
 RESOURCE ID: special_background_fusion_header
 TEXT: Special Background Fusion
@@ -2073,6 +2112,9 @@ TEXT: Investigación temporal de Arenas estivales (2/2)
 RESOURCE ID: sunsteel_strike_adventure_effects_mapview_dialog
 TEXT: Brilla con la luz de un meteoro. Atrae Pokémon diurnos y permite la evolución diurna durante la noche.
 
+RESOURCE ID: t5_bonus_explore_title
+TEXT: Explore Galore Timed Research
+
 RESOURCE ID: text_rewards_key_anniversary24
 TEXT: <b>Recompensas incluidas:</b>
 • Un encuentro con Meltan
@@ -2142,13 +2184,13 @@ RESOURCE ID: ticket_ultra_space_wonders
 TEXT: La entrada para la investigación temporal "Maravillas del Ultraespacio" está disponible en la tienda
 
 RESOURCE ID: timed_challenge_bonus_header_active_v2
-TEXT: Active Bonuses
+TEXT: ACTIVE BONUSES
 
 RESOURCE ID: timed_challenge_bonus_header_inactive_v2
-TEXT: Completion Rewards
+TEXT: COMPLETION REWARDS
 
 RESOURCE ID: timed_challenge_work_together_v2
-TEXT: All trainers must work together as a global community to complete this challenge.
+TEXT: Trainers must work together as a global community to complete this challenge.
 
 RESOURCE ID: too_far_away_iris_social
 TEXT: Estás muy lejos de esta Poképarada para hacer fotos de grupo.

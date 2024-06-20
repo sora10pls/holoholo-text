@@ -25,8 +25,29 @@ TEXT: Pikachu's Indonesia Journey: Yogyakarta (5/5)
 RESOURCE ID: anime_collab_june_india_title
 TEXT: TVアニメコラボ – インド＆インドネシア
 
+RESOURCE ID: anniversary_2024_event_day1_2
+TEXT: 8周年記念：DAY1＆2
+
+RESOURCE ID: anniversary_2024_event_day3_4
+TEXT: 8周年記念：DAY3＆4
+
+RESOURCE ID: anniversary_2024_event_day5_6
+TEXT: 8周年記念：DAY5＆6
+
 RESOURCE ID: anniversary_2024_event_title
 TEXT: 8周年記念
+
+RESOURCE ID: anniversary_2024_premium_timed_research
+TEXT: 8周年記念プレミアムタイムチャレンジ
+
+RESOURCE ID: anniversary_2024_timed_research
+TEXT: 8周年記念タイムチャレンジ
+
+RESOURCE ID: anniversary_2024_timed_research_0
+TEXT: 8周年記念タイムチャレンジ(1/2)
+
+RESOURCE ID: anniversary_2024_timed_research_1
+TEXT: 8周年記念タイムチャレンジ(2/2)
 
 RESOURCE ID: ar_mode_camera_permissions
 TEXT: ARモード使用には撮影し撮った写真を保存するため、カメラとギャラリーへのアクセスが必要です。
@@ -271,7 +292,7 @@ RESOURCE ID: bonus_tr_gbl_naic_2025_a_title_01
 TEXT: 2025 Pokémon EUIC Champion (2/2)
 
 RESOURCE ID: bonuses_active
-TEXT: Bonuses Active!
+TEXT: Bonuses active!
 
 RESOURCE ID: buddy_widget_description
 TEXT: いつでも冒険モードで、アプリを起動していないときでも相棒のハートポイントを追跡できます
@@ -320,6 +341,9 @@ TEXT: {0}のあいだ流星の光を放ち、昼間に現れるポケモンを�
 
 RESOURCE ID: eggs_widget_description
 TEXT: いつでも冒険モードで、アプリを起動していないときでもタマゴふかの進み具合を追跡できます
+
+RESOURCE ID: elite_raid_mega_rayquaza_event_name
+TEXT: エピックレイド：メガレックウザ
 
 RESOURCE ID: error_gift_does_not_exist
 TEXT: 開けたギフトにエラーが発生しました。再度お試しください。
@@ -399,11 +423,20 @@ TEXT: はいけい
 RESOURCE ID: filter_key_fusion
 TEXT: がったい
 
-RESOURCE ID: filter_key_location_card_temp
+RESOURCE ID: filter_key_location_card
 TEXT: ろけーしょんはいけい
+
+RESOURCE ID: filter_key_location_card_old
+TEXT: はいけい
 
 RESOURCE ID: filter_key_special_background
 TEXT: すぺしゃるはいけい
+
+RESOURCE ID: filter_label_location_card
+TEXT: ロケーション背景
+
+RESOURCE ID: filter_label_location_card_legacy
+TEXT: 背景
 
 RESOURCE ID: first_daily_spin_10x_xp
 TEXT: 10×　その日最初のポケストップ・ジムスピンXP
@@ -472,7 +505,7 @@ RESOURCE ID: global_challenge_bonuses
 TEXT: グローバルチャレンジボーナス
 
 RESOURCE ID: global_challenge_bonuses_active
-TEXT: Bonuses Active!
+TEXT: Bonuses active!
 
 RESOURCE ID: global_challenge_complete
 TEXT: Global Challenge Complete
@@ -1001,10 +1034,13 @@ RESOURCE ID: incident_already_completed_error
 TEXT: バトルは完了しています
 
 RESOURCE ID: iris_color_sort
-TEXT: Color
+TEXT: カラー
 
 RESOURCE ID: iris_social_add_pokemon_key
 TEXT: ポケモンを追加
+
+RESOURCE ID: iris_social_already_deployed_key
+TEXT: This Pokémon is at another location.
 
 RESOURCE ID: iris_social_choose_pokemon_toast
 TEXT: このエリアに置くポケモンを選びます
@@ -1012,11 +1048,17 @@ TEXT: このエリアに置くポケモンを選びます
 RESOURCE ID: iris_social_empty_pokemon_bag_key
 TEXT: 出せるポケモンがありません
 
+RESOURCE ID: iris_social_is_mega_key
+TEXT: Mega-Evolved Pokémon or those affected by Primal Reversion cannot be selected.
+
 RESOURCE ID: iris_social_limited_pokemon_key
 TEXT: 今はポケモンを置く場所がありません
 
 RESOURCE ID: iris_social_name
 TEXT: 集合写真
+
+RESOURCE ID: iris_social_not_available_toast_key
+TEXT: This Pokémon cannot be selected.
 
 RESOURCE ID: iris_social_option_details_key
 TEXT: 入力してください
@@ -1080,10 +1122,10 @@ RESOURCE ID: iris_social_tired_pokemon_string
 TEXT: 遊び疲れて戻ってきた！
 
 RESOURCE ID: iris_temperature_warning_body
-TEXT: Due to the high temperature of the smartphone, the camera has been temporarily disabled. Please wait until the smartphone cools down to its normal temperature.
+TEXT: 端末の発熱により、カメラ機能が一時的に使用できません。適正温度に下がるまでお待ちください。
 
 RESOURCE ID: iris_temperature_warning_title
-TEXT: High Temperature Caution
+TEXT: 高温注意
 
 RESOURCE ID: irisisocial_tutorial_body_eight
 TEXT: ステッカーを貼り、撮った写真を飾ることができます。写真をデコってシェアしましょう！
@@ -1205,9 +1247,6 @@ TEXT: ポケモンを出しておくと、この場所にとどまります。
 RESOURCE ID: leave_pokemon_message_header
 TEXT: 本当に退出してもいいですか？
 
-RESOURCE ID: location_background_filter_header
-TEXT: ロケーション背景
-
 RESOURCE ID: location_space_limit_message
 TEXT: 今はポケモンを置く場所がありません
 
@@ -1236,10 +1275,10 @@ RESOURCE ID: meetups_ended_desc
 TEXT: ミートアップ終了
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-06-18T17:48:34.987876+00:00 for ja-JP
-at SHA 1631f7086a
-Pipeline 2414594, job 29189288
-Patch from: 0.319.0-SHA-f0faea37-RC2, 0.317.0-SHA-75d3f099-RC1, 0.317.1-SHA-6c60c37a-RC1
+TEXT: Built at 2024-06-20T20:12:09.488481+00:00 for ja-JP
+at SHA ccbab924d8
+Pipeline 2419246, job 29259135
+Patch from: 0.319.0-SHA-f0faea37-RC2, 0.317.0-SHA-dcf47c39-RC3, 0.317.1-SHA-6c60c37a-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: 怪しい光線を放ち、夜間に現れるポケモンを引き寄せ、昼でも夜の進化を可能にする。
@@ -1364,19 +1403,19 @@ RESOURCE ID: party_share_ticker_message_plural
 TEXT: {0}さんが{2}{1}個をシェアしました
 
 RESOURCE ID: photo_hub_all_groups_title
-TEXT: ALL GROUPS
+TEXT: すべてのグループ
 
 RESOURCE ID: photo_hub_decorate
-TEXT: Decorate
+TEXT: デコレーション
 
 RESOURCE ID: photo_hub_hashtags
 TEXT: ハッシュタグ #GOsnapshot #PokemonGO で投稿！
 
 RESOURCE ID: photo_hub_last_used
-TEXT: Previously Photographed
+TEXT: 最後に撮影
 
 RESOURCE ID: photo_hub_see_all_groups
-TEXT: SEE ALL GROUPS
+TEXT: すべてのグループを見る
 
 RESOURCE ID: photo_set_playful_pals_big
 TEXT: わんぱくフレンズ
@@ -1989,7 +2028,7 @@ RESOURCE ID: special_background_ftue_header
 TEXT: スペシャル背景をゲットした！
 
 RESOURCE ID: special_background_fusion_desc
-TEXT: When fusing certain Pokémon together, their Special Backgrounds will be combined to create a unique one!
+TEXT: When fusing certain Pokémon together, their Special Backgrounds will combine to create a new one!
 
 RESOURCE ID: special_background_fusion_header
 TEXT: Special Background Fusion
@@ -2059,6 +2098,9 @@ TEXT: 初夏のまどろみタイムチャレンジ (2/2)
 
 RESOURCE ID: sunsteel_strike_adventure_effects_mapview_dialog
 TEXT: 流星の光を放ち、昼間に現れるポケモンを引き寄せ、夜でも昼の進化を可能にする。
+
+RESOURCE ID: t5_bonus_explore_title
+TEXT: たくさん探索タイムチャレンジ
 
 RESOURCE ID: text_rewards_key_anniversary24
 TEXT: <b>もらえるもの：</b>
