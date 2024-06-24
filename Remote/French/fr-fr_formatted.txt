@@ -61,6 +61,12 @@ TEXT: Un problème s’est produit avec le suivi RA. Essaie de scanner à nouvea
 RESOURCE ID: ar_tracking_reconnecting
 TEXT: Reconnexion du suivi RA
 
+RESOURCE ID: avatar_baggypants
+TEXT: Pantalon ample (gris foncé)
+
+RESOURCE ID: avatar_darkbaggyjacket
+TEXT: Veste ample Noarfang
+
 RESOURCE ID: avatar_f_backpack_combeebackpack_00_bundle_icon
 TEXT: Sac Apitrini mâle
 
@@ -108,6 +114,9 @@ TEXT: Sandales style Néphie
 
 RESOURCE ID: avatar_lanawig
 TEXT: Perruque style Néphie
+
+RESOURCE ID: avatar_lightbaggyjacket
+TEXT: Veste ample Férosinge
 
 RESOURCE ID: avatar_m_backpack_combeebackpack_00_bundle_icon
 TEXT: Sac Apitrini mâle
@@ -332,6 +341,9 @@ TEXT: L’évènement en personne “{0}” commence à {1} ! Participes-y pour
 RESOURCE ID: campfire_meetup_notification
 TEXT: Rencontres en personne pour un évènement à venir : {0} !
 
+RESOURCE ID: catch_rayquaza_meteorite_chance
+TEXT: Pour chaque Rayquaza attrapé une chance d’obtenir une Météorite
+
 RESOURCE ID: checkin_meetups_button
 TEXT: Participer à l’évènement en personne
 
@@ -352,6 +364,9 @@ TEXT: Les classiques de la Journée Communauté : Héricendre
 
 RESOURCE ID: community_day_goomy_event_name
 TEXT: Journée Communauté : Mucuscule
+
+RESOURCE ID: community_day_tynamo_event_name
+TEXT: Journée Communauté : Anchwatt
 
 RESOURCE ID: complete_route_travel_error_toast
 TEXT: Impossible de terminer cette Route pour le moment. Réessaie plus tard.
@@ -1132,10 +1147,10 @@ RESOURCE ID: iris_social_tired_pokemon_string
 TEXT: a joué jusqu’à ce qu’il soit fatigué et est revenu !
 
 RESOURCE ID: iris_temperature_warning_body
-TEXT: Due to the high temperature of the smartphone, the camera has been temporarily disabled. Please wait until the smartphone cools down to its normal temperature.
+TEXT: Due to the high temperature of the device, the camera has been temporarily disabled. Please wait until it cools to its normal temperature.
 
 RESOURCE ID: iris_temperature_warning_title
-TEXT: High Temperature Caution
+TEXT: High Temperature Warning
 
 RESOURCE ID: irisisocial_tutorial_body_eight
 TEXT: Tu peux utiliser des stickers pour décorer les photos que tu prends. Ajoute une petite touche créative, puis partage tes photos avec les autres. À quand ton prochain chef d'œuvre ?
@@ -1192,16 +1207,22 @@ RESOURCE ID: item_event_ticket_evergreen_details_anniversary24
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude ponctuelle premium Fête du 8ᵉ anniversaire le 28 juin, où que tu sois.
 
 RESOURCE ID: item_event_ticket_gray_desc
-TEXT: Un ticket pour accéder à l’Étude ponctuelle Merveilles de l’Ultra-Dimension du 23 mai à 10h au 28 mai 2024 à 20h, heures locales, où que tu sois.
-
-RESOURCE ID: item_event_ticket_gray_desc_shinycelebi24
 TEXT: Un ticket pour accéder à l’Étude magistrale Murmures dans les bois à partir du 28 juin 2024 à 10h, heure locale, où que tu sois.
 
-RESOURCE ID: item_event_ticket_gray_details
-TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude ponctuelle Merveilles de l’Ultra-Dimension le 23 mai, où que tu sois.
+RESOURCE ID: item_event_ticket_gray_desc_megaheracross
+TEXT: Un ticket pour accéder à des bonus spéciaux le samedi 13 avril 2024 de 14h à 22h (heures locales), où que tu sois.
 
-RESOURCE ID: item_event_ticket_gray_details_shinycelebi24
+RESOURCE ID: item_event_ticket_gray_desc_ultraspacewonders
+TEXT: Un ticket pour accéder à l’Étude ponctuelle Merveilles de l’Ultra-Dimension du 23 mai à 10h au 28 mai 2024 à 20h, heures locales, où que tu sois.
+
+RESOURCE ID: item_event_ticket_gray_details
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude magistrale Murmures dans les bois le 28 juin, où que tu sois.
+
+RESOURCE ID: item_event_ticket_gray_details_megaheracross
+TEXT: Ce ticket s’activera automatiquement pour te donner accès à des bonus spéciaux le 13 avril, où que tu sois.
+
+RESOURCE ID: item_event_ticket_gray_details_ultraspacewonders
+TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude ponctuelle Merveilles de l’Ultra-Dimension le 23 mai, où que tu sois.
 
 RESOURCE ID: item_event_ticket_pink_desc
 TEXT: Un ticket pour accéder à l’Étude spéciale : Les classiques de la Journée Communauté – Héricendre, dès le 22 juin 2024 à 14h, heure locale, où que tu sois.
@@ -1281,14 +1302,125 @@ TEXT: Tenue style Néphie
 RESOURCE ID: m_shoes_lana_00_bundle_icon
 TEXT: Sandales style Néphie
 
+RESOURCE ID: masterwork_dialogue_whisper_woods_1_0
+TEXT: Content de te voir, %PLAYERNAME% ! Question : as-tu visité les bois récemment ?
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_1_1
+TEXT: Je te le demande parce qu’une forêt proche a été plutôt luxuriante ces derniers temps.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_1_2
+TEXT: Cela m’a rappelé certaines histoires anciennes dont j’avais entendu parler quand j’étais étudiant.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_1_3
+TEXT: À différentes époques, on a rapporté que la végétation se développait dans la forêt au moment où un certain Pokémon apparaissait.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_1_4
+TEXT: Je me demande s’il y a un fond de vérité dans ces histoires. Il faudra que je cherche dans mes notes pour retrouver le nom du Pokémon mentionné.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_2_0
+TEXT: Tu es de retour ! As-tu eu l’occasion d’observer les alentours ?
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_2_1
+TEXT: Pour ma part, quand je me perds dans mes notes, j’aime me ressourcer près des arbres des environs.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_2_2
+TEXT: Tiens, à propos de mes notes : le Pokémon des histoires dont je te parlais est en fait Celebi !
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_2_3
+TEXT: Et, c’est là que ça devient intéressant, Celebi est connu comme le Pokémon Temporel. Il est venu ici depuis le futur en voyageant dans le temps !
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_2_4
+TEXT: Ça ressemble à une légende, n’est-ce pas ? Continuons à chercher pour voir si le phénomène que j’ai observé est lié à Celebi !
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_3_0
+TEXT: %PLAYERNAME% ! Je te cherchais, justement ! As-tu découvert quelque chose d’intéressant de ton côté ?
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_3_1
+TEXT: Pour ma part, je pense avoir repéré Celebi dans la nature !
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_3_2
+TEXT: Il semblait vivifier l’herbe et les arbres autour de lui, et cela correspond à ce qui a été dit de lui.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_3_3
+TEXT: Cependant, sa couleur était différente de ce à quoi je m’attendais. Qu’est-ce que ça peut bien vouloir dire ?
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_3_4
+TEXT: Quoi qu’il en soit, guettons notre fantastique ami de la forêt.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_4_0
+TEXT: Je suis d’humeur introspective en ce moment, voire méditative. Je me demande si c’est à cause de l’influence de Celebi ?
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_4_1
+TEXT: On dit qu’il n’apparaît qu’en temps de paix...
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_4_2
+TEXT: Eh bien, si c’est vrai, j’espère qu’il restera longtemps avec nous !
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_4_3
+TEXT: Et toi, %PLAYERNAME% ? Est-ce que le calme t’a donné l’inspiration ?
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_4_4
+TEXT: Ça pourrait être sympa de passer un moment à t’imprégner de la sérénité alentour avec ton copain !
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_5_0
+TEXT: J’ai encore vu Celebi ! Il s’est envolé quand j’ai essayé de m’approcher, mais j’ai trouvé un œuf près de l’endroit où je l'ai vu.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_5_1
+TEXT: D'après mes recherches, on raconte que Celebi laisse derrière lui un œuf venant du futur, alors j’ai hâte d’étudier celui-ci !
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_5_2
+TEXT: C’est bon signe ! Nous allons rencontrer à nouveau Celebi, je le sens !
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_5_3
+TEXT: Continue ton super travail d’exploration, et prépare-toi bien pour cette rencontre à venir.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_5_4
+TEXT: Attraper un Pokémon fabuleux comme Celebi n’est pas une mince affaire, mais je suis sûr que tu en es capable !
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_6_0
+TEXT: Bravo ! Tu as fait un travail remarquable, %PLAYERNAME% ! Tu as mené cette tâche à bout, je suis très fier de toi.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_6_1
+TEXT: Cela en valait largement la peine ! Regarde la nuance de ton nouvel ami : c’est un Celebi chromatique !
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_6_2
+TEXT: On raconte que tant que Celebi apparaît, cela signifie que le futur sera bon et agréable.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_6_3
+TEXT: Et si tu veux mon avis, ta contribution à cet avenir est juste fabuleuse !
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_6_4
+TEXT: Prends un moment pour célébrer cela avec ton nouvel ami. À la prochaine, GO !
+
+RESOURCE ID: masterwork_sc_title
+TEXT: Murmures dans les bois
+
+RESOURCE ID: masterwork_sc_title_0
+TEXT: Murmures dans les bois (1/6)
+
+RESOURCE ID: masterwork_sc_title_1
+TEXT: Murmures dans les bois (2/6)
+
+RESOURCE ID: masterwork_sc_title_2
+TEXT: Murmures dans les bois (3/6)
+
+RESOURCE ID: masterwork_sc_title_3
+TEXT: Murmures dans les bois (4/6)
+
+RESOURCE ID: masterwork_sc_title_4
+TEXT: Murmures dans les bois (5/6)
+
+RESOURCE ID: masterwork_sc_title_5
+TEXT: Murmures dans les bois (6/6)
+
 RESOURCE ID: meetups_ended_desc
 TEXT: L’évènement en personne est terminé.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-06-21T21:42:13.543105+00:00 for fr-FR
-at SHA 7ac5ffb7ee
-Pipeline 2421855, job 29306054
-Patch from: 0.317.0-SHA-75d3f099-RC1, 0.319.0-SHA-0a543be8-RC1, 0.317.1-SHA-6c60c37a-RC1
+TEXT: Built at 2024-06-24T22:49:02.902981+00:00 for fr-FR
+at SHA 8c11444b87
+Pipeline 2425059, job 29353795
+Patch from: 0.317.1-SHA-6c60c37a-RC1, 0.319.0-SHA-0a543be8-RC1, 0.317.0-SHA-dcf47c39-RC3, 0.321.0-SHA-c8813e1d-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Émet un rayon de lumière mystérieux. Attire des Pokémon que l’on rencontre la nuit et permet aux Pokémon qui évoluent la nuit de le faire pendant le jour.
@@ -1356,6 +1488,9 @@ TEXT: Retour d’un Pokémon
 RESOURCE ID: oob_toast_string_key
 TEXT: Retourne dans la zone de jeu pour placer des Pokémon.
 
+RESOURCE ID: party_play_activity_description_44
+TEXT: Shiny Pokemon Caught
+
 RESOURCE ID: party_play_party_share_card_title
 TEXT: Partage des objets avec ton équipe !
 
@@ -1412,6 +1547,9 @@ TEXT: ALL GROUPS
 
 RESOURCE ID: photo_hub_decorate
 TEXT: Decorate
+
+RESOURCE ID: photo_hub_favorites
+TEXT: Your Favorites
 
 RESOURCE ID: photo_hub_hashtags
 TEXT: Utilise les hashtags #GOsnapshot #PokemonGO
@@ -1494,6 +1632,12 @@ TEXT: Fais évoluer {0} Héricendre
 RESOURCE ID: quest_cyndaquil_evolve_b_singular
 TEXT: Fais évoluer un Héricendre
 
+RESOURCE ID: quest_elite_raid_victory_plural
+TEXT: Gagne {0} Raids d’élite
+
+RESOURCE ID: quest_elite_raid_victory_singular
+TEXT: Gagne un Raid d’élite
+
 RESOURCE ID: quest_goomy_catch_b
 TEXT: Attrape {0} Mucuscule
 
@@ -1502,6 +1646,9 @@ TEXT: Fais évoluer {0} Mucuscule
 
 RESOURCE ID: quest_goomy_evolve_b_singular
 TEXT: Fais évoluer un Mucuscule
+
+RESOURCE ID: quest_platinum_johto_badge
+TEXT: Remporte la médaille de platine de Johto
 
 RESOURCE ID: quest_quilava_evolve_b_plural
 TEXT: Fais évoluer {0} Feurisson
@@ -1715,6 +1862,12 @@ TEXT: Les classiques de la Journée Communauté : Héricendre (3/4)
 
 RESOURCE ID: quest_title_cyndaquil_3
 TEXT: Les classiques de la Journée Communauté : Héricendre (4/4)
+
+RESOURCE ID: quest_title_elite_mega_ray
+TEXT: Étude ponctuelle – Raid d’élite : Méga-Rayquaza
+
+RESOURCE ID: quest_title_elite_mega_ray_bonus
+TEXT: Étude ponctuelle bonus – Raid d’élite : Méga-Rayquaza
 
 RESOURCE ID: quest_title_goomy
 TEXT: Journée Communauté : Mucuscule
@@ -2017,7 +2170,7 @@ RESOURCE ID: sunsteel_strike_adventure_effects_mapview_dialog
 TEXT: Brille telle une météorite. Attire des Pokémon que l’on rencontre le jour et permet aux Pokémon qui évoluent le jour de le faire pendant la nuit.
 
 RESOURCE ID: t5_bonus_explore_title
-TEXT: Explore Galore Timed Research
+TEXT: Étude ponctuelle Explorations à foison
 
 RESOURCE ID: text_rewards_key_anniversary24
 TEXT: <b>Donne accès à :</b>

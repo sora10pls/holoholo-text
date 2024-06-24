@@ -65,6 +65,12 @@ TEXT: มีปญหาเกิดขึ้นกับการติด�
 RESOURCE ID: ar_tracking_reconnecting
 TEXT: เชื่อมตอการติดตาม AR อีกครั้ง
 
+RESOURCE ID: avatar_baggypants
+TEXT: กางเกงขายาวทรงหลวมสีเทาเขม
+
+RESOURCE ID: avatar_darkbaggyjacket
+TEXT: เสื้อแจ็กเก็ตทรงหลวมโยรุโนะซึคุ
+
 RESOURCE ID: avatar_f_backpack_komala_00_bundle_icon
 TEXT: กระเปาเปเน็คโคอาลา
 
@@ -106,6 +112,9 @@ TEXT: รองเทาแตะสไตลซุยเรน
 
 RESOURCE ID: avatar_lanawig
 TEXT: วิกสไตลซุยเรน
+
+RESOURCE ID: avatar_lightbaggyjacket
+TEXT: เสื้อแจ็กเก็ตทรงหลวมแมนคี
 
 RESOURCE ID: avatar_m_backpack_komala_00_bundle_icon
 TEXT: กระเปาเปเน็คโคอาลา
@@ -398,6 +407,9 @@ TEXT: งานพบปะ "{0}" จะเริ่มใน {1}! เช็ก�
 RESOURCE ID: campfire_meetup_notification
 TEXT: งานพบปะในบริเวณใกลเคียงสำหรับอีเวนต "{0}" ที่กำลังจะมาถึง!
 
+RESOURCE ID: catch_rayquaza_meteorite_chance
+TEXT: โอกาสไดรับลูกอุกกาบาตจากการจับเร็คควอซา 
+
 RESOURCE ID: checkin_meetups_button
 TEXT: เช็กอินเขารวมงานพบปะ
 
@@ -418,6 +430,9 @@ TEXT: คอมมิวนิตี้เดย (รีเทิรน): 
 
 RESOURCE ID: community_day_goomy_event_name
 TEXT: คอมมิวนิตี้เดย: นูเมรา
+
+RESOURCE ID: community_day_tynamo_event_name
+TEXT: คอมมิวนิตี้เดย: ชิบิชิราซึ
 
 RESOURCE ID: complete_route_travel_error_toast
 TEXT: ไมสามารถสิ้นสุดเสนทางได โปรดลองใหมอีกครั้ง
@@ -1365,10 +1380,10 @@ RESOURCE ID: iris_social_tired_pokemon_string
 TEXT: ไปเลนมาจนเหนื่อยและกลับมาแลว!
 
 RESOURCE ID: iris_temperature_warning_body
-TEXT: Due to the high temperature of the smartphone, the camera has been temporarily disabled. Please wait until the smartphone cools down to its normal temperature.
+TEXT: Due to the high temperature of the device, the camera has been temporarily disabled. Please wait until it cools to its normal temperature.
 
 RESOURCE ID: iris_temperature_warning_title
-TEXT: High Temperature Caution
+TEXT: High Temperature Warning
 
 RESOURCE ID: irisisocial_tutorial_body_eight
 TEXT: คุณสามารถใชสติกเกอรตกแตงภาพที่คุณถายได เติมแตงภาพใหสวยงามแลวแชรใหคนอื่นดูกันเลย!
@@ -1429,23 +1444,34 @@ TEXT: ตั๋วสำหรับเขารวมงานวิจ�
 ตามเวลาทองถิ่นทั่วโลก
 
 RESOURCE ID: item_event_ticket_gray_desc
-TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลา "อัลตราสเปซพิศวง" ตั้งแตวันที่ 23 พฤษภาคม เวลา 10:00 น. ถึงวันที่ 28 พฤษภาคม 2024 เวลา 20:00 น. ตามเวลาทองถิ่นไมวาคุณจะอยูที่ใด
-
-RESOURCE ID: item_event_ticket_gray_desc_shinycelebi24
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยระยะยาว
 "เสียงกระซิบจากพงไพร"
 ในวันที่ 28 มิถุนายน 2024 10:00 น.
 ตามเวลาทองถิ่นทั่วโลก
 
+RESOURCE ID: item_event_ticket_gray_desc_megaheracross
+TEXT: ตั๋วสำหรับรับโบนัสพิเศษในวันที่
+13 เมษายน 2024 เวลา 14:00-22:00 น.
+ตามเวลาทองถิ่นทั่วโลก
+
+RESOURCE ID: item_event_ticket_gray_desc_ultraspacewonders
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลา "อัลตราสเปซพิศวง" ตั้งแตวันที่ 23 พฤษภาคม เวลา 10:00 น. ถึงวันที่ 28 พฤษภาคม 2024 เวลา 20:00 น. ตามเวลาทองถิ่นไมวาคุณจะอยูที่ใด
+
 RESOURCE ID: item_event_ticket_gray_details
-TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลา "อัลตราสเปซพิศวง"
-ในวันที่ 23 พฤษภาคม
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยระยะยาว "เสียงกระซิบจากพงไพร"
+ในวันที่ 28 มิถุนายน
 คุณจะสามารถเขารวมไดโดยอัตโนมัติ
 ตามเวลาทองถิ่นทั่วโลก
 
-RESOURCE ID: item_event_ticket_gray_details_shinycelebi24
-TEXT: ตั๋วสำหรับเขารวมงานวิจัยระยะยาว "เสียงกระซิบจากพงไพร"
-ในวันที่ 28 มิถุนายน
+RESOURCE ID: item_event_ticket_gray_details_megaheracross
+TEXT: ตั๋วสำหรับรับโบนัสพิเศษ
+ในวันที่ 13 เมษายน
+คุณจะสามารถเขารวมไดโดยอัตโนมัติ
+ตามเวลาทองถิ่นทั่วโลก
+
+RESOURCE ID: item_event_ticket_gray_details_ultraspacewonders
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลา "อัลตราสเปซพิศวง"
+ในวันที่ 23 พฤษภาคม
 คุณจะสามารถเขารวมไดโดยอัตโนมัติ
 ตามเวลาทองถิ่นทั่วโลก
 
@@ -1572,6 +1598,148 @@ TEXT: ชุดสไตลซุยเรน
 RESOURCE ID: m_shoes_lana_00_bundle_icon
 TEXT: รองเทาแตะสไตลซุยเรน
 
+RESOURCE ID: masterwork_dialogue_whisper_woods_1_0
+TEXT: ดีใจที่ไดเจอนะ %PLAYERNAME%!
+ขอถามหนอยสิ เธอไดไปสำรวจปา
+มาบางหรือเปลา?
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_1_1
+TEXT: ที่ถามเพราะวา ชวงนี้ปาดูแนนขนัดไปดวย
+ตนไมใบหญามากกวาปกติ
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_1_2
+TEXT: ทำใหฉันนึกถึงเรื่องราวสมัยที่ยังเปนนักเรียนอยู
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_1_3
+TEXT: มีบันทึกจากหลายยุคสมัยที่อธิบายถึง
+การเจริญเติบโตของตนไมในปาที่เกิดขึ้น
+พรอมกับการปรากฏตัวของโปเกมอนตัวหนึ่ง
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_1_4
+TEXT: ฉันสงสัยวาบันทึกพวกนั้นเปนเรื่องจริงไหม
+คงตองขุดบันทึกขึ้นมาอานดูวามีเลมไหน
+พูดถึงชื่อของโปเกมอนตัวนั้นบางหรือเปลา
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_2_0
+TEXT: กลับมาแลวเหรอ! ไดไปสำรวจบริเวณรอบ ๆ
+มาหรือยัง?
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_2_1
+TEXT: ปกติเวลาที่ฉันจดจออยูกับบันทึก
+ฉันจะไปนั่งพักอยูใตตนไมแถวนั้นนะ
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_2_2
+TEXT: พูดถึงบันทึก ดูเหมือนวาโปเกมอนที่ฉันพูดถึง
+กอนหนานี้จะเปนเซเลบีจริง ๆ ดวยละ!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_2_3
+TEXT: เซเลบีนั้นเปนที่รูจักกันในนามโปเกมอนขามเวลา
+มันเดินทางขามเวลามาจากอนาคต!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_2_4
+TEXT: ฟงดูเหมือนตำนานเลยใชไหมละ?
+มาตรวจสอบกันเถอะวาปรากฏการณนี้
+มีความเชื่อมโยงกับเซเลบีหรือไม!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_3_0
+TEXT: %PLAYERNAME%! กำลังตามหาอยูพอดี!
+ระหวางไปตรวจสอบเจออะไรนาสนใจบางไหม?
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_3_1
+TEXT: ฉันคิดวาฉันเจอเซเลบีเขาละ!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_3_2
+TEXT: รอบ ๆ ตัวมันเต็มไปดวยตนไมใบหญา
+ซึ่งตรงกับที่ระบุไวในบันทึก
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_3_3
+TEXT: แตมันดูแตกตางจากที่ฉันคิดไว เพราะอะไรกันนะ?
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_3_4
+TEXT: ยังไงก็อยาลืมมองหาโปเกมอนตัวนี้ดวยละ
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_4_0
+TEXT: ชวงนี้มีความรูสึกแปลก ๆ บอกไมถูก
+หรือสภาพจิตใจของฉันจะเปลี่ยนไป
+เพราะมีเซเลบีอยูใกล ๆ?
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_4_1
+TEXT: วากันวามันจะปรากฏตัวในยุคสมัย
+ที่สงบสุขเทานั้น...
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_4_2
+TEXT: ถาเปนเรื่องจริง ฉันก็อยากใหมันอยูกับเราไปนาน ๆ
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_4_3
+TEXT: แลวเธอละ %PLAYERNAME%?
+รูสึกไดรับอิทธิพลอะไรบางไหม?
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_4_4
+TEXT: การไดดื่มด่ำกับความเงียบสงบรอบตัว
+พรอมกับคูหูก็เปนเรื่องดีนะ!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_5_0
+TEXT: ฉันพบเซเลบีอีกแลว! พอฉันเขาไปใกล
+มันก็บินหนีไป แตฉันไปเจอไขใกล ๆ ที่ที่
+เจอมันดวยละ
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_5_1
+TEXT: วากันวาเซเลบีจะทิ้งไขที่นำมาจากอนาคตไว
+นาเอาไปศึกษามาก!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_5_2
+TEXT: นับเปนสัญญาณที่ดี ฉันเชื่อวาพวกเรานาจะ
+ไดพบกับเซเลบีอีกครั้งแน ๆ ฉันสัมผัสได!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_5_3
+TEXT: เธอกลับไปสำรวจตอเถอะ แลวอยาลืมเตรียมตัว
+ใหพรอมสำหรับการเผชิญหนากับมันดวยละ
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_5_4
+TEXT: การจับโปเกมอนมายาอยางเซเลบี
+ไมใชเรื่องงาย ๆ แตฉันเชื่อวาเธอจะตอง
+ทำไดอยางแนนอน!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_6_0
+TEXT: ทำไดยอดเยี่ยมมาก %PLAYERNAME%!
+ฉันภูมิใจในตัวเธอจริง ๆ
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_6_1
+TEXT: ดูเซเลบีสีแตกตางเพื่อนใหมของเธอนั่นสิ
+สีสันของมันงดงามมาก!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_6_2
+TEXT: สันนิษฐานกันวาตราบใดที่เซเลบีปรากฏตัว
+ก็แสดงวามีอนาคตอันสดใสรออยู
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_6_3
+TEXT: หากถามฉัน ฉันเชื่อวาเธอมีสวนรวมในการ
+ทำใหอนาคตนั้นมาถึงอยางมากเลยละ!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_6_4
+TEXT: ไปฉลองกับเพื่อนใหมของเธอเถอะ แลวเจอกันใหมนะ เล็ตสโก!
+
+RESOURCE ID: masterwork_sc_title
+TEXT: เสียงกระซิบจากพงไพร
+
+RESOURCE ID: masterwork_sc_title_0
+TEXT: เสียงกระซิบจากพงไพร (1/6)
+
+RESOURCE ID: masterwork_sc_title_1
+TEXT: เสียงกระซิบจากพงไพร (2/6)
+
+RESOURCE ID: masterwork_sc_title_2
+TEXT: เสียงกระซิบจากพงไพร (3/6)
+
+RESOURCE ID: masterwork_sc_title_3
+TEXT: เสียงกระซิบจากพงไพร (4/6)
+
+RESOURCE ID: masterwork_sc_title_4
+TEXT: เสียงกระซิบจากพงไพร (5/6)
+
+RESOURCE ID: masterwork_sc_title_5
+TEXT: เสียงกระซิบจากพงไพร (6/6)
+
 RESOURCE ID: meetups_ended_desc
 TEXT: งานพบปะสิ้นสุดลงแแลว
 
@@ -1579,10 +1747,10 @@ RESOURCE ID: mega_raid_event
 TEXT: คำทาตีบอสเมกา
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-06-21T21:42:13.543105+00:00 for th-TH
-at SHA 7ac5ffb7ee
-Pipeline 2421855, job 29306054
-Patch from: 0.317.0-SHA-75d3f099-RC1, 0.319.0-SHA-0a543be8-RC1, 0.317.1-SHA-6c60c37a-RC1
+TEXT: Built at 2024-06-24T22:49:02.902981+00:00 for th-TH
+at SHA 8c11444b87
+Pipeline 2425059, job 29353795
+Patch from: 0.317.1-SHA-6c60c37a-RC1, 0.319.0-SHA-0a543be8-RC1, 0.317.0-SHA-dcf47c39-RC3, 0.321.0-SHA-c8813e1d-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: ปลดปลอยแสงพิศวง ดึงดูดโปเกมอนที่พบในเวลากลางคืน และทำใหโปเกมอนวิวัฒนาการกลางคืนสามารถวิวัฒนาการในเวลากลางวันได
@@ -1651,6 +1819,9 @@ TEXT: โปเกมอนกลับมา
 RESOURCE ID: oob_toast_string_key
 TEXT: กลับไปยังพื้นที่เลนเพื่อวางโปเกมอน
 
+RESOURCE ID: party_play_activity_description_44
+TEXT: Shiny Pokemon Caught
+
 RESOURCE ID: party_play_party_share_card_title
 TEXT: แชรไอเท็มกับปารตี้ของคุณ!
 
@@ -1707,6 +1878,9 @@ TEXT: ALL GROUPS
 
 RESOURCE ID: photo_hub_decorate
 TEXT: Decorate
+
+RESOURCE ID: photo_hub_favorites
+TEXT: Your Favorites
 
 RESOURCE ID: photo_hub_hashtags
 TEXT: ติดแฮชแท็ก #GOsnapshot #PokemonGO
@@ -1805,6 +1979,12 @@ TEXT: วิวัฒนาการฮิโนอาราชิ {0} ตัว
 RESOURCE ID: quest_cyndaquil_evolve_b_singular
 TEXT: วิวัฒนาการฮิโนอาราชิ
 
+RESOURCE ID: quest_elite_raid_victory_plural
+TEXT: ชนะตีบอสเอลีต {0} ครั้ง
+
+RESOURCE ID: quest_elite_raid_victory_singular
+TEXT: ชนะตีบอสเอลีต
+
 RESOURCE ID: quest_gold_medal_plural
 TEXT: มีเหรียญรางวัลทอง {0} เหรียญ
 
@@ -1834,6 +2014,9 @@ TEXT: ชนะตีบอสเมกา {0} ครั้ง
 
 RESOURCE ID: quest_mega_win_raid_singular
 TEXT: ชนะตีบอสเมกา
+
+RESOURCE ID: quest_platinum_johto_badge
+TEXT: ไดรับเหรียญรางวัลโจโตะแพลทินัม
 
 RESOURCE ID: quest_quilava_evolve_b_plural
 TEXT: วิวัฒนาการแม็กมาราชิ {0} ตัว
@@ -2117,6 +2300,12 @@ TEXT: คอมมิวนิตี้เดย (รีเทิรน): 
 
 RESOURCE ID: quest_title_cyndaquil_3
 TEXT: คอมมิวนิตี้เดย (รีเทิรน): ฮิโนอาราชิ (4/4)
+
+RESOURCE ID: quest_title_elite_mega_ray
+TEXT: ตีบอสเอลีต: งานวิจัยแบบจำกัดเวลาเมกาเร็คควอซา
+
+RESOURCE ID: quest_title_elite_mega_ray_bonus
+TEXT: ตีบอสเอลีต: งานวิจัยแบบจำกัดเวลาโบนัสเมกาเร็คควอซา
 
 RESOURCE ID: quest_title_goomy
 TEXT: คอมมิวนิตี้เดย: นูเมรา

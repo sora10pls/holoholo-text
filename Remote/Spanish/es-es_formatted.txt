@@ -70,6 +70,12 @@ TEXT: Ha habido un problema con el seguimiento de RA. Trata de escanear la zona 
 RESOURCE ID: ar_tracking_reconnecting
 TEXT: Reconectando el seguimiento de RA
 
+RESOURCE ID: avatar_baggypants
+TEXT: Pantalones bombachos gris oscuro
+
+RESOURCE ID: avatar_darkbaggyjacket
+TEXT: Blusa abierta de Noctowl
+
 RESOURCE ID: avatar_f_backpack_komala_00_bundle_icon
 TEXT: Mochila de Komala
 
@@ -111,6 +117,9 @@ TEXT: Sandalias estilo Nereida
 
 RESOURCE ID: avatar_lanawig
 TEXT: Peluca estilo Nereida
+
+RESOURCE ID: avatar_lightbaggyjacket
+TEXT: Blusa abierta de Mankey
 
 RESOURCE ID: avatar_m_backpack_komala_00_bundle_icon
 TEXT: Mochila de Komala
@@ -327,16 +336,22 @@ RESOURCE ID: bonus_tr_gbl_naic_2025_a_title_01
 TEXT: 2025 Pokémon EUIC Champion (2/2)
 
 RESOURCE ID: bonuses_active
-TEXT: Bonuses active!
+TEXT: ¡Bonus activos!
 
 RESOURCE ID: buddy_widget_description
 TEXT: Usa Sincroaventura para seguir el progreso de los corazones de tu compañero cuando Pokémon GO esté funcionando en segundo plano.
+
+RESOURCE ID: bundle.newyears.large.1_title
+TEXT: Caja Aniversario
 
 RESOURCE ID: campfire_checkin_notification
 TEXT: Hora de comienzo de la quedada de {0}: {1}. ¡Inscríbete para recibir tu recompensa!
 
 RESOURCE ID: campfire_meetup_notification
 TEXT: Hay quedadas cercanas para el siguiente evento: {0}
+
+RESOURCE ID: catch_rayquaza_meteorite_chance
+TEXT: Posibilidad de obtener un Meteorito al capturar a Rayquaza
 
 RESOURCE ID: checkin_meetups_button
 TEXT: Inscribirse en la quedada
@@ -358,6 +373,9 @@ TEXT: Clásicos del Día de la Comunidad: Cyndaquil
 
 RESOURCE ID: community_day_goomy_event_name
 TEXT: Día de la Comunidad: Goomy
+
+RESOURCE ID: community_day_tynamo_event_name
+TEXT: Día de la Comunidad: Tynamo
 
 RESOURCE ID: complete_route_travel_error_toast
 TEXT: No se puede completar la Ruta en este momento. Inténtalo de nuevo.
@@ -534,16 +552,16 @@ RESOURCE ID: glide_victory_tr_name
 TEXT: Planeando hacia la victoria
 
 RESOURCE ID: global_challenge_bonuses
-TEXT: Global Challenge Bonuses
+TEXT: Bonus del desafío global
 
 RESOURCE ID: global_challenge_bonuses_active
-TEXT: Bonuses active!
+TEXT: ¡Bonus activos!
 
 RESOURCE ID: global_challenge_complete
-TEXT: Global Challenge Complete
+TEXT: Desafío global completado
 
 RESOURCE ID: global_challenge_completed
-TEXT: Global Challenge completed!
+TEXT: ¡Desafío global completado!
 
 RESOURCE ID: global_day_1_ticket_0_0
 TEXT: %PLAYERNAME%! As great as it is to see you, I have troubling news to share.
@@ -1135,10 +1153,10 @@ RESOURCE ID: iris_social_tired_pokemon_string
 TEXT: ¡ha jugado hasta cansarse y ha vuelto!
 
 RESOURCE ID: iris_temperature_warning_body
-TEXT: Due to the high temperature of the smartphone, the camera has been temporarily disabled. Please wait until the smartphone cools down to its normal temperature.
+TEXT: Due to the high temperature of the device, the camera has been temporarily disabled. Please wait until it cools to its normal temperature.
 
 RESOURCE ID: iris_temperature_warning_title
-TEXT: High Temperature Caution
+TEXT: High Temperature Warning
 
 RESOURCE ID: irisisocial_tutorial_body_eight
 TEXT: Puedes usar pegatinas para decorar las fotos que hagas. Dales un toque creativo y luego comparte tus imágenes con otros jugadores. ¿A qué esperas para crear tu próxima obra maestra?
@@ -1195,16 +1213,22 @@ RESOURCE ID: item_event_ticket_evergreen_details_anniversary24
 TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal prémium de Fiesta del 8.º Aniversario el 28 de junio, estés donde estés.
 
 RESOURCE ID: item_event_ticket_gray_desc
-TEXT: Una entrada para acceder a la investigación temporal "Maravillas del Ultraespacio" desde el martes 23 de mayo las 10:00 hasta el martes 28 de mayo de 2024 a las 20:00 en tu hora local, estés donde estés.
-
-RESOURCE ID: item_event_ticket_gray_desc_shinycelebi24
 TEXT: Una entrada para acceder a la investigación magistral "El susurro del bosque" desde el 28 de junio de 2024 a las 10:00 en tu hora local, estés donde estés.
 
-RESOURCE ID: item_event_ticket_gray_details
-TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal "Maravillas del Ultraespacio" el 23 de mayo, estés donde estés.
+RESOURCE ID: item_event_ticket_gray_desc_megaheracross
+TEXT: Una entrada para acceder a bonus especiales el sábado 13 de abril de 2024 de 14:00 a 22:00 en tu hora local, estés donde estés.
 
-RESOURCE ID: item_event_ticket_gray_details_shinycelebi24
+RESOURCE ID: item_event_ticket_gray_desc_ultraspacewonders
+TEXT: Una entrada para acceder a la investigación temporal "Maravillas del Ultraespacio" desde el martes 23 de mayo las 10:00 hasta el martes 28 de mayo de 2024 a las 20:00 en tu hora local, estés donde estés.
+
+RESOURCE ID: item_event_ticket_gray_details
 TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación magistral "El susurro del bosque" el 28 de junio, estés donde estés.
+
+RESOURCE ID: item_event_ticket_gray_details_megaheracross
+TEXT: Esta entrada se activará automáticamente para darte acceso a bonus especiales el 13 de abril, estés donde estés.
+
+RESOURCE ID: item_event_ticket_gray_details_ultraspacewonders
+TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal "Maravillas del Ultraespacio" el 23 de mayo, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_desc
 TEXT: Una entrada para acceder a la investigación especial del evento Clásicos del Día de la Comunidad de Cyndaquil desde el 22 de junio a las 14:00 en tu hora local, estés donde estés.
@@ -1299,14 +1323,125 @@ TEXT: Conjunto estilo Nereida
 RESOURCE ID: m_shoes_lana_00_bundle_icon
 TEXT: Sandalias estilo Nereida
 
+RESOURCE ID: masterwork_dialogue_whisper_woods_1_0
+TEXT: ¡Qué bien verte de nuevo, %PLAYERNAME%! Pregunta: ¿te has pasado por el bosque últimamente?
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_1_1
+TEXT: Te pregunto porque un bosque cercano ha estado más verde de lo normal.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_1_2
+TEXT: Me ha recordado a las viejas leyendas que solía escuchar cuando estudiaba.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_1_3
+TEXT: Existen cuentos de diferentes eras en los que se describe cómo crecen los árboles de un bosque junto a la aparición de un Pokémon en particular.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_1_4
+TEXT: Me pregunto si alguno de esos cuentos es cierto. Tengo que analizar mis notas y encontrar el nombre del Pokémon al que hacen referencia.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_2_0
+TEXT: ¡Hola de nuevo! ¿Has tenido la oportunidad de examinar los sitios cercanos?
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_2_1
+TEXT: Siempre que me pongo a tope con mis notas, me gusta tomarme descansitos en los árboles de la zona.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_2_2
+TEXT: Oh, y hablando de mis notas. ¡Resulta que el Pokémon de las historias que te comenté antes es Celebi!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_2_3
+TEXT: Y, aquí viene la parte más interesante del asunto, Celebi es conocido como el Pokémon Viajetiempo. ¡Vino del futuro haciendo un viaje en el tiempo!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_2_4
+TEXT: Parece todo un mito, ¿verdad? ¡Sigamos investigando y veamos si el fenómeno que hemos observado está relacionado con Celebi!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_3_0
+TEXT: ¡%PLAYERNAME%! ¡Te andaba buscando! ¿Has descubierto algo interesante en tu investigación?
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_3_1
+TEXT: De hecho, ¡creo que he visto a Celebi ahí fuera!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_3_2
+TEXT: Parecía que estaba dando vida a la vegetación y a los árboles a su alrededor, y eso concuerda con lo que se ha registrado sobre él.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_3_3
+TEXT: Aunque su coloración era diferente a lo esperado. ¿Querrá decir algo?
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_3_4
+TEXT: Sea cual sea la respuesta, debemos estar ojo avizor con nuestro fantástico amigo del bosque.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_4_0
+TEXT: He estado explorando mi interior últimamente, casi haciendo una meditación. ¿Será por la presencia de Celebi?
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_4_1
+TEXT: Dicen que solo aparece en tiempos de paz.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_4_2
+TEXT: Si eso es verdad, ¡espero que se quede con nosotros mucho tiempo!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_4_3
+TEXT: ¿Y tú, %PLAYERNAME%? ¿Has sentido la calma?
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_4_4
+TEXT: No estaría mal pasar un tiempo disfrutando de la serenidad que nos rodea con tu compañero.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_5_0
+TEXT: ¡He vuelto a ver a Celebi! Esta vez se ha alejado al intentar acercarme, pero he encontrado un huevo cerca de donde lo vi.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_5_1
+TEXT: Según mis datos, Celebi deja tras de sí un huevo traído del futuro, ¡así que estoy deseando poder estudiarlo!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_5_2
+TEXT: ¡Es buena señal! Nos vamos a volver a encontrar con Celebi, ¡lo noto!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_5_3
+TEXT: Sigue haciendo ese buen trabajo explorando. Y asegúrate de tener todo listo para cuando llegue el momento.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_5_4
+TEXT: Capturar a un Pokémon singular como Celebi no es el pan de cada día, ¡pero sé que lo tienes en ti!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_6_0
+TEXT: ¡Sí! ¡Espectacular, %PLAYERNAME%! Estoy muy orgulloso de verte terminar esta misión.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_6_1
+TEXT: ¡Y ha merecido la pena! Mira los colores de tu nuevo amigo, ¡es un Celebi variocolor!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_6_2
+TEXT: Hay quien piensa que, mientras Celebi siga apareciendo, hay un futuro brillante y esperanzador.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_6_3
+TEXT: Y si me preguntas, ¡tu contribución a ese futuro será algo más que singular!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_6_4
+TEXT: Asegúrate de tomarte un tiempo para celebrar con tu nueva amistad. Hasta la próxima, ¡vamos allá!
+
+RESOURCE ID: masterwork_sc_title
+TEXT: El susurro del bosque
+
+RESOURCE ID: masterwork_sc_title_0
+TEXT: El susurro del bosque (1/6)
+
+RESOURCE ID: masterwork_sc_title_1
+TEXT: El susurro del bosque (2/6)
+
+RESOURCE ID: masterwork_sc_title_2
+TEXT: El susurro del bosque (3/6)
+
+RESOURCE ID: masterwork_sc_title_3
+TEXT: El susurro del bosque (4/6)
+
+RESOURCE ID: masterwork_sc_title_4
+TEXT: El susurro del bosque (5/6)
+
+RESOURCE ID: masterwork_sc_title_5
+TEXT: El susurro del bosque (6/6)
+
 RESOURCE ID: meetups_ended_desc
 TEXT: La quedada ha terminado.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-06-21T21:42:13.543105+00:00 for es-ES
-at SHA 7ac5ffb7ee
-Pipeline 2421855, job 29306054
-Patch from: 0.317.0-SHA-75d3f099-RC1, 0.319.0-SHA-0a543be8-RC1, 0.317.1-SHA-6c60c37a-RC1
+TEXT: Built at 2024-06-24T22:49:02.902981+00:00 for es-ES
+at SHA 8c11444b87
+Pipeline 2425059, job 29353795
+Patch from: 0.317.1-SHA-6c60c37a-RC1, 0.319.0-SHA-0a543be8-RC1, 0.317.0-SHA-dcf47c39-RC3, 0.321.0-SHA-c8813e1d-RC1
 
 RESOURCE ID: monodepth_ar_plus_required_toast
 TEXT: Activa Niantic AR para usar la función Realidad combinada.
@@ -1440,6 +1575,9 @@ TEXT: Realidad combinada
 RESOURCE ID: oob_toast_string_key
 TEXT: Vuelve al área de juego para colocar Pokémon.
 
+RESOURCE ID: party_play_activity_description_44
+TEXT: Shiny Pokemon Caught
+
 RESOURCE ID: party_play_party_share_card_title
 TEXT: ¡Comparte objetos con tu equipo!
 
@@ -1496,6 +1634,9 @@ TEXT: ALL GROUPS
 
 RESOURCE ID: photo_hub_decorate
 TEXT: Decorate
+
+RESOURCE ID: photo_hub_favorites
+TEXT: Your Favorites
 
 RESOURCE ID: photo_hub_hashtags
 TEXT: Usa los hashtags #GOsnapshot y #PokemonGO
@@ -1578,6 +1719,12 @@ TEXT: Haz evolucionar {0} Cyndaquil
 RESOURCE ID: quest_cyndaquil_evolve_b_singular
 TEXT: Haz evolucionar a un Cyndaquil
 
+RESOURCE ID: quest_elite_raid_victory_plural
+TEXT: Gana en {0} incursiones Élite
+
+RESOURCE ID: quest_elite_raid_victory_singular
+TEXT: Gana en una incursión Élite
+
 RESOURCE ID: quest_goomy_catch_b
 TEXT: Captura {0} Goomy
 
@@ -1586,6 +1733,66 @@ TEXT: Haz evolucionar {0} Goomy
 
 RESOURCE ID: quest_goomy_evolve_b_singular
 TEXT: Haz evolucionar un Goomy
+
+RESOURCE ID: quest_platinum_johto_badge
+TEXT: Gana la insignia platino de Johto
+
+RESOURCE ID: quest_power_up_plural_bug
+TEXT: Da más poder a Pokémon de tipo Bicho {0} veces
+
+RESOURCE ID: quest_power_up_plural_dark
+TEXT: Da más poder a Pokémon de tipo Siniestro {0} veces
+
+RESOURCE ID: quest_power_up_plural_dragon
+TEXT: Da más poder a Pokémon de tipo Dragón {0} veces
+
+RESOURCE ID: quest_power_up_plural_electric
+TEXT: Da más poder a Pokémon de tipo Eléctrico {0} veces
+
+RESOURCE ID: quest_power_up_plural_fairy
+TEXT: Da más poder a Pokémon de tipo Hada {0} veces
+
+RESOURCE ID: quest_power_up_plural_fighting
+TEXT: Da más poder a Pokémon de tipo Lucha {0} veces
+
+RESOURCE ID: quest_power_up_plural_fire
+TEXT: Da más poder a Pokémon de tipo Fuego {0} veces
+
+RESOURCE ID: quest_power_up_plural_flying
+TEXT: Da más poder a Pokémon de tipo Volador {0} veces
+
+RESOURCE ID: quest_power_up_plural_ghost
+TEXT: Da más poder a Pokémon de tipo Fantasma {0} veces
+
+RESOURCE ID: quest_power_up_plural_grass
+TEXT: Da más poder a Pokémon de tipo Planta {0} veces
+
+RESOURCE ID: quest_power_up_plural_ground
+TEXT: Da más poder a Pokémon de tipo Tierra {0} veces
+
+RESOURCE ID: quest_power_up_plural_ice
+TEXT: Da más poder a Pokémon de tipo Hielo {0} veces
+
+RESOURCE ID: quest_power_up_plural_normal
+TEXT: Da más poder a Pokémon de tipo Normal {0} veces
+
+RESOURCE ID: quest_power_up_plural_poison
+TEXT: Da más poder a Pokémon de tipo Veneno {0} veces
+
+RESOURCE ID: quest_power_up_plural_psychic
+TEXT: Da más poder a Pokémon de tipo Psíquico {0} veces
+
+RESOURCE ID: quest_power_up_plural_rock
+TEXT: Da más poder a Pokémon de tipo Roca {0} veces
+
+RESOURCE ID: quest_power_up_plural_rock_fairy
+TEXT: Da más poder a Pokémon de tipo Roca o de tipo Hada {0} veces
+
+RESOURCE ID: quest_power_up_plural_steel
+TEXT: Da más poder a Pokémon de tipo Acero {0} veces
+
+RESOURCE ID: quest_power_up_plural_water
+TEXT: Da más poder a Pokémon de tipo Agua {0} veces
 
 RESOURCE ID: quest_quilava_evolve_b_plural
 TEXT: Haz evolucionar {0} Quilava
@@ -1802,6 +2009,12 @@ TEXT: Clásicos del Día de la Comunidad: Cyndaquil (3/4)
 
 RESOURCE ID: quest_title_cyndaquil_3
 TEXT: Clásicos del Día de la Comunidad: Cyndaquil (4/4)
+
+RESOURCE ID: quest_title_elite_mega_ray
+TEXT: Investigación temporal de incursión élite: Mega-Rayquaza
+
+RESOURCE ID: quest_title_elite_mega_ray_bonus
+TEXT: Bonus de investigación temporal de incursión élite: Mega-Rayquaza
 
 RESOURCE ID: quest_title_goomy
 TEXT: Día de la Comunidad: Goomy
@@ -2041,10 +2254,10 @@ RESOURCE ID: special_background_ftue_header
 TEXT: ¡Has conseguido un fondo especial!
 
 RESOURCE ID: special_background_fusion_desc
-TEXT: When fusing certain Pokémon together, their Special Backgrounds will combine to create a new one!
+TEXT: Al fusionar determinados Pokémon, ¡sus fondos especiales se combinarán para crear uno nuevo!
 
 RESOURCE ID: special_background_fusion_header
-TEXT: Special Background Fusion
+TEXT: Fondo especial fusión
 
 RESOURCE ID: spelunker_cove_event_name
 TEXT: Espeleología de ensenada
@@ -2113,7 +2326,7 @@ RESOURCE ID: sunsteel_strike_adventure_effects_mapview_dialog
 TEXT: Brilla con la luz de un meteoro. Atrae Pokémon diurnos y permite la evolución diurna durante la noche.
 
 RESOURCE ID: t5_bonus_explore_title
-TEXT: Explore Galore Timed Research
+TEXT: Investigación temporal: Exploración sin fin
 
 RESOURCE ID: text_rewards_key_anniversary24
 TEXT: <b>Recompensas incluidas:</b>
@@ -2184,13 +2397,13 @@ RESOURCE ID: ticket_ultra_space_wonders
 TEXT: La entrada para la investigación temporal "Maravillas del Ultraespacio" está disponible en la tienda
 
 RESOURCE ID: timed_challenge_bonus_header_active_v2
-TEXT: ACTIVE BONUSES
+TEXT: BONUS ACTIVOS
 
 RESOURCE ID: timed_challenge_bonus_header_inactive_v2
-TEXT: COMPLETION REWARDS
+TEXT: RECOMPENSAS
 
 RESOURCE ID: timed_challenge_work_together_v2
-TEXT: Trainers must work together as a global community to complete this challenge.
+TEXT: Los Entrenadores deben trabajar juntos como una comunidad global para completar este desafío.
 
 RESOURCE ID: too_far_away_iris_social
 TEXT: Estás muy lejos de esta Poképarada para hacer fotos de grupo.

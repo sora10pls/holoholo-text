@@ -61,6 +61,12 @@ TEXT: AR定位發生問題。請重新掃描寶可補給站的四周，或是稍
 RESOURCE ID: ar_tracking_reconnecting
 TEXT: 正在重新連結AR定位
 
+RESOURCE ID: avatar_baggypants
+TEXT: 深灰寬褲
+
+RESOURCE ID: avatar_darkbaggyjacket
+TEXT: 貓頭夜鷹上衣
+
 RESOURCE ID: avatar_f_backpack_komala_00_bundle_icon
 TEXT: 樹枕尾熊背包
 
@@ -102,6 +108,9 @@ TEXT: 水蓮涼鞋
 
 RESOURCE ID: avatar_lanawig
 TEXT: 水蓮假髮
+
+RESOURCE ID: avatar_lightbaggyjacket
+TEXT: 猴怪上衣
 
 RESOURCE ID: avatar_m_backpack_komala_00_bundle_icon
 TEXT: 樹枕尾熊背包
@@ -330,6 +339,9 @@ TEXT: 聚會「{0}」將於{1}開始！快去簽到吧！
 RESOURCE ID: campfire_meetup_notification
 TEXT: 「{0}」即將在附近舉辦聚會！
 
+RESOURCE ID: catch_rayquaza_meteorite_chance
+TEXT: 捕捉到烈空坐時，將有機會獲得隕石
+
 RESOURCE ID: checkin_meetups_button
 TEXT: 簽到
 
@@ -353,6 +365,9 @@ TEXT: 經典社群日：火球鼠
 
 RESOURCE ID: community_day_goomy_event_name
 TEXT: 社群日：黏黏寶
+
+RESOURCE ID: community_day_tynamo_event_name
+TEXT: 社群日：麻麻小魚
 
 RESOURCE ID: complete_route_travel_error_toast
 TEXT: 無法完成路線。請再試一次。
@@ -1127,10 +1142,10 @@ RESOURCE ID: iris_social_tired_pokemon_string
 TEXT: 寶可夢玩累後回來了！
 
 RESOURCE ID: iris_temperature_warning_body
-TEXT: Due to the high temperature of the smartphone, the camera has been temporarily disabled. Please wait until the smartphone cools down to its normal temperature.
+TEXT: Due to the high temperature of the device, the camera has been temporarily disabled. Please wait until it cools to its normal temperature.
 
 RESOURCE ID: iris_temperature_warning_title
-TEXT: High Temperature Caution
+TEXT: High Temperature Warning
 
 RESOURCE ID: irisisocial_tutorial_body_eight
 TEXT: 你可以貼貼圖來裝飾拍攝的照片。裝飾並分享照片給大家看吧！
@@ -1187,16 +1202,22 @@ RESOURCE ID: item_event_ticket_evergreen_details_anniversary24
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在6月28日開始參與8週年紀念特級限時調查。
 
 RESOURCE ID: item_event_ticket_gray_desc
-TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年5月23日10:00～5月28日20:00參與限時調查「究極空間驚奇」。
-
-RESOURCE ID: item_event_ticket_gray_desc_shinycelebi24
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年6月28日10:00開始參與「森林細語」長期調查。
 
-RESOURCE ID: item_event_ticket_gray_details
-TEXT: 入場券將會自動啟用，不論你身在何處，都能在5月23日參與限時調查「究極空間驚奇」。
+RESOURCE ID: item_event_ticket_gray_desc_megaheracross
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年4月13日14:00～2024年4月13日22:00領取特別的獎勵。
 
-RESOURCE ID: item_event_ticket_gray_details_shinycelebi24
+RESOURCE ID: item_event_ticket_gray_desc_ultraspacewonders
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年5月23日10:00～5月28日20:00參與限時調查「究極空間驚奇」。
+
+RESOURCE ID: item_event_ticket_gray_details
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在6月28日開始森林細語長期調查。
+
+RESOURCE ID: item_event_ticket_gray_details_megaheracross
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間2024年4月13日領取特別的獎勵。
+
+RESOURCE ID: item_event_ticket_gray_details_ultraspacewonders
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在5月23日參與限時調查「究極空間驚奇」。
 
 RESOURCE ID: item_event_ticket_pink_desc
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年6月22日14:00開始參與火球鼠經典社群日的特殊調查。
@@ -1276,14 +1297,125 @@ TEXT: 水蓮套裝
 RESOURCE ID: m_shoes_lana_00_bundle_icon
 TEXT: 水蓮涼鞋
 
+RESOURCE ID: masterwork_dialogue_whisper_woods_1_0
+TEXT: 嗨，真高興見到你，%PLAYERNAME%！我有個問題。關於森林，你有注意到什麼嗎？
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_1_1
+TEXT: 附近的森林草木茂盛的樣子，讓我注意到了一件事。
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_1_2
+TEXT: 這是我以前聽到的故事了。
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_1_3
+TEXT: 在許多時代都有紀錄指出，只要某隻寶可夢出現，草木就會生長得非常茂盛。
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_1_4
+TEXT: 沒錯，說到草木生長得很茂盛……我會實際去閱讀資料，所以調查就拜託你囉。
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_2_0
+TEXT: 歡迎回來！怎麼樣？你有觀察到環境的變化嗎？
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_2_1
+TEXT: 我讀資料讀得太投入，不知不覺就這個時間了……
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_2_2
+TEXT: 至於那隻寶可夢，嗯，果然就是時拉比沒錯。
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_2_3
+TEXT: 時拉比是時空穿越寶可夢，牠會出現，就表示牠應該是穿越時空而來的！
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_2_4
+TEXT: 光是想像就覺得好興奮啊。我們來調查看看時拉比是如何為草木注入生命力的吧。
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_3_0
+TEXT: %PLAYERNAME%，我有件事要跟你說！
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_3_1
+TEXT: 我看到時拉比了！
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_3_2
+TEXT: 在牠周遭的草木都飛快地成長。
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_3_3
+TEXT: 只是牠和我想像中的長相不太一樣。這是怎麼一回事呢？
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_3_4
+TEXT: 不管怎麼樣，這隻被稱為森林之神的寶可夢，都是大家想親眼目睹的存在。
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_4_0
+TEXT: 這感覺真不可思議，不曉得是不是因為時拉比在附近，我的心情也有了變化。
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_4_1
+TEXT: 畢竟牠可是據說只會在和平的時代出現的寶可夢。
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_4_2
+TEXT: 如果真的是這樣，那我得祈求這份和平能夠一直持續下去才行。
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_4_3
+TEXT: 你是怎麼想的呢，%PLAYERNAME%？牠有給你帶來什麼影響嗎？
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_4_4
+TEXT: 試著在這附近和夥伴寶可夢度過一段安穩祥和的時光，或許也不錯呢。
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_5_0
+TEXT: 我又看到時拉比了！雖然牠飛走了，但我在那裡發現了蛋。
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_5_1
+TEXT: 據說時拉比留下的蛋是牠從未來帶來的蛋。
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_5_2
+TEXT: 牠一定還在這附近。我感覺得到牠的存在！
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_5_3
+TEXT: 就拜託你繼續找找看了。記得先做好與牠相遇的心理準備。
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_5_4
+TEXT: 雖然我相信你一定能找到牠，但一般是幾乎沒有機會能夠遇見幻之寶可夢的！
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_6_0
+TEXT: 做得好，%PLAYERNAME%！真佩服你能努力到現在。
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_6_1
+TEXT: 新加入成為夥伴的時拉比是……異色的時拉比。多麼漂亮的顏色啊！
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_6_2
+TEXT: 只要時拉比出現，就代表我們有一片光明的未來。
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_6_3
+TEXT: 而只要你還願意協助我做調查，我的未來也一樣一片光明。
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_6_4
+TEXT: 希望你能好好享受和時拉比一起度過的時光。那麼，我們下次再見囉！
+
+RESOURCE ID: masterwork_sc_title
+TEXT: 森林細語
+
+RESOURCE ID: masterwork_sc_title_0
+TEXT: 森林細語(1/6)
+
+RESOURCE ID: masterwork_sc_title_1
+TEXT: 森林細語(2/6)
+
+RESOURCE ID: masterwork_sc_title_2
+TEXT: 森林細語(3/6)
+
+RESOURCE ID: masterwork_sc_title_3
+TEXT: 森林細語(4/6)
+
+RESOURCE ID: masterwork_sc_title_4
+TEXT: 森林細語(5/6)
+
+RESOURCE ID: masterwork_sc_title_5
+TEXT: 森林細語(6/6)
+
 RESOURCE ID: meetups_ended_desc
 TEXT: 聚會已結束
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-06-21T21:42:13.543105+00:00 for zh-TW
-at SHA 7ac5ffb7ee
-Pipeline 2421855, job 29306054
-Patch from: 0.317.0-SHA-75d3f099-RC1, 0.319.0-SHA-0a543be8-RC1, 0.317.1-SHA-6c60c37a-RC1
+TEXT: Built at 2024-06-24T22:49:02.902981+00:00 for zh-TW
+at SHA 8c11444b87
+Pipeline 2425059, job 29353795
+Patch from: 0.317.1-SHA-6c60c37a-RC1, 0.319.0-SHA-0a543be8-RC1, 0.317.0-SHA-dcf47c39-RC3, 0.321.0-SHA-c8813e1d-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: 會發出奇怪的光線，吸引晚上現身的寶可夢，也能讓晚上進化的寶可夢在白天完成進化。
@@ -1353,6 +1485,9 @@ TEXT: 寶可夢回來了
 RESOURCE ID: oob_toast_string_key
 TEXT: 返回可遊玩的區域來放出寶可夢
 
+RESOURCE ID: party_play_activity_description_44
+TEXT: Shiny Pokemon Caught
+
 RESOURCE ID: party_play_party_share_card_title
 TEXT: 在小隊裡分享道具吧！
 
@@ -1409,6 +1544,9 @@ TEXT: ALL GROUPS
 
 RESOURCE ID: photo_hub_decorate
 TEXT: Decorate
+
+RESOURCE ID: photo_hub_favorites
+TEXT: Your Favorites
 
 RESOURCE ID: photo_hub_hashtags
 TEXT: 使用標籤 #GOsnapshot #PokemonGO 來投稿！
@@ -1491,6 +1629,12 @@ TEXT: 讓{0}隻火球鼠進化
 RESOURCE ID: quest_cyndaquil_evolve_b_singular
 TEXT: 讓1隻火球鼠進化
 
+RESOURCE ID: quest_elite_raid_victory_plural
+TEXT: 在菁英團體戰獲勝{0}次
+
+RESOURCE ID: quest_elite_raid_victory_singular
+TEXT: 在菁英團體戰獲勝1次
+
 RESOURCE ID: quest_fuse_necrozma
 TEXT: 讓奈克洛茲瑪合體
 
@@ -1502,6 +1646,9 @@ TEXT: 讓{0}隻黏黏寶進化
 
 RESOURCE ID: quest_goomy_evolve_b_singular
 TEXT: 讓1隻黏黏寶進化
+
+RESOURCE ID: quest_platinum_johto_badge
+TEXT: 獲得城都地區的白金獎牌
 
 RESOURCE ID: quest_quilava_evolve_b_plural
 TEXT: 讓{0}隻火岩鼠進化
@@ -1715,6 +1862,12 @@ TEXT: 經典社群日：火球鼠(3/4)
 
 RESOURCE ID: quest_title_cyndaquil_3
 TEXT: 經典社群日：火球鼠(4/4)
+
+RESOURCE ID: quest_title_elite_mega_ray
+TEXT: 菁英團體戰：超級烈空坐限時調查
+
+RESOURCE ID: quest_title_elite_mega_ray_bonus
+TEXT: 菁英團體戰：超級烈空坐獎勵限時調查
 
 RESOURCE ID: quest_title_goomy
 TEXT: 社群日：黏黏寶

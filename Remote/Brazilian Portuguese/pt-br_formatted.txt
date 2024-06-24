@@ -64,6 +64,12 @@ TEXT: Houve um problema com o acompanhamento de RA. Tente escanear novamente a �
 RESOURCE ID: ar_tracking_reconnecting
 TEXT: Reconectando o acompanhamento de RA
 
+RESOURCE ID: avatar_baggypants
+TEXT: Calça larga (cinza escuro)
+
+RESOURCE ID: avatar_darkbaggyjacket
+TEXT: Kimono largo de Noctowl
+
 RESOURCE ID: avatar_f_backpack_komala_00_bundle_icon
 TEXT: Mochila de Komala
 
@@ -105,6 +111,9 @@ TEXT: Sandálias estilo da Vitória
 
 RESOURCE ID: avatar_lanawig
 TEXT: Peruca estilo da Vitória
+
+RESOURCE ID: avatar_lightbaggyjacket
+TEXT: Kimono largo de Mankey
 
 RESOURCE ID: avatar_m_backpack_komala_00_bundle_icon
 TEXT: Mochila de Komala
@@ -335,6 +344,9 @@ TEXT: O encontro de {0} começa às {1}! Faça o check-in para resgatar sua reco
 RESOURCE ID: campfire_meetup_notification
 TEXT: Há encontros por perto para o próximo evento: {0}!
 
+RESOURCE ID: catch_rayquaza_meteorite_chance
+TEXT: Chance de receber um Meteorito por pegar Rayquaza
+
 RESOURCE ID: checkin_meetups_button
 TEXT: Faça o check-in no encontro
 
@@ -355,6 +367,9 @@ TEXT: Clássicos do Dia Comunitário: Cyndaquil
 
 RESOURCE ID: community_day_goomy_event_name
 TEXT: Dia Comunitário: Goomy
+
+RESOURCE ID: community_day_tynamo_event_name
+TEXT: Dia Comunitário: Tynamo
 
 RESOURCE ID: complete_route_travel_error_toast
 TEXT: Não foi possível completar esta Rota no momento. Tente novamente.
@@ -1137,10 +1152,10 @@ RESOURCE ID: iris_social_tired_pokemon_string
 TEXT: brincou até cansar e voltou!
 
 RESOURCE ID: iris_temperature_warning_body
-TEXT: Due to the high temperature of the smartphone, the camera has been temporarily disabled. Please wait until the smartphone cools down to its normal temperature.
+TEXT: Due to the high temperature of the device, the camera has been temporarily disabled. Please wait until it cools to its normal temperature.
 
 RESOURCE ID: iris_temperature_warning_title
-TEXT: High Temperature Caution
+TEXT: High Temperature Warning
 
 RESOURCE ID: irisisocial_tutorial_body_eight
 TEXT: Você pode usar adesivos para decorar as fotos que tirar. Acrescente um toque de criatividade e compartilhe as suas fotos. A sua próxima obra de arte está por vir!
@@ -1197,16 +1212,22 @@ RESOURCE ID: item_event_ticket_evergreen_details_anniversary24
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à Pesquisa Temporária Premium de Festa de 8º aniversário no dia 28 de junho, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_gray_desc
-TEXT: Um ingresso para acessar a pesquisa temporária Maravilhas do Ultraespaço, de 23 de maio de 2024, às 10h, até 28 de maio de 2024, às 20h do seu horário local, de onde você estiver.
-
-RESOURCE ID: item_event_ticket_gray_desc_shinycelebi24
 TEXT: Um ingresso para acessar a pesquisa magistral Sussurros na Floresta a partir de 28 de junho de 2024, às 10h do seu horário local, de onde você estiver.
 
-RESOURCE ID: item_event_ticket_gray_details
-TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à pesquisa temporária Maravilhas do Ultraespaço no dia 23 de maio de 2024, de onde você estiver.
+RESOURCE ID: item_event_ticket_gray_desc_megaheracross
+TEXT: Um ingresso para acessar bônus especiais no sábado, 13 de abril de 2024, das 14h às 22h do seu horário local, de onde você estiver.
 
-RESOURCE ID: item_event_ticket_gray_details_shinycelebi24
+RESOURCE ID: item_event_ticket_gray_desc_ultraspacewonders
+TEXT: Um ingresso para acessar a pesquisa temporária Maravilhas do Ultraespaço, de 23 de maio de 2024, às 10h, até 28 de maio de 2024, às 20h do seu horário local, de onde você estiver.
+
+RESOURCE ID: item_event_ticket_gray_details
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à pesquisa magistral Sussurros na Floresta no dia 28 de junho de 2024, de onde você estiver.
+
+RESOURCE ID: item_event_ticket_gray_details_megaheracross
+TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a bônus especiais em 13 de abril, de onde você estiver.
+
+RESOURCE ID: item_event_ticket_gray_details_ultraspacewonders
+TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à pesquisa temporária Maravilhas do Ultraespaço no dia 23 de maio de 2024, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_pink_desc
 TEXT: Um ingresso para acessar a pesquisa especial do Clássicos do Dia Comunitário de Cyndaquil a partir de 22 de junho, às 14h do seu horário local, de onde você estiver.
@@ -1286,14 +1307,125 @@ TEXT: Conjunto estilo da Vitória
 RESOURCE ID: m_shoes_lana_00_bundle_icon
 TEXT: Sandálias estilo da Vitória
 
+RESOURCE ID: masterwork_dialogue_whisper_woods_1_0
+TEXT: É bom ver você, %PLAYERNAME%! Pergunta: você esteve na floresta recentemente?
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_1_1
+TEXT: Pergunto por que uma floresta das redondezas tem parecido bem exuberante ultimamente.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_1_2
+TEXT: Me faz lembrar de algumas histórias antigas que eu ouvi quando era estudante.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_1_3
+TEXT: Há relatos de épocas distintas que descrevem o florescer das árvores na floresta junto com o aparecimento de um certo Pokémon.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_1_4
+TEXT: Me pergunto se alguma dessas histórias é verdadeira. Vou ter que vasculhar as minhas anotações e descobrir de que Pokémon elas estavam falando.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_2_0
+TEXT: Que bom que você voltou! Você conseguiu observar algum lugar dos arredores?
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_2_1
+TEXT: Sempre que começo a me perder nas minhas anotações, eu gosto de fazer umas pausas e descansar perto das árvores da região.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_2_2
+TEXT: Ah, por falar nas minhas anotações, o Pokémon nas histórias que eu dizia antes era nada mais nada menos que Celebi!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_2_3
+TEXT: E, agora vem a melhor parte, Celebi é conhecido como o Pokémon Viagem no Tempo. Ele veio do futuro pra cá viajando no tempo!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_2_4
+TEXT: Parece até mito, né? Vamos continuar investigando e ver se o fenômeno que eu observei está relacionado a Celebi!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_3_0
+TEXT: %PLAYERNAME%! Eu estava procurando por você agorinha mesmo! Você descobriu alguma coisa interessante nas suas investigações?
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_3_1
+TEXT: Na verdade, eu acho que vi um Celebi selvagem!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_3_2
+TEXT: Perecia que estava fortalecendo a grama e as árvores ao seu redor, e isso bate direitinho com os registros a seu respeito.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_3_3
+TEXT: Só que sua coloração estava diferente do esperado. O que isso poderia significar?
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_3_4
+TEXT: Seja qual for a resposta, precisamos ficar de olho nesse nosso fantástico amiguinho da floresta.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_4_0
+TEXT: Eu tenho olhado mais pra dentro ultimamente... tenho até meditado. Me pergunto se isso tem a ver com a presença de Celebi?
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_4_1
+TEXT: Dizem que ele só aparece em momentos de paz...
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_4_2
+TEXT: Bem, se isso for verdade, espero que continue conosco por bastante tempo!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_4_3
+TEXT: E você, %PLAYERNAME%? Tem se inspirado na calmaria?
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_4_4
+TEXT: Aproveite para passar um tempinho desfrutando da serenidade à nossa volta com seu companheiro!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_5_0
+TEXT: Eu vi Celebi de novo! Ele saiu voando quando tentei me aproximar, mas encontrei um Ovo perto de onde eu o avistei.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_5_1
+TEXT: Segundo a minha pesquisa, parece que Celebi deixa para trás um Ovo que trouxe do futuro. Mal posso esperar para estudar esse Pokémon!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_5_2
+TEXT: Isso é um bom sinal! Vamos ter um novo encontro com Celebi. Já posso sentir!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_5_3
+TEXT: Continue o bom trabalho explorando e esteja preparado para quando chegar a hora.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_5_4
+TEXT: É uma grande conquista pegar um Pokémon Mítico como Celebi, mas eu tenho certeza que você dá conta do recado!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_6_0
+TEXT: Isso! Você trabalhou brilhantemente, %PLAYERNAME%! Estou tão orgulhoso por você ter se virado bem nessa tarefa.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_6_1
+TEXT: E que tarefa valiosa foi essa! Dá só uma olhadinha na cor do seu novo amigo aí. É um Celebi Brilhante!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_6_2
+TEXT: Dizem que, enquanto Celebi aparecer, um futuro brilhante e luminoso nos espera.
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_6_3
+TEXT: E, na minha opinião, a sua contribuição para esse futuro será nada menos do que mítica!
+
+RESOURCE ID: masterwork_dialogue_whisper_woods_6_4
+TEXT: Não se esqueça de comemorar com sua nova amizade, Treinador. Até a próxima e vamos nessa!
+
+RESOURCE ID: masterwork_sc_title
+TEXT: Sussurros na Floresta
+
+RESOURCE ID: masterwork_sc_title_0
+TEXT: Sussurros na Floresta (1/6)
+
+RESOURCE ID: masterwork_sc_title_1
+TEXT: Sussurros na Floresta (2/6)
+
+RESOURCE ID: masterwork_sc_title_2
+TEXT: Sussurros na Floresta (3/6)
+
+RESOURCE ID: masterwork_sc_title_3
+TEXT: Sussurros na Floresta (4/6)
+
+RESOURCE ID: masterwork_sc_title_4
+TEXT: Sussurros na Floresta (5/6)
+
+RESOURCE ID: masterwork_sc_title_5
+TEXT: Sussurros na Floresta (6/6)
+
 RESOURCE ID: meetups_ended_desc
 TEXT: O encontro terminou.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-06-21T21:42:13.543105+00:00 for pt-BR
-at SHA 7ac5ffb7ee
-Pipeline 2421855, job 29306054
-Patch from: 0.317.0-SHA-75d3f099-RC1, 0.319.0-SHA-0a543be8-RC1, 0.317.1-SHA-6c60c37a-RC1
+TEXT: Built at 2024-06-24T22:49:02.902981+00:00 for pt-BR
+at SHA 8c11444b87
+Pipeline 2425059, job 29353795
+Patch from: 0.317.1-SHA-6c60c37a-RC1, 0.319.0-SHA-0a543be8-RC1, 0.317.0-SHA-dcf47c39-RC3, 0.321.0-SHA-c8813e1d-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emite um raio sinistro. Atrai Pokémon encontrados à noite e permite Evolução noturna durante o dia.
@@ -1361,6 +1493,9 @@ TEXT: Retorno do Pokémon
 RESOURCE ID: oob_toast_string_key
 TEXT: Volte para a área de brincar para colocar um Pokémon.
 
+RESOURCE ID: party_play_activity_description_44
+TEXT: Shiny Pokemon Caught
+
 RESOURCE ID: party_play_party_share_card_title
 TEXT: Compartilhe itens com seu grupo!
 
@@ -1417,6 +1552,9 @@ TEXT: ALL GROUPS
 
 RESOURCE ID: photo_hub_decorate
 TEXT: Decorate
+
+RESOURCE ID: photo_hub_favorites
+TEXT: Your Favorites
 
 RESOURCE ID: photo_hub_hashtags
 TEXT: Use as hashtags #GOsnapshot #PokemonGO
@@ -1499,6 +1637,12 @@ TEXT: Evoluir {0} Cyndaquil.
 RESOURCE ID: quest_cyndaquil_evolve_b_singular
 TEXT: Evoluir 1 Cyndaquil.
 
+RESOURCE ID: quest_elite_raid_victory_plural
+TEXT: Vencer {0} Reides de Elite.
+
+RESOURCE ID: quest_elite_raid_victory_singular
+TEXT: Vencer 1 Reide de Elite.
+
 RESOURCE ID: quest_goomy_catch_b
 TEXT: Pegar {0} Goomy.
 
@@ -1507,6 +1651,9 @@ TEXT: Evoluir {0} Goomy.
 
 RESOURCE ID: quest_goomy_evolve_b_singular
 TEXT: Evoluir 1 Goomy.
+
+RESOURCE ID: quest_platinum_johto_badge
+TEXT: Ganhe a medalha de platina de Johto.
 
 RESOURCE ID: quest_poliwag_catch_b
 TEXT: Pegar {0} Poliwag.
@@ -1723,6 +1870,12 @@ TEXT: Clássicos do Dia Comunitário: Cyndaquil (3/4)
 
 RESOURCE ID: quest_title_cyndaquil_3
 TEXT: Clássicos do Dia Comunitário: Cyndaquil (4/4)
+
+RESOURCE ID: quest_title_elite_mega_ray
+TEXT: Pesquisa temporária de Reide de Elite: Mega Rayquaza
+
+RESOURCE ID: quest_title_elite_mega_ray_bonus
+TEXT: Pesquisa temporária bônus de Reide de Elite: Mega Rayquaza
 
 RESOURCE ID: quest_title_goomy
 TEXT: Dia Comunitário: Goomy
