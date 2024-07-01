@@ -49,6 +49,9 @@ TEXT: Pesquisa temporária de Festa de 8º aniversário (1/2)
 RESOURCE ID: anniversary_2024_timed_research_1
 TEXT: Pesquisa temporária de Festa de 8º aniversário (2/2)
 
+RESOURCE ID: aquatic_paradise_collection_challenge
+TEXT: Desafio de Coleção Paraíso Aquático
+
 RESOURCE ID: aquatic_paradise_event_name
 TEXT: Paraíso Aquático
 
@@ -154,8 +157,35 @@ TEXT: Pikachu usando o chapéu do Cap saberão o ataque carregado Investida Trov
 RESOURCE ID: bonus_cd_move_cyndaquil
 TEXT: Evolua Quilava para conseguir Typhlosion que sabe o ataque carregado Queimadura Explosiva!
 
+RESOURCE ID: bonus_extra_daily_raid_pass
+TEXT: Um Passe de Reide gratuito adicional por dia ao girar fotodiscos de Ginásios
+
+RESOURCE ID: bonus_fest_beast_balls
+TEXT: Bolas Criatura desbloqueadas para Reides de Ultracriaturas durante o Festival de Pokémon GO 2024: Global
+
 RESOURCE ID: bonus_fr_cap_pikachu
 TEXT: Pesquisas de campo temáticas de evento concedendo encontros com Pikachu usando o chapéu do Cap
+
+RESOURCE ID: bonus_party_power_charge
+TEXT: Poder de Grupo carrega mais rápido
+
+RESOURCE ID: bonus_quaxly_special_event
+TEXT: More Quaxly are appearing in the wild
+
+RESOURCE ID: bonus_t5_raids_additional_candy
+TEXT: Um doce adicional por pegar Pokémon em Reides de cinco estrelas
+
+RESOURCE ID: bonus_t5_raids_additional_candy_raid
+TEXT: Um doce bônus ao completar Reides de cinco estrelas com sucesso
+
+RESOURCE ID: bonus_t5_raids_additional_candy_xl
+TEXT: Um Doce GG adicional por pegar Pokémon em Reides de cinco estrelas
+
+RESOURCE ID: bonus_t5_raids_additional_candy_xl_raid
+TEXT: Um Doce GG bônus ao completar Reides de cinco estrelas com sucesso
+
+RESOURCE ID: bonus_ticket_inbound_shop
+TEXT: O ingresso para a pesquisa temporária Direto do Ultraespaço já está disponível na loja do jogo
 
 RESOURCE ID: bonus_tr_gbl_euic_2025_a_desc
 TEXT: 2025 Pokémon LAIC Champion Bonus Timed Research
@@ -165,6 +195,9 @@ TEXT: 2024 Pokémon NAIC Champion Bonus Timed Research
 
 RESOURCE ID: bonus_tr_gbl_naic_2025_a_desc
 TEXT: 2025 Pokémon EUIC Champion Bonus Timed Research
+
+RESOURCE ID: bonus_ub_raid_double_stardust
+TEXT: 2× Poeira Estelar por vencer Reides de Ultracriaturas
 
 RESOURCE ID: bonuses_active
 TEXT: Bônus ativos!
@@ -187,6 +220,9 @@ TEXT: Dia Comunitário: Tynamo
 RESOURCE ID: complete_route_travel_error_toast
 TEXT: Não foi possível completar esta Rota no momento. Tente novamente.
 
+RESOURCE ID: details_link_key_gofestraid24
+TEXT: Para mais informações, visite o <a href="https://pokemongolive.com/post/inbound-from-ultra-space-2024">site</a>.
+
 RESOURCE ID: eggs_widget_description
 TEXT: Use a Sincroaventura para acompanhar o progresso de Ovos que estão sendo chocados quando o Pokémon GO estiver em segundo plano.
 
@@ -195,10 +231,18 @@ TEXT: Reide de Elite: Mega Rayquaza
 
 RESOURCE ID: event_datetime_range_key_anniversary24
 TEXT: De 28 de junho, às 10h –
-Até 3 de junho, às 20h
+Até 3 de julho, às 20h
+
+RESOURCE ID: event_datetime_range_key_aquaticparadise24
+TEXT: De 6 de julho, às 10h –
+Até 9 de julho, às 20h
 
 RESOURCE ID: event_datetime_range_key_cyndaquilcdc2024
 TEXT: 22 de junho, das 14h às 17h
+
+RESOURCE ID: event_datetime_range_key_gofestraid24
+TEXT: De 8 de julho, às 10h –
+Até 14 de julho, às 18h
 
 RESOURCE ID: event_datetime_range_key_shinycelebi24
 TEXT: De 28 de junho, às 10h –
@@ -211,6 +255,9 @@ Até 18 de junho, às 20h
 RESOURCE ID: event_datetime_range_key_tynamocd24
 TEXT: July 21, 2:00 p.m. – 5:00 p.m.
 
+RESOURCE ID: exit_to_map_button
+TEXT: SAIR
+
 RESOURCE ID: filter_key_any_background
 TEXT: fundo
 
@@ -222,6 +269,9 @@ TEXT: cartoesdelocalizacao
 
 RESOURCE ID: filter_key_special_background
 TEXT: fundoespecial
+
+RESOURCE ID: filter_key_ultra_beasts
+TEXT: Ultracriatura
 
 RESOURCE ID: filter_label_location_card
 TEXT: Fundo de Localidade
@@ -241,6 +291,12 @@ TEXT:
 
 RESOURCE ID: general1.ticket._anniversary24_title
 TEXT: Ingresso para a Pesquisa Temporária Premium de Festa de 8º aniversário
+
+RESOURCE ID: general1.ticket._aquaticparadise24_title
+TEXT: Ingresso para a pesquisa temporária Passo Aqui, Passo Acolá
+
+RESOURCE ID: general1.ticket._gofestraid24_title
+TEXT: Ingresso para a Pesquisa Temporária Premium de Direto do Ultraespaço
 
 RESOURCE ID: general1.ticket._shinycelebi24_title
 TEXT: Ingresso para a pesquisa magistral Sussurros na Floresta
@@ -267,262 +323,268 @@ RESOURCE ID: global_challenge_completed
 TEXT: Desafio global completado!
 
 RESOURCE ID: global_day_1_ticket_0_0
-TEXT: %PLAYERNAME%! As great as it is to see you, I have troubling news to share.
+TEXT: %PLAYERNAME%! Por mais que eu esteja feliz em ver você, trago notícias preocupantes.
 
 RESOURCE ID: global_day_1_ticket_0_1
-TEXT: I’ve been receiving reports of light and shadow behaving oddly in major cities around the globe, and now it looks like it’s happening everywhere!
+TEXT: Andei recebendo relatos de luz e sombra se comportando de maneira estranha nas principais cidades do mundo, e parece que agora isso está acontecendo em todos os lugares!
 
 RESOURCE ID: global_day_1_ticket_0_2
-TEXT: It’s a strange phenomenon, and I’m worried about the safety of our world and all the Pokémon in it.
+TEXT: É um fenômeno estranho e eu estou preocupado com a segurança do nosso mundo e de todos os Pokémon nele.
 
 RESOURCE ID: global_day_1_ticket_0_3
-TEXT: And as one of the most skilled and dedicated Trainers I know, I’ll need your help to shine some light on this mystery.
+TEXT: E por você ter uma das maiores capacidades e dedicação dentre os Treinador que eu conheço, vou precisar da sua ajuda para trazer uma luz a esse mistério.
 
 RESOURCE ID: global_day_1_ticket_0_4
-TEXT: This is a crucial mission, %PLAYERNAME%. Can I count on you?
+TEXT: Esta é uma missão crucial, %PLAYERNAME%. Posso contar com você?
 
 RESOURCE ID: global_day_1_ticket_1_0
-TEXT: Ah, %PLAYERNAME%! Given all the bizarre occurrences taking place worldwide, we need to prioritize ensuring the safety and well-being of the Pokémon in our area!
+TEXT: Ah, %PLAYERNAME%! Com todos os acontecimentos bizarros acontecendo ao redor do mundo, precisamos priorizar a segurança e o bem-estar dos Pokémon na nossa área!
 
 RESOURCE ID: global_day_1_ticket_1_1
-TEXT: And the best way for us to do that is for you to catch and befriend as many of them as you can!
+TEXT: E a melhor maneira de fazermos isso é você pegar e fazer amizade com o maior número possível deles!
 
 RESOURCE ID: global_day_1_ticket_1_2
-TEXT: That way you can monitor their behavior firsthand and report any unusual findings.
+TEXT: Assim, você pode monitorar de perto o comportamento deles e relatar qualquer descoberta incomum.
 
 RESOURCE ID: global_day_1_ticket_1_3
-TEXT: How about it? Ready to get out there and catch some Pokémon?
+TEXT: O que me diz? Tudo pronto pra sair e pegar alguns Pokémon?
 
 RESOURCE ID: global_day_1_ticket_2_0
-TEXT: Thanks for tending to all those Pokémon, %PLAYERNAME%. I’m still getting reports of shadows throughout the world behaving unusually, so it looks like our work has just begun.
+TEXT: Obrigado por cuidar de todos esses Pokémon, %PLAYERNAME%. Continuo recebendo relatos de sombras se comportando de maneira estranha mundo a fora, então me parece que o nosso trabalho está apenas começando.
 
 RESOURCE ID: global_day_1_ticket_2_1
-TEXT: I’d like you to survey the area and pay particular attention to any shadows you come across.
+TEXT: Eu gostaria que você examinasse a área e prestasse atenção especial em qualquer sombra que você encontrar.
 
 RESOURCE ID: global_day_1_ticket_2_2
-TEXT: And while you’re out there, why not take the opportunity to hatch some Eggs?
+TEXT: E já que você está lá fora, que tal aproveitar a oportunidade para chocar uns Ovos?
 
 RESOURCE ID: global_day_1_ticket_2_3
-TEXT: Exploring is a great way to incubate Eggs and discover new Pokémon that could potentially aid our cause.
+TEXT: Explorar é um ótimo jeito de colocar Ovos na Incubadora e descobrir novos Pokémon que podem potencialmente ajudar na nossa causa.
 
 RESOURCE ID: global_day_1_ticket_3_0
-TEXT: %PLAYERNAME%! Our investigation has yielded exciting results!
+TEXT: %PLAYERNAME%! Nossa investigação rendeu resultados emocionantes!
 
 RESOURCE ID: global_day_1_ticket_3_1
-TEXT: Given all our observations, the only logical conclusion is that we have Marshadow on our hands!
+TEXT: Com base em todas as nossas observações, a única conclusão lógica é que temos Marshadow em nossas mãos!
 
 RESOURCE ID: global_day_1_ticket_3_2
-TEXT: Marshadow is a unique Pokémon with the ability to conceal itself within any shadow.
+TEXT: Marshadow é um Pokémon único com habilidade de se esconder em qualquer sombra.
 
 RESOURCE ID: global_day_1_ticket_3_3
-TEXT: It’s likely feeling very cautious right now. We need to consider our next steps carefully and approach from a place of understanding.
+TEXT: Provavelmente está tendo muita cautela agora. Nossos próximos passos precisam ser cuidadosos e devemos abordar a situação com compreensão.
 
 RESOURCE ID: global_day_1_ticket_3_4
-TEXT: But I’m confident that with your patience and skills as a Trainer, you’ll be able to coax it out of the shadows!
+TEXT: Mas estou bem confiante de que, com sua paciência e habilidades, você vai ser capaz de tirar esse Pokémon das sombras!
 
 RESOURCE ID: global_day_1_ticket_4_0
-TEXT: Incredible work as always, %PLAYERNAME%!
+TEXT: Trabalho incrível como sempre, %PLAYERNAME%!
 
 RESOURCE ID: global_day_1_ticket_4_1
-TEXT: Your efforts to create a comfortable environment for Marshadow are paying off.
+TEXT: Seus esforços para criar um ambiente confortável para Marshadow estão valendo a pena.
 
 RESOURCE ID: global_day_1_ticket_4_2
-TEXT: Keep it up and I have a feeling we’ll see it out in the open before long. Wouldn’t that be an incredible sight?
+TEXT: Continue assim e eu tenho a sensação de que logo a gente vai ver esse Pokémon ao ar livre. Não seria uma visão incrível?
 
 RESOURCE ID: global_day_1_ticket_4_3
-TEXT: Let’s continue to foster a welcoming atmosphere. With any luck, we’ll make a breakthrough!
+TEXT: Vamos continuar promovendo uma atmosfera acolhedora. Com sorte, faremos uma descoberta extraordinária!
 
 RESOURCE ID: global_day_1_ticket_5_0
-TEXT: Congratulations, %PLAYERNAME%! We’ve done it!
+TEXT: Parabéns, %PLAYERNAME%! Conseguimos!
 
 RESOURCE ID: global_day_1_ticket_5_1
-TEXT: We’ve successfully unraveled the mystery of the shadows, and it’s all thanks to your tireless efforts.
+TEXT: Desvendamos com sucesso o mistério das sombras e tudo isso graças aos seus esforços incansáveis.
 
 RESOURCE ID: global_day_1_ticket_5_2
-TEXT: On top of that, we’ve made a brand-new friend! I’m sure that together, we’ll make even more incredible discoveries that continue strengthening the bond between humans and Pokémon.
+TEXT: E o melhor de tudo, fizemos uma nova amizade! Tenho certeza de que juntos faremos descobertas ainda mais incríveis que vão continuar fortalecendo o vínculo entre humanos e Pokémon.
 
 RESOURCE ID: global_day_1_ticket_5_3
-TEXT: I can hardly wait to see what exciting challenges await us next!
+TEXT: Mal posso esperar para ver quais desafios emocionantes nos esperam pela frente!
 
 RESOURCE ID: global_day_2_0_0
-TEXT: Your arrival is well timed, %PLAYERNAME%.
+TEXT: Você chegou bem na hora, %PLAYERNAME%.
 
 RESOURCE ID: global_day_2_0_1
-TEXT: Necrozma is emerging from the Ultra Wormhole that marks the sky, and its hunger for light threatens to upset the delicate balance of your world.
+TEXT: Necrozma está emergindo da Ultrafenda Espacial que marca o céu e sua fome por luz ameaça perturbar o delicado equilíbrio do seu mundo.
 
 RESOURCE ID: global_day_2_0_2
-TEXT: I find myself in need of your skills and courage.
+TEXT: Estou precisando da sua coragem e habilidades.
 
 RESOURCE ID: global_day_2_0_3
-TEXT: We must confront this disturbance to ensure that we are able to protect both humans and Pokémon alike.
+TEXT: Precisamos enfrentar essa perturbação para garantir que somos capazes de proteger os humanos e Pokémon.
 
 RESOURCE ID: global_day_2_2_0
-TEXT: %PLAYERNAME%, Necrozma has entered your world. Remain vigilant as we navigate these perilous circumstances.
+TEXT: %PLAYERNAME%, Necrozma entrou em seu mundo. Permaneça vigilante enquanto navegamos por estas circunstâncias perigosas.
 
 RESOURCE ID: global_day_2_2_1
-TEXT: As you engage with this formidable Pokémon, anticipate its actions and adapt your tactics accordingly.
+TEXT: Enquanto você interage com este Pokémon formidável, antecipe as ações dele e adapte suas táticas conforme necessário.
 
 RESOURCE ID: global_day_2_2_2
-TEXT: Rely on the strength of your bond with your Pokémon. Trust in their abilities and the power of your shared resolve.
+TEXT: Confie na força do seu vínculo com seu Pokémon. Confie nas habilidades dele e no poder de resolver as coisas de maneira compartilhada.
 
 RESOURCE ID: global_day_2_2_3
-TEXT: Your skill and determination as a Trainer will be greatly challenged, but I am confident in your success. Until we next meet.
+TEXT: Sua habilidade e determinação como Treinador serão grandemente desafiadas, mas estou confiante no seu sucesso. Até a próxima!
 
 RESOURCE ID: global_day_2_branching_text
-TEXT: I have narrowed my focus, %PLAYERNAME%. I suspect we may learn much from certain Pokémon my radar has detected in the area. Which do you prefer to investigate?
+TEXT: Eu refinei meu foco, %PLAYERNAME%. Suspeito que podemos aprender muito com certos Pokémon que meu radar detectou na área. Qual você prefere investigar?
 
 RESOURCE ID: global_day_2_crabrawler_branch_1_0
-TEXT: A wise decision. Studying Crabrawler will help ensure our readiness for the impending confrontation with Necrozma.
+TEXT: Uma decisão sábia. Estudar Crabrawler vai ajudar na nossa preparação para o confronto iminente com Necrozma.
 
 RESOURCE ID: global_day_2_crabrawler_branch_1_1
-TEXT: Crabrawler is a Fighting-type Pokémon known for having pincers suited to both offense and defense.
+TEXT: Crabrawler é um Pokémon de tipo Lutador, conhecido por ter pinças que usa para ataque e defesa.
 
 RESOURCE ID: global_day_2_crabrawler_branch_1_2
-TEXT: Observing these pincers may prove valuable in our forthcoming encounter with Necrozma.
+TEXT: Observar essas pinças pode ser útil para nosso próximo encontro com Necrozma.
 
 RESOURCE ID: global_day_2_crabrawler_branch_1_3
-TEXT: By studying Crabrawler’s techniques , we can gain insight into how to approach our own strategy.
+TEXT: Estudando as técnicas de Crabrawler, podemos ter uma ideia sobre como abordar nossa própria estratégia.
 
 RESOURCE ID: global_day_2_ducklett_branch_1_0
-TEXT: A wise decision, %PLAYERNAME%. Studying Ducklett will help ensure our readiness for the impending confrontation with Necrozma.
+TEXT: Uma decisão sábia, %PLAYERNAME%. Estudar Ducklett vai ajudar na nossa preparação para o confronto iminente com Necrozma.
 
 RESOURCE ID: global_day_2_ducklett_branch_1_1
-TEXT: Ducklett is a Water- and Flying-type Pokémon that splashes water with its feathers to allow it to escape from harm’s way.
+TEXT: Ducklett é um Pokémon de tipo Água e Voador que espirra água com suas penas para escapar de perigos.
 
 RESOURCE ID: global_day_2_ducklett_branch_1_2
-TEXT: By studying Ducklett’s tactics, we can gain insight into how to approach our own strategy.
+TEXT: Estudando as táticas de Ducklett, podemos ter uma ideia sobre como abordar nossa própria estratégia.
 
 RESOURCE ID: global_day_2_ducklett_branch_1_3
-TEXT: Your findings will undoubtedly contribute to our understanding of how to best confront the challenges that lie ahead.
+TEXT: Certeza que suas descobertas vão contribuir para nossa compreensão de como enfrentar melhor os desafios que estão por vir.
 
 RESOURCE ID: global_day_2_emolga_branch_1_0
-TEXT: A wise decision. Studying Emolga will help ensure our readiness for the impending confrontation with Necrozma.
+TEXT: Uma decisão sábia. Estudar Emolga vai ajudar na nossa preparação para o confronto iminente com Necrozma.
 
 RESOURCE ID: global_day_2_emolga_branch_1_1
-TEXT: Emolga is an Electric- and Flying-type Pokémon known for scattering electricity as it soars through the air.
+TEXT: Emolga é um Pokémon de tipo Elétrico e Voador, conhecido por liberar cargas elétricas enquanto se aventura pelos céus.
 
 RESOURCE ID: global_day_2_emolga_branch_1_2
-TEXT: This distinctive behavior causes other Pokémon to maintain a cautious distance.
+TEXT: Esse comportamento característico faz com que outros Pokémon mantenham uma distância cautelosa.
 
 RESOURCE ID: global_day_2_emolga_branch_1_3
-TEXT: By studying Emolga’s tactics, we can gain insight into how to approach our own strategy.
+TEXT: Estudando as táticas de Emolga, podemos ter uma ideia de como abordar nossa própria estratégia.
 
 RESOURCE ID: global_day_2_ticket_0_0
-TEXT: Your presence brings me great relief, %PLAYERNAME%.
+TEXT: Que alívio você estar aqui, %PLAYERNAME%.
 
 RESOURCE ID: global_day_2_ticket_0_1
-TEXT: The threat that Necrozma’s hunger for light poses cannot be overstated.
+TEXT: A ameaça que Necrozma provoca com sua fome por luz não pode ser subestimada.
 
 RESOURCE ID: global_day_2_ticket_0_2
-TEXT: Observe the cracks in the sky. Similar phenomena have been reported around the globe.
+TEXT: Veja as rachaduras no céu. Fenômenos parecidos foram relatados em várias partes do mundo.
 
 RESOURCE ID: global_day_2_ticket_0_3
-TEXT: Necrozma emerges even now. Your world looks to us for a solution.
+TEXT: Necrozma acaba de emergir. Seu mundo conta com a gente para uma solução.
 
 RESOURCE ID: global_day_2_ticket_0_4
-TEXT: I believe that you, %PLAYERNAME%, are the only one with the skills and compassion necessary to confront Necrozma and catch it.
+TEXT: Eu acredito que você, %PLAYERNAME%, é a única pessoa com as habilidades e compaixão necessárias para enfrentar e pegar Necrozma.
 
 RESOURCE ID: global_day_2_ticket_0_5
-TEXT: Let us combine our efforts to face this challenge. Together, I am certain we will triumph over even the darkest of threats.
+TEXT: Vamos unir nossos esforços para enfrentar esse desafio. Eu tenho certeza de que juntos nós vamos vencer até as ameaças mais sombrias.
 
 RESOURCE ID: global_day_2_ticket_4_0
-TEXT: Your return brings me joy, %PLAYERNAME%. I wish to illuminate what I know about Necrozma’s ability to fuse.
+TEXT: Que alegria ver que você voltou, %PLAYERNAME%. Eu queria esclarecer o que sei sobre a capacidade de Necrozma de se fundir.
 
 RESOURCE ID: global_day_2_ticket_4_1
-TEXT: By fusing with Solgaleo or Lunala, it is able to change form and become either Dusk Mane Necrozma or Dawn Wings Necrozma.
+TEXT: Ao se fundir com Solgaleo ou Lunala, é capaz de mudar de forma e se tornar Necrozma Juba Crepúsculo ou Necrozma Asas Alvorada.
 
 RESOURCE ID: global_day_2_ticket_4_2
-TEXT: We still have much to learn about this ability. I am eager to witness its results.
+TEXT: Ainda temos muito o que aprender sobre essa capacidade. Mal posso esperar pelos resultados.
 
 RESOURCE ID: global_day_2_ticket_4_3
-TEXT: Your journey with Necrozma is far from over. You have my thanks for rising to the challenges of better understanding this fascinating Pokémon.
+TEXT: Sua jornada com Necrozma está longe de terminar. Agradeço por você superar os desafios de entender melhor esse Pokémon fascinante.
 
 RESOURCE ID: global_day_2_ticket_branching_text
-TEXT: I commend your remarkable feat. With Necrozma under your guidance, I encourage you to explore the mysterious phenomenon known as fusion. I see two paths forward—one of light, and one of shadows.
+TEXT: Eu admiro seu trabalho extraordinário. Com Necrozma sob seus cuidados, eu encorajo você a explorar o fenômeno misterioso conhecido como fusão. Eu vejo dois caminhos pela frente, um de luz e outro de sombras.
 
 RESOURCE ID: global_day_2_ticket_lunala_branch_1_0
-TEXT: I repeat my earlier sentiment of admiration—I knew my faith in you was well placed. By securing Necrozma, you have protected both the humans and Pokémon of your world.
+TEXT: Reitero meu sentimento anterior de admiração. Eu sabia que podia confiar em você. Ao proteger Necrozma, você protegeu os humanos e os Pokémon do seu mundo.
 
 RESOURCE ID: global_day_2_ticket_lunala_branch_1_1
-TEXT: As you are aware, Ultra Wormholes are gateways through which Ultra Beasts can enter your world.
+TEXT: Como você sabe, as Ultrafendas Espaciais são portais para as Ultracriaturas entrarem no seu mundo.
 
 RESOURCE ID: global_day_2_ticket_lunala_branch_1_2
-TEXT: I have also detected the presence of an immense power—the Legendary Pokémon Lunala.
+TEXT: Eu também detectei a presença de um poder imenso, o Pokémon Lendário Lunala.
 
 RESOURCE ID: global_day_2_ticket_lunala_branch_1_3
-TEXT: This Pokémon is known for its ability to convert light into energy. If fused with Necrozma, it could make for a most curious combination.
+TEXT: Esse Pokémon é conhecido por sua capacidade de converter luz em energia. Se fundido com Necrozma, poderia resultar em uma combinação muito curiosa.
 
 RESOURCE ID: global_day_2_ticket_lunala_branch_1_4
-TEXT: I entreat you, %PLAYERNAME%, to seek out Lunala and forge a bond with this Legendary Pokémon.
+TEXT: Eu te peço, %PLAYERNAME%, que procure por Lunala e crie um vínculo com esse Pokémon Lendário.
 
 RESOURCE ID: global_day_2_ticket_lunala_branch_2_0
-TEXT: %PLAYERNAME%. Remain vigilant as we engage with these formidable Pokémon.
+TEXT: %PLAYERNAME%. Permaneça vigilante enquanto interagimos com esses Pokémon formidáveis.
 
 RESOURCE ID: global_day_2_ticket_lunala_branch_2_1
-TEXT: Seek Lunala. Form a bond powered by your shared resolve to counter Necrozma’s darkness.
+TEXT: Procure por Lunala. Crie um vínculo movido pelo poder de resolver as coisas de maneira compartilhada para contra-atacar a escuridão de Necrozma.
 
 RESOURCE ID: global_day_2_ticket_lunala_branch_2_2
-TEXT: Your skill and determination as a Trainer—and Lunala’s enigmatic powers—will be tested.
+TEXT: Suas habilidades e determinação como Treinador e os poderes enigmáticos de Lunala, serão testados.
 
 RESOURCE ID: global_day_2_ticket_lunala_branch_2_3
-TEXT: You have demonstrated your capacity to rise to all challenges, and I have faith in this outcome.
+TEXT: Você demonstrou sua capacidade de superar todos os desafios e eu confio neste resultado.
 
 RESOURCE ID: global_day_2_ticket_lunala_branch_3_0
-TEXT: In capturing Lunala, you again demonstrate your unparalleled skill. A remarkable accomplishment, %PLAYERNAME%.
+TEXT: Ao pegar Lunala, você demonstra novamente sua habilidade sem precedentes. Que conquista extraordinária, %PLAYERNAME%.
 
 RESOURCE ID: global_day_2_ticket_lunala_branch_3_1
-TEXT: With Necrozma also under your guidance, I encourage you to prepare for the phenomenon known as fusion.
+TEXT: Com Necrozma também sob seus cuidados, eu encorajo você a se preparar para o fenômeno conhecido como fusão.
 
 RESOURCE ID: global_day_2_ticket_lunala_branch_3_2
-TEXT: Such a transformation could be key to unraveling the mysteries surrounding Necrozma.
+TEXT: Essa transformação pode ser a chave para desvendar os mistérios envolvendo Necrozma.
 
 RESOURCE ID: global_day_2_ticket_lunala_branch_3_3
-TEXT: We may yet learn how to aid Necrozma in achieving a greater sense of harmony and purpose.
+TEXT: E de quebra, ainda podemos aprender como ajudar Necrozma a alcançar um maior senso de harmonia e propósito.
 
 RESOURCE ID: global_day_2_ticket_solgaleo_branch_1_0
-TEXT: I repeat my earlier sentiment of admiration—I knew my faith in you was well placed. By securing Necrozma, you have protected both the humans and Pokémon of your world.
+TEXT: Reitero meu sentimento anterior de admiração. Eu sabia que podia confiar em você. Ao proteger Necrozma, você protegeu os humanos e os Pokémon do seu mundo.
 
 RESOURCE ID: global_day_2_ticket_solgaleo_branch_1_1
-TEXT: As you are aware, Ultra Wormholes are gateways through which Ultra Beasts can enter your world.
+TEXT: Como você sabe, as Ultrafendas Espaciais são portais pelos quais as Ultracriaturas podem entrar no seu mundo.
 
 RESOURCE ID: global_day_2_ticket_solgaleo_branch_1_2
-TEXT: I have also detected the presence of an immense power—the Legendary Pokémon Solgaleo.
+TEXT: Eu também detectei a presença de um poder imenso, o Pokémon Lendário Solgaleo.
 
 RESOURCE ID: global_day_2_ticket_solgaleo_branch_1_3
-TEXT: This Pokémon is known for its incredible light, which illuminates even the darkest of nights. If fused with Necrozma, it could make for a most curious combination.
+TEXT: Esse Pokémon é conhecido por sua luz incrível, que ilumina mesmo as noites mais escuras. Se fundido com Necrozma, poderia resultar em uma combinação muito curiosa.
 
 RESOURCE ID: global_day_2_ticket_solgaleo_branch_1_4
-TEXT: I entreat you, %PLAYERNAME%, to seek out Solgaleo and forge a bond with this Legendary Pokémon.
+TEXT: Eu te peço, %PLAYERNAME%, que procure por Solgaleo e crie um vínculo com esse Pokémon Lendário.
 
 RESOURCE ID: global_day_2_ticket_solgaleo_branch_2_0
-TEXT: %PLAYERNAME%. Remain vigilant as we engage with these formidable Pokémon.
+TEXT: %PLAYERNAME%. Permaneça vigilante enquanto interagimos com esses Pokémon formidáveis.
 
 RESOURCE ID: global_day_2_ticket_solgaleo_branch_2_1
-TEXT: Seek Solgaleo. Trust in its radiant light and the power of your shared resolve to counter Necrozma’s darkness.
+TEXT: Procure por Solgaleo. Confie na sua luz radiante e no seu poder de resolver as coisas de maneira compartilhada para contra-atacar a escuridão de Necrozma.
 
 RESOURCE ID: global_day_2_ticket_solgaleo_branch_2_2
-TEXT: Your skill and determination as a Trainer—and Solgaleo’s power—will be tested.
+TEXT: Suas habilidades e determinação como Treinador, e o poder de Solgaleo, serão testados.
 
 RESOURCE ID: global_day_2_ticket_solgaleo_branch_2_3
-TEXT: You have demonstrated your capacity to rise to all challenges, and I have faith in this outcome.
+TEXT: Você demonstrou sua capacidade de superar todos os desafios e eu confio neste resultado.
 
 RESOURCE ID: global_day_2_ticket_solgaleo_branch_3_0
-TEXT: In capturing Solgaleo, you again demonstrate your unparalleled skill. A remarkable accomplishment, %PLAYERNAME%.
+TEXT: Ao pegar Solgaleo, você demonstra novamente sua habilidade sem precedentes. Que conquista extraordinária, %PLAYERNAME%.
 
 RESOURCE ID: global_day_2_ticket_solgaleo_branch_3_1
-TEXT: With Necrozma also under your guidance, I encourage you to prepare for the phenomenon known as fusion.
+TEXT: Com Necrozma também sob seus cuidados, eu encorajo você a se preparar para o fenômeno conhecido como fusão.
 
 RESOURCE ID: global_day_2_ticket_solgaleo_branch_3_2
-TEXT: Such a transformation could be key to unraveling the mysteries surrounding Necrozma.
+TEXT: Essa transformação pode ser a chave para desvendar os mistérios envolvendo Necrozma.
 
 RESOURCE ID: global_day_2_ticket_solgaleo_branch_3_3
-TEXT: We may yet learn how to aid Necrozma in achieving a greater sense of harmony and purpose.
+TEXT: E de quebra, ainda podemos aprender como ajudar Necrozma a alcançar um maior senso de harmonia e propósito.
 
 RESOURCE ID: gofest2024_leadup_egg_event
 TEXT: Pokémon GO Fest 2024: Global – Early Access Eggs-travaganza!
 
 RESOURCE ID: hatch_day_extended_bonuses
 TEXT: Bônus adicionais do Dia de Chocar
+
+RESOURCE ID: inbound_from_ultra_space_ticket_title
+TEXT: Bônus do ingresso de Direto do Ultraespaço
+
+RESOURCE ID: inbound_from_ultra_space_title
+TEXT: Direto do Ultraespaço
 
 RESOURCE ID: iris_color_sort
 TEXT: Cor
@@ -557,8 +619,23 @@ TEXT: Devido ao superaquecimento do dispositivo, a câmera foi temporariamente d
 RESOURCE ID: iris_temperature_warning_title
 TEXT: Alerta de superaquecimento
 
+RESOURCE ID: item_event_ticket_06_desc
+TEXT: Um ingresso para acessar a pesquisa temporária e bônus especiais, de segunda-feira, 8 de julho de 2024, às 10h, até domingo, 14 de julho de 2024, às 18h do seu horário local, de onde você estiver.
+
+RESOURCE ID: item_event_ticket_06_desc_gotour2024raid
+TEXT: Um ingresso para acessar a pesquisa temporária Caminho para Sinnoh: Reides, de segunda-feira, 19 de fevereiro de 2024, às 10h, até domingo, 25 de fevereiro de 2024, às 20h do seu horário local, de onde você estiver.
+
+RESOURCE ID: item_event_ticket_06_details
+TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à pesquisa temporária e bônus especiais a partir de 8 de julho, de onde você estiver.
+
 RESOURCE ID: item_event_ticket_10_name
 TEXT: Ingresso
+
+RESOURCE ID: item_event_ticket_evergreen_desc_aquaticparadise24
+TEXT: Um ingresso para acessar a pesquisa temporária Passo Aqui, Passo Acolá até 9 de julho de 2024, às 20h do seu horário local, de onde você estiver.
+
+RESOURCE ID: item_event_ticket_evergreen_details_aquaticparadise24
+TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à pesquisa temporária Passo Aqui, Passo Acolá no dia 6 de julho de 2024, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: Um ingresso para acessar a pesquisa magistral Sussurros na Floresta a partir de 28 de junho de 2024, às 10h do seu horário local, de onde você estiver.
@@ -613,6 +690,9 @@ TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à Pe
 
 RESOURCE ID: item_evergreen_ticket_details_spelunkerscove
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à pesquisa temporária Barraco na Praia no dia 15 de junho de 2024, de onde você estiver.
+
+RESOURCE ID: leave_pokemon_message_body
+TEXT: Pokémon deixados aqui permanecerão por 24 horas.
 
 RESOURCE ID: masterwork_dialogue_whisper_woods_1_0
 TEXT: É bom ver você, %PLAYERNAME%! Pergunta: você esteve na floresta recentemente?
@@ -726,10 +806,10 @@ RESOURCE ID: masterwork_sc_title_5
 TEXT: Sussurros na Floresta (6/6)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-06-27T21:43:25.514538+00:00 for pt-BR
-at SHA 99bb165229e
-Pipeline 2430925, job 29448993
-Patch from: 0.319.0-SHA-d424a166-RC4, 0.321.0-SHA-96078b88-RC2
+TEXT: Built at 2024-07-01T22:21:55.885257+00:00 for pt-BR
+at SHA c6cdea10e8
+Pipeline 2436849, job 29535403
+Patch from: 0.321.0-SHA-bfe70c71-RC3, 0.319.0-SHA-0a543be8-RC1
 
 RESOURCE ID: n_shirt_eeveestshirt-04_0_display_name
 TEXT: Camiseta de Espeon
@@ -771,7 +851,7 @@ RESOURCE ID: photo_hub_decorate
 TEXT: Decorar
 
 RESOURCE ID: photo_hub_favorites
-TEXT: Your Favorites
+TEXT: Seus favoritos
 
 RESOURCE ID: photo_hub_last_used
 TEXT: Já fotografado
@@ -812,6 +892,12 @@ TEXT: Reversão Primitiva
 RESOURCE ID: pokedex_sort_unfavorite
 TEXT: Remover Favorito
 
+RESOURCE ID: quest_catch_ducklett_singular
+TEXT: Pegar 1 Ducklett.
+
+RESOURCE ID: quest_complete_raids
+TEXT: Completar {0} Batalhas de Reide.
+
 RESOURCE ID: quest_cyndaquil_catch_b
 TEXT: Pegar {0} Cyndaquil.
 
@@ -826,6 +912,18 @@ TEXT: Vencer {0} Reides de Elite.
 
 RESOURCE ID: quest_elite_raid_victory_singular
 TEXT: Vencer 1 Reide de Elite.
+
+RESOURCE ID: quest_gofest2024_live_photo_brilliant_skies
+TEXT: Tirar uma foto do seu Pokémon companheiro no habitat Céu Reluzente.
+
+RESOURCE ID: quest_gofest2024_live_photo_ghostly_woods
+TEXT: Tirar uma foto do seu Pokémon companheiro no habitat Bosque Fantasmagórico.
+
+RESOURCE ID: quest_gofest2024_live_photo_poolside_cabana
+TEXT: Tirar uma foto do seu Pokémon companheiro no habitat Pergolado na Piscina.
+
+RESOURCE ID: quest_gofest2024_live_photo_rugged_quarry
+TEXT: Tirar uma foto do seu Pokémon companheiro no habitat Pedreira Brutamontes.
 
 RESOURCE ID: quest_platinum_johto_badge
 TEXT: Ganhe a medalha de platina de Johto.
@@ -1032,7 +1130,7 @@ RESOURCE ID: scorching_steps_tr_name
 TEXT: Pesquisa temporária Passos Abrasadores
 
 RESOURCE ID: shop_category_giftable
-TEXT: Gift to a Friend
+TEXT: Gift to Friend
 
 RESOURCE ID: shop_discount_disclaimer_helpshift_url
 TEXT: https://niantic.helpshift.com/hc/faq/4707-notice-regarding-discount-rates-displayed-in-the-shop/
@@ -1073,10 +1171,26 @@ TEXT: <b>As recompensas incluem:</b>
 • 88.888 PE
 • 1 Superincubadoras, 1 Passe de Batalha Premium, 1 Incenso, 1 Incubadora, 1 Radar Rocket, 1 Ovo da Sorte e muito mais
 
+RESOURCE ID: text_rewards_key_aquaticparadise24
+TEXT: <b>As recompensas incluem:</b>
+• 5 encontros com Ducklett
+• 2 Incensos, 4 Doces Raros, 4 Ovos da Sorte
+• 20 doces de Ducklett
+
 RESOURCE ID: text_rewards_key_cyndaquilcdc2024
 TEXT: <b>As recompensas incluem:</b>
 • Itens premium de jogo, como Doces Raros, Ultra Bolas e muito mais
 • Encontros extra com Cyndaquil e suas Evoluções
+
+RESOURCE ID: text_rewards_key_gofestraid24
+TEXT: <b>Os bônus incluem:</b>
+• 5.000 a mais de PE ao completar Reides com sucesso
+• 2× Poeira Estelar ao completar Reides com sucesso
+• 1 doce adicional e 1 Doce GG adicional ao completar Reides de cinco estrelas com sucesso
+• 1 Passe de Reide gratuito adicional por dia ao girar fotodiscos de Ginásios
+
+<b>As recompensas incluem:</b>
+• 1 Pedaço de Estrela, 5 Doces GG de cada uma das Ultracriaturas e 10 doces de Cosmog
 
 RESOURCE ID: text_rewards_key_shinycelebi24
 TEXT: Um ingresso para acessar a Pesquisa magistral que leva a um encontro com um dos Pokémon mais elusivos, Celebi Brilhante, e inclui as seguintes recompensas:
@@ -1112,6 +1226,18 @@ TEXT: RECOMPENSAS POR COMPLETAR
 RESOURCE ID: timed_challenge_work_together_v2
 TEXT: Os Treinadores devem trabalhar juntos como uma comunidade global para completar este desafio.
 
+RESOURCE ID: tr_inbound_from_ultra_space_raid
+TEXT: Pesquisa temporária Direto do Ultraespaço
+
+RESOURCE ID: tr_inbound_from_ultra_space_raid_00
+TEXT: Pesquisa temporária Direto do Ultraespaço (1/1)
+
+RESOURCE ID: tr_inbound_from_ultra_space_raid_paid
+TEXT: Pesquisa Temporária Premium Direto do Ultraespaço
+
+RESOURCE ID: tr_inbound_from_ultra_space_raid_paid_00
+TEXT: Pesquisa temporária Premium Direto do Ultraespaço (1/1)
+
 RESOURCE ID: tutorial_route_play_body_3
 TEXT: 1. Fique perto do caminho da Rota para que seu progresso seja registrado.
 2. Você pode completar uma Rota sem percorrer sua distância total, mas poderá receber menos recompensas por fazer isso.
@@ -1119,6 +1245,18 @@ TEXT: 1. Fique perto do caminho da Rota para que seu progresso seja registrado.
 RESOURCE ID: vps_localization_error_too_far
 TEXT: Aproxime-se do local desejado.
 
+RESOURCE ID: vps_localization_exit_confirmation_header
+TEXT: Tem certeza de que quer sair?
+
+RESOURCE ID: vps_localization_start_button
+TEXT: Estou aqui
+
 RESOURCE ID: vps_localization_toast_alternative
 TEXT: Procurando por Pokémon na área
+
+RESOURCE ID: wandering_waddles_depths_tr
+TEXT: O ingresso para a pesquisa temporária Passo Aqui, Passo Acolá está disponível na loja
+
+RESOURCE ID: wandering_waddles_tr_name
+TEXT: Passo Aqui, Passo Acolá
 
