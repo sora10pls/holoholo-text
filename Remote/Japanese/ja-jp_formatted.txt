@@ -61,6 +61,9 @@ TEXT: ARトラッキングで問題が発生しました。ポケストップの
 RESOURCE ID: ar_tracking_reconnecting
 TEXT: ARトラッキング再接続中
 
+RESOURCE ID: avatar_alolanexeggutorhat
+TEXT: アローラナッシー　ヘッドウェア
+
 RESOURCE ID: avatar_baggypants
 TEXT: ルーズパンツ　ダークグレー
 
@@ -99,6 +102,18 @@ TEXT: グレイシア　Tシャツ
 
 RESOURCE ID: avatar_m_shirt_eeveestshirt_08_bundle_icon
 TEXT: ニンフィア　Tシャツ
+
+RESOURCE ID: avatar_necrozmaglasses
+TEXT: ネクロズマ　サングラス
+
+RESOURCE ID: avatar_necrozmajacket
+TEXT: ネクロズマ　トップスセット
+
+RESOURCE ID: avatar_necrozmapants
+TEXT: ネクロズマ　パンツ
+
+RESOURCE ID: avatar_necrozmashoes
+TEXT: ネクロズマ　シューズ
 
 RESOURCE ID: badge_airadventures_2024_yogyakarta_day_00_general
 TEXT: 2024年ジョグジャカルタ
@@ -586,7 +601,7 @@ RESOURCE ID: global_day_2_ticket_solgaleo_branch_3_3
 TEXT: 変化した姿を見れば、何かわかることがあるかもしれない。
 
 RESOURCE ID: gofest2024_leadup_egg_event
-TEXT: Pokémon GO Fest 2024: Global – Early Access Eggs-travaganza!
+TEXT: Pokémon GO Fest 2024：グローバル –  アーリーアクセスふかチャンス
 
 RESOURCE ID: hatch_day_extended_bonuses
 TEXT: ふかの日延長ボーナス
@@ -645,12 +660,6 @@ TEXT: このチケットは自動的に発動し2024年7月8日にタイムチ�
 RESOURCE ID: item_event_ticket_10_name
 TEXT: チケット
 
-RESOURCE ID: item_event_ticket_evergreen_desc_aquaticparadise24
-TEXT: 現地時間2024年7月9日8:00PMまで「水辺の散策」タイムチャレンジが行えるチケット。
-
-RESOURCE ID: item_event_ticket_evergreen_details_aquaticparadise24
-TEXT: このチケットは自動的に発動し7月6日に「水辺の散策」タイムチャレンジが行えるようになります。
-
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: 現地時間2024年6月28日10:00AMから「森のささやき」続行リサーチを行うためのチケット。
 
@@ -688,6 +697,9 @@ RESOURCE ID: item_event_ticket_pink_details_tynamocd24
 TEXT: このチケットは自動的に発動し年6月21日に「でんきうおポケモンを解明せよ！」スペシャルリサーチが行えるようになります。
 
 RESOURCE ID: item_evergreen_ticket_desc
+TEXT: 現地時間2024年7月9日8:00PMまで「水辺の散策」タイムチャレンジが行えるチケット。
+
+RESOURCE ID: item_evergreen_ticket_desc_8thanniversary
 TEXT: 現地時間2024年7月3日8:00PMまで8周年記念プレミアムタイムチャレンジが行えるチケット。
 
 RESOURCE ID: item_evergreen_ticket_desc_slumberingsands
@@ -697,6 +709,9 @@ RESOURCE ID: item_evergreen_ticket_desc_spelunkerscove
 TEXT: 現地時間2024年6月18日8:00PMまでビーチパーティータイムチャレンジが行えるチケット。
 
 RESOURCE ID: item_evergreen_ticket_details
+TEXT: このチケットは自動的に発動し7月6日に「水辺の散策」タイムチャレンジが行えるようになります。
+
+RESOURCE ID: item_evergreen_ticket_details_8thanniversary
 TEXT: このチケットは自動的に発動し6月28日に8周年記念プレミアムタイムチャレンジが行えるようになります。
 
 RESOURCE ID: item_evergreen_ticket_details_slumberingsands
@@ -820,10 +835,10 @@ RESOURCE ID: masterwork_sc_title_5
 TEXT: 森のささやき (6/6)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-07-01T22:21:55.885257+00:00 for ja-JP
-at SHA c6cdea10e8
-Pipeline 2436849, job 29535403
-Patch from: 0.321.0-SHA-bfe70c71-RC3, 0.319.0-SHA-0a543be8-RC1
+TEXT: Built at 2024-07-03T20:54:47.167612+00:00 for ja-JP
+at SHA 1e8ddcdfea4
+Pipeline 2442689, job 29621335
+Patch from: 0.321.0-SHA-c8813e1d-RC1, 0.319.0-SHA-0a543be8-RC1
 
 RESOURCE ID: n_shirt_eeveestshirt-04_0_display_name
 TEXT: エーフィ　Tシャツ
@@ -880,25 +895,28 @@ RESOURCE ID: poi_contrib_abuse
 TEXT: Abuse
 
 RESOURCE ID: poi_contrib_edit_report_supporting_statement
-TEXT: (Optional) Supporting statement
+TEXT: (任意) 補足説明
 
-RESOURCE ID: poi_contrib_entry_report_invalid_temp
-TEXT: Report PokéStop Issue
+RESOURCE ID: poi_contrib_entry_report_invalid
+TEXT: ポケストップの問題を報告
 
 RESOURCE ID: poi_contrib_location_does_not_exist
-TEXT: Location does not exist
+TEXT: 存在しない
 
 RESOURCE ID: poi_contrib_not_suitable_for_ar
-TEXT: Not suitable for AR experiences
+TEXT: AR体験に適さない
 
 RESOURCE ID: poi_contrib_not_suitable_for_ar_btn_disabled
-TEXT: This location is not supported for AR experiences
+TEXT: この場所でのAR体験はサポートされていません
 
 RESOURCE ID: poi_contrib_sensitive
-TEXT: Sensitive location
+TEXT: 配慮が必要な場所
 
 RESOURCE ID: poi_contrib_unsafe
-TEXT: Unsafe access
+TEXT: 安全でない
+
+RESOURCE ID: poi_retake_picture_msg
+TEXT: 
 
 RESOURCE ID: pokedex_mode_name_primal
 TEXT: ゲンシカイキ
@@ -1133,6 +1151,12 @@ TEXT: ポケモンが合体すると、ふたつのスペシャル背景が結�
 
 RESOURCE ID: special_background_fusion_header
 TEXT: スペシャル背景の結合
+
+RESOURCE ID: special_background_tutorial_header
+TEXT: スペシャル背景をゲットした！
+
+RESOURCE ID: special_background_tutorial_message
+TEXT: イベント開催中捕まえたポケモン詳細画面で表示されることがあります。
 
 RESOURCE ID: t5_bonus_explore_title
 TEXT: たくさん探索タイムチャレンジ

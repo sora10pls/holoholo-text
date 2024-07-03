@@ -52,6 +52,9 @@ TEXT: There was a problem with AR tracking. Please try rescanning the area aroun
 RESOURCE ID: ar_tracking_reconnecting
 TEXT: AR tracking reconnecting
 
+RESOURCE ID: avatar_alolanexeggutorhat
+TEXT: Alolan Exeggutor Hat
+
 RESOURCE ID: avatar_baggypants
 TEXT: Loose-Fitting Pants (Dark Gray)
 
@@ -91,6 +94,18 @@ TEXT: Glaceon T-Shirt
 RESOURCE ID: avatar_m_shirt_eeveestshirt_08_bundle_icon
 TEXT: Sylveon T-Shirt
 
+RESOURCE ID: avatar_necrozmaglasses
+TEXT: Necrozma Shades
+
+RESOURCE ID: avatar_necrozmajacket
+TEXT: Necrozma Jacket Set
+
+RESOURCE ID: avatar_necrozmapants
+TEXT: Necrozma Pants
+
+RESOURCE ID: avatar_necrozmashoes
+TEXT: Necrozma Boots
+
 RESOURCE ID: badge_airadventures_2024_yogyakarta_day_00_general_title
 TEXT: Pikachu’s Indonesia Journey
 
@@ -107,16 +122,16 @@ RESOURCE ID: badge_event_0090_title
 TEXT: Partner Research: 7-Eleven Korea
 
 RESOURCE ID: badge_event_0090_title_00
-TEXT: Partner Research: 7-Eleven Korea
+TEXT: Partner Research: 7-Eleven Korea (1/4)
 
 RESOURCE ID: badge_event_0090_title_01
-TEXT: Partner Research: 7-Eleven Korea
+TEXT: Partner Research: 7-Eleven Korea (2/4)
 
 RESOURCE ID: badge_event_0090_title_02
-TEXT: Partner Research: 7-Eleven Korea
+TEXT: Partner Research: 7-Eleven Korea (3/4)
 
 RESOURCE ID: badge_event_0090_title_03
-TEXT: Partner Research: 7-Eleven Korea
+TEXT: Partner Research: 7-Eleven Korea (4/4)
 
 RESOURCE ID: badge_event_0091
 TEXT: Partner Research – Shared Skies: Google Play Points
@@ -589,12 +604,6 @@ TEXT: This ticket will automatically activate to give you access to Timed Resear
 RESOURCE ID: item_event_ticket_10_name
 TEXT: Ticket
 
-RESOURCE ID: item_event_ticket_evergreen_desc_aquaticparadise24
-TEXT: A ticket to access the Wandering Waddles Timed Research until July 9, 2024, at 8:00 p.m. local time, wherever you are.
-
-RESOURCE ID: item_event_ticket_evergreen_details_aquaticparadise24
-TEXT: This ticket will automatically activate to give you access to the Wandering Waddles Timed Research on July 6, wherever you are.
-
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: A ticket to access the Whispers in the Woods Masterwork Research starting June 28, 2024, at 10:00 a.m. local time, wherever you are.
 
@@ -632,6 +641,9 @@ RESOURCE ID: item_event_ticket_pink_details_tynamocd24
 TEXT: This ticket will automatically activate to give you access to the Special Research story Watts Up on July 21, wherever you are.
 
 RESOURCE ID: item_evergreen_ticket_desc
+TEXT: A ticket to access the Wandering Waddles Timed Research until July 9, 2024, at 8:00 p.m. local time, wherever you are.
+
+RESOURCE ID: item_evergreen_ticket_desc_8thanniversary
 TEXT: A ticket to access the 8th Anniversary Party Premium Timed Research until July 3, 2024, at 8:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_evergreen_ticket_desc_slumberingsands
@@ -641,6 +653,9 @@ RESOURCE ID: item_evergreen_ticket_desc_spelunkerscove
 TEXT: A ticket to access the Beach Bash Timed Research until June 18, 2024, at 8:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_evergreen_ticket_details
+TEXT: This ticket will automatically activate to give you access to the Wandering Waddles Timed Research on July 6, wherever you are.
+
+RESOURCE ID: item_evergreen_ticket_details_8thanniversary
 TEXT: This ticket will automatically activate to give you access to the 8th Anniversary Party Premium Timed Research on June 28, wherever you are.
 
 RESOURCE ID: item_evergreen_ticket_details_slumberingsands
@@ -764,10 +779,10 @@ RESOURCE ID: masterwork_sc_title_5
 TEXT: Whispers in the Woods (6/6)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-07-01T22:21:55.885257+00:00 for en-US
-at SHA c6cdea10e8
-Pipeline 2436849, job 29535403
-Patch from: 0.321.0-SHA-bfe70c71-RC3, 0.319.0-SHA-0a543be8-RC1
+TEXT: Built at 2024-07-03T20:54:47.167612+00:00 for en-US
+at SHA 1e8ddcdfea4
+Pipeline 2442689, job 29621335
+Patch from: 0.321.0-SHA-c8813e1d-RC1, 0.319.0-SHA-0a543be8-RC1
 
 RESOURCE ID: n_shirt_eeveestshirt-04_0_display_name
 TEXT: Espeon T-Shirt
@@ -823,7 +838,7 @@ TEXT: Abuse
 RESOURCE ID: poi_contrib_edit_report_supporting_statement
 TEXT: (Optional) Supporting statement
 
-RESOURCE ID: poi_contrib_entry_report_invalid_temp
+RESOURCE ID: poi_contrib_entry_report_invalid
 TEXT: Report PokéStop Issue
 
 RESOURCE ID: poi_contrib_location_does_not_exist
@@ -833,13 +848,22 @@ RESOURCE ID: poi_contrib_not_suitable_for_ar
 TEXT: Not suitable for AR experiences
 
 RESOURCE ID: poi_contrib_not_suitable_for_ar_btn_disabled
-TEXT: This location is not supported for AR experiences
+TEXT: This location is not supported for AR experiences.
 
 RESOURCE ID: poi_contrib_sensitive
 TEXT: Sensitive location
 
 RESOURCE ID: poi_contrib_unsafe
 TEXT: Unsafe access
+
+RESOURCE ID: poi_contrib_upload_later_msg
+TEXT: When you are ready to upload, please go to Main menu page.
+
+RESOURCE ID: poi_retake_picture_msg
+TEXT: 
+
+RESOURCE ID: poi_sub_tut_desc_3
+TEXT: PokéStops should have educational and cultural value, and their locations should be safe and accessible to pedestrians. Avoid nominating locations at private residences, locations that are seasonal or nonpermanent, or locations that could interfere with emergency service vehicles.
 
 RESOURCE ID: pokedex_mode_name_primal
 TEXT: Primal Reversion
@@ -1018,6 +1042,12 @@ TEXT: When fusing certain Pokémon together, their Special Backgrounds will comb
 RESOURCE ID: special_background_fusion_header
 TEXT: Special Background Fusion
 
+RESOURCE ID: special_background_tutorial_header
+TEXT: You got a Special Background!
+
+RESOURCE ID: special_background_tutorial_message
+TEXT: These are rare backgrounds for a Pokémon’s summary page that you may receive when catching Pokémon during certain events.
+
 RESOURCE ID: t5_bonus_explore_title
 TEXT: Explore Galore Timed Research
 
@@ -1086,6 +1116,9 @@ TEXT: Inbound from Ultra Space Premium Timed Research (1/1)
 RESOURCE ID: tutorial_route_play_body_3
 TEXT: 1. Stay near the Route’s path to ensure your progress is recorded.
 2. You can complete a Route without traveling the full length of the Route, but you may earn reduced rewards by doing so.
+
+RESOURCE ID: upload_mgmt_upload_later_instruction
+TEXT: When you are ready to upload, please go to Main menu page.
 
 RESOURCE ID: vps_localization_error_too_far
 TEXT: Move closer to the target.
