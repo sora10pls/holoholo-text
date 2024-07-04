@@ -303,7 +303,7 @@ TEXT: 15. Juni um 10:00 Uhr –
 18. Juni um 20:00 Uhr
 
 RESOURCE ID: event_datetime_range_key_tynamocd24
-TEXT: July 21, 2:00 p.m. – 5:00 p.m.
+TEXT: 21. Juli, 14:00 bis 17:00 Uhr
 
 RESOURCE ID: event_datetime_range_key_ultraspace24
 TEXT: 23. Mai um 10:00 Uhr –
@@ -358,7 +358,7 @@ RESOURCE ID: general1.ticket_cyndaquilcdc2024_title
 TEXT: Ticket: Community Day Classic mit Feurigel
 
 RESOURCE ID: general1.ticket_tynamocd24_title
-TEXT: Tynamo Community Day Ticket
+TEXT: Ticket: Community Day mit Zapplardin
 
 RESOURCE ID: global_challenge_bonuses
 TEXT: Boni der Globalen Herausforderung
@@ -739,7 +739,7 @@ RESOURCE ID: item_event_ticket_pink_desc_goomy
 TEXT: Ein Ticket zur Teilnahme an der Spezialforschung zum Community Day mit Viscora am 9. Juni 2024 um 14:00 Uhr Ortszeit (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_pink_desc_tynamocd24
-TEXT: A ticket to access the Tynamo Community Day Special Research starting July 21 at 2:00 p.m. local time, wherever you are.
+TEXT: Ein Ticket zur Teilnahme an der Spezialforschung zum Community Day mit Zapplardin am 21. Juli 2024 um 14:00 Uhr Ortszeit (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_pink_details
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zum Spezialforschungs-Abenteuer des Community Day Classic mit Feurigel am 22. Juni 2024 (wo immer du dich befindest).
@@ -748,13 +748,13 @@ RESOURCE ID: item_event_ticket_pink_details_goomy
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Spezialforschung zum Community Day mit Viscora am 9. Juni 2024 (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_pink_details_tynamocd24
-TEXT: This ticket will automatically activate to give you access to the Special Research story Watts Up on July 21, wherever you are.
+TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zum Spezialforschungs-Abenteuer „Watt geht ab!“ am 21. Juli 2024 (wo immer du dich befindest).
 
 RESOURCE ID: item_evergreen_ticket_desc
-TEXT: Ein Ticket für den Zugang zur Befristeten Premium-Forschung zur Party zum 8. Jubiläum bis zum 3. Juli 2024 um 20:00 Uhr Ortszeit (wo immer du dich befindest).
-
-RESOURCE ID: item_evergreen_ticket_desc_aquaticparadise
 TEXT: Ein Ticket für den Zugang zur Befristeten Forschung „Wandernde Watschelei“ bis zum 9. Juli 2024 um 20:00 Uhr Ortszeit (wo immer du dich befindest).
+
+RESOURCE ID: item_evergreen_ticket_desc_8thanniversary
+TEXT: Ein Ticket für den Zugang zur Befristeten Premium-Forschung zur Party zum 8. Jubiläum bis zum 3. Juli 2024 um 20:00 Uhr Ortszeit (wo immer du dich befindest).
 
 RESOURCE ID: item_evergreen_ticket_desc_slumberingsands
 TEXT: Ein Ticket für den Zugang zur Befristeten Premium-Forschung „Schlummernder Sand“ bis zum 12. Juni 2024 um 20:00 Uhr Ortszeit (wo immer du dich befindest).
@@ -763,10 +763,10 @@ RESOURCE ID: item_evergreen_ticket_desc_spelunkerscove
 TEXT: Ein Ticket für den Zugang zur Befristeten Forschung Strandrandale bis zum 18. Juni 2024 um 20:00 Uhr Ortszeit (wo immer du dich befindest).
 
 RESOURCE ID: item_evergreen_ticket_details
-TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Premium-Forschung zur Party zum 8. Jubiläum am 28. Juni (wo immer du dich befindest).
-
-RESOURCE ID: item_evergreen_ticket_details_aquaticparadise
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Forschung „Wandernde Watschelei“ am 6. Juli (wo immer du dich befindest).
+
+RESOURCE ID: item_evergreen_ticket_details_8thanniversary
+TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Premium-Forschung zur Party zum 8. Jubiläum am 28. Juni (wo immer du dich befindest).
 
 RESOURCE ID: item_evergreen_ticket_details_slumberingsands
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Premium-Forschung „Schlummernder Sand“ am 7. Juni 2024 (wo immer du dich befindest).
@@ -889,10 +889,10 @@ RESOURCE ID: masterwork_sc_title_5
 TEXT: Waldgeflüster (6/6)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-07-03T22:06:01.034949+00:00 for de-DE
-at SHA 68def8b3c2
-Pipeline 2443081, job 29625148
-Patch from: 0.321.0-SHA-bfe70c71-RC3, 0.319.0-SHA-0a543be8-RC1
+TEXT: Built at 2024-07-04T17:02:07.732408+00:00 for de-DE
+at SHA f470e9c667c
+Pipeline 2444499, job 29648977
+Patch from: 0.321.0-SHA-96078b88-RC2, 0.319.0-SHA-f0faea37-RC2
 
 RESOURCE ID: n_shirt_eeveestshirt-04_0_display_name
 TEXT: Psiana-T-Shirt
@@ -1138,52 +1138,52 @@ RESOURCE ID: quest_special_dialogue_cyndaquil_3_3
 TEXT: Du enttäuschst mich wirklich nie, %PLAYERNAME%. Bis zum nächsten Abenteuer! Und vergiss nicht – immer cool bleiben!
 
 RESOURCE ID: quest_special_dialogue_tynamo_0_0
-TEXT: Perfect timing, %PLAYERNAME%! I’ve got an electrifying adventure lined up for you today.
+TEXT: Perfektes Timing, %PLAYERNAME%! Heute erwartet dich ein elektrisierendes Abenteuer.
 
 RESOURCE ID: quest_special_dialogue_tynamo_0_1
-TEXT: I’ve been monitoring some nearby waters and have picked up intriguing electrical signals.
+TEXT: Ich habe einige Gewässer in der Nähe untersucht und interessante elektrische Signale empfangen.
 
 RESOURCE ID: quest_special_dialogue_tynamo_0_2
-TEXT: If my hunch is correct, we’ve got a school of the Electric-type Pokémon Tynamo on our hands! Well, maybe not literally on our hands—they’re pretty zappy—but you know what I mean.
+TEXT: Wenn ich mit meiner Vermutung richtig liege, handelt es sich hier um einen Schwarm Zapplardin und sie sind zum Greifen nah! Naja, vielleicht nicht wortwörtlich zum Greifen – sie stehen ganz schön unter Strom – aber du weißt schon, was ich meine.
 
 RESOURCE ID: quest_special_dialogue_tynamo_0_3
-TEXT: See if you can spot any Tynamo out there. Even better if you can bring one back for us to study up close!
+TEXT: Guck doch mal, ob du da draußen ein paar Zapplardin ausfindig machen kannst. Besser wär’s natürlich, wenn du eins zurückbringst, damit wir es aus der Nähe untersuchen können!
 
 RESOURCE ID: quest_special_dialogue_tynamo_1_0
-TEXT: Welcome back, %PLAYERNAME%. I see I was right to charge you with researching Tynamo today!
+TEXT: Willkommen zurück, %PLAYERNAME%. Wie ich sehe, war es die richtige Entscheidung, dir heute die Forschung von Zapplardin anzuvertrauen!
 
 RESOURCE ID: quest_special_dialogue_tynamo_1_1
-TEXT: I just learned that one Tynamo alone can emit only a trickle of electricity, so a group of them gathers to unleash a powerful electric shock.
+TEXT: Ich habe gerade gelernt, dass sie alleine nur geringe Mengen an Elektrizität erzeugen, aber im Schwarm können sie mächtige Stromsalven abfeuern.
 
 RESOURCE ID: quest_special_dialogue_tynamo_1_2
-TEXT: And things get even more shocking once Tynamo evolves!
+TEXT: Es wird sogar noch schockierender, wenn sich Zapplardin entwickelt!
 
 RESOURCE ID: quest_special_dialogue_tynamo_1_3
-TEXT: Why don’t you try evolving your Tynamo into Eelektrik so we can study it together?
+TEXT: Warum versuchst du nicht mal, dein Zapplardin zu Zapplalek zu entwickeln, damit wir es gemeinsam untersuchen können?
 
 RESOURCE ID: quest_special_dialogue_tynamo_2_0
-TEXT: Incredible work, %PLAYERNAME%. Your Eelektrik has me en-wrap-tured! Get it? Because they coil around their prey!
+TEXT: Fantastische Arbeit, %PLAYERNAME%! Dein Zapplalek hat mich ja richtig um den Finger gewickelt! Verstehst du? Sie schlingen sich ja gerne um ihre Beute!
 
 RESOURCE ID: quest_special_dialogue_tynamo_2_1
-TEXT: Anyway... If you look closely, you can see these circular patterns along Eelektrik’s body are actually electricity-generating organs.
+TEXT: Wie dem auch sei ... Wenn du genau hinschaust, kannst du sehen, dass es sich bei diesen runden Flecken auf Zapplaleks Körper um stromerzeugende Organe handelt.
 
 RESOURCE ID: quest_special_dialogue_tynamo_2_2
-TEXT: That’s why I always pack a pair of rubber gloves. You never know when you’ll be handling Electric-type Pokémon.
+TEXT: Deshalb hab’ ich immer ein paar Gummihandschuhe dabei. Man weiß nie, wenn man mal Elektro-Pokémon händeln muss.
 
 RESOURCE ID: quest_special_dialogue_tynamo_2_3
-TEXT: Now, I think you’re ready to take this research up a notch and evolve your Eelektrik into Eelektross!
+TEXT: Ich glaube, du bist jetzt bereit, diese Forschung auf den nächsten Level zu bringen und dein Zapplalek zu Zapplarang zu entwickeln!
 
 RESOURCE ID: quest_special_dialogue_tynamo_3_0
-TEXT: Wow! What an achievement, %PLAYERNAME%. Your Eelektross has me totally amped!
+TEXT: Wow! Was für eine Leistung, %PLAYERNAME%! Dein Zapplarang versetzt mich in Hochspannung!
 
 RESOURCE ID: quest_special_dialogue_tynamo_3_1
-TEXT: Did you know that Eelektross’ fangs have electricity running through them? It makes me glad I didn’t become a Pokémon dentist! Haha.
+TEXT: Wusstest du schon, dass Elektrizität durch seine Fangzähne zirkuliert? Da bin ich doch froh, dass ich kein Pokémon-Zahnarzt bin! Haha.
 
 RESOURCE ID: quest_special_dialogue_tynamo_3_2
-TEXT: The fact that you’ve befriended such a phenomenal Electric-type Pokémon is grounds for celebration, I say!
+TEXT: Die Tatsache, dass du dich mit diesem phänomenalen Elektro-Pokémon angefreundet hast, muss meiner Meinung nach gefeiert werden!
 
 RESOURCE ID: quest_special_dialogue_tynamo_3_3
-TEXT: Keep up the fantastic work out there. I’m sure I’ll see you again soon. Until then, let’s GO!
+TEXT: Mach weiter so mit deiner fantastischen Arbeit. Ich bin mir sicher, dass wir uns bald wiedersehen werden. In der Zwischenzeit, nichts wie raus und GO!
 
 RESOURCE ID: quest_title_cyndaquil
 TEXT: Community Day Classic mit Feurigel
@@ -1307,9 +1307,9 @@ TEXT: <b>Enthält folgende Belohnungen:</b>
 • 20 Krabbox-Bonbons
 
 RESOURCE ID: text_rewards_key_tynamocd24
-TEXT: <b>Included rewards:</b>
-• Premium in-game items, such as Rare Candies, Ultra Balls, and more
-• Extra encounters with Tynamo and its Evolutions
+TEXT: <b>Enthält folgende Belohnungen:</b>
+• Hochwertige In-Game-Items wie Sonderbonbons, Hyperbälle und mehr 
+• Zusätzliche Begegnungen mit Zapplardin und seinen Entwicklungen
 
 RESOURCE ID: ticket_cyndaquil_cdc
 TEXT: Ticket für das Spezialforschungs-Abenteuer zum Community Day Classic mit Feurigel im Shop erhältlich
