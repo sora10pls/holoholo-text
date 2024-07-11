@@ -175,6 +175,9 @@ TEXT: Pikachu bertopi Kapten akan mempelajari Jurus Super Volt Tackle
 RESOURCE ID: bonus_cd_move_cyndaquil
 TEXT: Evolusikan Quilava untuk mendapatkan Typhlosion yang mempelajari Blast Burn!
 
+RESOURCE ID: bonus_cd_move_tynamo
+TEXT: Evolusikan Eelektrik untuk mendapatkan Eelektross yang mempelajari Volt Change!
+
 RESOURCE ID: bonus_extra_daily_raid_pass
 TEXT: Tambahan 1 Tiket Raid gratis setiap harinya dengan memutar Disk Foto Gym
 
@@ -183,6 +186,9 @@ TEXT: Bola Beast terbuka untuk Raid Ultra Beast selama Pokémon GO Fest 2024: Gl
 
 RESOURCE ID: bonus_fr_cap_pikachu
 TEXT: Penelitian Lapangan bertema Event berhadiah pertemuan dengan Pikachu bertopi Kapten
+
+RESOURCE ID: bonus_implicit_social_tynamo_raid
+TEXT: Jika Pelatih bekerja sama untuk memenangkan Raid Eelektrik, Tynamo akan muncul dalam jumlah besar di area selama 30 menit
 
 RESOURCE ID: bonus_party_power_charge
 TEXT: Penguat Grup terisi lebih cepat
@@ -712,22 +718,22 @@ RESOURCE ID: item_event_ticket_gray_details_ultraspacewonders
 TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Berwaktu: Keajaiban Ruang Ultra pada 23 Mei, di mana pun kamu berada.
 
 RESOURCE ID: item_event_ticket_pink_desc
+TEXT: Tiket untuk mengakses Penelitian Spesial: Hari Komunitas Tynamo mulai 21 Juli, pukul 14.00 waktu setempat, di mana pun kamu berada.
+
+RESOURCE ID: item_event_ticket_pink_desc_cyndaquil
 TEXT: Tiket untuk mengakses Penelitian Spesial Hari Komunitas Klasik: Cyndaquil pada 22 Juni, mulai pukul 14.00 waktu setempat, di mana pun kamu berada.
 
 RESOURCE ID: item_event_ticket_pink_desc_goomy
 TEXT: Tiket untuk mengakses Penelitian Spesial: Hari Komunitas Goomy mulai 9 Juni, pukul 14.00 waktu setempat, di mana pun kamu berada.
 
-RESOURCE ID: item_event_ticket_pink_desc_tynamocd24
-TEXT: Tiket untuk mengakses Penelitian Spesial: Hari Komunitas Tynamo mulai 21 Juli, pukul 14.00 waktu setempat, di mana pun kamu berada.
-
 RESOURCE ID: item_event_ticket_pink_details
+TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke cerita Penelitian Spesial: Kabar Listerik pada 21 Juli, di mana pun kamu berada.
+
+RESOURCE ID: item_event_ticket_pink_details_cyndaquil
 TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke cerita Penelitian Spesial: Hari Komunitas Klasik Cyndaquil, pada 22 Juni, di mana pun kamu berada.
 
 RESOURCE ID: item_event_ticket_pink_details_goomy
 TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Spesial: Hari Komunitas Goomy pada 9 Juni, di mana pun kamu berada.
-
-RESOURCE ID: item_event_ticket_pink_details_tynamocd24
-TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke cerita Penelitian Spesial: Kabar Listerik pada 21 Juli, di mana pun kamu berada.
 
 RESOURCE ID: item_evergreen_ticket_desc
 TEXT: Tiket untuk mengakses Penelitian Berwaktu: Berjalan di Tepi Air hingga 9 Juli 2024, pukul 20.00 waktu setempat, di mana pun kamu berada.
@@ -871,10 +877,10 @@ RESOURCE ID: meetups_ended_desc
 TEXT: Pertemuan telah selesai
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-07-09T20:25:51.464741+00:00 for id-ID
-at SHA 2e524a36b25
-Pipeline 2450452, job 29737358
-Patch from: 0.319.0-SHA-0a543be8-RC1, 0.321.0-SHA-0f9d1e61-RC7
+TEXT: Built at 2024-07-11T18:06:59.368818+00:00 for id-ID
+at SHA af408e09145
+Pipeline 2456004, job 29813912
+Patch from: 0.321.0-SHA-c4f9defd-RC1, 0.323.0-SHA-7b79b6f4-RC1, 0.319.0-SHA-819956ff-RC3
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Memancarkan sinar menyeramkan selama {0}. Memikat Pokémon yang ditemukan pada malam hari dan memperbolehkan Evolusi malam pada siang hari.
@@ -933,6 +939,9 @@ TEXT: LIHAT SEMUA GRUP
 RESOURCE ID: photobomb_five_cyndaquil
 TEXT: 5 pertemuan kejutan dengan Cyndaquil di Foto GO
 
+RESOURCE ID: photobomb_five_tynamo
+TEXT: 5 pertemuan kejutan dengan Tynamo di Foto GO
+
 RESOURCE ID: poi_contrib_abuse
 TEXT: Abusive content
 
@@ -980,6 +989,12 @@ TEXT: Evolusikan {0} Cyndaquil
 
 RESOURCE ID: quest_cyndaquil_evolve_b_singular
 TEXT: Evolusikan Cyndaquil
+
+RESOURCE ID: quest_eelektrik_evolve_b_plural
+TEXT: Evolusikan {0} Eelektrik
+
+RESOURCE ID: quest_eelektrik_evolve_b_singular
+TEXT: Evolusikan Eelektrik
 
 RESOURCE ID: quest_elite_raid_victory_plural
 TEXT: Menangkan {0} Raid Elite
@@ -1188,6 +1203,30 @@ TEXT: Penelitian Berwaktu Raid Elite: Mega Rayquaza
 RESOURCE ID: quest_title_elite_mega_ray_bonus
 TEXT: Bonus Penelitian Berwaktu Raid Elite: Mega Rayquaza
 
+RESOURCE ID: quest_title_tynamo
+TEXT: Kabar Listerik
+
+RESOURCE ID: quest_title_tynamo_0
+TEXT: Kabar Listerik (1/4)
+
+RESOURCE ID: quest_title_tynamo_1
+TEXT: Kabar Listerik (2/4)
+
+RESOURCE ID: quest_title_tynamo_2
+TEXT: Kabar Listerik (3/4)
+
+RESOURCE ID: quest_title_tynamo_3
+TEXT: Kabar Listerik (4/4)
+
+RESOURCE ID: quest_tynamo_catch_b
+TEXT: Tangkap {0} Tynamo
+
+RESOURCE ID: quest_tynamo_evolve_b_plural
+TEXT: Evolusikan {0} Tynamo
+
+RESOURCE ID: quest_tynamo_evolve_b_singular
+TEXT: Evolusikan Tynamo
+
 RESOURCE ID: rare_xl_candy_usage_confirmation
 TEXT: Ubah Permen Langka XL menjadi Permen XL {0}?
 
@@ -1232,6 +1271,9 @@ TEXT: 4707
 
 RESOURCE ID: spawn_cyndaquil
 TEXT: Lebih banyak Cyndaquil yang muncul di alam liar!
+
+RESOURCE ID: spawn_tynamo
+TEXT: Lebih banyak Tynamo yang muncul di alam liar!
 
 RESOURCE ID: special_background_filter_header
 TEXT: Latar Belakang Spesial
@@ -1319,6 +1361,9 @@ TEXT: Tiket untuk cerita Penelitian Spesial Hari Komunitas Klasik Cyndaquil ters
 
 RESOURCE ID: ticket_time_limit_reminder
 TEXT: Kamu harus bermain selama waktu tertentu untuk mendapatkan penelitian.
+
+RESOURCE ID: ticket_tynamo
+TEXT: Tiket untuk cerita Penelitian Spesial Hari Komunitas Tynamo tersedia di toko
 
 RESOURCE ID: timed_challenge_bonus_header_active_v2
 TEXT: BONUS AKTIF

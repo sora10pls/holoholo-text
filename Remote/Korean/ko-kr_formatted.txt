@@ -215,6 +215,9 @@ TEXT: 캡틴 모자를 쓴 피카츄가 볼트태클를 배운다
 RESOURCE ID: bonus_cd_move_cyndaquil
 TEXT: 마그케인을 블레이범으로 진화시키면 블라스트번을 배운다
 
+RESOURCE ID: bonus_cd_move_tynamo
+TEXT: 저리릴을 저리더프로 진화하면 볼트체인지를 배운다
+
 RESOURCE ID: bonus_extra_daily_raid_pass
 TEXT: 체육관의 포토디스크에서 하루에 받을 수 있는 레이드패스 1개 추가
 
@@ -224,11 +227,14 @@ TEXT: Pokémon GO Fest 2024: 글로벌 기간 중 울트라비스트 레이드�
 RESOURCE ID: bonus_fr_cap_pikachu
 TEXT: 캡틴 모자를 쓴 피카츄와 만날 수 있는 필드리서치
 
+RESOURCE ID: bonus_implicit_social_tynamo_raid
+TEXT: 트레이너가 협력해서 레이드배틀에서 저리릴을 이기면 그 체육관 주변에 30분동안 저리어가 나타남
+
 RESOURCE ID: bonus_party_power_charge
 TEXT: 팀 파워가 빨리 쌓인다
 
 RESOURCE ID: bonus_quaxly_special_event
-TEXT: More Quaxly are appearing in the wild
+TEXT: 꾸왁스가 야생에서 많이 출현
 
 RESOURCE ID: bonus_t5_raids_additional_candy
 TEXT: 별5 레이드에서 포켓몬을 잡았을 때 받을 수 있는 사탕 1개 추가
@@ -332,7 +338,7 @@ TEXT: 6월 15일 10시~
 6월 18일 20시
 
 RESOURCE ID: event_datetime_range_key_tynamocd24
-TEXT: July 21, 2:00 p.m. – 5:00 p.m.
+TEXT: 7월 21일 14시~17시
 
 RESOURCE ID: exit_to_map_button
 TEXT: 맵으로
@@ -395,7 +401,7 @@ RESOURCE ID: general1.ticket_cyndaquilcdc2024_title
 TEXT: 브케인 커뮤니티 데이(복각) 티켓
 
 RESOURCE ID: general1.ticket_tynamocd24_title
-TEXT: Tynamo Community Day Ticket
+TEXT: 저리어 커뮤니티 데이 티켓
 
 RESOURCE ID: general_catch
 TEXT: 잡기
@@ -819,22 +825,22 @@ RESOURCE ID: item_event_ticket_gray_details_ultraspacewonders
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 5월 23일에 울트라스페이스 원더 시간제한 리서치가 진행됩니다.
 
 RESOURCE ID: item_event_ticket_pink_desc
+TEXT: 현지시간 2024년 7월 21일 14시부터 저리어 커뮤니티 데이 스페셜리서치를 진행하기 위한 티켓.
+
+RESOURCE ID: item_event_ticket_pink_desc_cyndaquil
 TEXT: 현지시간 2024년 6월 22일 14시부터 브케인 커뮤니티 데이(복각) 스페셜리서치를 진행하기 위한 티켓.
 
 RESOURCE ID: item_event_ticket_pink_desc_goomy
 TEXT: 현지시간 2024년 6월 9일 14시부터 미끄메라 커뮤니티 데이 스페셜리서치를 진행하기 위한 티켓.
 
-RESOURCE ID: item_event_ticket_pink_desc_tynamocd24
-TEXT: A ticket to access the Tynamo Community Day Special Research starting July 21 at 2:00 p.m. local time, wherever you are.
-
 RESOURCE ID: item_event_ticket_pink_details
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2024년 7월 21일에 '전기물고기포켓몬의 수수께끼를 풀어라!' 스페셜리서치가 진행됩니다.
+
+RESOURCE ID: item_event_ticket_pink_details_cyndaquil
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2024년6월 22일에 커뮤니티 데이(복각): 브케인 스페셜리서치가 진행됩니다.
 
 RESOURCE ID: item_event_ticket_pink_details_goomy
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 6월 9일 미끄메라 커뮤니티 데이 스페셜리서치가 진행됩니다.
-
-RESOURCE ID: item_event_ticket_pink_details_tynamocd24
-TEXT: This ticket will automatically activate to give you access to the Special Research story Watts Up on July 21, wherever you are.
 
 RESOURCE ID: item_evergreen_ticket_desc
 TEXT: 현지시간 2024년 7월 9일 20시까지 물가의 산책 시간제한 리서치를 진행할 수 있는 티켓.
@@ -987,10 +993,10 @@ RESOURCE ID: meetups_ended_desc
 TEXT: 모임 종료
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-07-09T20:25:51.464741+00:00 for ko-KR
-at SHA 2e524a36b25
-Pipeline 2450452, job 29737358
-Patch from: 0.319.0-SHA-0a543be8-RC1, 0.321.0-SHA-0f9d1e61-RC7
+TEXT: Built at 2024-07-11T18:06:59.368818+00:00 for ko-KR
+at SHA af408e09145
+Pipeline 2456004, job 29813912
+Patch from: 0.321.0-SHA-c4f9defd-RC1, 0.323.0-SHA-7b79b6f4-RC1, 0.319.0-SHA-819956ff-RC3
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: 수상한 광선을 뿜어내 밤에 나타나는 포켓몬을 끌어와, 낮에도 밤의 진화를 가능하게 한다.
@@ -1058,6 +1064,9 @@ TEXT: 모든 그룹 보기
 RESOURCE ID: photobomb_five_cyndaquil
 TEXT: GO스냅샷으로 브케인의 서프라이즈 5회
 
+RESOURCE ID: photobomb_five_tynamo
+TEXT: GO스냅샷으로 저리어의 서프라이즈 5회
+
 RESOURCE ID: poi_contrib_abuse
 TEXT: Abusive content
 
@@ -1102,6 +1111,12 @@ TEXT: 브케인을 {0}마리  진화시킨다
 
 RESOURCE ID: quest_cyndaquil_evolve_b_singular
 TEXT: 브케인을 1마리  진화시킨다
+
+RESOURCE ID: quest_eelektrik_evolve_b_plural
+TEXT: 저리릴을 {0}마리 진화시킨다
+
+RESOURCE ID: quest_eelektrik_evolve_b_singular
+TEXT: 저리릴을 1마리 진화시킨다
 
 RESOURCE ID: quest_elite_raid_victory_plural
 TEXT: 엘리트 레이드에서 {0}번 이긴다
@@ -1337,6 +1352,30 @@ TEXT: 엘리트 레이드: 메가레쿠쟈 시간제한 리서치
 RESOURCE ID: quest_title_elite_mega_ray_bonus
 TEXT: 엘리트 레이드: 메가레쿠쟈 보너스 시간제한 리서치
 
+RESOURCE ID: quest_title_tynamo
+TEXT: 전기물고기포켓몬의 수수께끼를 풀어라!
+
+RESOURCE ID: quest_title_tynamo_0
+TEXT: 전기물고기포켓몬의 수수께끼를 풀어라!(1/4)
+
+RESOURCE ID: quest_title_tynamo_1
+TEXT: 전기물고기포켓몬의 수수께끼를 풀어라!(2/4)
+
+RESOURCE ID: quest_title_tynamo_2
+TEXT: 전기물고기포켓몬의 수수께끼를 풀어라!(3/4)
+
+RESOURCE ID: quest_title_tynamo_3
+TEXT: 전기물고기포켓몬의 수수께끼를 풀어라!(4/4)
+
+RESOURCE ID: quest_tynamo_catch_b
+TEXT: 저리어를을 {0}마리 잡는다
+
+RESOURCE ID: quest_tynamo_evolve_b_plural
+TEXT: 저리어를 {0}마리 진화시킨다
+
+RESOURCE ID: quest_tynamo_evolve_b_singular
+TEXT: 저리어를 1마리 진화시킨다
+
 RESOURCE ID: recall_pokemon_button
 TEXT: 모두 돌아오게 하기
 
@@ -1499,6 +1538,9 @@ TEXT: 4707
 RESOURCE ID: spawn_cyndaquil
 TEXT: 브케인이 야생에서 많이 출현!
 
+RESOURCE ID: spawn_tynamo
+TEXT: 저리어가 야생에서 많이 출현!
+
 RESOURCE ID: special_background_filter_header
 TEXT: 스페셜 배경
 
@@ -1574,15 +1616,18 @@ TEXT: <b>받을 수 있는 것:</b>
 - 오기지게의 사탕 20개 등
 
 RESOURCE ID: text_rewards_key_tynamocd24
-TEXT: <b>Included rewards:</b>
-• Premium in-game items, such as Rare Candies, Ultra Balls, and more
-• Extra encounters with Tynamo and its Evolutions
+TEXT: <b>받을 수 있는 것:</b>
+- 저리어와 그 진화형 포켓몬과의 만남
+- 이상한사탕, 하이퍼볼 등
 
 RESOURCE ID: ticket_cyndaquil_cdc
 TEXT: 브케인 커뮤니티 데이(복각) 스페셜리서치 티켓이 숍에 등장
 
 RESOURCE ID: ticket_time_limit_reminder
 TEXT: 기재된 시간내에 플레이해서 티켓 관련 리워드와 보너스를 받아 주세요.
+
+RESOURCE ID: ticket_tynamo
+TEXT: 저리어 커뮤니티 데이 스페셜리서치 티켓이 숍에 등장
 
 RESOURCE ID: timed_challenge_bonus_header_active_v2
 TEXT: 적용 보너스

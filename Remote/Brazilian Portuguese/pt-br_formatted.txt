@@ -166,6 +166,9 @@ TEXT: Pesquisa de parceiros: Google Play Points (3/4)
 RESOURCE ID: badge_event_0091_title_03
 TEXT: Pesquisa de parceiros: Google Play Points (4/4)
 
+RESOURCE ID: badge_mini_collection_singular
+TEXT: Complete desafios de coleção.
+
 RESOURCE ID: badge_unique_route_play
 TEXT: Complete {0} Rotas únicas.
 
@@ -178,6 +181,9 @@ TEXT: Pikachu usando o chapéu do Cap saberão o ataque carregado Investida Trov
 RESOURCE ID: bonus_cd_move_cyndaquil
 TEXT: Evolua Quilava para conseguir Typhlosion que sabe o ataque carregado Queimadura Explosiva!
 
+RESOURCE ID: bonus_cd_move_tynamo
+TEXT: Evolua Eelektrik para conseguir Eelektross que sabe o ataque ágil Troca Elétrica!
+
 RESOURCE ID: bonus_extra_daily_raid_pass
 TEXT: Um Passe de Reide gratuito adicional por dia ao girar fotodiscos de Ginásios
 
@@ -186,6 +192,9 @@ TEXT: Bolas Criatura desbloqueadas para Reides de Ultracriaturas durante o Festi
 
 RESOURCE ID: bonus_fr_cap_pikachu
 TEXT: Pesquisas de campo temáticas de evento concedendo encontros com Pikachu usando o chapéu do Cap
+
+RESOURCE ID: bonus_implicit_social_tynamo_raid
+TEXT: Se Treinadores trabalharem juntos para vencer um Reide de Eelektrik, um grande número de Tynamo aparecerá na área por 30 minutos
 
 RESOURCE ID: bonus_party_power_charge
 TEXT: Poder de Grupo carrega mais rápido
@@ -710,16 +719,16 @@ RESOURCE ID: item_event_ticket_gray_details_ultraspacewonders
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a pesquisa temporária Maravilhas do Ultraespaço no dia 23 de maio de 2024, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_pink_desc
+TEXT: Um ingresso para acessar a pesquisa especial do Dia Comunitário de Tynamo a partir de 21 de julho, às 14h do seu horário local, de onde você estiver.
+
+RESOURCE ID: item_event_ticket_pink_desc_cyndaquil
 TEXT: Um ingresso para acessar a pesquisa especial do Clássicos do Dia Comunitário de Cyndaquil a partir de 22 de junho, às 14h do seu horário local, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_pink_desc_goomy
 TEXT: Um ingresso para acessar a pesquisa especial do Dia Comunitário de Goomy a partir de 9 de junho, às 14h do seu horário local, de onde você estiver.
 
-RESOURCE ID: item_event_ticket_pink_desc_tynamocd24
-TEXT: Um ingresso para acessar a pesquisa especial do Dia Comunitário de Tynamo a partir de 21 de julho, às 14h do seu horário local, de onde você estiver.
-
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a narrativa de pesquisa especial do Clássicos do Dia Comunitário: Cyndaquil no dia 22 de junho, de onde você estiver.
+TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a narrativa de pesquisa especial de Se Liga Aí no dia 21 de julho, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_pink_details_axew
 TEXT: Esse ingresso será ativado automaticamente para lhe garantir acesso a pesquisa especial do Dia Comunitário de Axew no sábado, 10 de junho de 2023, das 14h às 17h do seu horário local, de onde você estiver.
@@ -744,6 +753,9 @@ TEXT: Esse ingresso será ativado automaticamente para lhe garantir acesso a pes
 
 RESOURCE ID: item_event_ticket_pink_details_cleffahatch
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a Pesquisa Temporária Premium de O Dia de chocar Cleffa, de onde você estiver.
+
+RESOURCE ID: item_event_ticket_pink_details_cyndaquil
+TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a narrativa de pesquisa especial do Clássicos do Dia Comunitário: Cyndaquil no dia 22 de junho, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_pink_details_dec2023cd
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a pesquisa especial entre os dias 16 e 17 de dezembro de 2023, de onde você estiver.
@@ -801,9 +813,6 @@ TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a pes
 
 RESOURCE ID: item_event_ticket_pink_details_timburr
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a pesquisa especial do Dia Comunitário de Timburr, de onde você estiver.
-
-RESOURCE ID: item_event_ticket_pink_details_tynamocd24
-TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a narrativa de pesquisa especial de Se Liga Aí no dia 21 de julho, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_pink_details_wooper
 TEXT: Esse ingresso será ativado automaticamente para lhe garantir acesso a narrativa de pesquisa especial de Um amiguinho na lama no dia 5 de novembro de 2023, de onde você estiver.
@@ -1022,10 +1031,10 @@ RESOURCE ID: masterwork_sc_title_5
 TEXT: Sussurros na Floresta (6/6)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-07-09T20:25:51.464741+00:00 for pt-BR
-at SHA 2e524a36b25
-Pipeline 2450452, job 29737358
-Patch from: 0.319.0-SHA-0a543be8-RC1, 0.321.0-SHA-0f9d1e61-RC7
+TEXT: Built at 2024-07-11T18:06:59.368818+00:00 for pt-BR
+at SHA af408e09145
+Pipeline 2456004, job 29813912
+Patch from: 0.321.0-SHA-c4f9defd-RC1, 0.323.0-SHA-7b79b6f4-RC1, 0.319.0-SHA-819956ff-RC3
 
 RESOURCE ID: n_shirt_eeveestshirt-04_0_display_name
 TEXT: Camiseta de Espeon
@@ -1078,26 +1087,32 @@ TEXT: VER TODOS OS GRUPOS
 RESOURCE ID: photobomb_five_cyndaquil
 TEXT: 5 encontros surpresa com Cyndaquil ao usar o Retrato GO
 
+RESOURCE ID: photobomb_five_tynamo
+TEXT: 5 encontros surpresa com Tynamo ao usar o Retrato GO
+
 RESOURCE ID: poi_contrib_abuse
-TEXT: Abusive content
+TEXT: Conteúdo abusivo
 
 RESOURCE ID: poi_contrib_edit_report_supporting_statement
-TEXT: (Optional) Supporting statement
+TEXT: (Opcional) Declaração de suporte
+
+RESOURCE ID: poi_contrib_entry_report_invalid
+TEXT: Reportar problema com a Poképarada
 
 RESOURCE ID: poi_contrib_location_does_not_exist
-TEXT: Location does not exist
+TEXT: Local inexistente
 
 RESOURCE ID: poi_contrib_not_suitable_for_ar
-TEXT: Not suitable for AR experiences
+TEXT: Não é adequado para experiências de RA
 
 RESOURCE ID: poi_contrib_not_suitable_for_ar_btn_disabled
-TEXT: This location is not supported for AR experiences.
+TEXT: Este local não é compatível com experiências de RA.
 
 RESOURCE ID: poi_contrib_sensitive
-TEXT: Sensitive location
+TEXT: Local sensível
 
 RESOURCE ID: poi_contrib_unsafe
-TEXT: Unsafe access
+TEXT: Acesso inseguro
 
 RESOURCE ID: poi_retake_picture_msg
 TEXT: 
@@ -1122,6 +1137,12 @@ TEXT: Evoluir {0} Cyndaquil.
 
 RESOURCE ID: quest_cyndaquil_evolve_b_singular
 TEXT: Evoluir 1 Cyndaquil.
+
+RESOURCE ID: quest_eelektrik_evolve_b_plural
+TEXT: Evoluir {0} Eelektrik.
+
+RESOURCE ID: quest_eelektrik_evolve_b_singular
+TEXT: Evoluir 1 Eelektrik.
 
 RESOURCE ID: quest_elite_raid_victory_plural
 TEXT: Vencer {0} Reides de Elite.
@@ -1330,6 +1351,30 @@ TEXT: Pesquisa temporária de Reide de Elite: Mega Rayquaza
 RESOURCE ID: quest_title_elite_mega_ray_bonus
 TEXT: Pesquisa temporária bônus de Reide de Elite: Mega Rayquaza
 
+RESOURCE ID: quest_title_tynamo
+TEXT: Se Liga Aí.
+
+RESOURCE ID: quest_title_tynamo_0
+TEXT: Se Liga Aí (1/4)
+
+RESOURCE ID: quest_title_tynamo_1
+TEXT: Se Liga Aí (2/4)
+
+RESOURCE ID: quest_title_tynamo_2
+TEXT: Se Liga Aí (3/4)
+
+RESOURCE ID: quest_title_tynamo_3
+TEXT: Se Liga Aí (4/4)
+
+RESOURCE ID: quest_tynamo_catch_b
+TEXT: Pegar {0} Tynamo.
+
+RESOURCE ID: quest_tynamo_evolve_b_plural
+TEXT: Evoluir {0} Tynamo.
+
+RESOURCE ID: quest_tynamo_evolve_b_singular
+TEXT: Evoluir 1 Tynamo.
+
 RESOURCE ID: route_play_completion_reject_description_secondary
 TEXT: Retome a Rota e volte ao ponto final quando tiver percorrido mais distância.
 
@@ -1362,6 +1407,9 @@ TEXT: 4707
 
 RESOURCE ID: spawn_cyndaquil
 TEXT: Cyndaquil selvagens estão aparecendo com mais frequência!
+
+RESOURCE ID: spawn_tynamo
+TEXT: Tynamo selvagens estão aparecendo com mais frequência!
 
 RESOURCE ID: special_background_filter_header
 TEXT: Fundo Especial
@@ -1443,6 +1491,9 @@ TEXT: O ingresso para a narrativa de pesquisa especial do Clássicos do Dia Comu
 
 RESOURCE ID: ticket_time_limit_reminder
 TEXT: Você deve jogar durante o horário especificado para receber a pesquisa.
+
+RESOURCE ID: ticket_tynamo
+TEXT: Ingresso para a narrativa de pesquisa especial do Dia Comunitário de Tynamo está disponível na loja
 
 RESOURCE ID: timed_challenge_bonus_header_active_v2
 TEXT: BÔNUS ATIVOS!

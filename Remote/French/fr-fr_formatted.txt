@@ -184,6 +184,9 @@ TEXT: Les Pikachu portant la casquette de Cap connaîtront l’Attaque Chargée 
 RESOURCE ID: bonus_cd_move_cyndaquil
 TEXT: Fais évoluer Feurisson pour obtenir un Typhlosion connaissant l’Attaque Chargée Rafale Feu !
 
+RESOURCE ID: bonus_cd_move_tynamo
+TEXT: Fais évoluer Lampéroie pour obtenir un Ohmassacre connaissant l’Attaque Immédiate Change Éclair.
+
 RESOURCE ID: bonus_extra_daily_raid_pass
 TEXT: 1 passe de Raid gratuit supplémentaire par jour en faisant tourner les PhotoDisques des Arènes
 
@@ -192,6 +195,9 @@ TEXT: Ultra Balls disponibles pour les Raids Ultra Ball lors du Festival Pokémo
 
 RESOURCE ID: bonus_fr_cap_pikachu
 TEXT: Tâches d’Études de terrain sur le thème de l’évènement offrant des rencontres avec Pikachu portant la casquette de Cap
+
+RESOURCE ID: bonus_implicit_social_tynamo_raid
+TEXT: Si des Dresseurs et Dresseuses collaborent pour remporter un Raid face à Lampéroie, un grand nombre d’Anchwatt apparaîtront dans les environs pendant 30 minutes
 
 RESOURCE ID: bonus_party_power_charge
 TEXT: La Puissance d’équipe se charge plus rapidement
@@ -770,22 +776,22 @@ RESOURCE ID: item_event_ticket_gray_details_ultraspacewonders
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude ponctuelle Merveilles de l’Ultra-Dimension le 23 mai, où que tu sois.
 
 RESOURCE ID: item_event_ticket_pink_desc
+TEXT: Un ticket pour accéder à l’Étude spéciale de la Journée Communauté d’Anchwatt dès le 21 juillet 2024 à 14h, heure locale, où que tu sois.
+
+RESOURCE ID: item_event_ticket_pink_desc_cyndaquil
 TEXT: Un ticket pour accéder à l’Étude spéciale : Les classiques de la Journée Communauté – Héricendre, dès le 22 juin 2024 à 14h, heure locale, où que tu sois.
 
 RESOURCE ID: item_event_ticket_pink_desc_goomy
 TEXT: Un ticket pour accéder à l’Étude spéciale de la Journée Communauté de Mucuscule dès le 9 juin 2024 à 14h, heure locale, où que tu sois.
 
-RESOURCE ID: item_event_ticket_pink_desc_tynamocd24
-TEXT: Un ticket pour accéder à l’Étude spéciale de la Journée Communauté d’Anchwatt dès le 21 juillet 2024 à 14h, heure locale, où que tu sois.
-
 RESOURCE ID: item_event_ticket_pink_details
+TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude spéciale “Ambiance électrique” le 21 juillet, où que tu sois.
+
+RESOURCE ID: item_event_ticket_pink_details_cyndaquil
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude spéciale : Les classiques de la Journée Communauté – Héricendre, le 22 juin, où que tu sois.
 
 RESOURCE ID: item_event_ticket_pink_details_goomy
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude spéciale de la Journée Communauté de Mucuscule le 9 juin, où que tu sois.
-
-RESOURCE ID: item_event_ticket_pink_details_tynamocd24
-TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude spéciale “Ambiance électrique” le 21 juillet, où que tu sois.
 
 RESOURCE ID: item_evergreen_ticket_desc
 TEXT: Un ticket pour accéder à l’Étude ponctuelle Démarche dandinante jusqu’au 9 juillet 2024 à 20h, heure locale, où que tu sois.
@@ -932,10 +938,10 @@ RESOURCE ID: masterwork_sc_title_5
 TEXT: Murmures dans les bois (6/6)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-07-09T20:25:51.464741+00:00 for fr-FR
-at SHA 2e524a36b25
-Pipeline 2450452, job 29737358
-Patch from: 0.319.0-SHA-0a543be8-RC1, 0.321.0-SHA-0f9d1e61-RC7
+TEXT: Built at 2024-07-11T18:06:59.368818+00:00 for fr-FR
+at SHA af408e09145
+Pipeline 2456004, job 29813912
+Patch from: 0.321.0-SHA-c4f9defd-RC1, 0.323.0-SHA-7b79b6f4-RC1, 0.319.0-SHA-819956ff-RC3
 
 RESOURCE ID: n_shirt_eeveestshirt-04_0_display_name
 TEXT: T-shirt Mentali
@@ -997,26 +1003,32 @@ TEXT: VOIR TOUS LES GROUPES
 RESOURCE ID: photobomb_five_cyndaquil
 TEXT: Héricendre s’introduit 5 fois dans tes Clichés GO
 
+RESOURCE ID: photobomb_five_tynamo
+TEXT: Anchwatt s’introduit 5 fois dans tes Clichés GO
+
 RESOURCE ID: poi_contrib_abuse
-TEXT: Abusive content
+TEXT: Contenu abusif
 
 RESOURCE ID: poi_contrib_edit_report_supporting_statement
-TEXT: (Optional) Supporting statement
+TEXT: (Facultatif) Prise en charge
+
+RESOURCE ID: poi_contrib_entry_report_invalid
+TEXT: Signaler un problème avec un PokéStop
 
 RESOURCE ID: poi_contrib_location_does_not_exist
-TEXT: Location does not exist
+TEXT: Le lieu n'existe pas
 
 RESOURCE ID: poi_contrib_not_suitable_for_ar
-TEXT: Not suitable for AR experiences
+TEXT: Non adapté à l’expérience RA
 
 RESOURCE ID: poi_contrib_not_suitable_for_ar_btn_disabled
-TEXT: This location is not supported for AR experiences.
+TEXT: Ce site ne prend pas en charge les expériences RA.
 
 RESOURCE ID: poi_contrib_sensitive
-TEXT: Sensitive location
+TEXT: Site sensible
 
 RESOURCE ID: poi_contrib_unsafe
-TEXT: Unsafe access
+TEXT: Accès dangereux
 
 RESOURCE ID: pokedex_mode_name_primal
 TEXT: Primo-Résurgence
@@ -1038,6 +1050,12 @@ TEXT: Fais évoluer {0} Héricendre
 
 RESOURCE ID: quest_cyndaquil_evolve_b_singular
 TEXT: Fais évoluer un Héricendre
+
+RESOURCE ID: quest_eelektrik_evolve_b_plural
+TEXT: Fais évoluer {0} Lampéroie
+
+RESOURCE ID: quest_eelektrik_evolve_b_singular
+TEXT: Fais évoluer un Lampéroie
 
 RESOURCE ID: quest_elite_raid_victory_plural
 TEXT: Gagne {0} Raids d’élite
@@ -1246,6 +1264,30 @@ TEXT: Étude ponctuelle – Raid d’élite : Méga-Rayquaza
 RESOURCE ID: quest_title_elite_mega_ray_bonus
 TEXT: Étude ponctuelle bonus – Raid d’élite : Méga-Rayquaza
 
+RESOURCE ID: quest_title_tynamo
+TEXT: Ambiance électrique
+
+RESOURCE ID: quest_title_tynamo_0
+TEXT: Ambiance électrique (1/4)
+
+RESOURCE ID: quest_title_tynamo_1
+TEXT: Ambiance électrique (2/4)
+
+RESOURCE ID: quest_title_tynamo_2
+TEXT: Ambiance électrique (3/4)
+
+RESOURCE ID: quest_title_tynamo_3
+TEXT: Ambiance électrique (4/4)
+
+RESOURCE ID: quest_tynamo_catch_b
+TEXT: Attrape {0} Anchwatt
+
+RESOURCE ID: quest_tynamo_evolve_b_plural
+TEXT: Fais évoluer {0} Anchwatt
+
+RESOURCE ID: quest_tynamo_evolve_b_singular
+TEXT: Fais évoluer un Anchwatt
+
 RESOURCE ID: recall_pokemon_button
 TEXT: Rappeler tous les Pokémon
 
@@ -1278,6 +1320,9 @@ TEXT: 4707
 
 RESOURCE ID: spawn_cyndaquil
 TEXT: Davantage de Héricendre apparaissent dans la nature.
+
+RESOURCE ID: spawn_tynamo
+TEXT: Davantage d’Anchwatt apparaissent dans la nature.
 
 RESOURCE ID: special_background_filter_header
 TEXT: Fond spécial
@@ -1354,6 +1399,9 @@ TEXT: Ticket pour l’Étude spéciale dans la Boutique : Les classiques de la 
 
 RESOURCE ID: ticket_time_limit_reminder
 TEXT: Tu dois jouer pendant les heures indiquées pour recevoir l’Étude.
+
+RESOURCE ID: ticket_tynamo
+TEXT: Ticket pour l’Étude spéciale de la Journée Communauté d’Anchwatt dans la Boutique
 
 RESOURCE ID: timed_challenge_bonus_header_active_v2
 TEXT: BONUS ACTIFS

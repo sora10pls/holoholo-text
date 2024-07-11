@@ -187,6 +187,9 @@ TEXT: Pikachu con cappello di Cap conoscerà l’attacco caricato Locomovolt
 RESOURCE ID: bonus_cd_move_cyndaquil
 TEXT: Fai evolvere Quilava per ottenere un Typhlosion che conosce l’attacco caricato Incendio!
 
+RESOURCE ID: bonus_cd_move_tynamo
+TEXT: Fai evolvere Eelektrik per ottenere un Eelektross che conosce l’attacco veloce Invertivolt!
+
 RESOURCE ID: bonus_extra_daily_raid_pass
 TEXT: Un biglietto raid gratuito aggiuntivo al giorno facendo girare i dischi foto delle Palestre
 
@@ -195,6 +198,9 @@ TEXT: Sblocca le UC Ball per i raid Ultracreatura durante il Festival di Pokémo
 
 RESOURCE ID: bonus_fr_cap_pikachu
 TEXT: Ricerca sul campo a tema che offre incontri con Pikachu con cappello di Cap
+
+RESOURCE ID: bonus_implicit_social_tynamo_raid
+TEXT: Se gli Allenatori collaborano per sconfiggere Eelektrik in un raid, un gran numero di Tynamo apparirà in zona per 30 minuti
 
 RESOURCE ID: bonus_party_power_charge
 TEXT: Il potenziamento di gruppo avviene più rapidamente
@@ -804,22 +810,22 @@ RESOURCE ID: item_event_ticket_gray_details_ultraspacewonders
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo “Meraviglie dall’Ultramondo” il 23 maggio, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_pink_desc
+TEXT: Un biglietto per accedere alla ricerca speciale del Community Day dedicato a Tynamo il 21 luglio alle 14:00 ora locale, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_pink_desc_cyndaquil
 TEXT: Un biglietto per accedere alla ricerca speciale del Community Day Classico dedicato a Cyndaquil il 22 giugno alle 14:00 ora locale, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_pink_desc_goomy
 TEXT: Un biglietto per accedere alla ricerca speciale del Community Day dedicato a Goomy il 9 giugno alle 14:00 ora locale, ovunque ti trovi.
 
-RESOURCE ID: item_event_ticket_pink_desc_tynamocd24
-TEXT: Un biglietto per accedere alla ricerca speciale del Community Day dedicato a Tynamo il 21 luglio alle 14:00 ora locale, ovunque ti trovi.
-
 RESOURCE ID: item_event_ticket_pink_details
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca speciale “Alla carica” il 21 luglio, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_pink_details_cyndaquil
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca speciale del Community Day Classico dedicato a Cyndaquil il 22 giugno, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_pink_details_goomy
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca speciale del Community Day dedicato a Goomy il 9 giugno, ovunque ti trovi.
-
-RESOURCE ID: item_event_ticket_pink_details_tynamocd24
-TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca speciale “Alla carica” il 21 luglio, ovunque ti trovi.
 
 RESOURCE ID: item_evergreen_ticket_desc
 TEXT: Un biglietto per accedere alla ricerca a tempo “Trotterellando in giro” fino al 9 luglio 2024 alle 20:00 ora locale, ovunque ti trovi.
@@ -969,10 +975,10 @@ RESOURCE ID: masterwork_sc_title_5
 TEXT: Sussurri nel bosco (6/6)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-07-09T20:25:51.464741+00:00 for it-IT
-at SHA 2e524a36b25
-Pipeline 2450452, job 29737358
-Patch from: 0.319.0-SHA-0a543be8-RC1, 0.321.0-SHA-0f9d1e61-RC7
+TEXT: Built at 2024-07-11T18:06:59.368818+00:00 for it-IT
+at SHA af408e09145
+Pipeline 2456004, job 29813912
+Patch from: 0.321.0-SHA-c4f9defd-RC1, 0.323.0-SHA-7b79b6f4-RC1, 0.319.0-SHA-819956ff-RC3
 
 RESOURCE ID: n_shirt_eeveestshirt-04_0_display_name
 TEXT: T-shirt Espeon
@@ -1034,26 +1040,32 @@ TEXT: VEDI TUTTI I GRUPPI
 RESOURCE ID: photobomb_five_cyndaquil
 TEXT: Cinque incontri a sorpresa con Cyndaquil in modalità foto GO
 
+RESOURCE ID: photobomb_five_tynamo
+TEXT: Cinque incontri a sorpresa con Tynamo in modalità foto GO
+
 RESOURCE ID: poi_contrib_abuse
-TEXT: Abusive content
+TEXT: Contenuto offensivo
 
 RESOURCE ID: poi_contrib_edit_report_supporting_statement
-TEXT: (Optional) Supporting statement
+TEXT: Commento aggiuntivo (facoltativo)
+
+RESOURCE ID: poi_contrib_entry_report_invalid
+TEXT: Segnala problema con un Pokéstop
 
 RESOURCE ID: poi_contrib_location_does_not_exist
-TEXT: Location does not exist
+TEXT: Luogo non esistente
 
 RESOURCE ID: poi_contrib_not_suitable_for_ar
-TEXT: Not suitable for AR experiences
+TEXT: Non adatto per modalità AR
 
 RESOURCE ID: poi_contrib_not_suitable_for_ar_btn_disabled
-TEXT: This location is not supported for AR experiences.
+TEXT: Questo luogo non è supportato per la modalità AR.
 
 RESOURCE ID: poi_contrib_sensitive
-TEXT: Sensitive location
+TEXT: Luogo inappropriato
 
 RESOURCE ID: poi_contrib_unsafe
-TEXT: Unsafe access
+TEXT: Accesso non sicuro
 
 RESOURCE ID: poi_retake_picture_msg
 TEXT: 
@@ -1084,6 +1096,12 @@ TEXT: Fai evolvere {0} Cyndaquil
 
 RESOURCE ID: quest_cyndaquil_evolve_b_singular
 TEXT: Fai evolvere un Cyndaquil
+
+RESOURCE ID: quest_eelektrik_evolve_b_plural
+TEXT: Fai evolvere {0} Eelektrik
+
+RESOURCE ID: quest_eelektrik_evolve_b_singular
+TEXT: Fai evolvere un Eelektrik
 
 RESOURCE ID: quest_elite_raid_victory_plural
 TEXT: Vinci {0} raid fuoriclasse
@@ -1310,6 +1328,30 @@ TEXT: Ricerca a tempo del raid fuoriclasse contro MegaRayquaza
 RESOURCE ID: quest_title_elite_mega_ray_bonus
 TEXT: Ricerca a tempo aggiuntiva del raid fuoriclasse contro MegaRayquaza
 
+RESOURCE ID: quest_title_tynamo
+TEXT: Alla carica
+
+RESOURCE ID: quest_title_tynamo_0
+TEXT: Alla carica (1/4)
+
+RESOURCE ID: quest_title_tynamo_1
+TEXT: Alla carica (2/4)
+
+RESOURCE ID: quest_title_tynamo_2
+TEXT: Alla carica (3/4)
+
+RESOURCE ID: quest_title_tynamo_3
+TEXT: Alla carica (4/4)
+
+RESOURCE ID: quest_tynamo_catch_b
+TEXT: Cattura {0} Tynamo
+
+RESOURCE ID: quest_tynamo_evolve_b_plural
+TEXT: Fai evolvere {0} Tynamo
+
+RESOURCE ID: quest_tynamo_evolve_b_singular
+TEXT: Fai evolvere un Tynamo
+
 RESOURCE ID: recall_pokemon_button
 TEXT: Richiama tutti i Pokémon
 
@@ -1348,6 +1390,9 @@ TEXT: 4707
 
 RESOURCE ID: spawn_cyndaquil
 TEXT: Più Cyndaquil stanno apparendo allo stato selvatico!
+
+RESOURCE ID: spawn_tynamo
+TEXT: Più Tynamo stanno apparendo allo stato selvatico!
 
 RESOURCE ID: special_background_filter_header
 TEXT: Sfondo speciale
@@ -1440,6 +1485,9 @@ TEXT: I biglietti per la ricerca speciale del Community Day Classico dedicato a 
 
 RESOURCE ID: ticket_time_limit_reminder
 TEXT: Per ricevere la ricerca, è necessario giocare durante la fascia oraria indicata.
+
+RESOURCE ID: ticket_tynamo
+TEXT: I biglietti per la ricerca speciale del Community Day dedicato a Tynamo sono disponibili nel negozio
 
 RESOURCE ID: timed_challenge_bonus_header_active_v2
 TEXT: BONUS ATTIVI

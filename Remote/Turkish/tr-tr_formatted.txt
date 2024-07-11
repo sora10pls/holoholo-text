@@ -181,6 +181,9 @@ TEXT: Kaptan şapkalı Pikachu Volt Vuruşu güçlü saldırısını biliyor ola
 RESOURCE ID: bonus_cd_move_cyndaquil
 TEXT: Quilava’yı evrimleştirerek Tahrip Yanığı güçlü saldırısını bilen Typhlosion elde edin!
 
+RESOURCE ID: bonus_cd_move_tynamo
+TEXT: Eelektrik’i evrimleştirerek Volt Değişimi hızlı saldırısını bilen Eelektross elde edin!
+
 RESOURCE ID: bonus_extra_daily_raid_pass
 TEXT: Spor salonu fotoğraf disklerini döndürerek günde fazladan bir adet ücretsiz Akın Bileti
 
@@ -189,6 +192,9 @@ TEXT: Pokémon GO Festivali 2024: Küresel boyunca Ultra Yaratık akınlarında 
 
 RESOURCE ID: bonus_fr_cap_pikachu
 TEXT: Etkinlik temalı alan araştırmaları kaptan şapkalı Pikachu ile karşılaşmalar kazandırıyor
+
+RESOURCE ID: bonus_implicit_social_tynamo_raid
+TEXT: Eğitmenler birlikte bir Eelektrik akın maçı kazanırsa 30 dakika boyunca o bölgede çok sayıda Tynamo ortaya çıkacak
 
 RESOURCE ID: bonus_party_power_charge
 TEXT: Ekip Gücü daha hızlı doluyor
@@ -700,22 +706,22 @@ RESOURCE ID: item_event_ticket_gray_details_ultraspacewonders
 TEXT: Bu bilet 23 Mayıs’ta gerçekleşecek Ultra Uzay Mucizeleri süreli araştırmasına dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_pink_desc
+TEXT: 21 Temmuz’da, yerel saatle 14.00’te başlayacak Tynamo Topluluk Günü özel araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
+
+RESOURCE ID: item_event_ticket_pink_desc_cyndaquil
 TEXT: 22 Haziran’da, yerel saatle 14.00’te başlayacak Cyndaquil Topluluk Günü Klasik özel araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
 RESOURCE ID: item_event_ticket_pink_desc_goomy
 TEXT: 9 Haziran’da, yerel saatle 14.00’te başlayacak Goomy Topluluk Günü özel araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
-RESOURCE ID: item_event_ticket_pink_desc_tynamocd24
-TEXT: 21 Temmuz’da, yerel saatle 14.00’te başlayacak Tynamo Topluluk Günü özel araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
-
 RESOURCE ID: item_event_ticket_pink_details
+TEXT: Bu bilet Dinamo Gibi özel araştırma hikâyesine dilediğiniz yerden erişebilmeniz için 21 Temmuz’da otomatik olarak etkinleştirilecek.
+
+RESOURCE ID: item_event_ticket_pink_details_cyndaquil
 TEXT: Bu bilet 22 Haziran’da gerçekleşecek Topluluk Günü Klasik: Cyndaquil özel araştırma hikâyesine dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_pink_details_goomy
 TEXT: Bu bilet Goomy Topluluk Günü özel araştırmasına dilediğiniz yerden erişebilmeniz için 9 Haziran’da otomatik olarak etkinleştirilecek.
-
-RESOURCE ID: item_event_ticket_pink_details_tynamocd24
-TEXT: Bu bilet Dinamo Gibi özel araştırma hikâyesine dilediğiniz yerden erişebilmeniz için 21 Temmuz’da otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_evergreen_ticket_desc
 TEXT: 9 Temmuz 2024, yerel saatle 20.00’ye kadar sürecek Paytak Gezgin süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
@@ -856,10 +862,10 @@ RESOURCE ID: masterwork_sc_title_5
 TEXT: Ormandaki Fısıltılar (6/6)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-07-09T20:25:51.464741+00:00 for tr-TR
-at SHA 2e524a36b25
-Pipeline 2450452, job 29737358
-Patch from: 0.319.0-SHA-0a543be8-RC1, 0.321.0-SHA-0f9d1e61-RC7
+TEXT: Built at 2024-07-11T18:06:59.368818+00:00 for tr-TR
+at SHA af408e09145
+Pipeline 2456004, job 29813912
+Patch from: 0.321.0-SHA-c4f9defd-RC1, 0.323.0-SHA-7b79b6f4-RC1, 0.319.0-SHA-819956ff-RC3
 
 RESOURCE ID: n_shirt_eeveestshirt-04_0_display_name
 TEXT: Espeon Tişörtü
@@ -918,6 +924,9 @@ TEXT: TÜM GRUPLARI GÖR
 RESOURCE ID: photobomb_five_cyndaquil
 TEXT: GO Fotoğrafta Cyndaquil ile 5 sürpriz karşılaşma
 
+RESOURCE ID: photobomb_five_tynamo
+TEXT: GO Fotoğrafta Tynamo ile 5 sürpriz karşılaşma
+
 RESOURCE ID: poi_contrib_abuse
 TEXT: Saldırgan içerik
 
@@ -965,6 +974,12 @@ TEXT: {0} Cyndaquil evrimleştirin
 
 RESOURCE ID: quest_cyndaquil_evolve_b_singular
 TEXT: Bir Cyndaquil evrimleştirin
+
+RESOURCE ID: quest_eelektrik_evolve_b_plural
+TEXT: {0} Eelektrik evrimleştirin
+
+RESOURCE ID: quest_eelektrik_evolve_b_singular
+TEXT: Bir Eelektrik evrimleştirin
 
 RESOURCE ID: quest_elite_raid_victory_plural
 TEXT: {0} elit akın kazanın
@@ -1173,6 +1188,30 @@ TEXT: Elit Akın: Mega Rayquaza Süreli Araştırması
 RESOURCE ID: quest_title_elite_mega_ray_bonus
 TEXT: Elit Akın: Mega Rayquaza Bonus Süreli Araştırması
 
+RESOURCE ID: quest_title_tynamo
+TEXT: Dinamo Gibi
+
+RESOURCE ID: quest_title_tynamo_0
+TEXT: Dinamo Gibi (1/4)
+
+RESOURCE ID: quest_title_tynamo_1
+TEXT: Dinamo Gibi (2/4)
+
+RESOURCE ID: quest_title_tynamo_2
+TEXT: Dinamo Gibi (3/4)
+
+RESOURCE ID: quest_title_tynamo_3
+TEXT: Dinamo Gibi (4/4)
+
+RESOURCE ID: quest_tynamo_catch_b
+TEXT: {0} Tynamo yakalayın
+
+RESOURCE ID: quest_tynamo_evolve_b_plural
+TEXT: {0} Tynamo evrimleştirin
+
+RESOURCE ID: quest_tynamo_evolve_b_singular
+TEXT: Bir Tynamo evrimleştirin
+
 RESOURCE ID: route_play_completion_reject_description_secondary
 TEXT: Lütfen rotaya devam edin ve daha ileriye gittiğinizde bitiş noktasına geri dönün.
 
@@ -1202,6 +1241,9 @@ TEXT: 4707
 
 RESOURCE ID: spawn_cyndaquil
 TEXT: Doğada daha fazla Cyndaquil ortaya çıkıyor!
+
+RESOURCE ID: spawn_tynamo
+TEXT: Doğada daha fazla Tynamo ortaya çıkıyor!
 
 RESOURCE ID: special_background_filter_header
 TEXT: Özel Arka Plan
@@ -1278,6 +1320,9 @@ TEXT: Cyndaquil Topluluk Günü Klasik özel araştırma hikâyesi biletini mağ
 
 RESOURCE ID: ticket_time_limit_reminder
 TEXT: Araştırmayı alabilmek için oyunu belirtilen saatlerde oynamalısınız.
+
+RESOURCE ID: ticket_tynamo
+TEXT: Tynamo Topluluk Günü özel araştırma hikâyesi biletini mağazadan alabilirsiniz
 
 RESOURCE ID: timed_challenge_bonus_header_active_v2
 TEXT: AKTİF BONUSLAR

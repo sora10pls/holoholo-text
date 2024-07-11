@@ -183,6 +183,9 @@ TEXT: Pikachu mit Kapitänsmütze beherrscht die Lade-Attacke Volttackle.
 RESOURCE ID: bonus_cd_move_cyndaquil
 TEXT: Entwickle Igelavar, um ein Tornupto zu erhalten, das die Lade-Attacke Lohekanonade beherrscht!
 
+RESOURCE ID: bonus_cd_move_tynamo
+TEXT: Entwickle Zapplalek, um ein Zapplarang zu erhalten, das die Sofort-Attacke Voltwechsel beherrscht!
+
 RESOURCE ID: bonus_extra_daily_raid_pass
 TEXT: Ein zusätzlicher kostenloser Raid-Pass pro Tag für das Drehen von Fotoscheiben bei Arenen
 
@@ -191,6 +194,9 @@ TEXT: Ultrabälle freigeschaltet für Ultrabestien-Raids während des Pokémon G
 
 RESOURCE ID: bonus_fr_cap_pikachu
 TEXT: Event-Feldforschungsaufgaben, bei denen du Begegnungen mit Pikachu mit Kapitänsmütze verdienen kannst.
+
+RESOURCE ID: bonus_implicit_social_tynamo_raid
+TEXT: Wenn Trainer zusammen einen Zapplalek-Raid gewinnen, werden Zapplardin in dieser Gegend für 30 Minuten vermehrt auftauchen.
 
 RESOURCE ID: bonus_party_power_charge
 TEXT: Team-Power lädt schneller auf
@@ -739,22 +745,22 @@ RESOURCE ID: item_event_ticket_gray_details_ultraspacewonders
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Forschung Ultradimensions-Wunder am 23. Mai 2024 (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_pink_desc
+TEXT: Ein Ticket zur Teilnahme an der Spezialforschung zum Community Day mit Zapplardin am 21. Juli 2024 um 14:00 Uhr Ortszeit (wo immer du dich befindest).
+
+RESOURCE ID: item_event_ticket_pink_desc_cyndaquil
 TEXT: Ein Ticket zur Teilnahme an der Spezialforschung zum Community Day Classic mit Feurigel am 22. Juni 2024 um 14:00 Uhr Ortszeit (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_pink_desc_goomy
 TEXT: Ein Ticket zur Teilnahme an der Spezialforschung zum Community Day mit Viscora am 9. Juni 2024 um 14:00 Uhr Ortszeit (wo immer du dich befindest).
 
-RESOURCE ID: item_event_ticket_pink_desc_tynamocd24
-TEXT: Ein Ticket zur Teilnahme an der Spezialforschung zum Community Day mit Zapplardin am 21. Juli 2024 um 14:00 Uhr Ortszeit (wo immer du dich befindest).
-
 RESOURCE ID: item_event_ticket_pink_details
+TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zum Spezialforschungs-Abenteuer „Watt geht ab!“ am 21. Juli 2024 (wo immer du dich befindest).
+
+RESOURCE ID: item_event_ticket_pink_details_cyndaquil
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zum Spezialforschungs-Abenteuer des Community Day Classic mit Feurigel am 22. Juni 2024 (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_pink_details_goomy
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Spezialforschung zum Community Day mit Viscora am 9. Juni 2024 (wo immer du dich befindest).
-
-RESOURCE ID: item_event_ticket_pink_details_tynamocd24
-TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zum Spezialforschungs-Abenteuer „Watt geht ab!“ am 21. Juli 2024 (wo immer du dich befindest).
 
 RESOURCE ID: item_evergreen_ticket_desc
 TEXT: Ein Ticket für den Zugang zur Befristeten Forschung „Wandernde Watschelei“ bis zum 9. Juli 2024 um 20:00 Uhr Ortszeit (wo immer du dich befindest).
@@ -779,6 +785,9 @@ TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befri
 
 RESOURCE ID: item_evergreen_ticket_details_spelunkerscove
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Forschung Strandrandale am 15. Juni (wo immer du dich befindest).
+
+RESOURCE ID: item_incubator_basic_unlimited_name
+TEXT: Brutmaschine ∞
 
 RESOURCE ID: leave_pokemon_message_body
 TEXT: Pokémon, die du hier zurücklässt, bleiben hier für 24 Stunden.
@@ -895,10 +904,10 @@ RESOURCE ID: masterwork_sc_title_5
 TEXT: Waldgeflüster (6/6)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-07-09T20:25:51.464741+00:00 for de-DE
-at SHA 2e524a36b25
-Pipeline 2450452, job 29737358
-Patch from: 0.319.0-SHA-0a543be8-RC1, 0.321.0-SHA-0f9d1e61-RC7
+TEXT: Built at 2024-07-11T18:06:59.368818+00:00 for de-DE
+at SHA af408e09145
+Pipeline 2456004, job 29813912
+Patch from: 0.321.0-SHA-c4f9defd-RC1, 0.323.0-SHA-7b79b6f4-RC1, 0.319.0-SHA-819956ff-RC3
 
 RESOURCE ID: n_shirt_eeveestshirt-04_0_display_name
 TEXT: Psiana-T-Shirt
@@ -950,6 +959,9 @@ TEXT: ALLE GRUPPEN SEHEN
 
 RESOURCE ID: photobomb_five_cyndaquil
 TEXT: 5 überraschende Begegnungen mit Feurigel in GO-Schnappschuss
+
+RESOURCE ID: photobomb_five_tynamo
+TEXT: 5 überraschende Begegnungen mit Zapplardin in GO-Schnappschuss
 
 RESOURCE ID: poi_contrib_abuse
 TEXT: Beleidigender Inhalt
@@ -1004,6 +1016,12 @@ TEXT: Entwickle {0} Feurigel.
 
 RESOURCE ID: quest_cyndaquil_evolve_b_singular
 TEXT: Entwickle ein Feurigel.
+
+RESOURCE ID: quest_eelektrik_evolve_b_plural
+TEXT: Entwickle {0} Zapplalek.
+
+RESOURCE ID: quest_eelektrik_evolve_b_singular
+TEXT: Entwickle ein Zapplalek.
 
 RESOURCE ID: quest_elite_raid_victory_plural
 TEXT: Gewinne {0} Top-Raids.
@@ -1215,6 +1233,30 @@ TEXT: Befristete Forschung: Top-Raid – Mega-Rayquaza
 RESOURCE ID: quest_title_elite_mega_ray_bonus
 TEXT: Befristete Bonus-Forschung: Top-Raid – Mega-Rayquaza
 
+RESOURCE ID: quest_title_tynamo
+TEXT: Watt geht ab!
+
+RESOURCE ID: quest_title_tynamo_0
+TEXT: Watt geht ab! (1/4)
+
+RESOURCE ID: quest_title_tynamo_1
+TEXT: Watt geht ab! (2/4)
+
+RESOURCE ID: quest_title_tynamo_2
+TEXT: Watt geht ab! (3/4)
+
+RESOURCE ID: quest_title_tynamo_3
+TEXT: Watt geht ab! (4/4)
+
+RESOURCE ID: quest_tynamo_catch_b
+TEXT: Fange {0} Zapplardin.
+
+RESOURCE ID: quest_tynamo_evolve_b_plural
+TEXT: Entwickle {0} Zapplardin.
+
+RESOURCE ID: quest_tynamo_evolve_b_singular
+TEXT: Entwickle ein Zapplardin.
+
 RESOURCE ID: route_play_completion_reject_description_secondary
 TEXT: Bitte setze die Route fort und gehe zum Zielpunkt zurück, nachdem du weiter gelaufen bist.
 
@@ -1250,6 +1292,9 @@ TEXT: 4707
 
 RESOURCE ID: spawn_cyndaquil
 TEXT: Wilde Feurigel erscheinen mit vermehrter Häufigkeit!
+
+RESOURCE ID: spawn_tynamo
+TEXT: Wilde Zapplardin erscheinen mit vermehrter Häufigkeit!
 
 RESOURCE ID: special_background_filter_header
 TEXT: Spezialhintergrund
@@ -1325,6 +1370,9 @@ TEXT: Ticket für das Spezialforschungs-Abenteuer zum Community Day Classic mit 
 
 RESOURCE ID: ticket_time_limit_reminder
 TEXT: Du musst während des angegebenen Zeitraums spielen, um die Forschung zu erhalten.
+
+RESOURCE ID: ticket_tynamo
+TEXT: Ticket für das Spezialforschungs-Abenteuer zum Community Day mit Zapplardin im Shop erhältlich
 
 RESOURCE ID: timed_challenge_bonus_header_active_v2
 TEXT: AKTIVE BONI
