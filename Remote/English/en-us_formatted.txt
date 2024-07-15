@@ -160,6 +160,9 @@ TEXT: Route Scout
 RESOURCE ID: bonus_cd_move_tynamo
 TEXT: Evolve Eelektrik to get an Eelektross that knows the Fast Attack Volt Switch!
 
+RESOURCE ID: bonus_event_spawn_routes
+TEXT: Event Pokémon may appear while you’re following Routes
+
 RESOURCE ID: bonus_extra_daily_raid_pass
 TEXT: One additional free Raid Pass per day from spinning Gym Photo Discs
 
@@ -169,11 +172,26 @@ TEXT: Beast Balls unlocked for Ultra Beast Raids during Pokémon GO Fest 2024: G
 RESOURCE ID: bonus_implicit_social_tynamo_raid
 TEXT: If Trainers work together to win an Eelektrik raid, large numbers of Tynamo will appear in the area for 30 minutes
 
+RESOURCE ID: bonus_lc_wcs_2024_pikachu
+TEXT: Costumed Pikachu caught from Raids and Field Research have a chance of having an exclusive Location Background
+
 RESOURCE ID: bonus_party_power_charge
 TEXT: Party Power charges faster
 
 RESOURCE ID: bonus_quaxly_special_event
 TEXT: More Quaxly are appearing in the wild
+
+RESOURCE ID: bonus_sableye_foul play
+TEXT: Sableye caught will know the Charged Attack Foul Play
+
+RESOURCE ID: bonus_sableye_shadow_claw
+TEXT: Sableye caught will know the Fast Attack Shadow Claw
+
+RESOURCE ID: bonus_souvenir_tropical_flower_shell
+TEXT: Higher chance of recieving a Tropical Shell or Tropical Flower Buddy Souvenir
+
+RESOURCE ID: bonus_t3_shadow_xl_candy_01
+TEXT: 1 Additional Candy XL for winning T3 Shadow Raids
 
 RESOURCE ID: bonus_t5_raids_additional_candy
 TEXT: One additional Candy from catching Pokémon in five-star raids
@@ -190,6 +208,9 @@ TEXT: One bonus Candy XL awarded for successful five-star raids
 RESOURCE ID: bonus_ticket_inbound_shop
 TEXT: Inbound from Ultra Space ticket now available in the in-game shop
 
+RESOURCE ID: bonus_total_10_special_trades
+TEXT: Ten total Special Trades per day
+
 RESOURCE ID: bonus_tr_gbl_euic_2025_a_desc
 TEXT: 2025 Pokémon LAIC Champion Bonus Timed Research
 
@@ -201,6 +222,9 @@ TEXT: 2025 Pokémon EUIC Champion Bonus Timed Research
 
 RESOURCE ID: bonus_ub_raid_double_stardust
 TEXT: 2× Stardust for winning Ultra Beast raids
+
+RESOURCE ID: bonus_versioned_field_research_hourly
+TEXT: Field Research available from PokéStops once per hour
 
 RESOURCE ID: bonuses_active
 TEXT: Bonuses active!
@@ -216,6 +240,9 @@ TEXT: Pikachu’s Indonesia Journey Collection Challenge
 
 RESOURCE ID: collection_aa2024_yogyakarta_day_02
 TEXT: Pikachu’s Indonesia Journey Collection Challenge
+
+RESOURCE ID: collection_wcs2024_irl_bonus
+TEXT: Champion’s Bouquet Collection Challenge
 
 RESOURCE ID: community_day_tynamo_event_name
 TEXT: Community Day: Tynamo
@@ -236,6 +263,10 @@ July 9, 8:00 p.m.
 RESOURCE ID: event_datetime_range_key_gofestraid24
 TEXT: July 8, 10:00 a.m. –
 July 14, 6:00 p.m.
+
+RESOURCE ID: event_datetime_range_key_growtogether24
+TEXT: July 17, 10:00 a.m. –
+September 3, 10:00 a.m.
 
 RESOURCE ID: event_datetime_range_key_spelunkercove24
 TEXT: June 15, 10:00 a.m. –
@@ -291,6 +322,9 @@ TEXT: Wandering Waddles Timed Research Ticket
 
 RESOURCE ID: general1.ticket._gofestraid24_title
 TEXT: Inbound from Ultra Space Premium Timed Research Ticket
+
+RESOURCE ID: general1.ticket._growtogether24_title
+TEXT: Grow Together Premium Timed Research Ticket
 
 RESOURCE ID: general1.ticket._shinycelebi24_title
 TEXT: Whispers in the Woods Masterwork Research Ticket
@@ -623,19 +657,25 @@ RESOURCE ID: item_event_ticket_10_name
 TEXT: Ticket
 
 RESOURCE ID: item_event_ticket_gray_desc
-TEXT: A ticket to access the Whispers in the Woods Masterwork Research starting June 28, 2024, at 10:00 a.m. local time, wherever you are.
+TEXT: A ticket to access the Grow Together Premium Timed Research until September 3, 2024, at 10:00 a.m. local time, wherever you are.
 
 RESOURCE ID: item_event_ticket_gray_desc_megaheracross
 TEXT: A ticket to access special bonuses on Saturday, April 13, 2024, from 2:00 p.m. to 10:00 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_gray_desc_shinycelebi
+TEXT: A ticket to access the Whispers in the Woods Masterwork Research starting June 28, 2024, at 10:00 a.m. local time, wherever you are.
 
 RESOURCE ID: item_event_ticket_gray_desc_ultraspacewonders
 TEXT: A ticket to access the Ultra Space Wonders Timed Research from May 23 at 10:00 a.m. to May 28, 2024, at 8:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_event_ticket_gray_details
-TEXT: This ticket will automatically activate to give you access to the Whispers in the Woods Masterwork Research on June 28, wherever you are.
+TEXT: This ticket will automatically activate to give you access to the Grow Together Premium Timed Research until September 3, 2024, at 10:00 a.m. local time, wherever you are.
 
 RESOURCE ID: item_event_ticket_gray_details_megaheracross
 TEXT: This ticket will automatically activate to give you access to special bonuses on April 13, wherever you are.
+
+RESOURCE ID: item_event_ticket_gray_details_shinycelebi
+TEXT: This ticket will automatically activate to give you access to the Whispers in the Woods Masterwork Research on June 28, wherever you are.
 
 RESOURCE ID: item_event_ticket_gray_details_ultraspacewonders
 TEXT: This ticket will automatically activate to give you access to the Ultra Space Wonders Timed Research on May 23, wherever you are.
@@ -800,10 +840,10 @@ RESOURCE ID: masterwork_sc_title_5
 TEXT: Whispers in the Woods (6/6)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-07-12T19:47:44.871710+00:00 for en-US
-at SHA bde745595c9
-Pipeline 2459497, job 29859391
-Patch from: 0.319.0-SHA-0a543be8-RC1, 0.321.0-SHA-0f9d1e61-RC7, 0.323.0-SHA-6d4f8570-RC2
+TEXT: Built at 2024-07-15T17:21:43.207105+00:00 for en-US
+at SHA f3f41aa419f
+Pipeline 2462040, job 29886592
+Patch from: 0.319.0-SHA-d424a166-RC4, 0.321.0-SHA-0f9d1e61-RC7, 0.323.0-SHA-7b79b6f4-RC1
 
 RESOURCE ID: n_shirt_eeveestshirt-04_0_display_name
 TEXT: Espeon T-Shirt
@@ -1036,6 +1076,9 @@ TEXT: The fact that you’ve befriended such a phenomenal Electric-type Pokémon
 RESOURCE ID: quest_special_dialogue_tynamo_3_3
 TEXT: Keep up the fantastic work out there. I’m sure I’ll see you again soon. Until then, let’s GO!
 
+RESOURCE ID: quest_spin_wcs_2024
+TEXT: Spin 10 Pokestops or Gyms at the Hawaii Convention Center
+
 RESOURCE ID: quest_title_elite_mega_ray
 TEXT: Elite Raid: Mega Rayquaza Timed Research
 
@@ -1133,6 +1176,14 @@ TEXT: <b>Included bonuses:</b>
 <b>Included rewards:</b>
 • 1 Star Piece, 5 Candy XL from each of the Ultra Beasts, and 10 Cosmog Candy
 
+RESOURCE ID: text_rewards_key_growtogether24
+TEXT: <b>Included bonus:</b>
+• 5× XP awarded for your first spin each day
+<b>Included rewards:</b>
+• Encounters with Galarian Farfetch’d, Feebas, and Tandemaus
+• 70,000 XP and 35,000 Stardust
+• 9 Rare Candies, 2 Lucky Eggs, 2 Incense, and 2 Star Pieces
+
 RESOURCE ID: text_rewards_key_shinycelebi24
 TEXT: A ticket to access Masterwork Research that leads to an encounter with one of the most elusive Pokémon, Shiny Celebi, and includes the following rewards:
 • 3 Super Incubators, 153 Ultra Balls, 1 Poffin, and 1 Incense
@@ -1163,6 +1214,48 @@ TEXT: COMPLETION REWARDS
 
 RESOURCE ID: timed_challenge_work_together_v2
 TEXT: Trainers must work together as a global community to complete this challenge.
+
+RESOURCE ID: title_bonus_honolulu_greetings
+TEXT: Greetings from Honolulu! Additional Bonuses
+
+RESOURCE ID: title_bonus_wcs_2023_champ
+TEXT: 2023 Pokémon World Champion Additional Bonuses
+
+RESOURCE ID: title_bonus_wcs_2024_team_building
+TEXT: Team Building: Great League Additional Bonuses
+
+RESOURCE ID: title_tr_wcs_2023_champ
+TEXT: 2023 Pokémon World Champion Bonus Timed Research
+
+RESOURCE ID: title_tr_wcs_2023_champ_00
+TEXT: 2023 Pokémon World Champion Bonus Timed Research (1/2)
+
+RESOURCE ID: title_tr_wcs_2023_champ_01
+TEXT: 2023 Pokémon World Champion Bonus Timed Research (2/2)
+
+RESOURCE ID: title_tr_wcs_2024_team_building
+TEXT: Team Building: Great League – Bonus Timed Research
+
+RESOURCE ID: title_tr_wcs_2024_team_building_00
+TEXT: Team Building: Great League – Bonus Timed Research (1/3)
+
+RESOURCE ID: title_tr_wcs_2024_team_building_01
+TEXT: Team Building: Great League – Bonus Timed Research (2/3)
+
+RESOURCE ID: title_tr_wcs_2024_team_building_02
+TEXT: Team Building: Great League – Bonus Timed Research (3/3)
+
+RESOURCE ID: title_tr_wcs_honolulu_greetings
+TEXT: Greetings from Honolulu! Bonus Timed Research
+
+RESOURCE ID: title_tr_wcs_honolulu_greetings_00
+TEXT: Greetings from Honolulu! Bonus Timed Research (1/1)
+
+RESOURCE ID: title_wcs_2024_scavenger_hunt
+TEXT: 2024 Pokémon World Championships Scavenger Hunt
+
+RESOURCE ID: title_wcs_2024_scavenger_hunt_00
+TEXT: 2024 Pokémon World Championships Scavenger Hunt (1/1)
 
 RESOURCE ID: tr_inbound_from_ultra_space_raid
 TEXT: Inbound from Ultra Space Timed Research
@@ -1200,4 +1293,7 @@ TEXT: Ticket for the Wandering Waddles Timed Research available in the shop
 
 RESOURCE ID: wandering_waddles_tr_name
 TEXT: Wandering Waddles
+
+RESOURCE ID: wcs_2024_honolulu_event_title
+TEXT: Honolulu 2024 Pokémon World Championships
 

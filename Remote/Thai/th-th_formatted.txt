@@ -206,6 +206,9 @@ TEXT: วิวัฒนาการแม็กมาราชิเปน�
 RESOURCE ID: bonus_cd_move_tynamo
 TEXT: วิวัฒนาการชิบิบีลเปนชิบิรูดอนที่รูทาโจมตีเร็ว "โวลตเชนจ"
 
+RESOURCE ID: bonus_event_spawn_routes
+TEXT: Event Pokémon may appear while you’re following Routes
+
 RESOURCE ID: bonus_extra_daily_raid_pass
 TEXT: รับบัตรตีบอสฟรี 1 ใบตอวัน
 โดยการหมุนแผนภาพที่ยิม
@@ -219,11 +222,26 @@ TEXT: งานวิจัยภาคสนามตามธีมที่�
 RESOURCE ID: bonus_implicit_social_tynamo_raid
 TEXT: หากเทรนเนอรรวมมือกันเอาชนะชิบิบีลในตีบอสไดสำเร็จ ชิบิชิราซึจำนวนมากจะปรากฏตัวในบริเวณรอบ ๆ เปนเวลา 30 นาที
 
+RESOURCE ID: bonus_lc_wcs_2024_pikachu
+TEXT: Costumed Pikachu caught from Raids and Field Research have a chance of having an exclusive Location Background
+
 RESOURCE ID: bonus_party_power_charge
 TEXT: พลังปารตี้ชารจเร็วขึ้น
 
 RESOURCE ID: bonus_quaxly_special_event
 TEXT: แคว็กซปรากฏตัวออกมามากขึ้น
+
+RESOURCE ID: bonus_sableye_foul play
+TEXT: Sableye caught will know the Charged Attack Foul Play
+
+RESOURCE ID: bonus_sableye_shadow_claw
+TEXT: Sableye caught will know the Fast Attack Shadow Claw
+
+RESOURCE ID: bonus_souvenir_tropical_flower_shell
+TEXT: Higher chance of recieving a Tropical Shell or Tropical Flower Buddy Souvenir
+
+RESOURCE ID: bonus_t3_shadow_xl_candy_01
+TEXT: 1 Additional Candy XL for winning T3 Shadow Raids
 
 RESOURCE ID: bonus_t5_raids_additional_candy
 TEXT: +1 ลูกอมจากการจับโปเกมอนในตีบอสหาดาว
@@ -240,6 +258,9 @@ TEXT: +1 โบนัสลูกอม XL เมื่อชนะตีบอ�
 RESOURCE ID: bonus_ticket_inbound_shop
 TEXT: สามารถซื้อตั๋ว "ผูมาเยือนจากอัลตราสเปซ" ไดที่รานคา
 
+RESOURCE ID: bonus_total_10_special_trades
+TEXT: Ten total Special Trades per day
+
 RESOURCE ID: bonus_tr_gbl_euic_2025_a_desc
 TEXT: 2025 Pokémon LAIC Champion Bonus Timed Research
 
@@ -251,6 +272,9 @@ TEXT: 2025 Pokémon EUIC Champion Bonus Timed Research
 
 RESOURCE ID: bonus_ub_raid_double_stardust
 TEXT: 2× สตารดัสตจากการชนะตีบอสอัลตราบีสต
+
+RESOURCE ID: bonus_versioned_field_research_hourly
+TEXT: Field Research available from PokéStops once per hour
 
 RESOURCE ID: bonuses_active
 TEXT: โบนัสมีผลแลว!
@@ -275,6 +299,9 @@ TEXT: คำทานักสะสม Pikachu’s Indonesia Journey
 
 RESOURCE ID: collection_aa2024_yogyakarta_day_02
 TEXT: คำทานักสะสม Pikachu’s Indonesia Journey
+
+RESOURCE ID: collection_wcs2024_irl_bonus
+TEXT: Champion’s Bouquet Collection Challenge
 
 RESOURCE ID: community_day_tynamo_event_name
 TEXT: คอมมิวนิตี้เดย: ชิบิชิราซึ
@@ -323,6 +350,10 @@ TEXT: วันที่ 22 มิถุนายน 2024 เวลา 14:00-17:
 RESOURCE ID: event_datetime_range_key_gofestraid24
 TEXT: 8 กรกฎาคม 10:00 น. ถึง
 14 กรกฎาคม 18:00 น.
+
+RESOURCE ID: event_datetime_range_key_growtogether24
+TEXT: 17 กรกฎาคม เวลา 10:00 น. ถึง
+3 กันยายน เวลา 10:00 น. 
 
 RESOURCE ID: event_datetime_range_key_shinycelebi24
 TEXT: 28 มิถุนายน 10:00 น. ถึง
@@ -388,6 +419,9 @@ TEXT: ตั๋วงานวิจัยแบบจำกัดเวลา�
 
 RESOURCE ID: general1.ticket._gofestraid24_title
 TEXT: ตั๋วงานวิจัยแบบจำกัดเวลาพรีเมียม: ผูมาเยือนจากอัลตราสเปซ
+
+RESOURCE ID: general1.ticket._growtogether24_title
+TEXT: ตั๋วงานวิจัยแบบจำกัดเวลาพรีเมียม: เติบโตไปดวยกัน
 
 RESOURCE ID: general1.ticket._shinycelebi24_title
 TEXT: ตั๋วงานวิจัยระยะยาวเสียงกระซิบจากพงไพร
@@ -853,28 +887,38 @@ RESOURCE ID: item_event_ticket_10_name
 TEXT: ตั๋ว
 
 RESOURCE ID: item_event_ticket_gray_desc
-TEXT: ตั๋วสำหรับเขารวมงานวิจัยระยะยาว
-"เสียงกระซิบจากพงไพร"
-ในวันที่ 28 มิถุนายน 2024 10:00 น.
-ตามเวลาทองถิ่นทั่วโลก
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลาพรีเมียม: เติบโตไปดวยกัน
+ถึงวันที่ 3 กันยายน 2024 เวลา 10:00 น. ตามเวลาทองถิ่นทั่วโลก
 
 RESOURCE ID: item_event_ticket_gray_desc_megaheracross
 TEXT: ตั๋วสำหรับรับโบนัสพิเศษในวันที่
 13 เมษายน 2024 เวลา 14:00-22:00 น.
 ตามเวลาทองถิ่นทั่วโลก
 
+RESOURCE ID: item_event_ticket_gray_desc_shinycelebi
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยระยะยาว
+"เสียงกระซิบจากพงไพร"
+ในวันที่ 28 มิถุนายน 2024 10:00 น.
+ตามเวลาทองถิ่นทั่วโลก
+
 RESOURCE ID: item_event_ticket_gray_desc_ultraspacewonders
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลา "อัลตราสเปซพิศวง" ตั้งแตวันที่ 23 พฤษภาคม เวลา 10:00 น. ถึงวันที่ 28 พฤษภาคม 2024 เวลา 20:00 น. ตามเวลาทองถิ่นไมวาคุณจะอยูที่ใด
 
 RESOURCE ID: item_event_ticket_gray_details
-TEXT: ตั๋วสำหรับเขารวมงานวิจัยระยะยาว "เสียงกระซิบจากพงไพร"
-ในวันที่ 28 มิถุนายน
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลาพรีเมียม: เติบโตไปดวยกัน
+ถึงวันที่ 3 กันยายน 2024 เวลา 10:00 น.
 คุณจะสามารถเขารวมไดโดยอัตโนมัติ
 ตามเวลาทองถิ่นทั่วโลก
 
 RESOURCE ID: item_event_ticket_gray_details_megaheracross
 TEXT: ตั๋วสำหรับรับโบนัสพิเศษ
 ในวันที่ 13 เมษายน
+คุณจะสามารถเขารวมไดโดยอัตโนมัติ
+ตามเวลาทองถิ่นทั่วโลก
+
+RESOURCE ID: item_event_ticket_gray_details_shinycelebi
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยระยะยาว "เสียงกระซิบจากพงไพร"
+ในวันที่ 28 มิถุนายน
 คุณจะสามารถเขารวมไดโดยอัตโนมัติ
 ตามเวลาทองถิ่นทั่วโลก
 
@@ -1112,10 +1156,10 @@ RESOURCE ID: meetups_ended_desc
 TEXT: งานพบปะสิ้นสุดลงแแลว
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-07-12T19:47:44.871710+00:00 for th-TH
-at SHA bde745595c9
-Pipeline 2459497, job 29859391
-Patch from: 0.319.0-SHA-0a543be8-RC1, 0.321.0-SHA-0f9d1e61-RC7, 0.323.0-SHA-6d4f8570-RC2
+TEXT: Built at 2024-07-15T17:21:43.207105+00:00 for th-TH
+at SHA f3f41aa419f
+Pipeline 2462040, job 29886592
+Patch from: 0.319.0-SHA-d424a166-RC4, 0.321.0-SHA-0f9d1e61-RC7, 0.323.0-SHA-7b79b6f4-RC1
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: ปลดปลอยแสงพิศวง ดึงดูดโปเกมอนที่พบในเวลากลางคืน และทำใหโปเกมอนวิวัฒนาการกลางคืนสามารถวิวัฒนาการในเวลากลางวันได
@@ -1462,6 +1506,9 @@ RESOURCE ID: quest_special_dialogue_tynamo_3_3
 TEXT: พยายามตอไปนะ ไวเจอกันใหมเร็ว ๆ นี้
 ออกไปผจญภัยเลย GO!
 
+RESOURCE ID: quest_spin_wcs_2024
+TEXT: Spin 10 Pokestops or Gyms at the Hawaii Convention Center
+
 RESOURCE ID: quest_title_cyndaquil
 TEXT: คอมมิวนิตี้เดย (รีเทิรน): ฮิโนอาราชิ
 
@@ -1627,6 +1674,14 @@ TEXT: <b>โบนัสที่จะไดรับ:</b>
 <b>รางวัลที่จะไดรับ:</b>
 - สะเก็ดดาว 1 ชิ้น, ลูกอม XL 5 เม็ด จากอัลตราบีสต และลูกอมคอสม็อก 10 เม็ด
 
+RESOURCE ID: text_rewards_key_growtogether24
+TEXT: <b>โบนัสที่จะไดรับ:</b>
+- 5× XP ในการหมุนแผนภาพครั้งแรกของแตละวัน
+<b>รางวัลที่จะไดรับ:</b>
+- การเผชิญหนากับคาโมเนกิ (รางกาลาร), ฮินบาส และวักคาเนซูมิ
+- 70,000 XP และ 35,000 สตารดัสต
+- ลูกอมประหลาด 9 เม็ด, ไขแหงความสุข 2 ชิ้น, เครื่องหอม 2 ชิ้น และสตารพีซ 2 ชิ้น
+
 RESOURCE ID: text_rewards_key_shinycelebi24
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยระยะยาว
 ที่จะนำไปสูการเผชิญหนากับ
@@ -1671,6 +1726,48 @@ TEXT: รางวัลเสร็จสิ้น
 RESOURCE ID: timed_challenge_work_together_v2
 TEXT: เทรนเนอรในคอมมิวนิตี้ทั่วโลกจะตองทำงานรวมกันเพื่อทำคำทานี้ใหเสร็จสมบูรณ
 
+RESOURCE ID: title_bonus_honolulu_greetings
+TEXT: Greetings from Honolulu! Additional Bonuses
+
+RESOURCE ID: title_bonus_wcs_2023_champ
+TEXT: 2023 Pokémon World Champion Additional Bonuses
+
+RESOURCE ID: title_bonus_wcs_2024_team_building
+TEXT: Team Building: Great League Additional Bonuses
+
+RESOURCE ID: title_tr_wcs_2023_champ
+TEXT: 2023 Pokémon World Champion Bonus Timed Research
+
+RESOURCE ID: title_tr_wcs_2023_champ_00
+TEXT: 2023 Pokémon World Champion Bonus Timed Research (1/2)
+
+RESOURCE ID: title_tr_wcs_2023_champ_01
+TEXT: 2023 Pokémon World Champion Bonus Timed Research (2/2)
+
+RESOURCE ID: title_tr_wcs_2024_team_building
+TEXT: Team Building: Great League – Bonus Timed Research
+
+RESOURCE ID: title_tr_wcs_2024_team_building_00
+TEXT: Team Building: Great League – Bonus Timed Research (1/3)
+
+RESOURCE ID: title_tr_wcs_2024_team_building_01
+TEXT: Team Building: Great League – Bonus Timed Research (2/3)
+
+RESOURCE ID: title_tr_wcs_2024_team_building_02
+TEXT: Team Building: Great League – Bonus Timed Research (3/3)
+
+RESOURCE ID: title_tr_wcs_honolulu_greetings
+TEXT: Greetings from Honolulu! Bonus Timed Research
+
+RESOURCE ID: title_tr_wcs_honolulu_greetings_00
+TEXT: Greetings from Honolulu! Bonus Timed Research (1/1)
+
+RESOURCE ID: title_wcs_2024_scavenger_hunt
+TEXT: 2024 Pokémon World Championships Scavenger Hunt
+
+RESOURCE ID: title_wcs_2024_scavenger_hunt_00
+TEXT: 2024 Pokémon World Championships Scavenger Hunt (1/1)
+
 RESOURCE ID: tr_inbound_from_ultra_space_raid
 TEXT: งานวิจัยแบบจำกัดเวลาผูมาเยือนจากอัลตราสเปซ
 
@@ -1713,6 +1810,9 @@ TEXT: สามารถซื้อตั๋วสำหรับงานว�
 
 RESOURCE ID: wandering_waddles_tr_name
 TEXT: เดินจอมแจม
+
+RESOURCE ID: wcs_2024_honolulu_event_title
+TEXT: Honolulu 2024 Pokémon World Championships
 
 RESOURCE ID: widget_activity_summary_popup_title
 TEXT: เพิ่มวิดเจ็ตแอดเวนเจอรซิงค: สรุปกิจกรรม
