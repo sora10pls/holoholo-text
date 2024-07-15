@@ -190,6 +190,9 @@ TEXT: Fai evolvere Quilava per ottenere un Typhlosion che conosce l’attacco ca
 RESOURCE ID: bonus_cd_move_tynamo
 TEXT: Fai evolvere Eelektrik per ottenere un Eelektross che conosce l’attacco veloce Invertivolt!
 
+RESOURCE ID: bonus_event_spawn_routes
+TEXT: Event Pokémon may appear while you’re following Routes
+
 RESOURCE ID: bonus_extra_daily_raid_pass
 TEXT: Un biglietto raid gratuito aggiuntivo al giorno facendo girare i dischi foto delle Palestre
 
@@ -202,11 +205,26 @@ TEXT: Ricerca sul campo a tema che offre incontri con Pikachu con cappello di Ca
 RESOURCE ID: bonus_implicit_social_tynamo_raid
 TEXT: Se gli Allenatori collaborano per sconfiggere Eelektrik in un raid, un gran numero di Tynamo apparirà in zona per 30 minuti
 
+RESOURCE ID: bonus_lc_wcs_2024_pikachu
+TEXT: Costumed Pikachu caught from Raids and Field Research have a chance of having an exclusive Location Background
+
 RESOURCE ID: bonus_party_power_charge
 TEXT: Il potenziamento di gruppo avviene più rapidamente
 
 RESOURCE ID: bonus_quaxly_special_event
 TEXT: Più Quaxly stanno apparendo allo stato selvatico
+
+RESOURCE ID: bonus_sableye_foul play
+TEXT: Sableye caught will know the Charged Attack Foul Play
+
+RESOURCE ID: bonus_sableye_shadow_claw
+TEXT: Sableye caught will know the Fast Attack Shadow Claw
+
+RESOURCE ID: bonus_souvenir_tropical_flower_shell
+TEXT: Higher chance of recieving a Tropical Shell or Tropical Flower Buddy Souvenir
+
+RESOURCE ID: bonus_t3_shadow_xl_candy_01
+TEXT: 1 Additional Candy XL for winning T3 Shadow Raids
 
 RESOURCE ID: bonus_t5_raids_additional_candy
 TEXT: Una caramella da cattura aggiuntiva nei raid di livello cinque
@@ -222,6 +240,9 @@ TEXT: Una caramella L aggiuntiva per aver portato a termine dei raid di livello 
 
 RESOURCE ID: bonus_ticket_inbound_shop
 TEXT: I biglietti per l’evento “In arrivo dall’Ultramondo” sono disponibili nel negozio all’interno dell’app
+
+RESOURCE ID: bonus_total_10_special_trades
+TEXT: Ten total Special Trades per day
 
 RESOURCE ID: bonus_tr_gbl_euic_2025_a_desc
 TEXT: Ricerca a tempo aggiuntiva dedicata al Campione degli Internazionali Latinoamericani Pokémon 2025
@@ -253,6 +274,9 @@ TEXT: Campione degli Internazionali Europei Pokémon 2025 (2/2)
 RESOURCE ID: bonus_ub_raid_double_stardust
 TEXT: Doppio della polvere di stelle quando vinci dei raid Ultracreatura
 
+RESOURCE ID: bonus_versioned_field_research_hourly
+TEXT: Field Research available from PokéStops once per hour
+
 RESOURCE ID: bonuses_active
 TEXT: Bonus attivi!
 
@@ -267,6 +291,9 @@ TEXT: Sfida di collezione dell’evento “Pikachu all’avventura in Indonesia�
 
 RESOURCE ID: collection_aa2024_yogyakarta_day_02
 TEXT: Sfida di collezione dell’evento “Pikachu all’avventura in Indonesia”
+
+RESOURCE ID: collection_wcs2024_irl_bonus
+TEXT: Champion’s Bouquet Collection Challenge
 
 RESOURCE ID: community_day_tynamo_event_name
 TEXT: Community Day dedicato a Tynamo
@@ -303,6 +330,10 @@ TEXT: 22 giugno dalle 14:00 alle 17:00
 RESOURCE ID: event_datetime_range_key_gofestraid24
 TEXT: Dall’8 luglio alle 10:00
 al 14 luglio alle 18:00
+
+RESOURCE ID: event_datetime_range_key_growtogether24
+TEXT: Dal 17 luglio alle 10:00
+al 3 Settembre alla stessa ora.
 
 RESOURCE ID: event_datetime_range_key_shinycelebi24
 TEXT: Dal 28 giugno alle 10:00
@@ -362,6 +393,9 @@ TEXT: Biglietto per la ricerca a tempo “Trotterellando in giro”
 
 RESOURCE ID: general1.ticket._gofestraid24_title
 TEXT: Biglietto per la ricerca a tempo premium dell’evento “In arrivo dall’Ultramondo”
+
+RESOURCE ID: general1.ticket._growtogether24_title
+TEXT: Biglietto per la ricerca a tempo premium “Crescere insieme”
 
 RESOURCE ID: general1.ticket._shinycelebi24_title
 TEXT: Biglietto per la ricerca magistrale “Sussurri nel bosco”
@@ -792,19 +826,25 @@ RESOURCE ID: item_event_ticket_10_name
 TEXT: Biglietto
 
 RESOURCE ID: item_event_ticket_gray_desc
-TEXT: Un biglietto per accedere alla ricerca magistrale “Sussurri nel bosco” dal 28 giugno 2024 alle 10:00 ora locale, ovunque ti trovi.
+TEXT: Un biglietto per accedere alla ricerca a tempo premium “Crescere insieme” fino alle 10:00 del 3 settembre 2024 ora locale, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_gray_desc_megaheracross
 TEXT: Un biglietto per accedere ai bonus speciali sabato 13 aprile 2024 dalle 14:00 alle 22:00 ora locale, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_gray_desc_shinycelebi
+TEXT: Un biglietto per accedere alla ricerca magistrale “Sussurri nel bosco” dal 28 giugno 2024 alle 10:00 ora locale, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_gray_desc_ultraspacewonders
 TEXT: Un biglietto per accedere alla ricerca a tempo “Meraviglie dall’Ultramondo” dal 23 maggio alle 10:00 al 28 maggio 2024 alle 20:00 ora locale, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_gray_details
-TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca magistrale “Sussurri nel bosco” il 28 giugno, ovunque ti trovi.
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo premium “Crescere insieme” fino alle 10:00 del 3 settembre 2024 ora locale, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_gray_details_megaheracross
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso ai bonus speciali il 13 aprile, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_gray_details_shinycelebi
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca magistrale “Sussurri nel bosco” il 28 giugno, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_gray_details_ultraspacewonders
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo “Meraviglie dall’Ultramondo” il 23 maggio, ovunque ti trovi.
@@ -978,10 +1018,10 @@ RESOURCE ID: masterwork_sc_title_5
 TEXT: Sussurri nel bosco (6/6)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-07-12T19:47:44.871710+00:00 for it-IT
-at SHA bde745595c9
-Pipeline 2459497, job 29859391
-Patch from: 0.319.0-SHA-0a543be8-RC1, 0.321.0-SHA-0f9d1e61-RC7, 0.323.0-SHA-6d4f8570-RC2
+TEXT: Built at 2024-07-15T17:21:43.207105+00:00 for it-IT
+at SHA f3f41aa419f
+Pipeline 2462040, job 29886592
+Patch from: 0.319.0-SHA-d424a166-RC4, 0.321.0-SHA-0f9d1e61-RC7, 0.323.0-SHA-7b79b6f4-RC1
 
 RESOURCE ID: n_shirt_eeveestshirt-04_0_display_name
 TEXT: T-shirt Espeon
@@ -1310,6 +1350,9 @@ TEXT: Hai stretto amicizia con questi Pokémon di tipo Elettro assolutamente fen
 RESOURCE ID: quest_special_dialogue_tynamo_3_3
 TEXT: Continua così, sono sicuro che ci rivedremo presto. Nel frattempo, pronti, partenza... GO!
 
+RESOURCE ID: quest_spin_wcs_2024
+TEXT: Spin 10 Pokestops or Gyms at the Hawaii Convention Center
+
 RESOURCE ID: quest_title_cyndaquil
 TEXT: Community Day Classico dedicato a Cyndaquil
 
@@ -1357,6 +1400,9 @@ TEXT: Fai evolvere un Tynamo
 
 RESOURCE ID: recall_pokemon_button
 TEXT: Richiama tutti i Pokémon
+
+RESOURCE ID: route_pin_error_sticker_limit
+TEXT: Oggi hai già aggiunto un adesivo a questo segnaposto.
 
 RESOURCE ID: route_play_completion_reject_description_secondary
 TEXT: Riprendi il percorso e ritorna al punto di arrivo dopo aver coperto una distanza maggiore.
@@ -1458,6 +1504,14 @@ TEXT: <b>I bonus includono:</b>
 <b>Le ricompense includono:</b>
 • Un Pezzo Stella, cinque caramelle L da ciascuna delle Ultracreature e 10 caramelle Cosmog
 
+RESOURCE ID: text_rewards_key_growtogether24
+TEXT: <b>Bonus incluso:</b>
+• Quintuplo dei PE facendo girare il primo disco ogni giorno
+<b>Ricompense incluse:</b>
+• Incontri con Farfetch’d di Galar, Feebas, e Tandemaus
+• 70.000 PE e 35.000 unità di polvere di stelle
+• Nove Caramelle Rare, due Fortunuova, due aromi e due Pezzi Stella
+
 RESOURCE ID: text_rewards_key_shinycelebi24
 TEXT: Un biglietto per accedere alla ricerca magistrale “Sussurri nel bosco” che ti dà l’opportunità di incontrare uno dei Pokémon più sfuggenti, Celebi cromatico. Sono incluse le seguenti ricompense:
 • Tre Superincubatrici, 153 Ultra Ball, un Poffin e un aroma
@@ -1500,6 +1554,48 @@ TEXT: RICOMPENSE DEL COMPLETAMENTO
 
 RESOURCE ID: timed_challenge_work_together_v2
 TEXT: Gli Allenatori devono collaborare come community globale per completare questa sfida.
+
+RESOURCE ID: title_bonus_honolulu_greetings
+TEXT: Greetings from Honolulu! Additional Bonuses
+
+RESOURCE ID: title_bonus_wcs_2023_champ
+TEXT: 2023 Pokémon World Champion Additional Bonuses
+
+RESOURCE ID: title_bonus_wcs_2024_team_building
+TEXT: Team Building: Great League Additional Bonuses
+
+RESOURCE ID: title_tr_wcs_2023_champ
+TEXT: 2023 Pokémon World Champion Bonus Timed Research
+
+RESOURCE ID: title_tr_wcs_2023_champ_00
+TEXT: 2023 Pokémon World Champion Bonus Timed Research (1/2)
+
+RESOURCE ID: title_tr_wcs_2023_champ_01
+TEXT: 2023 Pokémon World Champion Bonus Timed Research (2/2)
+
+RESOURCE ID: title_tr_wcs_2024_team_building
+TEXT: Team Building: Great League – Bonus Timed Research
+
+RESOURCE ID: title_tr_wcs_2024_team_building_00
+TEXT: Team Building: Great League – Bonus Timed Research (1/3)
+
+RESOURCE ID: title_tr_wcs_2024_team_building_01
+TEXT: Team Building: Great League – Bonus Timed Research (2/3)
+
+RESOURCE ID: title_tr_wcs_2024_team_building_02
+TEXT: Team Building: Great League – Bonus Timed Research (3/3)
+
+RESOURCE ID: title_tr_wcs_honolulu_greetings
+TEXT: Greetings from Honolulu! Bonus Timed Research
+
+RESOURCE ID: title_tr_wcs_honolulu_greetings_00
+TEXT: Greetings from Honolulu! Bonus Timed Research (1/1)
+
+RESOURCE ID: title_wcs_2024_scavenger_hunt
+TEXT: 2024 Pokémon World Championships Scavenger Hunt
+
+RESOURCE ID: title_wcs_2024_scavenger_hunt_00
+TEXT: 2024 Pokémon World Championships Scavenger Hunt (1/1)
 
 RESOURCE ID: too_far_away_iris_social
 TEXT: Questo Pokéstop è troppo lontano per scattare foto di gruppo.
@@ -1591,4 +1687,7 @@ TEXT: I biglietti per la ricerca a tempo “Trotterellando in giro” sono dispo
 
 RESOURCE ID: wandering_waddles_tr_name
 TEXT: Trotterellando in giro
+
+RESOURCE ID: wcs_2024_honolulu_event_title
+TEXT: Honolulu 2024 Pokémon World Championships
 
