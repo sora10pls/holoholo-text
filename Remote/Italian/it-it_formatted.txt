@@ -25,6 +25,27 @@ TEXT: Sfida di collezione dell’evento “Paradiso acquatico”
 RESOURCE ID: aquatic_paradise_event_name
 TEXT: Paradiso acquatico
 
+RESOURCE ID: ar_backgrounded_error
+TEXT: Connessione con l’area del Pokéstop interrotta.
+
+RESOURCE ID: ar_too_far_error_body
+TEXT: Sei troppo distante. Torna al Pokéstop per ricollegarti.
+
+RESOURCE ID: ar_too_far_error_title
+TEXT: Hai lasciato l’area
+
+RESOURCE ID: ar_too_far_recover_toast
+TEXT: Rientra nell’area del Pokéstop per posizionare i tuoi Pokémon.
+
+RESOURCE ID: ar_too_far_warning_body
+TEXT: Avvicinati all’area del Pokéstop per interagire con i Pokémon. Se ti allontani troppo la connessione si interromperà.
+
+RESOURCE ID: ar_too_far_warning_title
+TEXT: Sei troppo distante
+
+RESOURCE ID: ar_tracking_error_body
+TEXT: Si è verificato un problema con il tracciamento AR. Prova a scansionare nuovamente l’area del Pokéstop o torna più tardi.
+
 RESOURCE ID: avatar_alolanexeggutorhat
 TEXT: Cappello Exeggutor di Alola
 
@@ -692,6 +713,12 @@ TEXT: Colore
 RESOURCE ID: iris_social_already_deployed_key
 TEXT: Questo Pokémon si trova in un altro luogo.
 
+RESOURCE ID: iris_social_buddy_not_allowed
+TEXT: Non è possibile selezionare il compagno.
+
+RESOURCE ID: iris_social_in_session_recall
+TEXT: {0} si è stancato ed è tornato dal proprio Allenatore.
+
 RESOURCE ID: iris_social_is_mega_key
 TEXT: I Pokémon megaevoluti o archeorisvegliati non possono essere selezionati.
 
@@ -975,10 +1002,10 @@ RESOURCE ID: mega_lucario_raid_day_ultra_unlock_event_name
 TEXT: Sblocco dell’ultrabonus: giorno di raid dedicato a MegaLucario
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-07-18T20:43:19.204091+00:00 for it-IT
-at SHA 90f8feeb9c7
-Pipeline 2471930, job 30021493
-Patch from: 0.321.0-SHA-974d75a6-RC4, 0.323.0-SHA-11bbd4c9-RC3
+TEXT: Built at 2024-07-20T00:21:26.248833+00:00 for it-IT
+at SHA fc3af802f76
+Pipeline 2475269, job 30070879
+Patch from: 0.321.1-SHA-1e50ddd5-RC1, 0.323.0-SHA-11bbd4c9-RC3
 
 RESOURCE ID: mobile_general
 TEXT: Swipe left and right to navigate. Swipe up and down to quickly jump between groups of elements. Swipe up with two fingers to read the entire screen from the top. Double tap to activate an item.
@@ -1415,7 +1442,7 @@ RESOURCE ID: tts_toggle_off
 TEXT: Disabled.
 
 RESOURCE ID: tts_toggle_on
-TEXT: Enabled
+TEXT: Enabled.
 
 RESOURCE ID: vps_localization_exit_confirmation_header
 TEXT: Vuoi davvero andartene?

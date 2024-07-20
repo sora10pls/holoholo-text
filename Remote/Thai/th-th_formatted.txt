@@ -25,6 +25,27 @@ TEXT: คำทานักสะสมอควาติกพาราไ�
 RESOURCE ID: aquatic_paradise_event_name
 TEXT: อควาติกพาราไดส
 
+RESOURCE ID: ar_backgrounded_error
+TEXT: คุณถูกตัดการเชื่อมตอจากพื้นที่เสาโปเกสต็อป
+
+RESOURCE ID: ar_too_far_error_body
+TEXT: คุณอยูหางเกินไป กลับไปยังเสาโปเกสต็อปเพื่อเชื่อมตอใหมอีกครั้ง
+
+RESOURCE ID: ar_too_far_error_title
+TEXT: คุณออกจากพื้นที่แลว
+
+RESOURCE ID: ar_too_far_recover_toast
+TEXT: กลับไปยังพื้นที่เสาโปเกสต็อปเพื่อวางโปเกมอนของคุณ
+
+RESOURCE ID: ar_too_far_warning_body
+TEXT: ขยับเขาใกลพื้นที่เสาโปเกสต็อปแลวเลนกับโปเกมอน คุณจะถูกตัดการเชื่อมตอหากออกหางเกินไป
+
+RESOURCE ID: ar_too_far_warning_title
+TEXT: คุณอยูหางเกินไป
+
+RESOURCE ID: ar_tracking_error_body
+TEXT: มีปญหาเกิดขึ้นกับการติดตาม AR โปรดสแกนพื้นที่รอบ ๆ เสาโปเกสต็อปอีกครั้ง หรือลองใหมอีกครั้งในภายหลัง
+
 RESOURCE ID: avatar_alolanexeggutorhat
 TEXT: หมวกนัชชี (รางอโลลา)
 
@@ -174,13 +195,13 @@ RESOURCE ID: bonus_total_10_special_trades
 TEXT: Ten total Special Trades per day
 
 RESOURCE ID: bonus_tr_gbl_euic_2025_a_desc
-TEXT: 2025 Pokémon LAIC Champion Bonus Timed Research
+TEXT: 2025 Pokémon LAIC Champion: งานวิจัยแบบจำกัดเวลาโบนัส
 
 RESOURCE ID: bonus_tr_gbl_laic_2025_a_desc
-TEXT: 2024 Pokémon NAIC Champion Bonus Timed Research
+TEXT: 2024 Pokémon NAIC Champion: งานวิจัยแบบจำกัดเวลาโบนัส
 
 RESOURCE ID: bonus_tr_gbl_naic_2025_a_desc
-TEXT: 2025 Pokémon EUIC Champion Bonus Timed Research
+TEXT: 2025 Pokémon EUIC Champion: งานวิจัยแบบจำกัดเวลาโบนัส
 
 RESOURCE ID: bonus_ub_raid_double_stardust
 TEXT: 2× สตารดัสตจากการชนะตีบอสอัลตราบีสต
@@ -733,6 +754,12 @@ TEXT: สี
 RESOURCE ID: iris_social_already_deployed_key
 TEXT: โปเกมอนตัวนี้ถูกวางไวในสถานที่อื่น
 
+RESOURCE ID: iris_social_buddy_not_allowed
+TEXT: ไมสามารถเลือกโปเกมอนคูหูได
+
+RESOURCE ID: iris_social_in_session_recall
+TEXT: {0}เลนจนเหนื่อยและกลับไปหาเทรนเนอรแลว
+
 RESOURCE ID: iris_social_is_mega_key
 TEXT: ไมสามารถวางโปเกมอนที่วิวัฒนาการเมกาหรือโปเกมอนที่คืนสูตนกำเนิดได
 
@@ -1100,10 +1127,10 @@ RESOURCE ID: mega_lucario_raid_day_ultra_unlock_event_name
 TEXT: ปลดล็อกอัลตรา: วันตีบอสเมกาลูคาริโอ
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-07-18T20:43:19.204091+00:00 for th-TH
-at SHA 90f8feeb9c7
-Pipeline 2471930, job 30021493
-Patch from: 0.321.0-SHA-974d75a6-RC4, 0.323.0-SHA-11bbd4c9-RC3
+TEXT: Built at 2024-07-20T00:21:26.248833+00:00 for th-TH
+at SHA fc3af802f76
+Pipeline 2475269, job 30070879
+Patch from: 0.321.1-SHA-1e50ddd5-RC1, 0.323.0-SHA-11bbd4c9-RC3
 
 RESOURCE ID: mobile_general
 TEXT: Swipe left and right to navigate. Swipe up and down to quickly jump between groups of elements. Swipe up with two fingers to read the entire screen from the top. Double tap to activate an item.
@@ -1360,7 +1387,10 @@ RESOURCE ID: quest_tynamo_evolve_b_singular
 TEXT: วิวัฒนาการชิบิชิราซึ
 
 RESOURCE ID: raid_xp_triple
-TEXT: XP ตีบอสเพิ่มขึ้น 2 เทา
+TEXT: 3× XP ตีบอส
+
+RESOURCE ID: route_pin_error_sticker_limit
+TEXT: วันนี้คุณติดสติกเกอรไปแลว
 
 RESOURCE ID: screen_reader_title
 TEXT: Screen Reader
@@ -1523,7 +1553,7 @@ RESOURCE ID: tts_toggle_off
 TEXT: Disabled.
 
 RESOURCE ID: tts_toggle_on
-TEXT: Enabled
+TEXT: Enabled.
 
 RESOURCE ID: vps_localization_exit_confirmation_header
 TEXT: คุณแนใจหรือไมวาตองการออก?

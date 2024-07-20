@@ -25,6 +25,27 @@ TEXT: Wasser-Paradies: Sammler-Herausforderung
 RESOURCE ID: aquatic_paradise_event_name
 TEXT: Wasser-Paradies
 
+RESOURCE ID: ar_backgrounded_error
+TEXT: Du wurdest vom PokéStop-Bereich getrennt.
+
+RESOURCE ID: ar_too_far_error_body
+TEXT: Du bist zu weit entfernt. Gehe zurück zum PokéStop, um dich wieder zu verbinden.
+
+RESOURCE ID: ar_too_far_error_title
+TEXT: Du hast den Bereich verlassen
+
+RESOURCE ID: ar_too_far_recover_toast
+TEXT: Kehre zum PokéStop-Bereich zurück, um dein Pokémon zu platzieren.
+
+RESOURCE ID: ar_too_far_warning_body
+TEXT: Bewege dich näher zum PokéStop-Bereich, um mit den Pokémon zu interagieren. Wenn du dich zu weit entfernst, wird die Verbindung getrennt.
+
+RESOURCE ID: ar_too_far_warning_title
+TEXT: Du bist zu weit entfernt
+
+RESOURCE ID: ar_tracking_error_body
+TEXT: Es ist ein Problem beim AR-Tracking aufgetreten. Versuche bitte, den PokéStop-Bereich erneut zu scannen oder komm später zurück.
+
 RESOURCE ID: avatar_alolanexeggutorhat
 TEXT: Alola-Kokowei-
 Mütze
@@ -94,7 +115,7 @@ RESOURCE ID: badge_event_0090_title_03
 TEXT: Partnerforschung: 7-Eleven Korea (4/4)
 
 RESOURCE ID: bag_upgrade_banner_conf
-TEXT: Upgrade Item Bag?
+TEXT: Item-Beutel erweitern?
 
 RESOURCE ID: better_together_july24_tr_0
 TEXT: Befristete Forschung: Zusammen sind wir stark (1/2)
@@ -112,7 +133,7 @@ RESOURCE ID: bonus_cd_move_tynamo
 TEXT: Entwickle Zapplalek, um ein Zapplarang zu erhalten, das die Sofort-Attacke Voltwechsel beherrscht!
 
 RESOURCE ID: bonus_event_spawn_routes
-TEXT: Event Pokémon may appear while you’re following Routes
+TEXT: Event-Pokémon können erscheinen, während du einer Route folgst
 
 RESOURCE ID: bonus_extra_daily_raid_pass
 TEXT: Ein zusätzlicher kostenloser Raid-Pass pro Tag für das Drehen von Fotoscheiben bei Arenen
@@ -124,7 +145,7 @@ RESOURCE ID: bonus_implicit_social_tynamo_raid
 TEXT: Wenn Trainer zusammen einen Zapplalek-Raid gewinnen, werden Zapplardin in dieser Gegend für 30 Minuten vermehrt auftauchen.
 
 RESOURCE ID: bonus_lc_wcs_2024_pikachu
-TEXT: Costumed Pikachu caught from raids and Field Research tasks may have an exclusive Location Background
+TEXT: Kostümierte Pikachu, die in Raids und bei Feldforschungsaufgaben gefangen wurden, können einen exklusiven Ortshintergrund haben
 
 RESOURCE ID: bonus_party_power_charge
 TEXT: Team-Power lädt schneller auf
@@ -139,16 +160,16 @@ RESOURCE ID: bonus_rare_candy_xl_chance_irl_raids
 TEXT: Erhöhte Chance auf Sonderbonbons XL für Raids in Person
 
 RESOURCE ID: bonus_sableye_foul play
-TEXT: Sableye caught during this event will know the Charged Attack Foul Play
+TEXT: Zobiris, die während des Events gefangen wurden, beherrschen die Lade-Attacke Schmarotzer
 
 RESOURCE ID: bonus_sableye_shadow_claw
-TEXT: Sableye caught during this event will know the Fast Attack Shadow Claw
+TEXT: Zobiris, die während des Events gefangen wurden, beherrschen die Sofort-Attacke Dunkelklaue
 
 RESOURCE ID: bonus_souvenir_tropical_flower_shell
-TEXT: Higher chance of receiving a Tropical Shell or Tropical Flower Souvenir from your buddy
+TEXT: Erhöhte Chance, ein Tropenmuschel- oder Tropenblume-Souvenir von deinem Kumpel zu erhalten
 
 RESOURCE ID: bonus_t3_shadow_xl_candy_01
-TEXT: One additional Candy XL upon successful completion of a three-star Shadow Raid
+TEXT: 1 zusätzliches Bonbon XL nach dem erfolgreichen Abschluss eines Stufe-3-Crypto-Raids
 
 RESOURCE ID: bonus_t5_raids_additional_candy
 TEXT: 1 zusätzliches Bonbon für das Fangen von Pokémon in Stufe-5-Raids
@@ -166,7 +187,7 @@ RESOURCE ID: bonus_ticket_inbound_shop
 TEXT: Ticket für „Besuch aus der Ultradimension“ jetzt verfügbar im In-Game-Shop
 
 RESOURCE ID: bonus_total_10_special_trades
-TEXT: Ten total Special Trades per day
+TEXT: Insgesamt zehn Spezial-Tausche pro Tag
 
 RESOURCE ID: bonus_tr_gbl_euic_2025_a_desc
 TEXT: Befristete Bonus-Forschung: Pokémon-LAIC 2025 – Champ
@@ -199,7 +220,7 @@ RESOURCE ID: bonus_ub_raid_double_stardust
 TEXT: 2× Sternenstaub für gewonnene Ultrabestien-Raids
 
 RESOURCE ID: bonus_versioned_field_research_hourly
-TEXT: Field Research available from PokéStops once per hour
+TEXT: Feldforschung einmal pro Stunde bei PokéStops erhältlich
 
 RESOURCE ID: bonuses_active
 TEXT: Boni aktiv!
@@ -223,7 +244,7 @@ RESOURCE ID: collection_aa2024_yogyakarta_day_02
 TEXT: Pikachus Indonesien-Reise: Sammler-Herausforderung
 
 RESOURCE ID: collection_wcs2024_irl_bonus
-TEXT: Champion’s Bouquet Collection Challenge
+TEXT: Bouquet des Champs: Sammler-Herausforderung
 
 RESOURCE ID: community_day_tynamo_event_name
 TEXT: Community Day mit Zapplardin
@@ -634,6 +655,12 @@ TEXT: Farbe
 RESOURCE ID: iris_social_already_deployed_key
 TEXT: Dieses Pokémon befindet sich an einem anderen Ort.
 
+RESOURCE ID: iris_social_buddy_not_allowed
+TEXT: Kumpel-Pokémon können nicht ausgewählt werden.
+
+RESOURCE ID: iris_social_in_session_recall
+TEXT: {0} war müde und ist zu seinem Trainer zurückgekehrt.
+
 RESOURCE ID: iris_social_is_mega_key
 TEXT: Pokémon, bei denen die Mega-Entwicklung oder die Protomorphose ausgelöst wurde, können nicht ausgewählt werden.
 
@@ -947,10 +974,10 @@ RESOURCE ID: mega_lucario_raid_day_ultra_unlock_event_name
 TEXT: Hyperbonus: Raid Tag mit Mega-Lucario
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-07-18T20:43:19.204091+00:00 for de-DE
-at SHA 90f8feeb9c7
-Pipeline 2471930, job 30021493
-Patch from: 0.321.0-SHA-974d75a6-RC4, 0.323.0-SHA-11bbd4c9-RC3
+TEXT: Built at 2024-07-20T00:21:26.248833+00:00 for de-DE
+at SHA fc3af802f76
+Pipeline 2475269, job 30070879
+Patch from: 0.321.1-SHA-1e50ddd5-RC1, 0.323.0-SHA-11bbd4c9-RC3
 
 RESOURCE ID: mobile_general
 TEXT: Swipe left and right to navigate. Swipe up and down to quickly jump between groups of elements. Swipe up with two fingers to read the entire screen from the top. Double tap to activate an item.
@@ -1181,7 +1208,7 @@ RESOURCE ID: quest_special_dialogue_tynamo_3_3
 TEXT: Mach weiter so mit deiner fantastischen Arbeit. Ich bin mir sicher, dass wir uns bald wiedersehen werden. In der Zwischenzeit, nichts wie raus und GO!
 
 RESOURCE ID: quest_spin_wcs_2024
-TEXT: Spin 10 PokéStops or Gyms at the Hawaiʻi Convention Center
+TEXT: Drehe 10 PokéStops oder Arenen beim Hawai‘i Convention Center
 
 RESOURCE ID: quest_title_elite_mega_ray
 TEXT: Befristete Forschung: Top-Raid – Mega-Rayquaza
@@ -1317,46 +1344,46 @@ RESOURCE ID: timed_challenge_work_together_v2
 TEXT: Alle Trainer müssen als globale Gemeinschaft zusammenarbeiten, um diese Herausforderung abzuschließen.
 
 RESOURCE ID: title_bonus_honolulu_greetings
-TEXT: Greetings from Honolulu! Additional Bonuses
+TEXT: Zusätzliche Boni: Grüße aus Honolulu!
 
 RESOURCE ID: title_bonus_wcs_2023_champ
-TEXT: 2023 Pokémon World Champion Additional Bonuses
+TEXT: Zusätzliche Boni: Champ der Pokémon-Weltmeisterschaften 2023
 
 RESOURCE ID: title_bonus_wcs_2024_team_building
-TEXT: Team Building: Great League –  Additional Bonuses
+TEXT: Zusätzliche Boni: Teamgeist – Superliga
 
 RESOURCE ID: title_tr_wcs_2023_champ
-TEXT: 2023 Pokémon World Champion Bonus Timed Research
+TEXT: Befristete Bonus-Forschung: Champ der Pokémon-Weltmeisterschaften 2023
 
 RESOURCE ID: title_tr_wcs_2023_champ_00
-TEXT: 2023 Pokémon World Champion Bonus Timed Research (1/2)
+TEXT: Befristete Bonus-Forschung: Champ der Pokémon-Weltmeisterschaften 2023 (1/2)
 
 RESOURCE ID: title_tr_wcs_2023_champ_01
-TEXT: 2023 Pokémon World Champion Bonus Timed Research (2/2)
+TEXT: Befristete Bonus-Forschung: Champ der Pokémon-Weltmeisterschaften 2023 (2/2)
 
 RESOURCE ID: title_tr_wcs_2024_team_building
-TEXT: Team Building: Great League – Bonus Timed Research
+TEXT: Befristete Bonus-Forschung: Teamgeist – Superliga
 
 RESOURCE ID: title_tr_wcs_2024_team_building_00
-TEXT: Team Building: Great League – Bonus Timed Research (1/3)
+TEXT: Befristete Bonus-Forschung: Teamgeist – Superliga (1/3)
 
 RESOURCE ID: title_tr_wcs_2024_team_building_01
-TEXT: Team Building: Great League – Bonus Timed Research (2/3)
+TEXT: Befristete Bonus-Forschung: Teamgeist – Superliga (2/3)
 
 RESOURCE ID: title_tr_wcs_2024_team_building_02
-TEXT: Team Building: Great League – Bonus Timed Research (3/3)
+TEXT: Befristete Bonus-Forschung: Teamgeist – Superliga (3/3)
 
 RESOURCE ID: title_tr_wcs_honolulu_greetings
-TEXT: Greetings from Honolulu! Bonus Timed Research
+TEXT: Befristete Bonus-Forschung: Grüße aus Honolulu!
 
 RESOURCE ID: title_tr_wcs_honolulu_greetings_00
-TEXT: Greetings from Honolulu! Bonus Timed Research (1/1)
+TEXT: Befristete Bonus-Forschung: Grüße aus Honolulu! (1/1)
 
 RESOURCE ID: title_wcs_2024_scavenger_hunt
-TEXT: 2024 Pokémon World Championships Scavenger Hunt
+TEXT: Pokémon-Weltmeisterschaften 2024: Schnitzeljagd
 
 RESOURCE ID: title_wcs_2024_scavenger_hunt_00
-TEXT: 2024 Pokémon World Championships Scavenger Hunt (1/1)
+TEXT: Pokémon-Weltmeisterschaften 2024: Schnitzeljagd (1/1)
 
 RESOURCE ID: tr_inbound_from_ultra_space_raid
 TEXT: Befristete Forschung: Besuch aus der Ultradimension
@@ -1374,7 +1401,7 @@ RESOURCE ID: tts_toggle_off
 TEXT: Disabled.
 
 RESOURCE ID: tts_toggle_on
-TEXT: Enabled
+TEXT: Enabled.
 
 RESOURCE ID: ultra_unlock_event_name_1
 TEXT: Hyperbonus: Teil 1
@@ -1398,5 +1425,5 @@ RESOURCE ID: wandering_waddles_tr_name
 TEXT: Wandernde Watschelei
 
 RESOURCE ID: wcs_2024_honolulu_event_title
-TEXT: Honolulu 2024 Pokémon World Championships
+TEXT: Pokémon-Weltmeisterschaften 2024 in Honolulu
 

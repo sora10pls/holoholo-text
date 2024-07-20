@@ -25,6 +25,27 @@ TEXT: 水上樂園收藏家挑戰
 RESOURCE ID: aquatic_paradise_event_name
 TEXT: 水上樂園
 
+RESOURCE ID: ar_backgrounded_error
+TEXT: 與寶可補給站周邊的連線已中斷
+
+RESOURCE ID: ar_too_far_error_body
+TEXT: 距離寶可補給站太遠。請回到寶可補給站。
+
+RESOURCE ID: ar_too_far_error_title
+TEXT: 已離開可遊玩的範圍
+
+RESOURCE ID: ar_too_far_recover_toast
+TEXT: 請回到寶可補給站周邊
+
+RESOURCE ID: ar_too_far_warning_body
+TEXT: 要和寶可夢玩耍，需要更靠近寶可補給站周邊。若距離太遠，連線將會中斷。
+
+RESOURCE ID: ar_too_far_warning_title
+TEXT: 距離太遠
+
+RESOURCE ID: ar_tracking_error_body
+TEXT: AR定位發生問題。請重新掃描寶可補給站周邊，或是稍後再試一次。
+
 RESOURCE ID: avatar_alolanexeggutorhat
 TEXT: 椰蛋樹（阿羅拉的樣子）頭套
 
@@ -625,6 +646,12 @@ TEXT: 顏色
 RESOURCE ID: iris_social_already_deployed_key
 TEXT: 已在其他地方放出這隻寶可夢
 
+RESOURCE ID: iris_social_buddy_not_allowed
+TEXT: 不能選擇夥伴寶可夢
+
+RESOURCE ID: iris_social_in_session_recall
+TEXT: {0}玩累了，已回到訓練家身邊
+
 RESOURCE ID: iris_social_is_mega_key
 TEXT: 不能放置超級進化或是原始回歸的寶可夢
 
@@ -902,10 +929,10 @@ RESOURCE ID: mega_lucario_raid_day_ultra_unlock_event_name
 TEXT: 究極解鎖：超級路卡利歐團體戰日
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-07-18T20:43:19.204091+00:00 for zh-TW
-at SHA 90f8feeb9c7
-Pipeline 2471930, job 30021493
-Patch from: 0.321.0-SHA-974d75a6-RC4, 0.323.0-SHA-11bbd4c9-RC3
+TEXT: Built at 2024-07-20T00:21:26.248833+00:00 for zh-TW
+at SHA fc3af802f76
+Pipeline 2475269, job 30070879
+Patch from: 0.321.1-SHA-1e50ddd5-RC1, 0.323.0-SHA-11bbd4c9-RC3
 
 RESOURCE ID: mobile_general
 TEXT: Swipe left and right to navigate. Swipe up and down to quickly jump between groups of elements. Swipe up with two fingers to read the entire screen from the top. Double tap to activate an item.
@@ -965,7 +992,7 @@ RESOURCE ID: poi_contrib_not_suitable_for_ar
 TEXT: 不適用AR體驗
 
 RESOURCE ID: poi_contrib_not_suitable_for_ar_btn_disabled
-TEXT: 該地點不支援AR體驗。
+TEXT: 此地點不支援AR體驗
 
 RESOURCE ID: poi_contrib_sensitive
 TEXT: 敏感場所
@@ -1312,7 +1339,7 @@ RESOURCE ID: tts_toggle_off
 TEXT: Disabled.
 
 RESOURCE ID: tts_toggle_on
-TEXT: Enabled
+TEXT: Enabled.
 
 RESOURCE ID: vps_localization_exit_confirmation_header
 TEXT: 確定要離開嗎？

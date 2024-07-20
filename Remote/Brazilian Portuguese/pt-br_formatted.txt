@@ -25,8 +25,29 @@ TEXT: Desafio de Coleção Paraíso Aquático
 RESOURCE ID: aquatic_paradise_event_name
 TEXT: Paraíso Aquático
 
+RESOURCE ID: ar_backgrounded_error
+TEXT: Você foi desconectado da área da Poképarada.
+
+RESOURCE ID: ar_too_far_error_body
+TEXT: Você está muito longe. Para reconectar, volte para a Poképarada.
+
+RESOURCE ID: ar_too_far_error_title
+TEXT: Você saiu da área
+
+RESOURCE ID: ar_too_far_recover_toast
+TEXT: Volte para a área da Poképarada para colocar o seu Pokémon.
+
+RESOURCE ID: ar_too_far_warning_body
+TEXT: Aproxime-se da área da Poképarada para interagir com o Pokémon. Você será desconectado se ficar muito longe.
+
+RESOURCE ID: ar_too_far_warning_title
+TEXT: Você está muito longe
+
 RESOURCE ID: ar_tracking_error
 TEXT: Houve um problema com o acompanhamento de RA. Tente escanear novamente a área em volta da Poképarada ou tente mais tarde.
+
+RESOURCE ID: ar_tracking_error_body
+TEXT: Houve um problema com o acompanhamento de RA. Tente escanear a área da Poképarada novamente ou tente mais tarde.
 
 RESOURCE ID: avatar_alolanexeggutorhat
 TEXT: Chapéu de Exeggutor de Alola
@@ -653,6 +674,12 @@ TEXT: Cor
 RESOURCE ID: iris_social_already_deployed_key
 TEXT: Este Pokémon está em outro local.
 
+RESOURCE ID: iris_social_buddy_not_allowed
+TEXT: Pokémon companheiro não pode ser selecionado.
+
+RESOURCE ID: iris_social_in_session_recall
+TEXT: {0} se cansou e retornou para seu Treinador.
+
 RESOURCE ID: iris_social_is_mega_key
 TEXT: Pokémon Megaevoluídos ou que passaram por Reversão Primitiva não podem ser selecionados.
 
@@ -1104,10 +1131,10 @@ RESOURCE ID: mega_lucario_raid_day_ultra_unlock_event_name
 TEXT: Ultrabônus: Dia de Reides de Mega Lucario
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-07-18T20:43:19.204091+00:00 for pt-BR
-at SHA 90f8feeb9c7
-Pipeline 2471930, job 30021493
-Patch from: 0.321.0-SHA-974d75a6-RC4, 0.323.0-SHA-11bbd4c9-RC3
+TEXT: Built at 2024-07-20T00:21:26.248833+00:00 for pt-BR
+at SHA fc3af802f76
+Pipeline 2475269, job 30070879
+Patch from: 0.321.1-SHA-1e50ddd5-RC1, 0.323.0-SHA-11bbd4c9-RC3
 
 RESOURCE ID: mobile_general
 TEXT: Swipe left and right to navigate. Swipe up and down to quickly jump between groups of elements. Swipe up with two fingers to read the entire screen from the top. Double tap to activate an item.
@@ -1359,7 +1386,7 @@ RESOURCE ID: raid_finding_players
 TEXT: Encontrando outros jogadores
 
 RESOURCE ID: raid_xp_triple
-TEXT: 2× PE por Reide
+TEXT: 3× PE por Reide
 
 RESOURCE ID: route_creation_action_menu_pin
 TEXT: Posicionar um marcador
@@ -1541,7 +1568,7 @@ RESOURCE ID: tts_toggle_off
 TEXT: Disabled.
 
 RESOURCE ID: tts_toggle_on
-TEXT: Enabled
+TEXT: Enabled.
 
 RESOURCE ID: vps_localization_exit_confirmation_header
 TEXT: Tem certeza de que quer sair?

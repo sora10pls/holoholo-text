@@ -25,6 +25,27 @@ TEXT: ウォーターパラダイスコレクションチャレンジ
 RESOURCE ID: aquatic_paradise_event_name
 TEXT: ウォーターパラダイス
 
+RESOURCE ID: ar_backgrounded_error
+TEXT: ポケストップのある場所との接続が切れました
+
+RESOURCE ID: ar_too_far_error_body
+TEXT: ポケストップの場所から離れすぎています。ポケストップまで戻ってください。
+
+RESOURCE ID: ar_too_far_error_title
+TEXT: エリア外です
+
+RESOURCE ID: ar_too_far_recover_toast
+TEXT: ポケストップの場所に戻ってください
+
+RESOURCE ID: ar_too_far_warning_body
+TEXT: ポケモンと遊ぶには、もっとポケストップの場所に近づく必要があります。離れすぎると接続が切れてしまいます。
+
+RESOURCE ID: ar_too_far_warning_title
+TEXT: 遠すぎます
+
+RESOURCE ID: ar_tracking_error_body
+TEXT: ARトラッキングで問題が発生しました。ポケストップの場所を再スキャンするか、しばらくしてから再開してください。
+
 RESOURCE ID: avatar_alolanexeggutorhat
 TEXT: アローラナッシー　ヘッドウェア
 
@@ -62,10 +83,13 @@ RESOURCE ID: badge_airadventures_2024_yogyakarta_day_00_general
 TEXT: 2024年ジョグジャカルタ
 
 RESOURCE ID: badge_airadventures_2024_yogyakarta_day_01_general
-TEXT: 2024年8月24日、ジョグジャカルタ
+TEXT: ジョグジャカルタ、2024年8月24日
 
 RESOURCE ID: badge_airadventures_2024_yogyakarta_day_02_general
-TEXT: 2024年8月25日、ジョグジャカルタ
+TEXT: ジョグジャカルタ、2025年8月25日
+
+RESOURCE ID: badge_event_0090
+TEXT: パートナーリサーチ – ひとつながりの空：セブン-イレブンコリア
 
 RESOURCE ID: badge_event_0090_title_00
 TEXT: パートナーリサーチ：セブン-イレブンコリア(1/4)
@@ -376,6 +400,12 @@ TEXT: ウルトラビースト襲来
 RESOURCE ID: iris_social_already_deployed_key
 TEXT: 他の場所に出したポケモンです
 
+RESOURCE ID: iris_social_buddy_not_allowed
+TEXT: 相棒のポケモンは選択できません
+
+RESOURCE ID: iris_social_in_session_recall
+TEXT: {0}は遊び疲れてトレーナーのもとに戻った
+
 RESOURCE ID: iris_social_is_mega_key
 TEXT: メガシンカ・ゲンシカイキしたポケモンを置くことはできません
 
@@ -650,10 +680,10 @@ RESOURCE ID: mega_lucario_raid_day_ultra_unlock_event_name
 TEXT: ウルトラアンロック：メガルカリオレイドデイ
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-07-18T20:43:19.204091+00:00 for ja-JP
-at SHA 90f8feeb9c7
-Pipeline 2471930, job 30021493
-Patch from: 0.321.0-SHA-974d75a6-RC4, 0.323.0-SHA-11bbd4c9-RC3
+TEXT: Built at 2024-07-20T00:21:26.248833+00:00 for ja-JP
+at SHA fc3af802f76
+Pipeline 2475269, job 30070879
+Patch from: 0.321.1-SHA-1e50ddd5-RC1, 0.323.0-SHA-11bbd4c9-RC3
 
 RESOURCE ID: mobile_general
 TEXT: Swipe left and right to navigate. Swipe up and down to quickly jump between groups of elements. Swipe up with two fingers to read the entire screen from the top. Double tap to activate an item.
@@ -979,7 +1009,7 @@ RESOURCE ID: tts_toggle_off
 TEXT: Disabled.
 
 RESOURCE ID: tts_toggle_on
-TEXT: Enabled
+TEXT: Enabled.
 
 RESOURCE ID: vps_localization_exit_confirmation_header
 TEXT: 本当に退出してもいいですか？
