@@ -49,6 +49,9 @@ TEXT: 遠すぎます
 RESOURCE ID: ar_tracking_error_body
 TEXT: ARトラッキングで問題が発生しました。ポケストップの場所を再スキャンするか、しばらくしてから再開してください。
 
+RESOURCE ID: avatar_f_hat_lana_00_bundle_icon
+TEXT: スイレン　ウィッグ
+
 RESOURCE ID: avatar_f_hat_sandygasthat_00_bundle_icon
 TEXT: スナバァ　帽子
 
@@ -61,11 +64,20 @@ TEXT: GoFest2020Tシャツ
 RESOURCE ID: avatar_f_shirt_togepihoodie_0_bundle_icon
 TEXT: フーディー トゲピー柄
 
+RESOURCE ID: avatar_f_shirt_wcs2024championshipshirt-blue_00_bundle_icon
+TEXT: ポケモンWCS　2024　Tシャツ　青
+
+RESOURCE ID: avatar_f_shirt_wcs2024championshipshirt-white_00_bundle_icon
+TEXT: ポケモンWCS　2024　Tシャツ　白
+
 RESOURCE ID: avatar_glasses_wcs2024champion
 TEXT: ポケモンWCS　2024　チャンピオンゴーグル
 
 RESOURCE ID: avatar_hat_wcs2024
 TEXT: ポケモンWCS　2024　帽子
+
+RESOURCE ID: avatar_m_hat_lana_00_bundle_icon
+TEXT: スイレン　ウィッグ
 
 RESOURCE ID: avatar_m_hat_sandygasthat_00_bundle_icon
 TEXT: スナバァ　帽子
@@ -78,6 +90,12 @@ TEXT: GoFest2020Tシャツ
 
 RESOURCE ID: avatar_m_shirt_togepihoodie_0_bundle_icon
 TEXT: フーディー トゲピー柄
+
+RESOURCE ID: avatar_m_shirt_wcs2024championshipshirt-blue_00_bundle_icon
+TEXT: ポケモンWCS　2024　Tシャツ　青
+
+RESOURCE ID: avatar_m_shirt_wcs2024championshipshirt-white_00_bundle_icon
+TEXT: ポケモンWCS　2024　Tシャツ　白
 
 RESOURCE ID: avatar_pants_wcs2024champion
 TEXT: ポケモンWCS　2024　チャンピオンパンツ
@@ -209,7 +227,7 @@ RESOURCE ID: bread_battle_bread_meter_almost_full
 TEXT: あと少し！
 
 RESOURCE ID: bread_battle_bread_meter_charged
-TEXT: メーターが溜まった！
+TEXT: 満タン！
 
 RESOURCE ID: bread_battle_bread_meter_collect_charge
 TEXT: チャージ完了！
@@ -257,7 +275,7 @@ RESOURCE ID: bread_battle_log_enrage_1
 TEXT: {0}は暴走寸前だ
 
 RESOURCE ID: bread_battle_log_enrage_2
-TEXT: {0}は暴走している！
+TEXT: {0}の攻撃が強くなっている！
 
 RESOURCE ID: bread_battle_log_telegraph_multi
 TEXT: {0}の全体攻撃！
@@ -312,24 +330,24 @@ TEXT: たたかえるポケモンがいなくなった。
 味方をおうえんしよう！
 
 RESOURCE ID: bread_battle_sideline_tutorial_1_inactive
-TEXT: たたかえるポケモンがいなくなった
+TEXT: たたかえるポケモンがいなくなった...
 
 RESOURCE ID: bread_battle_sideline_tutorial_2_active
 TEXT: たたかえるポケモンがいなくなった。
-他チームのポケモンをおうえんしよう！
+他チームをおうえんしよう！
 
 RESOURCE ID: bread_battle_sideline_tutorial_2_inactive
 TEXT: たたかえるポケモンがいなくなった。
 周りのバトルは続いている！
 
 RESOURCE ID: bread_battle_start_error
-TEXT: マックスバトルを開始できませんでした。再度お試しください。
+TEXT: マックスバトルを開始できませんでした。しばらくしてから再度お試しください。
 
 RESOURCE ID: bread_battle_station_boost
 TEXT: 配置済みポケモン ({0}) による攻撃ブースト
 
 RESOURCE ID: bread_battle_tutorial_description_0
-TEXT: 巨大なポケモンとバトルして勝つと捕まえるチャンスが得られます。
+TEXT: 強力なダイマックス・キョダイマックスポケモンとバトルして勝つと捕まえるチャンスが得られます。
 
 RESOURCE ID: bread_battle_tutorial_description_1
 TEXT: 味方のポケモンがきぜつしてしまう前にパワースポットボスを倒しましょう。
@@ -350,7 +368,7 @@ RESOURCE ID: bread_battle_tutorial_title_1
 TEXT: 残りポケモンの数
 
 RESOURCE ID: bread_battle_tutorial_title_2
-TEXT: メーターを溜める
+TEXT: マックスメーターを溜める
 
 RESOURCE ID: bread_battle_tutorial_title_3
 TEXT: より早く溜める
@@ -367,7 +385,7 @@ TEXT: パワースポットでのバトルにはダイマックスポケモン�
 パワースポットで捕まえることができます。
 
 RESOURCE ID: bread_cannot_enter_lobby_not_eligible_title
-TEXT: ダイマックスポケモンが必要です！
+TEXT: 少なくとも1匹のダイマックスポケモンが必要です！
 
 RESOURCE ID: bread_claim_mp_amount
 TEXT: {0}MPを入手
@@ -382,7 +400,7 @@ RESOURCE ID: bread_get_stationing_details_error
 TEXT: {0}に配置されたポケモン詳細取得エラー
 
 RESOURCE ID: bread_iap_mp_replenish_station_desc
-TEXT: このバトルに参加するにはマックス粒子が必要です
+TEXT: このバトルに参加するにはもっとマックス粒子が必要です
 
 RESOURCE ID: bread_iap_mp_replenish_title
 TEXT: マックス粒子が足りません
@@ -430,7 +448,7 @@ TEXT: {0}
 Level {1}
 
 RESOURCE ID: bread_move_upgrade_bread_a
-TEXT: マックスアタック
+TEXT: アタック
 
 RESOURCE ID: bread_move_upgrade_bread_a_desc
 TEXT: 強力なスペシャルアタック
@@ -484,10 +502,10 @@ RESOURCE ID: bread_mp_amount
 TEXT: {0}MP
 
 RESOURCE ID: bread_mp_can_only_earn_a_day
-TEXT: 一日に入手できる上限は{0}MPです
+TEXT: 一日に入手できる上限は{0}マックス粒子です
 
 RESOURCE ID: bread_mp_cannot_store
-TEXT: 持てるMPの上限に達しました
+TEXT: 持てるマックス粒子の上限に達しました
 
 RESOURCE ID: bread_mp_cooldown
 TEXT: 明日また集めにきてください
@@ -508,7 +526,7 @@ RESOURCE ID: bread_nearby_mp_ftue_conversation_1
 TEXT: マックス粒子とは、ダイマックスポケモンを捕まえるために使える不思議な粒子だ。マックスわざのレベルアップにも使える。
 
 RESOURCE ID: bread_nearby_mp_ftue_conversation_2
-TEXT: おーーっ．．．後ろにいるのは、な、なんだ！？
+TEXT: おーーっ．．．後ろにいるのは、な、なんだ？危ない！
 
 RESOURCE ID: bread_need_more_mp
 TEXT: {0}マックス粒子足りません
@@ -529,7 +547,7 @@ RESOURCE ID: bread_pokedex_header
 TEXT: キョダイマックス
 
 RESOURCE ID: bread_pokemon_info_tutorial_desc
-TEXT: これらのポケモンは、パワースポットでのマックスバトルで、強力なマックスわざを使ってバトルすることができます。
+TEXT: これらのポケモンは、パワースポットでのバトルに参加し強力なマックスわざを使うことができます。
 
 RESOURCE ID: bread_pokemon_info_tutorial_title
 TEXT: 最初のマックスポケモンを捕まえた！
@@ -603,16 +621,16 @@ TEXT: 付近のようすメニューがアップグレードされました！
 パワースポットを訪れるか、歩いてマックス粒子を集めてください。
 
 RESOURCE ID: bread_station_tutorial_message_0
-TEXT: パワースポットには、巨大なダイマックス・キョダイマックスしたポケモンがいます。
+TEXT: パワースポットには、巨大で強力なマックスポケモンがいます。
 
 RESOURCE ID: bread_station_tutorial_message_1
-TEXT: パワースポットから出ているマックス粒子を集めると、マックスバトル参加や、マックスわざのレベルアップに使用できます。
+TEXT: パワースポットから出ているマックス粒子を集めると、マックスバトル参加や、マックスわざのアンロック・レベルアップに使用できます。
 
 RESOURCE ID: bread_station_tutorial_message_2
-TEXT: パワースポットボスを倒して捕まえましょう。マックス粒子は、バトル勝利時に消費されます。
+TEXT: パワースポットボスを倒して捕まえましょう。マックス粒子は、マックスバトル勝利時に消費されます。
 
 RESOURCE ID: bread_station_tutorial_message_4
-TEXT: マックスバトルで勝つと、パワースポットボスに挑む他トレーナーをアシストするためポケモンを20匹まで配置することができます。
+TEXT: マックスバトルで勝つと、パワースポットボスに挑む他トレーナーをアシストするため、バトルパーティから選んでポケモンを配置できます。各パワースポットにポケモンを20匹まで配置することができます。
 
 RESOURCE ID: bread_station_tutorial_message_5
 TEXT: パワースポットを訪れると、ポケモンと出会えることがあります。
@@ -648,7 +666,7 @@ RESOURCE ID: bread_stationing_success
 TEXT: {0}は{1}に配置されました
 
 RESOURCE ID: bread_stationing_tutorial_description_1
-TEXT: パワースポットに配置されたポケモンは、防御時間とアシストしたバトル数によってアメを持って帰ります。パワースポットには最大20匹までポケモンを配置できます。
+TEXT: パワースポットに配置されたポケモンは、アシストしたバトル数と防御時間によって変わる個数のアメを持って帰ります。パワースポットには最大20匹までポケモンを配置できます。
 
 RESOURCE ID: bread_stationing_tutorial_description_2
 TEXT: パワースポットにいるポケモンは、対ボスバトルをアシストします。
@@ -666,7 +684,7 @@ RESOURCE ID: bread_stationing_tutorial_title_3
 TEXT: パワースポットでの出会い
 
 RESOURCE ID: bread_time_window
-TEXT: マックスバトルの開催時間：{0}～{1}
+TEXT: マックスバトルができる時間：{0}～{1}
 
 RESOURCE ID: bread_upgrade_attack
 TEXT: より多くのダメージを与えます！
@@ -766,12 +784,6 @@ RESOURCE ID: event_datetime_range_key_gblaug24
 TEXT: 8月16日10:00AM～
 8月20日8:00PM
 
-RESOURCE ID: f_shirt_wcs2024championshipshirt-blue_00_bundle_icon
-TEXT: ポケモンWCS　2024　Tシャツ　青
-
-RESOURCE ID: f_shirt_wcs2024championshipshirt-white_00_bundle_icon
-TEXT: ポケモンWCS　2024　Tシャツ　白
-
 RESOURCE ID: filter_key_bread
 TEXT: だいまっくす
 
@@ -814,11 +826,14 @@ TEXT: 報告済みです
 RESOURCE ID: general_done_exclamation_point
 TEXT: 完了！
 
+RESOURCE ID: general_something_went_wrong
+TEXT: エラーです。操作をやり直してください。
+
 RESOURCE ID: general_value_plus
 TEXT: {0}+
 
 RESOURCE ID: general_walked_km
-TEXT: {0}km歩いた
+TEXT: {0}km探索した
 
 RESOURCE ID: iris_social_buddy_not_allowed
 TEXT: 相棒のポケモンは選択できません
@@ -944,13 +959,7 @@ RESOURCE ID: log_received_station_battle_upgraded_items
 TEXT: マックスバトルで追加のアイテムを{0}個手に入れた！
 
 RESOURCE ID: log_received_station_mp
-TEXT: パワースポットで{0}マックス粒子を手に入れた！
-
-RESOURCE ID: m_shirt_wcs2024championshipshirt-blue_00_bundle_icon
-TEXT: ポケモンWCS　2024　Tシャツ　青
-
-RESOURCE ID: m_shirt_wcs2024championshipshirt-white_00_bundle_icon
-TEXT: ポケモンWCS　2024　Tシャツ　白
+TEXT: パワースポットで{0}マックス粒子を見つけた！
 
 RESOURCE ID: mega_ray_special_event_ name
 TEXT: メガレックウザスペシャルレイドイベント
@@ -959,10 +968,10 @@ RESOURCE ID: mega_timer_label
 TEXT: 残り時間：{0}
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-08-14T18:23:41.141034+00:00 for ja-JP
-at SHA 81b0633ba5
-Pipeline 2538447, job 30893509
-Patch from: 0.325.1-SHA-bc0d6e3c-RC1, 0.327.0-SHA-c07c45ea-RC2
+TEXT: Built at 2024-08-15T19:29:48.905433+00:00 for ja-JP
+at SHA 7914dd47d3
+Pipeline 2542479, job 30947887
+Patch from: 0.327.0-SHA-31451ff9-RC5, 0.325.2-SHA-dfdf06d3-RC1
 
 RESOURCE ID: mobile_general
 TEXT: 左右にスワイプしてひとつの項目を読み上げます。上下スワイプでグループごとの項目を読み上げます。2本指で上にスワイプすると先頭から全画面を読み上げます。ダブルタップで項目を実行します。
@@ -1061,85 +1070,85 @@ RESOURCE ID: move_name_0432
 TEXT: キョダイゲンエイ
 
 RESOURCE ID: move_name_0433
-TEXT: G-Max Foam Burst
+TEXT: キョダイホウマツ
 
 RESOURCE ID: move_name_0434
-TEXT: G-Max Resonance
+TEXT: キョダイセンリツ
 
 RESOURCE ID: move_name_0435
-TEXT: G-Max Cuddle
+TEXT: キョダイホーヨー
 
 RESOURCE ID: move_name_0436
-TEXT: G-Max Replenish
+TEXT: キョダイサイセイ
 
 RESOURCE ID: move_name_0437
-TEXT: G-Max Malodor
+TEXT: キョダイシュウキ
 
 RESOURCE ID: move_name_0438
-TEXT: G-Max Meltdown
+TEXT: キョダイユウゲキ
 
 RESOURCE ID: move_name_0439
-TEXT: G-Max Wind Rage
+TEXT: キョダイフウゲキ
 
 RESOURCE ID: move_name_0440
-TEXT: G-Max Gravitas
+TEXT: キョダイテンドウ
 
 RESOURCE ID: move_name_0441
-TEXT: G-Max Stonesurge
+TEXT: キョダイガンジン
 
 RESOURCE ID: move_name_0442
-TEXT: G-Max Volcalith
+TEXT: キョダイフンセキ
 
 RESOURCE ID: move_name_0443
-TEXT: G-Max Tartness
+TEXT: キョダイサンゲキ
 
 RESOURCE ID: move_name_0444
-TEXT: G-Max Sweetness
+TEXT: キョダイカンロ
 
 RESOURCE ID: move_name_0445
-TEXT: G-Max Sandblast
+TEXT: キョダイサジン
 
 RESOURCE ID: move_name_0446
-TEXT: G-Max Stun Shock
+TEXT: キョダイカンデン
 
 RESOURCE ID: move_name_0447
-TEXT: G-Max Centiferno
+TEXT: キョダイヒャッカ
 
 RESOURCE ID: move_name_0448
-TEXT: G-Max Smite
+TEXT: キョダイテンバツ
 
 RESOURCE ID: move_name_0449
-TEXT: G-Max Snooze
+TEXT: キョダイスイマ
 
 RESOURCE ID: move_name_0450
-TEXT: G-Max Finale
+TEXT: キョダイダンエン
 
 RESOURCE ID: move_name_0451
-TEXT: G-Max Steelsurge
+TEXT: キョダイコウジン
 
 RESOURCE ID: move_name_0452
-TEXT: G-Max Depletion
+TEXT: キョダイゲンスイ
 
 RESOURCE ID: move_name_0453
-TEXT: G-Max Vine Lash
+TEXT: キョダイベンタツ
 
 RESOURCE ID: move_name_0454
-TEXT: G-Max Cannonade
+TEXT: キョダイホウゲキ
 
 RESOURCE ID: move_name_0455
-TEXT: G-Max Drum Solo
+TEXT: キョダイコランダ
 
 RESOURCE ID: move_name_0456
-TEXT: G-Max Fireball
+TEXT: キョダイカキュウ
 
 RESOURCE ID: move_name_0457
-TEXT: G-Max Hydrosnipe
+TEXT: キョダイソゲキ
 
 RESOURCE ID: move_name_0458
-TEXT: G-Max One Blow
+TEXT: キョダイイチゲキ
 
 RESOURCE ID: move_name_0459
-TEXT: G-Max Rapid Flow
+TEXT: キョダイレンゲキ
 
 RESOURCE ID: move_name_0463
 TEXT: うたかたのアリア
@@ -1165,7 +1174,7 @@ RESOURCE ID: paidraidticket.3_title
 TEXT: プレミアムバトルパス x3
 
 RESOURCE ID: party_play_bonus
-TEXT: Party Play Bonus
+TEXT: チームコラボボーナス
 
 RESOURCE ID: photobomb_five_beldum
 TEXT: GOスナップショットでダンバルのサプライズ5回
@@ -1540,7 +1549,7 @@ RESOURCE ID: quest_wcs_2024_spin_02
 TEXT: Collect & Trade Cornerのポケストップを回す
 
 RESOURCE ID: quests_log_complete_bread_mp_walk_quest
-TEXT: 歩いて{0}マックス粒子を手に入れた！
+TEXT: 探索して{0}マックス粒子を手に入れた！
 
 RESOURCE ID: safari_city_2024_jakarta_title
 TEXT: City Safari: Jakarta 2024
@@ -1643,7 +1652,7 @@ RESOURCE ID: today_view_station_section_title
 TEXT: パワースポットにいるポケモン
 
 RESOURCE ID: trade_exclusion_reason_last_bread
-TEXT: マックスポケモンは交換に出せません
+TEXT: 最後のマックスポケモンであるため交換に出せません
 
 RESOURCE ID: trade_exclusion_reason_station_deployed
 TEXT: このポケモンはパワースポットにいます

@@ -49,11 +49,29 @@ TEXT: Ты слишком далеко
 RESOURCE ID: ar_tracking_error_body
 TEXT: Возникла проблема с отслеживанием в AR. Отсканируй место вокруг Покестопа ещё раз или попробуй позже.
 
+RESOURCE ID: avatar_f_hat_lana_00_bundle_icon
+TEXT: Парик в стиле Ланы
+
+RESOURCE ID: avatar_f_shirt_wcs2024championshipshirt-blue_00_bundle_icon
+TEXT: Футболка ЧМ 2024 (синяя)
+
+RESOURCE ID: avatar_f_shirt_wcs2024championshipshirt-white_00_bundle_icon
+TEXT: Футболка ЧМ 2024 (белая)
+
 RESOURCE ID: avatar_glasses_wcs2024champion
 TEXT: Маска чемпиона ЧМ 2024
 
 RESOURCE ID: avatar_hat_wcs2024
 TEXT: Панама ЧМ 2024
+
+RESOURCE ID: avatar_m_hat_lana_00_bundle_icon
+TEXT: Парик в стиле Ланы
+
+RESOURCE ID: avatar_m_shirt_wcs2024championshipshirt-blue_00_bundle_icon
+TEXT: Футболка ЧМ 2024 (синяя)
+
+RESOURCE ID: avatar_m_shirt_wcs2024championshipshirt-white_00_bundle_icon
+TEXT: Футболка ЧМ 2024 (белая)
 
 RESOURCE ID: avatar_pants_wcs2024champion
 TEXT: Штаны чемпиона ЧМ 2024
@@ -592,7 +610,7 @@ RESOURCE ID: bread_station_mp_ftue_conversation_1
 TEXT: Could you track down some more Max Particles while I investigate further?
 
 RESOURCE ID: bread_station_nearby_tab_incomplete_ftue
-TEXT: Your Nearby  menu has been upgraded!
+TEXT: Your Nearby menu has been upgraded!
 
 Visit Power Spots and explore to collect Max Particles.
 
@@ -763,12 +781,6 @@ RESOURCE ID: event_datetime_range_key_gblaug24
 TEXT: 10:00 16 августа –
 20:00 20 августа
 
-RESOURCE ID: f_shirt_wcs2024championshipshirt-blue_00_bundle_icon
-TEXT: Футболка ЧМ 2024 (синяя)
-
-RESOURCE ID: f_shirt_wcs2024championshipshirt-white_00_bundle_icon
-TEXT: Футболка ЧМ 2024 (белая)
-
 RESOURCE ID: filter_key_bread
 TEXT: dynamax
 
@@ -813,6 +825,9 @@ TEXT: You already submitted a report.
 
 RESOURCE ID: general_done_exclamation_point
 TEXT: Done!
+
+RESOURCE ID: general_something_went_wrong
+TEXT: Что-то пошло не так. Пожалуйста, попробуй ещё раз.
 
 RESOURCE ID: general_value_plus
 TEXT: {0}+
@@ -947,12 +962,6 @@ TEXT: Received {0} additional items from Max Battle.
 RESOURCE ID: log_received_station_mp
 TEXT: Found {0} Max Particles at a Power Spot.
 
-RESOURCE ID: m_shirt_wcs2024championshipshirt-blue_00_bundle_icon
-TEXT: Футболка ЧМ 2024 (синяя)
-
-RESOURCE ID: m_shirt_wcs2024championshipshirt-white_00_bundle_icon
-TEXT: Футболка ЧМ 2024 (белая)
-
 RESOURCE ID: mega_ray_special_event_ name
 TEXT: Особое рейдовое событие Мега-Райкваза
 
@@ -960,10 +969,10 @@ RESOURCE ID: mega_timer_label
 TEXT: {0} left
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-08-14T18:23:41.141034+00:00 for ru-RU
-at SHA 81b0633ba5
-Pipeline 2538447, job 30893509
-Patch from: 0.325.1-SHA-bc0d6e3c-RC1, 0.327.0-SHA-c07c45ea-RC2
+TEXT: Built at 2024-08-15T19:29:48.905433+00:00 for ru-RU
+at SHA 7914dd47d3
+Pipeline 2542479, job 30947887
+Patch from: 0.327.0-SHA-31451ff9-RC5, 0.325.2-SHA-dfdf06d3-RC1
 
 RESOURCE ID: mobile_general
 TEXT: Для навигации води пальцем влево и вправо. Чтобы быстро переключаться между группами элементов, води пальцем вверх и вниз. Проведи двумя пальцами вверх, чтобы прочитать весь экран сверху. Нажми дважды, чтобы активировать предмет.
@@ -1198,107 +1207,110 @@ TEXT: You cannot transfer your last Dynamax Pokémon.
 RESOURCE ID: pokemon_category_0296
 TEXT: Бесстрашный Покемон
 
+RESOURCE ID: pokemon_category_0544
+TEXT: Покемон-Куколка Многоножки
+
 RESOURCE ID: pokemon_desc_0003_0169_2
-TEXT: In battle, this Pokémon swings around two thick vines. If these vines slammed into a 10-story building, they could easily topple it.
+TEXT: Во время битвы Гигантамакс-Венузавр размахивает двумя толстыми лианами. Если эти лианы ударят 10-этажное здание, они с лёгкостью его опрокинут.
 
 RESOURCE ID: pokemon_desc_0006_0178_2
-TEXT: This colossal, flame-winged figure of a Charizard was brought about by Gigantamax energy.
+TEXT: Эта гигантская фигура Гигантамакс-Чаризарда с огненными крыльями была порождена Гигантамакс-энергией.
 
 RESOURCE ID: pokemon_desc_0009_0187_2
-TEXT: It’s not very good at precision shooting. When attacking, it just fires its 31 cannons over and over and over.
+TEXT: Стрельба Гигантамакс-Бластойза не отличается точностью. При проведении атаки он просто непрерывно стреляет из 31 пушки.
 
 RESOURCE ID: pokemon_desc_0012_0959_2
-TEXT: Crystallized Gigantamax energy makes up this Pokémon’s blindingly bright and highly toxic scales.
+TEXT: Ослепительно яркие и высокотоксичные чешуйки Гигантамакс-Баттерфри состоят из кристаллизованной Гигантамакс-энергии.
 
 RESOURCE ID: pokemon_desc_0025_0598_2
-TEXT: Its Gigantamax power expanded, forming its supersized body and towering tail.
+TEXT: Возросшая Гигантамакс-сила сформировала огромное тело и массивный хвост Гигантамакс-Пикачу.
 
 RESOURCE ID: pokemon_desc_0052_0063_2
-TEXT: The pattern that has appeared on its giant coin is thought to be the key to unlocking the secrets of the Dynamax phenomenon.
+TEXT: Считается, что узор, проявившийся на гигантской монете Гигантамакс-Мяута, является ключом к раскрытию тайны феномена Динамакс.
 
 RESOURCE ID: pokemon_desc_0068_0815_2
-TEXT: The Gigantamax energy coursing through its arms makes its punches hit as hard as bomb blasts.
+TEXT: Руки Гигантамакс-Мачампа наполнились Гигантамакс-энергией, что сделало его удары такими же сильными, как взрывы бомб.
 
 RESOURCE ID: pokemon_desc_0094_1044_2
-TEXT: Rumor has it that its gigantic mouth leads not into its body, filled with cursed energy, but instead directly to the afterlife.
+TEXT: Говорят, что огромная пасть Гигантамакс-Генгара ведёт не в его тело, наполненное проклятой энергией, а прямиком в загробный мир.
 
 RESOURCE ID: pokemon_desc_0099_0873_2
-TEXT: The flow of Gigantamax energy has spurred this Pokémon’s left pincer to grow to an enormous size. That claw can pulverize anything.
+TEXT: Поток Гигантамакс-энергии увеличил левую клешню Гигантамакс- Кинглера до огромных размеров. Эта клешня может стереть в порошок что угодно.
 
 RESOURCE ID: pokemon_desc_0131_0322_2
-TEXT: Over 5,000 people can ride on its shell at once. And it’s a very comfortable ride, without the slightest shaking or swaying.
+TEXT: Гигантамакс-Лапрас может одновременно перемещать на своём панцире более 5000 человек. При этом во время движения пассажирам очень комфортно, потому что их не трясёт и не укачивает.
 
 RESOURCE ID: pokemon_desc_0133_1092_2
-TEXT: Gigantamax energy upped the fluffiness of the fur around Eevee’s neck. The fur will envelop a foe, capturing its body and captivating its mind.
+TEXT: Гигантамакс-энергия сделала мех на шее Гигантамакс-Иви ещё более пушистым. Этот мех окутывает врага, захватывая его тело и пленяя разум.
 
 RESOURCE ID: pokemon_desc_0143_0199_2
-TEXT: Gigantamax energy has affected stray seeds and even pebbles that got stuck to Snorlax, making them grow to a huge size.
+TEXT: Гигантамакс-энергия преобразовала семена растений и камешки, прилипшие к Гигантамакс-Снорлаксу, заставив их вырасти до огромных размеров.
 
 RESOURCE ID: pokemon_desc_0569_2105_2
-TEXT: Due to Gigantamax energy, this Pokémon’s toxic gas has become much thicker, congealing into masses shaped like discarded toys.
+TEXT: Из-за Гигантамакс-энергии токсичный газ Гигантамакс-Гарбодора стал намного гуще, превратившись в глыбы, по форме напоминающие выброшенные игрушки.
 
 RESOURCE ID: pokemon_desc_0809_2324_2
-TEXT: In a distant land, there are legends about a cyclopean giant. In fact, the giant was a Melmetal that was flooded with Gigantamax energy.
+TEXT: В одной далёкой стране ходят легенды о гигантском циклопе. Этим циклопом на самом деле был Гигантамакс-Мелметал, наполненный Гигантамакс-энергией.
 
 RESOURCE ID: pokemon_desc_0812_0000_2
-TEXT: Gigantamax energy has caused Rillaboom’s stump to grow into a drum set that resembles a forest.
+TEXT: Гигантамакс-энергия привела к тому, что пень Гигантамакс-Риллабума превратился в барабанную установку, напоминающую лес.
 
 RESOURCE ID: pokemon_desc_0815_0000_2
-TEXT: Infused with Cinderace’s fighting spirit, the gigantic Pyro Ball never misses its targets and completely roasts opponents.
+TEXT: Наполненный боевым духом Гигантамакс-Синдерэйса, огромный Огнешар всегда попадает прямо в цель и полностью сжигает противников.
 
 RESOURCE ID: pokemon_desc_0818_0000_2
-TEXT: Gigantamax Inteleon’s Water Gun move fires at Mach 7. As the Pokémon takes aim, it uses the crest on its head to gauge wind and temperature.
+TEXT: Водомёт Гигантамакс-Интелеона выстреливает со скоростью, превышающей скорость звука в 7 раз. Когда этот Покемон прицеливается, он также замеряет ветер и температуру при помощи гребешка на голове.
 
 RESOURCE ID: pokemon_desc_0823_0000_2
-TEXT: Imbued with Gigantamax energy, its wings can whip up winds more forceful than any a hurricane could muster. The gusts blow everything away.
+TEXT: Наполненные Гигантамакс-энергией крылья Гигантамакс-Корвинайта могут создавать ветер, который сильнее любого урагана. Порывы такого ветра сдувают всё на своём пути.
 
 RESOURCE ID: pokemon_desc_0826_0000_2
-TEXT: Its brain has grown to a gargantuan size, as has the rest of its body. This Pokémon’s intellect and psychic abilities are overpowering.
+TEXT: Мозг Гигантамакс-Орбитла вырос до огромных размеров – как и его тело. Интеллект и экстрасенсорные способности этого Покемона поражают воображение.
 
 RESOURCE ID: pokemon_desc_0834_0000_2
-TEXT: It responded to Gigantamax energy by becoming bipedal. First it comes crashing down on foes, and then it finishes them off with its massive jaws.
+TEXT: Под воздействием Гигантамакс-энергии Гигантамакс-Дрэдно стал двуногим. Сначала он обрушивается на врагов всем весом своего тела, а затем добивает их своими массивными челюстями.
 
 RESOURCE ID: pokemon_desc_0839_0178_2
-TEXT: Its body is a colossal stove. With Gigantamax energy stoking the fire, this Pokémon’s flame burns hotter than 3,600 degrees Fahrenheit.
+TEXT: Тело Гигантамакс-Коалоссала представляет собой невероятных размеров печь. Благодаря Гигантамакс-энергии пламя этого Покемона разгорается до температуры свыше 2000 °C.
 
 RESOURCE ID: pokemon_desc_0841_0000_2
-TEXT: Under the influence of Gigantamax energy, it produces much more sweet nectar, and its shape has changed to resemble a giant apple.
+TEXT: Под воздействием Гигантамакс-энергии Гигантамакс-Флаппл выделяет гораздо больше сладкого нектара. Форма его тела изменилась и теперь напоминает гигантское яблоко.
 
 RESOURCE ID: pokemon_desc_0842_0000_2
-TEXT: It blasts its opponents with massive amounts of sweet, sticky nectar, drowning them under the deluge.
+TEXT: Гигантамакс-Апплтун обрушивает на противников огромное количество сладкого, липкого нектара, затапливая их.
 
 RESOURCE ID: pokemon_desc_0844_0000_2
-TEXT: Its sand pouch has grown to tremendous proportions. More than 1,000,000 tons of sand now swirl around its body.
+TEXT: У Гигантамакс-Сандаконды мешок с песком вырос до огромных размеров. Более одного миллиона тонн песка теперь вращаются вокруг его тела.
 
 RESOURCE ID: pokemon_desc_0849_2463_2
-TEXT: Its excessive electric energy is its weapon. This Pokémon can build up more electricity than any thundercloud.
+TEXT: Оружием Гигантамакс-Токстрисити является чрезмерное количество электрической энергии. Этот Покемон может накопить больше электричества, чем грозовая туча.
 
 RESOURCE ID: pokemon_desc_0849_2464_2
-TEXT: Its excessive electric energy is its weapon. This Pokémon can build up more electricity than any thundercloud.
+TEXT: Оружием Гигантамакс-Токстрисити является чрезмерное количество электрической энергии. Этот Покемон может накопить больше электричества, чем грозовая туча.
 
 RESOURCE ID: pokemon_desc_0851_0000_2
-TEXT: Gigantamax energy has evoked a rise in its body temperature, now reaching over 1,800 degrees Fahrenheit. Its heat waves incinerate its enemies.
+TEXT: Гигантамакс-энергия вызвала повышение температуры тела Гигантамакс-Сентискорча до 1000 °C. Его тепловые волны испепеляют врагов.
 
 RESOURCE ID: pokemon_desc_0858_0000_2
-TEXT: This Pokémon can read the emotions of creatures over 30 miles away. The minute it senses hostility, it goes on the attack.
+TEXT: Гигантамакс-Хаттерин может считывать эмоции существ, находящихся на расстоянии более 50 км. Как только она чувствует враждебность, она идёт в атаку.
 
 RESOURCE ID: pokemon_desc_0861_0000_2
-TEXT: By transforming its leg hair, this Pokémon delivers power-packed drill kicks that can bore huge holes in Galar’s terrain.
+TEXT: Гигантамакс-Гриммснарл придаёт волосам на ногах форму бура и наносит мощные удары, которые оставляют огромные дыры на земной поверхности Галара.
 
 RESOURCE ID: pokemon_desc_0869_0000_2
-TEXT: Cream pours endlessly from this Pokémon’s body. The cream stiffens when compressed by an impact. A harder impact results in harder cream.
+TEXT: Из тела Гигантамакс-Алкреми нескончаемым потоком льются сливки, которые загустевают при воздействии. Чем сильнее воздействие, тем гуще становятся эти сливки.
 
 RESOURCE ID: pokemon_desc_0879_0000_2
-TEXT: So much power is packed within its trunk that if it were to unleash that power, the resulting blast could level mountains and change the landscape.
+TEXT: В хоботе Гигантамакс-Коппераджи сосредоточено огромное количество энергии. Если эта энергия высвободится, то произойдёт такой сильный взрыв, что горы сравняются с землёй и ландшафт местности полностью поменяется.
 
 RESOURCE ID: pokemon_desc_0884_0000_2
-TEXT: It’s grown to resemble a skyscraper. Parts of its towering body glow due to a profusion of energy.
+TEXT: Когда Гигантамакс-Дюралюдон увеличился в размерах, он стал напоминать небоскрёб. Части его массивного тела светятся от обилия энергии.
 
 RESOURCE ID: pokemon_desc_0892_2723_2
-TEXT: People call it the embodiment of rage. It’s said that this Pokémon’s terrifying expression and shout will rid the world of malevolence.
+TEXT: В народе этого Гигантамакс-Уршифу называют воплощением ярости. Также говорят, что ужасающее выражение лица и крик этого Покемона избавят мир от злобы.
 
 RESOURCE ID: pokemon_desc_0892_2724_3
-TEXT: As it waits for the right moment to unleash its Gigantamax power, this Pokémon maintains a perfect one-legged stance. It won’t even twitch.
+TEXT: Ожидая подходящего момента, чтобы высвободить свою Гигантамакс-силу, Гигантамакс-Уршифу замер в идеальной стойке на одной ноге. При этом он остаётся абсолютно неподвижен.
 
 RESOURCE ID: pokemon_info_caught_breadbattle
 TEXT: Caught at a Max Battle
