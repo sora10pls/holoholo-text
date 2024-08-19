@@ -112,6 +112,54 @@ TEXT: Yogyakarta, 25 de agosto de 2024
 RESOURCE ID: badge_aa_2024_yogyakarta_day_02_title
 TEXT: Pikachu de viaje por Indonesia
 
+RESOURCE ID: badge_safari_2024_incheon_day_00
+TEXT: Incheon 2024
+
+RESOURCE ID: badge_safari_2024_incheon_day_00_citywide
+TEXT: Incheon 2024
+
+RESOURCE ID: badge_safari_2024_incheon_day_00_citywide_title
+TEXT: Pokémon GO Safari Zone – City Experience
+
+RESOURCE ID: badge_safari_2024_incheon_day_00_title
+TEXT: Pokémon GO Safari Zone
+
+RESOURCE ID: badge_safari_2024_incheon_day_01
+TEXT: Incheon, September 27, 2024
+
+RESOURCE ID: badge_safari_2024_incheon_day_01_citywide
+TEXT: Incheon, September 27, 2024
+
+RESOURCE ID: badge_safari_2024_incheon_day_01_citywide_title
+TEXT: Pokémon GO Safari Zone – City Experience
+
+RESOURCE ID: badge_safari_2024_incheon_day_01_title
+TEXT: Pokémon GO Safari Zone
+
+RESOURCE ID: badge_safari_2024_incheon_day_02
+TEXT: Incheon, September 28, 2024
+
+RESOURCE ID: badge_safari_2024_incheon_day_02_citywide
+TEXT: Incheon, September 28, 2024
+
+RESOURCE ID: badge_safari_2024_incheon_day_02_citywide_title
+TEXT: Pokémon GO Safari Zone – City Experience
+
+RESOURCE ID: badge_safari_2024_incheon_day_02_title
+TEXT: Pokémon GO Safari Zone
+
+RESOURCE ID: badge_safari_2024_incheon_day_03
+TEXT: Incheon, September 29, 2024
+
+RESOURCE ID: badge_safari_2024_incheon_day_03_citywide
+TEXT: Incheon, September 29, 2024
+
+RESOURCE ID: badge_safari_2024_incheon_day_03_citywide_title
+TEXT: Pokémon GO Safari Zone – City Experience
+
+RESOURCE ID: badge_safari_2024_incheon_day_03_title
+TEXT: Pokémon GO Safari Zone
+
 RESOURCE ID: badge_safari_2024_jakarta_add_on_hatch
 TEXT: Jakarta 2024
 
@@ -172,6 +220,9 @@ TEXT: ¡Evoluciona a Metang para conseguir un Metagross que conozca el ataque ca
 RESOURCE ID: bonus_cd_move_popplio
 TEXT: ¡Evoluciona a Brionne para obtener un Primarina que conozca el ataque cargado Hidrocañón!
 
+RESOURCE ID: bonus_event_safari_pikachu_snapshot_incheon
+TEXT: Up to 5 surprise encounters with Pikachu wearing a Safari Hat in GO Snapshot
+
 RESOURCE ID: bonus_event_spawn_routes
 TEXT: Los Pokémon del evento pueden aparecer mientras caminas por Rutas
 
@@ -180,6 +231,12 @@ TEXT: Event-exclusive Buddy Souvenirs are available!
 
 RESOURCE ID: bonus_implicit_social_popplio_raid
 TEXT: Si los Entrenadores colaboran para ganar en una incursión de Brionne, aparecerán grandes cantidades de Popplio en la zona durante 30 minutos.
+
+RESOURCE ID: bonus_incheon_lc_field_research
+TEXT: Chance of Incheon Location Background on Skiddo or Pikachu wearing a Safari Hat encountered from Field Research
+
+RESOURCE ID: bonus_incheon_lc_special_research
+TEXT: Chance of Shinny Skiddo encountered from Special Research
 
 RESOURCE ID: bonus_lc_wcs_2024_pikachu
 TEXT: Los Pikachu con disfraz atrapados en incursiones y tareas de Investigación de Campo pueden tener un fondo de la ubicación exclusivo
@@ -633,7 +690,7 @@ RESOURCE ID: bread_station_tutorial_message_4
 TEXT: After you defeat a Power Spot Boss, you can place a Pokémon that was in your battle party at that Power Spot to help other Trainers and earn Candy. You can place up to 20 Pokémon at different Power Spots.
 
 RESOURCE ID: bread_station_tutorial_message_5
-TEXT: You may encounter a Pokémon after visiting a Power Spot. The more Gigantamax  Pokémon placed at the Power Spot, the higher chance you may encounter a wild Dynamax Pokémon.
+TEXT: You may encounter a Pokémon after visiting a Power Spot. The more Gigantamax Pokémon placed at the Power Spot, the higher chance you may encounter a wild Dynamax Pokémon.
 
 RESOURCE ID: bread_station_tutorial_title
 TEXT:  
@@ -702,7 +759,7 @@ RESOURCE ID: bread_walk_km_and_collect_mp
 TEXT: Walk {0} km to collect {1} MP
 
 RESOURCE ID: bulk_bread_upgrade_final_confirmation
-TEXT: Do you want to work on {0}?
+TEXT: Do you want to work on this Max Move?
 
 RESOURCE ID: candy_label
 TEXT: Candy
@@ -724,6 +781,9 @@ TEXT: Bonificación de Investigación Temporal de Clásicos del Día de la Comun
 
 RESOURCE ID: cdc_bonus_tr_title_04
 TEXT: Bonificación de Investigación Temporal de Clásicos del Día de la Comunidad (5/5)
+
+RESOURCE ID: check_today_view_rewards
+TEXT: ¡Consulta la pestaña "Hoy" para ver el resto de tus recompensas!
 
 RESOURCE ID: checkbox_checked
 TEXT: Marcado.
@@ -787,6 +847,13 @@ RESOURCE ID: event_datetime_range_key_gblaug24
 TEXT: Del 16 de agosto a las 10:00 a. m. al
 20 de agosto a las 8:00 p. m.
 
+RESOURCE ID: event_datetime_range_key_poppliocd24_title
+TEXT: 31 de agosto de 2:00 p. m. a 5:00 p. m.
+
+RESOURCE ID: event_datetime_range_key_ttfinale24
+TEXT: Del 23 de agosto a las 10:00 a. m.
+al 31 de agosto de 2024 a las 8:00 p. m. en tu hora local.
+
 RESOURCE ID: filter_key_bread
 TEXT: dynamax
 
@@ -817,6 +884,9 @@ TEXT: ???
 RESOURCE ID: filter_label_gigantamax_temp
 TEXT: Gigantamax
 
+RESOURCE ID: fitness_km_label
+TEXT: km
+
 RESOURCE ID: general1.ticket.2_bulbt_title
 TEXT: Entrada: Clásicos del Día de la Comunidad (Bulbasaur)
 
@@ -832,17 +902,26 @@ TEXT: Entrada: Investigación Temporal Prémium de Semana de Aventuras
 RESOURCE ID: general1.ticket._gblaug24_title
 TEXT: Entrada: Investigación Temporal Prémium del Mundial 2024
 
+RESOURCE ID: general1.ticket._ttfinale24_title
+TEXT: Entrada: Investigación Temporal Prémium de Triunfo en equipo
+
 RESOURCE ID: general1.ticket_beldumcdc24
 TEXT: Entrada: Clásicos del Día de la Comunidad (Beldum)
 
 RESOURCE ID: general1.ticket_cyndaquilcdc2024_title
 TEXT: Entrada: Clásicos del Día de la Comunidad (Cyndaquil)
 
+RESOURCE ID: general1.ticket_poppliocd24_title
+TEXT: Entrada: Día de la Comunidad de Popplio
+
 RESOURCE ID: general_already_submitted_report
 TEXT: You already submitted a report.
 
 RESOURCE ID: general_done_exclamation_point
 TEXT: Done!
+
+RESOURCE ID: general_km
+TEXT: km
 
 RESOURCE ID: general_something_went_wrong
 TEXT: Hubo un error. Vuelve a intentarlo.
@@ -852,6 +931,15 @@ TEXT: {0}+
 
 RESOURCE ID: general_walked_km
 TEXT: Explored {0} km
+
+RESOURCE ID: global_challenges_appearing
+TEXT: Durante este evento aparecerán Desafíos Globales
+
+RESOURCE ID: instinct_challenge
+TEXT: Desafío Global de Instinto
+
+RESOURCE ID: instinct_reward
+TEXT: Recompensas del Desafío Global de Instinto
 
 RESOURCE ID: iris_social_buddy_not_allowed
 TEXT: No es posible seleccionar tu Pokémon compañero.
@@ -871,17 +959,29 @@ TEXT: Esta entrada se activará automáticamente para darte acceso a la Investig
 RESOURCE ID: item_event_ticket_05_details_megalucarioraidday
 TEXT: Esta entrada se activará automáticamente para darte acceso a las bonificaciones especiales el 27 de julio, estés donde estés.
 
+RESOURCE ID: item_event_ticket_gray_desc_ttfinale24
+TEXT: Una entrada para acceder a la Investigación Temporal Prémium de Triunfo en equipo del 23 agosto a las 10:00 a. m. al 31 de agosto de 2024 a las 8:00 p. m. en tu hora local, estés donde estés.
+
+RESOURCE ID: item_event_ticket_gray_details_ttfinale24
+TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Temporal Prémium de Triunfo en equipo el 23 de agosto, estés donde estés.
+
 RESOURCE ID: item_event_ticket_pink_desc
 TEXT: Una entrada para acceder a la Investigación Especial del evento Clásicos del Día de la Comunidad: Beldum desde el 18 de agosto a las 2:00 p. m. en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_desc_cyndaquil
 TEXT: Una entrada para acceder a la Investigación Especial del evento Clásicos del Día de la Comunidad: Cyndaquil desde el 22 de junio a las 2:00 p. m. en tu hora local, estés donde estés.
 
+RESOURCE ID: item_event_ticket_pink_desc_poppliocd24_title
+TEXT: Una entrada para acceder a la Investigación Especial del Día de la Comunidad de Popplio desde el 31 de agosto a las 2:00 p. m. en tu hora local, estés donde estés.
+
 RESOURCE ID: item_event_ticket_pink_desc_tynamo
 TEXT: Una entrada para acceder a la Investigación Especial del Día de la Comunidad de Tynamo desde el 21 de julio a las 2:00 p. m. en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_details
 TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Especial "Clásicos del Día de la Comunidad: Beldum" el 18 agosto, estés donde estés.
+
+RESOURCE ID: item_event_ticket_pink_details_poppliocd24_title
+TEXT: Esta entrada se activará automáticamente para darte acceso a la historia de Investigación Especial "Un espectáculo encantador" el 31 de agosto, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_details_tynamo
 TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Especial "¿Qué onda?" el 21 de julio, estés donde estés.
@@ -993,10 +1093,10 @@ RESOURCE ID: mega_timer_label
 TEXT: {0} left
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-08-15T19:29:48.905433+00:00 for es-MX
-at SHA 7914dd47d3
-Pipeline 2542479, job 30947887
-Patch from: 0.327.0-SHA-31451ff9-RC5, 0.325.2-SHA-dfdf06d3-RC1
+TEXT: Built at 2024-08-19T21:29:18.402144+00:00 for es-MX
+at SHA badf5b220b
+Pipeline 2549876, job 31050022
+Patch from: 0.329.0-SHA-18111616-RC1, 0.327.0-SHA-31451ff9-RC5, 0.325.2-SHA-dfdf06d3-RC1
 
 RESOURCE ID: mobile_general
 TEXT: Desliza hacia la izquierda y la derecha para navegar. Desliza hacia arriba y hacia abajo para moverte rápidamente entre grupos de elementos. Desliza hacia arriba con dos dedos para leer la pantalla completa desde el principio. Toca dos veces en la pantalla para activar un objeto.
@@ -1192,6 +1292,12 @@ RESOURCE ID: mp_replenish.3_title
 TEXT: 3 Max Particle Packs
 ({0} MP)
 
+RESOURCE ID: mystic_challenge
+TEXT: Desafío Global de Sabiduría
+
+RESOURCE ID: mystic_reward
+TEXT: Recompensas del Desafío Global de Sabiduría
+
 RESOURCE ID: no_pokemon_in_station_hint
 TEXT: Earn Candy by placing your Pokémon at Power Spots!
 
@@ -1337,106 +1443,106 @@ RESOURCE ID: pokemon_info_evolve_pokemon_stationed
 TEXT: {0} is placed at a Power Spot.
 
 RESOURCE ID: pokemon_name_0003_0169_2
-TEXT: Gigantamax Venusaur
+TEXT: Venusaur Gigamax
 
 RESOURCE ID: pokemon_name_0006_0178_2
-TEXT: Gigantamax Charizard
+TEXT: Charizard Gigamax
 
 RESOURCE ID: pokemon_name_0009_0187_2
-TEXT: Gigantamax Blastoise
+TEXT: Blastoise Gigamax
 
 RESOURCE ID: pokemon_name_0012_0959_2
-TEXT: Gigantamax Butterfree
+TEXT: Butterfree Gigamax
 
 RESOURCE ID: pokemon_name_0025_0598_2
-TEXT: Gigantamax Pikachu
+TEXT: Pikachu Gigamax
 
 RESOURCE ID: pokemon_name_0052_0063_2
-TEXT: Gigantamax Meowth
+TEXT: Meowth Gigamax
 
 RESOURCE ID: pokemon_name_0068_0815_2
-TEXT: Gigantamax Machamp
+TEXT: Machamp Gigamax
 
 RESOURCE ID: pokemon_name_0094_1044_2
-TEXT: Gigantamax Gengar
+TEXT: Gengar Gigamax
 
 RESOURCE ID: pokemon_name_0099_0873_2
-TEXT: Gigantamax Kingler
+TEXT: Kingler Gigamax
 
 RESOURCE ID: pokemon_name_0131_0322_2
-TEXT: Gigantamax Lapras
+TEXT: Lapras Gigamax
 
 RESOURCE ID: pokemon_name_0133_1092_2
-TEXT: Gigantamax Eevee
+TEXT: Eevee Gigamax
 
 RESOURCE ID: pokemon_name_0143_0199_2
-TEXT: Gigantamax Snorlax
+TEXT: Snorlax Gigamax
 
 RESOURCE ID: pokemon_name_0569_2105_2
-TEXT: Gigantamax Garbodor
+TEXT: Garbodor Gigamax
 
 RESOURCE ID: pokemon_name_0809_2324_2
-TEXT: Gigantamax Melmetal
+TEXT: Melmetal Gigamax
 
 RESOURCE ID: pokemon_name_0812_0000_2
-TEXT: Gigantamax Rillaboom
+TEXT: Rillaboom Gigamax
 
 RESOURCE ID: pokemon_name_0815_0000_2
-TEXT: Gigantamax Cinderace
+TEXT: Cinderace Gigamax
 
 RESOURCE ID: pokemon_name_0818_0000_2
-TEXT: Gigantamax Inteleon
+TEXT: Inteleon Gigamax
 
 RESOURCE ID: pokemon_name_0823_0000_2
-TEXT: Gigantamax Corviknight
+TEXT: Corviknight Gigamax
 
 RESOURCE ID: pokemon_name_0826_0000_2
-TEXT: Gigantamax Orbeetle
+TEXT: Orbeetle Gigamax
 
 RESOURCE ID: pokemon_name_0834_0000_2
-TEXT: Gigantamax Drednaw
+TEXT: Drednaw Gigamax
 
 RESOURCE ID: pokemon_name_0839_0178_2
-TEXT: Gigantamax Coalossal
+TEXT: Coalossal Gigamax
 
 RESOURCE ID: pokemon_name_0841_0000_2
-TEXT: Gigantamax Flapple
+TEXT: Flapple Gigamax
 
 RESOURCE ID: pokemon_name_0842_0000_2
-TEXT: Gigantamax Appletun
+TEXT: Appletun Gigamax
 
 RESOURCE ID: pokemon_name_0844_0000_2
-TEXT: Gigantamax Sandaconda
+TEXT: Sandaconda Gigamax
 
 RESOURCE ID: pokemon_name_0849_2463_2
-TEXT: Gigantamax Toxtricity
+TEXT: Toxtricity Gigamax
 
 RESOURCE ID: pokemon_name_0849_2464_2
-TEXT: Gigantamax Toxtricity
+TEXT: Toxtricity Gigamax
 
 RESOURCE ID: pokemon_name_0851_0000_2
-TEXT: Gigantamax Centiskorch
+TEXT: Centiskorch Gigamax
 
 RESOURCE ID: pokemon_name_0858_0000_2
-TEXT: Gigantamax Hatterene
+TEXT: Hatterene Gigamax
 
 RESOURCE ID: pokemon_name_0861_0000_2
-TEXT: Gigantamax Grimmsnarl
+TEXT: Grimmsnarl Gigamax
 
 RESOURCE ID: pokemon_name_0869_0000_2
-TEXT: Gigantamax Alcremie
+TEXT: Alcremie Gigamax
 
 RESOURCE ID: pokemon_name_0879_0000_2
-TEXT: Gigantamax Copperajah
+TEXT: Copperajah Gigamax
 
 RESOURCE ID: pokemon_name_0884_0000_2
-TEXT: Gigantamax Duraludon
+TEXT: Duraludon Gigamax
 
 RESOURCE ID: pokemon_name_0892_2723_2
-TEXT: Single Strike Style Gigantamax Urshifu
+TEXT: Urshifu Gigamax Estilo Brusco
 
 RESOURCE ID: pokemon_name_0892_2724_3
-TEXT: Rapid Strike Style Gigantamax Urshifu
+TEXT: Urshifu Gigamax Estilo Fluido
 
 RESOURCE ID: quest_beldum_catch_b
 TEXT: Atrapa {0} Beldum
@@ -1455,6 +1561,9 @@ TEXT: Evoluciona un Brionne
 
 RESOURCE ID: quest_event_eevee_snapshot_jakarta
 TEXT: Take a Snapshot of your Eevee in Jakarta
+
+RESOURCE ID: quest_event_spin_incheon
+TEXT: Spin a PokéStop or Gym in Incheon
 
 RESOURCE ID: quest_event_spin_jakarta
 TEXT: Spin a PokéStop or Gym in Jakarta
@@ -1576,6 +1685,15 @@ TEXT: Received {0} Max Particles from exploring.
 RESOURCE ID: raid_xp_triple
 TEXT: 3× EXP por incursión
 
+RESOURCE ID: routes_path_length_min
+TEXT: (MÍN.: {0} KM)
+
+RESOURCE ID: safari_2024_incheon_dialogue_0_1
+TEXT: Welcome to Safari Zone Incheon 2024, %PLAYERNAME%!
+
+RESOURCE ID: safari_2024_incheon_dialogue_1_1
+TEXT: Thanks to you, we’ve learned a lot about the Pokémon at Safari Zone Incheon 2024!
+
 RESOURCE ID: safari_city_2024_jakarta_title
 TEXT: City Safari: Jakarta 2024
 
@@ -1588,6 +1706,21 @@ TEXT: City Safari: Jakarta 2024 (2/3)
 RESOURCE ID: safari_city_2024_jakarta_title_02
 TEXT: City Safari: Jakarta 2024 (3/3)
 
+RESOURCE ID: safari_zone_2024_incheon_citywide
+TEXT: Safari Zone Incheon – City Experience
+
+RESOURCE ID: safari_zone_2024_incheon_park
+TEXT: Safari Zone Incheon – Park Experience
+
+RESOURCE ID: safari_zone_2024_incheon_title
+TEXT: Safari Zone Incheon 2024
+
+RESOURCE ID: safari_zone_2024_incheon_title_00
+TEXT: Safari Zone Incheon 2024 (1/2)
+
+RESOURCE ID: safari_zone_2024_incheon_title_01
+TEXT: Safari Zone Incheon 2024 (2/2)
+
 RESOURCE ID: screen_reader_title
 TEXT: Lector de pantalla
 
@@ -1596,6 +1729,15 @@ TEXT: Velocidad de lectura
 
 RESOURCE ID: see_username_suggestions
 TEXT: Ver sugerencias
+
+RESOURCE ID: skiddo_o_clock
+TEXT: Skiddo O’Clock
+
+RESOURCE ID: skiddo_o_clock_active
+TEXT: Skiddo are now appearing in large numbers!
+
+RESOURCE ID: skiddo_o_clock_description
+TEXT: At the top of each hour, Skiddo will appear in large numbers!
 
 RESOURCE ID: spawn_beldum
 TEXT: ¡Están apareciendo más Beldum salvajes!
@@ -1644,6 +1786,17 @@ TEXT: ¡Esta entrada tiene como objetivo ayudarte a convertirte en la persona qu
 <b>Las recompensas incluyen:</b>
 • Encuentros con Lickitung, Lanturn, Azumarill, Skarmory, Vigoroth, Cresselia, Stunfisk de Galar, Carbink y Charjabug
 • 25,000 Polvos Estrella y 1 Pase de Combate Prémium
+
+RESOURCE ID: text_rewards_key_poppliocd24_title
+TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+• Artículos prémium dentro del juego, como Caramelos Raros y Ultrabolas, entre otros
+• Encuentros adicionales con Popplio y sus evoluciones
+
+RESOURCE ID: text_rewards_key_ttfinale24
+TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+• Encuentros con Ponyta, Lapras y Elekid con accesorios de los Líderes de Equipo
+• 1 Incubadora, 1 Superincubadora, 2 Pases de Combate Prémium, 1 Incienso, 1 Módulo Señuelo y 1 Radar Rocket
+• 10,000 EXP y 5,000 Polvos Estrella
 
 RESOURCE ID: ticket_adventure_week_tr
 TEXT: La entrada para la Investigación Temporal Prémium de Semana de Aventuras está disponible en la Tienda
@@ -1713,6 +1866,21 @@ TEXT: You cannot trade your last Max Pokémon.
 
 RESOURCE ID: trade_exclusion_reason_station_deployed
 TEXT: This Pokémon is placed at a Power Spot.
+
+RESOURCE ID: triumph_together_event_name
+TEXT: Triunfo en equipo
+
+RESOURCE ID: triumph_together_tr
+TEXT: Investigación Temporal Prémium de Triunfo en equipo
+
+RESOURCE ID: tt_instinct_sb_timed_research
+TEXT: Investigación Temporal de Triunfo en equipo: Confía en tu Instinto
+
+RESOURCE ID: tt_mystic_sb_timed_research
+TEXT: Investigación Temporal de Triunfo en equipo: Cultiva la Sabiduría
+
+RESOURCE ID: tt_valor_sb_timed_research
+TEXT: Investigación Temporal de Triunfo en equipo: Combate con Valor
 
 RESOURCE ID: tts_toggle_off
 TEXT: Desactivado.
@@ -2163,6 +2331,12 @@ TEXT: Cualquier nueva infracción puede resultar en una penalización más sever
 
 RESOURCE ID: unified_punishment_strike_desc_c
 TEXT: Encontrarás información adicional en un correo de no_reply@nianticlabs.com.
+
+RESOURCE ID: valor_challenge
+TEXT: Desafío Global de Valor
+
+RESOURCE ID: valor_reward
+TEXT: Recompensas del Desafío Global de Valor
 
 RESOURCE ID: wcs_2024_great_league_tr_path_a
 TEXT: Elige a Pancham
