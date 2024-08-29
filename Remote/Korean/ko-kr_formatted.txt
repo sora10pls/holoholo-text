@@ -4,6 +4,9 @@ TEXT: 접근성
 RESOURCE ID: allow_notifications_prompt_message_temp
 TEXT: To stay up to date on new events and features, allow Pokémon GO to access notifications.
 
+RESOURCE ID: avatar_f_gloves_dynamaxswsh_00_bundle_icon
+TEXT: 다이맥스 밴드
+
 RESOURCE ID: avatar_f_hat_lana_00_bundle_icon
 TEXT: 수련 가발
 
@@ -22,8 +25,14 @@ TEXT: 포켓몬WCS 2024 티셔츠(화이트)
 RESOURCE ID: avatar_glasses_wcs2024champion
 TEXT: 포켓몬WCS 2024 챔피언 고글
 
+RESOURCE ID: avatar_gloves_dynamaxbandwhite
+TEXT: 다이맥스 밴드
+
 RESOURCE ID: avatar_hat_wcs2024
 TEXT: 포켓몬WCS 2024 모자
+
+RESOURCE ID: avatar_m_gloves_dynamaxswsh_00_bundle_icon
+TEXT: 다이맥스 밴드
 
 RESOURCE ID: avatar_m_hat_lana_00_bundle_icon
 TEXT: 수련 가발
@@ -37,17 +46,29 @@ TEXT: 포켓몬WCS 2024 티셔츠(파랑)
 RESOURCE ID: avatar_m_shirt_wcs2024championshipshirt-white_00_bundle_icon
 TEXT: 포켓몬WCS 2024 티셔츠(화이트)
 
+RESOURCE ID: avatar_mask_gblallister
+TEXT: 어니언 마스크
+
 RESOURCE ID: avatar_pants_wcs2024champion
 TEXT: 포켓몬WCS 2024 챔피언 하위
 
+RESOURCE ID: avatar_pose_gblallister
+TEXT: 어니언 포즈
+
 RESOURCE ID: avatar_pose_wcs2024
 TEXT: 포켓몬WCS 2024 우쿨렐레 포즈
+
+RESOURCE ID: avatar_shirt_gblallister
+TEXT: 어니언 세트
 
 RESOURCE ID: avatar_shirt_wcs2024
 TEXT: 포켓몬WCS 2024 알로하 셔츠
 
 RESOURCE ID: avatar_shirt_wcs2024champion
 TEXT: 포켓몬WCS 2024 챔피언 세트
+
+RESOURCE ID: avatar_shoes_gblallister
+TEXT: 어니언 신발
 
 RESOURCE ID: avatar_shoes_wcs2024champion
 TEXT: 포켓몬WCS 2024 챔피언 부츠
@@ -289,6 +310,9 @@ TEXT: {0} IS GETTING DESPERATE!
 RESOURCE ID: bread_battle_log_enrage_2
 TEXT: {0}’s ATTACKS ARE GETTING STRONGER!
 
+RESOURCE ID: bread_battle_log_global_cheer_bread_meter
+TEXT: YOU CHEERED FOR EVERYONE! ALLIES’ METER WAS CHARGED
+
 RESOURCE ID: bread_battle_log_telegraph_multi
 TEXT: {0} IS PREPARING A LARGE ATTACK!
 
@@ -312,6 +336,12 @@ TEXT: An ally has low HP!
 
 RESOURCE ID: bread_battle_message_use_max_move
 TEXT: Use a Max Move!
+
+RESOURCE ID: bread_battle_pokemon_remaining
+TEXT: POKÉMON REMAINING
+
+RESOURCE ID: bread_battle_received_global_cheering_boost
+TEXT: TEAMS ARE CHEERING YOU ON!
 
 RESOURCE ID: bread_battle_remaining
 TEXT: Remaining
@@ -400,7 +430,10 @@ RESOURCE ID: bread_cannot_enter_lobby_not_eligible_title
 TEXT: You need at least one Dynamax Pokémon!
 
 RESOURCE ID: bread_claim_mp_amount
-TEXT: Collect {0} Max Particles
+TEXT: 맥스 파티클을 {0}개 손에 넣었다
+
+RESOURCE ID: bread_collected_mp
+TEXT: Collected {0} MP
 
 RESOURCE ID: bread_flag_disabled
 TEXT: Feature flag disabled
@@ -410,6 +443,9 @@ TEXT: Get {0} Max Particles
 
 RESOURCE ID: bread_get_stationing_details_error
 TEXT: Error fetching stationed pokemon at POU {0}
+
+RESOURCE ID: bread_iap_max_mp_replenish_warning
+TEXT: You have reached the max number of Max Particle Packs ({0}). Please use your Max Particle Packs and try again.
 
 RESOURCE ID: bread_iap_mp_replenish_station_desc
 TEXT: You need more Max Particles to join this battle.
@@ -511,7 +547,7 @@ RESOURCE ID: bread_move_upgrade_train_title
 TEXT: Work on {0} 
 
 RESOURCE ID: bread_mp_amount
-TEXT: {0} MP
+TEXT: {0}MP
 
 RESOURCE ID: bread_mp_can_only_earn_a_day
 TEXT: You can only earn {0} Max Particles a day.
@@ -666,7 +702,7 @@ RESOURCE ID: bread_station_tutorial_title_5
 TEXT: Encounter Pokémon
 
 RESOURCE ID: bread_stationing_error
-TEXT: There was an issue placing your Pokémon. Please try again.
+TEXT: 포켓몬을 둘 수 없습니다. 다시 시도해 주십시오.
 
 RESOURCE ID: bread_stationing_skip_modal_description
 TEXT: Pokémon placed at a Power Spot will earn Candy. You can recall your Pokémon at any time.
@@ -719,6 +755,12 @@ TEXT: Do you want to work on this Max Move?
 RESOURCE ID: candy_label
 TEXT: Candy
 
+RESOURCE ID: catch_max_pokemon_plural
+TEXT: 맥스 포켓몬을 {0}마리 잡는다
+
+RESOURCE ID: catch_max_pokemon_singular
+TEXT: 맥스 포켓몬을 1마리 잡는다
+
 RESOURCE ID: cdc_bonus_tr_title
 TEXT: 커뮤니티 데이(복각): 보너스 시간제한 리서치
 
@@ -746,6 +788,9 @@ TEXT: 체크
 RESOURCE ID: checkbox_notchecked
 TEXT: 체크 해제
 
+RESOURCE ID: collect_max_particles
+TEXT: 맥스 파티클을 {0}개 모은다
+
 RESOURCE ID: collection_wcs2024_irl_bonus
 TEXT: 챔피언의 꽃다발 컬렉션 챌린지
 
@@ -771,10 +816,22 @@ RESOURCE ID: community_day_ponyta_and_galarian_ponyta_event_name
 TEXT: 커뮤니티 데이: 포니타와 포니타(가라르의 모습)
 
 RESOURCE ID: details_link_key_ponytacd24
-TEXT: For more details, visit the <a href=https://pokemongolive.com/news"">website</a>."
+TEXT: For more details, visit the <a href="https://pokemongolive.com/news">website</a>.
 
 RESOURCE ID: disabledaccessibility
 TEXT: 스크린 리더를 껐습니다
+
+RESOURCE ID: dmax_ftue_0
+TEXT: 거대화의 수수께끼(1/3)
+
+RESOURCE ID: dmax_ftue_1
+TEXT: 거대화의 수수께끼(2/3)
+
+RESOURCE ID: dmax_ftue_2
+TEXT: 거대화의 수수께끼(3/3)
+
+RESOURCE ID: dmax_ftue_title
+TEXT: 거대화의 수수께끼
 
 RESOURCE ID: dropdownitemindex
 TEXT: {1} 중 {0}
@@ -895,7 +952,7 @@ RESOURCE ID: general_already_submitted_report
 TEXT: You already submitted a report.
 
 RESOURCE ID: general_done_exclamation_point
-TEXT: Done!
+TEXT: 완료!
 
 RESOURCE ID: general_something_went_wrong
 TEXT: 에러. 조작을 다시 해주십시오
@@ -904,13 +961,28 @@ RESOURCE ID: general_value_plus
 TEXT: {0}+
 
 RESOURCE ID: general_walked_km
-TEXT: Explored {0} km
+TEXT: {0}km 탐색했다
 
 RESOURCE ID: global_challenges_appearing
 TEXT: 글로벌 챌린지 있음
 
+RESOURCE ID: go_big_event_name
+TEXT: 거대하게 가자!
+
+RESOURCE ID: go_out_event_name
+TEXT: 걸어서 가자!
+
 RESOURCE ID: grunt_generic_greeting#8__female_speaker
 TEXT: 여기까지 잘도 왔군!
+
+RESOURCE ID: halloween_cup_great_title
+TEXT: Halloween Cup: Great League Edition
+
+RESOURCE ID: halloween_cup_little_title
+TEXT: Halloween Cup: Little Edition
+
+RESOURCE ID: home_transfer_error_gym_deployed_temp
+TEXT: You can’t send Pokemon that are defending Gyms or stationed at Power Spots
 
 RESOURCE ID: iap_battle_pass_ticket_name
 TEXT: GO배틀리그 시간제한 리서치 패스
@@ -984,6 +1056,12 @@ TEXT: A small pack of Max Particles. Each one holds {0} Max Particles.
 RESOURCE ID: item_mp_replenish_name
 TEXT: Max Particle Pack
 
+RESOURCE ID: join_max_battle_plural
+TEXT: 맥스배틀을 {0}번 진행한다
+
+RESOURCE ID: join_max_battle_singular
+TEXT: 맥스배틀을 1번 진행한다
+
 RESOURCE ID: keyboard_cancel
 TEXT: 캔슬
 
@@ -1047,6 +1125,12 @@ TEXT: 스페이스
 RESOURCE ID: keyboard_symbols
 TEXT: 암호
 
+RESOURCE ID: levelup_max_move_plural
+TEXT: 맥스기술을 {0}번 레벨업 하기
+
+RESOURCE ID: levelup_max_move_singular
+TEXT: 맥스기술을 1번 레벨업하기
+
 RESOURCE ID: log_received_station_battle_items
 TEXT: Received {0} items from Max Battle.
 
@@ -1078,13 +1162,13 @@ RESOURCE ID: mega_timer_label
 TEXT: {0} left
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-08-27T00:27:00.405632+00:00 for ko-KR
-at SHA a461ee4d4e
-Pipeline 2566939, job 31308881
-Patch from: 0.329.0-SHA-18111616-RC1, 0.327.0-SHA-d09ac408-RC1
+TEXT: Built at 2024-08-28T23:40:27.463757+00:00 for ko-KR
+at SHA 4e6b3d918c0
+Pipeline 2573721, job 31428131
+Patch from: 0.329.0-SHA-a76df4b9-RC5, 0.327.0-SHA-31451ff9-RC5
 
 RESOURCE ID: mex_promo_fr_title
-TEXT: Hawlucha Celebration
+TEXT: 루차불 축제
 
 RESOURCE ID: mex_promo_tr_redeploy_path_a
 TEXT: 라이트: 곤율랭
@@ -1260,7 +1344,6 @@ TEXT: 거다이수마
 RESOURCE ID: move_name_0450
 TEXT: 거다이단원
 
-
 RESOURCE ID: move_name_0451
 TEXT: 거다이강철진
 
@@ -1316,6 +1399,9 @@ TEXT: Party Play Bonus
 
 RESOURCE ID: photobomb_five_beldum
 TEXT: GO스냅샷으로 메탕의 서프라이즈 5회
+
+RESOURCE ID: pokecoins_iap_string_key
+TEXT: {0} PokéCoins
 
 RESOURCE ID: pokedex_mode_fullname_bread
 TEXT: Dynamax
@@ -1575,6 +1661,42 @@ TEXT: Spin a PokéStop or Gym in Jakarta
 
 RESOURCE ID: quest_metang_evolve_b_singular
 TEXT: 메탕구를 진화시킨다
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_0_0
+TEXT: 안녕, %PLAYERNAME%! 최근 별일 없었니?
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_0_1
+TEXT: 실은 전 세계에서 에너지가 발생하는 장소가 보고되고 있어. 그게 지금까지 본 적이 없는 에너지라고 하더군.
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_0_2
+TEXT: 조사에 협력해 줄 수 있지?
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_0_3
+TEXT: 먼저 주변을 탐색하고 상황을 보고해 줘!
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_1_0
+TEXT: 이런 깜놀버섯 같으니! 거대한 우르잖아!
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_1_1
+TEXT: 이건 틀림없이, 다이맥스 포켓몬이야! 털로 엄청나게 큰 카펫도 만들 수 있겠어...
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_1_2
+TEXT: 다이맥스 포켓몬이 사용할 수 있는 맥스기술인데 어떤 파티클을 사용하면 기술을 더 강하게 할 수 있을 거야.
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_1_3
+TEXT: 맥스 파티클이네. 모아보자.
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_2_0
+TEXT: 맥스기술을 강화한 것 같구나! 너라면 금방 요령을 파악할 거라 생각했어.
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_2_1
+TEXT: 정리하면... 그렇군. 전 세계에 파워스폿이 나타났고 거기에 다이맥스 포켓몬이 나타난다는 거군.
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_2_2
+TEXT: 파워스폿을 자세하게 조사하기 위해 해줬으면 하는 일이 있어. 너의 다이맥스한 우르를 팀에 넣어서 배틀을 해줘.
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_2_3
+TEXT: 그래 다이맥스 포켓몬과 배틀하기 위해서는 다이맥스기술이 필요하지. 시도해 봐!
 
 RESOURCE ID: quest_special_dialogue_popplio_0_0
 TEXT: 오, %PLAYERNAME%! 운이 좋은 것 같은데? 누리공이 이렇게 많이 있다니!
@@ -2356,11 +2478,23 @@ TEXT: 위반 행위가 계속 되는 경우 더욱 엄격한 조치가 취해질
 RESOURCE ID: unified_punishment_strike_desc_c
 TEXT: 자세한 내용은 메일(보낸사람: no_reply@nianticlabs.com)을 확인해 주십시오.
 
+RESOURCE ID: unlock_max_move_plural
+TEXT: 맥스기술을 {0}개 해제한다
+
+RESOURCE ID: unlock_max_move_singular
+TEXT: 맥스기술을 1개 해제한다
+
 RESOURCE ID: valor_challenge
 TEXT: 발로 글로벌 챌린지
 
 RESOURCE ID: valor_reward
 TEXT: 발로 글로벌 챌린지 리워드
+
+RESOURCE ID: visit_power_spot_plural
+TEXT: 파워스폿을 {0}군데 방문한다
+
+RESOURCE ID: visit_power_spot_singular
+TEXT: 파워스폿을 1군데 방문한다
 
 RESOURCE ID: wcs_2024_great_league_tr_path_a
 TEXT: 판짱
@@ -2388,6 +2522,12 @@ TEXT: WCS2024 프리미엄 시간제한 리서치
 
 RESOURCE ID: wcs_cdc_bonus_tr_desc
 TEXT: 커뮤니티 데이(복각): 보너스 시간제한 리서치 - WCS2024
+
+RESOURCE ID: win_max_battle_plural
+TEXT: 맥스배틀에서 {0}회 이긴다
+
+RESOURCE ID: win_max_battle_singular
+TEXT: 맥스배틀에서 1회 이긴다
 
 RESOURCE ID: xl_candy_label
 TEXT: Candy XL

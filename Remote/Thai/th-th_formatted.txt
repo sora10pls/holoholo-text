@@ -4,6 +4,9 @@ TEXT: การเขาถึง
 RESOURCE ID: allow_notifications_prompt_message_temp
 TEXT: To stay up to date on new events and features, allow Pokémon GO to access notifications.
 
+RESOURCE ID: avatar_f_gloves_dynamaxswsh_00_bundle_icon
+TEXT: ไดแมกซแบนด
+
 RESOURCE ID: avatar_f_hat_lana_00_bundle_icon
 TEXT: วิกสไตลซุยเรน
 
@@ -16,8 +19,14 @@ TEXT: เสื้อยืด WCS 2024 (สีขาว)
 RESOURCE ID: avatar_glasses_wcs2024champion
 TEXT: แวนตาดำน้ำแชมเป้ยน WCS 2024
 
+RESOURCE ID: avatar_gloves_dynamaxbandwhite
+TEXT: ไดแมกซแบนด
+
 RESOURCE ID: avatar_hat_wcs2024
 TEXT: หมวก WCS 2024
+
+RESOURCE ID: avatar_m_gloves_dynamaxswsh_00_bundle_icon
+TEXT: ไดแมกซแบนด
 
 RESOURCE ID: avatar_m_hat_lana_00_bundle_icon
 TEXT: วิกสไตลซุยเรน
@@ -28,17 +37,29 @@ TEXT: เสื้อยืด WCS 2024 (สีน้ำเงิน)
 RESOURCE ID: avatar_m_shirt_wcs2024championshipshirt-white_00_bundle_icon
 TEXT: เสื้อยืด WCS 2024 (สีขาว)
 
+RESOURCE ID: avatar_mask_gblallister
+TEXT: หนากากสไตลออเนียน
+
 RESOURCE ID: avatar_pants_wcs2024champion
 TEXT: กางเกงแชมเป้ยน WCS 2024
 
+RESOURCE ID: avatar_pose_gblallister
+TEXT: ทาโพสออเนียน
+
 RESOURCE ID: avatar_pose_wcs2024
 TEXT: ทาโพสอูคูเลเล WCS 2024
+
+RESOURCE ID: avatar_shirt_gblallister
+TEXT: ชุดสไตลออเนียน
 
 RESOURCE ID: avatar_shirt_wcs2024
 TEXT: เสื้อเชิ้ตอโลฮา WCS 2024
 
 RESOURCE ID: avatar_shirt_wcs2024champion
 TEXT: เซ็ตแชมเป้ยน WCS 2024
+
+RESOURCE ID: avatar_shoes_gblallister
+TEXT: รองเทาสไตลออเนียน
 
 RESOURCE ID: avatar_shoes_wcs2024champion
 TEXT: รองเทาบูตแชมเป้ยน WCS 2024
@@ -158,10 +179,10 @@ RESOURCE ID: badge_safari_2024_jakarta_day_02_general_title
 TEXT: Pokémon GO City Safari
 
 RESOURCE ID: batch_transfer_unique_bread_dough_level_pokemon
-TEXT: {0} Gigantamax
+TEXT: กิกะแมกซ ({0})
 
 RESOURCE ID: batch_transfer_unique_bread_level_pokemon
-TEXT: {0} Dynamax
+TEXT: ไดแมกซ ({0})
 
 RESOURCE ID: bonus_bat_routes
 TEXT: Zubat, Woobat, and Noibat may appear while exploring Routes
@@ -224,13 +245,14 @@ RESOURCE ID: bread_battle_bread_meter_label
 TEXT: เกจแมกซ
 
 RESOURCE ID: bread_battle_bread_meter_sideline_action
-TEXT: Charged!
+TEXT: เชียร!
 
 RESOURCE ID: bread_battle_bread_meter_tip_charge
 TEXT: การโจมตีของพันธมิตรทั้งหมดจะชวยชารจเกจ!
 
 RESOURCE ID: bread_battle_cheer_entered
-TEXT: ALL YOUR POKÉMON HAVE FAINTED. CHEER FOR YOUR TEAM!
+TEXT: โปเกมอนทั้งหมดของคุณหมดสติแลว!
+เชียรทีมของคุณ!
 
 RESOURCE ID: bread_battle_deafeat_tips
 TEXT: เคล็ดลับแบตเทิล
@@ -245,7 +267,7 @@ RESOURCE ID: bread_battle_log_attack_incoming
 TEXT: การโจมตีกำลังจะมา!
 
 RESOURCE ID: bread_battle_log_attack_multi
-TEXT: {0} USED {1} ON EVERYONE!
+TEXT: {0}ใช "{1}" กับทุกคน!
 
 RESOURCE ID: bread_battle_log_cheer_bread_meter
 TEXT: เกจเพิ่มขึ้นจากการเชียร!
@@ -254,25 +276,28 @@ RESOURCE ID: bread_battle_log_dodged
 TEXT: หลบได!
 
 RESOURCE ID: bread_battle_log_enrage_1
-TEXT: {0} IS GETTING DESPERATE!
+TEXT: {0}เริ่มคลุมคลั่ง!
 
 RESOURCE ID: bread_battle_log_enrage_2
-TEXT: {0}’s ATTACKS ARE GETTING STRONGER!
+TEXT: การโจมตีของ{0}กำลังรุนแรงขึ้น!
+
+RESOURCE ID: bread_battle_log_global_cheer_bread_meter
+TEXT: YOU CHEERED FOR EVERYONE! ALLIES’ METER WAS CHARGED
 
 RESOURCE ID: bread_battle_log_telegraph_multi
-TEXT: {0} IS PREPARING A LARGE ATTACK!
+TEXT: {0}กำลังเตรียมโจมตีครั้งใหญ!
 
 RESOURCE ID: bread_battle_log_telegraph_single
-TEXT: {0} IS PREPARING TO ATTACK {1}!
+TEXT: {0}กำลังเตรียมโจมตี{1}!
 
 RESOURCE ID: bread_battle_message_attack_incoming
 TEXT: การโจมตีกำลังมา!
 
 RESOURCE ID: bread_battle_message_bread_move_remaining_plural
-TEXT: {0} Max Moves left
+TEXT: เหลือทาแมกซ {0} ครั้ง
 
 RESOURCE ID: bread_battle_message_bread_move_remaining_single
-TEXT: {0} Max Move left
+TEXT: เหลือทาแมกซ {0} ครั้ง
 
 RESOURCE ID: bread_battle_message_low_hp_plural
 TEXT: พันธมิตรที่ HP เหลือนอยมี {0} คน!
@@ -283,8 +308,14 @@ TEXT: มีพันธมิตรที่ HP เหลือนอย!
 RESOURCE ID: bread_battle_message_use_max_move
 TEXT: ใชทาแมกซ!
 
+RESOURCE ID: bread_battle_pokemon_remaining
+TEXT: POKÉMON REMAINING
+
+RESOURCE ID: bread_battle_received_global_cheering_boost
+TEXT: TEAMS ARE CHEERING YOU ON!
+
 RESOURCE ID: bread_battle_remaining
-TEXT: Remaining
+TEXT: เหลือ
 
 RESOURCE ID: bread_battle_resolve_confirm_exchange_title
 TEXT: อัปเกรดรางวัล
@@ -296,13 +327,13 @@ RESOURCE ID: bread_battle_resolve_defeat_title
 TEXT: โปเกมอนของทุกคนหมดสติแลว!
 
 RESOURCE ID: bread_battle_resolve_exchanged_title
-TEXT: อัปเกรดรางวัลแลว
+TEXT: อัปเกรดรางวัลแลว!
 
 RESOURCE ID: bread_battle_reward_title
 TEXT: รางวัล
 
 RESOURCE ID: bread_battle_reward_upgrade_more
-TEXT: and more!
+TEXT: อื่น ๆ
 
 RESOURCE ID: bread_battle_reward_upgrade_rewards
 TEXT: อัปเกรดรางวัล
@@ -326,7 +357,7 @@ RESOURCE ID: bread_battle_start_error
 TEXT: ไมสามารถเริ่มแบตเทิลแมกซได กรุณาลองใหมอีกครั้ง
 
 RESOURCE ID: bread_battle_station_boost
-TEXT: ATTACKS ARE BOOSTED BY {0} POKÉMON PLACED AT POWER SPOT
+TEXT: การโจมตีไดรับการบูสตจากโปเกมอน {0} ตัวที่เฝาพาวเวอรสปอตอยู
 
 RESOURCE ID: bread_battle_tutorial_description_0
 TEXT: เอาชนะโปเกมอนไดแมกซและโปเกมอนกิกะแมกซสุดแกรง เพื่อโอกาสในการจับพวกมัน
@@ -335,10 +366,10 @@ RESOURCE ID: bread_battle_tutorial_description_1
 TEXT: เอาชนะบอสพาวเวอรสปอตกอนที่โปเกมอนพันธมิตรทั้งหมดจะหมดสติ
 
 RESOURCE ID: bread_battle_tutorial_description_2
-TEXT: โจมตีบอสโปเกมอนเพื่อชารจเกจดานบนหนาจอ เมื่อเกจเต็ม โปเกมอนของคุณจะกลายเปนรางไดแมกซหรือกิกะแมกซ!
+TEXT: โจมตีบอสโปเกมอนเพื่อชารจเกจดานบนหนาจอ เมื่อเกจเต็ม โปเกมอนของคุณจะไดแมกซหรือกิกะแมกซได!
 
 RESOURCE ID: bread_battle_tutorial_description_3
-TEXT: ปดพลังงานเพื่อสะสมและทำใหเกจเต็มเร็วขึ้น
+TEXT: ปดพลังงานเพื่อรวบรวมและทำใหเกจเต็มเร็วขึ้น
 
 RESOURCE ID: bread_battle_tutorial_description_4
 TEXT: เมื่อโปเกมอนอยูในรางไดแมกซหรือรางกิกะแมกซ โปเกมอนจะสามารถใชทาพิเศษได
@@ -370,16 +401,22 @@ RESOURCE ID: bread_cannot_enter_lobby_not_eligible_title
 TEXT: คุณตองมีโปเกมอนไดแมกซอยางนอย 1 ตัว!
 
 RESOURCE ID: bread_claim_mp_amount
-TEXT: สะสม {0} อนุภาคแมกซ 
+TEXT: รวบรวม {0} อนุภาคแมกซ
+
+RESOURCE ID: bread_collected_mp
+TEXT: Collected {0} MP
 
 RESOURCE ID: bread_flag_disabled
 TEXT: Feature flag disabled
 
 RESOURCE ID: bread_gain_mp_from_pack
-TEXT: Get {0} Max Particles
+TEXT: ＋{0} อนุภาคแมกซ
 
 RESOURCE ID: bread_get_stationing_details_error
 TEXT: Error fetching stationed pokemon at POU {0}
+
+RESOURCE ID: bread_iap_max_mp_replenish_warning
+TEXT: You have reached the max number of Max Particle Packs ({0}). Please use your Max Particle Packs and try again.
 
 RESOURCE ID: bread_iap_mp_replenish_station_desc
 TEXT: ตองใชอนุภาคแมกซมากกวานี้ในการเขารวมแบตเทิลนี้
@@ -388,7 +425,7 @@ RESOURCE ID: bread_iap_mp_replenish_title
 TEXT: อนุภาคแมกซไมเพียงพอ
 
 RESOURCE ID: bread_lobby_assist_dialog_body
-TEXT: Get an attack bonus based on how many Pokémon are placed at the Power Spot.
+TEXT: รับโบนัสพลังโจมตีตามจำนวนโปเกมอนที่ถูกวางไวที่พาวเวอรสปอต
 
 RESOURCE ID: bread_lobby_attack_multiplier_dialog_title
 TEXT: โบนัสการโจมตี
@@ -418,7 +455,7 @@ RESOURCE ID: bread_lobby_error_player_below_minimum_level
 TEXT: เทรนเนอรที่มีเลเวล {0} ขึ้นไปสามารถเขารวมแบตเทิลแมกซได
 
 RESOURCE ID: bread_lobby_leave_modal_desc
-TEXT: หากคุณออกจากกลุมนี้คุณจะไมสามารถเขารวมใหมได
+TEXT: หากคุณออกจากกลุมนี้ คุณจะไมสามารถเขารวมใหมได
 
 คุณตองการออกจากกลุมหรือไม?
 
@@ -442,43 +479,43 @@ RESOURCE ID: bread_move_upgrade_bread_b
 TEXT: ไดวอลล
 
 RESOURCE ID: bread_move_upgrade_bread_b_desc
-TEXT: Reduce damage taken from attacks.
+TEXT: ลดแดเมจที่ไดรับจากการโจมตี
 
 RESOURCE ID: bread_move_upgrade_bread_c
 TEXT: ไดรีคัฟเวอรี
 
 RESOURCE ID: bread_move_upgrade_bread_c_desc
-TEXT: Heal user and allied Pokémon.
+TEXT: ฟ้นฟูโปเกมอนพันธมิตรและผูใช
 
 RESOURCE ID: bread_move_upgrade_error
-TEXT: Unable to work on this Max Move.
+TEXT: ไมสามารถเลเวลอัปได
 
 RESOURCE ID: bread_move_upgrade_info_bread_a_desc
-TEXT: Unleash an extra-powerful Charged Attack.
+TEXT: ปลดปลอยทาโจมตีชารจอันทรงพลัง
 
 RESOURCE ID: bread_move_upgrade_info_bread_all_desc
-TEXT: Max Moves can be used when battling Dynamax and Gigantamax Pokémon at Power Spots.
+TEXT: สามารถใชทาแมกซเวลาแบตเทิลกับโปเกมอนไดแมกซและโปเกมอนกิกะแมกซที่พาวเวอรสปอต
 
 RESOURCE ID: bread_move_upgrade_info_bread_b_desc
-TEXT: Create a barrier that reduces damage taken.
+TEXT: สรางบาเรียเพื่อลดแดเมจที่จะไดรับ
 
 RESOURCE ID: bread_move_upgrade_info_bread_c_desc
-TEXT: Raises the spirits of the user and allied Pokémon, recovering their HP.
+TEXT: เพิ่มพลังใจ เพื่อฟ้นฟู HP ของโปเกมอนพันธมิตรและผูใช
 
 RESOURCE ID: bread_move_upgrade_level
 TEXT: เลเวล {0}
 
 RESOURCE ID: bread_move_upgrade_locked
-TEXT: Locked
+TEXT: ล็อก
 
 RESOURCE ID: bread_move_upgrade_maxed
 TEXT: Max!
 
 RESOURCE ID: bread_move_upgrade_train_button
-TEXT: ฝกฝน
+TEXT: เลเวลอัป
 
 RESOURCE ID: bread_move_upgrade_train_title
-TEXT: Work on {0} 
+TEXT: เลเวลอัป "{0}"
 
 RESOURCE ID: bread_mp_amount
 TEXT: {0} MP
@@ -490,13 +527,13 @@ RESOURCE ID: bread_mp_cannot_store
 TEXT: จำนวนอนุภาคแมกซถึงขีดจำกัดสูงสุดแลว
 
 RESOURCE ID: bread_mp_cooldown
-TEXT: พรุงนี้กลับมาสะสมอนุภาคแมกซใหมนะ
+TEXT: พรุงนี้กลับมารวบรวมอนุภาคแมกซใหมนะ
 
 RESOURCE ID: bread_mp_daily_limit_reached
-TEXT: You can’t collect any more Max Particles today.
+TEXT: จำนวนอนุภาคแมกซที่สามารถรวบรวมไดในวันนี้ถึงขีดจำกัดสูงสุดแลว
 
 RESOURCE ID: bread_mp_for_battle_lobby
-TEXT: Use {0} MP
+TEXT: ใช {0} MP
 
 RESOURCE ID: bread_mp_storage_full
 TEXT: ที่เก็บอนุภาคแมกซของคุณเต็ม
@@ -505,7 +542,8 @@ RESOURCE ID: bread_nearby_mp_ftue_conversation_0
 TEXT: เยี่ยมมาก! รวบรวมอนุภาคแมกซมาไดเยอะเลยนี่!
 
 RESOURCE ID: bread_nearby_mp_ftue_conversation_1
-TEXT: อนุภาคแมกซสามารถเอาไปใชในการจับโปเกมอนไดแมกซและอัปเกรดทาแมกซได
+TEXT: อนุภาคแมกซสามารถเอาไปใชในการจับ
+โปเกมอนไดแมกซและอัปเกรดทาแมกซได
 
 RESOURCE ID: bread_nearby_mp_ftue_conversation_2
 TEXT: หือ อะไรอยูขางหลังเธอนะ!? ระวัง!
@@ -514,7 +552,7 @@ RESOURCE ID: bread_need_more_mp
 TEXT: ตองมีเพิ่มอีก {0} อนุภาคแมกซ
 
 RESOURCE ID: bread_need_more_mp_enter_battle
-TEXT: You need {0} more Max Particles to join this battle.
+TEXT: ตองการอีก {0} อนุภาคแมกซในการเขารวมแบตเทิลนี้
 
 RESOURCE ID: bread_notification_candy
 TEXT: {0}กลับมาพรอมกับลูกอม {1} เม็ด!
@@ -553,16 +591,16 @@ RESOURCE ID: bread_release_title
 TEXT: ตองการให{0}กลับมาหรือไม?
 
 RESOURCE ID: bread_report_pou_reason_emergency
-TEXT: Obstructs Emergency Services
+TEXT: ขัดขวางการบริการฉุกเฉิน
 
 RESOURCE ID: bread_report_pou_reason_pedestrian
-TEXT: No Pedestrian Access
+TEXT: ไมมีทางเขาสำหรับคนเดินเทา
 
 RESOURCE ID: bread_report_pou_reason_permanent_closure
 TEXT: ลบออกอยางถาวร
 
 RESOURCE ID: bread_report_pou_reason_residence
-TEXT: Private Residential Property
+TEXT: บริเวณที่อยูอาศัยสวนบุคคล
 
 RESOURCE ID: bread_report_pou_reason_school
 TEXT: โรงเรียน
@@ -574,10 +612,10 @@ RESOURCE ID: bread_station_count_limit
 TEXT: {0}+
 
 RESOURCE ID: bread_station_defeat_success
-TEXT: You defeated this Power Spot Boss!
+TEXT: คุณเอาชนะบอสพาวเวอรสปอตนี้ไดแลว!
 
 RESOURCE ID: bread_station_defeat_success_description
-TEXT: Pick a Pokémon to place at this Power Spot to earn Candy and assist in battles. You can recall your Pokémon at any time.
+TEXT: เลือกโปเกมอนที่จะวางที่พาวเวอรสปอตนี้เพื่อรับลูกอมและสนับสนุนในการแบตเทิล คุณสามารถเรียกโปเกมอนกลับไดทุกเมื่อ
 
 RESOURCE ID: bread_station_general
 TEXT: พาวเวอรสปอต
@@ -586,7 +624,7 @@ RESOURCE ID: bread_station_header_leaderboard
 TEXT: โปเกมอน
 
 RESOURCE ID: bread_station_header_leaderboard_description
-TEXT: These Pokémon will assist in battle against the Power Spot Boss.
+TEXT: โปเกมอนเหลานี้จะชวยสนับสนุนในการแบตเทิลกับบอสพาวเวอรสปอต
 
 RESOURCE ID: bread_station_leaderboard_assist
 TEXT: โบนัสการโจมตี
@@ -610,16 +648,16 @@ RESOURCE ID: bread_station_tutorial_message_0
 TEXT: พบโปเกมอนแมกซสุดแกรงไดที่พาวเวอรสปอต
 
 RESOURCE ID: bread_station_tutorial_message_1
-TEXT: สะสมอนุภาคแมกซจากพาวเวอรสปอต สามารถนำไปใชในการเขารวมแบตเทิลแมกซที่พาวเวอรสปอต รวมถึงปลดล็อกและเลเวลอัปทาแมกซได
+TEXT: สะสมอนุภาคแมกซไดจากพาวเวอรสปอต คุณสามารถนำไปใชในการเขารวมแบตเทิลแมกซที่พาวเวอรสปอต รวมถึงปลดล็อกและเลเวลอัปทาแมกซได
 
 RESOURCE ID: bread_station_tutorial_message_2
 TEXT: เอาชนะบอสพาวเวอรสปอตเพื่อจับมัน! อนุภาคแมกซจะถูกใชเฉพาะเวลาที่ชนะแบตเทิลแมกซไดเทานั้น
 
 RESOURCE ID: bread_station_tutorial_message_4
-TEXT: หลังจากเอาชนะบอสพาวเวอรสปอตได คุณจะสามารถเลือกโปเกมอนจากทีมแบตเทิลและวางที่พาวเวอรสปอตนั้นเพื่อชวยเทรนเนอรอื่นและรับลูกอมได คุณสามารถวางโปเกมอนไดสูงสุด 20 ตัวที่แตละพาวเวอรสปอต
+TEXT: หลังจากเอาชนะบอสพาวเวอรสปอตได คุณจะสามารถเลือกโปเกมอนจากทีมแบตเทิลและวางที่พาวเวอรสปอตนั้นเพื่อชวยเทรนเนอรอื่นและรับลูกอมได คุณสามารถวางโปเกมอนไดสูงสุด 20 ตัวที่พาวเวอรสปอตที่แตกตางกัน
 
 RESOURCE ID: bread_station_tutorial_message_5
-TEXT: คุณอาจไดเผชิญหนากับโปเกมอนหลังไปเยือนพาวเวอรสปอต ยิ่งมีโปเกมอนกิกะแมกซเฝาอยูที่พาวเวอรสปอตมากเทาไหร ยิ่งมีโอกาสเผชิญหนากับโปเกมอนไดแมกซปาสูงขึ้น
+TEXT: คุณอาจไดเผชิญหนากับโปเกมอนหลังไปเยือนพาวเวอรสปอต ยิ่งมีโปเกมอนกิกะแมกซเฝาอยูที่พาวเวอรสปอตมากเทาไหร ยิ่งมีโอกาสเผชิญหนากับโปเกมอนไดแมกซปาสูงขึ้น!
 
 RESOURCE ID: bread_station_tutorial_title
 TEXT: 
@@ -646,13 +684,13 @@ RESOURCE ID: bread_stationing_skip_modal_description
 TEXT: โปเกมอนที่ถูกมอบหมายใหเฝาพาวเวอรสปอตจะไดรับลูกอม คุณสามารถเรียกโปเกมอนของคุณกลับมาไดทุกเมื่อ
 
 RESOURCE ID: bread_stationing_skip_modal_title
-TEXT: Do you want to skip placing a Pokémon at this Power Spot?
+TEXT: ไมวางโปเกมอน แลวไปตอหรือไม?
 
 RESOURCE ID: bread_stationing_success
-TEXT: {0} is now placed at {1}.
+TEXT: {0}ถูกวางอยูที่{1}
 
 RESOURCE ID: bread_stationing_tutorial_description_1
-TEXT: Pokémon placed at Power Spots earn Candy based on how many battles they assist in and how long they remain. You can place up to 20 Pokémon at different Power Spots.
+TEXT: โปเกมอนที่ถูกวางไวที่พาวเวอรสปอตจะไดรับลูกอมตามจำนวนแบตเทิลที่สนับสนุนและระยะเวลาที่เฝาอยู คุณสามารถวางโปเกมอนไดสูงสุด 20 ตัวที่พาวเวอรสปอตที่แตกตางกัน
 
 RESOURCE ID: bread_stationing_tutorial_description_2
 TEXT: โปเกมอนของคุณจะชวยสนับสนุนแบตเทิล เพื่อเอาชนะบอสพาวเวอรสปอต
@@ -685,7 +723,7 @@ RESOURCE ID: bread_upgrade_heal
 TEXT: ทาแมกซนี้จะฟ้นฟู HP มากขึ้น!
 
 RESOURCE ID: bread_walk_km_and_collect_mp
-TEXT: เดิน {0} กม. เพื่อสะสม {1} MP
+TEXT: เดิน {0} กม. เพื่อรวบรวม {1} MP
 
 RESOURCE ID: bulk_bread_upgrade_final_confirmation
 TEXT: สอนทาแมกซนี้หรือไม?
@@ -696,6 +734,12 @@ TEXT: ไมวาจะเกิดอะไรขึ้น ไฟที�
 
 RESOURCE ID: candy_label
 TEXT: ลูกอม
+
+RESOURCE ID: catch_max_pokemon_plural
+TEXT: จับโปเกมอนแมกซ {0} ตัว
+
+RESOURCE ID: catch_max_pokemon_singular
+TEXT: จับโปเกมอนแมกซ
 
 RESOURCE ID: cdc_bonus_tr_title
 TEXT: คอมมิวนิตี้เดย (รีเทิรน): งานวิจัยแบบจำกัดเวลาโบนัส
@@ -724,6 +768,9 @@ TEXT: มีเครื่องหมายถูกแลว
 RESOURCE ID: checkbox_notchecked
 TEXT: ไมมีเครื่องหมายถูก
 
+RESOURCE ID: collect_max_particles
+TEXT: รวบรวม {0} อนุภาคแมกซ 
+
 RESOURCE ID: combat_description_season_16
 TEXT: วันที่และเวลาแสดงตามเวลาทองถิ่น
 
@@ -746,10 +793,22 @@ RESOURCE ID: community_day_ponyta_and_galarian_ponyta_event_name
 TEXT: คอมมิวนิตี้เดย: โพนีตะและโพนีตะ (รางกาลาร)
 
 RESOURCE ID: details_link_key_ponytacd24
-TEXT: For more details, visit the <a href=https://pokemongolive.com/news"">website</a>."
+TEXT: For more details, visit the <a href="https://pokemongolive.com/news">website</a>.
 
 RESOURCE ID: disabledaccessibility
 TEXT: ปดใชงานโปรแกรมอานหนาจอแลว
+
+RESOURCE ID: dmax_ftue_0
+TEXT: ลุยไปใหเต็มแมกซ! (1/3)
+
+RESOURCE ID: dmax_ftue_1
+TEXT: ลุยไปใหเต็มแมกซ! (2/3)
+
+RESOURCE ID: dmax_ftue_2
+TEXT: ลุยไปใหเต็มแมกซ! (3/3)
+
+RESOURCE ID: dmax_ftue_title
+TEXT: ลุยไปใหเต็มแมกซ!
 
 RESOURCE ID: dropdownitemindex
 TEXT: ไอเท็มที่ {0} จาก {1}
@@ -805,7 +864,7 @@ RESOURCE ID: filter_key_bread
 TEXT: ไดแมกซ
 
 RESOURCE ID: filter_key_bread_move_a
-TEXT: โจมตีแมกซ
+TEXT: ทาแมกซ
 
 RESOURCE ID: filter_key_bread_move_b
 TEXT: ไดวอลล
@@ -898,7 +957,7 @@ RESOURCE ID: general1.ticket_poppliocd24_title
 TEXT: ตั๋วอชิมาริคอมมิวนิตี้เดย
 
 RESOURCE ID: general_already_submitted_report
-TEXT: You already submitted a report.
+TEXT: คุณยื่นอุทธรณแลว
 
 RESOURCE ID: general_done_exclamation_point
 TEXT: เสร็จสิ้น!
@@ -914,6 +973,21 @@ TEXT: สำรวจแลว {0} กม.
 
 RESOURCE ID: global_challenges_appearing
 TEXT: พบกับคำทาสำหรับทั่วโลกระหวางอีเวนตนี้
+
+RESOURCE ID: go_big_event_name
+TEXT: GO ใหยิ่งใหญ!
+
+RESOURCE ID: go_out_event_name
+TEXT: GO ใหสุด!
+
+RESOURCE ID: halloween_cup_great_title
+TEXT: Halloween Cup: Great League Edition
+
+RESOURCE ID: halloween_cup_little_title
+TEXT: Halloween Cup: Little Edition
+
+RESOURCE ID: home_transfer_error_gym_deployed_temp
+TEXT: You can’t send Pokemon that are defending Gyms or stationed at Power Spots
 
 RESOURCE ID: instinct_challenge
 TEXT: คำทาสำหรับทั่วโลกอินสติงต
@@ -999,10 +1073,16 @@ RESOURCE ID: item_mp_name
 TEXT: อนุภาคแมกซ
 
 RESOURCE ID: item_mp_replenish_desc
-TEXT: A small pack of Max Particles. Each one holds {0} Max Particles.
+TEXT: แพ็กอนุภาคแมกซขนาดเล็ก 1 แพ็ก บรรจุ {0} อนุภาคแมกซ
 
 RESOURCE ID: item_mp_replenish_name
 TEXT: แพ็กอนุภาคแมกซ
+
+RESOURCE ID: join_max_battle_plural
+TEXT: เขารวมแบตเทิลแมกซ {0} ครั้ง
+
+RESOURCE ID: join_max_battle_singular
+TEXT: เขารวมแบตเทิลแมกซ
 
 RESOURCE ID: keyboard_cancel
 TEXT: ยกเลิก
@@ -1067,6 +1147,12 @@ TEXT: เวนวรรค
 RESOURCE ID: keyboard_symbols
 TEXT: สัญลักษณ
 
+RESOURCE ID: levelup_max_move_plural
+TEXT: เลเวลอัปทาแมกซ {0} ครั้ง
+
+RESOURCE ID: levelup_max_move_singular
+TEXT: เลเวลอัปทาแมกซ
+
 RESOURCE ID: log_received_station_battle_items
 TEXT: ไดรับไอเท็ม {0} ชิ้น จากแบตเทิลแมกซแลว
 
@@ -1098,10 +1184,10 @@ RESOURCE ID: mega_timer_label
 TEXT: เหลือเวลา: {0}
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-08-27T00:27:00.405632+00:00 for th-TH
-at SHA a461ee4d4e
-Pipeline 2566939, job 31308881
-Patch from: 0.329.0-SHA-18111616-RC1, 0.327.0-SHA-d09ac408-RC1
+TEXT: Built at 2024-08-28T23:40:27.463757+00:00 for th-TH
+at SHA 4e6b3d918c0
+Pipeline 2573721, job 31428131
+Patch from: 0.329.0-SHA-a76df4b9-RC5, 0.327.0-SHA-31451ff9-RC5
 
 RESOURCE ID: mex_promo_fr_title
 TEXT: เทศกาลเฉลิมฉลองลูจาบูล
@@ -1317,17 +1403,17 @@ RESOURCE ID: move_name_0459
 TEXT: กิกะจูโจมตอเนื่อง
 
 RESOURCE ID: mp_replenish.1_description
-TEXT: A small pack of Max Particles. Each one holds {0} Max Particles.
+TEXT: แพ็กอนุภาคแมกซขนาดเล็ก 1 แพ็ก บรรจุ {0} อนุภาคแมกซ
 
 RESOURCE ID: mp_replenish.1_title
-TEXT: 1 Max Particle Pack
+TEXT: แพ็กอนุภาคแมกซ
 ({0} MP)
 
 RESOURCE ID: mp_replenish.3_description
-TEXT: 3 small packs of Max Particles. Each pack holds {0} Max Particles.
+TEXT: แพ็กอนุภาคแมกซขนาดเล็ก 3 แพ็ก แตละแพ็กบรรจุ {0} อนุภาคแมกซ
 
 RESOURCE ID: mp_replenish.3_title
-TEXT: 3 Max Particle Packs
+TEXT: แพ็กอนุภาคแมกซ x3
 ({0} MP)
 
 RESOURCE ID: mystic_challenge
@@ -1337,7 +1423,7 @@ RESOURCE ID: mystic_reward
 TEXT: รางวัลคำทาสำหรับทั่วโลกมิสติก
 
 RESOURCE ID: no_pokemon_in_station_hint
-TEXT: Earn Candy by placing your Pokémon at Power Spots!
+TEXT: รับลูกอมโดยการวางโปเกมอนที่พาวเวอรสปอต!
 
 RESOURCE ID: party_play_bonus
 TEXT: Party Play Bonus
@@ -1345,8 +1431,14 @@ TEXT: Party Play Bonus
 RESOURCE ID: photobomb_five_beldum
 TEXT: ดันบัลแยงซีนถายรูปในโกสแนปช็อต 5 ครั้ง
 
+RESOURCE ID: poi_contrib_report_reason_residential
+TEXT: บริเวณที่อยูอาศัยสวนบุคคล
+
 RESOURCE ID: poi_contrib_report_reason_school
 TEXT: โรงเรียน
+
+RESOURCE ID: pokecoins_iap_string_key
+TEXT: {0} PokéCoins
 
 RESOURCE ID: pokedex_mode_fullname_bread
 TEXT: ไดแมกซ
@@ -1361,16 +1453,18 @@ RESOURCE ID: pokedex_registered_to_bread_dough_pokedex
 TEXT: บันทึกในโปเกเด็กซกิกะแมกซแลว
 
 RESOURCE ID: pokemon_bread_dough_info_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer this Gigantamax Pokémon?
+TEXT: คุณแนใจใชไหมวาตองการถายโอน
+โปเกมอนกิกะแมกซนี้?
 
 RESOURCE ID: pokemon_bread_dough_info_transfer_to_professor_error
-TEXT: You cannot transfer your last Gigantamax Pokémon.
+TEXT: คุณไมสามารถถายโอนโปเกมอนกิกะแมกซตัวสุดทายได
 
 RESOURCE ID: pokemon_bread_info_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer this Dynamax Pokémon?
+TEXT: คุณแนใจใชไหมวาตองการถายโอน
+โปเกมอนไดแมกซนี้?
 
 RESOURCE ID: pokemon_bread_info_transfer_to_professor_error
-TEXT: You cannot transfer your last Dynamax Pokémon.
+TEXT: คุณไมสามารถถายโอนโปเกมอนไดแมกซตัวสุดทายได
 
 RESOURCE ID: pokemon_desc_0003_0169_2
 TEXT: กวัดแกวงเถาวัลยเสนใหญหนา 2 เสนเพื่อตอสู
@@ -1526,7 +1620,7 @@ RESOURCE ID: pokemon_info_caught_breadbattle
 TEXT: จับจากแบตเทิลแมกซ
 
 RESOURCE ID: pokemon_info_evolve_pokemon_stationed
-TEXT: {0} is placed at a Power Spot.
+TEXT: {0}ถูกวางไวที่พาวเวอรสปอตแลว
 
 RESOURCE ID: pokemon_name_0003_0169_2
 TEXT: Gigantamax Venusaur
@@ -1656,6 +1750,56 @@ TEXT: เทาที่สังเกต ดูเหมือนวา�
 ไมเห็น สัญชาตญาณจึงสั่งใหพวกมันกัดทุกสิ่ง
 ที่ขวางหนา ฉันเองก็โดนมาแลวเหมือนกัน
 แตไมเปนไร มันไมเจ็บเทาไหร
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_0_0
+TEXT: ไง %PLAYERNAME%! ชวงนี้ไดเห็นอะไรแปลก ๆ
+ระหวางออกไปผจญภัยบางหรือเปลา?
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_0_1
+TEXT: ฉันไดรับรายงานมาวามีพลังงานลึกลับปรากฏขึ้น
+ตามที่ตาง ๆ ทั่วโลก ซึ่งเปนเหตุการณที่เรา
+ไมเคยเห็นมากอน
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_0_2
+TEXT: อยากรูจังเลยวาเกิดอะไรขึ้น เธอพรอมจะออก
+ไปสำรวจหรือยัง?
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_0_3
+TEXT: ชวยออกไปตรวจสอบในพื้นที่ไดไหม ถาพบอะไรก็บอกฉันดวยละ!
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_1_0
+TEXT: นั่นเปนวูลูที่ตัวใหญมาก ตกใจหมดเลย!
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_1_1
+TEXT: นี่ตองเปนโปเกมอนไดแมกซอยางแนนอน!
+ขนของมันเอาไปทอเปนผาไดหลายผืนเลย
+ถาจะเอาไปทอเมื่อไหรอยาลืมบอกฉันดวยละ!
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_1_2
+TEXT: โปเกมอนไดแมกซสามารถใชทาพิเศษ
+ที่เรียกวา "ทาแมกซ" ทาที่ใชอนุภาคแมกซในการ
+เพิ่มประสิทธิภาพได
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_1_3
+TEXT: ระหวางที่ฉันกำลังวิจัยเกี่ยวกับทาแมกซ
+ฝากเธอไปรวบรวมอนุภาคแมกซหนอยไดไหม?
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_2_0
+TEXT: ดูทาแมกซที่อัปเกรดแลวนั่นสิ!
+สมกับที่เปนเทรนเนอรยอดฝมือแบบเธอ!
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_2_1
+TEXT: แลวสังเกตเห็นโปเกมอนไดแมกซปรากฏตัวขึ้น
+ที่พาวเวอรสปอตไหม แหลงพลังงานอันนาเหลือเชื่อ
+ที่เธอเจอกอนหนานี้นะ
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_2_2
+TEXT: นี่เปนโอกาสอันดีที่จะไดเห็นวูลูไดแมกซ
+ตอนแบตเทิลนะ
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_2_3
+TEXT: ไปทดสอบการใชทาแมกซกับโปเกมอนไดแมกซ
+ตัวอื่นดูสิ! GO!
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_6
 TEXT: สวนยิมสีเหลืองนั้นเปนของทีมอินสติงต โดยมีผูนำ
@@ -1841,7 +1985,7 @@ RESOURCE ID: station_out_of_range
 TEXT: พาวเวอรสปอตอยูนอกระยะ
 
 RESOURCE ID: station_upcoming_battle_toast
-TEXT: This Power Spot will open on {0} at {1}.
+TEXT: พาวเวอรสปอตนี้จะเปด {0} {1}
 
 RESOURCE ID: talkback_pleasesuspend
 TEXT: โปรดระงับการใชงาน TalkBack ระหวางเลน
@@ -1921,7 +2065,7 @@ RESOURCE ID: trade_exclusion_reason_last_bread
 TEXT: คุณไมสามารถแลกเปลี่ยนโปเกมอนแมกซตัวสุดทายได
 
 RESOURCE ID: trade_exclusion_reason_station_deployed
-TEXT: This Pokémon is placed at a Power Spot.
+TEXT: โปเกมอนตัวนี้ถูกวางไวที่พาวเวอรสปอตแลว
 
 RESOURCE ID: triumph_together_event_name
 TEXT: พรอมหนาควาชัย
@@ -2406,11 +2550,23 @@ TEXT: การกระทำผิดอื่นใดตอจากน�
 RESOURCE ID: unified_punishment_strike_desc_c
 TEXT: สามารถตรวจสอบรายละเอียดเพิ่มเติมไดจากอีเมลที่สงโดย no_reply@nianticlabs.com
 
+RESOURCE ID: unlock_max_move_plural
+TEXT: ปลดล็อกทาแมกซ {0} ทา
+
+RESOURCE ID: unlock_max_move_singular
+TEXT: ปลดล็อกทาแมกซ
+
 RESOURCE ID: valor_challenge
 TEXT: คำทาสำหรับทั่วโลกแวเลอร
 
 RESOURCE ID: valor_reward
 TEXT: รางวัลคำทาสำหรับทั่วโลกแวเลอร
+
+RESOURCE ID: visit_power_spot_plural
+TEXT: ไปเยือนพาวเวอรสปอต {0} แหง
+
+RESOURCE ID: visit_power_spot_singular
+TEXT: ไปเยือนพาวเวอรสปอต
 
 RESOURCE ID: wcs_2024_great_league_tr_path_a
 TEXT: เลือกยันชัม
@@ -2435,6 +2591,12 @@ TEXT: งานวิจัยแบบจำกัดเวลาพรีเ�
 
 RESOURCE ID: wcs_cdc_bonus_tr_desc
 TEXT: คอมมิวนิตี้เดย (รีเทิรน): งานวิจัยแบบจำกัดเวลาโบนัส - WCS 2024
+
+RESOURCE ID: win_max_battle_plural
+TEXT: ชนะแบตเทิลแมกซ {0} ครั้ง
+
+RESOURCE ID: win_max_battle_singular
+TEXT: ชนะแบตเทิลแมกซ
 
 RESOURCE ID: xl_candy_label
 TEXT: ลูกอม XL

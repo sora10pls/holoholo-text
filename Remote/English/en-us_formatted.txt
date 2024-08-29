@@ -1,6 +1,9 @@
 RESOURCE ID: allow_notifications_prompt_message_temp
 TEXT: To stay up to date on new events and features, allow Pokémon GO to access notifications.
 
+RESOURCE ID: avatar_f_gloves_dynamaxswsh_00_bundle_icon
+TEXT: Dynamax Band
+
 RESOURCE ID: avatar_f_hat_lana_00_bundle_icon
 TEXT: Lana-Style Wig
 
@@ -11,10 +14,16 @@ RESOURCE ID: avatar_f_shirt_wcs2024championshipshirt-white_00_bundle_icon
 TEXT: WCS 2024 Tee (White)
 
 RESOURCE ID: avatar_glasses_wcs2024champion
-TEXT: WCS 2024 Champion Goggles
+TEXT: 2024 Worlds Champion Goggles
+
+RESOURCE ID: avatar_gloves_dynamaxbandwhite
+TEXT: Dynamax Band
 
 RESOURCE ID: avatar_hat_wcs2024
-TEXT: WCS 2024 Bucket Hat
+TEXT: 2024 Worlds Bucket Hat
+
+RESOURCE ID: avatar_m_gloves_dynamaxswsh_00_bundle_icon
+TEXT: Dynamax Band
 
 RESOURCE ID: avatar_m_hat_lana_00_bundle_icon
 TEXT: Lana-Style Wig
@@ -25,26 +34,38 @@ TEXT: WCS 2024 Tee (Blue)
 RESOURCE ID: avatar_m_shirt_wcs2024championshipshirt-white_00_bundle_icon
 TEXT: WCS 2024 Tee (White)
 
+RESOURCE ID: avatar_mask_gblallister
+TEXT: Allister-Style Mask
+
 RESOURCE ID: avatar_pants_wcs2024champion
-TEXT: WCS 2024 Champion Pants
+TEXT: 2024 Worlds Champion Pants
+
+RESOURCE ID: avatar_pose_gblallister
+TEXT: Allister Pose
 
 RESOURCE ID: avatar_pose_wcs2024
-TEXT: WCS 2024 Ukelele Pose
+TEXT: 2024 Worlds Ukulele Pose
+
+RESOURCE ID: avatar_shirt_gblallister
+TEXT: Allister-Style Outfit
 
 RESOURCE ID: avatar_shirt_wcs2024
-TEXT: WCS 2024 Aloha Shirt
+TEXT: 2024 Worlds Aloha Shirt
 
 RESOURCE ID: avatar_shirt_wcs2024champion
-TEXT: WCS 2024 Champion Shirt
+TEXT: 2024 Worlds Champion Set
+
+RESOURCE ID: avatar_shoes_gblallister
+TEXT: Allister-Style Shoes
 
 RESOURCE ID: avatar_shoes_wcs2024champion
-TEXT: WCS 2024 Champion Boots
+TEXT: 2024 Worlds Champion Boots
 
 RESOURCE ID: avatar_tshirt_wcs2024blue
-TEXT: WCS 2024 Tee (Blue)
+TEXT: 2024 Worlds Tee (Blue)
 
 RESOURCE ID: avatar_tshirt_wcs2024white
-TEXT: WCS 2024 Tee (White)
+TEXT: 2024 Worlds Tee (White)
 
 RESOURCE ID: badge_aa_2024_yogyakarta_day_00
 TEXT: Yogyakarta, 2024
@@ -253,6 +274,9 @@ TEXT: {0} IS GETTING DESPERATE!
 RESOURCE ID: bread_battle_log_enrage_2
 TEXT: {0}’s ATTACKS ARE GETTING STRONGER!
 
+RESOURCE ID: bread_battle_log_global_cheer_bread_meter
+TEXT: YOU CHEERED FOR EVERYONE! ALLIES’ METER WAS CHARGED
+
 RESOURCE ID: bread_battle_log_telegraph_multi
 TEXT: {0} IS PREPARING A LARGE ATTACK!
 
@@ -276,6 +300,12 @@ TEXT: An ally has low HP!
 
 RESOURCE ID: bread_battle_message_use_max_move
 TEXT: Use a Max Move!
+
+RESOURCE ID: bread_battle_pokemon_remaining
+TEXT: POKÉMON REMAINING
+
+RESOURCE ID: bread_battle_received_global_cheering_boost
+TEXT: TEAMS ARE CHEERING YOU ON!
 
 RESOURCE ID: bread_battle_remaining
 TEXT: Remaining
@@ -366,6 +396,9 @@ TEXT: You need at least one Dynamax Pokémon!
 RESOURCE ID: bread_claim_mp_amount
 TEXT: Collect {0} Max Particles
 
+RESOURCE ID: bread_collected_mp
+TEXT: Collected {0} MP
+
 RESOURCE ID: bread_flag_disabled
 TEXT: Feature flag disabled
 
@@ -374,6 +407,9 @@ TEXT: Get {0} Max Particles
 
 RESOURCE ID: bread_get_stationing_details_error
 TEXT: Error fetching stationed pokemon at POU {0}
+
+RESOURCE ID: bread_iap_max_mp_replenish_warning
+TEXT: You have reached the max number of Max Particle Packs ({0}). Please use your Max Particle Packs and try again.
 
 RESOURCE ID: bread_iap_mp_replenish_station_desc
 TEXT: You need more Max Particles to join this battle.
@@ -683,8 +719,17 @@ TEXT: Do you want to work on this Max Move?
 RESOURCE ID: candy_label
 TEXT: Candy
 
+RESOURCE ID: catch_max_pokemon_plural
+TEXT: Catch {0} Max Pokémon
+
+RESOURCE ID: catch_max_pokemon_singular
+TEXT: Catch a Max Pokémon
+
 RESOURCE ID: check_today_view_rewards
 TEXT: Check the Today tab to see your other rewards!
+
+RESOURCE ID: collect_max_particles
+TEXT: Collect {0} Max Particles
 
 RESOURCE ID: combat_description_season_16
 TEXT: Dates and times below are listed in local time.
@@ -708,7 +753,19 @@ RESOURCE ID: community_day_ponyta_and_galarian_ponyta_event_name
 TEXT: Community Day: Ponyta and Galarian Ponyta
 
 RESOURCE ID: details_link_key_ponytacd24
-TEXT: For more details, visit the <a href=https://pokemongolive.com/news"">website</a>."
+TEXT: For more details, visit the <a href="https://pokemongolive.com/news">website</a>.
+
+RESOURCE ID: dmax_ftue_0
+TEXT: To the Max! (1/3)
+
+RESOURCE ID: dmax_ftue_1
+TEXT: To the Max! (2/3)
+
+RESOURCE ID: dmax_ftue_2
+TEXT: To the Max! (3/3)
+
+RESOURCE ID: dmax_ftue_title
+TEXT: To the Max!
 
 RESOURCE ID: eevee_explorers_jakarta_title
 TEXT: Eevee Explorers – Jakarta
@@ -793,6 +850,21 @@ TEXT: Explored {0} km
 RESOURCE ID: global_challenges_appearing
 TEXT: Global Challenges will appear during this event
 
+RESOURCE ID: go_big_event_name
+TEXT: GO Big
+
+RESOURCE ID: go_out_event_name
+TEXT: GO All Out
+
+RESOURCE ID: halloween_cup_great_title
+TEXT: Halloween Cup: Great League Edition
+
+RESOURCE ID: halloween_cup_little_title
+TEXT: Halloween Cup: Little Edition
+
+RESOURCE ID: home_transfer_error_gym_deployed_temp
+TEXT: You can’t send Pokemon that are defending Gyms or stationed at Power Spots
+
 RESOURCE ID: instinct_challenge
 TEXT: Instinct Global Challenge
 
@@ -850,6 +922,18 @@ TEXT: A small pack of Max Particles. Each one holds {0} Max Particles.
 RESOURCE ID: item_mp_replenish_name
 TEXT: Max Particle Pack
 
+RESOURCE ID: join_max_battle_plural
+TEXT: Join {0} Max Battles
+
+RESOURCE ID: join_max_battle_singular
+TEXT: Join a Max Battle
+
+RESOURCE ID: levelup_max_move_plural
+TEXT: Level up {0} Max Moves
+
+RESOURCE ID: levelup_max_move_singular
+TEXT: Level up a Max Move
+
 RESOURCE ID: log_received_station_battle_items
 TEXT: Received {0} items from Max Battle.
 
@@ -881,10 +965,10 @@ RESOURCE ID: mega_timer_label
 TEXT: {0} left
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-08-27T00:27:00.405632+00:00 for en-US
-at SHA a461ee4d4e
-Pipeline 2566939, job 31308881
-Patch from: 0.329.0-SHA-18111616-RC1, 0.327.0-SHA-d09ac408-RC1
+TEXT: Built at 2024-08-28T23:40:27.463757+00:00 for en-US
+at SHA 4e6b3d918c0
+Pipeline 2573721, job 31428131
+Patch from: 0.329.0-SHA-a76df4b9-RC5, 0.327.0-SHA-31451ff9-RC5
 
 RESOURCE ID: mex_promo_fr_title
 TEXT: Hawlucha Celebration
@@ -1103,6 +1187,9 @@ TEXT: Party Play Bonus
 
 RESOURCE ID: photobomb_five_beldum
 TEXT: 5 surprise encounters with Beldum in GO Snapshot
+
+RESOURCE ID: pokecoins_iap_string_key
+TEXT: {0} PokéCoins
 
 RESOURCE ID: pokedex_mode_fullname_bread
 TEXT: Dynamax
@@ -1361,6 +1448,42 @@ TEXT: Spin a PokéStop or Gym in Jakarta
 
 RESOURCE ID: quest_metang_evolve_b_singular
 TEXT: Evolve a Metang
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_0_0
+TEXT: Hey there, %PLAYERNAME%! Say, have you observed anything strange on your travels lately?
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_0_1
+TEXT: I’ve been getting reports of a mysterious energy gathering around the world. This seems different than anything we’ve seen before.
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_0_2
+TEXT: I’m eager to figure out what’s going on. Are you up for a little exploration?
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_0_3
+TEXT: Take a look around the area and let me know what you find!
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_1_0
+TEXT: Good Graveler, that Wooloo is massive!
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_1_1
+TEXT: This must be a Dynamax Pokémon! Just imagine how much fabric you could make with all that wool. Let me know if you give it a spin!
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_1_2
+TEXT: Ahem. Dynamax Pokémon have powerful techniques called Max Moves that can be enhanced with Max Particles.
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_1_3
+TEXT: Why don’t you start collecting Max Particles while I research these moves?
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_2_0
+TEXT: Check out that enhanced Max Move! I wouldn't expect any less from a Trainer such as yourself.
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_2_1
+TEXT: And have you noticed the Dynamax Pokémon appearing at Power Spots, those incredible energy sources you encountered?
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_2_2
+TEXT: This is a great opportunity to observe your Dynamax Wooloo in action.
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_2_3
+TEXT: You can test its Max Moves against another Dynamax Pokémon. Give it a GO!
 
 RESOURCE ID: quest_special_dialogue_popplio_0_0
 TEXT: Ah, %PLAYERNAME%! Can you believe our luck? It’s a wonder to see so many Popplio gathered in one place.
@@ -2017,14 +2140,32 @@ TEXT: Account Suspension Notice
 RESOURCE ID: unified_punishment_strike3_title
 TEXT: Account Ban Notice
 
+RESOURCE ID: unlock_max_move_plural
+TEXT: Unlock {0} Max Moves
+
+RESOURCE ID: unlock_max_move_singular
+TEXT: Unlock a Max Move
+
 RESOURCE ID: valor_challenge
 TEXT: Valor Global Challenge
 
 RESOURCE ID: valor_reward
 TEXT: Valor Global Challenge Rewards
 
+RESOURCE ID: visit_power_spot_plural
+TEXT: Visit {0} Power Spots
+
+RESOURCE ID: visit_power_spot_singular
+TEXT: Visit a Power Spot
+
 RESOURCE ID: wcs_aug24_tr_title
 TEXT: 2024 Worlds Premium Timed Research
+
+RESOURCE ID: win_max_battle_plural
+TEXT: Win {0} Max Battles
+
+RESOURCE ID: win_max_battle_singular
+TEXT: Win a Max Battle
 
 RESOURCE ID: xl_candy_label
 TEXT: Candy XL

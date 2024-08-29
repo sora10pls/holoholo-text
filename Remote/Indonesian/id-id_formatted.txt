@@ -28,6 +28,9 @@ TEXT: Aksesibilitas
 RESOURCE ID: allow_notifications_prompt_message_temp
 TEXT: To stay up to date on new events and features, allow Pokémon GO to access notifications.
 
+RESOURCE ID: avatar_f_gloves_dynamaxswsh_00_bundle_icon
+TEXT: Gelang Dynamax
+
 RESOURCE ID: avatar_f_hat_lana_00_bundle_icon
 TEXT: Wig Gaya Lana
 
@@ -40,8 +43,14 @@ TEXT: Kaus WCS 2024 (Putih)
 RESOURCE ID: avatar_glasses_wcs2024champion
 TEXT: Kacamata Juara WCS 2024
 
+RESOURCE ID: avatar_gloves_dynamaxbandwhite
+TEXT: Gelang Dynamax
+
 RESOURCE ID: avatar_hat_wcs2024
 TEXT: Topi Bucket WCS 2024
+
+RESOURCE ID: avatar_m_gloves_dynamaxswsh_00_bundle_icon
+TEXT: Gelang Dynamax
 
 RESOURCE ID: avatar_m_hat_lana_00_bundle_icon
 TEXT: Wig Gaya Lana
@@ -52,17 +61,29 @@ TEXT: Kaus WCS 2024 (Biru)
 RESOURCE ID: avatar_m_shirt_wcs2024championshipshirt-white_00_bundle_icon
 TEXT: Kaus WCS 2024 (Putih)
 
+RESOURCE ID: avatar_mask_gblallister
+TEXT: Topeng Gaya Allister
+
 RESOURCE ID: avatar_pants_wcs2024champion
 TEXT: Celana Juara WCS 2024
 
+RESOURCE ID: avatar_pose_gblallister
+TEXT: Pose Allister
+
 RESOURCE ID: avatar_pose_wcs2024
 TEXT: Pose Ukulele WCS 2024
+
+RESOURCE ID: avatar_shirt_gblallister
+TEXT: Pakaian Gaya Allister
 
 RESOURCE ID: avatar_shirt_wcs2024
 TEXT: Kemeja Aloha WCS 2024
 
 RESOURCE ID: avatar_shirt_wcs2024champion
 TEXT: Setelan Juara WCS 2024
+
+RESOURCE ID: avatar_shoes_gblallister
+TEXT: Sepatu Gaya Allister
 
 RESOURCE ID: avatar_shoes_wcs2024champion
 TEXT: Sepatu Bot Juara WCS 2024
@@ -488,7 +509,7 @@ RESOURCE ID: bread_battle_bread_meter_almost_full
 TEXT: Hampir penuh!
 
 RESOURCE ID: bread_battle_bread_meter_charged
-TEXT: Barometer penuh!
+TEXT: Meteran penuh!
 
 RESOURCE ID: bread_battle_bread_meter_collect_charge
 TEXT: Pengisian selesai!
@@ -500,19 +521,19 @@ RESOURCE ID: bread_battle_bread_meter_keep_going
 TEXT: Lanjutkan terus!
 
 RESOURCE ID: bread_battle_bread_meter_label
-TEXT: BAROMETER MAX
+TEXT: METERAN MAX
 
 RESOURCE ID: bread_battle_bread_meter_sideline_action
-TEXT: Charged!
+TEXT: Terisi!
 
 RESOURCE ID: bread_battle_bread_meter_tip_charge
-TEXT: Serangan serentak akan mengisi barometer!
+TEXT: Serangan serentak akan mengisi meteran!
 
 RESOURCE ID: bread_battle_cheer_entered
 TEXT: SEMUA POKÉMON MILIKMU PINGSAN. AYO DUKUNG GRUPMU!
 
 RESOURCE ID: bread_battle_deafeat_tips
-TEXT: Battle Tips
+TEXT: Tips Pertarungan
 
 RESOURCE ID: bread_battle_floating_text_damage_reduced
 TEXT: KERUSAKAN DIKURANGI!
@@ -527,7 +548,7 @@ RESOURCE ID: bread_battle_log_attack_multi
 TEXT: {0} MENGGUNAKAN {1} KE SEMUANYA!
 
 RESOURCE ID: bread_battle_log_cheer_bread_meter
-TEXT: BAROMETER MENINGKAT KARENA DUKUNGAN!
+TEXT: METERAN MENINGKAT KARENA DUKUNGAN!
 
 RESOURCE ID: bread_battle_log_dodged
 TEXT: DIHINDARI!
@@ -537,6 +558,9 @@ TEXT: {0} MULAI MENGAMUK!
 
 RESOURCE ID: bread_battle_log_enrage_2
 TEXT: SERANGAN {0} MAKIN MENGUAT!
+
+RESOURCE ID: bread_battle_log_global_cheer_bread_meter
+TEXT: YOU CHEERED FOR EVERYONE! ALLIES’ METER WAS CHARGED
 
 RESOURCE ID: bread_battle_log_telegraph_multi
 TEXT: {0} MEMPERSIAPKAN SERANGAN BESAR!
@@ -561,6 +585,12 @@ TEXT: Ada teman yang memiliki HP rendah!
 
 RESOURCE ID: bread_battle_message_use_max_move
 TEXT: Gunakan Jurus Max!
+
+RESOURCE ID: bread_battle_pokemon_remaining
+TEXT: POKÉMON REMAINING
+
+RESOURCE ID: bread_battle_received_global_cheering_boost
+TEXT: TEAMS ARE CHEERING YOU ON!
 
 RESOURCE ID: bread_battle_remaining
 TEXT: Tersisa
@@ -587,19 +617,19 @@ RESOURCE ID: bread_battle_reward_upgrade_rewards
 TEXT: PENINGKATAN HADIAH
 
 RESOURCE ID: bread_battle_sideline_tutorial_1_active
-TEXT: All your Pokémon have fainted.
-Cheer on your teammates!
+TEXT: Semua Pokémonmu pingsan!
+Dukung grupmu!
 
 RESOURCE ID: bread_battle_sideline_tutorial_1_inactive
-TEXT: All your Pokémon have fainted!
+TEXT: Semua Pokémonmu pingsan!
 
 RESOURCE ID: bread_battle_sideline_tutorial_2_active
-TEXT: All your Pokémon have fainted.
-Cheer on your allies!
+TEXT: Semua Pokémonmu pingsan!
+Dukung grupmu!
 
 RESOURCE ID: bread_battle_sideline_tutorial_2_inactive
-TEXT: Your team has fainted.
-Other Trainers are still battling!
+TEXT: Tim Pokémonmu pingsan.
+Pelatih lainnya masih bertarung.
 
 RESOURCE ID: bread_battle_start_error
 TEXT: Tidak dapat memulai Pertarungan Max. Coba lagi nanti.
@@ -608,37 +638,37 @@ RESOURCE ID: bread_battle_station_boost
 TEXT: SERANGAN DIPERKUAT DENGAN {0} POKÉMON YANG DITEMPATKAN DI POWER SPOT
 
 RESOURCE ID: bread_battle_tutorial_description_0
-TEXT: Defeat powerful Dynamax and Gigantamax Pokémon for a chance to catch them.
+TEXT: Kalahkan Pokémon Dynamax dan Gigantamax kuat untuk kesempatan menangkap mereka.
 
 RESOURCE ID: bread_battle_tutorial_description_1
-TEXT: Defeat the Power Spot Boss before it defeats all your team’s Pokémon.
+TEXT: Kalahkan Bos Power Spot sebelum ia mengalahkan semua Pokémon timmu.
 
 RESOURCE ID: bread_battle_tutorial_description_2
-TEXT: Attack the boss to fill up the meter at the top of the screen. When the meter is full, your Pokémon will Dynamax or Gigantamax!
+TEXT: Serang bos untuk mengisi meteran yang ada di bagian atas layar. Begitu meteran penuh, Pokémonmu akan melakukan Dynamax atau Gigantamax!
 
 RESOURCE ID: bread_battle_tutorial_description_3
-TEXT: Swipe to collect energy to fill the meter faster.
+TEXT: Kumpulkan energi dengan menggeser layar untuk mengisi meteran lebih cepat.
 
 RESOURCE ID: bread_battle_tutorial_description_4
-TEXT: When Dynamaxed or Gigantamaxed, your Pokémon can use special moves.
+TEXT: Begitu Pokémon melakukan Dynamax atau Gigantamax, Pokémonmu dapat menggunakan jurus spesial.
 
 RESOURCE ID: bread_battle_tutorial_title_0
-TEXT: Introducing Max Battles!
+TEXT: Memperkenalkan Pertarungan Max!
 
 RESOURCE ID: bread_battle_tutorial_title_1
-TEXT: Pokémon Remaining
+TEXT: Sisa Pokémon
 
 RESOURCE ID: bread_battle_tutorial_title_2
-TEXT: Charge Your Max Meter
+TEXT: Isi Meteran Max-mu
 
 RESOURCE ID: bread_battle_tutorial_title_3
-TEXT: Collect Energy
+TEXT: Mengumpulkan Energi
 
 RESOURCE ID: bread_battle_tutorial_title_4
-TEXT: Max Moves
+TEXT: Jurus Max
 
 RESOURCE ID: bread_battle_upgrade_reward_error
-TEXT: Unable to upgrade rewards. Please try again.
+TEXT: Tidak dapat meningkatkan hadiah. Coba lagi.
 
 RESOURCE ID: bread_cannot_enter_lobby_not_eligible_desc
 TEXT: Memerlukan Pokémon Dynamax untuk bertarung di Power Spot.
@@ -651,14 +681,20 @@ TEXT: Memerlukan setidaknya 1 Pokémon Dynamax!
 RESOURCE ID: bread_claim_mp_amount
 TEXT: Kumpulkan {0} Partikel Max
 
+RESOURCE ID: bread_collected_mp
+TEXT: Collected {0} MP
+
 RESOURCE ID: bread_flag_disabled
 TEXT: Bendera fitur nonaktif
 
 RESOURCE ID: bread_gain_mp_from_pack
-TEXT: +{0} Partikel Max
+TEXT: Dapatkan {0} Partikel Max
 
 RESOURCE ID: bread_get_stationing_details_error
 TEXT: Terjadi kesalahan saat memperoleh rincian Pokémon yang ditempatkan di {0}
+
+RESOURCE ID: bread_iap_max_mp_replenish_warning
+TEXT: You have reached the max number of Max Particle Packs ({0}). Please use your Max Particle Packs and try again.
 
 RESOURCE ID: bread_iap_mp_replenish_station_desc
 TEXT: Membutuhkan lebih banyak Partikel Max untuk bergabung ke pertarungan ini.
@@ -667,10 +703,10 @@ RESOURCE ID: bread_iap_mp_replenish_title
 TEXT: Partikel Max tidak cukup
 
 RESOURCE ID: bread_lobby_assist_dialog_body
-TEXT: Get an attack bonus based on how many Pokémon are placed at the Power Spot.
+TEXT: Dapatkan Bonus Serangan sesuai dengan berapa banyak Pokémon yang ditempatkan di Power Spot.
 
 RESOURCE ID: bread_lobby_attack_multiplier_dialog_title
-TEXT: Attack Bonus
+TEXT: Bonus Serangan
 
 RESOURCE ID: bread_lobby_error_battle_completed
 TEXT: Telah bertarung di Power Spot ini.
@@ -699,7 +735,7 @@ TEXT: Hanya Pelatih level {0} atau lebih yang bisa mengikuti Pertarungan Max.
 RESOURCE ID: bread_lobby_leave_modal_desc
 TEXT: Jika kamu meninggalkan grup ini, kamu tidak bisa bergabung kembali.
 
- Yakin ingin meninggalkan grup?
+Yakin ingin meninggalkan grup?
 
 RESOURCE ID: bread_lobby_leave_modal_title
 TEXT: Tinggalkan lobi?
@@ -712,7 +748,7 @@ RESOURCE ID: bread_move_upgrade_bread_a
 TEXT: Serangan
 
 RESOURCE ID: bread_move_upgrade_bread_a_desc
-TEXT: Membangkitkan Jurus Super yang lebih kuat
+TEXT: Mengerahkan Jurus Super yang lebih kuat
 
 RESOURCE ID: bread_move_upgrade_bread_all
 TEXT: Jurus Max
@@ -730,10 +766,10 @@ RESOURCE ID: bread_move_upgrade_bread_c_desc
 TEXT: Memulihkan Pokémon teman dan milik sendiri.
 
 RESOURCE ID: bread_move_upgrade_error
-TEXT: Tidak berfungsi pada Jurus Max ini.
+TEXT: Tidak dapat digunakan pada Jurus Max ini.
 
 RESOURCE ID: bread_move_upgrade_info_bread_a_desc
-TEXT: Membangkitkan Jurus Super yang lebih kuat.
+TEXT: Mengerahkan Jurus Super yang lebih kuat
 
 RESOURCE ID: bread_move_upgrade_info_bread_all_desc
 TEXT: Jurus Max dapat digunakan ketika bertarung melawan Pokémon Dynamax dan Gigantamax di Power Spot.
@@ -754,7 +790,7 @@ RESOURCE ID: bread_move_upgrade_maxed
 TEXT: Max!
 
 RESOURCE ID: bread_move_upgrade_train_button
-TEXT: LATIHAN
+TEXT: PERKUAT
 
 RESOURCE ID: bread_move_upgrade_train_title
 TEXT: Perkuat {0}
@@ -769,7 +805,7 @@ RESOURCE ID: bread_mp_cannot_store
 TEXT: Tidak dapat menyimpan Partikel Max lagi.
 
 RESOURCE ID: bread_mp_cooldown
-TEXT: Come back another day to collect more Max Particles.
+TEXT: Kembali di lain hari untuk mengumpulkan lebih banyak Partikel Max.
 
 RESOURCE ID: bread_mp_daily_limit_reached
 TEXT: Tidak dapat mengumpulkan Partikel Max lagi hari ini.
@@ -808,16 +844,16 @@ RESOURCE ID: bread_pokedex_header
 TEXT: GIGANTAMAX
 
 RESOURCE ID: bread_pokemon_info_tutorial_desc
-TEXT: These Pokémon can use powerful Max Moves to battle Pokémon at Power Spots.
+TEXT: Pokémon berikut dapat menggunakan Jurus Max kuat untuk bertarung melawan Pokémon di Power Spot.
 
 RESOURCE ID: bread_pokemon_info_tutorial_title
 TEXT: Kamu menangkap Pokémon Max pertamamu!
 
 RESOURCE ID: bread_post_battle_encounter_run_away_description
-TEXT: If you run away, you won’t be able to catch this Pokémon.
+TEXT: Jika kamu melarikan diri, kamu tidak dapat menangkap Pokémon ini.
 
 RESOURCE ID: bread_post_battle_encounter_run_away_title
-TEXT: Do you want to run away?
+TEXT: Yakin ingin melarikan diri?
 
 RESOURCE ID: bread_release_action
 TEXT: Panggil
@@ -826,7 +862,7 @@ RESOURCE ID: bread_release_error
 TEXT: Terjadi masalah saat memanggil kembali Pokémon. Mohon coba lagi.
 
 RESOURCE ID: bread_release_subtitle
-TEXT: Begitu kembali, ia tidak akan membantu pertarungan atau mendapatkan Permen lagi dari Power Spot tersebut.
+TEXT: Ia tidak akan membantu pertarungan atau mendapatkan Permen lagi dari Power Spot tersebut.
 
 RESOURCE ID: bread_release_title
 TEXT: Kamu ingin {0} kembali?
@@ -853,7 +889,7 @@ RESOURCE ID: bread_station_count_limit
 TEXT: {0}+
 
 RESOURCE ID: bread_station_defeat_success
-TEXT: Mengalahkan Bos Power Spot ini!
+TEXT: Kamu telah mengalahkan Bos Power Spot ini!
 
 RESOURCE ID: bread_station_defeat_success_description
 TEXT: Pilih Pokémon untuk ditempatkan di Power Spot ini untuk mendapatkan Permen dan membantu pertarungan. Kamu dapat memanggil Pokémonmu untuk kembali kapan saja.
@@ -868,7 +904,7 @@ RESOURCE ID: bread_station_header_leaderboard_description
 TEXT: Pokémon berikut akan membantu pada pertarungan melawan Bos Power Spot.
 
 RESOURCE ID: bread_station_leaderboard_assist
-TEXT: Attack Bonus
+TEXT: Bonus Serangan
 
 RESOURCE ID: bread_station_mp_ftue_conversation_0
 TEXT: Wow, kamu menemukan beberapa Partikel Max! Kudengar benda itu ada kaitannya dengan fenomena Dynamax.
@@ -882,7 +918,7 @@ TEXT: Menu Sekitarmu telah ditingkatkan!
 Kunjungi dan jelajahi Power Spot untuk mengumpulkan Partikel Max.
 
 RESOURCE ID: bread_station_tutorial_message_0
-TEXT: Menemukan Pokémon Max kuat di Power Spot.
+TEXT: Temukan Pokémon Max kuat di Power Spot.
 
 RESOURCE ID: bread_station_tutorial_message_1
 TEXT: Kumpulkan Partikel Max dari Power Spot. Kamu dapat menggunakannya pada Pertarungan Max di Power Spots atau untuk membuka dan meningkatkan Jurus Max.
@@ -894,7 +930,7 @@ RESOURCE ID: bread_station_tutorial_message_4
 TEXT: Setelah mengalahkan Bos Power Spot, kamu dapat menempatkan Pokémon yang ada di tim pertarunganmu ke Power Spot tersebut untuk membantu Pelatih lain dan mendapatkan Permen. Dapat menempatkan hingga 20 Pokémon ke Power Spot yang berbeda.
 
 RESOURCE ID: bread_station_tutorial_message_5
-TEXT: Kamu mungkin akan bertemu dengan Pokémon setelah mengunjungi Power Spot. Makin banyak Pokémon Gigantamax ditempatkan di Power Spot, makin tinggi peluang untuk bertemu dengan Pokémon Dynamax liar.
+TEXT: Kamu mungkin akan bertemu dengan Pokémon setelah mengunjungi Power Spot. Pokémon Dynamax mungkin akan muncul jika ada Pokémon Gigantamax yang ditempatkan di Power Spot!
 
 RESOURCE ID: bread_station_tutorial_title
 TEXT: 
@@ -918,10 +954,10 @@ RESOURCE ID: bread_stationing_error
 TEXT: Terjadi masalah saat menempatkan Pokémon. Mohon coba lagi.
 
 RESOURCE ID: bread_stationing_skip_modal_description
-TEXT: Pokémon placed at a Power Spot will earn Candy. You can recall your Pokémon at any time.
+TEXT: Pokémon yang ditempatkan di Power Spot akan mendapatkan Permen. Kamu dapat memanggil kembali Pokémonmu kapan saja.
 
 RESOURCE ID: bread_stationing_skip_modal_title
-TEXT: Do you want to skip placing a Pokémon at this Power Spot?
+TEXT: Lanjut tanpa menempatkan Pokémon di Power Spot ini?
 
 RESOURCE ID: bread_stationing_success
 TEXT: {0} ditempatkan di {1}.
@@ -933,7 +969,7 @@ RESOURCE ID: bread_stationing_tutorial_description_2
 TEXT: Pokémonmu akan membantu yang lainnya mengalahkan Bos Power Spot.
 
 RESOURCE ID: bread_stationing_tutorial_description_3
-TEXT: Kamu mungkin akan bertemu dengan Pokémon setelah mengunjungi Power Spot. Makin banyak Pokémon Gigantamax ditempatkan di Power Spot, makin tinggi peluang untuk bertemu dengan Pokémon Dynamax liar.
+TEXT: Kamu mungkin akan bertemu dengan Pokémon setelah mengunjungi Power Spot. Pokémon Dynamax mungkin akan muncul jika ada Pokémon Gigantamax yang ditempatkan di Power Spot!
 
 RESOURCE ID: bread_stationing_tutorial_title_1
 TEXT: Mendapatkan Permen
@@ -945,13 +981,13 @@ RESOURCE ID: bread_stationing_tutorial_title_3
 TEXT: Pertemuan di Power Spot
 
 RESOURCE ID: bread_time_window
-TEXT: You can take on Max Battles between {0} and {1}.
+TEXT: Dapat melakukan Pertarungan Max antara {0} dan {1}.
 
 RESOURCE ID: bread_upgrade_attack
 TEXT: Jurus Max ini akan mengakibatkan kerusakan lebih banyak!
 
 RESOURCE ID: bread_upgrade_experience
-TEXT: You earned {0} XP!
+TEXT: Memperoleh {0} XP!
 
 RESOURCE ID: bread_upgrade_guard
 TEXT: Jurus Max ini akan mengurangi kerusakan yang diterima lebih banyak!
@@ -960,13 +996,31 @@ RESOURCE ID: bread_upgrade_heal
 TEXT: Jurus Max akan memulihkan HP lebih banyak!
 
 RESOURCE ID: bread_walk_km_and_collect_mp
-TEXT: Berjalan {0} km untuk mengumpulkan{1}  PM
+TEXT: Berjalan {0} km untuk mengumpulkan {1} PM
+
+RESOURCE ID: buddy_tutorial_basic_content_p0
+TEXT: Tekan {0} dan berikan camilan ke partnermu agar ia bergabung di petualanganmu. Makin sering kamu bertualang bersama partnermu, makin kuat ikatan yang akan terbangun seperti yang terindikasi di meteran hati. Membangun ikatan dengan partner akan memberikan Keuntungan. Partnermu bisa menemukan Suvenir, menunjukkan tempat-tempat menarik, mendapatkan peningkatan CP, dan masih banyak lagi.
+
+RESOURCE ID: buddy_tutorial_feed_fill
+TEXT: Berikan camilan kepada partnermu sampai meteran terisi.
+
+RESOURCE ID: buddy_tutorial_map_p1
+TEXT: Saat partnermu lapar, ia akan berhenti mengikutimu. Lihat kondisi lapar partnermu dengan meteran ini.
+
+RESOURCE ID: buddy_widget_description
+TEXT: Gunakan Sinkronisasi Petualangan untuk melacak meteran hati Pokémon Partner saat Pokémon GO terbuka di latar belakang.
 
 RESOURCE ID: bulk_bread_upgrade_final_confirmation
 TEXT: Ajarkan Jurus Max ini?
 
 RESOURCE ID: candy_label
-TEXT: Candy
+TEXT: Permen
+
+RESOURCE ID: catch_max_pokemon_plural
+TEXT: Tangkap {0} Pokémon Max
+
+RESOURCE ID: catch_max_pokemon_singular
+TEXT: Tangkap Pokémon Max
 
 RESOURCE ID: cdc_bonus_tr_title
 TEXT: Bonus Penelitian Berwaktu Hari Komunitas Klasik
@@ -995,6 +1049,9 @@ TEXT: Cek Diberikan.
 RESOURCE ID: checkbox_notchecked
 TEXT: Cek Dilepas.
 
+RESOURCE ID: collect_max_particles
+TEXT: Kumpulkan {0} Partikel Max
+
 RESOURCE ID: combat_description_season_16
 TEXT: Tanggal dan waktu berikut dicantumkan berdasarkan waktu setempat.
 
@@ -1017,10 +1074,22 @@ RESOURCE ID: community_day_ponyta_and_galarian_ponyta_event_name
 TEXT: Hari Komunitas: Ponyta dan Galarian Ponyta
 
 RESOURCE ID: details_link_key_ponytacd24
-TEXT: For more details, visit the <a href=https://pokemongolive.com/news"">website</a>."
+TEXT: For more details, visit the <a href="https://pokemongolive.com/news">website</a>.
 
 RESOURCE ID: disabledaccessibility
 TEXT: Pembaca Layar Nonaktif.
+
+RESOURCE ID: dmax_ftue_0
+TEXT: Menuju Max! (1/3)
+
+RESOURCE ID: dmax_ftue_1
+TEXT: Menuju Max! (2/3)
+
+RESOURCE ID: dmax_ftue_2
+TEXT: Menuju Max! (3/3)
+
+RESOURCE ID: dmax_ftue_title
+TEXT: Menuju Max!
 
 RESOURCE ID: dropdownitemindex
 TEXT: {0} Item dari {1}.
@@ -1140,7 +1209,7 @@ RESOURCE ID: general1.ticket_poppliocd24_title
 TEXT: Tiket Hari Komunitas Popplio
 
 RESOURCE ID: general_already_submitted_report
-TEXT: You already submitted a report.
+TEXT: Kamu telah mengajukan laporan.
 
 RESOURCE ID: general_done_exclamation_point
 TEXT: Selesai!
@@ -1152,10 +1221,28 @@ RESOURCE ID: general_value_plus
 TEXT: {0}+
 
 RESOURCE ID: general_walked_km
-TEXT: Berjalan {0} km
+TEXT: Dijelajahi {0} km
 
 RESOURCE ID: global_challenges_appearing
 TEXT: Tantangan Global akan muncul selama event ini
+
+RESOURCE ID: go_big_event_name
+TEXT: GO Besar
+
+RESOURCE ID: go_out_event_name
+TEXT: GO Segalanya
+
+RESOURCE ID: gym_tut_desc_2
+TEXT: Kamu dapat menugaskan Pokémon kamu untuk mempertahankan Gym dengan menggunakan tombol "Tugaskan Pokémon" di Gym timmu. Setelah Pokémon ditugaskan, meteran motivasinya akan muncul.
+
+RESOURCE ID: halloween_cup_great_title
+TEXT: Halloween Cup: Great League Edition
+
+RESOURCE ID: halloween_cup_little_title
+TEXT: Halloween Cup: Little Edition
+
+RESOURCE ID: home_transfer_error_gym_deployed_temp
+TEXT: You can’t send Pokemon that are defending Gyms or stationed at Power Spots
 
 RESOURCE ID: instinct_challenge
 TEXT: Tantangan Global Instinct
@@ -1213,6 +1300,12 @@ TEXT: Paket kecil Partikel Max. Tiap paket berisi {0} Partikel Max.
 
 RESOURCE ID: item_mp_replenish_name
 TEXT: Paket Partikel Max
+
+RESOURCE ID: join_max_battle_plural
+TEXT: Gabung ke {0} Pertarungan Max
+
+RESOURCE ID: join_max_battle_singular
+TEXT: Gabung ke Pertarungan Max
 
 RESOURCE ID: keyboard_cancel
 TEXT: Batal
@@ -1277,6 +1370,12 @@ TEXT: Spasi
 RESOURCE ID: keyboard_symbols
 TEXT: Simbol
 
+RESOURCE ID: levelup_max_move_plural
+TEXT: Tingkatkan level Jurus Max {0} kali
+
+RESOURCE ID: levelup_max_move_singular
+TEXT: Tingkatkan level Jurus Max
+
 RESOURCE ID: log_received_station_battle_items
 TEXT: Menerima {0} item dari Pertarungan Max.
 
@@ -1305,13 +1404,13 @@ RESOURCE ID: marketing_pn_opt_in_toggle
 TEXT: Opt me in to push notifications
 
 RESOURCE ID: mega_timer_label
-TEXT: {0} left
+TEXT: Sisa waktu: {0}
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-08-27T00:27:00.405632+00:00 for id-ID
-at SHA a461ee4d4e
-Pipeline 2566939, job 31308881
-Patch from: 0.329.0-SHA-18111616-RC1, 0.327.0-SHA-d09ac408-RC1
+TEXT: Built at 2024-08-28T23:40:27.463757+00:00 for id-ID
+at SHA 4e6b3d918c0
+Pipeline 2573721, job 31428131
+Patch from: 0.329.0-SHA-a76df4b9-RC5, 0.327.0-SHA-31451ff9-RC5
 
 RESOURCE ID: mex_promo_fr_title
 TEXT: Selebrasi Hawlucha
@@ -1558,6 +1657,9 @@ TEXT: 5 pertemuan kejutan dengan Weedle di Foto GO
 RESOURCE ID: poi_contrib_report_reason_school
 TEXT: Sekolah (TK–SMA)
 
+RESOURCE ID: pokecoins_iap_string_key
+TEXT: {0} PokéCoins
+
 RESOURCE ID: pokedex_mode_fullname_bread
 TEXT: Dynamax
 
@@ -1565,7 +1667,7 @@ RESOURCE ID: pokedex_mode_fullname_bread_dough
 TEXT: Gigantamax
 
 RESOURCE ID: pokedex_mode_name_bread_dough
-TEXT: G-Max
+TEXT: G-MAX
 
 RESOURCE ID: pokedex_registered_to_bread_dough_pokedex
 TEXT: Terdaftar di Pokédex Gigantamax
@@ -1685,7 +1787,7 @@ RESOURCE ID: pokemon_desc_0892_2724_3
 TEXT: Urshifu tidak bergerak sama sekali dan diam dalam posisi kuda-kuda berdiri satu kaki, menunggu saat yang tepat untuk meledakkan kekuatan Gigantamax.
 
 RESOURCE ID: pokemon_info_caught_breadbattle
-TEXT: Caught at a Max Battle
+TEXT: Ditangkap di Pertarungan Max
 
 RESOURCE ID: pokemon_info_evolve_pokemon_stationed
 TEXT: {0} telah ditempatkan di Power Spot.
@@ -1813,6 +1915,42 @@ TEXT: Spin a PokéStop or Gym in Jakarta
 RESOURCE ID: quest_metang_evolve_b_singular
 TEXT: Evolusikan Metang
 
+RESOURCE ID: quest_special_dialogue_dmax_ftue_0_0
+TEXT: Halo, %PLAYERNAME%! Apakah kamu menemukan sesuatu yang unik pada perjalananmu belakangan ini?
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_0_1
+TEXT: Sebenarnya, aku mendapatkan laporan terkait tempat kemunculan suatu energi di seluruh dunia. Katanya, itu merupakan energi yang belum pernah dilihat oleh siapa pun sebelumnya.
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_0_2
+TEXT: Aku ingin sekali menyelidiki apa yang sedang terjadi. Kamu mau membantuku, 'kan?
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_0_3
+TEXT: Sip! Oke, pertama-tama cobalah periksa area sekitar dan laporkan temuanmu kepadaku!
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_1_0
+TEXT: Astaga! Itu Wooloo raksasa!
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_1_1
+TEXT: Ini pasti Pokémon Dynamax! Bayangkan seberapa banyak kain yang bisa kita buat dengan bulu tersebut.
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_1_2
+TEXT: Ehem. Oke kita lanjut. Pokémon Dynamax memiliki jurus kuat yang disebut Jurus Max yang bisa diperkuat dengan Partikel Max.
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_1_3
+TEXT: Nah, bagaimana kalau kamu coba mengumpulkan beberapa Partikel Max selagi aku meneliti jurus-jurus ini?
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_2_0
+TEXT: Wah, kamu berhasil memperkuat Jurus Max! Pelatih sepertimu memang tidak pernah mengecewakanku.
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_2_1
+TEXT: Oh iya, kamu sadar tidak kalau Pokémon Dynamax muncul di Power Spot, tempat munculnya energi yang ada di seluruh dunia.
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_2_2
+TEXT: Ini kesempatan besar untuk mengamati aksi Wooloo Dynamax milikmu.
+
+RESOURCE ID: quest_special_dialogue_dmax_ftue_2_3
+TEXT: Kamu bisa menggunakan Jurus Max miliknya melawan Pokémon Dynamax lainnya. Yuk, langsung dicoba saja!
+
 RESOURCE ID: quest_special_dialogue_popplio_0_0
 TEXT: Ah, %PLAYERNAME%! Kita beruntung sekali 'kan? Jarang-jarang lho bisa melihat banyak Popplio berkumpul di satu tempat.
 
@@ -1896,6 +2034,9 @@ TEXT: Putar PokéStop di Collect & Trade Corner
 
 RESOURCE ID: quests_log_complete_bread_mp_walk_quest
 TEXT: Mendapatkan {0} Partikel Max dari menjelajah.
+
+RESOURCE ID: raid_tut_how_to_battle_message
+TEXT: Ketuk layar untuk menyerang Bos Raid! Tekan tombol Jurus Super untuk menggunakan Jurus Super ketika meteran jurus penuh!
 
 RESOURCE ID: safari_2019_buddy_plural
 TEXT: Zona Safari: Dapatkan {0} Permen dengan berjalan bersama partnermu
@@ -2150,19 +2291,19 @@ RESOURCE ID: station_cooldown
 TEXT: Kembali di lain hari untuk mengumpulkan lebih banyak Partikel Max.
 
 RESOURCE ID: station_day_left
-TEXT: 1 day left
+TEXT: Tinggal 1 hari
 
 RESOURCE ID: station_days_left
-TEXT: {0} days left
+TEXT: Tinggal {0} hari
 
 RESOURCE ID: station_location_label
-TEXT: At {0}
+TEXT: Di {0}
 
 RESOURCE ID: station_out_of_range
 TEXT: Power Spot berada di luar jangkauan.
 
 RESOURCE ID: station_upcoming_battle_toast
-TEXT: This Power Spot will open on {0} at {1}.
+TEXT: Power Spot akan dibuka pada {0} di {1}
 
 RESOURCE ID: talkback_pleasesuspend
 TEXT: Harap hentikan penggunaan TalkBack.
@@ -2197,6 +2338,9 @@ TEXT: <b>Termasuk Hadiah:</b>
 
 RESOURCE ID: ticket_beldum_cdc
 TEXT: Tiket untuk cerita Penelitian Spesial Hari Komunitas Klasik Beldum tersedia di toko
+
+RESOURCE ID: tips_raid_tutorial_charged_attack_body
+TEXT: Setelah meteran jurusmu penuh, ketuk tombol untuk melakukan Jurus Super, yang dapat menimbulkan kerusakan besar.
 
 RESOURCE ID: tm_elite_master_box
 TEXT: Kotak MJ Master Elite
@@ -2244,7 +2388,7 @@ RESOURCE ID: trade_exclusion_reason_last_bread
 TEXT: Tidak dapat mentransfer Pokémon Max terakhirmu.
 
 RESOURCE ID: trade_exclusion_reason_station_deployed
-TEXT: This Pokémon is placed at a Power Spot.
+TEXT: Pokémon ini ditempatkan di Power Spot.
 
 RESOURCE ID: triumph_together_event_name
 TEXT: Kemenangan Bersama
@@ -2729,11 +2873,26 @@ TEXT: Pelanggaran lebih lanjut mungkin akan mengakibatkan sanksi yang lebih bera
 RESOURCE ID: unified_punishment_strike_desc_c
 TEXT: Untuk informasi lebih lanjut, harap baca email yang dikirimkan oleh no_reply@nianticlabs.com.
 
+RESOURCE ID: unlock_max_move_plural
+TEXT: Buka {0} Jurus Max
+
+RESOURCE ID: unlock_max_move_singular
+TEXT: Buka Jurus Max
+
 RESOURCE ID: valor_challenge
 TEXT: Tantangan Global Valor
 
 RESOURCE ID: valor_reward
 TEXT: Hadiah Tantangan Global Valor
+
+RESOURCE ID: visit_power_spot_plural
+TEXT: Kunjungi {0} Power Spot
+
+RESOURCE ID: visit_power_spot_singular
+TEXT: Kunjungi Power Spot
+
+RESOURCE ID: vss_charging_now_confirm
+TEXT: Kamu bisa mengisi meteran berjalan sekarang dan langsung masuk ke pertarungan!
 
 RESOURCE ID: wcs_2024_great_league_tr_path_a
 TEXT: Pilih Pancham
@@ -2759,6 +2918,12 @@ TEXT: Penelitian Berwaktu Premium WCS 2024
 RESOURCE ID: wcs_cdc_bonus_tr_desc
 TEXT: Bonus Penelitian Berwaktu Hari Komunitas Klasik – WCS 2024
 
+RESOURCE ID: win_max_battle_plural
+TEXT: Menangkan {0} Pertarungan Max
+
+RESOURCE ID: win_max_battle_singular
+TEXT: Menangkan Pertarungan Max
+
 RESOURCE ID: xl_candy_label
-TEXT: Candy XL
+TEXT: Permen XL
 
