@@ -396,7 +396,7 @@ TEXT: 沒有可以戰鬥的寶可夢了。
 先為同伴聲援吧！
 
 RESOURCE ID: bread_battle_sideline_tutorial_1_inactive
-TEXT: 你沒有可以對戰的寶可夢了……
+TEXT: 沒有可以戰鬥的寶可夢了……
 
 RESOURCE ID: bread_battle_sideline_tutorial_2_active
 TEXT: 沒有可以戰鬥的寶可夢了。
@@ -457,7 +457,7 @@ RESOURCE ID: bread_claim_mp_amount
 TEXT: 收集{0}個極巨粒子
 
 RESOURCE ID: bread_collected_mp
-TEXT: 收集到{0}個極巨粒子了！
+TEXT: 收集到{0}MP了！
 
 RESOURCE ID: bread_flag_disabled
 TEXT: 沒有功能旗標
@@ -574,7 +574,7 @@ RESOURCE ID: bread_move_upgrade_train_title
 TEXT: 提升{0}的等級
 
 RESOURCE ID: bread_mp_amount
-TEXT: {0}極巨粒子
+TEXT: {0}MP
 
 RESOURCE ID: bread_mp_can_only_earn_a_day
 TEXT: 一天最多可獲得{0}極巨粒子
@@ -589,7 +589,7 @@ RESOURCE ID: bread_mp_daily_limit_reached
 TEXT: 今天可收集的極巨粒子已達上限
 
 RESOURCE ID: bread_mp_for_battle_lobby
-TEXT: 使用{0}極巨粒子
+TEXT: 使用{0}MP
 
 RESOURCE ID: bread_mp_storage_full
 TEXT: 能夠持有的極巨粒子已達上限
@@ -598,7 +598,7 @@ RESOURCE ID: bread_nearby_mp_ftue_conversation_0
 TEXT: 你太厲害了！居然收集到這麼多極巨粒子！
 
 RESOURCE ID: bread_nearby_mp_ftue_conversation_1
-TEXT: 說到極巨粒子，那是一種可以用來捕捉極巨化寶可夢的神奇粒子，也能用來升級極巨招式。
+TEXT: 說到極巨粒子，那是一種可以用來捕捉極巨化寶可夢的神奇粒子，也能用來升級極巨招式。另外，極巨粒子有時會被簡稱為「MP」。
 
 RESOURCE ID: bread_nearby_mp_ftue_conversation_2
 TEXT: 噢……在你背後的是、什、什麼？小心！
@@ -774,7 +774,7 @@ RESOURCE ID: bread_upgrade_heal
 TEXT: 可以回復更多HP！
 
 RESOURCE ID: bread_walk_km_and_collect_mp
-TEXT: 走{0}公里來收集{1}極巨粒子吧
+TEXT: 走{0}公里來收集{1}MP吧
 
 RESOURCE ID: bulk_bread_upgrade_final_confirmation
 TEXT: 要學習這個極巨招式嗎？
@@ -896,6 +896,9 @@ TEXT: 已開啟螢幕閱讀器
 RESOURCE ID: event_datetime_range_key_beldumcdc24
 TEXT: 8月18日14:00～17:00
 
+RESOURCE ID: event_datetime_range_key_falinksraidday
+TEXT: 9月8日14:00～22:00
+
 RESOURCE ID: event_datetime_range_key_gblaug24
 TEXT: 8月16日10:00～
 8月20日20:00
@@ -933,16 +936,16 @@ RESOURCE ID: filter_key_dough
 TEXT: 超極巨化
 
 RESOURCE ID: filter_label_dynamax
-TEXT: ?
-
-RESOURCE ID: filter_label_dynamax_temp
 TEXT: 極巨化
 
+RESOURCE ID: filter_label_dynamax_temp
+TEXT: ?
+
 RESOURCE ID: filter_label_gigantamax
-TEXT: ???
+TEXT: 超極巨化
 
 RESOURCE ID: filter_label_gigantamax_temp
-TEXT: 超極巨化
+TEXT: ???
 
 RESOURCE ID: galar_great_cup_title
 TEXT: 伽勒爾盃：超級聯盟版
@@ -957,6 +960,9 @@ TEXT: 不論你身處世界上的何處，都可以用這張入場券在當地�
  
 詳情請至遊戲快訊中確認。 
 <b>請務必在活動結束前完成所有課題，以領取所有獎勵。</b>
+
+RESOURCE ID: general1.ticket._falinksraidday_title
+TEXT: 列陣兵團體戰日入場券
 
 RESOURCE ID: general1.ticket._gblaug24_title
 TEXT: WCS 2024特級限時調查入場券
@@ -1111,6 +1117,9 @@ TEXT: 靈犀全球大挑戰
 RESOURCE ID: instinct_reward
 TEXT: 靈犀全球大挑戰獎勵
 
+RESOURCE ID: item_bag_deployed
+TEXT: This item can’t be used on a Pokémon placed at a Power Spot or defending a Gym.
+
 RESOURCE ID: item_event_ticket_05_desc
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年8月16日10:00～8月20日20:00參與WCS 2024特級限時調查。
 
@@ -1123,11 +1132,29 @@ TEXT: 入場券將會自動啟用，不論你身在何處，都能在8月16日�
 RESOURCE ID: item_event_ticket_05_details_megalucarioraidday
 TEXT: 入場券將會自動啟動。不論你身在何處，都能在當地時間2024年7月27日領取特別的獎勵。
 
+RESOURCE ID: item_event_ticket_gray_desc_falinksraidday
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年9月8日14:00～22:00領取特別的獎勵。
+
+RESOURCE ID: item_event_ticket_gray_desc_monthlyticketnov24
+TEXT: A ticket to access the Daily PokéCoin Bounty Part 3 Timed Research, daily bonus Field Research that awards PokéCoins, and other bonuses from November 3 at 12:00 a.m. to December 2, 2024, at 11:59 p.m. local time.
+
+RESOURCE ID: item_event_ticket_gray_desc_monthlyticketoct24
+TEXT: A ticket to access the Daily PokéCoin Bounty Part 2 Timed Research, daily bonus Field Research that awards PokéCoins, and other bonuses from October 3 at 12:00 a.m. to November 2, 2024, at 11:59 p.m. local time.
+
 RESOURCE ID: item_event_ticket_gray_desc_monthlyticketsept24
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年9月3日00:00～10月2日23:59前參與可獲得寶可幣及其他獎勵的獎勵田野調查。
 
 RESOURCE ID: item_event_ticket_gray_desc_ttfinale24
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年8月23日10:00～8月31日20:00參與隊長的決心特級限時調查。
+
+RESOURCE ID: item_event_ticket_gray_details_falinksraidday
+TEXT: 入場券將會自動啟動。不論你身在何處，都能在當地時間2024年9月8日領取特別的獎勵。
+
+RESOURCE ID: item_event_ticket_gray_details_monthlyticketnov24
+TEXT: This ticket will automatically activate to give you access to Daily PokéCoin Bounty Part 3 on November 3, wherever you are.
+
+RESOURCE ID: item_event_ticket_gray_details_monthlyticketoct24
+TEXT: This ticket will automatically activate to give you access to Daily PokéCoin Bounty Part 2 on October 3, wherever you are.
 
 RESOURCE ID: item_event_ticket_gray_details_monthlyticketsept24
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在2024年9月3日開始參與每日寶可幣獎勵Part1。
@@ -1274,10 +1301,10 @@ RESOURCE ID: mega_timer_label
 TEXT: 剩餘時間：{0}
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-08-30T23:58:56.370544+00:00 for zh-TW
-at SHA 25ac5c7c21a
-Pipeline 2580164, job 31546581
-Patch from: 0.329.0-SHA-18111616-RC1, 0.327.0-SHA-138f32d5-RC4
+TEXT: Built at 2024-09-03T18:36:00.953794+00:00 for zh-TW
+at SHA 52e200fed4
+Pipeline 2583397, job 31600794
+Patch from: 0.327.0-SHA-c07c45ea-RC2, 0.329.0-SHA-02ccdef4-RC4
 
 RESOURCE ID: mex_promo_fr_title
 TEXT: 摔角鷹人慶典
@@ -1319,10 +1346,10 @@ RESOURCE ID: mobile_hinttoggle
 TEXT: 點兩下來切換設定
 
 RESOURCE ID: mode_name_bread
-TEXT: 極巨化
+TEXT: D-Max
 
 RESOURCE ID: mode_name_bread_dough
-TEXT: 超極巨化
+TEXT: G-Max
 
 RESOURCE ID: move_name_0406
 TEXT: Aura Wheel
@@ -1488,14 +1515,14 @@ TEXT: 含有1個裝有{0}極巨粒子的輕便容器。
 
 RESOURCE ID: mp_replenish.1_title
 TEXT: 極巨粒子組合
-({0}極巨粒子)
+({0}MP)
 
 RESOURCE ID: mp_replenish.3_description
 TEXT: 含有3個分別裝有{0}極巨粒子的輕便容器。
 
 RESOURCE ID: mp_replenish.3_title
 TEXT: 極巨粒子組合x3
-({0}極巨粒子)
+({0}MP)
 
 RESOURCE ID: mystic_challenge
 TEXT: 叡智全球大挑戰
@@ -1520,6 +1547,21 @@ TEXT: Party Play Bonus
 
 RESOURCE ID: photobomb_five_beldum
 TEXT: 鐵啞鈴將在GO Snapshot中驚喜現身5次
+
+RESOURCE ID: playability_em_fr_title
+TEXT: 巴西冒險
+
+RESOURCE ID: playability_em_tr_desc
+TEXT: 巴西冒險限時調查
+
+RESOURCE ID: playability_em_tr_title_00
+TEXT: 巴西冒險限時調查(1/3)
+
+RESOURCE ID: playability_em_tr_title_01
+TEXT: 巴西冒險限時調查(2/3)
+
+RESOURCE ID: playability_em_tr_title_02
+TEXT: 巴西冒險限時調查(3/3)
 
 RESOURCE ID: pokecoins_iap_string_key
 TEXT: {0} PokéCoins
@@ -2052,6 +2094,9 @@ TEXT: 讓牠進化，然後觀察看看吧。但觀察時要小心不要被水�
 RESOURCE ID: quest_title_season_16_first_partner_5
 TEXT: 伽勒爾的呼喚(5/19)
 
+RESOURCE ID: quest_title_season_16_first_partner_6
+TEXT: 伽勒爾的呼喚(6/19)
+
 RESOURCE ID: quest_title_season_16_first_partner_branch_dialogue_1
 TEXT: 資訊都齊全囉。%PLAYERNAME%，你想了解哪一隻寶可夢？
 
@@ -2188,6 +2233,12 @@ RESOURCE ID: text_rewards_key_beldumcdc24
 TEXT: <b>可獲得的獎勵：</b>
 ・與鐵啞鈴及其進化形相遇
 ・神奇糖果、高級球等道具
+
+RESOURCE ID: text_rewards_key_falinksraidday
+TEXT: <b>可獲得的獎勵：</b>
+・旋轉道館轉盤時可獲得8張額外團體戰入場券
+・在團體戰獲得神奇糖果XL的機率提高
+・在團體戰中獲勝時可獲得1.5倍XP及2倍星星沙子
 
 RESOURCE ID: text_rewards_key_gblaug24
 TEXT: 這張入場券能幫助你捕捉到在GO對戰聯盟中活躍的寶可夢。

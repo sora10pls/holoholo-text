@@ -869,6 +869,9 @@ TEXT: Exploradores Eevee: Yakarta (1/1)
 RESOURCE ID: event_datetime_range_key_beldumcdc24
 TEXT: 18 de agosto de 14:00 a 17:00
 
+RESOURCE ID: event_datetime_range_key_falinksraidday
+TEXT: 8 de septiembre de 14:00 a 22:00.
+
 RESOURCE ID: event_datetime_range_key_gblaug24
 TEXT: Del 16 de agosto a las 10:00 al
 20 de agosto a las 20:00.
@@ -906,16 +909,16 @@ RESOURCE ID: filter_key_dough
 TEXT: gigamax
 
 RESOURCE ID: filter_label_dynamax
-TEXT: ?
-
-RESOURCE ID: filter_label_dynamax_temp
 TEXT: Dmax.
 
+RESOURCE ID: filter_label_dynamax_temp
+TEXT: ?
+
 RESOURCE ID: filter_label_gigantamax
-TEXT: ???
+TEXT: Gmax.
 
 RESOURCE ID: filter_label_gigantamax_temp
-TEXT: Gmax.
+TEXT: ???
 
 RESOURCE ID: form_furfrou_dandy
 TEXT: Corte Caballero
@@ -976,6 +979,9 @@ TEXT: Copa de Galar: Edición Liga Super Ball
 
 RESOURCE ID: galar_little_cup_title
 TEXT: Copa de Galar: Edición Chica
+
+RESOURCE ID: general1.ticket._falinksraidday_title
+TEXT: Entrada: Día de Incursiones de Falinks
 
 RESOURCE ID: general1.ticket._gblaug24_title
 TEXT: Entrada: Investigación temporal prémium del Mundial 2024
@@ -1040,6 +1046,9 @@ TEXT: Desafío global: Instinto
 RESOURCE ID: instinct_reward
 TEXT: Recompensas del desafío global: Instinto
 
+RESOURCE ID: item_bag_deployed
+TEXT: This item can’t be used on a Pokémon placed at a Power Spot or defending a Gym.
+
 RESOURCE ID: item_event_ticket_05_desc
 TEXT: Una entrada para acceder a la investigación temporal prémium del Mundial 2024 del 16 agosto a las 10:00 al 20 de agosto de 2024 a las 20:00 en tu hora local, estés donde estés.
 
@@ -1052,11 +1061,29 @@ TEXT: Esta entrada se activará automáticamente para darte acceso a la investig
 RESOURCE ID: item_event_ticket_05_details_megalucarioraidday
 TEXT: Esta entrada se activará automáticamente para darte acceso a bonus especiales el 27 de julio, estés donde estés.
 
+RESOURCE ID: item_event_ticket_gray_desc_falinksraidday
+TEXT: Una entrada para acceder a bonus especiales el domingo 8 de septiembre de 2024 de 14:00 a 22:00 en tu hora local, estés donde estés.
+
+RESOURCE ID: item_event_ticket_gray_desc_monthlyticketnov24
+TEXT: A ticket to access the Daily PokéCoin Bounty Part 3 Timed Research, daily bonus Field Research that awards PokéCoins, and other bonuses from November 3 at 12:00 a.m. to December 2, 2024, at 11:59 p.m. local time.
+
+RESOURCE ID: item_event_ticket_gray_desc_monthlyticketoct24
+TEXT: A ticket to access the Daily PokéCoin Bounty Part 2 Timed Research, daily bonus Field Research that awards PokéCoins, and other bonuses from October 3 at 12:00 a.m. to November 2, 2024, at 11:59 p.m. local time.
+
 RESOURCE ID: item_event_ticket_gray_desc_monthlyticketsept24
 TEXT: Una entrada para acceder a la investigación temporal de la recompensa diaria de Pokémonedas (parte 1), a la investigación de campo diaria que entrega Pokémonedas y a otros bonus desde el 3 de septiembre a las 00:00 hasta el 2 de octubre de 2024 a las 23:59 en tu hora local.
 
 RESOURCE ID: item_event_ticket_gray_desc_ttfinale24
 TEXT: Una entrada para acceder a la investigación temporal prémium "Un triunfo en compañía" del 23 agosto a las 10:00 al 31 de agosto de 2024 a las 20:00 en tu hora local, estés donde estés.
+
+RESOURCE ID: item_event_ticket_gray_details_falinksraidday
+TEXT: Esta entrada se activará automáticamente para darte acceso a bonus especiales el 8 de septiembre, estés donde estés.
+
+RESOURCE ID: item_event_ticket_gray_details_monthlyticketnov24
+TEXT: This ticket will automatically activate to give you access to Daily PokéCoin Bounty Part 3 on November 3, wherever you are.
+
+RESOURCE ID: item_event_ticket_gray_details_monthlyticketoct24
+TEXT: This ticket will automatically activate to give you access to Daily PokéCoin Bounty Part 2 on October 3, wherever you are.
 
 RESOURCE ID: item_event_ticket_gray_details_monthlyticketsept24
 TEXT: Esta entrada se activará automáticamente para darte acceso a la recompensa diaria de Pokémonedas (parte 1) el 3 de septiembre, estés donde estés.
@@ -1140,10 +1167,10 @@ RESOURCE ID: mega_timer_label
 TEXT: Tiempo restante: {0}
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-08-30T23:58:56.370544+00:00 for es-ES
-at SHA 25ac5c7c21a
-Pipeline 2580164, job 31546581
-Patch from: 0.329.0-SHA-18111616-RC1, 0.327.0-SHA-138f32d5-RC4
+TEXT: Built at 2024-09-03T18:36:00.953794+00:00 for es-ES
+at SHA 52e200fed4
+Pipeline 2583397, job 31600794
+Patch from: 0.327.0-SHA-c07c45ea-RC2, 0.329.0-SHA-02ccdef4-RC4
 
 RESOURCE ID: mex_promo_fr_title
 TEXT: Celebrando con Hawlucha
@@ -1359,6 +1386,21 @@ TEXT: Bonus de Juego en equipo
 
 RESOURCE ID: photobomb_five_beldum
 TEXT: 5 encuentros sorpresa con Beldum al usar Instantánea de GO
+
+RESOURCE ID: playability_em_fr_title
+TEXT: Aventuras en Brasil
+
+RESOURCE ID: playability_em_tr_desc
+TEXT: Investigación temporal de Aventuras en Brasil
+
+RESOURCE ID: playability_em_tr_title_00
+TEXT: Investigación temporal de Aventuras en Brasil (1/3)
+
+RESOURCE ID: playability_em_tr_title_01
+TEXT: Investigación temporal de Aventuras en Brasil (2/3)
+
+RESOURCE ID: playability_em_tr_title_02
+TEXT: Investigación temporal de Aventuras en Brasil (3/3)
 
 RESOURCE ID: pokecoins_iap_string_key
 TEXT: {0} PokéCoins
@@ -1885,6 +1927,9 @@ TEXT: Será una oportunidad increíble para que la ciencia pueda ver esas habili
 RESOURCE ID: quest_title_season_16_first_partner_5
 TEXT: La llamada de Galar (5/19)
 
+RESOURCE ID: quest_title_season_16_first_partner_6
+TEXT: La llamada de Galar (6/19)
+
 RESOURCE ID: quest_title_season_16_first_partner_branch_dialogue_1
 TEXT: Buenas noticias, tengo algo de información que compartir contigo. ¿Sobre qué Pokémon te gustaría aprender más, %PLAYERNAME%?
 
@@ -2015,6 +2060,12 @@ RESOURCE ID: text_rewards_key_beldumcdc24
 TEXT: <b>Recompensas incluidas:</b>
 • Artículos prémium dentro del juego, como Caramelos Raros y Ultra Balls, entre otros
 • Encuentros adicionales con Beldum y sus evoluciones
+
+RESOURCE ID: text_rewards_key_falinksraidday
+TEXT: <b>Bonus incluidos:</b>
+• Ocho Pases de incursión adicionales al dar vueltas a fotodiscos en Gimnasios
+• Mayor probabilidad de recibir Caramelos Raros ++ en incursiones
+• 50 % más PX y el doble de Polvos Estelares al ganar incursiones
 
 RESOURCE ID: text_rewards_key_gblaug24
 TEXT: ¡Esta entrada tiene como objetivo ayudarte a convertirte en la persona que mejor combate dándote la oportunidad de capturar Pokémon populares en la Liga Combates GO!
