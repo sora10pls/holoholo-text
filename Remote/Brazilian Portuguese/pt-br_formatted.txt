@@ -2,7 +2,7 @@ RESOURCE ID: accessibility_settings_title
 TEXT: Acessibilidade
 
 RESOURCE ID: allow_notifications_prompt_message_temp
-TEXT: To stay up to date on new events and features, allow Pokémon GO to access notifications.
+TEXT: Para saber tudo sobre os novos eventos e recursos, permita que o Pokémon GO acesse as notificações.
 
 RESOURCE ID: avatar_f_gloves_dynamaxswsh_00_bundle_icon
 TEXT: Bracelete Dinamax
@@ -887,6 +887,14 @@ TEXT: Desativado.
 RESOURCE ID: enabledaccessibility
 TEXT: Leitor de Tela ativado.
 
+RESOURCE ID: event_datetime_range_key_anniversary24
+TEXT: De 28 de junho, às 10h –
+até 3 de julho, às 20h
+
+RESOURCE ID: event_datetime_range_key_aquaticparadise24
+TEXT: De 6 de julho, às 10h –
+até 9 de julho, às 20h
+
 RESOURCE ID: event_datetime_range_key_beldumcdc24
 TEXT: 18 de agosto, das 14h às 17h
 
@@ -895,7 +903,15 @@ TEXT: 8 de setembro de 2024, das 14h às 22h
 
 RESOURCE ID: event_datetime_range_key_gblaug24
 TEXT: De 16 de agosto, às 10h –
-Até 20 de agosto, às 20h
+até 20 de agosto, às 20h
+
+RESOURCE ID: event_datetime_range_key_gofestraid24
+TEXT: De 8 de julho, às 10h –
+até 14 de julho, às 18h
+
+RESOURCE ID: event_datetime_range_key_growtogether24
+TEXT: De 17 de julho, às 10h
+até 3 de setembro, às 10h
 
 RESOURCE ID: event_datetime_range_key_monthlyticketsept24
 TEXT: De 3 de setembro, à 0h
@@ -907,9 +923,29 @@ TEXT: 14 de setembro de 2024, das 14h às 17h
 RESOURCE ID: event_datetime_range_key_poppliocd24_title
 TEXT: 31 de agosto, das 14h às 17h
 
+RESOURCE ID: event_datetime_range_key_shinycelebi24
+TEXT: De 28 de junho, às 10h –
+até 3 de julho, às 20h
+
+RESOURCE ID: event_datetime_range_key_slumberingsands24
+TEXT: De 7 de junho, às 10h –
+até 12 de junho, às 20h
+
+RESOURCE ID: event_datetime_range_key_spelunkercove24
+TEXT: De 15 de junho, às 10h –
+até 18 de junho, às 20h
+
+RESOURCE ID: event_datetime_range_key_stadiumsights24
+TEXT: De 1º de junho, às 10h –
+até 4 de junho, às 20h
+
 RESOURCE ID: event_datetime_range_key_ttfinale24
 TEXT: De 23 de agosto, às 10h, até
  31 de agosto de 2024, às 20h do seu horário local
+
+RESOURCE ID: event_datetime_range_key_ultraspace24
+TEXT: De 23 de maio, às 10h –
+até 28 de maio, às 20h
 
 RESOURCE ID: event_season16_name
 TEXT: Temporada atual: Força Max
@@ -1015,9 +1051,6 @@ TEXT: Desafio Global: Instinto
 
 RESOURCE ID: instinct_reward
 TEXT: Recompensas do Desafio Global: Instinto
-
-RESOURCE ID: item_bag_deployed
-TEXT: This item can’t be used on a Pokémon placed at a Power Spot or defending a Gym.
 
 RESOURCE ID: item_event_ticket_05_desc
 TEXT: Um ingresso para acessar a Pesquisa Temporária Premium do Mundial 2024, de 16 de agosto, às 10h, até 20 de agosto de 2024, às 20h do seu horário local, de onde você estiver.
@@ -1182,31 +1215,31 @@ RESOURCE ID: log_received_station_mp
 TEXT: Partículas Max encontradas em um Ponto de Energia: {0}.
 
 RESOURCE ID: marketing_email_opt_in_desc
-TEXT: Sign up for emails to stay up to date on new events and features!
+TEXT: Inscreva-se para receber os e-mails para saber tudo sobre os novos eventos e recursos!
 
 RESOURCE ID: marketing_email_opt_in_toggle
-TEXT: Opt me in to emails
+TEXT: Quero receber e-mails
 
 RESOURCE ID: marketing_pn_email_opt_in_desc
-TEXT: Sign up for push notifications and emails to stay up to date on new events and features!
+TEXT: Ative as notificações por push e e-mails para saber tudo sobre os novos eventos e recursos!
 
 RESOURCE ID: marketing_pn_email_opt_in_title
-TEXT: Stay Up to Date
+TEXT: Acompanhe as novidades
 
 RESOURCE ID: marketing_pn_opt_in_desc
-TEXT: Sign up for push notifications to stay up to date on new events and features!
+TEXT: Ative as notificações por push para saber tudo sobre os novos eventos e recursos!
 
 RESOURCE ID: marketing_pn_opt_in_toggle
-TEXT: Opt me in to push notifications
+TEXT: Quero receber notificações
 
 RESOURCE ID: mega_timer_label
 TEXT: {0} restante
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-09-03T18:36:00.953794+00:00 for pt-BR
-at SHA 52e200fed4
-Pipeline 2583397, job 31600794
-Patch from: 0.327.0-SHA-c07c45ea-RC2, 0.329.0-SHA-02ccdef4-RC4
+TEXT: Built at 2024-09-05T22:09:37.898551+00:00 for pt-BR
+at SHA 7608440749
+Pipeline 2591401, job 31709057
+Patch from: 0.327.0-SHA-138f32d5-RC4, 0.329.0-SHA-18111616-RC1, 0.331.0-SHA-aa66102c-RC1
 
 RESOURCE ID: mex_promo_fr_title
 TEXT: Celebração de Hawlucha
@@ -1457,7 +1490,7 @@ RESOURCE ID: playability_em_tr_title_02
 TEXT: Pesquisa Temporária Aventuras no Brasil (3/3)
 
 RESOURCE ID: pokecoins_iap_string_key
-TEXT: {0} PokéCoins
+TEXT: {0} Pokémoedas
 
 RESOURCE ID: pokedex_mode_fullname_bread
 TEXT: Dinamax
@@ -2655,25 +2688,25 @@ RESOURCE ID: unified_punishment_strike1_desc
 TEXT: Detectamos atividade na sua conta que violam nossas <a href="player_guidelines_link_dsa">Diretrizes para Jogadores</a>. Você verá este aviso por {0} dias.
 
 RESOURCE ID: unified_punishment_strike1_desc_singular
-TEXT: We have detected activity on your account in violation of our <a href="player_guidelines_link_dsa">Player Guidelines</a>. You will see this warning notice for 1 day.
+TEXT: Detectamos atividade na sua conta que violam nossas <a href="player_guidelines_link_dsa">Diretrizes para Jogadores</a>. Você verá este alerta por 1 dia.
 
 RESOURCE ID: unified_punishment_strike1_title
-TEXT: Account Warning Notice
+TEXT: Notificação de alerta de conta
 
 RESOURCE ID: unified_punishment_strike2_desc
 TEXT: A sua conta foi suspensa por violar as <a href="player_guidelines_link_dsa">Diretrizes para Jogadores</a>. Esta suspensão durará aproximadamente {0} dias.
 
 RESOURCE ID: unified_punishment_strike2_desc_singular
-TEXT: Your account has been suspended for violating the <a href="player_guidelines_link_dsa">Player Guidelines</a>. This suspension will last approximately 1 day.
+TEXT: A sua conta foi suspensa por violar as <a href="player_guidelines_link_dsa">Diretrizes para Jogadores</a>. Esta suspensão durará aproximadamente 1 dia.
 
 RESOURCE ID: unified_punishment_strike2_title
-TEXT: Account Suspension Notice
+TEXT: Notificação de suspensão de conta
 
 RESOURCE ID: unified_punishment_strike3_desc
 TEXT: A sua conta foi permanentemente suspensa por violar as <a href="player_guidelines_link_dsa">Diretrizes para Jogadores</a>.
 
 RESOURCE ID: unified_punishment_strike3_title
-TEXT: Account Ban Notice
+TEXT: Notificação de banimento de conta
 
 RESOURCE ID: unified_punishment_strike_desc_b
 TEXT: Qualquer outra transgressão resultará na aplicação de ações mais severas para a conta.
