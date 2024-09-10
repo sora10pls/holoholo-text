@@ -305,7 +305,7 @@ RESOURCE ID: bread_battle_message_use_max_move
 TEXT: Use um Movimento Max!
 
 RESOURCE ID: bread_battle_pokemon_remaining
-TEXT: POKÉMON REMAINING
+TEXT: POKÉMON RESTANTES
 
 RESOURCE ID: bread_battle_received_global_cheering_boost
 TEXT: TEAMS ARE CHEERING YOU ON!
@@ -406,7 +406,7 @@ RESOURCE ID: bread_gain_mp_from_pack
 TEXT: Obtenha {0} Partículas Max
 
 RESOURCE ID: bread_iap_max_mp_replenish_warning
-TEXT: You have reached the max number of Max Particle Packs ({0}). Please use your Max Particle Packs and try again.
+TEXT: Você atingiu o número máximo de ({0}) Pacotes de Partícula Max. Use os seus Pacotes de Partícula Max e tente novamente.
 
 RESOURCE ID: bread_iap_mp_replenish_station_desc
 TEXT: Você precisa de mais Partículas Max para participar desta batalha.
@@ -707,6 +707,15 @@ TEXT: Caminhe {0} km para coletar {1} PM
 RESOURCE ID: bulk_bread_upgrade_final_confirmation
 TEXT: Quer melhorar este Movimento Max?
 
+RESOURCE ID: bundle.citysafari.box.1_title
+TEXT: Combo de Safári Urbano
+
+RESOURCE ID: bundle.regional.box.1_title
+TEXT: Combo Regional
+
+RESOURCE ID: bundle.wicker.box.1_title
+TEXT: Combo de Vime
+
 RESOURCE ID: candy_label
 TEXT: Doce
 
@@ -787,6 +796,10 @@ RESOURCE ID: event_datetime_range_key_growtogether24
 TEXT: De 17 de julho, às 10h
 até 3 de setembro, às 10h
 
+RESOURCE ID: event_datetime_range_key_monthlyticketoct24
+TEXT: October 3, at 12:00 a.m. –
+November 2, at 11:59 p.m.
+
 RESOURCE ID: event_datetime_range_key_monthlyticketsept24
 TEXT: De 3 de setembro, à 0h
 até 2 de outubro, às 23h59
@@ -824,11 +837,26 @@ até 28 de maio, às 20h
 RESOURCE ID: event_season16_name
 TEXT: Temporada atual: Força Max
 
+RESOURCE ID: expires_in_clock
+TEXT: Expires in {0}
+
+RESOURCE ID: expires_in_day_plural
+TEXT: Expires in {0} days
+
+RESOURCE ID: expires_in_day_singular
+TEXT: Expires in 1 day
+
+RESOURCE ID: expires_in_hour_plural
+TEXT: Expires in {0} hours
+
+RESOURCE ID: expires_in_hour_singular
+TEXT: Expires in 1 hour
+
 RESOURCE ID: filter_key_bread
 TEXT: dinamax
 
 RESOURCE ID: filter_key_bread_move_a
-TEXT: ataquemax
+TEXT: movimentomax
 
 RESOURCE ID: filter_key_bread_move_b
 TEXT: guardamax
@@ -859,6 +887,9 @@ TEXT: Copa de Galar: Ediçãozinha
 
 RESOURCE ID: general1.ticket._falinksraidday_title
 TEXT: Ingresso para o Dia de Reides de Falinks
+
+RESOURCE ID: general1.ticket._monthlyticketoct24_title
+TEXT: Daily PokéCoin Bounty Ticket Part 2
 
 RESOURCE ID: general1.ticket._monthlyticketsept24_title
 TEXT: Ingresso para Fartura Diária de Pokémoeda Parte 1
@@ -906,7 +937,7 @@ RESOURCE ID: halloween_cup_little_title
 TEXT: Copa de Dia das Bruxas: Ediçãozinha
 
 RESOURCE ID: home_transfer_error_gym_deployed_temp
-TEXT: You can’t send Pokémon that are defending Gyms or placed at Power Spots.
+TEXT: Você não pode enviar Pokémon que estão defendendo Ginásios ou que foram colocados em Pontos de Energia.
 
 RESOURCE ID: instinct_challenge
 TEXT: Desafio Global: Instinto
@@ -1011,9 +1042,9 @@ RESOURCE ID: mega_timer_label
 TEXT: {0} restante
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-09-06T23:21:33.694695+00:00 for pt-BR
-at SHA ae830cd217
-Pipeline 2594838, job 31752984
+TEXT: Built at 2024-09-09T23:55:05.384136+00:00 for pt-BR
+at SHA 5f033de205
+Pipeline 2599143, job 31801365
 Patch from: 0.331.0-SHA-aa66102c-RC1, 0.329.2-SHA-c68b661e-RC2
 
 RESOURCE ID: mex_promo_fr_title
@@ -1725,6 +1756,17 @@ TEXT: <b>Os bônus incluem:</b>
 
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: The GO Wild Area 2024 Global Ticket, which has been provided to you early and free of cost.
+
+RESOURCE ID: text_rewards_key_monthlyticketoct24
+TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from October 3, 2024, at 12:00 a.m. to November 2, 2024, at 11:59 p.m., wherever you are.
+
+If you purchase this ticket, every day from October 3 to November 2, you may receive a bonus Field Research the first time you log in each day.
+You will additionally receive the following bonuses: 
+- 3× XP awarded for your first catch of the day as well as your first Poké Stop or Gym spin of the day 
+ - the ability to open up to 50 Gifts a day as well as receive up to 150 Gifts per day from spinning Poké Stops and Gym Discs. 
+You will also be able to hold up to 40 Gifts in your Item Bag at once. 
+
+Please note: You must have three or fewer Field Research tasks active to be granted this bonus Field Research the first time you log on a given day! Also, you must claim the 20 PokéCoins reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
 
 RESOURCE ID: text_rewards_key_monthlyticketsept24
 TEXT: Este ingresso garante bônus, Pesquisa Temporária que concede 200 Pokémoedas de bônus e tarefas de Pesquisa de Campo com bônus diário de 3 de setembro de 2024 até 2 de outubro de 2024.

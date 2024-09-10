@@ -302,7 +302,7 @@ RESOURCE ID: bread_battle_message_use_max_move
 TEXT: Bir Maksi Hareket kullanın!
 
 RESOURCE ID: bread_battle_pokemon_remaining
-TEXT: POKÉMON REMAINING
+TEXT: KALAN POKÉMON’LAR
 
 RESOURCE ID: bread_battle_received_global_cheering_boost
 TEXT: TEAMS ARE CHEERING YOU ON!
@@ -403,7 +403,7 @@ RESOURCE ID: bread_gain_mp_from_pack
 TEXT: {0} Maksi Parçacık alın
 
 RESOURCE ID: bread_iap_max_mp_replenish_warning
-TEXT: You have reached the max number of Max Particle Packs ({0}). Please use your Max Particle Packs and try again.
+TEXT: Maksimum Maksi Parçacık Paketi sayısına ({0}) ulaştınız. Lütfen Maksi Parçacık Paketlerinizi kullandıktan sonra tekrar deneyin.
 
 RESOURCE ID: bread_iap_mp_replenish_station_desc
 TEXT: Bu maça katılmak için daha fazla Maksi Parçacığa ihtiyacınız var.
@@ -704,6 +704,15 @@ TEXT: {1} MP toplamak için {0} km katedin
 RESOURCE ID: bulk_bread_upgrade_final_confirmation
 TEXT: Bu Maksi Hareketin eğitimini vermek istiyor musunuz?
 
+RESOURCE ID: bundle.citysafari.box.1_title
+TEXT: Şehir Safarisi Kutusu
+
+RESOURCE ID: bundle.regional.box.1_title
+TEXT: Bölgesel Kutu
+
+RESOURCE ID: bundle.wicker.box.1_title
+TEXT: Hasır Kutu
+
 RESOURCE ID: candy_label
 TEXT: Şeker
 
@@ -764,6 +773,10 @@ TEXT: Eevee Kâşifleri – Cakarta (1/1)
 RESOURCE ID: event_datetime_range_key_falinksraidday
 TEXT: 8 Eylül, 14.00-22.00
 
+RESOURCE ID: event_datetime_range_key_monthlyticketoct24
+TEXT: October 3, at 12:00 a.m. –
+November 2, at 11:59 p.m.
+
 RESOURCE ID: event_datetime_range_key_monthlyticketsept24
 TEXT: 3 Eylül, 00:00 –
 2 Ekim, 23:59
@@ -780,6 +793,21 @@ TEXT: 23 Ağustos 2024, yerel saatle 10.00 –
 
 RESOURCE ID: event_season16_name
 TEXT: Şu Anki Sezon: Maksimum Güç
+
+RESOURCE ID: expires_in_clock
+TEXT: Expires in {0}
+
+RESOURCE ID: expires_in_day_plural
+TEXT: Expires in {0} days
+
+RESOURCE ID: expires_in_day_singular
+TEXT: Expires in 1 day
+
+RESOURCE ID: expires_in_hour_plural
+TEXT: Expires in {0} hours
+
+RESOURCE ID: expires_in_hour_singular
+TEXT: Expires in 1 hour
 
 RESOURCE ID: filter_key_bread
 TEXT: dinamaks
@@ -816,6 +844,9 @@ TEXT: Galar Kupası: Küçükler
 
 RESOURCE ID: general1.ticket._falinksraidday_title
 TEXT: Falinks Akın Günü Bileti
+
+RESOURCE ID: general1.ticket._monthlyticketoct24_title
+TEXT: Daily PokéCoin Bounty Ticket Part 2
 
 RESOURCE ID: general1.ticket._monthlyticketsept24_title
 TEXT: Günlük PokéPara Armağanı 1. Kısım Bileti
@@ -863,7 +894,7 @@ RESOURCE ID: halloween_cup_little_title
 TEXT: Cadılar Bayramı Kupası: Küçükler
 
 RESOURCE ID: home_transfer_error_gym_deployed_temp
-TEXT: You can’t send Pokémon that are defending Gyms or placed at Power Spots.
+TEXT: Spor salonlarını savunan veya Güç Noktalarına yerleştirilmiş olan Pokémon’ları gönderemezsiniz.
 
 RESOURCE ID: instinct_challenge
 TEXT: İçgüdü Küresel Görevi
@@ -875,10 +906,10 @@ RESOURCE ID: item_event_ticket_gray_desc_falinksraidday
 TEXT: 8 Eylül 2024 Pazar, yerel saatle 14.00-22.00 arasında geçerli olacak özel bonuslara dilediğiniz yerden hak kazanmanıza olanak tanıyan bir bilet.
 
 RESOURCE ID: item_event_ticket_gray_desc_monthlyticketnov24
-TEXT: A ticket to access the Daily PokéCoin Bounty Part 3 Timed Research, daily bonus Field Research that awards PokéCoins, and other bonuses from November 3 at 12:00 a.m. to December 2, 2024, at 11:59 p.m. local time.
+TEXT: 3 Kasım 2024, yerel saatle 00.00 - 2 Aralık 2024, yerel saatle 23.59 arasında gerçekleşecek olan Günlük PokéPara Armağanı 3. Kısım süreli araştırmasına, PokéPara veren günlük bonus alan araştırmasına ve diğer bonuslara hak kazandıran bir bilet.
 
 RESOURCE ID: item_event_ticket_gray_desc_monthlyticketoct24
-TEXT: A ticket to access the Daily PokéCoin Bounty Part 2 Timed Research, daily bonus Field Research that awards PokéCoins, and other bonuses from October 3 at 12:00 a.m. to November 2, 2024, at 11:59 p.m. local time.
+TEXT: 3 Ekim 2024, yerel saatle 00.00 - 2 Kasım 2024, yerel saatle 23.59 arasında gerçekleşecek olan Günlük PokéPara Armağanı 2. Kısım süreli araştırmasına, PokéPara veren günlük bonus alan araştırmasına ve diğer bonuslara hak kazandıran bir bilet.
 
 RESOURCE ID: item_event_ticket_gray_desc_monthlyticketsept24
 TEXT: 3 Eylül 2024, yerel saatle 00.00 - 2 Ekim 2024, yerel saatle 23.59 arasında gerçekleşecek olan Günlük PokéPara Armağanı 1. Kısım süreli araştırmasının yanı sıra PokéPara ve diğer bonus ödülleri veren günlük bonus alan araştırmasına katılmanıza olanak tanıyan bir bilet.
@@ -890,10 +921,10 @@ RESOURCE ID: item_event_ticket_gray_details_falinksraidday
 TEXT: Bu bilet 8 Eylül’de geçerli olacak özel bonuslara dilediğiniz yerden hak kazanabilmeniz için otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_gray_details_monthlyticketnov24
-TEXT: This ticket will automatically activate to give you access to Daily PokéCoin Bounty Part 3 on November 3, wherever you are.
+TEXT: Bu bilet Günlük PokéPara Armağanı 3. Kısım’a dilediğiniz yerden erişebilmeniz için 3 Kasım’da otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_gray_details_monthlyticketoct24
-TEXT: This ticket will automatically activate to give you access to Daily PokéCoin Bounty Part 2 on October 3, wherever you are.
+TEXT: Bu bilet Günlük PokéPara Armağanı 2. Kısım’a dilediğiniz yerden erişebilmeniz için 3 Ekim’de otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_gray_details_monthlyticketsept24
 TEXT: Bu bilet Günlük PokéPara Armağanı 1. Kısım’a dilediğiniz yerden erişebilmeniz için 3 Eylül’de otomatik olarak etkinleştirilecek.
@@ -929,7 +960,7 @@ RESOURCE ID: join_max_battle_singular
 TEXT: Bir Maksi Maça katılın
 
 RESOURCE ID: levelup_max_move_plural
-TEXT: {0} Maksi Hareketin seviyesini yükseltin
+TEXT: Bir Maksi Hareketin seviyesini {0} kez yükseltin
 
 RESOURCE ID: levelup_max_move_singular
 TEXT: Bir Maksi Hareketin seviyesini yükseltin
@@ -968,9 +999,9 @@ RESOURCE ID: mega_timer_label
 TEXT: {0} kaldı
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-09-06T23:21:33.694695+00:00 for tr-TR
-at SHA ae830cd217
-Pipeline 2594838, job 31752984
+TEXT: Built at 2024-09-09T23:55:05.384136+00:00 for tr-TR
+at SHA 5f033de205
+Pipeline 2599143, job 31801365
 Patch from: 0.331.0-SHA-aa66102c-RC1, 0.329.2-SHA-c68b661e-RC2
 
 RESOURCE ID: mex_promo_fr_title
@@ -1345,7 +1376,7 @@ RESOURCE ID: pokemon_info_evolve_pokemon_stationed
 TEXT: {0} bir Güç Noktasına yerleştirildi.
 
 RESOURCE ID: pokemon_location_card_info_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer this Pokémon with a rare background?
+TEXT: Nadir arka planlı bu Pokémon gerçekten gönderilsin mi?
 
 RESOURCE ID: pokemon_name_0003_0169_2
 TEXT: Gigantamaks Venusaur
@@ -1848,6 +1879,17 @@ TEXT: <b>Şu bonusları içerir:</b>
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: The GO Wild Area 2024 Global Ticket, which has been provided to you early and free of cost.
 
+RESOURCE ID: text_rewards_key_monthlyticketoct24
+TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from October 3, 2024, at 12:00 a.m. to November 2, 2024, at 11:59 p.m., wherever you are.
+
+If you purchase this ticket, every day from October 3 to November 2, you may receive a bonus Field Research the first time you log in each day.
+You will additionally receive the following bonuses: 
+- 3× XP awarded for your first catch of the day as well as your first Poké Stop or Gym spin of the day 
+ - the ability to open up to 50 Gifts a day as well as receive up to 150 Gifts per day from spinning Poké Stops and Gym Discs. 
+You will also be able to hold up to 40 Gifts in your Item Bag at once. 
+
+Please note: You must have three or fewer Field Research tasks active to be granted this bonus Field Research the first time you log on a given day! Also, you must claim the 20 PokéCoins reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
+
 RESOURCE ID: text_rewards_key_monthlyticketsept24
 TEXT: Bu bilet 3 Eylül 2024 - 2 Ekim 2024 arasında bonusların yanı sıra 200 bonus PokéPara kazandıran bir süreli araştırma ve bonus PokéPara kazandıran günlük alan araştırması görevleri içerir.
 
@@ -1961,10 +2003,10 @@ RESOURCE ID: valor_reward
 TEXT: Cesaret Küresel Görevi Ödülleri
 
 RESOURCE ID: visit_power_spot_plural
-TEXT: {0} Güç Noktasını ziyaret edin
+TEXT: {0} Güç Noktasından MP toplayın
 
 RESOURCE ID: visit_power_spot_singular
-TEXT: Bir Güç Noktasını ziyaret edin
+TEXT: Bir Güç Noktasından MP toplayın
 
 RESOURCE ID: win_max_battle_plural
 TEXT: {0} Maksi Maç kazanın
