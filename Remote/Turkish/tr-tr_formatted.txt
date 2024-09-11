@@ -181,11 +181,20 @@ TEXT: {0} Dinamaks
 RESOURCE ID: bonus_bat_routes
 TEXT: Rota keşfederken Zubat, Woobat ve Noibat ortaya çıkabilir
 
+RESOURCE ID: bonus_cd_move_galarian_ponyta
+TEXT: Galarlı Ponyta’yı evrimleştirerek Yabani Şarj güçlü saldırısını bilen Galarlı Rapidash elde edin!
+
+RESOURCE ID: bonus_cd_move_ponyta
+TEXT: Ponyta’yı evrimleştirerek Yabani Şarj güçlü saldırısını bilen Rapidash elde edin!
+
 RESOURCE ID: bonus_event_safari_pikachu_snapshot_incheon
 TEXT: GO Fotoğrafta safari şapkalı Pikachu ile 5 adede kadar sürpriz karşılaşma
 
 RESOURCE ID: bonus_exclusive_souvenir_plural
 TEXT: Dostunuzdan etkinliğe özel hediyelik eşya alabilirsiniz!
+
+RESOURCE ID: bonus_implicit_social_ponyta_raid
+TEXT: Eğitmenler bir spor salonunda birlikte Ponyta veya Galarlı Ponyta akın maçı kazanırsa 30 dakika boyunca o bölgede çok sayıda Ponyta ve Galarlı Ponyta ortaya çıkacak
 
 RESOURCE ID: bonus_incheon_lc_field_research
 TEXT: Alan araştırmalarında karşılaşılan Skiddo veya safari şapkalı Pikachu’lar Incheon konum arka planına sahip olabilir
@@ -704,6 +713,9 @@ TEXT: {1} MP toplamak için {0} km katedin
 RESOURCE ID: bulk_bread_upgrade_final_confirmation
 TEXT: Bu Maksi Hareketin eğitimini vermek istiyor musunuz?
 
+RESOURCE ID: bulk_upgrade_final_confirmation
+TEXT: {0} gerçekten güçlendirilsin mi?
+
 RESOURCE ID: bundle.citysafari.box.1_title
 TEXT: Şehir Safarisi Kutusu
 
@@ -747,6 +759,9 @@ RESOURCE ID: combat_title_season_16
 TEXT: GO Maç Ligi: Maksimum Güç
 
 RESOURCE ID: community_day_ponyta_and_galarian_ponyta_event_name
+TEXT: Topluluk Günü: Ponyta ve Galarlı Ponyta
+
+RESOURCE ID: community_day_ponyta_event_name
 TEXT: Topluluk Günü: Ponyta ve Galarlı Ponyta
 
 RESOURCE ID: details_link_key_ponytacd24
@@ -999,10 +1014,10 @@ RESOURCE ID: mega_timer_label
 TEXT: {0} kaldı
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-09-09T23:55:05.384136+00:00 for tr-TR
-at SHA 5f033de205
-Pipeline 2599143, job 31801365
-Patch from: 0.331.0-SHA-aa66102c-RC1, 0.329.2-SHA-c68b661e-RC2
+TEXT: Built at 2024-09-11T00:45:31.755536+00:00 for tr-TR
+at SHA f418938fb6
+Pipeline 2603084, job 31845701
+Patch from: 0.329.2-SHA-d02647a2-RC1, 0.331.0-SHA-aa66102c-RC1
 
 RESOURCE ID: mex_promo_fr_title
 TEXT: Hawlucha Şenliği
@@ -1219,6 +1234,9 @@ TEXT: Ekip Oyunu Bonusu
 RESOURCE ID: photo_hub_hashtags
 TEXT: #GOsnapshot #GOsnapshotCelebration etiketlerini kullanın
 
+RESOURCE ID: photobomb_five_ponyta
+TEXT: GO Fotoğrafta Ponyta ile 5 sürpriz karşılaşma
+
 RESOURCE ID: playability_em_fr_title
 TEXT: Brezilya Macerası
 
@@ -1253,16 +1271,22 @@ RESOURCE ID: pokedex_registered_to_bread_dough_pokedex
 TEXT: Gigantamaks Pokédex’ine kaydedildi
 
 RESOURCE ID: pokemon_bread_dough_info_transfer_to_professor_confirmation
-TEXT: Bu Gigantamaks Pokémon’u gerçekten göndermek istiyor musunuz?
+TEXT: Bu Gigantamaks Pokémon gerçekten gönderilsin mi?
 
 RESOURCE ID: pokemon_bread_dough_info_transfer_to_professor_error
 TEXT: Son Gigantamaks Pokémon’unuzu gönderemezsiniz.
 
 RESOURCE ID: pokemon_bread_info_transfer_to_professor_confirmation
-TEXT: Bu Dinamaks Pokémon’u gerçekten göndermek istiyor musunuz?
+TEXT: Bu Dinamaks Pokémon gerçekten gönderilsin mi?
 
 RESOURCE ID: pokemon_bread_info_transfer_to_professor_error
 TEXT: Son Dinamaks Pokémon’unuzu gönderemezsiniz.
+
+RESOURCE ID: pokemon_buddy_info_transfer_to_professor_confirmation
+TEXT: Bu Dost Pokémon gerçekten gönderilsin mi?
+
+RESOURCE ID: pokemon_costume_info_transfer_to_professor_confirmation
+TEXT: Bu Etkinlik Pokémon’u gerçekten gönderilsin mi?
 
 RESOURCE ID: pokemon_desc_0003_0169_2
 TEXT: Bu Pokémon maçlarda iki kalın sarmaşığını sallar. Bu sarmaşıklar çarptıklarında 10 katlı bir binayı bile devirebilir.
@@ -1375,8 +1399,20 @@ TEXT: Maksi Maçta yakalandı
 RESOURCE ID: pokemon_info_evolve_pokemon_stationed
 TEXT: {0} bir Güç Noktasına yerleştirildi.
 
+RESOURCE ID: pokemon_info_mega_evolution_really_confirm
+TEXT: {0} gerçekten mega evrimleştirilsin mi?
+
+RESOURCE ID: pokemon_legendary_info_transfer_to_professor_confirmation
+TEXT: Bu Efsanevi Pokémon gerçekten gönderilsin mi?
+
 RESOURCE ID: pokemon_location_card_info_transfer_to_professor_confirmation
 TEXT: Nadir arka planlı bu Pokémon gerçekten gönderilsin mi?
+
+RESOURCE ID: pokemon_lucky_info_transfer_to_professor_confirmation
+TEXT: Bu Şanslı Pokémon gerçekten gönderilsin mi?
+
+RESOURCE ID: pokemon_mythic_info_transfer_to_professor_confirmation
+TEXT: Bu Mitolojik Pokémon gerçekten gönderilsin mi?
 
 RESOURCE ID: pokemon_name_0003_0169_2
 TEXT: Gigantamaks Venusaur
@@ -1480,8 +1516,32 @@ TEXT: Tek Vuruş Tarzı Gigantamaks Urshifu
 RESOURCE ID: pokemon_name_0892_2724_3
 TEXT: Hızlı Vuruş Tarzı Gigantamaks Urshifu
 
+RESOURCE ID: pokemon_shiny_info_transfer_to_professor_confirmation
+TEXT: Bu Parlak Pokémon gerçekten gönderilsin mi?
+
+RESOURCE ID: pokemon_ultra_beast_info_transfer_to_professor_confirmation
+TEXT: Bu Ultra Yaratık gerçekten gönderilsin mi?
+
+RESOURCE ID: pokemon_xxl_info_transfer_to_professor_confirmation
+TEXT: Bu XXL Pokémon gerçekten gönderilsin mi?
+
+RESOURCE ID: pokemon_xxs_info_transfer_to_professor_confirmation
+TEXT: Bu XXS Pokémon gerçekten gönderilsin mi?
+
+RESOURCE ID: psychic_sep24_tr_title
+TEXT: Muhteşem Psişik 2024 Premium Süreli Araştırması
+
+RESOURCE ID: psychic_spectacular_sep24_collection_challenge_1
+TEXT: Algıda Seçicilik Toplama Görevi: Yakalama
+
+RESOURCE ID: psychic_spectacular_sep24_collection_challenge_2
+TEXT: Algıda Seçicilik Toplama Görevi: Evrimleştirme
+
 RESOURCE ID: quest_catch_type_grass_poison_plural
 TEXT: {0} Bitki veya Zehir türü Pokémon yakalayın
+
+RESOURCE ID: quest_catch_type_psychic_fairy_plural
+TEXT: {0} Psişik tür veya Peri türü Pokémon yakalayın
 
 RESOURCE ID: quest_drizzle_evolve
 TEXT: Bir Drizzile evrimleştirin
@@ -1497,6 +1557,15 @@ TEXT: Cakarta’da bir PokéDurak veya spor salonu döndürün
 
 RESOURCE ID: quest_grookey_evolve
 TEXT: Bir Grookey evrimleştirin
+
+RESOURCE ID: quest_ponyta_catch_b
+TEXT: {0} Ponyta veya Galarlı Ponyta yakalayın
+
+RESOURCE ID: quest_ponyta_evolve_b_plural
+TEXT: {0} Ponyta veya Galarlı Ponyta evrimleştirin
+
+RESOURCE ID: quest_ponyta_evolve_b_singular
+TEXT: Bir Ponyta veya Galarlı Ponyta evrimleştirin
 
 RESOURCE ID: quest_raboot_evolve
 TEXT: Bir Raboot evrimleştirin
@@ -1548,6 +1617,21 @@ TEXT: Onun Maksi Hareketlerini başka bir Dinamaks Pokémon’a karşı test ede
 
 RESOURCE ID: quest_thwackey_evolve
 TEXT: Bir Thwackey evrimleştirin
+
+RESOURCE ID: quest_title_ponyta
+TEXT: Topluluk Günü: Ponyta ve Galarlı Ponyta
+
+RESOURCE ID: quest_title_ponyta_0
+TEXT: Topluluk Günü: Ponyta ve Galarlı Ponyta (1/4)
+
+RESOURCE ID: quest_title_ponyta_1
+TEXT: Topluluk Günü: Ponyta ve Galarlı Ponyta (2/4)
+
+RESOURCE ID: quest_title_ponyta_2
+TEXT: Topluluk Günü: Ponyta ve Galarlı Ponyta (3/4)
+
+RESOURCE ID: quest_title_ponyta_3
+TEXT: Topluluk Günü: Ponyta ve Galarlı Ponyta (4/4)
 
 RESOURCE ID: quest_title_season_16_first_partner_1
 TEXT: Galar’ın Çağrısı (1/19)
@@ -1852,6 +1936,9 @@ TEXT: Şu anda çok sayıda Skiddo ortaya çıkıyor!
 RESOURCE ID: skiddo_o_clock_description
 TEXT: Her saat başı çok sayıda Skiddo ortaya çıkacak!
 
+RESOURCE ID: spawn_ponyta
+TEXT: Doğada daha fazla Ponyta ve Galarlı Ponyta ortaya çıkıyor!
+
 RESOURCE ID: station_cooldown
 TEXT: Daha fazla Maksi Parçacık toplamak için başka bir gün oynamaya devam edin.
 
@@ -1877,7 +1964,7 @@ TEXT: <b>Şu bonusları içerir:</b>
 • Başarıyla tamamlanan akınlardan %50 daha fazla TP ve 2× yıldız tozu
 
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
-TEXT: The GO Wild Area 2024 Global Ticket, which has been provided to you early and free of cost.
+TEXT: A ticket to Pokémon GO Wild Area: Global, which has been provided to you early and at no cost.
 
 RESOURCE ID: text_rewards_key_monthlyticketoct24
 TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from October 3, 2024, at 12:00 a.m. to November 2, 2024, at 11:59 p.m., wherever you are.
@@ -1917,6 +2004,9 @@ TEXT: <b>Şu ödülleri içerir:</b>
 • Takım lideri aksesuarlı Ponyta, Lapras ve Elekid ile karşılaşmalar
 • 1 Kuluçka Makinesi, 1 Süper Kuluçka Makinesi, 2 Premium Maç Bileti, 1 Tütsü, 1 Yem Modülü ve 1 Roket Radarı
 • 10.000 TP ve 5000 yıldız tozu
+
+RESOURCE ID: ticket_ponyta
+TEXT: Topluluk Günü temalı özel araştırma biletini mağazadan alabilirsiniz
 
 RESOURCE ID: today_view_station_section_title
 TEXT: Güç Noktalarındaki Pokémon’lar

@@ -178,11 +178,20 @@ TEXT: 다이맥스 {0}
 RESOURCE ID: bonus_bat_routes
 TEXT: 루트 탐색 중에 주뱃, 또르박쥐, 음뱃과 만날 수 있다
 
+RESOURCE ID: bonus_cd_move_galarian_ponyta
+TEXT: 가라르의 포니타를 가라르의 날쌩마로 진화시키면 와일드볼트를 배운다
+
+RESOURCE ID: bonus_cd_move_ponyta
+TEXT: 포니타를 날쌩마로 진화시키면 와일드볼트를 배운다
+
 RESOURCE ID: bonus_event_safari_pikachu_snapshot_incheon
 TEXT: Up to 5 surprise encounters with Pikachu wearing a safari hat in GO Snapshot
 
 RESOURCE ID: bonus_exclusive_souvenir_plural
 TEXT: 이벤트 한정 파트너 포켓몬이 발견하는 선물
+
+RESOURCE ID: bonus_implicit_social_ponyta_raid
+TEXT: 트레이너가 협력해서 레이드배틀에서 포니타 또는 가라르의 포니타를 쓰러뜨리면 그 체육관 주변에서 30분동안 포니타와 가라르의 포니타가 나타난다
 
 RESOURCE ID: bonus_incheon_lc_field_research
 TEXT: Pikachu wearing a safari hat or Skiddo encountered from Field Research tasks may have an Incheon Location Background
@@ -748,6 +757,9 @@ TEXT: GO배틀리그: 맥스 아웃
 RESOURCE ID: community_day_ponyta_and_galarian_ponyta_event_name
 TEXT: 커뮤니티 데이: 포니타와 포니타(가라르의 모습)
 
+RESOURCE ID: community_day_ponyta_event_name
+TEXT: 커뮤니티 데이: 포니타와 포니타(가라르의 모습)
+
 RESOURCE ID: details_link_key_ponytacd24
 TEXT: 자세한 내용은 <a href="https://pokemongolive.com/news">웹사이트</a>에서 확인해 주세요.
 
@@ -1001,10 +1013,10 @@ RESOURCE ID: mega_timer_label
 TEXT: 남은 시간: {0}
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-09-09T23:55:05.384136+00:00 for ko-KR
-at SHA 5f033de205
-Pipeline 2599143, job 31801365
-Patch from: 0.331.0-SHA-aa66102c-RC1, 0.329.2-SHA-c68b661e-RC2
+TEXT: Built at 2024-09-11T00:45:31.755536+00:00 for ko-KR
+at SHA f418938fb6
+Pipeline 2603084, job 31845701
+Patch from: 0.329.2-SHA-d02647a2-RC1, 0.331.0-SHA-aa66102c-RC1
 
 RESOURCE ID: mex_promo_fr_title
 TEXT: 루차불 축제
@@ -1214,6 +1226,9 @@ TEXT: 팀 플레이 보너스
 
 RESOURCE ID: photo_hub_hashtags
 TEXT: 해시태그 #GOsnapshot #GOsnapshotCelebration
+
+RESOURCE ID: photobomb_five_ponyta
+TEXT: GO스냅샷으로 포니타의 서프라이즈 5회
 
 RESOURCE ID: playability_em_fr_title
 TEXT: 브라질의 모험
@@ -1468,8 +1483,20 @@ TEXT: 거다이맥스 우라오스(일격의 태세)
 RESOURCE ID: pokemon_name_0892_2724_3
 TEXT: 거다이맥스 우라오스(연격의 태세)
 
+RESOURCE ID: psychic_sep24_tr_title
+TEXT: 에스퍼 위크 2024 프리미엄 시간제한 리서치
+
+RESOURCE ID: psychic_spectacular_sep24_collection_challenge_1
+TEXT: 염동력 컬렉션 챌린지: 캐치
+
+RESOURCE ID: psychic_spectacular_sep24_collection_challenge_2
+TEXT: 염동력 컬렉션 챌린지: 진화
+
 RESOURCE ID: quest_catch_type_grass_poison_plural
 TEXT: 풀타입 또는 독타입 포켓몬을 {0} 마리 잡는다
+
+RESOURCE ID: quest_catch_type_psychic_fairy_plural
+TEXT: 에스퍼타입 또는 페얼타입 포켓몬을 {0}마리 잡는다
 
 RESOURCE ID: quest_drizzle_evolve
 TEXT: 누겔레온을 1마리 진화시킨다
@@ -1485,6 +1512,15 @@ TEXT: 자카르타의 포켓스톱 또는 체육관 1개를 스핀한다
 
 RESOURCE ID: quest_grookey_evolve
 TEXT: 흥나숭을 1마리 진화시킨다
+
+RESOURCE ID: quest_ponyta_catch_b
+TEXT: 포니타 또는 가라르의 포니타를 {0}마리 잡는다
+
+RESOURCE ID: quest_ponyta_evolve_b_plural
+TEXT: 포니타 또는 가라르의 포니타를 {0}마리 진화시킨다
+
+RESOURCE ID: quest_ponyta_evolve_b_singular
+TEXT: 포니타 또는 가라르의 포니타를 1마리 진화시킨다
 
 RESOURCE ID: quest_raboot_evolve
 TEXT: 래비풋을 1마리 진화시킨다
@@ -1584,6 +1620,21 @@ TEXT: 언제 또 그 노랫소리를 들으며 춤을 볼 수 있길 기대할�
 
 RESOURCE ID: quest_thwackey_evolve
 TEXT: 채키몽을 1마리 진화시킨다
+
+RESOURCE ID: quest_title_ponyta
+TEXT: 커뮤니티 데이: 포니타와 포니타(가라르의 모습)
+
+RESOURCE ID: quest_title_ponyta_0
+TEXT: 커뮤니티 데이: 포니타와 포니타(가라르의 모습)(1/4)
+
+RESOURCE ID: quest_title_ponyta_1
+TEXT: 커뮤니티 데이: 포니타와 포니타(가라르의 모습)(2/4)
+
+RESOURCE ID: quest_title_ponyta_2
+TEXT: 커뮤니티 데이: 포니타와 포니타(가라르의 모습)(3/4)
+
+RESOURCE ID: quest_title_ponyta_3
+TEXT: 커뮤니티 데이: 포니타와 포니타(가라르의 모습)(4/4)
 
 RESOURCE ID: quest_title_season_16_first_partner_1
 TEXT: 가라르의 부름 (1/19)
@@ -1888,6 +1939,9 @@ TEXT: Skiddo are now appearing in large numbers!
 RESOURCE ID: skiddo_o_clock_description
 TEXT: At the top of each hour, Skiddo will appear in large numbers!
 
+RESOURCE ID: spawn_ponyta
+TEXT: 포니타와 가라르의 포니타기 평소보다 많이 야생에서 출현
+
 RESOURCE ID: station_cooldown
 TEXT: 내일 또 모으러 오세요
 
@@ -1913,7 +1967,7 @@ TEXT: <b>받을 수 있는 것:</b>
 - 레이드배틀 승리 시 받을 수 있는 XP 50% 증가와 별의모래 2배
 
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
-TEXT: The GO Wild Area 2024 Global Ticket, which has been provided to you early and free of cost.
+TEXT: A ticket to Pokémon GO Wild Area: Global, which has been provided to you early and at no cost.
 
 RESOURCE ID: text_rewards_key_monthlyticketoct24
 TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from October 3, 2024, at 12:00 a.m. to November 2, 2024, at 11:59 p.m., wherever you are.
@@ -1953,6 +2007,9 @@ TEXT: <b>받을 수 있는 리워드:</b>
 - 팀 리더를 모티브로 한 포니타, 라프라스, 에레키드와의 만남
 - 부화장치 1개, 슈퍼 부화장치 1개, 프리미엄 배틀패스 2개, 향로 1개 루어모듈 1개 로켓 레이더 1개
 - 10,000XP, 별의모래 5,000개
+
+RESOURCE ID: ticket_ponyta
+TEXT: 커뮤니티 데이 스페셜리서치 티켓이 숍에 등장
 
 RESOURCE ID: today_view_station_section_title
 TEXT: 파워스폿에 있는 포켓몬
