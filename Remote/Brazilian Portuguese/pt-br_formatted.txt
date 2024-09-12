@@ -606,11 +606,20 @@ TEXT: Escola
 RESOURCE ID: bread_report_pou_title
 TEXT: Reportar Ponto de Energia
 
+RESOURCE ID: bread_station_current_battle_defeated
+TEXT: You’ve defeated this Power Spot Boss
+
 RESOURCE ID: bread_station_defeat_success
 TEXT: Você derrotou este Chefe de Ponto de Energia!
 
 RESOURCE ID: bread_station_defeat_success_description
 TEXT: Escolha um Pokémon para colocar neste Ponto de Energia, receber Doces e ajudar em batalhas. Você pode chamar seu Pokémon de volta quando quiser.
+
+RESOURCE ID: bread_station_failure_description
+TEXT: The maximum number of Pokémon have been placed at this Power Spot.
+
+RESOURCE ID: bread_station_failure_label
+TEXT: Cannot place Pokémon
 
 RESOURCE ID: bread_station_general
 TEXT: Ponto de Energia
@@ -722,6 +731,9 @@ TEXT: Combo de Safári Urbano
 RESOURCE ID: bundle.regional.box.1_title
 TEXT: Combo Regional
 
+RESOURCE ID: bundle.silk.box.1_title
+TEXT: Silk Box
+
 RESOURCE ID: bundle.wicker.box.1_title
 TEXT: Combo de Vime
 
@@ -809,8 +821,8 @@ TEXT: De 17 de julho, às 10h
 até 3 de setembro, às 10h
 
 RESOURCE ID: event_datetime_range_key_monthlyticketoct24
-TEXT: October 3, at 12:00 a.m. –
-November 2, at 11:59 p.m.
+TEXT: October 3, 12:00 a.m. –
+November 2, 11:59 p.m.
 
 RESOURCE ID: event_datetime_range_key_monthlyticketsept24
 TEXT: De 3 de setembro, à 0h
@@ -1054,10 +1066,10 @@ RESOURCE ID: mega_timer_label
 TEXT: {0} restante
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-09-11T00:45:31.755536+00:00 for pt-BR
-at SHA f418938fb6
-Pipeline 2603084, job 31845701
-Patch from: 0.329.2-SHA-d02647a2-RC1, 0.331.0-SHA-aa66102c-RC1
+TEXT: Built at 2024-09-12T00:46:53.685316+00:00 for pt-BR
+at SHA c6cb25e2acd
+Pipeline 2607108, job 31890909
+Patch from: 0.331.0-SHA-10c872e2-RC2, 0.329.2-SHA-d02647a2-RC1
 
 RESOURCE ID: mex_promo_fr_title
 TEXT: Celebração de Hawlucha
@@ -1815,15 +1827,16 @@ RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: A ticket to Pokémon GO Wild Area: Global, which has been provided to you early and at no cost.
 
 RESOURCE ID: text_rewards_key_monthlyticketoct24
-TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from October 3, 2024, at 12:00 a.m. to November 2, 2024, at 11:59 p.m., wherever you are.
+TEXT: This ticket grants bonuses, Timed Research awarding 200 bonus PokéCoins, and daily bonus Field Research tasks that award bonus PokéCoins from October 3 to November 2, 2024.
 
-If you purchase this ticket, every day from October 3 to November 2, you may receive a bonus Field Research the first time you log in each day.
-You will additionally receive the following bonuses: 
-- 3× XP awarded for your first catch of the day as well as your first Poké Stop or Gym spin of the day 
- - the ability to open up to 50 Gifts a day as well as receive up to 150 Gifts per day from spinning Poké Stops and Gym Discs. 
-You will also be able to hold up to 40 Gifts in your Item Bag at once. 
+<b>Included bonuses:</b>
+• One Field Research task the first time you log on each day that awards 20 bonus PokéCoins
+• 3× XP for your first catch of the day and your first spin of the day
+• Open up to 50 Gifts a day
+• Collect up to 150 Gifts a day from PokéStops and Gyms
+• Hold up to 40 Gifts in your Item Bag at once
 
-Please note: You must have three or fewer Field Research tasks active to be granted this bonus Field Research the first time you log on a given day! Also, you must claim the 20 PokéCoins reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
+Please note: You must have three or fewer Field Research tasks active to receive this bonus Field Research task the first time you log on each day. You must claim the 20 bonus PokéCoin reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
 
 RESOURCE ID: text_rewards_key_monthlyticketsept24
 TEXT: Este ingresso garante bônus, Pesquisa Temporária que concede 200 Pokémoedas de bônus e tarefas de Pesquisa de Campo com bônus diário de 3 de setembro de 2024 até 2 de outubro de 2024.

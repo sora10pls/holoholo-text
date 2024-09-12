@@ -606,11 +606,20 @@ TEXT: Reportar Nodo Energético
 RESOURCE ID: bread_station_count_limit
 TEXT: Más de {0}
 
+RESOURCE ID: bread_station_current_battle_defeated
+TEXT: You’ve defeated this Power Spot Boss
+
 RESOURCE ID: bread_station_defeat_success
 TEXT: ¡Derrotaste al Jefe de Nodo Energético!
 
 RESOURCE ID: bread_station_defeat_success_description
 TEXT: Elige el Pokémon que quieras dejar en este Nodo Energético para que consiga Caramelos y ayude en los combates. Puedes recuperar a tu Pokémon cuando quieras.
+
+RESOURCE ID: bread_station_failure_description
+TEXT: The maximum number of Pokémon have been placed at this Power Spot.
+
+RESOURCE ID: bread_station_failure_label
+TEXT: Cannot place Pokémon
 
 RESOURCE ID: bread_station_general
 TEXT: Nodo Energético
@@ -696,7 +705,7 @@ RESOURCE ID: bread_stationing_tutorial_title_3
 TEXT: Encuentros de Nodo Energético
 
 RESOURCE ID: bread_time_window
-TEXT: Puedes acceder a los combates Max de {0} a {1}.
+TEXT: Puedes acceder a los combates Max de {0} a {1}
 
 RESOURCE ID: bread_upgrade_attack
 TEXT: ¡Este movimiento Max hará más daño!
@@ -721,6 +730,9 @@ TEXT: Caja Safari de Ciudad
 
 RESOURCE ID: bundle.regional.box.1_title
 TEXT: Caja Regional
+
+RESOURCE ID: bundle.silk.box.1_title
+TEXT: Silk Box
 
 RESOURCE ID: bundle.wicker.box.1_title
 TEXT: Caja de Mimbre
@@ -789,8 +801,8 @@ RESOURCE ID: event_datetime_range_key_falinksraidday
 TEXT: 8 de septiembre de 2:00 p. m. a 10:00 p. m.
 
 RESOURCE ID: event_datetime_range_key_monthlyticketoct24
-TEXT: October 3, at 12:00 a.m. –
-November 2, at 11:59 p.m.
+TEXT: October 3, 12:00 a.m. –
+November 2, 11:59 p.m.
 
 RESOURCE ID: event_datetime_range_key_monthlyticketsept24
 TEXT: Del 3 de septiembre a las 12:00 a. m. al
@@ -864,7 +876,7 @@ RESOURCE ID: general1.ticket._falinksraidday_title
 TEXT: Entrada: Día de Incursiones de Falinks
 
 RESOURCE ID: general1.ticket._monthlyticketoct24_title
-TEXT: Daily PokéCoin Bounty Ticket Part 2
+TEXT: Daily PokéCoin Bounty Part 2 Ticket
 
 RESOURCE ID: general1.ticket._monthlyticketsept24_title
 TEXT: Entrada: Recompensa Diaria de Pokémonedas Parte 1
@@ -930,10 +942,10 @@ RESOURCE ID: item_event_ticket_gray_desc_falinksraidday
 TEXT: Una entrada para acceder a bonificaciones especiales el domingo 8 de septiembre de 2024 de 2:00 p. m. a 10:00 p. m. en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_gray_desc_monthlyticketnov24
-TEXT: A ticket to access the Daily PokéCoin Bounty Part 3 Timed Research, daily bonus Field Research that awards PokéCoins, and other bonuses from November 3 at 12:00 a.m. to December 2, 2024, at 11:59 p.m. local time.
+TEXT: Una entrada para acceder a la Investigación Temporal de la Recompensa Diaria de Pokémonedas Parte 3, a la Investigación de Campo diaria que entrega Pokémonedas y a otras bonificaciones desde el 3 de noviembre a las 12:00 a. m. hasta el 2 de diciembre de 2024 a las 11:59 p. m. en tu hora local.
 
 RESOURCE ID: item_event_ticket_gray_desc_monthlyticketoct24
-TEXT: A ticket to access the Daily PokéCoin Bounty Part 2 Timed Research, daily bonus Field Research that awards PokéCoins, and other bonuses from October 3 at 12:00 a.m. to November 2, 2024, at 11:59 p.m. local time.
+TEXT: Una entrada para acceder a la Investigación Temporal de la Recompensa Diaria de Pokémonedas Parte 2, a la Investigación de Campo diaria que entrega Pokémonedas y a otras bonificaciones desde el 3 de octubre a las 12:00 a. m. hasta el 2 de noviembre de 2024 a las 11:59 p. m. en tu hora local.
 
 RESOURCE ID: item_event_ticket_gray_desc_monthlyticketsept24
 TEXT: Una entrada para acceder a la Investigación Temporal de la Recompensa Diaria de Pokémonedas Parte 1, a la Investigación de Campo diaria que entrega Pokémonedas y a otras bonificaciones desde el 3 de septiembre a las 12:00 a. m. hasta el 2 de octubre de 2024 a las 11:59 p. m. en tu hora local.
@@ -945,10 +957,10 @@ RESOURCE ID: item_event_ticket_gray_details_falinksraidday
 TEXT: Esta entrada se activará automáticamente para darte acceso a bonificaciones especiales el 8 de septiembre, estés donde estés.
 
 RESOURCE ID: item_event_ticket_gray_details_monthlyticketnov24
-TEXT: This ticket will automatically activate to give you access to Daily PokéCoin Bounty Part 3 on November 3, wherever you are.
+TEXT: Esta entrada se activará automáticamente para darte acceso a la Recompensa Diaria de Pokémonedas Parte 3 el 3 de noviembre, estés donde estés.
 
 RESOURCE ID: item_event_ticket_gray_details_monthlyticketoct24
-TEXT: This ticket will automatically activate to give you access to Daily PokéCoin Bounty Part 2 on October 3, wherever you are.
+TEXT: Esta entrada se activará automáticamente para darte acceso a la Recompensa Diaria de Pokémonedas Parte 2 el 3 de octubre, estés donde estés.
 
 RESOURCE ID: item_event_ticket_gray_details_monthlyticketsept24
 TEXT: Esta entrada se activará automáticamente para darte acceso a la Recompensa Diaria de Pokémonedas Parte 1 el 3 de septiembre, estés donde estés.
@@ -984,7 +996,7 @@ RESOURCE ID: join_max_battle_singular
 TEXT: Únete a un combate Max
 
 RESOURCE ID: levelup_max_move_plural
-TEXT: Sube de nivel {0} movimientos Max
+TEXT: Sube de nivel un movimiento Max {0} veces
 
 RESOURCE ID: levelup_max_move_singular
 TEXT: Sube de nivel un movimiento Max
@@ -1023,10 +1035,10 @@ RESOURCE ID: mega_timer_label
 TEXT: Tiempo restante: {0}
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-09-11T00:45:31.755536+00:00 for es-MX
-at SHA f418938fb6
-Pipeline 2603084, job 31845701
-Patch from: 0.329.2-SHA-d02647a2-RC1, 0.331.0-SHA-aa66102c-RC1
+TEXT: Built at 2024-09-12T00:46:53.685316+00:00 for es-MX
+at SHA c6cb25e2acd
+Pipeline 2607108, job 31890909
+Patch from: 0.331.0-SHA-10c872e2-RC2, 0.329.2-SHA-d02647a2-RC1
 
 RESOURCE ID: mex_promo_fr_title
 TEXT: Celebrando con Hawlucha
@@ -1395,6 +1407,9 @@ TEXT: Atrapado en un combate Max
 
 RESOURCE ID: pokemon_info_evolve_pokemon_stationed
 TEXT: {0} está en un Nodo Energético.
+
+RESOURCE ID: pokemon_location_card_info_transfer_to_professor_confirmation
+TEXT: ¿De verdad quieres transferir este Pokémon que tiene un fondo poco común?
 
 RESOURCE ID: pokemon_name_0003_0169_2
 TEXT: Venusaur Gigamax
@@ -1919,7 +1934,7 @@ RESOURCE ID: station_day_left
 TEXT: 1 día restante
 
 RESOURCE ID: station_days_left
-TEXT: Días restantes: {0}
+TEXT: {0} días restantes
 
 RESOURCE ID: station_location_label
 TEXT: En {0}
@@ -1940,15 +1955,16 @@ RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: A ticket to Pokémon GO Wild Area: Global, which has been provided to you early and at no cost.
 
 RESOURCE ID: text_rewards_key_monthlyticketoct24
-TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from October 3, 2024, at 12:00 a.m. to November 2, 2024, at 11:59 p.m., wherever you are.
+TEXT: This ticket grants bonuses, Timed Research awarding 200 bonus PokéCoins, and daily bonus Field Research tasks that award bonus PokéCoins from October 3 to November 2, 2024.
 
-If you purchase this ticket, every day from October 3 to November 2, you may receive a bonus Field Research the first time you log in each day.
-You will additionally receive the following bonuses: 
-- 3× XP awarded for your first catch of the day as well as your first Poké Stop or Gym spin of the day 
- - the ability to open up to 50 Gifts a day as well as receive up to 150 Gifts per day from spinning Poké Stops and Gym Discs. 
-You will also be able to hold up to 40 Gifts in your Item Bag at once. 
+<b>Included bonuses:</b>
+• One Field Research task the first time you log on each day that awards 20 bonus PokéCoins
+• 3× XP for your first catch of the day and your first spin of the day
+• Open up to 50 Gifts a day
+• Collect up to 150 Gifts a day from PokéStops and Gyms
+• Hold up to 40 Gifts in your Item Bag at once
 
-Please note: You must have three or fewer Field Research tasks active to be granted this bonus Field Research the first time you log on a given day! Also, you must claim the 20 PokéCoins reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
+Please note: You must have three or fewer Field Research tasks active to receive this bonus Field Research task the first time you log on each day. You must claim the 20 bonus PokéCoin reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
 
 RESOURCE ID: text_rewards_key_monthlyticketsept24
 TEXT: Esta entrada te entrega bonificaciones, una Investigación Temporal con 200 Pokémonedas de bonificación y tareas de Investigación de Campo diarias que entregan Pokémonedas adicionales del 3 de septiembre al 2 de octubre de 2024.
@@ -2066,10 +2082,10 @@ RESOURCE ID: valor_reward
 TEXT: Recompensas del Desafío Global de Valor
 
 RESOURCE ID: visit_power_spot_plural
-TEXT: Visita {0} Nodos Energéticos
+TEXT: Recoge PM de {0} Nodos Energéticos
 
 RESOURCE ID: visit_power_spot_singular
-TEXT: Visita un Nodo Energético
+TEXT: Recoge PM de un Nodo Energético
 
 RESOURCE ID: win_max_battle_plural
 TEXT: Gana {0} combate Max

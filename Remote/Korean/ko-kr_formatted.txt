@@ -397,7 +397,7 @@ TEXT: 파워스폿이 배틀에는 다이맥스 포켓몬이 필요합니다.
 다이맥스 포켓몬은 파워스폿에서 잡을 수 있습니다
 
 RESOURCE ID: bread_cannot_enter_lobby_not_eligible_title
-TEXT: 적어도 1마리의 다이맥스 포켓몬이 필요합ㄴ디ㅏ!
+TEXT: 적어도 1마리의 다이맥스 포켓몬이 필요합니다!
 
 RESOURCE ID: bread_claim_mp_amount
 TEXT: 맥스 파티클을 {0}개 손에 넣었다
@@ -599,11 +599,20 @@ TEXT: 학교
 RESOURCE ID: bread_report_pou_title
 TEXT: 파워스폿 리포트
 
+RESOURCE ID: bread_station_current_battle_defeated
+TEXT: You’ve defeated this Power Spot Boss
+
 RESOURCE ID: bread_station_defeat_success
 TEXT: 파워스폿 보스를 물리쳤다!
 
 RESOURCE ID: bread_station_defeat_success_description
 TEXT: 포켓몬을 선택하고 이 파워스폿에 배치한다. 나중에 언제라도 포켓몬을 되돌릴 수 있습니다.
+
+RESOURCE ID: bread_station_failure_description
+TEXT: The maximum number of Pokémon have been placed at this Power Spot.
+
+RESOURCE ID: bread_station_failure_label
+TEXT: Cannot place Pokémon
 
 RESOURCE ID: bread_station_general
 TEXT: 파워스폿
@@ -718,6 +727,9 @@ TEXT: 사파리 박스
 RESOURCE ID: bundle.regional.box.1_title
 TEXT: 에리어 박스
 
+RESOURCE ID: bundle.silk.box.1_title
+TEXT: Silk Box
+
 RESOURCE ID: bundle.wicker.box.1_title
 TEXT: 라탄 박스
 
@@ -785,8 +797,8 @@ RESOURCE ID: event_datetime_range_key_falinksraidday
 TEXT: 9월 8일 14시 ~ 22시
 
 RESOURCE ID: event_datetime_range_key_monthlyticketoct24
-TEXT: October 3, at 12:00 a.m. –
-November 2, at 11:59 p.m.
+TEXT: October 3, 12:00 a.m. –
+November 2, 11:59 p.m.
 
 RESOURCE ID: event_datetime_range_key_monthlyticketsept24
 TEXT: 9월 3일 00:00～
@@ -857,7 +869,7 @@ RESOURCE ID: general1.ticket._falinksraidday_title
 TEXT: 대여르 레이드 데이 티켓
 
 RESOURCE ID: general1.ticket._monthlyticketoct24_title
-TEXT: Daily PokéCoin Bounty Ticket Part 2
+TEXT: Daily PokéCoin Bounty Part 2 Ticket
 
 RESOURCE ID: general1.ticket._monthlyticketsept24_title
 TEXT: 데일리 포켓코인 셀렉트 파트1 티켓
@@ -1013,10 +1025,10 @@ RESOURCE ID: mega_timer_label
 TEXT: 남은 시간: {0}
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-09-11T00:45:31.755536+00:00 for ko-KR
-at SHA f418938fb6
-Pipeline 2603084, job 31845701
-Patch from: 0.329.2-SHA-d02647a2-RC1, 0.331.0-SHA-aa66102c-RC1
+TEXT: Built at 2024-09-12T00:46:53.685316+00:00 for ko-KR
+at SHA c6cb25e2acd
+Pipeline 2607108, job 31890909
+Patch from: 0.331.0-SHA-10c872e2-RC2, 0.329.2-SHA-d02647a2-RC1
 
 RESOURCE ID: mex_promo_fr_title
 TEXT: 루차불 축제
@@ -1970,15 +1982,16 @@ RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: A ticket to Pokémon GO Wild Area: Global, which has been provided to you early and at no cost.
 
 RESOURCE ID: text_rewards_key_monthlyticketoct24
-TEXT: A ticket to access daily bonus Field Research that rewards PokéCoins from October 3, 2024, at 12:00 a.m. to November 2, 2024, at 11:59 p.m., wherever you are.
+TEXT: This ticket grants bonuses, Timed Research awarding 200 bonus PokéCoins, and daily bonus Field Research tasks that award bonus PokéCoins from October 3 to November 2, 2024.
 
-If you purchase this ticket, every day from October 3 to November 2, you may receive a bonus Field Research the first time you log in each day.
-You will additionally receive the following bonuses: 
-- 3× XP awarded for your first catch of the day as well as your first Poké Stop or Gym spin of the day 
- - the ability to open up to 50 Gifts a day as well as receive up to 150 Gifts per day from spinning Poké Stops and Gym Discs. 
-You will also be able to hold up to 40 Gifts in your Item Bag at once. 
+<b>Included bonuses:</b>
+• One Field Research task the first time you log on each day that awards 20 bonus PokéCoins
+• 3× XP for your first catch of the day and your first spin of the day
+• Open up to 50 Gifts a day
+• Collect up to 150 Gifts a day from PokéStops and Gyms
+• Hold up to 40 Gifts in your Item Bag at once
 
-Please note: You must have three or fewer Field Research tasks active to be granted this bonus Field Research the first time you log on a given day! Also, you must claim the 20 PokéCoins reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
+Please note: You must have three or fewer Field Research tasks active to receive this bonus Field Research task the first time you log on each day. You must claim the 20 bonus PokéCoin reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
 
 RESOURCE ID: text_rewards_key_monthlyticketsept24
 TEXT: 현지시간 2024년 9월 3일~10월 2일 200포켓코인을 보너스로 받을 수 있는 시간제한 리서치와 보너스 포켓코인을 받을 수 있는 보너스 필드리서치를 받을 수 있는 티켓.
