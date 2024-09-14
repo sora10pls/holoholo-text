@@ -458,6 +458,10 @@ TEXT: 9月14日2:00PM～5:00PM
 RESOURCE ID: event_datetime_range_key_poppliocd24_title
 TEXT: 8月31日2:00PM～5:00PM
 
+RESOURCE ID: event_datetime_range_key_psychspec24
+TEXT: 9月18日10:00AM～
+9月22日8:00PM
+
 RESOURCE ID: event_datetime_range_key_ttfinale24
 TEXT: 8月23日10:00AM～
 8月31日8:00PM
@@ -510,6 +514,9 @@ TEXT: デイリーポケコインセレクトパート2チケット
 RESOURCE ID: general1.ticket._monthlyticketsept24_title
 TEXT: デイリーポケコインセレクトパート1チケット
 
+RESOURCE ID: general1.ticket._psychspec24_title
+TEXT: エスパーウィーク2024プレミアムタイムチャレンジチケット
+
 RESOURCE ID: general1.ticket._ttfinale24_title
 TEXT: チームリーダーの決意プレミアムタイムチャレンジチケット
 
@@ -557,6 +564,12 @@ TEXT: インスティンクトグローバルチャレンジリワード
 
 RESOURCE ID: iris_social_buddy_not_allowed
 TEXT: 相棒のポケモンは選択できません！
+
+RESOURCE ID: item_event_ticket_evergreen_desc_psychspec24
+TEXT: 現地時間2024年9月18日10:00AM～9月22日8:00PMにエスパーウィーク2024プレミアムタイムチャレンジを行うためのチケット。
+
+RESOURCE ID: item_event_ticket_evergreen_details_psychspec24
+TEXT: このチケットは自動的に発動し9月18日にエスパーウィーク2024プレミアムタイムチャレンジが行えるようになります。
 
 RESOURCE ID: item_event_ticket_gray_desc_falinksraidday
 TEXT: 現地時間2024年9月8日2:00PM～10:00PMにボーナスを受け取るためのチケット。
@@ -609,6 +622,9 @@ TEXT: マックスバトルを{0}回行う
 RESOURCE ID: join_max_battle_singular
 TEXT: マックスバトルを行う
 
+RESOURCE ID: legendary_heroes_event_name
+TEXT: 伝説の英雄
+
 RESOURCE ID: levelup_max_move_plural
 TEXT: マックスわざを{0}回レベルアップする
 
@@ -640,10 +656,10 @@ RESOURCE ID: max_battle_2x_xp
 TEXT: 2×　マックスバトル勝利XP
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-09-12T22:56:09.815565+00:00 for ja-JP
-at SHA 94cafb91b33
-Pipeline 2610265, job 31934136
-Patch from: 0.331.0-SHA-10c872e2-RC2, 0.329.2-SHA-c68b661e-RC2
+TEXT: Built at 2024-09-14T00:54:34.081782+00:00 for ja-JP
+at SHA b925ed965f1
+Pipeline 2614024, job 31983230
+Patch from: 0.331.0-SHA-10c872e2-RC2, 0.329.2-SHA-d02647a2-RC1
 
 RESOURCE ID: mex_promo_fr_title
 TEXT: ルチャブル祭り
@@ -1335,6 +1351,9 @@ TEXT: 探索して{0}マックス粒子を手に入れた！
 RESOURCE ID: raid_day_falinks_event_name
 TEXT: タイレーツのレイド・デイ
 
+RESOURCE ID: research_day_passimian_and_oranguru_event_name
+TEXT: ヤレユータンとナゲツケサルのリサーチデイ
+
 RESOURCE ID: safari_2024_incheon_dialogue_0_1
 TEXT: インチョンにようこそ、%PLAYERNAME%！
 
@@ -1426,7 +1445,7 @@ RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: PokémonGOワイルドエリア：グローバルのチケット（無料先行リリース）
 
 RESOURCE ID: text_rewards_key_monthlyticketoct24
-TEXT: 現地時間2024年10月3日～11月2日に、ポケコインなどがもらえるボーナスフィールドリサーチを受け取るためのチケット。
+TEXT: 現地時間2024年10月3日～11月2日に200ボーナスポケコインなどがもらえるタイムチャレンジとボーナスポケコインがもらえるデイリーボーナスフィールドリサーチを受け取るためのチケット。
 
 <b>適用ボーナス：</b>毎日最初のログイン後に受け取る20ポケコインがもらえるフィールドリサーチタスク
 ・最初の1匹とスピンでもらえるXP3倍
@@ -1434,7 +1453,7 @@ TEXT: 現地時間2024年10月3日～11月2日に、ポケコインなどがも�
 ・一日にポケストップ・ジムを回してもらえるギフトの上限150個
 ・バッグ内に一度に持てるギフトの上限40個
 
-注）フィールドリサーチが3件以下であるときボーナスフィールドリサーチが受け取れます。タスク完了後に20ポケコインを受け取るのを忘れないようにしてください。フィールドリサーチの詳細は<a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">こちら</a>でご確認いただけます。
+注）毎日最初のログイン時にフィールドリサーチが3件以下でないとボーナスフィールドリサーチが受け取れません。タスク完了後に20ポケコインを受け取るのを忘れないようにしてください。フィールドリサーチの詳細は<a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">こちら</a>でご確認いただけます。
 
 RESOURCE ID: text_rewards_key_monthlyticketsept24
 TEXT: 現地時間2024年9月3日～10月2日に200ボーナスポケコインがもらえるタイムチャレンジとボーナスポケコインがもらえるボーナスフィールドリサーチを受け取るためのチケット。
@@ -1457,6 +1476,12 @@ RESOURCE ID: text_rewards_key_poppliocd24_title
 TEXT: <b>もらえるもの：</b>
 ・アシマリとその進化形ポケモンとの出会い
 ・ふしぎなアメ、ハイパーボールなど
+
+RESOURCE ID: text_rewards_key_psychspec24
+TEXT: <b>もらえるもの：</b>
+・ネマシュとミブリムとの出会い
+・15000XP 
+・スーパーふかそうち1個とほしのかけら1個、など
 
 RESOURCE ID: text_rewards_key_ttfinale24
 TEXT: <b>もらえるもの：</b>
