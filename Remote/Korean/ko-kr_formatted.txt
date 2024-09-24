@@ -119,10 +119,10 @@ RESOURCE ID: bonus_pikachu_raid_location_background
 TEXT: 레이드에서 잡은 피카츄에 로케이션 배경이 생긴다
 
 RESOURCE ID: bonus_tr_gbl_championships_2025_a_desc
-TEXT: Supercharged Bonus Timed Research
+TEXT: 전기 충전 보너스 시간제한 리서치
 
 RESOURCE ID: bonus_tr_gbl_championships_2025_a_title
-TEXT: Supercharged Bonus Timed Research
+TEXT: 전기 충전 보너스 시간제한 리서치
 
 RESOURCE ID: bonus_tr_gbl_euic_2025_a_title_00
 TEXT: 2025 Pokémon LAIC 챔피언: 보너스 시간제한 리서치(1/2)
@@ -148,14 +148,17 @@ TEXT: 적어도 1마리의 다이맥스 포켓몬이 필요합니다!
 RESOURCE ID: bread_iap_max_mp_replenish_warning
 TEXT: 한번에 가질 수 있는 맥스 파티클 팩의 상한 {0}에 도달했습니다. 맥스 파티클 팩을 사용해서 다시 시도해 주십시오.
 
+RESOURCE ID: bread_more_mp_to_reach_daily_limit
+TEXT: 오늘은 {0}MP 더 모을 수 있습니다
+
 RESOURCE ID: bread_station_current_battle_defeated
-TEXT: You defeated this Power Spot Boss
+TEXT: 파워스폿 보스를 물리쳤다
 
 RESOURCE ID: bread_station_failure_description
-TEXT: This Power Spot has reached its limit for placed Pokémon.
+TEXT: 배치 포켓몬 상한에 도달하여 포켓몬을 배치할 수 없습니다.
 
 RESOURCE ID: bread_station_failure_label
-TEXT: Cannot place Pokémon
+TEXT: 포켓몬을 배치할 수 없습니다
 
 RESOURCE ID: bundle.citysafari.box.1_title
 TEXT: 사파리 박스
@@ -209,19 +212,19 @@ RESOURCE ID: event_datetime_range_key_researchdaysept24
 TEXT: 9월 22일 14시~17시
 
 RESOURCE ID: expires_in_clock
-TEXT: Expires in {0}
+TEXT: 종료까지 {0}
 
 RESOURCE ID: expires_in_day_plural
-TEXT: Expires in {0} days
+TEXT: 종료까지 {0}일
 
 RESOURCE ID: expires_in_day_singular
-TEXT: Expires in 1 day
+TEXT: 종료까지 1일
 
 RESOURCE ID: expires_in_hour_plural
-TEXT: Expires in {0} hours
+TEXT: 종료까지 {0}시간
 
 RESOURCE ID: expires_in_hour_singular
-TEXT: Expires in 1 hour
+TEXT: 종료까지 1시간
 
 RESOURCE ID: filter_key_bread_move_a
 TEXT: 맥스 기술
@@ -241,8 +244,11 @@ TEXT: ???
 RESOURCE ID: general1.ticket._falinksraidday_title
 TEXT: 대여르 레이드 데이 티켓
 
+RESOURCE ID: general1.ticket._gowa24_title
+TEXT: Pokémon GO 와일드 에리어: 글로벌 티켓
+
 RESOURCE ID: general1.ticket._monthlyticketnov24_title
-TEXT: Daily PokéCoin Bounty Ticket Part 3
+TEXT: Daily PokéCoin Bounty Part 3 Ticket
 
 RESOURCE ID: general1.ticket._monthlyticketoct24_title
 TEXT: 데일리 포켓코인 셀렉트 파트2 티켓
@@ -306,6 +312,12 @@ TEXT: 현지시간 2024년 9월 14일 14시부터 포니타와 포니타(가라�
 
 RESOURCE ID: item_event_ticket_pink_details_ponytacd24
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 9월 14일 포니타와(포니타(가라르의 모습) 커뮤니티 데이 스페셜리서치가 진행됩니다.
+
+RESOURCE ID: item_global_event_ticket_desc_gowa24
+TEXT: 현지시간 2024년 11월 23일, 24일에 Pokémon GO 와일드 에리어: 글로벌 스페셜리서치를 진행할 수 있는 티켓.
+
+RESOURCE ID: item_global_event_ticket_details_gowa24
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2024년 11월 23일에 'Pokémon GO 와일드 에리어: 글로벌' 스페셜리서치가 진행됩니다.
 
 RESOURCE ID: legendary_heroes_collection_shield_catch
 TEXT: 전설의 영웅 실드의 길 캐치 챌린지
@@ -380,10 +392,19 @@ RESOURCE ID: max_battle_2x_xp
 TEXT: 2× 맥스배틀 승리시 XP
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-09-21T00:16:20.904500+00:00 for ko-KR
-at SHA e86c3fd7471
-Pipeline 2631559, job 32196997
-Patch from: 0.333.0-SHA-38034fba-RC1, 0.331.0-SHA-8bd66da8-RC3
+TEXT: Built at 2024-09-24T17:05:53.284901+00:00 for ko-KR
+at SHA 221ff28a7ee
+Pipeline 2636443, job 32257321
+Patch from: 0.333.0-SHA-38034fba-RC1, 0.331.1-SHA-b42b626e-RC1
+
+RESOURCE ID: mp_replenish.1_title
+TEXT: 맥스 파티클 팩X1({0}MP)
+
+RESOURCE ID: mp_replenish.3_title
+TEXT: 맥스 파티클 팩X3 ({0}MP)
+
+RESOURCE ID: n_hat_gtr2024pikachufanmask_0_display_name
+TEXT: 피카츄 가면
 
 RESOURCE ID: party_play_bonus
 TEXT: 팀 플레이 보너스

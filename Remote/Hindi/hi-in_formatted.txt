@@ -2,10 +2,10 @@ RESOURCE ID: allow_notifications_prompt_message_temp
 TEXT: नए इवेंट और फ़ीचर क बार में ताज़ा जानकार ात करने क लए Pokémon GO को नोटफ़कशन एसेस करने क अनुमत दें।
 
 RESOURCE ID: badge_party_challenges_completed
-TEXT: Complete {0} Party Challenges
+TEXT: {0} टम चैलंज पूर करं
 
 RESOURCE ID: badge_party_challenges_completed_title
-TEXT: Life of the Party
+TEXT: टम क जान
 
 RESOURCE ID: badge_safari_2024_incheon_day_00
 TEXT: इछॉन 2024
@@ -116,10 +116,10 @@ RESOURCE ID: bonus_pikachu_raid_location_background
 TEXT: रड में पकड़े गए िपकाचु का एक वशेष लोकशन बैकाउंड होगा
 
 RESOURCE ID: bonus_tr_gbl_championships_2025_a_desc
-TEXT: Supercharged Bonus Timed Research
+TEXT: सुपरचाज्ड बोनस सीमत समय वाल रसच
 
 RESOURCE ID: bonus_tr_gbl_championships_2025_a_title
-TEXT: Supercharged Bonus Timed Research
+TEXT: सुपरचाज्ड बोनस सीमत समय वाल रसच
 
 RESOURCE ID: bonus_tr_gbl_euic_2025_a_desc
 TEXT: 2025 Pokémon LAIC चैिपयन - बोनस सीमत समय वाल रसच
@@ -157,6 +157,9 @@ TEXT: {0} MP जमा कये
 RESOURCE ID: bread_iap_max_mp_replenish_warning
 TEXT: आप अधकतम मैस पाटकल पैक ({0}) ल चुक हैं। आपने मैस पाटकल पैक को इतेमाल करं और दोबारा कोशश करं।
 
+RESOURCE ID: bread_more_mp_to_reach_daily_limit
+TEXT: आप आज {0} और PM एक कर सकते हैं।
+
 RESOURCE ID: bread_pokemon_info_tutorial_desc
 TEXT: यह पोकमॉन पावर पॉट पर पोकमॉन से बैटल करने क लए शतशाल मैस मूव का इतेमाल कर सकता है।
 
@@ -164,10 +167,10 @@ RESOURCE ID: bread_station_current_battle_defeated
 TEXT: You defeated this Power Spot Boss
 
 RESOURCE ID: bread_station_failure_description
-TEXT: This Power Spot has reached its limit for placed Pokémon.
+TEXT: यह पावर पॉट पोकमॉन रखने क अपनी सीमा तक पँच गया है।
 
 RESOURCE ID: bread_station_failure_label
-TEXT: Cannot place Pokémon
+TEXT: पोकमॉन को रखा नहीं जा सका।
 
 RESOURCE ID: bundle.citysafari.box.1_title
 TEXT: सट सफ़ार बसा
@@ -224,19 +227,19 @@ RESOURCE ID: event_season16_name
 TEXT: मौजूदा सीज़न - मैस आउट
 
 RESOURCE ID: expires_in_clock
-TEXT: Expires in {0}
+TEXT: {0} में समय-सीमा खम हो जाएगी
 
 RESOURCE ID: expires_in_day_plural
-TEXT: Expires in {0} days
+TEXT: {0} दनों में समय-सीमा खम हो जाएगी
 
 RESOURCE ID: expires_in_day_singular
-TEXT: Expires in 1 day
+TEXT: 1 दन में समय-सीमा खम हो जाएगी
 
 RESOURCE ID: expires_in_hour_plural
-TEXT: Expires in {0} hours
+TEXT: {0} घंटों में समय-सीमा खम हो जाएगी
 
 RESOURCE ID: expires_in_hour_singular
-TEXT: Expires in 1 hour
+TEXT: 1 घंट में समय-सीमा खम हो जाएगी
 
 RESOURCE ID: filter_label_dynamax
 TEXT: डायनामैस
@@ -256,8 +259,11 @@ TEXT: हाँ
 RESOURCE ID: general1.ticket._falinksraidday_title
 TEXT: पटून रड दवस टकट
 
+RESOURCE ID: general1.ticket._gowa24_title
+TEXT: Pokémon GO वाइड एरया : लोबल टकट
+
 RESOURCE ID: general1.ticket._monthlyticketnov24_title
-TEXT: Daily PokéCoin Bounty Ticket Part 3
+TEXT: Daily PokéCoin Bounty Part 3 Ticket
 
 RESOURCE ID: general1.ticket._monthlyticketoct24_title
 TEXT: डेल पोककॉइन सलशन पाट 2 टकट
@@ -321,6 +327,15 @@ TEXT: थानीय समयानुसार 14 सतबर, द�
 
 RESOURCE ID: item_event_ticket_pink_details_ponytacd24
 TEXT: यह टकट अपने आप ऐटवेट होकर 14 सतबर को होने वाल पोनीटा और गलार पोनीटा कयुनट डे पेशल रसच का एसेस देगा।
+
+RESOURCE ID: item_global_event_ticket_desc_gowa24
+TEXT: थानीय समयानुसार, 23 नवंबर से 24 नवंबर 2024 तक Pokémon GO वाइड एरया : लोबल क लए पेशल रसच और बोनस को एसेस करने का टकट।
+
+RESOURCE ID: item_global_event_ticket_details_gowa24
+TEXT: यह टकट अपने आप ऐटवेट होकर 23 नवबर को Pokémon GO वाइड एरया : लोबल क लए होने वाल पेशल रसच और बोनस का एसेस आपको देगा।
+
+RESOURCE ID: join_max_battle_plural
+TEXT: {0} मैस बैटस में भाग लं
 
 RESOURCE ID: legendary_heroes_collection_shield_catch
 TEXT: लजेंडर हीरो - शीड पथ कच चैलंज
@@ -395,16 +410,22 @@ RESOURCE ID: max_battle_2x_xp
 TEXT: मैस बैटल जीतने पर 2× XP
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-09-21T00:16:20.904500+00:00 for hi-IN
-at SHA e86c3fd7471
-Pipeline 2631559, job 32196997
-Patch from: 0.333.0-SHA-38034fba-RC1, 0.331.0-SHA-8bd66da8-RC3
+TEXT: Built at 2024-09-24T17:05:53.284901+00:00 for hi-IN
+at SHA 221ff28a7ee
+Pipeline 2636443, job 32257321
+Patch from: 0.333.0-SHA-38034fba-RC1, 0.331.1-SHA-b42b626e-RC1
 
 RESOURCE ID: move_name_0406
 TEXT: ऑरा हील
 
 RESOURCE ID: move_name_0407
 TEXT: ऑरा हील
+
+RESOURCE ID: mp_replenish.1_title
+TEXT: 1 मैस पाटकल पैक ({0} PM)
+
+RESOURCE ID: mp_replenish.3_title
+TEXT: 3 मैस पाटकल पैक ({0} PM)
 
 RESOURCE ID: party_play_bonus
 TEXT: टम ल बोनस

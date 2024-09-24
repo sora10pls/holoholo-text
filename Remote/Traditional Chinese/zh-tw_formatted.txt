@@ -190,6 +190,9 @@ TEXT: 收集到{0}MP了！
 RESOURCE ID: bread_iap_max_mp_replenish_warning
 TEXT: 目前能夠持有的極巨粒子組合已達上限({0})。請先使用極巨粒子組合後，再重試一次。
 
+RESOURCE ID: bread_more_mp_to_reach_daily_limit
+TEXT: 今天還可收集{0}MP
+
 RESOURCE ID: bread_mp_amount
 TEXT: {0}MP
 
@@ -200,13 +203,13 @@ RESOURCE ID: bread_nearby_mp_ftue_conversation_1
 TEXT: 說到極巨粒子，那是一種可以用來捕捉極巨化寶可夢的神奇粒子，也能用來升級極巨招式。另外，極巨粒子有時會被簡稱為「MP」。
 
 RESOURCE ID: bread_station_current_battle_defeated
-TEXT: You defeated this Power Spot Boss
+TEXT: 打倒這裡的能量點頭目了
 
 RESOURCE ID: bread_station_failure_description
-TEXT: This Power Spot has reached its limit for placed Pokémon.
+TEXT: 可指派的寶可夢已達上限，所以無法指派寶可夢。
 
 RESOURCE ID: bread_station_failure_label
-TEXT: Cannot place Pokémon
+TEXT: 無法指派寶可夢
 
 RESOURCE ID: bread_station_header_leaderboard_description
 TEXT: 指派到能量點的寶可夢將會輔助訓練家挑戰能量點頭目
@@ -298,8 +301,11 @@ TEXT: ???
 RESOURCE ID: general1.ticket._falinksraidday_title
 TEXT: 列陣兵團體戰日入場券
 
+RESOURCE ID: general1.ticket._gowa24_title
+TEXT: Pokémon GO 曠野地帶：全球入場券
+
 RESOURCE ID: general1.ticket._monthlyticketnov24_title
-TEXT: Daily PokéCoin Bounty Ticket Part 3
+TEXT: Daily PokéCoin Bounty Part 3 Ticket
 
 RESOURCE ID: general1.ticket._monthlyticketoct24_title
 TEXT: 每日寶可幣獎勵Part2入場券
@@ -363,6 +369,12 @@ TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時�
 
 RESOURCE ID: item_event_ticket_pink_details_ponytacd24
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在9月14日參與小火馬和伽勒爾小火馬社群日特殊調查。
+
+RESOURCE ID: item_global_event_ticket_desc_gowa24
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年11月23日～24日領取「Pokémon GO 曠野地帶：全球」的特殊調查。
+
+RESOURCE ID: item_global_event_ticket_details_gowa24
+TEXT: 入場券將會自動啟用，不論你身在何處，都可以在當地時間2024年11月23日領取「Pokémon GO 曠野地帶：全球」的特殊調查。
 
 RESOURCE ID: legendary_heroes_collection_shield_catch
 TEXT: 傳說中的英雄：盾之路捕捉大挑戰
@@ -437,10 +449,10 @@ RESOURCE ID: max_battle_2x_xp
 TEXT: 在極巨對戰獲勝時XP變成2倍
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-09-21T00:16:20.904500+00:00 for zh-TW
-at SHA e86c3fd7471
-Pipeline 2631559, job 32196997
-Patch from: 0.333.0-SHA-38034fba-RC1, 0.331.0-SHA-8bd66da8-RC3
+TEXT: Built at 2024-09-24T17:05:53.284901+00:00 for zh-TW
+at SHA 221ff28a7ee
+Pipeline 2636443, job 32257321
+Patch from: 0.333.0-SHA-38034fba-RC1, 0.331.1-SHA-b42b626e-RC1
 
 RESOURCE ID: mode_name_bread
 TEXT: D-Max
