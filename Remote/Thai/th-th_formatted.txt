@@ -19,10 +19,10 @@ RESOURCE ID: badge_gotour_live_2023_day_00_title
 TEXT: Pokémon GO Tour: โฮเอ็น - ลาสเวกัส (Test)
 
 RESOURCE ID: badge_party_challenges_completed
-TEXT: Complete {0} Party Challenges
+TEXT: บรรลุคำทาปารตี้ {0} ครั้ง
 
 RESOURCE ID: badge_party_challenges_completed_title
-TEXT: Life of the Party
+TEXT: เสาหลักของปารตี้
 
 RESOURCE ID: badge_safari_2024_incheon_day_00
 TEXT: อินชอน 2024
@@ -165,14 +165,50 @@ TEXT: เกจเพิ่มขึ้นแลว!
 RESOURCE ID: bread_battle_pokemon_remaining
 TEXT: โปเกมอนที่เหลือ
 
+RESOURCE ID: bread_battle_tutorial_description_0
+TEXT: เอาชนะโปเกมอนไดแมกซและ
+โปเกมอนกิกะแมกซสุดแกรง
+เพื่อโอกาสในการจับพวกมัน
+
+RESOURCE ID: bread_battle_tutorial_description_2
+TEXT: โจมตีบอสโปเกมอนเพื่อชารจเกจดานบน
+หนาจอ เมื่อเกจเต็ม โปเกมอนของคุณ
+จะไดแมกซหรือกิกะแมกซได!
+
 RESOURCE ID: bread_collected_mp
 TEXT: รวบรวม {0} MP แลว
 
 RESOURCE ID: bread_iap_max_mp_replenish_warning
 TEXT: คุณมีแพ็กอนุภาคแมกซถึงจำนวนสูงสุดแลว ({0}) กรุณาใชแพ็กอนุภาคแมกซแลวลองใหมอีกครั้ง
 
+RESOURCE ID: bread_iap_mp_replenish_station_desc
+TEXT: ตองใชอนุภาคแมกซมากกวานี้
+ในการเขารวมแบตเทิลนี้
+
+RESOURCE ID: bread_lobby_assist_dialog_body
+TEXT: รับโบนัสพลังโจมตีตามจำนวนโปเกมอน
+ที่ถูกวางไวที่พาวเวอรสปอต
+
 RESOURCE ID: bread_more_mp_to_reach_daily_limit
 TEXT: วันนี้คุณสามารถเก็บ MP ไดอีก {0}
+
+RESOURCE ID: bread_move_upgrade_info_bread_all_desc
+TEXT: สามารถใชทาแมกซเวลาแบตเทิลกับ
+โปเกมอนไดแมกซและโปเกมอนกิกะแมกซ
+ที่พาวเวอรสปอต
+
+RESOURCE ID: bread_mp_daily_limit_reached
+TEXT: จำนวนอนุภาคแมกซที่สามารถรวบรวมไดในวันนี้
+ถึงขีดจำกัดสูงสุดแลว
+
+RESOURCE ID: bread_need_more_mp_enter_battle
+TEXT: ตองการอีก {0} อนุภาคแมกซ
+ในการเขารวมแบตเทิลนี้
+
+RESOURCE ID: bread_release_subtitle
+TEXT: เมื่อเรียกกลับมา
+มันจะเลิกสนับสนุนในแบตเทิลและ
+เลิกหาลูกอมที่พาวเวอรสปอต
 
 RESOURCE ID: bread_station_current_battle_defeated
 TEXT: คุณเอาชนะบอสพาวเวอรสปอตนี้ไดแลว
@@ -182,6 +218,38 @@ TEXT: จำนวนโปเกมอนที่สามารถวาง�
 
 RESOURCE ID: bread_station_failure_label
 TEXT: ไมสามารถวางโปเกมอนได
+
+RESOURCE ID: bread_station_header_leaderboard_description
+TEXT: โปเกมอนเหลานี้จะชวยสนับสนุนในการแบตเทิล
+กับบอสพาวเวอรสปอต
+
+RESOURCE ID: bread_station_tutorial_message_2
+TEXT: เอาชนะบอสพาวเวอรสปอตเพื่อจับมัน!
+อนุภาคแมกซจะถูกใชเฉพาะเวลาที่
+ชนะแบตเทิลแมกซไดเทานั้น
+
+RESOURCE ID: bread_station_tutorial_message_4
+TEXT: หลังจากเอาชนะบอสพาวเวอรสปอตได
+คุณจะสามารถเลือกโปเกมอนจาก
+ทีมแบตเทิลและวางที่พาวเวอรสปอตนั้น
+เพื่อชวยเทรนเนอรอื่นและรับลูกอมได
+คุณสามารถวางโปเกมอนไดสูงสุด 20 ตัว
+ที่พาวเวอรสปอตที่แตกตางกัน
+
+RESOURCE ID: bread_station_tutorial_message_5
+TEXT: คุณอาจไดเผชิญหนากับโปเกมอน
+เมื่อไปเยือนพาวเวอรสปอต
+หากมีโปเกมอนกิกะแมกซเฝาอยูที่
+พาวเวอรสปอต โปเกมอนไดแมกซ
+อาจปรากฏตัว!
+
+RESOURCE ID: bread_upgrade_attack
+TEXT: ทาแมกซนี้จะสรางแดเมจ
+มากขึ้น!
+
+RESOURCE ID: bread_upgrade_guard
+TEXT: ทาแมกซนี้จะลดปริมาณ
+แดเมจที่ไดรับลงอีก!
 
 RESOURCE ID: bundle.citysafari.box.1_title
 TEXT: กลอง City Safari
@@ -453,10 +521,10 @@ RESOURCE ID: max_battle_2x_xp
 TEXT: 2× XP จากการชนะแบตเทิลแมกซ
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-09-25T21:32:13.753051+00:00 for th-TH
-at SHA 18aad430480
-Pipeline 2640763, job 32315662
-Patch from: 0.331.1-SHA-b42b626e-RC1, 0.333.0-SHA-796eb6c7-RC2
+TEXT: Built at 2024-09-26T23:52:08.087557+00:00 for th-TH
+at SHA 2de84726bc
+Pipeline 2645551, job 32369966
+Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.331.0-SHA-8bd66da8-RC3
 
 RESOURCE ID: move_name_0406
 TEXT: กงลอออรา
