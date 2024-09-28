@@ -142,8 +142,38 @@ TEXT: 2025 Pokémon EUIC 챔피언: 보너스 시간제한 리서치 (1/2)
 RESOURCE ID: bonus_tr_gbl_naic_2025_a_title_01
 TEXT: 2025 Pokémon EUIC 챔피언: 보너스 시간제한 리서치 (2/2)
 
+RESOURCE ID: bread_battle_cheer_charge_blocked
+TEXT: Max Meter is Full!
+
+RESOURCE ID: bread_battle_remaining
+TEXT: 남음
+
+RESOURCE ID: bread_battle_resolve_timed_out_title
+TEXT: Everyone's Pokémon have grown tired!
+
 RESOURCE ID: bread_cannot_enter_lobby_not_eligible_title
 TEXT: 적어도 1마리의 다이맥스 포켓몬이 필요합니다!
+
+RESOURCE ID: bread_dough_battle_ftue_body_generic
+TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 trainers.
+
+RESOURCE ID: bread_dough_battle_ftue_body_specific
+TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of {0} to {1} trainers.
+
+RESOURCE ID: bread_dough_battle_ftue_title
+TEXT: Giganatamax Max Battles!
+
+RESOURCE ID: bread_dough_lobby_count
+TEXT: Team {0} of {1}
+
+RESOURCE ID: bread_dough_lobby_number
+TEXT: Team {0}
+
+RESOURCE ID: bread_dough_lobby_trainer_list_title
+TEXT: {0} Trainers
+
+RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
+TEXT: 1Trainer
 
 RESOURCE ID: bread_iap_max_mp_replenish_warning
 TEXT: 한번에 가질 수 있는 맥스 파티클 팩의 상한 {0}에 도달했습니다. 맥스 파티클 팩을 사용해서 다시 시도해 주십시오.
@@ -151,11 +181,17 @@ TEXT: 한번에 가질 수 있는 맥스 파티클 팩의 상한 {0}에 도달�
 RESOURCE ID: bread_more_mp_to_reach_daily_limit
 TEXT: 오늘은 {0}MP 더 모을 수 있습니다
 
+RESOURCE ID: bread_notification_empty
+TEXT: {0} has returned from the Power Spot.
+
 RESOURCE ID: bread_station_current_battle_defeated
 TEXT: 파워스폿 보스를 물리쳤다
 
 RESOURCE ID: bread_station_failure_description
 TEXT: 배치 포켓몬 상한에 도달하여 포켓몬을 배치할 수 없습니다.
+
+RESOURCE ID: bread_station_failure_description_duplicate
+TEXT: You have already stationed a Pokemon at this Power Spot.
 
 RESOURCE ID: bread_station_failure_label
 TEXT: 포켓몬을 배치할 수 없습니다
@@ -210,6 +246,9 @@ TEXT: 9월 18일 10:00～
 
 RESOURCE ID: event_datetime_range_key_researchdaysept24
 TEXT: 9월 22일 14시~17시
+
+RESOURCE ID: event_datetime_range_key_sewaddlecd24
+TEXT: 10월 5일 14시~17시
 
 RESOURCE ID: expires_in_clock
 TEXT: 종료까지 {0}
@@ -274,6 +313,9 @@ TEXT: 하랑우탄과 내던숭이의 리서치데이 프리미엄 시간제한 
 RESOURCE ID: general1.ticket_ponytacd24_title
 TEXT: 포니타와 포니타(가라르의 모습) 커뮤니티 데이 티켓
 
+RESOURCE ID: general1.ticket_sewaddlecd24_title
+TEXT: 두르보 커뮤니티 데이 티켓
+
 RESOURCE ID: halloween_cup_great_title
 TEXT: 핼러윈 컵: 슈퍼리그 버전
 
@@ -285,6 +327,9 @@ TEXT: 체육관, 파워스폿에 있는 포켓몬을 보낼 수 없습니다
 
 RESOURCE ID: home_transfer_error_gym_deployed_old
 TEXT: 체육관에 배치된 포켓몬은 전송할 수 없습니다
+
+RESOURCE ID: iap_sale_days_left
+TEXT: {0}일 남음
 
 RESOURCE ID: incense_spawns_attract
 TEXT: 이벤트 포켓몬이 향로에 반응
@@ -322,8 +367,14 @@ TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2024년 10월 3일
 RESOURCE ID: item_event_ticket_pink_desc_ponytacd24
 TEXT: 현지시간 2024년 9월 14일 14시부터 포니타와 포니타(가라르의 모습) 커뮤니티 데이 스페셜리서치를 진행하기 위한 티켓.
 
+RESOURCE ID: item_event_ticket_pink_desc_sewaddlecd24
+TEXT: 현지시간 2024년 10월 5일 14시부터 두르보 커뮤니티 데이 스페셜리서치를 진행하기 위한 티켓.
+
 RESOURCE ID: item_event_ticket_pink_details_ponytacd24
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 9월 14일 포니타와(포니타(가라르의 모습) 커뮤니티 데이 스페셜리서치가 진행됩니다.
+
+RESOURCE ID: item_event_ticket_pink_details_sewaddlecd24
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 년 10월 5일 두르보 커뮤니티 데이 스페셜리서치가 진행됩니다.
 
 RESOURCE ID: item_global_event_ticket_desc_gowa24
 TEXT: 현지시간 2024년 11월 23일, 24일에 Pokémon GO 와일드 에리어: 글로벌 스페셜리서치를 진행할 수 있는 티켓.
@@ -404,10 +455,10 @@ RESOURCE ID: max_battle_2x_xp
 TEXT: 2× 맥스배틀 승리시 XP
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-09-26T23:52:08.087557+00:00 for ko-KR
-at SHA 2de84726bc
-Pipeline 2645551, job 32369966
-Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.331.0-SHA-8bd66da8-RC3
+TEXT: Built at 2024-09-27T23:56:28.971002+00:00 for ko-KR
+at SHA 1252485c4d
+Pipeline 2648787, job 32407195
+Patch from: 0.333.0-SHA-2c73ee88-RC4, 0.331.0-SHA-aa66102c-RC1
 
 RESOURCE ID: mp_replenish.1_title
 TEXT: 맥스 파티클 팩X1({0}MP)
@@ -417,6 +468,9 @@ TEXT: 맥스 파티클 팩X3 ({0}MP)
 
 RESOURCE ID: n_hat_gtr2024pikachufanmask_0_display_name
 TEXT: 피카츄 가면
+
+RESOURCE ID: nearby_station_active_header
+TEXT: Active
 
 RESOURCE ID: party_play_bonus
 TEXT: 팀 플레이 보너스
@@ -794,6 +848,11 @@ TEXT: 현지시간 2024년 9월 22일 14시~17시에 필드리서치를 진행�
 
 이벤트 개최 중 시간제한 리서치를 완료하고 만날 수 있는 포켓몬은 색이 다른 포켓몬을 포함합니다.(시간제한 리서치 완료로 만날 수 있는 색이 다른 포켓몬과 같은 확률)
 
+RESOURCE ID: text_rewards_key_sewaddlecd24
+TEXT: <b>받을 수 있는 것:</b>
+- 두르보와 그 진화형 포켓몬과의 만남
+- 이상한사탕, 하이퍼볼 등의 도구
+
 RESOURCE ID: ticket_ponyta
 TEXT: 커뮤니티 데이 스페셜리서치 티켓이 숍에 등장
 
@@ -819,7 +878,7 @@ RESOURCE ID: tr_pitch_perfect_title_02
 TEXT: 피치 퍼펙트 보너스 시간제한 리서치(3/3)
 
 RESOURCE ID: tr_ticket_in_shop
-TEXT: Ticket for premium Timed Research available in the shop
+TEXT: 프리미엄 시간제한 리서치 티켓이 숍에 등장
 
 RESOURCE ID: unified_punishment_strike1_desc_singular
 TEXT: 당신 계정에서 <a href="player_guidelines_link_dsa">플레이어 가이드라인</a> 의 위반 활동이 검출되어 경고가 1일간 표시됩니다.

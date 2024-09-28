@@ -166,6 +166,9 @@ TEXT: 能量條累積完成！
 RESOURCE ID: bread_battle_bread_meter_collect_charge
 TEXT: 能量條提升了！
 
+RESOURCE ID: bread_battle_cheer_charge_blocked
+TEXT: Max Meter is Full!
+
 RESOURCE ID: bread_battle_log_cheer_bread_meter
 TEXT: 聲援讓能量條提升了！
 
@@ -178,6 +181,9 @@ TEXT: 還可使用{0}次極巨招式
 RESOURCE ID: bread_battle_pokemon_remaining
 TEXT: 剩餘的寶可夢
 
+RESOURCE ID: bread_battle_resolve_timed_out_title
+TEXT: Everyone's Pokémon have grown tired!
+
 RESOURCE ID: bread_battle_sideline_tutorial_1_inactive
 TEXT: 沒有可以戰鬥的寶可夢了……
 
@@ -186,6 +192,27 @@ TEXT: 透過攻擊頭目寶可夢累積能量條後，就能讓自己的寶可�
 
 RESOURCE ID: bread_collected_mp
 TEXT: 收集到{0}MP了！
+
+RESOURCE ID: bread_dough_battle_ftue_body_generic
+TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 trainers.
+
+RESOURCE ID: bread_dough_battle_ftue_body_specific
+TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of {0} to {1} trainers.
+
+RESOURCE ID: bread_dough_battle_ftue_title
+TEXT: Giganatamax Max Battles!
+
+RESOURCE ID: bread_dough_lobby_count
+TEXT: Team {0} of {1}
+
+RESOURCE ID: bread_dough_lobby_number
+TEXT: Team {0}
+
+RESOURCE ID: bread_dough_lobby_trainer_list_title
+TEXT: {0} Trainers
+
+RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
+TEXT: 1Trainer
 
 RESOURCE ID: bread_iap_max_mp_replenish_warning
 TEXT: 目前能夠持有的極巨粒子組合已達上限({0})。請先使用極巨粒子組合後，再重試一次。
@@ -202,11 +229,17 @@ TEXT: 使用{0}MP
 RESOURCE ID: bread_nearby_mp_ftue_conversation_1
 TEXT: 說到極巨粒子，那是一種可以用來捕捉極巨化寶可夢的神奇粒子，也能用來升級極巨招式。另外，極巨粒子有時會被簡稱為「MP」。
 
+RESOURCE ID: bread_notification_empty
+TEXT: {0} has returned from the Power Spot.
+
 RESOURCE ID: bread_station_current_battle_defeated
 TEXT: 打倒這裡的能量點頭目了
 
 RESOURCE ID: bread_station_failure_description
 TEXT: 可指派的寶可夢已達上限，無法指派寶可夢。
+
+RESOURCE ID: bread_station_failure_description_duplicate
+TEXT: You have already stationed a Pokemon at this Power Spot.
 
 RESOURCE ID: bread_station_failure_label
 TEXT: 無法指派寶可夢
@@ -271,6 +304,9 @@ TEXT: 9月18日10:00～
 RESOURCE ID: event_datetime_range_key_researchdaysept24
 TEXT: 9月22日14:00～17:00
 
+RESOURCE ID: event_datetime_range_key_sewaddlecd24
+TEXT: 10月5日14:00～17:00
+
 RESOURCE ID: expires_in_clock
 TEXT: 距離結束還剩{0}
 
@@ -334,6 +370,9 @@ TEXT: 智揮猩和投擲猴調查日特級限時調查入場券
 RESOURCE ID: general1.ticket_ponytacd24_title
 TEXT: 小火馬和伽勒爾小火馬社群日入場券
 
+RESOURCE ID: general1.ticket_sewaddlecd24_title
+TEXT: 蟲寶包社群日入場券
+
 RESOURCE ID: halloween_cup_great_title
 TEXT: 萬聖節盃：超級聯盟版
 
@@ -382,8 +421,14 @@ TEXT: 入場券將會自動啟用，不論你身在何處，都能在2024年10�
 RESOURCE ID: item_event_ticket_pink_desc_ponytacd24
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年9月14日14:00開始參與小火馬和伽勒爾小火馬社群日的特殊調查。
 
+RESOURCE ID: item_event_ticket_pink_desc_sewaddlecd24
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年10月5日14:00開始參與蟲寶包社群日的特殊調查。
+
 RESOURCE ID: item_event_ticket_pink_details_ponytacd24
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在9月14日參與小火馬和伽勒爾小火馬社群日特殊調查。
+
+RESOURCE ID: item_event_ticket_pink_details_sewaddlecd24
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在10月5日參與蟲寶包社群日特殊調查「解開裁縫寶可夢之謎！」。
 
 RESOURCE ID: item_global_event_ticket_desc_gowa24
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年11月23日～24日領取「Pokémon GO 曠野地帶：全球」的特殊調查。
@@ -464,10 +509,10 @@ RESOURCE ID: max_battle_2x_xp
 TEXT: 在極巨對戰獲勝時XP變成2倍
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-09-26T23:52:08.087557+00:00 for zh-TW
-at SHA 2de84726bc
-Pipeline 2645551, job 32369966
-Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.331.0-SHA-8bd66da8-RC3
+TEXT: Built at 2024-09-27T23:56:28.971002+00:00 for zh-TW
+at SHA 1252485c4d
+Pipeline 2648787, job 32407195
+Patch from: 0.333.0-SHA-2c73ee88-RC4, 0.331.0-SHA-aa66102c-RC1
 
 RESOURCE ID: mode_name_bread
 TEXT: D-Max
@@ -488,6 +533,9 @@ TEXT: 極巨粒子組合
 RESOURCE ID: mp_replenish.3_title
 TEXT: 極巨粒子組合x3
 ({0}MP)
+
+RESOURCE ID: nearby_station_active_header
+TEXT: Active
 
 RESOURCE ID: party_play_bonus
 TEXT: 小隊合作獎勵
@@ -902,6 +950,11 @@ RESOURCE ID: text_rewards_key_researchdaysept24
 TEXT: 在本限時調查中，只要在當地時間2024年9月22日14:00～17:00完成田野調查課題，就可以遇見智揮猩和投擲猴。
 
 在活動舉辦期間，可透過本限時調查遇見的寶可夢包含了異色寶可夢（機率會與完成活動的田野調查時可遇見的寶可夢相同）。
+
+RESOURCE ID: text_rewards_key_sewaddlecd24
+TEXT: <b>可獲得的獎勵：</b>
+・與蟲寶包及其進化形相遇
+・神奇糖果、高級球等道具
 
 RESOURCE ID: ticket_ponyta
 TEXT: 社群日特殊調查入場券在商店裡上架了

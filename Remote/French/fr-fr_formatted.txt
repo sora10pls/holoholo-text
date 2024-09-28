@@ -368,8 +368,35 @@ TEXT: Étude ponctuelle bonus : Champion des CIE Pokémon 2025 (1/2)
 RESOURCE ID: bonus_tr_gbl_naic_2025_a_title_01
 TEXT: Étude ponctuelle bonus : Champion des CIE Pokémon 2025 (2/2)
 
+RESOURCE ID: bread_battle_cheer_charge_blocked
+TEXT: Max Meter is Full!
+
 RESOURCE ID: bread_battle_pokemon_remaining
 TEXT: POKÉMON RESTANTS
+
+RESOURCE ID: bread_battle_resolve_timed_out_title
+TEXT: Everyone's Pokémon have grown tired!
+
+RESOURCE ID: bread_dough_battle_ftue_body_generic
+TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 trainers.
+
+RESOURCE ID: bread_dough_battle_ftue_body_specific
+TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of {0} to {1} trainers.
+
+RESOURCE ID: bread_dough_battle_ftue_title
+TEXT: Giganatamax Max Battles!
+
+RESOURCE ID: bread_dough_lobby_count
+TEXT: Team {0} of {1}
+
+RESOURCE ID: bread_dough_lobby_number
+TEXT: Team {0}
+
+RESOURCE ID: bread_dough_lobby_trainer_list_title
+TEXT: {0} Trainers
+
+RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
+TEXT: 1Trainer
 
 RESOURCE ID: bread_iap_max_mp_replenish_warning
 TEXT: Tu as atteint la limite maximale de Lots de Particules Max ({0}). Utilise tes Lots de Particules Max et réessaie.
@@ -377,11 +404,17 @@ TEXT: Tu as atteint la limite maximale de Lots de Particules Max ({0}). Utilise 
 RESOURCE ID: bread_more_mp_to_reach_daily_limit
 TEXT: Tu peux récupérer {0} PM de plus aujourd’hui
 
+RESOURCE ID: bread_notification_empty
+TEXT: {0} has returned from the Power Spot.
+
 RESOURCE ID: bread_station_current_battle_defeated
 TEXT: Tu as battu ce Boss de Source d’Énergie
 
 RESOURCE ID: bread_station_failure_description
 TEXT: Cette Source d’Énergie a atteint sa limite de Pokémon.
+
+RESOURCE ID: bread_station_failure_description_duplicate
+TEXT: You have already stationed a Pokemon at this Power Spot.
 
 RESOURCE ID: bread_station_failure_label
 TEXT: Impossible de placer ce Pokémon
@@ -424,6 +457,9 @@ au 22 septembre à 20h
 
 RESOURCE ID: event_datetime_range_key_researchdaysept24
 TEXT: Le 22 septembre de 14h à 17h
+
+RESOURCE ID: event_datetime_range_key_sewaddlecd24
+TEXT: Le 5 octobre de 14h à 17h
 
 RESOURCE ID: expires_in_clock
 TEXT: Expire dans {0}
@@ -482,6 +518,9 @@ TEXT: Ticket pour l’Étude ponctuelle premium Fantasmagorie Psy 2024
 RESOURCE ID: general1.ticket._researchdaysept24_title
 TEXT: Ticket pour l’Étude ponctuelle premium de la Journée Étude Gouroutan et Quartermac
 
+RESOURCE ID: general1.ticket_sewaddlecd24_title
+TEXT: Ticket pour la Journée Communauté de Larveyette
+
 RESOURCE ID: general_save_image
 TEXT: Enregistrer
 
@@ -529,6 +568,12 @@ TEXT: Ce ticket s’activera automatiquement pour te donner accès au Bonus de P
 
 RESOURCE ID: item_event_ticket_gray_details_monthlyticketoct24
 TEXT: Ce ticket s’activera automatiquement pour te donner accès au Bonus de PokéPièces quotidien – 2ᵉ partie offrant des PokéPièces le 3 octobre, où que tu sois.
+
+RESOURCE ID: item_event_ticket_pink_desc_sewaddlecd24
+TEXT: Un ticket pour accéder à l’Étude spéciale de la Journée Communauté de Larveyette dès le 5 octobre à 14h, heure locale, où que tu sois.
+
+RESOURCE ID: item_event_ticket_pink_details_sewaddlecd24
+TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude spéciale « Vert à soie » de la Journée Communauté de Larveyette le 5 octobre, où que tu sois.
 
 RESOURCE ID: item_global_event_ticket_desc_gowa24
 TEXT: Un ticket pour accéder à l’Étude spéciale de l’évènement Terres Sauvages Pokémon GO : Global, du 23 au 24 novembre 2024, où que tu sois.
@@ -591,10 +636,19 @@ RESOURCE ID: max_battle_2x_xp
 TEXT: Gagnez le double de PX quand vous gagnez des Combat Dynamax.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-09-26T23:52:08.087557+00:00 for fr-FR
-at SHA 2de84726bc
-Pipeline 2645551, job 32369966
-Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.331.0-SHA-8bd66da8-RC3
+TEXT: Built at 2024-09-27T23:56:28.971002+00:00 for fr-FR
+at SHA 1252485c4d
+Pipeline 2648787, job 32407195
+Patch from: 0.333.0-SHA-2c73ee88-RC4, 0.331.0-SHA-aa66102c-RC1
+
+RESOURCE ID: n_hat_gtr2024eeveefanmask_0_display_name
+TEXT: Masque de festival (Évoli)
+
+RESOURCE ID: n_hat_gtr2024pikachufanmask_0_display_name
+TEXT: Masque de festival (Pikachu)
+
+RESOURCE ID: nearby_station_active_header
+TEXT: Active
 
 RESOURCE ID: photo_hub_hashtags
 TEXT: Utilise les hashtags #GOsnapshot #GOsnapshotCelebration
@@ -1040,6 +1094,11 @@ TEXT: Ces Études ponctuelles, qui t’encouragent à terminer des tâches d’�
 Pendant l’évènement, les Pokémon rencontrés lors de cette Étude ponctuelle auront les mêmes probabilités d’être chromatiques que ceux rencontrés par le biais de tâches d’Études de terrain.
 
 Ces Études ponctuelles seront disponibles le 22 septembre 2024 de 14h à 17h, heures locales.
+
+RESOURCE ID: text_rewards_key_sewaddlecd24
+TEXT: <b>Donne accès aux récompenses suivantes :</b>
+• Des objets en jeu premium tels que des Super Bonbons, des Hyper Balls et plus encore
+• Des rencontres supplémentaires avec Larveyette et ses Évolutions
 
 RESOURCE ID: ticket_ponyta
 TEXT: Ticket pour l’Étude spéciale sur le thème de la Journée Communauté disponible dans la Boutique.

@@ -61,8 +61,35 @@ TEXT: Ricerca a tempo aggiuntiva dedicata al Campione degli Internazionali Europ
 RESOURCE ID: bonus_tr_gbl_naic_2025_a_title_01
 TEXT: Ricerca a tempo aggiuntiva dedicata al Campione degli Internazionali Europei Pokémon 2025 (2/2)
 
+RESOURCE ID: bread_battle_cheer_charge_blocked
+TEXT: Max Meter is Full!
+
 RESOURCE ID: bread_battle_pokemon_remaining
 TEXT: POKÉMON RIMANENTI
+
+RESOURCE ID: bread_battle_resolve_timed_out_title
+TEXT: Everyone's Pokémon have grown tired!
+
+RESOURCE ID: bread_dough_battle_ftue_body_generic
+TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 trainers.
+
+RESOURCE ID: bread_dough_battle_ftue_body_specific
+TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of {0} to {1} trainers.
+
+RESOURCE ID: bread_dough_battle_ftue_title
+TEXT: Giganatamax Max Battles!
+
+RESOURCE ID: bread_dough_lobby_count
+TEXT: Team {0} of {1}
+
+RESOURCE ID: bread_dough_lobby_number
+TEXT: Team {0}
+
+RESOURCE ID: bread_dough_lobby_trainer_list_title
+TEXT: {0} Trainers
+
+RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
+TEXT: 1Trainer
 
 RESOURCE ID: bread_iap_max_mp_replenish_warning
 TEXT: Hai raggiunto il numero massimo di pacchi particelle Dynamax ({0}). Usane uno e riprova.
@@ -70,11 +97,17 @@ TEXT: Hai raggiunto il numero massimo di pacchi particelle Dynamax ({0}). Usane 
 RESOURCE ID: bread_more_mp_to_reach_daily_limit
 TEXT: Puoi raccogliere altre {0} PD oggi
 
+RESOURCE ID: bread_notification_empty
+TEXT: {0} has returned from the Power Spot.
+
 RESOURCE ID: bread_station_current_battle_defeated
 TEXT: Hai sconfitto questo boss del punto energetico
 
 RESOURCE ID: bread_station_failure_description
 TEXT: Questo punto energetico ha raggiunto il limite di Pokémon posizionati.
+
+RESOURCE ID: bread_station_failure_description_duplicate
+TEXT: You have already stationed a Pokemon at this Power Spot.
 
 RESOURCE ID: bread_station_failure_label
 TEXT: Impossibile posizionare il Pokémon
@@ -117,6 +150,9 @@ al 22 settembre alle 20:00
 
 RESOURCE ID: event_datetime_range_key_researchdaysept24
 TEXT: 22 settembre dalle 14:00 alle 17:00
+
+RESOURCE ID: event_datetime_range_key_sewaddlecd24
+TEXT: 5 ottobre dalle 14:00 alle 17:00
 
 RESOURCE ID: expires_in_clock
 TEXT: Scade tra {0}
@@ -175,6 +211,9 @@ TEXT: Biglietto per la ricerca a tempo premium dell’evento “Psicomania 2024�
 RESOURCE ID: general1.ticket._researchdaysept24_title
 TEXT: Biglietto per la ricerca a tempo premium della giornata di ricerca dedicata a Oranguru e Passimian
 
+RESOURCE ID: general1.ticket_sewaddlecd24_title
+TEXT: Biglietto per il Community Day dedicato a Sewaddle
+
 RESOURCE ID: halloween_cup_great_title
 TEXT: Coppa Halloween: edizione Lega Mega
 
@@ -222,6 +261,12 @@ TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso all
 
 RESOURCE ID: item_event_ticket_gray_details_monthlyticketoct24
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla seconda parte del Tesoro di Pokémonete il 3 ottobre, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_pink_desc_sewaddlecd24
+TEXT: Un biglietto per accedere alla ricerca speciale del Community Day dedicato a Sewaddle dal 5 ottobre alle 14:00 ora locale, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_pink_details_sewaddlecd24
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca speciale del Community Day dedicato a Sewaddle, “Tanta foglia d’avventura”, il 5 ottobre, ovunque ti trovi.
 
 RESOURCE ID: item_global_event_ticket_desc_gowa24
 TEXT: Un biglietto per accedere alla ricerca speciale e ai bonus dell’evento “Terre Selvagge di Pokémon GO (globale)” dal 23 al 24 novembre 2024, ovunque ti trovi.
@@ -308,16 +353,25 @@ RESOURCE ID: max_battle_2x_xp
 TEXT: Doppio dei PE quando vinci delle Lotte Dynamax
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-09-26T23:52:08.087557+00:00 for it-IT
-at SHA 2de84726bc
-Pipeline 2645551, job 32369966
-Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.331.0-SHA-8bd66da8-RC3
+TEXT: Built at 2024-09-27T23:56:28.971002+00:00 for it-IT
+at SHA 1252485c4d
+Pipeline 2648787, job 32407195
+Patch from: 0.333.0-SHA-2c73ee88-RC4, 0.331.0-SHA-aa66102c-RC1
 
 RESOURCE ID: mp_replenish.1_title
 TEXT: 1 pacco PD ({0} PD)
 
 RESOURCE ID: mp_replenish.3_title
 TEXT: 3 pacchi PD ({0} PD)
+
+RESOURCE ID: n_hat_gtr2024eeveefanmask_0_display_name
+TEXT: Maschera festiva (Eevee)
+
+RESOURCE ID: n_hat_gtr2024pikachufanmask_0_display_name
+TEXT: Maschera festiva (Pikachu)
+
+RESOURCE ID: nearby_station_active_header
+TEXT: Active
 
 RESOURCE ID: photo_hub_hashtags
 TEXT: Usa gli hashtag #GOsnapshot #GOsnapshotCelebration
@@ -535,6 +589,11 @@ TEXT: Queste ricerche a tempo, che ti richiedono di completare missioni di ricer
 Per tutta la durata dell’evento, i Pokémon incontrati nell’ambito di queste ricerche a tempo hanno la stessa possibilità di essere in versione cromatica di quelli che si possono incontrare nel corso della ricerca sul campo.
 
 Queste ricerche a tempo saranno disponibili il 22 settembre 2024 dalle 14:00 alle 17:00 ora locale.
+
+RESOURCE ID: text_rewards_key_sewaddlecd24
+TEXT: <b>Le ricompense includono:</b>
+• Strumenti premium nel gioco come Caramelle Rare, Ultra Ball e altro
+• Incontri aggiuntivi con Sewaddle e le sue evoluzioni
 
 RESOURCE ID: ticket_ponyta
 TEXT: I biglietti per la ricerca speciale a tema Community Day sono disponibili nel negozio

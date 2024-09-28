@@ -76,14 +76,47 @@ TEXT: メーターチャージ完了！
 RESOURCE ID: bread_battle_bread_meter_collect_charge
 TEXT: メーターが増えた！
 
+RESOURCE ID: bread_battle_cheer_charge_blocked
+TEXT: Max Meter is Full!
+
+RESOURCE ID: bread_battle_resolve_timed_out_title
+TEXT: Everyone's Pokémon have grown tired!
+
+RESOURCE ID: bread_dough_battle_ftue_body_generic
+TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 trainers.
+
+RESOURCE ID: bread_dough_battle_ftue_body_specific
+TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of {0} to {1} trainers.
+
+RESOURCE ID: bread_dough_battle_ftue_title
+TEXT: Giganatamax Max Battles!
+
+RESOURCE ID: bread_dough_lobby_count
+TEXT: Team {0} of {1}
+
+RESOURCE ID: bread_dough_lobby_number
+TEXT: Team {0}
+
+RESOURCE ID: bread_dough_lobby_trainer_list_title
+TEXT: {0} Trainers
+
+RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
+TEXT: 1Trainer
+
 RESOURCE ID: bread_more_mp_to_reach_daily_limit
 TEXT: 今日あと{0}MP集められます
+
+RESOURCE ID: bread_notification_empty
+TEXT: {0} has returned from the Power Spot.
 
 RESOURCE ID: bread_station_current_battle_defeated
 TEXT: このパワースポットボスを倒した
 
 RESOURCE ID: bread_station_failure_description
 TEXT: 配置ポケモンの上限に達したため、ポケモンを配置することができません。
+
+RESOURCE ID: bread_station_failure_description_duplicate
+TEXT: You have already stationed a Pokemon at this Power Spot.
 
 RESOURCE ID: bread_station_failure_label
 TEXT: ポケモン配置できません
@@ -126,6 +159,9 @@ TEXT: 9月18日10:00AM～
 
 RESOURCE ID: event_datetime_range_key_researchdaysept24
 TEXT: 9月22日2:00PM～5:00PM
+
+RESOURCE ID: event_datetime_range_key_sewaddlecd24
+TEXT: 9月5日2:00PM～5:00PM
 
 RESOURCE ID: expires_in_clock
 TEXT: 終了まで{0}
@@ -184,6 +220,9 @@ TEXT: エスパーウィーク2024プレミアムタイムチャレンジチケ�
 RESOURCE ID: general1.ticket._researchdaysept24_title
 TEXT: ヤレユータンとナゲツケサルのリサーチデイプレミアムタイムチャレンジチケット
 
+RESOURCE ID: general1.ticket_sewaddlecd24_title
+TEXT: クルミルコミュニティ・デイチケット
+
 RESOURCE ID: home_transfer_error_gym_deployed
 TEXT: ジム・パワースポットにいるポケモンを送ることはできません
 
@@ -222,6 +261,12 @@ TEXT: このチケットは自動的に発動し現地時間2024年11月3日に�
 
 RESOURCE ID: item_event_ticket_gray_details_monthlyticketoct24
 TEXT: このチケットは自動的に発動し現地時間2024年10月3日にデイリーポケコインセレクトパート2が受け取れるようになります。
+
+RESOURCE ID: item_event_ticket_pink_desc_sewaddlecd24
+TEXT: 現地時間2024年10月5日2:00PMからクルミルコミュニティ・デイのスペシャルリサーチを行うためのチケット。
+
+RESOURCE ID: item_event_ticket_pink_details_sewaddlecd24
+TEXT: このチケットは自動的に発動し10月5日にクルミルコミュニティ・デイのスペシャルリサーチ「さいほうポケモンを解明せよ！」が行えるようになります。
 
 RESOURCE ID: item_global_event_ticket_desc_gowa24
 TEXT: 現地時間2024年11月23日・24日にPokémonGOワイルドエリア：グローバルのスペシャルリサーチを行うためのチケット。
@@ -281,10 +326,13 @@ RESOURCE ID: max_battle_2x_xp
 TEXT: 2×　マックスバトル勝利XP
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-09-26T23:52:08.087557+00:00 for ja-JP
-at SHA 2de84726bc
-Pipeline 2645551, job 32369966
-Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.331.0-SHA-8bd66da8-RC3
+TEXT: Built at 2024-09-27T23:56:28.971002+00:00 for ja-JP
+at SHA 1252485c4d
+Pipeline 2648787, job 32407195
+Patch from: 0.333.0-SHA-2c73ee88-RC4, 0.331.0-SHA-aa66102c-RC1
+
+RESOURCE ID: nearby_station_active_header
+TEXT: Active
 
 RESOURCE ID: photo_hub_hashtags
 TEXT: ハッシュタグ #GOsnapshot #GOsnapshotCelebration で投稿！
@@ -516,6 +564,11 @@ RESOURCE ID: text_rewards_key_researchdaysept24
 TEXT: 現地時間2024年9月22日2:00PM～5:00PMに、フィールドリサーチタスクをこなしていくことによりヤレユータンとナゲツケサルに出会えます。
 
 イベント開催中、タイムチャレンジを完了して出会えるポケモンは色違いポケモン（フィールドリサーチ完了で出会える色違いポケモンの可能性と同等）を含みます。
+
+RESOURCE ID: text_rewards_key_sewaddlecd24
+TEXT: <b>もらえるもの：</b>
+・クルミルとその進化形ポケモンとの出会い
+・ふしぎなアメ、ハイパーボールなどの道具
 
 RESOURCE ID: ticket_ponyta
 TEXT: コミュニティ・デイのスペシャルリサーチ用チケットがショップに登場

@@ -61,8 +61,35 @@ TEXT: Bonus de investigación temporal del Campeón del EUIC 2025 (1/2)
 RESOURCE ID: bonus_tr_gbl_naic_2025_a_title_01
 TEXT: Bonus de investigación temporal del Campeón del EUIC 2025 (2/2)
 
+RESOURCE ID: bread_battle_cheer_charge_blocked
+TEXT: Max Meter is Full!
+
 RESOURCE ID: bread_battle_pokemon_remaining
 TEXT: POKÉMON RESTANTES
+
+RESOURCE ID: bread_battle_resolve_timed_out_title
+TEXT: Everyone's Pokémon have grown tired!
+
+RESOURCE ID: bread_dough_battle_ftue_body_generic
+TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 trainers.
+
+RESOURCE ID: bread_dough_battle_ftue_body_specific
+TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of {0} to {1} trainers.
+
+RESOURCE ID: bread_dough_battle_ftue_title
+TEXT: Giganatamax Max Battles!
+
+RESOURCE ID: bread_dough_lobby_count
+TEXT: Team {0} of {1}
+
+RESOURCE ID: bread_dough_lobby_number
+TEXT: Team {0}
+
+RESOURCE ID: bread_dough_lobby_trainer_list_title
+TEXT: {0} Trainers
+
+RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
+TEXT: 1Trainer
 
 RESOURCE ID: bread_iap_max_mp_replenish_warning
 TEXT: Has alcanzado la cantidad máxima de Packs de Partículas Max ({0}). Utiliza tus Packs de Partículas Max y vuelve a intentarlo.
@@ -70,11 +97,17 @@ TEXT: Has alcanzado la cantidad máxima de Packs de Partículas Max ({0}). Utili
 RESOURCE ID: bread_more_mp_to_reach_daily_limit
 TEXT: Puedes recoger {0} PM más hoy
 
+RESOURCE ID: bread_notification_empty
+TEXT: {0} has returned from the Power Spot.
+
 RESOURCE ID: bread_station_current_battle_defeated
 TEXT: Has derrotado al jefe de este nodo energético
 
 RESOURCE ID: bread_station_failure_description
 TEXT: Se ha alcanzado el límite de Pokémon en este nodo energético.
+
+RESOURCE ID: bread_station_failure_description_duplicate
+TEXT: You have already stationed a Pokemon at this Power Spot.
 
 RESOURCE ID: bread_station_failure_label
 TEXT: No se puede colocar al Pokémon
@@ -110,8 +143,8 @@ RESOURCE ID: event_datetime_range_key_falinksraidday
 TEXT: 8 de septiembre de 14:00 a 22:00.
 
 RESOURCE ID: event_datetime_range_key_monthlyticketnov24
-TEXT: November 3, 12:00 a.m. –
-December 2, 11:59 p.m.
+TEXT: Del 3 de noviembre a las 00:00
+al 2 de diciembre a las 23:59.
 
 RESOURCE ID: event_datetime_range_key_monthlyticketoct24
 TEXT: Del 3 de octubre a las 00:00 al
@@ -123,6 +156,9 @@ TEXT: Del 18 de septiembre a las 10:00 al
 
 RESOURCE ID: event_datetime_range_key_researchdaysept24
 TEXT: 22 de septiembre de 14:00 a 17:00.
+
+RESOURCE ID: event_datetime_range_key_sewaddlecd24
+TEXT: 5 de octubre de 14:00 a 17:00.
 
 RESOURCE ID: expires_in_clock
 TEXT: Expira en {0}
@@ -173,7 +209,7 @@ RESOURCE ID: general1.ticket._gowa24_title
 TEXT: Entrada: Área Silvestre de Pokémon GO
 
 RESOURCE ID: general1.ticket._monthlyticketnov24_title
-TEXT: Daily PokéCoin Bounty Part 3 Ticket
+TEXT: Entrada: Recompensa diaria de Pokémonedas (parte 3)
 
 RESOURCE ID: general1.ticket._monthlyticketoct24_title
 TEXT: Entrada: Recompensa diaria de Pokémonedas (parte 2)
@@ -183,6 +219,9 @@ TEXT: Entrada: Investigación temporal prémium de Psicoespectáculo 2024
 
 RESOURCE ID: general1.ticket._researchdaysept24_title
 TEXT: Entrada: Investigación temporal prémium del Día de investigación de Oranguru y Passimian
+
+RESOURCE ID: general1.ticket_sewaddlecd24_title
+TEXT: Entrada: Día de la Comunidad de Sewaddle
 
 RESOURCE ID: halloween_cup_great_title
 TEXT: Copa Halloween: Edición Liga Super Ball
@@ -228,6 +267,12 @@ TEXT: Esta entrada se activará automáticamente para darte acceso a la recompen
 
 RESOURCE ID: item_event_ticket_gray_details_monthlyticketoct24
 TEXT: Esta entrada se activará automáticamente para darte acceso a la recompensa diaria de Pokémonedas (parte 2) el 3 de octubre, estés donde estés.
+
+RESOURCE ID: item_event_ticket_pink_desc_sewaddlecd24
+TEXT: Una entrada para acceder a la investigación especial del Día de la Comunidad de Sewaddle desde el 5 de octubre a las 14:00 en tu hora local, estés donde estés.
+
+RESOURCE ID: item_event_ticket_pink_details_sewaddlecd24
+TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación especial del Día de la Comunidad de Sewaddle, "Cose que te cose", el 15 de octubre, estés donde estés.
 
 RESOURCE ID: item_global_event_ticket_desc_gowa24
 TEXT: Una entrada para acceder a bonus y a una investigación especial global del Área Silvestre de Pokémon GO del 23 al 24 de noviembre de 2024, estés donde estés.
@@ -296,16 +341,25 @@ RESOURCE ID: max_battle_2x_xp
 TEXT: Doble de PX por ganar Combates Max
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-09-26T23:52:08.087557+00:00 for es-ES
-at SHA 2de84726bc
-Pipeline 2645551, job 32369966
-Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.331.0-SHA-8bd66da8-RC3
+TEXT: Built at 2024-09-27T23:56:28.971002+00:00 for es-ES
+at SHA 1252485c4d
+Pipeline 2648787, job 32407195
+Patch from: 0.333.0-SHA-2c73ee88-RC4, 0.331.0-SHA-aa66102c-RC1
 
 RESOURCE ID: mp_replenish.1_title
 TEXT: 1 Pack de/nPM ({0})
 
 RESOURCE ID: mp_replenish.3_title
 TEXT: 3 Packs de PM ({0})
+
+RESOURCE ID: n_hat_gtr2024eeveefanmask_0_display_name
+TEXT: máscara Eevee
+
+RESOURCE ID: n_hat_gtr2024pikachufanmask_0_display_name
+TEXT: máscara Pikachu
+
+RESOURCE ID: nearby_station_active_header
+TEXT: Active
 
 RESOURCE ID: photo_hub_hashtags
 TEXT: Usa los hashtags #GOsnapshot y #GOsnapshotCelebration
@@ -488,16 +542,16 @@ RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: Una entrada para el evento global del Área Silvestre de Pokémon GO. Esta entrada es gratuita y con acceso anticipado.
 
 RESOURCE ID: text_rewards_key_monthlyticketnov24
-TEXT: This ticket grants bonuses, Timed Research awarding 200 bonus PokéCoins, and daily bonus Field Research tasks that award bonus PokéCoins from November 3 to December 2, 2024.
+TEXT: Esta entrada te entrega bonus, una investigación temporal con 200 Pokémonedas de bonus y tareas de investigación de campo diarias que entregan Pokémonedas adicionales del 3 de noviembre al 2 de diciembre de 2024.
 
-<b>Included bonuses:</b>
-• One Field Research task the first time you log on each day that awards 20 bonus PokéCoins
-• 3× XP for your first catch of the day and your first spin of the day
-• Open up to 50 Gifts a day
-• Collect up to 150 Gifts a day from PokéStops and Gyms
-• Hold up to 40 Gifts in your Item Bag at once
+<b>Bonus incluidos:</b>
+• Una tarea de investigación de campo la primera vez que inicias sesión en el día con la que recibirás 20 Pokémonedas
+• Triple de PX por tu primera captura del día y por tu primer giro a una Poképarada ese día
+• Abre hasta 50 regalos cada día
+• Recoge hasta 150 regalos cada día en las Poképaradas y Gimnasios
+• Lleva hasta 40 regalos a la vez en tu Bolsa
 
-Please note: You must have three or fewer Field Research tasks active to receive this bonus Field Research task the first time you log on each day. You must claim the 20 bonus PokéCoin reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
+Nota: Debes tener tres tareas de investigación de campo o menos activas para poder recibir la tarea de investigación de campo de bonus la primera vez que inicies sesión cada día. Debes canjear la recompensa de 20 Pokémonedas tras completar la tarea para recibirla cada día. Obtén más información sobre las tareas de investigación de campo de bonus <a href="https://niantic.helpshift.com/hc/es/6-pokemon-go/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">aquí</a>.
 
 RESOURCE ID: text_rewards_key_monthlyticketoct24
 TEXT: Esta entrada te entrega bonus, una investigación temporal con 200 Pokémonedas de bonus y tareas de investigación de campo diarias que entregan Pokémonedas adicionales del 3 de octubre al 2 de noviembre de 2024.
@@ -523,6 +577,11 @@ TEXT: Estas investigaciones temporales, que te piden completar tareas de investi
 Durante el evento, los Pokémon que te encuentres con esta investigación temporal tendrán la misma probabilidad de ser variocolor que los Pokémon que te encuentres en las investigaciones de campo.
 
 Esta investigación temporal estará disponible el 22 de septiembre de 2024 de 14:00 a 17:00 en tu hora local.
+
+RESOURCE ID: text_rewards_key_sewaddlecd24
+TEXT: <b>Recompensas incluidas:</b>
+• Artículos prémium dentro del juego, como Caramelos Raros y Ultra Balls, entre otros
+• Encuentros adicionales con Sewaddle y sus evoluciones
 
 RESOURCE ID: ticket_ponyta
 TEXT: La entrada para la investigación especial del Día de la Comunidad está disponible en la tienda

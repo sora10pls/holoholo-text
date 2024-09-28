@@ -88,8 +88,35 @@ TEXT: Befristete Bonus-Forschung: Champ der Pokémon EUIC 2025 (1/2)
 RESOURCE ID: bonus_tr_gbl_naic_2025_a_title_01
 TEXT: Befristete Bonus-Forschung: Champ der Pokémon EUIC 2025 (2/2)
 
+RESOURCE ID: bread_battle_cheer_charge_blocked
+TEXT: Max Meter is Full!
+
 RESOURCE ID: bread_battle_pokemon_remaining
 TEXT: VERBLEIBENDE POKÉMON
+
+RESOURCE ID: bread_battle_resolve_timed_out_title
+TEXT: Everyone's Pokémon have grown tired!
+
+RESOURCE ID: bread_dough_battle_ftue_body_generic
+TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 trainers.
+
+RESOURCE ID: bread_dough_battle_ftue_body_specific
+TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of {0} to {1} trainers.
+
+RESOURCE ID: bread_dough_battle_ftue_title
+TEXT: Giganatamax Max Battles!
+
+RESOURCE ID: bread_dough_lobby_count
+TEXT: Team {0} of {1}
+
+RESOURCE ID: bread_dough_lobby_number
+TEXT: Team {0}
+
+RESOURCE ID: bread_dough_lobby_trainer_list_title
+TEXT: {0} Trainers
+
+RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
+TEXT: 1Trainer
 
 RESOURCE ID: bread_iap_max_mp_replenish_warning
 TEXT: Du hast die maximale Anzahl von {0} Dyna-Partikel-Beuteln erreicht. Bitte verwende deine Dyna-Partikel-Beutel und versuche es erneut.
@@ -103,11 +130,17 @@ TEXT: Setze Dyna-Attacken gegen Dynamax- und Gigadynamax-Pokémon an Kraftquelle
 RESOURCE ID: bread_move_upgrade_maxed
 TEXT: Maximum!
 
+RESOURCE ID: bread_notification_empty
+TEXT: {0} has returned from the Power Spot.
+
 RESOURCE ID: bread_station_current_battle_defeated
 TEXT: Du hast diesen Kraftquellen-Boss besiegt.
 
 RESOURCE ID: bread_station_failure_description
 TEXT: Diese Kraftquelle hat sein Limit an platzierten Pokémon erreicht.
+
+RESOURCE ID: bread_station_failure_description_duplicate
+TEXT: You have already stationed a Pokemon at this Power Spot.
 
 RESOURCE ID: bread_station_failure_label
 TEXT: Pokémon kann nicht platziert werden
@@ -137,8 +170,8 @@ RESOURCE ID: event_datetime_range_key_falinksraidday
 TEXT: 8. September, 14:00 bis 22:00 Uhr
 
 RESOURCE ID: event_datetime_range_key_monthlyticketnov24
-TEXT: November 3, 12:00 a.m. –
-December 2, 11:59 p.m.
+TEXT: 3. November, 0:00 Uhr bis
+2. Dezember, 23:59 Uhr
 
 RESOURCE ID: event_datetime_range_key_monthlyticketoct24
 TEXT: 3. Oktober, 0:00 Uhr bis
@@ -150,6 +183,9 @@ TEXT: 18. September, 10:00 Uhr bis
 
 RESOURCE ID: event_datetime_range_key_researchdaysept24
 TEXT: 22. September, 14:00 bis 17:00 Uhr
+
+RESOURCE ID: event_datetime_range_key_sewaddlecd24
+TEXT: 5. Oktober, 14:00 bis 17:00 Uhr
 
 RESOURCE ID: expires_in_clock
 TEXT: Läuft ab in: {0}
@@ -219,7 +255,7 @@ RESOURCE ID: general1.ticket._megalucarioraidday24_title
 TEXT: Ticket: Raid-Tag mit Mega-Lucario
 
 RESOURCE ID: general1.ticket._monthlyticketnov24_title
-TEXT: Daily PokéCoin Bounty Part 3 Ticket
+TEXT: Ticket: Tägliche PokéMünz-Prämie – Teil 3
 
 RESOURCE ID: general1.ticket._monthlyticketoct24_title
 TEXT: Ticket: Tägliche PokéMünz-Prämie – Teil 2
@@ -241,6 +277,9 @@ TEXT: Ein Ticket für den Zugang zur Spezialforschung während des Pokémon GO F
 Details unter „Neuigkeiten“ im Spiel.
  
 <b>Du musst während des angegebenen Zeitraums spielen, um alle Boni dieses Events zu erhalten</b>
+
+RESOURCE ID: general1.ticket_sewaddlecd24_title
+TEXT: Ticket: Community Day mit Strawickl
 
 RESOURCE ID: gym_spin_xp_ten
 TEXT: 10× EP für das Drehen von Fotoscheiben auf Arenen
@@ -304,6 +343,12 @@ TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zu „Tä
 
 RESOURCE ID: item_event_ticket_gray_details_monthlyticketoct24
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zu „Tägliche PokéMünz-Prämie – Teil 2" am 3. Oktober (wo immer du dich befindest).
+
+RESOURCE ID: item_event_ticket_pink_desc_sewaddlecd24
+TEXT: Ein Ticket zur Teilnahme an der Spezialforschung zum Community Day mit Strawickl am 5. Oktober 2024 um 14:00 Uhr Ortszeit (wo immer du dich befindest).
+
+RESOURCE ID: item_event_ticket_pink_details_sewaddlecd24
+TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Spezialforschung „Nach Strich und Faden“ des Community Days mit Strawickl am 5. Oktober 2024 (wo immer du dich befindest).
 
 RESOURCE ID: item_global_event_ticket_desc_gowa24
 TEXT: Ein Ticket zur Teilnahme an der Spezialforschung zu „Pokémon GO-Naturzone: Global“ ab dem 23. November bis zum 24. November 2024 (wo immer du dich befindest).
@@ -372,10 +417,10 @@ RESOURCE ID: max_battle_2x_xp
 TEXT: 2× EP für gewonnene Dyna-Kämpfe
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-09-26T23:52:08.087557+00:00 for de-DE
-at SHA 2de84726bc
-Pipeline 2645551, job 32369966
-Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.331.0-SHA-8bd66da8-RC3
+TEXT: Built at 2024-09-27T23:56:28.971002+00:00 for de-DE
+at SHA 1252485c4d
+Pipeline 2648787, job 32407195
+Patch from: 0.333.0-SHA-2c73ee88-RC4, 0.331.0-SHA-aa66102c-RC1
 
 RESOURCE ID: mp_replenish.1_title
 TEXT: 1 DP-Beutel ({0} DP)
@@ -388,6 +433,9 @@ TEXT: Festival-Maske (Evoli)
 
 RESOURCE ID: n_hat_gtr2024pikachufanmask_0_display_name
 TEXT: Festival-Maske (Pikachu)
+
+RESOURCE ID: nearby_station_active_header
+TEXT: Active
 
 RESOURCE ID: photo_hub_hashtags
 TEXT: Benutze die Hashtags #GOsnapshot #GOsnapshotCelebration
@@ -595,16 +643,16 @@ RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: Ein Ticket zur Teilnahme an „Pokémon GO-Naturzone: Global“, die dir kostenlos vorzeitigen Zugang gewährt.
 
 RESOURCE ID: text_rewards_key_monthlyticketnov24
-TEXT: This ticket grants bonuses, Timed Research awarding 200 bonus PokéCoins, and daily bonus Field Research tasks that award bonus PokéCoins from November 3 to December 2, 2024.
+TEXT: Mit diesem Ticket erhältst du vom 3. November bis zum 2. Dezember 2024 Zugang zu Boni, einer Befristeten Forschung, die dich mit 200 Bonus-PokéMünzen belohnt und täglichen Bonus-Feldforschungsaufgaben, bei denen du Bonus-PokéMünzen erhalten kannst.
 
-<b>Included bonuses:</b>
-• One Field Research task the first time you log on each day that awards 20 bonus PokéCoins
-• 3× XP for your first catch of the day and your first spin of the day
-• Open up to 50 Gifts a day
-• Collect up to 150 Gifts a day from PokéStops and Gyms
-• Hold up to 40 Gifts in your Item Bag at once
+<b>Enthaltene Boni:</b>
+• 1 Feldforschungsaufgabe für deine erste tägliche Anmeldung, die dich mit 20 Bonus-PokéMünzen belohnt
+• 3× EP für deinen ersten Fang des Tages und deinen ersten Dreh des Tages
+• Öffne bis zu 50 Geschenke pro Tag
+• Sammle bis zu 150 Geschenke pro Tag von PokéStops oder Arenen
+• Bewahre bis zu 40 Geschenke in deinem Item-Beutel auf
 
-Please note: You must have three or fewer Field Research tasks active to receive this bonus Field Research task the first time you log on each day. You must claim the 20 bonus PokéCoin reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
+Bitte beachte: Du kannst nicht mehr als drei aktive Feldforschungsaufgaben haben, wenn du für deine erste tägliche Anmeldung diese Bonus-Feldforschungsaufgabe erhalten möchtest! Du musst deine Belohnung von 20 Bonus-PokéMünzen nach dem Abschluss der Aufgabe einfordern, um sie zu erhalten. Mehr über Bonus-Feldforschungsaufgaben erfährst du <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">hier</a>.
 
 RESOURCE ID: text_rewards_key_monthlyticketoct24
 TEXT: Mit diesem Ticket erhältst du vom 3. Oktober bis zum 2. November 2024 Zugang zu Boni, einer Befristeten Forschung, die dich mit 200 Bonus-PokéMünzen und täglichen Bonus-Feldforschungsaufgaben belohnt, bei denen du  Bonus-PokéMünzen erhalten kannst.
@@ -630,6 +678,11 @@ TEXT: Diese Befristete Forschung, bei der du Feldforschungsaufgaben abschließen
 Während dieses Events haben Pokémon, denen du in dieser Befristeten Forschung begegnest, die gleiche Chance, Schillernde Pokémon zu sein, wie diejenigen, auf die du in Feldforschungen triffst.
 
 Diese Befristete Forschung ist am 22. September 2024 von 14:00 bis 17:00 Uhr Ortszeit verfügbar.
+
+RESOURCE ID: text_rewards_key_sewaddlecd24
+TEXT: <b>Enthält folgende Belohnungen:</b>
+• Hochwertige In-Game-Items wie Sonderbonbons, Hyperbälle und mehr 
+• Zusätzliche Begegnungen mit Strawickl und seinen Entwicklungen
 
 RESOURCE ID: three_free_raid_passes
 TEXT: Erhalte bis zu 3 kostenlose Raid-Pässe, indem du Fotoscheiben auf Arenen drehst.
