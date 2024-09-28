@@ -856,7 +856,7 @@ RESOURCE ID: allow_notifications_prompt_message
 TEXT: Oyun deneyiminizi geliştirmek için Pokémon GO’ya bildirim erişimi verin.
 
 RESOURCE ID: allow_notifications_prompt_message_temp
-TEXT: To stay up to date on new events and features, allow Pokémon GO to access notifications.
+TEXT: En son etkinlik ve özelliklerden haberdar olmak için Pokémon GO’ya bildirim erişimi verin.
 
 RESOURCE ID: alo_mar22_collection_challenge
 TEXT: Alola'ya Hoş Geldiniz
@@ -9712,22 +9712,22 @@ TEXT: Şehir Safarisi—Akınsever
 RESOURCE ID: badge_safari_2024_jakarta_add_on_raid_title
 TEXT: Şehir Safarisi—Akınsever
 
-RESOURCE ID: badge_safari_2024_jakarta_day_00_general
+RESOURCE ID: badge_safari_2024_jakarta_day_00
 TEXT: Cakarta 2024
 
-RESOURCE ID: badge_safari_2024_jakarta_day_00_general_title
+RESOURCE ID: badge_safari_2024_jakarta_day_00_title
 TEXT: Pokémon GO Şehir Safarisi
 
-RESOURCE ID: badge_safari_2024_jakarta_day_01_general
+RESOURCE ID: badge_safari_2024_jakarta_day_01
 TEXT: Cakarta, 21 Eylül 2024
 
-RESOURCE ID: badge_safari_2024_jakarta_day_01_general_title
+RESOURCE ID: badge_safari_2024_jakarta_day_01_title
 TEXT: Pokémon GO Şehir Safarisi
 
-RESOURCE ID: badge_safari_2024_jakarta_day_02_general
+RESOURCE ID: badge_safari_2024_jakarta_day_02
 TEXT: Cakarta, 22 Eylül 2024
 
-RESOURCE ID: badge_safari_2024_jakarta_day_02_general_title
+RESOURCE ID: badge_safari_2024_jakarta_day_02_title
 TEXT: Pokémon GO Şehir Safarisi
 
 RESOURCE ID: badge_safari_2024_tainan_add_on_hatch
@@ -13552,6 +13552,9 @@ TEXT: Braixen’ı evrimleştirerek Tahrip Yanığı güçlü saldırısını bi
 RESOURCE ID: bonus_cd_move_froakie
 TEXT: Frogadier’ı evrimleştirerek Su Topu güçlü saldırısını bilen Greninja elde edin
 
+RESOURCE ID: bonus_cd_move_galarian_ponyta
+TEXT: Galarlı Ponyta’yı evrimleştirerek Yabani Şarj güçlü saldırısını bilen Galarlı Rapidash elde edin!
+
 RESOURCE ID: bonus_cd_move_goomy
 TEXT: Sliggoo’yu evrimleştirerek Gök Gürültüsü Yumruğu güçlü saldırısını bilen Goodra elde edin!
 
@@ -13578,6 +13581,9 @@ TEXT: Poliwhirl’ü evrimleştirerek Buz Işını güçlü saldırısını bile
 
 RESOURCE ID: bonus_cd_move_poliwag_poliwrath
 TEXT: Poliwhirl’ü evrimleştirerek Karşılık hızlı saldırısını bilen Poliwrath elde edin!
+
+RESOURCE ID: bonus_cd_move_ponyta
+TEXT: Ponyta’yı evrimleştirerek Yabani Şarj güçlü saldırısını bilen Rapidash elde edin!
 
 RESOURCE ID: bonus_cd_move_popplio
 TEXT: Brionne'u evrimleştirerek Su Topu güçlü saldırısını bilen Primarina elde edin!
@@ -13863,6 +13869,9 @@ TEXT: Eğitmenler bir spor salonunda birlikte Noibat akın maçı kazanırsa 30 
 
 RESOURCE ID: bonus_implicit_social_poliwag_raid
 TEXT: Eğitmenler bir spor salonunda birlikte Poliwhirl maçı kazanırsa 30 dakika boyunca o bölgede çok sayıda Poliwag ortaya çıkacak.
+
+RESOURCE ID: bonus_implicit_social_ponyta_raid
+TEXT: Eğitmenler bir spor salonunda birlikte Ponyta veya Galarlı Ponyta akın maçı kazanırsa 30 dakika boyunca o bölgede çok sayıda Ponyta ve Galarlı Ponyta ortaya çıkacak
 
 RESOURCE ID: bonus_implicit_social_popplio_raid
 TEXT: Eğitmenler birlikte bir Brionne akın maçı kazanırsa 30 dakika boyunca o bölgede çok sayıda Popplio ortaya çıkacak
@@ -14891,7 +14900,7 @@ RESOURCE ID: bread_battle_message_use_max_move
 TEXT: Bir Maksi Hareket kullanın!
 
 RESOURCE ID: bread_battle_pokemon_remaining
-TEXT: POKÉMON REMAINING
+TEXT: KALAN POKÉMON’LAR
 
 RESOURCE ID: bread_battle_received_global_cheering_boost
 TEXT: TEAMS ARE CHEERING YOU ON!
@@ -14986,7 +14995,7 @@ RESOURCE ID: bread_claim_mp_amount
 TEXT: {0} Maksi Parçacık toplayın
 
 RESOURCE ID: bread_collected_mp
-TEXT: Collected {0} MP
+TEXT: {0} MP toplandı
 
 RESOURCE ID: bread_flag_disabled
 TEXT: Feature flag disabled
@@ -14998,7 +15007,7 @@ RESOURCE ID: bread_get_stationing_details_error
 TEXT: Error fetching stationed pokemon at POU {0}
 
 RESOURCE ID: bread_iap_max_mp_replenish_warning
-TEXT: You have reached the max number of Max Particle Packs ({0}). Please use your Max Particle Packs and try again.
+TEXT: Maksimum Maksi Parçacık Paketi sayısına ({0}) ulaştınız. Lütfen Maksi Parçacık Paketlerinizi kullandıktan sonra tekrar deneyin.
 
 RESOURCE ID: bread_iap_mp_replenish_station_desc
 TEXT: Bu maça katılmak için daha fazla Maksi Parçacığa ihtiyacınız var.
@@ -15195,11 +15204,20 @@ TEXT: Güç Noktasını Bildir
 RESOURCE ID: bread_station_count_limit
 TEXT: {0}+
 
+RESOURCE ID: bread_station_current_battle_defeated
+TEXT: You’ve defeated this Power Spot Boss
+
 RESOURCE ID: bread_station_defeat_success
 TEXT: Bu Güç Noktası Canavarını alt ettiniz!
 
 RESOURCE ID: bread_station_defeat_success_description
 TEXT: Şeker kazanıp maçlarda yardımcı olması için bu Güç Noktasına yerleştireceğiniz Pokémon’u seçin. Pokémon’unuzu istediğiniz zaman geri çağırabilirsiniz.
+
+RESOURCE ID: bread_station_failure_description
+TEXT: The maximum number of Pokémon have been placed at this Power Spot.
+
+RESOURCE ID: bread_station_failure_label
+TEXT: Cannot place Pokémon
 
 RESOURCE ID: bread_station_general
 TEXT: Güç Noktası
@@ -16160,10 +16178,13 @@ RESOURCE ID: bulk_upgrade_button_cannot_be_used
 TEXT: Bu seçenek şu anda kullanılamıyor.
 
 RESOURCE ID: bulk_upgrade_final_confirmation
-TEXT: {0} güçlendirilsin mi?
+TEXT: {0} gerçekten güçlendirilsin mi?
 
 RESOURCE ID: bulk_upgrade_final_confirmation_2
 TEXT: Bu Pokémon'u {0} için güçlendirmek maksimum DG'yi aşacaktır.
+
+RESOURCE ID: bundle.citysafari.box.1_title
+TEXT: Şehir Safarisi Kutusu
 
 RESOURCE ID: bundle.general1.free.1_title
 TEXT: Günlük Ücretsiz Kutu
@@ -16248,6 +16269,15 @@ TEXT: Gümüş Kutu
 
 RESOURCE ID: bundle.newyears.small.1_title
 TEXT: Bronz Kutu
+
+RESOURCE ID: bundle.regional.box.1_title
+TEXT: Bölgesel Kutu
+
+RESOURCE ID: bundle.silk.box.1_title
+TEXT: İpek Kutu
+
+RESOURCE ID: bundle.wicker.box.1_title
+TEXT: Hasır Kutu
 
 RESOURCE ID: bundle.xmas.large.1_title
 TEXT: Macera Kutusu
@@ -18879,6 +18909,9 @@ TEXT: Topluluk Günü: Poliwag
 RESOURCE ID: community_day_ponyta_and_galarian_ponyta_event_name
 TEXT: Topluluk Günü: Ponyta ve Galarlı Ponyta
 
+RESOURCE ID: community_day_ponyta_event_name
+TEXT: Topluluk Günü: Ponyta ve Galarlı Ponyta
+
 RESOURCE ID: community_day_popplio_event_name
 TEXT: Topluluk Günü: Popplio
 
@@ -20490,6 +20523,9 @@ TEXT: Pokémon GO'nun yeni bir sürümü mevcut. Şimdi güncellemek ister misin
 RESOURCE ID: error_already_sent_gift_today
 TEXT: Bugün zaten bu Eğitmene Hediye gönderdiniz.
 
+RESOURCE ID: error_bread_lobby_not_found
+TEXT: Lobi bulunamadı.
+
 RESOURCE ID: error_cannot_invite_yourself
 TEXT: Arkadaş Listenize kendinizi ekleyemezsiniz!
 
@@ -20745,6 +20781,9 @@ TEXT: 16 Mayıs 2024, 00.00 - 30 Mayıs 2024, 23.59
 RESOURCE ID: event_datetime_range_key_cyndaquilcdc2024
 TEXT: 22 Haziran, 14.00-17.00
 
+RESOURCE ID: event_datetime_range_key_falinksraidday
+TEXT: 8 Eylül, 14.00-22.00
+
 RESOURCE ID: event_datetime_range_key_febmonthly2024
 TEXT: 1 Şubat, yerel saatle 10.00 –
 29 Şubat, yerel saatle 20.00
@@ -20796,6 +20835,10 @@ TEXT: 13 Nisan, 14.00-22.00
 
 RESOURCE ID: event_datetime_range_key_megalucarioraidday24
 TEXT: 27 Temmuz, 11.00-22.00
+
+RESOURCE ID: event_datetime_range_key_monthlyticketoct24
+TEXT: October 3, 12:00 a.m. –
+November 2, 11:59 p.m.
 
 RESOURCE ID: event_datetime_range_key_monthlyticketsept24
 TEXT: 3 Eylül, 00:00 –
@@ -21886,6 +21929,21 @@ TEXT: ÇIKIŞ
 RESOURCE ID: expert_box_title
 TEXT: Uzman Kutusu
 
+RESOURCE ID: expires_in_clock
+TEXT: {0} içinde sona erer
+
+RESOURCE ID: expires_in_day_plural
+TEXT: {0} gün içinde sona erer
+
+RESOURCE ID: expires_in_day_singular
+TEXT: 1 gün içinde sona erer
+
+RESOURCE ID: expires_in_hour_plural
+TEXT: {0} saat içinde sona erer
+
+RESOURCE ID: expires_in_hour_singular
+TEXT: 1 saat içinde sona erer
+
 RESOURCE ID: explore_responsibly
 TEXT: Keşfederken Dikkati Elden Bırakmayın
 
@@ -22624,10 +22682,10 @@ RESOURCE ID: filter_label_costume
 TEXT: Etkinlik
 
 RESOURCE ID: filter_label_dynamax
-TEXT: ?
+TEXT: Dinamaks
 
 RESOURCE ID: filter_label_dynamax_temp
-TEXT: Dinamaks
+TEXT: ?
 
 RESOURCE ID: filter_label_evolvable
 TEXT: Evrim Geçirebilen
@@ -22639,10 +22697,10 @@ RESOURCE ID: filter_label_field_effect
 TEXT: Macera Etkisi
 
 RESOURCE ID: filter_label_gigantamax
-TEXT: ???
+TEXT: Gigantamaks
 
 RESOURCE ID: filter_label_gigantamax_temp
-TEXT: Gigantamaks
+TEXT: ???
 
 RESOURCE ID: filter_label_has_duplicate
 TEXT: Birden Çok Var
@@ -25214,6 +25272,9 @@ TEXT: Paytak Gezgin Süreli Araştırması Bileti
 RESOURCE ID: general1.ticket._battleevent2024_title
 TEXT: Dişe Diş Maçlar Bileti
 
+RESOURCE ID: general1.ticket._falinksraidday_title
+TEXT: Falinks Akın Günü Bileti
+
 RESOURCE ID: general1.ticket._gblaug24_title
 TEXT: 2024 Dünya Şampiyonası Premium Süreli Araştırması Bileti
 
@@ -25266,6 +25327,9 @@ TEXT: Mega Heracross Akın Günü Bileti
 
 RESOURCE ID: general1.ticket._megalucarioraidday24_title
 TEXT: Mega Lucario Akın Günü Bileti
+
+RESOURCE ID: general1.ticket._monthlyticketoct24_title
+TEXT: Daily PokéCoin Bounty Part 2 Ticket
 
 RESOURCE ID: general1.ticket._monthlyticketsept24_title
 TEXT: Günlük PokéPara Armağanı 1. Kısım Bileti
@@ -32725,10 +32789,10 @@ RESOURCE ID: halloween_23_candy_event_pokemon
 TEXT: Kostümlü Pokémon’ları yakalayarak daha fazla şeker kazanabilirsiniz!
 
 RESOURCE ID: halloween_cup_great_title
-TEXT: Halloween Cup: Great League Edition
+TEXT: Cadılar Bayramı Kupası: Süper Lig
 
 RESOURCE ID: halloween_cup_little_title
-TEXT: Halloween Cup: Little Edition
+TEXT: Cadılar Bayramı Kupası: Küçükler
 
 RESOURCE ID: halloween_cup_title
 TEXT: Cadılar Bayramı Kupası
@@ -32962,7 +33026,7 @@ RESOURCE ID: home_transfer_error_gym_deployed
 TEXT: Spor salonlarını savunan Pokémon’ları gönderemezsiniz.
 
 RESOURCE ID: home_transfer_error_gym_deployed_temp
-TEXT: You can’t send Pokémon that are defending Gyms or placed at Power Spots.
+TEXT: Spor salonlarını savunan veya Güç Noktalarına yerleştirilmiş olan Pokémon’ları gönderemezsiniz.
 
 RESOURCE ID: home_transfer_error_shadow_pokemon_error
 TEXT: Gölge Pokémon gönderemezsiniz.
@@ -33674,7 +33738,7 @@ RESOURCE ID: item_bag_category_tm
 TEXT: TM’ler
 
 RESOURCE ID: item_bag_deployed
-TEXT: This item can’t be used on a Pokémon placed at a Power Spot or defending a Gym.
+TEXT: Bu eşya bir Güç Noktasına yerleştirilmiş olan veya bir spor salonunu savunan bir Pokémon’un üzerinde kullanılamaz.
 
 RESOURCE ID: item_bag_irrelevant
 TEXT: Bu eşya burada kullanılamaz.
@@ -33829,6 +33893,9 @@ TEXT: 3 Eylül 2024, yerel saatle 10.00’a kadar sürecek Birlikte Büyüyelim 
 RESOURCE ID: item_event_ticket_gray_desc_dec2023eggspedition
 TEXT: Kuluçkalı Keşif Bileti
 
+RESOURCE ID: item_event_ticket_gray_desc_falinksraidday
+TEXT: 8 Eylül 2024 Pazar, yerel saatle 14.00-22.00 arasında geçerli olacak özel bonuslara dilediğiniz yerden hak kazanmanıza olanak tanıyan bir bilet.
+
 RESOURCE ID: item_event_ticket_gray_desc_febmonthly2024
 TEXT: 1 Şubat 2024, yerel saatle 10.00 - 29 Şubat 2024, yerel saatle 20.00 arasında dilediğiniz yerde geçerli olacak Kuluçkalı Keşif Bileti: Şubat.
 
@@ -33846,6 +33913,12 @@ TEXT: 11 Kasım 2023 Cumartesi, yerel saatle 14.00-22.00 arasında geçerli olac
 
 RESOURCE ID: item_event_ticket_gray_desc_megaheracross
 TEXT: 13 Nisan 2024 Cumartesi, yerel saatle 14.00-22.00 arasında geçerli olacak özel bonuslara dilediğiniz yerden hak kazanmanıza olanak tanıyan bir bilet.
+
+RESOURCE ID: item_event_ticket_gray_desc_monthlyticketnov24
+TEXT: 3 Kasım 2024, yerel saatle 00.00 - 2 Aralık 2024, yerel saatle 23.59 arasında gerçekleşecek olan Günlük PokéPara Armağanı 3. Kısım süreli araştırmasına, PokéPara veren günlük bonus alan araştırmasına ve diğer bonuslara hak kazandıran bir bilet.
+
+RESOURCE ID: item_event_ticket_gray_desc_monthlyticketoct24
+TEXT: 3 Ekim 2024, yerel saatle 00.00 - 2 Kasım 2024, yerel saatle 23.59 arasında gerçekleşecek olan Günlük PokéPara Armağanı 2. Kısım süreli araştırmasına, PokéPara veren günlük bonus alan araştırmasına ve diğer bonuslara hak kazandıran bir bilet.
 
 RESOURCE ID: item_event_ticket_gray_desc_monthlyticketsept24
 TEXT: 3 Eylül 2024, yerel saatle 00.00 - 2 Ekim 2024, yerel saatle 23.59 arasında gerçekleşecek olan Günlük PokéPara Armağanı 1. Kısım süreli araştırmasının yanı sıra PokéPara ve diğer bonus ödülleri veren günlük bonus alan araştırmasına katılmanıza olanak tanıyan bir bilet.
@@ -33871,6 +33944,9 @@ TEXT: Bu bilet Birlikte Büyüyelim premium süreli araştırmasına 3 Eylül 20
 RESOURCE ID: item_event_ticket_gray_details_dec2023eggspedition
 TEXT: Bu bilet aralık ayı boyunca dilediğiniz yerde geçerli olacak Kuluçkalı Keşif Bileti erişimi için otomatik olarak etkinleştirilecek.
 
+RESOURCE ID: item_event_ticket_gray_details_falinksraidday
+TEXT: Bu bilet 8 Eylül’de geçerli olacak özel bonuslara dilediğiniz yerden hak kazanabilmeniz için otomatik olarak etkinleştirilecek.
+
 RESOURCE ID: item_event_ticket_gray_details_febmonthly2024
 TEXT: Bu bilet şubat ayı boyunca dilediğiniz yerde geçerli olacak Kuluçkalı Keşif Bileti erişimi için otomatik olarak etkinleştirilecek.
 
@@ -33888,6 +33964,12 @@ TEXT: Bu bilet 11 Kasım tarihinde geçerli olacak özel bonuslara dilediğiniz 
 
 RESOURCE ID: item_event_ticket_gray_details_megaheracross
 TEXT: Bu bilet 13 Nisan’da geçerli olacak özel bonuslara dilediğiniz yerden hak kazanabilmeniz için otomatik olarak etkinleştirilecek.
+
+RESOURCE ID: item_event_ticket_gray_details_monthlyticketnov24
+TEXT: Bu bilet Günlük PokéPara Armağanı 3. Kısım’a dilediğiniz yerden erişebilmeniz için 3 Kasım’da otomatik olarak etkinleştirilecek.
+
+RESOURCE ID: item_event_ticket_gray_details_monthlyticketoct24
+TEXT: Bu bilet Günlük PokéPara Armağanı 2. Kısım’a dilediğiniz yerden erişebilmeniz için 3 Ekim’de otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_gray_details_monthlyticketsept24
 TEXT: Bu bilet Günlük PokéPara Armağanı 1. Kısım’a dilediğiniz yerden erişebilmeniz için 3 Eylül’de otomatik olarak etkinleştirilecek.
@@ -35347,7 +35429,7 @@ RESOURCE ID: levelup_items_unlocked
 TEXT: Kilidi Açılan Eşyalar
 
 RESOURCE ID: levelup_max_move_plural
-TEXT: {0} Maksi Hareketin seviyesini yükseltin
+TEXT: Bir Maksi Hareketin seviyesini {0} kez yükseltin
 
 RESOURCE ID: levelup_max_move_singular
 TEXT: Bir Maksi Hareketin seviyesini yükseltin
@@ -38173,10 +38255,10 @@ RESOURCE ID: mar24_weather_collection_challenge_2
 TEXT: Hava Durumu Haftası Toplama Görevi
 
 RESOURCE ID: marketing_email_opt_in_desc
-TEXT: Sign up for emails to stay up to date on new events and features!
+TEXT: En son etkinlik ve özelliklerle ilgili haberleri kaçırmak istemiyorsanız e-postaları almak için kaydolun!
 
 RESOURCE ID: marketing_email_opt_in_toggle
-TEXT: Opt me in to emails
+TEXT: E-postaları almak istiyorum
 
 RESOURCE ID: marketing_notification_opt_in_message
 TEXT: Bildirimler, uyarıları, sesleri ve simge rozetlerini içerebilir. Bunu ayarlardan değiştirebilirsiniz.
@@ -38185,16 +38267,16 @@ RESOURCE ID: marketing_notification_opt_in_title
 TEXT: Niantic, etkinlikler, teklifler ve güncellemeler hakkında size bildirim göndermek istiyor
 
 RESOURCE ID: marketing_pn_email_opt_in_desc
-TEXT: Sign up for push notifications and emails to stay up to date on new events and features!
+TEXT: En son etkinlik ve özelliklerle ilgili haberleri kaçırmak istemiyorsanız anlık bildirim ve e-postaları almak için kaydolun!
 
 RESOURCE ID: marketing_pn_email_opt_in_title
-TEXT: Stay Up to Date
+TEXT: Yenilikleri Takip Edin
 
 RESOURCE ID: marketing_pn_opt_in_desc
-TEXT: Sign up for push notifications to stay up to date on new events and features!
+TEXT: En son etkinlik ve özelliklerle ilgili haberleri kaçırmak istemiyorsanız anlık bildirimleri almak için kaydolun!
 
 RESOURCE ID: marketing_pn_opt_in_toggle
-TEXT: Opt me in to push notifications
+TEXT: Anlık bildirimleri almak istiyorum
 
 RESOURCE ID: marrd_2019_easy spin
 TEXT: Lotad Araştırması: {0} PokéDurak döndürün
@@ -38724,6 +38806,9 @@ TEXT: Hepsi Bir Arada #151 (3/4)
 RESOURCE ID: masterwork_sm_title_4
 TEXT: Hepsi Bir Arada #151 (4/4)
 
+RESOURCE ID: max_battle_2x_xp
+TEXT: Kazanılan Maksi Maçlardan 2× TP
+
 RESOURCE ID: maximum_tags_error
 TEXT: {0} etiketten fazlası oluşturulamaz.
 
@@ -39127,9 +39212,9 @@ RESOURCE ID: meshing_option_title
 TEXT: İç İçe Geçme
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2024-09-18T23:37:25.013009+00:00 for tr-TR
-at SHA b42b626eccd
-Pipeline 2624058, job 32108665
+TEXT: Built at 2024-09-26T22:38:58.645291+00:00 for tr-TR
+at SHA 4f3cd4da43f34
+Pipeline 2645106, job 32367297
 
 RESOURCE ID: mex_fighting_promo_title
 TEXT: Süreli Araştırma: Dövüşçünüzü Seçin
@@ -45454,7 +45539,7 @@ RESOURCE ID: photo_hub_featured_groups
 TEXT: öne çıkan gruplar
 
 RESOURCE ID: photo_hub_hashtags
-TEXT: #GOsnapshot #PokemonGO etiketlerini kullanın
+TEXT: #GOsnapshot #GOsnapshotCelebration etiketlerini kullanın
 
 RESOURCE ID: photo_hub_last_used
 TEXT: Fotoğrafı Çekilmiş
@@ -45738,6 +45823,9 @@ TEXT: GO Fotoğrafta Oshawott ile 5 sürpriz karşılaşma
 RESOURCE ID: photobomb_five_poliwag
 TEXT: GO Fotoğrafta Poliwag ile 5 sürpriz karşılaşma
 
+RESOURCE ID: photobomb_five_ponyta
+TEXT: GO Fotoğrafta Ponyta ile 5 sürpriz karşılaşma
+
 RESOURCE ID: photobomb_five_popplio
 TEXT: GO Fotoğrafta Popplio ile 5 sürpriz karşılaşma
 
@@ -45854,6 +45942,21 @@ TEXT: Pokémon GO STADYUM
 
 RESOURCE ID: pjcs2024
 TEXT: PJCS 2024
+
+RESOURCE ID: playability_em_fr_title
+TEXT: Brezilya Macerası
+
+RESOURCE ID: playability_em_tr_desc
+TEXT: Brezilya Macerası Süreli Araştırması
+
+RESOURCE ID: playability_em_tr_title_00
+TEXT: Brezilya Macerası Süreli Araştırması (1/3)
+
+RESOURCE ID: playability_em_tr_title_01
+TEXT: Brezilya Macerası Süreli Araştırması (2/3)
+
+RESOURCE ID: playability_em_tr_title_02
+TEXT: Brezilya Macerası Süreli Araştırması (3/3)
 
 RESOURCE ID: player_cheating_warning
 TEXT: Hesabınızda, değiştirilmiş istemci yazılımı veya Hizmet Şartlarımızı ihlal ederek Pokémon GO'ya erişen onaylanmamış üçüncü taraf yazılımı kullanarak kendi hesabınıza veya bir başkasının hesabına eriştiğinizi gösteren bir etkinlik tespit ettik. Lütfen bu tür yazılımların kullanımının hesabınızın silinmesine neden olabileceğini unutmayın. Bu tür bir yazılım kullanıyorsanız kullanmayı bırakmanızı şiddetle tavsiye ederiz. Belirli yetkisiz üçüncü taraf uygulamalara veya internet sitelerine giriş yaptıysanız hesabınızın ele geçirilmiş olması da mümkündür. Vakit kaybetmeden şifrenizi değiştirmenizi öneririz.
@@ -46814,7 +46917,7 @@ RESOURCE ID: pokecoins_daily_limit_reached
 TEXT: Günlük {0} PokéPara sınırına ulaşıldı.
 
 RESOURCE ID: pokecoins_iap_string_key
-TEXT: {0} PokéCoins
+TEXT: {0} PokéPara
 
 RESOURCE ID: pokedex_all_types
 TEXT: Tüm Türler
@@ -46967,19 +47070,19 @@ RESOURCE ID: pokedex_status_seen
 TEXT: Görülen
 
 RESOURCE ID: pokemon_bread_dough_info_transfer_to_professor_confirmation
-TEXT: Bu Gigantamaks Pokémon’u gerçekten göndermek istiyor musunuz?
+TEXT: Bu Gigantamaks Pokémon gerçekten gönderilsin mi?
 
 RESOURCE ID: pokemon_bread_dough_info_transfer_to_professor_error
 TEXT: Son Gigantamaks Pokémon’unuzu gönderemezsiniz.
 
 RESOURCE ID: pokemon_bread_info_transfer_to_professor_confirmation
-TEXT: Bu Dinamaks Pokémon’u gerçekten göndermek istiyor musunuz?
+TEXT: Bu Dinamaks Pokémon gerçekten gönderilsin mi?
 
 RESOURCE ID: pokemon_bread_info_transfer_to_professor_error
 TEXT: Son Dinamaks Pokémon’unuzu gönderemezsiniz.
 
 RESOURCE ID: pokemon_buddy_info_transfer_to_professor_confirmation
-TEXT: Gerçekten bu Dost Pokémon'u göndermek istiyor musunuz?
+TEXT: Bu Dost Pokémon gerçekten gönderilsin mi?
 
 RESOURCE ID: pokemon_catch_daily_quest_title
 TEXT: Günlük Pokémon Yakalama
@@ -50138,7 +50241,7 @@ RESOURCE ID: pokemon_category_1008_2997
 TEXT: Paradoks Pokémon
 
 RESOURCE ID: pokemon_costume_info_transfer_to_professor_confirmation
-TEXT: Bu Etkinlik Pokémon’unu gerçekten göndermek istiyor musunuz?
+TEXT: Bu Etkinlik Pokémon’u gerçekten gönderilsin mi?
 
 RESOURCE ID: pokemon_day_event_name
 TEXT: Pokémon Günü
@@ -54004,7 +54107,7 @@ RESOURCE ID: pokemon_info_mega_evolution_confirmation
 TEXT: {0} mega evrim geçirsin mi?
 
 RESOURCE ID: pokemon_info_mega_evolution_really_confirm
-TEXT: {0} mega evrimleştirilsin mi?
+TEXT: {0} gerçekten mega evrimleştirilsin mi?
 
 RESOURCE ID: pokemon_info_mega_evolution_replace
 TEXT: {0}, mega evrimleşmemiş haline dönecek!
@@ -54236,16 +54339,16 @@ RESOURCE ID: pokemon_inventory_too_many_favorites
 TEXT: Favorilere eklediğiniz çok fazla arama sorgusu var. Daha fazlasını eklemek için bir arama sorgusunu Favorilerinden kaldırmalısınız.
 
 RESOURCE ID: pokemon_legendary_info_transfer_to_professor_confirmation
-TEXT: Bu Efsanevi Pokémon'u gerçekten göndermek istiyor musunuz?
+TEXT: Bu Efsanevi Pokémon gerçekten gönderilsin mi?
 
 RESOURCE ID: pokemon_location_card_info_transfer_to_professor_confirmation
-TEXT: Konum Kartlı bu Pokémon gönderilsin mi?
+TEXT: Nadir arka planlı bu Pokémon gerçekten gönderilsin mi?
 
 RESOURCE ID: pokemon_lucky_info_transfer_to_professor_confirmation
-TEXT: Gerçekten bu Şanslı Pokémon'u göndermek istiyor musunuz?
+TEXT: Bu Şanslı Pokémon gerçekten gönderilsin mi?
 
 RESOURCE ID: pokemon_mythic_info_transfer_to_professor_confirmation
-TEXT: Gerçekten bu Mitolojik Pokémon'u göndermek istiyor musunuz?
+TEXT: Bu Mitolojik Pokémon gerçekten gönderilsin mi?
 
 RESOURCE ID: pokemon_mythic_info_transfer_to_professor_impossible
 TEXT: {0} gönderilemez.
@@ -57539,7 +57642,7 @@ RESOURCE ID: pokemon_purified_message
 TEXT: {0} arındırıldı!
 
 RESOURCE ID: pokemon_shiny_info_transfer_to_professor_confirmation
-TEXT: Bu Parlak Pokémon'u gerçekten göndermek istiyor musunuz?
+TEXT: Bu Parlak Pokémon gerçekten gönderilsin mi?
 
 RESOURCE ID: pokemon_size_huge_encounter
 TEXT: KOCAMAN!
@@ -57626,7 +57729,7 @@ RESOURCE ID: pokemon_type_water
 TEXT: Su
 
 RESOURCE ID: pokemon_ultra_beast_info_transfer_to_professor_confirmation
-TEXT: Bu Ultra Yaratığı gerçekten göndermek istiyor musunuz?
+TEXT: Bu Ultra Yaratık gerçekten gönderilsin mi?
 
 RESOURCE ID: pokemon_unfavorite_error
 TEXT: Pokémon, favorilerden kaldırılamadı.
@@ -57704,10 +57807,10 @@ RESOURCE ID: pokemon_won_notification_toast|2
 TEXT: {0}, rakiplerini alt etti!
 
 RESOURCE ID: pokemon_xxl_info_transfer_to_professor_confirmation
-TEXT: Bu XXL Pokémon'u gerçekten göndermek istiyor musunuz?
+TEXT: Bu XXL Pokémon gerçekten gönderilsin mi?
 
 RESOURCE ID: pokemon_xxs_info_transfer_to_professor_confirmation
-TEXT: Bu XXS Pokémon'u gerçekten göndermek istiyor musunuz?
+TEXT: Bu XXS Pokémon gerçekten gönderilsin mi?
 
 RESOURCE ID: pokemonstorageupgrade.1_description
 TEXT: Bulundurabileceğiniz maksimum Pokémon sayısını {0} artırır.
@@ -58307,8 +58410,17 @@ TEXT: KULLAN
 RESOURCE ID: psychic_cup_title
 TEXT: Psişik Kupası
 
+RESOURCE ID: psychic_sep24_tr_title
+TEXT: Muhteşem Psişik 2024 Premium Süreli Araştırması
+
 RESOURCE ID: psychic_spectacular_event_name
 TEXT: Muhteşem Psişik
+
+RESOURCE ID: psychic_spectacular_sep24_collection_challenge_1
+TEXT: Algıda Seçicilik Toplama Görevi: Yakalama
+
+RESOURCE ID: psychic_spectacular_sep24_collection_challenge_2
+TEXT: Algıda Seçicilik Toplama Görevi: Evrimleştirme
 
 RESOURCE ID: psychic_type_event
 TEXT: Tür Artışı: Psişik
@@ -59434,6 +59546,9 @@ TEXT: {0} farklı Zehir türü Pokémon yakalayın
 
 RESOURCE ID: quest_catch_type_poison_singular
 TEXT: Bir Zehir türü Pokémon yakalayın
+
+RESOURCE ID: quest_catch_type_psychic_fairy_plural
+TEXT: {0} Psişik tür veya Peri türü Pokémon yakalayın
 
 RESOURCE ID: quest_catch_type_psychic_fighting_plural
 TEXT: {0} Psişik tür veya Dövüşçü türü Pokémon yakalayın
@@ -63043,6 +63158,15 @@ TEXT: Poliwag'in {0} fotoğrafını çekin
 
 RESOURCE ID: quest_poliwhirl_evolve_b
 TEXT: {0} Poliwhirl evrimleştirin
+
+RESOURCE ID: quest_ponyta_catch_b
+TEXT: {0} Ponyta veya Galarlı Ponyta yakalayın
+
+RESOURCE ID: quest_ponyta_evolve_b_plural
+TEXT: {0} Ponyta veya Galarlı Ponyta evrimleştirin
+
+RESOURCE ID: quest_ponyta_evolve_b_singular
+TEXT: Bir Ponyta veya Galarlı Ponyta evrimleştirin
 
 RESOURCE ID: quest_popplio_catch_b
 TEXT: {0} Popplio yakalayın
@@ -75345,6 +75469,21 @@ TEXT: Bir Poni Macerası (3/4)
 RESOURCE ID: quest_title_poni_3
 TEXT: Bir Poni Macerası (4/4)
 
+RESOURCE ID: quest_title_ponyta
+TEXT: Topluluk Günü: Ponyta ve Galarlı Ponyta
+
+RESOURCE ID: quest_title_ponyta_0
+TEXT: Topluluk Günü: Ponyta ve Galarlı Ponyta (1/4)
+
+RESOURCE ID: quest_title_ponyta_1
+TEXT: Topluluk Günü: Ponyta ve Galarlı Ponyta (2/4)
+
+RESOURCE ID: quest_title_ponyta_2
+TEXT: Topluluk Günü: Ponyta ve Galarlı Ponyta (3/4)
+
+RESOURCE ID: quest_title_ponyta_3
+TEXT: Topluluk Günü: Ponyta ve Galarlı Ponyta (4/4)
+
 RESOURCE ID: quest_title_popplio
 TEXT: Büyüleyici Gösteri
 
@@ -75966,6 +76105,36 @@ TEXT: Kozmik Ortak (10/10)
 RESOURCE ID: quest_title_season_16_first_partner_1
 TEXT: Galar’ın Çağrısı (1/19)
 
+RESOURCE ID: quest_title_season_16_first_partner_10
+TEXT: Galar’ın Çağrısı (10/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_11
+TEXT: Galar’ın Çağrısı (11/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_12
+TEXT: Galar’ın Çağrısı (12/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_13
+TEXT: Galar’ın Çağrısı (13/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_14
+TEXT: Galar’ın Çağrısı (14/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_15
+TEXT: Galar’ın Çağrısı (15/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_16
+TEXT: Galar’ın Çağrısı (16/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_17
+TEXT: Galar’ın Çağrısı (17/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_18
+TEXT: Galar’ın Çağrısı (18/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_19
+TEXT: Galar’ın Çağrısı (19/19)
+
 RESOURCE ID: quest_title_season_16_first_partner_1_dialogue_1
 TEXT: %PLAYERNAME%, zamanlaman mükemmel!
 
@@ -76103,6 +76272,54 @@ TEXT: Bu olağanüstü yeteneklere bizzat şahit olmak bilimsel açıdan harika 
 
 RESOURCE ID: quest_title_season_16_first_partner_5
 TEXT: Galar’ın Çağrısı (5/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_5_dialogue_1
+TEXT: Seni gördüğüm çok iyi oldu %PLAYERNAME%!
+
+RESOURCE ID: quest_title_season_16_first_partner_5_dialogue_2
+TEXT: Birdenbire beliren o tuhaf ışıkların yaydığı gücü incelerken yaptığım keşfe inanamayacaksın!
+
+RESOURCE ID: quest_title_season_16_first_partner_5_dialogue_3
+TEXT: İçinde devasa bir Pokémon vardı! Gerçekten KOCAMAN! Üstelik bir sürü farklı bölgede devasa Pokémon’lar görüldüğüne dair bildirimler de aldım.
+
+RESOURCE ID: quest_title_season_16_first_partner_5_dialogue_4
+TEXT: Ee ne dersin? Muazzam büyüklükte Pokémon’larla karşılaşıp bu BÜYÜK gizemi çözmeye ne dersin?
+
+RESOURCE ID: quest_title_season_16_first_partner_6
+TEXT: Galar’ın Çağrısı (6/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_6_dialogue_1
+TEXT: Çok önemli bir gelişme oldu %PLAYERNAME%! Diğer Pokémon Profesörleriyle birlikte Dinamaks olgusuyla karşı karşıya olduğumuzu teyit ettik.
+
+RESOURCE ID: quest_title_season_16_first_partner_6_dialogue_2
+TEXT: Ayrıca tuhaf ışıkların olduğu yerlerin de daha önce hiç görülmemiş olduğunu öğrendik!
+
+RESOURCE ID: quest_title_season_16_first_partner_6_dialogue_3
+TEXT: O Güç Noktalarını düşününce heyecandan yerimde duramıyorum!
+
+RESOURCE ID: quest_title_season_16_first_partner_6_dialogue_4
+TEXT: Güç Noktaları kesinlikle Dinamakslaşmayla ilintili. Tüm bunlar gerçekten inanılmaz ilginç, değil mi? Hadi gidip biraz daha veri toplayalım.
+
+RESOURCE ID: quest_title_season_16_first_partner_7
+TEXT: Galar’ın Çağrısı (7/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_7_dialogue_1
+TEXT: %PLAYERNAME%, bu Dinamaks olgusu gerçekten de büyüleyici. Öğrendiğimiz her bir ayrıntı yepyeni sorular doğuruyor!
+
+RESOURCE ID: quest_title_season_16_first_partner_7_dialogue_2
+TEXT: Güç Noktaları nasıl meydana geldi? Bu Pokémon’ların gücünü ölçebilir miyiz? Dinamaks Pokémon’ların iştahları da kendileri kadar büyük mü? Off, meyve stoklarımızı artırmamız gerekebilir desene!
+
+RESOURCE ID: quest_title_season_16_first_partner_7_dialogue_3
+TEXT: Büyük düşünüp bu devasa Pokémon’ları birer birer bulmamız lazım!
+
+RESOURCE ID: quest_title_season_16_first_partner_7_dialogue_4
+TEXT: E hadi o zaman, şimdi bu muazzam Dinamaks macerasına atılma vakti!
+
+RESOURCE ID: quest_title_season_16_first_partner_8
+TEXT: Galar’ın Çağrısı (8/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_9
+TEXT: Galar’ın Çağrısı (9/19)
 
 RESOURCE ID: quest_title_season_16_first_partner_branch_dialogue_1
 TEXT: Sana iyi haberlerim var! Bir sürü yeni şey öğrendim! Hangi Pokémon hakkında daha fazla bilgi edinmek istersin %PLAYERNAME%?
@@ -87640,6 +87857,9 @@ TEXT: Doğada daha fazla Pidgey ortaya çıkıyor!
 RESOURCE ID: spawn_poliwag
 TEXT: Doğada daha fazla Poliwag ortaya çıkıyor!
 
+RESOURCE ID: spawn_ponyta
+TEXT: Doğada daha fazla Ponyta ve Galarlı Ponyta ortaya çıkıyor!
+
 RESOURCE ID: spawn_popplio
 TEXT: Doğada daha fazla Popplio ortaya çıkıyor!
 
@@ -91113,6 +91333,12 @@ TEXT: <b>Şu ödülleri içerir:</b>
 • Nadir Şeker ve Ultra Top gibi premium oyun içi eşyalar
 • Cyndaquil ve evrimleriyle ilave karşılaşmalar
 
+RESOURCE ID: text_rewards_key_falinksraidday
+TEXT: <b>Şu bonusları içerir:</b>
+• Spor salonu fotoğraf disklerini döndürerek fazladan 8 Akın Bileti
+• Akınlardan daha yüksek Nadir Büyük Şeker kazanma şansı
+• Başarıyla tamamlanan akınlardan %50 daha fazla TP ve 2× yıldız tozu
+
 RESOURCE ID: text_rewards_key_febmonthly2024
 TEXT: <b>Ödüller arasında</b>
 • Her gün, döndürülen ilk PokéDuraktan tek kullanımlık bir Kuluçka Makinesi
@@ -91190,6 +91416,9 @@ TEXT: <b>Bonuslar arasında şunlar yer alıyor:</b>
 • 5 Heatran büyük şekeri, 5 Giratina büyük şekeri, 5 Cresselia büyük şekeri, and 5 Darkrai büyük şekeri
 • 10 Dialga şekeri ve 10 Palkia şekeri
 
+RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
+TEXT: A ticket to Pokémon GO Wild Area: Global, which has been provided to you early and at no cost.
+
 RESOURCE ID: text_rewards_key_growtogether24
 TEXT: <b>Şu bonusları içerir:</b>
 • Her gün ilk döndürme için 5× TP
@@ -91231,6 +91460,18 @@ TEXT: <b>Şu bonusları içerir:</b>
 • Lucario yakalarken bir Nadir Büyük Şeker kazanma garantisi
 
 Bu bileti satın alırsanız Lucario Maskesini ücretsiz bir eklenti olarak içeren versiyonu satın alamazsınız. Bu versiyon ve bilet bonusları hakkındaki ayrıntıları<a href="https://pokemongolive.com/post/mega-lucario-raid-ultra-unlock">buradan</a> öğrenebilirsiniz.
+
+RESOURCE ID: text_rewards_key_monthlyticketoct24
+TEXT: This ticket grants bonuses, Timed Research awarding 200 bonus PokéCoins, and daily bonus Field Research tasks that award bonus PokéCoins from October 3 to November 2, 2024.
+
+<b>Included bonuses:</b>
+• One Field Research task the first time you log on each day that awards 20 bonus PokéCoins
+• 3× XP for your first catch of the day and your first spin of the day
+• Open up to 50 Gifts a day
+• Collect up to 150 Gifts a day from PokéStops and Gyms
+• Hold up to 40 Gifts in your Item Bag at once
+
+Please note: You must have three or fewer Field Research tasks active to receive this bonus Field Research task the first time you log on each day. You must claim the 20 bonus PokéCoin reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
 
 RESOURCE ID: text_rewards_key_monthlyticketsept24
 TEXT: Bu bilet 3 Eylül 2024 - 2 Ekim 2024 arasında bonusların yanı sıra 200 bonus PokéPara kazandıran bir süreli araştırma ve bonus PokéPara kazandıran günlük alan araştırması görevleri içerir.
@@ -91599,6 +91840,9 @@ TEXT: Deniztarağından Deniz Kılıcına özel araştırma hikâyesi biletini m
 
 RESOURCE ID: ticket_poliwag
 TEXT: Sarsak Sarmal özel araştırma hikâyesi biletini mağazadan alabilirsiniz
+
+RESOURCE ID: ticket_ponyta
+TEXT: Topluluk Günü temalı özel araştırma biletini mağazadan alabilirsiniz
 
 RESOURCE ID: ticket_popplio
 TEXT: Popplio Topluluk Günü özel araştırma hikâyesi biletini mağazadan alabilirsiniz
@@ -94212,31 +94456,31 @@ RESOURCE ID: unfriend_niantic_friend_title
 TEXT: {0} adlı oyuncuyu arkadaşlıktan çıkarmak istediğinizden emin misiniz?
 
 RESOURCE ID: unified_punishment_acknowledgement_button
-TEXT: OK
+TEXT: Tamam
 
 RESOURCE ID: unified_punishment_strike1_desc
 TEXT: Hesabınızda <a href="player_guidelines_link_dsa">Oyuncu Talimatlarımızı</a> ihlal eden faaliyetler tespit ettik. Bu uyarı bildirimini {0} gün boyunca göreceksiniz.
 
 RESOURCE ID: unified_punishment_strike1_desc_singular
-TEXT: We have detected activity on your account in violation of our <a href="player_guidelines_link_dsa">Player Guidelines</a>. You will see this warning notice for 1 day.
+TEXT: Hesabınızda <a href="player_guidelines_link_dsa">Oyuncu Talimatlarımızı</a> ihlal eden faaliyetler tespit ettik. Bu uyarı bildirimini 1 gün boyunca göreceksiniz.
 
 RESOURCE ID: unified_punishment_strike1_title
-TEXT: Account Warning Notice
+TEXT: Hesabınıza İlişkin Uyarı
 
 RESOURCE ID: unified_punishment_strike2_desc
 TEXT: <a href="player_guidelines_link_dsa">Oyuncu Talimatlarının</a> ihlal edilmesi nedeniyle hesabınız askıya alındı. Askıya alınma süreci yaklaşık olarak {0} gün sürecek.
 
 RESOURCE ID: unified_punishment_strike2_desc_singular
-TEXT: Your account has been suspended for violating the <a href="player_guidelines_link_dsa">Player Guidelines</a>. This suspension will last approximately 1 day.
+TEXT: <a href="player_guidelines_link_dsa">Oyuncu Talimatlarının</a> ihlal edilmesi nedeniyle hesabınız askıya alındı. Askıya alınma süreci yaklaşık olarak 1 gün sürecek.
 
 RESOURCE ID: unified_punishment_strike2_title
-TEXT: Account Suspension Notice
+TEXT: Askıya Alınma Uyarısı
 
 RESOURCE ID: unified_punishment_strike3_desc
 TEXT: <a href="player_guidelines_link_dsa">Oyuncu Talimatlarının</a> ihlal edilmesi nedeniyle hesabınız kalıcı olarak kapatıldı.
 
 RESOURCE ID: unified_punishment_strike3_title
-TEXT: Account Ban Notice
+TEXT: Men Edilme Uyarısı
 
 RESOURCE ID: unified_punishment_strike_desc_b
 TEXT: Daha fazla ihlal olması durumunda daha ağır cezalar uygulanabilir.
@@ -94787,10 +95031,10 @@ RESOURCE ID: visit_help_center_prompt
 TEXT: Ayrıntılı bilgi için Yardım Merkezi'ni ziyaret edin.
 
 RESOURCE ID: visit_power_spot_plural
-TEXT: {0} Güç Noktasını ziyaret edin
+TEXT: {0} Güç Noktasından MP toplayın
 
 RESOURCE ID: visit_power_spot_singular
-TEXT: Bir Güç Noktasını ziyaret edin
+TEXT: Bir Güç Noktasından MP toplayın
 
 RESOURCE ID: volbeat_illumise_all_regions
 TEXT: Dünya çapında doğada daha fazla Volbeat ve Illumise ortaya çıkıyor

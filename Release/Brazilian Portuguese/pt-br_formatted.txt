@@ -856,7 +856,7 @@ RESOURCE ID: allow_notifications_prompt_message
 TEXT: Para melhorar sua experiência de jogo, permita que o Pokémon GO acesse as notificações.
 
 RESOURCE ID: allow_notifications_prompt_message_temp
-TEXT: To stay up to date on new events and features, allow Pokémon GO to access notifications.
+TEXT: Para saber tudo sobre os novos eventos e recursos, permita que o Pokémon GO acesse as notificações.
 
 RESOURCE ID: alo_mar22_collection_challenge
 TEXT: Boas-vindas a Alola
@@ -9890,22 +9890,22 @@ TEXT: Safári Urbano: Fã de Reides
 RESOURCE ID: badge_safari_2024_jakarta_add_on_raid_title
 TEXT: Safári Urbano: Fã de Reides
 
-RESOURCE ID: badge_safari_2024_jakarta_day_00_general
+RESOURCE ID: badge_safari_2024_jakarta_day_00
 TEXT: Jacarta 2024
 
-RESOURCE ID: badge_safari_2024_jakarta_day_00_general_title
+RESOURCE ID: badge_safari_2024_jakarta_day_00_title
 TEXT: Safári Urbano de Pokémon GO
 
-RESOURCE ID: badge_safari_2024_jakarta_day_01_general
+RESOURCE ID: badge_safari_2024_jakarta_day_01
 TEXT: Jacarta, 21 de setembro de 2024
 
-RESOURCE ID: badge_safari_2024_jakarta_day_01_general_title
+RESOURCE ID: badge_safari_2024_jakarta_day_01_title
 TEXT: Safári Urbano de Pokémon GO
 
-RESOURCE ID: badge_safari_2024_jakarta_day_02_general
+RESOURCE ID: badge_safari_2024_jakarta_day_02
 TEXT: Jacarta, 22 de setembro de 2024
 
-RESOURCE ID: badge_safari_2024_jakarta_day_02_general_title
+RESOURCE ID: badge_safari_2024_jakarta_day_02_title
 TEXT: Safári Urbano de Pokémon GO
 
 RESOURCE ID: badge_safari_2024_tainan_add_on_hatch
@@ -13732,6 +13732,9 @@ TEXT: Evolua Braixen para conseguir Delphox que sabe o ataque carregado Queimadu
 RESOURCE ID: bonus_cd_move_froakie
 TEXT: Evolua Frogadier para conseguir Greninja que sabe o ataque carregado Hidro Canhão
 
+RESOURCE ID: bonus_cd_move_galarian_ponyta
+TEXT: Evolua Ponyta de Galar para conseguir Rapidash de Galar que sabe o Ataque Carregado Ataque Selvagem!
+
 RESOURCE ID: bonus_cd_move_goomy
 TEXT: Evolua Sliggoo para conseguir Goodra que sabe o ataque carregado Soco Trovoada!
 
@@ -13758,6 +13761,9 @@ TEXT: Evolua Poliwhirl para conseguir Politoed que sabe o ataque carregado Raio 
 
 RESOURCE ID: bonus_cd_move_poliwag_poliwrath
 TEXT: Evolua Poliwhirl para conseguir Poliwrath que sabe o ataque ágil Contra-atacar!
+
+RESOURCE ID: bonus_cd_move_ponyta
+TEXT: Evolua Ponyta para conseguir Rapidash que sabe o Ataque Carregado Ataque Selvagem!
 
 RESOURCE ID: bonus_cd_move_popplio
 TEXT: Evolua Brionne para conseguir Primarina que sabe o ataque carregado Hidro Canhão!
@@ -14043,6 +14049,9 @@ TEXT: Se Treinadores trabalharem juntos para vencer um Reide de Noibat, um grand
 
 RESOURCE ID: bonus_implicit_social_poliwag_raid
 TEXT: Se Treinadores trabalharem juntos para vencer um Reide de Poliwhirl, um grande número de Poliwag aparecerá na área por 30 minutos
+
+RESOURCE ID: bonus_implicit_social_ponyta_raid
+TEXT: Se os Treinadores trabalharem juntos para vencer um Reide de Ponyta ou Ponyta Galar, um grande número de Ponyta e Ponyta Galar aparecerá na área por 30 minutos
 
 RESOURCE ID: bonus_implicit_social_popplio_raid
 TEXT: Se Treinadores trabalharem juntos para vencer um Reide de Brionne, um grande número de Popplio aparecerá na área por 30 minutos
@@ -15071,7 +15080,7 @@ RESOURCE ID: bread_battle_message_use_max_move
 TEXT: Use um Movimento Max!
 
 RESOURCE ID: bread_battle_pokemon_remaining
-TEXT: POKÉMON REMAINING
+TEXT: POKÉMON RESTANTES
 
 RESOURCE ID: bread_battle_received_global_cheering_boost
 TEXT: TEAMS ARE CHEERING YOU ON!
@@ -15178,7 +15187,7 @@ RESOURCE ID: bread_get_stationing_details_error
 TEXT: Error fetching stationed pokemon at POU {0}
 
 RESOURCE ID: bread_iap_max_mp_replenish_warning
-TEXT: You have reached the max number of Max Particle Packs ({0}). Please use your Max Particle Packs and try again.
+TEXT: Você atingiu o número máximo de ({0}) Pacotes de Partícula Max. Use os seus Pacotes de Partícula Max e tente novamente.
 
 RESOURCE ID: bread_iap_mp_replenish_station_desc
 TEXT: Você precisa de mais Partículas Max para participar desta batalha.
@@ -15375,11 +15384,20 @@ TEXT: Reportar Ponto de Energia
 RESOURCE ID: bread_station_count_limit
 TEXT: {0}+
 
+RESOURCE ID: bread_station_current_battle_defeated
+TEXT: You’ve defeated this Power Spot Boss
+
 RESOURCE ID: bread_station_defeat_success
 TEXT: Você derrotou este Chefe de Ponto de Energia!
 
 RESOURCE ID: bread_station_defeat_success_description
 TEXT: Escolha um Pokémon para colocar neste Ponto de Energia, receber Doces e ajudar em batalhas. Você pode chamar seu Pokémon de volta quando quiser.
+
+RESOURCE ID: bread_station_failure_description
+TEXT: The maximum number of Pokémon have been placed at this Power Spot.
+
+RESOURCE ID: bread_station_failure_label
+TEXT: Cannot place Pokémon
 
 RESOURCE ID: bread_station_general
 TEXT: Ponto de Energia
@@ -16345,6 +16363,9 @@ TEXT: Você quer mesmo fortalecer {0}?
 RESOURCE ID: bulk_upgrade_final_confirmation_2
 TEXT: Fortalecer este Pokémon excederá o seu PC máximo para {0}.
 
+RESOURCE ID: bundle.citysafari.box.1_title
+TEXT: Combo de Safári Urbano
+
 RESOURCE ID: bundle.general1.free.1_title
 TEXT: Combo grátis diário
 
@@ -16428,6 +16449,15 @@ TEXT: Combo Prata
 
 RESOURCE ID: bundle.newyears.small.1_title
 TEXT: Combo Bronze
+
+RESOURCE ID: bundle.regional.box.1_title
+TEXT: Combo Regional
+
+RESOURCE ID: bundle.silk.box.1_title
+TEXT: Silk Box
+
+RESOURCE ID: bundle.wicker.box.1_title
+TEXT: Combo de Vime
 
 RESOURCE ID: bundle.xmas.large.1_title
 TEXT: Combo de Aventuras
@@ -19059,6 +19089,9 @@ TEXT: Dia Comunitário: Poliwag
 RESOURCE ID: community_day_ponyta_and_galarian_ponyta_event_name
 TEXT: Dia Comunitário: Ponyta e Ponyta de Galar
 
+RESOURCE ID: community_day_ponyta_event_name
+TEXT: Dia Comunitário: Ponyta e Ponyta de Galar
+
 RESOURCE ID: community_day_popplio_event_name
 TEXT: Dia Comunitário: Popplio
 
@@ -20671,6 +20704,9 @@ TEXT: Uma nova versão de Pokémon GO está disponível. Quer atualizar sua vers
 RESOURCE ID: error_already_sent_gift_today
 TEXT: Já enviou um presente para este Treinador hoje.
 
+RESOURCE ID: error_bread_lobby_not_found
+TEXT: Não foi possível encontrar a sala de espera.
+
 RESOURCE ID: error_cannot_invite_yourself
 TEXT: Não é possível se adicionar à sua própria lista de amigos.
 
@@ -20896,11 +20932,11 @@ TEXT: 2 de agosto, às 10h –
 
 RESOURCE ID: event_datetime_range_key_anniversary24
 TEXT: De 28 de junho, às 10h –
-Até 3 de julho, às 20h
+até 3 de julho, às 20h
 
 RESOURCE ID: event_datetime_range_key_aquaticparadise24
 TEXT: De 6 de julho, às 10h –
-Até 9 de julho, às 20h
+até 9 de julho, às 20h
 
 RESOURCE ID: event_datetime_range_key_bagoncdc
 TEXT: 7 de abril, das 14h às 17h
@@ -20926,6 +20962,9 @@ TEXT: De 16 de maio de 2024, às 0h, até 30 de maio de 2024, às 23h59
 RESOURCE ID: event_datetime_range_key_cyndaquilcdc2024
 TEXT: 22 de junho, das 14h às 17h
 
+RESOURCE ID: event_datetime_range_key_falinksraidday
+TEXT: 8 de setembro de 2024, das 14h às 22h
+
 RESOURCE ID: event_datetime_range_key_febmonthly2024
 TEXT: 1º de fevereiro às 10h –
 29 de fevereiro, às 20h
@@ -20935,7 +20974,7 @@ TEXT: 11 de maio de 2024, das 14h às 17h
 
 RESOURCE ID: event_datetime_range_key_gblaug24
 TEXT: De 16 de agosto, às 10h –
-Até 20 de agosto, às 20h
+até 20 de agosto, às 20h
 
 RESOURCE ID: event_datetime_range_key_gobattlemay2024
 TEXT: De 4 de maio, à 0h –
@@ -20946,7 +20985,7 @@ TEXT: De 13 a 14 de julho
 
 RESOURCE ID: event_datetime_range_key_gofestraid24
 TEXT: De 8 de julho, às 10h –
-Até 14 de julho, às 18h
+até 14 de julho, às 18h
 
 RESOURCE ID: event_datetime_range_key_goomycd2024
 TEXT: 9 de junho, das 14h às 17h
@@ -20960,7 +20999,7 @@ TEXT:
 
 RESOURCE ID: event_datetime_range_key_growtogether24
 TEXT: De 17 de julho, às 10h
-Até 3 de setembro, às 10h
+até 3 de setembro, às 10h
 
 RESOURCE ID: event_datetime_range_key_hisuidecidueye2024
 TEXT: 11 de fevereiro, das 14h às 22h
@@ -20977,6 +21016,10 @@ TEXT: 13 de abril, das 14h às 22h
 
 RESOURCE ID: event_datetime_range_key_megalucarioraidday24
 TEXT: 27 de julho, das 11h às 22h
+
+RESOURCE ID: event_datetime_range_key_monthlyticketoct24
+TEXT: October 3, 12:00 a.m. –
+November 2, 11:59 p.m.
 
 RESOURCE ID: event_datetime_range_key_monthlyticketsept24
 TEXT: De 3 de setembro, à 0h
@@ -20996,19 +21039,19 @@ TEXT: 17 de março, das 14h às 22h
 
 RESOURCE ID: event_datetime_range_key_shinycelebi24
 TEXT: De 28 de junho, às 10h –
-Até 3 de julho, às 20h
+até 3 de julho, às 20h
 
 RESOURCE ID: event_datetime_range_key_slumberingsands24
 TEXT: De 7 de junho, às 10h –
-Até 12 de junho, às 20h
+até 12 de junho, às 20h
 
 RESOURCE ID: event_datetime_range_key_spelunkercove24
 TEXT: De 15 de junho, às 10h –
-Até 18 de junho, às 20h
+até 18 de junho, às 20h
 
 RESOURCE ID: event_datetime_range_key_stadiumsights24
 TEXT: De 1º de junho, às 10h –
-Até 4 de junho, às 20h
+até 4 de junho, às 20h
 
 RESOURCE ID: event_datetime_range_key_takeovermarch24
 TEXT: De 27 de março, à 0h
@@ -21027,7 +21070,7 @@ TEXT: 21 de julho, das 14h às 17h
 
 RESOURCE ID: event_datetime_range_key_ultraspace24
 TEXT: De 23 de maio, às 10h –
-Até 28 de maio, às 20h
+até 28 de maio, às 20h
 
 RESOURCE ID: event_datetime_range_key_valentines2024
 TEXT: De 13 de fevereiro , às 10h 
@@ -22067,6 +22110,21 @@ TEXT: SAIR
 RESOURCE ID: expert_box_title
 TEXT: Combo de especialista
 
+RESOURCE ID: expires_in_clock
+TEXT: Expires in {0}
+
+RESOURCE ID: expires_in_day_plural
+TEXT: Expires in {0} days
+
+RESOURCE ID: expires_in_day_singular
+TEXT: Expires in 1 day
+
+RESOURCE ID: expires_in_hour_plural
+TEXT: Expires in {0} hours
+
+RESOURCE ID: expires_in_hour_singular
+TEXT: Expires in 1 hour
+
 RESOURCE ID: explore_responsibly
 TEXT: Explore com responsabilidade
 
@@ -22646,7 +22704,7 @@ RESOURCE ID: filter_key_bread
 TEXT: dinamax
 
 RESOURCE ID: filter_key_bread_move_a
-TEXT: ataquemax
+TEXT: movimentomax
 
 RESOURCE ID: filter_key_bread_move_b
 TEXT: guardamax
@@ -22814,10 +22872,10 @@ RESOURCE ID: filter_label_costume
 TEXT: Evento
 
 RESOURCE ID: filter_label_dynamax
-TEXT: ?
+TEXT: Dinamax
 
 RESOURCE ID: filter_label_dynamax_temp
-TEXT: Dinamax
+TEXT: ?
 
 RESOURCE ID: filter_label_evolvable
 TEXT: Pode Evoluir
@@ -22829,10 +22887,10 @@ RESOURCE ID: filter_label_field_effect
 TEXT: Efeito de Aventura
 
 RESOURCE ID: filter_label_gigantamax
-TEXT: ???
+TEXT: Gigamax
 
 RESOURCE ID: filter_label_gigantamax_temp
-TEXT: Gigamax
+TEXT: ???
 
 RESOURCE ID: filter_label_has_duplicate
 TEXT: tem duplicado
@@ -24414,7 +24472,7 @@ RESOURCE ID: fusion_unfuse_question
 TEXT: Quer separar {0}?
 
 RESOURCE ID: galar_great_cup_title
-TEXT: Copa de Galar: Edição da Grande Liga
+TEXT: Copa de Galar: edição da Grande Liga
 
 RESOURCE ID: galar_little_cup_title
 TEXT: Copa de Galar: Ediçãozinha
@@ -25403,6 +25461,9 @@ TEXT: Ingresso para a pesquisa temporária Passo Aqui, Passo Acolá
 RESOURCE ID: general1.ticket._battleevent2024_title
 TEXT: Ingresso de Batalhas ferozes
 
+RESOURCE ID: general1.ticket._falinksraidday_title
+TEXT: Ingresso para o Dia de Reides de Falinks
+
 RESOURCE ID: general1.ticket._gblaug24_title
 TEXT: Ingresso para a Pesquisa Temporária Premium do Mundial 2024
 
@@ -25454,6 +25515,9 @@ TEXT: Ingresso para o Dia de Reides de Mega Heracross
 
 RESOURCE ID: general1.ticket._megalucarioraidday24_title
 TEXT: Ingresso para o dia de Reides de Mega Lucario
+
+RESOURCE ID: general1.ticket._monthlyticketoct24_title
+TEXT: Ingresso para Fartura Diária de Pokémoeda: Parte 2
 
 RESOURCE ID: general1.ticket._monthlyticketsept24_title
 TEXT: Ingresso para Fartura Diária de Pokémoeda Parte 1
@@ -32911,10 +32975,10 @@ RESOURCE ID: halloween_23_candy_event_pokemon
 TEXT: Você pode receber doces adicionais por pegar Pokémon usando fantasias!
 
 RESOURCE ID: halloween_cup_great_title
-TEXT: Halloween Cup: Great League Edition
+TEXT: Copa de Dia das Bruxas: edição da Grande Liga
 
 RESOURCE ID: halloween_cup_little_title
-TEXT: Halloween Cup: Little Edition
+TEXT: Copa de Dia das Bruxas: Ediçãozinha
 
 RESOURCE ID: halloween_cup_title
 TEXT: Copa de Dias das Bruxas
@@ -33148,7 +33212,7 @@ RESOURCE ID: home_transfer_error_gym_deployed
 TEXT: Você não pode enviar Pokémon que estão defendendo Ginásios.
 
 RESOURCE ID: home_transfer_error_gym_deployed_temp
-TEXT: You can’t send Pokémon that are defending Gyms or placed at Power Spots.
+TEXT: Você não pode enviar Pokémon que estão defendendo Ginásios ou que foram colocados em Pontos de Energia.
 
 RESOURCE ID: home_transfer_error_shadow_pokemon_error
 TEXT: Você não pode enviar Pokémon Sombrosos.
@@ -33860,7 +33924,7 @@ RESOURCE ID: item_bag_category_tm
 TEXT: MTs
 
 RESOURCE ID: item_bag_deployed
-TEXT: This item can’t be used on a Pokémon placed at a Power Spot or defending a Gym.
+TEXT: Este item não pode ser usado em Pokémon colocados em um Ponto de Energia ou que estão defendendo um Ginásio.
 
 RESOURCE ID: item_bag_irrelevant
 TEXT: Este item não pode ser usado aqui.
@@ -34015,6 +34079,9 @@ TEXT: Um ingresso para acessar a Pesquisa Temporária Premium de Unidos Crescere
 RESOURCE ID: item_event_ticket_gray_desc_dec2023eggspedition
 TEXT: Acesso Chocante
 
+RESOURCE ID: item_event_ticket_gray_desc_falinksraidday
+TEXT: Um ingresso para acessar bônus especiais no domingo, 8 de setembro de 2024, das 14h às 22h do seu horário local, de onde você estiver.
+
 RESOURCE ID: item_event_ticket_gray_desc_febmonthly2024
 TEXT: Um ingresso para Acesso Chocante: fevereiro, que estará ativo de 1º de fevereiro de 2024, às 10h, até 29 de fevereiro de 2024, às 20h do seu horário local, de onde você estiver.
 
@@ -34032,6 +34099,12 @@ TEXT: Um ingresso para acessar bônus especiais no sábado, 11 de novembro de 20
 
 RESOURCE ID: item_event_ticket_gray_desc_megaheracross
 TEXT: Um ingresso para acessar bônus especiais no sábado, 13 de abril de 2024, das 14h às 22h do seu horário local, de onde você estiver.
+
+RESOURCE ID: item_event_ticket_gray_desc_monthlyticketnov24
+TEXT: Um ingresso para acessar a Pesquisa Temporária Fartura Diária de Pokémoeda: Parte 3, Pesquisa de Campo com bônus diário que concede Pokémoedas e outros bônus de 3 de novembro de 2024, à 0h, até 2 de dezembro de 2024, às 23h59 do seu horário local.
+
+RESOURCE ID: item_event_ticket_gray_desc_monthlyticketoct24
+TEXT: Um ingresso para acessar a Pesquisa Temporária Fartura Diária de Pokémoeda: Parte 2, Pesquisa de Campo com bônus diário que concede Pokémoedas e outros bônus de 3 de outubro de 2024, à 0h, até 2 de novembro de 2024, às 23h59 do seu horário local.
 
 RESOURCE ID: item_event_ticket_gray_desc_monthlyticketsept24
 TEXT: Um ingresso para acessar a Pesquisa Temporária Fartura Diária de Pokémoeda Parte 1, Pesquisa de Campo com bônus diário que concede Pokémoedas e outros bônus de 3 de setembro de 2024, à 0h, até 2 de outubro de 2024, às 23h59 do seu horário local.
@@ -34057,6 +34130,9 @@ TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à Pe
 RESOURCE ID: item_event_ticket_gray_details_dec2023eggspedition
 TEXT: Este ingresso será ativado automaticamente para lhe garantir admissão a Acesso Chocante: dezembro, de onde você estiver.
 
+RESOURCE ID: item_event_ticket_gray_details_falinksraidday
+TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a bônus especiais em 8 de setembro, de onde você estiver.
+
 RESOURCE ID: item_event_ticket_gray_details_febmonthly2024
 TEXT: Este ingresso será ativado automaticamente para garantir o seu Acesso Chocante: fevereiro, de onde você estiver.
 
@@ -34074,6 +34150,12 @@ TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a bô
 
 RESOURCE ID: item_event_ticket_gray_details_megaheracross
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a bônus especiais em 13 de abril, de onde você estiver.
+
+RESOURCE ID: item_event_ticket_gray_details_monthlyticketnov24
+TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à Fartura Diária de Pokémoeda: Parte 3 no dia 3 de novembro de 2024, de onde você estiver.
+
+RESOURCE ID: item_event_ticket_gray_details_monthlyticketoct24
+TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à Fartura Diária de Pokémoeda: Parte 2 no dia 3 de outubro de 2024, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_gray_details_monthlyticketsept24
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à Fartura Diária de Pokémoeda Parte 1 no dia 3 de setembro de 2024, de onde você estiver.
@@ -35533,7 +35615,7 @@ RESOURCE ID: levelup_items_unlocked
 TEXT: Itens desbloqueados
 
 RESOURCE ID: levelup_max_move_plural
-TEXT: Suba o nível de {0} Movimentos Max
+TEXT: Suba o nível de um Movimento Max {0} vezes
 
 RESOURCE ID: levelup_max_move_singular
 TEXT: Suba o nível de um Movimento Max
@@ -38369,10 +38451,10 @@ RESOURCE ID: mar24_weather_collection_challenge_2
 TEXT: Desafio de Coleção: Semana Climática
 
 RESOURCE ID: marketing_email_opt_in_desc
-TEXT: Sign up for emails to stay up to date on new events and features!
+TEXT: Inscreva-se para receber os e-mails para saber tudo sobre os novos eventos e recursos!
 
 RESOURCE ID: marketing_email_opt_in_toggle
-TEXT: Opt me in to emails
+TEXT: Quero receber e-mails
 
 RESOURCE ID: marketing_notification_opt_in_message
 TEXT: As notificações podem incluir alertas, sons e selos no ícone. Isso pode ser alterado nas suas configurações.
@@ -38381,16 +38463,16 @@ RESOURCE ID: marketing_notification_opt_in_title
 TEXT: A Niantic gostaria de lhe enviar notificações sobre eventos, ofertas e atualizações.
 
 RESOURCE ID: marketing_pn_email_opt_in_desc
-TEXT: Sign up for push notifications and emails to stay up to date on new events and features!
+TEXT: Ative as notificações por push e e-mails para saber tudo sobre os novos eventos e recursos!
 
 RESOURCE ID: marketing_pn_email_opt_in_title
-TEXT: Stay Up to Date
+TEXT: Acompanhe as novidades
 
 RESOURCE ID: marketing_pn_opt_in_desc
-TEXT: Sign up for push notifications to stay up to date on new events and features!
+TEXT: Ative as notificações por push para saber tudo sobre os novos eventos e recursos!
 
 RESOURCE ID: marketing_pn_opt_in_toggle
-TEXT: Opt me in to push notifications
+TEXT: Quero receber notificações
 
 RESOURCE ID: marrd_2019_easy spin
 TEXT: Pesquisa de Lotad: girar {0} fotodiscos de Poképaradas.
@@ -38920,6 +39002,9 @@ TEXT: Todos por um 151 (3/4)
 RESOURCE ID: masterwork_sm_title_4
 TEXT: Todos por um 151 (4/4)
 
+RESOURCE ID: max_battle_2x_xp
+TEXT: 2× PE por vencer Batalhas Max
+
 RESOURCE ID: maximum_tags_error
 TEXT: Não é possível criar mais do que {0} tags.
 
@@ -39323,9 +39408,9 @@ RESOURCE ID: meshing_option_title
 TEXT: Combinação
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2024-09-18T23:37:25.013009+00:00 for pt-BR
-at SHA b42b626eccd
-Pipeline 2624058, job 32108665
+TEXT: Built at 2024-09-26T22:38:58.645291+00:00 for pt-BR
+at SHA 4f3cd4da43f34
+Pipeline 2645106, job 32367297
 
 RESOURCE ID: mex_fighting_promo_title
 TEXT: Pesquisa temporária: Escolha o seu tipo de lutador
@@ -45653,7 +45738,7 @@ RESOURCE ID: photo_hub_featured_groups
 TEXT: grupos em destaque
 
 RESOURCE ID: photo_hub_hashtags
-TEXT: Use as hashtags #GOsnapshot #PokemonGO
+TEXT: Use as hashtags #GOsnapshot #GOsnapshotCelebration
 
 RESOURCE ID: photo_hub_last_used
 TEXT: Já fotografado
@@ -45937,6 +46022,9 @@ TEXT: 5 encontros surpresa com Oshawott ao usar o Retrato GO
 RESOURCE ID: photobomb_five_poliwag
 TEXT: 5 encontros surpresa com Poliwag ao usar o Retrato GO
 
+RESOURCE ID: photobomb_five_ponyta
+TEXT: 5 encontros surpresa com Ponyta ao usar o Retrato GO
+
 RESOURCE ID: photobomb_five_popplio
 TEXT: 5 encontros surpresa com Popplio ao usar o Retrato GO
 
@@ -46053,6 +46141,21 @@ TEXT: Pokémon GO STADIUM
 
 RESOURCE ID: pjcs2024
 TEXT: Campeonato Pokémon do Japão 2024
+
+RESOURCE ID: playability_em_fr_title
+TEXT: Aventuras no Brasil
+
+RESOURCE ID: playability_em_tr_desc
+TEXT: Pesquisa Temporária Aventuras no Brasil
+
+RESOURCE ID: playability_em_tr_title_00
+TEXT: Pesquisa Temporária Aventuras no Brasil (1/3)
+
+RESOURCE ID: playability_em_tr_title_01
+TEXT: Pesquisa Temporária Aventuras no Brasil (2/3)
+
+RESOURCE ID: playability_em_tr_title_02
+TEXT: Pesquisa Temporária Aventuras no Brasil (3/3)
 
 RESOURCE ID: player_cheating_warning
 TEXT: Detectamos atividade na sua conta que sugere que você ou alguém com acesso à sua conta esteja utilizando software de cliente modificado ou software de terceiros não autorizados que acessam Pokémon GO em violação dos nossos termos de serviço. Esteja ciente de que o uso deste tipo de software pode resultar na perda de sua conta. Se estiver utilizando este tipo de software, recomendamos que deixe de utilizá-lo. Se acessou certos aplicativos ou sites de terceiros não autorizados, também é possível que sua conta tenha sido comprometida. Recomendamos que troque sua senha imediatamente.
@@ -47014,7 +47117,7 @@ RESOURCE ID: pokecoins_daily_limit_reached
 TEXT: Limite diário de {0} Pokémoedas alcançado.
 
 RESOURCE ID: pokecoins_iap_string_key
-TEXT: {0} PokéCoins
+TEXT: {0} Pokémoedas
 
 RESOURCE ID: pokedex_all_types
 TEXT: Todos os tipos
@@ -54441,7 +54544,7 @@ RESOURCE ID: pokemon_legendary_info_transfer_to_professor_confirmation
 TEXT: Quer mesmo transferir este Pokémon Lendário?
 
 RESOURCE ID: pokemon_location_card_info_transfer_to_professor_confirmation
-TEXT: Tem certeza de que quer transferir este Pokémon com um Cartão de Localização?
+TEXT: Quer mesmo transferir este Pokémon com um fundo raro?
 
 RESOURCE ID: pokemon_lucky_info_transfer_to_professor_confirmation
 TEXT: Quer mesmo transferir este Pokémon sortudo?
@@ -58510,8 +58613,17 @@ TEXT: RESGATAR
 RESOURCE ID: psychic_cup_title
 TEXT: Copa Psíquica
 
+RESOURCE ID: psychic_sep24_tr_title
+TEXT: Pesquisa Temporária Premium do Espetáculo Psíquico 2024
+
 RESOURCE ID: psychic_spectacular_event_name
 TEXT: Espetáculo Psíquico
+
+RESOURCE ID: psychic_spectacular_sep24_collection_challenge_1
+TEXT: Desafio de Coleção Mentes Incríveis: Pegar
+
+RESOURCE ID: psychic_spectacular_sep24_collection_challenge_2
+TEXT: Desafio de Coleção Mentes Incríveis: Evoluir
 
 RESOURCE ID: psychic_type_event
 TEXT: Invasão de tipo: Psíquico
@@ -59637,6 +59749,9 @@ TEXT: Pegar {0} espécies diferentes de Pokémon de tipo Venenoso
 
 RESOURCE ID: quest_catch_type_poison_singular
 TEXT: Pegar 1 Pokémon de tipo Venenoso.
+
+RESOURCE ID: quest_catch_type_psychic_fairy_plural
+TEXT: Pegar {0} Pokémon de tipo Psíquico ou Fada.
 
 RESOURCE ID: quest_catch_type_psychic_fighting_plural
 TEXT: Pegar {0} Pokémon de tipo Psíquico ou Lutador.
@@ -63246,6 +63361,15 @@ TEXT: Tirar {0} fotos de Poliwag
 
 RESOURCE ID: quest_poliwhirl_evolve_b
 TEXT: Evoluir {0} Poliwhirl
+
+RESOURCE ID: quest_ponyta_catch_b
+TEXT: Pegar {0} Ponyta ou Ponyta de Galar.
+
+RESOURCE ID: quest_ponyta_evolve_b_plural
+TEXT: Evoluir {0} Ponyta ou Ponyta de Galar.
+
+RESOURCE ID: quest_ponyta_evolve_b_singular
+TEXT: Evoluir 1 Ponyta ou Ponyta de Galar.
 
 RESOURCE ID: quest_popplio_catch_b
 TEXT: Pegar {0} Popplio.
@@ -75565,6 +75689,21 @@ TEXT: Uma aventura em Poni (3/4)
 RESOURCE ID: quest_title_poni_3
 TEXT: Uma aventura em Poni (4/4)
 
+RESOURCE ID: quest_title_ponyta
+TEXT: Dia Comunitário: Ponyta e Ponyta de Galar
+
+RESOURCE ID: quest_title_ponyta_0
+TEXT: Dia Comunitário: Ponyta e Ponyta de Galar (1/4)
+
+RESOURCE ID: quest_title_ponyta_1
+TEXT: Dia Comunitário: Ponyta e Ponyta de Galar (2/4)
+
+RESOURCE ID: quest_title_ponyta_2
+TEXT: Dia Comunitário: Ponyta e Ponyta de Galar (3/4)
+
+RESOURCE ID: quest_title_ponyta_3
+TEXT: Dia Comunitário: Ponyta e Ponyta de Galar (4/4)
+
 RESOURCE ID: quest_title_popplio
 TEXT: Uma Exibição Deslumbrante.
 
@@ -76186,8 +76325,38 @@ TEXT: Uma companhia cósmica (10/10)
 RESOURCE ID: quest_title_season_16_first_partner_1
 TEXT: O Chamado de Galar (1/19)
 
+RESOURCE ID: quest_title_season_16_first_partner_10
+TEXT: O Chamado de Galar (10/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_11
+TEXT: O Chamado de Galar (11/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_12
+TEXT: O Chamado de Galar (12/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_13
+TEXT: O Chamado de Galar (13/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_14
+TEXT: O Chamado de Galar (14/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_15
+TEXT: O Chamado de Galar (15/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_16
+TEXT: O Chamado de Galar (16/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_17
+TEXT: O Chamado de Galar (17/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_18
+TEXT: O Chamado de Galar (18/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_19
+TEXT: O Chamado de Galar (19/19)
+
 RESOURCE ID: quest_title_season_16_first_partner_1_dialogue_1
-TEXT: Oi, %PLAYERNAME&, você chegou na hora certa!
+TEXT: Oi, %PLAYERNAME%, você chegou na hora certa!
 
 RESOURCE ID: quest_title_season_16_first_partner_1_dialogue_2
 TEXT: Eu estava saindo para fazer minha caminhada e me deparei com um grupo de Pokémon fascinantes que nunca vi antes!
@@ -76323,6 +76492,54 @@ TEXT: Será uma oportunidade científica incrível de ver essas habilidades impr
 
 RESOURCE ID: quest_title_season_16_first_partner_5
 TEXT: O Chamado de Galar (5/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_5_dialogue_1
+TEXT: Oba! Era você mesmo que eu queria encontrar, %PLAYERNAME%!
+
+RESOURCE ID: quest_title_season_16_first_partner_5_dialogue_2
+TEXT: Estava investigando o poder emanado de uma daquelas luzes estranhas que apareceram, e você não vai acreditar na descoberta colossal que eu fiz!
+
+RESOURCE ID: quest_title_season_16_first_partner_5_dialogue_3
+TEXT: Tem um Pokémon enorme lá! Realmente IMENSO! E não é o único, porque eu tenho recebido relatos desses Pokémon descomunais aparecendo por todos os cantos.
+
+RESOURCE ID: quest_title_season_16_first_partner_5_dialogue_4
+TEXT: O que você acha disso? Está com disposição para encontrar alguns Pokémon gigantescos e ir à fundo para desvendar um GRANDE mistério?
+
+RESOURCE ID: quest_title_season_16_first_partner_6
+TEXT: O Chamado de Galar (6/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_6_dialogue_1
+TEXT: Fizemos uma descoberta enorme, %PLAYERNAME%! Colegas Professores Pokémon e eu confirmamos que temos testemunhado o fenômeno Dinamax.
+
+RESOURCE ID: quest_title_season_16_first_partner_6_dialogue_2
+TEXT: E ainda por cima, temos aprendido que os locais com as luzes estranhas são uma ocorrência inteiramente nova!
+
+RESOURCE ID: quest_title_season_16_first_partner_6_dialogue_3
+TEXT: Honestamente, aqueles Pontos de Energia me dão arrepio!
+
+RESOURCE ID: quest_title_season_16_first_partner_6_dialogue_4
+TEXT: Além do mais, os Pontos de Energia estão definitivamente relacionados com a Dinamaxização. Isso é muito fascinante! Vamos lá avaliar o tamanho da situação e coletar mais dados.
+
+RESOURCE ID: quest_title_season_16_first_partner_7
+TEXT: O Chamado de Galar (7/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_7_dialogue_1
+TEXT: %PLAYERNAME%, essa nossa descoberta sobre Dinamax não é pouca coisa. É como se cada detalhe que aprendemos nos levasse a mais perguntas!
+
+RESOURCE ID: quest_title_season_16_first_partner_7_dialogue_2
+TEXT: Como se formam os Pontos de Energia? Quão mais fortes são esses Pokémon? Os Pokémon Dinamax também têm um apetite “maximizado”? Ai, ai, ai... Acho que vamos precisar estocar mais Frutas!
+
+RESOURCE ID: quest_title_season_16_first_partner_7_dialogue_3
+TEXT: De qualquer forma, precisamos continuar pensando grande e rastreando esses Pokémon colossais!
+
+RESOURCE ID: quest_title_season_16_first_partner_7_dialogue_4
+TEXT: Então vamos nessa! Vamos sair por aí e engrandecer essa aventura Dinamax!
+
+RESOURCE ID: quest_title_season_16_first_partner_8
+TEXT: O Chamado de Galar (8/19)
+
+RESOURCE ID: quest_title_season_16_first_partner_9
+TEXT: O Chamado de Galar (9/19)
 
 RESOURCE ID: quest_title_season_16_first_partner_branch_dialogue_1
 TEXT: Boas notícias! Tenho algumas informações pra você! Sobre quais Pokémon você gostaria de aprender mais, %PLAYERNAME%?
@@ -87861,6 +88078,9 @@ TEXT: Pidgey estão aparecendo com mais frequência!
 RESOURCE ID: spawn_poliwag
 TEXT: Poliwag selvagens estão aparecendo com mais frequência!
 
+RESOURCE ID: spawn_ponyta
+TEXT: Ponyta e Ponyta de Galar estão aparecendo com mais frequência!
+
 RESOURCE ID: spawn_popplio
 TEXT: Popplio selvagens estão aparecendo com mais frequência!
 
@@ -91336,6 +91556,12 @@ TEXT: <b>As recompensas incluem:</b>
 • Itens premium de jogo, como Doces Raros, Ultra Bolas e muito mais
 • Encontros extra com Cyndaquil e suas Evoluções
 
+RESOURCE ID: text_rewards_key_falinksraidday
+TEXT: <b>Os bônus incluem:</b>
+• 8 Passes de Reide adicionais ao girar Fotodiscos de Ginásios
+• Maior chance de receber Doce Raro GG de Reides
+• 50% a mais de PE e 2× Poeira Estelar por completar Reides com sucesso
+
 RESOURCE ID: text_rewards_key_febmonthly2024
 TEXT: <b>Inclui:</b>
 •Uma Incubadora de uso único como recompensa ao girar sua primeira Poképarada do dia
@@ -91413,6 +91639,9 @@ TEXT: <b>Os bônus incluem:</b>
 • 5 doces GG de Heatran, 5 doces GG de Giratina, 5 doces GG de Cresselia e 5 doces GG de Darkrai
 • 10 doces de Dialga e 10 doces de Palkia
 
+RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
+TEXT: A ticket to Pokémon GO Wild Area: Global, which has been provided to you early and at no cost.
+
 RESOURCE ID: text_rewards_key_growtogether24
 TEXT: <b>Os bônus incluem:</b>
 • 5× PE por girar sua primeira Poképarada ou Ginásio do dia
@@ -91453,6 +91682,18 @@ TEXT: <b>Os bônus incluem:</b>
 • Um Doce Raro GG garantido por pegar Lucario
 
 Se você comprar este ingresso, não poderá comprar a versão que inclui a Máscara de Lucario como um adicional gratuito. Saiba mais sobre esta versão e os bônus do ingresso <a href="https://pokemongolive.com/post/mega-lucario-raid-ultra-unlock">aqui</a>.
+
+RESOURCE ID: text_rewards_key_monthlyticketoct24
+TEXT: This ticket grants bonuses, Timed Research awarding 200 bonus PokéCoins, and daily bonus Field Research tasks that award bonus PokéCoins from October 3 to November 2, 2024.
+
+<b>Included bonuses:</b>
+• One Field Research task the first time you log on each day that awards 20 bonus PokéCoins
+• 3× XP for your first catch of the day and your first spin of the day
+• Open up to 50 Gifts a day
+• Collect up to 150 Gifts a day from PokéStops and Gyms
+• Hold up to 40 Gifts in your Item Bag at once
+
+Please note: You must have three or fewer Field Research tasks active to receive this bonus Field Research task the first time you log on each day. You must claim the 20 bonus PokéCoin reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
 
 RESOURCE ID: text_rewards_key_monthlyticketsept24
 TEXT: Este ingresso garante bônus, Pesquisa Temporária que concede 200 Pokémoedas de bônus e tarefas de Pesquisa de Campo com bônus diário de 3 de setembro de 2024 até 2 de outubro de 2024.
@@ -91821,6 +92062,9 @@ TEXT: Ingressos para a pesquisa especial "De scalchops a espadaquas" estão disp
 
 RESOURCE ID: ticket_poliwag
 TEXT: O ingresso para a narrativa de pesquisa especial Redemoinhos escorregadios está disponível na loja
+
+RESOURCE ID: ticket_ponyta
+TEXT: O ingresso para a Pesquisa Especial temática do Dia Comunitário está disponível na loja
 
 RESOURCE ID: ticket_popplio
 TEXT: Ingresso para a narrativa de pesquisa especial do Dia Comunitário de Popplio está disponível na loja
@@ -94442,25 +94686,25 @@ RESOURCE ID: unified_punishment_strike1_desc
 TEXT: Detectamos atividade na sua conta que violam nossas <a href="player_guidelines_link_dsa">Diretrizes para Jogadores</a>. Você verá este aviso por {0} dias.
 
 RESOURCE ID: unified_punishment_strike1_desc_singular
-TEXT: We have detected activity on your account in violation of our <a href="player_guidelines_link_dsa">Player Guidelines</a>. You will see this warning notice for 1 day.
+TEXT: Detectamos atividade na sua conta que violam nossas <a href="player_guidelines_link_dsa">Diretrizes para Jogadores</a>. Você verá este alerta por 1 dia.
 
 RESOURCE ID: unified_punishment_strike1_title
-TEXT: Account Warning Notice
+TEXT: Notificação de alerta de conta
 
 RESOURCE ID: unified_punishment_strike2_desc
 TEXT: A sua conta foi suspensa por violar as <a href="player_guidelines_link_dsa">Diretrizes para Jogadores</a>. Esta suspensão durará aproximadamente {0} dias.
 
 RESOURCE ID: unified_punishment_strike2_desc_singular
-TEXT: Your account has been suspended for violating the <a href="player_guidelines_link_dsa">Player Guidelines</a>. This suspension will last approximately 1 day.
+TEXT: A sua conta foi suspensa por violar as <a href="player_guidelines_link_dsa">Diretrizes para Jogadores</a>. Esta suspensão durará aproximadamente 1 dia.
 
 RESOURCE ID: unified_punishment_strike2_title
-TEXT: Account Suspension Notice
+TEXT: Notificação de suspensão de conta
 
 RESOURCE ID: unified_punishment_strike3_desc
 TEXT: A sua conta foi permanentemente suspensa por violar as <a href="player_guidelines_link_dsa">Diretrizes para Jogadores</a>.
 
 RESOURCE ID: unified_punishment_strike3_title
-TEXT: Account Ban Notice
+TEXT: Notificação de banimento de conta
 
 RESOURCE ID: unified_punishment_strike_desc_b
 TEXT: Qualquer outra transgressão resultará na aplicação de ações mais severas para a conta.
@@ -95011,10 +95255,10 @@ RESOURCE ID: visit_help_center_prompt
 TEXT: Para mais informações, visite a Central de ajuda.
 
 RESOURCE ID: visit_power_spot_plural
-TEXT: Visite {0} Pontos de Energia
+TEXT: Colete PM de {0} Pontos de Energia
 
 RESOURCE ID: visit_power_spot_singular
-TEXT: Visite um Ponto de Energia
+TEXT: Colete PM de um Ponto de Energia
 
 RESOURCE ID: volbeat_illumise_all_regions
 TEXT: Volbeat e Illumise estão aparecendo com mais frequência no mundo todo
