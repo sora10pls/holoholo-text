@@ -1,6 +1,12 @@
 RESOURCE ID: allow_notifications_prompt_message_temp
 TEXT: En son etkinlik ve özelliklerden haberdar olmak için Pokémon GO’ya bildirim erişimi verin.
 
+RESOURCE ID: ar_backgrounded_error_title
+TEXT: 
+
+RESOURCE ID: ar_backgrounded_error_title_temp
+TEXT: Bağlantı koptu
+
 RESOURCE ID: badge_party_challenges_completed
 TEXT: {0} ekip görevi tamamlayın
 
@@ -31,8 +37,14 @@ TEXT: Galarlı Ponyta’yı evrimleştirerek Yabani Şarj güçlü saldırısın
 RESOURCE ID: bonus_cd_move_ponyta
 TEXT: Ponyta’yı evrimleştirerek Yabani Şarj güçlü saldırısını bilen Rapidash elde edin!
 
+RESOURCE ID: bonus_cd_move_sewaddle
+TEXT: Swadloon’u evrimleştirerek Gölge Pençesi hızlı saldırısını bilen Leavanny elde edin!
+
 RESOURCE ID: bonus_implicit_social_ponyta_raid
 TEXT: Eğitmenler bir spor salonunda birlikte Ponyta veya Galarlı Ponyta akın maçı kazanırsa 30 dakika boyunca o bölgede çok sayıda Ponyta ve Galarlı Ponyta ortaya çıkacak
+
+RESOURCE ID: bonus_implicit_social_sewaddle_raid
+TEXT: Eğitmenler birlikte bir Swadloon akın maçı kazanırsa 30 dakika boyunca o bölgede çok sayıda Sewaddle ortaya çıkacak
 
 RESOURCE ID: bonus_koffing_evo
 TEXT: Koffing Galarlı Weezing’e evrimleşecek
@@ -101,7 +113,7 @@ RESOURCE ID: bread_dough_lobby_trainer_list_title
 TEXT: {0} Trainers
 
 RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
-TEXT: 1Trainer
+TEXT: 1 Trainer
 
 RESOURCE ID: bread_iap_max_mp_replenish_warning
 TEXT: Maksimum Maksi Parçacık Paketi sayısına ({0}) ulaştınız. Lütfen Maksi Parçacık Paketlerinizi kullandıktan sonra tekrar deneyin.
@@ -151,9 +163,13 @@ TEXT: Lobi bulunamadı.
 RESOURCE ID: event_datetime_range_key_falinksraidday
 TEXT: 8 Eylül, 14.00-22.00
 
+RESOURCE ID: event_datetime_range_key_gowa24
+TEXT: 23 Kasım –
+24 Kasım
+
 RESOURCE ID: event_datetime_range_key_monthlyticketnov24
-TEXT: November 3, 12:00 a.m. –
-December 2, 11:59 p.m.
+TEXT: 3 Kasım, 00.00 –
+2 Aralık, 23.59
 
 RESOURCE ID: event_datetime_range_key_monthlyticketoct24
 TEXT: 3 Ekim, 00.00 –
@@ -215,7 +231,7 @@ RESOURCE ID: general1.ticket._gowa24_title
 TEXT: Pokémon GO Vahşi Bölgesi: Küresel Bilet
 
 RESOURCE ID: general1.ticket._monthlyticketnov24_title
-TEXT: Daily PokéCoin Bounty Part 3 Ticket
+TEXT: Günlük PokéPara Armağanı 3. Kısım Bileti
 
 RESOURCE ID: general1.ticket._monthlyticketoct24_title
 TEXT: Günlük PokéPara Armağanı 2. Kısım Bileti
@@ -235,14 +251,98 @@ TEXT: Cadılar Bayramı Kupası: Süper Lig
 RESOURCE ID: halloween_cup_little_title
 TEXT: Cadılar Bayramı Kupası: Küçükler
 
+RESOURCE ID: hint_desc_loc_network_err_body_key
+TEXT: Be sure to point your camera at the location
+matching the hint image as you walk slowly
+around it to capture multiple angles.
+
+RESOURCE ID: hint_desc_loc_network_err_title_key
+TEXT: Something went wrong...
+
+RESOURCE ID: hint_desc_loc_not_ready_body_key
+TEXT: Be sure to point your camera at the landmark matching the hint image as you walk slowly around it to capture multiple angles.
+
+RESOURCE ID: hint_desc_loc_not_ready_title_key
+TEXT: Something went wrong...
+
+RESOURCE ID: hint_desc_loc_ready_title_key
+TEXT: Point your camera at the landmark in this image!
+
+RESOURCE ID: hint_desc_loc_retry_button_key
+TEXT: Try again
+
+RESOURCE ID: hint_desc_ready_title_key
+TEXT: Walk to the landmark.
+It's nearby!
+
 RESOURCE ID: home_transfer_error_gym_deployed
 TEXT: Spor salonlarını savunan veya Güç Noktalarına yerleştirilmiş olan Pokémon’ları gönderemezsiniz.
 
 RESOURCE ID: home_transfer_error_gym_deployed_old
 TEXT: Spor salonlarını savunan Pokémon’ları gönderemezsiniz.
 
+RESOURCE ID: inapp_banner_desc
+TEXT: Bu ayın belirli alışverişlerde geçerli özel hediyesi hakkındaki ayrıntılar burada.
+
 RESOURCE ID: incense_spawns_attract
 TEXT: Öne çıkan Pokémon’lar Tütsüye gelecek
+
+RESOURCE ID: iris_social_confirm_exit_modal_body
+TEXT: Unless you remove your Pokémon, they will stay and play for a little while until they get tired and return
+
+RESOURCE ID: iris_social_confirm_exit_modal_title
+TEXT: Are you sure you want to leave?
+
+RESOURCE ID: iris_social_diagnostic_okay_button
+TEXT: Submit Report
+
+RESOURCE ID: iris_social_diagnostic_title
+TEXT: This is an experimental feature
+
+RESOURCE ID: iris_social_diagnostics_option_five
+TEXT: This location is unsuitable for AR
+
+RESOURCE ID: iris_social_diagnostics_option_four
+TEXT: I'm looking at the landmark and nothing is happening
+
+RESOURCE ID: iris_social_diagnostics_option_one
+TEXT: I can't find the location in the image
+
+RESOURCE ID: iris_social_diagnostics_option_three
+TEXT: I don't know where to point my camera
+
+RESOURCE ID: iris_social_diagnostics_option_two
+TEXT: Hint image is unclear
+
+RESOURCE ID: iris_social_diagnostics_subtitle
+TEXT: Please report any issues or feedback you have using this experimental feature.
+
+RESOURCE ID: iris_social_entry_instruction_body
+TEXT: Pokémon gather, play and meet other Trainers at landmarks! Point your camera at the landmark to view and interact with any Pokémon there.
+
+RESOURCE ID: iris_social_entry_instruction_title
+TEXT: You found a landmark!
+
+RESOURCE ID: iris_social_info_screen_playtime_stat_label
+TEXT: Kalan oyun zamanı
+
+RESOURCE ID: iris_social_landmark_too_far_body
+TEXT: Walk closer to see the Pokémon.
+
+RESOURCE ID: iris_social_landmark_too_far_header
+TEXT: You are too far from the landmark
+
+RESOURCE ID: iris_social_limited_pokemon_key
+TEXT: Şu anda bu Pokémon’a yer yok.
+
+RESOURCE ID: iris_social_limited_pokemon_key_temp
+TEXT: Şu anda bu Pokémon’a yetecek kadar yer yok.
+
+RESOURCE ID: iris_social_rotation_error_key
+TEXT: You can only rotate your own Pokémon.
+
+RESOURCE ID: iris_social_temporary_disable_key
+TEXT: This location isn't available right now. Please come back later.
 
 RESOURCE ID: item_event_ticket_04_desc_researchdaysept24
 TEXT: 22 Eylül 2024’te, yerel saatle 14.00-17.00 arasında gerçekleşecek Oranguru ve Passimian Araştırma Günü kapsamında iki premium süreli araştırmaya dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
@@ -343,6 +443,16 @@ TEXT: Kılıç Yolu
 RESOURCE ID: levelup_max_move_plural
 TEXT: Bir Maksi Hareketin seviyesini {0} kez yükseltin
 
+RESOURCE ID: localization_progress_hint_1
+TEXT: Point device towards the landmark
+matching the image below.
+
+RESOURCE ID: localization_progress_hint_2
+TEXT: Walk slowly around the landmark.
+
+RESOURCE ID: localization_success_hint
+TEXT: You found the landmark!
+
 RESOURCE ID: marketing_email_opt_in_desc
 TEXT: En son etkinlik ve özelliklerle ilgili haberleri kaçırmak istemiyorsanız e-postaları almak için kaydolun!
 
@@ -365,10 +475,10 @@ RESOURCE ID: max_battle_2x_xp
 TEXT: Kazanılan Maksi Maçlardan 2× TP
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-09-27T23:56:28.971002+00:00 for tr-TR
-at SHA 1252485c4d
-Pipeline 2648787, job 32407195
-Patch from: 0.333.0-SHA-2c73ee88-RC4, 0.331.0-SHA-aa66102c-RC1
+TEXT: Built at 2024-10-01T21:47:16.191149+00:00 for tr-TR
+at SHA 3dcd4c9604
+Pipeline 2655473, job 32481679
+Patch from: 0.335.0-SHA-8799407d-RC1, 0.333.0-SHA-38034fba-RC1, 0.331.1-SHA-b42b626e-RC1
 
 RESOURCE ID: mp_replenish.1_title
 TEXT: 1 Maksi Parçacık Paketi ({0} MP)
@@ -390,6 +500,9 @@ TEXT: #GOsnapshot #GOsnapshotCelebration etiketlerini kullanın
 
 RESOURCE ID: photobomb_five_ponyta
 TEXT: GO Fotoğrafta Ponyta ile 5 sürpriz karşılaşma
+
+RESOURCE ID: photobomb_five_sewaddle
+TEXT: GO Fotoğrafta Sewaddle ile 5 sürpriz karşılaşma
 
 RESOURCE ID: playability_em_fr_title
 TEXT: Brezilya Macerası
@@ -420,6 +533,9 @@ TEXT: Bu Dost Pokémon gerçekten gönderilsin mi?
 
 RESOURCE ID: pokemon_costume_info_transfer_to_professor_confirmation
 TEXT: Bu Etkinlik Pokémon’u gerçekten gönderilsin mi?
+
+RESOURCE ID: pokemon_info_evolve_pokemon_iris_social_deployed
+TEXT: {0} bir PokéDurakta oynuyor.
 
 RESOURCE ID: pokemon_info_mega_evolution_really_confirm
 TEXT: {0} gerçekten mega evrimleştirilsin mi?
@@ -468,6 +584,21 @@ TEXT: {0} Ponyta veya Galarlı Ponyta evrimleştirin
 
 RESOURCE ID: quest_ponyta_evolve_b_singular
 TEXT: Bir Ponyta veya Galarlı Ponyta evrimleştirin
+
+RESOURCE ID: quest_sewaddle_catch_b
+TEXT: {0} Sewaddle yakalayın
+
+RESOURCE ID: quest_sewaddle_evolve_b_plural
+TEXT: {0} Sewaddle evrimleştirin
+
+RESOURCE ID: quest_sewaddle_evolve_b_singular
+TEXT: Bir Sewaddle evrimleştirin
+
+RESOURCE ID: quest_swadloon_evolve_b_plural
+TEXT: {0} Swadloon evrimleştirin
+
+RESOURCE ID: quest_swadloon_evolve_b_singular
+TEXT: Bir Swadloon evrimleştirin
 
 RESOURCE ID: quest_title_ponyta
 TEXT: Topluluk Günü: Ponyta ve Galarlı Ponyta
@@ -562,6 +693,21 @@ TEXT: Galar’ın Çağrısı (8/19)
 RESOURCE ID: quest_title_season_16_first_partner_9
 TEXT: Galar’ın Çağrısı (9/19)
 
+RESOURCE ID: quest_title_sewaddle
+TEXT: Dişlenmiş Yaprak
+
+RESOURCE ID: quest_title_sewaddle_0
+TEXT: Dişlenmiş Yaprak (1/4)
+
+RESOURCE ID: quest_title_sewaddle_1
+TEXT: Dişlenmiş Yaprak (2/4)
+
+RESOURCE ID: quest_title_sewaddle_2
+TEXT: Dişlenmiş Yaprak (3/4)
+
+RESOURCE ID: quest_title_sewaddle_3
+TEXT: Dişlenmiş Yaprak (4/4)
+
 RESOURCE ID: research_day_passimian_and_oranguru_event_name
 TEXT: Oranguru ve Passimian Araştırma Günü
 
@@ -573,6 +719,9 @@ TEXT: Passimian Premium Süreli Araştırması
 
 RESOURCE ID: spawn_ponyta
 TEXT: Doğada daha fazla Ponyta ve Galarlı Ponyta ortaya çıkıyor!
+
+RESOURCE ID: spawn_sewaddle
+TEXT: Doğada daha fazla Sewaddle ortaya çıkıyor!
 
 RESOURCE ID: special_trade_stardust_half
 TEXT: Özel takaslarda 1/2 yıldız tozu bedeli
@@ -598,20 +747,32 @@ TEXT: <b>Şu bonusları içerir:</b>
 • Akınlardan daha yüksek Nadir Büyük Şeker kazanma şansı
 • Başarıyla tamamlanan akınlardan %50 daha fazla TP ve 2× yıldız tozu
 
+RESOURCE ID: text_rewards_key_gowa24
+TEXT: <b>Şu ödülleri içerir:</b>
+• Punk Pokémon Toxtricity’nin yanı sıra Elektrik veya Zehir türü Pokémon’larla karşılaşmalar
+• 22 Ekim’den önce bir Pokémon GO Vahşi Bölgesi: Küresel bileti alıp 15-22 Ekim tarihlerinde Pokémon GO oynayan Eğitmenler Toxel Maskesi avatar eşyasına erken erişim sunan bir süreli araştırma alacak.
+
+RESOURCE ID: text_rewards_key_gowa24impactedshoptext10.1
+TEXT: Size erken ve ücretsiz olarak sunulan bir Pokémon GO Vahşi Bölgesi: Global etkinliği bileti.<b>Şu ödülleri içerir:</b>
+• Punk Pokémon Toxtricity’nin yanı sıra Elektrik veya Zehir türü Pokémon’larla karşılaşmalar
+• Bu bileti 22 Ekim’den önce alıp 15-22 Ekim tarihlerinde Pokémon GO oynayan Eğitmenler Toxel Maskesi avatar eşyasına erken erişim sunan bir süreli araştırma alacak.
+
+Bu bilet aynı zamanda GO Vahşi Bölgesi: Küresel macerasının tadını çıkarmanıza yardımcı olacak bonuslar da içeriyor!
+
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: Size erken ve ücretsiz olarak sunulan bir Pokémon GO Vahşi Bölgesi: Global etkinliği bileti.
 
 RESOURCE ID: text_rewards_key_monthlyticketnov24
-TEXT: This ticket grants bonuses, Timed Research awarding 200 bonus PokéCoins, and daily bonus Field Research tasks that award bonus PokéCoins from November 3 to December 2, 2024.
+TEXT: Bu bilet ile 3 Kasım 2024 - 2 Aralık 2024 arasında bonusların yanı sıra 200 bonus PokéPara kazandıran bir süreli araştırma ve bonus PokéPara kazandıran günlük alan araştırması görevleri alabilirsiniz.
 
-<b>Included bonuses:</b>
-• One Field Research task the first time you log on each day that awards 20 bonus PokéCoins
-• 3× XP for your first catch of the day and your first spin of the day
-• Open up to 50 Gifts a day
-• Collect up to 150 Gifts a day from PokéStops and Gyms
-• Hold up to 40 Gifts in your Item Bag at once
+<b>Şu bonusları içerir:</b>
+• Her gün ilk giriş yaptığınızda 20 bonus PokéPara kazandıran bir alan araştırması görevi
+• Günün ilk yakalaması ve ilk döndürmesi için 3× TP
+• Her gün 50 adede kadar Hediye açma
+• PokéDurak ve spor salonlarından günde 150 adede kadar Hediye toplama
+• Eşya Çantanızda aynı anda 40 adede kadar Hediye bulundurma
 
-Please note: You must have three or fewer Field Research tasks active to receive this bonus Field Research task the first time you log on each day. You must claim the 20 bonus PokéCoin reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
+Aklınızda bulunsun: Herhangi bir gün giriş yaparken bu bonus alan araştırmasını alabilmek için aktif alan araştırması görevlerinizin sayısı üç veya daha az olmalıdır. Ayrıca, görevi tamamladıktan sonra 20 bonus PokéPara ödülünü edinebilmek için önce ödülü almalısınız. Bonus alan araştırması görevleri hakkında ayrıntılı bilgiye <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">buradan</a> ulaşabilirsiniz.
 
 RESOURCE ID: text_rewards_key_monthlyticketoct24
 TEXT: Bu bilet ile 3 Ekim 2024 - 2 Kasım 2024 arasında bonusların yanı sıra 200 bonus PokéPara kazandıran bir süreli araştırma ve bonus PokéPara kazandıran günlük alan araştırması görevleri alabilirsiniz.
@@ -646,6 +807,9 @@ TEXT: <b>Şu ödülleri içerir:</b>
 RESOURCE ID: ticket_ponyta
 TEXT: Topluluk Günü temalı özel araştırma biletini mağazadan alabilirsiniz
 
+RESOURCE ID: ticket_sewaddle
+TEXT: Dişlenmiş Yaprak özel araştırması biletini mağazadan alabilirsiniz
+
 RESOURCE ID: tr_ticket_in_shop
 TEXT: Premium süreli araştırma biletini mağazadan alabilirsiniz
 
@@ -672,4 +836,7 @@ TEXT: {0} Güç Noktasından MP toplayın
 
 RESOURCE ID: visit_power_spot_singular
 TEXT: Bir Güç Noktasından MP toplayın
+
+RESOURCE ID: vps_localization_landscape_error
+TEXT: Telefonunuzu diklemesine tutun.
 

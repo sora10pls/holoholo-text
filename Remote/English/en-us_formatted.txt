@@ -1,3 +1,12 @@
+RESOURCE ID: ar_backgrounded_error
+TEXT: You’ve been disconnected from the landmark area.
+
+RESOURCE ID: ar_backgrounded_error_title
+TEXT: 
+
+RESOURCE ID: ar_backgrounded_error_title_temp
+TEXT: Disconnected
+
 RESOURCE ID: badge_party_challenges_completed
 TEXT: Complete {0} Party Challenges
 
@@ -28,8 +37,14 @@ TEXT: Evolve Galarian Ponyta to get a Galarian Rapidash that knows the Charged A
 RESOURCE ID: bonus_cd_move_ponyta
 TEXT: Evolve Ponyta to get a Rapidash that knows the Charged Attack Wild Charge!
 
+RESOURCE ID: bonus_cd_move_sewaddle
+TEXT: Evolve Swadloon to get a Leavanny that knows the Fast Attack Shadow Claw!
+
 RESOURCE ID: bonus_implicit_social_ponyta_raid
 TEXT: If Trainers work together to win a Ponyta or Galarian Ponyta raid, large numbers of Ponyta and Galarian Ponyta will appear in the area for 30 minutes
+
+RESOURCE ID: bonus_implicit_social_sewaddle_raid
+TEXT: If Trainers work together to win a Swadloon raid, large numbers of Sewaddle will appear in the area for 30 minutes
 
 RESOURCE ID: bonus_koffing_evo
 TEXT: Koffing will evolve into Galarian Weezing
@@ -92,7 +107,7 @@ RESOURCE ID: bread_dough_lobby_trainer_list_title
 TEXT: {0} Trainers
 
 RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
-TEXT: 1Trainer
+TEXT: 1 Trainer
 
 RESOURCE ID: bread_notification_empty
 TEXT: {0} has returned from the Power Spot.
@@ -132,6 +147,10 @@ TEXT: The lobby could not be found.
 
 RESOURCE ID: event_datetime_range_key_falinksraidday
 TEXT: September 8, 2:00 p.m. – 10:00 p.m.
+
+RESOURCE ID: event_datetime_range_key_gowa24
+TEXT: November 23 –
+November 24
 
 RESOURCE ID: event_datetime_range_key_monthlyticketnov24
 TEXT: November 3, 12:00 a.m. –
@@ -211,14 +230,98 @@ TEXT: Oranguru and Passimian Research Day Premium Timed Research Ticket
 RESOURCE ID: general1.ticket_sewaddlecd24_title
 TEXT: Sewaddle Community Day Ticket
 
+RESOURCE ID: hint_desc_loc_network_err_body_key
+TEXT: Be sure to point your camera at the location
+matching the hint image as you walk slowly
+around it to capture multiple angles.
+
+RESOURCE ID: hint_desc_loc_network_err_title_key
+TEXT: Something went wrong...
+
+RESOURCE ID: hint_desc_loc_not_ready_body_key
+TEXT: Be sure to point your camera at the landmark matching the hint image as you walk slowly around it to capture multiple angles.
+
+RESOURCE ID: hint_desc_loc_not_ready_title_key
+TEXT: Something went wrong...
+
+RESOURCE ID: hint_desc_loc_ready_title_key
+TEXT: Point your camera at the landmark in this image!
+
+RESOURCE ID: hint_desc_loc_retry_button_key
+TEXT: Try again
+
+RESOURCE ID: hint_desc_ready_title_key
+TEXT: Walk to the landmark.
+It's nearby!
+
 RESOURCE ID: home_transfer_error_gym_deployed
 TEXT: You can’t send Pokémon that are defending Gyms or placed at Power Spots.
 
 RESOURCE ID: home_transfer_error_gym_deployed_old
 TEXT: You can’t send Pokémon that are defending Gyms.
 
+RESOURCE ID: inapp_banner_desc
+TEXT: Learn more about this month’s special gift, available with specified purchase.
+
 RESOURCE ID: incense_spawns_attract
 TEXT: Featured Pokémon attracted to Incense
+
+RESOURCE ID: iris_social_confirm_exit_modal_body
+TEXT: Unless you remove your Pokémon, they will stay and play for a little while until they get tired and return
+
+RESOURCE ID: iris_social_confirm_exit_modal_title
+TEXT: Are you sure you want to leave?
+
+RESOURCE ID: iris_social_diagnostic_okay_button
+TEXT: Submit Report
+
+RESOURCE ID: iris_social_diagnostic_title
+TEXT: This is an experimental feature
+
+RESOURCE ID: iris_social_diagnostics_option_five
+TEXT: This location is unsuitable for AR
+
+RESOURCE ID: iris_social_diagnostics_option_four
+TEXT: I'm looking at the landmark and nothing is happening
+
+RESOURCE ID: iris_social_diagnostics_option_one
+TEXT: I can't find the location in the image
+
+RESOURCE ID: iris_social_diagnostics_option_three
+TEXT: I don't know where to point my camera
+
+RESOURCE ID: iris_social_diagnostics_option_two
+TEXT: Hint image is unclear
+
+RESOURCE ID: iris_social_diagnostics_subtitle
+TEXT: Please report any issues or feedback you have using this experimental feature.
+
+RESOURCE ID: iris_social_entry_instruction_body
+TEXT: Pokémon gather, play and meet other Trainers at landmarks! Point your camera at the landmark to view and interact with any Pokémon there.
+
+RESOURCE ID: iris_social_entry_instruction_title
+TEXT: You found a landmark!
+
+RESOURCE ID: iris_social_info_screen_playtime_stat_label
+TEXT: Playtime remaining
+
+RESOURCE ID: iris_social_landmark_too_far_body
+TEXT: Walk closer to see the Pokémon.
+
+RESOURCE ID: iris_social_landmark_too_far_header
+TEXT: You are too far from the landmark
+
+RESOURCE ID: iris_social_limited_pokemon_key
+TEXT: There isn’t room for that Pokémon right now.
+
+RESOURCE ID: iris_social_limited_pokemon_key_temp
+TEXT: There isn’t enough space for that Pokémon right now.
+
+RESOURCE ID: iris_social_rotation_error_key
+TEXT: You can only rotate your own Pokémon.
+
+RESOURCE ID: iris_social_temporary_disable_key
+TEXT: This location isn't available right now. Please come back later.
 
 RESOURCE ID: item_event_ticket_04_desc_researchdaysept24
 TEXT: A ticket to access two Premium Timed Research opportunities for Oranguru and Passimian Research Day on September 22, 2024, from 2:00 p.m. to 5:00 p.m. local time, wherever you are.
@@ -319,14 +422,28 @@ TEXT: Sword Path
 RESOURCE ID: levelup_max_move_plural
 TEXT: Level up a Max Move {0} times
 
+RESOURCE ID: localization_progress_hint_1
+TEXT: Point device towards the landmark
+matching the image below.
+
+RESOURCE ID: localization_progress_hint_2
+TEXT: Walk slowly around the landmark.
+
+RESOURCE ID: localization_success_hint
+TEXT: You found the landmark!
+
+RESOURCE ID: location_space_limit_message
+TEXT: There isn’t enough space for
+that Pokémon right now.
+
 RESOURCE ID: max_battle_2x_xp
 TEXT: 2× XP for winning Max Battles
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-09-27T23:56:28.971002+00:00 for en-US
-at SHA 1252485c4d
-Pipeline 2648787, job 32407195
-Patch from: 0.333.0-SHA-2c73ee88-RC4, 0.331.0-SHA-aa66102c-RC1
+TEXT: Built at 2024-10-01T21:47:16.191149+00:00 for en-US
+at SHA 3dcd4c9604
+Pipeline 2655473, job 32481679
+Patch from: 0.335.0-SHA-8799407d-RC1, 0.333.0-SHA-38034fba-RC1, 0.331.1-SHA-b42b626e-RC1
 
 RESOURCE ID: mp_replenish.1_title
 TEXT: 1 Max Particle Pack ({0} MP)
@@ -343,11 +460,20 @@ TEXT: Festival Mask (Pikachu)
 RESOURCE ID: nearby_station_active_header
 TEXT: Active
 
+RESOURCE ID: no_pokemon_found_body
+TEXT: Would you like to add your own Pokémon here?
+
+RESOURCE ID: no_pokemon_found_header
+TEXT: You haven’t placed a Pokémon here yet!
+
 RESOURCE ID: photo_hub_hashtags
 TEXT: Use hashtags #GOsnapshot #GOsnapshotCelebration
 
 RESOURCE ID: photobomb_five_ponyta
 TEXT: 5 surprise encounters with Ponyta in GO Snapshot
+
+RESOURCE ID: photobomb_five_sewaddle
+TEXT: 5 surprise encounters with Sewaddle in GO Snapshot
 
 RESOURCE ID: playability_em_fr_title
 TEXT: Adventures in Brazil
@@ -363,6 +489,9 @@ TEXT: Adventures in Brazil Timed Research (2/3)
 
 RESOURCE ID: playability_em_tr_title_02
 TEXT: Adventures in Brazil Timed Research (3/3)
+
+RESOURCE ID: pokemon_info_evolve_pokemon_iris_social_deployed
+TEXT: {0} is playing at a PokéStop.
 
 RESOURCE ID: pokemon_location_card_info_transfer_to_professor_confirmation
 TEXT: Do you really want to transfer this Pokémon with a rare background?
@@ -387,6 +516,21 @@ TEXT: Evolve {0} Ponyta or Galarian Ponyta
 
 RESOURCE ID: quest_ponyta_evolve_b_singular
 TEXT: Evolve a Ponyta or Galarian Ponyta
+
+RESOURCE ID: quest_sewaddle_catch_b
+TEXT: Catch {0} Sewaddle
+
+RESOURCE ID: quest_sewaddle_evolve_b_plural
+TEXT: Evolve {0} Sewaddle
+
+RESOURCE ID: quest_sewaddle_evolve_b_singular
+TEXT: Evolve a Sewaddle
+
+RESOURCE ID: quest_swadloon_evolve_b_plural
+TEXT: Evolve {0} Swadloon
+
+RESOURCE ID: quest_swadloon_evolve_b_singular
+TEXT: Evolve a Swadloon
 
 RESOURCE ID: quest_title_ponyta
 TEXT: Community Day: Ponyta and Galarian Ponyta
@@ -484,6 +628,21 @@ TEXT: Galar Calling (8/19)
 RESOURCE ID: quest_title_season_16_first_partner_9
 TEXT: Galar Calling (9/19)
 
+RESOURCE ID: quest_title_sewaddle
+TEXT: Sew Far Sew Good
+
+RESOURCE ID: quest_title_sewaddle_0
+TEXT: Sew Far Sew Good (1/4)
+
+RESOURCE ID: quest_title_sewaddle_1
+TEXT: Sew Far Sew Good (2/4)
+
+RESOURCE ID: quest_title_sewaddle_2
+TEXT: Sew Far Sew Good (3/4)
+
+RESOURCE ID: quest_title_sewaddle_3
+TEXT: Sew Far Sew Good (4/4)
+
 RESOURCE ID: research_day_passimian_and_oranguru_event_name
 TEXT: Oranguru and Passimian Research Day
 
@@ -495,6 +654,9 @@ TEXT: Passimian Premium Timed Research
 
 RESOURCE ID: spawn_ponyta
 TEXT: More Ponyta and Galarian Ponyta are appearing in the wild!
+
+RESOURCE ID: spawn_sewaddle
+TEXT: More Sewaddle are appearing in the wild!
 
 RESOURCE ID: special_trade_stardust_half
 TEXT: 1/2 Stardust cost for Special Trades
@@ -519,6 +681,34 @@ TEXT: <b>Included bonuses:</b>
 • Eight additional Raid Passes from spinning Photo Discs at Gyms
 • Increased chance to receive Rare Candy XL from raids
 • 50% more XP and 2× Stardust for successfully completing raids
+
+RESOURCE ID: text_rewards_key_gowa24
+TEXT: <b>Includes:</b>
+• An encounter with Toxtricity, the Punk Pokémon
+• Up to 5 free Raid Passes each day from spinning Gym Photo Discs
+• Increased chance of Toxel hatching from 10 km Eggs
+• Up to 6 Special Trades per day and reduced Stardust cost for trades
+• 1/2 Egg Hatch Distance
+• 2× Candy for catching Pokémon
+• A higher chance to encounter Shiny Pokémon during the event
+• Purchase by October 22 and play between October 15 and October 22 for Timed Research that awards the Toxel Mask avatar item!
+
+Learn more about the ticket bonuses <a href="pokemongolive.com/gowildarea/global">here</a>.
+
+RESOURCE ID: text_rewards_key_gowa24impactedshoptext10.1
+TEXT: A ticket to Pokémon GO Wild Area: Global, which has been provided to you early and at no cost.
+
+<b>Includes:</b>
+• An encounter with Toxtricity, the Punk Pokémon
+• Up to 5 free Raid Passes each day from spinning Gym Photo Discs
+• Increased chance of Toxel hatching from 10 km Eggs
+• Up to 6 Special Trades per day and reduced Stardust cost for trades
+• 1/2 Egg Hatch Distance
+• 2× Candy for catching Pokémon
+• A higher chance to encounter Shiny Pokémon during the event
+• Purchase by October 22 and play between October 15 and October 22 for Timed Research that awards the Toxel Mask avatar item!
+
+Learn more about the ticket bonuses <a href="pokemongolive.com/gowildarea/global">here</a>.
 
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: A ticket to Pokémon GO Wild Area: Global, which has been provided to you early and at no cost.
@@ -568,6 +758,9 @@ TEXT: <b>Included rewards:</b>
 RESOURCE ID: ticket_ponyta
 TEXT: Ticket for Community Day–themed Special Research available in the shop
 
+RESOURCE ID: ticket_sewaddle
+TEXT: Ticket for the Sew Far Sew Good Special Research available in the shop
+
 RESOURCE ID: tr_ticket_in_shop
 TEXT: Ticket for premium Timed Research available in the shop
 
@@ -576,4 +769,13 @@ TEXT: Collect MP from {0} Power Spots
 
 RESOURCE ID: visit_power_spot_singular
 TEXT: Collect MP from a Power Spot
+
+RESOURCE ID: vps_guardian_oob_toast
+TEXT: You are outside the play area. Move inside the boundary to place Pokémon.
+
+RESOURCE ID: vps_localization_instruction_body
+TEXT: Point your camera at the landmark in this image!
+
+RESOURCE ID: vps_localization_landscape_error
+TEXT: Hold your phone vertically.
 

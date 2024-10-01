@@ -22,6 +22,12 @@ TEXT: Parc Safari de Pokémon GO
 RESOURCE ID: 5293_title
 TEXT: Parc Safari de Pokémon GO - Accès anticipé
 
+RESOURCE ID: ar_backgrounded_error_title
+TEXT: 
+
+RESOURCE ID: ar_backgrounded_error_title_temp
+TEXT: Déconnecté
+
 RESOURCE ID: badge_event_0044_title
 TEXT: Parc Safari de Pokémon GO - Accès anticipé
 
@@ -329,8 +335,14 @@ TEXT: Fais évoluer Ponyta de Galar pour obtenir un Galopa de Galar connaissant 
 RESOURCE ID: bonus_cd_move_ponyta
 TEXT: Fais évoluer Ponyta pour obtenir un Galopa connaissant l’Attaque Chargée Éclair Fou.
 
+RESOURCE ID: bonus_cd_move_sewaddle
+TEXT: Fais évoluer Couverdure pour obtenir un Manternel connaissant l’Attaque Immédiate Griffe Ombre.
+
 RESOURCE ID: bonus_implicit_social_ponyta_raid
 TEXT: Si des Dresseurs et Dresseuses collaborent pour remporter un Raid face à Ponya ou Ponyta de Galar, un grand nombre de Ponyta et de Ponyta de Galar apparaîtront dans les environs pendant 30 minutes.
+
+RESOURCE ID: bonus_implicit_social_sewaddle_raid
+TEXT: Si des Dresseurs et Dresseuses collaborent pour remporter un Raid face à Couverdure, un grand nombre de Larveyette apparaîtront dans les environs pendant 30 minutes
 
 RESOURCE ID: bonus_koffing_evo
 TEXT: Smogo évoluera en Smogogo de Galar
@@ -396,7 +408,7 @@ RESOURCE ID: bread_dough_lobby_trainer_list_title
 TEXT: {0} Trainers
 
 RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
-TEXT: 1Trainer
+TEXT: 1 Trainer
 
 RESOURCE ID: bread_iap_max_mp_replenish_warning
 TEXT: Tu as atteint la limite maximale de Lots de Particules Max ({0}). Utilise tes Lots de Particules Max et réessaie.
@@ -443,9 +455,13 @@ TEXT: Impossible de trouver la salle d’attente.
 RESOURCE ID: event_datetime_range_key_falinksraidday
 TEXT: Le 8 septembre de 14h à 22h
 
+RESOURCE ID: event_datetime_range_key_gowa24
+TEXT: Du 23 novembre
+au 24 novembre
+
 RESOURCE ID: event_datetime_range_key_monthlyticketnov24
-TEXT: November 3, 12:00 a.m. –
-December 2, 11:59 p.m.
+TEXT: Du 3 novembre à 0h –
+au 2 décembre à 23h59
 
 RESOURCE ID: event_datetime_range_key_monthlyticketoct24
 TEXT: Du 3 octobre à 0h 
@@ -507,7 +523,7 @@ RESOURCE ID: general1.ticket._gowa24_title
 TEXT: Ticket Terres Sauvages Pokémon GO : Global
 
 RESOURCE ID: general1.ticket._monthlyticketnov24_title
-TEXT: Daily PokéCoin Bounty Part 3 Ticket
+TEXT: Ticket Bonus de PokéPièces quotidien – 3ᵉ partie
 
 RESOURCE ID: general1.ticket._monthlyticketoct24_title
 TEXT: Ticket Bonus de PokéPièces quotidien – 2ᵉ partie
@@ -530,14 +546,95 @@ TEXT: Coupe Halloween : Édition Ligue Super
 RESOURCE ID: halloween_cup_little_title
 TEXT: Coupe Halloween : Petite Édition
 
+RESOURCE ID: hint_desc_loc_network_err_body_key
+TEXT: Be sure to point your camera at the location
+matching the hint image as you walk slowly
+around it to capture multiple angles.
+
+RESOURCE ID: hint_desc_loc_network_err_title_key
+TEXT: Something went wrong...
+
+RESOURCE ID: hint_desc_loc_not_ready_body_key
+TEXT: Be sure to point your camera at the landmark matching the hint image as you walk slowly around it to capture multiple angles.
+
+RESOURCE ID: hint_desc_loc_not_ready_title_key
+TEXT: Something went wrong...
+
+RESOURCE ID: hint_desc_loc_ready_title_key
+TEXT: Point your camera at the landmark in this image!
+
+RESOURCE ID: hint_desc_loc_retry_button_key
+TEXT: Try again
+
+RESOURCE ID: hint_desc_ready_title_key
+TEXT: Walk to the landmark.
+It's nearby!
+
 RESOURCE ID: home_transfer_error_gym_deployed
 TEXT: Tu ne peux pas envoyer un Pokémon qui défend une Arène ou qui est placé à une Source d’Énergie.
 
 RESOURCE ID: home_transfer_error_gym_deployed_old
 TEXT: Tu ne peux pas envoyer un Pokémon qui défend une Arène.
 
+RESOURCE ID: inapp_banner_desc
+TEXT: Apprends-en plus sur le cadeau spécial du mois disponible avec l’achat spécifié.
+
 RESOURCE ID: incense_spawns_attract
 TEXT: Pokémon vedette attiré par l’Encens
+
+RESOURCE ID: iris_social_confirm_exit_modal_body
+TEXT: Unless you remove your Pokémon, they will stay and play for a little while until they get tired and return
+
+RESOURCE ID: iris_social_confirm_exit_modal_title
+TEXT: Are you sure you want to leave?
+
+RESOURCE ID: iris_social_diagnostic_okay_button
+TEXT: Submit Report
+
+RESOURCE ID: iris_social_diagnostic_title
+TEXT: This is an experimental feature
+
+RESOURCE ID: iris_social_diagnostics_option_five
+TEXT: This location is unsuitable for AR
+
+RESOURCE ID: iris_social_diagnostics_option_four
+TEXT: I'm looking at the landmark and nothing is happening
+
+RESOURCE ID: iris_social_diagnostics_option_one
+TEXT: I can't find the location in the image
+
+RESOURCE ID: iris_social_diagnostics_option_three
+TEXT: I don't know where to point my camera
+
+RESOURCE ID: iris_social_diagnostics_option_two
+TEXT: Hint image is unclear
+
+RESOURCE ID: iris_social_diagnostics_subtitle
+TEXT: Please report any issues or feedback you have using this experimental feature.
+
+RESOURCE ID: iris_social_entry_instruction_body
+TEXT: Pokémon gather, play and meet other Trainers at landmarks! Point your camera at the landmark to view and interact with any Pokémon there.
+
+RESOURCE ID: iris_social_entry_instruction_title
+TEXT: You found a landmark!
+
+RESOURCE ID: iris_social_info_screen_playtime_stat_label
+TEXT: Temps de jeu restant
+
+RESOURCE ID: iris_social_landmark_too_far_body
+TEXT: Walk closer to see the Pokémon.
+
+RESOURCE ID: iris_social_landmark_too_far_header
+TEXT: You are too far from the landmark
+
+RESOURCE ID: iris_social_limited_pokemon_key_temp
+TEXT: Il n’y a pas assez de place pour ce Pokémon pour l’instant.
+
+RESOURCE ID: iris_social_rotation_error_key
+TEXT: You can only rotate your own Pokémon.
+
+RESOURCE ID: iris_social_temporary_disable_key
+TEXT: This location isn't available right now. Please come back later.
 
 RESOURCE ID: item_event_ticket_04_desc_researchdaysept24
 TEXT: Un ticket pour accéder à l’Étude ponctuelle premium de la Journée Étude Gouroutan et Quartermac le 22 septembre 2024 de 14h à 17h (heures locales), où que tu sois.
@@ -632,14 +729,24 @@ TEXT: Parcours Épée
 RESOURCE ID: levelup_max_move_plural
 TEXT: Augmente le niveau d’une Capacité Dynamax {0} fois
 
+RESOURCE ID: localization_progress_hint_1
+TEXT: Point device towards the landmark
+matching the image below.
+
+RESOURCE ID: localization_progress_hint_2
+TEXT: Walk slowly around the landmark.
+
+RESOURCE ID: localization_success_hint
+TEXT: You found the landmark!
+
 RESOURCE ID: max_battle_2x_xp
 TEXT: Gagnez le double de PX quand vous gagnez des Combat Dynamax.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-09-27T23:56:28.971002+00:00 for fr-FR
-at SHA 1252485c4d
-Pipeline 2648787, job 32407195
-Patch from: 0.333.0-SHA-2c73ee88-RC4, 0.331.0-SHA-aa66102c-RC1
+TEXT: Built at 2024-10-01T21:47:16.191149+00:00 for fr-FR
+at SHA 3dcd4c9604
+Pipeline 2655473, job 32481679
+Patch from: 0.335.0-SHA-8799407d-RC1, 0.333.0-SHA-38034fba-RC1, 0.331.1-SHA-b42b626e-RC1
 
 RESOURCE ID: n_hat_gtr2024eeveefanmask_0_display_name
 TEXT: Masque de festival (Évoli)
@@ -655,6 +762,9 @@ TEXT: Utilise les hashtags #GOsnapshot #GOsnapshotCelebration
 
 RESOURCE ID: photobomb_five_ponyta
 TEXT: Ponyta s’introduit 5 fois dans tes Clichés GO
+
+RESOURCE ID: photobomb_five_sewaddle
+TEXT: Larveyette s’introduit 5 fois dans tes Clichés GO
 
 RESOURCE ID: playability_em_fr_title
 TEXT: Aventures au Brésil
@@ -673,6 +783,9 @@ TEXT: Étude ponctuelle : Aventures au Brésil (3/3)
 
 RESOURCE ID: pokecoins_iap_string_key
 TEXT: {0} PokéPièces
+
+RESOURCE ID: pokemon_info_evolve_pokemon_iris_social_deployed
+TEXT: {0} est en train de jouer à un PokéStop.
 
 RESOURCE ID: pokemon_location_card_info_transfer_to_professor_confirmation
 TEXT: Veux-tu vraiment transférer ce Pokémon avec un fond rare ?
@@ -697,6 +810,21 @@ TEXT: Fais évoluer {0} Ponyta ou Ponyta de Galar
 
 RESOURCE ID: quest_ponyta_evolve_b_singular
 TEXT: Fais évoluer un Ponyta ou Ponyta de Galar
+
+RESOURCE ID: quest_sewaddle_catch_b
+TEXT: Attrape {0} Larveyette
+
+RESOURCE ID: quest_sewaddle_evolve_b_plural
+TEXT: Fais évoluer {0} Larveyette
+
+RESOURCE ID: quest_sewaddle_evolve_b_singular
+TEXT: Fais évoluer un Larveyette
+
+RESOURCE ID: quest_swadloon_evolve_b_plural
+TEXT: Fais évoluer {0} Couverdure
+
+RESOURCE ID: quest_swadloon_evolve_b_singular
+TEXT: Fais évoluer un Couverdure
 
 RESOURCE ID: quest_title_ponyta
 TEXT: Journée Communauté : Ponyta et Ponyta de Galar
@@ -790,6 +918,21 @@ TEXT: Appel de Galar (8/19)
 
 RESOURCE ID: quest_title_season_16_first_partner_9
 TEXT: Appel de Galar (9/19)
+
+RESOURCE ID: quest_title_sewaddle
+TEXT: Vert à soie
+
+RESOURCE ID: quest_title_sewaddle_0
+TEXT: Vert à soie (1/4)
+
+RESOURCE ID: quest_title_sewaddle_1
+TEXT: Vert à soie (2/4)
+
+RESOURCE ID: quest_title_sewaddle_2
+TEXT: Vert à soie (3/4)
+
+RESOURCE ID: quest_title_sewaddle_3
+TEXT: Vert à soie (4/4)
 
 RESOURCE ID: quest_title_yokosuka
 TEXT: Parc Safari de Pokémon GO à YOKOSUKA
@@ -1019,6 +1162,9 @@ TEXT: Une Coupe Attrape d’une semaine pour tous les Dresseurs et Dresseuses en
 RESOURCE ID: spawn_ponyta
 TEXT: Davantage de Ponyta et de Ponyta de Galar apparaissent dans la nature.
 
+RESOURCE ID: spawn_sewaddle
+TEXT: Davantage de Larveyette apparaissent dans la nature.
+
 RESOURCE ID: special_trade_stardust_half
 TEXT: Coût des Échanges spéciaux en Poussières Étoiles réduit de moitié
 
@@ -1043,20 +1189,36 @@ TEXT: <b>Donne accès à :</b>
 • Plus de chances de recevoir un Super Bonbon L dans les Combats de Raids
 • 50 % de PX en plus et le double de Poussières Étoiles quand tu gagnes des Raids
 
+RESOURCE ID: text_rewards_key_gowa24
+TEXT: <b>Donne accès aux récompenses suivantes :</b>
+• Une rencontre avec Salarsen, le Pokémon Punk, ainsi que des rencontres avec des Pokémon de type Poison ou de type Électrik
+• Les Dresseurs et Dresseuses qui achètent un ticket Terres Sauvages Pokémon GO : Global avant le 22 octobre et jouent à Pokémon GO entre le 15 octobre et le 22 octobre recevront une Étude ponctuelle offrant un accès anticipé à l’objet pour avatar Masque Toxizap.
+
+Ce ticket comporte également des bonus qui te permettront de profiter au maximum de ton aventure Terres Sauvages Pokémon GO : Global !
+
+RESOURCE ID: text_rewards_key_gowa24impactedshoptext10.1
+TEXT: Un ticket pour accéder à l’évènement Terres Sauvages Pokémon GO : Global, que vous avez reçu en avant-première et gratuitement.
+
+<b>Donne accès aux récompenses suivantes :</b>
+• Une rencontre avec Salarsen, le Pokémon Punk, ainsi que des rencontres avec des Pokémon de type Poison ou de type Électrik
+• Si vous récupérez ce ticket avant le 22 octobre et que vous jouez à Pokémon GO entre le 15 octobre et le 22 octobre, vous recevrez une Étude ponctuelle offrant un accès anticipé à l’objet pour avatar Masque Toxizap.
+
+Ce ticket comporte également des bonus qui te permettront de profiter au maximum de ton aventure Terres Sauvages Pokémon GO : Global !
+
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: Un ticket pour l’évènement Terres Sauvages Pokémon GO : Global, que vous avez reçu en avant-première et gratuitement.
 
 RESOURCE ID: text_rewards_key_monthlyticketnov24
-TEXT: This ticket grants bonuses, Timed Research awarding 200 bonus PokéCoins, and daily bonus Field Research tasks that award bonus PokéCoins from November 3 to December 2, 2024.
+TEXT: Ce ticket donne accès à des bonus, à une Étude ponctuelle offrant un bonus de 200 PokéPièces, ainsi qu’à un bonus quotidien de tâches d’Études de terrain offrant des PokéPièces du 3 novembre au 2 décembre 2024.
 
-<b>Included bonuses:</b>
-• One Field Research task the first time you log on each day that awards 20 bonus PokéCoins
-• 3× XP for your first catch of the day and your first spin of the day
-• Open up to 50 Gifts a day
-• Collect up to 150 Gifts a day from PokéStops and Gyms
-• Hold up to 40 Gifts in your Item Bag at once
+<b>Donne accès aux bonus suivants :</b>
+• Une tâche d’Étude de terrain offrant un bonus de 20 PokéPièces lorsque tu te connectes pour la première fois au jeu chaque jour
+• 3 fois plus de PX pour le premier Pokémon que tu attrapes et le premier PhotoDisque que tu fais tourner de la journée
+• Ouvre jusqu’à 50 Cadeaux par jour
+• Récupère jusqu’à 150 Cadeaux par jour provenant des PokéStops et des Arènes
+• Ton Sac d’objets peut contenir jusqu’à 40 Cadeaux à la fois
 
-Please note: You must have three or fewer Field Research tasks active to receive this bonus Field Research task the first time you log on each day. You must claim the 20 bonus PokéCoin reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
+Important : tu dois avoir 3 tâches d’Études de terrain actives ou moins pour obtenir cette tâche d’Étude de terrain en bonus la première fois que tu te connectes dans la journée. Tu dois récupérer le bonus de 20 PokéPièces après avoir terminé la tâche pour obtenir cette récompense. Davantage d’informations sur les tâches d’Études de terrain en bonus sont disponibles <a href="https://niantic.helpshift.com/hc/fr/6-pokemon-go/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">ici</a>.
 
 RESOURCE ID: text_rewards_key_monthlyticketoct24
 TEXT: Ce ticket donne accès à des bonus, à une Étude ponctuelle offrant un bonus de 200 PokéPièces, ainsi qu’à un bonus quotidien de tâches d’Études de terrain offrant des PokéPièces du 3 octobre au 2 novembre 2024.
@@ -1103,6 +1265,9 @@ TEXT: <b>Donne accès aux récompenses suivantes :</b>
 RESOURCE ID: ticket_ponyta
 TEXT: Ticket pour l’Étude spéciale sur le thème de la Journée Communauté disponible dans la Boutique.
 
+RESOURCE ID: ticket_sewaddle
+TEXT: Ticket pour l’Étude spéciale Vert à soie disponible dans la Boutique
+
 RESOURCE ID: tr_sz_goyang_global
 TEXT: Parc Safari de Goyang – Défi d’exploration
 
@@ -1120,4 +1285,7 @@ TEXT: Récupère des PM de {0} Sources d’Énergie
 
 RESOURCE ID: visit_power_spot_singular
 TEXT: Récupère des PM d’une Source d’Énergie
+
+RESOURCE ID: vps_localization_landscape_error
+TEXT: Tiens ton téléphone à la verticale.
 
