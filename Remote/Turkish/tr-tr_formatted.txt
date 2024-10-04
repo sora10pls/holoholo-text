@@ -4,6 +4,9 @@ TEXT:
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: Bağlantı koptu
 
+RESOURCE ID: ar_plus_got_it
+TEXT: Got it
+
 RESOURCE ID: badge_party_challenges_completed
 TEXT: {0} ekip görevi tamamlayın
 
@@ -53,10 +56,10 @@ RESOURCE ID: bonus_tr_gbl_naic_2025_a_title_01
 TEXT: 2025 Pokémon EUIC Şampiyonu: Bonus Süreli Araştırma (2/2)
 
 RESOURCE ID: bread_battle_cheer_charge_blocked
-TEXT: Max Meter is Full!
+TEXT: Meter is Full!
 
 RESOURCE ID: bread_battle_resolve_timed_out_title
-TEXT: Everyone's Pokémon have grown tired!
+TEXT: Everyone’s Pokémon have grown tired!
 
 RESOURCE ID: bread_dough_battle_ftue_body_generic
 TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 trainers.
@@ -92,13 +95,19 @@ RESOURCE ID: bread_station_failure_description
 TEXT: Bu Güç Noktası yerleştirilebilecek Pokémon limitine ulaştı.
 
 RESOURCE ID: bread_station_failure_description_duplicate
-TEXT: You have already stationed a Pokemon at this Power Spot.
+TEXT: You have already stationed a Pokémon at this Power Spot.
 
 RESOURCE ID: bread_station_failure_label
 TEXT: Pokémon yerleştirilemiyor
 
+RESOURCE ID: bread_station_general
+TEXT: Power Spot
+
 RESOURCE ID: community_day_sewaddle_event_name
 TEXT: Topluluk Günü: Sewaddle
+
+RESOURCE ID: details_link_key_mawileraidday
+TEXT: For more details, visit the <a href=https://pokemongolive.com/post/mega-mawile-raid-day-2024"">website</a>."
 
 RESOURCE ID: event_datetime_range_key_gowa24
 TEXT: 23 Kasım –
@@ -107,6 +116,9 @@ TEXT: 23 Kasım –
 RESOURCE ID: event_datetime_range_key_masterball24
 TEXT: 4 Ekim, 10.00 –
 11 Ekim, 20.00
+
+RESOURCE ID: event_datetime_range_key_mawileraidday
+TEXT: 12 Ekim, 14.00-22.00
 
 RESOURCE ID: event_datetime_range_key_monthlyticketnov24
 TEXT: 3 Kasım, 00.00 –
@@ -144,6 +156,9 @@ TEXT: Pokémon GO Vahşi Bölgesi: Küresel Bilet
 RESOURCE ID: general1.ticket._masterball24_title
 TEXT: Ustalık Araştırması: Usta Top
 
+RESOURCE ID: general1.ticket._mawileraidday_title
+TEXT: Mega Mawile Akın Günü Bileti
+
 RESOURCE ID: general1.ticket._monthlyticketnov24_title
 TEXT: Günlük PokéPara Armağanı 3. Kısım Bileti
 
@@ -159,16 +174,19 @@ TEXT: Oranguru ve Passimian Araştırma Günü Premium Süreli Araştırması Bi
 RESOURCE ID: general1.ticket_sewaddlecd24_title
 TEXT: Sewaddle Topluluk Günü Bileti
 
+RESOURCE ID: gym_general
+TEXT: Gym
+
 RESOURCE ID: hint_desc_loc_network_err_body_key
-TEXT: Be sure to point your camera at the location
-matching the hint image as you walk slowly
-around it to capture multiple angles.
+TEXT: Point your camera at the location and match
+it to the hint image as you walk around it
+slowly to capture multiple angles.
 
 RESOURCE ID: hint_desc_loc_network_err_title_key
 TEXT: Something went wrong...
 
 RESOURCE ID: hint_desc_loc_not_ready_body_key
-TEXT: Be sure to point your camera at the landmark matching the hint image as you walk slowly around it to capture multiple angles.
+TEXT: Point your camera at the landmark and match it to the hint image as you walk around it slowly to capture multiple angles.
 
 RESOURCE ID: hint_desc_loc_not_ready_title_key
 TEXT: Something went wrong...
@@ -180,8 +198,8 @@ RESOURCE ID: hint_desc_loc_retry_button_key
 TEXT: Try again
 
 RESOURCE ID: hint_desc_ready_title_key
-TEXT: Walk to the landmark.
-It's nearby!
+TEXT: Find the landmark.
+It’s nearby!
 
 RESOURCE ID: home_transfer_error_gym_deployed
 TEXT: Spor salonlarını savunan veya Güç Noktalarına yerleştirilmiş olan Pokémon’ları gönderemezsiniz.
@@ -196,7 +214,7 @@ RESOURCE ID: incense_spawns_attract
 TEXT: Öne çıkan Pokémon’lar Tütsüye gelecek
 
 RESOURCE ID: iris_social_confirm_exit_modal_body
-TEXT: Unless you remove your Pokémon, they will stay and play for a little while until they get tired and return
+TEXT: Pokémon will stay and play for a little while until they get tired and return, but you can call them back earlier.
 
 RESOURCE ID: iris_social_confirm_exit_modal_title
 TEXT: Are you sure you want to leave?
@@ -205,19 +223,19 @@ RESOURCE ID: iris_social_diagnostic_okay_button
 TEXT: Submit Report
 
 RESOURCE ID: iris_social_diagnostic_title
-TEXT: This is an experimental feature
+TEXT: This feature is under development!
 
 RESOURCE ID: iris_social_diagnostics_option_five
 TEXT: This location is unsuitable for AR
 
 RESOURCE ID: iris_social_diagnostics_option_four
-TEXT: I'm looking at the landmark and nothing is happening
+TEXT: I’m looking at the landmark and nothing is happening
 
 RESOURCE ID: iris_social_diagnostics_option_one
-TEXT: I can't find the location in the image
+TEXT: I can’t find the landmark in the image
 
 RESOURCE ID: iris_social_diagnostics_option_three
-TEXT: I don't know where to point my camera
+TEXT: I don’t know where to point my camera
 
 RESOURCE ID: iris_social_diagnostics_option_two
 TEXT: Hint image is unclear
@@ -226,7 +244,7 @@ RESOURCE ID: iris_social_diagnostics_subtitle
 TEXT: Please report any issues or feedback you have using this experimental feature.
 
 RESOURCE ID: iris_social_entry_instruction_body
-TEXT: Pokémon gather, play and meet other Trainers at landmarks! Point your camera at the landmark to view and interact with any Pokémon there.
+TEXT: Pokémon can gather, play, and meet other Trainers at landmarks! Point your camera at the landmark to view and interact with any Pokémon there.
 
 RESOURCE ID: iris_social_entry_instruction_title
 TEXT: You found a landmark!
@@ -238,7 +256,7 @@ RESOURCE ID: iris_social_landmark_too_far_body
 TEXT: Walk closer to see the Pokémon.
 
 RESOURCE ID: iris_social_landmark_too_far_header
-TEXT: You are too far from the landmark
+TEXT: You are too far from the landmark.
 
 RESOURCE ID: iris_social_limited_pokemon_key
 TEXT: Şu anda bu Pokémon’a yer yok.
@@ -250,7 +268,7 @@ RESOURCE ID: iris_social_rotation_error_key
 TEXT: You can only rotate your own Pokémon.
 
 RESOURCE ID: iris_social_temporary_disable_key
-TEXT: This location isn't available right now. Please come back later.
+TEXT: This location isn’t available right now. Please come back later.
 
 RESOURCE ID: item_event_ticket_04_desc_researchdaysept24
 TEXT: 22 Eylül 2024’te, yerel saatle 14.00-17.00 arasında gerçekleşecek Oranguru ve Passimian Araştırma Günü kapsamında iki premium süreli araştırmaya dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
@@ -269,6 +287,12 @@ TEXT: 18 Eylül 2024, yerel saatle 10.00 - 22 Eylül 2024, yerel saatle 20.00 ar
 
 RESOURCE ID: item_event_ticket_evergreen_details_psychspec24
 TEXT: Bu bilet Muhteşem Psişik 2024 premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için 18 Eylül’de otomatik olarak etkinleştirilecek.
+
+RESOURCE ID: item_event_ticket_gray_desc_mawileraidday
+TEXT: 12 Ekim 2024 Cumartesi, yerel saatle 14.00-22.00 arasında geçerli olacak özel bonuslara dilediğiniz yerden hak kazanmanıza olanak tanıyan bir bilet.
+
+RESOURCE ID: item_event_ticket_gray_details_mawileraidday
+TEXT: Bu bilet 12 Ekim’de geçerli olacak özel bonuslara dilediğiniz yerden hak kazanabilmeniz için otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_pink_desc_sewaddlecd24
 TEXT: 5 Ekim’de, yerel saatle 14.00’te başlayacak Sewaddle Topluluk Günü özel araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
@@ -337,8 +361,8 @@ RESOURCE ID: legendary_heroes_tr_sword_title_key
 TEXT: Kılıç Yolu
 
 RESOURCE ID: localization_progress_hint_1
-TEXT: Point device towards the landmark
-matching the image below.
+TEXT: Point your camera at the landmark
+and match it to the image below.
 
 RESOURCE ID: localization_progress_hint_2
 TEXT: Walk slowly around the landmark.
@@ -347,10 +371,10 @@ RESOURCE ID: localization_success_hint
 TEXT: You found the landmark!
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-02T23:06:53.280930+00:00 for tr-TR
-at SHA 114482d00ef
-Pipeline 2659189, job 32523930
-Patch from: 0.333.0-SHA-4f3cd4da-RC4, 0.335.0-SHA-8799407d-RC1
+TEXT: Built at 2024-10-04T22:33:58.413614+00:00 for tr-TR
+at SHA c939c3fb8ad
+Pipeline 2666027, job 32611238
+Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.335.0-SHA-8799407d-RC1
 
 RESOURCE ID: mp_replenish.1_title
 TEXT: 1 Maksi Parçacık Paketi ({0} MP)
@@ -370,8 +394,38 @@ TEXT: Active
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: GO Fotoğrafta Sewaddle ile 5 sürpriz karşılaşma
 
+RESOURCE ID: poi_contrib_edit_title_desc_custom
+TEXT: {0} Title
+
+RESOURCE ID: poi_contrib_entry_ar_data_custom
+TEXT: Scan {0}
+
+RESOURCE ID: poi_contrib_entry_header_custom
+TEXT: Contribute to this {0}
+
+RESOURCE ID: poi_contrib_entry_report_invalid_custom
+TEXT: Report {0} Issue
+
+RESOURCE ID: poi_contrib_report_reason_duplicate_custom
+TEXT: Duplicate {0}
+
 RESOURCE ID: pokemon_info_evolve_pokemon_iris_social_deployed
 TEXT: {0} bir PokéDurakta oynuyor.
+
+RESOURCE ID: pokemon_name_bread
+TEXT: Dynamax {0}
+
+RESOURCE ID: pokemon_name_bread_dough
+TEXT: Gigantamax {0}
+
+RESOURCE ID: pokemon_name_bread_dough_short
+TEXT: G-Max {0}
+
+RESOURCE ID: pokemon_name_bread_short
+TEXT: D-Max {0}
+
+RESOURCE ID: pokestop_general
+TEXT: PokéStop
 
 RESOURCE ID: quest_sewaddle_catch_b
 TEXT: {0} Sewaddle yakalayın
@@ -389,73 +443,73 @@ RESOURCE ID: quest_swadloon_evolve_b_singular
 TEXT: Bir Swadloon evrimleştirin
 
 RESOURCE ID: quest_title_season_16_first_partner_10_dialogue_1
-TEXT: Ah, %PLAYERNAME%—I’ve got news. The leaders of Team GO Rocket—Arlo, Cliff, and Sierra—have been spotted in the area.
+TEXT: %PLAYERNAME% sana haberlerim var. Bu bölgede GO Roket Takımı Liderleri Arlo, Cliff ve Sierra görülmüş.
 
 RESOURCE ID: quest_title_season_16_first_partner_10_dialogue_2
-TEXT: We still don’t know what their plans are for the Dynamax phenomenon, but whatever they are, those three will be carrying them out!
+TEXT: Dinamaks olgusuyla ilgili planlarının ne olduğunu hâlâ tam olarak bilmiyoruz ama ne olursa olsun harekete geçmelerine izin veremeyiz!
 
 RESOURCE ID: quest_title_season_16_first_partner_10_dialogue_3
-TEXT: Follow the leaders and find out what they’re up to—and stop them, if necessary!
+TEXT: Liderlerini takip edip ne yaptıklarını bul ve gerekirse durdur onları!
 
 RESOURCE ID: quest_title_season_16_first_partner_10_dialogue_4
-TEXT: I’ll be mapping out our next move—I think I’ll have something by the time you’ve dealt with the leaders. Good luck!
+TEXT: Ben de bu arada bir sonraki hamlemizin ne olacağını düşüneceğim. Sen liderlerin işini bitirdiğinde benim de işim bitmiş olur sanırım. İyi şanslar!
 
 RESOURCE ID: quest_title_season_16_first_partner_11_dialogue_1
-TEXT: Bad news, %PLAYERNAME%.
+TEXT: Haberler kötü %PLAYERNAME%.
 
 RESOURCE ID: quest_title_season_16_first_partner_11_dialogue_2
-TEXT: It looks like my suspicions were correct—this goes all the way to the top: Giovanni.
+TEXT: Şüphelerim doğru çıktı gibi görünüyor. Bu iş ta Giovanni’ye kadar gidiyor.
 
 RESOURCE ID: quest_title_season_16_first_partner_11_dialogue_3
-TEXT: We’ve got to put a stop to his schemes, and I know you’re the perfect Trainer to do just that.
+TEXT: Onun hain planlarına bir son vermeliyiz. Bu iş için senden daha uygun bir Eğitmen bulamam.
 
 RESOURCE ID: quest_title_season_16_first_partner_11_dialogue_4
-TEXT: Go and show him what you’re made of!
+TEXT: Hadi göster ona gününü!
 
 RESOURCE ID: quest_title_season_16_first_partner_12_dialogue_1
-TEXT: Excellent work! Couldn’t have done better myself!
+TEXT: Harika iş çıkardın! Ben bile daha iyisini yapmayı beceremezdim!
 
 RESOURCE ID: quest_title_season_16_first_partner_12_dialogue_2
-TEXT: I’m too familiar with Team GO Rocket to believe we’ve heard the last of Giovanni, but you’ve definitely thrown a wrench into their plans.
+TEXT: Eğer GO Roket Takımı’nı tanıyorsam Giovanni hain planlarını yapmaya devam edecektir ama yine de onların işlerini iyi bozdun gerçekten.
 
 RESOURCE ID: quest_title_season_16_first_partner_12_dialogue_3
-TEXT: I want to check in on nearby Dynamax Pokémon, so please take care of any Team GO Rocket Grunts still hanging around.
+TEXT: Şimdi etraftaki Dinamaks Pokémon’ları bir kontrol etmeye gidiyorum. GO Roket Takımı Serserileri etraftayken sen de kendine dikkat et.
 
 RESOURCE ID: quest_title_season_16_first_partner_13_dialogue_1
-TEXT: Great job, %PLAYERNAME%! The Dynamax Pokémon are safe now, thanks to your courage and skill.
+TEXT: Süpersin %PLAYERNAME%! Senin cesaretin ve yeteneğin sayesinde Dinamaks Pokémon’lar artık güvende.
 
 RESOURCE ID: quest_title_season_16_first_partner_13_dialogue_2
-TEXT: We’ll need to keep a close eye on Team GO Rocket as we keep up our research on the Dynamax phenomenon, though.
+TEXT: Yine de bir yandan Dinamaks Pokémon’ları araştırmaya devam ederken bir yandan da bir gözümüz GO Roket Takımı’nda olsun.
 
 RESOURCE ID: quest_title_season_16_first_partner_13_dialogue_3
-TEXT: Call it a professor’s intuition, but I’ve got a feeling a gigantic discovery is just around the corner.
+TEXT: Devasa bir keşif yapmak üzere olduğumuzu hissediyorum. Profesörlerin sezgileri kuvvetlidir.
 
 RESOURCE ID: quest_title_season_16_first_partner_13_dialogue_4
-TEXT: Until next time, %PLAYERNAME%, let’s GO!
+TEXT: Bir dahaki sefere görüşmek üzere %PLAYERNAME%, hadi GİDELİM!
 
 RESOURCE ID: quest_title_season_16_first_partner_8_dialogue_1
-TEXT: %PLAYERNAME%, I’m glad you’re here. I’ve been bombarded with reports of Team GO Rocket sightings!
+TEXT: %PLAYERNAME%, Seni gördüğüme çok sevindim. Etrafta GO Roket Takımı’nın görüldüğüne dair haberler alıp duruyorum!
 
 RESOURCE ID: quest_title_season_16_first_partner_8_dialogue_2
-TEXT: Those troublemakers are up to something. I’m sure of it.
+TEXT: Bu baş belaları yine bir iş peşinde. Eminim buna.
 
 RESOURCE ID: quest_title_season_16_first_partner_8_dialogue_3
-TEXT: Are you able to investigate?
+TEXT: Bu durumla bir ilgilenebilir misin?
 
 RESOURCE ID: quest_title_season_16_first_partner_8_dialogue_4
-TEXT: Let me know what you find out, and I’ll keep you updated on my end. And stay safe out there!
+TEXT: Sen bulduklarını bana bildir, ben de seni bu arada olan gelişmelerden haberdar ederim. Hadi kendine dikkat et!
 
 RESOURCE ID: quest_title_season_16_first_partner_9_dialogue_1
-TEXT: Glad you’re back. I’ve been reviewing these Team GO Rocket reports, and I think I’ve pieced together something troubling.
+TEXT: Tekrar hoş geldin. GO Roket Takımı’yla ilgili aldığım raporları inceliyordum da, sanırım pek de hoş olmayan bir sonuca vardım.
 
 RESOURCE ID: quest_title_season_16_first_partner_9_dialogue_2
-TEXT: The evidence suggests that they’re trying to take advantage of the Dynamax phenomenon.
+TEXT: Bu raporlarda bulduğum delillere göre Dinamaks olgusundan faydalanmaya çalışıyor gibi görünüyorlar.
 
 RESOURCE ID: quest_title_season_16_first_partner_9_dialogue_3
-TEXT: Can you imagine the chaos if they could harness that kind of power? We can’t let that happen!
+TEXT: O kadar büyük bir güç ellerine geçtiğinde çıkaracakları kaosu düşünebiliyor musun? Buna izin veremeyiz!
 
 RESOURCE ID: quest_title_season_16_first_partner_9_dialogue_4
-TEXT: Please stop Team GO Rocket from getting anywhere near any Dynamax Pokémon!
+TEXT: Lütfen GO Roket Takımı’nın Dinamaks Pokémon’ların yanına yaklaşmasına engel ol!
 
 RESOURCE ID: quest_title_sewaddle
 TEXT: Dişlenmiş Yaprak
@@ -526,6 +580,12 @@ TEXT: <b>Şu ödülleri içerir:</b>
 • Galarlı Weezing, Galarlı Farfetch’d, Galarlı Mr. Mime ve Galarlı Stunfisk ile karşılaşmalar
 • 18.000 TP ve 10.000 yıldız tozu
 • Ultra Top, Gümüş Pinap Meyvesi ve Güçlü TM gibi premium oyun içi eşyalar
+
+RESOURCE ID: text_rewards_key_mawileraidday
+TEXT: <b>Şu bonusları içerir:</b>
+• Spor salonu fotoğraf disklerini döndürerek fazladan 8 Akın Bileti
+• Akınlardan daha yüksek Nadir Büyük Şeker kazanma şansı
+• Başarıyla tamamlanan akınlardan %50 daha fazla TP ve 2× yıldız tozu
 
 RESOURCE ID: text_rewards_key_monthlyticketnov24
 TEXT: Bu bilet ile 3 Kasım 2024 - 2 Aralık 2024 arasında bonusların yanı sıra 200 bonus PokéPara kazandıran bir süreli araştırma ve bonus PokéPara kazandıran günlük alan araştırması görevleri alabilirsiniz.

@@ -4,6 +4,9 @@ TEXT:
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: Verbindung getrennt
 
+RESOURCE ID: ar_plus_got_it
+TEXT: Got it
+
 RESOURCE ID: badge_party_challenges_completed
 TEXT: Schließe {0} Team-Herausforderungen ab.
 
@@ -68,10 +71,10 @@ RESOURCE ID: bonus_tr_gbl_naic_2025_a_title_01
 TEXT: Befristete Bonus-Forschung: Champ der Pokémon EUIC 2025 (2/2)
 
 RESOURCE ID: bread_battle_cheer_charge_blocked
-TEXT: Max Meter is Full!
+TEXT: Meter is Full!
 
 RESOURCE ID: bread_battle_resolve_timed_out_title
-TEXT: Everyone's Pokémon have grown tired!
+TEXT: Everyone’s Pokémon have grown tired!
 
 RESOURCE ID: bread_dough_battle_ftue_body_generic
 TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 trainers.
@@ -107,16 +110,22 @@ RESOURCE ID: bread_station_failure_description
 TEXT: Diese Kraftquelle hat sein Limit an platzierten Pokémon erreicht.
 
 RESOURCE ID: bread_station_failure_description_duplicate
-TEXT: You have already stationed a Pokemon at this Power Spot.
+TEXT: You have already stationed a Pokémon at this Power Spot.
 
 RESOURCE ID: bread_station_failure_label
 TEXT: Pokémon kann nicht platziert werden
+
+RESOURCE ID: bread_station_general
+TEXT: Power Spot
 
 RESOURCE ID: bundle.silk.box.1_title
 TEXT: Seiden-Box
 
 RESOURCE ID: community_day_sewaddle_event_name
 TEXT: Community Day mit Strawickl
+
+RESOURCE ID: details_link_key_mawileraidday
+TEXT: For more details, visit the <a href=https://pokemongolive.com/post/mega-mawile-raid-day-2024"">website</a>."
 
 RESOURCE ID: event_datetime_range_key_gowa24
 TEXT: 23. November bis
@@ -125,6 +134,9 @@ TEXT: 23. November bis
 RESOURCE ID: event_datetime_range_key_masterball24
 TEXT: 4. Oktober, 10:00 Uhr bis
 11. Oktober, 20:00 Uhr
+
+RESOURCE ID: event_datetime_range_key_mawileraidday
+TEXT: 12. Oktober, 14:00 bis 22:00 Uhr
 
 RESOURCE ID: event_datetime_range_key_monthlyticketnov24
 TEXT: 3. November, 0:00 Uhr bis
@@ -165,6 +177,9 @@ TEXT: Ticket: Pokémon GO-Naturzone – Global
 RESOURCE ID: general1.ticket._masterball24_title
 TEXT: Meisterwerk-Forschung: Meisterball
 
+RESOURCE ID: general1.ticket._mawileraidday_title
+TEXT: Ticket: Raid-Tag mit Mega-Flunkifer
+
 RESOURCE ID: general1.ticket._megaheracrossraidday_title
 TEXT: Ticket: Raid-Tag mit Mega-Skaraborn
 
@@ -186,16 +201,19 @@ TEXT: Ticket: Befristete Premium-Forschung „Forschungstag mit Kommandutan und 
 RESOURCE ID: general1.ticket_sewaddlecd24_title
 TEXT: Ticket: Community Day mit Strawickl
 
+RESOURCE ID: gym_general
+TEXT: Gym
+
 RESOURCE ID: hint_desc_loc_network_err_body_key
-TEXT: Be sure to point your camera at the location
-matching the hint image as you walk slowly
-around it to capture multiple angles.
+TEXT: Point your camera at the location and match
+it to the hint image as you walk around it
+slowly to capture multiple angles.
 
 RESOURCE ID: hint_desc_loc_network_err_title_key
 TEXT: Something went wrong...
 
 RESOURCE ID: hint_desc_loc_not_ready_body_key
-TEXT: Be sure to point your camera at the landmark matching the hint image as you walk slowly around it to capture multiple angles.
+TEXT: Point your camera at the landmark and match it to the hint image as you walk around it slowly to capture multiple angles.
 
 RESOURCE ID: hint_desc_loc_not_ready_title_key
 TEXT: Something went wrong...
@@ -207,8 +225,8 @@ RESOURCE ID: hint_desc_loc_retry_button_key
 TEXT: Try again
 
 RESOURCE ID: hint_desc_ready_title_key
-TEXT: Walk to the landmark.
-It's nearby!
+TEXT: Find the landmark.
+It’s nearby!
 
 RESOURCE ID: home_transfer_error_gym_deployed
 TEXT: Du kannst keine Pokémon übertragen, die Arenen verteidigen oder an Kraftquellen platziert sind.
@@ -223,7 +241,7 @@ RESOURCE ID: incense_spawns_attract
 TEXT: Vorgestellte Pokémon werden von Rauch angelockt
 
 RESOURCE ID: iris_social_confirm_exit_modal_body
-TEXT: Unless you remove your Pokémon, they will stay and play for a little while until they get tired and return
+TEXT: Pokémon will stay and play for a little while until they get tired and return, but you can call them back earlier.
 
 RESOURCE ID: iris_social_confirm_exit_modal_title
 TEXT: Are you sure you want to leave?
@@ -232,19 +250,19 @@ RESOURCE ID: iris_social_diagnostic_okay_button
 TEXT: Submit Report
 
 RESOURCE ID: iris_social_diagnostic_title
-TEXT: This is an experimental feature
+TEXT: This feature is under development!
 
 RESOURCE ID: iris_social_diagnostics_option_five
 TEXT: This location is unsuitable for AR
 
 RESOURCE ID: iris_social_diagnostics_option_four
-TEXT: I'm looking at the landmark and nothing is happening
+TEXT: I’m looking at the landmark and nothing is happening
 
 RESOURCE ID: iris_social_diagnostics_option_one
-TEXT: I can't find the location in the image
+TEXT: I can’t find the landmark in the image
 
 RESOURCE ID: iris_social_diagnostics_option_three
-TEXT: I don't know where to point my camera
+TEXT: I don’t know where to point my camera
 
 RESOURCE ID: iris_social_diagnostics_option_two
 TEXT: Hint image is unclear
@@ -253,7 +271,7 @@ RESOURCE ID: iris_social_diagnostics_subtitle
 TEXT: Please report any issues or feedback you have using this experimental feature.
 
 RESOURCE ID: iris_social_entry_instruction_body
-TEXT: Pokémon gather, play and meet other Trainers at landmarks! Point your camera at the landmark to view and interact with any Pokémon there.
+TEXT: Pokémon can gather, play, and meet other Trainers at landmarks! Point your camera at the landmark to view and interact with any Pokémon there.
 
 RESOURCE ID: iris_social_entry_instruction_title
 TEXT: You found a landmark!
@@ -265,7 +283,7 @@ RESOURCE ID: iris_social_landmark_too_far_body
 TEXT: Walk closer to see the Pokémon.
 
 RESOURCE ID: iris_social_landmark_too_far_header
-TEXT: You are too far from the landmark
+TEXT: You are too far from the landmark.
 
 RESOURCE ID: iris_social_limited_pokemon_key
 TEXT: Es gibt momentan keinen Platz für dieses Pokémon.
@@ -277,7 +295,7 @@ RESOURCE ID: iris_social_rotation_error_key
 TEXT: You can only rotate your own Pokémon.
 
 RESOURCE ID: iris_social_temporary_disable_key
-TEXT: This location isn't available right now. Please come back later.
+TEXT: This location isn’t available right now. Please come back later.
 
 RESOURCE ID: item_event_ticket_04_desc_researchdaysept24
 TEXT: Ein Ticket zur Teilnahme an zwei Befristeten Premium-Forschungen für den Forschungstag mit Kommandutan und Quartermak am 22. September 2024 von 14:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
@@ -296,6 +314,12 @@ TEXT: Ein Ticket zur Teilnahme an der Befristeten Premium-Forschung „Psycho-Sp
 
 RESOURCE ID: item_event_ticket_evergreen_details_psychspec24
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Premium-Forschung „Psycho-Spektakel 2024“ am 18. September (wo immer du dich befindest).
+
+RESOURCE ID: item_event_ticket_gray_desc_mawileraidday
+TEXT: Ein Ticket für den Zugang zu besonderen Boni am Samstag, 12. Oktober 2024 von 14:00 bis 22:00 Uhr Ortszeit (wo immer du dich befindest).
+
+RESOURCE ID: item_event_ticket_gray_details_mawileraidday
+TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zu besonderen Boni am 12. Oktober (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_pink_desc_sewaddlecd24
 TEXT: Ein Ticket zur Teilnahme an der Spezialforschung zum Community Day mit Strawickl am 5. Oktober 2024 um 14:00 Uhr Ortszeit (wo immer du dich befindest).
@@ -364,8 +388,8 @@ RESOURCE ID: legendary_heroes_tr_sword_title_key
 TEXT: Schwert-Pfad
 
 RESOURCE ID: localization_progress_hint_1
-TEXT: Point device towards the landmark
-matching the image below.
+TEXT: Point your camera at the landmark
+and match it to the image below.
 
 RESOURCE ID: localization_progress_hint_2
 TEXT: Walk slowly around the landmark.
@@ -374,10 +398,10 @@ RESOURCE ID: localization_success_hint
 TEXT: You found the landmark!
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-02T23:06:53.280930+00:00 for de-DE
-at SHA 114482d00ef
-Pipeline 2659189, job 32523930
-Patch from: 0.333.0-SHA-4f3cd4da-RC4, 0.335.0-SHA-8799407d-RC1
+TEXT: Built at 2024-10-04T22:33:58.413614+00:00 for de-DE
+at SHA c939c3fb8ad
+Pipeline 2666027, job 32611238
+Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.335.0-SHA-8799407d-RC1
 
 RESOURCE ID: mp_replenish.1_title
 TEXT: 1 DP-Beutel ({0} DP)
@@ -397,8 +421,38 @@ TEXT: Active
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: 5 überraschende Begegnungen mit Strawickl in GO-Schnappschuss
 
+RESOURCE ID: poi_contrib_edit_title_desc_custom
+TEXT: {0} Title
+
+RESOURCE ID: poi_contrib_entry_ar_data_custom
+TEXT: Scan {0}
+
+RESOURCE ID: poi_contrib_entry_header_custom
+TEXT: Contribute to this {0}
+
+RESOURCE ID: poi_contrib_entry_report_invalid_custom
+TEXT: Report {0} Issue
+
+RESOURCE ID: poi_contrib_report_reason_duplicate_custom
+TEXT: Duplicate {0}
+
 RESOURCE ID: pokemon_info_evolve_pokemon_iris_social_deployed
 TEXT: {0} spielt bei einem PokéStop.
+
+RESOURCE ID: pokemon_name_bread
+TEXT: Dynamax {0}
+
+RESOURCE ID: pokemon_name_bread_dough
+TEXT: Gigantamax {0}
+
+RESOURCE ID: pokemon_name_bread_dough_short
+TEXT: G-Max {0}
+
+RESOURCE ID: pokemon_name_bread_short
+TEXT: D-Max {0}
+
+RESOURCE ID: pokestop_general
+TEXT: PokéStop
 
 RESOURCE ID: quest_sewaddle_catch_b
 TEXT: Fange {0} Strawickl.
@@ -557,6 +611,12 @@ TEXT: <b>Enthaltene Belohnungen:</b>
 • Begegnungen mit Galar-Smogmog, Galar-Porenta, Galar-Pantimos und Galar-Flunschlik
 • 18 000 EP und 10 000 Sternenstaub
 • Hochwertige In-Game-Items wie Hyperbälle, Silberne Sananabeeren und Lade-TMs
+
+RESOURCE ID: text_rewards_key_mawileraidday
+TEXT: <b>Enthaltene Boni:</b>
+• 8 zusätzliche Raid-Pässe durch das Drehen von Fotoscheiben auf Arenen
+• Erhöhte Chance auf Sonderbonbons XL für Raids
+• 50 % mehr EP und 2× Sternenstaub für den erfolgreichen Abschluss von Raids
 
 RESOURCE ID: text_rewards_key_monthlyticketnov24
 TEXT: Mit diesem Ticket erhältst du vom 3. November bis zum 2. Dezember 2024 Zugang zu Boni, einer Befristeten Forschung, die dich mit 200 Bonus-PokéMünzen belohnt und täglichen Bonus-Feldforschungsaufgaben, bei denen du Bonus-PokéMünzen erhalten kannst.

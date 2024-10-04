@@ -4,6 +4,9 @@ TEXT:
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: Disconnesso
 
+RESOURCE ID: ar_plus_got_it
+TEXT: Got it
+
 RESOURCE ID: badge_party_challenges_completed
 TEXT: Completa {0} sfide di gruppo
 
@@ -44,10 +47,10 @@ RESOURCE ID: bonus_tr_gbl_naic_2025_a_title_01
 TEXT: Ricerca a tempo aggiuntiva dedicata al Campione degli Internazionali Europei Pokémon 2025 (2/2)
 
 RESOURCE ID: bread_battle_cheer_charge_blocked
-TEXT: Max Meter is Full!
+TEXT: Meter is Full!
 
 RESOURCE ID: bread_battle_resolve_timed_out_title
-TEXT: Everyone's Pokémon have grown tired!
+TEXT: Everyone’s Pokémon have grown tired!
 
 RESOURCE ID: bread_dough_battle_ftue_body_generic
 TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 trainers.
@@ -83,16 +86,22 @@ RESOURCE ID: bread_station_failure_description
 TEXT: Questo punto energetico ha raggiunto il limite di Pokémon posizionati.
 
 RESOURCE ID: bread_station_failure_description_duplicate
-TEXT: You have already stationed a Pokemon at this Power Spot.
+TEXT: You have already stationed a Pokémon at this Power Spot.
 
 RESOURCE ID: bread_station_failure_label
 TEXT: Impossibile posizionare il Pokémon
+
+RESOURCE ID: bread_station_general
+TEXT: Power Spot
 
 RESOURCE ID: bundle.silk.box.1_title
 TEXT: Pacco seta
 
 RESOURCE ID: community_day_sewaddle_event_name
 TEXT: Community Day dedicato a Sewaddle
+
+RESOURCE ID: details_link_key_mawileraidday
+TEXT: For more details, visit the <a href=https://pokemongolive.com/post/mega-mawile-raid-day-2024"">website</a>."
 
 RESOURCE ID: event_datetime_range_key_gowa24
 TEXT: 23 novembre -
@@ -101,6 +110,9 @@ TEXT: 23 novembre -
 RESOURCE ID: event_datetime_range_key_masterball24
 TEXT: Dal 4 ottobre alle 10:00
 all’11 ottobre alle 20:00
+
+RESOURCE ID: event_datetime_range_key_mawileraidday
+TEXT: 12 ottobre dalle 14:00 alle 22:00
 
 RESOURCE ID: event_datetime_range_key_monthlyticketnov24
 TEXT: Dal 3 novembre alle 00:00
@@ -153,6 +165,9 @@ TEXT: Biglietto per l’evento “Terre Selvagge di Pokémon GO (globale)”
 RESOURCE ID: general1.ticket._masterball24_title
 TEXT: Ricerca magistrale: Master Ball
 
+RESOURCE ID: general1.ticket._mawileraidday_title
+TEXT: Biglietto per il giorno di raid dedicato a MegaMawile
+
 RESOURCE ID: general1.ticket._monthlyticketnov24_title
 TEXT: Biglietto Tesoro di Pokémonete giornaliero - 3ª parte
 
@@ -168,16 +183,19 @@ TEXT: Biglietto per la ricerca a tempo premium della giornata di ricerca dedicat
 RESOURCE ID: general1.ticket_sewaddlecd24_title
 TEXT: Biglietto per il Community Day dedicato a Sewaddle
 
+RESOURCE ID: gym_general
+TEXT: Gym
+
 RESOURCE ID: hint_desc_loc_network_err_body_key
-TEXT: Be sure to point your camera at the location
-matching the hint image as you walk slowly
-around it to capture multiple angles.
+TEXT: Point your camera at the location and match
+it to the hint image as you walk around it
+slowly to capture multiple angles.
 
 RESOURCE ID: hint_desc_loc_network_err_title_key
 TEXT: Something went wrong...
 
 RESOURCE ID: hint_desc_loc_not_ready_body_key
-TEXT: Be sure to point your camera at the landmark matching the hint image as you walk slowly around it to capture multiple angles.
+TEXT: Point your camera at the landmark and match it to the hint image as you walk around it slowly to capture multiple angles.
 
 RESOURCE ID: hint_desc_loc_not_ready_title_key
 TEXT: Something went wrong...
@@ -189,8 +207,8 @@ RESOURCE ID: hint_desc_loc_retry_button_key
 TEXT: Try again
 
 RESOURCE ID: hint_desc_ready_title_key
-TEXT: Walk to the landmark.
-It's nearby!
+TEXT: Find the landmark.
+It’s nearby!
 
 RESOURCE ID: home_transfer_error_gym_deployed
 TEXT: Non puoi inviare Pokémon che stanno difendendo le Palestre o che sono posizionati presso i punti energetici.
@@ -205,7 +223,7 @@ RESOURCE ID: incense_spawns_attract
 TEXT: I Pokémon in primo piano sono attratti dall’aroma
 
 RESOURCE ID: iris_social_confirm_exit_modal_body
-TEXT: Unless you remove your Pokémon, they will stay and play for a little while until they get tired and return
+TEXT: Pokémon will stay and play for a little while until they get tired and return, but you can call them back earlier.
 
 RESOURCE ID: iris_social_confirm_exit_modal_title
 TEXT: Are you sure you want to leave?
@@ -214,19 +232,19 @@ RESOURCE ID: iris_social_diagnostic_okay_button
 TEXT: Submit Report
 
 RESOURCE ID: iris_social_diagnostic_title
-TEXT: This is an experimental feature
+TEXT: This feature is under development!
 
 RESOURCE ID: iris_social_diagnostics_option_five
 TEXT: This location is unsuitable for AR
 
 RESOURCE ID: iris_social_diagnostics_option_four
-TEXT: I'm looking at the landmark and nothing is happening
+TEXT: I’m looking at the landmark and nothing is happening
 
 RESOURCE ID: iris_social_diagnostics_option_one
-TEXT: I can't find the location in the image
+TEXT: I can’t find the landmark in the image
 
 RESOURCE ID: iris_social_diagnostics_option_three
-TEXT: I don't know where to point my camera
+TEXT: I don’t know where to point my camera
 
 RESOURCE ID: iris_social_diagnostics_option_two
 TEXT: Hint image is unclear
@@ -235,7 +253,7 @@ RESOURCE ID: iris_social_diagnostics_subtitle
 TEXT: Please report any issues or feedback you have using this experimental feature.
 
 RESOURCE ID: iris_social_entry_instruction_body
-TEXT: Pokémon gather, play and meet other Trainers at landmarks! Point your camera at the landmark to view and interact with any Pokémon there.
+TEXT: Pokémon can gather, play, and meet other Trainers at landmarks! Point your camera at the landmark to view and interact with any Pokémon there.
 
 RESOURCE ID: iris_social_entry_instruction_title
 TEXT: You found a landmark!
@@ -247,7 +265,7 @@ RESOURCE ID: iris_social_landmark_too_far_body
 TEXT: Walk closer to see the Pokémon.
 
 RESOURCE ID: iris_social_landmark_too_far_header
-TEXT: You are too far from the landmark
+TEXT: You are too far from the landmark.
 
 RESOURCE ID: iris_social_limited_pokemon_key_temp
 TEXT: Non c’è abbastanza spazio per questo Pokémon adesso.
@@ -256,7 +274,7 @@ RESOURCE ID: iris_social_rotation_error_key
 TEXT: You can only rotate your own Pokémon.
 
 RESOURCE ID: iris_social_temporary_disable_key
-TEXT: This location isn't available right now. Please come back later.
+TEXT: This location isn’t available right now. Please come back later.
 
 RESOURCE ID: item_event_ticket_04_desc_researchdaysept24
 TEXT: Un biglietto per accedere a due ricerche a tempo premium della giornata di ricerca dedicata a Oranguru e Passimian il 22 settembre 2024 dalle 14:00 alle 17:00 ora locale, ovunque ti trovi.
@@ -275,6 +293,12 @@ TEXT: Un biglietto per accedere alla ricerca a tempo premium dell’evento “Ps
 
 RESOURCE ID: item_event_ticket_evergreen_details_psychspec24
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo premium dell’evento “Psicomania 2024” il 18 settembre, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_gray_desc_mawileraidday
+TEXT: Un biglietto per accedere ai bonus speciali sabato 12 ottobre 2024 dalle 14:00 alle 22:00 ora locale, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_gray_details_mawileraidday
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso ai bonus speciali il 12 ottobre, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_pink_desc_sewaddlecd24
 TEXT: Un biglietto per accedere alla ricerca speciale del Community Day dedicato a Sewaddle dal 5 ottobre alle 14:00 ora locale, ovunque ti trovi.
@@ -343,8 +367,8 @@ RESOURCE ID: legendary_heroes_tr_sword_title_key
 TEXT: Sentiero della Spada
 
 RESOURCE ID: localization_progress_hint_1
-TEXT: Point device towards the landmark
-matching the image below.
+TEXT: Point your camera at the landmark
+and match it to the image below.
 
 RESOURCE ID: localization_progress_hint_2
 TEXT: Walk slowly around the landmark.
@@ -353,10 +377,10 @@ RESOURCE ID: localization_success_hint
 TEXT: You found the landmark!
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-02T23:06:53.280930+00:00 for it-IT
-at SHA 114482d00ef
-Pipeline 2659189, job 32523930
-Patch from: 0.333.0-SHA-4f3cd4da-RC4, 0.335.0-SHA-8799407d-RC1
+TEXT: Built at 2024-10-04T22:33:58.413614+00:00 for it-IT
+at SHA c939c3fb8ad
+Pipeline 2666027, job 32611238
+Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.335.0-SHA-8799407d-RC1
 
 RESOURCE ID: mp_replenish.1_title
 TEXT: 1 pacco PD ({0} PD)
@@ -376,8 +400,56 @@ TEXT: Active
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: Cinque incontri a sorpresa con Sewaddle in modalità foto GO
 
+RESOURCE ID: poi_contrib_edit_title_desc_custom
+TEXT: {0} Title
+
+RESOURCE ID: poi_contrib_entry_ar_data_custom
+TEXT: Scan {0}
+
+RESOURCE ID: poi_contrib_entry_header_custom
+TEXT: Contribute to this {0}
+
+RESOURCE ID: poi_contrib_entry_report_invalid_custom
+TEXT: Report {0} Issue
+
+RESOURCE ID: poi_contrib_report_reason_duplicate_custom
+TEXT: Duplicate {0}
+
+RESOURCE ID: pokecoin.100_title
+TEXT: 100 Pokémonete
+
+RESOURCE ID: pokecoin.1200_title
+TEXT: 1.200 Pokémonete
+
+RESOURCE ID: pokecoin.14500_title
+TEXT: 14.500 Pokémonete
+
+RESOURCE ID: pokecoin.2500_title
+TEXT: 2.500 Pokémonete
+
+RESOURCE ID: pokecoin.5200_title
+TEXT: 5.200 Pokémonete
+
+RESOURCE ID: pokecoin.550_title
+TEXT: 550 Pokémonete
+
 RESOURCE ID: pokemon_info_evolve_pokemon_iris_social_deployed
 TEXT: {0} sta giocando presso un Pokéstop.
+
+RESOURCE ID: pokemon_name_bread
+TEXT: Dynamax {0}
+
+RESOURCE ID: pokemon_name_bread_dough
+TEXT: Gigantamax {0}
+
+RESOURCE ID: pokemon_name_bread_dough_short
+TEXT: G-Max {0}
+
+RESOURCE ID: pokemon_name_bread_short
+TEXT: D-Max {0}
+
+RESOURCE ID: pokestop_general
+TEXT: PokéStop
 
 RESOURCE ID: quest_sewaddle_catch_b
 TEXT: Cattura {0} Sewaddle
@@ -536,6 +608,12 @@ TEXT: <b>Le ricompense includono:</b>
 • Incontri con Weezing di Galar, Farfetch’d di Galar, Mr. Mime di Galar e Stunfisk di Galar.
 • 18.000 PE e 10.000 unità di polvere di stelle
 • Strumenti premium nel gioco come Ultra Ball, Baccananas argentate e MT attacco caricato
+
+RESOURCE ID: text_rewards_key_mawileraidday
+TEXT: <b>Bonus inclusi:</b>
+• Otto biglietti raid aggiuntivi facendo girare i dischi foto delle Palestre
+• Maggiori probabilità di ottenere Caramelle Rare L nei raid
+• 50% di PE in più e doppio della polvere di stelle quando porti a termine un raid con successo
 
 RESOURCE ID: text_rewards_key_monthlyticketnov24
 TEXT: Questo biglietto garantisce dei bonus, una ricerca a tempo che offre come ricompensa 200 Pokémonete bonus e delle missioni di ricerca sul campo aggiuntive giornaliere che ti regalano Pokémonete bonus dal 3 novembre al 2 dicembre 2024.

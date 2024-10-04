@@ -4,6 +4,9 @@ TEXT:
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: डकनेट हो गया है
 
+RESOURCE ID: ar_plus_got_it
+TEXT: Got it
+
 RESOURCE ID: badge_party_challenges_completed
 TEXT: {0} टम चैलंज पूर करं
 
@@ -53,10 +56,10 @@ RESOURCE ID: bonus_tr_gbl_naic_2025_a_title_01
 TEXT: 2025  Pokémon EUIC चैिपयन - बोनस सीमत समय वाल रसच (2/2)
 
 RESOURCE ID: bread_battle_cheer_charge_blocked
-TEXT: Max Meter is Full!
+TEXT: Meter is Full!
 
 RESOURCE ID: bread_battle_resolve_timed_out_title
-TEXT: Everyone's Pokémon have grown tired!
+TEXT: Everyone’s Pokémon have grown tired!
 
 RESOURCE ID: bread_dough_battle_ftue_body_generic
 TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 trainers.
@@ -95,16 +98,22 @@ RESOURCE ID: bread_station_failure_description
 TEXT: यह पावर पॉट पोकमॉन रखने क अपनी सीमा तक पँच गया है।
 
 RESOURCE ID: bread_station_failure_description_duplicate
-TEXT: You have already stationed a Pokemon at this Power Spot.
+TEXT: You have already stationed a Pokémon at this Power Spot.
 
 RESOURCE ID: bread_station_failure_label
 TEXT: पोकमॉन को रखा नहीं जा सका।
+
+RESOURCE ID: bread_station_general
+TEXT: Power Spot
 
 RESOURCE ID: bundle.silk.box.1_title
 TEXT: सक बॉस
 
 RESOURCE ID: community_day_sewaddle_event_name
 TEXT: कयुनट डे - लपता
+
+RESOURCE ID: details_link_key_mawileraidday
+TEXT: अधक जानकार क लए, <a href=https://pokemongolive.com/post/mega-mawile-raid-day-2024"">वेबसाइट</a> देखें।"
 
 RESOURCE ID: event_datetime_range_key_gowa24
 TEXT: 23 नवंबर –
@@ -113,6 +122,9 @@ TEXT: 23 नवंबर –
 RESOURCE ID: event_datetime_range_key_masterball24
 TEXT: 4 अतूबर,  सुबह 10:00  –
 11 अतूबर रात 8:00
+
+RESOURCE ID: event_datetime_range_key_mawileraidday
+TEXT: 12 अतूबर, दोपहर 2:00 बजे - रात 10:00 बजे तक।
 
 RESOURCE ID: event_datetime_range_key_monthlyticketnov24
 TEXT: November 3, 12:00 a.m. –
@@ -168,6 +180,9 @@ TEXT: Pokémon GO वाइड एरया : लोबल टकट
 RESOURCE ID: general1.ticket._masterball24_title
 TEXT: माटरवक रसच - माटर बॉल
 
+RESOURCE ID: general1.ticket._mawileraidday_title
+TEXT: मेगा मुचीट रड दवस टकट
+
 RESOURCE ID: general1.ticket._monthlyticketnov24_title
 TEXT: Daily PokéCoin Bounty Part 3 Ticket
 
@@ -183,6 +198,9 @@ TEXT: ओरैंगु और फेकाकक रसच �
 RESOURCE ID: general1.ticket_sewaddlecd24_title
 TEXT: लपता कयुनट डे टकट
 
+RESOURCE ID: gym_general
+TEXT: Gym
+
 RESOURCE ID: halloween_cup_great_title
 TEXT: हैलोवीन कप - ेट लग एडशन
 
@@ -190,15 +208,15 @@ RESOURCE ID: halloween_cup_little_title
 TEXT: हैलोवीन कप - लटल एडशन 
 
 RESOURCE ID: hint_desc_loc_network_err_body_key
-TEXT: Be sure to point your camera at the location
-matching the hint image as you walk slowly
-around it to capture multiple angles.
+TEXT: Point your camera at the location and match
+it to the hint image as you walk around it
+slowly to capture multiple angles.
 
 RESOURCE ID: hint_desc_loc_network_err_title_key
 TEXT: Something went wrong...
 
 RESOURCE ID: hint_desc_loc_not_ready_body_key
-TEXT: Be sure to point your camera at the landmark matching the hint image as you walk slowly around it to capture multiple angles.
+TEXT: Point your camera at the landmark and match it to the hint image as you walk around it slowly to capture multiple angles.
 
 RESOURCE ID: hint_desc_loc_not_ready_title_key
 TEXT: Something went wrong...
@@ -210,8 +228,8 @@ RESOURCE ID: hint_desc_loc_retry_button_key
 TEXT: Try again
 
 RESOURCE ID: hint_desc_ready_title_key
-TEXT: Walk to the landmark.
-It's nearby!
+TEXT: Find the landmark.
+It’s nearby!
 
 RESOURCE ID: home_transfer_error_gym_deployed
 TEXT: आप जम क रा करते ए पोकमॉन और पावर पॉट पर रखे गये पोकमॉन को नहीं भेज सकते।
@@ -226,7 +244,7 @@ RESOURCE ID: incense_spawns_attract
 TEXT: फ़ीचड पोकमॉन इंसेंस क ओर आकिषत आ
 
 RESOURCE ID: iris_social_confirm_exit_modal_body
-TEXT: Unless you remove your Pokémon, they will stay and play for a little while until they get tired and return
+TEXT: Pokémon will stay and play for a little while until they get tired and return, but you can call them back earlier.
 
 RESOURCE ID: iris_social_confirm_exit_modal_title
 TEXT: Are you sure you want to leave?
@@ -235,19 +253,19 @@ RESOURCE ID: iris_social_diagnostic_okay_button
 TEXT: Submit Report
 
 RESOURCE ID: iris_social_diagnostic_title
-TEXT: This is an experimental feature
+TEXT: This feature is under development!
 
 RESOURCE ID: iris_social_diagnostics_option_five
 TEXT: This location is unsuitable for AR
 
 RESOURCE ID: iris_social_diagnostics_option_four
-TEXT: I'm looking at the landmark and nothing is happening
+TEXT: I’m looking at the landmark and nothing is happening
 
 RESOURCE ID: iris_social_diagnostics_option_one
-TEXT: I can't find the location in the image
+TEXT: I can’t find the landmark in the image
 
 RESOURCE ID: iris_social_diagnostics_option_three
-TEXT: I don't know where to point my camera
+TEXT: I don’t know where to point my camera
 
 RESOURCE ID: iris_social_diagnostics_option_two
 TEXT: Hint image is unclear
@@ -256,7 +274,7 @@ RESOURCE ID: iris_social_diagnostics_subtitle
 TEXT: Please report any issues or feedback you have using this experimental feature.
 
 RESOURCE ID: iris_social_entry_instruction_body
-TEXT: Pokémon gather, play and meet other Trainers at landmarks! Point your camera at the landmark to view and interact with any Pokémon there.
+TEXT: Pokémon can gather, play, and meet other Trainers at landmarks! Point your camera at the landmark to view and interact with any Pokémon there.
 
 RESOURCE ID: iris_social_entry_instruction_title
 TEXT: You found a landmark!
@@ -268,7 +286,7 @@ RESOURCE ID: iris_social_landmark_too_far_body
 TEXT: Walk closer to see the Pokémon.
 
 RESOURCE ID: iris_social_landmark_too_far_header
-TEXT: You are too far from the landmark
+TEXT: You are too far from the landmark.
 
 RESOURCE ID: iris_social_limited_pokemon_key
 TEXT: अभी इस पोकमॉन क लए जगह नहीं है।
@@ -280,7 +298,7 @@ RESOURCE ID: iris_social_rotation_error_key
 TEXT: You can only rotate your own Pokémon.
 
 RESOURCE ID: iris_social_temporary_disable_key
-TEXT: This location isn't available right now. Please come back later.
+TEXT: This location isn’t available right now. Please come back later.
 
 RESOURCE ID: item_event_ticket_04_desc_researchdaysept24
 TEXT: थानीय समयानुसार 22 सतंबर, 2024 को दोपहर 2:00 बजे से शाम 5:00 बजे तक, ओरैंगु और फेकाकक रसच दवस क लए दो ीमयम सीमत समय वाल रसच क लए एक टकट।
@@ -300,11 +318,17 @@ TEXT: थानीय समयानुसार, 18 सतबर, स
 RESOURCE ID: item_event_ticket_evergreen_details_psychspec24
 TEXT: यह टकट अपने आप ऐटवेट होकर 18 सतबर को आपको साइकक चमकार 2024 ीमयम सीमत समय वाल रसच का ऐसेस देगी।
 
+RESOURCE ID: item_event_ticket_gray_desc_mawileraidday
+TEXT: थानीय समयानुसार, 12 अतूबर, 2024 को दुपहर 2:00 बजे से लकर शाम 10:00 बजे तक होने वाल पेशल रसच को एसेस करने का टकट।
+
 RESOURCE ID: item_event_ticket_gray_desc_monthlyticketnov24
 TEXT: डेल पोककॉइन सलशन पाट 3 सीमत समय वाल रसच, पोककॉइन दान करने वाल डेल बोनस फ़ीड रसच, और अय बोनस को थानीय समयानुसार  3 नवंबर को सुबह 12:00 बजे से 2 दसंबर, 2024 को रात 11:59 बजे तक एसेस करने का टकट।
 
 RESOURCE ID: item_event_ticket_gray_desc_monthlyticketoct24
 TEXT: डेल पोककॉइन सलशन पाट 2 सीमत समय वाल रसच, पोककॉइन दान करने वाल डेल बोनस फ़ीड रसच, और अय बोनस को थानीय समयानुसार 3 अतूबर सुबह 12:00 बजे से 2 नवंबर, 2024 को  रात 11:59 बजे तक एसेस करने का टकट।
+
+RESOURCE ID: item_event_ticket_gray_details_mawileraidday
+TEXT: यह टकट अपने आप ऐटवेट होकर 12 अतूबर को मलने वाल पेशल बोनस का ऐसेस आपको देगा।
 
 RESOURCE ID: item_event_ticket_pink_desc_sewaddlecd24
 TEXT: थानीय समयानुसार 5 अतूबर, दोपहर 2 बजे से शु होने वाल लपता कयुनट डे पेशल रसच को एसेस करने का टकट।
@@ -370,8 +394,8 @@ RESOURCE ID: legendary_heroes_tr_sword_title_key
 TEXT: वॉड पथ
 
 RESOURCE ID: localization_progress_hint_1
-TEXT: Point device towards the landmark
-matching the image below.
+TEXT: Point your camera at the landmark
+and match it to the image below.
 
 RESOURCE ID: localization_progress_hint_2
 TEXT: Walk slowly around the landmark.
@@ -380,10 +404,10 @@ RESOURCE ID: localization_success_hint
 TEXT: You found the landmark!
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-02T23:06:53.280930+00:00 for hi-IN
-at SHA 114482d00ef
-Pipeline 2659189, job 32523930
-Patch from: 0.333.0-SHA-4f3cd4da-RC4, 0.335.0-SHA-8799407d-RC1
+TEXT: Built at 2024-10-04T22:33:58.413614+00:00 for hi-IN
+at SHA c939c3fb8ad
+Pipeline 2666027, job 32611238
+Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.335.0-SHA-8799407d-RC1
 
 RESOURCE ID: move_name_0406
 TEXT: ऑरा हील
@@ -403,11 +427,41 @@ TEXT: Active
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: GO नैपशॉट में लपता क साथ 5 सराइज़ मुलाकात
 
+RESOURCE ID: poi_contrib_edit_title_desc_custom
+TEXT: {0} Title
+
+RESOURCE ID: poi_contrib_entry_ar_data_custom
+TEXT: Scan {0}
+
+RESOURCE ID: poi_contrib_entry_header_custom
+TEXT: Contribute to this {0}
+
+RESOURCE ID: poi_contrib_entry_report_invalid_custom
+TEXT: Report {0} Issue
+
+RESOURCE ID: poi_contrib_report_reason_duplicate_custom
+TEXT: Duplicate {0}
+
 RESOURCE ID: pokemon_info_evolve_pokemon_iris_social_deployed
 TEXT: {0} पोकटॉप पर खेल रहा है।
 
 RESOURCE ID: pokemon_location_card_info_transfer_to_professor_confirmation
 TEXT: या आप वाकई रयर बैकाउंड वाल इस पोकमॉन को टांसफ़र करना चाहते है?
+
+RESOURCE ID: pokemon_name_bread
+TEXT: Dynamax {0}
+
+RESOURCE ID: pokemon_name_bread_dough
+TEXT: Gigantamax {0}
+
+RESOURCE ID: pokemon_name_bread_dough_short
+TEXT: G-Max {0}
+
+RESOURCE ID: pokemon_name_bread_short
+TEXT: D-Max {0}
+
+RESOURCE ID: pokestop_general
+TEXT: PokéStop
 
 RESOURCE ID: quest_sewaddle_catch_b
 TEXT: {0} लपता पकड़ें
@@ -551,7 +605,7 @@ TEXT: <b>शामल रवॉड :</b>
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext10.1
 TEXT: Pokémon GO वाइड एरया : लोबल का टकट, जो आपको समय से पहल नःशुक क उपलध कराया गया है।
 
-<b>शामल रवॉड:</b>
+<b>शामल रवॉड :</b>
 • गुंडा पोकमॉन, टंगडार क साथ मुलाकात। साथ ही इलटक या पॉइज़न-टाइप पोकमॉन क साथ मुलाकात
 • वे टनर जो 22 अतूबर तक Pokémon GO वाइड एरया : लोबल टकट खरदते हैं और 15 अतूबर से 22 अतूबर क बीच Pokémon GO खेलते हैं, उहें सीमत समय वाल रसच मलगी जो इलज़न माक अवतार आइटम तक वरत एसेस दान करती है।
 
@@ -561,11 +615,17 @@ RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: Pokémon GO वाइड एरया : लोबल का टकट, जो आपको समय से पहल नःशुक क उपलध कराया गया है।
 
 RESOURCE ID: text_rewards_key_masterball24
-TEXT: <b>शामल रवॉड:</b>
+TEXT: <b>शामल रवॉड :</b>
 • एक माटर बॉल - एक पोक बॉल जो बना चूक कसी भी वाइड पोकमॉन को पकड़ सकती है
 • गलार वीिज़ंग, गलारयन फ़ारफ़ेच, गलार मटर माइम और गलार मडल क साथ मुलाकात
 • 18,000 XP और 10,000 टार-डट
 • ीमयम इन-गेम आइटम जैसे अटा बॉल, सवर पाइनऐप बेर और चाज्ड TM
+
+RESOURCE ID: text_rewards_key_mawileraidday
+TEXT: <b>शामल बोनस -</b>
+• जम क फ़ोटो डक िपन करने से 8 अतरत रड पास
+• रड से रयर कडी XL ात करने क ज़्यादा मौक
+• रड को सफलतापूवक पूर करने पर 50% अधक XP और 2× टार-डट
 
 RESOURCE ID: text_rewards_key_monthlyticketnov24
 TEXT: This ticket grants bonuses, Timed Research awarding 200 bonus PokéCoins, and daily bonus Field Research tasks that award bonus PokéCoins from November 3 to December 2, 2024.

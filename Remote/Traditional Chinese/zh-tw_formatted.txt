@@ -4,6 +4,9 @@ TEXT:
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: 已停止掃描寶可補給站
 
+RESOURCE ID: ar_plus_got_it
+TEXT: Got it
+
 RESOURCE ID: badge_party_challenges_completed
 TEXT: 完成{0}個小隊挑戰了！
 
@@ -56,7 +59,7 @@ RESOURCE ID: bonus_tr_gbl_naic_2025_a_title_01
 TEXT: 2025 Pokémon NAIC冠軍賽：獎勵限時調查(2/2)
 
 RESOURCE ID: bread_battle_cheer_charge_blocked
-TEXT: Max Meter is Full!
+TEXT: Meter is Full!
 
 RESOURCE ID: bread_battle_message_bread_move_remaining_plural
 TEXT: 還可使用{0}次極巨招式
@@ -65,7 +68,7 @@ RESOURCE ID: bread_battle_message_bread_move_remaining_single
 TEXT: 還可使用{0}次極巨招式
 
 RESOURCE ID: bread_battle_resolve_timed_out_title
-TEXT: Everyone's Pokémon have grown tired!
+TEXT: Everyone’s Pokémon have grown tired!
 
 RESOURCE ID: bread_dough_battle_ftue_body_generic
 TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 trainers.
@@ -101,16 +104,22 @@ RESOURCE ID: bread_station_failure_description
 TEXT: 可指派的寶可夢已達上限，無法指派寶可夢。
 
 RESOURCE ID: bread_station_failure_description_duplicate
-TEXT: You have already stationed a Pokemon at this Power Spot.
+TEXT: You have already stationed a Pokémon at this Power Spot.
 
 RESOURCE ID: bread_station_failure_label
 TEXT: 無法指派寶可夢
+
+RESOURCE ID: bread_station_general
+TEXT: Power Spot
 
 RESOURCE ID: bundle.silk.box.1_title
 TEXT: 絲質禮盒
 
 RESOURCE ID: community_day_sewaddle_event_name
 TEXT: 社群日：蟲寶包
+
+RESOURCE ID: details_link_key_mawileraidday
+TEXT: 詳情請至<a href=https://pokemongolive.com/post/mega-mawile-raid-day-2024"">網站</a>確認"
 
 RESOURCE ID: event_datetime_range_key_gowa24
 TEXT: 11月23日～
@@ -119,6 +128,9 @@ TEXT: 11月23日～
 RESOURCE ID: event_datetime_range_key_masterball24
 TEXT: 10月4日10:00～
 11月11日20:00
+
+RESOURCE ID: event_datetime_range_key_mawileraidday
+TEXT: 10月12日14:00～22:00
 
 RESOURCE ID: event_datetime_range_key_monthlyticketnov24
 TEXT: November 3, 12:00 a.m. –
@@ -174,6 +186,9 @@ TEXT: Pokémon GO 曠野地帶：全球入場券
 RESOURCE ID: general1.ticket._masterball24_title
 TEXT: 長期調查：大師球
 
+RESOURCE ID: general1.ticket._mawileraidday_title
+TEXT: 超級大嘴娃團體戰日入場券
+
 RESOURCE ID: general1.ticket._monthlyticketnov24_title
 TEXT: Daily PokéCoin Bounty Part 3 Ticket
 
@@ -189,6 +204,9 @@ TEXT: 智揮猩和投擲猴調查日特級限時調查入場券
 RESOURCE ID: general1.ticket_sewaddlecd24_title
 TEXT: 蟲寶包社群日入場券
 
+RESOURCE ID: gym_general
+TEXT: Gym
+
 RESOURCE ID: halloween_cup_great_title
 TEXT: 萬聖節盃：超級聯盟版
 
@@ -196,15 +214,15 @@ RESOURCE ID: halloween_cup_little_title
 TEXT: 萬聖節盃：迷你版
 
 RESOURCE ID: hint_desc_loc_network_err_body_key
-TEXT: Be sure to point your camera at the location
-matching the hint image as you walk slowly
-around it to capture multiple angles.
+TEXT: Point your camera at the location and match
+it to the hint image as you walk around it
+slowly to capture multiple angles.
 
 RESOURCE ID: hint_desc_loc_network_err_title_key
 TEXT: Something went wrong...
 
 RESOURCE ID: hint_desc_loc_not_ready_body_key
-TEXT: Be sure to point your camera at the landmark matching the hint image as you walk slowly around it to capture multiple angles.
+TEXT: Point your camera at the landmark and match it to the hint image as you walk around it slowly to capture multiple angles.
 
 RESOURCE ID: hint_desc_loc_not_ready_title_key
 TEXT: Something went wrong...
@@ -216,8 +234,8 @@ RESOURCE ID: hint_desc_loc_retry_button_key
 TEXT: Try again
 
 RESOURCE ID: hint_desc_ready_title_key
-TEXT: Walk to the landmark.
-It's nearby!
+TEXT: Find the landmark.
+It’s nearby!
 
 RESOURCE ID: home_transfer_error_gym_deployed
 TEXT: 不能傳送已指派至道館或能量點的寶可夢
@@ -232,7 +250,7 @@ RESOURCE ID: incense_spawns_attract
 TEXT: 薰香可吸引焦點寶可夢
 
 RESOURCE ID: iris_social_confirm_exit_modal_body
-TEXT: Unless you remove your Pokémon, they will stay and play for a little while until they get tired and return
+TEXT: Pokémon will stay and play for a little while until they get tired and return, but you can call them back earlier.
 
 RESOURCE ID: iris_social_confirm_exit_modal_title
 TEXT: Are you sure you want to leave?
@@ -241,19 +259,19 @@ RESOURCE ID: iris_social_diagnostic_okay_button
 TEXT: Submit Report
 
 RESOURCE ID: iris_social_diagnostic_title
-TEXT: This is an experimental feature
+TEXT: This feature is under development!
 
 RESOURCE ID: iris_social_diagnostics_option_five
 TEXT: This location is unsuitable for AR
 
 RESOURCE ID: iris_social_diagnostics_option_four
-TEXT: I'm looking at the landmark and nothing is happening
+TEXT: I’m looking at the landmark and nothing is happening
 
 RESOURCE ID: iris_social_diagnostics_option_one
-TEXT: I can't find the location in the image
+TEXT: I can’t find the landmark in the image
 
 RESOURCE ID: iris_social_diagnostics_option_three
-TEXT: I don't know where to point my camera
+TEXT: I don’t know where to point my camera
 
 RESOURCE ID: iris_social_diagnostics_option_two
 TEXT: Hint image is unclear
@@ -262,7 +280,7 @@ RESOURCE ID: iris_social_diagnostics_subtitle
 TEXT: Please report any issues or feedback you have using this experimental feature.
 
 RESOURCE ID: iris_social_entry_instruction_body
-TEXT: Pokémon gather, play and meet other Trainers at landmarks! Point your camera at the landmark to view and interact with any Pokémon there.
+TEXT: Pokémon can gather, play, and meet other Trainers at landmarks! Point your camera at the landmark to view and interact with any Pokémon there.
 
 RESOURCE ID: iris_social_entry_instruction_title
 TEXT: You found a landmark!
@@ -274,7 +292,7 @@ RESOURCE ID: iris_social_landmark_too_far_body
 TEXT: Walk closer to see the Pokémon.
 
 RESOURCE ID: iris_social_landmark_too_far_header
-TEXT: You are too far from the landmark
+TEXT: You are too far from the landmark.
 
 RESOURCE ID: iris_social_limited_pokemon_key
 TEXT: 沒有足夠的空間可以放置這隻寶可夢
@@ -286,7 +304,7 @@ RESOURCE ID: iris_social_rotation_error_key
 TEXT: You can only rotate your own Pokémon.
 
 RESOURCE ID: iris_social_temporary_disable_key
-TEXT: This location isn't available right now. Please come back later.
+TEXT: This location isn’t available right now. Please come back later.
 
 RESOURCE ID: item_event_ticket_04_desc_researchdaysept24
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年9月22日14:00～17:00參與智揮猩和投擲猴調查日的2種特級限時調查。
@@ -305,6 +323,12 @@ TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時�
 
 RESOURCE ID: item_event_ticket_evergreen_details_psychspec24
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在9月18日參與超能力週2024特級限時調查。
+
+RESOURCE ID: item_event_ticket_gray_desc_mawileraidday
+TEXT: 只要擁有這張入場券，不論你在何處，都能在當地時間2024年10月12日14:00～22:00領取特別的獎勵。
+
+RESOURCE ID: item_event_ticket_gray_details_mawileraidday
+TEXT: 入場券將會自動啟動。不論你身在何處，都能在當地時間2024年10月12日領取特別的獎勵。
 
 RESOURCE ID: item_event_ticket_pink_desc_sewaddlecd24
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年10月5日14:00開始參與蟲寶包社群日的特殊調查。
@@ -367,8 +391,8 @@ RESOURCE ID: legendary_heroes_tr_sword_title_key
 TEXT: 劍之路
 
 RESOURCE ID: localization_progress_hint_1
-TEXT: Point device towards the landmark
-matching the image below.
+TEXT: Point your camera at the landmark
+and match it to the image below.
 
 RESOURCE ID: localization_progress_hint_2
 TEXT: Walk slowly around the landmark.
@@ -377,10 +401,10 @@ RESOURCE ID: localization_success_hint
 TEXT: You found the landmark!
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-02T23:06:53.280930+00:00 for zh-TW
-at SHA 114482d00ef
-Pipeline 2659189, job 32523930
-Patch from: 0.333.0-SHA-4f3cd4da-RC4, 0.335.0-SHA-8799407d-RC1
+TEXT: Built at 2024-10-04T22:33:58.413614+00:00 for zh-TW
+at SHA c939c3fb8ad
+Pipeline 2666027, job 32611238
+Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.335.0-SHA-8799407d-RC1
 
 RESOURCE ID: move_name_0406
 TEXT: 氣場輪
@@ -396,6 +420,21 @@ TEXT: Active
 
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: 蟲寶包將在GO Snapshot中驚喜現身5次
+
+RESOURCE ID: poi_contrib_edit_title_desc_custom
+TEXT: {0} Title
+
+RESOURCE ID: poi_contrib_entry_ar_data_custom
+TEXT: Scan {0}
+
+RESOURCE ID: poi_contrib_entry_header_custom
+TEXT: Contribute to this {0}
+
+RESOURCE ID: poi_contrib_entry_report_invalid_custom
+TEXT: Report {0} Issue
+
+RESOURCE ID: poi_contrib_report_reason_duplicate_custom
+TEXT: Duplicate {0}
 
 RESOURCE ID: pokecoin.1000_title
 TEXT: 1000寶可幣（僅限測試）
@@ -421,11 +460,23 @@ TEXT: 550寶可幣
 RESOURCE ID: pokecoins_daily_limit_reached
 TEXT: 已到達每日{0}寶可幣的上限
 
-RESOURCE ID: pokecoins_iap_string_key
-TEXT: {0} 寶可幣
-
 RESOURCE ID: pokemon_info_evolve_pokemon_iris_social_deployed
 TEXT: {0}正在寶可補給站玩
+
+RESOURCE ID: pokemon_name_bread
+TEXT: Dynamax {0}
+
+RESOURCE ID: pokemon_name_bread_dough
+TEXT: Gigantamax {0}
+
+RESOURCE ID: pokemon_name_bread_dough_short
+TEXT: G-Max {0}
+
+RESOURCE ID: pokemon_name_bread_short
+TEXT: D-Max {0}
+
+RESOURCE ID: pokestop_general
+TEXT: PokéStop
 
 RESOURCE ID: quest_sewaddle_catch_b
 TEXT: 捕捉{0}隻蟲寶包
@@ -591,6 +642,12 @@ TEXT: <b>可獲得的獎勵：</b>
 ・18000XP和10000星星沙子
 ・高級球、銀色凰梨果、特殊招式學習器等
 </b>
+
+RESOURCE ID: text_rewards_key_mawileraidday
+TEXT: <b>可獲得的獎勵：</b>
+・旋轉道館轉盤時可獲得8張額外團體戰入場券
+・在團體戰獲得神奇糖果XL的機率提高
+・在團體戰中獲勝時可獲得1.5倍XP及2倍星星沙子
 
 RESOURCE ID: text_rewards_key_monthlyticketnov24
 TEXT: This ticket grants bonuses, Timed Research awarding 200 bonus PokéCoins, and daily bonus Field Research tasks that award bonus PokéCoins from November 3 to December 2, 2024.

@@ -4,6 +4,9 @@ TEXT:
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: ポケストップスキャン切断
 
+RESOURCE ID: ar_plus_got_it
+TEXT: Got it
+
 RESOURCE ID: badge_party_challenges_completed
 TEXT: チームチャレンジを{0}回達成できた！
 
@@ -29,10 +32,10 @@ RESOURCE ID: bonus_tr_gbl_championships_2025_a_title
 TEXT: 超電ボーナスタイムチャレンジ
 
 RESOURCE ID: bread_battle_cheer_charge_blocked
-TEXT: Max Meter is Full!
+TEXT: Meter is Full!
 
 RESOURCE ID: bread_battle_resolve_timed_out_title
-TEXT: Everyone's Pokémon have grown tired!
+TEXT: Everyone’s Pokémon have grown tired!
 
 RESOURCE ID: bread_dough_battle_ftue_body_generic
 TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 trainers.
@@ -59,7 +62,7 @@ RESOURCE ID: bread_more_mp_to_reach_daily_limit
 TEXT: 今日あと{0}MP集められます
 
 RESOURCE ID: bread_notification_empty
-TEXT: {0} has returned from the Power Spot.
+TEXT: {0}がパワースポットから戻ってきた！
 
 RESOURCE ID: bread_station_current_battle_defeated
 TEXT: このパワースポットボスを倒した
@@ -68,13 +71,19 @@ RESOURCE ID: bread_station_failure_description
 TEXT: 配置ポケモンの上限に達したため、ポケモンを配置することができません。
 
 RESOURCE ID: bread_station_failure_description_duplicate
-TEXT: You have already stationed a Pokemon at this Power Spot.
+TEXT: すでにポケモンを配置しています
 
 RESOURCE ID: bread_station_failure_label
 TEXT: ポケモン配置できません
 
+RESOURCE ID: bread_station_general
+TEXT: Power Spot
+
 RESOURCE ID: community_day_sewaddle_event_name
 TEXT: コミュニティ・デイ：クルミル
+
+RESOURCE ID: details_link_key_mawileraidday
+TEXT: 詳細は<a href=https://pokemongolive.com/post/mega-mawile-raid-day-2024"">ウェブサイト</a>でご確認ください"
 
 RESOURCE ID: event_datetime_range_key_gowa24
 TEXT: 11月23日～
@@ -83,6 +92,9 @@ TEXT: 11月23日～
 RESOURCE ID: event_datetime_range_key_masterball24
 TEXT: 10月4日10:00AM～
 11月11日8:00PM
+
+RESOURCE ID: event_datetime_range_key_mawileraidday
+TEXT: 10月12日2:00PM～10:00PM
 
 RESOURCE ID: event_datetime_range_key_monthlyticketnov24
 TEXT: 11月3日12:00AM～
@@ -131,6 +143,9 @@ TEXT: Pokémon GO ワイルドエリア：グローバルチケット
 RESOURCE ID: general1.ticket._masterball24_title
 TEXT: 続行リサーチ：マスターボール
 
+RESOURCE ID: general1.ticket._mawileraidday_title
+TEXT: メガクチートレイドデイチケット
+
 RESOURCE ID: general1.ticket._monthlyticketnov24_title
 TEXT: デイリーポケコインセレクトパート3チケット
 
@@ -143,16 +158,19 @@ TEXT: ヤレユータンとナゲツケサルのリサーチデイプレミア�
 RESOURCE ID: general1.ticket_sewaddlecd24_title
 TEXT: クルミルコミュニティ・デイチケット
 
+RESOURCE ID: gym_general
+TEXT: Gym
+
 RESOURCE ID: hint_desc_loc_network_err_body_key
-TEXT: Be sure to point your camera at the location
-matching the hint image as you walk slowly
-around it to capture multiple angles.
+TEXT: Point your camera at the location and match
+it to the hint image as you walk around it
+slowly to capture multiple angles.
 
 RESOURCE ID: hint_desc_loc_network_err_title_key
 TEXT: Something went wrong...
 
 RESOURCE ID: hint_desc_loc_not_ready_body_key
-TEXT: Be sure to point your camera at the landmark matching the hint image as you walk slowly around it to capture multiple angles.
+TEXT: Point your camera at the landmark and match it to the hint image as you walk around it slowly to capture multiple angles.
 
 RESOURCE ID: hint_desc_loc_not_ready_title_key
 TEXT: Something went wrong...
@@ -164,8 +182,8 @@ RESOURCE ID: hint_desc_loc_retry_button_key
 TEXT: Try again
 
 RESOURCE ID: hint_desc_ready_title_key
-TEXT: Walk to the landmark.
-It's nearby!
+TEXT: Find the landmark.
+It’s nearby!
 
 RESOURCE ID: home_transfer_error_gym_deployed
 TEXT: ジム・パワースポットにいるポケモンを送ることはできません
@@ -180,7 +198,7 @@ RESOURCE ID: incense_spawns_attract
 TEXT: フィーチャーポケモンがおこうに反応
 
 RESOURCE ID: iris_social_confirm_exit_modal_body
-TEXT: Unless you remove your Pokémon, they will stay and play for a little while until they get tired and return
+TEXT: Pokémon will stay and play for a little while until they get tired and return, but you can call them back earlier.
 
 RESOURCE ID: iris_social_confirm_exit_modal_title
 TEXT: Are you sure you want to leave?
@@ -189,19 +207,19 @@ RESOURCE ID: iris_social_diagnostic_okay_button
 TEXT: Submit Report
 
 RESOURCE ID: iris_social_diagnostic_title
-TEXT: This is an experimental feature
+TEXT: This feature is under development!
 
 RESOURCE ID: iris_social_diagnostics_option_five
 TEXT: This location is unsuitable for AR
 
 RESOURCE ID: iris_social_diagnostics_option_four
-TEXT: I'm looking at the landmark and nothing is happening
+TEXT: I’m looking at the landmark and nothing is happening
 
 RESOURCE ID: iris_social_diagnostics_option_one
-TEXT: I can't find the location in the image
+TEXT: I can’t find the landmark in the image
 
 RESOURCE ID: iris_social_diagnostics_option_three
-TEXT: I don't know where to point my camera
+TEXT: I don’t know where to point my camera
 
 RESOURCE ID: iris_social_diagnostics_option_two
 TEXT: Hint image is unclear
@@ -210,7 +228,7 @@ RESOURCE ID: iris_social_diagnostics_subtitle
 TEXT: Please report any issues or feedback you have using this experimental feature.
 
 RESOURCE ID: iris_social_entry_instruction_body
-TEXT: Pokémon gather, play and meet other Trainers at landmarks! Point your camera at the landmark to view and interact with any Pokémon there.
+TEXT: Pokémon can gather, play, and meet other Trainers at landmarks! Point your camera at the landmark to view and interact with any Pokémon there.
 
 RESOURCE ID: iris_social_entry_instruction_title
 TEXT: You found a landmark!
@@ -222,7 +240,7 @@ RESOURCE ID: iris_social_landmark_too_far_body
 TEXT: Walk closer to see the Pokémon.
 
 RESOURCE ID: iris_social_landmark_too_far_header
-TEXT: You are too far from the landmark
+TEXT: You are too far from the landmark.
 
 RESOURCE ID: iris_social_limited_pokemon_key
 TEXT: このポケモンを置ける十分な場所がありません
@@ -234,7 +252,7 @@ RESOURCE ID: iris_social_rotation_error_key
 TEXT: You can only rotate your own Pokémon.
 
 RESOURCE ID: iris_social_temporary_disable_key
-TEXT: This location isn't available right now. Please come back later.
+TEXT: This location isn’t available right now. Please come back later.
 
 RESOURCE ID: item_event_ticket_04_desc_researchdaysept24
 TEXT: 現地時間2024年9月22日2:00PM～5:00PMにヤレユータンとナゲツケサルリサーチデイ用に2つのプレミアムタイムチャレンジを行うためのチケット。
@@ -253,6 +271,12 @@ TEXT: 現地時間2024年9月18日10:00AM～9月22日8:00PMにエスパーウィ
 
 RESOURCE ID: item_event_ticket_evergreen_details_psychspec24
 TEXT: このチケットは自動的に発動し9月18日にエスパーウィーク2024プレミアムタイムチャレンジが行えるようになります。
+
+RESOURCE ID: item_event_ticket_gray_desc_mawileraidday
+TEXT: 現地時間2024年10月12日2:00PM～10:00PMにボーナスを受け取るためのチケット。
+
+RESOURCE ID: item_event_ticket_gray_details_mawileraidday
+TEXT: このチケットは自動的に発動し10月12日にボーナスが受け取れるようになります。
 
 RESOURCE ID: item_event_ticket_pink_desc_sewaddlecd24
 TEXT: 現地時間2024年10月5日2:00PMからクルミルコミュニティ・デイのスペシャルリサーチを行うためのチケット。
@@ -315,8 +339,8 @@ RESOURCE ID: legendary_heroes_tr_sword_title_key
 TEXT: ソードの道
 
 RESOURCE ID: localization_progress_hint_1
-TEXT: Point device towards the landmark
-matching the image below.
+TEXT: Point your camera at the landmark
+and match it to the image below.
 
 RESOURCE ID: localization_progress_hint_2
 TEXT: Walk slowly around the landmark.
@@ -325,13 +349,17 @@ RESOURCE ID: localization_success_hint
 TEXT: You found the landmark!
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-02T23:06:53.280930+00:00 for ja-JP
-at SHA 114482d00ef
-Pipeline 2659189, job 32523930
-Patch from: 0.333.0-SHA-4f3cd4da-RC4, 0.335.0-SHA-8799407d-RC1
+TEXT: Built at 2024-10-04T22:33:58.413614+00:00 for ja-JP
+at SHA c939c3fb8ad
+Pipeline 2666027, job 32611238
+Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.335.0-SHA-8799407d-RC1
+
+RESOURCE ID: mp_replenish.3_title
+TEXT: マックス粒子パック
+x3 ({0}MP)
 
 RESOURCE ID: nearby_station_active_header
-TEXT: Active
+TEXT: アクティブなパワースポット
 
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: GOスナップショットでクルミルのサプライズ5回
@@ -339,11 +367,44 @@ TEXT: GOスナップショットでクルミルのサプライズ5回
 RESOURCE ID: photobomb_five_squirtle
 TEXT: GOスナップショットでゼニガメのサプライズ5回
 
-RESOURCE ID: pokecoins_iap_string_key
-TEXT: {0} ポケコイン
+RESOURCE ID: poi_contrib_edit_title_desc_custom
+TEXT: {0} Title
+
+RESOURCE ID: poi_contrib_entry_ar_data_custom
+TEXT: Scan {0}
+
+RESOURCE ID: poi_contrib_entry_header_custom
+TEXT: Contribute to this {0}
+
+RESOURCE ID: poi_contrib_entry_report_invalid_custom
+TEXT: Report {0} Issue
+
+RESOURCE ID: poi_contrib_report_reason_duplicate_custom
+TEXT: Duplicate {0}
+
+RESOURCE ID: pokemon_info_evolve_pokemon_deployed
+TEXT: {0}はジム・パワースポットにいます
 
 RESOURCE ID: pokemon_info_evolve_pokemon_iris_social_deployed
 TEXT: {0}はポケストップで遊んでいます
+
+RESOURCE ID: pokemon_info_powerup_pokemon_deployed
+TEXT: {0}はジム・パワースポットにいます
+
+RESOURCE ID: pokemon_name_bread
+TEXT: ダイマックス {0}
+
+RESOURCE ID: pokemon_name_bread_dough
+TEXT: キョダイマックス {0}
+
+RESOURCE ID: pokemon_name_bread_dough_short
+TEXT: G-Max{0}
+
+RESOURCE ID: pokemon_name_bread_short
+TEXT: D-Max{0}
+
+RESOURCE ID: pokestop_general
+TEXT: PokéStop
 
 RESOURCE ID: quest_party_challenge_plural
 TEXT: チームチャレンジを{0}回達成する
@@ -510,7 +571,7 @@ TEXT: 先行配布の無料PokémonGOワイルドエリア：グローバルチ�
 ・ポケモンを捕まえてもらえるアメ2倍
 ・期間中の色違いポケモンに出会える可能性増
 ・10月22日までに購入し10月15日～22日にプレイするとアバターアイテムのエレズンマスクがもらえるタイムチャレンジを受け取れます。
-適用ボーナスについての詳細は<a href=“pokemongolive.com/gowildarea/global”>こちら</a>でご確認ください。
+適用ボーナスについての詳細は<a href="pokemongolive.com/gowildarea/global">こちら</a>でご確認ください。
 
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: 先行配布の無料PokémonGOワイルドエリア：グローバルチケット
@@ -521,6 +582,12 @@ TEXT: <b>もらえるもの：</b>
 ・ガラルのマタドガス、ガラルのカモネギ、ガラルのバリヤード、ガラルのマッギョとの出会い
 ・18000XPと10000ほしのすな
 ・ハイパーボール、ぎんのパイルのみ、わざマシンスペシャル、など
+
+RESOURCE ID: text_rewards_key_mawileraidday
+TEXT: <b>適用ボーナス：</b>
+・ジムのフォトディスクを回してもらえるレイドパス8枚追加
+・レイドでもらえるふしぎなアメXLの可能性増
+・レイド勝利でもらえるXP50%増とほしのすな2倍、など
 
 RESOURCE ID: text_rewards_key_monthlyticketnov24
 TEXT: 現地時間2024年11月3日～12月2日に200ボーナスポケコインなどがもらえるタイムチャレンジとボーナスポケコインがもらえるデイリーボーナスフィールドリサーチを受け取るためのチケット。

@@ -4,6 +4,9 @@ TEXT:
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: การเชื่อมตอถูกยกเลิก
 
+RESOURCE ID: ar_plus_got_it
+TEXT: Got it
+
 RESOURCE ID: badge_party_challenges_completed
 TEXT: บรรลุคำทาปารตี้ {0} ครั้ง
 
@@ -47,10 +50,10 @@ RESOURCE ID: bonus_tr_gbl_naic_2025_a_title_01
 TEXT: 2025 Pokémon EUIC Champion: งานวิจัยแบบจำกัดเวลาโบนัส (2/2)
 
 RESOURCE ID: bread_battle_cheer_charge_blocked
-TEXT: Max Meter is Full!
+TEXT: Meter is Full!
 
 RESOURCE ID: bread_battle_resolve_timed_out_title
-TEXT: Everyone's Pokémon have grown tired!
+TEXT: Everyone’s Pokémon have grown tired!
 
 RESOURCE ID: bread_battle_tutorial_description_0
 TEXT: เอาชนะโปเกมอนไดแมกซและ
@@ -122,10 +125,13 @@ RESOURCE ID: bread_station_failure_description
 TEXT: จำนวนโปเกมอนที่สามารถวางที่พาวเวอรสปอตนี้ไดถึงขีดจำกัดแลว
 
 RESOURCE ID: bread_station_failure_description_duplicate
-TEXT: You have already stationed a Pokemon at this Power Spot.
+TEXT: You have already stationed a Pokémon at this Power Spot.
 
 RESOURCE ID: bread_station_failure_label
 TEXT: ไมสามารถวางโปเกมอนได
+
+RESOURCE ID: bread_station_general
+TEXT: Power Spot
 
 RESOURCE ID: bread_station_header_leaderboard_description
 TEXT: โปเกมอนเหลานี้จะชวยสนับสนุนในการแบตเทิล
@@ -165,6 +171,9 @@ TEXT: กลองผาไหม
 RESOURCE ID: community_day_sewaddle_event_name
 TEXT: คอมมิวนิตี้เดย: คูรูมีรุ
 
+RESOURCE ID: details_link_key_mawileraidday
+TEXT: ตรวจสอบรายละเอียดไดที่<a href=https://pokemongolive.com/post/mega-mawile-raid-day-2024"">เว็บไซต</a>นี้"
+
 RESOURCE ID: event_datetime_range_key_gowa24
 TEXT: 23 พฤศจิกายน -
 24 พฤศจิกายน 
@@ -172,6 +181,9 @@ TEXT: 23 พฤศจิกายน -
 RESOURCE ID: event_datetime_range_key_masterball24
 TEXT: 4 ตุลาคม เวลา 10:00 น. ถึง
 11 ตุลาคม เวลา 20:00 น.
+
+RESOURCE ID: event_datetime_range_key_mawileraidday
+TEXT: วันที่ 12 ตุลาคม 2024 เวลา 14:00-22:00 น.
 
 RESOURCE ID: event_datetime_range_key_monthlyticketnov24
 TEXT: November 3, 12:00 a.m. –
@@ -224,6 +236,9 @@ TEXT: ตั๋ว Pokémon GO ไวลดแอเรีย: ทั่ว�
 RESOURCE ID: general1.ticket._masterball24_title
 TEXT: งานวิจัยระยะยาว: มาสเตอรบอล
 
+RESOURCE ID: general1.ticket._mawileraidday_title
+TEXT: ตั๋ว "วันตีบอสเมกาคูชีท"
+
 RESOURCE ID: general1.ticket._monthlyticketnov24_title
 TEXT: Daily PokéCoin Bounty Part 3 Ticket
 
@@ -239,6 +254,9 @@ TEXT: ตั๋วงานวิจัยแบบจำกัดเวลา�
 RESOURCE ID: general1.ticket_sewaddlecd24_title
 TEXT: ตั๋วคูรูมีรุคอมมิวนิตี้เดย
 
+RESOURCE ID: gym_general
+TEXT: Gym
+
 RESOURCE ID: halloween_cup_great_title
 TEXT: การแขงขันฮาโลวีน (ver. เกรตลีก)
 
@@ -246,15 +264,15 @@ RESOURCE ID: halloween_cup_little_title
 TEXT: การแขงขันฮาโลวีน (ver. ตัวนอย)
 
 RESOURCE ID: hint_desc_loc_network_err_body_key
-TEXT: Be sure to point your camera at the location
-matching the hint image as you walk slowly
-around it to capture multiple angles.
+TEXT: Point your camera at the location and match
+it to the hint image as you walk around it
+slowly to capture multiple angles.
 
 RESOURCE ID: hint_desc_loc_network_err_title_key
 TEXT: Something went wrong...
 
 RESOURCE ID: hint_desc_loc_not_ready_body_key
-TEXT: Be sure to point your camera at the landmark matching the hint image as you walk slowly around it to capture multiple angles.
+TEXT: Point your camera at the landmark and match it to the hint image as you walk around it slowly to capture multiple angles.
 
 RESOURCE ID: hint_desc_loc_not_ready_title_key
 TEXT: Something went wrong...
@@ -266,8 +284,8 @@ RESOURCE ID: hint_desc_loc_retry_button_key
 TEXT: Try again
 
 RESOURCE ID: hint_desc_ready_title_key
-TEXT: Walk to the landmark.
-It's nearby!
+TEXT: Find the landmark.
+It’s nearby!
 
 RESOURCE ID: home_transfer_error_gym_deployed
 TEXT: คุณไมสามารถสงโปเกมอนที่อยูที่ยิมหรือพาวเวอรสปอตได
@@ -282,7 +300,7 @@ RESOURCE ID: incense_spawns_attract
 TEXT: โปเกมอนเดนถูกดึงดูดดวยเครื่องหอม
 
 RESOURCE ID: iris_social_confirm_exit_modal_body
-TEXT: Unless you remove your Pokémon, they will stay and play for a little while until they get tired and return
+TEXT: Pokémon will stay and play for a little while until they get tired and return, but you can call them back earlier.
 
 RESOURCE ID: iris_social_confirm_exit_modal_title
 TEXT: Are you sure you want to leave?
@@ -291,19 +309,19 @@ RESOURCE ID: iris_social_diagnostic_okay_button
 TEXT: Submit Report
 
 RESOURCE ID: iris_social_diagnostic_title
-TEXT: This is an experimental feature
+TEXT: This feature is under development!
 
 RESOURCE ID: iris_social_diagnostics_option_five
 TEXT: This location is unsuitable for AR
 
 RESOURCE ID: iris_social_diagnostics_option_four
-TEXT: I'm looking at the landmark and nothing is happening
+TEXT: I’m looking at the landmark and nothing is happening
 
 RESOURCE ID: iris_social_diagnostics_option_one
-TEXT: I can't find the location in the image
+TEXT: I can’t find the landmark in the image
 
 RESOURCE ID: iris_social_diagnostics_option_three
-TEXT: I don't know where to point my camera
+TEXT: I don’t know where to point my camera
 
 RESOURCE ID: iris_social_diagnostics_option_two
 TEXT: Hint image is unclear
@@ -312,7 +330,7 @@ RESOURCE ID: iris_social_diagnostics_subtitle
 TEXT: Please report any issues or feedback you have using this experimental feature.
 
 RESOURCE ID: iris_social_entry_instruction_body
-TEXT: Pokémon gather, play and meet other Trainers at landmarks! Point your camera at the landmark to view and interact with any Pokémon there.
+TEXT: Pokémon can gather, play, and meet other Trainers at landmarks! Point your camera at the landmark to view and interact with any Pokémon there.
 
 RESOURCE ID: iris_social_entry_instruction_title
 TEXT: You found a landmark!
@@ -324,7 +342,7 @@ RESOURCE ID: iris_social_landmark_too_far_body
 TEXT: Walk closer to see the Pokémon.
 
 RESOURCE ID: iris_social_landmark_too_far_header
-TEXT: You are too far from the landmark
+TEXT: You are too far from the landmark.
 
 RESOURCE ID: iris_social_limited_pokemon_key
 TEXT: ขณะนี้ไมมีพื้นที่สำหรับจัดวางโปเกมอนตัวนี้
@@ -336,7 +354,7 @@ RESOURCE ID: iris_social_rotation_error_key
 TEXT: You can only rotate your own Pokémon.
 
 RESOURCE ID: iris_social_temporary_disable_key
-TEXT: This location isn't available right now. Please come back later.
+TEXT: This location isn’t available right now. Please come back later.
 
 RESOURCE ID: item_event_ticket_04_desc_researchdaysept24
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลาพรีเมียม: วันวิจัยยาเรยูตันและนาเกสึเคซารุ 2 ชิ้น ในวันที่ 22 กันยายน 2024 เวลา 14:00-17:00 น. ตามเวลาทองถิ่นทั่วโลก
@@ -363,6 +381,17 @@ TEXT: ตั๋วสำหรับเขารวมงานวิจ�
 
 RESOURCE ID: item_event_ticket_evergreen_details_psychspec24
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลาพรีเมียม: พลังจิตสุดตื่นตา 2024 ในวันที่ 18 กันยายน
+คุณจะสามารถเขารวมไดโดยอัตโนมัติ
+ตามเวลาทองถิ่นทั่วโลก
+
+RESOURCE ID: item_event_ticket_gray_desc_mawileraidday
+TEXT: ตั๋วสำหรับรับโบนัสพิเศษในวันที่
+12 ตุลาคม 2024 เวลา 14:00-22:00 น.
+ตามเวลาทองถิ่นทั่วโลก
+
+RESOURCE ID: item_event_ticket_gray_details_mawileraidday
+TEXT: ตั๋วสำหรับรับโบนัสพิเศษ
+ในวันที่ 12 ตุลาคม
 คุณจะสามารถเขารวมไดโดยอัตโนมัติ
 ตามเวลาทองถิ่นทั่วโลก
 
@@ -435,8 +464,8 @@ RESOURCE ID: legendary_heroes_tr_sword_title_key
 TEXT: เสนทางแหงดาบ
 
 RESOURCE ID: localization_progress_hint_1
-TEXT: Point device towards the landmark
-matching the image below.
+TEXT: Point your camera at the landmark
+and match it to the image below.
 
 RESOURCE ID: localization_progress_hint_2
 TEXT: Walk slowly around the landmark.
@@ -445,10 +474,10 @@ RESOURCE ID: localization_success_hint
 TEXT: You found the landmark!
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-02T23:06:53.280930+00:00 for th-TH
-at SHA 114482d00ef
-Pipeline 2659189, job 32523930
-Patch from: 0.333.0-SHA-4f3cd4da-RC4, 0.335.0-SHA-8799407d-RC1
+TEXT: Built at 2024-10-04T22:33:58.413614+00:00 for th-TH
+at SHA c939c3fb8ad
+Pipeline 2666027, job 32611238
+Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.335.0-SHA-8799407d-RC1
 
 RESOURCE ID: move_name_0406
 TEXT: กงลอออรา
@@ -472,12 +501,42 @@ TEXT: Active
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: คูรูมีรุแยงซีนถายรูปในโกสแนปช็อต 5 ครั้ง
 
+RESOURCE ID: poi_contrib_edit_title_desc_custom
+TEXT: {0} Title
+
+RESOURCE ID: poi_contrib_entry_ar_data_custom
+TEXT: Scan {0}
+
+RESOURCE ID: poi_contrib_entry_header_custom
+TEXT: Contribute to this {0}
+
+RESOURCE ID: poi_contrib_entry_report_invalid_custom
+TEXT: Report {0} Issue
+
+RESOURCE ID: poi_contrib_report_reason_duplicate_custom
+TEXT: Duplicate {0}
+
 RESOURCE ID: pokemon_info_evolve_pokemon_iris_social_deployed
 TEXT: {0}กำลังเลนอยูที่เสาโปเกสต็อป
 
 RESOURCE ID: pokemon_location_card_info_transfer_to_professor_confirmation
 TEXT: คุณแนใจใชไหมวาตองการถายโอน
 โปเกมอนที่มีพื้นหลังที่หายาก?
+
+RESOURCE ID: pokemon_name_bread
+TEXT: Dynamax {0}
+
+RESOURCE ID: pokemon_name_bread_dough
+TEXT: Gigantamax {0}
+
+RESOURCE ID: pokemon_name_bread_dough_short
+TEXT: G-Max {0}
+
+RESOURCE ID: pokemon_name_bread_short
+TEXT: D-Max {0}
+
+RESOURCE ID: pokestop_general
+TEXT: PokéStop
 
 RESOURCE ID: quest_sewaddle_catch_b
 TEXT: จับคูรูมีรุ {0} ตัว
@@ -665,6 +724,13 @@ TEXT: <b>รางวัลที่จะไดรับ:</b>
 - 18,000 XP และ 10,000 สตารดัสต
 - ไอเท็มภายในเกม เชน ไฮเปอรบอล
 ผลไพนสีเงิน และ TM ทาชารจ
+
+RESOURCE ID: text_rewards_key_mawileraidday
+TEXT: <b>โบนัสที่จะไดรับ:</b>
+- บัตรตีบอสเพิ่ม 8 ใบจากการหมุน
+แผนภาพที่ยิม
+- เพิ่มโอกาสไดรับลูกอมประหลาด XL จากตีบอส
+- เพิ่ม XP 50% และ 2× สตารดัสตเมื่อตีบอสเสร็จสิ้น
 
 RESOURCE ID: text_rewards_key_monthlyticketnov24
 TEXT: This ticket grants bonuses, Timed Research awarding 200 bonus PokéCoins, and daily bonus Field Research tasks that award bonus PokéCoins from November 3 to December 2, 2024.
