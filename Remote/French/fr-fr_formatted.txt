@@ -4,14 +4,29 @@ TEXT:
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: Déconnecté
 
-RESOURCE ID: ar_plus_got_it
-TEXT: Got it
+RESOURCE ID: badge_check_ins
+TEXT: Participe à un évènement Ambassadeur de Communauté en personne pendant {0} jours différents.
+
+RESOURCE ID: badge_check_ins_singular
+TEXT: Participe à un évènement Ambassadeur de Communauté en personne pour la première fois.
+
+RESOURCE ID: badge_check_ins_title
+TEXT: Membre de la communauté
 
 RESOURCE ID: badge_party_challenges_completed
 TEXT: Termine {0} Défis d’équipe
 
 RESOURCE ID: badge_party_challenges_completed_title
 TEXT: Travail d’équipe
+
+RESOURCE ID: badge_tag_bonus
+TEXT: Bonus
+
+RESOURCE ID: battle_raids_party_plural
+TEXT: Battle in {0} raids while in a party
+
+RESOURCE ID: battle_raids_party_singular
+TEXT: Battle in a raid while in a party
 
 RESOURCE ID: bonus_candy_xl_candy_nice_great_excel
 TEXT: Davantage de Bonbons et plus de chances de recevoir un Bonbon L pour chaque Pokémon attrapé avec un Joli, Superbe ou Excellent lancer.
@@ -89,7 +104,7 @@ RESOURCE ID: bread_more_mp_to_reach_daily_limit
 TEXT: Tu peux récupérer {0} PM de plus aujourd’hui
 
 RESOURCE ID: bread_notification_empty
-TEXT: {0} has returned from the Power Spot.
+TEXT: {0} returned from the Power Spot.
 
 RESOURCE ID: bread_station_current_battle_defeated
 TEXT: Tu as battu ce Boss de Source d’Énergie
@@ -98,7 +113,7 @@ RESOURCE ID: bread_station_failure_description
 TEXT: Cette Source d’Énergie a atteint sa limite de Pokémon.
 
 RESOURCE ID: bread_station_failure_description_duplicate
-TEXT: You have already stationed a Pokémon at this Power Spot.
+TEXT: You have already placed a Pokémon at this Power Spot.
 
 RESOURCE ID: bread_station_failure_label
 TEXT: Impossible de placer ce Pokémon
@@ -109,11 +124,14 @@ TEXT: Power Spot
 RESOURCE ID: bundle.silk.box.1_title
 TEXT: Boîte Soie
 
+RESOURCE ID: campfire_check_in_reward_notification_toast
+TEXT: Tu as reçu une récompense pour avoir participé à un évènement Ambassadeur de communauté !
+
 RESOURCE ID: community_day_sewaddle_event_name
 TEXT: Journée Communauté : Larveyette
 
 RESOURCE ID: details_link_key_mawileraidday
-TEXT: For more details, visit the <a href=https://pokemongolive.com/post/mega-mawile-raid-day-2024"">website</a>."
+TEXT: Tous les détails sont sur le <a href="https://pokemongolive.com/post/mega-mawile-raid-day-2024">site Web</a>.
 
 RESOURCE ID: event_datetime_range_key_gowa24
 TEXT: Du 23 novembre
@@ -158,6 +176,12 @@ TEXT: Expire dans {0} heures
 
 RESOURCE ID: expires_in_hour_singular
 TEXT: Expire dans une heure
+
+RESOURCE ID: field_research_special_tasks
+TEXT: Special Field Research tasks now available
+
+RESOURCE ID: fr_tag_meetup
+TEXT: Meetup
 
 RESOURCE ID: galarian_expedition_collection_challenge_1
 TEXT: Expédition à Galar : Défi de collection 1
@@ -382,11 +406,56 @@ TEXT: Walk slowly around the landmark.
 RESOURCE ID: localization_success_hint
 TEXT: You found the landmark!
 
+RESOURCE ID: meetup_check_in_battle
+TEXT: Combattre
+
+RESOURCE ID: meetup_check_in_battle_description
+TEXT: Tu souhaites combattre des membres de la Team GO Rocket ou d’autres Dresseurs et Dresseuses ? Choisis cette option pour recevoir une Étude ponctuelle qui t’aidera dans ce sens.
+
+RESOURCE ID: meetup_check_in_bonus
+TEXT: Meetup Check-in Bonus
+
+RESOURCE ID: meetup_check_in_dialogue_00
+TEXT: Quel est ton objectif aujourd’hui ?
+
+RESOURCE ID: meetup_check_in_pokemon
+TEXT: Attraper des Pokémon
+
+RESOURCE ID: meetup_check_in_pokemon_description
+TEXT: Tu prévois d’attraper beaucoup de Pokémon avec d’autres Dresseurs et Dresseuses ? Choisis cette option pour recevoir une Étude ponctuelle qui t’aidera dans ce sens.
+
+RESOURCE ID: meetup_check_in_raid
+TEXT: Participer à des Raids
+
+RESOURCE ID: meetup_check_in_raid_description
+TEXT: Tu veux participer à des Raids avec d’autres Dresseurs et Dresseuses ? Choisis cette option pour recevoir une Étude ponctuelle qui t’aidera dans ce sens.
+
+RESOURCE ID: meetup_check_in_research_title
+TEXT: Étude ponctuelle : Participation à un évènement en personne
+
+RESOURCE ID: meetup_check_in_research_title_00
+TEXT: Étude ponctuelle : Participation à un évènement en personne – Attraper des Pokémon
+
+RESOURCE ID: meetup_check_in_research_title_01
+TEXT: Étude ponctuelle : Participation à un évènement en personne – Participer à des Raids
+
+RESOURCE ID: meetup_check_in_research_title_02
+TEXT: Étude ponctuelle : Participation à un évènement en personne – Combattre
+
+RESOURCE ID: meetup_check_in_research_title_03
+TEXT: Étude ponctuelle : Participation à un évènement en personne – Socialiser
+
+RESOURCE ID: meetup_check_in_social
+TEXT: Socialiser
+
+RESOURCE ID: meetup_check_in_social_description
+TEXT: Tu veux discuter et faire la connaissance d’autres Dresseurs et Dresseuses ? Choisis cette option pour recevoir une Étude ponctuelle qui t’aidera dans ce sens.
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-04T22:33:58.413614+00:00 for fr-FR
-at SHA c939c3fb8ad
-Pipeline 2666027, job 32611238
-Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.335.0-SHA-8799407d-RC1
+TEXT: Built at 2024-10-08T00:15:07.306559+00:00 for fr-FR
+at SHA dd2d162a84
+Pipeline 2670239, job 32659673
+Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.335.0-SHA-9e20713c-RC2
 
 RESOURCE ID: n_hat_gtr2024eeveefanmask_0_display_name
 TEXT: Masque de festival (Évoli)
@@ -396,6 +465,9 @@ TEXT: Masque de festival (Pikachu)
 
 RESOURCE ID: nearby_station_active_header
 TEXT: Active
+
+RESOURCE ID: party_play_field_research_special
+TEXT: Special Party Play Field Research tasks now available
 
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: Larveyette s’introduit 5 fois dans tes Clichés GO
@@ -535,6 +607,9 @@ TEXT: Vert à soie (4/4)
 RESOURCE ID: raid_day_mega_mawile_event_name
 TEXT: Journée de Raids : Méga-Mysdibule
 
+RESOURCE ID: reduced_hatch_party_play
+TEXT: Reduced Hatch Distance while in a Party
+
 RESOURCE ID: research_day_passimian_and_oranguru_event_name
 TEXT: Journée Étude Gouroutan et Quartermac
 
@@ -567,19 +642,31 @@ TEXT: Étude magistrale : Master Ball (4/4)
 
 RESOURCE ID: text_rewards_key_gowa24
 TEXT: <b>Donne accès aux récompenses suivantes :</b>
-• Une rencontre avec Salarsen, le Pokémon Punk, ainsi que des rencontres avec des Pokémon de type Poison ou de type Électrik
-• Les Dresseurs et Dresseuses qui achètent un ticket Terres Sauvages Pokémon GO : Global avant le 22 octobre et jouent à Pokémon GO entre le 15 octobre et le 22 octobre recevront une Étude ponctuelle offrant un accès anticipé à l’objet pour avatar Masque Toxizap.
+• Une rencontre avec Salarsen, le Pokémon Punk
+• Jusqu’à 5 passes de Raid gratuits chaque jour en faisant tourner les PhotoDisques des Arènes
+• Plus de chances de faire éclore Toxizap des Œufs de 10 km
+• Jusqu’à 6 Échanges spéciaux par jour et un coût en Poussières Étoiles réduit pour les Échanges
+• Distance d’éclosion diminuée de moitié
+• 2 fois plus de Bonbons pour chaque Pokémon attrapé
+• Plus de chances de rencontrer des Pokémon chromatiques pendant l’évènement
+• Achète le ticket au plus tard le 22 octobre et joue entre les 15 et 22 octobre pour obtenir une Étude ponctuelle offrant l’objet pour avatar Masque Toxizap
 
-Ce ticket comporte également des bonus qui te permettront de profiter au maximum de ton aventure Terres Sauvages Pokémon GO : Global !
+Obtiens plus d’informations sur les bonus du ticket <a href="pokemongolive.com/gowildarea/global">ici</a>.
 
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext10.1
 TEXT: Un ticket pour accéder à l’évènement Terres Sauvages Pokémon GO : Global, que vous avez reçu en avant-première et gratuitement.
 
 <b>Donne accès aux récompenses suivantes :</b>
-• Une rencontre avec Salarsen, le Pokémon Punk, ainsi que des rencontres avec des Pokémon de type Poison ou de type Électrik
-• Si vous récupérez ce ticket avant le 22 octobre et que vous jouez à Pokémon GO entre le 15 octobre et le 22 octobre, vous recevrez une Étude ponctuelle offrant un accès anticipé à l’objet pour avatar Masque Toxizap.
+• Une rencontre avec Salarsen, le Pokémon Punk
+• Jusqu’à 5 passes de Raid gratuits chaque jour en faisant tourner les PhotoDisques des Arènes
+• Plus de chances de faire éclore Toxizap des Œufs de 10 km
+• Jusqu’à 6 Échanges spéciaux par jour et un coût en Poussières Étoiles réduit pour les Échanges
+• Distance d’éclosion diminuée de moitié
+• 2 fois plus de Bonbons pour chaque Pokémon attrapé
+• Plus de chances de rencontrer des Pokémon chromatiques pendant l’évènementt
+• Achète le ticket au plus tard le 22 octobre et joue entre les 15 et 22 octobre pour obtenir une Étude ponctuelle offrant l’objet pour avatar Masque Toxizap
 
-Ce ticket comporte également des bonus qui te permettront de profiter au maximum de ton aventure Terres Sauvages Pokémon GO : Global !
+Obtiens plus d’informations sur les bonus du ticket <a href="pokemongolive.com/gowildarea/global">ici</a>.
 
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: Un ticket pour l’évènement Terres Sauvages Pokémon GO : Global, que vous avez reçu en avant-première et gratuitement.
@@ -653,6 +740,9 @@ TEXT: <b>Donne accès aux récompenses suivantes :</b>
 
 RESOURCE ID: ticket_sewaddle
 TEXT: Ticket pour l’Étude spéciale Vert à soie disponible dans la Boutique
+
+RESOURCE ID: timed_research_special
+TEXT: Special Timed Research now available
 
 RESOURCE ID: tr_ticket_in_shop
 TEXT: Ticket pour l’Étude ponctuelle premium disponible dans la Boutique

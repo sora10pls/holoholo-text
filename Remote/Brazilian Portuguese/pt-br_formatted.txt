@@ -16,14 +16,29 @@ TEXT:
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: Desconectado
 
-RESOURCE ID: ar_plus_got_it
-TEXT: Got it
+RESOURCE ID: badge_check_ins
+TEXT: Você fez check-in em {0} dias diferentes para um encontro de Embaixadores da Comunidade.
+
+RESOURCE ID: badge_check_ins_singular
+TEXT: Você fez seu primeiro check-in para um encontro de evento de Embaixadores da Comunidade.
+
+RESOURCE ID: badge_check_ins_title
+TEXT: Membro da Comunidade
 
 RESOURCE ID: badge_party_challenges_completed
 TEXT: Complete {0} Desafios de Grupo.
 
 RESOURCE ID: badge_party_challenges_completed_title
 TEXT: Realeza do Grupo
+
+RESOURCE ID: badge_tag_bonus
+TEXT: Bonus
+
+RESOURCE ID: battle_raids_party_plural
+TEXT: Battle in {0} raids while in a party
+
+RESOURCE ID: battle_raids_party_singular
+TEXT: Battle in a raid while in a party
 
 RESOURCE ID: bonus_candy_xl_candy_nice_great_excel
 TEXT: Doces adicionais e maior chance de receber Doces GG por pegar Pokémon com boas, ótimas e excelentes jogadas
@@ -101,7 +116,7 @@ RESOURCE ID: bread_more_mp_to_reach_daily_limit
 TEXT: Você pode coletar mais {0} Partículas Max hoje
 
 RESOURCE ID: bread_notification_empty
-TEXT: {0} has returned from the Power Spot.
+TEXT: {0} returned from the Power Spot.
 
 RESOURCE ID: bread_station_current_battle_defeated
 TEXT: Você derrotou este Chefe de Ponto de Energia
@@ -110,7 +125,7 @@ RESOURCE ID: bread_station_failure_description
 TEXT: Este Ponto de Energia já atingiu o limite de Pokémon.
 
 RESOURCE ID: bread_station_failure_description_duplicate
-TEXT: You have already stationed a Pokémon at this Power Spot.
+TEXT: You have already placed a Pokémon at this Power Spot.
 
 RESOURCE ID: bread_station_failure_label
 TEXT: Não é possível colocar Pokémon
@@ -121,11 +136,14 @@ TEXT: Power Spot
 RESOURCE ID: bundle.silk.box.1_title
 TEXT: Combo de Seda
 
+RESOURCE ID: campfire_check_in_reward_notification_toast
+TEXT: Você recebeu uma recompensa por fazer seu check-in em um evento de Embaixadores da Comunidade!
+
 RESOURCE ID: community_day_sewaddle_event_name
 TEXT: Dia Comunitário: Sewaddle
 
 RESOURCE ID: details_link_key_mawileraidday
-TEXT: For more details, visit the <a href=https://pokemongolive.com/post/mega-mawile-raid-day-2024"">website</a>."
+TEXT: Para mais informações, visite o <a href="https://pokemongolive.com/post/mega-mawile-raid-day-2024">site</a>.
 
 RESOURCE ID: electric_rd_mar24_event_title
 TEXT: Dia de Pesquisa Eletrizante
@@ -192,6 +210,9 @@ TEXT: Expira em {0} horas
 RESOURCE ID: expires_in_hour_singular
 TEXT: Expira em 1 hora
 
+RESOURCE ID: field_research_special_tasks
+TEXT: Special Field Research tasks now available
+
 RESOURCE ID: flock_together_rd_may24_tr_rufflet
 TEXT: Dia de Pesquisa: Revoada de Montão com Rufflet
 
@@ -203,6 +224,9 @@ TEXT: Dia de Pesquisa: Revoada de Montão com Taillow
 
 RESOURCE ID: flock_together_rd_may24_tr_title
 TEXT: Pesquisa temporária do Dia de Pesquisa: Revoada de Montão
+
+RESOURCE ID: fr_tag_meetup
+TEXT: Meetup
 
 RESOURCE ID: galarian_expedition_collection_challenge_1
 TEXT: Desafio de Coleção Expedição de Galar 1
@@ -433,11 +457,56 @@ TEXT: Walk slowly around the landmark.
 RESOURCE ID: localization_success_hint
 TEXT: You found the landmark!
 
+RESOURCE ID: meetup_check_in_battle
+TEXT: Batalhar
+
+RESOURCE ID: meetup_check_in_battle_description
+TEXT: Mal pode esperar para batalhar contra a Equipe GO Rocket ou outros Treinadores? Escolha esta opção para receber uma Pesquisa Temporária que vai lançar você para batalhas.
+
+RESOURCE ID: meetup_check_in_bonus
+TEXT: Meetup Check-in Bonus
+
+RESOURCE ID: meetup_check_in_dialogue_00
+TEXT: O que traz você aqui hoje?
+
+RESOURCE ID: meetup_check_in_pokemon
+TEXT: Pegar Pokémon
+
+RESOURCE ID: meetup_check_in_pokemon_description
+TEXT: Planejando pegar um montão de Pokémon com outros Treinadores? Escolha esta opção para receber uma Pesquisa Temporária que vai te ajudar com isso.
+
+RESOURCE ID: meetup_check_in_raid
+TEXT: Reide
+
+RESOURCE ID: meetup_check_in_raid_description
+TEXT: Quer participar de Reides com outros Treinadores? Escolha esta opção para receber uma Pesquisa Temporária que vai te dar uma força nisso.
+
+RESOURCE ID: meetup_check_in_research_title
+TEXT: Pesquisa Temporária: Participação em Encontro
+
+RESOURCE ID: meetup_check_in_research_title_00
+TEXT: Pesquisa Temporária: Participação em Encontro (Pegar Pokémon)
+
+RESOURCE ID: meetup_check_in_research_title_01
+TEXT: Pesquisa Temporária: Participação em Encontro (Reide)
+
+RESOURCE ID: meetup_check_in_research_title_02
+TEXT: Pesquisa Temporária: Participação em Encontro (Batalhar)
+
+RESOURCE ID: meetup_check_in_research_title_03
+TEXT: Pesquisa Temporária: Participação em Encontro (Socializar)
+
+RESOURCE ID: meetup_check_in_social
+TEXT: Socializar
+
+RESOURCE ID: meetup_check_in_social_description
+TEXT: Quer papear e se divertir com outros Treinadores? Escolha esta opção para receber uma Pesquisa Temporária que vai te ajudar com essa meta.
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-04T22:33:58.413614+00:00 for pt-BR
-at SHA c939c3fb8ad
-Pipeline 2666027, job 32611238
-Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.335.0-SHA-8799407d-RC1
+TEXT: Built at 2024-10-08T00:15:07.306559+00:00 for pt-BR
+at SHA dd2d162a84
+Pipeline 2670239, job 32659673
+Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.335.0-SHA-9e20713c-RC2
 
 RESOURCE ID: n_hat_gtr2024eeveefanmask_0_display_name
 TEXT: Máscara de Festival (Eevee)
@@ -447,6 +516,9 @@ TEXT: Máscara de Festival (Pikachu)
 
 RESOURCE ID: nearby_station_active_header
 TEXT: Active
+
+RESOURCE ID: party_play_field_research_special
+TEXT: Special Party Play Field Research tasks now available
 
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: 5 encontros surpresa com Sewaddle ao usar o Retrato GO
@@ -622,6 +694,9 @@ TEXT: Semana de Aventuras 2019: pegar {0} Omanyte ou Kabuto.
 RESOURCE ID: raid_day_mega_mawile_event_name
 TEXT: Dia de Reides: Mega Mawile
 
+RESOURCE ID: reduced_hatch_party_play
+TEXT: Reduced Hatch Distance while in a Party
+
 RESOURCE ID: research_day_passimian_and_oranguru_event_name
 TEXT: Dia de Pesquisa de Oranguru e Passimian
 
@@ -653,20 +728,32 @@ RESOURCE ID: swsh_masterball_sr_title_3
 TEXT: Pesquisa Magistral: Bola Mestra (4/4)
 
 RESOURCE ID: text_rewards_key_gowa24
-TEXT: <b>As recompensas incluem:</b>
-• Um encontro com Toxtricity, o Pokémon Punk, além de encontros com Pokémon de tipo Elétrico ou Venenoso
-• Os Treinadores que comprarem um ingresso para a Área Selvagem do Pokémon GO: Global até 22 de outubro (e jogarem Pokémon GO entre 15 e 22 de outubro) receberão uma Pesquisa Temporária que concede acesso antecipado ao item de avatar Máscara de Toxel.
+TEXT: <b>Inclui:</b>
+• Um encontro com Toxtricity, o Pokémon Punk
+• Até 5 passes de Reide gratuitos por dia ao girar fotodiscos de Ginásios
+• Mais chances de chocar Toxel de Ovos de 10 km
+• Até 6 Trocas Especiais por dia e custo reduzido de Poeira Estelar para trocas
+• 1/2 da distância para chocar Ovos
+• 2× Doces por pegar Pokémon
+• Uma chance maior de encontrar Pokémon Brilhantes durante o evento
+• Compre até 22 de outubro e jogue entre 15 e 22 de outubro para receber uma Pesquisa Temporária que concede o item de avatar Máscara de Toxel!
 
-Este ingresso também incluirá itens de bônus para ajudar você a aproveitar ao máximo sua aventura na Área Selvagem do Pokémon GO: Global!
+Saiba mais sobre os bônus do ingresso <a href="pokemongolive.com/gowildarea/global">aqui</a>.
 
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext10.1
 TEXT: Um ingresso para a Área Selvagem do Pokémon GO: Global, que foi disponibilizado para você antecipadamente e sem custo.
 
-<b>As recompensas incluem:</b>
-• Um encontro com Toxtricity, o Pokémon Punk, além de encontros com Pokémon de tipo Elétrico ou Venenoso
-• Os Treinadores que comprarem um ingresso para a Área Selvagem do Pokémon GO: Global até 22 de outubro (e jogarem Pokémon GO entre 15 e 22 de outubro) receberão uma Pesquisa Temporária que concede acesso antecipado ao item de avatar Máscara de Toxel.
+<b>Inclui:</b>
+• Um encontro com Toxtricity, o Pokémon Punk
+• Até 5 passes de Reide gratuitos por dia ao girar fotodiscos de Ginásios
+• Mais chances de chocar Toxel de Ovos de 10 km
+• Até 6 Trocas Especiais por dia e custo reduzido de Poeira Estelar para trocas
+• 1/2 da distância para chocar Ovos
+• 2× Doces por pegar Pokémon
+• Uma chance maior de encontrar Pokémon Brilhantes durante o evento
+• Compre até 22 de outubro e jogue entre 15 e 22 de outubro para receber uma Pesquisa Temporária que concede o item de avatar Máscara de Toxel!
 
-Este ingresso também incluirá itens de bônus para ajudar você a aproveitar ao máximo sua aventura na Área Selvagem do Pokémon GO: Global!
+Saiba mais sobre os bônus do ingresso <a href="pokemongolive.com/gowildarea/global">aqui</a>.
 
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: Um ingresso para a Área Selvagem do Pokémon GO: Global, que foi disponibilizado para você antecipadamente e sem custo.
@@ -728,6 +815,9 @@ TEXT: <b>As recompensas incluem:</b>
 
 RESOURCE ID: ticket_sewaddle
 TEXT: O ingresso para a Pesquisa Especial Corte & Costura está disponível na loja
+
+RESOURCE ID: timed_research_special
+TEXT: Special Timed Research now available
 
 RESOURCE ID: today_view_flock_together_rd_may24
 TEXT: O ingresso para a pesquisa temporária do Dia de Pesquisa: Revoada de Montão está disponível na loja

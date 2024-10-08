@@ -1,17 +1,35 @@
+RESOURCE ID: ar_backgrounded_error
+TEXT: 目印の物体がある場所との接続が切れました
+
 RESOURCE ID: ar_backgrounded_error_title
 TEXT: 
 
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: ポケストップスキャン切断
 
-RESOURCE ID: ar_plus_got_it
-TEXT: Got it
+RESOURCE ID: badge_check_ins
+TEXT: コミュニティアンバサダーのミートアップに{0}日チェックインできた！
+
+RESOURCE ID: badge_check_ins_singular
+TEXT: コミュニティアンバサダーのミートアップにチェックインできた！
+
+RESOURCE ID: badge_check_ins_title
+TEXT: コミュニティメンバー
 
 RESOURCE ID: badge_party_challenges_completed
 TEXT: チームチャレンジを{0}回達成できた！
 
 RESOURCE ID: badge_party_challenges_completed_title
 TEXT: チームのかなめ
+
+RESOURCE ID: badge_tag_bonus
+TEXT: Bonus
+
+RESOURCE ID: battle_raids_party_plural
+TEXT: Battle in {0} raids while in a party
+
+RESOURCE ID: battle_raids_party_singular
+TEXT: Battle in a raid while in a party
 
 RESOURCE ID: bonus_candy_xl_candy_nice_great_excel
 TEXT: ナイススロー以上でアメが増えアメXLの確率アップ
@@ -76,8 +94,8 @@ TEXT: すでにポケモンを配置しています
 RESOURCE ID: bread_station_failure_label
 TEXT: ポケモン配置できません
 
-RESOURCE ID: bread_station_general
-TEXT: Power Spot
+RESOURCE ID: campfire_check_in_reward_notification_toast
+TEXT: コミュニティアンバサダーイベントのチェックインリワードを受け取りました！
 
 RESOURCE ID: community_day_sewaddle_event_name
 TEXT: コミュニティ・デイ：クルミル
@@ -125,6 +143,12 @@ TEXT: {0}時間後終了
 RESOURCE ID: expires_in_hour_singular
 TEXT: あと1時間で終了
 
+RESOURCE ID: field_research_special_tasks
+TEXT: Special Field Research tasks now available
+
+RESOURCE ID: fr_tag_meetup
+TEXT: Meetup
+
 RESOURCE ID: galarian_expedition_collection_challenge_1
 TEXT: ガラル探検コレクションチャレンジ1
 
@@ -159,31 +183,30 @@ RESOURCE ID: general1.ticket_sewaddlecd24_title
 TEXT: クルミルコミュニティ・デイチケット
 
 RESOURCE ID: gym_general
-TEXT: Gym
+TEXT: ジム
 
 RESOURCE ID: hint_desc_loc_network_err_body_key
-TEXT: Point your camera at the location and match
-it to the hint image as you walk around it
-slowly to capture multiple angles.
+TEXT: ヒントと同じ画像になるようカメラを向けます。
+そのまま周りをゆっくり歩いて複数の角度からスキャンしてください。
 
 RESOURCE ID: hint_desc_loc_network_err_title_key
-TEXT: Something went wrong...
+TEXT: 問題が発生しました...
 
 RESOURCE ID: hint_desc_loc_not_ready_body_key
-TEXT: Point your camera at the landmark and match it to the hint image as you walk around it slowly to capture multiple angles.
+TEXT: ヒントと同じ画像になるようカメラを向けます。そのまま周りをゆっくり歩いて複数の角度からスキャンしてください。
 
 RESOURCE ID: hint_desc_loc_not_ready_title_key
-TEXT: Something went wrong...
+TEXT: 問題が発生しました...
 
 RESOURCE ID: hint_desc_loc_ready_title_key
-TEXT: Point your camera at the landmark in this image!
+TEXT: この画像にある目印の物体にカメラを向けてください。
 
 RESOURCE ID: hint_desc_loc_retry_button_key
-TEXT: Try again
+TEXT: やり直す
 
 RESOURCE ID: hint_desc_ready_title_key
-TEXT: Find the landmark.
-It’s nearby!
+TEXT: この目印を探しましょう
+すぐ近くです！
 
 RESOURCE ID: home_transfer_error_gym_deployed
 TEXT: ジム・パワースポットにいるポケモンを送ることはできません
@@ -198,49 +221,49 @@ RESOURCE ID: incense_spawns_attract
 TEXT: フィーチャーポケモンがおこうに反応
 
 RESOURCE ID: iris_social_confirm_exit_modal_body
-TEXT: Pokémon will stay and play for a little while until they get tired and return, but you can call them back earlier.
+TEXT: ポケモンは遊び疲れるまでこの場所にとどまりますが、いつでも呼び戻すことができます。
 
 RESOURCE ID: iris_social_confirm_exit_modal_title
-TEXT: Are you sure you want to leave?
+TEXT: 本当に退出してもいいですか？
 
 RESOURCE ID: iris_social_diagnostic_okay_button
-TEXT: Submit Report
+TEXT: 報告を送信
 
 RESOURCE ID: iris_social_diagnostic_title
-TEXT: This feature is under development!
+TEXT: 開発中の機能
 
 RESOURCE ID: iris_social_diagnostics_option_five
-TEXT: This location is unsuitable for AR
+TEXT: ARには適さない場所
 
 RESOURCE ID: iris_social_diagnostics_option_four
-TEXT: I’m looking at the landmark and nothing is happening
+TEXT: ランドマーク（目印の物体）を見ているが何も起こらない
 
 RESOURCE ID: iris_social_diagnostics_option_one
-TEXT: I can’t find the landmark in the image
+TEXT: 画像に表示されたランドマーク（目印の物体）がわからない
 
 RESOURCE ID: iris_social_diagnostics_option_three
-TEXT: I don’t know where to point my camera
+TEXT: カメラをどこに向ければいいかわからない
 
 RESOURCE ID: iris_social_diagnostics_option_two
-TEXT: Hint image is unclear
+TEXT: ヒント画像が明瞭でない
 
 RESOURCE ID: iris_social_diagnostics_subtitle
-TEXT: Please report any issues or feedback you have using this experimental feature.
+TEXT: この機能を使ってみて問題が発生したり感想がある場合はご報告ください。
 
 RESOURCE ID: iris_social_entry_instruction_body
-TEXT: Pokémon can gather, play, and meet other Trainers at landmarks! Point your camera at the landmark to view and interact with any Pokémon there.
+TEXT: ランドマークでは、ポケモンが集まって遊んだり他のポケモントレーナーに出会ったりします。ポケモンがいるランドマークでは、カメラを目印の物体に向けるとポケモンが見られます！
 
 RESOURCE ID: iris_social_entry_instruction_title
-TEXT: You found a landmark!
+TEXT: ランドマーク（目印の物体）を見つけました！
 
 RESOURCE ID: iris_social_info_screen_playtime_stat_label
 TEXT: 残りの遊び時間
 
 RESOURCE ID: iris_social_landmark_too_far_body
-TEXT: Walk closer to see the Pokémon.
+TEXT: ポケモンを見るにはもっと近づいてください
 
 RESOURCE ID: iris_social_landmark_too_far_header
-TEXT: You are too far from the landmark.
+TEXT: 目印から離れすぎています
 
 RESOURCE ID: iris_social_limited_pokemon_key
 TEXT: このポケモンを置ける十分な場所がありません
@@ -249,10 +272,10 @@ RESOURCE ID: iris_social_limited_pokemon_key_temp
 TEXT: 今はポケモンを置く場所がありません
 
 RESOURCE ID: iris_social_rotation_error_key
-TEXT: You can only rotate your own Pokémon.
+TEXT: 気を引くことができるのは自分のポケモンだけです
 
 RESOURCE ID: iris_social_temporary_disable_key
-TEXT: This location isn’t available right now. Please come back later.
+TEXT: この場所での活動は行われていません。しばらくしてから再度お試しください。
 
 RESOURCE ID: item_event_ticket_04_desc_researchdaysept24
 TEXT: 現地時間2024年9月22日2:00PM～5:00PMにヤレユータンとナゲツケサルリサーチデイ用に2つのプレミアムタイムチャレンジを行うためのチケット。
@@ -339,20 +362,69 @@ RESOURCE ID: legendary_heroes_tr_sword_title_key
 TEXT: ソードの道
 
 RESOURCE ID: localization_progress_hint_1
-TEXT: Point your camera at the landmark
-and match it to the image below.
+TEXT: 目印となる物体にカメラを向け
+円内の画像のように表示させる
 
 RESOURCE ID: localization_progress_hint_2
-TEXT: Walk slowly around the landmark.
+TEXT: 目印の周りをゆっくり歩いてください
 
 RESOURCE ID: localization_success_hint
-TEXT: You found the landmark!
+TEXT: ランドマークを見つけました！
+
+RESOURCE ID: location_space_limit_message
+TEXT: 現在そのポケモンを置くのに
+十分なスペースがありません
+
+RESOURCE ID: meetup_check_in_battle
+TEXT: バトル
+
+RESOURCE ID: meetup_check_in_battle_description
+TEXT: GOロケット団やトレーナーたちを相手にバトルするチャレンジを受け取れます。
+
+RESOURCE ID: meetup_check_in_bonus
+TEXT: Meetup Check-in Bonus
+
+RESOURCE ID: meetup_check_in_dialogue_00
+TEXT: 今日は何に挑戦しようか？
+
+RESOURCE ID: meetup_check_in_pokemon
+TEXT: ポケモンを捕まえる
+
+RESOURCE ID: meetup_check_in_pokemon_description
+TEXT: トレーナー仲間と一緒にたくさんポケモンを捕まえるチャレンジを受け取れます。
+
+RESOURCE ID: meetup_check_in_raid
+TEXT: レイド
+
+RESOURCE ID: meetup_check_in_raid_description
+TEXT: トレーナー仲間と一緒にレイドに参加するチャレンジを受け取れます。
+
+RESOURCE ID: meetup_check_in_research_title
+TEXT: ミートアップチェックインタイムチャレンジ
+
+RESOURCE ID: meetup_check_in_research_title_00
+TEXT: ミートアップチェックインタイムチャレンジ：ポケモンを捕まえる
+
+RESOURCE ID: meetup_check_in_research_title_01
+TEXT: ミートアップチェックインタイムチャレンジ：レイド
+
+RESOURCE ID: meetup_check_in_research_title_02
+TEXT: ミートアップチェックインタイムチャレンジ：バトル
+
+RESOURCE ID: meetup_check_in_research_title_03
+TEXT: ミートアップチェックインタイムチャレンジ：交流
+
+RESOURCE ID: meetup_check_in_social
+TEXT: 交流
+
+RESOURCE ID: meetup_check_in_social_description
+TEXT: トレーナー仲間との交流を楽しみながら行うチャレンジを受け取れます。
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-04T22:33:58.413614+00:00 for ja-JP
-at SHA c939c3fb8ad
-Pipeline 2666027, job 32611238
-Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.335.0-SHA-8799407d-RC1
+TEXT: Built at 2024-10-08T00:15:07.306559+00:00 for ja-JP
+at SHA dd2d162a84
+Pipeline 2670239, job 32659673
+Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.335.0-SHA-9e20713c-RC2
 
 RESOURCE ID: mp_replenish.3_title
 TEXT: マックス粒子パック
@@ -361,6 +433,15 @@ x3 ({0}MP)
 RESOURCE ID: nearby_station_active_header
 TEXT: アクティブなパワースポット
 
+RESOURCE ID: no_pokemon_found_body
+TEXT: 自分のポケモンを置きますか？
+
+RESOURCE ID: no_pokemon_found_header
+TEXT: ここにまだポケモンを置いていません！
+
+RESOURCE ID: party_play_field_research_special
+TEXT: Special Party Play Field Research tasks now available
+
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: GOスナップショットでクルミルのサプライズ5回
 
@@ -368,19 +449,19 @@ RESOURCE ID: photobomb_five_squirtle
 TEXT: GOスナップショットでゼニガメのサプライズ5回
 
 RESOURCE ID: poi_contrib_edit_title_desc_custom
-TEXT: {0} Title
+TEXT: {0}名
 
 RESOURCE ID: poi_contrib_entry_ar_data_custom
-TEXT: Scan {0}
+TEXT: {0}をスキャンする
 
 RESOURCE ID: poi_contrib_entry_header_custom
-TEXT: Contribute to this {0}
+TEXT: この{0}に投稿
 
 RESOURCE ID: poi_contrib_entry_report_invalid_custom
-TEXT: Report {0} Issue
+TEXT: {0}の問題を報告
 
 RESOURCE ID: poi_contrib_report_reason_duplicate_custom
-TEXT: Duplicate {0}
+TEXT: 重複{0}
 
 RESOURCE ID: pokemon_info_evolve_pokemon_deployed
 TEXT: {0}はジム・パワースポットにいます
@@ -404,7 +485,7 @@ RESOURCE ID: pokemon_name_bread_short
 TEXT: D-Max{0}
 
 RESOURCE ID: pokestop_general
-TEXT: PokéStop
+TEXT: ポケストップ
 
 RESOURCE ID: quest_party_challenge_plural
 TEXT: チームチャレンジを{0}回達成する
@@ -517,6 +598,9 @@ TEXT: チームチャレンジ：{0}を達成した！
 RESOURCE ID: raid_day_mega_mawile_event_name
 TEXT: レイド・デイ：メガクチート
 
+RESOURCE ID: reduced_hatch_party_play
+TEXT: Reduced Hatch Distance while in a Party
+
 RESOURCE ID: research_day_passimian_and_oranguru_event_name
 TEXT: ヤレユータンとナゲツケサルのリサーチデイ
 
@@ -557,7 +641,7 @@ TEXT: <b>もらえるもの：</b>
 ・ポケモンを捕まえてもらえるアメ2倍
 ・期間中の色違いポケモンに出会える可能性増
 ・10月22日までに購入し10月15日～22日にプレイするとアバターアイテムのエレズンマスクがもらえるタイムチャレンジを受け取れます。
-適用ボーナスについての詳細は<a href=“pokemongolive.com/gowildarea/global”>こちら</a>でご確認ください。
+適用ボーナスについての詳細は<a href="pokemongolive.com/gowildarea/global">こちら</a>でご確認ください。
 
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext10.1
 TEXT: 先行配布の無料PokémonGOワイルドエリア：グローバルチケット。
@@ -630,8 +714,17 @@ TEXT: <b>もらえるもの：</b>
 RESOURCE ID: ticket_sewaddle
 TEXT: クルミルコミュニティ・デイスペシャルリサーチ「さいほうポケモンを解明せよ！」チケットがショップに登場
 
+RESOURCE ID: timed_research_special
+TEXT: Special Timed Research now available
+
 RESOURCE ID: tr_ticket_in_shop
 TEXT: プレミアムタイムチャレンジのチケットがショップに登場
+
+RESOURCE ID: vps_guardian_oob_toast
+TEXT: プレイエリア外です。ポケモンを置くためにもっと近づいてください。
+
+RESOURCE ID: vps_localization_instruction_body
+TEXT: この画像にある目印の物体にカメラを向けてください。
 
 RESOURCE ID: vps_localization_landscape_error
 TEXT: 画面を縦にしてください

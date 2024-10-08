@@ -4,14 +4,29 @@ TEXT:
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: การเชื่อมตอถูกยกเลิก
 
-RESOURCE ID: ar_plus_got_it
-TEXT: Got it
+RESOURCE ID: badge_check_ins
+TEXT: เช็กอินเขารวมงานพบปะผูนำชุมชน {0} วัน
+
+RESOURCE ID: badge_check_ins_singular
+TEXT: เช็กอินเขารวมงานพบปะผูนำชุมชนเปนครั้งแรก
+
+RESOURCE ID: badge_check_ins_title
+TEXT: สมาชิกชุมชน
 
 RESOURCE ID: badge_party_challenges_completed
 TEXT: บรรลุคำทาปารตี้ {0} ครั้ง
 
 RESOURCE ID: badge_party_challenges_completed_title
 TEXT: เสาหลักของปารตี้
+
+RESOURCE ID: badge_tag_bonus
+TEXT: Bonus
+
+RESOURCE ID: battle_raids_party_plural
+TEXT: Battle in {0} raids while in a party
+
+RESOURCE ID: battle_raids_party_singular
+TEXT: Battle in a raid while in a party
 
 RESOURCE ID: bonus_candy_xl_candy_nice_great_excel
 TEXT: รับลูกอมเพิ่มเติม และเพิ่มโอกาสรับลูกอม XL จากการจับเมื่อขวางไดดี เยี่ยม และสุดยอด
@@ -111,7 +126,7 @@ TEXT: ตองการอีก {0} อนุภาคแมกซ
 ในการเขารวมแบตเทิลนี้
 
 RESOURCE ID: bread_notification_empty
-TEXT: {0} has returned from the Power Spot.
+TEXT: {0} returned from the Power Spot.
 
 RESOURCE ID: bread_release_subtitle
 TEXT: เมื่อเรียกกลับมา
@@ -125,7 +140,7 @@ RESOURCE ID: bread_station_failure_description
 TEXT: จำนวนโปเกมอนที่สามารถวางที่พาวเวอรสปอตนี้ไดถึงขีดจำกัดแลว
 
 RESOURCE ID: bread_station_failure_description_duplicate
-TEXT: You have already stationed a Pokémon at this Power Spot.
+TEXT: You have already placed a Pokémon at this Power Spot.
 
 RESOURCE ID: bread_station_failure_label
 TEXT: ไมสามารถวางโปเกมอนได
@@ -167,6 +182,9 @@ TEXT: ทาแมกซนี้จะลดปริมาณ
 
 RESOURCE ID: bundle.silk.box.1_title
 TEXT: กลองผาไหม
+
+RESOURCE ID: campfire_check_in_reward_notification_toast
+TEXT: คุณไดรับรางวัลจากการเช็กอินเขารวมอีเวนตผูนำชุมชน!
 
 RESOURCE ID: community_day_sewaddle_event_name
 TEXT: คอมมิวนิตี้เดย: คูรูมีรุ
@@ -217,6 +235,12 @@ TEXT: หมดอายุใน {0} ชั่วโมง
 
 RESOURCE ID: expires_in_hour_singular
 TEXT: หมดอายุใน 1 ชั่วโมง
+
+RESOURCE ID: field_research_special_tasks
+TEXT: Special Field Research tasks now available
+
+RESOURCE ID: fr_tag_meetup
+TEXT: Meetup
 
 RESOURCE ID: galarian_expedition_collection_challenge_1
 TEXT: คำทานักสะสมสำรวจกาลาร 1
@@ -473,11 +497,56 @@ TEXT: Walk slowly around the landmark.
 RESOURCE ID: localization_success_hint
 TEXT: You found the landmark!
 
+RESOURCE ID: meetup_check_in_battle
+TEXT: แบตเทิล
+
+RESOURCE ID: meetup_check_in_battle_description
+TEXT: เลือกขอนี้เพื่อรับงานวิจัยแบบจำกัดเวลาเกี่ยวกับการแบตเทิลแกงโกร็อกเกตหรือเทรนเนอรคนอื่น ๆ
+
+RESOURCE ID: meetup_check_in_bonus
+TEXT: Meetup Check-in Bonus
+
+RESOURCE ID: meetup_check_in_dialogue_00
+TEXT: วันนี้ตองการทาทายอะไรละ?
+
+RESOURCE ID: meetup_check_in_pokemon
+TEXT: จับโปเกมอน
+
+RESOURCE ID: meetup_check_in_pokemon_description
+TEXT: เลือกขอนี้เพื่อรับงานวิจัยแบบจำกัดเวลาเกี่ยวกับการจับโปเกมอนกับเทรนเนอรคนอื่น ๆ
+
+RESOURCE ID: meetup_check_in_raid
+TEXT: ตีบอส
+
+RESOURCE ID: meetup_check_in_raid_description
+TEXT: เลือกขอนี้เพื่อรับงานวิจัยแบบจำกัดเวลาเกี่ยวกับการตีบอสกับเทรนเนอรคนอื่น ๆ
+
+RESOURCE ID: meetup_check_in_research_title
+TEXT: งานวิจัยแบบจำกัดเวลาเช็กอินงานพบปะ
+
+RESOURCE ID: meetup_check_in_research_title_00
+TEXT: งานวิจัยแบบจำกัดเวลาเช็กอินงานพบปะ: จับโปเกมอน
+
+RESOURCE ID: meetup_check_in_research_title_01
+TEXT: งานวิจัยแบบจำกัดเวลาเช็กอินงานพบปะ: ตีบอส
+
+RESOURCE ID: meetup_check_in_research_title_02
+TEXT: งานวิจัยแบบจำกัดเวลาเช็กอินงานพบปะ: แบตเทิล
+
+RESOURCE ID: meetup_check_in_research_title_03
+TEXT: งานวิจัยแบบจำกัดเวลาเช็กอินงานพบปะ: เขาสังคม
+
+RESOURCE ID: meetup_check_in_social
+TEXT: เขาสังคม
+
+RESOURCE ID: meetup_check_in_social_description
+TEXT: เลือกขอนี้เพื่อรับงานวิจัยแบบจำกัดเวลาเกี่ยวกับการสังสรรคกับเทรนเนอรคนอื่น ๆ
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-04T22:33:58.413614+00:00 for th-TH
-at SHA c939c3fb8ad
-Pipeline 2666027, job 32611238
-Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.335.0-SHA-8799407d-RC1
+TEXT: Built at 2024-10-08T00:15:07.306559+00:00 for th-TH
+at SHA dd2d162a84
+Pipeline 2670239, job 32659673
+Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.335.0-SHA-9e20713c-RC2
 
 RESOURCE ID: move_name_0406
 TEXT: กงลอออรา
@@ -497,6 +566,9 @@ TEXT: หนากากเทศกาล (พิคาชู)
 
 RESOURCE ID: nearby_station_active_header
 TEXT: Active
+
+RESOURCE ID: party_play_field_research_special
+TEXT: Special Party Play Field Research tasks now available
 
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: คูรูมีรุแยงซีนถายรูปในโกสแนปช็อต 5 ครั้ง
@@ -668,6 +740,9 @@ TEXT: เย็บสิบปกรอย (4/4)
 RESOURCE ID: raid_day_mega_mawile_event_name
 TEXT: วันตีบอส: เมกาคูชีท
 
+RESOURCE ID: reduced_hatch_party_play
+TEXT: Reduced Hatch Distance while in a Party
+
 RESOURCE ID: research_day_passimian_and_oranguru_event_name
 TEXT: วันวิจัยยาเรยูตันและนาเกสึเคซารุ
 
@@ -699,20 +774,32 @@ RESOURCE ID: swsh_masterball_sr_title_3
 TEXT: งานวิจัยระยะยาว: มาสเตอรบอล (4/4)
 
 RESOURCE ID: text_rewards_key_gowa24
-TEXT: <b>รางวัลที่จะไดรับ:<b>
-- การเผชิญหนากับโปเกมอนพังก "สตรินเดอร" รวมถึงโปเกมอนประเภทไฟฟาหรือโปเกมอนประเภทพิษ
-- เทรนเนอรที่ซื้อตั๋ว "Pokémon GO ไวลดแอเรีย: ทั่วโลก" ภายในวันที่ 22 ตุลาคม และเลน Pokémon GO ในระหวางวันที่ 15-22 ตุลาคม จะไดรับงานวิจัยแบบจำกัดเวลาที่มีไอเท็มอวาตาร "หนากากเอเลซัน" เปนรางวัลแบบลวงหนา
+TEXT: <b>สิ่งที่จะไดรับ:<b>
+- การเผชิญหนากับโปเกมอนพังก "สตรินเดอร"
+- บัตรตีบอสฟรีสูงสุด 5 ใบในแตละวัน โดยการหมุนแผนภาพที่ยิม
+- เพิ่มโอกาสที่เอเลซันจะฟกออกมาจากไข 10 กม.
+- แลกเปลี่ยนแบบพิเศษไดสูงสุด 6 ครั้งตอวัน และลดปริมาณสตารดัสตที่ใชสำหรับแลกเปลี่ยน
+- 1/2 ระยะทางฟกไข
+- 2× ลูกอมจากการจับโปเกมอน
+- โอกาสในการเผชิญหนากับโปเกมอนสีแตกตางจะเพิ่มขึ้นในระหวางอีเวนต
+- ซื้อตั๋วภายในวันที่ 22 ตุลาคม และเลนในระหวางวันที่ 15-22 ตุลาคม เพื่อรับงานวิจัยแบบจำกัดเวลาที่มีไอเท็มอวาตาร "หนากากเอเลซัน" เปนรางวัล
 
-ตั๋วนี้ยังรวมโบนัสที่จะชวยใหคุณไดรับประสบการณจากการผจญภัยใน "GO ไวลดแอเรีย: ทั่วโลก" อยางเต็มที่
+เรียนรูเพิ่มเติมเกี่ยวกับโบนัสตั๋วได<a href="pokemongolive.com/gowildarea/global">ที่นี่</a>
 
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext10.1
 TEXT: ตั๋วสำหรับเขารวม "Pokémon GO ไวลดแอเรีย: ทั่วโลก" ที่ไดจัดเตรียมไวใหคุณลวงหนาโดยไมมีคาใชจาย
 
-<b>รางวัลที่จะไดรับ:<b>
-- การเผชิญหนากับโปเกมอนพังก "สตรินเดอร" รวมถึงโปเกมอนประเภทไฟฟาหรือโปเกมอนประเภทพิษ
-- เทรนเนอรที่ซื้อตั๋ว "Pokémon GO ไวลดแอเรีย: ทั่วโลก" ภายในวันที่ 22 ตุลาคม และเลน Pokémon GO ในระหวางวันที่ 15-22 ตุลาคม จะไดรับงานวิจัยแบบจำกัดเวลาที่มีไอเท็มอวาตาร "หนากากเอเลซัน" เปนรางวัลแบบลวงหนา
+<b>สิ่งที่จะไดรับ:<b>
+- การเผชิญหนากับโปเกมอนพังก "สตรินเดอร"
+- บัตรตีบอสฟรีสูงสุด 5 ใบในแตละวัน โดยการหมุนแผนภาพที่ยิม
+- เพิ่มโอกาสที่เอเลซันจะฟกออกมาจากไข 10 กม.
+- แลกเปลี่ยนแบบพิเศษไดสูงสุด 6 ครั้งตอวัน และลดปริมาณสตารดัสตที่ใชสำหรับแลกเปลี่ยน
+- 1/2 ระยะทางฟกไข
+- 2× ลูกอมจากการจับโปเกมอน
+- โอกาสในการเผชิญหนากับโปเกมอนสีแตกตางจะเพิ่มขึ้นในระหวางอีเวนต
+- ซื้อตั๋วภายในวันที่ 22 ตุลาคม และเลนในระหวางวันที่ 15-22 ตุลาคม เพื่อรับงานวิจัยแบบจำกัดเวลาที่มีไอเท็มอวาตาร "หนากากเอเลซัน" เปนรางวัล
 
-ตั๋วนี้ยังรวมโบนัสที่จะชวยใหคุณไดรับประสบการณจากการผจญภัยใน "GO ไวลดแอเรีย: ทั่วโลก" อยางเต็มที่
+เรียนรูเพิ่มเติมเกี่ยวกับโบนัสตั๋วได<a href="pokemongolive.com/gowildarea/global">ที่นี่</a>
 
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: ตั๋วสำหรับเขารวม "Pokémon GO ไวลดแอเรีย: ทั่วโลก" ที่ไดจัดเตรียมไวใหคุณลวงหนาโดยไมมีคาใชจาย
@@ -780,6 +867,9 @@ TEXT: <b>รางวัลที่จะไดรับ:</b>
 
 RESOURCE ID: ticket_sewaddle
 TEXT: สามารถซื้อตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษ "เย็บสิบปกรอย" ไดที่รานคา
+
+RESOURCE ID: timed_research_special
+TEXT: Special Timed Research now available
 
 RESOURCE ID: tr_ticket_in_shop
 TEXT: สามารถซื้อตั๋วสำหรับงานวิจัยแบบจำกัดเวลาพรีเมียมไดที่รานคา

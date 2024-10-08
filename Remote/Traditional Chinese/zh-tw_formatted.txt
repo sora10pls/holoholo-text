@@ -4,14 +4,29 @@ TEXT:
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: 已停止掃描寶可補給站
 
-RESOURCE ID: ar_plus_got_it
-TEXT: Got it
+RESOURCE ID: badge_check_ins
+TEXT: 成功在社群大使見面會簽到{0}天了！
+
+RESOURCE ID: badge_check_ins_singular
+TEXT: 成功在社群大使見面會簽到了！
+
+RESOURCE ID: badge_check_ins_title
+TEXT: 社群成員
 
 RESOURCE ID: badge_party_challenges_completed
 TEXT: 完成{0}個小隊挑戰了！
 
 RESOURCE ID: badge_party_challenges_completed_title
 TEXT: 小隊支柱
+
+RESOURCE ID: badge_tag_bonus
+TEXT: Bonus
+
+RESOURCE ID: battle_raids_party_plural
+TEXT: Battle in {0} raids while in a party
+
+RESOURCE ID: battle_raids_party_singular
+TEXT: Battle in a raid while in a party
 
 RESOURCE ID: bonus_candy_xl_candy_nice_great_excel
 TEXT: 以Nice/Great/Excellent捉到寶可夢時可獲得更多糖果，且獲得糖果XL的機率會提高
@@ -95,7 +110,7 @@ RESOURCE ID: bread_more_mp_to_reach_daily_limit
 TEXT: 今天還可收集{0}MP
 
 RESOURCE ID: bread_notification_empty
-TEXT: {0} has returned from the Power Spot.
+TEXT: {0} returned from the Power Spot.
 
 RESOURCE ID: bread_station_current_battle_defeated
 TEXT: 打倒這裡的能量點頭目了
@@ -104,7 +119,7 @@ RESOURCE ID: bread_station_failure_description
 TEXT: 可指派的寶可夢已達上限，無法指派寶可夢。
 
 RESOURCE ID: bread_station_failure_description_duplicate
-TEXT: You have already stationed a Pokémon at this Power Spot.
+TEXT: You have already placed a Pokémon at this Power Spot.
 
 RESOURCE ID: bread_station_failure_label
 TEXT: 無法指派寶可夢
@@ -114,6 +129,9 @@ TEXT: Power Spot
 
 RESOURCE ID: bundle.silk.box.1_title
 TEXT: 絲質禮盒
+
+RESOURCE ID: campfire_check_in_reward_notification_toast
+TEXT: 收到社群大使活動的簽到獎勵了！
 
 RESOURCE ID: community_day_sewaddle_event_name
 TEXT: 社群日：蟲寶包
@@ -167,6 +185,12 @@ TEXT: 距離結束還剩1小時
 
 RESOURCE ID: external_reward_text
 TEXT: 追加{0}寶可幣
+
+RESOURCE ID: field_research_special_tasks
+TEXT: Special Field Research tasks now available
+
+RESOURCE ID: fr_tag_meetup
+TEXT: Meetup
 
 RESOURCE ID: galarian_expedition_collection_challenge_1
 TEXT: 伽勒爾探險收藏家挑戰1
@@ -400,11 +424,56 @@ TEXT: Walk slowly around the landmark.
 RESOURCE ID: localization_success_hint
 TEXT: You found the landmark!
 
+RESOURCE ID: meetup_check_in_battle
+TEXT: 對戰
+
+RESOURCE ID: meetup_check_in_battle_description
+TEXT: 這個分歧可以獲得和GO火箭隊或其他訓練家對戰的限時調查。
+
+RESOURCE ID: meetup_check_in_bonus
+TEXT: Meetup Check-in Bonus
+
+RESOURCE ID: meetup_check_in_dialogue_00
+TEXT: 今天要挑戰什麼呢？
+
+RESOURCE ID: meetup_check_in_pokemon
+TEXT: 捕捉寶可夢
+
+RESOURCE ID: meetup_check_in_pokemon_description
+TEXT: 這個分歧可以獲得和訓練家夥伴一起捕捉許多寶可夢的限時調查。
+
+RESOURCE ID: meetup_check_in_raid
+TEXT: 團體戰
+
+RESOURCE ID: meetup_check_in_raid_description
+TEXT: 這個分歧可以獲得和訓練家夥伴一起參加團體戰的限時調查。
+
+RESOURCE ID: meetup_check_in_research_title
+TEXT: 見面會簽到限時調查
+
+RESOURCE ID: meetup_check_in_research_title_00
+TEXT: 見面會簽到限時調查：捕捉寶可夢
+
+RESOURCE ID: meetup_check_in_research_title_01
+TEXT: 見面會簽到限時調查：團體戰
+
+RESOURCE ID: meetup_check_in_research_title_02
+TEXT: 見面會簽到限時調查：對戰
+
+RESOURCE ID: meetup_check_in_research_title_03
+TEXT: 見面會簽到限時調查：交流
+
+RESOURCE ID: meetup_check_in_social
+TEXT: 交流
+
+RESOURCE ID: meetup_check_in_social_description
+TEXT: 這個分歧可以獲得能一面享受和訓練家夥伴的交流一面進行的限時調查。
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-04T22:33:58.413614+00:00 for zh-TW
-at SHA c939c3fb8ad
-Pipeline 2666027, job 32611238
-Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.335.0-SHA-8799407d-RC1
+TEXT: Built at 2024-10-08T00:15:07.306559+00:00 for zh-TW
+at SHA dd2d162a84
+Pipeline 2670239, job 32659673
+Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.335.0-SHA-9e20713c-RC2
 
 RESOURCE ID: move_name_0406
 TEXT: 氣場輪
@@ -417,6 +486,9 @@ TEXT: 皮卡丘面具
 
 RESOURCE ID: nearby_station_active_header
 TEXT: Active
+
+RESOURCE ID: party_play_field_research_special
+TEXT: Special Party Play Field Research tasks now available
 
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: 蟲寶包將在GO Snapshot中驚喜現身5次
@@ -580,6 +652,9 @@ TEXT: 解開裁縫寶可夢之謎！(4/4)
 RESOURCE ID: raid_day_mega_mawile_event_name
 TEXT: 團體戰日：超級大嘴娃
 
+RESOURCE ID: reduced_hatch_party_play
+TEXT: Reduced Hatch Distance while in a Party
+
 RESOURCE ID: research_day_passimian_and_oranguru_event_name
 TEXT: 智揮猩和投擲猴研究日
 
@@ -618,19 +693,29 @@ TEXT: 長期調查：大師球(4/4)
 
 RESOURCE ID: text_rewards_key_gowa24
 TEXT: <b>可獲得的獎勵：</b>
-與顫弦蠑螈及電屬性或毒屬性的寶可夢相遇
-・10月22日前購買Pokémon GO 曠野地帶：全球入場券並於10月15日～22日遊玩，即可參與能獲得換裝道具「毒電嬰口罩」（率先登場）的限時調查。
-
-這張入場券包含能將「GO曠野地帶：全球」的冒險享受到極致的各種獎勵。
+・與顫弦蠑螈相遇
+・每天可透過旋轉道館轉盤獲得最多5張免費團體戰入場券
+・從10公里蛋中孵出毒電嬰的機率提高
+・每天最多可進行6次特殊交換且所需的星星沙子減少
+・孵蛋距離減半
+・捕捉寶可夢時糖果加倍
+・在活動期間內與異色寶可夢相遇的機率提升
+・10月22日前購買「Pokémon GO 曠野地帶：全球」入場券並於10月15日～22日遊玩，即可參與能獲得換裝道具「毒電嬰口罩」（率先登場）的限時調查。
+關於這張入場券的獎勵詳情，請參照<a href=“pokemongolive.com/gowildarea/global”>此處</a>。
 
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext10.1
-TEXT: Pokémon GO 曠野地帶：全球入場券（率先免費登場）
+TEXT: Pokémon GO 曠野地帶：全球入場券（率先免費登場）。
 
 <b>可獲得的獎勵：</b>
-與顫弦蠑螈及電屬性或毒屬性的寶可夢相遇
-・10月22日前購買Pokémon GO曠野地帶：全球入場券並於10月15日～22日遊玩，即可參與能獲得換裝道具「毒電嬰口罩」（率先登場）的限時調查。
-
-這張入場券包含能將「GO曠野地帶：全球」的冒險享受到極致的各種獎勵。
+・與顫弦蠑螈相遇
+・每天可透過旋轉道館轉盤獲得最多5張免費團體戰入場券
+・從10公里蛋中孵出毒電嬰的機率提高
+・每天最多可進行6次特殊交換且所需的星星沙子減少
+・孵蛋距離減半
+・捕捉寶可夢時糖果加倍
+・在活動期間內與異色寶可夢相遇的機率提升
+・10月22日前購買Pokémon GO 曠野地帶：全球入場券並於10月15日～22日遊玩，即可參與能獲得換裝道具「毒電嬰口罩」（率先登場）的限時調查。
+關於這張入場券的獎勵詳情，請參照<a href=“pokemongolive.com/gowildarea/global”>此處</a>。
 
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: Pokémon GO 曠野地帶：全球入場券（率先免費登場）
@@ -693,6 +778,9 @@ TEXT: <b>可獲得的獎勵：</b>
 
 RESOURCE ID: ticket_sewaddle
 TEXT: 蟲寶包社群日特殊調查「解開裁縫寶可夢之謎！」的入場券在商店裡上架了
+
+RESOURCE ID: timed_research_special
+TEXT: Special Timed Research now available
 
 RESOURCE ID: tr_ticket_in_shop
 TEXT: 特級限時調查入場券已在商店中上架

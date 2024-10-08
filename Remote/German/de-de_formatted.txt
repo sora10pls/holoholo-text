@@ -4,14 +4,29 @@ TEXT:
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: Verbindung getrennt
 
-RESOURCE ID: ar_plus_got_it
-TEXT: Got it
+RESOURCE ID: badge_check_ins
+TEXT: Melde dich an {0} verschiedenen Tagen bei einem Community Ambassador-Treffen an.
+
+RESOURCE ID: badge_check_ins_singular
+TEXT: Melde dich zum ersten Mal bei einem Community Ambassador-Treffen an.
+
+RESOURCE ID: badge_check_ins_title
+TEXT: Community-Mitglied
 
 RESOURCE ID: badge_party_challenges_completed
 TEXT: Schließe {0} Team-Herausforderungen ab.
 
 RESOURCE ID: badge_party_challenges_completed_title
 TEXT: Teamwork
+
+RESOURCE ID: badge_tag_bonus
+TEXT: Bonus
+
+RESOURCE ID: battle_raids_party_plural
+TEXT: Battle in {0} raids while in a party
+
+RESOURCE ID: battle_raids_party_singular
+TEXT: Battle in a raid while in a party
 
 RESOURCE ID: bonus_cd_move_sewaddle
 TEXT: Entwickle Folikon, um ein Matrifol zu erhalten, das die Sofort-Attacke Dunkelklaue beherrscht!
@@ -101,7 +116,7 @@ RESOURCE ID: bread_more_mp_to_reach_daily_limit
 TEXT: Du kannst heute noch {0} DP sammeln.
 
 RESOURCE ID: bread_notification_empty
-TEXT: {0} has returned from the Power Spot.
+TEXT: {0} returned from the Power Spot.
 
 RESOURCE ID: bread_station_current_battle_defeated
 TEXT: Du hast diesen Kraftquellen-Boss besiegt.
@@ -110,7 +125,7 @@ RESOURCE ID: bread_station_failure_description
 TEXT: Diese Kraftquelle hat sein Limit an platzierten Pokémon erreicht.
 
 RESOURCE ID: bread_station_failure_description_duplicate
-TEXT: You have already stationed a Pokémon at this Power Spot.
+TEXT: You have already placed a Pokémon at this Power Spot.
 
 RESOURCE ID: bread_station_failure_label
 TEXT: Pokémon kann nicht platziert werden
@@ -121,11 +136,14 @@ TEXT: Power Spot
 RESOURCE ID: bundle.silk.box.1_title
 TEXT: Seiden-Box
 
+RESOURCE ID: campfire_check_in_reward_notification_toast
+TEXT: Du hast eine Belohnung für die Anmeldung an einem Community Ambassador-Event erhalten!
+
 RESOURCE ID: community_day_sewaddle_event_name
 TEXT: Community Day mit Strawickl
 
 RESOURCE ID: details_link_key_mawileraidday
-TEXT: For more details, visit the <a href=https://pokemongolive.com/post/mega-mawile-raid-day-2024"">website</a>."
+TEXT: Weitere Infos findest du auf der <a href="https://pokemongolive.com/post/mega-mawile-raid-day-2024">Website</a>.
 
 RESOURCE ID: event_datetime_range_key_gowa24
 TEXT: 23. November bis
@@ -155,6 +173,12 @@ TEXT: 22. September, 14:00 bis 17:00 Uhr
 
 RESOURCE ID: event_datetime_range_key_sewaddlecd24
 TEXT: 5. Oktober, 14:00 bis 17:00 Uhr
+
+RESOURCE ID: field_research_special_tasks
+TEXT: Special Field Research tasks now available
+
+RESOURCE ID: fr_tag_meetup
+TEXT: Meetup
 
 RESOURCE ID: galarian_expedition_collection_challenge_1
 TEXT: Galar-Expedition: Sammler-Herausforderung 1
@@ -397,11 +421,56 @@ TEXT: Walk slowly around the landmark.
 RESOURCE ID: localization_success_hint
 TEXT: You found the landmark!
 
+RESOURCE ID: meetup_check_in_battle
+TEXT: Kämpfen
+
+RESOURCE ID: meetup_check_in_battle_description
+TEXT: Bist du heiß auf einen Kampf gegen Team GO Rocket oder andere Trainer? Erhalte bei dieser Option eine Befristete Forschung rund ums Kämpfen.
+
+RESOURCE ID: meetup_check_in_bonus
+TEXT: Meetup Check-in Bonus
+
+RESOURCE ID: meetup_check_in_dialogue_00
+TEXT: Was führt dich heute hierher, Trainer?
+
+RESOURCE ID: meetup_check_in_pokemon
+TEXT: Pokémon fangen
+
+RESOURCE ID: meetup_check_in_pokemon_description
+TEXT: Möchtest du mit anderen Trainern viele Pokémon fangen? Erhalte bei dieser Option eine Befristete Forschung, die dir dabei helfen wird.
+
+RESOURCE ID: meetup_check_in_raid
+TEXT: Raids
+
+RESOURCE ID: meetup_check_in_raid_description
+TEXT: Möchtest du mit anderen Trainern Raids bestreiten? Erhalte bei dieser Option eine Befristete Forschung, die dich dabei unterstützt.
+
+RESOURCE ID: meetup_check_in_research_title
+TEXT: Befristete Forschung: Anmeldung zu Treffen
+
+RESOURCE ID: meetup_check_in_research_title_00
+TEXT: Befristete Forschung: Anmeldung zu Treffen – Pokémon fangen
+
+RESOURCE ID: meetup_check_in_research_title_01
+TEXT: Befristete Forschung: Anmeldung zu Treffen – Raids
+
+RESOURCE ID: meetup_check_in_research_title_02
+TEXT: Befristete Forschung: Anmeldung zu Treffen – Kämpfen
+
+RESOURCE ID: meetup_check_in_research_title_03
+TEXT: Befristete Forschung: Anmeldung zu Treffen – Leute treffen
+
+RESOURCE ID: meetup_check_in_social
+TEXT: Leute treffen
+
+RESOURCE ID: meetup_check_in_social_description
+TEXT: Möchtest du mit anderen Trainern plaudern und abhängen? Erhalte bei dieser Option eine Befristete Forschung, die dich diesem Ziel näherbringt.
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-04T22:33:58.413614+00:00 for de-DE
-at SHA c939c3fb8ad
-Pipeline 2666027, job 32611238
-Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.335.0-SHA-8799407d-RC1
+TEXT: Built at 2024-10-08T00:15:07.306559+00:00 for de-DE
+at SHA dd2d162a84
+Pipeline 2670239, job 32659673
+Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.335.0-SHA-9e20713c-RC2
 
 RESOURCE ID: mp_replenish.1_title
 TEXT: 1 DP-Beutel ({0} DP)
@@ -417,6 +486,9 @@ TEXT: Festival-Maske (Pikachu)
 
 RESOURCE ID: nearby_station_active_header
 TEXT: Active
+
+RESOURCE ID: party_play_field_research_special
+TEXT: Special Party Play Field Research tasks now available
 
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: 5 überraschende Begegnungen mit Strawickl in GO-Schnappschuss
@@ -559,6 +631,9 @@ TEXT: Nach Strich und Faden (4/4)
 RESOURCE ID: raid_day_mega_mawile_event_name
 TEXT: Raid-Tag: Mega-Flunkifer
 
+RESOURCE ID: reduced_hatch_party_play
+TEXT: Reduced Hatch Distance while in a Party
+
 RESOURCE ID: research_day_passimian_and_oranguru_event_name
 TEXT: Forschungstag mit Kommandutan und Quartermak
 
@@ -590,20 +665,32 @@ RESOURCE ID: swsh_masterball_sr_title_3
 TEXT: Meisterwerk-Forschung: Meisterball (4/4)
 
 RESOURCE ID: text_rewards_key_gowa24
-TEXT: <b>Enthaltene Boni:</b>
-• Eine Begegnung mit sowohl Riffex, dem Punk-Pokémon, als auch Elektro- oder Gift-Pokémon
-• Trainer, die vor dem 22. Oktober ein Ticket für das Event „Pokémon GO-Naturzone: Global“ kaufen – und zwischen dem 15. und 22. Oktober Pokémon GO spielen – erhalten Befristete Forschung, die dir vorzeitig Zugang zum Avatar-Artikel Toxel-Maske gewährt.
+TEXT: <b>Enthält:</b>
+• Eine Begegnung mit Riffex, dem Punk-Pokémon
+• Bis zu 5 kostenlose Raid-Pässe pro Tag durch das Drehen von Fotoscheiben einer Arena
+• Erhöhte Chance für Toxel, aus 10-km-Eiern zu schlüpfen
+• Bis zu 6 Spezial-Tausche pro Tag und reduzierte Sternenstaub-Kosten für jeden Tausch
+• 1/2 Schlüpf-Distanz für Eier
+• 2× Bonbons für das Fangen von Pokémon
+• Eine höhere Chance, während des Events Schillernden Pokémon zu begegnen
+• Schnapp dir bis zum 22. Oktober eine Befristete Forschung, die vom 15. Oktober bis zum 22. Oktober geht und dich mit dem Avatar-Artikel Toxel-Maske belohnt!
 
-Dieses Ticket umfasst auch Boni, die dir bei deinem „GO-Naturzone: Global“-Abenteuer weiterhelfen werden!
+Erfahre mehr über die Ticket-Boni <a href="pokemongolive.com/gowildarea/global">hier</a>.
 
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext10.1
 TEXT: Ein Ticket zur Teilnahme am Event „Pokémon GO-Naturzone: Global“, das dir vorzeitig und kostenlos zur Verfügung gestellt wurde.
 
-<b>Enthaltene Boni:</b>
-• Eine Begegnung mit sowohl Riffex, dem Punk-Pokémon, als auch Elektro- oder Gift-Pokémon
-• Wenn du dieses Ticket bis zum 22. Oktober einforderst – und zwischen dem 15. und 22. Oktober Pokémon GO spielst – erhältst du Befristete Forschung, die dir vorzeitig Zugang zum Avatar-Artikel Toxel-Maske gewährt.
+<b>Enthält:</b>
+• Eine Begegnung mit Riffex, dem Punk-Pokémon
+• Bis zu 5 kostenlose Raid-Pässe pro Tag durch das Drehen von Fotoscheiben einer Arena
+• Erhöhte Chance für Toxel, aus 10-km-Eiern zu schlüpfen
+• Bis zu 6 Spezial-Tausche pro Tag und reduzierte Sternenstaub-Kosten für jeden Tausch
+• 1/2 Schlüpf-Distanz für Eier
+• 2× Bonbons für das Fangen von Pokémon
+• Eine höhere Chance, während des Events Schillernden Pokémon zu begegnen
+• Schnapp dir bis zum 22. Oktober eine Befristete Forschung, die vom 15. Oktober bis zum 22. Oktober geht und dich mit dem Avatar-Artikel Toxel-Maske belohnt!
 
-Dieses Ticket umfasst auch Boni, die dir bei deinem „GO-Naturzone: Global“-Abenteuer weiterhelfen werden!
+Erfahre mehr über die Ticket-Boni <a href="pokemongolive.com/gowildarea/global">hier</a>.
 
 RESOURCE ID: text_rewards_key_masterball24
 TEXT: <b>Enthaltene Belohnungen:</b>
@@ -662,6 +749,9 @@ TEXT: <b>Enthält folgende Belohnungen:</b>
 
 RESOURCE ID: ticket_sewaddle
 TEXT: Ticket für die Spezialforschung „Nach Strich und Faden“ im Shop erhältlich
+
+RESOURCE ID: timed_research_special
+TEXT: Special Timed Research now available
 
 RESOURCE ID: tr_ticket_in_shop
 TEXT: Ticket für die Befristete Premium-Forschung im Shop erhältlich

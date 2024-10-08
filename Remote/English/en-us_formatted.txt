@@ -7,11 +7,29 @@ TEXT:
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: Disconnected
 
+RESOURCE ID: badge_check_ins
+TEXT: Check in to a Community Ambassador meetup on {0} different days.
+
+RESOURCE ID: badge_check_ins_singular
+TEXT: Check in to a Community Ambassador meetup for the first time.
+
+RESOURCE ID: badge_check_ins_title
+TEXT: Community Member
+
 RESOURCE ID: badge_party_challenges_completed
 TEXT: Complete {0} Party Challenges
 
 RESOURCE ID: badge_party_challenges_completed_title
 TEXT: Life of the Party
+
+RESOURCE ID: badge_tag_bonus
+TEXT: Bonus
+
+RESOURCE ID: battle_raids_party_plural
+TEXT: Battle in {0} raids while in a party
+
+RESOURCE ID: battle_raids_party_singular
+TEXT: Battle in a raid while in a party
 
 RESOURCE ID: bonus_cd_move_sewaddle
 TEXT: Evolve Swadloon to get a Leavanny that knows the Fast Attack Shadow Claw!
@@ -56,7 +74,7 @@ RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
 TEXT: 1 Trainer
 
 RESOURCE ID: bread_notification_empty
-TEXT: {0} has returned from the Power Spot.
+TEXT: {0} returned from the Power Spot.
 
 RESOURCE ID: bread_station_current_battle_defeated
 TEXT: You defeated this Power Spot Boss
@@ -65,7 +83,10 @@ RESOURCE ID: bread_station_failure_description
 TEXT: This Power Spot has reached its limit for placed Pokémon.
 
 RESOURCE ID: bread_station_failure_description_duplicate
-TEXT: You have already stationed a Pokémon at this Power Spot.
+TEXT: You have already placed a Pokémon at this Power Spot.
+
+RESOURCE ID: campfire_check_in_reward_notification_toast
+TEXT: You’ve received a reward for checking in to a Community Ambassador event!
 
 RESOURCE ID: community_day_sewaddle_event_name
 TEXT: Community Day: Sewaddle
@@ -97,6 +118,12 @@ TEXT: September 22, 2:00 p.m. – 5:00 p.m.
 
 RESOURCE ID: event_datetime_range_key_sewaddlecd24
 TEXT: October 5, 2:00 p.m. – 5:00 p.m.
+
+RESOURCE ID: field_research_special_tasks
+TEXT: Special Field Research tasks now available
+
+RESOURCE ID: fr_tag_meetup
+TEXT: Meetup
 
 RESOURCE ID: galarian_expedition_collection_challenge_1
 TEXT: Galarian Expedition Collection Challenge 1
@@ -331,11 +358,56 @@ RESOURCE ID: location_space_limit_message
 TEXT: There isn’t enough space for
 that Pokémon right now.
 
+RESOURCE ID: meetup_check_in_battle
+TEXT: Battles
+
+RESOURCE ID: meetup_check_in_battle_description
+TEXT: Itching to battle against Team GO Rocket or other Trainers? Choose this option to receive Timed Research that will push you into battle.
+
+RESOURCE ID: meetup_check_in_bonus
+TEXT: Meetup Check-in Bonus
+
+RESOURCE ID: meetup_check_in_dialogue_00
+TEXT: What are you here for today, Trainer?
+
+RESOURCE ID: meetup_check_in_pokemon
+TEXT: Catching
+
+RESOURCE ID: meetup_check_in_pokemon_description
+TEXT: Planning to catch a lot of Pokémon with other Trainers? Choose this option to receive Timed Research that will facilitate that plan.
+
+RESOURCE ID: meetup_check_in_raid
+TEXT: Raids
+
+RESOURCE ID: meetup_check_in_raid_description
+TEXT: Wanting to take on raids with other Trainers? Choose this option to receive Timed Research that will support that effort.
+
+RESOURCE ID: meetup_check_in_research_title
+TEXT: Meetup Check-in Timed Research
+
+RESOURCE ID: meetup_check_in_research_title_00
+TEXT: Meetup Check-in Timed Research: Catching
+
+RESOURCE ID: meetup_check_in_research_title_01
+TEXT: Meetup Check-in Timed Research: Raids
+
+RESOURCE ID: meetup_check_in_research_title_02
+TEXT: Meetup Check-in Timed Research: Battles
+
+RESOURCE ID: meetup_check_in_research_title_03
+TEXT: Meetup Check-in Timed Research: Connecting
+
+RESOURCE ID: meetup_check_in_social
+TEXT: Connecting
+
+RESOURCE ID: meetup_check_in_social_description
+TEXT: Hoping to chat and hang out with other Trainers? Choose this option to receive Timed Research that will push you toward that goal.
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-04T22:33:58.413614+00:00 for en-US
-at SHA c939c3fb8ad
-Pipeline 2666027, job 32611238
-Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.335.0-SHA-8799407d-RC1
+TEXT: Built at 2024-10-08T00:15:07.306559+00:00 for en-US
+at SHA dd2d162a84
+Pipeline 2670239, job 32659673
+Patch from: 0.333.0-SHA-4344a2b0-RC1, 0.335.0-SHA-9e20713c-RC2
 
 RESOURCE ID: mp_replenish.1_title
 TEXT: Max Particle Pack ({0} MP)
@@ -358,6 +430,9 @@ TEXT: Would you like to add one of your Pokémon?
 RESOURCE ID: no_pokemon_found_header
 TEXT: You haven’t placed a Pokémon here yet!
 
+RESOURCE ID: party_play_field_research_special
+TEXT: Special Party Play Field Research tasks now available
+
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: 5 surprise encounters with Sewaddle in GO Snapshot
 
@@ -377,13 +452,13 @@ RESOURCE ID: poi_contrib_report_reason_duplicate_custom
 TEXT: Duplicate {0}
 
 RESOURCE ID: pokemon_info_evolve_pokemon_deployed
-TEXT: {0} is assigned to a Gym or Power Spot
+TEXT: {0} is assigned to a Gym or Power Spot.
 
 RESOURCE ID: pokemon_info_evolve_pokemon_iris_social_deployed
 TEXT: {0} is playing at a PokéStop.
 
 RESOURCE ID: pokemon_info_powerup_pokemon_deployed
-TEXT: {0} is assigned to a Gym or Power Spot
+TEXT: {0} is assigned to a Gym or Power Spot.
 
 RESOURCE ID: pokemon_name_bread
 TEXT: Dynamax {0}
@@ -502,6 +577,9 @@ TEXT: Sew Far Sew Good (4/4)
 RESOURCE ID: raid_day_mega_mawile_event_name
 TEXT: Raid Day: Mega Mawile
 
+RESOURCE ID: reduced_hatch_party_play
+TEXT: Reduced Hatch Distance while in a Party
+
 RESOURCE ID: research_day_passimian_and_oranguru_event_name
 TEXT: Oranguru and Passimian Research Day
 
@@ -605,6 +683,9 @@ TEXT: <b>Included rewards:</b>
 
 RESOURCE ID: ticket_sewaddle
 TEXT: Ticket for the Sew Far Sew Good Special Research available in the shop
+
+RESOURCE ID: timed_research_special
+TEXT: Special Timed Research now available
 
 RESOURCE ID: tr_ticket_in_shop
 TEXT: Ticket for premium Timed Research available in the shop
