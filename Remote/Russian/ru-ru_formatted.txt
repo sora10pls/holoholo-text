@@ -4,6 +4,9 @@ TEXT:
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: Подключение было прервано
 
+RESOURCE ID: ar_plus_got_it
+TEXT: Got it
+
 RESOURCE ID: avatar_hat_halloween2024
 TEXT: Цилиндр Вубат
 
@@ -152,7 +155,7 @@ RESOURCE ID: battle_raids_party_singular
 TEXT: Battle in a raid while in a party
 
 RESOURCE ID: bonus_cd_move_annihilape
-TEXT: Evolve Primeape to get a Annihilape that knows the Charged Attack Rage Fist!
+TEXT: Evolve Primeape to get an Annihilape that knows the Charged Attack Rage Fist!
 
 RESOURCE ID: bonus_cd_move_mankey
 TEXT: Evolve Mankey to get a Primeape that knows the Charged Attack Rage Fist!
@@ -272,7 +275,7 @@ RESOURCE ID: bread_more_mp_to_reach_daily_limit
 TEXT: Ты можешь собрать ещё {0} ЧМ сегодня
 
 RESOURCE ID: bread_notification_empty
-TEXT: {0} returned from the Power Spot.
+TEXT: {0} вернулся из Зоны силы.
 
 RESOURCE ID: bread_station_current_battle_defeated
 TEXT: Одержана победа над боссом Зоны силы
@@ -284,13 +287,10 @@ RESOURCE ID: bread_station_failure_description
 TEXT: Достигнут лимит размещения Покемонов в этой Зоне силы.
 
 RESOURCE ID: bread_station_failure_description_duplicate
-TEXT: You have already placed a Pokémon at this Power Spot.
+TEXT: Тебе уже удалось разместить Покемона в этой Зоне силы.
 
 RESOURCE ID: bread_station_failure_label
 TEXT: Покемон не может быть размещён
-
-RESOURCE ID: bread_station_general
-TEXT: Power Spot
 
 RESOURCE ID: bundle.silk.box.1_title
 TEXT: Шёлковая коробка
@@ -335,6 +335,10 @@ RESOURCE ID: event_datetime_range_key_gowa24
 TEXT: 23 ноября –
 24 ноября
 
+RESOURCE ID: event_datetime_range_key_halloween2tr24
+TEXT: October 22, 10:00 a.m. –
+November 3, 8:00 p.m.
+
 RESOURCE ID: event_datetime_range_key_masterball24
 TEXT: 10:00 4 октября –
 20:00 11 октября
@@ -360,6 +364,9 @@ TEXT: 22 сентября, 14:00 – 17:00
 RESOURCE ID: event_datetime_range_key_sewaddlecd24
 TEXT: 5 октября, 14:00 – 17:00
 
+RESOURCE ID: event_datetime_range_key_yamasktr24
+TEXT: 19 октября, 14:00 – 17:00
+
 RESOURCE ID: expires_in_clock
 TEXT: Истекает через {0}
 
@@ -376,7 +383,7 @@ RESOURCE ID: expires_in_hour_singular
 TEXT: Истекает через 1 час
 
 RESOURCE ID: field_research_special_tasks
-TEXT: Special Field Research tasks now available
+TEXT: Field Research tasks from check-in now available
 
 RESOURCE ID: form_aegislash_blade
 TEXT: Форма Лезвие
@@ -979,6 +986,9 @@ TEXT: Галарская экспедиция
 RESOURCE ID: galarian_expedition_tgr_event_name
 TEXT: Галарская экспедиция: Захват
 
+RESOURCE ID: general1.ticket.2_halloween2tr24_title
+TEXT: Costume Party Premium Timed Research
+
 RESOURCE ID: general1.ticket.2_holidaytr2023_description
 TEXT: Билет, дающий доступ к квесту на время Зимний праздник в двух частях. Тренеры могут выполнять задания квеста на время и забирать награды до 20:00 31 декабря 2023 по местному времени.
 
@@ -995,6 +1005,9 @@ TEXT: Билет, дающий доступ к квесту на время З
 <b>Время на этот квест ограничено.</b> Нужно выполнить задания квеста на время и забрать награды до 20:00 31 декабря 2023 по местному времени.
 
 Подробности можно найти во внутриигровых новостях.
+
+RESOURCE ID: general1.ticket.2_yamasktr24_title
+TEXT: Билет: премиум-квест на время День исследований Ямаск и Галарский Ямаск
 
 RESOURCE ID: general1.ticket._gowa24_title
 TEXT: Билет: Нетронутые земли Pokémon GO: По всему миру
@@ -1075,7 +1088,7 @@ RESOURCE ID: gowa_2024_quest_branch_poison_title
 TEXT: Poison
 
 RESOURCE ID: gym_general
-TEXT: Gym
+TEXT: Гим
 
 RESOURCE ID: hint_desc_loc_network_err_body_key
 TEXT: Point your camera at the location and match
@@ -1173,8 +1186,14 @@ TEXT: You can only rotate your own Pokémon.
 RESOURCE ID: iris_social_temporary_disable_key
 TEXT: This location isn’t available right now. Please come back later.
 
+RESOURCE ID: item_event_ticket_04_desc_halloween2tr24
+TEXT: A ticket to access the Costume Party Premium Timed Research from October 22 at 10:00 a.m. to November 3, 2024, at 8:00 p.m. local time, wherever you are.
+
 RESOURCE ID: item_event_ticket_04_desc_researchdaysept24
 TEXT: Билет, дающий доступ к двум премиум-квестам на время День исследований Орангуру и Пассимиан 22 сентября 2024 с 14:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения.
+
+RESOURCE ID: item_event_ticket_04_details_halloween2tr24
+TEXT: This ticket will automatically activate to give you access to the Costume Party Premium Timed Research on October 22, wherever you are.
 
 RESOURCE ID: item_event_ticket_04_details_researchdaysept24
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к двум премиум-квестам День исследований Орангуру и Пассимиан 22 сентября, вне зависимости от твоего местонахождения.
@@ -1188,8 +1207,14 @@ TEXT: Этот билет активируется автоматически, �
 RESOURCE ID: item_event_ticket_evergreen_desc_psychspec24
 TEXT: Билет, дающий доступ к премиум-квесту на время Психофеерия 2024 с 10:00 18 сентября до 20:00 22 сентября 2024 по местному времени, вне зависимости от твоего местонахождения.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_yamasktr24
+TEXT: Билет, дающий доступ к двум премиум-квестам на время День исследований Ямаск и Галарский Ямаск 19 октября 2024 с 14:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения.
+
 RESOURCE ID: item_event_ticket_evergreen_details_psychspec24
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к премиум-квесту на время Психофеерия 2024 18 сентября, вне зависимости от твоего местонахождения.
+
+RESOURCE ID: item_event_ticket_evergreen_details_yamasktr24
+TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к двум премиум-квестам День исследований Ямаск и Галарский Ямаск 19 октября, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_gray_desc_mawileraidday
 TEXT: Билет, дающий доступ к специальным бонусам 12 октября 2024 с 14:00 до 22:00 по местному времени, вне зависимости от твоего местонахождения.
@@ -1237,6 +1262,12 @@ RESOURCE ID: item_wild_ball_desc
 TEXT: Болл, обладающий невероятной эффективностью при поимке Покемонов. Он доступен только во время событий Нетронутые земли Pokémon GO.
 
 RESOURCE ID: item_wild_ball_name
+TEXT: Сафари-Болл GO
+
+RESOURCE ID: item_wild_ball_premier_desc
+TEXT: Болл, обладающий невероятной эффективностью при поимке Покемонов. Он доступен только во время событий Нетронутые земли Pokémon GO.
+
+RESOURCE ID: item_wild_ball_premier_name
 TEXT: Сафари-Болл GO
 
 RESOURCE ID: join_max_battle_plural
@@ -1394,10 +1425,10 @@ RESOURCE ID: meetup_check_in_social_description
 TEXT: Хочешь пообщаться с другими Тренерами? Выбери этот вариант, чтобы получить квест на время, который поможет в достижении этой цели.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-10T00:50:36.057550+00:00 for ru-RU
-at SHA 3f5a72962bc
-Pipeline 2677560, job 32749764
-Patch from: 0.333.0-SHA-796eb6c7-RC2, 0.335.0-SHA-8799407d-RC1
+TEXT: Built at 2024-10-11T00:41:33.558826+00:00 for ru-RU
+at SHA 1d419619e4a
+Pipeline 2681171, job 32799613
+Patch from: 0.333.0-SHA-4f3cd4da-RC4, 0.335.0-SHA-5feb3260-RC3
 
 RESOURCE ID: mp_replenish.1_title
 TEXT: набор частиц макс ({0} ЧМ)
@@ -1412,16 +1443,16 @@ RESOURCE ID: n_hat_gtr2024pikachufanmask_0_display_name
 TEXT: Фестивальная маска (Пикачу)
 
 RESOURCE ID: nearby_station_active_header
-TEXT: Active
+TEXT: Активные
 
 RESOURCE ID: not_now
 TEXT: НЕ СЕЙЧАС
 
 RESOURCE ID: party_play_field_research_special
-TEXT: Special Party Play Field Research tasks now available
+TEXT: Party Challenges from check-in now available
 
 RESOURCE ID: party_play_tandemaus_boost
-TEXT: Boosted chance of encountering Tandemaus when completing Party Challenges with encounter rewards
+TEXT: Boosted chance of finding Tandemaus in Party Challenge reward encounters
 
 RESOURCE ID: photobomb_five_mankey
 TEXT: 5 surprise encounters with Mankey in GO Snapshot
@@ -1430,19 +1461,19 @@ RESOURCE ID: photobomb_five_sewaddle
 TEXT: 5 неожиданных встреч с Севаддлом в Стоп-кадре GO
 
 RESOURCE ID: poi_contrib_edit_title_desc_custom
-TEXT: {0} Title
+TEXT: Название: {0}
 
 RESOURCE ID: poi_contrib_entry_ar_data_custom
-TEXT: Scan {0}
+TEXT: Сканируй {0}
 
 RESOURCE ID: poi_contrib_entry_header_custom
-TEXT: Contribute to This {0}
+TEXT: Внести правки в: {0}
 
 RESOURCE ID: poi_contrib_entry_report_invalid_custom
-TEXT: Report {0} Issue
+TEXT: Сообщить о проблеме: {0}
 
 RESOURCE ID: poi_contrib_report_reason_duplicate_custom
-TEXT: Duplicate {0}
+TEXT: {0} дублируется
 
 RESOURCE ID: pokecoins_iap_string_key
 TEXT: {0} Покемонет
@@ -1466,26 +1497,38 @@ TEXT: Форма для битвы
 RESOURCE ID: pokemon_ibfc_name_0877
 TEXT: Злоголодный Режим
 
+RESOURCE ID: pokemon_info_evolve_pokemon_deployed
+TEXT: {0} отправлен в Гим или Зону силы.
+
 RESOURCE ID: pokemon_info_evolve_pokemon_iris_social_deployed
 TEXT: {0} играет у Покестопа.
 
+RESOURCE ID: pokemon_info_powerup_pokemon_deployed
+TEXT: {0} отправлен в Гим или Зону силы.
+
 RESOURCE ID: pokemon_name_bread
-TEXT: Dynamax {0}
+TEXT: Динамакс-{0}
 
 RESOURCE ID: pokemon_name_bread_dough
-TEXT: Gigantamax {0}
+TEXT: Гигантамакс-{0}
 
 RESOURCE ID: pokemon_name_bread_dough_short
-TEXT: G-Max {0}
+TEXT: G-Макс-{0}
 
 RESOURCE ID: pokemon_name_bread_short
-TEXT: D-Max {0}
+TEXT: D-Макс-{0}
 
 RESOURCE ID: pokemon_tutorial_ibfc_desc
 TEXT: Этот Покемон может менять форму во время битвы.
 
 RESOURCE ID: pokestop_general
-TEXT: PokéStop
+TEXT: Покестоп
+
+RESOURCE ID: quest_appraise_pokemon_plural
+TEXT: Appraise {0} Pokémon
+
+RESOURCE ID: quest_appraise_pokemon_singular
+TEXT: Appraise a Pokémon
 
 RESOURCE ID: quest_buddy_affection_electric_plural
 TEXT: Заработай сердечки с Покемоном типа Электро в качестве приятеля ×{0}
@@ -1498,6 +1541,9 @@ TEXT: Заработай сердечки с Покемоном типа Яд в
 
 RESOURCE ID: quest_buddy_affection_poison_singular
 TEXT: Заработай сердечко с Покемоном типа Яд в качестве приятеля
+
+RESOURCE ID: quest_catch_special_pidgey
+TEXT: Catch {0} Pidgey
 
 RESOURCE ID: quest_catch_strong_plural
 TEXT: Поймай мощных Покемонов ×{0}
@@ -1517,11 +1563,23 @@ TEXT: Поймай Покемонов в Сафари-Боллы GO ×{0}
 RESOURCE ID: quest_catch_wild_ball_singular
 TEXT: Поймай Покемона в Сафари-Болл GO
 
+RESOURCE ID: quest_choose_buddy_plural
+TEXT: Choose or Swap Buddy Pokémon for {0} times
+
+RESOURCE ID: quest_choose_buddy_singular
+TEXT: Choose or Swap Buddy Pokémon
+
 RESOURCE ID: quest_explore_buddy_electric
 TEXT: Заработай конфету Покемоном типа Электро в качестве приятеля
 
 RESOURCE ID: quest_explore_buddy_poison
 TEXT: Заработай конфету с Покемоном типа Яд в качестве приятеля
+
+RESOURCE ID: quest_feed_gym_pokemon_plural
+TEXT: Give {0} Berries to Pokémon at your team's Gym
+
+RESOURCE ID: quest_feed_gym_pokemon_singular
+TEXT: Give a Berry to a Pokémon at your team's Gym
 
 RESOURCE ID: quest_fight_type_grass_fairy_plural
 TEXT: Победи Покемонов типов Трава или Фея ×{0}
@@ -1553,6 +1611,12 @@ TEXT: Evolve {0} Mankey
 RESOURCE ID: quest_mankey_evolve_b_singular
 TEXT: Evolve a Mankey
 
+RESOURCE ID: quest_pin_postcard_plural
+TEXT: Pin {0} Postcards
+
+RESOURCE ID: quest_pin_postcard_singular
+TEXT: Pin a Postcard
+
 RESOURCE ID: quest_power_up_singular_electric
 TEXT: Power up an Electric-type Pokémon
 
@@ -1564,6 +1628,12 @@ TEXT: Evolve {0} Primeape
 
 RESOURCE ID: quest_primeape_evolve_b_singular
 TEXT: Evolve a Primeape
+
+RESOURCE ID: quest_raid_supereffective_charge_plural
+TEXT: Use {0} supereffective Charged Attacks in Raid battles
+
+RESOURCE ID: quest_raid_supereffective_charge_singular
+TEXT: Use a supereffective Charged Attack in a Raid battle
 
 RESOURCE ID: quest_sewaddle_catch_b
 TEXT: Поймай Севаддлов ×{0}
@@ -1580,6 +1650,12 @@ TEXT: Эволюционируй Свадлунов ×{0}
 RESOURCE ID: quest_swadloon_evolve_b_singular
 TEXT: Эволюционируй Свадлуна
 
+RESOURCE ID: quest_tgr_supereffective_charge_plural
+TEXT: Use {0} supereffective Charged Attacks in Team GO Rocket battles
+
+RESOURCE ID: quest_tgr_supereffective_charge_singular
+TEXT: Use a supereffective Charged Attack in a Team GO Rocket battle
+
 RESOURCE ID: quest_title_mankey
 TEXT: Mankey Business
 
@@ -1594,6 +1670,51 @@ TEXT: Mankey Business (3/4)
 
 RESOURCE ID: quest_title_mankey_3
 TEXT: Mankey Business (4/4)
+
+RESOURCE ID: quest_title_player_progression
+TEXT: To the Next Level
+
+RESOURCE ID: quest_title_player_progression_0
+TEXT: To the Next Level (1/14)
+
+RESOURCE ID: quest_title_player_progression_1
+TEXT: To the Next Level (2/14)
+
+RESOURCE ID: quest_title_player_progression_10
+TEXT: To the Next Level (11/14)
+
+RESOURCE ID: quest_title_player_progression_11
+TEXT: To the Next Level (12/14)
+
+RESOURCE ID: quest_title_player_progression_12
+TEXT: To the Next Level (13/14)
+
+RESOURCE ID: quest_title_player_progression_13
+TEXT: To the Next Level (14/14)
+
+RESOURCE ID: quest_title_player_progression_2
+TEXT: To the Next Level (3/14)
+
+RESOURCE ID: quest_title_player_progression_3
+TEXT: To the Next Level (4/14)
+
+RESOURCE ID: quest_title_player_progression_4
+TEXT: To the Next Level (5/14)
+
+RESOURCE ID: quest_title_player_progression_5
+TEXT: To the Next Level (6/14)
+
+RESOURCE ID: quest_title_player_progression_6
+TEXT: To the Next Level (7/14)
+
+RESOURCE ID: quest_title_player_progression_7
+TEXT: To the Next Level (8/14)
+
+RESOURCE ID: quest_title_player_progression_8
+TEXT: To the Next Level (9/14)
+
+RESOURCE ID: quest_title_player_progression_9
+TEXT: To the Next Level (10/14)
 
 RESOURCE ID: quest_title_season_16_first_partner_10_dialogue_1
 TEXT: А, %PLAYERNAME%, у меня есть новости. В окрестностях видели лидеров Команды Ракета GO: Арло, Клиффа и Сиерру.
@@ -1679,6 +1800,42 @@ TEXT: Осенний листопад (3/4)
 RESOURCE ID: quest_title_sewaddle_3
 TEXT: Осенний листопад (4/4)
 
+RESOURCE ID: quest_use_incubator_plural
+TEXT: Use {0} Incubators
+
+RESOURCE ID: quest_use_incubator_singular
+TEXT: Use an Incubator
+
+RESOURCE ID: quest_use_lucky_egg_plural
+TEXT: Use {0} Lucky Eggs
+
+RESOURCE ID: quest_use_lucky_egg_singular
+TEXT: Use a Lucky Egg
+
+RESOURCE ID: quest_use_lure_module_plural
+TEXT: Use {0} Lure Modules at PokéStops
+
+RESOURCE ID: quest_use_lure_module_singular
+TEXT: Use a Lure Module at a PokéStop
+
+RESOURCE ID: quest_use_potion_plural
+TEXT: Use any Potion on {0} Pokémon
+
+RESOURCE ID: quest_use_potion_singular
+TEXT: Use any Potion on a Pokémon
+
+RESOURCE ID: quest_use_revive_plural
+TEXT: Use any Revive on {0} Pokémon
+
+RESOURCE ID: quest_use_revive_singular
+TEXT: Use any Revive on a Pokémon
+
+RESOURCE ID: quest_use_star_piece_plural
+TEXT: Use {0} Star Pieces
+
+RESOURCE ID: quest_use_star_piece_singular
+TEXT: Use a Star Piece
+
 RESOURCE ID: raid_day_mega_mawile_event_name
 TEXT: Рейдовый день: Мега-Мавайл
 
@@ -1693,6 +1850,21 @@ TEXT: Премиум-квест на время Орангуру
 
 RESOURCE ID: research_day_passimian_and_oranguru_tr_name_passimian
 TEXT: Премиум-квест на время Пассимиан
+
+RESOURCE ID: research_day_yamask_and_gyamask_event_name
+TEXT: День исследований Ямаск и Галарский Ямаск
+
+RESOURCE ID: research_day_yamask_and_gyamask_tr_name_gyamask
+TEXT: Премиум-квест на время Галарский Ямаск
+
+RESOURCE ID: research_day_yamask_and_gyamask_tr_name_yamask
+TEXT: Премиум-квест на время Ямаск
+
+RESOURCE ID: research_level_gated
+TEXT: Come back at level {0}!
+
+RESOURCE ID: research_page_unlocked
+TEXT: New research page unlocked!
 
 RESOURCE ID: spawn_mankey
 TEXT: More Mankey are appearing in the wild!
@@ -1856,6 +2028,10 @@ TEXT: Билет на событие Нетронутые земли Pokémon G
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: Билет на событие Нетронутые земли Pokémon GO: По всему миру, полученный тобой заранее и бесплатно.
 
+RESOURCE ID: text_rewards_key_halloween2tr24
+TEXT: <b>Included rewards:</b>
+• Event-themed Pokémon encounters, including Pikachu wearing a witch hat, Vulpix wearing a Spooky Festival costume, Gengar wearing a Spooky Festival costume, Piplup wearing a Halloween Mischief costume, Drifblim wearing a Halloween Mischief costume, Froakie wearing a Pokémon Halloween costume, Pumpkaboo wearing a Spooky Festival costume, Rowlet wearing a Pokémon Halloween costume
+
 RESOURCE ID: text_rewards_key_masterball24
 TEXT: <b>Включает следующие награды:</b>
 • 1 Мастер-Болл – Поке-Болл, с помощью которого ты обязательно поймаешь любого дикого Покемона
@@ -1923,6 +2099,13 @@ TEXT: <b>Включает следующие награды:</b>
 • Внутриигровые премиум-предметы, такие как редкие конфеты, Ультра-Боллы и другие
 • Дополнительные встречи с Севаддлом и его эволюциями
 
+RESOURCE ID: text_rewards_key_yamasktr24
+TEXT: В течение этих квестов на время тебе предстоит выполнить задания полевых квестов, чтобы повстречать Ямаска и Галарского Ямаска.
+
+Шанс встретить Сияющих Покемонов в течение этого квеста на время такой же, как в полевых квестах.
+
+Этот квест на время будет доступен 19 октября 2024 с 14:00 до 17:00 по местному времени.
+
 RESOURCE ID: ticket_mankey
 TEXT: Ticket for the Mankey Business Special Research available in the shop
 
@@ -1930,7 +2113,7 @@ RESOURCE ID: ticket_sewaddle
 TEXT: Билет, дающий доступ к специальному квесту Осенний листопад, доступен в магазине
 
 RESOURCE ID: timed_research_special
-TEXT: Special Timed Research now available
+TEXT: Timed Research from check-in now available
 
 RESOURCE ID: tr_gowa2024_global_daily_electric
 TEXT: GO Wild Area 2024: Electric

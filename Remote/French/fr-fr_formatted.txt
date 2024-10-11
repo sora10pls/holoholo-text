@@ -1,3 +1,6 @@
+RESOURCE ID: ar_backgrounded_error
+TEXT: Tu ne te trouves plus à proximité de l’élément repère.
+
 RESOURCE ID: ar_backgrounded_error_title
 TEXT: 
 
@@ -155,7 +158,7 @@ RESOURCE ID: bonus_candy_xl_candy_nice_great_excel
 TEXT: Davantage de Bonbons et plus de chances de recevoir un Bonbon L pour chaque Pokémon attrapé avec un Joli, Superbe ou Excellent lancer.
 
 RESOURCE ID: bonus_cd_move_annihilape
-TEXT: Evolve Primeape to get a Annihilape that knows the Charged Attack Rage Fist!
+TEXT: Evolve Primeape to get an Annihilape that knows the Charged Attack Rage Fist!
 
 RESOURCE ID: bonus_cd_move_mankey
 TEXT: Evolve Mankey to get a Primeape that knows the Charged Attack Rage Fist!
@@ -304,9 +307,6 @@ TEXT: Tu as déjà placé un Pokémon à cette Source d’Énergie.
 RESOURCE ID: bread_station_failure_label
 TEXT: Impossible de placer ce Pokémon
 
-RESOURCE ID: bread_station_general
-TEXT: Power Spot
-
 RESOURCE ID: bundle.silk.box.1_title
 TEXT: Boîte Soie
 
@@ -338,6 +338,10 @@ RESOURCE ID: event_datetime_range_key_gowa24
 TEXT: Du 23 novembre
 au 24 novembre
 
+RESOURCE ID: event_datetime_range_key_halloween2tr24
+TEXT: October 22, 10:00 a.m. –
+November 3, 8:00 p.m.
+
 RESOURCE ID: event_datetime_range_key_masterball24
 TEXT: Du 4 octobre à 10h
 au 11 octobre à 20h
@@ -363,6 +367,9 @@ TEXT: Le 22 septembre de 14h à 17h
 RESOURCE ID: event_datetime_range_key_sewaddlecd24
 TEXT: Le 5 octobre de 14h à 17h
 
+RESOURCE ID: event_datetime_range_key_yamasktr24
+TEXT: Le 19 octobre de 14h à 17h
+
 RESOURCE ID: expires_in_clock
 TEXT: Expire dans {0}
 
@@ -379,7 +386,7 @@ RESOURCE ID: expires_in_hour_singular
 TEXT: Expire dans une heure
 
 RESOURCE ID: field_research_special_tasks
-TEXT: Special Field Research tasks now available
+TEXT: Field Research tasks from check-in now available
 
 RESOURCE ID: form_morpeko_full_belly
 TEXT: Mode Rassasié
@@ -401,6 +408,12 @@ TEXT: Expédition à Galar
 
 RESOURCE ID: galarian_expedition_tgr_event_name
 TEXT: Expédition à Galar : Offensive
+
+RESOURCE ID: general1.ticket.2_halloween2tr24_title
+TEXT: Costume Party Premium Timed Research
+
+RESOURCE ID: general1.ticket.2_yamasktr24_title
+TEXT: Ticket pour l’Étude ponctuelle premium de la Journée Étude Tutafeh et Tutafeh de Galar
 
 RESOURCE ID: general1.ticket._gowa24_title
 TEXT: Ticket Terres Sauvages Pokémon GO : Global
@@ -478,31 +491,31 @@ RESOURCE ID: gowa_2024_quest_branch_poison_title
 TEXT: Poison
 
 RESOURCE ID: gym_general
-TEXT: Gym
+TEXT: Arène
 
 RESOURCE ID: hint_desc_loc_network_err_body_key
-TEXT: Point your camera at the location and match
-it to the hint image as you walk around it
-slowly to capture multiple angles.
+TEXT: Vise l’endroit avec ton appareil photo et fais-le
+correspondre à l’image indice tout en marchant
+lentement pour saisir plusieurs angles.
 
 RESOURCE ID: hint_desc_loc_network_err_title_key
-TEXT: Something went wrong...
+TEXT: Une erreur s’est produite.
 
 RESOURCE ID: hint_desc_loc_not_ready_body_key
-TEXT: Point your camera at the landmark and match it to the hint image as you walk around it slowly to capture multiple angles.
+TEXT: Vise l'élément repère avec ton appareil photo et fais-le correspondre à l’image indice tout en marchant lentement autour de lui pour saisir plusieurs angles.
 
 RESOURCE ID: hint_desc_loc_not_ready_title_key
-TEXT: Something went wrong...
+TEXT: Une erreur s’est produite.
 
 RESOURCE ID: hint_desc_loc_ready_title_key
-TEXT: Point your camera at the landmark in this image!
+TEXT: Pointe ton appareil photo sur l’élément repère dans cette image !
 
 RESOURCE ID: hint_desc_loc_retry_button_key
-TEXT: Try again
+TEXT: Réessayer
 
 RESOURCE ID: hint_desc_ready_title_key
-TEXT: Find the landmark.
-It’s nearby!
+TEXT: Trouve l’élément repère.
+Il est tout près !
 
 RESOURCE ID: home_transfer_error_gym_deployed
 TEXT: Tu ne peux pas envoyer un Pokémon qui défend une Arène ou qui est placé à une Source d’Énergie.
@@ -517,61 +530,67 @@ RESOURCE ID: incense_spawns_attract
 TEXT: Pokémon vedette attiré par l’Encens
 
 RESOURCE ID: iris_social_confirm_exit_modal_body
-TEXT: Pokémon will stay and play for a little while until they get tired and return, but you can call them back earlier.
+TEXT: Les Pokémon resteront ici et joueront pendant un moment jusqu’à ce qu’ils soient fatigués et reviennent vers toi, mais tu peux les rappeler avant.
 
 RESOURCE ID: iris_social_confirm_exit_modal_title
-TEXT: Are you sure you want to leave?
+TEXT: Veux-tu vraiment partir ?
 
 RESOURCE ID: iris_social_diagnostic_okay_button
-TEXT: Submit Report
+TEXT: Envoyer
 
 RESOURCE ID: iris_social_diagnostic_title
-TEXT: This feature is under development!
+TEXT: Cette fonctionnalité est en cours de développement.
 
 RESOURCE ID: iris_social_diagnostics_option_five
-TEXT: This location is unsuitable for AR
+TEXT: Ce lieu n'est pas adéquat pour la RA
 
 RESOURCE ID: iris_social_diagnostics_option_four
-TEXT: I’m looking at the landmark and nothing is happening
+TEXT: Je regarde l’élément repère et rien ne se produit
 
 RESOURCE ID: iris_social_diagnostics_option_one
-TEXT: I can’t find the landmark in the image
+TEXT: Je ne trouve pas l’élément repère dans l’image
 
 RESOURCE ID: iris_social_diagnostics_option_three
-TEXT: I don’t know where to point my camera
+TEXT: Je ne sais pas quoi viser avec mon appareil photo
 
 RESOURCE ID: iris_social_diagnostics_option_two
-TEXT: Hint image is unclear
+TEXT: L’image indice n'est pas nette
 
 RESOURCE ID: iris_social_diagnostics_subtitle
-TEXT: Please report any issues or feedback you have using this experimental feature.
+TEXT: N’hésite pas à signaler tout problème et à donner ton avis concernant cette fonctionnalité.
 
 RESOURCE ID: iris_social_entry_instruction_body
-TEXT: Pokémon can gather, play, and meet other Trainers at landmarks! Point your camera at the landmark to view and interact with any Pokémon there.
+TEXT: Les Pokémon peuvent se rassembler, jouer et rencontrer d’autres Dresseurs et Dresseuses aux éléments repère ! Vise l’élément repère avec ton appareil photo pour voir les Pokémon et interagir avec eux.
 
 RESOURCE ID: iris_social_entry_instruction_title
-TEXT: You found a landmark!
+TEXT: Tu as trouvé un élément repère !
 
 RESOURCE ID: iris_social_info_screen_playtime_stat_label
 TEXT: Temps de jeu restant
 
 RESOURCE ID: iris_social_landmark_too_far_body
-TEXT: Walk closer to see the Pokémon.
+TEXT: Rapproche-toi pour voir les Pokémon.
 
 RESOURCE ID: iris_social_landmark_too_far_header
-TEXT: You are too far from the landmark.
+TEXT: Tu es trop loin de l’élément repère.
 
 RESOURCE ID: iris_social_limited_pokemon_key_temp
 TEXT: Il n’y a pas assez de place pour ce Pokémon pour l’instant.
 
 RESOURCE ID: iris_social_rotation_error_key
-TEXT: You can only rotate your own Pokémon.
+TEXT: Tu ne peux faire tourner que tes Pokémon.
 
 RESOURCE ID: iris_social_temporary_disable_key
-TEXT: This location isn’t available right now. Please come back later.
+TEXT: Ce lieu n'est pas disponible pour l’instant. Réessaie plus tard.
+
+RESOURCE ID: item_event_ticket_04_desc_halloween2tr24
+TEXT: A ticket to access the Costume Party Premium Timed Research from October 22 at 10:00 a.m. to November 3, 2024, at 8:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_event_ticket_04_desc_researchdaysept24
 TEXT: Un ticket pour accéder à l’Étude ponctuelle premium de la Journée Étude Gouroutan et Quartermac le 22 septembre 2024 de 14h à 17h (heures locales), où que tu sois.
+
+RESOURCE ID: item_event_ticket_04_details_halloween2tr24
+TEXT: This ticket will automatically activate to give you access to the Costume Party Premium Timed Research on October 22, wherever you are.
 
 RESOURCE ID: item_event_ticket_04_details_researchdaysept24
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à deux Études ponctuelles premium de la Journée Étude Gouroutan et Quartermac le 22 septembre, où que tu sois.
@@ -585,8 +604,14 @@ TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude
 RESOURCE ID: item_event_ticket_evergreen_desc_psychspec24
 TEXT: Un ticket pour accéder à l’Étude ponctuelle premium Fantasmagorie Psy 2024 du 18 septembre à 10h au 22 septembre à 20h (heures locales), où que tu sois.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_yamasktr24
+TEXT: Un ticket pour accéder à l’Étude ponctuelle premium de la Journée Étude Tutafeh et Tutafeh de Galar le 19 octobre 2024 de 14h à 17h (heures locales), où que tu sois.
+
 RESOURCE ID: item_event_ticket_evergreen_details_psychspec24
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude ponctuelle premium Fantasmagorie Psy 2024 le 18 septembre, où que tu sois.
+
+RESOURCE ID: item_event_ticket_evergreen_details_yamasktr24
+TEXT: Ce ticket s’activera automatiquement pour te donner accès à deux Études ponctuelles premium de la Journée Étude Tutafeh et Tutafeh de Galar le 19 octobre, où que tu sois.
 
 RESOURCE ID: item_event_ticket_gray_desc_mawileraidday
 TEXT: Un ticket pour accéder à des bonus spéciaux le samedi 12 octobre 2024 de 14h à 22h (heures locales), où que tu sois.
@@ -625,6 +650,12 @@ RESOURCE ID: item_wild_ball_desc
 TEXT: Une balle extrêmement efficace pour attraper des Pokémon. Elle est uniquement disponible pendant les évènements Terres Sauvages Pokémon GO.
 
 RESOURCE ID: item_wild_ball_name
+TEXT: Safari GO Ball
+
+RESOURCE ID: item_wild_ball_premier_desc
+TEXT: Une balle extrêmement efficace pour attraper des Pokémon. Elle est uniquement disponible pendant les évènements Terres Sauvages Pokémon GO.
+
+RESOURCE ID: item_wild_ball_premier_name
 TEXT: Safari GO Ball
 
 RESOURCE ID: legendary_heroes_collection_shield_catch
@@ -676,14 +707,18 @@ RESOURCE ID: legendary_heroes_tr_sword_title_key
 TEXT: Parcours Épée
 
 RESOURCE ID: localization_progress_hint_1
-TEXT: Point your camera at the landmark
-and match it to the image below.
+TEXT: Vise l’élément repère avec ton appareil photo
+et ajuste-le à l'image ci-dessous.
 
 RESOURCE ID: localization_progress_hint_2
-TEXT: Walk slowly around the landmark.
+TEXT: Marche lentement autour de l’élément repère.
 
 RESOURCE ID: localization_success_hint
-TEXT: You found the landmark!
+TEXT: Tu as trouvé l’élément repère !
+
+RESOURCE ID: location_space_limit_message
+TEXT: Il n’y a pas assez de place pour
+ce Pokémon pour l’instant.
 
 RESOURCE ID: lure_magnetic_event_bonus
 TEXT: Les Pokémon de l’évènement sont attirés par des Modules Leurre Magnétique
@@ -755,10 +790,10 @@ RESOURCE ID: meetup_check_in_social_description
 TEXT: Tu veux discuter et faire la connaissance d’autres Dresseurs et Dresseuses ? Choisis cette option pour recevoir une Étude ponctuelle qui t’aidera dans ce sens.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-10T00:50:36.057550+00:00 for fr-FR
-at SHA 3f5a72962bc
-Pipeline 2677560, job 32749764
-Patch from: 0.333.0-SHA-796eb6c7-RC2, 0.335.0-SHA-8799407d-RC1
+TEXT: Built at 2024-10-11T00:41:33.558826+00:00 for fr-FR
+at SHA 1d419619e4a
+Pipeline 2681171, job 32799613
+Patch from: 0.333.0-SHA-4f3cd4da-RC4, 0.335.0-SHA-5feb3260-RC3
 
 RESOURCE ID: n_hat_gtr2024eeveefanmask_0_display_name
 TEXT: Masque de festival (Évoli)
@@ -769,14 +804,20 @@ TEXT: Masque de festival (Pikachu)
 RESOURCE ID: nearby_station_active_header
 TEXT: Actives
 
+RESOURCE ID: no_pokemon_found_body
+TEXT: Veux-tu ajouter un de tes Pokémon ?
+
+RESOURCE ID: no_pokemon_found_header
+TEXT: Tu n’as pas encore placé de Pokémon ici !
+
 RESOURCE ID: not_now
 TEXT: PAS MAINTENANT
 
 RESOURCE ID: party_play_field_research_special
-TEXT: Special Party Play Field Research tasks now available
+TEXT: Party Challenges from check-in now available
 
 RESOURCE ID: party_play_tandemaus_boost
-TEXT: Boosted chance of encountering Tandemaus when completing Party Challenges with encounter rewards
+TEXT: Boosted chance of finding Tandemaus in Party Challenge reward encounters
 
 RESOURCE ID: photobomb_five_mankey
 TEXT: 5 surprise encounters with Mankey in GO Snapshot
@@ -785,19 +826,19 @@ RESOURCE ID: photobomb_five_sewaddle
 TEXT: Larveyette s’introduit 5 fois dans tes Clichés GO
 
 RESOURCE ID: poi_contrib_edit_title_desc_custom
-TEXT: {0} Title
+TEXT: Titre {0}
 
 RESOURCE ID: poi_contrib_entry_ar_data_custom
-TEXT: Scan {0}
+TEXT: Scanner {0}
 
 RESOURCE ID: poi_contrib_entry_header_custom
-TEXT: Contribute to This {0}
+TEXT: Contribuer : {0}
 
 RESOURCE ID: poi_contrib_entry_report_invalid_custom
-TEXT: Report {0} Issue
+TEXT: Signaler un problème
 
 RESOURCE ID: poi_contrib_report_reason_duplicate_custom
-TEXT: Duplicate {0}
+TEXT: {0} en double
 
 RESOURCE ID: pokemon_ibfc_desc_0877
 TEXT: Ce Pokémon se transforme quand il utilise une Attaque Chargée. En Mode Affamé, Roue Libre devient une attaque de type Ténèbres.
@@ -829,6 +870,12 @@ TEXT: Ce Pokémon peut changer de forme en combat.
 RESOURCE ID: pokestop_general
 TEXT: PokéStop
 
+RESOURCE ID: quest_appraise_pokemon_plural
+TEXT: Appraise {0} Pokémon
+
+RESOURCE ID: quest_appraise_pokemon_singular
+TEXT: Appraise a Pokémon
+
 RESOURCE ID: quest_buddy_affection_electric_plural
 TEXT: Gagne {0} cœurs avec ton copain de type Électrik
 
@@ -840,6 +887,9 @@ TEXT: Gagne {0} cœurs avec ton copain de type Poison
 
 RESOURCE ID: quest_buddy_affection_poison_singular
 TEXT: Gagne un cœur avec ton copain de type Poison
+
+RESOURCE ID: quest_catch_special_pidgey
+TEXT: Catch {0} Pidgey
 
 RESOURCE ID: quest_catch_strong_plural
 TEXT: Attrape {0} Pokémon imposants
@@ -853,11 +903,23 @@ TEXT: Attrape {0} Pokémon avec une Safari GO Ball
 RESOURCE ID: quest_catch_wild_ball_singular
 TEXT: Attrape un Pokémon avec une Safari GO Ball
 
+RESOURCE ID: quest_choose_buddy_plural
+TEXT: Choose or Swap Buddy Pokémon for {0} times
+
+RESOURCE ID: quest_choose_buddy_singular
+TEXT: Choose or Swap Buddy Pokémon
+
 RESOURCE ID: quest_explore_buddy_electric
 TEXT: Gagne un Bonbon en partant en exploration avec un Pokémon de type Électrik comme copain
 
 RESOURCE ID: quest_explore_buddy_poison
 TEXT: Gagne un Bonbon en partant en exploration avec un Pokémon de type Poison comme copain
+
+RESOURCE ID: quest_feed_gym_pokemon_plural
+TEXT: Give {0} Berries to Pokémon at your team's Gym
+
+RESOURCE ID: quest_feed_gym_pokemon_singular
+TEXT: Give a Berry to a Pokémon at your team's Gym
 
 RESOURCE ID: quest_fight_type_grass_fairy_plural
 TEXT: Remporte un combat contre {0} Pokémon de type Fée ou de type Plante
@@ -889,6 +951,12 @@ TEXT: Evolve {0} Mankey
 RESOURCE ID: quest_mankey_evolve_b_singular
 TEXT: Evolve a Mankey
 
+RESOURCE ID: quest_pin_postcard_plural
+TEXT: Pin {0} Postcards
+
+RESOURCE ID: quest_pin_postcard_singular
+TEXT: Pin a Postcard
+
 RESOURCE ID: quest_power_up_singular_electric
 TEXT: Power up an Electric-type Pokémon
 
@@ -900,6 +968,12 @@ TEXT: Evolve {0} Primeape
 
 RESOURCE ID: quest_primeape_evolve_b_singular
 TEXT: Evolve a Primeape
+
+RESOURCE ID: quest_raid_supereffective_charge_plural
+TEXT: Use {0} supereffective Charged Attacks in Raid battles
+
+RESOURCE ID: quest_raid_supereffective_charge_singular
+TEXT: Use a supereffective Charged Attack in a Raid battle
 
 RESOURCE ID: quest_sewaddle_catch_b
 TEXT: Attrape {0} Larveyette
@@ -916,6 +990,12 @@ TEXT: Fais évoluer {0} Couverdure
 RESOURCE ID: quest_swadloon_evolve_b_singular
 TEXT: Fais évoluer un Couverdure
 
+RESOURCE ID: quest_tgr_supereffective_charge_plural
+TEXT: Use {0} supereffective Charged Attacks in Team GO Rocket battles
+
+RESOURCE ID: quest_tgr_supereffective_charge_singular
+TEXT: Use a supereffective Charged Attack in a Team GO Rocket battle
+
 RESOURCE ID: quest_title_mankey
 TEXT: Mankey Business
 
@@ -930,6 +1010,51 @@ TEXT: Mankey Business (3/4)
 
 RESOURCE ID: quest_title_mankey_3
 TEXT: Mankey Business (4/4)
+
+RESOURCE ID: quest_title_player_progression
+TEXT: To the Next Level
+
+RESOURCE ID: quest_title_player_progression_0
+TEXT: To the Next Level (1/14)
+
+RESOURCE ID: quest_title_player_progression_1
+TEXT: To the Next Level (2/14)
+
+RESOURCE ID: quest_title_player_progression_10
+TEXT: To the Next Level (11/14)
+
+RESOURCE ID: quest_title_player_progression_11
+TEXT: To the Next Level (12/14)
+
+RESOURCE ID: quest_title_player_progression_12
+TEXT: To the Next Level (13/14)
+
+RESOURCE ID: quest_title_player_progression_13
+TEXT: To the Next Level (14/14)
+
+RESOURCE ID: quest_title_player_progression_2
+TEXT: To the Next Level (3/14)
+
+RESOURCE ID: quest_title_player_progression_3
+TEXT: To the Next Level (4/14)
+
+RESOURCE ID: quest_title_player_progression_4
+TEXT: To the Next Level (5/14)
+
+RESOURCE ID: quest_title_player_progression_5
+TEXT: To the Next Level (6/14)
+
+RESOURCE ID: quest_title_player_progression_6
+TEXT: To the Next Level (7/14)
+
+RESOURCE ID: quest_title_player_progression_7
+TEXT: To the Next Level (8/14)
+
+RESOURCE ID: quest_title_player_progression_8
+TEXT: To the Next Level (9/14)
+
+RESOURCE ID: quest_title_player_progression_9
+TEXT: To the Next Level (10/14)
 
 RESOURCE ID: quest_title_season_16_first_partner_10_dialogue_1
 TEXT: Ah, %PLAYERNAME%, j’ai des nouvelles ! Les chefs de la Team GO Rocket, Arlo, Cliff et Sierra, ont été aperçus dans la région.
@@ -1015,6 +1140,42 @@ TEXT: Vert à soie (3/4)
 RESOURCE ID: quest_title_sewaddle_3
 TEXT: Vert à soie (4/4)
 
+RESOURCE ID: quest_use_incubator_plural
+TEXT: Use {0} Incubators
+
+RESOURCE ID: quest_use_incubator_singular
+TEXT: Use an Incubator
+
+RESOURCE ID: quest_use_lucky_egg_plural
+TEXT: Use {0} Lucky Eggs
+
+RESOURCE ID: quest_use_lucky_egg_singular
+TEXT: Use a Lucky Egg
+
+RESOURCE ID: quest_use_lure_module_plural
+TEXT: Use {0} Lure Modules at PokéStops
+
+RESOURCE ID: quest_use_lure_module_singular
+TEXT: Use a Lure Module at a PokéStop
+
+RESOURCE ID: quest_use_potion_plural
+TEXT: Use any Potion on {0} Pokémon
+
+RESOURCE ID: quest_use_potion_singular
+TEXT: Use any Potion on a Pokémon
+
+RESOURCE ID: quest_use_revive_plural
+TEXT: Use any Revive on {0} Pokémon
+
+RESOURCE ID: quest_use_revive_singular
+TEXT: Use any Revive on a Pokémon
+
+RESOURCE ID: quest_use_star_piece_plural
+TEXT: Use {0} Star Pieces
+
+RESOURCE ID: quest_use_star_piece_singular
+TEXT: Use a Star Piece
+
 RESOURCE ID: raid_day_mega_mawile_event_name
 TEXT: Journée de Raids : Méga-Mysdibule
 
@@ -1029,6 +1190,21 @@ TEXT: Étude ponctuelle premium Gouroutan
 
 RESOURCE ID: research_day_passimian_and_oranguru_tr_name_passimian
 TEXT: Étude ponctuelle premium Quartermac
+
+RESOURCE ID: research_day_yamask_and_gyamask_event_name
+TEXT: Journée Étude Tutafeh et Tutafeh de Galar
+
+RESOURCE ID: research_day_yamask_and_gyamask_tr_name_gyamask
+TEXT: Étude ponctuelle premium Tutafeh de Galar
+
+RESOURCE ID: research_day_yamask_and_gyamask_tr_name_yamask
+TEXT: Étude ponctuelle premium Tutafeh
+
+RESOURCE ID: research_level_gated
+TEXT: Come back at level {0}!
+
+RESOURCE ID: research_page_unlocked
+TEXT: New research page unlocked!
 
 RESOURCE ID: spawn_mankey
 TEXT: More Mankey are appearing in the wild!
@@ -1183,6 +1359,10 @@ Obtiens plus d’informations sur les bonus du ticket <a href="pokemongolive.com
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: Un ticket pour l’évènement Terres Sauvages Pokémon GO : Global, que vous avez reçu en avant-première et gratuitement.
 
+RESOURCE ID: text_rewards_key_halloween2tr24
+TEXT: <b>Included rewards:</b>
+• Event-themed Pokémon encounters, including Pikachu wearing a witch hat, Vulpix wearing a Spooky Festival costume, Gengar wearing a Spooky Festival costume, Piplup wearing a Halloween Mischief costume, Drifblim wearing a Halloween Mischief costume, Froakie wearing a Pokémon Halloween costume, Pumpkaboo wearing a Spooky Festival costume, Rowlet wearing a Pokémon Halloween costume
+
 RESOURCE ID: text_rewards_key_masterball24
 TEXT: <b>Donne accès aux récompenses suivantes :</b>
 • Une Master Ball, une Poké Ball qui permet d’attraper n’importe quel Pokémon sauvage à coup sûr
@@ -1250,6 +1430,13 @@ TEXT: <b>Donne accès aux récompenses suivantes :</b>
 • Des objets en jeu premium tels que des Super Bonbons, des Hyper Balls et plus encore
 • Des rencontres supplémentaires avec Larveyette et ses Évolutions
 
+RESOURCE ID: text_rewards_key_yamasktr24
+TEXT: Ces Études ponctuelles, qui t’encouragent à terminer des tâches d’Études de terrain, te donneront accès à des rencontres avec les Pokémon en vedette Tutafeh et Tutafeh de Galar.
+
+Pendant l’évènement, les Pokémon rencontrés lors de cette Étude ponctuelle auront les mêmes probabilités d’être chromatiques que ceux rencontrés par le biais de tâches d’Études de terrain.
+
+Ces Études ponctuelles seront disponibles le 19 octobre 2024 de 14h à 17h, heures locales.
+
 RESOURCE ID: ticket_mankey
 TEXT: Ticket for the Mankey Business Special Research available in the shop
 
@@ -1257,7 +1444,7 @@ RESOURCE ID: ticket_sewaddle
 TEXT: Ticket pour l’Étude spéciale Vert à soie disponible dans la Boutique
 
 RESOURCE ID: timed_research_special
-TEXT: Special Timed Research now available
+TEXT: Timed Research from check-in now available
 
 RESOURCE ID: tr_gowa2024_global_daily_electric
 TEXT: GO Wild Area 2024: Electric
@@ -1327,6 +1514,12 @@ TEXT: GO Wild Area Hourly Restock: GO Safari Ball
 
 RESOURCE ID: tr_ticket_in_shop
 TEXT: Ticket pour l’Étude ponctuelle premium disponible dans la Boutique
+
+RESOURCE ID: vps_guardian_oob_toast
+TEXT: Tu es hors de la zone de jeu. Rapproche-toi pour placer un Pokémon.
+
+RESOURCE ID: vps_localization_instruction_body
+TEXT: Vise l’élément repère avec ton appareil photo dans cette image !
 
 RESOURCE ID: vps_localization_landscape_error
 TEXT: Tiens ton téléphone à la verticale.
