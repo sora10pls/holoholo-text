@@ -9297,6 +9297,12 @@ TEXT: 日本 2019年4月7日
 RESOURCE ID: badge_partner_event_2019_1_title
 TEXT: Pokémon GO Special Weekend 2019/4/7
 
+RESOURCE ID: badge_party_challenges_completed
+TEXT: 完成{0}個小隊挑戰
+
+RESOURCE ID: badge_party_challenges_completed_title
+TEXT: 小隊的支柱
+
 RESOURCE ID: badge_photobomb
 TEXT: 有過 {0} 次驚喜邂逅
 
@@ -13463,7 +13469,7 @@ RESOURCE ID: bonus_candy_raids_t5
 TEXT: 在五星團體戰捕捉到頭目寶可夢時，將可多獲得1顆糖果
 
 RESOURCE ID: bonus_candy_xl_candy_nice_great_excel
-TEXT: Increased Candy and Candy XL chance for better quality throws
+TEXT: 以Nice/Great/Excellent捉到寶可夢時可獲得更多糖果，且獲得糖果XL的機率會提高
 
 RESOURCE ID: bonus_cap_pikachu_volt_tackle
 TEXT: 戴著船長帽子的皮卡丘將學會特殊招式「伏特攻擊」
@@ -13924,6 +13930,9 @@ TEXT: 橘色氣球飛翔皮卡丘將在四周出現！
 RESOURCE ID: bonus_jeju_costume_pikachu
 TEXT: 穿著水藍色襯衫的皮卡丘（橘子）將在四周出現！
 
+RESOURCE ID: bonus_koffing_evo
+TEXT: 瓦斯彈會進化成伽勒爾雙彈瓦斯
+
 RESOURCE ID: bonus_lc_wcs_2024_pikachu
 TEXT: 從團體戰和田野調查課題捕捉到的穿著服飾的皮卡丘可能會帶著紀念背卡
 
@@ -14257,6 +14266,12 @@ TEXT: 獎勵限時調查
 RESOURCE ID: bonus_tr_gbl_championships_2024_b_title
 TEXT: 誘餌挑戰
 
+RESOURCE ID: bonus_tr_gbl_championships_2025_a_desc
+TEXT: 超電獎勵限時調查
+
+RESOURCE ID: bonus_tr_gbl_championships_2025_a_title
+TEXT: 超電獎勵限時調查
+
 RESOURCE ID: bonus_tr_gbl_euic_2024_a_desc
 TEXT: 2024 Pokémon LAIC冠軍賽：獎勵限時調查
 
@@ -14264,22 +14279,22 @@ RESOURCE ID: bonus_tr_gbl_euic_2024_a_title
 TEXT: 2024 Pokémon LAIC冠軍賽
 
 RESOURCE ID: bonus_tr_gbl_euic_2025_a_desc
-TEXT: 2025 Pokémon LAIC冠軍賽獎勵限時調查
+TEXT: 2025 Pokémon LAIC冠軍賽：獎勵限時調查
 
 RESOURCE ID: bonus_tr_gbl_euic_2025_a_title_00
-TEXT: 2025 Pokémon LAIC冠軍賽(1/2)
+TEXT: 2025 Pokémon NAIC冠軍賽：獎勵限時調查(1/2)
 
 RESOURCE ID: bonus_tr_gbl_euic_2025_a_title_01
-TEXT: 2025 Pokémon LAIC冠軍賽(2/2)
+TEXT: 2025 Pokémon NAIC冠軍賽：獎勵限時調查(2/2)
 
 RESOURCE ID: bonus_tr_gbl_laic_2025_a_desc
-TEXT: 2024 Pokémon NAIC冠軍賽獎勵限時調查
+TEXT: 2024 Pokémon NAIC冠軍賽：獎勵限時調查
 
 RESOURCE ID: bonus_tr_gbl_laic_2025_a_title_00
-TEXT: 2024 Pokémon NAIC冠軍賽(1/2)
+TEXT: 2024 Pokémon NAIC冠軍賽：獎勵限時調查(1/2)
 
 RESOURCE ID: bonus_tr_gbl_laic_2025_a_title_01
-TEXT: 2024 Pokémon NAIC冠軍賽(2/2)
+TEXT: 2024 Pokémon NAIC冠軍賽：獎勵限時調查(2/2)
 
 RESOURCE ID: bonus_tr_gbl_naic_2024_a_desc
 TEXT: 2024 Pokémon EUIC冠軍賽：獎勵限時調查
@@ -14291,13 +14306,13 @@ RESOURCE ID: bonus_tr_gbl_naic_2024_a_title_01
 TEXT: 2024 Pokémon EUIC冠軍賽(2/2)
 
 RESOURCE ID: bonus_tr_gbl_naic_2025_a_desc
-TEXT: 2025 Pokémon EUIC冠軍賽獎勵限時調查
+TEXT: 2025 Pokémon EUIC冠軍賽：獎勵限時調查
 
 RESOURCE ID: bonus_tr_gbl_naic_2025_a_title_00
-TEXT: 2025 Pokémon EUIC冠軍賽(1/2)
+TEXT: 2025 Pokémon NAIC冠軍賽：獎勵限時調查(1/2)
 
 RESOURCE ID: bonus_tr_gbl_naic_2025_a_title_01
-TEXT: 2025 Pokémon EUIC冠軍賽(2/2)
+TEXT: 2025 Pokémon NAIC冠軍賽：獎勵限時調查(2/2)
 
 RESOURCE ID: bonus_trade_stardust_50pc_5hr
 TEXT: 在活動結束五小時後的最後期限前，交換所需的星星沙子減半.
@@ -14849,10 +14864,10 @@ RESOURCE ID: bread_battle_message_attack_incoming
 TEXT: 對手將使出特殊招式！
 
 RESOURCE ID: bread_battle_message_bread_move_remaining_plural
-TEXT: 還剩{0}個極巨招式
+TEXT: 還可使用{0}次極巨招式
 
 RESOURCE ID: bread_battle_message_bread_move_remaining_single
-TEXT: 還剩{0}個極巨招式
+TEXT: 還可使用{0}次極巨招式
 
 RESOURCE ID: bread_battle_message_low_hp_plural
 TEXT: 有{0}個同伴的HP過低！
@@ -15022,7 +15037,7 @@ TEXT: {0}
 等級{1}
 
 RESOURCE ID: bread_more_mp_to_reach_daily_limit
-TEXT: You can collect {0} more MP today
+TEXT: 今天還可收集{0}MP
 
 RESOURCE ID: bread_move_upgrade_bread_a
 TEXT: 攻擊
@@ -15169,7 +15184,7 @@ RESOURCE ID: bread_station_count_limit
 TEXT: {0}+
 
 RESOURCE ID: bread_station_current_battle_defeated
-TEXT: You’ve defeated this Power Spot Boss
+TEXT: 打倒這裡的能量點頭目了
 
 RESOURCE ID: bread_station_defeat_success
 TEXT: 攻破能量點了！
@@ -15178,10 +15193,10 @@ RESOURCE ID: bread_station_defeat_success_description
 TEXT: 請選擇要指派到這個能量點的寶可夢。之後可隨時收回寶可夢。
 
 RESOURCE ID: bread_station_failure_description
-TEXT: The maximum number of Pokémon have been placed at this Power Spot.
+TEXT: 可指派的寶可夢已達上限，無法指派寶可夢。
 
 RESOURCE ID: bread_station_failure_label
-TEXT: Cannot place Pokémon
+TEXT: 無法指派寶可夢
 
 RESOURCE ID: bread_station_general
 TEXT: 能量點
@@ -16237,7 +16252,7 @@ RESOURCE ID: bundle.regional.box.1_title
 TEXT: 地區禮盒
 
 RESOURCE ID: bundle.silk.box.1_title
-TEXT: Silk Box
+TEXT: 絲質禮盒
 
 RESOURCE ID: bundle.wicker.box.1_title
 TEXT: 藤編禮盒
@@ -18902,6 +18917,9 @@ TEXT: 社群日：穿山鼠
 RESOURCE ID: community_day_seedot_event_name
 TEXT: 社群日：橡實果
 
+RESOURCE ID: community_day_sewaddle_event_name
+TEXT: 社群日：蟲寶包
+
 RESOURCE ID: community_day_shinx_event_name
 TEXT: 社群日：小貓怪
 
@@ -20804,9 +20822,13 @@ TEXT: 4月13日14:00～22:00
 RESOURCE ID: event_datetime_range_key_megalucarioraidday24
 TEXT: 7月27日11:00～22:00
 
+RESOURCE ID: event_datetime_range_key_monthlyticketnov24
+TEXT: November 3, 12:00 a.m. –
+December 2, 11:59 p.m.
+
 RESOURCE ID: event_datetime_range_key_monthlyticketoct24
-TEXT: October 3, 12:00 a.m. –
-November 2, 11:59 p.m.
+TEXT: 10月3日00:00～
+11月2日23:59
 
 RESOURCE ID: event_datetime_range_key_monthlyticketsept24
 TEXT: 9月3日00:00～
@@ -20823,6 +20845,13 @@ TEXT: 3月23日14:00～22:00（當地時間）
 
 RESOURCE ID: event_datetime_range_key_primalkyogreraidday
 TEXT: 3月17日14:00～22:00（當地時間）
+
+RESOURCE ID: event_datetime_range_key_psychspec24
+TEXT: 9月18日10:00～
+9月22日20:00
+
+RESOURCE ID: event_datetime_range_key_researchdaysept24
+TEXT: 9月22日14:00～17:00
 
 RESOURCE ID: event_datetime_range_key_shinycelebi24
 TEXT: 6月28日10:00AM～
@@ -21898,19 +21927,19 @@ RESOURCE ID: expert_box_title
 TEXT: 達人禮盒
 
 RESOURCE ID: expires_in_clock
-TEXT: Expires in {0}
+TEXT: 距離結束還剩{0}
 
 RESOURCE ID: expires_in_day_plural
-TEXT: Expires in {0} days
+TEXT: 距離結束還剩{0}天
 
 RESOURCE ID: expires_in_day_singular
-TEXT: Expires in 1 day
+TEXT: 距離結束還剩1天
 
 RESOURCE ID: expires_in_hour_plural
-TEXT: Expires in {0} hours
+TEXT: 距離結束還剩{0}小時
 
 RESOURCE ID: expires_in_hour_singular
-TEXT: Expires in 1 hour
+TEXT: 距離結束還剩1小時
 
 RESOURCE ID: explore_responsibly
 TEXT: Explore Responsibly
@@ -24240,6 +24269,18 @@ TEXT: 伽勒爾盃：超級聯盟版
 RESOURCE ID: galar_little_cup_title
 TEXT: 伽勒爾盃：迷你版
 
+RESOURCE ID: galarian_expedition_collection_challenge_1
+TEXT: 伽勒爾探險收藏家挑戰1
+
+RESOURCE ID: galarian_expedition_collection_challenge_2
+TEXT: 伽勒爾探險收藏家挑戰2
+
+RESOURCE ID: galarian_expedition_event_name
+TEXT: 伽勒爾探險
+
+RESOURCE ID: galarian_expedition_tgr_event_name
+TEXT: 伽勒爾探險：佔領
+
 RESOURCE ID: galarian_pokedex_header
 TEXT: 伽勒爾的樣子
 
@@ -25187,6 +25228,9 @@ TEXT: 前往神奧之路：孵蛋
 RESOURCE ID: general1.ticket._gotourraid2024_title
 TEXT: 前往神奧之路：團體戰
 
+RESOURCE ID: general1.ticket._gowa24_title
+TEXT: Pokémon GO 曠野地帶：全球入場券
+
 RESOURCE ID: general1.ticket._growlitheroute2023_title
 TEXT: 卡蒂狗限時調查入場券
 
@@ -25220,8 +25264,11 @@ TEXT: 超級赫拉克羅斯團體戰日入場券
 RESOURCE ID: general1.ticket._megalucarioraidday24_title
 TEXT: 超級路卡利歐團體戰日入場券
 
+RESOURCE ID: general1.ticket._monthlyticketnov24_title
+TEXT: Daily PokéCoin Bounty Part 3 Ticket
+
 RESOURCE ID: general1.ticket._monthlyticketoct24_title
-TEXT: Daily PokéCoin Bounty Part 2 Ticket
+TEXT: 每日寶可幣獎勵Part2入場券
 
 RESOURCE ID: general1.ticket._monthlyticketsept24_title
 TEXT: 每日寶可幣獎勵Part1入場券
@@ -25231,6 +25278,12 @@ TEXT: 原始固拉多團體戰日入場券
 
 RESOURCE ID: general1.ticket._primalkyogreraidday_title
 TEXT: 原始蓋歐卡團體戰日入場券
+
+RESOURCE ID: general1.ticket._psychspec24_title
+TEXT: 超能力週2024特級限時調查入場券
+
+RESOURCE ID: general1.ticket._researchdaysept24_title
+TEXT: 智揮猩和投擲猴調查日特級限時調查入場券
 
 RESOURCE ID: general1.ticket._shinycelebi24_title
 TEXT: 森林細語長期調查入場券
@@ -32651,10 +32704,10 @@ RESOURCE ID: halloween_23_candy_event_pokemon
 TEXT: 捕捉變裝的寶可夢時有可能獲得額外糖果
 
 RESOURCE ID: halloween_cup_great_title
-TEXT: Halloween Cup: Great League Edition
+TEXT: 萬聖節盃：超級聯盟版
 
 RESOURCE ID: halloween_cup_little_title
-TEXT: Halloween Cup: Little Edition
+TEXT: 萬聖節盃：迷你版
 
 RESOURCE ID: halloween_cup_title
 TEXT: 萬聖節盃
@@ -32885,10 +32938,10 @@ RESOURCE ID: home_support_id_about
 TEXT: 這是目前連結至Pokémon GO的Nintendo Account所使用的Pokémon HOME服務ID。若此服務ID和你所使用的Pokémon HOME服務ID不同，那就代表你在Pokémon GO和Pokémon HOME使用的Nintendo Account不同。請登出後再次以Pokémon HOME的Nintendo Account登入。
 
 RESOURCE ID: home_transfer_error_gym_deployed
-TEXT: 不能傳送已指派至道館的寶可夢
-
-RESOURCE ID: home_transfer_error_gym_deployed_temp
 TEXT: 不能傳送已指派至道館或能量點的寶可夢
+
+RESOURCE ID: home_transfer_error_gym_deployed_old
+TEXT: 不能傳送已指派至道館的寶可夢
 
 RESOURCE ID: home_transfer_error_shadow_pokemon_error
 TEXT: 不能傳送暗影寶可夢
@@ -33048,6 +33101,9 @@ TEXT: 步行時薰香的效果將會增強
 
 RESOURCE ID: incense_sale
 TEXT: 商店內薰香打折
+
+RESOURCE ID: incense_spawns_attract
+TEXT: 薰香可吸引焦點寶可夢
 
 RESOURCE ID: incense_spawns_custom
 TEXT: 特定寶可夢將會被薰香吸引
@@ -33680,6 +33736,12 @@ TEXT: 入場券
 RESOURCE ID: item_event_ticket_03_name
 TEXT: 入場券
 
+RESOURCE ID: item_event_ticket_04_desc_researchdaysept24
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年9月22日14:00～17:00參與智揮猩和投擲猴調查日的2種特級限時調查。
+
+RESOURCE ID: item_event_ticket_04_details_researchdaysept24
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在2024年9月22日參與智揮猩和投擲猴調查日特級限時調查。
+
 RESOURCE ID: item_event_ticket_04_name
 TEXT: 入場券
 
@@ -33742,6 +33804,12 @@ TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時�
 
 RESOURCE ID: item_event_ticket_10_name
 TEXT: 入場券
+
+RESOURCE ID: item_event_ticket_evergreen_desc_psychspec24
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年9月18日10:00～9月22日20:00參與超能力週2024特級限時調查。
+
+RESOURCE ID: item_event_ticket_evergreen_details_psychspec24
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在9月18日參與超能力週2024特級限時調查。
 
 RESOURCE ID: item_event_ticket_global_details_gotourhatch2024
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間2024年2月19日10:00～2月25日20:00領取「前往神奧之路：孵蛋」限時調查的課題。
@@ -34334,6 +34402,9 @@ TEXT: 不論你身在何處，都可以用這張入場券來領取萬聖夜限�
 RESOURCE ID: item_global_event_ticket_desc_frostyfestivities
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2023年12月31日20:00前領取「暖呼呼限時調查」的課題。
 
+RESOURCE ID: item_global_event_ticket_desc_gowa24
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年11月23日～24日領取「Pokémon GO 曠野地帶：全球」的特殊調查。
+
 RESOURCE ID: item_global_event_ticket_desc_hisuiandecidueye
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年2月11日14:00~22:00領取特別的獎勵。
 
@@ -34375,6 +34446,9 @@ TEXT: 入場券將會自動啟用，不論你身在何處，都可以在當地�
 
 RESOURCE ID: item_global_event_ticket_details_frostyfestivities
 TEXT: 入場券將會自動啟用，不論你身在何處，都能領取「暖呼呼限時調查」的課題。
+
+RESOURCE ID: item_global_event_ticket_details_gowa24
+TEXT: 入場券將會自動啟用，不論你身在何處，都可以在當地時間2024年11月23日領取「Pokémon GO 曠野地帶：全球」的特殊調查。
 
 RESOURCE ID: item_global_event_ticket_details_hisuiandecidueye
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間2024年2月11日領取特別的獎勵。
@@ -35253,6 +35327,54 @@ TEXT: 確定要離開嗎？
 
 RESOURCE ID: legend_box_title
 TEXT: 傳說禮盒
+
+RESOURCE ID: legendary_heroes_collection_shield_catch
+TEXT: 傳說中的英雄：盾之路捕捉大挑戰
+
+RESOURCE ID: legendary_heroes_collection_shield_trade
+TEXT: 傳說中的英雄：盾之路交換大挑戰
+
+RESOURCE ID: legendary_heroes_collection_sword_catch
+TEXT: 傳說中的英雄：劍之路捕捉大挑戰
+
+RESOURCE ID: legendary_heroes_collection_sword_trade
+TEXT: 傳說中的英雄：劍之路交換大挑戰
+
+RESOURCE ID: legendary_heroes_event_name
+TEXT: 傳說中的英雄
+
+RESOURCE ID: legendary_heroes_tr_name
+TEXT: 傳說中的英雄限時調查
+
+RESOURCE ID: legendary_heroes_tr_name_shield_1
+TEXT: 傳說中的英雄限時調查：盾之路(1/2)
+
+RESOURCE ID: legendary_heroes_tr_name_shield_2
+TEXT: 傳說中的英雄限時調查：盾之路(2/2)
+
+RESOURCE ID: legendary_heroes_tr_name_sword_1
+TEXT: 傳說中的英雄限時調查：劍之路(1/2)
+
+RESOURCE ID: legendary_heroes_tr_name_sword_2
+TEXT: 傳說中的英雄限時調查：劍之路(2/2)
+
+RESOURCE ID: legendary_heroes_tr_shield_button_text_key
+TEXT: 盾之路
+
+RESOURCE ID: legendary_heroes_tr_shield_description_key
+TEXT: 前往盾之路。
+
+RESOURCE ID: legendary_heroes_tr_shield_title_key
+TEXT: 盾之路
+
+RESOURCE ID: legendary_heroes_tr_sword_button_text_key
+TEXT: 劍之路
+
+RESOURCE ID: legendary_heroes_tr_sword_description_key
+TEXT: 前往劍之路。
+
+RESOURCE ID: legendary_heroes_tr_sword_title_key
+TEXT: 劍之路
 
 RESOURCE ID: legendary_mythical_and_ultra_beast_not_allowed_in_gyms
 TEXT: 你不能將傳說的寶可夢、幻之寶可夢或究極異獸指派至道館
@@ -39067,9 +39189,9 @@ RESOURCE ID: meshing_option_title
 TEXT: 網格化
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2024-09-26T22:38:58.645291+00:00 for zh-TW
-at SHA 4f3cd4da43f34
-Pipeline 2645106, job 32367297
+TEXT: Built at 2024-10-09T22:24:02.492841+00:00 for zh-TW
+at SHA 365e92f1ce
+Pipeline 2676692, job 32740337
 
 RESOURCE ID: mex_fighting_promo_title
 TEXT: 限時調查：格鬥屬性
@@ -40338,10 +40460,10 @@ RESOURCE ID: move_name_0405
 TEXT: 暗影之光
 
 RESOURCE ID: move_name_0406
-TEXT: Aura Wheel
+TEXT: 氣場輪
 
 RESOURCE ID: move_name_0407
-TEXT: Aura Wheel
+TEXT: 氣場輪
 
 RESOURCE ID: move_name_0408
 TEXT: 飛膝踢
@@ -83106,6 +83228,15 @@ TEXT: 完成突破性進展時可獲得更多道具
 RESOURCE ID: research_breakthrough_bonus_stardust
 TEXT: 完成突破性進展時可獲得更多星星沙子
 
+RESOURCE ID: research_day_passimian_and_oranguru_event_name
+TEXT: 智揮猩和投擲猴研究日
+
+RESOURCE ID: research_day_passimian_and_oranguru_tr_name_oranguru
+TEXT: 智揮猩特級限時調查
+
+RESOURCE ID: research_day_passimian_and_oranguru_tr_name_passimian
+TEXT: 投擲猴特級限時調查
+
 RESOURCE ID: research_masterball_catching_wonders
 TEXT: 可獲得大師球的長期調查：道具驚奇
 
@@ -88124,6 +88255,9 @@ TEXT: 當天最多可進行3次特殊交換
 RESOURCE ID: special_trade_plus_3
 TEXT: 比平常多3次特殊交換（總共4次）
 
+RESOURCE ID: special_trade_stardust_half
+TEXT: 特殊交換所需的星星沙子減半
+
 RESOURCE ID: special_trades_plus_5
 TEXT: 追加5次特殊交換
 
@@ -91126,6 +91260,21 @@ TEXT: 永續發展週收藏家挑戰：破破袋
 RESOURCE ID: switch_sleep_warning
 TEXT: 連接至Nintendo Switch時，請勿關閉智慧型裝置的電源或讓裝置進入睡眠模式
 
+RESOURCE ID: swsh_masterball_sr_title
+TEXT: 長期調查：大師球
+
+RESOURCE ID: swsh_masterball_sr_title_0
+TEXT: 長期調查：大師球(1/4)
+
+RESOURCE ID: swsh_masterball_sr_title_1
+TEXT: 長期調查：大師球(2/4)
+
+RESOURCE ID: swsh_masterball_sr_title_2
+TEXT: 長期調查：大師球(3/4)
+
+RESOURCE ID: swsh_masterball_sr_title_3
+TEXT: 長期調查：大師球(4/4)
+
 RESOURCE ID: system_location_prompt
 TEXT: 尋找寶可夢和寶可補給站時需使用位置資訊。
 
@@ -91467,7 +91616,7 @@ TEXT: <b>可獲得的獎勵：</b>
 ・10顆帝牙盧卡的糖果和10顆帕路奇亞的糖果
 
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
-TEXT: A ticket to Pokémon GO Wild Area: Global, which has been provided to you early and at no cost.
+TEXT: Pokémon GO 曠野地帶：全球入場券（率先免費登場）
 
 RESOURCE ID: text_rewards_key_growtogether24
 TEXT: <b>可獲得的獎勵：</b>
@@ -91510,8 +91659,8 @@ TEXT: <b>可獲得的獎勵：</b>
 
 一旦購買這張入場券後，即無法購買可獲得路卡利歐面具的入場券。關於可獲得路卡利歐面具的入場券詳情，可<a href="https://pokemongolive.com/post/mega-lucario-raid-ultra-unlock">由此</a>確認。
 
-RESOURCE ID: text_rewards_key_monthlyticketoct24
-TEXT: This ticket grants bonuses, Timed Research awarding 200 bonus PokéCoins, and daily bonus Field Research tasks that award bonus PokéCoins from October 3 to November 2, 2024.
+RESOURCE ID: text_rewards_key_monthlyticketnov24
+TEXT: This ticket grants bonuses, Timed Research awarding 200 bonus PokéCoins, and daily bonus Field Research tasks that award bonus PokéCoins from November 3 to December 2, 2024.
 
 <b>Included bonuses:</b>
 • One Field Research task the first time you log on each day that awards 20 bonus PokéCoins
@@ -91521,6 +91670,20 @@ TEXT: This ticket grants bonuses, Timed Research awarding 200 bonus PokéCoins, 
 • Hold up to 40 Gifts in your Item Bag at once
 
 Please note: You must have three or fewer Field Research tasks active to receive this bonus Field Research task the first time you log on each day. You must claim the 20 bonus PokéCoin reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
+
+RESOURCE ID: text_rewards_key_monthlyticketoct24
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年10月3日～11月2日參與可獲得200獎勵寶可幣的限時調查，以及可獲得獎勵寶可幣的每日獎勵田野調查。
+
+<b>可獲得的獎勵：</b>
+・每天首次登入時能領取可獲得20獎勵寶可幣的田野調查課題
+・每天捉到第1隻寶可夢或旋轉當天第1個寶可補給站轉盤時可獲得3倍XP
+・每天最多可開啟50個友情禮物
+・每天可透過旋轉寶可補給站轉盤獲得的友情禮物增為150個
+・包包裡最多可存放的禮物增為40個
+
+備註：每天首次登入時保有的田野調查需為3件以下，才能領取獎勵田野調查。請不要忘了在完成課題時領取獎勵的20寶可幣。
+
+關於獎勵田野調查的詳情，請參照<a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">此處</a>。
 
 RESOURCE ID: text_rewards_key_monthlyticketsept24
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年9月3日～10月2日參與可獲得200獎勵寶可幣的限時調查，以及可獲得獎勵寶可幣的獎勵田野調查。
@@ -91557,6 +91720,17 @@ TEXT: <b>可獲得的獎勵：</b>
 ・旋轉道館轉盤時可獲得8張額外團體戰入場券
 ・在團體戰獲得神奇糖果XL的機率提高
 ・在團體戰中獲勝時可獲得1.5倍XP及2倍星星沙子
+
+RESOURCE ID: text_rewards_key_psychspec24
+TEXT: <b>可獲得的獎勵：</b>
+・與睡睡菇和迷布莉姆相遇的機會
+・15000XP 
+・1個超級孵化器和1個星星碎片等
+
+RESOURCE ID: text_rewards_key_researchdaysept24
+TEXT: 在本限時調查中，只要在當地時間2024年9月22日14:00～17:00完成田野調查課題，就可以遇見智揮猩和投擲猴。
+
+在活動舉辦期間，可透過本限時調查遇見的寶可夢包含了異色寶可夢（機率會與完成活動的田野調查時可遇見的寶可夢相同）。
 
 RESOURCE ID: text_rewards_key_shayminmasterwork2024
 TEXT: <b>可獲得的獎勵：</b>
@@ -93168,6 +93342,9 @@ TEXT: Pokémon GO Safari Zone: Singapore 2022 – 探索大挑戰
 
 RESOURCE ID: tr_sz_taipei_global
 TEXT: Pokémon GO Safari Zone: Taipei 2022 – 探索大挑戰
+
+RESOURCE ID: tr_ticket_in_shop
+TEXT: Ticket for premium Timed Research available in the shop
 
 RESOURCE ID: tr_uxie_photo_safari
 TEXT: GO Tour：由克希照片探秘之旅

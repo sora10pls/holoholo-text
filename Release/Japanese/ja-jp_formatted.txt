@@ -9413,6 +9413,12 @@ TEXT: 日本 2019/4/7
 RESOURCE ID: badge_partner_event_2019_1_title
 TEXT: Pokémon GO Special Weekend 2019/4/7
 
+RESOURCE ID: badge_party_challenges_completed
+TEXT: チームチャレンジを{0}回達成できた！
+
+RESOURCE ID: badge_party_challenges_completed_title
+TEXT: チームのかなめ
+
 RESOURCE ID: badge_photobomb
 TEXT: {0}回GO Snapshot でサプライズがおきた！
 
@@ -13610,7 +13616,7 @@ RESOURCE ID: bonus_candy_raids_t5
 TEXT: 5つ星レイドで捕まえるポケモンのアメ1個追加
 
 RESOURCE ID: bonus_candy_xl_candy_nice_great_excel
-TEXT: 良質スローでアメ・アメXL増
+TEXT: ナイススロー以上でアメが増えアメXLの確率アップ
 
 RESOURCE ID: bonus_cap_pikachu_volt_tackle
 TEXT: キャプテン帽子をかぶったピカチュウがボルテッカーを覚える
@@ -14075,6 +14081,9 @@ TEXT: オレンジ色の風船をつけた「そらをとぶピカチュウ」�
 RESOURCE ID: bonus_jeju_costume_pikachu
 TEXT: 水色のシャツ(みかん柄)ピカチュウがエリアに出現
 
+RESOURCE ID: bonus_koffing_evo
+TEXT: ドガースはガラルのマタドガスに進化する
+
 RESOURCE ID: bonus_lc_wcs_2024_pikachu
 TEXT: レイドとフィールドリサーチで捕まえる着飾ったピカチュウにロケーション背景がつくことがある
 
@@ -14407,6 +14416,12 @@ TEXT: ボーナスタイムチャレンジ
 
 RESOURCE ID: bonus_tr_gbl_championships_2024_b_title
 TEXT: ルアーチャレンジ
+
+RESOURCE ID: bonus_tr_gbl_championships_2025_a_desc
+TEXT: 超電ボーナスタイムチャレンジ
+
+RESOURCE ID: bonus_tr_gbl_championships_2025_a_title
+TEXT: 超電ボーナスタイムチャレンジ
 
 RESOURCE ID: bonus_tr_gbl_euic_2024_a_desc
 TEXT: 2024PokémonLAICチャンピオン：ボーナスタイムチャレンジ
@@ -15184,7 +15199,7 @@ TEXT: {0}
 Level {1}
 
 RESOURCE ID: bread_more_mp_to_reach_daily_limit
-TEXT: You can collect {0} more MP today
+TEXT: 今日あと{0}MP集められます
 
 RESOURCE ID: bread_move_upgrade_bread_a
 TEXT: アタック
@@ -15331,7 +15346,7 @@ RESOURCE ID: bread_station_count_limit
 TEXT: {0}+
 
 RESOURCE ID: bread_station_current_battle_defeated
-TEXT: You’ve defeated this Power Spot Boss
+TEXT: このパワースポットボスを倒した
 
 RESOURCE ID: bread_station_defeat_success
 TEXT: パワースポットをやぶった！
@@ -15340,10 +15355,10 @@ RESOURCE ID: bread_station_defeat_success_description
 TEXT: ポケモンを選んでこのパワースポットに配置。あとからいつでも戻せます。
 
 RESOURCE ID: bread_station_failure_description
-TEXT: The maximum number of Pokémon have been placed at this Power Spot.
+TEXT: 配置ポケモンの上限に達したため、ポケモンを配置することができません。
 
 RESOURCE ID: bread_station_failure_label
-TEXT: Cannot place Pokémon
+TEXT: ポケモン配置できません
 
 RESOURCE ID: bread_station_general
 TEXT: パワースポット
@@ -19066,6 +19081,9 @@ TEXT: コミュニティ・デイ：サンド
 RESOURCE ID: community_day_seedot_event_name
 TEXT: コミュニティ・デイ：タネボー
 
+RESOURCE ID: community_day_sewaddle_event_name
+TEXT: コミュニティ・デイ：クルミル
+
 RESOURCE ID: community_day_shinx_event_name
 TEXT: コミュニティ・デイ：コリンク
 
@@ -20985,6 +21003,10 @@ TEXT: 4月13日2:00PM～10:00PM
 RESOURCE ID: event_datetime_range_key_megalucarioraidday24
 TEXT: 7月27日11:00AM～10:00PM
 
+RESOURCE ID: event_datetime_range_key_monthlyticketnov24
+TEXT: 11月3日12:00AM～
+12月2日11:59PM
+
 RESOURCE ID: event_datetime_range_key_monthlyticketoct24
 TEXT: 10月3日12:00AM～
 11月2日11:59PM
@@ -21004,6 +21026,13 @@ TEXT: 3月23日2:00PM～10:00PM
 
 RESOURCE ID: event_datetime_range_key_primalkyogreraidday
 TEXT: 3月17日2:00PM～10:00PM
+
+RESOURCE ID: event_datetime_range_key_psychspec24
+TEXT: 9月18日10:00AM～
+9月22日8:00PM
+
+RESOURCE ID: event_datetime_range_key_researchdaysept24
+TEXT: 9月22日2:00PM～5:00PM
 
 RESOURCE ID: event_datetime_range_key_shinycelebi24
 TEXT: 6月28日10:00AM～
@@ -22080,19 +22109,19 @@ RESOURCE ID: expert_box_title
 TEXT: たつじんボックス
 
 RESOURCE ID: expires_in_clock
-TEXT: Expires in {0}
+TEXT: 終了まで{0}
 
 RESOURCE ID: expires_in_day_plural
-TEXT: Expires in {0} days
+TEXT: {0}日後終了
 
 RESOURCE ID: expires_in_day_singular
-TEXT: Expires in 1 day
+TEXT: あと1日で終了
 
 RESOURCE ID: expires_in_hour_plural
-TEXT: Expires in {0} hours
+TEXT: {0}時間後終了
 
 RESOURCE ID: expires_in_hour_singular
-TEXT: Expires in 1 hour
+TEXT: あと1時間で終了
 
 RESOURCE ID: explore_responsibly
 TEXT: Explore Responsibly
@@ -24435,6 +24464,18 @@ TEXT: ガラルカップ：スーパーリーグバージョン
 RESOURCE ID: galar_little_cup_title
 TEXT: ガラルカップ：リトルバージョン
 
+RESOURCE ID: galarian_expedition_collection_challenge_1
+TEXT: ガラル探検コレクションチャレンジ1
+
+RESOURCE ID: galarian_expedition_collection_challenge_2
+TEXT: ガラル探検コレクションチャレンジ2
+
+RESOURCE ID: galarian_expedition_event_name
+TEXT: ガラル探検
+
+RESOURCE ID: galarian_expedition_tgr_event_name
+TEXT: ガラル探検：占拠
+
 RESOURCE ID: galarian_pokedex_header
 TEXT: ガラルのすがた
 
@@ -25354,6 +25395,9 @@ TEXT: シンオウへの道：タマゴふか
 RESOURCE ID: general1.ticket._gotourraid2024_title
 TEXT: シンオウへの道：レイド
 
+RESOURCE ID: general1.ticket._gowa24_title
+TEXT: Pokémon GO ワイルドエリア：グローバルチケット
+
 RESOURCE ID: general1.ticket._growlitheroute2023_title
 TEXT: ガーディタイムチャレンジチケット
 
@@ -25387,6 +25431,9 @@ TEXT: メガヘラクロスレイド・デイチケット
 RESOURCE ID: general1.ticket._megalucarioraidday24_title
 TEXT: メガルカリオレイド・デイチケット
 
+RESOURCE ID: general1.ticket._monthlyticketnov24_title
+TEXT: デイリーポケコインセレクトパート3チケット
+
 RESOURCE ID: general1.ticket._monthlyticketoct24_title
 TEXT: デイリーポケコインセレクトパート2チケット
 
@@ -25398,6 +25445,12 @@ TEXT: ゲンシグラードンレイドデイチケット
 
 RESOURCE ID: general1.ticket._primalkyogreraidday_title
 TEXT: ゲンシカイオーガレイドデイチケット
+
+RESOURCE ID: general1.ticket._psychspec24_title
+TEXT: エスパーウィーク2024プレミアムタイムチャレンジチケット
+
+RESOURCE ID: general1.ticket._researchdaysept24_title
+TEXT: ヤレユータンとナゲツケサルのリサーチデイプレミアムタイムチャレンジチケット
 
 RESOURCE ID: general1.ticket._shinycelebi24_title
 TEXT: 森のささやき続行リサーチチケット
@@ -33054,10 +33107,10 @@ TEXT: 下記があなたのPokémon HOMEのサポートIDに
 ニンテンドーアカウントでサインインしてください。
 
 RESOURCE ID: home_transfer_error_gym_deployed
-TEXT: ジムに配置されているポケモンは転送できません
-
-RESOURCE ID: home_transfer_error_gym_deployed_temp
 TEXT: ジム・パワースポットにいるポケモンを送ることはできません
+
+RESOURCE ID: home_transfer_error_gym_deployed_old
+TEXT: ジムに配置されているポケモンは転送できません
 
 RESOURCE ID: home_transfer_error_shadow_pokemon_error
 TEXT: シャドウポケモンは転送できません
@@ -33227,6 +33280,9 @@ TEXT: 歩いている間おこうの効果増
 
 RESOURCE ID: incense_sale
 TEXT: ショップでのおこうセール
+
+RESOURCE ID: incense_spawns_attract
+TEXT: フィーチャーポケモンがおこうに反応
 
 RESOURCE ID: incense_spawns_custom
 TEXT: いつもと違うポケモンがおこうに反応
@@ -33860,6 +33916,12 @@ TEXT: チケット
 RESOURCE ID: item_event_ticket_03_name
 TEXT: チケット
 
+RESOURCE ID: item_event_ticket_04_desc_researchdaysept24
+TEXT: 現地時間2024年9月22日2:00PM～5:00PMにヤレユータンとナゲツケサルリサーチデイ用に2つのプレミアムタイムチャレンジを行うためのチケット。
+
+RESOURCE ID: item_event_ticket_04_details_researchdaysept24
+TEXT: このチケットは自動的に発動し2024年9月22日にヤレユータンとナゲツケサルリサーチデイプレミアムタイムチャレンジが行えるようになります。
+
 RESOURCE ID: item_event_ticket_04_name
 TEXT: チケット
 
@@ -33922,6 +33984,12 @@ TEXT: このチケットは自動的に発動し現地時間2024年3月1日10:00
 
 RESOURCE ID: item_event_ticket_10_name
 TEXT: チケット
+
+RESOURCE ID: item_event_ticket_evergreen_desc_psychspec24
+TEXT: 現地時間2024年9月18日10:00AM～9月22日8:00PMにエスパーウィーク2024プレミアムタイムチャレンジを行うためのチケット。
+
+RESOURCE ID: item_event_ticket_evergreen_details_psychspec24
+TEXT: このチケットは自動的に発動し9月18日にエスパーウィーク2024プレミアムタイムチャレンジが行えるようになります。
 
 RESOURCE ID: item_event_ticket_global_details_gotourhatch2024
 TEXT: このチケットは自動的に発動し現地時間2024年2月19日10:00AM～2月25日8:00PMに「シンオウへの道：タマゴふか」タイムチャレンジが行えるようになります。
@@ -34514,6 +34582,9 @@ TEXT: ハロウィンの夜タイムチャレンジを行うためのチケッ�
 RESOURCE ID: item_global_event_ticket_desc_frostyfestivities
 TEXT: 現地時間2023年12月31日8:00PMまでぬくぬくタイムチャレンジが行えるチケット。
 
+RESOURCE ID: item_global_event_ticket_desc_gowa24
+TEXT: 現地時間2024年11月23日・24日にPokémonGOワイルドエリア：グローバルのスペシャルリサーチを行うためのチケット。
+
 RESOURCE ID: item_global_event_ticket_desc_hisuiandecidueye
 TEXT: 現地時間2024年2月11日2:00PM～10:00PMにボーナスを受け取るためのチケット。
 
@@ -34555,6 +34626,9 @@ TEXT: このチケットは自動的に発動し現地時間2023年10月31日8:0
 
 RESOURCE ID: item_global_event_ticket_details_frostyfestivities
 TEXT: このチケットは自動的に発動し「ぬくぬくタイムチャレンジ」が行えるようになります。
+
+RESOURCE ID: item_global_event_ticket_details_gowa24
+TEXT: このチケットは自動的に発動し2024年11月23日にPokémonGOワイルドエリア：グローバルのスペシャルリサーチが行えるようになります。
 
 RESOURCE ID: item_global_event_ticket_details_hisuiandecidueye
 TEXT: このチケットは自動的に発動し2024年2月11日にボーナスが受け取れるようになります。
@@ -35438,6 +35512,54 @@ TEXT: 本当に退出してもいいですか？
 
 RESOURCE ID: legend_box_title
 TEXT: レジェンドボックス
+
+RESOURCE ID: legendary_heroes_collection_shield_catch
+TEXT: 伝説の英雄：シールドの道キャッチチャレンジ
+
+RESOURCE ID: legendary_heroes_collection_shield_trade
+TEXT: 伝説の英雄：シールドの道交換チャレンジ
+
+RESOURCE ID: legendary_heroes_collection_sword_catch
+TEXT: 伝説の英雄：ソードの道キャッチチャレンジ
+
+RESOURCE ID: legendary_heroes_collection_sword_trade
+TEXT: 伝説の英雄：ソードの道交換チャレンジ
+
+RESOURCE ID: legendary_heroes_event_name
+TEXT: 伝説の英雄
+
+RESOURCE ID: legendary_heroes_tr_name
+TEXT: 伝説の英雄タイムチャレンジ
+
+RESOURCE ID: legendary_heroes_tr_name_shield_1
+TEXT: 伝説の英雄タイムチャレンジ：シールドの道(1/2)
+
+RESOURCE ID: legendary_heroes_tr_name_shield_2
+TEXT: 伝説の英雄タイムチャレンジ：シールドの道(2/2)
+
+RESOURCE ID: legendary_heroes_tr_name_sword_1
+TEXT: 伝説の英雄タイムチャレンジ：ソードの道(1/2)
+
+RESOURCE ID: legendary_heroes_tr_name_sword_2
+TEXT: 伝説の英雄タイムチャレンジ：ソードの道(2/2)
+
+RESOURCE ID: legendary_heroes_tr_shield_button_text_key
+TEXT: シールドの道
+
+RESOURCE ID: legendary_heroes_tr_shield_description_key
+TEXT: シールドの道を進みます。
+
+RESOURCE ID: legendary_heroes_tr_shield_title_key
+TEXT: シールドの道
+
+RESOURCE ID: legendary_heroes_tr_sword_button_text_key
+TEXT: ソードの道
+
+RESOURCE ID: legendary_heroes_tr_sword_description_key
+TEXT: ソードの道を進みます。
+
+RESOURCE ID: legendary_heroes_tr_sword_title_key
+TEXT: ソードの道
 
 RESOURCE ID: legendary_mythical_and_ultra_beast_not_allowed_in_gyms
 TEXT: 伝説・幻のポケモンとウルトラビーストはジムに配置できません
@@ -39252,9 +39374,9 @@ RESOURCE ID: meshing_option_title
 TEXT: メッシュ生成
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2024-09-26T22:38:58.645291+00:00 for ja-JP
-at SHA 4f3cd4da43f34
-Pipeline 2645106, job 32367297
+TEXT: Built at 2024-10-09T22:24:02.492841+00:00 for ja-JP
+at SHA 365e92f1ce
+Pipeline 2676692, job 32740337
 
 RESOURCE ID: mex_fighting_promo_title
 TEXT: タイムチャレンジ：かくとうタイプ
@@ -46060,7 +46182,7 @@ RESOURCE ID: photobomb_five_spheal
 TEXT: GOスナップショットでタマザラシのサプライズ5回
 
 RESOURCE ID: photobomb_five_squirtle
-TEXT: GOスナップショットでゼニガメルのサプライズ5回
+TEXT: GOスナップショットでゼニガメのサプライズ5回
 
 RESOURCE ID: photobomb_five_starly
 TEXT: GOスナップショットでムックルのサプライズ5回
@@ -63323,10 +63445,10 @@ RESOURCE ID: quest_party_catch_water_type_singular
 TEXT: チーム参加中みずタイプのポケモンを捕まえる
 
 RESOURCE ID: quest_party_challenge_plural
-TEXT: チームチャレンジを{0}件完了する
+TEXT: チームチャレンジを{0}回達成する
 
 RESOURCE ID: quest_party_challenge_singular
-TEXT: チームチャレンジを完了する
+TEXT: チームチャレンジを達成する
 
 RESOURCE ID: quest_platinum_johto_badge
 TEXT: ジョウトメダルをプラチナにする
@@ -77704,7 +77826,7 @@ RESOURCE ID: quests_log_complete_bread_mp_walk_quest
 TEXT: 探索して{0}マックス粒子を手に入れた！
 
 RESOURCE ID: quests_log_complete_party_quest
-TEXT: チームチャレンジ：{0}を完了した！
+TEXT: チームチャレンジ：{0}を達成した！
 
 RESOURCE ID: quests_log_complete_quest
 TEXT: {0}、を達成した！
@@ -83220,6 +83342,15 @@ TEXT: フィールドリサーチの大発見でもらえる道具増
 RESOURCE ID: research_breakthrough_bonus_stardust
 TEXT: フィールドリサーチタスク完了でもらえるほしのすな増
 
+RESOURCE ID: research_day_passimian_and_oranguru_event_name
+TEXT: ヤレユータンとナゲツケサルのリサーチデイ
+
+RESOURCE ID: research_day_passimian_and_oranguru_tr_name_oranguru
+TEXT: ヤレユータンプレミアムタイムチャレンジ
+
+RESOURCE ID: research_day_passimian_and_oranguru_tr_name_passimian
+TEXT: ナゲツケサルプレミアムタイムチャレンジ
+
 RESOURCE ID: research_masterball_catching_wonders
 TEXT: 続行リサーチ：道具ワンダーでマスターボール
 
@@ -88264,6 +88395,9 @@ TEXT: 当日できる特別な交換3回
 RESOURCE ID: special_trade_plus_3
 TEXT: 特別な交換3回追加
 
+RESOURCE ID: special_trade_stardust_half
+TEXT: 1/2　特別な交換に必要なほしのすな
+
 RESOURCE ID: special_trades_plus_5
 TEXT: 特別な交換5回追加
 
@@ -91285,6 +91419,21 @@ TEXT: サステナビリティデイウィークコレクションチャレン�
 RESOURCE ID: switch_sleep_warning
 TEXT: スマートデバイスがスリープ状態になるなどして、通信が途切れてしまわないよう、ご注意ください
 
+RESOURCE ID: swsh_masterball_sr_title
+TEXT: 続行リサーチ：マスターボール
+
+RESOURCE ID: swsh_masterball_sr_title_0
+TEXT: 続行リサーチ：マスターボール(1/4)
+
+RESOURCE ID: swsh_masterball_sr_title_1
+TEXT: 続行リサーチ：マスターボール(2/4)
+
+RESOURCE ID: swsh_masterball_sr_title_2
+TEXT: 続行リサーチ：マスターボール(3/4)
+
+RESOURCE ID: swsh_masterball_sr_title_3
+TEXT: 続行リサーチ：マスターボール(4/4)
+
 RESOURCE ID: system_location_prompt
 TEXT: ポケモンやポケストップを探すために、位置情報を使用します。
 
@@ -91626,7 +91775,7 @@ TEXT: <b>適用されるボーナス：</b>
 ・ディアルガのアメ10個とパルキアのアメ10個
 
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
-TEXT: PokémonGOワイルドエリア：グローバルのチケット（無料先行リリース）
+TEXT: 先行配布の無料PokémonGOワイルドエリア：グローバルチケット
 
 RESOURCE ID: text_rewards_key_growtogether24
 TEXT: <b>適用ボーナス：</b>
@@ -91669,8 +91818,8 @@ TEXT: <b>もらえるもの：</b>
 
 このチケットを購入すると、ルカリオお面がもらえるバージョンは購入できません。別バージョンに関する詳細は、<a href="https://pokemongolive.com/post/mega-lucario-raid-ultra-unlock">こちら</a>でご確認ください。
 
-RESOURCE ID: text_rewards_key_monthlyticketoct24
-TEXT: 現地時間2024年10月3日～11月2日に、ポケコインなどがもらえるボーナスフィールドリサーチを受け取るためのチケット。
+RESOURCE ID: text_rewards_key_monthlyticketnov24
+TEXT: 現地時間2024年11月3日～12月2日に200ボーナスポケコインなどがもらえるタイムチャレンジとボーナスポケコインがもらえるデイリーボーナスフィールドリサーチを受け取るためのチケット。
 
 <b>適用ボーナス：</b>毎日最初のログイン後に受け取る20ポケコインがもらえるフィールドリサーチタスク
 ・最初の1匹とスピンでもらえるXP3倍
@@ -91678,7 +91827,18 @@ TEXT: 現地時間2024年10月3日～11月2日に、ポケコインなどがも�
 ・一日にポケストップ・ジムを回してもらえるギフトの上限150個
 ・バッグ内に一度に持てるギフトの上限40個
 
-注）フィールドリサーチが3件以下であるときボーナスフィールドリサーチが受け取れます。タスク完了後に20ポケコインを受け取るのを忘れないようにしてください。フィールドリサーチの詳細は<a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">こちら</a>でご確認いただけます。
+注）毎日最初のログイン時にフィールドリサーチが3件以下でないとボーナスフィールドリサーチが受け取れません。タスク完了後に20ポケコインを受け取るのを忘れないようにしてください。フィールドリサーチの詳細は<a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">こちら</a>でご確認いただけます。
+
+RESOURCE ID: text_rewards_key_monthlyticketoct24
+TEXT: 現地時間2024年10月3日～11月2日に200ボーナスポケコインなどがもらえるタイムチャレンジとボーナスポケコインがもらえるデイリーボーナスフィールドリサーチを受け取るためのチケット。
+
+<b>適用ボーナス：</b>毎日最初のログイン後に受け取る20ポケコインがもらえるフィールドリサーチタスク
+・最初の1匹とスピンでもらえるXP3倍
+・一日に開けられるギフトの上限50個
+・一日にポケストップ・ジムを回してもらえるギフトの上限150個
+・バッグ内に一度に持てるギフトの上限40個
+
+注）毎日最初のログイン時にフィールドリサーチが3件以下でないとボーナスフィールドリサーチが受け取れません。タスク完了後に20ポケコインを受け取るのを忘れないようにしてください。フィールドリサーチの詳細は<a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">こちら</a>でご確認いただけます。
 
 RESOURCE ID: text_rewards_key_monthlyticketsept24
 TEXT: 現地時間2024年9月3日～10月2日に200ボーナスポケコインがもらえるタイムチャレンジとボーナスポケコインがもらえるボーナスフィールドリサーチを受け取るためのチケット。
@@ -91713,6 +91873,17 @@ TEXT: <b>もらえるもの：</b>
 ・ジムのフォトディスクを回してもらえるレイドパス8枚追加
 ・レイドでもらえるふしぎなアメXLの確率アップ
 ・レイドに勝ってもらえるXP50%増とほしのすな2倍
+
+RESOURCE ID: text_rewards_key_psychspec24
+TEXT: <b>もらえるもの：</b>
+・ネマシュとミブリムとの出会い
+・15000XP 
+・スーパーふかそうち1個とほしのかけら1個、など
+
+RESOURCE ID: text_rewards_key_researchdaysept24
+TEXT: 現地時間2024年9月22日2:00PM～5:00PMに、フィールドリサーチタスクをこなしていくことによりヤレユータンとナゲツケサルに出会えます。
+
+イベント開催中、タイムチャレンジを完了して出会えるポケモンは色違いポケモン（フィールドリサーチ完了で出会える色違いポケモンの可能性と同等）を含みます。
 
 RESOURCE ID: text_rewards_key_shayminmasterwork2024
 TEXT: <b>もらえるもの：</b>
@@ -93350,6 +93521,9 @@ TEXT: Pokémon GO Safari Zone シンガポール：
 
 RESOURCE ID: tr_sz_taipei_global
 TEXT: Safari Zone 台北：探索チャレンジ
+
+RESOURCE ID: tr_ticket_in_shop
+TEXT: プレミアムタイムチャレンジのチケットがショップに登場
 
 RESOURCE ID: tr_uxie_photo_safari
 TEXT: GO Tour：ユクシー
