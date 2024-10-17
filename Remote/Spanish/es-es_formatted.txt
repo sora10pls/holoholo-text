@@ -7,6 +7,15 @@ TEXT:
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: Desconectado
 
+RESOURCE ID: ar_not_supported_desc
+TEXT: Your device does not support AR.
+
+RESOURCE ID: ar_not_supported_title
+TEXT: Unsupported
+
+RESOURCE ID: ar_plus_got_it
+TEXT: Vale
+
 RESOURCE ID: avatar_hat_halloween2024
 TEXT: Chistera de Woobat
 
@@ -233,13 +242,25 @@ RESOURCE ID: bonus_two_free_raid_passes
 TEXT: Receive up to 2 Raid Passes at no cost by spinning Photo Discs at Gyms
 
 RESOURCE ID: bread_battle_cheer_charge_blocked
-TEXT: Meter is full!
+TEXT: ¡El contador está lleno!
 
 RESOURCE ID: bread_battle_log_global_cheer_bread_meter
-TEXT: YOUR CHEERING CHARGED YOUR ALLIES’ METERS!
+TEXT: ¡TU ENTUSIASMO HA CARGADO LOS MEDIDORES DE TUS ALIADOS!
+
+RESOURCE ID: bread_battle_received_global_cheering_boost
+TEXT: ¡LOS EQUIPOS TE ESTÁN ANIMANDO!
 
 RESOURCE ID: bread_battle_resolve_timed_out_title
-TEXT: Everyone’s Pokémon have grown tired!
+TEXT: ¡Los Pokémon de todos se han cansado!
+
+RESOURCE ID: bread_battle_tutorial_description_0
+TEXT: Derrota a poderosos Pokémon Dinamax y Gigamax para tener la oportunidad de capturarlos.
+
+RESOURCE ID: bread_battle_widget_default_message_container
+TEXT: {0} • {1}
+
+RESOURCE ID: bread_battle_widget_team_count
+TEXT: Team {0}
 
 RESOURCE ID: bread_dough_battle_ftue_body_generic
 TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 Trainers.
@@ -260,7 +281,7 @@ RESOURCE ID: bread_dough_lobby_trainer_list_title
 TEXT: {0} Trainers
 
 RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
-TEXT: 1 Trainer
+TEXT: 1 Entrenador
 
 RESOURCE ID: bread_more_mp_to_reach_daily_limit
 TEXT: Puedes recoger {0} PM más hoy
@@ -279,6 +300,9 @@ TEXT: Ya has colocado un Pokémon en este nodo energético.
 
 RESOURCE ID: bread_station_failure_label
 TEXT: No se puede colocar al Pokémon
+
+RESOURCE ID: bread_station_general
+TEXT: nodo energético
 
 RESOURCE ID: bundle.silk.box.1_title
 TEXT: Pack Seda
@@ -462,6 +486,42 @@ TEXT: Poison
 
 RESOURCE ID: gym_general
 TEXT: Gimnasio
+
+RESOURCE ID: halloween_03_oct24_event_name
+TEXT: Truco o trato: Caramelos para todos
+
+RESOURCE ID: halloween_encounter_tr_name
+TEXT: Investigación temporal prémium: Fiesta de disfraces
+
+RESOURCE ID: halloween_morpeko_tr_name
+TEXT: Investigación temporal prémium: Mono de Morpeko
+
+RESOURCE ID: halloween_morpeko_tr_name_full
+TEXT: Investigación temporal prémium: Mono de Morpeko (Camino de la Forma Saciada)
+
+RESOURCE ID: halloween_morpeko_tr_name_full_button_text_key
+TEXT: Camino de la Forma Saciada
+
+RESOURCE ID: halloween_morpeko_tr_name_full_description_key
+TEXT: Elige esta opción para el camino que lleva al mono de Morpeko (Forma Saciada) para el avatar.
+
+RESOURCE ID: halloween_morpeko_tr_name_full_title_key
+TEXT: Camino de la Forma Saciada
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry
+TEXT: Investigación temporal prémium: Mono de Morpeko (Camino de la Forma Voraz)
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_button_text_key
+TEXT: Camino de la Forma Voraz
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_description_key
+TEXT: Elige esta opción para el camino que lleva al mono de Morpeko (Forma Voraz) para el avatar.
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_title_key
+TEXT: Camino de la Forma Voraz
+
+RESOURCE ID: halloween_spiritomb_tr_name
+TEXT: Desafío de Spiritomb: Halloween 2024
 
 RESOURCE ID: hint_desc_loc_network_err_body_key
 TEXT: Apunta la cámara a la ubicación y haz que coincida
@@ -682,6 +742,12 @@ TEXT: Escoge esta opción para seguir el Camino de la Espada.
 RESOURCE ID: legendary_heroes_tr_sword_title_key
 TEXT: Camino de la Espada
 
+RESOURCE ID: limited_localization_nearby_hint_1
+TEXT: You are getting closer to the landmark!
+
+RESOURCE ID: limited_localization_progress_hint_1
+TEXT: Follow the sparkles to find the landmark.
+
 RESOURCE ID: localization_progress_hint_1
 TEXT: Apunta la cámara al lugar de interés
 y haz que coincida con la siguiente imagen.
@@ -766,10 +832,10 @@ RESOURCE ID: meetup_check_in_social_description
 TEXT: ¿Te gustaría charlar y pasar el rato con otros Entrenadores? Escoge esta opción para recibir una investigación temporal que te ayudará con este objetivo.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-11T00:41:33.558826+00:00 for es-ES
-at SHA 1d419619e4a
-Pipeline 2681171, job 32799613
-Patch from: 0.333.0-SHA-4f3cd4da-RC4, 0.335.0-SHA-5feb3260-RC3
+TEXT: Built at 2024-10-16T00:37:48.013229+00:00 for es-ES
+at SHA 8ab2113085e
+Pipeline 2691685, job 32923390
+Patch from: 0.335.0-SHA-5feb3260-RC3, 0.337.0-SHA-b4a38293-RC1, 0.333.0-SHA-4f3cd4da-RC4
 
 RESOURCE ID: mp_replenish.1_title
 TEXT: 1 Pack de PM ({0})
@@ -806,6 +872,9 @@ TEXT: 5 surprise encounters with Mankey in GO Snapshot
 
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: 5 encuentros sorpresa con Sewaddle al usar Instantánea de GO
+
+RESOURCE ID: poi_contrib_edit_desc_desc_custom
+TEXT: {0} Description
 
 RESOURCE ID: poi_contrib_edit_title_desc_custom
 TEXT: Título de {0}
@@ -863,6 +932,12 @@ TEXT: Appraise {0} Pokémon
 
 RESOURCE ID: quest_appraise_pokemon_singular
 TEXT: Appraise a Pokémon
+
+RESOURCE ID: quest_branching_special_dialogue_1
+TEXT: ¡Encantado de verte, %PLAYERNAME%! Nos espera una investigación de lo más interesante, pero necesito tu ayuda para decidir en qué nos centramos.
+
+RESOURCE ID: quest_branching_special_dialogue_2
+TEXT: ¿Qué dirección deberíamos tomar?
 
 RESOURCE ID: quest_buddy_affection_electric_plural
 TEXT: Consigue {0} corazones con un compañero de tipo Eléctrico
@@ -1347,7 +1422,7 @@ TEXT: Una entrada para el evento global del Área Silvestre de Pokémon GO. Esta
 
 RESOURCE ID: text_rewards_key_halloween2tr24
 TEXT: <b>Included rewards:</b>
-• Event-themed Pokémon encounters, including Pikachu wearing a witch hat, Vulpix wearing a Spooky Festival costume, Gengar wearing a Spooky Festival costume, Piplup wearing a Halloween Mischief costume, Drifblim wearing a Halloween Mischief costume, Froakie wearing a Pokémon Halloween costume, Pumpkaboo wearing a Spooky Festival costume, Rowlet wearing a Pokémon Halloween costume
+• Event-themed Pokémon encounters, including Pikachu wearing a witch hat and the following other Pokémon wearing Halloween-themed costumes: Vulpix, Gengar, Piplup, Drifblim, Froakie, Pumpkaboo, and Rowlet
 
 RESOURCE ID: text_rewards_key_masterball24
 TEXT: <b>Recompensas incluidas:</b>
@@ -1491,6 +1566,9 @@ TEXT: Las entradas para la investigación temporal prémium están disponibles e
 
 RESOURCE ID: vps_guardian_oob_toast
 TEXT: Te encuentras fuera del área de juego. Acércate para colocar un Pokémon.
+
+RESOURCE ID: vps_localization_guidance_in_car
+TEXT: Move closer to the landmark.
 
 RESOURCE ID: vps_localization_instruction_body
 TEXT: ¡Apunta la cámara al lugar de interés que aparece en esta imagen!

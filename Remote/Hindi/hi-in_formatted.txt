@@ -4,6 +4,12 @@ TEXT:
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: डकनेट हो गया है
 
+RESOURCE ID: ar_not_supported_desc
+TEXT: Your device does not support AR.
+
+RESOURCE ID: ar_not_supported_title
+TEXT: Unsupported
+
 RESOURCE ID: ar_plus_got_it
 TEXT: Got it
 
@@ -149,7 +155,7 @@ RESOURCE ID: badge_party_challenges_completed_title
 TEXT: टम क जान
 
 RESOURCE ID: badge_tag_bonus
-TEXT: Bonus
+TEXT: बोनस
 
 RESOURCE ID: battle_raids_party_plural
 TEXT: Battle in {0} raids while in a party
@@ -268,6 +274,12 @@ TEXT: YOUR CHEERING CHARGED YOUR ALLIES’ METERS!
 RESOURCE ID: bread_battle_resolve_timed_out_title
 TEXT: Everyone’s Pokémon have grown tired!
 
+RESOURCE ID: bread_battle_widget_default_message_container
+TEXT: {0} • {1}
+
+RESOURCE ID: bread_battle_widget_team_count
+TEXT: Team {0}
+
 RESOURCE ID: bread_dough_battle_ftue_body_generic
 TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 Trainers.
 
@@ -296,7 +308,7 @@ RESOURCE ID: bread_mp_cannot_store
 TEXT: आप और मैस पाटकल टोर नहीं कर सकते।
 
 RESOURCE ID: bread_notification_empty
-TEXT: {0} returned from the Power Spot.
+TEXT: {0} पावर पॉट से वापस आ गया।
 
 RESOURCE ID: bread_pokemon_info_tutorial_desc
 TEXT: यह पोकमॉन पावर पॉट पर पोकमॉन से बैटल करने क लए शतशाल मैस मूव का इतेमाल कर सकता है।
@@ -308,10 +320,13 @@ RESOURCE ID: bread_station_failure_description
 TEXT: यह पावर पॉट पोकमॉन रखने क अपनी सीमा तक पँच गया है।
 
 RESOURCE ID: bread_station_failure_description_duplicate
-TEXT: You have already placed a Pokémon at this Power Spot.
+TEXT: आप पहल ही इस पावर पॉट पर पोकमॉन रख चुक हैं।
 
 RESOURCE ID: bread_station_failure_label
 TEXT: पोकमॉन को रखा नहीं जा सका।
+
+RESOURCE ID: bread_station_general
+TEXT: पावर पॉट
 
 RESOURCE ID: bundle.silk.box.1_title
 TEXT: सक बॉस
@@ -509,13 +524,49 @@ RESOURCE ID: gowa_2024_quest_branch_poison_title
 TEXT: Poison
 
 RESOURCE ID: gym_general
-TEXT: Gym
+TEXT: जम
+
+RESOURCE ID: halloween_03_oct24_event_name
+TEXT: कडी पाटी
 
 RESOURCE ID: halloween_cup_great_title
 TEXT: हैलोवीन कप - ेट लग एडशन
 
 RESOURCE ID: halloween_cup_little_title
 TEXT: हैलोवीन कप - लटल एडशन 
+
+RESOURCE ID: halloween_encounter_tr_name
+TEXT: कॉट्यूम पाटी ीमयम सीमत समय वाल रसच
+
+RESOURCE ID: halloween_morpeko_tr_name
+TEXT: मोरपेको पोषाक ीमयम सीमत समय वाल रसच
+
+RESOURCE ID: halloween_morpeko_tr_name_full
+TEXT: मोरपेको पोषाक ीमयम सीमत समय वाल रसच - फ़ुल-बेल मोड माग
+
+RESOURCE ID: halloween_morpeko_tr_name_full_button_text_key
+TEXT: फ़ुल-बेल मोड माग
+
+RESOURCE ID: halloween_morpeko_tr_name_full_description_key
+TEXT: मोरपेको पोषाक (फ़ुल-बेल मोड) अवतार आइटम तक जाने वाल माग क लए इस वकप को चुनें।
+
+RESOURCE ID: halloween_morpeko_tr_name_full_title_key
+TEXT: फ़ुल-बेल मोड माग
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry
+TEXT: मोरपेको पोषाक ीमयम सीमत समय वाल रसच - हंी मोड माग
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_button_text_key
+TEXT: हंी मोड माग
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_description_key
+TEXT: मोरपेको पोषाक (हंी मोड) अवतार आइटम तक जाने वाल माग क लए इस वकप को चुनें।
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_title_key
+TEXT: हंी मोड माग
+
+RESOURCE ID: halloween_spiritomb_tr_name
+TEXT: हैलोवीन 2024 - कौकक चैलंज
 
 RESOURCE ID: hint_desc_loc_network_err_body_key
 TEXT: Point your camera at the location and match
@@ -742,6 +793,12 @@ TEXT: वॉड पथ पर आगे बढ़ने क लए य�
 RESOURCE ID: legendary_heroes_tr_sword_title_key
 TEXT: वॉड पथ
 
+RESOURCE ID: limited_localization_nearby_hint_1
+TEXT: You are getting closer to the landmark!
+
+RESOURCE ID: limited_localization_progress_hint_1
+TEXT: Follow the sparkles to find the landmark.
+
 RESOURCE ID: localization_progress_hint_1
 TEXT: Point your camera at the landmark
 and match it to the image below.
@@ -822,10 +879,10 @@ RESOURCE ID: meetup_check_in_social_description
 TEXT: या आप अय टनर क साथ बातचीत और समय बताना चाहते हैं? सीमत समय वाल रसच ात करने क लए यह वकप चुनें जो आपक यास में सहायक होगा।
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-11T00:41:33.558826+00:00 for hi-IN
-at SHA 1d419619e4a
-Pipeline 2681171, job 32799613
-Patch from: 0.333.0-SHA-4f3cd4da-RC4, 0.335.0-SHA-5feb3260-RC3
+TEXT: Built at 2024-10-16T00:37:48.013229+00:00 for hi-IN
+at SHA 8ab2113085e
+Pipeline 2691685, job 32923390
+Patch from: 0.335.0-SHA-5feb3260-RC3, 0.337.0-SHA-b4a38293-RC1, 0.333.0-SHA-4f3cd4da-RC4
 
 RESOURCE ID: move_name_0406
 TEXT: ऑरा हील
@@ -834,13 +891,13 @@ RESOURCE ID: move_name_0407
 TEXT: ऑरा हील
 
 RESOURCE ID: mp_replenish.1_title
-TEXT: 1 मैस पाटकल पैक ({0} PM)
+TEXT: मैस पाटकल पैक ({0} MP)
 
 RESOURCE ID: mp_replenish.3_title
 TEXT: 3 मैस पाटकल पैक ({0} PM)
 
 RESOURCE ID: nearby_station_active_header
-TEXT: Active
+TEXT: एटव
 
 RESOURCE ID: not_now
 TEXT: अभी नहीं
@@ -857,20 +914,23 @@ TEXT: 5 surprise encounters with Mankey in GO Snapshot
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: GO नैपशॉट में लपता क साथ 5 सराइज़ मुलाकात
 
+RESOURCE ID: poi_contrib_edit_desc_desc_custom
+TEXT: {0} Description
+
 RESOURCE ID: poi_contrib_edit_title_desc_custom
-TEXT: {0} Title
+TEXT: {0} टाइटल
 
 RESOURCE ID: poi_contrib_entry_ar_data_custom
-TEXT: Scan {0}
+TEXT: {0} कन करं
 
 RESOURCE ID: poi_contrib_entry_header_custom
-TEXT: Contribute to This {0}
+TEXT: इस {0} में योगदान करं 
 
 RESOURCE ID: poi_contrib_entry_report_invalid_custom
-TEXT: Report {0} Issue
+TEXT: {0} गड़बड़ी रपोट करं
 
 RESOURCE ID: poi_contrib_report_reason_duplicate_custom
-TEXT: Duplicate {0}
+TEXT: डुलकट {0}
 
 RESOURCE ID: pokemon_ibfc_desc_0877
 TEXT: यह पोकमॉन चाज्ड अटैक का इतेमाल करने पर टांसफ़ॉम होगा। हंी मोड में ऑरा हील, डाक-टाइप अटैक में बदल जाएगा।
@@ -881,35 +941,47 @@ TEXT: बैटल पेशल फ़ॉम
 RESOURCE ID: pokemon_ibfc_name_0877
 TEXT: हंी मोड
 
+RESOURCE ID: pokemon_info_evolve_pokemon_deployed
+TEXT: {0} को जम या पावर पॉट पर तैनात कया गया है।
+
 RESOURCE ID: pokemon_info_evolve_pokemon_iris_social_deployed
 TEXT: {0} पोकटॉप पर खेल रहा है।
+
+RESOURCE ID: pokemon_info_powerup_pokemon_deployed
+TEXT: {0} को जम या पावर पॉट पर तैनात कया गया है।
 
 RESOURCE ID: pokemon_location_card_info_transfer_to_professor_confirmation
 TEXT: या आप वाकई रयर बैकाउंड वाल इस पोकमॉन को टांसफ़र करना चाहते है?
 
 RESOURCE ID: pokemon_name_bread
-TEXT: Dynamax {0}
+TEXT: डायनामैस {0}
 
 RESOURCE ID: pokemon_name_bread_dough
-TEXT: Gigantamax {0}
+TEXT: जायगैंटामैस {0}
 
 RESOURCE ID: pokemon_name_bread_dough_short
-TEXT: G-Max {0}
+TEXT: जी-मैस {0}
 
 RESOURCE ID: pokemon_name_bread_short
-TEXT: D-Max {0}
+TEXT: डी-मैस {0}
 
 RESOURCE ID: pokemon_tutorial_ibfc_desc
 TEXT: यह पोकमॉन बैटल में फ़ॉम बदल सकता है।
 
 RESOURCE ID: pokestop_general
-TEXT: PokéStop
+TEXT: पोकटॉप
 
 RESOURCE ID: quest_appraise_pokemon_plural
 TEXT: Appraise {0} Pokémon
 
 RESOURCE ID: quest_appraise_pokemon_singular
 TEXT: Appraise a Pokémon
+
+RESOURCE ID: quest_branching_special_dialogue_1
+TEXT: आपसे मलकर बत खुशी ई, %PLAYERNAME%! हमार सामने एक रोमांचक रसच है, लकन मुझे यह तय करने में आपक मदद चाहए क हमें कस पर यान कंित करना चाहए।
+
+RESOURCE ID: quest_branching_special_dialogue_2
+TEXT: आपक वचार से हमें कौन सी दशा चुननी चाहए?
 
 RESOURCE ID: quest_buddy_affection_electric_plural
 TEXT: इलटक-टाइप पाटनर क साथ {0} हाट ात करं
@@ -1456,7 +1528,7 @@ TEXT: Pokémon GO वाइड एरया : लोबल का �
 
 RESOURCE ID: text_rewards_key_halloween2tr24
 TEXT: <b>Included rewards:</b>
-• Event-themed Pokémon encounters, including Pikachu wearing a witch hat, Vulpix wearing a Spooky Festival costume, Gengar wearing a Spooky Festival costume, Piplup wearing a Halloween Mischief costume, Drifblim wearing a Halloween Mischief costume, Froakie wearing a Pokémon Halloween costume, Pumpkaboo wearing a Spooky Festival costume, Rowlet wearing a Pokémon Halloween costume
+• Event-themed Pokémon encounters, including Pikachu wearing a witch hat and the following other Pokémon wearing Halloween-themed costumes: Vulpix, Gengar, Piplup, Drifblim, Froakie, Pumpkaboo, and Rowlet
 
 RESOURCE ID: text_rewards_key_masterball24
 TEXT: <b>शामल रवॉड :</b>
@@ -1612,6 +1684,9 @@ TEXT:  {0} पावर पॉट से MP जमा करं
 
 RESOURCE ID: visit_power_spot_singular
 TEXT: पावर पॉट से MP जमा करं
+
+RESOURCE ID: vps_localization_guidance_in_car
+TEXT: Move closer to the landmark.
 
 RESOURCE ID: vps_localization_landscape_error
 TEXT: अपना फ़ोन सीधा रखें।

@@ -1,11 +1,20 @@
+RESOURCE ID: ar_backgrounded_error
+TEXT: Подключение к знаковому объекту было прервано.
+
 RESOURCE ID: ar_backgrounded_error_title
 TEXT: 
 
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: Подключение было прервано
 
+RESOURCE ID: ar_not_supported_desc
+TEXT: Your device does not support AR.
+
+RESOURCE ID: ar_not_supported_title
+TEXT: Unsupported
+
 RESOURCE ID: ar_plus_got_it
-TEXT: Got it
+TEXT: ОК
 
 RESOURCE ID: avatar_hat_halloween2024
 TEXT: Цилиндр Вубат
@@ -23,10 +32,10 @@ RESOURCE ID: avatar_shirt_morpekohangry
 TEXT: Комбинезон Морпеко (Злоголодный Режим)
 
 RESOURCE ID: badge_check_ins
-TEXT: Прими участие во встрече амбассадоров сообщества в разные дни ×{0}.
+TEXT: Зарегистрируйся на встречи амбассадоров сообщества  в разные дни ×{0}.
 
 RESOURCE ID: badge_check_ins_singular
-TEXT: Прими участие во встрече амбассадоров сообщества в первый раз.
+TEXT: Зарегистрируйся на встречу амбассадоров сообщества в первый раз.
 
 RESOURCE ID: badge_check_ins_title
 TEXT: Участник сообщества
@@ -146,13 +155,13 @@ RESOURCE ID: badge_party_challenges_completed_title
 TEXT: Душа компании
 
 RESOURCE ID: badge_tag_bonus
-TEXT: Bonus
+TEXT: Бонус
 
 RESOURCE ID: battle_raids_party_plural
-TEXT: Battle in {0} raids while in a party
+TEXT: Играя в команде, победи в рейдах ×{0}
 
 RESOURCE ID: battle_raids_party_singular
-TEXT: Battle in a raid while in a party
+TEXT: Играя в команде, победи в рейде
 
 RESOURCE ID: bonus_cd_move_annihilape
 TEXT: Evolve Primeape to get an Annihilape that knows the Charged Attack Rage Fist!
@@ -250,6 +259,12 @@ TEXT: YOUR CHEERING CHARGED YOUR ALLIES’ METERS!
 RESOURCE ID: bread_battle_resolve_timed_out_title
 TEXT: Everyone’s Pokémon have grown tired!
 
+RESOURCE ID: bread_battle_widget_default_message_container
+TEXT: {0} • {1}
+
+RESOURCE ID: bread_battle_widget_team_count
+TEXT: Team {0}
+
 RESOURCE ID: bread_dough_battle_ftue_body_generic
 TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 Trainers.
 
@@ -292,11 +307,17 @@ TEXT: Тебе уже удалось разместить Покемона в э
 RESOURCE ID: bread_station_failure_label
 TEXT: Покемон не может быть размещён
 
+RESOURCE ID: bread_station_general
+TEXT: Зона силы
+
 RESOURCE ID: bundle.silk.box.1_title
 TEXT: Шёлковая коробка
 
 RESOURCE ID: campfire_check_in_reward_notification_toast
-TEXT: Получена награда за участие в событии Амбассадор сообщества!
+TEXT: Получена награда за регистрацию на событие амбассадора сообщества!
+
+RESOURCE ID: campfire_checkin_notification
+TEXT: Встреча {0} начнётся в {1}! Регистрируйся, чтобы получить награду! 
 
 RESOURCE ID: community_day_mankey_event_name
 TEXT: День сообщества: Манки
@@ -336,8 +357,8 @@ TEXT: 23 ноября –
 24 ноября
 
 RESOURCE ID: event_datetime_range_key_halloween2tr24
-TEXT: October 22, 10:00 a.m. –
-November 3, 8:00 p.m.
+TEXT: 10:00 22 октября –
+20:00 3 ноября
 
 RESOURCE ID: event_datetime_range_key_masterball24
 TEXT: 10:00 4 октября –
@@ -383,7 +404,7 @@ RESOURCE ID: expires_in_hour_singular
 TEXT: Истекает через 1 час
 
 RESOURCE ID: field_research_special_tasks
-TEXT: Field Research tasks from check-in now available
+TEXT: Задания полевых квестов за регистрацию уже доступны
 
 RESOURCE ID: form_aegislash_blade
 TEXT: Форма Лезвие
@@ -972,7 +993,7 @@ RESOURCE ID: form_zygarde_ten_percent
 TEXT: 10-процентная Форма
 
 RESOURCE ID: fr_tag_meetup
-TEXT: Meetup
+TEXT: Встреча сообщества
 
 RESOURCE ID: galarian_expedition_collection_challenge_1
 TEXT: Коллекционное испытание 1 Галарская экспедиция
@@ -987,7 +1008,7 @@ RESOURCE ID: galarian_expedition_tgr_event_name
 TEXT: Галарская экспедиция: Захват
 
 RESOURCE ID: general1.ticket.2_halloween2tr24_title
-TEXT: Costume Party Premium Timed Research
+TEXT: Премиум-квест на время Костюмированная вечеринка
 
 RESOURCE ID: general1.ticket.2_holidaytr2023_description
 TEXT: Билет, дающий доступ к квесту на время Зимний праздник в двух частях. Тренеры могут выполнять задания квеста на время и забирать награды до 20:00 31 декабря 2023 по местному времени.
@@ -1090,29 +1111,65 @@ TEXT: Poison
 RESOURCE ID: gym_general
 TEXT: Гим
 
+RESOURCE ID: halloween_03_oct24_event_name
+TEXT: Конфетная вечеринка: Сладость или гадость
+
+RESOURCE ID: halloween_encounter_tr_name
+TEXT: Премиум-квест на время Костюмированная вечеринка
+
+RESOURCE ID: halloween_morpeko_tr_name
+TEXT: Премиум-квест на время Комбинезон Морпеко
+
+RESOURCE ID: halloween_morpeko_tr_name_full
+TEXT: Премиум-квест на время Комбинезон Морпеко: Путь Режим Полный Живот
+
+RESOURCE ID: halloween_morpeko_tr_name_full_button_text_key
+TEXT: Путь Режим Полный Живот
+
+RESOURCE ID: halloween_morpeko_tr_name_full_description_key
+TEXT: Выбери этот вариант, чтобы пройти путь, ведущий к предмету для аватара Комбинезон Морпеко (Режим Полный Живот).
+
+RESOURCE ID: halloween_morpeko_tr_name_full_title_key
+TEXT: Путь Режим Полный Живот
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry
+TEXT: Премиум-квест на время Комбинезон Морпеко: Путь Злоголодный Режим
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_button_text_key
+TEXT: Путь Злоголодный Режим
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_description_key
+TEXT: Выбери этот вариант, чтобы пройти путь, ведущий к предмету для аватара Комбинезон Морпеко (Злоголодный Режим).
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_title_key
+TEXT: Путь Злоголодный Режим
+
+RESOURCE ID: halloween_spiritomb_tr_name
+TEXT: Хэллоуин 2024: Испытание Спиритум
+
 RESOURCE ID: hint_desc_loc_network_err_body_key
-TEXT: Point your camera at the location and match
-it to the hint image as you walk around it
-slowly to capture multiple angles.
+TEXT: Наведи камеру на место, которое изображено
+ на фото с подсказкой, и медленно обойди вокруг него,
+ чтобы снять его с разных ракурсов.
 
 RESOURCE ID: hint_desc_loc_network_err_title_key
-TEXT: Something went wrong...
+TEXT: Что-то пошло не так...
 
 RESOURCE ID: hint_desc_loc_not_ready_body_key
-TEXT: Point your camera at the landmark and match it to the hint image as you walk around it slowly to capture multiple angles.
+TEXT: Наведи камеру на знаковый объект, который изображён на фото с подсказкой, и медленно обойди вокруг него, чтобы снять его с разных ракурсов.
 
 RESOURCE ID: hint_desc_loc_not_ready_title_key
-TEXT: Something went wrong...
+TEXT: Что-то пошло не так...
 
 RESOURCE ID: hint_desc_loc_ready_title_key
-TEXT: Point your camera at the landmark in this image!
+TEXT: Наведи камеру на знаковый объект на фото!
 
 RESOURCE ID: hint_desc_loc_retry_button_key
-TEXT: Try again
+TEXT: Попробовать ещё раз
 
 RESOURCE ID: hint_desc_ready_title_key
-TEXT: Find the landmark.
-It’s nearby!
+TEXT: Найди знаковый объект.
+Он близко!
 
 RESOURCE ID: home_transfer_error_gym_deployed
 TEXT: Ты не можешь отправлять Покемонов, защищающих Гимы или размещённых в Зонах силы.
@@ -1133,67 +1190,67 @@ RESOURCE ID: incenseordinary.8_title
 TEXT: 8 ладанов
 
 RESOURCE ID: iris_social_confirm_exit_modal_body
-TEXT: Pokémon will stay and play for a little while until they get tired and return, but you can call them back earlier.
+TEXT: Покемоны останутся в этом месте на какое-то время и вернутся к тебе, когда устанут, но ты можешь позвать их обратно раньше.
 
 RESOURCE ID: iris_social_confirm_exit_modal_title
-TEXT: Are you sure you want to leave?
+TEXT: Ты точно хочешь выйти?
 
 RESOURCE ID: iris_social_diagnostic_okay_button
-TEXT: Submit Report
+TEXT: Отправить жалобу
 
 RESOURCE ID: iris_social_diagnostic_title
-TEXT: This feature is under development!
+TEXT: Эта функция находится в стадии разработки!
 
 RESOURCE ID: iris_social_diagnostics_option_five
-TEXT: This location is unsuitable for AR
+TEXT: Это место не подходит для AR
 
 RESOURCE ID: iris_social_diagnostics_option_four
-TEXT: I’m looking at the landmark and nothing is happening
+TEXT: Я навожу камеру на знаковый объект, но ничего не происходит
 
 RESOURCE ID: iris_social_diagnostics_option_one
-TEXT: I can’t find the landmark in the image
+TEXT: Я не могу найти знаковый объект на фото
 
 RESOURCE ID: iris_social_diagnostics_option_three
-TEXT: I don’t know where to point my camera
+TEXT: Я не знаю, куда навести камеру
 
 RESOURCE ID: iris_social_diagnostics_option_two
-TEXT: Hint image is unclear
+TEXT: Фото с подсказкой нечёткое
 
 RESOURCE ID: iris_social_diagnostics_subtitle
-TEXT: Please report any issues or feedback you have using this experimental feature.
+TEXT: Просим сообщать о любых проблемах или замечаниях при использовании этой экспериментальной функции.
 
 RESOURCE ID: iris_social_entry_instruction_body
-TEXT: Pokémon can gather, play, and meet other Trainers at landmarks! Point your camera at the landmark to view and interact with any Pokémon there.
+TEXT: Покемоны могут собираться вместе, играть и встречать других Тренеров около знаковых объектов! Наведи камеру на знаковый объект, чтобы посмотреть находящихся там Покемонов и взаимодействовать с ними.
 
 RESOURCE ID: iris_social_entry_instruction_title
-TEXT: You found a landmark!
+TEXT: Тебе удалось найти знаковый объект!
 
 RESOURCE ID: iris_social_info_screen_playtime_stat_label
 TEXT: Оставшееся время
 
 RESOURCE ID: iris_social_landmark_too_far_body
-TEXT: Walk closer to see the Pokémon.
+TEXT: Подойди ближе, чтобы посмотреть на Покемонов.
 
 RESOURCE ID: iris_social_landmark_too_far_header
-TEXT: You are too far from the landmark.
+TEXT: Ты слишком далеко от знакового объекта.
 
 RESOURCE ID: iris_social_limited_pokemon_key_temp
 TEXT: Для этого Покемона сейчас не хватает места.
 
 RESOURCE ID: iris_social_rotation_error_key
-TEXT: You can only rotate your own Pokémon.
+TEXT: Ты можешь поворачивать только своего Покемона.
 
 RESOURCE ID: iris_social_temporary_disable_key
-TEXT: This location isn’t available right now. Please come back later.
+TEXT: Это место сейчас недоступно. Вернись позже.
 
 RESOURCE ID: item_event_ticket_04_desc_halloween2tr24
-TEXT: A ticket to access the Costume Party Premium Timed Research from October 22 at 10:00 a.m. to November 3, 2024, at 8:00 p.m. local time, wherever you are.
+TEXT: Билет, дающий доступ к премиум-квесту на время Костюмированная вечеринка с 10:00 22 октября до 20:00 3 ноября 2024 по местному времени, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_04_desc_researchdaysept24
 TEXT: Билет, дающий доступ к двум премиум-квестам на время День исследований Орангуру и Пассимиан 22 сентября 2024 с 14:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_04_details_halloween2tr24
-TEXT: This ticket will automatically activate to give you access to the Costume Party Premium Timed Research on October 22, wherever you are.
+TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к премиум-квесту на время Костюмированная вечеринка 22 октября, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_04_details_researchdaysept24
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к двум премиум-квестам День исследований Орангуру и Пассимиан 22 сентября, вне зависимости от твоего местонахождения.
@@ -1324,15 +1381,25 @@ TEXT: Выбери этот вариант, чтобы пройти Путь Swo
 RESOURCE ID: legendary_heroes_tr_sword_title_key
 TEXT: Путь Sword
 
+RESOURCE ID: limited_localization_nearby_hint_1
+TEXT: You are getting closer to the landmark!
+
+RESOURCE ID: limited_localization_progress_hint_1
+TEXT: Follow the sparkles to find the landmark.
+
 RESOURCE ID: localization_progress_hint_1
-TEXT: Point your camera at the landmark
-and match it to the image below.
+TEXT: Наведи камеру на знаковый объект,
+который изображён на фото с подсказкой.
 
 RESOURCE ID: localization_progress_hint_2
-TEXT: Walk slowly around the landmark.
+TEXT: Медленно обойди вокруг знакового места.
 
 RESOURCE ID: localization_success_hint
-TEXT: You found the landmark!
+TEXT: Тебе удалось найти знаковое место!
+
+RESOURCE ID: location_space_limit_message
+TEXT: Для этого Покемона сейчас
+не хватает места.
 
 RESOURCE ID: lure_magnetic_event_bonus
 TEXT: Магнитные приманки привлекают тематических Ивент-Покемонов
@@ -1380,19 +1447,19 @@ RESOURCE ID: maxpotion.5_title
 TEXT: 5 эликсиров макс
 
 RESOURCE ID: meetup_check_in_battle
-TEXT: Битва
+TEXT: Битвы
 
 RESOURCE ID: meetup_check_in_battle_description
 TEXT: Не терпится сразиться с Командой Ракета GO или другими Тренерами? Выбери этот вариант, чтобы получить квест на время, который отправит тебя в сердце сражения.
 
 RESOURCE ID: meetup_check_in_bonus
-TEXT: Meetup Check-in Bonus
+TEXT: Бонус за регистрацию на встречу
 
 RESOURCE ID: meetup_check_in_dialogue_00
 TEXT: Что привело тебя сюда, Тренер?
 
 RESOURCE ID: meetup_check_in_pokemon
-TEXT: Поимка Покемонов
+TEXT: Поимка
 
 RESOURCE ID: meetup_check_in_pokemon_description
 TEXT: Собираешься поймать много Покемонов в компании других Тренеров? Выбери этот вариант, чтобы получить квест на время, который поможет тебе с этой задачей.
@@ -1407,13 +1474,13 @@ RESOURCE ID: meetup_check_in_research_title
 TEXT: Квест на время Встреча сообщества
 
 RESOURCE ID: meetup_check_in_research_title_00
-TEXT: Квест на время Встреча сообщества: Поимка Покемонов
+TEXT: Квест на время Встреча сообщества: Поимка
 
 RESOURCE ID: meetup_check_in_research_title_01
-TEXT: Квест на время Встреча сообщества: Рейд
+TEXT: Квест на время Встреча сообщества: Рейды
 
 RESOURCE ID: meetup_check_in_research_title_02
-TEXT: Квест на время Встреча сообщества: Битва
+TEXT: Квест на время Встреча сообщества: Битвы
 
 RESOURCE ID: meetup_check_in_research_title_03
 TEXT: Квест на время Встреча сообщества: Общение
@@ -1425,10 +1492,10 @@ RESOURCE ID: meetup_check_in_social_description
 TEXT: Хочешь пообщаться с другими Тренерами? Выбери этот вариант, чтобы получить квест на время, который поможет в достижении этой цели.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-11T00:41:33.558826+00:00 for ru-RU
-at SHA 1d419619e4a
-Pipeline 2681171, job 32799613
-Patch from: 0.333.0-SHA-4f3cd4da-RC4, 0.335.0-SHA-5feb3260-RC3
+TEXT: Built at 2024-10-16T00:37:48.013229+00:00 for ru-RU
+at SHA 8ab2113085e
+Pipeline 2691685, job 32923390
+Patch from: 0.335.0-SHA-5feb3260-RC3, 0.337.0-SHA-b4a38293-RC1, 0.333.0-SHA-4f3cd4da-RC4
 
 RESOURCE ID: mp_replenish.1_title
 TEXT: набор частиц макс ({0} ЧМ)
@@ -1445,20 +1512,29 @@ TEXT: Фестивальная маска (Пикачу)
 RESOURCE ID: nearby_station_active_header
 TEXT: Активные
 
+RESOURCE ID: no_pokemon_found_body
+TEXT: Ты хочешь добавить одного из своих Покемонов?
+
+RESOURCE ID: no_pokemon_found_header
+TEXT: Твой Покемон ещё не был здесь размещён!
+
 RESOURCE ID: not_now
 TEXT: НЕ СЕЙЧАС
 
 RESOURCE ID: party_play_field_research_special
-TEXT: Party Challenges from check-in now available
+TEXT: Испытания команды за регистрацию уже доступны
 
 RESOURCE ID: party_play_tandemaus_boost
-TEXT: Boosted chance of finding Tandemaus in Party Challenge reward encounters
+TEXT: Увеличенный шанс встретить Тандемауса в качестве награды за испытание команды
 
 RESOURCE ID: photobomb_five_mankey
 TEXT: 5 surprise encounters with Mankey in GO Snapshot
 
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: 5 неожиданных встреч с Севаддлом в Стоп-кадре GO
+
+RESOURCE ID: poi_contrib_edit_desc_desc_custom
+TEXT: {0} Description
 
 RESOURCE ID: poi_contrib_edit_title_desc_custom
 TEXT: Название: {0}
@@ -1478,12 +1554,27 @@ TEXT: {0} дублируется
 RESOURCE ID: pokecoins_iap_string_key
 TEXT: {0} Покемонет
 
+RESOURCE ID: pokemon_category_0204
+TEXT: Покемон-Мешочница
+
+RESOURCE ID: pokemon_category_0311
+TEXT: Покемон-Подбадривание
+
 RESOURCE ID: pokemon_category_0589
 TEXT: Покемон-Кавалерист
+
+RESOURCE ID: pokemon_category_0622
+TEXT: Покемон-Робот
+
+RESOURCE ID: pokemon_category_0623
+TEXT: Покемон-Робот
 
 RESOURCE ID: pokemon_category_0630
 TEXT: Покемон-Стервятник
 
+
+RESOURCE ID: pokemon_category_0737
+TEXT: Покемон-Батарейка
 
 RESOURCE ID: pokemon_category_0819
 TEXT: Щекастый Покемон
@@ -1529,6 +1620,12 @@ TEXT: Appraise {0} Pokémon
 
 RESOURCE ID: quest_appraise_pokemon_singular
 TEXT: Appraise a Pokémon
+
+RESOURCE ID: quest_branching_special_dialogue_1
+TEXT: Рад тебя видеть, %PLAYERNAME%! Нас ждут увлекательные исследования, но мне нужна твоя помощь.
+
+RESOURCE ID: quest_branching_special_dialogue_2
+TEXT: Как думаешь, какое направление нам стоит выбрать?
 
 RESOURCE ID: quest_buddy_affection_electric_plural
 TEXT: Заработай сердечки с Покемоном типа Электро в качестве приятеля ×{0}
@@ -1840,7 +1937,7 @@ RESOURCE ID: raid_day_mega_mawile_event_name
 TEXT: Рейдовый день: Мега-Мавайл
 
 RESOURCE ID: reduced_hatch_party_play
-TEXT: Reduced Hatch Distance while in a Party
+TEXT: Уменьшенное расстояние для вынашивания яиц при игре в команде
 
 RESOURCE ID: research_day_passimian_and_oranguru_event_name
 TEXT: День исследований Орангуру и Пассимиан
@@ -2029,8 +2126,8 @@ RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: Билет на событие Нетронутые земли Pokémon GO: По всему миру, полученный тобой заранее и бесплатно.
 
 RESOURCE ID: text_rewards_key_halloween2tr24
-TEXT: <b>Included rewards:</b>
-• Event-themed Pokémon encounters, including Pikachu wearing a witch hat, Vulpix wearing a Spooky Festival costume, Gengar wearing a Spooky Festival costume, Piplup wearing a Halloween Mischief costume, Drifblim wearing a Halloween Mischief costume, Froakie wearing a Pokémon Halloween costume, Pumpkaboo wearing a Spooky Festival costume, Rowlet wearing a Pokémon Halloween costume
+TEXT: <b>Включает следующие награды:</b>
+• Встречи с тематическими Ивент-Покемонами, в том числе с Пикачу в шляпе ведьмы и следующими Покемонами в хэллоуинских костюмах: Валпиксом, Генгаром, Пиплапом, Дрифблимом, Фроки, Пампкабу и Раулетом
 
 RESOURCE ID: text_rewards_key_masterball24
 TEXT: <b>Включает следующие награды:</b>
@@ -2113,7 +2210,7 @@ RESOURCE ID: ticket_sewaddle
 TEXT: Билет, дающий доступ к специальному квесту Осенний листопад, доступен в магазине
 
 RESOURCE ID: timed_research_special
-TEXT: Timed Research from check-in now available
+TEXT: Квест на время за регистрацию уже доступен
 
 RESOURCE ID: tr_gowa2024_global_daily_electric
 TEXT: GO Wild Area 2024: Electric
@@ -2189,6 +2286,15 @@ TEXT: Мусорный Покров
 
 RESOURCE ID: troydisk.8_title
 TEXT: 8 приманок
+
+RESOURCE ID: vps_guardian_oob_toast
+TEXT: Ты находишься вне игровой зоны. Подойди ближе, чтобы разместить Покемона.
+
+RESOURCE ID: vps_localization_guidance_in_car
+TEXT: Move closer to the landmark.
+
+RESOURCE ID: vps_localization_instruction_body
+TEXT: Наведи камеру на знаковый объект на фото!
 
 RESOURCE ID: vps_localization_landscape_error
 TEXT: Держи телефон вертикально.

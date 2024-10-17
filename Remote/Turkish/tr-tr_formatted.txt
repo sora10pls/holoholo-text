@@ -1,11 +1,20 @@
+RESOURCE ID: ar_backgrounded_error
+TEXT: Referans noktası bölgesiyle bağlantınız koptu.
+
 RESOURCE ID: ar_backgrounded_error_title
 TEXT: 
 
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: Bağlantı koptu
 
+RESOURCE ID: ar_not_supported_desc
+TEXT: Your device does not support AR.
+
+RESOURCE ID: ar_not_supported_title
+TEXT: Unsupported
+
 RESOURCE ID: ar_plus_got_it
-TEXT: Got it
+TEXT: Anladım
 
 RESOURCE ID: avatar_hat_halloween2024
 TEXT: Woobat Silindir Şapkası
@@ -257,13 +266,22 @@ RESOURCE ID: bonus_two_free_raid_passes
 TEXT: Receive up to 2 Raid Passes at no cost by spinning Photo Discs at Gyms
 
 RESOURCE ID: bread_battle_cheer_charge_blocked
-TEXT: Meter is full!
+TEXT: Gösterge doldu!
 
 RESOURCE ID: bread_battle_log_global_cheer_bread_meter
-TEXT: YOUR CHEERING CHARGED YOUR ALLIES’ METERS!
+TEXT: TEZAHÜRATINIZ DOSTLARINIZIN GÖSTERGESİNİ DOLDURDU!
+
+RESOURCE ID: bread_battle_received_global_cheering_boost
+TEXT: TAKIMLAR SİZE TEZAHÜRAT YAPIYOR!
 
 RESOURCE ID: bread_battle_resolve_timed_out_title
-TEXT: Everyone’s Pokémon have grown tired!
+TEXT: Herkesin Pokémon’ları yorgun düştü!
+
+RESOURCE ID: bread_battle_widget_default_message_container
+TEXT: {0} • {1}
+
+RESOURCE ID: bread_battle_widget_team_count
+TEXT: Team {0}
 
 RESOURCE ID: bread_dough_battle_ftue_body_generic
 TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 Trainers.
@@ -284,7 +302,7 @@ RESOURCE ID: bread_dough_lobby_trainer_list_title
 TEXT: {0} Trainers
 
 RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
-TEXT: 1 Trainer
+TEXT: 1 Eğitmen
 
 RESOURCE ID: bread_more_mp_to_reach_daily_limit
 TEXT: Bugün {0} MP daha toplayabilirsiniz
@@ -303,6 +321,9 @@ TEXT: Bu Güç Noktasına zaten bir Pokémon yerleştirdiniz.
 
 RESOURCE ID: bread_station_failure_label
 TEXT: Pokémon yerleştirilemiyor
+
+RESOURCE ID: bread_station_general
+TEXT: Güç Noktası
 
 RESOURCE ID: campfire_check_in_reward_notification_toast
 TEXT: Bir Topluluk Elçisi etkinliğine giriş yaptığınız için bir ödül kazandınız!
@@ -333,8 +354,8 @@ TEXT: 23 Kasım –
 24 Kasım
 
 RESOURCE ID: event_datetime_range_key_halloween2tr24
-TEXT: October 22, 10:00 a.m. –
-November 3, 8:00 p.m.
+TEXT: 22 Ekim, 10.00 –
+3 Kasım, 20.00
 
 RESOURCE ID: event_datetime_range_key_masterball24
 TEXT: 4 Ekim, 10.00 –
@@ -383,7 +404,7 @@ RESOURCE ID: galarian_expedition_tgr_event_name
 TEXT: Galar’da Keşif: İstila
 
 RESOURCE ID: general1.ticket.2_halloween2tr24_title
-TEXT: Costume Party Premium Timed Research
+TEXT: Kostüm Partisi Premium Süreli Araştırması
 
 RESOURCE ID: general1.ticket.2_yamasktr24_title
 TEXT: Yamask ve Galarlı Yamask Araştırma Günü Premium Süreli Araştırması Bileti
@@ -466,29 +487,64 @@ TEXT: Poison
 RESOURCE ID: gym_general
 TEXT: Spor salonu
 
+RESOURCE ID: halloween_03_oct24_event_name
+TEXT: Cadılar Bayramı Şeker Partisi
+
+RESOURCE ID: halloween_encounter_tr_name
+TEXT: Kostüm Partisi Premium Süreli Araştırması
+
+RESOURCE ID: halloween_morpeko_tr_name
+TEXT: Morpeko Tulumu Premium Süreli Araştırması
+
+RESOURCE ID: halloween_morpeko_tr_name_full
+TEXT: Morpeko Tulumu Premium Süreli Araştırması: Karnı Tok Modu Yolu
+
+RESOURCE ID: halloween_morpeko_tr_name_full_button_text_key
+TEXT: Karnı Tok Modu Yolu
+
+RESOURCE ID: halloween_morpeko_tr_name_full_description_key
+TEXT: Morpeko Tulumu (Karnı Tok Modu) avatar eşyası için bu yolu seçin.
+
+RESOURCE ID: halloween_morpeko_tr_name_full_title_key
+TEXT: Karnı Tok Modu Yolu
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry
+TEXT: Morpeko Tulumu Premium Süreli Araştırması: Obur Modu Yolu
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_button_text_key
+TEXT: Obur Modu Yolu
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_description_key
+TEXT: Morpeko Tulumu (Obur Modu) avatar eşyası için bu yolu seçin.
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_title_key
+TEXT: Obur Modu Yolu
+
+RESOURCE ID: halloween_spiritomb_tr_name
+TEXT: Cadılar Bayramı 2024: Spiritomb Görevi
+
 RESOURCE ID: hint_desc_loc_network_err_body_key
-TEXT: Point your camera at the location and match
-it to the hint image as you walk around it
-slowly to capture multiple angles.
+TEXT: Referans noktasının etrafında yürürken kameranızı o tarafa doğru tutarak farklı açılardan görüntü alın
+ve bu görüntüleri ipucu resmiyle eşleştirmeye çalışın.
 
 RESOURCE ID: hint_desc_loc_network_err_title_key
-TEXT: Something went wrong...
+TEXT: Bir hata oluştu...
 
 RESOURCE ID: hint_desc_loc_not_ready_body_key
-TEXT: Point your camera at the landmark and match it to the hint image as you walk around it slowly to capture multiple angles.
+TEXT: Referans noktasının etrafında yürürken kameranızı o tarafa doğru tutarak farklı açılardan görüntü alın ve bu görüntüleri ipucu resmiyle eşleştirmeye çalışın.
 
 RESOURCE ID: hint_desc_loc_not_ready_title_key
-TEXT: Something went wrong...
+TEXT: Bir hata oluştu...
 
 RESOURCE ID: hint_desc_loc_ready_title_key
-TEXT: Point your camera at the landmark in this image!
+TEXT: Kameranızı resimdeki referans noktasına çevirin!
 
 RESOURCE ID: hint_desc_loc_retry_button_key
-TEXT: Try again
+TEXT: Tekrar dene
 
 RESOURCE ID: hint_desc_ready_title_key
-TEXT: Find the landmark.
-It’s nearby!
+TEXT: Referans noktasını bulun.
+Çok yakınınızda!
 
 RESOURCE ID: home_transfer_error_gym_deployed
 TEXT: Spor salonlarını savunan veya Güç Noktalarına yerleştirilmiş olan Pokémon’ları gönderemezsiniz.
@@ -503,49 +559,49 @@ RESOURCE ID: incense_spawns_attract
 TEXT: Öne çıkan Pokémon’lar Tütsüye gelecek
 
 RESOURCE ID: iris_social_confirm_exit_modal_body
-TEXT: Pokémon will stay and play for a little while until they get tired and return, but you can call them back earlier.
+TEXT: Pokémon’lar burada kalıp yorulana kadar oynadıktan sonra size geri döner. İsterseniz onları daha önce de geri çağırabilirsiniz.
 
 RESOURCE ID: iris_social_confirm_exit_modal_title
-TEXT: Are you sure you want to leave?
+TEXT: Ayrılmak istediğinizden emin misiniz?
 
 RESOURCE ID: iris_social_diagnostic_okay_button
-TEXT: Submit Report
+TEXT: Rapor Gönder
 
 RESOURCE ID: iris_social_diagnostic_title
-TEXT: This feature is under development!
+TEXT: Bu özellik geliştirme aşamasındadır!
 
 RESOURCE ID: iris_social_diagnostics_option_five
-TEXT: This location is unsuitable for AR
+TEXT: Bu konum AR deneyimine uygun değil
 
 RESOURCE ID: iris_social_diagnostics_option_four
-TEXT: I’m looking at the landmark and nothing is happening
+TEXT: Referans noktasına bakıyorum ama hiçbir şey olmuyor
 
 RESOURCE ID: iris_social_diagnostics_option_one
-TEXT: I can’t find the landmark in the image
+TEXT: Resimdeki referans noktasını bulamıyorum
 
 RESOURCE ID: iris_social_diagnostics_option_three
-TEXT: I don’t know where to point my camera
+TEXT: Kameramı nereye yönlendirmem gerektiğini bilmiyorum
 
 RESOURCE ID: iris_social_diagnostics_option_two
-TEXT: Hint image is unclear
+TEXT: İpucu resmi net değil
 
 RESOURCE ID: iris_social_diagnostics_subtitle
-TEXT: Please report any issues or feedback you have using this experimental feature.
+TEXT: Bu deneysel özelliği kullanırken rastladığınız herhangi bir sorunu veya özellik hakkındaki görüşlerinizi lütfen bize bildirmekten çekinmeyin.
 
 RESOURCE ID: iris_social_entry_instruction_body
-TEXT: Pokémon can gather, play, and meet other Trainers at landmarks! Point your camera at the landmark to view and interact with any Pokémon there.
+TEXT: Pokémon’lar referans noktalarında toplanıp oynayabilir ve diğer Eğitmenlerle tanışabilir! Bir referans noktasındaki Pokémon’larla etkileşime geçmek için kameranızı referans noktasına doğrultun.
 
 RESOURCE ID: iris_social_entry_instruction_title
-TEXT: You found a landmark!
+TEXT: Bir referans noktası buldunuz!
 
 RESOURCE ID: iris_social_info_screen_playtime_stat_label
 TEXT: Kalan oyun zamanı
 
 RESOURCE ID: iris_social_landmark_too_far_body
-TEXT: Walk closer to see the Pokémon.
+TEXT: Pokémon’ları görmek için yaklaşın.
 
 RESOURCE ID: iris_social_landmark_too_far_header
-TEXT: You are too far from the landmark.
+TEXT: Referans noktasından çok uzaktasınız.
 
 RESOURCE ID: iris_social_limited_pokemon_key
 TEXT: Şu anda bu Pokémon’a yer yok.
@@ -554,19 +610,19 @@ RESOURCE ID: iris_social_limited_pokemon_key_temp
 TEXT: Şu anda bu Pokémon’a yetecek kadar yer yok.
 
 RESOURCE ID: iris_social_rotation_error_key
-TEXT: You can only rotate your own Pokémon.
+TEXT: Yalnızca kendi Pokémon’unuzu döndürebilirsiniz.
 
 RESOURCE ID: iris_social_temporary_disable_key
-TEXT: This location isn’t available right now. Please come back later.
+TEXT: Bu konuma şu anda ulaşılamıyor. Lütfen daha sonra tekrar deneyin.
 
 RESOURCE ID: item_event_ticket_04_desc_halloween2tr24
-TEXT: A ticket to access the Costume Party Premium Timed Research from October 22 at 10:00 a.m. to November 3, 2024, at 8:00 p.m. local time, wherever you are.
+TEXT: 22 Ekim 2024, yerel saatle 10.00 - 3 Kasım 2024, yerel saatle 20.00 arasında gerçekleşecek Kostüm Partisi premium süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
 RESOURCE ID: item_event_ticket_04_desc_researchdaysept24
 TEXT: 22 Eylül 2024’te, yerel saatle 14.00-17.00 arasında gerçekleşecek Oranguru ve Passimian Araştırma Günü kapsamında iki premium süreli araştırmaya dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
 RESOURCE ID: item_event_ticket_04_details_halloween2tr24
-TEXT: This ticket will automatically activate to give you access to the Costume Party Premium Timed Research on October 22, wherever you are.
+TEXT: Bu bilet Kostüm Partisi premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için 22 Ekim’de otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_04_details_researchdaysept24
 TEXT: Bu bilet Oranguru ve Passimian Araştırma Günü kapsamında iki premium süreli araştırmaya dilediğiniz yerden erişebilmeniz için 22 Eylül’de otomatik olarak etkinleştirilecek.
@@ -688,15 +744,25 @@ TEXT: Kılıç Yolunu takip etmek için bu seçeneği seçin.
 RESOURCE ID: legendary_heroes_tr_sword_title_key
 TEXT: Kılıç Yolu
 
+RESOURCE ID: limited_localization_nearby_hint_1
+TEXT: You are getting closer to the landmark!
+
+RESOURCE ID: limited_localization_progress_hint_1
+TEXT: Follow the sparkles to find the landmark.
+
 RESOURCE ID: localization_progress_hint_1
-TEXT: Point your camera at the landmark
-and match it to the image below.
+TEXT: Kameranızı referans noktasına doğrultun
+ve aşağıdaki resimle eşleştirin.
 
 RESOURCE ID: localization_progress_hint_2
-TEXT: Walk slowly around the landmark.
+TEXT: Referans noktasının etrafında yavaşça yürüyün.
 
 RESOURCE ID: localization_success_hint
-TEXT: You found the landmark!
+TEXT: Referans noktasını buldunuz!
+
+RESOURCE ID: location_space_limit_message
+TEXT: Şu anda bu Pokémon’a
+yetecek kadar yer yok.
 
 RESOURCE ID: lure_magnetic_event_bonus
 TEXT: Etkinlik temalı Pokémon’lar Manyetik Yem Modülüne geliyor
@@ -768,10 +834,10 @@ RESOURCE ID: meetup_check_in_social_description
 TEXT: Diğer Eğitmenlerle birlikte vakit geçirip sohbet etmek mi istiyorsunuz? Bu hedefe ulaşmanızda size yardımcı olacak süreli araştırmayı almak için bu seçeneği seçin.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-11T00:41:33.558826+00:00 for tr-TR
-at SHA 1d419619e4a
-Pipeline 2681171, job 32799613
-Patch from: 0.333.0-SHA-4f3cd4da-RC4, 0.335.0-SHA-5feb3260-RC3
+TEXT: Built at 2024-10-16T00:37:48.013229+00:00 for tr-TR
+at SHA 8ab2113085e
+Pipeline 2691685, job 32923390
+Patch from: 0.335.0-SHA-5feb3260-RC3, 0.337.0-SHA-b4a38293-RC1, 0.333.0-SHA-4f3cd4da-RC4
 
 RESOURCE ID: mp_replenish.1_title
 TEXT: Maksi Parçacık Paketi ({0} MP)
@@ -788,6 +854,12 @@ TEXT: Festival Maskesi (Pikachu)
 RESOURCE ID: nearby_station_active_header
 TEXT: Aktif
 
+RESOURCE ID: no_pokemon_found_body
+TEXT: Pokémon’larınızdan birini eklemek ister misiniz?
+
+RESOURCE ID: no_pokemon_found_header
+TEXT: Buraya henüz bir Pokémon yerleştirmemişsiniz!
+
 RESOURCE ID: not_now
 TEXT: ŞİMDİ DEĞİL
 
@@ -802,6 +874,9 @@ TEXT: 5 surprise encounters with Mankey in GO Snapshot
 
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: GO Fotoğrafta Sewaddle ile 5 sürpriz karşılaşma
+
+RESOURCE ID: poi_contrib_edit_desc_desc_custom
+TEXT: {0} Description
 
 RESOURCE ID: poi_contrib_edit_title_desc_custom
 TEXT: {0} Başlığı
@@ -859,6 +934,12 @@ TEXT: Appraise {0} Pokémon
 
 RESOURCE ID: quest_appraise_pokemon_singular
 TEXT: Appraise a Pokémon
+
+RESOURCE ID: quest_branching_special_dialogue_1
+TEXT: Seni tekrar görmek ne güzel %PLAYERNAME%! Bizi heyecan verici bir araştırma bekliyor, ama neye odaklanacağımıza karar vermek için yardımına ihtiyacım var.
+
+RESOURCE ID: quest_branching_special_dialogue_2
+TEXT: Hangi seçenek sana daha cazip geliyor?
 
 RESOURCE ID: quest_buddy_affection_electric_plural
 TEXT: Bir Elektrik türü dostla {0} kalp kazanın
@@ -1342,8 +1423,8 @@ RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: Size erken ve ücretsiz olarak sunulan bir Pokémon GO Vahşi Bölgesi: Global etkinliği bileti.
 
 RESOURCE ID: text_rewards_key_halloween2tr24
-TEXT: <b>Included rewards:</b>
-• Event-themed Pokémon encounters, including Pikachu wearing a witch hat, Vulpix wearing a Spooky Festival costume, Gengar wearing a Spooky Festival costume, Piplup wearing a Halloween Mischief costume, Drifblim wearing a Halloween Mischief costume, Froakie wearing a Pokémon Halloween costume, Pumpkaboo wearing a Spooky Festival costume, Rowlet wearing a Pokémon Halloween costume
+TEXT: <b>Şu ödülleri içerir:</b>
+• Cadı şapkalı Pikachu ve Cadılar Bayramı kostümlü Vulpix, Gengar, Piplup, Drifblim, Froakie, Pumpkaboo ve Rowlet gibi etkinlik temalı Pokémon’larla karşılaşmalar
 
 RESOURCE ID: text_rewards_key_masterball24
 TEXT: <b>Şu ödülleri içerir:</b>
@@ -1484,6 +1565,15 @@ TEXT: GO Wild Area Hourly Restock: GO Safari Ball
 
 RESOURCE ID: tr_ticket_in_shop
 TEXT: Premium süreli araştırma biletini mağazadan alabilirsiniz
+
+RESOURCE ID: vps_guardian_oob_toast
+TEXT: Oyun alanının dışındasınız. Pokémon yerleştirmek için alana yaklaşın.
+
+RESOURCE ID: vps_localization_guidance_in_car
+TEXT: Move closer to the landmark.
+
+RESOURCE ID: vps_localization_instruction_body
+TEXT: Kameranızı resimdeki referans noktasına çevirin!
 
 RESOURCE ID: vps_localization_landscape_error
 TEXT: Telefonunuzu diklemesine tutun.

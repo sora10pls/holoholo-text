@@ -1,11 +1,20 @@
+RESOURCE ID: ar_backgrounded_error
+TEXT: Connessione con l’area del punto di interesse interrotta.
+
 RESOURCE ID: ar_backgrounded_error_title
 TEXT: 
 
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: Disconnesso
 
+RESOURCE ID: ar_not_supported_desc
+TEXT: Your device does not support AR.
+
+RESOURCE ID: ar_not_supported_title
+TEXT: Unsupported
+
 RESOURCE ID: ar_plus_got_it
-TEXT: Got it
+TEXT: Tutto chiaro!
 
 RESOURCE ID: avatar_hat_halloween2024
 TEXT: Cilindro Woobat
@@ -248,13 +257,22 @@ RESOURCE ID: bonus_two_free_raid_passes
 TEXT: Receive up to 2 Raid Passes at no cost by spinning Photo Discs at Gyms
 
 RESOURCE ID: bread_battle_cheer_charge_blocked
-TEXT: Meter is full!
+TEXT: L’indicatore è pieno!
 
 RESOURCE ID: bread_battle_log_global_cheer_bread_meter
-TEXT: YOUR CHEERING CHARGED YOUR ALLIES’ METERS!
+TEXT: IL TUO INCITAMENTO HA RIEMPITO GLI INDICATORI DEI TUOI ALLEATI!
+
+RESOURCE ID: bread_battle_received_global_cheering_boost
+TEXT: LE SQUADRE TI STANNO INCITANDO!
 
 RESOURCE ID: bread_battle_resolve_timed_out_title
-TEXT: Everyone’s Pokémon have grown tired!
+TEXT: I Pokémon di tutti i giocatori si sono stancati!
+
+RESOURCE ID: bread_battle_widget_default_message_container
+TEXT: {0} • {1}
+
+RESOURCE ID: bread_battle_widget_team_count
+TEXT: Team {0}
 
 RESOURCE ID: bread_dough_battle_ftue_body_generic
 TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 Trainers.
@@ -275,7 +293,7 @@ RESOURCE ID: bread_dough_lobby_trainer_list_title
 TEXT: {0} Trainers
 
 RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
-TEXT: 1 Trainer
+TEXT: 1 Allenatore
 
 RESOURCE ID: bread_more_mp_to_reach_daily_limit
 TEXT: Puoi raccogliere altre {0} PD oggi
@@ -327,8 +345,8 @@ TEXT: 23 novembre -
 24 novembre
 
 RESOURCE ID: event_datetime_range_key_halloween2tr24
-TEXT: October 22, 10:00 a.m. –
-November 3, 8:00 p.m.
+TEXT: Dal 22 ottobre alle 10:00
+al 3 novembre alle 20:00
 
 RESOURCE ID: event_datetime_range_key_masterball24
 TEXT: Dal 4 ottobre alle 10:00
@@ -392,7 +410,7 @@ RESOURCE ID: galarian_expedition_tgr_event_name
 TEXT: Assalto dell’evento “Spedizione a Galar”
 
 RESOURCE ID: general1.ticket.2_halloween2tr24_title
-TEXT: Costume Party Premium Timed Research
+TEXT: Ricerca a tempo premium “Festa in costume”
 
 RESOURCE ID: general1.ticket.2_yamasktr24_title
 TEXT: Biglietto per la ricerca a tempo premium della giornata di ricerca dedicata a Yamask e Yamask di Galar
@@ -475,29 +493,65 @@ TEXT: Poison
 RESOURCE ID: gym_general
 TEXT: Palestra
 
+RESOURCE ID: halloween_03_oct24_event_name
+TEXT: Caramella o marachella
+
+RESOURCE ID: halloween_encounter_tr_name
+TEXT: Ricerca a tempo premium “Festa in costume”
+
+RESOURCE ID: halloween_morpeko_tr_name
+TEXT: Ricerca a tempo premium del costume Morpeko
+
+RESOURCE ID: halloween_morpeko_tr_name_full
+TEXT: Ricerca a tempo premium del costume Morpeko (sentiero del Motivo Panciapiena)
+
+RESOURCE ID: halloween_morpeko_tr_name_full_button_text_key
+TEXT: Sentiero del Motivo Panciapiena
+
+RESOURCE ID: halloween_morpeko_tr_name_full_description_key
+TEXT: Scegli questa opzione per un sentiero che conduce all’oggetto avatar costume Morpeko (Motivo Panciapiena).
+
+RESOURCE ID: halloween_morpeko_tr_name_full_title_key
+TEXT: Sentiero del Motivo Panciapiena
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry
+TEXT: Ricerca a tempo premium del costume Morpeko (sentiero del Motivo Panciavuota)
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_button_text_key
+TEXT: Sentiero del Motivo Panciavuota
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_description_key
+TEXT: Scegli questa opzione per un sentiero che conduce all’oggetto avatar costume Morpeko (Motivo Panciavuota).
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_title_key
+TEXT: Sentiero del Motivo Panciavuota
+
+RESOURCE ID: halloween_spiritomb_tr_name
+TEXT: Sfida di Spiritomb di Halloween 2024
+
 RESOURCE ID: hint_desc_loc_network_err_body_key
-TEXT: Point your camera at the location and match
-it to the hint image as you walk around it
-slowly to capture multiple angles.
+TEXT: Inquadra con la fotocamera il luogo raffigurato e allinealo
+all’immagine di riferimento, mentre cammini lentamente attorno ad esso
+ per catturare diverse angolazioni.
 
 RESOURCE ID: hint_desc_loc_network_err_title_key
-TEXT: Something went wrong...
+TEXT: Si è verificato un errore.
 
 RESOURCE ID: hint_desc_loc_not_ready_body_key
-TEXT: Point your camera at the landmark and match it to the hint image as you walk around it slowly to capture multiple angles.
+TEXT: Inquadra il punto di interesse con la fotocamera e allinealo all’immagine di riferimento, mentre cammini lentamente attorno ad esso per catturare diverse angolazioni.
 
 RESOURCE ID: hint_desc_loc_not_ready_title_key
-TEXT: Something went wrong...
+TEXT: Si è verificato un errore.
 
 RESOURCE ID: hint_desc_loc_ready_title_key
-TEXT: Point your camera at the landmark in this image!
+TEXT: Inquadra con la fotocamera il punto di interesse raffigurato in questa immagine!
 
 RESOURCE ID: hint_desc_loc_retry_button_key
-TEXT: Try again
+TEXT: Riprova
 
 RESOURCE ID: hint_desc_ready_title_key
-TEXT: Find the landmark.
-It’s nearby!
+TEXT: Trova il punto di interesse.
+È nelle vicinanze!
 
 RESOURCE ID: home_transfer_error_gym_deployed
 TEXT: Non puoi inviare Pokémon che stanno difendendo le Palestre o che sono posizionati presso i punti energetici.
@@ -512,67 +566,67 @@ RESOURCE ID: incense_spawns_attract
 TEXT: I Pokémon in primo piano sono attratti dall’aroma
 
 RESOURCE ID: iris_social_confirm_exit_modal_body
-TEXT: Pokémon will stay and play for a little while until they get tired and return, but you can call them back earlier.
+TEXT: I Pokémon resteranno qui a giocare per un po’ fino a quando non si stancheranno e torneranno da te, ma potrai anche richiamarli prima.
 
 RESOURCE ID: iris_social_confirm_exit_modal_title
-TEXT: Are you sure you want to leave?
+TEXT: Vuoi davvero andartene?
 
 RESOURCE ID: iris_social_diagnostic_okay_button
-TEXT: Submit Report
+TEXT: Invia segnalazione
 
 RESOURCE ID: iris_social_diagnostic_title
-TEXT: This feature is under development!
+TEXT: Questa funzione è in fase di sviluppo!
 
 RESOURCE ID: iris_social_diagnostics_option_five
-TEXT: This location is unsuitable for AR
+TEXT: Questo luogo non è adatto per l’AR
 
 RESOURCE ID: iris_social_diagnostics_option_four
-TEXT: I’m looking at the landmark and nothing is happening
+TEXT: Sto inquadrando il punto di interesse e non succede niente
 
 RESOURCE ID: iris_social_diagnostics_option_one
-TEXT: I can’t find the landmark in the image
+TEXT: Non riesco a trovare il punto di interesse raffigurato nell’immagine
 
 RESOURCE ID: iris_social_diagnostics_option_three
-TEXT: I don’t know where to point my camera
+TEXT: Non so dove inquadrare con la fotocamera
 
 RESOURCE ID: iris_social_diagnostics_option_two
-TEXT: Hint image is unclear
+TEXT: L’immagine di riferimento non è chiara
 
 RESOURCE ID: iris_social_diagnostics_subtitle
-TEXT: Please report any issues or feedback you have using this experimental feature.
+TEXT: Segnalaci eventuali problemi riscontrati durante il suo utilizzo o condividi suggerimenti in merito.
 
 RESOURCE ID: iris_social_entry_instruction_body
-TEXT: Pokémon can gather, play, and meet other Trainers at landmarks! Point your camera at the landmark to view and interact with any Pokémon there.
+TEXT: I Pokémon possono riunirsi, giocare e incontrare altri Allenatori presso i punto di interesse! Inquadra il punto di interesse con la fotocamera per vedere i Pokémon che si trovano lì e interagire con loro.
 
 RESOURCE ID: iris_social_entry_instruction_title
-TEXT: You found a landmark!
+TEXT: Hai trovato un punto di interesse!
 
 RESOURCE ID: iris_social_info_screen_playtime_stat_label
 TEXT: Tempo di gioco rimanente
 
 RESOURCE ID: iris_social_landmark_too_far_body
-TEXT: Walk closer to see the Pokémon.
+TEXT: Avvicinati per vedere il Pokémon.
 
 RESOURCE ID: iris_social_landmark_too_far_header
-TEXT: You are too far from the landmark.
+TEXT: Sei troppo distante dal punto di interesse.
 
 RESOURCE ID: iris_social_limited_pokemon_key_temp
 TEXT: Non c’è abbastanza spazio per questo Pokémon adesso.
 
 RESOURCE ID: iris_social_rotation_error_key
-TEXT: You can only rotate your own Pokémon.
+TEXT: Puoi far ruotare solo il tuo Pokémon.
 
 RESOURCE ID: iris_social_temporary_disable_key
-TEXT: This location isn’t available right now. Please come back later.
+TEXT: Questo luogo non è disponibile adesso. Ritorna più tardi.
 
 RESOURCE ID: item_event_ticket_04_desc_halloween2tr24
-TEXT: A ticket to access the Costume Party Premium Timed Research from October 22 at 10:00 a.m. to November 3, 2024, at 8:00 p.m. local time, wherever you are.
+TEXT: Un biglietto per accedere alla ricerca a tempo premium “Festa in costume” dal 22 ottobre alle 10:00 al 3 novembre 2024 alle 20:00 ora locale, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_04_desc_researchdaysept24
 TEXT: Un biglietto per accedere a due ricerche a tempo premium della giornata di ricerca dedicata a Oranguru e Passimian il 22 settembre 2024 dalle 14:00 alle 17:00 ora locale, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_04_details_halloween2tr24
-TEXT: This ticket will automatically activate to give you access to the Costume Party Premium Timed Research on October 22, wherever you are.
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo premium “Festa in costume” il 22 ottobre, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_04_details_researchdaysept24
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso a due ricerche a tempo premium della giornata di ricerca dedicata a Oranguru e Passimian il 22 settembre, ovunque ti trovi.
@@ -694,15 +748,25 @@ TEXT: Scegli questa opzione per seguire il sentiero della Spada.
 RESOURCE ID: legendary_heroes_tr_sword_title_key
 TEXT: Sentiero della Spada
 
+RESOURCE ID: limited_localization_nearby_hint_1
+TEXT: You are getting closer to the landmark!
+
+RESOURCE ID: limited_localization_progress_hint_1
+TEXT: Follow the sparkles to find the landmark.
+
 RESOURCE ID: localization_progress_hint_1
-TEXT: Point your camera at the landmark
-and match it to the image below.
+TEXT: Inquadra il punto di interesse con la fotocamera
+e allinealo all’immagine qui sotto.
 
 RESOURCE ID: localization_progress_hint_2
-TEXT: Walk slowly around the landmark.
+TEXT: Cammina lentamente attorno al punto di interesse.
 
 RESOURCE ID: localization_success_hint
-TEXT: You found the landmark!
+TEXT: Hai trovato il punto di interesse!
+
+RESOURCE ID: location_space_limit_message
+TEXT: Non c’è abbastanza spazio per
+questo Pokémon adesso.
 
 RESOURCE ID: lure_magnetic_event_bonus
 TEXT: I Pokémon a tema dell’evento sono attratti dai moduli esca magnetici
@@ -774,10 +838,10 @@ RESOURCE ID: meetup_check_in_social_description
 TEXT: Speri di fare nuovi incontri e qualche chiacchierata con altri Allenatori? Scegli questa opzione per ricevere una ricerca a tempo che ti aiuterà a raggiungere il tuo obbiettivo.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-11T00:41:33.558826+00:00 for it-IT
-at SHA 1d419619e4a
-Pipeline 2681171, job 32799613
-Patch from: 0.333.0-SHA-4f3cd4da-RC4, 0.335.0-SHA-5feb3260-RC3
+TEXT: Built at 2024-10-16T00:37:48.013229+00:00 for it-IT
+at SHA 8ab2113085e
+Pipeline 2691685, job 32923390
+Patch from: 0.335.0-SHA-5feb3260-RC3, 0.337.0-SHA-b4a38293-RC1, 0.333.0-SHA-4f3cd4da-RC4
 
 RESOURCE ID: mp_replenish.1_title
 TEXT: Pacco particelle Dynamax ({0} PD)
@@ -794,6 +858,12 @@ TEXT: Maschera festiva (Pikachu)
 RESOURCE ID: nearby_station_active_header
 TEXT: Attivi
 
+RESOURCE ID: no_pokemon_found_body
+TEXT: Vuoi aggiungere uno dei tuoi Pokémon?
+
+RESOURCE ID: no_pokemon_found_header
+TEXT: Non hai ancora posizionato nessun Pokémon qui!
+
 RESOURCE ID: not_now
 TEXT: NON ORA
 
@@ -808,6 +878,9 @@ TEXT: 5 surprise encounters with Mankey in GO Snapshot
 
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: Cinque incontri a sorpresa con Sewaddle in modalità foto GO
+
+RESOURCE ID: poi_contrib_edit_desc_desc_custom
+TEXT: {0} Description
 
 RESOURCE ID: poi_contrib_edit_title_desc_custom
 TEXT: {0} - Nome
@@ -883,6 +956,12 @@ TEXT: Appraise {0} Pokémon
 
 RESOURCE ID: quest_appraise_pokemon_singular
 TEXT: Appraise a Pokémon
+
+RESOURCE ID: quest_branching_special_dialogue_1
+TEXT: Che piacere rivederti, %PLAYERNAME%! Ci aspetta una ricerca davvero entusiasmante, ma mi serve il tuo aiuto per decidere su cosa dovremmo concentrarci.
+
+RESOURCE ID: quest_branching_special_dialogue_2
+TEXT: Quale direzione sceglieresti?
 
 RESOURCE ID: quest_buddy_affection_electric_plural
 TEXT: Guadagna {0} cuori con un compagno di tipo Elettro
@@ -1368,8 +1447,8 @@ RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: Un biglietto per l’evento “Terre Selvagge di Pokémon GO (globale)”, assegnatoti in anteprima e gratuitamente.
 
 RESOURCE ID: text_rewards_key_halloween2tr24
-TEXT: <b>Included rewards:</b>
-• Event-themed Pokémon encounters, including Pikachu wearing a witch hat, Vulpix wearing a Spooky Festival costume, Gengar wearing a Spooky Festival costume, Piplup wearing a Halloween Mischief costume, Drifblim wearing a Halloween Mischief costume, Froakie wearing a Pokémon Halloween costume, Pumpkaboo wearing a Spooky Festival costume, Rowlet wearing a Pokémon Halloween costume
+TEXT: <b>Le ricompense includono:</b>
+• Incontri con i Pokémon dell’evento, tra cui Pikachu con cappello da strega e i seguenti Pokémon con costume di Halloween: Vulpix, Gengar, Piplup, Drifblim, Froakie, Pumpkaboo e Rowlet
 
 RESOURCE ID: text_rewards_key_masterball24
 TEXT: <b>Le ricompense includono:</b>
@@ -1510,6 +1589,15 @@ TEXT: GO Wild Area Hourly Restock: GO Safari Ball
 
 RESOURCE ID: tr_ticket_in_shop
 TEXT: I biglietti per la ricerca a tempo premium sono disponibili nel negozio
+
+RESOURCE ID: vps_guardian_oob_toast
+TEXT: Ti trovi al di fuori dell’area di gioco. Avvicinati per posizionare un Pokémon.
+
+RESOURCE ID: vps_localization_guidance_in_car
+TEXT: Move closer to the landmark.
+
+RESOURCE ID: vps_localization_instruction_body
+TEXT: Inquadra con la fotocamera il punto di interesse raffigurato in questa immagine!
 
 RESOURCE ID: vps_localization_landscape_error
 TEXT: Tieni il telefono in posizione verticale.

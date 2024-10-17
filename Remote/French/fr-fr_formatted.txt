@@ -7,6 +7,15 @@ TEXT:
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: Déconnecté
 
+RESOURCE ID: ar_not_supported_desc
+TEXT: Your device does not support AR.
+
+RESOURCE ID: ar_not_supported_title
+TEXT: Unsupported
+
+RESOURCE ID: ar_plus_got_it
+TEXT: J’ai compris
+
 RESOURCE ID: avatar_hat_halloween2024
 TEXT: Haut de Forme Chovsourir
 
@@ -260,13 +269,22 @@ RESOURCE ID: bonus_two_free_raid_passes
 TEXT: Receive up to 2 Raid Passes at no cost by spinning Photo Discs at Gyms
 
 RESOURCE ID: bread_battle_cheer_charge_blocked
-TEXT: Meter is full!
+TEXT: La jauge est pleine !
 
 RESOURCE ID: bread_battle_log_global_cheer_bread_meter
-TEXT: YOUR CHEERING CHARGED YOUR ALLIES’ METERS!
+TEXT: TES ENCOURAGEMENTS ONT REMPLI LA JAUGE DES ALLIÉS !
+
+RESOURCE ID: bread_battle_received_global_cheering_boost
+TEXT: LES ÉQUIPES T’ENCOURAGENT !
 
 RESOURCE ID: bread_battle_resolve_timed_out_title
-TEXT: Everyone’s Pokémon have grown tired!
+TEXT: Tous les Pokémon sont fatigués !
+
+RESOURCE ID: bread_battle_widget_default_message_container
+TEXT: {0} • {1}
+
+RESOURCE ID: bread_battle_widget_team_count
+TEXT: Team {0}
 
 RESOURCE ID: bread_dough_battle_ftue_body_generic
 TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 Trainers.
@@ -287,7 +305,7 @@ RESOURCE ID: bread_dough_lobby_trainer_list_title
 TEXT: {0} Trainers
 
 RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
-TEXT: 1 Trainer
+TEXT: 1 Dresseur ou Dresseuse
 
 RESOURCE ID: bread_more_mp_to_reach_daily_limit
 TEXT: Tu peux récupérer {0} PM de plus aujourd’hui
@@ -306,6 +324,9 @@ TEXT: Tu as déjà placé un Pokémon à cette Source d’Énergie.
 
 RESOURCE ID: bread_station_failure_label
 TEXT: Impossible de placer ce Pokémon
+
+RESOURCE ID: bread_station_general
+TEXT: Source d’Énergie
 
 RESOURCE ID: bundle.silk.box.1_title
 TEXT: Boîte Soie
@@ -492,6 +513,42 @@ TEXT: Poison
 
 RESOURCE ID: gym_general
 TEXT: Arène
+
+RESOURCE ID: halloween_03_oct24_event_name
+TEXT: Des bonbons ou un sort
+
+RESOURCE ID: halloween_encounter_tr_name
+TEXT: Étude ponctuelle premium Fête déguisée
+
+RESOURCE ID: halloween_morpeko_tr_name
+TEXT: Étude ponctuelle premium Combinaison Morpeko
+
+RESOURCE ID: halloween_morpeko_tr_name_full
+TEXT: Étude ponctuelle premium Combinaison Morpeko : Parcours Mode Rassasié
+
+RESOURCE ID: halloween_morpeko_tr_name_full_button_text_key
+TEXT: Parcours Mode Rassasié
+
+RESOURCE ID: halloween_morpeko_tr_name_full_description_key
+TEXT: Choisis cette option pour le parcours offrant l’objet pour avatar Combinaison Morpeko (Mode Rassasié).
+
+RESOURCE ID: halloween_morpeko_tr_name_full_title_key
+TEXT: Parcours Mode Rassasié
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry
+TEXT: Étude ponctuelle premium Combinaison Morpeko : Parcours Mode Affamé
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_button_text_key
+TEXT: Parcours Mode Affamé
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_description_key
+TEXT: Choisis cette option pour le parcours offrant l’objet pour avatar Combinaison Morpeko (Mode Affamé).
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_title_key
+TEXT: Parcours Mode Affamé
+
+RESOURCE ID: halloween_spiritomb_tr_name
+TEXT: Halloween 2024 : Défi Spiritomb
 
 RESOURCE ID: hint_desc_loc_network_err_body_key
 TEXT: Vise l’endroit avec ton appareil photo et fais-le
@@ -706,6 +763,12 @@ TEXT: Choisis cette option pour suivre le Parcours Épée.
 RESOURCE ID: legendary_heroes_tr_sword_title_key
 TEXT: Parcours Épée
 
+RESOURCE ID: limited_localization_nearby_hint_1
+TEXT: You are getting closer to the landmark!
+
+RESOURCE ID: limited_localization_progress_hint_1
+TEXT: Follow the sparkles to find the landmark.
+
 RESOURCE ID: localization_progress_hint_1
 TEXT: Vise l’élément repère avec ton appareil photo
 et ajuste-le à l'image ci-dessous.
@@ -790,10 +853,10 @@ RESOURCE ID: meetup_check_in_social_description
 TEXT: Tu veux discuter et faire la connaissance d’autres Dresseurs et Dresseuses ? Choisis cette option pour recevoir une Étude ponctuelle qui t’aidera dans ce sens.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-11T00:41:33.558826+00:00 for fr-FR
-at SHA 1d419619e4a
-Pipeline 2681171, job 32799613
-Patch from: 0.333.0-SHA-4f3cd4da-RC4, 0.335.0-SHA-5feb3260-RC3
+TEXT: Built at 2024-10-16T00:37:48.013229+00:00 for fr-FR
+at SHA 8ab2113085e
+Pipeline 2691685, job 32923390
+Patch from: 0.335.0-SHA-5feb3260-RC3, 0.337.0-SHA-b4a38293-RC1, 0.333.0-SHA-4f3cd4da-RC4
 
 RESOURCE ID: n_hat_gtr2024eeveefanmask_0_display_name
 TEXT: Masque de festival (Évoli)
@@ -824,6 +887,9 @@ TEXT: 5 surprise encounters with Mankey in GO Snapshot
 
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: Larveyette s’introduit 5 fois dans tes Clichés GO
+
+RESOURCE ID: poi_contrib_edit_desc_desc_custom
+TEXT: Description {0}
 
 RESOURCE ID: poi_contrib_edit_title_desc_custom
 TEXT: Titre {0}
@@ -875,6 +941,12 @@ TEXT: Appraise {0} Pokémon
 
 RESOURCE ID: quest_appraise_pokemon_singular
 TEXT: Appraise a Pokémon
+
+RESOURCE ID: quest_branching_special_dialogue_1
+TEXT: Content de te voir, %PLAYERNAME% ! Nous avons des recherches passionnantes à faire, mais j’ai besoin de ton aide pour savoir sur quoi je dois me concentrer.
+
+RESOURCE ID: quest_branching_special_dialogue_2
+TEXT: À ton avis, quel parcours devrions-nous prendre ?
 
 RESOURCE ID: quest_buddy_affection_electric_plural
 TEXT: Gagne {0} cœurs avec ton copain de type Électrik
@@ -1361,7 +1433,7 @@ TEXT: Un ticket pour l’évènement Terres Sauvages Pokémon GO : Global, que
 
 RESOURCE ID: text_rewards_key_halloween2tr24
 TEXT: <b>Included rewards:</b>
-• Event-themed Pokémon encounters, including Pikachu wearing a witch hat, Vulpix wearing a Spooky Festival costume, Gengar wearing a Spooky Festival costume, Piplup wearing a Halloween Mischief costume, Drifblim wearing a Halloween Mischief costume, Froakie wearing a Pokémon Halloween costume, Pumpkaboo wearing a Spooky Festival costume, Rowlet wearing a Pokémon Halloween costume
+• Event-themed Pokémon encounters, including Pikachu wearing a witch hat and the following other Pokémon wearing Halloween-themed costumes: Vulpix, Gengar, Piplup, Drifblim, Froakie, Pumpkaboo, and Rowlet
 
 RESOURCE ID: text_rewards_key_masterball24
 TEXT: <b>Donne accès aux récompenses suivantes :</b>
@@ -1517,6 +1589,9 @@ TEXT: Ticket pour l’Étude ponctuelle premium disponible dans la Boutique
 
 RESOURCE ID: vps_guardian_oob_toast
 TEXT: Tu es hors de la zone de jeu. Rapproche-toi pour placer un Pokémon.
+
+RESOURCE ID: vps_localization_guidance_in_car
+TEXT: Move closer to the landmark.
 
 RESOURCE ID: vps_localization_instruction_body
 TEXT: Vise l’élément repère avec ton appareil photo dans cette image !

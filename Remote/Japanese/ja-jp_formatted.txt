@@ -7,6 +7,12 @@ TEXT:
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: ポケストップスキャン切断
 
+RESOURCE ID: ar_not_supported_desc
+TEXT: Your device does not support AR.
+
+RESOURCE ID: ar_not_supported_title
+TEXT: Unsupported
+
 RESOURCE ID: avatar_hat_halloween2024
 TEXT: トップハット　コロモリ
 
@@ -149,19 +155,19 @@ RESOURCE ID: badge_tag_bonus
 TEXT: ボーナス
 
 RESOURCE ID: battle_raids_party_plural
-TEXT: Battle in {0} raids while in a party
+TEXT: チーム参加中レイドを{0}回行う
 
 RESOURCE ID: battle_raids_party_singular
-TEXT: Battle in a raid while in a party
+TEXT: チーム参加中レイドを行う
 
 RESOURCE ID: bonus_candy_xl_candy_nice_great_excel
 TEXT: ナイススロー以上でアメが増えアメXLの確率アップ
 
 RESOURCE ID: bonus_cd_move_annihilape
-TEXT: Evolve Primeape to get an Annihilape that knows the Charged Attack Rage Fist!
+TEXT: オコリザルをコノヨザルに進化させるとふんどのこぶしを覚えている
 
 RESOURCE ID: bonus_cd_move_mankey
-TEXT: Evolve Mankey to get a Primeape that knows the Charged Attack Rage Fist!
+TEXT: マンキーをオコリザルに進化させるとふんどのこぶしを覚えている
 
 RESOURCE ID: bonus_cd_move_sewaddle
 TEXT: クルマユをハハコモリに進化させるとシャドークローを覚えている
@@ -179,7 +185,7 @@ RESOURCE ID: bonus_five_free_raid_passes
 TEXT: ジムのフォトディスクを回してレイドパス5枚まで入手
 
 RESOURCE ID: bonus_implicit_social_mankey_raid
-TEXT: If Trainers work together to win a Primeape raid, large numbers of Mankey will appear in the area for 30 minutes
+TEXT: トレーナーが協力してレイドでオコリザルを倒すと、そのジムの周りに30分間マンキーが現れる
 
 RESOURCE ID: bonus_implicit_social_sewaddle_raid
 TEXT: トレーナーが協力してレイドでクルマユを倒すと、そのジムの周りに30分間クルミルが現れる
@@ -243,6 +249,12 @@ TEXT: みんながおうえんしてくれている！
 
 RESOURCE ID: bread_battle_resolve_timed_out_title
 TEXT: たたかえるポケモンがいなくなった
+
+RESOURCE ID: bread_battle_widget_default_message_container
+TEXT: {0} • {1}
+
+RESOURCE ID: bread_battle_widget_team_count
+TEXT: チーム{0}
 
 RESOURCE ID: bread_dough_battle_ftue_body_generic
 TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 Trainers.
@@ -312,8 +324,8 @@ TEXT: 11月23日～
 11月24日
 
 RESOURCE ID: event_datetime_range_key_halloween2tr24
-TEXT: October 22, 10:00 a.m. –
-November 3, 8:00 p.m.
+TEXT: 10月22日10:00AM～
+11月3日8:00PM
 
 RESOURCE ID: event_datetime_range_key_masterball24
 TEXT: 10月4日10:00AM～
@@ -355,10 +367,10 @@ RESOURCE ID: expires_in_hour_singular
 TEXT: あと1時間で終了
 
 RESOURCE ID: field_research_special_tasks
-TEXT: Field Research tasks from check-in now available
+TEXT: チェックインしてもらえるフィールドリサーチあり
 
 RESOURCE ID: fr_tag_meetup
-TEXT: Meetup
+TEXT: ミートアップ
 
 RESOURCE ID: galarian_expedition_collection_challenge_1
 TEXT: ガラル探検コレクションチャレンジ1
@@ -373,7 +385,7 @@ RESOURCE ID: galarian_expedition_tgr_event_name
 TEXT: ガラル探検：占拠
 
 RESOURCE ID: general1.ticket.2_halloween2tr24_title
-TEXT: Costume Party Premium Timed Research
+TEXT: コスチュームパーティープレミアムタイムチャレンジ
 
 RESOURCE ID: general1.ticket.2_yamasktr24_title
 TEXT: デスマスとガラルのデスマスリサーチデイプレミアムタイムチャレンジチケット
@@ -452,6 +464,42 @@ TEXT: どく
 
 RESOURCE ID: gym_general
 TEXT: ジム
+
+RESOURCE ID: halloween_03_oct24_event_name
+TEXT: キャンディーパーティー
+
+RESOURCE ID: halloween_encounter_tr_name
+TEXT: コスチュームパーティープレミアムタイムチャレンジ
+
+RESOURCE ID: halloween_morpeko_tr_name
+TEXT: モルペコきぐるみプレミアムタイムチャレンジ
+
+RESOURCE ID: halloween_morpeko_tr_name_full
+TEXT: モルペコきぐるみプレミアムタイムチャレンジ：まんぷく
+
+RESOURCE ID: halloween_morpeko_tr_name_full_button_text_key
+TEXT: まんぷく
+
+RESOURCE ID: halloween_morpeko_tr_name_full_description_key
+TEXT: この道を選ぶと、アバターアイテムきぐるみモルペコ（まんぷくもよう）につながるチャレンジができます。
+
+RESOURCE ID: halloween_morpeko_tr_name_full_title_key
+TEXT: まんぷく
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry
+TEXT: モルペコきぐるみプレミアムタイムチャレンジ：はらぺこ
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_button_text_key
+TEXT: はらぺこ
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_description_key
+TEXT: この道を選ぶと、アバターアイテムきぐるみモルペコ（はらぺこもよう）につながるチャレンジができます。
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_title_key
+TEXT: はらぺこ
+
+RESOURCE ID: halloween_spiritomb_tr_name
+TEXT: ハロウィン2024：ミカルゲチャレンジ
 
 RESOURCE ID: hint_desc_loc_network_err_body_key
 TEXT: ヒントと同じ画像になるようカメラを向けます。
@@ -546,13 +594,13 @@ RESOURCE ID: iris_social_temporary_disable_key
 TEXT: この場所での活動は行われていません。しばらくしてから再度お試しください。
 
 RESOURCE ID: item_event_ticket_04_desc_halloween2tr24
-TEXT: A ticket to access the Costume Party Premium Timed Research from October 22 at 10:00 a.m. to November 3, 2024, at 8:00 p.m. local time, wherever you are.
+TEXT: 現地時間2024年10月22日10:00AM～11月3日8:00PMにコスチュームパーティープレミアムタイムチャレンジを行うためのチケット。
 
 RESOURCE ID: item_event_ticket_04_desc_researchdaysept24
 TEXT: 現地時間2024年9月22日2:00PM～5:00PMにヤレユータンとナゲツケサルリサーチデイ用に2つのプレミアムタイムチャレンジを行うためのチケット。
 
 RESOURCE ID: item_event_ticket_04_details_halloween2tr24
-TEXT: This ticket will automatically activate to give you access to the Costume Party Premium Timed Research on October 22, wherever you are.
+TEXT: このチケットは自動的に発動し10月22日にコスチュームパーティープレミアムタイムチャレンジ行えるようになります。
 
 RESOURCE ID: item_event_ticket_04_details_researchdaysept24
 TEXT: このチケットは自動的に発動し2024年9月22日にヤレユータンとナゲツケサルリサーチデイプレミアムタイムチャレンジが行えるようになります。
@@ -668,6 +716,12 @@ TEXT: ソードの道を進みます。
 RESOURCE ID: legendary_heroes_tr_sword_title_key
 TEXT: ソードの道
 
+RESOURCE ID: limited_localization_nearby_hint_1
+TEXT: You are getting closer to the landmark!
+
+RESOURCE ID: limited_localization_progress_hint_1
+TEXT: Follow the sparkles to find the landmark.
+
 RESOURCE ID: localization_progress_hint_1
 TEXT: 目印となる物体にカメラを向け
 円内の画像のように表示させる
@@ -713,7 +767,7 @@ RESOURCE ID: meetup_check_in_battle_description
 TEXT: GOロケット団やトレーナーたちを相手にバトルするチャレンジを受け取れます。
 
 RESOURCE ID: meetup_check_in_bonus
-TEXT: Meetup Check-in Bonus
+TEXT: ミートアップチェックインボーナス
 
 RESOURCE ID: meetup_check_in_dialogue_00
 TEXT: 今日は何に挑戦しようか？
@@ -752,10 +806,10 @@ RESOURCE ID: meetup_check_in_social_description
 TEXT: トレーナー仲間との交流を楽しみながら行うチャレンジを受け取れます。
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-11T00:41:33.558826+00:00 for ja-JP
-at SHA 1d419619e4a
-Pipeline 2681171, job 32799613
-Patch from: 0.333.0-SHA-4f3cd4da-RC4, 0.335.0-SHA-5feb3260-RC3
+TEXT: Built at 2024-10-16T00:37:48.013229+00:00 for ja-JP
+at SHA 8ab2113085e
+Pipeline 2691685, job 32923390
+Patch from: 0.335.0-SHA-5feb3260-RC3, 0.337.0-SHA-b4a38293-RC1, 0.333.0-SHA-4f3cd4da-RC4
 
 RESOURCE ID: mp_replenish.3_title
 TEXT: マックス粒子パック
@@ -774,19 +828,22 @@ RESOURCE ID: not_now
 TEXT: 今はやめておく
 
 RESOURCE ID: party_play_field_research_special
-TEXT: Party Challenges from check-in now available
+TEXT: チェックインしてもらえるチームチャレンジあり
 
 RESOURCE ID: party_play_tandemaus_boost
-TEXT: Boosted chance of finding Tandemaus in Party Challenge reward encounters
+TEXT: チームチャレンジでワッカネズミに出会える可能性アップ
 
 RESOURCE ID: photobomb_five_mankey
-TEXT: 5 surprise encounters with Mankey in GO Snapshot
+TEXT: GOスナップショットでマンキーのサプライズ5回
 
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: GOスナップショットでクルミルのサプライズ5回
 
 RESOURCE ID: photobomb_five_squirtle
 TEXT: GOスナップショットでゼニガメのサプライズ5回
+
+RESOURCE ID: poi_contrib_edit_desc_desc_custom
+TEXT: {0}の説明
 
 RESOURCE ID: poi_contrib_edit_title_desc_custom
 TEXT: {0}のタイトル
@@ -844,6 +901,12 @@ TEXT: Appraise {0} Pokémon
 
 RESOURCE ID: quest_appraise_pokemon_singular
 TEXT: Appraise a Pokémon
+
+RESOURCE ID: quest_branching_special_dialogue_1
+TEXT: やぁ、%PLAYERNAME%！ポケモンもたくさんいて、調べることも多い。早速始めよう！
+
+RESOURCE ID: quest_branching_special_dialogue_2
+TEXT: どちらに興味があるかな？
 
 RESOURCE ID: quest_buddy_affection_electric_plural
 TEXT: でんきタイプ相棒ポケモンのハートを{0}個獲得する
@@ -912,13 +975,13 @@ RESOURCE ID: quest_land_nice_poison_singular
 TEXT: どくタイプのポケモンをナイススローで捕まえる
 
 RESOURCE ID: quest_mankey_catch_b
-TEXT: Catch {0} Mankey
+TEXT: マンキーを{0}匹捕まえる
 
 RESOURCE ID: quest_mankey_evolve_b_plural
-TEXT: Evolve {0} Mankey
+TEXT: マンキーを{0}匹進化させる
 
 RESOURCE ID: quest_mankey_evolve_b_singular
-TEXT: Evolve a Mankey
+TEXT: マンキーを進化させる
 
 RESOURCE ID: quest_party_challenge_plural
 TEXT: チームチャレンジを{0}回達成する
@@ -939,10 +1002,10 @@ RESOURCE ID: quest_power_up_singular_poison
 TEXT: どくタイプのポケモンを強化する
 
 RESOURCE ID: quest_primeape_evolve_b_plural
-TEXT: Evolve {0} Primeape
+TEXT: オコリザルを{0}匹進化させる
 
 RESOURCE ID: quest_primeape_evolve_b_singular
-TEXT: Evolve a Primeape
+TEXT: オコリザルを進化させる
 
 RESOURCE ID: quest_raid_supereffective_charge_plural
 TEXT: Use {0} supereffective Charged Attacks in Raid battles
@@ -972,19 +1035,19 @@ RESOURCE ID: quest_tgr_supereffective_charge_singular
 TEXT: Use a supereffective Charged Attack in a Team GO Rocket battle
 
 RESOURCE ID: quest_title_mankey
-TEXT: Mankey Business
+TEXT: ぶたざるポケモンを解明せよ！
 
 RESOURCE ID: quest_title_mankey_0
-TEXT: Mankey Business (1/4)
+TEXT: ぶたざるポケモンを解明せよ！(1/4)
 
 RESOURCE ID: quest_title_mankey_1
-TEXT: Mankey Business (2/4)
+TEXT: ぶたざるポケモンを解明せよ！(2/4)
 
 RESOURCE ID: quest_title_mankey_2
-TEXT: Mankey Business (3/4)
+TEXT: ぶたざるポケモンを解明せよ！(3/4)
 
 RESOURCE ID: quest_title_mankey_3
-TEXT: Mankey Business (4/4)
+TEXT: ぶたざるポケモンを解明せよ！(4/4)
 
 RESOURCE ID: quest_title_player_progression
 TEXT: To the Next Level
@@ -1158,7 +1221,7 @@ RESOURCE ID: raid_day_mega_mawile_event_name
 TEXT: レイド・デイ：メガクチート
 
 RESOURCE ID: reduced_hatch_party_play
-TEXT: Reduced Hatch Distance while in a Party
+TEXT: チーム参加中タマゴふか距離減
 
 RESOURCE ID: research_day_passimian_and_oranguru_event_name
 TEXT: ヤレユータンとナゲツケサルのリサーチデイ
@@ -1185,7 +1248,7 @@ RESOURCE ID: research_page_unlocked
 TEXT: New research page unlocked!
 
 RESOURCE ID: spawn_mankey
-TEXT: More Mankey are appearing in the wild!
+TEXT: マンキーがより多く野生で出現
 
 RESOURCE ID: spawn_mighty
 TEXT: つよいポケモンがより多く野生で出現
@@ -1336,8 +1399,8 @@ RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: 先行配布の無料PokémonGOワイルドエリア：グローバルチケット
 
 RESOURCE ID: text_rewards_key_halloween2tr24
-TEXT: <b>Included rewards:</b>
-• Event-themed Pokémon encounters, including Pikachu wearing a witch hat, Vulpix wearing a Spooky Festival costume, Gengar wearing a Spooky Festival costume, Piplup wearing a Halloween Mischief costume, Drifblim wearing a Halloween Mischief costume, Froakie wearing a Pokémon Halloween costume, Pumpkaboo wearing a Spooky Festival costume, Rowlet wearing a Pokémon Halloween costume
+TEXT: <b>もらえるもの：</b>
+・魔女の帽子をかぶったピカチュウを含む、ハロウィン衣装をつけたロコン、ゲンガー、ポッチャマ、フワライド、ケロマツ、バケッチャ、モクローなどのポケモンとの出会い
 
 RESOURCE ID: text_rewards_key_masterball24
 TEXT: <b>もらえるもの：</b>
@@ -1396,13 +1459,13 @@ TEXT: 現地時間2024年10月19日2:00PM～5:00PMに、フィールドリサー
 イベント開催中、タイムチャレンジを完了して出会えるポケモンは色違いポケモン（フィールドリサーチ完了で出会える色違いポケモンの可能性と同等）を含みます。
 
 RESOURCE ID: ticket_mankey
-TEXT: Ticket for the Mankey Business Special Research available in the shop
+TEXT: 「ぶたざるポケモンを解明せよ！」スペシャルリサーチのチケットがショップに登場
 
 RESOURCE ID: ticket_sewaddle
 TEXT: クルミルコミュニティ・デイスペシャルリサーチ「さいほうポケモンを解明せよ！」チケットがショップに登場
 
 RESOURCE ID: timed_research_special
-TEXT: Timed Research from check-in now available
+TEXT: チェックインしてもらえるタイムチャレンジあり
 
 RESOURCE ID: tr_gowa2024_global_daily_electric
 TEXT: GOワイルドエリア2024：でんき
@@ -1441,10 +1504,12 @@ RESOURCE ID: tr_gowa2024_global_earlybird_1
 TEXT: ワイルドスタート(1/1)
 
 RESOURCE ID: tr_gowa2024_global_wildballs
-TEXT: GOワイルドエリア道具補給：GOサファリボール
+TEXT: GOワイルドエリア道具補給：
+GOサファリボール
 
 RESOURCE ID: tr_gowa2024_global_wildballs_1
-TEXT: GOワイルドエリア道具補給：GOサファリボール
+TEXT: GOワイルドエリア道具補給：
+GOサファリボール
 
 RESOURCE ID: tr_gowa2024_irl_day_1_wildball_intro
 TEXT: ワイルドに投げよう
@@ -1465,16 +1530,21 @@ RESOURCE ID: tr_gowa2024_irl_day_2_wildball_intro_2
 TEXT: ワイルドに投げよう(2/2)
 
 RESOURCE ID: tr_gowa2024_irl_wildballs
-TEXT: GOワイルドエリア道具補給：GOサファリボール
+TEXT: GOワイルドエリア道具補給：
+GOサファリボール
 
 RESOURCE ID: tr_gowa2024_irl_wildballs_1
-TEXT: GOワイルドエリア道具補給：GOサファリボール
+TEXT: GOワイルドエリア道具補給：
+GOサファリボール
 
 RESOURCE ID: tr_ticket_in_shop
 TEXT: プレミアムタイムチャレンジのチケットがショップに登場
 
 RESOURCE ID: vps_guardian_oob_toast
 TEXT: プレイエリア外です。ポケモンを置くためにもっと近づいてください。
+
+RESOURCE ID: vps_localization_guidance_in_car
+TEXT: Move closer to the landmark.
 
 RESOURCE ID: vps_localization_instruction_body
 TEXT: この画像にある目印の物体にカメラを向けてください。

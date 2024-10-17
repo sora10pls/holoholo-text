@@ -4,6 +4,12 @@ TEXT:
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: 포켓스톱 스캔 거절
 
+RESOURCE ID: ar_not_supported_desc
+TEXT: Your device does not support AR.
+
+RESOURCE ID: ar_not_supported_title
+TEXT: Unsupported
+
 RESOURCE ID: ar_plus_got_it
 TEXT: Got it
 
@@ -158,7 +164,7 @@ RESOURCE ID: badge_safari_2024_incheon_day_03_citywide_title
 TEXT: Pokémon GO Safari Zone – 도시 체험
 
 RESOURCE ID: badge_tag_bonus
-TEXT: Bonus
+TEXT: 보너스
 
 RESOURCE ID: battle_raids_party_plural
 TEXT: Battle in {0} raids while in a party
@@ -274,6 +280,12 @@ TEXT: 남음
 RESOURCE ID: bread_battle_resolve_timed_out_title
 TEXT: Everyone’s Pokémon have grown tired!
 
+RESOURCE ID: bread_battle_widget_default_message_container
+TEXT: {0} • {1}
+
+RESOURCE ID: bread_battle_widget_team_count
+TEXT: Team {0}
+
 RESOURCE ID: bread_dough_battle_ftue_body_generic
 TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 Trainers.
 
@@ -299,7 +311,7 @@ RESOURCE ID: bread_more_mp_to_reach_daily_limit
 TEXT: 오늘은 {0}MP 더 모을 수 있습니다
 
 RESOURCE ID: bread_notification_empty
-TEXT: {0} returned from the Power Spot.
+TEXT: {0}(이)가 파워스폿에서 돌아왔다!
 
 RESOURCE ID: bread_station_current_battle_defeated
 TEXT: 파워스폿 보스를 물리쳤다
@@ -308,10 +320,13 @@ RESOURCE ID: bread_station_failure_description
 TEXT: 배치 포켓몬 상한에 도달하여 포켓몬을 배치할 수 없습니다.
 
 RESOURCE ID: bread_station_failure_description_duplicate
-TEXT: You have already placed a Pokémon at this Power Spot.
+TEXT: 이미 포켓몬을 배치했습니다.
 
 RESOURCE ID: bread_station_failure_label
 TEXT: 포켓몬을 배치할 수 없습니다
+
+RESOURCE ID: bread_station_general
+TEXT: 파워스폿
 
 RESOURCE ID: bundle.silk.box.1_title
 TEXT: 실크 박스
@@ -491,13 +506,49 @@ RESOURCE ID: gowa_2024_quest_branch_poison_title
 TEXT: Poison
 
 RESOURCE ID: gym_general
-TEXT: Gym
+TEXT: 체육관
+
+RESOURCE ID: halloween_03_oct24_event_name
+TEXT: 캔디 파티
 
 RESOURCE ID: halloween_cup_great_title
 TEXT: 핼러윈 컵: 슈퍼리그 버전
 
 RESOURCE ID: halloween_cup_little_title
 TEXT: 핼러윈 컵: 리틀 버전
+
+RESOURCE ID: halloween_encounter_tr_name
+TEXT: 코스튬 파티 프리미엄 시간제한 리서치
+
+RESOURCE ID: halloween_morpeko_tr_name
+TEXT: 모르페코 의상 프리미엄 시간제한 리서치
+
+RESOURCE ID: halloween_morpeko_tr_name_full
+TEXT: 모르페코 의상 프리미엄 시간제한 리서치: 배부른
+
+RESOURCE ID: halloween_morpeko_tr_name_full_button_text_key
+TEXT: 배부른
+
+RESOURCE ID: halloween_morpeko_tr_name_full_description_key
+TEXT: 이것을 선택하면 의상 아이템 모르페코(배부른 모양) 포켓몬 옷과 연결된 도전을 할 수 있습니다.
+
+RESOURCE ID: halloween_morpeko_tr_name_full_title_key
+TEXT: 배부른
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry
+TEXT: 모르페코 의상 프리미엄 시간제한 리서치: 배고픈
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_button_text_key
+TEXT: 배고픈
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_description_key
+TEXT: 이것을 선택하면 의상 아이템 모르페코(배고픈 모양) 포켓몬 옷과 연결된 도전을 할 수 있습니다.
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_title_key
+TEXT: 배고픈
+
+RESOURCE ID: halloween_spiritomb_tr_name
+TEXT: 핼러윈2024:  화강돌 챌린지
 
 RESOURCE ID: hint_desc_loc_network_err_body_key
 TEXT: Point your camera at the location and match
@@ -733,6 +784,12 @@ TEXT: 소드의 길
 RESOURCE ID: levelup_max_move_plural
 TEXT: 맥스기술을 {0}번 레벨업 한다
 
+RESOURCE ID: limited_localization_nearby_hint_1
+TEXT: You are getting closer to the landmark!
+
+RESOURCE ID: limited_localization_progress_hint_1
+TEXT: Follow the sparkles to find the landmark.
+
 RESOURCE ID: localization_progress_hint_1
 TEXT: Point your camera at the landmark
 and match it to the image below.
@@ -813,13 +870,13 @@ RESOURCE ID: meetup_check_in_social_description
 TEXT: 트레이너 동료와 교류를 즐기는 시간제한 리서치를 진행할 수 있습니다.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-11T00:41:33.558826+00:00 for ko-KR
-at SHA 1d419619e4a
-Pipeline 2681171, job 32799613
-Patch from: 0.333.0-SHA-4f3cd4da-RC4, 0.335.0-SHA-5feb3260-RC3
+TEXT: Built at 2024-10-16T00:37:48.013229+00:00 for ko-KR
+at SHA 8ab2113085e
+Pipeline 2691685, job 32923390
+Patch from: 0.335.0-SHA-5feb3260-RC3, 0.337.0-SHA-b4a38293-RC1, 0.333.0-SHA-4f3cd4da-RC4
 
 RESOURCE ID: mp_replenish.1_title
-TEXT: 맥스 파티클 팩X1({0}MP)
+TEXT: 맥스 파티클 팩 ({0}MP)
 
 RESOURCE ID: mp_replenish.3_title
 TEXT: 맥스 파티클 팩X3 ({0}MP)
@@ -828,7 +885,7 @@ RESOURCE ID: n_hat_gtr2024pikachufanmask_0_display_name
 TEXT: 피카츄 가면
 
 RESOURCE ID: nearby_station_active_header
-TEXT: Active
+TEXT: 활성화 중 파워스폿
 
 RESOURCE ID: not_now
 TEXT: 지금은 관둔다
@@ -845,20 +902,23 @@ TEXT: 5 surprise encounters with Mankey in GO Snapshot
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: GO스냅샷으로 두르보의 서프라이즈 5회
 
+RESOURCE ID: poi_contrib_edit_desc_desc_custom
+TEXT: {0}의 설명
+
 RESOURCE ID: poi_contrib_edit_title_desc_custom
-TEXT: {0} Title
+TEXT: {0}의 타이틀
 
 RESOURCE ID: poi_contrib_entry_ar_data_custom
-TEXT: Scan {0}
+TEXT: {0}(을)를 스캔
 
 RESOURCE ID: poi_contrib_entry_header_custom
-TEXT: Contribute to This {0}
+TEXT: 이 {0}에 기여
 
 RESOURCE ID: poi_contrib_entry_report_invalid_custom
-TEXT: Report {0} Issue
+TEXT: {0}의 문제 보고
 
 RESOURCE ID: poi_contrib_report_reason_duplicate_custom
-TEXT: Duplicate {0}
+TEXT: 중복 {0}
 
 RESOURCE ID: pokemon_ibfc_desc_0877
 TEXT: 이 포켓몬이 스페셜 어택을 사용할 때 모습이 변합니다. 배고픈 모양일 때 '오라휠'은 악타입 기술이 됩니다.
@@ -869,17 +929,23 @@ TEXT: 배틀 특화폼
 RESOURCE ID: pokemon_ibfc_name_0877
 TEXT: 배고픈 모양
 
+RESOURCE ID: pokemon_info_evolve_pokemon_deployed
+TEXT: {0}(은)는 체육관 또는 파워스폿에 있습니다
+
 RESOURCE ID: pokemon_info_evolve_pokemon_iris_social_deployed
 TEXT: {0}(은)는 포켓스톱에서 놀고 있습니다.
+
+RESOURCE ID: pokemon_info_powerup_pokemon_deployed
+TEXT: {0}(은)는 체육관 또는 파워스폿에 있습니다
 
 RESOURCE ID: pokemon_location_card_info_transfer_to_professor_confirmation
 TEXT: 희귀한 배경이 있는 포켓몬을 정말로 보내겠습니까?
 
 RESOURCE ID: pokemon_name_bread
-TEXT: Dynamax {0}
+TEXT: 다이맥스 {0}
 
 RESOURCE ID: pokemon_name_bread_dough
-TEXT: Gigantamax {0}
+TEXT: 거다이맥스 {0}
 
 RESOURCE ID: pokemon_name_bread_dough_short
 TEXT: G-Max {0}
@@ -891,13 +957,19 @@ RESOURCE ID: pokemon_tutorial_ibfc_desc
 TEXT: 이 포켓몬은 배틀 중 폼을 바꿀 수 있습니다.
 
 RESOURCE ID: pokestop_general
-TEXT: PokéStop
+TEXT: 포켓스톱
 
 RESOURCE ID: quest_appraise_pokemon_plural
 TEXT: Appraise {0} Pokémon
 
 RESOURCE ID: quest_appraise_pokemon_singular
 TEXT: Appraise a Pokémon
+
+RESOURCE ID: quest_branching_special_dialogue_1
+TEXT: 안녕, %PLAYERNAME%! 포켓몬도 많고 조사할 것도 많아, 어서 시작해볼까!
+
+RESOURCE ID: quest_branching_special_dialogue_2
+TEXT: 어느 쪽에 흥미가 있니?
 
 RESOURCE ID: quest_buddy_affection_electric_plural
 TEXT: 전기타입 파트너 포켓몬의 하트를 {0}개 획득한다
@@ -1388,7 +1460,7 @@ TEXT: Pokémon GO 와일드 에리어: 글로벌 티켓(선행 무료 제공)
 
 RESOURCE ID: text_rewards_key_halloween2tr24
 TEXT: <b>Included rewards:</b>
-• Event-themed Pokémon encounters, including Pikachu wearing a witch hat, Vulpix wearing a Spooky Festival costume, Gengar wearing a Spooky Festival costume, Piplup wearing a Halloween Mischief costume, Drifblim wearing a Halloween Mischief costume, Froakie wearing a Pokémon Halloween costume, Pumpkaboo wearing a Spooky Festival costume, Rowlet wearing a Pokémon Halloween costume
+• Event-themed Pokémon encounters, including Pikachu wearing a witch hat and the following other Pokémon wearing Halloween-themed costumes: Vulpix, Gengar, Piplup, Drifblim, Froakie, Pumpkaboo, and Rowlet
 
 RESOURCE ID: text_rewards_key_masterball24
 TEXT: <b>받을 수 있는 리워드</b>
@@ -1543,6 +1615,9 @@ TEXT: 파워스폿 {0}군데에서 MP를 모은다
 
 RESOURCE ID: visit_power_spot_singular
 TEXT: 파워스폿 1군데에서 MP를 모은다
+
+RESOURCE ID: vps_localization_guidance_in_car
+TEXT: Move closer to the landmark.
 
 RESOURCE ID: vps_localization_landscape_error
 TEXT: 화면을 세로로 해주세요.

@@ -4,6 +4,12 @@ TEXT:
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: การเชื่อมตอถูกยกเลิก
 
+RESOURCE ID: ar_not_supported_desc
+TEXT: Your device does not support AR.
+
+RESOURCE ID: ar_not_supported_title
+TEXT: Unsupported
+
 RESOURCE ID: ar_plus_got_it
 TEXT: Got it
 
@@ -267,10 +273,25 @@ TEXT: เอาชนะโปเกมอนไดแมกซและ
 โปเกมอนกิกะแมกซสุดแกรง
 เพื่อโอกาสในการจับพวกมัน
 
+RESOURCE ID: bread_battle_tutorial_description_1
+TEXT: เอาชนะบอสพาวเวอรสปอตกอนที่
+โปเกมอนพันธมิตรทั้งหมดจะหมดสติ
+
 RESOURCE ID: bread_battle_tutorial_description_2
 TEXT: โจมตีบอสโปเกมอนเพื่อชารจเกจดานบน
 หนาจอ เมื่อเกจเต็ม โปเกมอนของคุณ
 จะไดแมกซหรือกิกะแมกซได!
+
+RESOURCE ID: bread_battle_tutorial_description_4
+TEXT: เมื่อโปเกมอนอยูในรางไดแมกซหรือ
+รางกิกะแมกซ โปเกมอนจะสามารถ
+ใชทาพิเศษได
+
+RESOURCE ID: bread_battle_widget_default_message_container
+TEXT: {0} • {1}
+
+RESOURCE ID: bread_battle_widget_team_count
+TEXT: Team {0}
 
 RESOURCE ID: bread_dough_battle_ftue_body_generic
 TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 Trainers.
@@ -336,6 +357,9 @@ TEXT: คุณวางโปเกมอนที่พาวเวอร�
 
 RESOURCE ID: bread_station_failure_label
 TEXT: ไมสามารถวางโปเกมอนได
+
+RESOURCE ID: bread_station_general
+TEXT: พาวเวอรสปอต
 
 RESOURCE ID: bread_station_header_leaderboard_description
 TEXT: โปเกมอนเหลานี้จะชวยสนับสนุนในการแบตเทิล
@@ -631,13 +655,53 @@ RESOURCE ID: gowa_2024_quest_branch_poison_title
 TEXT: Poison
 
 RESOURCE ID: gym_general
-TEXT: Gym
+TEXT: ยิม
+
+RESOURCE ID: halloween_03_oct24_event_name
+TEXT: ปารตี้ลูกอมหลอกหรือเลี้ยง
 
 RESOURCE ID: halloween_cup_great_title
 TEXT: การแขงขันฮาโลวีน (ver. เกรตลีก)
 
 RESOURCE ID: halloween_cup_little_title
 TEXT: การแขงขันฮาโลวีน (ver. ตัวนอย)
+
+RESOURCE ID: halloween_encounter_tr_name
+TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียม: ปารตี้ชุดคอสตูม
+
+RESOURCE ID: halloween_morpeko_tr_name
+TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียม: ชุดคอสเพลยโมรุเปโกะ
+
+RESOURCE ID: halloween_morpeko_tr_name_full
+TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียม: ชุดคอสเพลยโมรุเปโกะ (เสนทางรางอิ่ม)
+
+RESOURCE ID: halloween_morpeko_tr_name_full_button_text_key
+TEXT: เสนทางรางอิ่ม
+
+RESOURCE ID: halloween_morpeko_tr_name_full_description_key
+TEXT: เลือกเสนทางนี้เพื่อทำคำทา
+และรับไอเท็มอวาตาร
+ชุดคอสเพลยโมรุเปโกะ (รางอิ่ม)
+
+RESOURCE ID: halloween_morpeko_tr_name_full_title_key
+TEXT: เสนทางรางอิ่ม
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry
+TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียม: ชุดคอสเพลยโมรุเปโกะ (เสนทางรางหิว)
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_button_text_key
+TEXT: เสนทางรางหิว
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_description_key
+TEXT: เลือกเสนทางนี้เพื่อทำคำทา
+และรับไอเท็มอวาตาร
+ชุดคอสเพลยโมรุเปโกะ (รางหิว)
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_title_key
+TEXT: เสนทางรางหิว
+
+RESOURCE ID: halloween_spiritomb_tr_name
+TEXT: ฮาโลวีน 2024: คำทามิคารูเกะ
 
 RESOURCE ID: hint_desc_loc_network_err_body_key
 TEXT: Point your camera at the location and match
@@ -881,6 +945,12 @@ TEXT: เลือกเสนทางนี้เพื่อตามร�
 RESOURCE ID: legendary_heroes_tr_sword_title_key
 TEXT: เสนทางแหงดาบ
 
+RESOURCE ID: limited_localization_nearby_hint_1
+TEXT: You are getting closer to the landmark!
+
+RESOURCE ID: limited_localization_progress_hint_1
+TEXT: Follow the sparkles to find the landmark.
+
 RESOURCE ID: localization_progress_hint_1
 TEXT: Point your camera at the landmark
 and match it to the image below.
@@ -961,10 +1031,10 @@ RESOURCE ID: meetup_check_in_social_description
 TEXT: เลือกขอนี้เพื่อรับงานวิจัยแบบจำกัดเวลาเกี่ยวกับการสังสรรคกับเทรนเนอรคนอื่น ๆ
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-11T00:41:33.558826+00:00 for th-TH
-at SHA 1d419619e4a
-Pipeline 2681171, job 32799613
-Patch from: 0.333.0-SHA-4f3cd4da-RC4, 0.335.0-SHA-5feb3260-RC3
+TEXT: Built at 2024-10-16T00:37:48.013229+00:00 for th-TH
+at SHA 8ab2113085e
+Pipeline 2691685, job 32923390
+Patch from: 0.335.0-SHA-5feb3260-RC3, 0.337.0-SHA-b4a38293-RC1, 0.333.0-SHA-4f3cd4da-RC4
 
 RESOURCE ID: milestone_rewards_title
 TEXT: รางวัลความสำเร็จ
@@ -988,6 +1058,12 @@ TEXT: หนากากเทศกาล (พิคาชู)
 RESOURCE ID: nearby_station_active_header
 TEXT: เปดใชงาน
 
+RESOURCE ID: no_pokemon_found_body
+TEXT: ตองการวางโปเกมอนของคุณหรือไม?
+
+RESOURCE ID: no_pokemon_found_header
+TEXT: คุณยังไมไดวางโปเกมอนที่นี่!
+
 RESOURCE ID: not_now
 TEXT: ไวทีหลัง
 
@@ -1003,20 +1079,23 @@ TEXT: 5 surprise encounters with Mankey in GO Snapshot
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: คูรูมีรุแยงซีนถายรูปในโกสแนปช็อต 5 ครั้ง
 
+RESOURCE ID: poi_contrib_edit_desc_desc_custom
+TEXT: {0} Description
+
 RESOURCE ID: poi_contrib_edit_title_desc_custom
-TEXT: {0} Title
+TEXT: ชื่อของ{0}
 
 RESOURCE ID: poi_contrib_entry_ar_data_custom
-TEXT: Scan {0}
+TEXT: สแกน{0}
 
 RESOURCE ID: poi_contrib_entry_header_custom
-TEXT: Contribute to This {0}
+TEXT: ยื่นเรื่อง{0}นี้
 
 RESOURCE ID: poi_contrib_entry_report_invalid_custom
-TEXT: Report {0} Issue
+TEXT: รายงานปญหา{0}
 
 RESOURCE ID: poi_contrib_report_reason_duplicate_custom
-TEXT: Duplicate {0}
+TEXT: ทำสำเนา{0}
 
 RESOURCE ID: pokemon_ibfc_desc_0877
 TEXT: โปเกมอนตัวนี้จะมีรูปรางเปลี่ยนไปเมื่อใชทาโจมตีชารจ เมื่ออยูในรางหิว "กงลอออรา" จะเปลี่ยนเปนทาประเภทความมืด
@@ -1056,13 +1135,20 @@ RESOURCE ID: pokemon_tutorial_ibfc_desc
 TEXT: โปเกมอนตัวนี้สามารถเปลี่ยนฟอรมระหวางแบตเทิลได
 
 RESOURCE ID: pokestop_general
-TEXT: PokéStop
+TEXT: เสาโปเกสต็อป
 
 RESOURCE ID: quest_appraise_pokemon_plural
 TEXT: Appraise {0} Pokémon
 
 RESOURCE ID: quest_appraise_pokemon_singular
 TEXT: Appraise a Pokémon
+
+RESOURCE ID: quest_branching_special_dialogue_1
+TEXT: ดีใจที่ไดเจอนะ %PLAYERNAME%! มีงานวิจัย
+นาตื่นเตนกำลังรอเราอยูมากมาย เลือกไมถูกเลย
+
+RESOURCE ID: quest_branching_special_dialogue_2
+TEXT: คิดวาเราควรเลือกเสนทางไหนดี?
 
 RESOURCE ID: quest_buddy_affection_electric_plural
 TEXT: ไดรับหัวใจรวมกันกับคูหูประเภทไฟฟา
@@ -1555,7 +1641,7 @@ RESOURCE ID: swsh_masterball_sr_title_3
 TEXT: งานวิจัยระยะยาว: มาสเตอรบอล (4/4)
 
 RESOURCE ID: text_rewards_key_gowa24
-TEXT: <b>สิ่งที่จะไดรับ:<b>
+TEXT: <b>สิ่งที่จะไดรับ:</b>
 - การเผชิญหนากับโปเกมอนพังก "สตรินเดอร"
 - บัตรตีบอสฟรีสูงสุด 5 ใบในแตละวัน โดยการหมุนแผนภาพที่ยิม
 - เพิ่มโอกาสที่เอเลซันจะฟกออกมาจากไข 10 กม.
@@ -1570,7 +1656,7 @@ TEXT: <b>สิ่งที่จะไดรับ:<b>
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext10.1
 TEXT: ตั๋วสำหรับเขารวม "Pokémon GO ไวลดแอเรีย: ทั่วโลก" ที่ไดจัดเตรียมไวใหคุณลวงหนาโดยไมมีคาใชจาย
 
-<b>สิ่งที่จะไดรับ:<b>
+<b>สิ่งที่จะไดรับ:</b>
 - การเผชิญหนากับโปเกมอนพังก "สตรินเดอร"
 - บัตรตีบอสฟรีสูงสุด 5 ใบในแตละวัน โดยการหมุนแผนภาพที่ยิม
 - เพิ่มโอกาสที่เอเลซันจะฟกออกมาจากไข 10 กม.
@@ -1587,7 +1673,7 @@ TEXT: ตั๋วสำหรับเขารวม "Pokémon GO ไว
 
 RESOURCE ID: text_rewards_key_halloween2tr24
 TEXT: <b>Included rewards:</b>
-• Event-themed Pokémon encounters, including Pikachu wearing a witch hat, Vulpix wearing a Spooky Festival costume, Gengar wearing a Spooky Festival costume, Piplup wearing a Halloween Mischief costume, Drifblim wearing a Halloween Mischief costume, Froakie wearing a Pokémon Halloween costume, Pumpkaboo wearing a Spooky Festival costume, Rowlet wearing a Pokémon Halloween costume
+• Event-themed Pokémon encounters, including Pikachu wearing a witch hat and the following other Pokémon wearing Halloween-themed costumes: Vulpix, Gengar, Piplup, Drifblim, Froakie, Pumpkaboo, and Rowlet
 
 RESOURCE ID: text_rewards_key_masterball24
 TEXT: <b>รางวัลที่จะไดรับ:</b>
@@ -1736,6 +1822,12 @@ TEXT: GO Wild Area Hourly Restock: GO Safari Ball
 
 RESOURCE ID: tr_ticket_in_shop
 TEXT: สามารถซื้อตั๋วสำหรับงานวิจัยแบบจำกัดเวลาพรีเมียมไดที่รานคา
+
+RESOURCE ID: vps_guardian_oob_toast
+TEXT: คุณอยูนอกพื้นที่เลน ขยับเขาไปใกลพื้นที่เพื่อวางโปเกมอน
+
+RESOURCE ID: vps_localization_guidance_in_car
+TEXT: Move closer to the landmark.
 
 RESOURCE ID: vps_localization_landscape_error
 TEXT: ถือโทรศัพทของคุณในแนวตั้ง

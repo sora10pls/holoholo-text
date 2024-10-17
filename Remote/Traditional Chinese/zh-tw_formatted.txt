@@ -4,6 +4,12 @@ TEXT:
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: 已停止掃描寶可補給站
 
+RESOURCE ID: ar_not_supported_desc
+TEXT: Your device does not support AR.
+
+RESOURCE ID: ar_not_supported_title
+TEXT: Unsupported
+
 RESOURCE ID: ar_plus_got_it
 TEXT: Got it
 
@@ -274,6 +280,12 @@ TEXT: 還可使用{0}次極巨招式
 RESOURCE ID: bread_battle_resolve_timed_out_title
 TEXT: Everyone’s Pokémon have grown tired!
 
+RESOURCE ID: bread_battle_widget_default_message_container
+TEXT: {0} • {1}
+
+RESOURCE ID: bread_battle_widget_team_count
+TEXT: Team {0}
+
 RESOURCE ID: bread_dough_battle_ftue_body_generic
 TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 Trainers.
 
@@ -500,13 +512,49 @@ RESOURCE ID: gowa_2024_quest_branch_poison_title
 TEXT: Poison
 
 RESOURCE ID: gym_general
-TEXT: Gym
+TEXT: 道館
+
+RESOURCE ID: halloween_03_oct24_event_name
+TEXT: 糖果派對
 
 RESOURCE ID: halloween_cup_great_title
 TEXT: 萬聖節盃：超級聯盟版
 
 RESOURCE ID: halloween_cup_little_title
 TEXT: 萬聖節盃：迷你版
+
+RESOURCE ID: halloween_encounter_tr_name
+TEXT: 變裝派對特級限時調查
+
+RESOURCE ID: halloween_morpeko_tr_name
+TEXT: 莫魯貝可人偶裝特級限時調查
+
+RESOURCE ID: halloween_morpeko_tr_name_full
+TEXT: 莫魯貝可人偶裝特級限時調查：滿腹花紋
+
+RESOURCE ID: halloween_morpeko_tr_name_full_button_text_key
+TEXT: 滿腹花紋
+
+RESOURCE ID: halloween_morpeko_tr_name_full_description_key
+TEXT: 如果選擇這個分歧，你將能參與可獲得換裝道具「莫魯貝可人偶裝（滿腹花紋）」的挑戰。
+
+RESOURCE ID: halloween_morpeko_tr_name_full_title_key
+TEXT: 滿腹花紋
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry
+TEXT: 莫魯貝可人偶裝特級限時調查：空腹花紋
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_button_text_key
+TEXT: 空腹花紋
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_description_key
+TEXT: 如果選擇這個分歧，你將能參與可獲得換裝道具「莫魯貝可人偶裝（空腹花紋）」的挑戰。
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_title_key
+TEXT: 空腹花紋
+
+RESOURCE ID: halloween_spiritomb_tr_name
+TEXT: 萬聖節2024：花岩怪挑戰
 
 RESOURCE ID: hint_desc_loc_network_err_body_key
 TEXT: Point your camera at the location and match
@@ -724,6 +772,12 @@ TEXT: 前往劍之路。
 RESOURCE ID: legendary_heroes_tr_sword_title_key
 TEXT: 劍之路
 
+RESOURCE ID: limited_localization_nearby_hint_1
+TEXT: You are getting closer to the landmark!
+
+RESOURCE ID: limited_localization_progress_hint_1
+TEXT: Follow the sparkles to find the landmark.
+
 RESOURCE ID: localization_progress_hint_1
 TEXT: Point your camera at the landmark
 and match it to the image below.
@@ -804,10 +858,10 @@ RESOURCE ID: meetup_check_in_social_description
 TEXT: 這個分歧可以獲得能一面享受和訓練家夥伴的交流一面進行的限時調查。
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-11T00:41:33.558826+00:00 for zh-TW
-at SHA 1d419619e4a
-Pipeline 2681171, job 32799613
-Patch from: 0.333.0-SHA-4f3cd4da-RC4, 0.335.0-SHA-5feb3260-RC3
+TEXT: Built at 2024-10-16T00:37:48.013229+00:00 for zh-TW
+at SHA 8ab2113085e
+Pipeline 2691685, job 32923390
+Patch from: 0.335.0-SHA-5feb3260-RC3, 0.337.0-SHA-b4a38293-RC1, 0.333.0-SHA-4f3cd4da-RC4
 
 RESOURCE ID: move_name_0406
 TEXT: 氣場輪
@@ -839,20 +893,23 @@ TEXT: 5 surprise encounters with Mankey in GO Snapshot
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: 蟲寶包將在GO Snapshot中驚喜現身5次
 
+RESOURCE ID: poi_contrib_edit_desc_desc_custom
+TEXT: {0} Description
+
 RESOURCE ID: poi_contrib_edit_title_desc_custom
-TEXT: {0} Title
+TEXT: {0}的標題
 
 RESOURCE ID: poi_contrib_entry_ar_data_custom
-TEXT: Scan {0}
+TEXT: 掃描{0}
 
 RESOURCE ID: poi_contrib_entry_header_custom
-TEXT: Contribute to This {0}
+TEXT: 投稿至此{0}
 
 RESOURCE ID: poi_contrib_entry_report_invalid_custom
-TEXT: Report {0} Issue
+TEXT: 回報{0}的問題
 
 RESOURCE ID: poi_contrib_report_reason_duplicate_custom
-TEXT: Duplicate {0}
+TEXT: 複製{0}
 
 RESOURCE ID: pokecoin.1000_title
 TEXT: 1000寶可幣（僅限測試）
@@ -912,13 +969,19 @@ RESOURCE ID: pokemon_tutorial_ibfc_desc
 TEXT: 這隻寶可夢可以在對戰中改變形態。
 
 RESOURCE ID: pokestop_general
-TEXT: PokéStop
+TEXT: 寶可補給站
 
 RESOURCE ID: quest_appraise_pokemon_plural
 TEXT: Appraise {0} Pokémon
 
 RESOURCE ID: quest_appraise_pokemon_singular
 TEXT: Appraise a Pokémon
+
+RESOURCE ID: quest_branching_special_dialogue_1
+TEXT: 嗨，%PLAYERNAME%！這裡有好多寶可夢，要調查的事也好多。趕緊開始吧！
+
+RESOURCE ID: quest_branching_special_dialogue_2
+TEXT: 你對哪一個感興趣？
 
 RESOURCE ID: quest_buddy_affection_electric_plural
 TEXT: 將電屬性的寶可夢設成夥伴，並和牠獲得{0}顆心心
@@ -1409,7 +1472,7 @@ TEXT: Pokémon GO 曠野地帶：全球入場券（率先免費登場）
 
 RESOURCE ID: text_rewards_key_halloween2tr24
 TEXT: <b>Included rewards:</b>
-• Event-themed Pokémon encounters, including Pikachu wearing a witch hat, Vulpix wearing a Spooky Festival costume, Gengar wearing a Spooky Festival costume, Piplup wearing a Halloween Mischief costume, Drifblim wearing a Halloween Mischief costume, Froakie wearing a Pokémon Halloween costume, Pumpkaboo wearing a Spooky Festival costume, Rowlet wearing a Pokémon Halloween costume
+• Event-themed Pokémon encounters, including Pikachu wearing a witch hat and the following other Pokémon wearing Halloween-themed costumes: Vulpix, Gengar, Piplup, Drifblim, Froakie, Pumpkaboo, and Rowlet
 
 RESOURCE ID: text_rewards_key_masterball24
 TEXT: <b>可獲得的獎勵：</b>
@@ -1551,6 +1614,9 @@ TEXT: GO Wild Area Hourly Restock: GO Safari Ball
 
 RESOURCE ID: tr_ticket_in_shop
 TEXT: 特級限時調查入場券已在商店中上架
+
+RESOURCE ID: vps_localization_guidance_in_car
+TEXT: Move closer to the landmark.
 
 RESOURCE ID: vps_localization_landscape_error
 TEXT: 請直向握持裝置

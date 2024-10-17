@@ -4,6 +4,15 @@ TEXT:
 RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: Terputus
 
+RESOURCE ID: ar_not_supported_desc
+TEXT: Your device does not support AR.
+
+RESOURCE ID: ar_not_supported_title
+TEXT: Unsupported
+
+RESOURCE ID: ar_plus_got_it
+TEXT: OKE
+
 RESOURCE ID: avatar_hat_halloween2024
 TEXT: Topi Tinggi Woobat
 
@@ -146,10 +155,10 @@ RESOURCE ID: badge_tag_bonus
 TEXT: Bonus
 
 RESOURCE ID: battle_raids_party_plural
-TEXT: Battle in {0} raids while in a party
+TEXT: Bertarung di {0} Raid saat tergabung di Grup
 
 RESOURCE ID: battle_raids_party_singular
-TEXT: Battle in a raid while in a party
+TEXT: Bertarung di Raid saat tergabung di Grup
 
 RESOURCE ID: bonus_cd_move_annihilape
 TEXT: Evolve Primeape to get an Annihilape that knows the Charged Attack Rage Fist!
@@ -245,13 +254,22 @@ RESOURCE ID: bonus_two_free_raid_passes
 TEXT: Receive up to 2 Raid Passes at no cost by spinning Photo Discs at Gyms
 
 RESOURCE ID: bread_battle_cheer_charge_blocked
-TEXT: Meter is full!
+TEXT: Barometer penuh!
 
 RESOURCE ID: bread_battle_log_global_cheer_bread_meter
-TEXT: YOUR CHEERING CHARGED YOUR ALLIES’ METERS!
+TEXT: DUKUNGANMU MENGISI BAROMETER REKANMU!
+
+RESOURCE ID: bread_battle_received_global_cheering_boost
+TEXT: SEMUANYA MENDUKUNGMU!
 
 RESOURCE ID: bread_battle_resolve_timed_out_title
-TEXT: Everyone’s Pokémon have grown tired!
+TEXT: Semua Pokémon kelelahan!
+
+RESOURCE ID: bread_battle_widget_default_message_container
+TEXT: {0} • {1}
+
+RESOURCE ID: bread_battle_widget_team_count
+TEXT: Team {0}
 
 RESOURCE ID: bread_dough_battle_ftue_body_generic
 TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 Trainers.
@@ -272,7 +290,7 @@ RESOURCE ID: bread_dough_lobby_trainer_list_title
 TEXT: {0} Trainers
 
 RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
-TEXT: 1 Trainer
+TEXT: 1 Pelatih
 
 RESOURCE ID: bread_more_mp_to_reach_daily_limit
 TEXT: Dapat mengumpulkan {0} PM lagi hari ini
@@ -324,8 +342,8 @@ TEXT: 23 November –
 24 November
 
 RESOURCE ID: event_datetime_range_key_halloween2tr24
-TEXT: October 22, 10:00 a.m. –
-November 3, 8:00 p.m.
+TEXT: 22 Oktober, 10.00–
+3 November, 20.00
 
 RESOURCE ID: event_datetime_range_key_masterball24
 TEXT: 4 Oktober, 10.00–
@@ -374,10 +392,10 @@ RESOURCE ID: expires_in_hour_singular
 TEXT: Kedaluwarsa dalam 1 jam
 
 RESOURCE ID: field_research_special_tasks
-TEXT: Field Research tasks from check-in now available
+TEXT: Tugas Penelitian Lapangan dari check-in kini tersedia
 
 RESOURCE ID: fr_tag_meetup
-TEXT: Meetup
+TEXT: Kopdar
 
 RESOURCE ID: galar_little_cup_title
 TEXT: Piala Galar: Edisi Kecil
@@ -395,7 +413,7 @@ RESOURCE ID: galarian_expedition_tgr_event_name
 TEXT: Ekspedisi Galar: Pengambilalihan
 
 RESOURCE ID: general1.ticket.2_halloween2tr24_title
-TEXT: Costume Party Premium Timed Research
+TEXT: Penelitian Berwaktu Premium Pesta Kostum
 
 RESOURCE ID: general1.ticket.2_yamasktr24_title
 TEXT: Tiket Penelitian Berwaktu Premium Hari Penelitian Yamask dan Galarian Yamask
@@ -478,11 +496,47 @@ TEXT: Poison
 RESOURCE ID: gym_general
 TEXT: Gym
 
+RESOURCE ID: halloween_03_oct24_event_name
+TEXT: Pesta Permen Trick-or-Treat
+
 RESOURCE ID: halloween_cup_great_title
 TEXT: Piala Halloween: Edisi Liga Great
 
 RESOURCE ID: halloween_cup_little_title
 TEXT: Piala Halloween: Edisi Kecil
+
+RESOURCE ID: halloween_encounter_tr_name
+TEXT: Penelitian Berwaktu Premium Pesta Kostum
+
+RESOURCE ID: halloween_morpeko_tr_name
+TEXT: Penelitian Berwaktu Premium Kostum Morpeko
+
+RESOURCE ID: halloween_morpeko_tr_name_full
+TEXT: Penelitian Berwaktu Premium Kostum Morpeko: Jalur Pola Kenyang
+
+RESOURCE ID: halloween_morpeko_tr_name_full_button_text_key
+TEXT: Jalur Pola Kenyang
+
+RESOURCE ID: halloween_morpeko_tr_name_full_description_key
+TEXT: Pilih opsi ini untuk jalur yang mengarahkanmu ke item avatar Kostum Morpeko (Pola Kenyang).
+
+RESOURCE ID: halloween_morpeko_tr_name_full_title_key
+TEXT: Jalur Pola Kenyang
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry
+TEXT: Penelitian Berwaktu Premium Kostum Morpeko: Jalur Pola Lapar
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_button_text_key
+TEXT: Jalur Pola Lapar
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_description_key
+TEXT: Pilih opsi ini untuk jalur yang mengarahkanmu ke item avatar Kostum Morpeko (Pola Lapar).
+
+RESOURCE ID: halloween_morpeko_tr_name_hangry_title_key
+TEXT: Jalur Pola Lapar
+
+RESOURCE ID: halloween_spiritomb_tr_name
+TEXT: Halloween 2024: Tantangan Spiritomb
 
 RESOURCE ID: hint_desc_loc_network_err_body_key
 TEXT: Pastikan kamera mengarah ke lokasi yang cocok
@@ -578,13 +632,13 @@ RESOURCE ID: iris_social_temporary_disable_key
 TEXT: Lokasi ini tidak tersedia saat ini. Coba lagi nanti.
 
 RESOURCE ID: item_event_ticket_04_desc_halloween2tr24
-TEXT: A ticket to access the Costume Party Premium Timed Research from October 22 at 10:00 a.m. to November 3, 2024, at 8:00 p.m. local time, wherever you are.
+TEXT: Tiket untuk mengakses Penelitian Berwaktu Premium Pesta Kostum dari 22 Oktober pukul 10.00 sampai 3 November 2024 pukul 20.00 waktu setempat, di mana pun kamu berada.
 
 RESOURCE ID: item_event_ticket_04_desc_researchdaysept24
 TEXT: Tiket untuk mengakses dua Penelitian Berwaktu Premium Hari Penelitian Oranguru dan Passimian pada 22 September 2024, mulai pukul 14.00 hingga 17.00 waktu setempat, di mana pun kamu berada.
 
 RESOURCE ID: item_event_ticket_04_details_halloween2tr24
-TEXT: This ticket will automatically activate to give you access to the Costume Party Premium Timed Research on October 22, wherever you are.
+TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Berwaktu Premium Pesta Kostum pada 22 Oktober, di mana pun kamu berada.
 
 RESOURCE ID: item_event_ticket_04_details_researchdaysept24
 TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke dua Penelitian Berwaktu Premium Hari Penelitian Oranguru dan Passimian pada 22 September, di mana pun kamu berada.
@@ -700,6 +754,12 @@ TEXT: Pilih opsi ini untuk mengikuti Jalur Pedang.
 RESOURCE ID: legendary_heroes_tr_sword_title_key
 TEXT: Jalur Pedang
 
+RESOURCE ID: limited_localization_nearby_hint_1
+TEXT: You are getting closer to the landmark!
+
+RESOURCE ID: limited_localization_progress_hint_1
+TEXT: Follow the sparkles to find the landmark.
+
 RESOURCE ID: localization_progress_hint_1
 TEXT: Arahkan kameramu ke landmark
 dan cocokkan dengan gambar di bawah.
@@ -741,7 +801,7 @@ RESOURCE ID: meetup_check_in_battle_description
 TEXT: Sudah gatal ingin melawan Tim Roket GO bersama Pelatih lain? Pilih opsi ini untuk menerima Penelitian Berwaktu yang akan mendorongmu ke pertarungan itu.
 
 RESOURCE ID: meetup_check_in_bonus
-TEXT: Meetup Check-in Bonus
+TEXT: Bonus Check-In Kopdar
 
 RESOURCE ID: meetup_check_in_dialogue_00
 TEXT: Hari ini mau melakukan apa, Pelatih?
@@ -780,10 +840,10 @@ RESOURCE ID: meetup_check_in_social_description
 TEXT: Mau mengobrol dan nongkrong bersama Pelatih lain? Pilih opsi ini untuk menerima Penelitian Berwaktu yang akan membawamu ke tujuan itu.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-11T00:41:33.558826+00:00 for id-ID
-at SHA 1d419619e4a
-Pipeline 2681171, job 32799613
-Patch from: 0.333.0-SHA-4f3cd4da-RC4, 0.335.0-SHA-5feb3260-RC3
+TEXT: Built at 2024-10-16T00:37:48.013229+00:00 for id-ID
+at SHA 8ab2113085e
+Pipeline 2691685, job 32923390
+Patch from: 0.335.0-SHA-5feb3260-RC3, 0.337.0-SHA-b4a38293-RC1, 0.333.0-SHA-4f3cd4da-RC4
 
 RESOURCE ID: move_name_0406
 TEXT: Roda Aura
@@ -807,16 +867,19 @@ RESOURCE ID: not_now
 TEXT: LAIN KALI
 
 RESOURCE ID: party_play_field_research_special
-TEXT: Party Challenges from check-in now available
+TEXT: Tantangan Grup dari check-in kini tersedia
 
 RESOURCE ID: party_play_tandemaus_boost
-TEXT: Boosted chance of finding Tandemaus in Party Challenge reward encounters
+TEXT: Peningkatan peluang pertemuan dengan Tandemaus pada hadiah pertemuan Tantangan Grup
 
 RESOURCE ID: photobomb_five_mankey
 TEXT: 5 surprise encounters with Mankey in GO Snapshot
 
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: 5 pertemuan kejutan dengan Sewaddle di Foto GO
+
+RESOURCE ID: poi_contrib_edit_desc_desc_custom
+TEXT: {0} Description
 
 RESOURCE ID: poi_contrib_edit_title_desc_custom
 TEXT: Judul {0}
@@ -843,13 +906,13 @@ RESOURCE ID: pokemon_ibfc_name_0877
 TEXT: Pola Lapar
 
 RESOURCE ID: pokemon_info_evolve_pokemon_deployed
-TEXT: {0} ditugaskan ke Gym Power Spot.
+TEXT: {0} ditugaskan ke Gym atau Power Spot.
 
 RESOURCE ID: pokemon_info_evolve_pokemon_iris_social_deployed
 TEXT: {0} sedang bermain di PokéStop.
 
 RESOURCE ID: pokemon_info_powerup_pokemon_deployed
-TEXT: {0} ditugaskan ke Gym Power Spot.
+TEXT: {0} ditugaskan ke Gym atau Power Spot.
 
 RESOURCE ID: pokemon_name_bread
 TEXT: {0} Dynamax
@@ -874,6 +937,12 @@ TEXT: Appraise {0} Pokémon
 
 RESOURCE ID: quest_appraise_pokemon_singular
 TEXT: Appraise a Pokémon
+
+RESOURCE ID: quest_branching_special_dialogue_1
+TEXT: Senang bertemu lagi denganmu, %PLAYERNAME%! Ada penelitian menarik yang menanti kita nih. Namun, aku butuh bantuanmu untuk menentukan fokus penelitian kali ini.
+
+RESOURCE ID: quest_branching_special_dialogue_2
+TEXT: Mana yang sebaiknya kita pilih?
 
 RESOURCE ID: quest_buddy_affection_electric_plural
 TEXT: Dapatkan {0} Hati dengan Pokémon Partner tipe Listrik
@@ -1179,7 +1248,7 @@ RESOURCE ID: raid_day_mega_mawile_event_name
 TEXT: Hari Raid: Mega Mawile
 
 RESOURCE ID: reduced_hatch_party_play
-TEXT: Reduced Hatch Distance while in a Party
+TEXT: Jarak Penetasan berkurang saat tergabung di grup
 
 RESOURCE ID: research_day_passimian_and_oranguru_event_name
 TEXT: Hari Penelitian Oranguru dan Passimian
@@ -1359,8 +1428,8 @@ RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: Tiket untuk mengakses Pokémon GO Wild Area: Global lebih awal dan gratis.
 
 RESOURCE ID: text_rewards_key_halloween2tr24
-TEXT: <b>Included rewards:</b>
-• Event-themed Pokémon encounters, including Pikachu wearing a witch hat, Vulpix wearing a Spooky Festival costume, Gengar wearing a Spooky Festival costume, Piplup wearing a Halloween Mischief costume, Drifblim wearing a Halloween Mischief costume, Froakie wearing a Pokémon Halloween costume, Pumpkaboo wearing a Spooky Festival costume, Rowlet wearing a Pokémon Halloween costume
+TEXT: <b>Termasuk Hadiah:</b>
+• Pertemuan Pokémon bertema event, termasuk Pikachu bertopi penyihir dan Pokémon berkostum tema Halloween lainnya: Vulpix, Gengar, Piplup, Drifblim, Froakie, Pumpkaboo, dan Rowlet
 
 RESOURCE ID: text_rewards_key_masterball24
 TEXT: <b>Termasuk Hadiah:</b>
@@ -1431,7 +1500,7 @@ RESOURCE ID: ticket_sewaddle
 TEXT: Tiket untuk cerita Penelitian Spesial: Kit Jahit Komplit tersedia di toko
 
 RESOURCE ID: timed_research_special
-TEXT: Timed Research from check-in now available
+TEXT: Penelitian Berwaktu dari check-in kini tersedia
 
 RESOURCE ID: tr_gowa2024_global_daily_electric
 TEXT: GO Wild Area 2024: Electric
@@ -1501,6 +1570,9 @@ TEXT: GO Wild Area Hourly Restock: GO Safari Ball
 
 RESOURCE ID: tr_ticket_in_shop
 TEXT: Tiket untuk Penelitian Berwaktu Premium tersedia di toko
+
+RESOURCE ID: vps_localization_guidance_in_car
+TEXT: Move closer to the landmark.
 
 RESOURCE ID: vps_localization_landscape_error
 TEXT: Pegang ponselmu secara vertikal.
