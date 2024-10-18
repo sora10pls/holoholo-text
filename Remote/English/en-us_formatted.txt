@@ -145,12 +145,6 @@ TEXT: Pokémon GO Wild Area 2024
 RESOURCE ID: badge_gowa_poison_title
 TEXT: Poison Pro
 
-RESOURCE ID: badge_party_challenges_completed
-TEXT: Complete {0} Party Challenges
-
-RESOURCE ID: badge_party_challenges_completed_title
-TEXT: Life of the Party
-
 RESOURCE ID: badge_tag_bonus
 TEXT: Bonus
 
@@ -186,9 +180,6 @@ TEXT: If Trainers work together to win a Primeape raid, large numbers of Mankey 
 
 RESOURCE ID: bonus_implicit_social_sewaddle_raid
 TEXT: If Trainers work together to win a Swadloon raid, large numbers of Sewaddle will appear in the area for 30 minutes
-
-RESOURCE ID: bonus_koffing_evo
-TEXT: Koffing will evolve into Galarian Weezing
 
 RESOURCE ID: bonus_mp_cap
 TEXT: Daily limit for collecting Max Particles increased
@@ -226,20 +217,20 @@ TEXT: Three additional Candy XL from catching Pokémon in four-star raids and ab
 RESOURCE ID: bonus_raid_4plus_6_candy
 TEXT: Six additional Candy from catching Pokémon in four-star raids and above
 
-RESOURCE ID: bonus_tr_gbl_championships_2025_a_desc
-TEXT: Supercharged Bonus Timed Research
-
-RESOURCE ID: bonus_tr_gbl_championships_2025_a_title
-TEXT: Supercharged Bonus Timed Research
-
 RESOURCE ID: bonus_two_free_raid_passes
 TEXT: Receive up to 2 Raid Passes at no cost by spinning Photo Discs at Gyms
 
 RESOURCE ID: bread_battle_cheer_charge_blocked
-TEXT: Meter is full!
+TEXT: Max Meter is full. Try cheering later.
 
 RESOURCE ID: bread_battle_log_global_cheer_bread_meter
 TEXT: YOUR CHEERING CHARGED YOUR ALLIES’ METERS!
+
+RESOURCE ID: bread_battle_resolve_error_description
+TEXT: Please try again.
+
+RESOURCE ID: bread_battle_resolve_error_title
+TEXT: Something went wrong.
 
 RESOURCE ID: bread_battle_resolve_timed_out_title
 TEXT: Everyone’s Pokémon have grown tired!
@@ -274,12 +265,6 @@ TEXT: 1 Trainer
 RESOURCE ID: bread_notification_empty
 TEXT: {0} returned from the Power Spot.
 
-RESOURCE ID: bread_station_current_battle_defeated
-TEXT: You defeated this Power Spot Boss
-
-RESOURCE ID: bread_station_failure_description
-TEXT: This Power Spot has reached its limit for placed Pokémon.
-
 RESOURCE ID: bread_station_failure_description_duplicate
 TEXT: You have already placed a Pokémon at this Power Spot.
 
@@ -289,8 +274,11 @@ TEXT: You’ve received a reward for checking in to a Community Ambassador event
 RESOURCE ID: community_day_mankey_event_name
 TEXT: Community Day: Mankey
 
-RESOURCE ID: community_day_sewaddle_event_name
-TEXT: Community Day: Sewaddle
+RESOURCE ID: details_link_key_gowa2024
+TEXT: For more details, visit the <a href="pokemongolive.com/gowildarea/global">website</a>.
+
+RESOURCE ID: details_link_key_mankeycd24
+TEXT: For more details, visit the <a href="https://pokemongolive.com/post/communityday-november-2024-mankey">website</a>.
 
 RESOURCE ID: details_link_key_mawileraidday
 TEXT: For more details, visit the <a href="https://pokemongolive.com/post/mega-mawile-raid-day-2024">website</a>.
@@ -311,9 +299,16 @@ RESOURCE ID: event_datetime_range_key_gowa24
 TEXT: November 23 –
 November 24
 
+RESOURCE ID: event_datetime_range_key_halloween1tr24
+TEXT: October 22, 10:00 a.m. –
+November 3, 8:00 p.m.
+
 RESOURCE ID: event_datetime_range_key_halloween2tr24
 TEXT: October 22, 10:00 a.m. –
 November 3, 8:00 p.m.
+
+RESOURCE ID: event_datetime_range_key_mankeycd24
+TEXT: November 10, 2:00 p.m. – 5:00 p.m.
 
 RESOURCE ID: event_datetime_range_key_masterball24
 TEXT: October 4, 10:00 a.m. –
@@ -321,17 +316,6 @@ October 11, 8:00 p.m.
 
 RESOURCE ID: event_datetime_range_key_mawileraidday
 TEXT: October 12, 2:00 p.m. – 10:00 p.m.
-
-RESOURCE ID: event_datetime_range_key_monthlyticketnov24
-TEXT: November 3, 12:00 a.m. –
-December 2, 11:59 p.m.
-
-RESOURCE ID: event_datetime_range_key_psychspec24
-TEXT: September 18, 10:00 a.m. –
-September 22, 8:00 p.m.
-
-RESOURCE ID: event_datetime_range_key_researchdaysept24
-TEXT: September 22, 2:00 p.m. – 5:00 p.m.
 
 RESOURCE ID: event_datetime_range_key_sewaddlecd24
 TEXT: October 5, 2:00 p.m. – 5:00 p.m.
@@ -345,17 +329,8 @@ TEXT: Field Research tasks from check-in now available
 RESOURCE ID: fr_tag_meetup
 TEXT: Meetup
 
-RESOURCE ID: galarian_expedition_collection_challenge_1
-TEXT: Galarian Expedition Collection Challenge 1
-
-RESOURCE ID: galarian_expedition_collection_challenge_2
-TEXT: Galarian Expedition Collection Challenge 2
-
-RESOURCE ID: galarian_expedition_event_name
-TEXT: Galarian Expedition
-
-RESOURCE ID: galarian_expedition_tgr_event_name
-TEXT: Galarian Expedition: Taken Over
+RESOURCE ID: general1.ticket.2_halloween1tr24_title
+TEXT: Morpeko Onesie Premium Timed Research Ticket
 
 RESOURCE ID: general1.ticket.2_halloween2tr24_title
 TEXT: Costume Party Premium Timed Research
@@ -363,23 +338,14 @@ TEXT: Costume Party Premium Timed Research
 RESOURCE ID: general1.ticket.2_yamasktr24_title
 TEXT: Yamask and Galarian Yamask Research Day Premium Timed Research Ticket
 
-RESOURCE ID: general1.ticket._gowa24_title
-TEXT: Pokémon GO Wild Area: Global Ticket
-
 RESOURCE ID: general1.ticket._masterball24_title
 TEXT: Masterwork Research: Master Ball
 
 RESOURCE ID: general1.ticket._mawileraidday_title
 TEXT: Mega Mawile Raid Day Ticket
 
-RESOURCE ID: general1.ticket._monthlyticketnov24_title
-TEXT: Daily PokéCoin Bounty Part 3 Ticket
-
-RESOURCE ID: general1.ticket._psychspec24_title
-TEXT: Psychic Spectacular 2024 Premium Timed Research Ticket
-
-RESOURCE ID: general1.ticket._researchdaysept24_title
-TEXT: Oranguru and Passimian Research Day Premium Timed Research Ticket
+RESOURCE ID: general1.ticket_mankeycd24_title
+TEXT: Mankey Community Day Ticket
 
 RESOURCE ID: general1.ticket_sewaddlecd24_title
 TEXT: Sewaddle Community Day Ticket
@@ -498,17 +464,8 @@ RESOURCE ID: hint_desc_ready_title_key
 TEXT: Find the landmark.
 It’s nearby!
 
-RESOURCE ID: home_transfer_error_gym_deployed
-TEXT: You can’t send Pokémon that are defending Gyms or placed at Power Spots.
-
-RESOURCE ID: home_transfer_error_gym_deployed_old
-TEXT: You can’t send Pokémon that are defending Gyms.
-
 RESOURCE ID: inapp_banner_desc
 TEXT: Learn more about this month’s special gift, available with specified purchase.
-
-RESOURCE ID: incense_spawns_attract
-TEXT: Featured Pokémon attracted to Incense
 
 RESOURCE ID: iris_social_confirm_exit_modal_body
 TEXT: Pokémon will stay and play for a little while until they get tired and return, but you can call them back earlier.
@@ -570,14 +527,8 @@ TEXT: This location isn’t available right now. Please come back later.
 RESOURCE ID: item_event_ticket_04_desc_halloween2tr24
 TEXT: A ticket to access the Costume Party Premium Timed Research from October 22 at 10:00 a.m. to November 3, 2024, at 8:00 p.m. local time, wherever you are.
 
-RESOURCE ID: item_event_ticket_04_desc_researchdaysept24
-TEXT: A ticket to access two Premium Timed Research opportunities for Oranguru and Passimian Research Day on September 22, 2024, from 2:00 p.m. to 5:00 p.m. local time, wherever you are.
-
 RESOURCE ID: item_event_ticket_04_details_halloween2tr24
 TEXT: This ticket will automatically activate to give you access to the Costume Party Premium Timed Research on October 22, wherever you are.
-
-RESOURCE ID: item_event_ticket_04_details_researchdaysept24
-TEXT: This ticket will automatically activate to give you access to two Premium Timed Research opportunities for Oranguru and Passimian Research Day on September 22, wherever you are.
 
 RESOURCE ID: item_event_ticket_09_desc_masterball24
 TEXT: A ticket to access Masterwork Research: Master Ball starting October 4 at 10:00 a.m. local time, wherever you are.
@@ -585,26 +536,32 @@ TEXT: A ticket to access Masterwork Research: Master Ball starting October 4 at 
 RESOURCE ID: item_event_ticket_09_details_masterball24
 TEXT: This ticket will automatically activate to give you access to the Masterwork Research: Master Ball on October 4, wherever you are.
 
-RESOURCE ID: item_event_ticket_evergreen_desc_psychspec24
-TEXT: A ticket to access the Psychic Spectacular 2024 Premium Timed Research from September 18 at 10:00 a.m. to September 22, 2024, at 8:00 p.m. local time, wherever you are.
-
 RESOURCE ID: item_event_ticket_evergreen_desc_yamasktr24
 TEXT: A ticket to access two Premium Timed Research opportunities for Yamask and Galarian Yamask Research Day on October 19, 2024, from 2:00 p.m. to 5:00 p.m. local time, wherever you are.
-
-RESOURCE ID: item_event_ticket_evergreen_details_psychspec24
-TEXT: This ticket will automatically activate to give you access to the Psychic Spectacular 2024 Premium Timed Research on September 18, wherever you are.
 
 RESOURCE ID: item_event_ticket_evergreen_details_yamasktr24
 TEXT: This ticket will automatically activate to give you access to two Premium Timed Research opportunities for Yamask and Galarian Yamask Research Day on October 19, wherever you are.
 
+RESOURCE ID: item_event_ticket_gray_desc_halloween1tr24
+TEXT: A ticket to access the Morpeko Onesie Premium Timed Research from October 22 at 10:00 a.m. to November 3, 2024, at 8:00 p.m. local time, wherever you are.
+
 RESOURCE ID: item_event_ticket_gray_desc_mawileraidday
 TEXT: A ticket to access special bonuses on Saturday, October 12, 2024, from 2:00 p.m. to 10:00 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_gray_details_halloween1tr24
+TEXT: This ticket will automatically activate to give you access to the Morpeko Onesie Premium Timed Research on October 22, wherever you are.
 
 RESOURCE ID: item_event_ticket_gray_details_mawileraidday
 TEXT: This ticket will automatically activate to give you access to special bonuses on October 12, wherever you are.
 
+RESOURCE ID: item_event_ticket_pink_desc_mankeycd24
+TEXT: A ticket to access the Mankey Community Day Special Research starting November 10 at 2:00 p.m. local time, wherever you are.
+
 RESOURCE ID: item_event_ticket_pink_desc_sewaddlecd24
 TEXT: A ticket to access the Sewaddle Community Day Special Research starting October 5 at 2:00 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_pink_details_mankeycd24
+TEXT: This ticket will automatically activate to give you access to the Special Research story Mankey Business on November 10, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_details_sewaddlecd24
 TEXT: This ticket will automatically activate to give you access to the Sewaddle Community Day Special Research, Sew Far Sew Good, on October 5, wherever you are.
@@ -624,12 +581,6 @@ TEXT: 1 hour left
 RESOURCE ID: item_expire_timer_minutes_seconds_left
 TEXT: {0} left
 
-RESOURCE ID: item_global_event_ticket_desc_gowa24
-TEXT: A ticket to access Special Research and bonuses for Pokémon GO Wild Area: Global from November 23 to November 24, 2024, wherever you are.
-
-RESOURCE ID: item_global_event_ticket_details_gowa24
-TEXT: This ticket will automatically activate to give you access to Special Research and bonuses for Pokémon GO Wild Area: Global on November 23, wherever you are.
-
 RESOURCE ID: item_wild_ball_desc
 TEXT: A ball that is extremely effective for catching Pokémon. It is only available during Pokémon GO Wild Area events.
 
@@ -641,60 +592,6 @@ TEXT: A ball that is extremely effective for catching Pokémon. It is only avail
 
 RESOURCE ID: item_wild_ball_premier_name
 TEXT: GO Safari Ball
-
-RESOURCE ID: join_max_battle_plural
-TEXT: Take on {0} Max Battles
-
-RESOURCE ID: join_max_battle_singular
-TEXT: Take on a Max Battle
-
-RESOURCE ID: legendary_heroes_collection_shield_catch
-TEXT: Legendary Heroes: Shield Path Catch Challenge
-
-RESOURCE ID: legendary_heroes_collection_shield_trade
-TEXT: Legendary Heroes: Shield Path Trade Challenge
-
-RESOURCE ID: legendary_heroes_collection_sword_catch
-TEXT: Legendary Heroes: Sword Path Catch Challenge
-
-RESOURCE ID: legendary_heroes_collection_sword_trade
-TEXT: Legendary Heroes: Sword Path Trade Challenge
-
-RESOURCE ID: legendary_heroes_event_name
-TEXT: Legendary Heroes
-
-RESOURCE ID: legendary_heroes_tr_name
-TEXT: Legendary Heroes Timed Research
-
-RESOURCE ID: legendary_heroes_tr_name_shield_1
-TEXT: Legendary Heroes Timed Research: Shield Path (1/2)
-
-RESOURCE ID: legendary_heroes_tr_name_shield_2
-TEXT: Legendary Heroes Timed Research: Shield Path (2/2)
-
-RESOURCE ID: legendary_heroes_tr_name_sword_1
-TEXT: Legendary Heroes Timed Research: Sword Path (1/2)
-
-RESOURCE ID: legendary_heroes_tr_name_sword_2
-TEXT: Legendary Heroes Timed Research: Sword Path (2/2)
-
-RESOURCE ID: legendary_heroes_tr_shield_button_text_key
-TEXT: Shield Path
-
-RESOURCE ID: legendary_heroes_tr_shield_description_key
-TEXT: Choose this option to follow the Shield Path.
-
-RESOURCE ID: legendary_heroes_tr_shield_title_key
-TEXT: Shield Path
-
-RESOURCE ID: legendary_heroes_tr_sword_button_text_key
-TEXT: Sword Path
-
-RESOURCE ID: legendary_heroes_tr_sword_description_key
-TEXT: Choose this option to follow the Sword Path.
-
-RESOURCE ID: legendary_heroes_tr_sword_title_key
-TEXT: Sword Path
 
 RESOURCE ID: limited_localization_nearby_hint_1
 TEXT: You are getting closer to the landmark!
@@ -786,22 +683,13 @@ RESOURCE ID: meetup_check_in_social_description
 TEXT: Hoping to chat and hang out with other Trainers? Choose this option to receive Timed Research that will push you toward that goal.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-16T00:37:48.013229+00:00 for en-US
-at SHA 8ab2113085e
-Pipeline 2691685, job 32923390
-Patch from: 0.335.0-SHA-5feb3260-RC3, 0.337.0-SHA-b4a38293-RC1, 0.333.0-SHA-4f3cd4da-RC4
+TEXT: Built at 2024-10-17T18:22:55.206354+00:00 for en-US
+at SHA bfa510cb13
+Pipeline 2696846, job 33000854
+Patch from: 0.337.0-SHA-097f040b-RC2, 0.335.0-SHA-5fe4794d-RC4
 
 RESOURCE ID: mp_replenish.1_title
 TEXT: Max Particle Pack ({0} MP)
-
-RESOURCE ID: mp_replenish.3_title
-TEXT: 3 Max Particle Packs ({0} MP)
-
-RESOURCE ID: n_hat_gtr2024eeveefanmask_0_display_name
-TEXT: Festival Mask (Eevee)
-
-RESOURCE ID: n_hat_gtr2024pikachufanmask_0_display_name
-TEXT: Festival Mask (Pikachu)
 
 RESOURCE ID: nearby_station_active_header
 TEXT: Active
@@ -921,7 +809,7 @@ RESOURCE ID: quest_catch_wild_ball_singular
 TEXT: Catch a Pokémon in a GO Safari Ball
 
 RESOURCE ID: quest_choose_buddy_plural
-TEXT: Choose or Swap Buddy Pokémon for {0} times
+TEXT: Choose or Swap Buddy Pokémon {0} times
 
 RESOURCE ID: quest_choose_buddy_singular
 TEXT: Choose or Swap Buddy Pokémon
@@ -987,10 +875,10 @@ RESOURCE ID: quest_primeape_evolve_b_singular
 TEXT: Evolve a Primeape
 
 RESOURCE ID: quest_raid_supereffective_charge_plural
-TEXT: Use {0} supereffective Charged Attacks in Raid battles
+TEXT: Use {0} supereffective Charged Attacks in Raid Battles
 
 RESOURCE ID: quest_raid_supereffective_charge_singular
-TEXT: Use a supereffective Charged Attack in a Raid battle
+TEXT: Use a supereffective Charged Attack in a Raid Battle
 
 RESOURCE ID: quest_sewaddle_catch_b
 TEXT: Catch {0} Sewaddle
@@ -1118,6 +1006,42 @@ TEXT: Call it a professor’s intuition, but I’ve got a feeling a gigantic dis
 RESOURCE ID: quest_title_season_16_first_partner_13_dialogue_4
 TEXT: Until next time, %PLAYERNAME%, let’s GO!
 
+RESOURCE ID: quest_title_season_16_first_partner_14_dialogue_1
+TEXT: %PLAYERNAME%, I have MASSIVE news to share!
+
+RESOURCE ID: quest_title_season_16_first_partner_14_dialogue_2
+TEXT: We’ve come across even more enormous Pokémon—and what’s more, they appear to have changed appearance altogether!
+
+RESOURCE ID: quest_title_season_16_first_partner_14_dialogue_3
+TEXT: There are still a bunch of questions to be answered, but thankfully I have an expert team—you!
+
+RESOURCE ID: quest_title_season_16_first_partner_14_dialogue_4
+TEXT: I’m going to dive into some research, and while I do, I’ll need you to investigate in the field. With your help, we’ll get to the bottom of this supersized mystery!
+
+RESOURCE ID: quest_title_season_16_first_partner_15_dialogue_1
+TEXT: I hope you’re ready for big updates, %PLAYERNAME%! Based on my research, I believe we might be witnessing what’s called the “Gigantamax” phenomenon.
+
+RESOURCE ID: quest_title_season_16_first_partner_15_dialogue_2
+TEXT: Gigantamaxed Pokémon seem to not only have altered size and appearance, but they also gain the ability to use a new move. This move seems to be unique to a given species of Gigantamax Pokémon.
+
+RESOURCE ID: quest_title_season_16_first_partner_15_dialogue_3
+TEXT: We have to gather more data from these Pokémon at Power Spots. It’s a tall order, but I know you’re up to it.
+
+RESOURCE ID: quest_title_season_16_first_partner_15_dialogue_4
+TEXT: I’ll keep up the research at the lab while you’re out investigating!
+
+RESOURCE ID: quest_title_season_16_first_partner_16_dialogue_1
+TEXT: Welcome back, %PLAYERNAME%!
+
+RESOURCE ID: quest_title_season_16_first_partner_16_dialogue_2
+TEXT: While you were out, a fellow professor confirmed my hypothesis—we’re observing the Gigantamax phenomenon!
+
+RESOURCE ID: quest_title_season_16_first_partner_16_dialogue_3
+TEXT: Can you imagine the incredible new Pokémon forms waiting to be discovered? The possibilities are as enormous as the Pokémon themselves! I’m getting chills!
+
+RESOURCE ID: quest_title_season_16_first_partner_16_dialogue_4
+TEXT: Nothing beats knowing there’s so much more for us to learn, and I can’t imagine a better research partner than you!
+
 RESOURCE ID: quest_title_season_16_first_partner_8_dialogue_1
 TEXT: %PLAYERNAME%, I’m glad you’re here. I’ve been bombarded with reports of Team GO Rocket sightings!
 
@@ -1199,15 +1123,6 @@ TEXT: Raid Day: Mega Mawile
 RESOURCE ID: reduced_hatch_party_play
 TEXT: Reduced Hatch Distance while in a Party
 
-RESOURCE ID: research_day_passimian_and_oranguru_event_name
-TEXT: Oranguru and Passimian Research Day
-
-RESOURCE ID: research_day_passimian_and_oranguru_tr_name_oranguru
-TEXT: Oranguru Premium Timed Research
-
-RESOURCE ID: research_day_passimian_and_oranguru_tr_name_passimian
-TEXT: Passimian Premium Timed Research
-
 RESOURCE ID: research_day_yamask_and_gyamask_event_name
 TEXT: Yamask and Galarian Yamask Research Day
 
@@ -1231,9 +1146,6 @@ TEXT: Mighty Pokémon are appearing in the wild
 
 RESOURCE ID: spawn_sewaddle
 TEXT: More Sewaddle are appearing in the wild!
-
-RESOURCE ID: special_trade_stardust_half
-TEXT: 1/2 Stardust cost for Special Trades
 
 RESOURCE ID: sr_gowa2024_global_ticketed_1
 TEXT: An Accomplished Trainer (1/1)
@@ -1330,20 +1242,11 @@ Also, Pokémon GO Wild Area ticket holders receive premium Timed Research that a
 RESOURCE ID: strong_encounter_tutorial_title
 TEXT: GO Safari Balls are great for catching mighty Pokémon!
 
-RESOURCE ID: swsh_masterball_sr_title
-TEXT: Masterwork Research: Master Ball
+RESOURCE ID: team_picker_fainted_pokemon_in_team_warning
+TEXT: One or more Pokémon in your team are fainted.
 
-RESOURCE ID: swsh_masterball_sr_title_0
-TEXT: Masterwork Research: Master Ball (1/4)
-
-RESOURCE ID: swsh_masterball_sr_title_1
-TEXT: Masterwork Research: Master Ball (2/4)
-
-RESOURCE ID: swsh_masterball_sr_title_2
-TEXT: Masterwork Research: Master Ball (3/4)
-
-RESOURCE ID: swsh_masterball_sr_title_3
-TEXT: Masterwork Research: Master Ball (4/4)
+RESOURCE ID: team_picker_stationed_pokemon_warning
+TEXT: Your current party cannot join the battle. One or more Pokémon are placed at a Power Spot.
 
 RESOURCE ID: text_rewards_key_gowa24
 TEXT: <b>Includes:</b>
@@ -1373,9 +1276,23 @@ TEXT: A ticket to Pokémon GO Wild Area: Global, which has been provided to you 
 
 Learn more about the ticket bonuses <a href="pokemongolive.com/gowildarea/global">here</a>.
 
+RESOURCE ID: text_rewards_key_halloween1tr24
+TEXT: <b>Included rewards:</b>
+• Event-themed Pokémon encounters, including the first peek at new costumed Pokémon debuting in Part II of the event—Froakie wearing a Pokémon Halloween costume and Rowlet wearing a Pokémon Halloween costume
+• Event-themed Pokémon encounters, including Pikachu wearing a witch hat, Spiritomb, and Morpeko
+• 3× Catch Candy 
+• A new avatar item depending on your choice—Morpeko Onesie (Full Belly Mode) or Morpeko Onesie (Hangry Mode)
+
+Please note that if you have already purchased one of the Morpeko Onesie avatar items via the Style Shop, you cannot receive the same one again as a research reward.
+
 RESOURCE ID: text_rewards_key_halloween2tr24
 TEXT: <b>Included rewards:</b>
 • Event-themed Pokémon encounters, including Pikachu wearing a witch hat and the following other Pokémon wearing Halloween-themed costumes: Vulpix, Gengar, Piplup, Drifblim, Froakie, Pumpkaboo, and Rowlet
+
+RESOURCE ID: text_rewards_key_mankeycd24
+TEXT: <b>Included rewards:</b>
+• Premium in-game items, such as Rare Candies, Ultra Balls, and more
+• Extra encounters with Mankey and its Evolutions
 
 RESOURCE ID: text_rewards_key_masterball24
 TEXT: <b>Included rewards:</b>
@@ -1389,31 +1306,6 @@ TEXT: <b>Included bonuses:</b>
 • Eight additional Raid Passes from spinning Photo Discs at Gyms
 • Increased chance to receive Rare Candy XL from raids
 • 50% more XP and 2× Stardust for successfully completing raids
-
-RESOURCE ID: text_rewards_key_monthlyticketnov24
-TEXT: This ticket grants bonuses, Timed Research awarding 200 bonus PokéCoins, and daily bonus Field Research tasks that award bonus PokéCoins from November 3 to December 2, 2024.
-
-<b>Included bonuses:</b>
-• One Field Research task the first time you log on each day that awards 20 bonus PokéCoins
-• 3× XP for your first catch of the day and your first spin of the day
-• Open up to 50 Gifts a day
-• Collect up to 150 Gifts a day from PokéStops and Gyms
-• Hold up to 40 Gifts in your Item Bag at once
-
-Please note: You must have three or fewer Field Research tasks active to receive this bonus Field Research task the first time you log on each day. You must claim the 20 bonus PokéCoin reward after completing the task to receive it. You can learn more about bonus Field Research tasks <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">here</a>.
-
-RESOURCE ID: text_rewards_key_psychspec24
-TEXT: <b>Included rewards:</b>
-• Encounters with Morelull and Hatenna
-• 15,000 XP
-• 1 Incubator, 1 Super Incubator and 1 Star Piece
-
-RESOURCE ID: text_rewards_key_researchdaysept24
-TEXT: These Timed Research opportunities, which challenge you to complete Field Research tasks, lead to encounters with the featured Pokémon, Oranguru and Passimian.
-
-During the event, Pokémon encountered in this Timed Research have the same chance to be Shiny as those encountered via Field Research.
-
-This Timed Research will be available on September 22, 2024, from 2:00 p.m. to 5:00 p.m. local time.
 
 RESOURCE ID: text_rewards_key_sewaddlecd24
 TEXT: <b>Included rewards:</b>
@@ -1501,9 +1393,6 @@ TEXT: GO Wild Area Hourly Restock: GO Safari Ball
 
 RESOURCE ID: tr_gowa2024_irl_wildballs_1
 TEXT: GO Wild Area Hourly Restock: GO Safari Ball
-
-RESOURCE ID: tr_ticket_in_shop
-TEXT: Ticket for premium Timed Research available in the shop
 
 RESOURCE ID: vps_guardian_oob_toast
 TEXT: You are outside the play area. Move closer to place a Pokémon.

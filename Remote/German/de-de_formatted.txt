@@ -13,9 +13,6 @@ TEXT: Your device does not support AR.
 RESOURCE ID: ar_not_supported_title
 TEXT: Unsupported
 
-RESOURCE ID: ar_plus_got_it
-TEXT: Weiter
-
 RESOURCE ID: avatar_f_face_dayofthedead_00_bundle_icon
 TEXT: Día de Muertos-Schminke
 
@@ -164,10 +161,10 @@ RESOURCE ID: badge_tag_bonus
 TEXT: Bonus
 
 RESOURCE ID: battle_raids_party_plural
-TEXT: Battle in {0} raids while in a party
+TEXT: Kämpfe in {0} Raids, während du in einem Team bist.
 
 RESOURCE ID: battle_raids_party_singular
-TEXT: Battle in a raid while in a party
+TEXT: Kämpfe in einem Raid, während du in einem Team bist.
 
 RESOURCE ID: bonus_cd_move_annihilape
 TEXT: Entwickle Rasaff, um ein Epitaff zu erhalten, das die Lade-Attacke Zornesfaust beherrscht!
@@ -195,9 +192,6 @@ TEXT: Wenn Trainer zusammen einen Rasaff-Raid gewinnen, werden Menki in dieser G
 
 RESOURCE ID: bonus_implicit_social_sewaddle_raid
 TEXT: Wenn Trainer zusammen einen Folikon-Raid gewinnen, werden Strawickl in dieser Gegend für 30 Minuten vermehrt auftauchen
-
-RESOURCE ID: bonus_koffing_evo
-TEXT: Smogon entwickeln sich zu Galar-Smogmog
 
 RESOURCE ID: bonus_mp_cap
 TEXT: Daily limit for collecting Max Particles increased
@@ -235,59 +229,11 @@ TEXT: Three additional Candy XL from catching Pokémon in four-star raids and ab
 RESOURCE ID: bonus_raid_4plus_6_candy
 TEXT: Six additional Candy from catching Pokémon in four-star raids and above
 
-RESOURCE ID: bonus_tr_gbl_championships_2025_a_desc
-TEXT: Befristete Bonus-Forschung: Superladung
-
-RESOURCE ID: bonus_tr_gbl_championships_2025_a_title
-TEXT: Befristete Bonus-Forschung: Superladung
-
-RESOURCE ID: bonus_tr_gbl_euic_2024_a_desc
-TEXT: Befristete Bonus-Forschung: Champ der Pokémon LAIC 2024
-
-RESOURCE ID: bonus_tr_gbl_euic_2024_a_title
-TEXT: Champ der Pokémon LAIC 2024
-
-RESOURCE ID: bonus_tr_gbl_euic_2025_a_desc
-TEXT: Befristete Bonus-Forschung: Champ der Pokémon LAIC 2025
-
-RESOURCE ID: bonus_tr_gbl_euic_2025_a_title_00
-TEXT: Befristete Bonus-Forschung: Champ der Pokémon LAIC 2025 (1/2)
-
-RESOURCE ID: bonus_tr_gbl_euic_2025_a_title_01
-TEXT: Befristete Bonus-Forschung: Champ der Pokémon LAIC 2025 (2/2)
-
-RESOURCE ID: bonus_tr_gbl_laic_2025_a_desc
-TEXT: Befristete Bonus-Forschung: Champ der Pokémon NAIC 2024
-
-RESOURCE ID: bonus_tr_gbl_laic_2025_a_title_00
-TEXT: Befristete Bonus-Forschung: Champ der Pokémon NAIC 2024 (1/2)
-
-RESOURCE ID: bonus_tr_gbl_laic_2025_a_title_01
-TEXT: Befristete Bonus-Forschung: Champ der Pokémon NAIC 2024 (2/2)
-
-RESOURCE ID: bonus_tr_gbl_naic_2024_a_desc
-TEXT: Befristete Bonus-Forschung: Champ der Pokémon EUIC 2024
-
-RESOURCE ID: bonus_tr_gbl_naic_2024_a_title_00
-TEXT: Champ der Pokémon EUIC 2024 (2/2)
-
-RESOURCE ID: bonus_tr_gbl_naic_2024_a_title_01
-TEXT: Champ der Pokémon EUIC 2024 (2/2)
-
-RESOURCE ID: bonus_tr_gbl_naic_2025_a_desc
-TEXT: Befristete Bonus-Forschung: Champ der Pokémon EUIC 2025
-
-RESOURCE ID: bonus_tr_gbl_naic_2025_a_title_00
-TEXT: Befristete Bonus-Forschung: Champ der Pokémon EUIC 2025 (1/2)
-
-RESOURCE ID: bonus_tr_gbl_naic_2025_a_title_01
-TEXT: Befristete Bonus-Forschung: Champ der Pokémon EUIC 2025 (2/2)
-
 RESOURCE ID: bonus_two_free_raid_passes
 TEXT: Receive up to 2 Raid Passes at no cost by spinning Photo Discs at Gyms
 
 RESOURCE ID: bread_battle_cheer_charge_blocked
-TEXT: Das Meter ist voll!
+TEXT: Max Meter is full. Try cheering later.
 
 RESOURCE ID: bread_battle_log_global_cheer_bread_meter
 TEXT: DEIN ANFEUERN HAT DAS METER DEINER VERBÜNDETEN AUFGELADEN!
@@ -297,6 +243,12 @@ TEXT: TEAMS FEUERN DICH AN!
 
 RESOURCE ID: bread_battle_remaining
 TEXT: Pokémon
+
+RESOURCE ID: bread_battle_resolve_error_description
+TEXT: Please try again.
+
+RESOURCE ID: bread_battle_resolve_error_title
+TEXT: Something went wrong.
 
 RESOURCE ID: bread_battle_resolve_timed_out_title
 TEXT: Alle Pokémon sind erschöpft!
@@ -328,26 +280,11 @@ TEXT: {0} Trainers
 RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
 TEXT: 1 Trainer
 
-RESOURCE ID: bread_more_mp_to_reach_daily_limit
-TEXT: Du kannst heute noch {0} DP sammeln.
-
 RESOURCE ID: bread_notification_empty
 TEXT: {0} ist von der Kraftquelle zurückgekehrt.
 
-RESOURCE ID: bread_station_current_battle_defeated
-TEXT: Du hast diesen Kraftquellen-Boss besiegt.
-
-RESOURCE ID: bread_station_failure_description
-TEXT: Diese Kraftquelle hat sein Limit an platzierten Pokémon erreicht.
-
 RESOURCE ID: bread_station_failure_description_duplicate
 TEXT: Du hast bereits ein Pokémon an dieser Kraftquelle platziert.
-
-RESOURCE ID: bread_station_failure_label
-TEXT: Pokémon kann nicht platziert werden
-
-RESOURCE ID: bundle.silk.box.1_title
-TEXT: Seiden-Box
 
 RESOURCE ID: campfire_check_in_reward_notification_toast
 TEXT: Du hast eine Belohnung für die Anmeldung an einem Community Ambassador-Event erhalten!
@@ -355,8 +292,11 @@ TEXT: Du hast eine Belohnung für die Anmeldung an einem Community Ambassador-Ev
 RESOURCE ID: community_day_mankey_event_name
 TEXT: Community Day mit Menki
 
-RESOURCE ID: community_day_sewaddle_event_name
-TEXT: Community Day mit Strawickl
+RESOURCE ID: details_link_key_gowa2024
+TEXT: Weitere Infos findest du auf der <a href="pokemongolive.com/gowildarea/global">Website</a>.
+
+RESOURCE ID: details_link_key_mankeycd24
+TEXT: For more details, visit the <a href="https://pokemongolive.com/post/communityday-november-2024-mankey">website</a>.
 
 RESOURCE ID: details_link_key_mawileraidday
 TEXT: Weitere Infos findest du auf der <a href="https://pokemongolive.com/post/mega-mawile-raid-day-2024">Website</a>.
@@ -377,9 +317,16 @@ RESOURCE ID: event_datetime_range_key_gowa24
 TEXT: 23. November bis
 24. November
 
+RESOURCE ID: event_datetime_range_key_halloween1tr24
+TEXT: 22. Oktober, 10:00 Uhr bis
+3. November, 20:00 Uhr
+
 RESOURCE ID: event_datetime_range_key_halloween2tr24
 TEXT: 22. Oktober, 10:00 Uhr bis
 3. November, 20:00 Uhr
+
+RESOURCE ID: event_datetime_range_key_mankeycd24
+TEXT: November 10, 2:00 p.m. – 5:00 p.m.
 
 RESOURCE ID: event_datetime_range_key_masterball24
 TEXT: 4. Oktober, 10:00 Uhr bis
@@ -392,17 +339,6 @@ RESOURCE ID: event_datetime_range_key_monthlyticketnov24
 TEXT: 3. November, 0:00 Uhr bis
 2. Dezember, 23:59 Uhr
 
-RESOURCE ID: event_datetime_range_key_monthlyticketoct24
-TEXT: 3. Oktober, 0:00 Uhr bis
-2. November, 23:59 Uhr
-
-RESOURCE ID: event_datetime_range_key_psychspec24
-TEXT: 18. September, 10:00 Uhr bis
-22. September, 20:00 Uhr
-
-RESOURCE ID: event_datetime_range_key_researchdaysept24
-TEXT: 22. September, 14:00 bis 17:00 Uhr
-
 RESOURCE ID: event_datetime_range_key_sewaddlecd24
 TEXT: 5. Oktober, 14:00 bis 17:00 Uhr
 
@@ -410,22 +346,13 @@ RESOURCE ID: event_datetime_range_key_yamasktr24
 TEXT: 19. Oktober, 14:00 bis 17:00 Uhr
 
 RESOURCE ID: field_research_special_tasks
-TEXT: Field Research tasks from check-in now available
+TEXT: Feldforschungsaufgaben durch Anmeldung jetzt verfügbar
 
 RESOURCE ID: fr_tag_meetup
-TEXT: Meetup
+TEXT: Treffen
 
-RESOURCE ID: galarian_expedition_collection_challenge_1
-TEXT: Galar-Expedition: Sammler-Herausforderung 1
-
-RESOURCE ID: galarian_expedition_collection_challenge_2
-TEXT: Galar-Expedition: Sammler-Herausforderung 2
-
-RESOURCE ID: galarian_expedition_event_name
-TEXT: Galar-Expedition
-
-RESOURCE ID: galarian_expedition_tgr_event_name
-TEXT: Galar-Expedition: Übernahme
+RESOURCE ID: general1.ticket.2_halloween1tr24_title
+TEXT: Ticket: Befristete Premium-Forschung „Morpeko-Einteiler“
 
 RESOURCE ID: general1.ticket.2_halloween2tr24_title
 TEXT: Befristete Premium-Forschung: Kostümparty
@@ -433,35 +360,17 @@ TEXT: Befristete Premium-Forschung: Kostümparty
 RESOURCE ID: general1.ticket.2_yamasktr24_title
 TEXT: Ticket: Befristete Premium-Forschung „Forschungstag mit Makabaja und Galar-Makabaja“
 
-RESOURCE ID: general1.ticket._falinksraidday_title
-TEXT: Ticket: Raid-Tag mit Legios
-
-RESOURCE ID: general1.ticket._gowa24_title
-TEXT: Ticket: Pokémon GO-Naturzone – Global
-
 RESOURCE ID: general1.ticket._masterball24_title
 TEXT: Meisterwerk-Forschung: Meisterball
 
 RESOURCE ID: general1.ticket._mawileraidday_title
 TEXT: Ticket: Raid-Tag mit Mega-Flunkifer
 
-RESOURCE ID: general1.ticket._megaheracrossraidday_title
-TEXT: Ticket: Raid-Tag mit Mega-Skaraborn
-
-RESOURCE ID: general1.ticket._megalucarioraidday24_title
-TEXT: Ticket: Raid-Tag mit Mega-Lucario
-
 RESOURCE ID: general1.ticket._monthlyticketnov24_title
 TEXT: Ticket: Tägliche PokéMünz-Prämie – Teil 3
 
-RESOURCE ID: general1.ticket._monthlyticketoct24_title
-TEXT: Ticket: Tägliche PokéMünz-Prämie – Teil 2
-
-RESOURCE ID: general1.ticket._psychspec24_title
-TEXT: Ticket: Befristete Premium-Forschung „Psycho-Spektakel 2024“
-
-RESOURCE ID: general1.ticket._researchdaysept24_title
-TEXT: Ticket: Befristete Premium-Forschung „Forschungstag mit Kommandutan und Quartermak“
+RESOURCE ID: general1.ticket_mankeycd24_title
+TEXT: Mankey Community Day Ticket
 
 RESOURCE ID: general1.ticket_sewaddlecd24_title
 TEXT: Ticket: Community Day mit Strawickl
@@ -578,17 +487,8 @@ RESOURCE ID: hint_desc_ready_title_key
 TEXT: Finde den Orientierungspunkt.
 Er ist in der Nähe!
 
-RESOURCE ID: home_transfer_error_gym_deployed
-TEXT: Du kannst keine Pokémon übertragen, die Arenen verteidigen oder an Kraftquellen platziert sind.
-
-RESOURCE ID: home_transfer_error_gym_deployed_old
-TEXT: Du kannst keine Pokémon übertragen, die Arenen verteidigen.
-
 RESOURCE ID: inapp_banner_desc
 TEXT: Erfahre mehr über das besondere Geschenk dieses Monats, das bei einem bestimmten Kauf erhältlich ist.
-
-RESOURCE ID: incense_spawns_attract
-TEXT: Vorgestellte Pokémon werden von Rauch angelockt
 
 RESOURCE ID: iris_social_confirm_exit_modal_body
 TEXT: Pokémon bleiben eine Weile und spielen, bis sie müde werden und zurückkehren, aber du kannst sie früher zurückrufen.
@@ -650,14 +550,8 @@ TEXT: Dieser Ort ist momentan nicht verfügbar. Bitte versuche es später noch e
 RESOURCE ID: item_event_ticket_04_desc_halloween2tr24
 TEXT: Ein Ticket zur Teilnahme an der Befristeten Premium-Forschung „Kostümparty“ vom 22. Oktober um 10:00 Uhr bis 3. November 2024 um 20:00 Uhr Ortszeit (wo immer du dich befindest).
 
-RESOURCE ID: item_event_ticket_04_desc_researchdaysept24
-TEXT: Ein Ticket zur Teilnahme an zwei Befristeten Premium-Forschungen für den Forschungstag mit Kommandutan und Quartermak am 22. September 2024 von 14:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
-
 RESOURCE ID: item_event_ticket_04_details_halloween2tr24
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Premium-Forschung „Kostümparty“ am 22. Oktober (wo immer du dich befindest).
-
-RESOURCE ID: item_event_ticket_04_details_researchdaysept24
-TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zu zwei Befristeten Premium-Forschungen für den Forschungstag mit Kommandutan und Quartermak am 22. September (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_09_desc_masterball24
 TEXT: Ein Ticket zur Teilnahme an der Meisterwerk-Forschung „Meisterball“ am 4. Oktober 2024 um 10:00 Uhr Ortszeit (wo immer du dich befindest).
@@ -665,26 +559,32 @@ TEXT: Ein Ticket zur Teilnahme an der Meisterwerk-Forschung „Meisterball“ am
 RESOURCE ID: item_event_ticket_09_details_masterball24
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Meisterwerk-Forschung „Meisterball“ am 4. Oktober (wo immer du dich befindest).
 
-RESOURCE ID: item_event_ticket_evergreen_desc_psychspec24
-TEXT: Ein Ticket zur Teilnahme an der Befristeten Premium-Forschung „Psycho-Spektakel 2024“ vom 18. September um 10:00 Uhr bis 22. September 2024 um 20:00 Uhr Ortszeit (wo immer du dich befindest).
-
 RESOURCE ID: item_event_ticket_evergreen_desc_yamasktr24
 TEXT: Ein Ticket zur Teilnahme an zwei Befristeten Premium-Forschungen für den Forschungstag mit Makabaja und Galar-Makabaja am 19. Oktober 2024 von 14:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
-
-RESOURCE ID: item_event_ticket_evergreen_details_psychspec24
-TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Premium-Forschung „Psycho-Spektakel 2024“ am 18. September (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_evergreen_details_yamasktr24
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zu zwei Befristeten Premium-Forschungen für den Forschungstag mit Makabaja und Galar-Makabaja am 19. Oktober (wo immer du dich befindest).
 
+RESOURCE ID: item_event_ticket_gray_desc_halloween1tr24
+TEXT: Ein Ticket zur Teilnahme an der Befristeten Premium-Forschung „Morpeko-Einteiler“ vom 22. Oktober um 10:00 Uhr bis 3. November 2024 um 20:00 Uhr Ortszeit (wo immer du dich befindest).
+
 RESOURCE ID: item_event_ticket_gray_desc_mawileraidday
 TEXT: Ein Ticket für den Zugang zu besonderen Boni am Samstag, 12. Oktober 2024 von 14:00 bis 22:00 Uhr Ortszeit (wo immer du dich befindest).
+
+RESOURCE ID: item_event_ticket_gray_details_halloween1tr24
+TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Premium-Forschung „Morpeko-Einteiler“ am 22. Oktober (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_gray_details_mawileraidday
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zu besonderen Boni am 12. Oktober (wo immer du dich befindest).
 
+RESOURCE ID: item_event_ticket_pink_desc_mankeycd24
+TEXT: A ticket to access the Mankey Community Day Special Research starting November 10 at 2:00 p.m. local time, wherever you are.
+
 RESOURCE ID: item_event_ticket_pink_desc_sewaddlecd24
 TEXT: Ein Ticket zur Teilnahme an der Spezialforschung zum Community Day mit Strawickl am 5. Oktober 2024 um 14:00 Uhr Ortszeit (wo immer du dich befindest).
+
+RESOURCE ID: item_event_ticket_pink_details_mankeycd24
+TEXT: This ticket will automatically activate to give you access to the Special Research story Mankey Business on November 10, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_details_sewaddlecd24
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Spezialforschung „Nach Strich und Faden“ des Community Days mit Strawickl am 5. Oktober 2024 (wo immer du dich befindest).
@@ -704,12 +604,6 @@ TEXT: Noch 1 Stunde
 RESOURCE ID: item_expire_timer_minutes_seconds_left
 TEXT: Verbleibende Zeit: {0}
 
-RESOURCE ID: item_global_event_ticket_desc_gowa24
-TEXT: Ein Ticket zur Teilnahme an der Spezialforschung zu „Pokémon GO-Naturzone: Global“ ab dem 23. November bis zum 24. November 2024 (wo immer du dich befindest).
-
-RESOURCE ID: item_global_event_ticket_details_gowa24
-TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Spezialforschung zu „Pokémon GO-Naturzone: Global“ am 23. November (wo immer du dich befindest).
-
 RESOURCE ID: item_wild_ball_desc
 TEXT: Ein Ball, der sich hervorragend zum Fangen von Pokémon eignet. Er ist nur während Pokémon GO-Naturzone-Events verfügbar.
 
@@ -721,60 +615,6 @@ TEXT: Ein Ball, der sich hervorragend zum Fangen von Pokémon eignet. Er ist nur
 
 RESOURCE ID: item_wild_ball_premier_name
 TEXT: GO-Safariball
-
-RESOURCE ID: join_max_battle_plural
-TEXT: Bestreite {0} Dyna-Kämpfe.
-
-RESOURCE ID: join_max_battle_singular
-TEXT: Bestreite einen Dyna-Kampf.
-
-RESOURCE ID: legendary_heroes_collection_shield_catch
-TEXT: Legendäre Helden – Schild-Pfad: Fang-Herausforderung
-
-RESOURCE ID: legendary_heroes_collection_shield_trade
-TEXT: Legendäre Helden – Schild-Pfad: Tausch-Herausforderung
-
-RESOURCE ID: legendary_heroes_collection_sword_catch
-TEXT: Legendäre Helden – Schwert-Pfad: Fang-Herausforderung
-
-RESOURCE ID: legendary_heroes_collection_sword_trade
-TEXT: Legendäre Helden – Schwert-Pfad: Tausch-Herausforderung
-
-RESOURCE ID: legendary_heroes_event_name
-TEXT: Legendäre Helden
-
-RESOURCE ID: legendary_heroes_tr_name
-TEXT: Befristete Forschung: Legendäre Helden
-
-RESOURCE ID: legendary_heroes_tr_name_shield_1
-TEXT: Befristete Forschung: Legendäre Helden – Schild-Pfad (1/2)
-
-RESOURCE ID: legendary_heroes_tr_name_shield_2
-TEXT: Befristete Forschung: Legendäre Helden – Schild-Pfad (2/2)
-
-RESOURCE ID: legendary_heroes_tr_name_sword_1
-TEXT: Befristete Forschung: Legendäre Helden – Schwert-Pfad (1/2)
-
-RESOURCE ID: legendary_heroes_tr_name_sword_2
-TEXT: Befristete Forschung: Legendäre Helden – Schwert-Pfad (2/2)
-
-RESOURCE ID: legendary_heroes_tr_shield_button_text_key
-TEXT: Schild-Pfad
-
-RESOURCE ID: legendary_heroes_tr_shield_description_key
-TEXT: Wähle diese Option, um dem Schild-Pfad zu folgen.
-
-RESOURCE ID: legendary_heroes_tr_shield_title_key
-TEXT: Schild-Pfad
-
-RESOURCE ID: legendary_heroes_tr_sword_button_text_key
-TEXT: Schwert-Pfad
-
-RESOURCE ID: legendary_heroes_tr_sword_description_key
-TEXT: Wähle diese Option, um dem Schwert-Pfad zu folgen.
-
-RESOURCE ID: legendary_heroes_tr_sword_title_key
-TEXT: Schwert-Pfad
 
 RESOURCE ID: limited_localization_nearby_hint_1
 TEXT: You are getting closer to the landmark!
@@ -827,13 +667,13 @@ RESOURCE ID: meetup_check_in_battle_description
 TEXT: Bist du heiß auf einen Kampf gegen Team GO Rocket oder andere Trainer? Erhalte bei dieser Option eine Befristete Forschung rund ums Kämpfen.
 
 RESOURCE ID: meetup_check_in_bonus
-TEXT: Meetup Check-in Bonus
+TEXT: Bonus für Anmeldung zu Treffen
 
 RESOURCE ID: meetup_check_in_dialogue_00
 TEXT: Was führt dich heute hierher, Trainer?
 
 RESOURCE ID: meetup_check_in_pokemon
-TEXT: Pokémon fangen
+TEXT: Fangen
 
 RESOURCE ID: meetup_check_in_pokemon_description
 TEXT: Möchtest du mit anderen Trainern viele Pokémon fangen? Erhalte bei dieser Option eine Befristete Forschung, die dir dabei helfen wird.
@@ -848,7 +688,7 @@ RESOURCE ID: meetup_check_in_research_title
 TEXT: Befristete Forschung: Anmeldung zu Treffen
 
 RESOURCE ID: meetup_check_in_research_title_00
-TEXT: Befristete Forschung: Anmeldung zu Treffen – Pokémon fangen
+TEXT: Befristete Forschung: Anmeldung zu Treffen – Fangen
 
 RESOURCE ID: meetup_check_in_research_title_01
 TEXT: Befristete Forschung: Anmeldung zu Treffen – Raids
@@ -857,31 +697,22 @@ RESOURCE ID: meetup_check_in_research_title_02
 TEXT: Befristete Forschung: Anmeldung zu Treffen – Kämpfen
 
 RESOURCE ID: meetup_check_in_research_title_03
-TEXT: Befristete Forschung: Anmeldung zu Treffen – Leute treffen
+TEXT: Befristete Forschung: Anmeldung zu Treffen – Verbinden
 
 RESOURCE ID: meetup_check_in_social
-TEXT: Leute treffen
+TEXT: Verbinden
 
 RESOURCE ID: meetup_check_in_social_description
 TEXT: Möchtest du mit anderen Trainern plaudern und abhängen? Erhalte bei dieser Option eine Befristete Forschung, die dich diesem Ziel näherbringt.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-16T00:37:48.013229+00:00 for de-DE
-at SHA 8ab2113085e
-Pipeline 2691685, job 32923390
-Patch from: 0.335.0-SHA-5feb3260-RC3, 0.337.0-SHA-b4a38293-RC1, 0.333.0-SHA-4f3cd4da-RC4
+TEXT: Built at 2024-10-17T18:22:55.206354+00:00 for de-DE
+at SHA bfa510cb13
+Pipeline 2696846, job 33000854
+Patch from: 0.337.0-SHA-097f040b-RC2, 0.335.0-SHA-5fe4794d-RC4
 
 RESOURCE ID: mp_replenish.1_title
 TEXT: DP-Beutel ({0} DP)
-
-RESOURCE ID: mp_replenish.3_title
-TEXT: 3 DP-Beutel ({0} DP)
-
-RESOURCE ID: n_hat_gtr2024eeveefanmask_0_display_name
-TEXT: Festival-Maske (Evoli)
-
-RESOURCE ID: n_hat_gtr2024pikachufanmask_0_display_name
-TEXT: Festival-Maske (Pikachu)
 
 RESOURCE ID: nearby_station_active_header
 TEXT: Aktiv
@@ -896,10 +727,10 @@ RESOURCE ID: not_now
 TEXT: NICHT JETZT
 
 RESOURCE ID: party_play_field_research_special
-TEXT: Party Challenges from check-in now available
+TEXT: Team-Herausforderungen durch Anmeldung jetzt verfügbar
 
 RESOURCE ID: party_play_tandemaus_boost
-TEXT: Boosted chance of finding Tandemaus in Party Challenge reward encounters
+TEXT: Erhöhte Chance auf Begegnungen mit Zwieps als Team-Herausforderungs-Belohnung
 
 RESOURCE ID: photobomb_five_mankey
 TEXT: 5 überraschende Begegnungen mit Menki in GO-Schnappschuss
@@ -1001,7 +832,7 @@ RESOURCE ID: quest_catch_wild_ball_singular
 TEXT: Fange ein Pokémon mit einem GO-Safariball.
 
 RESOURCE ID: quest_choose_buddy_plural
-TEXT: Choose or Swap Buddy Pokémon for {0} times
+TEXT: Choose or Swap Buddy Pokémon {0} times
 
 RESOURCE ID: quest_choose_buddy_singular
 TEXT: Choose or Swap Buddy Pokémon
@@ -1067,10 +898,10 @@ RESOURCE ID: quest_primeape_evolve_b_singular
 TEXT: Entwickle ein Rasaff.
 
 RESOURCE ID: quest_raid_supereffective_charge_plural
-TEXT: Use {0} supereffective Charged Attacks in Raid battles
+TEXT: Use {0} supereffective Charged Attacks in Raid Battles
 
 RESOURCE ID: quest_raid_supereffective_charge_singular
-TEXT: Use a supereffective Charged Attack in a Raid battle
+TEXT: Use a supereffective Charged Attack in a Raid Battle
 
 RESOURCE ID: quest_sewaddle_catch_b
 TEXT: Fange {0} Strawickl.
@@ -1080,9 +911,6 @@ TEXT: Entwickle {0} Strawickl.
 
 RESOURCE ID: quest_sewaddle_evolve_b_singular
 TEXT: Entwickle ein Strawickl.
-
-RESOURCE ID: quest_special_dialogue_dmax_ftue_0_1
-TEXT: Ich habe Berichte über eine rätselhafte Energie erhalten, die sich auf der ganzen Welt sammelt. Sie scheint anders zu sein als alles, was wir bisher gesehen haben.
 
 RESOURCE ID: quest_swadloon_evolve_b_plural
 TEXT: Entwickle {0} Folikon.
@@ -1201,6 +1029,42 @@ TEXT: Es handelt sich vielleicht nur um die Intuition eines Professors, aber ich
 RESOURCE ID: quest_title_season_16_first_partner_13_dialogue_4
 TEXT: Bis zum nächsten Mal, %PLAYERNAME%! Nichts wie raus und GO!
 
+RESOURCE ID: quest_title_season_16_first_partner_14_dialogue_1
+TEXT: %PLAYERNAME%, ich habe MASSIVE Neuigkeiten für dich!
+
+RESOURCE ID: quest_title_season_16_first_partner_14_dialogue_2
+TEXT: Wir konnten noch mehr gigantische Pokémon entdecken – und darüber hinaus haben sie scheinbar ihr Aussehen komplett verändert!
+
+RESOURCE ID: quest_title_season_16_first_partner_14_dialogue_3
+TEXT: Es gibt immer noch viele offene Fragen, aber zum Glück habe ich ein sachkundiges Expertenteam – dich!
+
+RESOURCE ID: quest_title_season_16_first_partner_14_dialogue_4
+TEXT: Ich werde noch weiter nachforschen, aber in der Zwischenzeit wäre es gut, wenn du dich in der Gegend etwas umsiehst. Mit deiner Hilfe gehen wir diesem überdimensionalen Rätsel auf den Grund!
+
+RESOURCE ID: quest_title_season_16_first_partner_15_dialogue_1
+TEXT: Ich hoffe, du bist bereit für ein gigantisches Update, %PLAYERNAME%! Basierend auf meinen Forschungen denke ich, dass wir es vielleicht mit dem „Gigadynamax“-Phänomen zu tun haben.
+
+RESOURCE ID: quest_title_season_16_first_partner_15_dialogue_2
+TEXT: Gigadynamax-Pokémon scheinen nicht nur ihre Größe und ihr Erscheinen geändert zu haben, sondern sie haben auch die Fähigkeit, eine neue Attacke einzusetzen. Diese Attacke ist allem Anschein nach einzigartig für eine bestimmte Art von Gigadynamax-Pokémon.
+
+RESOURCE ID: quest_title_season_16_first_partner_15_dialogue_3
+TEXT: Wir müssen an Kraftquellen weitere Daten zu diesen Pokémon sammeln. Im Großen und Ganzen wird das nicht einfach, aber ich weiß, dass du es schaffst.
+
+RESOURCE ID: quest_title_season_16_first_partner_15_dialogue_4
+TEXT: Ich forsche im Labor weiter, während du draußen mehr Daten sammelst.
+
+RESOURCE ID: quest_title_season_16_first_partner_16_dialogue_1
+TEXT: Willkommen zurück, %PLAYERNAME%!
+
+RESOURCE ID: quest_title_season_16_first_partner_16_dialogue_2
+TEXT: Während du unterwegs warst, hat ein anderer Professor meine Hypothese bestätigt – wir haben es hier mit dem Gigadynamax-Phänomen zu tun!
+
+RESOURCE ID: quest_title_season_16_first_partner_16_dialogue_3
+TEXT: Kannst du dir die unglaublichen neuen Pokémon-Formen vorstellen, die nur darauf warten, entdeckt zu werden? Die Möglichkeiten sind so enorm wie die Pokémon selbst! Ich kriege eine Gänsehaut, wenn ich nur darüber nachdenke!
+
+RESOURCE ID: quest_title_season_16_first_partner_16_dialogue_4
+TEXT: Es gibt nichts Besseres, als zu wissen, dass es noch so viel mehr für uns zu lernen gibt, und ich kann mir keinen besseren Forschungspartner vorstellen als dich!
+
 RESOURCE ID: quest_title_season_16_first_partner_8_dialogue_1
 TEXT: %PLAYERNAME%, ich bin froh, dass du hier bist. Ich wurde mit Berichten über Sichtungen von Team GO Rocket überschwemmt!
 
@@ -1286,16 +1150,7 @@ RESOURCE ID: raid_join_in_person_only_button
 TEXT: Raid in Person
 
 RESOURCE ID: reduced_hatch_party_play
-TEXT: Reduced Hatch Distance while in a Party
-
-RESOURCE ID: research_day_passimian_and_oranguru_event_name
-TEXT: Forschungstag mit Kommandutan und Quartermak
-
-RESOURCE ID: research_day_passimian_and_oranguru_tr_name_oranguru
-TEXT: Befristete Premium-Forschung mit Kommandutan
-
-RESOURCE ID: research_day_passimian_and_oranguru_tr_name_passimian
-TEXT: Befristete Premium-Forschung mit Quartermak
+TEXT: Reduzierte Schlüpf-Distanz, während du in einem Team bist
 
 RESOURCE ID: research_day_yamask_and_gyamask_event_name
 TEXT: Forschungstag mit Makabaja und Galar-Makabaja
@@ -1320,9 +1175,6 @@ TEXT: Mighty Pokémon are appearing in the wild
 
 RESOURCE ID: spawn_sewaddle
 TEXT: Wilde Strawickl erscheinen mit vermehrter Häufigkeit!
-
-RESOURCE ID: special_trade_stardust_half
-TEXT: 1/2 Sternenstaub-Kosten für Spezial-Tausche
 
 RESOURCE ID: sr_gowa2024_global_ticketed_1
 TEXT: An Accomplished Trainer (1/1)
@@ -1419,20 +1271,11 @@ Außerdem erhalten Ticketinhaber für das Event Pokémon GO-Naturzone eine Befri
 RESOURCE ID: strong_encounter_tutorial_title
 TEXT: GO-Safaribälle eignen sich hervorragend, um mächtige Pokémon zu fangen!
 
-RESOURCE ID: swsh_masterball_sr_title
-TEXT: Meisterwerk-Forschung: Meisterball
+RESOURCE ID: team_picker_fainted_pokemon_in_team_warning
+TEXT: One or more Pokémon in your team are fainted.
 
-RESOURCE ID: swsh_masterball_sr_title_0
-TEXT: Meisterwerk-Forschung: Meisterball (1/4)
-
-RESOURCE ID: swsh_masterball_sr_title_1
-TEXT: Meisterwerk-Forschung: Meisterball (2/4)
-
-RESOURCE ID: swsh_masterball_sr_title_2
-TEXT: Meisterwerk-Forschung: Meisterball (3/4)
-
-RESOURCE ID: swsh_masterball_sr_title_3
-TEXT: Meisterwerk-Forschung: Meisterball (4/4)
+RESOURCE ID: team_picker_stationed_pokemon_warning
+TEXT: Your current party cannot join the battle. One or more Pokémon are placed at a Power Spot.
 
 RESOURCE ID: text_rewards_key_gowa24
 TEXT: <b>Enthält:</b>
@@ -1462,9 +1305,23 @@ TEXT: Ein Ticket zur Teilnahme am Event „Pokémon GO-Naturzone: Global“, das
 
 Erfahre mehr über die Ticket-Boni <a href="pokemongolive.com/gowildarea/global">hier</a>.
 
+RESOURCE ID: text_rewards_key_halloween1tr24
+TEXT: <b>Enthaltene Belohnungen:</b>
+• Begegnungen mit Event-Pokémon, darunter ein erster Blick auf neue kostümierte Pokémon, die in Teil II des Events ihr Debüt feiern – Froxy mit Hexenhut und Bauz mit Halloween-Zylinder
+• Begegnungen mit Event-Pokémon, darunter Pikachu mit Hexenhut, Kryppuk und Morpeko
+• 3× Bonbons für das Fangen von Pokémon
+• Ein neuer Avatar-Artikel deiner Wahl – Morpeko-Einteiler (Pappsattmuster) oder Morpeko-Einteiler (Kohldampfmuster)
+
+Hinweis: Wenn du dir bereits einen der Avatar-Artikel „Morpeko-Einteiler“ im Style Shop geschnappt hast, kann du nicht erneut den gleichen Artikel als Belohnung der Forschung erhalten.
+
 RESOURCE ID: text_rewards_key_halloween2tr24
 TEXT: <b>Enthaltene Belohnungen:</b>
 • Begegnungen mit Event-Pokémon, darunter Pikachu mit Hexenhut und die folgenden Pokémon, die Halloween-Kostüme tragen: Vulpix, Gengar, Plinfa, Drifzepeli, Froxy, Irrbis und Bauz
+
+RESOURCE ID: text_rewards_key_mankeycd24
+TEXT: <b>Included rewards:</b>
+• Premium in-game items, such as Rare Candies, Ultra Balls, and more
+• Extra encounters with Mankey and its Evolutions
 
 RESOURCE ID: text_rewards_key_masterball24
 TEXT: <b>Enthaltene Belohnungen:</b>
@@ -1491,31 +1348,6 @@ TEXT: Mit diesem Ticket erhältst du vom 3. November bis zum 2. Dezember 2024 Zu
 
 Bitte beachte: Du kannst nicht mehr als drei aktive Feldforschungsaufgaben haben, wenn du für deine erste tägliche Anmeldung diese Bonus-Feldforschungsaufgabe erhalten möchtest! Du musst deine Belohnung von 20 Bonus-PokéMünzen nach dem Abschluss der Aufgabe einfordern, um sie zu erhalten. Mehr über Bonus-Feldforschungsaufgaben erfährst du <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">hier</a>.
 
-RESOURCE ID: text_rewards_key_monthlyticketoct24
-TEXT: Mit diesem Ticket erhältst du vom 3. Oktober bis zum 2. November 2024 Zugang zu Boni, einer Befristeten Forschung, die dich mit 200 Bonus-PokéMünzen und täglichen Bonus-Feldforschungsaufgaben belohnt, bei denen du  Bonus-PokéMünzen erhalten kannst.
-
-<b>Enthaltene Boni:</b>
-• 1 Feldforschungsaufgabe für deine erste tägliche Anmeldung, die dich mit 20 Bonus-PokéMünzen belohnt
-• 3× EP für den ersten Fang des Tages und den ersten Dreh des Tages
-• Öffne bis zu 50 Geschenke pro Tag
-• Sammle bis zu 150 Geschenke pro Tag von PokéStops oder Arenen
-• Bewahre bis zu 40 Geschenke in deinem Item-Beutel auf
-
-Bitte beachte: Du kannst nicht mehr als drei aktive Feldforschungsaufgaben haben, wenn du für deine erste tägliche Anmeldung diese Bonus-Feldforschung erhalten möchtest! Du musst deine Belohnung von 20 Bonus-PokéMünzen nach dem Abschluss der Aufgabe einfordern, um sie zu erhalten. Mehr über Bonus-Feldforschungsaufgaben erfährst du <a href="https://niantic.helpshift.com/hc/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">hier</a>.
-
-RESOURCE ID: text_rewards_key_psychspec24
-TEXT: <b>Enthaltene Boni:</b>
-• Begegnungen mit Bubungus und Brimova
-• 15 000 EP
-• 1 Brutmaschine, 1 Super-Brutmaschine und 1 Sternenstück
-
-RESOURCE ID: text_rewards_key_researchdaysept24
-TEXT: Diese Befristete Forschung, bei der du Feldforschungsaufgaben abschließen musst, führt zu Begegnungen mit den Pokémon Kommandutan und Quartermak.
-
-Während dieses Events haben Pokémon, denen du in dieser Befristeten Forschung begegnest, die gleiche Chance, Schillernde Pokémon zu sein, wie diejenigen, auf die du in Feldforschungen triffst.
-
-Diese Befristete Forschung ist am 22. September 2024 von 14:00 bis 17:00 Uhr Ortszeit verfügbar.
-
 RESOURCE ID: text_rewards_key_sewaddlecd24
 TEXT: <b>Enthält folgende Belohnungen:</b>
 • Hochwertige In-Game-Items wie Sonderbonbons, Hyperbälle und mehr 
@@ -1535,7 +1367,7 @@ RESOURCE ID: ticket_sewaddle
 TEXT: Ticket für die Spezialforschung „Nach Strich und Faden“ im Shop erhältlich
 
 RESOURCE ID: timed_research_special
-TEXT: Timed Research from check-in now available
+TEXT: Befristete Forschung durch Anmeldung jetzt verfügbar
 
 RESOURCE ID: tr_gowa2024_global_daily_electric
 TEXT: GO Wild Area 2024: Electric
@@ -1602,9 +1434,6 @@ TEXT: GO Wild Area Hourly Restock: GO Safari Ball
 
 RESOURCE ID: tr_gowa2024_irl_wildballs_1
 TEXT: GO Wild Area Hourly Restock: GO Safari Ball
-
-RESOURCE ID: tr_ticket_in_shop
-TEXT: Ticket für die Befristete Premium-Forschung im Shop erhältlich
 
 RESOURCE ID: vps_guardian_oob_toast
 TEXT: Du befindest dich außerhalb des Spielbereichs. Bewege dich näher heran, um ein Pokémon zu platzieren.
