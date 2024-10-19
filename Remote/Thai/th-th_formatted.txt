@@ -13,6 +13,9 @@ TEXT: Your device does not support AR.
 RESOURCE ID: ar_not_supported_title
 TEXT: Unsupported
 
+RESOURCE ID: ar_plus_got_it
+TEXT: เขาใจแลว
+
 RESOURCE ID: avatar_hat_halloween2024
 TEXT: หมวกทรงสูงโคโรโมริ
 
@@ -155,10 +158,10 @@ RESOURCE ID: badge_tag_bonus
 TEXT: โบนัส
 
 RESOURCE ID: battle_raids_party_plural
-TEXT: Battle in {0} raids while in a party
+TEXT: แบตเทิลตีบอส {0} ครั้ง ระหวางเลนแบบปารตี้
 
 RESOURCE ID: battle_raids_party_singular
-TEXT: Battle in a raid while in a party
+TEXT: แบตเทิลตีบอสระหวางเลนแบบปารตี้
 
 RESOURCE ID: bonus_cd_move_annihilape
 TEXT: Evolve Primeape to get an Annihilape that knows the Charged Attack Rage Fist!
@@ -230,10 +233,13 @@ RESOURCE ID: bonus_two_free_raid_passes
 TEXT: Receive up to 2 Raid Passes at no cost by spinning Photo Discs at Gyms
 
 RESOURCE ID: bread_battle_cheer_charge_blocked
-TEXT: Max Meter is full. Try cheering later.
+TEXT: เกจเต็มแลว! ไวเชียรใหมในภายหลัง
 
 RESOURCE ID: bread_battle_log_global_cheer_bread_meter
-TEXT: YOUR CHEERING CHARGED YOUR ALLIES’ METERS!
+TEXT: การเชียรของคุณชวยใหเกจของพันธมิตรเพิ่ม!
+
+RESOURCE ID: bread_battle_received_global_cheering_boost
+TEXT: ทุกคนกำลังเชียรคุณอยู!
 
 RESOURCE ID: bread_battle_resolve_error_description
 TEXT: Please try again.
@@ -242,7 +248,7 @@ RESOURCE ID: bread_battle_resolve_error_title
 TEXT: Something went wrong.
 
 RESOURCE ID: bread_battle_resolve_timed_out_title
-TEXT: Everyone’s Pokémon have grown tired!
+TEXT: โปเกมอนของทุกคนไมสามารถตอสูไดแลว!
 
 RESOURCE ID: bread_battle_tutorial_description_0
 TEXT: เอาชนะโปเกมอนไดแมกซและ
@@ -288,7 +294,7 @@ RESOURCE ID: bread_dough_lobby_trainer_list_title
 TEXT: {0} Trainers
 
 RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
-TEXT: 1 Trainer
+TEXT: เทรนเนอร 1 คน
 
 RESOURCE ID: bread_iap_mp_replenish_station_desc
 TEXT: ตองใชอนุภาคแมกซมากกวานี้
@@ -417,7 +423,7 @@ RESOURCE ID: event_datetime_range_key_yamasktr24
 TEXT: วันที่ 19 ตุลาคม 2024 เวลา 14:00-17:00 น.
 
 RESOURCE ID: field_research_special_tasks
-TEXT: Field Research tasks from check-in now available
+TEXT: มีภารกิจงานวิจัยภาคสนามที่ไดจากการเช็กอิน
 
 RESOURCE ID: form_aegislash_blade
 TEXT: ฟอรมดาบ
@@ -504,7 +510,7 @@ RESOURCE ID: form_zygarde_ten_percent
 TEXT: ฟอรม 10%
 
 RESOURCE ID: fr_tag_meetup
-TEXT: Meetup
+TEXT: งานพบปะ
 
 RESOURCE ID: general1.ticket.2_halloween1tr24_title
 TEXT: ตั๋วงานวิจัยแบบจำกัดเวลาพรีเมียม: ชุดคอสเพลยโมรุเปโกะ
@@ -586,6 +592,9 @@ TEXT: ยิม
 
 RESOURCE ID: halloween_03_oct24_event_name
 TEXT: ปารตี้ลูกอมหลอกหรือเลี้ยง
+
+RESOURCE ID: halloween_2024_part_i_event_name
+TEXT: ฮาโลวีน 2024 สวนที่ 1
 
 RESOURCE ID: halloween_encounter_tr_name
 TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียม: ปารตี้ชุดคอสตูม
@@ -851,7 +860,7 @@ RESOURCE ID: meetup_check_in_battle_description
 TEXT: เลือกขอนี้เพื่อรับงานวิจัยแบบจำกัดเวลาเกี่ยวกับการแบตเทิลแกงโกร็อกเกตหรือเทรนเนอรคนอื่น ๆ
 
 RESOURCE ID: meetup_check_in_bonus
-TEXT: Meetup Check-in Bonus
+TEXT: โบนัสเช็กอินงานพบปะ
 
 RESOURCE ID: meetup_check_in_dialogue_00
 TEXT: วันนี้ตองการทาทายอะไรละ?
@@ -890,10 +899,10 @@ RESOURCE ID: meetup_check_in_social_description
 TEXT: เลือกขอนี้เพื่อรับงานวิจัยแบบจำกัดเวลาเกี่ยวกับการสังสรรคกับเทรนเนอรคนอื่น ๆ
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-17T18:22:55.206354+00:00 for th-TH
-at SHA bfa510cb13
-Pipeline 2696846, job 33000854
-Patch from: 0.337.0-SHA-097f040b-RC2, 0.335.0-SHA-5fe4794d-RC4
+TEXT: Built at 2024-10-18T23:29:16.092383+00:00 for th-TH
+at SHA cd0647402b4
+Pipeline 2702713, job 33066649
+Patch from: 0.335.0-SHA-365e92f1-RC5, 0.337.0-SHA-38eacb89-RC1
 
 RESOURCE ID: milestone_rewards_title
 TEXT: รางวัลความสำเร็จ
@@ -911,10 +920,10 @@ RESOURCE ID: not_now
 TEXT: ไวทีหลัง
 
 RESOURCE ID: party_play_field_research_special
-TEXT: Party Challenges from check-in now available
+TEXT: มีคำทาปารตี้ที่ไดจากการเช็กอิน
 
 RESOURCE ID: party_play_tandemaus_boost
-TEXT: Boosted chance of finding Tandemaus in Party Challenge reward encounters
+TEXT: มีโอกาสเผชิญหนากับวักคาเนซูมิจากรางวัลคำทาปารตี้สูงขึ้น
 
 RESOURCE ID: photobomb_five_mankey
 TEXT: 5 surprise encounters with Mankey in GO Snapshot
@@ -923,7 +932,7 @@ RESOURCE ID: photobomb_five_sewaddle
 TEXT: คูรูมีรุแยงซีนถายรูปในโกสแนปช็อต 5 ครั้ง
 
 RESOURCE ID: poi_contrib_edit_desc_desc_custom
-TEXT: {0} Description
+TEXT: คำบรรยายของ{0}
 
 RESOURCE ID: poi_contrib_edit_title_desc_custom
 TEXT: ชื่อของ{0}
@@ -1385,7 +1394,7 @@ RESOURCE ID: raid_day_mega_mawile_event_name
 TEXT: วันตีบอส: เมกาคูชีท
 
 RESOURCE ID: reduced_hatch_party_play
-TEXT: Reduced Hatch Distance while in a Party
+TEXT: ลดระยะทางฟกไขระหวางเลนแบบปารตี้
 
 RESOURCE ID: research_day_yamask_and_gyamask_event_name
 TEXT: วันวิจัยเดธมาสและเดธมาส (รางกาลาร)
@@ -1608,7 +1617,7 @@ RESOURCE ID: ticket_sewaddle
 TEXT: สามารถซื้อตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษ "เย็บสิบปกรอย" ไดที่รานคา
 
 RESOURCE ID: timed_research_special
-TEXT: Timed Research from check-in now available
+TEXT: มีงานวิจัยแบบจำกัดเวลาที่ไดจากการเช็กอิน
 
 RESOURCE ID: tr_gowa2024_global_daily_electric
 TEXT: GO Wild Area 2024: Electric
