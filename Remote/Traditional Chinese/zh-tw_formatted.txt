@@ -8,10 +8,10 @@ RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: 已停止掃描寶可補給站
 
 RESOURCE ID: ar_not_supported_desc
-TEXT: Your device does not support AR.
+TEXT: 您所使用的裝置不支援AR功能。
 
 RESOURCE ID: ar_not_supported_title
-TEXT: Unsupported
+TEXT: 裝置不支援
 
 RESOURCE ID: avatar_hat_halloween2024
 TEXT: 滾滾蝙蝠禮帽
@@ -202,6 +202,9 @@ TEXT: Collect up to 10,000 Max Particles per day from Power Spots and exploratio
 RESOURCE ID: bonus_mp_cap_1600
 TEXT: Collect up to 1,600 Max Particles per day from Power Spots and exploration
 
+RESOURCE ID: bonus_mp_cap_3200
+TEXT: Collect up to 3,200 Max Particles per day from Power Spots and exploration
+
 RESOURCE ID: bonus_mp_cap_4000
 TEXT: Collect up to 4,000 Max Particles per day from Power Spots and exploration
 
@@ -242,10 +245,10 @@ RESOURCE ID: bread_battle_received_global_cheering_boost
 TEXT: 大家在聲援你！
 
 RESOURCE ID: bread_battle_resolve_error_description
-TEXT: Please try again.
+TEXT: 請重試一次
 
 RESOURCE ID: bread_battle_resolve_error_title
-TEXT: Something went wrong.
+TEXT: 發生錯誤
 
 RESOURCE ID: bread_battle_resolve_timed_out_title
 TEXT: 沒有可以戰鬥的寶可夢了
@@ -254,25 +257,25 @@ RESOURCE ID: bread_battle_widget_default_message_container
 TEXT: {0} • {1}
 
 RESOURCE ID: bread_battle_widget_team_count
-TEXT: Team {0}
+TEXT: 小隊{0}
 
 RESOURCE ID: bread_dough_battle_ftue_body_generic
-TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 Trainers.
+TEXT: 這是與超極巨化寶可夢的對戰。建議至少10位訓練家一起組隊參加。
 
 RESOURCE ID: bread_dough_battle_ftue_body_specific
-TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of {0} to {1} Trainers.
+TEXT: 這是與超極巨化寶可夢的對戰。建議{0}～{1}位訓練家一起組隊參加。
 
 RESOURCE ID: bread_dough_battle_ftue_title
-TEXT: Gigantamax Battles!
+TEXT: 超極巨化對戰！
 
 RESOURCE ID: bread_dough_lobby_count
-TEXT: Team {0} of {1}
+TEXT: {1}個小隊中的小隊{0}
 
 RESOURCE ID: bread_dough_lobby_number
-TEXT: Team {0}
+TEXT: 小隊{0}
 
 RESOURCE ID: bread_dough_lobby_trainer_list_title
-TEXT: {0} Trainers
+TEXT: 參加的訓練家：{0}
 
 RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
 TEXT: 參加的訓練家：1
@@ -301,11 +304,17 @@ TEXT: 詳情請至<a href="https://pokemongolive.com/post/mega-mawile-raid-day-2
 RESOURCE ID: encounter_exclamation_cp
 TEXT: !!!
 
+RESOURCE ID: encounter_pokemon_box_full_title
+TEXT: 寶可夢盒已經滿了！
+
 RESOURCE ID: encounter_score_catch_streak_daily
 TEXT: {0} Day Streak Bonus
 
 RESOURCE ID: encounter_strong_wild_pokemon_appeared
 TEXT: 啊！強大的<b>{0}</b>出現了！
+
+RESOURCE ID: encounter_too_many_pokemon
+TEXT: 你的寶可夢盒已經滿了。請到商店擴充盒子容量。
 
 RESOURCE ID: entering_alternate_form
 TEXT: 變成空腹花紋了！
@@ -313,9 +322,12 @@ TEXT: 變成空腹花紋了！
 RESOURCE ID: entering_default_form
 TEXT: 變成滿腹花紋了！
 
+RESOURCE ID: error_no_pokemon_in_inventory
+TEXT: 目前寶可夢盒裡沒有{0}
+
 RESOURCE ID: event_datetime_range_key_gobattlenov2024
-TEXT: Nov 2, 12:00 a.m. –
-Nov 3, 11:59 p.m.
+TEXT: 11月2日00:00～
+11月3日23:59
 
 RESOURCE ID: event_datetime_range_key_gowa24
 TEXT: 11月23日～
@@ -349,11 +361,17 @@ TEXT: 10月5日14:00～17:00
 RESOURCE ID: event_datetime_range_key_yamasktr24
 TEXT: 10月19日14:00～17:00
 
+RESOURCE ID: event_research_complete
+TEXT: Event Research Complete!
+
 RESOURCE ID: external_reward_text
 TEXT: 追加{0}寶可幣
 
 RESOURCE ID: field_research_special_tasks
 TEXT: 可透過簽到獲得田野調查
+
+RESOURCE ID: for_bonus_challenge
+TEXT: (for Bonus Challenge)
 
 RESOURCE ID: form_morpeko_full_belly
 TEXT: 滿腹花紋
@@ -383,7 +401,7 @@ RESOURCE ID: general1.ticket._monthlyticketnov24_title
 TEXT: 每日寶可幣獎勵Part3入場券
 
 RESOURCE ID: general1.ticket_gobattlenov2024_title
-TEXT: GO Battle Weekend Premium Timed Research Ticket
+TEXT: GO對戰週末特級限時調查入場券
 
 RESOURCE ID: general1.ticket_mankeycd24_title
 TEXT: Mankey Community Day Ticket
@@ -394,215 +412,218 @@ TEXT: 蟲寶包社群日入場券
 RESOURCE ID: get_ticket
 TEXT: 獲得入場券
 
+RESOURCE ID: gmax_max_battles
+TEXT: 超極巨化寶可夢在極巨對戰中出現了
+
 RESOURCE ID: go_battle_weekend_tr_name
-TEXT: GO Battle Weekend Premium Timed Research
+TEXT: GO對戰週末特級限時調查
 
 RESOURCE ID: go_max_event_name
 TEXT: 巨大個GO
 
 RESOURCE ID: go_wild_2024_global_sr_electric_00_01
-TEXT: I'm so amped you've decided to focus on mastering Electric-type Pokémon!
+TEXT: I’m amped you’ve decided to focus on mastering Electric-type Pokémon!
 
 RESOURCE ID: go_wild_2024_global_sr_electric_00_02
-TEXT: Speaking of, there's quite a surge of them in the vicinity. I wonder how strong of a current they could all make together!
+TEXT: As I said, there’s quite a surge of them in the vicinity. I wonder how strong of a current they could all make together!
 
 RESOURCE ID: go_wild_2024_global_sr_electric_00_03
-TEXT: Just thinking about that makes the hairs on my arm stand up. Or maybe that's just the static electricity in the air?
+TEXT: Just thinking about it makes the hairs on my arm stand up. Or maybe that’s just the static electricity in the air?
 
 RESOURCE ID: go_wild_2024_global_sr_electric_00_04
-TEXT: Let's go see these Pokémon in action! Chaaaaarge!
+TEXT: Let’s go see these Pokémon in action! Chaaaaarge!
 
 RESOURCE ID: go_wild_2024_global_sr_electric_01_01
-TEXT: You're wired for this %PLAYERNAME%! Now how about spending some quality time with your new friends?
+TEXT: You’re wired for this, %PLAYERNAME%! Now how about spending some quality time with your new friends?
 
 RESOURCE ID: go_wild_2024_global_sr_electric_01_02
-TEXT: Spark spends as much time as he can with his Pokemon. His instinct to understand how to bond with Electric-type Pokemon is always spot on!
+TEXT: Spark spends as much time as he can with his Pokémon. His instinct for bonding with Electric types is always spot on!
 
 RESOURCE ID: go_wild_2024_global_sr_electric_01_03
-TEXT: And remember--if you encounter mighty Pokémon out there, try using the GO Safari Balls just for that purpose!
+TEXT: And remember—if you encounter mighty Pokémon out there, try using GO Safari Balls!
 
 RESOURCE ID: go_wild_2024_global_sr_electric_02_01
-TEXT: Welcome back, %PLAYERNAME%! I'm sure your Electric-type Pokémon were ec-static to spend time with you.
+TEXT: Welcome back, %PLAYERNAME%! I’m sure your Electric-type pals were ec-static to spend time with you.
 
 RESOURCE ID: go_wild_2024_global_sr_electric_02_02
-TEXT: Did you get a chance to battle with them? Electric-type Pokémon are quite strong against Flying- and Water-types.
+TEXT: Did you get a chance to battle with them? Electric-type Pokémon are quite strong against Flying and Water types.
 
 RESOURCE ID: go_wild_2024_global_sr_electric_02_03
-TEXT: But do you know what they are weak against? Why don't you spend some more time with them and think on it?
+TEXT: But do you know what they’re weak against? Why don’t you spend some more time with them and think on it.
 
 RESOURCE ID: go_wild_2024_global_sr_electric_02_04
-TEXT: I can also corroborate your findings when you come back!
+TEXT: I can corroborate your findings when you come back!
 
 RESOURCE ID: go_wild_2024_global_sr_electric_03_01
-TEXT: Great job, Trainer! You're well plugged-in to your Electric-type Pokémon knowledge by now. Have you thought about what their weakness is?
+TEXT: Great job! You’re fully plugged in when it comes to Electric-type Pokémon! Have you thought about their weaknesses?
 
 RESOURCE ID: go_wild_2024_global_sr_electric_03_02
-TEXT: Here's a hint: That Golem you caught will be very effective against an Electric-type.
+TEXT: Here’s a hint: that Golem you caught will be very effective against an Electric type.
 
 RESOURCE ID: go_wild_2024_global_sr_electric_03_03
-TEXT: That's right! Electric-type Pokémon are weak against Ground-type Pokémon. You could say they zap all the energy from our high voltage friends.
+TEXT: That’s grounds for celebration—you’ve got it! Electric-type Pokémon are weak against Ground types. You could say they zap the energy from our high-voltage friends.
 
 RESOURCE ID: go_wild_2024_global_sr_electric_03_04
-TEXT: Why don't you roll out your Golem against some Electric-type Pokémon and see for yourself?
+TEXT: Why don’t you roll out your Golem against some Electric types and see for yourself?
 
 RESOURCE ID: go_wild_2024_global_sr_electric_04_01
-TEXT: Incredible! You're a shockstar.
+TEXT: Incredible! But that’s no shock.
 
 RESOURCE ID: go_wild_2024_global_sr_electric_04_02
-TEXT: You've proven your mastery as an Electric-type trainer and earned this badge. I couldn't be more proud.
+TEXT: As a memento of your Electric mastery, take this medal! I couldn’t be more proud.
 
 RESOURCE ID: go_wild_2024_global_sr_electric_04_03
 TEXT: Keep that spark alive, and it will continue to take you far.
 
 RESOURCE ID: go_wild_2024_global_sr_electric_04_04
-TEXT: With so many new Electric-type Pokémon by your side, I'm sure you'll keep each other amped up for years to come.
+TEXT: With so many new Electric-type Pokémon by your side, I’m sure you’ll keep each other amped up for years to come.
 
 RESOURCE ID: go_wild_2024_global_sr_electric_04_05
-TEXT: I've got just a few more tasks for you, %PLAYERNAME%. Let's finish strong!
+TEXT: Now, I’ve got just a few things left I could use your help with. Let’s finish strong!
 
 RESOURCE ID: go_wild_2024_global_sr_intro_00_01
-TEXT: Hey %PLAYERNAME%! Good to see you. How is your training going?
+TEXT: Hey, %PLAYERNAME%! Good to see you. How’s your training going?
 
 RESOURCE ID: go_wild_2024_global_sr_intro_00_02
-TEXT: With so much to learn, how do you know when you've mastered something?
+TEXT: I’ve been thinking. With all there is to learn, how does a person know when they’ve mastered something?
 
 RESOURCE ID: go_wild_2024_global_sr_intro_00_03
-TEXT: I have an idea, but did you notice anything interesting out there?
+TEXT: Just a little food for thought. Anyway, did you notice anything interesting out there?
 
 RESOURCE ID: go_wild_2024_global_sr_intro_00_04
-TEXT: That's right! There seem to be a high number of Electric- and Poison-type Pokémon appearing in the area.
+TEXT: I was struck by the high number of Electric- and Poison-type Pokémon buzzing and bubbling about.
 
 RESOURCE ID: go_wild_2024_global_sr_intro_00_05
-TEXT: Don't you think this would be a good chance to test your skills?
+TEXT: In fact, speaking of measuring mastery—this is an excellent opportunity!
 
 RESOURCE ID: go_wild_2024_global_sr_intro_00_branch
-TEXT: Remember when I asked about measuring mastery? Now is your chance to put your training to the test! Which path will you take to prove your prowess?
+TEXT: This is your chance to put your training to the test! Which path will you take to prove your prowess?
 
 RESOURCE ID: go_wild_2024_global_sr_poison_00_01
-TEXT: Alright! You've picked your poison with... Poison!
+TEXT: All right! You’ve picked your poison! Er, Poison type, that is.
 
 RESOURCE ID: go_wild_2024_global_sr_poison_00_02
-TEXT: Now your training is about to get more toxic. Err, in a fun and useful way!
+TEXT: They say you should avoid toxic people, but learning about Poison-type Pokémon is sure to be both fun AND useful!
 
 RESOURCE ID: go_wild_2024_global_sr_poison_00_03
-TEXT: Some Trainers may be wary and afraid of confronting Poison-types, but not you, %PLAYERNAME%!
+TEXT: A challenge you’re ready for, I have no doubt.
 
 RESOURCE ID: go_wild_2024_global_sr_poison_00_04
-TEXT: I'd like to collect as much data on the Poison-type Pokémon in the area. Are you up for the challenge?
+TEXT: Why don’t you start by collecting data on the Poison-type Pokémon in the area.
 
 RESOURCE ID: go_wild_2024_global_sr_poison_01_01
-TEXT: Just look at all the Poison-type Pokémon you've caught. Excellent snapshots, too!
+TEXT: Just look at all the Poison-type Pokémon you’ve caught. And what excellent snapshots!
 
 RESOURCE ID: go_wild_2024_global_sr_poison_01_02
-TEXT: I'm confident you could also master Pokémon photography.
+TEXT: I’m confident you could also master Pokémon photography. You should give it a shot!
 
 RESOURCE ID: go_wild_2024_global_sr_poison_01_03
-TEXT: Now that you've caught some Poison-type Pokémon, it's time to get to know them better!
+TEXT: Ahem. Now that you’ve caught some Poison-type Pokémon, it’s time to get to know them better.
 
 RESOURCE ID: go_wild_2024_global_sr_poison_01_04
-TEXT: Sharing some berries would be an effective way to build your friendship. Let me know how it goes!
+TEXT: Sharing some Berries is an effective way to build your friendship. Let me know how it goes!
 
 RESOURCE ID: go_wild_2024_global_sr_poison_02_01
 TEXT: Excellent work, %PLAYERNAME%! You and your Poison-type Pokémon look like great pals already.
 
 RESOURCE ID: go_wild_2024_global_sr_poison_02_02
-TEXT: Poison-type Pokemon are especially strong against Fairy- and Grass-type Pokémon, but do you know what their weakness is?
+TEXT: Poison types are especially strong against Fairy- and Grass-type Pokémon, but do you know what their weakness is?
 
 RESOURCE ID: go_wild_2024_global_sr_poison_02_03
-TEXT: Here's a hint: These Pokemon may "soil" a Poison-type Pokémon's victory!
+TEXT: Here’s a hint: these Pokémon may “soil” a Poison-type Pokémon’s victory!
 
 RESOURCE ID: go_wild_2024_global_sr_poison_02_04
-TEXT: Get it? Well, think on it a bit more, and I'll work on a better joke as well. You've got this!
+TEXT: Heh. You work on that, and I’ll work on getting some new material. You’ve got this!
 
 RESOURCE ID: go_wild_2024_global_sr_poison_03_01
-TEXT: Your Poison-type Pokémon are looking stronger than ever!
+TEXT: Venom...denim? No, that—ah! %PLAYERNAME%! I certainly wasn’t practicing my puns. Anyway, your Poison types are looking stronger than ever!
 
 RESOURCE ID: go_wild_2024_global_sr_poison_03_02
-TEXT: I wouldn't want to face off against your team. That is, unless I knew what they were weak against. Any ideas?
+TEXT: I wouldn’t want to face off against your team. That is, unless I knew what they were weak against. Any ideas?
 
 RESOURCE ID: go_wild_2024_global_sr_poison_03_03
-TEXT: Poison-type Pokémon are weak against Psychic-types as well as Ground-types, which is exactly what your Golem is!
+TEXT: Poison-type Pokémon are weak against both Psychic and Ground types, and your Golem has ground covered!
 
 RESOURCE ID: go_wild_2024_global_sr_poison_03_04
-TEXT: Why don't you take it out for a spin and see for yourself? Let's rock and roll!
+TEXT: Why don’t you take it out for a spin and see for yourself? Let’s rock and roll!
 
 RESOURCE ID: go_wild_2024_global_sr_poison_04_01
 TEXT: Phenomenal work as always, %PLAYERNAME%!
 
 RESOURCE ID: go_wild_2024_global_sr_poison_04_02
-TEXT: You've proven your mastery as a Poison-type trainer and earned this badge. I couldn't be more proud.
+TEXT: Please, take this medal as a token of your mastery of Poison types. I couldn’t be more proud.
 
 RESOURCE ID: go_wild_2024_global_sr_poison_04_03
-TEXT: Your skills are as potent as the Poison-type Pokémon you're training.
+TEXT: Your skills are as potent as the Poison-type Pokémon you’re training.
 
 RESOURCE ID: go_wild_2024_global_sr_poison_04_04
-TEXT: With your guidance, they'll be the most toxic Pokémon in the world. Err, again, in a good way!
+TEXT: With your guidance, they’ll be the bane of any Pokémon they battle.
 
 RESOURCE ID: go_wild_2024_global_sr_poison_04_05
-TEXT: Let's close out our research with a few more tasks. I know you can do it!
+TEXT: Now, I’ve got just a few more research items on the agenda. I know I can count on you!
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_00_01
-TEXT: Can you believe the surge of Electric-type Pokémon in the vicinity, %PLAYERNAME%?
+TEXT: Can you believe the surge of Electric-type Pokémon in the vicinity?
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_00_02
 TEXT: I wonder how strong of a current they could all make together!
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_00_03
-TEXT: Just thinking about that makes the hairs on my arm stand up. Or maybe that's just the static electricity in the air?
+TEXT: Just thinking about that makes the hairs on my arm stand up. Or maybe that’s the static electricity in the air?
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_00_04
-TEXT: Let's go see these Pokémon in action! Chaaaaarge!
+TEXT: Let’s go see these Pokémon in action! Chaaaaarge!
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_01_01
-TEXT: You're wired for this %PLAYERNAME%! Now how about spending some quality time with your new friends?
+TEXT: You’re wired for this, %PLAYERNAME%! Now how about spending some quality time with your new friends?
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_01_02
-TEXT: Spark spends as much time as he can with his Pokemon. His instinct to understand how to bond with Electric-type Pokemon is always spot on!
+TEXT: Spark spends as much time as he can with his Pokémon. His instinct for bonding with Electric types is always spot on!
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_01_03
-TEXT: And remember--if you encounter mighty Pokémon out there, try using the GO Safari Balls just for that purpose!
+TEXT: And remember—if you encounter mighty Pokémon out there, try using GO Safari Balls!
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_02_01
-TEXT: Welcome back, %PLAYERNAME%! I'm sure your Electric-type Pokémon were ec-static to spend time with you.
+TEXT: Welcome back, %PLAYERNAME%! I’m sure your Electric-type pals were ec-static to spend time with you.
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_02_02
-TEXT: Did you get a chance to battle with them? Electric-type Pokémon are quite strong against Flying- and Water-types.
+TEXT: Did you get a chance to battle with them? Electric-type Pokémon are quite strong against Flying and Water types.
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_02_03
-TEXT: But do you know what they are weak against? Why don't you spend some more time with them and think on it?
+TEXT: But do you know what they’re weak against? Why don’t you spend some more time with them and think on it.
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_02_04
-TEXT: I can also corroborate your findings when you come back!
+TEXT: I can corroborate your findings when you come back!
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_03_01
-TEXT: Great job, Trainer! You're well plugged-in to your Electric-type Pokémon knowledge by now. Have you thought about what their weakness is?
+TEXT: Great job! You’re fully plugged in when it comes to Electric-type Pokémon! Have you thought about their weaknesses?
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_03_02
-TEXT: Here's a hint: That Golem you caught will be very effective against an Electric-type.
+TEXT: Here’s a hint: that Golem you caught will be very effective against an Electric type.
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_03_03
-TEXT: That's right! Electric-type Pokémon are weak against Ground-type Pokémon. You could say they zap all the energy from our high voltage friends.
+TEXT: That’s grounds for celebration—you’ve got it! Electric-type Pokémon are weak against Ground types. You could say they zap the energy from our high-voltage friends.
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_03_04
-TEXT: Why don't you roll out your Golem against some Electric-type Pokémon and see for yourself?
+TEXT: Why don’t you roll out your Golem against some Electric types and see for yourself?
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_04_01
-TEXT: Incredible! You're a shockstar. It's always so thrilling to witness your progress, Trainer.
+TEXT: Incredible! Your progress is positively shocking, %PLAYERNAME%.
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_04_02
 TEXT: Keep that spark alive, and it will continue to take you far.
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_04_03
-TEXT: With so many new Electric-type Pokémon by your side, I'm sure you'll keep each other amped up for years to come.
+TEXT: With so many new Electric-type Pokémon by your side, I’m sure you’ll keep each other amped up for years to come.
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_04_04
-TEXT: I've got just a few more tasks for you, %PLAYERNAME%. Let's finish strong!
+TEXT: I just have a few odds and ends left for you, %PLAYERNAME%. Let’s finish strong!
 
 RESOURCE ID: go_wild_2024_irl_sr_finale_00_01
-TEXT: You did it! I just knew you would master both Poison- and Electric-type Pokémon.
+TEXT: You did it! I just knew you’d master both Poison- and Electric-type Pokémon.
 
 RESOURCE ID: go_wild_2024_irl_sr_finale_00_02
-TEXT: It's incredible you've captured a Dynamax Toxtricity as well! Did you know that it has an electrical organ on its chest?
+TEXT: And you even caught a Dynamax Toxtricity—wow! Did you know that it has an electrical organ on its chest?
 
 RESOURCE ID: go_wild_2024_irl_sr_finale_00_03
 TEXT: While generating electricity, it fills its surroundings with what sounds like the strumming of a bass guitar.
@@ -611,109 +632,130 @@ RESOURCE ID: go_wild_2024_irl_sr_finale_00_04
 TEXT: Hardcore! Just like you, %PLAYERNAME%.
 
 RESOURCE ID: go_wild_2024_irl_sr_finale_00_05
-TEXT: And every rockstar needs their rest. You've earned it. Until next time!
+TEXT: Every rockstar needs their rest, though. You’ve earned it. Until next time!
 
 RESOURCE ID: go_wild_2024_irl_sr_intro_00_01
 TEXT: Today is the beginning of a great adventure for you, %PLAYERNAME%.
 
 RESOURCE ID: go_wild_2024_irl_sr_intro_00_02
-TEXT: You've no doubt noticed that there are a high number of Electric- and Poison-type Pokémon appearing in the area. Now is your chance to put your training to the test!
+TEXT: I’m sure you’ve noticed that there are oodles of Electric- and Poison-type Pokémon appearing in the area.
 
 RESOURCE ID: go_wild_2024_irl_sr_intro_00_03
-TEXT: It's no easy task, but I believe you have what it takes to master both. Are you ready?
+TEXT: It’s no easy task, but I believe you have what it takes to master both types—now’s your chance to put your training to the test!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_00_01
-TEXT: Alright! Your training is about to get more toxic. Err, in a fun and useful way!
+TEXT: All right! You’ve picked your poison! Er, Poison type, that is!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_00_02
-TEXT: Some Trainers may be wary and afraid of confronting Poison-types, but not you, %PLAYERNAME%!
+TEXT: Some Trainers might shy away from confronting Poison-type Pokémon, but not you, %PLAYERNAME%!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_00_03
-TEXT: I'd like to collect as much data on the Poison-type Pokémon in the area. Are you up for the challenge?
+TEXT: And so, with that in mind, I’d like you to collect data on the Poison types in the area—a challenge I’m sure you’re up for!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_00_04
-TEXT: Let's GO!
+TEXT: Let’s GO!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_01_01
-TEXT: Just look at all the Poison-type Pokémon you've caught. Excellent snapshots, too!
+TEXT: Just look at all the Poison-type Pokémon you’ve caught. And what excellent snapshots!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_01_02
-TEXT: I'm confident you could also master Pokémon photography.
+TEXT: I’m confident you could also master Pokémon photography. You should give it a shot!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_01_03
-TEXT: Now that you've caught some Poison-type Pokémon, it's time to get to know them better!
+TEXT: Ahem. Now that you’ve caught some Poison-type Pokémon, it’s time to get to know them better.
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_01_04
-TEXT: Sharing some berries would be an effective way to build your friendship. Let me know how it goes!
+TEXT: Sharing some Berries is an effective way to build your friendship. Let me know how it goes!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_02_01
 TEXT: Excellent work, %PLAYERNAME%! You and your Poison-type Pokémon look like great pals already.
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_02_02
-TEXT: Poison-type Pokemon are especially strong against Fairy- and Grass-type Pokémon, but do you know what their weakness is?
+TEXT: Poison types are especially strong against Fairy- and Grass-type Pokémon, but do you know what their weakness is?
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_02_03
-TEXT: Here's a hint: These Pokemon may "soil" a Poison-type Pokémon's victory!
+TEXT: Here’s a hint: these Pokémon may “soil” a Poison-type Pokémon’s victory!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_02_04
-TEXT: Get it? Well, think on it a bit more, and I'll work on a better joke as well. You've got this!
+TEXT: Heh. You work on that, and I’ll work on getting some new material. You’ve got this!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_03_01
-TEXT: Your Poison-type Pokémon are looking stronger than ever!
+TEXT: Venom...denim? No, that—ah! %PLAYERNAME%! I certainly wasn’t practicing my puns. Anyway, your Poison types are looking stronger than ever!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_03_02
-TEXT: I wouldn't want to face off against your team. That is, unless I knew what they were weak against. Any ideas?
+TEXT: I wouldn’t want to face off against your team. That is, unless I knew what they were weak against. Any ideas?
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_03_03
-TEXT: Poison-type Pokémon are weak against Psychic-types as well as Ground-types, which is exactly what your Golem is!
+TEXT: Poison-type Pokémon are weak against both Psychic and Ground types, and your Golem has ground covered!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_03_04
-TEXT: Why don't you take it out for a spin and see for yourself? Let's rock and roll!
+TEXT: Why don’t you take it out for a spin and see for yourself? Let’s rock and roll!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_04_01
 TEXT: Phenomenal work as always, %PLAYERNAME%!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_04_02
-TEXT: Your skills are as potent as the Poison-type Pokémon you're training!
+TEXT: Your skills are as potent as the Poison-type Pokémon you’re training!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_04_03
-TEXT: With your guidance, they'll be the most toxic Pokémon in the world. Err, again, in a good way!
+TEXT: With your guidance, they’ll be the most toxic Pokémon in the world. I mean, in a good way!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_04_04
-TEXT: Let's close out our research with a few more tasks. I know you can do it!
+TEXT: I just have a few more odds and ends I could use your help with. I know you can do it!
 
 RESOURCE ID: go_wild_2024_safari_ball_intro_00_01
-TEXT: %PLAYERNAME%, what impeccable timing!
+TEXT: What impeccable timing, %PLAYERNAME%!
 
 RESOURCE ID: go_wild_2024_safari_ball_intro_00_02
-TEXT: I have something exciting to show you. This is referred to as a GO Safari Ball.
+TEXT: I have something exciting to show you. This, my friend, is a GO Safari Ball.
 
 RESOURCE ID: go_wild_2024_safari_ball_intro_00_03
-TEXT: But unlike normal Pokeballs, the effectiveness can only last for a limited time so you'll need to use them before they expire.
+TEXT: Take note—they’re not like normal Poké Balls! They don’t last forever, so you need to use them before they disappear.
 
 RESOURCE ID: go_wild_2024_safari_ball_intro_00_04
-TEXT: This should be useful to catch exceptionally strong Pokemon. Try catching some Pokemon and report back your findings!
+TEXT: They should be useful if you come across any exceptionally strong Pokémon. Try them out and report back!
 
 RESOURCE ID: go_wild_2024_safari_ball_intro_01_01
 TEXT: Welcome back, %PLAYERNAME%! Did you find anything interesting?
 
 RESOURCE ID: go_wild_2024_safari_ball_intro_01_02
-TEXT: I happened to observe exceptionally strong Pokémon appearing!
+TEXT: And me? I’m glad you asked! I’ve spotted some unusually powerful Pokémon roaming about.
 
 RESOURCE ID: go_wild_2024_safari_ball_intro_01_03
-TEXT: These mighty Pokémon are appearing in their evolved forms, are larger and stronger than most other Pokémon of their species, and are more challenging to catch.
+TEXT: These mighty Pokémon are fully evolved, are larger and stronger than most other Pokémon of their species, and are more challenging to catch.
 
 RESOURCE ID: go_wild_2024_safari_ball_intro_01_04
-TEXT: If you can find some mighty Pokémon, your GO Safari Balls should be a big help in catching them.
+TEXT: If you can find some of these mighty Pokémon, GO Safari Balls should be a big help.
 
 RESOURCE ID: go_wild_2024_safari_ball_intro_01_05
-TEXT: Let's work together to investigate this! What a wild adventure!
+TEXT: Let’s work together to investigate. What a wild adventure this ought to be!
 
 RESOURCE ID: gowa
 TEXT: Pokémon GO Wild Area
 
+RESOURCE ID: gowa2024
+TEXT: Pokémon GO Wild Area 2024
+
 RESOURCE ID: gowa_2024
 TEXT: Pokémon GO Wild Area 2024
+
+RESOURCE ID: gowa_2024_all_sat
+TEXT: Pokémon GO Wild Area 2024: Saturday All-day
+
+RESOURCE ID: gowa_2024_all_sun
+TEXT: Pokémon GO Wild Area 2024: Sunday All-day
+
+RESOURCE ID: gowa_2024_all_weekend
+TEXT: Pokémon GO Wild Area 2024: Weekend All-day
+
+RESOURCE ID: gowa_2024_all_weekend_ticketed
+TEXT: Pokémon GO Wild Area 2024: Weekend All-day - Ticket
+
+RESOURCE ID: gowa_2024_beyond_electric
+TEXT: Beyond Wild Area: Electric Expert
+
+RESOURCE ID: gowa_2024_beyond_poison
+TEXT: Beyond Wild Area: Poison Pro
 
 RESOURCE ID: gowa_2024_content_hashtag
 TEXT: Post photos tagged with #GOWildArea2024 and we’ll share our favorites!
@@ -730,14 +772,53 @@ TEXT: Catch these Pokémon in the Electric habitat!
 RESOURCE ID: gowa_2024_habitat_global_electric
 TEXT: Happening now: Electric Hour
 
+RESOURCE ID: gowa_2024_habitat_global_electric_description
+TEXT: Catch these Pokémon during Electric hours!
+
+RESOURCE ID: gowa_2024_habitat_global_electric_temp
+TEXT: Wild Area Collection Challenge: Electric
+
 RESOURCE ID: gowa_2024_habitat_global_poison
 TEXT: Happening now: Poison Hour
+
+RESOURCE ID: gowa_2024_habitat_global_poison_description
+TEXT: Catch these Pokémon during Poison hours!
+
+RESOURCE ID: gowa_2024_habitat_global_poison_temp
+TEXT: Wild Area Collection Challenge: Poison
+
+RESOURCE ID: gowa_2024_habitat_irl_electric
+TEXT: Wild Area Collection Challenge: Electric
+
+RESOURCE ID: gowa_2024_habitat_irl_electric_description
+TEXT: Catch spawning Electric-type Pokémon!
+
+RESOURCE ID: gowa_2024_habitat_irl_poison
+TEXT: Wild Area Collection Challenge: Poison
+
+RESOURCE ID: gowa_2024_habitat_irl_poison_description
+TEXT: Catch spawning Poison-type Pokémon!
+
+RESOURCE ID: gowa_2024_habitat_leadup_electric
+TEXT: Into the Wild Collection Challenge: Electric
+
+RESOURCE ID: gowa_2024_habitat_leadup_electric_description
+TEXT: Catch spawning Electric-type Pokémon!
+
+RESOURCE ID: gowa_2024_habitat_leadup_poison
+TEXT: Into the Wild Collection Challenge: Poison
+
+RESOURCE ID: gowa_2024_habitat_leadup_poison_description
+TEXT: Catch spawning Poison-type Pokémon!
 
 RESOURCE ID: gowa_2024_habitat_poison
 TEXT: Poison
 
 RESOURCE ID: gowa_2024_habitat_poison_description
 TEXT: Catch these Pokémon in the Poison habitat!
+
+RESOURCE ID: gowa_2024_leadup
+TEXT: Into the Wild
 
 RESOURCE ID: gowa_2024_live_fukuoka_city
 TEXT: Pokémon GO Wild Area 2024: Fukuoka — City Experience
@@ -756,6 +837,21 @@ TEXT: Pick this branch to become an accomplished Poison type Trainer. Tasks will
 
 RESOURCE ID: gowa_2024_quest_branch_poison_title
 TEXT: Poison
+
+RESOURCE ID: gowa_2024_sat
+TEXT: Pokémon GO Wild Area 2024: Saturday Event Hours
+
+RESOURCE ID: gowa_2024_sat_ticketed
+TEXT: Pokémon GO Wild Area 2024: Saturday Event Hours - Ticket
+
+RESOURCE ID: gowa_2024_sun
+TEXT: Pokémon GO Wild Area 2024: Sunday Event Hours
+
+RESOURCE ID: gowa_2024_sun_ticketed
+TEXT: Pokémon GO Wild Area 2024: Sunday Event Hours - Ticket
+
+RESOURCE ID: guest_restricted_feature_pokemon_storage_iap
+TEXT: 擴充你的寶可夢盒
 
 RESOURCE ID: gym_general
 TEXT: 道館
@@ -803,8 +899,7 @@ RESOURCE ID: halloween_spiritomb_tr_name
 TEXT: 萬聖節2024：花岩怪挑戰
 
 RESOURCE ID: hint_desc_loc_network_err_body_key
-TEXT: 將相機對準地標，使畫面與提示圖片相符。
-請保持這個狀態，慢慢地繞著地標走，並從多個角度掃描。
+TEXT: 將相機對準地標，使畫面與提示圖片相符。請保持這個狀態，慢慢地繞著地標走，並從多個角度掃描。
 
 RESOURCE ID: hint_desc_loc_network_err_title_key
 TEXT: 發生錯誤……
@@ -827,6 +922,9 @@ TEXT: 來找找這個地標吧
 
 RESOURCE ID: inapp_banner_desc
 TEXT: 快來瞭解更多本月可以兌換的優惠吧
+
+RESOURCE ID: invasion_pokemon_inventory_warning_message
+TEXT: 由於寶可夢盒已滿，所以你將無法遇見暗影寶可夢。你可以將寶可夢傳送給博士，或是在商店中升級寶可夢盒，讓盒子裡有更多空間可以容納寶可夢。
 
 RESOURCE ID: iris_social_confirm_exit_modal_body
 TEXT: 寶可夢直到玩累為止都會待在這個地方，但你隨時可以收回牠們。
@@ -916,7 +1014,7 @@ RESOURCE ID: item_event_ticket_gray_details_mawileraidday
 TEXT: 入場券將會自動啟動。不論你身在何處，都能在當地時間2024年10月12日領取特別的獎勵。
 
 RESOURCE ID: item_event_ticket_pink_desc_gobattlenov2024
-TEXT: A ticket to access the GO Battle Weekend Premium Timed Research from Nov 2 at 12:00 a.m. to Nov 3, 2024 at 11:59 p.m. local time, wherever you are.
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年11月2日00:00～11月3日23:59參與GO對戰週末特級限時調查。
 
 RESOURCE ID: item_event_ticket_pink_desc_mankeycd24
 TEXT: A ticket to access the Mankey Community Day Special Research starting November 10 at 2:00 p.m. local time, wherever you are.
@@ -925,7 +1023,7 @@ RESOURCE ID: item_event_ticket_pink_desc_sewaddlecd24
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年10月5日14:00開始參與蟲寶包社群日的特殊調查。
 
 RESOURCE ID: item_event_ticket_pink_details_gobattlenov2024
-TEXT: This ticket will automatically activate to give you access to the GO Battle Weekend Premium Timed Research, wherever you are.
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在11月2日開始參與GO對戰週末特級限時調查。
 
 RESOURCE ID: item_event_ticket_pink_details_mankeycd24
 TEXT: This ticket will automatically activate to give you access to the Mankey Community Day Special Research, Mankey Business, on November 10, wherever you are.
@@ -948,6 +1046,12 @@ TEXT: 還剩1小時
 RESOURCE ID: item_expire_timer_minutes_seconds_left
 TEXT: 還剩{0}
 
+RESOURCE ID: item_pokemon_bag_name
+TEXT: 升級寶可夢盒
+
+RESOURCE ID: item_pokemon_storage_upgrade_name
+TEXT: 升級寶可夢盒
+
 RESOURCE ID: item_wild_ball_desc
 TEXT: 僅限於Pokémon GO曠野地帶活動舉辦期間使用的特殊精靈球。
 
@@ -961,10 +1065,10 @@ RESOURCE ID: item_wild_ball_premier_name
 TEXT: GO狩獵球
 
 RESOURCE ID: limited_localization_nearby_hint_1
-TEXT: You are getting closer to the landmark!
+TEXT: 越來越接近了！
 
 RESOURCE ID: limited_localization_progress_hint_1
-TEXT: Follow the sparkles to find the landmark.
+TEXT: 跟著閃閃發光的指示靠近地標
 
 RESOURCE ID: localization_progress_hint_1
 TEXT: 請將相機對準地標
@@ -1050,10 +1154,10 @@ RESOURCE ID: meetup_check_in_social_description
 TEXT: 這個分歧可以獲得能一面享受和訓練家夥伴的交流一面進行的限時調查。
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-22T00:08:34.156410+00:00 for zh-TW
-at SHA f8739d82904
-Pipeline 2706977, job 33129590
-Patch from: 0.335.0-SHA-9e20713c-RC2, 0.337.0-SHA-b4a38293-RC1
+TEXT: Built at 2024-10-25T00:53:56.246223+00:00 for zh-TW
+at SHA 9234b9f236f
+Pipeline 2721831, job 33327089
+Patch from: 0.335.1-SHA-0a6ebbca-RC1, 0.337.0-SHA-097f040b-RC2
 
 RESOURCE ID: move_name_0423
 TEXT: 極巨大地
@@ -1131,7 +1235,7 @@ RESOURCE ID: pokedex_info_battle_tab_title
 TEXT: BATTLE
 
 RESOURCE ID: pokedex_info_caught_count
-TEXT: CAUGHT: {0}
+TEXT: CAUGHT
 
 RESOURCE ID: pokedex_info_caught_tab_title
 TEXT: CAUGHT
@@ -1158,7 +1262,7 @@ RESOURCE ID: pokedex_info_register_date
 TEXT: First registered date:
 
 RESOURCE ID: pokedex_info_seen_count
-TEXT: SEEN: {0}
+TEXT: SEEN
 
 RESOURCE ID: pokedex_info_unregistered
 TEXT: Not Registered
@@ -1190,6 +1294,12 @@ TEXT: {0}正在寶可補給站玩
 RESOURCE ID: pokemon_info_powerup_pokemon_deployed
 TEXT: {0}已被指派至道館或能量點
 
+RESOURCE ID: pokemon_inventory_no_room_to_incubate
+TEXT: 孵蛋前請先空出寶可夢盒的空間
+
+RESOURCE ID: pokemon_inventory_no_room_to_incubate_title
+TEXT: 寶可夢盒已經滿了！
+
 RESOURCE ID: pokemon_name_bread
 TEXT: 極巨化{0}
 
@@ -1205,14 +1315,17 @@ TEXT: D-Max{0}
 RESOURCE ID: pokemon_tutorial_ibfc_desc
 TEXT: 這隻寶可夢可以在對戰中改變形態。
 
+RESOURCE ID: pokemonstorageupgrade.1_title
+TEXT: 升級寶可夢盒
+
 RESOURCE ID: pokestop_general
 TEXT: 寶可補給站
 
 RESOURCE ID: quest_appraise_pokemon_plural
-TEXT: Appraise {0} Pokémon
+TEXT: 評價{0}隻寶可夢
 
 RESOURCE ID: quest_appraise_pokemon_singular
-TEXT: Appraise a Pokémon
+TEXT: 評價1隻寶可夢
 
 RESOURCE ID: quest_branching_special_dialogue_1
 TEXT: 嗨，%PLAYERNAME%！這裡有好多寶可夢，要調查的事也好多。趕緊開始吧！
@@ -1233,7 +1346,7 @@ RESOURCE ID: quest_buddy_affection_poison_singular
 TEXT: 將毒屬性的寶可夢設成夥伴，並和牠獲得心心
 
 RESOURCE ID: quest_catch_special_pidgey
-TEXT: Catch {0} Pidgey
+TEXT: 捕捉{0}隻波波
 
 RESOURCE ID: quest_catch_strong_plural
 TEXT: 捕捉{0}隻強大的寶可夢
@@ -1248,10 +1361,10 @@ RESOURCE ID: quest_catch_wild_ball_singular
 TEXT: 使用GO狩獵球捕捉寶可夢
 
 RESOURCE ID: quest_choose_buddy_plural
-TEXT: Choose or Swap Buddy Pokémon {0} times
+TEXT: 選擇或替換{0}次夥伴寶可夢
 
 RESOURCE ID: quest_choose_buddy_singular
-TEXT: Choose or Swap Buddy Pokémon
+TEXT: 選擇或替換夥伴寶可夢
 
 RESOURCE ID: quest_explore_buddy_electric
 TEXT: 將電屬性的寶可夢設成夥伴，並和牠一起探索，取得1顆糖果
@@ -1260,10 +1373,10 @@ RESOURCE ID: quest_explore_buddy_poison
 TEXT: 將毒屬性的寶可夢設成夥伴，並和牠一起探索，取得1顆糖果
 
 RESOURCE ID: quest_feed_gym_pokemon_plural
-TEXT: Give {0} Berries to Pokémon at your team's Gym
+TEXT: 餵我方道館的寶可夢吃{0}個樹果
 
 RESOURCE ID: quest_feed_gym_pokemon_singular
-TEXT: Give a Berry to a Pokémon at your team's Gym
+TEXT: 餵我方道館的寶可夢吃1個樹果
 
 RESOURCE ID: quest_fight_type_grass_fairy_plural
 TEXT: 戰勝{0}隻草屬性或妖精屬性的寶可夢
@@ -1296,10 +1409,10 @@ RESOURCE ID: quest_mankey_evolve_b_singular
 TEXT: 讓1隻猴怪進化
 
 RESOURCE ID: quest_pin_postcard_plural
-TEXT: Pin {0} Postcards
+TEXT: 釘選{0}張明信片
 
 RESOURCE ID: quest_pin_postcard_singular
-TEXT: Pin a Postcard
+TEXT: 釘選1張明信片
 
 RESOURCE ID: quest_power_up_singular_electric
 TEXT: Power up an Electric-type Pokémon
@@ -1314,10 +1427,10 @@ RESOURCE ID: quest_primeape_evolve_b_singular
 TEXT: 讓1隻火爆猴進化
 
 RESOURCE ID: quest_raid_supereffective_charge_plural
-TEXT: Use {0} supereffective Charged Attacks in Raid Battles
+TEXT: 在團體戰中使出{0}次效果絕佳的特殊招式
 
 RESOURCE ID: quest_raid_supereffective_charge_singular
-TEXT: Use a supereffective Charged Attack in a Raid Battle
+TEXT: 在團體戰中使出1次效果絕佳的特殊招式
 
 RESOURCE ID: quest_sewaddle_catch_b
 TEXT: 捕捉{0}隻蟲寶包
@@ -1328,6 +1441,12 @@ TEXT: 讓{0}隻蟲寶包進化
 RESOURCE ID: quest_sewaddle_evolve_b_singular
 TEXT: 讓1隻蟲寶包進化
 
+RESOURCE ID: quest_special_dialogue_onboard_sr_0_7
+TEXT: 等你捉到寶可夢之後，你可以先把牠們暫時存放在寶可夢盒裡，也可以把牠們傳送到我的移動研究室。只要你把寶可夢傳送給我，我就會送你寶可夢的糖果做為回禮。
+
+RESOURCE ID: quest_special_dialogue_onboard_sr_4_6
+TEXT: 你可以在寶可夢盒的寶可夢詳細資訊畫面上查看如何讓寶可夢進化。強化寶可夢的條件也會記載在同一個畫面上。
+
 RESOURCE ID: quest_swadloon_evolve_b_plural
 TEXT: 讓{0}隻寶包繭進化
 
@@ -1335,10 +1454,10 @@ RESOURCE ID: quest_swadloon_evolve_b_singular
 TEXT: 讓1隻寶包繭進化
 
 RESOURCE ID: quest_tgr_supereffective_charge_plural
-TEXT: Use {0} supereffective Charged Attacks in Team GO Rocket battles
+TEXT: 在和GO火箭隊的對戰中使出{0}次效果絕佳的特殊招式
 
 RESOURCE ID: quest_tgr_supereffective_charge_singular
-TEXT: Use a supereffective Charged Attack in a Team GO Rocket battle
+TEXT: 在和GO火箭隊的對戰中使出1次效果絕佳的特殊招式
 
 RESOURCE ID: quest_title_mankey
 TEXT: 解開豬猴寶可夢之謎！
@@ -1356,49 +1475,49 @@ RESOURCE ID: quest_title_mankey_3
 TEXT: 解開豬猴寶可夢之謎！(4/4)
 
 RESOURCE ID: quest_title_player_progression
-TEXT: To the Next Level
+TEXT: 追求更高峰！
 
 RESOURCE ID: quest_title_player_progression_0
-TEXT: To the Next Level (1/14)
+TEXT: 追求更高峰！(1/14)
 
 RESOURCE ID: quest_title_player_progression_1
-TEXT: To the Next Level (2/14)
+TEXT: 追求更高峰！(2/14)
 
 RESOURCE ID: quest_title_player_progression_10
-TEXT: To the Next Level (11/14)
+TEXT: 追求更高峰！(11/14)
 
 RESOURCE ID: quest_title_player_progression_11
-TEXT: To the Next Level (12/14)
+TEXT: 追求更高峰！(12/14)
 
 RESOURCE ID: quest_title_player_progression_12
-TEXT: To the Next Level (13/14)
+TEXT: 追求更高峰！(13/14)
 
 RESOURCE ID: quest_title_player_progression_13
-TEXT: To the Next Level (14/14)
+TEXT: 追求更高峰！(14/14)
 
 RESOURCE ID: quest_title_player_progression_2
-TEXT: To the Next Level (3/14)
+TEXT: 追求更高峰！(3/14)
 
 RESOURCE ID: quest_title_player_progression_3
-TEXT: To the Next Level (4/14)
+TEXT: 追求更高峰！(4/14)
 
 RESOURCE ID: quest_title_player_progression_4
-TEXT: To the Next Level (5/14)
+TEXT: 追求更高峰！(5/14)
 
 RESOURCE ID: quest_title_player_progression_5
-TEXT: To the Next Level (6/14)
+TEXT: 追求更高峰！(6/14)
 
 RESOURCE ID: quest_title_player_progression_6
-TEXT: To the Next Level (7/14)
+TEXT: 追求更高峰！(7/14)
 
 RESOURCE ID: quest_title_player_progression_7
-TEXT: To the Next Level (8/14)
+TEXT: 追求更高峰！(8/14)
 
 RESOURCE ID: quest_title_player_progression_8
-TEXT: To the Next Level (9/14)
+TEXT: 追求更高峰！(9/14)
 
 RESOURCE ID: quest_title_player_progression_9
-TEXT: To the Next Level (10/14)
+TEXT: 追求更高峰！(10/14)
 
 RESOURCE ID: quest_title_season_16_first_partner_10_dialogue_1
 TEXT: 啊，%PLAYERNAME%。我連亞洛、克里夫和希爾拉他們3人的目擊情報都收到了。
@@ -1521,40 +1640,40 @@ RESOURCE ID: quest_title_sewaddle_3
 TEXT: 解開裁縫寶可夢之謎！(4/4)
 
 RESOURCE ID: quest_use_incubator_plural
-TEXT: Use {0} Incubators
+TEXT: 使用{0}個孵化器
 
 RESOURCE ID: quest_use_incubator_singular
-TEXT: Use an Incubator
+TEXT: 使用1個孵化器
 
 RESOURCE ID: quest_use_lucky_egg_plural
-TEXT: Use {0} Lucky Eggs
+TEXT: 使用{0}個幸運蛋
 
 RESOURCE ID: quest_use_lucky_egg_singular
-TEXT: Use a Lucky Egg
+TEXT: 使用1個幸運蛋
 
 RESOURCE ID: quest_use_lure_module_plural
-TEXT: Use {0} Lure Modules at PokéStops
+TEXT: 在寶可補給站使用{0}個誘餌模組
 
 RESOURCE ID: quest_use_lure_module_singular
-TEXT: Use a Lure Module at a PokéStop
+TEXT: 在寶可補給站使用1個誘餌模組
 
 RESOURCE ID: quest_use_potion_plural
-TEXT: Use any Potion on {0} Pokémon
+TEXT: 對寶可夢使用{0}次傷藥等回復類道具
 
 RESOURCE ID: quest_use_potion_singular
-TEXT: Use any Potion on a Pokémon
+TEXT: 對寶可夢使用1次傷藥等回復類道具
 
 RESOURCE ID: quest_use_revive_plural
-TEXT: Use any Revive on {0} Pokémon
+TEXT: 對寶可夢使用{0}次活力碎片等回復類道具
 
 RESOURCE ID: quest_use_revive_singular
-TEXT: Use any Revive on a Pokémon
+TEXT: 對寶可夢使用1次活力碎片等回復類道具
 
 RESOURCE ID: quest_use_star_piece_plural
-TEXT: Use {0} Star Pieces
+TEXT: 使用{0}個星星碎片
 
 RESOURCE ID: quest_use_star_piece_singular
-TEXT: Use a Star Piece
+TEXT: 使用1個星星碎片
 
 RESOURCE ID: raid_day_mega_mawile_event_name
 TEXT: 團體戰日：超級大嘴娃
@@ -1572,10 +1691,10 @@ RESOURCE ID: research_day_yamask_and_gyamask_tr_name_yamask
 TEXT: 哭哭面具特級限時調查
 
 RESOURCE ID: research_level_gated
-TEXT: Come back at level {0}!
+TEXT: 達到等級{0}後即可重新開始！
 
 RESOURCE ID: research_page_unlocked
-TEXT: New research page unlocked!
+TEXT: 新的調查頁面開放了！
 
 RESOURCE ID: shop_confirm_item_purchase
 TEXT: 你要用{0}寶可幣交換{1}嗎？
@@ -1688,15 +1807,15 @@ RESOURCE ID: strong_encounter_tutorial_title
 TEXT: 使用看看GO狩獵球吧！
 
 RESOURCE ID: team_picker_fainted_pokemon_in_team_warning
-TEXT: One or more Pokémon on your team have fainted.
+TEXT: 小隊內有瀕死的寶可夢
 
 RESOURCE ID: team_picker_stationed_pokemon_warning
-TEXT: Your current party cannot join the battle. One or more Pokémon in the party are placed at a Power Spot.
+TEXT: 小隊內有被指派到能量點的寶可夢，因此無法參加對戰。
 
 RESOURCE ID: text_rewards_key_gobattlenov2024
-TEXT: <b>Included rewards:</b>
-• 30,000 Stardust
-• 3 Rare Candies, 3 Rare Candy XL, 1 Star Piece
+TEXT: <b>可獲得的獎勵：</b>
+・30000星星沙子
+・3個神奇糖果、3個神奇糖果XL、1個星星碎片等
 
 RESOURCE ID: text_rewards_key_gowa24
 TEXT: <b>可獲得的獎勵：</b>
@@ -1781,25 +1900,28 @@ TEXT: 在本限時調查中，只要在當地時間2024年10月19日14:00～17:0
 在活動舉辦期間，可透過本限時調查遇見的寶可夢包含了異色寶可夢（機率會與完成活動的田野調查時可遇見的寶可夢相同）。
 
 RESOURCE ID: ticket_mankey
-TEXT: 特殊調查「解開豬猴寶可夢之謎！」的入場券在商店中上架
+TEXT: 特殊調查「解開豬猴寶可夢之謎！」的入場券在商店中上架了
 
 RESOURCE ID: ticket_sewaddle
 TEXT: 蟲寶包社群日特殊調查「解開裁縫寶可夢之謎！」的入場券在商店裡上架了
+
+RESOURCE ID: timed_research_complete
+TEXT: Timed Research Complete!
 
 RESOURCE ID: timed_research_special
 TEXT: 可透過簽到獲得限時調查
 
 RESOURCE ID: tr_gowa2024_global_daily_electric
-TEXT: GO Wild Area 2024: Electric
+TEXT: Beyond Wild Area: Electric Expert Timed Research
 
 RESOURCE ID: tr_gowa2024_global_daily_electric_1
-TEXT: GO Wild Area 2024: Electric (1/1)
+TEXT: Beyond Wild Area: Electric Expert Timed Research (1/1)
 
 RESOURCE ID: tr_gowa2024_global_daily_poison
-TEXT: GO Wild Area 2024: Poison
+TEXT: Beyond Wild Area: Poison Pro Timed Research
 
 RESOURCE ID: tr_gowa2024_global_daily_poison_1
-TEXT: GO Wild Area 2024: Poison (1/1)
+TEXT: Beyond Wild Area: Poison Pro Timed Research (1/1)
 
 RESOURCE ID: tr_gowa2024_global_day_1_free
 TEXT: Throw Wild
@@ -1862,7 +1984,7 @@ RESOURCE ID: vps_guardian_oob_toast
 TEXT: 目前所在地無法遊玩。請再靠近一點，以便放置寶可夢。
 
 RESOURCE ID: vps_localization_guidance_in_car
-TEXT: Move closer to the landmark.
+TEXT: 請靠近地標
 
 RESOURCE ID: vps_localization_instruction_body
 TEXT: 請將相機對準這張圖片中的地標。

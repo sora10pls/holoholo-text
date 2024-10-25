@@ -8,10 +8,10 @@ RESOURCE ID: ar_backgrounded_error_title_temp
 TEXT: Подключение было прервано
 
 RESOURCE ID: ar_not_supported_desc
-TEXT: Your device does not support AR.
+TEXT: Твое устройство не поддерживает AR.
 
 RESOURCE ID: ar_not_supported_title
-TEXT: Unsupported
+TEXT: Не поддерживается
 
 RESOURCE ID: avatar_hat_halloween2024
 TEXT: Цилиндр Вубат
@@ -196,6 +196,9 @@ TEXT: Собери до 10000 частиц макс в день в Зонах с
 RESOURCE ID: bonus_mp_cap_1600
 TEXT: Собери до 1600 частиц макс в день в Зонах силы и во время исследований
 
+RESOURCE ID: bonus_mp_cap_3200
+TEXT: Collect up to 3,200 Max Particles per day from Power Spots and exploration
+
 RESOURCE ID: bonus_mp_cap_4000
 TEXT: Собери до 4000 частиц макс в день в Зонах силы и во время исследований
 
@@ -227,7 +230,7 @@ RESOURCE ID: bonus_two_free_raid_passes
 TEXT: Получи бесплатно до 2 пропусков на рейды, покрутив фотодиски в Гимах
 
 RESOURCE ID: bread_battle_cheer_charge_blocked
-TEXT: Счётчик заряжен!
+TEXT: Счётчик заряжен! Попробуй подбодрить позже!
 
 RESOURCE ID: bread_battle_log_global_cheer_bread_meter
 TEXT: ТВОЁ ПОДБАДРИВАНИЕ ЗАРЯДИЛО СЧЁТЧИК ДРУГИХ КОМАНД!
@@ -236,10 +239,10 @@ RESOURCE ID: bread_battle_received_global_cheering_boost
 TEXT: КОМАНДЫ ПОДБАДРИВАЮТ ТЕБЯ!
 
 RESOURCE ID: bread_battle_resolve_error_description
-TEXT: Please try again.
+TEXT: Попробуй ещё раз.
 
 RESOURCE ID: bread_battle_resolve_error_title
-TEXT: Something went wrong.
+TEXT: Что-то пошло не так.
 
 RESOURCE ID: bread_battle_resolve_timed_out_title
 TEXT: Все Покемоны устали!
@@ -251,22 +254,22 @@ RESOURCE ID: bread_battle_widget_team_count
 TEXT: Команда {0}
 
 RESOURCE ID: bread_dough_battle_ftue_body_generic
-TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of at least 10 Trainers.
+TEXT: Это серьёзные сражения против Гигантамакс-Покемонов. Предлагаемый размер группы – не менее 10 Тренеров.
 
 RESOURCE ID: bread_dough_battle_ftue_body_specific
-TEXT: These are tough battles against Gigantamax Pokémon. We suggest a group size of {0} to {1} Trainers.
+TEXT: Это серьёзные сражения против Гигантамакс-Покемонов. Предлагаемый размер группы – от {0} до {1} Тренеров.
 
 RESOURCE ID: bread_dough_battle_ftue_title
-TEXT: Gigantamax Battles!
+TEXT: Гигантамакс-битвы!
 
 RESOURCE ID: bread_dough_lobby_count
-TEXT: Team {0} of {1}
+TEXT: Команда {0} из {1}
 
 RESOURCE ID: bread_dough_lobby_number
-TEXT: Team {0}
+TEXT: Команда {0}
 
 RESOURCE ID: bread_dough_lobby_trainer_list_title
-TEXT: {0} Trainers
+TEXT: Тренеров: {0}
 
 RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
 TEXT: 1 Тренер
@@ -329,8 +332,8 @@ RESOURCE ID: event_area_spawns
 TEXT: В окрестностях появляются дикие тематические Ивент-Покемоны!
 
 RESOURCE ID: event_datetime_range_key_gobattlenov2024
-TEXT: Nov 2, 12:00 a.m. –
-Nov 3, 11:59 p.m.
+TEXT: 12:00 2 ноября –
+23:59 3 ноября
 
 RESOURCE ID: event_datetime_range_key_gowa24
 TEXT: 23 ноября –
@@ -364,8 +367,14 @@ TEXT: 5 октября, 14:00 – 17:00
 RESOURCE ID: event_datetime_range_key_yamasktr24
 TEXT: 19 октября, 14:00 – 17:00
 
+RESOURCE ID: event_research_complete
+TEXT: Event Research Complete!
+
 RESOURCE ID: field_research_special_tasks
 TEXT: Задания полевых квестов за регистрацию уже доступны
+
+RESOURCE ID: for_bonus_challenge
+TEXT: (for Bonus Challenge)
 
 RESOURCE ID: form_aegislash_blade
 TEXT: Форма Лезвие
@@ -960,7 +969,7 @@ RESOURCE ID: fr_tag_meetup
 TEXT: Встреча сообщества
 
 RESOURCE ID: general1.ticket.2_halloween1tr24_title
-TEXT: Билет: Премиум-квест на время Комбинезон Морпеко
+TEXT: Билет: премиум-квест на время Комбинезон Морпеко
 
 RESOURCE ID: general1.ticket.2_halloween2tr24_title
 TEXT: Премиум-квест на время Костюмированная вечеринка
@@ -995,7 +1004,7 @@ RESOURCE ID: general1.ticket._monthlyticketnov24_title
 TEXT: Билет: Ежедневное вознаграждение: Покемонеты. Часть 3
 
 RESOURCE ID: general1.ticket_gobattlenov2024_title
-TEXT: GO Battle Weekend Premium Timed Research Ticket
+TEXT: Билет: премиум-квест на время Выходные сражений GO
 
 RESOURCE ID: general1.ticket_mankeycd24_title
 TEXT: Mankey Community Day Ticket
@@ -1003,218 +1012,224 @@ TEXT: Mankey Community Day Ticket
 RESOURCE ID: general1.ticket_sewaddlecd24_title
 TEXT: Билет: День сообщества Севаддл
 
+RESOURCE ID: general_player_guidelines
+TEXT: Руководство для игроков
+
 RESOURCE ID: get_ticket
 TEXT: ПОЛУЧИТЬ БИЛЕТ
 
+RESOURCE ID: gmax_max_battles
+TEXT: Гигантамакс-Покемоны появляются в битвах макс
+
 RESOURCE ID: go_battle_weekend_tr_name
-TEXT: GO Battle Weekend Premium Timed Research
+TEXT: Премиум-квест на время Выходные сражений GO
 
 RESOURCE ID: go_max_event_name
 TEXT: Гигантская мощь GO
 
 RESOURCE ID: go_wild_2024_global_sr_electric_00_01
-TEXT: I'm so amped you've decided to focus on mastering Electric-type Pokémon!
+TEXT: I’m amped you’ve decided to focus on mastering Electric-type Pokémon!
 
 RESOURCE ID: go_wild_2024_global_sr_electric_00_02
-TEXT: Speaking of, there's quite a surge of them in the vicinity. I wonder how strong of a current they could all make together!
+TEXT: As I said, there’s quite a surge of them in the vicinity. I wonder how strong of a current they could all make together!
 
 RESOURCE ID: go_wild_2024_global_sr_electric_00_03
-TEXT: Just thinking about that makes the hairs on my arm stand up. Or maybe that's just the static electricity in the air?
+TEXT: Just thinking about it makes the hairs on my arm stand up. Or maybe that’s just the static electricity in the air?
 
 RESOURCE ID: go_wild_2024_global_sr_electric_00_04
-TEXT: Let's go see these Pokémon in action! Chaaaaarge!
+TEXT: Let’s go see these Pokémon in action! Chaaaaarge!
 
 RESOURCE ID: go_wild_2024_global_sr_electric_01_01
-TEXT: You're wired for this %PLAYERNAME%! Now how about spending some quality time with your new friends?
+TEXT: You’re wired for this, %PLAYERNAME%! Now how about spending some quality time with your new friends?
 
 RESOURCE ID: go_wild_2024_global_sr_electric_01_02
-TEXT: Spark spends as much time as he can with his Pokemon. His instinct to understand how to bond with Electric-type Pokemon is always spot on!
+TEXT: Spark spends as much time as he can with his Pokémon. His instinct for bonding with Electric types is always spot on!
 
 RESOURCE ID: go_wild_2024_global_sr_electric_01_03
-TEXT: And remember--if you encounter mighty Pokémon out there, try using the GO Safari Balls just for that purpose!
+TEXT: And remember—if you encounter mighty Pokémon out there, try using GO Safari Balls!
 
 RESOURCE ID: go_wild_2024_global_sr_electric_02_01
-TEXT: Welcome back, %PLAYERNAME%! I'm sure your Electric-type Pokémon were ec-static to spend time with you.
+TEXT: Welcome back, %PLAYERNAME%! I’m sure your Electric-type pals were ec-static to spend time with you.
 
 RESOURCE ID: go_wild_2024_global_sr_electric_02_02
-TEXT: Did you get a chance to battle with them? Electric-type Pokémon are quite strong against Flying- and Water-types.
+TEXT: Did you get a chance to battle with them? Electric-type Pokémon are quite strong against Flying and Water types.
 
 RESOURCE ID: go_wild_2024_global_sr_electric_02_03
-TEXT: But do you know what they are weak against? Why don't you spend some more time with them and think on it?
+TEXT: But do you know what they’re weak against? Why don’t you spend some more time with them and think on it.
 
 RESOURCE ID: go_wild_2024_global_sr_electric_02_04
-TEXT: I can also corroborate your findings when you come back!
+TEXT: I can corroborate your findings when you come back!
 
 RESOURCE ID: go_wild_2024_global_sr_electric_03_01
-TEXT: Great job, Trainer! You're well plugged-in to your Electric-type Pokémon knowledge by now. Have you thought about what their weakness is?
+TEXT: Great job! You’re fully plugged in when it comes to Electric-type Pokémon! Have you thought about their weaknesses?
 
 RESOURCE ID: go_wild_2024_global_sr_electric_03_02
-TEXT: Here's a hint: That Golem you caught will be very effective against an Electric-type.
+TEXT: Here’s a hint: that Golem you caught will be very effective against an Electric type.
 
 RESOURCE ID: go_wild_2024_global_sr_electric_03_03
-TEXT: That's right! Electric-type Pokémon are weak against Ground-type Pokémon. You could say they zap all the energy from our high voltage friends.
+TEXT: That’s grounds for celebration—you’ve got it! Electric-type Pokémon are weak against Ground types. You could say they zap the energy from our high-voltage friends.
 
 RESOURCE ID: go_wild_2024_global_sr_electric_03_04
-TEXT: Why don't you roll out your Golem against some Electric-type Pokémon and see for yourself?
+TEXT: Why don’t you roll out your Golem against some Electric types and see for yourself?
 
 RESOURCE ID: go_wild_2024_global_sr_electric_04_01
-TEXT: Incredible! You're a shockstar.
+TEXT: Incredible! But that’s no shock.
 
 RESOURCE ID: go_wild_2024_global_sr_electric_04_02
-TEXT: You've proven your mastery as an Electric-type trainer and earned this badge. I couldn't be more proud.
+TEXT: As a memento of your Electric mastery, take this medal! I couldn’t be more proud.
 
 RESOURCE ID: go_wild_2024_global_sr_electric_04_03
 TEXT: Keep that spark alive, and it will continue to take you far.
 
 RESOURCE ID: go_wild_2024_global_sr_electric_04_04
-TEXT: With so many new Electric-type Pokémon by your side, I'm sure you'll keep each other amped up for years to come.
+TEXT: With so many new Electric-type Pokémon by your side, I’m sure you’ll keep each other amped up for years to come.
 
 RESOURCE ID: go_wild_2024_global_sr_electric_04_05
-TEXT: I've got just a few more tasks for you, %PLAYERNAME%. Let's finish strong!
+TEXT: Now, I’ve got just a few things left I could use your help with. Let’s finish strong!
 
 RESOURCE ID: go_wild_2024_global_sr_intro_00_01
-TEXT: Hey %PLAYERNAME%! Good to see you. How is your training going?
+TEXT: Hey, %PLAYERNAME%! Good to see you. How’s your training going?
 
 RESOURCE ID: go_wild_2024_global_sr_intro_00_02
-TEXT: With so much to learn, how do you know when you've mastered something?
+TEXT: I’ve been thinking. With all there is to learn, how does a person know when they’ve mastered something?
 
 RESOURCE ID: go_wild_2024_global_sr_intro_00_03
-TEXT: I have an idea, but did you notice anything interesting out there?
+TEXT: Just a little food for thought. Anyway, did you notice anything interesting out there?
 
 RESOURCE ID: go_wild_2024_global_sr_intro_00_04
-TEXT: That's right! There seem to be a high number of Electric- and Poison-type Pokémon appearing in the area.
+TEXT: I was struck by the high number of Electric- and Poison-type Pokémon buzzing and bubbling about.
 
 RESOURCE ID: go_wild_2024_global_sr_intro_00_05
-TEXT: Don't you think this would be a good chance to test your skills?
+TEXT: In fact, speaking of measuring mastery—this is an excellent opportunity!
 
 RESOURCE ID: go_wild_2024_global_sr_intro_00_branch
-TEXT: Remember when I asked about measuring mastery? Now is your chance to put your training to the test! Which path will you take to prove your prowess?
+TEXT: This is your chance to put your training to the test! Which path will you take to prove your prowess?
 
 RESOURCE ID: go_wild_2024_global_sr_poison_00_01
-TEXT: Alright! You've picked your poison with... Poison!
+TEXT: All right! You’ve picked your poison! Er, Poison type, that is.
 
 RESOURCE ID: go_wild_2024_global_sr_poison_00_02
-TEXT: Now your training is about to get more toxic. Err, in a fun and useful way!
+TEXT: They say you should avoid toxic people, but learning about Poison-type Pokémon is sure to be both fun AND useful!
 
 RESOURCE ID: go_wild_2024_global_sr_poison_00_03
-TEXT: Some Trainers may be wary and afraid of confronting Poison-types, but not you, %PLAYERNAME%!
+TEXT: A challenge you’re ready for, I have no doubt.
 
 RESOURCE ID: go_wild_2024_global_sr_poison_00_04
-TEXT: I'd like to collect as much data on the Poison-type Pokémon in the area. Are you up for the challenge?
+TEXT: Why don’t you start by collecting data on the Poison-type Pokémon in the area.
 
 RESOURCE ID: go_wild_2024_global_sr_poison_01_01
-TEXT: Just look at all the Poison-type Pokémon you've caught. Excellent snapshots, too!
+TEXT: Just look at all the Poison-type Pokémon you’ve caught. And what excellent snapshots!
 
 RESOURCE ID: go_wild_2024_global_sr_poison_01_02
-TEXT: I'm confident you could also master Pokémon photography.
+TEXT: I’m confident you could also master Pokémon photography. You should give it a shot!
 
 RESOURCE ID: go_wild_2024_global_sr_poison_01_03
-TEXT: Now that you've caught some Poison-type Pokémon, it's time to get to know them better!
+TEXT: Ahem. Now that you’ve caught some Poison-type Pokémon, it’s time to get to know them better.
 
 RESOURCE ID: go_wild_2024_global_sr_poison_01_04
-TEXT: Sharing some berries would be an effective way to build your friendship. Let me know how it goes!
+TEXT: Sharing some Berries is an effective way to build your friendship. Let me know how it goes!
 
 RESOURCE ID: go_wild_2024_global_sr_poison_02_01
 TEXT: Excellent work, %PLAYERNAME%! You and your Poison-type Pokémon look like great pals already.
 
 RESOURCE ID: go_wild_2024_global_sr_poison_02_02
-TEXT: Poison-type Pokemon are especially strong against Fairy- and Grass-type Pokémon, but do you know what their weakness is?
+TEXT: Poison types are especially strong against Fairy- and Grass-type Pokémon, but do you know what their weakness is?
 
 RESOURCE ID: go_wild_2024_global_sr_poison_02_03
-TEXT: Here's a hint: These Pokemon may "soil" a Poison-type Pokémon's victory!
+TEXT: Here’s a hint: these Pokémon may “soil” a Poison-type Pokémon’s victory!
 
 RESOURCE ID: go_wild_2024_global_sr_poison_02_04
-TEXT: Get it? Well, think on it a bit more, and I'll work on a better joke as well. You've got this!
+TEXT: Heh. You work on that, and I’ll work on getting some new material. You’ve got this!
 
 RESOURCE ID: go_wild_2024_global_sr_poison_03_01
-TEXT: Your Poison-type Pokémon are looking stronger than ever!
+TEXT: Venom...denim? No, that—ah! %PLAYERNAME%! I certainly wasn’t practicing my puns. Anyway, your Poison types are looking stronger than ever!
 
 RESOURCE ID: go_wild_2024_global_sr_poison_03_02
-TEXT: I wouldn't want to face off against your team. That is, unless I knew what they were weak against. Any ideas?
+TEXT: I wouldn’t want to face off against your team. That is, unless I knew what they were weak against. Any ideas?
 
 RESOURCE ID: go_wild_2024_global_sr_poison_03_03
-TEXT: Poison-type Pokémon are weak against Psychic-types as well as Ground-types, which is exactly what your Golem is!
+TEXT: Poison-type Pokémon are weak against both Psychic and Ground types, and your Golem has ground covered!
 
 RESOURCE ID: go_wild_2024_global_sr_poison_03_04
-TEXT: Why don't you take it out for a spin and see for yourself? Let's rock and roll!
+TEXT: Why don’t you take it out for a spin and see for yourself? Let’s rock and roll!
 
 RESOURCE ID: go_wild_2024_global_sr_poison_04_01
 TEXT: Phenomenal work as always, %PLAYERNAME%!
 
 RESOURCE ID: go_wild_2024_global_sr_poison_04_02
-TEXT: You've proven your mastery as a Poison-type trainer and earned this badge. I couldn't be more proud.
+TEXT: Please, take this medal as a token of your mastery of Poison types. I couldn’t be more proud.
 
 RESOURCE ID: go_wild_2024_global_sr_poison_04_03
-TEXT: Your skills are as potent as the Poison-type Pokémon you're training.
+TEXT: Your skills are as potent as the Poison-type Pokémon you’re training.
 
 RESOURCE ID: go_wild_2024_global_sr_poison_04_04
-TEXT: With your guidance, they'll be the most toxic Pokémon in the world. Err, again, in a good way!
+TEXT: With your guidance, they’ll be the bane of any Pokémon they battle.
 
 RESOURCE ID: go_wild_2024_global_sr_poison_04_05
-TEXT: Let's close out our research with a few more tasks. I know you can do it!
+TEXT: Now, I’ve got just a few more research items on the agenda. I know I can count on you!
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_00_01
-TEXT: Can you believe the surge of Electric-type Pokémon in the vicinity, %PLAYERNAME%?
+TEXT: Can you believe the surge of Electric-type Pokémon in the vicinity?
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_00_02
 TEXT: I wonder how strong of a current they could all make together!
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_00_03
-TEXT: Just thinking about that makes the hairs on my arm stand up. Or maybe that's just the static electricity in the air?
+TEXT: Just thinking about that makes the hairs on my arm stand up. Or maybe that’s the static electricity in the air?
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_00_04
-TEXT: Let's go see these Pokémon in action! Chaaaaarge!
+TEXT: Let’s go see these Pokémon in action! Chaaaaarge!
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_01_01
-TEXT: You're wired for this %PLAYERNAME%! Now how about spending some quality time with your new friends?
+TEXT: You’re wired for this, %PLAYERNAME%! Now how about spending some quality time with your new friends?
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_01_02
-TEXT: Spark spends as much time as he can with his Pokemon. His instinct to understand how to bond with Electric-type Pokemon is always spot on!
+TEXT: Spark spends as much time as he can with his Pokémon. His instinct for bonding with Electric types is always spot on!
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_01_03
-TEXT: And remember--if you encounter mighty Pokémon out there, try using the GO Safari Balls just for that purpose!
+TEXT: And remember—if you encounter mighty Pokémon out there, try using GO Safari Balls!
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_02_01
-TEXT: Welcome back, %PLAYERNAME%! I'm sure your Electric-type Pokémon were ec-static to spend time with you.
+TEXT: Welcome back, %PLAYERNAME%! I’m sure your Electric-type pals were ec-static to spend time with you.
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_02_02
-TEXT: Did you get a chance to battle with them? Electric-type Pokémon are quite strong against Flying- and Water-types.
+TEXT: Did you get a chance to battle with them? Electric-type Pokémon are quite strong against Flying and Water types.
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_02_03
-TEXT: But do you know what they are weak against? Why don't you spend some more time with them and think on it?
+TEXT: But do you know what they’re weak against? Why don’t you spend some more time with them and think on it.
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_02_04
-TEXT: I can also corroborate your findings when you come back!
+TEXT: I can corroborate your findings when you come back!
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_03_01
-TEXT: Great job, Trainer! You're well plugged-in to your Electric-type Pokémon knowledge by now. Have you thought about what their weakness is?
+TEXT: Great job! You’re fully plugged in when it comes to Electric-type Pokémon! Have you thought about their weaknesses?
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_03_02
-TEXT: Here's a hint: That Golem you caught will be very effective against an Electric-type.
+TEXT: Here’s a hint: that Golem you caught will be very effective against an Electric type.
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_03_03
-TEXT: That's right! Electric-type Pokémon are weak against Ground-type Pokémon. You could say they zap all the energy from our high voltage friends.
+TEXT: That’s grounds for celebration—you’ve got it! Electric-type Pokémon are weak against Ground types. You could say they zap the energy from our high-voltage friends.
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_03_04
-TEXT: Why don't you roll out your Golem against some Electric-type Pokémon and see for yourself?
+TEXT: Why don’t you roll out your Golem against some Electric types and see for yourself?
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_04_01
-TEXT: Incredible! You're a shockstar. It's always so thrilling to witness your progress, Trainer.
+TEXT: Incredible! Your progress is positively shocking, %PLAYERNAME%.
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_04_02
 TEXT: Keep that spark alive, and it will continue to take you far.
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_04_03
-TEXT: With so many new Electric-type Pokémon by your side, I'm sure you'll keep each other amped up for years to come.
+TEXT: With so many new Electric-type Pokémon by your side, I’m sure you’ll keep each other amped up for years to come.
 
 RESOURCE ID: go_wild_2024_irl_sr_electric_04_04
-TEXT: I've got just a few more tasks for you, %PLAYERNAME%. Let's finish strong!
+TEXT: I just have a few odds and ends left for you, %PLAYERNAME%. Let’s finish strong!
 
 RESOURCE ID: go_wild_2024_irl_sr_finale_00_01
-TEXT: You did it! I just knew you would master both Poison- and Electric-type Pokémon.
+TEXT: You did it! I just knew you’d master both Poison- and Electric-type Pokémon.
 
 RESOURCE ID: go_wild_2024_irl_sr_finale_00_02
-TEXT: It's incredible you've captured a Dynamax Toxtricity as well! Did you know that it has an electrical organ on its chest?
+TEXT: And you even caught a Dynamax Toxtricity—wow! Did you know that it has an electrical organ on its chest?
 
 RESOURCE ID: go_wild_2024_irl_sr_finale_00_03
 TEXT: While generating electricity, it fills its surroundings with what sounds like the strumming of a bass guitar.
@@ -1223,109 +1238,130 @@ RESOURCE ID: go_wild_2024_irl_sr_finale_00_04
 TEXT: Hardcore! Just like you, %PLAYERNAME%.
 
 RESOURCE ID: go_wild_2024_irl_sr_finale_00_05
-TEXT: And every rockstar needs their rest. You've earned it. Until next time!
+TEXT: Every rockstar needs their rest, though. You’ve earned it. Until next time!
 
 RESOURCE ID: go_wild_2024_irl_sr_intro_00_01
 TEXT: Today is the beginning of a great adventure for you, %PLAYERNAME%.
 
 RESOURCE ID: go_wild_2024_irl_sr_intro_00_02
-TEXT: You've no doubt noticed that there are a high number of Electric- and Poison-type Pokémon appearing in the area. Now is your chance to put your training to the test!
+TEXT: I’m sure you’ve noticed that there are oodles of Electric- and Poison-type Pokémon appearing in the area.
 
 RESOURCE ID: go_wild_2024_irl_sr_intro_00_03
-TEXT: It's no easy task, but I believe you have what it takes to master both. Are you ready?
+TEXT: It’s no easy task, but I believe you have what it takes to master both types—now’s your chance to put your training to the test!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_00_01
-TEXT: Alright! Your training is about to get more toxic. Err, in a fun and useful way!
+TEXT: All right! You’ve picked your poison! Er, Poison type, that is!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_00_02
-TEXT: Some Trainers may be wary and afraid of confronting Poison-types, but not you, %PLAYERNAME%!
+TEXT: Some Trainers might shy away from confronting Poison-type Pokémon, but not you, %PLAYERNAME%!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_00_03
-TEXT: I'd like to collect as much data on the Poison-type Pokémon in the area. Are you up for the challenge?
+TEXT: And so, with that in mind, I’d like you to collect data on the Poison types in the area—a challenge I’m sure you’re up for!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_00_04
-TEXT: Let's GO!
+TEXT: Let’s GO!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_01_01
-TEXT: Just look at all the Poison-type Pokémon you've caught. Excellent snapshots, too!
+TEXT: Just look at all the Poison-type Pokémon you’ve caught. And what excellent snapshots!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_01_02
-TEXT: I'm confident you could also master Pokémon photography.
+TEXT: I’m confident you could also master Pokémon photography. You should give it a shot!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_01_03
-TEXT: Now that you've caught some Poison-type Pokémon, it's time to get to know them better!
+TEXT: Ahem. Now that you’ve caught some Poison-type Pokémon, it’s time to get to know them better.
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_01_04
-TEXT: Sharing some berries would be an effective way to build your friendship. Let me know how it goes!
+TEXT: Sharing some Berries is an effective way to build your friendship. Let me know how it goes!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_02_01
 TEXT: Excellent work, %PLAYERNAME%! You and your Poison-type Pokémon look like great pals already.
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_02_02
-TEXT: Poison-type Pokemon are especially strong against Fairy- and Grass-type Pokémon, but do you know what their weakness is?
+TEXT: Poison types are especially strong against Fairy- and Grass-type Pokémon, but do you know what their weakness is?
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_02_03
-TEXT: Here's a hint: These Pokemon may "soil" a Poison-type Pokémon's victory!
+TEXT: Here’s a hint: these Pokémon may “soil” a Poison-type Pokémon’s victory!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_02_04
-TEXT: Get it? Well, think on it a bit more, and I'll work on a better joke as well. You've got this!
+TEXT: Heh. You work on that, and I’ll work on getting some new material. You’ve got this!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_03_01
-TEXT: Your Poison-type Pokémon are looking stronger than ever!
+TEXT: Venom...denim? No, that—ah! %PLAYERNAME%! I certainly wasn’t practicing my puns. Anyway, your Poison types are looking stronger than ever!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_03_02
-TEXT: I wouldn't want to face off against your team. That is, unless I knew what they were weak against. Any ideas?
+TEXT: I wouldn’t want to face off against your team. That is, unless I knew what they were weak against. Any ideas?
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_03_03
-TEXT: Poison-type Pokémon are weak against Psychic-types as well as Ground-types, which is exactly what your Golem is!
+TEXT: Poison-type Pokémon are weak against both Psychic and Ground types, and your Golem has ground covered!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_03_04
-TEXT: Why don't you take it out for a spin and see for yourself? Let's rock and roll!
+TEXT: Why don’t you take it out for a spin and see for yourself? Let’s rock and roll!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_04_01
 TEXT: Phenomenal work as always, %PLAYERNAME%!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_04_02
-TEXT: Your skills are as potent as the Poison-type Pokémon you're training!
+TEXT: Your skills are as potent as the Poison-type Pokémon you’re training!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_04_03
-TEXT: With your guidance, they'll be the most toxic Pokémon in the world. Err, again, in a good way!
+TEXT: With your guidance, they’ll be the most toxic Pokémon in the world. I mean, in a good way!
 
 RESOURCE ID: go_wild_2024_irl_sr_poison_04_04
-TEXT: Let's close out our research with a few more tasks. I know you can do it!
+TEXT: I just have a few more odds and ends I could use your help with. I know you can do it!
 
 RESOURCE ID: go_wild_2024_safari_ball_intro_00_01
-TEXT: %PLAYERNAME%, what impeccable timing!
+TEXT: What impeccable timing, %PLAYERNAME%!
 
 RESOURCE ID: go_wild_2024_safari_ball_intro_00_02
-TEXT: I have something exciting to show you. This is referred to as a GO Safari Ball.
+TEXT: I have something exciting to show you. This, my friend, is a GO Safari Ball.
 
 RESOURCE ID: go_wild_2024_safari_ball_intro_00_03
-TEXT: But unlike normal Pokeballs, the effectiveness can only last for a limited time so you'll need to use them before they expire.
+TEXT: Take note—they’re not like normal Poké Balls! They don’t last forever, so you need to use them before they disappear.
 
 RESOURCE ID: go_wild_2024_safari_ball_intro_00_04
-TEXT: This should be useful to catch exceptionally strong Pokemon. Try catching some Pokemon and report back your findings!
+TEXT: They should be useful if you come across any exceptionally strong Pokémon. Try them out and report back!
 
 RESOURCE ID: go_wild_2024_safari_ball_intro_01_01
 TEXT: Welcome back, %PLAYERNAME%! Did you find anything interesting?
 
 RESOURCE ID: go_wild_2024_safari_ball_intro_01_02
-TEXT: I happened to observe exceptionally strong Pokémon appearing!
+TEXT: And me? I’m glad you asked! I’ve spotted some unusually powerful Pokémon roaming about.
 
 RESOURCE ID: go_wild_2024_safari_ball_intro_01_03
-TEXT: These mighty Pokémon are appearing in their evolved forms, are larger and stronger than most other Pokémon of their species, and are more challenging to catch.
+TEXT: These mighty Pokémon are fully evolved, are larger and stronger than most other Pokémon of their species, and are more challenging to catch.
 
 RESOURCE ID: go_wild_2024_safari_ball_intro_01_04
-TEXT: If you can find some mighty Pokémon, your GO Safari Balls should be a big help in catching them.
+TEXT: If you can find some of these mighty Pokémon, GO Safari Balls should be a big help.
 
 RESOURCE ID: go_wild_2024_safari_ball_intro_01_05
-TEXT: Let's work together to investigate this! What a wild adventure!
+TEXT: Let’s work together to investigate. What a wild adventure this ought to be!
 
 RESOURCE ID: gowa
 TEXT: Нетронутые земли Pokémon GO
 
+RESOURCE ID: gowa2024
+TEXT: Pokémon GO Wild Area 2024
+
 RESOURCE ID: gowa_2024
 TEXT: Нетронутые земли Pokémon GO 2024
+
+RESOURCE ID: gowa_2024_all_sat
+TEXT: Pokémon GO Wild Area 2024: Saturday All-day
+
+RESOURCE ID: gowa_2024_all_sun
+TEXT: Pokémon GO Wild Area 2024: Sunday All-day
+
+RESOURCE ID: gowa_2024_all_weekend
+TEXT: Pokémon GO Wild Area 2024: Weekend All-day
+
+RESOURCE ID: gowa_2024_all_weekend_ticketed
+TEXT: Pokémon GO Wild Area 2024: Weekend All-day - Ticket
+
+RESOURCE ID: gowa_2024_beyond_electric
+TEXT: Beyond Wild Area: Electric Expert
+
+RESOURCE ID: gowa_2024_beyond_poison
+TEXT: Beyond Wild Area: Poison Pro
 
 RESOURCE ID: gowa_2024_content_hashtag
 TEXT: Публикуй фото с хэштегом #GOWildArea2024, а мы поделимся понравившимися нам снимками!
@@ -1342,14 +1378,53 @@ TEXT: Поймай этих Покемонов на территории Эле�
 RESOURCE ID: gowa_2024_habitat_global_electric
 TEXT: Проходят сейчас: Час типа Электро
 
+RESOURCE ID: gowa_2024_habitat_global_electric_description
+TEXT: Catch these Pokémon during Electric hours!
+
+RESOURCE ID: gowa_2024_habitat_global_electric_temp
+TEXT: Wild Area Collection Challenge: Electric
+
 RESOURCE ID: gowa_2024_habitat_global_poison
 TEXT: Проходят сейчас: Час типа Яд
+
+RESOURCE ID: gowa_2024_habitat_global_poison_description
+TEXT: Catch these Pokémon during Poison hours!
+
+RESOURCE ID: gowa_2024_habitat_global_poison_temp
+TEXT: Wild Area Collection Challenge: Poison
+
+RESOURCE ID: gowa_2024_habitat_irl_electric
+TEXT: Wild Area Collection Challenge: Electric
+
+RESOURCE ID: gowa_2024_habitat_irl_electric_description
+TEXT: Catch spawning Electric-type Pokémon!
+
+RESOURCE ID: gowa_2024_habitat_irl_poison
+TEXT: Wild Area Collection Challenge: Poison
+
+RESOURCE ID: gowa_2024_habitat_irl_poison_description
+TEXT: Catch spawning Poison-type Pokémon!
+
+RESOURCE ID: gowa_2024_habitat_leadup_electric
+TEXT: Into the Wild Collection Challenge: Electric
+
+RESOURCE ID: gowa_2024_habitat_leadup_electric_description
+TEXT: Catch spawning Electric-type Pokémon!
+
+RESOURCE ID: gowa_2024_habitat_leadup_poison
+TEXT: Into the Wild Collection Challenge: Poison
+
+RESOURCE ID: gowa_2024_habitat_leadup_poison_description
+TEXT: Catch spawning Poison-type Pokémon!
 
 RESOURCE ID: gowa_2024_habitat_poison
 TEXT: Яд
 
 RESOURCE ID: gowa_2024_habitat_poison_description
 TEXT: Поймай этих Покемонов на территории Яд!
+
+RESOURCE ID: gowa_2024_leadup
+TEXT: Into the Wild
 
 RESOURCE ID: gowa_2024_live_fukuoka_city
 TEXT: Нетронутые земли Pokémon GO: Фукуока – Город
@@ -1368,6 +1443,18 @@ TEXT: Выбери этот вариант, чтобы стать опытным
 
 RESOURCE ID: gowa_2024_quest_branch_poison_title
 TEXT: Яд
+
+RESOURCE ID: gowa_2024_sat
+TEXT: Pokémon GO Wild Area 2024: Saturday Event Hours
+
+RESOURCE ID: gowa_2024_sat_ticketed
+TEXT: Pokémon GO Wild Area 2024: Saturday Event Hours - Ticket
+
+RESOURCE ID: gowa_2024_sun
+TEXT: Pokémon GO Wild Area 2024: Sunday Event Hours
+
+RESOURCE ID: gowa_2024_sun_ticketed
+TEXT: Pokémon GO Wild Area 2024: Sunday Event Hours - Ticket
 
 RESOURCE ID: gym_general
 TEXT: Гим
@@ -1415,9 +1502,7 @@ RESOURCE ID: halloween_spiritomb_tr_name
 TEXT: Хэллоуин 2024: Испытание Спиритум
 
 RESOURCE ID: hint_desc_loc_network_err_body_key
-TEXT: Наведи камеру на место, которое изображено
- на фото с подсказкой, и медленно обойди вокруг него,
- чтобы снять его с разных ракурсов.
+TEXT: Наведи камеру на место, которое изображено на фото с подсказкой, и медленно обойди вокруг него, чтобы снять его с разных ракурсов.
 
 RESOURCE ID: hint_desc_loc_network_err_title_key
 TEXT: Что-то пошло не так...
@@ -1532,7 +1617,7 @@ RESOURCE ID: item_event_ticket_gray_details_mawileraidday
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальным бонусам 12 октября, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_pink_desc_gobattlenov2024
-TEXT: A ticket to access the GO Battle Weekend Premium Timed Research from Nov 2 at 12:00 a.m. to Nov 3, 2024 at 11:59 p.m. local time, wherever you are.
+TEXT: Билет, дающий доступ к премиум-квесту на время Выходные сражений GO с 12:00 2 ноября до 23:59 3 ноября 2024 по местному времени, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_pink_desc_mankeycd24
 TEXT: A ticket to access the Mankey Community Day Special Research starting November 10 at 2:00 p.m. local time, wherever you are.
@@ -1541,7 +1626,7 @@ RESOURCE ID: item_event_ticket_pink_desc_sewaddlecd24
 TEXT: Билет, дающий доступ к специальному квесту День сообщества Севаддл с 14:00 5 октября по местному времени, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_pink_details_gobattlenov2024
-TEXT: This ticket will automatically activate to give you access to the GO Battle Weekend Premium Timed Research, wherever you are.
+TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к премиум-квесту на время Выходные сражений GO 2 ноября, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_pink_details_mankeycd24
 TEXT: This ticket will automatically activate to give you access to the Mankey Community Day Special Research, Mankey Business, on November 10, wherever you are.
@@ -1577,10 +1662,10 @@ RESOURCE ID: item_wild_ball_premier_name
 TEXT: Сафари-Болл GO
 
 RESOURCE ID: limited_localization_nearby_hint_1
-TEXT: You are getting closer to the landmark!
+TEXT: Ты приближаешься к знаковому объекту!
 
 RESOURCE ID: limited_localization_progress_hint_1
-TEXT: Follow the sparkles to find the landmark.
+TEXT: Следуй за искорками, чтобы найти знаковый объект.
 
 RESOURCE ID: localization_progress_hint_1
 TEXT: Наведи камеру на знаковый объект,
@@ -1660,7 +1745,7 @@ RESOURCE ID: meetup_check_in_pokemon_description
 TEXT: Собираешься поймать много Покемонов в компании других Тренеров? Выбери этот вариант, чтобы получить квест на время, который поможет тебе с этой задачей.
 
 RESOURCE ID: meetup_check_in_raid
-TEXT: Рейд
+TEXT: Рейды
 
 RESOURCE ID: meetup_check_in_raid_description
 TEXT: Хочешь участвовать в рейдах с другими Тренерами? Выбери этот вариант, чтобы получить квест на время, который поможет тебе с этим.
@@ -1687,10 +1772,10 @@ RESOURCE ID: meetup_check_in_social_description
 TEXT: Хочешь пообщаться с другими Тренерами? Выбери этот вариант, чтобы получить квест на время, который поможет в достижении этой цели.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-22T00:08:34.156410+00:00 for ru-RU
-at SHA f8739d82904
-Pipeline 2706977, job 33129590
-Patch from: 0.335.0-SHA-9e20713c-RC2, 0.337.0-SHA-b4a38293-RC1
+TEXT: Built at 2024-10-25T00:53:56.246223+00:00 for ru-RU
+at SHA 9234b9f236f
+Pipeline 2721831, job 33327089
+Patch from: 0.335.1-SHA-0a6ebbca-RC1, 0.337.0-SHA-097f040b-RC2
 
 RESOURCE ID: mp_replenish.1_title
 TEXT: набор частиц макс ({0} ЧМ)
@@ -1750,7 +1835,7 @@ RESOURCE ID: pokedex_info_battle_tab_title
 TEXT: BATTLE
 
 RESOURCE ID: pokedex_info_caught_count
-TEXT: CAUGHT: {0}
+TEXT: CAUGHT
 
 RESOURCE ID: pokedex_info_caught_tab_title
 TEXT: CAUGHT
@@ -1777,7 +1862,7 @@ RESOURCE ID: pokedex_info_register_date
 TEXT: First registered date:
 
 RESOURCE ID: pokedex_info_seen_count
-TEXT: SEEN: {0}
+TEXT: SEEN
 
 RESOURCE ID: pokedex_info_unregistered
 TEXT: Not Registered
@@ -1817,7 +1902,7 @@ RESOURCE ID: pokemon_category_0819
 TEXT: Щекастый Покемон
 
 RESOURCE ID: pokemon_ibfc_desc_0877
-TEXT: Когда этот Покемон использует заряженную атаку, он преображается. В Злоголодном Режиме Колесо Ауры становится атакой типа Тёмный.
+TEXT: Этот Покемон преображается, когда использует заряженную атаку. В Злоголодном Режиме Колесо Ауры становится атакой типа Тёмный.
 
 RESOURCE ID: pokemon_ibfc_desc_header
 TEXT: Форма для битвы
@@ -1853,10 +1938,10 @@ RESOURCE ID: pokestop_general
 TEXT: Покестоп
 
 RESOURCE ID: quest_appraise_pokemon_plural
-TEXT: Appraise {0} Pokémon
+TEXT: Оцени Покемона ×{0}
 
 RESOURCE ID: quest_appraise_pokemon_singular
-TEXT: Appraise a Pokémon
+TEXT: Оцени Покемона
 
 RESOURCE ID: quest_branching_special_dialogue_1
 TEXT: Рад тебя видеть, %PLAYERNAME%! Нас ждут увлекательные исследования, но мне нужна твоя помощь.
@@ -1877,7 +1962,7 @@ RESOURCE ID: quest_buddy_affection_poison_singular
 TEXT: Заработай сердечко с Покемоном типа Яд в качестве приятеля
 
 RESOURCE ID: quest_catch_special_pidgey
-TEXT: Catch {0} Pidgey
+TEXT: Поймай Пиджи ×{0}
 
 RESOURCE ID: quest_catch_strong_plural
 TEXT: Поймай мощных Покемонов ×{0}
@@ -1898,10 +1983,10 @@ RESOURCE ID: quest_catch_wild_ball_singular
 TEXT: Поймай Покемона в Сафари-Болл GO
 
 RESOURCE ID: quest_choose_buddy_plural
-TEXT: Choose or Swap Buddy Pokémon {0} times
+TEXT: Выбери или поменяй Покемона-приятеля ×{0}
 
 RESOURCE ID: quest_choose_buddy_singular
-TEXT: Choose or Swap Buddy Pokémon
+TEXT: Выбери или поменяй Покемона-приятеля
 
 RESOURCE ID: quest_explore_buddy_electric
 TEXT: Заработай конфету Покемоном типа Электро в качестве приятеля
@@ -1910,10 +1995,10 @@ RESOURCE ID: quest_explore_buddy_poison
 TEXT: Заработай конфету с Покемоном типа Яд в качестве приятеля
 
 RESOURCE ID: quest_feed_gym_pokemon_plural
-TEXT: Give {0} Berries to Pokémon at your team's Gym
+TEXT: Покорми ягодой Покемона в Гиме твоей команды ×{0}
 
 RESOURCE ID: quest_feed_gym_pokemon_singular
-TEXT: Give a Berry to a Pokémon at your team's Gym
+TEXT: Покорми ягодой Покемона в Гиме твоей команды
 
 RESOURCE ID: quest_fight_type_grass_fairy_plural
 TEXT: Победи Покемонов типов Трава или Фея ×{0}
@@ -1946,10 +2031,10 @@ RESOURCE ID: quest_mankey_evolve_b_singular
 TEXT: Эволюционируй Манки
 
 RESOURCE ID: quest_pin_postcard_plural
-TEXT: Pin {0} Postcards
+TEXT: Добавь открытку ×{0}
 
 RESOURCE ID: quest_pin_postcard_singular
-TEXT: Pin a Postcard
+TEXT: Добавь открытку
 
 RESOURCE ID: quest_power_up_singular_electric
 TEXT: Усиль Покемона типа Электро
@@ -1964,10 +2049,10 @@ RESOURCE ID: quest_primeape_evolve_b_singular
 TEXT: Эволюционируй Праймейпа
 
 RESOURCE ID: quest_raid_supereffective_charge_plural
-TEXT: Use {0} supereffective Charged Attacks in Raid Battles
+TEXT: Используй суперэффективную заряженную атаку в рейде ×{0}
 
 RESOURCE ID: quest_raid_supereffective_charge_singular
-TEXT: Use a supereffective Charged Attack in a Raid Battle
+TEXT: Используй суперэффективную заряженную атаку в рейде
 
 RESOURCE ID: quest_sewaddle_catch_b
 TEXT: Поймай Севаддлов ×{0}
@@ -1985,10 +2070,10 @@ RESOURCE ID: quest_swadloon_evolve_b_singular
 TEXT: Эволюционируй Свадлуна
 
 RESOURCE ID: quest_tgr_supereffective_charge_plural
-TEXT: Use {0} supereffective Charged Attacks in Team GO Rocket battles
+TEXT: Используй суперэффективную заряженную атаку в битве с Командой Ракета GO ×{0}
 
 RESOURCE ID: quest_tgr_supereffective_charge_singular
-TEXT: Use a supereffective Charged Attack in a Team GO Rocket battle
+TEXT: Используй суперэффективную заряженную атаку в битве с Командой Ракета GO
 
 RESOURCE ID: quest_title_mankey
 TEXT: Проделки Манки
@@ -2006,49 +2091,49 @@ RESOURCE ID: quest_title_mankey_3
 TEXT: Проделки Манки (4/4)
 
 RESOURCE ID: quest_title_player_progression
-TEXT: To the Next Level
+TEXT: На новый уровень
 
 RESOURCE ID: quest_title_player_progression_0
-TEXT: To the Next Level (1/14)
+TEXT: На новый уровень (1/14)
 
 RESOURCE ID: quest_title_player_progression_1
-TEXT: To the Next Level (2/14)
+TEXT: На новый уровень (2/14)
 
 RESOURCE ID: quest_title_player_progression_10
-TEXT: To the Next Level (11/14)
+TEXT: На новый уровень (11/14)
 
 RESOURCE ID: quest_title_player_progression_11
-TEXT: To the Next Level (12/14)
+TEXT: На новый уровень (12/14)
 
 RESOURCE ID: quest_title_player_progression_12
-TEXT: To the Next Level (13/14)
+TEXT: На новый уровень (13/14)
 
 RESOURCE ID: quest_title_player_progression_13
-TEXT: To the Next Level (14/14)
+TEXT: На новый уровень (14/14)
 
 RESOURCE ID: quest_title_player_progression_2
-TEXT: To the Next Level (3/14)
+TEXT: На новый уровень (3/14)
 
 RESOURCE ID: quest_title_player_progression_3
-TEXT: To the Next Level (4/14)
+TEXT: На новый уровень (4/14)
 
 RESOURCE ID: quest_title_player_progression_4
-TEXT: To the Next Level (5/14)
+TEXT: На новый уровень (5/14)
 
 RESOURCE ID: quest_title_player_progression_5
-TEXT: To the Next Level (6/14)
+TEXT: На новый уровень (6/14)
 
 RESOURCE ID: quest_title_player_progression_6
-TEXT: To the Next Level (7/14)
+TEXT: На новый уровень (7/14)
 
 RESOURCE ID: quest_title_player_progression_7
-TEXT: To the Next Level (8/14)
+TEXT: На новый уровень (8/14)
 
 RESOURCE ID: quest_title_player_progression_8
-TEXT: To the Next Level (9/14)
+TEXT: На новый уровень (9/14)
 
 RESOURCE ID: quest_title_player_progression_9
-TEXT: To the Next Level (10/14)
+TEXT: На новый уровень (10/14)
 
 RESOURCE ID: quest_title_season_16_first_partner_10_dialogue_1
 TEXT: А, %PLAYERNAME%, у меня есть новости. В окрестностях видели лидеров Команды Ракета GO: Арло, Клиффа и Сиерру.
@@ -2171,46 +2256,61 @@ RESOURCE ID: quest_title_sewaddle_3
 TEXT: Осенний листопад (4/4)
 
 RESOURCE ID: quest_use_incubator_plural
-TEXT: Use {0} Incubators
+TEXT: Используй инкубатор ×{0}
 
 RESOURCE ID: quest_use_incubator_singular
-TEXT: Use an Incubator
+TEXT: Используй инкубатор
 
 RESOURCE ID: quest_use_lucky_egg_plural
-TEXT: Use {0} Lucky Eggs
+TEXT: Используй удачливое яйцо ×{0}
 
 RESOURCE ID: quest_use_lucky_egg_singular
-TEXT: Use a Lucky Egg
+TEXT: Используй удачливое яйцо
 
 RESOURCE ID: quest_use_lure_module_plural
-TEXT: Use {0} Lure Modules at PokéStops
+TEXT: Используй приманку на Покестопе ×{0}
 
 RESOURCE ID: quest_use_lure_module_singular
-TEXT: Use a Lure Module at a PokéStop
+TEXT: Используй приманку на Покестопе
 
 RESOURCE ID: quest_use_potion_plural
-TEXT: Use any Potion on {0} Pokémon
+TEXT: Используй любой эликсир на Покемоне ×{0}
 
 RESOURCE ID: quest_use_potion_singular
-TEXT: Use any Potion on a Pokémon
+TEXT: Используй любой эликсир на Покемоне
 
 RESOURCE ID: quest_use_revive_plural
-TEXT: Use any Revive on {0} Pokémon
+TEXT: Используй любое оживление на Покемоне ×{0}
 
 RESOURCE ID: quest_use_revive_singular
-TEXT: Use any Revive on a Pokémon
+TEXT: Используй любое оживление на Покемоне
 
 RESOURCE ID: quest_use_star_piece_plural
-TEXT: Use {0} Star Pieces
+TEXT: Используй осколок звезды ×{0}
 
 RESOURCE ID: quest_use_star_piece_singular
-TEXT: Use a Star Piece
+TEXT: Используй осколок звезды
 
 RESOURCE ID: raid_day_mega_mawile_event_name
 TEXT: Рейдовый день: Мега-Мавайл
 
 RESOURCE ID: reduced_hatch_party_play
 TEXT: Уменьшенное расстояние для вынашивания яиц при игре в команде
+
+RESOURCE ID: report_route_header_2_b
+TEXT: Этот маршрут нарушает <a href="player_guidelines_link_dsa">Руководство для игроков</a>, так как он включает:
+
+RESOURCE ID: report_route_issue_type_violation
+TEXT: Нарушение Руководства для игроков
+
+RESOURCE ID: report_route_issue_type_violation_b
+TEXT: Нарушение Руководства для игроков или Правил маршрутов
+
+RESOURCE ID: report_route_violation_form_header
+TEXT: Пожаловаться на этот маршрут за нарушение Руководства для игроков
+
+RESOURCE ID: report_route_violation_form_header_b
+TEXT: Пожаловаться на этот маршрут за нарушение Руководства для игроков или Правил маршрутов
 
 RESOURCE ID: research_day_yamask_and_gyamask_event_name
 TEXT: День исследований Ямаск и Галарский Ямаск
@@ -2222,10 +2322,92 @@ RESOURCE ID: research_day_yamask_and_gyamask_tr_name_yamask
 TEXT: Премиум-квест на время Ямаск
 
 RESOURCE ID: research_level_gated
-TEXT: Come back at level {0}!
+TEXT: Возвращайся на уровне {0}!
 
 RESOURCE ID: research_page_unlocked
-TEXT: New research page unlocked!
+TEXT: Разблокировано новое исследование!
+
+RESOURCE ID: route_enforcement_long_ban_context
+TEXT: Последующие нарушения могут привести к полной блокировке в Pokémon GO. Изучи <a href="player_guidelines_link_dsa">Руководства для игроков</a>, чтобы избежать нарушений в будущем.
+
+RESOURCE ID: route_enforcement_long_ban_description
+TEXT: Твой аккаунт Niantic был заблокирован для использования в Pokémon GO на срок до {0} лет по причине повторяющихся или серьёзных нарушений Руководства для игроков в отношении маршрутов.
+
+Последующие нарушения могут привести к полной блокировке аккаунта.
+
+RESOURCE ID: route_enforcement_long_ban_description_b
+TEXT: Твой аккаунт в Pokémon GO был заблокирован на срок до {0} лет по причине повторяющихся или серьёзных нарушений <a href="player_guidelines_link_dsa">Руководства для игроков</a>.
+
+Один или более из созданных тобой маршрутов нарушают следующие правила:
+
+RESOURCE ID: route_enforcement_long_ban_description_b_singular
+TEXT: Твой аккаунт в Pokémon GO был заблокирован на срок до {0} лет по причине повторяющихся или серьёзных нарушений <a href="player_guidelines_link_dsa">Руководства для игроков</a>.
+
+Один или более из созданных тобой маршрутов нарушают следующие правила:
+
+RESOURCE ID: route_enforcement_permanent_ban_description
+TEXT: Твой аккаунт Niantic был заблокирован в Pokémon GO по причине повторяющихся или серьёзных нарушений Руководства для игроков в отношении маршрутов.
+
+RESOURCE ID: route_enforcement_permanent_ban_description_b
+TEXT: Твой аккаунт в Pokémon GO был заблокирован по причине повторяющихся или серьёзных нарушений <a href="player_guidelines_link_dsa">Руководства для игроков</a>.
+
+Было установлено, что один или более из созданных тобой маршрутов нарушают следующие правила:
+
+RESOURCE ID: route_enforcement_permanent_ban_description_b_singular
+TEXT: Твой аккаунт в Pokémon GO был заблокирован по причине повторяющихся или серьёзных нарушений <a href="player_guidelines_link_dsa">Руководства для игроков</a>.
+
+Было установлено, что один или более из созданных тобой маршрутов нарушают следующие правила:
+
+RESOURCE ID: route_enforcement_suspension_context
+TEXT: Ты сможешь получить доступ к своему аккаунту Pokémon GO через {0} дней. Последующие нарушения могут привести к полной блокировке аккаунта в Pokémon GO. Изучи <a href="player_guidelines_link_dsa">Руководство для игроков</a>, чтобы избежать нарушений в будущем.
+
+RESOURCE ID: route_enforcement_suspension_context_singular
+TEXT: Ты сможешь получить доступ к своему аккаунту Pokémon GO через 1 день. Последующие нарушения могут привести к полной блокировке аккаунта в Pokémon GO. Изучи <a href="player_guidelines_link_dsa">Руководство для игроков</a>, чтобы избежать нарушений в будущем.
+
+RESOURCE ID: route_enforcement_suspension_description
+TEXT: Твой аккаунт Pokémon GO был приостановлен на {0} д. по причине повторяющихся или серьёзных нарушений Руководства для игроков в отношении маршрутов. Ты снова получишь доступ к своему аккаунту Pokémon GO через {1} д.
+
+Последующие нарушения могут привести к полной блокировке в Pokémon GO.
+
+RESOURCE ID: route_enforcement_suspension_description_b
+TEXT: Твой аккаунт Pokémon GO был приостановлен на {0} д. по причине повторяющихся или серьёзных нарушений <a href="player_guidelines_link_dsa">Руководства для игроков</a>.
+
+Было установлено, что один или более из созданных тобой маршрутов нарушают следующие правила:
+
+RESOURCE ID: route_enforcement_suspension_description_b_singular
+TEXT: Твой аккаунт Pokémon GO был приостановлен на {0} д. по причине повторяющихся или серьёзных нарушений <a href="player_guidelines_link_dsa">Руководства для игроков</a>.
+
+Было установлено, что один или более из созданных тобой маршрутов нарушают следующие правила:
+
+RESOURCE ID: route_enforcement_warning_button
+TEXT: РУКОВОДСТВО ДЛЯ ИГРОКОВ
+
+RESOURCE ID: route_enforcement_warning_context
+TEXT: Последующие нарушения могут привести к временной приостановке твоего аккаунта в Pokémon GO. Чтобы прохождение маршрутов было как можно более приятным для всех, следуй <a href="player_guidelines_link_dsa">Руководству для игроков</a>.
+
+RESOURCE ID: route_enforcement_warning_description_primary
+TEXT: Твой аккаунт Pokémon GO нарушил Руководство для игроков в отношении маршрутов.
+
+Последующие нарушения могут привести к временной приостановке или полной блокировке аккаунта в Pokémon GO.
+
+RESOURCE ID: route_enforcement_warning_description_primary_b
+TEXT: Напоминаем о необходимости следовать <a href="player_guidelines_link_dsa">Руководству для игроков</a> во время создания маршрутов.
+
+Один или более из созданных тобой маршрутов нарушают следующие правила:
+
+RESOURCE ID: route_enforcement_warning_description_primary_b_singular
+TEXT: Напоминаем о необходимости следовать <a href="player_guidelines_link_dsa">Руководству для игроков</a> во время создания маршрутов.
+
+Один или более из созданных тобой маршрутов нарушают следующие правила:
+
+RESOURCE ID: route_enforcement_warning_description_secondary
+TEXT: Изучи наше Руководство для игроков, чтобы избежать нарушений в будущем.
+
+RESOURCE ID: route_reported_result_description_primary_text
+TEXT: На твой маршрут была отправлена жалоба, потому что было нарушено <a href="player_guidelines_link_dsa">Руководство для игроков</a>. Было установлено, что название или описание твоего маршрута включает:
+
+RESOURCE ID: route_submission_result_reject_reasons_primary_text
+TEXT: Твой маршрут был отклонён, потому что было нарушено <a href="player_guidelines_link_dsa">Руководство для игроков</a>. Было установлено, что название или описание твоего маршрута включает:
 
 RESOURCE ID: spawn_mankey
 TEXT: Появляется больше диких Манки!
@@ -2344,15 +2526,18 @@ RESOURCE ID: strong_encounter_tutorial_title
 TEXT: Сафари-Боллы GO отлично подходят для поимки мощных Покемонов!
 
 RESOURCE ID: team_picker_fainted_pokemon_in_team_warning
-TEXT: One or more Pokémon on your team have fainted.
+TEXT: Один или более Покемонов твоей команды потеряли боевую способность.
+
+RESOURCE ID: team_picker_fainted_pokemon_warning
+TEXT: Твоя текущая команда не может присоединиться к битве. Сначала излечи своих Покемонов.
 
 RESOURCE ID: team_picker_stationed_pokemon_warning
-TEXT: Your current party cannot join the battle. One or more Pokémon in the party are placed at a Power Spot.
+TEXT: Твоя текущая команда не может присоединиться к битве. Один или более Покемонов команды размещены в Зоне силы.
 
 RESOURCE ID: text_rewards_key_gobattlenov2024
-TEXT: <b>Included rewards:</b>
-• 30,000 Stardust
-• 3 Rare Candies, 3 Rare Candy XL, 1 Star Piece
+TEXT: <b>Включает следующие награды:</b>
+• 30 000 звёздной пыли
+• 3 редкие конфеты, 3 редкие конфеты XL, 1 осколок звезды
 
 RESOURCE ID: text_rewards_key_gowa24
 TEXT: <b>Включает следующие награды:</b>
@@ -2443,6 +2628,9 @@ TEXT: Билет, дающий доступ к специальному кве�
 RESOURCE ID: ticket_sewaddle
 TEXT: Билет, дающий доступ к специальному квесту Осенний листопад, доступен в магазине
 
+RESOURCE ID: timed_research_complete
+TEXT: Timed Research Complete!
+
 RESOURCE ID: timed_research_special
 TEXT: Квест на время за регистрацию уже доступен
 
@@ -2522,7 +2710,7 @@ RESOURCE ID: vps_guardian_oob_toast
 TEXT: Ты находишься вне игровой зоны. Подойди ближе, чтобы разместить Покемона.
 
 RESOURCE ID: vps_localization_guidance_in_car
-TEXT: Move closer to the landmark.
+TEXT: Подойди ближе к знаковому объекту!
 
 RESOURCE ID: vps_localization_instruction_body
 TEXT: Наведи камеру на знаковый объект на фото!
