@@ -286,6 +286,9 @@ TEXT: Ya has colocado un Pokémon en este nodo energético.
 RESOURCE ID: bread_station_general
 TEXT: nodo energético
 
+RESOURCE ID: bundle.diademuertos.box.1_title
+TEXT: Pack Día de Muertos
+
 RESOURCE ID: campfire_check_in_reward_notification_toast
 TEXT: ¡Has recibido una recompensa por registrarte en un evento del programa de embajadores de la comunidad!
 
@@ -305,7 +308,7 @@ RESOURCE ID: encounter_exclamation_cp
 TEXT: (!)
 
 RESOURCE ID: encounter_score_catch_streak_daily
-TEXT: {0} Day Streak Bonus
+TEXT: Bonus de días seguidos: {0}
 
 RESOURCE ID: encounter_strong_wild_pokemon_appeared
 TEXT: ¡Ha aparecido un <b>{0}</b> formidable!
@@ -932,6 +935,9 @@ RESOURCE ID: hint_desc_ready_title_key
 TEXT: Busca el lugar de interés.
 ¡Está muy cerca!
 
+RESOURCE ID: iap_category_rewarded_spend
+TEXT: Camino a las recompensas
+
 RESOURCE ID: inapp_banner_desc
 TEXT: Obtén más información sobre el regalo especial de este mes, disponible con determinadas compras.
 
@@ -1080,6 +1086,42 @@ TEXT: Camina lentamente en torno al lugar de interés.
 RESOURCE ID: localization_success_hint
 TEXT: ¡Has encontrado el lugar de interés!
 
+RESOURCE ID: localized_month_10_key
+TEXT: octubre
+
+RESOURCE ID: localized_month_11_key
+TEXT: noviembre
+
+RESOURCE ID: localized_month_12_key
+TEXT: diciembre
+
+RESOURCE ID: localized_month_1_key
+TEXT: enero
+
+RESOURCE ID: localized_month_2_key
+TEXT: febrero
+
+RESOURCE ID: localized_month_3_key
+TEXT: marzo
+
+RESOURCE ID: localized_month_4_key
+TEXT: abril
+
+RESOURCE ID: localized_month_5_key
+TEXT: mayo
+
+RESOURCE ID: localized_month_6_key
+TEXT: junio
+
+RESOURCE ID: localized_month_7_key
+TEXT: julio
+
+RESOURCE ID: localized_month_8_key
+TEXT: agosto
+
+RESOURCE ID: localized_month_9_key
+TEXT: septiembre
+
 RESOURCE ID: location_space_limit_message
 TEXT: No hay suficiente espacio
 para ese Pokémon en este momento.
@@ -1157,10 +1199,10 @@ RESOURCE ID: meetup_check_in_social_description
 TEXT: ¿Te gustaría charlar y pasar el rato con otros Entrenadores? Escoge esta opción para recibir una investigación temporal que te ayudará con este objetivo.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-29T00:18:48.542435+00:00 for es-ES
-at SHA d5433b136a4
-Pipeline 2731772, job 33455688
-Patch from: 0.339.0-SHA-c09aa793-RC1, 0.335.2-SHA-cc653d79-RC1, 0.337.0-SHA-38eacb89-RC1
+TEXT: Built at 2024-10-30T00:20:28.258949+00:00 for es-ES
+at SHA 27f3476a223
+Pipeline 2735785, job 33511906
+Patch from: 0.337.0-SHA-097f040b-RC2, 0.335.1-SHA-0a6ebbca-RC1, 0.339.0-SHA-c09aa793-RC1
 
 RESOURCE ID: move_name_0464
 TEXT: Puño Furia
@@ -1686,6 +1728,74 @@ TEXT: ¡Vuelve cuando alcances el nivel {0}!
 
 RESOURCE ID: research_page_unlocked
 TEXT: ¡Nueva página de investigación desbloqueada!
+
+RESOURCE ID: reward_points_suffix_text_key
+TEXT: {0} puntos
+
+RESOURCE ID: rewarded_spend_all_levels_complete_desc
+TEXT: ¡Enhorabuena! ¡Has conseguido todas las recompensas por objetivos de este mes!
+
+RESOURCE ID: rewarded_spend_all_levels_complete_key
+TEXT: Todos los niveles completados
+
+RESOURCE ID: rewarded_spend_claimed
+TEXT: Completado
+
+RESOURCE ID: rewarded_spend_claimed_tier_level_header
+TEXT: Nivel {0}
+
+RESOURCE ID: rewarded_spend_current_progress_key
+TEXT: Progreso actual:
+
+RESOURCE ID: rewarded_spend_helpshift_desc
+TEXT: Camino a la recompensa es un programa mensual de recompensas en el que los Entrenadores pueden conseguir puntos de recompensa cada mes con compras válidas.* ¡Logra una cantidad determinada de puntos de recompensa para subir de nivel en Camino a la recompensa y desbloquear premios!
+
+1. Realiza una compra válida para conseguir puntos de recompensa.*
+2. Desbloquea recompensas obteniendo puntos de recompensa.
+3. Visita nuestro <a href="https://niantic.helpshift.com/">sitio web</a> para descubrir cómo canjear las recompensas desbloqueadas.**
+
+Cada Camino a la recompensa tiene una duración de un mes. Los puntos de recompensa y los niveles de Camino a la recompensa se reiniciarán el último día de cada mes a las 23:59 (UTC), ¡así que no te olvides de reclamar tus recompensas antes de que finalice el mes!**
+
+
+*Solo las compras con divisas del mundo real contarán para el progreso de Camino a la recompensa. Las transacciones con Pokémonedas no otorgarán puntos de recompensa.
+
+**Los puntos de recompensa expiran al final de cada mes. Incluso si un Entrenador canjea todas las recompensas, los puntos de recompensa no se podrán usar en el mes siguiente. Los Entrenadores que usen cuentas de menores no pueden participar en el programa Camino a la recompensa. Los puntos de recompensa no son dinero en efectivo o ninguna otra divisa y no se pueden transferir entre cuentas. La disponibilidad y las condiciones del programa Camino a la recompensa están sujetos a cambios.
+
+RESOURCE ID: rewarded_spend_helpshift_footer
+TEXT: Para obtener más información, visita el <a href="https://niantic.helpshift.com/">sitio web</a>.
+
+RESOURCE ID: rewarded_spend_helpshift_title
+TEXT: ¡Una nueva forma de conseguir recompensas!
+
+RESOURCE ID: rewarded_spend_iap_button_points_key
+TEXT: +{0}
+
+RESOURCE ID: rewarded_spend_in_progress
+TEXT: En progreso
+
+RESOURCE ID: rewarded_spend_monthly_reward_road_key
+TEXT: Camino a la recompensa de {0}
+
+RESOURCE ID: rewarded_spend_no_points_description
+TEXT: ¡Obtén puntos y gana recompensas!
+
+RESOURCE ID: rewarded_spend_not_available
+TEXT: Sin comenzar
+
+RESOURCE ID: rewarded_spend_points_header
+TEXT: {0}/{1} puntos
+
+RESOURCE ID: rewarded_spend_points_prefix_full
+TEXT: Puntos de recompensa: {0}
+
+RESOURCE ID: rewarded_spend_ready_to_claim
+TEXT: ¡Listo!
+
+RESOURCE ID: rewarded_spend_reset_timer_header
+TEXT: Reinicio en {0} días
+
+RESOURCE ID: rewarded_spend_reset_timer_last_day_header
+TEXT: <color=#FF6687FF>Reinicio en 1 día</color>
 
 RESOURCE ID: search_filter_help_url
 TEXT: https://niantic.helpshift.com/hc/faq/1486-searching-filtering-your-pokemon-inventory/

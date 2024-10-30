@@ -283,6 +283,9 @@ TEXT: Bu Güç Noktasına zaten bir Pokémon yerleştirdiniz.
 RESOURCE ID: bread_station_general
 TEXT: Güç Noktası
 
+RESOURCE ID: bundle.diademuertos.box.1_title
+TEXT: Ölüler Günü Kutusu
+
 RESOURCE ID: campfire_check_in_reward_notification_toast
 TEXT: Bir Topluluk Elçisi etkinliğine giriş yaptığınız için bir ödül kazandınız!
 
@@ -302,7 +305,7 @@ RESOURCE ID: encounter_exclamation_cp
 TEXT: !!!
 
 RESOURCE ID: encounter_score_catch_streak_daily
-TEXT: {0} Day Streak Bonus
+TEXT: {0} günlük seri bonusu
 
 RESOURCE ID: encounter_strong_wild_pokemon_appeared
 TEXT: Muazzam bir <b>{0}</b> belirdi!
@@ -929,6 +932,9 @@ RESOURCE ID: hint_desc_ready_title_key
 TEXT: Referans noktasını bulun.
 Çok yakınınızda!
 
+RESOURCE ID: iap_category_rewarded_spend
+TEXT: Ödül Yolu
+
 RESOURCE ID: inapp_banner_desc
 TEXT: Bu ayın belirli alışverişlerde geçerli özel hediyesi hakkındaki ayrıntılar burada.
 
@@ -1080,6 +1086,42 @@ TEXT: Referans noktasının etrafında yavaşça yürüyün.
 RESOURCE ID: localization_success_hint
 TEXT: Referans noktasını buldunuz!
 
+RESOURCE ID: localized_month_10_key
+TEXT: Ekim
+
+RESOURCE ID: localized_month_11_key
+TEXT: Kasım
+
+RESOURCE ID: localized_month_12_key
+TEXT: Aralık
+
+RESOURCE ID: localized_month_1_key
+TEXT: Ocak
+
+RESOURCE ID: localized_month_2_key
+TEXT: Şubat
+
+RESOURCE ID: localized_month_3_key
+TEXT: Mart
+
+RESOURCE ID: localized_month_4_key
+TEXT: Nisan
+
+RESOURCE ID: localized_month_5_key
+TEXT: Mayıs
+
+RESOURCE ID: localized_month_6_key
+TEXT: Haziran
+
+RESOURCE ID: localized_month_7_key
+TEXT: Temmuz
+
+RESOURCE ID: localized_month_8_key
+TEXT: Ağustos
+
+RESOURCE ID: localized_month_9_key
+TEXT: Eylül
+
 RESOURCE ID: location_space_limit_message
 TEXT: Şu anda bu Pokémon’a
 yetecek kadar yer yok.
@@ -1157,10 +1199,10 @@ RESOURCE ID: meetup_check_in_social_description
 TEXT: Diğer Eğitmenlerle birlikte vakit geçirip sohbet etmek mi istiyorsunuz? Bu hedefe ulaşmanızda size yardımcı olacak süreli araştırmayı almak için bu seçeneği seçin.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-29T00:18:48.542435+00:00 for tr-TR
-at SHA d5433b136a4
-Pipeline 2731772, job 33455688
-Patch from: 0.339.0-SHA-c09aa793-RC1, 0.335.2-SHA-cc653d79-RC1, 0.337.0-SHA-38eacb89-RC1
+TEXT: Built at 2024-10-30T00:20:28.258949+00:00 for tr-TR
+at SHA 27f3476a223
+Pipeline 2735785, job 33511906
+Patch from: 0.337.0-SHA-097f040b-RC2, 0.335.1-SHA-0a6ebbca-RC1, 0.339.0-SHA-c09aa793-RC1
 
 RESOURCE ID: move_name_0464
 TEXT: Öfke Yumruğu
@@ -1686,6 +1728,74 @@ TEXT: {0}. seviyede açılır!
 
 RESOURCE ID: research_page_unlocked
 TEXT: Yeni araştırma sayfasının kilidi açıldı!
+
+RESOURCE ID: reward_points_suffix_text_key
+TEXT: {0} puan
+
+RESOURCE ID: rewarded_spend_all_levels_complete_desc
+TEXT: Tebrikler! Bu ay alınabilecek tüm aşama ödüllerini aldınız!
+
+RESOURCE ID: rewarded_spend_all_levels_complete_key
+TEXT: Tüm seviyeler tamamlandı
+
+RESOURCE ID: rewarded_spend_claimed
+TEXT: Tamamlandı
+
+RESOURCE ID: rewarded_spend_claimed_tier_level_header
+TEXT: {0}. Seviye
+
+RESOURCE ID: rewarded_spend_current_progress_key
+TEXT: Mevcut ilerleme:
+
+RESOURCE ID: rewarded_spend_helpshift_desc
+TEXT: Ödül Yolu, Eğitmenlerin belirli alışverişlerinden ödül puanı kazanabilecekleri aylık bir ödül programıdır.* Ödül puanı kazanarak Ödül Yolu seviyenizi artırıp ödüllerin kilidini açın!
+
+1. Ödül puanı kazanabilmek için bu program kapsamına giren bir alışveriş yapın.*
+2. Ödül puanı kazanarak ödüllerin kilidini açın.
+3. Kilidi açılan ödüllerin nasıl alınabileceğini <a href="https://niantic.helpshift.com/">internet sitemizden</a> öğrenebilirsiniz.**
+
+Her bir Ödül Yolu bir ay sürer. Ödül puanları ve Ödül Yolu seviyeleri her ayın son günü GMT 23:59’da yenilenir. Ay sonu gelmeden ödüllerinizi almayı unutmayın!**
+
+
+*Yalnızca gerçek dünya parasıyla yapılmış alışverişler Ödül Yolu ilerlemesi sağlar. PokéPara ile yapılan alışverişlerden ödül puanı kazanamazsınız.
+
+**Ödül puanları ay sonunda geçerliliğini yitirir. Bir Eğitmen tüm ödülleri alsa bile ödül puanları aydan aya devamlılık göstermez. Çocuk hesabı kullanan Eğitmenler Ödül Yolu programına katılamaz. Ödül puanlarının hiçbir para biriminde nakit değeri bulunmaz. Ödül puanları hesaplar arasında gönderilemez. Ödül Yolu programının geçerliliği ve koşulları değişime tabidir.
+
+RESOURCE ID: rewarded_spend_helpshift_footer
+TEXT: Ayrıntıları <a href="https://niantic.helpshift.com/">internet sitemizden</a> öğrenebilirsiniz.
+
+RESOURCE ID: rewarded_spend_helpshift_title
+TEXT: Ödül almanın yepyeni bir yolu!
+
+RESOURCE ID: rewarded_spend_iap_button_points_key
+TEXT: + {0}
+
+RESOURCE ID: rewarded_spend_in_progress
+TEXT: Devam ediyor
+
+RESOURCE ID: rewarded_spend_monthly_reward_road_key
+TEXT: {0} Ödül Yolu
+
+RESOURCE ID: rewarded_spend_no_points_description
+TEXT: Puanları toplayın, ödülleri kazanın!
+
+RESOURCE ID: rewarded_spend_not_available
+TEXT: Başlanmadı
+
+RESOURCE ID: rewarded_spend_points_header
+TEXT: {0}/{1} puan
+
+RESOURCE ID: rewarded_spend_points_prefix_full
+TEXT: Ödül puanı ×{0}
+
+RESOURCE ID: rewarded_spend_ready_to_claim
+TEXT: Şimdi alabilirsiniz!
+
+RESOURCE ID: rewarded_spend_reset_timer_header
+TEXT: {0} gün içinde yenilenir
+
+RESOURCE ID: rewarded_spend_reset_timer_last_day_header
+TEXT: <color=#FF6687FF>1 gün içinde yenilenir</color>
 
 RESOURCE ID: search_filter_help_url
 TEXT: https://niantic.helpshift.com/hc/faq/1486-searching-filtering-your-pokemon-inventory/

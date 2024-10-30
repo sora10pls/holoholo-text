@@ -283,6 +283,9 @@ TEXT: Tu as déjà placé un Pokémon à cette Source d’Énergie.
 RESOURCE ID: bread_station_general
 TEXT: Source d’Énergie
 
+RESOURCE ID: bundle.diademuertos.box.1_title
+TEXT: Boîte Día de Muertos
+
 RESOURCE ID: campfire_check_in_reward_notification_toast
 TEXT: Tu as reçu une récompense pour avoir participé à un évènement Ambassadeur de communauté !
 
@@ -935,6 +938,9 @@ RESOURCE ID: hint_desc_ready_title_key
 TEXT: Trouve l’élément repère.
 Il est tout près !
 
+RESOURCE ID: iap_category_rewarded_spend
+TEXT: Route de récompenses
+
 RESOURCE ID: inapp_banner_desc
 TEXT: Apprends-en plus sur le cadeau spécial du mois disponible avec l’achat spécifié.
 
@@ -1083,6 +1089,42 @@ TEXT: Marche lentement autour de l’élément repère.
 RESOURCE ID: localization_success_hint
 TEXT: Tu as trouvé l’élément repère !
 
+RESOURCE ID: localized_month_10_key
+TEXT: Octobre
+
+RESOURCE ID: localized_month_11_key
+TEXT: Novembre
+
+RESOURCE ID: localized_month_12_key
+TEXT: Décembre
+
+RESOURCE ID: localized_month_1_key
+TEXT: Janvier
+
+RESOURCE ID: localized_month_2_key
+TEXT: Février
+
+RESOURCE ID: localized_month_3_key
+TEXT: Mars
+
+RESOURCE ID: localized_month_4_key
+TEXT: Avril
+
+RESOURCE ID: localized_month_5_key
+TEXT: Mai
+
+RESOURCE ID: localized_month_6_key
+TEXT: Juin
+
+RESOURCE ID: localized_month_7_key
+TEXT: Juillet
+
+RESOURCE ID: localized_month_8_key
+TEXT: Août
+
+RESOURCE ID: localized_month_9_key
+TEXT: Septembre
+
 RESOURCE ID: location_space_limit_message
 TEXT: Il n’y a pas assez de place pour
 ce Pokémon pour l’instant.
@@ -1160,10 +1202,10 @@ RESOURCE ID: meetup_check_in_social_description
 TEXT: Tu veux discuter et faire la connaissance d’autres Dresseurs et Dresseuses ? Choisis cette option pour recevoir une Étude ponctuelle qui t’aidera dans ce sens.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-29T00:18:48.542435+00:00 for fr-FR
-at SHA d5433b136a4
-Pipeline 2731772, job 33455688
-Patch from: 0.339.0-SHA-c09aa793-RC1, 0.335.2-SHA-cc653d79-RC1, 0.337.0-SHA-38eacb89-RC1
+TEXT: Built at 2024-10-30T00:20:28.258949+00:00 for fr-FR
+at SHA 27f3476a223
+Pipeline 2735785, job 33511906
+Patch from: 0.337.0-SHA-097f040b-RC2, 0.335.1-SHA-0a6ebbca-RC1, 0.339.0-SHA-c09aa793-RC1
 
 RESOURCE ID: move_name_0464
 TEXT: Poing de Colère
@@ -1680,6 +1722,74 @@ TEXT: Reviens à partir du niveau {0} !
 
 RESOURCE ID: research_page_unlocked
 TEXT: Nouvelle page d’Étude débloquée !
+
+RESOURCE ID: reward_points_suffix_text_key
+TEXT: {0} points
+
+RESOURCE ID: rewarded_spend_all_levels_complete_desc
+TEXT: Félicitations ! Tu as récupéré toutes les récompenses d’objectif offertes ce mois !
+
+RESOURCE ID: rewarded_spend_all_levels_complete_key
+TEXT: Tous les niveaux sont terminés
+
+RESOURCE ID: rewarded_spend_claimed
+TEXT: Terminé
+
+RESOURCE ID: rewarded_spend_claimed_tier_level_header
+TEXT: Niveau {0}
+
+RESOURCE ID: rewarded_spend_current_progress_key
+TEXT: Progression actuelle :
+
+RESOURCE ID: rewarded_spend_helpshift_desc
+TEXT: La Route de récompenses est un programme de récompenses mensuel durant lequel les Dresseurs et Dresseuses peuvent gagner des Points de récompenses contre achat d’un produit éligible chaque mois.* Gagne une certaine quantité de Points de récompenses pour passer au niveau suivant de la Route de récompenses et déverrouiller des récompenses !
+
+1. Effectue un achat d’un produit éligible pour gagner des Points de récompenses.*
+2. Déverrouille des récompenses en gagnant des Points de récompenses.
+3. Consulte notre <a href="https://niantic.helpshift.com/hc/fr/">site Web</a> pour savoir comment récupérer les récompenses déverrouillées.**
+
+Chaque Route de récompenses dure un mois calendaire. Les Points de récompenses et les niveaux de Route de récompenses seront réinitialisés le dernier jour du mois à 23h59 (UTC), donc pense à récupérer tes récompenses avant la fin du mois !**
+
+
+*Seuls les achats faits avec de l’argent réel seront pris en compte dans la progression de la Route de récompenses. Les échanges faits avec des PokéPièces ne donneront pas droit à des Points de récompenses.
+
+**Les Points de Récompense expirent à la fin du mois calendaire. Même si un Dresseur ou une Dresseuse récupère chaque récompense, les Points de récompenses ne seront pas reportés d’un mois à l’autre. Les Dresseurs et Dresseuses utilisant des comptes enfant ne sont pas autorisés à participer au programme Route de récompenses. Les Points de récompenses ne sont ni de l’argent ni des devises, et ne sont pas transférables entre les comptes. La disponibilité et les conditions du programme Route de récompenses sont susceptibles d’être modifiées.
+
+RESOURCE ID: rewarded_spend_helpshift_footer
+TEXT: Tous les détails sont sur le <a href="https://niantic.helpshift.com/hc/fr/">site Web</a>.
+
+RESOURCE ID: rewarded_spend_helpshift_title
+TEXT: Une nouvelle façon d’obtenir des récompenses !
+
+RESOURCE ID: rewarded_spend_iap_button_points_key
+TEXT: + {0}
+
+RESOURCE ID: rewarded_spend_in_progress
+TEXT: En cours
+
+RESOURCE ID: rewarded_spend_monthly_reward_road_key
+TEXT: Route de récompenses : {0}
+
+RESOURCE ID: rewarded_spend_no_points_description
+TEXT: Obtiens des points et gagne des récompenses !
+
+RESOURCE ID: rewarded_spend_not_available
+TEXT: Non commencé
+
+RESOURCE ID: rewarded_spend_points_header
+TEXT: {0}/{1} points
+
+RESOURCE ID: rewarded_spend_points_prefix_full
+TEXT: Points de récompenses ×{0}
+
+RESOURCE ID: rewarded_spend_ready_to_claim
+TEXT: Prêtes à être récupérées
+
+RESOURCE ID: rewarded_spend_reset_timer_header
+TEXT: Réinitialisation dans {0} jours
+
+RESOURCE ID: rewarded_spend_reset_timer_last_day_header
+TEXT: <color=#FF6687FF>Réinitialisation dans 1 jour</color>
 
 RESOURCE ID: search_filter_help_url
 TEXT: https://niantic.helpshift.com/hc/faq/1486-searching-filtering-your-pokemon-inventory/

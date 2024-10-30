@@ -286,6 +286,9 @@ TEXT: Тебе уже удалось разместить Покемона в э
 RESOURCE ID: bread_station_general
 TEXT: Зона силы
 
+RESOURCE ID: bundle.diademuertos.box.1_title
+TEXT: Коробка День мёртвых
+
 RESOURCE ID: campfire_check_in_reward_notification_toast
 TEXT: Получена награда за регистрацию на событие амбассадора сообщества!
 
@@ -1556,6 +1559,9 @@ RESOURCE ID: hint_desc_ready_title_key
 TEXT: Найди знаковый объект.
 Он близко!
 
+RESOURCE ID: iap_category_rewarded_spend
+TEXT: Дорога наград
+
 RESOURCE ID: inapp_banner_desc
 TEXT: Узнай больше о специальном подарке этого месяца, который можно получить за определённые покупки.
 
@@ -1710,6 +1716,42 @@ TEXT: Медленно обойди вокруг знакового места.
 RESOURCE ID: localization_success_hint
 TEXT: Тебе удалось найти знаковое место!
 
+RESOURCE ID: localized_month_10_key
+TEXT: октябрь
+
+RESOURCE ID: localized_month_11_key
+TEXT: ноябрь
+
+RESOURCE ID: localized_month_12_key
+TEXT: декабрь
+
+RESOURCE ID: localized_month_1_key
+TEXT: январь
+
+RESOURCE ID: localized_month_2_key
+TEXT: февраль
+
+RESOURCE ID: localized_month_3_key
+TEXT: март
+
+RESOURCE ID: localized_month_4_key
+TEXT: апрель
+
+RESOURCE ID: localized_month_5_key
+TEXT: май
+
+RESOURCE ID: localized_month_6_key
+TEXT: июнь
+
+RESOURCE ID: localized_month_7_key
+TEXT: июль
+
+RESOURCE ID: localized_month_8_key
+TEXT: август
+
+RESOURCE ID: localized_month_9_key
+TEXT: сентябрь
+
 RESOURCE ID: location_space_limit_message
 TEXT: Для этого Покемона сейчас
 не хватает места.
@@ -1808,10 +1850,10 @@ RESOURCE ID: meetup_check_in_social_description
 TEXT: Хочешь пообщаться с другими Тренерами? Выбери этот вариант, чтобы получить квест на время, который поможет в достижении этой цели.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-10-29T00:18:48.542435+00:00 for ru-RU
-at SHA d5433b136a4
-Pipeline 2731772, job 33455688
-Patch from: 0.339.0-SHA-c09aa793-RC1, 0.335.2-SHA-cc653d79-RC1, 0.337.0-SHA-38eacb89-RC1
+TEXT: Built at 2024-10-30T00:20:28.258949+00:00 for ru-RU
+at SHA 27f3476a223
+Pipeline 2735785, job 33511906
+Patch from: 0.337.0-SHA-097f040b-RC2, 0.335.1-SHA-0a6ebbca-RC1, 0.339.0-SHA-c09aa793-RC1
 
 RESOURCE ID: move_name_0464
 TEXT: Кулак Ярости
@@ -2386,6 +2428,74 @@ TEXT: Возвращайся на уровне {0}!
 
 RESOURCE ID: research_page_unlocked
 TEXT: Разблокировано новое исследование!
+
+RESOURCE ID: reward_points_suffix_text_key
+TEXT: Очки: {0}
+
+RESOURCE ID: rewarded_spend_all_levels_complete_desc
+TEXT: Поздравляем! Все награды за достижение цели, доступные в этом месяце, были получены.
+
+RESOURCE ID: rewarded_spend_all_levels_complete_key
+TEXT: Все уровни достигнуты
+
+RESOURCE ID: rewarded_spend_claimed
+TEXT: Достигнуто
+
+RESOURCE ID: rewarded_spend_claimed_tier_level_header
+TEXT: Уровень {0}
+
+RESOURCE ID: rewarded_spend_current_progress_key
+TEXT: Текущий прогресс:
+
+RESOURCE ID: rewarded_spend_helpshift_desc
+TEXT: Дорога наград – это ежемесячная программа вознаграждений, в рамках которой Тренеры могут каждый месяц зарабатывать призовые очки за соответствующие критериям покупки.* Заработай определённое количество призовых очков, чтобы продвинуться вперёд по Дороге наград и разблокировать награды!
+
+1. Соверши соответствующую критериям покупку, чтобы заработать призовые очки.*
+2. Разблокируй награды, зарабатывая призовые очки.
+3. Посети <a href="https://https://niantic.helpshift.com/hc/ru/">сайт</a>, чтобы узнать, как получить разблокированные награды.**
+
+Каждая Дорога наград длится один календарный месяц. Призовые очки и уровни Дороги наград будут сброшены в последний день месяца в 23:59 (UTC), поэтому не забудь получить свои награды до конца месяца!**
+
+
+*Только покупки, совершённые за реальные деньги, учитываются в прогрессе Дороги наград. Обмены, совершённые с использованием Покемонет, не дают призовых очков.
+
+**Срок действия призовых очков истекает в конце календарного месяца. Даже если Тренер получит все награды, призовые очки не будут перенесены из одного месяца в другой. Тренеры с учётной записью ребёнка, не могут участвовать в программе Дорога наград. Призовые очки не являются наличными средствами или какой-либо другой валютой и не подлежат передаче между учётными записями. Доступность и условия программы Дорога наград подлежат изменению.
+
+RESOURCE ID: rewarded_spend_helpshift_footer
+TEXT: Чтобы узнать больше, посети <a href="https://niantic.helpshift.com/hc/ru/">этот сайт</a>.
+
+RESOURCE ID: rewarded_spend_helpshift_title
+TEXT: Новый способ получать награды!
+
+RESOURCE ID: rewarded_spend_iap_button_points_key
+TEXT: + {0}
+
+RESOURCE ID: rewarded_spend_in_progress
+TEXT: В процессе
+
+RESOURCE ID: rewarded_spend_monthly_reward_road_key
+TEXT: Дорога наград: {0}
+
+RESOURCE ID: rewarded_spend_no_points_description
+TEXT: Зарабатывай очки и получай награды!
+
+RESOURCE ID: rewarded_spend_not_available
+TEXT: Не начато
+
+RESOURCE ID: rewarded_spend_points_header
+TEXT: Очки {0}/{1}
+
+RESOURCE ID: rewarded_spend_points_prefix_full
+TEXT: Призовые очки ×{0}
+
+RESOURCE ID: rewarded_spend_ready_to_claim
+TEXT: Можно получить!
+
+RESOURCE ID: rewarded_spend_reset_timer_header
+TEXT: Сброс через {0} дн.
+
+RESOURCE ID: rewarded_spend_reset_timer_last_day_header
+TEXT: <color=#FF6687FF>Сброс через 1 день</color>
 
 RESOURCE ID: route_enforcement_long_ban_context
 TEXT: Последующие нарушения могут привести к полной блокировке в Pokémon GO. Изучи <a href="player_guidelines_link_dsa">Руководства для игроков</a>, чтобы избежать нарушений в будущем.
