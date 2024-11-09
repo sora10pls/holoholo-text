@@ -7,6 +7,9 @@ TEXT: Il tuo dispositivo non supporta la modalità AR.
 RESOURCE ID: ar_not_supported_title
 TEXT: Non supportato
 
+RESOURCE ID: attack_power_increased
+TEXT: Max Mushroom was used. Attacks are boosted!
+
 RESOURCE ID: avatar_hat_halloween2024
 TEXT: cilindro Woobat
 
@@ -274,6 +277,9 @@ TEXT: Queste sono lotte impegnative contro Pokémon Gigamax. Ti suggeriamo di pa
 RESOURCE ID: bread_dough_battle_ftue_title
 TEXT: Lotte G-Max!
 
+RESOURCE ID: bread_dough_lobby_active_items_total
+TEXT: + {0} Max Mushrooms
+
 RESOURCE ID: bread_dough_lobby_count
 TEXT: Squadra {0} di {1}
 
@@ -285,6 +291,15 @@ TEXT: {0} Allenatori
 
 RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
 TEXT: 1 Allenatore
+
+RESOURCE ID: bread_max_boost_ftue_activation_message
+TEXT: You can try this item for 5 minutes. This item normally lasts 30 minutes.
+
+RESOURCE ID: bread_max_boost_ftue_message
+TEXT: Double the attack power of your Pokémon in Max Battles!
+
+RESOURCE ID: bread_max_boost_ftue_try_button
+TEXT: Try for 5 minutes
 
 RESOURCE ID: bread_notification_empty
 TEXT: {0} è tornato dal punto energetico.
@@ -747,6 +762,12 @@ TEXT: Pubblica le tue foto usando l’hashtag #GOWildArea2024 e condivideremo le
 RESOURCE ID: gowa_2024_fukuoka
 TEXT: Terre Selvagge di Pokémon GO 2024 a Fukuoka
 
+RESOURCE ID: gowa_2024_global_electric_now
+TEXT: In corso: ora del tipo Elettro
+
+RESOURCE ID: gowa_2024_global_poison_now
+TEXT: In corso: ora del tipo Veleno
+
 RESOURCE ID: gowa_2024_habitat_electric
 TEXT: Elettro
 
@@ -754,22 +775,16 @@ RESOURCE ID: gowa_2024_habitat_electric_description
 TEXT: Cattura questi Pokémon nell’habitat Elettro!
 
 RESOURCE ID: gowa_2024_habitat_global_electric
-TEXT: In corso: ora del tipo Elettro
+TEXT: Sfida di collezione delle Terre Selvagge: Elettro
 
 RESOURCE ID: gowa_2024_habitat_global_electric_description
 TEXT: Cattura questi Pokémon durante le ore del tipo Elettro!
 
-RESOURCE ID: gowa_2024_habitat_global_electric_temp
-TEXT: Sfida di collezione delle Terre Selvagge: Elettro
-
 RESOURCE ID: gowa_2024_habitat_global_poison
-TEXT: In corso: ora del tipo Veleno
+TEXT: Sfida di collezione delle Terre Selvagge: Veleno
 
 RESOURCE ID: gowa_2024_habitat_global_poison_description
 TEXT: Cattura questi Pokémon durante le ore del tipo Veleno!
-
-RESOURCE ID: gowa_2024_habitat_global_poison_temp
-TEXT: Sfida di collezione delle Terre Selvagge: Veleno
 
 RESOURCE ID: gowa_2024_habitat_irl_electric
 TEXT: Sfida di collezione delle Terre Selvagge: Elettro
@@ -833,6 +848,30 @@ TEXT: Terre Selvagge di GO: orario dell’evento di domenica
 
 RESOURCE ID: gowa_2024_sun_ticketed
 TEXT: Terre Selvagge di GO: ore dell’evento di domenica (biglietto)
+
+RESOURCE ID: gstar_2024_city_bonus
+TEXT: G-STAR 2024 (20° anniversario): bonus città
+
+RESOURCE ID: gstar_2024_evolve_move_bonus_blaziken
+TEXT: Fai evolvere Combusken per ottenere un Blaziken che conosce l’attacco caricato Incendio!
+
+RESOURCE ID: gstar_2024_evolve_move_bonus_sceptile
+TEXT: Fai evolvere Grovyle per ottenere uno Sceptile che conosce l’attacco caricato Radicalbero!
+
+RESOURCE ID: gstar_2024_evolve_move_bonus_swampert
+TEXT: Fai evolvere Marshtomp per ottenere uno Swampert che conosce l’attacco caricato Idrocannone!
+
+RESOURCE ID: gstar_2024_title
+TEXT: G-STAR 2024 (20° anniversario)
+
+RESOURCE ID: gstar_2024_tr_name
+TEXT: Ricerca a tempo dell’evento “G-STAR 2024 (20° anniversario)”
+
+RESOURCE ID: gstar_2024_tr_name_1
+TEXT: Ricerca a tempo dell’evento “G-STAR 2024 (20° anniversario)” (1/2)
+
+RESOURCE ID: gstar_2024_tr_name_2
+TEXT: Ricerca a tempo dell’evento “G-STAR 2024 (20° anniversario)” (2/2)
 
 RESOURCE ID: halloween_03_oct24_event_name
 TEXT: Caramella o marachella
@@ -1021,6 +1060,15 @@ TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso all
 RESOURCE ID: item_global_event_ticket_desc_gowa24
 TEXT: Un biglietto per accedere alla ricerca speciale e ai bonus dell’evento “Terre Selvagge di Pokémon GO (globale)” dal 23 al 24 novembre 2024, ora locale, ovunque ti trovi.
 
+RESOURCE ID: item_max_boost_desc
+TEXT: An item that increases the attack power of Pokémon in Max battles for 30 minutes.
+
+RESOURCE ID: item_max_boost_name
+TEXT: Max Mushroom
+
+RESOURCE ID: item_max_boost_name_plural
+TEXT: Max Mushrooms
+
 RESOURCE ID: item_wild_ball_premier_desc
 TEXT: Poké Ball estremamente efficace per catturare Pokémon. È disponibile solo durante gli eventi “Terre Selvagge di Pokémon GO”.
 
@@ -1092,6 +1140,21 @@ questo Pokémon adesso.
 RESOURCE ID: lure_mossy_event_bonus
 TEXT: I Pokémon a tema dell’evento sono attratti dai moduli esca silvestri
 
+RESOURCE ID: max_boost.1_description
+TEXT: A mushroom that increases the attack power of Pokémon in Max battles for 30 minutes.
+
+RESOURCE ID: max_boost.1_title
+TEXT: Max Mushroom
+
+RESOURCE ID: max_boost.3_description
+TEXT: 3 Max Mushrooms. Increases the attack power of Pokémon in Max battles for 30 minutes.
+
+RESOURCE ID: max_boost.3_title
+TEXT: 3 Max Mushrooms
+
+RESOURCE ID: max_boost_item_activated_toast
+TEXT: Attack Power Increased!
+
 RESOURCE ID: meetup_check_in_battle
 TEXT: Lotte
 
@@ -1114,10 +1177,10 @@ RESOURCE ID: meetup_check_in_social
 TEXT: Amicizia
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-11-07T18:30:04.743259+00:00 for it-IT
-at SHA df38c5a3804
-Pipeline 2758820, job 33802639
-Patch from: 0.339.0-SHA-2e54bc79-RC4, 0.337.0-SHA-eac556c0-RC4
+TEXT: Built at 2024-11-09T00:01:24.596197+00:00 for it-IT
+at SHA 4de126bdafe
+Pipeline 2763512, job 33866121
+Patch from: 0.339.0-SHA-8a0c57d6-RC2, 0.337.0-SHA-b4a38293-RC1
 
 RESOURCE ID: move_name_0464
 TEXT: Pugno Furibondo
@@ -1194,6 +1257,12 @@ TEXT: Sebbene nuoti con potenza e abilità utilizzando tutti i suoi muscoli, pre
 RESOURCE ID: pokemon_desc_0225
 TEXT: Trasporta cibo per tutto il giorno. Si racconta che persone disperse o in difficoltà si siano salvate grazie ai suoi viveri.
 
+RESOURCE ID: pokemon_desc_0849_2463
+TEXT: È in grado di produrre scariche elettriche fino a 15.000 volt. Tende a sottovalutare qualunque nemico si trovi davanti.
+
+RESOURCE ID: pokemon_desc_0849_2464
+TEXT: Quando produce energia elettrica strofinando le protuberanze che ha sul petto, tutt'intorno riverbera un suono simile a quello di una chitarra.
+
 RESOURCE ID: pokemon_info_evolve_pokemon_deployed
 TEXT: {0} è assegnato a una Palestra o un punto energetico.
 
@@ -1211,6 +1280,15 @@ TEXT: {0} G-Max
 
 RESOURCE ID: pokemon_name_bread_short
 TEXT: {0} D-Max
+
+RESOURCE ID: pokestop_challenge_fr_title
+TEXT: Sfida Pokéstop
+
+RESOURCE ID: pokestop_challenge_tr_desc
+TEXT: Ricerca a tempo della sfida Pokéstop
+
+RESOURCE ID: pokestop_challenge_tr_desc_title_00
+TEXT: Ricerca a tempo della sfida Pokéstop (1/1)
 
 RESOURCE ID: quest_appraise_pokemon_plural
 TEXT: Fai valutare {0} Pokémon
@@ -1504,8 +1582,11 @@ Ogni percorso ricompense ha la durata di un mese. I punti ricompensa e i livelli
 
 **I punti ricompensa scadono alla fine del mese. Anche se tutte le ricompense sono state riscattate, i punti ricompensa residui non verranno trasferiti al mese successivo. Gli Allenatori che utilizzano un account per bambini non potranno partecipare al programma percorso ricompense. I punti ricompensa non sono in denaro o qualsiasi altro tipo di valuta e non si possono trasferire da un account a un altro. La disponibilità e i termini del programma percorso ricompense sono soggetti a cambiamento.
 
+RESOURCE ID: rewarded_spend_helpshift_expiration_timer_key
+TEXT: Current period resets on {0} at {1}.
+
 RESOURCE ID: rewarded_spend_helpshift_footer
-TEXT: Per ulteriori informazioni, visita il <a href="https://niantic.helpshift.com/">sito</a>.
+TEXT: Per ulteriori informazioni, visita il <a href="https://niantic.helpshift.com/hc/faq/94-how-can-i-purchase-items-and-pokecoins/">sito</a>.
 
 RESOURCE ID: rewarded_spend_helpshift_title
 TEXT: Un nuovo modo di ottenere ricompense!
@@ -1516,6 +1597,9 @@ TEXT: + {0}
 RESOURCE ID: rewarded_spend_in_progress
 TEXT: In corso
 
+RESOURCE ID: rewarded_spend_levels_completed_claimable_desc
+TEXT: You have reached the monthly level earning cap. Claim your rewards before they reset!
+
 RESOURCE ID: rewarded_spend_monthly_reward_road_key
 TEXT: Percorso ricompense di {0}
 
@@ -1524,6 +1608,9 @@ TEXT: Guadagna punti e ricevi ricompense!
 
 RESOURCE ID: rewarded_spend_not_available
 TEXT: Non iniziato
+
+RESOURCE ID: rewarded_spend_notification_string_key
+TEXT: Reward Road
 
 RESOURCE ID: rewarded_spend_points_header
 TEXT: {0}/{1} punti
@@ -1579,11 +1666,26 @@ TEXT: Condividi con gli amici le informazioni sulla partecipazione ai raid
 RESOURCE ID: share_raid_attendance_tip_key
 TEXT: Condividendo queste informazioni, i tuoi amici potranno partecipare ai raid in cui sei, accedendo direttamente dalla propria lista amici.
 
+RESOURCE ID: shop_quick_exchange_max_boost
+TEXT: Exchange PokéCoins for a Max Mushroom?
+
 RESOURCE ID: simply_groundbreaking_event_name
-TEXT: Simply Groundbreaking
+TEXT: Esplorazioni sotterranee
 
 RESOURCE ID: simply_groundbreaking_tr_name
-TEXT: Simply Groundbreaking Timed Research
+TEXT: Ricerca a tempo dell’evento “Esplorazioni sotterranee”
+
+RESOURCE ID: sku.name.item_max_boost
+TEXT: Max Mushroom
+
+RESOURCE ID: sku.name.web-gowa-2024-box-1
+TEXT: pacco lottatore delle Terre Selvagge di GO
+
+RESOURCE ID: sku.name.web-gowa-2024-box-2
+TEXT: pacco asso della schiusa delle Terre Selvagge di GO
+
+RESOURCE ID: sku.name.web-gowa-2024-box-3
+TEXT: pacco definitivo delle Terre Selvagge di GO
 
 RESOURCE ID: spawn_mankey
 TEXT: Più Mankey stanno apparendo allo stato selvatico!
@@ -1592,7 +1694,7 @@ RESOURCE ID: spawn_mighty
 TEXT: Dei Pokémon formidabili stanno apparendo allo stato selvatico
 
 RESOURCE ID: sr_gowa2024_global_ticketed_1
-TEXT: Un Allenatore esperto (1/1)
+TEXT: Un Allenatore esperto (1/6)
 
 RESOURCE ID: sr_gowa2024_global_ticketed_electric
 TEXT: A tutta carica
@@ -1634,7 +1736,7 @@ RESOURCE ID: sr_gowa2024_irl
 TEXT: Un Allenatore esperto
 
 RESOURCE ID: sr_gowa2024_irl_1
-TEXT: Un Allenatore esperto (1/1)
+TEXT: Un Allenatore esperto (1/6)
 
 RESOURCE ID: sr_gowa2024_irl_7
 TEXT: Un Allenatore fenomenale (1/1)
@@ -1713,7 +1815,7 @@ TEXT: <b>Le ricompense includono:</b>
 RESOURCE ID: text_rewards_key_harvest1124
 TEXT: <b>Le ricompense includono:</b>
 • Incontri con Smoliv
-• Due moduli esca silvestri, un aroma e due Fortunuova
+• Due moduli esca silvestri, un aroma e un Fortunuovo
 • 4.000 PE e 2.000 unità di polvere di stelle
 
 RESOURCE ID: text_rewards_key_mankeycd24

@@ -7,6 +7,9 @@ TEXT: आपक डवाइस पर AR सुवधा उपल�
 RESOURCE ID: ar_not_supported_title
 TEXT: सुवधा उपलध नहीं
 
+RESOURCE ID: attack_power_increased
+TEXT: Max Mushroom was used. Attacks are boosted!
+
 RESOURCE ID: badge_gowa_2024_global
 TEXT: 23-24 नवंबर, 2024
 
@@ -200,7 +203,7 @@ RESOURCE ID: bonus_mp_cap_1600
 TEXT: पावर पॉट और एसलोर कर तदन 1,600 मैस पाटकल जमा करं
 
 RESOURCE ID: bonus_mp_cap_3200
-TEXT: Collect up to 3,200 Max Particles per day from Power Spots and exploration
+TEXT: पावर पॉट और एसलोर कर तदन 3,200 मैस पाटकल तक जमा करं
 
 RESOURCE ID: bonus_mp_cap_4000
 TEXT: पावर पॉट और एसलोर कर तदन 4,000 मैस पाटकल जमा करं
@@ -268,6 +271,9 @@ TEXT: यह जायगैंटामैस पोकमॉन क �
 RESOURCE ID: bread_dough_battle_ftue_title
 TEXT: जायगैंटामैस बैटल
 
+RESOURCE ID: bread_dough_lobby_active_items_total
+TEXT: + {0} Max Mushrooms
+
 RESOURCE ID: bread_dough_lobby_count
 TEXT: {1} में से {0} टम
 
@@ -279,6 +285,15 @@ TEXT: {0} टनर
 
 RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
 TEXT: 1 टनर
+
+RESOURCE ID: bread_max_boost_ftue_activation_message
+TEXT: You can try this item for 5 minutes. This item normally lasts 30 minutes.
+
+RESOURCE ID: bread_max_boost_ftue_message
+TEXT: Double the attack power of your Pokémon in Max Battles!
+
+RESOURCE ID: bread_max_boost_ftue_try_button
+TEXT: Try for 5 minutes
 
 RESOURCE ID: bread_more_mp_to_reach_daily_limit
 TEXT: आप आज {0} और MP एक कर सकते हैं।
@@ -351,13 +366,13 @@ RESOURCE ID: event_datetime_range_key_yamasktr24
 TEXT: 19 अतूबर, दोपहर 2:00 बजे - शाम 5:00 बजे तक
 
 RESOURCE ID: event_research_complete
-TEXT: Event Research Complete!
+TEXT: इवेंट रसच पूर ई!
 
 RESOURCE ID: field_research_special_tasks
 TEXT: चैक-इन से फ़ीड रसच टाक अब उपलध
 
 RESOURCE ID: for_bonus_challenge
-TEXT: (for Bonus Challenge)
+TEXT: (बोनस चैलंज क लए)
 
 RESOURCE ID: fr_tag_meetup
 TEXT: मीट-अप
@@ -732,28 +747,34 @@ RESOURCE ID: gowa_2024
 TEXT: Pokémon GO वाइड एरया 2024
 
 RESOURCE ID: gowa_2024_all_sat
-TEXT: GO Wild Area: All-Day Saturday
+TEXT: GO वाइड एरया - शनवार पूर दन
 
 RESOURCE ID: gowa_2024_all_sun
-TEXT: GO Wild Area: All-Day Sunday
+TEXT: GO वाइड एरया - रववार पूर दन
 
 RESOURCE ID: gowa_2024_all_weekend
-TEXT: GO Wild Area: All Weekend
+TEXT: GO वाइड एरया - पूर सताहांत
 
 RESOURCE ID: gowa_2024_all_weekend_ticketed
-TEXT: GO Wild Area: All Weekend (Ticket)
+TEXT: GO वाइड एरया - पूर सताहांत (टकट)
 
 RESOURCE ID: gowa_2024_beyond_electric
-TEXT: Beyond Wild Area: Electric Expert
+TEXT: बयॉड वाइड एरया - इलैटक एसपट
 
 RESOURCE ID: gowa_2024_beyond_poison
-TEXT: Beyond Wild Area: Poison Pro
+TEXT: बयॉड वाइड एरया - पॉइज़न ो
 
 RESOURCE ID: gowa_2024_content_hashtag
 TEXT: #PokemonGOFest2024 क साथ फ़ोटो पोट करं और हम अपनी पसंदीदा फ़ोटो शेयर करंगे!
 
 RESOURCE ID: gowa_2024_fukuoka
 TEXT: Pokémon GO वाइड एरया 2024 - फ़ुकओका
+
+RESOURCE ID: gowa_2024_global_electric_now
+TEXT: वतमान में जार - इलैटक टाइम
+
+RESOURCE ID: gowa_2024_global_poison_now
+TEXT: वतमान में जार - पॉइज़न टाइम
 
 RESOURCE ID: gowa_2024_habitat_electric
 TEXT: इलटक
@@ -762,46 +783,40 @@ RESOURCE ID: gowa_2024_habitat_electric_description
 TEXT: इन पोकमॉन को इलटक आवास में पकड़ें!
 
 RESOURCE ID: gowa_2024_habitat_global_electric
-TEXT: वतमान में जार - इलैटक टाइम
+TEXT: वाइड एरया कलशन चैलंज - इलटक
 
 RESOURCE ID: gowa_2024_habitat_global_electric_description
-TEXT: Catch these Pokémon during Electric Hours!
-
-RESOURCE ID: gowa_2024_habitat_global_electric_temp
-TEXT: Wild Area Collection Challenge: Electric
+TEXT: इलैटक टाइम क दौरान ये पोकमॉन पकड़ें!
 
 RESOURCE ID: gowa_2024_habitat_global_poison
-TEXT: वतमान में जार - पॉइज़न टाइम
+TEXT: वाइड एरया कलशन चैलंज - पॉइज़न
 
 RESOURCE ID: gowa_2024_habitat_global_poison_description
-TEXT: Catch these Pokémon during Poison Hours!
-
-RESOURCE ID: gowa_2024_habitat_global_poison_temp
-TEXT: Wild Area Collection Challenge: Poison
+TEXT: पॉइज़न टाइम क दौरान ये पोकमॉन पकड़ें!
 
 RESOURCE ID: gowa_2024_habitat_irl_electric
-TEXT: Wild Area Collection Challenge: Electric
+TEXT: वाइड एरया कलशन चैलंज - इलटक
 
 RESOURCE ID: gowa_2024_habitat_irl_electric_description
-TEXT: Catch Electric-type Pokémon!
+TEXT:  इलटक टाइप पोकमॉन पकड़ें
 
 RESOURCE ID: gowa_2024_habitat_irl_poison
-TEXT: Wild Area Collection Challenge: Poison
+TEXT: वाइड एरया कलशन चैलंज - पॉइज़न
 
 RESOURCE ID: gowa_2024_habitat_irl_poison_description
-TEXT: Catch Poison-type Pokémon!
+TEXT:  पॉइज़न टाइप पोकमॉन पकड़ें
 
 RESOURCE ID: gowa_2024_habitat_leadup_electric
-TEXT: Into the Wild Collection Challenge: Electric
+TEXT: वाइड वीक कलशन चैलंज - इलटक
 
 RESOURCE ID: gowa_2024_habitat_leadup_electric_description
-TEXT: Catch Electric-type Pokémon!
+TEXT:  इलटक टाइप पोकमॉन पकड़ें
 
 RESOURCE ID: gowa_2024_habitat_leadup_poison
-TEXT: Into the Wild Collection Challenge: Poison
+TEXT: वाइड वीक कलशन चैलंज - पॉइज़न
 
 RESOURCE ID: gowa_2024_habitat_leadup_poison_description
-TEXT: Catch Poison-type Pokémon!
+TEXT:  पॉइज़न टाइप पोकमॉन पकड़ें
 
 RESOURCE ID: gowa_2024_habitat_poison
 TEXT: पॉइज़न
@@ -810,7 +825,7 @@ RESOURCE ID: gowa_2024_habitat_poison_description
 TEXT: इन पोकमॉन को पॉइज़न आवास में पकड़ें!
 
 RESOURCE ID: gowa_2024_leadup
-TEXT: Into the Wild
+TEXT: वाइड वीक
 
 RESOURCE ID: gowa_2024_live_fukuoka_city
 TEXT: Pokémon GO वाइड एरया 2024 : फ़ुकओका - शहर का अनुभव
@@ -831,16 +846,40 @@ RESOURCE ID: gowa_2024_quest_branch_poison_title
 TEXT: पाइज़न
 
 RESOURCE ID: gowa_2024_sat
-TEXT: GO Wild Area: Saturday Event Hours
+TEXT: GO वाइड एरया - शनवार इवेंट आवर
 
 RESOURCE ID: gowa_2024_sat_ticketed
-TEXT: GO Wild Area: Saturday Event Hours (Ticket)
+TEXT: GO वाइड एरया - शनवार इवेंट आवर (टकट)
 
 RESOURCE ID: gowa_2024_sun
-TEXT: GO Wild Area: Sunday Event Hours
+TEXT: GO वाइड एरया - रववार इवेंट आवर
 
 RESOURCE ID: gowa_2024_sun_ticketed
-TEXT: GO Wild Area: Sunday Event Hours (Ticket)
+TEXT: GO वाइड एरया - रववार इवेंट आवर (टकट)
+
+RESOURCE ID: gstar_2024_city_bonus
+TEXT: G-STAR 2024：20वीं वषगाँठ - सट बोनस
+
+RESOURCE ID: gstar_2024_evolve_move_bonus_blaziken
+TEXT: युवाकक को वकसत कर ऐसा गाराकक पाएं जसे चाज्ड अटैक लाट बन आता है।
+
+RESOURCE ID: gstar_2024_evolve_move_bonus_sceptile
+TEXT: tar_2024_evolve_move_bonus_sceptile", "िकल को वकसत कर ऐसा जंगलज़ाड पाएं जसे चाज्ड अटैक ज़ी लांट आता है।
+
+RESOURCE ID: gstar_2024_evolve_move_bonus_swampert
+TEXT: पंॉल को वकसत कर ऐसा वायगर पाएं जसे चाज्ड अटैक हाइडोकनन आता है!
+
+RESOURCE ID: gstar_2024_title
+TEXT: G-STAR 2024：20वीं वषगाँठ
+
+RESOURCE ID: gstar_2024_tr_name
+TEXT: G-STAR 2024：20वीं वषगाँठ सीमत समय वाल रसच
+
+RESOURCE ID: gstar_2024_tr_name_1
+TEXT: G-STAR 2024：20वीं वषगाँठ सीमत समय वाल रसच (1/2)
+
+RESOURCE ID: gstar_2024_tr_name_2
+TEXT: G-STAR 2024：20वीं वषगाँठ सीमत समय वाल रसच (2/2)
 
 RESOURCE ID: gym_general
 TEXT: जम
@@ -1032,6 +1071,15 @@ TEXT: यह टकट अपने आप ऐटवेट होकर
 RESOURCE ID: item_event_ticket_pink_details_mankeycd24
 TEXT: यह टकट अपने आप ऐटवेट होकर 10 नवंबर को होने वाल मैंक कयुनट डे पेशल रसच मैंक बज़नस का एसेस देगा।
 
+RESOURCE ID: item_max_boost_desc
+TEXT: An item that increases the attack power of Pokémon in Max battles for 30 minutes.
+
+RESOURCE ID: item_max_boost_name
+TEXT: Max Mushroom
+
+RESOURCE ID: item_max_boost_name_plural
+TEXT: Max Mushrooms
+
 RESOURCE ID: item_wild_ball_premier_desc
 TEXT: यह बॉल पोकमॉन को पकड़ने क लए बेहद कारगर है। यह कवल Pokémon GO वाइड एरया इवेंट क दौरान ही उपलध है।
 
@@ -1102,6 +1150,21 @@ TEXT: अभी इस पोकमॉन को रखने क
 RESOURCE ID: lure_mossy_event_bonus
 TEXT: इवेंट थीम वाल पोकमॉन मॉस अटैट मॉड्यूल क ओर आकिषत होंगे
 
+RESOURCE ID: max_boost.1_description
+TEXT: A mushroom that increases the attack power of Pokémon in Max battles for 30 minutes.
+
+RESOURCE ID: max_boost.1_title
+TEXT: Max Mushroom
+
+RESOURCE ID: max_boost.3_description
+TEXT: 3 Max Mushrooms. Increases the attack power of Pokémon in Max battles for 30 minutes.
+
+RESOURCE ID: max_boost.3_title
+TEXT: 3 Max Mushrooms
+
+RESOURCE ID: max_boost_item_activated_toast
+TEXT: Attack Power Increased!
+
 RESOURCE ID: meetup_check_in_battle
 TEXT: बैटल करना
 
@@ -1124,10 +1187,10 @@ RESOURCE ID: meetup_check_in_social
 TEXT: मलना-जुलना
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-11-07T18:30:04.743259+00:00 for hi-IN
-at SHA df38c5a3804
-Pipeline 2758820, job 33802639
-Patch from: 0.339.0-SHA-2e54bc79-RC4, 0.337.0-SHA-eac556c0-RC4
+TEXT: Built at 2024-11-09T00:01:24.596197+00:00 for hi-IN
+at SHA 4de126bdafe
+Pipeline 2763512, job 33866121
+Patch from: 0.339.0-SHA-8a0c57d6-RC2, 0.337.0-SHA-b4a38293-RC1
 
 RESOURCE ID: move_name_0464
 TEXT: एंगर पंच
@@ -1225,6 +1288,12 @@ TEXT: ये अपनी सभी मांसपेशयों का उ
 RESOURCE ID: pokemon_desc_0225
 TEXT: ये पूर दन खाना लकर घूमते हैं। खोये ए लोग इनक खाने क मदद से बचे हैं, ऐसी कहानीयाँ भी हैं।
 
+RESOURCE ID: pokemon_desc_0849_2463
+TEXT: 15,000 वोट बजल पैदा करने में सम हैं और वरोधी पोकमॉन को हमेशा खुद से नीचे मानते हैं।
+
+RESOURCE ID: pokemon_desc_0849_2464
+TEXT: जब अपनी छाती को खरोंचते हैं तो बजल पैदा होती है, और गटार जैसी आवाज आती है।
+
 RESOURCE ID: pokemon_info_evolve_pokemon_deployed
 TEXT: {0} को जम या पावर पॉट पर तैनात कया गया है।
 
@@ -1242,6 +1311,15 @@ TEXT: जी-मैस {0}
 
 RESOURCE ID: pokemon_name_bread_short
 TEXT: डी-मैस {0}
+
+RESOURCE ID: pokestop_challenge_fr_title
+TEXT: पोकटॉप चैलंज
+
+RESOURCE ID: pokestop_challenge_tr_desc
+TEXT: पोकटॉप चैलंज सीमत समय वाल रसच
+
+RESOURCE ID: pokestop_challenge_tr_desc_title_00
+TEXT: पोकटॉप चैलंज सीमत समय वाल रसच (1/1)
 
 RESOURCE ID: pokestop_general
 TEXT: पोकटॉप
@@ -1616,8 +1694,11 @@ TEXT: रवॉड रोड एक मासक रवॉड 
 
 **महीने क अंत में रवॉड पॉइंट समात हो जाते हैं। टनर क हर रवॉड ात करने पर भी, रवॉड पॉइंट अगल महीने कर-फ़ॉरवड नहीं करंगे। चाइड अकाउंट का उपयोग करने वाल टनर रवॉड रोड ोाम में भाग लने क पा नहीं हैं। रवॉड पॉइंट नकद या कोई अय मुा नहीं हैं, और वे एक अकाउंट से दूसर अकाउंट में टांफ़र नहीं कये जा सकते। रवॉड रोड ोाम क उपलधता और शतें परवतन क अधीन हैं।
 
+RESOURCE ID: rewarded_spend_helpshift_expiration_timer_key
+TEXT: Current period resets on {0} at {1}.
+
 RESOURCE ID: rewarded_spend_helpshift_footer
-TEXT: अधक जानकार क लए, <a href="https://niantic.helpshift.com/">वेबसाइट</a> देखें।
+TEXT: अधक जानकार क लए, <a href="https://niantic.helpshift.com/hc/faq/94-how-can-i-purchase-items-and-pokecoins/">वेबसाइट</a> देखें।
 
 RESOURCE ID: rewarded_spend_helpshift_title
 TEXT: रवॉड पाने का एक नया तरका!
@@ -1628,6 +1709,9 @@ TEXT: + {0}
 RESOURCE ID: rewarded_spend_in_progress
 TEXT: गत पर
 
+RESOURCE ID: rewarded_spend_levels_completed_claimable_desc
+TEXT: You have reached the monthly level earning cap. Claim your rewards before they reset!
+
 RESOURCE ID: rewarded_spend_monthly_reward_road_key
 TEXT: {0} रवॉड रोड
 
@@ -1636,6 +1720,9 @@ TEXT: पॉइंट पाएं और रवॉड ात कर
 
 RESOURCE ID: rewarded_spend_not_available
 TEXT: शु नहीं आ
+
+RESOURCE ID: rewarded_spend_notification_string_key
+TEXT: Reward Road
 
 RESOURCE ID: rewarded_spend_points_header
 TEXT: {0}/{1} पॉइंट
@@ -1691,11 +1778,26 @@ TEXT: Share Raid Attendance with Friends
 RESOURCE ID: share_raid_attendance_tip_key
 TEXT: By sharing, friends will be able to join a raid you’re in directly from their Friend List.
 
+RESOURCE ID: shop_quick_exchange_max_boost
+TEXT: Exchange PokéCoins for a Max Mushroom?
+
 RESOURCE ID: simply_groundbreaking_event_name
 TEXT: Simply Groundbreaking
 
 RESOURCE ID: simply_groundbreaking_tr_name
 TEXT: Simply Groundbreaking Timed Research
+
+RESOURCE ID: sku.name.item_max_boost
+TEXT: Max Mushroom
+
+RESOURCE ID: sku.name.web-gowa-2024-box-1
+TEXT: GO वाइड एरया बैटलर बॉस
+
+RESOURCE ID: sku.name.web-gowa-2024-box-2
+TEXT: GO वाइड एरया हैचर बॉस
+
+RESOURCE ID: sku.name.web-gowa-2024-box-3
+TEXT: GO वाइड एरया अटमेट बॉस
 
 RESOURCE ID: spawn_bounsweet
 TEXT: जंगल में ज़्यादा ूशर दखाई दे रहे हैं!
@@ -1707,7 +1809,7 @@ RESOURCE ID: spawn_mighty
 TEXT: वाइड में शतशाल पोकमॉन दखाई दे रहे हैं
 
 RESOURCE ID: sr_gowa2024_global_ticketed_1
-TEXT: एक नपुण टनर (1/1)
+TEXT: एक नपुण टनर (1/6)
 
 RESOURCE ID: sr_gowa2024_global_ticketed_electric
 TEXT: GO हाई
@@ -1749,7 +1851,7 @@ RESOURCE ID: sr_gowa2024_irl
 TEXT: एक नपुण टनर
 
 RESOURCE ID: sr_gowa2024_irl_1
-TEXT: एक नपुण टनर (1/1)
+TEXT: एक नपुण टनर (1/6)
 
 RESOURCE ID: sr_gowa2024_irl_7
 TEXT: अयंत नपुण टनर (1/1)
@@ -1825,7 +1927,7 @@ TEXT: <b>शामल रवॉड :</b>
 RESOURCE ID: text_rewards_key_harvest1124
 TEXT: <b>शामल रवॉड :</b>
 • मॉलव क साथ मुलाकातें
-• 2 मॉस अटैट मॉड्यूल, 1 इंसेंस, और 2 लक एग
+• 2 मॉस अटैट मॉड्यूल, 1 इंसेंस, और 1 लक एग
 • 4,000 XP और 2,000 टार-डट
 
 RESOURCE ID: text_rewards_key_mankeycd24
@@ -1847,7 +1949,7 @@ RESOURCE ID: ticket_mankey
 TEXT: मैंक बज़नस पेशल रसच क टकट शॉप में उपलध हैं
 
 RESOURCE ID: timed_research_complete
-TEXT: Timed Research Complete!
+TEXT: सीमत समय वाल रसच पूर ई!
 
 RESOURCE ID: timed_research_special
 TEXT: चैक-इन से सीमत समय वाल रसच अब उपलध

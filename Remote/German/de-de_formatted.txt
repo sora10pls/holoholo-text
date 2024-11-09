@@ -7,6 +7,9 @@ TEXT: Dein Gerät unterstützt kein AR.
 RESOURCE ID: ar_not_supported_title
 TEXT: Nicht unterstützt
 
+RESOURCE ID: attack_power_increased
+TEXT: Max Mushroom was used. Attacks are boosted!
+
 RESOURCE ID: avatar_f_face_dayofthedead_00_bundle_icon
 TEXT: Día de Muertos-Schminke
 
@@ -128,40 +131,40 @@ RESOURCE ID: badge_pokedex_entries_unidentified_title
 TEXT: UNIDENTIFIED
 
 RESOURCE ID: badge_safaricity_2024_hong_kong_day_00
-TEXT: Hong Kong 2024
+TEXT: Hongkong 2024
 
 RESOURCE ID: badge_safaricity_2024_hong_kong_day_00_title
-TEXT: Pokémon GO City Safari
+TEXT: Pokémon GO-Stadt-Safari
 
 RESOURCE ID: badge_safaricity_2024_hong_kong_day_01
-TEXT: Hong Kong, December 7, 2024
+TEXT: Hongkong, 7. Dezember 2024
 
 RESOURCE ID: badge_safaricity_2024_hong_kong_day_01_title
-TEXT: Pokémon GO City Safari
+TEXT: Pokémon GO-Stadt-Safari
 
 RESOURCE ID: badge_safaricity_2024_hong_kong_day_02
-TEXT: Hong Kong, December 8, 2024
+TEXT: Hongkong, 8. Dezember 2024
 
 RESOURCE ID: badge_safaricity_2024_hong_kong_day_02_title
-TEXT: Pokémon GO City Safari
+TEXT: Pokémon GO-Stadt-Safari
 
 RESOURCE ID: badge_safaricity_2024_sao_paulo_day_00
 TEXT: São Paulo 2024
 
 RESOURCE ID: badge_safaricity_2024_sao_paulo_day_00_title
-TEXT: Pokémon GO City Safari
+TEXT: Pokémon GO-Stadt-Safari
 
 RESOURCE ID: badge_safaricity_2024_sao_paulo_day_01
-TEXT: São Paulo, December 7, 2024
+TEXT: São Paulo, 7. Dezember 2024
 
 RESOURCE ID: badge_safaricity_2024_sao_paulo_day_01_title
-TEXT: Pokémon GO City Safari
+TEXT: Pokémon GO-Stadt-Safari
 
 RESOURCE ID: badge_safaricity_2024_sao_paulo_day_02
-TEXT: São Paulo, December 8, 2024
+TEXT: São Paulo, 8. Dezember 2024
 
 RESOURCE ID: badge_safaricity_2024_sao_paulo_day_02_title
-TEXT: Pokémon GO City Safari
+TEXT: Pokémon GO-Stadt-Safari
 
 RESOURCE ID: battle_raids_party_plural
 TEXT: Kämpfe in {0} Raids, während du in einem Team bist.
@@ -268,11 +271,23 @@ TEXT: In diesen harten Kämpfen trittst du gegen Gigadynamax-Pokémon an. Wir em
 RESOURCE ID: bread_dough_battle_ftue_title
 TEXT: Gigadynamax-Kämpfe!
 
+RESOURCE ID: bread_dough_lobby_active_items_total
+TEXT: + {0} Max Mushrooms
+
 RESOURCE ID: bread_dough_lobby_count
 TEXT: Team {0} von {1}
 
 RESOURCE ID: bread_dough_lobby_trainer_list_title
 TEXT: {0} Trainer
+
+RESOURCE ID: bread_max_boost_ftue_activation_message
+TEXT: You can try this item for 5 minutes. This item normally lasts 30 minutes.
+
+RESOURCE ID: bread_max_boost_ftue_message
+TEXT: Double the attack power of your Pokémon in Max Battles!
+
+RESOURCE ID: bread_max_boost_ftue_try_button
+TEXT: Try for 5 minutes
 
 RESOURCE ID: bundle.diademuertos.box.1_title
 TEXT: Día de Muertos-Box
@@ -284,16 +299,16 @@ RESOURCE ID: details_link_key_mankeycd24
 TEXT: Weitere Infos findest du auf der <a href="https://pokemongolive.com/de/post/communityday-november-2024-mankey">Website</a>.
 
 RESOURCE ID: eevee_explorers_hong_kong_title
-TEXT: Eevee Explorers – Hong Kong
+TEXT: Evoli-Forscher – Hongkong
 
 RESOURCE ID: eevee_explorers_hong_kong_title_00
-TEXT: Eevee Explorers: Hong Kong (1/1)
+TEXT: Evoli-Forscher – Hongkong (1/1)
 
 RESOURCE ID: eevee_explorers_sao_paulo_title
-TEXT: Eevee Explorers – São Paulo
+TEXT: Evoli-Forscher – São Paulo
 
 RESOURCE ID: eevee_explorers_sao_paulo_title_00
-TEXT: Eevee Explorers: São Paulo (1/1)
+TEXT: Evoli-Forscher – São Paulo (1/1)
 
 RESOURCE ID: encounter_score_catch_streak_daily
 TEXT: Serienbonus: {0} Tage
@@ -722,6 +737,12 @@ TEXT: Poste Fotos mit #GOWildArea2024 und wir teilen unsere Favoriten!
 RESOURCE ID: gowa_2024_fukuoka
 TEXT: Pokémon GO-Naturzone 2024: Fukuoka
 
+RESOURCE ID: gowa_2024_global_electric_now
+TEXT: Jetzt live: Elektro-Stunde
+
+RESOURCE ID: gowa_2024_global_poison_now
+TEXT: Jetzt live: Gift-Stunde
+
 RESOURCE ID: gowa_2024_habitat_electric
 TEXT: Elektro
 
@@ -729,22 +750,16 @@ RESOURCE ID: gowa_2024_habitat_electric_description
 TEXT: Fange diese Pokémon im Elektro-Lebensraum!
 
 RESOURCE ID: gowa_2024_habitat_global_electric
-TEXT: Jetzt live: Elektro-Stunde
+TEXT: Naturzone: Sammler-Herausforderung – Elektro
 
 RESOURCE ID: gowa_2024_habitat_global_electric_description
 TEXT: Fange diese Pokémon während der Elektro-Stunden!
 
-RESOURCE ID: gowa_2024_habitat_global_electric_temp
-TEXT: Naturzone: Sammler-Herausforderung – Elektro
-
 RESOURCE ID: gowa_2024_habitat_global_poison
-TEXT: Jetzt live: Gift-Stunde
+TEXT: Naturzone: Sammler-Herausforderung – Gift
 
 RESOURCE ID: gowa_2024_habitat_global_poison_description
 TEXT: Fange diese Pokémon während der Gift-Stunden!
-
-RESOURCE ID: gowa_2024_habitat_global_poison_temp
-TEXT: Naturzone: Sammler-Herausforderung – Gift
 
 RESOURCE ID: gowa_2024_habitat_irl_electric
 TEXT: Naturzone: Sammler-Herausforderung – Elektro
@@ -808,6 +823,30 @@ TEXT: GO-Naturzone: Event-Zeitraum für Sonntag
 
 RESOURCE ID: gowa_2024_sun_ticketed
 TEXT: GO-Naturzone: Event-Zeitraum für Sonntag (Ticket)
+
+RESOURCE ID: gstar_2024_city_bonus
+TEXT: G-STAR 2024: 20. Jahrestag – Stadt-Bonus
+
+RESOURCE ID: gstar_2024_evolve_move_bonus_blaziken
+TEXT: Entwickle Jungglut, um ein Lohgock zu erhalten, das die Lade-Attacke Lohekanonade beherrscht!
+
+RESOURCE ID: gstar_2024_evolve_move_bonus_sceptile
+TEXT: Entwickle Reptain, um ein Gewaldro zu erhalten, das die Lade-Attacke Flora-Statue beherrscht!
+
+RESOURCE ID: gstar_2024_evolve_move_bonus_swampert
+TEXT: Entwickle Moorabbel, um ein Sumpex zu erhalten, das die Lade-Attacke Aquahaubitze beherrscht!
+
+RESOURCE ID: gstar_2024_title
+TEXT: G-STAR 2024: 20. Jahrestag
+
+RESOURCE ID: gstar_2024_tr_name
+TEXT: Befristete Forschung: G-STAR – 20. Jahrestag
+
+RESOURCE ID: gstar_2024_tr_name_1
+TEXT: Befristete Forschung: G-STAR – 20. Jahrestag (1/2)
+
+RESOURCE ID: gstar_2024_tr_name_2
+TEXT: Befristete Forschung: G-STAR – 20. Jahrestag (2/2)
 
 RESOURCE ID: halloween_03_oct24_event_name
 TEXT: Süßes-oder-Saures-Party
@@ -901,10 +940,10 @@ TEXT: Finde den Orientierungspunkt.
 Er ist in der Nähe!
 
 RESOURCE ID: home_transfer_error_gmax
-TEXT: You can’t send Gigantamax Pokémon.
+TEXT: Du kannst keine Gigadynamax-Pokémon übertragen.
 
 RESOURCE ID: home_transfer_error_last_max
-TEXT: You can’t send your last Max Pokémon.
+TEXT: Du kannst dein letztes Dyna-Pokémon nicht übertragen.
 
 RESOURCE ID: iap_category_rewarded_spend
 TEXT: Belohnungspfad
@@ -993,6 +1032,15 @@ TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befri
 RESOURCE ID: item_event_ticket_pink_details_mankeycd24
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Spezialforschung „Menki-Theater“ zum Community Day mit Menki am 10. November (wo immer du dich befindest).
 
+RESOURCE ID: item_max_boost_desc
+TEXT: An item that increases the attack power of Pokémon in Max battles for 30 minutes.
+
+RESOURCE ID: item_max_boost_name
+TEXT: Max Mushroom
+
+RESOURCE ID: item_max_boost_name_plural
+TEXT: Max Mushrooms
+
 RESOURCE ID: item_wild_ball_premier_desc
 TEXT: Ein Ball, der sich hervorragend zum Fangen von Pokémon eignet. Er ist nur während Pokémon GO-Naturzone-Events verfügbar.
 
@@ -1064,6 +1112,21 @@ TEXT: Es gibt gerade keinen Platz
 RESOURCE ID: lure_mossy_event_bonus
 TEXT: Event-Pokémon werden von Moos-Lockmodulen angelockt
 
+RESOURCE ID: max_boost.1_description
+TEXT: A mushroom that increases the attack power of Pokémon in Max battles for 30 minutes.
+
+RESOURCE ID: max_boost.1_title
+TEXT: Max Mushroom
+
+RESOURCE ID: max_boost.3_description
+TEXT: 3 Max Mushrooms. Increases the attack power of Pokémon in Max battles for 30 minutes.
+
+RESOURCE ID: max_boost.3_title
+TEXT: 3 Max Mushrooms
+
+RESOURCE ID: max_boost_item_activated_toast
+TEXT: Attack Power Increased!
+
 RESOURCE ID: meetup_check_in_bonus
 TEXT: Bonus für Anmeldung zu Treffen
 
@@ -1080,10 +1143,10 @@ RESOURCE ID: meetup_check_in_social
 TEXT: Verbinden
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-11-07T18:30:04.743259+00:00 for de-DE
-at SHA df38c5a3804
-Pipeline 2758820, job 33802639
-Patch from: 0.339.0-SHA-2e54bc79-RC4, 0.337.0-SHA-eac556c0-RC4
+TEXT: Built at 2024-11-09T00:01:24.596197+00:00 for de-DE
+at SHA 4de126bdafe
+Pipeline 2763512, job 33866121
+Patch from: 0.339.0-SHA-8a0c57d6-RC2, 0.337.0-SHA-b4a38293-RC1
 
 RESOURCE ID: move_name_0464
 TEXT: Zornesfaust
@@ -1154,6 +1217,21 @@ TEXT: Obwohl es ein geschickter und ausdauernder Schwimmer ist, der alle Muskeln
 RESOURCE ID: pokemon_desc_0225
 TEXT: Es trägt immer Nahrung bei sich. Man sagt, dass viele Menschen in Not nur dank seiner Essensration überlebt hätten.
 
+RESOURCE ID: pokemon_desc_0849_2463
+TEXT: Dieses Pokémon kann 15000 V starke Elektrizität generieren. Es nimmt keinen Gegner wirklich ernst.
+
+RESOURCE ID: pokemon_desc_0849_2464
+TEXT: Wenn es am Fortsatz an seiner Brust kratzt und dadurch Strom erzeugt, dann erklingt in der Umgebung ein Ton wie von einer Gitarre.
+
+RESOURCE ID: pokestop_challenge_fr_title
+TEXT: PokéStop-Herausforderung
+
+RESOURCE ID: pokestop_challenge_tr_desc
+TEXT: Befristete Forschung: PokéStop-Herausforderung
+
+RESOURCE ID: pokestop_challenge_tr_desc_title_00
+TEXT: Befristete Forschung: PokéStop-Herausforderung (1/1)
+
 RESOURCE ID: quest_appraise_pokemon_plural
 TEXT: Bewerte {0} Pokémon.
 
@@ -1176,16 +1254,16 @@ RESOURCE ID: quest_choose_buddy_singular
 TEXT: Wähle oder wechsle ein Kumpel-Pokémon aus.
 
 RESOURCE ID: quest_event_eevee_snapshot_hong_kong
-TEXT: Take a snapshot of your Eevee in Hong Kong
+TEXT: Mache einen Schnappschuss von deinem Evoli in Hongkong.
 
 RESOURCE ID: quest_event_eevee_snapshot_sao_paulo
-TEXT: Take a snapshot of your Eevee in São Paulo
+TEXT: Mache einen Schnappschuss von deinem Evoli in São Paulo.
 
 RESOURCE ID: quest_event_spin_hong_kong
-TEXT: Spin a PokéStop or Gym in Hong Kong
+TEXT: Drehe einen PokéStop oder eine Arena in Hongkong.
 
 RESOURCE ID: quest_event_spin_sao_paulo
-TEXT: Spin a PokéStop or Gym in São Paulo
+TEXT: Drehe einen PokéStop oder eine Arena in São Paulo.
 
 RESOURCE ID: quest_feed_gym_pokemon_plural
 TEXT: Gib Pokémon in der Arena deines Teams {0} Beeren.
@@ -1450,8 +1528,11 @@ Jeder Belohnungspfad dauert einen Kalendermonat. Belohnungspunkte und Belohnungs
 
 *Nur Einkäufe, die mit echter Währung getätigt werden, zählen für den Fortschritt des Belohnungspfads. Käufe mit PokéMünzen gewähren keine Belohnungspunkte. **Belohnungspunkte verfallen am Ende des Kalendermonats. Selbst wenn ein Trainer alle Belohnungen beansprucht, werden die Belohnungspunkte nicht auf den nächsten Monat übertragen. Trainer, die Kinderkonten verwenden, sind nicht berechtigt, am Belohnungspfad teilzunehmen. Belohnungspunkte sind kein Bargeld oder eine andere Währung und können nicht zwischen Konten übertragen werden. Die Verfügbarkeit und die Bedingungen des Belohnungspfads können sich ändern.
 
+RESOURCE ID: rewarded_spend_helpshift_expiration_timer_key
+TEXT: Current period resets on {0} at {1}.
+
 RESOURCE ID: rewarded_spend_helpshift_footer
-TEXT: Weitere Infos findest du auf der <a href="https://pokemongolive.com/news">Website</a>.
+TEXT: Weitere Infos findest du auf der <a href="https://niantic.helpshift.com/hc/faq/94-how-can-i-purchase-items-and-pokecoins/hc/faq/94-how-can-i-purchase-items-and-pokecoins/">Website</a>.
 
 RESOURCE ID: rewarded_spend_helpshift_title
 TEXT: Ein neuer Weg, Belohnungen zu erhalten!
@@ -1462,6 +1543,9 @@ TEXT: + {0}
 RESOURCE ID: rewarded_spend_in_progress
 TEXT: Aktiv
 
+RESOURCE ID: rewarded_spend_levels_completed_claimable_desc
+TEXT: You have reached the monthly level earning cap. Claim your rewards before they reset!
+
 RESOURCE ID: rewarded_spend_monthly_reward_road_key
 TEXT: {0}-Belohnungspfad
 
@@ -1470,6 +1554,9 @@ TEXT: Sammle Punkte und verdiene Belohnungen!
 
 RESOURCE ID: rewarded_spend_not_available
 TEXT: Nicht angefangen
+
+RESOURCE ID: rewarded_spend_notification_string_key
+TEXT: Reward Road
 
 RESOURCE ID: rewarded_spend_points_header
 TEXT: {0}/{1} Punkte
@@ -1487,28 +1574,28 @@ RESOURCE ID: rewarded_spend_reset_timer_last_day_header
 TEXT: <color=#FF6687FF>Wird in 1 Tag zurückgesetzt</color>
 
 RESOURCE ID: safari_city_2024_hong_kong_title
-TEXT: City Safari: Hong Kong 2024
+TEXT: Stadt-Safari: Hongkong 2024
 
 RESOURCE ID: safari_city_2024_hong_kong_title_00
-TEXT: City Safari: Hong Kong 2024 (1/3)
+TEXT: Stadt-Safari: Hongkong 2024 (1/3)
 
 RESOURCE ID: safari_city_2024_hong_kong_title_01
-TEXT: City Safari: Hong Kong 2024 (2/3)
+TEXT: Stadt-Safari: Hongkong 2024 (2/3)
 
 RESOURCE ID: safari_city_2024_hong_kong_title_02
-TEXT: City Safari: Hong Kong 2024 (3/3)
+TEXT: Stadt-Safari: Hongkong 2024 (3/3)
 
 RESOURCE ID: safari_city_2024_sao_paulo_title
-TEXT: City Safari: São Paulo 2024
+TEXT: Stadt-Safari: São Paulo 2024
 
 RESOURCE ID: safari_city_2024_sao_paulo_title_00
-TEXT: City Safari: São Paulo 2024 (1/3)
+TEXT: Stadt-Safari: São Paulo 2024 (1/3)
 
 RESOURCE ID: safari_city_2024_sao_paulo_title_01
-TEXT: City Safari: São Paulo 2024 (2/3)
+TEXT: Stadt-Safari: São Paulo 2024 (2/3)
 
 RESOURCE ID: safari_city_2024_sao_paulo_title_02
-TEXT: City Safari: São Paulo 2024 (3/3)
+TEXT: Stadt-Safari: São Paulo 2024 (3/3)
 
 RESOURCE ID: search_filter_help_url
 TEXT: https://niantic.helpshift.com/hc/faq/1486-searching-filtering-your-pokemon-inventory/
@@ -1528,11 +1615,26 @@ TEXT: By sharing, friends will be able to join a raid you’re in directly from 
 RESOURCE ID: shop_discount_disclaimer_helpshift_url
 TEXT: https://niantic.helpshift.com/hc/de/6-pokemon-go/faq/4707-notice-regarding-discount-rates-displayed-in-the-shop/
 
+RESOURCE ID: shop_quick_exchange_max_boost
+TEXT: Exchange PokéCoins for a Max Mushroom?
+
 RESOURCE ID: simply_groundbreaking_event_name
 TEXT: Bahnbrechende Buddelei
 
 RESOURCE ID: simply_groundbreaking_tr_name
 TEXT: Befristete Forschung: Bahnbrechende Buddelei
+
+RESOURCE ID: sku.name.item_max_boost
+TEXT: Max Mushroom
+
+RESOURCE ID: sku.name.web-gowa-2024-box-1
+TEXT: Kampfbox zur GO-Naturzone
+
+RESOURCE ID: sku.name.web-gowa-2024-box-2
+TEXT: Schlüpfbox zur GO-Naturzone
+
+RESOURCE ID: sku.name.web-gowa-2024-box-3
+TEXT: Ultimative Box zur GO-Naturzone
 
 RESOURCE ID: spawn_mankey
 TEXT: Wilde Menki erscheinen mit vermehrter Häufigkeit!
@@ -1541,7 +1643,7 @@ RESOURCE ID: spawn_mighty
 TEXT: Wilde mächtige Pokémon erscheinen
 
 RESOURCE ID: sr_gowa2024_global_ticketed_1
-TEXT: Ein erfahrener Trainer (1/1)
+TEXT: Ein erfahrener Trainer (1/6)
 
 RESOURCE ID: sr_gowa2024_global_ticketed_electric
 TEXT: In Hochform
@@ -1583,7 +1685,7 @@ RESOURCE ID: sr_gowa2024_irl
 TEXT: Ein erfahrener Trainer
 
 RESOURCE ID: sr_gowa2024_irl_1
-TEXT: Ein erfahrener Trainer (1/1)
+TEXT: Ein erfahrener Trainer (1/6)
 
 RESOURCE ID: sr_gowa2024_irl_7
 TEXT: Ein wahrlich erfahrener Trainer (1/1)
@@ -1654,7 +1756,7 @@ TEXT: <b>Enthaltene Belohnungen:</b>
 RESOURCE ID: text_rewards_key_harvest1124
 TEXT: <b>Enthaltene Belohnungen:</b>
 • Begegnungen mit Olini
-• 2 Moos-Lockmodule, 1 Rauch und 2 Glücks-Eier
+• 2 Moos-Lockmodule, 1 Rauch und 1 Glücks-Ei
 • 4 000 EP und 2 000 Sternenstaub
 
 RESOURCE ID: text_rewards_key_mankeycd24

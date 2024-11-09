@@ -7,6 +7,9 @@ TEXT: Tu dispositivo no puede usar RA.
 RESOURCE ID: ar_not_supported_title
 TEXT: Incompatible
 
+RESOURCE ID: attack_power_increased
+TEXT: Max Mushroom was used. Attacks are boosted!
+
 RESOURCE ID: badge_gowa_2024_global
 TEXT: 23 y 24 de noviembre de 2024
 
@@ -194,10 +197,10 @@ RESOURCE ID: bonus_mp_cap_10000
 TEXT: Consigue hasta 10,000 Partículas Max al día de los Nodos Energéticos y por explorar
 
 RESOURCE ID: bonus_mp_cap_1600
-TEXT: Consigue hasta 1,600 Partículas Max al día de los Nodos Energéticos y por explorar
+TEXT: Obtén hasta 1,600 Partículas Max al día de los Nodos Energéticos y por explorar
 
 RESOURCE ID: bonus_mp_cap_3200
-TEXT: Collect up to 3,200 Max Particles per day from Power Spots and exploration
+TEXT: Obtén hasta 3,200 Partículas Max al día de los Nodos Energéticos y por explorar
 
 RESOURCE ID: bonus_mp_cap_4000
 TEXT: Consigue hasta 4,000 Partículas Max al día de los Nodos Energéticos y por explorar
@@ -265,6 +268,9 @@ TEXT: Se trata de desafiantes combates contra Pokémon Gigamax. Recomendamos par
 RESOURCE ID: bread_dough_battle_ftue_title
 TEXT: ¡Combates Gigamax!
 
+RESOURCE ID: bread_dough_lobby_active_items_total
+TEXT: + {0} Max Mushrooms
+
 RESOURCE ID: bread_dough_lobby_count
 TEXT: Equipo {0} de {1}
 
@@ -276,6 +282,15 @@ TEXT: {0} Entrenadores
 
 RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
 TEXT: 1 Entrenador
+
+RESOURCE ID: bread_max_boost_ftue_activation_message
+TEXT: You can try this item for 5 minutes. This item normally lasts 30 minutes.
+
+RESOURCE ID: bread_max_boost_ftue_message
+TEXT: Double the attack power of your Pokémon in Max Battles!
+
+RESOURCE ID: bread_max_boost_ftue_try_button
+TEXT: Try for 5 minutes
 
 RESOURCE ID: bread_notification_empty
 TEXT: {0} volvió del Nodo Energético.
@@ -339,13 +354,13 @@ RESOURCE ID: event_mossy_lure_pokemon
 TEXT: Los Pokémon del evento son atraídos por los Módulos Señuelo Musgosos
 
 RESOURCE ID: event_research_complete
-TEXT: Event Research Complete!
+TEXT: ¡Investigación del evento completada!
 
 RESOURCE ID: field_research_special_tasks
 TEXT: Ya disponibles tareas de Investigación Temporal por participar
 
 RESOURCE ID: for_bonus_challenge
-TEXT: (for Bonus Challenge)
+TEXT: (para el Desafío de Bonificación)
 
 RESOURCE ID: fr_tag_meetup
 TEXT: Reunión
@@ -737,28 +752,34 @@ RESOURCE ID: gowa_2024
 TEXT: Área Silvestre de Pokémon GO 2024
 
 RESOURCE ID: gowa_2024_all_sat
-TEXT: GO Wild Area: All-Day Saturday
+TEXT: Área Silvestre de GO: Sábado (Todo el día)
 
 RESOURCE ID: gowa_2024_all_sun
-TEXT: GO Wild Area: All-Day Sunday
+TEXT: Área Silvestre de GO: Domingo (Todo el día)
 
 RESOURCE ID: gowa_2024_all_weekend
-TEXT: GO Wild Area: All Weekend
+TEXT: Área Silvestre de GO: Todo el fin de semana
 
 RESOURCE ID: gowa_2024_all_weekend_ticketed
-TEXT: GO Wild Area: All Weekend (Ticket)
+TEXT: Área Silvestre de GO: Todo el fin de semana (Entrada)
 
 RESOURCE ID: gowa_2024_beyond_electric
-TEXT: Beyond Wild Area: Electric Expert
+TEXT: Más allá del Área Silvestre: Talento Eléctrico
 
 RESOURCE ID: gowa_2024_beyond_poison
-TEXT: Beyond Wild Area: Poison Pro
+TEXT: Más allá del Área Silvestre: Dominio Venenoso
 
 RESOURCE ID: gowa_2024_content_hashtag
 TEXT: Publica fotos con la etiqueta #GOWildArea2024, ¡y compartiremos las que más nos gusten!
 
 RESOURCE ID: gowa_2024_fukuoka
 TEXT: Área Silvestre de Pokémon GO 2024: Fukuoka
+
+RESOURCE ID: gowa_2024_global_electric_now
+TEXT: Ya empezó: Hora Eléctrica
+
+RESOURCE ID: gowa_2024_global_poison_now
+TEXT: Ya empezó: Hora Veneno
 
 RESOURCE ID: gowa_2024_habitat_electric
 TEXT: Eléctrico
@@ -767,46 +788,40 @@ RESOURCE ID: gowa_2024_habitat_electric_description
 TEXT: ¡Atrapa estos Pokémon en el hábitat Eléctrico!
 
 RESOURCE ID: gowa_2024_habitat_global_electric
-TEXT: Ya empezó: Hora Eléctrica
+TEXT: Desafío de Colección del Área Silvestre: Eléctrico
 
 RESOURCE ID: gowa_2024_habitat_global_electric_description
-TEXT: Catch these Pokémon during Electric Hours!
-
-RESOURCE ID: gowa_2024_habitat_global_electric_temp
-TEXT: Wild Area Collection Challenge: Electric
+TEXT: ¡Atrapa estos Pokémon durante las Horas Eléctricas!
 
 RESOURCE ID: gowa_2024_habitat_global_poison
-TEXT: Ya empezó: Hora Veneno
+TEXT: Desafío de Colección del Área Silvestre: Veneno
 
 RESOURCE ID: gowa_2024_habitat_global_poison_description
-TEXT: Catch these Pokémon during Poison Hours!
-
-RESOURCE ID: gowa_2024_habitat_global_poison_temp
-TEXT: Wild Area Collection Challenge: Poison
+TEXT: ¡Atrapa estos Pokémon durante las Horas Veneno!
 
 RESOURCE ID: gowa_2024_habitat_irl_electric
-TEXT: Wild Area Collection Challenge: Electric
+TEXT: Desafío de Colección del Área Silvestre: Eléctrico
 
 RESOURCE ID: gowa_2024_habitat_irl_electric_description
-TEXT: Catch Electric-type Pokémon!
+TEXT: ¡Atrapa Pokémon de tipo Eléctrico!
 
 RESOURCE ID: gowa_2024_habitat_irl_poison
-TEXT: Wild Area Collection Challenge: Poison
+TEXT: Desafío de Colección del Área Silvestre: Veneno
 
 RESOURCE ID: gowa_2024_habitat_irl_poison_description
-TEXT: Catch Poison-type Pokémon!
+TEXT: ¡Atrapa Pokémon de tipo Veneno!
 
 RESOURCE ID: gowa_2024_habitat_leadup_electric
-TEXT: Into the Wild Collection Challenge: Electric
+TEXT: Desafío de Colección de Una expedición silvestre: Eléctrico
 
 RESOURCE ID: gowa_2024_habitat_leadup_electric_description
-TEXT: Catch Electric-type Pokémon!
+TEXT: ¡Atrapa Pokémon de tipo Eléctrico!
 
 RESOURCE ID: gowa_2024_habitat_leadup_poison
-TEXT: Into the Wild Collection Challenge: Poison
+TEXT: Desafío de Colección de Una expedición silvestre: Veneno
 
 RESOURCE ID: gowa_2024_habitat_leadup_poison_description
-TEXT: Catch Poison-type Pokémon!
+TEXT: ¡Atrapa Pokémon de tipo Veneno!
 
 RESOURCE ID: gowa_2024_habitat_poison
 TEXT: Veneno
@@ -815,7 +830,7 @@ RESOURCE ID: gowa_2024_habitat_poison_description
 TEXT: ¡Atrapa estos Pokémon en el hábitat Veneno!
 
 RESOURCE ID: gowa_2024_leadup
-TEXT: Into the Wild
+TEXT: Una expedición silvestre
 
 RESOURCE ID: gowa_2024_live_fukuoka_city
 TEXT: Área Silvestre de Pokémon GO 2024: Fukuoka (Experiencia en la ciudad)
@@ -836,16 +851,40 @@ RESOURCE ID: gowa_2024_quest_branch_poison_title
 TEXT: Veneno
 
 RESOURCE ID: gowa_2024_sat
-TEXT: GO Wild Area: Saturday Event Hours
+TEXT: Área Silvestre de GO: Sábado (Durante el evento)
 
 RESOURCE ID: gowa_2024_sat_ticketed
-TEXT: GO Wild Area: Saturday Event Hours (Ticket)
+TEXT: Área Silvestre de GO con entrada: Sábado (Durante el evento)
 
 RESOURCE ID: gowa_2024_sun
-TEXT: GO Wild Area: Sunday Event Hours
+TEXT: Área Silvestre de GO: Domingo (Durante el evento)
 
 RESOURCE ID: gowa_2024_sun_ticketed
-TEXT: GO Wild Area: Sunday Event Hours (Ticket)
+TEXT: Área Silvestre de GO con entrada: Domingo (Durante el evento)
+
+RESOURCE ID: gstar_2024_city_bonus
+TEXT: G-STAR 2024: Bonificación de Ciudad del 20.º aniversario
+
+RESOURCE ID: gstar_2024_evolve_move_bonus_blaziken
+TEXT: ¡Evoluciona a Combusken para conseguir un Blaziken que conozca el ataque cargado Anillo de Fuego!
+
+RESOURCE ID: gstar_2024_evolve_move_bonus_sceptile
+TEXT: ¡Evoluciona a Grovyle para conseguir un Sceptile que conozca el ataque cargado Planta Feroz!
+
+RESOURCE ID: gstar_2024_evolve_move_bonus_swampert
+TEXT: ¡Evoluciona a Marshtomp para conseguir un Swampert que conozca el ataque cargado Hidrocañón!
+
+RESOURCE ID: gstar_2024_title
+TEXT: G-STAR 2024: 20.º aniversario
+
+RESOURCE ID: gstar_2024_tr_name
+TEXT: Investigación Temporal de G-STAR 2024: 20.º aniversario
+
+RESOURCE ID: gstar_2024_tr_name_1
+TEXT: Investigación Temporal de G-STAR 2024: 20.º aniversario (1/2)
+
+RESOURCE ID: gstar_2024_tr_name_2
+TEXT: Investigación Temporal de G-STAR 2024: 20.º aniversario (2/2)
 
 RESOURCE ID: gym_general
 TEXT: Gimnasio
@@ -1043,6 +1082,15 @@ TEXT: Esta entrada se activará automáticamente para darte acceso a la Investig
 RESOURCE ID: item_event_ticket_pink_details_mankeycd24
 TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Especial del Día de la Comunidad de Mankey, "Aquí manda Mankey", el 10 de noviembre, estés donde estés.
 
+RESOURCE ID: item_max_boost_desc
+TEXT: An item that increases the attack power of Pokémon in Max battles for 30 minutes.
+
+RESOURCE ID: item_max_boost_name
+TEXT: Max Mushroom
+
+RESOURCE ID: item_max_boost_name_plural
+TEXT: Max Mushrooms
+
 RESOURCE ID: item_wild_ball_premier_desc
 TEXT: Una Pokébola muy eficaz a la hora de atrapar Pokémon. Solo está disponible durante los eventos de Área Silvestre de Pokémon GO.
 
@@ -1120,6 +1168,21 @@ TEXT: Los Pokémon del evento son atraídos por los Módulos Señuelo Lluviosos
 RESOURCE ID: lure_spawns_custom
 TEXT: Los Pokémon del evento son atraídos por los Módulos Señuelo
 
+RESOURCE ID: max_boost.1_description
+TEXT: A mushroom that increases the attack power of Pokémon in Max battles for 30 minutes.
+
+RESOURCE ID: max_boost.1_title
+TEXT: Max Mushroom
+
+RESOURCE ID: max_boost.3_description
+TEXT: 3 Max Mushrooms. Increases the attack power of Pokémon in Max battles for 30 minutes.
+
+RESOURCE ID: max_boost.3_title
+TEXT: 3 Max Mushrooms
+
+RESOURCE ID: max_boost_item_activated_toast
+TEXT: Attack Power Increased!
+
 RESOURCE ID: meetup_check_in_battle
 TEXT: Combates
 
@@ -1142,10 +1205,10 @@ RESOURCE ID: meetup_check_in_social
 TEXT: Conexión
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-11-07T18:30:04.743259+00:00 for es-MX
-at SHA df38c5a3804
-Pipeline 2758820, job 33802639
-Patch from: 0.339.0-SHA-2e54bc79-RC4, 0.337.0-SHA-eac556c0-RC4
+TEXT: Built at 2024-11-09T00:01:24.596197+00:00 for es-MX
+at SHA 4de126bdafe
+Pipeline 2763512, job 33866121
+Patch from: 0.339.0-SHA-8a0c57d6-RC2, 0.337.0-SHA-b4a38293-RC1
 
 RESOURCE ID: move_name_0464
 TEXT: Puño Furia
@@ -1232,6 +1295,18 @@ TEXT: POKÉMON
 RESOURCE ID: pokedex_region_button_title
 TEXT: Region
 
+RESOURCE ID: pokemon_desc_0062
+TEXT: Aunque puede nadar de forma hábil y enérgica utilizando todos sus músculos, por algún motivo prefiere vivir en tierra firme.
+
+RESOURCE ID: pokemon_desc_0225
+TEXT: Transporta comida durante todo el día. Según dicen, sus reservas de alimentos han ayudado a salvar la vida de personas en peligro.
+
+RESOURCE ID: pokemon_desc_0849_2463
+TEXT: Puede liberar descargas eléctricas de hasta 15,000 V. Se enfrenta a cualquier rival con una actitud soberbia.
+
+RESOURCE ID: pokemon_desc_0849_2464
+TEXT: Cuando rasga las protuberancias del pecho para generar energía eléctrica, emite un sonido similar al de una guitarra, que reverbera en el entorno.
+
 RESOURCE ID: pokemon_info_evolve_pokemon_deployed
 TEXT: {0} está asignado a un Gimnasio o Nodo Energético.
 
@@ -1249,6 +1324,15 @@ TEXT: {0} Gmax.
 
 RESOURCE ID: pokemon_name_bread_short
 TEXT: {0} Dmax.
+
+RESOURCE ID: pokestop_challenge_fr_title
+TEXT: Desafío de Poképaradas
+
+RESOURCE ID: pokestop_challenge_tr_desc
+TEXT: Investigación Temporal de Desafío de Poképaradas
+
+RESOURCE ID: pokestop_challenge_tr_desc_title_00
+TEXT: Investigación Temporal de Desafío de Poképaradas (1/1)
 
 RESOURCE ID: pokestop_general
 TEXT: Poképarada
@@ -1545,8 +1629,11 @@ Cada Camino a las recompensas tiene una duración de un mes. Los puntos de recom
 
 **Los puntos de recompensa expiran al final de cada mes. Incluso si un Entrenador canjea todas las recompensas, los puntos de recompensa no se podrán usar en el mes siguiente. Los Entrenadores que usen cuentas de menores no pueden participar en el programa Camino a las recompensas. Los puntos de recompensa no son dinero en efectivo o ninguna otra divisa y no se pueden transferir entre cuentas. La disponibilidad y las condiciones del programa Camino a las recompensas están sujetos a cambios.
 
+RESOURCE ID: rewarded_spend_helpshift_expiration_timer_key
+TEXT: Current period resets on {0} at {1}.
+
 RESOURCE ID: rewarded_spend_helpshift_footer
-TEXT: Para obtener más información, visita el <a href="https://niantic.helpshift.com/">sitio web</a>.
+TEXT: Para obtener más información, visita el <a href="https://niantic.helpshift.com/hc/faq/94-how-can-i-purchase-items-and-pokecoins/">sitio web</a>.
 
 RESOURCE ID: rewarded_spend_helpshift_title
 TEXT: ¡Una nueva forma de obtener recompensas!
@@ -1557,6 +1644,9 @@ TEXT: +{0}
 RESOURCE ID: rewarded_spend_in_progress
 TEXT: En progreso
 
+RESOURCE ID: rewarded_spend_levels_completed_claimable_desc
+TEXT: You have reached the monthly level earning cap. Claim your rewards before they reset!
+
 RESOURCE ID: rewarded_spend_monthly_reward_road_key
 TEXT: Camino a las recompensas de {0}
 
@@ -1565,6 +1655,9 @@ TEXT: ¡Obtén puntos y gana recompensas!
 
 RESOURCE ID: rewarded_spend_not_available
 TEXT: Sin comenzar
+
+RESOURCE ID: rewarded_spend_notification_string_key
+TEXT: Reward Road
 
 RESOURCE ID: rewarded_spend_points_header
 TEXT: {0}/{1} puntos
@@ -1630,10 +1723,10 @@ RESOURCE ID: searching_gold_june23_tr_title
 TEXT: Día de Investigación Buscando oro: Investigación Temporal
 
 RESOURCE ID: settings_select_suggested_search_help
-TEXT: See search term filter options.
+TEXT: Muestra opciones de filtros para los términos de búsqueda.
 
 RESOURCE ID: settings_select_suggested_search_term
-TEXT: Show Suggested Search Terms
+TEXT: Sugerencias de términos de búsqueda
 
 RESOURCE ID: share_raid_attendance_settings_key
 TEXT: Share Raid Attendance with Friends
@@ -1641,11 +1734,26 @@ TEXT: Share Raid Attendance with Friends
 RESOURCE ID: share_raid_attendance_tip_key
 TEXT: By sharing, friends will be able to join a raid you’re in directly from their Friend List.
 
+RESOURCE ID: shop_quick_exchange_max_boost
+TEXT: Exchange PokéCoins for a Max Mushroom?
+
 RESOURCE ID: simply_groundbreaking_event_name
 TEXT: Simply Groundbreaking
 
 RESOURCE ID: simply_groundbreaking_tr_name
 TEXT: Simply Groundbreaking Timed Research
+
+RESOURCE ID: sku.name.item_max_boost
+TEXT: Max Mushroom
+
+RESOURCE ID: sku.name.web-gowa-2024-box-1
+TEXT: Caja Combate del Área Silvestre de GO
+
+RESOURCE ID: sku.name.web-gowa-2024-box-2
+TEXT: Caja Eclosión del Área Silvestre de GO
+
+RESOURCE ID: sku.name.web-gowa-2024-box-3
+TEXT: Caja Definitiva del Área Silvestre de GO
 
 RESOURCE ID: spawn_mankey
 TEXT: ¡Están apareciendo más Mankey salvajes!
@@ -1654,7 +1762,7 @@ RESOURCE ID: spawn_mighty
 TEXT: Están apareciendo Pokémon formidables salvajes
 
 RESOURCE ID: sr_gowa2024_global_ticketed_1
-TEXT: Un entrenamiento completo (1/1)
+TEXT: Un entrenamiento completo (1/6)
 
 RESOURCE ID: sr_gowa2024_global_ticketed_electric
 TEXT: Sube los tonos agudos
@@ -1696,7 +1804,7 @@ RESOURCE ID: sr_gowa2024_irl
 TEXT: Un entrenamiento completo
 
 RESOURCE ID: sr_gowa2024_irl_1
-TEXT: Un entrenamiento completo (1/1)
+TEXT: Un entrenamiento completo (1/6)
 
 RESOURCE ID: sr_gowa2024_irl_7
 TEXT: Un entrenamiento realmente completo (1/1)
@@ -1786,7 +1894,7 @@ RESOURCE ID: ticket_mankey
 TEXT: La entrada para la Investigación Especial de Aquí manda Mankey está disponible en la Tienda
 
 RESOURCE ID: timed_research_complete
-TEXT: Timed Research Complete!
+TEXT: ¡Investigación Temporal completada!
 
 RESOURCE ID: timed_research_special
 TEXT: Ya disponible la Investigación Temporal por participar
@@ -1795,16 +1903,16 @@ RESOURCE ID: today_view_flock_together_rd_may24
 TEXT: La entrada para la Investigación Temporal de Día de Investigación en Bandada está disponible en la Tienda
 
 RESOURCE ID: tr_gowa2024_global_daily_electric
-TEXT: Beyond Wild Area: Electric Expert Timed Research
+TEXT: Investigación Temporal de Más allá del Área Silvestre: Talento Eléctrico
 
 RESOURCE ID: tr_gowa2024_global_daily_electric_1
-TEXT: Beyond Wild Area: Electric Expert Timed Research (1/1)
+TEXT: Investigación Temporal de Más allá del Área Silvestre: Talento Eléctrico (1/1)
 
 RESOURCE ID: tr_gowa2024_global_daily_poison
-TEXT: Beyond Wild Area: Poison Pro Timed Research
+TEXT: Investigación Temporal de Más allá del Área Silvestre: Dominio Venenoso
 
 RESOURCE ID: tr_gowa2024_global_daily_poison_1
-TEXT: Beyond Wild Area: Poison Pro Timed Research (1/1)
+TEXT: Investigación Temporal de Más allá del Área Silvestre: Dominio Venenoso (1/1)
 
 RESOURCE ID: tr_gowa2024_global_day_1_free
 TEXT: Lanzamientos silvestres

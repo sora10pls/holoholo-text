@@ -4,6 +4,9 @@ TEXT: お使いのデバイスはARをサポートしていません。
 RESOURCE ID: ar_not_supported_title
 TEXT: デバイスの問題
 
+RESOURCE ID: attack_power_increased
+TEXT: Max Mushroom was used. Attacks are boosted!
+
 RESOURCE ID: badge_gowa_2024_special_research_a
 TEXT: Pokémon GO ワイルドエリア2024
 
@@ -109,6 +112,9 @@ TEXT: キョダイマックスしたポケモンとのバトルです。{0}～{1
 RESOURCE ID: bread_dough_battle_ftue_title
 TEXT: キョダイマックスバトル！
 
+RESOURCE ID: bread_dough_lobby_active_items_total
+TEXT: + {0} Max Mushrooms
+
 RESOURCE ID: bread_dough_lobby_count
 TEXT: チーム{0} (全{1})
 
@@ -120,6 +126,15 @@ TEXT: 参加者 ({0}人)
 
 RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
 TEXT: 参加者 (1人)
+
+RESOURCE ID: bread_max_boost_ftue_activation_message
+TEXT: You can try this item for 5 minutes. This item normally lasts 30 minutes.
+
+RESOURCE ID: bread_max_boost_ftue_message
+TEXT: Double the attack power of your Pokémon in Max Battles!
+
+RESOURCE ID: bread_max_boost_ftue_try_button
+TEXT: Try for 5 minutes
 
 RESOURCE ID: bundle.diademuertos.box.1_title
 TEXT: Día de Muertosボックス
@@ -557,17 +572,23 @@ TEXT: ワイルドエリアを越えて：エレキエキスパート
 RESOURCE ID: gowa_2024_beyond_poison
 TEXT: ワイルドエリアを越えて：ポイズンプロ
 
+RESOURCE ID: gowa_2024_global_electric_now
+TEXT: Now：でんきアワー
+
+RESOURCE ID: gowa_2024_global_poison_now
+TEXT: Now：どくアワー
+
+RESOURCE ID: gowa_2024_habitat_global_electric
+TEXT: ワイルドエリアコレクションチャレンジ：でんき
+
 RESOURCE ID: gowa_2024_habitat_global_electric_description
 TEXT: これらのポケモンをでんきアワーで捕まえよう！
 
-RESOURCE ID: gowa_2024_habitat_global_electric_temp
-TEXT: ワイルドエリアコレクションチャレンジ：でんき
+RESOURCE ID: gowa_2024_habitat_global_poison
+TEXT: ワイルドエリアコレクションチャレンジ：どく
 
 RESOURCE ID: gowa_2024_habitat_global_poison_description
 TEXT: これらのポケモンをどくアワーで捕まえよう！
-
-RESOURCE ID: gowa_2024_habitat_global_poison_temp
-TEXT: ワイルドエリアコレクションチャレンジ：どく
 
 RESOURCE ID: gowa_2024_habitat_irl_electric
 TEXT: ワイルドエリアコレクションチャレンジ：でんき
@@ -613,6 +634,30 @@ TEXT: GOワイルドエリア：日曜イベントアワー
 
 RESOURCE ID: gowa_2024_sun_ticketed
 TEXT: GOワイルドエリア：日曜イベントアワー（チケット）
+
+RESOURCE ID: gstar_2024_city_bonus
+TEXT: G-STAR 2024：20周年 – シティボーナス
+
+RESOURCE ID: gstar_2024_evolve_move_bonus_blaziken
+TEXT: ワカシャモをバシャーモに進化させるとブラストバーンを覚えている
+
+RESOURCE ID: gstar_2024_evolve_move_bonus_sceptile
+TEXT: ジュプトルをジュカインに進化させるとハードプラントを覚えている
+
+RESOURCE ID: gstar_2024_evolve_move_bonus_swampert
+TEXT: ヌマクローをラグラージに進化させるとハイドロカノンを覚えている
+
+RESOURCE ID: gstar_2024_title
+TEXT: G-STAR 2024：20周年
+
+RESOURCE ID: gstar_2024_tr_name
+TEXT: G-STAR 2024：20周年タイムチャレンジ
+
+RESOURCE ID: gstar_2024_tr_name_1
+TEXT: G-STAR 2024：20周年タイムチャレンジ(1/2)
+
+RESOURCE ID: gstar_2024_tr_name_2
+TEXT: G-STAR 2024：20周年タイムチャレンジ(2/2)
 
 RESOURCE ID: halloween_03_oct24_event_name
 TEXT: キャンディーパーティー
@@ -734,6 +779,15 @@ TEXT: このチケットは自動的に発動し11月2日にGOバトルリーグ
 RESOURCE ID: item_event_ticket_pink_details_mankeycd24
 TEXT: このチケットは自動的に発動し11月10日にマンキーコミュニティ・デイのスペシャルリサーチ「ぶたざるポケモンを解明せよ！」が行えるようになります。
 
+RESOURCE ID: item_max_boost_desc
+TEXT: An item that increases the attack power of Pokémon in Max battles for 30 minutes.
+
+RESOURCE ID: item_max_boost_name
+TEXT: Max Mushroom
+
+RESOURCE ID: item_max_boost_name_plural
+TEXT: Max Mushrooms
+
 RESOURCE ID: item_wild_ball_premier_desc
 TEXT: PokémonGOワイルドエリアイベント開催中にのみ使える特別なボール。
 
@@ -791,14 +845,29 @@ TEXT: 9月
 RESOURCE ID: lure_mossy_event_bonus
 TEXT: イベントに沿ったポケモンがハーブルアーに反応
 
+RESOURCE ID: max_boost.1_description
+TEXT: A mushroom that increases the attack power of Pokémon in Max battles for 30 minutes.
+
+RESOURCE ID: max_boost.1_title
+TEXT: Max Mushroom
+
+RESOURCE ID: max_boost.3_description
+TEXT: 3 Max Mushrooms. Increases the attack power of Pokémon in Max battles for 30 minutes.
+
+RESOURCE ID: max_boost.3_title
+TEXT: 3 Max Mushrooms
+
+RESOURCE ID: max_boost_item_activated_toast
+TEXT: Attack Power Increased!
+
 RESOURCE ID: meetup_check_in_bonus
 TEXT: ミートアップチェックインボーナス
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-11-07T18:30:04.743259+00:00 for ja-JP
-at SHA df38c5a3804
-Pipeline 2758820, job 33802639
-Patch from: 0.339.0-SHA-2e54bc79-RC4, 0.337.0-SHA-eac556c0-RC4
+TEXT: Built at 2024-11-09T00:01:24.596197+00:00 for ja-JP
+at SHA 4de126bdafe
+Pipeline 2763512, job 33866121
+Patch from: 0.339.0-SHA-8a0c57d6-RC2, 0.337.0-SHA-b4a38293-RC1
 
 RESOURCE ID: move_name_0464
 TEXT: ふんどのこぶし
@@ -862,6 +931,21 @@ TEXT: 筋肉をすべて使ったダイナミックな泳ぎが得意だがな�
 
 RESOURCE ID: pokemon_desc_0225
 TEXT: １日ずっとエサを運んでる。遭難した人がデリバードのエサで助かった話もある。
+
+RESOURCE ID: pokemon_desc_0849_2463
+TEXT: １５０００ボルトもの電気を発生させることができる。どんな相手も舐めている。
+
+RESOURCE ID: pokemon_desc_0849_2464
+TEXT: 胸の突起を掻きむしり電気を起こすときあたりにギターのような音が響く。
+
+RESOURCE ID: pokestop_challenge_fr_title
+TEXT: ポケストップチャレンジ
+
+RESOURCE ID: pokestop_challenge_tr_desc
+TEXT: ポケストップタイムチャレンジ
+
+RESOURCE ID: pokestop_challenge_tr_desc_title_00
+TEXT: ポケストップタイムチャレンジ(1/1)
 
 RESOURCE ID: quest_appraise_pokemon_plural
 TEXT: ポケモンを{0}匹評価してもらう
@@ -1149,8 +1233,11 @@ TEXT: リワードロードは、毎月対象商品の購入額*によりポイ�
 
 **リワードポイントの期限は月末に切れるため、持ち越しはできません。子供アカウント使用のトレーナーはリワードロードプログラムに参加できません。リワードポイントは現金およびいかなる種類の通貨ではなく、アカウント間で移動できません。リワードロードプログラムの可用性と条件は変更されることがあります。
 
+RESOURCE ID: rewarded_spend_helpshift_expiration_timer_key
+TEXT: Current period resets on {0} at {1}.
+
 RESOURCE ID: rewarded_spend_helpshift_footer
-TEXT: 詳細は<a href="https://niantic.helpshift.com/">ウェブサイト</a>でご確認ください
+TEXT: 詳細は<a href="https://niantic.helpshift.com/hc/faq/94-how-can-i-purchase-items-and-pokecoins/">ウェブサイト</a>でご確認ください
 
 RESOURCE ID: rewarded_spend_helpshift_title
 TEXT: 金額が増えるとたまるポイント
@@ -1161,6 +1248,9 @@ TEXT: +{0}
 RESOURCE ID: rewarded_spend_in_progress
 TEXT: 進行中
 
+RESOURCE ID: rewarded_spend_levels_completed_claimable_desc
+TEXT: You have reached the monthly level earning cap. Claim your rewards before they reset!
+
 RESOURCE ID: rewarded_spend_monthly_reward_road_key
 TEXT: {0}のリワードロード
 
@@ -1169,6 +1259,9 @@ TEXT: リワードポイントをためよう！
 
 RESOURCE ID: rewarded_spend_not_available
 TEXT: 開始前
+
+RESOURCE ID: rewarded_spend_notification_string_key
+TEXT: Reward Road
 
 RESOURCE ID: rewarded_spend_points_header
 TEXT: {0}/{1} pt
@@ -1224,17 +1317,38 @@ TEXT: Share Raid Attendance with Friends
 RESOURCE ID: share_raid_attendance_tip_key
 TEXT: By sharing, friends will be able to join a raid you’re in directly from their Friend List.
 
+RESOURCE ID: shop_quick_exchange_max_boost
+TEXT: Exchange PokéCoins for a Max Mushroom?
+
 RESOURCE ID: simply_groundbreaking_event_name
 TEXT: グランドブレーキングイベント
 
 RESOURCE ID: simply_groundbreaking_tr_name
 TEXT: グランドブレーキングイベントタイムチャレンジ
 
+RESOURCE ID: sku.name.item_max_boost
+TEXT: Max Mushroom
+
+RESOURCE ID: sku.name.web-gowa-2024-box-1
+TEXT: GOワイルドエリアバトラーボックス
+
+RESOURCE ID: sku.name.web-gowa-2024-box-2
+TEXT: GOワイルドエリアふかボックス
+
+RESOURCE ID: sku.name.web-gowa-2024-box-3
+TEXT: GOワイルドエリア究極ボックス
+
 RESOURCE ID: spawn_mankey
 TEXT: マンキーがより多く野生で出現
 
+RESOURCE ID: sr_gowa2024_global_ticketed_1
+TEXT: すご腕トレーナー(1/6)
+
 RESOURCE ID: sr_gowa2024_global_ticketed_electric_4
 TEXT: ハイでいこう(4/6)
+
+RESOURCE ID: sr_gowa2024_irl_1
+TEXT: すご腕トレーナー(1/6)
 
 RESOURCE ID: sr_gowa2024_irl_electric_2
 TEXT: ハイでいこう(2/6)
@@ -1267,7 +1381,7 @@ RESOURCE ID: text_rewards_key_harvest1124
 TEXT: <b>もらえるもの：</b>
 ・ミニーブとの出会い
 ・ハーブルアー2個、おこう1個、しあわせタマゴ1個
-・2000ほしのすなと4000XP、など
+・4000XPと2000ほしのすな、など
 
 RESOURCE ID: text_rewards_key_mankeycd24
 TEXT: <b>もらえるもの：</b>

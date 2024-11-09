@@ -7,6 +7,9 @@ TEXT: Твое устройство не поддерживает AR.
 RESOURCE ID: ar_not_supported_title
 TEXT: Не поддерживается
 
+RESOURCE ID: attack_power_increased
+TEXT: Max Mushroom was used. Attacks are boosted!
+
 RESOURCE ID: badge_check_ins
 TEXT: Зарегистрируйся на встречи амбассадоров сообщества  в разные дни ×{0}.
 
@@ -274,6 +277,9 @@ TEXT: Это серьёзные сражения против Гигантама
 RESOURCE ID: bread_dough_battle_ftue_title
 TEXT: Гигантамакс-битвы!
 
+RESOURCE ID: bread_dough_lobby_active_items_total
+TEXT: + {0} Max Mushrooms
+
 RESOURCE ID: bread_dough_lobby_count
 TEXT: Команда {0} из {1}
 
@@ -285,6 +291,15 @@ TEXT: Тренеров: {0}
 
 RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
 TEXT: 1 Тренер
+
+RESOURCE ID: bread_max_boost_ftue_activation_message
+TEXT: You can try this item for 5 minutes. This item normally lasts 30 minutes.
+
+RESOURCE ID: bread_max_boost_ftue_message
+TEXT: Double the attack power of your Pokémon in Max Battles!
+
+RESOURCE ID: bread_max_boost_ftue_try_button
+TEXT: Try for 5 minutes
 
 RESOURCE ID: bread_notification_empty
 TEXT: {0} вернулся из Зоны силы.
@@ -758,6 +773,12 @@ TEXT: Публикуй фото с хэштегом #GOWildArea2024, а мы п
 RESOURCE ID: gowa_2024_fukuoka
 TEXT: Нетронутые земли Pokémon GO 2024: Фукуока
 
+RESOURCE ID: gowa_2024_global_electric_now
+TEXT: Проходят сейчас: Час типа Электро
+
+RESOURCE ID: gowa_2024_global_poison_now
+TEXT: Проходят сейчас: Час типа Яд
+
 RESOURCE ID: gowa_2024_habitat_electric
 TEXT: Электро
 
@@ -765,22 +786,16 @@ RESOURCE ID: gowa_2024_habitat_electric_description
 TEXT: Поймай этих Покемонов на территории Электро!
 
 RESOURCE ID: gowa_2024_habitat_global_electric
-TEXT: Проходят сейчас: Час типа Электро
+TEXT: Коллекционное испытание Нетронутые земли: Электро
 
 RESOURCE ID: gowa_2024_habitat_global_electric_description
 TEXT: Лови этих Покемонов во время часов типа Электро!
 
-RESOURCE ID: gowa_2024_habitat_global_electric_temp
-TEXT: Коллекционное испытание Нетронутые земли: Электро
-
 RESOURCE ID: gowa_2024_habitat_global_poison
-TEXT: Проходят сейчас: Час типа Яд
+TEXT: Коллекционное испытание Нетронутые земли: Яд
 
 RESOURCE ID: gowa_2024_habitat_global_poison_description
 TEXT: Лови этих Покемонов во время часов типа Яд!
-
-RESOURCE ID: gowa_2024_habitat_global_poison_temp
-TEXT: Коллекционное испытание Нетронутые земли: Яд
 
 RESOURCE ID: gowa_2024_habitat_irl_electric
 TEXT: Коллекционное испытание Нетронутые земли: Электро
@@ -844,6 +859,30 @@ TEXT: Нетронутые земли GO: Воскресенье, часы со
 
 RESOURCE ID: gowa_2024_sun_ticketed
 TEXT: Нетронутые земли GO: Воскресенье, часы события (билет)
+
+RESOURCE ID: gstar_2024_city_bonus
+TEXT: G-STAR 2024: 20-летний юбилей – Городской бонус
+
+RESOURCE ID: gstar_2024_evolve_move_bonus_blaziken
+TEXT: Эволюционируй Комбаскена, чтобы получить Блейзикена, который знает заряженную атаку Обжигающий Взрыв!
+
+RESOURCE ID: gstar_2024_evolve_move_bonus_sceptile
+TEXT: Эволюционируй Гровайла, чтобы получить Септайла, который знает заряженную атаку Ярость Леса!
+
+RESOURCE ID: gstar_2024_evolve_move_bonus_swampert
+TEXT: Эволюционируй Марштомпа, чтобы получить Свамперта, который знает заряженную атаку Гидропушка!
+
+RESOURCE ID: gstar_2024_title
+TEXT: G-STAR 2024: 20-летний юбилей
+
+RESOURCE ID: gstar_2024_tr_name
+TEXT: Квест на время G-STAR 2024: 20-летний юбилей
+
+RESOURCE ID: gstar_2024_tr_name_1
+TEXT: Квест на время G-STAR 2024: 20-летний юбилей (1/2)
+
+RESOURCE ID: gstar_2024_tr_name_2
+TEXT: Квест на время G-STAR 2024: 20-летний юбилей (2/2)
 
 RESOURCE ID: gym_general
 TEXT: Гим
@@ -1032,6 +1071,15 @@ TEXT: Этот билет активируется автоматически, �
 RESOURCE ID: item_event_ticket_pink_details_mankeycd24
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальному квесту День сообщества Манки, Проделки Манки, 10 ноября, вне зависимости от твоего местонахождения.
 
+RESOURCE ID: item_max_boost_desc
+TEXT: An item that increases the attack power of Pokémon in Max battles for 30 minutes.
+
+RESOURCE ID: item_max_boost_name
+TEXT: Max Mushroom
+
+RESOURCE ID: item_max_boost_name_plural
+TEXT: Max Mushrooms
+
 RESOURCE ID: item_wild_ball_premier_desc
 TEXT: Болл, обладающий невероятной эффективностью при поимке Покемонов. Он доступен только во время событий Нетронутые земли Pokémon GO.
 
@@ -1103,6 +1151,21 @@ TEXT: Для этого Покемона сейчас
 RESOURCE ID: lure_mossy_event_bonus
 TEXT: Травяные приманки привлекают тематических Ивент-Покемонов
 
+RESOURCE ID: max_boost.1_description
+TEXT: A mushroom that increases the attack power of Pokémon in Max battles for 30 minutes.
+
+RESOURCE ID: max_boost.1_title
+TEXT: Max Mushroom
+
+RESOURCE ID: max_boost.3_description
+TEXT: 3 Max Mushrooms. Increases the attack power of Pokémon in Max battles for 30 minutes.
+
+RESOURCE ID: max_boost.3_title
+TEXT: 3 Max Mushrooms
+
+RESOURCE ID: max_boost_item_activated_toast
+TEXT: Attack Power Increased!
+
 RESOURCE ID: meetup_check_in_battle
 TEXT: Битвы
 
@@ -1125,10 +1188,10 @@ RESOURCE ID: meetup_check_in_research_title_02
 TEXT: Квест на время Встреча сообщества: Битвы
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-11-07T18:30:04.743259+00:00 for ru-RU
-at SHA df38c5a3804
-Pipeline 2758820, job 33802639
-Patch from: 0.339.0-SHA-2e54bc79-RC4, 0.337.0-SHA-eac556c0-RC4
+TEXT: Built at 2024-11-09T00:01:24.596197+00:00 for ru-RU
+at SHA 4de126bdafe
+Pipeline 2763512, job 33866121
+Patch from: 0.339.0-SHA-8a0c57d6-RC2, 0.337.0-SHA-b4a38293-RC1
 
 RESOURCE ID: move_name_0464
 TEXT: Кулак Ярости
@@ -1232,6 +1295,12 @@ TEXT: Несмотря на то, что Поливрат очень искус�
 RESOURCE ID: pokemon_desc_0225
 TEXT: Делибёрд носит пищу с собой весь день. По сказаниям, многие потерявшиеся люди были спасены благодаря той еде, которая была у него с собой.
 
+RESOURCE ID: pokemon_desc_0849_2463
+TEXT: Токстрисити способен генерировать напряжение в 15 тысяч вольт и смотрит свысока на всех, кто бросает ему вызов.
+
+RESOURCE ID: pokemon_desc_0849_2464
+TEXT: Когда Токстрисити звучит, как будто бренчит на гитаре, на самом деле он раздирает когтями свою выступающую грудную клетку, чтобы произвести электричество.
+
 RESOURCE ID: pokemon_ibfc_desc_0877
 TEXT: Этот Покемон преображается, когда использует заряженную атаку. В Злоголодном Режиме Колесо Ауры становится атакой типа Тёмный.
 
@@ -1252,6 +1321,15 @@ TEXT: G-Макс-{0}
 
 RESOURCE ID: pokemon_name_bread_short
 TEXT: D-Макс-{0}
+
+RESOURCE ID: pokestop_challenge_fr_title
+TEXT: Испытание Покестопы
+
+RESOURCE ID: pokestop_challenge_tr_desc
+TEXT: Квест на время Испытание Покестопы
+
+RESOURCE ID: pokestop_challenge_tr_desc_title_00
+TEXT: Квест на время Испытание Покестопы (1/1)
 
 RESOURCE ID: pokestop_general
 TEXT: Покестоп
@@ -1431,25 +1509,25 @@ RESOURCE ID: quest_title_season_16_first_partner_16_dialogue_4
 TEXT: Нет ничего прекраснее, чем знать, что нам предстоит ещё столько открытий. И я не могу представить партнёра в исследованиях лучше, чем ты!
 
 RESOURCE ID: quest_title_season_16_first_partner_17_dialogue_1
-TEXT: I’ve got to say it again—well done, %PLAYERNAME%!
+TEXT: Я снова должен сказать: молодец, %PLAYERNAME%!
 
 RESOURCE ID: quest_title_season_16_first_partner_17_dialogue_2
-TEXT: Your tireless efforts and incredible discoveries in recent weeks have advanced our understanding of the Gigantamax phenomenon in a big way!
+TEXT: Твои неустанные усилия и невероятные открытия, сделанные за последние недели, внесли значительный вклад в наше понимание феномена Гигантамакс!
 
 RESOURCE ID: quest_title_season_16_first_partner_17_dialogue_3
-TEXT: Why don’t you take some time to relax and recharge? You’ve earned it.
+TEXT: Почему бы тебе немного не расслабиться и не восстановить силы? Ты это заслуживаешь.
 
 RESOURCE ID: quest_title_season_16_first_partner_17_dialogue_4
-TEXT: Maybe a peaceful stroll or a quiet picnic in your favorite spot? I’m sure your Buddy Pokémon would like that too!
+TEXT: Может быть, подойдёт спокойная прогулка или тихий пикник в твоём любимом месте? Я уверен, что твоему Покемону-приятелю это тоже понравится!
 
 RESOURCE ID: quest_title_season_16_first_partner_18_dialogue_1
-TEXT: Every time I think I might’ve seen it all, the world of Pokémon drops a surprise on us like the Gigantamax phenomenon.
+TEXT: Каждый раз, когда мне кажется, что я уже повидал всё, мир Покемонов преподносит нам сюрприз, например, феномен Гигантамакс.
 
 RESOURCE ID: quest_title_season_16_first_partner_18_dialogue_2
-TEXT: Every discovery makes me feel like we’re writing the latest and greatest chapter in Pokémon research!
+TEXT: Каждое открытие заставляет меня чувствовать, что мы вписываем новейшую и величайшую главу в исследование Покемонов!
 
 RESOURCE ID: quest_title_season_16_first_partner_18_dialogue_3
-TEXT: As always, thanks for all your hard work, %PLAYERNAME%. Until next time!
+TEXT: Как и всегда, благодарю тебя за отличную работу, %PLAYERNAME%. До скорого!
 
 RESOURCE ID: quest_use_incubator_plural
 TEXT: Используй инкубатор ×{0}
@@ -1563,8 +1641,11 @@ TEXT: Дорога наград – это ежемесячная програм
 
 **Срок действия призовых очков истекает в конце календарного месяца. Даже если Тренер получит все награды, призовые очки не будут перенесены из одного месяца в другой. Тренеры с учётной записью ребёнка, не могут участвовать в программе Дорога наград. Призовые очки не являются наличными средствами или какой-либо другой валютой и не подлежат передаче между учётными записями. Доступность и условия программы Дорога наград подлежат изменению.
 
+RESOURCE ID: rewarded_spend_helpshift_expiration_timer_key
+TEXT: Current period resets on {0} at {1}.
+
 RESOURCE ID: rewarded_spend_helpshift_footer
-TEXT: Чтобы узнать больше, посети <a href="https://niantic.helpshift.com/hc/ru/">этот сайт</a>.
+TEXT: Чтобы узнать больше, посети <a href="https://niantic.helpshift.com/hc/faq/94-how-can-i-purchase-items-and-pokecoins/hc/faq/94-how-can-i-purchase-items-and-pokecoins/">этот сайт</a>.
 
 RESOURCE ID: rewarded_spend_helpshift_title
 TEXT: Новый способ получать награды!
@@ -1575,6 +1656,9 @@ TEXT: + {0}
 RESOURCE ID: rewarded_spend_in_progress
 TEXT: В процессе
 
+RESOURCE ID: rewarded_spend_levels_completed_claimable_desc
+TEXT: You have reached the monthly level earning cap. Claim your rewards before they reset!
+
 RESOURCE ID: rewarded_spend_monthly_reward_road_key
 TEXT: Дорога наград: {0}
 
@@ -1583,6 +1667,9 @@ TEXT: Зарабатывай очки и получай награды!
 
 RESOURCE ID: rewarded_spend_not_available
 TEXT: Не начато
+
+RESOURCE ID: rewarded_spend_notification_string_key
+TEXT: Reward Road
 
 RESOURCE ID: rewarded_spend_points_header
 TEXT: Очки {0}/{1}
@@ -1720,11 +1807,26 @@ TEXT: Share Raid Attendance with Friends
 RESOURCE ID: share_raid_attendance_tip_key
 TEXT: By sharing, friends will be able to join a raid you’re in directly from their Friend List.
 
+RESOURCE ID: shop_quick_exchange_max_boost
+TEXT: Exchange PokéCoins for a Max Mushroom?
+
 RESOURCE ID: simply_groundbreaking_event_name
-TEXT: Simply Groundbreaking
+TEXT: Чудесный землекоп
 
 RESOURCE ID: simply_groundbreaking_tr_name
-TEXT: Simply Groundbreaking Timed Research
+TEXT: Квест на время Чудесный землекоп
+
+RESOURCE ID: sku.name.item_max_boost
+TEXT: Max Mushroom
+
+RESOURCE ID: sku.name.web-gowa-2024-box-1
+TEXT: коробка для сражений Нетронутые земли GO
+
+RESOURCE ID: sku.name.web-gowa-2024-box-2
+TEXT: коробка для яиц Нетронутые земли GO
+
+RESOURCE ID: sku.name.web-gowa-2024-box-3
+TEXT: премиум-коробка Нетронутые земли GO
 
 RESOURCE ID: spawn_mankey
 TEXT: Появляется больше диких Манки!
@@ -1733,7 +1835,7 @@ RESOURCE ID: spawn_mighty
 TEXT: В окрестностях появляются мощные дикие Покемоны
 
 RESOURCE ID: sr_gowa2024_global_ticketed_1
-TEXT: Опытный Тренер (1/1)
+TEXT: Опытный Тренер (1/6)
 
 RESOURCE ID: sr_gowa2024_global_ticketed_electric
 TEXT: Восторженные аплодисменты
@@ -1775,7 +1877,7 @@ RESOURCE ID: sr_gowa2024_irl
 TEXT: Опытный Тренер
 
 RESOURCE ID: sr_gowa2024_irl_1
-TEXT: Опытный Тренер (1/1)
+TEXT: Опытный Тренер (1/6)
 
 RESOURCE ID: sr_gowa2024_irl_7
 TEXT: Действительно опытный Тренер (1/1)
@@ -1849,7 +1951,7 @@ TEXT: <b>Включает следующие награды:</b>
 RESOURCE ID: text_rewards_key_harvest1124
 TEXT: <b>Включает следующие награды:</b>
 • Встречи со Смоливом
-• 2 травяные приманки, 1 ладан и 2 удачливых яйца
+• 2 травяные приманки, 1 ладан и 1 удачливое яйцо
 • 4000 XP и 2000 звёздной пыли
 
 RESOURCE ID: text_rewards_key_mankeycd24

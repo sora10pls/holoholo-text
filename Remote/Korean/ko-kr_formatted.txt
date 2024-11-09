@@ -10,6 +10,9 @@ TEXT: 사용하시는 기기는 AR을 지원하지 않습니다.
 RESOURCE ID: ar_not_supported_title
 TEXT: 기기 문제
 
+RESOURCE ID: attack_power_increased
+TEXT: Max Mushroom was used. Attacks are boosted!
+
 RESOURCE ID: badge_gowa_2024_global
 TEXT: 2024년 11월 23일, 24일
 
@@ -271,6 +274,9 @@ TEXT: 거다이맥스한 포켓몬과의 배틀입니다. {0}~{1}명의 트레�
 RESOURCE ID: bread_dough_battle_ftue_title
 TEXT: 거다이맥스 배틀!
 
+RESOURCE ID: bread_dough_lobby_active_items_total
+TEXT: + {0} Max Mushrooms
+
 RESOURCE ID: bread_dough_lobby_count
 TEXT: 전체 {1} 중 팀 {0}
 
@@ -282,6 +288,15 @@ TEXT: 참가 트레이너: {0}
 
 RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
 TEXT: 참가 트레이너: 1
+
+RESOURCE ID: bread_max_boost_ftue_activation_message
+TEXT: You can try this item for 5 minutes. This item normally lasts 30 minutes.
+
+RESOURCE ID: bread_max_boost_ftue_message
+TEXT: Double the attack power of your Pokémon in Max Battles!
+
+RESOURCE ID: bread_max_boost_ftue_try_button
+TEXT: Try for 5 minutes
 
 RESOURCE ID: bread_notification_empty
 TEXT: {0}(이)가 파워스폿에서 돌아왔다!
@@ -738,13 +753,19 @@ RESOURCE ID: gowa_2024_beyond_electric
 TEXT: 와일드 에리어를 넘어서: 일렉트릭 엑스퍼트
 
 RESOURCE ID: gowa_2024_beyond_poison
-TEXT: Beyond Wild Area: Poison Pro
+TEXT: 와일드 에리어를 넘어서: 포이즌 프로
 
 RESOURCE ID: gowa_2024_content_hashtag
 TEXT: #GOWildArea2024 를 붙여 공유한 사진 중 선택해서 소개합니다!
 
 RESOURCE ID: gowa_2024_fukuoka
 TEXT: Pokémon GO 와일드 에리어2024: 후쿠오카
+
+RESOURCE ID: gowa_2024_global_electric_now
+TEXT: 현재: 전기아워
+
+RESOURCE ID: gowa_2024_global_poison_now
+TEXT: 현재: 독아워
 
 RESOURCE ID: gowa_2024_habitat_electric
 TEXT: 전기
@@ -753,22 +774,16 @@ RESOURCE ID: gowa_2024_habitat_electric_description
 TEXT: 이 포켓몬을 전기 에리어에서 잡자!
 
 RESOURCE ID: gowa_2024_habitat_global_electric
-TEXT: 현재: 전기아워
+TEXT: 와일드 에리어 컬렉션 챌린지: 전기
 
 RESOURCE ID: gowa_2024_habitat_global_electric_description
 TEXT: 다음 포켓몬을 전기아워에서 잡아 보자!
 
-RESOURCE ID: gowa_2024_habitat_global_electric_temp
-TEXT: 와일드 에리어 컬렉션 챌린지: 전기
-
 RESOURCE ID: gowa_2024_habitat_global_poison
-TEXT: 현재: 독아워
+TEXT: 와일드 에리어 컬렉션 챌린지: 독
 
 RESOURCE ID: gowa_2024_habitat_global_poison_description
 TEXT: 다음 포켓몬을 독아워에서 잡아 보자!
-
-RESOURCE ID: gowa_2024_habitat_global_poison_temp
-TEXT: 와일드 에리어 컬렉션 챌린지: 독
 
 RESOURCE ID: gowa_2024_habitat_irl_electric
 TEXT: 와일드 에리어 컬렉션 챌린지: 전기
@@ -832,6 +847,30 @@ TEXT: GO 와일드 에리어: 토요일 이벤트 아워
 
 RESOURCE ID: gowa_2024_sun_ticketed
 TEXT: GO 와일드 에리어: 일요일 이벤트 아워(티켓)
+
+RESOURCE ID: gstar_2024_city_bonus
+TEXT: G-STAR 2024: 20주년 - 시티 보너스
+
+RESOURCE ID: gstar_2024_evolve_move_bonus_blaziken
+TEXT: 영치코를 번치코로 진화시키면 블라스트번을 배운다!
+
+RESOURCE ID: gstar_2024_evolve_move_bonus_sceptile
+TEXT: 나무돌이를 나무킹으로 진화시키면 하드플랜트를 배운다!
+
+RESOURCE ID: gstar_2024_evolve_move_bonus_swampert
+TEXT: 늪짱이를 대짱이로 진화시키면 하이드로캐논을 배운다!
+
+RESOURCE ID: gstar_2024_title
+TEXT: G-STAR 2024: 20주년
+
+RESOURCE ID: gstar_2024_tr_name
+TEXT: G-STAR 2024: 20주년 시간제한 리서치
+
+RESOURCE ID: gstar_2024_tr_name_1
+TEXT: G-STAR 2024: 20주년 시간제한 리서치(1/2)
+
+RESOURCE ID: gstar_2024_tr_name_2
+TEXT: G-STAR 2024: 20주년 시간제한 리서치(2/2)
 
 RESOURCE ID: gym_general
 TEXT: 체육관
@@ -1023,6 +1062,15 @@ TEXT: 이 티켓은 자동으로 활성화되어 현지시간 11월 2일에 GO�
 RESOURCE ID: item_event_ticket_pink_details_mankeycd24
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 11월 10일 망키 커뮤니티 데이 스페셜리서치가 진행됩니다.
 
+RESOURCE ID: item_max_boost_desc
+TEXT: An item that increases the attack power of Pokémon in Max battles for 30 minutes.
+
+RESOURCE ID: item_max_boost_name
+TEXT: Max Mushroom
+
+RESOURCE ID: item_max_boost_name_plural
+TEXT: Max Mushrooms
+
 RESOURCE ID: item_wild_ball_premier_desc
 TEXT: Pokémon GO 와일드 에리어 이벤트 개최 중에만 사용할 수 있는 특별한 볼.
 
@@ -1094,6 +1142,21 @@ TEXT: 지금은 포켓몬을 둘 수 있는
 RESOURCE ID: lure_mossy_event_bonus
 TEXT: 이벤트에 관련 있는 포켓몬이 허브 루어모듈에 반응
 
+RESOURCE ID: max_boost.1_description
+TEXT: A mushroom that increases the attack power of Pokémon in Max battles for 30 minutes.
+
+RESOURCE ID: max_boost.1_title
+TEXT: Max Mushroom
+
+RESOURCE ID: max_boost.3_description
+TEXT: 3 Max Mushrooms. Increases the attack power of Pokémon in Max battles for 30 minutes.
+
+RESOURCE ID: max_boost.3_title
+TEXT: 3 Max Mushrooms
+
+RESOURCE ID: max_boost_item_activated_toast
+TEXT: Attack Power Increased!
+
 RESOURCE ID: meetup_check_in_bonus
 TEXT: 미트업 체크인 보너스
 
@@ -1101,10 +1164,10 @@ RESOURCE ID: meetups_ended_desc
 TEXT: 미트업 종료
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-11-07T18:30:04.743259+00:00 for ko-KR
-at SHA df38c5a3804
-Pipeline 2758820, job 33802639
-Patch from: 0.339.0-SHA-2e54bc79-RC4, 0.337.0-SHA-eac556c0-RC4
+TEXT: Built at 2024-11-09T00:01:24.596197+00:00 for ko-KR
+at SHA 4de126bdafe
+Pipeline 2763512, job 33866121
+Patch from: 0.339.0-SHA-8a0c57d6-RC2, 0.337.0-SHA-b4a38293-RC1
 
 RESOURCE ID: monodepth_landscape_unavailable_toast
 TEXT: 옆방향으로는 AR 브랜딩을 사용할 수 없습니다
@@ -1199,6 +1262,12 @@ TEXT: 근육을 전부 사용하는 역동적인 헤엄치기가 특기지만 �
 RESOURCE ID: pokemon_desc_0225
 TEXT: 온종일 먹이를 운반한다. 조난당한 사람이 딜리버드의 먹이로 살아났다는 이야기도 있다.
 
+RESOURCE ID: pokemon_desc_0849_2463
+TEXT: 15000볼트나 되는 전기를 발생시킬 수 있다. 상대가 누구라도 깔본다.
+
+RESOURCE ID: pokemon_desc_0849_2464
+TEXT: 가슴에 난 돌기를 긁으면 전기가 일어나며 주위에 기타와 비슷한 소리가 울려퍼진다.
+
 RESOURCE ID: pokemon_info_evolve_pokemon_deployed
 TEXT: {0}(은)는 체육관 또는 파워스폿에 있습니다
 
@@ -1210,6 +1279,15 @@ TEXT: 다이맥스 {0}
 
 RESOURCE ID: pokemon_name_bread_dough
 TEXT: 거다이맥스 {0}
+
+RESOURCE ID: pokestop_challenge_fr_title
+TEXT: 포켓스톱 챌린지
+
+RESOURCE ID: pokestop_challenge_tr_desc
+TEXT: 포켓스톱 챌린지 시간제한 리서치
+
+RESOURCE ID: pokestop_challenge_tr_desc_title_00
+TEXT: 포켓스톱 챌린지 시간제한 리서치 (1/1)
 
 RESOURCE ID: pokestop_general
 TEXT: 포켓스톱
@@ -1512,8 +1590,11 @@ TEXT: 리워드 로드는 매월 대상 상품 구매 금액*에 따라 포인�
 
 **리워드 포인트 기한은 월말까지로 이월되지 않습니다. 어린이 계정 사용자 트레이너는 리워드 프로그램에 참여할 수 없습니다. 리워드 포인트는 현금 및 어떠한 종류의 화폐가 아니며, 계정 간 이동을 할 수 없습니다. 리워드 프로그램의 이용가능성과 조건은 변경될 수 있습니다.
 
+RESOURCE ID: rewarded_spend_helpshift_expiration_timer_key
+TEXT: Current period resets on {0} at {1}.
+
 RESOURCE ID: rewarded_spend_helpshift_footer
-TEXT: 자세한 내용은 <a href="https://niantic.helpshift.com/">웹사이트</a>에서 확인해 주세요.
+TEXT: 자세한 내용은 <a href="https://niantic.helpshift.com/hc/faq/94-how-can-i-purchase-items-and-pokecoins/">웹사이트</a>에서 확인해 주세요.
 
 RESOURCE ID: rewarded_spend_helpshift_title
 TEXT: 금액이 늘어나면 쌓이는 포인트
@@ -1524,6 +1605,9 @@ TEXT: + {0}
 RESOURCE ID: rewarded_spend_in_progress
 TEXT: 진행 중
 
+RESOURCE ID: rewarded_spend_levels_completed_claimable_desc
+TEXT: You have reached the monthly level earning cap. Claim your rewards before they reset!
+
 RESOURCE ID: rewarded_spend_monthly_reward_road_key
 TEXT: {0}의 리워드 로드
 
@@ -1532,6 +1616,9 @@ TEXT: 리워드 포인트를 쌓자!
 
 RESOURCE ID: rewarded_spend_not_available
 TEXT: 시작 전
+
+RESOURCE ID: rewarded_spend_notification_string_key
+TEXT: Reward Road
 
 RESOURCE ID: rewarded_spend_points_header
 TEXT: {0}/{1} pt
@@ -1585,10 +1672,10 @@ RESOURCE ID: settings_campfire_meetup_title
 TEXT: 근처 미트업
 
 RESOURCE ID: settings_select_suggested_search_help
-TEXT: See search term filter options.
+TEXT: 검색시 선택 가능한 필터를 표시
 
 RESOURCE ID: settings_select_suggested_search_term
-TEXT: Show Suggested Search Terms
+TEXT: 추천 검색어 표시
 
 RESOURCE ID: share_raid_attendance_settings_key
 TEXT: Share Raid Attendance with Friends
@@ -1596,11 +1683,26 @@ TEXT: Share Raid Attendance with Friends
 RESOURCE ID: share_raid_attendance_tip_key
 TEXT: By sharing, friends will be able to join a raid you’re in directly from their Friend List.
 
+RESOURCE ID: shop_quick_exchange_max_boost
+TEXT: Exchange PokéCoins for a Max Mushroom?
+
 RESOURCE ID: simply_groundbreaking_event_name
 TEXT: Simply Groundbreaking
 
 RESOURCE ID: simply_groundbreaking_tr_name
 TEXT: Simply Groundbreaking Timed Research
+
+RESOURCE ID: sku.name.item_max_boost
+TEXT: Max Mushroom
+
+RESOURCE ID: sku.name.web-gowa-2024-box-1
+TEXT: GO 와일드 에리어 배틀러 박스
+
+RESOURCE ID: sku.name.web-gowa-2024-box-2
+TEXT: GO 와일드 에리어 부화 박스
+
+RESOURCE ID: sku.name.web-gowa-2024-box-3
+TEXT: GO 와일드 에리어 궁극 박스
 
 RESOURCE ID: spawn_mankey
 TEXT: 망키가 야생에서 많이 출현!
@@ -1609,7 +1711,7 @@ RESOURCE ID: spawn_mighty
 TEXT: 강한 포켓몬이 더 많이 야생에서 출현
 
 RESOURCE ID: sr_gowa2024_global_ticketed_1
-TEXT: 실력자 트레이너(1/1)
+TEXT: 실력자 트레이너(1/6)
 
 RESOURCE ID: sr_gowa2024_global_ticketed_electric
 TEXT: 하이하게 가자
@@ -1651,7 +1753,7 @@ RESOURCE ID: sr_gowa2024_irl
 TEXT: 실력자 트레이너
 
 RESOURCE ID: sr_gowa2024_irl_1
-TEXT: 실력자 트레이너 (1/1)
+TEXT: 실력자 트레이너 (1/6)
 
 RESOURCE ID: sr_gowa2024_irl_7
 TEXT: 일레트릭 포이즌 엑스퍼트(1/1)
@@ -1723,7 +1825,7 @@ RESOURCE ID: text_rewards_key_harvest1124
 TEXT: <b>받을 수 있는 리워드:</b>
 - 미니브와의 만남
 - 허브 루어모듈 2개, 향로 1개, 행복의알 1개
-- 별의모래 2,000개와 4,000XP 등
+- 4,000XP와 별의모래 2,000개 등
 
 RESOURCE ID: text_rewards_key_mankeycd24
 TEXT: <b>받을 수 있는 것:</b>
