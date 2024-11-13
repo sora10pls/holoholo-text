@@ -419,6 +419,12 @@ TEXT: Квест события завершён!
 RESOURCE ID: field_research_special_tasks
 TEXT: Задания полевых квестов за регистрацию уже доступны
 
+RESOURCE ID: filter_label_appraisal_100_percent
+TEXT: ★ 100%
+
+RESOURCE ID: filter_label_max_pokemon
+TEXT: Max Pokémon
+
 RESOURCE ID: for_bonus_challenge
 TEXT: (за бонусное испытание)
 
@@ -429,19 +435,19 @@ RESOURCE ID: fr_tag_meetup
 TEXT: Встреча сообщества
 
 RESOURCE ID: friend_is_at_a_raid
-TEXT: {0} is at a <b>{1} raid!</b>
+TEXT: {0} в <b>рейде {1}!</b>
 
 RESOURCE ID: friend_raid_lobby_counter
 TEXT: <b>{0} • </b>
 
 RESOURCE ID: friendship_detail_raid_share
-TEXT: FRIENDS LIST
+TEXT: СПИСОК ДРУЗЕЙ
 
 RESOURCE ID: friendship_detail_raid_share_desc
-TEXT: Join Raids Directly from Your Friend List
+TEXT: Присоединяйся к рейдам напрямую из своего списка друзей
 
 RESOURCE ID: friendslist_sort_raid
-TEXT: AT A RAID ({0})
+TEXT: УЧАСТВУЕТ В РЕЙДЕ ({0})
 
 RESOURCE ID: general1.ticket.2_halloween1tr24_title
 TEXT: Билет: премиум-квест на время Комбинезон Морпеко
@@ -1165,10 +1171,10 @@ RESOURCE ID: item_wild_ball_premier_name
 TEXT: Сафари-Болл GO
 
 RESOURCE ID: join_raid_bonus
-TEXT: JOIN A RAID WITH A FRIEND
+TEXT: ПРИСОЕДИНИТЬСЯ К РЕЙДУ ВМЕСТЕ С ДРУГОМ
 
 RESOURCE ID: join_raid_friend_list_timer
-TEXT: <b>{0}s</b>
+TEXT: <b>{0} сек.</b>
 
 RESOURCE ID: limited_localization_nearby_hint_1
 TEXT: Ты приближаешься к знаковому объекту!
@@ -1266,10 +1272,10 @@ RESOURCE ID: meetup_check_in_research_title_02
 TEXT: Квест на время Встреча сообщества: Битвы
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-11-12T01:39:46.783493+00:00 for ru-RU
-at SHA feaa6cb08ca
-Pipeline 2768096, job 33927617
-Patch from: 0.339.0-SHA-c09aa793-RC1, 0.337.0-SHA-38eacb89-RC1, 0.341.0-SHA-cc21bdb6-RC1
+TEXT: Built at 2024-11-13T00:41:00.029249+00:00 for ru-RU
+at SHA 1a270ee7cf5
+Pipeline 2771496, job 33973051
+Patch from: 0.339.0-SHA-8a0c57d6-RC2, 0.337.0-SHA-38eacb89-RC1, 0.341.0-SHA-cc21bdb6-RC1
 
 RESOURCE ID: move_name_0464
 TEXT: Кулак Ярости
@@ -1348,6 +1354,9 @@ TEXT: Not Registered
 
 RESOURCE ID: pokedex_mode_name_all_v2
 TEXT: POKÉMON
+
+RESOURCE ID: pokedex_page_registered
+TEXT: Your latest registered Pokémon
 
 RESOURCE ID: pokedex_region_button_title
 TEXT: Region
@@ -1650,15 +1659,15 @@ RESOURCE ID: quest_use_star_piece_singular
 TEXT: Используй осколок звезды
 
 RESOURCE ID: raid_attendance_onboarding_message
-TEXT: Friends will be able to join your raid directly from their Friend List and help you defeat the Raid Boss!
+TEXT: Твои друзья смогут присоединиться к рейду, в котором ты участвуешь, напрямую из своего списка друзей и помочь тебе победить рейдового босса!
 
-You can change this later via Settings.
+Ты можешь поменять эти настройки позже.
 
 RESOURCE ID: raid_attendance_onboarding_title
-TEXT: Raid Attendance Shared with Friends
+TEXT: Участие в рейдах передаётся друзьям
 
 RESOURCE ID: raid_attendance_online_disclaimer_message
-TEXT: Your friends will still be able to view your raid attendance. You can change this later in Settings.
+TEXT: Твои друзья смогут видеть твоё участие в рейдах. Ты можешь поменять эти настройки позже.
 
 RESOURCE ID: reduced_hatch_party_play
 TEXT: Уменьшенное расстояние для вынашивания яиц при игре в команде
@@ -1741,7 +1750,7 @@ RESOURCE ID: rewarded_spend_in_progress
 TEXT: В процессе
 
 RESOURCE ID: rewarded_spend_levels_completed_claimable_desc
-TEXT: You have reached the monthly level earning cap. Claim your rewards before they reset!
+TEXT: You have reached the monthly cap for Reward Points. Claim your rewards before they reset!
 
 RESOURCE ID: rewarded_spend_monthly_reward_road_key
 TEXT: Дорога наград: {0}
@@ -1886,10 +1895,10 @@ RESOURCE ID: settings_select_suggested_search_term
 TEXT: Показать предлагаемые термины
 
 RESOURCE ID: share_raid_attendance_settings_key
-TEXT: Share Raid Attendance with Friends
+TEXT: Поделиться участием в рейдах с друзьями
 
 RESOURCE ID: share_raid_attendance_tip_key
-TEXT: By sharing, friends will be able to join a raid you’re in directly from their Friend List.
+TEXT: Твои друзья смогут присоединиться к рейду, в котором ты участвуешь, напрямую из своего списка друзей.
 
 RESOURCE ID: shop_quick_exchange_max_boost
 TEXT: Exchange PokéCoins for a Max Mushroom?
@@ -2184,7 +2193,4 @@ TEXT: Небывалый Финал!!!
 
 RESOURCE ID: wild_finale_description
 TEXT: Появляется больше мощных диких Покемонов!
-
-RESOURCE ID: your latest registered pokémon
-TEXT: Your latest registered Pokémon
 

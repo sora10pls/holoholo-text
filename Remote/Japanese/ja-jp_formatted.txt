@@ -53,7 +53,7 @@ RESOURCE ID: badge_safaricity_2024_hong_kong_day_00
 TEXT: 香港2024
 
 RESOURCE ID: badge_safaricity_2024_hong_kong_day_00_title
-TEXT: Pokémon GO Safari City
+TEXT: Pokémon GO City Safari
 
 RESOURCE ID: badge_safaricity_2024_hong_kong_day_01
 TEXT: 香港、2024年12月7日
@@ -77,13 +77,13 @@ RESOURCE ID: badge_safaricity_2024_sao_paulo_day_01
 TEXT: サンパウロ、2024年12月7日
 
 RESOURCE ID: badge_safaricity_2024_sao_paulo_day_01_title
-TEXT: Pokémon GO Safari City
+TEXT: Pokémon GO City Safari
 
 RESOURCE ID: badge_safaricity_2024_sao_paulo_day_02
 TEXT: サンパウロ、2024年12月8日
 
 RESOURCE ID: badge_safaricity_2024_sao_paulo_day_02_title
-TEXT: Pokémon GO Safari City
+TEXT: Pokémon GO City Safari
 
 RESOURCE ID: battle_raids_party_plural
 TEXT: チーム参加中レイドを{0}回行う
@@ -245,6 +245,12 @@ TEXT: イベントリサーチ完了！
 RESOURCE ID: field_research_special_tasks
 TEXT: チェックインしてもらえるフィールドリサーチあり
 
+RESOURCE ID: filter_label_appraisal_100_percent
+TEXT: ★ 100%
+
+RESOURCE ID: filter_label_max_pokemon
+TEXT: マックスポケモン
+
 RESOURCE ID: for_bonus_challenge
 TEXT: (ボーナスチャレンジ用)
 
@@ -252,19 +258,19 @@ RESOURCE ID: fr_tag_meetup
 TEXT: ミートアップ
 
 RESOURCE ID: friend_is_at_a_raid
-TEXT: {0} is at a <b>{1} raid!</b>
+TEXT: {0}さんは<b>{1}レイド</b>に参加中
 
 RESOURCE ID: friend_raid_lobby_counter
 TEXT: <b>{0} • </b>
 
 RESOURCE ID: friendship_detail_raid_share
-TEXT: FRIENDS LIST
+TEXT: フレンドリスト
 
 RESOURCE ID: friendship_detail_raid_share_desc
-TEXT: Join Raids Directly from Your Friend List
+TEXT: フレンドリストから直接レイドに参加
 
 RESOURCE ID: friendslist_sort_raid
-TEXT: AT A RAID ({0})
+TEXT: レイド中({0})
 
 RESOURCE ID: general1.ticket.2_halloween1tr24_title
 TEXT: モルペコきぐるみプレミアムタイムチャレンジチケット
@@ -882,10 +888,10 @@ RESOURCE ID: item_wild_ball_premier_name
 TEXT: GOサファリボール
 
 RESOURCE ID: join_raid_bonus
-TEXT: JOIN A RAID WITH A FRIEND
+TEXT: フレンドと一緒にレイド参加
 
 RESOURCE ID: join_raid_friend_list_timer
-TEXT: <b>{0}s</b>
+TEXT: <b>{0}秒</b>
 
 RESOURCE ID: limited_localization_nearby_hint_1
 TEXT: 近づいています！
@@ -951,10 +957,10 @@ RESOURCE ID: meetup_check_in_bonus
 TEXT: ミートアップチェックインボーナス
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-11-12T01:39:46.783493+00:00 for ja-JP
-at SHA feaa6cb08ca
-Pipeline 2768096, job 33927617
-Patch from: 0.339.0-SHA-c09aa793-RC1, 0.337.0-SHA-38eacb89-RC1, 0.341.0-SHA-cc21bdb6-RC1
+TEXT: Built at 2024-11-13T00:41:00.029249+00:00 for ja-JP
+at SHA 1a270ee7cf5
+Pipeline 2771496, job 33973051
+Patch from: 0.339.0-SHA-8a0c57d6-RC2, 0.337.0-SHA-38eacb89-RC1, 0.341.0-SHA-cc21bdb6-RC1
 
 RESOURCE ID: move_name_0464
 TEXT: ふんどのこぶし
@@ -1009,6 +1015,9 @@ TEXT: Not Registered
 
 RESOURCE ID: pokedex_mode_name_all_v2
 TEXT: POKÉMON
+
+RESOURCE ID: pokedex_page_registered
+TEXT: Your latest registered Pokémon
 
 RESOURCE ID: pokedex_region_button_title
 TEXT: Region
@@ -1266,15 +1275,15 @@ RESOURCE ID: quest_use_star_piece_singular
 TEXT: ほしのかけらを使う
 
 RESOURCE ID: raid_attendance_onboarding_message
-TEXT: Friends will be able to join your raid directly from their Friend List and help you defeat the Raid Boss!
+TEXT: フレンドリストから直接レイド参加してもらい、レイドボスを倒すことに協力してもらえます。
 
-You can change this later via Settings.
+設定からいつでもオフにできます。
 
 RESOURCE ID: raid_attendance_onboarding_title
-TEXT: Raid Attendance Shared with Friends
+TEXT: フレンドとのレイド参加共有
 
 RESOURCE ID: raid_attendance_online_disclaimer_message
-TEXT: Your friends will still be able to view your raid attendance. You can change this later in Settings.
+TEXT: レイド参加状況は共有されます（設定から変更可）
 
 RESOURCE ID: reduced_hatch_party_play
 TEXT: チーム参加中タマゴふか距離減
@@ -1402,10 +1411,10 @@ RESOURCE ID: settings_select_suggested_search_term
 TEXT: 検索ワード候補表示
 
 RESOURCE ID: share_raid_attendance_settings_key
-TEXT: Share Raid Attendance with Friends
+TEXT: フレンドとレイド参加状況を共有する
 
 RESOURCE ID: share_raid_attendance_tip_key
-TEXT: By sharing, friends will be able to join a raid you’re in directly from their Friend List.
+TEXT: フレンドリストから直接レイドに参加してもらえる
 
 RESOURCE ID: shop_quick_exchange_max_boost
 TEXT: ポケコインと交換して手に入れますか？
@@ -1570,7 +1579,4 @@ TEXT: 目印の物体に近づいてください
 
 RESOURCE ID: wild_balls_works_best_on_mighty
 TEXT: GOサファリボールがこのポケモンに最適！
-
-RESOURCE ID: your latest registered pokémon
-TEXT: Your latest registered Pokémon
 

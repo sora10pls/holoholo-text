@@ -389,6 +389,12 @@ TEXT: Étude d’évènement terminée !
 RESOURCE ID: field_research_special_tasks
 TEXT: Tâches d’Études de terrain de participation à un évènement en personne maintenant disponibles
 
+RESOURCE ID: filter_label_appraisal_100_percent
+TEXT: ★ 100%
+
+RESOURCE ID: filter_label_max_pokemon
+TEXT: Max Pokémon
+
 RESOURCE ID: for_bonus_challenge
 TEXT: (Pour Défi Bonus)
 
@@ -396,19 +402,19 @@ RESOURCE ID: fr_tag_meetup
 TEXT: Évènement en personne
 
 RESOURCE ID: friend_is_at_a_raid
-TEXT: {0} is at a <b>{1} raid!</b>
+TEXT: {0} est dans un <b>Raid {1} !</b>
 
 RESOURCE ID: friend_raid_lobby_counter
 TEXT: <b>{0} • </b>
 
 RESOURCE ID: friendship_detail_raid_share
-TEXT: FRIENDS LIST
+TEXT: LISTE D’AMIS
 
 RESOURCE ID: friendship_detail_raid_share_desc
-TEXT: Join Raids Directly from Your Friend List
+TEXT: Rejoindre des Raids directement depuis ta liste d’amis
 
 RESOURCE ID: friendslist_sort_raid
-TEXT: AT A RAID ({0})
+TEXT: DANS UN RAID ({0})
 
 RESOURCE ID: general1.ticket.2_halloween1tr24_title
 TEXT: Ticket pour l’Étude ponctuelle premium Combinaison Morpeko
@@ -1123,10 +1129,10 @@ RESOURCE ID: item_wild_ball_premier_name
 TEXT: Safari GO Ball
 
 RESOURCE ID: join_raid_bonus
-TEXT: JOIN A RAID WITH A FRIEND
+TEXT: REJOINDRE UN RAID AVEC UN AMI
 
 RESOURCE ID: join_raid_friend_list_timer
-TEXT: <b>{0}s</b>
+TEXT: <b>{0} s</b>
 
 RESOURCE ID: limited_localization_nearby_hint_1
 TEXT: Tu t’approches de l’élément repère !
@@ -1206,10 +1212,10 @@ RESOURCE ID: meetup_check_in_bonus
 TEXT: Bonus de participation à un évènement en personne
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-11-12T01:39:46.783493+00:00 for fr-FR
-at SHA feaa6cb08ca
-Pipeline 2768096, job 33927617
-Patch from: 0.339.0-SHA-c09aa793-RC1, 0.337.0-SHA-38eacb89-RC1, 0.341.0-SHA-cc21bdb6-RC1
+TEXT: Built at 2024-11-13T00:41:00.029249+00:00 for fr-FR
+at SHA 1a270ee7cf5
+Pipeline 2771496, job 33973051
+Patch from: 0.339.0-SHA-8a0c57d6-RC2, 0.337.0-SHA-38eacb89-RC1, 0.341.0-SHA-cc21bdb6-RC1
 
 RESOURCE ID: move_name_0464
 TEXT: Poing de Colère
@@ -1285,6 +1291,9 @@ TEXT: Not Registered
 
 RESOURCE ID: pokedex_mode_name_all_v2
 TEXT: POKÉMON
+
+RESOURCE ID: pokedex_page_registered
+TEXT: Your latest registered Pokémon
 
 RESOURCE ID: pokedex_region_button_title
 TEXT: Region
@@ -1548,15 +1557,15 @@ RESOURCE ID: quest_use_star_piece_singular
 TEXT: Utilise un Morceau d’Étoile
 
 RESOURCE ID: raid_attendance_onboarding_message
-TEXT: Friends will be able to join your raid directly from their Friend List and help you defeat the Raid Boss!
+TEXT: Tes amis pourront rejoindre directement ton Raid depuis leur liste d’amis et t’aider à remporter la victoire face au Boss de Raid !
 
-You can change this later via Settings.
+Cela peut être modifié plus tard dans les options.
 
 RESOURCE ID: raid_attendance_onboarding_title
-TEXT: Raid Attendance Shared with Friends
+TEXT: Participation à des Raids partagée avec tes amis
 
 RESOURCE ID: raid_attendance_online_disclaimer_message
-TEXT: Your friends will still be able to view your raid attendance. You can change this later in Settings.
+TEXT: Tes amis continueront de voir à quels Raids tu participes. Cela peut être modifié plus tard dans les options.
 
 RESOURCE ID: reduced_hatch_party_play
 TEXT: Distance d’éclosion diminuée en équipe
@@ -1624,7 +1633,7 @@ RESOURCE ID: rewarded_spend_in_progress
 TEXT: En cours
 
 RESOURCE ID: rewarded_spend_levels_completed_claimable_desc
-TEXT: You have reached the monthly level earning cap. Claim your rewards before they reset!
+TEXT: You have reached the monthly cap for Reward Points. Claim your rewards before they reset!
 
 RESOURCE ID: rewarded_spend_monthly_reward_road_key
 TEXT: Route de récompenses : {0}
@@ -1687,10 +1696,10 @@ RESOURCE ID: settings_select_suggested_search_term
 TEXT: Afficher les termes de recherche suggérés
 
 RESOURCE ID: share_raid_attendance_settings_key
-TEXT: Share Raid Attendance with Friends
+TEXT: Partager ta participation à des Raids avec des amis
 
 RESOURCE ID: share_raid_attendance_tip_key
-TEXT: By sharing, friends will be able to join a raid you’re in directly from their Friend List.
+TEXT: En partageant cette information, tes amis pourront rejoindre directement un Raid auquel tu participes depuis leur liste d’amis.
 
 RESOURCE ID: shop_quick_exchange_max_boost
 TEXT: Exchange PokéCoins for a Max Mushroom?
@@ -1981,7 +1990,4 @@ TEXT: Fin sauvage !!!
 
 RESOURCE ID: wild_finale_description
 TEXT: Davantage de Pokémon imposants apparaissent dans la nature !
-
-RESOURCE ID: your latest registered pokémon
-TEXT: Your latest registered Pokémon
 

@@ -389,6 +389,12 @@ TEXT: Event-Forschung abgeschlossen!
 RESOURCE ID: field_research_special_tasks
 TEXT: Feldforschungsaufgaben durch Anmeldung jetzt verfügbar
 
+RESOURCE ID: filter_label_appraisal_100_percent
+TEXT: ★ 100%
+
+RESOURCE ID: filter_label_max_pokemon
+TEXT: Max Pokémon
+
 RESOURCE ID: focus_ghost_type_pokemon
 TEXT: Geister-Pokémon
 
@@ -399,19 +405,19 @@ RESOURCE ID: fr_tag_meetup
 TEXT: Treffen
 
 RESOURCE ID: friend_is_at_a_raid
-TEXT: {0} is at a <b>{1} raid!</b>
+TEXT: {0} ist bei einem <b>{1}-Raid!</b>
 
 RESOURCE ID: friend_raid_lobby_counter
 TEXT: <b>{0} • </b>
 
 RESOURCE ID: friendship_detail_raid_share
-TEXT: FRIENDS LIST
+TEXT: FREUNDESLISTE
 
 RESOURCE ID: friendship_detail_raid_share_desc
-TEXT: Join Raids Directly from Your Friend List
+TEXT: Tritt direkt über deine Freundesliste Raids bei
 
 RESOURCE ID: friendslist_sort_raid
-TEXT: AT A RAID ({0})
+TEXT: BEI EINEM RAID ({0})
 
 RESOURCE ID: general1.ticket.2_halloween1tr24_title
 TEXT: Ticket: Befristete Premium-Forschung „Morpeko-Einteiler“
@@ -1129,10 +1135,10 @@ RESOURCE ID: item_wild_ball_premier_name
 TEXT: GO-Safariball
 
 RESOURCE ID: join_raid_bonus
-TEXT: JOIN A RAID WITH A FRIEND
+TEXT: RAID MIT FREUND BEITRETEN
 
 RESOURCE ID: join_raid_friend_list_timer
-TEXT: <b>{0}s</b>
+TEXT: <b>{0} S</b>
 
 RESOURCE ID: limited_localization_nearby_hint_1
 TEXT: Du näherst dich dem Orientierungspunkt!
@@ -1224,10 +1230,10 @@ RESOURCE ID: meetup_check_in_social
 TEXT: Verbinden
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-11-12T01:39:46.783493+00:00 for de-DE
-at SHA feaa6cb08ca
-Pipeline 2768096, job 33927617
-Patch from: 0.339.0-SHA-c09aa793-RC1, 0.337.0-SHA-38eacb89-RC1, 0.341.0-SHA-cc21bdb6-RC1
+TEXT: Built at 2024-11-13T00:41:00.029249+00:00 for de-DE
+at SHA 1a270ee7cf5
+Pipeline 2771496, job 33973051
+Patch from: 0.339.0-SHA-8a0c57d6-RC2, 0.337.0-SHA-38eacb89-RC1, 0.341.0-SHA-cc21bdb6-RC1
 
 RESOURCE ID: move_name_0464
 TEXT: Zornesfaust
@@ -1288,6 +1294,9 @@ TEXT: Not Registered
 
 RESOURCE ID: pokedex_mode_name_all_v2
 TEXT: POKÉMON
+
+RESOURCE ID: pokedex_page_registered
+TEXT: Your latest registered Pokémon
 
 RESOURCE ID: pokedex_region_button_title
 TEXT: Region
@@ -1551,15 +1560,15 @@ RESOURCE ID: quest_use_star_piece_singular
 TEXT: Verwende ein Sternenstück.
 
 RESOURCE ID: raid_attendance_onboarding_message
-TEXT: Friends will be able to join your raid directly from their Friend List and help you defeat the Raid Boss!
+TEXT: Freunde können deinem Raid direkt über ihre Freundesliste beitreten und dir helfen, den Raid-Boss zu besiegen!
 
-You can change this later via Settings.
+Du kannst dies später in den Einstellungen ändern.
 
 RESOURCE ID: raid_attendance_onboarding_title
-TEXT: Raid Attendance Shared with Friends
+TEXT: Raid-Teilnahme mit Freunden geteilt
 
 RESOURCE ID: raid_attendance_online_disclaimer_message
-TEXT: Your friends will still be able to view your raid attendance. You can change this later in Settings.
+TEXT: Freunde können weiterhin deine Raid-Teilnahme sehen. Du kannst dies später in den Einstellungen ändern.
 
 RESOURCE ID: raid_join_in_person_button
 TEXT: Raid in Person
@@ -1631,7 +1640,7 @@ RESOURCE ID: rewarded_spend_in_progress
 TEXT: Aktiv
 
 RESOURCE ID: rewarded_spend_levels_completed_claimable_desc
-TEXT: You have reached the monthly level earning cap. Claim your rewards before they reset!
+TEXT: You have reached the monthly cap for Reward Points. Claim your rewards before they reset!
 
 RESOURCE ID: rewarded_spend_monthly_reward_road_key
 TEXT: {0}-Belohnungspfad
@@ -1694,10 +1703,10 @@ RESOURCE ID: settings_select_suggested_search_term
 TEXT: Empfohlene Suchbegriffe anzeigen
 
 RESOURCE ID: share_raid_attendance_settings_key
-TEXT: Share Raid Attendance with Friends
+TEXT: Raid-Teilnahme mit Freunden teilen
 
 RESOURCE ID: share_raid_attendance_tip_key
-TEXT: By sharing, friends will be able to join a raid you’re in directly from their Friend List.
+TEXT: Durch das Teilen können Freunde deinen Raids direkt über ihre Freundesliste beitreten.
 
 RESOURCE ID: shop_discount_disclaimer_helpshift_url
 TEXT: https://niantic.helpshift.com/hc/de/6-pokemon-go/faq/4707-notice-regarding-discount-rates-displayed-in-the-shop/
@@ -1992,7 +2001,4 @@ TEXT: Wildes Finale!!!
 
 RESOURCE ID: wild_finale_description
 TEXT: Wilde mächtige Pokémon erscheinen mit vermehrter Häufigkeit!
-
-RESOURCE ID: your latest registered pokémon
-TEXT: Your latest registered Pokémon
 
