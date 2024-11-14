@@ -1,9 +1,3 @@
-RESOURCE ID: ar_backgrounded_error
-TEXT: 대표 건물이 있는 장소와 접속이 끊겼습니다.
-
-RESOURCE ID: ar_backgrounded_error_title_temp
-TEXT: 포켓스톱 스캔 절단
-
 RESOURCE ID: ar_not_supported_desc
 TEXT: 사용하시는 기기는 AR을 지원하지 않습니다.
 
@@ -145,11 +139,11 @@ TEXT: 2024년 11월 23일, 24일
 RESOURCE ID: badge_gowa_2024_test_title
 TEXT: GO 와일드 에리어
 
-RESOURCE ID: badge_pokedex_entries_complete_title
-TEXT: Complete!
+RESOURCE ID: badge_pokestops_scanned
+TEXT: Scan {0} PokéStops or Gyms.
 
-RESOURCE ID: badge_pokedex_entries_unidentified_title
-TEXT: UNIDENTIFIED
+RESOURCE ID: badge_pokestops_scanned_singular
+TEXT: Scan a PokéStop or Gym.
 
 RESOURCE ID: badge_safaricity_2024_hong_kong_day_00
 TEXT: Hong Kong 2024
@@ -187,15 +181,6 @@ TEXT: São Paulo, December 8, 2024
 RESOURCE ID: badge_safaricity_2024_sao_paulo_day_02_title
 TEXT: Pokémon GO City Safari
 
-RESOURCE ID: badge_tag_bonus
-TEXT: 보너스
-
-RESOURCE ID: battle_raids_party_plural
-TEXT: 팀 참가 중 레이드를 {0}번 진행한다
-
-RESOURCE ID: battle_raids_party_singular
-TEXT: 팀 참가 중 레이드를 1번 진행한다
-
 RESOURCE ID: bonus_apac_151busstop_habitat_1
 TEXT: 수상한 동굴의 포켓몬이 야생에서 출현
 
@@ -220,12 +205,6 @@ TEXT: 환상의 숲의 포켓몬이 야생에서 출현
 RESOURCE ID: bonus_apac_151busstop_habitat_8
 TEXT: 피카츄 언덕의 포켓몬이 야생에서 출현
 
-RESOURCE ID: bonus_cd_move_annihilape
-TEXT: 성원숭을 저승갓숭으로 진화시키면 스페셜 어택 "분노의주먹"을 배우고 있다
-
-RESOURCE ID: bonus_cd_move_mankey
-TEXT: 망키를 성원숭으로 진화시키면 스페셜 어택 "분노의주먹"을 배우고 있다
-
 RESOURCE ID: bonus_electric_moves
 TEXT: 체육관 배틀 , 맥스배틀, 레이드배틀에서 전기타입 기술의 위력 증가
 
@@ -237,9 +216,6 @@ TEXT: 일레즌이 10km 알에서 부화 가능성 증가
 
 RESOURCE ID: bonus_five_free_raid_passes
 TEXT: 체육관의 포토디스크를 돌려 레이드패스 5장까지 입수
-
-RESOURCE ID: bonus_implicit_social_mankey_raid
-TEXT: 트레이너가 협력해서 레이드배틀에서 성원숭을 이기면 그 체육관 주변에 30분동안 망키가 나타남
 
 RESOURCE ID: bonus_mp_cap
 TEXT: 하루에 모을 수 있는 맥스 파티클의 양 증가
@@ -286,83 +262,29 @@ TEXT: 별4 이상 레이드배틀에서 포켓몬을 잡았을 때 받을 수 �
 RESOURCE ID: bonus_two_free_raid_passes
 TEXT: 체육관의 포토디스크를 돌려 레이드패스 2장까지 입수
 
-RESOURCE ID: bread_battle_bread_meter_label
-TEXT: 맥스 게이지
-
-RESOURCE ID: bread_battle_cheer_charge_blocked
-TEXT: 게이지는 가득 찼다! 조금 더 기다린 후 응원하자.
-
-RESOURCE ID: bread_battle_log_global_cheer_bread_meter
-TEXT: 응원로 같은 편 게이지가 찼다!
-
-RESOURCE ID: bread_battle_received_global_cheering_boost
-TEXT: 모두가 응원해준다!
-
 RESOURCE ID: bread_battle_resolve_error_description
 TEXT: 다시 시도해 주십시오.
 
 RESOURCE ID: bread_battle_resolve_error_title
 TEXT: 문제가 발생했습니다.
 
-RESOURCE ID: bread_battle_resolve_timed_out_title
-TEXT: 싸울 수 있는 포켓몬이 없다
-
-RESOURCE ID: bread_battle_widget_default_message_container
-TEXT: {0} • {1}
-
 RESOURCE ID: bread_battle_widget_team_count
 TEXT: 팀 {0}
-
-RESOURCE ID: bread_dough_battle_ftue_body_generic
-TEXT: 거다이맥스한 포켓몬과 배틀합니다. 최소 10명의 트레이너로 도전하는 것을 권장합니다.
-
-RESOURCE ID: bread_dough_battle_ftue_body_specific
-TEXT: 거다이맥스한 포켓몬과의 배틀입니다. {0}~{1}명의 트레이너로 도전하는 것을 권장합니다.
-
-RESOURCE ID: bread_dough_battle_ftue_title
-TEXT: 거다이맥스 배틀!
 
 RESOURCE ID: bread_dough_lobby_active_items_total
 TEXT: + {0} Max Mushrooms
 
-RESOURCE ID: bread_dough_lobby_count
-TEXT: 전체 {1} 중 팀 {0}
-
-RESOURCE ID: bread_dough_lobby_number
-TEXT: 팀 {0}
-
-RESOURCE ID: bread_dough_lobby_trainer_list_title
-TEXT: 참가 트레이너: {0}
-
-RESOURCE ID: bread_dough_lobby_trainer_list_title_singular
-TEXT: 참가 트레이너: 1
-
 RESOURCE ID: bread_max_boost_ftue_activation_message
-TEXT: You can try this item for 5 minutes. This item normally lasts 30 minutes.
+TEXT: You can try this item for 5 minutes. This item’s effects normally last 30 minutes.
 
 RESOURCE ID: bread_max_boost_ftue_message
-TEXT: Double the attack power of your Pokémon in Max Battles!
+TEXT: Double the damage your Pokémon deal in Max Battles!
 
 RESOURCE ID: bread_max_boost_ftue_try_button
 TEXT: Try for 5 minutes
 
-RESOURCE ID: bread_notification_empty
-TEXT: {0}(이)가 파워스폿에서 돌아왔다!
-
-RESOURCE ID: bread_station_failure_description_duplicate
-TEXT: 이미 포켓몬을 배치했습니다.
-
-RESOURCE ID: bread_station_general
-TEXT: 파워스폿
-
 RESOURCE ID: bundle.diademuertos.box.1_title
 TEXT: Día de Muertos 박스
-
-RESOURCE ID: campfire_meetup_notification
-TEXT: 근처에서 {0}개의 미트업 개최!
-
-RESOURCE ID: details_link_key_gowa2024
-TEXT: 자세한 내용은 <a href="pokemongolive.com/gowildarea/global">웹사이트</a>에서 확인해 주세요.
 
 RESOURCE ID: details_link_key_mankeycd24
 TEXT: 자세한 내용은 <a href="https://pokemongolive.com/post/communityday-november-2024-mankey">웹사이트</a>에서 확인해 주세요.
@@ -382,20 +304,12 @@ TEXT: Eevee Explorers: São Paulo (1/1)
 RESOURCE ID: encounter_score_catch_streak_daily
 TEXT: {0}일째 연속 보너스
 
-RESOURCE ID: error_no_meetups
-TEXT: 근처에 미트업은 없습니다
-
 RESOURCE ID: event_datetime_range_key_gobattlenov2024
 TEXT: 11월 2일 00:00 ~ 
 11월 3일 23:59
 
-RESOURCE ID: event_datetime_range_key_halloween1tr24
-TEXT: 10월 22일 10:00～
-11월 3일20:00
-
-RESOURCE ID: event_datetime_range_key_halloween2tr24
-TEXT: 10월 22일 10:00~
-11월 3일 20:00
+RESOURCE ID: event_datetime_range_key_gowa2024leadup
+TEXT: 11월 18일 - 22일
 
 RESOURCE ID: event_datetime_range_key_harvest1124
 TEXT: 11월 7일 10:00 ~ 
@@ -403,9 +317,6 @@ TEXT: 11월 7일 10:00 ~
 
 RESOURCE ID: event_datetime_range_key_mankeycd24
 TEXT: 11월 10일 14시~17시
-
-RESOURCE ID: event_datetime_range_key_yamasktr24
-TEXT: 10월 19일 14시~ 17시
 
 RESOURCE ID: event_research_complete
 TEXT: 이벤트 리서치 완료!
@@ -422,9 +333,6 @@ TEXT: Max Pokémon
 RESOURCE ID: for_bonus_challenge
 TEXT: (보너스 챌린지용)
 
-RESOURCE ID: fr_tag_meetup
-TEXT: 미트업
-
 RESOURCE ID: friend_is_at_a_raid
 TEXT: {0}님은 <b>{1} 레이드</b>에 참가 중
 
@@ -440,14 +348,11 @@ TEXT: 친구리스트에서 바로 레이드배틀에 참가
 RESOURCE ID: friendslist_sort_raid
 TEXT: 레이드배틀 중({0})
 
-RESOURCE ID: general1.ticket.2_halloween1tr24_title
-TEXT: 모르페코 의상 프리미엄 시간제한 리서치 티켓
+RESOURCE ID: general1.ticket.5._gowa2024raidver1_title
+TEXT: 와일드 위크: 레이드
 
-RESOURCE ID: general1.ticket.2_halloween2tr24_title
-TEXT: 코스튬 파티 프리미엄 시간제한 리서치
-
-RESOURCE ID: general1.ticket.2_yamasktr24_title
-TEXT: 데스마스와 데스마스(가라르의 모습) 프리미엄 시간제한 리서치 티켓
+RESOURCE ID: general1.ticket._gowa2024gsbea_title
+TEXT: GO사파리볼: 추가 접속 티켓
 
 RESOURCE ID: general1.ticket._harvest1124_title
 TEXT: 수확 축제 프리미엄 시간제한 리서치 티켓
@@ -458,20 +363,17 @@ TEXT: GO배틀 위켄드 프리미엄 시간제한 리서치 티켓
 RESOURCE ID: general1.ticket_mankeycd24_title
 TEXT: 망키 커뮤니티 데이 티켓
 
+RESOURCE ID: general2.ticket.5._gowa2024hatchver1_title
+TEXT: 와일드 위크: 알 부화
+
 RESOURCE ID: gigantic_halloween_name
 TEXT: 특대 핼러윈
 
 RESOURCE ID: gmax_gengar_max_battles
 TEXT: 거다이맥스한 팬텀이 맥스배틀에 출현
 
-RESOURCE ID: gmax_max_battles
-TEXT: 거다이맥스한 포켓몬이 맥스배틀에 출현
-
 RESOURCE ID: go_battle_weekend_tr_name
 TEXT: GO배틀 위켄드 프리미엄 시간제한 리서치
-
-RESOURCE ID: go_max_event_name
-TEXT: 맥스로 가자!
 
 RESOURCE ID: go_wild_2024_global_sr_electric_00_01
 TEXT: 전기타입 포켓몬에 대해 조사하고 싶구나!
@@ -926,9 +828,6 @@ TEXT: G-STAR 2024: 20주년 시간제한 리서치(1/2)
 RESOURCE ID: gstar_2024_tr_name_2
 TEXT: G-STAR 2024: 20주년 시간제한 리서치(2/2)
 
-RESOURCE ID: gym_general
-TEXT: 체육관
-
 RESOURCE ID: habitat_apac_151busstop_1
 TEXT: 수상한 동굴
 
@@ -952,48 +851,6 @@ TEXT: 환상의 숲
 
 RESOURCE ID: habitat_apac_151busstop_8
 TEXT: 피카츄 언덕
-
-RESOURCE ID: halloween_03_oct24_event_name
-TEXT: 캔디 파티
-
-RESOURCE ID: halloween_2024_part_i_event_name
-TEXT: 핼러윈 2024 파트1
-
-RESOURCE ID: halloween_2024_part_ii_event_name
-TEXT: 핼러윈 2024 파트2
-
-RESOURCE ID: halloween_encounter_tr_name
-TEXT: 코스튬 파티 프리미엄 시간제한 리서치
-
-RESOURCE ID: halloween_morpeko_tr_name
-TEXT: 모르페코 의상 프리미엄 시간제한 리서치
-
-RESOURCE ID: halloween_morpeko_tr_name_full
-TEXT: 모르페코 의상 프리미엄 시간제한 리서치: 배부른
-
-RESOURCE ID: halloween_morpeko_tr_name_full_button_text_key
-TEXT: 배부른
-
-RESOURCE ID: halloween_morpeko_tr_name_full_description_key
-TEXT: 이것을 선택하면 의상 아이템 모르페코(배부른 모양) 포켓몬 옷과 연결된 도전을 할 수 있습니다.
-
-RESOURCE ID: halloween_morpeko_tr_name_full_title_key
-TEXT: 배부른
-
-RESOURCE ID: halloween_morpeko_tr_name_hangry
-TEXT: 모르페코 의상 프리미엄 시간제한 리서치: 배고픈
-
-RESOURCE ID: halloween_morpeko_tr_name_hangry_button_text_key
-TEXT: 배고픈
-
-RESOURCE ID: halloween_morpeko_tr_name_hangry_description_key
-TEXT: 이것을 선택하면 의상 아이템 모르페코(배고픈 모양) 포켓몬 옷과 연결된 도전을 할 수 있습니다.
-
-RESOURCE ID: halloween_morpeko_tr_name_hangry_title_key
-TEXT: 배고픈
-
-RESOURCE ID: halloween_spiritomb_tr_name
-TEXT: 핼러윈2024:  화강돌 챌린지
 
 RESOURCE ID: harvest_festival_collection_catch
 TEXT: 수확 축제 컬렉션 챌린지: 가을의 만남
@@ -1025,25 +882,6 @@ TEXT: 수확 축제 프리미엄 시간제한 리서치(3/3)
 RESOURCE ID: hint_desc_loc_network_err_body_key
 TEXT: 힌트와 동일한 이미지가 되도록 카메라를 맞춥니다. 그대로 주변을 천천히 걸어 다양한 각도에서 스캔해 주세요.
 
-RESOURCE ID: hint_desc_loc_network_err_title_key
-TEXT: 문제가 발생했습니다...
-
-RESOURCE ID: hint_desc_loc_not_ready_body_key
-TEXT: 힌트와 동일한 이미가 되도록 카메라를 맞춥니다. 그대로 주변을 천천히 걸어 다양한 각도에서 스캔해 주세요.
-
-RESOURCE ID: hint_desc_loc_not_ready_title_key
-TEXT: 문제가 발생했습니다...
-
-RESOURCE ID: hint_desc_loc_ready_title_key
-TEXT: 이 이미지에 있는 랜드마크에 카메라를 향해주세요.
-
-RESOURCE ID: hint_desc_loc_retry_button_key
-TEXT: 다시 시도
-
-RESOURCE ID: hint_desc_ready_title_key
-TEXT: 이 랜드마크를 찾아보세요.
-가까이 있습니다!
-
 RESOURCE ID: holiday_activation_collection_challenge
 TEXT: 홀리데이 데이라이트 컬렉션 챌린지
 
@@ -1059,80 +897,29 @@ TEXT: You can’t send your last Max Pokémon.
 RESOURCE ID: iap_category_rewarded_spend
 TEXT: 리워드 로드
 
-RESOURCE ID: iris_social_confirm_exit_modal_body
-TEXT: 포켓몬은 지칠 때까지 이 장소에 머무르지만 언제라도 다시 부를 수 있습니다.
-
-RESOURCE ID: iris_social_confirm_exit_modal_title
-TEXT: 정말로 나가겠습니까?
-
-RESOURCE ID: iris_social_diagnostic_okay_button
-TEXT: 보고 송신
-
-RESOURCE ID: iris_social_diagnostic_title
-TEXT: 개발 중 기능
-
-RESOURCE ID: iris_social_diagnostics_option_five
-TEXT: AR에 적절하지 않는 장소다
-
-RESOURCE ID: iris_social_diagnostics_option_four
-TEXT: 랜드마크(대표 건물)를 보고 있지만 아무 일이 일어나지 않는다
-
-RESOURCE ID: iris_social_diagnostics_option_one
-TEXT: 이지미에 표시된 랜드마크(대표 건물)를 모르겠다
-
-RESOURCE ID: iris_social_diagnostics_option_three
-TEXT: 카메라를 어디로 향하면 될지 모르겠다.
-
-RESOURCE ID: iris_social_diagnostics_option_two
-TEXT: 힌트 이미지가 명확하지 않다
-
-RESOURCE ID: iris_social_diagnostics_subtitle
-TEXT: 이 기능을 사용하시고 문제가 발생했거나 감상이 있다면 알려주세요.
-
-RESOURCE ID: iris_social_entry_instruction_body
-TEXT: 랜드마크에서는 포켓몬이 모여서 놀거나 다른 포켓몬 트레이너와 만날 수 있습니다. 포켓몬이 있는 랜드마크에서는 카메라를 대표 건물에 향하면 포켓몬을 볼 수 있습니다! 
-
-RESOURCE ID: iris_social_entry_instruction_title
-TEXT: 랜드마크(대표 건물)를 발견했습니다!
-
-RESOURCE ID: iris_social_landmark_too_far_body
-TEXT: 포켓몬을 보려면 더 가까이 가세요
-
-RESOURCE ID: iris_social_landmark_too_far_header
-TEXT: 랜드마크에서 너무 멀리 있습니다
-
-RESOURCE ID: iris_social_rotation_error_key
-TEXT: 관심을 끌 수 있는 건 자신의 포켓몬만입니다
-
-RESOURCE ID: iris_social_temporary_disable_key
-TEXT: 이 장소에서 활동할 수 없습니다. 잠시 후 다시 시도해 주십시오.
-
 RESOURCE ID: item_bag_category_boosts
 TEXT: 향로 등 트레이너 부스터
 
-RESOURCE ID: item_event_ticket_04_desc_halloween2tr24
-TEXT: 현지시간 2024년 10월 22일 10시 ~ 11월 3일 20시에 '코스튬 파티 프리미엄 시간제한 리서치'를 진행할 수 있는 티켓.
+RESOURCE ID: item_event_ticket_05_desc_hatchver1
+TEXT: 현지시간 2024년 11월 18일 0:01부터 와일드 위크: 알 부화에 접속할 수 있는 티켓.
 
-RESOURCE ID: item_event_ticket_04_details_halloween2tr24
-TEXT: 이 티켓은 자동으로 활성화되어 현지시간 10월 22일에 코스튬 파티 프리미엄 시간제한 리서치가 진행됩니다.
+RESOURCE ID: item_event_ticket_details_gowaleadup2024
+TEXT: This ticket will automatically activate to give you access to the Into the Wild Timed Research and other bonuses starting November 18, 2024, wherever you are.
+
+RESOURCE ID: item_event_ticket_evergreen_desc_gowa2024gsbea
+TEXT: 현지시간 2024년 11월 23일, 24일 10시~18:15에 "GO사파리볼: 추가 접속" 시간제한 리서치를 진행하기 위한 티켓.
 
 RESOURCE ID: item_event_ticket_evergreen_desc_harvest1124
 TEXT: 현지시간 2024년 11월 12일 8시까지 수확 축제 프리미엄 시간제한 리서치를 진행할 수 있는 티켓.
 
-RESOURCE ID: item_event_ticket_evergreen_desc_yamasktr24
-TEXT: 현지시간 2024년 10월 19일 14시~ 17시에 데스마스와 데스마스(가라르의 모습)가 리서치데이용 2가지 프리미엄 시간제한 리서치를 진행할 수 있는 티켓.
+RESOURCE ID: item_event_ticket_evergreen_details_gowa2024gsbea
+TEXT: 이 티켓은 자동으로 활성화 되어 2024년 11월 23일, 24일의 Pokémon GO 와일드 에리어 이벤트 개최 시간에 "GO사파리볼: 추가 접속" 시간제한 리서치를 진행합니다.
 
 RESOURCE ID: item_event_ticket_evergreen_details_harvest1124
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 11월 7일에 수확 축제 프리미엄 시간제한 리서치가 진행됩니다.
 
-RESOURCE ID: item_event_ticket_evergreen_details_yamasktr24
-TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2024년 10월 19일 데스마스와 데스마스(가라르의 모습) 리서치데이 프리미엄 시간제한 리서치가 진행됩니다.
-
-RESOURCE ID: item_event_ticket_gray_desc_halloween1tr24
-TEXT: 현지시간 2024년 10월 22일 10시 ~ 11월 3일 20시에 '모르페코 의상 프리미엄 시간제한 리서치'를 진행할 수 있는 티켓.
-
-RESOURCE ID: item_event_ticket_gray_details_halloween1tr24
-TEXT: 이 티켓은 자동으로 활성화되어 현지시간 10월 22일에 모르페코 의상 프리미엄 시간제한 리서치가 진행됩니다.
+RESOURCE ID: item_event_ticket_gray_desc_raidver1
+TEXT: 현지시간 2024년 11월 18일 0:01부터 와일드 위크: 레이드에 접속할 수 있는 티켓.
 
 RESOURCE ID: item_event_ticket_pink_desc_gobattlenov2024
 TEXT: 현지시간 2024년 11월 2일 0시 ~ 11월 3일 23시 59분에 'GO배틀 위켄드 프리미엄 시간제한 리서치'를 진행할 수 있는 티켓.
@@ -1147,19 +934,13 @@ RESOURCE ID: item_event_ticket_pink_details_mankeycd24
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 11월 10일 망키 커뮤니티 데이 스페셜리서치가 진행됩니다.
 
 RESOURCE ID: item_max_boost_desc
-TEXT: An item that increases the attack power of Pokémon in Max battles for 30 minutes.
+TEXT: An item that increases the damage your Pokémon deal in Max Battles for 30 minutes.
 
 RESOURCE ID: item_max_boost_name
 TEXT: Max Mushroom
 
 RESOURCE ID: item_max_boost_name_plural
 TEXT: Max Mushrooms
-
-RESOURCE ID: item_wild_ball_premier_desc
-TEXT: Pokémon GO 와일드 에리어 이벤트 개최 중에만 사용할 수 있는 특별한 볼.
-
-RESOURCE ID: item_wild_ball_premier_name
-TEXT: GO사파리볼
 
 RESOURCE ID: join_raid_bonus
 TEXT: 프렌드와 함께 레이드배틀 참가
@@ -1172,16 +953,6 @@ TEXT: 다가가고 있습니다!
 
 RESOURCE ID: limited_localization_progress_hint_1
 TEXT: 반짝임을 따라 목표 랜드마크에 다가갑니다
-
-RESOURCE ID: localization_progress_hint_1
-TEXT: 랜드마크에 카메라를 향하고
-원내의 이미지처럼 표시한다
-
-RESOURCE ID: localization_progress_hint_2
-TEXT: 랜드마크의 주변을 천천히 걸어주세요.
-
-RESOURCE ID: localization_success_hint
-TEXT: 랜드마크(대표 건물)를 발견했습니다!
 
 RESOURCE ID: localized_month_10_key
 TEXT: 10월
@@ -1219,15 +990,11 @@ TEXT: 8월
 RESOURCE ID: localized_month_9_key
 TEXT: 9월
 
-RESOURCE ID: location_space_limit_message
-TEXT: 지금은 포켓몬을 둘 수 있는 
-장소가 없습니다
-
 RESOURCE ID: lure_mossy_event_bonus
 TEXT: 이벤트에 관련 있는 포켓몬이 허브 루어모듈에 반응
 
 RESOURCE ID: max_boost.1_description
-TEXT: A mushroom that increases the attack power of Pokémon in Max battles for 30 minutes.
+TEXT: A mushroom that increases the damage your Pokémon deal in Max Battles for 30 minutes.
 
 RESOURCE ID: max_boost.1_title
 TEXT: Max Mushroom
@@ -1241,17 +1008,11 @@ TEXT: 3 Max Mushrooms
 RESOURCE ID: max_boost_item_activated_toast
 TEXT: Attack Power Increased!
 
-RESOURCE ID: meetup_check_in_bonus
-TEXT: 미트업 체크인 보너스
-
-RESOURCE ID: meetups_ended_desc
-TEXT: 미트업 종료
-
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-11-13T00:41:00.029249+00:00 for ko-KR
-at SHA 1a270ee7cf5
-Pipeline 2771496, job 33973051
-Patch from: 0.339.0-SHA-8a0c57d6-RC2, 0.337.0-SHA-38eacb89-RC1, 0.341.0-SHA-cc21bdb6-RC1
+TEXT: Built at 2024-11-14T01:28:45.053654+00:00 for ko-KR
+at SHA 8323329b829
+Pipeline 2775247, job 34026220
+Patch from: 0.339.0-SHA-8a0c57d6-RC2, 0.341.0-SHA-cc21bdb6-RC1
 
 RESOURCE ID: monodepth_landscape_unavailable_toast
 TEXT: 옆방향으로는 AR 브랜딩을 사용할 수 없습니다
@@ -1259,89 +1020,14 @@ TEXT: 옆방향으로는 AR 브랜딩을 사용할 수 없습니다
 RESOURCE ID: move_name_0464
 TEXT: 분노의주먹
 
-RESOURCE ID: mp_replenish.1_title
-TEXT: 맥스 파티클 팩 ({0}MP)
-
-RESOURCE ID: nearby_station_active_header
-TEXT: 활성화 중 파워스폿
-
-RESOURCE ID: no_pokemon_found_body
-TEXT: 나의 포켓몬을 두겠습니까?
-
-RESOURCE ID: no_pokemon_found_header
-TEXT: 여기에 아직 포켓몬을 두지 않았습니다!
-
-RESOURCE ID: party_play_field_research_special
-TEXT: 체크인해서 받을 수 있는 팀 챌린지 있음
-
-RESOURCE ID: party_play_tandemaus_boost
-TEXT: 팀 챌린지로 두리쥐와 만날 확률 증가
-
-RESOURCE ID: photobomb_five_mankey
-TEXT: GO스냅샷으로 망키의 서프라이즈 5회
-
-RESOURCE ID: poi_contrib_edit_desc_desc_custom
-TEXT: {0}의 설명
-
-RESOURCE ID: poi_contrib_edit_title_desc_custom
-TEXT: {0}의 타이틀
-
-RESOURCE ID: poi_contrib_entry_ar_data_custom
-TEXT: {0}(을)를 스캔
-
-RESOURCE ID: poi_contrib_entry_header_custom
-TEXT: 이 {0}에 기여
-
-RESOURCE ID: poi_contrib_entry_report_invalid_custom
-TEXT: {0}의 문제 보고
-
-RESOURCE ID: poi_contrib_report_reason_duplicate_custom
-TEXT: 중복 {0}
-
-RESOURCE ID: pokedex_info_battle_tab_title
-TEXT: BATTLE
-
 RESOURCE ID: pokedex_info_caught_count
 TEXT: CAUGHT
-
-RESOURCE ID: pokedex_info_caught_tab_title
-TEXT: CAUGHT
-
-RESOURCE ID: pokedex_info_costume_title
-TEXT: Costume
-
-RESOURCE ID: pokedex_info_form_alolan
-TEXT: ALOLAN
-
-RESOURCE ID: pokedex_info_form_galarian
-TEXT: GALARIAN
-
-RESOURCE ID: pokedex_info_form_hisuian
-TEXT: HISUIAN
-
-RESOURCE ID: pokedex_info_form_paldean
-TEXT: PALDEAN
-
-RESOURCE ID: pokedex_info_info_tab_title
-TEXT: INFO
-
-RESOURCE ID: pokedex_info_register_date
-TEXT: First registered date:
 
 RESOURCE ID: pokedex_info_seen_count
 TEXT: SEEN
 
-RESOURCE ID: pokedex_info_unregistered
-TEXT: Not Registered
-
-RESOURCE ID: pokedex_mode_name_all_v2
-TEXT: POKÉMON
-
 RESOURCE ID: pokedex_page_registered
 TEXT: Your latest registered Pokémon
-
-RESOURCE ID: pokedex_region_button_title
-TEXT: Region
 
 RESOURCE ID: pokemon_desc_0062
 TEXT: 근육을 전부 사용하는 역동적인 헤엄치기가 특기지만 웬일인지 지상에서 생활한다.
@@ -1355,18 +1041,6 @@ TEXT: 15000볼트나 되는 전기를 발생시킬 수 있다. 상대가 누구�
 RESOURCE ID: pokemon_desc_0849_2464
 TEXT: 가슴에 난 돌기를 긁으면 전기가 일어나며 주위에 기타와 비슷한 소리가 울려퍼진다.
 
-RESOURCE ID: pokemon_info_evolve_pokemon_deployed
-TEXT: {0}(은)는 체육관 또는 파워스폿에 있습니다
-
-RESOURCE ID: pokemon_info_powerup_pokemon_deployed
-TEXT: {0}(은)는 체육관 또는 파워스폿에 있습니다
-
-RESOURCE ID: pokemon_name_bread
-TEXT: 다이맥스 {0}
-
-RESOURCE ID: pokemon_name_bread_dough
-TEXT: 거다이맥스 {0}
-
 RESOURCE ID: pokestop_challenge_fr_title
 TEXT: 포켓스톱 챌린지
 
@@ -1376,20 +1050,11 @@ TEXT: 포켓스톱 챌린지 시간제한 리서치
 RESOURCE ID: pokestop_challenge_tr_desc_title_00
 TEXT: 포켓스톱 챌린지 시간제한 리서치 (1/1)
 
-RESOURCE ID: pokestop_general
-TEXT: 포켓스톱
-
 RESOURCE ID: quest_appraise_pokemon_plural
 TEXT: 포켓몬 {0}마리를 평가한다.
 
 RESOURCE ID: quest_appraise_pokemon_singular
 TEXT: 포켓몬 1마리를 평가한다.
-
-RESOURCE ID: quest_branching_special_dialogue_1
-TEXT: 안녕, %PLAYERNAME%! 포켓몬도 많고 조사할 것도 많아, 어서 시작해볼까!
-
-RESOURCE ID: quest_branching_special_dialogue_2
-TEXT: 어느 쪽에 흥미가 있니?
 
 RESOURCE ID: quest_catch_special_pidgey
 TEXT: 구구를 {0}마리 잡는다
@@ -1418,15 +1083,6 @@ TEXT: 동료 체육관에서 포켓몬에게 나무열매를 {0}개 준다
 RESOURCE ID: quest_feed_gym_pokemon_singular
 TEXT: 동료 체육관에서 포켓몬에게 나무열매를 1개 준다
 
-RESOURCE ID: quest_mankey_catch_b
-TEXT: 망키를 {0}마리 잡는다
-
-RESOURCE ID: quest_mankey_evolve_b_plural
-TEXT: 망키를 {0}마리 진화시킨다
-
-RESOURCE ID: quest_mankey_evolve_b_singular
-TEXT: 망키를 1마리 진화시킨다
-
 RESOURCE ID: quest_pin_postcard_plural
 TEXT: 엽서 {0}장을 핀 고정한다
 
@@ -1438,12 +1094,6 @@ TEXT: 전기타입 포켓몬을 강화한다
 
 RESOURCE ID: quest_power_up_singular_poison
 TEXT: 독타입 포켓몬을 강화한다
-
-RESOURCE ID: quest_primeape_evolve_b_plural
-TEXT: 성원숭을 {0}마리 진화시킨다
-
-RESOURCE ID: quest_primeape_evolve_b_singular
-TEXT: 성원숭을 1마리 진화시킨다
 
 RESOURCE ID: quest_raid_supereffective_charge_plural
 TEXT: 효과가 굉장한 스페셜 어택을 레이드배틀에서 {0}번 사용한다
@@ -1468,21 +1118,6 @@ TEXT: 효과가 굉장한 스페셜 어택을 GO로켓단 배틀에서 {0}번 �
 
 RESOURCE ID: quest_tgr_supereffective_charge_singular
 TEXT: 효과가 굉장한 스페셜 어택을 GO로켓단 배틀에서 1번 사용한다
-
-RESOURCE ID: quest_title_mankey
-TEXT: 돈숭이포켓몬의 수수께끼를 풀어라!
-
-RESOURCE ID: quest_title_mankey_0
-TEXT: 돈숭이포켓몬의 수수께끼를 풀어라!(1/4)
-
-RESOURCE ID: quest_title_mankey_1
-TEXT: 돈숭이포켓몬의 수수께끼를 풀어라!(2/4)
-
-RESOURCE ID: quest_title_mankey_2
-TEXT: 돈숭이포켓몬의 수수께끼를 풀어라!(3/4)
-
-RESOURCE ID: quest_title_mankey_3
-TEXT: 돈숭이포켓몬의 수수께끼를 풀어라!(4/4)
 
 RESOURCE ID: quest_title_player_progression
 TEXT: 더 높은 곳으로!
@@ -1528,42 +1163,6 @@ TEXT: 더 높은 곳으로! (9/14)
 
 RESOURCE ID: quest_title_player_progression_9
 TEXT: 더 높은 곳으로! (10/14)
-
-RESOURCE ID: quest_title_season_16_first_partner_14_dialogue_1
-TEXT: %PLAYERNAME%, 빅뉴스야!
-
-RESOURCE ID: quest_title_season_16_first_partner_14_dialogue_2
-TEXT: 다이맥스한 포켓몬보다 거대하고 모습이 많이 바뀐 포켓몬을 봤어!
-
-RESOURCE ID: quest_title_season_16_first_partner_14_dialogue_3
-TEXT: 수수께끼가 깊어지지만 너의 힘을 빌려서 조사하고 싶어.
-
-RESOURCE ID: quest_title_season_16_first_partner_14_dialogue_4
-TEXT: 먼저 자료를 조사할테니 너는 필드워크를 담당해줘!
-
-RESOURCE ID: quest_title_season_16_first_partner_15_dialogue_1
-TEXT: 알았어, %PLAYERNAME%! 현재 일어나고 있는 일은 '거다이맥스'라는 현상인 것 같아.
-
-RESOURCE ID: quest_title_season_16_first_partner_15_dialogue_2
-TEXT: 거다이맥스한 포켓몬이라면 크기와 모습이 바뀔뿐 아니라 그 포켓몬 특유의 기술을 쓸 수 있다고 하는군.
-
-RESOURCE ID: quest_title_season_16_first_partner_15_dialogue_3
-TEXT: 실제 파워스폿에 가서 확인해 보지 않을래?
-
-RESOURCE ID: quest_title_season_16_first_partner_15_dialogue_4
-TEXT: 나도 좀 더 거다이맥스 현상을 조사해 볼게.
-
-RESOURCE ID: quest_title_season_16_first_partner_16_dialogue_1
-TEXT: 어서 와, %PLAYERNAME%!
-
-RESOURCE ID: quest_title_season_16_first_partner_16_dialogue_2
-TEXT: 동료 연구자에게 물어봤더니 역시나 거다이맥스 현장이 맞는 것 같아.
-
-RESOURCE ID: quest_title_season_16_first_partner_16_dialogue_3
-TEXT: 어떤 모습의 거다이맥스 포켓몬이 앞으로 나올까? 포켓몬 자체도 크지만 그 가능성도 아주 클 거야.
-
-RESOURCE ID: quest_title_season_16_first_partner_16_dialogue_4
-TEXT: 모르는 게 많다는 건 배울 기회와 기쁨이 있다는 거지. 너도 그렇게 생각하지?
 
 RESOURCE ID: quest_title_season_16_first_partner_17_dialogue_1
 TEXT: I’ve got to say it again—well done, %PLAYERNAME%!
@@ -1632,18 +1231,6 @@ TEXT: 프렌드에게 레이드배틀 참가 공유
 
 RESOURCE ID: raid_attendance_online_disclaimer_message
 TEXT: 레이드배틀 참가 상황을 공유합니다(설정에서 변경 가능)
-
-RESOURCE ID: reduced_hatch_party_play
-TEXT: 팀 참가 중 알 부화에 필요한 거리 감소
-
-RESOURCE ID: research_day_yamask_and_gyamask_event_name
-TEXT: 데스마스와 가라르 데스마스 리서치데이
-
-RESOURCE ID: research_day_yamask_and_gyamask_tr_name_gyamask
-TEXT: 데스마스(가라르의 모습) 프리미엄 시간제한 리서치
-
-RESOURCE ID: research_day_yamask_and_gyamask_tr_name_yamask
-TEXT: 데스마스 프리미엄 시간제한 리서치
 
 RESOURCE ID: research_level_gated
 TEXT: 레벨 {0}에서 재개할 수 있습니다!
@@ -1755,15 +1342,6 @@ TEXT: City Safari: São Paulo 2024 (3/3)
 RESOURCE ID: search_filter_help_url
 TEXT: https://niantic.helpshift.com/hc/faq/1486-searching-filtering-your-pokemon-inventory/
 
-RESOURCE ID: see_meetups_button
-TEXT: 근처 미트업을 본다
-
-RESOURCE ID: see_other_meetups_button
-TEXT: 다른 미트업을 본다
-
-RESOURCE ID: settings_campfire_meetup_title
-TEXT: 근처 미트업
-
 RESOURCE ID: settings_select_suggested_search_help
 TEXT: 검색시 선택 가능한 필터를 표시
 
@@ -1796,9 +1374,6 @@ TEXT: GO 와일드 에리어 부화 박스
 
 RESOURCE ID: sku.name.web-gowa-2024-box-3
 TEXT: GO 와일드 에리어 궁극 박스
-
-RESOURCE ID: spawn_mankey
-TEXT: 망키가 야생에서 많이 출현!
 
 RESOURCE ID: spawn_mighty
 TEXT: 강한 포켓몬이 더 많이 야생에서 출현
@@ -1901,18 +1476,26 @@ TEXT: <b>받을 수 있는 리워드:</b>
 - 30,000 별의모래, 
 - 이상한사탕 3개, 이상한사탕XL 3개, 별의조각 1개 등
 
-RESOURCE ID: text_rewards_key_halloween1tr24
-TEXT: <b>받을 수 있는 리워드</b>
-- 이벤트 관련 포켓몬(파트2에서 등장한 마녀모자를 쓴 개구마르와 핼러윈 의상의 나몰빼미를 포함)과의 만남.
-- 마녀모자를 쓴 피카츄, 화강돌, 모르페코와의 만남.
-- 포켓몬을 잡았을 때 받을 수 있는 사탕 3배
-- 새로운 의상 아이템, 모르페코(배부른 모양) 포켓몬 옷 또는 모르페코(배고픈 모양) 포켓몬 옷.
+RESOURCE ID: text_rewards_key_gowa2024hatchver1
+TEXT: <b>받을 수 있는 것:</b>
+- 이벤트 중 부화장치에 셋팅 된 알의 부화에 필요한 거리 1/2
+- 매일 처음 포켓스톱을 스핀했을 때 받을 수 있는 1번만 사용 가능한 부화장치 1개
+- 10km 알에서 일레즌이 태어날 확률 업
+- 알 부화로 받을 수 있는 사탕 2배
+- 알 부화로 받을 수 있는 별의모래 2배
+- 알 부화로 받을 수 있는 XP 2배
+- 매일 시간제한 리서치 등
 
-주의) 스타일 숍에서 모르페코 포켓몬 옷을 구입한 경우 시간제한 리서치를 완료해서 같은 의상 아이템을 받을 수 없습니다.
+티켓 보너스에 대한 자세한 내용은 <a href="https://pokemongolive.com/post/into-the-wild-2024">여기</a>에서 확인하세요.
 
-RESOURCE ID: text_rewards_key_halloween2tr24
-TEXT: <b>받을 수 있는 리워드</b>
-- 마녀모자를 쓴 피카츄를 포함하여, 장식을 단 식스테일, 핼러윈 의상의 팬텀, 핼러윈 기념 모자 팽도리, 핼러윈 기념 모자 둥실라이드, 마녀모자를 쓴 개구마르, 장식을 단 호바귀, 핼러윈 의상의 나몰빼미와의 만남
+RESOURCE ID: text_rewards_key_gowa2024raidver1
+TEXT: <b>받을 수 있는 것:</b>
+- 하루 2장까지 체육관의 포토디스크를 돌려 받을 수 있는 레이드패스
+- 레이드를 완료하면 50,000XP 추가
+- 별4 이상 레이드배틀에서 포켓몬을 잡았을 때 받을 수 있는 사탕 1개 추가
+- 매일 시간제한 리서치 등
+
+티켓의 보너스에 대한 자세한 내용은 <a href="https://pokemongolive.com/post/into-the-wild-2024">여기</a>에서 확인하세요. 
 
 RESOURCE ID: text_rewards_key_harvest1124
 TEXT: <b>받을 수 있는 리워드:</b>
@@ -1925,19 +1508,8 @@ TEXT: <b>받을 수 있는 것:</b>
 - 망키와 그 진화형 포켓몬과의 만남
 - 이상한사탕, 하이퍼볼 등
 
-RESOURCE ID: text_rewards_key_yamasktr24
-TEXT: 현지시간 2024년 9월 19일 14시~17시에 필드리서치를 진행함에 따라 데스마스와 데스마스(가라르의 모습)를 만날 수 있습니다.
-
-이벤트 개최 중 시간제한 리서치를 완료하고 만날 수 있는 포켓몬은 색이 다른 포켓몬을 포함합니다.(시간제한 리서치 완료로 만날 수 있는 색이 다른 포켓몬과 같은 확률)
-
-RESOURCE ID: ticket_mankey
-TEXT: 돈숭이포켓몬의 수수께끼를 풀어라! 티켓이 숍에 등장
-
 RESOURCE ID: timed_research_complete
 TEXT: 시간제한 리서치 완료!
-
-RESOURCE ID: timed_research_special
-TEXT: 체크인해서 받을 수 있는 시간제한 리서치 있음
 
 RESOURCE ID: tr_apac_151busstop_engagement_desc
 TEXT: 한국에서 관동지방 포켓몬을 찾아라! 시간제한 리서치
@@ -2050,14 +1622,8 @@ TEXT: GO 와일드 에리어 도구 보급: GO사파리볼
 RESOURCE ID: tr_gowa2024_irl_wildballs_1
 TEXT: GO 와일드 에리어 도구 보급: GO사파리볼
 
-RESOURCE ID: vps_guardian_oob_toast
-TEXT: 플레이 영역 밖입니다. 포켓몬을 두려면 더 가까이 가주세요.
-
 RESOURCE ID: vps_localization_guidance_in_car
 TEXT: 목표 물체에 가까이 가세요
-
-RESOURCE ID: vps_localization_instruction_body
-TEXT: 이 이미지에 있는 대표 건물에 카메라를 향해 주세요.
 
 RESOURCE ID: wild_finale
 TEXT: 와일드 피날레
