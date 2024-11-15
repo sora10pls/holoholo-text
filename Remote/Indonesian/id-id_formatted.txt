@@ -909,6 +909,9 @@ TEXT: GABUNG RAID BERSAMA TEMAN
 RESOURCE ID: join_raid_friend_list_timer
 TEXT: <b>{0} dtk</b>
 
+RESOURCE ID: level_up_stats_pokestops_visited
+TEXT: PokéStop Dikunjungi
+
 RESOURCE ID: limited_localization_nearby_hint_1
 TEXT: Kamu makin mendekati ikon lokasi!
 
@@ -970,22 +973,28 @@ RESOURCE ID: max_boost_item_activated_toast
 TEXT: Attack Power Increased!
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-11-14T01:28:45.053654+00:00 for id-ID
-at SHA 8323329b829
-Pipeline 2775247, job 34026220
-Patch from: 0.339.0-SHA-8a0c57d6-RC2, 0.341.0-SHA-cc21bdb6-RC1
+TEXT: Built at 2024-11-15T00:31:03.378611+00:00 for id-ID
+at SHA 265863b9ffc
+Pipeline 2778999, job 34082043
+Patch from: 0.339.0-SHA-69b3b6f5-RC3, 0.341.0-SHA-cc21bdb6-RC1
 
 RESOURCE ID: move_name_0464
 TEXT: Tinju Amarah
+
+RESOURCE ID: party_play_activity_description_59
+TEXT: PokéStop Dikunjungi: <color=#F2A64B>{0}</color>
+
+RESOURCE ID: party_play_activity_leave_summary_59
+TEXT: PokéStop Dikunjungi
+
+RESOURCE ID: pokedex_category_unlock_tooltip
+TEXT: Collect {0} of these Pokemon to unlock this category. Collected {1}/{0}
 
 RESOURCE ID: pokedex_info_caught_count
 TEXT: CAUGHT
 
 RESOURCE ID: pokedex_info_seen_count
 TEXT: SEEN
-
-RESOURCE ID: pokedex_page_registered
-TEXT: Your latest registered Pokémon
 
 RESOURCE ID: pokemon_desc_0062
 TEXT: Ia ahli renang dinamis dengan menggunakan seluruh ototnya. Tetapi, entah kenapa ia hidup di daratan.
@@ -1007,6 +1016,9 @@ TEXT: Penelitian Berwaktu Tantangan PokéStop
 
 RESOURCE ID: pokestop_challenge_tr_desc_title_00
 TEXT: Penelitian Berwaktu Tantangan PokéStop (1/1)
+
+RESOURCE ID: profile_pokestops_visited
+TEXT: PokéStop Dikunjungi:
 
 RESOURCE ID: quest_event_eevee_snapshot_hong_kong
 TEXT: Take a snapshot of your Eevee in Hong Kong
@@ -1057,7 +1069,10 @@ RESOURCE ID: quest_use_potion_plural
 TEXT: Gunakan Obat Luka apa pun pada Pokémon {0} kali
 
 RESOURCE ID: quest_use_revive_plural
-TEXT: Gunakan Serpihan Pembangkit pada Pokémon {0} kali
+TEXT: Gunakan Pembangkit apa pun pada Pokémon {0} kali
+
+RESOURCE ID: quest_use_revive_singular
+TEXT: Gunakan Pembangkit apa pun pada Pokémon
 
 RESOURCE ID: raid_attendance_onboarding_message
 TEXT: Temanmu bisa bergabung ke Raid tempatmu berada secara langsung melalui Lis Teman mereka dan membantumu mengalahkan Bos Raid!
