@@ -10,6 +10,9 @@ TEXT: Team Yell Pants
 RESOURCE ID: avatar_pants_teamyellskirt
 TEXT: Team Yell Skirt
 
+RESOURCE ID: avatar_pose_determined
+TEXT: Determined Pose
+
 RESOURCE ID: avatar_pose_safariball
 TEXT: GO Wild Area 2024 Pose
 
@@ -112,6 +115,9 @@ TEXT: São Paulo, December 8, 2024
 RESOURCE ID: badge_safaricity_2024_sao_paulo_day_02_title
 TEXT: Pokémon GO City Safari
 
+RESOURCE ID: badge_total_mega_evos_singular
+TEXT: Mega Evolve a Pokémon.
+
 RESOURCE ID: badge_trading_card_0001
 TEXT: Obtain the exclusive Professor Willow trading card.
 
@@ -126,6 +132,9 @@ TEXT: Refer a Trainer.
 
 RESOURCE ID: badge_travel_km
 TEXT: Explore {0:0.#} km.
+
+RESOURCE ID: bonus_additional_5000_xp_t5_raids
+TEXT: Additional 5,000 XP awarded for successful five-star raids
 
 RESOURCE ID: bonus_apac_151busstop_habitat_1
 TEXT: Pokémon from the Howling Cave habitat are appearing in the wild
@@ -150,6 +159,9 @@ TEXT: Pokémon from the Illusion Forest habitat are appearing in the wild
 
 RESOURCE ID: bonus_apac_151busstop_habitat_8
 TEXT: Pokémon from the Pikachu Hill habitat are appearing in the wild
+
+RESOURCE ID: bonus_t5_raids_3_additional_candy
+TEXT: Three additional Candy from catching Pokémon in five-star raids
 
 RESOURCE ID: bread_dough_lobby_active_items_total
 TEXT: + {0} Max Mushrooms
@@ -188,6 +200,14 @@ RESOURCE ID: event_datetime_range_key_harvest1124
 TEXT: November 7, 10:00 a.m. –
 November 12, 8:00 p.m.
 
+RESOURCE ID: event_datetime_range_key_maxoutfinale1124
+TEXT: November 27, 10:00 a.m. –
+December 1, 8:00 p.m.
+
+RESOURCE ID: event_datetime_range_key_maxoutfinaleraids1124
+TEXT: November 27, 10:00 a.m. –
+December 1, 8:00 p.m.
+
 RESOURCE ID: filter_label_appraisal_100_percent
 TEXT: ★ 100%
 
@@ -217,6 +237,12 @@ TEXT: GO Safari Ball: Extra Access Ticket
 
 RESOURCE ID: general1.ticket._harvest1124_title
 TEXT: Harvest Festival Premium Timed Research Ticket
+
+RESOURCE ID: general1.ticket._maxoutfinale1124_title
+TEXT: Determined Pose Premium Timed Research Ticket
+
+RESOURCE ID: general1.ticket._maxoutfinaleraids1124_title
+TEXT: Max Out Finale Ticket: Raid Bonuses
 
 RESOURCE ID: general2.ticket.5._gowa2024hatchver1_title
 TEXT: Into the Wild: Hatch
@@ -662,11 +688,23 @@ TEXT: A ticket to access the GO Safari Ball: Extra Access hourly Timed Research 
 RESOURCE ID: item_event_ticket_evergreen_desc_harvest1124
 TEXT: A ticket to access the Harvest Festival Premium Timed Research until November 12, 2024, at 8:00 p.m. local time, wherever you are.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_maxoutfinale1124
+TEXT: A ticket to access the Determined Pose Premium Timed Research until December 1, 2024, at 8:00 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_evergreen_desc_maxoutfinaleraids1124
+TEXT: A ticket that grants raid bonuses during the Max Out Finale event until December 1, 2024, at 8:00 p.m. local time, wherever you are.
+
 RESOURCE ID: item_event_ticket_evergreen_details_gowa2024gsbea
 TEXT: This ticket will automatically activate to give you access to the GO Safari Ball: Extra Access hourly Timed Research during Pokémon GO Wild Area event hours on November 23 and 24, wherever you are.
 
 RESOURCE ID: item_event_ticket_evergreen_details_harvest1124
 TEXT: This ticket will automatically activate to give you access to the Harvest Festival Premium Timed Research on November 7, wherever you are.
+
+RESOURCE ID: item_event_ticket_evergreen_details_maxoutfinale1124
+TEXT: This ticket will automatically activate to give you access to the Determined Pose Premium Timed Research on November 27, wherever you are.
+
+RESOURCE ID: item_event_ticket_evergreen_details_maxoutfinaleraids1124
+TEXT: This ticket will automatically activate on November 27 to grant raid bonuses during the Max Out Finale event, wherever you are.
 
 RESOURCE ID: item_event_ticket_gray_desc_raidver1
 TEXT: A ticket to access Into the Wild: Raids starting November 18, 2024, at 12:01 a.m. local time, wherever you are.
@@ -732,13 +770,31 @@ RESOURCE ID: max_boost.1_title
 TEXT: Max Mushroom
 
 RESOURCE ID: max_boost.3_description
-TEXT: 3 Max Mushrooms. Increases the attack power of Pokémon in Max battles for 30 minutes.
+TEXT: 3 Max Mushrooms. Increases the damage your Pokémon deal in Max Battles for 30 minutes.
 
 RESOURCE ID: max_boost.3_title
 TEXT: 3 Max Mushrooms
 
 RESOURCE ID: max_boost_item_activated_toast
-TEXT: Attack Power Increased!
+TEXT: Attack damage increased!
+
+RESOURCE ID: max_out_finale_collection_challenge_1
+TEXT: Max Out Finale Collection Challenge 1
+
+RESOURCE ID: max_out_finale_collection_challenge_2
+TEXT: Max Out Finale Collection Challenge 2
+
+RESOURCE ID: max_out_finale_collection_challenge_3
+TEXT: Max Out Finale Collection Challenge 3
+
+RESOURCE ID: max_out_finale_collection_challenge_4
+TEXT: Max Out Finale Collection Challenge 4
+
+RESOURCE ID: max_out_finale_event_name
+TEXT: Max Out Finale
+
+RESOURCE ID: max_out_finale_tr_name
+TEXT: Determined Pose Premium Timed Research
 
 RESOURCE ID: meetup_check_in_research_title
 TEXT: Meetup Check-In Timed Research
@@ -756,10 +812,10 @@ RESOURCE ID: meetup_check_in_research_title_03
 TEXT: Meetup Check-In Timed Research: Connecting
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-11-18T19:11:46.797538+00:00 for en-US
-at SHA 68a02b3a6f5
-Pipeline 2784452, job 34172823
-Patch from: 0.341.0-SHA-cc21bdb6-RC1, 0.339.0-SHA-c09aa793-RC1
+TEXT: Built at 2024-11-20T22:37:59.026013+00:00 for en-US
+at SHA 91c6554974c
+Pipeline 2791795, job 34281823
+Patch from: 0.339.0-SHA-c09aa793-RC1, 0.341.0-SHA-f4fb4e24-RC2
 
 RESOURCE ID: move_name_0464
 TEXT: Rage Fist
@@ -772,6 +828,9 @@ TEXT: CAUGHT
 
 RESOURCE ID: pokedex_info_seen_count
 TEXT: SEEN
+
+RESOURCE ID: pokedex_region_button_title
+TEXT: Regions
 
 RESOURCE ID: pokemon_desc_0062
 TEXT: Although it’s skilled in a style of dynamic swimming that uses all its muscles, for some reason it lives on dry land.
@@ -1017,6 +1076,19 @@ TEXT: <b>Included rewards:</b>
 • 2 Mossy Lure Modules, 1 Incense, and 1 Lucky Egg
 • 4,000 XP and 2,000 Stardust
 
+RESOURCE ID: text_rewards_key_maxoutfinale1124
+TEXT: <b>Included rewards:</b>
+• Encounters with Passimian, Falinks, and Smoliv
+• Determined Pose
+• 2,500 XP and 1,000 Stardust
+
+RESOURCE ID: text_rewards_key_maxoutfinaleraids1124
+TEXT: <b>Included bonuses:</b>
+• Five additional Raid Passes per day from spinning Photo Discs at Gyms
+• 3 additional Candy from catching Pokémon in five-star raids
+• 1 additional Candy XL from catching Pokémon in five-star raids
+• 5,000 additional XP for successfully completing raids
+
 RESOURCE ID: tr_apac_151busstop_engagement_desc
 TEXT: Kanto Adventures in Korea Timed Research
 
@@ -1097,4 +1169,10 @@ TEXT: Into the Wild: Raids
 
 RESOURCE ID: tr_gowa2024_global_daily_raid_1
 TEXT: Into the Wild: Raids (1/1)
+
+RESOURCE ID: tr_gowa2024_global_wildballs_bonus
+TEXT: GO Safari Ball: Extra Access Timed Research
+
+RESOURCE ID: tr_gowa2024_global_wildballs_bonus_1
+TEXT: GO Safari Ball: Extra Access Timed Research
 

@@ -16,6 +16,9 @@ TEXT: 옐단 하의
 RESOURCE ID: avatar_pants_teamyellskirt
 TEXT: 옐단 스커트
 
+RESOURCE ID: avatar_pose_determined
+TEXT: 팔짱 낀 포즈
+
 RESOURCE ID: avatar_pose_safariball
 TEXT: GO 와일드 에리어2024 포즈
 
@@ -181,6 +184,9 @@ TEXT: 상파울루, 2024년 12월 8일
 RESOURCE ID: badge_safaricity_2024_sao_paulo_day_02_title
 TEXT: Pokémon GO City Safari
 
+RESOURCE ID: bonus_additional_5000_xp_t5_raids
+TEXT: 별5 레이드에서 이기면 5,000XP 추가
+
 RESOURCE ID: bonus_apac_151busstop_habitat_1
 TEXT: 수상한 동굴의 포켓몬이 야생에서 출현
 
@@ -259,6 +265,9 @@ TEXT: 별4 이상 레이드배틀에서 포켓몬을 잡았을 때 받을 수 �
 RESOURCE ID: bonus_raid_4plus_6_candy
 TEXT: 별4 이상 레이드배틀에서 포켓몬을 잡았을 때 받을 수 있는 사탕 6개 추가
 
+RESOURCE ID: bonus_t5_raids_3_additional_candy
+TEXT: 별5 레이드배틀에서 포켓몬을 잡았을 때 받을 수 있는 사탕 3개 추가
+
 RESOURCE ID: bonus_two_free_raid_passes
 TEXT: 체육관의 포토디스크를 돌려 레이드패스 2장까지 입수
 
@@ -318,6 +327,14 @@ TEXT: 11월 7일 10:00 ~
 RESOURCE ID: event_datetime_range_key_mankeycd24
 TEXT: 11월 10일 14시~17시
 
+RESOURCE ID: event_datetime_range_key_maxoutfinale1124
+TEXT: 11월 27일 10:00 ~ 
+12월 1일 20:00
+
+RESOURCE ID: event_datetime_range_key_maxoutfinaleraids1124
+TEXT: 11월 27일 10;00~
+12월 1일 20:00
+
 RESOURCE ID: event_research_complete
 TEXT: 이벤트 리서치 완료!
 
@@ -359,6 +376,12 @@ TEXT: GO사파리볼: 추가 접속 티켓
 
 RESOURCE ID: general1.ticket._harvest1124_title
 TEXT: 수확 축제 프리미엄 시간제한 리서치 티켓
+
+RESOURCE ID: general1.ticket._maxoutfinale1124_title
+TEXT: 팔짱 낀 포즈 프리미엄 시간제한 리서치
+
+RESOURCE ID: general1.ticket._maxoutfinaleraids1124_title
+TEXT: 맥스 아웃 피날레 티켓: 레이드 보너스
 
 RESOURCE ID: general1.ticket_gobattlenov2024_title
 TEXT: GO배틀 위켄드 프리미엄 시간제한 리서치 티켓
@@ -915,11 +938,23 @@ TEXT: 현지시간 2024년 11월 23일, 24일 10시~18:15에 "GO사파리볼: �
 RESOURCE ID: item_event_ticket_evergreen_desc_harvest1124
 TEXT: 현지시간 2024년 11월 12일 8시까지 수확 축제 프리미엄 시간제한 리서치를 진행할 수 있는 티켓.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_maxoutfinale1124
+TEXT: 현지시간 2024년 12월 1일 20시까지 팔짱 낀 포즈 프리미엄 시간제한 리서치를 진행할 수 있는 티켓.
+
+RESOURCE ID: item_event_ticket_evergreen_desc_maxoutfinaleraids1124
+TEXT: 맥스 아웃 피날레 이벤트 기간 중 12월 1일 20시까지 레이드 보너스를 받을 수 있는 티켓.
+
 RESOURCE ID: item_event_ticket_evergreen_details_gowa2024gsbea
 TEXT: 이 티켓은 자동으로 활성화 되어 2024년 11월 23일, 24일의 Pokémon GO 와일드 에리어 이벤트 개최 시간에 "GO사파리볼: 추가 접속" 시간제한 리서치를 진행합니다.
 
 RESOURCE ID: item_event_ticket_evergreen_details_harvest1124
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 11월 7일에 수확 축제 프리미엄 시간제한 리서치가 진행됩니다.
+
+RESOURCE ID: item_event_ticket_evergreen_details_maxoutfinale1124
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 11월 27일에 팔짱 낀 포즈 프리미엄 시간제한 리서치가 진행됩니다.
+
+RESOURCE ID: item_event_ticket_evergreen_details_maxoutfinaleraids1124
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 11월 27일에 맥스 아웃 피날레 이벤트 중 레이드 보너스를 받을 수 있습니다.
 
 RESOURCE ID: item_event_ticket_gray_desc_raidver1
 TEXT: 현지시간 2024년 11월 18일 0:01부터 와일드 위크: 레이드에 접속할 수 있는 티켓.
@@ -1003,19 +1038,37 @@ RESOURCE ID: max_boost.1_title
 TEXT: Max Mushroom
 
 RESOURCE ID: max_boost.3_description
-TEXT: 3 Max Mushrooms. Increases the attack power of Pokémon in Max battles for 30 minutes.
+TEXT: 3 Max Mushrooms. Increases the damage your Pokémon deal in Max Battles for 30 minutes.
 
 RESOURCE ID: max_boost.3_title
 TEXT: 3 Max Mushrooms
 
 RESOURCE ID: max_boost_item_activated_toast
-TEXT: Attack Power Increased!
+TEXT: Attack damage increased!
+
+RESOURCE ID: max_out_finale_collection_challenge_1
+TEXT: 맥스 아웃 피날레 컬렉션 챌린지1
+
+RESOURCE ID: max_out_finale_collection_challenge_2
+TEXT: 맥스 아웃 피날레 컬렉션 챌린지2
+
+RESOURCE ID: max_out_finale_collection_challenge_3
+TEXT: 맥스 아웃 피날레 컬렉션 챌린지3
+
+RESOURCE ID: max_out_finale_collection_challenge_4
+TEXT: 맥스 아웃 피날레 컬렉션 챌린지4
+
+RESOURCE ID: max_out_finale_event_name
+TEXT: 맥스 아웃 피날레
+
+RESOURCE ID: max_out_finale_tr_name
+TEXT: 팔짱 낀 포즈 프리미엄 시간제한 리서치
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-11-18T19:11:46.797538+00:00 for ko-KR
-at SHA 68a02b3a6f5
-Pipeline 2784452, job 34172823
-Patch from: 0.341.0-SHA-cc21bdb6-RC1, 0.339.0-SHA-c09aa793-RC1
+TEXT: Built at 2024-11-20T22:37:59.026013+00:00 for ko-KR
+at SHA 91c6554974c
+Pipeline 2791795, job 34281823
+Patch from: 0.339.0-SHA-c09aa793-RC1, 0.341.0-SHA-f4fb4e24-RC2
 
 RESOURCE ID: monodepth_landscape_unavailable_toast
 TEXT: 옆방향으로는 AR 브랜딩을 사용할 수 없습니다
@@ -1031,6 +1084,9 @@ TEXT: CAUGHT
 
 RESOURCE ID: pokedex_info_seen_count
 TEXT: SEEN
+
+RESOURCE ID: pokedex_region_button_title
+TEXT: Regions
 
 RESOURCE ID: pokemon_desc_0062
 TEXT: 근육을 전부 사용하는 역동적인 헤엄치기가 특기지만 웬일인지 지상에서 생활한다.
@@ -1511,6 +1567,19 @@ TEXT: <b>받을 수 있는 것:</b>
 - 망키와 그 진화형 포켓몬과의 만남
 - 이상한사탕, 하이퍼볼 등
 
+RESOURCE ID: text_rewards_key_maxoutfinale1124
+TEXT: <b>받을 수 있는 것</b>
+- 내던숭이, 대여르, 미니브와의 만남
+- 팔짱 낀 포즈
+- 2,500XP와 1,000 별의모래 등
+
+RESOURCE ID: text_rewards_key_maxoutfinaleraids1124
+TEXT: <b>받을 수 있는 것</b>
+- 체육관의 포토디스크를 돌려 하루에 받을 수 있는 레이드패스 5개 추가
+- 별5 레이드배틀에서 포켓몬을 잡았을 때 받을 수 있는 사탕 3개 추가
+-별5 레이드배틀에서 포켓몬을 잡았을 때 받을 수 있는 사탕XL 1개 추가
+- 레이드배틀에서 이겼을 때 5,000XP 추가 등
+
 RESOURCE ID: timed_research_complete
 TEXT: 시간제한 리서치 완료!
 
@@ -1624,6 +1693,12 @@ TEXT: GO 와일드 에리어 도구 보급: GO사파리볼
 
 RESOURCE ID: tr_gowa2024_global_wildballs_1
 TEXT: GO 와일드 에리어 도구 보급: GO사파리볼
+
+RESOURCE ID: tr_gowa2024_global_wildballs_bonus
+TEXT: GO사파리볼: 추가 접속 시간제한 리서치
+
+RESOURCE ID: tr_gowa2024_global_wildballs_bonus_1
+TEXT: GO사파리볼: 추가 접속 시간제한 리서치
 
 RESOURCE ID: tr_gowa2024_irl_day_1_wildball_intro
 TEXT: 와일드하게 던지자
