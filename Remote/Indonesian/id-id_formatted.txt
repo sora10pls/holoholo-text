@@ -136,40 +136,64 @@ TEXT: Ahli Racun
 RESOURCE ID: badge_gowa_2024_test
 TEXT: 23–24 November 2024
 
-RESOURCE ID: badge_safaricity_2024_hong_kong_day_00
+RESOURCE ID: badge_safari_2024_hong_kong_add_on_hatch
+TEXT: Pokémon GO City Safari
+
+RESOURCE ID: badge_safari_2024_hong_kong_add_on_hatch_title
+TEXT: City Safari—Penggila Telur
+
+RESOURCE ID: badge_safari_2024_hong_kong_add_on_raid
+TEXT: Pokémon GO City Safari
+
+RESOURCE ID: badge_safari_2024_hong_kong_add_on_raid_title
+TEXT: City Safari—Pecinta Raid
+
+RESOURCE ID: badge_safari_2024_hong_kong_day_00
 TEXT: Hong Kong 2024
 
-RESOURCE ID: badge_safaricity_2024_hong_kong_day_00_title
+RESOURCE ID: badge_safari_2024_hong_kong_day_00_title
 TEXT: Pokémon GO City Safari
 
-RESOURCE ID: badge_safaricity_2024_hong_kong_day_01
+RESOURCE ID: badge_safari_2024_hong_kong_day_01
 TEXT: Hong Kong, 7 Desember 2024
 
-RESOURCE ID: badge_safaricity_2024_hong_kong_day_01_title
+RESOURCE ID: badge_safari_2024_hong_kong_day_01_title
 TEXT: Pokémon GO City Safari
 
-RESOURCE ID: badge_safaricity_2024_hong_kong_day_02
+RESOURCE ID: badge_safari_2024_hong_kong_day_02
 TEXT: Hong Kong, 8 Desember 2024
 
-RESOURCE ID: badge_safaricity_2024_hong_kong_day_02_title
+RESOURCE ID: badge_safari_2024_hong_kong_day_02_title
 TEXT: Pokémon GO City Safari
 
-RESOURCE ID: badge_safaricity_2024_sao_paulo_day_00
+RESOURCE ID: badge_safari_2024_sao_paulo_add_on_hatch
+TEXT: Pokémon GO City Safari
+
+RESOURCE ID: badge_safari_2024_sao_paulo_add_on_hatch_title
+TEXT: City Safari—Penggila Telur
+
+RESOURCE ID: badge_safari_2024_sao_paulo_add_on_raid
+TEXT: Pokémon GO City Safari
+
+RESOURCE ID: badge_safari_2024_sao_paulo_add_on_raid_title
+TEXT: City Safari—Pecinta Raid
+
+RESOURCE ID: badge_safari_2024_sao_paulo_day_00
 TEXT: São Paulo 2024
 
-RESOURCE ID: badge_safaricity_2024_sao_paulo_day_00_title
+RESOURCE ID: badge_safari_2024_sao_paulo_day_00_title
 TEXT: Pokémon GO City Safari
 
-RESOURCE ID: badge_safaricity_2024_sao_paulo_day_01
+RESOURCE ID: badge_safari_2024_sao_paulo_day_01
 TEXT: São Paulo, 7 Desember 2024
 
-RESOURCE ID: badge_safaricity_2024_sao_paulo_day_01_title
+RESOURCE ID: badge_safari_2024_sao_paulo_day_01_title
 TEXT: Pokémon GO City Safari
 
-RESOURCE ID: badge_safaricity_2024_sao_paulo_day_02
+RESOURCE ID: badge_safari_2024_sao_paulo_day_02
 TEXT: São Paulo, 8 Desember 2024
 
-RESOURCE ID: badge_safaricity_2024_sao_paulo_day_02_title
+RESOURCE ID: badge_safari_2024_sao_paulo_day_02_title
 TEXT: Pokémon GO City Safari
 
 RESOURCE ID: bonus_additional_5000_xp_t5_raids
@@ -1026,13 +1050,16 @@ RESOURCE ID: max_out_finale_tr_name
 TEXT: Penelitian Berwaktu Premium Pose Percaya Diri
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-11-20T22:37:59.026013+00:00 for id-ID
-at SHA 91c6554974c
-Pipeline 2791795, job 34281823
-Patch from: 0.339.0-SHA-c09aa793-RC1, 0.341.0-SHA-f4fb4e24-RC2
+TEXT: Built at 2024-11-22T19:05:42.245265+00:00 for id-ID
+at SHA 019af8ba074
+Pipeline 2797831, job 34377708
+Patch from: 0.341.0-SHA-f4fb4e24-RC2, 0.339.1-SHA-05ce450d-RC1
 
 RESOURCE ID: move_name_0464
 TEXT: Tinju Amarah
+
+RESOURCE ID: nearby_pokemon_gui_raid_header
+TEXT: Raid
 
 RESOURCE ID: party_play_activity_description_59
 TEXT: PokéStop Dikunjungi: <color=#F2A64B>{0}</color>
@@ -1162,11 +1189,11 @@ TEXT: Progres saat ini:
 RESOURCE ID: rewarded_spend_helpshift_desc
 TEXT: Jalur Hadiah adalah program hadiah bulanan berupa Pelatih dapat menerima Poin Hadiah sesuai dengan pembelian yang dilakukan setiap bulan.* Dapatkan beberapa Poin Hadiah untuk meningkatkan level Jalur Hadiah dan membuka hadiah!
 
-1. Lakukan pembelian yang sesuai.*
+1. Lakukan pembelian yang sah untuk mendapatkan Poin Hadiah.*
 2. Buka hadiah dengan mendapatkan Poin Hadiah.
 3. Kunjungi <a href="https://niantic.helpshift.com/hc/faq/94-how-can-i-purchase-items-and-pokecoins/">situs web</a> kami guna mempelajari cara menerima hadiah yang terbuka.**
 
-*Hanya pembelian yang dilakukan dengan mata uang asli yang dihitung untuk progres Jalur Hadiah. Poin Hadiah tidak dapat diperoleh dengan Penukaran menggunakan PokéCoin.
+*Hanya pembelian yang dilakukan dengan mata uang asli yang dihitung untuk progres Jalur Hadiah. Poin Hadiah tidak dapat diperoleh dengan penukaran menggunakan PokéCoin.
 
 **Poin Hadiah akan kedaluwarsa saat akhir bulan. Meskipun Pelatih telah mengambil hadiah, Poin Hadiah tidak akan dilanjutkan ke bulan berikutnya. Pelatih yang menggunakan akun anak-anak tidak dapat berpartisipasi dalam program Jalur Hadiah. Poin Hadiah bukanlah uang tunai atau mata uang lainnya sehingga tidak dapat ditransfer ke akun lain. Ketersediaan dan kebijakan program Jalur Hadiah dapat berubah.
 
@@ -1533,10 +1560,10 @@ RESOURCE ID: tr_gowa2024_global_wildballs_1
 TEXT: Pasokan Berkala GO Wild Area: Bola Safari GO
 
 RESOURCE ID: tr_gowa2024_global_wildballs_bonus
-TEXT: Bola Safari GO: Penelitian Berwaktu Akses Ekstra
+TEXT: Bola Safari GO: Penelitian Terbatas Akses Ekstra
 
 RESOURCE ID: tr_gowa2024_global_wildballs_bonus_1
-TEXT: Bola Safari GO: Penelitian Berwaktu Akses Ekstra
+TEXT: Bola Safari GO: Penelitian Terbatas Akses Ekstra
 
 RESOURCE ID: tr_gowa2024_irl_day_1_wildball_intro
 TEXT: Lemparan Liar
