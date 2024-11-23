@@ -5,7 +5,7 @@ RESOURCE ID: ar_not_supported_title
 TEXT: Incompatible
 
 RESOURCE ID: attack_power_increased
-TEXT: Max Mushroom was used. Attacks are boosted!
+TEXT: Se usó un Maxihongo. ¡Los ataques están potenciados!
 
 RESOURCE ID: avatar_gloves_teamyell
 TEXT: Guantes del Equipo Yell
@@ -142,6 +142,12 @@ TEXT: 23 y 24 de noviembre de 2024
 RESOURCE ID: badge_gowa_2024_test_title
 TEXT: Área Silvestre de GO
 
+RESOURCE ID: badge_pokedex_entries_complete_title
+TEXT: ¡Completo!
+
+RESOURCE ID: badge_pokedex_entries_unidentified_title
+TEXT: SIN IDENTIFICAR
+
 RESOURCE ID: badge_safari_2024_hong_kong_add_on_hatch
 TEXT: Safari de Ciudad de Pokémon GO
 
@@ -241,6 +247,9 @@ TEXT: Mayor probabilidad de que Toxel eclosione de los Huevos de 10 km
 RESOURCE ID: bonus_five_free_raid_passes
 TEXT: Recibe hasta 5 Pases de Incursión sin costo girando fotodiscos en Gimnasios
 
+RESOURCE ID: bonus_implicit_social_timburr_raid
+TEXT: Si los Entrenadores colaboran para ganar en una incursión de Gurdurr, aparecerán grandes cantidades de Timburr en la zona durante 30 minutos.
+
 RESOURCE ID: bonus_mp_cap
 TEXT: Mayor límite diario para recopilar Partículas Max
 
@@ -296,16 +305,16 @@ RESOURCE ID: bread_battle_resolve_error_title
 TEXT: Hubo un error.
 
 RESOURCE ID: bread_dough_lobby_active_items_total
-TEXT: + {0} Max Mushrooms
+TEXT: + {0} Maxihongos
 
 RESOURCE ID: bread_max_boost_ftue_activation_message
-TEXT: You can try this item for 5 minutes. This item’s effects normally last 30 minutes.
+TEXT: Puedes probar este objeto durante 5 minutos. Su efecto suele durar 30 minutos.
 
 RESOURCE ID: bread_max_boost_ftue_message
-TEXT: Double the damage your Pokémon deal in Max Battles!
+TEXT: ¡Duplica el daño que infligen tus Pokémon en los combates Max!
 
 RESOURCE ID: bread_max_boost_ftue_try_button
-TEXT: Try for 5 minutes
+TEXT: Probar por 5 minutos
 
 RESOURCE ID: bundle.diademuertos.box.1_title
 TEXT: Caja Día de Muertos
@@ -354,7 +363,7 @@ RESOURCE ID: event_research_complete
 TEXT: ¡Investigación del evento completada!
 
 RESOURCE ID: filter_label_appraisal_100_percent
-TEXT: ★ 100%
+TEXT: ★ 100 %
 
 RESOURCE ID: filter_label_max_pokemon
 TEXT: Pokémon Max
@@ -978,13 +987,13 @@ RESOURCE ID: item_event_ticket_pink_details_mankeycd24
 TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Especial del Día de la Comunidad de Mankey, "Aquí manda Mankey", el 10 de noviembre, estés donde estés.
 
 RESOURCE ID: item_max_boost_desc
-TEXT: An item that increases the damage your Pokémon deal in Max Battles for 30 minutes.
+TEXT: Un objeto que aumenta el daño que infligen tus Pokémon en los combates Max durante 30 minutos.
 
 RESOURCE ID: item_max_boost_name
-TEXT: Max Mushroom
+TEXT: Maxihongo
 
 RESOURCE ID: item_max_boost_name_plural
-TEXT: Max Mushrooms
+TEXT: Maxihongos
 
 RESOURCE ID: join_raid_bonus
 TEXT: UNIRSE A INCURSIONES CON AMISTADES
@@ -1038,19 +1047,19 @@ RESOURCE ID: lure_mossy_event_bonus
 TEXT: Los Pokémon del evento son atraídos por los Módulos Señuelo Musgosos
 
 RESOURCE ID: max_boost.1_description
-TEXT: A mushroom that increases the damage your Pokémon deal in Max Battles for 30 minutes.
+TEXT: Un hongo que aumenta el daño que infligen tus Pokémon en los combates Max durante 30 minutos.
 
 RESOURCE ID: max_boost.1_title
-TEXT: Max Mushroom
+TEXT: Maxihongo
 
 RESOURCE ID: max_boost.3_description
-TEXT: 3 Max Mushrooms. Increases the damage your Pokémon deal in Max Battles for 30 minutes.
+TEXT: Un hongo que aumenta el daño que infligen tus Pokémon en los combates Max durante 30 minutos.
 
 RESOURCE ID: max_boost.3_title
-TEXT: 3 Max Mushrooms
+TEXT: 3 Maxihongos
 
 RESOURCE ID: max_boost_item_activated_toast
-TEXT: Attack damage increased!
+TEXT: ¡Daño del ataque aumentado!
 
 RESOURCE ID: max_out_finale_collection_challenge_1
 TEXT: Desafío de Colección de Final Al Máximo 1
@@ -1074,10 +1083,10 @@ RESOURCE ID: medal_encounter_reward_description
 TEXT: ¡Un emocionante encuentro con {0}!
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-11-22T19:05:42.245265+00:00 for es-MX
-at SHA 019af8ba074
-Pipeline 2797831, job 34377708
-Patch from: 0.341.0-SHA-f4fb4e24-RC2, 0.339.1-SHA-05ce450d-RC1
+TEXT: Built at 2024-11-23T00:44:39.014966+00:00 for es-MX
+at SHA d01cb096628
+Pipeline 2799041, job 34395176
+Patch from: 0.341.0-SHA-cc21bdb6-RC1, 0.339.1-SHA-05ce450d-RC1
 
 RESOURCE ID: move_name_0464
 TEXT: Puño Furia
@@ -1086,16 +1095,40 @@ RESOURCE ID: nearby_pokemon_gui_raid_header
 TEXT: incursión
 
 RESOURCE ID: pokedex_category_unlock_tooltip
-TEXT: Collect {0} of these Pokémon to unlock this category. Collected {1}/{0}.
+TEXT: Colecciona {0} de estos Pokémon para desbloquear esta categoría. Progreso: {1}/{0}.
+
+RESOURCE ID: pokedex_info_battle_tab_title
+TEXT: COMBATES
 
 RESOURCE ID: pokedex_info_caught_count
-TEXT: CAUGHT
+TEXT: ATRAPADOS
+
+RESOURCE ID: pokedex_info_caught_tab_title
+TEXT: ATRAPADOS
+
+RESOURCE ID: pokedex_info_costume_title
+TEXT: Disfrazados
+
+RESOURCE ID: pokedex_info_form_alolan
+TEXT: ALOLA
+
+RESOURCE ID: pokedex_info_form_galarian
+TEXT: GALAR
+
+RESOURCE ID: pokedex_info_form_hisuian
+TEXT: HISUI
+
+RESOURCE ID: pokedex_info_form_paldean
+TEXT: PALDEA
+
+RESOURCE ID: pokedex_info_info_tab_title
+TEXT: INFORMACIÓN
 
 RESOURCE ID: pokedex_info_seen_count
-TEXT: SEEN
+TEXT: VISTOS
 
 RESOURCE ID: pokedex_region_button_title
-TEXT: Regions
+TEXT: Regiones
 
 RESOURCE ID: pokemon_desc_0062
 TEXT: Aunque puede nadar de forma hábil y enérgica utilizando todos sus músculos, por algún motivo prefiere vivir en tierra firme.
@@ -1319,21 +1352,18 @@ RESOURCE ID: rewarded_spend_current_progress_key
 TEXT: Progreso actual:
 
 RESOURCE ID: rewarded_spend_helpshift_desc
-TEXT: Camino a las recompensas es un programa mensual de recompensas en el que los Entrenadores pueden conseguir puntos de recompensa cada mes con compras válidas.* ¡Logra una cantidad determinada de puntos de recompensa para subir de nivel en Camino a las recompensas y desbloquear premios!
+TEXT: Camino a las recompensas es un programa mensual de recompensas en el que los Entrenadores pueden obtener puntos de recompensa cada mes con compras válidas.* ¡Logra una cantidad determinada de puntos de recompensa para subir de nivel en Camino a las recompensas y desbloquear premios!
 
-1. Realiza una compra válida para conseguir puntos de recompensa.*
+1. Realiza una compra válida para obtener puntos de recompensa.*
 2. Desbloquea recompensas obteniendo puntos de recompensa.
-3. Visita nuestro <a href="https://niantic.helpshift.com/">sitio web</a> para descubrir cómo canjear las recompensas desbloqueadas.**
-
-Cada Camino a las recompensas tiene una duración de un mes. Los puntos de recompensa y los niveles de Camino a las recompensas se reiniciarán el último día de cada mes a las 23:59 UTC, ¡así que no te olvides de reclamar tus recompensas antes de que finalice el mes!**
-
+3. Visita nuestro <a href="https://niantic.helpshift.com/hc/es/6-pokemon-go/faq/94-how-can-i-purchase-items-and-pokecoins/">sitio web</a> para descubrir cómo canjear las recompensas desbloqueadas.**
 
 *Solo las compras con divisas del mundo real contarán para el progreso de Camino a las recompensas. Las transacciones con Pokémonedas no otorgarán puntos de recompensa.
 
 **Los puntos de recompensa expiran al final de cada mes. Incluso si un Entrenador canjea todas las recompensas, los puntos de recompensa no se podrán usar en el mes siguiente. Los Entrenadores que usen cuentas de menores no pueden participar en el programa Camino a las recompensas. Los puntos de recompensa no son dinero en efectivo o ninguna otra divisa y no se pueden transferir entre cuentas. La disponibilidad y las condiciones del programa Camino a las recompensas están sujetos a cambios.
 
 RESOURCE ID: rewarded_spend_helpshift_expiration_timer_key
-TEXT: Current period resets on {0} at {1}.
+TEXT: Finalización del periodo actual: {0} - {1}.
 
 RESOURCE ID: rewarded_spend_helpshift_footer
 TEXT: Para obtener más información, visita el <a href="https://niantic.helpshift.com/hc/faq/94-how-can-i-purchase-items-and-pokecoins/">sitio web</a>.
@@ -1348,7 +1378,7 @@ RESOURCE ID: rewarded_spend_in_progress
 TEXT: En progreso
 
 RESOURCE ID: rewarded_spend_levels_completed_claimable_desc
-TEXT: You have reached the monthly cap for Reward Points. Claim your rewards before they reset!
+TEXT: Alcanzaste el límite mensual de puntos de recompensa. ¡Canjea tus recompensas antes de que se reinicien!
 
 RESOURCE ID: rewarded_spend_monthly_reward_road_key
 TEXT: Camino a las recompensas de {0}
@@ -1360,7 +1390,7 @@ RESOURCE ID: rewarded_spend_not_available
 TEXT: Sin comenzar
 
 RESOURCE ID: rewarded_spend_notification_string_key
-TEXT: Reward Road
+TEXT: Camino a las recompensas
 
 RESOURCE ID: rewarded_spend_points_header
 TEXT: {0}/{1} puntos
@@ -1404,6 +1434,9 @@ TEXT: Safari de Ciudad: São Paulo 2024 (3/3)
 RESOURCE ID: search_filter_help_url
 TEXT: https://niantic.helpshift.com/hc/faq/1486-searching-filtering-your-pokemon-inventory/
 
+RESOURCE ID: seasonal_delights_box
+TEXT: Caja Delicias de Temporada
+
 RESOURCE ID: settings_select_suggested_search_help
 TEXT: Muestra opciones de filtros para los términos de búsqueda.
 
@@ -1416,8 +1449,11 @@ TEXT: Compartir asistencia a incursiones con las amistades
 RESOURCE ID: share_raid_attendance_tip_key
 TEXT: Si compartes esta información, tus amistades podrán unirse a una incursión en la que estés, accediendo directamente desde su lista de amistades.
 
+RESOURCE ID: shop_quick_exchange_lucky_egg
+TEXT: ¿Intercambiar Pokémonedas por un Huevo Suerte?
+
 RESOURCE ID: shop_quick_exchange_max_boost
-TEXT: Exchange PokéCoins for a Max Mushroom?
+TEXT: ¿Intercambiar Pokémonedas por un Maxihongo?
 
 RESOURCE ID: simply_groundbreaking_event_name
 TEXT: Bajo tierra
@@ -1426,7 +1462,7 @@ RESOURCE ID: simply_groundbreaking_tr_name
 TEXT: Investigación Temporal de Bajo tierra
 
 RESOURCE ID: sku.name.item_max_boost
-TEXT: Max Mushroom
+TEXT: Maxihongo
 
 RESOURCE ID: sku.name.web-gowa-2024-box-1
 TEXT: Caja Combate del Área Silvestre de GO
