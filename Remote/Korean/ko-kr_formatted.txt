@@ -295,6 +295,9 @@ TEXT: + {0} 다이버섯
 RESOURCE ID: bread_max_boost_ftue_activation_message
 TEXT: 원래 일반적 효과는 30분 지속됩니다.
 
+RESOURCE ID: bread_max_boost_ftue_button_new
+TEXT: NEW
+
 RESOURCE ID: bread_max_boost_ftue_message
 TEXT: 맥스배틀에서 포켓몬이 주는 데미지가 2배가 됩니다!
 
@@ -303,6 +306,12 @@ TEXT: 시험삼아 사용해보자(5분)
 
 RESOURCE ID: combat_title_season_17
 TEXT: GO배틀리그: 겹치는 운명
+
+RESOURCE ID: community_day_dec2024_event_name
+TEXT: 12월 커뮤니티 데이2024
+
+RESOURCE ID: details_link_key_cd_recap2024
+TEXT: 자세한 내용은 <a href="https://pokemongolive.com/news">웹사이트</a>에서 확인해 주세요.
 
 RESOURCE ID: dual_destiny_box
 TEXT: 겹치는 운명 박스
@@ -322,6 +331,10 @@ TEXT: 이브이 탐험대: 상파울루(1/1)
 RESOURCE ID: event_datetime_range_key_aspiringtr2024
 TEXT: 12월 7일 14시~17시
 
+RESOURCE ID: event_datetime_range_key_cd_recap2024
+TEXT: 12월 21일 9:00 ~ 
+12월 22일 21:00
+
 RESOURCE ID: event_datetime_range_key_decmonthly2024
 TEXT: 12월 3일 10:00 ~ 
 12월 31일 20:00
@@ -339,6 +352,9 @@ TEXT: 11월 27일 10:00 ~
 RESOURCE ID: event_datetime_range_key_maxoutfinaleraids1124
 TEXT: 11월 27일 10;00~
 12월 1일 20:00
+
+RESOURCE ID: event_datetime_range_key_necrozmafusionraidday
+TEXT: 12월 14일 14시~17시
 
 RESOURCE ID: event_research_complete
 TEXT: 이벤트 리서치 완료!
@@ -409,8 +425,14 @@ TEXT: 팔짱 낀 포즈 프리미엄 시간제한 리서치
 RESOURCE ID: general1.ticket._maxoutfinaleraids1124_title
 TEXT: 맥스 아웃 피날레 티켓: 레이드 보너스
 
+RESOURCE ID: general1.ticket_cd_recap2024_title
+TEXT: 12월 커뮤니티 데이 티켓
+
 RESOURCE ID: general2.ticket.5._gowa2024hatchver1_title
 TEXT: 와일드 위크: 알 부화
+
+RESOURCE ID: general2.ticket._necrozmafusionraidday_title
+TEXT: 네크로즈마 합체 레이드 데이 티켓
 
 RESOURCE ID: gmax_lapras_max_battles
 TEXT: 거다이맥스한 라프라스가 맥스배틀에 출현
@@ -869,10 +891,10 @@ RESOURCE ID: home_transfer_error_last_max
 TEXT: 마지막 맥스 포켓몬은 전송할 수 없습니다
 
 RESOURCE ID: iris_social_diagnostics_option_five_c2
-TEXT: AR Pokemon placement is unsuitable at this location
+TEXT: This isn’t a good location for placing Pokémon in AR.
 
 RESOURCE ID: iris_social_diagnostics_option_four_c2
-TEXT: Pokemon placement is either inaccurate or not working
+TEXT: Pokémon placement is inaccurate or not working at all
 
 RESOURCE ID: iris_social_diagnostics_option_one_c2
 TEXT: I don’t know what to do next
@@ -881,19 +903,19 @@ RESOURCE ID: iris_social_diagnostics_option_three_c2
 TEXT: The AR boundaries are too small
 
 RESOURCE ID: iris_social_diagnostics_option_two_c2
-TEXT: I can’t find (or enter) the AR boundaries
+TEXT: I can’t find or enter the AR boundaries
 
 RESOURCE ID: iris_temperature_exit_button
 TEXT: EXIT
 
 RESOURCE ID: iris_temperature_force_exit_body
-TEXT: Due to high temperature of device, AR is shutting down. Exiting now.
+TEXT: Device temperature is too high, so AR must shut down. Exiting now.
 
 RESOURCE ID: iris_temperature_force_exit_title
 TEXT: Device Temperature Critical
 
 RESOURCE ID: iris_temperature_warning_body
-TEXT: Device temperatures are high. Experience may degrade.
+TEXT: High device temperature. Your experience may be degraded.
 
 RESOURCE ID: iris_temperature_warning_continue_button
 TEXT: CONTINUE
@@ -931,6 +953,9 @@ TEXT: 현지시간 2024년 12월 3일 10시 ~ 12월 31일 20시까지 "부화 �
 RESOURCE ID: item_event_ticket_gray_desc_gmaxlapras24
 TEXT: 현지시간 2024년 12월 8일 14시~17시에 보너스를 받기 위한 티켓.
 
+RESOURCE ID: item_event_ticket_gray_desc_necrozmafusionraidday
+TEXT: 현지 시간 2024년 12월 14일 14시~ 17시에 보너스를 받기 위한 티켓.
+
 RESOURCE ID: item_event_ticket_gray_desc_raidver1
 TEXT: 현지시간 2024년 11월 18일 0:01부터 와일드 위크: 레이드에 접속할 수 있는 티켓.
 
@@ -940,11 +965,20 @@ TEXT: 이 티켓은 자동으로 활성화되어 부화 정기권: 12월을 손�
 RESOURCE ID: item_event_ticket_gray_details_gmaxlapras24
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 12월 8일 보너스를 손에 넣을 수 있습니다.
 
+RESOURCE ID: item_event_ticket_gray_details_necrozmafusionraidday
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 12월 14일에 보너스를 손에 넣을 수 있습니다.
+
 RESOURCE ID: item_event_ticket_pink_desc_aspiringtr2024
 TEXT: 현지시간 2024년 12월 7일 14:00~17:00까지 승룡 리서치데이 프리미엄 시간제한 리서치를 진행하기 위한 티켓
 
+RESOURCE ID: item_event_ticket_pink_desc_cd_recap2024
+TEXT: 현지시간 2024년 12월 21일 9시부터 12월 커뮤니티 데이 스페셜리서치를 진행하기 위한 티켓.
+
 RESOURCE ID: item_event_ticket_pink_details_aspiringtr2024
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 12월 7일에 승룡 리서치데이 프리미엄 시간제한 리서치가 진행됩니다.
+
+RESOURCE ID: item_event_ticket_pink_details_cd_recap2024
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 12월 21일 12월 커뮤니티 데이 스페셜리서치가 진행됩니다.
 
 RESOURCE ID: item_max_boost_desc
 TEXT: 맥스배틀에서 사용하면 30분동안 포켓몬에게 주는 데미지가 2배가 되는 버섯.
@@ -975,6 +1009,9 @@ TEXT: 거다이맥스 라프라스 맥스배틀 데이
 
 RESOURCE ID: max_battle_day_gigantamax_lapras_ticketed
 TEXT: 거다이맥스 라프라스 맥스배틀 데이 티켓 보너스
+
+RESOURCE ID: max_battler_box
+TEXT: Max Battler Box
 
 RESOURCE ID: max_boost.1_description
 TEXT: 맥스배틀에서 사용하면 30분동안 포켓몬에게 주는 데미지가 2배가 되는 버섯.
@@ -1010,10 +1047,10 @@ RESOURCE ID: max_out_finale_tr_name
 TEXT: 팔짱 낀 포즈 프리미엄 시간제한 리서치
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-12-04T01:24:41.079138+00:00 for ko-KR
-at SHA ad7d71d8b16
-Pipeline 2816270, job 34682824
-Patch from: 0.343.0-SHA-6907d9b0-RC1, 0.341.1-RC2
+TEXT: Built at 2024-12-07T00:39:55.586339+00:00 for ko-KR
+at SHA e954ddccb65
+Pipeline 2825127, job 34825371
+Patch from: 0.341.1-RC1, 0.343.0-SHA-b4b925c8-RC2
 
 RESOURCE ID: midnight_tea_collection_challenge_1
 TEXT: 차 한잔 어때요? 시간제한 리서치: 불가사의한 맛과 향
@@ -1346,6 +1383,11 @@ TEXT: 현지시간 2024년 12월 7일 14시~17시에 필드리서치를 진행�
 
 색이 다른 포켓몬을 포함합니다.(시간제한 리서치 완료로 만날 수 있는 색이 다른 포켓몬과 같은 확률)
 
+RESOURCE ID: text_rewards_key_cd_recap2024
+TEXT: <b>받을 수 있는 것:</b>
+- 2024년 커뮤니티 데이에 등장한 포켓몬(스페셜 배경 있음)과의 만남
+- 이상한사탕, 대단한 기술머신노말, 대단한 기술머신스페셜 등
+
 RESOURCE ID: text_rewards_key_decmonthly2024
 TEXT: <b>받을 수 있는 것:</b>
 - 매일 처음 포켓스톱을 스핀했을 때 받을 수 있는 1번만 사용 가능한 부화장치
@@ -1399,6 +1441,12 @@ TEXT: <b>받을 수 있는 것</b>
 - 별5 레이드배틀에서 포켓몬을 잡았을 때 받을 수 있는 사탕 3개 추가
 -별5 레이드배틀에서 포켓몬을 잡았을 때 받을 수 있는 사탕XL 1개 추가
 - 레이드배틀에서 이겼을 때 5,000XP 추가 등
+
+RESOURCE ID: text_rewards_key_necrozmafusionraidday
+TEXT: <b>받을 수 있는 것:</b>
+- 체육관 포토 디스크를 돌려 추가 레이드패스 8개
+- 레이드배틀에서 받을 수 있는 이상한사탕XL의 확률 증가 
+- 레이드배틀 승리 시 받을 수 있는 XP 50% 증가와 별의모래 2배 등.
 
 RESOURCE ID: timed_research_complete
 TEXT: 시간제한 리서치 완료!
@@ -1486,6 +1534,15 @@ TEXT: 어떤 찻잔에 서식하는지에 따라 달라져. 팀 리더라면 확
 
 RESOURCE ID: tutorial_sinistea_intro|3
 TEXT: 많이 잡아서 계속해서 네 팀 리더에게 물어봐.
+
+RESOURCE ID: winter_holidays_event_name
+TEXT: 연말 홀리데이 파트1
+
+RESOURCE ID: young_and_wise_collection_challenge_1
+TEXT: 젊은이와 장로 알 부화 챌린지
+
+RESOURCE ID: young_and_wise_collection_challenge_2
+TEXT: 젊은이와 장로 레이드 챌린지
 
 RESOURCE ID: young_and_wise_dec2024_event_name
 TEXT: 젊은이와 장로

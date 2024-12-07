@@ -379,6 +379,9 @@ TEXT: + {0} Maxihongos
 RESOURCE ID: bread_max_boost_ftue_activation_message
 TEXT: Puedes probar este objeto durante 5 minutos. Su efecto suele durar 30 minutos.
 
+RESOURCE ID: bread_max_boost_ftue_button_new
+TEXT: NEW
+
 RESOURCE ID: bread_max_boost_ftue_message
 TEXT: ¡Duplica el daño que infligen tus Pokémon en los combates Max!
 
@@ -387,6 +390,12 @@ TEXT: Probar por 5 minutos
 
 RESOURCE ID: combat_title_season_17
 TEXT: Liga de Combates GO: Destino Dual
+
+RESOURCE ID: community_day_dec2024_event_name
+TEXT: Día de la Comunidad de Diciembre 2024
+
+RESOURCE ID: details_link_key_cd_recap2024
+TEXT: Para obtener más información, visita el <a href="https://pokemongolive.com/news">sitio web</a>.
 
 RESOURCE ID: dual_destiny_box
 TEXT: Caja Destino Dual
@@ -409,6 +418,10 @@ TEXT: {0} días seguidos
 RESOURCE ID: event_datetime_range_key_aspiringtr2024
 TEXT: 7 de diciembre de 2:00 p. m. a 5:00 p. m.
 
+RESOURCE ID: event_datetime_range_key_cd_recap2024
+TEXT: Del 21 de diciembre a las 9:00 a. m.
+al 22 de diciembre a las 9:00 p. m.
+
 RESOURCE ID: event_datetime_range_key_decmonthly2024
 TEXT: Del 3 de diciembre a las 10:00 a. m. –
 al 31 de diciembre a las 8:00 p. m.
@@ -426,6 +439,9 @@ al 1 de diciembre a las 8:00 p. m.
 RESOURCE ID: event_datetime_range_key_maxoutfinaleraids1124
 TEXT: Del 27 de noviembre a las 10:00 a. m.
 al 1 de diciembre a las 8:00 p. m.
+
+RESOURCE ID: event_datetime_range_key_necrozmafusionraidday
+TEXT: 14 de diciembre de 2:00 p. m. a 5:00 p. m.
 
 RESOURCE ID: event_research_complete
 TEXT: ¡Investigación del evento completada!
@@ -499,8 +515,14 @@ TEXT: Entrada: Investigación Temporal Prémium de Pose Decidida
 RESOURCE ID: general1.ticket._maxoutfinaleraids1124_title
 TEXT: Entrada de Final Al Máximo: Bonificación de incursión
 
+RESOURCE ID: general1.ticket_cd_recap2024_title
+TEXT: Entrada: Día de la Comunidad de Diciembre
+
 RESOURCE ID: general2.ticket.5._gowa2024hatchver1_title
 TEXT: Hacia lo silvestre: Eclosión
+
+RESOURCE ID: general2.ticket._necrozmafusionraidday_title
+TEXT: Entrada: Día de Incursiones de Necrozma fusión
 
 RESOURCE ID: gmax_lapras_max_battles
 TEXT: Lapras Gigamax está apareciendo en los combates Max
@@ -959,10 +981,10 @@ RESOURCE ID: home_transfer_error_last_max
 TEXT: No puedes enviar tu último Pokémon Max.
 
 RESOURCE ID: iris_social_diagnostics_option_five_c2
-TEXT: AR Pokemon placement is unsuitable at this location
+TEXT: This isn’t a good location for placing Pokémon in AR.
 
 RESOURCE ID: iris_social_diagnostics_option_four_c2
-TEXT: Pokemon placement is either inaccurate or not working
+TEXT: Pokémon placement is inaccurate or not working at all
 
 RESOURCE ID: iris_social_diagnostics_option_one_c2
 TEXT: I don’t know what to do next
@@ -971,19 +993,19 @@ RESOURCE ID: iris_social_diagnostics_option_three_c2
 TEXT: The AR boundaries are too small
 
 RESOURCE ID: iris_social_diagnostics_option_two_c2
-TEXT: I can’t find (or enter) the AR boundaries
+TEXT: I can’t find or enter the AR boundaries
 
 RESOURCE ID: iris_temperature_exit_button
 TEXT: EXIT
 
 RESOURCE ID: iris_temperature_force_exit_body
-TEXT: Due to high temperature of device, AR is shutting down. Exiting now.
+TEXT: Device temperature is too high, so AR must shut down. Exiting now.
 
 RESOURCE ID: iris_temperature_force_exit_title
 TEXT: Device Temperature Critical
 
 RESOURCE ID: iris_temperature_warning_body
-TEXT: Device temperatures are high. Experience may degrade.
+TEXT: High device temperature. Your experience may be degraded.
 
 RESOURCE ID: iris_temperature_warning_continue_button
 TEXT: CONTINUE
@@ -1018,6 +1040,9 @@ TEXT: Una entrada para acceder a "Operación eclosión: Diciembre" que estará a
 RESOURCE ID: item_event_ticket_gray_desc_gmaxlapras24
 TEXT: Una entrada para acceder a bonificaciones especiales el 8 de diciembre de 2024 de 2:00 p. m. a 5:00 p. m. en tu hora local, estés donde estés.
 
+RESOURCE ID: item_event_ticket_gray_desc_necrozmafusionraidday
+TEXT: Una entrada para acceder a bonificaciones especiales el sábado 14 de diciembre de 2024 de 2:00 p. m. a 5:00 p. m. en tu hora local, estés donde estés.
+
 RESOURCE ID: item_event_ticket_gray_desc_raidver1
 TEXT: Una entrada para acceder a "Una expedición silvestre: Incursiones" desde el 18 de noviembre de 2024 a las 12:01 a. m. en tu hora local, estés donde estés.
 
@@ -1027,11 +1052,20 @@ TEXT: Esta entrada se activará automáticamente para darte acceso a Operación 
 RESOURCE ID: item_event_ticket_gray_details_gmaxlapras24
 TEXT: Esta entrada se activará automáticamente para darte acceso a las bonificaciones especiales el 8 de diciembre, estés donde estés.
 
+RESOURCE ID: item_event_ticket_gray_details_necrozmafusionraidday
+TEXT: Esta entrada se activará automáticamente para darte acceso a las bonificaciones especiales el 14 de diciembre, estés donde estés.
+
 RESOURCE ID: item_event_ticket_pink_desc_aspiringtr2024
 TEXT: Una entrada para acceder a la Investigación Temporal Prémium del Día de Investigación Entre dragones el 7 de diciembre de 2024 de 2:00 p. m. a 5:00 p. m. en tu hora local, estés donde estés.
 
+RESOURCE ID: item_event_ticket_pink_desc_cd_recap2024
+TEXT: Una entrada para acceder a la Investigación Especial del Día de la Comunidad de Diciembre desde el 21 de diciembre a las 9:00 a. m. en tu hora local, estés donde estés.
+
 RESOURCE ID: item_event_ticket_pink_details_aspiringtr2024
 TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Temporal Prémium del Día de Investigación Entre dragones el 7 de diciembre, estés donde estés.
+
+RESOURCE ID: item_event_ticket_pink_details_cd_recap2024
+TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Especial del Día de la Comunidad de Diciembre el 21 de diciembre, estés donde estés.
 
 RESOURCE ID: item_max_boost_desc
 TEXT: Un objeto que aumenta el daño que infligen tus Pokémon en los combates Max durante 30 minutos.
@@ -1062,6 +1096,9 @@ TEXT: Día de Combates Max de Lapras Gigamax
 
 RESOURCE ID: max_battle_day_gigantamax_lapras_ticketed
 TEXT: Bonificaciones de la entrada del Día de Combates Max de Lapras Gigamax
+
+RESOURCE ID: max_battler_box
+TEXT: Max Battler Box
 
 RESOURCE ID: max_boost.1_description
 TEXT: Un hongo que aumenta el daño que infligen tus Pokémon en los combates Max durante 30 minutos.
@@ -1100,10 +1137,10 @@ RESOURCE ID: medal_encounter_reward_description
 TEXT: ¡Un emocionante encuentro con {0}!
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-12-04T01:24:41.079138+00:00 for es-MX
-at SHA ad7d71d8b16
-Pipeline 2816270, job 34682824
-Patch from: 0.343.0-SHA-6907d9b0-RC1, 0.341.1-RC2
+TEXT: Built at 2024-12-07T00:39:55.586339+00:00 for es-MX
+at SHA e954ddccb65
+Pipeline 2825127, job 34825371
+Patch from: 0.341.1-RC1, 0.343.0-SHA-b4b925c8-RC2
 
 RESOURCE ID: midnight_tea_collection_challenge_1
 TEXT: Desafío de Colección de Hora del tecito: Una buena taza
@@ -1163,7 +1200,7 @@ RESOURCE ID: pokedex_info_seen_count
 TEXT: VISTOS
 
 RESOURCE ID: pokedex_page_registered
-TEXT: Recently registered
+TEXT: Recién registrados
 
 RESOURCE ID: pokedex_region_button_title
 TEXT: Regiones
@@ -1446,6 +1483,11 @@ Durante el evento, los Pokémon que te encuentres en esta Investigación Tempora
 
 Esta Investigación Temporal estará disponible el 7 de diciembre de 2024 de 2:00 p. m. a 5:00 p. m. en tu hora local.
 
+RESOURCE ID: text_rewards_key_cd_recap2024
+TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+• Artículos prémium dentro del juego, como Caramelos Raros, una MT élite de ataque rápido, una MT élite de ataque cargado y más.
+• Encuentros con Pokémon destacados en los eventos del Día de la Comunidad 2024, ¡con fondos especiales!
+
 RESOURCE ID: text_rewards_key_decmonthly2024
 TEXT: <b>Incluye:</b>
 • Una Incubadora de un solo uso que se entrega con la primera Poképarada que gires cada día
@@ -1492,6 +1534,12 @@ TEXT: <b>Las bonificaciones incluyen lo siguiente:</b>
 • Tres Caramelos adicionales al atrapar Pokémon en incursiones de nivel 5
 • Un Caramelo XL adicional al atrapar Pokémon en incursiones de nivel 5
 • 5,000 EXP adicionales por completar incursiones
+
+RESOURCE ID: text_rewards_key_necrozmafusionraidday
+TEXT: <b>Las bonificaciones incluyen lo siguiente:</b>
+• Ocho Pases de Incursión Adicionales al girar fotodiscos en Gimnasios
+• Mayor probabilidad de recibir Caramelos Raros XL en incursiones
+• 50 % más EXP y 2× Polvo Estrella por ganar incursiones
 
 RESOURCE ID: ticket_axew
 TEXT: Las entradas para la historia de la Investigación Especial "Siempre afilados" están disponibles en la Tienda dentro del juego
@@ -1657,6 +1705,15 @@ TEXT: Dicen que este Pokémon vive en diferentes tipos de tazas de té. Seguro q
 
 RESOURCE ID: tutorial_sinistea_intro|3
 TEXT: A ver si puedes atrapar otro, ¡así quizá logremos descubrir más sobre ellos!
+
+RESOURCE ID: winter_holidays_event_name
+TEXT: Fiestas de fin de año Parte 1
+
+RESOURCE ID: young_and_wise_collection_challenge_1
+TEXT: Desafío de Eclosión de Juventud y sabiduría
+
+RESOURCE ID: young_and_wise_collection_challenge_2
+TEXT: Desafío de Incursiones de Juventud y sabiduría
 
 RESOURCE ID: young_and_wise_dec2024_event_name
 TEXT: Juventud y sabiduría

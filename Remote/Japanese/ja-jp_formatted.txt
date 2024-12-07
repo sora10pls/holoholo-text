@@ -34,6 +34,9 @@ TEXT: がんさくフォルムのヤバチャのようね。
 RESOURCE ID: appraise_sinistea_phony_3
 TEXT: がんさくフォルムのヤバチャだぜ！
 
+RESOURCE ID: ar_backgrounded_error
+TEXT: プレイグラウンドエリアとの接続が切れました
+
 RESOURCE ID: aspiring_dragons_dec2024_tr
 TEXT: 昇竜リサーチデイプレミアムタイムチャレンジ
 
@@ -283,11 +286,17 @@ TEXT: この道を選ぶとタイムチャレンジのタスクを完了して�
 RESOURCE ID: branch_aspiring_dragons_rd_dec24_trapinch_title_key
 TEXT: ナックラー
 
+RESOURCE ID: bread_battle_tutorial_description_3
+TEXT: 画面タップ・なぞるでメーターがより早く溜まります。
+
 RESOURCE ID: bread_dough_lobby_active_items_total
 TEXT: +{0}ダイキノコ
 
 RESOURCE ID: bread_max_boost_ftue_activation_message
 TEXT: 通常は効果が30分間持続
+
+RESOURCE ID: bread_max_boost_ftue_button_new
+TEXT: NEW
 
 RESOURCE ID: bread_max_boost_ftue_message
 TEXT: マックスバトルでポケモンが与えるダメージを倍増します！
@@ -307,11 +316,21 @@ TEXT: このマックスわざのレベルが上がり、より多くのHPを回
 RESOURCE ID: combat_title_season_17
 TEXT: GOバトルリーグ：重なる運命
 
+RESOURCE ID: community_day_dec2024_event_name
+TEXT: 12月のコミュニティ・デイ2024
+
+RESOURCE ID: details_link_key_cd_recap2024
+TEXT: 詳細は<a href="https://pokemongolive.com/news">ウェブサイト</a>でご確認ください
+
 RESOURCE ID: dual_destiny_box
 TEXT: 重なる運命ボックス
 
 RESOURCE ID: event_datetime_range_key_aspiringtr2024
 TEXT: 12月7日2:00PM～5:00PM
+
+RESOURCE ID: event_datetime_range_key_cd_recap2024
+TEXT: 12月21日9:00AM～
+12月22日9:00PM
 
 RESOURCE ID: event_datetime_range_key_decmonthly2024
 TEXT: 12月3日10:00AM～
@@ -330,6 +349,9 @@ TEXT: 11月27日10:00AM～
 RESOURCE ID: event_datetime_range_key_maxoutfinaleraids1124
 TEXT: 11月27日10:00AM～
 12月1日8:00PM
+
+RESOURCE ID: event_datetime_range_key_necrozmafusionraidday
+TEXT: 12月14日2:00PM～5:00PM
 
 RESOURCE ID: event_season17_name
 TEXT: 現在のシーズン：重なる運命
@@ -392,8 +414,14 @@ TEXT: 腕組ポーズプレミアムタイムチャレンジチケット
 RESOURCE ID: general1.ticket._maxoutfinaleraids1124_title
 TEXT: マックスアウトフィナーレチケット：レイドボーナス
 
+RESOURCE ID: general1.ticket_cd_recap2024_title
+TEXT: 12月のコミュニティ・デイチケット
+
 RESOURCE ID: general2.ticket.5._gowa2024hatchver1_title
 TEXT: ワイルドウィーク：タマゴふか
+
+RESOURCE ID: general2.ticket._necrozmafusionraidday_title
+TEXT: ネクロズマ合体レイドデイチケット
 
 RESOURCE ID: gmax_lapras_max_battles
 TEXT: キョダイマックスしたラプラスがマックスバトルに出現
@@ -470,6 +498,9 @@ TEXT: 幻想の森
 RESOURCE ID: habitat_apac_151busstop_8
 TEXT: ピカチュウの丘
 
+RESOURCE ID: hint_desc_ready_title_key
+TEXT: この辺りを探索してみましょう。近くにランドマークがあります！
+
 RESOURCE ID: holiday_activation_collection_challenge
 TEXT: ホリデー・ディライツコレクションチャレンジ
 
@@ -490,35 +521,41 @@ TEXT: キョダイマックスポケモンを送ることはできません
 RESOURCE ID: home_transfer_error_last_max
 TEXT: 最後のマックスポケモンであるため送ることはできません
 
+RESOURCE ID: iris_social_diagnostic_title
+TEXT: 実験的な試み
+
 RESOURCE ID: iris_social_diagnostics_option_five_c2
-TEXT: AR Pokemon placement is unsuitable at this location
+TEXT: この場所はARを使ってポケモンを置くのに適さない
 
 RESOURCE ID: iris_social_diagnostics_option_four_c2
-TEXT: Pokemon placement is either inaccurate or not working
+TEXT: ポケモン配置が不正確もしくは正しく動作しない
 
 RESOURCE ID: iris_social_diagnostics_option_one_c2
-TEXT: I don’t know what to do next
+TEXT: 次に何をしたらいいのかわからない
 
 RESOURCE ID: iris_social_diagnostics_option_three_c2
-TEXT: The AR boundaries are too small
+TEXT: AR境界線内が小さすぎる
 
 RESOURCE ID: iris_social_diagnostics_option_two_c2
-TEXT: I can’t find (or enter) the AR boundaries
+TEXT: AR境界が見つからない、もしくは境界線内に入れない
+
+RESOURCE ID: iris_social_entry_instruction_body
+TEXT: プレイグラウンドは、ポケモンが集まって遊んだり他のポケモントレーナーに出会ったりする場所です。ランドマーク（目印の物体）にカメラを向けポケモンがいるか確認します。
 
 RESOURCE ID: iris_temperature_exit_button
-TEXT: EXIT
+TEXT: 終了する
 
 RESOURCE ID: iris_temperature_force_exit_body
-TEXT: Due to high temperature of device, AR is shutting down. Exiting now.
+TEXT: 端末が熱くなりすぎたため、ARを終了しています。
 
 RESOURCE ID: iris_temperature_force_exit_title
-TEXT: Device Temperature Critical
+TEXT: 高温注意
 
 RESOURCE ID: iris_temperature_warning_body
-TEXT: Device temperatures are high. Experience may degrade.
+TEXT: 端末が高温になっているため、プレイ体験が低下する可能性があります
 
 RESOURCE ID: iris_temperature_warning_continue_button
-TEXT: CONTINUE
+TEXT: 続ける
 
 RESOURCE ID: item_bag_category_boosts
 TEXT: おこうなどトレーナーブースター
@@ -553,6 +590,9 @@ TEXT: 現地時間2024年12月3日10:00AM～12月31日8:00PMに適用される�
 RESOURCE ID: item_event_ticket_gray_desc_gmaxlapras24
 TEXT: 現地時間2024年12月8日2:00PM～5:00PMにボーナスを受け取るためのチケット。
 
+RESOURCE ID: item_event_ticket_gray_desc_necrozmafusionraidday
+TEXT: 現地時間2024年12月14日2:00PM～5:00PMにボーナスを受け取るためのチケット。
+
 RESOURCE ID: item_event_ticket_gray_desc_raidver1
 TEXT: 現地時間2024年11月18日12:01AMから「ワイルドウィーク：レイド」にアクセスできるチケット。
 
@@ -562,11 +602,20 @@ TEXT: このチケットは自動的に発動し12月の「ふかアクセス」
 RESOURCE ID: item_event_ticket_gray_details_gmaxlapras24
 TEXT: このチケットは自動的に発動し12月8日にボーナスが受け取れるようになります。
 
+RESOURCE ID: item_event_ticket_gray_details_necrozmafusionraidday
+TEXT: このチケットは自動的に発動し12月14日にボーナスが受け取れるようになります。
+
 RESOURCE ID: item_event_ticket_pink_desc_aspiringtr2024
 TEXT: 現地時間2024年12月7日2:00PM～5:00PMに昇竜リサーチデイプレミアムタイムチャレンジを行うためのチケット。
 
+RESOURCE ID: item_event_ticket_pink_desc_cd_recap2024
+TEXT: 現地時間2024年12月21日9:00AMから12月のコミュニティ・デイスペシャルリサーチを行うためのチケット。
+
 RESOURCE ID: item_event_ticket_pink_details_aspiringtr2024
 TEXT: このチケットは自動的に発動し12月7日に昇竜リサーチデイプレミアムタイムチャレンジが行えるようになります。
+
+RESOURCE ID: item_event_ticket_pink_details_cd_recap2024
+TEXT: このチケットは自動的に発動し12月21日に12月のコミュニティ・デイスペシャルリサーチが行えるようになります。
 
 RESOURCE ID: item_item_pack_desc
 TEXT: 持てる道具の上限数が増える。
@@ -592,14 +641,23 @@ TEXT: <b>{0}秒</b>
 RESOURCE ID: just_my_cup_of_tea_event_name
 TEXT: お茶はいかが？
 
+RESOURCE ID: language_selector_new
+TEXT: NEW
+
 RESOURCE ID: lapras_gmax_tr_2024_title
 TEXT: ラプラス（キョダイマックス）プレミアムタイムチャレンジ
+
+RESOURCE ID: limited_localization_progress_hint_1
+TEXT: 光の筋をたどって目印の物体に近づきます
 
 RESOURCE ID: max_battle_day_gigantamax_lapras_event_name
 TEXT: ラプラス（キョダイマックス）マックスバトルデイ
 
 RESOURCE ID: max_battle_day_gigantamax_lapras_ticketed
 TEXT: ラプラス（キョダイマックス）マックスバトルデイチケットボーナス
+
+RESOURCE ID: max_battler_box
+TEXT: Max Battler Box
 
 RESOURCE ID: max_boost.1_description
 TEXT: マックスバトルで使うと、30分間ポケモンの与えるダメージが2倍になるキノコ。
@@ -635,10 +693,10 @@ RESOURCE ID: max_out_finale_tr_name
 TEXT: 腕組ポーズプレミアムタイムチャレンジ
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-12-04T01:24:41.079138+00:00 for ja-JP
-at SHA ad7d71d8b16
-Pipeline 2816270, job 34682824
-Patch from: 0.343.0-SHA-6907d9b0-RC1, 0.341.1-RC2
+TEXT: Built at 2024-12-07T00:39:55.586339+00:00 for ja-JP
+at SHA e954ddccb65
+Pipeline 2825127, job 34825371
+Patch from: 0.341.1-RC1, 0.343.0-SHA-b4b925c8-RC2
 
 RESOURCE ID: midnight_tea_collection_challenge_1
 TEXT: お茶はいかが？コレクションチャレンジ：不思議な味と香り
@@ -662,7 +720,7 @@ RESOURCE ID: nearby_pokemon_gui_raid_header
 TEXT: レイド
 
 RESOURCE ID: notification_from_play_title_body
-TEXT: A Pokémon left to play at a Pokémon Playground will return to you once it’s tired.
+TEXT: プレイグラウンドで遊んだポケモンは疲れるとプレイヤーのもとに戻る
 
 RESOURCE ID: pokedex_category_unlock_tooltip
 TEXT: {0}匹集めてアンロック。捕まえた数：{1}／{0}
@@ -701,7 +759,7 @@ RESOURCE ID: pokedex_mode_name_all_v2
 TEXT: ポケモン
 
 RESOURCE ID: pokedex_page_registered
-TEXT: 最近登録したポケモン
+TEXT: 最近の登録
 
 RESOURCE ID: pokedex_region_button_title
 TEXT: 地方
@@ -826,8 +884,6 @@ TEXT: 重なる運命
 RESOURCE ID: raid_attendance_onboarding_message
 TEXT: 近くのレイドに参加しているとき、フレンドにはフレンドリストから直接参加してもらうことができます。
 
-設定からいつでもオフにできます。
-
 RESOURCE ID: raid_attendance_onboarding_title
 TEXT: フレンドとのレイド参加共有
 
@@ -862,6 +918,12 @@ TEXT: ポイント数が月の上限に達しました。リセット前にリ�
 
 RESOURCE ID: rewarded_spend_notification_string_key
 TEXT: リワードロード
+
+RESOURCE ID: road_to_sinnoh_raid_hour_azelf_desc
+TEXT: アグノムレイドがエリア内に出現
+
+RESOURCE ID: road_to_sinnoh_raid_hour_uxie_desc
+TEXT: ユクシーレイドがエリア内に出現
 
 RESOURCE ID: season_gbl_forecast_title_17
 TEXT: Pokémon GO：重なる運命
@@ -928,6 +990,11 @@ TEXT: 現地時間2024年12月7日2:00PM～5:00PMに、フィールドリサー�
 
 色違いポケモンに出会える（イベント開催中のフィールドリサーチ完了で出会える色違いポケモンと同等）可能性を含みます。
 
+RESOURCE ID: text_rewards_key_cd_recap2024
+TEXT: <b>もらえるもの：</b>
+・2024年のコミュニティ・デイに登場したポケモン（スペシャル背景つき）との出会い
+・ふしぎなアメ、すごいわざマシンノーマル、すごいわざマシンスペシャル、など
+
 RESOURCE ID: text_rewards_key_decmonthly2024
 TEXT: <b>もらえるもの：</b>
 ・毎日最初のポケストップスピンでもらえる1回で壊れるふかそうち
@@ -981,6 +1048,12 @@ TEXT: <b>もらえるもの：</b>
 ・5つ星レイドでポケモンを捕まえてもらえるアメ3個追加
 ・5つ星レイドでポケモンを捕まえてもらえるアメXL1個追加
 ・レイド勝利でもらえる5000XP追加、など
+
+RESOURCE ID: text_rewards_key_necrozmafusionraidday
+TEXT: <b>適用ボーナス：</b>
+・ジムのフォトディスクを回してもらえるレイドパス8枚追加
+・レイドでもらえるふしぎなアメXLの可能性増
+・レイド勝利でもらえるXP50%増とほしのすな2倍、など
 
 RESOURCE ID: tr_apac_151busstop_engagement_desc
 TEXT: 韓国でカントー地方のポケモンを探せ！タイムチャレンジ
@@ -1065,6 +1138,18 @@ TEXT: どんなティーカップをすみかにしているか、によって�
 
 RESOURCE ID: tutorial_sinistea_intro|3
 TEXT: たくさん捕まえて、どんどんきみのチームリーダーに聞いてくれ。
+
+RESOURCE ID: vps_guardian_oob_toast
+TEXT: プレイグラウンド外です。境界線内に入ってポケモンを置いてください。
+
+RESOURCE ID: winter_holidays_event_name
+TEXT: 年末ホリデーパート1
+
+RESOURCE ID: young_and_wise_collection_challenge_1
+TEXT: 若輩と長老タマゴふかチャレンジ
+
+RESOURCE ID: young_and_wise_collection_challenge_2
+TEXT: 若輩と長老レイドチャレンジ
 
 RESOURCE ID: young_and_wise_dec2024_event_name
 TEXT: 若輩と長老
