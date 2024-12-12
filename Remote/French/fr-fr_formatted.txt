@@ -34,6 +34,9 @@ TEXT: Je crois que c’est un Théffroi Forme Contrefaçon.
 RESOURCE ID: appraise_sinistea_phony_3
 TEXT: On dirait que c’est un Théffroi Forme Contrefaçon !
 
+RESOURCE ID: ar_backgrounded_error
+TEXT: Tu as perdu la connexion avec l’aire de jeux Pokémon.
+
 RESOURCE ID: aspiring_dragons_dec2024_tr
 TEXT: Étude ponctuelle premium de la Journée Étude Apprentis dragons
 
@@ -709,6 +712,12 @@ TEXT: Choisis cette option pour rencontrer Kraknoix quand tu termines les tâche
 RESOURCE ID: branch_aspiring_dragons_rd_dec24_trapinch_title_key
 TEXT: Kraknoix
 
+RESOURCE ID: branch_holiday_pt_1_dec24_spark_description_key
+TEXT: Choose this option to track down Sierra.
+
+RESOURCE ID: bread_battle_tutorial_description_3
+TEXT: Appuie ou balaye pour récupérer de l’énergie et remplir la jauge plus vite.
+
 RESOURCE ID: bread_dough_lobby_active_items_total
 TEXT: + {0} Maxi Champis
 
@@ -716,7 +725,7 @@ RESOURCE ID: bread_max_boost_ftue_activation_message
 TEXT: Tu peux essayer cet objet pendant 5 minutes. Les effets de cet objet durent normalement 30 minutes.
 
 RESOURCE ID: bread_max_boost_ftue_button_new
-TEXT: NEW
+TEXT: NOUVEAU
 
 RESOURCE ID: bread_max_boost_ftue_message
 TEXT: Double les dégâts que ton Pokémon inflige dans les Combats Dynamax !
@@ -1331,6 +1340,9 @@ TEXT: Forêt illusoire
 RESOURCE ID: habitat_apac_151busstop_8
 TEXT: Colline Pikachu
 
+RESOURCE ID: hint_desc_ready_title_key
+TEXT: Essaie d’explorer l’aire. L’élément repère est tout près !
+
 RESOURCE ID: holiday_activation_collection_challenge
 TEXT: Défi de collection Plaisirs des fêtes
 
@@ -1343,41 +1355,59 @@ TEXT: Défi de collection Festival Pokémon : Jakarta 2024
 RESOURCE ID: holiday_activation_jkt_fr_title
 TEXT: Festival Pokémon : Jakarta 2024
 
+RESOURCE ID: holiday_pt_1_tr_name
+TEXT: Holiday Part 1 Timed Research
+
+RESOURCE ID: holiday_pt_1_tr_name_1
+TEXT: Holiday Part 1 Timed Research (1/3)
+
+RESOURCE ID: holiday_pt_1_tr_name_2
+TEXT: Holiday Part 1 Timed Research (2/3)
+
+RESOURCE ID: holiday_pt_1_tr_name_3
+TEXT: Holiday Part 1 Timed Research (3/3)
+
 RESOURCE ID: home_transfer_error_gmax
 TEXT: Tu ne peux pas envoyer un Pokémon Gigamax.
 
 RESOURCE ID: home_transfer_error_last_max
 TEXT: Tu ne peux pas envoyer ton dernier Pokémon Max.
 
+RESOURCE ID: iris_social_diagnostic_title
+TEXT: Cette fonctionnalité est expérimentale.
+
 RESOURCE ID: iris_social_diagnostics_option_five_c2
-TEXT: This isn’t a good location for placing Pokémon in AR.
+TEXT: Ce n’est pas un bon endroit pour placer des Pokémon en RA.
 
 RESOURCE ID: iris_social_diagnostics_option_four_c2
-TEXT: Pokémon placement is inaccurate or not working at all
+TEXT: Le placement des Pokémon est incorrect ou ne fonctionne pas du tout
 
 RESOURCE ID: iris_social_diagnostics_option_one_c2
-TEXT: I don’t know what to do next
+TEXT: Je ne sais pas quoi faire ensuite
 
 RESOURCE ID: iris_social_diagnostics_option_three_c2
-TEXT: The AR boundaries are too small
+TEXT: Les limites RA sont trop petites
 
 RESOURCE ID: iris_social_diagnostics_option_two_c2
-TEXT: I can’t find or enter the AR boundaries
+TEXT: Je ne trouve pas les limites RA ou je n’arrive pas à entrer à l’intérieur
+
+RESOURCE ID: iris_social_entry_instruction_body
+TEXT: Les Pokémon peuvent se rassembler, jouer et rencontrer d’autres Dresseurs et Dresseuses aux aires de jeux Pokémon ! Vise l’élément repère avec ton appareil photo pour voir les Pokémon et interagir avec eux.
 
 RESOURCE ID: iris_temperature_exit_button
-TEXT: EXIT
+TEXT: SORTIR
 
 RESOURCE ID: iris_temperature_force_exit_body
-TEXT: Device temperature is too high, so AR must shut down. Exiting now.
+TEXT: La température de ton appareil est trop élevée, la RA doit s’arrêter. Arrêt immédiat.
 
 RESOURCE ID: iris_temperature_force_exit_title
-TEXT: Device Temperature Critical
+TEXT: Température de l’appareil critique
 
 RESOURCE ID: iris_temperature_warning_body
-TEXT: High device temperature. Your experience may be degraded.
+TEXT: Ton appareil chauffe. Ton expérience peut être dégradée.
 
 RESOURCE ID: iris_temperature_warning_continue_button
-TEXT: CONTINUE
+TEXT: CONTINUER
 
 RESOURCE ID: item_event_ticket_05_desc_hatchver1
 TEXT: Un ticket pour accéder à Âme sauvage : Éclosion à partir du 18 novembre 2024 à 0h01, heure locale, où que tu sois.
@@ -1460,6 +1490,9 @@ TEXT: Ma tasse de thé
 RESOURCE ID: lapras_gmax_tr_2024_title
 TEXT: Étude ponctuelle premium de la Journée Combat Dynamax Lokhlass Gigamax
 
+RESOURCE ID: limited_localization_progress_hint_1
+TEXT: Suis les traces lumineuses pour trouver l’élément repère.
+
 RESOURCE ID: max_battle_day_gigantamax_lapras_event_name
 TEXT: Journée Combat Dynamax Lokhlass Gigamax
 
@@ -1467,7 +1500,7 @@ RESOURCE ID: max_battle_day_gigantamax_lapras_ticketed
 TEXT: Bonus du ticket pour la Journée Combat Dynamax Lokhlass Gigamax
 
 RESOURCE ID: max_battler_box
-TEXT: Max Battler Box
+TEXT: Boîte Combat Dynamax
 
 RESOURCE ID: max_boost.1_description
 TEXT: Un champignon qui augmente les dégâts que ton Pokémon inflige dans les Combats Dynamax pendant 30 minutes.
@@ -1503,9 +1536,9 @@ RESOURCE ID: max_out_finale_tr_name
 TEXT: Étude ponctuelle premium Pose déterminée
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-12-07T00:39:55.586339+00:00 for fr-FR
-at SHA e954ddccb65
-Pipeline 2825127, job 34825371
+TEXT: Built at 2024-12-12T22:29:53.537678+00:00 for fr-FR
+at SHA 4b5859b1a60
+Pipeline 2838563, job 35036195
 Patch from: 0.341.1-RC1, 0.343.0-SHA-b4b925c8-RC2
 
 RESOURCE ID: midnight_tea_collection_challenge_1
@@ -1530,7 +1563,7 @@ RESOURCE ID: nearby_pokemon_gui_raid_header
 TEXT: Raid
 
 RESOURCE ID: notification_from_play_title_body
-TEXT: A Pokémon left to play at a Pokémon Playground will return to you once it’s tired.
+TEXT: Un Pokémon que tu as laissé jouer à une aire de jeux Pokémon reviendra vers toi quand il sera fatigué.
 
 RESOURCE ID: pokedex_category_unlock_tooltip
 TEXT: Obtiens {0} de ces Pokémon pour déverrouiller cette catégorie. Obtenus : {1}/{0}.
@@ -1709,10 +1742,11 @@ TEXT: Utilise une Potion sur un Pokémon {0} fois
 RESOURCE ID: quest_use_revive_plural
 TEXT: Utilise un Rappel sur un Pokémon {0} fois
 
-RESOURCE ID: raid_attendance_onboarding_message
-TEXT: Tes amis pourront rejoindre directement ton Raid depuis leur liste d’amis et t’aider à remporter la victoire face au Boss de Raid !
+RESOURCE ID: quest_win_raid_5_singular
+TEXT: Win a five-star or higher raid
 
-Cela peut être modifié plus tard dans les options.
+RESOURCE ID: raid_attendance_onboarding_message
+TEXT: Quand tu seras dans un Raid proche, tes amis pourront le rejoindre directement depuis leur liste d’amis !
 
 RESOURCE ID: raid_attendance_onboarding_title
 TEXT: Participation à des Raids partagée avec tes amis
@@ -1784,6 +1818,9 @@ TEXT: Voir les options de filtre des termes de recherche.
 
 RESOURCE ID: settings_select_suggested_search_term
 TEXT: Afficher les termes de recherche suggérés
+
+RESOURCE ID: seven_free_raid_passes
+TEXT: Jusqu’à 7 passes de Raids gratuits en faisant tourner les PhotoDisques dans les Arènes.
 
 RESOURCE ID: share_raid_attendance_settings_key
 TEXT: Partager ta participation à des Raids avec des amis
@@ -2146,6 +2183,9 @@ TEXT: Il semblent qu’ils élisent domicile dans différents types de tasses à
 RESOURCE ID: tutorial_sinistea_intro|3
 TEXT: Essaie d’en attraper un autre, histoire de voir si on peut en apprendre davantage !
 
+RESOURCE ID: vps_guardian_oob_toast
+TEXT: Tu es hors de l’aire de jeux Pokémon. Mets-toi à l’intérieur des limites pour placer un Pokémon.
+
 RESOURCE ID: wild_finale
 TEXT: Fin sauvage !!!
 
@@ -2154,6 +2194,15 @@ TEXT: Davantage de Pokémon imposants apparaissent dans la nature !
 
 RESOURCE ID: winter_holidays_event_name
 TEXT: Fêtes de fin d’année – 1ʳᵉ partie
+
+RESOURCE ID: winter_holidays_event_name_1
+TEXT: Fêtes de fin d’année – 1ʳᵉ partie (1/3)
+
+RESOURCE ID: winter_holidays_event_name_2
+TEXT: Fêtes de fin d’année – 1ʳᵉ partie (2/3)
+
+RESOURCE ID: winter_holidays_event_name_3
+TEXT: Fêtes de fin d’année – 1ʳᵉ partie (3/3)
 
 RESOURCE ID: young_and_wise_collection_challenge_1
 TEXT: Défi éclosion Jeune et sage
