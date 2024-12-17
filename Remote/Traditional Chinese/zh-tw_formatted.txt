@@ -34,6 +34,9 @@ TEXT: 看起來是贗品形態的來悲茶呢。
 RESOURCE ID: appraise_sinistea_phony_3
 TEXT: 是贗品形態的來悲茶！
 
+RESOURCE ID: ar_backgrounded_error
+TEXT: 與寶可夢遊樂場的連線已中斷
+
 RESOURCE ID: aspiring_dragons_dec2024_tr
 TEXT: 昇龍調查日特級限時調查
 
@@ -311,7 +314,10 @@ RESOURCE ID: branch_aspiring_dragons_rd_dec24_trapinch_title_key
 TEXT: 大顎蟻
 
 RESOURCE ID: branch_holiday_pt_1_dec24_spark_description_key
-TEXT: Choose this option to track down Sierra.
+TEXT: 如果選擇這個分歧，你將能執行偵察任務來追蹤希爾拉。
+
+RESOURCE ID: bread_battle_tutorial_description_3
+TEXT: 點擊或滑動畫面可以讓能量條累積得更快。
 
 RESOURCE ID: bread_dough_lobby_active_items_total
 TEXT: +{0}極巨菇菇
@@ -327,6 +333,10 @@ TEXT: 寶可夢在極巨對戰中給予的傷害加倍！
 
 RESOURCE ID: bread_max_boost_ftue_try_button
 TEXT: 試著用用看吧（5分）
+
+RESOURCE ID: bread_time_window
+TEXT: 可以極巨對戰的時間：
+{0}～{1}
 
 RESOURCE ID: combat_giovanni_name
 TEXT: 坂木
@@ -371,13 +381,13 @@ RESOURCE ID: eevee_explorers_sao_paulo_title_00
 TEXT: 伊布探索：聖保羅 (1/1)
 
 RESOURCE ID: ejection_generic_modal_body
-TEXT: You will be taken out of the Pokémon Playground experience. Try re-entering again, or try a different location.
+TEXT: You will be taken out of the Pokémon Playground. Try re-entering or going to a different location.
 
 RESOURCE ID: ejection_generic_modal_title
-TEXT: Something went wrong
+TEXT: Error
 
 RESOURCE ID: ejection_weak_connection_modal_body
-TEXT: Check your network settings or find a location where you have a better connection.
+TEXT: Check your network settings or find a location with a better connection.
 
 RESOURCE ID: ejection_weak_connection_modal_title
 TEXT: Network Error
@@ -1021,6 +1031,10 @@ TEXT: 佳節Part 1：玩沙特級限時調查(1/2)
 RESOURCE ID: hemisphere_holiday_tr_name_2
 TEXT: 佳節Part 1：玩沙特級限時調查(2/2)
 
+RESOURCE ID: hint_desc_ready_title_key
+TEXT: 在這一帶探索看看吧。
+地標就在附近喔！
+
 RESOURCE ID: holiday_activation_collection_challenge
 TEXT: 佳節樂事收藏家挑戰
 
@@ -1035,17 +1049,20 @@ RESOURCE ID: holiday_activation_jkt_fr_title
 TEXT: 寶可夢慶典：
 雅加達2024
 
+RESOURCE ID: holiday_box
+TEXT: 佳節禮盒
+
 RESOURCE ID: holiday_pt_1_tr_name
-TEXT: Holiday Part 1 Timed Research
+TEXT: 歲末節慶Part 1限時調查
 
 RESOURCE ID: holiday_pt_1_tr_name_1
-TEXT: Holiday Part 1 Timed Research (1/3)
+TEXT: 歲末節慶Part 1限時調查(1/3)
 
 RESOURCE ID: holiday_pt_1_tr_name_2
-TEXT: Holiday Part 1 Timed Research (2/3)
+TEXT: 歲末節慶Part 1限時調查(2/3)
 
 RESOURCE ID: holiday_pt_1_tr_name_3
-TEXT: Holiday Part 1 Timed Research (3/3)
+TEXT: 歲末節慶Part 1限時調查(3/3)
 
 RESOURCE ID: home_transfer_error_gmax
 TEXT: 不能傳送超極巨化寶可夢
@@ -1053,35 +1070,41 @@ TEXT: 不能傳送超極巨化寶可夢
 RESOURCE ID: home_transfer_error_last_max
 TEXT: 不能傳送你持有的最後1隻極巨寶可夢
 
+RESOURCE ID: iris_social_diagnostic_title
+TEXT: 此為開發中功能
+
 RESOURCE ID: iris_social_diagnostics_option_five_c2
-TEXT: This isn’t a good location for placing Pokémon in AR.
+TEXT: 這個地點不適合使用AR放置寶可夢
 
 RESOURCE ID: iris_social_diagnostics_option_four_c2
-TEXT: Pokémon placement is inaccurate or not working at all
+TEXT: 無法放置寶可夢到指定位置或無法正常動作
 
 RESOURCE ID: iris_social_diagnostics_option_one_c2
-TEXT: I don’t know what to do next
+TEXT: 我不知道下一步該做什麼
 
 RESOURCE ID: iris_social_diagnostics_option_three_c2
-TEXT: The AR boundaries are too small
+TEXT: AR邊界線內的範圍太小
 
 RESOURCE ID: iris_social_diagnostics_option_two_c2
-TEXT: I can’t find or enter the AR boundaries
+TEXT: 我找不到AR邊界線，或是進不去邊界線內
+
+RESOURCE ID: iris_social_entry_instruction_body
+TEXT: 寶可夢遊樂場是寶可夢們聚集、遊玩或遇見其他寶可夢訓練家的地方。只要將相機對準地標，就能確認是否有寶可夢在那裡！
 
 RESOURCE ID: iris_temperature_exit_button
-TEXT: EXIT
+TEXT: 關閉
 
 RESOURCE ID: iris_temperature_force_exit_body
-TEXT: Device temperature is too high, so AR must shut down. Exiting now.
+TEXT: 由於您的裝置過熱，AR功能即將關閉。
 
 RESOURCE ID: iris_temperature_force_exit_title
-TEXT: Device Temperature Critical
+TEXT: 過熱警告
 
 RESOURCE ID: iris_temperature_warning_body
-TEXT: High device temperature. Your experience may be degraded.
+TEXT: 您的裝置溫度過高，可能導致遊玩體驗下降
 
 RESOURCE ID: iris_temperature_warning_continue_button
-TEXT: CONTINUE
+TEXT: 繼續
 
 RESOURCE ID: item_event_ticket_05_desc_hatchver1
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年11月18日00:01開始參與「曠野週：孵蛋」。
@@ -1179,6 +1202,9 @@ TEXT: NEW
 RESOURCE ID: lapras_gmax_tr_2024_title
 TEXT: 超極巨化拉普拉斯特級限時調查
 
+RESOURCE ID: limited_localization_progress_hint_1
+TEXT: 沿著閃閃發光的指示靠近地標
+
 RESOURCE ID: masterwork_lugiahoohs_dialogue_2_2
 TEXT: 我和隊長們發現GO火箭隊把至尊暗影洛奇亞藏在一個秘密的地方，而且是由坂木親自看守。
 
@@ -1189,7 +1215,7 @@ RESOURCE ID: max_battle_day_gigantamax_lapras_ticketed
 TEXT: 拉普拉斯（超極巨化）極巨對戰日入場券獎勵
 
 RESOURCE ID: max_battler_box
-TEXT: Max Battler Box
+TEXT: 極巨對戰者禮盒
 
 RESOURCE ID: max_boost.1_description
 TEXT: 會在極巨對戰中使用後的30分鐘內，持續使寶可夢給予的傷害變為2倍的菇菇。
@@ -1225,10 +1251,10 @@ RESOURCE ID: max_out_finale_tr_name
 TEXT: 抱手姿勢特級限時調查
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-12-13T23:54:32.266887+00:00 for zh-TW
-at SHA 2fd9db32d68
-Pipeline 2841349, job 35083866
-Patch from: 0.343.0-SHA-b4b925c8-RC2, 0.341.1-RC2
+TEXT: Built at 2024-12-17T18:52:14.563184+00:00 for zh-TW
+at SHA ccfac5de9e3
+Pipeline 2847120, job 35172906
+Patch from: 0.341.1-RC2, 0.343.0-SHA-b4b925c8-RC2
 
 RESOURCE ID: midnight_tea_collection_challenge_1
 TEXT: 來杯茶如何？收藏家挑戰：不可思議的滋味與香氣
@@ -1270,7 +1296,7 @@ RESOURCE ID: nearby_pokemon_gui_raid_header
 TEXT: 團體戰
 
 RESOURCE ID: notification_from_play_title_body
-TEXT: A Pokémon left to play at a Pokémon Playground will return to you once it’s tired.
+TEXT: 在寶可夢遊樂場玩耍的寶可夢會在玩累後回到訓練家身邊
 
 RESOURCE ID: pokedex_category_unlock_tooltip
 TEXT: 收集{0}隻後即可解鎖。已捕捉：{1}／{0}
@@ -2007,6 +2033,9 @@ TEXT: 牠的形態會隨著牠住在什麼樣的茶杯裡而改變。隊長的�
 
 RESOURCE ID: tutorial_sinistea_intro|3
 TEXT: 多捕捉一些，然後儘管去問你的隊長吧。
+
+RESOURCE ID: vps_guardian_oob_toast
+TEXT: 已離開寶可夢遊樂場的範圍。請回到邊界線內來放置寶可夢。
 
 RESOURCE ID: winter_holidays_collection_part1_catch
 TEXT: 佳節Part 1收藏家挑戰：冰涼涼

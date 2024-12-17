@@ -34,6 +34,9 @@ TEXT: यह तो फ़ेक फ़ॉम चायक जैसा
 RESOURCE ID: appraise_sinistea_phony_3
 TEXT: यह तो फ़ेक फ़ॉम चायक है।
 
+RESOURCE ID: ar_backgrounded_error
+TEXT: आप पोकमॉन लाउंड एरया से डकनेट हो गये हैं।
+
 RESOURCE ID: aspiring_dragons_dec2024_tr
 TEXT: डैगन रसच डे ीमयम सीमत समय वाल रसच
 
@@ -371,7 +374,10 @@ RESOURCE ID: branch_aspiring_dragons_rd_dec24_trapinch_title_key
 TEXT: मसरौ
 
 RESOURCE ID: branch_holiday_pt_1_dec24_spark_description_key
-TEXT: Choose this option to track down Sierra.
+TEXT: सएरा को टैक करने क लए यह वकप चुनें।
+
+RESOURCE ID: bread_battle_tutorial_description_3
+TEXT: एनिज कलैट कर मीटर को तेज़ी से भरने क लए टैप या वाइप करं।
 
 RESOURCE ID: bread_dough_lobby_active_items_total
 TEXT: + {0} मैस मुशम
@@ -380,7 +386,7 @@ RESOURCE ID: bread_max_boost_ftue_activation_message
 TEXT: आप इस आइटम का 5 मनट तक इतेमाल कर सकते हैं। इस आइटम का इफ़ेट आम तौर पर 30 मनट तक रहता है।
 
 RESOURCE ID: bread_max_boost_ftue_button_new
-TEXT: NEW
+TEXT: नया
 
 RESOURCE ID: bread_max_boost_ftue_message
 TEXT: मैस बैटल में आपका पोकमॉन दोगुना नुकसान पँचाएगा!
@@ -437,13 +443,13 @@ RESOURCE ID: eevee_explorers_sao_paulo_title_00
 TEXT: ईवी एसलोरस - साओ पाउलो (1/1)
 
 RESOURCE ID: ejection_generic_modal_body
-TEXT: You will be taken out of the Pokémon Playground experience. Try re-entering again, or try a different location.
+TEXT: You will be taken out of the Pokémon Playground. Try re-entering or going to a different location.
 
 RESOURCE ID: ejection_generic_modal_title
-TEXT: Something went wrong
+TEXT: Error
 
 RESOURCE ID: ejection_weak_connection_modal_body
-TEXT: Check your network settings or find a location where you have a better connection.
+TEXT: Check your network settings or find a location with a better connection.
 
 RESOURCE ID: ejection_weak_connection_modal_title
 TEXT: Network Error
@@ -1248,6 +1254,9 @@ TEXT: हॉलडे पाट 1 - रतीला खेल ी
 RESOURCE ID: hemisphere_holiday_tr_name_2
 TEXT: हॉलडे पाट 1 - रतीला खेल ीमयम सीमत समय वाल रसच (2/2)
 
+RESOURCE ID: hint_desc_ready_title_key
+TEXT: एरया को एसलोर करं। लैंडमाक नज़दीक ही है!
+
 RESOURCE ID: holiday_activation_collection_challenge
 TEXT: हॉलडे डलाइट कलशन चैलंज
 
@@ -1260,17 +1269,20 @@ TEXT: पोकमॉन फ़ेटवल - जकाता 2024 �
 RESOURCE ID: holiday_activation_jkt_fr_title
 TEXT: पोकमॉन फ़ेटवल - जकाता 2024
 
+RESOURCE ID: holiday_box
+TEXT: हॉलडे बॉस
+
 RESOURCE ID: holiday_pt_1_tr_name
-TEXT: Holiday Part 1 Timed Research
+TEXT: हॉलडे पाट 1 सीमत समय वाल रसच
 
 RESOURCE ID: holiday_pt_1_tr_name_1
-TEXT: Holiday Part 1 Timed Research (1/3)
+TEXT: हॉलडे पाट 1 सीमत समय वाल रसच (1/3)
 
 RESOURCE ID: holiday_pt_1_tr_name_2
-TEXT: Holiday Part 1 Timed Research (2/3)
+TEXT: हॉलडे पाट 1 सीमत समय वाल रसच (2/3)
 
 RESOURCE ID: holiday_pt_1_tr_name_3
-TEXT: Holiday Part 1 Timed Research (3/3)
+TEXT: हॉलडे पाट 1 सीमत समय वाल रसच (3/3)
 
 RESOURCE ID: home_transfer_error_gmax
 TEXT: आप जायगैंटामैस पोकमॉन को नहीं भेज सकते हैं।
@@ -1287,35 +1299,41 @@ TEXT: पोककॉइन
 RESOURCE ID: iris_social_confirm_exit_modal_body
 TEXT: पोकमॉन थोड़ी देर तक क कर खेलंगे, जब तक क वे थककर वापस नहीं आ जाते। लकन आप उहें पहल भी वापस बुला सकते हैं।
 
+RESOURCE ID: iris_social_diagnostic_title
+TEXT: यह एक योगामक सुवधा है!
+
 RESOURCE ID: iris_social_diagnostics_option_five_c2
-TEXT: This isn’t a good location for placing Pokémon in AR.
+TEXT: यह AR में पोकमॉन रखने क लए अछा थान नहीं है।
 
 RESOURCE ID: iris_social_diagnostics_option_four_c2
-TEXT: Pokémon placement is inaccurate or not working at all
+TEXT: पोकमॉन का थान गलत है या बकल काम नहीं कर रहा है
 
 RESOURCE ID: iris_social_diagnostics_option_one_c2
-TEXT: I don’t know what to do next
+TEXT: मुझे नहीं पता क आगे या करना है
 
 RESOURCE ID: iris_social_diagnostics_option_three_c2
-TEXT: The AR boundaries are too small
+TEXT: AR सीमाएँ बत छोट हैं
 
 RESOURCE ID: iris_social_diagnostics_option_two_c2
-TEXT: I can’t find or enter the AR boundaries
+TEXT: मुझे AR सीमाएँ नहीं मल रहीं या उनमें वेश नहीं कर पा रहा ँ
+
+RESOURCE ID: iris_social_entry_instruction_body
+TEXT: पोकमॉन, पोकमॉन लाउंड पर इका हो सकते हैं, खेल सकते हैं और अय टनर से मल सकते हैं! कसी भी पोकमॉन को देखने और उसक साथ इंटरैट करने क लए अपने कमर को लैंडमाक क ओर घुमाएँ।
 
 RESOURCE ID: iris_temperature_exit_button
-TEXT: EXIT
+TEXT: बाहर नकलं
 
 RESOURCE ID: iris_temperature_force_exit_body
-TEXT: Device temperature is too high, so AR must shut down. Exiting now.
+TEXT: डवाइस का तापमान बत ज़्यादा है, इसलए AR को तुरंत बंद करना होगा।
 
 RESOURCE ID: iris_temperature_force_exit_title
-TEXT: Device Temperature Critical
+TEXT: डवाइस क तापमान क ओर यान दें
 
 RESOURCE ID: iris_temperature_warning_body
-TEXT: High device temperature. Your experience may be degraded.
+TEXT: डवाइस का तापमान अधक है। इससे आपका ल अनुभव खराब हो सकता है।
 
 RESOURCE ID: iris_temperature_warning_continue_button
-TEXT: CONTINUE
+TEXT: जार रखें
 
 RESOURCE ID: item_event_ticket_01_name
 TEXT: टकट
@@ -1694,6 +1712,9 @@ TEXT: चाय-शाय
 RESOURCE ID: lapras_gmax_tr_2024_title
 TEXT: जायगैंटामैस लैस मैस बैटल दवस ीमयम सीमत समय वाल रसच
 
+RESOURCE ID: limited_localization_progress_hint_1
+TEXT: लैंडमाक खोजने क लए काश क नशान का पीछा करं।
+
 RESOURCE ID: limited_research_raticate
 TEXT: रैटकट सीमत रसच
 
@@ -1740,10 +1761,10 @@ RESOURCE ID: max_out_finale_tr_name
 TEXT: आमववास पोज़ ीमयम सीमत समय वाल रसच
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2024-12-13T23:54:32.266887+00:00 for hi-IN
-at SHA 2fd9db32d68
-Pipeline 2841349, job 35083866
-Patch from: 0.343.0-SHA-b4b925c8-RC2, 0.341.1-RC2
+TEXT: Built at 2024-12-17T18:52:14.563184+00:00 for hi-IN
+at SHA ccfac5de9e3
+Pipeline 2847120, job 35172906
+Patch from: 0.341.1-RC2, 0.343.0-SHA-b4b925c8-RC2
 
 RESOURCE ID: midnight_tea_collection_challenge_1
 TEXT: चाय-शाय कलशन चैलंज - वच वाद और खुशबू
@@ -1781,7 +1802,7 @@ RESOURCE ID: no_pokemon_in_gym_hint
 TEXT: अपने पोकमॉन को जम में रखकर, पोककॉइन कमाएं!
 
 RESOURCE ID: notification_from_play_title_body
-TEXT: A Pokémon left to play at a Pokémon Playground will return to you once it’s tired.
+TEXT: पोकमॉन लाउंड में ल करने क लए छोड़ा गया पोकमॉन, थकने क बाद आपक पास वापस आ जाएगा।
 
 RESOURCE ID: pokecoin.1000_title
 TEXT: सफ़ टट क लए 1,000 पोककॉइन
@@ -2653,6 +2674,9 @@ TEXT: यों न आप और चायक पकड़ने क�
 
 RESOURCE ID: twelve_free_raid_passes
 TEXT: जम क फ़ोटो डक को िपन करक 12 रड पास तक नशुक हासल करं
+
+RESOURCE ID: vps_guardian_oob_toast
+TEXT: आप पोकमॉन लाउंड एरया क बाहर हैं। पोकमॉन रखने क लए सीमा क अंदर जाएँ।
 
 RESOURCE ID: winter_holidays_collection_part1_catch
 TEXT: हॉलडे पाट 1 कलशन चैलंज - आपसे मलकर ठंडा लगा
