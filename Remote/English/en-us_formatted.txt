@@ -488,7 +488,7 @@ RESOURCE ID: bonus_3x_catch_xp
 TEXT: 3× Catch XP
 
 RESOURCE ID: bonus_black_version_glaciate
-TEXT: Kyurem caught from Black Kyurem Raids are guaranteed to know the Charged Move Glaciate
+TEXT: Kyurem caught from Black Kyurem raids will know the Charged Attack Glaciate
 
 RESOURCE ID: bonus_cd_move_sprigatito
 TEXT: Evolve Floragato to get a Meowscarada that knows the Charged Attack Frenzy Plant!
@@ -497,7 +497,7 @@ RESOURCE ID: bonus_cdc_move_ralts
 TEXT: Evolve Kirlia to get a Gallade or Gardevoir that knows the Charged Attack Synchronoise!
 
 RESOURCE ID: bonus_daily_pass_tasks
-TEXT: Daily Bonus Tasks available awarding additional GO Tour Pass Points
+TEXT: Bonus daily Pass Tasks awarding additional Tour Points
 
 RESOURCE ID: bonus_deerling_spawn_notice
 TEXT: Deerling are appearing in the area
@@ -518,10 +518,10 @@ RESOURCE ID: bonus_go_tour_2025_photobomb
 TEXT: Up to 12 surprise encounters with costumed Pikachu in GO Snapshot
 
 RESOURCE ID: bonus_go_tour_2025_stickers
-TEXT: GO Tour: Unova Stickers available from Gifts and POI Spins
+TEXT: GO Tour: Unova–themed stickers available from Gifts and spinning PokéStops or Gyms
 
 RESOURCE ID: bonus_hourly_pass_tasks
-TEXT: Hourly Bonus Tasks available awarding additional GO Tour Pass Points
+TEXT: Bonus hourly Pass Tasks awarding additional Tour Points
 
 RESOURCE ID: bonus_mp_cap_5600
 TEXT: Collect up to 5,600 Max Particles per day from Power Spots and exploration
@@ -535,6 +535,9 @@ TEXT: You may encounter Throh, Sawk, Heatmor, and Durant as a reward for complet
 RESOURCE ID: bonus_photobomb_unova_pikachu
 TEXT: Daily surprise encounters in GO Snapshot with Pikachu wearing the following accessories: Hilbert’s hat, Hilda’s hat, Nate’s visor, or Rosa’s visor
 
+RESOURCE ID: bonus_remote_shadow_raids
+TEXT: Remote Raid Passes can be used to join Shadow Raids
+
 RESOURCE ID: bonus_routes_basculin_red_blue
 TEXT: Increased chance of encountering Red-Striped Basculin and Blue-Striped Basculin while following Routes
 
@@ -542,10 +545,10 @@ RESOURCE ID: bonus_routes_encounter_basculin
 TEXT: Basculin may appear while following Routes
 
 RESOURCE ID: bonus_special_background_t5_raid
-TEXT: Special Backgrounds available for Pokemon caught from T5 Raids
+TEXT: Pokémon caught from five-star raids may have a Special Background
 
 RESOURCE ID: bonus_white_version_glaciate
-TEXT: Kyurem caught from White Kyurem Raids are guaranteed to know the Charged Move Glaciate
+TEXT: Kyurem caught from White Kyurem raids will know the Charged Attack Glaciate
 
 RESOURCE ID: branch_aspiring_dragons_rd_dec24_horsea_button_text_key
 TEXT: Horsea
@@ -588,6 +591,24 @@ TEXT: Choose this option to track down Sierra.
 
 RESOURCE ID: branch_holiday_pt_1_dec24_spark_description_key
 TEXT: Choose this option to help Spark with his research.
+
+RESOURCE ID: branch_steeled_resolve_jan25_blanche_button_text_key
+TEXT: Train with Blanche
+
+RESOURCE ID: branch_steeled_resolve_jan25_blanche_description_key
+TEXT: Choose this option to learn about defensive techniques with Blanche!
+
+RESOURCE ID: branch_steeled_resolve_jan25_blanche_title_key
+TEXT: Train with Blanche
+
+RESOURCE ID: branch_steeled_resolve_jan25_cliff_button_text_key
+TEXT: Train with Cliff
+
+RESOURCE ID: branch_steeled_resolve_jan25_cliff_description_key
+TEXT: Choose this option to go all out with Cliff!
+
+RESOURCE ID: branch_steeled_resolve_jan25_cliff_title_key
+TEXT: Train with Cliff
 
 RESOURCE ID: bread_battle_tutorial_description_3
 TEXT: Tap or swipe to collect energy to fill the meter faster.
@@ -752,8 +773,18 @@ January 1, 8:00 p.m.
 RESOURCE ID: event_datetime_range_key_shadowhoohraidday
 TEXT: January 19, 2:00 p.m. – 5:00 p.m.
 
-RESOURCE ID: event_duration
-TEXT: February 24 – March 2
+RESOURCE ID: event_datetime_range_key_stldrslv0125
+TEXT: January 21, 10:00 a.m. –
+ January 26, 11:59 p.m.
+
+RESOURCE ID: event_pass_additional_bonus_rank_divider_desc
+TEXT: You can continue earning rewards. Let's see how far you can get!
+
+RESOURCE ID: event_pass_additional_bonus_rank_divider_header
+TEXT: BONUS RANKS
+
+RESOURCE ID: event_pass_additional_bonus_rank_divider_title
+TEXT: You've completed the Tour Pass!
 
 RESOURCE ID: event_pass_button
 TEXT: GET DELUXE
@@ -796,11 +827,20 @@ TEXT: {0} Rank {1} achieved.
 RESOURCE ID: event_pass_reward_journal
 TEXT: {0} Rank {1} reward claimed.
 
+RESOURCE ID: event_pass_reward_preview_new_item_indicator
+TEXT: NEW ITEM!
+
+RESOURCE ID: event_pass_reward_preview_upsell_description
+TEXT: This reward is available in Tour Pass Deluxe.
+
 RESOURCE ID: event_pass_rewards_journal
 TEXT: {0} Rewards claimed.
 
 RESOURCE ID: event_pass_rewards_to_claim
 TEXT: Claimable rewards: {0}
+
+RESOURCE ID: event_pass_upgrade
+TEXT: Upgrade
 
 RESOURCE ID: experience_points
 TEXT: XP
@@ -871,8 +911,14 @@ TEXT: Freeze Shock paralyzes Pokémon, causing them to be frozen in place during
 RESOURCE ID: freeze_shock_move_content
 TEXT: Casts electrically charged ice for {0} minutes, paralyzing Pokémon during encounters.
 
+RESOURCE ID: fusion_resource_black_kyurem_desc
+TEXT: Volt Fusion Energy
+
 RESOURCE ID: fusion_resource_black_kyurem_name
 TEXT: Volt Fusion Energy
+
+RESOURCE ID: fusion_resource_white_kyurem_desc
+TEXT: Blaze Fusion Energy
 
 RESOURCE ID: fusion_resource_white_kyurem_name
 TEXT: Blaze Fusion Energy
@@ -926,6 +972,9 @@ TEXT: Feeling Sheepish Premium Timed Research Ticket
 
 RESOURCE ID: general1.ticket._nye12302025_title
 TEXT: New Year’s 2025 Premium Timed Research Ticket
+
+RESOURCE ID: general1.ticket._stldrslv0125_title
+TEXT: Steeled Resolve Premium Timed Research Ticket
 
 RESOURCE ID: general1.ticket_cd_recap2024_title
 TEXT: December Community Day Ticket
@@ -1011,8 +1060,95 @@ TEXT: Level 9 Rewards
 RESOURCE ID: gmax_lapras_max_battles
 TEXT: Gigantamax Lapras is appearing in Max Battles
 
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_00
+TEXT: Hey %PLAYERNAME%! I was just reflecting on our incredible journey together.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_01
+TEXT: We've faced some extraordinary challenges side by side, from encountering gigantic Pokémon to thwarting Team GO Rocket's sinister plans time and time again.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_02
+TEXT: Our research together has introduced us to Pokémon from many regions, leading to amazing discoveries and friendships that have helped shape how we see the world.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_03
+TEXT: Speaking of discoveries, I have noticed some unusual sounds lately.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_04
+TEXT: While I investigate I need you to continue your excellent fieldwork. Every Pokémon you encounter helps us understand our world a little better!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_01_00
+TEXT: Incredible news, %PLAYERNAME%!  I've made a breakthrough with those mysterious vocalizations I was studying.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_01_01
+TEXT: Just as I suspected, these aren’t ordinary sound waves but the unique melodies of the Mythical Pokémon Meloetta!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_01_02
+TEXT: Meloetta uses song to influence the emotions of both people and Pokémon. I need you to keep exploring and see if you can spot any unusual behavior in local Pokémon.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_01_03
+TEXT: It's not every day you get to study a Mythical Pokémon, %PLAYERNAME%, so let's make the most of it!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_02_00
+TEXT: Ah, %PLAYERNAME%! We haven't found Meloetta yet but I can still hear that special vocalization.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_02_01
+TEXT: Our musical friend can't be too far so we may need to think creatively.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_02_02
+TEXT: Why don't you try singing and dancing to see if that has an affect on the people and Pokemon around you?
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_02_03
+TEXT: If you practice enough you may become Meloetta's next opening act!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_03_00
+TEXT: Did you know many famous songs have been inspired by the melodies that Meloetta plays?
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_03_01
+TEXT: Music can truly help to create special bonds with one another.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_03_02
+TEXT: It reminds me of you and your amazing ability to connect with both people and Pokémon. Every new Pokémon you catch or trainer you meet is another potential friend!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_03_03
+TEXT: Get out there and see what wonderful friendships await you, %PLAYERNAME%!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_04_00
+TEXT: %PLAYERNAME%, I just made a fascinating observation about our musical friend Meloetta. Did you know that this Mythical Pokémon was first discovered in the Unova region?
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_04_01
+TEXT: Whether it's coincidence or not, we must explore all avenues of research! Every task will help us understand Meloetta's patterns better.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_04_02
+TEXT: Watch for Pokémon experiencing strong emotions, explore new areas, and make some musical connections of your own.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_04_03
+TEXT: Keep that research rhythm going, %PLAYERNAME%!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_05_00
+TEXT: %PLAYERNAME%, this is the moment we've been waiting for!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_05_01
+TEXT: Thanks to your dedicated fieldwork we've finally pinpointed its location. Its melodious voice is resonating from nearby.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_05_02
+TEXT: This could be your moment to befriend this extraordinary Pokémon. It's sure to be a grand performance!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_05_03
+TEXT: Head out there now, %PLAYERNAME%, and show Meloetta the same kindness and dedication you've shown to all your Pokémon friends.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_06_00
+TEXT: %PLAYERNAME%, you've done it! And what a remarkable sight!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_06_01
+TEXT: This Meloetta has such a striking appearance. Its distinctive coloring is unlike anything in my research notes…truly extraordinary!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_06_02
+TEXT: Seeing your journey from your first days as a trainer to now catching such a special Pokemon, well, it makes me incredibly proud to call you my research partner and friend!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_06_03
+TEXT: Keep that Meloetta singing proudly %PLAYERNAME%! You've hit all the right notes!
+
 RESOURCE ID: go_tour_2025_today_view_extended_hours
-TEXT: GO Tour: Unova - Extended Bonuses
+TEXT: GO Tour: Unova – Extended Bonuses
 
 RESOURCE ID: go_tour_ep_bonus_title
 TEXT: Tour Pass Bonuses
@@ -1027,7 +1163,7 @@ RESOURCE ID: go_tour_ep_bonus_title_02
 TEXT: Tier 3 Tour Pass Bonuses
 
 RESOURCE ID: go_tour_event_pass_availability
-TEXT: Event-exclusive GO Tour Pass now available
+TEXT: The event Tour Pass is available now
 
 RESOURCE ID: gotour2025_welcome
 TEXT: Pokémon GO Tour: Unova
@@ -1039,13 +1175,13 @@ RESOURCE ID: gotour2025_welcome_banner_ntc
 TEXT: Welcome to Pokémon GO Tour: Unova – New Taipei City!
 
 RESOURCE ID: gotour2025_welcome_global
-TEXT: Welcome to Pokémon GO Tour: Unova - Global!
+TEXT: Welcome to Pokémon GO Tour: Unova – Global!
 
 RESOURCE ID: gotour2025_welcome_irl_la
-TEXT: Welcome to Pokémon GO Tour: Unova - Los Angeles!
+TEXT: Welcome to Pokémon GO Tour: Unova – Los Angeles!
 
 RESOURCE ID: gotour2025_welcome_irl_ntc
-TEXT: Welcome to Pokémon GO Tour: Unova - New Taipei City!
+TEXT: Welcome to Pokémon GO Tour: Unova – New Taipei City!
 
 RESOURCE ID: gotour_2025_base_track_title
 TEXT: Tour Pass
@@ -1061,6 +1197,9 @@ TEXT: Tour Pass Deluxe + 10 Ranks
 
 RESOURCE ID: gotour_2025_deluxe_event_pass_track_unlock_title
 TEXT: Tour Pass Deluxe
+
+RESOURCE ID: gotour_2025_event_duration
+TEXT: February 24 – March 2
 
 RESOURCE ID: gotour_2025_event_pass_details_link
 TEXT: For more details, visit the <a href="https://gotour.pokemongolive.com/">website</a>.
@@ -1248,6 +1387,9 @@ TEXT: A ticket to access the Feeling Sheepish Premium Timed Research from Decemb
 RESOURCE ID: item_event_ticket_evergreen_desc_nye12302025
 TEXT: A ticket to access the New Year’s 2025 Premium Timed Research from December 30, 2024, at 10:00 a.m. to January 1, 2025, at 8:00 p.m. local time, wherever you are.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_stldrslv0125
+TEXT: A ticket to access the Steeled Resolve Premium Timed Research until January 26, 2025, at 11:59 p.m. local time, wherever you are.
+
 RESOURCE ID: item_event_ticket_evergreen_details_chargedembers1224
 TEXT: This ticket will automatically activate to give you access to the Charged Embers Hatch Day Timed Research on December 29, wherever you are.
 
@@ -1259,6 +1401,9 @@ TEXT: This ticket will automatically activate to give you access to the Feeling 
 
 RESOURCE ID: item_event_ticket_evergreen_details_nye12302025
 TEXT: This ticket will automatically activate to give you access to the New Year’s 2025 Premium Timed Research on December 30, 2024, wherever you are.
+
+RESOURCE ID: item_event_ticket_evergreen_details_stldrslv0125
+TEXT: This ticket will automatically activate to give you access to the Steeled Resolve Premium Timed Research on January 21, wherever you are.
 
 RESOURCE ID: item_event_ticket_gray_desc_febmonthly2025
 TEXT: A ticket for Eggs-pedition Access: February, which is active from February 1 at 10:00 a.m. to February 28, 2025, at 8:00 p.m. local time, wherever you are.
@@ -1314,6 +1459,9 @@ TEXT: A keepsake that strengthens bonds, allowing you to instantly become Lucky 
 RESOURCE ID: item_lucky_friend_applicator_name
 TEXT: Lucky Trinket
 
+RESOURCE ID: item_use_confirmation_on_friend
+TEXT: Use {0} on {1}?
+
 RESOURCE ID: jan_post_cd_timed_research_name
 TEXT: Sprigatito Community Day Continued Timed Research
 
@@ -1356,8 +1504,8 @@ TEXT: You have {0} minutes left to use your <b>Lucky Trinket</b>!
 RESOURCE ID: lucky_charm_notification_body_min_singular
 TEXT: You have 1 minute left to use your <b>Lucky Trinket</b>!
 
-RESOURCE ID: max_battle_day_gigantamax_kingler_event_name
-TEXT: Gigantamax Kingler Max Battle Day
+RESOURCE ID: lucky_friends_notification_details_from_charm
+TEXT: {0} and you became Lucky Friends with a Lucky Charm!
 
 RESOURCE ID: max_battle_day_gigantamax_lapras_event_name
 TEXT: Gigantamax Lapras Max Battle Day
@@ -1372,10 +1520,10 @@ RESOURCE ID: mega_gallade_raid_day_event_name
 TEXT: Raid Day: Mega Gallade
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-01-16T02:19:22.815461+00:00 for en-US
-at SHA ffef806cd30
-Pipeline 2911390, job 35875217
-Patch from: 0.343.98-SHA-7e75819c, 0.345.0-SHA-7b2f8be2-RC4
+TEXT: Built at 2025-01-18T01:09:05.286636+00:00 for en-US
+at SHA 4ee30548e58
+Pipeline 2921852, job 35986684
+Patch from: 0.345.0-SHA-deaf161f-RC1, 0.343.2-SHA-d26ffd7a-RC1
 
 RESOURCE ID: monochrome_holiday_collection_challenge_1
 TEXT: Holiday Part 2 Collection Challenge: Black
@@ -1398,11 +1546,27 @@ TEXT: Feeling Sheepish Premium Timed Research (2/2)
 RESOURCE ID: move_name_0465
 TEXT: Flower Trick
 
+RESOURCE ID: move_name_0466
+TEXT: Freeze Shock
+
+RESOURCE ID: move_name_0467
+TEXT: Ice Burn
+
+RESOURCE ID: move_required_to_enable_adventure_effect
+TEXT: {0} has not learned the Charged Move {1}, which is required to learn its Adventure Effect move after fusion.
+
+RESOURCE ID: move_required_to_enable_adventure_effect_question
+TEXT: Do you want to continue?
+
+RESOURCE ID: move_required_to_enable_adventure_effect_title
+TEXT: This fused Pokémon will not learn its Adventure Effect move
+
 RESOURCE ID: new_pokemon_fidough
 TEXT: Fidough appearing in the wild!
 
 RESOURCE ID: new_quests_available_time
-TEXT: <b>New Pass Tasks available in:</b> {0}
+TEXT: <b>New Pass Tasks available in:</b>
+{0}
 
 RESOURCE ID: next_rank_label
 TEXT: To next rank:
@@ -1476,7 +1640,7 @@ RESOURCE ID: pokemon_xl_candy_reward
 TEXT: {0} Candy XL
 
 RESOURCE ID: pokemon_xl_candy_reward_plural
-TEXT: {0} XL Candy
+TEXT: {0} Candy XL
 
 RESOURCE ID: post_cd_timed_research_name
 TEXT: Community Day Continued Timed Research
@@ -1488,37 +1652,41 @@ RESOURCE ID: premium_rewards
 TEXT: PREMIUM REWARDS
 
 RESOURCE ID: quest_blanche_type_catch
-TEXT: Catch 25 Ice- or Water-type Pokémon
+TEXT: Catch 25 Water- or Ice-type Pokémon
 
 RESOURCE ID: quest_branch_choose_black
 TEXT: Choose Black Version (Reshiram/Black Kyurem)
 
 RESOURCE ID: quest_branch_choose_black_desc
-TEXT: Select this option to recieve the GO Tour: Unova - Black Version badge, and for rewards and bonuses themed to Reshiram during your GO Tour: Unova adventure./nDuring GO Tour: Unova - Global, Kyurem caught from Black Kyurem Raids will be guaranteed to know the move Glaciate./nAdditionally, you will have a chance to extend the duration of the Adventure Effect for the move Freeze Shock via Tour Pass.
+TEXT: Select this option to receive the Black Version (Reshiram) badge and Reshiram-themed rewards and bonuses during your GO Tour: Unova adventure.
+
+During GO Tour: Unova – Global, Kyurem caught from Black Kyurem raids will know the Charged Attack Glaciate.
+
+Additionally, you’ll have the opportunity to extend the duration of Freeze Shock’s Adventure Effect during the event by progressing through the Tour Pass!
 
 RESOURCE ID: quest_branch_choose_oshawott
 TEXT: Choose Oshawott
 
 RESOURCE ID: quest_branch_choose_oshawott_bg_desc
-TEXT: Select this path for two encounters with Oshawott, the Sea Otter Pokémon, featuring exclusive GO Tour: Unova Special Backgrounds
+TEXT: Select this path for two encounters with Oshawott that have an exclusive GO Tour: Unova Special Background.
 
 RESOURCE ID: quest_branch_choose_oshawott_desc
-TEXT: Select this path for an additional encounter with Oshawott, the Sea Otter Pokémon, and an increased chance of encountering Oshawott from Incense
+TEXT: Select this path for an additional encounter with Oshawott, the Sea Otter Pokémon, and an increased chance of attracting Oshawott with Incense.
 
 RESOURCE ID: quest_branch_choose_oshawott_desc_irl
-TEXT: Select this path for an additional encounter with Oshawott, the Sea Otter Pokémon, and additional Oshawott-themed rewards from Special Research
+TEXT: Select this path for an additional encounter with Oshawott, the Sea Otter Pokémon, and additional Oshawott-themed rewards from Special Research.
 
 RESOURCE ID: quest_branch_choose_snivy
 TEXT: Choose Snivy
 
 RESOURCE ID: quest_branch_choose_snivy_bg_desc
-TEXT: Select this path for two encounters with Snivy, the Grass Snake Pokémon, featuring exclusive GO Tour: Unova Special Backgrounds
+TEXT: Select this path for two encounters with Snivy that have an exclusive GO Tour: Unova Special Background.
 
 RESOURCE ID: quest_branch_choose_snivy_desc
-TEXT: Select this path for an additional encounter with Snivy, the Grass Snake Pokémon, and an increased chance of encountering Snivy from Incense
+TEXT: Select this path for an additional encounter with Snivy, the Grass Snake Pokémon, and an increased chance of attracting Snivy with Incense.
 
 RESOURCE ID: quest_branch_choose_snivy_desc_irl
-TEXT: Select this path for an additional encounter with Snivy, the Grass Snake Pokémon, and additional Snivy-themed rewards from Special Research
+TEXT: Select this path for an additional encounter with Snivy, the Grass Snake Pokémon, and additional Snivy-themed rewards from Special Research.
 
 RESOURCE ID: quest_branch_choose_starter_prompt
 TEXT: Choose a First Partner Pokémon
@@ -1527,19 +1695,23 @@ RESOURCE ID: quest_branch_choose_tepig
 TEXT: Choose Tepig
 
 RESOURCE ID: quest_branch_choose_tepig_bg_desc
-TEXT: Select this path for two encounters with Tepig, the Fire Pokémon, featuring exclusive GO Tour: Unova Special Backgrounds
+TEXT: Select this path for two encounters with Tepig that have an exclusive GO Tour: Unova Special Background.
 
 RESOURCE ID: quest_branch_choose_tepig_desc
-TEXT: Select this path for an additional encounter with Tepig, the Fire Pig Pokémon, and an increased chance of encountering Tepig from Incense
+TEXT: Select this path for an additional encounter with Tepig, the Fire Pig Pokémon, and an increased chance of attracting Tepig with Incense.
 
 RESOURCE ID: quest_branch_choose_tepig_desc_irl
-TEXT: Select this path for an additional encounter with Tepig, the Fire Pig Pokémon, and additional Tepig-themed rewards from Special Research
+TEXT: Select this path for an additional encounter with Tepig, the Fire Pig Pokémon, and additional Tepig-themed rewards from Special Research.
 
 RESOURCE ID: quest_branch_choose_white
 TEXT: Choose White Version (Zekrom/White Kyurem)
 
 RESOURCE ID: quest_branch_choose_white_desc
-TEXT: Select this option to recieve the GO Tour: Unova - White Version badge, and for rewards and bonuses themed to Zekrom during your GO Tour: Unova adventure./nDuring GO Tour: Unova - Global, Kyurem caught from White Kyurem Raids will be guaranteed to know the move Glaciate./nAdditionally, you will have a chance to extend the duration of the Adventure Effect for the move Ice Burn via the Tour Pass.
+TEXT: Select this option to receive the White Version (Zekrom) badge and Zekrom-themed rewards and bonuses during your GO Tour: Unova adventure.
+
+During GO Tour: Unova – Global, Kyurem caught from White Kyurem raids will know the Charged Attack Glaciate.
+
+Additionally, you’ll have the opportunity to extend the duration of Ice Burn’s Adventure Effect during the event by progressing through the Tour Pass!
 
 RESOURCE ID: quest_candela_type_catch
 TEXT: Catch 25 Fire- or Fighting-type Pokémon
@@ -1575,7 +1747,7 @@ RESOURCE ID: quest_catch_pokemon_unova
 TEXT: Catch {0} Pokémon originally discovered in the Unova Region
 
 RESOURCE ID: quest_catch_pokemon_unova_singular
-TEXT: Catch a Pokémon originally discovered in the Unova Region
+TEXT: Catch a Pokémon originally discovered in the Unova region
 
 RESOURCE ID: quest_catch_pokemon_unova_unique
 TEXT: Catch {0} different species of Pokémon originally discovered in the Unova Region
@@ -1605,13 +1777,13 @@ RESOURCE ID: quest_event_eevee_snapshot_milan
 TEXT: Take a Snapshot of your Eevee in Milan
 
 RESOURCE ID: quest_event_eevee_snapshot_mumbai
-TEXT: Take a Snapshot of your Eevee in Mumbai
+TEXT: Take a snapshot of your Eevee in Mumbai
 
 RESOURCE ID: quest_event_eevee_snapshot_santiago
-TEXT: Take a Snapshot of your Eevee in Santiago
+TEXT: Take a snapshot of your Eevee in Santiago
 
 RESOURCE ID: quest_event_eevee_snapshot_singapore
-TEXT: Take a Snapshot of your Eevee in Singapore
+TEXT: Take a snapshot of your Eevee in Singapore
 
 RESOURCE ID: quest_event_spin_milan
 TEXT: Spin a PokéStop or Gym in Milan
@@ -1626,16 +1798,16 @@ RESOURCE ID: quest_event_spin_singapore
 TEXT: Spin a PokéStop or Gym in Singapore
 
 RESOURCE ID: quest_evolve_oshawott_singular_posessive
-TEXT: Evolve your Oshawott
+TEXT: Evolve an Oshawott
 
 RESOURCE ID: quest_evolve_snivy_singular_posessive
-TEXT: Evolve your Snivy
+TEXT: Evolve a Snivy
 
 RESOURCE ID: quest_evolve_tepig_singular_posessive
-TEXT: Evolve your Tepig
+TEXT: Evolve a Tepig
 
 RESOURCE ID: quest_fuse_pokemon_kyurem
-TEXT: Fuse a Kyurem
+TEXT: Fuse Kyurem
 
 RESOURCE ID: quest_go_tour_25_scavenger_hunt_cryoganol
 TEXT: Find and spin the PokéStop that has an image of a Pokémon that captures prey with chains of ice
@@ -1674,13 +1846,13 @@ RESOURCE ID: quest_go_tour_25_scavenger_hunt_yamask
 TEXT: Find and spin the PokéStop that has an image of the Pokémon that evolves into Cofagrigus
 
 RESOURCE ID: quest_medal_gen5_gold
-TEXT: Earn the Gold Unova Medal
+TEXT: Earn the gold Unova medal
 
 RESOURCE ID: quest_medal_idol_platinum
-TEXT: Earn the Platinum Idol Medal
+TEXT: Earn the platinum Idol medal
 
 RESOURCE ID: quest_medal_showcase_star_bronze
-TEXT: Earn the Bronze Showcase Star Medal
+TEXT: Earn the bronze Showcase Star medal
 
 RESOURCE ID: quest_power_up_bug_grass
 TEXT: Power up Grass or Bug-type Pokémon 5 times
@@ -1823,6 +1995,75 @@ TEXT: It’s electrifying, right? Like we’re incubating a mysterious Egg. Who 
 RESOURCE ID: quest_title_season_17_dectr_3_spark_dialogue_4
 TEXT: I’m jazzed to share our findings with Professor Willow and the others. See ya later, %PLAYERNAME%!
 
+RESOURCE ID: quest_title_season_17_jantr_1_dialogue_1
+TEXT: We’ve got a fresh lead, %PLAYERNAME%!
+
+RESOURCE ID: quest_title_season_17_jantr_1_dialogue_2
+TEXT: The latest intel suggests that Cliff has been training like there’s no tomorrow, and supposedly he’s got a new strategy: all-out attack.
+
+RESOURCE ID: quest_title_season_17_jantr_1_dialogue_3
+TEXT: Meanwhile, Blanche has had a research breakthrough and wants to cultivate the abilities of Pokémon with potent defense.
+
+RESOURCE ID: quest_title_season_17_jantr_1_dialogue_4
+TEXT: Attack and defense, opposite but complementary—just like last time. I bet we can learn more about this duality if we dig in a bit.
+
+RESOURCE ID: quest_title_season_17_jantr_1_dialogue_5
+TEXT: On that note, let’s hear it—which of their strategies do you want to investigate further?
+
+RESOURCE ID: quest_title_season_17_jantr_2_blanche_dialogue_1
+TEXT: Greetings, %PLAYERNAME%. Your assistance will be most welcome.
+
+RESOURCE ID: quest_title_season_17_jantr_2_blanche_dialogue_2
+TEXT: My research has led me to one conclusion: obvious though it may seem, the surest way to win a battle is to never lose it.
+
+RESOURCE ID: quest_title_season_17_jantr_2_blanche_dialogue_3
+TEXT: In other words, if your Pokémon never faints, victory is the only possible outcome.
+
+RESOURCE ID: quest_title_season_17_jantr_2_blanche_dialogue_4
+TEXT: Lapras and I have begun testing several methodologies that maximize its defense potential. Would you and your Pokémon partners like to join us?
+
+RESOURCE ID: quest_title_season_17_jantr_2_cliff_dialogue_1
+TEXT: Hey, watch where you’re standing! I’m training here!
+
+RESOURCE ID: quest_title_season_17_jantr_2_cliff_dialogue_2
+TEXT: The full-power attacks I’m working on will make Team GO Rocket unstoppable. What with that look? Don’t believe it?
+
+RESOURCE ID: quest_title_season_17_jantr_2_cliff_dialogue_3
+TEXT: It’s easy. You get your Pokémon to hit so hard that their opponents never even get a CHANCE to hit back!
+
+RESOURCE ID: quest_title_season_17_jantr_2_cliff_dialogue_4
+TEXT: Hmph, not that it matters for you. I doubt a weakling like you could ever get your Pokémon to pull an attack like that off.
+
+RESOURCE ID: quest_title_season_17_jantr_2_cliff_dialogue_5
+TEXT: And that means if you’re hanging around here, you’re holding me back. So beat it!
+
+RESOURCE ID: quest_title_season_17_jantr_3_blanche_dialogue_1
+TEXT: Congratulations on a job well done.
+
+RESOURCE ID: quest_title_season_17_jantr_3_blanche_dialogue_2
+TEXT: My analysis of recent battles has disproven my previous theory—though the fault does not lie with you.
+
+RESOURCE ID: quest_title_season_17_jantr_3_blanche_dialogue_3
+TEXT: I had Lapras so focused on defense that I neglected to give it opportunities to attack.
+
+RESOURCE ID: quest_title_season_17_jantr_3_blanche_dialogue_4
+TEXT: I fear I’ve stymied its growth. The logical next step is to provide Berries, praise, and—critically—a more well-rounded training regimen.
+
+RESOURCE ID: quest_title_season_17_jantr_3_blanche_dialogue_5
+TEXT: Further work can wait until after we rest, though. %PLAYERNAME%, if you’ve taught me anything today, it’s the importance of a balanced approach.
+
+RESOURCE ID: quest_title_season_17_jantr_3_cliff_dialogue_1
+TEXT: Hrm. Strength reigns supreme, but something’s still missing!
+
+RESOURCE ID: quest_title_season_17_jantr_3_cliff_dialogue_2
+TEXT: The problem with only focusing on attacks is that it makes you let your guard down.
+
+RESOURCE ID: quest_title_season_17_jantr_3_cliff_dialogue_3
+TEXT: Maybe the boss would prefer it if I used offense AND defense...
+
+RESOURCE ID: quest_title_season_17_jantr_3_cliff_dialogue_4
+TEXT: This won’t stop me, though! I’ll master the power of balance for Team GO Rocket, no matter what it takes!
+
 RESOURCE ID: quest_title_sprigatito
 TEXT: Meowgical Occasion
 
@@ -1839,7 +2080,7 @@ RESOURCE ID: quest_title_sprigatito_3
 TEXT: Meowgical Occasion (4/4)
 
 RESOURCE ID: quest_win_raid_5_plural
-TEXT: Win {0} five-star or higher raids
+TEXT: Win {0} five-star raids or higher
 
 RESOURCE ID: quest_win_raid_5_singular
 TEXT: Win a five-star or higher raid
@@ -1847,8 +2088,14 @@ TEXT: Win a five-star or higher raid
 RESOURCE ID: quests_pass_batch_updated
 TEXT: {0} Pass Tasks Updated
 
+RESOURCE ID: quests_pass_multiple_task_available
+TEXT: New Event Pass Tasks!
+
 RESOURCE ID: quests_pass_rank_up
 TEXT: Rank up!
+
+RESOURCE ID: quests_pass_task_available
+TEXT: New Event Pass Task!
 
 RESOURCE ID: raid_attendance_onboarding_message
 TEXT: When you’re in a nearby raid, friends will be able to join it directly from their Friend List!
@@ -1929,7 +2176,7 @@ RESOURCE ID: steeled_resolve_event_name
 TEXT: Steeled Resolve
 
 RESOURCE ID: steeled_resolve_tr_name
-TEXT: Steeled Resolve Timed Research
+TEXT: Steeled Resolve Premium Timed Research
 
 RESOURCE ID: steeled_resolve_tr_name_1
 TEXT: Steeled Resolve Timed Research (1/3)
@@ -2036,6 +2283,13 @@ TEXT: <b>Included bonuses:</b>
 • Increased chance to receive Rare Candy XL from raids
 • 50% more XP and 2× Stardust for successfully completing raids
 
+RESOURCE ID: text_rewards_key_stldrslv0125
+TEXT: <b>Included rewards:</b>
+• Encounters with Rookidee, Galarian Weezing, Azumarill, Jumpluff, Sneasel, Diggersby, Pancham, Inkay, and Clodsire
+• 1 Elite Charged TM
+• 20,000 Stardust
+• 5,000 XP
+
 RESOURCE ID: ticket_dec2024
 TEXT: Ticket for the December Community Day Special Research available in the shop
 
@@ -2073,7 +2327,7 @@ RESOURCE ID: title_event_pass_daily_bonus_quest
 TEXT: Daily Quests
 
 RESOURCE ID: title_event_pass_daily_bonus_quest_premium
-TEXT: Daily Quests - Premium
+TEXT: Daily Tasks – Premium
 
 RESOURCE ID: title_event_pass_hourly_bonus_quest
 TEXT: Hourly Quests

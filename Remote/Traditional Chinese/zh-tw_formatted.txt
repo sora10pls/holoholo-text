@@ -479,7 +479,7 @@ RESOURCE ID: bonus_3x_catch_xp
 TEXT: 捕獲寶可夢時的XP增為3倍
 
 RESOURCE ID: bonus_black_version_glaciate
-TEXT: Kyurem caught from Black Kyurem Raids are guaranteed to know the Charged Move Glaciate
+TEXT: Kyurem caught from Black Kyurem raids will know the Charged Attack Glaciate
 
 RESOURCE ID: bonus_cd_move_sprigatito
 TEXT: 讓蒂蕾喵進化成魔幻假面喵，牠就能學會特殊招式「瘋狂植物」！
@@ -488,7 +488,7 @@ RESOURCE ID: bonus_cdc_move_ralts
 TEXT: 讓奇魯莉安進化成沙奈朵或艾路雷朵，牠將能學會特殊招式「同步干擾」
 
 RESOURCE ID: bonus_daily_pass_tasks
-TEXT: Daily Bonus Tasks available awarding additional GO Tour Pass Points
+TEXT: Bonus daily Pass Tasks awarding additional Tour Points
 
 RESOURCE ID: bonus_deerling_spawn_notice
 TEXT: 四季鹿出現在地圖上！
@@ -512,10 +512,10 @@ RESOURCE ID: bonus_go_tour_2025_photobomb
 TEXT: 換上服飾的皮卡丘將在GO Snapshot中驚喜現身（最多12次）
 
 RESOURCE ID: bonus_go_tour_2025_stickers
-TEXT: GO Tour: Unova Stickers available from Gifts and POI Spins
+TEXT: GO Tour: Unova–themed stickers available from Gifts and spinning PokéStops or Gyms
 
 RESOURCE ID: bonus_hourly_pass_tasks
-TEXT: Hourly Bonus Tasks available awarding additional GO Tour Pass Points
+TEXT: Bonus hourly Pass Tasks awarding additional Tour Points
 
 RESOURCE ID: bonus_mp_cap_5600
 TEXT: 透過能量點和探索最多可收集5600極巨粒子
@@ -529,6 +529,9 @@ TEXT: 完成小隊挑戰後可能會遇見投摔鬼、打擊鬼、熔蟻獸或�
 RESOURCE ID: bonus_photobomb_unova_pikachu
 TEXT: 戴著鬥也帽子、鬥子帽子、共平遮陽帽或鳴依遮陽帽的皮卡丘將每天在GO Snapshot中驚喜現身
 
+RESOURCE ID: bonus_remote_shadow_raids
+TEXT: 遠距團體戰入場券可用來參加暗影團體戰。
+
 RESOURCE ID: bonus_routes_basculin_red_blue
 TEXT: 遊玩路線時，遇見野蠻鱸魚（紅條紋的樣子）和野蠻鱸魚（藍條紋的樣子）的機率提高
 
@@ -536,10 +539,10 @@ RESOURCE ID: bonus_routes_encounter_basculin
 TEXT: 遊玩路線時可能會出現野蠻鱸魚
 
 RESOURCE ID: bonus_special_background_t5_raid
-TEXT: Special Backgrounds available for Pokemon caught from T5 Raids
+TEXT: Pokémon caught from five-star raids may have a Special Background
 
 RESOURCE ID: bonus_white_version_glaciate
-TEXT: Kyurem caught from White Kyurem Raids are guaranteed to know the Charged Move Glaciate
+TEXT: Kyurem caught from White Kyurem raids will know the Charged Attack Glaciate
 
 RESOURCE ID: branch_aspiring_dragons_rd_dec24_horsea_button_text_key
 TEXT: 墨海馬
@@ -582,6 +585,24 @@ TEXT: 如果選擇這個分歧，你將能執行偵察任務來追蹤希爾拉�
 
 RESOURCE ID: branch_holiday_pt_1_dec24_spark_description_key
 TEXT: 如果選擇這個分歧，你將能協助史帕克的調查。
+
+RESOURCE ID: branch_steeled_resolve_jan25_blanche_button_text_key
+TEXT: 布蘭雪
+
+RESOURCE ID: branch_steeled_resolve_jan25_blanche_description_key
+TEXT: 如果選擇這個分歧，你將能與布蘭雪一起調查有關防禦的戰略。
+
+RESOURCE ID: branch_steeled_resolve_jan25_blanche_title_key
+TEXT: 布蘭雪
+
+RESOURCE ID: branch_steeled_resolve_jan25_cliff_button_text_key
+TEXT: 克里夫
+
+RESOURCE ID: branch_steeled_resolve_jan25_cliff_description_key
+TEXT: 如果選擇這個分歧，你將能與克里夫一起調查攻擊導向的戰略。
+
+RESOURCE ID: branch_steeled_resolve_jan25_cliff_title_key
+TEXT: 克里夫
 
 RESOURCE ID: bread_battle_tutorial_description_3
 TEXT: 點擊或滑動畫面可以讓能量條累積得更快。
@@ -696,13 +717,13 @@ RESOURCE ID: ejection_weak_connection_modal_title
 TEXT: 網路錯誤
 
 RESOURCE ID: error_lucky_charm_already_lucky
-TEXT: You’re already Lucky Friends with this person.
+TEXT: 與此訓練家已是亮晶晶好朋友
 
 RESOURCE ID: error_lucky_charm_disabled
-TEXT: This Trainer is not accepting Lucky Trinkets right now.
+TEXT: 此訓練家現在不接受別人送亮晶晶首飾
 
 RESOURCE ID: error_lucky_charm_level_too_low
-TEXT: You must be at least Great Friends to use a Lucky Trinket.
+TEXT: 需為給力好朋友以上才可使用亮晶晶首飾
 
 RESOURCE ID: event_datetime_range_key_cd_recap2024
 TEXT: 12月21日9:00～
@@ -750,8 +771,18 @@ TEXT: 12月30日10:00～
 RESOURCE ID: event_datetime_range_key_shadowhoohraidday
 TEXT: 1月19日14:00～17:00
 
-RESOURCE ID: event_duration
-TEXT: 2月24日～3月2日
+RESOURCE ID: event_datetime_range_key_stldrslv0125
+TEXT: 1月21日10:00～
+1月26日23:59
+
+RESOURCE ID: event_pass_additional_bonus_rank_divider_desc
+TEXT: You can continue earning rewards. Let's see how far you can get!
+
+RESOURCE ID: event_pass_additional_bonus_rank_divider_header
+TEXT: BONUS RANKS
+
+RESOURCE ID: event_pass_additional_bonus_rank_divider_title
+TEXT: You've completed the Tour Pass!
 
 RESOURCE ID: event_pass_button
 TEXT: 選擇豪華版
@@ -794,11 +825,20 @@ TEXT: {0} Rank {1} achieved.
 RESOURCE ID: event_pass_reward_journal
 TEXT: {0} Rank {1} reward claimed.
 
+RESOURCE ID: event_pass_reward_preview_new_item_indicator
+TEXT: NEW ITEM!
+
+RESOURCE ID: event_pass_reward_preview_upsell_description
+TEXT: This reward is available in Tour Pass Deluxe.
+
 RESOURCE ID: event_pass_rewards_journal
 TEXT: {0} Rewards claimed.
 
 RESOURCE ID: event_pass_rewards_to_claim
 TEXT: 可領取的獎勵（{0}）
+
+RESOURCE ID: event_pass_upgrade
+TEXT: Upgrade
 
 RESOURCE ID: experience_points
 TEXT: XP
@@ -869,8 +909,14 @@ TEXT: Freeze Shock paralyzes Pokémon, causing them to be frozen in place during
 RESOURCE ID: freeze_shock_move_content
 TEXT: Casts electrically charged ice for {0} minutes, paralyzing Pokémon during encounters.
 
+RESOURCE ID: fusion_resource_black_kyurem_desc
+TEXT: Volt Fusion Energy
+
 RESOURCE ID: fusion_resource_black_kyurem_name
 TEXT: 電壓能量
+
+RESOURCE ID: fusion_resource_white_kyurem_desc
+TEXT: Blaze Fusion Energy
 
 RESOURCE ID: fusion_resource_white_kyurem_name
 TEXT: 火焰能量
@@ -924,6 +970,9 @@ TEXT: 夢見綿羊寶可夢特級限時調查入場券
 
 RESOURCE ID: general1.ticket._nye12302025_title
 TEXT: 新年2025特級限時調查入場券
+
+RESOURCE ID: general1.ticket._stldrslv0125_title
+TEXT: 鋼之決心特級限時調查入場券
 
 RESOURCE ID: general1.ticket_cd_recap2024_title
 TEXT: 12月社群日入場券
@@ -1009,8 +1058,95 @@ TEXT: 9級獎勵
 RESOURCE ID: gmax_lapras_max_battles
 TEXT: 超極巨化的拉普拉斯在極巨對戰中出現了
 
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_00
+TEXT: Hey %PLAYERNAME%! I was just reflecting on our incredible journey together.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_01
+TEXT: We've faced some extraordinary challenges side by side, from encountering gigantic Pokémon to thwarting Team GO Rocket's sinister plans time and time again.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_02
+TEXT: Our research together has introduced us to Pokémon from many regions, leading to amazing discoveries and friendships that have helped shape how we see the world.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_03
+TEXT: Speaking of discoveries, I have noticed some unusual sounds lately.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_04
+TEXT: While I investigate I need you to continue your excellent fieldwork. Every Pokémon you encounter helps us understand our world a little better!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_01_00
+TEXT: Incredible news, %PLAYERNAME%!  I've made a breakthrough with those mysterious vocalizations I was studying.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_01_01
+TEXT: Just as I suspected, these aren’t ordinary sound waves but the unique melodies of the Mythical Pokémon Meloetta!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_01_02
+TEXT: Meloetta uses song to influence the emotions of both people and Pokémon. I need you to keep exploring and see if you can spot any unusual behavior in local Pokémon.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_01_03
+TEXT: It's not every day you get to study a Mythical Pokémon, %PLAYERNAME%, so let's make the most of it!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_02_00
+TEXT: Ah, %PLAYERNAME%! We haven't found Meloetta yet but I can still hear that special vocalization.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_02_01
+TEXT: Our musical friend can't be too far so we may need to think creatively.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_02_02
+TEXT: Why don't you try singing and dancing to see if that has an affect on the people and Pokemon around you?
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_02_03
+TEXT: If you practice enough you may become Meloetta's next opening act!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_03_00
+TEXT: Did you know many famous songs have been inspired by the melodies that Meloetta plays?
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_03_01
+TEXT: Music can truly help to create special bonds with one another.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_03_02
+TEXT: It reminds me of you and your amazing ability to connect with both people and Pokémon. Every new Pokémon you catch or trainer you meet is another potential friend!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_03_03
+TEXT: Get out there and see what wonderful friendships await you, %PLAYERNAME%!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_04_00
+TEXT: %PLAYERNAME%, I just made a fascinating observation about our musical friend Meloetta. Did you know that this Mythical Pokémon was first discovered in the Unova region?
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_04_01
+TEXT: Whether it's coincidence or not, we must explore all avenues of research! Every task will help us understand Meloetta's patterns better.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_04_02
+TEXT: Watch for Pokémon experiencing strong emotions, explore new areas, and make some musical connections of your own.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_04_03
+TEXT: Keep that research rhythm going, %PLAYERNAME%!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_05_00
+TEXT: %PLAYERNAME%, this is the moment we've been waiting for!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_05_01
+TEXT: Thanks to your dedicated fieldwork we've finally pinpointed its location. Its melodious voice is resonating from nearby.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_05_02
+TEXT: This could be your moment to befriend this extraordinary Pokémon. It's sure to be a grand performance!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_05_03
+TEXT: Head out there now, %PLAYERNAME%, and show Meloetta the same kindness and dedication you've shown to all your Pokémon friends.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_06_00
+TEXT: %PLAYERNAME%, you've done it! And what a remarkable sight!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_06_01
+TEXT: This Meloetta has such a striking appearance. Its distinctive coloring is unlike anything in my research notes…truly extraordinary!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_06_02
+TEXT: Seeing your journey from your first days as a trainer to now catching such a special Pokemon, well, it makes me incredibly proud to call you my research partner and friend!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_06_03
+TEXT: Keep that Meloetta singing proudly %PLAYERNAME%! You've hit all the right notes!
+
 RESOURCE ID: go_tour_2025_today_view_extended_hours
-TEXT: GO Tour: Unova - Extended Bonuses
+TEXT: GO Tour: Unova – Extended Bonuses
 
 RESOURCE ID: go_tour_ep_bonus_title
 TEXT: Tour Pass Bonuses
@@ -1025,7 +1161,7 @@ RESOURCE ID: go_tour_ep_bonus_title_02
 TEXT: Tier 3 Tour Pass Bonuses
 
 RESOURCE ID: go_tour_event_pass_availability
-TEXT: Event-exclusive GO Tour Pass now available
+TEXT: The event Tour Pass is available now
 
 RESOURCE ID: gotour2025_welcome
 TEXT: Pokémon GO Tour: Unova
@@ -1037,13 +1173,13 @@ RESOURCE ID: gotour2025_welcome_banner_ntc
 TEXT: 歡迎來到Pokémon GO Tour：合眾地區 — New Taipei City！
 
 RESOURCE ID: gotour2025_welcome_global
-TEXT: Welcome to Pokémon GO Tour: Unova - Global!
+TEXT: Welcome to Pokémon GO Tour: Unova – Global!
 
 RESOURCE ID: gotour2025_welcome_irl_la
-TEXT: Welcome to Pokémon GO Tour: Unova - Los Angeles!
+TEXT: Welcome to Pokémon GO Tour: Unova – Los Angeles!
 
 RESOURCE ID: gotour2025_welcome_irl_ntc
-TEXT: Welcome to Pokémon GO Tour: Unova - New Taipei City!
+TEXT: Welcome to Pokémon GO Tour: Unova – New Taipei City!
 
 RESOURCE ID: gotour_2025_base_track_title
 TEXT: Tour入場券
@@ -1059,6 +1195,9 @@ TEXT: Tour Pass Deluxe + 10 Ranks
 
 RESOURCE ID: gotour_2025_deluxe_event_pass_track_unlock_title
 TEXT: Tour Pass Deluxe
+
+RESOURCE ID: gotour_2025_event_duration
+TEXT: 2月24日～3月2日
 
 RESOURCE ID: gotour_2025_event_pass_details_link
 TEXT: 詳情請至<a href="https://gotour.pokemongolive.com/">網站</a>確認
@@ -1249,6 +1388,9 @@ TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時�
 RESOURCE ID: item_event_ticket_evergreen_desc_nye12302025
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年12月30日10:00～1月1日20:00參加新年2025特級限時調查。
 
+RESOURCE ID: item_event_ticket_evergreen_desc_stldrslv0125
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年1月26日23:59前參與鋼之決心特級限時調查。
+
 RESOURCE ID: item_event_ticket_evergreen_details_chargedembers1224
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在12月29日開始參與火焰與放電孵化日限時調查。
 
@@ -1260,6 +1402,9 @@ TEXT: 入場券將會自動啟用，不論你身在何處，都能在12月22日�
 
 RESOURCE ID: item_event_ticket_evergreen_details_nye12302025
 TEXT: 入場券將會自動啟動。不論你身在何處，都可以在當地時間12月30日開始參與新年2025特級限時調查。
+
+RESOURCE ID: item_event_ticket_evergreen_details_stldrslv0125
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在1月21日開始參與鋼之決心特級限時調查。
 
 RESOURCE ID: item_event_ticket_gray_desc_febmonthly2025
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年2月1日10:00～2月28日20:00領取「孵蛋證：2月」。
@@ -1310,10 +1455,13 @@ RESOURCE ID: item_event_ticket_pink_details_cdc_ralts25
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間1月25日參與拉魯拉絲經典社群日特殊調查。
 
 RESOURCE ID: item_lucky_friend_applicator_desc
-TEXT: A keepsake that strengthens bonds, allowing you to instantly become Lucky Friends with someone if you’re Great Friends or higher.
+TEXT: 若為「給力好朋友」以上的朋友，即可立刻變成亮晶晶好朋友的首飾。
 
 RESOURCE ID: item_lucky_friend_applicator_name
-TEXT: Lucky Trinket
+TEXT: 亮晶晶首飾
+
+RESOURCE ID: item_use_confirmation_on_friend
+TEXT: Use {0} on {1}?
 
 RESOURCE ID: jan_post_cd_timed_research_name
 TEXT: 新葉喵社群日加長版限時調查
@@ -1340,28 +1488,28 @@ RESOURCE ID: limited_localization_progress_hint_1
 TEXT: 沿著閃閃發光的指示靠近地標
 
 RESOURCE ID: lucky_charm_ftue_body
-TEXT: This allows you to instantly become Lucky Friends with someone if you’re Great Friends or higher!
+TEXT: 使用這個能讓你與給力好朋友以上的朋友加深牽絆，變成亮晶晶好朋友。
 
 RESOURCE ID: lucky_charm_ftue_title
-TEXT: You got a Lucky Trinket!
+TEXT: 獲得了亮晶晶首飾！
 
 RESOURCE ID: lucky_charm_notification_body_hour_plural_min_plural
-TEXT: You have {0} hours and {1} minutes left to use your <b>Lucky Trinket</b>!
+TEXT: 能使用<b>亮晶晶首飾</b>的時間還剩{0}小時{1}分
 
 RESOURCE ID: lucky_charm_notification_body_hour_plural_min_singular
-TEXT: You have {0} hours and 1 minute left to use your <b>Lucky Trinket</b>!
+TEXT: 能使用<b>亮晶晶首飾</b>的時間還剩{0}小時1分
 
 RESOURCE ID: lucky_charm_notification_body_hour_singular_min_plural
-TEXT: You have 1 hour and {0} minutes left to use your <b>Lucky Trinket</b>!
+TEXT: 能使用<b>亮晶晶首飾</b>的時間還剩1小時{0}分
 
 RESOURCE ID: lucky_charm_notification_body_min_plural
-TEXT: You have {0} minutes left to use your <b>Lucky Trinket</b>!
+TEXT: 能使用<b>亮晶晶首飾</b>的時間還剩{0}分
 
 RESOURCE ID: lucky_charm_notification_body_min_singular
-TEXT: You have 1 minute left to use your <b>Lucky Trinket</b>!
+TEXT: 能使用<b>亮晶晶首飾</b>的時間還剩1小時
 
-RESOURCE ID: max_battle_day_gigantamax_kingler_event_name
-TEXT: 巨鉗蟹極巨對戰日
+RESOURCE ID: lucky_friends_notification_details_from_charm
+TEXT: {0} and you became Lucky Friends with a Lucky Charm!
 
 RESOURCE ID: max_battle_day_gigantamax_lapras_event_name
 TEXT: 拉普拉斯（超極巨化）極巨對戰日
@@ -1376,10 +1524,10 @@ RESOURCE ID: mega_gallade_raid_day_event_name
 TEXT: 團體戰日：超級艾路雷朵
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-01-16T02:19:22.815461+00:00 for zh-TW
-at SHA ffef806cd30
-Pipeline 2911390, job 35875217
-Patch from: 0.343.98-SHA-7e75819c, 0.345.0-SHA-7b2f8be2-RC4
+TEXT: Built at 2025-01-18T01:09:05.286636+00:00 for zh-TW
+at SHA 4ee30548e58
+Pipeline 2921852, job 35986684
+Patch from: 0.345.0-SHA-deaf161f-RC1, 0.343.2-SHA-d26ffd7a-RC1
 
 RESOURCE ID: monochrome_holiday_collection_challenge_1
 TEXT: 佳節Part 2收藏家挑戰：黑
@@ -1402,11 +1550,27 @@ TEXT: 夢見綿羊寶可夢特級限時調查(2/2)
 RESOURCE ID: move_name_0465
 TEXT: 千變萬花
 
+RESOURCE ID: move_name_0466
+TEXT: 冰凍伏特
+
+RESOURCE ID: move_name_0467
+TEXT: 極寒冷焰
+
+RESOURCE ID: move_required_to_enable_adventure_effect
+TEXT: {0} has not learned the Charged Move {1}, which is required to learn its Adventure Effect move after fusion.
+
+RESOURCE ID: move_required_to_enable_adventure_effect_question
+TEXT: Do you want to continue?
+
+RESOURCE ID: move_required_to_enable_adventure_effect_title
+TEXT: This fused Pokémon will not learn its Adventure Effect move
+
 RESOURCE ID: new_pokemon_fidough
 TEXT: 狗仔包出現在地圖上
 
 RESOURCE ID: new_quests_available_time
-TEXT: <b>距離獲得新的入場券課題還剩：</b>{0}
+TEXT: <b>距離獲得新的入場券課題還剩：</b>
+{0}
 
 RESOURCE ID: next_rank_label
 TEXT: 距離下一級還剩：
@@ -1462,13 +1626,13 @@ TEXT: Weak
 To
 
 RESOURCE ID: pokedex_info_variant_mega_primal
-TEXT: PRIMAL
+TEXT: 原始
 
 RESOURCE ID: pokedex_info_variant_mega_x
-TEXT: MEGA X
+TEXT: 超級X
 
 RESOURCE ID: pokedex_info_variant_mega_y
-TEXT: MEGA Y
+TEXT: 超級Y
 
 RESOURCE ID: pokedex_page_registered
 TEXT: 最新登錄
@@ -1483,7 +1647,7 @@ RESOURCE ID: pokemon_xl_candy_reward
 TEXT: {0}個糖果XL
 
 RESOURCE ID: pokemon_xl_candy_reward_plural
-TEXT: {0} XL Candy
+TEXT: {0} Candy XL
 
 RESOURCE ID: post_cd_timed_research_name
 TEXT: 社群日加長版限時調查
@@ -1495,37 +1659,41 @@ RESOURCE ID: premium_rewards
 TEXT: 特級獎勵
 
 RESOURCE ID: quest_blanche_type_catch
-TEXT: Catch 25 Ice- or Water-type Pokémon
+TEXT: Catch 25 Water- or Ice-type Pokémon
 
 RESOURCE ID: quest_branch_choose_black
 TEXT: Choose Black Version (Reshiram/Black Kyurem)
 
 RESOURCE ID: quest_branch_choose_black_desc
-TEXT: Select this option to recieve the GO Tour: Unova - Black Version badge, and for rewards and bonuses themed to Reshiram during your GO Tour: Unova adventure./nDuring GO Tour: Unova - Global, Kyurem caught from Black Kyurem Raids will be guaranteed to know the move Glaciate./nAdditionally, you will have a chance to extend the duration of the Adventure Effect for the move Freeze Shock via Tour Pass.
+TEXT: Select this option to receive the Black Version (Reshiram) badge and Reshiram-themed rewards and bonuses during your GO Tour: Unova adventure.
+
+During GO Tour: Unova – Global, Kyurem caught from Black Kyurem raids will know the Charged Attack Glaciate.
+
+Additionally, you’ll have the opportunity to extend the duration of Freeze Shock’s Adventure Effect during the event by progressing through the Tour Pass!
 
 RESOURCE ID: quest_branch_choose_oshawott
 TEXT: Choose Oshawott
 
 RESOURCE ID: quest_branch_choose_oshawott_bg_desc
-TEXT: Select this path for two encounters with Oshawott, the Sea Otter Pokémon, featuring exclusive GO Tour: Unova Special Backgrounds
+TEXT: Select this path for two encounters with Oshawott that have an exclusive GO Tour: Unova Special Background.
 
 RESOURCE ID: quest_branch_choose_oshawott_desc
-TEXT: Select this path for an additional encounter with Oshawott, the Sea Otter Pokémon, and an increased chance of encountering Oshawott from Incense
+TEXT: Select this path for an additional encounter with Oshawott, the Sea Otter Pokémon, and an increased chance of attracting Oshawott with Incense.
 
 RESOURCE ID: quest_branch_choose_oshawott_desc_irl
-TEXT: Select this path for an additional encounter with Oshawott, the Sea Otter Pokémon, and additional Oshawott-themed rewards from Special Research
+TEXT: Select this path for an additional encounter with Oshawott, the Sea Otter Pokémon, and additional Oshawott-themed rewards from Special Research.
 
 RESOURCE ID: quest_branch_choose_snivy
 TEXT: Choose Snivy
 
 RESOURCE ID: quest_branch_choose_snivy_bg_desc
-TEXT: Select this path for two encounters with Snivy, the Grass Snake Pokémon, featuring exclusive GO Tour: Unova Special Backgrounds
+TEXT: Select this path for two encounters with Snivy that have an exclusive GO Tour: Unova Special Background.
 
 RESOURCE ID: quest_branch_choose_snivy_desc
-TEXT: Select this path for an additional encounter with Snivy, the Grass Snake Pokémon, and an increased chance of encountering Snivy from Incense
+TEXT: Select this path for an additional encounter with Snivy, the Grass Snake Pokémon, and an increased chance of attracting Snivy with Incense.
 
 RESOURCE ID: quest_branch_choose_snivy_desc_irl
-TEXT: Select this path for an additional encounter with Snivy, the Grass Snake Pokémon, and additional Snivy-themed rewards from Special Research
+TEXT: Select this path for an additional encounter with Snivy, the Grass Snake Pokémon, and additional Snivy-themed rewards from Special Research.
 
 RESOURCE ID: quest_branch_choose_starter_prompt
 TEXT: Choose a First Partner Pokémon
@@ -1534,19 +1702,23 @@ RESOURCE ID: quest_branch_choose_tepig
 TEXT: Choose Tepig
 
 RESOURCE ID: quest_branch_choose_tepig_bg_desc
-TEXT: Select this path for two encounters with Tepig, the Fire Pokémon, featuring exclusive GO Tour: Unova Special Backgrounds
+TEXT: Select this path for two encounters with Tepig that have an exclusive GO Tour: Unova Special Background.
 
 RESOURCE ID: quest_branch_choose_tepig_desc
-TEXT: Select this path for an additional encounter with Tepig, the Fire Pig Pokémon, and an increased chance of encountering Tepig from Incense
+TEXT: Select this path for an additional encounter with Tepig, the Fire Pig Pokémon, and an increased chance of attracting Tepig with Incense.
 
 RESOURCE ID: quest_branch_choose_tepig_desc_irl
-TEXT: Select this path for an additional encounter with Tepig, the Fire Pig Pokémon, and additional Tepig-themed rewards from Special Research
+TEXT: Select this path for an additional encounter with Tepig, the Fire Pig Pokémon, and additional Tepig-themed rewards from Special Research.
 
 RESOURCE ID: quest_branch_choose_white
 TEXT: Choose White Version (Zekrom/White Kyurem)
 
 RESOURCE ID: quest_branch_choose_white_desc
-TEXT: Select this option to recieve the GO Tour: Unova - White Version badge, and for rewards and bonuses themed to Zekrom during your GO Tour: Unova adventure./nDuring GO Tour: Unova - Global, Kyurem caught from White Kyurem Raids will be guaranteed to know the move Glaciate./nAdditionally, you will have a chance to extend the duration of the Adventure Effect for the move Ice Burn via the Tour Pass.
+TEXT: Select this option to receive the White Version (Zekrom) badge and Zekrom-themed rewards and bonuses during your GO Tour: Unova adventure.
+
+During GO Tour: Unova – Global, Kyurem caught from White Kyurem raids will know the Charged Attack Glaciate.
+
+Additionally, you’ll have the opportunity to extend the duration of Ice Burn’s Adventure Effect during the event by progressing through the Tour Pass!
 
 RESOURCE ID: quest_candela_type_catch
 TEXT: Catch 25 Fire- or Fighting-type Pokémon
@@ -1582,7 +1754,7 @@ RESOURCE ID: quest_catch_pokemon_unova
 TEXT: 捕捉{0}隻在合眾地區首次被發現的寶可夢
 
 RESOURCE ID: quest_catch_pokemon_unova_singular
-TEXT: Catch a Pokémon originally discovered in the Unova Region
+TEXT: Catch a Pokémon originally discovered in the Unova region
 
 RESOURCE ID: quest_catch_pokemon_unova_unique
 TEXT: 捕捉{0}種在合眾地區首次被發現的寶可夢
@@ -1612,13 +1784,13 @@ RESOURCE ID: quest_event_eevee_snapshot_milan
 TEXT: Take a Snapshot of your Eevee in Milan
 
 RESOURCE ID: quest_event_eevee_snapshot_mumbai
-TEXT: Take a Snapshot of your Eevee in Mumbai
+TEXT: Take a snapshot of your Eevee in Mumbai
 
 RESOURCE ID: quest_event_eevee_snapshot_santiago
-TEXT: Take a Snapshot of your Eevee in Santiago
+TEXT: Take a snapshot of your Eevee in Santiago
 
 RESOURCE ID: quest_event_eevee_snapshot_singapore
-TEXT: Take a Snapshot of your Eevee in Singapore
+TEXT: Take a snapshot of your Eevee in Singapore
 
 RESOURCE ID: quest_event_spin_milan
 TEXT: Spin a PokéStop or Gym in Milan
@@ -1633,16 +1805,16 @@ RESOURCE ID: quest_event_spin_singapore
 TEXT: Spin a PokéStop or Gym in Singapore
 
 RESOURCE ID: quest_evolve_oshawott_singular_posessive
-TEXT: Evolve your Oshawott
+TEXT: Evolve an Oshawott
 
 RESOURCE ID: quest_evolve_snivy_singular_posessive
-TEXT: Evolve your Snivy
+TEXT: Evolve a Snivy
 
 RESOURCE ID: quest_evolve_tepig_singular_posessive
-TEXT: Evolve your Tepig
+TEXT: Evolve a Tepig
 
 RESOURCE ID: quest_fuse_pokemon_kyurem
-TEXT: Fuse a Kyurem
+TEXT: Fuse Kyurem
 
 RESOURCE ID: quest_go_tour_25_scavenger_hunt_cryoganol
 TEXT: 旋轉轉盤圖片是「會用冰做成的鎖鏈捕捉獵物的寶可夢」的寶可補給站
@@ -1681,13 +1853,13 @@ RESOURCE ID: quest_go_tour_25_scavenger_hunt_yamask
 TEXT: 旋轉轉盤圖片是「會進化成死神棺的寶可夢」的寶可補給站
 
 RESOURCE ID: quest_medal_gen5_gold
-TEXT: Earn the Gold Unova Medal
+TEXT: Earn the gold Unova medal
 
 RESOURCE ID: quest_medal_idol_platinum
-TEXT: Earn the Platinum Idol Medal
+TEXT: Earn the platinum Idol medal
 
 RESOURCE ID: quest_medal_showcase_star_bronze
-TEXT: Earn the Bronze Showcase Star Medal
+TEXT: Earn the bronze Showcase Star medal
 
 RESOURCE ID: quest_power_up_bug_grass
 TEXT: 強化5次草屬性或蟲屬性的寶可夢
@@ -1830,6 +2002,75 @@ TEXT: 太刺激了！就像在看著一顆完全無法猜到會孵出什麼的�
 RESOURCE ID: quest_title_season_17_dectr_3_spark_dialogue_4
 TEXT: 我來跟維羅博士報告吧。那麼，下次見，%PLAYERNAME%！
 
+RESOURCE ID: quest_title_season_17_jantr_1_dialogue_1
+TEXT: 有新進展了，%PLAYERNAME%！
+
+RESOURCE ID: quest_title_season_17_jantr_1_dialogue_2
+TEXT: 克里夫正在以前所未有的程度投入訓練，據說那也是為了配合全新的攻擊導向戰略。
+
+RESOURCE ID: quest_title_season_17_jantr_1_dialogue_3
+TEXT: 布蘭雪那邊也說有了新發現，是關於寶可夢防禦方面的考察。
+
+RESOURCE ID: quest_title_season_17_jantr_1_dialogue_4
+TEXT: 攻擊與防禦這樣完全相反又互補的要素，或許深入鑽研後會有所發現吧。
+
+RESOURCE ID: quest_title_season_17_jantr_1_dialogue_5
+TEXT: 又要來問問你。你想調查哪一邊的戰略呢？
+
+RESOURCE ID: quest_title_season_17_jantr_2_blanche_dialogue_1
+TEXT: %PLAYERNAME%，感謝你協助調查。
+
+RESOURCE ID: quest_title_season_17_jantr_2_blanche_dialogue_2
+TEXT: 雖然研究的結果可以說是不出所料，但我得出的結論是，不被打倒或許就是通往勝利最可靠的途徑。
+
+RESOURCE ID: quest_title_season_17_jantr_2_blanche_dialogue_3
+TEXT: 也就是說，寶可夢不會陷入瀕死狀態。只要牢記這一點，勝利就在眼前了。
+
+RESOURCE ID: quest_title_season_17_jantr_2_blanche_dialogue_4
+TEXT: 我正在和拉普拉斯一起實踐這套方法論，嘗試將防禦力提高到極限。你和你的寶可夢要不要也來加入？
+
+RESOURCE ID: quest_title_season_17_jantr_2_cliff_dialogue_1
+TEXT: 喂，別站在那種地方！我正在訓練！
+
+RESOURCE ID: quest_title_season_17_jantr_2_cliff_dialogue_2
+TEXT: 攻擊對手時瞬間全開的火力！這樣一來GO火箭隊就所向無敵了。嗯？你不相信？
+
+RESOURCE ID: quest_title_season_17_jantr_2_cliff_dialogue_3
+TEXT: 沒什麼大不了。只要用強力的一擊打倒對手，讓他們絲毫不能反擊就行！
+
+RESOURCE ID: quest_title_season_17_jantr_2_cliff_dialogue_4
+TEXT: 哼，和你沒有關係。你沒有辦法讓寶可夢變那麼強。
+
+RESOURCE ID: quest_title_season_17_jantr_2_cliff_dialogue_5
+TEXT: 總之，你要是再妨礙我，我就讓你好看！
+
+RESOURCE ID: quest_title_season_17_jantr_3_blanche_dialogue_1
+TEXT: 你的調查真是出色。
+
+RESOURCE ID: quest_title_season_17_jantr_3_blanche_dialogue_2
+TEXT: 但總覺得最近的對戰分析，似乎證明了我的理論不正確。都讓你幫忙了真是過意不去。
+
+RESOURCE ID: quest_title_season_17_jantr_3_blanche_dialogue_3
+TEXT: 我太過著重在防禦戰略上，導致疏忽了去指示拉普拉斯發動攻擊。
+
+RESOURCE ID: quest_title_season_17_jantr_3_blanche_dialogue_4
+TEXT: 就結果而言，似乎妨礙了拉普拉斯的成長。接下來應該要進行更加平衡的訓練。
+
+RESOURCE ID: quest_title_season_17_jantr_3_blanche_dialogue_5
+TEXT: 不需要馬上開始，%PLAYERNAME%。今天只要有驗證結果就足夠了。
+
+RESOURCE ID: quest_title_season_17_jantr_3_cliff_dialogue_1
+TEXT: 嗯，掌控強大的力量是沒錯的……但缺了點什麼……
+
+RESOURCE ID: quest_title_season_17_jantr_3_cliff_dialogue_2
+TEXT: 一昧偏重攻擊的話，難免會有破綻。
+
+RESOURCE ID: quest_title_season_17_jantr_3_cliff_dialogue_3
+TEXT: 老大的話，可能會叫我在攻擊和防禦間取得平衡……
+
+RESOURCE ID: quest_title_season_17_jantr_3_cliff_dialogue_4
+TEXT: 既然如此，那我就讓攻擊和防禦都達到極致。打造出與GO火箭隊相符的火力平衡！
+
 RESOURCE ID: quest_title_sprigatito
 TEXT: 解開草貓寶可夢之謎！
 
@@ -1846,7 +2087,7 @@ RESOURCE ID: quest_title_sprigatito_3
 TEXT: 解開草貓寶可夢之謎！ (4/4)
 
 RESOURCE ID: quest_win_raid_5_plural
-TEXT: Win {0} five-star or higher raids
+TEXT: Win {0} five-star raids or higher
 
 RESOURCE ID: quest_win_raid_5_singular
 TEXT: 在5星以上的團體戰中獲勝1次
@@ -1857,8 +2098,14 @@ TEXT: {0}個研究課題有所進展
 RESOURCE ID: quests_pass_batch_updated
 TEXT: {0}個入場券課題有所進展
 
+RESOURCE ID: quests_pass_multiple_task_available
+TEXT: New Event Pass Tasks!
+
 RESOURCE ID: quests_pass_rank_up
 TEXT: 級別提升了！
+
+RESOURCE ID: quests_pass_task_available
+TEXT: New Event Pass Task!
 
 RESOURCE ID: raid_attendance_onboarding_message
 TEXT: 當你在參加附近的團體戰時，可以讓朋友直接從朋友名單來參加團體戰。
@@ -1924,7 +2171,7 @@ RESOURCE ID: safari_city_2025_singapore_title_02
 TEXT: City Safari: Singapore 2025 (3/3)
 
 RESOURCE ID: settings_allow_lucky_friend_applicator
-TEXT: Allow Friends to Give You Lucky Trinkets
+TEXT: 接受朋友送自己亮晶晶首飾
 
 RESOURCE ID: seven_free_raid_passes
 TEXT: 旋轉道館轉盤時最多可獲得7張免費團體戰入場券
@@ -1939,7 +2186,7 @@ RESOURCE ID: steeled_resolve_event_name
 TEXT: 鋼之決心
 
 RESOURCE ID: steeled_resolve_tr_name
-TEXT: 鋼之決心限時調查
+TEXT: 鋼之決心特級限時調查
 
 RESOURCE ID: steeled_resolve_tr_name_1
 TEXT: 鋼之決心限時調查(1/3)
@@ -2046,6 +2293,13 @@ TEXT: <b>可獲得的獎勵：</b>
 ・在團體戰獲得神奇糖果XL的機率提高
 ・在團體戰中獲勝時可獲得1.5倍XP及2倍星星沙子等
 
+RESOURCE ID: text_rewards_key_stldrslv0125
+TEXT: <b>可獲得的獎勵：</b>
+•與稚山雀、雙彈瓦斯（伽勒爾的樣子）、瑪力露麗、毽子棉、狃拉、掘地兔、頑皮熊貓、好啦魷和土王相遇的機會
+•1個厲害特殊招式學習器
+•20000星星沙子
+•5000XP等
+
 RESOURCE ID: ticket_dec2024
 TEXT: 12月社群日特殊調查入場券在商店裡上架了
 
@@ -2083,7 +2337,7 @@ RESOURCE ID: title_event_pass_daily_bonus_quest
 TEXT: Daily Quests
 
 RESOURCE ID: title_event_pass_daily_bonus_quest_premium
-TEXT: Daily Quests - Premium
+TEXT: Daily Tasks – Premium
 
 RESOURCE ID: title_event_pass_hourly_bonus_quest
 TEXT: Hourly Quests

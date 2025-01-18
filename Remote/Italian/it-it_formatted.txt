@@ -488,7 +488,7 @@ RESOURCE ID: bonus_3x_catch_xp
 TEXT: Triplo dei PE da cattura
 
 RESOURCE ID: bonus_black_version_glaciate
-TEXT: Kyurem caught from Black Kyurem Raids are guaranteed to know the Charged Move Glaciate
+TEXT: Kyurem caught from Black Kyurem raids will know the Charged Attack Glaciate
 
 RESOURCE ID: bonus_cd_move_sprigatito
 TEXT: Fai evolvere Floragato per ottenere un Meowscarada che conosce l’attacco caricato Radicalbero!
@@ -497,7 +497,7 @@ RESOURCE ID: bonus_cdc_move_ralts
 TEXT: Fai evolvere Kirlia per ottenere un Gallade o un Gardevoir che conosce l’attacco caricato Sincrumore.
 
 RESOURCE ID: bonus_daily_pass_tasks
-TEXT: Daily Bonus Tasks available awarding additional GO Tour Pass Points
+TEXT: Bonus daily Pass Tasks awarding additional Tour Points
 
 RESOURCE ID: bonus_deerling_spawn_notice
 TEXT: Deerling sta apparendo in zona
@@ -518,10 +518,10 @@ RESOURCE ID: bonus_go_tour_2025_photobomb
 TEXT: Fino a 12 incontri a sorpresa con Pokémon in costume in modalità foto GO
 
 RESOURCE ID: bonus_go_tour_2025_stickers
-TEXT: GO Tour: Unova Stickers available from Gifts and POI Spins
+TEXT: GO Tour: Unova–themed stickers available from Gifts and spinning PokéStops or Gyms
 
 RESOURCE ID: bonus_hourly_pass_tasks
-TEXT: Hourly Bonus Tasks available awarding additional GO Tour Pass Points
+TEXT: Bonus hourly Pass Tasks awarding additional Tour Points
 
 RESOURCE ID: bonus_mp_cap_5600
 TEXT: Raccogli fino a 5.600 particelle Dynamax al giorno dai punti energetici e dall’esplorazione
@@ -535,6 +535,9 @@ TEXT: Potresti incontrare Throh, Sawk, Heatmor o Durant come ricompensa per aver
 RESOURCE ID: bonus_photobomb_unova_pikachu
 TEXT: Incontri a sorpresa giornalieri in modalità foto GO con Pikachu che indossa i seguenti accessori: berretto di Alcide, berretto di Anita, visiera di Sanzo e visiera di Rina
 
+RESOURCE ID: bonus_remote_shadow_raids
+TEXT: Il biglietto raid da remoto può essere utilizzato per partecipare ai raid Ombra
+
 RESOURCE ID: bonus_routes_basculin_red_blue
 TEXT: Maggiori probabilità di incontrare Basculin Forma Linearossa e Basculin Forma Lineablu mentre segui dei percorsi
 
@@ -542,10 +545,10 @@ RESOURCE ID: bonus_routes_encounter_basculin
 TEXT: Potresti incontrare Basculin mentre segui dei percorsi
 
 RESOURCE ID: bonus_special_background_t5_raid
-TEXT: Special Backgrounds available for Pokemon caught from T5 Raids
+TEXT: Pokémon caught from five-star raids may have a Special Background
 
 RESOURCE ID: bonus_white_version_glaciate
-TEXT: Kyurem caught from White Kyurem Raids are guaranteed to know the Charged Move Glaciate
+TEXT: Kyurem caught from White Kyurem raids will know the Charged Attack Glaciate
 
 RESOURCE ID: branch_aspiring_dragons_rd_dec24_horsea_button_text_key
 TEXT: Horsea
@@ -588,6 +591,24 @@ TEXT: Scegli questa opzione per rintracciare Sierra.
 
 RESOURCE ID: branch_holiday_pt_1_dec24_spark_description_key
 TEXT: Scegli questa opzione per aiutare Spark nella sua ricerca.
+
+RESOURCE ID: branch_steeled_resolve_jan25_blanche_button_text_key
+TEXT: Allenati con Blanche
+
+RESOURCE ID: branch_steeled_resolve_jan25_blanche_description_key
+TEXT: Scegli quest’opzione per saperne di più sulle tecniche di difesa con Blanche!
+
+RESOURCE ID: branch_steeled_resolve_jan25_blanche_title_key
+TEXT: Allenati con Blanche
+
+RESOURCE ID: branch_steeled_resolve_jan25_cliff_button_text_key
+TEXT: Allenati con Cliff
+
+RESOURCE ID: branch_steeled_resolve_jan25_cliff_description_key
+TEXT: Scegli quest’opzione per scatenarti con Cliff!
+
+RESOURCE ID: branch_steeled_resolve_jan25_cliff_title_key
+TEXT: Allenati con Cliff
 
 RESOURCE ID: bread_battle_tutorial_description_3
 TEXT: Scorri il dito o tocca per raccogliere energia e riempire l’indicatore più velocemente.
@@ -752,8 +773,18 @@ al 1° gennaio alle 20:00
 RESOURCE ID: event_datetime_range_key_shadowhoohraidday
 TEXT: 19 gennaio dalle 14:00 alle 17:00
 
-RESOURCE ID: event_duration
-TEXT: Dal 24 febbraio al 2 marzo
+RESOURCE ID: event_datetime_range_key_stldrslv0125
+TEXT: Dal 21 gennaio alle 10:00
+ al 26 gennaio alle 23:59
+
+RESOURCE ID: event_pass_additional_bonus_rank_divider_desc
+TEXT: You can continue earning rewards. Let's see how far you can get!
+
+RESOURCE ID: event_pass_additional_bonus_rank_divider_header
+TEXT: BONUS RANKS
+
+RESOURCE ID: event_pass_additional_bonus_rank_divider_title
+TEXT: You've completed the Tour Pass!
 
 RESOURCE ID: event_pass_button
 TEXT: OTTIENI RICOMPENSE
@@ -796,11 +827,20 @@ TEXT: {0} Rank {1} achieved.
 RESOURCE ID: event_pass_reward_journal
 TEXT: {0} Rank {1} reward claimed.
 
+RESOURCE ID: event_pass_reward_preview_new_item_indicator
+TEXT: NEW ITEM!
+
+RESOURCE ID: event_pass_reward_preview_upsell_description
+TEXT: This reward is available in Tour Pass Deluxe.
+
 RESOURCE ID: event_pass_rewards_journal
 TEXT: {0} Rewards claimed.
 
 RESOURCE ID: event_pass_rewards_to_claim
 TEXT: Ricompense da ottenere: {0}
+
+RESOURCE ID: event_pass_upgrade
+TEXT: Upgrade
 
 RESOURCE ID: experience_points
 TEXT: PE
@@ -871,8 +911,14 @@ TEXT: Elettrogelo paralizza i Pokémon, lasciandoli in uno stato di paralisi dur
 RESOURCE ID: freeze_shock_move_content
 TEXT: Lancia una sfera di ghiaccio ricoperta di elettricità per {0} minuti, paralizzando i Pokémon durante gli incontri.
 
+RESOURCE ID: fusion_resource_black_kyurem_desc
+TEXT: Volt Fusion Energy
+
 RESOURCE ID: fusion_resource_black_kyurem_name
 TEXT: Energia fusione volt
+
+RESOURCE ID: fusion_resource_white_kyurem_desc
+TEXT: Blaze Fusion Energy
 
 RESOURCE ID: fusion_resource_white_kyurem_name
 TEXT: Energia fusione piro
@@ -926,6 +972,9 @@ TEXT: Biglietto per la ricerca a tempo premium “Contando le pecore”
 
 RESOURCE ID: general1.ticket._nye12302025_title
 TEXT: Biglietto per la ricerca a tempo premium di Capodanno 2025
+
+RESOURCE ID: general1.ticket._stldrslv0125_title
+TEXT: Biglietto per la ricerca a tempo premium dell’evento “Volontà d’acciaio”
 
 RESOURCE ID: general1.ticket_cd_recap2024_title
 TEXT: Biglietto per il Community Day di dicembre
@@ -1011,8 +1060,95 @@ TEXT: Ricompense livello 9
 RESOURCE ID: gmax_lapras_max_battles
 TEXT: Lapras Gigamax sta apparendo nelle Lotte Dynamax
 
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_00
+TEXT: Hey %PLAYERNAME%! I was just reflecting on our incredible journey together.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_01
+TEXT: We've faced some extraordinary challenges side by side, from encountering gigantic Pokémon to thwarting Team GO Rocket's sinister plans time and time again.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_02
+TEXT: Our research together has introduced us to Pokémon from many regions, leading to amazing discoveries and friendships that have helped shape how we see the world.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_03
+TEXT: Speaking of discoveries, I have noticed some unusual sounds lately.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_04
+TEXT: While I investigate I need you to continue your excellent fieldwork. Every Pokémon you encounter helps us understand our world a little better!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_01_00
+TEXT: Incredible news, %PLAYERNAME%!  I've made a breakthrough with those mysterious vocalizations I was studying.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_01_01
+TEXT: Just as I suspected, these aren’t ordinary sound waves but the unique melodies of the Mythical Pokémon Meloetta!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_01_02
+TEXT: Meloetta uses song to influence the emotions of both people and Pokémon. I need you to keep exploring and see if you can spot any unusual behavior in local Pokémon.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_01_03
+TEXT: It's not every day you get to study a Mythical Pokémon, %PLAYERNAME%, so let's make the most of it!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_02_00
+TEXT: Ah, %PLAYERNAME%! We haven't found Meloetta yet but I can still hear that special vocalization.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_02_01
+TEXT: Our musical friend can't be too far so we may need to think creatively.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_02_02
+TEXT: Why don't you try singing and dancing to see if that has an affect on the people and Pokemon around you?
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_02_03
+TEXT: If you practice enough you may become Meloetta's next opening act!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_03_00
+TEXT: Did you know many famous songs have been inspired by the melodies that Meloetta plays?
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_03_01
+TEXT: Music can truly help to create special bonds with one another.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_03_02
+TEXT: It reminds me of you and your amazing ability to connect with both people and Pokémon. Every new Pokémon you catch or trainer you meet is another potential friend!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_03_03
+TEXT: Get out there and see what wonderful friendships await you, %PLAYERNAME%!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_04_00
+TEXT: %PLAYERNAME%, I just made a fascinating observation about our musical friend Meloetta. Did you know that this Mythical Pokémon was first discovered in the Unova region?
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_04_01
+TEXT: Whether it's coincidence or not, we must explore all avenues of research! Every task will help us understand Meloetta's patterns better.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_04_02
+TEXT: Watch for Pokémon experiencing strong emotions, explore new areas, and make some musical connections of your own.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_04_03
+TEXT: Keep that research rhythm going, %PLAYERNAME%!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_05_00
+TEXT: %PLAYERNAME%, this is the moment we've been waiting for!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_05_01
+TEXT: Thanks to your dedicated fieldwork we've finally pinpointed its location. Its melodious voice is resonating from nearby.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_05_02
+TEXT: This could be your moment to befriend this extraordinary Pokémon. It's sure to be a grand performance!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_05_03
+TEXT: Head out there now, %PLAYERNAME%, and show Meloetta the same kindness and dedication you've shown to all your Pokémon friends.
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_06_00
+TEXT: %PLAYERNAME%, you've done it! And what a remarkable sight!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_06_01
+TEXT: This Meloetta has such a striking appearance. Its distinctive coloring is unlike anything in my research notes…truly extraordinary!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_06_02
+TEXT: Seeing your journey from your first days as a trainer to now catching such a special Pokemon, well, it makes me incredibly proud to call you my research partner and friend!
+
+RESOURCE ID: go_tour_2025_masterwork_sr_dialog_06_03
+TEXT: Keep that Meloetta singing proudly %PLAYERNAME%! You've hit all the right notes!
+
 RESOURCE ID: go_tour_2025_today_view_extended_hours
-TEXT: GO Tour: Unova - Extended Bonuses
+TEXT: GO Tour: Unova – Extended Bonuses
 
 RESOURCE ID: go_tour_ep_bonus_title
 TEXT: Tour Pass Bonuses
@@ -1027,7 +1163,7 @@ RESOURCE ID: go_tour_ep_bonus_title_02
 TEXT: Tier 3 Tour Pass Bonuses
 
 RESOURCE ID: go_tour_event_pass_availability
-TEXT: Event-exclusive GO Tour Pass now available
+TEXT: The event Tour Pass is available now
 
 RESOURCE ID: gotour2025_welcome
 TEXT: Pokémon GO Tour: Unova
@@ -1039,13 +1175,13 @@ RESOURCE ID: gotour2025_welcome_banner_ntc
 TEXT: Ti diamo il benvenuto al Tour di Pokémon GO di Unima a Nuova Taipei!
 
 RESOURCE ID: gotour2025_welcome_global
-TEXT: Welcome to Pokémon GO Tour: Unova - Global!
+TEXT: Welcome to Pokémon GO Tour: Unova – Global!
 
 RESOURCE ID: gotour2025_welcome_irl_la
-TEXT: Welcome to Pokémon GO Tour: Unova - Los Angeles!
+TEXT: Welcome to Pokémon GO Tour: Unova – Los Angeles!
 
 RESOURCE ID: gotour2025_welcome_irl_ntc
-TEXT: Welcome to Pokémon GO Tour: Unova - New Taipei City!
+TEXT: Welcome to Pokémon GO Tour: Unova – New Taipei City!
 
 RESOURCE ID: gotour_2025_base_track_title
 TEXT: Biglietto Tour
@@ -1061,6 +1197,9 @@ TEXT: Tour Pass Deluxe + 10 Ranks
 
 RESOURCE ID: gotour_2025_deluxe_event_pass_track_unlock_title
 TEXT: Tour Pass Deluxe
+
+RESOURCE ID: gotour_2025_event_duration
+TEXT: Dal 24 febbraio al 2 marzo
 
 RESOURCE ID: gotour_2025_event_pass_details_link
 TEXT: Per ulteriori informazioni, visita il <a href="https://gotour.pokemongolive.com/">sito</a>.
@@ -1248,6 +1387,9 @@ TEXT: Un biglietto per accedere alla ricerca a tempo premium “Contando le peco
 RESOURCE ID: item_event_ticket_evergreen_desc_nye12302025
 TEXT: Un biglietto per accedere alla ricerca a tempo premium di Capodanno 2025 dal 30 dicembre 2024 alle 10:00 al 1° gennaio 2025 alle 20:00 ora locale, ovunque ti trovi.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_stldrslv0125
+TEXT: Un biglietto per accedere alla ricerca a tempo premium dell’evento “Volontà d’acciaio” fino al 26 gennaio 2025 alle 23:59 ora locale, ovunque ti trovi.
+
 RESOURCE ID: item_event_ticket_evergreen_details_chargedembers1224
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo della giornata della schiusa “Voltaggio di fuoco” il 29 dicembre, ovunque ti trovi.
 
@@ -1259,6 +1401,9 @@ TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso all
 
 RESOURCE ID: item_event_ticket_evergreen_details_nye12302025
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo premium di Capodanno 2025 il 30 dicembre 2024, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_evergreen_details_stldrslv0125
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo premium dell’evento “Volontà d’acciaio” il 21 gennaio, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_gray_desc_febmonthly2025
 TEXT: Un biglietto per l’Accesso giruovago di febbraio che sarà attivo dal 1° febbraio alle 10:00 al 28 febbraio 2025 alle 20:00 ora locale, ovunque ti trovi.
@@ -1314,6 +1459,9 @@ TEXT: Un ricordo che rafforza i legami e ti consente di diventare subito amico f
 RESOURCE ID: item_lucky_friend_applicator_name
 TEXT: Portafortuna
 
+RESOURCE ID: item_use_confirmation_on_friend
+TEXT: Use {0} on {1}?
+
 RESOURCE ID: jan_post_cd_timed_research_name
 TEXT: Ricerca a tempo “Oltre il Community Day” dedicata a Sprigatito
 
@@ -1356,8 +1504,8 @@ TEXT: Hai a disposizione {0} minuti per usare il tuo <b>portafortuna</b>!
 RESOURCE ID: lucky_charm_notification_body_min_singular
 TEXT: Hai a disposizione un minuto per usare il tuo <b>portafortuna</b>!
 
-RESOURCE ID: max_battle_day_gigantamax_kingler_event_name
-TEXT: Giornata Lotte Dynamax dedicata a Kingler Gigamax
+RESOURCE ID: lucky_friends_notification_details_from_charm
+TEXT: {0} and you became Lucky Friends with a Lucky Charm!
 
 RESOURCE ID: max_battle_day_gigantamax_lapras_event_name
 TEXT: Giornata Lotte Dynamax dedicata a Lapras Gigamax
@@ -1372,10 +1520,10 @@ RESOURCE ID: mega_gallade_raid_day_event_name
 TEXT: Giorno di raid dedicato a MegaGallade
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-01-16T02:19:22.815461+00:00 for it-IT
-at SHA ffef806cd30
-Pipeline 2911390, job 35875217
-Patch from: 0.343.98-SHA-7e75819c, 0.345.0-SHA-7b2f8be2-RC4
+TEXT: Built at 2025-01-18T01:09:05.286636+00:00 for it-IT
+at SHA 4ee30548e58
+Pipeline 2921852, job 35986684
+Patch from: 0.345.0-SHA-deaf161f-RC1, 0.343.2-SHA-d26ffd7a-RC1
 
 RESOURCE ID: monochrome_holiday_collection_challenge_1
 TEXT: Sfida di collezione “Nero” dellʼevento “Festività - 2ª parte”
@@ -1398,11 +1546,27 @@ TEXT: Ricerca a tempo premium “Contando le pecore” (2/2)
 RESOURCE ID: move_name_0465
 TEXT: Prestigiafiore
 
+RESOURCE ID: move_name_0466
+TEXT: Elettrogelo
+
+RESOURCE ID: move_name_0467
+TEXT: Vampagelida
+
+RESOURCE ID: move_required_to_enable_adventure_effect
+TEXT: {0} has not learned the Charged Move {1}, which is required to learn its Adventure Effect move after fusion.
+
+RESOURCE ID: move_required_to_enable_adventure_effect_question
+TEXT: Do you want to continue?
+
+RESOURCE ID: move_required_to_enable_adventure_effect_title
+TEXT: This fused Pokémon will not learn its Adventure Effect move
+
 RESOURCE ID: new_pokemon_fidough
 TEXT: Fidough sta apparendo allo stato selvatico!
 
 RESOURCE ID: new_quests_available_time
-TEXT: <b>Nuova missione biglietto disponibile tra:</b> {0}
+TEXT: <b>Nuova missione biglietto disponibile tra:</b>
+{0}
 
 RESOURCE ID: next_rank_label
 TEXT: Al prossimo livello:
@@ -1482,7 +1646,7 @@ RESOURCE ID: pokemon_xl_candy_reward
 TEXT: {0} caramelle L
 
 RESOURCE ID: pokemon_xl_candy_reward_plural
-TEXT: {0} XL Candy
+TEXT: {0} Candy XL
 
 RESOURCE ID: post_cd_timed_research_name
 TEXT: Ricerca a tempo “Oltre il Community Day”
@@ -1494,37 +1658,41 @@ RESOURCE ID: premium_rewards
 TEXT: RICOMPENSE PREMIUM
 
 RESOURCE ID: quest_blanche_type_catch
-TEXT: Catch 25 Ice- or Water-type Pokémon
+TEXT: Catch 25 Water- or Ice-type Pokémon
 
 RESOURCE ID: quest_branch_choose_black
 TEXT: Choose Black Version (Reshiram/Black Kyurem)
 
 RESOURCE ID: quest_branch_choose_black_desc
-TEXT: Select this option to recieve the GO Tour: Unova - Black Version badge, and for rewards and bonuses themed to Reshiram during your GO Tour: Unova adventure./nDuring GO Tour: Unova - Global, Kyurem caught from Black Kyurem Raids will be guaranteed to know the move Glaciate./nAdditionally, you will have a chance to extend the duration of the Adventure Effect for the move Freeze Shock via Tour Pass.
+TEXT: Select this option to receive the Black Version (Reshiram) badge and Reshiram-themed rewards and bonuses during your GO Tour: Unova adventure.
+
+During GO Tour: Unova – Global, Kyurem caught from Black Kyurem raids will know the Charged Attack Glaciate.
+
+Additionally, you’ll have the opportunity to extend the duration of Freeze Shock’s Adventure Effect during the event by progressing through the Tour Pass!
 
 RESOURCE ID: quest_branch_choose_oshawott
 TEXT: Choose Oshawott
 
 RESOURCE ID: quest_branch_choose_oshawott_bg_desc
-TEXT: Select this path for two encounters with Oshawott, the Sea Otter Pokémon, featuring exclusive GO Tour: Unova Special Backgrounds
+TEXT: Select this path for two encounters with Oshawott that have an exclusive GO Tour: Unova Special Background.
 
 RESOURCE ID: quest_branch_choose_oshawott_desc
-TEXT: Select this path for an additional encounter with Oshawott, the Sea Otter Pokémon, and an increased chance of encountering Oshawott from Incense
+TEXT: Select this path for an additional encounter with Oshawott, the Sea Otter Pokémon, and an increased chance of attracting Oshawott with Incense.
 
 RESOURCE ID: quest_branch_choose_oshawott_desc_irl
-TEXT: Select this path for an additional encounter with Oshawott, the Sea Otter Pokémon, and additional Oshawott-themed rewards from Special Research
+TEXT: Select this path for an additional encounter with Oshawott, the Sea Otter Pokémon, and additional Oshawott-themed rewards from Special Research.
 
 RESOURCE ID: quest_branch_choose_snivy
 TEXT: Choose Snivy
 
 RESOURCE ID: quest_branch_choose_snivy_bg_desc
-TEXT: Select this path for two encounters with Snivy, the Grass Snake Pokémon, featuring exclusive GO Tour: Unova Special Backgrounds
+TEXT: Select this path for two encounters with Snivy that have an exclusive GO Tour: Unova Special Background.
 
 RESOURCE ID: quest_branch_choose_snivy_desc
-TEXT: Select this path for an additional encounter with Snivy, the Grass Snake Pokémon, and an increased chance of encountering Snivy from Incense
+TEXT: Select this path for an additional encounter with Snivy, the Grass Snake Pokémon, and an increased chance of attracting Snivy with Incense.
 
 RESOURCE ID: quest_branch_choose_snivy_desc_irl
-TEXT: Select this path for an additional encounter with Snivy, the Grass Snake Pokémon, and additional Snivy-themed rewards from Special Research
+TEXT: Select this path for an additional encounter with Snivy, the Grass Snake Pokémon, and additional Snivy-themed rewards from Special Research.
 
 RESOURCE ID: quest_branch_choose_starter_prompt
 TEXT: Choose a First Partner Pokémon
@@ -1533,19 +1701,23 @@ RESOURCE ID: quest_branch_choose_tepig
 TEXT: Choose Tepig
 
 RESOURCE ID: quest_branch_choose_tepig_bg_desc
-TEXT: Select this path for two encounters with Tepig, the Fire Pokémon, featuring exclusive GO Tour: Unova Special Backgrounds
+TEXT: Select this path for two encounters with Tepig that have an exclusive GO Tour: Unova Special Background.
 
 RESOURCE ID: quest_branch_choose_tepig_desc
-TEXT: Select this path for an additional encounter with Tepig, the Fire Pig Pokémon, and an increased chance of encountering Tepig from Incense
+TEXT: Select this path for an additional encounter with Tepig, the Fire Pig Pokémon, and an increased chance of attracting Tepig with Incense.
 
 RESOURCE ID: quest_branch_choose_tepig_desc_irl
-TEXT: Select this path for an additional encounter with Tepig, the Fire Pig Pokémon, and additional Tepig-themed rewards from Special Research
+TEXT: Select this path for an additional encounter with Tepig, the Fire Pig Pokémon, and additional Tepig-themed rewards from Special Research.
 
 RESOURCE ID: quest_branch_choose_white
 TEXT: Choose White Version (Zekrom/White Kyurem)
 
 RESOURCE ID: quest_branch_choose_white_desc
-TEXT: Select this option to recieve the GO Tour: Unova - White Version badge, and for rewards and bonuses themed to Zekrom during your GO Tour: Unova adventure./nDuring GO Tour: Unova - Global, Kyurem caught from White Kyurem Raids will be guaranteed to know the move Glaciate./nAdditionally, you will have a chance to extend the duration of the Adventure Effect for the move Ice Burn via the Tour Pass.
+TEXT: Select this option to receive the White Version (Zekrom) badge and Zekrom-themed rewards and bonuses during your GO Tour: Unova adventure.
+
+During GO Tour: Unova – Global, Kyurem caught from White Kyurem raids will know the Charged Attack Glaciate.
+
+Additionally, you’ll have the opportunity to extend the duration of Ice Burn’s Adventure Effect during the event by progressing through the Tour Pass!
 
 RESOURCE ID: quest_candela_type_catch
 TEXT: Catch 25 Fire- or Fighting-type Pokémon
@@ -1581,7 +1753,7 @@ RESOURCE ID: quest_catch_pokemon_unova
 TEXT: Cattura {0} Pokémon originariamente scoperti nella regione di Unima
 
 RESOURCE ID: quest_catch_pokemon_unova_singular
-TEXT: Catch a Pokémon originally discovered in the Unova Region
+TEXT: Catch a Pokémon originally discovered in the Unova region
 
 RESOURCE ID: quest_catch_pokemon_unova_unique
 TEXT: Cattura {0} specie diverse di Pokémon originariamente scoperti nella regione di Unima
@@ -1611,13 +1783,13 @@ RESOURCE ID: quest_event_eevee_snapshot_milan
 TEXT: Take a Snapshot of your Eevee in Milan
 
 RESOURCE ID: quest_event_eevee_snapshot_mumbai
-TEXT: Take a Snapshot of your Eevee in Mumbai
+TEXT: Take a snapshot of your Eevee in Mumbai
 
 RESOURCE ID: quest_event_eevee_snapshot_santiago
-TEXT: Take a Snapshot of your Eevee in Santiago
+TEXT: Take a snapshot of your Eevee in Santiago
 
 RESOURCE ID: quest_event_eevee_snapshot_singapore
-TEXT: Take a Snapshot of your Eevee in Singapore
+TEXT: Take a snapshot of your Eevee in Singapore
 
 RESOURCE ID: quest_event_spin_milan
 TEXT: Spin a PokéStop or Gym in Milan
@@ -1632,16 +1804,16 @@ RESOURCE ID: quest_event_spin_singapore
 TEXT: Spin a PokéStop or Gym in Singapore
 
 RESOURCE ID: quest_evolve_oshawott_singular_posessive
-TEXT: Evolve your Oshawott
+TEXT: Evolve an Oshawott
 
 RESOURCE ID: quest_evolve_snivy_singular_posessive
-TEXT: Evolve your Snivy
+TEXT: Evolve a Snivy
 
 RESOURCE ID: quest_evolve_tepig_singular_posessive
-TEXT: Evolve your Tepig
+TEXT: Evolve a Tepig
 
 RESOURCE ID: quest_fuse_pokemon_kyurem
-TEXT: Fuse a Kyurem
+TEXT: Fuse Kyurem
 
 RESOURCE ID: quest_go_tour_25_scavenger_hunt_cryoganol
 TEXT: Trova e fai girare il disco del Pokéstop con l’immagine di un Pokémon che cattura le sue prede con catene fatte di cristalli di ghiaccio
@@ -1680,13 +1852,13 @@ RESOURCE ID: quest_go_tour_25_scavenger_hunt_yamask
 TEXT: Trova e fai girare il disco del Pokéstop con l’immagine del Pokémon che si evolve in Cofagrigus
 
 RESOURCE ID: quest_medal_gen5_gold
-TEXT: Earn the Gold Unova Medal
+TEXT: Earn the gold Unova medal
 
 RESOURCE ID: quest_medal_idol_platinum
-TEXT: Earn the Platinum Idol Medal
+TEXT: Earn the platinum Idol medal
 
 RESOURCE ID: quest_medal_showcase_star_bronze
-TEXT: Earn the Bronze Showcase Star Medal
+TEXT: Earn the bronze Showcase Star medal
 
 RESOURCE ID: quest_power_up_bug_grass
 TEXT: Potenzia Pokémon di tipo Erba o Coleottero cinque volte
@@ -1829,6 +2001,75 @@ TEXT: Elettrizzante, vero? È un po’ come se stessimo incubando un Uovo mister
 RESOURCE ID: quest_title_season_17_dectr_3_spark_dialogue_4
 TEXT: Non vedo l’ora di condividere le mie scoperte con il Professor Willow e gli altri. Ci si vede, %PLAYERNAME%!
 
+RESOURCE ID: quest_title_season_17_jantr_1_dialogue_1
+TEXT: Abbiamo una nuova pista, %PLAYERNAME%!
+
+RESOURCE ID: quest_title_season_17_jantr_1_dialogue_2
+TEXT: In base alle ultime informazioni, Cliff si sta allenando come non mai e pare stia adottando una nuova strategia: attacco a tutta forza.
+
+RESOURCE ID: quest_title_season_17_jantr_1_dialogue_3
+TEXT: Nel frattempo, Blanche ha fatto passi da gigante nelle sue ricerche e si sta concentrando sui Pokémon il cui punto di forza è la difesa.
+
+RESOURCE ID: quest_title_season_17_jantr_1_dialogue_4
+TEXT: Attacco e difesa, opposti ma complementari... proprio come quella volta. Scommetto che se approfondissimo la questione potremmo scoprire qualcosa in più su questa dualità.
+
+RESOURCE ID: quest_title_season_17_jantr_1_dialogue_5
+TEXT: A proposito, dimmi un po’: su quale delle due strategie preferiresti indagare?
+
+RESOURCE ID: quest_title_season_17_jantr_2_blanche_dialogue_1
+TEXT: Salve, %PLAYERNAME%. La tua assistenza è molto gradita.
+
+RESOURCE ID: quest_title_season_17_jantr_2_blanche_dialogue_2
+TEXT: Le mie ricerche mi hanno portato a una conclusione: per quanto ovvio possa sembrare, il modo più sicuro per vincere una lotta è quello di non perdere.
+
+RESOURCE ID: quest_title_season_17_jantr_2_blanche_dialogue_3
+TEXT: In altre parole, se i tuoi Pokémon non sono mai esausti, la vittoria è l’unico risultato possibile.
+
+RESOURCE ID: quest_title_season_17_jantr_2_blanche_dialogue_4
+TEXT: Io e Lapras abbiamo cominciato a sperimentare diverse metodologie per ottimizzare il nostro potenziale difensivo. Ti piacerebbe unirti a noi insieme ai tuoi Pokémon?
+
+RESOURCE ID: quest_title_season_17_jantr_2_cliff_dialogue_1
+TEXT: Ehi, fa’ attenzione a dove vai! Mi sto allenando, qui!
+
+RESOURCE ID: quest_title_season_17_jantr_2_cliff_dialogue_2
+TEXT: I potentissimi attacchi su cui sto lavorando renderanno il Team GO Rocket invincibile! Perché mi guardi così? Non ci credi?
+
+RESOURCE ID: quest_title_season_17_jantr_2_cliff_dialogue_3
+TEXT: È semplice: i tuoi Pokémon devono picchiare talmente duro da non lasciare agli avversari neanche una possibilità di rispondere!
+
+RESOURCE ID: quest_title_season_17_jantr_2_cliff_dialogue_4
+TEXT: Umpf, tanto non è roba per te. Dubito che una scartina del tuo calibro riuscirebbe mai a insegnare un attacco del genere ai suoi Pokémon.
+
+RESOURCE ID: quest_title_season_17_jantr_2_cliff_dialogue_5
+TEXT: E quindi mi stai solo facendo perdere tempo. Fuori dai piedi!
+
+RESOURCE ID: quest_title_season_17_jantr_3_blanche_dialogue_1
+TEXT: Complimenti, ottimo lavoro.
+
+RESOURCE ID: quest_title_season_17_jantr_3_blanche_dialogue_2
+TEXT: L’analisi di alcune lotte recenti ha sfatato la mia teoria originaria... non che sia dipeso da te, s’intende.
+
+RESOURCE ID: quest_title_season_17_jantr_3_blanche_dialogue_3
+TEXT: Facendo in modo che Lapras si concentrasse sulla difesa, ho mancato di dargli anche delle opportunità per attaccare.
+
+RESOURCE ID: quest_title_season_17_jantr_3_blanche_dialogue_4
+TEXT: Temo di aver ostacolato la sua crescita. Il passo più logico da fare ora è quello di offrirgli bacche, dimostrargli il mio apprezzamento e, cosa ancora più importante, sottoporlo a un regime di allenamento a tutto tondo.
+
+RESOURCE ID: quest_title_season_17_jantr_3_blanche_dialogue_5
+TEXT: Ma prima di metterci nuovamente al lavoro, un po’ di riposo è d’obbligo. %PLAYERNAME%, se c’è una lezione che ho imparato da te oggi, è l’importanza di un approccio bilanciato.
+
+RESOURCE ID: quest_title_season_17_jantr_3_cliff_dialogue_1
+TEXT: Mh... La forza trionfa, ma manca ancora qualcosa!
+
+RESOURCE ID: quest_title_season_17_jantr_3_cliff_dialogue_2
+TEXT: Il problema del focalizzarsi troppo sugli attacchi è che si finisce per abbassare la guardia.
+
+RESOURCE ID: quest_title_season_17_jantr_3_cliff_dialogue_3
+TEXT: Forse il capo preferirebbe che usassi una strategia volta sia all’offesa che alla difesa...
+
+RESOURCE ID: quest_title_season_17_jantr_3_cliff_dialogue_4
+TEXT: In ogni caso, io non mi arrendo! Padroneggerò il potere dell’equilibrio per il Team GO Rocket, costi quel che costi!
+
 RESOURCE ID: quest_title_sprigatito
 TEXT: Occasione purr-fetta
 
@@ -1845,7 +2086,7 @@ RESOURCE ID: quest_title_sprigatito_3
 TEXT: Occasione purr-fetta (4/4)
 
 RESOURCE ID: quest_win_raid_5_plural
-TEXT: Win {0} five-star or higher raids
+TEXT: Win {0} five-star raids or higher
 
 RESOURCE ID: quest_win_raid_5_singular
 TEXT: Vinci un raid di livello cinque o superiore
@@ -1853,8 +2094,14 @@ TEXT: Vinci un raid di livello cinque o superiore
 RESOURCE ID: quests_pass_batch_updated
 TEXT: {0} missioni biglietto aggiornate
 
+RESOURCE ID: quests_pass_multiple_task_available
+TEXT: New Event Pass Tasks!
+
 RESOURCE ID: quests_pass_rank_up
 TEXT: Sali di livello!
+
+RESOURCE ID: quests_pass_task_available
+TEXT: New Event Pass Task!
 
 RESOURCE ID: raid_attendance_onboarding_message
 TEXT: Quando sei in un raid nelle vicinanze, gli amici potranno partecipare accedendo direttamente dalla propria lista amici!
@@ -1935,7 +2182,7 @@ RESOURCE ID: steeled_resolve_event_name
 TEXT: Volontà d’acciaio
 
 RESOURCE ID: steeled_resolve_tr_name
-TEXT: Ricerca a tempo dell’evento “Volontà d’acciaio”
+TEXT: Ricerca a tempo premium dell’evento “Volontà d’acciaio”
 
 RESOURCE ID: steeled_resolve_tr_name_1
 TEXT: Ricerca a tempo dell’evento “Volontà d’acciaio” (1/3)
@@ -2042,6 +2289,13 @@ TEXT: <b>Bonus inclusi:</b>
 • Maggiori probabilità di ottenere Caramelle Rare L nei raid
 • 50% di PE in più e doppio della polvere di stelle quando porti a termine un raid con successo
 
+RESOURCE ID: text_rewards_key_stldrslv0125
+TEXT: <b>Le ricompense includono:</b>
+• Incontri con Rookidee, Weezing di Galar, Azumarill, Jumpluff, Sneasel, Diggersby, Pancham, Inkay e Clodsire
+• Una MT attacco caricato fuoriclasse
+• 20.000 unità di polvere di stelle
+• 5.000 PE
+
 RESOURCE ID: ticket_dec2024
 TEXT: I biglietti per la ricerca speciale del Community Day di dicembre sono disponibili nel negozio
 
@@ -2079,7 +2333,7 @@ RESOURCE ID: title_event_pass_daily_bonus_quest
 TEXT: Daily Quests
 
 RESOURCE ID: title_event_pass_daily_bonus_quest_premium
-TEXT: Daily Quests - Premium
+TEXT: Daily Tasks – Premium
 
 RESOURCE ID: title_event_pass_hourly_bonus_quest
 TEXT: Hourly Quests
@@ -2160,10 +2414,10 @@ RESOURCE ID: tr_go_tour_2025_irl_tornadus_title_01
 TEXT: Leggende N. 0641 (2/2)
 
 RESOURCE ID: trade_gmax_in_pokedex
-TEXT: Gigantamax Pokémon in Pokédex
+TEXT: I Pokémon Gigamax nel Pokédex
 
 RESOURCE ID: trade_gmax_non_pokedex
-TEXT: All Gigantamax Pokémon
+TEXT: Tutti i Pokémon Gigamax
 
 RESOURCE ID: use_freeze_shock_effect
 TEXT: I Pokémon sono paralizzati durante gli incontri.
