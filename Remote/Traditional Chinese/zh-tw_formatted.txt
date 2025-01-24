@@ -634,6 +634,10 @@ RESOURCE ID: event_datetime_range_key_janmonthly2025
 TEXT: 1月1日10:00～
 1月31日20:00
 
+RESOURCE ID: event_datetime_range_key_lunarny0125
+TEXT: 1月29日10:00～
+2月2日20:00
+
 RESOURCE ID: event_datetime_range_key_megagalladeraidday
 TEXT: 1月11日14:00～17:00
 
@@ -855,6 +859,9 @@ TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時�
 
 RESOURCE ID: general1.ticket.5_janmonthly2025_title
 TEXT: 孵蛋證：1月
+
+RESOURCE ID: general1.ticket._lunarny0125_title
+TEXT: 農曆春節特級限時調查入場券
 
 RESOURCE ID: general1.ticket._nye12302025_title
 TEXT: 新年2025特級限時調查入場券
@@ -1205,11 +1212,17 @@ TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時�
 RESOURCE ID: item_event_ticket_05_details_fashionjan25
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在1月10日開始參與時裝週特級限時調查。
 
+RESOURCE ID: item_event_ticket_evergreen_desc_lunarny0125
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年2月2日20:00前參與農曆春節特級限時調查。
+
 RESOURCE ID: item_event_ticket_evergreen_desc_nye12302025
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年12月30日10:00～1月1日20:00參加新年2025特級限時調查。
 
 RESOURCE ID: item_event_ticket_evergreen_desc_stldrslv0125
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年1月26日23:59前參與鋼之決心特級限時調查。
+
+RESOURCE ID: item_event_ticket_evergreen_details_lunarny0125
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在1月29日開始參與農曆春節特級限時調查。
 
 RESOURCE ID: item_event_ticket_evergreen_details_nye12302025
 TEXT: 入場券將會自動啟動。不論你身在何處，都可以在當地時間12月30日開始參與新年2025特級限時調查。
@@ -1310,6 +1323,21 @@ TEXT: 能使用<b>亮晶晶首飾</b>的時間還剩1分
 RESOURCE ID: lucky_friends_notification_details_from_charm
 TEXT: {0} and you became Lucky Friends with a Lucky Charm!
 
+RESOURCE ID: lunar_new_year_collection
+TEXT: 農曆春節收藏家挑戰
+
+RESOURCE ID: lunar_ny_free_tr_name
+TEXT: 蛇年限時調查
+
+RESOURCE ID: lunar_ny_tr_name
+TEXT: 農曆春節特級限時調查
+
+RESOURCE ID: lunar_ny_tr_name_1
+TEXT: 農曆春節特級限時調查(1/2)
+
+RESOURCE ID: lunar_ny_tr_name_2
+TEXT: 農曆春節特級限時調查(2/2)
+
 RESOURCE ID: max_battle_day_gigantamax_kingler_event_name
 TEXT: 巨鉗蟹（超極巨化）極巨對戰日
 
@@ -1320,10 +1348,10 @@ RESOURCE ID: mega_gallade_raid_day_event_name
 TEXT: 團體戰日：超級艾路雷朵
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-01-24T01:41:43.456164+00:00 for zh-TW
-at SHA b91a932d7f1
-Pipeline 2937222, job 36196040
-Patch from: 0.347.0-SHA-859c6c0f-RC2, 0.345.0-SHA-b4eb14ea-RC2
+TEXT: Built at 2025-01-24T21:14:24.537692+00:00 for zh-TW
+at SHA d4e72de6377
+Pipeline 2939539, job 36233155
+Patch from: 0.347.0-SHA-57b69799-RC1, 0.345.0-SHA-deaf161f-RC1
 
 RESOURCE ID: move_name_0465
 TEXT: 千變萬花
@@ -1943,6 +1971,12 @@ TEXT: <b>可獲得的獎勵：</b>
 ・完成後即可獲得15000XP及15000星星沙子的限時調查課題
 ・包包裡可存放的禮物增為2倍（最多40個）
 ・其他
+
+RESOURCE ID: text_rewards_key_lunarny0125
+TEXT: <b>可獲得的獎勵：</b>
+・2顆幸運蛋
+・1個孵化器
+・12000XP等
 
 RESOURCE ID: text_rewards_key_megagalladeraidday
 TEXT: <b>可獲得的獎勵：</b>

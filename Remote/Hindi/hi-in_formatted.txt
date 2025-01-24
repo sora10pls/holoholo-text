@@ -620,7 +620,7 @@ RESOURCE ID: bgmode_scanning_notification
 TEXT: आस-पास क पोकमॉन ढूंढ़े जा रहे हैं!
 
 RESOURCE ID: bonus_1_5x_catch_xp
-TEXT: 1.5× Catch XP
+TEXT: 1.5× कच XP
 
 RESOURCE ID: bonus_2.5x_catch_xp
 TEXT: 2.5× कच XP
@@ -653,13 +653,13 @@ RESOURCE ID: bonus_discount_mp_unlock_level
 TEXT: मैैस मूव को अनलॉक करने और लवल बढ़ाने क लए मैस पाटकल क लागत कम कर दी गयी है
 
 RESOURCE ID: bonus_freeze_shock_ice_burn_1_5x
-TEXT: 1.5× Freeze Shock or Ice Burn duration during Pokémon GO Tour: Unova – Global (based on your badge selection)
+TEXT: Pokémon GO टूर : युनोवा - लोबल  क दौरान 1.5× ज़ शॉक या आइस बन क अवधी (बैज चयन क अधार पर)
 
 RESOURCE ID: bonus_freeze_shock_ice_burn_2x
-TEXT: 2× Freeze Shock or Ice Burn duration during Pokémon GO Tour: Unova – Global (based on your badge selection)
+TEXT: Pokémon GO टूर : युनोवा - लोबल  क दौरान 2× ज़ शॉक या आइस बन क अवधी (बैज चयन क अधार पर)
 
 RESOURCE ID: bonus_freeze_shock_ice_burn_3x
-TEXT: 3× Freeze Shock or Ice Burn duration during Pokémon GO Tour: Unova – Global (based on your badge selection)
+TEXT: Pokémon GO टूर : युनोवा - लोबल  क दौरान 3× ज़ शॉक या आइस बन क अवधी (बैज चयन क अधार पर)
 
 RESOURCE ID: bonus_friendship_raid_double
 TEXT: रड में 2 गुना ंडशप बोनस डैमेज
@@ -896,6 +896,10 @@ RESOURCE ID: event_datetime_range_key_janmonthly2025
 TEXT: 1 जनवर, सुबह 10:00 बजे -
 31 जनवर, शाम 8:00 बजे
 
+RESOURCE ID: event_datetime_range_key_lunarny0125
+TEXT: 29 जनवर, सुबह 10:00 बजे -
+2 फ़रवर, रात 8:00 बजे
+
 RESOURCE ID: event_datetime_range_key_megagalladeraidday
 TEXT: 11 जनवर, दोपहर 2:00 बजे - शाम 5:00 बजे तक
 
@@ -959,7 +963,7 @@ RESOURCE ID: event_pass_desc
 TEXT: ीमयम रवॉड ात कर तुरंत {0} क साथ मुलाकात अनलॉक करं!
 
 RESOURCE ID: event_pass_event_ended
-TEXT: Event Ended
+TEXT: इवेंट समात
 
 RESOURCE ID: event_pass_micro_action_modal_desc
 TEXT: अपनी रैंक बढ़ाने और रवॉड अनलॉक करने क लए पॉइंट ात करं। आप पास टाक या यहाँ सूचीब वभन उपलधयों को पूरा करक पॉइंट ात कर सकते हैं। पास टाक पूरा करने क लए आपको जो भी रवॉड मलंगे, वे आपको टाक पूरा करने क तुरंत बाद दए जाएँगे।
@@ -968,9 +972,9 @@ RESOURCE ID: event_pass_micro_action_modal_points_display
 TEXT: {0} पॉइंट
 
 RESOURCE ID: event_pass_micro_action_modal_points_info
-TEXT: Earn up to {0} extra points daily by completing certain tasks.
+TEXT: तय टाक पूर कर {0} अतरत पॉइंट कमाएँ।
 
-<b>Extra points earned today: {1}</b>
+<b>आज कमाएँ गये अतरत पॉइंट - {1}</b>
 
 RESOURCE ID: event_pass_micro_action_modal_title
 TEXT: पॉइंट ात करने का तरका
@@ -979,19 +983,19 @@ RESOURCE ID: event_pass_milestone
 TEXT: माइलटोन रवॉड {0} रैंक {1} पर ात होगा
 
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text
-TEXT: Awarded at Rank 100
+TEXT: रैक 100 पर मलगा।
 
 RESOURCE ID: event_pass_premium_reward_banner_middle_text
-TEXT: Lucky Trinket
+TEXT: लक चाम
 
 RESOURCE ID: event_pass_premium_reward_banner_top_text
-TEXT: MILESTONE REWARD
+TEXT: माइलटोन रवॉड
 
 RESOURCE ID: event_pass_rank_journal
-TEXT: {0} Rank {1} achieved.
+TEXT: {0} क रैंक {1} ात ई।
 
 RESOURCE ID: event_pass_reward_journal
-TEXT: {0} Rank {1} reward claimed.
+TEXT: {0} क रैंक {1} रवॉड लम कया।
 
 RESOURCE ID: event_pass_reward_preview_new_item_indicator
 TEXT: NEW ITEM!
@@ -1000,7 +1004,7 @@ RESOURCE ID: event_pass_reward_preview_upsell_description
 TEXT: This reward is available in Tour Pass Deluxe.
 
 RESOURCE ID: event_pass_rewards_journal
-TEXT: {0} Rewards claimed.
+TEXT: {0} रवॉड लम कये।
 
 RESOURCE ID: event_pass_rewards_to_claim
 TEXT: ये रवॉड ात कर सकते हैं - {0}
@@ -1176,6 +1180,9 @@ TEXT: एग हैचंग ऐसेस - जनवर का ट�
 
 RESOURCE ID: general1.ticket.5_janmonthly2025_title
 TEXT: एग हैचंग ऐसेस - जनवर
+
+RESOURCE ID: general1.ticket._lunarny0125_title
+TEXT: चं नववष  ीमयम सीमत समय वाल रसच टकट
 
 RESOURCE ID: general1.ticket._nye12302025_title
 TEXT: नव वष 2025 ीमयम सीमत समय वाल रसच टकट
@@ -1380,16 +1387,16 @@ RESOURCE ID: go_tour_2025_today_view_extended_hours
 TEXT: GO Tour: Unova – Extended Bonuses
 
 RESOURCE ID: go_tour_ep_bonus_title
-TEXT: Tour Pass Bonuses
+TEXT: टूर पास बोनस
 
 RESOURCE ID: go_tour_ep_bonus_title_00
-TEXT: Tier 1 Tour Pass Bonuses
+TEXT: टयर 1 टूर पास बोनस
 
 RESOURCE ID: go_tour_ep_bonus_title_01
-TEXT: Tier 2 Tour Pass Bonuses
+TEXT: टयर 2 टूर पास बोनस
 
 RESOURCE ID: go_tour_ep_bonus_title_02
-TEXT: Tier 3 Tour Pass Bonuses
+TEXT: टयर 3 टूर पास बोनस
 
 RESOURCE ID: go_tour_event_pass_availability
 TEXT: The event Tour Pass is available now
@@ -1592,16 +1599,16 @@ RESOURCE ID: gotour_2025_base_track_title
 TEXT: टूर पास
 
 RESOURCE ID: gotour_2025_deluxe_event_pass_track_unlock_description
-TEXT: Earn additional rewards at each rank.
+TEXT: हर रैंक पर अतरत रवॉड पाएँ।
 
 RESOURCE ID: gotour_2025_deluxe_event_pass_track_unlock_plus_points_description
-TEXT: Earn additional rewards at each rank, instantly advance 10 ranks, and get event stickers.
+TEXT: येक रैंक पर अतरत रवॉड ात करं, तुरंत 10 रैंक आगे बढ़ें, और इवेंट टकर ात करं।
 
 RESOURCE ID: gotour_2025_deluxe_event_pass_track_unlock_plus_points_title
-TEXT: Tour Pass Deluxe + 10 Ranks
+TEXT: टूर पास डीलस + 10 रैंक
 
 RESOURCE ID: gotour_2025_deluxe_event_pass_track_unlock_title
-TEXT: Tour Pass Deluxe
+TEXT: टूर पास डीलस
 
 RESOURCE ID: gotour_2025_event_duration
 TEXT: 24 फ़रवर  - 2 माच
@@ -1658,7 +1665,7 @@ RESOURCE ID: gotour_2025_pokemon_day_tr_title_00
 TEXT: Pokémon Presents 2025 x GO Tour: Unova Timed Research (1/1)
 
 RESOURCE ID: gotour_2025_premium_rewards_desc
-TEXT: Rewards are unlocked as your rank increases. You must play during the event to receive rewards.
+TEXT: रैंक बढ़ने क साथ-साथ रवॉड अनलॉक होंगे। रवॉड ात करने क लए आपको इवेंट क दौरान खेलना होगा।
 
 RESOURCE ID: gotour_2025_premium_track_title
 TEXT: टूर पास डीलस
@@ -1950,11 +1957,17 @@ TEXT: फ़ैशन वीक ीमयम सीमत समय व
 RESOURCE ID: item_event_ticket_05_details_fashionjan25
 TEXT: यह टकट अपने आप ऐटवेट होकर 10 जनवर को आपको फ़ैशन वीक ीमयम सीमत समय वाल रसच का ऐसेस देगी।
 
+RESOURCE ID: item_event_ticket_evergreen_desc_lunarny0125
+TEXT: चं नववष ीमयम सीमत समय वाल रसच को थानीय समयानुसार 2 फ़रवर 2025,  रात 8 बजे एसेस करने का टकट।
+
 RESOURCE ID: item_event_ticket_evergreen_desc_nye12302025
 TEXT: थानीय समयानुसार 30 दसंबर 2024 सुबह 10 बजे से 1 जनवर 2025 शाम 8 बजे तक होने वाल नव वष 2025 ीमयम सीमत समय वाल रसच को एसेस करने का टकट।
 
 RESOURCE ID: item_event_ticket_evergreen_desc_stldrslv0125
 TEXT: दृढ़ संकप ीमयम सीमत समय वाल रसच को थानीय समयानुसार 26 जनवर 2025 को रात 11:59 बजे एसेस करने का टकट।
+
+RESOURCE ID: item_event_ticket_evergreen_details_lunarny0125
+TEXT: यह टकट अपने आप ऐटवेट होकर 29 जनवर को आपको चं नववष ीमयम सीमत समय वाल रसच का ऐसेस देगी।
 
 RESOURCE ID: item_event_ticket_evergreen_details_nye12302025
 TEXT: यह टकट अपने आप ऐटवेट होकर 30 दसंबर, 2024 को आपको नव वष 2025 ीमयम सीमत समय वाल रसच का ऐसेस देगी।
@@ -2076,11 +2089,26 @@ TEXT: {0} and you became Lucky Friends with a Lucky Charm!
 RESOURCE ID: lunar_new_year_catch_timed_research
 TEXT: चं नववष : कच चैलंज
 
+RESOURCE ID: lunar_new_year_collection
+TEXT: चं नववष कलशन चैलंज
+
 RESOURCE ID: lunar_new_year_event_name
 TEXT: चं नववष
 
 RESOURCE ID: lunar_new_year_friendship_timed_research
 TEXT: चं नववष : दोती का चैलंज
+
+RESOURCE ID: lunar_ny_free_tr_name
+TEXT: सप वष सीमत समय वाल रसच
+
+RESOURCE ID: lunar_ny_tr_name
+TEXT: चं नववष  ीमयम सीमत समय वाल रसच
+
+RESOURCE ID: lunar_ny_tr_name_1
+TEXT: चं नववष  ीमयम सीमत समय वाल रसच (1/2)
+
+RESOURCE ID: lunar_ny_tr_name_2
+TEXT: चं नववष  ीमयम सीमत समय वाल रसच (2/2)
 
 RESOURCE ID: max_battle_day_gigantamax_kingler_event_name
 TEXT: जायगैंटामैस कंगलर मैस बैटल दवस
@@ -2106,10 +2134,10 @@ RESOURCE ID: mega_raids_increase
 TEXT: मेगा रड क संया बढ़ी
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-01-24T01:41:43.456164+00:00 for hi-IN
-at SHA b91a932d7f1
-Pipeline 2937222, job 36196040
-Patch from: 0.347.0-SHA-859c6c0f-RC2, 0.345.0-SHA-b4eb14ea-RC2
+TEXT: Built at 2025-01-24T21:14:24.537692+00:00 for hi-IN
+at SHA d4e72de6377
+Pipeline 2939539, job 36233155
+Patch from: 0.347.0-SHA-57b69799-RC1, 0.345.0-SHA-deaf161f-RC1
 
 RESOURCE ID: move_name_0465
 TEXT: लावर मैजक
@@ -2158,7 +2186,7 @@ RESOURCE ID: next_rank_label
 TEXT: अगल रैंक तक -
 
 RESOURCE ID: no_items_to_claim
-TEXT: No claimable rewards. Pokémon encounters must be claimed separately.
+TEXT: लम करने क लए रवॉड नहीं है। पोकमॉन क साथ मुलाकात को अलग से लम करना होगा।
 
 RESOURCE ID: ny_excellent_bonus_2025
 TEXT: बेहतरन ो क लए 2,025 XP
@@ -2878,7 +2906,7 @@ RESOURCE ID: remote_raid_max_remote_ticket_warning
 TEXT: आप अधकतम रमोट रड पास ({0}) ल चुक हैं। जब आपक पास कम रमोट रड पास हों, तब दुबारा कोशश करं।
 
 RESOURCE ID: reward_already_claimed
-TEXT: Reward has already been claimed.
+TEXT: यह रवॉड पहल ही लम कर लया गया है।
 
 RESOURCE ID: road_to_unova_event_title
 TEXT: युनोवा माग
@@ -3183,6 +3211,12 @@ TEXT: <b>शामल चीज़ें :</b>
 - आइटम बैग में 2x गट रख पाएंगे (कल 40)
 - और भी बत कछ!
 
+RESOURCE ID: text_rewards_key_lunarny0125
+TEXT: <b>शामल रवॉड -</b>
+• दो लक एग
+• एक इयूबेटर
+• 12,000 XP
+
 RESOURCE ID: text_rewards_key_megagalladeraidday
 TEXT: <b>शामल बोनस - </b>
 • जम क फ़ोटो डक िपन करने से 8 अतरत रड पास
@@ -3216,7 +3250,7 @@ RESOURCE ID: ticket_sprigatito
 TEXT: याओजकल इवेंट पेशल रसच का टकट शॉप में उपलध है
 
 RESOURCE ID: time_left_to_claim_rewards
-TEXT: Time left to claim rewards:
+TEXT: रवॉड लम करने क लए बचा समय-
 
 RESOURCE ID: tips_trading_intro_modal_body
 TEXT: दूसर टनस क साथ पोकमॉन को टड करक अपनी दोती का लवल बढ़ाएं! पोकमॉन को टड करने क लए अपनी ड लट खोलं और उस टनर पर टैप करं जसक साथ आप पोकमॉन को टड करना चाहते हैं। इसक बाद, टडंग ीन पर जाने क लए, <b>टड करं</b> बटन पर टैप करं।
@@ -3258,16 +3292,16 @@ RESOURCE ID: title_bonus_dual_destiny_spark_tr_00
 TEXT: Thanks from Team Instinct: Bonus Timed Research (1/1)
 
 RESOURCE ID: title_event_pass_bonus_bonus_quest
-TEXT: Bonus Quests
+TEXT: बोनस वेट
 
 RESOURCE ID: title_event_pass_daily_bonus_quest
-TEXT: Daily Quests
+TEXT: दैनक वेट
 
 RESOURCE ID: title_event_pass_daily_bonus_quest_premium
 TEXT: Daily Tasks – Premium
 
 RESOURCE ID: title_event_pass_hourly_bonus_quest
-TEXT: Hourly Quests
+TEXT: हर घंट क वेट
 
 RESOURCE ID: title_road_to_unova_hatch
 TEXT: युनोवा माग - हैच सीमत समय वाल रसच
@@ -3406,10 +3440,10 @@ RESOURCE ID: tr_uxie_photo_safari
 TEXT: GO Tour : रहपर फ़ोटो सफ़ार
 
 RESOURCE ID: trade_gmax_in_pokedex
-TEXT: Gigantamax Pokémon in Pokédex
+TEXT: पोकडेस में जायगैंटामैस पोकमॉन
 
 RESOURCE ID: trade_gmax_non_pokedex
-TEXT: All Gigantamax Pokémon
+TEXT: सभी जायगैंटामैस पोकमॉन
 
 RESOURCE ID: tutorial_route_play_body_0
 TEXT: अपनी लोकल कयुनट को ढूँढ़े और ट एसलोर कर रवॉड हासल करं 
@@ -3432,7 +3466,7 @@ RESOURCE ID: use_ice_burn_effect
 TEXT: मुलाकात क दौरान टागेट रंग क हलने क गत कम हो जाती है।
 
 RESOURCE ID: view_rewards
-TEXT: View Rewards
+TEXT: रवॉड देखें
 
 RESOURCE ID: vps_localization_instruction_header
 TEXT: पोकटॉप एरया ढूँढ़ें

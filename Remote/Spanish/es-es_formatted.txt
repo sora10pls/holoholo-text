@@ -593,13 +593,13 @@ RESOURCE ID: ejection_weak_connection_modal_title
 TEXT: Error de red
 
 RESOURCE ID: enter_route_share_code_button
-TEXT: Enter Route Share Code
+TEXT: Introducir código de Ruta
 
 RESOURCE ID: enter_route_share_code_header
-TEXT: Enter Route Share Code:
+TEXT: Introduce el código de Ruta:
 
 RESOURCE ID: enter_route_share_code_placeholder
-TEXT: Example: ABC123
+TEXT: Ejemplo: ABC123
 
 RESOURCE ID: error_lucky_charm_already_lucky
 TEXT: Esta persona ya es una amistad con suerte.
@@ -630,6 +630,10 @@ TEXT: 1 de febrero de 14:00 a 17:00
 RESOURCE ID: event_datetime_range_key_janmonthly2025
 TEXT: Del 1 de enero a las 10:00 –
 al 31 de enero a las 20:00
+
+RESOURCE ID: event_datetime_range_key_lunarny0125
+TEXT: Del 29 de enero a las 22:00 
+al 2 de febrero a las 20:00
 
 RESOURCE ID: event_datetime_range_key_megagalladeraidday
 TEXT: 11 enero de 14:00 a 17:00.
@@ -853,6 +857,9 @@ Puedes encontrar más información en las noticias dentro del juego.
 RESOURCE ID: general1.ticket.5_janmonthly2025_title
 TEXT: Operación eclosión: Enero
 
+RESOURCE ID: general1.ticket._lunarny0125_title
+TEXT: Entrada de la investigación temporal prémium del Año Nuevo Lunar
+
 RESOURCE ID: general1.ticket._nye12302025_title
 TEXT: Entrada: Investigación temporal prémium de Año Nuevo 2025
 
@@ -878,10 +885,10 @@ RESOURCE ID: general2.ticket._shadowhoohraidday_title
 TEXT: Entrada: Día de Incursiones oscuras de Ho-Oh
 
 RESOURCE ID: get_route_share_code_button
-TEXT: GET SHARE CODE
+TEXT: CONSEGUIR CÓDIGO DE RUTA
 
 RESOURCE ID: get_route_via_code_error_not_found
-TEXT: Route not found
+TEXT: No se ha encontrado la Ruta
 
 RESOURCE ID: global_challenge_level_1
 TEXT: Nivel 1
@@ -1198,11 +1205,17 @@ TEXT: Una entrada para acceder a la investigación temporal prémium de la Seman
 RESOURCE ID: item_event_ticket_05_details_fashionjan25
 TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal prémium de la Semana de la Moda el 10 de enero, estés donde estés.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_lunarny0125
+TEXT: Una entrada para acceder a la investigación temporal prémium del Año Nuevo Lunar hasta el 2 de febrero de 2025 a las 20:00 en tu hora local, estés donde estés.
+
 RESOURCE ID: item_event_ticket_evergreen_desc_nye12302025
 TEXT: Una entrada para acceder a la investigación temporal prémium de Año Nuevo 2025 desde el 30 de diciembre de 2024 a las 10:00 hasta el 1 de enero de 2025 a las 20:00 en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_evergreen_desc_stldrslv0125
 TEXT: Una entrada para acceder a la investigación temporal prémium de Un acero resoluto hasta el 26 de enero de 2025 a las 23:59 en tu hora local, estés donde estés.
+
+RESOURCE ID: item_event_ticket_evergreen_details_lunarny0125
+TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal prémium del Año Nuevo Lunar el 29 de enero, estés donde estés.
 
 RESOURCE ID: item_event_ticket_evergreen_details_nye12302025
 TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal prémium de Año Nuevo 2025 el 30 de diciembre de 2024, estés donde estés.
@@ -1303,6 +1316,21 @@ TEXT: ¡Te queda 1 minuto para usar tu <b>Recuerdo Suerte</b>!
 RESOURCE ID: lucky_friends_notification_details_from_charm
 TEXT: {0} and you became Lucky Friends with a Lucky Charm!
 
+RESOURCE ID: lunar_new_year_collection
+TEXT: Desafío de colección del Año Nuevo Lunar
+
+RESOURCE ID: lunar_ny_free_tr_name
+TEXT: Investigación temporal del Año de la Serpiente
+
+RESOURCE ID: lunar_ny_tr_name
+TEXT: Investigación temporal prémium del Año Nuevo Lunar
+
+RESOURCE ID: lunar_ny_tr_name_1
+TEXT: Investigación temporal prémium del Año Nuevo Lunar (1/2)
+
+RESOURCE ID: lunar_ny_tr_name_2
+TEXT: Investigación temporal prémium del Año Nuevo Lunar (2/2)
+
 RESOURCE ID: max_battle_day_gigantamax_kingler_event_name
 TEXT: Día de Combates Max: Kingler Gigamax
 
@@ -1313,10 +1341,10 @@ RESOURCE ID: mega_gallade_raid_day_event_name
 TEXT: Día de Incursiones: Mega-Gallade
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-01-24T01:41:43.456164+00:00 for es-ES
-at SHA b91a932d7f1
-Pipeline 2937222, job 36196040
-Patch from: 0.347.0-SHA-859c6c0f-RC2, 0.345.0-SHA-b4eb14ea-RC2
+TEXT: Built at 2025-01-24T21:14:24.537692+00:00 for es-ES
+at SHA d4e72de6377
+Pipeline 2939539, job 36233155
+Patch from: 0.347.0-SHA-57b69799-RC1, 0.345.0-SHA-deaf161f-RC1
 
 RESOURCE ID: move_name_0465
 TEXT: Truco Floral
@@ -1409,7 +1437,7 @@ RESOURCE ID: pokemon_xl_candy_reward_plural
 TEXT: {0} Candy XL
 
 RESOURCE ID: postcard_sender_section_mateo
-TEXT: Mateo’s Gift Exchange
+TEXT: Intercambio de regalos de Mateo
 
 RESOURCE ID: premium_label
 TEXT: Deluxe
@@ -1804,13 +1832,13 @@ RESOURCE ID: road_to_unova_pikachu_title
 TEXT: Pikachu Surprise
 
 RESOURCE ID: route_share_code_copied
-TEXT: Copied share code
+TEXT: Se ha copiado el código de Ruta
 
 RESOURCE ID: route_share_code_text
-TEXT: Route share code: {0}
+TEXT: Código de Ruta:{0}
 
 RESOURCE ID: route_share_section_header
-TEXT: SHARING
+TEXT: COMPARTIR
 
 RESOURCE ID: safari_city_2025_milan_title
 TEXT: City Safari: Milan 2025
@@ -1933,6 +1961,12 @@ TEXT: <b>Incluye:</b>
 • Una investigación temporal con la que podrás conseguir 15 000 PX y 15 000 Polvos Estelares
 • Almacena el doble de regalos en tu Bolsa (40 en total)
 • ¡Y mucho más!
+
+RESOURCE ID: text_rewards_key_lunarny0125
+TEXT: <b>Recompensas incluidas:</b>
+• 2 Huevos Suerte
+• 1 Incubadora
+• 12 000 PX
 
 RESOURCE ID: text_rewards_key_megagalladeraidday
 TEXT: <b>Bonus incluidos:</b>

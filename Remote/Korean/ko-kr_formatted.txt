@@ -631,6 +631,10 @@ RESOURCE ID: event_datetime_range_key_janmonthly2025
 TEXT: 1월 1일 10시~
 1월 31일 20시
 
+RESOURCE ID: event_datetime_range_key_lunarny0125
+TEXT: 1월 29일 10시~
+2월 2일 20시
+
 RESOURCE ID: event_datetime_range_key_megagalladeraidday
 TEXT: 1월 11일 14시~17시
 
@@ -851,6 +855,9 @@ TEXT: 현지 시간 2025년 1월 1일 10시 ~ 1월 31일 20시까지 다음을 �
 
 RESOURCE ID: general1.ticket.5_janmonthly2025_title
 TEXT: 부화 정기권: 1월
+
+RESOURCE ID: general1.ticket._lunarny0125_title
+TEXT: 설날 이벤트 프리미엄 시간제한 리서치 티켓
 
 RESOURCE ID: general1.ticket._nye12302025_title
 TEXT: 새해 2025 프리미엄 시간제한 리서치 티켓
@@ -1201,11 +1208,17 @@ TEXT: 현지시간 2025년 1월 19일 20시까지 패션 위크 프리미엄 시
 RESOURCE ID: item_event_ticket_05_details_fashionjan25
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 1월 10일에 패션 위크 프리미엄 시간제한 리서치가 진행됩니다.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_lunarny0125
+TEXT: 현지시간 2025년 2월 2일 20시까지 설날 이벤트 프리미엄 시간제한 리서치를 진행할 수 있는 티켓.
+
 RESOURCE ID: item_event_ticket_evergreen_desc_nye12302025
 TEXT: 현지시간 2024년 12월 30일 10시 ~ 2025년 1월 8일 20시까지 "새해 2025 프리미엄 시간제한 리서치"를 진행할 수 있는 티켓
 
 RESOURCE ID: item_event_ticket_evergreen_desc_stldrslv0125
 TEXT: 현지시간 2025년 1월 26일 23시 59분까지 강철의 결심 프리미엄 시간제한 리서치를 진행할 수 있는 티켓.
+
+RESOURCE ID: item_event_ticket_evergreen_details_lunarny0125
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 1월 29일에 설날 이벤트 프리미엄 시간제한 리서치가 진행됩니다.
 
 RESOURCE ID: item_event_ticket_evergreen_details_nye12302025
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 12월 30일에 새해 2025 프리미엄 시간제한 리서치가 진행됩니다.
@@ -1306,6 +1319,21 @@ TEXT: <b>반짝이 참</b> 사용가능 시간은 앞으로 1분
 RESOURCE ID: lucky_friends_notification_details_from_charm
 TEXT: {0} and you became Lucky Friends with a Lucky Charm!
 
+RESOURCE ID: lunar_new_year_collection
+TEXT: 설날 이벤트 컬렉션 챌린지
+
+RESOURCE ID: lunar_ny_free_tr_name
+TEXT: 뱀띠 시간제한 리서치
+
+RESOURCE ID: lunar_ny_tr_name
+TEXT: 뱀띠 프리미엄 시간제한 리서치
+
+RESOURCE ID: lunar_ny_tr_name_1
+TEXT: 설날 이벤트 프리미엄 시간제한 리서치(1/2)
+
+RESOURCE ID: lunar_ny_tr_name_2
+TEXT: 설날 이벤트 프리미엄 시간제한 리서치(2/2)
+
 RESOURCE ID: max_battle_day_gigantamax_kingler_event_name
 TEXT: 거다이맥스 킹크랩 맥스배틀 데이
 
@@ -1316,10 +1344,10 @@ RESOURCE ID: mega_gallade_raid_day_event_name
 TEXT: 레이드 데이: 메가엘레이드
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-01-24T01:41:43.456164+00:00 for ko-KR
-at SHA b91a932d7f1
-Pipeline 2937222, job 36196040
-Patch from: 0.347.0-SHA-859c6c0f-RC2, 0.345.0-SHA-b4eb14ea-RC2
+TEXT: Built at 2025-01-24T21:14:24.537692+00:00 for ko-KR
+at SHA d4e72de6377
+Pipeline 2939539, job 36233155
+Patch from: 0.347.0-SHA-57b69799-RC1, 0.345.0-SHA-deaf161f-RC1
 
 RESOURCE ID: move_name_0465
 TEXT: 트릭플라워
@@ -1940,6 +1968,12 @@ TEXT: <b>받을 수 있는 것:</b>
 - 도구 가방에 가질 수 있는 선물의 수 2배(최대 40개)
 - 기타
 
+RESOURCE ID: text_rewards_key_lunarny0125
+TEXT: <b>받을 수 있는 리워드:</b>
+- 행복의알 2개
+- 부화장치 1개
+- 12,000XP 등
+
 RESOURCE ID: text_rewards_key_megagalladeraidday
 TEXT: <b>받을 수 있는 것:</b>
 - 체육관 포토 디스크를 돌려 추가 레이드패스 8개
@@ -2096,10 +2130,10 @@ RESOURCE ID: tr_go_tour_2025_irl_tornadus_title_01
 TEXT: 레전드: 0641(2/2)
 
 RESOURCE ID: trade_gmax_in_pokedex
-TEXT: Gigantamax Pokémon in Pokédex
+TEXT: 도감에 등록된 거다이맥스 포켓몬
 
 RESOURCE ID: trade_gmax_non_pokedex
-TEXT: All Gigantamax Pokémon
+TEXT: 모든 거다이맥스 포켓몬
 
 RESOURCE ID: use_freeze_shock_effect
 TEXT: 포켓몬이 움직일 수 없게 된다

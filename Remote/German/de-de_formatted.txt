@@ -593,13 +593,13 @@ RESOURCE ID: ejection_weak_connection_modal_title
 TEXT: Netzwerkfehler
 
 RESOURCE ID: enter_route_share_code_button
-TEXT: Enter Route Share Code
+TEXT: Routencode eingeben
 
 RESOURCE ID: enter_route_share_code_header
-TEXT: Enter Route Share Code:
+TEXT: Routencode eingeben:
 
 RESOURCE ID: enter_route_share_code_placeholder
-TEXT: Example: ABC123
+TEXT: Beispiel: ABC123
 
 RESOURCE ID: error_lucky_charm_already_lucky
 TEXT: Dieser Freund ist bereits dein Glücks-Freund.
@@ -630,6 +630,10 @@ TEXT: 1. Februar, 14:00 bis 17:00 Uhr
 RESOURCE ID: event_datetime_range_key_janmonthly2025
 TEXT: 1. Januar, 10:00 Uhr bis
 31. Januar, 20:00 Uhr Ortszeit
+
+RESOURCE ID: event_datetime_range_key_lunarny0125
+TEXT: 29. Januar, 22:00 Uhr bis
+2. Februar, 20:00 Uhr
 
 RESOURCE ID: event_datetime_range_key_megagalladeraidday
 TEXT: 11. Januar, 14:00 bis 17:00 Uhr
@@ -853,6 +857,9 @@ Details unter „Neuigkeiten“ im Spiel.
 RESOURCE ID: general1.ticket.5_janmonthly2025_title
 TEXT: Eierlei Zugang: Januar
 
+RESOURCE ID: general1.ticket._lunarny0125_title
+TEXT: Ticket: Befristete Premium-Forschung „Mondneujahr“
+
 RESOURCE ID: general1.ticket._nye12302025_title
 TEXT: Ticket: Befristete Premium-Forschung „Neujahr 2025“
 
@@ -878,10 +885,10 @@ RESOURCE ID: general2.ticket._shadowhoohraidday_title
 TEXT: Ticket: Crypto-Raid-Tag mit Ho-Oh
 
 RESOURCE ID: get_route_share_code_button
-TEXT: GET SHARE CODE
+TEXT: CODE ERHALTEN
 
 RESOURCE ID: get_route_via_code_error_not_found
-TEXT: Route not found
+TEXT: Route nicht gefunden
 
 RESOURCE ID: global_challenge_level_1
 TEXT: Level 1
@@ -1202,11 +1209,17 @@ TEXT: Ein Ticket für den Zugang zur Befristeten Premium-Forschung „Fashion We
 RESOURCE ID: item_event_ticket_05_details_fashionjan25
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Premium-Forschung „Fashion Week“ am 10. Januar (wo immer du dich befindest).
 
+RESOURCE ID: item_event_ticket_evergreen_desc_lunarny0125
+TEXT: Ein Ticket für den Zugang zur Befristeten Premium-Forschung „Mondneujahr“ bis zum 2. Februar 2025 um 20:00 Uhr Ortszeit (wo immer du dich befindest).
+
 RESOURCE ID: item_event_ticket_evergreen_desc_nye12302025
 TEXT: Ein Ticket für den Zugang zur Befristeten Premium-Forschung „Neujahr 2025“ vom 30. Dezember 2024 um 10:00 Uhr bis 1. Januar 2025 um 20:00 Uhr Ortszeit (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_evergreen_desc_stldrslv0125
 TEXT: Ein Ticket für den Zugang zur Befristeten Premium-Forschung „Stählerner Entschluss“ bis zum 26. Januar 2025 um 23:59 Uhr Ortszeit (wo immer du dich befindest).
+
+RESOURCE ID: item_event_ticket_evergreen_details_lunarny0125
+TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Premium-Forschung „Mondneujahr“ am 29. Januar (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_evergreen_details_nye12302025
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Premium-Forschung „Neujahr 2025“ am 30. Dezember (wo immer du dich befindest).
@@ -1307,6 +1320,21 @@ TEXT: Du hast noch 1 Minute Zeit, um dein <b>Glücks-Klimbim</b> einzusetzen!
 RESOURCE ID: lucky_friends_notification_details_from_charm
 TEXT: {0} and you became Lucky Friends with a Lucky Charm!
 
+RESOURCE ID: lunar_new_year_collection
+TEXT: Mondneujahr: Sammler-Herausforderung
+
+RESOURCE ID: lunar_ny_free_tr_name
+TEXT: Befristete Forschung: Jahr der Schlange
+
+RESOURCE ID: lunar_ny_tr_name
+TEXT: Befristete Premium-Forschung: Mondneujahr
+
+RESOURCE ID: lunar_ny_tr_name_1
+TEXT: Befristete Premium-Forschung: Mondneujahr (1/2)
+
+RESOURCE ID: lunar_ny_tr_name_2
+TEXT: Befristete Premium-Forschung: Mondneujahr (2/2)
+
 RESOURCE ID: max_battle_day_gigantamax_kingler_event_name
 TEXT: Dyna-Kampftag mit Gigadynamax-Kingler
 
@@ -1317,10 +1345,10 @@ RESOURCE ID: mega_gallade_raid_day_event_name
 TEXT: Raid-Tag: Mega-Galagladi
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-01-24T01:41:43.456164+00:00 for de-DE
-at SHA b91a932d7f1
-Pipeline 2937222, job 36196040
-Patch from: 0.347.0-SHA-859c6c0f-RC2, 0.345.0-SHA-b4eb14ea-RC2
+TEXT: Built at 2025-01-24T21:14:24.537692+00:00 for de-DE
+at SHA d4e72de6377
+Pipeline 2939539, job 36233155
+Patch from: 0.347.0-SHA-57b69799-RC1, 0.345.0-SHA-deaf161f-RC1
 
 RESOURCE ID: move_name_0465
 TEXT: Blumentrick
@@ -1413,7 +1441,7 @@ RESOURCE ID: pokemon_xl_candy_reward_plural
 TEXT: {0} Candy XL
 
 RESOURCE ID: postcard_sender_section_mateo
-TEXT: Mateo’s Gift Exchange
+TEXT: Mateos Geschenketausch
 
 RESOURCE ID: premium_label
 TEXT: Deluxe
@@ -1808,13 +1836,13 @@ RESOURCE ID: road_to_unova_pikachu_title
 TEXT: Pikachu Surprise
 
 RESOURCE ID: route_share_code_copied
-TEXT: Copied share code
+TEXT: Code kopiert
 
 RESOURCE ID: route_share_code_text
-TEXT: Route share code: {0}
+TEXT: Routencode: {0}
 
 RESOURCE ID: route_share_section_header
-TEXT: SHARING
+TEXT: TEILEN
 
 RESOURCE ID: safari_city_2025_milan_title
 TEXT: City Safari: Milan 2025
@@ -1937,6 +1965,12 @@ TEXT: <b>Enthält:</b>
 • Eine Befristete Forschung, die 15 000 EP und 15 000 Sternenstaub zur Belohnung hat
 • Bewahre 2× so viele Geschenke in deinem Item-Beutel auf (40 insgesamt)
 • Und mehr!
+
+RESOURCE ID: text_rewards_key_lunarny0125
+TEXT: <b>Enthaltene Boni:</b>
+• 2 Glücks-Eier
+• 1 Brutmaschine
+• 12 000 EP
 
 RESOURCE ID: text_rewards_key_megagalladeraidday
 TEXT: <b>Enthaltene Boni:</b>

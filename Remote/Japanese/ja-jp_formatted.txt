@@ -619,6 +619,10 @@ RESOURCE ID: event_datetime_range_key_janmonthly2025
 TEXT: 1月1日10:00AM～
 1月31日8:00PM
 
+RESOURCE ID: event_datetime_range_key_lunarny0125
+TEXT: 1月29日10:00AM～
+2月2日8:00PM
+
 RESOURCE ID: event_datetime_range_key_megagalladeraidday
 TEXT: 1月11日2:00PM～5:00PM
 
@@ -840,6 +844,9 @@ TEXT: 現地時間2025年1月1日10:00AM～1月31日8:00PMに以下を含む「�
 
 RESOURCE ID: general1.ticket.5_janmonthly2025_title
 TEXT: ふかアクセス：1月
+
+RESOURCE ID: general1.ticket._lunarny0125_title
+TEXT: 旧正月プレミアムタイムチャレンジチケット
 
 RESOURCE ID: general1.ticket._nye12302025_title
 TEXT: お正月2025プレミアムタイムチャレンジチケット
@@ -1190,11 +1197,17 @@ TEXT: 現地時間2025年1月19日8:00PMまでファッションウィークプ�
 RESOURCE ID: item_event_ticket_05_details_fashionjan25
 TEXT: このチケットは自動的に発動し1月10日にファッションウィークプレミアムタイムチャレンジが行えるようになります。
 
+RESOURCE ID: item_event_ticket_evergreen_desc_lunarny0125
+TEXT: 現地時間2025年2月2日8:00PMまで旧正月プレミアムタイムチャレンジが行えるチケット。
+
 RESOURCE ID: item_event_ticket_evergreen_desc_nye12302025
 TEXT: 現地時間2024年12月30日10:00AM～2025年1月1日8:00PMにお正月2025プレミアムタイムチャレンジを行うためのチケット。
 
 RESOURCE ID: item_event_ticket_evergreen_desc_stldrslv0125
 TEXT: 現地時間2025年1月26日11:59PMまではがねの決意プレミアムタイムチャレンジが行えるチケット。
+
+RESOURCE ID: item_event_ticket_evergreen_details_lunarny0125
+TEXT: このチケットは自動的に発動し1月29日に旧正月プレミアムタイムチャレンジが行えるようになります。
 
 RESOURCE ID: item_event_ticket_evergreen_details_nye12302025
 TEXT: このチケットは自動的に発動し12月30日にお正月2025プレミアムタイムチャレンジが行えるようになります。
@@ -1295,6 +1308,21 @@ TEXT: <b>キラチャーム</b>使用できるのはあと1分！
 RESOURCE ID: lucky_friends_notification_details_from_charm
 TEXT: {0} and you became Lucky Friends with a Lucky Charm!
 
+RESOURCE ID: lunar_new_year_collection
+TEXT: 旧正月コレクションチャレンジ
+
+RESOURCE ID: lunar_ny_free_tr_name
+TEXT: 巳年タイムチャレンジ
+
+RESOURCE ID: lunar_ny_tr_name
+TEXT: 旧正月プレミアムタイムチャレンジ
+
+RESOURCE ID: lunar_ny_tr_name_1
+TEXT: 旧正月プレミアムタイムチャレンジ(1/2)
+
+RESOURCE ID: lunar_ny_tr_name_2
+TEXT: 旧正月プレミアムタイムチャレンジ(2/2)
+
 RESOURCE ID: max_battle_day_gigantamax_kingler_event_name
 TEXT: キングラー（キョダイマックス）マックスバトルデイ
 
@@ -1305,10 +1333,10 @@ RESOURCE ID: mega_gallade_raid_day_event_name
 TEXT: レイドデイ：メガエルレイド
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-01-24T01:41:43.456164+00:00 for ja-JP
-at SHA b91a932d7f1
-Pipeline 2937222, job 36196040
-Patch from: 0.347.0-SHA-859c6c0f-RC2, 0.345.0-SHA-b4eb14ea-RC2
+TEXT: Built at 2025-01-24T21:14:24.537692+00:00 for ja-JP
+at SHA d4e72de6377
+Pipeline 2939539, job 36233155
+Patch from: 0.347.0-SHA-57b69799-RC1, 0.345.0-SHA-deaf161f-RC1
 
 RESOURCE ID: move_name_0465
 TEXT: トリックフラワー
@@ -1929,6 +1957,12 @@ TEXT: <b>もらえるもの：</b>
 ・完了すると15000XPと15000ほしのすながもらえるタイムチャレンジ
 ・ 道具バッグ内に持てるギフト数2倍（計40個）
 ・その他
+
+RESOURCE ID: text_rewards_key_lunarny0125
+TEXT: <b>もらえるもの：</b>
+・しあわせタマゴ2個
+・ふかそうち1個
+・12000XP、など
 
 RESOURCE ID: text_rewards_key_megagalladeraidday
 TEXT: <b>適用ボーナス：</b>
