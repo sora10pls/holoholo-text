@@ -488,7 +488,7 @@ RESOURCE ID: bonus_daily_pass_tasks
 TEXT: Bonus daily Pass Tasks awarding additional Tour Points
 
 RESOURCE ID: bonus_daily_t5_raid_lineup
-TEXT: Different T5 Raid bosses available each day during the event!
+TEXT: Different five-star Raid Bosses will appear each day of the event
 
 RESOURCE ID: bonus_deerling_spawn_notice
 TEXT: Deerling are appearing in the area
@@ -583,6 +583,9 @@ TEXT: For more details, visit the <a href="https://pokemongolive.com/news">websi
 RESOURCE ID: details_link_key_cdc_ralts25
 TEXT: For more details, visit the <a href="https://pokemongolive.com/news">website</a>.
 
+RESOURCE ID: details_link_key_gotourhatch2025
+TEXT: For more details, visit the <a href=https://pokemongolive.com/post/road-to-unova-event/"">website</a>."
+
 RESOURCE ID: dmax_articuno_max_battles
 TEXT: Dynamax Articuno is appearing in Max Battles
 
@@ -660,6 +663,18 @@ February 28, 8:00 p.m.
 RESOURCE ID: event_datetime_range_key_gmaxkingler25
 TEXT: February 1, 2:00 p.m. – 5:00 p.m.
 
+RESOURCE ID: event_datetime_range_key_gotour2025
+TEXT: February 24, 10:00 a.m. –
+March 2, 6:00 p.m.
+
+RESOURCE ID: event_datetime_range_key_gotour2025_masterwork
+TEXT: February 24, 10:00 a.m. –
+March 2, 6:00 p.m.
+
+RESOURCE ID: event_datetime_range_key_gotourhatch2025
+TEXT: February at 10:00 a.m. –
+March 2 at 6:00 p.m.
+
 RESOURCE ID: event_datetime_range_key_janmonthly2025
 TEXT: January 1, 10:00 a.m. –
 January 31, 8:00 p.m.
@@ -689,7 +704,7 @@ RESOURCE ID: event_pass_additional_bonus_rank_divider_header
 TEXT: BONUS RANKS
 
 RESOURCE ID: event_pass_additional_bonus_rank_divider_title
-TEXT: You’ve completed the Pass!
+TEXT: You’ve completed the pass!
 
 RESOURCE ID: event_pass_button
 TEXT: GET DELUXE
@@ -738,7 +753,7 @@ RESOURCE ID: event_pass_reward_preview_new_item_indicator
 TEXT: NEW ITEM!
 
 RESOURCE ID: event_pass_reward_preview_upsell_description
-TEXT: This reward is available in Tour Pass Deluxe.
+TEXT: This reward is available in the Tour Pass Deluxe.
 
 RESOURCE ID: event_pass_rewards_journal
 TEXT: {0} Rewards claimed.
@@ -753,25 +768,25 @@ RESOURCE ID: experience_points
 TEXT: XP
 
 RESOURCE ID: expire_notification_day_plural
-TEXT: You have {0} days left to use your <b>{1}!</b>
+TEXT: You have {0} days left to use your <b>{1}</b>!
 
 RESOURCE ID: expire_notification_day_singular
-TEXT: You have 1 day left to use your <b>{0}!</b>
+TEXT: You have 1 day left to use your <b>{0}</b>!
 
 RESOURCE ID: expire_notification_hour_plural_min_plural
-TEXT: You have {0} hours and {1} minutes left to use your <b>{2}!</b>
+TEXT: You have {0} hours and {1} minutes left to use your <b>{2}</b>!
 
 RESOURCE ID: expire_notification_hour_plural_min_singular
-TEXT: You have {0} hours and 1 minute left to use your <b>{1}!</b>
+TEXT: You have {0} hours and 1 minute left to use your <b>{1}</b>!
 
 RESOURCE ID: expire_notification_hour_singular_min_plural
-TEXT: You have 1 hour and {0} minutes left to use your <b>{1}!</b>
+TEXT: You have 1 hour and {0} minutes left to use your <b>{1}</b>!
 
 RESOURCE ID: expire_notification_min_plural
-TEXT: You have {0} minutes left to use your <b>{1}!</b>
+TEXT: You have {0} minutes left to use your <b>{1}</b>!
 
 RESOURCE ID: expire_notification_min_singular
-TEXT: You have 1 minute left to use your <b>{0}!</b>
+TEXT: You have 1 minute left to use your <b>{0}</b>!
 
 RESOURCE ID: fashion_jan25_collection_challenge_1
 TEXT: Fashion Week Collection Challenge
@@ -834,7 +849,7 @@ RESOURCE ID: freeze_shock_adventure_effects_mapview_dialog
 TEXT: Freeze Shock paralyzes Pokémon, causing them to be frozen in place during encounters. Paralyzed Pokémon will not move around the screen or knock back thrown Poké Balls.
 
 RESOURCE ID: freeze_shock_move_content
-TEXT: Casts electrically charged ice for {0} minutes, paralyzing Pokémon during encounters. Also makes Pokémon easier to catch. This increased catch rate also applies to connected accessory devices.
+TEXT: Casts electrically charged ice for {0}, immobilizing Pokémon during encounters. It also makes Pokémon easier to catch. Connected accessory devices will also be more effective when catching Pokémon.
 
 RESOURCE ID: fusion_resource_black_kyurem_desc
 TEXT: Volt Fusion Energy
@@ -891,6 +906,15 @@ Details can be found in the in-game News.
 
 RESOURCE ID: general1.ticket.5_janmonthly2025_title
 TEXT: Eggs-pedition Access: January
+
+RESOURCE ID: general1.ticket._gotourhatch2025
+TEXT: Road to Unova: Hatch
+
+RESOURCE ID: general1.ticket._gotourmasterwork2025
+TEXT: Masterwork Research: A Dazzling Aria
+
+RESOURCE ID: general1.ticket._gotourraid2025
+TEXT: Road to Unova: Raid
 
 RESOURCE ID: general1.ticket._lunarny0125_title
 TEXT: Lunar New Year Premium Timed Research Ticket
@@ -1332,10 +1356,11 @@ TEXT: Masterwork Research: A Dazzling Aria (7/7)
 
 RESOURCE ID: gotour_2025_upgrade_description
 TEXT: Purchase the Tour Pass Deluxe to unlock the following rewards!
+
 • An encounter with Victini
-• The chance to obtain a <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Lucky Trinket</a>, which allows you to instantly become Lucky Friends with a friend of your choice
+• One <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Lucky Trinket</a>, which allows you to instantly become Lucky Friends with a friend of your choice
 • Fusion Energy for Kyurem
-• The Kyurem Helmet
+• The Kyurem Helmet avatar item
 • And much more!
 
 RESOURCE ID: habitat_unova_autumn
@@ -1354,7 +1379,7 @@ RESOURCE ID: ice_burn_adventure_effects_mapview_dialog
 TEXT: Ice Burn causes the target ring during encounters to slow down, making it easier to land better throws.
 
 RESOURCE ID: ice_burn_move_content
-TEXT: Surrounds Pokémon with an ultracold, freezing wind for {0}, slowing down the target ring during encounters. Also makes Pokémon much easier to catch. This increased catch rate also applies to connected accessory devices.
+TEXT: Surrounds Pokémon with an ultracold, freezing wind for {0}. This slows down the target ring during encounters, making it easier to land Excellent Throws. It also makes Pokémon much easier to catch. Connected accessory devices will also be much more effective when catching Pokémon.
 
 RESOURCE ID: irl_label
 TEXT: In-Person
@@ -1382,6 +1407,18 @@ TEXT: This ticket will automatically activate to give you access to the New Year
 
 RESOURCE ID: item_event_ticket_evergreen_details_stldrslv0125
 TEXT: This ticket will automatically activate to give you access to the Steeled Resolve Premium Timed Research on January 21, wherever you are.
+
+RESOURCE ID: item_event_ticket_global_desc_gotourhatch2025
+TEXT: This ticket will automatically activate to give you access to the Road to Unova: Raid bonuses from Monday, February 24, at 10:00 a.m. to Sunday, March 2, 2025, at 8:00 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_global_desc_gotourmasterwork2025
+TEXT: This ticket will automatically activate to give you access to the Masterwork Research: A Dazzling Aria from Monday, February 24, at 10:00 a.m. to Sunday, March 2, 2024, at 6:00 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_global_details_gotourhatch2025
+TEXT: This ticket will automatically activate to give you access to special bonuses starting February 24, wherever you are.
+
+RESOURCE ID: item_event_ticket_global_details_gotourraid2025
+TEXT: This ticket will automatically activate to give you access to special bonuses starting February 24, wherever you are.
 
 RESOURCE ID: item_event_ticket_gray_desc_febmonthly2025
 TEXT: A ticket for Eggs-pedition Access: February, which is active from February 1 at 10:00 a.m. to February 28, 2025, at 8:00 p.m. local time, wherever you are.
@@ -1430,6 +1467,9 @@ TEXT: This ticket will automatically activate to give you access to the Special 
 
 RESOURCE ID: item_event_ticket_pink_details_cdc_ralts25
 TEXT: This ticket will automatically activate to give you access to the Ralts Community Day Classic Special Research on January 25, wherever you are.
+
+RESOURCE ID: item_global_event_ticket_details_meloetta
+TEXT: This ticket will automatically activate to give you access to special bonuses starting February 24, wherever you are.
 
 RESOURCE ID: item_lucky_friend_applicator_desc
 TEXT: A keepsake that strengthens bonds, allowing you to instantly become Lucky Friends with someone if you’re Great Friends or higher.
@@ -1507,10 +1547,10 @@ RESOURCE ID: mega_gallade_raid_day_event_name
 TEXT: Raid Day: Mega Gallade
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-01-28T21:24:46.840021+00:00 for en-US
-at SHA 62a003882ec
-Pipeline 2947853, job 36352800
-Patch from: 0.345.0-SHA-7b2f8be2-RC4, 0.347.0-SHA-3ed2e805-RC1
+TEXT: Built at 2025-01-30T21:59:35.317013+00:00 for en-US
+at SHA 8b2a40ec9a8
+Pipeline 2956044, job 36476535
+Patch from: 0.345.0-SHA-7b2f8be2-RC4, 0.347.0-SHA-859c6c0f-RC2
 
 RESOURCE ID: move_name_0465
 TEXT: Flower Trick
@@ -1522,13 +1562,13 @@ RESOURCE ID: move_name_0467
 TEXT: Ice Burn
 
 RESOURCE ID: move_required_to_enable_adventure_effect
-TEXT: {0} has not learned the Charged Move {1}, which is required to learn its Adventure Effect move after fusion.
+TEXT: {0} does not know the Charged Attack {1}, so it will not know an attack with an Adventure Effect after fusion.
 
 RESOURCE ID: move_required_to_enable_adventure_effect_question
 TEXT: Do you want to continue?
 
 RESOURCE ID: move_required_to_enable_adventure_effect_title
-TEXT: This fused Pokémon will not learn its Adventure Effect move
+TEXT: This fused Pokémon will not know an attack with an Adventure Effect
 
 RESOURCE ID: new_pokemon_fidough
 TEXT: Fidough appearing in the wild!
@@ -1618,7 +1658,7 @@ RESOURCE ID: quest_blanche_type_catch
 TEXT: Catch 25 Water- or Ice-type Pokémon
 
 RESOURCE ID: quest_branch_choose_black
-TEXT: <size=12><b>Choose Black Version</b>(Reshiram/Black Kyurem)</size>
+TEXT: Choose Black Version (Reshiram/Black Kyurem)
 
 RESOURCE ID: quest_branch_choose_black_desc
 TEXT: Select this option to receive the Black Version (Reshiram) badge and Reshiram-themed rewards and bonuses during your GO Tour: Unova adventure.
@@ -1713,7 +1753,7 @@ RESOURCE ID: quest_catch_pokemon_unova_singular
 TEXT: Catch a Pokémon originally discovered in the Unova region
 
 RESOURCE ID: quest_catch_pokemon_unova_unique
-TEXT: Catch {0} different species of Pokémon originally discovered in the Unova Region
+TEXT: Catch {0} different species of Pokémon first discovered in Unova
 
 RESOURCE ID: quest_catch_pokemon_zekrom
 TEXT: Catch Zekrom
@@ -2010,10 +2050,10 @@ RESOURCE ID: road_to_unova_event_title
 TEXT: Road to Unova
 
 RESOURCE ID: road_to_unova_event_title_hatch
-TEXT: Road to Unova - Hatch Ticket
+TEXT: Road to Unova: Hatch Ticket
 
 RESOURCE ID: road_to_unova_event_title_raid
-TEXT: Road to Unova - Raid Ticket
+TEXT: Road to Unova: Raids Ticket
 
 RESOURCE ID: road_to_unova_pikachu_title
 TEXT: Pikachu Surprise
@@ -2080,6 +2120,24 @@ TEXT: Allow Friends to Give You Lucky Trinkets
 
 RESOURCE ID: shelmetkarrablast_post_cd_timed_research_name
 TEXT: Shelmet and Karrablast Community Day Continued Timed Research
+
+RESOURCE ID: small_strong_collection_challenge
+TEXT: Small Yet Strong Collection Challenge
+
+RESOURCE ID: small_strong_event_name
+TEXT: Small Yet Strong
+
+RESOURCE ID: small_strong_free_tr_name
+TEXT: Small Yet Strong Timed Research (1/3)
+
+RESOURCE ID: small_strong_free_tr_name_0
+TEXT: Small Yet Strong Timed Research
+
+RESOURCE ID: small_strong_free_tr_name_1
+TEXT: Small Yet Strong Timed Research (2/3)
+
+RESOURCE ID: small_strong_free_tr_name_2
+TEXT: Small Yet Strong Timed Research (3/3)
 
 RESOURCE ID: spawn_ralts
 TEXT: More Ralts are appearing in the wild!
@@ -2153,6 +2211,32 @@ TEXT: <b>Includes:</b>
 • 2× XP for successfully completing Max Battles
 • Timed Research that awards a Max Mushroom and 25,000 XP
 
+RESOURCE ID: text_rewards_key_gotourhatch2025
+TEXT: <b>Included bonuses:</b>
+• 2× Hatch XP
+• 2× Hatch Stardust
+• 2× Hatch Candy
+<b>Included rewards:</b>
+• Black and White Hoodie avatar item
+• Opportunities to encounter Maractus, Sigilyph, Bouffalant 
+• One Super Incubator
+• 4,000 Stardust and more!
+
+RESOURCE ID: text_rewards_key_gotourraid2025
+TEXT: <b>Included bonuses:</b>
+• Additional 5,000 XP awarded for successful raids
+• One additional Candy from five-star Raids 
+• One additional Candy XL from five-star Raids
+• 2x Stardust awarded for successful raids 
+• One additional free Raid Pass per day from spinning Gym Photo Discs
+<b>Included rewards:</b>
+• Black and White Joggers avatar item
+• 5 Virizion Candy XL, 5 Terrakion Candy XL, 5 Cobalion Candy XL, and 5 Tornadus Candy XL
+• 5 Thundurus Candy XL 
+• 5 Landorus Candy XL
+• 25 Genesect Candy XL
+• 10 Reshiram Candy and 10 Zekrom Candy
+
 RESOURCE ID: text_rewards_key_janmonthly2025
 TEXT: <b>Includes:</b>
 • A single-use Incubator awarded for your first spin each day
@@ -2172,6 +2256,16 @@ TEXT: <b>Included bonuses:</b>
 • Eight additional Raid Passes from spinning Photo Discs at Gyms
 • Increased chance to receive Rare Candy XL from raids
 • 50% more XP and 2× Stardust for successfully completing raids
+
+RESOURCE ID: text_rewards_key_meloettamasterwork2025
+TEXT: <b>Includes:</b>
+• An encounter with Shiny Meloetta (Aria Forme)
+• Shiny Meloetta T-Shirt avatar item
+• 10 Reshiram Candy, 10 Zekrom Candy, 15 Snivy Candy, 15 Tepig Candy, 15 Oshawott Candy, 10 Darumaka Candy, and 30 Meloetta Candy
+• 14,640 XP and 6,480 Stardust
+• 2 Rare Candy XL and 3 Rare Candies for Trainers level 31 and up
+• 5 Rare Candies for Trainers level 30 and below
+• 60 Ultra Balls, 3 Unova Stone, 5 Golden Razz Berries, 5 Silver Pinap Berries, 1 Lure Module, 2 Incense, and more!
 
 RESOURCE ID: text_rewards_key_nye12302025
 TEXT: <b>Included rewards:</b>
