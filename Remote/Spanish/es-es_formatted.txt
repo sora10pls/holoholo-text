@@ -5,16 +5,16 @@ RESOURCE ID: adventure_sync_already_assigned_title
 TEXT: Pokémon Alert
 
 RESOURCE ID: adventure_sync_missing_title
-TEXT: Settings Missing
+TEXT: Settings Not Enabled
 
 RESOURCE ID: adventure_sync_pokemon_disable
 TEXT: Swap Alerts
 
 RESOURCE ID: adventure_sync_pokemon_disabled_toast
-TEXT: Pokémon Alert has been set for {0}.
+TEXT: An alert has been set for {0}.
 
 RESOURCE ID: adventure_sync_settings_missing
-TEXT: Please make sure both of these settings are enabled to access this feature.
+TEXT: Please make sure both of the following settings are enabled to use this feature.
 
 1. Settings > General > Adventure Sync
 
@@ -355,6 +355,10 @@ RESOURCE ID: event_datetime_range_key_lunarny0125
 TEXT: Del 29 de enero a las 22:00 
 al 2 de febrero a las 20:00
 
+RESOURCE ID: event_datetime_range_key_scatteredwindsfeb25
+TEXT: Del 18 de febrero a las 10:00 al
+20 de febrero a las 20:00.
+
 RESOURCE ID: event_pass_additional_bonus_rank_divider_desc
 TEXT: Puedes seguir ganando recompensas. ¡Veamos hasta dónde puedes llegar!
 
@@ -364,8 +368,13 @@ TEXT: NIVELES DE BONUS
 RESOURCE ID: event_pass_additional_bonus_rank_divider_title
 TEXT: ¡Has completado el Pase!
 
+RESOURCE ID: event_pass_micro_action_modal_desc
+TEXT: Obtén puntos para aumentar tu nivel y desbloquear recompensas. Puedes conseguir puntos completando tareas del Pase o a través de los objetivos que se muestran aquí.
+
+Las recompensas que consigas por completar tareas del Pase se entregarán nada más terminar la tarea.
+
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_02
-TEXT: Awarded at Rank 40
+TEXT: Se consigue en el nivel 40
 
 RESOURCE ID: event_pass_reward_preview_new_item_indicator
 TEXT: ¡NUEVO OBJETO!
@@ -400,6 +409,9 @@ TEXT: ¡Te quedan {0} minutos para usar tu <b>{1}</b>!
 RESOURCE ID: expire_notification_min_singular
 TEXT: ¡Te queda 1 minuto para usar tu <b>{0}</b>!
 
+RESOURCE ID: filter_key_candy_km
+TEXT: candykm
+
 RESOURCE ID: free_stamp_rally_completed_description
 TEXT: Congratulations! You completed the Stamp Rally! If you'd like, you can continue to collect more stamps in the rally.
 
@@ -407,19 +419,25 @@ RESOURCE ID: freeze_shock_move_content
 TEXT: Genera un hielo cargado con electricidad durante {0} minutos que paraliza a los Pokémon en los encuentros. Además, facilita la captura del Pokémon, incluso usando dispositivos accesorios que estén conectados.
 
 RESOURCE ID: ftue_pokemon_alert_message
-TEXT: Pokémon Alerts notify you when a selected Pokémon is nearby in the wild via in-game notification and push notifications. Please note that push notifications appear less often.
+TEXT: Pokémon Alerts notify you when a selected Pokémon is nearby in the wild via in-game notification and push notifications. Push notifications occur less often.
 
 RESOURCE ID: ftue_pokemon_alert_title
 TEXT: Pokémon Alert
 
 RESOURCE ID: fusion_resource_black_kyurem_desc
-TEXT: Energía Fusión Voltaje
+TEXT: Used to fuse Kyurem and Zekrom into Black Kyurem. It can be found when defeating Black Kyurem in Raids.
 
 RESOURCE ID: fusion_resource_black_kyurem_name_plural
 TEXT: Energía Fusión Voltaje
 
+RESOURCE ID: fusion_resource_dawnwings_necrozma_desc
+TEXT: Used to fuse Necrozma and Lunala into Dawn Wings Necrozma. It can be found when defeating Dawn Wings Necrozma in Raids.
+
+RESOURCE ID: fusion_resource_duskmane_necrozma_desc
+TEXT: Used to fuse Necrozma and Solgaleo into Dusk Mane Necrozma. It can be found when defeating Dusk Mane Necrozma in Raids.
+
 RESOURCE ID: fusion_resource_white_kyurem_desc
-TEXT: Energía Fusión Llama
+TEXT: Used to fuse Kyurem and Reshiram into White Kyurem. It can be found when defeating White Kyurem in Raids.
 
 RESOURCE ID: fusion_resource_white_kyurem_name_plural
 TEXT: Energía Fusión Llama
@@ -445,11 +463,17 @@ TEXT: Entrada: Día de la Comunidad de Shelmet y Karrablast
 RESOURCE ID: general2.ticket.5_gmaxkingler25_title
 TEXT: Entrada: Día de Combates Max de Kingler Gigamax
 
+RESOURCE ID: general2.ticket.8_scattered_winds_feb_2025_title
+TEXT: Entrada: Investigación temporal prémium de Lo que el viento arrastró
+
 RESOURCE ID: get_route_share_code_button
 TEXT: CONSEGUIR CÓDIGO DE RUTA
 
 RESOURCE ID: get_route_via_code_error_not_found
 TEXT: No se ha encontrado la Ruta
+
+RESOURCE ID: gift_open_more_daily_10
+TEXT: Abre 10 regalos adicionales cada día
 
 RESOURCE ID: gmax_kingler_max_battles
 TEXT: Kingler Gigamax está apareciendo en los Combates Max
@@ -803,7 +827,7 @@ RESOURCE ID: go_tour_event_pass_availability
 TEXT: El Pase del Tour del evento ya está disponible
 
 RESOURCE ID: go_tour_unova_starter_branch_tr_dialog_00_00
-TEXT: Hi there, %PLAYERNAME%! Which of these Pokémon would you like to join you on your adventure?
+TEXT: ¡Hola, %PLAYERNAME%! ¿Cuál de estos Pokémon te gustaría que se uniera a tu aventura?
 
 RESOURCE ID: gotour2025_welcome
 TEXT: Tour de Pokémon GO: Teselia
@@ -816,6 +840,9 @@ TEXT: ¡Te damos la bienvenida al Tour de Pokémon GO en Teselia de Los Ángeles
 
 RESOURCE ID: gotour2025_welcome_irl_ntc
 TEXT: ¡Te damos la bienvenida al Tour de Pokémon GO en Teselia de Nueva Taipéi!
+
+RESOURCE ID: gotour_2025_deluxe_event_pass_track_unlock_plus_points_description
+TEXT: Consigue recompensas adicionales con cada nivel y avanza 10 niveles al instante.
 
 RESOURCE ID: gotour_2025_global_sr_title
 TEXT: Lo que esconde el iceberg
@@ -839,16 +866,16 @@ RESOURCE ID: gotour_2025_irl_sr_title
 TEXT: La punta del iceberg
 
 RESOURCE ID: gotour_2025_irl_sr_title_00
-TEXT: La punta del iceberg (1/5)
+TEXT: La punta del iceberg (1/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_01
-TEXT: La punta del iceberg (2/5)
+TEXT: La punta del iceberg (2/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_02
-TEXT: La punta del iceberg (3/5)
+TEXT: La punta del iceberg (3/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_03
-TEXT: La punta del iceberg (4/5)
+TEXT: La punta del iceberg (4/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_04
 TEXT: La punta del iceberg (5/5)
@@ -896,7 +923,13 @@ RESOURCE ID: ice_burn_move_content
 TEXT: Rodea a los Pokémon con un gélido viento durante {0} minutos. Esto ralentiza el blanco en los encuentros, lo que hace que sea más fácil conseguir lanzamientos excelentes. Además, facilita la captura del Pokémon, incluso usando dispositivos accesorios que estén conectados.
 
 RESOURCE ID: iris_social_weather_warning_notification_key
-TEXT: Weather conditions may be affecting Pokémon Playgrounds.
+TEXT: Las condiciones climáticas pueden afectar al Área de recreo Pokémon.
+
+RESOURCE ID: item_event_ticket_08_desc_scatteredwindsfeb25
+TEXT: Una entrada para acceder a la investigación temporal prémium de Lo que el viento arrastró hasta el 20 de febrero de 2025 a las 20:00 en tu hora local, estés donde estés.
+
+RESOURCE ID: item_event_ticket_08_details_scatteredwindsfeb25
+TEXT: Esta entrada se activará automáticamente el 18 de febrero para darte acceso a la investigación temporal prémium de Lo que el viento arrastró, estés donde estés.
 
 RESOURCE ID: item_event_ticket_evergreen_desc_lunarny0125
 TEXT: Una entrada para acceder a la investigación temporal prémium del Año Nuevo Lunar hasta el 2 de febrero de 2025 a las 20:00 en tu hora local, estés donde estés.
@@ -974,10 +1007,10 @@ RESOURCE ID: max_battle_day_gigantamax_kingler_ticketed
 TEXT: Bonus de la entrada del Día de Combates Max de Kingler Gigamax
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-02-07T22:05:52.006453+00:00 for es-ES
-at SHA 3d384bff321
-Pipeline 2979367, job 36791968
-Patch from: 0.347.0-SHA-57b69799-RC1, 0.349.0-SHA-cbb1cdb7-RC2
+TEXT: Built at 2025-02-12T01:38:49.345044+00:00 for es-ES
+at SHA b9c727d417a
+Pipeline 2990039, job 36914045
+Patch from: 0.347.0-SHA-5eb18cd9-RC3, 0.349.0-SHA-597696d2-RC3
 
 RESOURCE ID: move_required_to_enable_adventure_effect
 TEXT: {0} no conoce el ataque cargado {1}, por lo que no conocerá un ataque con un efecto aventura tras fusionarse.
@@ -1006,32 +1039,48 @@ TEXT: 5 encuentros sorpresa con Shelmet o Karrablast al usar Instantánea de GO
 RESOURCE ID: pokedex_info_battle_elite_header
 TEXT: ELITE MOVES
 
+RESOURCE ID: pokedex_info_battle_resistance_header
+TEXT: Resistant
+To
+
 RESOURCE ID: pokemon_alert_label_off
 TEXT: Alert Off
 
 RESOURCE ID: pokemon_alert_label_on
 TEXT: Alert On
 
+RESOURCE ID: pokemon_candy_reward
+TEXT: Caramelo {0}
+
 RESOURCE ID: pokemon_candy_reward_plural
-TEXT: Caramelos: {0}
+TEXT: Caramelos {0}
 
 RESOURCE ID: pokemon_caught_stamp_rally
 TEXT: CAUGHT AFTER STAMP RALLY
 
+RESOURCE ID: pokemon_desc_0646_0001
+TEXT: The sameness of Reshiram’s and Kyurem’s genes allowed Kyurem to absorb Reshiram. Kyurem can now use the power of both fire and ice.
+
+RESOURCE ID: pokemon_desc_0646_0002
+TEXT: It’s said that this Pokémon battles in order to protect the ideal world that will exist in the future for people and Pokémon.
+
 RESOURCE ID: pokemon_disabled_toast
-TEXT: Pokémon Alert disabled for {0}.
+TEXT: Alert turned off for {0}.
 
 RESOURCE ID: pokemon_enabled_toast
-TEXT: You will now receive Pokémon alerts for nearby {0}.
+TEXT: You will now receive alerts about nearby {0}.
 
 RESOURCE ID: pokemon_nearby_notification
 TEXT: A wild {0} is nearby!
 
 RESOURCE ID: pokemon_nearby_notification_adventure_sync_already_assigned_message
-TEXT: You already have a Pokémon Alert set for {0}.
+TEXT: You already have an alert set for {0}.
+
+RESOURCE ID: pokemon_xl_candy_reward
+TEXT: Caramelo {0} ++ 
 
 RESOURCE ID: pokemon_xl_candy_reward_plural
-TEXT: Caramelos ++: {0}
+TEXT: Caramelos {0} ++ 
 
 RESOURCE ID: post_cd_timed_research_name
 TEXT: investigación temporal de fondo especial del Día de la Comunidad
@@ -1105,7 +1154,7 @@ Durante el Tour de GO en Teselia: Global, los Kyurem capturados en las incursion
 Además, ¡tendrás la oportunidad de aumentar la duración del efecto aventura de Llama Gélida durante el evento al ir avanzando en el Pase del Tour!
 
 RESOURCE ID: quest_buddy_treat_days
-TEXT: Give your buddy treats on {0} different days
+TEXT: Dale una golosina a tu compañero en {0} días diferentes
 
 RESOURCE ID: quest_candela_type_catch
 TEXT: Captura 25 Pokémon de tipo Fuego o Lucha
@@ -1239,6 +1288,30 @@ TEXT: Miremos al futuro. La experiencia nos indica que posiblemente en breve rec
 RESOURCE ID: quest_title_season_17_6_dialogue_5
 TEXT: Preparémonos. Hasta entonces y, creo que he aprendido bien esta expresión... ¡nos vemos con los ojos!
 
+RESOURCE ID: quest_title_season_17_7_dialogue_1
+TEXT: ¡Perfecto! Ahora sabemos un poco mejor qué se traen entre manos Candela y Arlo.
+
+RESOURCE ID: quest_title_season_17_7_dialogue_2
+TEXT: Candela estaba centrada en la cooperación, mientras que Arlo se fue por el camino contrario. Al final, ambos han descubierto qué significa estar en equilibrio.
+
+RESOURCE ID: quest_title_season_17_7_dialogue_3
+TEXT: Algunas personas consiguen sacar todo el provecho a sus fortalezas y relaciones, y otras dedican más tiempo a moldear el mundo a sus propios ideales.
+
+RESOURCE ID: quest_title_season_17_7_dialogue_4
+TEXT: Es fascinante, ¿verdad? Si hemos aprendido algo de todo esto es que también aquí existe un equilibrio.
+
+RESOURCE ID: quest_title_season_17_8_dialogue_1
+TEXT: Dualidad, equilibrio, fortalezas, ideales... ¡Me tenía que haber dedicado a la filosofía! ¡Cuántas cosas para reflexionar!
+
+RESOURCE ID: quest_title_season_17_8_dialogue_2
+TEXT: En conclusión, creo que he logrado sacar una teoría que le dé sentido a todo esto.
+
+RESOURCE ID: quest_title_season_17_8_dialogue_3
+TEXT: Aunque lo que realmente he aprendido de esta situación es el valor que tiene el trabajo en equipo. ¡Así que voy a contrastarla con mis colegas antes de compartirla!
+
+RESOURCE ID: quest_title_season_17_8_dialogue_4
+TEXT: Mantente alerta y mira a ver si hay algo que no cuadre, %PLAYERNAME%. Estamos muy cerca de acabar con este asunto.
+
 RESOURCE ID: quest_title_season_17_febtr_1_dialogue_1
 TEXT: ¿A que está bien tener amistades con las que puedes contar, %PLAYERNAME%? Creo que tú conoces bien la sensación, %PLAYERNAME%.
 
@@ -1354,7 +1427,7 @@ RESOURCE ID: road_to_unova_event_title_raid
 TEXT: Entrada: Camino a Teselia (Incursiones)
 
 RESOURCE ID: road_to_unova_pikachu_title
-TEXT: Pikachu Surprise
+TEXT: Pikachu sorpresa
 
 RESOURCE ID: route_share_code_copied
 TEXT: Se ha copiado el código de Ruta
@@ -1415,6 +1488,18 @@ TEXT: Safari de ciudad: Singapur 2025 (3/3)
 
 RESOURCE ID: scattered_to_the_winds_event_name
 TEXT: Lo que el viento arrastró
+
+RESOURCE ID: scattered_winds_avatar_tr_title
+TEXT: Investigación temporal prémium de Lo que el viento arrastró
+
+RESOURCE ID: scattered_winds_avatar_tr_title_1
+TEXT: Investigación temporal prémium de Lo que el viento arrastró (1/2)
+
+RESOURCE ID: scattered_winds_avatar_tr_title_2
+TEXT: Investigación temporal prémium de Lo que el viento arrastró (2/2)
+
+RESOURCE ID: scattered_winds_collection_challenge_feb_25
+TEXT: Desafío de colección de Lo que el viento arrastró
 
 RESOURCE ID: send_stamp_warning_modal_description_low_friend_level
 TEXT: This gift includes a stamp, but you and your friend have not reached {0}, so your friend won't be able to receive the stamp. Do you still want to send this gift?
@@ -1622,6 +1707,14 @@ TEXT: <b>Recompensas incluidas:</b>
 • 5 Caramelos Raros para los Entrenadores de nivel 30 o inferior
 • 60 Ultra Balls, 3 Piedras Teselia, 5 Bayas Frambu Doradas, 5 Bayas Pinia Plateadas, 1 Módulo Cebo, 2 Inciensos ¡y mucho más!
 
+RESOURCE ID: text_rewards_key_scatteredwindsfeb25
+TEXT: <b>Recompensas incluidas:</b>
+• Pose Epistolar
+•  Encuentros con Butterfree y Beautifly
+• 1 Trozo Estrella
+•  10 000 PX y 16 500 Polvos Estelares
+• ¡Y más!
+
 RESOURCE ID: ticket_shelmet_karrablast_cd
 TEXT: La entrada para la investigación especial "Informe Bicho" está disponible en la tienda
 
@@ -1665,19 +1758,19 @@ RESOURCE ID: total_stamps_collected
 TEXT: {0} total stamps
 
 RESOURCE ID: tr_kr2025_retention_feb_desc
-TEXT: Moonlight Challenge Timed Research
+TEXT: Investigación temporal de Desafío lunar
 
 RESOURCE ID: tr_kr2025_retention_feb_title
-TEXT: Moonlight Challenge
+TEXT: Desafío lunar
 
 RESOURCE ID: tr_kr2025_retention_feb_title_00
-TEXT: Moonlight Challenge Timed Research (1/3)
+TEXT: Investigación temporal de Desafío lunar (1/3)
 
 RESOURCE ID: tr_kr2025_retention_feb_title_01
-TEXT: Moonlight Challenge Timed Research (2/3)
+TEXT: Investigación temporal de Desafío lunar (2/3)
 
 RESOURCE ID: tr_kr2025_retention_feb_title_02
-TEXT: Moonlight Challenge Timed Research (3/3)
+TEXT: Investigación temporal de Desafío lunar (3/3)
 
 RESOURCE ID: trade_gmax_in_pokedex
 TEXT: Pokémon Gigamax en la Pokédex

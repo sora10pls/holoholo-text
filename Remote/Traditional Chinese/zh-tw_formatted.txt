@@ -5,16 +5,16 @@ RESOURCE ID: adventure_sync_already_assigned_title
 TEXT: Pokémon Alert
 
 RESOURCE ID: adventure_sync_missing_title
-TEXT: Settings Missing
+TEXT: Settings Not Enabled
 
 RESOURCE ID: adventure_sync_pokemon_disable
 TEXT: Swap Alerts
 
 RESOURCE ID: adventure_sync_pokemon_disabled_toast
-TEXT: Pokémon Alert has been set for {0}.
+TEXT: An alert has been set for {0}.
 
 RESOURCE ID: adventure_sync_settings_missing
-TEXT: Please make sure both of these settings are enabled to access this feature.
+TEXT: Please make sure both of the following settings are enabled to use this feature.
 
 1. Settings > General > Adventure Sync
 
@@ -90,7 +90,7 @@ RESOURCE ID: bonus_daily_pass_tasks
 TEXT: 可獲得額外Tour點數的每日入場券課題
 
 RESOURCE ID: bonus_daily_t5_raid_lineup
-TEXT: Different five-star Raid Bosses will appear each day of the event
+TEXT: 活動期間內每天會出現不同的五星團體戰頭目寶可夢
 
 RESOURCE ID: bonus_freeze_shock_ice_burn_1_5x
 TEXT: 在「Pokémon GO Tour：合眾地區 − 全球」中，冰凍伏特或極寒冷焰的持續時間延長為1.5倍
@@ -202,11 +202,18 @@ RESOURCE ID: event_datetime_range_key_lunarny0125
 TEXT: 1月29日10:00～
 2月2日20:00
 
+RESOURCE ID: event_datetime_range_key_scatteredwindsfeb25
+TEXT: 2月18日10:00～
+2月20日20:00
+
 RESOURCE ID: event_pass_additional_bonus_rank_divider_desc
-TEXT: You can continue earning rewards. Let’s see how far you can get!
+TEXT: 你可以繼續獲得獎勵，挑戰看看可以走多遠吧！
+
+RESOURCE ID: event_pass_additional_bonus_rank_divider_header
+TEXT: 獎勵級別
 
 RESOURCE ID: event_pass_additional_bonus_rank_divider_title
-TEXT: You’ve completed the pass!
+TEXT: 你完成了Tour入場券！
 
 RESOURCE ID: event_pass_event_ended
 TEXT: 活動結束
@@ -234,35 +241,44 @@ TEXT: {0}達到{1}級了！
 RESOURCE ID: event_pass_reward_journal
 TEXT: 已領取{0}的{1}級獎勵！
 
+RESOURCE ID: event_pass_reward_preview_new_item_indicator
+TEXT: NEW！
+
 RESOURCE ID: event_pass_reward_preview_upsell_description
-TEXT: This reward is available in the Tour Pass Deluxe.
+TEXT: Tour入場券豪華版可獲得的獎勵
 
 RESOURCE ID: event_pass_rewards_journal
 TEXT: 已領取{0}的獎勵！
+
+RESOURCE ID: event_pass_upgrade
+TEXT: 升級
 
 RESOURCE ID: event_time_header
 TEXT: EVENT TIME
 
 RESOURCE ID: expire_notification_day_plural
-TEXT: You have {0} days left to use your <b>{1}</b>!
+TEXT: 能使用<b>{1}</b>的時間還剩{0}天
 
 RESOURCE ID: expire_notification_day_singular
-TEXT: You have 1 day left to use your <b>{0}</b>!
+TEXT: 能使用<b>{0}</b>的時間還剩1天
 
 RESOURCE ID: expire_notification_hour_plural_min_plural
-TEXT: You have {0} hours and {1} minutes left to use your <b>{2}</b>!
+TEXT: 能使用<b>{2}</b>的時間還剩{0}小時{1}分
 
 RESOURCE ID: expire_notification_hour_plural_min_singular
-TEXT: You have {0} hours and 1 minute left to use your <b>{1}</b>!
+TEXT: 能使用<b>{1}</b>的時間還剩{0}小時1分
 
 RESOURCE ID: expire_notification_hour_singular_min_plural
-TEXT: You have 1 hour and {0} minutes left to use your <b>{1}</b>!
+TEXT: 能使用<b>{1}</b>的時間還剩1小時{0}分
 
 RESOURCE ID: expire_notification_min_plural
-TEXT: You have {0} minutes left to use your <b>{1}</b>!
+TEXT: 能使用<b>{1}</b>的時間還剩{0}分！
 
 RESOURCE ID: expire_notification_min_singular
-TEXT: You have 1 minute left to use your <b>{0}</b>!
+TEXT: 能使用<b>{0}</b>的時間還剩1分！
+
+RESOURCE ID: filter_key_candy_km
+TEXT: candykm
 
 RESOURCE ID: free_stamp_rally_completed_description
 TEXT: Congratulations! You completed the Stamp Rally! If you'd like, you can continue to collect more stamps in the rally.
@@ -271,25 +287,31 @@ RESOURCE ID: freeze_shock_adventure_effects_mapview_dialog
 TEXT: 冰凍伏特會讓寶可夢麻痺，使其無法在被捕捉時進行反擊等行動。
 
 RESOURCE ID: freeze_shock_move_content
-TEXT: 持續落下帶有電流的冰塊{0}分鐘，使遇見的寶可夢無法動彈
+TEXT: 持續落下帶有電流的冰塊{0}，使遇見的寶可夢無法動彈。寶可夢會變得比較容易捕捉（與外部裝置連線時也同樣適用）。
 
 RESOURCE ID: ftue_pokemon_alert_message
-TEXT: Pokémon Alerts notify you when a selected Pokémon is nearby in the wild via in-game notification and push notifications. Please note that push notifications appear less often.
+TEXT: Pokémon Alerts notify you when a selected Pokémon is nearby in the wild via in-game notification and push notifications. Push notifications occur less often.
 
 RESOURCE ID: ftue_pokemon_alert_title
 TEXT: Pokémon Alert
 
 RESOURCE ID: fusion_resource_black_kyurem_desc
-TEXT: 電壓能量
+TEXT: Used to fuse Kyurem and Zekrom into Black Kyurem. It can be found when defeating Black Kyurem in Raids.
 
 RESOURCE ID: fusion_resource_black_kyurem_name_plural
-TEXT: Volt Fusion Energy
+TEXT: 電壓能量
+
+RESOURCE ID: fusion_resource_dawnwings_necrozma_desc
+TEXT: Used to fuse Necrozma and Lunala into Dawn Wings Necrozma. It can be found when defeating Dawn Wings Necrozma in Raids.
+
+RESOURCE ID: fusion_resource_duskmane_necrozma_desc
+TEXT: Used to fuse Necrozma and Solgaleo into Dusk Mane Necrozma. It can be found when defeating Dusk Mane Necrozma in Raids.
 
 RESOURCE ID: fusion_resource_white_kyurem_desc
-TEXT: 火焰能量
+TEXT: Used to fuse Kyurem and Reshiram into White Kyurem. It can be found when defeating White Kyurem in Raids.
 
 RESOURCE ID: fusion_resource_white_kyurem_name_plural
-TEXT: Blaze Fusion Energy
+TEXT: 火焰能量
 
 RESOURCE ID: general1.ticket.5_hoopaunboundraidday_title
 TEXT: 解放胡帕團體戰日入場券
@@ -312,11 +334,17 @@ TEXT: 小嘴蝸和蓋蓋蟲社群日入場券
 RESOURCE ID: general2.ticket.5_gmaxkingler25_title
 TEXT: 巨鉗蟹極巨對戰日入場券
 
+RESOURCE ID: general2.ticket.8_scattered_winds_feb_2025_title
+TEXT: 乘風傳遞的心意特級限時調查入場券
+
 RESOURCE ID: get_route_share_code_button
 TEXT: 取得分享代碼
 
 RESOURCE ID: get_route_via_code_error_not_found
 TEXT: 未找到路線
+
+RESOURCE ID: gift_open_more_daily_10
+TEXT: 每天可額外開啟10個友情禮物
 
 RESOURCE ID: gmax_kingler_max_battles
 TEXT: 超極巨化的巨鉗蟹在極巨對戰中出現了
@@ -730,16 +758,16 @@ RESOURCE ID: gotour_2025_irl_sr_title
 TEXT: 冰山一角
 
 RESOURCE ID: gotour_2025_irl_sr_title_00
-TEXT: 冰山一角(1/5)
+TEXT: 冰山一角(1/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_01
-TEXT: 冰山一角(2/5)
+TEXT: 冰山一角(2/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_02
-TEXT: 冰山一角(3/5)
+TEXT: 冰山一角(3/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_03
-TEXT: 冰山一角(4/5)
+TEXT: 冰山一角(4/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_04
 TEXT: 冰山一角(5/5)
@@ -777,18 +805,25 @@ TEXT: 長期調查：美妙的旋律(7/7)
 RESOURCE ID: gotour_2025_upgrade_description
 TEXT: 如果購買Tour入場券豪華版，將能獲得下列獎勵！
 ・與比克提尼相遇
-・能成為亮晶晶好朋友的道具「亮晶晶首飾」
+・能成為亮晶晶好朋友的道具「<a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">亮晶晶首飾</a>」
 ・酋雷姆合體的能量
+・換裝道具「酋雷姆頭套」
 ・其他
 
 RESOURCE ID: ice_burn_adventure_effects_mapview_dialog
 TEXT: 極寒冷焰會降低捕捉寶可夢時的目標環速度，使投擲精靈球的準確度提高。
 
 RESOURCE ID: ice_burn_move_content
-TEXT: 持續釋放強烈的寒氣{0}分鐘，使捕捉寶可夢時的目標環速度降低
+TEXT: 持續釋放強烈的寒氣{0}，使捕捉寶可夢時的目標環速度降低。寶可夢會變得比較容易捕捉（與外部裝置連線時也同樣適用）。
 
 RESOURCE ID: iris_social_weather_warning_notification_key
 TEXT: Weather conditions may be affecting Pokémon Playgrounds.
+
+RESOURCE ID: item_event_ticket_08_desc_scatteredwindsfeb25
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年2月20日20:00前參與乘風傳遞的心意特級限時調查。
+
+RESOURCE ID: item_event_ticket_08_details_scatteredwindsfeb25
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在2月18日參與乘風傳遞的心意特級限時調查。
 
 RESOURCE ID: item_event_ticket_evergreen_desc_lunarny0125
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年2月2日20:00前參與農曆春節特級限時調查。
@@ -835,6 +870,9 @@ TEXT: A book to collect Postcards and remember locations from yours and your fri
 RESOURCE ID: item_postcard_inventory_name_old
 TEXT: Postcard Book
 
+RESOURCE ID: item_use_confirmation_on_friend
+TEXT: 要對{1}使用{0}嗎？
+
 RESOURCE ID: kingler_gmax_tr_2025_title
 TEXT: 超極巨化巨鉗蟹特級限時調查
 
@@ -842,7 +880,7 @@ RESOURCE ID: lucky_charm_notification_body_min_singular
 TEXT: 能使用<b>亮晶晶首飾</b>的時間還剩1分
 
 RESOURCE ID: lucky_friends_notification_details_from_charm
-TEXT: {0} and you became Lucky Friends with a Lucky Trinket!
+TEXT: 使用亮晶晶首飾，和{0}成為亮晶晶好朋友了！
 
 RESOURCE ID: lunar_new_year_collection
 TEXT: 農曆春節收藏家挑戰
@@ -866,16 +904,19 @@ RESOURCE ID: max_battle_day_gigantamax_kingler_ticketed
 TEXT: 巨鉗蟹（超極巨化）極巨對戰日入場券獎勵
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-02-07T22:05:52.006453+00:00 for zh-TW
-at SHA 3d384bff321
-Pipeline 2979367, job 36791968
-Patch from: 0.347.0-SHA-57b69799-RC1, 0.349.0-SHA-cbb1cdb7-RC2
+TEXT: Built at 2025-02-12T01:38:49.345044+00:00 for zh-TW
+at SHA b9c727d417a
+Pipeline 2990039, job 36914045
+Patch from: 0.347.0-SHA-5eb18cd9-RC3, 0.349.0-SHA-597696d2-RC3
 
 RESOURCE ID: move_required_to_enable_adventure_effect
-TEXT: {0} does not know the Charged Attack {1}, so it will not know an attack with an Adventure Effect after fusion.
+TEXT: {0}尚未學會{1}，因此合體後將無法學會具有冒險效果的招式
+
+RESOURCE ID: move_required_to_enable_adventure_effect_question
+TEXT: 確定要繼續嗎？
 
 RESOURCE ID: move_required_to_enable_adventure_effect_title
-TEXT: This fused Pokémon will not know an attack with an Adventure Effect
+TEXT: 這隻合體的寶可夢將無法學會具有冒險效果的招式
 
 RESOURCE ID: no_items_to_claim
 TEXT: 沒有可領取的獎勵（除了與寶可夢的相遇以外）
@@ -898,6 +939,10 @@ TEXT: 小嘴蝸和蓋蓋蟲將在GO Snapshot中驚喜現身5次
 RESOURCE ID: pokedex_info_battle_elite_header
 TEXT: ELITE MOVES
 
+RESOURCE ID: pokedex_info_battle_resistance_header
+TEXT: Resistant
+To
+
 RESOURCE ID: pokemon_alert_label_off
 TEXT: Alert Off
 
@@ -913,17 +958,23 @@ TEXT: CAUGHT AFTER STAMP RALLY
 RESOURCE ID: pokemon_desc_0617
 TEXT: 一旦身體乾燥就會變得衰弱。身上捲著一層又一層的薄膜以防止乾燥。
 
+RESOURCE ID: pokemon_desc_0646_0001
+TEXT: The sameness of Reshiram’s and Kyurem’s genes allowed Kyurem to absorb Reshiram. Kyurem can now use the power of both fire and ice.
+
+RESOURCE ID: pokemon_desc_0646_0002
+TEXT: It’s said that this Pokémon battles in order to protect the ideal world that will exist in the future for people and Pokémon.
+
 RESOURCE ID: pokemon_disabled_toast
-TEXT: Pokémon Alert disabled for {0}.
+TEXT: Alert turned off for {0}.
 
 RESOURCE ID: pokemon_enabled_toast
-TEXT: You will now receive Pokémon alerts for nearby {0}.
+TEXT: You will now receive alerts about nearby {0}.
 
 RESOURCE ID: pokemon_nearby_notification
 TEXT: A wild {0} is nearby!
 
 RESOURCE ID: pokemon_nearby_notification_adventure_sync_already_assigned_message
-TEXT: You already have a Pokémon Alert set for {0}.
+TEXT: You already have an alert set for {0}.
 
 RESOURCE ID: pokemon_xl_candy_reward_plural
 TEXT: {0}個糖果XL
@@ -1000,7 +1051,7 @@ TEXT: 如果選擇這個分歧，就能獲得白（捷克羅姆）版獎牌，�
 此外，可透過使用Tour入場券延長極寒冷焰的冒險效果持續時間。
 
 RESOURCE ID: quest_buddy_treat_days
-TEXT: Give your buddy treats on {0} different days
+TEXT: Give your buddy a treat on {0} different days
 
 RESOURCE ID: quest_candela_type_catch
 TEXT: 捕捉25隻火屬性或格鬥屬性的寶可夢
@@ -1107,6 +1158,30 @@ TEXT: 把目光望向未來……再等一下下，博士應該就會帶來坎�
 RESOURCE ID: quest_title_season_17_6_dialogue_5
 TEXT: 那麼，在收到博士的聯絡之前，再見。啊，應該是……「我先告辭～了」
 
+RESOURCE ID: quest_title_season_17_7_dialogue_1
+TEXT: 太棒了，我們已經掌握坎迪拉和亞洛的動向了。
+
+RESOURCE ID: quest_title_season_17_7_dialogue_2
+TEXT: 相較於坎迪拉對互相協助的意義侃侃而談，亞洛則是截然相反。但又感覺他們最後離彼此的立場稍微靠近了一些。
+
+RESOURCE ID: quest_title_season_17_7_dialogue_3
+TEXT: 有的人從與他人的牽絆中發掘出力量；有的人試圖按照自己的理念塑造世界。
+
+RESOURCE ID: quest_title_season_17_7_dialogue_4
+TEXT: 兩者都很出色。如果要說從中學到什麼的話，那就是這兩種思考模式之間也存在著平衡。
+
+RESOURCE ID: quest_title_season_17_8_dialogue_1
+TEXT: 二元性、平衡、牽絆的力量、理念……因為我對哲學也有興趣，一旦開始思考就會停不下來！
+
+RESOURCE ID: quest_title_season_17_8_dialogue_2
+TEXT: 我用我的方式統整之後，勾勒出一個理論。
+
+RESOURCE ID: quest_title_season_17_8_dialogue_3
+TEXT: 不過，這邊就先不多說。在與夥伴互相協助的意義上，我也想聽聽其他研究者的意見。
+
+RESOURCE ID: quest_title_season_17_8_dialogue_4
+TEXT: 如果有什麼發現的話就連絡我，%PLAYERNAME%。我們應該快要得出結論了。
+
 RESOURCE ID: quest_title_season_17_febtr_1_dialogue_1
 TEXT: 有可靠的朋友很不錯對吧，%PLAYERNAME%？你是不是每天都體會得到這一點呢，%PLAYERNAME%？
 
@@ -1192,10 +1267,10 @@ RESOURCE ID: quest_win_raid_5_plural
 TEXT: 在5星以上的團體戰中獲勝{0}次
 
 RESOURCE ID: quests_pass_multiple_task_available
-TEXT: New Pass Tasks!
+TEXT: 新的入場券課題！
 
 RESOURCE ID: quests_pass_task_available
-TEXT: New Pass Task!
+TEXT: 新的入場券課題！
 
 RESOURCE ID: raid_day_hoopa_unbound_event_name
 TEXT: 團體戰日：解放胡帕
@@ -1219,10 +1294,10 @@ RESOURCE ID: road_to_unova_event_title
 TEXT: 前往合眾之路
 
 RESOURCE ID: road_to_unova_event_title_hatch
-TEXT: Road to Unova: Hatch Ticket
+TEXT: 前往合眾之路：孵蛋入場券
 
 RESOURCE ID: road_to_unova_event_title_raid
-TEXT: Road to Unova: Raids Ticket
+TEXT: 前往合眾之路：團體戰入場券
 
 RESOURCE ID: road_to_unova_pikachu_title
 TEXT: Pikachu Surprise
@@ -1238,6 +1313,18 @@ TEXT: 可分享的代碼
 
 RESOURCE ID: scattered_to_the_winds_event_name
 TEXT: 乘風傳遞的心意
+
+RESOURCE ID: scattered_winds_avatar_tr_title
+TEXT: 乘風傳遞的心意特級限時調查
+
+RESOURCE ID: scattered_winds_avatar_tr_title_1
+TEXT: 乘風傳遞的心意特級限時調查(1/2)
+
+RESOURCE ID: scattered_winds_avatar_tr_title_2
+TEXT: 乘風傳遞的心意特級限時調查(2/2)
+
+RESOURCE ID: scattered_winds_collection_challenge_feb_25
+TEXT: 乘風傳遞的心意收藏家挑戰
 
 RESOURCE ID: send_stamp_warning_modal_description_low_friend_level
 TEXT: This gift includes a stamp, but you and your friend have not reached {0}, so your friend won't be able to receive the stamp. Do you still want to send this gift?
@@ -1449,6 +1536,14 @@ TEXT: <b>Included rewards:</b>
 • 2 Rare Candy XL and 3 Rare Candies for Trainers level 31 and up
 • 5 Rare Candies for Trainers level 30 and below
 • 60 Ultra Balls, 3 Unova Stones, 5 Golden Razz Berries, 5 Silver Pinap Berries, 1 Lure Module, 2 Incense, and more!
+
+RESOURCE ID: text_rewards_key_scatteredwindsfeb25
+TEXT: <b>可獲得的獎勵：</b>
+・筆友姿勢
+・與巴大蝶和狩獵鳳蝶相遇
+・1個星星碎片
+・10000XP和16500星星沙子
+・其他
 
 RESOURCE ID: ticket_shelmet_karrablast_cd
 TEXT: 特殊調查「蝸牛／啃咬寶可夢報告」的入場券在商店裡上架了

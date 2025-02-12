@@ -5,16 +5,16 @@ RESOURCE ID: adventure_sync_already_assigned_title
 TEXT: Pokémon Alert
 
 RESOURCE ID: adventure_sync_missing_title
-TEXT: Settings Missing
+TEXT: Settings Not Enabled
 
 RESOURCE ID: adventure_sync_pokemon_disable
 TEXT: Swap Alerts
 
 RESOURCE ID: adventure_sync_pokemon_disabled_toast
-TEXT: Pokémon Alert has been set for {0}.
+TEXT: An alert has been set for {0}.
 
 RESOURCE ID: adventure_sync_settings_missing
-TEXT: Please make sure both of these settings are enabled to access this feature.
+TEXT: Please make sure both of the following settings are enabled to use this feature.
 
 1. Settings > General > Adventure Sync
 
@@ -382,6 +382,9 @@ RESOURCE ID: event_datetime_range_key_lunarny0125
 TEXT: Du 29 janvier à 22h. –
 au 2 février à 20h
 
+RESOURCE ID: event_datetime_range_key_scatteredwindsfeb25
+TEXT: Du 18 février à 10h au 20 février à 20h
+
 RESOURCE ID: event_pass_additional_bonus_rank_divider_desc
 TEXT: Tu peux continuer à gagner des récompenses. Jusqu’où vas-tu arriver ?
 
@@ -394,6 +397,11 @@ TEXT: Tu as terminé le Passe !
 RESOURCE ID: event_pass_event_ended
 TEXT: Évènement terminé
 
+RESOURCE ID: event_pass_micro_action_modal_desc
+TEXT: Gagne des points pour augmenter ton rang et déverrouiller des récompenses. Tu peux gagner des points en terminant des tâches de Passe ou les nombreuses activités énumérées ici.
+
+Les récompenses seront récupérées dès que tu auras terminé la tâche de Passe.
+
 RESOURCE ID: event_pass_micro_action_modal_points_info
 TEXT: Gagne jusqu’à {0} points supplémentaires chaque jour en terminant certaines tâches.
 
@@ -403,7 +411,7 @@ RESOURCE ID: event_pass_premium_reward_banner_bottom_text
 TEXT: Récompense obtenue au rang 100
 
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_02
-TEXT: Awarded at Rank 40
+TEXT: Récompense obtenue au rang 40
 
 RESOURCE ID: event_pass_premium_reward_banner_middle_text
 TEXT: Bibelot Chance
@@ -453,6 +461,9 @@ TEXT: Il te reste {0} minutes pour utiliser : <b>{1}</b> !
 RESOURCE ID: expire_notification_min_singular
 TEXT: Il te reste 1 minute pour utiliser : <b>{0}</b> !
 
+RESOURCE ID: filter_key_candy_km
+TEXT: candykm
+
 RESOURCE ID: free_stamp_rally_completed_description
 TEXT: Congratulations! You completed the Stamp Rally! If you'd like, you can continue to collect more stamps in the rally.
 
@@ -463,19 +474,25 @@ RESOURCE ID: freeze_shock_move_content
 TEXT: Projette un bloc de glace électrifié pendant {0}, ce qui paralyse les Pokémon lors des rencontres. Cela les rend plus faciles à attraper, y compris avec des accessoires connectés.
 
 RESOURCE ID: ftue_pokemon_alert_message
-TEXT: Pokémon Alerts notify you when a selected Pokémon is nearby in the wild via in-game notification and push notifications. Please note that push notifications appear less often.
+TEXT: Pokémon Alerts notify you when a selected Pokémon is nearby in the wild via in-game notification and push notifications. Push notifications occur less often.
 
 RESOURCE ID: ftue_pokemon_alert_title
 TEXT: Pokémon Alert
 
 RESOURCE ID: fusion_resource_black_kyurem_desc
-TEXT: Énergie fusion Voltage
+TEXT: Used to fuse Kyurem and Zekrom into Black Kyurem. It can be found when defeating Black Kyurem in Raids.
 
 RESOURCE ID: fusion_resource_black_kyurem_name_plural
 TEXT: Énergie fusion Voltage
 
+RESOURCE ID: fusion_resource_dawnwings_necrozma_desc
+TEXT: Used to fuse Necrozma and Lunala into Dawn Wings Necrozma. It can be found when defeating Dawn Wings Necrozma in Raids.
+
+RESOURCE ID: fusion_resource_duskmane_necrozma_desc
+TEXT: Used to fuse Necrozma and Solgaleo into Dusk Mane Necrozma. It can be found when defeating Dusk Mane Necrozma in Raids.
+
 RESOURCE ID: fusion_resource_white_kyurem_desc
-TEXT: Énergie fusion Brasier
+TEXT: Used to fuse Kyurem and Reshiram into White Kyurem. It can be found when defeating White Kyurem in Raids.
 
 RESOURCE ID: fusion_resource_white_kyurem_name_plural
 TEXT: Énergie fusion Brasier
@@ -501,11 +518,17 @@ TEXT: Ticket pour la Journée Communauté d’Escargaume et de Carabing
 RESOURCE ID: general2.ticket.5_gmaxkingler25_title
 TEXT: Ticket pour la Journée Combat Dynamax Krabboss Gigamax
 
+RESOURCE ID: general2.ticket.8_scattered_winds_feb_2025_title
+TEXT: Ticket pour l’Étude ponctuelle premium Brille chenille
+
 RESOURCE ID: get_route_share_code_button
 TEXT: OBTENIR CODE DE PARTAGE
 
 RESOURCE ID: get_route_via_code_error_not_found
 TEXT: Route non trouvée
+
+RESOURCE ID: gift_open_more_daily_10
+TEXT: Ouvre 10 Cadeaux de plus par jour
 
 RESOURCE ID: gmax_kingler_max_battles
 TEXT: Krabboss Gigamax apparaît dans les Combats Dynamax
@@ -649,91 +672,91 @@ RESOURCE ID: go_tour_2025_global_sr_dialog_06_03
 TEXT: I don’t know if I’ll be around long enough to see the future Kyurem awaits, but I’m excited to work with you to make it a reality!
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_00_00
-TEXT: Good, you’re here! I have news about Kyurem, the Dragon- and Ice-type Legendary Pokémon!
+TEXT: Parfait, tu es là ! J’ai des nouvelles à propos de Kyurem, le Pokémon légendaire de type Dragon et Glace !
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_00_01
-TEXT: Supposedly, it uses its powers over ice to freeze its body to stabilize its cellular structure.
+TEXT: Il se serait congelé lui-même avec son souffle glacé pour stabiliser sa structure cellulaire.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_00_02
-TEXT: Just thinking about that sends a chill down my spine!
+TEXT: Rien que d’y penser, j’en ai des frissons !
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_00_03
-TEXT: And on that note, let’s do some warm-ups. Gotta stay limber for a big day of exploring, right?
+TEXT: Sur ce, faisons quelques échauffements. Il faut rester souple pour partir en exploration, pas vrai ?
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_01_00
-TEXT: Rumor has it that Kyurem dwells in the Unova region.
+TEXT: Selon la rumeur, Kyurem vit dans la région d’Unys.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_01_01
-TEXT: Unova is an extraordinary place! It has bustling modern metropolises, but there are also tranquil forests whose inhabitants live in harmony with nature.
+TEXT: Unys est un endroit extraordinaire ! On y trouve des métropoles modernes et animées, mais aussi des forêts tranquilles où les habitants vivent en harmonie avec la nature.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_01_02
-TEXT: And since we’re going to unravel a Unova mystery, it’s only fitting that we get help from Pokémon first discovered there.
+TEXT: Et puisque nous allons élucider un mystère d’Unys, il est tout à fait normal que nous nous fassions aider par les Pokémon qui ont été découverts dans cette région pour la première fois.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_01_03
-TEXT: Which of these first partner Pokémon would you like to join you on this adventure?
+TEXT: Lequel de ces premiers partenaires Pokémon voudrais-tu avoir à tes côtés pour vivre cette aventure ?
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_oshawott_00
-TEXT: Here’s a fun fact about Oshawott: the shell it has is called a “scalchop.”
+TEXT: Voici un fait amusant à propos de Moustillon : le coquillage sur son ventre s’appelle un “coupillage”.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_oshawott_01
-TEXT: They use their scalchop not only as a blade in battle, but also as a tool to break open hard Berries.
+TEXT: Il s’en sert non seulement comme d’une lame au combat, mais aussi comme d’un outil pour ouvrir des Baies très dures.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_oshawott_02
-TEXT: They’ll even sharpen them on riverbed stones, something apparently learned by mimicking humans using whetstones.
+TEXT: On dit que c’est pour imiter les gens utilisant une pierre à aiguiser qu’il a commencé à affûter son coupillage sur les rochers le long des rivières.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_oshawott_03
-TEXT: In other words, Oshawott need to take good care of their scalchops in order to thrive.
+TEXT: En d’autres termes, les Moustillon doivent prendre soin de leurs coupillages pour s’épanouir.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_oshawott_04
 TEXT: I’d bet Kyurem has some particular needs of its own. While you train your new partner, I’ll study Kyurem to see what they might be.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_snivy_00
-TEXT: Snivy prefers to avoid groups, so it’s a great match for Trainers who tend to be more independent.
+TEXT: Vipélierre n’aime pas la vie de groupe, il s’entendrait donc très bien avec les Dresseurs et Dresseuses qui apprécient leur indépendance.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_snivy_01
-TEXT: The leaf on its tail generates energy when exposed to sunlight. When it’s not feeling well, the tail will start to droop.
+TEXT: Il génère de l’énergie en exposant la feuille sur sa queue au soleil. Quand il est malade, sa queue pend tristement.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_snivy_02
-TEXT: On the other hand—or vine—Snivy that get enough light become swift and dexterous!
+TEXT: En revanche, les Vipélierre qui reçoivent suffisamment de lumière deviennent plus agiles et adroits !
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_snivy_03
-TEXT: In other words, Snivy need alone time and ample sunlight to thrive.
+TEXT: En d’autres termes, Vipélierre a besoin d’être seul et d’être exposé à la lumière du soleil pour s’épanouir.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_snivy_04
-TEXT: I’d bet Kyurem has some particular needs of its own. While you train your new partner, I’ll study Kyurem to see what they might be.
+TEXT: Je parie que Kyurem a aussi des besoins particuliers. Pendant que tu t’entraînes avec ton nouveau partenaire, je vais étudier Kyurem pour découvrir quels sont ses besoins.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_tepig_00
-TEXT: Make sure you have lots of Berries on hand if you’re going adventuring with Tepig!
+TEXT: Si tu pars à l’aventure avec Gruikui, assure-toi d’avoir beaucoup de Baies à portée de main !
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_tepig_01
-TEXT: They use their excellent sense of smell to find food, and then they cook it up nice and crispy before they eat it!
+TEXT: Il trouve sa nourriture grâce à son odorat fin et la grille avant de la déguster.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_tepig_02
-TEXT: It can launch fireballs from its nose, but don’t expect more than pitch-black smoke if it gets sick.
+TEXT: Il crache du feu par le groin. Mais quand il est enrhumé, seule une fumée noirâtre en sort.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_tepig_03
-TEXT: In any case, Tepig need snacks aplenty to thrive.
+TEXT: Quoi qu’il en soit, les Gruikui ont besoin de beaucoup manger pour s’épanouir.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_tepig_04
 TEXT: I’d bet Kyurem has some particular needs of its own. While you train your new partner, I’ll study Kyurem to see what they might be.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_03_00
-TEXT: Hi there, %PLAYERNAME%. So, given what I can glean from my research, Kyurem seems to be looking for something.
+TEXT: Bonjour, %PLAYERNAME%. D’après mes recherches, Kyurem semble chercher quelque chose.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_03_01
-TEXT: From what I’ve read, it’s waiting for a hero to fill in the missing parts of its body with either truth or ideals.
+TEXT: Apparemment, il attend le héros qui saura réanimer son corps de glace incomplet en partageant avec lui son Idéal et sa Réalité.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_03_02
-TEXT: Heady stuff, eh? While you’re certainly a hero in my book, I don’t know what to do with the rest of it.
+TEXT: Rien que ça, hein ? Tu es certainement héroïque à mes yeux, mais je ne sais pas quoi faire du reste.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_03_03
-TEXT: For now, the best we can do is try and keep Kyurem busy. Battle it with everything you’ve got, and I’m sure you’ll succeed!
+TEXT: Pour l’instant, le mieux que nous pouvons faire est d’essayer d’occuper Kyurem. Donne tout ce que tu as pour le combattre et je suis sûr que tu réussiras !
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_04_oshawott_00
 TEXT: Now that was an inspiring battle! Just goes to show that when people and Pokémon work together, we can overcome any differences and achieve our biggest dreams!
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_04_oshawott_01
-TEXT: Oshawott looks like it learned a lot from you, too. In fact, I think it’s ready to evolve!
+TEXT: Moustillon a l’air d’avoir beaucoup appris de toi. En fait, je pense qu’il est prêt à évoluer !
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_04_oshawott_02
 TEXT: And while this probably won’t be the last we see of Kyurem, you averted a real disaster by defeating it. For now, enjoy your adventures, %PLAYERNAME%!
@@ -742,22 +765,22 @@ RESOURCE ID: go_tour_2025_irl_sr_dialog_04_oshawott_03
 TEXT: Until next time—let’s GO!
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_04_snivy_00
-TEXT: Now that was an inspiring battle! Just goes to show that when people and Pokémon work together, we can overcome any differences and achieve our biggest dreams!
+TEXT: C’était un combat passionnant ! Cela prouve que lorsque nous travaillons avec les Pokémon, nous pouvons surmonter toutes nos différences et accomplir nos rêves les plus fous !
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_04_snivy_01
-TEXT: Snivy looks like it learned a lot from you, too. In fact, I think it’s ready to evolve!
+TEXT: Vipélierre a l’air d’avoir beaucoup appris de toi. En fait, je pense qu’il est prêt à évoluer !
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_04_snivy_02
 TEXT: And while this probably won’t be the last we see of Kyurem, you averted a real disaster by defeating it. For now, enjoy your adventures, %PLAYERNAME%!
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_04_snivy_03
-TEXT: Until next time—let’s GO!
+TEXT: À la prochaine ! Allez, GO !
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_04_tepig_00
 TEXT: Now that was an inspiring battle! Just goes to show that when people and Pokémon work together, we can overcome any differences and achieve our biggest dreams!
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_04_tepig_01
-TEXT: Tepig looks like it learned a lot from you, too. In fact, I think it’s ready to evolve!
+TEXT: Gruikui a l’air d’avoir beaucoup appris de toi. En fait, je pense qu’il est prêt à évoluer !
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_04_tepig_02
 TEXT: And while this probably won’t be the last we see of Kyurem, you averted a real disaster by defeating it. For now, enjoy your adventures, %PLAYERNAME%!
@@ -871,7 +894,7 @@ RESOURCE ID: go_tour_event_pass_availability
 TEXT: Le Passe de Circuit est disponible maintenant
 
 RESOURCE ID: go_tour_unova_starter_branch_tr_dialog_00_00
-TEXT: Hi there, %PLAYERNAME%! Which of these Pokémon would you like to join you on your adventure?
+TEXT: Salut, %PLAYERNAME% ! Lequel de ces Pokémon voudrais-tu avoir à tes côtés pendant tes aventures ?
 
 RESOURCE ID: gotour2025_welcome
 TEXT: Circuit Pokémon GO : Unys
@@ -889,7 +912,7 @@ RESOURCE ID: gotour_2025_deluxe_event_pass_track_unlock_description
 TEXT: Gagne des récompenses supplémentaires à chaque rang.
 
 RESOURCE ID: gotour_2025_deluxe_event_pass_track_unlock_plus_points_description
-TEXT: Gagne des récompenses supplémentaires à chaque rang, avance de 10 rangs instantanément et obtiens des stickers d’évènement.
+TEXT: Gagne des récompenses supplémentaires à chaque rang et avance de 10 rangs instantanément.
 
 RESOURCE ID: gotour_2025_deluxe_event_pass_track_unlock_plus_points_title
 TEXT: Passe de Circuit deluxe + 10 rangs
@@ -919,16 +942,16 @@ RESOURCE ID: gotour_2025_irl_sr_title
 TEXT: La pointe de l’iceberg
 
 RESOURCE ID: gotour_2025_irl_sr_title_00
-TEXT: La pointe de l’iceberg (1/5)
+TEXT: La pointe de l’iceberg (1/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_01
-TEXT: La pointe de l’iceberg (2/5)
+TEXT: La pointe de l’iceberg (2/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_02
-TEXT: La pointe de l’iceberg (3/5)
+TEXT: La pointe de l’iceberg (3/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_03
-TEXT: La pointe de l’iceberg (4/5)
+TEXT: La pointe de l’iceberg (4/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_04
 TEXT: La pointe de l’iceberg (5/5)
@@ -979,6 +1002,12 @@ TEXT: Projette un souffle de vent glacial dévastateur pendant {0}. Ralentit la 
 
 RESOURCE ID: iris_social_weather_warning_notification_key
 TEXT: Weather conditions may be affecting Pokémon Playgrounds.
+
+RESOURCE ID: item_event_ticket_08_desc_scatteredwindsfeb25
+TEXT: Un ticket pour accéder à l’Étude ponctuelle premium Brille chenille jusqu’au 20 février 2025 à 20h, heure locale, où que tu sois.
+
+RESOURCE ID: item_event_ticket_08_details_scatteredwindsfeb25
+TEXT: Ce ticket s’activera automatiquement le 18 février pour te donner accès à l’Étude ponctuelle premium Brille chenille, où que tu sois.
 
 RESOURCE ID: item_event_ticket_evergreen_desc_lunarny0125
 TEXT: Un ticket pour accéder à l’Étude ponctuelle premium Nouvel An lunaire jusqu’au 2 février 2025 à 20h, heure locale, où que tu sois.
@@ -1056,10 +1085,10 @@ RESOURCE ID: max_battle_day_gigantamax_kingler_ticketed
 TEXT: Bonus du ticket pour la Journée Combat Dynamax Krabboss Gigamax
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-02-07T22:05:52.006453+00:00 for fr-FR
-at SHA 3d384bff321
-Pipeline 2979367, job 36791968
-Patch from: 0.347.0-SHA-57b69799-RC1, 0.349.0-SHA-cbb1cdb7-RC2
+TEXT: Built at 2025-02-12T01:38:49.345044+00:00 for fr-FR
+at SHA b9c727d417a
+Pipeline 2990039, job 36914045
+Patch from: 0.347.0-SHA-5eb18cd9-RC3, 0.349.0-SHA-597696d2-RC3
 
 RESOURCE ID: move_required_to_enable_adventure_effect
 TEXT: {0} ne connait pas l’Attaque Chargée {1}, il ne pourra donc pas connaître une attaque avec un Effet Aventure après fusion.
@@ -1092,32 +1121,48 @@ TEXT: Escargaume et Carabing s’introduisent 5 fois dans tes Clichés GO
 RESOURCE ID: pokedex_info_battle_elite_header
 TEXT: ELITE MOVES
 
+RESOURCE ID: pokedex_info_battle_resistance_header
+TEXT: Resistant
+To
+
 RESOURCE ID: pokemon_alert_label_off
 TEXT: Alert Off
 
 RESOURCE ID: pokemon_alert_label_on
 TEXT: Alert On
 
+RESOURCE ID: pokemon_candy_reward
+TEXT: Bonbon {0}
+
 RESOURCE ID: pokemon_candy_reward_plural
-TEXT: {0} Bonbons
+TEXT: Bonbons {0}
 
 RESOURCE ID: pokemon_caught_stamp_rally
 TEXT: CAUGHT AFTER STAMP RALLY
 
+RESOURCE ID: pokemon_desc_0646_0001
+TEXT: The sameness of Reshiram’s and Kyurem’s genes allowed Kyurem to absorb Reshiram. Kyurem can now use the power of both fire and ice.
+
+RESOURCE ID: pokemon_desc_0646_0002
+TEXT: It’s said that this Pokémon battles in order to protect the ideal world that will exist in the future for people and Pokémon.
+
 RESOURCE ID: pokemon_disabled_toast
-TEXT: Pokémon Alert disabled for {0}.
+TEXT: Alert turned off for {0}.
 
 RESOURCE ID: pokemon_enabled_toast
-TEXT: You will now receive Pokémon alerts for nearby {0}.
+TEXT: You will now receive alerts about nearby {0}.
 
 RESOURCE ID: pokemon_nearby_notification
 TEXT: A wild {0} is nearby!
 
 RESOURCE ID: pokemon_nearby_notification_adventure_sync_already_assigned_message
-TEXT: You already have a Pokémon Alert set for {0}.
+TEXT: You already have an alert set for {0}.
+
+RESOURCE ID: pokemon_xl_candy_reward
+TEXT: Bonbon L {0}
 
 RESOURCE ID: pokemon_xl_candy_reward_plural
-TEXT: {0} Bonbons L
+TEXT: Bonbons L {0}
 
 RESOURCE ID: post_cd_timed_research_name
 TEXT: Étude ponctuelle Journée Communauté : Fond spécial
@@ -1191,7 +1236,7 @@ Lors du Circuit GO : Unys – Mondial, les Kyurem attrapés dans les Raids K
 De même, tu pourras prolonger la durée de l’Effet Aventure de Feu Glacé pendant l’évènement en progressant dans le Passe de Circuit !
 
 RESOURCE ID: quest_buddy_treat_days
-TEXT: Give your buddy treats on {0} different days
+TEXT: Give your buddy a treat on {0} different days
 
 RESOURCE ID: quest_candela_type_catch
 TEXT: Attrape 25 Pokémon de type Feu ou Combat
@@ -1322,6 +1367,30 @@ TEXT: Tournons-nous vers le futur. L’expérience suggère que l’on devrait b
 RESOURCE ID: quest_title_season_17_6_dialogue_5
 TEXT: Préparons-nous. En attendant, je crois qu’on dit « à la revoyure ».
 
+RESOURCE ID: quest_title_season_17_7_dialogue_1
+TEXT: Parfait. Nous savons maintenant ce que Candela et Arlo faisaient.
+
+RESOURCE ID: quest_title_season_17_7_dialogue_2
+TEXT: Candela avait porté son attention sur la coopération, tandis qu’Arlo, lui, s’était tourné vers l’attaque. En fin de compte, leur expérience leur a permis d’en apprendre plus sur la notion d’équilibre.
+
+RESOURCE ID: quest_title_season_17_7_dialogue_3
+TEXT: Certaines personnes tirent le meilleur parti de leurs forces et de leurs relations. D’autres préfèrent façonner le monde en fonction de leurs idéaux.
+
+RESOURCE ID: quest_title_season_17_7_dialogue_4
+TEXT: Fascinant, n’est-ce pas ? S’il y a bien un enseignement à tirer de cette situation, c’est qu’il faut chercher l’équilibre aussi.
+
+RESOURCE ID: quest_title_season_17_8_dialogue_1
+TEXT: Dualité, équilibre, force, idéaux... Je devrais être philosophe ! Tellement de sujets à approfondir !
+
+RESOURCE ID: quest_title_season_17_8_dialogue_2
+TEXT: Cela dit, je pense avoir trouvé une théorie qui explique le fond du sujet.
+
+RESOURCE ID: quest_title_season_17_8_dialogue_3
+TEXT: S’il y a bien un enseignement à tirer de tout cela, c’est la valeur du travail d’équipe. Je vais donc en discuter avec mes collègues avant de la partager !
+
+RESOURCE ID: quest_title_season_17_8_dialogue_4
+TEXT: Garde les yeux bien ouverts au cas où tu verrais quelque chose digne d’intérêt, %PLAYERNAME%. Nous sommes sur le point d’obtenir des réponses.
+
 RESOURCE ID: quest_title_season_17_febtr_1_dialogue_1
 TEXT: C’est pratique de pouvoir compter sur ses amis, n’est-ce pas, %PLAYERNAME% ? Tu sais bien de quoi je parle, pas vrai, %PLAYERNAME% ?
 
@@ -1440,7 +1509,7 @@ RESOURCE ID: road_to_unova_event_title_raid
 TEXT: En route pour Unys : Ticket de Raids
 
 RESOURCE ID: road_to_unova_pikachu_title
-TEXT: Pikachu Surprise
+TEXT: Pikachu surprise
 
 RESOURCE ID: route_share_code_copied
 TEXT: Code de partage copié
@@ -1501,6 +1570,18 @@ TEXT: City Safari : Singapour 2025 (3/3)
 
 RESOURCE ID: scattered_to_the_winds_event_name
 TEXT: Brille chenille
+
+RESOURCE ID: scattered_winds_avatar_tr_title
+TEXT: Étude ponctuelle premium Brille chenille
+
+RESOURCE ID: scattered_winds_avatar_tr_title_1
+TEXT: Étude ponctuelle premium Brille chenille (1/2)
+
+RESOURCE ID: scattered_winds_avatar_tr_title_2
+TEXT: Étude ponctuelle premium Brille chenille (2/2)
+
+RESOURCE ID: scattered_winds_collection_challenge_feb_25
+TEXT: Défi de collection Brille chenille
 
 RESOURCE ID: send_stamp_warning_modal_description_low_friend_level
 TEXT: This gift includes a stamp, but you and your friend have not reached {0}, so your friend won't be able to receive the stamp. Do you still want to send this gift?
@@ -1706,6 +1787,14 @@ TEXT: <b>Donne accès aux récompenses suivantes :</b>
 • 2 Super Bonbons L et 3 Super Bonbons pour les Dresseurs et Dresseurs de niveau 31 ou plus
 • 5 Super Bonbons pour les Dresseurs et Dresseuses de niveau 30 ou inférieur
 • 60 Hyper Balls, 3 Pierre Unys, 5 Baies Framby dorées, 5 Baies Nanana argentées, 1 Module Leurre, 2 Encens et plus encore !
+
+RESOURCE ID: text_rewards_key_scatteredwindsfeb25
+TEXT: <b>Donne accès aux récompenses suivantes :</b>
+• Pose épistolaire
+• Des rencontres avec Papilusion et Charmillon
+•1 Morceau d’Étoile
+•10 000 PX et 16 500 Poussières Étoiles
+•Et plus encore !
 
 RESOURCE ID: ticket_shelmet_karrablast_cd
 TEXT: Ticket pour l’Étude spéciale Rapport d’Insecte disponible dans la Boutique

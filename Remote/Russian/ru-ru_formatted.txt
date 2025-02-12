@@ -5,16 +5,16 @@ RESOURCE ID: adventure_sync_already_assigned_title
 TEXT: Pokémon Alert
 
 RESOURCE ID: adventure_sync_missing_title
-TEXT: Settings Missing
+TEXT: Settings Not Enabled
 
 RESOURCE ID: adventure_sync_pokemon_disable
 TEXT: Swap Alerts
 
 RESOURCE ID: adventure_sync_pokemon_disabled_toast
-TEXT: Pokémon Alert has been set for {0}.
+TEXT: An alert has been set for {0}.
 
 RESOURCE ID: adventure_sync_settings_missing
-TEXT: Please make sure both of these settings are enabled to access this feature.
+TEXT: Please make sure both of the following settings are enabled to use this feature.
 
 1. Settings > General > Adventure Sync
 
@@ -360,8 +360,8 @@ TEXT: 10:00 24 февраля –
 20:00 2 марта
 
 RESOURCE ID: event_datetime_range_key_gotour2025_masterwork
-TEXT: February 24, 10:00 a.m. –
-March 2, 6:00 p.m.
+TEXT: 10:00 24 февраля –
+18:00 2 марта
 
 RESOURCE ID: event_datetime_range_key_gotourhatch2025
 TEXT: 10:00 24 февраля –
@@ -374,6 +374,10 @@ RESOURCE ID: event_datetime_range_key_lunarny0125
 TEXT: 10:00 29 января –
 20:00 2 февраля
 
+RESOURCE ID: event_datetime_range_key_scatteredwindsfeb25
+TEXT: 10:00 18 февраля –
+20:00 20 февраля
+
 RESOURCE ID: event_pass_additional_bonus_rank_divider_desc
 TEXT: Ты можешь продолжать зарабатывать награды. Давай узнаем, чего ты сможешь достичь!
 
@@ -383,8 +387,13 @@ TEXT: ДОПОЛНИТЕЛЬНЫЕ РАНГИ
 RESOURCE ID: event_pass_additional_bonus_rank_divider_title
 TEXT: Тебе удалось завершить задания GO Tour!
 
+RESOURCE ID: event_pass_micro_action_modal_desc
+TEXT: Зарабатывай очки, чтобы повысить свой ранг и получить доступ к наградам. Ты можешь зарабатывать очки, выполняя задания GO Tour и совершая различные внутриигровые действия ниже.
+
+Ты получишь доступ к наградам сразу после выполнения заданий.
+
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_02
-TEXT: Awarded at Rank 40
+TEXT: Получено в ранге 40
 
 RESOURCE ID: event_pass_reward_preview_new_item_indicator
 TEXT: НОВЫЙ ПРЕДМЕТ!
@@ -419,6 +428,9 @@ TEXT: У тебя осталось {0} мин., чтобы использова�
 RESOURCE ID: expire_notification_min_singular
 TEXT: У тебя осталась 1 минута, чтобы использовать свой предмет <b>{0}</b>!
 
+RESOURCE ID: filter_key_candy_km
+TEXT: candykm
+
 RESOURCE ID: free_stamp_rally_completed_description
 TEXT: Congratulations! You completed the Stamp Rally! If you'd like, you can continue to collect more stamps in the rally.
 
@@ -429,19 +441,25 @@ RESOURCE ID: freeze_shock_move_content
 TEXT: Посылает заряженный электричеством лёд в течение {0} мин., обездвиживая Покемонов во время встреч. Также помогает легче поймать Покемонов. Подключенные аксессуары также будут более эффективными при поимке Покемонов.
 
 RESOURCE ID: ftue_pokemon_alert_message
-TEXT: Pokémon Alerts notify you when a selected Pokémon is nearby in the wild via in-game notification and push notifications. Please note that push notifications appear less often.
+TEXT: Pokémon Alerts notify you when a selected Pokémon is nearby in the wild via in-game notification and push notifications. Push notifications occur less often.
 
 RESOURCE ID: ftue_pokemon_alert_title
 TEXT: Pokémon Alert
 
 RESOURCE ID: fusion_resource_black_kyurem_desc
-TEXT: Вольт-Энергия Объединения
+TEXT: Used to fuse Kyurem and Zekrom into Black Kyurem. It can be found when defeating Black Kyurem in Raids.
 
 RESOURCE ID: fusion_resource_black_kyurem_name_plural
 TEXT: Вольт-Энергия Объединения
 
+RESOURCE ID: fusion_resource_dawnwings_necrozma_desc
+TEXT: Used to fuse Necrozma and Lunala into Dawn Wings Necrozma. It can be found when defeating Dawn Wings Necrozma in Raids.
+
+RESOURCE ID: fusion_resource_duskmane_necrozma_desc
+TEXT: Used to fuse Necrozma and Solgaleo into Dusk Mane Necrozma. It can be found when defeating Dusk Mane Necrozma in Raids.
+
 RESOURCE ID: fusion_resource_white_kyurem_desc
-TEXT: Пламенная Энергия Объединения
+TEXT: Used to fuse Kyurem and Reshiram into White Kyurem. It can be found when defeating White Kyurem in Raids.
 
 RESOURCE ID: fusion_resource_white_kyurem_name_plural
 TEXT: Пламенная Энергия Объединения
@@ -453,7 +471,7 @@ RESOURCE ID: general1.ticket._gotourhatch2025
 TEXT: Дорога в Юнову: Вынашивание яиц
 
 RESOURCE ID: general1.ticket._gotourmasterwork2025
-TEXT: Masterwork Research: A Dazzling Aria
+TEXT: Непревзойдённый квест: Восхитительная ария
 
 RESOURCE ID: general1.ticket._gotourraid2025
 TEXT: Дорога в Юнову: Рейды
@@ -467,11 +485,17 @@ TEXT: Билет: День сообщества Шелмет и Каррабл�
 RESOURCE ID: general2.ticket.5_gmaxkingler25_title
 TEXT: Билет: День битв макс: Гигантамакс-Кинглер
 
+RESOURCE ID: general2.ticket.8_scattered_winds_feb_2025_title
+TEXT: Билет: премиум-квест на время Отыскать сияние
+
 RESOURCE ID: get_route_share_code_button
 TEXT: ПОЛУЧИТЬ КОД
 
 RESOURCE ID: get_route_via_code_error_not_found
 TEXT: Маршрут не найден
+
+RESOURCE ID: gift_open_more_daily_10
+TEXT: Открывай 10 дополнительных подарков в день
 
 RESOURCE ID: gmax_kingler_max_battles
 TEXT: Гигантамакс-Кинглер появляется в битвах макс
@@ -825,7 +849,7 @@ RESOURCE ID: go_tour_event_pass_availability
 TEXT: Событие пропуск GO Tour уже доступно
 
 RESOURCE ID: go_tour_unova_starter_branch_tr_dialog_00_00
-TEXT: Hi there, %PLAYERNAME%! Which of these Pokémon would you like to join you on your adventure?
+TEXT: Привет, %PLAYERNAME%! С каким из этих Покемонов тебе бы хотелось отправиться в приключение?
 
 RESOURCE ID: gotour2025_welcome
 TEXT: Тур Pokémon GO: Юнова
@@ -838,6 +862,9 @@ TEXT: Добро пожаловать на Тур Pokémon GO: Юнова – �
 
 RESOURCE ID: gotour2025_welcome_irl_ntc
 TEXT: Добро пожаловать на Тур Pokémon GO: Юнова – Новый Тайбэй!
+
+RESOURCE ID: gotour_2025_deluxe_event_pass_track_unlock_plus_points_description
+TEXT: Зарабатывай дополнительные награды за каждый ранг, мгновенно продвинься на 10 рангов.
 
 RESOURCE ID: gotour_2025_global_sr_title
 TEXT: Ещё не всё потеряно
@@ -861,16 +888,16 @@ RESOURCE ID: gotour_2025_irl_sr_title
 TEXT: Верхушка айсберга
 
 RESOURCE ID: gotour_2025_irl_sr_title_00
-TEXT: Верхушка айсберга (1/5)
+TEXT: Верхушка айсберга (1/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_01
-TEXT: Верхушка айсберга (2/5)
+TEXT: Верхушка айсберга (2/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_02
-TEXT: Верхушка айсберга (3/5)
+TEXT: Верхушка айсберга (3/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_03
-TEXT: Верхушка айсберга (4/5)
+TEXT: Верхушка айсберга (4/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_04
 TEXT: Верхушка айсберга (5/5)
@@ -920,6 +947,12 @@ TEXT: Окутывает Покемонов ультрахолодным пот�
 RESOURCE ID: iris_social_weather_warning_notification_key
 TEXT: Weather conditions may be affecting Pokémon Playgrounds.
 
+RESOURCE ID: item_event_ticket_08_desc_scatteredwindsfeb25
+TEXT: Билет, дающий доступ к премиум-квесту на время Отыскать сияние до 20:00 20 февраля 2025 по местному времени, вне зависимости от твоего местонахождения.
+
+RESOURCE ID: item_event_ticket_08_details_scatteredwindsfeb25
+TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к премиум-квесту на время Отыскать сияние 18 февраля, вне зависимости от твоего местонахождения.
+
 RESOURCE ID: item_event_ticket_evergreen_desc_lunarny0125
 TEXT: Билет, дающий доступ к премиум-квесту на время Китайский Новый год до 20:00 2 февраля 2025 по местному времени, вне зависимости от твоего местонахождения.
 
@@ -930,7 +963,7 @@ RESOURCE ID: item_event_ticket_global_desc_gotourhatch2025
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к бонусам события Дорога в Юнову: Рейды с 10:00 24 февраля до 20:00 2 марта 2025 по местному времени, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_global_desc_gotourmasterwork2025
-TEXT: This ticket will automatically activate to give you access to Masterwork Research: A Dazzling Aria from Monday, February 24, at 10:00 a.m. to Sunday, March 2, 2025, at 6:00 p.m. local time, wherever you are.
+TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к непревзойдённому квесту: Восхитительная ария с 10:00 24 февраля до 18:00 2 марта 2025 по местному времени, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_global_details_gotourhatch2025
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальным бонусам с 24 февраля, вне зависимости от твоего местонахождения.
@@ -957,7 +990,7 @@ RESOURCE ID: item_event_ticket_pink_details_cd_shelmetkarrablast25
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальному квесту В поисках насекомых 9 февраля, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_global_event_ticket_details_meloetta
-TEXT: This ticket will automatically activate to give you access to special bonuses starting February 24, wherever you are.
+TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальным бонусам с 24 февраля, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_postcard_inventory_desc_old
 TEXT: A book to collect Postcards and remember locations from yours and your friends’ journeys.
@@ -996,10 +1029,10 @@ RESOURCE ID: max_battle_day_gigantamax_kingler_ticketed
 TEXT: Бонусы билета День битв макс: Гигантамакс-Кинглер
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-02-07T22:05:52.006453+00:00 for ru-RU
-at SHA 3d384bff321
-Pipeline 2979367, job 36791968
-Patch from: 0.347.0-SHA-57b69799-RC1, 0.349.0-SHA-cbb1cdb7-RC2
+TEXT: Built at 2025-02-12T01:38:49.345044+00:00 for ru-RU
+at SHA b9c727d417a
+Pipeline 2990039, job 36914045
+Patch from: 0.347.0-SHA-5eb18cd9-RC3, 0.349.0-SHA-597696d2-RC3
 
 RESOURCE ID: move_required_to_enable_adventure_effect
 TEXT: Покемон {0} не знает заряженную атаку {1}, поэтому он не будет знать атаку с эффектом приключений после объединения.
@@ -1028,32 +1061,48 @@ TEXT: 5 неожиданных встреч с Шелметом или Карр�
 RESOURCE ID: pokedex_info_battle_elite_header
 TEXT: ELITE MOVES
 
+RESOURCE ID: pokedex_info_battle_resistance_header
+TEXT: Resistant
+To
+
 RESOURCE ID: pokemon_alert_label_off
 TEXT: Alert Off
 
 RESOURCE ID: pokemon_alert_label_on
 TEXT: Alert On
 
+RESOURCE ID: pokemon_candy_reward
+TEXT: {0}-Конфеты
+
 RESOURCE ID: pokemon_candy_reward_plural
-TEXT: Конфеты: {0}
+TEXT: {0}-Конфеты
 
 RESOURCE ID: pokemon_caught_stamp_rally
 TEXT: CAUGHT AFTER STAMP RALLY
 
+RESOURCE ID: pokemon_desc_0646_0001
+TEXT: The sameness of Reshiram’s and Kyurem’s genes allowed Kyurem to absorb Reshiram. Kyurem can now use the power of both fire and ice.
+
+RESOURCE ID: pokemon_desc_0646_0002
+TEXT: It’s said that this Pokémon battles in order to protect the ideal world that will exist in the future for people and Pokémon.
+
 RESOURCE ID: pokemon_disabled_toast
-TEXT: Pokémon Alert disabled for {0}.
+TEXT: Alert turned off for {0}.
 
 RESOURCE ID: pokemon_enabled_toast
-TEXT: You will now receive Pokémon alerts for nearby {0}.
+TEXT: You will now receive alerts about nearby {0}.
 
 RESOURCE ID: pokemon_nearby_notification
 TEXT: A wild {0} is nearby!
 
 RESOURCE ID: pokemon_nearby_notification_adventure_sync_already_assigned_message
-TEXT: You already have a Pokémon Alert set for {0}.
+TEXT: You already have an alert set for {0}.
+
+RESOURCE ID: pokemon_xl_candy_reward
+TEXT: {0}-Конфеты XL
 
 RESOURCE ID: pokemon_xl_candy_reward_plural
-TEXT: Конфеты XL: {0}
+TEXT: {0}-Конфеты XL
 
 RESOURCE ID: post_cd_timed_research_name
 TEXT: квест на время В поисках особого фона
@@ -1127,7 +1176,7 @@ TEXT: Выбери этот вариант, чтобы во время тура
 Также во время события ты сможешь продлить действие эффекта приключений Ледяной Ожог, приняв участие в пропуске GO Tour.
 
 RESOURCE ID: quest_buddy_treat_days
-TEXT: Give your buddy treats on {0} different days
+TEXT: Give your buddy a treat on {0} different days
 
 RESOURCE ID: quest_candela_type_catch
 TEXT: Поймай Покемонов типов Огонь или Боевой ×25
@@ -1262,6 +1311,30 @@ TEXT: Давай планировать на будущее. Опыт подск
 RESOURCE ID: quest_title_season_17_6_dialogue_5
 TEXT: Давай подготовимся. А пока, я думаю, будет уместно сказать «словимся позже».
 
+RESOURCE ID: quest_title_season_17_7_dialogue_1
+TEXT: Прекрасно! Теперь у нас есть чёткое понимание целей Канделы и Арло.
+
+RESOURCE ID: quest_title_season_17_7_dialogue_2
+TEXT: Кандела фокусировалась на совместных усилиях, в то время как Арло двигался в противоположном направлении. В итоге они оба узнали кое-что новое о достижении баланса.
+
+RESOURCE ID: quest_title_season_17_7_dialogue_3
+TEXT: Некоторые люди пытаются получить максимум из сильных сторон и отношений, которые у них есть. Другие же пытаются подстроить окружающий мир под свои идеалы.
+
+RESOURCE ID: quest_title_season_17_7_dialogue_4
+TEXT: Удивительно, правда? Урок, который мы извлекли их этого, в том, что в этом тоже своего рода баланс.
+
+RESOURCE ID: quest_title_season_17_8_dialogue_1
+TEXT: Двойственность, баланс, сильные стороны, идеалы... Я должен был стать философом! Столько занятных тем для размышлений!
+
+RESOURCE ID: quest_title_season_17_8_dialogue_2
+TEXT: Кстати, мне пришла в голову теория, помогающая всё это объяснить.
+
+RESOURCE ID: quest_title_season_17_8_dialogue_3
+TEXT: Если я извлёк какой-то урок из всего этого – то он в ценности совместной работы. Поэтому я хочу сначала узнать мнение своих коллег, прежде чем делиться этой теорией!
+
+RESOURCE ID: quest_title_season_17_8_dialogue_4
+TEXT: Дай знать, если заметишь что-нибудь, стоящее внимания, %PLAYERNAME%. Мы уже близки к развязке.
+
 RESOURCE ID: quest_title_season_17_febtr_1_dialogue_1
 TEXT: Разве не здорово иметь друзей, на которых можно положиться, %PLAYERNAME%? Тебе ведь знакомо это чувство, %PLAYERNAME%?
 
@@ -1377,7 +1450,7 @@ RESOURCE ID: road_to_unova_event_title_raid
 TEXT: Билет: Дорога в Юнову: Рейды
 
 RESOURCE ID: road_to_unova_pikachu_title
-TEXT: Pikachu Surprise
+TEXT: Сюрприз Пикачу
 
 RESOURCE ID: route_share_code_copied
 TEXT: Код скопирован
@@ -1438,6 +1511,18 @@ TEXT: Городское сафари: Сингапур 2025 (3/3)
 
 RESOURCE ID: scattered_to_the_winds_event_name
 TEXT: Отыскать сияние
+
+RESOURCE ID: scattered_winds_avatar_tr_title
+TEXT: Премиум-квест на время Отыскать сияние
+
+RESOURCE ID: scattered_winds_avatar_tr_title_1
+TEXT: Премиум-квест на время Отыскать сияние (1/2)
+
+RESOURCE ID: scattered_winds_avatar_tr_title_2
+TEXT: Премиум-квест на время Отыскать сияние (2/2)
+
+RESOURCE ID: scattered_winds_collection_challenge_feb_25
+TEXT: Коллекционное испытание Отыскать сияние
 
 RESOURCE ID: send_stamp_warning_modal_description_low_friend_level
 TEXT: This gift includes a stamp, but you and your friend have not reached {0}, so your friend won't be able to receive the stamp. Do you still want to send this gift?
@@ -1639,14 +1724,22 @@ TEXT: <b>Включает следующие награды:</b>
 • 12 000 XP
 
 RESOURCE ID: text_rewards_key_meloettamasterwork2025
-TEXT: <b>Included rewards:</b>
-• An encounter with Shiny Meloetta (Aria Forme)
-• Shiny Meloetta T-Shirt avatar item
-• 10 Reshiram Candy, 10 Zekrom Candy, 15 Snivy Candy, 15 Tepig Candy, 15 Oshawott Candy, 10 Darumaka Candy, and 30 Meloetta Candy
-• 14,640 XP and 6,480 Stardust
-• 2 Rare Candy XL and 3 Rare Candies for Trainers level 31 and up
-• 5 Rare Candies for Trainers level 30 and below
-• 60 Ultra Balls, 3 Unova Stones, 5 Golden Razz Berries, 5 Silver Pinap Berries, 1 Lure Module, 2 Incense, and more!
+TEXT: <b>Включает следующие награды:</b>
+• Встречу с Сияющей Мелоэттой (Форма Ария)
+• Футболка для аватара Сияющая Мелоэтта
+• 10 Реширам-Конфет, 10 Зекром-Конфет, 15 Снайви-Конфет, 15 Тепиг-Конфет, 15 Ошавотт-Конфет, 10 Дарумака-Конфет и 30 Мелоэтта-Конфет
+• 14 640 XP и 6480 Звёздной Пыли
+• 2 Редких Конфеты XL и 3 Редких Конфеты для Тренеров 31 уровня и выше
+• 5 Редких Конфет для Тренеров 30 уровня и ниже
+• 60 Ультра-Боллов, 3 Камня Юновы, 5 Золотых Разз-Ягод, 5 Серебряных Пайнеп-Ягод, 1 Приманку, 2 Ладана и другие!
+
+RESOURCE ID: text_rewards_key_scatteredwindsfeb25
+TEXT: <b>Включает следующие награды:</b>
+• Поза друга по переписке
+• Встречи с Баттерфри и Бьютифлаем
+• 1 осколок звезды
+• 10 000 XP и 16 500 звёздной пыли
+• И другие!
 
 RESOURCE ID: ticket_shelmet_karrablast_cd
 TEXT: Билет, дающий доступ к специальному квесту В поисках насекомых, доступен в магазине

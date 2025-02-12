@@ -5,16 +5,16 @@ RESOURCE ID: adventure_sync_already_assigned_title
 TEXT: Pokémon Alert
 
 RESOURCE ID: adventure_sync_missing_title
-TEXT: Settings Missing
+TEXT: Settings Not Enabled
 
 RESOURCE ID: adventure_sync_pokemon_disable
 TEXT: Swap Alerts
 
 RESOURCE ID: adventure_sync_pokemon_disabled_toast
-TEXT: Pokémon Alert has been set for {0}.
+TEXT: An alert has been set for {0}.
 
 RESOURCE ID: adventure_sync_settings_missing
-TEXT: Please make sure both of these settings are enabled to access this feature.
+TEXT: Please make sure both of the following settings are enabled to use this feature.
 
 1. Settings > General > Adventure Sync
 
@@ -379,6 +379,10 @@ RESOURCE ID: event_datetime_range_key_lunarny0125
 TEXT: Del 29 de enero a las 10:00 p. m. 
 al 2 de febrero a las 8:00 p. m.
 
+RESOURCE ID: event_datetime_range_key_scatteredwindsfeb25
+TEXT: Del 18 de febrero a las 10:00 a. m. al
+20 de febrero a las 8:00 p. m.
+
 RESOURCE ID: event_pass_additional_bonus_rank_divider_desc
 TEXT: You can continue earning rewards. Let’s see how far you can get!
 
@@ -415,23 +419,32 @@ TEXT: You have {0} minutes left to use your <b>{1}</b>!
 RESOURCE ID: expire_notification_min_singular
 TEXT: You have 1 minute left to use your <b>{0}</b>!
 
+RESOURCE ID: filter_key_candy_km
+TEXT: candykm
+
 RESOURCE ID: free_stamp_rally_completed_description
 TEXT: Congratulations! You completed the Stamp Rally! If you'd like, you can continue to collect more stamps in the rally.
 
 RESOURCE ID: ftue_pokemon_alert_message
-TEXT: Pokémon Alerts notify you when a selected Pokémon is nearby in the wild via in-game notification and push notifications. Please note that push notifications appear less often.
+TEXT: Pokémon Alerts notify you when a selected Pokémon is nearby in the wild via in-game notification and push notifications. Push notifications occur less often.
 
 RESOURCE ID: ftue_pokemon_alert_title
 TEXT: Pokémon Alert
 
 RESOURCE ID: fusion_resource_black_kyurem_desc
-TEXT: Energía Fusión Voltaje
+TEXT: Used to fuse Kyurem and Zekrom into Black Kyurem. It can be found when defeating Black Kyurem in Raids.
 
 RESOURCE ID: fusion_resource_black_kyurem_name_plural
 TEXT: Volt Fusion Energy
 
+RESOURCE ID: fusion_resource_dawnwings_necrozma_desc
+TEXT: Used to fuse Necrozma and Lunala into Dawn Wings Necrozma. It can be found when defeating Dawn Wings Necrozma in Raids.
+
+RESOURCE ID: fusion_resource_duskmane_necrozma_desc
+TEXT: Used to fuse Necrozma and Solgaleo into Dusk Mane Necrozma. It can be found when defeating Dusk Mane Necrozma in Raids.
+
 RESOURCE ID: fusion_resource_white_kyurem_desc
-TEXT: Energía Fusión Llama
+TEXT: Used to fuse Kyurem and Reshiram into White Kyurem. It can be found when defeating White Kyurem in Raids.
 
 RESOURCE ID: fusion_resource_white_kyurem_name_plural
 TEXT: Blaze Fusion Energy
@@ -457,11 +470,17 @@ TEXT: Entrada: Día de la Comunidad de Shelmet y Karrablast
 RESOURCE ID: general2.ticket.5_gmaxkingler25_title
 TEXT: Entrada: Día de Combates Max de Kingler Gigamax
 
+RESOURCE ID: general2.ticket.8_scattered_winds_feb_2025_title
+TEXT: Entrada: Investigación Temporal Prémium de Llevados por el viento
+
 RESOURCE ID: get_route_share_code_button
 TEXT: OBTENER CÓDIGO PARA COMPARTIR
 
 RESOURCE ID: get_route_via_code_error_not_found
 TEXT: No se encontró la Ruta
+
+RESOURCE ID: gift_open_more_daily_10
+TEXT: Abre 10 regalos adicionales cada día
 
 RESOURCE ID: gmax_kingler_max_battles
 TEXT: Kingler Gigamax está apareciendo en los combates Max
@@ -857,16 +876,16 @@ RESOURCE ID: gotour_2025_irl_sr_title
 TEXT: La punta del iceberg
 
 RESOURCE ID: gotour_2025_irl_sr_title_00
-TEXT: La punta del iceberg (1/5)
+TEXT: La punta del iceberg (1/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_01
-TEXT: La punta del iceberg (2/5)
+TEXT: La punta del iceberg (2/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_02
-TEXT: La punta del iceberg (3/5)
+TEXT: La punta del iceberg (3/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_03
-TEXT: La punta del iceberg (4/5)
+TEXT: La punta del iceberg (4/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_04
 TEXT: La punta del iceberg (5/5)
@@ -907,6 +926,12 @@ TEXT: ¡Adquiere el Pase del Tour Deluxe para desbloquear las siguientes recompe
 
 RESOURCE ID: iris_social_weather_warning_notification_key
 TEXT: Weather conditions may be affecting Pokémon Playgrounds.
+
+RESOURCE ID: item_event_ticket_08_desc_scatteredwindsfeb25
+TEXT: Una entrada para acceder a la Investigación Temporal Prémium de Llevados por el viento hasta el 20 de febrero de 2025 a las 8:00 p. m. en tu hora local, estés donde estés.
+
+RESOURCE ID: item_event_ticket_08_details_scatteredwindsfeb25
+TEXT: Esta entrada se activará automáticamente el 18 de febrero para darte acceso a la Investigación Temporal Prémium de Llevados por el viento arrastró, estés donde estés.
 
 RESOURCE ID: item_event_ticket_evergreen_desc_lunarny0125
 TEXT: Una entrada para acceder a la Investigación Temporal Prémium del Año Nuevo Lunar hasta el 2 de febrero de 2025 a las 8:00 p. m. en tu hora local, estés donde estés.
@@ -981,10 +1006,10 @@ RESOURCE ID: max_battle_day_gigantamax_kingler_ticketed
 TEXT: Bonificaciones de la entrada del Día de Combates Max de Kingler Gigamax
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-02-07T22:05:52.006453+00:00 for es-MX
-at SHA 3d384bff321
-Pipeline 2979367, job 36791968
-Patch from: 0.347.0-SHA-57b69799-RC1, 0.349.0-SHA-cbb1cdb7-RC2
+TEXT: Built at 2025-02-12T01:38:49.345044+00:00 for es-MX
+at SHA b9c727d417a
+Pipeline 2990039, job 36914045
+Patch from: 0.347.0-SHA-5eb18cd9-RC3, 0.349.0-SHA-597696d2-RC3
 
 RESOURCE ID: move_required_to_enable_adventure_effect
 TEXT: {0} does not know the Charged Attack {1}, so it will not know an attack with an Adventure Effect after fusion.
@@ -1010,6 +1035,10 @@ TEXT: 5 encuentros sorpresa con Shelmet o Karrablast al usar Foto GO
 RESOURCE ID: pokedex_info_battle_elite_header
 TEXT: ELITE MOVES
 
+RESOURCE ID: pokedex_info_battle_resistance_header
+TEXT: Resistant
+To
+
 RESOURCE ID: pokemon_alert_label_off
 TEXT: Alert Off
 
@@ -1022,17 +1051,23 @@ TEXT: {0} Caramelos
 RESOURCE ID: pokemon_caught_stamp_rally
 TEXT: CAUGHT AFTER STAMP RALLY
 
+RESOURCE ID: pokemon_desc_0646_0001
+TEXT: The sameness of Reshiram’s and Kyurem’s genes allowed Kyurem to absorb Reshiram. Kyurem can now use the power of both fire and ice.
+
+RESOURCE ID: pokemon_desc_0646_0002
+TEXT: It’s said that this Pokémon battles in order to protect the ideal world that will exist in the future for people and Pokémon.
+
 RESOURCE ID: pokemon_disabled_toast
-TEXT: Pokémon Alert disabled for {0}.
+TEXT: Alert turned off for {0}.
 
 RESOURCE ID: pokemon_enabled_toast
-TEXT: You will now receive Pokémon alerts for nearby {0}.
+TEXT: You will now receive alerts about nearby {0}.
 
 RESOURCE ID: pokemon_nearby_notification
 TEXT: A wild {0} is nearby!
 
 RESOURCE ID: pokemon_nearby_notification_adventure_sync_already_assigned_message
-TEXT: You already have a Pokémon Alert set for {0}.
+TEXT: You already have an alert set for {0}.
 
 RESOURCE ID: pokemon_xl_candy_reward_plural
 TEXT: {0} Caramelos XL
@@ -1109,7 +1144,7 @@ Durante el Tour de GO: Unova – Global, los Kyurem atrapados en las incursiones
 Además, ¡tendrás la oportunidad de aumentar la duración del Efecto aventura de Llama Gélida durante el evento al ir avanzando en el Pase del Tour!
 
 RESOURCE ID: quest_buddy_treat_days
-TEXT: Give your buddy treats on {0} different days
+TEXT: Give your buddy a treat on {0} different days
 
 RESOURCE ID: quest_candela_type_catch
 TEXT: Atrapa 25 Pokémon de tipo Fuego o Pelea
@@ -1239,6 +1274,30 @@ TEXT: Enfoquemos nuestra mirada hacia al futuro: la experiencia nos indica que s
 
 RESOURCE ID: quest_title_season_17_6_dialogue_5
 TEXT: Preparémonos. Hasta entonces, estoy intentando acordarme de la expresión... "¡Chao, pescao!".
+
+RESOURCE ID: quest_title_season_17_7_dialogue_1
+TEXT: ¡Perfecto! Ahora sabemos bien qué se traen entre manos Candela y Arlo.
+
+RESOURCE ID: quest_title_season_17_7_dialogue_2
+TEXT: Candela estaba enfocada en la cooperación, mientras que Arlo se fue por el camino contrario. Al final, ambos descubrieron lo qué significa estar en equilibrio.
+
+RESOURCE ID: quest_title_season_17_7_dialogue_3
+TEXT: Algunas personas logran sacar todo el provecho a sus fortalezas y conexiones, y otras dedican más tiempo a moldear el mundo a sus propios ideales.
+
+RESOURCE ID: quest_title_season_17_7_dialogue_4
+TEXT: Fascinante, ¿verdad? Si hemos aprendido algo de todo esto es que también aquí existe un equilibrio.
+
+RESOURCE ID: quest_title_season_17_8_dialogue_1
+TEXT: Dualidad, equilibrio, fortalezas, ideales... ¡Debí haberme dedicado a la filosofía! ¡Hay tanto que reflexionar!
+
+RESOURCE ID: quest_title_season_17_8_dialogue_2
+TEXT: En conclusión, creo que pude sacar una teoría que le dé sentido a todo esto.
+
+RESOURCE ID: quest_title_season_17_8_dialogue_3
+TEXT: Pero si lo que aprendí de esta situación es el valor que tiene el trabajo en equipo, ¡mejor voy a consultar a otros investigadores antes de compartirla!
+
+RESOURCE ID: quest_title_season_17_8_dialogue_4
+TEXT: Mantente alerta por si hay algo que no cuadra, %PLAYERNAME%. Estamos muy cerca de acabar con este asunto.
 
 RESOURCE ID: quest_title_season_17_febtr_1_dialogue_1
 TEXT: ¿No es genial tener amistades en las que poder confiar, %PLAYERNAME%? Sabes perfectamente a lo que me refiero, ¿verdad, %PLAYERNAME%?
@@ -1416,6 +1475,18 @@ TEXT: Safari de Ciudad: Singapur 2025 (3/3)
 
 RESOURCE ID: scattered_to_the_winds_event_name
 TEXT: Llevados por el viento
+
+RESOURCE ID: scattered_winds_avatar_tr_title
+TEXT: Investigación Temporal Prémium de Llevados por el viento
+
+RESOURCE ID: scattered_winds_avatar_tr_title_1
+TEXT: Investigación Temporal Prémium de Llevados por el viento (1/2)
+
+RESOURCE ID: scattered_winds_avatar_tr_title_2
+TEXT: Investigación Temporal Prémium de Llevados por el viento (2/2)
+
+RESOURCE ID: scattered_winds_collection_challenge_feb_25
+TEXT: Desafío de Colección de Llevados por el viento
 
 RESOURCE ID: send_stamp_warning_modal_description_low_friend_level
 TEXT: This gift includes a stamp, but you and your friend have not reached {0}, so your friend won't be able to receive the stamp. Do you still want to send this gift?
@@ -1622,6 +1693,14 @@ TEXT: <b>Included rewards:</b>
 • 2 Rare Candy XL and 3 Rare Candies for Trainers level 31 and up
 • 5 Rare Candies for Trainers level 30 and below
 • 60 Ultra Balls, 3 Unova Stones, 5 Golden Razz Berries, 5 Silver Pinap Berries, 1 Lure Module, 2 Incense, and more!
+
+RESOURCE ID: text_rewards_key_scatteredwindsfeb25
+TEXT: <b>Las recompensas incluyen:</b>
+• Pose de Correspondencia
+• Encuentros con Butterfree y Beautifly
+• 1 Fragmento Estrella
+• 10,000 EXP y 16,500 Polvos Estrella
+• ¡Y más!
 
 RESOURCE ID: ticket_shelmet_karrablast_cd
 TEXT: La entrada para la Investigación Especial "Colección de insectos" está disponible en la Tienda

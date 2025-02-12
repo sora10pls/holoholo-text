@@ -5,16 +5,16 @@ RESOURCE ID: adventure_sync_already_assigned_title
 TEXT: Pokémon Alert
 
 RESOURCE ID: adventure_sync_missing_title
-TEXT: Settings Missing
+TEXT: Settings Not Enabled
 
 RESOURCE ID: adventure_sync_pokemon_disable
 TEXT: Swap Alerts
 
 RESOURCE ID: adventure_sync_pokemon_disabled_toast
-TEXT: Pokémon Alert has been set for {0}.
+TEXT: An alert has been set for {0}.
 
 RESOURCE ID: adventure_sync_settings_missing
-TEXT: Please make sure both of these settings are enabled to access this feature.
+TEXT: Please make sure both of the following settings are enabled to use this feature.
 
 1. Settings > General > Adventure Sync
 
@@ -90,7 +90,7 @@ RESOURCE ID: bonus_daily_pass_tasks
 TEXT: ภารกิจบัตรผานรายวันโบนัสที่มอบแตมทัวรเพิ่มเติม
 
 RESOURCE ID: bonus_daily_t5_raid_lineup
-TEXT: Different five-star Raid Bosses will appear each day of the event
+TEXT: บอสที่แตกตางกันจะปรากฏตัวในตีบอสหาดาวในแตละวันของอีเวนต
 
 RESOURCE ID: bonus_freeze_shock_ice_burn_1_5x
 TEXT: 1.5× ระยะเวลาของฟรีซโวลตหรือโคลดแฟลรในชวง "Pokémon GO Tour: อิชชู - ทั่วโลก" (ตามเหรียญตราที่เลือก)
@@ -205,11 +205,18 @@ RESOURCE ID: event_datetime_range_key_lunarny0125
 TEXT: 29 มกราคม 10:00 น. ถึง
 2 กุมภาพันธ 20:00 น.
 
+RESOURCE ID: event_datetime_range_key_scatteredwindsfeb25
+TEXT: 18 กุมภาพันธ 10:00 น. ถึง
+20 กุมภาพันธ 20:00 น.
+
 RESOURCE ID: event_pass_additional_bonus_rank_divider_desc
-TEXT: You can continue earning rewards. Let’s see how far you can get!
+TEXT: คุณยังสามารถรับรางวัลตอได มาดูกันวาจะไปไดไกลแคไหน!
+
+RESOURCE ID: event_pass_additional_bonus_rank_divider_header
+TEXT: ระดับโบนัส
 
 RESOURCE ID: event_pass_additional_bonus_rank_divider_title
-TEXT: You’ve completed the pass!
+TEXT: คุณทำบัตรผานเสร็จสมบูรณแลว!
 
 RESOURCE ID: event_pass_event_ended
 TEXT: อีเวนตสิ้นสุดแลว
@@ -237,35 +244,44 @@ TEXT: "{0}" ถึงระดับ {1}
 RESOURCE ID: event_pass_reward_journal
 TEXT: รับรางวัล "{0}" ระดับ {1} แลว
 
+RESOURCE ID: event_pass_reward_preview_new_item_indicator
+TEXT: ไอเท็มใหม!
+
 RESOURCE ID: event_pass_reward_preview_upsell_description
-TEXT: This reward is available in the Tour Pass Deluxe.
+TEXT: รับรางวัลนี้ไดจากบัตรผานทัวร Deluxe
 
 RESOURCE ID: event_pass_rewards_journal
 TEXT: รับรางวัล "{0}" แลว
+
+RESOURCE ID: event_pass_upgrade
+TEXT: อัปเกรด
 
 RESOURCE ID: event_time_header
 TEXT: EVENT TIME
 
 RESOURCE ID: expire_notification_day_plural
-TEXT: You have {0} days left to use your <b>{1}</b>!
+TEXT: เหลือเวลา {0} วัน ในการใช<b>{1}</b>!
 
 RESOURCE ID: expire_notification_day_singular
-TEXT: You have 1 day left to use your <b>{0}</b>!
+TEXT: เหลือเวลา 1 วัน ในการใช<b>{0}</b>!
 
 RESOURCE ID: expire_notification_hour_plural_min_plural
-TEXT: You have {0} hours and {1} minutes left to use your <b>{2}</b>!
+TEXT: เหลือเวลา {0} ชั่วโมง {1} นาที ในการใช<b>{2}</b>!
 
 RESOURCE ID: expire_notification_hour_plural_min_singular
-TEXT: You have {0} hours and 1 minute left to use your <b>{1}</b>!
+TEXT: เหลือเวลา {0} ชั่วโมง 1 นาที ในการใช<b>{1}</b>!
 
 RESOURCE ID: expire_notification_hour_singular_min_plural
-TEXT: You have 1 hour and {0} minutes left to use your <b>{1}</b>!
+TEXT: เหลือเวลา 1 ชั่วโมง {0} นาที ในการใช<b>{1}</b>!
 
 RESOURCE ID: expire_notification_min_plural
-TEXT: You have {0} minutes left to use your <b>{1}</b>!
+TEXT: เหลือเวลา {0} นาที ในการใช<b>{1}</b>!
 
 RESOURCE ID: expire_notification_min_singular
-TEXT: You have 1 minute left to use your <b>{0}</b>!
+TEXT: เหลือเวลา 1 นาที ในการใช<b>{0}</b>!
+
+RESOURCE ID: filter_key_candy_km
+TEXT: candykm
 
 RESOURCE ID: free_stamp_rally_completed_description
 TEXT: Congratulations! You completed the Stamp Rally! If you'd like, you can continue to collect more stamps in the rally.
@@ -274,25 +290,31 @@ RESOURCE ID: freeze_shock_adventure_effects_mapview_dialog
 TEXT: ฟรีซโวลตจะแชแข็งและทำใหโปเกมอนตัวชา โปเกมอนที่ตัวชาจะไมสามารถขยับไปมาหรือกระแทกมอนสเตอรบอลกลับมาได
 
 RESOURCE ID: freeze_shock_move_content
-TEXT: เสกน้ำแข็งที่หุมดวยสายฟา {0} นาที ทำใหโปเกมอนตัวชา
+TEXT: เสกน้ำแข็งที่หุมดวยสายฟา {0} สงผลใหโปเกมอนตัวชา ทำใหจับไดงายขึ้น (รวมถึงการจับดวยอุปกรณเสริมที่เชื่อมตออยู)
 
 RESOURCE ID: ftue_pokemon_alert_message
-TEXT: Pokémon Alerts notify you when a selected Pokémon is nearby in the wild via in-game notification and push notifications. Please note that push notifications appear less often.
+TEXT: Pokémon Alerts notify you when a selected Pokémon is nearby in the wild via in-game notification and push notifications. Push notifications occur less often.
 
 RESOURCE ID: ftue_pokemon_alert_title
 TEXT: Pokémon Alert
 
 RESOURCE ID: fusion_resource_black_kyurem_desc
-TEXT: พลังงานรวมรางโวลต
+TEXT: Used to fuse Kyurem and Zekrom into Black Kyurem. It can be found when defeating Black Kyurem in Raids.
 
 RESOURCE ID: fusion_resource_black_kyurem_name_plural
-TEXT: Volt Fusion Energy
+TEXT: พลังงานรวมรางโวลต
+
+RESOURCE ID: fusion_resource_dawnwings_necrozma_desc
+TEXT: Used to fuse Necrozma and Lunala into Dawn Wings Necrozma. It can be found when defeating Dawn Wings Necrozma in Raids.
+
+RESOURCE ID: fusion_resource_duskmane_necrozma_desc
+TEXT: Used to fuse Necrozma and Solgaleo into Dusk Mane Necrozma. It can be found when defeating Dusk Mane Necrozma in Raids.
 
 RESOURCE ID: fusion_resource_white_kyurem_desc
-TEXT: พลังงานรวมรางเบลซ
+TEXT: Used to fuse Kyurem and Reshiram into White Kyurem. It can be found when defeating White Kyurem in Raids.
 
 RESOURCE ID: fusion_resource_white_kyurem_name_plural
-TEXT: Blaze Fusion Energy
+TEXT: พลังงานรวมรางเบลซ
 
 RESOURCE ID: general1.ticket.5_hoopaunboundraidday_title
 TEXT: ตั๋ววันตีบอสฮูปารางปลดปลอย
@@ -315,11 +337,17 @@ TEXT: ตั๋วโชโบมากิและคาบูรูโมะ�
 RESOURCE ID: general2.ticket.5_gmaxkingler25_title
 TEXT: ตั๋ว "วันแบตเทิลแมกซคิงเกลอรกิกะแมกซ"
 
+RESOURCE ID: general2.ticket.8_scattered_winds_feb_2025_title
+TEXT: ตั๋วงานวิจัยแบบจำกัดเวลาพรีเมียม: โปรยปลิวไปกับสายลม
+
 RESOURCE ID: get_route_share_code_button
 TEXT: รับรหัสแชร
 
 RESOURCE ID: get_route_via_code_error_not_found
 TEXT: ไมพบเสนทาง
+
+RESOURCE ID: gift_open_more_daily_10
+TEXT: เพิ่มจำนวนของขวัญที่เปดได 10 ชิ้นตอวัน
 
 RESOURCE ID: gmax_kingler_max_battles
 TEXT: คิงเกลอรกิกะแมกซปรากฏตัวในแบตเทิลแมกซ
@@ -733,16 +761,16 @@ RESOURCE ID: gotour_2025_irl_sr_title
 TEXT: ปลายยอดภูเขาน้ำแข็ง
 
 RESOURCE ID: gotour_2025_irl_sr_title_00
-TEXT: ปลายยอดภูเขาน้ำแข็ง (1/5)
+TEXT: ปลายยอดภูเขาน้ำแข็ง (1/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_01
-TEXT: ปลายยอดภูเขาน้ำแข็ง (2/5)
+TEXT: ปลายยอดภูเขาน้ำแข็ง (2/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_02
-TEXT: ปลายยอดภูเขาน้ำแข็ง (3/5)
+TEXT: ปลายยอดภูเขาน้ำแข็ง (3/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_03
-TEXT: ปลายยอดภูเขาน้ำแข็ง (4/5)
+TEXT: ปลายยอดภูเขาน้ำแข็ง (4/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_04
 TEXT: ปลายยอดภูเขาน้ำแข็ง (5/5)
@@ -779,19 +807,31 @@ TEXT: งานวิจัยระยะยาว: ทวงทำนอง
 
 RESOURCE ID: gotour_2025_upgrade_description
 TEXT: ซื้อบัตรผานทัวร Deluxe เพื่อปลดล็อกรางวัลตอไปนี้!
+
 - การเผชิญหนากับวิคทินี
-- โอกาสไดรับเครื่องรางนำโชคที่จะชวยใหคุณเปนเพื่อนนำโชคกับเทรนเนอรที่ตองการไดในทันที
+- <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">เครื่องรางนำโชค</a> 1 ชิ้น ที่จะชวยใหคุณเปนเพื่อนนำโชคกับเทรนเนอรที่ตองการไดในทันที
 - พลังงานรวมรางสำหรับคิวเรม
-- และอื่น ๆ อีกมากมาย!
+- หมวกกันน็อกคิวเรม
+และอื่น ๆ อีกมากมาย!
 
 RESOURCE ID: ice_burn_adventure_effects_mapview_dialog
 TEXT: โคลดแฟลรทำใหวงแหวนเปาหมายขยับชาลง ทำใหสามารถขวางมอนสเตอรบอลโดนเปาหมายงายขึ้น
 
 RESOURCE ID: ice_burn_move_content
-TEXT: หอหุมโปเกมอนดวยสายลมอันหนาวเหน็บ {0} นาที ทำใหวงแหวนเปาหมายขยับชาลง
+TEXT: หอหุมโปเกมอนดวยสายลมอันหนาวเหน็บ {0} สงผลใหวงแหวนเปาหมายขยับชาลง ทำใหขวางไดสุดยอดงายขึ้น และจับโปเกมอนไดงายขึ้น (รวมถึงการจับดวยอุปกรณเสริมที่เชื่อมตออยู)
 
 RESOURCE ID: iris_social_weather_warning_notification_key
 TEXT: Weather conditions may be affecting Pokémon Playgrounds.
+
+RESOURCE ID: item_event_ticket_08_desc_scatteredwindsfeb25
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลาพรีเมียม: โปรยปลิวไปกับสายลม
+ถึงวันที่ 20 กุมภาพันธ 2025 เวลา 20:00 น. ตามเวลาทองถิ่นทั่วโลก
+
+RESOURCE ID: item_event_ticket_08_details_scatteredwindsfeb25
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลาพรีเมียม: โปรยปลิวไปกับสายลม
+ในวันที่ 18 กุมภาพันธ
+คุณจะสามารถเขารวมไดโดยอัตโนมัติ
+ตามเวลาทองถิ่นทั่วโลก
 
 RESOURCE ID: item_event_ticket_evergreen_desc_lunarny0125
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลาพรีเมียม: อีเวนตตรุษจีน
@@ -858,11 +898,14 @@ TEXT: A book to collect Postcards and remember locations from yours and your fri
 RESOURCE ID: item_postcard_inventory_name_old
 TEXT: Postcard Book
 
+RESOURCE ID: item_use_confirmation_on_friend
+TEXT: ใช{0}กับ {1} หรือไม?
+
 RESOURCE ID: kingler_gmax_tr_2025_title
 TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียม: คิงเกลอรกิกะแมกซ
 
 RESOURCE ID: lucky_friends_notification_details_from_charm
-TEXT: {0} and you became Lucky Friends with a Lucky Trinket!
+TEXT: ใชเครื่องรางนำโชค {0} กับคุณจึงกลายเปนเพื่อนนำโชคแลว!
 
 RESOURCE ID: lunar_new_year_collection
 TEXT: คำทานักสะสมอีเวนตตรุษจีน
@@ -886,16 +929,19 @@ RESOURCE ID: max_battle_day_gigantamax_kingler_ticketed
 TEXT: โบนัสตั๋ว "วันแบตเทิลแมกซคิงเกลอรกิกะแมกซ"
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-02-07T22:05:52.006453+00:00 for th-TH
-at SHA 3d384bff321
-Pipeline 2979367, job 36791968
-Patch from: 0.347.0-SHA-57b69799-RC1, 0.349.0-SHA-cbb1cdb7-RC2
+TEXT: Built at 2025-02-12T01:38:49.345044+00:00 for th-TH
+at SHA b9c727d417a
+Pipeline 2990039, job 36914045
+Patch from: 0.347.0-SHA-5eb18cd9-RC3, 0.349.0-SHA-597696d2-RC3
 
 RESOURCE ID: move_required_to_enable_adventure_effect
-TEXT: {0} does not know the Charged Attack {1}, so it will not know an attack with an Adventure Effect after fusion.
+TEXT: {0}ไมรูทาโจมตีชารจ "{1}" ดังนั้นมันจะไมรูทาที่มีเอฟเฟกตผจญภัยหลังรวมราง
+
+RESOURCE ID: move_required_to_enable_adventure_effect_question
+TEXT: ดำเนินการตอหรือไม?
 
 RESOURCE ID: move_required_to_enable_adventure_effect_title
-TEXT: This fused Pokémon will not know an attack with an Adventure Effect
+TEXT: โปเกมอนที่รวมรางตัวนี้จะไมรูทาที่มีเอฟเฟกตผจญภัย
 
 RESOURCE ID: no_items_to_claim
 TEXT: ไมมีรางวัลที่สามารถรับได คุณตองกดรับรางวัลการเผชิญหนากับโปเกมอนตางหาก
@@ -917,6 +963,10 @@ TEXT: โชโบมากิและคาบูรูโมะแยง�
 
 RESOURCE ID: pokedex_info_battle_elite_header
 TEXT: ELITE MOVES
+
+RESOURCE ID: pokedex_info_battle_resistance_header
+TEXT: Resistant
+To
 
 RESOURCE ID: pokemon_alert_label_off
 TEXT: Alert Off
@@ -942,6 +992,12 @@ RESOURCE ID: pokemon_desc_0626
 TEXT: แมจะใชหัวพุงชนอีกฝายรุนแรงแคไหน
 ขนที่ฟูฟองก็จะดูดซับความเสียหายให
 
+RESOURCE ID: pokemon_desc_0646_0001
+TEXT: The sameness of Reshiram’s and Kyurem’s genes allowed Kyurem to absorb Reshiram. Kyurem can now use the power of both fire and ice.
+
+RESOURCE ID: pokemon_desc_0646_0002
+TEXT: It’s said that this Pokémon battles in order to protect the ideal world that will exist in the future for people and Pokémon.
+
 RESOURCE ID: pokemon_desc_0689
 TEXT: ในตอนที่เกิดวิวัฒนาการ คาเมเทเทะ 2 ตัว
 จะแบงรางกลายเปน 7 ตัว
@@ -958,16 +1014,16 @@ TEXT: ขึ้นมาบนบกเพื่อหาอาหาร เต�
 หนวดกอนเปนอันดับแรก
 
 RESOURCE ID: pokemon_disabled_toast
-TEXT: Pokémon Alert disabled for {0}.
+TEXT: Alert turned off for {0}.
 
 RESOURCE ID: pokemon_enabled_toast
-TEXT: You will now receive Pokémon alerts for nearby {0}.
+TEXT: You will now receive alerts about nearby {0}.
 
 RESOURCE ID: pokemon_nearby_notification
 TEXT: A wild {0} is nearby!
 
 RESOURCE ID: pokemon_nearby_notification_adventure_sync_already_assigned_message
-TEXT: You already have a Pokémon Alert set for {0}.
+TEXT: You already have an alert set for {0}.
 
 RESOURCE ID: pokemon_xl_candy_reward_plural
 TEXT: ลูกอม XL: {0}
@@ -1044,7 +1100,7 @@ TEXT: เลือกเสนทางนี้เพื่อรับเ�
 นอกจากนี้ สามารถทำภารกิจบัตรผานทัวรเพื่อยืดระยะเวลาการใชงานเอฟเฟกตผจญภัย "โคลดแฟลร" ระหวางอีเวนตได
 
 RESOURCE ID: quest_buddy_treat_days
-TEXT: Give your buddy treats on {0} different days
+TEXT: Give your buddy a treat on {0} different days
 
 RESOURCE ID: quest_candela_type_catch
 TEXT: จับโปเกมอนประเภทไฟหรือตอสู 25 ตัว
@@ -1197,6 +1253,44 @@ TEXT: เรามาเตรียมพรอมกันเถอะ ร�
 เออ ประโยคที่เหมาะสมในโอกาสนี้คงเปน
 "ฉันขอตัวกอนนะ"
 
+RESOURCE ID: quest_title_season_17_7_dialogue_1
+TEXT: สมบูรณแบบ ตอนนี้เราเขาใจความเคลื่อนไหว
+และเปาหมายของแคนเดลากับอารโลแลว
+
+RESOURCE ID: quest_title_season_17_7_dialogue_2
+TEXT: แคนเดลาใหความสำคัญกับการรวมมือกับผูอื่น
+สวนอารโลนั้นตรงกันขาม แตในทายที่สุดแลว
+พวกเขาก็ไดเรียนรูความสำคัญของอีกดาน
+ดวยเชนกัน
+
+RESOURCE ID: quest_title_season_17_7_dialogue_3
+TEXT: ผูที่ดึงพลังมาจากสายสัมพันธ
+ผูที่มุงมั่นในการสรางโลกตามอุดมคติของตน
+
+RESOURCE ID: quest_title_season_17_7_dialogue_4
+TEXT: นาอัศจรรยไปเลยวาไหม?
+ถาเราไดเรียนรูอะไรบางอยางจากเรื่องนี้
+ก็คงเปนเรื่องที่ระหวางแนวคิดทั้งสองแบบ
+ก็มีความสมดุลอยูเชนกัน
+
+RESOURCE ID: quest_title_season_17_8_dialogue_1
+TEXT: ทวิลักษณ ความสมดุล ความแข็งแกรง อุดมคติ
+...ถาฉันเปนนักปรัชญาก็คงดี!
+มีเรื่องตองใหคิดเยอะเหลือเกิน!
+
+RESOURCE ID: quest_title_season_17_8_dialogue_2
+TEXT: ฉันคิดวาฉันรูแลววาทฤษฎีไหนทำให
+เรื่องทั้งหมดฟงดูสมเหตุสมผลได
+
+RESOURCE ID: quest_title_season_17_8_dialogue_3
+TEXT: ซึ่งนั่นก็คือคุณคาของการทำงานเปนทีม
+ฉันวาจะไปหารือกับนักวิจัยคนอื่น ๆ เพิ่มเติม
+กอนที่จะแบงปนเรื่องนี้
+
+RESOURCE ID: quest_title_season_17_8_dialogue_4
+TEXT: ถามีอะไรนาสงสัยก็ติดตอมานะ %PLAYERNAME%
+ฉันคิดวาเราใกลจะไดขอสรุปแลว
+
 RESOURCE ID: quest_title_season_17_febtr_1_dialogue_1
 TEXT: มีเพื่อนที่พึ่งพาไดนี่เยี่ยมไปเลย
 วาไหม %PLAYERNAME%?
@@ -1322,10 +1416,10 @@ RESOURCE ID: quest_win_raid_5_plural
 TEXT: ชนะตีบอสหาดาวขึ้นไป {0} ครั้ง
 
 RESOURCE ID: quests_pass_multiple_task_available
-TEXT: New Pass Tasks!
+TEXT: ภารกิจบัตรผานใหม!
 
 RESOURCE ID: quests_pass_task_available
-TEXT: New Pass Task!
+TEXT: ภารกิจบัตรผานใหม!
 
 RESOURCE ID: raid_day_hoopa_unbound_event_name
 TEXT: วันตีบอส: ฮูปารางปลดปลอย
@@ -1349,10 +1443,10 @@ RESOURCE ID: road_to_unova_event_title
 TEXT: เสนทางสูอิชชู
 
 RESOURCE ID: road_to_unova_event_title_hatch
-TEXT: Road to Unova: Hatch Ticket
+TEXT: ตั๋วเสนทางสูอิชชู: ฟกไข
 
 RESOURCE ID: road_to_unova_event_title_raid
-TEXT: Road to Unova: Raids Ticket
+TEXT: ตั๋วเสนทางสูอิชชู: ตีบอส
 
 RESOURCE ID: road_to_unova_pikachu_title
 TEXT: Pikachu Surprise
@@ -1368,6 +1462,18 @@ TEXT: แชร
 
 RESOURCE ID: scattered_to_the_winds_event_name
 TEXT: โปรยปลิวไปกับสายลม
+
+RESOURCE ID: scattered_winds_avatar_tr_title
+TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียม: โปรยปลิวไปกับสายลม
+
+RESOURCE ID: scattered_winds_avatar_tr_title_1
+TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียม: โปรยปลิวไปกับสายลม (1/2)
+
+RESOURCE ID: scattered_winds_avatar_tr_title_2
+TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียม: โปรยปลิวไปกับสายลม (2/2)
+
+RESOURCE ID: scattered_winds_collection_challenge_feb_25
+TEXT: คำทานักสะสมโปรยปลิวไปกับสายลม
 
 RESOURCE ID: send_stamp_warning_modal_description_low_friend_level
 TEXT: This gift includes a stamp, but you and your friend have not reached {0}, so your friend won't be able to receive the stamp. Do you still want to send this gift?
@@ -1576,6 +1682,14 @@ TEXT: <b>Included rewards:</b>
 • 5 Rare Candies for Trainers level 30 and below
 • 60 Ultra Balls, 3 Unova Stones, 5 Golden Razz Berries, 5 Silver Pinap Berries, 1 Lure Module, 2 Incense, and more!
 
+RESOURCE ID: text_rewards_key_scatteredwindsfeb25
+TEXT: <b>รางวัลที่จะไดรับ:</b>
+- ทาโพสเพื่อนทางจดหมาย
+- การเผชิญหนากับบัตเตอรฟรีและอาเกฮันท
+- สะเก็ดดาว 1 ชิ้น
+- 10,000 XP และ 16,500 สตารดัสต
+- และอื่น ๆ
+
 RESOURCE ID: ticket_shelmet_karrablast_cd
 TEXT: สามารถซื้อตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษ "รายงานโปเกมอนหอยทาก/จอมงับ" ไดที่รานคา
 
@@ -1607,7 +1721,7 @@ RESOURCE ID: title_bonus_dual_destiny_spark_tr_00
 TEXT: คำขอบคุณจากอินสติงต: งานวิจัยแบบจำกัดเวลาโบนัส (1/1)
 
 RESOURCE ID: title_event_pass_bonus_bonus_quest
-TEXT: เควสตโบนัส
+TEXT: ภารกิจโบนัส
 
 RESOURCE ID: title_event_pass_daily_bonus_quest
 TEXT: ภารกิจรายวัน
@@ -1616,7 +1730,7 @@ RESOURCE ID: title_event_pass_daily_bonus_quest_premium
 TEXT: ภารกิจรายวัน - พรีเมียม
 
 RESOURCE ID: title_event_pass_hourly_bonus_quest
-TEXT: เควสตรายชั่วโมง
+TEXT: ภารกิจรายชั่วโมง
 
 RESOURCE ID: title_road_to_unova_hatch
 TEXT: เสนทางสูอิชชู: งานวิจัยแบบจำกัดเวลาพรีเมียมฟกไข
