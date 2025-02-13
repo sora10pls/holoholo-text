@@ -353,6 +353,11 @@ TEXT: Hai completato il biglietto!
 RESOURCE ID: event_pass_event_ended
 TEXT: Evento concluso
 
+RESOURCE ID: event_pass_micro_action_modal_desc
+TEXT: Ottieni punti per salire di livello e sbloccare ricompense. Puoi ottenere punti completando missioni biglietto o gli obiettivi elencati qui sotto.
+
+Qualsiasi ricompensa otterrai completando missioni biglietto ti verrà assegnata non appena concluderai la missione.
+
 RESOURCE ID: event_pass_micro_action_modal_points_info
 TEXT: Ottieni fino a {0} punti extra al giorno completando certe missioni.
 
@@ -362,7 +367,7 @@ RESOURCE ID: event_pass_premium_reward_banner_bottom_text
 TEXT: Si ottiene al livello 100
 
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_02
-TEXT: Awarded at Rank 40
+TEXT: Si ottiene al livello 40
 
 RESOURCE ID: event_pass_premium_reward_banner_middle_text
 TEXT: Portafortuna
@@ -480,6 +485,60 @@ TEXT: Apri dieci pacchi amicizia aggiuntivi al giorno
 
 RESOURCE ID: gmax_kingler_max_battles
 TEXT: Kingler Gigamax sta apparendo nelle Lotte Dynamax
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_team_00
+TEXT: Greetings. Lapras and I were just finishing our latest analysis.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_team_01
+TEXT: A well-balanced approach has proven productive not only in battle, but in other areas as well.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_team_02
+TEXT: We have you to thank, %PLAYERNAME%. Your assistance has allowed us to achieve another breakthrough.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_tgr_00
+TEXT: Ah, %PLAYERNAME%. You should know that Cliff has declared his intention to become “the most balanced Trainer ever.”
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_tgr_01
+TEXT: I can’t say I’m enthused about an enemy improving his skills, but at least you kept him in check when his reckless training methods could have caused trouble.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_tgr_02
+TEXT: I genuinely appreciate your support in that matter.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_candela_team_00
+TEXT: Yo, %PLAYERNAME%! I just wrapped up an intense solo mission.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_candela_team_01
+TEXT: I’m still warming up to going solo, but I learn a lot from it, too. Plus, it makes me appreciate being with my team even more.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_candela_team_02
+TEXT: Thanks for everything. Here’s to always being ready to help each other out, whether we’re together or apart!
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_candela_tgr_00
+TEXT: Hey, what’d you say to Arlo earlier? I’ve been hearing he’s working closely with the Grunts—like, cooperatively! That doesn’t sound like him at all.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_candela_tgr_01
+TEXT: It’s a shame they’re probably getting up to no good. Team GO Rocket are the champs of misplaced passion, huh?
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_candela_tgr_02
+TEXT: Anyhow, thanks for handling him. Whatever they try to pull in the future, we’ll stop them together!
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_spark_team_00
+TEXT: Heya, %PLAYERNAME%! You keeping frosty?
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_spark_team_01
+TEXT: Wild to think how this all kicked off with a beach retreat, huh? I guess things are always going a little haywire around you though, so I can’t say I’m surprised!
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_spark_team_02
+TEXT: You’re totally invited to my next hang. Anyways, thanks for always being down for an adventure!
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_spark_tgr_00
+TEXT: Hey, thanks for keeping an eye on Sierra earlier, %PLAYERNAME%.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_spark_tgr_01
+TEXT: She usually gives everybody a real cold shoulder, so I’m kinda surprised she went easy on you! ...A little easy.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_spark_tgr_02
+TEXT: She’s still super mean, and, y’know, evil, but hey—we’ll know just how to stop her next time she stirs up trouble!
 
 RESOURCE ID: go_tour_2025_global_sr_dialog_00_00
 TEXT: We’ve found it at last! Kyurem, the Boundary Pokémon, is almost definitely the cause of the ongoing anomalies we’ve been observing.
@@ -842,7 +901,7 @@ RESOURCE ID: go_tour_event_pass_availability
 TEXT: Il biglietto Tour dell’evento è ora disponibile
 
 RESOURCE ID: go_tour_unova_starter_branch_tr_dialog_00_00
-TEXT: Hi there, %PLAYERNAME%! Which of these Pokémon would you like to join you on your adventure?
+TEXT: Ciao, %PLAYERNAME%! Quale tra questi Pokémon vorresti si unisse a te nella tua avventura?
 
 RESOURCE ID: gotour2025_welcome
 TEXT: Tour di Pokémon GO di Unima
@@ -860,7 +919,7 @@ RESOURCE ID: gotour_2025_deluxe_event_pass_track_unlock_description
 TEXT: Ottieni ricompense aggiuntive a ogni livello.
 
 RESOURCE ID: gotour_2025_deluxe_event_pass_track_unlock_plus_points_description
-TEXT: Ottieni ricompense aggiuntive a ogni livello, aumenta subito di 10 livelli e ottieni adesivi dell’evento.
+TEXT: Ottieni ricompense aggiuntive a ogni livello e sali subito di 10 livelli.
 
 RESOURCE ID: gotour_2025_deluxe_event_pass_track_unlock_plus_points_title
 TEXT: Biglietto Tour deluxe + 10 livelli
@@ -1030,10 +1089,10 @@ RESOURCE ID: max_battle_day_gigantamax_kingler_ticketed
 TEXT: Bonus per il biglietto per la giornata Lotte Dynamax dedicata a Kingler Gigamax
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-02-12T01:38:49.345044+00:00 for it-IT
-at SHA b9c727d417a
-Pipeline 2990039, job 36914045
-Patch from: 0.347.0-SHA-5eb18cd9-RC3, 0.349.0-SHA-597696d2-RC3
+TEXT: Built at 2025-02-13T01:36:15.332288+00:00 for it-IT
+at SHA 140f6369c5f
+Pipeline 2992623, job 36968364
+Patch from: 0.347.0-SHA-57b69799-RC1, 0.349.0-SHA-597696d2-RC3
 
 RESOURCE ID: move_required_to_enable_adventure_effect
 TEXT: {0} non conosce l’attacco caricato {1}, perciò non conoscerà un attacco con effetto avventura dopo la fusione.
@@ -1075,8 +1134,11 @@ TEXT: Alert Off
 RESOURCE ID: pokemon_alert_label_on
 TEXT: Alert On
 
+RESOURCE ID: pokemon_candy_reward
+TEXT: caramella {0}
+
 RESOURCE ID: pokemon_candy_reward_plural
-TEXT: {0} caramelle
+TEXT: caramelle {0}
 
 RESOURCE ID: pokemon_caught_stamp_rally
 TEXT: CAUGHT AFTER STAMP RALLY
@@ -1099,8 +1161,11 @@ TEXT: A wild {0} is nearby!
 RESOURCE ID: pokemon_nearby_notification_adventure_sync_already_assigned_message
 TEXT: You already have an alert set for {0}.
 
+RESOURCE ID: pokemon_xl_candy_reward
+TEXT: caramella L {0}
+
 RESOURCE ID: pokemon_xl_candy_reward_plural
-TEXT: {0} caramelle L
+TEXT: caramelle L {0}
 
 RESOURCE ID: post_cd_timed_research_name
 TEXT: ricerca a tempo per lo Sfondo speciale del Community Day
@@ -1115,7 +1180,8 @@ RESOURCE ID: quest_blanche_type_catch
 TEXT: Cattura 25 Pokémon di tipo Acqua o Ghiaccio
 
 RESOURCE ID: quest_branch_choose_black
-TEXT: Scegli Versione Nera (Reshiram/Kyurem Nero)
+TEXT: <size=35><b>Scegli Versione Nera</b></size>
+<size=28>(Reshiram/Kyurem Nero)</size>
 
 RESOURCE ID: quest_branch_choose_black_desc
 TEXT: Seleziona quest’opzione per ricevere la medaglia della Versione Nera (Reshiram) nonché ricompense e bonus ispirati a Reshiram nel corso della tua avventura con il Tour GO di Unima.
@@ -1164,7 +1230,8 @@ RESOURCE ID: quest_branch_choose_tepig_desc_irl
 TEXT: Seleziona questo percorso per un incontro aggiuntivo con Tepig, il Pokémon Suinfuoco, e ricompense aggiuntive ispirate a Tepig dalla ricerca speciale.
 
 RESOURCE ID: quest_branch_choose_white
-TEXT: Scegli Versione Bianca (Zekrom/Kyurem Bianco)
+TEXT: <size=35><b>Scegli Versione Bianca</b></size>
+<size=28>(Zekrom/Kyurem Bianco)</size>
 
 RESOURCE ID: quest_branch_choose_white_desc
 TEXT: Seleziona quest’opzione per ricevere la medaglia della Versione Bianca (Zekrom) nonché ricompense e bonus ispirati a Zekrom nel corso della tua avventura con il Tour GO di Unima.
@@ -1447,7 +1514,7 @@ RESOURCE ID: road_to_unova_event_title_raid
 TEXT: Biglietto per “Destinazione Unima: raid”
 
 RESOURCE ID: road_to_unova_pikachu_title
-TEXT: Pikachu Surprise
+TEXT: Sorpresa Pikachu
 
 RESOURCE ID: route_share_code_copied
 TEXT: Codice condivisione copiato

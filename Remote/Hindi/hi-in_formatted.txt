@@ -99,7 +99,7 @@ RESOURCE ID: bonus_daily_pass_tasks
 TEXT: अतरत टूर पॉइंट दान करते बोनस दैनक पास टाक
 
 RESOURCE ID: bonus_daily_t5_raid_lineup
-TEXT: Different five-star Raid Bosses will appear each day of the event
+TEXT: इवेंट क येक दन अलग-अलग फ़ाइव-टार रड बॉस दखाई देंगे।
 
 RESOURCE ID: bonus_freeze_shock_ice_burn_1_5x
 TEXT: Pokémon GO Tour : युनोवा - लोबल  क दौरान 1.5× ज़ शॉक या आइस बन क अवधी (बैज चयन क अधार पर)
@@ -225,10 +225,13 @@ TEXT: 18 फ़रवर, सुबह 10:00 बजे -
 20 फ़रवर, शाम 8:00 बजे
 
 RESOURCE ID: event_pass_additional_bonus_rank_divider_desc
-TEXT: You can continue earning rewards. Let’s see how far you can get!
+TEXT: आप रवॉड ात करना जार रख सकते हैं। आइए देखें क आप कतना आगे बढ़ पाते हैं!
+
+RESOURCE ID: event_pass_additional_bonus_rank_divider_header
+TEXT: बोनस रैंक
 
 RESOURCE ID: event_pass_additional_bonus_rank_divider_title
-TEXT: You’ve completed the pass!
+TEXT: आपने पास पूरा कर लया है!
 
 RESOURCE ID: event_pass_event_ended
 TEXT: इवेंट समात
@@ -256,35 +259,41 @@ TEXT: {0} क रैंक {1} ात ई।
 RESOURCE ID: event_pass_reward_journal
 TEXT: {0} क रैंक {1} रवॉड लम कया।
 
+RESOURCE ID: event_pass_reward_preview_new_item_indicator
+TEXT: नया आइटम!
+
 RESOURCE ID: event_pass_reward_preview_upsell_description
-TEXT: This reward is available in the Tour Pass Deluxe.
+TEXT: यह रवॉड टूर पास डीलस में उपलध है।
 
 RESOURCE ID: event_pass_rewards_journal
 TEXT: {0} रवॉड लम कये।
+
+RESOURCE ID: event_pass_upgrade
+TEXT: अपेड
 
 RESOURCE ID: event_time_header
 TEXT: EVENT TIME
 
 RESOURCE ID: expire_notification_day_plural
-TEXT: You have {0} days left to use your <b>{1}</b>!
+TEXT: आपक पास अपने <b>{1}</b> का उपयोग करने क लए {0} दन बचे हैं!
 
 RESOURCE ID: expire_notification_day_singular
-TEXT: You have 1 day left to use your <b>{0}</b>!
+TEXT: आपक पास अपने <b>{0}</b> का उपयोग करने क लए 1 दन बचा है!
 
 RESOURCE ID: expire_notification_hour_plural_min_plural
-TEXT: You have {0} hours and {1} minutes left to use your <b>{2}</b>!
+TEXT: आपक पास अपने <b>{2}</b> का उपयोग करने क लए {0} घंट और {1} मनट बचे हैं!
 
 RESOURCE ID: expire_notification_hour_plural_min_singular
-TEXT: You have {0} hours and 1 minute left to use your <b>{1}</b>!
+TEXT: आपक पास अपने <b>{1}</b> का उपयोग करने क लए {0} घंट और 1 मनट बचे हैं!
 
 RESOURCE ID: expire_notification_hour_singular_min_plural
-TEXT: You have 1 hour and {0} minutes left to use your <b>{1}</b>!
+TEXT: आपक पास अपने <b>{1}</b> का उपयोग करने क लए 1 घंटा और {0} मनट बचे हैं!
 
 RESOURCE ID: expire_notification_min_plural
-TEXT: You have {0} minutes left to use your <b>{1}</b>!
+TEXT: आपक पास अपने <b>{1}</b> का उपयोग करने क लए {0} मनट बचे हैं!
 
 RESOURCE ID: expire_notification_min_singular
-TEXT: You have 1 minute left to use your <b>{0}</b>!
+TEXT: आपक पास अपने <b>{0}</b> का उपयोग करने क लए 1 मनट बचा है!
 
 RESOURCE ID: filter_key_candy_km
 TEXT: candykm
@@ -296,7 +305,7 @@ RESOURCE ID: freeze_shock_adventure_effects_mapview_dialog
 TEXT: ज़ शॉक पोकमॉन को हलने-डुलने में असमथ कर देता है, जससे मुलाकात क दौरान वे अपनी जगह से हल नहीं पाते। ऐसे पोकमॉन ीन पर इधर-उधर नहीं घूमेंगे और न ही फेंक गए पोक बॉल को वापस फेकंगे।
 
 RESOURCE ID: freeze_shock_move_content
-TEXT: {0} मनट तक इलटक चाज्ड आइस फेंकता है, जससे मुलाकात क दौरान पोकमॉन हलने-डुलने में असमथ हो जाता है।
+TEXT: {0} मनट तक इलटक चाज्ड आइस फेंकता है, जससे मुलाकात क दौरान पोकमॉन हलने-डुलने में असमथ हो जाते हैं। इसक अलावा इससे पोकमॉन को पकड़ना भी आसान हो जाता है, जसक लए सहायक उपकरणों का उपयोग शामल है।
 
 RESOURCE ID: ftue_pokemon_alert_message
 TEXT: Pokémon Alerts notify you when a selected Pokémon is nearby in the wild via in-game notification and push notifications. Push notifications occur less often.
@@ -311,7 +320,7 @@ RESOURCE ID: fusion_resource_black_kyurem_name
 TEXT: वोट यूज़न एनिज
 
 RESOURCE ID: fusion_resource_black_kyurem_name_plural
-TEXT: Volt Fusion Energy
+TEXT: वोट यूज़न एनिज
 
 RESOURCE ID: fusion_resource_dawnwings_necrozma_desc
 TEXT: Used to fuse Necrozma and Lunala into Dawn Wings Necrozma. It can be found when defeating Dawn Wings Necrozma in Raids.
@@ -326,7 +335,7 @@ RESOURCE ID: fusion_resource_white_kyurem_name
 TEXT: लज़ यूज़न एनिज
 
 RESOURCE ID: fusion_resource_white_kyurem_name_plural
-TEXT: Blaze Fusion Energy
+TEXT: लज़ यूज़न एनिज
 
 RESOURCE ID: general1.ticket.5_hoopaunboundraidday_title
 TEXT: पा अनबाउंड रड दवस
@@ -363,6 +372,60 @@ TEXT: तदन अतरत 10 गट खोलं
 
 RESOURCE ID: gmax_kingler_max_battles
 TEXT: जायगैंटामैस कंगलरमैस बैटल में दखाई दे रहे हैं
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_team_00
+TEXT: Greetings. Lapras and I were just finishing our latest analysis.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_team_01
+TEXT: A well-balanced approach has proven productive not only in battle, but in other areas as well.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_team_02
+TEXT: We have you to thank, %PLAYERNAME%. Your assistance has allowed us to achieve another breakthrough.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_tgr_00
+TEXT: Ah, %PLAYERNAME%. You should know that Cliff has declared his intention to become “the most balanced Trainer ever.”
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_tgr_01
+TEXT: I can’t say I’m enthused about an enemy improving his skills, but at least you kept him in check when his reckless training methods could have caused trouble.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_tgr_02
+TEXT: I genuinely appreciate your support in that matter.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_candela_team_00
+TEXT: Yo, %PLAYERNAME%! I just wrapped up an intense solo mission.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_candela_team_01
+TEXT: I’m still warming up to going solo, but I learn a lot from it, too. Plus, it makes me appreciate being with my team even more.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_candela_team_02
+TEXT: Thanks for everything. Here’s to always being ready to help each other out, whether we’re together or apart!
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_candela_tgr_00
+TEXT: Hey, what’d you say to Arlo earlier? I’ve been hearing he’s working closely with the Grunts—like, cooperatively! That doesn’t sound like him at all.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_candela_tgr_01
+TEXT: It’s a shame they’re probably getting up to no good. Team GO Rocket are the champs of misplaced passion, huh?
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_candela_tgr_02
+TEXT: Anyhow, thanks for handling him. Whatever they try to pull in the future, we’ll stop them together!
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_spark_team_00
+TEXT: Heya, %PLAYERNAME%! You keeping frosty?
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_spark_team_01
+TEXT: Wild to think how this all kicked off with a beach retreat, huh? I guess things are always going a little haywire around you though, so I can’t say I’m surprised!
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_spark_team_02
+TEXT: You’re totally invited to my next hang. Anyways, thanks for always being down for an adventure!
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_spark_tgr_00
+TEXT: Hey, thanks for keeping an eye on Sierra earlier, %PLAYERNAME%.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_spark_tgr_01
+TEXT: She usually gives everybody a real cold shoulder, so I’m kinda surprised she went easy on you! ...A little easy.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_spark_tgr_02
+TEXT: She’s still super mean, and, y’know, evil, but hey—we’ll know just how to stop her next time she stirs up trouble!
 
 RESOURCE ID: go_tour_2025_global_sr_dialog_00_00
 TEXT: We’ve found it at last! Kyurem, the Boundary Pokémon, is almost definitely the cause of the ongoing anomalies we’ve been observing.
@@ -820,15 +883,16 @@ TEXT: माटरवक रसच - मनमोहक धुन (7
 RESOURCE ID: gotour_2025_upgrade_description
 TEXT: नीचे दये गए रवॉड को अनलॉक करने क लए टूर पास डीलस खरदें!
 • वटनी क साथ एक मुलाकात
-• एक लक चाम ात करने का मौका, जो आपको अपनी पसंद क दोत क साथ तुरंत लक दोत बनने क अनुमत देगा
+• एक  <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/"> लक चाम</a>, जो आपको अपनी पसंद क दोत क साथ तुरंत लक दोत बनने क अनुमत देगा
 • यूरम क लए यूज़न एनिज
+• यूरम हेलमेट अवतार आइटम
 • और भी बत कछ!
 
 RESOURCE ID: ice_burn_adventure_effects_mapview_dialog
 TEXT: आइस बन से मुलाकात क दौरान टागेट रंग क गत धीमी हो जाती है, जससे बेहतर ो करना आसान हो जाता है।
 
 RESOURCE ID: ice_burn_move_content
-TEXT: {0} मनट क लए अयंत ठंडी, बफ़ील हवा से पोकमॉन को घेर लता है, जससे मुलाकात क दौरान टागेट रंग क गत धीमी हो जाती है।
+TEXT: {0} मनट क लए अयंत ठंडी व बफ़ील हवा से पोकमॉन को घेर लता है, जससे मुलाकात क दौरान टागेट रंग क गत धीमी हो जाती है, जससे बेहतरन ो करना आसान हो जाता है। साथ ही, कनेटड सहायक उपकरणों क साथ भी पोकमॉन को पकड़ना बत आसान हो जाता है।
 
 RESOURCE ID: iris_social_weather_warning_notification_key
 TEXT: Weather conditions may be affecting Pokémon Playgrounds.
@@ -890,6 +954,9 @@ TEXT: A book to collect Postcards and remember locations from yours and your fri
 RESOURCE ID: item_postcard_inventory_name_old
 TEXT: Postcard Book
 
+RESOURCE ID: item_use_confirmation_on_friend
+TEXT: {1} पर {0} का उपयोग करना चाहेंगे?
+
 RESOURCE ID: kingler_gmax_tr_2025_title
 TEXT: जायगैंटामैस कंगलर ीमयम सीमत समय वाल रसच
 
@@ -915,7 +982,7 @@ RESOURCE ID: lucky_charm_notification_body_min_singular
 TEXT: आपक पास अपने <b>लक चाम</b> का उपयोग करने क लए 1 मनट बचा है!
 
 RESOURCE ID: lucky_friends_notification_details_from_charm
-TEXT: {0} and you became Lucky Friends with a Lucky Trinket!
+TEXT: {0} और आप एक लक चाम क साथ लक दोत बन गए हैं!
 
 RESOURCE ID: lunar_new_year_collection
 TEXT: चं नववष कलशन चैलंज
@@ -939,16 +1006,19 @@ RESOURCE ID: max_battle_day_gigantamax_kingler_ticketed
 TEXT: जायगैंटामैस कंगलर मैस बैटल दवस टकट बोनस
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-02-12T01:38:49.345044+00:00 for hi-IN
-at SHA b9c727d417a
-Pipeline 2990039, job 36914045
-Patch from: 0.347.0-SHA-5eb18cd9-RC3, 0.349.0-SHA-597696d2-RC3
+TEXT: Built at 2025-02-13T01:36:15.332288+00:00 for hi-IN
+at SHA 140f6369c5f
+Pipeline 2992623, job 36968364
+Patch from: 0.347.0-SHA-57b69799-RC1, 0.349.0-SHA-597696d2-RC3
 
 RESOURCE ID: move_required_to_enable_adventure_effect
-TEXT: {0} does not know the Charged Attack {1}, so it will not know an attack with an Adventure Effect after fusion.
+TEXT: {0} को चाज्ड अटैक {1} का पता नहीं है, इसलए इसे यूज़न क बाद एडवेंचर इफ़ेट वाल हमल का पता नहीं होगा।
+
+RESOURCE ID: move_required_to_enable_adventure_effect_question
+TEXT: या आपको जार रखना है?
 
 RESOURCE ID: move_required_to_enable_adventure_effect_title
-TEXT: This fused Pokémon will not know an attack with an Adventure Effect
+TEXT: यह यूज़ पोकमॉन एडवेंचर इफ़ेट वाल हमल को नहीं पहचान पाएगा।
 
 RESOURCE ID: no_items_to_claim
 TEXT: लम करने क लए रवॉड नहीं है। पोकमॉन क साथ मुलाकात को अलग से लम करना होगा।
@@ -1296,10 +1366,10 @@ RESOURCE ID: quest_win_raid_5_plural
 TEXT: {0} फ़ाइव-टार या उससे ऊपर क रड जीतें
 
 RESOURCE ID: quests_pass_multiple_task_available
-TEXT: New Pass Tasks!
+TEXT: नये पास टाक!
 
 RESOURCE ID: quests_pass_task_available
-TEXT: New Pass Task!
+TEXT: नया पास टाक!
 
 RESOURCE ID: raid_day_hoopa_unbound_event_name
 TEXT: रड दवस - पा अनबाउंड
@@ -1323,10 +1393,10 @@ RESOURCE ID: road_to_unova_event_title
 TEXT: युनोवा माग
 
 RESOURCE ID: road_to_unova_event_title_hatch
-TEXT: Road to Unova: Hatch Ticket
+TEXT: युनोवा माग - हैच टकट
 
 RESOURCE ID: road_to_unova_event_title_raid
-TEXT: Road to Unova: Raids Ticket
+TEXT: युनोवा माग - रड टकट
 
 RESOURCE ID: road_to_unova_pikachu_title
 TEXT: Pikachu Surprise
@@ -1612,16 +1682,16 @@ RESOURCE ID: title_bonus_dual_destiny_spark_tr_00
 TEXT: इंटंट का आभार - बोनस सीमत समय वाल रसच  (1/1)
 
 RESOURCE ID: title_event_pass_bonus_bonus_quest
-TEXT: बोनस वेट
+TEXT: बोनस टाक
 
 RESOURCE ID: title_event_pass_daily_bonus_quest
-TEXT: दैनक वेट
+TEXT: दैनक टाक
 
 RESOURCE ID: title_event_pass_daily_bonus_quest_premium
 TEXT: दैनक टाक - ीमयम
 
 RESOURCE ID: title_event_pass_hourly_bonus_quest
-TEXT: हर घंट क वेट
+TEXT: हर घंट क टाक
 
 RESOURCE ID: title_road_to_unova_hatch
 TEXT: युनोवा माग - हैच सीमत समय वाल रसच
