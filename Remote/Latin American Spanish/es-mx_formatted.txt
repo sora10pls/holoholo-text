@@ -264,7 +264,7 @@ RESOURCE ID: bonus_daily_pass_tasks
 TEXT: Las bonificaciones diarias de las tareas del Pase entregan puntos del Tour adicionales
 
 RESOURCE ID: bonus_daily_t5_raid_lineup
-TEXT: Different five-star Raid Bosses will appear each day of the event
+TEXT: Cinco Jefes de Incursión diferentes aparecerán cada día del evento
 
 RESOURCE ID: bonus_go_tour_2025_stickers
 TEXT: Calcomanías del Tour de GO: Unova disponibles como regalos y al girar fotodiscos en Poképaradas o Gimnasios
@@ -365,8 +365,8 @@ TEXT: Del 24 de febrero a las 10:00 a. m.
 al 2 de marzo a las 8:00 p. m.
 
 RESOURCE ID: event_datetime_range_key_gotour2025_masterwork
-TEXT: February 24, 10:00 a.m. –
-March 2, 6:00 p.m.
+TEXT: Del 24 de febrero a las 10:00 a. m.
+al 2 de marzo a las 6:00 p. m..
 
 RESOURCE ID: event_datetime_range_key_gotourhatch2025
 TEXT: Del 24 de febrero a las 10:00 a. m.
@@ -384,46 +384,58 @@ TEXT: Del 18 de febrero a las 10:00 a. m. al
 20 de febrero a las 8:00 p. m.
 
 RESOURCE ID: event_pass_additional_bonus_rank_divider_desc
-TEXT: You can continue earning rewards. Let’s see how far you can get!
+TEXT: Puedes seguir ganando recompensas. ¡Veamos hasta dónde puedes llegar!
+
+RESOURCE ID: event_pass_additional_bonus_rank_divider_header
+TEXT: RANGOS DE BONIFICACIÓN
 
 RESOURCE ID: event_pass_additional_bonus_rank_divider_title
-TEXT: You’ve completed the pass!
+TEXT: ¡Completaste el Pase!
 
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_02
 TEXT: Awarded at Rank 40
 
+RESOURCE ID: event_pass_reward_preview_new_item_indicator
+TEXT: ¡NUEVO OBJETO!
+
 RESOURCE ID: event_pass_reward_preview_upsell_description
-TEXT: This reward is available in the Tour Pass Deluxe.
+TEXT: Esta recompensa está disponible con el Pase del Tour Deluxe.
+
+RESOURCE ID: event_pass_upgrade
+TEXT: Obtener versión Deluxe
 
 RESOURCE ID: event_time_header
 TEXT: EVENT TIME
 
 RESOURCE ID: expire_notification_day_plural
-TEXT: You have {0} days left to use your <b>{1}</b>!
+TEXT: ¡Te quedan {0} días para usar tu <b>{1}</b>!
 
 RESOURCE ID: expire_notification_day_singular
-TEXT: You have 1 day left to use your <b>{0}</b>!
+TEXT: ¡Te queda 1 día para usar tu <b>{0}</b>!
 
 RESOURCE ID: expire_notification_hour_plural_min_plural
-TEXT: You have {0} hours and {1} minutes left to use your <b>{2}</b>!
+TEXT: ¡Te quedan {0} horas y {1} minutos para usar tu <b>{2}</b>!
 
 RESOURCE ID: expire_notification_hour_plural_min_singular
-TEXT: You have {0} hours and 1 minute left to use your <b>{1}</b>!
+TEXT: ¡Te quedan {0} horas y 1 minuto para usar tu <b>{1}</b>!
 
 RESOURCE ID: expire_notification_hour_singular_min_plural
-TEXT: You have 1 hour and {0} minutes left to use your <b>{1}</b>!
+TEXT: ¡Te queda 1 hora y {0} minutos para usar tu <b>{1}</b>!
 
 RESOURCE ID: expire_notification_min_plural
-TEXT: You have {0} minutes left to use your <b>{1}</b>!
+TEXT: ¡Te quedan {0} minutos para usar tu <b>{1}</b>!
 
 RESOURCE ID: expire_notification_min_singular
-TEXT: You have 1 minute left to use your <b>{0}</b>!
+TEXT: ¡Te queda 1 minuto para usar tu <b>{0}</b>!
 
 RESOURCE ID: filter_key_candy_km
 TEXT: candykm
 
 RESOURCE ID: free_stamp_rally_completed_description
 TEXT: Congratulations! You completed the Stamp Rally! If you'd like, you can continue to collect more stamps in the rally.
+
+RESOURCE ID: freeze_shock_move_content
+TEXT: Lanza hielo cargado con electricidad durante {0} minutos que paraliza a los Pokémon en los encuentros. También facilita la captura, incluso usando accesorios conectados.
 
 RESOURCE ID: ftue_pokemon_alert_message
 TEXT: Pokémon Alerts notify you when a selected Pokémon is nearby in the wild via in-game notification and push notifications. Push notifications occur less often.
@@ -435,7 +447,7 @@ RESOURCE ID: fusion_resource_black_kyurem_desc
 TEXT: Used to fuse Kyurem and Zekrom into Black Kyurem. It can be found when defeating Black Kyurem in Raids.
 
 RESOURCE ID: fusion_resource_black_kyurem_name_plural
-TEXT: Volt Fusion Energy
+TEXT: Energía Fusión Voltaje
 
 RESOURCE ID: fusion_resource_dawnwings_necrozma_desc
 TEXT: Used to fuse Necrozma and Lunala into Dawn Wings Necrozma. It can be found when defeating Dawn Wings Necrozma in Raids.
@@ -447,7 +459,7 @@ RESOURCE ID: fusion_resource_white_kyurem_desc
 TEXT: Used to fuse Kyurem and Reshiram into White Kyurem. It can be found when defeating White Kyurem in Raids.
 
 RESOURCE ID: fusion_resource_white_kyurem_name_plural
-TEXT: Blaze Fusion Energy
+TEXT: Energía Fusión Llama
 
 RESOURCE ID: general1.ticket.5_hoopaunboundraidday_title
 TEXT: Entrada: Día de Incursiones de Hoopa Desatado
@@ -456,7 +468,7 @@ RESOURCE ID: general1.ticket._gotourhatch2025
 TEXT: Camino a Unova: Eclosión
 
 RESOURCE ID: general1.ticket._gotourmasterwork2025
-TEXT: Masterwork Research: A Dazzling Aria
+TEXT: Investigación Magistral: Brillantez lírica
 
 RESOURCE ID: general1.ticket._gotourraid2025
 TEXT: Camino a Unova: Incursiones
@@ -795,91 +807,91 @@ RESOURCE ID: go_tour_2025_irl_sr_dialog_04_tepig_03
 TEXT: Until next time—let’s GO!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_00
-TEXT: Hey there, %PLAYERNAME%! Funny you should pop by—I was just reflecting on our incredible journey together!
+TEXT: ¡Hola, %PLAYERNAME%! Qué coincidencia verte por aquí, ¡justo estaba pensando en nuestro increíble camino hasta ahora!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_01
-TEXT: Encountering gigantic Pokémon, unfurling incredible mysteries, foiling Team GO Rocket countless times... We’ve faced extraordinary challenges together, haven’t we?
+TEXT: Hemos visto Pokémon gigantescos, descubierto misterios increíbles, derrotado al Equipo GO Rocket en innumerables ocasiones... En fin, nos afrontamos a desafíos extraordinarios, ¿cierto?
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_02
-TEXT: Our research has introduced us to Pokémon from all over the world, forged wonderful friendships, and led to some amazing discoveries.
+TEXT: Todas nuestras investigaciones nos ayudaron a descubrir Pokémon de todo el mundo, a forjar grandes amistades y a realizar increíbles descubrimientos.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_03
-TEXT: And speaking of discoveries, I’ve noticed some unusual sounds lately.
+TEXT: Y hablando de descubrimientos, últimamente escuché unos sonidos extraños.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_04
-TEXT: I’m going to investigate, and while I do, I need you to continue your excellent work in the field.
+TEXT: Voy a ponerme a investigar y, mientras tanto, necesito que sigas con tu excelente trabajo de campo.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_01_00
-TEXT: Good news, %PLAYERNAME%! I’ve made a breakthrough on those acoustic mysteries I was looking into.
+TEXT: ¡Buenas noticias, %PLAYERNAME%! Logré descubrir la fuente del misterio acústico que estaba investigando.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_01_01
-TEXT: And as I suspected, they’re not just any sound wave, they’re the unique melodies of the Mythical Pokémon Meloetta!
+TEXT: Tal y como sospechaba, no se trata de una onda sonora cualquiera, ¡es la melodía característica del Pokémon mítico Meloetta!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_01_02
-TEXT: Meloetta uses song to influence the emotions of those who hear it. And on that note, I’d like you to try and spot any unusual behavior in the local Pokémon.
+TEXT: Meloetta controla los sentimientos de los que escuchan las melodías que emite con su singular vocalización. Así que me gustaría que salieras a buscar algún comportamiento inusual de los Pokémon de la zona.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_01_03
-TEXT: It’s not every day we get to study a Mythical Pokémon, so let’s make the most of this opportunity!
+TEXT: No todos los días se tiene la oportunidad de estudiar a un Pokémon mítico, ¡aprovechémosla!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_02_00
-TEXT: Hello again, %PLAYERNAME%! We may not have found Meloetta yet, but I can definitely still hear it.
+TEXT: ¡Hola de nuevo, %PLAYERNAME%! Aunque todavía no hayamos encontrado a Meloetta, aún puedo escucharlo.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_02_01
-TEXT: So our musical friend can’t be too far off—we just might have to change our usual pitch.
+TEXT: Nuestro cantarín amigo no puede andar muy lejos, tal vez solo necesitemos cambiar nuestro tono.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_02_02
-TEXT: Why don’t you go out and do a little singing and dancing to see if it affects people and Pokémon nearby?
+TEXT: ¿Por qué no sales a cantar y bailar un poco para ver si eso afecta a los Pokémon y a las personas que hayan por la zona?
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_02_03
-TEXT: Who knows, that might be the "key" to success! Heh heh... Music joke. I’ve got a million!
+TEXT: ¡Quizás así demos con la tecla adecuada! Je, je. Era una bromita musical. ¡Y me quedan muchas más!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_03_00
-TEXT: If it isn’t our intrepid enter-Trainer! Say, did you know that Meloetta’s melodies have inspired many famous songs?
+TEXT: ¡Artista a la vista! Dime, ¿sabías que se han creado innumerables canciones inspiradas en las melodías que emite Meloetta?
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_03_01
-TEXT: It’s just fascinating—Meloetta shows us how music helps us to forge special bonds with one another.
+TEXT: Es tan fascinante: Meloetta nos enseña cómo la música nos puede ayudar a conectar con los demás.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_03_02
-TEXT: It’s not unlike your amazing ability to connect with other people and Pokémon. Every new Pokémon you catch or Trainer you meet is a new potential friend!
+TEXT: Aunque tu talento para conectar con otras personas y Pokémon tampoco se queda atrás. ¡Cada nuevo Pokémon que atrapas y cada nueva persona que conoces es una amistad en potencia!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_03_03
-TEXT: And on that uplifting note, get out there and see what new friendships await, %PLAYERNAME%.
+TEXT: Y para no perder el compás, sal a explorar y descubrir nuevas amistades, %PLAYERNAME%.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_04_00
-TEXT: %PLAYERNAME%! I’ve dug up some useful information on Meloetta. Did you know that it was first discovered in the Unova region?
+TEXT: ¡%PLAYERNAME%! Encontré información útil sobre Meloetta. ¿Sabías que fue descubierto originalmente en la región de Unova?
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_04_01
-TEXT: That might not seem critical, but we have to take advantage of every scrap of information we can to help us make sense of Meloetta’s behavior.
+TEXT: Quizás no parezca muy importante ahora mismo, pero debemos aprovechar cada pizca de información que nos pueda ayudar a entender el comportamiento de Meloetta.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_04_02
-TEXT: Keep up your fieldwork, if you would! Watch for Pokémon experiencing strong emotions, check out some new places, and maybe try to forge some new connections.
+TEXT: Sigue esforzándote como hasta ahora. Busca Pokémon que estén experimentando emociones fuertes, explora nuevos lugares y trata de forjar nuevas conexiones.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_04_03
-TEXT: Let’s keep this research rhythm going!
+TEXT: ¡Que no pare el ritmo de esta investigación!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_05_00
-TEXT: This is the moment we’ve been waiting for, %PLAYERNAME%!
+TEXT: ¡Llegó el momento, %PLAYERNAME%!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_05_01
-TEXT: Your dedicated work has helped me to pinpoint Meloetta’s location at last!
+TEXT: Tu arduo trabajo me ayudó a localizar a a Meloetta.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_05_02
-TEXT: This could be your chance to befriend an extraordinary Pokémon.
+TEXT: Es hora de entablar una amistad con un Pokémon extraordinario.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_05_03
-TEXT: Head out there and show Meloetta the same kindness and dedication you’ve shown all your Pokémon friends!
+TEXT: Sal y demuéstrale a Meloetta el cariño y amabilidad que has demostrado siempre a todos tus Pokémon.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_06_00
-TEXT: I knew you’d “measure” up, %PLAYERNAME%! And—whoa!
+TEXT: ¡Sabía que no ibas a desentonar, %PLAYERNAME%! ¡Increíble!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_06_01
-TEXT: What a striking appearance this Meloetta has! My research notes have nothing about this distinctive coloring. It’s truly incredible!
+TEXT: ¡Qué gran aspecto tiene este Meloetta! No tenía nada en mis notas sobre esta coloración tan peculiar. ¡Impresionante!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_06_02
-TEXT: I’ve been watching your journey since you took your first steps as a Trainer. Seeing how far you’ve come makes me so proud to call you my research partner—and more importantly, my friend!
+TEXT: He seguido tu progreso desde que diste tus primeros pasos entrenando Pokémon, y viendo lo lejos que llegaste me enorgullece que trabajemos juntos y, sobre todo, ¡que compartamos una gran amistad!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_06_03
-TEXT: I know you’ll keep that Meloetta singing proudly, %PLAYERNAME%. You never fall flat!
+TEXT: Estoy convencido de que harás que Meloetta cante con orgullo, %PLAYERNAME%. ¡Tienes un gran oído!
 
 RESOURCE ID: go_tour_2025_today_view_extended_hours
 TEXT: Tour de GO: Unova (Bonificaciones prolongadas)
@@ -973,10 +985,15 @@ TEXT: Investigación Magistral: Brillantez lírica (7/7)
 
 RESOURCE ID: gotour_2025_upgrade_description
 TEXT: ¡Adquiere el Pase del Tour Deluxe para desbloquear las siguientes recompensas!
+
 • Un encuentro con Victini
-•  La oportunidad de conseguir un Adorno Suerte, que te permite entablar una Amistad con Suerte al instante con quien elijas
+•  Un <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/"> Adorno Suerte, que te permite entablar una Amistad con Suerte al instante con quien elijas
 •  Energía Fusión para Kyurem
+• El Casco de Kyurem para el avatar
 • ¡Y mucho más!
+
+RESOURCE ID: ice_burn_move_content
+TEXT: Rodea a los Pokémon con una ráfaga de viento durante {0} minutos que ralentiza el blanco en los encuentros y hace que sea más fácil conseguir lanzamientos excelentes. También facilita la captura, incluso con accesorios conectados.
 
 RESOURCE ID: iris_social_weather_warning_notification_key
 TEXT: Weather conditions may be affecting Pokémon Playgrounds.
@@ -997,7 +1014,7 @@ RESOURCE ID: item_event_ticket_global_desc_gotourhatch2025
 TEXT: Esta entrada se activará automáticamente para darte acceso a las bonificaciones de "Camino a Unova: Incursiones" desde el lunes 24 de febrero a las 10:00 a. m. hasta el domingo 2 de marzo de 2025 a las 8:00 p. m. en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_global_desc_gotourmasterwork2025
-TEXT: This ticket will automatically activate to give you access to Masterwork Research: A Dazzling Aria from Monday, February 24, at 10:00 a.m. to Sunday, March 2, 2025, at 6:00 p.m. local time, wherever you are.
+TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Magistral: Brillantez lírica desde el lunes 24 de febrero a las 10:00 a. m. hasta el domingo 2 de marzo de 2025 a las 6:00 p. m. en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_global_details_gotourhatch2025
 TEXT: Esta entrada se activará automáticamente para darte acceso a las bonificaciones especiales desde el 24 de febrero, estés donde estés.
@@ -1024,7 +1041,7 @@ RESOURCE ID: item_event_ticket_pink_details_cd_shelmetkarrablast25
 TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Especial "Colección de insectos" el 9 de febrero, estés donde estés.
 
 RESOURCE ID: item_global_event_ticket_details_meloetta
-TEXT: This ticket will automatically activate to give you access to special bonuses starting February 24, wherever you are.
+TEXT: Esta entrada se activará automáticamente para darte acceso a las bonificaciones especiales desde el 24 de febrero, estés donde estés.
 
 RESOURCE ID: item_postcard_inventory_desc_old
 TEXT: A book to collect Postcards and remember locations from yours and your friends’ journeys.
@@ -1032,11 +1049,14 @@ TEXT: A book to collect Postcards and remember locations from yours and your fri
 RESOURCE ID: item_postcard_inventory_name_old
 TEXT: Postcard Book
 
+RESOURCE ID: item_use_confirmation_on_friend
+TEXT: ¿Usar {0} con {1}?
+
 RESOURCE ID: kingler_gmax_tr_2025_title
 TEXT: Investigación Temporal Prémium de Kingler Gigamax
 
 RESOURCE ID: lucky_friends_notification_details_from_charm
-TEXT: {0} and you became Lucky Friends with a Lucky Trinket!
+TEXT: ¡Ahora {0} y tú tienen una Amistad con Suerte gracias al Adorno Suerte!
 
 RESOURCE ID: lunar_new_year_collection
 TEXT: Desafío de Colección del Año Nuevo Lunar
@@ -1060,16 +1080,19 @@ RESOURCE ID: max_battle_day_gigantamax_kingler_ticketed
 TEXT: Bonificaciones de la entrada del Día de Combates Max de Kingler Gigamax
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-02-13T01:36:15.332288+00:00 for es-MX
-at SHA 140f6369c5f
-Pipeline 2992623, job 36968364
-Patch from: 0.347.0-SHA-57b69799-RC1, 0.349.0-SHA-597696d2-RC3
+TEXT: Built at 2025-02-14T17:16:03.282370+00:00 for es-MX
+at SHA 6ec07be1526
+Pipeline 2999250, job 37042391
+Patch from: 0.349.0-SHA-afca3417-RC4, 0.347.0-SHA-3ed2e805-RC1
 
 RESOURCE ID: move_required_to_enable_adventure_effect
-TEXT: {0} does not know the Charged Attack {1}, so it will not know an attack with an Adventure Effect after fusion.
+TEXT: {0} no conoce el ataque cargado {1}, por lo que no conocerá un ataque con un Efecto aventura tras fusionarse.
+
+RESOURCE ID: move_required_to_enable_adventure_effect_question
+TEXT: ¿Quieres continuar?
 
 RESOURCE ID: move_required_to_enable_adventure_effect_title
-TEXT: This fused Pokémon will not know an attack with an Adventure Effect
+TEXT: Este Pokémon fusionado no conocerá un ataque con un Efecto aventura
 
 RESOURCE ID: ongoing_stamp_collection_header
 TEXT: ONGOING STAMP RALLIES
@@ -1235,6 +1258,9 @@ TEXT: Atrapa a Reshiram o a Zekrom
 RESOURCE ID: quest_catch_pokemon_unova_singular
 TEXT: Atrapa un Pokémon originalmente descubierto en la región de Unova
 
+RESOURCE ID: quest_catch_pokemon_unova_unique
+TEXT: Atrapa {0} especies diferentes de Pokémon descubiertos en Unova
+
 RESOURCE ID: quest_catch_pokemon_zekrom
 TEXT: Atrapa a Zekrom
 
@@ -1285,6 +1311,9 @@ TEXT: Evoluciona un Snivy
 
 RESOURCE ID: quest_evolve_tepig_singular_posessive
 TEXT: Evoluciona un Tepig
+
+RESOURCE ID: quest_feed_goldenrazz_plural
+TEXT: Usa {0} Bayas Frambu Doradas para atrapar Pokémon
 
 RESOURCE ID: quest_fuse_pokemon_kyurem
 TEXT: Fusiona a Kyurem
@@ -1440,10 +1469,10 @@ RESOURCE ID: quest_win_raid_5_plural
 TEXT: Gana en {0} incursiones de nivel 5 o superior
 
 RESOURCE ID: quests_pass_multiple_task_available
-TEXT: New Pass Tasks!
+TEXT: ¡Nuevas tareas del Pase!
 
 RESOURCE ID: quests_pass_task_available
-TEXT: New Pass Task!
+TEXT: ¡Nueva tarea del Pase!
 
 RESOURCE ID: raid_day_hoopa_unbound_event_name
 TEXT: Día de Incursiones: Hoopa Desatado
@@ -1464,10 +1493,10 @@ RESOURCE ID: road_to_unova_event_title
 TEXT: Camino a Unova
 
 RESOURCE ID: road_to_unova_event_title_hatch
-TEXT: Road to Unova: Hatch Ticket
+TEXT: Entrada de Camino a Unova: Eclosión
 
 RESOURCE ID: road_to_unova_event_title_raid
-TEXT: Road to Unova: Raids Ticket
+TEXT: Entrada de Camino a Unova: Incursiones
 
 RESOURCE ID: road_to_unova_pikachu_title
 TEXT: Pikachu Surprise
@@ -1741,14 +1770,14 @@ TEXT: <b>Las recompensas incluyen lo siguiente:</b>
 • 12,000 EXP
 
 RESOURCE ID: text_rewards_key_meloettamasterwork2025
-TEXT: <b>Included rewards:</b>
-• An encounter with Shiny Meloetta (Aria Forme)
-• Shiny Meloetta T-Shirt avatar item
-• 10 Reshiram Candy, 10 Zekrom Candy, 15 Snivy Candy, 15 Tepig Candy, 15 Oshawott Candy, 10 Darumaka Candy, and 30 Meloetta Candy
-• 14,640 XP and 6,480 Stardust
-• 2 Rare Candy XL and 3 Rare Candies for Trainers level 31 and up
-• 5 Rare Candies for Trainers level 30 and below
-• 60 Ultra Balls, 3 Unova Stones, 5 Golden Razz Berries, 5 Silver Pinap Berries, 1 Lure Module, 2 Incense, and more!
+TEXT: <b>Las recompensas incluyen:</b>
+• Un encuentro con Meloetta brillante (Forma Lírica)
+• Camiseta de Meloetta brillante para el avatar
+• 10 Caramelos Reshiram, 10 Caramelos Zekrom, 15 Caramelos Snivy, 15 Caramelos Tepig, 15 Caramelos Oshawott, 10 Caramelos Darumaka y 30 Caramelos Meloetta
+• 14,640 EXP y 6,480 Polvos Estrella
+• 2 Caramelos Raros XL y 3 Caramelos Raros para los Entrenadores de nivel 31 o superior
+• 5 Caramelos Raros para los Entrenadores de nivel 30 o inferior
+• 60 Ultrabolas, 3 Piedras Unova, 5 Bayas Frambu Doradas, 5 Bayas Pinia Plateadas, 1 Módulo Señuelo, 2 Inciensos ¡y mucho más!
 
 RESOURCE ID: text_rewards_key_scatteredwindsfeb25
 TEXT: <b>Las recompensas incluyen:</b>
@@ -1760,6 +1789,9 @@ TEXT: <b>Las recompensas incluyen:</b>
 
 RESOURCE ID: ticket_shelmet_karrablast_cd
 TEXT: La entrada para la Investigación Especial "Colección de insectos" está disponible en la Tienda
+
+RESOURCE ID: tips_loading_screen_golden_razz_gym
+TEXT: Darle una Baya Frambu Dorada a un Pokémon que defiende un Gimnasio curará por completo a ese Pokémon.
 
 RESOURCE ID: title_addon_unova_hatch
 TEXT: Tour de GO: Unova (Amante de la eclosión)
@@ -1820,6 +1852,12 @@ TEXT: Pokémon Gigamax en el Pokédex
 
 RESOURCE ID: trade_gmax_non_pokedex
 TEXT: Todos los Pokémon Gigamax
+
+RESOURCE ID: win gmax_battle_plural
+TEXT: Win {0} Gigantamax Battles
+
+RESOURCE ID: win_gmax_battle_singular
+TEXT: Win a Gigantamax Battle
 
 RESOURCE ID: zorua_o_clock_active
 TEXT: ¡Zorua está apareciendo en grandes cantidades!
