@@ -2007,8 +2007,14 @@ TEXT: 新しい着せ替えアイテムが追加！
 RESOURCE ID: avatar_award_show_me
 TEXT: ショップで見る
 
+RESOURCE ID: avatar_backpack_blackkyurem
+TEXT: ブラックキュレム　翼
+
 RESOURCE ID: avatar_backpack_eggincubator
 TEXT: ふかそうち　バックパック
+
+RESOURCE ID: avatar_backpack_whitekyurem
+TEXT: ホワイトキュレム　バックパック
 
 RESOURCE ID: avatar_baggypants
 TEXT: ルーズパンツ　ダークグレー
@@ -4289,6 +4295,9 @@ TEXT: GOTourキャップ
 RESOURCE ID: avatar_hat_halloween2024
 TEXT: トップハット　コロモリ
 
+RESOURCE ID: avatar_hat_kyurem
+TEXT: キュレム　ヘッドウェア
+
 RESOURCE ID: avatar_hat_wcs2024
 TEXT: ポケモンWCS　2024　帽子
 
@@ -6534,6 +6543,9 @@ TEXT: ネクロズマ　シューズ
 RESOURCE ID: avatar_outfits
 TEXT: アウトフィット
 
+RESOURCE ID: avatar_pants_bwpants
+TEXT: 白&黒　ボトムズ
+
 RESOURCE ID: avatar_pants_gblgrimsley
 TEXT: ギーマ　パンツ
 
@@ -6585,11 +6597,23 @@ TEXT: 注目アイテム
 RESOURCE ID: avatar_sets
 TEXT: セット
 
+RESOURCE ID: avatar_shirt_bwhoodie
+TEXT: 白&黒　パーカー
+
 RESOURCE ID: avatar_shirt_gblallister
 TEXT: オニオン　セット
 
 RESOURCE ID: avatar_shirt_gblgrimsley
 TEXT: ギーマ　トップス
+
+RESOURCE ID: avatar_shirt_gotour2025black
+TEXT: GO Tour　2025　Tシャツ　ブラック
+
+RESOURCE ID: avatar_shirt_gotour2025gray
+TEXT: GO Tour　2025　Tシャツ
+
+RESOURCE ID: avatar_shirt_gotour2025white
+TEXT: GO Tour　2025　Tシャツ　ホワイト
 
 RESOURCE ID: avatar_shirt_gowatshirt2024
 TEXT: GO ワイルドエリア 2024 Tシャツ
@@ -6611,6 +6635,9 @@ TEXT: チェック柄　トップス
 
 RESOURCE ID: avatar_shirt_shiny_mew_bundle_icon
 TEXT: ミュウ(色違い)Tシャツ
+
+RESOURCE ID: avatar_shirt_shinymeloetta
+TEXT: メロエッタ（色違い）Tシャツ
 
 RESOURCE ID: avatar_shirt_staryusweater
 TEXT: ヒトデマン　セーター
@@ -14426,7 +14453,7 @@ RESOURCE ID: bonus_beast_ball_ultra_beast_raid
 TEXT: ウルトラビーストレイドでウルトラボールが使える
 
 RESOURCE ID: bonus_black_version_glaciate
-TEXT: Kyurem caught from Black Kyurem raids will know the Charged Attack Glaciate
+TEXT: ブラックキュレムレイドで捕まえるキュレムがこごえるせかいを覚える
 
 RESOURCE ID: bonus_buddy_catch_assist_boosted
 TEXT: グレートな相棒以上のポケモンによるボールアシスト確率アップ
@@ -14512,6 +14539,9 @@ TEXT: ヌメイルをヌメルゴンに進化させるとかみなりパンチ�
 RESOURCE ID: bonus_cd_move_grubbin
 TEXT: デンヂムシをクワガノンに進化させるとボルトチェンジを覚えている
 
+RESOURCE ID: bonus_cd_move_karrablast
+TEXT: カブルモをシュバルゴに進化させるとシェルブレードを覚えている
+
 RESOURCE ID: bonus_cd_move_larvitar_cdc
 TEXT: サナギラスをバンギラスに進化させるとうちおとすを覚えている
 
@@ -14553,6 +14583,9 @@ TEXT: フクスローをジュナイパーに進化させるとハードプラ�
 
 RESOURCE ID: bonus_cd_move_sewaddle
 TEXT: クルマユをハハコモリに進化させるとシャドークローを覚えている
+
+RESOURCE ID: bonus_cd_move_shelmet
+TEXT: チョボマキをアギルダーに進化させるとエナジーボールを覚えている
 
 RESOURCE ID: bonus_cd_move_slowpoke
 TEXT: ヤドンかガラルのすがたのヤドンを進化させるとなみのりを覚えている
@@ -14627,7 +14660,10 @@ RESOURCE ID: bonus_daily_field_research_pokecoins
 TEXT: 毎日初めてログインするときにフィールドリサーチタスクが3件以下であれば20ポケコインがもらえるタスクを入手
 
 RESOURCE ID: bonus_daily_pass_tasks
-TEXT: Bonus daily Pass Tasks awarding additional Tour Points
+TEXT: 追加のツアーポイントがもらえるデイリーパスタスク
+
+RESOURCE ID: bonus_daily_t5_raid_lineup
+TEXT: イベント期間中毎日違う5つ星レイドボスが出現
 
 RESOURCE ID: bonus_deerling_spawn_notice
 TEXT: シキジカがエリア内に出現
@@ -14786,7 +14822,7 @@ RESOURCE ID: bonus_go_tour_2025_photobomb
 TEXT: GOスナップショットで着飾ったピカチュウとの出会い（12回まで）
 
 RESOURCE ID: bonus_go_tour_2025_stickers
-TEXT: GO Tour: Unova–themed stickers available from Gifts and spinning PokéStops or Gyms
+TEXT: ギフトとポケストップ・ジムスピンからGOツアーイッシュ地方ステッカーが出る
 
 RESOURCE ID: bonus_go_tour_6_special_trades
 TEXT: 一日にできる特別な交換計6回
@@ -14810,7 +14846,7 @@ RESOURCE ID: bonus_hoenn_spawns
 TEXT: ホウエン地方で最初に発見されたポケモンがより多く出現
 
 RESOURCE ID: bonus_hourly_pass_tasks
-TEXT: Bonus hourly Pass Tasks awarding additional Tour Points
+TEXT: 追加のツアーポイントがもらえる1時間パスタスク
 
 RESOURCE ID: bonus_implicit_social_alodude
 TEXT: ひとつのルアーで捕まえられたポケモンが一定数を超えると、その周りで30分間4× ポケモン獲得ほしのすな
@@ -15285,7 +15321,7 @@ RESOURCE ID: bonus_spawn_snorlax
 TEXT: カビゴンがより多くエリア内に出現
 
 RESOURCE ID: bonus_special_background_t5_raid
-TEXT: Pokémon caught from five-star raids may have a Special Background
+TEXT: 5つ星レイドで捕まえるポケモンにスペシャル背景がついている可能性
 
 RESOURCE ID: bonus_special_trade_double_cd
 TEXT: イベント中と終了後5時間内に特別な交換1回追加
@@ -15453,7 +15489,7 @@ RESOURCE ID: bonus_weekend_booster_desc_01
 TEXT: 毎週末ログインすると、タイムチャレンジを入手でき、完了することで、きのみ、モンスターボール、おこうがもらえる（2024年6月16日まで）
 
 RESOURCE ID: bonus_white_version_glaciate
-TEXT: Kyurem caught from White Kyurem raids will know the Charged Attack Glaciate
+TEXT: ホワイトキュレムレイドで捕まえるキュレムがこごえるせかいを覚える
 
 RESOURCE ID: bonus_xl_candy_5x
 TEXT: ポケモンを捕まえてもらえるアメXLの確率大幅アップ
@@ -20217,6 +20253,9 @@ TEXT: コミュニティ・デイ：タネボー
 RESOURCE ID: community_day_sewaddle_event_name
 TEXT: コミュニティ・デイ：クルミル
 
+RESOURCE ID: community_day_shelmet_karrablast_event_name_cd
+TEXT: コミュニティ・デイ：チョボマキとカブルモ
+
 RESOURCE ID: community_day_shinx_event_name
 TEXT: コミュニティ・デイ：コリンク
 
@@ -21077,6 +21116,9 @@ TEXT: 詳細は<a href="https://pokemongolive.com/news">ウェブサイト</a>�
 RESOURCE ID: details_link_key_gofestraid24
 TEXT: 詳細は<a href="https://pokemongolive.com/post/inbound-from-ultra-space-2024">ウェブサイト</a>でご確認ください
 
+RESOURCE ID: details_link_key_gotourhatch2025
+TEXT: For more details, visit the <a href=https://pokemongolive.com/post/road-to-unova-event/"">website</a>."
+
 RESOURCE ID: details_link_key_gowa2024
 TEXT: 詳細は<a href="pokemongolive.com/gowildarea/global">ウェブサイト</a>でご確認ください
 
@@ -21393,19 +21435,19 @@ RESOURCE ID: eevee_explorers_milan_title
 TEXT: Eevee Explorers – Milan
 
 RESOURCE ID: eevee_explorers_milan_title_00
-TEXT: Eevee Explorers: Milan (1/1)
+TEXT: Eevee Explorers – Milan (1/1)
 
 RESOURCE ID: eevee_explorers_mumbai_title
 TEXT: Eevee Explorers – Mumbai
 
 RESOURCE ID: eevee_explorers_mumbai_title_00
-TEXT: Eevee Explorers: Mumbai (1/1)
+TEXT: Eevee Explorers – Mumbai (1/1)
 
 RESOURCE ID: eevee_explorers_santiago_title
 TEXT: Eevee Explorers – Santiago
 
 RESOURCE ID: eevee_explorers_santiago_title_00
-TEXT: Eevee Explorers: Santiago (1/1)
+TEXT: Eevee Explorers – Santiago (1/1)
 
 RESOURCE ID: eevee_explorers_sao_paulo_title
 TEXT: イーブイチャレンジ – サンパウロ
@@ -21423,7 +21465,7 @@ RESOURCE ID: eevee_explorers_singapore_title
 TEXT: Eevee Explorers – Singapore
 
 RESOURCE ID: eevee_explorers_singapore_title_00
-TEXT: Eevee Explorers: Singapore (1/1)
+TEXT: Eevee Explorers – Singapore (1/1)
 
 RESOURCE ID: eevee_explorers_tainan_title
 TEXT: イーブイチャレンジ：台南
@@ -21796,6 +21838,15 @@ TEXT: 登録したいトレーナーコードを
 
 RESOURCE ID: enter_friend_code_prompt_v2
 TEXT: 相手のトレーナーコードを入力、または、読み込んでフレンド申請を送信
+
+RESOURCE ID: enter_route_share_code_button
+TEXT: ルートのシェアコードを入力
+
+RESOURCE ID: enter_route_share_code_header
+TEXT: ルートのシェアコードを入力：
+
+RESOURCE ID: enter_route_share_code_placeholder
+TEXT: 例：ABC123
 
 RESOURCE ID: enter_tag_name_placeholder
 TEXT: タグ名を入力
@@ -22190,6 +22241,9 @@ RESOURCE ID: event_datetime_range_key_cd_recap2024
 TEXT: 12月21日9:00AM～
 12月22日9:00PM
 
+RESOURCE ID: event_datetime_range_key_cd_shelmetkarrablast25
+TEXT: 2月9日2:00PM～5:00PM
+
 RESOURCE ID: event_datetime_range_key_cd_sprigatito2025
 TEXT: 1月5日2:00PM～5:00PM
 
@@ -22237,6 +22291,9 @@ RESOURCE ID: event_datetime_range_key_gblaug24
 TEXT: 8月16日10:00AM～
 8月20日8:00PM
 
+RESOURCE ID: event_datetime_range_key_gmaxkingler25
+TEXT: 2月1日2:00PM～5:00PM
+
 RESOURCE ID: event_datetime_range_key_gmaxlapras24
 TEXT: 12月8日2:00PM～5:00PM
 
@@ -22264,6 +22321,18 @@ TEXT: 2月19日10:00AM～
 
 RESOURCE ID: event_datetime_range_key_gotour2024_masterwork
 TEXT: 
+
+RESOURCE ID: event_datetime_range_key_gotour2025
+TEXT: February 24, 10:00 a.m. –
+March 2, 6:00 p.m.
+
+RESOURCE ID: event_datetime_range_key_gotour2025_masterwork
+TEXT: February 24, 10:00 a.m. –
+March 2, 6:00 p.m.
+
+RESOURCE ID: event_datetime_range_key_gotourhatch2025
+TEXT: February at 10:00 a.m. –
+March 2 at 6:00 p.m.
 
 RESOURCE ID: event_datetime_range_key_gowa2024leadup
 TEXT: 11月18日～22日
@@ -22306,6 +22375,10 @@ TEXT: 3月16日2:00PM～5:00PM
 RESOURCE ID: event_datetime_range_key_lny2024
 TEXT: 2月5日10:00AM～
 2月11日8:00PM（現地時間）
+
+RESOURCE ID: event_datetime_range_key_lunarny0125
+TEXT: 1月29日10:00AM～
+2月2日8:00PM
 
 RESOURCE ID: event_datetime_range_key_mankeycd24
 TEXT: 11月10日2:00PM～5:00PM
@@ -23143,19 +23216,19 @@ RESOURCE ID: event_npc10_victory__male_speaker
 TEXT: 大胆さが功を奏したわ。
 
 RESOURCE ID: event_pass_additional_bonus_rank_divider_desc
-TEXT: You can continue earning rewards. Let's see how far you can get!
+TEXT: 引き続きリワードを受け取れます。どこまで行けるか挑戦してみましょう！
 
 RESOURCE ID: event_pass_additional_bonus_rank_divider_header
-TEXT: BONUS RANKS
+TEXT: ボーナスランク
 
 RESOURCE ID: event_pass_additional_bonus_rank_divider_title
-TEXT: You've completed the Tour Pass!
+TEXT: ツアーパス完了！
 
 RESOURCE ID: event_pass_button
 TEXT: デラックスを選択
 
 RESOURCE ID: event_pass_desc
-TEXT: デラックスコースを選ぶとプレミアムリワードを入手でき{0}とすぐ出会えます！
+TEXT: プレミアムリワードを入手でき{0}とすぐ出会えます！
 
 RESOURCE ID: event_pass_event_ended
 TEXT: イベント終了
@@ -23193,10 +23266,10 @@ RESOURCE ID: event_pass_reward_journal
 TEXT: {0}のランク{1}リワードを受け取った！
 
 RESOURCE ID: event_pass_reward_preview_new_item_indicator
-TEXT: NEW ITEM!
+TEXT: NEW！
 
 RESOURCE ID: event_pass_reward_preview_upsell_description
-TEXT: This reward is available in Tour Pass Deluxe.
+TEXT: ツアーパスデラックスでもらえるリワードです
 
 RESOURCE ID: event_pass_rewards_journal
 TEXT: {0}のリワードを受け取った！
@@ -23205,7 +23278,7 @@ RESOURCE ID: event_pass_rewards_to_claim
 TEXT: 受け取れるリワード（{0}）
 
 RESOURCE ID: event_pass_upgrade
-TEXT: Upgrade
+TEXT: アップグレード
 
 RESOURCE ID: event_pokemon_field_research
 TEXT: フィールドリサーチで捕まえるポケモンがより頻繁に出現
@@ -23536,6 +23609,27 @@ TEXT: XP
 
 RESOURCE ID: expert_box_title
 TEXT: たつじんボックス
+
+RESOURCE ID: expire_notification_day_plural
+TEXT: <b>{1}</b>使用できるのはあと{0}日
+
+RESOURCE ID: expire_notification_day_singular
+TEXT: <b>{0}</b>使用できるのはあと1日
+
+RESOURCE ID: expire_notification_hour_plural_min_plural
+TEXT: <b>{2}</b>使用できるのはあと{0}時間と{1}分
+
+RESOURCE ID: expire_notification_hour_plural_min_singular
+TEXT: <b>{1}</b>使用できるのはあと{0}時間と1分
+
+RESOURCE ID: expire_notification_hour_singular_min_plural
+TEXT: <b>{1}</b>使用できるのはあと1時間と{0}分
+
+RESOURCE ID: expire_notification_min_plural
+TEXT: <b>{1}</b>使用できるのはあと{0}分！
+
+RESOURCE ID: expire_notification_min_singular
+TEXT: <b>{0}</b>使用できるのはあと1分！
 
 RESOURCE ID: expires_in_clock
 TEXT: 終了まで{0}
@@ -25617,7 +25711,7 @@ RESOURCE ID: freeze_shock_adventure_effects_mapview_dialog
 TEXT: フリーズボルトはポケモンをまひさせるため、捕まえようとするときに反撃するなどの動きが止まります。
 
 RESOURCE ID: freeze_shock_move_content
-TEXT: 電気を帯びた氷塊が{0}分間投下されるので、ポケモンが動けなくなる
+TEXT: 電気を帯びた氷塊が{0}投下されるので、ポケモンが動けなくなります。ポケモンの捕まりやすさもアップします（外部デバイスを接続しても適用）。
 
 RESOURCE ID: french
 TEXT: Français
@@ -25930,9 +26024,12 @@ RESOURCE ID: fusion_raid_escape_toast
 TEXT: {0}は{1}を残して逃げたようだ！
 
 RESOURCE ID: fusion_resource_black_kyurem_desc
-TEXT: Volt Fusion Energy
+TEXT: ボルトエナジー
 
 RESOURCE ID: fusion_resource_black_kyurem_name
+TEXT: ボルトエナジー
+
+RESOURCE ID: fusion_resource_black_kyurem_name_plural
 TEXT: ボルトエナジー
 
 RESOURCE ID: fusion_resource_dawnwings_necrozma_desc
@@ -25954,9 +26051,12 @@ RESOURCE ID: fusion_resource_duskmane_necrozma_name_plural
 TEXT: サンエナジー
 
 RESOURCE ID: fusion_resource_white_kyurem_desc
-TEXT: Blaze Fusion Energy
+TEXT: ブレイズエナジー
 
 RESOURCE ID: fusion_resource_white_kyurem_name
+TEXT: ブレイズエナジー
+
+RESOURCE ID: fusion_resource_white_kyurem_name_plural
 TEXT: ブレイズエナジー
 
 RESOURCE ID: fusion_unfuse_button
@@ -27007,8 +27107,17 @@ TEXT: ウルトラビースト襲来プレミアムタイムチャレンジチ�
 RESOURCE ID: general1.ticket._gotourhatch2024_title
 TEXT: シンオウへの道：タマゴふか
 
+RESOURCE ID: general1.ticket._gotourhatch2025
+TEXT: Road to Unova: Hatch
+
+RESOURCE ID: general1.ticket._gotourmasterwork2025
+TEXT: Masterwork Research: A Dazzling Aria
+
 RESOURCE ID: general1.ticket._gotourraid2024_title
 TEXT: シンオウへの道：レイド
+
+RESOURCE ID: general1.ticket._gotourraid2025
+TEXT: Road to Unova: Raid
 
 RESOURCE ID: general1.ticket._gowa2024gsbea_title
 TEXT: GOサファリボール：追加アクセスチケット
@@ -27048,6 +27157,9 @@ TEXT: ヒスイのジュナイパーレイドデイチケット
 
 RESOURCE ID: general1.ticket._lny2024_title
 TEXT: 旧正月イベント
+
+RESOURCE ID: general1.ticket._lunarny0125_title
+TEXT: 旧正月プレミアムタイムチャレンジチケット
 
 RESOURCE ID: general1.ticket._masterball24_title
 TEXT: 続行リサーチ：マスターボール
@@ -27347,6 +27459,9 @@ TEXT: アマカジコミュニティ・デイチケット
 RESOURCE ID: general1.ticket_cd_recap2024_title
 TEXT: 12月のコミュニティ・デイチケット
 
+RESOURCE ID: general1.ticket_cd_shelmetkarrablast25_title
+TEXT: チョボマキとカブルモコミュニティ・デイチケット
+
 RESOURCE ID: general1.ticket_cd_sprigatito2025_title
 TEXT: ニャオハコミュニティ・デイチケット
 
@@ -27424,6 +27539,9 @@ TEXT: ワイルドウィーク：タマゴふか
 
 RESOURCE ID: general2.ticket.5_fashion_jan_2025_title
 TEXT: ファッションウィークプレミアムタイムチャレンジチケット
+
+RESOURCE ID: general2.ticket.5_gmaxkingler25_title
+TEXT: キングラー（キョダイマックス）マックスバトルデイチケット
 
 RESOURCE ID: general2.ticket._megagalladeraidday_title
 TEXT: メガエルレイドのレイドデイチケット
@@ -27692,6 +27810,12 @@ TEXT: マップを開く
 
 RESOURCE ID: get_privacy_settings_error_message
 TEXT: プライバシー設定を取得できませんでした
+
+RESOURCE ID: get_route_share_code_button
+TEXT: シェアコード取得
+
+RESOURCE ID: get_route_via_code_error_not_found
+TEXT: ルートが見つかりません
 
 RESOURCE ID: get_ticket
 TEXT: チケットを入手
@@ -28344,6 +28468,9 @@ TEXT: くいしんぼうイベント
 
 RESOURCE ID: gmax_gengar_max_battles
 TEXT: キョダイマックスしたゲンガーがマックスバトルに出現
+
+RESOURCE ID: gmax_kingler_max_battles
+TEXT: キョダイマックスしたキングラーがマックスバトルに出現
 
 RESOURCE ID: gmax_lapras_max_battles
 TEXT: キョダイマックスしたラプラスがマックスバトルに出現
@@ -29038,95 +29165,212 @@ TEXT: あなたは、GOロケット団が利用している伝説のポケモン
 RESOURCE ID: go_tour_2024_pre_sr_dialog_branch_04
 TEXT: じかんポケモンであるディアルガを調べてくれる？もしくは、くうかんポケモンのパルキア。
 
+RESOURCE ID: go_tour_2025_irl_sr_dialog_00_00
+TEXT: Good, you’re here! I have news about Kyurem, the Dragon- and Ice-type Legendary Pokémon!
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_00_01
+TEXT: Supposedly, it uses its powers over ice to freeze its body to stabilize its cellular structure.
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_00_02
+TEXT: Just thinking about that sends a chill down my spine!
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_00_03
+TEXT: And on that note, let’s do some warm-ups. Gotta stay limber for a big day of exploring, right?
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_01_00
+TEXT: Rumor has it that Kyurem dwells in the Unova region.
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_01_01
+TEXT: Unova is an extraordinary place! It has bustling modern metropolises, but there are also tranquil forests whose inhabitants live in harmony with nature.
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_01_02
+TEXT: And since we’re going to unravel a Unova mystery, it’s only fitting that we get help from Pokémon first discovered there.
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_01_03
+TEXT: Which of these first partner Pokémon would you like to join you on this adventure?
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_02_oshawott_00
+TEXT: Here’s a fun fact about Oshawott: the shell it has is called a “scalchop.”
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_02_oshawott_01
+TEXT: They use their scalchop not only as a blade in battle, but also as a tool to break open hard Berries.
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_02_oshawott_02
+TEXT: They’ll even sharpen them on riverbed stones, something apparently learned by mimicking humans using whetstones.
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_02_oshawott_03
+TEXT: In other words, Oshawott need to take good care of their scalchops in order to thrive.
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_02_oshawott_04
+TEXT: I’d bet Kyurem has some particular needs of its own. While you train your new partner, I’ll study Kyurem to see what they might be.
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_02_snivy_00
+TEXT: Snivy prefers to avoid groups, so it’s a great match for Trainers who tend to be more independent.
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_02_snivy_01
+TEXT: The leaf on its tail generates energy when exposed to sunlight. When it’s not feeling well, the tail will start to droop.
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_02_snivy_02
+TEXT: On the other hand—or vine—Snivy that get enough light become swift and dexterous!
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_02_snivy_03
+TEXT: In other words, Snivy need alone time and ample sunlight to thrive.
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_02_snivy_04
+TEXT: I’d bet Kyurem has some particular needs of its own. While you train your new partner, I’ll study Kyurem to see what they might be.
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_02_tepig_00
+TEXT: Make sure you have lots of Berries on hand if you’re going adventuring with Tepig!
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_02_tepig_01
+TEXT: They use their excellent sense of smell to find food, and then they cook it up nice and crispy before they eat it!
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_02_tepig_02
+TEXT: It can launch fireballs from its nose, but it don’t expect more than pitch-black smoke if it gets sick.
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_02_tepig_03
+TEXT: In any case, Tepig need snacks aplenty to thrive.
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_02_tepig_04
+TEXT: I’d bet Kyurem has some particular needs of its own. While you train your new partner, I’ll study Kyurem to see what they might be.
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_03_00
+TEXT: Kyurem seems to be looking for something...
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_03_01
+TEXT: Hi there, %PLAYERNAME%. So, given what I can glean from my research, Kyurem seems to be looking for something.
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_03_02
+TEXT: From what I’ve read, it’s waiting for a hero to fill in the missing parts of its body with either truth or ideals.
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_03_03
+TEXT: Heady stuff, eh? While you’re certainly a hero in my book, I don’t know what to do with the rest of it.
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_04_oshawott_00
+TEXT: Now that was an inspiring battle! Just goes to show that when people and Pokémon work together, we can overcome any differences and achieve our biggest dreams!
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_04_oshawott_01
+TEXT: Oshawott looks like it learned a lot from you, too. In fact, I think it’s ready to evolve!
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_04_oshawott_02
+TEXT: And while this probably won’t be the last we see of Kyurem, you averted a real disaster by defeating it. For now, enjoy your adventures, %PLAYERNAME%!
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_04_oshawott_03
+TEXT: Until next time—let’s GO!
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_04_snivy_00
+TEXT: For now, the best we can do is try and keep Kyurem busy. Battle it with everything you’ve got, and I’m sure you’ll succeed!
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_04_snivy_01
+TEXT: Now that was an inspiring battle! Just goes to show that when people and Pokémon work together, we can overcome any differences and achieve our biggest dreams!
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_04_snivy_02
+TEXT: Snivy looks like it learned a lot from you, too. In fact, I think it’s ready to evolve!
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_04_snivy_03
+TEXT: Until next time—let’s GO!
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_04_tepig_00
+TEXT: Now that was an inspiring battle! Just goes to show that when people and Pokémon work together, we can overcome any differences and achieve our biggest dreams!
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_04_tepig_01
+TEXT: Tepig looks like it learned a lot from you, too. In fact, I think it’s ready to evolve!
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_04_tepig_02
+TEXT: And while this probably won’t be the last we see of Kyurem, you averted a real disaster by defeating it. For now, enjoy your adventures, %PLAYERNAME%!
+
+RESOURCE ID: go_tour_2025_irl_sr_dialog_04_tepig_03
+TEXT: Until next time—let’s GO!
+
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_00
-TEXT: Hey %PLAYERNAME%! I was just reflecting on our incredible journey together.
+TEXT: Hey there, %PLAYERNAME%! Funny you should pop by—I was just reflecting on our incredible journey together!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_01
-TEXT: We've faced some extraordinary challenges side by side, from encountering gigantic Pokémon to thwarting Team GO Rocket's sinister plans time and time again.
+TEXT: Encountering gigantic Pokémon, unfurling incredible mysteries, foiling Team GO Rocket countless times... We’ve faced extraordinary challenges together, haven’t we?
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_02
-TEXT: Our research together has introduced us to Pokémon from many regions, leading to amazing discoveries and friendships that have helped shape how we see the world.
+TEXT: Our research has introduced us to Pokémon from all over the world, forged wonderful friendships, and led to some amazing discoveries.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_03
-TEXT: Speaking of discoveries, I have noticed some unusual sounds lately.
+TEXT: And speaking of discoveries, I’ve noticed some unusual sounds lately.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_04
-TEXT: While I investigate I need you to continue your excellent fieldwork. Every Pokémon you encounter helps us understand our world a little better!
+TEXT: I’m going to investigate, and while I do, I need you to continue your excellent work in the field.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_01_00
-TEXT: Incredible news, %PLAYERNAME%!  I've made a breakthrough with those mysterious vocalizations I was studying.
+TEXT: Good news, %PLAYERNAME%! I’ve made a breakthrough on those acoustic mysteries I was looking into.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_01_01
-TEXT: Just as I suspected, these aren’t ordinary sound waves but the unique melodies of the Mythical Pokémon Meloetta!
+TEXT: And as I suspected, they’re not just any sound wave, they’re the unique melodies of the Mythical Pokémon Meloetta!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_01_02
-TEXT: Meloetta uses song to influence the emotions of both people and Pokémon. I need you to keep exploring and see if you can spot any unusual behavior in local Pokémon.
+TEXT: Meloetta uses song to influence the emotions of those who hear it. And on that note, I’d like you to try and spot any unusual behavior in the local Pokémon.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_01_03
-TEXT: It's not every day you get to study a Mythical Pokémon, %PLAYERNAME%, so let's make the most of it!
+TEXT: It’s not every day we get to study a Mythical Pokémon, so let’s make the most of this opportunity!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_02_00
-TEXT: Ah, %PLAYERNAME%! We haven't found Meloetta yet but I can still hear that special vocalization.
+TEXT: Hello again, %PLAYERNAME%! We may not have found Meloetta yet, but I can definitely still hear it.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_02_01
-TEXT: Our musical friend can't be too far so we may need to think creatively.
+TEXT: So our musical friend can’t be too far off—we just might have to change our usual pitch.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_02_02
-TEXT: Why don't you try singing and dancing to see if that has an affect on the people and Pokemon around you?
+TEXT: Why don’t you go out and do a little singing and dancing to see if it affects people and Pokémon nearby?
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_02_03
-TEXT: If you practice enough you may become Meloetta's next opening act!
+TEXT: Who knows, that might be the "key" to success! Heh heh... Music joke. I’ve got a million!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_03_00
-TEXT: Did you know many famous songs have been inspired by the melodies that Meloetta plays?
+TEXT: If it isn’t our intrepid enter-Trainer! Say, did you know that Meloetta’s melodies have inspired many famous songs?
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_03_01
-TEXT: Music can truly help to create special bonds with one another.
+TEXT: It’s just fascinating—Meloetta shows us how music helps us to forge special bonds with one another.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_03_02
-TEXT: It reminds me of you and your amazing ability to connect with both people and Pokémon. Every new Pokémon you catch or trainer you meet is another potential friend!
+TEXT: It’s not unlike your amazing ability to connect with other people and Pokémon. Every new Pokémon you catch or Trainer you meet is a new potential friend!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_03_03
-TEXT: Get out there and see what wonderful friendships await you, %PLAYERNAME%!
+TEXT: And on that uplifting note, get out there and see what new friendships await, %PLAYERNAME%.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_04_00
-TEXT: %PLAYERNAME%, I just made a fascinating observation about our musical friend Meloetta. Did you know that this Mythical Pokémon was first discovered in the Unova region?
+TEXT: %PLAYERNAME%! I’ve dug up some useful information on Meloetta. Did you know that it was first discovered in the Unova region?
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_04_01
-TEXT: Whether it's coincidence or not, we must explore all avenues of research! Every task will help us understand Meloetta's patterns better.
+TEXT: That might not seem critical, but we have to take advantage of every scrap of information we can to help us make sense of Meloetta’s behavior.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_04_02
-TEXT: Watch for Pokémon experiencing strong emotions, explore new areas, and make some musical connections of your own.
+TEXT: Keep up your fieldwork, if you would! Watch for Pokémon experiencing strong emotions, check out some new places, and maybe try to forge some new connections.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_04_03
-TEXT: Keep that research rhythm going, %PLAYERNAME%!
+TEXT: Let’s keep this research rhythm going!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_05_00
-TEXT: %PLAYERNAME%, this is the moment we've been waiting for!
+TEXT: This is the moment we’ve been waiting for, %PLAYERNAME%!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_05_01
-TEXT: Thanks to your dedicated fieldwork we've finally pinpointed its location. Its melodious voice is resonating from nearby.
+TEXT: Your dedicated work has helped me to pinpoint Meloetta’s location at last!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_05_02
-TEXT: This could be your moment to befriend this extraordinary Pokémon. It's sure to be a grand performance!
+TEXT: This could be your chance to befriend an extraordinary Pokémon.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_05_03
-TEXT: Head out there now, %PLAYERNAME%, and show Meloetta the same kindness and dedication you've shown to all your Pokémon friends.
+TEXT: Head out there and show Meloetta the same kindness and dedication you’ve shown all your Pokémon friends!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_06_00
-TEXT: %PLAYERNAME%, you've done it! And what a remarkable sight!
+TEXT: I knew you’d “measure” up, %PLAYERNAME%! And—whoa!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_06_01
-TEXT: This Meloetta has such a striking appearance. Its distinctive coloring is unlike anything in my research notes…truly extraordinary!
+TEXT: What a striking appearance this Meloetta has! My research notes have nothing about this distinctive coloring. It’s truly incredible!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_06_02
-TEXT: Seeing your journey from your first days as a trainer to now catching such a special Pokemon, well, it makes me incredibly proud to call you my research partner and friend!
+TEXT: I’ve been watching your journey since you took your first steps as a Trainer. Seeing how far you’ve come makes me so proud to call you my research partner—and more importantly, my friend!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_06_03
-TEXT: Keep that Meloetta singing proudly %PLAYERNAME%! You've hit all the right notes!
+TEXT: I know you’ll keep that Meloetta singing proudly, %PLAYERNAME%. You never fall flat!
 
 RESOURCE ID: go_tour_2025_today_view_extended_hours
-TEXT: GO Tour: Unova – Extended Bonuses
+TEXT: GO Tour：イッシュ地方 – 延長ボーナス
 
 RESOURCE ID: go_tour_ep_bonus_title
 TEXT: ツアーパスボーナス
@@ -29141,7 +29385,7 @@ RESOURCE ID: go_tour_ep_bonus_title_02
 TEXT: ティア3ツアーパスボーナス
 
 RESOURCE ID: go_tour_event_pass_availability
-TEXT: The event Tour Pass is available now
+TEXT: イベントのツアーパスがショップに登場
 
 RESOURCE ID: go_tour_global_sr_dialog_00_00
 TEXT: %PLAYERNAME%じゃないか！ほっとしたよ。元気そうだな。
@@ -33075,7 +33319,7 @@ RESOURCE ID: gotour2024_welcome_live_b
 TEXT: Pokémon GO Tour：ヒスイ地方 - ロサンゼルスへようこそ！
 
 RESOURCE ID: gotour2025_welcome
-TEXT: Pokémon GO Tour: Unova
+TEXT: Pokémon GO Tour：イッシュ地方
 
 RESOURCE ID: gotour2025_welcome_banner_la
 TEXT: Pokémon GO Tour：イッシュ地方 - ロサンゼルスへようこそ！
@@ -33084,13 +33328,13 @@ RESOURCE ID: gotour2025_welcome_banner_ntc
 TEXT: Pokémon GO Tour：イッシュ地方 - 新北市へようこそ！
 
 RESOURCE ID: gotour2025_welcome_global
-TEXT: Welcome to Pokémon GO Tour: Unova – Global!
+TEXT: Pokémon GO Tour：イッシュ地方 – グローバルへようこそ！
 
 RESOURCE ID: gotour2025_welcome_irl_la
-TEXT: Welcome to Pokémon GO Tour: Unova – Los Angeles!
+TEXT: Pokémon GO Tour：イッシュ地方 – ロサンゼルスへようこそ！
 
 RESOURCE ID: gotour2025_welcome_irl_ntc
-TEXT: Welcome to Pokémon GO Tour: Unova – New Taipei City!
+TEXT: Pokémon GO Tour：イッシュ地方 – 新北市へようこそ！
 
 RESOURCE ID: gotour_2023_arlo_battle_quote
 TEXT: お友達だなんて思わないでください。
@@ -33228,10 +33472,10 @@ RESOURCE ID: gotour_2025_base_track_title
 TEXT: ツアーパス
 
 RESOURCE ID: gotour_2025_deluxe_event_pass_track_unlock_description
-TEXT: Earn additional rewards at each rank.
+TEXT: ランクごとに追加のリワードが受け取れます。
 
 RESOURCE ID: gotour_2025_deluxe_event_pass_track_unlock_plus_points_description
-TEXT: Earn additional rewards at each rank, instantly advance 10 ranks, and get event stickers.
+TEXT: ランクごとに受け取る追加のリワードに加え、10ランク上昇とイベントステッカーがもらえます。
 
 RESOURCE ID: gotour_2025_deluxe_event_pass_track_unlock_plus_points_title
 TEXT: ツアーパスデラックス＋10ランク
@@ -33249,40 +33493,43 @@ RESOURCE ID: gotour_2025_event_pass_title
 TEXT: Pokémon GO Tour：イッシュ地方 − グローバル 
 
 RESOURCE ID: gotour_2025_global_sr_title
-TEXT: It’s Not Over Yet
+TEXT: 氷山の全容
 
 RESOURCE ID: gotour_2025_global_sr_title_00
-TEXT: It’s Not Over Yet (1/5)
+TEXT: 氷山の全容(1/5)
 
 RESOURCE ID: gotour_2025_global_sr_title_01
-TEXT: It’s Not Over Yet (2/5)
+TEXT: 氷山の全容(2/5)
 
 RESOURCE ID: gotour_2025_global_sr_title_02
-TEXT: It’s Not Over Yet (3/5)
+TEXT: 氷山の全容(3/5)
 
 RESOURCE ID: gotour_2025_global_sr_title_03
-TEXT: It’s Not Over Yet (4/5)
+TEXT: 氷山の全容(4/5)
 
 RESOURCE ID: gotour_2025_global_sr_title_04
-TEXT: It’s Not Over Yet (5/5)
+TEXT: 氷山の全容(5/5)
 
 RESOURCE ID: gotour_2025_irl_sr_title
-TEXT: The Tip of the Iceberg
+TEXT: 氷山の一角
 
 RESOURCE ID: gotour_2025_irl_sr_title_00
-TEXT: The Tip of the Iceberg (1/5)
+TEXT: 氷山の一角(1/5)
 
 RESOURCE ID: gotour_2025_irl_sr_title_01
-TEXT: The Tip of the Iceberg (2/5)
+TEXT: 氷山の一角(2/5)
 
 RESOURCE ID: gotour_2025_irl_sr_title_02
-TEXT: The Tip of the Iceberg (3/5)
+TEXT: 氷山の一角(3/5)
 
 RESOURCE ID: gotour_2025_irl_sr_title_03
-TEXT: The Tip of the Iceberg (4/5)
+TEXT: 氷山の一角(4/5)
 
 RESOURCE ID: gotour_2025_irl_sr_title_04
-TEXT: The Tip of the Iceberg (5/5)
+TEXT: 氷山の一角(5/5)
+
+RESOURCE ID: gotour_2025_pass_track_upgrade_header_description
+TEXT: プレミアムリワードを入手でき<b>ビクティニとすぐ出会えます</b>！
 
 RESOURCE ID: gotour_2025_pokemon_day_tr_title
 TEXT: Pokémon Presents 2025 x GO Tour: Unova Timed Research
@@ -33297,28 +33544,36 @@ RESOURCE ID: gotour_2025_premium_track_title
 TEXT: ツアーパスデラックス
 
 RESOURCE ID: gotour_2025_shiny_meloetta_masterwork_sr_title
-TEXT: Masterwork Research: A Dazzling Aria
+TEXT: 続行リサーチ：美しい旋律
 
 RESOURCE ID: gotour_2025_shiny_meloetta_masterwork_sr_title_00
-TEXT: Masterwork Research: A Dazzling Aria (1/7)
+TEXT: 続行リサーチ：美しい旋律(1/7)
 
 RESOURCE ID: gotour_2025_shiny_meloetta_masterwork_sr_title_01
-TEXT: Masterwork Research: A Dazzling Aria (2/7)
+TEXT: 続行リサーチ：美しい旋律(2/7)
 
 RESOURCE ID: gotour_2025_shiny_meloetta_masterwork_sr_title_02
-TEXT: Masterwork Research: A Dazzling Aria (3/7)
+TEXT: 続行リサーチ：美しい旋律(3/7)
 
 RESOURCE ID: gotour_2025_shiny_meloetta_masterwork_sr_title_03
-TEXT: Masterwork Research: A Dazzling Aria (4/7)
+TEXT: 続行リサーチ：美しい旋律(4/7)
 
 RESOURCE ID: gotour_2025_shiny_meloetta_masterwork_sr_title_04
-TEXT: Masterwork Research: A Dazzling Aria (5/7)
+TEXT: 続行リサーチ：美しい旋律(5/7)
 
 RESOURCE ID: gotour_2025_shiny_meloetta_masterwork_sr_title_05
-TEXT: Masterwork Research: A Dazzling Aria (6/7)
+TEXT: 続行リサーチ：美しい旋律(6/7)
 
 RESOURCE ID: gotour_2025_shiny_meloetta_masterwork_sr_title_06
-TEXT: Masterwork Research: A Dazzling Aria (7/7)
+TEXT: 続行リサーチ：美しい旋律(7/7)
+
+RESOURCE ID: gotour_2025_upgrade_description
+TEXT: ツアーパスデラックスを購入すると以下のリワードがもらえます！
+・ビクティニとの出会い
+・キラフレンドになれるアイテムの<a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">ラッキーチャーム</a>
+・キュレム合体のエナジー
+・キュレムヘッドウェア
+・その他
 
 RESOURCE ID: gotour_kanto
 TEXT: Pokémon GO Tour：カントー地方
@@ -35823,7 +36078,7 @@ RESOURCE ID: ice_burn_adventure_effects_mapview_dialog
 TEXT: コールドフレアはターゲットリングの速度を落とすため、投げるボールの精度が高くなります。
 
 RESOURCE ID: ice_burn_move_content
-TEXT: 激しい冷気が{0}分間放出されるので、ターゲットリングの速度が落ちる
+TEXT: 激しい冷気が{0}放出されるので、ターゲットリングの速度が落ちます。ポケモンの捕まりやすさもアップします（外部デバイスを接続しても適用）。
 
 RESOURCE ID: ice_type_event
 TEXT: タイプ上昇：こおり
@@ -36430,6 +36685,9 @@ TEXT: {0}と他{1}匹のポケモンが遊び疲れて戻ってきた！
 RESOURCE ID: iris_social_tired_pokemon_string
 TEXT: 遊び疲れて戻ってきた！
 
+RESOURCE ID: iris_social_weather_warning_notification_key
+TEXT: Weather conditions may be affecting Pokemon Playgrounds.
+
 RESOURCE ID: iris_temperature_exit_button
 TEXT: 終了する
 
@@ -36721,6 +36979,9 @@ TEXT: 現地時間2024年11月12日8:00PMまで収穫祭プレミアムタイム
 RESOURCE ID: item_event_ticket_evergreen_desc_hemisphereholidays1224
 TEXT: 現地時間2024年12月22日10:00AMまで砂遊びプレミアムタイムチャレンジが行えるチケット。
 
+RESOURCE ID: item_event_ticket_evergreen_desc_lunarny0125
+TEXT: 現地時間2025年2月2日8:00PMまで旧正月プレミアムタイムチャレンジが行えるチケット。
+
 RESOURCE ID: item_event_ticket_evergreen_desc_maxoutfinale1124
 TEXT: 現地時間2024年12月1日8:00PMまで腕組ポーズプレミアムタイムチャレンジが行えるチケット。
 
@@ -36754,6 +37015,9 @@ TEXT: このチケットは自動的に発動し11月7日に収穫祭プレミ�
 RESOURCE ID: item_event_ticket_evergreen_details_hemisphereholidays1224
 TEXT: このチケットは自動的に発動し12月17日にホリデーパート1：砂遊びプレミアムタイムチャレンジが行えるようになります。
 
+RESOURCE ID: item_event_ticket_evergreen_details_lunarny0125
+TEXT: このチケットは自動的に発動し1月29日に旧正月プレミアムタイムチャレンジが行えるようになります。
+
 RESOURCE ID: item_event_ticket_evergreen_details_maxoutfinale1124
 TEXT: このチケットは自動的に発動し11月27日に腕組ポーズプレミアムタイムチャレンジが行えるようになります。
 
@@ -36770,16 +37034,28 @@ RESOURCE ID: item_event_ticket_evergreen_details_psychspec24
 TEXT: このチケットは自動的に発動し9月18日にエスパーウィーク2024プレミアムタイムチャレンジが行えるようになります。
 
 RESOURCE ID: item_event_ticket_evergreen_details_stldrslv0125
-TEXT: このチケットは自動的に発動し1月26日にはがねの決意プレミアムタイムチャレンジが行えるようになります。
+TEXT: このチケットは自動的に発動し1月21日にはがねの決意プレミアムタイムチャレンジが行えるようになります。
 
 RESOURCE ID: item_event_ticket_evergreen_details_yamasktr24
 TEXT: このチケットは自動的に発動し10月19日にデスマスとガラルのデスマスリサーチデイプレミアムタイムチャレンジが行えるようになります。
 
+RESOURCE ID: item_event_ticket_global_desc_gotourhatch2025
+TEXT: This ticket will automatically activate to give you access to the Road to Unova: Raid bonuses from Monday, February 24, at 10:00 a.m. to Sunday, March 2, 2025, at 8:00 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_global_desc_gotourmasterwork2025
+TEXT: This ticket will automatically activate to give you access to the Masterwork Research: A Dazzling Aria from Monday, February 24, at 10:00 a.m. to Sunday, March 2, 2024, at 6:00 p.m. local time, wherever you are.
+
 RESOURCE ID: item_event_ticket_global_details_gotourhatch2024
 TEXT: このチケットは自動的に発動し現地時間2024年2月19日10:00AM～2月25日8:00PMに「シンオウへの道：タマゴふか」タイムチャレンジが行えるようになります。
 
+RESOURCE ID: item_event_ticket_global_details_gotourhatch2025
+TEXT: This ticket will automatically activate to give you access to special bonuses starting February 24, wherever you are.
+
 RESOURCE ID: item_event_ticket_global_details_gotourraid2024
 TEXT: このチケットは自動的に発動し現地時間2024年2月19日10:00AM～2月25日8:00PMに「シンオウへの道：レイド」タイムチャレンジが行えるようになります。
+
+RESOURCE ID: item_event_ticket_global_details_gotourraid2025
+TEXT: This ticket will automatically activate to give you access to special bonuses starting February 24, wherever you are.
 
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: 現地時間2024年9月3日10:00AMまで「みんなで成長」プレミアムタイムチャレンジが行えるチケット。
@@ -36798,6 +37074,9 @@ TEXT: 現地時間2024年2月1日10:00AM～2月29日8:00PMが開催期間の「�
 
 RESOURCE ID: item_event_ticket_gray_desc_febmonthly2025
 TEXT: 現地時間2025年2月1日10:00AM～2月28日8:00PMが開催期間の「ふかアクセス：2月」チケット。
+
+RESOURCE ID: item_event_ticket_gray_desc_gmaxkingler25
+TEXT: 現地時間2025年2月1日2:00PM～5:00PMにボーナスを受け取るためのチケット。
 
 RESOURCE ID: item_event_ticket_gray_desc_gmaxlapras24
 TEXT: 現地時間2024年12月8日2:00PM～5:00PMにボーナスを受け取るためのチケット。
@@ -36879,6 +37158,9 @@ TEXT: このチケットは自動的に発動し2月のふかアクセスが受�
 
 RESOURCE ID: item_event_ticket_gray_details_febmonthly2025
 TEXT: このチケットは自動的に発動し2月のふかアクセスが受け取れるようになります。
+
+RESOURCE ID: item_event_ticket_gray_details_gmaxkingler25
+TEXT: このチケットは自動的に発動し2025年2月1日にボーナスが受け取れるようになります。
 
 RESOURCE ID: item_event_ticket_gray_details_gmaxlapras24
 TEXT: このチケットは自動的に発動し12月8日にボーナスが受け取れるようになります。
@@ -36990,6 +37272,9 @@ TEXT: 現地時間2024年2月13日10:00AM～2月15日8:00PMにカーニバル・
 
 RESOURCE ID: item_event_ticket_pink_desc_cd_recap2024
 TEXT: 現地時間2024年12月21日9:00AMから12月のコミュニティ・デイスペシャルリサーチを行うためのチケット。
+
+RESOURCE ID: item_event_ticket_pink_desc_cd_shelmetkarrablast25
+TEXT: 現地時間2025年2月9日2:00PMからチョボマキとカブルモコミュニティ・デイのスペシャルリサーチを行うためのチケット。
 
 RESOURCE ID: item_event_ticket_pink_desc_cd_sprigatito2025
 TEXT: 現地時間2025年1月5日2:00PMからニャオハコミュニティ・デイのスペシャルリサーチを行うためのチケット。
@@ -37125,6 +37410,9 @@ TEXT: このチケットは自動的に発動し現地時間2024年2月13日10:0
 
 RESOURCE ID: item_event_ticket_pink_details_cd_recap2024
 TEXT: このチケットは自動的に発動し12月21日に12月のコミュニティ・デイスペシャルリサーチが行えるようになります。
+
+RESOURCE ID: item_event_ticket_pink_details_cd_shelmetkarrablast25
+TEXT: このチケットは自動的に発動し2月9日にコミュニティ・デイの「マイマイ／かぶりつきポケモンレポート」スペシャルリサーチが行えるようになります。
 
 RESOURCE ID: item_event_ticket_pink_details_cd_sprigatito2025
 TEXT: このチケットは自動的に発動し1月5日に「くさねこポケモンを解明せよ！」スペシャルリサーチが行えるようになります。
@@ -37539,6 +37827,9 @@ TEXT: このチケットは自動的に発動し2024年1月14日にボーナス�
 
 RESOURCE ID: item_global_event_ticket_details_masterballsr
 TEXT: このチケットは自動的に発動し、マスターボールスペシャルリサーチが行えるようになります。
+
+RESOURCE ID: item_global_event_ticket_details_meloetta
+TEXT: This ticket will automatically activate to give you access to special bonuses starting February 24, wherever you are.
 
 RESOURCE ID: item_global_event_ticket_details_no_version_selected
 TEXT: このチケットは自動的に発動し、PokémonGOTour：ホウエン地方に関連するボーナスがもらえるようになります。
@@ -38027,7 +38318,7 @@ RESOURCE ID: item_use_confirmation
 TEXT: {0}を使いますか？
 
 RESOURCE ID: item_use_confirmation_on_friend
-TEXT: Use {0} on {1}?
+TEXT: {1}さんに{0}を使いますか？
 
 RESOURCE ID: item_used_in_battle_msg
 TEXT: {0}は{1}を使った！
@@ -38341,6 +38632,9 @@ TEXT: スペース
 
 RESOURCE ID: keyboard_symbols
 TEXT: 記号
+
+RESOURCE ID: kingler_gmax_tr_2025_title
+TEXT: キョダイマックスキングラープレミアムタイムチャレンジ
 
 RESOURCE ID: korean
 TEXT: 한국어
@@ -41005,7 +41299,7 @@ RESOURCE ID: lucky_charm_notification_body_min_plural
 TEXT: <b>キラチャーム</b>使用できるのはあと{0}分
 
 RESOURCE ID: lucky_charm_notification_body_min_singular
-TEXT: <b>キラチャーム</b>使用できるのはあと1時間
+TEXT: <b>キラチャーム</b>使用できるのはあと1分！
 
 RESOURCE ID: lucky_egg_duration_double
 TEXT: 2×　しあわせタマゴ時間
@@ -41029,7 +41323,7 @@ RESOURCE ID: lucky_friends_notification_details
 TEXT: このフレンドと次に行う交換は、キラポケモンになる交換です！
 
 RESOURCE ID: lucky_friends_notification_details_from_charm
-TEXT: {0} and you became Lucky Friends with a Lucky Charm!
+TEXT: キラチャームを使って{0}さんとキラフレンドになった！
 
 RESOURCE ID: lucky_trade_increase
 TEXT: 交換でキラポケモンのチャンス増
@@ -41070,11 +41364,26 @@ TEXT: フェアリーレジェンドY
 RESOURCE ID: lunar_new_year_catch_timed_research
 TEXT: 旧正月：キャッチチャレンジ
 
+RESOURCE ID: lunar_new_year_collection
+TEXT: 旧正月コレクションチャレンジ
+
 RESOURCE ID: lunar_new_year_event_name
 TEXT: 旧正月イベント
 
 RESOURCE ID: lunar_new_year_friendship_timed_research
 TEXT: 旧正月：フレンドチャレンジ
+
+RESOURCE ID: lunar_ny_free_tr_name
+TEXT: 巳年タイムチャレンジ
+
+RESOURCE ID: lunar_ny_tr_name
+TEXT: 旧正月プレミアムタイムチャレンジ
+
+RESOURCE ID: lunar_ny_tr_name_1
+TEXT: 旧正月プレミアムタイムチャレンジ(1/2)
+
+RESOURCE ID: lunar_ny_tr_name_2
+TEXT: 旧正月プレミアムタイムチャレンジ(2/2)
 
 RESOURCE ID: lure_duration_4_hr
 TEXT: ルアーモジュール4時間
@@ -42044,6 +42353,12 @@ TEXT: 続行リサーチ151 (4/4)
 RESOURCE ID: max_battle_2x_xp
 TEXT: 2×　マックスバトル勝利XP
 
+RESOURCE ID: max_battle_day_gigantamax_kingler_event_name
+TEXT: キングラー（キョダイマックス）マックスバトルデイ
+
+RESOURCE ID: max_battle_day_gigantamax_kingler_ticketed
+TEXT: キングラー（キョダイマックス）マックスバトルデイチケットボーナス
+
 RESOURCE ID: max_battle_day_gigantamax_lapras_event_name
 TEXT: ラプラス（キョダイマックス）マックスバトルデイ
 
@@ -42526,9 +42841,9 @@ RESOURCE ID: meshing_option_title
 TEXT: メッシュ生成
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2025-01-30T22:23:52.435213+00:00 for ja-JP
-at SHA 0e3215303ff
-Pipeline 2955725, job 36470838
+TEXT: Built at 2025-02-13T21:20:28.676594+00:00 for ja-JP
+at SHA ee6593703ca90
+Pipeline 2996490, job 37001017
 
 RESOURCE ID: mex_fighting_promo_title
 TEXT: タイムチャレンジ：かくとうタイプ
@@ -44014,13 +44329,13 @@ RESOURCE ID: move_name_0467
 TEXT: コールドフレア
 
 RESOURCE ID: move_required_to_enable_adventure_effect
-TEXT: {0} has not learned the Charged Move {1}, which is required to learn its Adventure Effect move after fusion.
+TEXT: {0}は{1}を覚えていないため、合体後にフィールド効果のあるわざを覚えることはできません
 
 RESOURCE ID: move_required_to_enable_adventure_effect_question
-TEXT: Do you want to continue?
+TEXT: 続けますか？
 
 RESOURCE ID: move_required_to_enable_adventure_effect_title
-TEXT: This fused Pokémon will not learn its Adventure Effect move
+TEXT: この合体したポケモンはフィールド効果のあるわざを覚えません
 
 RESOURCE ID: move_reroll_confirm_desc
 TEXT: {0} は {1} を忘れます
@@ -47563,7 +47878,7 @@ RESOURCE ID: new_pokemon_fidough
 TEXT: パピモッチが野生で出現
 
 RESOURCE ID: new_quests_available_time
-TEXT: <b>新パスタスク入手まで：</b>
+TEXT: 新パスタスク入手まで：
 {0}
 
 RESOURCE ID: new_years_2024_tr
@@ -49433,6 +49748,9 @@ TEXT: GOスナップショットでタネボーのサプライズ5回
 RESOURCE ID: photobomb_five_sewaddle
 TEXT: GOスナップショットでクルミルのサプライズ5回
 
+RESOURCE ID: photobomb_five_shelmet_karrablast
+TEXT: GOスナップショットでチョボマキとカブルモのサプライズ5回
+
 RESOURCE ID: photobomb_five_shinx
 TEXT: GOスナップショットでコリンクのサプライズ5回
 
@@ -50762,7 +51080,7 @@ RESOURCE ID: pokemon_candy_reward
 TEXT: アメ{0}
 
 RESOURCE ID: pokemon_candy_reward_plural
-TEXT: {0} Candy
+TEXT: アメ{0}
 
 RESOURCE ID: pokemon_catch_daily_quest_title
 TEXT: 連続ゲット
@@ -61524,7 +61842,7 @@ RESOURCE ID: pokemon_xl_candy_reward
 TEXT: アメXL{0}
 
 RESOURCE ID: pokemon_xl_candy_reward_plural
-TEXT: {0} Candy XL
+TEXT: アメXL{0}
 
 RESOURCE ID: pokemon_xxl_info_transfer_to_professor_confirmation
 TEXT: XXLポケモンを本当に送ってもいいですか？
@@ -61774,6 +62092,9 @@ TEXT: 保存する
 
 RESOURCE ID: postcard_self_sender
 TEXT: 自分のポストカード
+
+RESOURCE ID: postcard_sender_section_mateo
+TEXT: マテオのギフト交換
 
 RESOURCE ID: postcard_sharing_optin_prompt_dismiss
 TEXT: 共有しない
@@ -62612,7 +62933,7 @@ TEXT: 智恵のヒーロー：
 タイムチャレンジ (3/3)
 
 RESOURCE ID: quest_blanche_type_catch
-TEXT: Catch 25 Water- or Ice-type Pokémon
+TEXT: みずか、こおりタイプのポケモンを25匹捕まえる
 
 RESOURCE ID: quest_bounsweet_catch_b
 TEXT: アマカジを{0}匹捕まえる
@@ -62627,63 +62948,63 @@ RESOURCE ID: quest_braixen_evolve_b
 TEXT: テールナーを{0}匹進化させる
 
 RESOURCE ID: quest_branch_choose_black
-TEXT: Choose Black Version (Reshiram/Black Kyurem)
+TEXT: ブラック（レシラム／ブラックキュレム）
 
 RESOURCE ID: quest_branch_choose_black_desc
-TEXT: Select this option to receive the Black Version (Reshiram) badge and Reshiram-themed rewards and bonuses during your GO Tour: Unova adventure.
+TEXT: この道を選ぶとブラック（レシラム）バージョンのメダルがもらえ、レシラム関連のボーナスが適用されます。
 
-During GO Tour: Unova – Global, Kyurem caught from Black Kyurem raids will know the Charged Attack Glaciate.
+GOツアー：イッシュ地方 – グローバルでは、ブラックキュレムレイドで捕まえたキュレムはこごえるせかいを覚えます。
 
-Additionally, you’ll have the opportunity to extend the duration of Freeze Shock’s Adventure Effect during the event by progressing through the Tour Pass!
+また、ツアーパス使用でフリーズボルトのフィールド効果持続時間を延長できます。
 
 RESOURCE ID: quest_branch_choose_oshawott
-TEXT: Choose Oshawott
+TEXT: ミジュマル
 
 RESOURCE ID: quest_branch_choose_oshawott_bg_desc
-TEXT: Select this path for two encounters with Oshawott that have an exclusive GO Tour: Unova Special Background.
+TEXT: この道を選ぶとスペシャル背景つきミジュマルに2回出会えます。
 
 RESOURCE ID: quest_branch_choose_oshawott_desc
-TEXT: Select this path for an additional encounter with Oshawott, the Sea Otter Pokémon, and an increased chance of attracting Oshawott with Incense.
+TEXT: この道を選ぶとミジュマルにより多く出会え、ミジュマルがおこうに反応する可能性が高まります。
 
 RESOURCE ID: quest_branch_choose_oshawott_desc_irl
-TEXT: Select this path for an additional encounter with Oshawott, the Sea Otter Pokémon, and additional Oshawott-themed rewards from Special Research.
+TEXT: この道を選ぶとミジュマルにより多く出会え、スペシャルリサーチでミジュマル関連の追加リワードがもらえます。
 
 RESOURCE ID: quest_branch_choose_snivy
-TEXT: Choose Snivy
+TEXT: ツタージャ
 
 RESOURCE ID: quest_branch_choose_snivy_bg_desc
-TEXT: Select this path for two encounters with Snivy that have an exclusive GO Tour: Unova Special Background.
+TEXT: この道を選ぶとスペシャル背景つきツタージャに2回出会えます。
 
 RESOURCE ID: quest_branch_choose_snivy_desc
-TEXT: Select this path for an additional encounter with Snivy, the Grass Snake Pokémon, and an increased chance of attracting Snivy with Incense.
+TEXT: この道を選ぶとツタージャにより多く出会え、ツタージャがおこうに反応する可能性が高まります。
 
 RESOURCE ID: quest_branch_choose_snivy_desc_irl
-TEXT: Select this path for an additional encounter with Snivy, the Grass Snake Pokémon, and additional Snivy-themed rewards from Special Research.
+TEXT: この道を選ぶとツタージャにより多く出会え、スペシャルリサーチでツタージャ関連の追加リワードがもらえます。
 
 RESOURCE ID: quest_branch_choose_starter_prompt
-TEXT: Choose a First Partner Pokémon
+TEXT: 最初のパートナーを選ぶ
 
 RESOURCE ID: quest_branch_choose_tepig
-TEXT: Choose Tepig
+TEXT: ポカブ
 
 RESOURCE ID: quest_branch_choose_tepig_bg_desc
-TEXT: Select this path for two encounters with Tepig that have an exclusive GO Tour: Unova Special Background.
+TEXT: この道を選ぶとスペシャル背景つきポカブに2回出会えます。
 
 RESOURCE ID: quest_branch_choose_tepig_desc
-TEXT: Select this path for an additional encounter with Tepig, the Fire Pig Pokémon, and an increased chance of attracting Tepig with Incense.
+TEXT: この道を選ぶとポカブにより多く出会え、ポカブがおこうに反応する可能性が高まります。
 
 RESOURCE ID: quest_branch_choose_tepig_desc_irl
-TEXT: Select this path for an additional encounter with Tepig, the Fire Pig Pokémon, and additional Tepig-themed rewards from Special Research.
+TEXT: この道を選ぶとポカブにより多く出会え、スペシャルリサーチでポカブ関連の追加リワードがもらえます。
 
 RESOURCE ID: quest_branch_choose_white
-TEXT: Choose White Version (Zekrom/White Kyurem)
+TEXT: ホワイト（ゼクロム／ホワイトキュレム）
 
 RESOURCE ID: quest_branch_choose_white_desc
-TEXT: Select this option to receive the White Version (Zekrom) badge and Zekrom-themed rewards and bonuses during your GO Tour: Unova adventure.
+TEXT: この道を選ぶとホワイト（ゼクロム）バージョンのメダルがもらえ、ゼクロム関連のボーナスが適用されます。
 
-During GO Tour: Unova – Global, Kyurem caught from White Kyurem raids will know the Charged Attack Glaciate.
+GOツアー：イッシュ地方 – グローバルでは、ホワイトキュレムレイドで捕まえたキュレムはこごえるせかいを覚えます。
 
-Additionally, you’ll have the opportunity to extend the duration of Ice Burn’s Adventure Effect during the event by progressing through the Tour Pass!
+また、ツアーパス使用でコールドフレアのフィールド効果持続時間を延長できます。
 
 RESOURCE ID: quest_branching_special_dialogue_1
 TEXT: やぁ、%PLAYERNAME%！ポケモンもたくさんいて、調べることも多い。早速始めよう！
@@ -62752,7 +63073,7 @@ RESOURCE ID: quest_cacnea_catch
 TEXT: サボネアを{0}匹捕まえる
 
 RESOURCE ID: quest_candela_type_catch
-TEXT: Catch 25 Fire- or Fighting-type Pokémon
+TEXT: ほのおか、かくとうタイプのポケモンを25匹捕まえる
 
 RESOURCE ID: quest_catch_151
 TEXT: ポケモンを151匹捕まえる
@@ -62836,7 +63157,7 @@ RESOURCE ID: quest_catch_furfou_singular
 TEXT: トリミアンを捕まえる
 
 RESOURCE ID: quest_catch_golett_plural
-TEXT: Catch {0} Golett
+TEXT: ゴビットを{0}匹捕まえる
 
 RESOURCE ID: quest_catch_groudon_primal_boosted_types
 TEXT: ほのお、くさ、じめん、いずれかのタイプのポケモンを{0}匹捕まえる
@@ -62860,7 +63181,7 @@ RESOURCE ID: quest_catch_johto_pokemon
 TEXT: ジョウト地方で最初に発見されたポケモンを{0}匹捕まえる
 
 RESOURCE ID: quest_catch_joltik_plural
-TEXT: Catch {0} Joltik
+TEXT: バチュルを{0}匹捕まえる
 
 RESOURCE ID: quest_catch_kanto_pokemon
 TEXT: カントー地方で最初に発見されたポケモンを{0}匹捕まえる
@@ -62887,13 +63208,13 @@ RESOURCE ID: quest_catch_luvdisc
 TEXT: ラブカスを{0}匹捕まえる
 
 RESOURCE ID: quest_catch_minccino_plural
-TEXT: Catch {0} Minccino
+TEXT: チラーミィを{0}匹捕まえる
 
 RESOURCE ID: quest_catch_misc_01_types_plural
 TEXT: みず、こおり、ノーマル、いずれかのタイプのポケモンを{0}匹捕まえる
 
 RESOURCE ID: quest_catch_munna_plural
-TEXT: Catch {0} Munna
+TEXT: ムンナを{0}匹捕まえる
 
 RESOURCE ID: quest_catch_nymble_plural
 TEXT: マメバッタを{0}匹捕まえる
@@ -62902,10 +63223,10 @@ RESOURCE ID: quest_catch_palkia
 TEXT: パルキアを捕まえる
 
 RESOURCE ID: quest_catch_petilil_plural
-TEXT: Catch {0} Petilil
+TEXT: チュリネを{0}匹捕まえる
 
 RESOURCE ID: quest_catch_pidove_plural
-TEXT: Catch {0} Pidove
+TEXT: マメパトを{0}匹捕まえる
 
 RESOURCE ID: quest_catch_pikachu_plural
 TEXT: ピカチュウを{0}匹捕まえる
@@ -62926,7 +63247,7 @@ RESOURCE ID: quest_catch_pokemon_great_ball_singular
 TEXT: スーパーボールでポケモンを捕まえる
 
 RESOURCE ID: quest_catch_pokemon_kyurem
-TEXT: Catch Kyurem
+TEXT: キュレムを捕まえる
 
 RESOURCE ID: quest_catch_pokemon_legendary_plural
 TEXT: 伝説のポケモンを{0}匹捕まえる
@@ -62947,10 +63268,10 @@ RESOURCE ID: quest_catch_pokemon_poke_ball_singular
 TEXT: モンスターボールでポケモンを捕まえる
 
 RESOURCE ID: quest_catch_pokemon_reshiram
-TEXT: Catch Reshiram
+TEXT: レシラムを捕まえる
 
 RESOURCE ID: quest_catch_pokemon_reshiram_zekrom
-TEXT: Catch Reshiram or Zekrom
+TEXT: レシラムかゼクロムを捕まえる
 
 RESOURCE ID: quest_catch_pokemon_routes_plural
 TEXT: ルートでポケモンを{0}匹捕まえる
@@ -62974,13 +63295,13 @@ RESOURCE ID: quest_catch_pokemon_unova
 TEXT: イッシュ地方で最初に発見されたポケモンを{0}匹捕まえる
 
 RESOURCE ID: quest_catch_pokemon_unova_singular
-TEXT: Catch a Pokémon originally discovered in the Unova region
+TEXT: イッシュ地方で最初に発見されたポケモンを捕まえる
 
 RESOURCE ID: quest_catch_pokemon_unova_unique
 TEXT: イッシュ地方で最初に発見されたポケモンを{0}種類捕まえる
 
 RESOURCE ID: quest_catch_pokemon_zekrom
-TEXT: Catch Zekrom
+TEXT: ゼクロムを捕まえる
 
 RESOURCE ID: quest_catch_psychic_steel
 TEXT: はがねタイプか、エスパータイプのポケモンを{0}匹捕まえる
@@ -63001,10 +63322,10 @@ RESOURCE ID: quest_catch_rayquaza_type
 TEXT: ひこう、エスパー、ドラゴン、いずれかのタイプのポケモンを{0}匹捕まえる
 
 RESOURCE ID: quest_catch_rufflet_plural
-TEXT: Catch {0} Rufflet
+TEXT: ワシボンを{0}匹捕まえる
 
 RESOURCE ID: quest_catch_scraggy_plural
-TEXT: Catch {0} Scraggy
+TEXT: ズルッグを{0}匹捕まえる
 
 RESOURCE ID: quest_catch_sinnoh_pokemon
 TEXT: シンオウ地方で最初に発見されたポケモンを{0}匹捕まえる
@@ -63013,7 +63334,7 @@ RESOURCE ID: quest_catch_sinnoh_pokemon_singular
 TEXT: シンオウ地方で最初に発見されたポケモンを捕まえる
 
 RESOURCE ID: quest_catch_snivy_tepig_oshawott
-TEXT: Catch {0} Snivy, Tepig, or Oshawott
+TEXT: ツタージャ、ポカブもしくはミジュマルを{0}匹捕まえる
 
 RESOURCE ID: quest_catch_solrock_plural
 TEXT: ソルロックを{0}匹捕まえる
@@ -63544,7 +63865,7 @@ RESOURCE ID: quest_catch_types_windy_singular
 TEXT: ひこう、ドラゴン、エスパー、いずれかのタイプのポケモンを1匹捕まえる
 
 RESOURCE ID: quest_catch_venipede_plural
-TEXT: Catch {0} Venipede
+TEXT: フシデを{0}匹捕まえる
 
 RESOURCE ID: quest_catch_vote0_plural
 TEXT: ワンリキーに投票！ポケモンを{0}匹捕まえる
@@ -63574,7 +63895,7 @@ RESOURCE ID: quest_catch_wild_ball_singular
 TEXT: GOサファリボールでポケモンを捕まえる
 
 RESOURCE ID: quest_catch_yamask_plural
-TEXT: Catch {0} Yamask
+TEXT: デスマスを{0}匹捕まえる
 
 RESOURCE ID: quest_challenge_party_power_plural
 TEXT: レイドバトルでチームパワーを{0}回使う
@@ -65200,7 +65521,7 @@ RESOURCE ID: quest_evolve_oshawott_singular
 TEXT: ミジュマルを進化させる
 
 RESOURCE ID: quest_evolve_oshawott_singular_posessive
-TEXT: Evolve an Oshawott
+TEXT: ミジュマルを進化させる
 
 RESOURCE ID: quest_evolve_palpitoad_singular
 TEXT: ガマガルを進化させる
@@ -65452,7 +65773,7 @@ RESOURCE ID: quest_evolve_snivy_singular
 TEXT: ツタージャを進化させる
 
 RESOURCE ID: quest_evolve_snivy_singular_posessive
-TEXT: Evolve a Snivy
+TEXT: ツタージャを進化させる
 
 RESOURCE ID: quest_evolve_snorunt_singular
 TEXT: ユキワラシを進化させる
@@ -65572,7 +65893,7 @@ RESOURCE ID: quest_evolve_tepig_singular
 TEXT: ポカブを進化させる
 
 RESOURCE ID: quest_evolve_tepig_singular_posessive
-TEXT: Evolve a Tepig
+TEXT: ポカブを進化させる
 
 RESOURCE ID: quest_evolve_timburr_singular
 TEXT: ドッコラーを進化させる
@@ -66007,7 +66328,7 @@ RESOURCE ID: quest_fuse_necrozma
 TEXT: ネクロズマを合体させる
 
 RESOURCE ID: quest_fuse_pokemon_kyurem
-TEXT: Fuse Kyurem
+TEXT: キュレムを合体させる
 
 RESOURCE ID: quest_gbl_rank
 TEXT: GOバトルリーグでランク{0}になる
@@ -67058,13 +67379,13 @@ RESOURCE ID: quest_mareep_snapshot_b
 TEXT: メリープのGOスナップショット写真を{0}枚撮る
 
 RESOURCE ID: quest_medal_gen5_gold
-TEXT: Earn the gold Unova medal
+TEXT: イッシュメダルをゴールドにする
 
 RESOURCE ID: quest_medal_idol_platinum
-TEXT: Earn the platinum Idol medal
+TEXT: 「アイドル」メダルをプラチナにする
 
 RESOURCE ID: quest_medal_showcase_star_bronze
-TEXT: Earn the bronze Showcase Star medal
+TEXT: 「おひろめスター」メダルをブロンズにする
 
 RESOURCE ID: quest_mega_evo_primal_rev_plural
 TEXT: ポケモンを{0}回ゲンシカイキもしくはメガシンカさせる
@@ -67714,6 +68035,9 @@ TEXT: コモルーを{0}匹進化させる
 RESOURCE ID: quest_shelgon_evolve_b_singular
 TEXT: コモルーを進化させる
 
+RESOURCE ID: quest_shelmet_karrablast_catch_b
+TEXT: チョボマキかカブルモを{0}匹捕まえる
+
 RESOURCE ID: quest_shint_catch_b
 TEXT: コリンクを{0}匹捕まえる
 
@@ -68048,7 +68372,7 @@ RESOURCE ID: quest_sobble_evolve
 TEXT: メッソンを進化させる
 
 RESOURCE ID: quest_spark_type_catch
-TEXT: Catch 25 Electric- or Steel-type Pokémon
+TEXT: でんきか、はがねタイプのポケモンを25匹捕まえる
 
 RESOURCE ID: quest_special_dialogue_af2022_0_0
 TEXT: ．．．．．．。
@@ -80689,8 +81013,35 @@ TEXT: 原因が何であれ、前兆が始まったばかりという段階だ�
 RESOURCE ID: quest_title_season_17_5
 TEXT: 重なる運命(5/10)
 
+RESOURCE ID: quest_title_season_17_5_dialogue_1
+TEXT: この世界の自然、そして人間界にある二元性．．．そこに見られる際立つ対照。
+
+RESOURCE ID: quest_title_season_17_5_dialogue_2
+TEXT: 最近目にしたことで特に興味深かったことがあるよ。
+
+RESOURCE ID: quest_title_season_17_5_dialogue_3
+TEXT: それは、ブランシェとクリフが、二人ともバトルに目を向けていたこと。それでいて、一方は防御戦略を研究、もう一方は力のみを追い求めたんだ。
+
+RESOURCE ID: quest_title_season_17_5_dialogue_4
+TEXT: もう少し考えてみたいな。ウィロー博士にも意見を聞いてみたい。
+
 RESOURCE ID: quest_title_season_17_6
 TEXT: 重なる運命(6/10)
+
+RESOURCE ID: quest_title_season_17_6_dialogue_1
+TEXT: バトルに関しては、あなたのほうが経験豊富だよね、%PLAYERNAME%、だから教えてくれるとうれしいな。ポケモントレーナーが目指すべきなのは、バランスのとれたアプローチだという意見に同意する？
+
+RESOURCE ID: quest_title_season_17_6_dialogue_2
+TEXT: うん、なるほど。じゃあ、それが今回のような出来事を理解するカギになるんだろうね。
+
+RESOURCE ID: quest_title_season_17_6_dialogue_3
+TEXT: すべてのものには2つの面があって、1面だけ見ても良い結果は得られない、ってこと。
+
+RESOURCE ID: quest_title_season_17_6_dialogue_4
+TEXT: 未来に目を向けると．．．もう少し待てば、博士からキャンデラとGOロケット団リーダーのひとりに関する情報がもたらされるはずだね。
+
+RESOURCE ID: quest_title_season_17_6_dialogue_5
+TEXT: じゃあ、博士からの連絡があるまで、さようなら。えーと．．．“お先に失礼しまーす”
 
 RESOURCE ID: quest_title_season_17_7
 TEXT: 重なる運命(7/10)
@@ -80850,6 +81201,18 @@ TEXT: さいほうポケモンを解明せよ！(3/4)
 
 RESOURCE ID: quest_title_sewaddle_3
 TEXT: さいほうポケモンを解明せよ！(4/4)
+
+RESOURCE ID: quest_title_shelmet_karrablast
+TEXT: マイマイ／かぶりつきポケモンレポート
+
+RESOURCE ID: quest_title_shelmet_karrablast_0
+TEXT: マイマイ／かぶりつきポケモンレポート(1/3)
+
+RESOURCE ID: quest_title_shelmet_karrablast_1
+TEXT: マイマイ／かぶりつきポケモンレポート(2/3)
+
+RESOURCE ID: quest_title_shelmet_karrablast_2
+TEXT: マイマイ／かぶりつきポケモンレポート(3/3)
 
 RESOURCE ID: quest_title_shint
 TEXT: せんこうポケモンを解明せよ！
@@ -81955,7 +82318,7 @@ RESOURCE ID: quest_win_raid_3_singular
 TEXT: レベル3以上のレイドに1回勝つ
 
 RESOURCE ID: quest_win_raid_5_plural
-TEXT: Win {0} five-star raids or higher
+TEXT: 5つ星以上のレイドで{0}回勝つ
 
 RESOURCE ID: quest_win_raid_5_singular
 TEXT: 5つ星以上のレイドに1回勝つ
@@ -82156,13 +82519,13 @@ RESOURCE ID: quests_pass_batch_updated
 TEXT: パスタスク{0}件進捗あり
 
 RESOURCE ID: quests_pass_multiple_task_available
-TEXT: New Event Pass Tasks!
+TEXT: 新パスタスク！
 
 RESOURCE ID: quests_pass_rank_up
 TEXT: ランクが上がった！
 
 RESOURCE ID: quests_pass_task_available
-TEXT: New Event Pass Task!
+TEXT: 新パスタスク！
 
 RESOURCE ID: quests_professor_willow
 TEXT: ウィロー博士
@@ -87899,6 +88262,18 @@ TEXT: レイドアワー：ユクシー
 RESOURCE ID: road_to_sinnoh_title
 TEXT: シンオウへの道
 
+RESOURCE ID: road_to_unova_event_title
+TEXT: イッシュへの道
+
+RESOURCE ID: road_to_unova_event_title_hatch
+TEXT: イッシュへの道：ふかチケット
+
+RESOURCE ID: road_to_unova_event_title_raid
+TEXT: イッシュへの道：レイドチケット
+
+RESOURCE ID: road_to_unova_pikachu_title
+TEXT: Pikachu Surprise
+
 RESOURCE ID: rock_type_event
 TEXT: タイプ上昇：いわ
 
@@ -89053,6 +89428,15 @@ TEXT: このルートは逆に歩くことが可能です
 
 RESOURCE ID: route_review_submission_title
 TEXT: 審査
+
+RESOURCE ID: route_share_code_copied
+TEXT: シェアコードをコピーしました
+
+RESOURCE ID: route_share_code_text
+TEXT: ルートシェアコード：{0}
+
+RESOURCE ID: route_share_section_header
+TEXT: 共有できるコード
 
 RESOURCE ID: route_sort_category
 TEXT: テーマ
@@ -91798,6 +92182,9 @@ TEXT: 招待者が辞退
 RESOURCE ID: shared_ex_raid_ticket_description
 TEXT: {0}さんから{1}でのEXレイドに招待されました
 
+RESOURCE ID: shelmetkarrablast_post_cd_timed_research_name
+TEXT: チョボマキとカブルモコミュニティ・デイコンティニュータイムチャレンジ
+
 RESOURCE ID: shinjuku_cross_title
 TEXT: クロス新宿ビジョン
 
@@ -92445,6 +92832,24 @@ TEXT: 初夏のまどろみ
 RESOURCE ID: slumbering_sands_jun24_collection_challenge
 TEXT: 初夏のまどろみコレクションチャレンジ
 
+RESOURCE ID: small_strong_collection_challenge
+TEXT: ミニマイティコレクションチャレンジ
+
+RESOURCE ID: small_strong_event_name
+TEXT: ミニマイティ
+
+RESOURCE ID: small_strong_free_tr_name
+TEXT: ミニマイティタイムチャレンジ(1/3)
+
+RESOURCE ID: small_strong_free_tr_name_0
+TEXT: ミニマイティタイムチャレンジ
+
+RESOURCE ID: small_strong_free_tr_name_1
+TEXT: ミニマイティタイムチャレンジ(2/3)
+
+RESOURCE ID: small_strong_free_tr_name_2
+TEXT: ミニマイティタイムチャレンジ(3/3)
+
 RESOURCE ID: social_add_friend_facebook
 TEXT: Facebookに接続
 
@@ -92783,6 +93188,9 @@ TEXT: タネボーがより多く野生で出現
 
 RESOURCE ID: spawn_sewaddle
 TEXT: クルミルがより多く野生で出現
+
+RESOURCE ID: spawn_shelmet_karrablast
+TEXT: チョボマキとカブルモがより多く野生で出現
 
 RESOURCE ID: spawn_shinx
 TEXT: コリンクがより多く野生で出現
@@ -94613,13 +95021,13 @@ RESOURCE ID: steeled_resolve_tr_name
 TEXT: はがねの決意プレミアムタイムチャレンジ
 
 RESOURCE ID: steeled_resolve_tr_name_1
-TEXT: はがねの決意タイムチャレンジ(1/3)
+TEXT: はがねの決意タイムチャレンジ (1/3)
 
 RESOURCE ID: steeled_resolve_tr_name_2
-TEXT: はがねの決意タイムチャレンジ(2/3)
+TEXT: はがねの決意タイムチャレンジ (2/3)
 
 RESOURCE ID: steeled_resolve_tr_name_3
-TEXT: はがねの決意タイムチャレンジ(3/3)
+TEXT: はがねの決意タイムチャレンジ (3/3)
 
 RESOURCE ID: sticker_box
 TEXT: ステッカーボックス
@@ -96405,6 +96813,12 @@ TEXT: <b>もらえるもの：</b>
 ・2024年のコミュニティ・デイに登場したポケモン（スペシャル背景つき）との出会い
 ・ふしぎなアメ、すごいわざマシンノーマル、すごいわざマシンスペシャル、など
 
+RESOURCE ID: text_rewards_key_cd_shelmetkarrablast25
+TEXT: <b>もらえるもの：</b>
+・チョボマキとカブルモ（スペシャル背景つき）との出会い
+・プレミアムバトルパス、わざマシンスペシャル、ふしぎなアメ
+・その他
+
 RESOURCE ID: text_rewards_key_cd_sprigatito2025
 TEXT: <b>もらえるもの：</b>
 ・ニャオハ（スペシャル背景つき）との出会い
@@ -96495,6 +96909,12 @@ TEXT: GOバトルリーグで活躍しそうなポケモンを捕まえること
 ・ベロリンガ、ランターン、マリルリ、エアームド、ヤルキモノ、クレセリア、ガラルのマッギョ、メレシー、デンヂムシとの出会い
 ・25000ほしのすなとプレミアムバトルパス1枚、など
 
+RESOURCE ID: text_rewards_key_gmaxkingler25
+TEXT: <b>もらえるもの：</b>
+・集められるマックス粒子の上限5600 
+・マックスバトル勝利でもらえるXP2倍
+・完了するとダイキノコと25000XPがもらえるタイムチャレンジ、など
+
 RESOURCE ID: text_rewards_key_gmaxlapras24
 TEXT: <b>もらえるもの：</b>
 ・集められるマックス粒子の上限5600 
@@ -96551,6 +96971,17 @@ TEXT: <b>適用されるボーナス：</b>
 ・4000ほしのすな
 ・パチリス、ペラップ、マスキッパとの出会い
 
+RESOURCE ID: text_rewards_key_gotourhatch2025
+TEXT: <b>Included bonuses:</b>
+• 2× Hatch XP
+• 2× Hatch Stardust
+• 2× Hatch Candy
+<b>Included rewards:</b>
+• Black and White Hoodie avatar item
+• Opportunities to encounter Maractus, Sigilyph, Bouffalant 
+• One Super Incubator
+• 4,000 Stardust and more!
+
 RESOURCE ID: text_rewards_key_gotourraid2024
 TEXT: <b>適用されるボーナス：</b>
 ・レイドに勝ってもらえる5000XP追加
@@ -96560,6 +96991,21 @@ TEXT: <b>適用されるボーナス：</b>
 ・アバターのイーブイお面
 ・ヒードランのアメXL5個、ギラティナのアメXL5個、クレセリアのアメXL5個、ダークライのアメXL5個
 ・ディアルガのアメ10個とパルキアのアメ10個
+
+RESOURCE ID: text_rewards_key_gotourraid2025
+TEXT: <b>Included bonuses:</b>
+• Additional 5,000 XP awarded for successful raids
+• One additional Candy from five-star Raids 
+• One additional Candy XL from five-star Raids
+• 2x Stardust awarded for successful raids 
+• One additional free Raid Pass per day from spinning Gym Photo Discs
+<b>Included rewards:</b>
+• Black and White Joggers avatar item
+• 5 Virizion Candy XL, 5 Terrakion Candy XL, 5 Cobalion Candy XL, and 5 Tornadus Candy XL
+• 5 Thundurus Candy XL 
+• 5 Landorus Candy XL
+• 25 Genesect Candy XL
+• 10 Reshiram Candy and 10 Zekrom Candy
 
 RESOURCE ID: text_rewards_key_gowa2024hatchver1
 TEXT: <b>もらえるもの：</b>
@@ -96671,6 +97117,12 @@ TEXT: <b>もらえるもの：</b>
 ・1200XPと6000ほしのすな
 ・その他
 
+RESOURCE ID: text_rewards_key_lunarny0125
+TEXT: <b>もらえるもの：</b>
+・しあわせタマゴ2個
+・ふかそうち1個
+・12000XP、など
+
 RESOURCE ID: text_rewards_key_mankeycd24
 TEXT: <b>もらえるもの：</b>
 ・マンキーとその進化形ポケモンとの出会い
@@ -96722,6 +97174,16 @@ TEXT: <b>もらえるもの：</b>
 ・ルカリオを捕まえてもらえるふしぎなアメXL1個確定、など
 
 このチケットを購入すると、ルカリオお面がもらえるバージョンは購入できません。別バージョンに関する詳細は、<a href="https://pokemongolive.com/post/mega-lucario-raid-ultra-unlock">こちら</a>でご確認ください。
+
+RESOURCE ID: text_rewards_key_meloettamasterwork2025
+TEXT: <b>Includes:</b>
+• An encounter with Shiny Meloetta (Aria Forme)
+• Shiny Meloetta T-Shirt avatar item
+• 10 Reshiram Candy, 10 Zekrom Candy, 15 Snivy Candy, 15 Tepig Candy, 15 Oshawott Candy, 10 Darumaka Candy, and 30 Meloetta Candy
+• 14,640 XP and 6,480 Stardust
+• 2 Rare Candy XL and 3 Rare Candies for Trainers level 31 and up
+• 5 Rare Candies for Trainers level 30 and below
+• 60 Ultra Balls, 3 Unova Stone, 5 Golden Razz Berries, 5 Silver Pinap Berries, 1 Lure Module, 2 Incense, and more!
 
 RESOURCE ID: text_rewards_key_monochromeholidaysdec2024
 TEXT: <b>もらえるもの：</b>
@@ -97209,6 +97671,9 @@ TEXT: 「どんぐりポケモンの謎を解け！」チケットがショッ�
 
 RESOURCE ID: ticket_sewaddle
 TEXT: クルミルコミュニティ・デイスペシャルリサーチ「さいほうポケモンを解明せよ！」チケットがショップに登場
+
+RESOURCE ID: ticket_shelmet_karrablast_cd
+TEXT: 「マイマイ／かぶりつきポケモンレポート」スペシャルリサーチのチケットがショップに登場
 
 RESOURCE ID: ticket_shinx
 TEXT: 「せんこうポケモンを解明せよ！」チケットがショップに登場
@@ -98035,23 +98500,29 @@ TEXT: ポケストップスキャン
 RESOURCE ID: titan_upload_wifi_recommended
 TEXT: Wi-Fi 接続推奨
 
+RESOURCE ID: title_addon_unova_hatch
+TEXT: GO Tour：イッシュ地方 – タマゴ名人
+
+RESOURCE ID: title_addon_unova_raid
+TEXT: GO Tour：イッシュ地方 – レイド大好き
+
 RESOURCE ID: title_bonus_dual_destiny_blanche_tr
-TEXT: Thanks from Team Mystic: Bonus Timed Research
+TEXT: ミスティックからの感謝：ボーナスタイムチャレンジ
 
 RESOURCE ID: title_bonus_dual_destiny_blanche_tr_00
-TEXT: Thanks from Team Mystic: Bonus Timed Research (1/1)
+TEXT: ミスティックからの感謝：ボーナスタイムチャレンジ(1/1)
 
 RESOURCE ID: title_bonus_dual_destiny_candela_tr
-TEXT: Thanks from Team Valor: Bonus Timed Research
+TEXT: ヴァーラーからの感謝：ボーナスタイムチャレンジ
 
 RESOURCE ID: title_bonus_dual_destiny_candela_tr_00
-TEXT: Thanks from Team Valor: Bonus Timed Research (1/1)
+TEXT: ヴァーラーからの感謝：ボーナスタイムチャレンジ(1/1)
 
 RESOURCE ID: title_bonus_dual_destiny_spark_tr
-TEXT: Thanks from Team Instinct: Bonus Timed Research
+TEXT: インスティンクトからの感謝：ボーナスタイムチャレンジ
 
 RESOURCE ID: title_bonus_dual_destiny_spark_tr_00
-TEXT: Thanks from Team Instinct: Bonus Timed Research (1/1)
+TEXT: インスティンクトからの感謝：ボーナスタイムチャレンジ(1/1)
 
 RESOURCE ID: title_bonus_honolulu_greetings
 TEXT: ホノルルからハロー！追加ボーナス
@@ -98069,7 +98540,7 @@ RESOURCE ID: title_event_pass_daily_bonus_quest
 TEXT: デイリークエスト
 
 RESOURCE ID: title_event_pass_daily_bonus_quest_premium
-TEXT: Daily Tasks – Premium
+TEXT: デイリータスク – プレミアム
 
 RESOURCE ID: title_event_pass_hourly_bonus_quest
 TEXT: 1時間クエスト
@@ -98088,6 +98559,15 @@ TEXT: シンオウへの道：タマゴふか
 
 RESOURCE ID: title_road_to_sinnoh_raid
 TEXT: シンオウへの道：レイド
+
+RESOURCE ID: title_road_to_unova_hatch
+TEXT: イッシュへの道：ふかプレミアムタイムチャレンジ
+
+RESOURCE ID: title_road_to_unova_raid
+TEXT: イッシュへの道：レイドプレミアムタイムチャレンジ
+
+RESOURCE ID: title_road_to_unova_raid_free
+TEXT: イッシュへの道：レイドプレミアムタイムチャレンジ
 
 RESOURCE ID: title_tr_wcs_2023_champ
 TEXT: 2023年のポケモンワールドチャンピオンボーナスタイムチャレンジ
@@ -99015,7 +99495,7 @@ RESOURCE ID: trade_gmax_in_pokedex
 TEXT: 図鑑に登録済みキョダイマックスポケモン
 
 RESOURCE ID: trade_gmax_non_pokedex
-TEXT: キョダイマックスしたポケモン
+TEXT: 全てのキョダイマックスポケモン
 
 RESOURCE ID: trade_guaranteed_candyxl
 TEXT: ポケモン交換時に確定アメXL
@@ -101657,7 +102137,7 @@ RESOURCE ID: your_trainer_code_title
 TEXT: 自分のトレーナーコード
 
 RESOURCE ID: zorua_o_clock_active
-TEXT: Zorua are now appearing in large numbers!
+TEXT: ゾロアが大量発生中！
 
 RESOURCE ID: zygarde_tappable_push_notification
 TEXT: 何かが現れた！
