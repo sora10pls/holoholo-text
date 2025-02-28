@@ -14,11 +14,11 @@ RESOURCE ID: adventure_sync_pokemon_disabled_toast
 TEXT: Mengatur pengumuman untuk {0}.
 
 RESOURCE ID: adventure_sync_settings_missing
-TEXT: Please make sure both of the following settings are enabled to use this feature.
+TEXT: Pastikan untuk melakukan pengaturan di bawah ini untuk menggunakan fitur ini.
 
-1. Settings > General > Adventure Sync
+1. Pengaturan > Umum > Sinkronisasi Petualangan: Lokal
 
-2. Settings > Notifications > Adventure Sync: Nearby
+2. Pengaturan > Pemberitahuan > Sinkronisasi Petualangan: Lokal
 
 RESOURCE ID: avatar_pose_penpal
 TEXT: Pose Sahabat Pena
@@ -264,6 +264,18 @@ TEXT: Eevee Si Penjelajah – Singapura
 RESOURCE ID: eevee_explorers_singapore_title_00
 TEXT: Eevee Si Penjelajah – Singapura (1/1)
 
+RESOURCE ID: em_carnival_2025_collection_challenge
+TEXT: Tantangan Koleksi Karnaval Teman
+
+RESOURCE ID: em_carnival_2025_event_title
+TEXT: Karnaval Teman
+
+RESOURCE ID: em_carnival_2025_tr_desc_title_00
+TEXT: Penelitian Berwaktu Karnaval Teman (1/1)
+
+RESOURCE ID: em_carnival_2025_tr_title
+TEXT: Penelitian Berwaktu Karnaval Teman
+
 RESOURCE ID: em_mall_large_collection_challenge
 TEXT: Tantangan Koleksi Pesta Pikachu
 
@@ -308,18 +320,28 @@ RESOURCE ID: event_pass_additional_bonus_rank_divider_desc
 TEXT: Kamu dapat melanjutkan untuk mendapatkan hadiah. Coba tantang sampai sejauh apa kamu dapat meneruskannya! 
 
 RESOURCE ID: event_pass_additional_bonus_rank_divider_header
-TEXT: PERINGKAT BONUS
+TEXT: RANK BONUS
 
 RESOURCE ID: event_pass_additional_bonus_rank_divider_title
 TEXT: Kamu telah menyelesaikan Tiket!
 
 RESOURCE ID: event_pass_micro_action_modal_desc
-TEXT: Dapatkan poin untuk meningkatkan peringkatmu dan membuka hadiah. Kamu bisa mendapat poin dengan menyelesaikan Tugas Tiket atau aneka pencapaian yang terdaftar di sini.
+TEXT: Dapatkan poin untuk meningkatkan rankmu dan membuka hadiah. Kamu bisa mendapat poin dengan menyelesaikan Tugas Tiket atau aneka pencapaian yang terdaftar di sini. Hadiah yang didapat dengan menyelesaikan Tugas Tiket akan dihadiahkan segera setelah tugas selesai.
 
-Hadiah yang didapat dengan menyelesaikan Tugas Tiket akan dihadiahkan segera setelah tugas selesai.
+RESOURCE ID: event_pass_milestone
+TEXT: HADIAH MILESTONE:  {0} Diterima di Rank {1}
+
+RESOURCE ID: event_pass_premium_reward_banner_bottom_text
+TEXT: Diterima di Rank 100
 
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_02
-TEXT: Diterima di Peringkat 40
+TEXT: Diterima di Rank 40
+
+RESOURCE ID: event_pass_rank_journal
+TEXT: {0} Rank {1} tercapai.
+
+RESOURCE ID: event_pass_reward_journal
+TEXT: Hadiah {0} Rank {1} telah diambil.
 
 RESOURCE ID: event_pass_reward_preview_new_item_indicator
 TEXT: ITEM BARU!
@@ -427,10 +449,10 @@ RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_team_02
 TEXT: Aku harus berterima kasih kepadamu, %PLAYERNAME%. Dukunganmu telah membantu kami melakukan terobosan berikutnya.
 
 RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_tgr_00
-TEXT: Ah, %PLAYERNAME%. Perlu aku beri tahu juga, Cliff mendeklarasikan keinginannya menjadi "Pelatih paling seimbang". 
+TEXT: Ah, %PLAYERNAME%. Perlu aku beri tahu juga, Cliff mendeklarasikan keinginannya menjadi "Pelatih paling seimbang".
 
 RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_tgr_01
-TEXT: Walau aku tidak antusias atas musuh yang meningkatkan kemampuannya, aku harap kamu terus mengecek dirinya jika metode latihannya yang sembrono menimbulkan masalah.
+TEXT: Walau aku tidak antusias atas musuh yang meningkatkan kemampuannya, aku harap kamu terus mengawasinya jika metode latihannya yang sembrono menimbulkan masalah.
 
 RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_tgr_02
 TEXT: Aku sungguh menghargai dukunganmu atas hal ini.
@@ -454,13 +476,13 @@ RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_candela_tgr_02
 TEXT: Pokoknya, terima kasih telah mengurusnya. Apa pun rencana mereka di masa depan, kita akan menghentikan mereka bersama!
 
 RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_spark_team_00
-TEXT: Hai, %PLAYERNAME%! Masih tetap kalem?
+TEXT: Hai, %PLAYERNAME%! Masih terasa dingin?
 
 RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_spark_team_01
-TEXT: Tak kuduga ini berakhir dengan pelarian dari pantai. Namun aku tidak terkejut, karena di sekitarmu sepertinya selalu terjadi hal-hal heboh.
+TEXT: Tak kuduga ini berawal dengan liburan kita di pantai hingga sampai di sini. Namun aku tidak terkejut, karena di sekitarmu sepertinya selalu terjadi hal-hal tak terduga.
 
 RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_spark_team_02
-TEXT: Kamu diundang untuk menghadiri petualanganku berikutnya. Terima kasih selalu ada untuk petualangan!
+TEXT: Yuk ikuti aku ke petualangan berikutnya. Terima kasih selalu ada untuk bertualang!
 
 RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_spark_tgr_00
 TEXT: Hai, terima kasih tadi sudah mengawasi Sierra, %PLAYERNAME%.
@@ -502,7 +524,7 @@ RESOURCE ID: go_tour_2025_global_sr_dialog_02_black_00
 TEXT: Reshiram menyalakan ekornya dan menimbulkan energi panas yang dapat menggerakkan atmosfer. Terlukiskan pada kisah mitos dirinya yang membumihanguskan suatu negeri ketika orang-orangnya dipenuhi oleh nafsu.
 
 RESOURCE ID: go_tour_2025_global_sr_dialog_02_black_01
-TEXT: Dalam, ya. Sebaliknya, ia menolong orang yang menyusun dunia kebenaran.
+TEXT: Dalam, ya. Sebaliknya, ia menolong orang yang menyusun dunia berisi kebenaran.
 
 RESOURCE ID: go_tour_2025_global_sr_dialog_02_black_02
 TEXT: Bagimu, "Kebenaran" itu apa, %PLAYERNAME%?
@@ -583,7 +605,7 @@ RESOURCE ID: go_tour_2025_global_sr_dialog_05_black_02
 TEXT: Dikatakan bahwa Kyurem Hitam bertarung demi melindungi dunia ideal bagi manusia dan Pokémon, yang akan terwujudkan di masa depan.
 
 RESOURCE ID: go_tour_2025_global_sr_dialog_05_black_03
-TEXT: Perasaanku jadi  meluap dengan harapan akan masa depan. Berjuanglah, %PLAYERNAME%.
+TEXT: Perasaanku jadi meluap dengan harapan akan masa depan. Berjuanglah, %PLAYERNAME%.
 
 RESOURCE ID: go_tour_2025_global_sr_dialog_05_white_00
 TEXT: Kabar baik. Kita menemukan Zekrom! Dengan ini, Kyurem akan mulai mencari Reshiram. Tahu langkah berikutnya, 'kan?
@@ -595,7 +617,7 @@ RESOURCE ID: go_tour_2025_global_sr_dialog_05_white_02
 TEXT: Dikatakan bahwa Kyurem Putih memprediksi bahwa dunia manusia dan Pokémon yang sesungguhnya akan tiba dan hendak melindungi masa depan tersebut.
 
 RESOURCE ID: go_tour_2025_global_sr_dialog_05_white_03
-TEXT: Perasaanku jadi  meluap dengan harapan akan masa depan. Berjuanglah, %PLAYERNAME%.
+TEXT: Perasaanku jadi meluap dengan harapan akan masa depan. Berjuanglah, %PLAYERNAME%.
 
 RESOURCE ID: go_tour_2025_global_sr_dialog_06_00
 TEXT: Luar biasa... Aku pernah membaca tentang Serapadu, tetapi aku tidak pernah menyangka bisa melihatnya langsung!
@@ -834,8 +856,14 @@ TEXT: Selamat datang di Tur Pokémon GO: Unova – Los Angeles!
 RESOURCE ID: gotour2025_welcome_irl_ntc
 TEXT: Selamat datang di Tur Pokémon GO: Unova – New Taipei City!
 
+RESOURCE ID: gotour_2025_deluxe_event_pass_track_unlock_description
+TEXT: Dapatkan hadiah tambahan di tiap rank.
+
 RESOURCE ID: gotour_2025_deluxe_event_pass_track_unlock_plus_points_description
-TEXT: Dapatkan hadiah tambahan di tiap peringkat, naik 10 peringkat dalam sekejap.
+TEXT: Dapatkan hadiah tambahan di tiap rank dan naik 10 rank dalam sekejap.
+
+RESOURCE ID: gotour_2025_deluxe_event_pass_track_unlock_plus_points_title
+TEXT: Tiket Tur Luks + 10 Rank
 
 RESOURCE ID: gotour_2025_global_sr_title
 TEXT: Keseluruhan Gunung Es
@@ -873,11 +901,17 @@ TEXT: Ujung Gunung Es (4/4)
 RESOURCE ID: gotour_2025_irl_sr_title_04
 TEXT: Ujung Gunung Es (5/5)
 
+RESOURCE ID: gotour_2025_pass_track_upgrade_header_description
+TEXT: Dapatkan hadiah tambahan dan dalam sekejap buka <b>pertemuan dengan Victini</b>!
+
 RESOURCE ID: gotour_2025_pokemon_day_tr_title
 TEXT: Penelitian Berwaktu Pokémon Presents ’25 x Tur GO
 
 RESOURCE ID: gotour_2025_pokemon_day_tr_title_00
 TEXT: Penelitian Berwaktu Pokémon Presents ’25 x Tur GO (1/1)
+
+RESOURCE ID: gotour_2025_premium_rewards_desc
+TEXT: Tingkatkan rankmu untuk membuka hadiah. Kamu harus bermain selama event untuk mendapatkan hadiah.
 
 RESOURCE ID: gotour_2025_shiny_meloetta_masterwork_sr_title
 TEXT: Penelitian Mahakarya: Aria Indah
@@ -910,6 +944,8 @@ TEXT: Beli Tiket Tur Luks untuk membuka hadiah berikut!
 • Energi Fusi untuk Kyurem
 • Item avatar Helm Kyurem
 • Dan masih banyak lagi!
+
+Pelatih dapat memperoleh 150 poin bonus harian dari 24 hingga 28 Februari sebagai tambahan dari poin yang diperoleh dari Tugas Tiket. Tidak ada limit jumlah poin yang dapat diperoleh selama event global pada 1 dan 2 Maret!
 
 RESOURCE ID: great_storage_box
 TEXT: Kotak Penyimpanan Great
@@ -1011,10 +1047,13 @@ RESOURCE ID: max_battler_box
 TEXT: Kotak Pertarungan Max
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-02-26T19:50:19.247630+00:00 for id-ID
-at SHA 53f1db7898c
-Pipeline 3028653, job 37484336
-Patch from: 0.351.0-SHA-a2cc2822-RC1, 0.351.0-SHA-57275791-RC3, 0.349.1-SHA-0239bdf8-RC1
+TEXT: Built at 2025-02-28T00:20:36.275861+00:00 for id-ID
+at SHA 4f467418646
+Pipeline 3034346, job 37577161
+Patch from: 0.351.0-SHA-2259cb4d-RC2, 0.351.0-SHA-f7106c82-RC1, 0.349.1-SHA-0239bdf8-RC1
+
+RESOURCE ID: move_name_0468
+TEXT: Flare Song
 
 RESOURCE ID: move_required_to_enable_adventure_effect
 TEXT: {0} tidak mempelajari {1}, sehingga ia tidak dapat mempelajari jurus dengan Efek Petualangan setelah fusi.
@@ -1024,6 +1063,9 @@ TEXT: Lanjutkan?
 
 RESOURCE ID: move_required_to_enable_adventure_effect_title
 TEXT: Pokémon fusi ini tidak dapat mempelajari jurus dengan Efek Petualangan
+
+RESOURCE ID: next_rank_label
+TEXT: Ke rank berikutnya:
 
 RESOURCE ID: ongoing_stamp_collection_header
 TEXT: ONGOING STAMP RALLIES
@@ -1044,7 +1086,7 @@ RESOURCE ID: pokedex_info_battle_damage_header
 TEXT: Kerusakan
 
 RESOURCE ID: pokedex_info_battle_elite_header
-TEXT: ELITE MOVES
+TEXT: ELITE TM ATTACKS
 
 RESOURCE ID: pokedex_info_battle_fast_header
 TEXT: Serangan Cepat
@@ -1397,11 +1439,17 @@ TEXT: Menangkan {0} Raid bintang 5 atau lebih tinggi
 RESOURCE ID: quests_pass_multiple_task_available
 TEXT: Tugas Tiket Baru!
 
+RESOURCE ID: quests_pass_rank_up
+TEXT: Rank naik!
+
 RESOURCE ID: quests_pass_task_available
 TEXT: Tugas Tiket Baru!
 
 RESOURCE ID: raid_day_hoopa_unbound_event_name
 TEXT: Hari Raid: Hoopa Bebas
+
+RESOURCE ID: rank
+TEXT: RANK
 
 RESOURCE ID: reactivate_button
 TEXT: REACTIVATE
