@@ -235,6 +235,9 @@ TEXT: Info su Pokémon GO
 RESOURCE ID: about_screen_tos_btn
 TEXT: Termini d’uso
 
+RESOURCE ID: about_this_stamp_rally
+TEXT: ABOUT THIS STAMP RALLY
+
 RESOURCE ID: accept
 TEXT: Accetta
 
@@ -663,6 +666,9 @@ TEXT: Hai visitato {0} Pokéstop!
 RESOURCE ID: adventure_recap_title
 TEXT: Riepilogo avventura
 
+RESOURCE ID: adventure_sync_already_assigned_title
+TEXT: Notifica Pokémon
+
 RESOURCE ID: adventure_sync_enable_modal_failure_message
 TEXT: Riprova tramite le Impostazioni.
 
@@ -681,11 +687,27 @@ TEXT: Sincroavventura attivata!
 RESOURCE ID: adventure_sync_enable_modal_title
 TEXT: Attiva Sincroavventura
 
+RESOURCE ID: adventure_sync_missing_title
+TEXT: Impostazioni non attivate
+
 RESOURCE ID: adventure_sync_needs_background_location
 TEXT: Sincroavventura richiede l’accesso ai servizi di localizzazione
 
 RESOURCE ID: adventure_sync_needs_background_location_body
 TEXT: Sincroavventura richiede l’accesso in background ai servizi di localizzazione per permetterti di guadagnare caramelle, far nascere Pokémon dalle Uova e ricevere ricompense anche quando non utilizzi Pokémon GO.
+
+RESOURCE ID: adventure_sync_pokemon_disable
+TEXT: Scambia notifiche
+
+RESOURCE ID: adventure_sync_pokemon_disabled_toast
+TEXT: Hai attivato una notifica per {0}.
+
+RESOURCE ID: adventure_sync_settings_missing
+TEXT: Assicurati che entrambe queste impostazioni siano attivate per usare questa funzione.
+
+1. Impostazioni > Generale > Sincroavventura
+
+2. Impostazioni > Notifiche > Sincroavventura: dintorni
 
 RESOURCE ID: adventure_sync_weekly_reminder
 TEXT: Abilita la Sincroavventura nelle impostazioni per ricevere più ricompense.
@@ -1998,7 +2020,7 @@ RESOURCE ID: avatar_backpack_blackkyurem
 TEXT: Ali Kyurem Nero
 
 RESOURCE ID: avatar_backpack_eggincubator
-TEXT: Zaino Incubatrice
+TEXT: zaino Incubatrice
 
 RESOURCE ID: avatar_backpack_whitekyurem
 TEXT: Zaino Kyurem Bianco
@@ -2074,7 +2096,7 @@ TEXT: Zainetto
 da città
 
 RESOURCE ID: avatar_f_backpack_egg-incubator_00_bundle_icon
-TEXT: Zaino Incubatrice
+TEXT: zaino Incubatrice
 
 RESOURCE ID: avatar_f_backpack_eggbackpack_0_bundle_icon
 TEXT: Zaino Uovo
@@ -4413,7 +4435,7 @@ RESOURCE ID: avatar_gloves_gblallister
 TEXT: Guanti stile Onion
 
 RESOURCE ID: avatar_gloves_teamyell
-TEXT: Guanti Team Yell
+TEXT: guanti Team Yell
 
 RESOURCE ID: avatar_hair
 TEXT: Capelli
@@ -4501,7 +4523,7 @@ TEXT: Zaino
 Sinnoh
 
 RESOURCE ID: avatar_m_backpack_egg-incubator_00_bundle_icon
-TEXT: Zaino Incubatrice
+TEXT: zaino Incubatrice
 
 RESOURCE ID: avatar_m_backpack_eggbackpack_0_bundle_icon
 TEXT: Zaino Uovo
@@ -6818,16 +6840,16 @@ RESOURCE ID: avatar_pants_bwpants
 TEXT: Pantaloni tuta neri e bianchi
 
 RESOURCE ID: avatar_pants_gblgrimsley
-TEXT: Pantaloni stile Mirton
+TEXT: pantaloni stile Mirton
 
 RESOURCE ID: avatar_pants_plaidpants
-TEXT: Pantaloni a quadri
+TEXT: pantaloni a quadri
 
 RESOURCE ID: avatar_pants_teamyellpants
-TEXT: Pantaloni Team Yell
+TEXT: pantaloni Team Yell
 
 RESOURCE ID: avatar_pants_teamyellskirt
-TEXT: Gonna Team Yell
+TEXT: gonna Team Yell
 
 RESOURCE ID: avatar_pants_wcs2024champion
 TEXT: Pantaloni campione dei Mondiali 2024
@@ -6842,16 +6864,19 @@ RESOURCE ID: avatar_pose_21
 TEXT: Rocco
 
 RESOURCE ID: avatar_pose_determined
-TEXT: Determinazione
+TEXT: determinazione
 
 RESOURCE ID: avatar_pose_gblallister
 TEXT: Stile Onion
 
 RESOURCE ID: avatar_pose_gblgrimsley
-TEXT: Stile Mirton
+TEXT: stile Mirton
+
+RESOURCE ID: avatar_pose_penpal
+TEXT: Amico di penna
 
 RESOURCE ID: avatar_pose_runway
-TEXT: Sfilata
+TEXT: sfilata
 
 RESOURCE ID: avatar_pose_safariball
 TEXT: Terre Selvagge di GO 2024
@@ -6875,7 +6900,7 @@ RESOURCE ID: avatar_shirt_gblallister
 TEXT: Completo stile Onion
 
 RESOURCE ID: avatar_shirt_gblgrimsley
-TEXT: Giacca stile Mirton
+TEXT: giacca stile Mirton
 
 RESOURCE ID: avatar_shirt_gotour2025black
 TEXT: T-shirt Tour GO 2025 (nera)
@@ -6893,7 +6918,7 @@ RESOURCE ID: avatar_shirt_halloween2024
 TEXT: abito Halloween
 
 RESOURCE ID: avatar_shirt_marshtompsweater
-TEXT: Maglione Marshtomp
+TEXT: maglione Marshtomp
 
 RESOURCE ID: avatar_shirt_morpekofullbelly
 TEXT: costume Morpeko (Motivo Panciapiena)
@@ -6902,7 +6927,7 @@ RESOURCE ID: avatar_shirt_morpekohangry
 TEXT: costume Morpeko (Motivo Panciavuota)
 
 RESOURCE ID: avatar_shirt_plaidtop
-TEXT: Giacca a quadri
+TEXT: giacca a quadri
 
 RESOURCE ID: avatar_shirt_shiny_mew_bundle_icon
 TEXT: T-shirt Mew cromatico
@@ -6911,13 +6936,13 @@ RESOURCE ID: avatar_shirt_shinymeloetta
 TEXT: T-shirt Meloetta cromatico
 
 RESOURCE ID: avatar_shirt_staryusweater
-TEXT: Maglione Staryu
+TEXT: maglione Staryu
 
 RESOURCE ID: avatar_shirt_teamyellcrop
-TEXT: Maglia Team Yell (corta)
+TEXT: maglia Team Yell (corta)
 
 RESOURCE ID: avatar_shirt_teamyellshirt
-TEXT: Maglia Team Yell
+TEXT: maglia Team Yell
 
 RESOURCE ID: avatar_shirt_wcs2024
 TEXT: Camicia Aloha Mondiali 2024
@@ -6926,7 +6951,7 @@ RESOURCE ID: avatar_shirt_wcs2024champion
 TEXT: Set campione dei Mondiali 2024
 
 RESOURCE ID: avatar_shirt_wooloojacket
-TEXT: Giubbotto Wooloo
+TEXT: giubbotto Wooloo
 
 RESOURCE ID: avatar_shoes
 TEXT: Calzature
@@ -6935,10 +6960,10 @@ RESOURCE ID: avatar_shoes_gblallister
 TEXT: Scarpe stile Onion
 
 RESOURCE ID: avatar_shoes_gblgrimsley
-TEXT: Scarpe stile Mirton
+TEXT: scarpe stile Mirton
 
 RESOURCE ID: avatar_shoes_teamyell
-TEXT: Scarpe Team Yell
+TEXT: scarpe Team Yell
 
 RESOURCE ID: avatar_shoes_wcs2024champion
 TEXT: Stivali campione dei Mondiali 2024
@@ -10461,10 +10486,10 @@ RESOURCE ID: badge_safari_2024_hong_kong_add_on_hatch_test
 TEXT: Safari in città di Pokémon GO
 
 RESOURCE ID: badge_safari_2024_hong_kong_add_on_hatch_test_title
-TEXT: Passione Uova del Safari in città
+TEXT: Safari in città: passione Uova
 
 RESOURCE ID: badge_safari_2024_hong_kong_add_on_hatch_title
-TEXT: Passione Uova del Safari in città
+TEXT: Safari in città: passione Uova
 
 RESOURCE ID: badge_safari_2024_hong_kong_add_on_raid
 TEXT: Safari in città di Pokémon GO
@@ -10473,10 +10498,10 @@ RESOURCE ID: badge_safari_2024_hong_kong_add_on_raid_test
 TEXT: Safari in città di Pokémon GO
 
 RESOURCE ID: badge_safari_2024_hong_kong_add_on_raid_test_title
-TEXT: Passione raid del Safari in città
+TEXT: Safari in città: passione raid
 
 RESOURCE ID: badge_safari_2024_hong_kong_add_on_raid_title
-TEXT: Passione raid del Safari in città
+TEXT: Safari in città: passione raid
 
 RESOURCE ID: badge_safari_2024_hong_kong_day_00
 TEXT: Hong Kong 2024
@@ -10593,10 +10618,10 @@ RESOURCE ID: badge_safari_2024_sao_paulo_add_on_hatch_test
 TEXT: Safari in città di Pokémon GO
 
 RESOURCE ID: badge_safari_2024_sao_paulo_add_on_hatch_test_title
-TEXT: Passione Uova del Safari in città
+TEXT: Safari in città: passione Uova
 
 RESOURCE ID: badge_safari_2024_sao_paulo_add_on_hatch_title
-TEXT: Passione Uova del Safari in città
+TEXT: Safari in città: passione Uova
 
 RESOURCE ID: badge_safari_2024_sao_paulo_add_on_raid
 TEXT: Safari in città di Pokémon GO
@@ -10605,10 +10630,10 @@ RESOURCE ID: badge_safari_2024_sao_paulo_add_on_raid_test
 TEXT: Safari in città di Pokémon GO
 
 RESOURCE ID: badge_safari_2024_sao_paulo_add_on_raid_test_title
-TEXT: Passione raid del Safari in città
+TEXT: Safari in città: passione raid
 
 RESOURCE ID: badge_safari_2024_sao_paulo_add_on_raid_title
-TEXT: Passione raid del Safari in città
+TEXT: Safari in città: passione raid
 
 RESOURCE ID: badge_safari_2024_sao_paulo_day_00
 TEXT: San Paolo 2024
@@ -14324,6 +14349,30 @@ TEXT: Bonus giornaliero delle missioni di ricerca sul campo: Megaenergia Beedril
 RESOURCE ID: beedrill_mega_energy_field_research
 TEXT: Ricerca sul campo con Megaenergia Beedrill come ricompensa
 
+RESOURCE ID: beloved_buddies_event_name
+TEXT: Amici del cuore
+
+RESOURCE ID: beloved_buddies_feb2025_cc_1
+TEXT: Sfida di collezione 1 dell’evento “Amici del cuore”
+
+RESOURCE ID: beloved_buddies_feb2025_cc_2
+TEXT: Sfida di collezione 2 dell’evento “Amici del cuore”
+
+RESOURCE ID: beloved_buddies_feb2025_cc_3
+TEXT: Sfida di collezione 3 dell’evento “Amici del cuore”
+
+RESOURCE ID: beloved_buddies_tr_name
+TEXT: Ricerca a tempo dell’evento “Amici del cuore”
+
+RESOURCE ID: beloved_buddies_tr_name_1
+TEXT: Ricerca a tempo dell’evento “Amici del cuore” (1/3)
+
+RESOURCE ID: beloved_buddies_tr_name_2
+TEXT: Ricerca a tempo dell’evento “Amici del cuore” (2/3)
+
+RESOURCE ID: beloved_buddies_tr_name_3
+TEXT: Ricerca a tempo dell’evento “Amici del cuore” (3/3)
+
 RESOURCE ID: beluga_daily_bonus
 TEXT: Bonus
 
@@ -14598,7 +14647,7 @@ RESOURCE ID: bonus_beast_ball_ultra_beast_raid
 TEXT: UC Ball disponibili nei raid Ultracreatura
 
 RESOURCE ID: bonus_black_version_glaciate
-TEXT: Kyurem caught from Black Kyurem raids will know the Charged Attack Glaciate
+TEXT: I Kyurem catturati nei raid contro Kyurem Nero conosceranno l’attacco caricato Gelamondo
 
 RESOURCE ID: bonus_buddy_catch_assist_boosted
 TEXT: Maggiori probabilità di aiuto nella cattura da parte del tuo compagno, se ha raggiunto un livello di amicizia pari o superiore a “ottimo compagno”
@@ -14805,10 +14854,10 @@ RESOURCE ID: bonus_daily_field_research_pokecoins
 TEXT: Riceverai una missione di ricerca sul campo che ti permetterà di ottenere 20 Pokémonete al giorno se non hai più di tre missioni di ricerca sul campo attive quando effettui il tuo primo accesso della giornata!
 
 RESOURCE ID: bonus_daily_pass_tasks
-TEXT: Bonus daily Pass Tasks awarding additional Tour Points
+TEXT: Missioni biglietto giornaliere aggiuntive che ti premiano con ulteriori punti Tour
 
 RESOURCE ID: bonus_daily_t5_raid_lineup
-TEXT: Different five-star Raid Bosses will appear each day of the event
+TEXT: Boss diversi appariranno nei raid di livello cinque per ciascun giorno dell’evento
 
 RESOURCE ID: bonus_deerling_spawn_notice
 TEXT: Deerling sta apparendo in zona
@@ -14967,7 +15016,7 @@ RESOURCE ID: bonus_go_tour_2025_photobomb
 TEXT: Fino a 12 incontri a sorpresa con Pokémon in costume in modalità foto GO
 
 RESOURCE ID: bonus_go_tour_2025_stickers
-TEXT: GO Tour: Unova–themed stickers available from Gifts and spinning PokéStops or Gyms
+TEXT: Adesivi a tema del Tour GO di Unima disponibili nei pacchi amicizia e facendo girare i dischi dei Pokéstop o delle Palestre
 
 RESOURCE ID: bonus_go_tour_6_special_trades
 TEXT: Cinque scambi speciali in più al giorno, per un totale di sei
@@ -14991,7 +15040,7 @@ RESOURCE ID: bonus_hoenn_spawns
 TEXT: Un gran numero di Pokémon originariamente scoperti nella regione di Hoenn sta apparendo in zona
 
 RESOURCE ID: bonus_hourly_pass_tasks
-TEXT: Bonus hourly Pass Tasks awarding additional Tour Points
+TEXT: Missioni biglietto orarie aggiuntive che ti premiano con ulteriori punti Tour
 
 RESOURCE ID: bonus_implicit_social_alodude
 TEXT: Se vengono catturati abbastanza Pokémon con l’aiuto di un singolo modulo esca, tutti gli Allenatori vicini al Pokéstop presso cui è stato usato otterranno il quadruplo dei PE da cattura per 30 minuti, anziché il triplo
@@ -15462,7 +15511,7 @@ RESOURCE ID: bonus_spawn_snorlax
 TEXT: Più Snorlax stanno apparendo in zona!
 
 RESOURCE ID: bonus_special_background_t5_raid
-TEXT: Pokémon caught from five-star raids may have a Special Background
+TEXT: I Pokémon catturati nei raid di livello cinque potrebbero avere uno Sfondo speciale
 
 RESOURCE ID: bonus_special_trade_double_cd
 TEXT: Uno scambio speciale in più può essere effettuato durante l’evento e fino a cinque ore dopo per un massimo di due al giorno.
@@ -15630,7 +15679,7 @@ RESOURCE ID: bonus_weekend_booster_desc_01
 TEXT: Effettua l’accesso ogni fine settimana fino al 16 giugno 2024 per ricevere una ricerca a tempo che dà come ricompensa bacche, Poké Ball e aromi aggiuntivi!
 
 RESOURCE ID: bonus_white_version_glaciate
-TEXT: Kyurem caught from White Kyurem raids will know the Charged Attack Glaciate
+TEXT: I Kyurem catturati nei raid contro Kyurem Bianco conosceranno l’attacco caricato Gelamondo
 
 RESOURCE ID: bonus_xl_candy_5x
 TEXT: Probabilità ancora maggiori di ricevere caramelle L da cattura
@@ -15745,6 +15794,24 @@ TEXT: Scegli questa opzione per incontrare Trapinch al completamento delle missi
 
 RESOURCE ID: branch_aspiring_dragons_rd_dec24_trapinch_title_key
 TEXT: Trapinch
+
+RESOURCE ID: branch_beloved_buddies_feb25_arlo_button_text_key
+TEXT: Indaga su Arlo
+
+RESOURCE ID: branch_beloved_buddies_feb25_arlo_description_key
+TEXT: Scegli quest’opzione per affrontare Arlo e il Team GO Rocket!
+
+RESOURCE ID: branch_beloved_buddies_feb25_arlo_title_key
+TEXT: Indaga su Arlo
+
+RESOURCE ID: branch_beloved_buddies_feb25_candela_button_text_key
+TEXT: Fai squadra con Candela
+
+RESOURCE ID: branch_beloved_buddies_feb25_candela_description_key
+TEXT: Scegli quest’opzione se vuoi scoprire come stringere legami più forti con Candela!
+
+RESOURCE ID: branch_beloved_buddies_feb25_candela_title_key
+TEXT: Fai squadra con Candela
 
 RESOURCE ID: branch_bidoof_1a_description
 TEXT: Se scegli questo Bidoof, incontrerai molti più Bidoof del solito. Inoltre, riceverai delle missioni di ricerca che richiederanno la cattura di Bidoof... tanti Bidoof.
@@ -19309,6 +19376,10 @@ TEXT: Sfida di collezione dell’evento “Pikachu all’avventura in Indonesia�
 RESOURCE ID: collection_aa2024_yogyakarta_day_02
 TEXT: Sfida di collezione dell’evento “Pikachu all’avventura in Indonesia”
 
+RESOURCE ID: collection_book_name
+TEXT: Collection
+Book
+
 RESOURCE ID: collection_challenge_ar_safari_bidoof
 TEXT: Sfida di scambi: Bidoof
 
@@ -19353,6 +19424,15 @@ TEXT: Sfida di collezione: Metropoli marittima
 
 RESOURCE ID: collection_gotour_2024_seaside_metropolis_day_preview
 TEXT: Sfida di collezione: Metropoli marittima
+
+RESOURCE ID: collection_paused
+TEXT: Stamp collection paused!
+
+RESOURCE ID: collection_paused_short
+TEXT: PAUSED
+
+RESOURCE ID: collection_reactivated
+TEXT: Stamp collection reactivated!
 
 RESOURCE ID: collection_twlantern2023
 TEXT: Festival delle Lanterne di Taiwan 2023
@@ -20507,6 +20587,9 @@ TEXT: Impossibile completare questo percorso. Riprova.
 RESOURCE ID: complete_transfer_in_ph_app
 TEXT: Apri Pokémon HOME per completare il trasferimento dei tuoi Pokémon.
 
+RESOURCE ID: completed_stamp_collection_header
+TEXT: COMPLETED STAMP RALLIES
+
 RESOURCE ID: confirm_use_effective
 TEXT: Lo strumento {0} è stato efficace.
 
@@ -21220,6 +21303,9 @@ TEXT: Attenzione: {0} fa parte di una squadra lotta. Se lo assegni a una Palestr
 RESOURCE ID: desc_zorua_o_clock
 TEXT: Allo scoccare di ogni ora, Zorua apparirà in gran numero!
 
+RESOURCE ID: details_banner
+TEXT: DETAILED INFO
+
 RESOURCE ID: details_link_key
 TEXT: Per ulteriori informazioni, visita il <a href="https://pokemongolive.com/news">sito</a>.
 
@@ -21236,7 +21322,7 @@ RESOURCE ID: details_link_key_gofestraid24
 TEXT: Per ulteriori informazioni, visita il <a href="https://pokemongolive.com/post/inbound-from-ultra-space-2024">sito</a>.
 
 RESOURCE ID: details_link_key_gotourhatch2025
-TEXT: For more details, visit the <a href=https://pokemongolive.com/post/road-to-unova-event/"">website</a>."
+TEXT: Per ulteriori informazioni, visita il <a href="https://pokemongolive.com/post/road-to-unova-event/">sito</a>.
 
 RESOURCE ID: details_link_key_gowa2024
 TEXT: Per ulteriori informazioni, visita il <a href="pokemongolive.com/gowildarea/global">sito</a>.
@@ -22432,16 +22518,16 @@ RESOURCE ID: event_datetime_range_key_gotour2024_masterwork
 TEXT: 
 
 RESOURCE ID: event_datetime_range_key_gotour2025
-TEXT: February 24, 10:00 a.m. –
-March 2, 6:00 p.m.
+TEXT: Dal 24 febbraio alle 10:00
+al 2 marzo alle 20:00
 
 RESOURCE ID: event_datetime_range_key_gotour2025_masterwork
-TEXT: February 24, 10:00 a.m. –
-March 2, 6:00 p.m.
+TEXT: Dal 24 febbraio alle 10:00
+al 2 marzo alle 18:00
 
 RESOURCE ID: event_datetime_range_key_gotourhatch2025
-TEXT: February at 10:00 a.m. –
-March 2 at 6:00 p.m.
+TEXT: Dal 24 febbraio alle 10:00
+al 2 marzo alle 20:00
 
 RESOURCE ID: event_datetime_range_key_gowa2024leadup
 TEXT: 18 - 22 novembre
@@ -22473,6 +22559,9 @@ al 22 dicembre alle 10:00
 RESOURCE ID: event_datetime_range_key_hisuidecidueye2024
 TEXT: 11 febbraio dalle 14:00
 alle 22:00
+
+RESOURCE ID: event_datetime_range_key_hoopaunboundraidday
+TEXT: 15 febbraio dalle 14:00 alle 17:00
 
 RESOURCE ID: event_datetime_range_key_janmonthly2025
 TEXT: Dal 1° gennaio alle 10:00
@@ -22557,6 +22646,10 @@ al 22 settembre alle 20:00
 
 RESOURCE ID: event_datetime_range_key_researchdaysept24
 TEXT: 22 settembre dalle 14:00 alle 17:00
+
+RESOURCE ID: event_datetime_range_key_scatteredwindsfeb25
+TEXT: Dal 18 febbraio alle 10:00
+ al 20 febbraio alle 20:00
 
 RESOURCE ID: event_datetime_range_key_sewaddlecd24
 TEXT: 5 ottobre dalle 14:00 alle 17:00
@@ -23324,13 +23417,13 @@ RESOURCE ID: event_npc10_victory__male_speaker
 TEXT: Che ti avevo detto? L’audacia premia sempre.
 
 RESOURCE ID: event_pass_additional_bonus_rank_divider_desc
-TEXT: You can continue earning rewards. Let’s see how far you can get!
+TEXT: Puoi continuare a ottenere ricompense. Vediamo fin dove puoi arrivare!
 
 RESOURCE ID: event_pass_additional_bonus_rank_divider_header
-TEXT: BONUS RANKS
+TEXT: LIVELLI AGGIUNTIVI
 
 RESOURCE ID: event_pass_additional_bonus_rank_divider_title
-TEXT: You’ve completed the pass!
+TEXT: Hai completato il biglietto!
 
 RESOURCE ID: event_pass_button
 TEXT: OTTIENI RICOMPENSE
@@ -23342,7 +23435,9 @@ RESOURCE ID: event_pass_event_ended
 TEXT: Evento concluso
 
 RESOURCE ID: event_pass_micro_action_modal_desc
-TEXT: Ottieni punti per salire di livello e sbloccare ricompense. Puoi ottenere punti completando missioni biglietto o gli obiettivi elencati qui sotto. Qualsiasi ricompensa otterrai completando missioni biglietto ti verrà assegnata non appena concluderai la missione.
+TEXT: Ottieni punti per salire di livello e sbloccare ricompense. Puoi ottenere punti completando missioni biglietto o gli obiettivi elencati qui sotto.
+
+Qualsiasi ricompensa otterrai completando missioni biglietto ti verrà assegnata non appena concluderai la missione.
 
 RESOURCE ID: event_pass_micro_action_modal_points_display
 TEXT: {0} punti
@@ -23361,6 +23456,9 @@ TEXT: DA OBIETTIVO DELUXE {0} al livello {1}
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text
 TEXT: Si ottiene al livello 100
 
+RESOURCE ID: event_pass_premium_reward_banner_bottom_text_02
+TEXT: Si ottiene al livello 40
+
 RESOURCE ID: event_pass_premium_reward_banner_middle_text
 TEXT: Portafortuna
 
@@ -23374,10 +23472,10 @@ RESOURCE ID: event_pass_reward_journal
 TEXT: Ricompensa riscattata per il livello {1} di: {0}.
 
 RESOURCE ID: event_pass_reward_preview_new_item_indicator
-TEXT: NEW ITEM!
+TEXT: NUOVO STRUMENTO!
 
 RESOURCE ID: event_pass_reward_preview_upsell_description
-TEXT: This reward is available in the Tour Pass Deluxe.
+TEXT: Questa ricompensa è disponibile nel biglietto Tour deluxe.
 
 RESOURCE ID: event_pass_rewards_journal
 TEXT: {0} ricompense riscattate.
@@ -23386,7 +23484,7 @@ RESOURCE ID: event_pass_rewards_to_claim
 TEXT: Ricompense da ottenere: {0}
 
 RESOURCE ID: event_pass_upgrade
-TEXT: Upgrade
+TEXT: Passa alla versione deluxe
 
 RESOURCE ID: event_pokemon_field_research
 TEXT: I Pokémon in primo piano appaiono più frequentemente nelle ricerche sul campo
@@ -23483,6 +23581,9 @@ TEXT: I bonus a sorpresa sono attivi!
 
 RESOURCE ID: event_surprise_bonuses_countdown
 TEXT: Presto saranno attivi dei bonus a sorpresa!
+
+RESOURCE ID: event_time_header
+TEXT: EVENT TIME
 
 RESOURCE ID: event_title_anime_week
 TEXT: Settimana dell’animazione
@@ -23719,25 +23820,25 @@ RESOURCE ID: expert_box_title
 TEXT: Pacco professionista
 
 RESOURCE ID: expire_notification_day_plural
-TEXT: You have {0} days left to use your <b>{1}</b>!
+TEXT: Hai a disposizione {0} giorni per usare: <b>{1}</b>!
 
 RESOURCE ID: expire_notification_day_singular
-TEXT: You have 1 day left to use your <b>{0}</b>!
+TEXT: Hai a disposizione un giorno per usare: <b>{0}</b>!
 
 RESOURCE ID: expire_notification_hour_plural_min_plural
-TEXT: You have {0} hours and {1} minutes left to use your <b>{2}</b>!
+TEXT: Hai a disposizione {0} ore e {1} minuti per usare: <b>{2}</b>!
 
 RESOURCE ID: expire_notification_hour_plural_min_singular
-TEXT: You have {0} hours and 1 minute left to use your <b>{1}</b>!
+TEXT: Hai a disposizione {0} ore e un minuto per usare: <b>{1}</b>!
 
 RESOURCE ID: expire_notification_hour_singular_min_plural
-TEXT: You have 1 hour and {0} minutes left to use your <b>{1}</b>!
+TEXT: Hai a disposizione un’ora e {0} minuti per usare: <b>{1}</b>!
 
 RESOURCE ID: expire_notification_min_plural
-TEXT: You have {0} minutes left to use your <b>{1}</b>!
+TEXT: Hai a disposizione {0} minuti per usare: <b>{1}</b>!
 
 RESOURCE ID: expire_notification_min_singular
-TEXT: You have 1 minute left to use your <b>{0}</b>!
+TEXT: Hai a disposizione un minuto per usare: <b>{0}</b>!
 
 RESOURCE ID: expires_in_clock
 TEXT: Scade tra {0}
@@ -24395,6 +24496,9 @@ TEXT: dynaspirito
 
 RESOURCE ID: filter_key_can_evolve_with_trading
 TEXT: evoluzionetramitescambio
+
+RESOURCE ID: filter_key_candy_km
+TEXT: kmcaramella
 
 RESOURCE ID: filter_key_candyxl
 TEXT: caramellaL
@@ -25834,6 +25938,9 @@ TEXT: I biglietti raid servono per partecipare, appunto, ai raid. Se non ne hai 
 
 Se desideri partecipare a più di un raid al giorno, puoi acquistare dei biglietti lotta premium nel negozio.
 
+RESOURCE ID: free_stamp_rally_completed_description
+TEXT: Congratulations! You completed the Stamp Rally! If you'd like, you can continue to collect more stamps in the rally.
+
 RESOURCE ID: free_ticket_bag_full_error
 TEXT: La tua Borsa è piena. Fai spazio se desideri avere un biglietto raid.
 
@@ -25841,7 +25948,7 @@ RESOURCE ID: freeze_shock_adventure_effects_mapview_dialog
 TEXT: Elettrogelo paralizza i Pokémon, lasciandoli in uno stato di paralisi durante gli incontri. I Pokémon paralizzati non si muoveranno sullo schermo né respingeranno le Poké Ball lanciate.
 
 RESOURCE ID: freeze_shock_move_content
-TEXT: Lancia una sfera di ghiaccio ricoperta di elettricità per {0} minuti, paralizzando i Pokémon durante gli incontri.
+TEXT: Lancia una sfera di ghiaccio ricoperta di elettricità per {0} minuti, paralizzando i Pokémon durante gli incontri. Facilita la cattura, anche quando si usano dispositivi accessori connessi.
 
 RESOURCE ID: french
 TEXT: Français
@@ -26093,6 +26200,12 @@ TEXT: Feste innevate (3/4)
 RESOURCE ID: frosty_festivities_tr_4
 TEXT: Feste innevate (4/4)
 
+RESOURCE ID: ftue_pokemon_alert_message
+TEXT: Notifica Pokémon ti avverte quando un Pokémon selvatico selezionato è nelle vicinanze attraverso notifiche di gioco e push. Le notifiche push sono meno frequenti.
+
+RESOURCE ID: ftue_pokemon_alert_title
+TEXT: Notifica Pokémon
+
 RESOURCE ID: full_fragments_collected
 TEXT: Hai raccolto un numero sufficiente di componenti misteriosi per assemblare un radar Rocket!
 
@@ -26154,13 +26267,13 @@ RESOURCE ID: fusion_raid_escape_toast
 TEXT: Pare che {0} sia scappato abbandonando {1}!
 
 RESOURCE ID: fusion_resource_black_kyurem_desc
-TEXT: Energia fusione volt
+TEXT: Used to fuse Kyurem and Zekrom into Black Kyurem. It can be found when defeating Black Kyurem in Raids.
 
 RESOURCE ID: fusion_resource_black_kyurem_name
 TEXT: Energia fusione volt
 
 RESOURCE ID: fusion_resource_black_kyurem_name_plural
-TEXT: Volt Fusion Energy
+TEXT: Energia fusione volt
 
 RESOURCE ID: fusion_resource_dawnwings_necrozma_desc
 TEXT: 
@@ -26181,13 +26294,13 @@ RESOURCE ID: fusion_resource_duskmane_necrozma_name_plural
 TEXT: Energia fusione solare
 
 RESOURCE ID: fusion_resource_white_kyurem_desc
-TEXT: Energia fusione piro
+TEXT: Used to fuse Kyurem and Reshiram into White Kyurem. It can be found when defeating White Kyurem in Raids.
 
 RESOURCE ID: fusion_resource_white_kyurem_name
 TEXT: Energia fusione piro
 
 RESOURCE ID: fusion_resource_white_kyurem_name_plural
-TEXT: Blaze Fusion Energy
+TEXT: Energia fusione piro
 
 RESOURCE ID: fusion_unfuse_button
 TEXT: Separa
@@ -27279,6 +27392,9 @@ TEXT: Accesso giruovago di febbraio
 RESOURCE ID: general1.ticket.5_gmaxlapras24_title
 TEXT: Biglietto per la giornata Lotte Dynamax dedicata a Lapras Gigamax
 
+RESOURCE ID: general1.ticket.5_hoopaunboundraidday_title
+TEXT: Biglietto per il giorno di raid dedicato a Hoopa Libero
+
 RESOURCE ID: general1.ticket.5_janmonthly2025_description
 TEXT: Un biglietto per l’Accesso giruovago di gennaio. Questo biglietto garantisce i seguenti bonus dal 1° gennaio alle 10:00 al 31 gennaio 2025 alle 20:00 ora locale.
 
@@ -27332,16 +27448,16 @@ RESOURCE ID: general1.ticket._gotourhatch2024_title
 TEXT: Destinazione Sinnoh: schiusa
 
 RESOURCE ID: general1.ticket._gotourhatch2025
-TEXT: Road to Unova: Hatch
+TEXT: Destinazione Unima: schiusa
 
 RESOURCE ID: general1.ticket._gotourmasterwork2025
-TEXT: Masterwork Research: A Dazzling Aria
+TEXT: Ricerca magistrale “Un canto sfavillante”
 
 RESOURCE ID: general1.ticket._gotourraid2024_title
 TEXT: Destinazione Sinnoh: raid
 
 RESOURCE ID: general1.ticket._gotourraid2025
-TEXT: Road to Unova: Raid
+TEXT: Destinazione Unima: raid
 
 RESOURCE ID: general1.ticket._gowa2024gsbea_title
 TEXT: Biglietto accesso extra (Safari GO Ball)
@@ -27838,6 +27954,9 @@ TEXT: Biglietto per la ricerca a tempo premium della settimana della moda
 RESOURCE ID: general2.ticket.5_gmaxkingler25_title
 TEXT: Biglietto per la giornata Lotte Dynamax dedicata a Kingler Gigamax
 
+RESOURCE ID: general2.ticket.8_scattered_winds_feb_2025_title
+TEXT: Biglietto per la ricerca a tempo premium dell’evento “Scagliato ai quattro venti”
+
 RESOURCE ID: general2.ticket._megagalladeraidday_title
 TEXT: Biglietto per il giorno di raid dedicato a MegaGallade
 
@@ -28157,6 +28276,9 @@ TEXT: Doppio della polvere di stelle per aver aperto pacchi amicizia
 
 RESOURCE ID: gift_open_more_daily
 TEXT: Apri più pacchi amicizia al giorno
+
+RESOURCE ID: gift_open_more_daily_10
+TEXT: Apri dieci pacchi amicizia aggiuntivi al giorno
 
 RESOURCE ID: gift_open_one_and_half
 TEXT: Apri il 50% di pacchi amicizia in più
@@ -29461,212 +29583,404 @@ TEXT: Ti consiglio di concentrarti su uno dei due Pokémon leggendari coinvolti 
 RESOURCE ID: go_tour_2024_pre_sr_dialog_branch_04
 TEXT: Vuoi indagare su Dialga, il Pokémon Tempo, o Palkia, il Pokémon Spazio?
 
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_team_00
+TEXT: Greetings. Lapras and I were just finishing our latest analysis.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_team_01
+TEXT: A well-balanced approach has proven productive not only in battle, but in other areas as well.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_team_02
+TEXT: We have you to thank, %PLAYERNAME%. Your assistance has allowed us to achieve another breakthrough.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_tgr_00
+TEXT: Ah, %PLAYERNAME%. You should know that Cliff has declared his intention to become “the most balanced Trainer ever.”
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_tgr_01
+TEXT: I can’t say I’m enthused about an enemy improving his skills, but at least you kept him in check when his reckless training methods could have caused trouble.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_tgr_02
+TEXT: I genuinely appreciate your support in that matter.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_candela_team_00
+TEXT: Yo, %PLAYERNAME%! I just wrapped up an intense solo mission.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_candela_team_01
+TEXT: I’m still warming up to going solo, but I learn a lot from it, too. Plus, it makes me appreciate being with my team even more.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_candela_team_02
+TEXT: Thanks for everything. Here’s to always being ready to help each other out, whether we’re together or apart!
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_candela_tgr_00
+TEXT: Hey, what’d you say to Arlo earlier? I’ve been hearing he’s working closely with the Grunts—like, cooperatively! That doesn’t sound like him at all.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_candela_tgr_01
+TEXT: It’s a shame they’re probably getting up to no good. Team GO Rocket are the champs of misplaced passion, huh?
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_candela_tgr_02
+TEXT: Anyhow, thanks for handling him. Whatever they try to pull in the future, we’ll stop them together!
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_spark_team_00
+TEXT: Heya, %PLAYERNAME%! You keeping frosty?
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_spark_team_01
+TEXT: Wild to think how this all kicked off with a beach retreat, huh? I guess things are always going a little haywire around you though, so I can’t say I’m surprised!
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_spark_team_02
+TEXT: You’re totally invited to my next hang. Anyways, thanks for always being down for an adventure!
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_spark_tgr_00
+TEXT: Hey, thanks for keeping an eye on Sierra earlier, %PLAYERNAME%.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_spark_tgr_01
+TEXT: She usually gives everybody a real cold shoulder, so I’m kinda surprised she went easy on you! ...A little easy.
+
+RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_spark_tgr_02
+TEXT: She’s still super mean, and, y’know, evil, but hey—we’ll know just how to stop her next time she stirs up trouble!
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_00_00
+TEXT: L’abbiamo trovato, alla fine! Kyurem, il Pokémon Confine, è quasi sicuramente la causa delle anomalie che si stanno verificando.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_00_01
+TEXT: A questo Pokémon leggendario mancano parti del corpo. Forse è per questo che ha bisogno di stabilizzarsi congelandosi!
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_00_02
+TEXT: I suoi geni sono simili a quelli di altri due Pokémon leggendari, Reshiram e Zekrom... e i miei dati suggeriscono che li sta cercando proprio in questo momento.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_00_03
+TEXT: Teniamo d’occhio la situazione, %PLAYERNAME%. Le cose potrebbero andare fuori controllo se questi Pokémon così potenti si incontrassero.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_01_00
+TEXT: Quindi Kyurem può fondersi sia con il Pokémon Bianco Verità, Reshiram, che con il Pokémon Nero Ideale, Zekrom.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_01_01
+TEXT: Nel farlo assorbe l’altro Pokémon per diventare, rispettivamente, Kyurem Bianco o Kyurem Nero.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_01_02
+TEXT: Ciò detto, non sappiamo quale dei due sceglierà Kyurem. Possiamo solo concentrarci su di uno di loro alla volta.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_01_03
+TEXT: Ciò significa che se individuiamo prima Reshiram o Zekrom, daremo a Kyurem la possibilità di trovare l’altro.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_01_04
+TEXT: Quindi preferisci affrontare Reshiram e Kyurem Nero, o Zekrom e Kyurem Bianco?
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_02_black_00
+TEXT: Ho sentito che Reshiram è in grado di smuovere l’atmosfera con il calore quando la sua coda brucia. E stando ai miti, Reshiram inceneriva i paesi i cui abitanti erano accecati dalla cupidigia.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_02_black_01
+TEXT: Roba forte. E si suppone che voglia aiutare chiunque desideri costruire un mondo di verità.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_02_black_02
+TEXT: Cos’è per te la “verità”, %PLAYERNAME%?
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_02_black_03
+TEXT: Forse sarebbe una buona idea trovare una risposta precisa prima di partire alla ricerca di Reshiram. Non vorrei che ti arrostisse!
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_02_white_00
+TEXT: La coda di Zekrom contiene un enorme generatore di elettricità. Quando l’interno della sua coda inizia a girare come una turbina, emette lampi e saette che squarciano l’aria tutto intorno.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_02_white_01
+TEXT: In passato, Zekrom radeva al suolo interi paesi con fulmini e saette quando i loro abitanti perdevano il senso della giustizia.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_02_white_02
+TEXT: Roba forte. E si suppone anche che aiuti chiunque desideri costruire un mondo ideale. Che aspetto avrebbe il tuo mondo ideale, %PLAYERNAME%?
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_02_white_03
+TEXT: Il mio avrebbe un archivio completo di Pokémon che elenca tutti i loro habitat e i luoghi in cui sono diffusi nel mondo! Trovati un sogno del genere, così Zekrom non ti darà la scossa!
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_03_00
+TEXT: Si pensa che un tempo Reshiram e Zekrom fossero un unico Pokémon.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_03_01
+TEXT: E che questo Pokémon si sia diviso durante una sorta di conflitto nell’antichità.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_03_02
+TEXT: Non ho trovato granché sulle origini di Kyurem, comunque... Solo delle dicerie di altri ricercatori.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_03_03
+TEXT: Mi piacciono i misteri! In ogni caso, tutti e tre questi formidabili Pokémon sembrano avere profondi legami con Unima.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_03_04
+TEXT: Magari potremmo comprenderli meglio studiando altri Pokémon scoperti per la prima volta in quella regione.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_04_oshawott_00
+TEXT: Un sacco di Allenatori di Unima scelgono Oshawott come loro primo compagno d’avventura.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_04_oshawott_01
+TEXT: Oshawott lotta usando la mollusciabola che ha sul ventre come una piccola spada, parando i colpi per poi contrattaccare rapidamente.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_04_oshawott_02
+TEXT: Continua ad affinare le proprie tecniche evolvendosi. Sembra parecchio zelante!
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_04_oshawott_03
+TEXT: C’è sempre qualcosa di nuovo che possiamo apprendere dai Pokémon, anche quando abbiamo già centinaia di lotte alle spalle. Prenditi cura di Oshawott e scopri cosa può insegnarti!
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_04_snivy_00
+TEXT: Un sacco di Allenatori di Unima scelgono Snivy come loro primo compagno d’avventura.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_04_snivy_01
+TEXT: Vedi che braccia corte ha? È piuttosto bravo a usare le sue liane per compensare!
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_04_snivy_02
+TEXT: È dotato di intelligenza e sangue freddo, e quando riceve luce solare in abbondanza i suoi movimenti si fanno agilissimi.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_04_snivy_03
+TEXT: C’è sempre qualcosa di nuovo che possiamo apprendere dai Pokémon, anche quando abbiamo già centinaia di lotte alle spalle. Prenditi cura di Snivy e scopri cosa può insegnarti!
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_04_tepig_00
+TEXT: Un sacco di Allenatori di Unima scelgono Tepig come loro primo compagno d’avventura.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_04_tepig_01
+TEXT: Non sottovalutare la sua velocità! Se non sorvegli il tuo pranzo con attenzione, Tepig se lo mangerà in un batter d’occhio!
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_04_tepig_02
+TEXT: È un insaziabile ghiottone. Usa il suo sensibilissimo naso per scovare il cibo, che mangia dopo averlo abbrustolito a puntino.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_04_tepig_03
+TEXT: C’è sempre qualcosa di nuovo che possiamo apprendere dai Pokémon, anche quando abbiamo già centinaia di lotte alle spalle. Prenditi cura di Tepig e scopri cosa può insegnarti!
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_05_black_00
+TEXT: Ho una buona notizia: abbiamo trovato Reshiram! Peccato che ora l’attenzione di Kyurem si sia spostata su Zekrom. Preparati ad affrontare ciò che ci aspetta!
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_05_black_01
+TEXT: Una volta che Zekrom e Kyurem si saranno calmati, potremo usare Cuneo DNA per aiutarli a fondersi in Kyurem Nero. Ma non preoccuparti di questa roba tecnica!
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_05_black_02
+TEXT: A quanto ho capito, Kyurem brama essere completo, e come Kyurem Nero, lotterà per proteggere un mondo ideale che esisterà in futuro per gli esseri umani e i Pokémon.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_05_black_03
+TEXT: Un Pokémon così determinato merita un’occasione di battersi per quel futuro. Buona fortuna, %PLAYERNAME%.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_05_white_00
+TEXT: Ho una buona notizia: abbiamo trovato Zekrom! Peccato che ora l’attenzione di Kyurem si sia spostata su Reshiram. Preparati ad affrontare ciò che ci aspetta!
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_05_white_01
+TEXT: Una volta che Reshiram e Kyurem si saranno calmati, potremo usare Cuneo DNA per aiutarli a fondersi in Kyurem Bianco. Ma non preoccuparti di questa roba tecnica!
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_05_white_02
+TEXT: A quanto ho capito, Kyurem brama essere completo, e come Kyurem Bianco, si impegnerà a proteggere un mondo di verità di cui ha profetizzato l’arrivo per gli esseri umani e i Pokémon.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_05_white_03
+TEXT: Un Pokémon così determinato merita un’occasione di battersi per quel futuro. Buona fortuna, %PLAYERNAME%.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_06_00
+TEXT: È incredibile... Avevo letto dell’Endofusione, ma non avrei mai neppure sognato di potervi assistere di persona!
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_06_01
+TEXT: E tu? Avresti mai pensato di poter vedere qualcosa di tanto straordinario?
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_06_02
+TEXT: La gente nutre così tanta passione per i propri sogni! Un tempo mi chiedevo se le nostre differenze fossero inconciliabili, ma questo mi ha dimostrato che tutti ci completiamo a vicenda quando ci uniamo.
+
+RESOURCE ID: go_tour_2025_global_sr_dialog_06_03
+TEXT: Non so se riuscirò mai a vedere il futuro che Kyurem sta aspettando, ma non vedo l’ora di lavorare con te per realizzarlo!
+
 RESOURCE ID: go_tour_2025_irl_sr_dialog_00_00
-TEXT: Good, you’re here! I have news about Kyurem, the Dragon- and Ice-type Legendary Pokémon!
+TEXT: Eccoti qui, meno male! Ho delle novità su Kyurem, il Pokémon leggendario di tipo Drago e Ghiaccio!
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_00_01
-TEXT: Supposedly, it uses its powers over ice to freeze its body to stabilize its cellular structure.
+TEXT: Sembra che abbia finito con il congelarsi producendo un soffio gelido al fine di stabilizzare la sua struttura cellulare.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_00_02
-TEXT: Just thinking about that sends a chill down my spine!
+TEXT: Solo a pensarci mi vengono i brividi!
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_00_03
-TEXT: And on that note, let’s do some warm-ups. Gotta stay limber for a big day of exploring, right?
+TEXT: Quindi perché non facciamo un po’ di riscaldamento? Meglio essere sciolti per un gran giorno di esplorazione, no?
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_01_00
-TEXT: Rumor has it that Kyurem dwells in the Unova region.
+TEXT: Voci dicono che Kyurem viva nella regione di Unima.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_01_01
-TEXT: Unova is an extraordinary place! It has bustling modern metropolises, but there are also tranquil forests whose inhabitants live in harmony with nature.
+TEXT: Unima è un posto straordinario, con metropoli moderne e piene di vita, ma ospita anche foreste tranquille i cui abitanti vivono in armonia con la natura.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_01_02
-TEXT: And since we’re going to unravel a Unova mystery, it’s only fitting that we get help from Pokémon first discovered there.
+TEXT: E per risolvere un mistero di Unima, mi sembra giusto affidarci a Pokémon scoperti per la prima volta proprio in quella regione.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_01_03
-TEXT: Which of these first partner Pokémon would you like to join you on this adventure?
+TEXT: Quale tra questi primi compagni d’avventura sceglieresti per accompagnarti?
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_oshawott_00
-TEXT: Here’s a fun fact about Oshawott: the shell it has is called a “scalchop.”
+TEXT: Ecco una piccola curiosità su Oshawott: la conchiglia che ha sul ventre si chiama “mollusciabola”.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_oshawott_01
-TEXT: They use their scalchop not only as a blade in battle, but also as a tool to break open hard Berries.
+TEXT: Non la usa solo come spada, durante la lotta, ma anche per tagliare a metà le bacche.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_oshawott_02
-TEXT: They’ll even sharpen them on riverbed stones, something apparently learned by mimicking humans using whetstones.
+TEXT: Inoltre, si dice che abbia imparato ad affilarla con le pietre del greto dei fiumi osservando gli esseri umani usare una cote.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_oshawott_03
-TEXT: In other words, Oshawott need to take good care of their scalchops in order to thrive.
+TEXT: In sostanza, Oshawott ha bisogno di prendersi molta cura della sua mollusciabola per stare bene.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_oshawott_04
-TEXT: I’d bet Kyurem has some particular needs of its own. While you train your new partner, I’ll study Kyurem to see what they might be.
+TEXT: Scommetto che anche Kyurem ha delle necessità particolari. Mentre tu alleni il tuo nuovo compagno, io studierò Kyurem per capire quali siano.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_snivy_00
-TEXT: Snivy prefers to avoid groups, so it’s a great match for Trainers who tend to be more independent.
+TEXT: Snivy non ama stare in gruppo, quindi è perfetto per gli Allenatori più indipendenti.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_snivy_01
-TEXT: The leaf on its tail generates energy when exposed to sunlight. When it’s not feeling well, the tail will start to droop.
+TEXT: Assorbe i raggi solari tramite la foglia sulla coda, generando energia. Quando non sta bene, la sua coda si affloscia.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_snivy_02
-TEXT: On the other hand—or vine—Snivy that get enough light become swift and dexterous!
+TEXT: Mentre gli Snivy che ricevono abbastanza luce diventano abili e veloci!
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_snivy_03
-TEXT: In other words, Snivy need alone time and ample sunlight to thrive.
+TEXT: In altre parole, Snivy ha bisogno di tempo per sé e tanta luce del sole per stare bene.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_snivy_04
-TEXT: I’d bet Kyurem has some particular needs of its own. While you train your new partner, I’ll study Kyurem to see what they might be.
+TEXT: Scommetto che anche Kyurem ha delle necessità particolari. Mentre tu alleni il tuo nuovo compagno, io studierò Kyurem per capire quali siano.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_tepig_00
-TEXT: Make sure you have lots of Berries on hand if you’re going adventuring with Tepig!
+TEXT: Assicurati di avere un sacco di bacche sotto mano se ti avventuri con Tepig!
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_tepig_01
-TEXT: They use their excellent sense of smell to find food, and then they cook it up nice and crispy before they eat it!
+TEXT: Questo Pokémon usa il suo sensibilissimo naso per scovare il cibo, che mangia dopo averlo abbrustolito a puntino!
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_tepig_02
-TEXT: It can launch fireballs from its nose, but it don’t expect more than pitch-black smoke if it gets sick.
+TEXT: Lancia palle di fuoco dal naso, ma se prende il raffreddore, al posto del fuoco emetterà un fumo nerissimo.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_tepig_03
-TEXT: In any case, Tepig need snacks aplenty to thrive.
+TEXT: In ogni caso, Tepig ha bisogno di spuntini a bizzeffe per stare bene.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_02_tepig_04
-TEXT: I’d bet Kyurem has some particular needs of its own. While you train your new partner, I’ll study Kyurem to see what they might be.
+TEXT: Scommetto che anche Kyurem ha delle necessità particolari. Mentre tu alleni il tuo nuovo compagno, io studierò Kyurem per capire quali siano.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_03_00
-TEXT: Kyurem seems to be looking for something...
+TEXT: Ciao, %PLAYERNAME%. A quanto emerge dalle mie ricerche, pare che Kyurem stia cercando qualcosa.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_03_01
-TEXT: Hi there, %PLAYERNAME%. So, given what I can glean from my research, Kyurem seems to be looking for something.
+TEXT: Stando a quanto ho letto, attende lʼeroe che gli restituirà le sue vere sembianze con gli ideali o la verità.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_03_02
-TEXT: From what I’ve read, it’s waiting for a hero to fill in the missing parts of its body with either truth or ideals.
+TEXT: Entusiasmante, non trovi? Tu hai tutte le carte in regola per essere definito eroe, ma non ho idea di cosa significhi il resto.
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_03_03
-TEXT: Heady stuff, eh? While you’re certainly a hero in my book, I don’t know what to do with the rest of it.
+TEXT: Per ora, il massimo che possiamo fare è cercare di tenerlo impegnato. Affronta Kyurem con tutte le tue capacità e vedrai che ce la farai!
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_04_oshawott_00
-TEXT: Now that was an inspiring battle! Just goes to show that when people and Pokémon work together, we can overcome any differences and achieve our biggest dreams!
+TEXT: È stata una battaglia strepitosa! A dimostrazione che, quando umani e Pokémon lavorano assieme, possono superare le differenze tra loro e realizzare i più grandi sogni!
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_04_oshawott_01
-TEXT: Oshawott looks like it learned a lot from you, too. In fact, I think it’s ready to evolve!
+TEXT: Pare che Oshawott abbia imparato tanto da te. Credo che sia addirittura pronto a evolversi!
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_04_oshawott_02
-TEXT: And while this probably won’t be the last we see of Kyurem, you averted a real disaster by defeating it. For now, enjoy your adventures, %PLAYERNAME%!
+TEXT: E anche se questa probabilmente non sarà l’ultima volta che vedremo Kyurem, hai scongiurato un vero disastro sconfiggendolo. Per ora goditi le tue avventure, %PLAYERNAME%!
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_04_oshawott_03
-TEXT: Until next time—let’s GO!
+TEXT: Alla prossima, pronti, partenza... GO!
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_04_snivy_00
-TEXT: For now, the best we can do is try and keep Kyurem busy. Battle it with everything you’ve got, and I’m sure you’ll succeed!
+TEXT: È stata una battaglia strepitosa! A dimostrazione che, quando umani e Pokémon lavorano assieme, possono superare le differenze tra loro e realizzare i più grandi sogni!
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_04_snivy_01
-TEXT: Now that was an inspiring battle! Just goes to show that when people and Pokémon work together, we can overcome any differences and achieve our biggest dreams!
+TEXT: Pare che Snivy abbia imparato tanto da te. Credo che sia addirittura pronto a evolversi!
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_04_snivy_02
-TEXT: Snivy looks like it learned a lot from you, too. In fact, I think it’s ready to evolve!
+TEXT: E anche se questa probabilmente non sarà l’ultima volta che vedremo Kyurem, hai scongiurato un vero disastro sconfiggendolo. Per ora goditi le tue avventure, %PLAYERNAME%!
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_04_snivy_03
-TEXT: Until next time—let’s GO!
+TEXT: Alla prossima, pronti, partenza... GO!
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_04_tepig_00
-TEXT: Now that was an inspiring battle! Just goes to show that when people and Pokémon work together, we can overcome any differences and achieve our biggest dreams!
+TEXT: È stata una battaglia strepitosa! A dimostrazione che, quando umani e Pokémon lavorano assieme, possono superare le differenze tra loro e realizzare i più grandi sogni!
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_04_tepig_01
-TEXT: Tepig looks like it learned a lot from you, too. In fact, I think it’s ready to evolve!
+TEXT: Pare che Tepig abbia imparato tanto da te. Credo che sia addirittura pronto a evolversi!
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_04_tepig_02
-TEXT: And while this probably won’t be the last we see of Kyurem, you averted a real disaster by defeating it. For now, enjoy your adventures, %PLAYERNAME%!
+TEXT: E anche se questa probabilmente non sarà l’ultima volta che vedremo Kyurem, hai scongiurato un vero disastro sconfiggendolo. Per ora goditi le tue avventure, %PLAYERNAME%!
 
 RESOURCE ID: go_tour_2025_irl_sr_dialog_04_tepig_03
-TEXT: Until next time—let’s GO!
+TEXT: Alla prossima, pronti, partenza... GO!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_00
-TEXT: Hey there, %PLAYERNAME%! Funny you should pop by—I was just reflecting on our incredible journey together!
+TEXT: Ehilà, %PLAYERNAME%! Sbuchi proprio a fagiolo, che buffo... Stavo giusto ripensando al nostro incredibile viaggio insieme!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_01
-TEXT: Encountering gigantic Pokémon, unfurling incredible mysteries, foiling Team GO Rocket countless times... We’ve faced extraordinary challenges together, haven’t we?
+TEXT: Abbiamo incontrato Pokémon colossali, svelato incredibili misteri, rotto le uova nel paniere al Team GO Rocket tantissime volte... Insieme abbiamo affrontato delle sfide straordinarie, eh?
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_02
-TEXT: Our research has introduced us to Pokémon from all over the world, forged wonderful friendships, and led to some amazing discoveries.
+TEXT: La nostra ricerca ci ha fatto conoscere Pokémon da tutto il mondo, ha forgiato delle meravigliose amicizie e ci ha condotti a delle scoperte fantastiche.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_03
-TEXT: And speaking of discoveries, I’ve noticed some unusual sounds lately.
+TEXT: E a proposito di scoperte, di recente mi è capitato di udire dei suoni insoliti.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_00_04
-TEXT: I’m going to investigate, and while I do, I need you to continue your excellent work in the field.
+TEXT: Vado subito a indagare. Tu intanto continua pure il tuo ottimo lavoro sul campo.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_01_00
-TEXT: Good news, %PLAYERNAME%! I’ve made a breakthrough on those acoustic mysteries I was looking into.
+TEXT: Grandi notizie, %PLAYERNAME%! Ho scoperto la causa di quegli enigmi acustici su cui stavo indagando.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_01_01
-TEXT: And as I suspected, they’re not just any sound wave, they’re the unique melodies of the Mythical Pokémon Meloetta!
+TEXT: Come sospettavo, non sono semplici onde sonore, sono le particolari melodie del Pokémon misterioso Meloetta!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_01_02
-TEXT: Meloetta uses song to influence the emotions of those who hear it. And on that note, I’d like you to try and spot any unusual behavior in the local Pokémon.
+TEXT: Meloetta usa i suoi vocalizzi per controllare le emozioni di chi li ascolta. A tal proposito, vorrei che studiassi eventuali comportamenti anomali nei Pokémon qui intorno.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_01_03
-TEXT: It’s not every day we get to study a Mythical Pokémon, so let’s make the most of this opportunity!
+TEXT: Non capita certo tutti i giorni l’occasione di studiare un Pokémon misterioso: cerchiamo di sfruttare al meglio quest’opportunità!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_02_00
-TEXT: Hello again, %PLAYERNAME%! We may not have found Meloetta yet, but I can definitely still hear it.
+TEXT: Ci rivediamo, %PLAYERNAME%! Non abbiamo ancora trovato Meloetta, ma io riesco a sentirne ancora il canto.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_02_01
-TEXT: So our musical friend can’t be too far off—we just might have to change our usual pitch.
+TEXT: Il nostro amico canterino non dev’essere troppo lontano... forse dobbiamo solo trovare la nota giusta.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_02_02
-TEXT: Why don’t you go out and do a little singing and dancing to see if it affects people and Pokémon nearby?
+TEXT: Perché non esci e non ti eserciti un po’ a ballare e cantare per vedere che effetto fa alla gente e ai Pokémon nei paraggi?
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_02_03
-TEXT: Who knows, that might be the "key" to success! Heh heh... Music joke. I’ve got a million!
+TEXT: Chissà, magari potrebbe essere il preludio al nostro successo! Eh eh eh... Giochi di parole con la musica, posso fartene a bizzeffe!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_03_00
-TEXT: If it isn’t our intrepid enter-Trainer! Say, did you know that Meloetta’s melodies have inspired many famous songs?
+TEXT: Ecco, l’artista è di ritorno! Di’, lo sapevi che le melodie di Meloetta hanno ispirato molte canzoni famose?
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_03_01
-TEXT: It’s just fascinating—Meloetta shows us how music helps us to forge special bonds with one another.
+TEXT: Meloetta ci dimostra come la musica aiuti a forgiare legami speciali con gli altri: non è meraviglioso?
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_03_02
-TEXT: It’s not unlike your amazing ability to connect with other people and Pokémon. Every new Pokémon you catch or Trainer you meet is a new potential friend!
+TEXT: Anche tu possiedi l’incredibile capacità di entrare in connessione con persone e Pokémon. Ogni nuovo Pokémon che catturi o Allenatore che incontri è un potenziale nuovo amico!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_03_03
-TEXT: And on that uplifting note, get out there and see what new friendships await, %PLAYERNAME%.
+TEXT: E su questa nota positiva, esci e scopri quali nuove amicizie ti attendono, %PLAYERNAME%.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_04_00
-TEXT: %PLAYERNAME%! I’ve dug up some useful information on Meloetta. Did you know that it was first discovered in the Unova region?
+TEXT: %PLAYERNAME%! Ho scovato delle informazioni utili su Meloetta. Sapevi che è stato scoperto per la prima volta nella regione di Unima?
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_04_01
-TEXT: That might not seem critical, but we have to take advantage of every scrap of information we can to help us make sense of Meloetta’s behavior.
+TEXT: Forse non è rilevante, ma dobbiamo sfruttare qualsiasi frammento di informazione che abbiamo per capire meglio il comportamento di Meloetta.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_04_02
-TEXT: Keep up your fieldwork, if you would! Watch for Pokémon experiencing strong emotions, check out some new places, and maybe try to forge some new connections.
+TEXT: Continua con il tuo lavoro sul campo! Cerca dei Pokémon che provano forti emozioni, controlla qualche posto nuovo e inizia a forgiare dei nuovi legami.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_04_03
-TEXT: Let’s keep this research rhythm going!
+TEXT: Non perdiamo il ritmo!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_05_00
-TEXT: This is the moment we’ve been waiting for, %PLAYERNAME%!
+TEXT: È il momento che stavamo aspettando, %PLAYERNAME%!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_05_01
-TEXT: Your dedicated work has helped me to pinpoint Meloetta’s location at last!
+TEXT: La tua dedizione mi ha aiutato a localizzare Meloetta!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_05_02
-TEXT: This could be your chance to befriend an extraordinary Pokémon.
+TEXT: Questa potrebbe essere la tua occasione di fare amicizia con un Pokémon fuori dal comune.
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_05_03
-TEXT: Head out there and show Meloetta the same kindness and dedication you’ve shown all your Pokémon friends!
+TEXT: Mostra a Meloetta la stessa gentilezza e dedizione che hai riservato a tutti i tuoi amici Pokémon!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_06_00
-TEXT: I knew you’d “measure” up, %PLAYERNAME%! And—whoa!
+TEXT: Ma questa è musica per le mie orecchie, %PLAYERNAME%! E... wow!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_06_01
-TEXT: What a striking appearance this Meloetta has! My research notes have nothing about this distinctive coloring. It’s truly incredible!
+TEXT: Che aspetto impressionante ha questo Meloetta! I miei appunti non menzionano nulla su questa particolare colorazione: è davvero incredibile!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_06_02
-TEXT: I’ve been watching your journey since you took your first steps as a Trainer. Seeing how far you’ve come makes me so proud to call you my research partner—and more importantly, my friend!
+TEXT: Osservo i tuoi progressi da quando hai cominciato il tuo viaggio nel mondo dei Pokémon. Hai fatto tanta strada da allora, e ora sono molto orgoglioso di averti come partner di ricerca... E, cosa ancora più importante, di essere tuo amico!
 
 RESOURCE ID: go_tour_2025_masterwork_sr_dialog_06_03
-TEXT: I know you’ll keep that Meloetta singing proudly, %PLAYERNAME%. You never fall flat!
+TEXT: So che con te Meloetta non smetterà mai di cantare, %PLAYERNAME%. Porti l’armonia ovunque!
 
 RESOURCE ID: go_tour_2025_today_view_extended_hours
-TEXT: GO Tour: Unova – Extended Bonuses
+TEXT: Bonus a durata prolungata del Tour GO di Unima
 
 RESOURCE ID: go_tour_ep_bonus_title
 TEXT: Bonus del biglietto Tour
@@ -29681,7 +29995,7 @@ RESOURCE ID: go_tour_ep_bonus_title_02
 TEXT: Bonus del biglietto Tour (livello 3)
 
 RESOURCE ID: go_tour_event_pass_availability
-TEXT: The event Tour Pass is available now
+TEXT: Il biglietto Tour dell’evento è ora disponibile
 
 RESOURCE ID: go_tour_global_sr_dialog_00_00
 TEXT: %PLAYERNAME%! Non sai che sollievo sia rivederti.
@@ -30170,6 +30484,9 @@ TEXT: La tua esperienza al parco è iniziata!
 
 RESOURCE ID: go_tour_sinnoh_park_title
 TEXT: Esperienza al parco del Tour GO di Sinnoh
+
+RESOURCE ID: go_tour_unova_starter_branch_tr_dialog_00_00
+TEXT: Ciao, %PLAYERNAME%! Quale tra questi Pokémon vorresti si unisse a te nella tua avventura?
 
 RESOURCE ID: go_wild_2024_global_sr_electric_00_01
 TEXT: Hai deciso di dirigere la tua attenzione verso lo studio dei Pokémon di tipo Elettro, e io ne sono elettrizzato!
@@ -33599,7 +33916,7 @@ RESOURCE ID: gotour2024_welcome_live_b
 TEXT: Ti diamo il benvenuto al Tour di Pokémon GO di Hisui a Los Angeles!
 
 RESOURCE ID: gotour2025_welcome
-TEXT: Pokémon GO Tour: Unova
+TEXT: Tour di Pokémon GO di Unima
 
 RESOURCE ID: gotour2025_welcome_banner_la
 TEXT: Ti diamo il benvenuto al Tour di Pokémon GO di Unima a Los Angeles!
@@ -33608,13 +33925,13 @@ RESOURCE ID: gotour2025_welcome_banner_ntc
 TEXT: Ti diamo il benvenuto al Tour di Pokémon GO di Unima a Nuova Taipei!
 
 RESOURCE ID: gotour2025_welcome_global
-TEXT: Welcome to Pokémon GO Tour: Unova – Global!
+TEXT: Ti diamo il benvenuto al Tour di Pokémon GO di Unima (globale)!
 
 RESOURCE ID: gotour2025_welcome_irl_la
-TEXT: Welcome to Pokémon GO Tour: Unova – Los Angeles!
+TEXT: Ti diamo il benvenuto al Tour di Pokémon GO di Unima a Los Angeles!
 
 RESOURCE ID: gotour2025_welcome_irl_ntc
-TEXT: Welcome to Pokémon GO Tour: Unova – New Taipei City!
+TEXT: Ti diamo il benvenuto al Tour di Pokémon GO di Unima a Nuova Taipei!
 
 RESOURCE ID: gotour_2023_arlo_battle_quote
 TEXT: Non pensare che siamo amici ora.
@@ -33755,7 +34072,7 @@ RESOURCE ID: gotour_2025_deluxe_event_pass_track_unlock_description
 TEXT: Ottieni ricompense aggiuntive a ogni livello.
 
 RESOURCE ID: gotour_2025_deluxe_event_pass_track_unlock_plus_points_description
-TEXT: Ottieni ricompense aggiuntive a ogni livello, aumenta subito di 10 livelli e ottieni adesivi dell’evento.
+TEXT: Ottieni ricompense aggiuntive a ogni livello e sali subito di 10 livelli.
 
 RESOURCE ID: gotour_2025_deluxe_event_pass_track_unlock_plus_points_title
 TEXT: Biglietto Tour deluxe + 10 livelli
@@ -33773,40 +34090,40 @@ RESOURCE ID: gotour_2025_event_pass_title
 TEXT: Tour di Pokémon GO di Unima (globale)
 
 RESOURCE ID: gotour_2025_global_sr_title
-TEXT: It’s Not Over Yet
+TEXT: Non è ancora finita
 
 RESOURCE ID: gotour_2025_global_sr_title_00
-TEXT: It’s Not Over Yet (1/5)
+TEXT: Non è ancora finita (1/5)
 
 RESOURCE ID: gotour_2025_global_sr_title_01
-TEXT: It’s Not Over Yet (2/5)
+TEXT: Non è ancora finita (2/5)
 
 RESOURCE ID: gotour_2025_global_sr_title_02
-TEXT: It’s Not Over Yet (3/5)
+TEXT: Non è ancora finita (3/5)
 
 RESOURCE ID: gotour_2025_global_sr_title_03
-TEXT: It’s Not Over Yet (4/5)
+TEXT: Non è ancora finita (4/5)
 
 RESOURCE ID: gotour_2025_global_sr_title_04
-TEXT: It’s Not Over Yet (5/5)
+TEXT: Non è ancora finita (5/5)
 
 RESOURCE ID: gotour_2025_irl_sr_title
-TEXT: The Tip of the Iceberg
+TEXT: La punta dell’iceberg
 
 RESOURCE ID: gotour_2025_irl_sr_title_00
-TEXT: The Tip of the Iceberg (1/5)
+TEXT: La punta dell’iceberg (1/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_01
-TEXT: The Tip of the Iceberg (2/5)
+TEXT: La punta dell’iceberg (2/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_02
-TEXT: The Tip of the Iceberg (3/5)
+TEXT: La punta dell’iceberg (3/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_03
-TEXT: The Tip of the Iceberg (4/5)
+TEXT: La punta dell’iceberg (4/4)
 
 RESOURCE ID: gotour_2025_irl_sr_title_04
-TEXT: The Tip of the Iceberg (5/5)
+TEXT: La punta dell’iceberg (5/5)
 
 RESOURCE ID: gotour_2025_pass_track_upgrade_header_description
 TEXT: Ottieni ricompense aggiuntive e sblocca subito un <b>incontro con Victini</b>!
@@ -33824,34 +34141,35 @@ RESOURCE ID: gotour_2025_premium_track_title
 TEXT: Biglietto Tour deluxe
 
 RESOURCE ID: gotour_2025_shiny_meloetta_masterwork_sr_title
-TEXT: Masterwork Research: A Dazzling Aria
+TEXT: Ricerca magistrale “Un canto sfavillante”
 
 RESOURCE ID: gotour_2025_shiny_meloetta_masterwork_sr_title_00
-TEXT: Masterwork Research: A Dazzling Aria (1/7)
+TEXT: Ricerca magistrale “Un canto sfavillante” (1/7)
 
 RESOURCE ID: gotour_2025_shiny_meloetta_masterwork_sr_title_01
-TEXT: Masterwork Research: A Dazzling Aria (2/7)
+TEXT: Ricerca magistrale “Un canto sfavillante” (2/7)
 
 RESOURCE ID: gotour_2025_shiny_meloetta_masterwork_sr_title_02
-TEXT: Masterwork Research: A Dazzling Aria (3/7)
+TEXT: Ricerca magistrale “Un canto sfavillante” (3/7)
 
 RESOURCE ID: gotour_2025_shiny_meloetta_masterwork_sr_title_03
-TEXT: Masterwork Research: A Dazzling Aria (4/7)
+TEXT: Ricerca magistrale “Un canto sfavillante” (4/7)
 
 RESOURCE ID: gotour_2025_shiny_meloetta_masterwork_sr_title_04
-TEXT: Masterwork Research: A Dazzling Aria (5/7)
+TEXT: Ricerca magistrale “Un canto sfavillante” (5/7)
 
 RESOURCE ID: gotour_2025_shiny_meloetta_masterwork_sr_title_05
-TEXT: Masterwork Research: A Dazzling Aria (6/7)
+TEXT: Ricerca magistrale “Un canto sfavillante” (6/7)
 
 RESOURCE ID: gotour_2025_shiny_meloetta_masterwork_sr_title_06
-TEXT: Masterwork Research: A Dazzling Aria (7/7)
+TEXT: Ricerca magistrale “Un canto sfavillante” (7/7)
 
 RESOURCE ID: gotour_2025_upgrade_description
 TEXT: Acquista il biglietto Tour deluxe per sbloccare le seguenti ricompense!
 • Un incontro con Victini
-• La possibilità di ottenere un Portafortuna che ti consente di diventare subito amico fortunato con un amico a tua scelta
+• Un <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Portafortuna</a> che ti consente di diventare subito amico fortunato con un amico a tua scelta
 • Energia fusione per Kyurem
+• L’elmetto Kyurem per il tuo avatar
 • E altro ancora!
 
 RESOURCE ID: gotour_kanto
@@ -36103,13 +36421,13 @@ RESOURCE ID: holiday_activation_fr_title
 TEXT: Meraviglie delle feste
 
 RESOURCE ID: holiday_activation_jkt_collection_challenge
-TEXT: Sfida di collezione del Festival Pokémon a Giacarta 2024
+TEXT: Sfida di collezione del festival Pokémon a Giacarta 2024
 
 RESOURCE ID: holiday_activation_jkt_fr_title
 TEXT: Festival Pokémon: Giacarta 2024
 
 RESOURCE ID: holiday_box
-TEXT: pacco festività
+TEXT: Pacco festività
 
 RESOURCE ID: holiday_cup_great_title
 TEXT: Coppa Feste: edizione Lega Mega
@@ -36322,7 +36640,7 @@ RESOURCE ID: ice_burn_adventure_effects_mapview_dialog
 TEXT: Vampagelida riduce la velocità del mirino durante gli incontri, permettendo di mettere a segno tiri più facilmente.
 
 RESOURCE ID: ice_burn_move_content
-TEXT: Circonda i Pokémon con una folata di aria gelida per {0} minuti, riducendo la velocità del mirino durante gli incontri.
+TEXT: Circonda i Pokémon con una folata di aria gelida per {0} minuti, riducendo la velocità del mirino durante gli incontri e rendendo più facile eseguire tiri eccellenti. Facilita la cattura, anche quando si usano dispositivi accessori connessi.
 
 RESOURCE ID: ice_type_event
 TEXT: Invasione di tipo Ghiaccio
@@ -36929,7 +37247,7 @@ RESOURCE ID: iris_social_tired_pokemon_string
 TEXT: ha giocato fino a stancarsi ed è tornato!
 
 RESOURCE ID: iris_social_weather_warning_notification_key
-TEXT: Weather conditions may be affecting Pokemon Playgrounds.
+TEXT: Le condizioni atmosferiche potrebbero influenzare il campo giochi Pokémon.
 
 RESOURCE ID: iris_temperature_exit_button
 TEXT: ESCI
@@ -37108,6 +37426,54 @@ TEXT: Squama che fa evolvere determinate specie di Pokémon. È molto spessa e d
 RESOURCE ID: item_dragon_scale_name
 TEXT: Squama Drago
 
+RESOURCE ID: item_event_pass_point_go_fest_01_name
+TEXT: Pass Points
+
+RESOURCE ID: item_event_pass_point_go_fest_02_name
+TEXT: Pass Points
+
+RESOURCE ID: item_event_pass_point_go_fest_03_name
+TEXT: Pass Points
+
+RESOURCE ID: item_event_pass_point_go_fest_04_name
+TEXT: Pass Points
+
+RESOURCE ID: item_event_pass_point_go_tour_01_name
+TEXT: Pass Points
+
+RESOURCE ID: item_event_pass_point_go_tour_02_name
+TEXT: Pass Points
+
+RESOURCE ID: item_event_pass_point_go_tour_03_name
+TEXT: Pass Points
+
+RESOURCE ID: item_event_pass_point_go_tour_04_name
+TEXT: Pass Points
+
+RESOURCE ID: item_event_pass_point_go_wild_area_01_name
+TEXT: Pass Points
+
+RESOURCE ID: item_event_pass_point_go_wild_area_02_name
+TEXT: Pass Points
+
+RESOURCE ID: item_event_pass_point_go_wild_area_03_name
+TEXT: Pass Points
+
+RESOURCE ID: item_event_pass_point_go_wild_area_04_name
+TEXT: Pass Points
+
+RESOURCE ID: item_event_pass_point_live_ops_01_name
+TEXT: Pass Points
+
+RESOURCE ID: item_event_pass_point_live_ops_02_name
+TEXT: Pass Points
+
+RESOURCE ID: item_event_pass_point_live_ops_03_name
+TEXT: Pass Points
+
+RESOURCE ID: item_event_pass_point_live_ops_04_name
+TEXT: Pass Points
+
 RESOURCE ID: item_event_ticket_01_name
 TEXT: Biglietto
 
@@ -37179,6 +37545,12 @@ TEXT: Biglietto
 
 RESOURCE ID: item_event_ticket_07_name
 TEXT: Biglietto
+
+RESOURCE ID: item_event_ticket_08_desc_scatteredwindsfeb25
+TEXT: Un biglietto per accedere alla ricerca a tempo premium dell’evento “Scagliato ai quattro venti” fino al 20 febbraio 2025 alle 20:00 ora locale, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_08_details_scatteredwindsfeb25
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca speciale dell’evento “Scagliato ai quattro venti” il 18 febbraio ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_08_name
 TEXT: Biglietto
@@ -37283,22 +37655,22 @@ RESOURCE ID: item_event_ticket_evergreen_details_yamasktr24
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso a due ricerche a tempo premium della giornata di ricerca dedicata a Yamask e Yamask di Galar il 19 ottobre, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_global_desc_gotourhatch2025
-TEXT: This ticket will automatically activate to give you access to the Road to Unova: Raid bonuses from Monday, February 24, at 10:00 a.m. to Sunday, March 2, 2025, at 8:00 p.m. local time, wherever you are.
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso ai bonus dell’evento “Destinazione Unima: raid” da lunedì 24 febbraio alle 10:00 a domenica 2 marzo 2025 alle 20:00 ora locale, ovunque tu sia.
 
 RESOURCE ID: item_event_ticket_global_desc_gotourmasterwork2025
-TEXT: This ticket will automatically activate to give you access to the Masterwork Research: A Dazzling Aria from Monday, February 24, at 10:00 a.m. to Sunday, March 2, 2024, at 6:00 p.m. local time, wherever you are.
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca magistrale “Un canto sfavillante” da lunedì 24 febbraio alle 10:00 a domenica 2 marzo 2025 alle 18:00 ora locale, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_global_details_gotourhatch2024
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo dell’evento “Destinazione Sinnoh: schiusa” da lunedì 19 febbraio alle 10:00 a domenica 25 febbraio 2024 alle 20:00 ora locale, ovunque tu sia.
 
 RESOURCE ID: item_event_ticket_global_details_gotourhatch2025
-TEXT: This ticket will automatically activate to give you access to special bonuses starting February 24, wherever you are.
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso ai bonus speciali il 24 febbraio, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_global_details_gotourraid2024
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo dell’evento “Destinazione Sinnoh: raid” da lunedì 19 febbraio alle 10:00 a domenica 25 febbraio 2024 alle 20:00 ora locale, ovunque tu sia.
 
 RESOURCE ID: item_event_ticket_global_details_gotourraid2025
-TEXT: This ticket will automatically activate to give you access to special bonuses starting February 24, wherever you are.
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso ai bonus speciali il 24 febbraio, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: Un biglietto per accedere alla ricerca a tempo premium “Crescere insieme” fino alle 10:00 del 3 settembre 2024 ora locale, ovunque ti trovi.
@@ -37329,6 +37701,9 @@ TEXT: Un biglietto per accedere al Festival di Pokémon GO 2023 (globale) ovunqu
 
 RESOURCE ID: item_event_ticket_gray_desc_halloween1tr24
 TEXT: Un biglietto per accedere alla ricerca a tempo premium del costume Morpeko dal 22 ottobre alle 10:00 al 3 novembre 2024 alle 20:00 ora locale, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_gray_desc_hoopaunboundraidday
+TEXT: Un biglietto per accedere ai bonus speciali il 15 febbraio 2025 dalle 14:00 alle 17:00 ora locale, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_gray_desc_janmonthly2024
 TEXT: Un biglietto per l’Accesso giruovago di gennaio che sarà attivo dal 1˚gennaio alle 10:00 al 31 gennaio 2024 alle 20:00 ora locale, ovunque ti trovi.
@@ -37413,6 +37788,9 @@ TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso al 
 
 RESOURCE ID: item_event_ticket_gray_details_halloween1tr24
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo premium del costume Morpeko il 22 ottobre, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_gray_details_hoopaunboundraidday
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso ai bonus speciali il 15 febbraio, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_gray_details_janmonthly2024
 TEXT: Questo biglietto si attiverà automaticamente per darti l’Accesso giruovago di gennaio, ovunque tu sia.
@@ -38072,7 +38450,7 @@ RESOURCE ID: item_global_event_ticket_details_masterballsr
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca speciale che ha come ricompensa una Master Ball, ovunque ti trovi.
 
 RESOURCE ID: item_global_event_ticket_details_meloetta
-TEXT: This ticket will automatically activate to give you access to special bonuses starting February 24, wherever you are.
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso ai bonus speciali il 24 febbraio, ovunque ti trovi.
 
 RESOURCE ID: item_global_event_ticket_details_no_version_selected
 TEXT: Questo biglietto si attiverà automaticamente, garantendoti l’accesso a bonus speciali associati al Tour di Pokémon GO di Hoenn.
@@ -38382,11 +38760,17 @@ TEXT: Spazio Pokémon
 RESOURCE ID: item_postcard_inventory_desc
 TEXT: Un album per collezionare cartoline e ricordare i luoghi visitati da te e dai tuoi amici.
 
+RESOURCE ID: item_postcard_inventory_desc_old
+TEXT: A book to collect Postcards and remember locations from yours and your friends’ journeys.
+
 RESOURCE ID: item_postcard_inventory_name
 TEXT: Album delle cartoline
 
+RESOURCE ID: item_postcard_inventory_name_old
+TEXT: Postcard Book
+
 RESOURCE ID: item_postcard_storage_upgrade_name
-TEXT: Pagine per le cartoline
+TEXT: Postcard Pages
 
 RESOURCE ID: item_potion_desc
 TEXT: Rimedio spray per le ferite. Restituisce {1} dei PS a un Pokémon.
@@ -38557,7 +38941,7 @@ RESOURCE ID: item_use_confirmation
 TEXT: Vuoi usare lo strumento: {0}?
 
 RESOURCE ID: item_use_confirmation_on_friend
-TEXT: Use {0} on {1}?
+TEXT: Vuoi usare {0} su {1}?
 
 RESOURCE ID: item_used_in_battle_msg
 TEXT: {0} ha usato {1}
@@ -41563,7 +41947,7 @@ RESOURCE ID: lucky_friends_notification_details
 TEXT: Il vostro prossimo scambio sarà fortunato! Entrambi i Pokémon scambiati diventeranno Pokémon fortunati.
 
 RESOURCE ID: lucky_friends_notification_details_from_charm
-TEXT: {0} and you became Lucky Friends with a Lucky Trinket!
+TEXT: Tu e {0} siete diventati amici fortunati con un Portafortuna!
 
 RESOURCE ID: lucky_trade_increase
 TEXT: Maggiore probabilità di ottenere Pokémon fortunati negli scambi
@@ -43100,9 +43484,9 @@ RESOURCE ID: meshing_option_title
 TEXT: Meshing
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2025-02-21T01:12:19.430822+00:00 for it-IT
-at SHA 0239bdf8d28
-Pipeline 3014555, job 37274039
+TEXT: Built at 2025-02-27T00:06:22.364980+00:00 for it-IT
+at SHA 5f088d7d9
+Pipeline 3030063, job 37509226
 
 RESOURCE ID: mex_fighting_promo_title
 TEXT: Ricerca a tempo: Scegli il tuo tipo Lotta
@@ -44588,13 +44972,13 @@ RESOURCE ID: move_name_0467
 TEXT: Vampagelida
 
 RESOURCE ID: move_required_to_enable_adventure_effect
-TEXT: {0} does not know the Charged Attack {1}, so it will not know an attack with an Adventure Effect after fusion.
+TEXT: {0} non conosce l’attacco caricato {1}, perciò non conoscerà un attacco con effetto avventura dopo la fusione.
 
 RESOURCE ID: move_required_to_enable_adventure_effect_question
-TEXT: Do you want to continue?
+TEXT: Vuoi continuare?
 
 RESOURCE ID: move_required_to_enable_adventure_effect_title
-TEXT: This fused Pokémon will not know an attack with an Adventure Effect
+TEXT: Questo Pokémon risultante da fusione non conoscerà un attacco con effetto avventura
 
 RESOURCE ID: move_reroll_confirm_desc
 TEXT: {0} dimenticherà {1}.
@@ -47809,7 +48193,7 @@ RESOURCE ID: nearby_pokemon_grass_title
 TEXT: Avvistamenti
 
 RESOURCE ID: nearby_pokemon_gui_raid_header
-TEXT: raid
+TEXT: Raid
 
 RESOURCE ID: nearby_pokemon_missing_grass
 TEXT: Ancora nessun avvistamento!
@@ -48407,6 +48791,9 @@ TEXT: Un percorso
 
 RESOURCE ID: oneyearanniversary.1_title
 TEXT: Pacco anniversario
+
+RESOURCE ID: ongoing_stamp_collection_header
+TEXT: ONGOING STAMP RALLIES
 
 RESOURCE ID: online_status_onboarding_description
 TEXT: Il tuo stato “in linea” permetterà ai tuoi amici di sapere quando sei disponibile per le sfide Allenatore.
@@ -49345,6 +49732,15 @@ TEXT: Si è verificato un errore durante il riscatto del codice.
 
 RESOURCE ID: passcode_rpc_timeout
 TEXT: La richiesta di riscatto del codice è scaduta. Controlla le impostazioni di rete e riprova.
+
+RESOURCE ID: pause_dialog_message
+TEXT: Even if you pause, you will still receive stamps from your Friends. If you don't want to receive stamps from them, you can disable it in the Settings page.
+
+RESOURCE ID: pause_dialog_subtitle
+TEXT: If you pause the stamp collection, you will stop collecting stamps for it. You can resume it anytime from the collection page.
+
+RESOURCE ID: pause_dialog_title
+TEXT: Are you sure you want to pause?
 
 RESOURCE ID: pause_route_travel_error_toast
 TEXT: Errore nella sospensione del percorso
@@ -51019,27 +51415,30 @@ RESOURCE ID: pokedex_filter_header
 TEXT: FILTRA PER:
 
 RESOURCE ID: pokedex_info_battle_charge_header
-TEXT: Charged Attack
+TEXT: Attacco caricato
 
 RESOURCE ID: pokedex_info_battle_damage_header
-TEXT: Damage
+TEXT: Danni
+
+RESOURCE ID: pokedex_info_battle_elite_header
+TEXT: ELITE MOVES
 
 RESOURCE ID: pokedex_info_battle_fast_header
-TEXT: Fast Attack
+TEXT: Attacco veloce
 
 RESOURCE ID: pokedex_info_battle_resistance_header
-TEXT: Resistance
-To
+TEXT: Resistente
+a
 
 RESOURCE ID: pokedex_info_battle_tab_title
 TEXT: LOTTA
 
 RESOURCE ID: pokedex_info_battle_type_header
-TEXT: Type
+TEXT: Tipo
 
 RESOURCE ID: pokedex_info_battle_weak_header
-TEXT: Weak
-To
+TEXT: Debole
+a
 
 RESOURCE ID: pokedex_info_caught_count
 TEXT: CATTURATI
@@ -51164,6 +51563,12 @@ TEXT: Catturati
 RESOURCE ID: pokedex_status_seen
 TEXT: Visti
 
+RESOURCE ID: pokemon_alert_label_off
+TEXT: Notifica disattivata
+
+RESOURCE ID: pokemon_alert_label_on
+TEXT: Notifica attivata
+
 RESOURCE ID: pokemon_bread_dough_info_transfer_to_professor_confirmation
 TEXT: Vuoi davvero trasferire questo Pokémon Gigamax?
 
@@ -51180,10 +51585,10 @@ RESOURCE ID: pokemon_buddy_info_transfer_to_professor_confirmation
 TEXT: Vuoi davvero trasferire questo Pokémon compagno?
 
 RESOURCE ID: pokemon_candy_reward
-TEXT: {0} caramelle
+TEXT: caramella {0}
 
 RESOURCE ID: pokemon_candy_reward_plural
-TEXT: {0} Candy
+TEXT: caramelle {0}
 
 RESOURCE ID: pokemon_catch_daily_quest_title
 TEXT: Pokémon giornaliero
@@ -54341,6 +54746,9 @@ TEXT: Pokémon Paradosso
 RESOURCE ID: pokemon_category_1008_2997
 TEXT: Pokémon Paradosso
 
+RESOURCE ID: pokemon_caught_stamp_rally
+TEXT: CAUGHT AFTER STAMP RALLY
+
 RESOURCE ID: pokemon_costume_info_transfer_to_professor_confirmation
 TEXT: Vuoi davvero trasferire questo Pokémon dell’evento?
 
@@ -56503,6 +56911,12 @@ TEXT: Rende fertile la terra trasformando l’energia del vento e dei fulmini in
 RESOURCE ID: pokemon_desc_0646
 TEXT: Produce all’interno del suo corpo una potente e gelida energia. Ma l’aria fredda che esala lo ha congelato.
 
+RESOURCE ID: pokemon_desc_0646_0147
+TEXT: Si dice che lotti per la futura realizzazione di un mondo ideale per Pokémon ed esseri umani.
+
+RESOURCE ID: pokemon_desc_0646_0148
+TEXT: Assorbendo Reshiram, che possiede il suo stesso DNA, ha acquisito la capacità di usare l’energia del fuoco e del ghiaccio.
+
 RESOURCE ID: pokemon_desc_0647
 TEXT: Quando è pronto a passare all’azione, si carica d’energia e diventa così veloce che è impossibile seguirlo con gli occhi.
 
@@ -58002,6 +58416,12 @@ TEXT: Le sue orecchie sono antenne capaci di sondare lo stato di salute degli al
 
 RESOURCE ID: pokemon_desc_tmpevo_0719_0001
 TEXT: Questo Pokémon è una mutazione inaspettata di Carbink. Alcuni ritengono che il suo corpo rosa splendente sia la cosa più bella del mondo.
+
+RESOURCE ID: pokemon_disabled_toast
+TEXT: Notifica disattivata per {0}.
+
+RESOURCE ID: pokemon_enabled_toast
+TEXT: Riceverai notifiche su {0} nelle vicinanze.
 
 RESOURCE ID: pokemon_encounter_desc
 TEXT: Incontro: {0}
@@ -61762,6 +62182,12 @@ TEXT: {0} G-Max
 RESOURCE ID: pokemon_name_bread_short
 TEXT: {0} D-Max
 
+RESOURCE ID: pokemon_nearby_notification
+TEXT: Un {0} selvatico è nelle vicinanze!
+
+RESOURCE ID: pokemon_nearby_notification_adventure_sync_already_assigned_message
+TEXT: Hai già una notifica attiva per {0}.
+
 RESOURCE ID: pokemon_nickname_error
 TEXT: Inserisci un altro soprannome.
 
@@ -61940,10 +62366,10 @@ RESOURCE ID: pokemon_won_notification_toast|2
 TEXT: {0} ha trionfato contro i tuoi avversari!
 
 RESOURCE ID: pokemon_xl_candy_reward
-TEXT: {0} caramelle L
+TEXT: caramella L {0}
 
 RESOURCE ID: pokemon_xl_candy_reward_plural
-TEXT: {0} Candy XL
+TEXT: caramelle L {0}
 
 RESOURCE ID: pokemon_xxl_info_transfer_to_professor_confirmation
 TEXT: Vuoi davvero trasferire questo Pokémon XXL?
@@ -62071,6 +62497,9 @@ RESOURCE ID: pokestop_unavailable_soon
 TEXT: Questo Pokéstop verrà chiuso a breve.
 
 RESOURCE ID: post_cd_timed_research_name
+TEXT: ricerca a tempo per lo Sfondo speciale del Community Day
+
+RESOURCE ID: post_cd_timed_research_name_old
 TEXT: Ricerca a tempo “Oltre il Community Day”
 
 RESOURCE ID: postcard__background
@@ -63027,7 +63456,7 @@ RESOURCE ID: quest_blanche_tr_title_2
 TEXT: Ricerca a tempo dell’evento Saggezza dell’eroe (3/3)
 
 RESOURCE ID: quest_blanche_type_catch
-TEXT: Catch 25 Water- or Ice-type Pokémon
+TEXT: Cattura 25 Pokémon di tipo Acqua o Ghiaccio
 
 RESOURCE ID: quest_bounsweet_catch_b
 TEXT: Cattura {0} Bounsweet
@@ -63042,63 +63471,65 @@ RESOURCE ID: quest_braixen_evolve_b
 TEXT: Fai evolvere {0} Braixen
 
 RESOURCE ID: quest_branch_choose_black
-TEXT: Choose Black Version (Reshiram/Black Kyurem)
+TEXT: <size=35><b>Scegli Versione Nera</b></size>
+<size=28>(Reshiram/Kyurem Nero)</size>
 
 RESOURCE ID: quest_branch_choose_black_desc
-TEXT: Select this option to receive the Black Version (Reshiram) badge and Reshiram-themed rewards and bonuses during your GO Tour: Unova adventure.
+TEXT: Seleziona quest’opzione per ricevere la medaglia della Versione Nera (Reshiram) nonché ricompense e bonus ispirati a Reshiram nel corso della tua avventura con il Tour GO di Unima.
 
-During GO Tour: Unova – Global, Kyurem caught from Black Kyurem raids will know the Charged Attack Glaciate.
+Durante il Tour GO di Unima (globale), i Kyurem catturati nei raid contro Kyurem Nero conosceranno l’attacco caricato Gelamondo.
 
-Additionally, you’ll have the opportunity to extend the duration of Freeze Shock’s Adventure Effect during the event by progressing through the Tour Pass!
+Inoltre, avrai l’opportunità di estendere la durata dell’effetto avventura di Elettrogelo durante l’evento avanzando nel biglietto Tour!
 
 RESOURCE ID: quest_branch_choose_oshawott
-TEXT: Choose Oshawott
+TEXT: Scegli Oshawott
 
 RESOURCE ID: quest_branch_choose_oshawott_bg_desc
-TEXT: Select this path for two encounters with Oshawott that have an exclusive GO Tour: Unova Special Background.
+TEXT: Seleziona questo percorso per due incontri con Oshawott che avranno uno Sfondo speciale esclusivo del Tour GO di Unima.
 
 RESOURCE ID: quest_branch_choose_oshawott_desc
-TEXT: Select this path for an additional encounter with Oshawott, the Sea Otter Pokémon, and an increased chance of attracting Oshawott with Incense.
+TEXT: Seleziona questo percorso per un incontro aggiuntivo con Oshawott, il Pokémon Lontra, e maggiori probabilità di attirarlo con l’aroma.
 
 RESOURCE ID: quest_branch_choose_oshawott_desc_irl
-TEXT: Select this path for an additional encounter with Oshawott, the Sea Otter Pokémon, and additional Oshawott-themed rewards from Special Research.
+TEXT: Seleziona questo percorso per un incontro aggiuntivo con Oshawott, il Pokémon Lontra, e ricompense aggiuntive ispirate a Oshawott dalla ricerca speciale.
 
 RESOURCE ID: quest_branch_choose_snivy
-TEXT: Choose Snivy
+TEXT: Scegli Snivy
 
 RESOURCE ID: quest_branch_choose_snivy_bg_desc
-TEXT: Select this path for two encounters with Snivy that have an exclusive GO Tour: Unova Special Background.
+TEXT: Seleziona questo percorso per due incontri con Snivy che avranno uno Sfondo speciale esclusivo del Tour GO di Unima.
 
 RESOURCE ID: quest_branch_choose_snivy_desc
-TEXT: Select this path for an additional encounter with Snivy, the Grass Snake Pokémon, and an increased chance of attracting Snivy with Incense.
+TEXT: Seleziona questo percorso per un incontro aggiuntivo con Snivy, il Pokémon Serperba, e maggiori probabilità di attirarlo con l’aroma.
 
 RESOURCE ID: quest_branch_choose_snivy_desc_irl
-TEXT: Select this path for an additional encounter with Snivy, the Grass Snake Pokémon, and additional Snivy-themed rewards from Special Research.
+TEXT: Seleziona questo percorso per un incontro aggiuntivo con Snivy, il Pokémon Serperba, e ricompense aggiuntive ispirate a Snivy dalla ricerca speciale.
 
 RESOURCE ID: quest_branch_choose_starter_prompt
-TEXT: Choose a First Partner Pokémon
+TEXT: Scegli un primo compagno d’avventura
 
 RESOURCE ID: quest_branch_choose_tepig
-TEXT: Choose Tepig
+TEXT: Scegli Tepig
 
 RESOURCE ID: quest_branch_choose_tepig_bg_desc
-TEXT: Select this path for two encounters with Tepig that have an exclusive GO Tour: Unova Special Background.
+TEXT: Seleziona questo percorso per due incontri con Tepig che avranno uno Sfondo speciale esclusivo del Tour GO di Unima.
 
 RESOURCE ID: quest_branch_choose_tepig_desc
-TEXT: Select this path for an additional encounter with Tepig, the Fire Pig Pokémon, and an increased chance of attracting Tepig with Incense.
+TEXT: Seleziona questo percorso per un incontro aggiuntivo con Tepig, il Pokémon Suinfuoco, e maggiori probabilità di attirarlo con l’aroma.
 
 RESOURCE ID: quest_branch_choose_tepig_desc_irl
-TEXT: Select this path for an additional encounter with Tepig, the Fire Pig Pokémon, and additional Tepig-themed rewards from Special Research.
+TEXT: Seleziona questo percorso per un incontro aggiuntivo con Tepig, il Pokémon Suinfuoco, e ricompense aggiuntive ispirate a Tepig dalla ricerca speciale.
 
 RESOURCE ID: quest_branch_choose_white
-TEXT: Choose White Version (Zekrom/White Kyurem)
+TEXT: <size=35><b>Scegli Versione Bianca</b></size>
+<size=28>(Zekrom/Kyurem Bianco)</size>
 
 RESOURCE ID: quest_branch_choose_white_desc
-TEXT: Select this option to receive the White Version (Zekrom) badge and Zekrom-themed rewards and bonuses during your GO Tour: Unova adventure.
+TEXT: Seleziona quest’opzione per ricevere la medaglia della Versione Bianca (Zekrom) nonché ricompense e bonus ispirati a Zekrom nel corso della tua avventura con il Tour GO di Unima.
 
-During GO Tour: Unova – Global, Kyurem caught from White Kyurem raids will know the Charged Attack Glaciate.
+Durante il Tour GO di Unima (globale), i Kyurem catturati nei raid contro Kyurem Bianco conosceranno l’attacco caricato Gelamondo.
 
-Additionally, you’ll have the opportunity to extend the duration of Ice Burn’s Adventure Effect during the event by progressing through the Tour Pass!
+Inoltre, avrai l’opportunità di estendere la durata dell’effetto avventura di Vampagelida durante l’evento avanzando nel biglietto Tour!
 
 RESOURCE ID: quest_branching_special_dialogue_1
 TEXT: Che piacere rivederti, %PLAYERNAME%! Ci aspetta una ricerca davvero entusiasmante, ma mi serve il tuo aiuto per decidere su cosa dovremmo concentrarci.
@@ -63151,6 +63582,9 @@ TEXT: Ricevi {0} souvenir dal tuo compagno
 RESOURCE ID: quest_buddy_souvenir_singular
 TEXT: Ricevi un souvenir dal tuo compagno
 
+RESOURCE ID: quest_buddy_treat_days
+TEXT: Dai uno snack al tuo compagno in {0} giorni diversi
+
 RESOURCE ID: quest_buddy_walk_km_plural
 TEXT: Percorri {0} km con il tuo compagno
 
@@ -63167,7 +63601,7 @@ RESOURCE ID: quest_cacnea_catch
 TEXT: Cattura {0} Cacnea
 
 RESOURCE ID: quest_candela_type_catch
-TEXT: Catch 25 Fire- or Fighting-type Pokémon
+TEXT: Cattura 25 Pokémon di tipo Fuoco o Lotta
 
 RESOURCE ID: quest_catch_151
 TEXT: Cattura 151 Pokémon
@@ -63251,7 +63685,7 @@ RESOURCE ID: quest_catch_furfou_singular
 TEXT: Cattura un Furfrou
 
 RESOURCE ID: quest_catch_golett_plural
-TEXT: Catch {0} Golett
+TEXT: Cattura {0} Golett
 
 RESOURCE ID: quest_catch_groudon_primal_boosted_types
 TEXT: Cattura {0} Pokémon di tipo Fuoco, Erba o Terra
@@ -63275,7 +63709,7 @@ RESOURCE ID: quest_catch_johto_pokemon
 TEXT: Cattura {0} Pokémon originariamente scoperti nella regione di Johto
 
 RESOURCE ID: quest_catch_joltik_plural
-TEXT: Catch {0} Joltik
+TEXT: Cattura {0} Joltik
 
 RESOURCE ID: quest_catch_kanto_pokemon
 TEXT: Cattura {0} Pokémon originariamente scoperti nella regione di Kanto
@@ -63302,13 +63736,13 @@ RESOURCE ID: quest_catch_luvdisc
 TEXT: Cattura {0} Luvdisc
 
 RESOURCE ID: quest_catch_minccino_plural
-TEXT: Catch {0} Minccino
+TEXT: Cattura {0} Minccino
 
 RESOURCE ID: quest_catch_misc_01_types_plural
 TEXT: Cattura {0} Pokémon di tipo Normale, Acqua o Ghiaccio
 
 RESOURCE ID: quest_catch_munna_plural
-TEXT: Catch {0} Munna
+TEXT: Cattura {0} Munna
 
 RESOURCE ID: quest_catch_nymble_plural
 TEXT: Cattura {0} Nymble
@@ -63317,10 +63751,10 @@ RESOURCE ID: quest_catch_palkia
 TEXT: Cattura Palkia
 
 RESOURCE ID: quest_catch_petilil_plural
-TEXT: Catch {0} Petilil
+TEXT: Cattura {0} Petilil
 
 RESOURCE ID: quest_catch_pidove_plural
-TEXT: Catch {0} Pidove
+TEXT: Cattura {0} Pidove
 
 RESOURCE ID: quest_catch_pikachu_plural
 TEXT: Cattura {0} Pikachu
@@ -63341,7 +63775,7 @@ RESOURCE ID: quest_catch_pokemon_great_ball_singular
 TEXT: Cattura un Pokémon con una Mega Ball
 
 RESOURCE ID: quest_catch_pokemon_kyurem
-TEXT: Catch Kyurem
+TEXT: Cattura Kyurem
 
 RESOURCE ID: quest_catch_pokemon_legendary_plural
 TEXT: Cattura {0} Pokémon leggendari
@@ -63362,10 +63796,10 @@ RESOURCE ID: quest_catch_pokemon_poke_ball_singular
 TEXT: Cattura un Pokémon con una Poké Ball
 
 RESOURCE ID: quest_catch_pokemon_reshiram
-TEXT: Catch Reshiram
+TEXT: Cattura Reshiram
 
 RESOURCE ID: quest_catch_pokemon_reshiram_zekrom
-TEXT: Catch Reshiram or Zekrom
+TEXT: Cattura Reshiram o Zekrom
 
 RESOURCE ID: quest_catch_pokemon_routes_plural
 TEXT: Cattura {0} Pokémon mentre segui dei percorsi
@@ -63389,13 +63823,13 @@ RESOURCE ID: quest_catch_pokemon_unova
 TEXT: Cattura {0} Pokémon originariamente scoperti nella regione di Unima
 
 RESOURCE ID: quest_catch_pokemon_unova_singular
-TEXT: Catch a Pokémon originally discovered in the Unova region
+TEXT: Cattura un Pokémon originariamente scoperto nella regione di Unima
 
 RESOURCE ID: quest_catch_pokemon_unova_unique
 TEXT: Cattura {0} specie diverse di Pokémon originariamente scoperti nella regione di Unima
 
 RESOURCE ID: quest_catch_pokemon_zekrom
-TEXT: Catch Zekrom
+TEXT: Cattura Zekrom
 
 RESOURCE ID: quest_catch_psychic_steel
 TEXT: Cattura {0} Pokémon di tipo Psico o Acciaio
@@ -63416,10 +63850,10 @@ RESOURCE ID: quest_catch_rayquaza_type
 TEXT: Cattura {0} Pokémon di tipo Volante, Psico o Drago
 
 RESOURCE ID: quest_catch_rufflet_plural
-TEXT: Catch {0} Rufflet
+TEXT: Cattura {0} Rufflet
 
 RESOURCE ID: quest_catch_scraggy_plural
-TEXT: Catch {0} Scraggy
+TEXT: Cattura {0} Scraggy
 
 RESOURCE ID: quest_catch_sinnoh_pokemon
 TEXT: Cattura {0} Pokémon originariamente scoperti nella regione di Sinnoh
@@ -63428,7 +63862,7 @@ RESOURCE ID: quest_catch_sinnoh_pokemon_singular
 TEXT: Cattura un Pokémon originariamente scoperto nella regione di Sinnoh
 
 RESOURCE ID: quest_catch_snivy_tepig_oshawott
-TEXT: Catch {0} Snivy, Tepig, or Oshawott
+TEXT: Cattura {0} Snivy, Tepig o Oshawott
 
 RESOURCE ID: quest_catch_solrock_plural
 TEXT: Cattura {0} Solrock
@@ -63959,7 +64393,7 @@ RESOURCE ID: quest_catch_types_windy_singular
 TEXT: Cattura un Pokémon di tipo Volante, Psico o Drago
 
 RESOURCE ID: quest_catch_venipede_plural
-TEXT: Catch {0} Venipede
+TEXT: Cattura {0} Venipede
 
 RESOURCE ID: quest_catch_vote0_plural
 TEXT: Vota per il Community Day di Machop! Cattura {0} Pokémon
@@ -63989,7 +64423,7 @@ RESOURCE ID: quest_catch_wild_ball_singular
 TEXT: Cattura un Pokémon con una Safari GO Ball
 
 RESOURCE ID: quest_catch_yamask_plural
-TEXT: Catch {0} Yamask
+TEXT: Cattura {0} Yamask
 
 RESOURCE ID: quest_challenge_party_power_plural
 TEXT: Usa il potenziamento di gruppo {0} volte nei raid
@@ -65615,7 +66049,7 @@ RESOURCE ID: quest_evolve_oshawott_singular
 TEXT: Fai evolvere un Oshawott
 
 RESOURCE ID: quest_evolve_oshawott_singular_posessive
-TEXT: Evolve an Oshawott
+TEXT: Fai evolvere un Oshawott
 
 RESOURCE ID: quest_evolve_palpitoad_singular
 TEXT: Fai evolvere un Palpitoad
@@ -65867,7 +66301,7 @@ RESOURCE ID: quest_evolve_snivy_singular
 TEXT: Fai evolvere uno Snivy
 
 RESOURCE ID: quest_evolve_snivy_singular_posessive
-TEXT: Evolve a Snivy
+TEXT: Fai evolvere uno Snivy
 
 RESOURCE ID: quest_evolve_snorunt_singular
 TEXT: Fai evolvere uno Snorunt
@@ -65987,7 +66421,7 @@ RESOURCE ID: quest_evolve_tepig_singular
 TEXT: Fai evolvere un Tepig
 
 RESOURCE ID: quest_evolve_tepig_singular_posessive
-TEXT: Evolve a Tepig
+TEXT: Fai evolvere un Tepig
 
 RESOURCE ID: quest_evolve_timburr_singular
 TEXT: Fai evolvere un Timburr
@@ -66422,7 +66856,7 @@ RESOURCE ID: quest_fuse_necrozma
 TEXT: Fondi Necrozma
 
 RESOURCE ID: quest_fuse_pokemon_kyurem
-TEXT: Fuse Kyurem
+TEXT: Fondi Kyurem
 
 RESOURCE ID: quest_gbl_rank
 TEXT: Raggiungi il livello {0} nella Lega Lotte GO
@@ -67472,13 +67906,13 @@ RESOURCE ID: quest_mareep_snapshot_b
 TEXT: Fai una foto a {0} Mareep
 
 RESOURCE ID: quest_medal_gen5_gold
-TEXT: Earn the gold Unova medal
+TEXT: Ottieni il premio d’oro di Unima
 
 RESOURCE ID: quest_medal_idol_platinum
-TEXT: Earn the platinum Idol medal
+TEXT: Ottieni il premio di platino di Pop Star
 
 RESOURCE ID: quest_medal_showcase_star_bronze
-TEXT: Earn the bronze Showcase Star medal
+TEXT: Ottieni il premio di bronzo di Star del concorso
 
 RESOURCE ID: quest_mega_evo_primal_rev_plural
 TEXT: Attiva l’archeorisveglio oppure fai megaevolvere un Pokémon {0} volte
@@ -68465,7 +68899,7 @@ RESOURCE ID: quest_sobble_evolve
 TEXT: Fai evolvere un Sobble
 
 RESOURCE ID: quest_spark_type_catch
-TEXT: Catch 25 Electric- or Steel-type Pokémon
+TEXT: Cattura 25 Pokémon di tipo Elettro o Acciaio
 
 RESOURCE ID: quest_special_dialogue_af2022_0_0
 TEXT: ... ... ...
@@ -81125,6 +81559,18 @@ TEXT: Duplice destino (1/10)
 RESOURCE ID: quest_title_season_17_10
 TEXT: Duplice destino (10/10)
 
+RESOURCE ID: quest_title_season_17_10_dialogue_1
+TEXT: Ti dirò, con tutti gli sconvolgimenti a cui abbiamo assistito di recente, tornare alla normalità ha un che di straordinario.
+
+RESOURCE ID: quest_title_season_17_10_dialogue_2
+TEXT: Immagino che le avventure abbiano due facce: un inizio e una fine.
+
+RESOURCE ID: quest_title_season_17_10_dialogue_3
+TEXT: Ed ecco che tutto si ricollega nuovamente all’equilibrio. Una fine a ogni inizio, e ora siamo di nuovo pronti a cominciare!
+
+RESOURCE ID: quest_title_season_17_10_dialogue_4
+TEXT: Comunque sia, grazie per il tuo aiuto, %PLAYERNAME%. Qualunque cosa ci riservi il destino, so che farai la scelta giusta e trionferai, poco importa quanto diversi tra loro sembreranno i percorsi!
+
 RESOURCE ID: quest_title_season_17_1_dialogue_1
 TEXT: Eccoti, %PLAYERNAME%! Io e Rhi stavamo discutendo di alcuni strani fenomeni atmosferici che abbiamo notato di recente.
 
@@ -81224,11 +81670,50 @@ TEXT: Prepariamoci. Intanto spero di ricordare correttamente l’espressione... 
 RESOURCE ID: quest_title_season_17_7
 TEXT: Duplice destino (7/10)
 
+RESOURCE ID: quest_title_season_17_7_dialogue_1
+TEXT: Perfetto! Ora abbiamo un quadro più chiaro di ciò che avevano in mente Candela e Arlo.
+
+RESOURCE ID: quest_title_season_17_7_dialogue_2
+TEXT: Candela era concentrata sulla collaborazione, mentre Arlo seguiva la direzione opposta. Alla fine, entrambi hanno imparato qualcosa sull’equilibrio.
+
+RESOURCE ID: quest_title_season_17_7_dialogue_3
+TEXT: Alcuni sfruttano al meglio i propri punti di forza e legami con gli altri, mentre altri si concentrano su come plasmare il mondo in base ai propri ideali.
+
+RESOURCE ID: quest_title_season_17_7_dialogue_4
+TEXT: Affascinante, vero? Ma se c’è una cosa che abbiamo imparato da tutto questo, è che esiste un equilibrio anche in questo caso.
+
 RESOURCE ID: quest_title_season_17_8
 TEXT: Duplice destino (8/10)
 
+RESOURCE ID: quest_title_season_17_8_dialogue_1
+TEXT: Dualità, equilibrio, forza, ideali... Dovevo fare il filosofo! Quanta roba su cui rimuginare!
+
+RESOURCE ID: quest_title_season_17_8_dialogue_2
+TEXT: Comunque sia, credo di aver formulato una teoria che dà un senso a tutto quanto.
+
+RESOURCE ID: quest_title_season_17_8_dialogue_3
+TEXT: Ma se c’è una cosa che ho imparato da tutto questo, è il valore della collaborazione... Quindi la testerò insieme ai miei colleghi ricercatori, prima di condividerla!
+
+RESOURCE ID: quest_title_season_17_8_dialogue_4
+TEXT: Tieni gli occhi aperti per altre novità degne di nota, %PLAYERNAME%. Siamo vicini alla chiusura del caso.
+
 RESOURCE ID: quest_title_season_17_9
 TEXT: Duplice destino (9/10)
+
+RESOURCE ID: quest_title_season_17_9_dialogue_1
+TEXT: Ah, ottimo tempismo! Grazie ai dati che i nostri amici ci hanno aiutato a raccogliere sono riuscito a individuare una potente e gelida energia.
+
+RESOURCE ID: quest_title_season_17_9_dialogue_2
+TEXT: Qual è la fonte? Nientemeno che Kyurem, un Pokémon leggendario il cui corpo congelato genera un freddo glaciale.
+
+RESOURCE ID: quest_title_season_17_9_dialogue_3
+TEXT: Curiosamente, Kyurem è strettamente legato ad altri due Pokémon, Reshiram e Zekrom. Ognuno di loro sembra possedere prospettive diverse: uno si concentra sulla verità, l’altro sugli ideali.
+
+RESOURCE ID: quest_title_season_17_9_dialogue_4
+TEXT: Mi ricorda lo strano fenomeno che abbiamo osservato di recente. In qualche modo deve essere connesso a questi Pokémon leggendari.
+
+RESOURCE ID: quest_title_season_17_9_dialogue_5
+TEXT: Farai meglio a stare all’erta comunque, %PLAYERNAME%. Kyurem fa sul serio, e ho l’impressione che ti confronterai con lui molto presto!
 
 RESOURCE ID: quest_title_season_17_dectr_1_dialogue_1
 TEXT: %PLAYERNAME%! Spark, mi ha detto che ha appena scoperto una zona calda... nel vero senso della parola!
@@ -81292,6 +81777,75 @@ TEXT: Elettrizzante, vero? È un po’ come se stessimo incubando un Uovo mister
 
 RESOURCE ID: quest_title_season_17_dectr_3_spark_dialogue_4
 TEXT: Non vedo l’ora di condividere le mie scoperte con il Professor Willow e gli altri. Ci si vede, %PLAYERNAME%!
+
+RESOURCE ID: quest_title_season_17_febtr_1_dialogue_1
+TEXT: Non è fantastico avere amici su cui contare, %PLAYERNAME%? Sai perfettamente ciò che intendo, vero, %PLAYERNAME%?
+
+RESOURCE ID: quest_title_season_17_febtr_1_dialogue_2
+TEXT: A proposito, ho visto Candela interessarsi ad altri Allenatori e ai loro Pokémon poco fa. Sicuramente è perché ha capito che il lavoro di squadra ci rende più forti rispetto a quello individuale!
+
+RESOURCE ID: quest_title_season_17_febtr_1_dialogue_3
+TEXT: Purtroppo non posso dire lo stesso di Arlo. Se n’è andato per i fatti suoi e ho sentito dire che nemmeno gli altri membri del Team GO Rocket sanno che cosa gli passa per la testa.
+
+RESOURCE ID: quest_title_season_17_febtr_1_dialogue_4
+TEXT: Quei due sembrano diametralmente opposti, ma immagino che ne sapremo di più molto presto. Quale leader vorresti seguire stavolta?
+
+RESOURCE ID: quest_title_season_17_febtr_2_arlo_dialogue_1
+TEXT: Non vedi che ho da fare? Queste interruzioni sono un enorme spreco di tempo.
+
+RESOURCE ID: quest_title_season_17_febtr_2_arlo_dialogue_2
+TEXT: Tutte queste reclute non fanno che mandare a monte i miei piani impeccabili perché incapaci di seguire le istruzioni più semplici... L’ultima cosa che mi serve sono i rompiscatole.
+
+RESOURCE ID: quest_title_season_17_febtr_2_arlo_dialogue_3
+TEXT: Figurati se potresti mai capire cosa sto cercando di realizzare.
+
+RESOURCE ID: quest_title_season_17_febtr_2_arlo_dialogue_4
+TEXT: Te lo dico una volta per tutte: non tollero le tue interferenze. Vattene.
+
+RESOURCE ID: quest_title_season_17_febtr_2_candela_dialogue_1
+TEXT: Sono i miei amici ad alimentare il mio fuoco!
+
+RESOURCE ID: quest_title_season_17_febtr_2_candela_dialogue_2
+TEXT: Tu, il professor Willow, Rhi... Ma soprattutto, Spark e Blanche! Tutti voi sapete come tirar fuori il meglio di me.
+
+RESOURCE ID: quest_title_season_17_febtr_2_candela_dialogue_3
+TEXT: Per non parlare dei miei fidati Pokémon! Ponyta ha sempre fomentato il mio desiderio di allenarmi e migliorare.
+
+RESOURCE ID: quest_title_season_17_febtr_2_candela_dialogue_4
+TEXT: Tutti questi strani fenomeni atmosferici mi stanno facendo riflettere... Non ho paura del caldo. Non lascerò che accada nulla alle persone e ai Pokémon a cui tengo.
+
+RESOURCE ID: quest_title_season_17_febtr_2_candela_dialogue_5
+TEXT: Insieme siamo più forti. Se ci focalizziamo su questo, possiamo affrontare qualsiasi cosa.
+
+RESOURCE ID: quest_title_season_17_febtr_3_arlo_dialogue_1
+TEXT: Tsk, finalmente posso mettere un punto a questa follia. Ti è piaciuto sprecare il tuo tempo con quelle reclute?
+
+RESOURCE ID: quest_title_season_17_febtr_3_arlo_dialogue_2
+TEXT: Mmh... Forse può tornare utile avere degli scagnozzi che tengono a bada le distrazioni...
+
+RESOURCE ID: quest_title_season_17_febtr_3_arlo_dialogue_3
+TEXT: Vediamo se riesci a cogliere la metafora: hai presente il Pokémon Parasect?
+
+RESOURCE ID: quest_title_season_17_febtr_3_arlo_dialogue_4
+TEXT: Sembra un insetto, ma in realtà è il fungo che gli cresce sulla schiena ad avere il controllo. Quelle reclute sono l’insetto e io il fungo.
+
+RESOURCE ID: quest_title_season_17_febtr_3_arlo_dialogue_5
+TEXT: Forse avere qualche insetto intorno può far comodo, a patto che ricordino sempre chi è il fungo.
+
+RESOURCE ID: quest_title_season_17_febtr_3_candela_dialogue_1
+TEXT: Ho notato una cosa durante le nostre ricerche: un sacco di Pokémon selvatici fanno cose di cui traggono beneficio a vicenda...
+
+RESOURCE ID: quest_title_season_17_febtr_3_candela_dialogue_2
+TEXT: Ma dare e ricevere non significa semplicemente affidarsi agli altri: molti sanno cavarsela da soli, come creature indipendenti.
+
+RESOURCE ID: quest_title_season_17_febtr_3_candela_dialogue_3
+TEXT: È come quando si usa una candela per accenderne un’altra: ciò non rende la fiamma della prima candela meno viva.
+
+RESOURCE ID: quest_title_season_17_febtr_3_candela_dialogue_4
+TEXT: Non posso sapere cosa ci riserva il futuro, ma so che i miei amici hanno la forza che serve per farcela, da soli o con il mio aiuto.
+
+RESOURCE ID: quest_title_season_17_febtr_3_candela_dialogue_5
+TEXT: E questo include anche te, %PLAYERNAME%! So che hai affrontato cose che nemmeno immagino... Ma vorrei poter essere lì ad aiutarti, se e quando avrai bisogno di me.
 
 RESOURCE ID: quest_title_season_17_jantr_1_dialogue_1
 TEXT: Abbiamo una nuova pista, %PLAYERNAME%!
@@ -81495,7 +82049,7 @@ RESOURCE ID: quest_title_sprigatito
 TEXT: Occasione purr-fetta
 
 RESOURCE ID: quest_title_sprigatito_0
-TEXT: Occasione purr-fetta (1/2)
+TEXT: Occasione purr-fetta (1/ 2)
 
 RESOURCE ID: quest_title_sprigatito_1
 TEXT: Occasione purr-fetta (2/2)
@@ -82485,7 +83039,7 @@ RESOURCE ID: quest_win_raid_3_singular
 TEXT: Vinci un raid di livello tre o superiore
 
 RESOURCE ID: quest_win_raid_5_plural
-TEXT: Win {0} five-star raids or higher
+TEXT: Vinci {0} raid di livello cinque o superiore
 
 RESOURCE ID: quest_win_raid_5_singular
 TEXT: Vinci un raid di livello cinque o superiore
@@ -82686,13 +83240,13 @@ RESOURCE ID: quests_pass_batch_updated
 TEXT: {0} missioni biglietto aggiornate
 
 RESOURCE ID: quests_pass_multiple_task_available
-TEXT: New Pass Tasks!
+TEXT: Nuove missioni biglietto!
 
 RESOURCE ID: quests_pass_rank_up
 TEXT: Sali di livello!
 
 RESOURCE ID: quests_pass_task_available
-TEXT: New Pass Task!
+TEXT: Nuova missione biglietto!
 
 RESOURCE ID: quests_professor_willow
 TEXT: Professor Willow
@@ -83698,6 +84252,9 @@ TEXT: Giorno di raid dedicato a Ho-Oh Ombra
 
 RESOURCE ID: raid_day_hoopa
 TEXT: Giorno di raid dedicato a Hoopa
+
+RESOURCE ID: raid_day_hoopa_unbound_event_name
+TEXT: Giorno di raid dedicato a Hoopa Libero
 
 RESOURCE ID: raid_day_hoothoot
 TEXT: Giorno di raid dedicato a Hoothoot
@@ -87561,6 +88118,15 @@ TEXT: Valutazione inviata.
 RESOURCE ID: rating_updated_toast
 TEXT: Valutazione aggiornata.
 
+RESOURCE ID: reactivate_button
+TEXT: REACTIVATE
+
+RESOURCE ID: reactivate_dialog_message
+TEXT: One or more stamp rallies at this PokéStop are currently paused. To collect more stamps, they must be reactivated.
+
+RESOURCE ID: reactivate_dialog_title
+TEXT: Reactivate this stamp collection?
+
 RESOURCE ID: ready_raid_button
 TEXT: PRONTI!
 
@@ -88360,6 +88926,9 @@ TEXT: Si azzera tra {0} giorni
 RESOURCE ID: rewarded_spend_reset_timer_last_day_header
 TEXT: <color=#FF6687FF>Si azzera tra un giorno</color>
 
+RESOURCE ID: rewards_banner
+TEXT: REWARDS
+
 RESOURCE ID: rising_shadows_event_name
 TEXT: Ascesa delle ombre
 
@@ -88427,13 +88996,13 @@ RESOURCE ID: road_to_unova_event_title
 TEXT: Destinazione Unima
 
 RESOURCE ID: road_to_unova_event_title_hatch
-TEXT: Road to Unova: Hatch Ticket
+TEXT: Biglietto per “Destinazione Unima: schiusa”
 
 RESOURCE ID: road_to_unova_event_title_raid
-TEXT: Road to Unova: Raids Ticket
+TEXT: Biglietto per “Destinazione Unima: raid”
 
 RESOURCE ID: road_to_unova_pikachu_title
-TEXT: Pikachu Surprise
+TEXT: Sorpresa Pikachu
 
 RESOURCE ID: rock_type_event
 TEXT: Invasione di tipo Roccia
@@ -90982,6 +91551,21 @@ TEXT: Quando colleghi Pokémon GO a Pokémon Scarlatto o Pokémon Violetto, alcu
 RESOURCE ID: scan_battle_code
 TEXT: Scansiona un codice di sfida
 
+RESOURCE ID: scattered_to_the_winds_event_name
+TEXT: Scagliato ai quattro venti
+
+RESOURCE ID: scattered_winds_avatar_tr_title
+TEXT: Ricerca a tempo premium dell’evento “Scagliato ai quattro venti”
+
+RESOURCE ID: scattered_winds_avatar_tr_title_1
+TEXT: Ricerca a tempo premium (1/2) dell’evento “Scagliato ai quattro venti”
+
+RESOURCE ID: scattered_winds_avatar_tr_title_2
+TEXT: Ricerca a tempo premium (2/2) dell’evento “Scagliato ai quattro venti”
+
+RESOURCE ID: scattered_winds_collection_challenge_feb_25
+TEXT: Sfida di collezione dell’evento “Scagliato ai quattro venti”
+
 RESOURCE ID: scorching_steps_event_name
 TEXT: Passeggiate roventi
 
@@ -91373,7 +91957,7 @@ RESOURCE ID: season_partner_research_ltd_amazon_gaming
 TEXT: Ricerca partner mirata della stagione Gemme nascoste: Amazon Prime Gaming
 
 RESOURCE ID: seasonal_delights_box
-TEXT: pacco delizie stagionali
+TEXT: Pacco delizie stagionali
 
 RESOURCE ID: second_abbrev
 TEXT: s
@@ -91428,6 +92012,18 @@ TEXT: Invia un pacco amicizia
 
 RESOURCE ID: send_giftbox_prompt
 TEXT: Invia un pacco amicizia
+
+RESOURCE ID: send_stamp_warning_modal_description_low_friend_level
+TEXT: This gift includes a stamp, but you and your friend have not reached {0}, so your friend won't be able to receive the stamp. Do you still want to send this gift?
+
+RESOURCE ID: send_stamp_warning_modal_descripton_already_collected
+TEXT: Your friend either has already collected this stamp, and cannot receive it again. Do you still want to send this gift?
+
+RESOURCE ID: send_stamp_warning_modal_descripton_opted_out
+TEXT: Your friend has opted out of receiving gifted stamps. Do you still want to send this gift?
+
+RESOURCE ID: send_stamp_warning_modal_title
+TEXT: Are you sure you want to send this gift?
 
 RESOURCE ID: send_video_ad_report_button
 TEXT: INVIA SEGNALAZIONE
@@ -95078,6 +95674,115 @@ TEXT: I biglietti per una ricerca speciale sono disponibili nel negozio
 RESOURCE ID: stadium_sights_event_name
 TEXT: Scorci dallo stadio
 
+RESOURCE ID: stamp_and_open_gift_button
+TEXT: Stamp & Open
+
+RESOURCE ID: stamp_collection_poi_nearby_notification
+TEXT: There's a nearby stamp you haven't gotten yet at {0}!
+
+RESOURCE ID: stamp_collection_reward_pokemon_flee_warning_body
+TEXT: If you leave the encounter, the Pokémon may flee and you may not encounter it again.
+
+RESOURCE ID: stamp_collection_reward_pokemon_flee_warning_title
+TEXT: Are you sure you want to leave this encounter?
+
+RESOURCE ID: stamp_collections_page_header
+TEXT: GO STAMP RALLY
+
+RESOURCE ID: stamp_completed_description
+TEXT: Congratulations! You completed this stamp rally!
+
+RESOURCE ID: stamp_info_banner
+TEXT: STAMP INFO
+
+RESOURCE ID: stamp_page_tutorial_page_1_description
+TEXT: A stamp rally is an activity where you collect stamps at various PokéStops and Gyms.
+
+RESOURCE ID: stamp_page_tutorial_page_1_header
+TEXT: What is a Stamp Rally?
+
+RESOURCE ID: stamp_page_tutorial_page_2_description
+TEXT: If you visit target PokéStops and Gyms, a stamp sheet will automatically appear. Interact with it to receive a stamp.
+
+RESOURCE ID: stamp_page_tutorial_page_2_header
+TEXT: How can I collect stamps?
+
+RESOURCE ID: stamp_page_tutorial_page_3_description
+TEXT: Some stamp rallies allow you to collect stamps together with friends, even if you can't visit the PokéStop yourself. If your friend who is at a level of {0} or higher sends you a gift from that PokéStop, it will also progress your collection!
+
+RESOURCE ID: stamp_page_tutorial_page_3_header
+TEXT: Collect stamps with friends!
+
+RESOURCE ID: stamp_page_tutorial_page_4_description
+TEXT: Some stamp rallies offer items or other rewards for collecting stamps. Collect lots of stamps and encounter many great things!
+
+RESOURCE ID: stamp_page_tutorial_page_4_header
+TEXT: Collect them, and collect them all!
+
+RESOURCE ID: stamp_poi_details_location_info_header
+TEXT: What kind of place is this?
+
+RESOURCE ID: stamp_poi_details_location_info_unvisited
+TEXT: After visiting this location, detailed information will be displayed here.
+
+RESOURCE ID: stamp_poi_details_received_from
+TEXT: Received from: {0}
+
+RESOURCE ID: stamp_poi_details_unvisited
+TEXT: Not visited yet
+
+RESOURCE ID: stamp_poi_details_visited_date
+TEXT: Visited: {0}
+
+RESOURCE ID: stamp_progression
+TEXT: STAMP PROGRESSION
+
+RESOURCE ID: stamp_rally_completed_date
+TEXT: Finished: {0}
+
+RESOURCE ID: stamp_rally_end_time
+TEXT: by {0}
+
+RESOURCE ID: stamp_rally_no_expiration
+TEXT: This event has no expiration date.
+
+RESOURCE ID: stamp_reward_collected_description
+TEXT: Congratulations! You can collect a reward!
+
+RESOURCE ID: stamp_reward_toast
+TEXT: If you collect enough stamps you'll get a reward
+
+RESOURCE ID: stamp_social_receive_tutorial_page_1_header
+TEXT: Collect stamps together with your friends!
+
+RESOURCE ID: stamp_social_receive_tutorial_page_2_header
+TEXT: What is a Stamp rally?
+
+RESOURCE ID: stamp_social_receive_tutorial_page_3_description
+TEXT: Stamps you've collected can be viewed on the Stamp Rally page in the Collection Book.
+
+RESOURCE ID: stamp_social_receive_tutorial_page_3_header
+TEXT: Collected stamps are saved in the Collection Book.
+
+RESOURCE ID: stamp_social_send_tutorial_page_1_description
+TEXT: This gift includes a stamp for a Stamp Rally. Your friend will also receive a gift with a Stamp Rally stamp, allowing them to collect it remotely.
+
+RESOURCE ID: stamp_social_send_tutorial_page_1_header
+TEXT: Postcard with Stamp!
+
+RESOURCE ID: stamp_tutorial_page_1_description
+TEXT: Stamp markers will be displayed above the PokéStops included in the stamp rally.
+When you tap on these PokéStops, the stamp sheet will automatically appear.
+
+RESOURCE ID: stamp_tutorial_page_1_header
+TEXT: Stamp rally target Pokéstop
+
+RESOURCE ID: stamp_tutorial_page_2_description
+TEXT: If there is progress in the stamp rally, the stamp button will be displayed in the menu on the right side of the map until the date changes. By pressing this button, you can easily check the progress of that stamp rally.
+
+RESOURCE ID: stamp_tutorial_page_2_header
+TEXT: Quickly check the progress of the stamp rally
+
 RESOURCE ID: standard_raid_box_title
 TEXT: Pacco raid normale
 
@@ -96934,7 +97639,7 @@ TEXT: <b>Le ricompense includono:</b>
 
 RESOURCE ID: text_rewards_key_cd_sprigatito2025
 TEXT: <b>Le ricompense includono:</b>
-• Strumenti premium nel gioco come un biglietto lotta premium, una MT attacco caricato e caramelle rare
+• Strumenti premium nel gioco come un biglietto lotta premium, una MT attacco caricato e Caramelle Rare
 • Incontri con Sprigatito con uno Sfondo speciale
 • E altro ancora!
 
@@ -97090,15 +97795,17 @@ TEXT: <b>I bonus includono:</b>
 • Opportunità di incontrare Pachirisu, Chatot, Carnivine e tanti altri!
 
 RESOURCE ID: text_rewards_key_gotourhatch2025
-TEXT: <b>Included bonuses:</b>
-• 2× Hatch XP
-• 2× Hatch Stardust
-• 2× Hatch Candy
-<b>Included rewards:</b>
-• Black and White Hoodie avatar item
-• Opportunities to encounter Maractus, Sigilyph, Bouffalant 
-• One Super Incubator
-• 4,000 Stardust and more!
+TEXT: <b>Le ricompense includono:</b>
+• Doppio dei PE da schiusa
+• Doppio della polvere di stelle da schiusa
+• Doppio delle caramelle da schiusa
+
+<b>Le ricompense includono:</b>
+• Felpa nera e bianca per il tuo avatar
+• Incontri con Maractus, Sigilyph e Bouffalant
+• Una Superincubatrice
+• 4.000 unità di polvere di stelle
+• E altro ancora!
 
 RESOURCE ID: text_rewards_key_gotourraid2024
 TEXT: <b>I bonus includono:</b>
@@ -97113,19 +97820,17 @@ Le ricompense includono:
 • 10 caramelle Dialga e 10 caramelle Palkia
 
 RESOURCE ID: text_rewards_key_gotourraid2025
-TEXT: <b>Included bonuses:</b>
-• Additional 5,000 XP awarded for successful raids
-• One additional Candy from five-star Raids 
-• One additional Candy XL from five-star Raids
-• 2x Stardust awarded for successful raids 
-• One additional free Raid Pass per day from spinning Gym Photo Discs
-<b>Included rewards:</b>
-• Black and White Joggers avatar item
-• 5 Virizion Candy XL, 5 Terrakion Candy XL, 5 Cobalion Candy XL, and 5 Tornadus Candy XL
-• 5 Thundurus Candy XL 
-• 5 Landorus Candy XL
-• 25 Genesect Candy XL
-• 10 Reshiram Candy and 10 Zekrom Candy
+TEXT: <b>I bonus includono:</b>
+• 5.000 PE aggiuntivi per aver portato a termine dei raid con successo
+• Una caramella e una caramella L aggiuntive per aver portato a termine dei raid di livello cinque con successo
+• Doppio della polvere di stelle per aver portato a termine dei raid con successo
+• Un biglietto raid aggiuntivo gratuito al giorno facendo girare i dischi delle Palestre
+
+<b>Le ricompense includono:</b>
+• Pantaloni tuta neri e bianchi per il tuo avatar
+• Cinque caramelle L per ognuno dei seguenti Pokémon: Cobalion, Terrakion, Virizion, Tornadus, Thundurus e Landorus
+• 25 caramelle L Genesect 
+• 10 caramelle Reshiram e 10 caramelle Zekrom
 
 RESOURCE ID: text_rewards_key_gowa2024hatchver1
 TEXT: <b>Le ricompense includono:</b>
@@ -97140,8 +97845,8 @@ TEXT: <b>Le ricompense includono:</b>
 Scopri di più sui bonus per il biglietto <a href="https://pokemongolive.com/post/into-the-wild-2024">qui</a>.
 
 RESOURCE ID: text_rewards_key_gowa2024raidver1
-TEXT: <b>Le ricompense includono:</b>
-• Fino a due biglietti raid gratuiti facendo girare i dischi foto delle Palestre
+TEXT: <b>Le ricompense includono:
+• Fino a due biglietti raid gratuiti al giorno facendo girare i dischi foto delle Palestre
 • 5.000 PE aggiuntivi completando i raid
 • Una caramella da cattura aggiuntiva nei raid dal livello quattro in su
 • Ricerca a tempo giornaliera
@@ -97208,6 +97913,12 @@ TEXT: <b>Le ricompense includono:</b>
 
 RESOURCE ID: text_rewards_key_hisuidecidueye2024
 TEXT: <b>Include:</b>
+• Otto biglietti raid aggiuntivi facendo girare i dischi foto delle Palestre
+• Maggiori probabilità di ottenere Caramelle Rare L nei raid
+• 50% di PE in più e doppio della polvere di stelle quando porti a termine un raid con successo
+
+RESOURCE ID: text_rewards_key_hoopaunboundraidday
+TEXT: <b>Bonus inclusi:</b>
 • Otto biglietti raid aggiuntivi facendo girare i dischi foto delle Palestre
 • Maggiori probabilità di ottenere Caramelle Rare L nei raid
 • 50% di PE in più e doppio della polvere di stelle quando porti a termine un raid con successo
@@ -97291,14 +98002,14 @@ TEXT: <b>I bonus includono:</b>
 Se acquisti questa versione, non potrai più acquistare la versione che include la maschera Lucario come extra gratuito. Puoi scoprire di più su questa versione del biglietto e sui suoi bonus <a href="https://pokemongolive.com/post/mega-lucario-raid-ultra-unlock">qui</a>.
 
 RESOURCE ID: text_rewards_key_meloettamasterwork2025
-TEXT: <b>Includes:</b>
-• An encounter with Shiny Meloetta (Aria Forme)
-• Shiny Meloetta T-Shirt avatar item
-• 10 Reshiram Candy, 10 Zekrom Candy, 15 Snivy Candy, 15 Tepig Candy, 15 Oshawott Candy, 10 Darumaka Candy, and 30 Meloetta Candy
-• 14,640 XP and 6,480 Stardust
-• 2 Rare Candy XL and 3 Rare Candies for Trainers level 31 and up
-• 5 Rare Candies for Trainers level 30 and below
-• 60 Ultra Balls, 3 Unova Stone, 5 Golden Razz Berries, 5 Silver Pinap Berries, 1 Lure Module, 2 Incense, and more!
+TEXT: <b>Le ricompense includono:</b>
+• Un incontro con Meloetta cromatico (forma Canto)
+• La T-shirt Meloetta cromatico per il tuo avatar
+• 10 caramelle Reshiram, 10 caramelle Zekrom, 15 caramelle Snivy, 15 caramelle Tepig, 15 caramelle Oshawott, 10 caramelle Darumaka e 30 caramelle Meloetta
+• 14.640 PE e 6.480 unità di polvere di stelle
+• Due caramelle Rare L e tre caramelle Rare per gli Allenatori dal livello 31 in su
+• Cinque caramelle Rare per gli Allenatori dal livello 30 in giù
+• 60 Ultra Ball, tre Pietre Unima, cinque Baccalampon dorate, cinque Baccananas argentate, un modulo esca, due aromi e altro ancora!
 
 RESOURCE ID: text_rewards_key_monochromeholidaysdec2024
 TEXT: <b>Le ricompense includono:</b>
@@ -97392,6 +98103,14 @@ TEXT: Queste ricerche a tempo, che ti richiedono di completare missioni di ricer
 Per tutta la durata dell’evento, i Pokémon incontrati nell’ambito di queste ricerche a tempo hanno la stessa possibilità di essere in versione cromatica di quelli che si possono incontrare nel corso della ricerca sul campo.
 
 Queste ricerche a tempo saranno disponibili il 22 settembre 2024 dalle 14:00 alle 17:00 ora locale.
+
+RESOURCE ID: text_rewards_key_scatteredwindsfeb25
+TEXT: <b>Le ricompense includono:</b>
+• Posa amico di penna
+• Incontri con Butterfree e Beautifly
+• 1 Pezzo Stella
+• 10.000 PE e 16.500 unità di polvere di stelle
+• E altro!
 
 RESOURCE ID: text_rewards_key_sewaddlecd24
 TEXT: <b>Le ricompense includono:</b>
@@ -98635,22 +99354,22 @@ RESOURCE ID: title_addon_unova_raid
 TEXT: Tour GO di Unima: passione raid
 
 RESOURCE ID: title_bonus_dual_destiny_blanche_tr
-TEXT: Thanks from Team Mystic: Bonus Timed Research
+TEXT: Ricerca a tempo aggiuntiva “Un grazie dalla Squadra Saggezza”
 
 RESOURCE ID: title_bonus_dual_destiny_blanche_tr_00
-TEXT: Thanks from Team Mystic: Bonus Timed Research (1/1)
+TEXT: Ricerca a tempo aggiuntiva “Un grazie dalla Squadra Saggezza” (1/1)
 
 RESOURCE ID: title_bonus_dual_destiny_candela_tr
-TEXT: Thanks from Team Valor: Bonus Timed Research
+TEXT: Ricerca a tempo aggiuntiva “Un grazie dalla Squadra Coraggio”
 
 RESOURCE ID: title_bonus_dual_destiny_candela_tr_00
-TEXT: Thanks from Team Valor: Bonus Timed Research (1/1)
+TEXT: Ricerca a tempo aggiuntiva “Un grazie dalla Squadra Coraggio” (1/1)
 
 RESOURCE ID: title_bonus_dual_destiny_spark_tr
-TEXT: Thanks from Team Instinct: Bonus Timed Research
+TEXT: Ricerca a tempo aggiuntiva “Un grazie dalla Squadra Istinto”
 
 RESOURCE ID: title_bonus_dual_destiny_spark_tr_00
-TEXT: Thanks from Team Instinct: Bonus Timed Research (1/1)
+TEXT: Ricerca a tempo aggiuntiva “Un grazie dalla Squadra Istinto” (1/1)
 
 RESOURCE ID: title_bonus_honolulu_greetings
 TEXT: Bonus aggiuntivi “Saluti da Honolulu!”
@@ -98662,16 +99381,16 @@ RESOURCE ID: title_bonus_wcs_2024_team_building
 TEXT: Bonus aggiuntivi “Spirito di squadra (Lega Mega)”
 
 RESOURCE ID: title_event_pass_bonus_bonus_quest
-TEXT: Obiettivi bonus
+TEXT: Missioni aggiuntive
 
 RESOURCE ID: title_event_pass_daily_bonus_quest
-TEXT: Obiettivi giornalieri
+TEXT: Missioni giornaliere
 
 RESOURCE ID: title_event_pass_daily_bonus_quest_premium
-TEXT: Daily Tasks – Premium
+TEXT: Missioni giornaliere premium
 
 RESOURCE ID: title_event_pass_hourly_bonus_quest
-TEXT: Obiettivi orari
+TEXT: Missioni orarie
 
 RESOURCE ID: title_hatch_day_azurill
 TEXT: Giornata della schiusa dedicata a Azurill
@@ -98840,6 +99559,9 @@ TEXT: Questo Pokéstop è troppo lontano per scattare foto di gruppo.
 
 RESOURCE ID: too_far_away_scan
 TEXT: Questo Pokéstop è troppo lontano per posizionare i Pokémon o interagire.
+
+RESOURCE ID: total_stamps_collected
+TEXT: {0} total stamps
 
 RESOURCE ID: tr_151_challenge
 TEXT: Sfida dei 151
@@ -99221,6 +99943,21 @@ TEXT: Ricerca a tempo premium dell’evento “In arrivo dall’Ultramondo”
 
 RESOURCE ID: tr_inbound_from_ultra_space_raid_paid_00
 TEXT: Ricerca a tempo premium dell’evento “In arrivo dall’Ultramondo” (1/1)
+
+RESOURCE ID: tr_kr2025_retention_feb_desc
+TEXT: Ricerca a tempo dell’evento “Sfida Chiarodiluna”
+
+RESOURCE ID: tr_kr2025_retention_feb_title
+TEXT: Sfida Chiarodiluna
+
+RESOURCE ID: tr_kr2025_retention_feb_title_00
+TEXT: Ricerca a tempo dell’evento “Sfida Chiarodiluna” (1/3)
+
+RESOURCE ID: tr_kr2025_retention_feb_title_01
+TEXT: Ricerca a tempo dell’evento “Sfida Chiarodiluna” (2/3)
+
+RESOURCE ID: tr_kr2025_retention_feb_title_02
+TEXT: Ricerca a tempo dell’evento “Sfida Chiarodiluna” (3/3)
 
 RESOURCE ID: tr_latias_photo_safari
 TEXT: Zaffiro: safari fotografico di Latias
@@ -102034,6 +102771,12 @@ TEXT: Pronti, partenza... GO!
 RESOURCE ID: willpower_cup_title
 TEXT: Coppa Scontro di volontà
 
+RESOURCE ID: win gmax_battle_plural
+TEXT: Win {0} Gigantamax Battles
+
+RESOURCE ID: win_gmax_battle_singular
+TEXT: Win a Gigantamax Battle
+
 RESOURCE ID: win_max_battle_plural
 TEXT: Vinci {0} Lotte Dynamax
 
@@ -102224,7 +102967,7 @@ RESOURCE ID: your_trainer_code_title
 TEXT: Il tuo codice Allenatore
 
 RESOURCE ID: zorua_o_clock_active
-TEXT: Zorua are now appearing in large numbers!
+TEXT: Zorua sta apparendo in gran numero!
 
 RESOURCE ID: zygarde_tappable_push_notification
 TEXT: È apparso qualcosa di misterioso!
