@@ -26,6 +26,18 @@ TEXT: Bu özelliği kullanmak için lütfen şu ayarların her ikisinin de etkin
 
 2. Ayarlar > Bildirimler > Macera Senkronizasyonu: Yakında
 
+RESOURCE ID: age_confirm_contact
+TEXT: Contact Support
+
+RESOURCE ID: age_confirm_explain
+TEXT: Trainers must meet certain age requirements to log in with this type of account. Please confirm your date of birth.
+
+RESOURCE ID: age_confirm_fail
+TEXT: Sorry, you do not meet the <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">age requirements</a> to log in with this type of account and your account will be deleted pursuant to our Terms of Service. If you believe you are eligible to log in with this type of account, please contact us.
+
+RESOURCE ID: age_confirm_popup_confirm
+TEXT: Are you sure? This cannot be changed after you submit.
+
 RESOURCE ID: april_power_up_monthly_ticket_title
 TEXT: Güçlendirme Bileti: Nisan
 
@@ -184,6 +196,10 @@ TEXT: 8 Mart, 14.00-17.00
 RESOURCE ID: event_datetime_range_key_ffsr0325
 TEXT: 5 Mart, 10.00 -
 29 Mayıs, 20.00
+
+RESOURCE ID: event_datetime_range_key_gofest2025ver1
+TEXT: 28 Haziran, 10.00 -
+29 Haziran, 18.00
 
 RESOURCE ID: event_datetime_range_key_gotour2025
 TEXT: 24 Şubat, 10.00 -
@@ -352,6 +368,9 @@ TEXT: Güçlendirme Bileti: Mart
 
 RESOURCE ID: general1.ticket._ffsr0325_title
 TEXT: Pofuduk Dövüşçü Özel Araştırması Bileti
+
+RESOURCE ID: general1.ticket._gofest2025ver1_title
+TEXT: Pokémon GO Festivali 2025: Küresel Bileti
 
 RESOURCE ID: general1.ticket._gotourhatch2025
 TEXT: Unova Yollarında: Yumurta Çatlatma
@@ -868,6 +887,14 @@ TEXT: 20 Şubat 2025, yerel saatle 20.00’ye kadar sürecek Rüzgârla Savrulan
 RESOURCE ID: item_event_ticket_08_details_scatteredwindsfeb25
 TEXT: Bu bilet Rüzgârla Savrulanlar premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için 18 Şubat’ta otomatik olarak etkinleştirilecek.
 
+RESOURCE ID: item_event_ticket_10_desc_gofest2025ver1
+TEXT: 28-29 Haziran 2025’te gerçekleşecek Pokémon GO Festivali 2025: Küresel etkinliğine dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
+
+RESOURCE ID: item_event_ticket_10_details_gofest2025ver1
+TEXT: 28-29 Haziran 2025’te gerçekleşecek Pokémon GO Festivali 2025: Küresel etkinliğine dilediğiniz yerden katılmanıza olanak tanıyan bir bilet. Ayrıntıları oyun içi Haberler bölümünde bulabilirsiniz.
+
+Etkinliğe ait tüm bonusları alabilmek için oyunu belirtilen saatlerde oynamalısınız.
+
 RESOURCE ID: item_event_ticket_evergreen_desc_ffsr0325
 TEXT: Pofuduk Dövüşçü özel araştırmasına dilediğiniz yerden erişebilmenizi sağlayacak bir bilet.
 
@@ -965,10 +992,10 @@ RESOURCE ID: may_power_up_monthly_ticket_title_4
 TEXT: Güçlendirme Bileti: Mayıs (4/4)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-04T02:49:15.507030+00:00 for tr-TR
-at SHA f48060210c5
-Pipeline 3043552, job 37724253
-Patch from: 0.351.0-SHA-2259cb4d-RC2, 0.349.1-SHA-0239bdf8-RC1, 0.353.0-SHA-a88947a0-RC1, 0.351.0-SHA-f7106c82-RC1
+TEXT: Built at 2025-03-06T00:07:20.854740+00:00 for tr-TR
+at SHA cc197b0ef2a
+Pipeline 3049349, job 37857898
+Patch from: 0.351.0-SHA-f7106c82-RC1, 0.349.1-SHA-0239bdf8-RC1, 0.351.0-SHA-5f088d7d-RC4, 0.353.0-SHA-a88947a0-RC1
 
 RESOURCE ID: move_name_0468
 TEXT: Meşale Şarkısı
@@ -1011,7 +1038,7 @@ RESOURCE ID: pokedex_info_battle_damage_header
 TEXT: Hasar
 
 RESOURCE ID: pokedex_info_battle_elite_header
-TEXT: ELITE TM ATTACKS
+TEXT: ELİT TM SALDIRILARI
 
 RESOURCE ID: pokedex_info_battle_fast_header
 TEXT: Hızlı Saldırı
@@ -1501,7 +1528,7 @@ TEXT: <b>Şunları içerir:</b>
 • Tamamlanan akın ve Maksi Maçlardan ilave bir büyük şeker
 • Her gün günün ilk döndürmesi ve günün ilk yakalaması için 3× TP
 • Eşya Çantasında 2× Hediye bulundurma (toplam 40)
-• 15.000 TP ve 15.000 yıldız tozu kazandıran süreli araştırma
+• 50.000 TP ve 50.000 yıldız tozu kazandıran süreli araştırma
 • Ve daha fazlası!
 
 RESOURCE ID: text_rewards_key_cd_fuecoco25
@@ -1521,6 +1548,39 @@ TEXT: <b>Şu ödülleri içerir:</b>
 • 1 Tütsü
 • 2000 TP ve 3000 yıldız tozu
 • Ve daha fazlası!
+
+RESOURCE ID: text_rewards_key_gofest2025ver1
+TEXT: <b>Şunları içerir:</b>
+• Mitolojik Pokémon Volcanion ile bir karşılaşma
+• Etkinlik boyunca Parlak Pokémon’larla daha yüksek karşılaşma şansı
+• Spor salonu fotoğraf diski döndürerek her gün 9 adede kadar ücretsiz Akın Bileti
+• 5 km’lik yumurtalardan etkinlik temalı Pokémon’lar çıkıyor
+• Tütsüler özel Pokémon’ları çekebilir
+• Farklı kollara ayrılan ve Zacian veya Zamazenta’ya odaklanan özel araştırma
+• Günde toplam 6 adede kadar ilave özel takas
+• Takaslarda gereken yıldız tozu bedelinde %50 indirim
+• Her habitat için bir toplama görevi
+• Günlük ilave fotoğraf sürprizi
+• İki kat dost kalbi
+• İlave bonusların kilidini açmak için saat başı küresel görev
+
+<b>İlave içerik:</b>
+• 15 Nisan’a kadar satın alınan biletler için 8-15 Nisan arasında gerçekleşecek süreli araştırmada Skiddo ile bir karşılaşma!
+
+RESOURCE ID: text_rewards_key_gofest2025ver2
+TEXT: <b>Şunları içerir:</b>
+• Mitolojik Pokémon Volcanion ile bir karşılaşma
+• Etkinlik boyunca Parlak Pokémon’larla daha yüksek karşılaşma şansı
+• Spor salonu fotoğraf diski döndürerek her gün 9 adede kadar ücretsiz Akın Bileti
+• 5 km’lik yumurtalardan etkinlik temalı Pokémon’lar çıkıyor
+• Tütsüler özel Pokémon’ları çekebilir
+• Farklı kollara ayrılan ve Zacian veya Zamazenta’ya odaklanan özel araştırma
+• Günde toplam 6 adede kadar ilave özel takas
+• Takaslarda gereken yıldız tozu bedelinde %50 indirim
+• Her habitat için bir toplama görevi
+• Günlük ilave fotoğraf sürprizi
+• İki kat dost kalbi
+• İlave bonusların kilidini açmak için saat başı küresel görev
 
 RESOURCE ID: text_rewards_key_gotourhatch2025
 TEXT: <b>Bonuslar arasında şunlar yer alıyor:</b>
@@ -1568,7 +1628,7 @@ TEXT: <b>Şunları içerir:</b>
 • Tamamlanan akın ve Maksi Maçlardan ilave bir büyük şeker
 • Her gün günün ilk döndürmesi ve günün ilk yakalaması için 3× TP
 • Eşya Çantasında 2× Hediye bulundurma (toplam 40)
-• 15.000 TP ve 15.000 yıldız tozu kazandıran süreli araştırma
+• 50.000 TP ve 50.000 yıldız tozu kazandıran süreli araştırma
 • Ve daha fazlası!
 
 RESOURCE ID: text_rewards_key_meloettamasterwork2025

@@ -26,6 +26,18 @@ TEXT: 이 기능을 사용하려면 다음을 겨주셔야합니다.
 
 2. 설정> 알림 설정> 언제나 모험 모드 상태
 
+RESOURCE ID: age_confirm_contact
+TEXT: Contact Support
+
+RESOURCE ID: age_confirm_explain
+TEXT: Trainers must meet certain age requirements to log in with this type of account. Please confirm your date of birth.
+
+RESOURCE ID: age_confirm_fail
+TEXT: Sorry, you do not meet the <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">age requirements</a> to log in with this type of account and your account will be deleted pursuant to our Terms of Service. If you believe you are eligible to log in with this type of account, please contact us.
+
+RESOURCE ID: age_confirm_popup_confirm
+TEXT: Are you sure? This cannot be changed after you submit.
+
 RESOURCE ID: april_power_up_monthly_ticket_title
 TEXT: 강화 티켓: 4월
 
@@ -366,6 +378,10 @@ RESOURCE ID: event_datetime_range_key_ffsr0325
 TEXT: 3월 5일 10:00~
 5월 29일 16:00
 
+RESOURCE ID: event_datetime_range_key_gofest2025ver1
+TEXT: 6월 28일 10:00~
+6월 29일 18:00
+
 RESOURCE ID: event_datetime_range_key_gotour2025
 TEXT: 2월 24일 10시~
 3월 2일 20시
@@ -532,6 +548,9 @@ TEXT: 강화 티켓: 3월
 
 RESOURCE ID: general1.ticket._ffsr0325_title
 TEXT: 복슬 파이터 스페셜리서치 티켓
+
+RESOURCE ID: general1.ticket._gofest2025ver1_title
+TEXT: Pokémon GO Fest 2025: 글로벌 티켓
 
 RESOURCE ID: general1.ticket._gotourhatch2025
 TEXT: 하나로의 길: 부화
@@ -1119,6 +1138,14 @@ TEXT: 현지시간 20025년 2월 20일 20시까지 바람에 띄우는 마음 �
 RESOURCE ID: item_event_ticket_08_details_scatteredwindsfeb25
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2월 18일에 바람에 띄우는 마음 프리미엄 시간제한 리서치가 진행됩니다.
 
+RESOURCE ID: item_event_ticket_10_desc_gofest2025ver1
+TEXT: 현지시간 2025년 6월 28일, 29일에  Pokémon GO Fest 2025: 글로벌에 참가할 수 있는 티켓.
+
+RESOURCE ID: item_event_ticket_10_details_gofest2025ver1
+TEXT: 현지 시간 2025년 6월 28일, 29일 개최하는 게임 내 이벤트 'Pokémon GO Fest 2025: 글로벌'에 참가할 수 있는 티켓. 자세한 내용은 게임 내 새소식에서 확인할 수 있습니다.
+
+이벤트를 최대한 즐기려면 기재된 개최 시간 내에 완료할 필요가 있습니다.
+
 RESOURCE ID: item_event_ticket_evergreen_desc_ffsr0325
 TEXT: 복슬 파이터 스페셜리서치에 참가할 수 있는 티켓
 
@@ -1213,10 +1240,10 @@ RESOURCE ID: may_power_up_monthly_ticket_title_4
 TEXT: 강화 티켓: 5월(4/4)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-04T02:49:15.507030+00:00 for ko-KR
-at SHA f48060210c5
-Pipeline 3043552, job 37724253
-Patch from: 0.351.0-SHA-2259cb4d-RC2, 0.349.1-SHA-0239bdf8-RC1, 0.353.0-SHA-a88947a0-RC1, 0.351.0-SHA-f7106c82-RC1
+TEXT: Built at 2025-03-06T00:07:20.854740+00:00 for ko-KR
+at SHA cc197b0ef2a
+Pipeline 3049349, job 37857898
+Patch from: 0.351.0-SHA-f7106c82-RC1, 0.349.1-SHA-0239bdf8-RC1, 0.351.0-SHA-5f088d7d-RC4, 0.353.0-SHA-a88947a0-RC1
 
 RESOURCE ID: move_name_0468
 TEXT: 플레어송
@@ -1924,7 +1951,7 @@ TEXT: <b>받을 수 있는 것:</b>
 - 레이드배틀과 맥스배틀 완료로 받을 수 있는 사탕XL 1개 추가
 - 매일 처음 포켓스톱을 스핀했을 때와 첫 1마리에서 받을 수 있는 XP 3배
 - 도구 가방에 가질 수 있는 선물의 수 2배(총 40개)
-- 15,000XP와 별의모래 15,000개를 받을 수 있는 시간제한 리서치
+- 50,000XP와 별의모래 50,000개를 받을 수 있는 시간제한 리서치
 - 기타
 
 RESOURCE ID: text_rewards_key_cd_fuecoco25
@@ -1944,6 +1971,39 @@ TEXT: <b>받을 수 있는 리워드:</b>
 - 향로 1개
 - 2,000XP와 별의모래 3,000개
 - 기타
+
+RESOURCE ID: text_rewards_key_gofest2025ver1
+TEXT: <b>받을 수 있는 것:</b>
+- 환상의 포켓몬 볼케니온과의 만남
+- 이벤트 중 색이 다른 포켓몬과 만날 확률 증가
+- 매일 체육관 포토디스크를 돌려 레이드패스를 최대9장 받을 수 있다
+- 이벤트 관련 포켓몬이 5km 알에서 부화.
+- 특별한 포켓몬이 향로에 반응한다
+- 자시안 또는 자마젠타를 조사하는 스페셜리서치
+- 하루에 가능한 특별한 교환이 총 6회
+- 포켓몬 교환에 필요한 별의모래 감소
+- 각 서식지 컬렉션 챌린지
+- 추가 GO스냅샷 서프라이즈
+- 파트너 포켓몬의 하트 2배
+- 추가 보너스 잠금해제할 1시간 글로벌 챌린지 등
+
+<b>추가로 받을 수 있는 것</b>
+- 4월 15일까지 구매하고, 4월 8일~15일에 플레이하면 메이클과 만날 수 있는 시간제한 리서치
+
+RESOURCE ID: text_rewards_key_gofest2025ver2
+TEXT: <b>받을 수 있는 것:</b>
+- 환상의 포켓몬 볼케니온과의 만남
+- 이벤트 중 색이 다른 포켓몬과 만날 확률 증가
+- 매일 체육관 포토디스크를 돌려 레이드패스를 최대9장 받을 수 있다
+- 이벤트 관련 포켓몬이 5km 알에서 부화.
+- 특별한 포켓몬이 향로에 반응한다
+- 자시안 또는 자마젠타를 조사하는 스페셜리서치
+- 하루에 가능한 특별한 교환이 총 6회
+- 포켓몬 교환에 필요한 별의모래 감소
+- 각 서식지 컬렉션 챌린지
+- 추가 GO스냅샷 서프라이즈
+- 파트너 포켓몬의 하트 2배
+- 추가 보너스 잠금해제할 1시간 글로벌 챌린지 등
 
 RESOURCE ID: text_rewards_key_gotourhatch2025
 TEXT: <b>적용 되는 보너스:</b>
@@ -1987,7 +2047,7 @@ TEXT: <b>받을 수 있는 것:</b>
 - 레이드배틀과 맥스배틀 완료로 받을 수 있는 사탕XL 1개 추가
 - 매일 처음 포켓스톱을 스핀했을 때와 첫 1마리에서 받을 수 있는 XP 3배
 - 도구 가방에 가질 수 있는 선물의 수 2배(총 40개)
-- 15,000XP와 별의모래 15,000개를 받을 수 있는 시간제한 리서치
+- 50,000XP와 별의모래 50,000개를 받을 수 있는 시간제한 리서치
 - 기타
 
 RESOURCE ID: text_rewards_key_meloettamasterwork2025

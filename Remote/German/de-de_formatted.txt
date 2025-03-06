@@ -26,6 +26,18 @@ TEXT: Bitte stelle sicher, dass die beiden folgenden Einstellungen aktiviert sin
 
 2. Einstellungen > Benachrichtigungen > Abenteuer-Sync: In der Nähe
 
+RESOURCE ID: age_confirm_contact
+TEXT: Contact Support
+
+RESOURCE ID: age_confirm_explain
+TEXT: Trainers must meet certain age requirements to log in with this type of account. Please confirm your date of birth.
+
+RESOURCE ID: age_confirm_fail
+TEXT: Sorry, you do not meet the <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">age requirements</a> to log in with this type of account and your account will be deleted pursuant to our Terms of Service. If you believe you are eligible to log in with this type of account, please contact us.
+
+RESOURCE ID: age_confirm_popup_confirm
+TEXT: Are you sure? This cannot be changed after you submit.
+
 RESOURCE ID: april_power_up_monthly_ticket_title
 TEXT: Power-up-Ticket: April
 
@@ -181,6 +193,10 @@ TEXT: 8. März, 14:00 bis 17:00 Uhr
 RESOURCE ID: event_datetime_range_key_ffsr0325
 TEXT: 5. März um 10:00 Uhr bis
 29. Mai um 20:00 Uhr
+
+RESOURCE ID: event_datetime_range_key_gofest2025ver1
+TEXT: 28. Juni um 10:00 Uhr bis
+29. Juni um 18:00 Uhr
 
 RESOURCE ID: event_datetime_range_key_gotour2025
 TEXT: 24. Februar um 10:00 Uhr bis
@@ -345,6 +361,9 @@ TEXT: Power-up-Ticket: März
 
 RESOURCE ID: general1.ticket._ffsr0325_title
 TEXT: Spezialforschungs-Ticket: Flauschiger Kämpfer
+
+RESOURCE ID: general1.ticket._gofest2025ver1_title
+TEXT: Ticket: Pokémon GO Fest 2025: Global
 
 RESOURCE ID: general1.ticket._gotourhatch2025
 TEXT: Der Weg nach Einall: Schlüpfen
@@ -864,6 +883,14 @@ TEXT: Ein Ticket für den Zugang zur Befristeten Premium-Forschung „Purzelnde 
 RESOURCE ID: item_event_ticket_08_details_scatteredwindsfeb25
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Premium-Forschung „Purzelnde Purmel“ am 18. Februar (wo immer du dich befindest).
 
+RESOURCE ID: item_event_ticket_10_desc_gofest2025ver1
+TEXT: Ein Ticket zur Teilnahme am „Pokémon GO Fest 2025: Global“ am 28. und 29. Juni 2025 (wo immer du dich befindest).
+
+RESOURCE ID: item_event_ticket_10_details_gofest2025ver1
+TEXT: Ein Ticket zur Teilnahme am „Pokémon GO Fest 2025: Global“ am 28. und 29. Juni 2025 (wo immer du dich befindest). Details unter „Neuigkeiten“ im Spiel.
+
+Du musst während des angegebenen Zeitraums spielen, um alle Event-Boni zu erhalten.
+
 RESOURCE ID: item_event_ticket_evergreen_desc_ffsr0325
 TEXT: Ein Ticket zur Teilnahme an der Spezialforschung „Flauschiger Kämpfer“ (wo immer du dich befindest).
 
@@ -976,10 +1003,10 @@ RESOURCE ID: may_power_up_monthly_ticket_title_4
 TEXT: Power-up-Ticket: Mai (4/4)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-04T02:49:15.507030+00:00 for de-DE
-at SHA f48060210c5
-Pipeline 3043552, job 37724253
-Patch from: 0.351.0-SHA-2259cb4d-RC2, 0.349.1-SHA-0239bdf8-RC1, 0.353.0-SHA-a88947a0-RC1, 0.351.0-SHA-f7106c82-RC1
+TEXT: Built at 2025-03-06T00:07:20.854740+00:00 for de-DE
+at SHA cc197b0ef2a
+Pipeline 3049349, job 37857898
+Patch from: 0.351.0-SHA-f7106c82-RC1, 0.349.1-SHA-0239bdf8-RC1, 0.351.0-SHA-5f088d7d-RC4, 0.353.0-SHA-a88947a0-RC1
 
 RESOURCE ID: move_name_0468
 TEXT: Loderlied
@@ -1472,7 +1499,7 @@ TEXT: <b>Enthält:</b>
 • Ein zusätzliches Bonbon XL für das Abschließen von Raids und Dyna-Kämpfen
 • 3× EP für deinen ersten Dreh und Fang des Tages
 • Bewahre 2× so viele Geschenke in deinem Item-Beutel auf (40 insgesamt)
-• Eine Befristete Forschung mit 15 000 EP und 15 000 Sternenstaub als Belohnung
+• Eine Befristete Forschung mit 50 000 EP und 50 000 Sternenstaub als Belohnung
 • Und mehr!
 
 RESOURCE ID: text_rewards_key_cd_fuecoco25
@@ -1492,6 +1519,39 @@ TEXT: <b>Enthaltene Belohnungen:</b>
 • 1 Rauch 
 • 2000 EP und 3000 Sternenstaub
 • Und mehr!
+
+RESOURCE ID: text_rewards_key_gofest2025ver1
+TEXT: <b>Enthaltene Belohnungen:</b>
+• Eine Begegnung mit dem Mysteriösen Pokémon Volcanion
+• Eine höhere Chance, während des Events Schillernden Pokémon zu begegnen
+• Bis zu 9 kostenlose Raid-Pässe pro Tag durch das Drehen von Fotoscheiben auf Arenen
+• Event-Pokémon schlüpfen aus 5-km-Eiern
+• Rauch lockt eventuell besondere Pokémon an
+• Spezialforschung mit verschiedenen Forschungswegen mit Fokus auf Zacian oder Zamazenta
+• Zusätzliche Spezial-Tausche, insgesamt 6 pro Tag
+• 50 % Sternenstaub-Kosten für jeden Tausch
+• Eine Sammler-Herausforderung für jeden Lebensraum
+• Zusätzliche tägliche Schnappschuss-Überraschungen
+• Doppelte Menge an Kumpel-Herzen
+• Stündliche Globale Herausforderungen, um zusätzliche Boni freizuschalten
+
+<b>Zusatzinhalt:</b>
+• Schnapp dir dieses Ticket bis zum 15. April und spiele zwischen dem 8. und 15. April, um eine Befristete Forschung zu erhalten, die eine Begegnung mit Mähikel zur Belohnung hat!
+
+RESOURCE ID: text_rewards_key_gofest2025ver2
+TEXT: <b>Enthaltene Belohnungen:</b>
+• Eine Begegnung mit dem Mysteriösen Pokémon Volcanion
+• Eine höhere Chance, während des Events Schillernden Pokémon zu begegnen
+• Bis zu 9 kostenlose Raid-Pässe pro Tag durch das Drehen von Fotoscheiben auf Arenen
+• Event-Pokémon schlüpfen aus 5-km-Eiern
+• Rauch lockt eventuell besondere Pokémon an
+• Spezialforschung mit verschiedenen Forschungswegen mit Fokus auf Zacian oder Zamazenta
+• Zusätzliche Spezial-Tausche, insgesamt 6 pro Tag
+• 50 % Sternenstaub-Kosten für jeden Tausch
+• Eine Sammler-Herausforderung für jeden Lebensraum
+• Zusätzliche tägliche Schnappschuss-Überraschungen
+• Doppelte Menge an Kumpel-Herzen
+• Stündliche Globale Herausforderungen, um zusätzliche Boni freizuschalten
 
 RESOURCE ID: text_rewards_key_gotourhatch2025
 TEXT: <b>Enthaltene Boni:</b>
@@ -1539,7 +1599,7 @@ TEXT: <b>Enthält:</b>
 • Ein zusätzliches Bonbon XL für das Abschließen von Raids und Dyna-Kämpfen
 • 3× EP für deinen ersten Dreh und Fang des Tages
 • Bewahre 2× so viele Geschenke in deinem Item-Beutel auf (40 insgesamt)
-• Eine Befristete Forschung mit 15 000 EP und 15 000 Sternenstaub als Belohnung
+• Eine Befristete Forschung mit 50 000 EP und 50 000 Sternenstaub als Belohnung
 • Und mehr!
 
 RESOURCE ID: text_rewards_key_meloettamasterwork2025

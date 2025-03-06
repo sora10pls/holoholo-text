@@ -26,6 +26,18 @@ TEXT: 如要使用此功能，需要開啟以下設定。
 
 2.設定>通知>時時刻刻冒險：附近
 
+RESOURCE ID: age_confirm_contact
+TEXT: Contact Support
+
+RESOURCE ID: age_confirm_explain
+TEXT: Trainers must meet certain age requirements to log in with this type of account. Please confirm your date of birth.
+
+RESOURCE ID: age_confirm_fail
+TEXT: Sorry, you do not meet the <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">age requirements</a> to log in with this type of account and your account will be deleted pursuant to our Terms of Service. If you believe you are eligible to log in with this type of account, please contact us.
+
+RESOURCE ID: age_confirm_popup_confirm
+TEXT: Are you sure? This cannot be changed after you submit.
+
 RESOURCE ID: april_power_up_monthly_ticket_title
 TEXT: 強化入場券：4月
 
@@ -368,6 +380,10 @@ RESOURCE ID: event_datetime_range_key_ffsr0325
 TEXT: 3月5日10:00～
 3月29日20:00
 
+RESOURCE ID: event_datetime_range_key_gofest2025ver1
+TEXT: 6月28日10:00～
+6月29日18:00
+
 RESOURCE ID: event_datetime_range_key_gotour2025
 TEXT: 2月24日10:00～
 3月2日20:00
@@ -534,6 +550,10 @@ TEXT: 強化入場券：3月
 
 RESOURCE ID: general1.ticket._ffsr0325_title
 TEXT: 毛茸茸鬥士特殊調查入場券
+
+RESOURCE ID: general1.ticket._gofest2025ver1_title
+TEXT: Pokémon GO Fest 2025：
+全球入場券
 
 RESOURCE ID: general1.ticket._gotourhatch2025
 TEXT: 前往合眾之路：孵蛋
@@ -1121,6 +1141,14 @@ TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時�
 RESOURCE ID: item_event_ticket_08_details_scatteredwindsfeb25
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在2月18日參與乘風傳遞的心意特級限時調查。
 
+RESOURCE ID: item_event_ticket_10_desc_gofest2025ver1
+TEXT: 不論你身在何處，都可以用這張入場券在當地時間2025年6月28日、29日參與Pokémon GO Fest 2025：全球。
+
+RESOURCE ID: item_event_ticket_10_details_gofest2025ver1
+TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當地時間2025年6月28日、29日參加遊戲裡的「Pokémon GO Fest 2025：全球」。詳情請至遊戲快訊確認。
+
+請務必在上述活動時間內完成活動指定的課題，以取得活動獎勵。
+
 RESOURCE ID: item_event_ticket_evergreen_desc_ffsr0325
 TEXT: 無論你身在何處，都可以用這張入場券來領取「毛茸茸鬥士」的特殊調查。
 
@@ -1215,10 +1243,10 @@ RESOURCE ID: may_power_up_monthly_ticket_title_4
 TEXT: 強化入場券：5月(4/4)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-04T02:49:15.507030+00:00 for zh-TW
-at SHA f48060210c5
-Pipeline 3043552, job 37724253
-Patch from: 0.351.0-SHA-2259cb4d-RC2, 0.349.1-SHA-0239bdf8-RC1, 0.353.0-SHA-a88947a0-RC1, 0.351.0-SHA-f7106c82-RC1
+TEXT: Built at 2025-03-06T00:07:20.854740+00:00 for zh-TW
+at SHA cc197b0ef2a
+Pipeline 3049349, job 37857898
+Patch from: 0.351.0-SHA-f7106c82-RC1, 0.349.1-SHA-0239bdf8-RC1, 0.351.0-SHA-5f088d7d-RC4, 0.353.0-SHA-a88947a0-RC1
 
 RESOURCE ID: move_name_0299
 TEXT: 加農水炮
@@ -1936,7 +1964,7 @@ TEXT: <b>可獲得的獎勵：</b>
 ・完成團體戰和極巨對戰時一定可獲得1個額外的糖果XL
 ・旋轉當天第1個寶可補給站轉盤和每天捉到第1隻寶可夢時可獲得3倍XP
 ・包包裡可存放的禮物增為2倍（最多40個）
-・完成後即可獲得15000XP及15000星星沙子的限時調查課題
+・完成後即可獲得50000XP及50000星星沙子的限時調查課題
 ・其他
 
 RESOURCE ID: text_rewards_key_cd_fuecoco25
@@ -1956,6 +1984,38 @@ TEXT: <b>可獲得的獎勵：</b>
 ・1個薰香
 ・2000XP以及3000星星沙子
 ・其他
+
+RESOURCE ID: text_rewards_key_gofest2025ver1
+TEXT: <b>可獲得的獎勵：</b>
+・與幻之寶可夢波爾凱尼恩相遇
+・在活動期間內與異色寶可夢相遇的機率提升
+・每天可透過旋轉道館轉盤獲得最多9張免費團體戰入場券
+・5公里蛋中將可孵出活動主題寶可夢
+・薰香有可能吸引到特殊寶可夢
+・調查蒼響或藏瑪然特的特殊調查
+・每天最多可進行6次特殊交換
+・交換所需的星星沙子減半
+・各個棲息地的收藏家挑戰
+・額外的Snapshot驚喜現身
+・夥伴獲得的心心加倍
+・可解鎖額外獎勵的每小時全球大挑戰等
+<b>還可額外獲得以下獎勵：</b>
+・4月15日以前購買這張入場券並於4月8日～15日遊玩，即可參與能和坐騎小羊相遇的限時調查
+
+RESOURCE ID: text_rewards_key_gofest2025ver2
+TEXT: <b>可獲得的獎勵：</b>
+・與幻之寶可夢波爾凱尼恩相遇
+・在活動期間內與異色寶可夢相遇的機率提升
+・每天可透過旋轉道館轉盤獲得最多9張免費團體戰入場券
+・5公里蛋中將可孵出活動主題寶可夢
+・薰香有可能吸引到特殊寶可夢
+・調查蒼響或藏瑪然特的特殊調查
+・每天最多可進行6次特殊交換
+・交換所需的星星沙子減半
+・各個棲息地的收藏家挑戰
+・額外的Snapshot驚喜現身
+・夥伴獲得的心心加倍
+・可解鎖額外獎勵的每小時全球大挑戰等
 
 RESOURCE ID: text_rewards_key_gotourhatch2025
 TEXT: <b>適用獎勵：</b>
@@ -2001,7 +2061,7 @@ TEXT: <b>可獲得的獎勵：</b>
 ・完成團體戰和極巨對戰時一定可獲得1個額外的糖果XL
 ・旋轉當天第1個寶可補給站轉盤和每天捉到第1隻寶可夢時可獲得3倍XP
 ・包包裡可存放的禮物增為2倍（最多40個）
-・完成後即可獲得15000XP及15000星星沙子的限時調查課題
+・完成後即可獲得50000XP及50000星星沙子的限時調查課題
 ・其他
 
 RESOURCE ID: text_rewards_key_meloettamasterwork2025
@@ -2092,10 +2152,10 @@ RESOURCE ID: tr_kr2025_retention_springbreeze_title_03
 TEXT: 春風挑戰限時調查(4/4)
 
 RESOURCE ID: win gmax_battle_plural
-TEXT: Win {0} Gigantamax Battles
+TEXT: 在超極巨化對戰中獲勝{0}次
 
 RESOURCE ID: win_gmax_battle_singular
-TEXT: Win a Gigantamax Battle
+TEXT: 在超極巨化對戰中獲勝1次
 
 RESOURCE ID: zorua_o_clock_active
 TEXT: 索羅亞大量出現中！

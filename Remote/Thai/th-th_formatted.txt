@@ -29,6 +29,18 @@ TEXT: โปรดตรวจสอบใหแนใจวาได�
 
 2. การตั้งคา > การแจงเตือน > แอดเวนเจอรซิงค: บริเวณใกลเคียง
 
+RESOURCE ID: age_confirm_contact
+TEXT: Contact Support
+
+RESOURCE ID: age_confirm_explain
+TEXT: Trainers must meet certain age requirements to log in with this type of account. Please confirm your date of birth.
+
+RESOURCE ID: age_confirm_fail
+TEXT: Sorry, you do not meet the <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">age requirements</a> to log in with this type of account and your account will be deleted pursuant to our Terms of Service. If you believe you are eligible to log in with this type of account, please contact us.
+
+RESOURCE ID: age_confirm_popup_confirm
+TEXT: Are you sure? This cannot be changed after you submit.
+
 RESOURCE ID: april_power_up_monthly_ticket_title
 TEXT: ตั๋วพาวเวอรอัป: เมษายน
 
@@ -371,6 +383,10 @@ RESOURCE ID: event_datetime_range_key_ffsr0325
 TEXT: 5 มีนาคม 10:00 น. ถึง
 29 พฤษภาคม 20:00 น.
 
+RESOURCE ID: event_datetime_range_key_gofest2025ver1
+TEXT: 28 มิถุนายน 10:00 น. ถึง
+29 มิถุนายน 18:00 น.
+
 RESOURCE ID: event_datetime_range_key_gotour2025
 TEXT: 24 กุมภาพันธ 10:00 น. ถึง
 2 มีนาคม 20:00 น.
@@ -546,6 +562,9 @@ TEXT: ตั๋วพาวเวอรอัป: มีนาคม
 
 RESOURCE ID: general1.ticket._ffsr0325_title
 TEXT: ตั๋วงานวิจัยพิเศษนักสูขนปุย
+
+RESOURCE ID: general1.ticket._gofest2025ver1_title
+TEXT: ตั๋ว Pokémon GO Fest 2025: ทั่วโลก
 
 RESOURCE ID: general1.ticket._gotourhatch2025
 TEXT: เสนทางสูอิชชู: ฟกไข
@@ -1368,6 +1387,18 @@ TEXT: ตั๋วสำหรับเขารวมงานวิจ�
 คุณจะสามารถเขารวมไดโดยอัตโนมัติ
 ตามเวลาทองถิ่นทั่วโลก
 
+RESOURCE ID: item_event_ticket_10_desc_gofest2025ver1
+TEXT: ตั๋วสำหรับเขารวม Pokémon GO Fest 2025: ทั่วโลก ในวันที่ 28-29 มิถุนายน 2025 ตามเวลาทองถิ่นทั่วโลก
+
+RESOURCE ID: item_event_ticket_10_details_gofest2025ver1
+TEXT: ตั๋วสำหรับเขารวม Pokémon GO Fest 2025: ทั่วโลก
+ในวันที่ 28-29 มิถุนายน 2025
+ตามเวลาทองถิ่น
+สามารถดูรายละเอียดไดที่ขาวสารในเกม
+
+คุณตองเลนเกมในชวงเวลาที่กำหนด
+เพื่อรับโบนัสทั้งหมดจากอีเวนตพิเศษ
+
 RESOURCE ID: item_event_ticket_evergreen_desc_ffsr0325
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษ "นักสูขนปุย" ไดจากทุกที่
 
@@ -1508,10 +1539,10 @@ RESOURCE ID: may_power_up_monthly_ticket_title_4
 TEXT: ตั๋วพาวเวอรอัป: พฤษภาคม (4/4)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-04T02:49:15.507030+00:00 for th-TH
-at SHA f48060210c5
-Pipeline 3043552, job 37724253
-Patch from: 0.351.0-SHA-2259cb4d-RC2, 0.349.1-SHA-0239bdf8-RC1, 0.353.0-SHA-a88947a0-RC1, 0.351.0-SHA-f7106c82-RC1
+TEXT: Built at 2025-03-06T00:07:20.854740+00:00 for th-TH
+at SHA cc197b0ef2a
+Pipeline 3049349, job 37857898
+Patch from: 0.351.0-SHA-f7106c82-RC1, 0.349.1-SHA-0239bdf8-RC1, 0.351.0-SHA-5f088d7d-RC4, 0.353.0-SHA-a88947a0-RC1
 
 RESOURCE ID: move_name_0468
 TEXT: บทเพลงแหงเพลิง
@@ -2354,7 +2385,7 @@ TEXT: <b>สิ่งที่จะไดรับ:</b>
 - 3× XP ในการหมุนแผนภาพครั้งแรก
 และจับครั้งแรกของแตละวัน
 - 2× จำนวนของขวัญสูงสุดที่สามารถมีได (สูงสุด 40)
-- งานวิจัยแบบจำกัดเวลาที่มีรางวัลเปน 15,000 XP และ 15,000 สตารดัสต
+- งานวิจัยแบบจำกัดเวลาที่มีรางวัลเปน 50,000 XP และ 50,000 สตารดัสต
 - และอื่น ๆ
 
 RESOURCE ID: text_rewards_key_cd_fuecoco25
@@ -2375,6 +2406,39 @@ TEXT: <b>รางวัลที่จะไดรับ:</b>
 - เครื่องหอม 1 ชิ้น
 - 2,000 XP และ 3,000 สตารดัสต
 - และอื่น ๆ
+
+RESOURCE ID: text_rewards_key_gofest2025ver1
+TEXT: <b>สิ่งที่จะไดรับ:</b>
+- การเผชิญหนากับโปเกมอนมายา “โวลเคเนียน”
+- โอกาสในการเผชิญหนากับโปเกมอนสีแตกตางจะเพิ่มขึ้นในระหวางอีเวนต
+- บัตรตีบอสฟรีสูงสุด 9 ใบในแตละวัน โดยการหมุนแผนภาพที่ยิม
+- โปเกมอนธีมอีเวนตฟกออกมาจากไข 5 กม.
+- เครื่องหอมอาจดึงดูดโปเกมอนพิเศษ
+- งานวิจัยพิเศษที่เลือกระหวางซาเชียนและซามาเซนตา
+- แลกเปลี่ยนแบบพิเศษไดรวม 6 ครั้งตอวัน
+- สตารดัสตที่ใชแลกเปลี่ยนลดเหลือ 1/2
+- คำทานักสะสมสำหรับแตละถิ่นที่อยู
+- เพิ่มจำนวนแยงซีนถายรูปตอวัน
+- รับหัวใจจากคูหูเพิ่ม 2 เทา
+- คำทาสำหรับทั่วโลกรายชั่วโมงเพื่อปลดล็อกโบนัสเพิ่มเติม
+
+<b>สิ่งที่จะไดรับเพิ่มเติม:</b>
+- ซื้อภายในวันที่ 15 เมษายน และเลนระหวางวันที่ 8-15 เมษายน เพื่อรับงานวิจัยแบบจำกัดเวลาที่นำไปสูการเผชิญหนากับ "เมเคิล"
+
+RESOURCE ID: text_rewards_key_gofest2025ver2
+TEXT: <b>สิ่งที่จะไดรับ:</b>
+- การเผชิญหนากับโปเกมอนมายา “โวลเคเนียน”
+- โอกาสในการเผชิญหนากับโปเกมอนสีแตกตางจะเพิ่มขึ้นในระหวางอีเวนต
+- บัตรตีบอสฟรีสูงสุด 9 ใบในแตละวัน โดยการหมุนแผนภาพที่ยิม
+- โปเกมอนธีมอีเวนตฟกออกมาจากไข 5 กม.
+- เครื่องหอมอาจดึงดูดโปเกมอนพิเศษ
+- งานวิจัยพิเศษที่เลือกระหวางซาเชียนและซามาเซนตา
+- แลกเปลี่ยนแบบพิเศษไดรวม 6 ครั้งตอวัน
+- สตารดัสตที่ใชแลกเปลี่ยนลดเหลือ 1/2
+- คำทานักสะสมสำหรับแตละถิ่นที่อยู
+- เพิ่มจำนวนแยงซีนถายรูปตอวัน
+- รับหัวใจจากคูหูเพิ่ม 2 เทา
+- คำทาสำหรับทั่วโลกรายชั่วโมงเพื่อปลดล็อกโบนัสเพิ่มเติม
 
 RESOURCE ID: text_rewards_key_gotourhatch2025
 TEXT: <b>โบนัสที่จะไดรับ:</b>
@@ -2427,7 +2491,7 @@ TEXT: <b>สิ่งที่จะไดรับ:</b>
 - 3× XP ในการหมุนแผนภาพครั้งแรก
 และจับครั้งแรกของแตละวัน
 - 2× จำนวนของขวัญสูงสุดที่สามารถมีได (สูงสุด 40)
-- งานวิจัยแบบจำกัดเวลาที่มีรางวัลเปน 15,000 XP และ 15,000 สตารดัสต
+- งานวิจัยแบบจำกัดเวลาที่มีรางวัลเปน 50,000 XP และ 50,000 สตารดัสต
 - และอื่น ๆ
 
 RESOURCE ID: text_rewards_key_meloettamasterwork2025
@@ -2542,10 +2606,10 @@ RESOURCE ID: tr_kr2025_retention_springbreeze_title_03
 TEXT: งานวิจัยแบบจำกัดเวลาคำทาสายลมฤดูใบไมผลิ (4/4)
 
 RESOURCE ID: win gmax_battle_plural
-TEXT: Win {0} Gigantamax Battles
+TEXT: ชนะแบตเทิลกิกะแมกซ {0} ครั้ง
 
 RESOURCE ID: win_gmax_battle_singular
-TEXT: Win a Gigantamax Battle
+TEXT: ชนะแบตเทิลกิกะแมกซ
 
 RESOURCE ID: zorua_o_clock_active
 TEXT: โซรัวกำลังปรากฏตัวจำนวนมาก!

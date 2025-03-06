@@ -26,6 +26,18 @@ TEXT: この機能を使用するには以下をオンにする必要があり�
 
 2.設定>通知のオン・オフ>いつでも冒険モード時の付近のようす
 
+RESOURCE ID: age_confirm_contact
+TEXT: Contact Support
+
+RESOURCE ID: age_confirm_explain
+TEXT: Trainers must meet certain age requirements to log in with this type of account. Please confirm your date of birth.
+
+RESOURCE ID: age_confirm_fail
+TEXT: Sorry, you do not meet the <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">age requirements</a> to log in with this type of account and your account will be deleted pursuant to our Terms of Service. If you believe you are eligible to log in with this type of account, please contact us.
+
+RESOURCE ID: age_confirm_popup_confirm
+TEXT: Are you sure? This cannot be changed after you submit.
+
 RESOURCE ID: april_power_up_monthly_ticket_title
 TEXT: 強化チケット：4月
 
@@ -346,6 +358,10 @@ RESOURCE ID: event_datetime_range_key_ffsr0325
 TEXT: 3月5日10:00AM～
 5月29日8:00PM
 
+RESOURCE ID: event_datetime_range_key_gofest2025ver1
+TEXT: 6月28日10:00AM～
+6月29日6:00PM
+
 RESOURCE ID: event_datetime_range_key_gotour2025
 TEXT: 2月24日10:00AM～
 3月2日8:00PM
@@ -467,6 +483,10 @@ TEXT: 強化チケット：3月
 
 RESOURCE ID: general1.ticket._ffsr0325_title
 TEXT: ファジーファイタースペシャルリサーチチケット
+
+RESOURCE ID: general1.ticket._gofest2025ver1_title
+TEXT: Pokémon GO Fest 2025：
+グローバルチケット
 
 RESOURCE ID: general1.ticket._gotourhatch2025
 TEXT: イッシュへの道：ふか
@@ -985,6 +1005,14 @@ TEXT: 現地時間2025年2月20日8:00PMまで風に乗せて届ける想いプ�
 RESOURCE ID: item_event_ticket_08_details_scatteredwindsfeb25
 TEXT: このチケットは自動的に発動し2月18日に風に乗せて届ける想いプレミアムタイムチャレンジが行えるようになります。
 
+RESOURCE ID: item_event_ticket_10_desc_gofest2025ver1
+TEXT: 現地時間2025年6月28日・29日にPokémonGOFest2025：グローバルに参加することができるチケット。
+
+RESOURCE ID: item_event_ticket_10_details_gofest2025ver1
+TEXT: 現地時間2025年6月28日・29日開催の「PokémonGOFest2025：グローバル」に参加できるチケット。詳細はゲーム内ニュースで確認できます。
+
+イベントを最大限にお楽しみいただくには、記載の開催時間内に遊び終える必要があります。
+
 RESOURCE ID: item_event_ticket_evergreen_desc_ffsr0325
 TEXT: 「ファジーファイター」スペシャルリサーチを行うためのチケット。
 
@@ -1073,10 +1101,10 @@ RESOURCE ID: may_power_up_monthly_ticket_title_4
 TEXT: 強化チケット：5月(4/4)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-04T02:49:15.507030+00:00 for ja-JP
-at SHA f48060210c5
-Pipeline 3043552, job 37724253
-Patch from: 0.351.0-SHA-2259cb4d-RC2, 0.349.1-SHA-0239bdf8-RC1, 0.353.0-SHA-a88947a0-RC1, 0.351.0-SHA-f7106c82-RC1
+TEXT: Built at 2025-03-06T00:07:20.854740+00:00 for ja-JP
+at SHA cc197b0ef2a
+Pipeline 3049349, job 37857898
+Patch from: 0.351.0-SHA-f7106c82-RC1, 0.349.1-SHA-0239bdf8-RC1, 0.351.0-SHA-5f088d7d-RC4, 0.353.0-SHA-a88947a0-RC1
 
 RESOURCE ID: move_name_0468
 TEXT: フレアソング
@@ -1629,7 +1657,7 @@ TEXT: <b>もらえるもの：</b>
 ・レイド・マックスバトルを完了してもらえるアメXL1個追加
 ・毎日最初のポケストップスピンと最初の1匹でもらえるXP3倍
 ・道具バッグに持てるギフトの数2倍（計40個）
-・15000XPと15000ほしのすながもらえるタイムチャレンジ
+・50000XPと50000ほしのすながもらえるタイムチャレンジ
 ・その他
 
 RESOURCE ID: text_rewards_key_cd_fuecoco25
@@ -1649,6 +1677,38 @@ TEXT: <b>もらえるもの：</b>
 ・おこう1個
 ・2000XPと3000ほしのすな
 ・その他
+
+RESOURCE ID: text_rewards_key_gofest2025ver1
+TEXT: <b>もらえるもの：</b>
+・幻のポケモン、ボルケニオンとの出会い
+・イベント中色違いポケモンに出会える確率アップ
+・毎日ジムのフォトディスクを回してもらえるレイドパス最大9枚
+・イベントに沿ったポケモンが5kmタマゴからかえる
+・特別なポケモンがおこうに反応する可能性
+・ザシアンかザマゼンタを調査するスペシャルリサーチ
+・一日にできる特別な交換計6回
+・交換に必要なほしのすな半減
+・各生息地のコレクションチャレンジ
+・追加のスナップショットサプライズ
+・相棒のハート2倍
+・追加ボーナスをアンロックする一時間グローバルチャレンジ、など
+<b>追加でもらえるもの：</b>
+・4月15日までに購入、4月8日～15日にプレイしてメェークルに出会えるタイムチャレンジ
+
+RESOURCE ID: text_rewards_key_gofest2025ver2
+TEXT: <b>もらえるもの：</b>
+・幻のポケモン、ボルケニオンとの出会い
+・イベント中色違いポケモンに出会える確率アップ
+・毎日ジムのフォトディスクを回してもらえるレイドパス最大9枚
+・イベントに沿ったポケモンが5kmタマゴからかえる
+・特別なポケモンがおこうに反応する可能性
+・ザシアンかザマゼンタを調査するスペシャルリサーチ
+・一日にできる特別な交換計6回
+・交換に必要なほしのすな半減
+・各生息地のコレクションチャレンジ
+・追加のスナップショットサプライズ
+・相棒のハート2倍
+・追加ボーナスをアンロックする一時間グローバルチャレンジ、など
 
 RESOURCE ID: text_rewards_key_gotourhatch2025
 TEXT: <b>適用されるボーナス：</b>
@@ -1694,7 +1754,7 @@ TEXT: <b>もらえるもの：</b>
 ・レイド・マックスバトルを完了してもらえるアメXL1個追加
 ・毎日最初のポケストップスピンと最初の1匹でもらえるXP3倍
 ・道具バッグに持てるギフトの数2倍（計40個）
-・15000XPと15000ほしのすながもらえるタイムチャレンジ
+・50000XPと50000ほしのすながもらえるタイムチャレンジ
 ・その他
 
 RESOURCE ID: text_rewards_key_meloettamasterwork2025

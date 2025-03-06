@@ -26,6 +26,18 @@ TEXT: Pastikan untuk melakukan pengaturan di bawah ini untuk menggunakan fitur i
 
 2. Pengaturan > Pemberitahuan > Sinkronisasi Petualangan: Lokal
 
+RESOURCE ID: age_confirm_contact
+TEXT: Contact Support
+
+RESOURCE ID: age_confirm_explain
+TEXT: Trainers must meet certain age requirements to log in with this type of account. Please confirm your date of birth.
+
+RESOURCE ID: age_confirm_fail
+TEXT: Sorry, you do not meet the <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">age requirements</a> to log in with this type of account and your account will be deleted pursuant to our Terms of Service. If you believe you are eligible to log in with this type of account, please contact us.
+
+RESOURCE ID: age_confirm_popup_confirm
+TEXT: Are you sure? This cannot be changed after you submit.
+
 RESOURCE ID: april_power_up_monthly_ticket_title
 TEXT: Tiket Pemerkuat: April
 
@@ -282,6 +294,9 @@ TEXT: Hari Komunitas: Fuecoco
 RESOURCE ID: completed_stamp_collection_header
 TEXT: COMPLETED STAMP RALLIES
 
+RESOURCE ID: contest_rank
+TEXT: Rank {0}
+
 RESOURCE ID: details_banner
 TEXT: DETAILED INFO
 
@@ -361,6 +376,10 @@ TEXT: 8 Maret, pukul 14.00 hingga 17.00
 RESOURCE ID: event_datetime_range_key_ffsr0325
 TEXT: 5 Maret 10.00–
 29 Mei 20.00
+
+RESOURCE ID: event_datetime_range_key_gofest2025ver1
+TEXT: 28 Juni 10.00 –
+29 Juni 18.00
 
 RESOURCE ID: event_datetime_range_key_gotour2025
 TEXT: 24 Februari, 10.00 –
@@ -544,6 +563,9 @@ TEXT: Tiket Pemerkuat: Maret
 
 RESOURCE ID: general1.ticket._ffsr0325_title
 TEXT: Tiket Penelitian Spesial Petarung Berbulu
+
+RESOURCE ID: general1.ticket._gofest2025ver1_title
+TEXT: Tiket Pokémon GO Fest 2025: Global
 
 RESOURCE ID: general1.ticket._gotourhatch2025
 TEXT: Jalan Menuju Unova: Penetasan
@@ -1146,6 +1168,14 @@ TEXT: Tiket untuk mengakses Penelitian Berwaktu Premium Perasaan yang Dikirimkan
 RESOURCE ID: item_event_ticket_08_details_scatteredwindsfeb25
 TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Berwaktu Premium Perasaan yang Dikirimkan Oleh Angin pada 18 Februari, di mana pun kamu berada.
 
+RESOURCE ID: item_event_ticket_10_desc_gofest2025ver1
+TEXT: Tiket untuk mengakses Pokémon GO Fest 2025: Global pada 28 dan 29 Juni 2025, di mana pun kamu berada.
+
+RESOURCE ID: item_event_ticket_10_details_gofest2025ver1
+TEXT: Tiket untuk mengakses Pokémon GO Fest 2025: Global pada 28 dan 29 Juni 2025, di mana pun kamu berada. Detailnya bisa ditemukan di Berita dalam game.
+
+KAMU HARUS BERMAIN SELAMA WAKTU TERTENTU UNTUK MENDAPATKAN SEMUA BONUS EVENT SPESIAL.
+
 RESOURCE ID: item_event_ticket_evergreen_desc_ffsr0325
 TEXT: Tiket untuk mengakses Penelitian Spesial Petarung Berbulu, di mana pun kamu berada.
 
@@ -1243,10 +1273,10 @@ RESOURCE ID: may_power_up_monthly_ticket_title_4
 TEXT: Tiket Pemerkuat: Mei (4/4)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-04T02:49:15.507030+00:00 for id-ID
-at SHA f48060210c5
-Pipeline 3043552, job 37724253
-Patch from: 0.351.0-SHA-2259cb4d-RC2, 0.349.1-SHA-0239bdf8-RC1, 0.353.0-SHA-a88947a0-RC1, 0.351.0-SHA-f7106c82-RC1
+TEXT: Built at 2025-03-06T00:07:20.854740+00:00 for id-ID
+at SHA cc197b0ef2a
+Pipeline 3049349, job 37857898
+Patch from: 0.351.0-SHA-f7106c82-RC1, 0.349.1-SHA-0239bdf8-RC1, 0.351.0-SHA-5f088d7d-RC4, 0.353.0-SHA-a88947a0-RC1
 
 RESOURCE ID: move_name_0468
 TEXT: Flare Song
@@ -1290,7 +1320,7 @@ RESOURCE ID: pokedex_info_battle_damage_header
 TEXT: Kerusakan
 
 RESOURCE ID: pokedex_info_battle_elite_header
-TEXT: ELITE TM ATTACKS
+TEXT: JURUS MJ ELITE
 
 RESOURCE ID: pokedex_info_battle_fast_header
 TEXT: Jurus Cepat
@@ -1931,7 +1961,7 @@ TEXT: <b>Termasuk:</b>
 • Tambahan 1 Permen XL untuk menyelesaikan Raid dan Pertarungan Max
 • XP ×3 untuk pemutaran dan penangkapan pertama setiap hari
 • Menampung 2× lebih banyak Hadiah di Tas Item-mu (total 40)
-• Penelitian Berwaktu yang berhadiah 15.000 XP dan 15.000 Debu Bintang
+• Penelitian Berwaktu yang berhadiah 50.000 XP dan 50.000 Debu Bintang
 • Dan banyak lagi!
 
 RESOURCE ID: text_rewards_key_cd_fuecoco25
@@ -1951,6 +1981,39 @@ TEXT: <b>Termasuk hadiah:</b>
 • 1 Pewangi
 • 2.000 XP dan 3.000 Debu Bintang
 • Dan banyak lagi!
+
+RESOURCE ID: text_rewards_key_gofest2025ver1
+TEXT: <b>Termasuk:</b>
+• Pertemuan dengan Pokémon Mitos Volcanion
+• Lebih tinggi peluang untuk bertemu dengan Pokémon Bersinar selama event
+• Hingga 9 Tiket Raid gratis setiap hari dari memutar Disk Foto di Gym
+• Pokémon bertema event menetas dari Telur 5 km
+• Pewangi akan menarik Pokémon spesial
+• Penelitian Spesial bercabang yang difokuskan pada Zacian atau Zamazenta
+• Tambahan Pertukaran Spesial harian dengan total 6
+• 1/2 biaya Debu Bintang untuk pertukaran 
+• Tantangan Koleksi untuk tiap habitat
+• Tambahan kejutan foto
+• Hati partner x2
+• Tantangan Global per jam untuk membuka bonus tambahan
+
+<b>Konten tambahan:</b>
+• Beli hingga 15 April dan mainkan antara tanggal 8 dan 15 April untuk Penelitian Berwaktu yang berhadiah pertemuan dengan Skiddo!
+
+RESOURCE ID: text_rewards_key_gofest2025ver2
+TEXT: <b>Termasuk:</b>
+• Pertemuan dengan Pokémon Mitos Volcanion
+• Lebih tinggi peluang untuk bertemu dengan Pokémon Bersinar selama event
+• Hingga 9 Tiket Raid gratis setiap hari dari memutar Disk Foto di Gym
+• Pokémon bertema event menetas dari Telur 5 km
+• Pewangi akan menarik Pokémon spesial
+• Penelitian Spesial bercabang yang difokuskan pada Zacian atau Zamazenta
+• Tambahan Pertukaran Spesial harian dengan total 6
+• 1/2 biaya Debu Bintang untuk pertukaran 
+• Tantangan Koleksi untuk tiap habitat
+• Tambahan kejutan foto harian
+• Hati partner x2
+• Tantangan Global per jam untuk membuka bonus tambahan
 
 RESOURCE ID: text_rewards_key_gotourhatch2025
 TEXT: <b>Termasuk Bonus</b>
@@ -1998,7 +2061,7 @@ TEXT: <b>Termasuk:</b>
 • Tambahan 1 Permen XL untuk menyelesaikan Raid dan Pertarungan Max
 • XP ×3 untuk pemutaran dan penangkapan pertama setiap hari
 • Menampung 2× lebih banyak Hadiah di Tas Item-mu (total 40)
-• Penelitian Berwaktu yang berhadiah 15.000 XP dan 15.000 Debu Bintang
+• Penelitian Berwaktu yang berhadiah 50.000 XP dan 50.000 Debu Bintang
 • Dan banyak lagi!
 
 RESOURCE ID: text_rewards_key_meloettamasterwork2025

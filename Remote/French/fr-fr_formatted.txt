@@ -26,6 +26,18 @@ TEXT: Assure-toi que les paramètres suivants sont activés pour utiliser cette 
 
 2. Options > Notifications > Suivi d’exploration : à proximité
 
+RESOURCE ID: age_confirm_contact
+TEXT: Contact Support
+
+RESOURCE ID: age_confirm_explain
+TEXT: Trainers must meet certain age requirements to log in with this type of account. Please confirm your date of birth.
+
+RESOURCE ID: age_confirm_fail
+TEXT: Sorry, you do not meet the <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">age requirements</a> to log in with this type of account and your account will be deleted pursuant to our Terms of Service. If you believe you are eligible to log in with this type of account, please contact us.
+
+RESOURCE ID: age_confirm_popup_confirm
+TEXT: Are you sure? This cannot be changed after you submit.
+
 RESOURCE ID: april_power_up_monthly_ticket_title
 TEXT: Ticket Recharge : avril
 
@@ -178,6 +190,10 @@ TEXT: Le 8 mars de 14h à 17h
 RESOURCE ID: event_datetime_range_key_ffsr0325
 TEXT: Du 5 mars à 10h
  au 29 mai à 20h
+
+RESOURCE ID: event_datetime_range_key_gofest2025ver1
+TEXT: Du 28 juin à 10h
+au 29 juin à 18h
 
 RESOURCE ID: event_datetime_range_key_gotour2025
 TEXT: Du 24 février à 10h
@@ -344,6 +360,9 @@ TEXT: Ticket Recharge : mars
 
 RESOURCE ID: general1.ticket._ffsr0325_title
 TEXT: Ticket pour l’Étude spéciale Un combattant au poil
+
+RESOURCE ID: general1.ticket._gofest2025ver1_title
+TEXT: Ticket pour le Festival Pokémon GO 2025 : Mondial
 
 RESOURCE ID: general1.ticket._gotourhatch2025
 TEXT: En route pour Unys : Éclosion
@@ -859,6 +878,14 @@ TEXT: Un ticket pour accéder à l’Étude ponctuelle premium Brille chenille j
 RESOURCE ID: item_event_ticket_08_details_scatteredwindsfeb25
 TEXT: Ce ticket s’activera automatiquement le 18 février pour te donner accès à l’Étude ponctuelle premium Brille chenille, où que tu sois.
 
+RESOURCE ID: item_event_ticket_10_desc_gofest2025ver1
+TEXT: Un ticket pour accéder au Festival Pokémon GO 2025 : Mondial les 28 et 29 juin 2025, où que tu sois.
+
+RESOURCE ID: item_event_ticket_10_details_gofest2025ver1
+TEXT: Un ticket pour accéder au Festival Pokémon GO 2025 : Mondial, les 28 et 29 juin 2025, où que tu sois. Consulte les Actualités en jeu pour plus d’infos.
+
+Tu dois jouer pendant les heures indiquées pour recevoir tous les bonus de cet évènement spécial.
+
 RESOURCE ID: item_event_ticket_evergreen_desc_ffsr0325
 TEXT: Un ticket pour accéder à l’Étude spéciale Un combattant au poil, où que tu sois.
 
@@ -953,10 +980,10 @@ RESOURCE ID: may_power_up_monthly_ticket_title_4
 TEXT: Ticket Recharge : mai (4/4)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-04T02:49:15.507030+00:00 for fr-FR
-at SHA f48060210c5
-Pipeline 3043552, job 37724253
-Patch from: 0.351.0-SHA-2259cb4d-RC2, 0.349.1-SHA-0239bdf8-RC1, 0.353.0-SHA-a88947a0-RC1, 0.351.0-SHA-f7106c82-RC1
+TEXT: Built at 2025-03-06T00:07:20.854740+00:00 for fr-FR
+at SHA cc197b0ef2a
+Pipeline 3049349, job 37857898
+Patch from: 0.351.0-SHA-f7106c82-RC1, 0.349.1-SHA-0239bdf8-RC1, 0.351.0-SHA-5f088d7d-RC4, 0.353.0-SHA-a88947a0-RC1
 
 RESOURCE ID: move_name_0468
 TEXT: Chant Flamboyant
@@ -992,7 +1019,7 @@ RESOURCE ID: pokedex_info_battle_damage_header
 TEXT: Dégâts
 
 RESOURCE ID: pokedex_info_battle_elite_header
-TEXT: ELITE TM ATTACKS
+TEXT: ATTAQUES CT D’ÉLITE
 
 RESOURCE ID: pokedex_info_battle_fast_header
 TEXT: Attaque Immédiate
@@ -1442,7 +1469,7 @@ TEXT: <b>Donne accès aux bonus suivants :</b>
 • Un Bonbon L supplémentaire quand tu gagnes des Raids et des Combats Dynamax
 • 3 fois plus de PX pour le premier PokéStop ou PhotoDisque que tu fais tourner chaque jour et pour le premier Pokémon que tu attrapes chaque jour
 • Place 2 fois plus de Cadeaux dans ton Sac d’objets, pour un total de 40.
-• Une Étude ponctuelle offrant en récompense 15 000 PX et 15 000 Poussières Étoiles
+• Une Étude ponctuelle offrant en récompense 50 000 PX et 50 000 Poussières Étoiles
 • Et plus encore !
 
 RESOURCE ID: text_rewards_key_cd_fuecoco25
@@ -1462,6 +1489,39 @@ TEXT: <b>Donne accès aux récompenses suivantes :</b>
 • 1 Encens 
 • 2 000 PX et 3 000 Poussières Étoiles
 • Et plus encore !
+
+RESOURCE ID: text_rewards_key_gofest2025ver1
+TEXT: <b>Donne accès aux bonus suivants :</b>
+• Une rencontre avec le Pokémon fabuleux Volcanion
+• Plus de chances de rencontrer des Pokémon chromatiques pendant l’évènement
+• Jusqu’à 9 passes de Raid gratuits chaque jour en faisant tourner les PhotoDisques des Arènes
+• Des Pokémon sur le thème de l’évènement écloront d’Œufs de 5 km
+• L’Encens peut attirer des Pokémon spéciaux
+• Une Étude spéciale à options mettant en vedette Zacian ou Zamazenta
+• Des Échanges spéciaux supplémentaires par jour, pour un total de 6
+• Un coût en Poussières Étoiles réduit de moitié pour les Échanges
+• Un Défi de collection pour chaque habitat
+• Des surprises quotidiennes supplémentaires pour tes clichés GO
+• Deux fois plus de cœurs avec ton Copain Pokémon
+• Des Défis globaux d’une durée d’une heure pour déverrouiller des bonus supplémentaires
+
+<b>Contenu supplémentaire :</b>
+• Achète un ticket avant le 15 avril et joue entre le 8 avril et le 15 avril pour obtenir une Étude ponctuelle offrant en récompense une rencontre avec Cabriolaine !
+
+RESOURCE ID: text_rewards_key_gofest2025ver2
+TEXT: <b>Donne accès aux bonus suivants :</b>
+• Une rencontre avec le Pokémon fabuleux Volcanion
+• Plus de chances de rencontrer des Pokémon chromatiques pendant l’évènement
+• Jusqu’à 9 passes de Raid gratuits chaque jour en faisant tourner les PhotoDisques des Arènes
+• Des Pokémon sur le thème de l’évènement écloront d’Œufs de 5 km
+• L’Encens peut attirer des Pokémon spéciaux
+• Une Étude spéciale à options mettant en vedette Zacian ou Zamazenta
+• Des Échanges spéciaux supplémentaires par jour, pour un total de 6
+• Un coût en Poussières Étoiles réduit de moitié pour les Échanges
+• Un Défi de collection pour chaque habitat
+• Des surprises quotidiennes supplémentaires pour tes clichés GO
+• Deux fois plus de cœurs avec ton Copain Pokémon
+• Des Défis globaux d’une durée d’une heure pour déverrouiller des bonus supplémentaires
 
 RESOURCE ID: text_rewards_key_gotourhatch2025
 TEXT: <b>Donne accès aux bonus suivants  :</b>
@@ -1508,7 +1568,7 @@ TEXT: <b>Donne accès aux bonus suivants :</b>
 • Un Bonbon L supplémentaire quand tu gagnes des Raids et des Combats Dynamax
 • 3 fois plus de PX pour le premier PokéStop ou PhotoDisque que tu fais tourner chaque jour et pour le premier Pokémon que tu attrapes chaque jour
 • Place 2 fois plus de Cadeaux dans ton Sac d’objets, pour un total de 40.
-• Une Étude ponctuelle offrant en récompense 15 000 PX et 15 000 Poussières Étoiles
+• Une Étude ponctuelle offrant en récompense 50 000 PX et 50 000 Poussières Étoiles
 • Et plus encore !
 
 RESOURCE ID: text_rewards_key_meloettamasterwork2025
