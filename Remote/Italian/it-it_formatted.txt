@@ -155,11 +155,20 @@ TEXT: Fai evolvere Crocalor per ottenere uno Skeledirge che conosce l’attacco 
 RESOURCE ID: bonus_pokestop_sinnoh_stone_drop
 TEXT: Rare probabilità di ottenere Pietre Sinnoh facendo girare i dischi dei Pokéstop
 
+RESOURCE ID: cancel_send_button
+TEXT: DON'T SEND
+
+RESOURCE ID: cant_find_spawned_pokemon
+TEXT: Move closer to the stamp's location to encounter this Pokémon!
+
 RESOURCE ID: combat_title_season_18
 TEXT: Lega Lotte GO della stagione Potenza e abilità
 
 RESOURCE ID: community_day_fuecoco_event_name
 TEXT: Community Day dedicato a Fuecoco
+
+RESOURCE ID: confirm_send_button
+TEXT: SEND
 
 RESOURCE ID: dmax_battle_win_plural
 TEXT: Vinci {0} Lotte D-Max
@@ -190,6 +199,24 @@ TEXT: Ricerca a tempo dell’evento “Carnevale dell’amicizia”
 
 RESOURCE ID: em_holi_2025_event_title
 TEXT: Festa dei colori 2025
+
+RESOURCE ID: em_holi_2025_regional_event_title
+TEXT: Festa dei colori in India
+
+RESOURCE ID: em_holi_2025_regional_tr_desc_title_00
+TEXT: Ricerca a tempo della Festa dei colori in India (1/4)
+
+RESOURCE ID: em_holi_2025_regional_tr_desc_title_01
+TEXT: Ricerca a tempo della Festa dei colori in India (2/4)
+
+RESOURCE ID: em_holi_2025_regional_tr_desc_title_02
+TEXT: Ricerca a tempo della Festa dei colori in India (3/4)
+
+RESOURCE ID: em_holi_2025_regional_tr_desc_title_03
+TEXT: Ricerca a tempo della Festa dei colori in India (4/4)
+
+RESOURCE ID: em_holi_2025_regional_tr_title
+TEXT: Ricerca a tempo della Festa dei colori in India
 
 RESOURCE ID: em_holi_2025_tr_dialog_00
 TEXT: Festeggiamo, %PLAYERNAME%! Scegli un colore per vivacizzare il tuo viaggio nel mondo dei Pokémon.
@@ -238,6 +265,10 @@ RESOURCE ID: event_datetime_range_key_ffsr0325
 TEXT: Dal 5 marzo alle 10:00
 al 29 maggio alle 20:00
 
+RESOURCE ID: event_datetime_range_key_foc_mar25
+TEXT: Dal 13 marzo alle 10:00
+al 17 marzo alle 20:00
+
 RESOURCE ID: event_datetime_range_key_gofest2025ver1
 TEXT: Dal 28 giugno alle 10:00
 al 29 giugno alle 18:00
@@ -263,6 +294,15 @@ TEXT: Stagione corrente: Potenza e abilità
 
 RESOURCE ID: filter_key_candy_km
 TEXT: kmcaramella
+
+RESOURCE ID: foc_2025_prem_tr_desc_title_00
+TEXT: Ricerca a tempo premium della Festa dei colori 2025 (1/2)
+
+RESOURCE ID: foc_2025_prem_tr_desc_title_01
+TEXT: Ricerca a tempo premium della Festa dei colori 2025 (2/2)
+
+RESOURCE ID: foc_2025_prem_tr_title
+TEXT: Ricerca a tempo premium della Festa dei colori 2025
 
 RESOURCE ID: fossil_museum_bonus_event_title
 TEXT: Museo dei fossili Pokémon
@@ -335,6 +375,9 @@ TEXT: Biglietto potenziamento di marzo
 
 RESOURCE ID: general1.ticket._ffsr0325_title
 TEXT: Biglietti per la ricerca speciale “Soffice Lottatore”
+
+RESOURCE ID: general1.ticket._foc_mar25_title
+TEXT: Biglietto per la ricerca a tempo premium della Festa dei colori
 
 RESOURCE ID: general1.ticket._gofest2025ver1_title
 TEXT: Biglietto per il Festival di Pokémon GO 2025 (globale)
@@ -660,8 +703,14 @@ Per ricevere i bonus, è necessario giocare durante la fascia oraria indicata.
 RESOURCE ID: item_event_ticket_evergreen_desc_ffsr0325
 TEXT: Un biglietto per accedere alla ricerca speciale “Soffice Lottatore”, ovunque ti trovi.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_foc_mar25
+TEXT: Un biglietto per accedere alla ricerca a tempo premium della Festa dei colori dal 13 marzo alle 10:00 al 17 marzo 2025 alle 20:00 ora locale, ovunque ti trovi.
+
 RESOURCE ID: item_event_ticket_evergreen_details_ffsr0325
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca speciale “Soffice Lottatore” il 5 marzo, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_evergreen_details_foc_mar25
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo premium dell’evento della Festa dei colori il 13 marzo ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_gray_desc_aprilmonthly2025
 TEXT: Un biglietto per accedere a bonus speciali e a una ricerca a tempo dal 4 aprile alle 10:00 al 4 maggio 2025 alle 10:00 ora locale, ovunque ti trovi.
@@ -686,6 +735,12 @@ TEXT: Un biglietto per accedere alla ricerca speciale del Community Day dedicato
 
 RESOURCE ID: item_event_ticket_pink_details_cd_fuecoco25
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca speciale “Il mio canto ardente” l’8 marzo, ovunque ti trovi.
+
+RESOURCE ID: item_postcard_inventory_desc_stamp
+TEXT: A book to collect Postcards and Stamps from you and your friends' journeys.
+
+RESOURCE ID: item_postcard_inventory_name_stamp
+TEXT: Collection Book
 
 RESOURCE ID: item_postcard_storage_upgrade_name
 TEXT: Postcard Pages
@@ -720,17 +775,35 @@ TEXT: Biglietto potenziamento di maggio (3/4)
 RESOURCE ID: may_power_up_monthly_ticket_title_4
 TEXT: Biglietto potenziamento di maggio (4/4)
 
+RESOURCE ID: meetup_check_in_research_title_community
+TEXT: Ricerca a tempo del ritrovo per il Community Day
+
+RESOURCE ID: meetup_check_in_research_title_hatch
+TEXT: Ricerca a tempo del ritrovo per la giornata della schiusa
+
+RESOURCE ID: meetup_check_in_research_title_max_battles
+TEXT: Ricerca a tempo del ritrovo per le Lotte Dynamax
+
+RESOURCE ID: meetup_check_in_research_title_research
+TEXT: Ricerca a tempo del ritrovo per la giornata di ricerca
+
+RESOURCE ID: meetup_check_in_research_title_spotlight
+TEXT: Ricerca a tempo del ritrovo per l’ora del Pokémon in primo piano
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-07T02:01:02.052984+00:00 for it-IT
-at SHA d1a5c42449e
-Pipeline 3055672, job 37940540
-Patch from: 0.351.0-SHA-a2cc2822-RC1, 0.351.0-SHA-5f088d7d-RC4, 0.353.0-SHA-a88947a0-RC1
+TEXT: Built at 2025-03-08T01:57:23.111663+00:00 for it-IT
+at SHA 5e3e7a817eb
+Pipeline 3059880, job 38002285
+Patch from: 0.353.0-SHA-a88947a0-RC1, 0.351.0-SHA-2259cb4d-RC2, 0.351.0-SHA-a2cc2822-RC1
 
 RESOURCE ID: move_name_0468
 TEXT: Canzone Ardente
 
 RESOURCE ID: nearby_pokemon_gui_raid_header
 TEXT: Raid
+
+RESOURCE ID: pause_stamp_rally_button
+TEXT: PAUSE
 
 RESOURCE ID: photobomb_five_fuecoco
 TEXT: Cinque incontri a sorpresa con Fuecoco in modalità foto GO
@@ -769,6 +842,9 @@ TEXT: caramella {0}
 
 RESOURCE ID: pokemon_candy_reward_plural
 TEXT: caramelle {0}
+
+RESOURCE ID: pokemon_caught_stamp_rally
+TEXT: CAUGHT DURING A STAMP RALLY
 
 RESOURCE ID: pokemon_desc_0646_0147
 TEXT: Si dice che lotti per la futura realizzazione di un mondo ideale per Pokémon ed esseri umani.
@@ -910,6 +986,51 @@ TEXT: Pacco delizie stagionali
 RESOURCE ID: spawn_fuecoco
 TEXT: Più Fuecoco stanno apparendo allo stato selvatico!
 
+RESOURCE ID: stamp_rally_achievement_header
+TEXT: Achievement
+
+RESOURCE ID: stamp_rally_ends_on
+TEXT: Ends on: {0}
+
+RESOURCE ID: stamp_rally_expired_on
+TEXT: Finished on: {0}
+
+RESOURCE ID: stamp_rally_finishes_in
+TEXT: Finishes in: {0}
+
+RESOURCE ID: stamp_rally_item_reward_toast
+TEXT: Collect {0} stamps to receive rewards
+
+RESOURCE ID: stamp_rally_item_reward_toast_singular
+TEXT: Collect 1 stamp to receive rewards
+
+RESOURCE ID: stamp_rally_journal_entry_completion
+TEXT: Completed Stamp Rally: {0} at {1}
+
+RESOURCE ID: stamp_rally_journal_entry_progress
+TEXT: Collected stamp from {0} for Stamp Rally: {1}
+
+RESOURCE ID: stamp_rally_journal_entry_reward
+TEXT: Received reward from Stamp Rally: {0}
+
+RESOURCE ID: stamp_rally_missed_reward_toast
+TEXT: Go to one of the stamp rally locations to claim this reward.
+
+RESOURCE ID: stamp_rally_pokemon_item_reward_toast
+TEXT: Collect {0} stamps to encounter a Pokémon and receive other rewards
+
+RESOURCE ID: stamp_rally_pokemon_item_reward_toast_singular
+TEXT: Collect 1 stamp to encounter a Pokémon and receive other rewards
+
+RESOURCE ID: stamp_rally_pokemon_reward_toast
+TEXT: Collect {0} stamps to encounter a Pokémon
+
+RESOURCE ID: stamp_rally_pokemon_reward_toast_singular
+TEXT: Collect 1 stamp to encounter a Pokémon
+
+RESOURCE ID: stamp_reward_toast
+TEXT: Get rewards for collecting stamps!
+
 RESOURCE ID: story_mightandmastery_0_0
 TEXT: Ciao, %PLAYERNAME%! Stavo cercando proprio te!
 
@@ -968,6 +1089,15 @@ TEXT: <b>Le ricompense includono:</b>
 • Un aroma
 • 2.000 PE e 3.000 unità di polvere di stelle
 • E altro ancora!
+
+RESOURCE ID: text_rewards_key_foc_mar25
+TEXT: <b>Le ricompense includono:</b>
+• Incontri con Bruxish
+• Due moduli Esca
+• Due aromi
+• 2.000 unità di polvere di stelle
+
+I Bruxish che incontrerai come ricompensa di questa ricerca e di tutte le altre missioni di ricerca hanno più probabilità di essere cromatici!
 
 RESOURCE ID: text_rewards_key_gofest2025ver1
 TEXT: <b>Include:</b>
@@ -1030,6 +1160,30 @@ TEXT: <b>Include:</b>
 RESOURCE ID: ticket_fuecoco_cd
 TEXT: Biglietto per la ricerca speciale “Il mio canto ardente” disponibile nel negozio
 
+RESOURCE ID: time_span_hr
+TEXT: 1 hour
+
+RESOURCE ID: time_span_hr_min
+TEXT: 1 hour 1 min
+
+RESOURCE ID: time_span_hr_mins
+TEXT: 1 hour {0} mins
+
+RESOURCE ID: time_span_hrs
+TEXT: {0} hours
+
+RESOURCE ID: time_span_hrs_min
+TEXT: {0} hours 1 min
+
+RESOURCE ID: time_span_hrs_mins
+TEXT: {0} hours {1} mins
+
+RESOURCE ID: time_span_min
+TEXT: 1 min
+
+RESOURCE ID: time_span_mins
+TEXT: {0} mins
+
 RESOURCE ID: tips_avatar_showing_all
 TEXT: Tutti gli oggetti
 
@@ -1053,6 +1207,30 @@ TEXT: Ricerca a tempo dell’evento “Sfida Chiarodiluna” (2/3)
 
 RESOURCE ID: tr_kr2025_retention_feb_title_02
 TEXT: Ricerca a tempo dell’evento “Sfida Chiarodiluna” (3/3)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_desc
+TEXT: Ricerca a tempo “Andiamo avanti”
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title
+TEXT: Andiamo avanti
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_00
+TEXT: Ricerca a tempo “Andiamo avanti” (1/6)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_01
+TEXT: Ricerca a tempo “Andiamo avanti” (2/6)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_02
+TEXT: Ricerca a tempo “Andiamo avanti” (3/6)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_03
+TEXT: Ricerca a tempo “Andiamo avanti” (4/6)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_04
+TEXT: Ricerca a tempo “Andiamo avanti”” (5/6)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_05
+TEXT: Ricerca a tempo “Andiamo avanti” (6/6)
 
 RESOURCE ID: tr_kr2025_retention_springbreeze_desc
 TEXT: Ricerca a tempo dell’evento “Sfida brezza primaverile”

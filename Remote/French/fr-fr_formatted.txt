@@ -71,11 +71,20 @@ TEXT: Fais évoluer Crocogril pour obtenir un Flâmigator connaissant l’Attaqu
 RESOURCE ID: bonus_pokestop_sinnoh_stone_drop
 TEXT: Possibilité d’obtenir des Pierres Sinnoh en faisant tourner des PokéStops
 
+RESOURCE ID: cancel_send_button
+TEXT: DON'T SEND
+
+RESOURCE ID: cant_find_spawned_pokemon
+TEXT: Move closer to the stamp's location to encounter this Pokémon!
+
 RESOURCE ID: combat_title_season_18
 TEXT: Ligue Combat GO : Puissance et maîtrise
 
 RESOURCE ID: community_day_fuecoco_event_name
 TEXT: Journée Communauté de Chochodile
+
+RESOURCE ID: confirm_send_button
+TEXT: SEND
 
 RESOURCE ID: dmax_battle_win_plural
 TEXT: Remporte {0} Combats D-Max
@@ -106,6 +115,24 @@ TEXT: Étude Ponctuelle Carnaval de l’amitié
 
 RESOURCE ID: em_holi_2025_event_title
 TEXT: Fête des couleurs 2025
+
+RESOURCE ID: em_holi_2025_regional_event_title
+TEXT: Fête des couleurs : Inde
+
+RESOURCE ID: em_holi_2025_regional_tr_desc_title_00
+TEXT: Étude ponctuelle Inde : Fête des couleurs (1/4)
+
+RESOURCE ID: em_holi_2025_regional_tr_desc_title_01
+TEXT: Étude ponctuelle Inde : Fête des couleurs (2/4)
+
+RESOURCE ID: em_holi_2025_regional_tr_desc_title_02
+TEXT: Étude ponctuelle Inde : Fête des couleurs (3/4)
+
+RESOURCE ID: em_holi_2025_regional_tr_desc_title_03
+TEXT: Étude ponctuelle Inde : Fête des couleurs (4/4)
+
+RESOURCE ID: em_holi_2025_regional_tr_title
+TEXT: Étude ponctuelle Inde : Fête des couleurs
 
 RESOURCE ID: em_holi_2025_tr_dialog_00
 TEXT: L’heure est à la fête, %PLAYERNAME% ! Choisis une couleur pour illuminer tes aventures avec les Pokémon.
@@ -154,6 +181,10 @@ RESOURCE ID: event_datetime_range_key_ffsr0325
 TEXT: Du 5 mars à 10h
  au 29 mai à 20h
 
+RESOURCE ID: event_datetime_range_key_foc_mar25
+TEXT: Du 13 mars à 10h
+au 17 mars à 20h
+
 RESOURCE ID: event_datetime_range_key_gofest2025ver1
 TEXT: Du 28 juin à 10h
 au 29 juin à 18h
@@ -171,6 +202,15 @@ TEXT: Saison en cours : Puissance et maîtrise
 
 RESOURCE ID: filter_key_candy_km
 TEXT: kmbonbon
+
+RESOURCE ID: foc_2025_prem_tr_desc_title_00
+TEXT: Étude ponctuelle premium Fête des couleurs 2025 (1/2)
+
+RESOURCE ID: foc_2025_prem_tr_desc_title_01
+TEXT: Étude ponctuelle premium Fête des couleurs 2025 (2/2)
+
+RESOURCE ID: foc_2025_prem_tr_title
+TEXT: Étude ponctuelle premium Fête des couleurs 2025
 
 RESOURCE ID: fossil_museum_bonus_event_title
 TEXT: Musée des fossiles Pokémon
@@ -240,6 +280,9 @@ TEXT: Ticket Recharge : mars
 
 RESOURCE ID: general1.ticket._ffsr0325_title
 TEXT: Ticket pour l’Étude spéciale Un combattant au poil
+
+RESOURCE ID: general1.ticket._foc_mar25_title
+TEXT: Ticket pour l’Étude ponctuelle premium Fête des couleurs
 
 RESOURCE ID: general1.ticket._gofest2025ver1_title
 TEXT: Ticket pour le Festival Pokémon GO 2025 : Mondial
@@ -550,8 +593,14 @@ Tu dois jouer pendant les heures indiquées pour recevoir tous les bonus de cet 
 RESOURCE ID: item_event_ticket_evergreen_desc_ffsr0325
 TEXT: Un ticket pour accéder à l’Étude spéciale Un combattant au poil, où que tu sois.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_foc_mar25
+TEXT: Un ticket pour accéder à l’Étude ponctuelle premium Fête des couleurs du 13 mars à 10h au 17 mars 2025 à 20h (heures locales), où que tu sois.
+
 RESOURCE ID: item_event_ticket_evergreen_details_ffsr0325
 TEXT: Ce ticket s’activera automatiquement le 5 mars pour te donner accès à l’Étude spéciale Un combattant au poil, où que tu sois.
+
+RESOURCE ID: item_event_ticket_evergreen_details_foc_mar25
+TEXT: Ce ticket s’activera automatiquement le 13 mars pour te donner accès à l’Étude ponctuelle premium Fête des couleurs, où que tu sois.
 
 RESOURCE ID: item_event_ticket_gray_desc_aprilmonthly2025
 TEXT: Un ticket pour accéder à des bonus spéciaux et à une Étude ponctuelle du 4 avril à 10h au 4 mai 2025 à 10h (heures locales), où que tu sois.
@@ -576,6 +625,12 @@ TEXT: Un ticket pour accéder à l’Étude spéciale de la Journée Communauté
 
 RESOURCE ID: item_event_ticket_pink_details_cd_fuecoco25
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude spéciale Chaud le Croco le 8 mars, où que tu sois.
+
+RESOURCE ID: item_postcard_inventory_desc_stamp
+TEXT: A book to collect Postcards and Stamps from you and your friends' journeys.
+
+RESOURCE ID: item_postcard_inventory_name_stamp
+TEXT: Collection Book
 
 RESOURCE ID: march_power_up_monthly_ticket_title
 TEXT: Ticket Recharge : mars
@@ -607,14 +662,32 @@ TEXT: Ticket Recharge : mai (3/4)
 RESOURCE ID: may_power_up_monthly_ticket_title_4
 TEXT: Ticket Recharge : mai (4/4)
 
+RESOURCE ID: meetup_check_in_research_title_community
+TEXT: Étude ponctuelle : Participation à un évènement en personne – Journée Communauté
+
+RESOURCE ID: meetup_check_in_research_title_hatch
+TEXT: Étude ponctuelle : Participation à un évènement en personne – Journée Éclosion
+
+RESOURCE ID: meetup_check_in_research_title_max_battles
+TEXT: Étude ponctuelle : Participation à un évènement en personne – Combats Dynamax
+
+RESOURCE ID: meetup_check_in_research_title_research
+TEXT: Étude ponctuelle : Participation à un évènement en personne – Journée Étude
+
+RESOURCE ID: meetup_check_in_research_title_spotlight
+TEXT: Étude ponctuelle : Participation à un évènement en personne – Heure du Pokémon vedette
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-07T02:01:02.052984+00:00 for fr-FR
-at SHA d1a5c42449e
-Pipeline 3055672, job 37940540
-Patch from: 0.351.0-SHA-a2cc2822-RC1, 0.351.0-SHA-5f088d7d-RC4, 0.353.0-SHA-a88947a0-RC1
+TEXT: Built at 2025-03-08T01:57:23.111663+00:00 for fr-FR
+at SHA 5e3e7a817eb
+Pipeline 3059880, job 38002285
+Patch from: 0.353.0-SHA-a88947a0-RC1, 0.351.0-SHA-2259cb4d-RC2, 0.351.0-SHA-a2cc2822-RC1
 
 RESOURCE ID: move_name_0468
 TEXT: Chant Flamboyant
+
+RESOURCE ID: pause_stamp_rally_button
+TEXT: PAUSE
 
 RESOURCE ID: photobomb_five_fuecoco
 TEXT: Chochodile s’introduit 5 fois dans tes Clichés GO
@@ -644,6 +717,9 @@ TEXT: Alerte désactivée
 
 RESOURCE ID: pokemon_alert_label_on
 TEXT: Alerte activée
+
+RESOURCE ID: pokemon_caught_stamp_rally
+TEXT: CAUGHT DURING A STAMP RALLY
 
 RESOURCE ID: pokemon_desc_0646_0147
 TEXT: On dit qu’il se bat pour défendre un monde Idéal dans lequel Pokémon et humains cohabiteront.
@@ -770,6 +846,51 @@ TEXT: Pokémon GO : Puissance et maîtrise
 RESOURCE ID: spawn_fuecoco
 TEXT: Davantage de Chochodile apparaissent dans la nature.
 
+RESOURCE ID: stamp_rally_achievement_header
+TEXT: Achievement
+
+RESOURCE ID: stamp_rally_ends_on
+TEXT: Ends on: {0}
+
+RESOURCE ID: stamp_rally_expired_on
+TEXT: Finished on: {0}
+
+RESOURCE ID: stamp_rally_finishes_in
+TEXT: Finishes in: {0}
+
+RESOURCE ID: stamp_rally_item_reward_toast
+TEXT: Collect {0} stamps to receive rewards
+
+RESOURCE ID: stamp_rally_item_reward_toast_singular
+TEXT: Collect 1 stamp to receive rewards
+
+RESOURCE ID: stamp_rally_journal_entry_completion
+TEXT: Completed Stamp Rally: {0} at {1}
+
+RESOURCE ID: stamp_rally_journal_entry_progress
+TEXT: Collected stamp from {0} for Stamp Rally: {1}
+
+RESOURCE ID: stamp_rally_journal_entry_reward
+TEXT: Received reward from Stamp Rally: {0}
+
+RESOURCE ID: stamp_rally_missed_reward_toast
+TEXT: Go to one of the stamp rally locations to claim this reward.
+
+RESOURCE ID: stamp_rally_pokemon_item_reward_toast
+TEXT: Collect {0} stamps to encounter a Pokémon and receive other rewards
+
+RESOURCE ID: stamp_rally_pokemon_item_reward_toast_singular
+TEXT: Collect 1 stamp to encounter a Pokémon and receive other rewards
+
+RESOURCE ID: stamp_rally_pokemon_reward_toast
+TEXT: Collect {0} stamps to encounter a Pokémon
+
+RESOURCE ID: stamp_rally_pokemon_reward_toast_singular
+TEXT: Collect 1 stamp to encounter a Pokémon
+
+RESOURCE ID: stamp_reward_toast
+TEXT: Get rewards for collecting stamps!
+
 RESOURCE ID: story_mightandmastery_0_0
 TEXT: Salut, %PLAYERNAME% ! Tu tombes à point nommé.
 
@@ -823,6 +944,15 @@ TEXT: <b>Donne accès aux récompenses suivantes :</b>
 • 2 000 PX et 3 000 Poussières Étoiles
 • Et plus encore !
 
+RESOURCE ID: text_rewards_key_foc_mar25
+TEXT: <b>Donne accès aux récompenses suivantes :</b>
+• Des rencontres avec Denticrisse
+• 2 Modules Leurre
+• 2 Encens
+• 2 000 Poussières Étoiles
+
+Les Denticrisse rencontrés en tant que récompense pendant cette Étude et toutes les autres tâches d’Études auront davantage de chances d’être chromatiques !
+
 RESOURCE ID: text_rewards_key_gofest2025ver1
 TEXT: <b>Donne accès aux bonus suivants :</b>
 • Une rencontre avec le Pokémon fabuleux Volcanion
@@ -875,6 +1005,30 @@ TEXT: <b>Donne accès aux bonus suivants :</b>
 RESOURCE ID: ticket_fuecoco_cd
 TEXT: Ticket pour l’Étude spéciale Chaud le Croco disponible dans la Boutique
 
+RESOURCE ID: time_span_hr
+TEXT: 1 hour
+
+RESOURCE ID: time_span_hr_min
+TEXT: 1 hour 1 min
+
+RESOURCE ID: time_span_hr_mins
+TEXT: 1 hour {0} mins
+
+RESOURCE ID: time_span_hrs
+TEXT: {0} hours
+
+RESOURCE ID: time_span_hrs_min
+TEXT: {0} hours 1 min
+
+RESOURCE ID: time_span_hrs_mins
+TEXT: {0} hours {1} mins
+
+RESOURCE ID: time_span_min
+TEXT: 1 min
+
+RESOURCE ID: time_span_mins
+TEXT: {0} mins
+
 RESOURCE ID: tips_avatar_showing_all
 TEXT: Tous les objets
 
@@ -898,6 +1052,30 @@ TEXT: Étude ponctuelle Clair de lune (2/3)
 
 RESOURCE ID: tr_kr2025_retention_feb_title_02
 TEXT: Étude ponctuelle Clair de lune (3/3)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_desc
+TEXT: Étude ponctuelle Aller de l’avant
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title
+TEXT: Aller de l’avant
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_00
+TEXT: Étude ponctuelle Aller de l’avant (1/6)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_01
+TEXT: Étude ponctuelle Aller de l’avant (2/6)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_02
+TEXT: Étude ponctuelle Aller de l’avant (3/6)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_03
+TEXT: Étude ponctuelle Aller de l’avant (4/6)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_04
+TEXT: Étude ponctuelle Aller de l’avant (5/6)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_05
+TEXT: Étude ponctuelle Aller de l’avant (6/6)
 
 RESOURCE ID: tr_kr2025_retention_springbreeze_desc
 TEXT: Étude ponctuelle Défi Brise printanière

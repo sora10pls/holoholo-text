@@ -203,11 +203,20 @@ TEXT: 讓炙燙鱷進化成骨紋巨聲鱷，牠就能學會特殊招式「爆�
 RESOURCE ID: bonus_pokestop_sinnoh_stone_drop
 TEXT: 旋轉寶可補給站轉盤時偶爾會出現神奧之石
 
+RESOURCE ID: cancel_send_button
+TEXT: DON'T SEND
+
+RESOURCE ID: cant_find_spawned_pokemon
+TEXT: Move closer to the stamp's location to encounter this Pokémon!
+
 RESOURCE ID: combat_title_season_18
 TEXT: GO對戰聯盟：強大與極致
 
 RESOURCE ID: community_day_fuecoco_event_name
 TEXT: 社群日：呆火鱷
+
+RESOURCE ID: confirm_send_button
+TEXT: SEND
 
 RESOURCE ID: details_link_key_gotourhatch2025
 TEXT: 詳情請至<a href="https://pokemongolive.com/post/road-to-unova-event/">網站</a>確認
@@ -269,6 +278,24 @@ TEXT: 好友狂歡節
 RESOURCE ID: em_holi_2025_event_title
 TEXT: 色彩節2025
 
+RESOURCE ID: em_holi_2025_regional_event_title
+TEXT: 色彩節：印度
+
+RESOURCE ID: em_holi_2025_regional_tr_desc_title_00
+TEXT: 色彩節：印度限時調查(1/4)
+
+RESOURCE ID: em_holi_2025_regional_tr_desc_title_01
+TEXT: 色彩節：印度限時調查(2/4)
+
+RESOURCE ID: em_holi_2025_regional_tr_desc_title_02
+TEXT: 色彩節：印度限時調查(3/4)
+
+RESOURCE ID: em_holi_2025_regional_tr_desc_title_03
+TEXT: 色彩節：印度限時調查(4/4)
+
+RESOURCE ID: em_holi_2025_regional_tr_title
+TEXT: 色彩節：印度限時調查
+
 RESOURCE ID: em_holi_2025_tr_dialog_00
 TEXT: 嘿，%PLAYERNAME%！能不能選一個你喜歡的顏色？一個能為你和寶可夢的冒險增添色彩的顏色！
 
@@ -320,6 +347,10 @@ RESOURCE ID: event_datetime_range_key_ffsr0325
 TEXT: 3月5日10:00～
 3月29日20:00
 
+RESOURCE ID: event_datetime_range_key_foc_mar25
+TEXT: 3月13日10:00～
+3月17日20:00
+
 RESOURCE ID: event_datetime_range_key_gofest2025ver1
 TEXT: 6月28日10:00～
 6月29日18:00
@@ -357,6 +388,15 @@ TEXT: 本季：強大與極致
 
 RESOURCE ID: filter_key_candy_km
 TEXT: 糖果距離
+
+RESOURCE ID: foc_2025_prem_tr_desc_title_00
+TEXT: 色彩節2025特級限時調查(1/2)
+
+RESOURCE ID: foc_2025_prem_tr_desc_title_01
+TEXT: 色彩節2025特級限時調查(2/2)
+
+RESOURCE ID: foc_2025_prem_tr_title
+TEXT: 色彩節2025特級限時調查
 
 RESOURCE ID: fossil_museum_bonus_event_title
 TEXT: 寶可夢化石博物館
@@ -426,6 +466,9 @@ TEXT: 強化入場券：3月
 
 RESOURCE ID: general1.ticket._ffsr0325_title
 TEXT: 毛茸茸鬥士特殊調查入場券
+
+RESOURCE ID: general1.ticket._foc_mar25_title
+TEXT: 色彩節特級限時調查
 
 RESOURCE ID: general1.ticket._gofest2025ver1_title
 TEXT: Pokémon GO Fest 2025：
@@ -929,8 +972,14 @@ TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當�
 RESOURCE ID: item_event_ticket_evergreen_desc_ffsr0325
 TEXT: 無論你身在何處，都可以用這張入場券來領取「毛茸茸鬥士」的特殊調查。
 
+RESOURCE ID: item_event_ticket_evergreen_desc_foc_mar25
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年3月13日10:00～3月17日20:00參與色彩節特級限時調查。
+
 RESOURCE ID: item_event_ticket_evergreen_details_ffsr0325
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間3月5日開始參與「毛茸茸鬥士」的限時調查。
+
+RESOURCE ID: item_event_ticket_evergreen_details_foc_mar25
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間3月13日開始參與色彩節特級限時調查。
 
 RESOURCE ID: item_event_ticket_global_desc_gotourhatch2025
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間2025年2月24日10:00～3月2日20:00領取「前往合眾之路：團體戰」的獎勵。
@@ -971,6 +1020,12 @@ TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時�
 RESOURCE ID: item_global_event_ticket_details_meloetta
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間2025年2月24日開始領取特別的獎勵。
 
+RESOURCE ID: item_postcard_inventory_desc_stamp
+TEXT: A book to collect Postcards and Stamps from you and your friends' journeys.
+
+RESOURCE ID: item_postcard_inventory_name_stamp
+TEXT: Collection Book
+
 RESOURCE ID: march_power_up_monthly_ticket_title
 TEXT: 強化入場券：3月
 
@@ -1001,11 +1056,26 @@ TEXT: 強化入場券：5月(3/4)
 RESOURCE ID: may_power_up_monthly_ticket_title_4
 TEXT: 強化入場券：5月(4/4)
 
+RESOURCE ID: meetup_check_in_research_title_community
+TEXT: 見面會簽到限時調查：社群日
+
+RESOURCE ID: meetup_check_in_research_title_hatch
+TEXT: 見面會簽到限時調查：孵化日
+
+RESOURCE ID: meetup_check_in_research_title_max_battles
+TEXT: 見面會簽到限時調查：極巨對戰
+
+RESOURCE ID: meetup_check_in_research_title_research
+TEXT: 見面會簽到限時調查：調查日
+
+RESOURCE ID: meetup_check_in_research_title_spotlight
+TEXT: 見面會簽到限時調查：聚焦時刻
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-07T02:01:02.052984+00:00 for zh-TW
-at SHA d1a5c42449e
-Pipeline 3055672, job 37940540
-Patch from: 0.351.0-SHA-a2cc2822-RC1, 0.351.0-SHA-5f088d7d-RC4, 0.353.0-SHA-a88947a0-RC1
+TEXT: Built at 2025-03-08T01:57:23.111663+00:00 for zh-TW
+at SHA 5e3e7a817eb
+Pipeline 3059880, job 38002285
+Patch from: 0.353.0-SHA-a88947a0-RC1, 0.351.0-SHA-2259cb4d-RC2, 0.351.0-SHA-a2cc2822-RC1
 
 RESOURCE ID: move_name_0299
 TEXT: 加農水炮
@@ -1018,6 +1088,9 @@ TEXT: {0}沒有學會{1}，因此合體後不會學會具有冒險效果的招�
 
 RESOURCE ID: move_required_to_enable_adventure_effect_title
 TEXT: 這隻合體的寶可夢不會學會具有冒險效果的招式
+
+RESOURCE ID: pause_stamp_rally_button
+TEXT: PAUSE
 
 RESOURCE ID: photobomb_five_fuecoco
 TEXT: 呆火鱷將在GO Snapshot中驚喜現身5次
@@ -1056,6 +1129,9 @@ TEXT: {0}的糖果
 
 RESOURCE ID: pokemon_candy_reward_plural
 TEXT: {0}的糖果
+
+RESOURCE ID: pokemon_caught_stamp_rally
+TEXT: CAUGHT DURING A STAMP RALLY
 
 RESOURCE ID: pokemon_desc_0646_0147
 TEXT: 傳說牠是為了保護寶可夢與人類之間那將在未來實現的理想世界而戰鬥。
@@ -1266,6 +1342,51 @@ TEXT: Pokémon GO：強大與極致
 RESOURCE ID: spawn_fuecoco
 TEXT: 更多呆火鱷出現在地圖上！
 
+RESOURCE ID: stamp_rally_achievement_header
+TEXT: Achievement
+
+RESOURCE ID: stamp_rally_ends_on
+TEXT: Ends on: {0}
+
+RESOURCE ID: stamp_rally_expired_on
+TEXT: Finished on: {0}
+
+RESOURCE ID: stamp_rally_finishes_in
+TEXT: Finishes in: {0}
+
+RESOURCE ID: stamp_rally_item_reward_toast
+TEXT: Collect {0} stamps to receive rewards
+
+RESOURCE ID: stamp_rally_item_reward_toast_singular
+TEXT: Collect 1 stamp to receive rewards
+
+RESOURCE ID: stamp_rally_journal_entry_completion
+TEXT: Completed Stamp Rally: {0} at {1}
+
+RESOURCE ID: stamp_rally_journal_entry_progress
+TEXT: Collected stamp from {0} for Stamp Rally: {1}
+
+RESOURCE ID: stamp_rally_journal_entry_reward
+TEXT: Received reward from Stamp Rally: {0}
+
+RESOURCE ID: stamp_rally_missed_reward_toast
+TEXT: Go to one of the stamp rally locations to claim this reward.
+
+RESOURCE ID: stamp_rally_pokemon_item_reward_toast
+TEXT: Collect {0} stamps to encounter a Pokémon and receive other rewards
+
+RESOURCE ID: stamp_rally_pokemon_item_reward_toast_singular
+TEXT: Collect 1 stamp to encounter a Pokémon and receive other rewards
+
+RESOURCE ID: stamp_rally_pokemon_reward_toast
+TEXT: Collect {0} stamps to encounter a Pokémon
+
+RESOURCE ID: stamp_rally_pokemon_reward_toast_singular
+TEXT: Collect 1 stamp to encounter a Pokémon
+
+RESOURCE ID: stamp_reward_toast
+TEXT: Get rewards for collecting stamps!
+
 RESOURCE ID: story_mightandmastery_0_0
 TEXT: 嘿，%PLAYERNAME%！我需要你的幫忙！
 
@@ -1318,6 +1439,15 @@ TEXT: <b>可獲得的獎勵：</b>
 ・1個薰香
 ・2000XP以及3000星星沙子
 ・其他
+
+RESOURCE ID: text_rewards_key_foc_mar25
+TEXT: <b>可獲得的獎勵：</b>
+・與磨牙彩皮魚相遇
+・2個誘餌模組
+・2個薰香
+・2000星星沙子
+
+完成限時調查等課題後，遇見異色磨牙彩皮魚的機率會提高。
 
 RESOURCE ID: text_rewards_key_gofest2025ver1
 TEXT: <b>可獲得的獎勵：</b>
@@ -1405,6 +1535,30 @@ TEXT: <b>可獲得的獎勵：</b>
 RESOURCE ID: ticket_fuecoco_cd
 TEXT: 特殊調查「解開火鱷寶可夢之謎！」的入場券在商店裡上架了
 
+RESOURCE ID: time_span_hr
+TEXT: 1 hour
+
+RESOURCE ID: time_span_hr_min
+TEXT: 1 hour 1 min
+
+RESOURCE ID: time_span_hr_mins
+TEXT: 1 hour {0} mins
+
+RESOURCE ID: time_span_hrs
+TEXT: {0} hours
+
+RESOURCE ID: time_span_hrs_min
+TEXT: {0} hours 1 min
+
+RESOURCE ID: time_span_hrs_mins
+TEXT: {0} hours {1} mins
+
+RESOURCE ID: time_span_min
+TEXT: 1 min
+
+RESOURCE ID: time_span_mins
+TEXT: {0} mins
+
 RESOURCE ID: tips_avatar_showing_all
 TEXT: 顯示全部
 
@@ -1428,6 +1582,30 @@ TEXT: 滿月挑戰限時調查 (2/3)
 
 RESOURCE ID: tr_kr2025_retention_feb_title_02
 TEXT: 滿月挑戰限時調查 (3/3)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_desc
+TEXT: 速速GO！限時調查
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title
+TEXT: 速速GO！
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_00
+TEXT: 速速GO！限時調查(1/6)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_01
+TEXT: 速速GO！限時調查(2/6)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_02
+TEXT: 速速GO！限時調查(3/6)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_03
+TEXT: 速速GO！限時調查(4/6)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_04
+TEXT: 速速GO！限時調查(5/6)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_05
+TEXT: 速速GO！限時調查(6/6)
 
 RESOURCE ID: tr_kr2025_retention_springbreeze_desc
 TEXT: 春風挑戰限時調查

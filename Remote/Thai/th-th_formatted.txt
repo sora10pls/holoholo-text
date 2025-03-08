@@ -206,11 +206,20 @@ TEXT: วิวัฒนาการอาจิเกเตอรเป�
 RESOURCE ID: bonus_pokestop_sinnoh_stone_drop
 TEXT: มีโอกาสเล็กนอยที่จะไดรับหินชินโอจากการหมุนเสาโปเกสต็อป
 
+RESOURCE ID: cancel_send_button
+TEXT: DON'T SEND
+
+RESOURCE ID: cant_find_spawned_pokemon
+TEXT: Move closer to the stamp's location to encounter this Pokémon!
+
 RESOURCE ID: combat_title_season_18
 TEXT: โกแบตเทิลลีก: พลังและทักษะ
 
 RESOURCE ID: community_day_fuecoco_event_name
 TEXT: คอมมิวนิตี้เดย: โฮเกเตอร
+
+RESOURCE ID: confirm_send_button
+TEXT: SEND
 
 RESOURCE ID: details_link_key_gotourhatch2025
 TEXT: ตรวจสอบรายละเอียดไดที่<a href="https://pokemongolive.com/post/road-to-unova-event/">เว็บไซต</a>นี้
@@ -268,6 +277,24 @@ TEXT: งานวิจัยแบบจำกัดเวลาเทศก�
 
 RESOURCE ID: em_holi_2025_event_title
 TEXT: เทศกาลแหงสีสัน 2025
+
+RESOURCE ID: em_holi_2025_regional_event_title
+TEXT: เทศกาลแหงสีสัน: อินเดีย
+
+RESOURCE ID: em_holi_2025_regional_tr_desc_title_00
+TEXT: งานวิจัยแบบจำกัดเวลาเทศกาลแหงสีสัน: อินเดีย (1/4)
+
+RESOURCE ID: em_holi_2025_regional_tr_desc_title_01
+TEXT: งานวิจัยแบบจำกัดเวลาเทศกาลแหงสีสัน: อินเดีย (2/4)
+
+RESOURCE ID: em_holi_2025_regional_tr_desc_title_02
+TEXT: งานวิจัยแบบจำกัดเวลาเทศกาลแหงสีสัน: อินเดีย (3/4)
+
+RESOURCE ID: em_holi_2025_regional_tr_desc_title_03
+TEXT: งานวิจัยแบบจำกัดเวลาเทศกาลแหงสีสัน: อินเดีย (4/4)
+
+RESOURCE ID: em_holi_2025_regional_tr_title
+TEXT: งานวิจัยแบบจำกัดเวลาเทศกาลแหงสีสัน: อินเดีย
 
 RESOURCE ID: em_holi_2025_tr_dialog_00
 TEXT: %PLAYERNAME% มาฉลองกันเถอะ!
@@ -327,6 +354,10 @@ RESOURCE ID: event_datetime_range_key_ffsr0325
 TEXT: 5 มีนาคม 10:00 น. ถึง
 29 พฤษภาคม 20:00 น.
 
+RESOURCE ID: event_datetime_range_key_foc_mar25
+TEXT: 13 มีนาคม 10:00 น. ถึง
+17 มีนาคม 20:00 น
+
 RESOURCE ID: event_datetime_range_key_gofest2025ver1
 TEXT: 28 มิถุนายน 10:00 น. ถึง
 29 มิถุนายน 18:00 น.
@@ -364,6 +395,15 @@ TEXT: ฤดูกาลปจจุบัน: พลังและทัก
 
 RESOURCE ID: filter_key_candy_km
 TEXT: ระยะทางลูกอม
+
+RESOURCE ID: foc_2025_prem_tr_desc_title_00
+TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียม: เทศกาลแหงสีสัน 2025 (1/2)
+
+RESOURCE ID: foc_2025_prem_tr_desc_title_01
+TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียม: เทศกาลแหงสีสัน 2025 (2/2)
+
+RESOURCE ID: foc_2025_prem_tr_title
+TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียม: เทศกาลแหงสีสัน 2025
 
 RESOURCE ID: fossil_museum_bonus_event_title
 TEXT: Pokémon Fossil Museum
@@ -442,6 +482,9 @@ TEXT: ตั๋วพาวเวอรอัป: มีนาคม
 
 RESOURCE ID: general1.ticket._ffsr0325_title
 TEXT: ตั๋วงานวิจัยพิเศษนักสูขนปุย
+
+RESOURCE ID: general1.ticket._foc_mar25_title
+TEXT: ตั๋วงานวิจัยแบบจำกัดเวลาพรีเมียม: เทศกาลแหงสีสัน
 
 RESOURCE ID: general1.ticket._gofest2025ver1_title
 TEXT: ตั๋ว Pokémon GO Fest 2025: ทั่วโลก
@@ -1203,9 +1246,19 @@ TEXT: ตั๋วสำหรับเขารวม Pokémon GO Fest 20
 RESOURCE ID: item_event_ticket_evergreen_desc_ffsr0325
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษ "นักสูขนปุย" ไดจากทุกที่
 
+RESOURCE ID: item_event_ticket_evergreen_desc_foc_mar25
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลาพรีเมียม: เทศกาลแหงสีสัน
+ตั้งแตวันที่ 13 มีนาคม เวลา 10:00 น. ถึงวันที่ 17 มีนาคม 2025 เวลา 20:00 น. ตามเวลาทองถิ่นไมวาคุณจะอยูที่ใด
+
 RESOURCE ID: item_event_ticket_evergreen_details_ffsr0325
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษ "นักสูขนปุย"
 ในวันที่ 5 มีนาคม
+คุณจะสามารถเขารวมไดโดยอัตโนมัติ
+ตามเวลาทองถิ่นทั่วโลก
+
+RESOURCE ID: item_event_ticket_evergreen_details_foc_mar25
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลาพรีเมียม: เทศกาลแหงสีสัน
+ในวันที่ 13 มีนาคม
 คุณจะสามารถเขารวมไดโดยอัตโนมัติ
 ตามเวลาทองถิ่นทั่วโลก
 
@@ -1280,6 +1333,12 @@ TEXT: ตั๋วสำหรับรับโบนัสพิเศษ
 คุณจะสามารถรับไดโดยอัตโนมัติ
 ตามเวลาทองถิ่นทั่วโลก
 
+RESOURCE ID: item_postcard_inventory_desc_stamp
+TEXT: A book to collect Postcards and Stamps from you and your friends' journeys.
+
+RESOURCE ID: item_postcard_inventory_name_stamp
+TEXT: Collection Book
+
 RESOURCE ID: log_player_accepted_your_friend_request
 TEXT: {0} ตอบรับคำขอเปนเพื่อนของคุณ!
 
@@ -1316,11 +1375,26 @@ TEXT: ตั๋วพาวเวอรอัป: พฤษภาคม (3/4)
 RESOURCE ID: may_power_up_monthly_ticket_title_4
 TEXT: ตั๋วพาวเวอรอัป: พฤษภาคม (4/4)
 
+RESOURCE ID: meetup_check_in_research_title_community
+TEXT: งานวิจัยแบบจำกัดเวลาเช็กอินงานพบปะ: คอมมิวนิตี้เดย
+
+RESOURCE ID: meetup_check_in_research_title_hatch
+TEXT: งานวิจัยแบบจำกัดเวลาเช็กอินงานพบปะ: วันฟกไข
+
+RESOURCE ID: meetup_check_in_research_title_max_battles
+TEXT: งานวิจัยแบบจำกัดเวลาเช็กอินงานพบปะ: แบตเทิลแมกซ
+
+RESOURCE ID: meetup_check_in_research_title_research
+TEXT: งานวิจัยแบบจำกัดเวลาเช็กอินงานพบปะ: วันวิจัย
+
+RESOURCE ID: meetup_check_in_research_title_spotlight
+TEXT: งานวิจัยแบบจำกัดเวลาเช็กอินงานพบปะ: ชั่วโมงสปอตไลท
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-07T02:01:02.052984+00:00 for th-TH
-at SHA d1a5c42449e
-Pipeline 3055672, job 37940540
-Patch from: 0.351.0-SHA-a2cc2822-RC1, 0.351.0-SHA-5f088d7d-RC4, 0.353.0-SHA-a88947a0-RC1
+TEXT: Built at 2025-03-08T01:57:23.111663+00:00 for th-TH
+at SHA 5e3e7a817eb
+Pipeline 3059880, job 38002285
+Patch from: 0.353.0-SHA-a88947a0-RC1, 0.351.0-SHA-2259cb4d-RC2, 0.351.0-SHA-a2cc2822-RC1
 
 RESOURCE ID: move_name_0468
 TEXT: บทเพลงแหงเพลิง
@@ -1333,6 +1407,9 @@ TEXT: {0} และ {1} ไดเปดของขวัญของค�
 
 RESOURCE ID: pair_friend_sent_you_gift_notification
 TEXT: {0} และ {1} สงของขวัญมาใหคุณ!
+
+RESOURCE ID: pause_stamp_rally_button
+TEXT: PAUSE
 
 RESOURCE ID: photobomb_five_fuecoco
 TEXT: โฮเกเตอรแยงซีนถายรูปในโกสแนปช็อต 5 ครั้ง
@@ -1372,6 +1449,9 @@ TEXT: ลูกอม{0}
 
 RESOURCE ID: pokemon_category_0890
 TEXT: โปเกมอนมหึมา
+
+RESOURCE ID: pokemon_caught_stamp_rally
+TEXT: CAUGHT DURING A STAMP RALLY
 
 RESOURCE ID: pokemon_desc_0646_0147
 TEXT: วากันวา มันตอสูเพื่อปกปองโลกในอุดมคติ
@@ -1636,6 +1716,51 @@ TEXT: สงของขวัญให {0} แลว
 RESOURCE ID: spawn_fuecoco
 TEXT: โฮเกเตอรปรากฏตัวออกมามากขึ้น!
 
+RESOURCE ID: stamp_rally_achievement_header
+TEXT: Achievement
+
+RESOURCE ID: stamp_rally_ends_on
+TEXT: Ends on: {0}
+
+RESOURCE ID: stamp_rally_expired_on
+TEXT: Finished on: {0}
+
+RESOURCE ID: stamp_rally_finishes_in
+TEXT: Finishes in: {0}
+
+RESOURCE ID: stamp_rally_item_reward_toast
+TEXT: Collect {0} stamps to receive rewards
+
+RESOURCE ID: stamp_rally_item_reward_toast_singular
+TEXT: Collect 1 stamp to receive rewards
+
+RESOURCE ID: stamp_rally_journal_entry_completion
+TEXT: Completed Stamp Rally: {0} at {1}
+
+RESOURCE ID: stamp_rally_journal_entry_progress
+TEXT: Collected stamp from {0} for Stamp Rally: {1}
+
+RESOURCE ID: stamp_rally_journal_entry_reward
+TEXT: Received reward from Stamp Rally: {0}
+
+RESOURCE ID: stamp_rally_missed_reward_toast
+TEXT: Go to one of the stamp rally locations to claim this reward.
+
+RESOURCE ID: stamp_rally_pokemon_item_reward_toast
+TEXT: Collect {0} stamps to encounter a Pokémon and receive other rewards
+
+RESOURCE ID: stamp_rally_pokemon_item_reward_toast_singular
+TEXT: Collect 1 stamp to encounter a Pokémon and receive other rewards
+
+RESOURCE ID: stamp_rally_pokemon_reward_toast
+TEXT: Collect {0} stamps to encounter a Pokémon
+
+RESOURCE ID: stamp_rally_pokemon_reward_toast_singular
+TEXT: Collect 1 stamp to encounter a Pokémon
+
+RESOURCE ID: stamp_reward_toast
+TEXT: Get rewards for collecting stamps!
+
 RESOURCE ID: story_mightandmastery_0_0
 TEXT: ไง %PLAYERNAME%! กำลังอยากเจออยูพอดีเลย!
 
@@ -1706,6 +1831,15 @@ TEXT: <b>รางวัลที่จะไดรับ:</b>
 - เครื่องหอม 1 ชิ้น
 - 2,000 XP และ 3,000 สตารดัสต
 - และอื่น ๆ
+
+RESOURCE ID: text_rewards_key_foc_mar25
+TEXT: <b>รางวัลที่จะไดรับ:</b>
+- การเผชิญหนากับฮากิกิชิริ
+- อุปกรณปลอยลัวร 2 ชิ้น
+- เครื่องหอม 2 ชิ้น
+- 2,000 สตารดัสต
+
+ฮากิกิชิริที่พบในรางวัลเผชิญหนาจากงานวิจัยนี้และภารกิจงานวิจัยอื่น ๆ จะมีโอกาสเปนโปเกมอนสีแตกตางสูงขึ้น
 
 RESOURCE ID: text_rewards_key_gofest2025ver1
 TEXT: <b>สิ่งที่จะไดรับ:</b>
@@ -1815,6 +1949,30 @@ TEXT: สามารถซื้อตั๋วสำหรับงานว�
 RESOURCE ID: ticket_sprigatito
 TEXT: สามารถซื้อตั๋วสำหรับงานวิจัยพิเศษ "หญามายาเหมียว" ไดที่รานคา
 
+RESOURCE ID: time_span_hr
+TEXT: 1 hour
+
+RESOURCE ID: time_span_hr_min
+TEXT: 1 hour 1 min
+
+RESOURCE ID: time_span_hr_mins
+TEXT: 1 hour {0} mins
+
+RESOURCE ID: time_span_hrs
+TEXT: {0} hours
+
+RESOURCE ID: time_span_hrs_min
+TEXT: {0} hours 1 min
+
+RESOURCE ID: time_span_hrs_mins
+TEXT: {0} hours {1} mins
+
+RESOURCE ID: time_span_min
+TEXT: 1 min
+
+RESOURCE ID: time_span_mins
+TEXT: {0} mins
+
 RESOURCE ID: tips_avatar_showing_all
 TEXT: แสดงไอเท็มทั้งหมด
 
@@ -1838,6 +1996,30 @@ TEXT: งานวิจัยแบบจำกัดเวลาคำท�
 
 RESOURCE ID: tr_kr2025_retention_feb_title_02
 TEXT: งานวิจัยแบบจำกัดเวลาคำทาแสงจันทร (3/3)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_desc
+TEXT: งานวิจัยแบบจำกัดเวลาเดินหนา!
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title
+TEXT: เดินหนา!
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_00
+TEXT: งานวิจัยแบบจำกัดเวลาเดินหนา! (1/6)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_01
+TEXT: งานวิจัยแบบจำกัดเวลาเดินหนา! (2/6)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_02
+TEXT: งานวิจัยแบบจำกัดเวลาเดินหนา! (3/6)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_03
+TEXT: งานวิจัยแบบจำกัดเวลาเดินหนา! (4/6)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_04
+TEXT: งานวิจัยแบบจำกัดเวลาเดินหนา! (5/6)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_05
+TEXT: งานวิจัยแบบจำกัดเวลาเดินหนา! (6/6)
 
 RESOURCE ID: tr_kr2025_retention_springbreeze_desc
 TEXT: งานวิจัยแบบจำกัดเวลาคำทาสายลมฤดูใบไมผลิ

@@ -77,11 +77,20 @@ TEXT: Evolua Crocalor para conseguir Skeledirge que sabe o Ataque Carregado Quei
 RESOURCE ID: bonus_pokestop_sinnoh_stone_drop
 TEXT: Chance rara de obter Pedras de Sinnoh ao girar Poképaradas
 
+RESOURCE ID: cancel_send_button
+TEXT: DON'T SEND
+
+RESOURCE ID: cant_find_spawned_pokemon
+TEXT: Move closer to the stamp's location to encounter this Pokémon!
+
 RESOURCE ID: combat_title_season_18
 TEXT: Liga de Batalha GO: Poder e Proeza
 
 RESOURCE ID: community_day_fuecoco_event_name
 TEXT: Dia Comunitário: Fuecoco
+
+RESOURCE ID: confirm_send_button
+TEXT: SEND
 
 RESOURCE ID: dmax_battle_win_plural
 TEXT: Vencer {0} Batalhas Dinamax.
@@ -112,6 +121,24 @@ TEXT: Pesquisa Temporária de Amigos de Carnaval
 
 RESOURCE ID: em_holi_2025_event_title
 TEXT: Camiseta do Festival das Cores 2025
+
+RESOURCE ID: em_holi_2025_regional_event_title
+TEXT: Festival das Cores: Índia
+
+RESOURCE ID: em_holi_2025_regional_tr_desc_title_00
+TEXT: Pesquisa Temporária do Festival das Cores: Índia (1/4)
+
+RESOURCE ID: em_holi_2025_regional_tr_desc_title_01
+TEXT: Pesquisa Temporária do Festival das Cores: Índia (2/4)
+
+RESOURCE ID: em_holi_2025_regional_tr_desc_title_02
+TEXT: Pesquisa Temporária do Festival das Cores: Índia (3/4)
+
+RESOURCE ID: em_holi_2025_regional_tr_desc_title_03
+TEXT: Pesquisa Temporária do Festival das Cores: Índia (4/4)
+
+RESOURCE ID: em_holi_2025_regional_tr_title
+TEXT: Pesquisa Temporária do Festival das Cores: Índia
 
 RESOURCE ID: em_holi_2025_tr_dialog_00
 TEXT: Vamos celebrar, %PLAYERNAME%! Escolha uma cor para dar mais brilho à sua jornada Pokémon.
@@ -160,6 +187,10 @@ RESOURCE ID: event_datetime_range_key_ffsr0325
 TEXT: De 5 de março, às 10h 
 até 29 de maio, às 20h
 
+RESOURCE ID: event_datetime_range_key_foc_mar25
+TEXT: 13 de março, às 10h 
+até 17 de março, às 20h
+
 RESOURCE ID: event_datetime_range_key_gofest2025ver1
 TEXT: De 28 de junho, às 10h –
 até 29 de junho, às 18h
@@ -185,6 +216,15 @@ TEXT: Temporada atual: Poder e Proeza
 
 RESOURCE ID: filter_key_candy_km
 TEXT: docekm
+
+RESOURCE ID: foc_2025_prem_tr_desc_title_00
+TEXT: Pesquisa Temporária Premium do Festival das Cores 2025 (1/2)
+
+RESOURCE ID: foc_2025_prem_tr_desc_title_01
+TEXT: Pesquisa Temporária Premium do Festival das Cores 2025 (2/2)
+
+RESOURCE ID: foc_2025_prem_tr_title
+TEXT: Pesquisa Temporária Premium do Festival das Cores 2025
 
 RESOURCE ID: fossil_museum_bonus_event_title
 TEXT: Museu de Fósseis Pokémon
@@ -254,6 +294,9 @@ TEXT: Ingresso de Fortalecimento: março
 
 RESOURCE ID: general1.ticket._ffsr0325_title
 TEXT: Ingresso para a Pesquisa Especial de Lutador Felpudo
+
+RESOURCE ID: general1.ticket._foc_mar25_title
+TEXT: Ingresso para a Pesquisa Temporária Premium do Festival das Cores
 
 RESOURCE ID: general1.ticket._gofest2025ver1_title
 TEXT: Ingresso do Festival de Pokémon GO 2025: Global
@@ -568,8 +611,14 @@ Você deve jogar durante o horário especificado para receber todos os bônus do
 RESOURCE ID: item_event_ticket_evergreen_desc_ffsr0325
 TEXT: Um ingresso para acessar a Pesquisa Especial de Lutador Felpudo, de onde você estiver.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_foc_mar25
+TEXT: Um ingresso para acessar a Pesquisa Temporária Premium do Festival das Cores, de 13 de março de 2025, às 10h, até 17 de março de 2025, às 20h do seu horário local, de onde você estiver.
+
 RESOURCE ID: item_event_ticket_evergreen_details_ffsr0325
 TEXT: Este ingresso será ativado automaticamente no dia 5 de março para lhe garantir acesso à Pesquisa Temporária de Lutador Felpudo, de onde você estiver.
+
+RESOURCE ID: item_event_ticket_evergreen_details_foc_mar25
+TEXT: Este ingresso será ativado automaticamente no dia 13 de março para lhe garantir acesso à Pesquisa Temporária Premium do Festival das Cores, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_gray_desc_aprilmonthly2025
 TEXT: Um ingresso para acessar bônus especiais e Pesquisa Temporária de 4 de abril, às 10h, até 4 de maio de 2025, às 10h do seu horário local, de onde você estiver.
@@ -594,6 +643,12 @@ TEXT: Um ingresso para acessar a Pesquisa Especial do Dia Comunitário de Fuecoc
 
 RESOURCE ID: item_event_ticket_pink_details_cd_fuecoco25
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à Pesquisa Especial Crocapella no dia 8 de março, de onde você estiver.
+
+RESOURCE ID: item_postcard_inventory_desc_stamp
+TEXT: A book to collect Postcards and Stamps from you and your friends' journeys.
+
+RESOURCE ID: item_postcard_inventory_name_stamp
+TEXT: Collection Book
 
 RESOURCE ID: march_power_up_monthly_ticket_title
 TEXT: Ingresso de Fortalecimento: março
@@ -628,14 +683,32 @@ TEXT: Ingresso de Fortalecimento: maio (3/4)
 RESOURCE ID: may_power_up_monthly_ticket_title_4
 TEXT: Ingresso de Fortalecimento: maio (4/4)
 
+RESOURCE ID: meetup_check_in_research_title_community
+TEXT: Pesquisa Temporária: Participação em Encontro (Dia Comunitário)
+
+RESOURCE ID: meetup_check_in_research_title_hatch
+TEXT: Pesquisa Temporária: Participação em Encontro (Dia de Chocar)
+
+RESOURCE ID: meetup_check_in_research_title_max_battles
+TEXT: Pesquisa Temporária: Participação em Encontro (Batalhas Max)
+
+RESOURCE ID: meetup_check_in_research_title_research
+TEXT: Pesquisa Temporária: Participação em Encontro (Dia de Pesquisa)
+
+RESOURCE ID: meetup_check_in_research_title_spotlight
+TEXT: Pesquisa Temporária: Participação em Encontro (Hora do Pokémon em Destaque)
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-07T02:01:02.052984+00:00 for pt-BR
-at SHA d1a5c42449e
-Pipeline 3055672, job 37940540
-Patch from: 0.351.0-SHA-a2cc2822-RC1, 0.351.0-SHA-5f088d7d-RC4, 0.353.0-SHA-a88947a0-RC1
+TEXT: Built at 2025-03-08T01:57:23.111663+00:00 for pt-BR
+at SHA 5e3e7a817eb
+Pipeline 3059880, job 38002285
+Patch from: 0.353.0-SHA-a88947a0-RC1, 0.351.0-SHA-2259cb4d-RC2, 0.351.0-SHA-a2cc2822-RC1
 
 RESOURCE ID: move_name_0468
 TEXT: Canção Ardente
+
+RESOURCE ID: pause_stamp_rally_button
+TEXT: PAUSE
 
 RESOURCE ID: photobomb_five_fuecoco
 TEXT: 5 encontros surpresa com Fuecoco ao usar o Retrato GO
@@ -674,6 +747,9 @@ TEXT: Doce de {0}
 
 RESOURCE ID: pokemon_candy_reward_plural
 TEXT: Doces de {0}
+
+RESOURCE ID: pokemon_caught_stamp_rally
+TEXT: CAUGHT DURING A STAMP RALLY
 
 RESOURCE ID: pokemon_desc_0646_0147
 TEXT: Dizem que este Pokémon batalha para proteger um mundo ideal que existirá no futuro para pessoas e Pokémon.
@@ -776,6 +852,9 @@ TEXT: Isso me lembra um fenômeno estranho que temos testemunhado ultimamente. E
 RESOURCE ID: quest_title_season_17_9_dialogue_5
 TEXT: Mas é bom se preparar, %PLAYERNAME%. Kyurem não deixa barato, e acredito que você o enfrentará em breve!
 
+RESOURCE ID: quests_pass_rank_up
+TEXT: Subiu de ranque!
+
 RESOURCE ID: raid_hour_rare_xl_candy_bonus
 TEXT: 1 Doce Raro GG garantido ao pegar Chefes de Reide de cinco estrelas durante uma Hora de Reides (Treinadores de nível 31+)
 
@@ -808,6 +887,51 @@ TEXT: Pokémon GO: Poder e Proeza
 
 RESOURCE ID: spawn_fuecoco
 TEXT: Fuecoco selvagens estão aparecendo com mais frequência!
+
+RESOURCE ID: stamp_rally_achievement_header
+TEXT: Achievement
+
+RESOURCE ID: stamp_rally_ends_on
+TEXT: Ends on: {0}
+
+RESOURCE ID: stamp_rally_expired_on
+TEXT: Finished on: {0}
+
+RESOURCE ID: stamp_rally_finishes_in
+TEXT: Finishes in: {0}
+
+RESOURCE ID: stamp_rally_item_reward_toast
+TEXT: Collect {0} stamps to receive rewards
+
+RESOURCE ID: stamp_rally_item_reward_toast_singular
+TEXT: Collect 1 stamp to receive rewards
+
+RESOURCE ID: stamp_rally_journal_entry_completion
+TEXT: Completed Stamp Rally: {0} at {1}
+
+RESOURCE ID: stamp_rally_journal_entry_progress
+TEXT: Collected stamp from {0} for Stamp Rally: {1}
+
+RESOURCE ID: stamp_rally_journal_entry_reward
+TEXT: Received reward from Stamp Rally: {0}
+
+RESOURCE ID: stamp_rally_missed_reward_toast
+TEXT: Go to one of the stamp rally locations to claim this reward.
+
+RESOURCE ID: stamp_rally_pokemon_item_reward_toast
+TEXT: Collect {0} stamps to encounter a Pokémon and receive other rewards
+
+RESOURCE ID: stamp_rally_pokemon_item_reward_toast_singular
+TEXT: Collect 1 stamp to encounter a Pokémon and receive other rewards
+
+RESOURCE ID: stamp_rally_pokemon_reward_toast
+TEXT: Collect {0} stamps to encounter a Pokémon
+
+RESOURCE ID: stamp_rally_pokemon_reward_toast_singular
+TEXT: Collect 1 stamp to encounter a Pokémon
+
+RESOURCE ID: stamp_reward_toast
+TEXT: Get rewards for collecting stamps!
 
 RESOURCE ID: story_mightandmastery_0_0
 TEXT: Olá, %PLAYERNAME%! Eu estava mesmo te procurando!
@@ -861,6 +985,15 @@ TEXT: <b>As recompensas incluem:</b>
 • 1 Incenso
 • 2.000 PE e 3.000 Poeira Estelar
 • E muito mais!
+
+RESOURCE ID: text_rewards_key_foc_mar25
+TEXT: <b>As recompensas incluem:</b>
+• Encontros com Bruxish
+• 2 Módulos Atrair
+• 2 Incensos
+• 2.000 Poeira Estelar
+
+Bruxish encontrados como recompensa dessa pesquisa e de todas as outras tarefas de pesquisa terão mais chances de aparecer como Pokémon Brilhantes!
 
 RESOURCE ID: text_rewards_key_gofest2025ver1
 TEXT: <b>Inclui:</b>
@@ -921,6 +1054,30 @@ TEXT: <b>Inclui:</b>
 RESOURCE ID: ticket_fuecoco_cd
 TEXT: O ingresso para a Pesquisa Especial Crocapella está disponível na loja
 
+RESOURCE ID: time_span_hr
+TEXT: 1 hour
+
+RESOURCE ID: time_span_hr_min
+TEXT: 1 hour 1 min
+
+RESOURCE ID: time_span_hr_mins
+TEXT: 1 hour {0} mins
+
+RESOURCE ID: time_span_hrs
+TEXT: {0} hours
+
+RESOURCE ID: time_span_hrs_min
+TEXT: {0} hours 1 min
+
+RESOURCE ID: time_span_hrs_mins
+TEXT: {0} hours {1} mins
+
+RESOURCE ID: time_span_min
+TEXT: 1 min
+
+RESOURCE ID: time_span_mins
+TEXT: {0} mins
+
 RESOURCE ID: tips_avatar_showing_all
 TEXT: Todos os itens
 
@@ -947,6 +1104,30 @@ TEXT: Pesquisa Temporária do Desafio da Lua Cheia (2/3)
 
 RESOURCE ID: tr_kr2025_retention_feb_title_02
 TEXT: Pesquisa Temporária do Desafio da Lua Cheia (3/3)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_desc
+TEXT: Pesquisa Temporária de Só Vai
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title
+TEXT: Só Vai
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_00
+TEXT: Pesquisa Temporária de Só Vai (1/6)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_01
+TEXT: Pesquisa Temporária de Só Vai (2/6)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_02
+TEXT: Pesquisa Temporária de Só Vai (3/6)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_03
+TEXT: Pesquisa Temporária de Só Vai (4/6)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_04
+TEXT: Pesquisa Temporária de Só Vai (5/6)
+
+RESOURCE ID: tr_kr2025_retention_march_to_may_title_05
+TEXT: Pesquisa Temporária de Só Vai (6/6)
 
 RESOURCE ID: tr_kr2025_retention_springbreeze_desc
 TEXT: Pesquisa Temporária do Desafio da Brisa Primaveril
