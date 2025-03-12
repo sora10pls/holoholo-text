@@ -27,13 +27,13 @@ RESOURCE ID: age_confirm_contact
 TEXT: Contact Support
 
 RESOURCE ID: age_confirm_explain
-TEXT: Trainers must meet certain age requirements to log in with this type of account. Please confirm your date of birth.
+TEXT: There is an age requirement to log in with this type of account. Please confirm your date of birth.
 
 RESOURCE ID: age_confirm_fail
-TEXT: Sorry, you do not meet the <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">age requirements</a> to log in with this type of account and your account will be deleted pursuant to our Terms of Service. If you believe you are eligible to log in with this type of account, please contact us.
+TEXT: Sorry, you do not meet the <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">age requirements</a> to log in with this type of account, and your account will be deleted pursuant to our Terms of Service. If you believe you are eligible to log in with this type of account, please contact us.
 
 RESOURCE ID: age_confirm_popup_confirm
-TEXT: Are you sure? This cannot be changed after you submit.
+TEXT: Are you sure? This cannot be changed after you submit it.
 
 RESOURCE ID: april_power_up_monthly_ticket_title
 TEXT: Tiket Pemerkuat: April
@@ -49,6 +49,15 @@ TEXT: Tiket Pemerkuat: April (3/4)
 
 RESOURCE ID: april_power_up_monthly_ticket_title_4
 TEXT: Tiket Pemerkuat: April (4/4)
+
+RESOURCE ID: archen_mastery_mar2025
+TEXT: Master Menangkap: Archen
+
+RESOURCE ID: available_rsvp_inactive_button_desc
+TEXT: Rencana bergabung {0}
+
+RESOURCE ID: available_rsvp_inactive_button_title
+TEXT: Ubah RSVP
 
 RESOURCE ID: avatar_hats_mustard
 TEXT: Topi Mustard
@@ -197,8 +206,23 @@ TEXT: Singapura, 30 Maret 2025
 RESOURCE ID: badge_safari_2025_singapore_test
 TEXT: Singapura 2025
 
+RESOURCE ID: batch_transfer_100_pokemon
+TEXT: {0} ★ 100% Pokémon
+
+RESOURCE ID: batch_transfer_last_more_pokemon
+TEXT: Your only {0}, {1}, and {2} more
+
+RESOURCE ID: batch_transfer_last_one_pokemon
+TEXT: Your only {0}
+
+RESOURCE ID: batch_transfer_last_two_pokemon
+TEXT: Your only {0} and {1}
+
 RESOURCE ID: bonus_cd_move_fuecoco
 TEXT: Evolusikan Crocalor untuk mendapatkan Skeledirge yang mempelajari Blast Burn!
+
+RESOURCE ID: bonus_cd_move_totodile
+TEXT: Evolusikan Croconaw untuk mendapatkan Feraligatr yang mempelajari Hydro Cannon!
 
 RESOURCE ID: bonus_pokestop_sinnoh_stone_drop
 TEXT: Peluang langka mendapatkan Batu Sinnoh dari memutar PokéStop
@@ -214,6 +238,9 @@ TEXT: GO Battle League: Kekuatan dan Penguasaan
 
 RESOURCE ID: community_day_fuecoco_event_name
 TEXT: Hari Komunitas: Fuecoco
+
+RESOURCE ID: community_day_totodile_event_name_cdc
+TEXT: Hari Komunitas Klasik: Totodile
 
 RESOURCE ID: confirm_send_button
 TEXT: SEND
@@ -336,8 +363,14 @@ RESOURCE ID: event_datetime_range_key_aprilmonthly2025
 TEXT: 4 April 10.00–
 4 Mei 10.00
 
+RESOURCE ID: event_datetime_range_key_catch_mastery_archen
+TEXT: 16 Maret, pukul 10.00 hingga 20.00
+
 RESOURCE ID: event_datetime_range_key_cd_fuecoco25
 TEXT: 8 Maret, pukul 14.00 hingga 17.00
+
+RESOURCE ID: event_datetime_range_key_cdc_totodile25
+TEXT: 22 Maret, pukul 14.00 hingga 17.00
 
 RESOURCE ID: event_datetime_range_key_ffsr0325
 TEXT: 5 Maret 10.00–
@@ -506,11 +539,20 @@ TEXT: Jalan Menuju Unova: Raid
 RESOURCE ID: general1.ticket_cd_fuecoco25_title
 TEXT: Tiket Hari Komunitas Fuecoco
 
+RESOURCE ID: general1.ticket_cdc_totodile25_title
+TEXT: Tiket Hari Komunitas Klasik Totodile
+
 RESOURCE ID: general2.ticket.7_aprilmonthly2025_title
 TEXT: Tiket Pemerkuat: April
 
 RESOURCE ID: general2.ticket.8_maymonthly2025_title
 TEXT: Tiket Pemerkuat: Mei
+
+RESOURCE ID: general2.ticket4.catch_mastery_archen
+TEXT: Tiket Penelitian Berwaktu Premium Master Menangkap: Archen
+
+RESOURCE ID: general_leave
+TEXT: Batalkan
 
 RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_team_00
 TEXT: Salam. Lapras dan aku baru saja menyelesaikan analisis terakhir kami.
@@ -996,6 +1038,12 @@ TEXT: Pass Points
 RESOURCE ID: item_event_pass_point_live_ops_04_name
 TEXT: Pass Points
 
+RESOURCE ID: item_event_ticket_04_desc_catch_mastery_archen
+TEXT: Tiket untuk mengakses Penelitian Berwaktu Premium Master Menangkap: Archen pada 16 Maret 2025, mulai pukul 10.00 hingga 20.00 waktu setempat, di mana pun kamu berada.
+
+RESOURCE ID: item_event_ticket_04_details_catch_mastery_archen
+TEXT: Tiket ini akan aktif secara otomatis pada tanggal 16 Maret dan memberimu akses ke Penelitian Berwaktu Premium Master Menangkap: Archen, di mana pun kamu berada.
+
 RESOURCE ID: item_event_ticket_10_desc_gofest2025ver1
 TEXT: Tiket untuk mengakses Pokémon GO Fest 2025: Global pada 28 dan 29 Juni 2025, di mana pun kamu berada.
 
@@ -1049,8 +1097,14 @@ TEXT: Tiket ini akan aktif secara otomatis pada tanggal 4 Mei dan memberimu akse
 RESOURCE ID: item_event_ticket_pink_desc_cd_fuecoco25
 TEXT: Tiket untuk mengakses Penelitian Spesial Hari Komunitas Fuecoco mulai 8 Maret, pukul 14.00 waktu setempat, di mana pun kamu berada.
 
+RESOURCE ID: item_event_ticket_pink_desc_cdc_totodile25
+TEXT: Tiket untuk mengakses Penelitian Spesial Hari Komunitas Klasik: Totodile pada 22 Maret, mulai pukul 14.00 waktu setempat, di mana pun kamu berada.
+
 RESOURCE ID: item_event_ticket_pink_details_cd_fuecoco25
 TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Spesial Akapela Buaya pada 8 Maret, di mana pun kamu berada.
+
+RESOURCE ID: item_event_ticket_pink_details_cdc_totodile25
+TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Spesial Hari Komunitas Klasik Totodile pada 22 Maret, di mana pun kamu berada.
 
 RESOURCE ID: item_global_event_ticket_details_meloetta
 TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke bonus spesial mulai tanggal 24 Februari, di mana pun kamu berada.
@@ -1060,6 +1114,9 @@ TEXT: A book to collect Postcards and Stamps from you and your friends' journeys
 
 RESOURCE ID: item_postcard_inventory_name_stamp
 TEXT: Collection Book
+
+RESOURCE ID: last_pokemon_transfer_to_professor_confirmation
+TEXT: Do you really want to transfer your last {0}?
 
 RESOURCE ID: march_power_up_monthly_ticket_title
 TEXT: Tiket Pemerkuat: Maret
@@ -1107,13 +1164,62 @@ RESOURCE ID: meetup_check_in_research_title_spotlight
 TEXT: Penelitian Berwaktu Check-In Kopdar: Jam Sorotan Pokémon
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-08T01:57:23.111663+00:00 for id-ID
-at SHA 5e3e7a817eb
-Pipeline 3059880, job 38002285
-Patch from: 0.353.0-SHA-a88947a0-RC1, 0.351.0-SHA-2259cb4d-RC2, 0.351.0-SHA-a2cc2822-RC1
+TEXT: Built at 2025-03-12T00:16:36.692837+00:00 for id-ID
+at SHA 505084fd5a2
+Pipeline 3069127, job 38142456
+Patch from: 0.351.0-SHA-f7106c82-RC1, 0.351.0-SHA-57275791-RC3, 0.353.0-SHA-3f590095-RC4
 
 RESOURCE ID: move_name_0468
 TEXT: Flare Song
+
+RESOURCE ID: name_sharing_preference_everyone
+TEXT: Siapa Saja
+
+RESOURCE ID: name_sharing_preference_friends
+TEXT: Hanya Teman
+
+RESOURCE ID: name_sharing_preference_no_one
+TEXT: Tidak Satu Pun
+
+RESOURCE ID: nearby_active_reminder_header
+TEXT: RSVP AKTIF
+
+RESOURCE ID: nearby_pokemon_gui_battle_header
+TEXT: BERTARUNG
+
+RESOURCE ID: nearby_pokemon_gui_rsvp_header
+TEXT: RSVP
+
+RESOURCE ID: nearby_rsvp_invitations_header
+TEXT: UNDANGAN
+
+RESOURCE ID: nearby_rsvp_invite_accepted
+TEXT: Undangan diterima!
+
+RESOURCE ID: nearby_rsvp_invite_removed
+TEXT: Undangan ditolak.
+
+RESOURCE ID: nearby_rsvp_join
+TEXT: RSVP
+
+RESOURCE ID: nearby_rsvp_no_rsvps
+TEXT: Tidak ada RSVP pertarungan yang akan diikuti.
+
+RESOURCE ID: nearby_rsvp_reminders_header
+TEXT: PENGINGAT
+
+RESOURCE ID: nearby_rsvp_see_more
+TEXT: SELENGKAPNYA ({0})
+
+RESOURCE ID: nearby_tab_raids_ftue
+TEXT: Menu Sekitarmu telah ditingkatkan!
+
+Periksa tab Raid untuk bertarung dengan Pokémon kuat bersama Pelatih lainnya.
+
+RESOURCE ID: nearby_tab_routes_ftue
+TEXT: Menu Sekitarmu telah ditingkatkan!
+
+Temukan komunitas lokalmu dan dapatkan hadiah dengan menyelesaikan Rute!
 
 RESOURCE ID: next_rank_label
 TEXT: Ke rank berikutnya:
@@ -1128,6 +1234,9 @@ TEXT: PAUSE
 
 RESOURCE ID: photobomb_five_fuecoco
 TEXT: 5 pertemuan kejutan dengan Fuecoco di Foto GO
+
+RESOURCE ID: photobomb_five_totodile
+TEXT: 5 pertemuan kejutan dengan Totodile di Foto GO
 
 RESOURCE ID: pokedex_info_battle_charge_header
 TEXT: Jurus Spesial
@@ -1151,6 +1260,9 @@ TEXT: Tipe
 RESOURCE ID: pokedex_info_battle_weak_header
 TEXT: Lemah
 Terhadap
+
+RESOURCE ID: pokemon_100_transfer_to_professor_confirmation
+TEXT: Do you really want to transfer this ★ 100% Pokémon?
 
 RESOURCE ID: pokemon_alert_label_off
 TEXT: Pemberitahuan Nonaktif
@@ -1178,6 +1290,12 @@ TEXT: {0} liar ada di dekat sini!
 
 RESOURCE ID: pokemon_nearby_notification_adventure_sync_already_assigned_message
 TEXT: Kamu sudah mengatur pemberitahuan untuk {0}.
+
+RESOURCE ID: post_cd_extended_bonus
+TEXT: Hari Komunitas: Perpanjangan Bonus
+
+RESOURCE ID: post_cdc_extended_bonus
+TEXT: Hari Komunitas Klasik: Perpanjangan Bonus
 
 RESOURCE ID: powerful_potential_2025_event_name
 TEXT: Potensi Kekuatan
@@ -1280,17 +1398,143 @@ TEXT: Tampaknya fenomena aneh yang belakangan kita amati itu, ada hubungannya de
 RESOURCE ID: quest_title_season_17_9_dialogue_5
 TEXT: Kita perlu melakukan persiapan, %PLAYERNAME%. Kyurem juga tidak mudah untuk ditemukan. Tetapi aku punya firasat kita bisa bertemu dengannya jika kita terus melakukan penelitian!
 
+RESOURCE ID: quest_title_totodile
+TEXT: Hari Komunitas Klasik: Totodile
+
+RESOURCE ID: quest_title_totodile_0
+TEXT: Hari Komunitas Klasik: Totodile (1/2)
+
+RESOURCE ID: quest_title_totodile_1
+TEXT: Hari Komunitas Klasik: Totodile (2/2)
+
+RESOURCE ID: quest_totodile_catch_b
+TEXT: Tangkap {0} Totodile
+
 RESOURCE ID: quests_pass_rank_up
 TEXT: Rank naik!
 
 RESOURCE ID: raid_hour_rare_xl_candy_bonus
 TEXT: Dijamin 1 Permen Langka XL saat menangkap Bos Raid bintang 5 selama Jam Raid (Level Pelatih 31+)
 
+RESOURCE ID: raid_nearby_rsvp
+TEXT: RSVP
+
+RESOURCE ID: raid_planner_join_this_rsvp
+TEXT: RSVP
+
+RESOURCE ID: raid_planner_rsvp_conflict_title
+TEXT: Yakin ingin RSVP?
+
+RESOURCE ID: raid_planner_rsvp_conflict_warning
+TEXT: RSVP ke pertarungan ini akan membatalkan RSVP yang telah ada.
+
+RESOURCE ID: raid_planner_success_rsvp
+TEXT: RSVP berhasil!
+
+RESOURCE ID: raid_rsvp_bonus
+TEXT: RSVP'd to Raid
+
+RESOURCE ID: raid_sort_distance
+TEXT: JARAK
+
+RESOURCE ID: raid_sort_level
+TEXT: TINGKAT KESULITAN
+
+RESOURCE ID: raid_sort_people
+TEXT: JUMLAH ORANG DI LOBI
+
+RESOURCE ID: raid_sort_rsvps
+TEXT: JUMLAH RSVP
+
+RESOURCE ID: raid_sort_time
+TEXT: WAKTU HINGGA RAID
+
 RESOURCE ID: rank
 TEXT: RANK
 
 RESOURCE ID: road_to_unova_pikachu_title
 TEXT: Kejutan Pikachu
+
+RESOURCE ID: rsvp_attendance_preference_title
+TEXT: Bagi Status RSVP Dengan:
+
+RESOURCE ID: rsvp_inactive_button_desc
+TEXT: {0} di {1}
+
+RESOURCE ID: rsvp_inactive_button_title
+TEXT: PILIH JAM
+
+RESOURCE ID: rsvp_invitation_notification_string_key
+TEXT: {0} mengundangmu ke {1} di {2}!
+
+RESOURCE ID: rsvp_invite_friends
+TEXT: Undang Teman
+
+RESOURCE ID: rsvp_reminder_min
+TEXT: min
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_join
+TEXT: <b>Pertarungan Max dimulai sekarang!</b> Gabunglah dengan {0} Pelatih lainnya!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_join_singular
+TEXT: <b>Pertarungan Max dimulai sekarang!</b> Waktunya bergabung!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_start_soon
+TEXT: <b>Pertarungan Max segera dimulai!</b> Bersiaplah bersama {0} Pelatih lainnya!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_start_soon_singular
+TEXT: <b>Pertarungan Max segera dimulai!</b> Bersiaplah!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_join
+TEXT: <b>Pertarungan Max {0} Gigantamax dimulai sekarang!</b> Gabunglah dengan {1} Pelatih lainnya!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_join_singular
+TEXT: <b>Pertarungan Max {0} Gigantamax dimulai sekarang!</b> Waktunya bergabung!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_start_soon
+TEXT: <b>Pertarungan Max {0} Gigantamax segera dimulai!</b> Bersiaplah bersama {1} Pelatih lainnya!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_start_soon_singular
+TEXT: <b>Pertarungan Max {0} Gigantamax segera dimulai!</b> Bersiaplah!
+
+RESOURCE ID: rsvp_reminder_notification_join_button
+TEXT: GABUNG
+
+RESOURCE ID: rsvp_reminder_notification_raid_egg_start_soon
+TEXT: <b>Telur Raid segera menetas!</b> Bersiaplah bersama {0} Pelatih lainnya!
+
+RESOURCE ID: rsvp_reminder_notification_raid_egg_start_soon_singular
+TEXT: <b>Telur Raid segera menetas!</b> Bersiaplah!
+
+RESOURCE ID: rsvp_reminder_notification_raid_join
+TEXT: <b>Raid {0} dimulai sekarang!</b> Gabunglah dengan {1} Pelatih lainnya!
+
+RESOURCE ID: rsvp_reminder_notification_raid_join_singular
+TEXT: <b>Raid {0} dimulai sekarang!</b> Waktunya bergabung!
+
+RESOURCE ID: rsvp_reminder_notification_raid_start_soon
+TEXT: <b>Raid {0} segera dimulai!</b> Bersiaplah bersama {1} Pelatih lainnya!
+
+RESOURCE ID: rsvp_reminder_notification_raid_start_soon_singular
+TEXT: <b>Raid {0} segera dimulai!</b> Bersiaplah!
+
+RESOURCE ID: rsvp_tooltip_nearby_menu
+TEXT: Lihat untuk membuat jadwal untuk Raid.
+
+RESOURCE ID: rsvp_tooltip_rsvp_button
+TEXT: Pilih jam untuk ikut Raid!
+
+RESOURCE ID: rsvp_tooltip_top_level
+TEXT: Baru: Jadwal Raid!
+
+RESOURCE ID: rsvp_topper_join
+TEXT: Gabung
+
+RESOURCE ID: rsvp_tutorial_body
+TEXT: Pilih slot waktu untuk mengikuti Raid mendatang bersama Pelatih lainnya! Jika kamu RSVP ke sebuah Raid, kamu akan diberi notifikasi ketika Raid akan dimulai.
+
+RESOURCE ID: rsvp_tutorial_title
+TEXT: RSVP Raid
 
 RESOURCE ID: safari_city_2025_singapore_title
 TEXT: City Safari: Singapura 2025
@@ -1328,8 +1572,92 @@ TEXT: Kekuatan dan Penguasaan (5/5)
 RESOURCE ID: season_gbl_forecast_title_18
 TEXT: Pokémon GO: Kekuatan dan Penguasaan
 
+RESOURCE ID: social_planner_cannot_change_active_timeslots_key
+TEXT: Unable to change time slot as no time slots are available
+
+RESOURCE ID: social_planner_conflict_disclaimer_text_key
+TEXT: You have a time conflict.
+
+RESOURCE ID: social_planner_detail_other_trainers
+TEXT: {0} Pelatih Lainnya
+
+RESOURCE ID: social_planner_error_rsvp_failure
+TEXT: Terjadi kesalahan. Mohon coba lagi.
+
+RESOURCE ID: social_planner_error_rsvp_max_limit
+TEXT: Mencapai jumlah maksimal RSVP.
+
+RESOURCE ID: social_planner_error_rsvp_missing
+TEXT: Terjadi kesalahan. RSVP tidak ditemukan.
+
+RESOURCE ID: social_planner_error_timeslot_passed
+TEXT: Slot waktu ini tidak lagi tersedia.
+
+RESOURCE ID: social_planner_error_timeslot_passed_no_edits
+TEXT: Kamu tidak dapat mengganti jadwalmu karena telah dimulai.
+
+RESOURCE ID: social_planner_leave_rsvp_modal_subtitle_key
+TEXT: Kamu akan dihapus dari pengingat dan grup partisipan. 
+
+RESOURCE ID: social_planner_leave_rsvp_modal_title_key
+TEXT: Kamu yakin akan membatalkan partisipasi ke pertarungan ini?
+
+RESOURCE ID: social_planner_leave_rsvp_success_toast_key
+TEXT: Kamu telah membatalkan RSVP.
+
+RESOURCE ID: social_planner_leave_rsvp_text_key
+TEXT: Batalkan RSVP
+
+RESOURCE ID: social_planner_no_more_timeslots_key
+TEXT: No more available timeslots.
+
+RESOURCE ID: social_planner_rsvp_friends_list_empty
+TEXT: Daftar Teman Kosong
+
+RESOURCE ID: social_planner_rsvp_friends_list_title
+TEXT: Undang {0} Teman
+
+RESOURCE ID: social_planner_rsvp_going_count
+TEXT: {0} ikut
+
+RESOURCE ID: social_planner_rsvp_going_text_key
+TEXT: Ikut
+
+RESOURCE ID: social_planner_rsvp_invite_sent_confirmation
+TEXT: Undangan dikirim!
+
+RESOURCE ID: social_planner_rsvp_local_only_disclaimer
+TEXT: You'll need to be nearby to defeat this Raid Boss.
+
+RESOURCE ID: social_planner_rsvp_maybe_count
+TEXT: {0} belum pasti
+
+RESOURCE ID: social_planner_rsvp_maybe_text_key
+TEXT: Belum Pasti
+
+RESOURCE ID: social_planner_rsvp_not_going_text_key
+TEXT: Tidak Ikut
+
+RESOURCE ID: social_planner_time_conflict_disclaimer_title_key
+TEXT: Jadwal Bentrok
+
+RESOURCE ID: social_planner_timeslot_friend_attending_key_duo
+TEXT: {0} dan {1} ikut
+
+RESOURCE ID: social_planner_timeslot_friend_attending_key_multiple
+TEXT: {0} dan {1} teman ikut
+
+RESOURCE ID: social_planner_timeslot_friend_attending_key_singular
+TEXT: {0} ikut
+
+RESOURCE ID: social_planner_timetable_gui_title_key
+TEXT: Pilih Waktu
+
 RESOURCE ID: spawn_fuecoco
 TEXT: Lebih banyak Fuecoco muncul di alam liar!
+
+RESOURCE ID: spawn_totodile
+TEXT: Lebih banyak Totodile yang muncul di alam liar!
 
 RESOURCE ID: special_trade_stardust_half
 TEXT: 1/2 biaya Debu Bintang untuk Pertukaran Spesial
@@ -1414,10 +1742,22 @@ TEXT: <b>Termasuk:</b>
 • Penelitian Berwaktu yang berhadiah 50.000 XP dan 50.000 Debu Bintang
 • Dan banyak lagi!
 
+RESOURCE ID: text_rewards_key_catch_mastery_archen
+TEXT: <b>Termasuk hadiah:<b>
+• 40 pertemuan dengan Archen
+• Bola Pokémon dan Beri
+• 12.000 XP dan 3.000 Debu Bintang
+
 RESOURCE ID: text_rewards_key_cd_fuecoco25
 TEXT: <b>Termasuk Hadiah:</b>
 • Item Premium dalam game seperti Tiket Pertarungan Premium, MJ Super, dan Permen Langka
 • Pertemuan dengan Fuecoco, dengan Latar Belakang Spesial
+• Dan banyak lagi!
+
+RESOURCE ID: text_rewards_key_cdc_totodile25
+TEXT: <b>Termasuk Hadiah:</b>
+• Item Premium dalam game seperti Tiket Pertarungan Premium, MJ Super, dan Permen Langka
+• Pertemuan dengan Totodile, dengan Latar Belakang Spesial
 • Dan banyak lagi!
 
 RESOURCE ID: text_rewards_key_ffsr0325
@@ -1538,6 +1878,9 @@ TEXT: <b>Termasuk Hadiah:</b>
 RESOURCE ID: ticket_fuecoco_cd
 TEXT: Tiket untuk Penelitian Spesial Akapela Buaya tersedia di toko
 
+RESOURCE ID: ticket_totodile_cdc
+TEXT: Tiket untuk Penelitian Spesial Hari Komunitas Klasik Totodile tersedia di toko
+
 RESOURCE ID: time_span_hr
 TEXT: 1 hour
 
@@ -1573,6 +1916,78 @@ TEXT: Kamu tidak memiliki item
 
 RESOURCE ID: tips_friends_tutorial_battle_body
 TEXT: Di Level 10, kamu bisa bertarung bersama teman di Gym dan Raid. Kamu juga bisa menantang mereka di Pertarungan Pelatih! Menjadi Sahabat atau Sahabat Terbaik untuk saling bertarung dari mana saja di seluruh dunia.
+
+RESOURCE ID: tr_archen_mastery_catch_kabuto
+TEXT: Tangkap {0} Kabuto
+
+RESOURCE ID: tr_archen_mastery_catch_omanyte
+TEXT: Tangkap {0} Omanyte
+
+RESOURCE ID: tr_archen_mastery_mar2025
+TEXT: Penelitian Berwaktu Master Menangkap: Archen
+
+RESOURCE ID: tr_archen_mastery_mar2025_0
+TEXT: Penelitian Berwaktu Master Menangkap: Archen (1/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_1
+TEXT: Penelitian Berwaktu Master Menangkap: Archen (2/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_2
+TEXT: Penelitian Berwaktu Master Menangkap: Archen (3/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_3
+TEXT: Penelitian Berwaktu Master Menangkap: Archen (4/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_4
+TEXT: Penelitian Berwaktu Master Menangkap: Archen (5/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_5
+TEXT: Penelitian Berwaktu Master Menangkap: Archen (6/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_6
+TEXT: Penelitian Berwaktu Master Menangkap: Archen (7/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_7
+TEXT: Penelitian Berwaktu Master Menangkap: Archen (8/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_8
+TEXT: Penelitian Berwaktu Master Menangkap: Archen (9/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_9
+TEXT: Penelitian Berwaktu Master Menangkap: Archen (10/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025
+TEXT: Penelitian Berwaktu Premium Master Menangkap: Archen
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_0
+TEXT: Penelitian Berwaktu Premium Master Menangkap: Archen (1/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_1
+TEXT: Penelitian Berwaktu Premium Master Menangkap: Archen (2/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_2
+TEXT: Penelitian Berwaktu Premium Master Menangkap: Archen (3/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_3
+TEXT: Penelitian Berwaktu Premium Master Menangkap: Archen (4/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_4
+TEXT: Penelitian Berwaktu Premium Master Menangkap: Archen (5/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_5
+TEXT: Penelitian Berwaktu Premium Master Menangkap: Archen (6/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_6
+TEXT: Penelitian Berwaktu Premium Master Menangkap: Archen (7/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_7
+TEXT: Penelitian Berwaktu Premium Master Menangkap: Archen (8/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_8
+TEXT: Penelitian Berwaktu Premium Master Menangkap: Archen (9/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_9
+TEXT: Penelitian Berwaktu Premium Master Menangkap: Archen (10/10)
 
 RESOURCE ID: tr_kr2025_retention_feb_desc
 TEXT: Penelitian Berwaktu Tantangan Cahaya Bulan

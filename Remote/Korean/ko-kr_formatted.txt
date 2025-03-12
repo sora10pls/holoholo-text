@@ -27,13 +27,13 @@ RESOURCE ID: age_confirm_contact
 TEXT: Contact Support
 
 RESOURCE ID: age_confirm_explain
-TEXT: Trainers must meet certain age requirements to log in with this type of account. Please confirm your date of birth.
+TEXT: There is an age requirement to log in with this type of account. Please confirm your date of birth.
 
 RESOURCE ID: age_confirm_fail
-TEXT: Sorry, you do not meet the <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">age requirements</a> to log in with this type of account and your account will be deleted pursuant to our Terms of Service. If you believe you are eligible to log in with this type of account, please contact us.
+TEXT: Sorry, you do not meet the <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">age requirements</a> to log in with this type of account, and your account will be deleted pursuant to our Terms of Service. If you believe you are eligible to log in with this type of account, please contact us.
 
 RESOURCE ID: age_confirm_popup_confirm
-TEXT: Are you sure? This cannot be changed after you submit.
+TEXT: Are you sure? This cannot be changed after you submit it.
 
 RESOURCE ID: april_power_up_monthly_ticket_title
 TEXT: 강화 티켓: 4월
@@ -49,6 +49,15 @@ TEXT: 강화 티켓: 4월(3/4)
 
 RESOURCE ID: april_power_up_monthly_ticket_title_4
 TEXT: 강화 티켓: 4월(4/4)
+
+RESOURCE ID: archen_mastery_mar2025
+TEXT: 마스터리 시리즈: 아켄
+
+RESOURCE ID: available_rsvp_inactive_button_desc
+TEXT: {0}에 참가 예정
+
+RESOURCE ID: available_rsvp_inactive_button_title
+TEXT: 일정 변경
 
 RESOURCE ID: avatar_hats_mustard
 TEXT: 마스터드 모자
@@ -200,8 +209,23 @@ TEXT: 싱가포르, 2025년 3월 30일
 RESOURCE ID: badge_safari_2025_singapore_test
 TEXT: 싱가포르2025
 
+RESOURCE ID: batch_transfer_100_pokemon
+TEXT: {0} ★ 100% Pokémon
+
+RESOURCE ID: batch_transfer_last_more_pokemon
+TEXT: Your only {0}, {1}, and {2} more
+
+RESOURCE ID: batch_transfer_last_one_pokemon
+TEXT: Your only {0}
+
+RESOURCE ID: batch_transfer_last_two_pokemon
+TEXT: Your only {0} and {1}
+
 RESOURCE ID: bonus_cd_move_fuecoco
 TEXT: 악뜨거를 라우드본으로 진화시키면 블라스트번을 배운다
+
+RESOURCE ID: bonus_cd_move_totodile
+TEXT: 엘리게이를 장크로다일로 진화시키면 스페셜 어택 하이드로캐논을 배운다!
 
 RESOURCE ID: bonus_daily_t5_raid_lineup
 TEXT: 이벤트 기간 중 매일 다른 별5 레이드배틀 보스 포켓몬등장
@@ -220,6 +244,9 @@ TEXT: GO배틀리그: 힘과 숙련
 
 RESOURCE ID: community_day_fuecoco_event_name
 TEXT: 커뮤니티 데이: 뜨아거
+
+RESOURCE ID: community_day_totodile_event_name_cdc
+TEXT: 커뮤니티 데이(복각): 리아코
 
 RESOURCE ID: confirm_send_button
 TEXT: SEND
@@ -339,8 +366,14 @@ RESOURCE ID: event_datetime_range_key_aprilmonthly2025
 TEXT: 4월 4일 10:00~
 5월 4일 10:00
 
+RESOURCE ID: event_datetime_range_key_catch_mastery_archen
+TEXT: 3월 16일 10:00 ~ 20:00
+
 RESOURCE ID: event_datetime_range_key_cd_fuecoco25
 TEXT: 3월 8일 14시 ~ 17시
+
+RESOURCE ID: event_datetime_range_key_cdc_totodile25
+TEXT: 3월 22일 14:00 ~ 17:00
 
 RESOURCE ID: event_datetime_range_key_ffsr0325
 TEXT: 3월 5일 10:00~
@@ -532,11 +565,20 @@ TEXT: 하나로의 길: 레이드
 RESOURCE ID: general1.ticket_cd_fuecoco25_title
 TEXT: 뜨아거 커뮤니티 데이 티켓
 
+RESOURCE ID: general1.ticket_cdc_totodile25_title
+TEXT: 리아코 커뮤니티 데이(복각) 티켓
+
 RESOURCE ID: general2.ticket.7_aprilmonthly2025_title
 TEXT: 강화 티켓: 4월
 
 RESOURCE ID: general2.ticket.8_maymonthly2025_title
 TEXT: 강화 티켓: 5월
+
+RESOURCE ID: general2.ticket4.catch_mastery_archen
+TEXT: 마스터리 시리즈: 아켄 프리미엄 시간제한 리서치 티켓
+
+RESOURCE ID: general_leave
+TEXT: 취소
 
 RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_team_00
 TEXT: 공유하지. 라프라스랑 시험해 보고 결론이 나왔어.
@@ -1004,6 +1046,12 @@ TEXT: Pass Points
 RESOURCE ID: item_event_pass_point_live_ops_04_name
 TEXT: Pass Points
 
+RESOURCE ID: item_event_ticket_04_desc_catch_mastery_archen
+TEXT: 현지시간 2025년 3월 16일 10시~20시에 마스터리 시리즈: 아켄 프리미엄 시간제한 리서치를 진행하기 위한 티켓.
+
+RESOURCE ID: item_event_ticket_04_details_catch_mastery_archen
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2025년 3월 16일에 마스터리 시리즈: 아켄 프리미엄 시간제한 리서치를 손에 넣을 수 있습니다.
+
 RESOURCE ID: item_event_ticket_10_desc_gofest2025ver1
 TEXT: 현지시간 2025년 6월 28일, 29일에  Pokémon GO Fest 2025: 글로벌에 참가할 수 있는 티켓.
 
@@ -1057,8 +1105,14 @@ TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2025년 5월 4일�
 RESOURCE ID: item_event_ticket_pink_desc_cd_fuecoco25
 TEXT: 현지시간 2025년 3월 8일 14시부터 뜨아거 커뮤니티 데이 스페셜리서치를 진행하기 위한 티켓.
 
+RESOURCE ID: item_event_ticket_pink_desc_cdc_totodile25
+TEXT: 현지시간 2025년 3월 22일 14시부터 리아코 커뮤니티 데이(복각) 스페셜리서치를 진행하기 위한 티켓.
+
 RESOURCE ID: item_event_ticket_pink_details_cd_fuecoco25
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2025년 3월 8일에 '불꽃악어포켓몬의 수수께끼를 풀어라!' 스페셜리서치가 진행됩니다.
+
+RESOURCE ID: item_event_ticket_pink_details_cdc_totodile25
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 3월 22일 리아코 커뮤니티 데이(복각) 스페셜리서치가 진행됩니다.
 
 RESOURCE ID: item_global_event_ticket_details_meloetta
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2025년 2월 24일에 보너스를 받을 수 있습니다.
@@ -1071,6 +1125,9 @@ TEXT: Collection Book
 
 RESOURCE ID: item_use_confirmation_on_friend
 TEXT: {1}님에게 {0}(을)를 사용하겠습니까?
+
+RESOURCE ID: last_pokemon_transfer_to_professor_confirmation
+TEXT: Do you really want to transfer your last {0}?
 
 RESOURCE ID: lucky_friends_notification_details_from_charm
 TEXT: 반짝이 참을 사용해서 {0}님과 반짝반짝 프렌드가 되었다!
@@ -1121,10 +1178,10 @@ RESOURCE ID: meetup_check_in_research_title_spotlight
 TEXT: 미트업 체크인 시간제한 리서치: 스포트라이트 아워
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-08T01:57:23.111663+00:00 for ko-KR
-at SHA 5e3e7a817eb
-Pipeline 3059880, job 38002285
-Patch from: 0.353.0-SHA-a88947a0-RC1, 0.351.0-SHA-2259cb4d-RC2, 0.351.0-SHA-a2cc2822-RC1
+TEXT: Built at 2025-03-12T00:16:36.692837+00:00 for ko-KR
+at SHA 505084fd5a2
+Pipeline 3069127, job 38142456
+Patch from: 0.351.0-SHA-f7106c82-RC1, 0.351.0-SHA-57275791-RC3, 0.353.0-SHA-3f590095-RC4
 
 RESOURCE ID: move_name_0468
 TEXT: 플레어송
@@ -1138,11 +1195,64 @@ TEXT: 계속하겠습니까?
 RESOURCE ID: move_required_to_enable_adventure_effect_title
 TEXT: 이 합체한 포켓몬은 필드 효과 기술을 배울 수 없습니다
 
+RESOURCE ID: name_sharing_preference_everyone
+TEXT: 모든 사람
+
+RESOURCE ID: name_sharing_preference_friends
+TEXT: 프렌드만
+
+RESOURCE ID: name_sharing_preference_no_one
+TEXT: 안 한다
+
+RESOURCE ID: nearby_active_reminder_header
+TEXT: 활동 알림
+
+RESOURCE ID: nearby_pokemon_gui_battle_header
+TEXT: 협력 배틀
+
+RESOURCE ID: nearby_pokemon_gui_raid_header
+TEXT: 레이드배틀
+
+RESOURCE ID: nearby_pokemon_gui_rsvp_header
+TEXT: 일정 예약
+
+RESOURCE ID: nearby_rsvp_invitations_header
+TEXT: 초대
+
+RESOURCE ID: nearby_rsvp_invite_accepted
+TEXT: 초대를 받았다!
+
+RESOURCE ID: nearby_rsvp_invite_removed
+TEXT: 초대가 거부 되었다.
+
+RESOURCE ID: nearby_rsvp_join
+TEXT: 예정 일정 참가
+
+RESOURCE ID: nearby_rsvp_no_rsvps
+TEXT: 참가 일정을 설정한 배틀은 없습니다
+
+RESOURCE ID: nearby_rsvp_reminders_header
+TEXT: 리마인드
+
+RESOURCE ID: nearby_rsvp_see_more
+TEXT: 더 보기({0})
+
+RESOURCE ID: nearby_tab_raids_ftue
+TEXT: 근처의 모습이 업그레이드 되었습니다!
+
+RESOURCE ID: nearby_tab_routes_ftue
+TEXT: 근처의 모습'이 업그레이드 되었습니다!
+
+루트를 걸어 보상을 받으세요!
+
 RESOURCE ID: pause_stamp_rally_button
 TEXT: PAUSE
 
 RESOURCE ID: photobomb_five_fuecoco
 TEXT: GO스냅샷으로 뜨아거의 서프라이즈 5회
+
+RESOURCE ID: photobomb_five_totodile
+TEXT: GO스냅샷으로 리아코의 서프라이즈 5회
 
 RESOURCE ID: pokedex_info_battle_charge_header
 TEXT: 스페셜 어택
@@ -1166,6 +1276,9 @@ TEXT: 타입
 RESOURCE ID: pokedex_info_battle_weak_header
 TEXT: 비교적
 약함
+
+RESOURCE ID: pokemon_100_transfer_to_professor_confirmation
+TEXT: Do you really want to transfer this ★ 100% Pokémon?
 
 RESOURCE ID: pokemon_alert_label_off
 TEXT: 알림 끔
@@ -1206,6 +1319,12 @@ TEXT: {0}의 사탕XL
 
 RESOURCE ID: pokemon_xl_candy_reward_plural
 TEXT: {0}의 사탕XL
+
+RESOURCE ID: post_cd_extended_bonus
+TEXT: 커뮤니티 데이: 연장 보너스
+
+RESOURCE ID: post_cdc_extended_bonus
+TEXT: 커뮤니티 데이(복각): 연장 보너스
 
 RESOURCE ID: powerful_potential_2025_event_name
 TEXT: 강력한 잠재력
@@ -1315,6 +1434,18 @@ TEXT: 최근 관찰된 불가사의한 현상도 이 전설의 포켓몬과 관�
 RESOURCE ID: quest_title_season_17_9_dialogue_5
 TEXT: %PLAYERNAME%, 준비가 필요하겠어. 큐레무는 쉽게 발견할 수 없을 거야. 꾸준한 조사를 통해서만 만날 수 있을 것 같군!
 
+RESOURCE ID: quest_title_totodile
+TEXT: 커뮤니티 데이(복각): 리아코
+
+RESOURCE ID: quest_title_totodile_0
+TEXT: 커뮤니티 데이(복각): 리아코(1/2)
+
+RESOURCE ID: quest_title_totodile_1
+TEXT: 커뮤니티 데이(복각): 리아코(2/2)
+
+RESOURCE ID: quest_totodile_catch_b
+TEXT: 리아코를 {0}마리 잡는다
+
 RESOURCE ID: quests_pass_multiple_task_available
 TEXT: 신규 패스 태스크
 
@@ -1324,6 +1455,39 @@ TEXT: 신규 패스 태스크
 RESOURCE ID: raid_hour_rare_xl_candy_bonus
 TEXT: 레이드 아워에서 별5 레이드 보스 포켓몬을 잡아 받을 수 있는 이상한사탕XL 1개 획득(트레이너 레벨 31이상)
 
+RESOURCE ID: raid_nearby_rsvp
+TEXT: 참가 예정
+
+RESOURCE ID: raid_planner_join_this_rsvp
+TEXT: 일정 설정
+
+RESOURCE ID: raid_planner_rsvp_conflict_title
+TEXT: 참가 예정을 넣으시겠습니까?
+
+RESOURCE ID: raid_planner_rsvp_conflict_warning
+TEXT: 이 배틀의 참가를 확정하면 기존에 있던 참가 예정은 취소됩니다.
+
+RESOURCE ID: raid_planner_success_rsvp
+TEXT: 일정 예약을 설정했습니다!
+
+RESOURCE ID: raid_rsvp_bonus
+TEXT: RSVP'd to Raid
+
+RESOURCE ID: raid_sort_distance
+TEXT: 거리
+
+RESOURCE ID: raid_sort_level
+TEXT: 난이도
+
+RESOURCE ID: raid_sort_people
+TEXT: 로비 대기 인원 수
+
+RESOURCE ID: raid_sort_rsvps
+TEXT: 일정 예약 인원 수
+
+RESOURCE ID: raid_sort_time
+TEXT: 시작까지 시간
+
 RESOURCE ID: road_to_unova_event_title_hatch
 TEXT: 하나로의 길: 알 부화 티켓
 
@@ -1332,6 +1496,87 @@ TEXT: 하나로의 길: 레이드 티켓
 
 RESOURCE ID: road_to_unova_pikachu_title
 TEXT: 피카츄 서프라이즈
+
+RESOURCE ID: rsvp_attendance_preference_title
+TEXT: 일정 예약을 공유:
+
+RESOURCE ID: rsvp_inactive_button_desc
+TEXT: {0}명 ({1})
+
+RESOURCE ID: rsvp_inactive_button_title
+TEXT: 시간 선택
+
+RESOURCE ID: rsvp_invitation_notification_string_key
+TEXT: {0}님이 {1}{2}(으)로 초대했습니다!
+
+RESOURCE ID: rsvp_invite_friends
+TEXT: 프렌드를 초대
+
+RESOURCE ID: rsvp_reminder_min
+TEXT: min
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_join
+TEXT: <b>맥스배틀 시작!</b> 트레이너 {0}명과 참가!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_join_singular
+TEXT: <b>맥스배틀이 시작합니다!</b> 참가하세요!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_start_soon
+TEXT: <b>맥스배틀 시작!</b> 트레이너 {0}명과 참가 준비!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_start_soon_singular
+TEXT: <b>맥스배틀이 시작합니다!</b> 준비하세요!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_join
+TEXT: <b>거다이맥스 {0}의 맥스배틀이 곧 시작합니다!</b> 트레이너 {1}명과 참가!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_join_singular
+TEXT: <b>거다이맥스 {0}의 맥스배틀이 곧 시작합니다!</b> 참가하세요!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_start_soon
+TEXT: <b>거다이맥스 {0}의 맥스배틀이 곧 시작합니다!</b> 트레이너 {1}명과 참가 준비!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_start_soon_singular
+TEXT: <b>거다이맥스 {0}의 맥스배틀이 곧 시작합니다!</b> 준비하세요!
+
+RESOURCE ID: rsvp_reminder_notification_join_button
+TEXT: 참가
+
+RESOURCE ID: rsvp_reminder_notification_raid_egg_start_soon
+TEXT: <b>레이드 알이 곧 부화합니다!</b> 트레이너 {0}명과 참가 준비!
+
+RESOURCE ID: rsvp_reminder_notification_raid_egg_start_soon_singular
+TEXT: <b>레이드 알이 곧 부화합니다!</b> 준비하세요!
+
+RESOURCE ID: rsvp_reminder_notification_raid_join
+TEXT: <b>{0}의 레이드배틀이 곧 시작합니다!</b> 트레이너 {1}명과 참가!
+
+RESOURCE ID: rsvp_reminder_notification_raid_join_singular
+TEXT: <b>{0}의 레이드배틀이 곧 시작합니다!</b> 참가하세요!
+
+RESOURCE ID: rsvp_reminder_notification_raid_start_soon
+TEXT: <b>{0}의 레이드배틀이 곧 시작한다!</b> 트레이너 {1}명과 참가 준비!
+
+RESOURCE ID: rsvp_reminder_notification_raid_start_soon_singular
+TEXT: <b>{0}의 레이드배틀이 곧 시작합니다!</b> 준비하세요!
+
+RESOURCE ID: rsvp_tooltip_nearby_menu
+TEXT: 참가할 시간을 선택할 수 있습니다
+
+RESOURCE ID: rsvp_tooltip_rsvp_button
+TEXT: 시간을 선택하고 참가한다
+
+RESOURCE ID: rsvp_tooltip_top_level
+TEXT: New: 일정 예약 기능!
+
+RESOURCE ID: rsvp_topper_join
+TEXT: 참가하자!
+
+RESOURCE ID: rsvp_tutorial_body
+TEXT: 마음에 드는 시간을 선택해서 일정을 넣으면 시작 전에 알림을 받을 수 있습니다. 레이드배틀의 참가가 더 수월해집니다.
+
+RESOURCE ID: rsvp_tutorial_title
+TEXT: 일정 예약 참가
 
 RESOURCE ID: safari_city_2025_milan_title
 TEXT: City Safari: 밀라노2025
@@ -1405,8 +1650,92 @@ TEXT: 힘과 숙련(5/5)
 RESOURCE ID: season_gbl_forecast_title_18
 TEXT: Pokémon GO: 힘과 숙련
 
+RESOURCE ID: social_planner_cannot_change_active_timeslots_key
+TEXT: Unable to change time slot as no time slots are available
+
+RESOURCE ID: social_planner_conflict_disclaimer_text_key
+TEXT: You have a time conflict.
+
+RESOURCE ID: social_planner_detail_other_trainers
+TEXT: 기타 {0}명
+
+RESOURCE ID: social_planner_error_rsvp_failure
+TEXT: 에러 발생. 다시 시도해 주십시오.
+
+RESOURCE ID: social_planner_error_rsvp_max_limit
+TEXT: 일정 예약 상한 수에 도달했습니다.
+
+RESOURCE ID: social_planner_error_rsvp_missing
+TEXT: 에러 발생. 일정을 찾을 수 없습니다.
+
+RESOURCE ID: social_planner_error_timeslot_passed
+TEXT: 이 시간 틀에는 없습니다.
+
+RESOURCE ID: social_planner_error_timeslot_passed_no_edits
+TEXT: 이미 시작한 일정이기 때문에 변경할 수 없습니다
+
+RESOURCE ID: social_planner_leave_rsvp_modal_subtitle_key
+TEXT: 리마인드와 참가 예정자 그룹에서 삭제됩니다
+
+RESOURCE ID: social_planner_leave_rsvp_modal_title_key
+TEXT: 이 배틀 참가 예약을 취소하겠습니까?
+
+RESOURCE ID: social_planner_leave_rsvp_success_toast_key
+TEXT: 일정을 삭제 했습니다
+
+RESOURCE ID: social_planner_leave_rsvp_text_key
+TEXT: 삭제한다
+
+RESOURCE ID: social_planner_no_more_timeslots_key
+TEXT: No more available timeslots.
+
+RESOURCE ID: social_planner_rsvp_friends_list_empty
+TEXT: 친구리스트 없음
+
+RESOURCE ID: social_planner_rsvp_friends_list_title
+TEXT: 프렌드 {0}명 초대
+
+RESOURCE ID: social_planner_rsvp_going_count
+TEXT: {0}명 참가
+
+RESOURCE ID: social_planner_rsvp_going_text_key
+TEXT: 참가
+
+RESOURCE ID: social_planner_rsvp_invite_sent_confirmation
+TEXT: 초대장을 보냈습니다!
+
+RESOURCE ID: social_planner_rsvp_local_only_disclaimer
+TEXT: You'll need to be nearby to defeat this Raid Boss.
+
+RESOURCE ID: social_planner_rsvp_maybe_count
+TEXT: {0}명 미정
+
+RESOURCE ID: social_planner_rsvp_maybe_text_key
+TEXT: 미정
+
+RESOURCE ID: social_planner_rsvp_not_going_text_key
+TEXT: 불참
+
+RESOURCE ID: social_planner_time_conflict_disclaimer_title_key
+TEXT: 일정이 겹침
+
+RESOURCE ID: social_planner_timeslot_friend_attending_key_duo
+TEXT: {0}님과 {1}님 참가
+
+RESOURCE ID: social_planner_timeslot_friend_attending_key_multiple
+TEXT: {0}님 외 {1}명 참가
+
+RESOURCE ID: social_planner_timeslot_friend_attending_key_singular
+TEXT: {0}님 참가
+
+RESOURCE ID: social_planner_timetable_gui_title_key
+TEXT: 시간 선택
+
 RESOURCE ID: spawn_fuecoco
 TEXT: 뜨아거가 야생에서 많이 출현!
+
+RESOURCE ID: spawn_totodile
+TEXT: 리아코가 야생에서 많이 출현!
 
 RESOURCE ID: stamp_rally_achievement_header
 TEXT: Achievement
@@ -1488,9 +1817,21 @@ TEXT: <b>받을 수 있는 것:</b>
 - 50,000XP와 별의모래 50,000개를 받을 수 있는 시간제한 리서치
 - 기타
 
+RESOURCE ID: text_rewards_key_catch_mastery_archen
+TEXT: <b>받을 수 있는 리워드:</b>
+- 아켄과의 만남 40회
+- 몬스터볼과 나무열매
+- 12,000XP와 별의모래 3,000개
+
 RESOURCE ID: text_rewards_key_cd_fuecoco25
 TEXT: <b>받을 수 있는 리워드:</b>
 - 뜨아거(스페셜 배경 있음)와의 만남
+- 프리미엄 배틀패스, 기술머신스페셜, 이상한사탕 
+- 기타
+
+RESOURCE ID: text_rewards_key_cdc_totodile25
+TEXT: <b>받을 수 있는 리워드:</b>
+- 리아코(스페셜 배경 있음)와의 만남
 - 프리미엄 배틀패스, 기술머신스페셜, 이상한사탕 
 - 기타
 
@@ -1603,6 +1944,9 @@ TEXT: 불꽃악어포켓몬의 수수께끼를 풀어라! 스페셜리서치 티
 RESOURCE ID: ticket_squirtle
 TEXT: 꼬부기 커뮤니티 데이(복각) 스페셜리서치' 티켓이 숍에 등장
 
+RESOURCE ID: ticket_totodile_cdc
+TEXT: 리아코 커뮤니티 데이(복각) 스페셜리서치 티켓이 숍에 등장
+
 RESOURCE ID: time_span_hr
 TEXT: 1 hour
 
@@ -1647,6 +1991,78 @@ TEXT: 데일리 태스크 - 프리미엄
 
 RESOURCE ID: title_event_pass_hourly_bonus_quest
 TEXT: 1시간 태스크
+
+RESOURCE ID: tr_archen_mastery_catch_kabuto
+TEXT: 투구를 {0}마리 잡는다
+
+RESOURCE ID: tr_archen_mastery_catch_omanyte
+TEXT: 암나이트를 {0}마리 잡는다
+
+RESOURCE ID: tr_archen_mastery_mar2025
+TEXT: 마스터리 시리즈: 아켄 시간제한 리서치
+
+RESOURCE ID: tr_archen_mastery_mar2025_0
+TEXT: 마스터리 시리즈: 아켄 시간제한 리서치(1/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_1
+TEXT: 마스터리 시리즈: 아켄 시간제한 리서치(2/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_2
+TEXT: 마스터리 시리즈: 아켄 시간제한 리서치(3/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_3
+TEXT: 마스터리 시리즈: 아켄 시간제한 리서치(4/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_4
+TEXT: 마스터리 시리즈: 아켄 시간제한 리서치(5/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_5
+TEXT: 마스터리 시리즈: 아켄 시간제한 리서치(6/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_6
+TEXT: 마스터리 시리즈: 아켄 시간제한 리서치(7/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_7
+TEXT: 마스터리 시리즈: 아켄 시간제한 리서치(8/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_8
+TEXT: 마스터리 시리즈: 아켄 시간제한 리서치(9/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_9
+TEXT: 마스터리 시리즈: 아켄 시간제한 리서치(10/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025
+TEXT: 마스터리 시리즈: 아켄 프리미엄 시간제한 리서치
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_0
+TEXT: 마스터리 시리즈: 아켄 프리미엄 시간제한 리서치(1/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_1
+TEXT: 마스터리 시리즈: 아켄 프리미엄 시간제한 리서치(2/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_2
+TEXT: 마스터리 시리즈: 아켄 프리미엄 시간제한 리서치(3/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_3
+TEXT: 마스터리 시리즈: 아켄 프리미엄 시간제한 리서치(4/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_4
+TEXT: 마스터리 시리즈: 아켄 프리미엄 시간제한 리서치(5/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_5
+TEXT: 마스터리 시리즈: 아켄 프리미엄 시간제한 리서치(6/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_6
+TEXT: 마스터리 시리즈: 아켄 프리미엄 시간제한 리서치(7/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_7
+TEXT: 마스터리 시리즈: 아켄 프리미엄 시간제한 리서치(8/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_8
+TEXT: 마스터리 시리즈: 아켄 프리미엄 시간제한 리서치(9/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_9
+TEXT: 마스터리 시리즈: 아켄 프리미엄 시간제한 리서치(10/10)
 
 RESOURCE ID: tr_kr2025_retention_feb_desc
 TEXT: 달빛 챌린지 시간제한 리서치

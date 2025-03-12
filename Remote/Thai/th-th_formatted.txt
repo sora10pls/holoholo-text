@@ -30,13 +30,13 @@ RESOURCE ID: age_confirm_contact
 TEXT: Contact Support
 
 RESOURCE ID: age_confirm_explain
-TEXT: Trainers must meet certain age requirements to log in with this type of account. Please confirm your date of birth.
+TEXT: There is an age requirement to log in with this type of account. Please confirm your date of birth.
 
 RESOURCE ID: age_confirm_fail
-TEXT: Sorry, you do not meet the <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">age requirements</a> to log in with this type of account and your account will be deleted pursuant to our Terms of Service. If you believe you are eligible to log in with this type of account, please contact us.
+TEXT: Sorry, you do not meet the <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">age requirements</a> to log in with this type of account, and your account will be deleted pursuant to our Terms of Service. If you believe you are eligible to log in with this type of account, please contact us.
 
 RESOURCE ID: age_confirm_popup_confirm
-TEXT: Are you sure? This cannot be changed after you submit.
+TEXT: Are you sure? This cannot be changed after you submit it.
 
 RESOURCE ID: april_power_up_monthly_ticket_title
 TEXT: ตั๋วพาวเวอรอัป: เมษายน
@@ -52,6 +52,15 @@ TEXT: ตั๋วพาวเวอรอัป: เมษายน (3/4)
 
 RESOURCE ID: april_power_up_monthly_ticket_title_4
 TEXT: ตั๋วพาวเวอรอัป: เมษายน (4/4)
+
+RESOURCE ID: archen_mastery_mar2025
+TEXT: ผูเชี่ยวชาญการจับ: อาเคน
+
+RESOURCE ID: available_rsvp_inactive_button_desc
+TEXT: เขารวม {0}
+
+RESOURCE ID: available_rsvp_inactive_button_title
+TEXT: เปลี่ยนนัดเขารวม
 
 RESOURCE ID: avatar_hats_mustard
 TEXT: หมวกสไตลมัสตารด
@@ -200,8 +209,23 @@ TEXT: สิงคโปร, 30 มีนาคม 2025
 RESOURCE ID: badge_safari_2025_singapore_test
 TEXT: สิงคโปร 2025
 
+RESOURCE ID: batch_transfer_100_pokemon
+TEXT: {0} ★ 100% Pokémon
+
+RESOURCE ID: batch_transfer_last_more_pokemon
+TEXT: Your only {0}, {1}, and {2} more
+
+RESOURCE ID: batch_transfer_last_one_pokemon
+TEXT: Your only {0}
+
+RESOURCE ID: batch_transfer_last_two_pokemon
+TEXT: Your only {0} and {1}
+
 RESOURCE ID: bonus_cd_move_fuecoco
 TEXT: วิวัฒนาการอาจิเกเตอรเปนลาวดโบนที่รูทาโจมตีชารจ "บลาสตเบิรน"
+
+RESOURCE ID: bonus_cd_move_totodile
+TEXT: วิวัฒนาการอัลลิเกตเปนออไดลที่รูทาโจมตีชารจ "ไฮโดรแคนนอน"
 
 RESOURCE ID: bonus_pokestop_sinnoh_stone_drop
 TEXT: มีโอกาสเล็กนอยที่จะไดรับหินชินโอจากการหมุนเสาโปเกสต็อป
@@ -217,6 +241,9 @@ TEXT: โกแบตเทิลลีก: พลังและทักษะ
 
 RESOURCE ID: community_day_fuecoco_event_name
 TEXT: คอมมิวนิตี้เดย: โฮเกเตอร
+
+RESOURCE ID: community_day_totodile_event_name_cdc
+TEXT: คอมมิวนิตี้เดย (รีเทิรน): วานิโนโกะ
 
 RESOURCE ID: confirm_send_button
 TEXT: SEND
@@ -347,8 +374,14 @@ RESOURCE ID: event_datetime_range_key_aprilmonthly2025
 TEXT: 4 เมษายน 10:00 น. ถึง
 4 พฤษภาคม 10:00 น.
 
+RESOURCE ID: event_datetime_range_key_catch_mastery_archen
+TEXT: วันที่ 16 มีนาคม เวลา 10:00-20:00 น.
+
 RESOURCE ID: event_datetime_range_key_cd_fuecoco25
 TEXT: วันที่ 8 มีนาคม 2025 เวลา 14:00-17:00 น.
+
+RESOURCE ID: event_datetime_range_key_cdc_totodile25
+TEXT: วันที่ 22 มีนาคม 2025 เวลา 14:00-17:00 น.
 
 RESOURCE ID: event_datetime_range_key_ffsr0325
 TEXT: 5 มีนาคม 10:00 น. ถึง
@@ -501,11 +534,20 @@ TEXT: เสนทางสูอิชชู: ตีบอส
 RESOURCE ID: general1.ticket_cd_fuecoco25_title
 TEXT: ตั๋วโฮเกเตอรคอมมิวนิตี้เดย
 
+RESOURCE ID: general1.ticket_cdc_totodile25_title
+TEXT: ตั๋ว "วานิโนโกะคอมมิวนิตี้เดย (รีเทิรน)"
+
 RESOURCE ID: general2.ticket.7_aprilmonthly2025_title
 TEXT: ตั๋วพาวเวอรอัป: เมษายน
 
 RESOURCE ID: general2.ticket.8_maymonthly2025_title
 TEXT: ตั๋วพาวเวอรอัป: พฤษภาคม
+
+RESOURCE ID: general2.ticket4.catch_mastery_archen
+TEXT: ตั๋วงานวิจัยแบบจำกัดเวลาพรีเมียมผูเชี่ยวชาญการจับ: อาเคน
+
+RESOURCE ID: general_leave
+TEXT: ออก
 
 RESOURCE ID: giftbox_log_opened
 TEXT: เปดของขวัญที่ไดรับจาก {0}
@@ -1231,6 +1273,16 @@ TEXT: Pass Points
 RESOURCE ID: item_event_pass_point_live_ops_04_name
 TEXT: Pass Points
 
+RESOURCE ID: item_event_ticket_04_desc_catch_mastery_archen
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลาพรีเมียมผูเชี่ยวชาญการจับ: อาเคน
+ในวันที่ 16 มีนาคม 2025 เวลา 10:00-20:00 น. ตามเวลาทองถิ่น
+
+RESOURCE ID: item_event_ticket_04_details_catch_mastery_archen
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลาพรีเมียมผูเชี่ยวชาญการจับ: อาเคน
+ในวันที่ 16 มีนาคม
+คุณจะสามารถเขารวมไดโดยอัตโนมัติ
+ตามเวลาทองถิ่นทั่วโลก
+
 RESOURCE ID: item_event_ticket_10_desc_gofest2025ver1
 TEXT: ตั๋วสำหรับเขารวม Pokémon GO Fest 2025: ทั่วโลก ในวันที่ 28-29 มิถุนายน 2025 ตามเวลาทองถิ่นทั่วโลก
 
@@ -1321,9 +1373,22 @@ TEXT: ตั๋วสำหรับเขารวมงานวิจ�
 ในวันที่ 8 มีนาคม 2025 14:00 น.
 ตามเวลาทองถิ่นทั่วโลก
 
+RESOURCE ID: item_event_ticket_pink_desc_cdc_totodile25
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษ
+วานิโนโกะคอมมิวนิตี้เดย (รีเทิรน)
+ในวันที่ 22 มีนาคม 2025 14:00 น.
+ตามเวลาทองถิ่นทั่วโลก
+
 RESOURCE ID: item_event_ticket_pink_details_cd_fuecoco25
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษ "ทวงทำนองของจระเขไฟ"
 ในวันที่ 8 มีนาคม
+คุณจะสามารถเขารวมไดโดยอัตโนมัติ
+ตามเวลาทองถิ่นทั่วโลก
+
+RESOURCE ID: item_event_ticket_pink_details_cdc_totodile25
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษ
+วานิโนโกะคอมมิวนิตี้เดย (รีเทิรน)
+ในวันที่ 22 มีนาคม
 คุณจะสามารถเขารวมไดโดยอัตโนมัติ
 ตามเวลาทองถิ่นทั่วโลก
 
@@ -1338,6 +1403,9 @@ TEXT: A book to collect Postcards and Stamps from you and your friends' journeys
 
 RESOURCE ID: item_postcard_inventory_name_stamp
 TEXT: Collection Book
+
+RESOURCE ID: last_pokemon_transfer_to_professor_confirmation
+TEXT: Do you really want to transfer your last {0}?
 
 RESOURCE ID: log_player_accepted_your_friend_request
 TEXT: {0} ตอบรับคำขอเปนเพื่อนของคุณ!
@@ -1391,13 +1459,62 @@ RESOURCE ID: meetup_check_in_research_title_spotlight
 TEXT: งานวิจัยแบบจำกัดเวลาเช็กอินงานพบปะ: ชั่วโมงสปอตไลท
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-08T01:57:23.111663+00:00 for th-TH
-at SHA 5e3e7a817eb
-Pipeline 3059880, job 38002285
-Patch from: 0.353.0-SHA-a88947a0-RC1, 0.351.0-SHA-2259cb4d-RC2, 0.351.0-SHA-a2cc2822-RC1
+TEXT: Built at 2025-03-12T00:16:36.692837+00:00 for th-TH
+at SHA 505084fd5a2
+Pipeline 3069127, job 38142456
+Patch from: 0.351.0-SHA-f7106c82-RC1, 0.351.0-SHA-57275791-RC3, 0.353.0-SHA-3f590095-RC4
 
 RESOURCE ID: move_name_0468
 TEXT: บทเพลงแหงเพลิง
+
+RESOURCE ID: name_sharing_preference_everyone
+TEXT: ทุกคน
+
+RESOURCE ID: name_sharing_preference_friends
+TEXT: เพื่อนเทานั้น
+
+RESOURCE ID: name_sharing_preference_no_one
+TEXT: ไมแชร
+
+RESOURCE ID: nearby_active_reminder_header
+TEXT: นัดเขารวมที่จัดอยู
+
+RESOURCE ID: nearby_pokemon_gui_battle_header
+TEXT: แบตเทิล
+
+RESOURCE ID: nearby_pokemon_gui_rsvp_header
+TEXT: นัดเขารวม
+
+RESOURCE ID: nearby_rsvp_invitations_header
+TEXT: คำเชิญ
+
+RESOURCE ID: nearby_rsvp_invite_accepted
+TEXT: ตอบรับคำเชิญแลว!
+
+RESOURCE ID: nearby_rsvp_invite_removed
+TEXT: ปฏิเสธคำเชิญแลว
+
+RESOURCE ID: nearby_rsvp_join
+TEXT: นัดเขารวม
+
+RESOURCE ID: nearby_rsvp_no_rsvps
+TEXT: ไมมีแบตเทิลที่กำลังนัดเขารวมอยู
+
+RESOURCE ID: nearby_rsvp_reminders_header
+TEXT: แจงเตือน
+
+RESOURCE ID: nearby_rsvp_see_more
+TEXT: ดูเพิ่ม ({0})
+
+RESOURCE ID: nearby_tab_raids_ftue
+TEXT: เมนู "บริเวณใกลเคียง" ไดรับการอัปเกรดแลว!
+
+ตรวจสอบแท็บตีบอสเพื่อแบตเทิลโปเกมอนสุดแกรงกับเทรนเนอรคนอื่น
+
+RESOURCE ID: nearby_tab_routes_ftue
+TEXT: เมนู "บริเวณใกลเคียง" ไดรับการอัปเกรดแลว!
+
+เลนเสนทางเพื่อคนพบชุมชนทองถิ่นของคุณและรับรางวัล
 
 RESOURCE ID: pair_friend_invite_received_toast
 TEXT: {0} และ {1} ไดสงคำขอเปนเพื่อนมาหาคุณ!
@@ -1413,6 +1530,9 @@ TEXT: PAUSE
 
 RESOURCE ID: photobomb_five_fuecoco
 TEXT: โฮเกเตอรแยงซีนถายรูปในโกสแนปช็อต 5 ครั้ง
+
+RESOURCE ID: photobomb_five_totodile
+TEXT: วานิโนโกะแยงซีนถายรูปในโกสแนปช็อต 5 ครั้ง
 
 RESOURCE ID: pokedex_info_battle_charge_header
 TEXT: ทาโจมตีชารจ
@@ -1434,6 +1554,9 @@ TEXT: ประเภท
 
 RESOURCE ID: pokedex_info_battle_weak_header
 TEXT: แพทาง
+
+RESOURCE ID: pokemon_100_transfer_to_professor_confirmation
+TEXT: Do you really want to transfer this ★ 100% Pokémon?
 
 RESOURCE ID: pokemon_alert_label_off
 TEXT: ปดแจงเตือน
@@ -1480,6 +1603,12 @@ TEXT: ลูกอม XL {0}
 
 RESOURCE ID: pokemon_xl_candy_reward_plural
 TEXT: ลูกอม XL {0}
+
+RESOURCE ID: post_cd_extended_bonus
+TEXT: คอมมิวนิตี้เดย: โบนัสเพิ่มเติม
+
+RESOURCE ID: post_cdc_extended_bonus
+TEXT: คอมมิวนิตี้เดย (รีเทิรน): โบนัสเพิ่มเติม
 
 RESOURCE ID: powerful_potential_2025_event_name
 TEXT: ขุมพลังศักยภาพ
@@ -1600,8 +1729,53 @@ TEXT: เตรียมตัวไวใหพรอมละ %PLA
 จัดการคิวเรมไมใชเรื่องงาย ๆ และฉันคิดวา
 อีกไมนานเธอตองไดเผชิญหนากับมันแน ๆ
 
+RESOURCE ID: quest_title_totodile
+TEXT: คอมมิวนิตี้เดย (รีเทิรน): วานิโนโกะ
+
+RESOURCE ID: quest_title_totodile_0
+TEXT: คอมมิวนิตี้เดย (รีเทิรน): วานิโนโกะ (1/2)
+
+RESOURCE ID: quest_title_totodile_1
+TEXT: คอมมิวนิตี้เดย (รีเทิรน): วานิโนโกะ (2/2)
+
+RESOURCE ID: quest_totodile_catch_b
+TEXT: จับวานิโนโกะ {0} ตัว
+
 RESOURCE ID: raid_hour_rare_xl_candy_bonus
 TEXT: การันตีลูกอม XL 1 เม็ด จากการจับโปเกมอนในตีบอสหาดาวระหวางชั่วโมงตีบอส (เทรนเนอรเลเวล 31 ขึ้นไป)
+
+RESOURCE ID: raid_nearby_rsvp
+TEXT: นัดเขารวม
+
+RESOURCE ID: raid_planner_join_this_rsvp
+TEXT: นัดเขารวม
+
+RESOURCE ID: raid_planner_rsvp_conflict_title
+TEXT: คุณแนใจหรือไมวาตองการนัดเขารวม?
+
+RESOURCE ID: raid_planner_rsvp_conflict_warning
+TEXT: การนัดเขารวมแบตเทิลนี้จะยกเลิกนัดกอนหนา เนื่องจากเวลาทับซอนกัน
+
+RESOURCE ID: raid_planner_success_rsvp
+TEXT: คุณไดนัดเขารวมเรียบรอยแลว!
+
+RESOURCE ID: raid_rsvp_bonus
+TEXT: RSVP'd to Raid
+
+RESOURCE ID: raid_sort_distance
+TEXT: ระยะทาง
+
+RESOURCE ID: raid_sort_level
+TEXT: ระดับความยาก
+
+RESOURCE ID: raid_sort_people
+TEXT: จำนวนคนในล็อบบี้
+
+RESOURCE ID: raid_sort_rsvps
+TEXT: จำนวนคนนัดเขารวม
+
+RESOURCE ID: raid_sort_time
+TEXT: เวลากอนเริ่ม
 
 RESOURCE ID: rewarded_spend_helpshift_desc
 TEXT: เสนทางรางวัล คือ โปรแกรมรางวัลรายเดือน
@@ -1634,6 +1808,87 @@ TEXT: เสนทางรางวัล คือ โปรแกรมร
 
 RESOURCE ID: road_to_unova_pikachu_title
 TEXT: พิคาชูเซอรไพรส
+
+RESOURCE ID: rsvp_attendance_preference_title
+TEXT: แชรสถานะการนัดเขารวมกับ:
+
+RESOURCE ID: rsvp_inactive_button_desc
+TEXT: {0} คน ({1})
+
+RESOURCE ID: rsvp_inactive_button_title
+TEXT: เลือกเวลา
+
+RESOURCE ID: rsvp_invitation_notification_string_key
+TEXT: {0} ไดเชิญคุณเขารวม{1} เวลา {2}!
+
+RESOURCE ID: rsvp_invite_friends
+TEXT: เชิญเพื่อน
+
+RESOURCE ID: rsvp_reminder_min
+TEXT: min
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_join
+TEXT: <b>แบตเทิลแมกซเริ่มขึ้นแลว!</b> เขารวมกับเทรนเนอร {0} คน!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_join_singular
+TEXT: <b>แบตเทิลแมกซเริ่มขึ้นแลว!</b> เขารวมเลย!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_start_soon
+TEXT: <b>แบตเทิลแมกซใกลเริ่มขึ้นแลว!</b> เตรียมเขารวมพรอมเทรนเนอร {0} คน!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_start_soon_singular
+TEXT: <b>แบตเทิลแมกซใกลเริ่มขึ้นแลว!</b> เตรียมตัวใหพรอม!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_join
+TEXT: <b>แบตเทิลแมกซของ{0}กิกะแมกซเริ่มขึ้นแลว!</b> เขารวมกับเทรนเนอร {1} คน!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_join_singular
+TEXT: <b>แบตเทิลแมกซของ{0}กิกะแมกซเริ่มขึ้นแลว!</b> เขารวมเลย!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_start_soon
+TEXT: <b>แบตเทิลแมกซของ{0}กิกะแมกซใกลเริ่มขึ้นแลว!</b> เตรียมเขารวมพรอมเทรนเนอร {1} คน!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_start_soon_singular
+TEXT: <b>แบตเทิลแมกซของ{0}กิกะแมกซใกลเริ่มขึ้นแลว!</b> เตรียมตัวใหพรอม!
+
+RESOURCE ID: rsvp_reminder_notification_join_button
+TEXT: เขารวม
+
+RESOURCE ID: rsvp_reminder_notification_raid_egg_start_soon
+TEXT: <b>ไขบอสใกลฟกแลว!</b> เตรียมเขารวมพรอมเทรนเนอร {0} คน!
+
+RESOURCE ID: rsvp_reminder_notification_raid_egg_start_soon_singular
+TEXT: <b>ไขบอสใกลฟกแลว!</b> เตรียมตัวใหพรอม!
+
+RESOURCE ID: rsvp_reminder_notification_raid_join
+TEXT: <b>ตีบอส{0}เริ่มขึ้นแลว!</b> เขารวมกับเทรนเนอร {0} คน!
+
+RESOURCE ID: rsvp_reminder_notification_raid_join_singular
+TEXT: <b>ตีบอส{0}เริ่มขึ้นแลว!</b> เขารวมเลย!
+
+RESOURCE ID: rsvp_reminder_notification_raid_start_soon
+TEXT: <b>ตีบอส{0}ใกลเริ่มขึ้นแลว!</b> เตรียมเขารวมพรอมเทรนเนอร {1} คน!
+
+RESOURCE ID: rsvp_reminder_notification_raid_start_soon_singular
+TEXT: <b>ตีบอส{0}ใกลเริ่มขึ้นแลว!</b> เตรียมตัวใหพรอม!
+
+RESOURCE ID: rsvp_tooltip_nearby_menu
+TEXT: ดูเพื่อเลือกเวลาที่ตองการเขารวม
+
+RESOURCE ID: rsvp_tooltip_rsvp_button
+TEXT: เลือกเวลาที่ตองการเขารวม!
+
+RESOURCE ID: rsvp_tooltip_top_level
+TEXT: ฟเจอรใหม: นัดเขารวม (RSVP)!
+
+RESOURCE ID: rsvp_topper_join
+TEXT: เขารวม
+
+RESOURCE ID: rsvp_tutorial_body
+TEXT: เลือกชวงเวลาที่ตองการเขารวมแบตเทิลในอนาคตพรอมกับเทรนเนอรคนอื่น! เมื่อคุณนัดเขารวม คุณจะไดรับแจงเตือนกอนที่แบตเทิลนั้นจะเริ่มขึ้น
+
+RESOURCE ID: rsvp_tutorial_title
+TEXT: นัดเขารวมแบตเทิล (RSVP)
 
 RESOURCE ID: safari_city_2025_milan_title
 TEXT: City Safari: มิลาน 2025
@@ -1713,8 +1968,92 @@ TEXT: คุณสงคำขอเปนเพื่อนไปหา {
 RESOURCE ID: sent_gift_to_friend
 TEXT: สงของขวัญให {0} แลว
 
+RESOURCE ID: social_planner_cannot_change_active_timeslots_key
+TEXT: Unable to change time slot as no time slots are available
+
+RESOURCE ID: social_planner_conflict_disclaimer_text_key
+TEXT: You have a time conflict.
+
+RESOURCE ID: social_planner_detail_other_trainers
+TEXT: เทรนเนอรอื่น {0} คน
+
+RESOURCE ID: social_planner_error_rsvp_failure
+TEXT: เกิดขอผิดพลาด โปรดลองใหมอีกครั้ง
+
+RESOURCE ID: social_planner_error_rsvp_max_limit
+TEXT: ผูนัดเขารวมถึงจำนวนสูงสุดแลว
+
+RESOURCE ID: social_planner_error_rsvp_missing
+TEXT: เกิดขอผิดพลาด ไมพบการนัดเขารวม
+
+RESOURCE ID: social_planner_error_timeslot_passed
+TEXT: ชวงเวลานี้ไมสามารถเขารวมไดแลว
+
+RESOURCE ID: social_planner_error_timeslot_passed_no_edits
+TEXT: คุณไมสามารถเปลี่ยนกำหนดการได เนื่องจากแบตเทิลไดเริ่มไปแลว
+
+RESOURCE ID: social_planner_leave_rsvp_modal_subtitle_key
+TEXT: คุณจะถูกถอดออกจากกลุมนี้ และจะไมไดรับการแจงเตือนเพื่อเขารวมแบตเทิลนี้อีกตอไป
+
+RESOURCE ID: social_planner_leave_rsvp_modal_title_key
+TEXT: คุณแนใจหรือไมวาตองการยกเลิกการเขารวมแบตเทิลนี้?
+
+RESOURCE ID: social_planner_leave_rsvp_success_toast_key
+TEXT: คุณยกเลิกการนัดเขารวมแลว
+
+RESOURCE ID: social_planner_leave_rsvp_text_key
+TEXT: ยกเลิกนัดเขารวม
+
+RESOURCE ID: social_planner_no_more_timeslots_key
+TEXT: No more available timeslots.
+
+RESOURCE ID: social_planner_rsvp_friends_list_empty
+TEXT: รายชื่อเพื่อนวางเปลา
+
+RESOURCE ID: social_planner_rsvp_friends_list_title
+TEXT: เชิญเพื่อน {0} คน
+
+RESOURCE ID: social_planner_rsvp_going_count
+TEXT: นัดเขารวม {0} คน
+
+RESOURCE ID: social_planner_rsvp_going_text_key
+TEXT: เขารวม
+
+RESOURCE ID: social_planner_rsvp_invite_sent_confirmation
+TEXT: สงคำเชิญแลว!
+
+RESOURCE ID: social_planner_rsvp_local_only_disclaimer
+TEXT: You'll need to be nearby to defeat this Raid Boss.
+
+RESOURCE ID: social_planner_rsvp_maybe_count
+TEXT: ยังไมแนใจ {0} คน
+
+RESOURCE ID: social_planner_rsvp_maybe_text_key
+TEXT: ยังไมแนใจ
+
+RESOURCE ID: social_planner_rsvp_not_going_text_key
+TEXT: ไมเขารวม
+
+RESOURCE ID: social_planner_time_conflict_disclaimer_title_key
+TEXT: เวลาทับซอนกัน
+
+RESOURCE ID: social_planner_timeslot_friend_attending_key_duo
+TEXT: {0} และ {1} เขารวม
+
+RESOURCE ID: social_planner_timeslot_friend_attending_key_multiple
+TEXT: {0} และเพื่อนอีก {1} คนเขารวม
+
+RESOURCE ID: social_planner_timeslot_friend_attending_key_singular
+TEXT: {0} เขารวม
+
+RESOURCE ID: social_planner_timetable_gui_title_key
+TEXT: เลือกเวลา
+
 RESOURCE ID: spawn_fuecoco
 TEXT: โฮเกเตอรปรากฏตัวออกมามากขึ้น!
+
+RESOURCE ID: spawn_totodile
+TEXT: วานิโนโกะปรากฏตัวออกมามากขึ้น!
 
 RESOURCE ID: stamp_rally_achievement_header
 TEXT: Achievement
@@ -1813,11 +2152,24 @@ TEXT: <b>สิ่งที่จะไดรับ:</b>
 - งานวิจัยแบบจำกัดเวลาที่มีรางวัลเปน 50,000 XP และ 50,000 สตารดัสต
 - และอื่น ๆ
 
+RESOURCE ID: text_rewards_key_catch_mastery_archen
+TEXT: <b>รางวัลที่จะไดรับ:</b>
+- การเผชิญหนากับอาเคน 40 ครั้ง
+- มอนสเตอรบอลและผลไม
+- 12,000 XP และ 3,000 สตารดัสต
+
 RESOURCE ID: text_rewards_key_cd_fuecoco25
 TEXT: <b>รางวัลที่จะไดรับ:</b>
 - ไอเท็มภายในเกม เชน บัตรแบตเทิลพรีเมียม
 TM ทาชารจ และลูกอมประหลาด
 - การเผชิญหนากับโฮเกเตอรที่มีพื้นหลังพิเศษ
+และอื่น ๆ
+
+RESOURCE ID: text_rewards_key_cdc_totodile25
+TEXT: <b>รางวัลที่จะไดรับ:</b>
+- ไอเท็มภายในเกม เชน บัตรแบตเทิลพรีเมียม
+TM ทาชารจ และลูกอมประหลาด
+- การเผชิญหนากับวานิโนโกะที่มีพื้นหลังพิเศษ
 และอื่น ๆ
 
 RESOURCE ID: text_rewards_key_ffsr0325
@@ -1949,6 +2301,9 @@ TEXT: สามารถซื้อตั๋วสำหรับงานว�
 RESOURCE ID: ticket_sprigatito
 TEXT: สามารถซื้อตั๋วสำหรับงานวิจัยพิเศษ "หญามายาเหมียว" ไดที่รานคา
 
+RESOURCE ID: ticket_totodile_cdc
+TEXT: สามารถซื้อตั๋วสำหรับงานวิจัยพิเศษ "วานิโนโกะคอมมิวนิตี้เดย (รีเทิรน)" ไดที่รานคา
+
 RESOURCE ID: time_span_hr
 TEXT: 1 hour
 
@@ -1981,6 +2336,78 @@ TEXT: แสดงไอเท็มที่มี
 
 RESOURCE ID: tips_dont_own_message_title
 TEXT: คุณไมมีไอเท็มเหลานี้
+
+RESOURCE ID: tr_archen_mastery_catch_kabuto
+TEXT: จับคาบูโตะ {0} ตัว
+
+RESOURCE ID: tr_archen_mastery_catch_omanyte
+TEXT: จับออมไนต {0} ตัว
+
+RESOURCE ID: tr_archen_mastery_mar2025
+TEXT: งานวิจัยแบบกำหนดเวลาผูเชี่ยวชาญการจับ: อาเคน
+
+RESOURCE ID: tr_archen_mastery_mar2025_0
+TEXT: งานวิจัยแบบกำหนดเวลาผูเชี่ยวชาญการจับ: อาเคน (1/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_1
+TEXT: งานวิจัยแบบกำหนดเวลาผูเชี่ยวชาญการจับ: อาเคน (2/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_2
+TEXT: งานวิจัยแบบกำหนดเวลาผูเชี่ยวชาญการจับ: อาเคน (3/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_3
+TEXT: งานวิจัยแบบกำหนดเวลาผูเชี่ยวชาญการจับ: อาเคน (4/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_4
+TEXT: งานวิจัยแบบกำหนดเวลาผูเชี่ยวชาญการจับ: อาเคน (5/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_5
+TEXT: งานวิจัยแบบกำหนดเวลาผูเชี่ยวชาญการจับ: อาเคน (6/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_6
+TEXT: งานวิจัยแบบกำหนดเวลาผูเชี่ยวชาญการจับ: อาเคน (7/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_7
+TEXT: งานวิจัยแบบกำหนดเวลาผูเชี่ยวชาญการจับ: อาเคน (8/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_8
+TEXT: งานวิจัยแบบกำหนดเวลาผูเชี่ยวชาญการจับ: อาเคน (9/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_9
+TEXT: งานวิจัยแบบกำหนดเวลาผูเชี่ยวชาญการจับ: อาเคน (10/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025
+TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียมผูเชี่ยวชาญการจับ: อาเคน
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_0
+TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียมผูเชี่ยวชาญการจับ: อาเคน (1/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_1
+TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียมผูเชี่ยวชาญการจับ: อาเคน (2/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_2
+TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียมผูเชี่ยวชาญการจับ: อาเคน (3/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_3
+TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียมผูเชี่ยวชาญการจับ: อาเคน (4/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_4
+TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียมผูเชี่ยวชาญการจับ: อาเคน (5/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_5
+TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียมผูเชี่ยวชาญการจับ: อาเคน (6/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_6
+TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียมผูเชี่ยวชาญการจับ: อาเคน (7/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_7
+TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียมผูเชี่ยวชาญการจับ: อาเคน (8/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_8
+TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียมผูเชี่ยวชาญการจับ: อาเคน (9/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_9
+TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียมผูเชี่ยวชาญการจับ: อาเคน (10/10)
 
 RESOURCE ID: tr_kr2025_retention_feb_desc
 TEXT: งานวิจัยแบบจำกัดเวลาคำทาแสงจันทร

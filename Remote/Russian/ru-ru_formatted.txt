@@ -27,13 +27,13 @@ RESOURCE ID: age_confirm_contact
 TEXT: Contact Support
 
 RESOURCE ID: age_confirm_explain
-TEXT: Trainers must meet certain age requirements to log in with this type of account. Please confirm your date of birth.
+TEXT: There is an age requirement to log in with this type of account. Please confirm your date of birth.
 
 RESOURCE ID: age_confirm_fail
-TEXT: Sorry, you do not meet the <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">age requirements</a> to log in with this type of account and your account will be deleted pursuant to our Terms of Service. If you believe you are eligible to log in with this type of account, please contact us.
+TEXT: Sorry, you do not meet the <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">age requirements</a> to log in with this type of account, and your account will be deleted pursuant to our Terms of Service. If you believe you are eligible to log in with this type of account, please contact us.
 
 RESOURCE ID: age_confirm_popup_confirm
-TEXT: Are you sure? This cannot be changed after you submit.
+TEXT: Are you sure? This cannot be changed after you submit it.
 
 RESOURCE ID: april_power_up_monthly_ticket_title
 TEXT: Билет усиления: Апрель
@@ -50,6 +50,15 @@ TEXT: Билет усиления: Апрель (3/4)
 RESOURCE ID: april_power_up_monthly_ticket_title_4
 TEXT: Билет усиления: Апрель (4/4)
 
+RESOURCE ID: archen_mastery_mar2025
+TEXT: Мастерство поимки: Аркен
+
+RESOURCE ID: available_rsvp_inactive_button_desc
+TEXT: Начало в {0}
+
+RESOURCE ID: available_rsvp_inactive_button_title
+TEXT: Изменить запись
+
 RESOURCE ID: avatar_hats_mustard
 TEXT: Шляпа в стиле Мустарда
 
@@ -65,8 +74,23 @@ TEXT: Куртка в стиле Мустарда
 RESOURCE ID: avatar_shoes_mustard
 TEXT: Обувь в стиле Мустарда
 
+RESOURCE ID: batch_transfer_100_pokemon
+TEXT: {0} ★ 100% Pokémon
+
+RESOURCE ID: batch_transfer_last_more_pokemon
+TEXT: Your only {0}, {1}, and {2} more
+
+RESOURCE ID: batch_transfer_last_one_pokemon
+TEXT: Your only {0}
+
+RESOURCE ID: batch_transfer_last_two_pokemon
+TEXT: Your only {0} and {1}
+
 RESOURCE ID: bonus_cd_move_fuecoco
 TEXT: Эволюционируй Крокалора, чтобы получить Скеледиржа, который знает заряженную атаку Обжигающий Взрыв!
+
+RESOURCE ID: bonus_cd_move_totodile
+TEXT: Эволюционируй Кроконава, чтобы получить Фералигейтора, который знает заряженную атаку Гидропушка!
 
 RESOURCE ID: bonus_pokestop_sinnoh_stone_drop
 TEXT: Редкий шанс получить Камни Синно за прокрутку Покестопов
@@ -82,6 +106,9 @@ TEXT: Боевая Лига GO: Сила и мастерство
 
 RESOURCE ID: community_day_fuecoco_event_name
 TEXT: День сообщества: Фуэкоко
+
+RESOURCE ID: community_day_totodile_event_name_cdc
+TEXT: Классический день сообщества: Тотодайл
 
 RESOURCE ID: confirm_send_button
 TEXT: SEND
@@ -174,8 +201,14 @@ RESOURCE ID: event_datetime_range_key_aprilmonthly2025
 TEXT: 10:00 4 апреля –
 10:00 4 мая
 
+RESOURCE ID: event_datetime_range_key_catch_mastery_archen
+TEXT: 16 марта, 10:00 – 20:00
+
 RESOURCE ID: event_datetime_range_key_cd_fuecoco25
 TEXT: 8 марта, 14:00 – 17:00
+
+RESOURCE ID: event_datetime_range_key_cdc_totodile25
+TEXT: 22 марта, 14:00 – 17:00
 
 RESOURCE ID: event_datetime_range_key_ffsr0325
 TEXT: 10:00 5 марта –
@@ -293,11 +326,20 @@ TEXT: Билет на Фестиваль Pokémon GO 2025: По всему м�
 RESOURCE ID: general1.ticket_cd_fuecoco25_title
 TEXT: Билет: День сообщества Фуэкоко
 
+RESOURCE ID: general1.ticket_cdc_totodile25_title
+TEXT: Билет: Классический день сообщества Тотодайл
+
 RESOURCE ID: general2.ticket.7_aprilmonthly2025_title
 TEXT: Билет усиления: Апрель
 
 RESOURCE ID: general2.ticket.8_maymonthly2025_title
 TEXT: Билет усиления: Май
+
+RESOURCE ID: general2.ticket4.catch_mastery_archen
+TEXT: Билет: премиум-квест на время Мастерство поимки: Аркен
+
+RESOURCE ID: general_leave
+TEXT: Выйти
 
 RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_team_00
 TEXT: Мои приветствия. Лапрас и я как раз заканчивали наш анализ ситуации.
@@ -613,6 +655,12 @@ TEXT: Pass Points
 RESOURCE ID: item_event_pass_point_live_ops_04_name
 TEXT: Pass Points
 
+RESOURCE ID: item_event_ticket_04_desc_catch_mastery_archen
+TEXT: Билет, дающий доступ к премиум-квесту на время Мастерство поимки: Аркен 16 марта с 10:00 до 20:00 по местному времени, вне зависимости от твоего местонахождения.
+
+RESOURCE ID: item_event_ticket_04_details_catch_mastery_archen
+TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к премиум-квесту на время Мастерство поимки: Аркен 16 марта, вне зависимости от твоего местонахождения.
+
 RESOURCE ID: item_event_ticket_10_desc_gofest2025ver1
 TEXT: Билет на Фестиваль Pokémon GO 2025: По всему миру 28 и 29 июня 2025, вне зависимости от твоего местонахождения.
 
@@ -654,14 +702,23 @@ TEXT: Этот билет активируется автоматически, �
 RESOURCE ID: item_event_ticket_pink_desc_cd_fuecoco25
 TEXT: Билет, дающий доступ к специальному квесту День сообщества Фуэкоко с 14:00 8 марта по местному времени, вне зависимости от твоего местонахождения.
 
+RESOURCE ID: item_event_ticket_pink_desc_cdc_totodile25
+TEXT: Билет на специальный квест Классический день сообщества Тотодайл с 14:00 22 марта по местному времени, вне зависимости от твоего местонахождения.
+
 RESOURCE ID: item_event_ticket_pink_details_cd_fuecoco25
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальному квесту Крокапелла 8 марта, вне зависимости от твоего местонахождения.
+
+RESOURCE ID: item_event_ticket_pink_details_cdc_totodile25
+TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальному квесту Классический день сообщества Тотодайл 22 марта, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_postcard_inventory_desc_stamp
 TEXT: A book to collect Postcards and Stamps from you and your friends' journeys.
 
 RESOURCE ID: item_postcard_inventory_name_stamp
 TEXT: Collection Book
+
+RESOURCE ID: last_pokemon_transfer_to_professor_confirmation
+TEXT: Do you really want to transfer your last {0}?
 
 RESOURCE ID: march_power_up_monthly_ticket_title
 TEXT: Билет усиления: Март
@@ -709,19 +766,74 @@ RESOURCE ID: meetup_check_in_research_title_spotlight
 TEXT: Квест на время Встреча сообщества: Час Покемона
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-08T01:57:23.111663+00:00 for ru-RU
-at SHA 5e3e7a817eb
-Pipeline 3059880, job 38002285
-Patch from: 0.353.0-SHA-a88947a0-RC1, 0.351.0-SHA-2259cb4d-RC2, 0.351.0-SHA-a2cc2822-RC1
+TEXT: Built at 2025-03-12T00:16:36.692837+00:00 for ru-RU
+at SHA 505084fd5a2
+Pipeline 3069127, job 38142456
+Patch from: 0.351.0-SHA-f7106c82-RC1, 0.351.0-SHA-57275791-RC3, 0.353.0-SHA-3f590095-RC4
 
 RESOURCE ID: move_name_0468
 TEXT: Пение Пламени
+
+RESOURCE ID: name_sharing_preference_everyone
+TEXT: Всем
+
+RESOURCE ID: name_sharing_preference_friends
+TEXT: Только друзьям
+
+RESOURCE ID: name_sharing_preference_no_one
+TEXT: Никому
+
+RESOURCE ID: nearby_active_reminder_header
+TEXT: АКТИВНЫЕ ЗАПИСИ
+
+RESOURCE ID: nearby_pokemon_gui_battle_header
+TEXT: БИТВА
+
+RESOURCE ID: nearby_pokemon_gui_raid_header
+TEXT: РЕЙД
+
+RESOURCE ID: nearby_pokemon_gui_rsvp_header
+TEXT: ЗАПЛАНИРОВАТЬ
+
+RESOURCE ID: nearby_rsvp_invitations_header
+TEXT: ПРИГЛАШЕНИЯ
+
+RESOURCE ID: nearby_rsvp_invite_accepted
+TEXT: Приглашение принято!
+
+RESOURCE ID: nearby_rsvp_invite_removed
+TEXT: Приглашение отклонено.
+
+RESOURCE ID: nearby_rsvp_join
+TEXT: ЗАПЛАНИРОВАТЬ
+
+RESOURCE ID: nearby_rsvp_no_rsvps
+TEXT: У тебя нет запланированных битв.
+
+RESOURCE ID: nearby_rsvp_reminders_header
+TEXT: НАПОМИНАНИЯ
+
+RESOURCE ID: nearby_rsvp_see_more
+TEXT: ПРИГЛАШЕНИЯ ({0})
+
+RESOURCE ID: nearby_tab_raids_ftue
+TEXT: Твоё меню Поблизости было улучшено!
+
+Заходи на вкладку Рейд, чтобы вместе с другими Тренерами сразиться с могущественными Покемонами.
+
+RESOURCE ID: nearby_tab_routes_ftue
+TEXT: Твоё меню Поблизости было улучшено!
+
+Знакомься с местным сообществом и получай награды при завершении маршрутов.
 
 RESOURCE ID: pause_stamp_rally_button
 TEXT: PAUSE
 
 RESOURCE ID: photobomb_five_fuecoco
 TEXT: 5 неожиданных встреч со Фуэкоко в Стоп-кадре GO
+
+RESOURCE ID: photobomb_five_totodile
+TEXT: 5 неожиданных встреч с Тотодайлом в Стоп-кадре GO
 
 RESOURCE ID: pokedex_info_battle_charge_header
 TEXT: Заряженная атака
@@ -744,6 +856,9 @@ TEXT: Тип
 
 RESOURCE ID: pokedex_info_battle_weak_header
 TEXT: Слаб к
+
+RESOURCE ID: pokemon_100_transfer_to_professor_confirmation
+TEXT: Do you really want to transfer this ★ 100% Pokémon?
 
 RESOURCE ID: pokemon_alert_label_off
 TEXT: Оповещение выкл.
@@ -787,6 +902,12 @@ TEXT: {0}-
 RESOURCE ID: pokemon_xl_candy_reward_plural
 TEXT: {0}-
 Конфеты XL
+
+RESOURCE ID: post_cd_extended_bonus
+TEXT: День сообщества: Расширенный бонус
+
+RESOURCE ID: post_cdc_extended_bonus
+TEXT: Классический день сообщества: Расширенный бонус
 
 RESOURCE ID: powerful_potential_2025_event_name
 TEXT: Мощный потенциал
@@ -865,8 +986,134 @@ TEXT: Это напоминает мне о странных явлениях, �
 RESOURCE ID: quest_title_season_17_9_dialogue_5
 TEXT: Тем не менее, тебе лучше быть во всеоружии, %PLAYERNAME%. Курем – это серьёзно, и у меня есть ощущение, что ты скоро столкнёшься с ним!
 
+RESOURCE ID: quest_title_totodile
+TEXT: Классический день сообщества: Тотодайл
+
+RESOURCE ID: quest_title_totodile_0
+TEXT: Классический день сообщества: Тотодайл (1/2)
+
+RESOURCE ID: quest_title_totodile_1
+TEXT: Классический день сообщества: Тотодайл (2/2)
+
+RESOURCE ID: quest_totodile_catch_b
+TEXT: Поймай Тотодайлов ×{0}
+
 RESOURCE ID: raid_hour_rare_xl_candy_bonus
 TEXT: 1 дополнительная гарантированная редкая конфета XL за поимку пятизвёздочных рейдовых боссов во время рейдового часа (Тренеры уровня 31+)
+
+RESOURCE ID: raid_nearby_rsvp
+TEXT: ЗАПЛАНИРОВАТЬ
+
+RESOURCE ID: raid_planner_join_this_rsvp
+TEXT: ЗАПЛАНИРОВАТЬ
+
+RESOURCE ID: raid_planner_rsvp_conflict_title
+TEXT: Ты точно хочешь запланировать битву?
+
+RESOURCE ID: raid_planner_rsvp_conflict_warning
+TEXT: Планирование этой битвы приведёт к отмене уже существующей.
+
+RESOURCE ID: raid_planner_success_rsvp
+TEXT: Тебе удалось запланировать рейд!
+
+RESOURCE ID: raid_rsvp_bonus
+TEXT: RSVP'd to Raid
+
+RESOURCE ID: raid_sort_distance
+TEXT: РАССТОЯНИЕ
+
+RESOURCE ID: raid_sort_level
+TEXT: СЛОЖНОСТЬ
+
+RESOURCE ID: raid_sort_people
+TEXT: УЧАСТНИКОВ В ЛОББИ
+
+RESOURCE ID: raid_sort_rsvps
+TEXT: КОЛИЧЕСТВО ЗАПИСАВШИХСЯ
+
+RESOURCE ID: raid_sort_time
+TEXT: ВРЕМЯ ДО РЕЙДА
+
+RESOURCE ID: rsvp_attendance_preference_title
+TEXT: Статус участия в битвах доступен:
+
+RESOURCE ID: rsvp_inactive_button_desc
+TEXT: {0} в {1}
+
+RESOURCE ID: rsvp_inactive_button_title
+TEXT: ВЫБРАТЬ ВРЕМЯ
+
+RESOURCE ID: rsvp_invitation_notification_string_key
+TEXT: Тебе пришло приглашение на {1} в {2} от {0}!
+
+RESOURCE ID: rsvp_invite_friends
+TEXT: Пригласить друзей
+
+RESOURCE ID: rsvp_reminder_min
+TEXT: min
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_join
+TEXT: <b>Битва макс начинается сейчас!</b> Присоединяйся к другими Тренерам: {1}!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_join_singular
+TEXT: <b>Битва макс начинается сейчас!</b> Пора присоединяться!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_start_soon
+TEXT: <b>Битва макс скоро начнётся!</b> Готовься с другими Тренерами: {1}!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_start_soon_singular
+TEXT: <b>Битва макс скоро начнётся!</b> Приготовься!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_join
+TEXT: <B>Битва макс с Гигантамакс-Покемоном {0} начинается сейчас!</b> Присоединяйся к другим Тренерам: {1}!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_join_singular
+TEXT: <B>Битва макс с Гигантамакс-Покемоном {0} начинается сейчас!</b> Пора присоединяться!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_start_soon
+TEXT: <B>Битва макс с Гигантамакс-Покемоном {0} скоро начнётся!</b> Готовься с другими Тренерами: {1}!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_start_soon_singular
+TEXT: <B>Битва макс с Гигантамакс-Покемоном {0} скоро начнётся!</b> Приготовься!
+
+RESOURCE ID: rsvp_reminder_notification_join_button
+TEXT: ПРИСОЕДИНИТЬСЯ
+
+RESOURCE ID: rsvp_reminder_notification_raid_egg_start_soon
+TEXT: <b>Рейдовое Яйцо скоро вылупится!</b> Готовься с другими Тренерами: {1}!
+
+RESOURCE ID: rsvp_reminder_notification_raid_egg_start_soon_singular
+TEXT: <b>Рейдовое Яйцо скоро вылупится!</b> Приготовься!
+
+RESOURCE ID: rsvp_reminder_notification_raid_join
+TEXT: <b>Рейд на Покемона {0} начинается сейчас!</b> Присоединяйся к другим Тренерам: {1}!
+
+RESOURCE ID: rsvp_reminder_notification_raid_join_singular
+TEXT: <b>Рейд на Покемона {0} начинается сейчас!</b> Пора присоединяться!
+
+RESOURCE ID: rsvp_reminder_notification_raid_start_soon
+TEXT: <b>Рейд на Покемона {0} скоро начнётся!</b> Готовься с другими Тренерами: {1}!
+
+RESOURCE ID: rsvp_reminder_notification_raid_start_soon_singular
+TEXT: <b>Рейд на Покемона {0} скоро начнётся!</b> Приготовься!
+
+RESOURCE ID: rsvp_tooltip_nearby_menu
+TEXT: Посмотри, чтобы назначить время рейда.
+
+RESOURCE ID: rsvp_tooltip_rsvp_button
+TEXT: Выбери время рейда!
+
+RESOURCE ID: rsvp_tooltip_top_level
+TEXT: Новое: планируй рейды!
+
+RESOURCE ID: rsvp_topper_join
+TEXT: Присоединиться
+
+RESOURCE ID: rsvp_tutorial_body
+TEXT: Выбери время следующего рейда с другими Тренерами! Если ты запланируешь рейд, то получишь уведомление о его начале.
+
+RESOURCE ID: rsvp_tutorial_title
+TEXT: Запланируй рейд
 
 RESOURCE ID: scrolls_cup_great_title
 TEXT: Кубок Свёртков: Великая Лига
@@ -892,8 +1139,92 @@ TEXT: Сила и мастерство (5/5)
 RESOURCE ID: season_gbl_forecast_title_18
 TEXT: Pokémon GO: Сила и мастерство
 
+RESOURCE ID: social_planner_cannot_change_active_timeslots_key
+TEXT: Unable to change time slot as no time slots are available
+
+RESOURCE ID: social_planner_conflict_disclaimer_text_key
+TEXT: You have a time conflict.
+
+RESOURCE ID: social_planner_detail_other_trainers
+TEXT: Другие Тренеры: {0}
+
+RESOURCE ID: social_planner_error_rsvp_failure
+TEXT: Ошибка. Попробуй ещё раз.
+
+RESOURCE ID: social_planner_error_rsvp_max_limit
+TEXT: Достигнуто максимальное количество записавшихся.
+
+RESOURCE ID: social_planner_error_rsvp_missing
+TEXT: Ошибка. Запланированная запись не найдена.
+
+RESOURCE ID: social_planner_error_timeslot_passed
+TEXT: Это время больше не доступно.
+
+RESOURCE ID: social_planner_error_timeslot_passed_no_edits
+TEXT: Ты не можешь изменить запланированное время, так как оно уже началось.
+
+RESOURCE ID: social_planner_leave_rsvp_modal_subtitle_key
+TEXT: Ты покинешь эту группу и больше не будешь получать напоминания присоединиться к этой битве.
+
+RESOURCE ID: social_planner_leave_rsvp_modal_title_key
+TEXT: Ты точно не хочешь присоединиться к предстоящей битве?
+
+RESOURCE ID: social_planner_leave_rsvp_success_toast_key
+TEXT: Запланированное участие было отменено.
+
+RESOURCE ID: social_planner_leave_rsvp_text_key
+TEXT: Отменить запись
+
+RESOURCE ID: social_planner_no_more_timeslots_key
+TEXT: No more available timeslots.
+
+RESOURCE ID: social_planner_rsvp_friends_list_empty
+TEXT: Список друзей пуст
+
+RESOURCE ID: social_planner_rsvp_friends_list_title
+TEXT: Пригласи друзей: {0}
+
+RESOURCE ID: social_planner_rsvp_going_count
+TEXT: Идут: {0}
+
+RESOURCE ID: social_planner_rsvp_going_text_key
+TEXT: Иду
+
+RESOURCE ID: social_planner_rsvp_invite_sent_confirmation
+TEXT: Приглашения отправлены!
+
+RESOURCE ID: social_planner_rsvp_local_only_disclaimer
+TEXT: You'll need to be nearby to defeat this Raid Boss.
+
+RESOURCE ID: social_planner_rsvp_maybe_count
+TEXT: Возможно: {0}
+
+RESOURCE ID: social_planner_rsvp_maybe_text_key
+TEXT: Возможно
+
+RESOURCE ID: social_planner_rsvp_not_going_text_key
+TEXT: Не иду
+
+RESOURCE ID: social_planner_time_conflict_disclaimer_title_key
+TEXT: Конфликт по времени
+
+RESOURCE ID: social_planner_timeslot_friend_attending_key_duo
+TEXT: Идут: {0} и {1}
+
+RESOURCE ID: social_planner_timeslot_friend_attending_key_multiple
+TEXT: Идут: {0} и ещё {1}
+
+RESOURCE ID: social_planner_timeslot_friend_attending_key_singular
+TEXT: Идёт: {0}
+
+RESOURCE ID: social_planner_timetable_gui_title_key
+TEXT: Выбрать время битвы
+
 RESOURCE ID: spawn_fuecoco
 TEXT: Появляется больше диких Фуэкоко!
+
+RESOURCE ID: spawn_totodile
+TEXT: Появляется больше диких Тотодайлов!
 
 RESOURCE ID: stamp_rally_achievement_header
 TEXT: Achievement
@@ -975,10 +1306,22 @@ TEXT: <b>Включает:</b>
 • Квест на время с такими наградами, как 50 000 XP и 50 000 Звёздной Пыли
 • И другие!
 
+RESOURCE ID: text_rewards_key_catch_mastery_archen
+TEXT: <b>Включает следующие награды:</b>
+• 40 встреч с Аркеном
+• Поке-Боллы и Ягоды
+• 12 000 XP и 3000 Звёздной Пыли
+
 RESOURCE ID: text_rewards_key_cd_fuecoco25
 TEXT: <b>Включает следующие награды:</b>
 • Внутриигровые премиум-предметы, такие как Боевой Премиум-Пропуск, Заряженная TM и Редкие Конфеты
 • Встречи с Фуэкоко с особым фоном
+• И другие!
+
+RESOURCE ID: text_rewards_key_cdc_totodile25
+TEXT: <b>Включает следующие награды:</b>
+• Внутриигровые премиум-предметы, такие как Боевой Премиум-Пропуск, Заряженная TM и Редкие Конфеты
+• Встречи с Тотодайлом с особым фоном
 • И другие!
 
 RESOURCE ID: text_rewards_key_ffsr0325
@@ -1054,6 +1397,9 @@ TEXT: <b>Включает:</b>
 RESOURCE ID: ticket_fuecoco_cd
 TEXT: Билет, дающий доступ к специальному квесту Крокапелла, доступен в магазине
 
+RESOURCE ID: ticket_totodile_cdc
+TEXT: Билет, дающий доступ к специальному квесту Классический день сообщества Тотодайл, доступен в магазине
+
 RESOURCE ID: time_span_hr
 TEXT: 1 hour
 
@@ -1086,6 +1432,78 @@ TEXT: Показаны имеющиеся предметы
 
 RESOURCE ID: tips_dont_own_message_title
 TEXT: У тебя нет ни одного из этих предметов.
+
+RESOURCE ID: tr_archen_mastery_catch_kabuto
+TEXT: Поймай Кабуто ×{0}
+
+RESOURCE ID: tr_archen_mastery_catch_omanyte
+TEXT: Поймай Оманайтов ×{0}
+
+RESOURCE ID: tr_archen_mastery_mar2025
+TEXT: Квест на время Мастерство поимки: Аркен
+
+RESOURCE ID: tr_archen_mastery_mar2025_0
+TEXT: ‎Квест на время Мастерство поимки: Аркен (1/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_1
+TEXT: ‎Квест на время Мастерство поимки: Аркен (2/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_2
+TEXT: ‎Квест на время Мастерство поимки: Аркен (3/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_3
+TEXT: ‎Квест на время Мастерство поимки: Аркен (4/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_4
+TEXT: ‎Квест на время Мастерство поимки: Аркен (5/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_5
+TEXT: ‎Квест на время Мастерство поимки: Аркен (6/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_6
+TEXT: ‎Квест на время Мастерство поимки: Аркен (7/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_7
+TEXT: ‎Квест на время Мастерство поимки: Аркен (8/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_8
+TEXT: ‎Квест на время Мастерство поимки: Аркен (9/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_9
+TEXT: ‎Квест на время Мастерство поимки: Аркен (10/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025
+TEXT: Премиум-квест на время Мастерство поимки: Аркен
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_0
+TEXT: ‎Премиум-квест на время Мастерство поимки: Аркен (1/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_1
+TEXT: ‎Премиум-квест на время Мастерство поимки: Аркен (2/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_2
+TEXT: ‎Премиум-квест на время Мастерство поимки: Аркен (3/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_3
+TEXT: ‎Премиум-квест на время Мастерство поимки: Аркен (4/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_4
+TEXT: ‎Премиум-квест на время Мастерство поимки: Аркен (5/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_5
+TEXT: ‎Премиум-квест на время Мастерство поимки: Аркен (6/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_6
+TEXT: ‎Премиум-квест на время Мастерство поимки: Аркен (7/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_7
+TEXT: ‎Премиум-квест на время Мастерство поимки: Аркен (8/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_8
+TEXT: ‎Премиум-квест на время Мастерство поимки: Аркен (9/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_9
+TEXT: ‎Премиум-квест на время Мастерство поимки: Аркен (10/10)
 
 RESOURCE ID: tr_kr2025_retention_feb_desc
 TEXT: Квест на время Испытание Полнолуние

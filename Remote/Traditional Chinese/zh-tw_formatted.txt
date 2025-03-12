@@ -27,13 +27,13 @@ RESOURCE ID: age_confirm_contact
 TEXT: Contact Support
 
 RESOURCE ID: age_confirm_explain
-TEXT: Trainers must meet certain age requirements to log in with this type of account. Please confirm your date of birth.
+TEXT: There is an age requirement to log in with this type of account. Please confirm your date of birth.
 
 RESOURCE ID: age_confirm_fail
-TEXT: Sorry, you do not meet the <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">age requirements</a> to log in with this type of account and your account will be deleted pursuant to our Terms of Service. If you believe you are eligible to log in with this type of account, please contact us.
+TEXT: Sorry, you do not meet the <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">age requirements</a> to log in with this type of account, and your account will be deleted pursuant to our Terms of Service. If you believe you are eligible to log in with this type of account, please contact us.
 
 RESOURCE ID: age_confirm_popup_confirm
-TEXT: Are you sure? This cannot be changed after you submit.
+TEXT: Are you sure? This cannot be changed after you submit it.
 
 RESOURCE ID: april_power_up_monthly_ticket_title
 TEXT: 強化入場券：4月
@@ -49,6 +49,15 @@ TEXT: 強化入場券：4月(3/4)
 
 RESOURCE ID: april_power_up_monthly_ticket_title_4
 TEXT: 強化入場券：4月(4/4)
+
+RESOURCE ID: archen_mastery_mar2025
+TEXT: 捕捉達人：始祖小鳥
+
+RESOURCE ID: available_rsvp_inactive_button_desc
+TEXT: 預定於{0}參加
+
+RESOURCE ID: available_rsvp_inactive_button_title
+TEXT: 變更預定
 
 RESOURCE ID: avatar_hats_mustard
 TEXT: 馬士德帽子
@@ -197,8 +206,23 @@ TEXT: 新加坡，2025年3月30日
 RESOURCE ID: badge_safari_2025_singapore_test
 TEXT: 新加坡2025
 
+RESOURCE ID: batch_transfer_100_pokemon
+TEXT: {0} ★ 100% Pokémon
+
+RESOURCE ID: batch_transfer_last_more_pokemon
+TEXT: Your only {0}, {1}, and {2} more
+
+RESOURCE ID: batch_transfer_last_one_pokemon
+TEXT: Your only {0}
+
+RESOURCE ID: batch_transfer_last_two_pokemon
+TEXT: Your only {0} and {1}
+
 RESOURCE ID: bonus_cd_move_fuecoco
 TEXT: 讓炙燙鱷進化成骨紋巨聲鱷，牠就能學會特殊招式「爆炸烈焰」！
+
+RESOURCE ID: bonus_cd_move_totodile
+TEXT: 讓藍鱷進化成大力鱷後，牠就能學會特殊招式「加農水炮」！
 
 RESOURCE ID: bonus_pokestop_sinnoh_stone_drop
 TEXT: 旋轉寶可補給站轉盤時偶爾會出現神奧之石
@@ -214,6 +238,9 @@ TEXT: GO對戰聯盟：強大與極致
 
 RESOURCE ID: community_day_fuecoco_event_name
 TEXT: 社群日：呆火鱷
+
+RESOURCE ID: community_day_totodile_event_name_cdc
+TEXT: 經典社群日：小鋸鱷
 
 RESOURCE ID: confirm_send_button
 TEXT: SEND
@@ -340,8 +367,14 @@ RESOURCE ID: event_datetime_range_key_aprilmonthly2025
 TEXT: 4月4日10:00～
 5月4日10:00
 
+RESOURCE ID: event_datetime_range_key_catch_mastery_archen
+TEXT: 3月16日10:00～20:00
+
 RESOURCE ID: event_datetime_range_key_cd_fuecoco25
 TEXT: 3月8日14:00～17:00
+
+RESOURCE ID: event_datetime_range_key_cdc_totodile25
+TEXT: 3月22日14:00～17:00
 
 RESOURCE ID: event_datetime_range_key_ffsr0325
 TEXT: 3月5日10:00～
@@ -486,11 +519,21 @@ TEXT: 前往合眾之路：團體戰
 RESOURCE ID: general1.ticket_cd_fuecoco25_title
 TEXT: 呆火鱷社群日入場券
 
+RESOURCE ID: general1.ticket_cdc_totodile25_title
+TEXT: 小鋸鱷經典社群日入場券
+
 RESOURCE ID: general2.ticket.7_aprilmonthly2025_title
 TEXT: 強化入場券：4月
 
 RESOURCE ID: general2.ticket.8_maymonthly2025_title
 TEXT: 強化入場券：5月
+
+RESOURCE ID: general2.ticket4.catch_mastery_archen
+TEXT: 捕捉達人：始祖小鳥
+特級限時調查入場券
+
+RESOURCE ID: general_leave
+TEXT: 取消
 
 RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_team_00
 TEXT: 有事報告，我和拉普拉斯測試過後，得出結論了。
@@ -961,6 +1004,12 @@ TEXT: Pass Points
 RESOURCE ID: item_event_pass_point_live_ops_04_name
 TEXT: Pass Points
 
+RESOURCE ID: item_event_ticket_04_desc_catch_mastery_archen
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年3月16日10:00～20:00參與捕捉達人：始祖小鳥特級限時調查。
+
+RESOURCE ID: item_event_ticket_04_details_catch_mastery_archen
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間3月16日參與捕捉達人：始祖小鳥特級限時調查。
+
 RESOURCE ID: item_event_ticket_10_desc_gofest2025ver1
 TEXT: 不論你身在何處，都可以用這張入場券在當地時間2025年6月28日、29日參與Pokémon GO Fest 2025：全球。
 
@@ -1014,8 +1063,14 @@ TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時�
 RESOURCE ID: item_event_ticket_pink_desc_cd_fuecoco25
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年3月8日14:00開始參與呆火鱷社群日的特殊調查。
 
+RESOURCE ID: item_event_ticket_pink_desc_cdc_totodile25
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年3月22日14:00開始參與小鋸鱷經典社群日的特殊調查。
+
 RESOURCE ID: item_event_ticket_pink_details_cd_fuecoco25
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間年3月8日參與特殊調查「解開火鱷寶可夢之謎！」。
+
+RESOURCE ID: item_event_ticket_pink_details_cdc_totodile25
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間3月22日參與小鋸鱷經典社群日特殊調查。
 
 RESOURCE ID: item_global_event_ticket_details_meloetta
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間2025年2月24日開始領取特別的獎勵。
@@ -1025,6 +1080,9 @@ TEXT: A book to collect Postcards and Stamps from you and your friends' journeys
 
 RESOURCE ID: item_postcard_inventory_name_stamp
 TEXT: Collection Book
+
+RESOURCE ID: last_pokemon_transfer_to_professor_confirmation
+TEXT: Do you really want to transfer your last {0}?
 
 RESOURCE ID: march_power_up_monthly_ticket_title
 TEXT: 強化入場券：3月
@@ -1072,10 +1130,10 @@ RESOURCE ID: meetup_check_in_research_title_spotlight
 TEXT: 見面會簽到限時調查：聚焦時刻
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-08T01:57:23.111663+00:00 for zh-TW
-at SHA 5e3e7a817eb
-Pipeline 3059880, job 38002285
-Patch from: 0.353.0-SHA-a88947a0-RC1, 0.351.0-SHA-2259cb4d-RC2, 0.351.0-SHA-a2cc2822-RC1
+TEXT: Built at 2025-03-12T00:16:36.692837+00:00 for zh-TW
+at SHA 505084fd5a2
+Pipeline 3069127, job 38142456
+Patch from: 0.351.0-SHA-f7106c82-RC1, 0.351.0-SHA-57275791-RC3, 0.353.0-SHA-3f590095-RC4
 
 RESOURCE ID: move_name_0299
 TEXT: 加農水炮
@@ -1089,11 +1147,63 @@ TEXT: {0}沒有學會{1}，因此合體後不會學會具有冒險效果的招�
 RESOURCE ID: move_required_to_enable_adventure_effect_title
 TEXT: 這隻合體的寶可夢不會學會具有冒險效果的招式
 
+RESOURCE ID: name_sharing_preference_everyone
+TEXT: 所有玩家
+
+RESOURCE ID: name_sharing_preference_friends
+TEXT: 僅限朋友
+
+RESOURCE ID: name_sharing_preference_no_one
+TEXT: 不分享
+
+RESOURCE ID: nearby_active_reminder_header
+TEXT: 已啟用的提醒通知
+
+RESOURCE ID: nearby_pokemon_gui_battle_header
+TEXT: 協力對戰
+
+RESOURCE ID: nearby_pokemon_gui_rsvp_header
+TEXT: 參戰預約
+
+RESOURCE ID: nearby_rsvp_invitations_header
+TEXT: 邀請
+
+RESOURCE ID: nearby_rsvp_invite_accepted
+TEXT: 已接受邀請！
+
+RESOURCE ID: nearby_rsvp_invite_removed
+TEXT: 已拒絕邀請
+
+RESOURCE ID: nearby_rsvp_join
+TEXT: 預約參戰
+
+RESOURCE ID: nearby_rsvp_no_rsvps
+TEXT: 沒有預約任何對戰
+
+RESOURCE ID: nearby_rsvp_reminders_header
+TEXT: 提醒
+
+RESOURCE ID: nearby_rsvp_see_more
+TEXT: 顯示更多({0})
+
+RESOURCE ID: nearby_tab_raids_ftue
+TEXT: 選單「看看附近」升級了！
+
+大家一起打倒強大的頭目寶可夢吧！
+
+RESOURCE ID: nearby_tab_routes_ftue
+TEXT: 選單「看看附近」升級了！
+
+完成路線來獲得獎勵吧！
+
 RESOURCE ID: pause_stamp_rally_button
 TEXT: PAUSE
 
 RESOURCE ID: photobomb_five_fuecoco
 TEXT: 呆火鱷將在GO Snapshot中驚喜現身5次
+
+RESOURCE ID: photobomb_five_totodile
+TEXT: 小鋸鱷將在GO Snapshot中驚喜現身5次
 
 RESOURCE ID: pokedex_info_battle_charge_header
 TEXT: 特殊招式
@@ -1117,6 +1227,9 @@ TEXT: 屬性
 RESOURCE ID: pokedex_info_battle_weak_header
 TEXT: 抗性
 較弱
+
+RESOURCE ID: pokemon_100_transfer_to_professor_confirmation
+TEXT: Do you really want to transfer this ★ 100% Pokémon?
 
 RESOURCE ID: pokemon_alert_label_off
 TEXT: 關閉通知
@@ -1156,6 +1269,12 @@ TEXT: {0}的糖果XL
 
 RESOURCE ID: pokemon_xl_candy_reward_plural
 TEXT: {0}的糖果XL
+
+RESOURCE ID: post_cd_extended_bonus
+TEXT: 社群日：擴充版獎勵
+
+RESOURCE ID: post_cdc_extended_bonus
+TEXT: 經典社群日：擴充版獎勵
 
 RESOURCE ID: postcard_multi_delete_cannot_undo
 TEXT: 明信片刪除後將無法復原。
@@ -1261,11 +1380,140 @@ TEXT: 最近被觀察到的那些不可思議的現象，應該和這些傳說�
 RESOURCE ID: quest_title_season_17_9_dialogue_5
 TEXT: 你得準備準備了，%PLAYERNAME%。要找到酋雷姆應該不簡單，但我有預感，只要持續不斷調查，就一定能遇見牠！
 
+RESOURCE ID: quest_title_totodile
+TEXT: 經典社群日：
+小鋸鱷
+
+RESOURCE ID: quest_title_totodile_0
+TEXT: 經典社群日：
+小鋸鱷(1/2)
+
+RESOURCE ID: quest_title_totodile_1
+TEXT: 經典社群日：
+小鋸鱷(2/2)
+
+RESOURCE ID: quest_totodile_catch_b
+TEXT: 捕捉{0}隻小鋸鱷
+
 RESOURCE ID: raid_hour_rare_xl_candy_bonus
 TEXT: 在團體戰時間捕捉到五星團體戰頭目寶可夢時，一定可獲得1個神奇糖果XL（訓練家等級31以上）
 
+RESOURCE ID: raid_nearby_rsvp
+TEXT: 參戰預定
+
+RESOURCE ID: raid_planner_join_this_rsvp
+TEXT: 預約參戰
+
+RESOURCE ID: raid_planner_rsvp_conflict_title
+TEXT: 確定要預約參加這場對戰嗎？
+
+RESOURCE ID: raid_planner_rsvp_conflict_warning
+TEXT: 如果確定參加這場對戰，現有的參戰預約將會被取消。
+
+RESOURCE ID: raid_planner_success_rsvp
+TEXT: 已預約參戰！
+
+RESOURCE ID: raid_rsvp_bonus
+TEXT: RSVP'd to Raid
+
+RESOURCE ID: raid_sort_distance
+TEXT: 距離
+
+RESOURCE ID: raid_sort_level
+TEXT: 難度
+
+RESOURCE ID: raid_sort_people
+TEXT: 大廳待機人數
+
+RESOURCE ID: raid_sort_rsvps
+TEXT: 預約參戰人數
+
+RESOURCE ID: raid_sort_time
+TEXT: 離開始的時間
+
 RESOURCE ID: road_to_unova_pikachu_title
 TEXT: 皮卡丘驚喜現身
+
+RESOURCE ID: rsvp_attendance_preference_title
+TEXT: 預約參戰狀態分享對象：
+
+RESOURCE ID: rsvp_inactive_button_desc
+TEXT: {0}位 ({1})
+
+RESOURCE ID: rsvp_inactive_button_title
+TEXT: 選擇時間
+
+RESOURCE ID: rsvp_invitation_notification_string_key
+TEXT: {0}邀請你一起參加{1}（{2}）！
+
+RESOURCE ID: rsvp_invite_friends
+TEXT: 邀請朋友
+
+RESOURCE ID: rsvp_reminder_min
+TEXT: min
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_join
+TEXT: <b>極巨對戰開始！</b>與其他{0}位訓練家一起參加吧！
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_join_singular
+TEXT: <b>極巨對戰開始！</b>快來參加吧！
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_start_soon
+TEXT: <b>極巨對戰即將開始！</b>與其他{0}位訓練家一起準備參加吧！
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_start_soon_singular
+TEXT: <b>極巨對戰即將開始！</b>做好準備吧！
+
+RESOURCE ID: rsvp_reminder_notification_gmax_join
+TEXT: <b>超極巨化{0}的極巨對戰開始！</b>與其他{1}位訓練家一起參加吧！
+
+RESOURCE ID: rsvp_reminder_notification_gmax_join_singular
+TEXT: <b>超極巨化{0}的極巨對戰開始！</b>快來參加吧！
+
+RESOURCE ID: rsvp_reminder_notification_gmax_start_soon
+TEXT: <b>超極巨化{0}的極巨對戰即將開始！</b>與其他{1}位訓練家一起準備參加吧！
+
+RESOURCE ID: rsvp_reminder_notification_gmax_start_soon_singular
+TEXT: <b>超極巨化{0}的極巨對戰即將開始！</b>做好準備吧！
+
+RESOURCE ID: rsvp_reminder_notification_join_button
+TEXT: 參加
+
+RESOURCE ID: rsvp_reminder_notification_raid_egg_start_soon
+TEXT: <b>蛋快要孵化了！</b>與其他{0}位訓練家一起做好準備吧！
+
+RESOURCE ID: rsvp_reminder_notification_raid_egg_start_soon_singular
+TEXT: <b>蛋快要孵化了！</b>做好準備吧！
+
+RESOURCE ID: rsvp_reminder_notification_raid_join
+TEXT: <b>{0}的團體戰開始！</b>與其他{1}位訓練家一起參加吧！
+
+RESOURCE ID: rsvp_reminder_notification_raid_join_singular
+TEXT: <b>{0}的團體戰開始！</b>快來參加吧！
+
+RESOURCE ID: rsvp_reminder_notification_raid_start_soon
+TEXT: <b>{0}的團體戰即將開始！</b>與其他{1}位訓練家一起準備參加吧！
+
+RESOURCE ID: rsvp_reminder_notification_raid_start_soon_singular
+TEXT: <b>{0}的團體戰即將開始！</b>做好準備吧！
+
+RESOURCE ID: rsvp_tooltip_nearby_menu
+TEXT: 可選擇參加時間
+
+RESOURCE ID: rsvp_tooltip_rsvp_button
+TEXT: 選擇要參加的時間
+
+RESOURCE ID: rsvp_tooltip_top_level
+TEXT: 新功能：參戰預約！
+
+RESOURCE ID: rsvp_topper_join
+TEXT: 來參加吧！
+
+RESOURCE ID: rsvp_tutorial_body
+TEXT: 選擇想參加的時間並預約參戰後，就能在開始前收到通知，更順暢地參加對戰。
+
+RESOURCE ID: rsvp_tutorial_title
+TEXT: 參戰預約
 
 RESOURCE ID: safari_city_2025_milan_title
 TEXT: City Safari：米蘭2025
@@ -1339,8 +1587,92 @@ TEXT: 強大與極致(5/5)
 RESOURCE ID: season_gbl_forecast_title_18
 TEXT: Pokémon GO：強大與極致
 
+RESOURCE ID: social_planner_cannot_change_active_timeslots_key
+TEXT: Unable to change time slot as no time slots are available
+
+RESOURCE ID: social_planner_conflict_disclaimer_text_key
+TEXT: You have a time conflict.
+
+RESOURCE ID: social_planner_detail_other_trainers
+TEXT: 其他{0}位
+
+RESOURCE ID: social_planner_error_rsvp_failure
+TEXT: 發生錯誤。請再試一次。
+
+RESOURCE ID: social_planner_error_rsvp_max_limit
+TEXT: 參戰預定數已達上限
+
+RESOURCE ID: social_planner_error_rsvp_missing
+TEXT: 發生錯誤。沒有找到參戰預定。
+
+RESOURCE ID: social_planner_error_timeslot_passed
+TEXT: 無法使用此時段
+
+RESOURCE ID: social_planner_error_timeslot_passed_no_edits
+TEXT: 該預定已開始，因此無法變更
+
+RESOURCE ID: social_planner_leave_rsvp_modal_subtitle_key
+TEXT: 會刪除該對戰的提醒通知，並將您從預定參加者的群組中移除。
+
+RESOURCE ID: social_planner_leave_rsvp_modal_title_key
+TEXT: 確定要取消參加這場對戰嗎？
+
+RESOURCE ID: social_planner_leave_rsvp_success_toast_key
+TEXT: 已取消預定
+
+RESOURCE ID: social_planner_leave_rsvp_text_key
+TEXT: 取消
+
+RESOURCE ID: social_planner_no_more_timeslots_key
+TEXT: No more available timeslots.
+
+RESOURCE ID: social_planner_rsvp_friends_list_empty
+TEXT: 朋友名單空白
+
+RESOURCE ID: social_planner_rsvp_friends_list_title
+TEXT: 邀請{0}位朋友
+
+RESOURCE ID: social_planner_rsvp_going_count
+TEXT: {0}人會參加
+
+RESOURCE ID: social_planner_rsvp_going_text_key
+TEXT: 參加
+
+RESOURCE ID: social_planner_rsvp_invite_sent_confirmation
+TEXT: 已送出邀請函！
+
+RESOURCE ID: social_planner_rsvp_local_only_disclaimer
+TEXT: You'll need to be nearby to defeat this Raid Boss.
+
+RESOURCE ID: social_planner_rsvp_maybe_count
+TEXT: {0}人不確定
+
+RESOURCE ID: social_planner_rsvp_maybe_text_key
+TEXT: 不確定
+
+RESOURCE ID: social_planner_rsvp_not_going_text_key
+TEXT: 不參加
+
+RESOURCE ID: social_planner_time_conflict_disclaimer_title_key
+TEXT: 行程不合
+
+RESOURCE ID: social_planner_timeslot_friend_attending_key_duo
+TEXT: {0}和{1}會參加
+
+RESOURCE ID: social_planner_timeslot_friend_attending_key_multiple
+TEXT: {0}和其他{1}位朋友會參加
+
+RESOURCE ID: social_planner_timeslot_friend_attending_key_singular
+TEXT: {0}會參加
+
+RESOURCE ID: social_planner_timetable_gui_title_key
+TEXT: 選擇時間
+
 RESOURCE ID: spawn_fuecoco
 TEXT: 更多呆火鱷出現在地圖上！
+
+RESOURCE ID: spawn_totodile
+TEXT: 更多小鋸鱷出現在地圖上！
 
 RESOURCE ID: stamp_rally_achievement_header
 TEXT: Achievement
@@ -1422,10 +1754,22 @@ TEXT: <b>可獲得的獎勵：</b>
 ・完成後即可獲得50000XP及50000星星沙子的限時調查課題
 ・其他
 
+RESOURCE ID: text_rewards_key_catch_mastery_archen
+TEXT: <b>可獲得的獎勵：</b>
+・與始祖小鳥相遇40次的機會
+・精靈球和樹果
+・12000XP和3000星星沙子
+
 RESOURCE ID: text_rewards_key_cd_fuecoco25
 TEXT: <b>可獲得的獎勵：</b>
 ・與呆火鱷（附有特別背卡）相遇
 ・1張特級對戰入場券、1個特殊招式學習器、神奇糖果
+・其他
+
+RESOURCE ID: text_rewards_key_cdc_totodile25
+TEXT: <b>可獲得的獎勵：</b>
+・與小鋸鱷（附有特別背卡）相遇
+・特級對戰入場券、特殊招式學習器、神奇糖果
 ・其他
 
 RESOURCE ID: text_rewards_key_ffsr0325
@@ -1535,6 +1879,9 @@ TEXT: <b>可獲得的獎勵：</b>
 RESOURCE ID: ticket_fuecoco_cd
 TEXT: 特殊調查「解開火鱷寶可夢之謎！」的入場券在商店裡上架了
 
+RESOURCE ID: ticket_totodile_cdc
+TEXT: 小鋸鱷經典社群日特殊調查入場券在商店裡上架了
+
 RESOURCE ID: time_span_hr
 TEXT: 1 hour
 
@@ -1567,6 +1914,100 @@ TEXT: 顯示已持有的道具
 
 RESOURCE ID: tips_dont_own_message_title
 TEXT: 沒有已持有的道具
+
+RESOURCE ID: tr_archen_mastery_catch_kabuto
+TEXT: 捕捉{0}隻化石盔
+
+RESOURCE ID: tr_archen_mastery_catch_omanyte
+TEXT: 捕捉{0}隻菊石獸
+
+RESOURCE ID: tr_archen_mastery_mar2025
+TEXT: 捕捉達人：始祖小鳥
+限時調查
+
+RESOURCE ID: tr_archen_mastery_mar2025_0
+TEXT: 捕捉達人：始祖小鳥
+限時調查(1/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_1
+TEXT: 捕捉達人：始祖小鳥
+限時調查(2/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_2
+TEXT: 捕捉達人：始祖小鳥
+限時調查(3/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_3
+TEXT: 捕捉達人：始祖小鳥
+限時調查(4/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_4
+TEXT: 捕捉達人：始祖小鳥
+限時調查(5/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_5
+TEXT: 捕捉達人：始祖小鳥
+限時調查(6/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_6
+TEXT: 捕捉達人：始祖小鳥
+限時調查(7/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_7
+TEXT: 捕捉達人：始祖小鳥
+限時調查(8/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_8
+TEXT: 捕捉達人：始祖小鳥
+限時調查(9/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_9
+TEXT: 捕捉達人：始祖小鳥
+限時調查(10/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025
+TEXT: 捕捉達人：始祖小鳥
+特級限時調查
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_0
+TEXT: 捕捉達人：始祖小鳥
+特級限時調查(1/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_1
+TEXT: 捕捉達人：始祖小鳥
+特級限時調查(2/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_2
+TEXT: 捕捉達人：始祖小鳥
+特級限時調查(3/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_3
+TEXT: 捕捉達人：始祖小鳥
+特級限時調查(4/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_4
+TEXT: 捕捉達人：始祖小鳥
+特級限時調查(5/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_5
+TEXT: 捕捉達人：始祖小鳥
+特級限時調查(6/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_6
+TEXT: 捕捉達人：始祖小鳥
+特級限時調查(7/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_7
+TEXT: 捕捉達人：始祖小鳥
+特級限時調查(8/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_8
+TEXT: 捕捉達人：始祖小鳥
+特級限時調查(9/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_9
+TEXT: 捕捉達人：始祖小鳥
+特級限時調查(10/10)
 
 RESOURCE ID: tr_kr2025_retention_feb_desc
 TEXT: 滿月挑戰限時調查

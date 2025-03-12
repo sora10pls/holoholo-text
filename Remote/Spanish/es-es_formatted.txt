@@ -27,13 +27,13 @@ RESOURCE ID: age_confirm_contact
 TEXT: Contact Support
 
 RESOURCE ID: age_confirm_explain
-TEXT: Trainers must meet certain age requirements to log in with this type of account. Please confirm your date of birth.
+TEXT: There is an age requirement to log in with this type of account. Please confirm your date of birth.
 
 RESOURCE ID: age_confirm_fail
-TEXT: Sorry, you do not meet the <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">age requirements</a> to log in with this type of account and your account will be deleted pursuant to our Terms of Service. If you believe you are eligible to log in with this type of account, please contact us.
+TEXT: Sorry, you do not meet the <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">age requirements</a> to log in with this type of account, and your account will be deleted pursuant to our Terms of Service. If you believe you are eligible to log in with this type of account, please contact us.
 
 RESOURCE ID: age_confirm_popup_confirm
-TEXT: Are you sure? This cannot be changed after you submit.
+TEXT: Are you sure? This cannot be changed after you submit it.
 
 RESOURCE ID: april_power_up_monthly_ticket_title
 TEXT: Entrada potenciadora: Abril
@@ -50,6 +50,15 @@ TEXT: Entrada potenciadora: Abril (3/4)
 RESOURCE ID: april_power_up_monthly_ticket_title_4
 TEXT: Entrada potenciadora: Abril (4/4)
 
+RESOURCE ID: archen_mastery_mar2025
+TEXT: Objetivo de Captura: Archen
+
+RESOURCE ID: available_rsvp_inactive_button_desc
+TEXT: Hora seleccionada: {0}
+
+RESOURCE ID: available_rsvp_inactive_button_title
+TEXT: Cambiar asistencia
+
 RESOURCE ID: avatar_hats_mustard
 TEXT: Gorro estilo Mostaz
 
@@ -65,8 +74,23 @@ TEXT: Chaqueta estilo Mostaz
 RESOURCE ID: avatar_shoes_mustard
 TEXT: Zapatos estilo Mostaz
 
+RESOURCE ID: batch_transfer_100_pokemon
+TEXT: {0} ★ 100% Pokémon
+
+RESOURCE ID: batch_transfer_last_more_pokemon
+TEXT: Your only {0}, {1}, and {2} more
+
+RESOURCE ID: batch_transfer_last_one_pokemon
+TEXT: Your only {0}
+
+RESOURCE ID: batch_transfer_last_two_pokemon
+TEXT: Your only {0} and {1}
+
 RESOURCE ID: bonus_cd_move_fuecoco
 TEXT: ¡Haz evolucionar a Crocalor para conseguir un Skeledirge que conozca el ataque cargado Anillo Ígneo!
+
+RESOURCE ID: bonus_cd_move_totodile
+TEXT: ¡Haz evolucionar a Croconaw para conseguir un Feraligatr que conozca el ataque cargado Hidrocañón!
 
 RESOURCE ID: bonus_pokestop_sinnoh_stone_drop
 TEXT: Una probabilidad excepcional de obtener Piedras Sinnoh al dar vueltas a fotodiscos en Poképaradas
@@ -82,6 +106,9 @@ TEXT: Liga Combates GO: Fortaleza y Maestría
 
 RESOURCE ID: community_day_fuecoco_event_name
 TEXT: Día de la Comunidad: Fuecoco
+
+RESOURCE ID: community_day_totodile_event_name_cdc
+TEXT: Clásicos del Día de la Comunidad: Totodile
 
 RESOURCE ID: confirm_send_button
 TEXT: SEND
@@ -174,8 +201,14 @@ RESOURCE ID: event_datetime_range_key_aprilmonthly2025
 TEXT: Del 4 de abril a las 10:00
 al 4 de mayo a las 10:00.
 
+RESOURCE ID: event_datetime_range_key_catch_mastery_archen
+TEXT: 16 de marzo de 10:00 a 20:00.
+
 RESOURCE ID: event_datetime_range_key_cd_fuecoco25
 TEXT: 8 de marzo de 14:00 a 17:00
+
+RESOURCE ID: event_datetime_range_key_cdc_totodile25
+TEXT: 22 de marzo de 14:00 a 17:00
 
 RESOURCE ID: event_datetime_range_key_ffsr0325
 TEXT: Del 5 de marzo a las 10:00
@@ -293,11 +326,20 @@ TEXT: Entrada: Festival de Pokémon GO 2025 (Global)
 RESOURCE ID: general1.ticket_cd_fuecoco25_title
 TEXT: Entrada: Día de la Comunidad de Fuecoco
 
+RESOURCE ID: general1.ticket_cdc_totodile25_title
+TEXT: Entrada: Clásicos del Día de la Comunidad (Totodile)
+
 RESOURCE ID: general2.ticket.7_aprilmonthly2025_title
 TEXT: Entrada potenciadora: Abril
 
 RESOURCE ID: general2.ticket.8_maymonthly2025_title
 TEXT: Entrada potenciadora: Mayo
+
+RESOURCE ID: general2.ticket4.catch_mastery_archen
+TEXT: Entrada: Investigación temporal prémium de Objetivo de captura (Archen)
+
+RESOURCE ID: general_leave
+TEXT: Salir
 
 RESOURCE ID: go_tour_2025_global_seasonal_rewards_tr_blanche_team_00
 TEXT: Saludos. Lapras y yo estábamos terminando nuestro nuevo análisis.
@@ -604,6 +646,12 @@ TEXT: Pass Points
 RESOURCE ID: item_event_pass_point_live_ops_04_name
 TEXT: Pass Points
 
+RESOURCE ID: item_event_ticket_04_desc_catch_mastery_archen
+TEXT: Una entrada para acceder a la investigación temporal prémium de Objetivo de Captura: Archen el 16 de marzo de 2025 de 10:00 a 20:00 en tu hora local, estés donde estés.
+
+RESOURCE ID: item_event_ticket_04_details_catch_mastery_archen
+TEXT: Esta entrada se activará automáticamente el 16 de marzo para darte acceso a la investigación temporal prémium de Objetivo de Captura: Archen, estés donde estés.
+
 RESOURCE ID: item_event_ticket_10_desc_gofest2025ver1
 TEXT: Una entrada para acceder al Festival de Pokémon GO 2025 (Global) el 28 y 29 de junio de 2025, estés donde estés.
 
@@ -645,8 +693,14 @@ TEXT: Esta entrada se activará automáticamente el 4 de mayo para darte acceso 
 RESOURCE ID: item_event_ticket_pink_desc_cd_fuecoco25
 TEXT: Una entrada para acceder a la investigación especial del Día de la Comunidad de Fuecoco desde el 8 de marzo a las 14:00 en tu hora local, estés donde estés.
 
+RESOURCE ID: item_event_ticket_pink_desc_cdc_totodile25
+TEXT: Una entrada para acceder a la investigación especial del evento Clásicos del Día de la Comunidad de Totodile desde el 22 de marzo a las 14:00 en tu hora local, estés donde estés.
+
 RESOURCE ID: item_event_ticket_pink_details_cd_fuecoco25
 TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación especial "A crocapella" el 8 de marzo, estés donde estés.
+
+RESOURCE ID: item_event_ticket_pink_details_cdc_totodile25
+TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación especial "Clásicos del Día de la Comunidad: Totodile" el 22 de marzo, estés donde estés.
 
 RESOURCE ID: item_lucky_friend_applicator_desc
 TEXT: ¡Un souvenir que estrecha lazos y te permite alcanzar una amistad con suerte con alguien al instante si tenéis una gran amistad o superior!
@@ -656,6 +710,9 @@ TEXT: A book to collect Postcards and Stamps from you and your friends' journeys
 
 RESOURCE ID: item_postcard_inventory_name_stamp
 TEXT: Collection Book
+
+RESOURCE ID: last_pokemon_transfer_to_professor_confirmation
+TEXT: Do you really want to transfer your last {0}?
 
 RESOURCE ID: march_power_up_monthly_ticket_title
 TEXT: Entrada potenciadora: Marzo
@@ -703,19 +760,74 @@ RESOURCE ID: meetup_check_in_research_title_spotlight
 TEXT: Investigación temporal por participar en una quedada: Hora del Pokémon Destacado
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-08T01:57:23.111663+00:00 for es-ES
-at SHA 5e3e7a817eb
-Pipeline 3059880, job 38002285
-Patch from: 0.353.0-SHA-a88947a0-RC1, 0.351.0-SHA-2259cb4d-RC2, 0.351.0-SHA-a2cc2822-RC1
+TEXT: Built at 2025-03-12T00:16:36.692837+00:00 for es-ES
+at SHA 505084fd5a2
+Pipeline 3069127, job 38142456
+Patch from: 0.351.0-SHA-f7106c82-RC1, 0.351.0-SHA-57275791-RC3, 0.353.0-SHA-3f590095-RC4
 
 RESOURCE ID: move_name_0468
 TEXT: Canto Ardiente
+
+RESOURCE ID: name_sharing_preference_everyone
+TEXT: Todo el mundo
+
+RESOURCE ID: name_sharing_preference_friends
+TEXT: Solo amistades
+
+RESOURCE ID: name_sharing_preference_no_one
+TEXT: Nadie
+
+RESOURCE ID: nearby_active_reminder_header
+TEXT: ASISTENCIAS CONFIRMADAS
+
+RESOURCE ID: nearby_pokemon_gui_battle_header
+TEXT: COMBATES
+
+RESOURCE ID: nearby_pokemon_gui_raid_header
+TEXT: INCURSIÓN
+
+RESOURCE ID: nearby_pokemon_gui_rsvp_header
+TEXT: ASISTENCIA
+
+RESOURCE ID: nearby_rsvp_invitations_header
+TEXT: INVITACIONES
+
+RESOURCE ID: nearby_rsvp_invite_accepted
+TEXT: ¡Invitación aceptada!
+
+RESOURCE ID: nearby_rsvp_invite_removed
+TEXT: Invitación rechazada.
+
+RESOURCE ID: nearby_rsvp_join
+TEXT: ASISTENCIA
+
+RESOURCE ID: nearby_rsvp_no_rsvps
+TEXT: No tienes ninguna confirmación de asistencia para futuros combates.
+
+RESOURCE ID: nearby_rsvp_reminders_header
+TEXT: RECORDATORIOS
+
+RESOURCE ID: nearby_rsvp_see_more
+TEXT: VER MÁS ({0})
+
+RESOURCE ID: nearby_tab_raids_ftue
+TEXT: ¡Tu menú Cerca se ha actualizado!
+
+Consulta la pestaña de incursiones para combatir contra poderosos Pokémon junto a otros Entrenadores.
+
+RESOURCE ID: nearby_tab_routes_ftue
+TEXT: ¡Tu menú Cerca se ha actualizado!
+
+Encuentra tu comunidad local y consigue recompensas completando Rutas.
 
 RESOURCE ID: pause_stamp_rally_button
 TEXT: PAUSE
 
 RESOURCE ID: photobomb_five_fuecoco
 TEXT: 5 encuentros sorpresa con Fuecoco al usar Instantánea de GO
+
+RESOURCE ID: photobomb_five_totodile
+TEXT: 5 encuentros sorpresa con Totodile al usar Instantánea de GO
 
 RESOURCE ID: pokedex_info_battle_charge_header
 TEXT: Ataque cargado
@@ -739,6 +851,9 @@ TEXT: Tipo
 RESOURCE ID: pokedex_info_battle_weak_header
 TEXT: Debilidad
 frente a
+
+RESOURCE ID: pokemon_100_transfer_to_professor_confirmation
+TEXT: Do you really want to transfer this ★ 100% Pokémon?
 
 RESOURCE ID: pokemon_alert_label_off
 TEXT: Desactivada
@@ -766,6 +881,12 @@ TEXT: ¡Un {0} salvaje se encuentra cerca!
 
 RESOURCE ID: pokemon_nearby_notification_adventure_sync_already_assigned_message
 TEXT: Ya tienes una alerta para {0}.
+
+RESOURCE ID: post_cd_extended_bonus
+TEXT: Bonus complementarios del Día de la Comunidad
+
+RESOURCE ID: post_cdc_extended_bonus
+TEXT: Bonus complementarios del evento Clásicos del Día de la Comunidad
 
 RESOURCE ID: powerful_potential_2025_event_name
 TEXT: Un enorme potencial
@@ -841,8 +962,134 @@ TEXT: Me recuerda al extraño fenómeno que hemos estado observado últimamente.
 RESOURCE ID: quest_title_season_17_9_dialogue_5
 TEXT: Más vale que tengas todo en orden, %PLAYERNAME%. Kyurem no es moco de pavo, ¡y me da en la nariz que vas a enfrentarte a él muy pronto!
 
+RESOURCE ID: quest_title_totodile
+TEXT: Clásicos del Día de la Comunidad: Totodile
+
+RESOURCE ID: quest_title_totodile_0
+TEXT: Clásicos del Día de la Comunidad: Totodile (1/2)
+
+RESOURCE ID: quest_title_totodile_1
+TEXT: Clásicos del Día de la Comunidad: Totodile (2/2)
+
+RESOURCE ID: quest_totodile_catch_b
+TEXT: Captura {0} Totodile
+
 RESOURCE ID: raid_hour_rare_xl_candy_bonus
 TEXT: Un Caramelo Raro ++ garantizado al capturar jefes de incursión de nivel 5 durante una Hora de Incursiones (Entrenadores de nivel 31 o superior)
+
+RESOURCE ID: raid_nearby_rsvp
+TEXT: Asistir
+
+RESOURCE ID: raid_planner_join_this_rsvp
+TEXT: Asistir
+
+RESOURCE ID: raid_planner_rsvp_conflict_title
+TEXT: ¿Seguro que quieres confirmar?
+
+RESOURCE ID: raid_planner_rsvp_conflict_warning
+TEXT: Confirmar la asistencia a este combate cancelará tu selección actual debido a un conflicto de programación.
+
+RESOURCE ID: raid_planner_success_rsvp
+TEXT: ¡Has confirmado tu asistencia!
+
+RESOURCE ID: raid_rsvp_bonus
+TEXT: RSVP'd to Raid
+
+RESOURCE ID: raid_sort_distance
+TEXT: DISTANCIA
+
+RESOURCE ID: raid_sort_level
+TEXT: DIFICULTAD
+
+RESOURCE ID: raid_sort_people
+TEXT: PERSONAS EN LA SALA
+
+RESOURCE ID: raid_sort_rsvps
+TEXT: CONFIRMACIONES
+
+RESOURCE ID: raid_sort_time
+TEXT: TIEMPO HASTA LA INCURSIÓN
+
+RESOURCE ID: rsvp_attendance_preference_title
+TEXT: Compartir el estado de la confirmación con:
+
+RESOURCE ID: rsvp_inactive_button_desc
+TEXT: {0} a la/s {1}
+
+RESOURCE ID: rsvp_inactive_button_title
+TEXT: SELECCIONAR HORA
+
+RESOURCE ID: rsvp_invitation_notification_string_key
+TEXT: ¡{0} te ha invitado a unirte a una {1} a la/s {2}!
+
+RESOURCE ID: rsvp_invite_friends
+TEXT: Invitar a amistades
+
+RESOURCE ID: rsvp_reminder_min
+TEXT: min
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_join
+TEXT: <b>¡El Combate Max empieza ya!</b> ¡Únete a {0} Entrenadores más!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_join_singular
+TEXT: <b>¡El Combate Max empieza ya!</b> ¡Hora de unirse!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_start_soon
+TEXT: <b>¡El Combate Max comienza pronto!</b> ¡Prepárate junto a {1} Entrenadores más!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_start_soon_singular
+TEXT: <b>¡El Combate Max comienza pronto!</b> ¡Prepárate!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_join
+TEXT: <b>¡El Combate Max de {0} Gigamax empieza ya!</b> ¡Únete a {1} Entrenadores más!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_join_singular
+TEXT: <b>¡El Combate Max de {0} Gigamax empieza ya!</b> ¡Hora de unirse!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_start_soon
+TEXT: <b>¡El Combate Max de {0} Gigamax comienza pronto!</b> ¡Prepárate junto a {1} Entrenadores más!
+
+RESOURCE ID: rsvp_reminder_notification_gmax_start_soon_singular
+TEXT: <b>¡El Combate Max de {0} Gigamax comienza pronto!</b> ¡Prepárate!
+
+RESOURCE ID: rsvp_reminder_notification_join_button
+TEXT: UNIRSE
+
+RESOURCE ID: rsvp_reminder_notification_raid_egg_start_soon
+TEXT: <b>¡El Huevo de incursión va a eclosionar pronto!</b> ¡Prepárate junto a {0} Entrenadores más!
+
+RESOURCE ID: rsvp_reminder_notification_raid_egg_start_soon_singular
+TEXT: <b>¡El Huevo de incursión va a eclosionar pronto!</b> ¡Prepárate!
+
+RESOURCE ID: rsvp_reminder_notification_raid_join
+TEXT: <b>¡La incursión de {0} empieza ya!</b> ¡Únete a {1} Entrenadores más!
+
+RESOURCE ID: rsvp_reminder_notification_raid_join_singular
+TEXT: <b>¡La incursión empieza ya!</b> ¡Hora de unirse!
+
+RESOURCE ID: rsvp_reminder_notification_raid_start_soon
+TEXT: <b>¡La incursión de {0} comienza pronto!</b> ¡Prepárate junto a {1} Entrenadores más!
+
+RESOURCE ID: rsvp_reminder_notification_raid_start_soon_singular
+TEXT: <b>¡La incursión comienza pronto!</b> ¡Prepárate!
+
+RESOURCE ID: rsvp_tooltip_nearby_menu
+TEXT: Ver para programar una hora para asistir a una incursión.
+
+RESOURCE ID: rsvp_tooltip_rsvp_button
+TEXT: ¡Selecciona una hora para asistir a una incursión!
+
+RESOURCE ID: rsvp_tooltip_top_level
+TEXT: Novedad: ¡Programa incursiones!
+
+RESOURCE ID: rsvp_topper_join
+TEXT: Unirse
+
+RESOURCE ID: rsvp_tutorial_body
+TEXT: ¡Selecciona una hora para completar una incursión futura junto a otros Entrenadores! Si confirmas tu asistencia a una incursión, recibirás una notificación cuando vaya a comenzar.
+
+RESOURCE ID: rsvp_tutorial_title
+TEXT: Confirma tu asistencia a una incursión
 
 RESOURCE ID: scrolls_cup_great_title
 TEXT: Copa Manuscrito: Edición Liga Super Ball
@@ -868,8 +1115,92 @@ TEXT: Fortaleza y Maestría (5/5)
 RESOURCE ID: season_gbl_forecast_title_18
 TEXT: Fortaleza y Maestría de Pokémon GO
 
+RESOURCE ID: social_planner_cannot_change_active_timeslots_key
+TEXT: Unable to change time slot as no time slots are available
+
+RESOURCE ID: social_planner_conflict_disclaimer_text_key
+TEXT: You have a time conflict.
+
+RESOURCE ID: social_planner_detail_other_trainers
+TEXT: {0} Entrenadores más
+
+RESOURCE ID: social_planner_error_rsvp_failure
+TEXT: Error. Inténtalo de nuevo.
+
+RESOURCE ID: social_planner_error_rsvp_max_limit
+TEXT: Se ha alcanzado el número máximo de confirmaciones de asistencia.
+
+RESOURCE ID: social_planner_error_rsvp_missing
+TEXT: Error. No se ha encontrado la confirmación.
+
+RESOURCE ID: social_planner_error_timeslot_passed
+TEXT: Esta hora ya no está disponible.
+
+RESOURCE ID: social_planner_error_timeslot_passed_no_edits
+TEXT: No puedes cambiar tu hora de asistencia porque ya ha comenzado.
+
+RESOURCE ID: social_planner_leave_rsvp_modal_subtitle_key
+TEXT: Saldrás del grupo y no podrás recibir recordatorios para unirte a este combate.
+
+RESOURCE ID: social_planner_leave_rsvp_modal_title_key
+TEXT: ¿Seguro que no quieres unirte al combate?
+
+RESOURCE ID: social_planner_leave_rsvp_success_toast_key
+TEXT: Has cancelado tu asistencia.
+
+RESOURCE ID: social_planner_leave_rsvp_text_key
+TEXT: Cancelar asistencia
+
+RESOURCE ID: social_planner_no_more_timeslots_key
+TEXT: No more available timeslots.
+
+RESOURCE ID: social_planner_rsvp_friends_list_empty
+TEXT: La lista de amistades está vacía
+
+RESOURCE ID: social_planner_rsvp_friends_list_title
+TEXT: Invitar a {0} amistades
+
+RESOURCE ID: social_planner_rsvp_going_count
+TEXT: Confirmados: {0}
+
+RESOURCE ID: social_planner_rsvp_going_text_key
+TEXT: Voy a ir
+
+RESOURCE ID: social_planner_rsvp_invite_sent_confirmation
+TEXT: ¡Invitación enviada!
+
+RESOURCE ID: social_planner_rsvp_local_only_disclaimer
+TEXT: You'll need to be nearby to defeat this Raid Boss.
+
+RESOURCE ID: social_planner_rsvp_maybe_count
+TEXT: Dudosos: {0}
+
+RESOURCE ID: social_planner_rsvp_maybe_text_key
+TEXT: Quizás vaya
+
+RESOURCE ID: social_planner_rsvp_not_going_text_key
+TEXT: No voy a ir
+
+RESOURCE ID: social_planner_time_conflict_disclaimer_title_key
+TEXT: Conflicto de programación
+
+RESOURCE ID: social_planner_timeslot_friend_attending_key_duo
+TEXT: Asistentes: {0} y {1}
+
+RESOURCE ID: social_planner_timeslot_friend_attending_key_multiple
+TEXT: Asistentes: {0} y {1} amistades más
+
+RESOURCE ID: social_planner_timeslot_friend_attending_key_singular
+TEXT: Asistentes: {0}
+
+RESOURCE ID: social_planner_timetable_gui_title_key
+TEXT: Elige una hora para combatir
+
 RESOURCE ID: spawn_fuecoco
 TEXT: ¡Están apareciendo más Fuecoco en estado salvaje!
+
+RESOURCE ID: spawn_totodile
+TEXT: ¡Están apareciendo más Totodile en estado salvaje!
 
 RESOURCE ID: stamp_rally_achievement_header
 TEXT: Achievement
@@ -951,10 +1282,22 @@ TEXT: <b>Incluye:</b>
 • Una investigación temporal que tiene como recompensa 50 000 PX y 50 000 Polvos Estelares
 • ¡Y mucho más!
 
+RESOURCE ID: text_rewards_key_catch_mastery_archen
+TEXT: <b>Recompensas incluidas:</b>
+• 40 encuentros con Archen
+• Poké Balls y bayas
+• 12 000 PX y 3000 Polvos Estelares
+
 RESOURCE ID: text_rewards_key_cd_fuecoco25
 TEXT: <b>Recompensas incluidas:</b>
 • Artículos prémium dentro del juego, como un Pase de combate prémium, una MT de ataque cargado y Caramelos Raros
 • Encuentros con Fuecoco con un fondo especial
+• ¡Y mucho más!
+
+RESOURCE ID: text_rewards_key_cdc_totodile25
+TEXT: <b>Recompensas incluidas:</b>
+• Artículos prémium dentro del juego, como un Pase de combate prémium, una MT de ataque cargado y Caramelos Raros
+• Encuentros con Totodile con un fondo especial
 • ¡Y mucho más!
 
 RESOURCE ID: text_rewards_key_ffsr0325
@@ -1030,6 +1373,9 @@ TEXT: <b>Incluye:</b>
 RESOURCE ID: ticket_fuecoco_cd
 TEXT: La entrada para la investigación especial "A crocapella" está disponible en la tienda
 
+RESOURCE ID: ticket_totodile_cdc
+TEXT: Las entradas para la historia de investigación especial "Clásicos del Día de la Comunidad: Totodile" están disponibles en la tienda
+
 RESOURCE ID: time_span_hr
 TEXT: 1 hour
 
@@ -1062,6 +1408,78 @@ TEXT: Artículos que posees
 
 RESOURCE ID: tips_dont_own_message_title
 TEXT: No tienes ninguno de estos artículos.
+
+RESOURCE ID: tr_archen_mastery_catch_kabuto
+TEXT: Captura {0} Kabuto
+
+RESOURCE ID: tr_archen_mastery_catch_omanyte
+TEXT: Captura {0} Omanyte
+
+RESOURCE ID: tr_archen_mastery_mar2025
+TEXT: Investigación temporal de Objetivo de captura: Archen
+
+RESOURCE ID: tr_archen_mastery_mar2025_0
+TEXT: Investigación temporal de Objetivo de captura: Archen (1/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_1
+TEXT: Investigación temporal de Objetivo de captura: Archen (2/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_2
+TEXT: Investigación temporal de Objetivo de captura: Archen (3/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_3
+TEXT: Investigación temporal de Objetivo de captura: Archen (4/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_4
+TEXT: Investigación temporal de Objetivo de captura: Archen (5/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_5
+TEXT: Investigación temporal de Objetivo de captura: Archen (6/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_6
+TEXT: Investigación temporal de Objetivo de captura: Archen (7/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_7
+TEXT: Investigación temporal de Objetivo de captura: Archen (8/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_8
+TEXT: Investigación temporal de Objetivo de captura: Archen (9/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_9
+TEXT: Investigación temporal de Objetivo de captura: Archen (10/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025
+TEXT: Investigación temporal prémium de Objetivo de captura: Archen
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_0
+TEXT: Investigación temporal prémium de Objetivo de captura: Archen (1/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_1
+TEXT: Investigación temporal prémium de Objetivo de captura: Archen (2/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_2
+TEXT: Investigación temporal prémium de Objetivo de captura: Archen (3/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_3
+TEXT: Investigación temporal prémium de Objetivo de captura: Archen (4/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_4
+TEXT: Investigación temporal prémium de Objetivo de captura: Archen (5/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_5
+TEXT: Investigación temporal prémium de Objetivo de captura: Archen (6/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_6
+TEXT: Investigación temporal prémium de Objetivo de captura: Archen (7/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_7
+TEXT: Investigación temporal prémium de Objetivo de captura: Archen (8/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_8
+TEXT: Investigación temporal prémium de Objetivo de captura: Archen (9/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_9
+TEXT: Investigación temporal prémium de Objetivo de captura: Archen (10/10)
 
 RESOURCE ID: tr_kr2025_retention_march_to_may_desc
 TEXT: Investigación temporal de Sigamos adelante

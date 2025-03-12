@@ -1,3 +1,6 @@
+RESOURCE ID: about_this_stamp_rally
+TEXT: このスタンプラリーについて
+
 RESOURCE ID: additional_xl_max_raid_singular
 TEXT: マックスバトルでもらえるアメXL1個追加
 
@@ -14,13 +17,13 @@ RESOURCE ID: age_confirm_contact
 TEXT: サポートに問い合わせる
 
 RESOURCE ID: age_confirm_explain
-TEXT: Trainers must meet certain age requirements to log in with this type of account. Please confirm your date of birth.
+TEXT: このタイプのアカウントを使用してログインするには、年齢制限の条件を満たしている必要があるため、生年月日の確認を行います。
 
 RESOURCE ID: age_confirm_fail
-TEXT: Sorry, you do not meet the <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">age requirements</a> to log in with this type of account and your account will be deleted pursuant to our Terms of Service. If you believe you are eligible to log in with this type of account, please contact us.
+TEXT: このタイプのアカウントに必要な<a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">年齢要件</a>を満たしていないため、利用規約に従いアカウントが削除されます。ログインできる要件を満たしていると思われる場合は、お問い合わせください。
 
 RESOURCE ID: age_confirm_popup_confirm
-TEXT: Are you sure? This cannot be changed after you submit.
+TEXT: 確定しますか？送信後変更はできません。
 
 RESOURCE ID: april_power_up_monthly_ticket_title
 TEXT: 強化チケット：4月
@@ -37,6 +40,15 @@ TEXT: 強化チケット：4月(3/4)
 RESOURCE ID: april_power_up_monthly_ticket_title_4
 TEXT: 強化チケット：4月(4/4)
 
+RESOURCE ID: archen_mastery_mar2025
+TEXT: マスタリーシリーズ：アーケン
+
+RESOURCE ID: available_rsvp_inactive_button_desc
+TEXT: {0}に参加予定
+
+RESOURCE ID: available_rsvp_inactive_button_title
+TEXT: 予定を変更
+
 RESOURCE ID: avatar_hats_mustard
 TEXT: マスタード　帽子
 
@@ -52,17 +64,45 @@ TEXT: マスタード　トップス
 RESOURCE ID: avatar_shoes_mustard
 TEXT: マスタード　シューズ
 
+RESOURCE ID: batch_transfer_100_pokemon
+TEXT: {0} ★ 100% Pokémon
+
+RESOURCE ID: batch_transfer_last_more_pokemon
+TEXT: Your only {0}, {1}, and {2} more
+
+RESOURCE ID: batch_transfer_last_one_pokemon
+TEXT: Your only {0}
+
+RESOURCE ID: batch_transfer_last_two_pokemon
+TEXT: Your only {0} and {1}
+
 RESOURCE ID: bonus_cd_move_fuecoco
 TEXT: アチゲータをラウドボーンに進化させるとブラストバーンを覚えている
+
+RESOURCE ID: bonus_cd_move_totodile
+TEXT: アリゲイツをオーダイルに進化させるとハイドロカノンを覚えている
 
 RESOURCE ID: bonus_pokestop_sinnoh_stone_drop
 TEXT: ポケストップを回すとまれにシンオウのいしが出ることがある
 
 RESOURCE ID: cancel_send_button
-TEXT: DON'T SEND
+TEXT: 贈らない
 
 RESOURCE ID: cant_find_spawned_pokemon
-TEXT: Move closer to the stamp's location to encounter this Pokémon!
+TEXT: スタンプを集めた場所に近づいてください
+
+RESOURCE ID: collection_book_name
+TEXT: コレクション
+ブック
+
+RESOURCE ID: collection_paused
+TEXT: スタンプ集めを一時停止しました
+
+RESOURCE ID: collection_paused_short
+TEXT: 一時停止しました
+
+RESOURCE ID: collection_reactivated
+TEXT: スタンプ集めを再開しました！
 
 RESOURCE ID: combat_title_season_18
 TEXT: GOバトルリーグ：力と極み
@@ -70,8 +110,17 @@ TEXT: GOバトルリーグ：力と極み
 RESOURCE ID: community_day_fuecoco_event_name
 TEXT: コミュニティ・デイ：ホゲータ
 
+RESOURCE ID: community_day_totodile_event_name_cdc
+TEXT: コミュニティ・デイ復刻：ワニノコ
+
+RESOURCE ID: completed_stamp_collection_header
+TEXT: 完了済み
+
 RESOURCE ID: confirm_send_button
-TEXT: SEND
+TEXT: 贈る
+
+RESOURCE ID: details_banner
+TEXT: 詳細
 
 RESOURCE ID: dmax_battle_win_plural
 TEXT: ダイマックスバトルで{0}回勝つ
@@ -172,8 +221,14 @@ RESOURCE ID: event_datetime_range_key_aprilmonthly2025
 TEXT: 4月4日10:00AM～
 5月4日10:00AM
 
+RESOURCE ID: event_datetime_range_key_catch_mastery_archen
+TEXT: 3月16日10:00AM～8:00PM
+
 RESOURCE ID: event_datetime_range_key_cd_fuecoco25
 TEXT: 3月8日2:00PM～5:00PM
+
+RESOURCE ID: event_datetime_range_key_cdc_totodile25
+TEXT: 3月22日2:00PM～5:00PM
 
 RESOURCE ID: event_datetime_range_key_ffsr0325
 TEXT: 3月5日10:00AM～
@@ -197,6 +252,9 @@ TEXT: 5月4日10:00AM～
 
 RESOURCE ID: event_season18_name
 TEXT: 現在のシーズン：力と極み
+
+RESOURCE ID: event_time_header
+TEXT: イベント期間
 
 RESOURCE ID: filter_key_candy_km
 TEXT: アメ距離
@@ -233,6 +291,9 @@ TEXT: 発掘コレクションチャレンジ
 
 RESOURCE ID: fossil_museum_collection_challenge_07
 TEXT: 発掘コレクションチャレンジ
+
+RESOURCE ID: free_stamp_rally_completed_description
+TEXT: スタンプラリーを完了しました！スタンプは必要な数を超えて集め続けることもできます。
 
 RESOURCE ID: fuecoco_post_cd_extended_bonus
 TEXT: ホゲータコミュニティ・デイ：延長ボーナス
@@ -271,11 +332,21 @@ TEXT: Pokémon GO Fest 2025：
 RESOURCE ID: general1.ticket_cd_fuecoco25_title
 TEXT: ホゲータコミュニティ・デイチケット
 
+RESOURCE ID: general1.ticket_cdc_totodile25_title
+TEXT: ワニノココミュニティ・デイ復刻チケット
+
 RESOURCE ID: general2.ticket.7_aprilmonthly2025_title
 TEXT: 強化チケット：4月
 
 RESOURCE ID: general2.ticket.8_maymonthly2025_title
 TEXT: 強化チケット：5月
+
+RESOURCE ID: general2.ticket4.catch_mastery_archen
+TEXT: マスタリーシリーズ：アーケン
+プレミアムタイムチャレンジチケット
+
+RESOURCE ID: general_leave
+TEXT: キャンセルする
 
 RESOURCE ID: gf2020_content_link
 TEXT: グローバルなイベントに参加！ライブコンテンツをチェック！： <a href="https://pokemongolive.com/gofest">pokemongolive.com/gofest</a>
@@ -425,6 +496,12 @@ TEXT: Pass Points
 RESOURCE ID: item_event_pass_point_live_ops_04_name
 TEXT: Pass Points
 
+RESOURCE ID: item_event_ticket_04_desc_catch_mastery_archen
+TEXT: 現地時間2025年3月16日10:00AM～8:00PMにマスタリーシリーズ：アーケンプレミアムタイムチャレンジが行えるチケット。
+
+RESOURCE ID: item_event_ticket_04_details_catch_mastery_archen
+TEXT: このチケットは自動的に発動し3月16日にマスタリーシリーズ：アーケンプレミアムタイムチャレンジが行えるようになります。
+
 RESOURCE ID: item_event_ticket_10_desc_gofest2025ver1
 TEXT: 現地時間2025年6月28日・29日にPokémonGOFest2025：グローバルに参加することができるチケット。
 
@@ -466,14 +543,29 @@ TEXT: このチケットは自動的に発動し5月4日にボーナスとタイ
 RESOURCE ID: item_event_ticket_pink_desc_cd_fuecoco25
 TEXT: 現地時間2025年3月8日2:00PMからホゲータコミュニティ・デイのスペシャルリサーチを行うためのチケット。
 
+RESOURCE ID: item_event_ticket_pink_desc_cdc_totodile25
+TEXT: 現地時間2025年3月22日2:00PMからワニノココミュニティ・デイ復刻のスペシャルリサーチを行うためのチケット。
+
 RESOURCE ID: item_event_ticket_pink_details_cd_fuecoco25
 TEXT: このチケットは自動的に発動し3月8日に「ほのおワニポケモンを解明せよ！」スペシャルリサーチが行えるようになります。
 
+RESOURCE ID: item_event_ticket_pink_details_cdc_totodile25
+TEXT: このチケットは自動的に発動し3月22日にワニノココミュニティ・デイ復刻のスペシャルリサーチが行えるようになります。
+
+RESOURCE ID: item_postcard_inventory_desc_old
+TEXT: ポストカードを貼って自分やフレンドの足跡を残しておける手帳。
+
 RESOURCE ID: item_postcard_inventory_desc_stamp
-TEXT: A book to collect Postcards and Stamps from you and your friends' journeys.
+TEXT: ポストカードとスタンプを貼って自分やフレンドの足跡を残しておける手帳。
+
+RESOURCE ID: item_postcard_inventory_name_old
+TEXT: ポストカードブック
 
 RESOURCE ID: item_postcard_inventory_name_stamp
-TEXT: Collection Book
+TEXT: コレクションブック
+
+RESOURCE ID: last_pokemon_transfer_to_professor_confirmation
+TEXT: Do you really want to transfer your last {0}?
 
 RESOURCE ID: march_power_up_monthly_ticket_title
 TEXT: 強化チケット：3月
@@ -521,19 +613,83 @@ RESOURCE ID: meetup_check_in_research_title_spotlight
 TEXT: ミートアップチェックインタイムチャレンジ：スポットライトアワー
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-08T01:57:23.111663+00:00 for ja-JP
-at SHA 5e3e7a817eb
-Pipeline 3059880, job 38002285
-Patch from: 0.353.0-SHA-a88947a0-RC1, 0.351.0-SHA-2259cb4d-RC2, 0.351.0-SHA-a2cc2822-RC1
+TEXT: Built at 2025-03-12T00:16:36.692837+00:00 for ja-JP
+at SHA 505084fd5a2
+Pipeline 3069127, job 38142456
+Patch from: 0.351.0-SHA-f7106c82-RC1, 0.351.0-SHA-57275791-RC3, 0.353.0-SHA-3f590095-RC4
 
 RESOURCE ID: move_name_0468
 TEXT: フレアソング
 
+RESOURCE ID: name_sharing_preference_everyone
+TEXT: だれでも
+
+RESOURCE ID: name_sharing_preference_friends
+TEXT: フレンドのみ
+
+RESOURCE ID: name_sharing_preference_no_one
+TEXT: しない
+
+RESOURCE ID: nearby_active_reminder_header
+TEXT: アクティブなリマインダー
+
+RESOURCE ID: nearby_pokemon_gui_battle_header
+TEXT: 協力バトル
+
+RESOURCE ID: nearby_pokemon_gui_rsvp_header
+TEXT: 待ち合わせ
+
+RESOURCE ID: nearby_rsvp_invitations_header
+TEXT: 招待
+
+RESOURCE ID: nearby_rsvp_invite_accepted
+TEXT: 招待を受けた！
+
+RESOURCE ID: nearby_rsvp_invite_removed
+TEXT: 招待を受けなかった
+
+RESOURCE ID: nearby_rsvp_join
+TEXT: 待ち合わせ参加
+
+RESOURCE ID: nearby_rsvp_no_rsvps
+TEXT: 待ち合わせ参加を設定したバトルはありません
+
+RESOURCE ID: nearby_rsvp_reminders_header
+TEXT: リマインダー
+
+RESOURCE ID: nearby_rsvp_see_more
+TEXT: もっと見る({0})
+
+RESOURCE ID: nearby_tab_raids_ftue
+TEXT: 付近のようすがアップグレードされました！
+
+強力なボスポケモンをみんなで倒しましょう！
+
+RESOURCE ID: nearby_tab_routes_ftue
+TEXT: 付近のようすがアップグレードされました！
+
+ルートを歩いてごほうびをもらいましょう！
+
+RESOURCE ID: ongoing_stamp_collection_header
+TEXT: 開催中
+
+RESOURCE ID: pause_dialog_message
+TEXT: 一時停止しても、フレンドからスタンプを受け取ることはできます。フレンドから受け取りたくない場合は、設定画面でオフにします。
+
+RESOURCE ID: pause_dialog_subtitle
+TEXT: このラリー用にスタンプを集めることを止めます。コレクション画面からいつでも再開できます。
+
+RESOURCE ID: pause_dialog_title
+TEXT: 本当に一時停止してもいいですか？
+
 RESOURCE ID: pause_stamp_rally_button
-TEXT: PAUSE
+TEXT: 一時停止
 
 RESOURCE ID: photobomb_five_fuecoco
 TEXT: GOスナップショットでホゲータのサプライズ5回
+
+RESOURCE ID: photobomb_five_totodile
+TEXT: GOスナップショットでワニノコのサプライズ5回
 
 RESOURCE ID: pokedex_info_battle_elite_header
 TEXT: すごいわざマシンで覚えるわざ
@@ -546,8 +702,11 @@ RESOURCE ID: pokedex_info_battle_weak_header
 TEXT: 比較的
 弱い
 
+RESOURCE ID: pokemon_100_transfer_to_professor_confirmation
+TEXT: Do you really want to transfer this ★ 100% Pokémon?
+
 RESOURCE ID: pokemon_caught_stamp_rally
-TEXT: CAUGHT DURING A STAMP RALLY
+TEXT: スタンプラリー中に捕まえた
 
 RESOURCE ID: pokemon_desc_0646_0147
 TEXT: 未来に実現するポケモンと人間の理想の世界を守るため戦うといわれる。
@@ -560,6 +719,12 @@ TEXT: {0}のお知らせ機能を解除しました
 
 RESOURCE ID: pokemon_nearby_notification_adventure_sync_already_assigned_message
 TEXT: お知らせ機能は{0}に設定されています
+
+RESOURCE ID: post_cd_extended_bonus
+TEXT: ミュニティ・デイ：延長ボーナス
+
+RESOURCE ID: post_cdc_extended_bonus
+TEXT: ミュニティ・デイ復刻：延長ボーナス
 
 RESOURCE ID: powerful_potential_2025_event_name
 TEXT: パワーポテンシャル
@@ -635,8 +800,149 @@ TEXT: 最近観察されている不可思議な現象だが、これら伝説�
 RESOURCE ID: quest_title_season_17_9_dialogue_5
 TEXT: 準備が必要だな、%PLAYERNAME%。キュレムは簡単に見つけられるはずもない。ただ調査を重ねた先に出会える予感はある！
 
+RESOURCE ID: quest_title_totodile
+TEXT: コミュニティ・デイ復刻：
+ワニノコ
+
+RESOURCE ID: quest_title_totodile_0
+TEXT: コミュニティ・デイ復刻：
+ワニノコ(1/2)
+
+RESOURCE ID: quest_title_totodile_1
+TEXT: コミュニティ・デイ復刻：
+ワニノコ(2/2)
+
+RESOURCE ID: quest_totodile_catch_b
+TEXT: ワニノコを{0}匹捕まえる
+
 RESOURCE ID: raid_hour_rare_xl_candy_bonus
 TEXT: レイドアワーに5つ星レイドボスを捕まえてもらえるふしぎなアメXL1個確定（トレーナーレベル31以上）
+
+RESOURCE ID: raid_nearby_rsvp
+TEXT: 参加予定
+
+RESOURCE ID: raid_planner_join_this_rsvp
+TEXT: 設定する
+
+RESOURCE ID: raid_planner_rsvp_conflict_title
+TEXT: 参加予定を入れてもいいですか？
+
+RESOURCE ID: raid_planner_rsvp_conflict_warning
+TEXT: このバトルへの参加を確定すると、すでにある参加予定はキャンセルされます。
+
+RESOURCE ID: raid_planner_success_rsvp
+TEXT: 待ち合わせを設定しました！
+
+RESOURCE ID: raid_rsvp_bonus
+TEXT: RSVP'd to Raid
+
+RESOURCE ID: raid_sort_distance
+TEXT: 距離
+
+RESOURCE ID: raid_sort_level
+TEXT: 難しさ
+
+RESOURCE ID: raid_sort_people
+TEXT: ロビー待機人数
+
+RESOURCE ID: raid_sort_rsvps
+TEXT: 待ち合わせ人数
+
+RESOURCE ID: raid_sort_time
+TEXT: 開始までの時間
+
+RESOURCE ID: reactivate_button
+TEXT: 再開
+
+RESOURCE ID: reactivate_dialog_message
+TEXT: 他にも一時停止中のスタンプラリーがあります。再開してからスタンプ集めを始めてください。
+
+RESOURCE ID: reactivate_dialog_title
+TEXT: スタンプ集めを再開しますか？
+
+RESOURCE ID: rewards_banner
+TEXT: リワード
+
+RESOURCE ID: rsvp_attendance_preference_title
+TEXT: 待ち合わせ参加を共有：
+
+RESOURCE ID: rsvp_inactive_button_desc
+TEXT: {0}人 ({1})
+
+RESOURCE ID: rsvp_inactive_button_title
+TEXT: 時間を選ぶ
+
+RESOURCE ID: rsvp_invitation_notification_string_key
+TEXT: {0}さんから{1}({2})へ招待されました！
+
+RESOURCE ID: rsvp_invite_friends
+TEXT: フレンドを招待
+
+RESOURCE ID: rsvp_reminder_min
+TEXT: min
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_join
+TEXT: <b>マックスバトルが始まる！</b>トレーナー{1}人と参加！
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_join_singular
+TEXT: <b>マックスバトルが始まる！</b>参加しましょう！
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_start_soon
+TEXT: <b>マックスバトルがもうすぐ始まる！</b>トレーナー{1}人と参加準備！
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_start_soon_singular
+TEXT: <b>マックスバトルがもうすぐ始まる！</b>準備しましょう！
+
+RESOURCE ID: rsvp_reminder_notification_gmax_join
+TEXT: <b>キョダイマックス{0}のマックスバトルが始まる！</b>トレーナー{1}人と参加！
+
+RESOURCE ID: rsvp_reminder_notification_gmax_join_singular
+TEXT: <b>キョダイマックス{0}のマックスバトルが始まる！</b>参加しましょう！
+
+RESOURCE ID: rsvp_reminder_notification_gmax_start_soon
+TEXT: <b>キョダイマックス{0}のマックスバトルがもうすぐ始まる！</b>トレーナー{1}人と参加準備！
+
+RESOURCE ID: rsvp_reminder_notification_gmax_start_soon_singular
+TEXT: <b>キョダイマックス{0}のマックスバトルがもうすぐ始まる！</b>準備しましょう！
+
+RESOURCE ID: rsvp_reminder_notification_join_button
+TEXT: 参加する
+
+RESOURCE ID: rsvp_reminder_notification_raid_egg_start_soon
+TEXT: <b>タマゴがもうすぐ割れる！</b>トレーナー{0}人と参加準備！
+
+RESOURCE ID: rsvp_reminder_notification_raid_egg_start_soon_singular
+TEXT: <b>タマゴがもうすぐ割れる！</b>準備しましょう！
+
+RESOURCE ID: rsvp_reminder_notification_raid_join
+TEXT: <b>{0}のレイドが始まる！</b>トレーナー{1}人と参加！
+
+RESOURCE ID: rsvp_reminder_notification_raid_join_singular
+TEXT: <b>{0}のレイドが始まる！</b>参加しましょう！
+
+RESOURCE ID: rsvp_reminder_notification_raid_start_soon
+TEXT: <b>{0}のレイドがもうすぐ始まる！</b>トレーナー{1}人と参加準備！
+
+RESOURCE ID: rsvp_reminder_notification_raid_start_soon_singular
+TEXT: <b>{0}のレイドがもうすぐ始まる！</b>準備しましょう！
+
+RESOURCE ID: rsvp_tooltip_nearby_menu
+TEXT: 参加する時間が選べます
+
+RESOURCE ID: rsvp_tooltip_rsvp_button
+TEXT: 時間を選んで参加
+
+RESOURCE ID: rsvp_tooltip_top_level
+TEXT: 新機能：待ち合わせ！
+
+RESOURCE ID: rsvp_topper_join
+TEXT: 参加しよう！
+
+RESOURCE ID: rsvp_tutorial_body
+TEXT: 好きな時間を選んで参加の予定を入れると、開始前に通知を受け取ることができ、バトルへ参加がよりスムーズに行えます。
+
+RESOURCE ID: rsvp_tutorial_title
+TEXT: 待ち合わせ参加
 
 RESOURCE ID: safari_city_2025_milan_title
 TEXT: CitySafari：ミラノ2025
@@ -708,53 +1014,255 @@ TEXT: 力と極み (5/5)
 RESOURCE ID: season_gbl_forecast_title_18
 TEXT: Pokémon GO：力と極み
 
+RESOURCE ID: send_stamp_warning_modal_description_low_friend_level
+TEXT: 「{0}」に達していないフレンドであるため、このギフトを贈ってもスタンプは受け取れません。このギフトを贈りますか？
+
+RESOURCE ID: send_stamp_warning_modal_descripton_already_collected
+TEXT: フレンドがすでに持っているスタンプであるため、このギフトを贈ってもスタンプは受け取れません。このギフトを贈りますか？
+
+RESOURCE ID: send_stamp_warning_modal_descripton_opted_out
+TEXT: フレンドがスタンプを受け取らない設定をオンにしています。このギフトを贈りますか？
+
+RESOURCE ID: send_stamp_warning_modal_title
+TEXT: 本当にこのギフトを送りますか？
+
+RESOURCE ID: social_planner_cannot_change_active_timeslots_key
+TEXT: Unable to change time slot as no time slots are available
+
+RESOURCE ID: social_planner_conflict_disclaimer_text_key
+TEXT: You have a time conflict.
+
+RESOURCE ID: social_planner_detail_other_trainers
+TEXT: 他{0}人
+
+RESOURCE ID: social_planner_error_rsvp_failure
+TEXT: エラー発生。再度お試しください。
+
+RESOURCE ID: social_planner_error_rsvp_max_limit
+TEXT: 待ち合わせ数の上限に達しました
+
+RESOURCE ID: social_planner_error_rsvp_missing
+TEXT: エラー発生。予定が見つかりません。
+
+RESOURCE ID: social_planner_error_timeslot_passed
+TEXT: この時間枠はありません
+
+RESOURCE ID: social_planner_error_timeslot_passed_no_edits
+TEXT: すでに始まった予定であるため変更できません
+
+RESOURCE ID: social_planner_leave_rsvp_modal_subtitle_key
+TEXT: リマインダーと参加予定者のグループから削除されます
+
+RESOURCE ID: social_planner_leave_rsvp_modal_title_key
+TEXT: このバトルへの参加予定をキャンセルしてもいいですか？
+
+RESOURCE ID: social_planner_leave_rsvp_success_toast_key
+TEXT: 予定をキャンセルしました
+
+RESOURCE ID: social_planner_leave_rsvp_text_key
+TEXT: キャンセルする
+
+RESOURCE ID: social_planner_no_more_timeslots_key
+TEXT: No more available timeslots.
+
+RESOURCE ID: social_planner_rsvp_friends_list_empty
+TEXT: フレンドリストなし
+
+RESOURCE ID: social_planner_rsvp_friends_list_title
+TEXT: フレンド{0}人招待
+
+RESOURCE ID: social_planner_rsvp_going_count
+TEXT: {0}人が行く
+
+RESOURCE ID: social_planner_rsvp_going_text_key
+TEXT: 行く
+
+RESOURCE ID: social_planner_rsvp_invite_sent_confirmation
+TEXT: 招待状を送りました！
+
+RESOURCE ID: social_planner_rsvp_local_only_disclaimer
+TEXT: You'll need to be nearby to defeat this Raid Boss.
+
+RESOURCE ID: social_planner_rsvp_maybe_count
+TEXT: {0}人未定
+
+RESOURCE ID: social_planner_rsvp_maybe_text_key
+TEXT: 未定
+
+RESOURCE ID: social_planner_rsvp_not_going_text_key
+TEXT: 行かない
+
+RESOURCE ID: social_planner_time_conflict_disclaimer_title_key
+TEXT: バッティング
+
+RESOURCE ID: social_planner_timeslot_friend_attending_key_duo
+TEXT: {0}さん＆{1}さんが行く
+
+RESOURCE ID: social_planner_timeslot_friend_attending_key_multiple
+TEXT: {0}さん他{1}人が行く
+
+RESOURCE ID: social_planner_timeslot_friend_attending_key_singular
+TEXT: {0}さんが行く
+
+RESOURCE ID: social_planner_timetable_gui_title_key
+TEXT: 時間を選ぶ
+
 RESOURCE ID: spawn_fuecoco
 TEXT: ホゲータがより多く野生で出現
 
+RESOURCE ID: spawn_totodile
+TEXT: ワニノコがより多く野生で出現
+
+RESOURCE ID: stamp_and_open_gift_button
+TEXT: 開けてスタンプを押す
+
+RESOURCE ID: stamp_collection_poi_nearby_notification
+TEXT: {0}でスタンプが取得できます！
+
+RESOURCE ID: stamp_collection_reward_pokemon_flee_warning_body
+TEXT: この出会いから逃げると、再び出会うことができない可能性があります。
+
+RESOURCE ID: stamp_collection_reward_pokemon_flee_warning_title
+TEXT: この出会いから逃げてもいいですか？
+
+RESOURCE ID: stamp_collections_page_header
+TEXT: GOスタンプラリー
+
+RESOURCE ID: stamp_completed_description
+TEXT: スタンプをすべて集めました！
+
+RESOURCE ID: stamp_info_banner
+TEXT: スタンプ情報
+
+RESOURCE ID: stamp_page_tutorial_page_1_description
+TEXT: ポケストップ・ジムをめぐって集めるスタンプでスタンプシートを完成させる遊びです。
+
+RESOURCE ID: stamp_page_tutorial_page_1_header
+TEXT: スタンプラリーとは？
+
+RESOURCE ID: stamp_page_tutorial_page_2_description
+TEXT: スタンプラリーのポケストップ・ジムを訪れると、スタンプシートが表示されます。フォトディスクを回すとスタンプを受け取れます。
+
+RESOURCE ID: stamp_page_tutorial_page_2_header
+TEXT: どう集めるの？
+
+RESOURCE ID: stamp_page_tutorial_page_3_description
+TEXT: フレンドと一緒にスタンプを集められるスタンプラリーもあります。フレンドレベルが「{0}」以上のフレンドと、ギフトに含まれるスタンプを贈り合うことで、スタンプシートの完成を目指せます。
+
+RESOURCE ID: stamp_page_tutorial_page_3_header
+TEXT: フレンドと一緒にスタンプを集めよう！
+
+RESOURCE ID: stamp_page_tutorial_page_4_description
+TEXT: スタンプと一緒に他のリワードが獲得できるスタンプラリーもあります。スタンプをどんどん集めて、スタンプ以外のリワードも受け取りましょう。
+
+RESOURCE ID: stamp_page_tutorial_page_4_header
+TEXT: どんどん集めよう！
+
+RESOURCE ID: stamp_poi_details_location_info_header
+TEXT: どんな場所？
+
+RESOURCE ID: stamp_poi_details_location_info_unvisited
+TEXT: 訪れるとこの場所の詳細が表示されます
+
+RESOURCE ID: stamp_poi_details_received_from
+TEXT: {0}さんから贈られた
+
+RESOURCE ID: stamp_poi_details_unvisited
+TEXT: 未訪問
+
+RESOURCE ID: stamp_poi_details_visited_date
+TEXT: 行った日：{0}
+
+RESOURCE ID: stamp_progression
+TEXT: スタンプ集めの進捗
+
 RESOURCE ID: stamp_rally_achievement_header
-TEXT: Achievement
+TEXT: 実績
+
+RESOURCE ID: stamp_rally_completed_date
+TEXT: 完了した日：{0}
+
+RESOURCE ID: stamp_rally_end_time
+TEXT: {0}まで
 
 RESOURCE ID: stamp_rally_ends_on
-TEXT: Ends on: {0}
+TEXT: 終了：{0}
 
 RESOURCE ID: stamp_rally_expired_on
-TEXT: Finished on: {0}
+TEXT: {0}終了
 
 RESOURCE ID: stamp_rally_finishes_in
-TEXT: Finishes in: {0}
+TEXT: 終了まで：{0}
 
 RESOURCE ID: stamp_rally_item_reward_toast
-TEXT: Collect {0} stamps to receive rewards
+TEXT: スタンプ{0}個でゲット
 
 RESOURCE ID: stamp_rally_item_reward_toast_singular
-TEXT: Collect 1 stamp to receive rewards
+TEXT: スタンプ1個でゲット
 
 RESOURCE ID: stamp_rally_journal_entry_completion
-TEXT: Completed Stamp Rally: {0} at {1}
+TEXT: {0}スタンプラリーを{1}で完了した！
 
 RESOURCE ID: stamp_rally_journal_entry_progress
-TEXT: Collected stamp from {0} for Stamp Rally: {1}
+TEXT: {1}スタンプラリーのスタンプを{0}で集めた！
 
 RESOURCE ID: stamp_rally_journal_entry_reward
-TEXT: Received reward from Stamp Rally: {0}
+TEXT: {0}スタンプラリーでもらった！
 
 RESOURCE ID: stamp_rally_missed_reward_toast
-TEXT: Go to one of the stamp rally locations to claim this reward.
+TEXT: スタンプを集めた場所に行ってください
+
+RESOURCE ID: stamp_rally_no_expiration
+TEXT: 無期限のイベントです
 
 RESOURCE ID: stamp_rally_pokemon_item_reward_toast
-TEXT: Collect {0} stamps to encounter a Pokémon and receive other rewards
+TEXT: スタンプ{0}個でポケモンとの出会いを含むリワード
 
 RESOURCE ID: stamp_rally_pokemon_item_reward_toast_singular
-TEXT: Collect 1 stamp to encounter a Pokémon and receive other rewards
+TEXT: スタンプ1個でポケモンとの出会いを含むリワード
 
 RESOURCE ID: stamp_rally_pokemon_reward_toast
-TEXT: Collect {0} stamps to encounter a Pokémon
+TEXT: スタンプ{0}個で出会える
 
 RESOURCE ID: stamp_rally_pokemon_reward_toast_singular
-TEXT: Collect 1 stamp to encounter a Pokémon
+TEXT: スタンプ1個で出会える
+
+RESOURCE ID: stamp_reward_collected_description
+TEXT: リワードを受け取れます！
 
 RESOURCE ID: stamp_reward_toast
-TEXT: Get rewards for collecting stamps!
+TEXT: スタンプを一定数集めてゲット！
+
+RESOURCE ID: stamp_social_receive_tutorial_page_1_header
+TEXT: フレンドと一緒にスタンプを集めよう！
+
+RESOURCE ID: stamp_social_receive_tutorial_page_2_header
+TEXT: スタンプラリーとは？
+
+RESOURCE ID: stamp_social_receive_tutorial_page_3_description
+TEXT: 集めたスタンプはコレクションブック内のスタンプラリー画面で見ることができます。
+
+RESOURCE ID: stamp_social_receive_tutorial_page_3_header
+TEXT: コレクションブック
+
+RESOURCE ID: stamp_social_send_tutorial_page_1_description
+TEXT: このギフトは、スタンプラリー用のスタンプを含みます。実際に集めるだけでなく、スタンプを贈り合うことでもスタンプ集めを進めることができます。
+
+RESOURCE ID: stamp_social_send_tutorial_page_1_header
+TEXT: スタンプのあるカード
+
+RESOURCE ID: stamp_tutorial_page_1_description
+TEXT: スタンプアイコンの表示されているのがスタンプラリーに含まれるポケストップです。
+これらのポケストップをタップすると、スタンプシートが表示されます。
+
+RESOURCE ID: stamp_tutorial_page_1_header
+TEXT: スタンプラリーのポケストップ
+
+RESOURCE ID: stamp_tutorial_page_2_description
+TEXT: スタンプ集めが進むと、マップの右にその日中スタンプアイコンが表示されます。スタンプアイコンをタップすると、集めたスタンプを確認できます。
+
+RESOURCE ID: stamp_tutorial_page_2_header
+TEXT: 素早くチェック
 
 RESOURCE ID: story_mightandmastery_0_0
 TEXT: やぁ、%PLAYERNAME%！きみの助けが必要だ！
@@ -791,9 +1299,21 @@ TEXT: <b>もらえるもの：</b>
 ・50000XPと50000ほしのすながもらえるタイムチャレンジ
 ・その他
 
+RESOURCE ID: text_rewards_key_catch_mastery_archen
+TEXT: <b>もらえるもの：</b>
+・アーケンとの出会い40回
+・モンスターボールときのみ
+・12000XPと3000ほしのすな
+
 RESOURCE ID: text_rewards_key_cd_fuecoco25
 TEXT: <b>もらえるもの：</b>
 ・ホゲータ（スペシャル背景つき）との出会い
+・プレミアムバトルパス、わざマシンスペシャル、ふしぎなアメ
+・その他
+
+RESOURCE ID: text_rewards_key_cdc_totodile25
+TEXT: <b>もらえるもの：</b>
+・ワニノコ（スペシャル背景つき）との出会い
 ・プレミアムバトルパス、わざマシンスペシャル、ふしぎなアメ
 ・その他
 
@@ -879,29 +1399,32 @@ TEXT: <b>もらえるもの：</b>
 RESOURCE ID: ticket_fuecoco_cd
 TEXT: 「ほのおワニポケモンを解明せよ！」スペシャルリサーチのチケットがショップに登場
 
+RESOURCE ID: ticket_totodile_cdc
+TEXT: ワニノココミュニティ・デイ復刻スペシャルリサーチのチケットがショップに登場
+
 RESOURCE ID: time_span_hr
-TEXT: 1 hour
+TEXT: 1時間
 
 RESOURCE ID: time_span_hr_min
-TEXT: 1 hour 1 min
+TEXT: 1時間と1分
 
 RESOURCE ID: time_span_hr_mins
-TEXT: 1 hour {0} mins
+TEXT: 1時間と{0}分
 
 RESOURCE ID: time_span_hrs
-TEXT: {0} hours
+TEXT: {0}時間
 
 RESOURCE ID: time_span_hrs_min
-TEXT: {0} hours 1 min
+TEXT: {0}時間と1分
 
 RESOURCE ID: time_span_hrs_mins
-TEXT: {0} hours {1} mins
+TEXT: {0}時間と{1}分
 
 RESOURCE ID: time_span_min
-TEXT: 1 min
+TEXT: 1分
 
 RESOURCE ID: time_span_mins
-TEXT: {0} mins
+TEXT: {0}分
 
 RESOURCE ID: tips_avatar_showing_all
 TEXT: すべて表示
@@ -920,6 +1443,103 @@ TEXT: デイリータスク
 
 RESOURCE ID: title_event_pass_hourly_bonus_quest
 TEXT: 1時間タスク
+
+RESOURCE ID: total_stamps_collected
+TEXT: 計{0}個
+
+RESOURCE ID: tr_archen_mastery_catch_kabuto
+TEXT: カブトを{0}匹捕まえる
+
+RESOURCE ID: tr_archen_mastery_catch_omanyte
+TEXT: オムナイトを{0}匹捕まえる
+
+RESOURCE ID: tr_archen_mastery_mar2025
+TEXT: マスタリーシリーズ：アーケン
+タイムチャレンジ
+
+RESOURCE ID: tr_archen_mastery_mar2025_0
+TEXT: マスタリーシリーズ：アーケン
+タイムチャレンジ (1/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_1
+TEXT: マスタリーシリーズ：アーケン
+タイムチャレンジ (2/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_2
+TEXT: マスタリーシリーズ：アーケン
+タイムチャレンジ (3/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_3
+TEXT: マスタリーシリーズ：アーケン
+タイムチャレンジ (4/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_4
+TEXT: マスタリーシリーズ：アーケン
+タイムチャレンジ (5/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_5
+TEXT: マスタリーシリーズ：アーケン
+タイムチャレンジ (6/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_6
+TEXT: マスタリーシリーズ：アーケン
+タイムチャレンジ (7/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_7
+TEXT: マスタリーシリーズ：アーケン
+タイムチャレンジ (8/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_8
+TEXT: マスタリーシリーズ：アーケン
+タイムチャレンジ (9/10)
+
+RESOURCE ID: tr_archen_mastery_mar2025_9
+TEXT: マスタリーシリーズ：アーケン
+タイムチャレンジ (10/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025
+TEXT: マスタリーシリーズ：アーケン
+プレミアムタイムチャレンジ
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_0
+TEXT: マスタリーシリーズ：アーケン
+プレミアムタイムチャレンジ (1/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_1
+TEXT: マスタリーシリーズ：アーケン
+プレミアムタイムチャレンジ (2/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_2
+TEXT: マスタリーシリーズ：アーケン
+プレミアムタイムチャレンジ (3/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_3
+TEXT: マスタリーシリーズ：アーケン
+プレミアムタイムチャレンジ (4/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_4
+TEXT: マスタリーシリーズ：アーケン
+プレミアムタイムチャレンジ (5/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_5
+TEXT: マスタリーシリーズ：アーケン
+プレミアムタイムチャレンジ (6/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_6
+TEXT: マスタリーシリーズ：アーケン
+プレミアムタイムチャレンジ (7/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_7
+TEXT: マスタリーシリーズ：アーケン
+プレミアムタイムチャレンジ (8/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_8
+TEXT: マスタリーシリーズ：アーケン
+プレミアムタイムチャレンジ (9/10)
+
+RESOURCE ID: tr_archen_mastery_paid_mar2025_9
+TEXT: マスタリーシリーズ：アーケン
+プレミアムタイムチャレンジ (10/10)
 
 RESOURCE ID: tr_kr2025_retention_march_to_may_desc
 TEXT: レッツGO！タイムチャレンジ
