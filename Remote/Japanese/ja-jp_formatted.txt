@@ -143,16 +143,16 @@ TEXT: パートナーリサーチ：
 タリーズ (4/4)
 
 RESOURCE ID: batch_transfer_100_pokemon
-TEXT: {0} ★ 100% Pokémon
+TEXT: ★ 100%ポケモン{0}匹
 
 RESOURCE ID: batch_transfer_last_more_pokemon
-TEXT: Your only {0}, {1}, and {2} more
+TEXT: 唯一の{0}、{1}など（他{2}匹）
 
 RESOURCE ID: batch_transfer_last_one_pokemon
-TEXT: Your only {0}
+TEXT: 1匹だけ持っている{0}
 
 RESOURCE ID: batch_transfer_last_two_pokemon
-TEXT: Your only {0} and {1}
+TEXT: 1匹だけ持っている{0}と{1}
 
 RESOURCE ID: bonus_cd_move_fuecoco
 TEXT: アチゲータをラウドボーンに進化させるとブラストバーンを覚えている
@@ -170,8 +170,7 @@ RESOURCE ID: cant_find_spawned_pokemon
 TEXT: スタンプを集めた場所に近づいてください
 
 RESOURCE ID: collection_book_name
-TEXT: コレクション
-ブック
+TEXT: スクラップブック
 
 RESOURCE ID: collection_paused
 TEXT: スタンプ集めを一時停止しました
@@ -680,10 +679,10 @@ RESOURCE ID: item_postcard_inventory_name_old
 TEXT: ポストカードブック
 
 RESOURCE ID: item_postcard_inventory_name_stamp
-TEXT: コレクションブック
+TEXT: スクラップブック
 
 RESOURCE ID: last_pokemon_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer your last {0}?
+TEXT: 本当にこの最後の{0}を送ってもいいですか？
 
 RESOURCE ID: march_power_up_monthly_ticket_title
 TEXT: 強化チケット：3月
@@ -739,10 +738,10 @@ TEXT: 集中トレーニング：
 メガアブソルタイムチャレンジ
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-14T00:22:35.207378+00:00 for ja-JP
-at SHA 6df84a861f9
-Pipeline 3075082, job 38245654
-Patch from: 0.353.0-SHA-5b457122-RC3, 0.351.0-SHA-f7106c82-RC1, 0.351.0-SHA-2259cb4d-RC2
+TEXT: Built at 2025-03-14T19:38:29.808230+00:00 for ja-JP
+at SHA b6c33ec06cf
+Pipeline 3076949, job 38277811
+Patch from: 0.351.0-SHA-5f088d7d-RC4, 0.353.0-SHA-1da5e29c-RC2, 0.351.0-SHA-f7106c82-RC1
 
 RESOURCE ID: move_name_0468
 TEXT: フレアソング
@@ -827,7 +826,7 @@ RESOURCE ID: pokedex_info_battle_weak_header
 TEXT: 比較的弱い
 
 RESOURCE ID: pokemon_100_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer this ★ 100% Pokémon?
+TEXT: 本当にこの★ 100%ポケモンを送ってもいいですか？
 
 RESOURCE ID: pokemon_caught_stamp_rally
 TEXT: スタンプラリー中に捕まえた
@@ -1142,7 +1141,7 @@ RESOURCE ID: season_gbl_forecast_title_18
 TEXT: Pokémon GO：力と極み
 
 RESOURCE ID: send_stamp_warning_modal_description_low_friend_level
-TEXT: 「{0}」に達していないフレンドであるため、このギフトを贈ってもスタンプは受け取れません。このギフトを贈りますか？
+TEXT: 「{0}」に達していないため、このギフトを贈ってもスタンプは受け取れません。このギフトを贈りますか？
 
 RESOURCE ID: send_stamp_warning_modal_descripton_already_collected
 TEXT: フレンドがすでに持っているスタンプであるため、このギフトを贈ってもスタンプは受け取れません。このギフトを贈りますか？
@@ -1151,7 +1150,7 @@ RESOURCE ID: send_stamp_warning_modal_descripton_opted_out
 TEXT: フレンドがスタンプを受け取らない設定をオンにしています。このギフトを贈りますか？
 
 RESOURCE ID: send_stamp_warning_modal_title
-TEXT: 本当にこのギフトを送りますか？
+TEXT: 本当に送りますか？
 
 RESOURCE ID: social_planner_cannot_change_active_timeslots_key
 TEXT: 参加できる時間枠がないため変更できません
@@ -1262,19 +1261,19 @@ RESOURCE ID: stamp_info_banner
 TEXT: スタンプ情報
 
 RESOURCE ID: stamp_page_tutorial_page_1_description
-TEXT: ポケストップ・ジムをめぐって集めるスタンプでスタンプシートを完成させる遊びです。
+TEXT: 特定のポケストップ・ジムでスタンプを集める遊びです。
 
 RESOURCE ID: stamp_page_tutorial_page_1_header
 TEXT: スタンプラリーとは？
 
 RESOURCE ID: stamp_page_tutorial_page_2_description
-TEXT: スタンプラリーのポケストップ・ジムを訪れると、スタンプシートが表示されます。フォトディスクを回すとスタンプを受け取れます。
+TEXT: スタンプラリーが行われているポケストップ・ジムを訪れると、スタンプシートが表示されます。ガイドに従ってスタンプを押します。
 
 RESOURCE ID: stamp_page_tutorial_page_2_header
 TEXT: どう集めるの？
 
 RESOURCE ID: stamp_page_tutorial_page_3_description
-TEXT: フレンドと一緒にスタンプを集められるスタンプラリーもあります。フレンドレベルが「{0}」以上のフレンドと、ギフトに含まれるスタンプを贈り合うことで、スタンプシートの完成を目指せます。
+TEXT: フレンドの助けを借りてスタンプを集められるスタンプラリーもあります。フレンドレベルが「{0}」以上であれば、ギフトに含まれるスタンプを受け取ることができます。
 
 RESOURCE ID: stamp_page_tutorial_page_3_header
 TEXT: フレンドと一緒にスタンプを集めよう！
@@ -1367,13 +1366,13 @@ RESOURCE ID: stamp_social_receive_tutorial_page_2_header
 TEXT: スタンプラリーとは？
 
 RESOURCE ID: stamp_social_receive_tutorial_page_3_description
-TEXT: 集めたスタンプはコレクションブック内のスタンプラリー画面で見ることができます。
+TEXT: 集めたスタンプはスクラップブック内のスタンプラリー画面で見ることができます。
 
 RESOURCE ID: stamp_social_receive_tutorial_page_3_header
-TEXT: コレクションブック
+TEXT: スクラップブック
 
 RESOURCE ID: stamp_social_send_tutorial_page_1_description
-TEXT: このギフトは、スタンプラリー用のスタンプを含みます。実際に集めるだけでなく、スタンプを贈り合うことでもスタンプ集めを進めることができます。
+TEXT: このギフトは、スタンプラリー用のスタンプを含みます。フレンドがどこにいても、このギフトを受け取るとスタンプ集めが進みます。
 
 RESOURCE ID: stamp_social_send_tutorial_page_1_header
 TEXT: スタンプのあるカード
@@ -1386,7 +1385,7 @@ RESOURCE ID: stamp_tutorial_page_1_header
 TEXT: スタンプラリーのポケストップ
 
 RESOURCE ID: stamp_tutorial_page_2_description
-TEXT: スタンプ集めが進むと、マップの右にその日中スタンプアイコンが表示されます。スタンプアイコンをタップすると、集めたスタンプを確認できます。
+TEXT: スタンプ集めを開始すると、マップ右側のメニューにスタンプアイコンが表示されます。スタンプアイコンをタップして進捗を確認できます。
 
 RESOURCE ID: stamp_tutorial_page_2_header
 TEXT: 素早くチェック
