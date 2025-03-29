@@ -32,6 +32,12 @@ TEXT: 이 유형의 계정으로 로그인하는 데 필요한 <a href="https://
 RESOURCE ID: age_confirm_popup_confirm
 TEXT: 확정하겠습니까? 보낸 후 수정할 수 없습니다.
 
+RESOURCE ID: april_fool_pokeball_tappable_event
+TEXT: 몬스터볼??
+
+RESOURCE ID: april_fool_pokeball_tappable_today_view
+TEXT: 몬스터볼이 맵에 출현!
+
 RESOURCE ID: archen_mastery_mar2025
 TEXT: 마스터리 시리즈: 아켄
 
@@ -108,19 +114,19 @@ RESOURCE ID: badge_event_0111_title_03
 TEXT: 파트너 리서치: Tully’s (4/4)
 
 RESOURCE ID: batch_transfer_100_pokemon
-TEXT: {0} ★ 100% Pokémon
+TEXT: ★ 100% 포켓몬 {0}마리
 
 RESOURCE ID: batch_transfer_last_more_pokemon
-TEXT: Your only {0}, {1}, and {2} more
+TEXT: 1마리만 있는 {0}, {1} 그 외 {2}마리
 
 RESOURCE ID: batch_transfer_last_more_pokemon_singular
-TEXT: Your only {0}, {1}, and 1 more
+TEXT: 1마리만 있는 {0}, {1} 그 외 1마리
 
 RESOURCE ID: batch_transfer_last_one_pokemon
-TEXT: Your only {0}
+TEXT: 1마리만 있는 {0}
 
 RESOURCE ID: batch_transfer_last_two_pokemon
-TEXT: Your only {0} and {1}
+TEXT: 1마리만 있는 {0}(와)과 {1}
 
 RESOURCE ID: bonus_cd_move_fuecoco
 TEXT: 악뜨거를 라우드본으로 진화시키면 블라스트번을 배운다
@@ -236,6 +242,9 @@ TEXT: 물가 컬렉션 챌린지
 RESOURCE ID: details_banner
 TEXT: DETAILS
 
+RESOURCE ID: details_link_key
+TEXT: 자세한 내용은 <a href="https://pokemongolive.com/ko/news/">웹사이트</a>에서 확인해 주세요.
+
 RESOURCE ID: dmax_raikou_max_battles
 TEXT: 다이맥스한 라이코가 맥스배틀에 출현
 
@@ -340,8 +349,24 @@ RESOURCE ID: event_datetime_range_key_stunning_styles
 TEXT: 4월 3일 10:00~
 4월 7일 20:00
 
+RESOURCE ID: event_datetime_range_key_tyrogue0425
+TEXT: 4월 6일 14:00 ~ 17:00
+
+RESOURCE ID: event_pass_micro_action_modal_desc_ab_test_disclaimer
+TEXT: Earn points to increase your rank and unlock rewards. You can earn points by completing Pass Tasks or the various accomplishments listed here.
+
+Any rewards you earn for completing a Pass Task will be awarded as soon as you finish the task.
+
+<b>The GO Pass feature is currently being tested, and both the free and paid versions of the GO Pass and its rewards can only be earned and claimed in the parts of the world that are eligible for the test.</b>
+
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_99
 TEXT: 랭크99에서 리워드
+
+RESOURCE ID: event_pass_premium_reward_banner_bottom_text_generic_rank
+TEXT: Awarded at Rank {0}
+
+RESOURCE ID: event_pass_reward_preview_upsell_description
+TEXT: 패스 디럭스로 받을 수 있는 리워드입니다.
 
 RESOURCE ID: firstcatch_experience_3x
 TEXT: 3× 하루 중 첫 1마리 잡았을 때 받을 수 있는 XP
@@ -460,6 +485,9 @@ TEXT: 컬러 페스티벌 프리미엄 시간제한 리서치 티켓
 RESOURCE ID: general1.ticket._gofest2025ver1_title
 TEXT: Pokémon GO Fest 2025: 글로벌 티켓
 
+RESOURCE ID: general1.ticket._tyrogue0425_title
+TEXT: 배루키 부화데이 프리미엄 시간제한 리서치 티켓
+
 RESOURCE ID: general1.ticket4._mar2025_deep_depths
 TEXT: 딥 뎁스 프리미엄 시간제한 리서치 티켓
 
@@ -525,6 +553,9 @@ TEXT: 복슬 파이터 스페셜리서치에 참가할 수 있는 티켓
 RESOURCE ID: item_event_ticket_evergreen_desc_foc_mar25
 TEXT: 현지시간 2025년 3월 13일 10시 ~ 3월 17일 20시에 컬러 페스티벌 프리미엄 시간제한 리서치를 진행할 수 있는 티켓.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_tyrogue0425
+TEXT: 현지시간 2025년 4월 6일 17시까지 배루키 부화데이 프리미엄 시간제한 리서치를 진행할 수 있는 티켓.
+
 RESOURCE ID: item_event_ticket_evergreen_details_bugout0325
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 3월 26일에 벌레타입 포켓몬 프리미엄 시간제한 리서치가 진행됩니다.
 
@@ -533,6 +564,9 @@ TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2025년 3월 5일�
 
 RESOURCE ID: item_event_ticket_evergreen_details_foc_mar25
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2025년 3월 13일에 컬러 페스티벌 프리미엄 시간제한 리서치를 손에 넣을 수 있습니다.
+
+RESOURCE ID: item_event_ticket_evergreen_details_tyrogue0425
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 4월 6일에 배루키 부화데이 프리미엄 시간제한 리서치가 진행됩니다.
 
 RESOURCE ID: item_event_ticket_gray_desc_megaabsolraidday
 TEXT: 현지시간 2025년 3월 23일 14시~17시에 보너스를 받기 위한 티켓.
@@ -582,6 +616,9 @@ TEXT: A book for collecting Postcards and stamps from your and your friends’ j
 RESOURCE ID: item_postcard_inventory_name_stamp
 TEXT: Scrapbook
 
+RESOURCE ID: items_picked_up
+TEXT: 뭔가 주웠다!
+
 RESOURCE ID: kr_cherryblossom_festival_2025_tag
 TEXT: 봄꽃축제
 
@@ -613,121 +650,121 @@ RESOURCE ID: kr_spring_festival_mar2025_cc_2
 TEXT: 2025 봄꽃축제 컬렉션 챌린지2
 
 RESOURCE ID: last_pokemon_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer your only {0}?
+TEXT: 정말로 1마리밖에 없는 {0}(을)를 보내겠습니까
 
 RESOURCE ID: make_good_kyurem_title_001
-TEXT: Encounter: 1 Kyurem
+TEXT: 만남: 큐레무1
 
 RESOURCE ID: make_good_kyurem_title_002
-TEXT: Encounter: 2 Kyurem
+TEXT: 만남: 큐레무2
 
 RESOURCE ID: make_good_kyurem_title_003
-TEXT: Encounter: 3 Kyurem
+TEXT: 만남: 큐레무3
 
 RESOURCE ID: make_good_kyurem_title_004
-TEXT: Encounter: 4 Kyurem
+TEXT: 만남: 큐레무4
 
 RESOURCE ID: make_good_kyurem_title_005
-TEXT: Encounter: 5 Kyurem
+TEXT: 만남: 큐레무5
 
 RESOURCE ID: make_good_kyurem_title_006
-TEXT: Encounter: 6 Kyurem
+TEXT: 만남: 큐레무6
 
 RESOURCE ID: make_good_kyurem_title_007
-TEXT: Encounter: 7 Kyurem
+TEXT: 만남: 큐레무7
 
 RESOURCE ID: make_good_kyurem_title_008
-TEXT: Encounter: 8 Kyurem
+TEXT: 만남: 큐레무8
 
 RESOURCE ID: make_good_kyurem_title_009
-TEXT: Encounter: 9 Kyurem
+TEXT: 만남: 큐레무9
 
 RESOURCE ID: make_good_kyurem_title_010
-TEXT: Encounter: 10 Kyurem
+TEXT: 만남: 큐레무10
 
 RESOURCE ID: make_good_kyurem_title_011
-TEXT: Encounter: 11 Kyurem
+TEXT: 만남: 큐레무11
 
 RESOURCE ID: make_good_kyurem_title_012
-TEXT: Encounter: 12 Kyurem
+TEXT: 만남: 큐레무12
 
 RESOURCE ID: make_good_reshiram_desc
-TEXT: Encounter: Reshiram, 2025
+TEXT: 만남: 레시라무2025
 
 RESOURCE ID: make_good_reshiram_title_001
-TEXT: Encounter: 1 Reshiram
+TEXT: 만남: 레시라무1
 
 RESOURCE ID: make_good_reshiram_title_002
-TEXT: Encounter: 2 Reshiram
+TEXT: 만남: 레시라무2
 
 RESOURCE ID: make_good_reshiram_title_003
-TEXT: Encounter: 3 Reshiram
+TEXT: 만남: 레시라무3
 
 RESOURCE ID: make_good_reshiram_title_004
-TEXT: Encounter: 4 Reshiram
+TEXT: 만남: 레시라무4
 
 RESOURCE ID: make_good_reshiram_title_005
-TEXT: Encounter: 5 Reshiram
+TEXT: 만남: 레시라무5
 
 RESOURCE ID: make_good_reshiram_title_006
-TEXT: Encounter: 6 Reshiram
+TEXT: 만남: 레시라무6
 
 RESOURCE ID: make_good_reshiram_title_007
-TEXT: Encounter: 7 Reshiram
+TEXT: 만남: 레시라무7
 
 RESOURCE ID: make_good_reshiram_title_008
-TEXT: Encounter: 8 Reshiram
+TEXT: 만남: 레시라무8
 
 RESOURCE ID: make_good_reshiram_title_009
-TEXT: Encounter: 9 Reshiram
+TEXT: 만남: 레시라무9
 
 RESOURCE ID: make_good_reshiram_title_010
-TEXT: Encounter: 10 Reshiram
+TEXT: 만남: 레시라무10
 
 RESOURCE ID: make_good_reshiram_title_011
-TEXT: Encounter: 11 Reshiram
+TEXT: 만남: 레시라무11
 
 RESOURCE ID: make_good_reshiram_title_012
-TEXT: Encounter: 12 Reshiram
+TEXT: 만남: 레시라무12
 
 RESOURCE ID: make_good_zekrom_desc
-TEXT: Encounter: Zekrom, 2025
+TEXT: 만남: 제크로무2025
 
 RESOURCE ID: make_good_zekrom_title_001
-TEXT: Encounter: 1 Zekrom
+TEXT: 만남: 제크로무1
 
 RESOURCE ID: make_good_zekrom_title_002
-TEXT: Encounter: 2 Zekrom
+TEXT: 만남: 제크로무2
 
 RESOURCE ID: make_good_zekrom_title_003
-TEXT: Encounter: 3 Zekrom
+TEXT: 만남: 제크로무3
 
 RESOURCE ID: make_good_zekrom_title_004
-TEXT: Encounter: 4 Zekrom
+TEXT: 만남: 제크로무4
 
 RESOURCE ID: make_good_zekrom_title_005
-TEXT: Encounter: 5 Zekrom
+TEXT: 만남: 제크로무5
 
 RESOURCE ID: make_good_zekrom_title_006
-TEXT: Encounter: 6 Zekrom
+TEXT: 만남: 제크로무6
 
 RESOURCE ID: make_good_zekrom_title_007
-TEXT: Encounter: 7 Zekrom
+TEXT: 만남: 제크로무7
 
 RESOURCE ID: make_good_zekrom_title_008
-TEXT: Encounter: 8 Zekrom
+TEXT: 만남: 제크로무8
 
 RESOURCE ID: make_good_zekrom_title_009
-TEXT: Encounter: 9 Zekrom
+TEXT: 만남: 제크로무9
 
 RESOURCE ID: make_good_zekrom_title_010
-TEXT: Encounter: 10 Zekrom
+TEXT: 만남: 제크로무10
 
 RESOURCE ID: make_good_zekrom_title_011
-TEXT: Encounter: 11 Zekrom
+TEXT: 만남: 제크로무11
 
 RESOURCE ID: make_good_zekrom_title_012
-TEXT: Encounter: 12 Zekrom
+TEXT: 만남: 제크로무12
 
 RESOURCE ID: marshadow_global_sr_1
 TEXT: 유니크 섀도(1/6)
@@ -775,10 +812,10 @@ RESOURCE ID: mega_audino_tr_april_2025_title
 TEXT: 메가다부니 레이드 데이 시간제한 리서치
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-27T00:47:29.638228+00:00 for ko-KR
-at SHA 25cf3b1768c
-Pipeline 3108639, job 38801333
-Patch from: 0.355.0-SHA-386e061f-RC4, 0.353.1-SHA-59d42ab9-RC2
+TEXT: Built at 2025-03-29T00:57:06.948095+00:00 for ko-KR
+at SHA 45adb4d06af
+Pipeline 3115670, job 38934988
+Patch from: 0.355.0-SHA-386e061f-RC4, 0.353.2-SHA-ef962be5-RC1
 
 RESOURCE ID: name_sharing_preference_everyone
 TEXT: 모든 사람
@@ -867,7 +904,7 @@ RESOURCE ID: pokedex_info_battle_weak_header
 TEXT: 비교적 약함
 
 RESOURCE ID: pokemon_100_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer this ★ 100% Pokémon?
+TEXT: 정마로 ★ 100% 포켓몬을 보내겠습니까?
 
 RESOURCE ID: pokemon_alert_label_off
 TEXT: 알림 끔
@@ -903,8 +940,17 @@ TEXT: 강력한 잠재력
 RESOURCE ID: powerful_potential_tr_name
 TEXT: 강력한 잠재력 시간제한 리서치
 
+RESOURCE ID: quest_catch_pokemon_legendary_ultra_beast_singular
+TEXT: Catch a Legendary Pokémon or an Ultra Beast
+
 RESOURCE ID: quest_fuecoco_catch_b
 TEXT: 뜨아거를 {0}마리 잡는다
+
+RESOURCE ID: quest_power_up_machop_plural
+TEXT: Power Up Machop {0} times
+
+RESOURCE ID: quest_send_gifts_days
+TEXT: {0}일 선물을 보낸다
 
 RESOURCE ID: quest_spin_india_plural
 TEXT: 인도 포켓스톱을 {0}개 돌린다
@@ -958,13 +1004,13 @@ RESOURCE ID: raid_planner_rsvp_conflict_title
 TEXT: 참가 예정을 넣으시겠습니까?
 
 RESOURCE ID: raid_planner_rsvp_conflict_warning
-TEXT: 이 배틀의 참가를 확정하면 기존에 있던 참가 예정은 취소됩니다.
+TEXT: 이 배틀의 참가를 확정하면 기존에 있던 참가 예정은 취소됩니다. 일정 간격은 {0}분보다 길게 있어야합니다.
 
 RESOURCE ID: raid_planner_success_rsvp
 TEXT: 일정 예약을 설정했습니다!
 
 RESOURCE ID: raid_rsvp_bonus
-TEXT: RSVP’d
+TEXT: 일정 예약 참가
 
 RESOURCE ID: raid_sort_distance
 TEXT: 거리
@@ -979,7 +1025,10 @@ RESOURCE ID: raid_sort_rsvps
 TEXT: 일정 예약 인원 수
 
 RESOURCE ID: raid_sort_time
-TEXT: 시작까지 시간
+TEXT: 종료까지 시간
+
+RESOURCE ID: reactivate_button
+TEXT: RESUME
 
 RESOURCE ID: reactivate_dialog_message
 TEXT: You have paused one or more stamp rallies at this PokéStop. You can resume a rally to continue collecting stamps for it.
@@ -1030,7 +1079,7 @@ RESOURCE ID: rsvp_invite_friends
 TEXT: 프렌드를 초대
 
 RESOURCE ID: rsvp_reminder_min
-TEXT:  min
+TEXT: 분
 
 RESOURCE ID: rsvp_reminder_notification_gmax_generic_join
 TEXT: <b>맥스배틀 시작!</b> 트레이너 {0}명과 참가!
@@ -1158,6 +1207,9 @@ TEXT: 티어2 GO패스 보너스
 RESOURCE ID: season_pass_milestone_bonus_title_03
 TEXT: 티어3 GO패스 보너스
 
+RESOURCE ID: season_pass_premium_rewards_desc_monthly
+TEXT: 랭크가 올라가면 리워드가 해제됩니다. 기간 내에 플레이해서 리워드를 받으세요.
+
 RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_april
 TEXT: GO패스 디럭스: 4월+10랭크
 
@@ -1169,6 +1221,12 @@ TEXT: GO패스 디럭스: 4월
 
 RESOURCE ID: season_pass_premium_track_title_may
 TEXT: GO패스 디럭스: 5월
+
+RESOURCE ID: season_pass_track_upgrade_header_description_100
+TEXT: Earn additional rewards and unlock a <b>Lucky Trinket</b> at Rank 100!
+
+RESOURCE ID: season_pass_track_upgrade_header_description_50
+TEXT: Earn additional rewards and unlock a <b>Lucky Trinket</b> at Rank 50!
 
 RESOURCE ID: send_stamp_warning_modal_description_low_friend_level
 TEXT: This Gift includes a stamp, but your friend won’t be able to receive it because you haven’t reached the {0} Friendship level yet. Do you still want to send this Gift?
@@ -1186,13 +1244,13 @@ RESOURCE ID: social_planner_cancel_upcoming_warning
 TEXT: Completing this battle will cancel your upcoming RSVP at this location.
 
 RESOURCE ID: social_planner_cannot_change_active_timeslots_key
-TEXT: Unable to change because no other time slots are available.
+TEXT: 참가할 수 있는 시간대가 없어 변경할 수 없습니다
 
 RESOURCE ID: social_planner_conflict_disclaimer_text_key
-TEXT: You have a schedule conflict.
+TEXT: 겹치는 일정이 있습니다
 
 RESOURCE ID: social_planner_detail_other_trainers
-TEXT: 기타 {0}명
+TEXT: 기타
 
 RESOURCE ID: social_planner_error_rsvp_failure
 TEXT: 에러 발생. 다시 시도해 주십시오.
@@ -1225,7 +1283,7 @@ RESOURCE ID: social_planner_leave_rsvp_text_key
 TEXT: 삭제한다
 
 RESOURCE ID: social_planner_no_more_timeslots_key
-TEXT: No more available time slots.
+TEXT: 시간대 없음
 
 RESOURCE ID: social_planner_rsvp_friends_list_empty
 TEXT: 친구리스트 없음
@@ -1243,7 +1301,7 @@ RESOURCE ID: social_planner_rsvp_invite_sent_confirmation
 TEXT: 초대장을 보냈습니다!
 
 RESOURCE ID: social_planner_rsvp_local_only_disclaimer
-TEXT: You’ll need to be nearby to defeat this Raid Boss.
+TEXT: 이 장소 가까이 가서 배틀해야합니다.
 
 RESOURCE ID: social_planner_rsvp_maybe_count
 TEXT: {0}명 미정
@@ -1605,6 +1663,12 @@ TEXT: <b>받을 수 있는 리워드:</b>
 - 6,000XP와 별의모래 3,000개
 - 기타
 
+RESOURCE ID: text_rewards_key_tyrogue0425
+TEXT: <b>받을 수 있는 리워드:</b>
+- 슈퍼 부화장치 1개
+- 별의조각 1개
+- 2,500 XP
+
 RESOURCE ID: ticket_fuecoco_cd
 TEXT: 불꽃악어포켓몬의 수수께끼를 풀어라! 스페셜리서치 티켓이 숍에 등장
 
@@ -1649,6 +1713,9 @@ TEXT: 카메라를 방해하는 것이 없는지 확인하고 조명을 확보�
 
 RESOURCE ID: titan_scan_validation_failure_reason_too_fast
 TEXT: 포켓스톱 주변을 천천히 걸어 다시 스캔을 해주십시오.
+
+RESOURCE ID: title_event_pass_weekly_bonus_quest
+TEXT: Weekly Tasks
 
 RESOURCE ID: tr_archen_mastery_catch_kabuto
 TEXT: 투구를 {0}마리 잡는다
@@ -1737,6 +1804,27 @@ TEXT: 딥 뎁스 프리미엄 시간제한 리서치
 RESOURCE ID: tr_gofest2025_global_earlybird
 TEXT: GO Fest 2025: Early Bird Timed Research
 
+RESOURCE ID: tr_kr2025_retention_cherryblossom_desc
+TEXT: 벚꽃 챌린지 시간제한 리서치
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title
+TEXT: 벚꽃 챌린지
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_00
+TEXT: 벚꽃 챌린지 시간제한 리서치(1/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_01
+TEXT: 벚꽃 챌린지 시간제한 리서치(2/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_02
+TEXT: 벚꽃 챌린지 시간제한 리서치(3/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_03
+TEXT: 벚꽃 챌린지 시간제한 리서치(4/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_04
+TEXT: 벚꽃 챌린지 시간제한 리서치(5/5)
+
 RESOURCE ID: tr_kr2025_retention_march_to_may_desc
 TEXT: 빨리빨리 GO GO 시간제한 리서치
 
@@ -1760,6 +1848,18 @@ TEXT: 빨리빨리 GO GO 시간제한 리서치(5/6)
 
 RESOURCE ID: tr_kr2025_retention_march_to_may_title_05
 TEXT: 빨리빨리 GO GO 시간제한 리서치(6/6)
+
+RESOURCE ID: tyrogue_hatch_event_name
+TEXT: 배루키 부화데이
+
+RESOURCE ID: tyrogue_hatch_free_tr_name
+TEXT: 배루키 부화데이 시간제한 리서치
+
+RESOURCE ID: tyrogue_hatch_lead_event_name
+TEXT: 배루키 부화데이 직전
+
+RESOURCE ID: tyrogue_hatch_tr_name
+TEXT: 배루키 부화데이 프리미엄 시간제한 리서치
 
 RESOURCE ID: win gmax_battle_plural
 TEXT: 거다이맥스 배틀에서 {0}회 이긴다

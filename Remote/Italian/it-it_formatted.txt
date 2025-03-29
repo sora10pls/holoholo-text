@@ -16,11 +16,17 @@ TEXT: Ci dispiace, ma non soddisfi i <a href="https://niantic.helpshift.com/hc/f
 RESOURCE ID: age_confirm_popup_confirm
 TEXT: Vuoi procedere? Non potrai modificarlo dopo l’invio.
 
+RESOURCE ID: april_fool_pokeball_tappable_event
+TEXT: Cos’è quella Poké Ball?
+
+RESOURCE ID: april_fool_pokeball_tappable_today_view
+TEXT: Delle Poké Ball stanno apparendo sulla mappa!
+
 RESOURCE ID: archen_mastery_mar2025
 TEXT: Obiettivo cattura: Archen
 
 RESOURCE ID: as_two_for_one_purchase
-TEXT: This purchase also includes the {0}.
+TEXT: Questo acquisto include anche: {0}.
 
 RESOURCE ID: available_rsvp_inactive_button_desc
 TEXT: Partecipa alle ore {0}
@@ -217,6 +223,9 @@ TEXT: Sfida di collezione “Evoluzioni sottomarine”
 RESOURCE ID: details_banner
 TEXT: DETTAGLI
 
+RESOURCE ID: details_link_key
+TEXT: Per ulteriori informazioni, visita il <a href="https://pokemongolive.com/it/news/">sito</a>.
+
 RESOURCE ID: dmax_raikou_max_battles
 TEXT: Raikou dynamaxizzato sta apparendo nelle Lotte Dynamax
 
@@ -315,8 +324,24 @@ RESOURCE ID: event_datetime_range_key_stunning_styles
 TEXT: Dal 3 Aprile alle 10:00
 al 7 aprile alle 20:00
 
+RESOURCE ID: event_datetime_range_key_tyrogue0425
+TEXT: 6 Aprile dalle 14:00 alle 17:00
+
+RESOURCE ID: event_pass_micro_action_modal_desc_ab_test_disclaimer
+TEXT: Ottieni punti per salire di livello e sbloccare ricompense. Puoi ottenere punti completando le missioni biglietto o gli obiettivi elencati qui.
+
+Qualsiasi ricompensa ottenuta completando missioni biglietto ti verrà assegnata non appena concluderai la missione.
+
+<b>La funzione biglietto GO è ancora in fase di test; sia la versione gratuita che quella a pagamento e le relative ricompense possono essere ottenute e riscosse nelle aree del mondo che partecipano al test.</b>
+
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_99
 TEXT: Si ottiene al livello 99
+
+RESOURCE ID: event_pass_premium_reward_banner_bottom_text_generic_rank
+TEXT: Si ottiene al livello {0}
+
+RESOURCE ID: event_pass_reward_preview_upsell_description
+TEXT: Questa ricompensa è disponibile nella versione deluxe del biglietto.
 
 RESOURCE ID: event_time_header
 TEXT: DURATA DELL’EVENTO
@@ -384,6 +409,9 @@ TEXT: Biglietto per la ricerca a tempo premium della Festa dei colori
 RESOURCE ID: general1.ticket._gofest2025ver1_title
 TEXT: Biglietto per il Festival di Pokémon GO 2025 (globale)
 
+RESOURCE ID: general1.ticket._tyrogue0425_title
+TEXT: Biglietto per la ricerca a tempo premium della giornata della schiusa dedicata a Tyrogue
+
 RESOURCE ID: general1.ticket4._mar2025_deep_depths
 TEXT: Biglietto per la ricerca a tempo premium dell’evento “Abissi bui”
 
@@ -440,11 +468,17 @@ TEXT: Un biglietto per accedere alla ricerca a tempo premium dell’evento “Ba
 RESOURCE ID: item_event_ticket_evergreen_desc_foc_mar25
 TEXT: Un biglietto per accedere alla ricerca a tempo premium della Festa dei colori dal 13 marzo alle 10:00 al 17 marzo 2025 alle 20:00 ora locale, ovunque ti trovi.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_tyrogue0425
+TEXT: Un biglietto per accedere alla ricerca a tempo premium della giornata della schiusa dedicata a Tyrogue fino al 6 aprile 2025 alle 17:00 ora locale, ovunque ti trovi.
+
 RESOURCE ID: item_event_ticket_evergreen_details_bugout0325
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo premium dell’evento “Bacomania” il 26 marzo, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_evergreen_details_foc_mar25
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo premium dell’evento della Festa dei colori il 13 marzo ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_evergreen_details_tyrogue0425
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo premium della giornata della schiusa dedicata a Tyrogue il 6 aprile, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_gray_desc_megaabsolraidday
 TEXT: Un biglietto per accedere ai bonus speciali il 23 marzo 2025 dalle 14:00 alle 17:00 ora locale, ovunque ti trovi.
@@ -491,6 +525,9 @@ TEXT: Album delle cartoline
 RESOURCE ID: item_postcard_inventory_name_stamp
 TEXT: Album
 
+RESOURCE ID: items_picked_up
+TEXT: Strumento trovato! 
+
 RESOURCE ID: kr_cherryblossom_festival_2025_tag
 TEXT: Festival della primavera in fiore
 
@@ -523,6 +560,12 @@ TEXT: Sfida di collezione 2 del Festival della primavera in fiore 2025
 
 RESOURCE ID: last_pokemon_transfer_to_professor_confirmation
 TEXT: Vuoi davvero trasferire il tuo unico {0}?
+
+RESOURCE ID: legendary_flight_lead_up_free_tr_name
+TEXT: Ricerca a tempo del preludio all’evento “Voli leggendari”
+
+RESOURCE ID: lucky_charm_ftue_title
+TEXT: Hai ottenuto un portafortuna!
 
 RESOURCE ID: make_good_kyurem_title_001
 TEXT: Incontro: Kyurem (1)
@@ -684,16 +727,16 @@ RESOURCE ID: mega_audino_tr_april_2025_title
 TEXT: Ricerca a tempo del giorno di raid dedicato a MegaAudino
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-27T00:47:29.638228+00:00 for it-IT
-at SHA 25cf3b1768c
-Pipeline 3108639, job 38801333
-Patch from: 0.355.0-SHA-386e061f-RC4, 0.353.1-SHA-59d42ab9-RC2
+TEXT: Built at 2025-03-29T00:57:06.948095+00:00 for it-IT
+at SHA 45adb4d06af
+Pipeline 3115670, job 38934988
+Patch from: 0.355.0-SHA-386e061f-RC4, 0.353.2-SHA-ef962be5-RC1
 
 RESOURCE ID: name_sharing_preference_everyone
 TEXT: Tutti
 
 RESOURCE ID: name_sharing_preference_friends
-TEXT: Solo amici
+TEXT: Solo Amici
 
 RESOURCE ID: name_sharing_preference_no_one
 TEXT: Nessuno
@@ -720,7 +763,7 @@ RESOURCE ID: nearby_rsvp_join
 TEXT: FAI RSVP
 
 RESOURCE ID: nearby_rsvp_no_rsvps
-TEXT: Non hai RSVP per le prossime lotte.
+TEXT: Non hai RSVP per le prossime lotta.
 
 RESOURCE ID: nearby_rsvp_reminders_header
 TEXT: PROMEMORIA
@@ -774,14 +817,35 @@ TEXT: CATTURATO DURANTE UNA COLLEZIONE DI TIMBRI
 RESOURCE ID: post_cd_extended_bonus
 TEXT: Bonus a durata prolungata del Community Day
 
+RESOURCE ID: post_cd_timed_research_name
+TEXT: Ricerca a tempo per lo Sfondo speciale del Community Day
+
 RESOURCE ID: post_cdc_extended_bonus
 TEXT: Bonus a durata prolungata del Community Day Classico
+
+RESOURCE ID: quest_branch_choose_black
+TEXT: Scegli Versione Nera (Reshiram/Kyurem Nero)
+
+RESOURCE ID: quest_branch_choose_white
+TEXT: Scegli Versione Bianca (Zekrom/Kyurem Bianco)
+
+RESOURCE ID: quest_catch_pokemon_legendary_ultra_beast_singular
+TEXT: Cattura un Pokémon leggendario o un’Ultracreatura
+
+RESOURCE ID: quest_power_up_machop_plural
+TEXT: Power Up Machop {0} times
+
+RESOURCE ID: quest_send_gifts_days
+TEXT: Invia un pacco amicizia in {0} giorni diversi
 
 RESOURCE ID: quest_spin_india_plural
 TEXT: Fai girare {0} dischi dei Pokéstop in India
 
 RESOURCE ID: quest_spin_india_singular
 TEXT: Fai girare un disco del Pokéstop in India
+
+RESOURCE ID: quest_title_shelmet_karrablast_0
+TEXT: Brulicanti scoperte (1/ 3)
 
 RESOURCE ID: quest_title_totodile
 TEXT: Community Day Classico dedicato a Totodile
@@ -806,6 +870,9 @@ TEXT: Giorno di raid dedicato a MegaAudino
 
 RESOURCE ID: raid_day_tr_bonus_unlock
 TEXT: Bonus della ricerca a tempo del giorno di raid
+
+RESOURCE ID: raid_hour_rare_xl_candy_bonus
+TEXT: Una Caramella Rara L garantita per la cattura di boss dei raid di livello cinque durante l’ora dei raid (Allenatori dal livello 31 in su)
 
 RESOURCE ID: raid_nearby_rsvp
 TEXT: FAI RSVP
@@ -841,7 +908,7 @@ RESOURCE ID: raid_sort_time
 TEXT: TEMPO MANCANTE AL TERMINE DELLA LOTTA
 
 RESOURCE ID: reactivate_button
-TEXT: RIATTIVA
+TEXT: RIPRENDI
 
 RESOURCE ID: reactivate_dialog_message
 TEXT: Hai messo in pausa una o più collezioni di timbri presso questo PokéStop. Riprendi una collezione per continuare a ottenere timbri.
@@ -862,7 +929,7 @@ RESOURCE ID: rewards_banner
 TEXT: RICOMPENSE
 
 RESOURCE ID: rsvp_attendance_preference_title
-TEXT: Condividi stato RSVP con:
+TEXT: Condividi RSVP con:
 
 RESOURCE ID: rsvp_attendance_tutorial_link_text_key
 TEXT: Qui puoi vedere dove il tuo soprannome dell’Allenatore viene mostrato in gioco.
@@ -883,7 +950,7 @@ RESOURCE ID: rsvp_inactive_button_title
 TEXT: SELEZIONA ORARIO
 
 RESOURCE ID: rsvp_invitation_notification_string_key
-TEXT: {0} ti ha invitato alle ore {2} a partecipare a: {1}!
+TEXT: {0} ti ha invitato a partecipare a {1} alle ore {2}!
 
 RESOURCE ID: rsvp_invite_already_going
 TEXT: L’Allenatore ha già intenzione di partecipare a questa lotta.
@@ -1024,6 +1091,11 @@ TEXT: Bonus del biglietto GO (fascia 2)
 RESOURCE ID: season_pass_milestone_bonus_title_03
 TEXT: Bonus del biglietto GO (fascia 3)
 
+RESOURCE ID: season_pass_premium_rewards_desc_monthly
+TEXT: Le ricompense sono sbloccate con l’aumentare del tuo livello. Per ottenerle, è necessario giocare durante la fascia oraria indicata.
+
+<b>La funzionalità biglietto GO è ancora in fase di test; sia la versione gratuita che quella a pagamento e le relative ricompense possono essere ottenute e riscosse nelle aree del mondo che partecipano al test.</b>
+
 RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_april
 TEXT: Biglietto GO deluxe di aprile + 10 livelli
 
@@ -1035,6 +1107,12 @@ TEXT: Biglietto GO deluxe di aprile
 
 RESOURCE ID: season_pass_premium_track_title_may
 TEXT: Biglietto GO deluxe di maggio
+
+RESOURCE ID: season_pass_track_upgrade_header_description_100
+TEXT: Ottieni ricompense aggiuntive e sblocca un <b>Portafortuna</b> al livello 100!
+
+RESOURCE ID: season_pass_track_upgrade_header_description_50
+TEXT: Ottieni ricompense aggiuntive e sblocca un <b>Portafortuna</b> al livello 50!
 
 RESOURCE ID: send_stamp_warning_modal_description_low_friend_level
 TEXT: Questo pacco amicizia include un timbro, ma il tuo amico non potrà riceverlo perché non avete ancora raggiunto il livello di amicizia: {0}. Vuoi comunque inviare questo pacco amicizia?
@@ -1100,13 +1178,13 @@ RESOURCE ID: social_planner_rsvp_friends_list_title
 TEXT: Invita {0} amici
 
 RESOURCE ID: social_planner_rsvp_going_count
-TEXT: Partecipanti: {0}
+TEXT: {0} Partecipanti: {0}
 
 RESOURCE ID: social_planner_rsvp_going_text_key
 TEXT: Partecipo
 
 RESOURCE ID: social_planner_rsvp_invite_sent_confirmation
-TEXT: Invito inviato!
+TEXT: Invito spedito!
 
 RESOURCE ID: social_planner_rsvp_local_only_disclaimer
 TEXT: Devi essere nelle vicinanze per sconfiggere il boss del raid.
@@ -1133,7 +1211,7 @@ RESOURCE ID: social_planner_timeslot_friend_attending_key_multiple
 TEXT: {0} e {1} amici partecipano
 
 RESOURCE ID: social_planner_timeslot_friend_attending_key_singular
-TEXT: Partecipanti: {0}
+TEXT: {0} Partecipanti: {0}
 
 RESOURCE ID: social_planner_timetable_gui_title_key
 TEXT: Scegli un orario per la lotta
@@ -1299,6 +1377,12 @@ TEXT: Controlla i tuoi progressi nella collezione di timbri
 RESOURCE ID: stardust_increased_bonus_tr_complete
 TEXT: Più polvere di stelle portando a termine un raid con successo
 
+RESOURCE ID: story_mightandmastery_0_1
+TEXT: Ultimamente ci sono una marea di reclute del Team GO Rocket in giro. Ho sentito alcuni di loro vantarsi di aver trovato un Pokémon Dynamax!
+
+RESOURCE ID: story_mightandmastery_1_3
+TEXT: Credo che abbia riconosciuto le tue abilità e voglia unirsi a te nel tuo viaggio per diventare più forte. Non mi sorprende: del resto hai sbaragliato in un secondo quei combinaguai del Team GO Rocket.
+
 RESOURCE ID: story_mightandmastery_2_0
 TEXT: Eccoti qui, %PLAYERNAME%! Pare che Kubfu stia lavorando sodo, sotto il tuo occhio esperto.
 
@@ -1363,6 +1447,18 @@ TEXT: <b>Le ricompense includono:</b>
 • Poké Ball e bacche
 • 12.000 PE e 3.000 unità di polvere di stelle
 
+RESOURCE ID: text_rewards_key_cd_shelmetkarrablast25
+TEXT: <b>Le ricompense includono:</b>
+• Strumenti premium nel gioco come un biglietto lotta premium, una MT attacco caricato e Caramelle Rare
+• Incontri con Shelmet e Karrablast con uno Sfondo speciale
+• E altro ancora!
+
+RESOURCE ID: text_rewards_key_cdc_ralts25
+TEXT: <b>Le ricompense includono:</b>
+• Strumenti premium nel gioco come un biglietto lotta premium, una MT attacco caricato e Caramelle Rare
+• Incontri con Ralts con uno Sfondo speciale
+• E altro ancora!
+
 RESOURCE ID: text_rewards_key_cdc_totodile25
 TEXT: <b>Le ricompense includono:</b>
 • Strumenti premium nel gioco come un biglietto lotta premium, una MT attacco caricato e Caramelle Rare
@@ -1401,7 +1497,7 @@ TEXT: <b>Include:</b>
 • Sfide globali orarie per sbloccare bonus aggiuntivi
 
 <b>Contenuti aggiuntivi:</b>
-• Acquista entro il 15 aprile e gioca tra il 8 e il 15 aprile per una ricerca a tempo che ti regalerà un incontro con Skiddo!
+• Acquista entro il 15 aprile e gioca tra l’8 e il 15 aprile per una ricerca a tempo che ti regalerà un incontro con Skiddo!
 
 RESOURCE ID: text_rewards_key_gofest2025ver2
 TEXT: <b>Include:</b>
@@ -1463,6 +1559,12 @@ TEXT: <b>Le ricompense includono:</b>
 • 6.000 PE e 3.000 unità di polvere di stelle
 • E altro ancora!
 
+RESOURCE ID: text_rewards_key_tyrogue0425
+TEXT: <b>Le ricompense includono:</b>
+• 1 Superincubatrice
+• 1 Pezzo Stella
+• 2.500 PE
+
 RESOURCE ID: ticket_totodile_cdc
 TEXT: I biglietti per la ricerca speciale del Community Day Classico dedicato a Totodile sono disponibili nel negozio
 
@@ -1489,6 +1591,15 @@ TEXT: 1 minuto
 
 RESOURCE ID: time_span_mins
 TEXT: {0} minuti
+
+RESOURCE ID: title_event_pass_weekly_bonus_quest
+TEXT: Obiettivi settimanali
+
+RESOURCE ID: title_road_to_unova_raid
+TEXT: Ricerca a tempo premium dell’evento“Destinazione Unima: raid”
+
+RESOURCE ID: title_zorua_o_clock
+TEXT: È il tuo momento, Zorua!
 
 RESOURCE ID: total_stamps_collected
 TEXT: {0} timbri
@@ -1580,6 +1691,27 @@ TEXT: Ricerca a tempo premium dell’evento “Abissi bui”
 RESOURCE ID: tr_gofest2025_global_earlybird
 TEXT: GO Fest 2025: Early Bird Timed Research
 
+RESOURCE ID: tr_kr2025_retention_cherryblossom_desc
+TEXT: Ricerca a tempo “Sfida fiore di ciliegio”
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title
+TEXT: Sfida fiore di ciliegio
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_00
+TEXT: Ricerca a tempo “Sfida fiore di ciliegio” (1/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_01
+TEXT: Ricerca a tempo “Sfida fiore di ciliegio” (2/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_02
+TEXT: Ricerca a tempo “Sfida fiore di ciliegio” (3/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_03
+TEXT: Ricerca a tempo “Sfida fiore di ciliegio” (4/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_04
+TEXT: Ricerca a tempo “Sfida fiore di ciliegio” (5/5)
+
 RESOURCE ID: tr_kr2025_retention_march_to_may_desc
 TEXT: Ricerca a tempo “Andiamo avanti”
 
@@ -1603,4 +1735,19 @@ TEXT: Ricerca a tempo “Andiamo avanti”” (5/6)
 
 RESOURCE ID: tr_kr2025_retention_march_to_may_title_05
 TEXT: Ricerca a tempo “Andiamo avanti” (6/6)
+
+RESOURCE ID: tr_kr2025_retention_springbreeze_title_02
+TEXT: Ricerca a tempo dell’evento “Sfida brezza primaverile”(3/4)
+
+RESOURCE ID: tyrogue_hatch_event_name
+TEXT: Giornata della schiusa dedicata a Tyrogue
+
+RESOURCE ID: tyrogue_hatch_free_tr_name
+TEXT: Ricerca a tempo della giornata della schiusa dedicata a Tyrogue
+
+RESOURCE ID: tyrogue_hatch_lead_event_name
+TEXT: Preludio alla giornata della schiusa dedicata a Tyrogue
+
+RESOURCE ID: tyrogue_hatch_tr_name
+TEXT: Ricerca a tempo premium della giornata della schiusa dedicata a Tyrogue
 

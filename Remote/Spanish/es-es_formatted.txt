@@ -16,11 +16,17 @@ TEXT: Lo sentimos, pero no cumples con los <a href="https://niantic.helpshift.co
 RESOURCE ID: age_confirm_popup_confirm
 TEXT: ¿Seguro? Esta información no se puede modificar una vez enviada.
 
+RESOURCE ID: april_fool_pokeball_tappable_event
+TEXT: ¿Y esa Poké Ball?
+
+RESOURCE ID: april_fool_pokeball_tappable_today_view
+TEXT: ¡Están apareciendo Poké Balls en el mapa!
+
 RESOURCE ID: archen_mastery_mar2025
 TEXT: Objetivo de Captura: Archen
 
 RESOURCE ID: as_two_for_one_purchase
-TEXT: This purchase also includes the {0}.
+TEXT: Esta compra también incluye lo siguiente: {0}.
 
 RESOURCE ID: available_rsvp_inactive_button_desc
 TEXT: Hora seleccionada: {0}
@@ -217,6 +223,9 @@ TEXT: Desafío de colección: La mar de evoluciones
 RESOURCE ID: details_banner
 TEXT: DETALLES
 
+RESOURCE ID: details_link_key
+TEXT: Para obtener más información, visita el <a href="https://pokemongolive.com/es/news/">sitio web</a>.
+
 RESOURCE ID: dmax_raikou_max_battles
 TEXT: Raikou Dinamax está apareciendo en los Combates Max
 
@@ -315,8 +324,21 @@ RESOURCE ID: event_datetime_range_key_stunning_styles
 TEXT: Del 3 de abril a las 10:00
 al 7 de abril a las 20:00
 
+RESOURCE ID: event_datetime_range_key_tyrogue0425
+TEXT: 6 de abril de 14:00 a 17:00
+
+RESOURCE ID: event_pass_micro_action_modal_desc_ab_test_disclaimer
+TEXT: Obtén puntos para aumentar tu nivel y desbloquear recompensas. Puedes conseguir puntos completando tareas del Pase o a través de los objetivos que se muestran aquí.
+
+Las recompensas que consigas por completar tareas del Pase se entregarán nada más terminar la tarea.
+
+<b>La función Pase de GO está en fase de prueba actualmente, y tanto la versión gratuita como la de pago del Pase de GO y sus recompensas únicamente se pueden obtener y canjear en las regiones del mundo en las que está disponible la prueba.</b>
+
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_99
 TEXT: Se consigue en el nivel 99
+
+RESOURCE ID: event_pass_premium_reward_banner_bottom_text_generic_rank
+TEXT: Se consigue en el nivel {0}
 
 RESOURCE ID: event_pass_reward_preview_upsell_description
 TEXT: Esta recompensa está disponible con la versión deluxe del Pase.
@@ -387,6 +409,9 @@ TEXT: Entrada: Investigación temporal prémium del Festival de los Colores
 RESOURCE ID: general1.ticket._gofest2025ver1_title
 TEXT: Entrada: Festival de Pokémon GO 2025 (Global)
 
+RESOURCE ID: general1.ticket._tyrogue0425_title
+TEXT: Entrada: Investigación temporal prémium del Día de Eclosiones de Tyrogue
+
 RESOURCE ID: general1.ticket4._mar2025_deep_depths
 TEXT: Entrada: Investigación temporal prémium de En las profundidades
 
@@ -443,11 +468,17 @@ TEXT: Una entrada para acceder a la investigación temporal prémium de A bichea
 RESOURCE ID: item_event_ticket_evergreen_desc_foc_mar25
 TEXT: Una entrada para acceder a la investigación temporal prémium del Festival de los Colores del 13 de marzo a las 10:00 al 17 de marzo de 2025 a las 20:00 en tu hora local, estés donde estés.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_tyrogue0425
+TEXT: Una entrada para acceder a la investigación temporal prémium del Día de eclosiones de Tyrogue hasta el 6 de abril de 2025 a las 17:00 en tu hora local, estés donde estés.
+
 RESOURCE ID: item_event_ticket_evergreen_details_bugout0325
 TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal prémium de A bichear el 26 de marzo, estés donde estés.
 
 RESOURCE ID: item_event_ticket_evergreen_details_foc_mar25
 TEXT: Esta entrada se activará automáticamente el 13 de marzo para darte acceso a la investigación temporal prémium del Festival de los Colores, estés donde estés.
+
+RESOURCE ID: item_event_ticket_evergreen_details_tyrogue0425
+TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal prémium del Día de eclosiones de Tyrogue el 6 de abril, estés donde estés.
 
 RESOURCE ID: item_event_ticket_gray_desc_megaabsolraidday
 TEXT: Una entrada para acceder a bonus especiales el 23 de marzo de 2025 de 14:00 a 17:00 en tu hora local, estés donde estés.
@@ -493,6 +524,9 @@ TEXT: Álbum de postales
 
 RESOURCE ID: item_postcard_inventory_name_stamp
 TEXT: Álbum
+
+RESOURCE ID: items_picked_up
+TEXT: ¡Objeto encontrado!
 
 RESOURCE ID: kr_cherryblossom_festival_2025_tag
 TEXT: Festival de la Floración de Primavera
@@ -687,10 +721,10 @@ RESOURCE ID: mega_audino_tr_april_2025_title
 TEXT: Investigación temporal del Día de Incursiones de Mega-Audino
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-27T00:47:29.638228+00:00 for es-ES
-at SHA 25cf3b1768c
-Pipeline 3108639, job 38801333
-Patch from: 0.355.0-SHA-386e061f-RC4, 0.353.1-SHA-59d42ab9-RC2
+TEXT: Built at 2025-03-29T00:57:06.948095+00:00 for es-ES
+at SHA 45adb4d06af
+Pipeline 3115670, job 38934988
+Patch from: 0.355.0-SHA-386e061f-RC4, 0.353.2-SHA-ef962be5-RC1
 
 RESOURCE ID: mvt_stat_num_friends_in_raid_player_details_2
 TEXT: Tuvo {0} amigos en la incursión
@@ -785,6 +819,15 @@ TEXT: Bonus complementarios del Día de la Comunidad
 
 RESOURCE ID: post_cdc_extended_bonus
 TEXT: Bonus complementarios del evento Clásicos del Día de la Comunidad
+
+RESOURCE ID: quest_catch_pokemon_legendary_ultra_beast_singular
+TEXT: Captura un Pokémon legendario o un Ultraente
+
+RESOURCE ID: quest_power_up_machop_plural
+TEXT: Power Up Machop {0} times
+
+RESOURCE ID: quest_send_gifts_days
+TEXT: Envía un regalo en {0} días diferentes
 
 RESOURCE ID: quest_spin_india_plural
 TEXT: Da vueltas a {0} fotodiscos en Poképaradas en India
@@ -1034,6 +1077,11 @@ TEXT: Bonus del Pase de GO (nivel 2)
 RESOURCE ID: season_pass_milestone_bonus_title_03
 TEXT: Bonus del Pase de GO (nivel 3)
 
+RESOURCE ID: season_pass_premium_rewards_desc_monthly
+TEXT: Las recompensas se desbloquean conforme aumenta tu nivel. Debes jugar durante el período de tiempo para recibir las recompensas.
+
+<b>La función Pase de GO está en fase de prueba actualmente, y tanto la versión gratuita como la de pago del Pase de GO y sus recompensas únicamente se pueden obtener y canjear en las regiones del mundo en las que está disponible la prueba.</b>
+
 RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_april
 TEXT: Pase de GO deluxe de abril + 10 niveles
 
@@ -1045,6 +1093,12 @@ TEXT: Pase de GO deluxe de abril
 
 RESOURCE ID: season_pass_premium_track_title_may
 TEXT: Pase de GO deluxe de mayo
+
+RESOURCE ID: season_pass_track_upgrade_header_description_100
+TEXT: ¡Consigue recompensas adicionales y desbloquea un <b>Recuerdo Suerte</b> en el nivel 100!
+
+RESOURCE ID: season_pass_track_upgrade_header_description_50
+TEXT: ¡Consigue recompensas adicionales y desbloquea un <b>Recuerdo Suerte</b> en el nivel 50!
 
 RESOURCE ID: send_stamp_warning_modal_description_low_friend_level
 TEXT: Este regalo contiene un sello, pero la otra persona no puede recibirlo porque aún no habéis alcanzado el nivel de amistad {0}. ¿Quieres enviar este regalo de todas maneras?
@@ -1059,7 +1113,7 @@ RESOURCE ID: send_stamp_warning_modal_title
 TEXT: ¿Seguro?
 
 RESOURCE ID: social_planner_cancel_upcoming_warning
-TEXT: Completing this battle will cancel your upcoming RSVP at this location.
+TEXT: Completar este combate cancelará tus futuras asistencias confirmadas en esta ubicación.
 
 RESOURCE ID: social_planner_cannot_change_active_timeslots_key
 TEXT: No se puede modificar al no haber otros horarios disponibles.
@@ -1080,7 +1134,7 @@ RESOURCE ID: social_planner_error_rsvp_missing
 TEXT: Error. No se ha encontrado la confirmación.
 
 RESOURCE ID: social_planner_error_sending_invites_key
-TEXT: Could not send invite to one or more friends.
+TEXT: No se ha podido enviar la invitación a una o más amistades.
 
 RESOURCE ID: social_planner_error_timeslot_passed
 TEXT: Esta hora ya no está disponible.
@@ -1131,7 +1185,7 @@ RESOURCE ID: social_planner_rsvp_not_going_text_key
 TEXT: No voy a ir
 
 RESOURCE ID: social_planner_select_another_time
-TEXT: SELECT ANOTHER TIME
+TEXT: SELECCIONAR OTRA HORA
 
 RESOURCE ID: social_planner_time_conflict_disclaimer_title_key
 TEXT: Conflicto de programación
@@ -1473,6 +1527,12 @@ TEXT: <b>Recompensas incluidas:</b>
 • 6000 PX y 3000 Polvos Estelares
 • ¡Y más!
 
+RESOURCE ID: text_rewards_key_tyrogue0425
+TEXT: <b>Recompensas incluidas:</b>
+• 1 Superincubadora
+• 1 Trozo Estrella
+• 2500 PX
+
 RESOURCE ID: ticket_totodile_cdc
 TEXT: Las entradas para la historia de investigación especial "Clásicos del Día de la Comunidad: Totodile" están disponibles en la tienda
 
@@ -1499,6 +1559,9 @@ TEXT: 1 minuto
 
 RESOURCE ID: time_span_mins
 TEXT: {0} minutos
+
+RESOURCE ID: title_event_pass_weekly_bonus_quest
+TEXT: Tareas semanales
 
 RESOURCE ID: total_stamps_collected
 TEXT: Total de sellos: {0}
@@ -1590,6 +1653,27 @@ TEXT: Investigación temporal prémium de En las profundidades
 RESOURCE ID: tr_gofest2025_global_earlybird
 TEXT: GO Fest 2025: Early Bird Timed Research
 
+RESOURCE ID: tr_kr2025_retention_cherryblossom_desc
+TEXT: Investigación temporal: Desafío de cerezos en flor
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title
+TEXT: Desafío de cerezos en flor
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_00
+TEXT: Investigación temporal: Desafío de cerezos en flor (1/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_01
+TEXT: Investigación temporal: Desafío de cerezos en flor (2/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_02
+TEXT: Investigación temporal: Desafío de cerezos en flor (3/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_03
+TEXT: Investigación temporal: Desafío de cerezos en flor (4/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_04
+TEXT: Investigación temporal: Desafío de cerezos en flor (5/5)
+
 RESOURCE ID: tr_kr2025_retention_march_to_may_desc
 TEXT: Investigación temporal de Sigamos adelante
 
@@ -1613,4 +1697,16 @@ TEXT: Investigación temporal de Sigamos adelante (5/6)
 
 RESOURCE ID: tr_kr2025_retention_march_to_may_title_05
 TEXT: Investigación temporal de Sigamos adelante (6/6)
+
+RESOURCE ID: tyrogue_hatch_event_name
+TEXT: Día de eclosiones de Tyrogue
+
+RESOURCE ID: tyrogue_hatch_free_tr_name
+TEXT: Investigación temporal del Día de Eclosiones de Tyrogue
+
+RESOURCE ID: tyrogue_hatch_lead_event_name
+TEXT: Previa del Día de eclosiones de Tyrogue
+
+RESOURCE ID: tyrogue_hatch_tr_name
+TEXT: Investigación temporal prémium del Día de Eclosiones de Tyrogue
 

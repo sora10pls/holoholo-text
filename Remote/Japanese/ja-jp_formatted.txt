@@ -16,6 +16,12 @@ TEXT: このタイプのアカウントに必要な<a href="https://niantic.help
 RESOURCE ID: age_confirm_popup_confirm
 TEXT: 確定しますか？送信後変更はできません。
 
+RESOURCE ID: april_fool_pokeball_tappable_event
+TEXT: モンスターボール？？
+
+RESOURCE ID: april_fool_pokeball_tappable_today_view
+TEXT: モンスターボールがマップ上に出現！
+
 RESOURCE ID: archen_mastery_mar2025
 TEXT: マスタリーシリーズ：アーケン
 
@@ -238,6 +244,9 @@ TEXT: 水辺コレクションチャレンジ
 RESOURCE ID: details_banner
 TEXT: 詳細
 
+RESOURCE ID: details_link_key
+TEXT: 詳細は<a href="https://pokemongolive.com/ja/news/">ウェブサイト</a>でご確認ください
+
 RESOURCE ID: dmax_raikou_max_battles
 TEXT: ダイマックスしたライコウがマックスバトルに出現
 
@@ -339,8 +348,21 @@ RESOURCE ID: event_datetime_range_key_stunning_styles
 TEXT: 4月3日10:00AM～
 4月7日8:00PM
 
+RESOURCE ID: event_datetime_range_key_tyrogue0425
+TEXT: 4月6日2:00PM～5:00PM
+
+RESOURCE ID: event_pass_micro_action_modal_desc_ab_test_disclaimer
+TEXT: パスタスクを含む各種成果の達成でランクが上がりリワードがアンロックされます。
+
+パスタスクのリワードはタスク完了時にもらえます。
+
+<b>GOパスはテスト中の機能であるため、無料・有料GOパスの利用とリワード受取はテストが実施されている場所でのみ可能です。</b>
+
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_99
 TEXT: ランク99でゲット
+
+RESOURCE ID: event_pass_premium_reward_banner_bottom_text_generic_rank
+TEXT: ランク{0}でゲット
 
 RESOURCE ID: event_pass_reward_preview_upsell_description
 TEXT: パスのデラックスバージョンでもらえるリワードです
@@ -418,6 +440,9 @@ RESOURCE ID: general1.ticket._gofest2025ver1_title
 TEXT: Pokémon GO Fest 2025：
 グローバルチケット
 
+RESOURCE ID: general1.ticket._tyrogue0425_title
+TEXT: バルキーふかの日プレミアムタイムチャレンジチケット
+
 RESOURCE ID: general1.ticket4._mar2025_deep_depths
 TEXT: ディープデプスプレミアムタイムチャレンジチケット
 
@@ -481,11 +506,17 @@ TEXT: 現地時間2025年3月30日8:00PMまでむしタイプポケモンプレ�
 RESOURCE ID: item_event_ticket_evergreen_desc_foc_mar25
 TEXT: 現地時間2025年3月13日10:00AM～3月17日8:00PMにカラーフェスティバルプレミアムタイムチャレンジを行うためのチケット。
 
+RESOURCE ID: item_event_ticket_evergreen_desc_tyrogue0425
+TEXT: 現地時間2025年4月6日5:00PMまでバルキーふかの日プレミアムタイムチャレンジが行えるチケット。
+
 RESOURCE ID: item_event_ticket_evergreen_details_bugout0325
 TEXT: このチケットは自動的に発動し3月26日にむしタイプポケモンプレミアムタイムチャレンジが行えるようになります。
 
 RESOURCE ID: item_event_ticket_evergreen_details_foc_mar25
 TEXT: このチケットは自動的に発動し3月13日にカラーフェスティバルプレミアムタイムチャレンジが行えるようになります。
+
+RESOURCE ID: item_event_ticket_evergreen_details_tyrogue0425
+TEXT: このチケットは自動的に発動し4月6日にバルキーふかの日プレミアムタイムチャレンジが行えるようになります。
 
 RESOURCE ID: item_event_ticket_gray_desc_megaabsolraidday
 TEXT: 現地時間2025年3月23日2:00PM～5:00PMにボーナスを受け取るためのチケット。
@@ -518,7 +549,7 @@ RESOURCE ID: item_mp_desc
 TEXT:  
 
 RESOURCE ID: item_mp_desc_temp
-TEXT: Use Max Particles to take on Max Battles at Power Spots or unlock and level up Max Moves.
+TEXT: パワースポットで行われるマックスバトルや、マックスわざのレベルアップに必要な粒子。
 
 RESOURCE ID: item_postcard_inventory_desc_old
 TEXT: ポストカードを貼って自分やフレンドの足跡を残しておける手帳。
@@ -531,6 +562,9 @@ TEXT: ポストカードブック
 
 RESOURCE ID: item_postcard_inventory_name_stamp
 TEXT: スクラップブック
+
+RESOURCE ID: items_picked_up
+TEXT: 何かを拾った！
 
 RESOURCE ID: kr_cherryblossom_festival_2025_tag
 TEXT: 春の花まつり
@@ -730,10 +764,10 @@ RESOURCE ID: mega_audino_tr_april_2025_title
 TEXT: メガタブンネレイド・デイタイムチャレンジ
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-27T00:47:29.638228+00:00 for ja-JP
-at SHA 25cf3b1768c
-Pipeline 3108639, job 38801333
-Patch from: 0.355.0-SHA-386e061f-RC4, 0.353.1-SHA-59d42ab9-RC2
+TEXT: Built at 2025-03-29T00:57:06.948095+00:00 for ja-JP
+at SHA 45adb4d06af
+Pipeline 3115670, job 38934988
+Patch from: 0.355.0-SHA-386e061f-RC4, 0.353.2-SHA-ef962be5-RC1
 
 RESOURCE ID: name_sharing_preference_everyone
 TEXT: だれでも
@@ -837,6 +871,15 @@ TEXT: 相棒のポケモンにおやつを{0}日にわたってあげる
 
 RESOURCE ID: quest_catch_pokemon_days
 TEXT: ポケモンを{0}日にわたって捕まえる
+
+RESOURCE ID: quest_catch_pokemon_legendary_ultra_beast_singular
+TEXT: 伝説のポケモンもしくはウルトラビーストを捕まえる
+
+RESOURCE ID: quest_power_up_machop_plural
+TEXT: Power Up Machop {0} times
+
+RESOURCE ID: quest_send_gifts_days
+TEXT: {0}日にわたってギフトを贈る
 
 RESOURCE ID: quest_spin_india_plural
 TEXT: インドのポケストップを{0}個回す
@@ -1097,6 +1140,11 @@ TEXT: ティア2GOパスボーナス
 RESOURCE ID: season_pass_milestone_bonus_title_03
 TEXT: ティア3GOパスボーナス
 
+RESOURCE ID: season_pass_premium_rewards_desc_monthly
+TEXT: ランクが上がるとリワードがアンロックされます。期限内にプレイしリワードを受け取ってください。
+
+<b>GOパスはテスト中の機能であるため、無料・有料GOパスの利用とリワード受取はテストが実施されている場所でのみ可能です。</b>
+
 RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_april
 TEXT: GOパスデラックス：4月＋10ランク
 
@@ -1108,6 +1156,12 @@ TEXT: GOパスデラックス：4月
 
 RESOURCE ID: season_pass_premium_track_title_may
 TEXT: GOパスデラックス：5月
+
+RESOURCE ID: season_pass_track_upgrade_header_description_100
+TEXT: 追加リワードを入手でき、ランク100で<b>キラチャーム</b>をアンロック！
+
+RESOURCE ID: season_pass_track_upgrade_header_description_50
+TEXT: 追加リワードを入手でき、ランク50で<b>キラチャーム</b>をアンロック！
 
 RESOURCE ID: send_stamp_warning_modal_description_low_friend_level
 TEXT: 「{0}」に達していないため、このギフトを贈ってもスタンプは受け取れません。このギフトを贈りますか？
@@ -1532,6 +1586,12 @@ TEXT: <b>もらえるもの：</b>
 ・6000XPと3000ほしのすな
 ・その他
 
+RESOURCE ID: text_rewards_key_tyrogue0425
+TEXT: <b>もらえるもの：</b>
+・スーパーふかそうち1個
+・ほしのかけら1個
+・2500XP、など
+
 RESOURCE ID: ticket_totodile_cdc
 TEXT: ワニノココミュニティ・デイ復刻スペシャルリサーチのチケットがショップに登場
 
@@ -1561,6 +1621,9 @@ TEXT: {0}分
 
 RESOURCE ID: titan_ar_mapping_warning_too_fast
 TEXT: 速すぎます。ポケストップの周りをゆっくり歩いてください。
+
+RESOURCE ID: title_event_pass_weekly_bonus_quest
+TEXT: ウィークリータスク
 
 RESOURCE ID: total_stamps_collected
 TEXT: 計{0}個
@@ -1674,6 +1737,27 @@ TEXT: ディープデプスプレミアムタイムチャレンジ
 RESOURCE ID: tr_gofest2025_global_earlybird
 TEXT: GO Fest 2025: Early Bird Timed Research
 
+RESOURCE ID: tr_kr2025_retention_cherryblossom_desc
+TEXT: お花見タイムチャレンジ
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title
+TEXT: お花見チャレンジ
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_00
+TEXT: お花見タイムチャレンジ (1/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_01
+TEXT: お花見タイムチャレンジ (2/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_02
+TEXT: お花見タイムチャレンジ (3/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_03
+TEXT: お花見タイムチャレンジ (4/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_04
+TEXT: お花見タイムチャレンジ (5/5)
+
 RESOURCE ID: tr_kr2025_retention_march_to_may_desc
 TEXT: レッツGO！タイムチャレンジ
 
@@ -1697,4 +1781,16 @@ TEXT: レッツGO！タイムチャレンジ (5/6)
 
 RESOURCE ID: tr_kr2025_retention_march_to_may_title_05
 TEXT: レッツGO！タイムチャレンジ (6/6)
+
+RESOURCE ID: tyrogue_hatch_event_name
+TEXT: バルキーふかの日
+
+RESOURCE ID: tyrogue_hatch_free_tr_name
+TEXT: バルキーふかの日タイムチャレンジ
+
+RESOURCE ID: tyrogue_hatch_lead_event_name
+TEXT: バルキーふかの日直前
+
+RESOURCE ID: tyrogue_hatch_tr_name
+TEXT: バルキーふかの日プレミアムタイムチャレンジ
 

@@ -16,11 +16,17 @@ TEXT: Nous sommes navrés, mais tu ne remplis pas les <a href="https://niantic.h
 RESOURCE ID: age_confirm_popup_confirm
 TEXT: Tu confirmes ? Cette information ne peut pas être modifiée une fois soumise.
 
+RESOURCE ID: april_fool_pokeball_tappable_event
+TEXT: Quelle est cette Poké Ball ?
+
+RESOURCE ID: april_fool_pokeball_tappable_today_view
+TEXT: Des Poké Balls apparaissent sur la carte !
+
 RESOURCE ID: archen_mastery_mar2025
 TEXT: Maîtrise de capture Arkéapti
 
 RESOURCE ID: as_two_for_one_purchase
-TEXT: This purchase also includes the {0}.
+TEXT: Cet achat contient aussi : {0}.
 
 RESOURCE ID: available_rsvp_inactive_button_desc
 TEXT: Participation à {0}
@@ -98,7 +104,7 @@ RESOURCE ID: batch_transfer_last_more_pokemon
 TEXT: Tes seuls {0}, {1} et {2} de plus
 
 RESOURCE ID: batch_transfer_last_more_pokemon_singular
-TEXT: Your only {0}, {1}, and 1 more
+TEXT: Ton seul {0}, {1} et 1 de plus
 
 RESOURCE ID: batch_transfer_last_one_pokemon
 TEXT: Ton seul {0}
@@ -217,6 +223,9 @@ TEXT: Défi de collection Évolutions sous-marines
 RESOURCE ID: details_banner
 TEXT: DÉTAILS
 
+RESOURCE ID: details_link_key
+TEXT: Tous les détails sont sur le <a href="https://pokemongolive.com/fr/news/">site Web</a>.
+
 RESOURCE ID: dmax_raikou_max_battles
 TEXT: Raikou Dynamax apparaît dans les Combats Dynamax
 
@@ -314,8 +323,21 @@ TEXT: Le 5 avril de 14h à 17h
 RESOURCE ID: event_datetime_range_key_stunning_styles
 TEXT: Du 3 avril à 10h. –au 7 avril à 20h
 
+RESOURCE ID: event_datetime_range_key_tyrogue0425
+TEXT: Le 6 avril de 14h à 17h
+
+RESOURCE ID: event_pass_micro_action_modal_desc_ab_test_disclaimer
+TEXT: Gagne des points pour augmenter ton rang et déverrouiller des récompenses. Tu peux gagner des points en terminant des tâches de Passe ou les nombreuses activités énumérées ici.
+
+Les récompenses seront récupérées dès que tu auras terminé la tâche de Passe.
+
+<b>La fonctionnalité Passe GO est en cours de test. La version gratuite et la version payante du Passe GO ainsi que leurs récompenses ne peuvent être gagnées et récupérées que dans les régions du monde qui sont éligibles pour le test.</b>
+
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_99
 TEXT: Récompense obtenue au rang 99
+
+RESOURCE ID: event_pass_premium_reward_banner_bottom_text_generic_rank
+TEXT: Récompense obtenue au rang {0}
 
 RESOURCE ID: event_pass_reward_preview_upsell_description
 TEXT: Cette récompense est disponible dans la version deluxe du Passe.
@@ -345,10 +367,10 @@ RESOURCE ID: form_paldea_combat
 TEXT: Race Combative
 
 RESOURCE ID: form_rapid_strike
-TEXT: Rapid Strike Style
+TEXT: Style Mille Poings
 
 RESOURCE ID: form_single_strike
-TEXT: Single Strike Style
+TEXT: Style Poing Final
 
 RESOURCE ID: free_stamp_rally_completed_description
 TEXT: Bravo ! Tu as terminé la chasse aux tampons. Tu peux obtenir d’autres tampons !
@@ -385,6 +407,9 @@ TEXT: Ticket pour l’Étude ponctuelle premium Fête des couleurs
 
 RESOURCE ID: general1.ticket._gofest2025ver1_title
 TEXT: Ticket pour le Festival Pokémon GO 2025 : Mondial
+
+RESOURCE ID: general1.ticket._tyrogue0425_title
+TEXT: Ticket pour l’Étude ponctuelle premium de la Journée Éclosion de Debugant
 
 RESOURCE ID: general1.ticket4._mar2025_deep_depths
 TEXT: Ticket pour l’Étude ponctuelle premium Profondeurs ténébreuses
@@ -442,11 +467,17 @@ TEXT: Un ticket pour accéder à l’Étude ponctuelle premium Insectomania jusq
 RESOURCE ID: item_event_ticket_evergreen_desc_foc_mar25
 TEXT: Un ticket pour accéder à l’Étude ponctuelle premium Fête des couleurs du 13 mars à 10h au 17 mars 2025 à 20h (heures locales), où que tu sois.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_tyrogue0425
+TEXT: Un ticket pour accéder à l’Étude ponctuelle premium de la Journée Éclosion de Debugant jusqu’au 6 avril 2025 à 17h, heure locale, où que tu sois.
+
 RESOURCE ID: item_event_ticket_evergreen_details_bugout0325
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude ponctuelle premium Insectomania le 26 mars, où que tu sois.
 
 RESOURCE ID: item_event_ticket_evergreen_details_foc_mar25
 TEXT: Ce ticket s’activera automatiquement le 13 mars pour te donner accès à l’Étude ponctuelle premium Fête des couleurs, où que tu sois.
+
+RESOURCE ID: item_event_ticket_evergreen_details_tyrogue0425
+TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude ponctuelle premium de la Journée Éclosion de Debugant le 6 avril, où que tu sois.
 
 RESOURCE ID: item_event_ticket_gray_desc_megaabsolraidday
 TEXT: Un ticket pour accéder à des bonus spéciaux le 23 mars 2025 de 14h à 17h (heures locales), où que tu sois.
@@ -492,6 +523,9 @@ TEXT: Album de Cartes postales
 
 RESOURCE ID: item_postcard_inventory_name_stamp
 TEXT: Album
+
+RESOURCE ID: items_picked_up
+TEXT: Objet trouvé !
 
 RESOURCE ID: kr_cherryblossom_festival_2025_tag
 TEXT: Festival des fleurs de printemps
@@ -686,10 +720,10 @@ RESOURCE ID: mega_audino_tr_april_2025_title
 TEXT: Étude ponctuelle de la Journée de Raids Méga-Nanméouïe
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-27T00:47:29.638228+00:00 for fr-FR
-at SHA 25cf3b1768c
-Pipeline 3108639, job 38801333
-Patch from: 0.355.0-SHA-386e061f-RC4, 0.353.1-SHA-59d42ab9-RC2
+TEXT: Built at 2025-03-29T00:57:06.948095+00:00 for fr-FR
+at SHA 45adb4d06af
+Pipeline 3115670, job 38934988
+Patch from: 0.355.0-SHA-386e061f-RC4, 0.353.2-SHA-ef962be5-RC1
 
 RESOURCE ID: name_sharing_preference_everyone
 TEXT: Tout le monde
@@ -779,6 +813,15 @@ TEXT: Bonus supplémentaires de la Journée Communauté
 RESOURCE ID: post_cdc_extended_bonus
 TEXT: Bonus supplémentaires de l’évènement Les classiques de la Journée Communauté
 
+RESOURCE ID: quest_catch_pokemon_legendary_ultra_beast_singular
+TEXT: Attrape un Pokémon légendaire ou une Ultra-Chimère
+
+RESOURCE ID: quest_power_up_machop_plural
+TEXT: Power Up Machop {0} times
+
+RESOURCE ID: quest_send_gifts_days
+TEXT: Envoie un Cadeau pendant {0} jours différents
+
 RESOURCE ID: quest_spin_india_plural
 TEXT: Fais tourner {0} PokéStops en Inde
 
@@ -843,7 +886,7 @@ RESOURCE ID: raid_sort_time
 TEXT: TEMPS AVANT LA FIN DU COMBAT
 
 RESOURCE ID: reactivate_button
-TEXT: RÉACTIVER
+TEXT: REPRENDRE
 
 RESOURCE ID: reactivate_dialog_message
 TEXT: Tu as mis en pause une ou plusieurs chasses aux tampons à ce PokéStop. Tu peux reprendre une chasse et continuer à obtenir des tampons.
@@ -1027,6 +1070,11 @@ TEXT: Bonus de Passe GO échelon 2
 RESOURCE ID: season_pass_milestone_bonus_title_03
 TEXT: Bonus de Passe GO échelon 3
 
+RESOURCE ID: season_pass_premium_rewards_desc_monthly
+TEXT: Tu déverrouilleras des récompenses à mesure que ton rang augmentera. Tu dois jouer pendant le temps imparti pour recevoir des récompenses.
+
+<b>La fonctionnalité Passe GO est en cours de test. La version gratuite et la version payante du Passe GO ainsi que leurs récompenses ne peuvent être gagnées et récupérées que dans les régions du monde qui sont éligibles pour le test.</b>
+
 RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_april
 TEXT: Passe GO deluxe : avril + 10 rangs
 
@@ -1038,6 +1086,12 @@ TEXT: Passe GO deluxe : avril
 
 RESOURCE ID: season_pass_premium_track_title_may
 TEXT: Passe GO deluxe : mai
+
+RESOURCE ID: season_pass_track_upgrade_header_description_100
+TEXT: Gagne des récompenses supplémentaires et déverrouille un <b>Bibelot Chance</b> lorsque tu atteins le rang 100 !
+
+RESOURCE ID: season_pass_track_upgrade_header_description_50
+TEXT: Gagne des récompenses supplémentaires et déverrouille un <b>Bibelot Chance</b> lorsque tu atteins le rang 50 !
 
 RESOURCE ID: send_stamp_warning_modal_description_low_friend_level
 TEXT: Ce Cadeau contient un tampon, mais ton ami ne pourra pas le recevoir, car vous n’avez pas encore atteint le Niveau d’amitié {0}. Veux-tu quand même envoyer ce Cadeau ?
@@ -1052,7 +1106,7 @@ RESOURCE ID: send_stamp_warning_modal_title
 TEXT: Confirmer ?
 
 RESOURCE ID: social_planner_cancel_upcoming_warning
-TEXT: Completing this battle will cancel your upcoming RSVP at this location.
+TEXT: Terminer ce combat annulera ta participation à cet endroit.
 
 RESOURCE ID: social_planner_cannot_change_active_timeslots_key
 TEXT: Modification impossible car aucun autre créneau n’est disponible.
@@ -1073,7 +1127,7 @@ RESOURCE ID: social_planner_error_rsvp_missing
 TEXT: Erreur. Planification de participation non trouvée.
 
 RESOURCE ID: social_planner_error_sending_invites_key
-TEXT: Could not send invite to one or more friends.
+TEXT: Impossible d’envoyer une invitation à un ou plusieurs de tes amis.
 
 RESOURCE ID: social_planner_error_timeslot_passed
 TEXT: Ce créneau horaire n'est plus disponible.
@@ -1124,7 +1178,7 @@ RESOURCE ID: social_planner_rsvp_not_going_text_key
 TEXT: Ne participe pas
 
 RESOURCE ID: social_planner_select_another_time
-TEXT: SELECT ANOTHER TIME
+TEXT: SÉLECTIONNER UN AUTRE HORAIRE
 
 RESOURCE ID: social_planner_time_conflict_disclaimer_title_key
 TEXT: Conflit d’horaire
@@ -1355,10 +1409,11 @@ TEXT: <b>Donne accès aux bonus suivants :</b>
 RESOURCE ID: text_rewards_key_bugout0325
 TEXT: <b>Donne accès aux récompenses suivantes :</b>
 • Des rencontres avec Insécateur, Muciole, Lumivole, Bombydou, Grillepattes, Hachécateur et Lilliterelle
-• 2 passes de Raid premium
+• 2 passes de combat premium
 • 1 Module Leurre
 • 6 000 Poussières Étoiles
 • 12 000 PX
+
 
 RESOURCE ID: text_rewards_key_catch_mastery_archen
 TEXT: <b>Donne accès aux récompenses suivantes :</b>
@@ -1466,6 +1521,12 @@ TEXT: <b>Donne accès aux récompenses suivantes :</b>
 • 6 000 PX et 3 000 Poussières Étoiles
 • Et plus encore !
 
+RESOURCE ID: text_rewards_key_tyrogue0425
+TEXT: <b>Donne accès aux récompenses suivantes :</b>
+• 1 Super-Incubateur
+• 1 Morceau d’Étoile 
+• 2500 PX
+
 RESOURCE ID: ticket_totodile_cdc
 TEXT: Ticket pour l’Étude spéciale dans la Boutique : Les classiques de la Journée Communauté – Kaiminus
 
@@ -1492,6 +1553,9 @@ TEXT: 1 minute
 
 RESOURCE ID: time_span_mins
 TEXT: {0} minutes
+
+RESOURCE ID: title_event_pass_weekly_bonus_quest
+TEXT: Tâches hebdomadaires
 
 RESOURCE ID: total_stamps_collected
 TEXT: {0} tampons
@@ -1583,6 +1647,27 @@ TEXT: Étude ponctuelle premium Profondeurs ténébreuses
 RESOURCE ID: tr_gofest2025_global_earlybird
 TEXT: GO Fest 2025: Early Bird Timed Research
 
+RESOURCE ID: tr_kr2025_retention_cherryblossom_desc
+TEXT: Étude ponctuelle Défi Fleur de cerisier
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title
+TEXT: Défi Fleur de cerisier
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_00
+TEXT: Étude ponctuelle Défi Fleur de cerisier (1/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_01
+TEXT: Étude ponctuelle Défi Fleur de cerisier (2/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_02
+TEXT: Étude ponctuelle Défi Fleur de cerisier (3/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_03
+TEXT: Étude ponctuelle Défi Fleur de cerisier (4/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_04
+TEXT: Étude ponctuelle Défi Fleur de cerisier (5/5)
+
 RESOURCE ID: tr_kr2025_retention_march_to_may_desc
 TEXT: Étude ponctuelle Aller de l’avant
 
@@ -1606,4 +1691,16 @@ TEXT: Étude ponctuelle Aller de l’avant (5/6)
 
 RESOURCE ID: tr_kr2025_retention_march_to_may_title_05
 TEXT: Étude ponctuelle Aller de l’avant (6/6)
+
+RESOURCE ID: tyrogue_hatch_event_name
+TEXT: Journée Éclosion de Debugant
+
+RESOURCE ID: tyrogue_hatch_free_tr_name
+TEXT: Étude ponctuelle de la Journée Éclosion de Debugant
+
+RESOURCE ID: tyrogue_hatch_lead_event_name
+TEXT: Journée Éclosion de Debugant : Phase initiale
+
+RESOURCE ID: tyrogue_hatch_tr_name
+TEXT: Étude ponctuelle premium de la Journée Éclosion de Debugant
 

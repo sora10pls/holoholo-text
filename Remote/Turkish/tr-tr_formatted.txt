@@ -16,6 +16,12 @@ TEXT: Üzgünüz, bu hesap türüyle giriş yapmak için gereken<a href="https:/
 RESOURCE ID: age_confirm_popup_confirm
 TEXT: Emin misiniz? Bu bilgi girildikten sonra bir daha değiştirilemez.
 
+RESOURCE ID: april_fool_pokeball_tappable_event
+TEXT: O Poké Topu da neyin nesi?
+
+RESOURCE ID: april_fool_pokeball_tappable_today_view
+TEXT: Haritada Poké Topları ortaya çıkıyor!
+
 RESOURCE ID: archen_mastery_mar2025
 TEXT: Yakalama Ustalığı: Archen
 
@@ -315,8 +321,21 @@ RESOURCE ID: event_datetime_range_key_stunning_styles
 TEXT: 3 Nisan, 10.00 –
 7 Nisan, 20.00
 
+RESOURCE ID: event_datetime_range_key_tyrogue0425
+TEXT: 6 Nisan, 14.00-17.00
+
+RESOURCE ID: event_pass_micro_action_modal_desc_ab_test_disclaimer
+TEXT: Rütbenizi artırıp ödüllerin kilidini açmak için puan kazanın. Bilet Görevlerini veya burada sıralanan başarımları tamamlayarak puan kazanabilirsiniz.
+
+Bir Bilet Görevini tamamlayarak kazanacağınız ödülleri görevi tamamlar tamamlamaz alabilirsiniz.
+
+<b>GO Bileti şu anda test aşamasındadır; GO Biletinin ücretsiz ve ücretli versiyonları ile ödülleri yalnızca dünyanın teste tabi bölgelerinde kazanılıp alınabilir.</b>
+
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_99
 TEXT: 99. Rütbede Verilir
+
+RESOURCE ID: event_pass_premium_reward_banner_bottom_text_generic_rank
+TEXT: {0}. Rütbede Verilir
 
 RESOURCE ID: event_pass_reward_preview_upsell_description
 TEXT: Bu ödül biletin lüks versiyonu ile alınabilir.
@@ -387,6 +406,9 @@ TEXT: Renk Festivali Premium Süreli Araştırması Bileti
 RESOURCE ID: general1.ticket._gofest2025ver1_title
 TEXT: Pokémon GO Festivali 2025: Küresel Bileti
 
+RESOURCE ID: general1.ticket._tyrogue0425_title
+TEXT: Yumurtadan Çıkan Tyrogue Günü Premium Süreli Araştırması Bileti
+
 RESOURCE ID: general1.ticket4._mar2025_deep_depths
 TEXT: Karanlık Derinlikler Premium Süreli Araştırması Bileti
 
@@ -443,11 +465,17 @@ TEXT: 30 Mart 2025, yerel saatle 20.00’ye kadar sürecek Börtü Böcek premiu
 RESOURCE ID: item_event_ticket_evergreen_desc_foc_mar25
 TEXT: 13 Mart 2025, yerel saatle 10.00 - 17 Mart 2025, yerel saatle 20.00 arasında gerçekleşecek Renk Festivali premium süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_tyrogue0425
+TEXT: 6 Nisan 2025, yerel saatle 17.00’ye kadar sürecek Yumurtadan Çıkan Tyrogue Günü premium süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
+
 RESOURCE ID: item_event_ticket_evergreen_details_bugout0325
 TEXT: Bu bilet Börtü Böcek premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için 26 Mart’ta otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_evergreen_details_foc_mar25
 TEXT: Bu bilet Renk Festivali premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için 13 Mart’ta otomatik olarak etkinleştirilecek.
+
+RESOURCE ID: item_event_ticket_evergreen_details_tyrogue0425
+TEXT: Bu bilet 6 Nisan’da gerçekleşecek Yumurtadan Çıkan Tyrogue Günü premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_gray_desc_megaabsolraidday
 TEXT: 23 Mart 2025’te, yerel saatle 14.00-17.00 arasında geçerli olacak özel bonuslara dilediğiniz yerden hak kazanmanıza olanak tanıyan bir bilet.
@@ -493,6 +521,9 @@ TEXT: Kartpostal Defteri
 
 RESOURCE ID: item_postcard_inventory_name_stamp
 TEXT: Koleksiyon Defteri
+
+RESOURCE ID: items_picked_up
+TEXT: Eşya bulundu!
 
 RESOURCE ID: kr_cherryblossom_festival_2025_tag
 TEXT: Bahar Çiçeği Festivali
@@ -687,10 +718,10 @@ RESOURCE ID: mega_audino_tr_april_2025_title
 TEXT: Mega Audino Akın Günü Süreli Araştırması
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-03-27T00:47:29.638228+00:00 for tr-TR
-at SHA 25cf3b1768c
-Pipeline 3108639, job 38801333
-Patch from: 0.355.0-SHA-386e061f-RC4, 0.353.1-SHA-59d42ab9-RC2
+TEXT: Built at 2025-03-29T00:57:06.948095+00:00 for tr-TR
+at SHA 45adb4d06af
+Pipeline 3115670, job 38934988
+Patch from: 0.355.0-SHA-386e061f-RC4, 0.353.2-SHA-ef962be5-RC1
 
 RESOURCE ID: name_sharing_preference_everyone
 TEXT: Herkes
@@ -788,6 +819,15 @@ TEXT: Topluluk Günü: Süresi Uzatılmış Bonus
 
 RESOURCE ID: post_cdc_extended_bonus
 TEXT: Topluluk Günü Klasik: Süresi Uzatılmış Bonus
+
+RESOURCE ID: quest_catch_pokemon_legendary_ultra_beast_singular
+TEXT: Bir Efsanevi Pokémon veya Ultra Yaratık yakalayın
+
+RESOURCE ID: quest_power_up_machop_plural
+TEXT: Power Up Machop {0} times
+
+RESOURCE ID: quest_send_gifts_days
+TEXT: {0} farklı gün bir Hediye gönderin
 
 RESOURCE ID: quest_spin_india_plural
 TEXT: Hindistan’da {0} PokéDurak döndürün
@@ -1033,6 +1073,11 @@ TEXT: 2. Kademe GO Bileti Bonusları
 RESOURCE ID: season_pass_milestone_bonus_title_03
 TEXT: 3. Kademe GO Bileti Bonusları
 
+RESOURCE ID: season_pass_premium_rewards_desc_monthly
+TEXT: Rütbeniz arttıkça ödüllerin kilidi açılır. Ödülleri alabilmek için oyunu verilen süre zarfında oynamalısınız.
+
+<b>GO Bileti şu anda test aşamasındadır; GO Biletinin ücretsiz ve ücretli versiyonları ile ödülleri yalnızca dünyanın teste tabi bölgelerinde kazanılıp alınabilir.</b>
+
 RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_april
 TEXT: Lüks GO Bileti: Nisan + 10 Rütbe
 
@@ -1044,6 +1089,12 @@ TEXT: Lüks GO Bileti: Nisan
 
 RESOURCE ID: season_pass_premium_track_title_may
 TEXT: Lüks GO Bileti: Mayıs
+
+RESOURCE ID: season_pass_track_upgrade_header_description_100
+TEXT: 100. rütbede ilave ödüller kazanıp <b>Şanslı Süs Eşyasının</b> kilidini açabilirsiniz!
+
+RESOURCE ID: season_pass_track_upgrade_header_description_50
+TEXT: 50. rütbede ilave ödüller kazanıp <b>Şanslı Süs Eşyasının</b> kilidini açabilirsiniz!
 
 RESOURCE ID: send_stamp_warning_modal_description_low_friend_level
 TEXT: Bu Hediye bir damga içeriyor, ancak henüz {0} Arkadaşlık seviyesine ulaşmadığınız için arkadaşınız bu damgayı alamayacak. Bu Hediyeyi yine de göndermek istiyor musunuz?
@@ -1058,7 +1109,7 @@ RESOURCE ID: send_stamp_warning_modal_title
 TEXT: Emin misiniz?
 
 RESOURCE ID: social_planner_cancel_upcoming_warning
-TEXT: Completing this battle will cancel your upcoming RSVP at this location.
+TEXT: Bu maçı tamamlamak bu konumda planladığınız diğer katılımı iptal edecek.
 
 RESOURCE ID: social_planner_cannot_change_active_timeslots_key
 TEXT: Başka bir zaman aralığı mevcut olmadığı için değişiklik yapılamadı.
@@ -1079,7 +1130,7 @@ RESOURCE ID: social_planner_error_rsvp_missing
 TEXT: Hata. Katılım bulunamadı.
 
 RESOURCE ID: social_planner_error_sending_invites_key
-TEXT: Could not send invite to one or more friends.
+TEXT: Bir veya birden fazla arkadaşa davet gönderilemedi.
 
 RESOURCE ID: social_planner_error_timeslot_passed
 TEXT: Bu zaman aralığı artık mevcut değil.
@@ -1130,7 +1181,7 @@ RESOURCE ID: social_planner_rsvp_not_going_text_key
 TEXT: Katılmıyor
 
 RESOURCE ID: social_planner_select_another_time
-TEXT: SELECT ANOTHER TIME
+TEXT: BAŞKA BİR ZAMAN SEÇİN
 
 RESOURCE ID: social_planner_time_conflict_disclaimer_title_key
 TEXT: Zaman Uyuşmazlığı
@@ -1472,6 +1523,12 @@ TEXT: <b>Şu ödülleri içerir:</b>
 • 6000 TP ve 3000 yıldız tozu
 • Ve dahası!
 
+RESOURCE ID: text_rewards_key_tyrogue0425
+TEXT: <b>Ödüller arasında şunlar yer alıyor:</b>
+• 1 Süper Kuluçka Makinesi
+• 1 Yıldız Parçası
+• 2500 TP
+
 RESOURCE ID: ticket_totodile_cdc
 TEXT: Totodile Topluluk Günü Klasik özel araştırması biletini mağazadan alabilirsiniz
 
@@ -1498,6 +1555,9 @@ TEXT: 1 dakika
 
 RESOURCE ID: time_span_mins
 TEXT: {0} dakika
+
+RESOURCE ID: title_event_pass_weekly_bonus_quest
+TEXT: Haftalık Görevler
 
 RESOURCE ID: total_stamps_collected
 TEXT: {0} toplam damga
@@ -1589,6 +1649,27 @@ TEXT: Karanlık Derinlikler Premium Süreli Araştırması
 RESOURCE ID: tr_gofest2025_global_earlybird
 TEXT: GO Fest 2025: Early Bird Timed Research
 
+RESOURCE ID: tr_kr2025_retention_cherryblossom_desc
+TEXT: Kiraz Çiçeği Görevi Süreli Araştırması
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title
+TEXT: Kiraz Çiçeği Görevi
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_00
+TEXT: Kiraz Çiçeği Görevi Süreli Araştırması (1/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_01
+TEXT: Kiraz Çiçeği Görevi Süreli Araştırması (2/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_02
+TEXT: Kiraz Çiçeği Görevi Süreli Araştırması (3/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_03
+TEXT: Kiraz Çiçeği Görevi Süreli Araştırması (4/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_04
+TEXT: Kiraz Çiçeği Görevi Süreli Araştırması (5/5)
+
 RESOURCE ID: tr_kr2025_retention_march_to_may_desc
 TEXT: Hadi İleri Süreli Araştırması
 
@@ -1612,4 +1693,16 @@ TEXT: Hadi İleri Süreli Araştırması (5/6)
 
 RESOURCE ID: tr_kr2025_retention_march_to_may_title_05
 TEXT: Hadi İleri Süreli Araştırması (6/6)
+
+RESOURCE ID: tyrogue_hatch_event_name
+TEXT: Yumurtadan Çıkan Tyrogue Günü
+
+RESOURCE ID: tyrogue_hatch_free_tr_name
+TEXT: Yumurtadan Çıkan Tyrogue Günü Süreli Araştırması
+
+RESOURCE ID: tyrogue_hatch_lead_event_name
+TEXT: Önümüz Yumurtadan Çıkan Tyrogue Günü
+
+RESOURCE ID: tyrogue_hatch_tr_name
+TEXT: Yumurtadan Çıkan Tyrogue Günü Premium Süreli Araştırması
 
