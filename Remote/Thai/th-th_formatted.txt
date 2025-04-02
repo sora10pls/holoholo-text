@@ -33,7 +33,7 @@ RESOURCE ID: archen_mastery_mar2025
 TEXT: ผูเชี่ยวชาญการจับ: อาเคน
 
 RESOURCE ID: as_two_for_one_purchase
-TEXT: This purchase also includes the {0}.
+TEXT: การซื้อครั้งนี้จะไดรับ "{0}" ดวย
 
 RESOURCE ID: available_rsvp_inactive_button_desc
 TEXT: เขารวม {0}
@@ -108,10 +108,10 @@ RESOURCE ID: batch_transfer_100_pokemon
 TEXT: โปเกมอน ★ 100% {0} ตัว
 
 RESOURCE ID: batch_transfer_last_more_pokemon
-TEXT: {0}, {1} และ{2}ที่มีเพียงตัวเดียว
+TEXT: {0}และ{1}ที่มีเพียงตัวเดียว (อื่น ๆ อีก {2} ตัว)
 
 RESOURCE ID: batch_transfer_last_more_pokemon_singular
-TEXT: Your only {0}, {1}, and 1 more
+TEXT: {0}และ{1}ที่มีเพียงตัวเดียว (อื่น ๆ อีก 1 ตัว)
 
 RESOURCE ID: batch_transfer_last_one_pokemon
 TEXT: {0}ที่มีเพียงตัวเดียว
@@ -759,6 +759,9 @@ RESOURCE ID: last_pokemon_transfer_to_professor_confirmation
 TEXT: คุณแนใจใชไหมวาตองการถายโอน
 {0}ที่มีเพียงตัวเดียว?
 
+RESOURCE ID: make_good_kyurem_desc
+TEXT: เผชิญหนา: คิวเรม, 2025
+
 RESOURCE ID: make_good_kyurem_title_001
 TEXT: เผชิญหนา: คิวเรม 1
 
@@ -1048,10 +1051,13 @@ RESOURCE ID: mega_audino_tr_april_2025_title
 TEXT: งานวิจัยแบบจำกัดเวลาวันตีบอสเมกาทาบุนเนะ
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-04-01T00:42:19.437206+00:00 for th-TH
-at SHA c50b2074f1b
-Pipeline 3119509, job 38996401
-Patch from: 0.353.2-SHA-ef962be5-RC1, 0.355.0-SHA-b32ec392-RC3, 0.357.0-SHA-3dd5db6c-RC1
+TEXT: Built at 2025-04-02T00:18:33.807198+00:00 for th-TH
+at SHA bd5bd024667
+Pipeline 3122887, job 39058206
+Patch from: 0.355.1-SHA-cc3986f8-RC1, 0.353.2-SHA-ef962be5-RC1, 0.357.0-SHA-3dd5db6c-RC1
+
+RESOURCE ID: mp_explore_quarter
+TEXT: 1/4 Explore Distance to receive Max Particles
 
 RESOURCE ID: name_sharing_preference_everyone
 TEXT: ทุกคน
@@ -1438,7 +1444,7 @@ RESOURCE ID: snorlax_gmax_tr_2025_title
 TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียม: คาบิกอนกิกะแมกซ
 
 RESOURCE ID: social_planner_cancel_upcoming_warning
-TEXT: Completing this battle will cancel your upcoming RSVP at this location.
+TEXT: หากคุณเสร็จสิ้นแบตเทิลนี้ แบตเทิลถัดไปที่นัดเขารวมที่นี่จะถูกยกเลิก
 
 RESOURCE ID: social_planner_cannot_change_active_timeslots_key
 TEXT: ไมสามารถเปลี่ยนแปลงได เนื่องจากไมมีชวงเวลาอื่นที่วาง
@@ -1459,7 +1465,7 @@ RESOURCE ID: social_planner_error_rsvp_missing
 TEXT: เกิดขอผิดพลาด ไมพบการนัดเขารวม
 
 RESOURCE ID: social_planner_error_sending_invites_key
-TEXT: Could not send invite to one or more friends.
+TEXT: มีเพื่อนอยางนอยหนึ่งคนที่ไมสามารถสงคำเชิญใหได
 
 RESOURCE ID: social_planner_error_timeslot_passed
 TEXT: ชวงเวลานี้ไมสามารถเขารวมไดแลว
@@ -1510,7 +1516,7 @@ RESOURCE ID: social_planner_rsvp_not_going_text_key
 TEXT: ไมเขารวม
 
 RESOURCE ID: social_planner_select_another_time
-TEXT: SELECT ANOTHER TIME
+TEXT: เลือกเวลาอื่น
 
 RESOURCE ID: social_planner_time_conflict_disclaimer_title_key
 TEXT: เวลาทับซอนกัน
@@ -1698,6 +1704,21 @@ TEXT: และดูเหมือนเธอจะชวยใหด�
 หนทางในการพัฒนาตนเองให
 แข็งแกรงขึ้นแลว เดินหนาตอไป!
 
+RESOURCE ID: story_mightandmastery_4_0
+TEXT: 
+
+RESOURCE ID: story_mightandmastery_4_1
+TEXT: 
+
+RESOURCE ID: story_mightandmastery_4_2
+TEXT: 
+
+RESOURCE ID: story_mightandmastery_4_3
+TEXT: 
+
+RESOURCE ID: story_mightandmastery_4_4
+TEXT: 
+
 RESOURCE ID: stunning_styles_event_name
 TEXT: สไตลสุดปง
 
@@ -1714,7 +1735,7 @@ RESOURCE ID: stunning_styles_paid_tr_name_2
 TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียม: สไตลสุดปง (2/2)
 
 RESOURCE ID: team_picker_no_mega_in_max_warning
-TEXT: Your current party cannot join the battle because it includes a Mega-Evolved Pokémon.
+TEXT: ทีมปจจุบันของคุณไมสามารถเขารวมแบตเทิลได เนื่องจากมีโปเกมอนที่วิวัฒนาการเมกา
 
 RESOURCE ID: text_rewards_key_aprilmonthly2025
 TEXT: <b>สิ่งที่จะไดรับ:</b>
@@ -2066,6 +2087,9 @@ TEXT: งานวิจัยแบบจำกัดเวลาพรีเ�
 
 RESOURCE ID: tr_sis_apr2025_1
 TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียม: วสันตผลิบาน (2/2)
+
+RESOURCE ID: trade_special_extra_two
+TEXT: Two additional Special Trades per day
 
 RESOURCE ID: tyrogue_hatch_event_name
 TEXT: วันฟกไขบัลกี
