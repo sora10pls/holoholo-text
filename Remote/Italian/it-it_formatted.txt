@@ -176,7 +176,7 @@ RESOURCE ID: childrens_day_2025_tr_name_1
 TEXT: Children’s Day Magic Timed Research (1/2)
 
 RESOURCE ID: childrens_day_2025_tr_name_2
-TEXT: Children’s Day Magic Timed Research (1/2)
+TEXT: Children’s Day Magic Timed Research (2/2)
 
 RESOURCE ID: collection_book_name
 TEXT: Album
@@ -231,6 +231,9 @@ TEXT: 5 aprile dalle 14:00 alle 17:00
 RESOURCE ID: event_datetime_range_key_sis_apr25
 TEXT: Dal 9 Aprile alle 10:00
 al 14 aprile alle 20:00
+
+RESOURCE ID: event_datetime_range_key_sparringpartnersraidday
+TEXT: 13 aprile dalle 14:00 alle 17:00
 
 RESOURCE ID: event_datetime_range_key_stunning_styles
 TEXT: Dal 3 Aprile alle 10:00
@@ -314,6 +317,9 @@ TEXT: Biglietto per la ricerca a tempo premium dell’evento “Bacomania”
 
 RESOURCE ID: general1.ticket._sis_apr25_title
 TEXT: Biglietto per la ricerca a tempo premium “Primavera fiorita”
+
+RESOURCE ID: general1.ticket._sparringpartnersraidday_title
+TEXT: Biglietto per il giorno di raid dedicato allo sparring
 
 RESOURCE ID: general1.ticket._tyrogue0425_title
 TEXT: Biglietto per la ricerca a tempo premium della giornata della schiusa dedicata a Tyrogue
@@ -730,13 +736,19 @@ RESOURCE ID: mega_audino_tr_april_2025_title
 TEXT: Ricerca a tempo del giorno di raid dedicato a MegaAudino
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-04-04T23:00:51.511841+00:00 for it-IT
-at SHA de6f8dbc591
-Pipeline 3132895, job 39240266
-Patch from: 0.357.0-SHA-b7ef2237-RC2, 0.355.0-SHA-052a300e-RC2
+TEXT: Built at 2025-04-09T00:03:38.777870+00:00 for it-IT
+at SHA 1505c22fe9a
+Pipeline 3141230, job 39381543
+Patch from: 0.355.0-SHA-b32ec392-RC3, 0.357.0-SHA-b7ef2237-RC2
+
+RESOURCE ID: mlb_key
+TEXT: MLB
+
+RESOURCE ID: move_name_0471
+TEXT: Colpo di Mano
 
 RESOURCE ID: mp_explore_quarter
-TEXT: 1/4 Adventuring distance to earn Max Particles
+TEXT: Distanza percorsa per guadagnare particelle Dynamax ridotta di tre quarti
 
 RESOURCE ID: mp_replenish_rrp.1_title
 TEXT: 1 Remote Raid Pass and 1 MP Pack ({0} MP)
@@ -749,6 +761,18 @@ TEXT: Solo Amici
 
 RESOURCE ID: nearby_rsvp_no_rsvps
 TEXT: Non hai RSVP per le prossime lotta.
+
+RESOURCE ID: nearby_rsvp_notification_max_battle_key
+TEXT: Join {0} Trainers in a nearby Gigantamax Battle starting soon!
+
+RESOURCE ID: nearby_rsvp_notification_max_battle_key_singular
+TEXT: Join a nearby Gigantamax Battle starting soon!
+
+RESOURCE ID: nearby_rsvp_notification_raid_key
+TEXT: Join {0} Trainers in a nearby Raid Battle starting soon!
+
+RESOURCE ID: nearby_rsvp_notification_raid_key_singular
+TEXT: Join a nearby Raid Battle starting soon!
 
 RESOURCE ID: ongoing_stamp_collection_header
 TEXT: COLLEZIONI DI TIMBRI IN CORSO
@@ -770,6 +794,9 @@ TEXT: Vuoi davvero trasferire questo Pokémon ★ 100%?
 
 RESOURCE ID: pokemon_caught_stamp_rally
 TEXT: CATTURATO DURANTE UNA COLLEZIONE DI TIMBRI
+
+RESOURCE ID: pokemon_info_pokecoin_label
+TEXT: POKÉCOIN
 
 RESOURCE ID: post_cd_timed_research_name
 TEXT: Ricerca a tempo per lo Sfondo speciale del Community Day
@@ -821,6 +848,12 @@ TEXT: Vinci un raid Ombra
 
 RESOURCE ID: raid_day_mega_audino_event_name
 TEXT: Giorno di raid dedicato a MegaAudino
+
+RESOURCE ID: raid_day_sparring_partners_event_name
+TEXT: Giorno di raid dedicato allo sparring
+
+RESOURCE ID: raid_day_sparring_partners_tr_name
+TEXT: Ricerca a tempo del giorno di raid dedicato allo sparring
 
 RESOURCE ID: raid_day_tr_bonus_unlock
 TEXT: Bonus della ricerca a tempo del giorno di raid
@@ -1373,6 +1406,12 @@ TEXT: <b>Le ricompense includono:</b>
 
 I Remoraid e i Fletchling che incontrerai come ricompensa di questa ricerca e di tutte le altre missioni di ricerca hanno più probabilità di essere cromatici!
 
+RESOURCE ID: text_rewards_key_sparringpartnersraidday
+TEXT: <b>Bonus inclusi:</b>
+• Otto biglietti raid aggiuntivi facendo girare i dischi foto delle Palestre
+• Maggiori probabilità di ottenere Caramelle Rare L nei raid
+• 50% di PE in più e doppio della polvere di stelle quando porti a termine un raid con successo
+
 RESOURCE ID: text_rewards_key_stunning_styles
 TEXT: <b>Le ricompense includono:</b>
 • Incontri con Shellos Mare Ovest, Shellos Mare Est ed Espurr
@@ -1461,7 +1500,7 @@ RESOURCE ID: tr_sis_apr2025_1
 TEXT: Ricerca a tempo premium “Primavera fiorita” (2/2)
 
 RESOURCE ID: trade_special_extra_two
-TEXT: Two additional Special Trades per day
+TEXT: Due scambi speciali aggiuntivi al giorno
 
 RESOURCE ID: tyrogue_hatch_event_name
 TEXT: Giornata della schiusa dedicata a Tyrogue

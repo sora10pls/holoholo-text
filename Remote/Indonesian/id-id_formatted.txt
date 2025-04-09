@@ -166,6 +166,12 @@ TEXT: Penelitian Berwaktu Premium Awas Serangga (1/2)
 RESOURCE ID: bug_out_tr_name_2
 TEXT: Penelitian Berwaktu Premium Awas Serangga (2/2)
 
+RESOURCE ID: cancel_send_button
+TEXT: JANGAN KIRIM
+
+RESOURCE ID: cant_find_spawned_pokemon
+TEXT: Dekati lokasi stempel untuk bertemu dengan Pokémon ini!
+
 RESOURCE ID: charged_embers_lead_event_name
 TEXT: Pendahuluan Hari Penetasan Api Listrik
 
@@ -185,19 +191,25 @@ RESOURCE ID: childrens_day_2025_tr_name_1
 TEXT: Children’s Day Magic Timed Research (1/2)
 
 RESOURCE ID: childrens_day_2025_tr_name_2
-TEXT: Children’s Day Magic Timed Research (1/2)
+TEXT: Children’s Day Magic Timed Research (2/2)
+
+RESOURCE ID: collection_book_name
+TEXT: Buku Tempel
 
 RESOURCE ID: collection_paused
-TEXT: Reli Stempel dijeda
+TEXT: Reli Stempel dijeda!
 
 RESOURCE ID: collection_paused_short
 TEXT: DIJEDA
 
 RESOURCE ID: collection_reactivated
-TEXT: Reli Stempel dilanjutkan
+TEXT: Reli Stempel dilanjutkan!
 
 RESOURCE ID: completed_stamp_collection_header
 TEXT: SUDAH SELESAI
+
+RESOURCE ID: confirm_send_button
+TEXT: KIRIM
 
 RESOURCE ID: details_banner
 TEXT: DETAIL
@@ -235,6 +247,9 @@ RESOURCE ID: event_datetime_range_key_sis_apr25
 TEXT: 9 April 10.00–
 14 April 20.00
 
+RESOURCE ID: event_datetime_range_key_sparringpartnersraidday
+TEXT: 13 April 2024, pukul 14.00 hingga 17.00
+
 RESOURCE ID: event_datetime_range_key_stunning_styles
 TEXT: 3 April 10.00–
 7 April 20.00
@@ -262,7 +277,7 @@ RESOURCE ID: event_time_header
 TEXT: DURASI EVENT
 
 RESOURCE ID: expo_2025_event_overlay_title
-TEXT: EXPO 2025
+TEXT: Pokémon GO di EXPO 2025
 
 RESOURCE ID: firstcatch_experience_10x
 TEXT: XP ×10 dari tangkapan pertamamu setiap hari
@@ -290,6 +305,9 @@ TEXT: Rapid Strike Style
 
 RESOURCE ID: form_single_strike
 TEXT: Single Strike Style
+
+RESOURCE ID: free_stamp_rally_completed_description
+TEXT: Selamat! Kamu telah menyelesaikan reli stempel! Kamu juga dapat terus mengumpulkan lebih banyak stempel!
 
 RESOURCE ID: friend_is_at_a_max_battle
 TEXT: Has joined a <b>{0}</b> battle
@@ -323,6 +341,9 @@ TEXT: Tiket Penelitian Berwaktu Premium Awas Serangga
 
 RESOURCE ID: general1.ticket._sis_apr25_title
 TEXT: Tiket Penelitian Berwaktu Premium Musim Semi Tiba
+
+RESOURCE ID: general1.ticket._sparringpartnersraidday_title
+TEXT: Tiket Hari Raid Partner Sparing
 
 RESOURCE ID: general1.ticket._tyrogue0425_title
 TEXT: Tiket Penelitian Berwaktu Premium Hari Penetasan Tyrogue
@@ -430,7 +451,19 @@ RESOURCE ID: item_mp_desc
 TEXT:  
 
 RESOURCE ID: item_mp_desc_temp
-TEXT: Partikel yang diperlukan untuk Pertarungan Max di Power Spot atau membuka dan meningkatkan level Jurus Max. 
+TEXT: Gunakan Partikel Max untuk Pertarungan Max di Power Spot atau membuka dan meningkatkan level Jurus Max. 
+
+RESOURCE ID: item_postcard_inventory_desc_old
+TEXT: Buku untuk mengumpulkan Kartu Pos dan mengingat lokasi dari perjalananmu dan temanmu.
+
+RESOURCE ID: item_postcard_inventory_desc_stamp
+TEXT: Buku untuk mengumpulkan Kartu Pos dan stempel dari perjalananmu dan temanmu.
+
+RESOURCE ID: item_postcard_inventory_name_old
+TEXT: Buku Kartu Pos
+
+RESOURCE ID: item_postcard_inventory_name_stamp
+TEXT: Buku Tempel
 
 RESOURCE ID: items_picked_up
 TEXT: Item ditemukan!
@@ -730,10 +763,16 @@ RESOURCE ID: mega_audino_tr_april_2025_title
 TEXT: Penelitian Berwaktu Hari Raid Mega Audino
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-04-04T23:00:51.511841+00:00 for id-ID
-at SHA de6f8dbc591
-Pipeline 3132895, job 39240266
-Patch from: 0.357.0-SHA-b7ef2237-RC2, 0.355.0-SHA-052a300e-RC2
+TEXT: Built at 2025-04-09T00:03:38.777870+00:00 for id-ID
+at SHA 1505c22fe9a
+Pipeline 3141230, job 39381543
+Patch from: 0.355.0-SHA-b32ec392-RC3, 0.357.0-SHA-b7ef2237-RC2
+
+RESOURCE ID: mlb_key
+TEXT: MLB
+
+RESOURCE ID: move_name_0471
+TEXT: Mengonter Cepat
 
 RESOURCE ID: mp_explore_quarter
 TEXT: 1/4 Adventuring distance to earn Max Particles
@@ -744,17 +783,32 @@ TEXT: 1 Remote Raid Pass and 1 MP Pack ({0} MP)
 RESOURCE ID: mp_replenish_rrp.3_title
 TEXT: 3 Remote Raid Passes and 3 MP Packs ({0} MP)
 
+RESOURCE ID: nearby_rsvp_notification_max_battle_key
+TEXT: Join {0} Trainers in a nearby Gigantamax Battle starting soon!
+
+RESOURCE ID: nearby_rsvp_notification_max_battle_key_singular
+TEXT: Join a nearby Gigantamax Battle starting soon!
+
+RESOURCE ID: nearby_rsvp_notification_raid_key
+TEXT: Join {0} Trainers in a nearby Raid Battle starting soon!
+
+RESOURCE ID: nearby_rsvp_notification_raid_key_singular
+TEXT: Join a nearby Raid Battle starting soon!
+
 RESOURCE ID: ongoing_stamp_collection_header
 TEXT: SEDANG BERLANGSUNG
 
 RESOURCE ID: pause_dialog_message
-TEXT: Meski dijeda, kamu tetap dapat menerima stempel dari teman. Jika kamu tidak ingin menerima stempel dari teman, matikan dari layar Pengaturan.
+TEXT: Meski dijeda, kamu tetap dapat menerima stempel dari teman. Jika kamu tidak ingin menerima stempel dari teman, matikan fitur di layar Pengaturan.
 
 RESOURCE ID: pause_dialog_subtitle
-TEXT: Berhenti mengumpulkan stempel untuk reli ini. Dapat dilanjutkan kapan pun dari layar koleksi.
+TEXT: Kamu akan berhenti mengumpulkan stempel untuk reli ini jika dijeda. Kamu dapat melanjutkannya kapan pun via layar koleksi.
 
 RESOURCE ID: pause_dialog_title
 TEXT: Yakin ingin menjeda?
+
+RESOURCE ID: pause_stamp_rally_button
+TEXT: JEDA
 
 RESOURCE ID: pokemon_100_transfer_to_professor_confirmation
 TEXT: Yakin ingin mentransfer Pokémon ★ 100% ini?
@@ -768,6 +822,9 @@ TEXT: Aktif
 RESOURCE ID: pokemon_caught_stamp_rally
 TEXT: DITANGKAP DI RELI STEMPEL
 
+RESOURCE ID: pokemon_info_pokecoin_label
+TEXT: POKÉCOIN
+
 RESOURCE ID: quest_battle_team_rocket
 TEXT: Misi: Kalahkan {0} anggota Tim Roket GO
 
@@ -778,7 +835,7 @@ RESOURCE ID: quest_hatch_egg
 TEXT: Misi: Tetaskan Telur
 
 RESOURCE ID: quest_power_up_machop_plural
-TEXT: Power up Machop {0} times
+TEXT: Perkuat Machop {0} kali
 
 RESOURCE ID: quest_send_gifts_days
 TEXT: Kirimkan Hadiah pada {0} hari berbeda
@@ -807,6 +864,12 @@ TEXT: Menangkan Raid Bayangan
 RESOURCE ID: raid_day_mega_audino_event_name
 TEXT: Hari Raid: Mega Audino
 
+RESOURCE ID: raid_day_sparring_partners_event_name
+TEXT: Hari Raid Partner Sparing
+
+RESOURCE ID: raid_day_sparring_partners_tr_name
+TEXT: Penelitian Berwaktu Hari Raid Partner Sparing
+
 RESOURCE ID: raid_day_tr_bonus_unlock
 TEXT: Bonus Penelitian Berwaktu Hari Raid
 
@@ -826,13 +889,13 @@ RESOURCE ID: raid_sort_time
 TEXT: HINGGA PERTARUNGAN BERAKHIR
 
 RESOURCE ID: rally_expo_2025_desc
-TEXT: Reli Stempel GO diselenggarakan di EXPO 2025 Osaka, Kansai, Jepang. 
+TEXT: Reli Stempel GO eksklusif tersedia hanya di EXPO 2025 Osaka, Kansai, Jepang.
 
 RESOURCE ID: rally_expo_2025_desc_detail
 TEXT: Pokémon yang ditangkap dari hadiah pertemuan dengan mengunjungi PokéStop Reli Stempel GO akan memiliki Latar Belakang Lokasi EXPO 2025 Osaka, Kansai, Jepang.
 
 RESOURCE ID: rally_expo_2025_desc_general
-TEXT: Kumpulkan stempel dengan mengunjungi PokéStop Reli Stempel GO di EXPO 2025 untuk mendapatkan hadiah sesuai tema.
+TEXT: Kumpulkan stempel dengan mengunjungi PokéStop Reli Stempel GO di EXPO 2025 untuk hadiah bertema!
 
 RESOURCE ID: rally_expo_2025_location
 TEXT: Osaka, Kansai, Jepang
@@ -841,7 +904,7 @@ RESOURCE ID: rally_expo_2025_rewards_desc
 TEXT: Selesaikan Reli Stempel GO EXPO 2025 untuk mendapatkan pertemuan dengan Pokémon yang muncul di EXPO 2025, plus 25 Permen Bulbasaur, 25 Permen , dan 25 Permen Squirtle.
 
 RESOURCE ID: rally_expo_2025_rewards_desc_general
-TEXT: Selesaikan Reli Stempel GO EXPO 2025 untuk mendapatkan hadiah sesuai tema.
+TEXT: Selesaikan Reli Stempel GO EXPO 2025 untuk mendapatkan berbagai hadiah dan pertemuan bertema!
 
 RESOURCE ID: rally_expo_2025_title
 TEXT: Reli Stempel EXPO 2025
@@ -853,7 +916,7 @@ RESOURCE ID: reactivate_dialog_message
 TEXT: Ada Reli Stempel lainnya yang sedang dijeda. Silakan mulai mengumpulkan stempel setelah melanjutkan reli. 
 
 RESOURCE ID: reactivate_dialog_title
-TEXT: Lanjutkan Reli Stempel?
+TEXT: Lanjutkan reli stempel ini?
 
 RESOURCE ID: remote_max_battle_invite_push_notif
 TEXT: A friend invited you to join a Max Battle!
@@ -977,10 +1040,10 @@ RESOURCE ID: season_pass_track_upgrade_header_description_50
 TEXT: Dapatkan hadiah tambahan dan buka <b>Ornamen Istimewa</b> di level 50!
 
 RESOURCE ID: send_stamp_warning_modal_description_low_friend_level
-TEXT: Belum mencapai Level Pertemanan {0} sehingga tidak dapat menerima stempel. Yakin ingin mengirim Hadiah ini?
+TEXT: Hadiah ini mengandung stempel, tetapi temanmu tidak akan bisa menerimanya karena kamu belum mencapai Level Pertemanan {0}. Yakin ingin mengirimkan Hadiah?
 
 RESOURCE ID: send_stamp_warning_modal_descripton_already_collected
-TEXT: Temanmu telah memiliki stempel ini sehingga tidak dapat menerima stempel. Yakin ingin mengirim Hadiah ini?
+TEXT: Temanmu telah memiliki stempel ini sehingga tidak dapat menerimanya lagi. Yakin ingin mengirim Hadiah ini?
 
 RESOURCE ID: send_stamp_warning_modal_descripton_opted_out
 TEXT: Temanmu menyalakan pengaturan untuk tidak menerima stempel. Yakin ingin mengirim Hadiah ini?
@@ -1046,13 +1109,13 @@ RESOURCE ID: squash_confirmation_singular_temp
 TEXT: You can join 1 more Remote Battle or Raid today. A Remote Raid Pass will be used when the battle starts.
 
 RESOURCE ID: stamp_and_open_gift_button
-TEXT: Buka & Bubuhkan Stempel
+TEXT: Buka & Stempel
 
 RESOURCE ID: stamp_collection_poi_nearby_notification
-TEXT: Dapat memperoleh stempel di {0}!
+TEXT: Ada stempel yang belum dikumpul di sekitar di {0}!
 
 RESOURCE ID: stamp_collection_reward_pokemon_flee_warning_body
-TEXT: Jika kamu mundur dari pertemuan ini, ada kemungkinan kamu tidak dapat bertemu lagi dengannya.
+TEXT: Jika kamu mundur dari pertemuan ini, Pokémon ini akan kabur.
 
 RESOURCE ID: stamp_collection_reward_pokemon_flee_warning_title
 TEXT: Yakin ingin mundur dari pertemuan ini?
@@ -1061,13 +1124,34 @@ RESOURCE ID: stamp_collections_page_header
 TEXT: RELI STEMPEL GO
 
 RESOURCE ID: stamp_completed_description
-TEXT: Kamu telah mengumpulkan semua stempel!
+TEXT: Selamat! Kamu telah menyelesaikan reli stempel ini!
 
 RESOURCE ID: stamp_info_banner
 TEXT: INFO STEMPEL
 
+RESOURCE ID: stamp_page_tutorial_page_1_description
+TEXT: Reli stempel adalah aktivitas mengumpulkan stempel di PokéStop atau Gym tertentu.
+
 RESOURCE ID: stamp_page_tutorial_page_1_header
-TEXT: Apa itu Reli Stempel?
+TEXT: Apa itu reli stempel?
+
+RESOURCE ID: stamp_page_tutorial_page_2_description
+TEXT: Jika kamu mengunjungi PokéStop atau Gym tempat Reli Stempel diselenggarakan, lembaran stempel akan muncul. Ikuti panduan dan tekan stempel!
+
+RESOURCE ID: stamp_page_tutorial_page_2_header
+TEXT: Bagaimana cara mengumpulkan stempel?
+
+RESOURCE ID: stamp_page_tutorial_page_3_description
+TEXT: Beberapa reli stempel memungkinkanmu mengumpulkan stempel dengan bantuan teman. Kamu dapat mengirim dan menerima Hadiah dari PokéStop dengan stempel—jika level pertemananmu {0} atau lebih, si penerima dapat mengumpulkan stempel dari Hadiah, di mana pun mereka berada!
+
+RESOURCE ID: stamp_page_tutorial_page_3_header
+TEXT: Kumpulkan stempel bersama teman!
+
+RESOURCE ID: stamp_page_tutorial_page_4_description
+TEXT: Beberapa reli stempel menawarkan item dan hadiah lainnya untuk pengumpulan stempel. Kumpulkan banyak stempel dan temukan hal menarik lainnya!
+
+RESOURCE ID: stamp_page_tutorial_page_4_header
+TEXT: Kumpulkan semuanya!
 
 RESOURCE ID: stamp_panel_header
 TEXT: Stempel
@@ -1079,46 +1163,97 @@ RESOURCE ID: stamp_poi_details_location_info_header
 TEXT: Tempat seperti apa ini?
 
 RESOURCE ID: stamp_poi_details_location_info_unvisited
-TEXT: Detail lokasi akan ditampilkan setelah kamu kunjungi.
+TEXT: Setelah mengunjungi lokasi ini, informasi detail akan ditampilkan di sini.
 
 RESOURCE ID: stamp_poi_details_received_from
-TEXT: Menerima dari: {0}
+TEXT: Diterima dari: {0}
 
 RESOURCE ID: stamp_poi_details_unvisited
 TEXT: Belum Dikunjungi
 
 RESOURCE ID: stamp_poi_details_visited_date
-TEXT: Hari Kunjungan: {0}
+TEXT: Dikunjungi: {0}
 
 RESOURCE ID: stamp_progression
 TEXT: PROGRES STEMPEL
 
+RESOURCE ID: stamp_rally_achievement_header
+TEXT: Pencapaian
+
+RESOURCE ID: stamp_rally_completed_date
+TEXT: Diselesaikan: {0}
+
 RESOURCE ID: stamp_rally_end_time
 TEXT: hingga {0}
+
+RESOURCE ID: stamp_rally_ends_on
+TEXT: Selesai: {0}
+
+RESOURCE ID: stamp_rally_expired_on
+TEXT: Selesai pada: {0}
+
+RESOURCE ID: stamp_rally_finishes_in
+TEXT: Selesai dalam: {0}
+
+RESOURCE ID: stamp_rally_item_reward_toast
+TEXT: Kumpulkan {0} stempel untuk mendapatkan hadiah!
+
+RESOURCE ID: stamp_rally_item_reward_toast_singular
+TEXT: Kumpulkan 1 stempel untuk mendapatkan hadiah!
+
+RESOURCE ID: stamp_rally_journal_entry_completion
+TEXT: Reli stempel diselesaikan: {0} di {1}!
+
+RESOURCE ID: stamp_rally_journal_entry_progress
+TEXT: Stempel terkumpul dari {0} untuk reli stempel: {1}
+
+RESOURCE ID: stamp_rally_journal_entry_reward
+TEXT: Hadiah diterima dari Reli Stempel: {0}
+
+RESOURCE ID: stamp_rally_missed_reward_toast
+TEXT: Pergi ke salah satu lokasi reli stempel untuk mengklaim hadiah ini.
 
 RESOURCE ID: stamp_rally_no_expiration
 TEXT: Event ini tidak akan berakhir.
 
+RESOURCE ID: stamp_rally_pokemon_item_reward_toast
+TEXT: Kumpulkan {0} stempel untuk bertemu Pokémon dan dapatkan hadiah lainnya!
+
+RESOURCE ID: stamp_rally_pokemon_item_reward_toast_singular
+TEXT: Kumpulkan 1 stempel untuk bertemu Pokémon dan dapatkan hadiah lainnya!
+
+RESOURCE ID: stamp_rally_pokemon_reward_toast
+TEXT: Kumpulkan {0} stempel untuk bertemu Pokémon!
+
+RESOURCE ID: stamp_rally_pokemon_reward_toast_singular
+TEXT: Kumpulkan 1 stempel untuk bertemu Pokémon!
+
+RESOURCE ID: stamp_reward_collected_description
+TEXT: Selamat! Kamu dapat mengambil hadiah!
+
+RESOURCE ID: stamp_reward_toast
+TEXT: Dapatkan hadiah dari mengumpulkan stempel!
+
 RESOURCE ID: stamp_social_receive_tutorial_page_1_header
-TEXT: Ayo kumpulkan stempel bersama teman!
+TEXT: Kumpulkan stempel bersama teman!
 
 RESOURCE ID: stamp_social_receive_tutorial_page_2_header
-TEXT: Apa itu Reli Stempel?
+TEXT: Apa itu reli stempel?
 
 RESOURCE ID: stamp_social_receive_tutorial_page_3_description
-TEXT: Stempel yang telah dikumpulkan dapat dilihat di layar Reli Stempel dalam Buku Tempel.
+TEXT: Stempel yang telah dikumpulkan dapat dilihat di layar reli stempel dalam Buku Tempel.
 
 RESOURCE ID: stamp_social_receive_tutorial_page_3_header
-TEXT: Buku Tempel
+TEXT: Simpan stempel di Buku Temple
 
 RESOURCE ID: stamp_social_send_tutorial_page_1_description
-TEXT: Stempel untuk Reli Stamp termasuk dalam Hadiah ini. Temanmu dapat mengumpulkan stempel ketika menerima Hadiah ini, di mana pun mereka berada.
+TEXT: Hadiah ini termasuk stempel untuk reli stempel. Temanmu dapat mengumpulkan stempel ini ketika menerima Hadiah ini, di mana pun mereka berada.
 
 RESOURCE ID: stamp_social_send_tutorial_page_1_header
-TEXT: Kartu berstempel
+TEXT: Kirim stempel!
 
 RESOURCE ID: stamp_tutorial_page_1_description
-TEXT: Ikon stempel ditampilkan pada PokéStop yang termasuk dalam Reli Stempel.
+TEXT: Ikon stempel ditampilkan di atas PokéStop yang termasuk dalam reli stempel.
 
 Ketika kamu mengetuk PokéStop tersebut, lembaran stempel akan muncul.
 
@@ -1126,10 +1261,10 @@ RESOURCE ID: stamp_tutorial_page_1_header
 TEXT: PokéStop Reli Stempel
 
 RESOURCE ID: stamp_tutorial_page_2_description
-TEXT: Begitu memulai Reli Stempel, akan ditampilkan ikon stempel di menu pada sisi kanan layar. Ketuk ikon stempel untuk mengecek progresmu.
+TEXT: Begitu memulai reli stempel, akan ditampilkan ikon stempel di menu pada sisi kanan layar. Ketuk ikon stempel untuk mengecek progresmu.
 
 RESOURCE ID: stamp_tutorial_page_2_header
-TEXT: Cek cepat
+TEXT: Cek progres reli stempelmu
 
 RESOURCE ID: story_mightandmastery_2_0
 TEXT: %PLAYERNAME% rupanya! Kelihatannya latihan Kubfu milikmu lancar.
@@ -1245,6 +1380,12 @@ TEXT: <b>Termasuk hadiah:</b>
 
 Remoraid dan Fletchling yang ditemukan di hadiah pertemuan untuk Penelitian ini dan tugas Penelitian lainnya berkemungkinan besar Bersinar!
 
+RESOURCE ID: text_rewards_key_sparringpartnersraidday
+TEXT: <b>Termasuk Bonus:</b>
+• Ekstra 8 Tiket Raid dari memutar Disk Foto di Gym
+• Peningkatan peluang perolehan Permen Langka XL dari Raid
+• Ekstra 50% XP dan Debu Bintang ×2 dengan memenangkan Raid
+
 RESOURCE ID: text_rewards_key_stunning_styles
 TEXT: <b>Termasuk hadiah:</b>
 • Pertemuan dengan Shellos Laut Barat, Shellos Laut Timur, dan Espurr
@@ -1260,8 +1401,35 @@ TEXT: <b>Termasuk Hadiah:</b>
 • 1 Serpihan Bintang
 • 2.500 XP
 
+RESOURCE ID: time_span_hr
+TEXT: 1 jam
+
+RESOURCE ID: time_span_hr_min
+TEXT: 1 jam 1 menit
+
+RESOURCE ID: time_span_hr_mins
+TEXT: 1 jam {0} menit
+
+RESOURCE ID: time_span_hrs
+TEXT: {0} jam
+
+RESOURCE ID: time_span_hrs_min
+TEXT: {0} jam 1 menit
+
+RESOURCE ID: time_span_hrs_mins
+TEXT: {0} jam {1} menit
+
+RESOURCE ID: time_span_min
+TEXT: 1 menit
+
+RESOURCE ID: time_span_mins
+TEXT: {0} menit
+
 RESOURCE ID: title_event_pass_weekly_bonus_quest
 TEXT: Tugas Mingguan
+
+RESOURCE ID: total_stamps_collected
+TEXT: Total {0} stempel
 
 RESOURCE ID: tr_gofest2025_global_earlybird
 TEXT: GO Fest 2025: Penelitian Berwaktu Akses Awal

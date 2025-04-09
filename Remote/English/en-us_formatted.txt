@@ -155,7 +155,7 @@ RESOURCE ID: childrens_day_2025_tr_name_1
 TEXT: Children’s Day Magic Timed Research (1/2)
 
 RESOURCE ID: childrens_day_2025_tr_name_2
-TEXT: Children’s Day Magic Timed Research (1/2)
+TEXT: Children’s Day Magic Timed Research (2/2)
 
 RESOURCE ID: em_mall_mela_event_title
 TEXT: Pokémon Fiesta
@@ -189,6 +189,9 @@ TEXT: April 5, 2:00 p.m. – 5:00 p.m.
 RESOURCE ID: event_datetime_range_key_sis_apr25
 TEXT: April 9, 10:00 a.m. –
 April 14, 8:00 p.m.
+
+RESOURCE ID: event_datetime_range_key_sparringpartnersraidday
+TEXT: April 13, 2:00 p.m. – 5:00 p.m.
 
 RESOURCE ID: event_datetime_range_key_stunning_styles
 TEXT: April 3, 10:00 a.m. –
@@ -266,6 +269,9 @@ TEXT: Bug Out Premium Timed Research Ticket
 
 RESOURCE ID: general1.ticket._sis_apr25_title
 TEXT: Spring in Bloom Premium Timed Research Ticket
+
+RESOURCE ID: general1.ticket._sparringpartnersraidday_title
+TEXT: Sparring Partners Raid Day Ticket
 
 RESOURCE ID: general1.ticket._tyrogue0425_title
 TEXT: Tyrogue Hatch Day Premium Timed Research Ticket
@@ -673,10 +679,16 @@ RESOURCE ID: mega_audino_tr_april_2025_title
 TEXT: Mega Audino Raid Day Timed Research
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-04-04T23:00:51.511841+00:00 for en-US
-at SHA de6f8dbc591
-Pipeline 3132895, job 39240266
-Patch from: 0.357.0-SHA-b7ef2237-RC2, 0.355.0-SHA-052a300e-RC2
+TEXT: Built at 2025-04-09T00:03:38.777870+00:00 for en-US
+at SHA 1505c22fe9a
+Pipeline 3141230, job 39381543
+Patch from: 0.355.0-SHA-b32ec392-RC3, 0.357.0-SHA-b7ef2237-RC2
+
+RESOURCE ID: mlb_key
+TEXT: MLB
+
+RESOURCE ID: move_name_0471
+TEXT: Upper Hand
 
 RESOURCE ID: mp_explore_quarter
 TEXT: 1/4 Adventuring distance to earn Max Particles
@@ -686,6 +698,21 @@ TEXT: 1 Remote Raid Pass and 1 MP Pack ({0} MP)
 
 RESOURCE ID: mp_replenish_rrp.3_title
 TEXT: 3 Remote Raid Passes and 3 MP Packs ({0} MP)
+
+RESOURCE ID: nearby_rsvp_notification_max_battle_key
+TEXT: Join {0} Trainers in a nearby Gigantamax Battle starting soon!
+
+RESOURCE ID: nearby_rsvp_notification_max_battle_key_singular
+TEXT: Join a nearby Gigantamax Battle starting soon!
+
+RESOURCE ID: nearby_rsvp_notification_raid_key
+TEXT: Join {0} Trainers in a nearby Raid Battle starting soon!
+
+RESOURCE ID: nearby_rsvp_notification_raid_key_singular
+TEXT: Join a nearby Raid Battle starting soon!
+
+RESOURCE ID: pokemon_info_pokecoin_label
+TEXT: POKÉCOIN
 
 RESOURCE ID: quest_battle_team_rocket
 TEXT: Mission: Defeat {0} Team GO Rocket members
@@ -746,6 +773,12 @@ TEXT: Win a Shadow Raid
 
 RESOURCE ID: raid_day_mega_audino_event_name
 TEXT: Raid Day: Mega Audino
+
+RESOURCE ID: raid_day_sparring_partners_event_name
+TEXT: Sparring Partners Raid Day
+
+RESOURCE ID: raid_day_sparring_partners_tr_name
+TEXT: Sparring Partners Raid Day Timed Research
 
 RESOURCE ID: raid_day_tr_bonus_unlock
 TEXT: Raid Day: Timed Research Bonus
@@ -1065,6 +1098,12 @@ TEXT: <b>Included rewards:</b>
 • 5,000 XP
 
 Remoraid and Fletchling found in reward encounters for this research and all other research tasks are more likely to be Shiny!
+
+RESOURCE ID: text_rewards_key_sparringpartnersraidday
+TEXT: <b>Included bonuses:</b>
+• Eight additional Raid Passes from spinning Photo Discs at Gyms
+• Increased chance to receive Rare Candy XL from raids
+• 50% more XP and 2× Stardust for successfully completing raids
 
 RESOURCE ID: text_rewards_key_stunning_styles
 TEXT: <b>Included rewards:</b>

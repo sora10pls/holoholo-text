@@ -1,3 +1,6 @@
+RESOURCE ID: about_this_stamp_rally
+TEXT: 스탬프랠리에 대해서
+
 RESOURCE ID: additional_candy_catch_bonus
 TEXT: 포켓몬을 잡았을 때 받을 수 있는 사탕 1개 추가
 
@@ -38,25 +41,25 @@ RESOURCE ID: batch_transfer_last_two_pokemon
 TEXT: 1마리만 있는 {0}(와)과 {1}
 
 RESOURCE ID: bonus_event_stamp_rally
-TEXT: GO Stamp Rally now available
+TEXT: GO스탬프랠리 개최
 
 RESOURCE ID: bonus_event_stamp_rally_location_backgrounds
-TEXT: Pokémon caught from GO Stamp Rally reward encounters will have a Location Background
+TEXT: GO스탬프랠리에서 잡은 포켓몬에게 로케이션 배경이 있다
 
 RESOURCE ID: bonus_move_blastoise_hydro_cannon
-TEXT: Evolve Wartortle to get a Blastoise that knows the Charged Attack Hydro Cannon!
+TEXT: 어니부기를 거북왕으로 진화시키면 스페셜 어택 하이드로캐논을 배운다!
 
 RESOURCE ID: bonus_move_charizard_blast_burn
-TEXT: Evolve Charmeleon to get a Charizard that knows the Charged Attack Blast Burn!
+TEXT: 리자드를 리자몽으로 진화시키면 블라스트번을 배운다!
 
 RESOURCE ID: bonus_move_venusaur_frenzy_plant
-TEXT: Evolve Ivysaur to get a Venusaur that knows the Charged Attack Frenzy Plant!
+TEXT: 이상해풀를 이상해꽃으로 진화시키면 스페셜 어택 하드플랜트를 배운다
 
 RESOURCE ID: bonus_photobomb_smeargle
-TEXT: Up to five surprise encounters with Smeargle in GO Snapshot
+TEXT: GO스냅샷으로 루브도의 서프라이즈 5회
 
 RESOURCE ID: bonus_unown_expo
-TEXT: Unown E, X, P, and O appearing in the wild
+TEXT: 안농 (E), (X), (P), (O)가 야생에서 출현
 
 RESOURCE ID: branch_fuzzy_buddy_rd_mar25_cubchoo_button_text_key
 TEXT: 코고미
@@ -163,6 +166,12 @@ TEXT: 벌레타입 포켓몬 프리미엄 시간제한 리서치(1/2)
 RESOURCE ID: bug_out_tr_name_2
 TEXT: 벌레타입 포켓몬 프리미엄 시간제한 리서치(2/2)
 
+RESOURCE ID: cancel_send_button
+TEXT: 보내지 않는다
+
+RESOURCE ID: cant_find_spawned_pokemon
+TEXT: 스탬프를 모은 장소 가까이 가주세요
+
 RESOURCE ID: childrens_day_2025_bonus
 TEXT: Children’s Day Magic Bonuses
 
@@ -179,7 +188,28 @@ RESOURCE ID: childrens_day_2025_tr_name_1
 TEXT: Children’s Day Magic Timed Research (1/2)
 
 RESOURCE ID: childrens_day_2025_tr_name_2
-TEXT: Children’s Day Magic Timed Research (1/2)
+TEXT: Children’s Day Magic Timed Research (2/2)
+
+RESOURCE ID: collection_book_name
+TEXT: 스크랩북
+
+RESOURCE ID: collection_paused
+TEXT: 스탬프랠리 일시 정지
+
+RESOURCE ID: collection_paused_short
+TEXT: 일시 정지
+
+RESOURCE ID: collection_reactivated
+TEXT: 스탬프랠리를 다시 시작했습니다!
+
+RESOURCE ID: completed_stamp_collection_header
+TEXT: 완료함
+
+RESOURCE ID: confirm_send_button
+TEXT: 보내기
+
+RESOURCE ID: details_banner
+TEXT: 상세
 
 RESOURCE ID: details_link_key
 TEXT: 자세한 내용은 <a href="https://pokemongolive.com/ko/news/">웹사이트</a>에서 확인해 주세요.
@@ -212,6 +242,9 @@ RESOURCE ID: event_datetime_range_key_sis_apr25
 TEXT: 4월 9일 10:00~
 4월 14일 20:00
 
+RESOURCE ID: event_datetime_range_key_sparringpartnersraidday
+TEXT: 4월 13일 14시 ~ 17시
+
 RESOURCE ID: event_datetime_range_key_stunning_styles
 TEXT: 4월 3일 10:00~
 4월 7일 20:00
@@ -235,8 +268,11 @@ TEXT: 랭크 {0}(으)로 받는다
 RESOURCE ID: event_pass_reward_preview_upsell_description
 TEXT: 패스 디럭스로 받을 수 있는 리워드입니다.
 
+RESOURCE ID: event_time_header
+TEXT: 이벤트 기간
+
 RESOURCE ID: expo_2025_event_overlay_title
-TEXT: Pokémon GO at EXPO 2025
+TEXT: EXPO 2025
 
 RESOURCE ID: form_normal
 TEXT:  
@@ -255,6 +291,9 @@ TEXT: Rapid Strike Style
 
 RESOURCE ID: form_single_strike
 TEXT: Single Strike Style
+
+RESOURCE ID: free_stamp_rally_completed_description
+TEXT: 스탬프랠리를 완료했습니다! 스탬프는 필요한 수가 넘어도 계속 모을 수 있습니다.
 
 RESOURCE ID: friend_is_at_a_max_battle
 TEXT: Has joined a <b>{0}</b> battle
@@ -288,6 +327,9 @@ TEXT: 벌레타입 포켓몬 프리미엄 시간제한 리서치 티켓
 
 RESOURCE ID: general1.ticket._sis_apr25_title
 TEXT: 봄의 방문 프리미엄 시간제한 리서치 티켓
+
+RESOURCE ID: general1.ticket._sparringpartnersraidday_title
+TEXT: 스파링 파트너 레이드 데이 티켓
 
 RESOURCE ID: general1.ticket._tyrogue0425_title
 TEXT: 배루키 부화데이 프리미엄 시간제한 리서치 티켓
@@ -398,7 +440,19 @@ RESOURCE ID: item_mp_desc
 TEXT:  
 
 RESOURCE ID: item_mp_desc_temp
-TEXT: Use Max Particles to take on Max Battles at Power Spots or unlock and level up Max Moves.
+TEXT: 파워스폿에서 진행되는 맥스배틀이나 맥스기술의 레벨업에 필요한 파티클.
+
+RESOURCE ID: item_postcard_inventory_desc_old
+TEXT: 엽서를 붙여 나와 프렌드의 흔적을 남길 수 있는 앨범.
+
+RESOURCE ID: item_postcard_inventory_desc_stamp
+TEXT: 엽서와 스탬프를 붙여 나와 프렌드의 흔적을 남길 수 있는 앨범.
+
+RESOURCE ID: item_postcard_inventory_name_old
+TEXT: 엽서 앨범
+
+RESOURCE ID: item_postcard_inventory_name_stamp
+TEXT: 스크랩북
 
 RESOURCE ID: items_picked_up
 TEXT: 뭔가 주웠다!
@@ -689,10 +743,16 @@ RESOURCE ID: mega_audino_tr_april_2025_title
 TEXT: 메가다부니 레이드 데이 시간제한 리서치
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-04-04T23:00:51.511841+00:00 for ko-KR
-at SHA de6f8dbc591
-Pipeline 3132895, job 39240266
-Patch from: 0.357.0-SHA-b7ef2237-RC2, 0.355.0-SHA-052a300e-RC2
+TEXT: Built at 2025-04-09T00:03:38.777870+00:00 for ko-KR
+at SHA 1505c22fe9a
+Pipeline 3141230, job 39381543
+Patch from: 0.355.0-SHA-b32ec392-RC3, 0.357.0-SHA-b7ef2237-RC2
+
+RESOURCE ID: mlb_key
+TEXT: MLB
+
+RESOURCE ID: move_name_0471
+TEXT: 기선제압
 
 RESOURCE ID: mp_explore_quarter
 TEXT: 1/4 Adventuring distance to earn Max Particles
@@ -703,8 +763,41 @@ TEXT: 1 Remote Raid Pass and 1 MP Pack ({0} MP)
 RESOURCE ID: mp_replenish_rrp.3_title
 TEXT: 3 Remote Raid Passes and 3 MP Packs ({0} MP)
 
+RESOURCE ID: nearby_rsvp_notification_max_battle_key
+TEXT: Join {0} Trainers in a nearby Gigantamax Battle starting soon!
+
+RESOURCE ID: nearby_rsvp_notification_max_battle_key_singular
+TEXT: Join a nearby Gigantamax Battle starting soon!
+
+RESOURCE ID: nearby_rsvp_notification_raid_key
+TEXT: Join {0} Trainers in a nearby Raid Battle starting soon!
+
+RESOURCE ID: nearby_rsvp_notification_raid_key_singular
+TEXT: Join a nearby Raid Battle starting soon!
+
+RESOURCE ID: ongoing_stamp_collection_header
+TEXT: 개최 중
+
+RESOURCE ID: pause_dialog_message
+TEXT: 일시 정지해도 프렌드의 스탬프는 받을 수 있습니다. 프렌드에게 스탬프를 받지 않을 경우 설정 화면에서 꺼주세요.
+
+RESOURCE ID: pause_dialog_subtitle
+TEXT: 이 스탬프를 모으는 것을 멈추겠습니다. 컬렉션 화면에서 언제든지 다시 시작할 수 있습니다.
+
+RESOURCE ID: pause_dialog_title
+TEXT: 정말로 일시 정지하겠습니까?
+
+RESOURCE ID: pause_stamp_rally_button
+TEXT: 일시 정지
+
 RESOURCE ID: pokemon_100_transfer_to_professor_confirmation
 TEXT: 정마로 ★ 100% 포켓몬을 보내겠습니까?
+
+RESOURCE ID: pokemon_caught_stamp_rally
+TEXT: 스탬프랠리 중 잡았다
+
+RESOURCE ID: pokemon_info_pokecoin_label
+TEXT: POKÉCOIN
 
 RESOURCE ID: quest_battle_team_rocket
 TEXT: 미션: GO로켓단 단원을 {0}번 이긴다
@@ -745,6 +838,12 @@ TEXT: 그림자 레이드에서 1번 이긴다
 RESOURCE ID: raid_day_mega_audino_event_name
 TEXT: 레이드 데이: 메가다부니
 
+RESOURCE ID: raid_day_sparring_partners_event_name
+TEXT: 스파링 레이드 데이 스파링 레이드 데이
+
+RESOURCE ID: raid_day_sparring_partners_tr_name
+TEXT: 스파링 레이드 데이 시간제한 리서치
+
 RESOURCE ID: raid_day_tr_bonus_unlock
 TEXT: 레이드 데이: 시간제한 리서치 보너스
 
@@ -761,28 +860,34 @@ RESOURCE ID: raid_sort_time
 TEXT: 종료까지 시간
 
 RESOURCE ID: rally_expo_2025_desc
-TEXT: Exclusive GO Stamp Rally available only at EXPO 2025 in Osaka, Kansai, Japan.
+TEXT: EXPO 2025 오사카, 칸사이 만박회장에서 GO스탬프랠리 개최
 
 RESOURCE ID: rally_expo_2025_desc_detail
-TEXT: Pokémon caught from reward encounters for visiting GO Stamp Rally PokéStops will have exclusive EXPO 2025 Location Backgrounds for Osaka, Kansai, Japan.
+TEXT: EXPO 2025 오사카, 칸사이 만박의 GO스탬프랠리 포켓스톱을 방문해서 잡는 포켓몬에게 EXPO2025 로케이션 배경이 있다
 
 RESOURCE ID: rally_expo_2025_desc_general
-TEXT: Collect stamps by visiting GO Stamp Rally PokéStops at EXPO 2025 for themed rewards!
+TEXT: EXPO2025 회장 GO스탬프랠리 포켓스톱을 돌며 스탬프를 모으면 테마에 따른 리워드를 받을 수 있습니다!
 
 RESOURCE ID: rally_expo_2025_location
-TEXT: Osaka, Kansai, Japan
+TEXT: 일본 오사카 칸사이
 
 RESOURCE ID: rally_expo_2025_rewards_desc
-TEXT: Complete this GO Stamp Rally to earn encounters with various Pokémon appearing at EXPO 2025, plus 25 Bulbasaur Candy, 25 Charmander Candy, and 25 Squirtle Candy.
+TEXT: 이 GO스탬프랠리를 완료하면 EXPO2025 회장에 출현하는 포켓몬과 만나고 이상해씨의 사탕 25개, 파이리의 사탕 25개, 꼬부기의 사탕 25개를 받을 수 있습니다.
 
 RESOURCE ID: rally_expo_2025_rewards_desc_general
-TEXT: Complete the EXPO 2025 Osaka Stamp Rally to earn various themed encounters and rewards!
+TEXT: EXPO2025 GO스탬프랠리를 완료하고 테마에 따른 리워드를 받으세요!
 
 RESOURCE ID: rally_expo_2025_title
-TEXT: EXPO 2025 Stamp Rally
+TEXT: EXPO2025 스탬프랠리
 
 RESOURCE ID: reactivate_button
-TEXT: RESUME
+TEXT: 다시 시작
+
+RESOURCE ID: reactivate_dialog_message
+TEXT: 일시 정지 중인 스탬프랠리가 더 있습니다. 다시 시작해서 스탬프를 모아 주세요.
+
+RESOURCE ID: reactivate_dialog_title
+TEXT: 스탬프랠리를 다시 시작하겠습니까?
 
 RESOURCE ID: remote_max_battle_invite_push_notif
 TEXT: A friend invited you to join a Max Battle!
@@ -792,6 +897,9 @@ TEXT: 이 루트는 찾을 수 없었습니다
 
 RESOURCE ID: research_breakthrough_bonus_xp_stardust
 TEXT: 대발견 완료로 받을 수 있는 XP와 별의모래 증가
+
+RESOURCE ID: rewards_banner
+TEXT: 리워드
 
 RESOURCE ID: rsvp_attendance_tutorial_link_text_key
 TEXT: 트레이너명이 표시되는 장소의 자세한 내용
@@ -898,6 +1006,18 @@ TEXT: 추가 리워드를 입수할 수 있고 랭그 100으로 <b>반짝이 참
 RESOURCE ID: season_pass_track_upgrade_header_description_50
 TEXT: 추가 리워드를 입수를 할 수 있고 랭크50으로<b>반짝이 참</b>를 잠금 해제!
 
+RESOURCE ID: send_stamp_warning_modal_description_low_friend_level
+TEXT: 우정레벨이 '{0}'가 아니기 때문에 이 선물을 보내도 스탬프를 받을 수 없습니다. 이 선물을 보내겠습니까?
+
+RESOURCE ID: send_stamp_warning_modal_descripton_already_collected
+TEXT: 프렌드가 이미 가진 스탬프라서 이 선물을 보내도 스탬프를 받을 수 없습니다. 이 선물을 보내겠습니까?
+
+RESOURCE ID: send_stamp_warning_modal_descripton_opted_out
+TEXT: 프렌드의 스탬프를 받지 않는다고 설정되어 있습니다. 이 선물을 보내겠습니까?
+
+RESOURCE ID: send_stamp_warning_modal_title
+TEXT: 정말로 보내겠습니까?
+
 RESOURCE ID: sent_friend_error_info_plural_temp
 TEXT: {0} friends have already met their daily limit of Remote Battles and Raids. You can invite more friends!
 
@@ -955,11 +1075,163 @@ TEXT: You can join {0} more Remote Battles and Raids today. A Remote Raid Pass w
 RESOURCE ID: squash_confirmation_singular_temp
 TEXT: You can join 1 more Remote Battle or Raid today. A Remote Raid Pass will be used when the battle starts.
 
+RESOURCE ID: stamp_and_open_gift_button
+TEXT: 열어서 스탬프 찍기
+
+RESOURCE ID: stamp_collection_poi_nearby_notification
+TEXT: {0}에서 스탬프를 받을 수 있습니다!
+
+RESOURCE ID: stamp_collection_reward_pokemon_flee_warning_body
+TEXT: 이 만남에서 도망가면 다시 이 포켓몬을 만날 수 없을 수 없습니다
+
+RESOURCE ID: stamp_collection_reward_pokemon_flee_warning_title
+TEXT: 이 만남에서 도망가겠습니까?
+
+RESOURCE ID: stamp_collections_page_header
+TEXT: GO스탬프랠리
+
+RESOURCE ID: stamp_completed_description
+TEXT: 스탬프를 모두 모았습니다!
+
+RESOURCE ID: stamp_info_banner
+TEXT: 스탬프 정보
+
+RESOURCE ID: stamp_page_tutorial_page_1_description
+TEXT: 특정 포켓스톱과 체육관에서 스탬프를 모을 수 있는 활동입니다.
+
+RESOURCE ID: stamp_page_tutorial_page_1_header
+TEXT: 스탬프랠리란?
+
+RESOURCE ID: stamp_page_tutorial_page_2_description
+TEXT: 스탬프랠리가 진행되는 포켓스톱과 체육관을 방문하면 스탬프 시트가 표시됩니다. 가이드에 따라 스탬프를 찍습니다.
+
+RESOURCE ID: stamp_page_tutorial_page_2_header
+TEXT: 스탬프를 어떻게 모으나요?
+
+RESOURCE ID: stamp_page_tutorial_page_3_description
+TEXT: 프렌드의 도움을 받아서 모으는 스탬프도 있습니다. 우정레벨이 '{0}' 이상이면 선물에 포함되는 스탬프를 받을 수 있습니다.
+
+RESOURCE ID: stamp_page_tutorial_page_3_header
+TEXT: 프렌드와 함께 스탬프를 모으세요!
+
+RESOURCE ID: stamp_page_tutorial_page_4_description
+TEXT: 스탬프와 함께 다른 리워드를 받을 수 있는 스탬프랠리도 있습니다. 스탬프를 계속해서 모아 스탬프 이외의 리워드도 받으세요.
+
+RESOURCE ID: stamp_page_tutorial_page_4_header
+TEXT: 계속해서 모으세요!
+
 RESOURCE ID: stamp_panel_header
-TEXT: Stamps
+TEXT: 스탬프
 
 RESOURCE ID: stamp_panel_header_link
-TEXT: Check link
+TEXT: 링크를 확인
+
+RESOURCE ID: stamp_poi_details_location_info_header
+TEXT: 어떤 장소?
+
+RESOURCE ID: stamp_poi_details_location_info_unvisited
+TEXT: 방문하면 이 장소의 자세한 내용이 표시됩니다
+
+RESOURCE ID: stamp_poi_details_received_from
+TEXT: {0}님이 보냈습니다.
+
+RESOURCE ID: stamp_poi_details_unvisited
+TEXT: 방문 안함
+
+RESOURCE ID: stamp_poi_details_visited_date
+TEXT: 방문: {0}
+
+RESOURCE ID: stamp_progression
+TEXT: 스탬프 진척 상황
+
+RESOURCE ID: stamp_rally_achievement_header
+TEXT: 달성
+
+RESOURCE ID: stamp_rally_completed_date
+TEXT: 완료한 날: {0}
+
+RESOURCE ID: stamp_rally_end_time
+TEXT: {0}까지
+
+RESOURCE ID: stamp_rally_ends_on
+TEXT: 종료: {0}
+
+RESOURCE ID: stamp_rally_expired_on
+TEXT: 종료: {0}
+
+RESOURCE ID: stamp_rally_finishes_in
+TEXT: 종료까지: {0}
+
+RESOURCE ID: stamp_rally_item_reward_toast
+TEXT: 스탬프 {0}개로 받을 수 있다
+
+RESOURCE ID: stamp_rally_item_reward_toast_singular
+TEXT: 스탬프 1개로 받을 수 있다
+
+RESOURCE ID: stamp_rally_journal_entry_completion
+TEXT: {0} 스탬프랠리를 {1}에서 완료했다!
+
+RESOURCE ID: stamp_rally_journal_entry_progress
+TEXT: {1} 스탬프랠리의 스탬프를 {0}에서 모았다!
+
+RESOURCE ID: stamp_rally_journal_entry_reward
+TEXT: 스탬프랠리 보상으로 받음: {0}
+
+RESOURCE ID: stamp_rally_missed_reward_toast
+TEXT: 스탬프를 모은 장소에 가서 리워드를 받으세요
+
+RESOURCE ID: stamp_rally_no_expiration
+TEXT: 종료일 없음
+
+RESOURCE ID: stamp_rally_pokemon_item_reward_toast
+TEXT: 스탬프 {0}개로 포켓몬과의 만남을 포함한 리워드
+
+RESOURCE ID: stamp_rally_pokemon_item_reward_toast_singular
+TEXT: 스탬프 1개로 포켓몬과의 만남을 포함한 리워드
+
+RESOURCE ID: stamp_rally_pokemon_reward_toast
+TEXT: 스탬프 {0}개로 만날 수 있다
+
+RESOURCE ID: stamp_rally_pokemon_reward_toast_singular
+TEXT: 스탬프 1개로 만날 수 있다
+
+RESOURCE ID: stamp_reward_collected_description
+TEXT: 리워드를 받을 수 있습니다!
+
+RESOURCE ID: stamp_reward_toast
+TEXT: 스탬프를 일정 수 모으면 받을 수 있다!
+
+RESOURCE ID: stamp_social_receive_tutorial_page_1_header
+TEXT: 프렌드와 함께 스탬프를 모으자!
+
+RESOURCE ID: stamp_social_receive_tutorial_page_2_header
+TEXT: 스탬프랠리란?
+
+RESOURCE ID: stamp_social_receive_tutorial_page_3_description
+TEXT: 모은 스탬프는 스크랩북 내 스탬프랠리 화면에서 볼 수 있습니다.
+
+RESOURCE ID: stamp_social_receive_tutorial_page_3_header
+TEXT: 스크랩북
+
+RESOURCE ID: stamp_social_send_tutorial_page_1_description
+TEXT: 이 선물은 스탬프랠리용 스탬프를 포함합니다. 프렌드가 어디에 있던 이 선물을 받으면 스탬프랠리가 진행됩니다.
+
+RESOURCE ID: stamp_social_send_tutorial_page_1_header
+TEXT: 스탬프 보내기
+
+RESOURCE ID: stamp_tutorial_page_1_description
+TEXT: 스탬프 아이콘이 표시된 곳이 스탬프랠리에 포함되는 포켓스톱입니다.
+
+이 포켓스톱을 탭 하면 스탬프 시트가 표시됩니다.
+
+RESOURCE ID: stamp_tutorial_page_1_header
+TEXT: 스탬프랠리 포켓스톱
+
+RESOURCE ID: stamp_tutorial_page_2_description
+TEXT: 스탬프랠리를 시작하면 맵 오른쪽 메뉴에 스탬프 아이콘이 표시됩니다. 스탬프 아이콘을 탭 해서 진척도를 확인할 수 있습니다.
+
+RESOURCE ID: stamp_tutorial_page_2_header
+TEXT: 스탬프랠리 확인
 
 RESOURCE ID: story_mightandmastery_2_0
 TEXT: %PLAYERNAME%! 치고마이 트레이닝은 순조롭니?
@@ -1062,6 +1334,12 @@ TEXT: <b>받을 수 있는 리워드:</b>
 
 시간제한 리서치 등의 과제를 완료하고 만나는 총어, 화살꼬빈은 색이 다를 확률이 높습니다.
 
+RESOURCE ID: text_rewards_key_sparringpartnersraidday
+TEXT: <b>받을 수 있는 리워드:</b>
+- 체육관 포토디스크를 돌려 추가 레이드패스 8개
+- 레이드배틀에서 받을 수 있는 이상한사탕XL의 확률 증가 
+- 레이드배틀 승리 시 받을 수 있는 XP 50% 증가와 별의모래 2배 등
+
 RESOURCE ID: text_rewards_key_stunning_styles
 TEXT: <b>받을 수 있는 리워드:</b>
 - 깝질무(서쪽바다), 깝질무(동쪽바다), 냐스퍼와의 만남
@@ -1077,6 +1355,30 @@ TEXT: <b>받을 수 있는 리워드:</b>
 - 별의조각 1개
 - 2,500 XP
 
+RESOURCE ID: time_span_hr
+TEXT: 1시간
+
+RESOURCE ID: time_span_hr_min
+TEXT: 1시간 1분
+
+RESOURCE ID: time_span_hr_mins
+TEXT: 1시간 {0}분
+
+RESOURCE ID: time_span_hrs
+TEXT: {0}시간
+
+RESOURCE ID: time_span_hrs_min
+TEXT: {0}시간 1분
+
+RESOURCE ID: time_span_hrs_mins
+TEXT: {0}시간 {1}분
+
+RESOURCE ID: time_span_min
+TEXT: 1분
+
+RESOURCE ID: time_span_mins
+TEXT: {0}분
+
 RESOURCE ID: titan_ar_mapping_warning_too_dark
 TEXT: 너무 어둡습니다. 밝기를 조정해 주세요.
 
@@ -1091,6 +1393,9 @@ TEXT: 포켓스톱 주변을 천천히 걸어 다시 스캔을 해주십시오.
 
 RESOURCE ID: title_event_pass_weekly_bonus_quest
 TEXT: 위클리 태스크
+
+RESOURCE ID: total_stamps_collected
+TEXT: 스탬프 총 {0}개
 
 RESOURCE ID: tr_gofest2025_global_earlybird
 TEXT: GO Fest 2025 선행 시간제한 리서치
