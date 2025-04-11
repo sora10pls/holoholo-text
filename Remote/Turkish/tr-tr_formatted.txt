@@ -11,7 +11,7 @@ RESOURCE ID: age_confirm_explain
 TEXT: Bu hesap türüyle giriş yapmak için belli bir yaşın üstünde olmak gerekmektedir. Lütfen doğum tarihinizi teyit edin.
 
 RESOURCE ID: age_confirm_fail
-TEXT: Üzgünüz, bu hesap türüyle giriş yapmak için gereken<a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">yaş şartlarını</a> karşılamıyorsunuz. Hesabınız Hizmet Şartlarımız gereğince silinecektir. Bu tür bir hesapla giriş yapmak için gereken koşullara sahip olduğunuzu düşünüyorsanız lütfen bizimle iletişime geçin.
+TEXT: Üzgünüz, bu hesap türüyle giriş yapmak için gereken<a href="https://niantic.helpshift.com/hc/faq/4996-i-cannot-login-and-message-shows-sorry-you-do-not-meet-the-age-requirement-to-login-with-this-type-of-account/">yaş şartlarını</a> karşılamıyorsunuz. Hesabınız Hizmet Şartlarımız gereğince silinecektir. Bu tür bir hesapla giriş yapmak için gereken koşullara sahip olduğunuzu düşünüyorsanız lütfen bizimle iletişime geçin.
 
 RESOURCE ID: age_confirm_popup_confirm
 TEXT: Emin misiniz? Bu bilgi girildikten sonra bir daha değiştirilemez.
@@ -24,6 +24,18 @@ TEXT: Haritada Poké Topları ortaya çıkıyor!
 
 RESOURCE ID: as_two_for_one_purchase
 TEXT: {0} eşyası da bu satın alıma dahildir.
+
+RESOURCE ID: avatar_hat_applinheadband
+TEXT: Applin Tacı
+
+RESOURCE ID: avatar_hat_captainpikachu
+TEXT: Kaptan Pikachu Şapkası
+
+RESOURCE ID: avatar_pose_tinkaton
+TEXT: Tinkaton Pozu
+
+RESOURCE ID: avatar_shirt_applinapron
+TEXT: Applin Önlüğü
 
 RESOURCE ID: batch_transfer_100_pokemon
 TEXT: {0} ★ %100 Pokémon
@@ -39,6 +51,12 @@ TEXT: Elinizdeki tek {0}
 
 RESOURCE ID: batch_transfer_last_two_pokemon
 TEXT: Elinizdeki tek {0} ve {1}
+
+RESOURCE ID: behemoth_bash_adventure_effect_battle_log
+TEXT: YOUR POKÉMON’S DEFENSE IS BOOSTED BY BEHEMOTH BASH’S ADVENTURE EFFECT!
+
+RESOURCE ID: behemoth_blade_adventure_effect_battle_log
+TEXT: YOUR POKÉMON’S ATTACKS ARE BOOSTED BY BEHEMOTH BLADE’S ADVENTURE EFFECT!
 
 RESOURCE ID: bonus_event_stamp_rally
 TEXT: GO Damga Toplama başladı
@@ -97,54 +115,60 @@ TEXT: Bu seçenek ile bu süreli araştırma boyunca görevleri tamamladığın�
 RESOURCE ID: branch_fuzzy_buddy_rd_mar25_teddiursa_title_key
 TEXT: Teddiursa
 
+RESOURCE ID: bread_battle_bread_countdown_special
+TEXT: {0}...
+
 RESOURCE ID: bread_battle_reward_bonus_title
-TEXT: + In-Person Bonus
+TEXT: + Canlı Maç Bonusu
 
 RESOURCE ID: bread_battle_reward_bonus_update
 TEXT: {0} Bonus
 
 RESOURCE ID: bread_lobby_error_friend_details_unavailable
-TEXT: Something went wrong when sending this invite. Please try again.
+TEXT: Bu davet gönderilirken bir hata meydana geldi. Lütfen tekrar deneyin.
 
 RESOURCE ID: bread_lobby_error_no_remote_slots_remaining
-TEXT: The maximum number of remote players has been reached.
+TEXT: Maksimum uzak oyuncu sayısına ulaşıldı.
 
 RESOURCE ID: bread_lobby_error_no_remote_ticket
-TEXT: Uh-oh! You’re out of Remote Raid Passes.
+TEXT: Tüh! Uzak Akın Biletleriniz bitti.
 
 RESOURCE ID: bread_mp_for_remote_battle_lobby
-TEXT: Use {0} MP and
-a Remote Raid Pass
+TEXT: Bir Uzak Akın Bileti ve
+ {0} MP kullanın
 
 RESOURCE ID: bread_remote_iap_mp_rrp_replenish_description
-TEXT: You need a Remote Raid Pass and Max Particles to join this battle.
+TEXT: Bu maça katılmanız için bir Uzak Akın Bileti ve Maksi Parçacıklara ihtiyacınız var.
 
 RESOURCE ID: bread_remote_iap_mp_rrp_replenish_title
-TEXT: You’re out of Remote Raid Passes and Max Particles
+TEXT: Uzak Akın Biletiniz ve Maksi Parçacığınız kalmadı
 
 RESOURCE ID: bread_remote_invite_in_game_notification
-TEXT: {0} invited you to a Max Battle!
+TEXT: {0} sizi bir Maksi Maça davet etti!
 
 RESOURCE ID: bread_remote_tutorial_message_0
-TEXT: You’re viewing a Max Battle that is far away. You can join the battle remotely by using a Remote Raid Pass and Max Particles.
+TEXT: Görüntülediğiniz Maksi Maç sizden uzakta. Uzak Akın Bileti ve Maksi Parçacık kullanarak maça uzaktan katılabilirsiniz.
 
 RESOURCE ID: bread_remote_tutorial_title_0
-TEXT: Remote Max Battles are here!
+TEXT: Uzak Maksi Maçlar geldi!
 
 RESOURCE ID: bread_remote_use_rrp_confirmation
-TEXT: You can join {0} more Max Battles today. Max Particles are only used when you win. A Remote Raid Pass will be used when the battle starts.
+TEXT: Bugün {0} Maksi Maça daha katılabilirsiniz. Maksi Parçacıklar yalnızca galibiyet elde ettiğinizde kullanılır. Maç başladığında bir Uzak Akın Bileti kullanılır.
+
+RESOURCE ID: bread_station_failure_description_cannot_station
+TEXT: {0} cannot be placed at Power Spots.
 
 RESOURCE ID: bread_station_tutorial_message_6
-TEXT: You can participate in Max Battles remotely by using a Remote Raid Pass and Max Particles.
+TEXT: Uzak Akın Bileti ve Maksi Parçacık kullanarak Maksi Maçlara uzaktan katılabilirsiniz.
 
 RESOURCE ID: bread_station_tutorial_message_7
-TEXT: Winning a Max Battle in person grants additional rewards.
+TEXT: Canlı olarak katıldığınız bir Maksi Maçı kazanmak ek ödüller kazandırıyor.
 
 RESOURCE ID: bread_station_tutorial_title_6
-TEXT: Remote Max Battles
+TEXT: Uzak Maksi Maçlar
 
 RESOURCE ID: bread_station_tutorial_title_7
-TEXT: In-Person Bonus
+TEXT: Canlı Maç Bonusu
 
 RESOURCE ID: bug_out_collection_evolve
 TEXT: Börtü Böcek Toplama Görevi: İpekten Koza
@@ -290,6 +314,9 @@ TEXT: Bu Pokémon verdiğiniz elma türüne bağlı olarak farklı Pokémon’la
 RESOURCE ID: expo_2025_event_overlay_title
 TEXT: EXPO 2025’te Pokémon GO
 
+RESOURCE ID: form_change_raid_toast
+TEXT: {0} reverted to its {1} form.
+
 RESOURCE ID: form_normal
 TEXT:  
 
@@ -312,7 +339,7 @@ RESOURCE ID: free_stamp_rally_completed_description
 TEXT: Tebrikler! Damga toplama etkinliğini tamamladınız! İsterseniz yine de damga toplamaya devam edebilirsiniz!
 
 RESOURCE ID: friend_is_at_a_max_battle
-TEXT: Has joined a <b>{0}</b> battle
+TEXT: Bir <b>{0}</b> maçına katıldı
 
 RESOURCE ID: fuzzy_buddies_event_name
 TEXT: Pofuduk Dostlar Araştırma Günü
@@ -509,6 +536,12 @@ TEXT: Kartpostal Defteri
 
 RESOURCE ID: item_postcard_inventory_name_stamp
 TEXT: Koleksiyon Defteri
+
+RESOURCE ID: item_resource_crowned_zacian_name
+TEXT: Crowned Sword Energy
+
+RESOURCE ID: item_resource_crowned_zamazenta_name
+TEXT: Crowned Shield Energy
 
 RESOURCE ID: items_picked_up
 TEXT: Doğada bir şey bulundu!
@@ -799,28 +832,58 @@ RESOURCE ID: mega_audino_tr_april_2025_title
 TEXT: Mega Audino Akın Günü Süreli Araştırması
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-04-10T22:39:25.518681+00:00 for tr-TR
-at SHA 3db36f32bda
-Pipeline 3147248, job 39513673
-Patch from: 0.355.0-SHA-e7c2b5e7-RC1, 0.357.0-SHA-4b78e5b4-RC4
+TEXT: Built at 2025-04-11T23:10:06.582546+00:00 for tr-TR
+at SHA 25280f742eb
+Pipeline 3151056, job 39587955
+Patch from: 0.355.0-SHA-386e061f-RC4, 0.357.0-SHA-a266da41-RC5
 
 RESOURCE ID: mlb_key
 TEXT: MLB
 
+RESOURCE ID: move_name_0469
+TEXT: Behemoth Blade
+
+RESOURCE ID: move_name_0470
+TEXT: Behemoth Bash
+
 RESOURCE ID: move_name_0471
 TEXT: Üstün El
+
+RESOURCE ID: move_name_0473
+TEXT: Guard
+
+RESOURCE ID: move_name_0474
+TEXT: Spirit
+
+RESOURCE ID: move_name_0475
+TEXT: Guard
+
+RESOURCE ID: move_name_0476
+TEXT: Spirit
+
+RESOURCE ID: move_name_0477
+TEXT: Guard
+
+RESOURCE ID: move_name_0478
+TEXT: Spirit
+
+RESOURCE ID: move_name_0479
+TEXT: Behemoth Blade
+
+RESOURCE ID: move_name_0480
+TEXT: Behemoth Bash
 
 RESOURCE ID: mp_explore_quarter
 TEXT: Maksi Parçacık kazanmak için 1/4 macera mesafesi
 
 RESOURCE ID: mp_replenish_rrp.1_title
-TEXT: 1 Remote Raid Pass
-1 Max Particle Pack
+TEXT: 1 Uzak Akın Bileti
+1 Maksi Parçacık Paketi
 ({0} MP)
 
 RESOURCE ID: mp_replenish_rrp.3_title
-TEXT: 3 Remote Raid Passes
-3 Max Particle Packs
+TEXT: 3 Uzak Akın Bileti
+3 Maksi Parçacık Paketi
 ({0} MP)
 
 RESOURCE ID: nearby_rsvp_notification_max_battle_key
@@ -856,8 +919,26 @@ TEXT: Bu ★ %100 Pokémon gerçekten gönderilsin mi?
 RESOURCE ID: pokemon_caught_stamp_rally
 TEXT: DAMGA TOPLAMA SIRASINDA YAKALANDI
 
+RESOURCE ID: pokemon_info_evolve_need_bread_move
+TEXT: Need {0} level {1}.
+
+RESOURCE ID: pokemon_info_evolve_need_cinematic_move
+TEXT: Must know Charged Attack {0} to change form
+
+RESOURCE ID: pokemon_info_evolve_need_quick_move
+TEXT: Must know Fast Attack {0} to change form
+
+RESOURCE ID: pokemon_info_form_change_confirmation
+TEXT: Do you want to change {0} from its {1} form to its {2} Form?
+
 RESOURCE ID: pokemon_info_pokecoin_label
 TEXT: POKÉPARA
+
+RESOURCE ID: pokemon_species_form_0888_2576
+TEXT: Crowned Sword Zacian
+
+RESOURCE ID: pokemon_species_form_0889_2578
+TEXT: Crowned Shield Zamazenta
 
 RESOURCE ID: quest_battle_team_rocket
 TEXT: Görev: {0} GO Roket Takımı üyesini alt edin
@@ -917,7 +998,7 @@ RESOURCE ID: raid_rsvp_bonus
 TEXT: Planlı Katılım
 
 RESOURCE ID: raid_s_pass_daily_limit_temp
-TEXT: You’ve reached your daily limit of Remote Max Battles and Remote Raids. Walk closer to join in person.
+TEXT: Günlük uzak Maksi Maç ve uzak akın sınırınıza ulaştınız. Canlı katılmak için yaklaşın.
 
 RESOURCE ID: raid_sort_time
 TEXT: MAÇIN BİTİMİNE KALAN SÜRE
@@ -953,7 +1034,7 @@ RESOURCE ID: reactivate_dialog_title
 TEXT: Bu damga toplamaya devam edilsin mi?
 
 RESOURCE ID: remote_max_battle_invite_push_notif
-TEXT: A friend invited you to a Max Battle!
+TEXT: Arkadaşınız sizi bir Maksi Maça davet etti!
 
 RESOURCE ID: report_route_error_not_found
 TEXT: Bu rota bulunamadı.
@@ -1085,13 +1166,13 @@ RESOURCE ID: send_stamp_warning_modal_title
 TEXT: Emin misiniz?
 
 RESOURCE ID: sent_friend_error_info_plural_temp
-TEXT: {0} friends have already met their daily limit of Remote Max Battles and Remote Raids. You can invite more friends!
+TEXT: {0} arkadaşınız günlük uzak Maksi Maç ve uzak akın sınırına ulaşmış. Başka arkadaşlar davet edebilirsiniz!
 
 RESOURCE ID: sent_friend_error_info_singular_temp
-TEXT: A friend has already met their daily limit of Remote Max Battles and Remote Raids. You can invite another friend!
+TEXT: Bir arkadaşınız günlük uzak Maksi Maç ve uzak akın sınırına ulaşmış. Başka bir arkadaş davet edebilirsiniz!
 
 RESOURCE ID: sent_friend_error_toast_temp
-TEXT: Trainer has reached their daily limit of Remote Max Battles and Remote Raids.
+TEXT: Eğitmen günlük uzak Maksi Maç ve uzak akın sınırına ulaşmış.
 
 RESOURCE ID: snorlax_gmax_tr_2025_title
 TEXT: Gigantamaks Snorlax Premium Süreli Araştırması
@@ -1139,10 +1220,10 @@ RESOURCE ID: spring_into_spring_apr2025_cc_sun
 TEXT: Bahara Merhaba Toplama Görevi: Güneşli Günler
 
 RESOURCE ID: squash_confirmation_plural_temp
-TEXT: You can join {0} more Remote Max Battles or Remote Raids today. A Remote Raid Pass will be used when the battle starts.
+TEXT: Bugün {0} uzak Maksi Maça veya uzak akına daha katılabilirsiniz. Maç başladığında bir Uzak Akın Bileti kullanılacak.
 
 RESOURCE ID: squash_confirmation_singular_temp
-TEXT: You can join one more Remote Max Battle or Remote Raid today. A Remote Raid Pass will be used when the battle starts.
+TEXT: Bugün 1 uzak Maksi Maça veya uzak akına daha katılabilirsiniz. Maç başladığında bir Uzak Akın Bileti kullanılacak.
 
 RESOURCE ID: stamp_and_open_gift_button
 TEXT: Aç ve Damgayı Kap
@@ -1234,7 +1315,7 @@ TEXT: {0} tarihinde bitiyor
 RESOURCE ID: stamp_rally_ends_on
 TEXT: Bitiş tarihi: {0}
 
-RESOURCE ID: stamp_rally_expired_on
+RESOURCE ID: stamp_rally_finished_on
 TEXT: Şu tarihte bitti: {0}
 
 RESOURCE ID: stamp_rally_finishes_in
@@ -1328,21 +1409,6 @@ TEXT: Öte yandan Uçan, Psişik ve Peri türlerinden gelen saldırılar karşı
 
 RESOURCE ID: story_mightandmastery_3_3
 TEXT: Sayende Kubfu nasıl ilerleyeceğini çok daha iyi biliyor. Güçlenmeye ve güçlendirmeye devam!
-
-RESOURCE ID: story_mightandmastery_4_0
-TEXT: 
-
-RESOURCE ID: story_mightandmastery_4_1
-TEXT: 
-
-RESOURCE ID: story_mightandmastery_4_2
-TEXT: 
-
-RESOURCE ID: story_mightandmastery_4_3
-TEXT: 
-
-RESOURCE ID: story_mightandmastery_4_4
-TEXT: 
 
 RESOURCE ID: stunning_styles_event_name
 TEXT: Çarpıcı Tarzlar
@@ -1480,6 +1546,9 @@ TEXT: {0} dakika
 RESOURCE ID: title_event_pass_weekly_bonus_quest
 TEXT: Haftalık Görevler
 
+RESOURCE ID: tm_cannot_unlearn
+TEXT: {0} cannot forget {1}.
+
 RESOURCE ID: total_stamps_collected
 TEXT: {0} toplam damga
 
@@ -1536,4 +1605,22 @@ TEXT: Önümüz Yumurtadan Çıkan Tyrogue Günü
 
 RESOURCE ID: tyrogue_hatch_tr_name
 TEXT: Yumurtadan Çıkan Tyrogue Günü Premium Süreli Araştırması
+
+RESOURCE ID: upgrade_description_zacian
+TEXT: This Pokémon can change forms with Sword Energy, and if they know the Charged Attack Iron Head. You can get Sword Energy by defeating Crowned Form Zacian in Raids.
+
+RESOURCE ID: upgrade_description_zamazenta
+TEXT: This Pokémon can change forms with Shield Energy, and if they know the Charged Attack Iron Head. You can get Shield Energy by defeating Crowned Form Zamazenta in Raids.
+
+RESOURCE ID: use_behemoth_bash_effect
+TEXT: Pokémon defense increased in Raids and Max Battles
+
+RESOURCE ID: use_behemoth_blade_effect
+TEXT: Pokémon attack increased in Raids and Max Battles
+
+RESOURCE ID: zacian_move_content
+TEXT: Zacian wields a large, powerful sword for {0} minutes. Strengthens your Pokémon's attacks in Raids and Max Battles.
+
+RESOURCE ID: zamazenta_move_content
+TEXT: Zamazenta wields a large, powerful shield for {0} minutes. Strengthens your Pokémon's defense in Raids and Max Battles.
 

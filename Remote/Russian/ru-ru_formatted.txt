@@ -11,7 +11,7 @@ RESOURCE ID: age_confirm_explain
 TEXT: Для входа с данным типом аккаунта необходимо, чтобы пользователь достиг определённого возраста. Пожалуйста, подтверди свою дату рождения.
 
 RESOURCE ID: age_confirm_fail
-TEXT: К сожалению, твой возраст не соответствует <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">требованиям</a>, необходимым для входа с данным типом аккаунта, и твой аккаунт будет удалён в соответствии с нашими Условиями предоставления услуг. Если ты считаешь, что данные соответствуют требованиям, свяжись с нами.
+TEXT: К сожалению, твой возраст не соответствует <a href="https://niantic.helpshift.com/hc/faq/4996-i-cannot-login-and-message-shows-sorry-you-do-not-meet-the-age-requirement-to-login-with-this-type-of-account/">требованиям</a>, необходимым для входа с данным типом аккаунта, и твой аккаунт будет удалён в соответствии с нашими Условиями предоставления услуг. Если ты считаешь, что данные соответствуют требованиям, свяжись с нами.
 
 RESOURCE ID: age_confirm_popup_confirm
 TEXT: Ты точно хочешь продолжить? Ты не сможешь изменить данные после ввода.
@@ -24,6 +24,18 @@ TEXT: Поке-Боллы появляются на карте!
 
 RESOURCE ID: as_two_for_one_purchase
 TEXT: Эта покупка также включает предмет: {0}.
+
+RESOURCE ID: avatar_hat_applinheadband
+TEXT: Ободок Апплин
+
+RESOURCE ID: avatar_hat_captainpikachu
+TEXT: Фуражка Капитан Пикачу
+
+RESOURCE ID: avatar_pose_tinkaton
+TEXT: Поза Тинкатон
+
+RESOURCE ID: avatar_shirt_applinapron
+TEXT: Фартук Апплин
 
 RESOURCE ID: batch_transfer_100_pokemon
 TEXT: ★ 100% Покемоны ×{0}
@@ -39,6 +51,12 @@ TEXT: Твой единственный Покемон {0}
 
 RESOURCE ID: batch_transfer_last_two_pokemon
 TEXT: Твои единственные Покемон {0} и Покемон {1}
+
+RESOURCE ID: behemoth_bash_adventure_effect_battle_log
+TEXT: YOUR POKÉMON’S DEFENSE IS BOOSTED BY BEHEMOTH BASH’S ADVENTURE EFFECT!
+
+RESOURCE ID: behemoth_blade_adventure_effect_battle_log
+TEXT: YOUR POKÉMON’S ATTACKS ARE BOOSTED BY BEHEMOTH BLADE’S ADVENTURE EFFECT!
 
 RESOURCE ID: bonus_event_stamp_rally
 TEXT: Марафон печатей GO уже доступен
@@ -97,6 +115,9 @@ TEXT: Выбери этот вариант, чтобы встретить Тед
 RESOURCE ID: branch_fuzzy_buddy_rd_mar25_teddiursa_title_key
 TEXT: Теддиурса
 
+RESOURCE ID: bread_battle_bread_countdown_special
+TEXT: {0}...
+
 RESOURCE ID: bread_battle_reward_bonus_title
 TEXT: + In-Person Bonus
 
@@ -133,6 +154,9 @@ TEXT: Remote Max Battles are here!
 
 RESOURCE ID: bread_remote_use_rrp_confirmation
 TEXT: You can join {0} more Max Battles today. Max Particles are only used when you win. A Remote Raid Pass will be used when the battle starts.
+
+RESOURCE ID: bread_station_failure_description_cannot_station
+TEXT: {0} cannot be placed at Power Spots.
 
 RESOURCE ID: bread_station_tutorial_message_6
 TEXT: You can participate in Max Battles remotely by using a Remote Raid Pass and Max Particles.
@@ -174,22 +198,22 @@ RESOURCE ID: cant_find_spawned_pokemon
 TEXT: Подойди ближе к месту с печати, чтобы встретиться с этим Покемоном!
 
 RESOURCE ID: childrens_day_2025_bonus
-TEXT: Children’s Day Magic Bonuses
+TEXT: Бонус события Волшебство Дня Защиты Детей
 
 RESOURCE ID: childrens_day_2025_evolve_move_bonus_lucario
-TEXT: Evolve Riolu to get a Lucario that knows the Fast Attack Force Palm!
+TEXT: Эволюционируй Риолу, чтобы получить Лукарио, который знает быструю атаку Сильная Ладонь!
 
 RESOURCE ID: childrens_day_2025_title
-TEXT: Children’s Day Magic
+TEXT: Волшебство Дня Защиты Детей
 
 RESOURCE ID: childrens_day_2025_tr_name
-TEXT: Children’s Day Magic Timed Research
+TEXT: Квест на Время Волшебство Дня Защиты Детей
 
 RESOURCE ID: childrens_day_2025_tr_name_1
-TEXT: Children’s Day Magic Timed Research (1/2)
+TEXT: Квест на Время Волшебство Дня Защиты Детей (1/2)
 
 RESOURCE ID: childrens_day_2025_tr_name_2
-TEXT: Children’s Day Magic Timed Research (2/2)
+TEXT: Квест на Время Волшебство Дня Защиты Детей (2/2)
 
 RESOURCE ID: collection_book_name
 TEXT: Альбом
@@ -292,6 +316,9 @@ TEXT: Этот Покемон может эволюционировать в р�
 
 RESOURCE ID: expo_2025_event_overlay_title
 TEXT: Pokémon GO на EXPO 2025
+
+RESOURCE ID: form_change_raid_toast
+TEXT: {0} reverted to its {1} form.
 
 RESOURCE ID: form_normal
 TEXT:  
@@ -530,6 +557,12 @@ TEXT: Альбом для Открыток
 
 RESOURCE ID: item_postcard_inventory_name_stamp
 TEXT: Альбом
+
+RESOURCE ID: item_resource_crowned_zacian_name
+TEXT: Crowned Sword Energy
+
+RESOURCE ID: item_resource_crowned_zamazenta_name
+TEXT: Crowned Shield Energy
 
 RESOURCE ID: items_picked_up
 TEXT: Что-то найдено!
@@ -835,16 +868,46 @@ RESOURCE ID: mega_audino_tr_april_2025_title
 TEXT: Квест на Время Рейдовый День: Мега-Одино
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-04-10T22:39:25.518681+00:00 for ru-RU
-at SHA 3db36f32bda
-Pipeline 3147248, job 39513673
-Patch from: 0.355.0-SHA-e7c2b5e7-RC1, 0.357.0-SHA-4b78e5b4-RC4
+TEXT: Built at 2025-04-11T23:10:06.582546+00:00 for ru-RU
+at SHA 25280f742eb
+Pipeline 3151056, job 39587955
+Patch from: 0.355.0-SHA-386e061f-RC4, 0.357.0-SHA-a266da41-RC5
 
 RESOURCE ID: mlb_key
 TEXT: MLB
 
+RESOURCE ID: move_name_0469
+TEXT: Behemoth Blade
+
+RESOURCE ID: move_name_0470
+TEXT: Behemoth Bash
+
 RESOURCE ID: move_name_0471
 TEXT: Тыльная Сторона Ладони
+
+RESOURCE ID: move_name_0473
+TEXT: Guard
+
+RESOURCE ID: move_name_0474
+TEXT: Spirit
+
+RESOURCE ID: move_name_0475
+TEXT: Guard
+
+RESOURCE ID: move_name_0476
+TEXT: Spirit
+
+RESOURCE ID: move_name_0477
+TEXT: Guard
+
+RESOURCE ID: move_name_0478
+TEXT: Spirit
+
+RESOURCE ID: move_name_0479
+TEXT: Behemoth Blade
+
+RESOURCE ID: move_name_0480
+TEXT: Behemoth Bash
 
 RESOURCE ID: mp_explore_quarter
 TEXT: 1/4 расстояния приключений, чтобы заработать Частицы Макс
@@ -860,16 +923,16 @@ TEXT: 3 Remote Raid Passes
 ({0} MP)
 
 RESOURCE ID: nearby_rsvp_notification_max_battle_key
-TEXT: Join {0} Trainers in a nearby Gigantamax Battle starting soon!
+TEXT: Скоро поблизости начнётся Гигантамакс-битва! Присоединяйся к другим Тренерам: {0}!
 
 RESOURCE ID: nearby_rsvp_notification_max_battle_key_singular
-TEXT: Join a nearby Gigantamax Battle starting soon!
+TEXT: Cкоро рядом с тобой начнётся Гигантамакс-битва! Присоединяйся!
 
 RESOURCE ID: nearby_rsvp_notification_raid_key
-TEXT: Join {0} Trainers in a nearby Raid Battle starting soon!
+TEXT: Скоро поблизости начнётся рейд! Присоединяйся к другим Тренерам: {0}!
 
 RESOURCE ID: nearby_rsvp_notification_raid_key_singular
-TEXT: Join a nearby Raid Battle starting soon!
+TEXT: Cкоро рядом с тобой начнётся рейд! Присоединяйся!
 
 RESOURCE ID: ongoing_stamp_collection_header
 TEXT: ТЕКУЩИЕ МАРАФОНЫ ПЕЧАТЕЙ
@@ -895,8 +958,26 @@ TEXT: Ты точно хочешь передать этого ★ 100% Поке
 RESOURCE ID: pokemon_caught_stamp_rally
 TEXT: ПОЙМАН ВО ВРЕМЯ МАРАФОНА ПЕЧАТЕЙ
 
+RESOURCE ID: pokemon_info_evolve_need_bread_move
+TEXT: Need {0} level {1}.
+
+RESOURCE ID: pokemon_info_evolve_need_cinematic_move
+TEXT: Must know Charged Attack {0} to change form
+
+RESOURCE ID: pokemon_info_evolve_need_quick_move
+TEXT: Must know Fast Attack {0} to change form
+
+RESOURCE ID: pokemon_info_form_change_confirmation
+TEXT: Do you want to change {0} from its {1} form to its {2} Form?
+
 RESOURCE ID: pokemon_info_pokecoin_label
 TEXT: POKÉCOIN
+
+RESOURCE ID: pokemon_species_form_0888_2576
+TEXT: Crowned Sword Zacian
+
+RESOURCE ID: pokemon_species_form_0889_2578
+TEXT: Crowned Shield Zamazenta
 
 RESOURCE ID: quest_battle_team_rocket
 TEXT: Миссия: Победи членов Команды Ракета GO ×{0}
@@ -1023,6 +1104,9 @@ TEXT: Тренер не соответствует требованиям уро
 
 RESOURCE ID: rsvp_reminder_min
 TEXT:  мин
+
+RESOURCE ID: rsvp_reminder_notification_gmax_generic_join
+TEXT: <b>Битва макс начинается сейчас!</b> Присоединяйся к другим Тренерам: {1}!
 
 RESOURCE ID: rsvp_tutorial_body
 TEXT: Выбери время следующей битвы с другими Тренерами! Если ты запланируешь битву, то получишь уведомление о её начале.
@@ -1277,7 +1361,7 @@ TEXT: до {0}
 RESOURCE ID: stamp_rally_ends_on
 TEXT: Заканчивается в: {0}
 
-RESOURCE ID: stamp_rally_expired_on
+RESOURCE ID: stamp_rally_finished_on
 TEXT: Закончился: {0}
 
 RESOURCE ID: stamp_rally_finishes_in
@@ -1371,21 +1455,6 @@ TEXT: С другой стороны, ему может быть трудно п
 
 RESOURCE ID: story_mightandmastery_3_3
 TEXT: Кажется, благодаря тебе Кабфу набирается опыта. Так держать!
-
-RESOURCE ID: story_mightandmastery_4_0
-TEXT: 
-
-RESOURCE ID: story_mightandmastery_4_1
-TEXT: 
-
-RESOURCE ID: story_mightandmastery_4_2
-TEXT: 
-
-RESOURCE ID: story_mightandmastery_4_3
-TEXT: 
-
-RESOURCE ID: story_mightandmastery_4_4
-TEXT: 
 
 RESOURCE ID: stunning_styles_event_name
 TEXT: Изумительные стили
@@ -1523,6 +1592,9 @@ TEXT: {0} мин.
 RESOURCE ID: title_event_pass_weekly_bonus_quest
 TEXT: Еженедельные задания
 
+RESOURCE ID: tm_cannot_unlearn
+TEXT: {0} cannot forget {1}.
+
 RESOURCE ID: total_stamps_collected
 TEXT: Всего печатей: {0}
 
@@ -1588,4 +1660,22 @@ TEXT: День Вынашивания Яиц: Тайрог: Подготовка
 
 RESOURCE ID: tyrogue_hatch_tr_name
 TEXT: Премиум-Квест на Время День Вынашивания Яиц: Тайрог
+
+RESOURCE ID: upgrade_description_zacian
+TEXT: This Pokémon can change forms with Sword Energy, and if they know the Charged Attack Iron Head. You can get Sword Energy by defeating Crowned Form Zacian in Raids.
+
+RESOURCE ID: upgrade_description_zamazenta
+TEXT: This Pokémon can change forms with Shield Energy, and if they know the Charged Attack Iron Head. You can get Shield Energy by defeating Crowned Form Zamazenta in Raids.
+
+RESOURCE ID: use_behemoth_bash_effect
+TEXT: Pokémon defense increased in Raids and Max Battles
+
+RESOURCE ID: use_behemoth_blade_effect
+TEXT: Pokémon attack increased in Raids and Max Battles
+
+RESOURCE ID: zacian_move_content
+TEXT: Zacian wields a large, powerful sword for {0} minutes. Strengthens your Pokémon's attacks in Raids and Max Battles.
+
+RESOURCE ID: zamazenta_move_content
+TEXT: Zamazenta wields a large, powerful shield for {0} minutes. Strengthens your Pokémon's defense in Raids and Max Battles.
 

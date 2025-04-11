@@ -11,7 +11,7 @@ RESOURCE ID: age_confirm_explain
 TEXT: 使用這個類型的帳號登入時，必須符合年齡限制的條件，因此我們將向您進行出生年月日的確認。
 
 RESOURCE ID: age_confirm_fail
-TEXT: 由於您未達這個類型的帳戶所需的<a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">年齡門檻</a>，依照服務條款，您的帳號將被刪除。若您認為已達可登入的門檻，請聯絡客服。
+TEXT: 由於您未達這個類型的帳戶所需的<a href="https://niantic.helpshift.com/hc/faq/4996-i-cannot-login-and-message-shows-sorry-you-do-not-meet-the-age-requirement-to-login-with-this-type-of-account/">年齡門檻</a>，依照服務條款，您的帳號將被刪除。若您認為已達可登入的門檻，請聯絡客服。
 
 RESOURCE ID: age_confirm_popup_confirm
 TEXT: 確定要送出嗎？提交後無法變更。
@@ -24,6 +24,18 @@ TEXT: 精靈球出現在地圖上！
 
 RESOURCE ID: as_two_for_one_purchase
 TEXT: 同時包含{0}
+
+RESOURCE ID: avatar_hat_applinheadband
+TEXT: 啃果蟲髮箍
+
+RESOURCE ID: avatar_hat_captainpikachu
+TEXT: 船長皮卡丘風帽子
+
+RESOURCE ID: avatar_pose_tinkaton
+TEXT: 巨鍛匠姿勢
+
+RESOURCE ID: avatar_shirt_applinapron
+TEXT: 啃果蟲圍裙
 
 RESOURCE ID: batch_transfer_100_pokemon
 TEXT: {0}隻★ 100%寶可夢
@@ -39,6 +51,12 @@ TEXT: 你僅有的1隻{0}
 
 RESOURCE ID: batch_transfer_last_two_pokemon
 TEXT: 你僅有1隻的{0}和{1}
+
+RESOURCE ID: behemoth_bash_adventure_effect_battle_log
+TEXT: YOUR POKÉMON’S DEFENSE IS BOOSTED BY BEHEMOTH BASH’S ADVENTURE EFFECT!
+
+RESOURCE ID: behemoth_blade_adventure_effect_battle_log
+TEXT: YOUR POKÉMON’S ATTACKS ARE BOOSTED BY BEHEMOTH BLADE’S ADVENTURE EFFECT!
 
 RESOURCE ID: bonus_event_stamp_rally
 TEXT: GO集章趣舉辦中
@@ -97,6 +115,9 @@ TEXT: 如果選擇這個分歧，你將能在完成限時調查的課題時遇�
 RESOURCE ID: branch_fuzzy_buddy_rd_mar25_teddiursa_title_key
 TEXT: 熊寶寶
 
+RESOURCE ID: bread_battle_bread_countdown_special
+TEXT: {0}...
+
 RESOURCE ID: bread_battle_reward_bonus_title
 TEXT: + In-Person Bonus
 
@@ -133,6 +154,9 @@ TEXT: Remote Max Battles are here!
 
 RESOURCE ID: bread_remote_use_rrp_confirmation
 TEXT: You can join {0} more Max Battles today. Max Particles are only used when you win. A Remote Raid Pass will be used when the battle starts.
+
+RESOURCE ID: bread_station_failure_description_cannot_station
+TEXT: {0} cannot be placed at Power Spots.
 
 RESOURCE ID: bread_station_tutorial_message_6
 TEXT: You can participate in Max Battles remotely by using a Remote Raid Pass and Max Particles.
@@ -294,6 +318,9 @@ TEXT: 根據使用的蘋果不同，會進化成不同的寶可夢。在藥草�
 
 RESOURCE ID: expo_2025_event_overlay_title
 TEXT: EXPO 2025
+
+RESOURCE ID: form_change_raid_toast
+TEXT: {0} reverted to its {1} form.
 
 RESOURCE ID: form_normal
 TEXT:  
@@ -514,6 +541,12 @@ TEXT: 明信片收納冊
 
 RESOURCE ID: item_postcard_inventory_name_stamp
 TEXT: 剪貼簿
+
+RESOURCE ID: item_resource_crowned_zacian_name
+TEXT: Crowned Sword Energy
+
+RESOURCE ID: item_resource_crowned_zamazenta_name
+TEXT: Crowned Shield Energy
 
 RESOURCE ID: items_picked_up
 TEXT: 撿到東西了！
@@ -804,16 +837,46 @@ RESOURCE ID: mega_audino_tr_april_2025_title
 TEXT: 超級差不多娃娃團體戰日限時調查
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-04-10T22:39:25.518681+00:00 for zh-TW
-at SHA 3db36f32bda
-Pipeline 3147248, job 39513673
-Patch from: 0.355.0-SHA-e7c2b5e7-RC1, 0.357.0-SHA-4b78e5b4-RC4
+TEXT: Built at 2025-04-11T23:10:06.582546+00:00 for zh-TW
+at SHA 25280f742eb
+Pipeline 3151056, job 39587955
+Patch from: 0.355.0-SHA-386e061f-RC4, 0.357.0-SHA-a266da41-RC5
 
 RESOURCE ID: mlb_key
 TEXT: MLB
 
+RESOURCE ID: move_name_0469
+TEXT: Behemoth Blade
+
+RESOURCE ID: move_name_0470
+TEXT: Behemoth Bash
+
 RESOURCE ID: move_name_0471
 TEXT: 快手還擊
+
+RESOURCE ID: move_name_0473
+TEXT: Guard
+
+RESOURCE ID: move_name_0474
+TEXT: Spirit
+
+RESOURCE ID: move_name_0475
+TEXT: Guard
+
+RESOURCE ID: move_name_0476
+TEXT: Spirit
+
+RESOURCE ID: move_name_0477
+TEXT: Guard
+
+RESOURCE ID: move_name_0478
+TEXT: Spirit
+
+RESOURCE ID: move_name_0479
+TEXT: Behemoth Blade
+
+RESOURCE ID: move_name_0480
+TEXT: Behemoth Bash
 
 RESOURCE ID: mp_explore_quarter
 TEXT: 獲得極巨粒子所需的行走距離減為1/4
@@ -861,8 +924,26 @@ TEXT: 你真的確定要把這隻★ 100%寶可夢傳送給維羅博士嗎？
 RESOURCE ID: pokemon_caught_stamp_rally
 TEXT: 在集章趣中捉到
 
+RESOURCE ID: pokemon_info_evolve_need_bread_move
+TEXT: Need {0} level {1}.
+
+RESOURCE ID: pokemon_info_evolve_need_cinematic_move
+TEXT: Must know Charged Attack {0} to change form
+
+RESOURCE ID: pokemon_info_evolve_need_quick_move
+TEXT: Must know Fast Attack {0} to change form
+
+RESOURCE ID: pokemon_info_form_change_confirmation
+TEXT: Do you want to change {0} from its {1} form to its {2} Form?
+
 RESOURCE ID: pokemon_info_pokecoin_label
 TEXT: POKÉCOIN
+
+RESOURCE ID: pokemon_species_form_0888_2576
+TEXT: Crowned Sword Zacian
+
+RESOURCE ID: pokemon_species_form_0889_2578
+TEXT: Crowned Shield Zamazenta
 
 RESOURCE ID: quest_battle_team_rocket
 TEXT: 任務：打敗{0}個GO火箭隊成員
@@ -1240,7 +1321,7 @@ TEXT: 至{0}為止
 RESOURCE ID: stamp_rally_ends_on
 TEXT: 結束時間：{0}
 
-RESOURCE ID: stamp_rally_expired_on
+RESOURCE ID: stamp_rally_finished_on
 TEXT: 已於{0}結束
 
 RESOURCE ID: stamp_rally_finishes_in
@@ -1333,21 +1414,6 @@ TEXT: 但不擅於對抗飛行屬性、超能力屬性和妖精屬性的攻擊�
 
 RESOURCE ID: story_mightandmastery_3_3
 TEXT: 看來你在強化熊徒弟時已經將這些考量進去了。繼續加油吧！
-
-RESOURCE ID: story_mightandmastery_4_0
-TEXT: 
-
-RESOURCE ID: story_mightandmastery_4_1
-TEXT: 
-
-RESOURCE ID: story_mightandmastery_4_2
-TEXT: 
-
-RESOURCE ID: story_mightandmastery_4_3
-TEXT: 
-
-RESOURCE ID: story_mightandmastery_4_4
-TEXT: 
 
 RESOURCE ID: stunning_styles_event_name
 TEXT: 獨特風格
@@ -1483,6 +1549,9 @@ TEXT: {0}分
 RESOURCE ID: title_event_pass_weekly_bonus_quest
 TEXT: 每週課題
 
+RESOURCE ID: tm_cannot_unlearn
+TEXT: {0} cannot forget {1}.
+
 RESOURCE ID: total_stamps_collected
 TEXT: 合計{0}個
 
@@ -1539,4 +1608,22 @@ TEXT: 無畏小子孵化日前導活動
 
 RESOURCE ID: tyrogue_hatch_tr_name
 TEXT: 無畏小子孵化日特級限時調查
+
+RESOURCE ID: upgrade_description_zacian
+TEXT: This Pokémon can change forms with Sword Energy, and if they know the Charged Attack Iron Head. You can get Sword Energy by defeating Crowned Form Zacian in Raids.
+
+RESOURCE ID: upgrade_description_zamazenta
+TEXT: This Pokémon can change forms with Shield Energy, and if they know the Charged Attack Iron Head. You can get Shield Energy by defeating Crowned Form Zamazenta in Raids.
+
+RESOURCE ID: use_behemoth_bash_effect
+TEXT: Pokémon defense increased in Raids and Max Battles
+
+RESOURCE ID: use_behemoth_blade_effect
+TEXT: Pokémon attack increased in Raids and Max Battles
+
+RESOURCE ID: zacian_move_content
+TEXT: Zacian wields a large, powerful sword for {0} minutes. Strengthens your Pokémon's attacks in Raids and Max Battles.
+
+RESOURCE ID: zamazenta_move_content
+TEXT: Zamazenta wields a large, powerful shield for {0} minutes. Strengthens your Pokémon's defense in Raids and Max Battles.
 
