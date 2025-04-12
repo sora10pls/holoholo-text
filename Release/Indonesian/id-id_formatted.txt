@@ -427,6 +427,9 @@ TEXT: TAMBAHKAN STIKER
 RESOURCE ID: adding_friends_info_link
 TEXT: Pelajari informasi apa yang akan dibagikan dengan teman.
 
+RESOURCE ID: additional_candy_catch_bonus
+TEXT: Tambahan 1 Permen dari menangkap Pokémon
+
 RESOURCE ID: additional_xl_max_raid_singular
 TEXT: Tambahan 1 Permen XL untuk menyelesaikan Pertarungan Max
 
@@ -782,16 +785,16 @@ RESOURCE ID: af2022_oh
 TEXT: Oh?
 
 RESOURCE ID: age_confirm_contact
-TEXT: Contact Support
+TEXT: Hubungi Dukungan
 
 RESOURCE ID: age_confirm_explain
-TEXT: There is an age requirement to log in with this type of account. Please confirm your date of birth.
+TEXT: Ada persyaratan usia untuk login dengan jenis akun ini. Silakan konfirmasikan tanggal lahir Anda.
 
 RESOURCE ID: age_confirm_fail
-TEXT: Sorry, you do not meet the <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">age requirements</a> to log in with this type of account, and your account will be deleted pursuant to our Terms of Service. If you believe you are eligible to log in with this type of account, please contact us.
+TEXT: Karena Anda tidak memenuhi <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">persyaratan umur</a> yang diperlukan untuk login dengan akun tipe ini, sesuai Ketentuan Layanan, akun Anda akan dihapus. Jika Anda yakin memenuhi persyaratan untuk login menggunakan akun tipe ini, silakan hubungi kami.
 
 RESOURCE ID: age_confirm_popup_confirm
-TEXT: Are you sure? This cannot be changed after you submit it.
+TEXT: Konfirmasi? Ini tidak dapat diubah setelah Anda mengirimkannya.
 
 RESOURCE ID: age_gate_screen
 TEXT: Masukkan tanggal lahir.
@@ -1943,6 +1946,9 @@ TEXT: LEPASKAN
 
 RESOURCE ID: as_save_outfit
 TEXT: SIMPAN PAKAIAN
+
+RESOURCE ID: as_two_for_one_purchase
+TEXT: This purchase also includes the {0}.
 
 RESOURCE ID: as_worn_items_added_to_cart
 TEXT: Dimasukkan ke keranjang.
@@ -11489,7 +11495,7 @@ RESOURCE ID: barcelona_catch_cup_title
 TEXT: Piala Instan: Barcelona
 
 RESOURCE ID: batch_transfer_100_pokemon
-TEXT: {0} ★ 100% Pokémon
+TEXT: {0} Pokémon ★ 100%
 
 RESOURCE ID: batch_transfer_confirm
 TEXT: <size=36><b>Transfer {0} Pokémon ke Profesor?</b></size>
@@ -11510,13 +11516,16 @@ RESOURCE ID: batch_transfer_header
 TEXT: Pilih Pokémon
 
 RESOURCE ID: batch_transfer_last_more_pokemon
-TEXT: Your only {0}, {1}, and {2} more
+TEXT: Satu-satunya {0}, {1}, dan {2} lainnya
+
+RESOURCE ID: batch_transfer_last_more_pokemon_singular
+TEXT: Your only {0}, {1}, and 1 more
 
 RESOURCE ID: batch_transfer_last_one_pokemon
-TEXT: Your only {0}
+TEXT: Satu-satunya {0}
 
 RESOURCE ID: batch_transfer_last_two_pokemon
-TEXT: Your only {0} and {1}
+TEXT: Satu-satunya {0} dan {1}
 
 RESOURCE ID: batch_transfer_result
 TEXT: Menerima Permen dari Profesor.
@@ -15742,6 +15751,42 @@ TEXT: Pilih Flygon!
 RESOURCE ID: branch_flygon_title_short
 TEXT: Flygon
 
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_cubchoo_button_text_key
+TEXT: Cubchoo
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_cubchoo_description_key
+TEXT: Pilih ini untuk bertemu dengan Cubchoo setelah menyelesaikan tugas selama Penelitian Berwaktu ini.
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_cubchoo_title_key
+TEXT: Cubchoo
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_pancham_button_text_key
+TEXT: Pancham
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_pancham_description_key
+TEXT: Pilih ini untuk bertemu dengan Pancham setelah menyelesaikan tugas selama Penelitian Berwaktu ini.
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_pancham_title_key
+TEXT: Pancham
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_stufful_button_text_key
+TEXT: Stufful
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_stufful_description_key
+TEXT: Pilih ini untuk bertemu dengan Stufful setelah menyelesaikan tugas selama Penelitian Berwaktu ini.
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_stufful_title_key
+TEXT: Stufful
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_teddiursa_button_text_key
+TEXT: Teddiursa
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_teddiursa_description_key
+TEXT: Pilih ini untuk bertemu dengan Teddiursa setelah menyelesaikan tugas selama Penelitian Berwaktu ini.
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_teddiursa_title_key
+TEXT: Teddiursa
+
 RESOURCE ID: branch_gardevoir_description
 TEXT: Evolusikan duomu menjadi trio dengan Gardevoir! Kamu akan menemukan Gardevoir berkostum khusus.
 
@@ -16368,6 +16413,9 @@ TEXT: Tidak dapat mengumpulkan Partikel Max lagi hari ini.
 RESOURCE ID: bread_mp_for_battle_lobby
 TEXT: Gunakan {0} PM
 
+RESOURCE ID: bread_mp_for_remote_battle_lobby
+TEXT: Use {0} MP and Remote Raid Pass
+
 RESOURCE ID: bread_mp_storage_full
 TEXT: Penyimpanan Partikel Max penuh.
 
@@ -16424,6 +16472,15 @@ TEXT: Ia tidak akan membantu pertarungan atau mendapatkan Permen lagi dari Power
 
 RESOURCE ID: bread_release_title
 TEXT: Kamu ingin {0} kembali?
+
+RESOURCE ID: bread_remote_iap_mp_rrp_replenish_title
+TEXT: You're out of Remote Raid Passes and MP
+
+RESOURCE ID: bread_remote_invite_in_game_notification
+TEXT: {0} invited you to join a Max Battle!
+
+RESOURCE ID: bread_remote_use_rrp_confirmation
+TEXT: You can join {0} more Max Battles today. Max Particles are only used when you win. A Remote Raid Pass will be used when the battle starts.
 
 RESOURCE ID: bread_report_pou_reason_emergency
 TEXT: Menghambat Layanan Darurat
@@ -17395,8 +17452,29 @@ TEXT: Awas Serangga!: Tantangan Tangkapan (2/3)
 RESOURCE ID: bug_out_catch_challenge_title_page_3
 TEXT: Awas Serangga!: Tantangan Tangkapan (3/3)
 
+RESOURCE ID: bug_out_collection_evolve
+TEXT: Tantangan Koleksi Awas Serangga: Teori Benang
+
+RESOURCE ID: bug_out_collection_evolve_medium
+TEXT: Tantangan Koleksi Awas Serangga: Metamorfosis
+
+RESOURCE ID: bug_out_collection_evolve_ninja
+TEXT: Tantangan Koleksi Awas Serangga: Ninja
+
 RESOURCE ID: bug_out_event_name
 TEXT: Awas Serangga
+
+RESOURCE ID: bug_out_free_tr_name
+TEXT: Penelitian Berwaktu Awas Serangga
+
+RESOURCE ID: bug_out_tr_name
+TEXT: Penelitian Berwaktu Premium Awas Serangga
+
+RESOURCE ID: bug_out_tr_name_1
+TEXT: Penelitian Berwaktu Premium Awas Serangga (1/2)
+
+RESOURCE ID: bug_out_tr_name_2
+TEXT: Penelitian Berwaktu Premium Awas Serangga (2/2)
 
 RESOURCE ID: bug_type_event
 TEXT: Lonjakan Tipe: Serangga
@@ -18252,7 +18330,7 @@ RESOURCE ID: charged_embers_free_tr_name
 TEXT: Penelitian Berwaktu Hari Penetasan Api Listrik
 
 RESOURCE ID: charged_embers_lead_event_name
-TEXT: Event Pendahuluan Hari Penetasan Api Listrik
+TEXT: Pendahuluan Hari Penetasan Api Listrik
 
 RESOURCE ID: charged_embers_tr_name
 TEXT: Penelitian Berwaktu Premium Hari Penetasan Api Listrik
@@ -21740,8 +21818,17 @@ TEXT: Bonus Penelitian Berwaktu Pesta Pikachu (1/1)
 RESOURCE ID: em_mall_large_tr_title
 TEXT: Bonus Penelitian Berwaktu Pesta Pikachu
 
+RESOURCE ID: em_mall_mela_event_title
+TEXT: Pokémon Fiesta
+
 RESOURCE ID: em_mall_pkmn_day_event_title
 TEXT: Selebrasi Pokémon Day: Brasil
+
+RESOURCE ID: em_mall_small_tr_desc_title_00
+TEXT: Penelitian Berwaktu Pokémon Fiesta (1/1)
+
+RESOURCE ID: em_mall_small_tr_title
+TEXT: Penelitian Berwaktu Pokémon Fiesta
 
 RESOURCE ID: empty_events_message
 TEXT: Periksa Berita di dalam game untuk melihat event mendatang!
@@ -22332,6 +22419,10 @@ TEXT: 20 April, pukul 14.00 hingga 17.00
 RESOURCE ID: event_datetime_range_key_bounsweetcd2024
 TEXT: 19 Mei, pukul 14.00 hingga 17.00
 
+RESOURCE ID: event_datetime_range_key_bugout0325
+TEXT: 26 Maret 10.00–
+30 Maret 20.00
+
 RESOURCE ID: event_datetime_range_key_catch_mastery_archen
 TEXT: 16 Maret, pukul 10.00 hingga 20.00
 
@@ -22398,6 +22489,9 @@ TEXT: 11 Mei, pukul 14.00 hingga 17.00
 RESOURCE ID: event_datetime_range_key_foc_mar25
 TEXT: 13 Maret 10.00–
 17 Maret 20.00
+
+RESOURCE ID: event_datetime_range_key_fuzzyrd2024
+TEXT: 29 Maret, pukul 14.00 hingga 17.00
 
 RESOURCE ID: event_datetime_range_key_gblaug24
 TEXT: 16 Agustus, 10.00–
@@ -22532,6 +22626,9 @@ TEXT: 4 Mei 10.00–
 RESOURCE ID: event_datetime_range_key_megaabsolraidday
 TEXT: 23 Maret, pukul 14.00 hingga 17.00
 
+RESOURCE ID: event_datetime_range_key_megaaudinoraidday
+TEXT: 5 April, pukul 14.00 hingga 17.00
+
 RESOURCE ID: event_datetime_range_key_megagalladeraidday
 TEXT: 11 Januari, pukul 14.00 hingga 17.00
 
@@ -22612,6 +22709,10 @@ TEXT: 1 Juni 10.00 –
 RESOURCE ID: event_datetime_range_key_stldrslv0125
 TEXT: 21 Januari, 10.00 –
 26 Januari, 23.59.
+
+RESOURCE ID: event_datetime_range_key_stunning_styles
+TEXT: 3 April 10.00–
+7 April 20.00
 
 RESOURCE ID: event_datetime_range_key_takeovermarch24
 TEXT: 27 Maret 00.00–
@@ -23392,6 +23493,9 @@ TEXT: Diterima di Rank 100
 
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_02
 TEXT: Diterima di Rank 40
+
+RESOURCE ID: event_pass_premium_reward_banner_bottom_text_99
+TEXT: Diterima di Rank 99
 
 RESOURCE ID: event_pass_premium_reward_banner_middle_text
 TEXT: Ornamen Istimewa
@@ -24700,10 +24804,10 @@ RESOURCE ID: first_time_walk_title
 TEXT: Saatnya berjalan!
 
 RESOURCE ID: firstcatch_experience_10x
-TEXT: XP dari tangkapan pertamamu setiap hari ×10
+TEXT: XP ×10 dari tangkapan pertamamu setiap hari
 
 RESOURCE ID: firstcatch_experience_3x
-TEXT: XP dari tangkapan pertamamu setiap hari ×3
+TEXT: XP ×3 dari tangkapan pertamamu setiap hari
 
 RESOURCE ID: firstcatch_experience_50p
 TEXT: XP ×1,5 dari tangkapan pertamamu setiap hari
@@ -24718,7 +24822,7 @@ RESOURCE ID: firstcatch_stardust_50p
 TEXT: Debu Bintang ×1,5 dari tangkapan pertamamu setiap hari
 
 RESOURCE ID: firstcatch_stardust_5x
-TEXT: Debu Bintang dari tangkapan pertamamu setiap hari ×5
+TEXT: Debu Bintang ×5 dari tangkapan pertamamu setiap hari
 
 RESOURCE ID: firstcatch_stardust_double
 TEXT: Debu Bintang dari tangkapan pertamamu setiap hari ×2
@@ -25446,6 +25550,15 @@ TEXT: Bentuk Kuncup
 RESOURCE ID: form_palafin_hero
 TEXT: Bentuk Perkasa
 
+RESOURCE ID: form_paldea_aqua
+TEXT: Varian Air
+
+RESOURCE ID: form_paldea_blaze
+TEXT: Varian Api
+
+RESOURCE ID: form_paldea_combat
+TEXT: Varian Tempur
+
 RESOURCE ID: form_palkia_normal
 TEXT: Palkia
 
@@ -25484,6 +25597,9 @@ TEXT: Ukuran Super
 
 RESOURCE ID: form_rain
 TEXT: Wujud Air Hujan
+
+RESOURCE ID: form_rapid_strike
+TEXT: Rapid Strike Style
 
 RESOURCE ID: form_red_striped
 TEXT: Wujud Bergaris Merah
@@ -25586,6 +25702,9 @@ TEXT: Tipe: Logam
 
 RESOURCE ID: form_silvally_water
 TEXT: Tipe: Air
+
+RESOURCE ID: form_single_strike
+TEXT: Single Strike Style
 
 RESOURCE ID: form_sky
 TEXT: Bentuk Langit
@@ -25911,6 +26030,9 @@ TEXT: {0} mengirimkan Permintaan Berteman!
 
 RESOURCE ID: friend_invited_you_to_ex_raid
 TEXT: mengundangmu ke Raid EX!
+
+RESOURCE ID: friend_is_at_a_max_battle
+TEXT: Has joined a <b>{0} {1}</b> Battle
 
 RESOURCE ID: friend_is_at_a_raid
 TEXT: {0} berada di <b>Raid {1}!</b>
@@ -26279,6 +26401,24 @@ TEXT: Pemisahan Pokémon gagal. Coba lagi nanti.
 
 RESOURCE ID: fusion_unfuse_question
 TEXT: Pisahkan {0}?
+
+RESOURCE ID: fuzzy_buddies_event_name
+TEXT: Hari Penelitian Partner Berbulu
+
+RESOURCE ID: fuzzy_buddy_mar2025_tr
+TEXT: Penelitian Berwaktu Premium Hari Penelitian Partner Berbulu
+
+RESOURCE ID: fuzzy_buddy_rd_tr_cubchoo
+TEXT: Hari Penelitian Partner Berbulu: Cubchoo
+
+RESOURCE ID: fuzzy_buddy_rd_tr_pancham
+TEXT: Hari Penelitian Partner Berbulu: Pancham
+
+RESOURCE ID: fuzzy_buddy_rd_tr_stufful
+TEXT: Hari Penelitian Partner Berbulu: Stufful
+
+RESOURCE ID: fuzzy_buddy_rd_tr_teddiursa
+TEXT: Hari Penelitian Partner Berbulu: Teddiursa
 
 RESOURCE ID: fuzzy_fighter_sr_name
 TEXT: Petarung Berbulu
@@ -26655,6 +26795,9 @@ TEXT: Tiket Burung Paling Berani
 
 RESOURCE ID: general1.ticket.2_flocktr24_title
 TEXT: Penelitian Berwaktu: Hari Penelitian Terbang Bersama
+
+RESOURCE ID: general1.ticket.2_fuzzyrd2024_title
+TEXT: Tiket Penelitian Berwaktu Premium Hari Penelitian Partner Berbulu
 
 RESOURCE ID: general1.ticket.2_garchompraid2023_description
 TEXT: Tiket untuk mengakses bonus berikut pada Sabtu, 11 November 2023 pukul 14.00–22.00 waktu setempat, di mana pun kamu berada. 
@@ -27415,6 +27558,9 @@ TEXT: Tiket Penelitian Berwaktu Berjalan di Tepi Air
 RESOURCE ID: general1.ticket._battleevent2024_title
 TEXT: Tiket Pertarungan Dahsyat
 
+RESOURCE ID: general1.ticket._bugout0325_title
+TEXT: Tiket Penelitian Berwaktu Premium Awas Serangga
+
 RESOURCE ID: general1.ticket._chargedembers1224_title
 TEXT: Tiket Penelitian Berwaktu Premium Hari Penetasan Api Listrik
 
@@ -27976,6 +28122,9 @@ TEXT: Tiket Hari Pertarungan Max Kingler Gigantamax
 RESOURCE ID: general2.ticket.6_megaabsolraidday_title
 TEXT: Tiket Hari Raid Mega Absol
 
+RESOURCE ID: general2.ticket.6_megaaudinoraidday_title
+TEXT: Tiket Hari Raid Mega Audino
+
 RESOURCE ID: general2.ticket.7_aprilmonthly2025_title
 TEXT: Tiket Pemerkuat: April
 
@@ -27993,6 +28142,9 @@ TEXT: Tiket Hari Raid Fusi Necrozma
 
 RESOURCE ID: general2.ticket._shadowhoohraidday_title
 TEXT: Tiket Hari Raid Ho-Oh Bayangan
+
+RESOURCE ID: general2.ticket._stunning_styles_ticket_title
+TEXT: Tiket Penelitian Berwaktu Premium Gaya Unik
 
 RESOURCE ID: general2.ticket4.catch_mastery_archen
 TEXT: Tiket Penelitian Berwaktu Premium Master Menangkap: Archen
@@ -36834,6 +36986,9 @@ TEXT: Peningkatan XP dan Debu Bintang dari membuka Hadiah
 RESOURCE ID: increased_transfer_candy_xl_bonus
 TEXT: Permen dan Permen XL dari Mentransfer Pokémon meningkat
 
+RESOURCE ID: increased_xl_candy_chance_catch_bonus
+TEXT: Peluang perolehan Permen XL dari menangkap Pokémon meningkat
+
 RESOURCE ID: increased_xp_catch_streak_bonus
 TEXT: XP pemutaran PokéStop 7 hari beruntun meningkat
 
@@ -37631,8 +37786,17 @@ TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Ber
 RESOURCE ID: item_event_ticket_10_name
 TEXT: Tiket
 
+RESOURCE ID: item_event_ticket_desc_stunning_styles
+TEXT: Tiket untuk mengakses Penelitian Berwaktu Premium Gaya Unik hingga 7 Juni 2025, pukul 20.00 waktu setempat, di mana pun kamu berada.
+
 RESOURCE ID: item_event_ticket_details_gowaleadup2024
 TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Berwaktu Menuju Alam Liar dan bonus lainnya mulai 18 November 2024, di mana pun kamu berada.
+
+RESOURCE ID: item_event_ticket_details_stunning_styles
+TEXT: Tiket ini akan aktif secara otomatis pada tanggal 3 April dan memberimu akses ke Penelitian Berwaktu Premium Gaya Unik, di mana pun kamu berada.
+
+RESOURCE ID: item_event_ticket_evergreen_desc_bugout0325
+TEXT: Tiket untuk mengakses Penelitian Berwaktu Premium Awas Serangga hingga 30 Januari 2025, pukul 20.00 waktu setempat, di mana pun kamu berada.
 
 RESOURCE ID: item_event_ticket_evergreen_desc_chargedembers1224
 TEXT: Tiket untuk mengakses Penelitian Berwaktu Premium Hari Penetasan Api Listrik hingga 29 Desember 2024, pukul 17.00 waktu setempat, di mana pun kamu berada.
@@ -37675,6 +37839,9 @@ TEXT: Tiket untuk mengakses Penelitian Berwaktu Premium Ketetapan Seteguh Baja h
 
 RESOURCE ID: item_event_ticket_evergreen_desc_yamasktr24
 TEXT: Tiket untuk mengakses dua Penelitian Berwaktu Premium Hari Penelitian Yamask dan Galarian Yamask pada 19 Oktober 2024, mulai pukul 14.00 hingga 17.00 waktu setempat, di mana pun kamu berada.
+
+RESOURCE ID: item_event_ticket_evergreen_details_bugout0325
+TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Berwaktu Premium Awas Serangga pada 26 Maret, di mana pun kamu berada.
 
 RESOURCE ID: item_event_ticket_evergreen_details_chargedembers1224
 TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Berwaktu Hari Penetasan Api Listrik pada 29 Desember, di mana pun kamu berada.
@@ -37793,6 +37960,9 @@ TEXT: Tiket untuk mengakses bonus spesial dan Penelitian Berwaktu dari 4 Mei, pu
 RESOURCE ID: item_event_ticket_gray_desc_megaabsolraidday
 TEXT: Tiket untuk mengakses bonus spesial pada 23 Maret 2025, mulai pukul 14.00 hingga 17.00 waktu setempat, di mana pun kamu berada.
 
+RESOURCE ID: item_event_ticket_gray_desc_megaaudinoraidday
+TEXT: Tiket untuk mengakses bonus spesial pada Sabtu, 5 April 2025, mulai pukul 14.00 hingga 17.00 waktu setempat, di mana pun kamu berada.
+
 RESOURCE ID: item_event_ticket_gray_desc_megagalladeraidday
 TEXT: Tiket untuk mengakses bonus spesial pada 11 Januari 2025, mulai pukul 14.00 hingga 17.00 waktu setempat, di mana pun kamu berada.
 
@@ -37891,6 +38061,9 @@ TEXT: Tiket ini akan aktif secara otomatis pada tanggal 4 Mei dan memberimu akse
 
 RESOURCE ID: item_event_ticket_gray_details_megaabsolraidday
 TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke bonus spesial pada tanggal 23 Maret, di mana pun kamu berada.
+
+RESOURCE ID: item_event_ticket_gray_details_megaaudinoraidday
+TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke bonus spesial pada tanggal 5 April, di mana pun kamu berada.
 
 RESOURCE ID: item_event_ticket_gray_details_megagalladeraidday
 TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke bonus spesial pada tanggal 11 Januari, di mana pun kamu berada.
@@ -38026,6 +38199,9 @@ TEXT: Tiket untuk mengakses Penelitian Berwaktu: Hari Penelitian Terbang Bersama
 
 RESOURCE ID: item_event_ticket_pink_desc_froakie
 TEXT: Tiket untuk mengakses Penelitian Spesial pada 13 Agustus 2023, mulai pukul 14.00 hingga 17.00 waktu setempat, di mana pun kamu berada.
+
+RESOURCE ID: item_event_ticket_pink_desc_fuzzyrd2024
+TEXT: Tiket untuk mengakses Penelitian Berwaktu Premium Hari Penelitian Partner Berbulu pada 29 Maret 2025, mulai pukul 14.00 hingga 17.00 waktu setempat, di mana pun kamu berada.
 
 RESOURCE ID: item_event_ticket_pink_desc_gbd
 TEXT: Tiket untuk mengakses Penelitian Berwaktu Hari GO Battle: Debu Bintang, di mana pun kamu berada.
@@ -38170,6 +38346,9 @@ TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Ber
 
 RESOURCE ID: item_event_ticket_pink_details_froakie
 TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke cerita Penelitian Spesial: Hari Komunitas Froakie, di mana pun kamu berada.
+
+RESOURCE ID: item_event_ticket_pink_details_fuzzyrd2024
+TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Berwaktu Premium Hari Penelitian Partner Berbulu pada 29 Maret, di mana pun kamu berada.
 
 RESOURCE ID: item_event_ticket_pink_details_gbd
 TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Berwaktu Hari GO Battle: Debu Bintang pada 14 Mei 2023, mulai pukul 00.00 hingga 23.59 waktu setempat, di mana pun kamu berada.
@@ -38448,7 +38627,7 @@ RESOURCE ID: item_expire_timer_minutes_seconds_left
 TEXT: Tinggal {0}
 
 RESOURCE ID: item_found
-TEXT: Item found! 
+TEXT: Item ditemukan!
 
 RESOURCE ID: item_free_raid_ticket_desc
 TEXT: Tiket untuk bergabung ke Pertarungan Raid. Dapat memperoleh Tiket gratis di Gym setiap hari jika belum punya.
@@ -38796,6 +38975,12 @@ TEXT: Mesin Jurus untuk mengajari Pokémon sebuah Jurus Cepat yang baru.
 
 RESOURCE ID: item_move_reroll_special_attack_name
 TEXT: MJ Super
+
+RESOURCE ID: item_mp_desc
+TEXT:  
+
+RESOURCE ID: item_mp_desc_temp
+TEXT: Use Max Particles to take on Max Battles at Power Spots or unlock and level up Max Moves.
 
 RESOURCE ID: item_mp_name
 TEXT: Partikel Max
@@ -39370,6 +39555,36 @@ TEXT: Penelitian Berwaktu Premium Kingler Gigantamax
 RESOURCE ID: korean
 TEXT: 한국인
 
+RESOURCE ID: kr_cherryblossom_festival_2025_tag
+TEXT: Festival Bunga Musim Semi
+
+RESOURCE ID: kr_cherryblossom_festival_2025_title
+TEXT: Festival Bunga Musim Semi 2025
+
+RESOURCE ID: kr_cherryblossom_festival_2025_tr_name
+TEXT: Penelitian Berwaktu Latar Belakang Festival Bunga Musim Semi 2025
+
+RESOURCE ID: kr_cherryblossom_festival_2025_tr_name_1
+TEXT: Penelitian Berwaktu Latar Belakang Festival Bunga Musim Semi 2025 (1/3)
+
+RESOURCE ID: kr_cherryblossom_festival_2025_tr_name_2
+TEXT: Penelitian Berwaktu Latar Belakang Festival Bunga Musim Semi 2025 (2/3)
+
+RESOURCE ID: kr_cherryblossom_festival_2025_tr_name_3
+TEXT: Penelitian Berwaktu Latar Belakang Festival Bunga Musim Semi 2025 (3/3)
+
+RESOURCE ID: kr_cherryblossom_festival_2025_yeouido_bonus
+TEXT: Bonus Festival Bunga Musim Semi 2025 – Yeouido
+
+RESOURCE ID: kr_festival_fr_location_background
+TEXT: Deerling dan Pikachu berkostum yang ditangkap dari Raid dan tugas Penelitian Lapangan mungkin memiliki Latar Belakang Lokasi eksklusif.
+
+RESOURCE ID: kr_spring_festival_mar2025_cc_1
+TEXT: Tantangan Koleksi Festival Bunga Musim Semi 2025 1
+
+RESOURCE ID: kr_spring_festival_mar2025_cc_2
+TEXT: Tantangan Koleksi Festival Bunga Musim Semi 2025 2
+
 RESOURCE ID: lake_trio_event_name
 TEXT: Event Legenda Danau
 
@@ -39419,7 +39634,7 @@ RESOURCE ID: last_played_yesterday
 TEXT: Terakhir kali dimainkan: Kemarin
 
 RESOURCE ID: last_pokemon_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer your last {0}?
+TEXT: Yakin ingin mentransfer satu-satunya {0} ini?
 
 RESOURCE ID: latam_live_op_desc
 TEXT: Event Bonus: Petualangan Baru LATAM
@@ -39491,13 +39706,13 @@ RESOURCE ID: legendary_flight_event_name
 TEXT: Penerbangan Legendaris
 
 RESOURCE ID: legendary_flight_lead_up_free_tr_name
-TEXT: Penelitian Berwaktu Event Pendahuluan Penerbangan Legendaris
+TEXT: Penelitian Berwaktu Pendahuluan Penerbangan Legendaris
 
 RESOURCE ID: legendary_flight_lead_up_free_tr_name_1
-TEXT: Penelitian Berwaktu Event Pendahuluan Penerbangan Legendaris (1/2)
+TEXT: Penelitian Berwaktu Pendahuluan Penerbangan Legendaris (1/2)
 
 RESOURCE ID: legendary_flight_lead_up_free_tr_name_2
-TEXT: Penelitian Berwaktu Event Pendahuluan Penerbangan Legendaris (2/2)
+TEXT: Penelitian Berwaktu Pendahuluan Penerbangan Legendaris (2/2)
 
 RESOURCE ID: legendary_heroes_collection_shield_catch
 TEXT: Hero Legendaris: Tantangan Tangkapan Jalur Perisai
@@ -42495,6 +42710,120 @@ TEXT: Pembelajaran Magnetik: Plusle
 RESOURCE ID: magnetic_study_plusle_tr_name
 TEXT: Penelitian Berwaktu Pembelajaran Magnetik: Plusle
 
+RESOURCE ID: make_good_kyurem_title_001
+TEXT: Pertemuan: Kyurem 1
+
+RESOURCE ID: make_good_kyurem_title_002
+TEXT: Pertemuan: Kyurem 2
+
+RESOURCE ID: make_good_kyurem_title_003
+TEXT: Pertemuan: Kyurem 3
+
+RESOURCE ID: make_good_kyurem_title_004
+TEXT: Pertemuan: Kyurem 4
+
+RESOURCE ID: make_good_kyurem_title_005
+TEXT: Pertemuan: Kyurem 5
+
+RESOURCE ID: make_good_kyurem_title_006
+TEXT: Pertemuan: Kyurem 6
+
+RESOURCE ID: make_good_kyurem_title_007
+TEXT: Pertemuan: Kyurem 7
+
+RESOURCE ID: make_good_kyurem_title_008
+TEXT: Pertemuan: Kyurem 8
+
+RESOURCE ID: make_good_kyurem_title_009
+TEXT: Pertemuan: Kyurem 9
+
+RESOURCE ID: make_good_kyurem_title_010
+TEXT: Pertemuan: Kyurem 10
+
+RESOURCE ID: make_good_kyurem_title_011
+TEXT: Pertemuan: Kyurem 11
+
+RESOURCE ID: make_good_kyurem_title_012
+TEXT: Pertemuan: Kyurem 12
+
+RESOURCE ID: make_good_reshiram_desc
+TEXT: Pertemuan: Reshiram 2025
+
+RESOURCE ID: make_good_reshiram_title_001
+TEXT: Pertemuan: Reshiram 1
+
+RESOURCE ID: make_good_reshiram_title_002
+TEXT: Pertemuan: Reshiram 2
+
+RESOURCE ID: make_good_reshiram_title_003
+TEXT: Pertemuan: Reshiram 3
+
+RESOURCE ID: make_good_reshiram_title_004
+TEXT: Pertemuan: Reshiram 4
+
+RESOURCE ID: make_good_reshiram_title_005
+TEXT: Pertemuan: Reshiram 5
+
+RESOURCE ID: make_good_reshiram_title_006
+TEXT: Pertemuan: Reshiram 6
+
+RESOURCE ID: make_good_reshiram_title_007
+TEXT: Pertemuan: Reshiram 7
+
+RESOURCE ID: make_good_reshiram_title_008
+TEXT: Pertemuan: Reshiram 8
+
+RESOURCE ID: make_good_reshiram_title_009
+TEXT: Pertemuan: Reshiram 9
+
+RESOURCE ID: make_good_reshiram_title_010
+TEXT: Pertemuan: Reshiram 10
+
+RESOURCE ID: make_good_reshiram_title_011
+TEXT: Pertemuan: Reshiram 11
+
+RESOURCE ID: make_good_reshiram_title_012
+TEXT: Pertemuan: Reshiram 12
+
+RESOURCE ID: make_good_zekrom_desc
+TEXT: Pertemuan: Zekrom 2025
+
+RESOURCE ID: make_good_zekrom_title_001
+TEXT: Pertemuan: Zekrom 1
+
+RESOURCE ID: make_good_zekrom_title_002
+TEXT: Pertemuan: Zekrom 2
+
+RESOURCE ID: make_good_zekrom_title_003
+TEXT: Pertemuan: Zekrom 3
+
+RESOURCE ID: make_good_zekrom_title_004
+TEXT: Pertemuan: Zekrom 4
+
+RESOURCE ID: make_good_zekrom_title_005
+TEXT: Pertemuan: Zekrom 5
+
+RESOURCE ID: make_good_zekrom_title_006
+TEXT: Pertemuan: Zekrom 6
+
+RESOURCE ID: make_good_zekrom_title_007
+TEXT: Pertemuan: Zekrom 7
+
+RESOURCE ID: make_good_zekrom_title_008
+TEXT: Pertemuan: Zekrom 8
+
+RESOURCE ID: make_good_zekrom_title_009
+TEXT: Pertemuan: Zekrom 9
+
+RESOURCE ID: make_good_zekrom_title_010
+TEXT: Pertemuan: Zekrom 10
+
+RESOURCE ID: make_good_zekrom_title_011
+TEXT: Pertemuan: Zekrom 11
+
+RESOURCE ID: make_good_zekrom_title_012
+TEXT: Pertemuan: Zekrom 12
+
 RESOURCE ID: manage_items_button
 TEXT: Kelola Item
 
@@ -42605,6 +42934,27 @@ TEXT: Penelitian Lotad: Bertarunglah di Raid
 
 RESOURCE ID: marrd_2019_easy_supereffective_charge
 TEXT: Penelitian Lotad: Gunakan Jurus Super yang superefektif di Pertarungan Gym
+
+RESOURCE ID: marshadow_global_sr_1
+TEXT: Bayangan Unik (1/6)
+
+RESOURCE ID: marshadow_global_sr_2
+TEXT: Bayangan Unik (2/6)
+
+RESOURCE ID: marshadow_global_sr_3
+TEXT: Bayangan Unik (3/6)
+
+RESOURCE ID: marshadow_global_sr_4
+TEXT: Bayangan Unik (4/6)
+
+RESOURCE ID: marshadow_global_sr_5
+TEXT: Bayangan Unik (5/6)
+
+RESOURCE ID: marshadow_global_sr_6
+TEXT: Bayangan Unik (6/6)
+
+RESOURCE ID: marshadow_global_sr_name
+TEXT: Bayangan Unik
 
 RESOURCE ID: master_classic_title
 TEXT: Liga Master Klasik
@@ -43317,6 +43667,9 @@ TEXT: Penelitian Berwaktu Latihan Intensif: Mega Absol
 RESOURCE ID: mega_active_countdown_description
 TEXT: Sisa Durasi Evolusi Mega
 
+RESOURCE ID: mega_audino_tr_april_2025_title
+TEXT: Penelitian Berwaktu Hari Raid Mega Audino
+
 RESOURCE ID: mega_battle_event
 TEXT: Tantangan Pertarungan Mega
 
@@ -43634,9 +43987,9 @@ RESOURCE ID: meshing_option_title
 TEXT: Penyatuan Mesh
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2025-03-27T16:47:40.171405+00:00 for id-ID
-at SHA 505ac976953
-Pipeline 3109778, job 38824341
+TEXT: Built at 2025-04-11T21:18:23.797301+00:00 for id-ID
+at SHA 0d984c0aeda5c
+Pipeline 3150707, job 39575452
 
 RESOURCE ID: mex_fighting_promo_title
 TEXT: Penelitian Berwaktu: Pilih Tipe Petarungmu
@@ -51841,7 +52194,7 @@ RESOURCE ID: pokedex_status_seen
 TEXT: Terlihat
 
 RESOURCE ID: pokemon_100_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer this ★ 100% Pokémon?
+TEXT: Yakin ingin mentransfer Pokémon ★ 100% ini?
 
 RESOURCE ID: pokemon_alert_label_off
 TEXT: Nonaktifkan
@@ -82739,10 +83092,13 @@ RESOURCE ID: quest_title_totodile
 TEXT: Hari Komunitas Klasik: Totodile
 
 RESOURCE ID: quest_title_totodile_0
-TEXT: Hari Komunitas Klasik: Totodile (1/2)
+TEXT: Hari Komunitas Klasik: Totodile (1/3)
 
 RESOURCE ID: quest_title_totodile_1
-TEXT: Hari Komunitas Klasik: Totodile (2/2)
+TEXT: Hari Komunitas Klasik: Totodile (2/3)
+
+RESOURCE ID: quest_title_totodile_2
+TEXT: Hari Komunitas Klasik: Totodile (3/3)
 
 RESOURCE ID: quest_title_tynamo
 TEXT: Kabar Listerik
@@ -84901,6 +85257,9 @@ TEXT: Hari Raid: Meditite
 RESOURCE ID: raid_day_mega_absol_event_name
 TEXT: Hari Raid: Mega Absol
 
+RESOURCE ID: raid_day_mega_audino_event_name
+TEXT: Hari Raid: Mega Audino
+
 RESOURCE ID: raid_day_mega_garchomp
 TEXT: Hari Raid: Mega Garchomp
 
@@ -85693,6 +86052,9 @@ TEXT: Hari Raid: Totodile
 RESOURCE ID: raid_day_toxicroak
 TEXT: Hari Raid: Toxicroak
 
+RESOURCE ID: raid_day_tr_bonus_unlock
+TEXT: Bonus Penelitian Berwaktu Hari Raid
+
 RESOURCE ID: raid_day_tranquill
 TEXT: Hari Raid: Tranquill
 
@@ -86106,10 +86468,10 @@ RESOURCE ID: raid_planner_join_this_rsvp
 TEXT: RSVP
 
 RESOURCE ID: raid_planner_rsvp_conflict_title
-TEXT: Yakin ingin RSVP?
+TEXT: Yakin untuk berpartisipasi ke pertarungan yang akan datang ini?
 
 RESOURCE ID: raid_planner_rsvp_conflict_warning
-TEXT: RSVP ke pertarungan ini akan membatalkan RSVP yang telah ada.
+TEXT: RSVP ke pertarungan ini akan membatalkan RSVP yang telah ada. RSVP harus berselang lebih dari {0} menit.
 
 RESOURCE ID: raid_planner_success_rsvp
 TEXT: RSVP berhasil!
@@ -86141,7 +86503,7 @@ TEXT: Buat grup terbuka untuk umum?
 Kamu tidak dapat membatalkan tindakan ini.
 
 RESOURCE ID: raid_rsvp_bonus
-TEXT: RSVP'd to Raid
+TEXT: RSVP
 
 RESOURCE ID: raid_share_private_code_message
 TEXT: Bagikan kode grup ini kepada teman-temanmu. Mereka bisa bergabung dengan memasukkan kode grup ini.
@@ -86159,7 +86521,7 @@ RESOURCE ID: raid_sort_rsvps
 TEXT: JUMLAH RSVP
 
 RESOURCE ID: raid_sort_time
-TEXT: WAKTU HINGGA RAID
+TEXT: HINGGA PERTARUNGAN BERAKHIR
 
 RESOURCE ID: raid_stardust_1.5x
 TEXT: Debu Bintang Raid ×1.5
@@ -88722,6 +89084,9 @@ TEXT: Jika pergi dari grup, grupmu akan dibubarkan. Kamu akan kehilangan progres
 RESOURCE ID: rejoin_warning_modal_title
 TEXT: Yakin ingin meninggalkan grup?
 
+RESOURCE ID: remote_max_battle_invite_push_notif
+TEXT: A friend invited you to join a Max Battle!
+
 RESOURCE ID: remote_raid_battle_helptext
 TEXT: Gunakan Tiket Raid Jarak Jauh
 
@@ -88950,6 +89315,9 @@ TEXT: Kamu telah mencapai jumlah maksimum dalam memilih alasan.
 RESOURCE ID: report_route_error_missing_selection
 TEXT: Pilih alasan laporan. 
 
+RESOURCE ID: report_route_error_not_found
+TEXT: This Route cannot be found.
+
 RESOURCE ID: report_route_error_too_many_reports
 TEXT: Telah mencapai jumlah batas pelaporan Rute untuk hari ini.
 
@@ -89145,6 +89513,9 @@ TEXT: Tambahan item dari Inovasi Penelitian
 
 RESOURCE ID: research_breakthrough_bonus_stardust
 TEXT: Peningkatan Debu Bintang dari Inovasi Penelitian
+
+RESOURCE ID: research_breakthrough_bonus_xp_stardust
+TEXT: Peningkatan XP dan Debu Bintang dari Inovasi Penelitian
 
 RESOURCE ID: research_day_passimian_and_oranguru_event_name
 TEXT: Hari Penelitian Oranguru dan Passimian
@@ -91241,6 +91612,18 @@ TEXT: Mulai Dari:
 RESOURCE ID: rsvp_attendance_preference_title
 TEXT: Bagi Status RSVP Dengan:
 
+RESOURCE ID: rsvp_attendance_tutorial_link_text_key
+TEXT: Learn more where your Trainer nickname is shown in-game here.
+
+RESOURCE ID: rsvp_attendance_tutorial_link_url_key
+TEXT: https://niantic.helpshift.com/hc/{0}/6-pokemon-go/faq/4286-controlling-your-experience-on-pokemon-go/
+
+RESOURCE ID: rsvp_attendance_tutorial_message_key
+TEXT: Other Trainers will be able to view the battles you’ve RSVP’d to. You can change this at any time via Settings.
+
+RESOURCE ID: rsvp_attendance_tutorial_title_key
+TEXT: RSVP Visibility
+
 RESOURCE ID: rsvp_inactive_button_desc
 TEXT: {0} di {1}
 
@@ -91250,11 +91633,17 @@ TEXT: PILIH JAM
 RESOURCE ID: rsvp_invitation_notification_string_key
 TEXT: {0} mengundangmu ke {1} di {2}!
 
+RESOURCE ID: rsvp_invite_already_going
+TEXT: Trainer is already planning on attending this battle.
+
+RESOURCE ID: rsvp_invite_does_not_meet_level_requirements
+TEXT: Trainer does not meet level requirements.
+
 RESOURCE ID: rsvp_invite_friends
 TEXT: Undang Teman
 
 RESOURCE ID: rsvp_reminder_min
-TEXT: min
+TEXT:  mnt
 
 RESOURCE ID: rsvp_reminder_notification_gmax_generic_join
 TEXT: <b>Pertarungan Max dimulai sekarang!</b> Gabunglah dengan {0} Pelatih lainnya!
@@ -91333,6 +91722,12 @@ TEXT: Versi Ruby
 
 RESOURCE ID: russian
 TEXT: Русский
+
+RESOURCE ID: s18_catch_mastery_makegood_tr_kabuto
+TEXT: Pertemuan Fosil: Kabuto
+
+RESOURCE ID: s18_catch_mastery_makegood_tr_omanyte
+TEXT: Pertemuan Fosil: Omanyte
 
 RESOURCE ID: sa_account_creation_prompt
 TEXT: Belum punya akun Niantic Kids?
@@ -92422,6 +92817,77 @@ TEXT: Pokémon GO Musim 9: Harapan Mitologis
 
 RESOURCE ID: season_partner_research_ltd_amazon_gaming
 TEXT: Penelitian Partner Terbatas - Permata Tersembunyi: Amazon Prime Gaming
+
+RESOURCE ID: season_pass_april2025_event_duration
+TEXT: 1 April – 6 Mei
+
+RESOURCE ID: season_pass_april2025_track_upgrade_header_description
+TEXT: Dapatkan hadiah tambahan dan buka <b>pertemuan dengan Xerneas</b> di level 100!
+
+RESOURCE ID: season_pass_april2025_upgrade_description
+TEXT: Beli Tiket GO Luks: April untuk membuka hadiah berikut!
+
+• Pertemuan tambahan dengan Xerneas
+• Satu <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Ornamen Istimewa</a> yang dalam sekejap membuatmu menjadi Teman Istimewa dengan teman pilihanmu
+• Dan masih banyak lagi!
+
+RESOURCE ID: season_pass_april2025_upgrade_description_no_additional_legendary
+TEXT: Beli Tiket GO Luks: April untuk membuka hadiah berikut!
+
+• Satu <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Ornamen Istimewa</a> yang dalam sekejap membuatmu menjadi Teman Istimewa dengan teman pilihanmu
+• Dan masih banyak lagi!
+
+RESOURCE ID: season_pass_base_track_title_april
+TEXT: Tiket GO: April
+
+RESOURCE ID: season_pass_base_track_title_may
+TEXT: Tiket GO: Mei
+
+RESOURCE ID: season_pass_bonus_hatch_xp_stardust
+TEXT: Peningkatan XP dan Debu Bintang dari menetaskan Telur
+
+RESOURCE ID: season_pass_details_link
+TEXT: Untuk detail lebih lanjut, kunjungi <<a href="https://pokemongolive.com/post/go-pass-test-2025">>situs web</a>.
+
+RESOURCE ID: season_pass_may2025_event_duration
+TEXT: 6 Mei – 3 Juni
+
+RESOURCE ID: season_pass_may2025_track_upgrade_header_description
+TEXT: Dapatkan hadiah tambahan dan buka <b>pertemuan dengan Yveltal</b> di level 100!
+
+RESOURCE ID: season_pass_may2025_upgrade_description
+TEXT: Beli Tiket GO Luks: Mei untuk membuka hadiah berikut!
+
+• Pertemuan dengan Yveltal
+• Satu <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Ornamen Istimewa</a> yang dalam sekejap membuatmu menjadi Teman Istimewa dengan teman pilihanmu
+• Dan masih banyak lagi!
+
+RESOURCE ID: season_pass_may2025_upgrade_description_no_additional_legendary
+TEXT: Beli Tiket GO Luks: Mei untuk membuka hadiah berikut!
+
+• Satu <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Ornamen Istimewa</a> yang dalam sekejap membuatmu menjadi Teman Istimewa dengan teman pilihanmu
+• Dan masih banyak lagi!
+
+RESOURCE ID: season_pass_milestone_bonus_title_01
+TEXT: Bonus Tiket GO Tingkat 1
+
+RESOURCE ID: season_pass_milestone_bonus_title_02
+TEXT: Bonus Tiket GO Tingkat 2
+
+RESOURCE ID: season_pass_milestone_bonus_title_03
+TEXT: Bonus Tiket GO Tingkat 3
+
+RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_april
+TEXT: Tiket GO Luks: April + 10 Rank
+
+RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_may
+TEXT: Tiket GO Luks: Mei + 10 Rank
+
+RESOURCE ID: season_pass_premium_track_title_april
+TEXT: Tiket GO Luks: April
+
+RESOURCE ID: season_pass_premium_track_title_may
+TEXT: Tiket GO Luks: Mei
 
 RESOURCE ID: seasonal_delights_box
 TEXT: Kotak Sukacita Musiman
@@ -94088,14 +94554,17 @@ TEXT: Status daring ditampilkan
 RESOURCE ID: social_other_friend_add_title
 TEXT: LAINNYA
 
+RESOURCE ID: social_planner_cancel_upcoming_warning
+TEXT: Completing this battle will cancel your upcoming RSVP at this location.
+
 RESOURCE ID: social_planner_cannot_change_active_timeslots_key
-TEXT: Unable to change time slot as no time slots are available
+TEXT: Tidak dapat diubah karena tidak ada slot waktu yang tersedia.
 
 RESOURCE ID: social_planner_conflict_disclaimer_text_key
-TEXT: You have a time conflict.
+TEXT: Ada jadwal yang bentrok.
 
 RESOURCE ID: social_planner_detail_other_trainers
-TEXT: {0} Pelatih Lainnya
+TEXT: Pelatih Lainnya
 
 RESOURCE ID: social_planner_error_rsvp_failure
 TEXT: Terjadi kesalahan. Mohon coba lagi.
@@ -94105,6 +94574,9 @@ TEXT: Mencapai jumlah maksimal RSVP.
 
 RESOURCE ID: social_planner_error_rsvp_missing
 TEXT: Terjadi kesalahan. RSVP tidak ditemukan.
+
+RESOURCE ID: social_planner_error_sending_invites_key
+TEXT: Could not send invite to one or more friends.
 
 RESOURCE ID: social_planner_error_timeslot_passed
 TEXT: Slot waktu ini tidak lagi tersedia.
@@ -94125,7 +94597,7 @@ RESOURCE ID: social_planner_leave_rsvp_text_key
 TEXT: Batalkan RSVP
 
 RESOURCE ID: social_planner_no_more_timeslots_key
-TEXT: No more available timeslots.
+TEXT: Tidak ada slot waktu yang tersedia.
 
 RESOURCE ID: social_planner_rsvp_friends_list_empty
 TEXT: Daftar Teman Kosong
@@ -94143,7 +94615,7 @@ RESOURCE ID: social_planner_rsvp_invite_sent_confirmation
 TEXT: Undangan dikirim!
 
 RESOURCE ID: social_planner_rsvp_local_only_disclaimer
-TEXT: You'll need to be nearby to defeat this Raid Boss.
+TEXT: Harus berada di sekitar untuk mengalahkan Bos Raid ini.
 
 RESOURCE ID: social_planner_rsvp_maybe_count
 TEXT: {0} belum pasti
@@ -94153,6 +94625,9 @@ TEXT: Belum Pasti
 
 RESOURCE ID: social_planner_rsvp_not_going_text_key
 TEXT: Tidak Ikut
+
+RESOURCE ID: social_planner_select_another_time
+TEXT: SELECT ANOTHER TIME
 
 RESOURCE ID: social_planner_time_conflict_disclaimer_title_key
 TEXT: Jadwal Bentrok
@@ -94168,6 +94643,9 @@ TEXT: {0} ikut
 
 RESOURCE ID: social_planner_timetable_gui_title_key
 TEXT: Pilih Waktu
+
+RESOURCE ID: social_planner_view_in_map
+TEXT: View in Map
 
 RESOURCE ID: social_player_level_too_low
 TEXT: Fitur teman tersedia untuk level {0} ke atas. Silakan periksa kembali untuk mengetahui kapan fitur ini tersedia untukmu.
@@ -96608,6 +97086,30 @@ TEXT: Sepertinya Kubfu menyadari kemampuanmu dan mengakuimu sebagai partner yang
 RESOURCE ID: story_mightandmastery_1_4
 TEXT: Bertualanglah bersama dan tarik potensi Kubfu hingga maksimal!
 
+RESOURCE ID: story_mightandmastery_2_0
+TEXT: %PLAYERNAME% rupanya! Kelihatannya latihan Kubfu milikmu lancar.
+
+RESOURCE ID: story_mightandmastery_2_1
+TEXT: Aku tahu melatih tubuh, mental, dan teknik itu berat, tetapi suatu saat itu pasti akan menjadikannya master hebat.
+
+RESOURCE ID: story_mightandmastery_2_3
+TEXT: Omong-omong tentang master, apakah kamu sudah memahami kekuatan dan kelemahan Kubfu?
+
+RESOURCE ID: story_mightandmastery_2_4
+TEXT: Mari kita bicarakan setelah set latihan berikutnya selesai.
+
+RESOURCE ID: story_mightandmastery_3_0
+TEXT: Selamat datang kembali, %PLAYERNAME%! Ayo kita organisir kekuatan dan kelemahan Kubfu.
+
+RESOURCE ID: story_mightandmastery_3_1
+TEXT: Pokémon tipe Petarung seperti Kubfu kuat melawan tipe Normal, Es, Bebatuan, Kegelapan, dan Logam.
+
+RESOURCE ID: story_mightandmastery_3_2
+TEXT: Namun, ia lemah melawan tipe Terbang, Psychic, dan Peri.
+
+RESOURCE ID: story_mightandmastery_3_3
+TEXT: Tampaknya Kubfu telah diperkuat dengan mempertimbangkan hal-hal tersebut. Lanjutkan perjuangan kalian!
+
 RESOURCE ID: story_quest_cosmog_sol23_0
 TEXT: Langit Berbintang (1/4)
 
@@ -97876,6 +98378,21 @@ Selain itu, pemilik tiket Pokémon GO Wild Area akan menerima Penelitian Berwakt
 RESOURCE ID: strong_encounter_tutorial_title
 TEXT: Bola Safari GO sangat berguna untuk menangkap Pokémon tangguh!
 
+RESOURCE ID: stunning_styles_event_name
+TEXT: Gaya Unik
+
+RESOURCE ID: stunning_styles_free_tr_name
+TEXT: Penelitian Berwaktu Gaya Unik
+
+RESOURCE ID: stunning_styles_paid_tr_name
+TEXT: Penelitian Berwaktu Premium Gaya Unik
+
+RESOURCE ID: stunning_styles_paid_tr_name_1
+TEXT: Penelitian Berwaktu Premium Gaya Unik (1/2)
+
+RESOURCE ID: stunning_styles_paid_tr_name_2
+TEXT: Penelitian Berwaktu Premium Gaya Unik (2/2)
+
 RESOURCE ID: style_shop
 TEXT: LIHAT RINCIAN
 
@@ -98111,6 +98628,9 @@ TEXT: Tim sebelumnya
 RESOURCE ID: team_picker_load
 TEXT: Muat
 
+RESOURCE ID: team_picker_no_mega_in_max_warning
+TEXT: Your current party cannot join the battle because it includes a Mega-Evolved Pokémon.
+
 RESOURCE ID: team_picker_optimize
 TEXT: Optimalkan
 
@@ -98253,6 +98773,14 @@ TEXT: <b>Termasuk Hadiah</b>
 • Item Premium dalam game seperti Permen Langka, Bola Ultra, dan lain sebagainya
 • Pertemuan ekstra dengan Bounsweet dan Evolusinya
 
+RESOURCE ID: text_rewards_key_bugout0325
+TEXT: <b>Termasuk hadiah:<b>
+• Pertemuan dengan Scyther, Volbeat, Illumise, Cutiefly, Sizzlipede, Kleavor, dan Nymble
+• 2 Tiket Raid Premium
+• 1 Modul Umpan
+• 6.000 Debu Bintang
+• 12.000 XP
+
 RESOURCE ID: text_rewards_key_catch_mastery_archen
 TEXT: <b>Termasuk hadiah:<b>
 • 40 pertemuan dengan Archen
@@ -98393,6 +98921,13 @@ TEXT: <b>Termasuk hadiah:</b>
 • 2.000 Debu Bintang
 
 • Bruxish yang ditemukan di hadiah pertemuan untuk Penelitian ini dan tugas Penelitian lainnya berkemungkinan besar Bersinar!
+
+RESOURCE ID: text_rewards_key_fuzzyrd2024
+TEXT: Penelitian Berwaktu ini akan memberikan tantangan untuk menyelesaikan tugas Penelitian Lapangan yang mengarahkanmu ke pertemuan dengan Pokémon Pilihan: Teddiursa, Cubchoo, Pancham, atau Stufful!
+
+Pokémon yang muncul selama Penelitian Berwaktu ini berkesempatan muncul sebagai Pokémon Bersinar yang bisa ditemukan melalui Penelitian Lapangan selama event.
+
+Penelitian Berwaktu ini akan tersedia pada 29 Maret 2025, mulai pukul 14.00 hingga 17.00 waktu setempat.
 
 RESOURCE ID: text_rewards_key_gblaug24
 TEXT: Tiket ini akan membantumu untuk menjadi Pelatih terbaik dengan memberikanmu kesempatan untuk menangkap Pokémon yang populer di GO Battle League!
@@ -98719,6 +99254,12 @@ TEXT: <b>Termasuk Bonus:</b>
 • Peningkatan peluang perolehan Permen Langka XL dari Raid
 • Ekstra 50% XP dan Debu Bintang ×2 dengan memenangkan Raid
 
+RESOURCE ID: text_rewards_key_megaaudinoraidday
+TEXT: <b>Termasuk Bonus:</b>
+• Ekstra 8 Tiket Raid dari memutar Disk Foto di Gym
+• Peningkatan peluang perolehan Permen Langka XL dari Raid
+• Ekstra 50% XP dan Debu Bintang ×2 dengan memenangkan Raid
+
 RESOURCE ID: text_rewards_key_megagalladeraidday
 TEXT: <b>Termasuk Bonus:</b>
 • Ekstra 8 Tiket Raid dari memutar Disk Foto di Gym
@@ -98788,7 +99329,7 @@ TEXT: Tiket ini memberimu bonus Penelitian Berwaktu yang berhadiah bonus 200 Pok
 
 <b>Termasuk Bonus:</b>
 • 1 tugas Penelitian Lapangan yang berhadiah bonus 20 PokéCoin saat kamu login pertama kali setiap harinya
-• ×3 XP dari tangkapan pertama dan pemutaran pertamamu setiap harinya
+• XP ×3 dari tangkapan pertama dan pemutaran pertamamu setiap harinya
 • Dapat membuka hingga 50 Hadiah per hari
 • Dapat mengumpulkan 150 Hadiah dari PokéStop dan Gym per hari
 • Dapat menampung 40 Hadiah di Tas Item milikmu
@@ -98901,6 +99442,15 @@ TEXT: <b>Termasuk hadiah:</b>
 • 1 MJ Super Elite
 • 20.000 Debu Bintang
 • 5.000 XP
+
+RESOURCE ID: text_rewards_key_stunning_styles
+TEXT: <b>Termasuk hadiah:<b>
+• Pertemuan dengan Shellos Laut Barat, Shellos Laut Timur, dan Espurr
+• 4 Tiket Pertarungan Premium
+• 1 Telur Kebahagiaan
+• 1 Serpihan Bintang
+• 6.000 XP dan 3.000 Debu Bintang
+• Dan banyak lagi!
 
 RESOURCE ID: text_rewards_key_takeovermarch24
 TEXT: <b>Termasuk Hadiah:</b>
@@ -100663,6 +101213,9 @@ TEXT: Penelitian Berwaktu: Secercah Cahaya Matahari
 
 RESOURCE ID: tr_gofest2024_earlybird2
 TEXT: Penelitian Berwaktu: Terbitnya Cahaya Bulan
+
+RESOURCE ID: tr_gofest2025_global_earlybird
+TEXT: GO Fest 2025: Early Bird Timed Research
 
 RESOURCE ID: tr_gowa2024_global_daily_electric
 TEXT: Penelitian Berwaktu Melampaui Wild Area: Eksper Listrik

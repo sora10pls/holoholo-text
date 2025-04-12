@@ -427,6 +427,9 @@ TEXT: 新增貼圖
 RESOURCE ID: adding_friends_info_link
 TEXT: 會和朋友分享的內容
 
+RESOURCE ID: additional_candy_catch_bonus
+TEXT: 捕捉到寶可夢時，將可多獲得1顆糖果
+
 RESOURCE ID: additional_xl_max_raid_singular
 TEXT: 完成極巨對戰時一定可獲得1個額外的糖果XL
 
@@ -782,16 +785,16 @@ RESOURCE ID: af2022_oh
 TEXT: 哦？
 
 RESOURCE ID: age_confirm_contact
-TEXT: Contact Support
+TEXT: 聯絡客服
 
 RESOURCE ID: age_confirm_explain
-TEXT: There is an age requirement to log in with this type of account. Please confirm your date of birth.
+TEXT: 使用這個類型的帳號登入時，必須符合年齡限制的條件，因此我們將向您進行出生年月日的確認。
 
 RESOURCE ID: age_confirm_fail
-TEXT: Sorry, you do not meet the <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">age requirements</a> to log in with this type of account, and your account will be deleted pursuant to our Terms of Service. If you believe you are eligible to log in with this type of account, please contact us.
+TEXT: 由於您未達這個類型的帳戶所需的<a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">年齡門檻</a>，依照服務條款，您的帳號將被刪除。若您認為已達可登入的門檻，請聯絡客服。
 
 RESOURCE ID: age_confirm_popup_confirm
-TEXT: Are you sure? This cannot be changed after you submit it.
+TEXT: 確定要送出嗎？提交後無法變更。
 
 RESOURCE ID: age_gate_screen
 TEXT: 請輸入你的出生年月日
@@ -1942,6 +1945,9 @@ TEXT: 移除身上的打扮
 
 RESOURCE ID: as_save_outfit
 TEXT: 保存打扮
+
+RESOURCE ID: as_two_for_one_purchase
+TEXT: This purchase also includes the {0}.
 
 RESOURCE ID: as_worn_items_added_to_cart
 TEXT: 已加入購物車。
@@ -11565,7 +11571,7 @@ RESOURCE ID: barcelona_catch_cup_title
 TEXT: 速成盃：巴塞隆納
 
 RESOURCE ID: batch_transfer_100_pokemon
-TEXT: {0} ★ 100% Pokémon
+TEXT: {0}隻★ 100%寶可夢
 
 RESOURCE ID: batch_transfer_confirm
 TEXT: <size=36>確定要將這 {0} 隻寶可夢傳送給博士嗎？</size>
@@ -11586,13 +11592,16 @@ RESOURCE ID: batch_transfer_header
 TEXT: 選擇寶可夢
 
 RESOURCE ID: batch_transfer_last_more_pokemon
-TEXT: Your only {0}, {1}, and {2} more
+TEXT: 你僅有1隻的{0}和{1}等（其他{2}隻）
+
+RESOURCE ID: batch_transfer_last_more_pokemon_singular
+TEXT: Your only {0}, {1}, and 1 more
 
 RESOURCE ID: batch_transfer_last_one_pokemon
-TEXT: Your only {0}
+TEXT: 你僅有的1隻{0}
 
 RESOURCE ID: batch_transfer_last_two_pokemon
-TEXT: Your only {0} and {1}
+TEXT: 你僅有1隻的{0}和{1}
 
 RESOURCE ID: batch_transfer_result
 TEXT: 收到糖果了！
@@ -15818,6 +15827,42 @@ TEXT: 選擇沙漠蜻蜓！
 RESOURCE ID: branch_flygon_title_short
 TEXT: 沙漠蜻蜓
 
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_cubchoo_button_text_key
+TEXT: 噴嚏熊
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_cubchoo_description_key
+TEXT: 如果選擇這個分歧，你將能在完成限時調查的課題時遇見噴嚏熊。
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_cubchoo_title_key
+TEXT: 噴嚏熊
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_pancham_button_text_key
+TEXT: 頑皮熊貓
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_pancham_description_key
+TEXT: 如果選擇這個分歧，你將能在完成限時調查的課題時遇見頑皮熊貓。
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_pancham_title_key
+TEXT: 頑皮熊貓
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_stufful_button_text_key
+TEXT: 童偶熊
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_stufful_description_key
+TEXT: 如果選擇這個分歧，你將能在完成限時調查的課題時遇見童偶熊。
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_stufful_title_key
+TEXT: 童偶熊
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_teddiursa_button_text_key
+TEXT: 熊寶寶
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_teddiursa_description_key
+TEXT: 如果選擇這個分歧，你將能在完成限時調查的課題時遇見熊寶寶。
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_teddiursa_title_key
+TEXT: 熊寶寶
+
 RESOURCE ID: branch_gardevoir_description
 TEXT: 讓沙奈朵加入，你就能遇見戴著帽子的特別沙奈朵！
 
@@ -16444,6 +16489,9 @@ TEXT: 今天可收集的極巨粒子已達上限
 RESOURCE ID: bread_mp_for_battle_lobby
 TEXT: 使用{0}MP
 
+RESOURCE ID: bread_mp_for_remote_battle_lobby
+TEXT: Use {0} MP and Remote Raid Pass
+
 RESOURCE ID: bread_mp_storage_full
 TEXT: 能夠持有的極巨粒子已達上限
 
@@ -16500,6 +16548,15 @@ TEXT: 收回後就無法再輔助戰鬥或獲得糖果了。
 
 RESOURCE ID: bread_release_title
 TEXT: 要收回{0}嗎？
+
+RESOURCE ID: bread_remote_iap_mp_rrp_replenish_title
+TEXT: You're out of Remote Raid Passes and MP
+
+RESOURCE ID: bread_remote_invite_in_game_notification
+TEXT: {0} invited you to join a Max Battle!
+
+RESOURCE ID: bread_remote_use_rrp_confirmation
+TEXT: You can join {0} more Max Battles today. Max Particles are only used when you win. A Remote Raid Pass will be used when the battle starts.
 
 RESOURCE ID: bread_report_pou_reason_emergency
 TEXT: 妨礙緊急車輛進出
@@ -17471,8 +17528,29 @@ TEXT: 一起來捕蟲！捕捉大挑戰 (2/3)
 RESOURCE ID: bug_out_catch_challenge_title_page_3
 TEXT: 一起來捕蟲！捕捉大挑戰 (3/3)
 
+RESOURCE ID: bug_out_collection_evolve
+TEXT: 蟲屬性寶可夢收藏家挑戰：吐絲
+
+RESOURCE ID: bug_out_collection_evolve_medium
+TEXT: 蟲屬性寶可夢收藏家挑戰：羽化
+
+RESOURCE ID: bug_out_collection_evolve_ninja
+TEXT: 蟲屬性寶可夢收藏家挑戰：潛行
+
 RESOURCE ID: bug_out_event_name
 TEXT: 一起來捕蟲！
+
+RESOURCE ID: bug_out_free_tr_name
+TEXT: 蟲屬性寶可夢限時調查
+
+RESOURCE ID: bug_out_tr_name
+TEXT: 蟲屬性寶可夢特級限時調查
+
+RESOURCE ID: bug_out_tr_name_1
+TEXT: 蟲屬性寶可夢特級限時調查(1/2)
+
+RESOURCE ID: bug_out_tr_name_2
+TEXT: 蟲屬性寶可夢特級限時調查(2/2)
 
 RESOURCE ID: bug_type_event
 TEXT: 急速上昇：蟲屬性
@@ -21825,8 +21903,19 @@ RESOURCE ID: em_mall_large_tr_title
 TEXT: 皮卡丘派對
 獎勵限時調查
 
+RESOURCE ID: em_mall_mela_event_title
+TEXT: Pokémon Fiesta
+
 RESOURCE ID: em_mall_pkmn_day_event_title
 TEXT: 寶可夢生日：巴西
+
+RESOURCE ID: em_mall_small_tr_desc_title_00
+TEXT: Pokémon Fiesta
+限時調查(1/1)
+
+RESOURCE ID: em_mall_small_tr_title
+TEXT: Pokémon Fiesta
+限時調查
 
 RESOURCE ID: empty_events_message
 TEXT: 即將登場的活動等資訊會顯示於此
@@ -22417,6 +22506,10 @@ TEXT: 4月20日14:00～17:00
 RESOURCE ID: event_datetime_range_key_bounsweetcd2024
 TEXT: 5月19日14:00～17:00
 
+RESOURCE ID: event_datetime_range_key_bugout0325
+TEXT: 3月26日10:00～
+3月30日20:00
+
 RESOURCE ID: event_datetime_range_key_catch_mastery_archen
 TEXT: 3月16日10:00～20:00
 
@@ -22483,6 +22576,9 @@ TEXT: 5月11日14:00～17:00
 RESOURCE ID: event_datetime_range_key_foc_mar25
 TEXT: 3月13日10:00～
 3月17日20:00
+
+RESOURCE ID: event_datetime_range_key_fuzzyrd2024
+TEXT: 3月29日14:00～17:00
 
 RESOURCE ID: event_datetime_range_key_gblaug24
 TEXT: 8月16日10:00～
@@ -22617,6 +22713,9 @@ TEXT: 5月4日10:00～
 RESOURCE ID: event_datetime_range_key_megaabsolraidday
 TEXT: 3月23日14:00～17:00
 
+RESOURCE ID: event_datetime_range_key_megaaudinoraidday
+TEXT: 4月5日14:00～17:00
+
 RESOURCE ID: event_datetime_range_key_megagalladeraidday
 TEXT: 1月11日14:00～17:00
 
@@ -22697,6 +22796,10 @@ TEXT: 6月1日10:00～
 RESOURCE ID: event_datetime_range_key_stldrslv0125
 TEXT: 1月21日10:00～
 1月26日23:59
+
+RESOURCE ID: event_datetime_range_key_stunning_styles
+TEXT: 4月3日10:00～
+4月7日20:00
 
 RESOURCE ID: event_datetime_range_key_takeovermarch24
 TEXT: 3月27日12:00～
@@ -23479,6 +23582,9 @@ TEXT: 在100級獲得！
 
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_02
 TEXT: 在40級獲得！
+
+RESOURCE ID: event_pass_premium_reward_banner_bottom_text_99
+TEXT: 在99級獲得！
 
 RESOURCE ID: event_pass_premium_reward_banner_middle_text
 TEXT: 亮晶晶首飾
@@ -25533,6 +25639,15 @@ TEXT: 陰天形態
 RESOURCE ID: form_palafin_hero
 TEXT: 全能形態
 
+RESOURCE ID: form_paldea_aqua
+TEXT: 水瀾種
+
+RESOURCE ID: form_paldea_blaze
+TEXT: 火熾種
+
+RESOURCE ID: form_paldea_combat
+TEXT: 鬥戰種
+
 RESOURCE ID: form_palkia_normal
 TEXT: 帕路奇亞
 
@@ -25571,6 +25686,9 @@ TEXT: 特大尺寸
 
 RESOURCE ID: form_rain
 TEXT: 雨水的樣子
+
+RESOURCE ID: form_rapid_strike
+TEXT: Rapid Strike Style
 
 RESOURCE ID: form_red_striped
 TEXT: 紅條紋的樣子
@@ -25673,6 +25791,9 @@ TEXT: Type: Steel
 
 RESOURCE ID: form_silvally_water
 TEXT: Type: Water
+
+RESOURCE ID: form_single_strike
+TEXT: Single Strike Style
 
 RESOURCE ID: form_sky
 TEXT: 天空形態
@@ -25998,6 +26119,9 @@ TEXT: 收到 {0} 傳來的朋友申請了！
 
 RESOURCE ID: friend_invited_you_to_ex_raid
 TEXT: 邀請你參加VIP團體戰！
+
+RESOURCE ID: friend_is_at_a_max_battle
+TEXT: Has joined a <b>{0} {1}</b> Battle
 
 RESOURCE ID: friend_is_at_a_raid
 TEXT: {0}正在參加<b>{1}團體戰</b>
@@ -26366,6 +26490,24 @@ TEXT: 無法分離。請重試一次。
 RESOURCE ID: fusion_unfuse_question
 TEXT: 要讓{0}分離嗎？
 
+RESOURCE ID: fuzzy_buddies_event_name
+TEXT: 毛茸茸夥伴調查日
+
+RESOURCE ID: fuzzy_buddy_mar2025_tr
+TEXT: 毛茸茸夥伴調查日特級限時調查
+
+RESOURCE ID: fuzzy_buddy_rd_tr_cubchoo
+TEXT: 毛茸茸夥伴調查日：噴嚏熊
+
+RESOURCE ID: fuzzy_buddy_rd_tr_pancham
+TEXT: 毛茸茸夥伴調查日：頑皮熊貓
+
+RESOURCE ID: fuzzy_buddy_rd_tr_stufful
+TEXT: 毛茸茸夥伴調查日：童偶熊
+
+RESOURCE ID: fuzzy_buddy_rd_tr_teddiursa
+TEXT: 毛茸茸夥伴調查日：熊寶寶
+
 RESOURCE ID: fuzzy_fighter_sr_name
 TEXT: 毛茸茸鬥士
 
@@ -26722,6 +26864,9 @@ TEXT: 「最勇敢的小鳥」入場券
 
 RESOURCE ID: general1.ticket.2_flocktr24_title
 TEXT: 飛行調查日限時調查
+
+RESOURCE ID: general1.ticket.2_fuzzyrd2024_title
+TEXT: 毛茸茸夥伴調查日特級限時調查入場券
 
 RESOURCE ID: general1.ticket.2_garchompraid2023_description
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2023年11月11日14:00～22:00領取下列獎勵：
@@ -27412,6 +27557,9 @@ TEXT: 岸邊漫步限時調查入場券
 RESOURCE ID: general1.ticket._battleevent2024_title
 TEXT: 鋼之對戰入場券
 
+RESOURCE ID: general1.ticket._bugout0325_title
+TEXT: 蟲屬性寶可夢特級限時調查入場券
+
 RESOURCE ID: general1.ticket._chargedembers1224_title
 TEXT: 火焰與放電孵化日特級限時調查入場券
 
@@ -27923,6 +28071,9 @@ TEXT: 巨鉗蟹極巨對戰日入場券
 RESOURCE ID: general2.ticket.6_megaabsolraidday_title
 TEXT: 超級阿勃梭魯團體戰日入場券
 
+RESOURCE ID: general2.ticket.6_megaaudinoraidday_title
+TEXT: 超級差不多娃娃團體戰日入場券
+
 RESOURCE ID: general2.ticket.7_aprilmonthly2025_title
 TEXT: 強化入場券：4月
 
@@ -27940,6 +28091,9 @@ TEXT: 奈克洛茲瑪合體團體戰日入場券
 
 RESOURCE ID: general2.ticket._shadowhoohraidday_title
 TEXT: 鳳王暗影團體戰日入場券
+
+RESOURCE ID: general2.ticket._stunning_styles_ticket_title
+TEXT: 獨特風格特級限時調查入場券
 
 RESOURCE ID: general2.ticket4.catch_mastery_archen
 TEXT: 捕捉達人：始祖小鳥
@@ -36789,6 +36943,9 @@ TEXT: 開啟友情禮物時可獲得的XP和星星沙子增加
 RESOURCE ID: increased_transfer_candy_xl_bonus
 TEXT: 傳送寶可夢時可獲得更多糖果及糖果XL
 
+RESOURCE ID: increased_xl_candy_chance_catch_bonus
+TEXT: 捕捉寶可夢時獲得糖果XL的機率提高
+
 RESOURCE ID: increased_xp_catch_streak_bonus
 TEXT: 完成「連續7天捕捉寶可夢」時可獲得的XP增加
 
@@ -37587,8 +37744,17 @@ TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時�
 RESOURCE ID: item_event_ticket_10_name
 TEXT: 入場券
 
+RESOURCE ID: item_event_ticket_desc_stunning_styles
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年4月7日20:00前參與獨特風格特級限時調查。
+
 RESOURCE ID: item_event_ticket_details_gowaleadup2024
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間2024年11月18日開始參與「曠野週限時調查」並獲得獎勵。
+
+RESOURCE ID: item_event_ticket_details_stunning_styles
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間4月3日開始參與獨特風格特級限時調查。
+
+RESOURCE ID: item_event_ticket_evergreen_desc_bugout0325
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年3月30日20:00前參與蟲屬性寶可夢特級限時調查。
 
 RESOURCE ID: item_event_ticket_evergreen_desc_chargedembers1224
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年12月29日17:00前參與火焰與放電孵化日特級限時調查。
@@ -37631,6 +37797,9 @@ TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時�
 
 RESOURCE ID: item_event_ticket_evergreen_desc_yamasktr24
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年10月19日14:00～17:00參與哭哭面具和伽勒爾哭哭面具調查日的2種特級限時調查。
+
+RESOURCE ID: item_event_ticket_evergreen_details_bugout0325
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在3月26日開始參與蟲屬性寶可夢特級限時調查。
 
 RESOURCE ID: item_event_ticket_evergreen_details_chargedembers1224
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在12月29日開始參與火焰與放電孵化日限時調查。
@@ -37749,6 +37918,9 @@ TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時�
 RESOURCE ID: item_event_ticket_gray_desc_megaabsolraidday
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年3月23日14:00～17:00領取特別的獎勵。
 
+RESOURCE ID: item_event_ticket_gray_desc_megaaudinoraidday
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年4月5日14:00～17:00領取特別的獎勵。
+
 RESOURCE ID: item_event_ticket_gray_desc_megagalladeraidday
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年1月11日14:00～17:00領取特別的獎勵。
 
@@ -37847,6 +38019,9 @@ TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時�
 
 RESOURCE ID: item_event_ticket_gray_details_megaabsolraidday
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間2025年3月23日領取特別的獎勵。
+
+RESOURCE ID: item_event_ticket_gray_details_megaaudinoraidday
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間2025年4月5日領取特別的獎勵。
 
 RESOURCE ID: item_event_ticket_gray_details_megagalladeraidday
 TEXT: 入場券將會自動啟動。不論你身在何處，都能在當地時間2025年1月11日領取特別的獎勵。
@@ -37982,6 +38157,9 @@ TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時�
 
 RESOURCE ID: item_event_ticket_pink_desc_froakie
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2023年8月13日14:00～17:00獲得特殊調查的課題。
+
+RESOURCE ID: item_event_ticket_pink_desc_fuzzyrd2024
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年3月29日14:00～17:00參與毛茸茸夥伴調查日特級限時調查。
 
 RESOURCE ID: item_event_ticket_pink_desc_gbd
 TEXT: 不論你身處世界上的何處，都可以用這張入場券來領取限時調查「GO對戰日：星星沙子」。
@@ -38126,6 +38304,9 @@ TEXT: 入場券將會自動啟用，不論你身在何處，都能在5月11日�
 
 RESOURCE ID: item_event_ticket_pink_details_froakie
 TEXT: 入場券將會自動啟用，不論你身處世界上的何處，都能在當地時間2023年8月13日領取特殊調查「樂得冒泡」。
+
+RESOURCE ID: item_event_ticket_pink_details_fuzzyrd2024
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在3月29日參與毛茸茸夥伴調查日特級限時調查。
 
 RESOURCE ID: item_event_ticket_pink_details_gbd
 TEXT: 入場券將會自動啟用，不論你身處世界上的何處，都能在當地時間2023年5月14日0:00～23:59領取限時調查「GO對戰日：星星沙子」。
@@ -38404,7 +38585,7 @@ RESOURCE ID: item_expire_timer_minutes_seconds_left
 TEXT: 還剩{0}
 
 RESOURCE ID: item_found
-TEXT: Item found! 
+TEXT: 撿到東西了！
 
 RESOURCE ID: item_free_raid_ticket_desc
 TEXT: 參加團體戰所需的入場券。如果你手上沒有入場券，你每天都可以在道館獲得一張免費的入場券。
@@ -38752,6 +38933,12 @@ TEXT: 招式學習器的一種，可以讓寶可夢學會新的特殊招式。
 
 RESOURCE ID: item_move_reroll_special_attack_name
 TEXT: 特殊招式學習器
+
+RESOURCE ID: item_mp_desc
+TEXT:  
+
+RESOURCE ID: item_mp_desc_temp
+TEXT: Use Max Particles to take on Max Battles at Power Spots or unlock and level up Max Moves.
 
 RESOURCE ID: item_mp_name
 TEXT: 極巨粒子
@@ -39326,6 +39513,36 @@ TEXT: 超極巨化巨鉗蟹特級限時調查
 RESOURCE ID: korean
 TEXT: 한국인
 
+RESOURCE ID: kr_cherryblossom_festival_2025_tag
+TEXT: 春花慶典
+
+RESOURCE ID: kr_cherryblossom_festival_2025_title
+TEXT: 春花慶典2025
+
+RESOURCE ID: kr_cherryblossom_festival_2025_tr_name
+TEXT: 春花慶典2025紀念背卡限時調查
+
+RESOURCE ID: kr_cherryblossom_festival_2025_tr_name_1
+TEXT: 春花慶典2025紀念背卡限時調查(1/3)
+
+RESOURCE ID: kr_cherryblossom_festival_2025_tr_name_2
+TEXT: 春花慶典2025紀念背卡限時調查(2/3)
+
+RESOURCE ID: kr_cherryblossom_festival_2025_tr_name_3
+TEXT: 春花慶典2025紀念背卡限時調查(3/3)
+
+RESOURCE ID: kr_cherryblossom_festival_2025_yeouido_bonus
+TEXT: 春花慶典2025 – 汝矣島獎勵
+
+RESOURCE ID: kr_festival_fr_location_background
+TEXT: 從田野調查課題捕捉到的四季鹿和穿著服飾的皮卡丘可能會帶著紀念背卡
+
+RESOURCE ID: kr_spring_festival_mar2025_cc_1
+TEXT: 春花慶典2025收藏家挑戰1
+
+RESOURCE ID: kr_spring_festival_mar2025_cc_2
+TEXT: 春花慶典2025收藏家挑戰2
+
 RESOURCE ID: lake_trio_event_name
 TEXT: 湖之神話活動
 
@@ -39375,7 +39592,7 @@ RESOURCE ID: last_played_yesterday
 TEXT: 上次玩遊戲：昨天
 
 RESOURCE ID: last_pokemon_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer your last {0}?
+TEXT: 你真的確定要把你僅有的1隻{0}傳送給維羅博士嗎？
 
 RESOURCE ID: latam_live_op_desc
 TEXT: 額外獎勵活動：新LATAM冒險
@@ -42451,6 +42668,120 @@ TEXT: 磁力培訓營：正電拍拍
 RESOURCE ID: magnetic_study_plusle_tr_name
 TEXT: 磁力培訓營限時調查：正電拍拍
 
+RESOURCE ID: make_good_kyurem_title_001
+TEXT: 遇見：酋雷姆1
+
+RESOURCE ID: make_good_kyurem_title_002
+TEXT: 遇見：酋雷姆2
+
+RESOURCE ID: make_good_kyurem_title_003
+TEXT: 遇見：酋雷姆3
+
+RESOURCE ID: make_good_kyurem_title_004
+TEXT: 遇見：酋雷姆4
+
+RESOURCE ID: make_good_kyurem_title_005
+TEXT: 遇見：酋雷姆5
+
+RESOURCE ID: make_good_kyurem_title_006
+TEXT: 遇見：酋雷姆6
+
+RESOURCE ID: make_good_kyurem_title_007
+TEXT: 遇見：酋雷姆7
+
+RESOURCE ID: make_good_kyurem_title_008
+TEXT: 遇見：酋雷姆8
+
+RESOURCE ID: make_good_kyurem_title_009
+TEXT: 遇見：酋雷姆9
+
+RESOURCE ID: make_good_kyurem_title_010
+TEXT: 遇見：酋雷姆10
+
+RESOURCE ID: make_good_kyurem_title_011
+TEXT: 遇見：酋雷姆11
+
+RESOURCE ID: make_good_kyurem_title_012
+TEXT: 遇見：酋雷姆12
+
+RESOURCE ID: make_good_reshiram_desc
+TEXT: 遇見：萊希拉姆2025
+
+RESOURCE ID: make_good_reshiram_title_001
+TEXT: 遇見：萊希拉姆1
+
+RESOURCE ID: make_good_reshiram_title_002
+TEXT: 遇見：萊希拉姆2
+
+RESOURCE ID: make_good_reshiram_title_003
+TEXT: 遇見：萊希拉姆3
+
+RESOURCE ID: make_good_reshiram_title_004
+TEXT: 遇見：萊希拉姆4
+
+RESOURCE ID: make_good_reshiram_title_005
+TEXT: 遇見：萊希拉姆5
+
+RESOURCE ID: make_good_reshiram_title_006
+TEXT: 遇見：萊希拉姆6
+
+RESOURCE ID: make_good_reshiram_title_007
+TEXT: 遇見：萊希拉姆7
+
+RESOURCE ID: make_good_reshiram_title_008
+TEXT: 遇見：萊希拉姆8
+
+RESOURCE ID: make_good_reshiram_title_009
+TEXT: 遇見：萊希拉姆9
+
+RESOURCE ID: make_good_reshiram_title_010
+TEXT: 遇見：萊希拉姆10
+
+RESOURCE ID: make_good_reshiram_title_011
+TEXT: 遇見：萊希拉姆11
+
+RESOURCE ID: make_good_reshiram_title_012
+TEXT: 遇見：萊希拉姆12
+
+RESOURCE ID: make_good_zekrom_desc
+TEXT: 遇見：捷克羅姆2025
+
+RESOURCE ID: make_good_zekrom_title_001
+TEXT: 遇見：捷克羅姆1
+
+RESOURCE ID: make_good_zekrom_title_002
+TEXT: 遇見：捷克羅姆2
+
+RESOURCE ID: make_good_zekrom_title_003
+TEXT: 遇見：捷克羅姆3
+
+RESOURCE ID: make_good_zekrom_title_004
+TEXT: 遇見：捷克羅姆4
+
+RESOURCE ID: make_good_zekrom_title_005
+TEXT: 遇見：捷克羅姆5
+
+RESOURCE ID: make_good_zekrom_title_006
+TEXT: 遇見：捷克羅姆6
+
+RESOURCE ID: make_good_zekrom_title_007
+TEXT: 遇見：捷克羅姆7
+
+RESOURCE ID: make_good_zekrom_title_008
+TEXT: 遇見：捷克羅姆8
+
+RESOURCE ID: make_good_zekrom_title_009
+TEXT: 遇見：捷克羅姆9
+
+RESOURCE ID: make_good_zekrom_title_010
+TEXT: 遇見：捷克羅姆10
+
+RESOURCE ID: make_good_zekrom_title_011
+TEXT: 遇見：捷克羅姆11
+
+RESOURCE ID: make_good_zekrom_title_012
+TEXT: 遇見：捷克羅姆12
+
 RESOURCE ID: manage_items_button
 TEXT: 整理道具
 
@@ -42562,6 +42893,27 @@ TEXT: 蓮葉童子研究：參加1次團體戰
 
 RESOURCE ID: marrd_2019_easy_supereffective_charge
 TEXT: 蓮葉童子研究：在道館對戰中使出1次「效果絕佳」的特殊招式
+
+RESOURCE ID: marshadow_global_sr_1
+TEXT: 獨特瑪夏多(1/6)
+
+RESOURCE ID: marshadow_global_sr_2
+TEXT: 獨特瑪夏多(2/6)
+
+RESOURCE ID: marshadow_global_sr_3
+TEXT: 獨特瑪夏多(3/6)
+
+RESOURCE ID: marshadow_global_sr_4
+TEXT: 獨特瑪夏多(4/6)
+
+RESOURCE ID: marshadow_global_sr_5
+TEXT: 獨特瑪夏多(5/6)
+
+RESOURCE ID: marshadow_global_sr_6
+TEXT: 獨特瑪夏多(6/6)
+
+RESOURCE ID: marshadow_global_sr_name
+TEXT: 獨特瑪夏多
 
 RESOURCE ID: master_classic_title
 TEXT: 大師聯盟經典賽
@@ -43276,6 +43628,9 @@ TEXT: 集中訓練：
 RESOURCE ID: mega_active_countdown_description
 TEXT: 剩餘時間
 
+RESOURCE ID: mega_audino_tr_april_2025_title
+TEXT: 超級差不多娃娃團體戰日限時調查
+
 RESOURCE ID: mega_battle_event
 TEXT: 超級對戰挑戰
 
@@ -43584,9 +43939,9 @@ RESOURCE ID: meshing_option_title
 TEXT: 網格化
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2025-03-27T16:47:40.171405+00:00 for zh-TW
-at SHA 505ac976953
-Pipeline 3109778, job 38824341
+TEXT: Built at 2025-04-11T21:18:23.797301+00:00 for zh-TW
+at SHA 0d984c0aeda5c
+Pipeline 3150707, job 39575452
 
 RESOURCE ID: mex_fighting_promo_title
 TEXT: 限時調查：格鬥屬性
@@ -51829,7 +52184,7 @@ RESOURCE ID: pokedex_status_seen
 TEXT: 有見過
 
 RESOURCE ID: pokemon_100_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer this ★ 100% Pokémon?
+TEXT: 你真的確定要把這隻★ 100%寶可夢傳送給維羅博士嗎？
 
 RESOURCE ID: pokemon_alert_label_off
 TEXT: 關閉通知
@@ -82809,11 +83164,15 @@ TEXT: 經典社群日：
 
 RESOURCE ID: quest_title_totodile_0
 TEXT: 經典社群日：
-小鋸鱷(1/2)
+小鋸鱷(1/3)
 
 RESOURCE ID: quest_title_totodile_1
 TEXT: 經典社群日：
-小鋸鱷(2/2)
+小鋸鱷(2/3)
+
+RESOURCE ID: quest_title_totodile_2
+TEXT: 經典社群日：
+小鋸鱷(3/3)
 
 RESOURCE ID: quest_title_tynamo
 TEXT: 解開電魚寶可夢之謎！
@@ -84974,6 +85333,9 @@ TEXT: 團體戰日：瑪沙那
 RESOURCE ID: raid_day_mega_absol_event_name
 TEXT: 團體戰日：超級阿勃梭魯
 
+RESOURCE ID: raid_day_mega_audino_event_name
+TEXT: 團體戰日：超級差不多娃娃
+
 RESOURCE ID: raid_day_mega_garchomp
 TEXT: 團體戰日：超級烈咬陸鯊
 
@@ -85766,6 +86128,9 @@ TEXT: 團體戰日：小鋸鱷
 RESOURCE ID: raid_day_toxicroak
 TEXT: 團體戰日：毒骷蛙
 
+RESOURCE ID: raid_day_tr_bonus_unlock
+TEXT: 團體戰日：限時調查獎勵
+
 RESOURCE ID: raid_day_tranquill
 TEXT: 團體戰日：咕咕鴿
 
@@ -86182,7 +86547,7 @@ RESOURCE ID: raid_planner_rsvp_conflict_title
 TEXT: 確定要預約參加這場對戰嗎？
 
 RESOURCE ID: raid_planner_rsvp_conflict_warning
-TEXT: 如果確定參加這場對戰，現有的參戰預約將會被取消。
+TEXT: 如果確定參加這場對戰，現有的參戰預約將會被取消。兩個預約之間必須間隔{0}分以上。
 
 RESOURCE ID: raid_planner_success_rsvp
 TEXT: 已預約參戰！
@@ -86213,7 +86578,7 @@ TEXT: 要公開這個小組嗎？
 公開後將無法取消。
 
 RESOURCE ID: raid_rsvp_bonus
-TEXT: RSVP'd to Raid
+TEXT: 參戰預約
 
 RESOURCE ID: raid_share_private_code_message
 TEXT: 和朋友分享小組代碼，讓朋友加入你的對戰陣容。
@@ -86231,7 +86596,7 @@ RESOURCE ID: raid_sort_rsvps
 TEXT: 預約參戰人數
 
 RESOURCE ID: raid_sort_time
-TEXT: 離開始的時間
+TEXT: 結束前剩餘時間
 
 RESOURCE ID: raid_stardust_1.5x
 TEXT: 參加團體戰可獲得的星星沙子增為1.5倍
@@ -88794,6 +89159,9 @@ TEXT: 如果離開小隊，挑戰進度和尚未領取的獎勵將會消失。
 RESOURCE ID: rejoin_warning_modal_title
 TEXT: 確定要離開小隊嗎？
 
+RESOURCE ID: remote_max_battle_invite_push_notif
+TEXT: A friend invited you to join a Max Battle!
+
 RESOURCE ID: remote_raid_battle_helptext
 TEXT: 使用遠距團體戰入場券
 
@@ -89021,6 +89389,9 @@ TEXT: 可選擇的理由數量已達上限
 RESOURCE ID: report_route_error_missing_selection
 TEXT: 請選擇回報的理由
 
+RESOURCE ID: report_route_error_not_found
+TEXT: 找不到這個路線
+
 RESOURCE ID: report_route_error_too_many_reports
 TEXT: 今天的回報數已達上限
 
@@ -89215,6 +89586,9 @@ TEXT: 完成突破性進展時可獲得更多道具
 
 RESOURCE ID: research_breakthrough_bonus_stardust
 TEXT: 完成突破性進展時可獲得更多星星沙子
+
+RESOURCE ID: research_breakthrough_bonus_xp_stardust
+TEXT: 完成突破性進展時可獲得的XP和星星沙子增加
 
 RESOURCE ID: research_day_passimian_and_oranguru_event_name
 TEXT: 智揮猩和投擲猴研究日
@@ -91316,6 +91690,18 @@ TEXT: 起點：
 RESOURCE ID: rsvp_attendance_preference_title
 TEXT: 預約參戰狀態分享對象：
 
+RESOURCE ID: rsvp_attendance_tutorial_link_text_key
+TEXT: 訓練家名稱顯示處的詳細資訊
+
+RESOURCE ID: rsvp_attendance_tutorial_link_url_key
+TEXT: https://niantic.helpshift.com/hc/{0}/6-pokemon-go/faq/4286-controlling-your-experience-on-pokemon-go/
+
+RESOURCE ID: rsvp_attendance_tutorial_message_key
+TEXT: 其他訓練家可以確認你的參戰預定。你隨時都可以在設定選單更改設定。
+
+RESOURCE ID: rsvp_attendance_tutorial_title_key
+TEXT: 確認參戰預定
+
 RESOURCE ID: rsvp_inactive_button_desc
 TEXT: {0}位 ({1})
 
@@ -91325,11 +91711,17 @@ TEXT: 選擇時間
 RESOURCE ID: rsvp_invitation_notification_string_key
 TEXT: {0}邀請你一起參加{1}（{2}）！
 
+RESOURCE ID: rsvp_invite_already_going
+TEXT: 預定參加這場對戰
+
+RESOURCE ID: rsvp_invite_does_not_meet_level_requirements
+TEXT: 尚未達到接受邀請的等級
+
 RESOURCE ID: rsvp_invite_friends
 TEXT: 邀請朋友
 
 RESOURCE ID: rsvp_reminder_min
-TEXT: min
+TEXT: 分
 
 RESOURCE ID: rsvp_reminder_notification_gmax_generic_join
 TEXT: <b>極巨對戰開始！</b>與其他{0}位訓練家一起參加吧！
@@ -91408,6 +91800,12 @@ TEXT: 紅寶石版
 
 RESOURCE ID: russian
 TEXT: Русский
+
+RESOURCE ID: s18_catch_mastery_makegood_tr_kabuto
+TEXT:  遇見化石：化石盔
+
+RESOURCE ID: s18_catch_mastery_makegood_tr_omanyte
+TEXT:  遇見化石：菊石獸
 
 RESOURCE ID: sa_account_creation_prompt
 TEXT: 沒有 Niantic Kids 的帳號嗎？
@@ -92496,6 +92894,77 @@ TEXT: Pokémon GO Season 9: 星星的願望
 
 RESOURCE ID: season_partner_research_ltd_amazon_gaming
 TEXT: 限定合作夥伴特別調查 - 隱藏的寶石：Amazon Prime Gaming
+
+RESOURCE ID: season_pass_april2025_event_duration
+TEXT: 4月1日～5月6日
+
+RESOURCE ID: season_pass_april2025_track_upgrade_header_description
+TEXT: 如果選擇豪華版，你將能獲得追加的獎勵，並且在等級升上100級後遇見<b>哲爾尼亞斯</b>！
+
+RESOURCE ID: season_pass_april2025_upgrade_description
+TEXT: 如果購買GO入場券豪華版：4月，將能解鎖下列獎勵！
+
+・與哲爾尼亞斯相遇
+・能成為亮晶晶好朋友的道具「<a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">亮晶晶首飾</a>」
+・其他
+
+RESOURCE ID: season_pass_april2025_upgrade_description_no_additional_legendary
+TEXT: 如果購買GO入場券豪華版：4月，將能解鎖下列獎勵！
+
+・能成為亮晶晶好朋友的道具「<a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">亮晶晶首飾</a>」
+・其他
+
+RESOURCE ID: season_pass_base_track_title_april
+TEXT: GO入場券：4月
+
+RESOURCE ID: season_pass_base_track_title_may
+TEXT: GO入場券：5月
+
+RESOURCE ID: season_pass_bonus_hatch_xp_stardust
+TEXT: 孵蛋時可獲得的XP和星星沙子增加
+
+RESOURCE ID: season_pass_details_link
+TEXT: 詳情請至<a href="https://pokemongolive.com/post/go-pass-test-2025">網站</a>確認
+
+RESOURCE ID: season_pass_may2025_event_duration
+TEXT: 5月6日～6月3日
+
+RESOURCE ID: season_pass_may2025_track_upgrade_header_description
+TEXT: 如果選擇豪華版，你將能獲得追加的獎勵，並且在等級升上100級後遇見<b>伊裴爾塔爾</b>！
+
+RESOURCE ID: season_pass_may2025_upgrade_description
+TEXT: 如果購買GO入場券豪華版：5月，將能解鎖下列獎勵！
+
+・與伊裴爾塔爾相遇
+・能成為亮晶晶好朋友的道具「<a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">亮晶晶首飾</a>」
+・其他
+
+RESOURCE ID: season_pass_may2025_upgrade_description_no_additional_legendary
+TEXT: 如果購買GO入場券豪華版：5月，將能解鎖下列獎勵！
+
+・能成為亮晶晶好朋友的道具「<a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">亮晶晶首飾</a>」
+・其他
+
+RESOURCE ID: season_pass_milestone_bonus_title_01
+TEXT: 第1階段GO入場券獎勵
+
+RESOURCE ID: season_pass_milestone_bonus_title_02
+TEXT: 第2階段GO入場券獎勵
+
+RESOURCE ID: season_pass_milestone_bonus_title_03
+TEXT: 第3階段GO入場券獎勵
+
+RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_april
+TEXT: GO入場券豪華版：4月＋10級
+
+RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_may
+TEXT: GO入場券豪華版：5月＋10級
+
+RESOURCE ID: season_pass_premium_track_title_april
+TEXT: GO入場券豪華版：4月
+
+RESOURCE ID: season_pass_premium_track_title_may
+TEXT: GO入場券豪華版：5月
 
 RESOURCE ID: seasonal_delights_box
 TEXT: 冬季特別禮盒
@@ -94163,14 +94632,17 @@ TEXT: 和朋友分享上線狀態
 RESOURCE ID: social_other_friend_add_title
 TEXT: 其他
 
+RESOURCE ID: social_planner_cancel_upcoming_warning
+TEXT: Completing this battle will cancel your upcoming RSVP at this location.
+
 RESOURCE ID: social_planner_cannot_change_active_timeslots_key
-TEXT: Unable to change time slot as no time slots are available
+TEXT: 沒有可參加的時段，因此無法變更。
 
 RESOURCE ID: social_planner_conflict_disclaimer_text_key
-TEXT: You have a time conflict.
+TEXT: 你已有預定的行程
 
 RESOURCE ID: social_planner_detail_other_trainers
-TEXT: 其他{0}位
+TEXT: 其他
 
 RESOURCE ID: social_planner_error_rsvp_failure
 TEXT: 發生錯誤。請再試一次。
@@ -94180,6 +94652,9 @@ TEXT: 參戰預定數已達上限
 
 RESOURCE ID: social_planner_error_rsvp_missing
 TEXT: 發生錯誤。沒有找到參戰預定。
+
+RESOURCE ID: social_planner_error_sending_invites_key
+TEXT: Could not send invite to one or more friends.
 
 RESOURCE ID: social_planner_error_timeslot_passed
 TEXT: 無法使用此時段
@@ -94194,13 +94669,13 @@ RESOURCE ID: social_planner_leave_rsvp_modal_title_key
 TEXT: 確定要取消參加這場對戰嗎？
 
 RESOURCE ID: social_planner_leave_rsvp_success_toast_key
-TEXT: 已取消預定
+TEXT: 已取消預約
 
 RESOURCE ID: social_planner_leave_rsvp_text_key
 TEXT: 取消
 
 RESOURCE ID: social_planner_no_more_timeslots_key
-TEXT: No more available timeslots.
+TEXT: 沒有時段
 
 RESOURCE ID: social_planner_rsvp_friends_list_empty
 TEXT: 朋友名單空白
@@ -94218,7 +94693,7 @@ RESOURCE ID: social_planner_rsvp_invite_sent_confirmation
 TEXT: 已送出邀請函！
 
 RESOURCE ID: social_planner_rsvp_local_only_disclaimer
-TEXT: You'll need to be nearby to defeat this Raid Boss.
+TEXT: 你必須到這個地點附近進行對戰
 
 RESOURCE ID: social_planner_rsvp_maybe_count
 TEXT: {0}人不確定
@@ -94228,6 +94703,9 @@ TEXT: 不確定
 
 RESOURCE ID: social_planner_rsvp_not_going_text_key
 TEXT: 不參加
+
+RESOURCE ID: social_planner_select_another_time
+TEXT: SELECT ANOTHER TIME
 
 RESOURCE ID: social_planner_time_conflict_disclaimer_title_key
 TEXT: 行程不合
@@ -94243,6 +94721,9 @@ TEXT: {0}會參加
 
 RESOURCE ID: social_planner_timetable_gui_title_key
 TEXT: 選擇時間
+
+RESOURCE ID: social_planner_view_in_map
+TEXT: 在地圖中查看
 
 RESOURCE ID: social_player_level_too_low
 TEXT: 目前系統僅開放訓練家等級達到 {0} 級以上的訓練家使用朋友功能。此功能將依序開放給所有訓練家使用，敬請耐心等候。
@@ -96684,6 +97165,30 @@ TEXT: 看樣子你好像被熊徒弟看中了。牠認為你是適合一起變�
 RESOURCE ID: story_mightandmastery_1_4
 TEXT: 和熊徒弟一起冒險，將牠的潛力激發到極致吧！
 
+RESOURCE ID: story_mightandmastery_2_0
+TEXT: 這不是%PLAYERNAME%嗎！看來熊徒弟的訓練進行得很順利。
+
+RESOURCE ID: story_mightandmastery_2_1
+TEXT: 將心、技、體磨練至極致的訓練雖然相當辛苦，不過相信很快可以練就驚世高手。
+
+RESOURCE ID: story_mightandmastery_2_3
+TEXT: 說到高手，你是否已經掌握熊徒弟的長處和弱點了呢？
+
+RESOURCE ID: story_mightandmastery_2_4
+TEXT: 等接下來一連串的訓練結束後再聊吧。
+
+RESOURCE ID: story_mightandmastery_3_0
+TEXT: 歡迎回來，%PLAYERNAME%！我們來整理一下熊徒弟的長處和弱點吧。
+
+RESOURCE ID: story_mightandmastery_3_1
+TEXT: 像熊徒弟這樣的格鬥屬性寶可夢，擅於對抗一般屬性、冰屬性、岩石屬性、惡屬性及鋼屬性。
+
+RESOURCE ID: story_mightandmastery_3_2
+TEXT: 但不擅於對抗飛行屬性、超能力屬性和妖精屬性的攻擊。
+
+RESOURCE ID: story_mightandmastery_3_3
+TEXT: 看來你在強化熊徒弟時已經將這些考量進去了。繼續加油吧！
+
 RESOURCE ID: story_quest_cosmog_sol23_0
 TEXT: 閃耀星雲 (1/4)
 
@@ -97952,6 +98457,21 @@ TEXT: 可透過旋轉寶可補給站或道館的轉盤獲得。
 RESOURCE ID: strong_encounter_tutorial_title
 TEXT: 使用看看GO狩獵球吧！
 
+RESOURCE ID: stunning_styles_event_name
+TEXT: 獨特風格
+
+RESOURCE ID: stunning_styles_free_tr_name
+TEXT: 獨特風格限時調查
+
+RESOURCE ID: stunning_styles_paid_tr_name
+TEXT: 獨特風格特級限時調查
+
+RESOURCE ID: stunning_styles_paid_tr_name_1
+TEXT: 獨特風格特級限時調查(1/2)
+
+RESOURCE ID: stunning_styles_paid_tr_name_2
+TEXT: 獨特風格特級限時調查(2/2)
+
 RESOURCE ID: style_shop
 TEXT: 瞭解詳情
 
@@ -98187,6 +98707,9 @@ TEXT: 上次的對戰小隊
 RESOURCE ID: team_picker_load
 TEXT: 載入
 
+RESOURCE ID: team_picker_no_mega_in_max_warning
+TEXT: 此小隊內有超級進化的寶可夢，因此無法使用。
+
 RESOURCE ID: team_picker_optimize
 TEXT: 系統選隊
 
@@ -98331,6 +98854,14 @@ TEXT: <b>可獲得的獎勵：</b>
 ・與甜竹竹及其進化形相遇
 ・神奇糖果、高級球等道具
 
+RESOURCE ID: text_rewards_key_bugout0325
+TEXT: <b>可獲得的獎勵：</b>
+・與飛天螳螂、電螢蟲、甜甜螢、萌虻、燒火蚣、劈斧螳螂、豆蟋蟀相遇
+・2張特級團體戰入場券
+・1個誘餌模組
+・6000星星沙子
+・12000XP等
+
 RESOURCE ID: text_rewards_key_catch_mastery_archen
 TEXT: <b>可獲得的獎勵：</b>
 ・與始祖小鳥相遇40次的機會
@@ -98463,6 +98994,11 @@ TEXT: <b>可獲得的獎勵：</b>
 ・2000星星沙子
 
 完成限時調查等課題後，遇見異色磨牙彩皮魚的機率會提高。
+
+RESOURCE ID: text_rewards_key_fuzzyrd2024
+TEXT: 在本限時調查中，只要在當地時間2025年3月29日14:00～17:00完成田野調查課題，就可以從熊寶寶、噴嚏熊、頑皮熊貓或童偶熊中選擇想遇見的寶可夢。
+
+也可能遇見異色寶可夢（機率會與完成活動的田野調查時可遇見的異色寶可夢相同）。
 
 RESOURCE ID: text_rewards_key_gblaug24
 TEXT: 這張入場券能幫助你捕捉到在GO對戰聯盟中活躍的寶可夢。
@@ -98784,6 +99320,12 @@ TEXT: <b>可獲得的獎勵：</b>
 ・在團體戰獲得神奇糖果XL的機率提高
 ・在團體戰中獲勝時可獲得1.5倍XP及2倍星星沙子等
 
+RESOURCE ID: text_rewards_key_megaaudinoraidday
+TEXT: <b>可獲得的獎勵：</b>
+・旋轉道館轉盤時可獲得8張額外團體戰入場券
+・在團體戰獲得神奇糖果XL的機率提高
+・在團體戰中獲勝時可獲得1.5倍XP及2倍星星沙子等
+
 RESOURCE ID: text_rewards_key_megagalladeraidday
 TEXT: <b>可獲得的獎勵：</b>
 ・旋轉道館轉盤時可獲得8張額外團體戰入場券
@@ -98971,6 +99513,15 @@ TEXT: <b>可獲得的獎勵：</b>
 •1個厲害特殊招式學習器
 •20000星星沙子
 •5000XP等
+
+RESOURCE ID: text_rewards_key_stunning_styles
+TEXT: <b>可獲得的獎勵：</b>
+・與無殼海兔（西海）、無殼海兔（東海）和妙喵相遇
+・4張特級對戰入場券
+・1個幸運蛋
+・1個星星碎片
+・6000XP和3000星星沙子
+・其他
 
 RESOURCE ID: text_rewards_key_takeovermarch24
 TEXT: <b>可獲得的獎勵：</b>
@@ -100752,6 +101303,9 @@ TEXT: 限時調查：柔和陽光
 
 RESOURCE ID: tr_gofest2024_earlybird2
 TEXT: 限時調查：刺眼月光
+
+RESOURCE ID: tr_gofest2025_global_earlybird
+TEXT: GO Fest 2025: Early Bird Timed Research
 
 RESOURCE ID: tr_gowa2024_global_daily_electric
 TEXT: 跨越曠野地帶：電屬性達人限時調查

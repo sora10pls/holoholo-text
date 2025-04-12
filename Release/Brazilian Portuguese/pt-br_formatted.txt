@@ -427,6 +427,9 @@ TEXT: ADICIONAR ADESIVO
 RESOURCE ID: adding_friends_info_link
 TEXT: Aprenda o que é compartilhado com seus amigos.
 
+RESOURCE ID: additional_candy_catch_bonus
+TEXT: 1 Doce adicional por pegar Pokémon
+
 RESOURCE ID: additional_xl_max_raid_singular
 TEXT: 1 Doce GG adicional por completar Batalhas Max
 
@@ -782,16 +785,16 @@ RESOURCE ID: af2022_oh
 TEXT: An?
 
 RESOURCE ID: age_confirm_contact
-TEXT: Contact Support
+TEXT: Suporte
 
 RESOURCE ID: age_confirm_explain
-TEXT: There is an age requirement to log in with this type of account. Please confirm your date of birth.
+TEXT: Existe um requisito de idade para iniciar sessão com este tipo de conta. Confirme a sua data de nascimento.
 
 RESOURCE ID: age_confirm_fail
-TEXT: Sorry, you do not meet the <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">age requirements</a> to log in with this type of account, and your account will be deleted pursuant to our Terms of Service. If you believe you are eligible to log in with this type of account, please contact us.
+TEXT: Infelizmente você não cumpre os <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">requisitos de idade</a> para iniciar sessão com este tipo de conta, e a sua conta será excluída de acordo com os nossos Termos de Serviço. Se você acredita que é elegível para iniciar sessão com esse tipo de conta, entre em contato conosco.
 
 RESOURCE ID: age_confirm_popup_confirm
-TEXT: Are you sure? This cannot be changed after you submit it.
+TEXT: Você tem certeza? Isto não pode ser mudado após o envio.
 
 RESOURCE ID: age_gate_screen
 TEXT: Insira sua data de nascimento.
@@ -1943,6 +1946,9 @@ TEXT: REMOVER VISUAL
 
 RESOURCE ID: as_save_outfit
 TEXT: SALVAR VISUAL
+
+RESOURCE ID: as_two_for_one_purchase
+TEXT: This purchase also includes the {0}.
 
 RESOURCE ID: as_worn_items_added_to_cart
 TEXT: Itens pré-visualizados adicionados ao carrinho.
@@ -11765,7 +11771,7 @@ RESOURCE ID: barcelona_catch_cup_title
 TEXT: Copa da Captura: Barcelona
 
 RESOURCE ID: batch_transfer_100_pokemon
-TEXT: {0} ★ 100% Pokémon
+TEXT: {0} Pokémon ★ 100%
 
 RESOURCE ID: batch_transfer_confirm
 TEXT: <size=36><b>Quer transferir {0} Pokémon ao Professor?</b></size>
@@ -11786,13 +11792,16 @@ RESOURCE ID: batch_transfer_header
 TEXT: Selecione Pokémon
 
 RESOURCE ID: batch_transfer_last_more_pokemon
-TEXT: Your only {0}, {1}, and {2} more
+TEXT: Seu únicos {0}, {1} e mais {2}
+
+RESOURCE ID: batch_transfer_last_more_pokemon_singular
+TEXT: Your only {0}, {1}, and 1 more
 
 RESOURCE ID: batch_transfer_last_one_pokemon
-TEXT: Your only {0}
+TEXT: Seu único {0}
 
 RESOURCE ID: batch_transfer_last_two_pokemon
-TEXT: Your only {0} and {1}
+TEXT: Seu únicos {0} e {1}
 
 RESOURCE ID: batch_transfer_result
 TEXT: Recebeu doce do Professor.
@@ -16018,6 +16027,42 @@ TEXT: Escolher Flygon!
 RESOURCE ID: branch_flygon_title_short
 TEXT: Flygon
 
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_cubchoo_button_text_key
+TEXT: Cubchoo
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_cubchoo_description_key
+TEXT: Escolha esta opção para encontrar Cubchoo depois de completar as tarefas durante esta Pesquisa Temporária.
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_cubchoo_title_key
+TEXT: Cubchoo
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_pancham_button_text_key
+TEXT: Pancham
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_pancham_description_key
+TEXT: Escolha esta opção para encontrar Pancham depois de completar as tarefas durante esta Pesquisa Temporária.
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_pancham_title_key
+TEXT: Pancham
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_stufful_button_text_key
+TEXT: Stufful
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_stufful_description_key
+TEXT: Escolha esta opção para encontrar Stufful depois de completar as tarefas durante esta Pesquisa Temporária.
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_stufful_title_key
+TEXT: Stufful
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_teddiursa_button_text_key
+TEXT: Teddiursa
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_teddiursa_description_key
+TEXT: Escolha esta opção para encontrar Teddiursa depois de completar as tarefas durante esta Pesquisa Temporária.
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_teddiursa_title_key
+TEXT: Teddiursa
+
 RESOURCE ID: branch_gardevoir_description
 TEXT: Evolua a sua dupla para um trio com Gardevoir! Você encontrará Gardevoir vestindo uma roupa especial.
 
@@ -16644,6 +16689,9 @@ TEXT: Você não pode mais coletar Partículas Max hoje.
 RESOURCE ID: bread_mp_for_battle_lobby
 TEXT: Use {0} PM
 
+RESOURCE ID: bread_mp_for_remote_battle_lobby
+TEXT: Use {0} MP and Remote Raid Pass
+
 RESOURCE ID: bread_mp_storage_full
 TEXT: Seu estoque de Partículas Max está cheio.
 
@@ -16700,6 +16748,15 @@ TEXT: O Pokémon não ajudará mais em batalhas nem receberá Doces naquele Pont
 
 RESOURCE ID: bread_release_title
 TEXT: Quer chamar {0} de volta?
+
+RESOURCE ID: bread_remote_iap_mp_rrp_replenish_title
+TEXT: You're out of Remote Raid Passes and MP
+
+RESOURCE ID: bread_remote_invite_in_game_notification
+TEXT: {0} invited you to join a Max Battle!
+
+RESOURCE ID: bread_remote_use_rrp_confirmation
+TEXT: You can join {0} more Max Battles today. Max Particles are only used when you win. A Remote Raid Pass will be used when the battle starts.
 
 RESOURCE ID: bread_report_pou_reason_emergency
 TEXT: Está obstruindo serviços de emergência
@@ -17671,8 +17728,29 @@ TEXT: Caça aos Insetos!: desafio de captura (2/3)
 RESOURCE ID: bug_out_catch_challenge_title_page_3
 TEXT: Caça aos Insetos!: desafio de captura (3/3)
 
+RESOURCE ID: bug_out_collection_evolve
+TEXT: Desafio de Coleção Caça aos Insetos: Teia da Evolução
+
+RESOURCE ID: bug_out_collection_evolve_medium
+TEXT: Desafio de Coleção Caça aos Insetos: Efeito Borboleta
+
+RESOURCE ID: bug_out_collection_evolve_ninja
+TEXT: Desafio de Coleção Caça aos Insetos: Vigor ou Velocidade
+
 RESOURCE ID: bug_out_event_name
 TEXT: Caça aos Insetos!
+
+RESOURCE ID: bug_out_free_tr_name
+TEXT: Pesquisa Temporária de Caça aos Insetos
+
+RESOURCE ID: bug_out_tr_name
+TEXT: Pesquisa Temporária Premium de Caça aos Insetos
+
+RESOURCE ID: bug_out_tr_name_1
+TEXT: Pesquisa Temporária Premium de Caça aos Insetos (1/2)
+
+RESOURCE ID: bug_out_tr_name_2
+TEXT: Pesquisa Temporária Premium de Caça aos Insetos (2/2)
 
 RESOURCE ID: bug_type_event
 TEXT: Invasão de tipo: Inseto
@@ -18528,7 +18606,7 @@ RESOURCE ID: charged_embers_free_tr_name
 TEXT: Pesquisa Temporária Dia de Chocar: Brasas Eletrizadas
 
 RESOURCE ID: charged_embers_lead_event_name
-TEXT: Aquecimento para Dia de Chocar: Brasas Eletrizadas
+TEXT: Aquecimento para o Dia de Chocar: Brasas Eletrizadas
 
 RESOURCE ID: charged_embers_tr_name
 TEXT: Pesquisa Temporária Premium do Dia de Chocar: Brasas Eletrizadas
@@ -22015,8 +22093,17 @@ TEXT: Pesquisa Temporária Bônus de Festa com Pikachu (1/1)
 RESOURCE ID: em_mall_large_tr_title
 TEXT: Pesquisa Temporária Bônus de Festa com Pikachu
 
+RESOURCE ID: em_mall_mela_event_title
+TEXT: Pokémon Fiesta
+
 RESOURCE ID: em_mall_pkmn_day_event_title
 TEXT: Comemoração do Dia de Pokémon: Brasil
+
+RESOURCE ID: em_mall_small_tr_desc_title_00
+TEXT: Pesquisa Temporária de Pokémon Fiesta (1/1)
+
+RESOURCE ID: em_mall_small_tr_title
+TEXT: Pesquisa Temporária de Pokémon Fiesta
 
 RESOURCE ID: empty_events_message
 TEXT: Confira a seção de novidades do jogo para ver os próximos eventos!
@@ -22607,6 +22694,10 @@ TEXT: 20 de abril, das 14h às 17h
 RESOURCE ID: event_datetime_range_key_bounsweetcd2024
 TEXT: 19 de maio, das 14h às 17h
 
+RESOURCE ID: event_datetime_range_key_bugout0325
+TEXT: De 26 de março, às 10h
+até 30 de março, às 20h
+
 RESOURCE ID: event_datetime_range_key_catch_mastery_archen
 TEXT: 16 de março, das 10h às 20h
 
@@ -22673,6 +22764,9 @@ TEXT: 11 de maio de 2024, das 14h às 17h
 RESOURCE ID: event_datetime_range_key_foc_mar25
 TEXT: 13 de março, às 10h 
 até 17 de março, às 20h
+
+RESOURCE ID: event_datetime_range_key_fuzzyrd2024
+TEXT: 29 de março, das 14h às 17h
 
 RESOURCE ID: event_datetime_range_key_gblaug24
 TEXT: De 16 de agosto, às 10h –
@@ -22806,6 +22900,9 @@ até 4 de junho, às 10h
 RESOURCE ID: event_datetime_range_key_megaabsolraidday
 TEXT: 23 de março, das 14h às 17h
 
+RESOURCE ID: event_datetime_range_key_megaaudinoraidday
+TEXT: 5 de abril, das 14h às 17h
+
 RESOURCE ID: event_datetime_range_key_megagalladeraidday
 TEXT: 11 de janeiro, das 14h às 17h
 
@@ -22886,6 +22983,10 @@ até 4 de junho, às 20h
 RESOURCE ID: event_datetime_range_key_stldrslv0125
 TEXT: De 21 de janeiro, às 10h
 até 26 de janeiro, às 23h59
+
+RESOURCE ID: event_datetime_range_key_stunning_styles
+TEXT: De 3 de abril, às 10h
+até 7 de abril, às 20h
 
 RESOURCE ID: event_datetime_range_key_takeovermarch24
 TEXT: De 27 de março, à 0h
@@ -23668,6 +23769,9 @@ TEXT: Concedida no Ranque 100
 
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_02
 TEXT: Concedida no Ranque 40
+
+RESOURCE ID: event_pass_premium_reward_banner_bottom_text_99
+TEXT: Concedida no Ranque 99
 
 RESOURCE ID: event_pass_premium_reward_banner_middle_text
 TEXT: Globo da Sorte
@@ -24993,7 +25097,7 @@ RESOURCE ID: firstcatch_experience_10x
 TEXT: 10× PE pela sua primeira pegada do dia
 
 RESOURCE ID: firstcatch_experience_3x
-TEXT: 3× PE pela sua primeira pegada do dia
+TEXT: 3× PE por pegar seu primeiro Pokémon do dia
 
 RESOURCE ID: firstcatch_experience_50p
 TEXT: 1,5× PE pela sua primeira pegada do dia
@@ -25746,6 +25850,15 @@ TEXT: Forma Nublada
 RESOURCE ID: form_palafin_hero
 TEXT: Forma Heróica
 
+RESOURCE ID: form_paldea_aqua
+TEXT: Espécie Aquática
+
+RESOURCE ID: form_paldea_blaze
+TEXT: Espécie Labareda
+
+RESOURCE ID: form_paldea_combat
+TEXT: Espécie de Combate
+
 RESOURCE ID: form_palkia_normal
 TEXT: Palkia
 
@@ -25784,6 +25897,9 @@ TEXT: Tamanho Extragrande
 
 RESOURCE ID: form_rain
 TEXT: Chuvosa
+
+RESOURCE ID: form_rapid_strike
+TEXT: Rapid Strike Style
 
 RESOURCE ID: form_red_striped
 TEXT: Listras Vermelhas
@@ -25886,6 +26002,9 @@ TEXT: Tipo: Aço
 
 RESOURCE ID: form_silvally_water
 TEXT: Tipo: Água
+
+RESOURCE ID: form_single_strike
+TEXT: Single Strike Style
 
 RESOURCE ID: form_sky
 TEXT: Forma Céu
@@ -26211,6 +26330,9 @@ TEXT: {0} enviou um pedido de amizade a você!
 
 RESOURCE ID: friend_invited_you_to_ex_raid
 TEXT: convidou você para um Reide EX!
+
+RESOURCE ID: friend_is_at_a_max_battle
+TEXT: Has joined a <b>{0} {1}</b> Battle
 
 RESOURCE ID: friend_is_at_a_raid
 TEXT: {0} está em um Reide de {1}!</b>
@@ -26579,6 +26701,24 @@ TEXT: Falha ao separar Pokémon. Tente novamente.
 RESOURCE ID: fusion_unfuse_question
 TEXT: Quer separar {0}?
 
+RESOURCE ID: fuzzy_buddies_event_name
+TEXT: Dia de Pesquisa de AmigUrso
+
+RESOURCE ID: fuzzy_buddy_mar2025_tr
+TEXT: Pesquisa Temporária Premium do Dia de Pesquisa de AmigUrso
+
+RESOURCE ID: fuzzy_buddy_rd_tr_cubchoo
+TEXT: Dia de Pesquisa de AmigUrso: Cubchoo
+
+RESOURCE ID: fuzzy_buddy_rd_tr_pancham
+TEXT: Dia de Pesquisa de AmigUrso: Pancham
+
+RESOURCE ID: fuzzy_buddy_rd_tr_stufful
+TEXT: Dia de Pesquisa de AmigUrso: Stufful
+
+RESOURCE ID: fuzzy_buddy_rd_tr_teddiursa
+TEXT: Dia de Pesquisa de AmigUrso: Teddiursa
+
 RESOURCE ID: fuzzy_fighter_sr_name
 TEXT: Lutador Felpudo
 
@@ -26945,6 +27085,9 @@ TEXT: Ingresso: Passarinho bom de bico
 
 RESOURCE ID: general1.ticket.2_flocktr24_title
 TEXT: Pesquisa Temporária do Dia de Pesquisa: Revoada de Montão
+
+RESOURCE ID: general1.ticket.2_fuzzyrd2024_title
+TEXT: Ingresso para a Pesquisa Temporária Premium do Dia de Pesquisa de AmigUrso
 
 RESOURCE ID: general1.ticket.2_garchompraid2023_description
 TEXT: Um ingresso para acessar os seguintes bônus no sábado, 11 de novembro de 2023, das 14h às 22h do seu horário local, onde quer que esteja.
@@ -27680,6 +27823,9 @@ TEXT: Ingresso para a pesquisa temporária Passo Aqui, Passo Acolá
 RESOURCE ID: general1.ticket._battleevent2024_title
 TEXT: Ingresso de Batalhas ferozes
 
+RESOURCE ID: general1.ticket._bugout0325_title
+TEXT: Ingresso para a Pesquisa Temporária Premium de Caça aos Insetos
+
 RESOURCE ID: general1.ticket._chargedembers1224_title
 TEXT: Ingresso para a Pesquisa Temporária Premium do Dia de Chocar: Brasas Eletrizadas
 
@@ -28224,6 +28370,9 @@ TEXT: Ingresso para o Dia de Batalhas Max: Kingler Gigamax
 RESOURCE ID: general2.ticket.6_megaabsolraidday_title
 TEXT: Ingresso para o Dia de Reides de Mega Absol
 
+RESOURCE ID: general2.ticket.6_megaaudinoraidday_title
+TEXT: Ingresso para o Dia de Reides de Mega Audino
+
 RESOURCE ID: general2.ticket.7_aprilmonthly2025_title
 TEXT: Ingresso de Fortalecimento: abril
 
@@ -28241,6 +28390,9 @@ TEXT: Ingresso para o Dia de Reides de Fusão de Necrozma
 
 RESOURCE ID: general2.ticket._shadowhoohraidday_title
 TEXT: Ingresso para o Dia de Reides Sombrosos: Ho-Oh
+
+RESOURCE ID: general2.ticket._stunning_styles_ticket_title
+TEXT: Ingresso para a Pesquisa Temporária Premium de Estilos Esplêndidos
 
 RESOURCE ID: general2.ticket4.catch_mastery_archen
 TEXT: Ingresso para a Pesquisa Temporária Premium de Mestre da Captura: Archen
@@ -37085,6 +37237,9 @@ TEXT: Aumento de PE e Poeira Estelar por abrir presentes
 RESOURCE ID: increased_transfer_candy_xl_bonus
 TEXT: Aumento de doces e doces GG ao transferir Pokémon
 
+RESOURCE ID: increased_xl_candy_chance_catch_bonus
+TEXT: Mais chances de receber Doces GG por pegar Pokémon
+
 RESOURCE ID: increased_xp_catch_streak_bonus
 TEXT: Aumento de PE nas recompensas de sete dias consecutivos de captura de Pokémon
 
@@ -37883,8 +38038,17 @@ TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a pes
 RESOURCE ID: item_event_ticket_10_name
 TEXT: Ingresso
 
+RESOURCE ID: item_event_ticket_desc_stunning_styles
+TEXT: Um ingresso para acessar a Pesquisa Temporária Premium de Estilos Esplêndidos até 7 de abril de 2025, às 20h do seu horário local, de onde você estiver.
+
 RESOURCE ID: item_event_ticket_details_gowaleadup2024
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à Pesquisa Temporária de Natureza Selvagem e outros bônus a partir de 18 de novembro, de onde você estiver.
+
+RESOURCE ID: item_event_ticket_details_stunning_styles
+TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à Pesquisa Temporária Premium de Estilos Esplêndidos no dia 3 de abril, de onde você estiver.
+
+RESOURCE ID: item_event_ticket_evergreen_desc_bugout0325
+TEXT: Um ingresso para acessar a Pesquisa Temporária Premium de Caça aos Insetos até 30 de março de 2025, às 20h do seu horário local, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_evergreen_desc_chargedembers1224
 TEXT: Um ingresso para acessar a Pesquisa Temporária Premium do Dia de Chocar: Brasas Eletrizadas até 29 de dezembro de 2024, às 17h do seu horário local, de onde você estiver.
@@ -37927,6 +38091,9 @@ TEXT: Um ingresso para acessar a Pesquisa Temporária Premium de Determinação 
 
 RESOURCE ID: item_event_ticket_evergreen_desc_yamasktr24
 TEXT: Um ingresso para acessar duas oportunidades de Pesquisa Temporária Premium do Dia de Pesquisa de Yamask e Yamask de Galar em 19 de outubro de 2024, das 14h às 17h do seu horário local, de onde você estiver.
+
+RESOURCE ID: item_event_ticket_evergreen_details_bugout0325
+TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à Pesquisa Temporária Premium de Caça aos Insetos no dia 26 de março, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_evergreen_details_chargedembers1224
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à Pesquisa Temporária do Dia de Chocar: Brasas Eletrizadas no dia 29 de dezembro, de onde você estiver.
@@ -38045,6 +38212,9 @@ TEXT: Um ingresso para acessar bônus especiais e Pesquisa Temporária de 4 de m
 RESOURCE ID: item_event_ticket_gray_desc_megaabsolraidday
 TEXT: Um ingresso para acessar bônus especiais em 23 de março de 2025, das 14h às 17h do seu horário local, de onde você estiver.
 
+RESOURCE ID: item_event_ticket_gray_desc_megaaudinoraidday
+TEXT: Um ingresso para acessar bônus especiais no sábado, 5 de abril de 2025, das 14h às 17h do seu horário local, de onde você estiver.
+
 RESOURCE ID: item_event_ticket_gray_desc_megagalladeraidday
 TEXT: Um ingresso para acessar bônus especiais em 11 de janeiro de 2025, das 14h às 17h do seu horário local, de onde você estiver.
 
@@ -38143,6 +38313,9 @@ TEXT: Este ingresso será ativado automaticamente no dia 4 de maio para lhe gara
 
 RESOURCE ID: item_event_ticket_gray_details_megaabsolraidday
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a bônus especiais em 23 de março, de onde você estiver.
+
+RESOURCE ID: item_event_ticket_gray_details_megaaudinoraidday
+TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a bônus especiais em 5 de abril, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_gray_details_megagalladeraidday
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a bônus especiais em 11 de janeiro, de onde você estiver.
@@ -38278,6 +38451,9 @@ TEXT: Um ingresso para acessar a pesquisa temporária do Dia de Pesquisar: Revoa
 
 RESOURCE ID: item_event_ticket_pink_desc_froakie
 TEXT: Um ingresso para acessar a pesquisa especial do Dia Comunitário de Froakie no dia 13 de agosto de 2023, das 14h às 17h do seu horário local, de onde você estiver.
+
+RESOURCE ID: item_event_ticket_pink_desc_fuzzyrd2024
+TEXT: Um ingresso para acessar a Pesquisa Temporária Premium do Dia de Pesquisa de AmigUrso no dia 29 de março de 2025, das 14h às 17h do seu horário local, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_pink_desc_gbd
 TEXT: Um ingresso para acessar a pesquisa temporária do Dia de Batalhas GO: Poeira Estelar, de onde você estiver.
@@ -38422,6 +38598,9 @@ TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a pes
 
 RESOURCE ID: item_event_ticket_pink_details_froakie
 TEXT: Esse ingresso será ativado automaticamente para lhe garantir acesso a narrativa de pesquisa especial de Um temperamento borbulhante no dia 13 de agosto de 2023, de onde você estiver.
+
+RESOURCE ID: item_event_ticket_pink_details_fuzzyrd2024
+TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à Pesquisa Temporária Premium do Dia de Pesquisa de AmigUrso no dia 29 de março, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_pink_details_gbd
 TEXT: Esse ingresso será ativado automaticamente para lhe garantir acesso a pesquisa temporária do Dia de Batalhas GO: Poeira Estelar em 14 de maio de 2023, das 0h às 23h59min, do seu horário local, de onde você estiver.
@@ -38700,7 +38879,7 @@ RESOURCE ID: item_expire_timer_minutes_seconds_left
 TEXT: {0} restante
 
 RESOURCE ID: item_found
-TEXT: Item found! 
+TEXT: Item encontrado!
 
 RESOURCE ID: item_free_raid_ticket_desc
 TEXT: Passe para participar de uma Batalha de Reide. Você pode obter um passe gratuito em Ginásios uma vez por dia se ainda não tiver um.
@@ -39048,6 +39227,12 @@ TEXT: Esta Máquina Técnica ensina um novo ataque carregado a um Pokémon.
 
 RESOURCE ID: item_move_reroll_special_attack_name
 TEXT: MT de ataque carregado
+
+RESOURCE ID: item_mp_desc
+TEXT:  
+
+RESOURCE ID: item_mp_desc_temp
+TEXT: Use Max Particles to take on Max Battles at Power Spots or unlock and level up Max Moves.
 
 RESOURCE ID: item_mp_name
 TEXT: Partícula Max
@@ -39622,6 +39807,36 @@ TEXT: Pesquisa Temporária Premium de Kingler Gigamax
 RESOURCE ID: korean
 TEXT: 한국어
 
+RESOURCE ID: kr_cherryblossom_festival_2025_tag
+TEXT: Festival Florada da Primavera
+
+RESOURCE ID: kr_cherryblossom_festival_2025_title
+TEXT: Festival Florada da Primavera 2025
+
+RESOURCE ID: kr_cherryblossom_festival_2025_tr_name
+TEXT: Pesquisa Temporária de Fundo de Localidade do Festival Florada da Primavera 2025
+
+RESOURCE ID: kr_cherryblossom_festival_2025_tr_name_1
+TEXT: Pesquisa Temporária de Fundo de Localidade do Festival Florada da Primavera 2025 (1/3)
+
+RESOURCE ID: kr_cherryblossom_festival_2025_tr_name_2
+TEXT: Pesquisa Temporária de Fundo de Localidade do Festival Florada da Primavera 2025 (2/3)
+
+RESOURCE ID: kr_cherryblossom_festival_2025_tr_name_3
+TEXT: Pesquisa Temporária de Fundo de Localidade do Festival Florada da Primavera 2025 (3/3)
+
+RESOURCE ID: kr_cherryblossom_festival_2025_yeouido_bonus
+TEXT: Festival Florada da Primavera 2025 – Bônus Yeouido
+
+RESOURCE ID: kr_festival_fr_location_background
+TEXT: Pikachu com fantasia e Deerling pegos em tarefas de Pesquisa de Campo poderão ter um Fundo de Localidade exclusivo
+
+RESOURCE ID: kr_spring_festival_mar2025_cc_1
+TEXT: Desafio de Coleção do Festival Florada da Primavera 2025 1
+
+RESOURCE ID: kr_spring_festival_mar2025_cc_2
+TEXT: Desafio de Coleção do Festival Florada da Primavera 2025 2
+
 RESOURCE ID: lake_trio_event_name
 TEXT: Evento dos Lendários dos lagos
 
@@ -39671,7 +39886,7 @@ RESOURCE ID: last_played_yesterday
 TEXT: Jogado pela última vez: ontem
 
 RESOURCE ID: last_pokemon_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer your last {0}?
+TEXT: Quer mesmo transferir o seu único {0}?
 
 RESOURCE ID: latam_live_op_desc
 TEXT: Bônus do evento: Uma nova aventura pela América Latina
@@ -42757,6 +42972,120 @@ TEXT: Estudo Magnético: Plusle
 RESOURCE ID: magnetic_study_plusle_tr_name
 TEXT: Pesquisa Temporária Estudo Magnético: Plusle
 
+RESOURCE ID: make_good_kyurem_title_001
+TEXT: Encontro 1: Kyurem
+
+RESOURCE ID: make_good_kyurem_title_002
+TEXT: Encontro 2: Kyurem
+
+RESOURCE ID: make_good_kyurem_title_003
+TEXT: Encontro 3: Kyurem
+
+RESOURCE ID: make_good_kyurem_title_004
+TEXT: Encontro 4: Kyurem
+
+RESOURCE ID: make_good_kyurem_title_005
+TEXT: Encontro 5: Kyurem
+
+RESOURCE ID: make_good_kyurem_title_006
+TEXT: Encontro 6: Kyurem
+
+RESOURCE ID: make_good_kyurem_title_007
+TEXT: Encontro 7: Kyurem
+
+RESOURCE ID: make_good_kyurem_title_008
+TEXT: Encontro 8: Kyurem
+
+RESOURCE ID: make_good_kyurem_title_009
+TEXT: Encontro 9: Kyurem
+
+RESOURCE ID: make_good_kyurem_title_010
+TEXT: Encontro 10: Kyurem
+
+RESOURCE ID: make_good_kyurem_title_011
+TEXT: Encontro 11: Kyurem
+
+RESOURCE ID: make_good_kyurem_title_012
+TEXT: Encontro 12: Kyurem
+
+RESOURCE ID: make_good_reshiram_desc
+TEXT: Encontro: Reshiram, 2025
+
+RESOURCE ID: make_good_reshiram_title_001
+TEXT: Encontro 1: Reshiram
+
+RESOURCE ID: make_good_reshiram_title_002
+TEXT: Encontro 2: Reshiram
+
+RESOURCE ID: make_good_reshiram_title_003
+TEXT: Encontro 3: Reshiram
+
+RESOURCE ID: make_good_reshiram_title_004
+TEXT: Encontro 4: Reshiram
+
+RESOURCE ID: make_good_reshiram_title_005
+TEXT: Encontro 5: Reshiram
+
+RESOURCE ID: make_good_reshiram_title_006
+TEXT: Encontro 6: Reshiram
+
+RESOURCE ID: make_good_reshiram_title_007
+TEXT: Encontro 7: Reshiram
+
+RESOURCE ID: make_good_reshiram_title_008
+TEXT: Encontro 8: Reshiram
+
+RESOURCE ID: make_good_reshiram_title_009
+TEXT: Encontro 9: Reshiram
+
+RESOURCE ID: make_good_reshiram_title_010
+TEXT: Encontro 10: Reshiram
+
+RESOURCE ID: make_good_reshiram_title_011
+TEXT: Encontro 11: Reshiram
+
+RESOURCE ID: make_good_reshiram_title_012
+TEXT: Encontro 12: Reshiram
+
+RESOURCE ID: make_good_zekrom_desc
+TEXT: Encontro: Zekrom, 2025
+
+RESOURCE ID: make_good_zekrom_title_001
+TEXT: Encontro 1: Zekrom
+
+RESOURCE ID: make_good_zekrom_title_002
+TEXT: Encontro 2: Zekrom
+
+RESOURCE ID: make_good_zekrom_title_003
+TEXT: Encontro 3: Zekrom
+
+RESOURCE ID: make_good_zekrom_title_004
+TEXT: Encontro 4: Zekrom
+
+RESOURCE ID: make_good_zekrom_title_005
+TEXT: Encontro 5: Zekrom
+
+RESOURCE ID: make_good_zekrom_title_006
+TEXT: Encontro 6: Zekrom
+
+RESOURCE ID: make_good_zekrom_title_007
+TEXT: Encontro 7: Zekrom
+
+RESOURCE ID: make_good_zekrom_title_008
+TEXT: Encontro 8: Zekrom
+
+RESOURCE ID: make_good_zekrom_title_009
+TEXT: Encontro 9: Zekrom
+
+RESOURCE ID: make_good_zekrom_title_010
+TEXT: Encontro 10: Zekrom
+
+RESOURCE ID: make_good_zekrom_title_011
+TEXT: Encontro 11: Zekrom
+
+RESOURCE ID: make_good_zekrom_title_012
+TEXT: Encontro 12: Zekrom
+
 RESOURCE ID: manage_items_button
 TEXT: Gerenciar itens
 
@@ -42867,6 +43196,27 @@ TEXT: Pesquisa de Lotad: batalhar em 1 Reide.
 
 RESOURCE ID: marrd_2019_easy_supereffective_charge
 TEXT: Pesquisa de Lotad: usar um ataque carregado supereficaz em 1 batalha de Ginásio.
+
+RESOURCE ID: marshadow_global_sr_1
+TEXT: Uma Sombra Surpreendente (1/6)
+
+RESOURCE ID: marshadow_global_sr_2
+TEXT: Uma Sombra Surpreendente (2/6)
+
+RESOURCE ID: marshadow_global_sr_3
+TEXT: Uma Sombra Surpreendente (3/6)
+
+RESOURCE ID: marshadow_global_sr_4
+TEXT: Uma Sombra Surpreendente (4/6)
+
+RESOURCE ID: marshadow_global_sr_5
+TEXT: Uma Sombra Surpreendente (5/6)
+
+RESOURCE ID: marshadow_global_sr_6
+TEXT: Uma Sombra Surpreendente (6/6)
+
+RESOURCE ID: marshadow_global_sr_name
+TEXT: Uma Sombra Surpreendente
 
 RESOURCE ID: master_classic_title
 TEXT: Liga Mestra Clássica
@@ -43579,6 +43929,9 @@ TEXT: Pesquisa Temporária de Curva de Treinamento: Mega Absol
 RESOURCE ID: mega_active_countdown_description
 TEXT: Período restante de Megaevolução 
 
+RESOURCE ID: mega_audino_tr_april_2025_title
+TEXT: Pesquisa Temporária do Dia de Reides de Mega Audino
+
 RESOURCE ID: mega_battle_event
 TEXT: Desafio Megabatalha
 
@@ -43895,9 +44248,9 @@ RESOURCE ID: meshing_option_title
 TEXT: Combinação
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2025-03-27T16:47:40.171405+00:00 for pt-BR
-at SHA 505ac976953
-Pipeline 3109778, job 38824341
+TEXT: Built at 2025-04-11T21:18:23.797301+00:00 for pt-BR
+at SHA 0d984c0aeda5c
+Pipeline 3150707, job 39575452
 
 RESOURCE ID: mex_fighting_promo_title
 TEXT: Pesquisa temporária: Escolha o seu tipo de lutador
@@ -52037,7 +52390,7 @@ RESOURCE ID: pokedex_status_seen
 TEXT: Vistos
 
 RESOURCE ID: pokemon_100_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer this ★ 100% Pokémon?
+TEXT: Quer mesmo transferir este Pokémon ★ 100%?
 
 RESOURCE ID: pokemon_alert_label_off
 TEXT: Alerta desativado
@@ -82945,10 +83298,13 @@ RESOURCE ID: quest_title_totodile
 TEXT: Clássicos do Dia Comunitário: Totodile
 
 RESOURCE ID: quest_title_totodile_0
-TEXT: Clássicos do Dia Comunitário: Totodile (1/2)
+TEXT: Clássicos do Dia Comunitário: Totodile (1/3)
 
 RESOURCE ID: quest_title_totodile_1
-TEXT: Clássicos do Dia Comunitário: Totodile (2/2)
+TEXT: Clássicos do Dia Comunitário: Totodile (2/3)
+
+RESOURCE ID: quest_title_totodile_2
+TEXT: Clássicos do Dia Comunitário: Totodile (3/3)
 
 RESOURCE ID: quest_title_tynamo
 TEXT: Se Liga Aí.
@@ -85108,6 +85464,9 @@ TEXT: Dia de Reides: Meditite
 RESOURCE ID: raid_day_mega_absol_event_name
 TEXT: Dia de Reides: Mega Absol
 
+RESOURCE ID: raid_day_mega_audino_event_name
+TEXT: Dia de Reides: Mega Audino
+
 RESOURCE ID: raid_day_mega_garchomp
 TEXT: Dia de Reides: Mega Garchomp
 
@@ -85900,6 +86259,9 @@ TEXT: Dia de Reides: Totodile
 RESOURCE ID: raid_day_toxicroak
 TEXT: Dia de Reides: Toxicroak
 
+RESOURCE ID: raid_day_tr_bonus_unlock
+TEXT: Bônus da Pesquisa Temporária do Dia de Reides
+
 RESOURCE ID: raid_day_tranquill
 TEXT: Dia de Reides: Tranquill
 
@@ -86313,10 +86675,10 @@ RESOURCE ID: raid_planner_join_this_rsvp
 TEXT: CONFIRMAR
 
 RESOURCE ID: raid_planner_rsvp_conflict_title
-TEXT: Tem certeza de que quer confirmar?
+TEXT: Tem certeza de que quer se juntar à próxima batalha?
 
 RESOURCE ID: raid_planner_rsvp_conflict_warning
-TEXT: Confirmar sua participação na batalha cancelará sua confirmação já existente devido a um conflito.
+TEXT: Entrar nesta batalha cancelará quaisquer confirmações conflitantes. As confirmações precisam de um intervalo mínimo de {0} minutos.
 
 RESOURCE ID: raid_planner_success_rsvp
 TEXT: Você confirmou sua participação!
@@ -86348,7 +86710,7 @@ TEXT: Quer abrir o grupo ao público?
 Não poderá desfazer esta ação.
 
 RESOURCE ID: raid_rsvp_bonus
-TEXT: RSVP'd to Raid
+TEXT: CONFIRMADO
 
 RESOURCE ID: raid_share_private_code_message
 TEXT: Compartilhe este código de grupo com seus amigos. Eles poderão se juntar a você inserindo este código de grupo.
@@ -86366,7 +86728,7 @@ RESOURCE ID: raid_sort_rsvps
 TEXT: NÚMERO DE CONFIRMAÇÕES
 
 RESOURCE ID: raid_sort_time
-TEXT: TEMPO ATÉ O REIDE
+TEXT: TEMPO ATÉ O FINAL DA BATALHA
 
 RESOURCE ID: raid_stardust_1.5x
 TEXT: 1,5× Poeira Estelar por Reide
@@ -88929,6 +89291,9 @@ TEXT: Se você sair, seu grupo se dissolverá. Você perderá o progresso do des
 RESOURCE ID: rejoin_warning_modal_title
 TEXT: Tem certeza de que deseja sair do seu grupo?
 
+RESOURCE ID: remote_max_battle_invite_push_notif
+TEXT: A friend invited you to join a Max Battle!
+
 RESOURCE ID: remote_raid_battle_helptext
 TEXT: usando um Passe de Reide a Distância
 
@@ -89156,6 +89521,9 @@ TEXT: Você já selecionou o número máximo de motivos.
 RESOURCE ID: report_route_error_missing_selection
 TEXT: Escolha um motivo para o seu reporte.
 
+RESOURCE ID: report_route_error_not_found
+TEXT: Esta Rota não pode ser encontrada.
+
 RESOURCE ID: report_route_error_too_many_reports
 TEXT: Você atingiu seu número máximo de relatórios de Rota hoje.
 
@@ -89351,6 +89719,9 @@ TEXT: Itens adicionais das descobertas extraordinárias
 
 RESOURCE ID: research_breakthrough_bonus_stardust
 TEXT: Aumento de Poeira Estelar das descobertas extraordinárias
+
+RESOURCE ID: research_breakthrough_bonus_xp_stardust
+TEXT: Aumento de PE e Poeira Estelar de Descobertas Extraordinárias
 
 RESOURCE ID: research_day_passimian_and_oranguru_event_name
 TEXT: Dia de Pesquisa de Oranguru e Passimian
@@ -91447,6 +91818,18 @@ TEXT: Começar em:
 RESOURCE ID: rsvp_attendance_preference_title
 TEXT: Compartilhar status de confirmação com:
 
+RESOURCE ID: rsvp_attendance_tutorial_link_text_key
+TEXT: Saiba aqui onde seu apelido de Treinador é exibido no jogo.
+
+RESOURCE ID: rsvp_attendance_tutorial_link_url_key
+TEXT: https://niantic.helpshift.com/hc/{0}/6-pokemon-go/faq/4286-controlling-your-experience-on-pokemon-go/
+
+RESOURCE ID: rsvp_attendance_tutorial_message_key
+TEXT: Outros Treinadores poderão ver as batalhas que você confirmou. Você pode alterar isso a qualquer momento em Configurações.
+
+RESOURCE ID: rsvp_attendance_tutorial_title_key
+TEXT: Visibilidade de confirmação
+
 RESOURCE ID: rsvp_inactive_button_desc
 TEXT: {0} às {1}
 
@@ -91456,11 +91839,17 @@ TEXT: SELECIONAR HORÁRIO
 RESOURCE ID: rsvp_invitation_notification_string_key
 TEXT: {0} convidou você para participar de {1} às {2}!
 
+RESOURCE ID: rsvp_invite_already_going
+TEXT: Treinador já planeja participar desta batalha.
+
+RESOURCE ID: rsvp_invite_does_not_meet_level_requirements
+TEXT: Treinador não cumpre os requisitos de nível.
+
 RESOURCE ID: rsvp_invite_friends
 TEXT: Convidar amigos
 
 RESOURCE ID: rsvp_reminder_min
-TEXT: min
+TEXT:  min
 
 RESOURCE ID: rsvp_reminder_notification_gmax_generic_join
 TEXT: <b>A Batalha Max está começando!</b>Junte-se a {0} outros Treinadores!
@@ -91520,7 +91909,7 @@ RESOURCE ID: rsvp_topper_join
 TEXT: Participar
 
 RESOURCE ID: rsvp_tutorial_body
-TEXT: Selecione um horário para participar de um Reide futuro com outros Treinadores! Se você confirmar sua participação, você receberá uma notificação de quando estiver começando.
+TEXT: Selecione um horário para participar de uma batalha futura com outros Treinadores! Se você confirmar sua participação, você receberá uma notificação de quando estiver começando.
 
 RESOURCE ID: rsvp_tutorial_title
 TEXT: Confirmar um Reide
@@ -91539,6 +91928,12 @@ TEXT: Versão Ruby
 
 RESOURCE ID: russian
 TEXT: Русский
+
+RESOURCE ID: s18_catch_mastery_makegood_tr_kabuto
+TEXT: Encontros com Fósseis: Kabuto
+
+RESOURCE ID: s18_catch_mastery_makegood_tr_omanyte
+TEXT: Encontros com Fósseis: Omanyte
 
 RESOURCE ID: sa_account_creation_prompt
 TEXT: Não tem uma conta da Niantic Kids?
@@ -92626,6 +93021,77 @@ TEXT: Temporada 9 de Pokémon GO: Desejos Míticos
 
 RESOURCE ID: season_partner_research_ltd_amazon_gaming
 TEXT: Pesquisa de parceiros temporária – Joias Ocultas: Amazon Prime Gaming
+
+RESOURCE ID: season_pass_april2025_event_duration
+TEXT: 1º de abril – 6 de maio
+
+RESOURCE ID: season_pass_april2025_track_upgrade_header_description
+TEXT: Ganhe recompensas adicionais e desbloqueie um <b>encontro com Xerneas</b> no nível 100!
+
+RESOURCE ID: season_pass_april2025_upgrade_description
+TEXT: Compre o Passe GO Deluxe: abril para desbloquear as seguintes recompensas!
+
+• Um encontro adicional com Xerneas
+• 1 <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Globo da Sorte</a>, que permite que você tenha instantaneamente uma Amizade Sortuda com um amigo da sua escolha
+• E muito mais!
+
+RESOURCE ID: season_pass_april2025_upgrade_description_no_additional_legendary
+TEXT: Compre o Passe GO Deluxe: abril para desbloquear as seguintes recompensas!
+
+• 1 <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Globo da Sorte</a>, que permite que você tenha instantaneamente uma Amizade Sortuda com um amigo da sua escolha
+• E muito mais!
+
+RESOURCE ID: season_pass_base_track_title_april
+TEXT: Passe GO: abril
+
+RESOURCE ID: season_pass_base_track_title_may
+TEXT: Passe GO: maio
+
+RESOURCE ID: season_pass_bonus_hatch_xp_stardust
+TEXT: Aumento de PE e Poeira Estelar por chocar Ovos
+
+RESOURCE ID: season_pass_details_link
+TEXT: Para mais informações, visite o <a href="https://pokemongolive.com/post/go-pass-test-2025">site</a>.
+
+RESOURCE ID: season_pass_may2025_event_duration
+TEXT: 6 de maio – 3 de junho
+
+RESOURCE ID: season_pass_may2025_track_upgrade_header_description
+TEXT: Ganhe recompensas adicionais e desbloqueie um <b>encontro com Yveltal</b> no nível 100!
+
+RESOURCE ID: season_pass_may2025_upgrade_description
+TEXT: Compre o Passe GO Deluxe: maio para desbloquear as seguintes recompensas!
+
+• Um encontro com Yveltal
+• 1 <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Globo da Sorte</a>, que permite que você tenha instantaneamente uma Amizade Sortuda com um amigo da sua escolha
+• E muito mais!
+
+RESOURCE ID: season_pass_may2025_upgrade_description_no_additional_legendary
+TEXT: Compre o Passe GO Deluxe: maio para desbloquear as seguintes recompensas!
+
+• 1 <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Globo da Sorte</a>, que permite que você tenha instantaneamente uma Amizade Sortuda com um amigo da sua escolha
+• E muito mais!
+
+RESOURCE ID: season_pass_milestone_bonus_title_01
+TEXT: Bônus do Passe GO: nível 1
+
+RESOURCE ID: season_pass_milestone_bonus_title_02
+TEXT: Bônus do Passe GO: nível 2
+
+RESOURCE ID: season_pass_milestone_bonus_title_03
+TEXT: Bônus do Passe GO: nível 3
+
+RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_april
+TEXT: Passe GO Deluxe: abril + 10 Ranques
+
+RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_may
+TEXT: Passe GO Deluxe: maio + 10 Ranques
+
+RESOURCE ID: season_pass_premium_track_title_april
+TEXT: Passe GO Deluxe: abril
+
+RESOURCE ID: season_pass_premium_track_title_may
+TEXT: Passe GO Deluxe: maio
 
 RESOURCE ID: seasonal_delights_box
 TEXT: Combo Delícias da Estação
@@ -94296,14 +94762,17 @@ TEXT: Compartilhando seu status online
 RESOURCE ID: social_other_friend_add_title
 TEXT: OUTROS
 
+RESOURCE ID: social_planner_cancel_upcoming_warning
+TEXT: Completing this battle will cancel your upcoming RSVP at this location.
+
 RESOURCE ID: social_planner_cannot_change_active_timeslots_key
-TEXT: Unable to change time slot as no time slots are available
+TEXT: Não é possível mudar porque não há outros horários disponíveis.
 
 RESOURCE ID: social_planner_conflict_disclaimer_text_key
-TEXT: You have a time conflict.
+TEXT: Você tem um conflito de horários.
 
 RESOURCE ID: social_planner_detail_other_trainers
-TEXT: {0} outros Treinadores
+TEXT: Outros Treinadores
 
 RESOURCE ID: social_planner_error_rsvp_failure
 TEXT: Erro. Tente novamente.
@@ -94313,6 +94782,9 @@ TEXT: Número máximo de confirmações atingido.
 
 RESOURCE ID: social_planner_error_rsvp_missing
 TEXT: Erro. Confirmação não encontrada.
+
+RESOURCE ID: social_planner_error_sending_invites_key
+TEXT: Could not send invite to one or more friends.
 
 RESOURCE ID: social_planner_error_timeslot_passed
 TEXT: Este horário não está mais disponível.
@@ -94327,13 +94799,13 @@ RESOURCE ID: social_planner_leave_rsvp_modal_title_key
 TEXT: Tem certeza de que não quer se juntar à próxima batalha?
 
 RESOURCE ID: social_planner_leave_rsvp_success_toast_key
-TEXT: Você cancelou sua confirmação.
+TEXT: Você saiu da próxima batalha.
 
 RESOURCE ID: social_planner_leave_rsvp_text_key
 TEXT: Cancelar confirmação
 
 RESOURCE ID: social_planner_no_more_timeslots_key
-TEXT: No more available timeslots.
+TEXT: Não há mais horários disponíveis.
 
 RESOURCE ID: social_planner_rsvp_friends_list_empty
 TEXT: Lista de amigos vazia
@@ -94351,7 +94823,7 @@ RESOURCE ID: social_planner_rsvp_invite_sent_confirmation
 TEXT: Convites enviado!
 
 RESOURCE ID: social_planner_rsvp_local_only_disclaimer
-TEXT: You'll need to be nearby to defeat this Raid Boss.
+TEXT: Você deve estar perto para derrotar este Chefe de Reide.
 
 RESOURCE ID: social_planner_rsvp_maybe_count
 TEXT: {0} talvez
@@ -94361,6 +94833,9 @@ TEXT: Talvez
 
 RESOURCE ID: social_planner_rsvp_not_going_text_key
 TEXT: Não
+
+RESOURCE ID: social_planner_select_another_time
+TEXT: SELECT ANOTHER TIME
 
 RESOURCE ID: social_planner_time_conflict_disclaimer_title_key
 TEXT: Conflito de horários
@@ -94376,6 +94851,9 @@ TEXT: {0} vão participar
 
 RESOURCE ID: social_planner_timetable_gui_title_key
 TEXT: Escolha um horário para batalhar
+
+RESOURCE ID: social_planner_view_in_map
+TEXT: Ver no mapa
 
 RESOURCE ID: social_player_level_too_low
 TEXT: A função amizade já está disponível para o nível acima de {0}. Por favor, tente novamente para saber quando estará disponível para você.
@@ -96816,6 +97294,30 @@ TEXT: Eu acho que Kubfu reconheceu as suas habilidades e quer fazer parte da sua
 RESOURCE ID: story_mightandmastery_1_4
 TEXT: Então, siga em frente na aventura e ajude Kubfu a atingir todo o seu potencial!
 
+RESOURCE ID: story_mightandmastery_2_0
+TEXT: Aí está você, %PLAYERNAME%! Parece que Kubfu está trabalhando duro com a ajuda do seu olhar especializado.
+
+RESOURCE ID: story_mightandmastery_2_1
+TEXT: Eu imagino que esse Pokémon deva ser muito esforçado treinando o corpo e a mente. Mas cuidado... logo o aprendiz pode virar o mestre!
+
+RESOURCE ID: story_mightandmastery_2_3
+TEXT: E por falar nisso, todo aspirante a mestre deve conhecer seus pontos fortes e fracos. Quais seriam os de Kubfu, na sua opinião?
+
+RESOURCE ID: story_mightandmastery_2_4
+TEXT: A gente fala sobre isso quando você voltar da sua próxima sessão de treinamento. Boa sorte!
+
+RESOURCE ID: story_mightandmastery_3_0
+TEXT: Oi de novo, %PLAYERNAME%! Descobriu os pontos fortes e fracos de Kubfu?
+
+RESOURCE ID: story_mightandmastery_3_1
+TEXT: Kubfu é um Pokémon de tipo Lutador, então é forte contra os de tipo Normal, Gelo, Pedra, Sombrio e Aço.
+
+RESOURCE ID: story_mightandmastery_3_2
+TEXT: Por outro lado, pode ter dificuldades com ataques dos de tipo Voador, Psíquico e Fada. Autoconhecimento é fundamental para alcançar a maestria!
+
+RESOURCE ID: story_mightandmastery_3_3
+TEXT: Graças a você, parece que Kubfu está aprendendo a andar com as próprias pernas. Continue se esforçando!
+
 RESOURCE ID: story_quest_cosmog_sol23_0
 TEXT: Céu estrelado (1/4)
 
@@ -98084,6 +98586,21 @@ Além disso, aqueles que tiverem um ingresso para a Área Selvagem do Pokémon G
 RESOURCE ID: strong_encounter_tutorial_title
 TEXT: As Bolas Safári GO são ótimas para pegar Pokémon incríveis!
 
+RESOURCE ID: stunning_styles_event_name
+TEXT: Estilos Esplêndidos
+
+RESOURCE ID: stunning_styles_free_tr_name
+TEXT: Pesquisa Temporária de Estilos Esplêndidos
+
+RESOURCE ID: stunning_styles_paid_tr_name
+TEXT: Pesquisa Temporária Premium de Estilos Esplêndidos
+
+RESOURCE ID: stunning_styles_paid_tr_name_1
+TEXT: Pesquisa Temporária Premium de Estilos Esplêndidos (1/2)
+
+RESOURCE ID: stunning_styles_paid_tr_name_2
+TEXT: Pesquisa Temporária Premium de Estilos Esplêndidos (2/2)
+
 RESOURCE ID: style_shop
 TEXT: SAIBA MAIS
 
@@ -98323,6 +98840,9 @@ TEXT: Equipe anterior
 RESOURCE ID: team_picker_load
 TEXT: Carregar
 
+RESOURCE ID: team_picker_no_mega_in_max_warning
+TEXT: Your current party cannot join the battle because it includes a Mega-Evolved Pokémon.
+
 RESOURCE ID: team_picker_optimize
 TEXT: Otimizar
 
@@ -98466,6 +98986,14 @@ TEXT: <b>As recompensas incluem:</b>
 • Itens premium de jogo, como Doces Raros, Ultra Bolas e muito mais
 • Encontros extra com Bounsweet e suas Evoluções
 
+RESOURCE ID: text_rewards_key_bugout0325
+TEXT: <b>As recompensas incluem:</b>
+• Encontros com Scyther, Volbeat, Illumise, Cutiefly, Sizzlipede, Kleavor e Nymble
+• 2 Passes de Reide Premium
+• 1 Módulo Atrair
+• 6.000 Poeira Estelar
+• 12.000 PE
+
 RESOURCE ID: text_rewards_key_catch_mastery_archen
 TEXT: <b>As recompensas incluem:</b>
 • 40 encontros com Archen
@@ -98603,6 +99131,13 @@ TEXT: <b>As recompensas incluem:</b>
 • 2.000 Poeira Estelar
 
 Bruxish encontrados como recompensa dessa pesquisa e de todas as outras tarefas de pesquisa terão mais chances de aparecer como Pokémon Brilhantes!
+
+RESOURCE ID: text_rewards_key_fuzzyrd2024
+TEXT: Esta Pesquisa Temporária, que desafia você a completar tarefas de Pesquisa de Campo, leva a encontros com o Pokémon em destaque da sua escolha: Teddiursa, Cubchoo, Pancham ou Stufful!
+
+Durante o evento, os Pokémon encontrados nesta Pesquisa Temporária têm a mesma chance de aparecer na versão Brilhante que os encontrados através de Pesquisa de Campo.
+
+Essa Pesquisa Temporária estará disponível no dia 29 de março de 2025, das 14h às 17h do seu horário local.
 
 RESOURCE ID: text_rewards_key_gblaug24
 TEXT: Este ingresso tem o objetivo de ajudar você a se tornar o melhor batalhador, oferecendo oportunidades de pegar Pokémon populares na Liga de Batalha GO!
@@ -98928,6 +99463,12 @@ TEXT: <b>Os bônus incluem:</b>
 • Maior chance de receber Doce Raro GG de Reides
 • 50% a mais de PE e 2× Poeira Estelar por completar Reides com sucesso
 
+RESOURCE ID: text_rewards_key_megaaudinoraidday
+TEXT: <b>Os bônus incluem:</b>
+• 8 Passes de Reide adicionais ao girar Fotodiscos de Ginásios
+• Maior chance de receber Doce Raro GG de Reides
+• 50% a mais de PE e 2× Poeira Estelar por completar Reides com sucesso
+
 RESOURCE ID: text_rewards_key_megagalladeraidday
 TEXT: <b>Os bônus incluem:</b>
 • 8 Passes de Reide adicionais ao girar Fotodiscos de Ginásios
@@ -99111,6 +99652,15 @@ TEXT: <b>As recompensas incluem:</b>
 • 1 MT Elite de Ataque Carregado
 • 20.000 Poeira Estelar
 • 5.000 PE
+
+RESOURCE ID: text_rewards_key_stunning_styles
+TEXT: <b>As recompensas incluem:</b>
+• Encontros com Shellos Mar Ocidental, Shellos Mar Leste e Espurr
+• 4 Passes de Batalha Premium
+• 1 Ovo da Sorte
+• 1 Pedaço de Estrela
+• 6.000 PE e 3.000 Poeira Estelar
+• E muito mais!
 
 RESOURCE ID: text_rewards_key_takeovermarch24
 TEXT: <b>As recompensas incluem:</b>
@@ -100878,6 +101428,9 @@ TEXT: Pesquisa Temporária: Um Vislumbre da Luz do Sol
 
 RESOURCE ID: tr_gofest2024_earlybird2
 TEXT: Pesquisa Temporária: A Ascensão da Luz da Lua
+
+RESOURCE ID: tr_gofest2025_global_earlybird
+TEXT: GO Fest 2025: Early Bird Timed Research
 
 RESOURCE ID: tr_gowa2024_global_daily_electric
 TEXT: Além da Área Selvagem: Pesquisa Temporária (Eletricista)

@@ -427,6 +427,9 @@ TEXT: 스티커 추가
 RESOURCE ID: adding_friends_info_link
 TEXT: 프렌드와 공유되는 것
 
+RESOURCE ID: additional_candy_catch_bonus
+TEXT: 포켓몬을 잡았을 때 받을 수 있는 사탕 1개 추가
+
 RESOURCE ID: additional_xl_max_raid_singular
 TEXT: 맥스배틀에서 받을 수 있는 사탕XL 1개 추가
 
@@ -782,16 +785,16 @@ RESOURCE ID: af2022_oh
 TEXT: 어라?
 
 RESOURCE ID: age_confirm_contact
-TEXT: Contact Support
+TEXT: 서포트 문의하기
 
 RESOURCE ID: age_confirm_explain
-TEXT: There is an age requirement to log in with this type of account. Please confirm your date of birth.
+TEXT: 이 유형의 계정으로 로그인하려면 연령 제한이 있습니다. 생년월일을 확인해 주세요.
 
 RESOURCE ID: age_confirm_fail
-TEXT: Sorry, you do not meet the <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">age requirements</a> to log in with this type of account, and your account will be deleted pursuant to our Terms of Service. If you believe you are eligible to log in with this type of account, please contact us.
+TEXT: 이 유형의 계정으로 로그인하는 데 필요한 <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">연령 조건</a>에 맞지 않습니다. 이용약관에 따라 계정이 삭제됩니다. 로그인할 수 있는 조건이라고 생각 되시면 문의 주십시오.
 
 RESOURCE ID: age_confirm_popup_confirm
-TEXT: Are you sure? This cannot be changed after you submit it.
+TEXT: 확정하겠습니까? 보낸 후 수정할 수 없습니다.
 
 RESOURCE ID: age_gate_screen
 TEXT: 생년월일을 입력해 주십시오
@@ -1943,6 +1946,9 @@ TEXT: 의상을 삭제한다
 
 RESOURCE ID: as_save_outfit
 TEXT: 의상을 보관
+
+RESOURCE ID: as_two_for_one_purchase
+TEXT: This purchase also includes the {0}.
 
 RESOURCE ID: as_worn_items_added_to_cart
 TEXT: 장바구니에 넣었습니다
@@ -11394,6 +11400,9 @@ TEXT: 포켓몬을 선택
 RESOURCE ID: batch_transfer_last_more_pokemon
 TEXT: Your only {0}, {1}, and {2} more
 
+RESOURCE ID: batch_transfer_last_more_pokemon_singular
+TEXT: Your only {0}, {1}, and 1 more
+
 RESOURCE ID: batch_transfer_last_one_pokemon
 TEXT: Your only {0}
 
@@ -15624,6 +15633,42 @@ TEXT: 플라이곤
 RESOURCE ID: branch_flygon_title_short
 TEXT: 플라이곤
 
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_cubchoo_button_text_key
+TEXT: 코고미
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_cubchoo_description_key
+TEXT: 이것을 선택하면 시간제한 리서치 과제 완료 후 코고미를 만날 수 있습니다.
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_cubchoo_title_key
+TEXT: 코고미
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_pancham_button_text_key
+TEXT: 판짱
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_pancham_description_key
+TEXT: 이것을 선택하면 시간제한 리서치 과제 완료 후 판짱을 만날 수 있습니다.
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_pancham_title_key
+TEXT: 판짱
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_stufful_button_text_key
+TEXT: 포곰곰
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_stufful_description_key
+TEXT: 이것을 선택하면 시간제한 리서치 과제 완료 후 포곰곰을 만날 수 있습니다.
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_stufful_title_key
+TEXT: 포곰곰
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_teddiursa_button_text_key
+TEXT: 깜지곰
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_teddiursa_description_key
+TEXT: 이것을 선택하면 시간제한 리서치 과제 완료 후 깜지곰을 만날 수 있습니다.
+
+RESOURCE ID: branch_fuzzy_buddy_rd_mar25_teddiursa_title_key
+TEXT: 깜지곰
+
 RESOURCE ID: branch_gardevoir_description
 TEXT: 가디안이 참가하면 모자를 쓴 가디안과 만날 수 있다!
 
@@ -16250,6 +16295,9 @@ TEXT: 오늘 모을 수 있는 맥스 파티클의 최대치에 도달했습니�
 RESOURCE ID: bread_mp_for_battle_lobby
 TEXT: {0}MP 사용
 
+RESOURCE ID: bread_mp_for_remote_battle_lobby
+TEXT: Use {0} MP and Remote Raid Pass
+
 RESOURCE ID: bread_mp_storage_full
 TEXT: 가질 수 있는 맥스 파티클의 최대치에 도달했습니다.
 
@@ -16306,6 +16354,15 @@ TEXT: 돌아오게 하면 배틀 어시스트와 사탕 발견을 그만두게 �
 
 RESOURCE ID: bread_release_title
 TEXT: {0}(을)를 돌아오게 하겠습니까?
+
+RESOURCE ID: bread_remote_iap_mp_rrp_replenish_title
+TEXT: You're out of Remote Raid Passes and MP
+
+RESOURCE ID: bread_remote_invite_in_game_notification
+TEXT: {0} invited you to join a Max Battle!
+
+RESOURCE ID: bread_remote_use_rrp_confirmation
+TEXT: You can join {0} more Max Battles today. Max Particles are only used when you win. A Remote Raid Pass will be used when the battle starts.
 
 RESOURCE ID: bread_report_pou_reason_emergency
 TEXT: 긴급 대응 방해가 됨
@@ -17277,8 +17334,29 @@ TEXT: 벌레타입 캐치 챌린지(2/3)
 RESOURCE ID: bug_out_catch_challenge_title_page_3
 TEXT: 벌레타입 캐치 챌린지(3/3)
 
+RESOURCE ID: bug_out_collection_evolve
+TEXT: 벌레타입 포켓몬 컬렉션 챌린지: 실뿜기
+
+RESOURCE ID: bug_out_collection_evolve_medium
+TEXT: 벌레타입 포켓몬 컬렉션 챌린지: 우화
+
+RESOURCE ID: bug_out_collection_evolve_ninja
+TEXT: 벌레타입 포켓몬 컬렉션 챌린지: 힘 또는 속도
+
 RESOURCE ID: bug_out_event_name
 TEXT: 벌레타입 포켓몬 이벤트
+
+RESOURCE ID: bug_out_free_tr_name
+TEXT: 벌레타입 포켓몬 시간제한 리서치
+
+RESOURCE ID: bug_out_tr_name
+TEXT: 벌레타입 포켓몬 프리미엄 시간제한 리서치
+
+RESOURCE ID: bug_out_tr_name_1
+TEXT: 벌레타입 포켓몬 프리미엄 시간제한 리서치(1/2)
+
+RESOURCE ID: bug_out_tr_name_2
+TEXT: 벌레타입 포켓몬 프리미엄 시간제한 리서치(2/2)
 
 RESOURCE ID: bug_type_event
 TEXT: Type Surge: Bug
@@ -21623,8 +21701,17 @@ TEXT: 피카츄 파티 보너스 시간제한 리서치(1/1)
 RESOURCE ID: em_mall_large_tr_title
 TEXT: 피카츄 파티 보너스 시간제한 리서치
 
+RESOURCE ID: em_mall_mela_event_title
+TEXT: 포켓몬 피에스타
+
 RESOURCE ID: em_mall_pkmn_day_event_title
 TEXT: Pokémon Day 기념: 브라질
+
+RESOURCE ID: em_mall_small_tr_desc_title_00
+TEXT: 포켓몬 피에스타 시간제한 리서치(1/1)
+
+RESOURCE ID: em_mall_small_tr_title
+TEXT: 포켓몬 피에스타 시간제한 리서치
 
 RESOURCE ID: empty_events_message
 TEXT: 개최 예정 이벤트 등이 표시됩니다
@@ -22215,6 +22302,9 @@ TEXT: 4월 20일 14시 ~ 17시
 RESOURCE ID: event_datetime_range_key_bounsweetcd2024
 TEXT: 5월 19일 14시~17시
 
+RESOURCE ID: event_datetime_range_key_bugout0325
+TEXT: 3월 26일 10:00 ~ 3월 30일 20:00
+
 RESOURCE ID: event_datetime_range_key_catch_mastery_archen
 TEXT: 3월 16일 10:00 ~ 20:00
 
@@ -22281,6 +22371,9 @@ TEXT: 5월 11일 14시~17시
 RESOURCE ID: event_datetime_range_key_foc_mar25
 TEXT: 3월 13일 10:00~
 3월 17일 20:00
+
+RESOURCE ID: event_datetime_range_key_fuzzyrd2024
+TEXT: 3월 29일 14시 ~ 17시
 
 RESOURCE ID: event_datetime_range_key_gblaug24
 TEXT: 8월 16일 10:00～
@@ -22415,6 +22508,9 @@ TEXT: 5월 4일 10:00~
 RESOURCE ID: event_datetime_range_key_megaabsolraidday
 TEXT: 3월 23일 14시 ~ 17시
 
+RESOURCE ID: event_datetime_range_key_megaaudinoraidday
+TEXT: 4월 5일 14시 ~ 17시
+
 RESOURCE ID: event_datetime_range_key_megagalladeraidday
 TEXT: 1월 11일 14시~17시
 
@@ -22495,6 +22591,10 @@ TEXT: 6월 1일 10:00~
 RESOURCE ID: event_datetime_range_key_stldrslv0125
 TEXT: 1월 21일 10시~
 1월 26일 23시 50분
+
+RESOURCE ID: event_datetime_range_key_stunning_styles
+TEXT: 4월 3일 10:00~
+4월 7일 20:00
 
 RESOURCE ID: event_datetime_range_key_takeovermarch24
 TEXT: 3월 27일 0:00~
@@ -23277,6 +23377,9 @@ TEXT: 랭크 100으로 받을 수 있다!
 
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_02
 TEXT: 랭크 40으로 받는다
+
+RESOURCE ID: event_pass_premium_reward_banner_bottom_text_99
+TEXT: 랭크99에서 리워드
 
 RESOURCE ID: event_pass_premium_reward_banner_middle_text
 TEXT: 반짝이 참
@@ -25324,6 +25427,15 @@ TEXT: 네거폼
 RESOURCE ID: form_palafin_hero
 TEXT: 마이티폼 
 
+RESOURCE ID: form_paldea_aqua
+TEXT: 워터종
+
+RESOURCE ID: form_paldea_blaze
+TEXT: 블레이즈종
+
+RESOURCE ID: form_paldea_combat
+TEXT: 컴뱃종
+
 RESOURCE ID: form_palkia_normal
 TEXT: 펄기아
 
@@ -25362,6 +25474,9 @@ TEXT: 특대 사이즈
 
 RESOURCE ID: form_rain
 TEXT: 빗방울의 모습
+
+RESOURCE ID: form_rapid_strike
+TEXT: Rapid Strike Style
 
 RESOURCE ID: form_red_striped
 TEXT: 적색근의 모습
@@ -25464,6 +25579,9 @@ TEXT: Type: Steel
 
 RESOURCE ID: form_silvally_water
 TEXT: Type: Water
+
+RESOURCE ID: form_single_strike
+TEXT: Single Strike Style
 
 RESOURCE ID: form_sky
 TEXT: 스카이폼
@@ -25789,6 +25907,9 @@ TEXT: {0}님의 친구신청이 도착했습니다!
 
 RESOURCE ID: friend_invited_you_to_ex_raid
 TEXT: EX레이드에 초대받았습니다!
+
+RESOURCE ID: friend_is_at_a_max_battle
+TEXT: Has joined a <b>{0} {1}</b> Battle
 
 RESOURCE ID: friend_is_at_a_raid
 TEXT: {0}님은 <b>{1} 레이드</b>에 참가 중
@@ -26157,6 +26278,24 @@ TEXT: 분리하지 못했습니다. 다시 시도해 주십시오.
 RESOURCE ID: fusion_unfuse_question
 TEXT: {0}를 분리하겠습니까?
 
+RESOURCE ID: fuzzy_buddies_event_name
+TEXT: 베어 버디 리서치데이
+
+RESOURCE ID: fuzzy_buddy_mar2025_tr
+TEXT: 베어 버디 리서치데이 프리미엄 시간제한 리서치
+
+RESOURCE ID: fuzzy_buddy_rd_tr_cubchoo
+TEXT: 베어 버디 리서치데이: 코고미
+
+RESOURCE ID: fuzzy_buddy_rd_tr_pancham
+TEXT: 베어 버디 리서치데이: 판짱
+
+RESOURCE ID: fuzzy_buddy_rd_tr_stufful
+TEXT: 베어 버디 리서치데이: 포곰곰
+
+RESOURCE ID: fuzzy_buddy_rd_tr_teddiursa
+TEXT: 베어 버디 리서치데이: 깜지곰
+
 RESOURCE ID: fuzzy_fighter_sr_name
 TEXT: 복슬 파이터
 
@@ -26503,6 +26642,9 @@ TEXT: 울새포켓몬의 수수께끼를 풀어라! 티켓
 
 RESOURCE ID: general1.ticket.2_flocktr24_title
 TEXT: 비행 리서치데이 시간제한 리서치
+
+RESOURCE ID: general1.ticket.2_fuzzyrd2024_title
+TEXT: 베어 버디 리서치데이 프리미엄 시간제한 리서치 티켓
 
 RESOURCE ID: general1.ticket.2_garchompraid2023_description
 TEXT: 현지 시간 2023년 11월 11일 14시~22시까지 다음 보너스를 받기 위한 티켓.  
@@ -27165,6 +27307,9 @@ TEXT: 물가의 산책 시간제한 리서치 티켓
 RESOURCE ID: general1.ticket._battleevent2024_title
 TEXT: 강철 배틀 티켓
 
+RESOURCE ID: general1.ticket._bugout0325_title
+TEXT: 벌레타입 포켓몬 프리미엄 시간제한 리서치 티켓
+
 RESOURCE ID: general1.ticket._chargedembers1224_title
 TEXT: 화염과 방전의 부화데이 프리미엄 시간제한 리서치 티켓
 
@@ -27651,6 +27796,9 @@ TEXT: 거다이맥스 킹크랩 맥스배틀 데이 티켓
 RESOURCE ID: general2.ticket.6_megaabsolraidday_title
 TEXT: 메가앱솔 레이드 데이 티켓
 
+RESOURCE ID: general2.ticket.6_megaaudinoraidday_title
+TEXT: 메가다부니 레이드 데이 티켓
+
 RESOURCE ID: general2.ticket.7_aprilmonthly2025_title
 TEXT: 강화 티켓: 4월
 
@@ -27668,6 +27816,9 @@ TEXT: 네크로즈마 합체 레이드 데이 티켓
 
 RESOURCE ID: general2.ticket._shadowhoohraidday_title
 TEXT: 칠색조 그림자 레이드 데이 티켓
+
+RESOURCE ID: general2.ticket._stunning_styles_ticket_title
+TEXT: 유니크 스타일 프리미엄 시간제한 리서치 티켓
 
 RESOURCE ID: general2.ticket4.catch_mastery_archen
 TEXT: 마스터리 시리즈: 아켄 프리미엄 시간제한 리서치 티켓
@@ -29442,7 +29593,7 @@ RESOURCE ID: go_tour_2025_global_sr_dialog_04_tepig_01
 TEXT: 보기보다 민첩하니 조심해! 어느 틈에 밥이 사라질지 몰라!
 
 RESOURCE ID: go_tour_2025_global_sr_dialog_04_tepig_02
-TEXT: 좋은 코로 먹이를 찾아낼 수 있어. 발면하면 적당하게 구워서 먹기도 하지.
+TEXT: 좋은 코로 먹이를 찾아낼 수 있어. 발견하면 적당하게 구워서 먹기도 하지.
 
 RESOURCE ID: go_tour_2025_global_sr_dialog_04_tepig_03
 TEXT: 수백 번의 배틀을 치른 트레이너라도 포켓몬에 대해서는 항상 새로운 배움이 있어. 뚜꾸리를 잘 돌봐줘. 배울건 배우면서 말이야!
@@ -36500,6 +36651,9 @@ TEXT: 선물을 열고 받을 수 있는 XP, 별의모래 증가
 RESOURCE ID: increased_transfer_candy_xl_bonus
 TEXT: 포켓몬을 보내서 받을 수 있는 포켓몬의 사탕과 사탕XL 증가
 
+RESOURCE ID: increased_xl_candy_chance_catch_bonus
+TEXT: 포켓몬을 잡았을 때 받을 수 있는 사탕XL의 확률 증가
+
 RESOURCE ID: increased_xp_catch_streak_bonus
 TEXT: 7일 연속 포켓몬 잡기 리워드로 받을 수 있는 XP 증가
 
@@ -37298,8 +37452,17 @@ TEXT: 이 티켓은 자으로 활성화되어 현지시간 2024년 3월 1일 10�
 RESOURCE ID: item_event_ticket_10_name
 TEXT: 티켓
 
+RESOURCE ID: item_event_ticket_desc_stunning_styles
+TEXT: 현지시간 2025년 4월 7일 20시까지 유니크 스타일 프리미엄 시간제한 리서치를 진행할 수 있는 티켓.
+
 RESOURCE ID: item_event_ticket_details_gowaleadup2024
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2024년 11월 18일에 와일드 위크 시간제한 리서치와 보너스를 받을 수 있습니다.
+
+RESOURCE ID: item_event_ticket_details_stunning_styles
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2025년 4월 3일에 유니크 스타일 프리미엄 시간제한 리서치를 손에 넣을 수 있습니다.
+
+RESOURCE ID: item_event_ticket_evergreen_desc_bugout0325
+TEXT: 현지시간 2025년 3월 30일 20시까지 벌레타입 포켓몬 프리미엄 시간제한 리서치를 진행할 수 있는 티켓.
 
 RESOURCE ID: item_event_ticket_evergreen_desc_chargedembers1224
 TEXT: 현지시간 2024년 12월 29일 5시까지 화염과 방전의 부화데이 프리미엄 시간제한 리서치를 진행할 수 있는 티켓.
@@ -37342,6 +37505,9 @@ TEXT: 현지시간 2025년 1월 26일 23시 59분까지 강철의 결심 프리�
 
 RESOURCE ID: item_event_ticket_evergreen_desc_yamasktr24
 TEXT: 현지시간 2024년 10월 19일 14시~ 17시에 데스마스와 데스마스(가라르의 모습)가 리서치데이용 2가지 프리미엄 시간제한 리서치를 진행할 수 있는 티켓.
+
+RESOURCE ID: item_event_ticket_evergreen_details_bugout0325
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 3월 26일에 벌레타입 포켓몬 프리미엄 시간제한 리서치가 진행됩니다.
 
 RESOURCE ID: item_event_ticket_evergreen_details_chargedembers1224
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 12월 29일에 화염과 방전의 부화데이 시간제한 리서치가 진행됩니다.
@@ -37460,6 +37626,9 @@ TEXT: 현지시간 2025년 5월 4일 10시 ~ 6월 4일 10시에 보너스를 받
 RESOURCE ID: item_event_ticket_gray_desc_megaabsolraidday
 TEXT: 현지시간 2025년 3월 23일 14시~17시에 보너스를 받기 위한 티켓.
 
+RESOURCE ID: item_event_ticket_gray_desc_megaaudinoraidday
+TEXT: 현지 시간 2025년 4월 5일 14시~ 17시에 보너스를 받기 위한 티켓.
+
 RESOURCE ID: item_event_ticket_gray_desc_megagalladeraidday
 TEXT: 현지시간 2025년 1월 11일 14시~17시에 보너스를 받기 위한 티켓.
 
@@ -37558,6 +37727,9 @@ TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2025년 5월 4일�
 
 RESOURCE ID: item_event_ticket_gray_details_megaabsolraidday
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2025년 3월 23일에 발생하는 보너스를 손에 넣을 수 있습니다.
+
+RESOURCE ID: item_event_ticket_gray_details_megaaudinoraidday
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2025년 4월 5일에 발생하는 보너스를 손에 넣을 수 있습니다.
 
 RESOURCE ID: item_event_ticket_gray_details_megagalladeraidday
 TEXT: 이 티켓은 자동으로 활성화되어 2025년 1월 11일에 발생하는 보너스를 손에 넣을 수 있습니다.
@@ -37693,6 +37865,9 @@ TEXT: 현지시간 2024년 5월 11일 14시~17시 비행 리서치데이 시간�
 
 RESOURCE ID: item_event_ticket_pink_desc_froakie
 TEXT: 현지시간 2023년 8월 13일 14:00~17:00까지 개구마르 커뮤니티 데이 스페셜리서치를 진행하기 위한 티켓.
+
+RESOURCE ID: item_event_ticket_pink_desc_fuzzyrd2024
+TEXT: 현지시간 2025년 3월 29일 14시~17시에 베어 버디 리서치데이 프리미엄 시간제한 리서치를 진행하기 위한 티켓.
 
 RESOURCE ID: item_event_ticket_pink_desc_gbd
 TEXT: GO배틀 데이: 별의모래 시간제한 리서치를 진행하기 위한 티켓.
@@ -37837,6 +38012,9 @@ TEXT: 이 티켓은 자동으로 활성화되어 현지시간 5월 11일에비�
 
 RESOURCE ID: item_event_ticket_pink_details_froakie
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2023년8월 13일에 '거품개구리포켓몬의 수수께끼를 풀어라!' 스페셜리서치가 진행됩니다.
+
+RESOURCE ID: item_event_ticket_pink_details_fuzzyrd2024
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 3월 29일에 베어 버디 리서치데이 프리미엄 시간제한 리서치가 진행됩니다.
 
 RESOURCE ID: item_event_ticket_pink_details_gbd
 TEXT: 이 티켓은 자동으로 활성화 되어 현지시간 2023년 5월 14일 0:00~23:59까지 GO배틀 데이: 별의모래 시간제한 리서치를 진행할 수 있습니다.
@@ -38115,7 +38293,7 @@ RESOURCE ID: item_expire_timer_minutes_seconds_left
 TEXT: {0} 남음
 
 RESOURCE ID: item_found
-TEXT: Item found! 
+TEXT: 뭔가 주웠다!
 
 RESOURCE ID: item_free_raid_ticket_desc
 TEXT: 레이드배틀 참가에 필요한 패스. 체육관 포토디스크를 회전하면 1일 1장 손에 넣을 수 있다. 1장만 가질 수 있다.
@@ -38463,6 +38641,12 @@ TEXT: 포켓몬이 새로운 스페셜 어택을 배우게 할 수 있는 장치
 
 RESOURCE ID: item_move_reroll_special_attack_name
 TEXT: 기술머신스페셜
+
+RESOURCE ID: item_mp_desc
+TEXT:  
+
+RESOURCE ID: item_mp_desc_temp
+TEXT: Use Max Particles to take on Max Battles at Power Spots or unlock and level up Max Moves.
 
 RESOURCE ID: item_mp_name
 TEXT: 맥스 파티클
@@ -39037,6 +39221,36 @@ TEXT: 거다이맥스 킹크랩 프리미엄 시간제한 리서치
 RESOURCE ID: korean
 TEXT: 한국어
 
+RESOURCE ID: kr_cherryblossom_festival_2025_tag
+TEXT: 봄꽃축제
+
+RESOURCE ID: kr_cherryblossom_festival_2025_title
+TEXT: 2025 봄꽃축제
+
+RESOURCE ID: kr_cherryblossom_festival_2025_tr_name
+TEXT: 2025 봄꽃축제 로케이션 배경 시간제한 리서치
+
+RESOURCE ID: kr_cherryblossom_festival_2025_tr_name_1
+TEXT: 2025 봄꽃축제 로케이션 배경 시간제한 리서치(1/3)
+
+RESOURCE ID: kr_cherryblossom_festival_2025_tr_name_2
+TEXT: 2025 봄꽃축제 로케이션 배경 시간제한 리서치(2/3)
+
+RESOURCE ID: kr_cherryblossom_festival_2025_tr_name_3
+TEXT: 2025 봄꽃축제 로케이션 배경 시간제한 리서치(3/3)
+
+RESOURCE ID: kr_cherryblossom_festival_2025_yeouido_bonus
+TEXT: 2025 봄꽃축제 - 여의도 보너스
+
+RESOURCE ID: kr_festival_fr_location_background
+TEXT: 필드리서치에서 잡는 사철록와 의상을 입은 피카츄에 로케이션 배경이 있을 가능성
+
+RESOURCE ID: kr_spring_festival_mar2025_cc_1
+TEXT: 2025 봄꽃축제 컬렉션 챌린지1
+
+RESOURCE ID: kr_spring_festival_mar2025_cc_2
+TEXT: 2025 봄꽃축제 컬렉션 챌린지2
+
 RESOURCE ID: lake_trio_event_name
 TEXT: 호수의 신화 이벤트
 
@@ -39086,7 +39300,7 @@ RESOURCE ID: last_played_yesterday
 TEXT: 마지막 플레이: 어제
 
 RESOURCE ID: last_pokemon_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer your last {0}?
+TEXT: Do you really want to transfer your only {0}?
 
 RESOURCE ID: latam_live_op_desc
 TEXT: 보너스 이벤트: 신규 LATAM 어드벤처
@@ -42157,6 +42371,120 @@ TEXT: 자력 세미나: 플러시
 RESOURCE ID: magnetic_study_plusle_tr_name
 TEXT: 자력 세미나 시간제한 리서치: 플러시
 
+RESOURCE ID: make_good_kyurem_title_001
+TEXT: Encounter: 1 Kyurem
+
+RESOURCE ID: make_good_kyurem_title_002
+TEXT: Encounter: 2 Kyurem
+
+RESOURCE ID: make_good_kyurem_title_003
+TEXT: Encounter: 3 Kyurem
+
+RESOURCE ID: make_good_kyurem_title_004
+TEXT: Encounter: 4 Kyurem
+
+RESOURCE ID: make_good_kyurem_title_005
+TEXT: Encounter: 5 Kyurem
+
+RESOURCE ID: make_good_kyurem_title_006
+TEXT: Encounter: 6 Kyurem
+
+RESOURCE ID: make_good_kyurem_title_007
+TEXT: Encounter: 7 Kyurem
+
+RESOURCE ID: make_good_kyurem_title_008
+TEXT: Encounter: 8 Kyurem
+
+RESOURCE ID: make_good_kyurem_title_009
+TEXT: Encounter: 9 Kyurem
+
+RESOURCE ID: make_good_kyurem_title_010
+TEXT: Encounter: 10 Kyurem
+
+RESOURCE ID: make_good_kyurem_title_011
+TEXT: Encounter: 11 Kyurem
+
+RESOURCE ID: make_good_kyurem_title_012
+TEXT: Encounter: 12 Kyurem
+
+RESOURCE ID: make_good_reshiram_desc
+TEXT: Encounter: Reshiram, 2025
+
+RESOURCE ID: make_good_reshiram_title_001
+TEXT: Encounter: 1 Reshiram
+
+RESOURCE ID: make_good_reshiram_title_002
+TEXT: Encounter: 2 Reshiram
+
+RESOURCE ID: make_good_reshiram_title_003
+TEXT: Encounter: 3 Reshiram
+
+RESOURCE ID: make_good_reshiram_title_004
+TEXT: Encounter: 4 Reshiram
+
+RESOURCE ID: make_good_reshiram_title_005
+TEXT: Encounter: 5 Reshiram
+
+RESOURCE ID: make_good_reshiram_title_006
+TEXT: Encounter: 6 Reshiram
+
+RESOURCE ID: make_good_reshiram_title_007
+TEXT: Encounter: 7 Reshiram
+
+RESOURCE ID: make_good_reshiram_title_008
+TEXT: Encounter: 8 Reshiram
+
+RESOURCE ID: make_good_reshiram_title_009
+TEXT: Encounter: 9 Reshiram
+
+RESOURCE ID: make_good_reshiram_title_010
+TEXT: Encounter: 10 Reshiram
+
+RESOURCE ID: make_good_reshiram_title_011
+TEXT: Encounter: 11 Reshiram
+
+RESOURCE ID: make_good_reshiram_title_012
+TEXT: Encounter: 12 Reshiram
+
+RESOURCE ID: make_good_zekrom_desc
+TEXT: Encounter: Zekrom, 2025
+
+RESOURCE ID: make_good_zekrom_title_001
+TEXT: Encounter: 1 Zekrom
+
+RESOURCE ID: make_good_zekrom_title_002
+TEXT: Encounter: 2 Zekrom
+
+RESOURCE ID: make_good_zekrom_title_003
+TEXT: Encounter: 3 Zekrom
+
+RESOURCE ID: make_good_zekrom_title_004
+TEXT: Encounter: 4 Zekrom
+
+RESOURCE ID: make_good_zekrom_title_005
+TEXT: Encounter: 5 Zekrom
+
+RESOURCE ID: make_good_zekrom_title_006
+TEXT: Encounter: 6 Zekrom
+
+RESOURCE ID: make_good_zekrom_title_007
+TEXT: Encounter: 7 Zekrom
+
+RESOURCE ID: make_good_zekrom_title_008
+TEXT: Encounter: 8 Zekrom
+
+RESOURCE ID: make_good_zekrom_title_009
+TEXT: Encounter: 9 Zekrom
+
+RESOURCE ID: make_good_zekrom_title_010
+TEXT: Encounter: 10 Zekrom
+
+RESOURCE ID: make_good_zekrom_title_011
+TEXT: Encounter: 11 Zekrom
+
+RESOURCE ID: make_good_zekrom_title_012
+TEXT: Encounter: 12 Zekrom
+
 RESOURCE ID: manage_items_button
 TEXT: 도구 정리
 
@@ -42267,6 +42595,27 @@ TEXT: 연꽃몬 리서치: 레이드배틀을 1회 한다
 
 RESOURCE ID: marrd_2019_easy_supereffective_charge
 TEXT: 연꽃몬 리서치: 효과가 굉장한 스페셜 어택을 사용해서 체육관 배틀을 1회 한다
+
+RESOURCE ID: marshadow_global_sr_1
+TEXT: 유니크 섀도(1/6)
+
+RESOURCE ID: marshadow_global_sr_2
+TEXT: 유니크 섀도(2/6)
+
+RESOURCE ID: marshadow_global_sr_3
+TEXT: 유니크 섀도(3/6)
+
+RESOURCE ID: marshadow_global_sr_4
+TEXT: 유니크 섀도(4/6)
+
+RESOURCE ID: marshadow_global_sr_5
+TEXT: 유니크 섀도(5/6)
+
+RESOURCE ID: marshadow_global_sr_6
+TEXT: 유니크 섀도(6/6)
+
+RESOURCE ID: marshadow_global_sr_name
+TEXT: 유니크 섀도
 
 RESOURCE ID: master_classic_title
 TEXT: ML 클래식
@@ -42979,6 +43328,9 @@ TEXT: 집중 트레이닝: 메가앱솔 시간제한 리서치
 RESOURCE ID: mega_active_countdown_description
 TEXT: 남은 시간
 
+RESOURCE ID: mega_audino_tr_april_2025_title
+TEXT: 메가다부니 레이드 데이 시간제한 리서치
+
 RESOURCE ID: mega_battle_event
 TEXT: 메가배틀 챌린지
 
@@ -43280,9 +43632,9 @@ RESOURCE ID: meshing_option_title
 TEXT: 메싱
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2025-03-27T16:47:40.171405+00:00 for ko-KR
-at SHA 505ac976953
-Pipeline 3109778, job 38824341
+TEXT: Built at 2025-04-11T21:18:23.797301+00:00 for ko-KR
+at SHA 0d984c0aeda5c
+Pipeline 3150707, job 39575452
 
 RESOURCE ID: mex_fighting_promo_title
 TEXT: 시간제한 리서치: 격투타입
@@ -82522,10 +82874,13 @@ RESOURCE ID: quest_title_totodile
 TEXT: 커뮤니티 데이(복각): 리아코
 
 RESOURCE ID: quest_title_totodile_0
-TEXT: 커뮤니티 데이(복각): 리아코(1/2)
+TEXT: 커뮤니티 데이(복각): 리아코(1/3)
 
 RESOURCE ID: quest_title_totodile_1
-TEXT: 커뮤니티 데이(복각): 리아코(2/2)
+TEXT: 커뮤니티 데이(복각): 리아코(2/3)
+
+RESOURCE ID: quest_title_totodile_2
+TEXT: 커뮤니티 데이(복각): 리아코(3/3)
 
 RESOURCE ID: quest_title_tynamo
 TEXT: 전기물고기포켓몬의 수수께끼를 풀어라!
@@ -84684,6 +85039,9 @@ TEXT: 요가랑 레이드 데이
 RESOURCE ID: raid_day_mega_absol_event_name
 TEXT: 레이드 데이: 메가앱솔
 
+RESOURCE ID: raid_day_mega_audino_event_name
+TEXT: 레이드 데이: 메가다부니
+
 RESOURCE ID: raid_day_mega_garchomp
 TEXT: 레이드 데이: 메가한카리아스
 
@@ -85476,6 +85834,9 @@ TEXT: 리아코 레이드 데이
 RESOURCE ID: raid_day_toxicroak
 TEXT: 독개굴 레이드 데이
 
+RESOURCE ID: raid_day_tr_bonus_unlock
+TEXT: 레이드 데이: 시간제한 리서치 보너스
+
 RESOURCE ID: raid_day_tranquill
 TEXT: 유토브 레이드 데이
 
@@ -85921,7 +86282,7 @@ TEXT: 그룹을 공개하겠습니까?
  변경할 수 없습니다.
 
 RESOURCE ID: raid_rsvp_bonus
-TEXT: RSVP'd to Raid
+TEXT: RSVP’d
 
 RESOURCE ID: raid_share_private_code_message
 TEXT: 이 그룹코드를 입력하면 친구와 같이 레이드배틀에 참가할 수 있습니다.「그룹코드 입력」버튼을 누르고 코드를 입력합니다.
@@ -88502,6 +88863,9 @@ TEXT: 팀에서 빠지면 챌린지 진척상황과 받지 않은 리워드는 �
 RESOURCE ID: rejoin_warning_modal_title
 TEXT: 팀에서 빠지겠습니까?
 
+RESOURCE ID: remote_max_battle_invite_push_notif
+TEXT: A friend invited you to join a Max Battle!
+
 RESOURCE ID: remote_raid_battle_helptext
 TEXT: 리모트 레이드패스 사용
 
@@ -88731,6 +89095,9 @@ TEXT: 선택 가능 이유 최대 수에 도달했습니다.
 RESOURCE ID: report_route_error_missing_selection
 TEXT: 보고 이유를 선택해 주십시오
 
+RESOURCE ID: report_route_error_not_found
+TEXT: This Route cannot be found.
+
 RESOURCE ID: report_route_error_too_many_reports
 TEXT: 하루 최대 보고 수에 도달했습니다.
 
@@ -88925,6 +89292,9 @@ TEXT: 필드리서치 대발견에서 받을 수 있는 도구 증가
 
 RESOURCE ID: research_breakthrough_bonus_stardust
 TEXT: 필드리서치 과제 완료로 받을 수 있는 별의모래 증가
+
+RESOURCE ID: research_breakthrough_bonus_xp_stardust
+TEXT: 대발견 완료로 받을 수 있는 XP와 별의모래 증가
 
 RESOURCE ID: research_day_passimian_and_oranguru_event_name
 TEXT: 하랑우탄과 내던숭이 리서치데이
@@ -91015,6 +91385,18 @@ TEXT: 시작:
 RESOURCE ID: rsvp_attendance_preference_title
 TEXT: 일정 예약을 공유:
 
+RESOURCE ID: rsvp_attendance_tutorial_link_text_key
+TEXT: Learn more where your Trainer nickname is shown in-game here.
+
+RESOURCE ID: rsvp_attendance_tutorial_link_url_key
+TEXT: https://niantic.helpshift.com/hc/{0}/6-pokemon-go/faq/4286-controlling-your-experience-on-pokemon-go/
+
+RESOURCE ID: rsvp_attendance_tutorial_message_key
+TEXT: Other Trainers will be able to view the battles you’ve RSVP’d to. You can change this at any time via Settings.
+
+RESOURCE ID: rsvp_attendance_tutorial_title_key
+TEXT: RSVP Visibility
+
 RESOURCE ID: rsvp_inactive_button_desc
 TEXT: {0}명 ({1})
 
@@ -91024,11 +91406,17 @@ TEXT: 시간 선택
 RESOURCE ID: rsvp_invitation_notification_string_key
 TEXT: {0}님이 {1}{2}(으)로 초대했습니다!
 
+RESOURCE ID: rsvp_invite_already_going
+TEXT: Trainer is already planning on attending this battle.
+
+RESOURCE ID: rsvp_invite_does_not_meet_level_requirements
+TEXT: Trainer does not meet level requirements.
+
 RESOURCE ID: rsvp_invite_friends
 TEXT: 프렌드를 초대
 
 RESOURCE ID: rsvp_reminder_min
-TEXT: min
+TEXT:  min
 
 RESOURCE ID: rsvp_reminder_notification_gmax_generic_join
 TEXT: <b>맥스배틀 시작!</b> 트레이너 {0}명과 참가!
@@ -91107,6 +91495,12 @@ TEXT: 루비
 
 RESOURCE ID: russian
 TEXT: Русский
+
+RESOURCE ID: s18_catch_mastery_makegood_tr_kabuto
+TEXT: 화석의 만남: 투구
+
+RESOURCE ID: s18_catch_mastery_makegood_tr_omanyte
+TEXT: 화석의 만남: 암나이트
 
 RESOURCE ID: sa_account_creation_prompt
 TEXT: Niantic Kids 계정이 없습니까?
@@ -92194,6 +92588,75 @@ TEXT: Pokémon GO 시즌9: 별의 소원
 
 RESOURCE ID: season_partner_research_ltd_amazon_gaming
 TEXT: 파트너 리서치-숨겨진 보석: Amazon Prime Gaming
+
+RESOURCE ID: season_pass_april2025_event_duration
+TEXT: 4월 1일 - 5월 6일
+
+RESOURCE ID: season_pass_april2025_track_upgrade_header_description
+TEXT: 프리미엄 리워드를 손에 넣을 수 있고 레벨 100으로 <b>제르네아스</b>와 만날 수 있습니다!
+
+RESOURCE ID: season_pass_april2025_upgrade_description
+TEXT: GO패스 디럭스: 4월을 구매하면 다음 리워드가 해제합니다!
+- 제르네아스와의 만남
+- 반짝반짝 프렌드가 될 수 있는 도구 <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">반짝이 참</a> 1개
+- 기타
+
+RESOURCE ID: season_pass_april2025_upgrade_description_no_additional_legendary
+TEXT: GO패스 디럭스: 4월을 구매하면 다음 리워드가 해제합니다!
+
+- 반짝반짝 프렌드가 될 수 있는 도구 <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">반짝이 참</a> 1개
+- 기타
+
+RESOURCE ID: season_pass_base_track_title_april
+TEXT: GO패스: 4월
+
+RESOURCE ID: season_pass_base_track_title_may
+TEXT: GO패스: 5월
+
+RESOURCE ID: season_pass_bonus_hatch_xp_stardust
+TEXT: 알을 부화햇을 때 받을 수 있는 XP, 별의모래 증가
+
+RESOURCE ID: season_pass_details_link
+TEXT: 자세한 내용은 <a href="https://pokemongolive.com/post/go-pass-test-2025">웹사이트</a>에서 확인해 주세요.
+
+RESOURCE ID: season_pass_may2025_event_duration
+TEXT: 5월 6일 - 6월 3일
+
+RESOURCE ID: season_pass_may2025_track_upgrade_header_description
+TEXT: 프리미엄 리워드를 손에 넣을 수 있고 레벨 100으로 <b>이벨타르</b>와 만날 수 있습니다!
+
+RESOURCE ID: season_pass_may2025_upgrade_description
+TEXT: GO패스 디럭스: 5월을 구매하면 다음 리워드가 해제합니다!
+- 이벨타르와의 만남
+- 반짝반짝 프렌드가 될 수 있는 도구 <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">반짝이 참</a> 1개
+- 기타
+
+RESOURCE ID: season_pass_may2025_upgrade_description_no_additional_legendary
+TEXT: GO패스 디럭스: 5월을 구매하면 다음 리워드가 해제합니다!
+
+- 반짝반짝 프렌드가 될 수 있는 도구 <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">반짝이 참</a> 1개
+- 기타
+
+RESOURCE ID: season_pass_milestone_bonus_title_01
+TEXT: 티어1 GO패스 보너스
+
+RESOURCE ID: season_pass_milestone_bonus_title_02
+TEXT: 티어2 GO패스 보너스
+
+RESOURCE ID: season_pass_milestone_bonus_title_03
+TEXT: 티어3 GO패스 보너스
+
+RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_april
+TEXT: GO패스 디럭스: 4월+10랭크
+
+RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_may
+TEXT: GO패스 디럭스: 5월+10랭크
+
+RESOURCE ID: season_pass_premium_track_title_april
+TEXT: GO패스 디럭스: 4월
+
+RESOURCE ID: season_pass_premium_track_title_may
+TEXT: GO패스 디럭스: 5월
 
 RESOURCE ID: seasonal_delights_box
 TEXT: 윈터 스페셜 박스
@@ -93861,11 +94324,14 @@ TEXT: 온라인 상황 표시 시작
 RESOURCE ID: social_other_friend_add_title
 TEXT: 기타
 
+RESOURCE ID: social_planner_cancel_upcoming_warning
+TEXT: Completing this battle will cancel your upcoming RSVP at this location.
+
 RESOURCE ID: social_planner_cannot_change_active_timeslots_key
-TEXT: Unable to change time slot as no time slots are available
+TEXT: Unable to change because no other time slots are available.
 
 RESOURCE ID: social_planner_conflict_disclaimer_text_key
-TEXT: You have a time conflict.
+TEXT: You have a schedule conflict.
 
 RESOURCE ID: social_planner_detail_other_trainers
 TEXT: 기타 {0}명
@@ -93878,6 +94344,9 @@ TEXT: 일정 예약 상한 수에 도달했습니다.
 
 RESOURCE ID: social_planner_error_rsvp_missing
 TEXT: 에러 발생. 일정을 찾을 수 없습니다.
+
+RESOURCE ID: social_planner_error_sending_invites_key
+TEXT: Could not send invite to one or more friends.
 
 RESOURCE ID: social_planner_error_timeslot_passed
 TEXT: 이 시간 틀에는 없습니다.
@@ -93898,7 +94367,7 @@ RESOURCE ID: social_planner_leave_rsvp_text_key
 TEXT: 삭제한다
 
 RESOURCE ID: social_planner_no_more_timeslots_key
-TEXT: No more available timeslots.
+TEXT: No more available time slots.
 
 RESOURCE ID: social_planner_rsvp_friends_list_empty
 TEXT: 친구리스트 없음
@@ -93916,7 +94385,7 @@ RESOURCE ID: social_planner_rsvp_invite_sent_confirmation
 TEXT: 초대장을 보냈습니다!
 
 RESOURCE ID: social_planner_rsvp_local_only_disclaimer
-TEXT: You'll need to be nearby to defeat this Raid Boss.
+TEXT: You’ll need to be nearby to defeat this Raid Boss.
 
 RESOURCE ID: social_planner_rsvp_maybe_count
 TEXT: {0}명 미정
@@ -93926,6 +94395,9 @@ TEXT: 미정
 
 RESOURCE ID: social_planner_rsvp_not_going_text_key
 TEXT: 불참
+
+RESOURCE ID: social_planner_select_another_time
+TEXT: SELECT ANOTHER TIME
 
 RESOURCE ID: social_planner_time_conflict_disclaimer_title_key
 TEXT: 일정이 겹침
@@ -93941,6 +94413,9 @@ TEXT: {0}님 참가
 
 RESOURCE ID: social_planner_timetable_gui_title_key
 TEXT: 시간 선택
+
+RESOURCE ID: social_planner_view_in_map
+TEXT: View in Map
 
 RESOURCE ID: social_player_level_too_low
 TEXT: 친구 기능은 현재 레벨 {0} 이상의 트레이너만 접속 가능합니다. 모든 트레이너에게 공개되기까지 잠시 기다려 주세요.
@@ -96381,6 +96856,31 @@ TEXT: 아무래도 네가 마음에 들었나 봐. 함께 강해질 수 있는 �
 RESOURCE ID: story_mightandmastery_1_4
 TEXT: 함께 모험하면서 치고마의 잠재력을 최대한 끌어올려 줘!
 
+RESOURCE ID: story_mightandmastery_2_0
+TEXT: %PLAYERNAME%! 치고마이 트레이닝은 순조롭니?
+
+RESOURCE ID: story_mightandmastery_2_1
+TEXT: 마음, 몸, 기술을 연마하는 트레이닝은 고생스럽지만 점점 엄청난 달인이 될지도 몰라.
+
+RESOURCE ID: story_mightandmastery_2_3
+TEXT: 달인이라고 하니 치고마의 강점과 약점을 파악했니?
+
+RESOURCE ID: story_mightandmastery_2_4
+TEXT: 다음 트레이닝을 끝내고 이야기 하자.
+
+
+RESOURCE ID: story_mightandmastery_3_0
+TEXT: 어서 와, %PLAYERNAME%. 치고마의 강점과 약점에 대해 정리해 볼까.
+
+RESOURCE ID: story_mightandmastery_3_1
+TEXT: 치고마같은 격투타입 포켓몬은 노말, 얼음, 바위, 악, 강철타입에 강해
+
+RESOURCE ID: story_mightandmastery_3_2
+TEXT: 비행, 에스퍼, 페어리타입 공격에는 약해.
+
+RESOURCE ID: story_mightandmastery_3_3
+TEXT: 네 치고마는 그것들을 고려해서 강화한 것 같구나. 계속해서 잘해 봐!
+
 RESOURCE ID: story_quest_cosmog_sol23_0
 TEXT: 빛나는 성운(1/4)
 
@@ -97649,6 +98149,21 @@ Pokémon GO 와일드 에리어 티켓을 가지고 있다면 프리미엄 시�
 RESOURCE ID: strong_encounter_tutorial_title
 TEXT: GO사파리볼을 사용해 보세요!
 
+RESOURCE ID: stunning_styles_event_name
+TEXT: 유니크 스타일
+
+RESOURCE ID: stunning_styles_free_tr_name
+TEXT: 유니크 스타일 시간제한 리서치
+
+RESOURCE ID: stunning_styles_paid_tr_name
+TEXT: 유니크 스타일 프리미엄 시간제한 리서치
+
+RESOURCE ID: stunning_styles_paid_tr_name_1
+TEXT: 유니크 스타일 프리미엄 시간제한 리서치(1/2)
+
+RESOURCE ID: stunning_styles_paid_tr_name_2
+TEXT: 유니크 스타일 프리미엄 시간제한 리서치(2/2)
+
 RESOURCE ID: style_shop
 TEXT: 자세히 보기
 
@@ -97884,6 +98399,9 @@ TEXT: 이전과 동일하게
 RESOURCE ID: team_picker_load
 TEXT: 불러내기
 
+RESOURCE ID: team_picker_no_mega_in_max_warning
+TEXT: Your current party cannot join the battle because it includes a Mega-Evolved Pokémon.
+
 RESOURCE ID: team_picker_optimize
 TEXT: 자동선택
 
@@ -98025,6 +98543,14 @@ TEXT: <b>받을 수 있는 것:</b>
 - 달콤아와 그 진화형 포켓몬과의 만남
 - 이상한사탕, 하이퍼볼 등의 도구
 
+RESOURCE ID: text_rewards_key_bugout0325
+TEXT: <b>받을 수 있는 리워드:</b>
+- 스라크, 볼비트, 네오비트, 에블리, 태우지네, 사마자르, 콩알뚜기와의 만남
+- 프리미엄 레이드패스 2개
+- 루어모듈 1개
+- 별의모래 6,000개
+- 12,000XP 등
+
 RESOURCE ID: text_rewards_key_catch_mastery_archen
 TEXT: <b>받을 수 있는 리워드:</b>
 - 아켄과의 만남 40회
@@ -98156,6 +98682,11 @@ TEXT: <b>받을 수 있는 리워드:</b>
 - 별의모래 2,000개
 
 시간제한 리서치 등의 과제를 완료하고 만나는 치갈기는 색이 다를 확률이 높습니다.
+
+RESOURCE ID: text_rewards_key_fuzzyrd2024
+TEXT: 현지시간 2025년 3월 29일 14시~17시에 필드리서치를 진행함에 따라 깜지곰, 코고미, 판짱, 포곰곰 중 선택해서 만날 수 있는 시간제한 리서치입니다.
+
+색이 다른 포켓몬을 포함합니다.(시간제한 리서치 완료로 만날 수 있는 색이 다른 포켓몬과 같은 확률)
 
 RESOURCE ID: text_rewards_key_gblaug24
 TEXT: GO배틀리그에서 활약하는 포켓몬을 잡을 수 있는 티켓.
@@ -98471,6 +99002,12 @@ TEXT: <b>받을 수 있는 리워드:</b>
 - 레이드배틀에서 받을 수 있는 이상한사탕XL의 확률 증가 
 - 레이드배틀 승리 시 받을 수 있는 XP 50% 증가와 별의모래 2배 등
 
+RESOURCE ID: text_rewards_key_megaaudinoraidday
+TEXT: <b>받을 수 있는 것:</b>
+- 체육관 포토 디스크를 돌려 추가 레이드패스 8개
+- 레이드배틀에서 받을 수 있는 이상한사탕XL의 확률 증가 
+- 레이드배틀 승리 시 받을 수 있는 XP 50% 증가와 별의모래 2배 등
+
 RESOURCE ID: text_rewards_key_megagalladeraidday
 TEXT: <b>받을 수 있는 것:</b>
 - 체육관 포토 디스크를 돌려 추가 레이드패스 8개
@@ -98652,6 +99189,15 @@ TEXT: <b>받을 수 있는 리워드:</b>
 - 대단한 기술머신스페셜 1개
 - 별의모래 20,000
 - 5,000XP 등
+
+RESOURCE ID: text_rewards_key_stunning_styles
+TEXT: <b>받을 수 있는 리워드:</b>
+- 깝질무(서쪽바다), 깝질무(동쪽바다), 냐스퍼와의 만남
+- 프리미엄 배틀패스 4개
+- 행복의알 1개
+- 별의조각 1개
+- 6,000XP와 별의모래 3,000개
+- 기타
 
 RESOURCE ID: text_rewards_key_takeovermarch24
 TEXT: <b>받을 수 있는 리워드:</b>
@@ -99643,7 +100189,7 @@ RESOURCE ID: titan_ar_mapping_scan_cautiuosly_title
 TEXT: Scan Cautiously
 
 RESOURCE ID: titan_ar_mapping_warning_too_dark
-TEXT: Too dark. Ensure your camera is unobstructed and there is adequate lighting.
+TEXT: 너무 어둡습니다. 밝기를 조정해 주세요.
 
 RESOURCE ID: titan_ar_mapping_warning_too_fast
 TEXT: Too fast. Move slowly around the PokéStop.
@@ -99673,7 +100219,7 @@ RESOURCE ID: titan_image_gallery_too_far_add_photo
 TEXT: Walk closer to add a photo to this PokéStop.
 
 RESOURCE ID: titan_image_gallery_too_far_scanning
-TEXT: Walk closer to scan this PokéStop.
+TEXT: 포켓스톱이 너무 멀리 있습니다
 
 RESOURCE ID: titan_poi_ar_data_agree_button
 TEXT: OK
@@ -99798,10 +100344,10 @@ RESOURCE ID: titan_scan_validation_failure_reason_title
 TEXT: 스캔 실패
 
 RESOURCE ID: titan_scan_validation_failure_reason_too_dark
-TEXT: Too dark. Please scan again, ensuring your camera is unobstructed and there is adequate lighting.
+TEXT: 카메라를 방해하는 것이 없는지 확인하고 조명을 확보한 후 다시 스캔을 시도해 주세요.
 
 RESOURCE ID: titan_scan_validation_failure_reason_too_fast
-TEXT: Too fast. Please scan again, ensuring you move slowly around the PokéStop.
+TEXT: 포켓스톱 주변을 천천히 걸어 다시 스캔을 해주십시오.
 
 RESOURCE ID: titan_scan_validation_failure_reason_too_slow
 TEXT: 이동을 감지 못했습니다. 포켓스톱 주변을 천천히 걸어 다시 스캔을 해주십시오.
@@ -100411,6 +100957,9 @@ TEXT: 시간제한 리서치: 부드러운 햇빛
 
 RESOURCE ID: tr_gofest2024_earlybird2
 TEXT: 시간제한 리서치: 날카로운 달빛
+
+RESOURCE ID: tr_gofest2025_global_earlybird
+TEXT: GO Fest 2025: Early Bird Timed Research
 
 RESOURCE ID: tr_gowa2024_global_daily_electric
 TEXT: 와일드 에리어를 넘어서: 일렉트릭 엑스퍼트 시간제한 리서치
