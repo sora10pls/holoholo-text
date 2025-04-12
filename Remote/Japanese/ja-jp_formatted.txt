@@ -38,10 +38,10 @@ RESOURCE ID: became_friends_prompt
 TEXT: {0}さんとフレンドになった！
 
 RESOURCE ID: behemoth_bash_adventure_effect_battle_log
-TEXT: YOUR POKÉMON’S DEFENSE IS BOOSTED BY BEHEMOTH BASH’S ADVENTURE EFFECT!
+TEXT: きょじゅうだんのフィールド効果でぼうぎょ力がアップします！
 
 RESOURCE ID: behemoth_blade_adventure_effect_battle_log
-TEXT: YOUR POKÉMON’S ATTACKS ARE BOOSTED BY BEHEMOTH BLADE’S ADVENTURE EFFECT!
+TEXT: きょじゅうざんのフィールド効果でこうげき力がアップします！
 
 RESOURCE ID: bonus_event_stamp_rally
 TEXT: GOスタンプラリー開催
@@ -140,7 +140,7 @@ RESOURCE ID: bread_remote_use_rrp_confirmation
 TEXT: 今日あと{0}回マックスバトルに参加できます。マックス粒子はバトル勝利時に使われ、リモートレイドパスはバトル開始時に使われます。
 
 RESOURCE ID: bread_station_failure_description_cannot_station
-TEXT: {0} cannot be placed at Power Spots.
+TEXT: {0}をパワースポットに配置することはできません
 
 RESOURCE ID: bread_station_tutorial_message_6
 TEXT: リモートレイドパスとマックス粒子を使うと、離れた場所からマックスバトルに参加できます。
@@ -290,7 +290,7 @@ RESOURCE ID: expo_2025_event_overlay_title
 TEXT: EXPO2025
 
 RESOURCE ID: form_change_raid_toast
-TEXT: {0} reverted to its {1} form.
+TEXT: {0}は{1}のすがたに戻りました
 
 RESOURCE ID: form_deoxys_attack
 TEXT: アタックフォルム
@@ -378,6 +378,9 @@ TEXT: メガタブンネレイド・デイチケット
 
 RESOURCE ID: general2.ticket._stunning_styles_ticket_title
 TEXT: ユニークスタイルプレミアムタイムチャレンジチケット
+
+RESOURCE ID: general_settings_allow_stamp_from_gifts
+TEXT:  
 
 RESOURCE ID: gmax_snorlax_lead_up_timed_research
 TEXT: カビゴン（キョダイマックス）マックスバトルデイ直前タイムチャレンジ
@@ -522,10 +525,10 @@ RESOURCE ID: item_postcard_inventory_desc_stamp
 TEXT: ポストカードとスタンプを貼って自分やフレンドの思い出を残しておける手帳。
 
 RESOURCE ID: item_resource_crowned_zacian_name
-TEXT: Crowned Sword Energy
+TEXT: ソードエナジー
 
 RESOURCE ID: item_resource_crowned_zamazenta_name
-TEXT: Crowned Shield Energy
+TEXT: シールドエナジー
 
 RESOURCE ID: items_picked_up
 TEXT: 何かを拾った！
@@ -816,46 +819,46 @@ RESOURCE ID: mega_audino_tr_april_2025_title
 TEXT: メガタブンネレイド・デイタイムチャレンジ
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-04-11T23:10:06.582546+00:00 for ja-JP
-at SHA 25280f742eb
-Pipeline 3151056, job 39587955
-Patch from: 0.355.0-SHA-386e061f-RC4, 0.357.0-SHA-a266da41-RC5
+TEXT: Built at 2025-04-12T20:04:14.896548+00:00 for ja-JP
+at SHA d4085b14334
+Pipeline 3152312, job 39602568
+Patch from: 0.355.1-SHA-cc3986f8-RC1, 0.357.0-SHA-0d984c0a-RC6, 0.359.0-SHA-90f8e6a0-RC1
 
 RESOURCE ID: mlb_key
 TEXT: MLB
 
 RESOURCE ID: move_name_0469
-TEXT: Behemoth Blade
+TEXT: きょじゅうざん
 
 RESOURCE ID: move_name_0470
-TEXT: Behemoth Bash
+TEXT: きょじゅうだん
 
 RESOURCE ID: move_name_0471
 TEXT: はやてがえし
 
 RESOURCE ID: move_name_0473
-TEXT: Guard
+TEXT: ウォール
 
 RESOURCE ID: move_name_0474
-TEXT: Spirit
+TEXT: リカバリー
 
 RESOURCE ID: move_name_0475
-TEXT: Guard
+TEXT: ウォール
 
 RESOURCE ID: move_name_0476
-TEXT: Spirit
+TEXT: リカバリー
 
 RESOURCE ID: move_name_0477
-TEXT: Guard
+TEXT: ウォール
 
 RESOURCE ID: move_name_0478
-TEXT: Spirit
+TEXT: リカバリー
 
 RESOURCE ID: move_name_0479
-TEXT: Behemoth Blade
+TEXT: きょじゅうざん
 
 RESOURCE ID: move_name_0480
-TEXT: Behemoth Bash
+TEXT: きょじゅうだん
 
 RESOURCE ID: mp_explore_quarter
 TEXT: 1/4　マックス粒子の集まる距離
@@ -903,25 +906,28 @@ RESOURCE ID: pokemon_caught_stamp_rally
 TEXT: スタンプラリーで捕まえた
 
 RESOURCE ID: pokemon_info_evolve_need_bread_move
-TEXT: Need {0} level {1}.
+TEXT: {0}(レベル{1})が必要です
 
 RESOURCE ID: pokemon_info_evolve_need_cinematic_move
-TEXT: Must know Charged Attack {0} to change form
+TEXT: フォルムチェンジにはスペシャルアタックの{0}を覚えている必要がある
 
 RESOURCE ID: pokemon_info_evolve_need_quick_move
-TEXT: Must know Fast Attack {0} to change form
+TEXT: フォルムチェンジにはノーマルアタックの{0}を覚えている必要がある
 
 RESOURCE ID: pokemon_info_form_change_confirmation
-TEXT: Do you want to change {0} from its {1} form to its {2} Form?
+TEXT: 以下のようにすがたを変えますか？
+{0}：
+{1}→
+{2}
 
 RESOURCE ID: pokemon_info_pokecoin_label
 TEXT: ポケコイン
 
 RESOURCE ID: pokemon_species_form_0888_2576
-TEXT: Crowned Sword Zacian
+TEXT: ザシアン（けんのおう）
 
 RESOURCE ID: pokemon_species_form_0889_2578
-TEXT: Crowned Shield Zamazenta
+TEXT: ザマゼンタ（たてのおう）
 
 RESOURCE ID: quest_battle_team_rocket
 TEXT: ミッション：GOロケット団員に{0}回勝つ
@@ -1438,7 +1444,7 @@ RESOURCE ID: title_event_pass_weekly_bonus_quest
 TEXT: ウィークリータスク
 
 RESOURCE ID: tm_cannot_unlearn
-TEXT: {0} cannot forget {1}.
+TEXT: {0}に{1}を忘れさせることはできません
 
 RESOURCE ID: tr_gofest2025_global_earlybird
 TEXT: GOフェスト2025先行タイムチャレンジ
@@ -1495,10 +1501,10 @@ RESOURCE ID: tyrogue_hatch_tr_name
 TEXT: バルキーふかの日プレミアムタイムチャレンジ
 
 RESOURCE ID: upgrade_description_zacian
-TEXT: This Pokémon can change forms with Sword Energy, and if they know the Charged Attack Iron Head. You can get Sword Energy by defeating Crowned Form Zacian in Raids.
+TEXT: このポケモンはアイアンヘッドを覚えているとソードエナジーを使ってすがたを変えることができます。ソードエナジーはレイドでザシアン（けんのおう）を倒すと入手できます。
 
 RESOURCE ID: upgrade_description_zamazenta
-TEXT: This Pokémon can change forms with Shield Energy, and if they know the Charged Attack Iron Head. You can get Shield Energy by defeating Crowned Form Zamazenta in Raids.
+TEXT: このポケモンはアイアンヘッドを覚えているとシールドエナジーを使ってすがたを変えることができます。シールドエナジーはレイドでザマゼンタ（たてのおう）を倒すと入手できます。
 
 RESOURCE ID: use_behemoth_bash_effect
 TEXT: Pokémon defense increased in Raids and Max Battles
