@@ -62,53 +62,56 @@ RESOURCE ID: bread_battle_bread_countdown_special
 TEXT: {0}...
 
 RESOURCE ID: bread_battle_reward_bonus_title
-TEXT: + In-Person Bonus
+TEXT: + Bonus dal vivo
 
 RESOURCE ID: bread_battle_reward_bonus_update
-TEXT: {0} Bonus
+TEXT: {0} bonus
 
 RESOURCE ID: bread_lobby_error_friend_details_unavailable
-TEXT: Something went wrong when sending this invite. Please try again.
+TEXT: Si è verificato un errore durante l’invio di questo invito. Riprova.
 
 RESOURCE ID: bread_lobby_error_no_remote_slots_remaining
-TEXT: The maximum number of remote players has been reached.
+TEXT: È stato raggiunto il numero massimo di giocatori a distanza.
 
 RESOURCE ID: bread_lobby_error_no_remote_ticket
-TEXT: Uh-oh! You’re out of Remote Raid Passes.
+TEXT: Oh, oh... Non hai più biglietti raid.
 
 RESOURCE ID: bread_mp_for_remote_battle_lobby
-TEXT: Use {0} MP and
-a Remote Raid Pass
+TEXT: Usa {0} PD e
+un biglietto raid da remoto
 
 RESOURCE ID: bread_remote_iap_mp_rrp_replenish_description
-TEXT: You need a Remote Raid Pass and Max Particles to join this battle.
+TEXT: Hai bisogno di un biglietto raid da remoto e particelle Dynamax per partecipare a questa lotta.
 
 RESOURCE ID: bread_remote_iap_mp_rrp_replenish_title
-TEXT: You’re out of Remote Raid Passes and Max Particles
+TEXT: Hai esaurito i biglietti raid da remoto e le particelle Dynamax
 
 RESOURCE ID: bread_remote_invite_in_game_notification
-TEXT: {0} invited you to a Max Battle!
+TEXT: {0} ti ha invitato a partecipare a una Lotta Dynamax!
 
 RESOURCE ID: bread_remote_tutorial_message_0
-TEXT: You’re viewing a Max Battle that is far away. You can join the battle remotely by using a Remote Raid Pass and Max Particles.
+TEXT: Questa Lotta Dynamax è distante da dove ti trovi. Puoi partecipare da remoto usando un biglietto raid da remoto e Particelle Dynamax.
 
 RESOURCE ID: bread_remote_tutorial_title_0
-TEXT: Remote Max Battles are here!
+TEXT: Sono arrivate le Lotte Dynamax da remoto!
+
+RESOURCE ID: bread_remote_use_rrp_confirmation
+TEXT: Puoi unirti a {0} Lotte Dynamax oggi. Le particelle Dynamax vengono utilizzate solo se vinci. Verrà utilizzato un biglietto raid da remoto all’inizio della lotta.
 
 RESOURCE ID: bread_station_failure_description_cannot_station
 TEXT: {0} cannot be placed at Power Spots.
 
 RESOURCE ID: bread_station_tutorial_message_6
-TEXT: You can participate in Max Battles remotely by using a Remote Raid Pass and Max Particles.
+TEXT: Puoi partecipare a Lotte Dynamax da remoto usando un biglietto raid da remoto e particelle Dynamax.
 
 RESOURCE ID: bread_station_tutorial_message_7
-TEXT: Winning a Max Battle in person grants additional rewards.
+TEXT: Vincere una Lotta Dynamax di persona offre ricompense aggiuntive.
 
 RESOURCE ID: bread_station_tutorial_title_6
-TEXT: Remote Max Battles
+TEXT: Lotte Dynamax da remoto
 
 RESOURCE ID: bread_station_tutorial_title_7
-TEXT: In-Person Bonus
+TEXT: Bonus dal vivo
 
 RESOURCE ID: childrens_day_2025_bonus
 TEXT: Bonus dell’evento “Magia della giornata dei bambini”
@@ -205,7 +208,7 @@ RESOURCE ID: form_single_strike
 TEXT: Stile Singolcolpo
 
 RESOURCE ID: friend_is_at_a_max_battle
-TEXT: Has joined a <b>{0}</b> battle
+TEXT: Sta partecipando a una lotta contro <b>{0}</b>
 
 RESOURCE ID: general1.ticket.5_gmaxsnorlax25_title
 TEXT: Biglietto per la giornata Lotte Dynamax dedicata a Snorlax Gigamax
@@ -488,10 +491,10 @@ RESOURCE ID: mega_kangaskhan_tr_may_2025_title
 TEXT: Ricerca a tempo del giorno di raid dedicato a MegaKangaskhan
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-04-17T19:51:42.648413+00:00 for it-IT
-at SHA c55fbc87f6f
-Pipeline 3164230, job 39838790
-Patch from: 0.357.1-SHA-8a2f6ed9-RC1, 0.359.0-SHA-90f8e6a0-RC1
+TEXT: Built at 2025-04-18T22:44:35.858510+00:00 for it-IT
+at SHA cd43b16a712
+Pipeline 3167317, job 39905559
+Patch from: 0.357.2-SHA-a402bc82-RC1, 0.359.0-SHA-90f8e6a0-RC1
 
 RESOURCE ID: mlb_key
 TEXT: MLB
@@ -533,14 +536,14 @@ RESOURCE ID: mp_explore_quarter
 TEXT: Distanza percorsa per guadagnare particelle Dynamax ridotta di tre quarti
 
 RESOURCE ID: mp_replenish_rrp.1_title
-TEXT: 1 Remote Raid Pass
-1 Max Particle Pack
-({0} MP)
+TEXT: 1 biglietto raid da remoto
+1 pacco particelle Dynamax
+({0} PD)
 
 RESOURCE ID: mp_replenish_rrp.3_title
-TEXT: 3 Remote Raid Passes
-3 Max Particle Packs
-({0} MP)
+TEXT: 3 biglietti raid da remoto
+3 pacchi particelle Dynamax
+({0} PD)
 
 RESOURCE ID: name_sharing_preference_friends
 TEXT: Solo Amici
@@ -559,6 +562,12 @@ TEXT: Unisciti a {0} Allenatori in un raid che sta per iniziare nelle vicinanze!
 
 RESOURCE ID: nearby_rsvp_notification_raid_key_singular
 TEXT: Unisciti a un raid che sta per iniziare nelle vicinanze!
+
+RESOURCE ID: notification_candy_found_plural
+TEXT: Found {0} {1} Candy!
+
+RESOURCE ID: notification_candy_found_singular
+TEXT: Found 1 {0} Candy!
 
 RESOURCE ID: photobomb_five_vanillite
 TEXT: Cinque incontri a sorpresa con Vanillite in modalità foto GO
@@ -651,7 +660,7 @@ RESOURCE ID: raid_hour_rare_xl_candy_bonus
 TEXT: Una Caramella Rara L garantita per la cattura di boss dei raid di livello cinque durante l’ora dei raid (Allenatori dal livello 31 in su)
 
 RESOURCE ID: raid_s_pass_daily_limit_temp
-TEXT: You’ve reached your daily limit of Remote Max Battles and Remote Raids. Walk closer to join in person.
+TEXT: Hai raggiunto il tuo limite giornaliero di Lotte Dynamax da remoto e raid da remoto. Avvicinati per partecipare di persona.
 
 RESOURCE ID: rally_expo_2025_desc
 TEXT: Un’esclusiva collezione di timbri GO disponibile solo all’Expo 2025 a Osaka, in Giappone.
@@ -678,10 +687,10 @@ RESOURCE ID: reactivate_button
 TEXT: RIPRENDI
 
 RESOURCE ID: remote_bread_battle_invite_sent_confirmation
-TEXT: Remote Max Battle Invites Have Been Sent
+TEXT: Invites sent!
 
 RESOURCE ID: remote_max_battle_invite_push_notif
-TEXT: A friend invited you to a Max Battle!
+TEXT: Un amico ti ha invitato a partecipare a una Lotta Dynamax!
 
 RESOURCE ID: rsvp_attendance_preference_title
 TEXT: Condividi RSVP con:
@@ -707,13 +716,13 @@ RESOURCE ID: season_pass_track_upgrade_header_description_50
 TEXT: Ottieni ricompense aggiuntive e sblocca un <b>Portafortuna</b> al livello 50!
 
 RESOURCE ID: sent_friend_error_info_plural_temp
-TEXT: {0} friends have already met their daily limit of Remote Max Battles and Remote Raids. You can invite more friends!
+TEXT: {0} amici hanno già raggiunto il limite giornaliero di Lotte Dynamax da remoto e raid da remoto. Puoi invitare altri amici!
 
 RESOURCE ID: sent_friend_error_info_singular_temp
-TEXT: A friend has already met their daily limit of Remote Max Battles and Remote Raids. You can invite another friend!
+TEXT: Uno dei tuoi amici ha già raggiunto il limite giornaliero di Lotte Dynamax da remoto e raid da remoto. Puoi invitare un altro amico!
 
 RESOURCE ID: sent_friend_error_toast_temp
-TEXT: Trainer has reached their daily limit of Remote Max Battles and Remote Raids.
+TEXT: Questo Allenatore ha raggiunto il suo limite giornaliero di Lotte Dynamax da remoto e raid da remoto.
 
 RESOURCE ID: snorlax_gmax_tr_2025_title
 TEXT: Ricerca a tempo premium dedicata a Snorlax Gigamax
@@ -752,10 +761,10 @@ RESOURCE ID: spring_into_spring_apr2025_cc_sun
 TEXT: Sfida di collezione “Giornate di Sole” dell’evento “Profumo di primavera”
 
 RESOURCE ID: squash_confirmation_plural_temp
-TEXT: You can join {0} more Remote Max Battles or Remote Raids today. A Remote Raid Pass will be used when the battle starts.
+TEXT: Puoi unirti a {0} Lotte Dynamax da remoto o raid da remoto oggi. Verrà utilizzato un biglietto raid da remoto all’inizio della lotta.
 
 RESOURCE ID: squash_confirmation_singular_temp
-TEXT: You can join one more Remote Max Battle or Remote Raid today. A Remote Raid Pass will be used when the battle starts.
+TEXT: Puoi unirti a un’altra Lotta Dynamax da remoto o raid da remoto oggi. Verrà utilizzato un biglietto raid da remoto all’inizio della lotta.
 
 RESOURCE ID: stamp_info_banner
 TEXT: DETTAGLI SULLA COLLEZIONE
@@ -885,7 +894,7 @@ TEXT: <b>Le ricompense includono:</b>
 • Incontri con Delibird, Bidoof, Cherubi, Munna, Bounsweet, Komala, Skwovet e Applin
 • Due moduli esca silvestri
 
-I Cherubi e i Komala che incontrerai come ricompensa di questa ricerca e di tutte le altre missioni di ricerca hanno più probabilità di essere cromatici!
+I Delibird e gli Skwovet che incontrerai come ricompensa di questa ricerca e di tutte le altre missioni di ricerca hanno più probabilità di essere cromatici!
 
 RESOURCE ID: text_rewards_key_tyrogue0425
 TEXT: <b>Le ricompense includono:</b>

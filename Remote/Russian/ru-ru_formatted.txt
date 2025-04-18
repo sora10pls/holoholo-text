@@ -2,7 +2,7 @@ RESOURCE ID: age_confirm_fail
 TEXT: К сожалению, твой возраст не соответствует <a href="https://niantic.helpshift.com/hc/faq/4996-i-cannot-login-and-message-shows-sorry-you-do-not-meet-the-age-requirement-to-login-with-this-type-of-account/">требованиям</a>, необходимым для входа с данным типом аккаунта, и твой аккаунт будет удалён в соответствии с нашими Условиями предоставления услуг. Если ты считаешь, что данные соответствуют требованиям, свяжись с нами.
 
 RESOURCE ID: ambassador_trainer_nameplate
-TEXT: Wild Visitor
+TEXT: Неожиданный Гость
 
 RESOURCE ID: april_fool_pokeball_tappable_event
 TEXT: Что Это за Поке-Болл?
@@ -62,53 +62,56 @@ RESOURCE ID: bread_battle_bread_countdown_special
 TEXT: {0}...
 
 RESOURCE ID: bread_battle_reward_bonus_title
-TEXT: + In-Person Bonus
+TEXT: + Бонус за Местные Рейды
 
 RESOURCE ID: bread_battle_reward_bonus_update
-TEXT: {0} Bonus
+TEXT: Бонус: {0}
 
 RESOURCE ID: bread_lobby_error_friend_details_unavailable
-TEXT: Something went wrong when sending this invite. Please try again.
+TEXT: Произошла ошибка при отправке приглашения. Попробуй ещё раз.
 
 RESOURCE ID: bread_lobby_error_no_remote_slots_remaining
-TEXT: The maximum number of remote players has been reached.
+TEXT: Достигнуто максимальное количество удалённых игроков.
 
 RESOURCE ID: bread_lobby_error_no_remote_ticket
-TEXT: Uh-oh! You’re out of Remote Raid Passes.
+TEXT: Ой! У тебя закончились Пропуска на Удалённые Рейды.
 
 RESOURCE ID: bread_mp_for_remote_battle_lobby
-TEXT: Use {0} MP and
-a Remote Raid Pass
+TEXT: Использовать {0} ЧМ и
+Пропуск на Удалённый Рейд
 
 RESOURCE ID: bread_remote_iap_mp_rrp_replenish_description
-TEXT: You need a Remote Raid Pass and Max Particles to join this battle.
+TEXT: Тебе нужен Пропуск на Удалённый Рейд и Частицы Макс, чтобы присоединиться к этой битве.
 
 RESOURCE ID: bread_remote_iap_mp_rrp_replenish_title
-TEXT: You’re out of Remote Raid Passes and Max Particles
+TEXT: У тебя закончились Пропуска на Удалённые Рейды и Частицы Макс
 
 RESOURCE ID: bread_remote_invite_in_game_notification
-TEXT: {0} invited you to a Max Battle!
+TEXT: Получено приглашение на Битву Макс от {0}!
 
 RESOURCE ID: bread_remote_tutorial_message_0
-TEXT: You’re viewing a Max Battle that is far away. You can join the battle remotely by using a Remote Raid Pass and Max Particles.
+TEXT: Ты просматриваешь Битву Макс, которая находится на очень большом расстоянии. Ты можешь присоединиться к ней удалённо, используя Пропуск на Удалённый Рейд и Частицы Макс.
 
 RESOURCE ID: bread_remote_tutorial_title_0
-TEXT: Remote Max Battles are here!
+TEXT: Удалённые Битвы Макс уже здесь!
+
+RESOURCE ID: bread_remote_use_rrp_confirmation
+TEXT: Ты можешь присоединиться ещё к {0} Битвам Макс сегодня. Частицы Макс будут использованы, только если ты выиграешь. В начале битвы будет использован Пропуск на Удалённый Рейд.
 
 RESOURCE ID: bread_station_failure_description_cannot_station
 TEXT: {0} cannot be placed at Power Spots.
 
 RESOURCE ID: bread_station_tutorial_message_6
-TEXT: You can participate in Max Battles remotely by using a Remote Raid Pass and Max Particles.
+TEXT: Ты можешь участвовать в Битвах Макс удалённо, используя Пропуск на Удалённый Рейд и Частицы Макс.
 
 RESOURCE ID: bread_station_tutorial_message_7
-TEXT: Winning a Max Battle in person grants additional rewards.
+TEXT: Победа в местной Битве Макс позволяет получить дополнительные награды.
 
 RESOURCE ID: bread_station_tutorial_title_6
-TEXT: Remote Max Battles
+TEXT: Удалённые Битвы Макс
 
 RESOURCE ID: bread_station_tutorial_title_7
-TEXT: In-Person Bonus
+TEXT: Бонус за Местные Рейды
 
 RESOURCE ID: childrens_day_2025_bonus
 TEXT: Бонус события Волшебство Дня Защиты Детей
@@ -142,6 +145,9 @@ TEXT: Квест на Время Выходные Битв Макс: Динам�
 
 RESOURCE ID: event_datetime_range_key_cd_vanillite25
 TEXT: 27 апреля, 14:00 – 17:00
+
+RESOURCE ID: event_datetime_range_key_fuzzyrd2024
+TEXT: 29 марта, 14:00 – 17:00
 
 RESOURCE ID: event_datetime_range_key_gmaxsnorlax25
 TEXT: 19 апреля, 14:00 – 17:00
@@ -199,7 +205,7 @@ RESOURCE ID: form_single_strike
 TEXT: Стиль Одиночный Удар
 
 RESOURCE ID: friend_is_at_a_max_battle
-TEXT: Has joined a <b>{0}</b> battle
+TEXT: Уже в битве с Покемоном <b>{0}</b>
 
 RESOURCE ID: general1.ticket.5_gmaxsnorlax25_title
 TEXT: Билет: День Битв Макс: Гигантамакс-Снорлакс
@@ -259,7 +265,7 @@ RESOURCE ID: horizons_free_tr_name
 TEXT: Квест на Время Праздничное Событие Сериал Покемон: Новые Горизонты
 
 RESOURCE ID: horizons_free_tr_name_1
-TEXT: Квест на Время Праздничное Событие Сериал Покемон: Новые Горизонты (1/4) 
+TEXT: Квест на Время Праздничное Событие Сериал Покемон: Новые Горизонты (1/4)
 
 RESOURCE ID: horizons_free_tr_name_2
 TEXT: Квест на Время Праздничное Событие Сериал Покемон: Новые Горизонты (2/4)
@@ -280,7 +286,7 @@ RESOURCE ID: increased_tappable_spawns_mossy_lures
 TEXT: Возле Покестопов с активными Травяными Приманками появляется больше яблок!
 
 RESOURCE ID: iris_social_nameplates_toast
-TEXT: Inspect a Pokémon to learn more about it.
+TEXT: Наведи на Покемона, чтобы узнать о нём больше.
 
 RESOURCE ID: item_description_applin
 TEXT: Используй яблоки, найденные рядом с Покестопами, где активирована Травяная Приманка, чтобы эволюционировать Апплина.
@@ -464,7 +470,7 @@ RESOURCE ID: marshadow_sr_04_01
 TEXT: Я сверил свежие записи исследований с моими старыми заметками и смог найти источник этих загадочных происшествий!
 
 RESOURCE ID: marshadow_sr_04_02
-TEXT: Ощущается чьё-то мощное присутствие, кто-то наблюдает за Тренерами и Покемонами. Судя по данным, он где-то близко. 
+TEXT: Ощущается чьё-то мощное присутствие, кто-то наблюдает за Тренерами и Покемонами. Судя по данным, он где-то близко.
 
 RESOURCE ID: marshadow_sr_04_03
 TEXT: Нам предоставляется возможность масштабных исследований – и ты идеальный Тренер для этого!
@@ -509,10 +515,10 @@ RESOURCE ID: mega_kangaskhan_tr_may_2025_title
 TEXT: Квест на Время Рейдовый День: Мега-Кангасхан
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-04-17T19:51:42.648413+00:00 for ru-RU
-at SHA c55fbc87f6f
-Pipeline 3164230, job 39838790
-Patch from: 0.357.1-SHA-8a2f6ed9-RC1, 0.359.0-SHA-90f8e6a0-RC1
+TEXT: Built at 2025-04-18T22:44:35.858510+00:00 for ru-RU
+at SHA cd43b16a712
+Pipeline 3167317, job 39905559
+Patch from: 0.357.2-SHA-a402bc82-RC1, 0.359.0-SHA-90f8e6a0-RC1
 
 RESOURCE ID: mlb_key
 TEXT: MLB
@@ -554,14 +560,14 @@ RESOURCE ID: mp_explore_quarter
 TEXT: 1/4 расстояния приключений, чтобы заработать Частицы Макс
 
 RESOURCE ID: mp_replenish_rrp.1_title
-TEXT: 1 Remote Raid Pass
-1 Max Particle Pack
-({0} MP)
+TEXT: 1 Пропуск на Удалённый Рейд
+1 Набор Частиц Макс
+({0} ЧМ)
 
 RESOURCE ID: mp_replenish_rrp.3_title
-TEXT: 3 Remote Raid Passes
-3 Max Particle Packs
-({0} MP)
+TEXT: 3 Пропуска на Удалённые Рейды
+3 Набора Частиц Макс
+({0} ЧМ)
 
 RESOURCE ID: nearby_rsvp_notification_max_battle_key
 TEXT: Скоро поблизости начнётся Гигантамакс-битва! Присоединяйся к другим Тренерам: {0}!
@@ -574,6 +580,12 @@ TEXT: Скоро поблизости начнётся рейд! Присоед�
 
 RESOURCE ID: nearby_rsvp_notification_raid_key_singular
 TEXT: Cкоро рядом с тобой начнётся рейд! Присоединяйся!
+
+RESOURCE ID: notification_candy_found_plural
+TEXT: Found {0} {1} Candy!
+
+RESOURCE ID: notification_candy_found_singular
+TEXT: Found 1 {0} Candy!
 
 RESOURCE ID: photobomb_five_vanillite
 TEXT: 5 неожиданных встреч с Ваниллайтом в Стоп-кадре GO
@@ -651,7 +663,7 @@ RESOURCE ID: raid_day_sparring_partners_tr_name
 TEXT: Квест на Время Рейдовый День Спарринг-Партнёры
 
 RESOURCE ID: raid_s_pass_daily_limit_temp
-TEXT: You’ve reached your daily limit of Remote Max Battles and Remote Raids. Walk closer to join in person.
+TEXT: Достигнут максимальный дневной лимит Удалённых Битв Макс и Удалённых Рейдов. Подойди ближе, чтобы участвовать в местном рейде.
 
 RESOURCE ID: rally_expo_2025_desc
 TEXT: Эксклюзивный марафон печатей GO доступен только на EXPO 2025 в Осаке, Кансай, Япония.
@@ -675,10 +687,10 @@ RESOURCE ID: rally_expo_2025_title
 TEXT: Марафон печатей EXPO 2025
 
 RESOURCE ID: remote_bread_battle_invite_sent_confirmation
-TEXT: Remote Max Battle Invites Have Been Sent
+TEXT: Invites sent!
 
 RESOURCE ID: remote_max_battle_invite_push_notif
-TEXT: A friend invited you to a Max Battle!
+TEXT: Получено приглашение на Битву Макс от друга!
 
 RESOURCE ID: rsvp_reminder_notification_gmax_generic_join
 TEXT: <b>Битва макс начинается сейчас!</b> Присоединяйся к другим Тренерам: {1}!
@@ -695,13 +707,13 @@ RESOURCE ID: season_pass_track_upgrade_header_description_50
 TEXT: Заработай дополнительные награды и получи доступ к <b>Удачливой Капсуле</b> в ранге 50!
 
 RESOURCE ID: sent_friend_error_info_plural_temp
-TEXT: {0} friends have already met their daily limit of Remote Max Battles and Remote Raids. You can invite more friends!
+TEXT: Твои друзья ({0}) уже достигли дневного лимита на Удалённые Битвы Макс и Удалённые Рейды. Ты можешь пригласить других друзей!
 
 RESOURCE ID: sent_friend_error_info_singular_temp
-TEXT: A friend has already met their daily limit of Remote Max Battles and Remote Raids. You can invite another friend!
+TEXT: 1 из твоих друзей уже достиг дневного лимита на Удалённые Битвы Макс и Удалённые Рейды. Ты можешь пригласить другого друга!
 
 RESOURCE ID: sent_friend_error_toast_temp
-TEXT: Trainer has reached their daily limit of Remote Max Battles and Remote Raids.
+TEXT: Тренер достиг дневного лимита Удалённых Битв Макс и Удалённых Рейдов.
 
 RESOURCE ID: snorlax_gmax_tr_2025_title
 TEXT: Премиум-Квест на Время Гигантамакс-Снорлакс
@@ -731,10 +743,10 @@ RESOURCE ID: spring_into_spring_apr2025_cc_sun
 TEXT: Коллекционное Испытание Весёлая Весна: Солнечные Дни
 
 RESOURCE ID: squash_confirmation_plural_temp
-TEXT: You can join {0} more Remote Max Battles or Remote Raids today. A Remote Raid Pass will be used when the battle starts.
+TEXT: Ты можешь присоединиться ещё к {0} Удалённым Битвам Макс или Удалённым Рейдам сегодня. В начале битвы будет использован Пропуск на Удалённый Рейд.
 
 RESOURCE ID: squash_confirmation_singular_temp
-TEXT: You can join one more Remote Max Battle or Remote Raid today. A Remote Raid Pass will be used when the battle starts.
+TEXT: Ты можешь присоединиться ещё к 1 Удалённой Битве Макс или Удалённому Рейду сегодня. В начале битвы будет использован Пропуск на Удалённый Рейд.
 
 RESOURCE ID: stamp_info_banner
 TEXT: О МАРАФОНЕ
@@ -762,6 +774,9 @@ TEXT: Пройди по ссылке
 
 RESOURCE ID: stamp_rally_finished_on
 TEXT: Закончился: {0}
+
+RESOURCE ID: stunning_styles_event_name
+TEXT: Изумительные Стили
 
 RESOURCE ID: sweet_discoveries_2025_event_name
 TEXT: Сладкие Открытия
@@ -828,7 +843,7 @@ TEXT: <b>Включает следующие награды:</b>
 • Встречи с Делибёрдом, Бидуфом, Чераби, Мунной, Баунсвит, Комалой, Сквоветом и Апплином
 • 2 Травяные Приманки
 
-Больше шансов встретить Сияющего Чераби и Сияющего Комалу в качестве награды за этот квест и все другие задания полевых квестов!
+Больше шансов встретить Сияющего Делибёрда и Сияющего Сквовета в качестве награды за этот квест и все другие задания полевых квестов!
 
 RESOURCE ID: text_rewards_key_tyrogue0425
 TEXT: <b>Включает следующие награды:</b>
@@ -855,7 +870,7 @@ RESOURCE ID: tr_go_tour_2025_global_tornadus_title
 TEXT: Дополнительный Квест на Время Покемон-Циклон
 
 RESOURCE ID: tr_gofest2025_global_earlybird
-TEXT: Квест на Время Фестиваль GO 2025: Ранняя Покупка
+TEXT: Квест на Время Фестиваль GO 2025: Ранняя Покупка
 
 RESOURCE ID: tr_kr2025_retention_cherryblossom_desc
 TEXT: Квест на Время Испытание Цветущая Вишня
