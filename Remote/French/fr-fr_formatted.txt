@@ -2,7 +2,7 @@ RESOURCE ID: age_confirm_fail
 TEXT: Nous sommes navrés, mais tu ne remplis pas les <a href="https://niantic.helpshift.com/hc/faq/4996-i-cannot-login-and-message-shows-sorry-you-do-not-meet-the-age-requirement-to-login-with-this-type-of-account/">conditions d’âge</a> pour te connecter avec ce type de compte, et ton compte sera supprimé conformément à nos Conditions d’utilisation. Si tu penses être éligible pour te connecter avec ce type de compte, merci de nous contacter.
 
 RESOURCE ID: ambassador_trainer_nameplate
-TEXT: Wild Visitor
+TEXT: Visiteur sauvage
 
 RESOURCE ID: april_fool_pokeball_tappable_event
 TEXT: Quelle est cette Poké Ball ?
@@ -190,6 +190,12 @@ TEXT: Ce Pokémon peut évoluer en trois Pokémon différents en fonction du typ
 RESOURCE ID: expo_2025_event_overlay_title
 TEXT: Pokémon GO à l’EXPO 2025
 
+RESOURCE ID: form_change_move_required
+TEXT: Required to Change Form
+
+RESOURCE ID: form_change_move_reroll_title
+TEXT: To change to its {2} form, {0} must learn {1}
+
 RESOURCE ID: form_change_raid_toast
 TEXT: {0} reverted to its {1} form.
 
@@ -266,7 +272,7 @@ RESOURCE ID: increased_tappable_spawns_mossy_lures
 TEXT: Plus de pommes à proximité des PokéStops équipés d’un Module Leurre Moussu
 
 RESOURCE ID: iris_social_nameplates_toast
-TEXT: Inspect a Pokémon to learn more about it.
+TEXT: Examine un Pokémon pour en apprendre plus sur lui.
 
 RESOURCE ID: item_description_applin
 TEXT: Utilise les pommes trouvées à proximité des PokéStops équipés de Modules Leurre Moussu.
@@ -353,10 +359,22 @@ TEXT: Pomme Nectar
 RESOURCE ID: item_other_evolution_stone_maple_c_name_plural
 TEXT: Pommes Nectar
 
+RESOURCE ID: item_resource_crowned_zacian_desc
+TEXT: Used to form change Zacian to its Crowned Sword form. It can be found when defeating Crowned Sword Zacian in raids.
+
 RESOURCE ID: item_resource_crowned_zacian_name
 TEXT: Crowned Sword Energy
 
+RESOURCE ID: item_resource_crowned_zacian_name_plural
+TEXT: Crowned Sword Energy
+
+RESOURCE ID: item_resource_crowned_zamazenta_desc
+TEXT: Used to form change Zamazaenta to its Crowned Shield form. It can be found when defeating Crowned Shield Zamazenta in raids.
+
 RESOURCE ID: item_resource_crowned_zamazenta_name
+TEXT: Crowned Shield Energy
+
+RESOURCE ID: item_resource_crowned_zamazenta_name_plural
 TEXT: Crowned Shield Energy
 
 RESOURCE ID: items_picked_up
@@ -480,10 +498,10 @@ RESOURCE ID: mega_kangaskhan_tr_may_2025_title
 TEXT: Étude ponctuelle de la Journée de Raids Méga-Kangourex
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-04-18T22:44:35.858510+00:00 for fr-FR
-at SHA cd43b16a712
-Pipeline 3167317, job 39905559
-Patch from: 0.357.2-SHA-a402bc82-RC1, 0.359.0-SHA-90f8e6a0-RC1
+TEXT: Built at 2025-04-22T00:24:07.945156+00:00 for fr-FR
+at SHA 3f3e02742ff
+Pipeline 3170195, job 39968534
+Patch from: 0.357.1-SHA-8a2f6ed9-RC1, 0.359.0-SHA-2ec47354-RC2
 
 RESOURCE ID: mlb_key
 TEXT: MLB
@@ -896,6 +914,12 @@ TEXT: Pokémon defense increased in raids and Max Battles.
 
 RESOURCE ID: use_behemoth_blade_effect
 TEXT: Pokémon attack increased in raids and Max Battles.
+
+RESOURCE ID: use_item_again_prompt_desc
+TEXT: Would you like to use another {0}?
+
+RESOURCE ID: use_item_prompt_desc
+TEXT: Would you like to use a {0}?
 
 RESOURCE ID: zacian_move_content
 TEXT: Zacian wields a large, powerful sword for {0} minutes. Strengthens your Pokémon’s attacks in raids and Max Battles.

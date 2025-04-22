@@ -65,28 +65,28 @@ RESOURCE ID: bread_battle_bread_countdown_special
 TEXT: {0}...
 
 RESOURCE ID: bread_battle_reward_bonus_title
-TEXT: +到場參加獎勵
+TEXT: +現場參加獎勵
 
 RESOURCE ID: bread_battle_reward_bonus_update
-TEXT: 獎勵數{0}
+TEXT: {0}獎勵
 
 RESOURCE ID: bread_lobby_error_friend_details_unavailable
 TEXT: 傳送邀請時出現了一些問題，請再試一次。
 
 RESOURCE ID: bread_lobby_error_no_remote_slots_remaining
-TEXT: 已達到遠距團體戰的參加人數上限
+TEXT: 遠距參戰的訓練家已達到上限
 
 RESOURCE ID: bread_lobby_error_no_remote_ticket
 TEXT: 糟糕！現在包包裡沒有遠距團體戰入場券！
 
 RESOURCE ID: bread_mp_for_remote_battle_lobby
-TEXT: 使用{0}極巨粒子和遠距團體戰入場券
+TEXT: 使用{0}MP和遠距團體戰入場券
 
 RESOURCE ID: bread_remote_iap_mp_rrp_replenish_description
 TEXT: 還需要遠距團體戰入場券和極巨粒子才能參加這場對戰
 
 RESOURCE ID: bread_remote_iap_mp_rrp_replenish_title
-TEXT: 你的遠距團體戰入場券和極巨粒子不夠
+TEXT: 沒有足夠的遠距團體戰入場券和極巨粒子
 
 RESOURCE ID: bread_remote_invite_in_game_notification
 TEXT: {0} 邀請你一起參加極巨對戰！
@@ -107,13 +107,13 @@ RESOURCE ID: bread_station_tutorial_message_6
 TEXT: 只要使用遠距團體戰入場券和極巨粒子，就可以遠距參加極巨對戰。
 
 RESOURCE ID: bread_station_tutorial_message_7
-TEXT: Winning a Max Battle in person grants additional rewards.
+TEXT: 只要參加附近的極巨對戰並獲得勝利，就可以獲得追加的獎勵。
 
 RESOURCE ID: bread_station_tutorial_title_6
 TEXT: 遠距極巨對戰
 
 RESOURCE ID: bread_station_tutorial_title_7
-TEXT: 到場參加獎勵
+TEXT: 現場參加獎勵
 
 RESOURCE ID: cancel_send_button
 TEXT: 不要傳送
@@ -227,6 +227,12 @@ TEXT: 根據使用的蘋果不同，會進化成不同的寶可夢。在藥草�
 RESOURCE ID: expo_2025_event_overlay_title
 TEXT: EXPO 2025
 
+RESOURCE ID: form_change_move_required
+TEXT: Required to Change Form
+
+RESOURCE ID: form_change_move_reroll_title
+TEXT: To change to its {2} form, {0} must learn {1}
+
 RESOURCE ID: form_change_raid_toast
 TEXT: {0} reverted to its {1} form.
 
@@ -243,7 +249,7 @@ RESOURCE ID: free_stamp_rally_completed_description
 TEXT: 恭喜你完成這項集章趣了！超過所需數量後，仍可繼續收集圖章。
 
 RESOURCE ID: friend_is_at_a_max_battle
-TEXT: 已參加<b>{0}</b>對戰
+TEXT: 正在參加<b>{0}</b>對戰
 
 RESOURCE ID: general1.ticket.5_gmaxsnorlax25_title
 TEXT: 卡比獸（超極巨化）極巨對戰日入場券
@@ -306,7 +312,7 @@ RESOURCE ID: increased_tappable_spawns_mossy_lures
 TEXT: 在藥草誘餌模組啟動中的寶可補給站附近掉落更多蘋果了
 
 RESOURCE ID: iris_social_nameplates_toast
-TEXT: 顯示寶可夢名稱等詳情
+TEXT: 顯示寶可夢名稱等細節
 
 RESOURCE ID: item_description_applin
 TEXT: 在藥草誘餌模組啟動中的寶可補給站附近找出蘋果，並使用蘋果來讓啃果蟲進化吧！
@@ -405,10 +411,22 @@ TEXT: 明信片收納冊
 RESOURCE ID: item_postcard_inventory_name_stamp
 TEXT: 剪貼簿
 
+RESOURCE ID: item_resource_crowned_zacian_desc
+TEXT: Used to form change Zacian to its Crowned Sword form. It can be found when defeating Crowned Sword Zacian in raids.
+
 RESOURCE ID: item_resource_crowned_zacian_name
 TEXT: Crowned Sword Energy
 
+RESOURCE ID: item_resource_crowned_zacian_name_plural
+TEXT: Crowned Sword Energy
+
+RESOURCE ID: item_resource_crowned_zamazenta_desc
+TEXT: Used to form change Zamazaenta to its Crowned Shield form. It can be found when defeating Crowned Shield Zamazenta in raids.
+
 RESOURCE ID: item_resource_crowned_zamazenta_name
+TEXT: Crowned Shield Energy
+
+RESOURCE ID: item_resource_crowned_zamazenta_name_plural
 TEXT: Crowned Shield Energy
 
 RESOURCE ID: items_picked_up
@@ -532,10 +550,10 @@ RESOURCE ID: mega_kangaskhan_tr_may_2025_title
 TEXT: 超級袋獸團體戰日限時調查
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-04-18T22:44:35.858510+00:00 for zh-TW
-at SHA cd43b16a712
-Pipeline 3167317, job 39905559
-Patch from: 0.357.2-SHA-a402bc82-RC1, 0.359.0-SHA-90f8e6a0-RC1
+TEXT: Built at 2025-04-22T00:24:07.945156+00:00 for zh-TW
+at SHA 3f3e02742ff
+Pipeline 3170195, job 39968534
+Patch from: 0.357.1-SHA-8a2f6ed9-RC1, 0.359.0-SHA-2ec47354-RC2
 
 RESOURCE ID: mlb_key
 TEXT: MLB
@@ -696,7 +714,7 @@ RESOURCE ID: raid_day_sparring_partners_tr_name
 TEXT: 陪練夥伴團體戰日限時調查
 
 RESOURCE ID: raid_s_pass_daily_limit_temp
-TEXT: 已達到本日遠距團體戰・團體戰參戰次數上限
+TEXT: 已達到本日遠距團體戰和遠距團體戰參戰次數上限
 
 RESOURCE ID: rally_expo_2025_desc
 TEXT: EXPO 2025大阪・關西萬博會場所舉辦的GO集章趣
@@ -829,10 +847,10 @@ RESOURCE ID: send_stamp_warning_modal_title
 TEXT: 確定要傳送嗎？
 
 RESOURCE ID: sent_friend_error_info_plural_temp
-TEXT: {0}位朋友已達到今日遠距團體戰參加次數上限。請試著邀請其他朋友！
+TEXT: {0}位朋友已達到本日遠距極巨對戰和遠距團體戰參戰次數上限。請試著邀請其他朋友！
 
 RESOURCE ID: sent_friend_error_info_singular_temp
-TEXT: 1 位朋友已達到今日遠距團體戰參加次數上限。請試著邀請其他朋友！
+TEXT: 1 位朋友已達到本日遠距極巨對戰和遠距團體戰參戰次數上限。請試著邀請其他朋友！
 
 RESOURCE ID: sent_friend_error_toast_temp
 TEXT: 對方已達到本日遠距極巨對戰和遠距團體戰參戰次數上限
@@ -865,7 +883,7 @@ RESOURCE ID: spring_into_spring_apr2025_cc_sun
 TEXT: 春之陽暉收藏家挑戰
 
 RESOURCE ID: squash_confirmation_plural_temp
-TEXT: 今天還可以再參加{0}場遠距極巨團體戰。團體戰開打時，遠距團體戰入場券才會被收走。
+TEXT: 今天還可以再參加{0}場遠距極巨對戰或遠距團體戰。團體戰開打時，遠距團體戰入場券才會被收走。
 
 RESOURCE ID: squash_confirmation_singular_temp
 TEXT: 今天還可以再參加1場遠距極巨團體戰或遠距團體戰。團體戰開打時，遠距團體戰入場券才會被收走。
@@ -1207,6 +1225,12 @@ TEXT: Pokémon defense increased in raids and Max Battles.
 
 RESOURCE ID: use_behemoth_blade_effect
 TEXT: Pokémon attack increased in raids and Max Battles.
+
+RESOURCE ID: use_item_again_prompt_desc
+TEXT: Would you like to use another {0}?
+
+RESOURCE ID: use_item_prompt_desc
+TEXT: Would you like to use a {0}?
 
 RESOURCE ID: zacian_move_content
 TEXT: Zacian wields a large, powerful sword for {0} minutes. Strengthens your Pokémon’s attacks in raids and Max Battles.

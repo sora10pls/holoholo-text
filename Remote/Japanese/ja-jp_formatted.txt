@@ -23,10 +23,10 @@ RESOURCE ID: avatar_shirt_applinapron
 TEXT: カジッチュ　エプロン
 
 RESOURCE ID: behemoth_bash_adventure_effect_battle_log
-TEXT: きょじゅうだんのフィールド効果でぼうぎょがアップします！
+TEXT: きょじゅうだんのフィールド効果でぼうぎょアップ！
 
 RESOURCE ID: behemoth_blade_adventure_effect_battle_log
-TEXT: きょじゅうざんのフィールド効果でこうげきがアップします！
+TEXT: きょじゅうざんのフィールド効果でこうげきアップ！
 
 RESOURCE ID: bonus_cd_move_vanillite
 TEXT: バニリッチをバイバニラに進化させるとゆきなだれを覚えている
@@ -203,6 +203,15 @@ TEXT: 使うりんごによって異なるポケモンに進化します。り�
 
 RESOURCE ID: expo_2025_event_overlay_title
 TEXT: EXPO2025
+
+RESOURCE ID: filter_hint4
+TEXT: {0}で検索（例）{1} {2}-{3}
+
+RESOURCE ID: form_change_move_required
+TEXT: Required to Change Form
+
+RESOURCE ID: form_change_move_reroll_title
+TEXT: To change to its {2} form, {0} must learn {1}
 
 RESOURCE ID: form_change_raid_toast
 TEXT: {0}は{1}のすがたに戻りました
@@ -382,11 +391,23 @@ TEXT: みついりりんご
 RESOURCE ID: item_postcard_inventory_desc_stamp
 TEXT: ポストカードとスタンプを貼って自分やフレンドの思い出を残しておける手帳。
 
+RESOURCE ID: item_resource_crowned_zacian_desc
+TEXT: Used to form change Zacian to its Crowned Sword form. It can be found when defeating Crowned Sword Zacian in raids.
+
 RESOURCE ID: item_resource_crowned_zacian_name
 TEXT: ソードエナジー
 
+RESOURCE ID: item_resource_crowned_zacian_name_plural
+TEXT: Crowned Sword Energy
+
+RESOURCE ID: item_resource_crowned_zamazenta_desc
+TEXT: Used to form change Zamazaenta to its Crowned Shield form. It can be found when defeating Crowned Shield Zamazenta in raids.
+
 RESOURCE ID: item_resource_crowned_zamazenta_name
 TEXT: シールドエナジー
+
+RESOURCE ID: item_resource_crowned_zamazenta_name_plural
+TEXT: Crowned Shield Energy
 
 RESOURCE ID: items_picked_up
 TEXT: 何かを拾った！
@@ -512,10 +533,10 @@ RESOURCE ID: mega_kangaskhan_tr_may_2025_title
 TEXT: メガガルーラレイドデイタイムチャレンジ
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-04-18T22:44:35.858510+00:00 for ja-JP
-at SHA cd43b16a712
-Pipeline 3167317, job 39905559
-Patch from: 0.357.2-SHA-a402bc82-RC1, 0.359.0-SHA-90f8e6a0-RC1
+TEXT: Built at 2025-04-22T00:24:07.945156+00:00 for ja-JP
+at SHA 3f3e02742ff
+Pipeline 3170195, job 39968534
+Patch from: 0.357.1-SHA-8a2f6ed9-RC1, 0.359.0-SHA-2ec47354-RC2
 
 RESOURCE ID: mlb_key
 TEXT: MLB
@@ -677,7 +698,7 @@ RESOURCE ID: raid_nearby_rsvp
 TEXT: 予定を入れる
 
 RESOURCE ID: raid_s_pass_daily_limit_temp
-TEXT: リモートマックス・レイドバトル上限に達しました
+TEXT: リモートレイド・マックスバトル上限に達しました
 
 RESOURCE ID: rally_expo_2025_desc
 TEXT: 大阪・関西万博の会場で遊べるスタンプラリーです。
@@ -1014,6 +1035,12 @@ TEXT: レイド・マックスバトルでぼうぎょアップ
 
 RESOURCE ID: use_behemoth_blade_effect
 TEXT: レイド・マックスバトルでこうげきアップ
+
+RESOURCE ID: use_item_again_prompt_desc
+TEXT: Would you like to use another {0}?
+
+RESOURCE ID: use_item_prompt_desc
+TEXT: Would you like to use a {0}?
 
 RESOURCE ID: zacian_move_content
 TEXT: ザシアンが{0}分のあいだ強力な剣を振りかざすため、レイドやマックスバトルでのポケモンのこうげきがアップする

@@ -80,53 +80,56 @@ RESOURCE ID: bread_battle_bread_countdown_special
 TEXT: {0}...
 
 RESOURCE ID: bread_battle_reward_bonus_title
-TEXT: + In-Person Bonus
+TEXT: + य बोनस
 
 RESOURCE ID: bread_battle_reward_bonus_update
-TEXT: {0} Bonus
+TEXT: {0} बोनस
 
 RESOURCE ID: bread_lobby_error_friend_details_unavailable
-TEXT: Something went wrong when sending this invite. Please try again.
+TEXT: नमंण भेजते समय कोई गड़बड़ी ई। कृपया फर से यास करं।
 
 RESOURCE ID: bread_lobby_error_no_remote_slots_remaining
-TEXT: The maximum number of remote players has been reached.
+TEXT: रमोट खलाड़यों क अधकतम संया पूर हो चुक है।
 
 RESOURCE ID: bread_lobby_error_no_remote_ticket
-TEXT: Uh-oh! You’re out of Remote Raid Passes.
+TEXT: अर नहीं! आपक रमोट रड पास खम हो गए हैं
 
 RESOURCE ID: bread_mp_for_remote_battle_lobby
-TEXT: Use {0} MP and
-a Remote Raid Pass
+TEXT: {0} MP और
+एक रमोट रड पास का योग करं
 
 RESOURCE ID: bread_remote_iap_mp_rrp_replenish_description
-TEXT: You need a Remote Raid Pass and Max Particles to join this battle.
+TEXT: इस बैटल में शामल होने क लए आपको रमोट रड पास और मैस पाटकल क आवयकता है।
 
 RESOURCE ID: bread_remote_iap_mp_rrp_replenish_title
-TEXT: You’re out of Remote Raid Passes and Max Particles
+TEXT: आपक रड पास और मैस पाटकल खम हो गए हैं
 
 RESOURCE ID: bread_remote_invite_in_game_notification
-TEXT: {0} invited you to a Max Battle!
+TEXT: {0} ने आपको एक मैस बैटल में शामल होने क लए आमंण भेजा है!
 
 RESOURCE ID: bread_remote_tutorial_message_0
-TEXT: You’re viewing a Max Battle that is far away. You can join the battle remotely by using a Remote Raid Pass and Max Particles.
+TEXT: आप एक दूर क मैस बैटल को देख रहे हैं। रमोट रड पास और मैस पाटकल का उपयोग कर आप इस बैटल में रमोट तरक से भाग ल सकते हैं।
 
 RESOURCE ID: bread_remote_tutorial_title_0
-TEXT: Remote Max Battles are here!
+TEXT: रमोट मैस बैटल आ गए हैं!
+
+RESOURCE ID: bread_remote_use_rrp_confirmation
+TEXT: आज आप {0} और मैस बैटल में भाग ल सकते हैं। मैस पाटकल कवल तब उपयोग कए जाते हैं जब आप जीतते हैं। बैटल क शु होने पर एक रमोट रड पास का उपयोग कया जाएगा।
 
 RESOURCE ID: bread_station_failure_description_cannot_station
 TEXT: {0} cannot be placed at Power Spots.
 
 RESOURCE ID: bread_station_tutorial_message_6
-TEXT: You can participate in Max Battles remotely by using a Remote Raid Pass and Max Particles.
+TEXT: रमोट रड पास और मैस पाटकल का उपयोग कर आप रमोट तरक से मैस बैटल में भाग ल सकते हैं।
 
 RESOURCE ID: bread_station_tutorial_message_7
-TEXT: Winning a Max Battle in person grants additional rewards.
+TEXT: य प से मैस बैटल जीतने पर अतरत रवॉड ात होते हैं।
 
 RESOURCE ID: bread_station_tutorial_title_6
-TEXT: Remote Max Battles
+TEXT: रमोट मैस बैटल
 
 RESOURCE ID: bread_station_tutorial_title_7
-TEXT: In-Person Bonus
+TEXT: य बोनस
 
 RESOURCE ID: cancel_send_button
 TEXT: न भेजें
@@ -243,6 +246,12 @@ TEXT: इस पोकमॉन को आप जस कार का �
 RESOURCE ID: expo_2025_event_overlay_title
 TEXT: EXPO 2025 में Pokémon GO
 
+RESOURCE ID: form_change_move_required
+TEXT: Required to Change Form
+
+RESOURCE ID: form_change_move_reroll_title
+TEXT: To change to its {2} form, {0} must learn {1}
+
 RESOURCE ID: form_change_raid_toast
 TEXT: {0} reverted to its {1} form.
 
@@ -259,7 +268,7 @@ RESOURCE ID: free_stamp_rally_completed_description
 TEXT: बधाई हो! आपने टैप रैल पूर कर ल! यद आपका मन चाहे तो आप और भी टैस इका करना जार रख सकते हैं।
 
 RESOURCE ID: friend_is_at_a_max_battle
-TEXT: Has joined a <b>{0}</b> battle
+TEXT: <b>{0}</b> बैटल में शामल ए
 
 RESOURCE ID: general1.ticket.1_description
 TEXT: 20 दसंबर, 2020 को आप जहां भी हों वहां लोकल टाइम क हसाब से, सुबह 10:00 बजे से शाम 8:00 बजे तक गलार मटर माइम इवेंट ऐसेस करने क टकट। ़यादा जानकार इन-गेम यूज़ में मलगी।
@@ -1740,10 +1749,22 @@ TEXT: पोटकाड बुक
 RESOURCE ID: item_postcard_inventory_name_stamp
 TEXT: ैपबुक
 
+RESOURCE ID: item_resource_crowned_zacian_desc
+TEXT: Used to form change Zacian to its Crowned Sword form. It can be found when defeating Crowned Sword Zacian in raids.
+
 RESOURCE ID: item_resource_crowned_zacian_name
 TEXT: Crowned Sword Energy
 
+RESOURCE ID: item_resource_crowned_zacian_name_plural
+TEXT: Crowned Sword Energy
+
+RESOURCE ID: item_resource_crowned_zamazenta_desc
+TEXT: Used to form change Zamazaenta to its Crowned Shield form. It can be found when defeating Crowned Shield Zamazenta in raids.
+
 RESOURCE ID: item_resource_crowned_zamazenta_name
+TEXT: Crowned Shield Energy
+
+RESOURCE ID: item_resource_crowned_zamazenta_name_plural
 TEXT: Crowned Shield Energy
 
 RESOURCE ID: item_ticket_city_safari_00_desc
@@ -1882,10 +1903,10 @@ RESOURCE ID: mega_kangaskhan_tr_may_2025_title
 TEXT: मेगा गारामॉन रड दवस सीमत समय वाल रसच
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-04-18T22:44:35.858510+00:00 for hi-IN
-at SHA cd43b16a712
-Pipeline 3167317, job 39905559
-Patch from: 0.357.2-SHA-a402bc82-RC1, 0.359.0-SHA-90f8e6a0-RC1
+TEXT: Built at 2025-04-22T00:24:07.945156+00:00 for hi-IN
+at SHA 3f3e02742ff
+Pipeline 3170195, job 39968534
+Patch from: 0.357.1-SHA-8a2f6ed9-RC1, 0.359.0-SHA-2ec47354-RC2
 
 RESOURCE ID: mlb_key
 TEXT: MLB
@@ -1927,13 +1948,13 @@ RESOURCE ID: mp_explore_quarter
 TEXT: मैस पाटकल ात करने क लए 1/4 एडवेंचर दूर
 
 RESOURCE ID: mp_replenish_rrp.1_title
-TEXT: 1 Remote Raid Pass
-1 Max Particle Pack
+TEXT: 1 रमोट रड पास
+1 मैस पाटकल पैक
 ({0} MP)
 
 RESOURCE ID: mp_replenish_rrp.3_title
-TEXT: 3 Remote Raid Passes
-3 Max Particle Packs
+TEXT: 3 रमोट रड पास
+3 मैस पाटकल पैक
 ({0} MP)
 
 RESOURCE ID: mrmime_ticket_description
@@ -2068,7 +2089,7 @@ RESOURCE ID: raid_rsvp_bonus
 TEXT: भागीदार पुट
 
 RESOURCE ID: raid_s_pass_daily_limit_temp
-TEXT: You’ve reached your daily limit of Remote Max Battles and Remote Raids. Walk closer to join in person.
+TEXT: आप अपनी रमोट रड और रमोट मैस बैटल क दैनक सीमा पर पंच गए हैं। भाग लने क लए पास जाएं।
 
 RESOURCE ID: raid_sort_time
 TEXT: बैटल तक का समय
@@ -2107,7 +2128,7 @@ RESOURCE ID: remote_bread_battle_invite_sent_confirmation
 TEXT: Invites sent!
 
 RESOURCE ID: remote_max_battle_invite_push_notif
-TEXT: A friend invited you to a Max Battle!
+TEXT: आपक दोत ने आपको एक मैस बैटल में शामल होने क लए आमंण भेजा है!
 
 RESOURCE ID: report_route_error_not_found
 TEXT: यह ट मल नहीं पाया।
@@ -2160,13 +2181,13 @@ RESOURCE ID: send_stamp_warning_modal_title
 TEXT: या आप वाकई ऐसा करना चाहते हैं?
 
 RESOURCE ID: sent_friend_error_info_plural_temp
-TEXT: {0} friends have already met their daily limit of Remote Max Battles and Remote Raids. You can invite more friends!
+TEXT: {0} दोतों क रमोट मैस बैटल और रमोट रड क दैनक सीमा पहल ही पूर हो गई है। आप कछ और दोतों को आमंित कर सकते हैं!
 
 RESOURCE ID: sent_friend_error_info_singular_temp
-TEXT: A friend has already met their daily limit of Remote Max Battles and Remote Raids. You can invite another friend!
+TEXT: एक दोत क रमोट मैस बैटल और रमोट रड क दैनक सीमा पहल ही पूर हो गई है। आप कसी और दोत को आमंित कर सकते हैं!
 
 RESOURCE ID: sent_friend_error_toast_temp
-TEXT: Trainer has reached their daily limit of Remote Max Battles and Remote Raids.
+TEXT: टनर क रमोट मैस बैटल और रमोट रड क दैनक सीमा पूर हो गई है।
 
 RESOURCE ID: settings_gift_notified_push_notification
 TEXT: आपक दोत को अपना ईवेंट क टकट मल गया है!
@@ -2237,10 +2258,10 @@ RESOURCE ID: spring_into_spring_apr2025_cc_sun
 TEXT: वसंत क धूप कलशन चैलंज
 
 RESOURCE ID: squash_confirmation_plural_temp
-TEXT: You can join {0} more Remote Max Battles or Remote Raids today. A Remote Raid Pass will be used when the battle starts.
+TEXT: आप आज {0} और रमोट मैस बैटल या रमोट रड में भाग ल सकते हैं। रमोट रड पास का इतेमाल बैटल शु होने पर कया जाएगा।
 
 RESOURCE ID: squash_confirmation_singular_temp
-TEXT: You can join one more Remote Max Battle or Remote Raid today. A Remote Raid Pass will be used when the battle starts.
+TEXT: आप आज एक और रमोट मैस बैटल या रमोट रड में भाग ल सकते हैं। रमोट रड पास का इतेमाल बैटल शु होने पर कया जाएगा।
 
 RESOURCE ID: sr_ticket_in_shop
 TEXT: शॉप में एक पेशल रसच टोर क टकट उपलध है
@@ -2499,8 +2520,8 @@ TEXT: <b>शामल बोनस -</b>
 • रड को सफलतापूवक पूरा करने पर 50% अधक XP और 2× टार-डट
 
 RESOURCE ID: text_rewards_key_sweet_discoveries_apr25
-TEXT: <b>समलत रवॉड -</b>
-• डेलबड, ऊदब, चेरर, मूना, बाउंवीट, ननआला, गगोलू और गगोलू क साथ मुलाकात
+TEXT: <b>शामल रवॉड -</b>
+• डेलबड, ऊदब, चेरर, मूना, बाउंवीट, ननआला, गगोलू और ूकरा क साथ मुलाकात
 • 2 मॉस अटैट मॉड्यूल
 
 इस रसच और अय सभी रसच क लए रवॉड मुलाकातों में पाए जाने वाल डेलबड और गगोलू क शाइनी होने क अधक संभावना है!
@@ -2803,6 +2824,12 @@ TEXT: Pokémon defense increased in raids and Max Battles.
 
 RESOURCE ID: use_behemoth_blade_effect
 TEXT: Pokémon attack increased in raids and Max Battles.
+
+RESOURCE ID: use_item_again_prompt_desc
+TEXT: Would you like to use another {0}?
+
+RESOURCE ID: use_item_prompt_desc
+TEXT: Would you like to use a {0}?
 
 RESOURCE ID: wandering_waddles_depths_tr
 TEXT: बीच पर टहलना सीमत समय वाल रसच क टकट अब शॉप में उपलध है

@@ -2,7 +2,7 @@ RESOURCE ID: age_confirm_fail
 TEXT: Üzgünüz, bu hesap türüyle giriş yapmak için gereken<a href="https://niantic.helpshift.com/hc/faq/4996-i-cannot-login-and-message-shows-sorry-you-do-not-meet-the-age-requirement-to-login-with-this-type-of-account/">yaş şartlarını</a> karşılamıyorsunuz. Hesabınız Hizmet Şartlarımız gereğince silinecektir. Bu tür bir hesapla giriş yapmak için gereken koşullara sahip olduğunuzu düşünüyorsanız lütfen bizimle iletişime geçin.
 
 RESOURCE ID: ambassador_trainer_nameplate
-TEXT: Wild Visitor
+TEXT: Vahşi Ziyaretçi
 
 RESOURCE ID: april_fool_pokeball_tappable_event
 TEXT: O Poké Topu da neyin nesi?
@@ -186,6 +186,12 @@ TEXT: Bu Pokémon verdiğiniz elma türüne bağlı olarak farklı Pokémon’la
 RESOURCE ID: expo_2025_event_overlay_title
 TEXT: EXPO 2025’te Pokémon GO
 
+RESOURCE ID: form_change_move_required
+TEXT: Required to Change Form
+
+RESOURCE ID: form_change_move_reroll_title
+TEXT: To change to its {2} form, {0} must learn {1}
+
 RESOURCE ID: form_change_raid_toast
 TEXT: {0} reverted to its {1} form.
 
@@ -262,7 +268,7 @@ RESOURCE ID: increased_tappable_spawns_mossy_lures
 TEXT: Aktif Yosunlu Yem Modülü olan PokéDurakların yakınlarında daha fazla elma
 
 RESOURCE ID: iris_social_nameplates_toast
-TEXT: Inspect a Pokémon to learn more about it.
+TEXT: Hakkında bilgi edinmek için bir Pokémon’u inceleyin.
 
 RESOURCE ID: item_description_applin
 TEXT: Applin’i evrimleştirmek için etkin bir Yosunlu Yem Modülü olan PokéDurakların yakınında bulduğunuz elmaları kullanın.
@@ -349,10 +355,22 @@ TEXT: Ballı Elma
 RESOURCE ID: item_other_evolution_stone_maple_c_name_plural
 TEXT: Ballı Elma
 
+RESOURCE ID: item_resource_crowned_zacian_desc
+TEXT: Used to form change Zacian to its Crowned Sword form. It can be found when defeating Crowned Sword Zacian in raids.
+
 RESOURCE ID: item_resource_crowned_zacian_name
 TEXT: Crowned Sword Energy
 
+RESOURCE ID: item_resource_crowned_zacian_name_plural
+TEXT: Crowned Sword Energy
+
+RESOURCE ID: item_resource_crowned_zamazenta_desc
+TEXT: Used to form change Zamazaenta to its Crowned Shield form. It can be found when defeating Crowned Shield Zamazenta in raids.
+
 RESOURCE ID: item_resource_crowned_zamazenta_name
+TEXT: Crowned Shield Energy
+
+RESOURCE ID: item_resource_crowned_zamazenta_name_plural
 TEXT: Crowned Shield Energy
 
 RESOURCE ID: items_picked_up
@@ -476,10 +494,10 @@ RESOURCE ID: mega_kangaskhan_tr_may_2025_title
 TEXT: Mega Kangaskhan Akın Günü Süreli Araştırması
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-04-18T22:44:35.858510+00:00 for tr-TR
-at SHA cd43b16a712
-Pipeline 3167317, job 39905559
-Patch from: 0.357.2-SHA-a402bc82-RC1, 0.359.0-SHA-90f8e6a0-RC1
+TEXT: Built at 2025-04-22T00:24:07.945156+00:00 for tr-TR
+at SHA 3f3e02742ff
+Pipeline 3170195, job 39968534
+Patch from: 0.357.1-SHA-8a2f6ed9-RC1, 0.359.0-SHA-2ec47354-RC2
 
 RESOURCE ID: mlb_key
 TEXT: MLB
@@ -543,10 +561,10 @@ RESOURCE ID: nearby_rsvp_notification_raid_key_singular
 TEXT: Yakınlarda başlamak üzere olan akın maçına katılın!
 
 RESOURCE ID: notification_candy_found_plural
-TEXT: Found {0} {1} Candy!
+TEXT: {0} {1} şekeri bulundu!
 
 RESOURCE ID: notification_candy_found_singular
-TEXT: Found 1 {0} Candy!
+TEXT: 1 {0} şekeri bulundu!
 
 RESOURCE ID: photobomb_five_vanillite
 TEXT: GO Fotoğrafta Vanillite ile 5 sürpriz karşılaşma
@@ -883,6 +901,12 @@ TEXT: Pokémon defense increased in raids and Max Battles.
 
 RESOURCE ID: use_behemoth_blade_effect
 TEXT: Pokémon attack increased in raids and Max Battles.
+
+RESOURCE ID: use_item_again_prompt_desc
+TEXT: Would you like to use another {0}?
+
+RESOURCE ID: use_item_prompt_desc
+TEXT: Would you like to use a {0}?
 
 RESOURCE ID: zacian_move_content
 TEXT: Zacian wields a large, powerful sword for {0} minutes. Strengthens your Pokémon’s attacks in raids and Max Battles.

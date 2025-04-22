@@ -29,10 +29,10 @@ RESOURCE ID: batch_transfer_last_more_pokemon_singular
 TEXT: Твои единственные Покемоны {0}, {1} ещё 1
 
 RESOURCE ID: behemoth_bash_adventure_effect_battle_log
-TEXT: YOUR DEFENSE IS BOOSTED BY BEHEMOTH BASH’S ADVENTURE EFFECT!
+TEXT: ТВОИ АТАКИ УСИЛЕНЫ ЭФФЕКТОМ ПРИКЛЮЧЕНИЙ УДАР ЛЕВИАФАНА!
 
 RESOURCE ID: behemoth_blade_adventure_effect_battle_log
-TEXT: YOUR ATTACKS ARE BOOSTED BY BEHEMOTH BLADE’S ADVENTURE EFFECT!
+TEXT: ТВОИ АТАКИ УСИЛЕНЫ ЭФФЕКТОМ ПРИКЛЮЧЕНИЙ МЕЧ ЛЕВИАФАНА!
 
 RESOURCE ID: bonus_cd_move_vanillite
 TEXT: Эволюционируй Ваниллиша, чтобы получить Ваниллюкса, который знает заряженную атаку Лавина!
@@ -99,7 +99,7 @@ RESOURCE ID: bread_remote_use_rrp_confirmation
 TEXT: Ты можешь присоединиться ещё к {0} Битвам Макс сегодня. Частицы Макс будут использованы, только если ты выиграешь. В начале битвы будет использован Пропуск на Удалённый Рейд.
 
 RESOURCE ID: bread_station_failure_description_cannot_station
-TEXT: {0} cannot be placed at Power Spots.
+TEXT: {0} не может быть размещён в Зонах Силы.
 
 RESOURCE ID: bread_station_tutorial_message_6
 TEXT: Ты можешь участвовать в Битвах Макс удалённо, используя Пропуск на Удалённый Рейд и Частицы Макс.
@@ -192,8 +192,14 @@ TEXT: Этот Покемон может эволюционировать в р�
 RESOURCE ID: expo_2025_event_overlay_title
 TEXT: Pokémon GO на EXPO 2025
 
+RESOURCE ID: form_change_move_required
+TEXT: Required to Change Form
+
+RESOURCE ID: form_change_move_reroll_title
+TEXT: To change to its {2} form, {0} must learn {1}
+
 RESOURCE ID: form_change_raid_toast
-TEXT: {0} reverted to its {1} form.
+TEXT: {0} вернулся в свою форму {1}.
 
 RESOURCE ID: form_normal
 TEXT:  
@@ -373,10 +379,22 @@ TEXT: Сочное Яблоко
 RESOURCE ID: item_other_evolution_stone_maple_c_name_plural
 TEXT: Сочные Яблоки
 
+RESOURCE ID: item_resource_crowned_zacian_desc
+TEXT: Used to form change Zacian to its Crowned Sword form. It can be found when defeating Crowned Sword Zacian in raids.
+
 RESOURCE ID: item_resource_crowned_zacian_name
+TEXT: Энергия Коронованного Меча
+
+RESOURCE ID: item_resource_crowned_zacian_name_plural
 TEXT: Crowned Sword Energy
 
+RESOURCE ID: item_resource_crowned_zamazenta_desc
+TEXT: Used to form change Zamazaenta to its Crowned Shield form. It can be found when defeating Crowned Shield Zamazenta in raids.
+
 RESOURCE ID: item_resource_crowned_zamazenta_name
+TEXT: Энергия Коронованного Щита
+
+RESOURCE ID: item_resource_crowned_zamazenta_name_plural
 TEXT: Crowned Shield Energy
 
 RESOURCE ID: items_picked_up
@@ -515,46 +533,46 @@ RESOURCE ID: mega_kangaskhan_tr_may_2025_title
 TEXT: Квест на Время Рейдовый День: Мега-Кангасхан
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-04-18T22:44:35.858510+00:00 for ru-RU
-at SHA cd43b16a712
-Pipeline 3167317, job 39905559
-Patch from: 0.357.2-SHA-a402bc82-RC1, 0.359.0-SHA-90f8e6a0-RC1
+TEXT: Built at 2025-04-22T00:24:07.945156+00:00 for ru-RU
+at SHA 3f3e02742ff
+Pipeline 3170195, job 39968534
+Patch from: 0.357.1-SHA-8a2f6ed9-RC1, 0.359.0-SHA-2ec47354-RC2
 
 RESOURCE ID: mlb_key
 TEXT: MLB
 
 RESOURCE ID: move_name_0469
-TEXT: Behemoth Blade
+TEXT: Меч Левиафана
 
 RESOURCE ID: move_name_0470
-TEXT: Behemoth Bash
+TEXT: Удар Левиафана
 
 RESOURCE ID: move_name_0471
 TEXT: Тыльная Сторона Ладони
 
 RESOURCE ID: move_name_0473
-TEXT: Guard
+TEXT: Защита
 
 RESOURCE ID: move_name_0474
-TEXT: Spirit
+TEXT: Дух
 
 RESOURCE ID: move_name_0475
-TEXT: Guard
+TEXT: Защита
 
 RESOURCE ID: move_name_0476
-TEXT: Spirit
+TEXT: Дух
 
 RESOURCE ID: move_name_0477
-TEXT: Guard
+TEXT: Защита
 
 RESOURCE ID: move_name_0478
-TEXT: Spirit
+TEXT: Дух
 
 RESOURCE ID: move_name_0479
-TEXT: Behemoth Blade
+TEXT: Меч Левиафана
 
 RESOURCE ID: move_name_0480
-TEXT: Behemoth Bash
+TEXT: Удар Левиафана
 
 RESOURCE ID: mp_explore_quarter
 TEXT: 1/4 расстояния приключений, чтобы заработать Частицы Макс
@@ -582,34 +600,34 @@ RESOURCE ID: nearby_rsvp_notification_raid_key_singular
 TEXT: Cкоро рядом с тобой начнётся рейд! Присоединяйся!
 
 RESOURCE ID: notification_candy_found_plural
-TEXT: Found {0} {1} Candy!
+TEXT: Найдены {1}-Конфеты: {0}!
 
 RESOURCE ID: notification_candy_found_singular
-TEXT: Found 1 {0} Candy!
+TEXT: Найдена 1 {0}-Конфета!
 
 RESOURCE ID: photobomb_five_vanillite
 TEXT: 5 неожиданных встреч с Ваниллайтом в Стоп-кадре GO
 
 RESOURCE ID: pokemon_info_evolve_need_bread_move
-TEXT: Needs level {1} {0}.
+TEXT: Требуется {0} уровня {1}.
 
 RESOURCE ID: pokemon_info_evolve_need_cinematic_move
-TEXT: Must know the Charged Attack {0} to change form
+TEXT: Должен знать Заряженную Атаку {0}, чтобы изменить форму
 
 RESOURCE ID: pokemon_info_evolve_need_quick_move
-TEXT: Must know the Fast Attack {0} to change form
+TEXT: Должен знать Быструю Атаку {0}, чтобы изменить форму
 
 RESOURCE ID: pokemon_info_form_change_confirmation
-TEXT: Do you want to change {0} from its {1} form to its {2} form?
+TEXT: Ты хочешь изменить форму Покемона {0} из формы {1} в форму {2}?
 
 RESOURCE ID: pokemon_info_pokecoin_label
 TEXT: ПОКЕМОНЕТА
 
 RESOURCE ID: pokemon_species_form_0888_2576
-TEXT: Crowned Sword Zacian
+TEXT: Зейшиан-Коронованный Меч
 
 RESOURCE ID: pokemon_species_form_0889_2578
-TEXT: Crowned Shield Zamazenta
+TEXT: Земазента-Коронованный Щит
 
 RESOURCE ID: quest_battle_team_rocket
 TEXT: Миссия: Победи членов Команды Ракета GO ×{0}
@@ -687,7 +705,7 @@ RESOURCE ID: rally_expo_2025_title
 TEXT: Марафон печатей EXPO 2025
 
 RESOURCE ID: remote_bread_battle_invite_sent_confirmation
-TEXT: Invites sent!
+TEXT: Приглашения отправлены!
 
 RESOURCE ID: remote_max_battle_invite_push_notif
 TEXT: Получено приглашение на Битву Макс от друга!
@@ -858,7 +876,7 @@ RESOURCE ID: title_event_pass_weekly_bonus_quest
 TEXT: Еженедельные задания
 
 RESOURCE ID: tm_cannot_unlearn
-TEXT: {0} cannot forget {1}.
+TEXT: {0} не может забыть атаку {1}.
 
 RESOURCE ID: tr_go_tour_2025_global_landorus_title
 TEXT: Дополнительный Квест на Время Покемон-Изобилие
@@ -924,20 +942,26 @@ RESOURCE ID: tyrogue_hatch_tr_name
 TEXT: Премиум-Квест на Время День Вынашивания Яиц: Тайрог
 
 RESOURCE ID: upgrade_description_zacian
-TEXT: This Pokémon can use Crowned Sword Energy to change forms if it knows the Charged Attack Iron Head. You can get this energy by defeating Crowned Sword Zacian in raids.
+TEXT: Этот Покемон может использовать Энергию Коронованного Меча, чтобы изменить форму, если он знает Заряженную Атаку Стальная Голова. Ты можешь получить эту энергию, победив Зейшиана-Коронованный Меч в рейдах.
 
 RESOURCE ID: upgrade_description_zamazenta
-TEXT: This Pokémon can use Crowned Shield Energy to change forms if it knows the Charged Attack Iron Head. You can get this energy by defeating Crowned Shield Zamazenta in raids.
+TEXT: Этот Покемон может использовать Энергию Коронованного Щита, чтобы изменить форму, если он знает Заряженную Атаку Стальная Голова. Ты можешь получить эту энергию, победив Земазенту-Коронованный Щит в рейдах.
 
 RESOURCE ID: use_behemoth_bash_effect
-TEXT: Pokémon defense increased in raids and Max Battles.
+TEXT: Защита Покемонов усилены в рейдах и Битвах Макс.
 
 RESOURCE ID: use_behemoth_blade_effect
-TEXT: Pokémon attack increased in raids and Max Battles.
+TEXT: Атака Покемонов усилена в рейдах и Битвах Макс.
+
+RESOURCE ID: use_item_again_prompt_desc
+TEXT: Would you like to use another {0}?
+
+RESOURCE ID: use_item_prompt_desc
+TEXT: Would you like to use a {0}?
 
 RESOURCE ID: zacian_move_content
-TEXT: Zacian wields a large, powerful sword for {0} minutes. Strengthens your Pokémon’s attacks in raids and Max Battles.
+TEXT: Зейшиан будет обладать огромным, мощным мечом в течение {0} мин. Усиливает атаки твоего Покемона в рейдах и Битвах Макс.
 
 RESOURCE ID: zamazenta_move_content
-TEXT: Zamazenta wields a large, powerful shield for {0} minutes. Strengthens your Pokémon’s defense in raids and Max Battles.
+TEXT: Земазента будет обладать огромным, мощным щитом в течение {0} мин. Усиливает защиту твоего Покемона в рейдах и Битвах Макс.
 
