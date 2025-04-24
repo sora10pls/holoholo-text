@@ -152,11 +152,39 @@ TEXT: ダイマックスエンテイマックスバトルウィークエンド
 RESOURCE ID: dmax_entei_weekend_timed_research
 TEXT: ダイマックスエンテイマックスバトルウィークエンドタイムチャレンジ
 
+RESOURCE ID: dmax_suicune_max_battles
+TEXT: ダイマックスしたスイクンがマックスバトルに出現
+
+RESOURCE ID: dmax_suicune_weekend_event_name
+TEXT: ダイマックススイクンマックスバトルウィークエンド
+
+RESOURCE ID: dmax_suicune_weekend_timed_research
+TEXT: ダイマックススイクンマックスバトルウィークエンドタイムチャレンジ
+
+RESOURCE ID: em_batik_pikachu_2025_collection_challenge
+TEXT: Pikachu’s Indonesia Journey
+2025コレクションチャレンジ
+
+RESOURCE ID: em_batik_pikachu_2025_event_title
+TEXT: Pikachu’s Indonesia Journey 2025
+
+RESOURCE ID: em_batik_pikachu_2025_tr_desc_title_00
+TEXT: Pikachu’s Indonesia Journey
+2025タイムチャレンジ(1/1)
+
+RESOURCE ID: em_batik_pikachu_2025_tr_title
+TEXT: Pikachu’s Indonesia Journey
+2025タイムチャレンジ
+
 RESOURCE ID: event_datetime_range_key_cd_vanillite25
 TEXT: 4月27日2:00PM～5:00PM
 
 RESOURCE ID: event_datetime_range_key_gmaxsnorlax25
 TEXT: 4月19日2:00PM～5:00PM
+
+RESOURCE ID: event_datetime_range_key_growingup0525
+TEXT: 5月2日10:00AM～
+5月7日8:00PM
 
 RESOURCE ID: event_datetime_range_key_horizonscb0425
 TEXT: 4月16日10:00AM～
@@ -208,10 +236,10 @@ RESOURCE ID: filter_hint4
 TEXT: {0}で検索（例）{1} {2}-{3}
 
 RESOURCE ID: form_change_move_required
-TEXT: Required to Change Form
+TEXT: フォルムチェンジに必要
 
 RESOURCE ID: form_change_move_reroll_title
-TEXT: To change to its {2} form, {0} must learn {1}
+TEXT: {2}フォルムを変えるには、{0}が{1}を覚えている必要があります
 
 RESOURCE ID: form_change_raid_toast
 TEXT: {0}は{1}のすがたに戻りました
@@ -264,6 +292,9 @@ TEXT: メガガルーラのレイドデイチケット
 RESOURCE ID: general2.ticket.6_horizonscb0425_title
 TEXT: かなうちプレミアムタイムチャレンジチケット
 
+RESOURCE ID: general2.ticket.9_growingup0525_title
+TEXT: 健やかな成長プレミアムタイムチャレンジチケット
+
 RESOURCE ID: general_settings_allow_stamp_from_gifts
 TEXT:  
 
@@ -272,6 +303,15 @@ TEXT: カビゴン（キョダイマックス）マックスバトルデイ直�
 
 RESOURCE ID: gmax_snorlax_max_battles
 TEXT: キョダイマックスしたカビゴンがマックスバトルに出現
+
+RESOURCE ID: growing_up_collection_challenge
+TEXT: 健やかな成長タマゴふかチャレンジ
+
+RESOURCE ID: growing_up_event_name
+TEXT: 健やかな成長
+
+RESOURCE ID: growing_up_tr_name
+TEXT: 健やかな成長プレミアムタイムチャレンジ
 
 RESOURCE ID: horizons_collab_event_name
 TEXT: TVアニメコラボ
@@ -305,6 +345,12 @@ TEXT: ポケモン名などを表示します
 
 RESOURCE ID: item_description_applin
 TEXT: ハーブルアー作動中のポケストップの近くで見つかるりんごを使って進化させよう！
+
+RESOURCE ID: item_event_ticket_09_desc_growingup0525
+TEXT: 現地時間2025年5月7日8:00PMまで健やかな成長プレミアムタイムチャレンジが行えるチケット。
+
+RESOURCE ID: item_event_ticket_09_details_growingup0525
+TEXT: このチケットは自動的に発動し5月2日に健やかな成長プレミアムタイムチャレンジが行えるようになります。
 
 RESOURCE ID: item_event_ticket_evergreen_desc_horizonscb0425
 TEXT: 現地時間2025年4月22日8:00PMまでかなうちプレミアムタイムチャレンジが行えるチケット。
@@ -392,22 +438,22 @@ RESOURCE ID: item_postcard_inventory_desc_stamp
 TEXT: ポストカードとスタンプを貼って自分やフレンドの思い出を残しておける手帳。
 
 RESOURCE ID: item_resource_crowned_zacian_desc
-TEXT: Used to form change Zacian to its Crowned Sword form. It can be found when defeating Crowned Sword Zacian in raids.
+TEXT: ザシアンをけんのおうフォルムに変えるエナジー。レイドでザシアン（けんのおう）を倒すと入手できる。
 
 RESOURCE ID: item_resource_crowned_zacian_name
 TEXT: ソードエナジー
 
 RESOURCE ID: item_resource_crowned_zacian_name_plural
-TEXT: Crowned Sword Energy
+TEXT: ソードエナジー
 
 RESOURCE ID: item_resource_crowned_zamazenta_desc
-TEXT: Used to form change Zamazaenta to its Crowned Shield form. It can be found when defeating Crowned Shield Zamazenta in raids.
+TEXT: ザマゼンタをたてのおうフォルムに変えるエナジー。レイドでザマゼンタ（たてのおう）を倒すと入手できる。
 
 RESOURCE ID: item_resource_crowned_zamazenta_name
 TEXT: シールドエナジー
 
 RESOURCE ID: item_resource_crowned_zamazenta_name_plural
-TEXT: Crowned Shield Energy
+TEXT: シールドエナジー
 
 RESOURCE ID: items_picked_up
 TEXT: 何かを拾った！
@@ -533,10 +579,10 @@ RESOURCE ID: mega_kangaskhan_tr_may_2025_title
 TEXT: メガガルーラレイドデイタイムチャレンジ
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-04-22T00:24:07.945156+00:00 for ja-JP
-at SHA 3f3e02742ff
-Pipeline 3170195, job 39968534
-Patch from: 0.357.1-SHA-8a2f6ed9-RC1, 0.359.0-SHA-2ec47354-RC2
+TEXT: Built at 2025-04-24T01:04:14.490475+00:00 for ja-JP
+at SHA c484c74d4e1
+Pipeline 3174688, job 40093610
+Patch from: 0.359.0-SHA-2ec47354-RC2, 0.357.2-SHA-a402bc82-RC1
 
 RESOURCE ID: mlb_key
 TEXT: MLB
@@ -648,6 +694,9 @@ TEXT: ミッション：GOロケット団員に{0}回勝つ
 
 RESOURCE ID: quest_catch_pokemon_legendary_ultra_beast_singular
 TEXT: 伝説のポケモンもしくはウルトラビーストを捕まえる
+
+RESOURCE ID: quest_defeat_dark_or_steel_type_raid
+TEXT: あくタイプかはがねタイプのボスポケモン{0}匹に勝つ
 
 RESOURCE ID: quest_hatch_egg
 TEXT: ミッション：タマゴをかえす
@@ -888,6 +937,21 @@ TEXT: スタンプ付いているポストカード
 RESOURCE ID: stamp_tutorial_page_1_description
 TEXT: スタンプアイコンの表示されているポケストップがスタンプラリーの対象です。これらのポケストップをタップすると、スタンプシートが表示されます。
 
+RESOURCE ID: suita_city_rally_desc
+TEXT: 吹田市内のおすすめエリアを巡る「GOスタンプラリー」です。
+
+RESOURCE ID: suita_city_rally_desc_detail
+TEXT: 指定されたポケストップを訪れて、スタンプを押しましょう。全てのポケストップでスタンプを集めると、リワードがもらえます。
+
+RESOURCE ID: suita_city_rally_location
+TEXT: 大阪府吹田市
+
+RESOURCE ID: suita_city_rally_rewards_desc
+TEXT: この「GOスタンプラリー」を完成させると、吹田市のローケーション背景のついた特別なピカチュウと出会えます。
+
+RESOURCE ID: suita_city_rally_title
+TEXT: 吹田市スタンプラリー
+
 RESOURCE ID: sweet_discoveries_2025_event_name
 TEXT: 甘い果実
 
@@ -917,6 +981,13 @@ TEXT: <b>もらえるもの：</b>
 ・パワースポット・探索で集める4000マックス粒子追加
 ・マックスバトル勝利でもらえるXP2倍
 ・ダイキノコと25000XPがもらえるタイムチャレンジ、など
+
+RESOURCE ID: text_rewards_key_growingup0525
+TEXT: <b>もらえるもの：</b>
+・コイキング、ホエルコ、チルット、ルカリオ、コソクムシ、ココガラ、ワッカネズミとの出会い
+・紙飛行機ポーズ
+・パイルのみ15個
+・3000ほしのすな、など
 
 RESOURCE ID: text_rewards_key_horizonscb0425
 TEXT: <b>もらえるもの：</b>
@@ -1037,10 +1108,10 @@ RESOURCE ID: use_behemoth_blade_effect
 TEXT: レイド・マックスバトルでこうげきアップ
 
 RESOURCE ID: use_item_again_prompt_desc
-TEXT: Would you like to use another {0}?
+TEXT: 再度{0}を使いますか？
 
 RESOURCE ID: use_item_prompt_desc
-TEXT: Would you like to use a {0}?
+TEXT: {0}を使いますか？
 
 RESOURCE ID: zacian_move_content
 TEXT: ザシアンが{0}分のあいだ強力な剣を振りかざすため、レイドやマックスバトルでのポケモンのこうげきがアップする

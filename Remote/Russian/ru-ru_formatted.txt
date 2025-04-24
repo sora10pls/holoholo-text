@@ -143,6 +143,27 @@ TEXT: Выходные Битв Макс: Динамакс-Энтей
 RESOURCE ID: dmax_entei_weekend_timed_research
 TEXT: Квест на Время Выходные Битв Макс: Динамакс-Энтей
 
+RESOURCE ID: dmax_suicune_max_battles
+TEXT: Динамакс-Суикун появляется в битвах макс
+
+RESOURCE ID: dmax_suicune_weekend_event_name
+TEXT: Выходные Битв Макс: Динамакс-Суикун
+
+RESOURCE ID: dmax_suicune_weekend_timed_research
+TEXT: Квест на Время Выходные Битв Макс: Динамакс-Суикун
+
+RESOURCE ID: em_batik_pikachu_2025_collection_challenge
+TEXT: Коллекционное Испытание Путешествие Пикачу в Индонезии 2025
+
+RESOURCE ID: em_batik_pikachu_2025_event_title
+TEXT: Путешествие Пикачу в Индонезии 2025
+
+RESOURCE ID: em_batik_pikachu_2025_tr_desc_title_00
+TEXT: Квест на Время Путешествие Пикачу в Индонезии 2025 (1/1)
+
+RESOURCE ID: em_batik_pikachu_2025_tr_title
+TEXT: Квест на Время Путешествие Пикачу в Индонезии 2025
+
 RESOURCE ID: event_datetime_range_key_cd_vanillite25
 TEXT: 27 апреля, 14:00 – 17:00
 
@@ -151,6 +172,10 @@ TEXT: 29 марта, 14:00 – 17:00
 
 RESOURCE ID: event_datetime_range_key_gmaxsnorlax25
 TEXT: 19 апреля, 14:00 – 17:00
+
+RESOURCE ID: event_datetime_range_key_growingup0525
+TEXT: 10:00 2 мая –
+20:00 7 мая
 
 RESOURCE ID: event_datetime_range_key_horizonscb0425
 TEXT: 10:00 16 апреля –
@@ -193,7 +218,7 @@ RESOURCE ID: expo_2025_event_overlay_title
 TEXT: Pokémon GO на EXPO 2025
 
 RESOURCE ID: form_change_move_required
-TEXT: Required to Change Form
+TEXT: Required to change form
 
 RESOURCE ID: form_change_move_reroll_title
 TEXT: To change to its {2} form, {0} must learn {1}
@@ -237,6 +262,9 @@ TEXT: Билет: Рейдовый День: Мега-Кангасхан
 RESOURCE ID: general2.ticket.6_horizonscb0425_title
 TEXT: Билет: Премиум-Квест на Время Железный Характер Тинкатинк
 
+RESOURCE ID: general2.ticket.9_growingup0525_title
+TEXT: Билет: Премиум-Квест на Время Радость Детства
+
 RESOURCE ID: general_settings_allow_stamp_from_gifts
 TEXT:  
 
@@ -263,6 +291,15 @@ TEXT: Квест на Время Pokémon Presents 2025 x Тур GO
 
 RESOURCE ID: gotour_2025_pokemon_day_tr_title_00
 TEXT: Квест на Время Pokémon Presents 2025 x Тур GO (1/1)
+
+RESOURCE ID: growing_up_collection_challenge
+TEXT: Испытание по Вынашиванию Яиц Радость Детства: Скачок Роста
+
+RESOURCE ID: growing_up_event_name
+TEXT: Радость Детства
+
+RESOURCE ID: growing_up_tr_name
+TEXT: Премиум-Квест на Время Радость Детства
 
 RESOURCE ID: horizons_collab_event_name
 TEXT: Праздничное Событие Сериал Покемон: Новые Горизонты
@@ -296,6 +333,12 @@ TEXT: Наведи на Покемона, чтобы узнать о нём бо
 
 RESOURCE ID: item_description_applin
 TEXT: Используй яблоки, найденные рядом с Покестопами, где активирована Травяная Приманка, чтобы эволюционировать Апплина.
+
+RESOURCE ID: item_event_ticket_09_desc_growingup0525
+TEXT: Билет, дающий доступ к Премиум-Квесту на Время Радость Детства до 20:00 7 мая 2025 по местному времени, вне зависимости от твоего местонахождения.
+
+RESOURCE ID: item_event_ticket_09_details_growingup0525
+TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к Премиум-Квесту на Время Радость Детства 2 мая, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_evergreen_desc_horizonscb0425
 TEXT: Билет, дающий доступ к Премиум-Квесту на Время Железный Характер Тинкатинк до 20:00 22 апреля 2025 по местному времени, вне зависимости от твоего местонахождения.
@@ -380,7 +423,7 @@ RESOURCE ID: item_other_evolution_stone_maple_c_name_plural
 TEXT: Сочные Яблоки
 
 RESOURCE ID: item_resource_crowned_zacian_desc
-TEXT: Used to form change Zacian to its Crowned Sword form. It can be found when defeating Crowned Sword Zacian in raids.
+TEXT: Used to change Zacian into its Crowned Sword form. It can be found when defeating Crowned Sword Zacian in raids.
 
 RESOURCE ID: item_resource_crowned_zacian_name
 TEXT: Энергия Коронованного Меча
@@ -389,7 +432,7 @@ RESOURCE ID: item_resource_crowned_zacian_name_plural
 TEXT: Crowned Sword Energy
 
 RESOURCE ID: item_resource_crowned_zamazenta_desc
-TEXT: Used to form change Zamazaenta to its Crowned Shield form. It can be found when defeating Crowned Shield Zamazenta in raids.
+TEXT: Used to change Zamazenta into its Crowned Shield form. It can be found when defeating Crowned Shield Zamazenta in raids.
 
 RESOURCE ID: item_resource_crowned_zamazenta_name
 TEXT: Энергия Коронованного Щита
@@ -533,10 +576,10 @@ RESOURCE ID: mega_kangaskhan_tr_may_2025_title
 TEXT: Квест на Время Рейдовый День: Мега-Кангасхан
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-04-22T00:24:07.945156+00:00 for ru-RU
-at SHA 3f3e02742ff
-Pipeline 3170195, job 39968534
-Patch from: 0.357.1-SHA-8a2f6ed9-RC1, 0.359.0-SHA-2ec47354-RC2
+TEXT: Built at 2025-04-24T01:04:14.490475+00:00 for ru-RU
+at SHA c484c74d4e1
+Pipeline 3174688, job 40093610
+Patch from: 0.359.0-SHA-2ec47354-RC2, 0.357.2-SHA-a402bc82-RC1
 
 RESOURCE ID: mlb_key
 TEXT: MLB
@@ -634,6 +677,9 @@ TEXT: Миссия: Победи членов Команды Ракета GO ×{
 
 RESOURCE ID: quest_catch_pokemon_legendary_ultra_beast_singular
 TEXT: Поймай Легендарного Покемона или Ультрачудовище
+
+RESOURCE ID: quest_defeat_dark_or_steel_type_raid
+TEXT: Победи рейдовых боссов типов Тёмный или Сталь ×{0}
 
 RESOURCE ID: quest_hatch_egg
 TEXT: Миссия:  Выноси 1 Яйцо
@@ -796,6 +842,21 @@ TEXT: Закончился: {0}
 RESOURCE ID: stunning_styles_event_name
 TEXT: Изумительные Стили
 
+RESOURCE ID: suita_city_rally_desc
+TEXT: A GO Stamp Rally that takes you around recommended areas in Suita City.
+
+RESOURCE ID: suita_city_rally_desc_detail
+TEXT: Collect stamps by visiting GO Stamp Rally PokéStops in Suita City for themed rewards!
+
+RESOURCE ID: suita_city_rally_location
+TEXT: Suita, Osaka, Japan
+
+RESOURCE ID: suita_city_rally_rewards_desc
+TEXT: Encounter a special Pikachu with a Suita City Location Background at the end of this rally!
+
+RESOURCE ID: suita_city_rally_title
+TEXT: Suita City Stamp Rally
+
 RESOURCE ID: sweet_discoveries_2025_event_name
 TEXT: Сладкие Открытия
 
@@ -825,6 +886,13 @@ TEXT: <b>Включает:</b>
 • Собери до 4000 дополнительных Частиц Макс в Зонах силы и во время исследований
 • 2× XP за успешное прохождение битв макс
 • Квест на Время с такими наградами, как Гриб Макс и 25 000 XP
+
+RESOURCE ID: text_rewards_key_growingup0525
+TEXT: <b>Включает следующие награды:</b>
+• Встречи с Мэджикарпом, Вэйлмером, Сваблу, Лукарио, Вимподом, Рукиди и Тандемаусом
+• Позу с Бумажным Самолётиком
+• 15 Пайнеп-Ягод
+• 3000 Звёздной Пыли
 
 RESOURCE ID: text_rewards_key_horizonscb0425
 TEXT: <b>Включает следующие награды:</b>
