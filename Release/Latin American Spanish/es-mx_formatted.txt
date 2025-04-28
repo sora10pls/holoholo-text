@@ -236,7 +236,7 @@ RESOURCE ID: about_screen_tos_btn
 TEXT: Condiciones de servicio
 
 RESOURCE ID: about_this_stamp_rally
-TEXT: ABOUT THIS STAMP RALLY
+TEXT: SOBRE ESTA BÚSQUEDA DE SELLOS
 
 RESOURCE ID: accept
 TEXT: Aceptar
@@ -1366,6 +1366,12 @@ TEXT: Desafío de Colección de Insectival 3
 RESOURCE ID: april2024_bug_out_collection_challenge_4
 TEXT: Desafío de Colección de Insectival 4
 
+RESOURCE ID: april_fool_pokeball_tappable_event
+TEXT: ¿Y esa Pokébola?
+
+RESOURCE ID: april_fool_pokeball_tappable_today_view
+TEXT: ¡Están apareciendo Pokébolas en el mapa!
+
 RESOURCE ID: april_power_up_monthly_ticket_title
 TEXT: Entrada potenciadora: Abril
 
@@ -1949,7 +1955,7 @@ RESOURCE ID: as_save_outfit
 TEXT: GUARDAR ESTILO
 
 RESOURCE ID: as_two_for_one_purchase
-TEXT: This purchase also includes the {0}.
+TEXT: Esta compra también incluye: {0}.
 
 RESOURCE ID: as_worn_items_added_to_cart
 TEXT: Artículos previsualizados añadidos al carrito.
@@ -12086,7 +12092,7 @@ RESOURCE ID: batch_transfer_last_more_pokemon
 TEXT: Tus únicos {0}, {1} y {2}
 
 RESOURCE ID: batch_transfer_last_more_pokemon_singular
-TEXT: Your only {0}, {1}, and 1 more
+TEXT: Tus únicos {0}, {1} y 1 más
 
 RESOURCE ID: batch_transfer_last_one_pokemon
 TEXT: Tu único {0}
@@ -15267,6 +15273,12 @@ TEXT: Hasta 5 encuentros sorpresa con Pikachu con sombrero de safari en Foto GO
 RESOURCE ID: bonus_event_spawn_routes
 TEXT: Los Pokémon del evento pueden aparecer mientras sigues Rutas
 
+RESOURCE ID: bonus_event_stamp_rally
+TEXT: Ya está disponible la Búsqueda de sellos de GO
+
+RESOURCE ID: bonus_event_stamp_rally_location_backgrounds
+TEXT: Los Pokémon atrapados en los encuentros de recompensa de la Búsqueda de sellos de GO tendrán un fondo de la ubicación
+
 RESOURCE ID: bonus_event_sticker
 TEXT: Calcomanía especial del evento disponible al girar fotodiscos en Poképaradas de la zona
 
@@ -15576,6 +15588,15 @@ TEXT: ¡Están apareciendo incursiones de Mega-Latias y Mega-Latios en la zona!
 RESOURCE ID: bonus_milestone_rewards_title
 TEXT: BONIFICACIONES DE RECOMPENSAS POR OBJETIVOS
 
+RESOURCE ID: bonus_move_blastoise_hydro_cannon
+TEXT: ¡Evoluciona a Wartortle para obtener un Blastoise que conozca el ataque cargado Hidrocañón!
+
+RESOURCE ID: bonus_move_charizard_blast_burn
+TEXT: ¡Evoluciona a Charmeleon para conseguir un Charizard que conozca el ataque cargado Anillo de Fuego!
+
+RESOURCE ID: bonus_move_venusaur_frenzy_plant
+TEXT: ¡Evoluciona a Ivysaur para conseguir un Venusaur que conozca el ataque cargado Planta Feroz!
+
 RESOURCE ID: bonus_mp_cap
 TEXT: Mayor límite diario para recopilar Partículas Max
 
@@ -15632,6 +15653,9 @@ TEXT: Tres Caramelos Dialga XL adicionales por atrapar Dialga en incursiones
 
 RESOURCE ID: bonus_pelipper_delibird_pikachu_photobomb
 TEXT: Un encuentro sorpresa al día con Pikachu, Pelipper o Delibird al usar Foto GO
+
+RESOURCE ID: bonus_photobomb_smeargle
+TEXT: Hasta cinco encuentros sorpresa con Smeargle al usar Foto GO
 
 RESOURCE ID: bonus_photobomb_unova_pikachu
 TEXT: Encuentros sorpresa diarios en Foto GO con Pikachu con los siguientes accesorios: gorra de Lucho, gorra de Liza, visera de Rizzo y visera de Nanci
@@ -16028,6 +16052,9 @@ TEXT: 2× Polvo Estrella por ganar en incursiones de Ultraentes
 
 RESOURCE ID: bonus_unlocked
 TEXT: ¡Bonificación desbloqueada!
+
+RESOURCE ID: bonus_unown_expo
+TEXT: Están apareciendo Unown E, X, P y O salvajes
 
 RESOURCE ID: bonus_versioned_field_research_2x_daily
 TEXT: Investigación de Campo disponible dos veces al día en las Poképaradas: una hasta mediodía y otra por la tarde.
@@ -16728,6 +16755,12 @@ TEXT: ¡RECOMPENSAS MEJORADAS!
 RESOURCE ID: bread_battle_resolve_timed_out_title
 TEXT: ¡Los Pokémon de todos los jugadores se cansaron!
 
+RESOURCE ID: bread_battle_reward_bonus_title
+TEXT: + In-Person Bonus
+
+RESOURCE ID: bread_battle_reward_bonus_update
+TEXT: {0} Bonus
+
 RESOURCE ID: bread_battle_reward_title
 TEXT: RECOMPENSAS
 
@@ -16862,6 +16895,9 @@ TEXT: Bonificación de ataque
 RESOURCE ID: bread_lobby_error_battle_completed
 TEXT: Ya combatiste en este Nodo Energético.
 
+RESOURCE ID: bread_lobby_error_friend_details_unavailable
+TEXT: Something went wrong when sending this invite. Please try again.
+
 RESOURCE ID: bread_lobby_error_lobby_expired
 TEXT: La sala ya no está disponible.
 
@@ -16876,6 +16912,12 @@ TEXT: No se pudo encontrar la sala.
 
 RESOURCE ID: bread_lobby_error_no_invite
 TEXT: La invitación ya no está disponible.
+
+RESOURCE ID: bread_lobby_error_no_remote_slots_remaining
+TEXT: The maximum number of remote players has been reached.
+
+RESOURCE ID: bread_lobby_error_no_remote_ticket
+TEXT: Uh-oh! You’re out of Remote Raid Passes.
 
 RESOURCE ID: bread_lobby_error_not_in_range
 TEXT: Acércate para interactuar con este Nodo Energético.
@@ -16980,7 +17022,8 @@ RESOURCE ID: bread_mp_for_battle_lobby
 TEXT: Usa {0} PM
 
 RESOURCE ID: bread_mp_for_remote_battle_lobby
-TEXT: Use {0} MP and Remote Raid Pass
+TEXT: Use {0} MP and
+a Remote Raid Pass
 
 RESOURCE ID: bread_mp_storage_full
 TEXT: Tu almacenamiento de Partículas Max está lleno.
@@ -17039,11 +17082,20 @@ TEXT: Ya no podrá ayudar en los combates ni obtener Caramelos en este Nodo Ener
 RESOURCE ID: bread_release_title
 TEXT: ¿Quieres que {0} vuelva?
 
+RESOURCE ID: bread_remote_iap_mp_rrp_replenish_description
+TEXT: You need a Remote Raid Pass and Max Particles to join this battle.
+
 RESOURCE ID: bread_remote_iap_mp_rrp_replenish_title
-TEXT: You're out of Remote Raid Passes and MP
+TEXT: You’re out of Remote Raid Passes and Max Particles
 
 RESOURCE ID: bread_remote_invite_in_game_notification
-TEXT: {0} invited you to join a Max Battle!
+TEXT: {0} invited you to a Max Battle!
+
+RESOURCE ID: bread_remote_tutorial_message_0
+TEXT: You’re viewing a Max Battle that is far away. You can join the battle remotely by using a Remote Raid Pass and Max Particles.
+
+RESOURCE ID: bread_remote_tutorial_title_0
+TEXT: Remote Max Battles are here!
 
 RESOURCE ID: bread_remote_use_rrp_confirmation
 TEXT: You can join {0} more Max Battles today. Max Particles are only used when you win. A Remote Raid Pass will be used when the battle starts.
@@ -17125,6 +17177,12 @@ TEXT: Tras derrotar a un Jefe de Nodo Energético, podrás colocar a un Pokémon
 RESOURCE ID: bread_station_tutorial_message_5
 TEXT: Puedes encontrarte con un Pokémon tras visitar un Nodo Energético. ¡Puede que aparezcan Pokémon Dinamax si hay Pokémon Gigamax en el Nodo Energético!
 
+RESOURCE ID: bread_station_tutorial_message_6
+TEXT: You can participate in Max Battles remotely by using a Remote Raid Pass and Max Particles.
+
+RESOURCE ID: bread_station_tutorial_message_7
+TEXT: Winning a Max Battle in person grants additional rewards.
+
 RESOURCE ID: bread_station_tutorial_title
 TEXT: 
 
@@ -17142,6 +17200,12 @@ TEXT: Consigue recompensas
 
 RESOURCE ID: bread_station_tutorial_title_5
 TEXT: Encuentros con Pokémon
+
+RESOURCE ID: bread_station_tutorial_title_6
+TEXT: Remote Max Battles
+
+RESOURCE ID: bread_station_tutorial_title_7
+TEXT: In-Person Bonus
 
 RESOURCE ID: bread_stationing_error
 TEXT: Hubo un error al colocar tus Pokémon. Inténtalo de nuevo.
@@ -18220,7 +18284,7 @@ TEXT: ¡Se encontró un grupo de incursión!
 Tienes 1 minuto para unirte.
 
 RESOURCE ID: cancel_send_button
-TEXT: DON’T SEND
+TEXT: NO ENVIAR
 
 RESOURCE ID: cancelled_ex_raid_items_prompt
 TEXT: Estos objetos son para ti. ¡Sigue entrenando!
@@ -18310,7 +18374,7 @@ RESOURCE ID: cannot_use_mystery_box_and_incense2
 TEXT: Solo puedes activar el Cofre de Monedas, la Caja Misteriosa o uno de los Inciensos al mismo tiempo.
 
 RESOURCE ID: cant_find_spawned_pokemon
-TEXT: Move closer to the stamp’s location to encounter this Pokémon!
+TEXT: ¡Acércate a la ubicación del sello para encontrarte con este Pokémon!
 
 RESOURCE ID: cant_replace_frustration_error
 TEXT: El ataque cargado Frustración no puede reemplazarse por una MT de ataque cargado.
@@ -18938,6 +19002,24 @@ TEXT: Inscribirse en la reunión
 
 RESOURCE ID: chicago_fest_july_2017_title
 TEXT: Festival de Pokémon GO
+
+RESOURCE ID: childrens_day_2025_bonus
+TEXT: Children’s Day Magic Bonuses
+
+RESOURCE ID: childrens_day_2025_evolve_move_bonus_lucario
+TEXT: Evolve Riolu to get a Lucario that knows the Fast Attack Force Palm!
+
+RESOURCE ID: childrens_day_2025_title
+TEXT: Children’s Day Magic
+
+RESOURCE ID: childrens_day_2025_tr_name
+TEXT: Children’s Day Magic Timed Research
+
+RESOURCE ID: childrens_day_2025_tr_name_1
+TEXT: Children’s Day Magic Timed Research (1/2)
+
+RESOURCE ID: childrens_day_2025_tr_name_2
+TEXT: Children’s Day Magic Timed Research (2/2)
 
 RESOURCE ID: chinesetraditional
 TEXT: 繁體中文
@@ -19820,7 +19902,7 @@ RESOURCE ID: collection_aa2024_yogyakarta_day_02
 TEXT: Desafío de Colección de Pikachu de viaje por Indonesia
 
 RESOURCE ID: collection_book_name
-TEXT: Scrapbook
+TEXT: Álbum de recuerdos
 
 RESOURCE ID: collection_challenge_ar_safari_bidoof
 TEXT: Desafío de Intercambios: Bidoof
@@ -19868,13 +19950,13 @@ RESOURCE ID: collection_gotour_2024_seaside_metropolis_day_preview
 TEXT: Desafío de Colección: Metrópolis Costera
 
 RESOURCE ID: collection_paused
-TEXT: Stamp rally paused!
+TEXT: ¡Se pausó la Búsqueda de sellos!
 
 RESOURCE ID: collection_paused_short
-TEXT: PAUSED
+TEXT: PAUSADA
 
 RESOURCE ID: collection_reactivated
-TEXT: Stamp rally resumed!
+TEXT: ¡Se reanudó la Búsqueda de sellos!
 
 RESOURCE ID: collection_twlantern2023
 TEXT: Festival de las Linternas de Taiwán 2023
@@ -21039,10 +21121,10 @@ RESOURCE ID: complete_transfer_in_ph_app
 TEXT: Abre Pokémon HOME y termina el traslado de tus Pokémon.
 
 RESOURCE ID: completed_stamp_collection_header
-TEXT: COMPLETED STAMP RALLIES
+TEXT: BÚSQUEDAS DE SELLOS COMPLETADAS
 
 RESOURCE ID: confirm_send_button
-TEXT: SEND
+TEXT: ENVIAR
 
 RESOURCE ID: confirm_use_effective
 TEXT: {0} funcionó.
@@ -21766,7 +21848,7 @@ RESOURCE ID: desc_zorua_o_clock
 TEXT: Al comienzo de cada hora, ¡Zorua aparecerá en grandes cantidades!
 
 RESOURCE ID: details_banner
-TEXT: DETAILS
+TEXT: DETALLES
 
 RESOURCE ID: details_link_key
 TEXT: Para obtener más información, visita el <a href="https://pokemongolive.com/es_mx/news/">sitio web</a>.
@@ -21890,6 +21972,15 @@ TEXT: Gana {0} combates Dinamax
 
 RESOURCE ID: dmax_battle_win_singular
 TEXT: Gana un combate Dinamax
+
+RESOURCE ID: dmax_entei_max_battles
+TEXT: Entei Dinamax está apareciendo en los combates Max
+
+RESOURCE ID: dmax_entei_weekend_event_name
+TEXT: Fin de Semana de Combates Max de Entei Dinamax
+
+RESOURCE ID: dmax_entei_weekend_timed_research
+TEXT: Investigación Temporal del Fin de Semana de Combates Max de Entei Dinamax
 
 RESOURCE ID: dmax_ftue_0
 TEXT: ¡Pokémon al máximo! (1/3)
@@ -23073,6 +23164,9 @@ TEXT: 1 de febrero de 2:00 p. m. a 5:00 p. m.
 RESOURCE ID: event_datetime_range_key_gmaxlapras24
 TEXT: 8 de diciembre de 2:00 p. m. a 5:00 p. m.
 
+RESOURCE ID: event_datetime_range_key_gmaxsnorlax25
+TEXT: 19 de abril de 2:00 p. m. a 5:00 p. m.
+
 RESOURCE ID: event_datetime_range_key_gobattlemay2024
 TEXT: Del 4 de mayo a las 12:00 a. m. al
 5 de mayo a las 11:59 p. m.
@@ -23146,6 +23240,10 @@ TEXT: 11 de febrero de 2:00 p. m. a 10:00 p. m.
 
 RESOURCE ID: event_datetime_range_key_hoopaunboundraidday
 TEXT: 15 de febrero de 2:00 p. m. a 5:00 p. m.
+
+RESOURCE ID: event_datetime_range_key_horizonscb0425
+TEXT: Del 16 de abril a las 10:00 a. m.
+al 22 de abril a las 8:00 p. m.
 
 RESOURCE ID: event_datetime_range_key_janmonthly2025
 TEXT: Del 1 de enero a las 10:00 a. m. –
@@ -23263,9 +23361,16 @@ RESOURCE ID: event_datetime_range_key_shinycelebi24
 TEXT: Del 28 de junio a las 10:00 a. m. al
 3 de julio a las 8:00 p. m.
 
+RESOURCE ID: event_datetime_range_key_sis_apr25
+TEXT: Del 9 de abril a las 10:00 a. m.
+al 14 de abril a las 8:00 p. m.
+
 RESOURCE ID: event_datetime_range_key_slumberingsands24
 TEXT: Del 7 de junio a las 10:00 a. m. al
 12 de junio a las 8:00 p. m.
+
+RESOURCE ID: event_datetime_range_key_sparringpartnersraidday
+TEXT: 13 de abril de 2:00 p. m. a 5:00 p. m.
 
 RESOURCE ID: event_datetime_range_key_spelunkercove24
 TEXT: Del 15 de junio a las 10:00 a. m. al
@@ -23283,6 +23388,10 @@ RESOURCE ID: event_datetime_range_key_stunning_styles
 TEXT: Del 3 de abril a las 10:00 a. m.
 al 7 de abril a las 8:00 p. m.
 
+RESOURCE ID: event_datetime_range_key_sweet_discoveries_apr25
+TEXT: Del 24 de abril a las 10:00 a. m.
+al 29 de abril a las 8:00 p. m.
+
 RESOURCE ID: event_datetime_range_key_takeovermarch24
 TEXT: Del 27 de marzo a las 12:00 a. m. al
 31 de marzo a las 11:59 p. m.
@@ -23297,6 +23406,9 @@ al 31 de agosto de 2024 a las 8:00 p. m. en tu hora local.
 
 RESOURCE ID: event_datetime_range_key_tynamocd24
 TEXT: 21 de julio de 2:00 p. m. a 5:00 p. m.
+
+RESOURCE ID: event_datetime_range_key_tyrogue0425
+TEXT: 6 de abril de 2:00 p. m. a 5:00 p. m.
 
 RESOURCE ID: event_datetime_range_key_ultraspace24
 TEXT: Del 23 de mayo a las 10:00 a. m. al
@@ -24045,6 +24157,13 @@ TEXT: Obtén puntos para aumentar tu rango y desbloquear recompensas. Puedes con
 
 Recibirás las recompensas por completar tareas del Pase tan pronto como termines la tarea.
 
+RESOURCE ID: event_pass_micro_action_modal_desc_ab_test_disclaimer
+TEXT: Obtén puntos para aumentar tu nivel y desbloquear recompensas. Puedes conseguir puntos completando tareas del Pase o a través de los objetivos que se muestran aquí.
+
+Las recompensas que consigas por completar tareas del Pase se entregarán tan pronto como termines la tarea.
+
+<b>La función Pase de GO está en fase de prueba actualmente, y tanto la versión gratuita como la de pago del Pase de GO y sus recompensas únicamente se pueden obtener y canjear en las regiones del mundo en las que está disponible la prueba.</b>
+
 RESOURCE ID: event_pass_micro_action_modal_points_display
 TEXT: {0} puntos
 
@@ -24068,6 +24187,9 @@ TEXT: Se obtiene en el nivel 40
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_99
 TEXT: Se consigue en el rango 99
 
+RESOURCE ID: event_pass_premium_reward_banner_bottom_text_generic_rank
+TEXT: Se consigue en el nivel {0}
+
 RESOURCE ID: event_pass_premium_reward_banner_middle_text
 TEXT: Adorno Suerte
 
@@ -24084,7 +24206,7 @@ RESOURCE ID: event_pass_reward_preview_new_item_indicator
 TEXT: ¡NUEVO OBJETO!
 
 RESOURCE ID: event_pass_reward_preview_upsell_description
-TEXT: Esta recompensa está disponible con el Pase del Tour Deluxe.
+TEXT: Esta recompensa está disponible con la versión deluxe del Pase.
 
 RESOURCE ID: event_pass_rewards_journal
 TEXT: Recompensas canjeadas: {0}.
@@ -24195,7 +24317,7 @@ RESOURCE ID: event_surprise_bonuses_countdown
 TEXT: ¡Pronto se activarán las bonificaciones sorpresa!
 
 RESOURCE ID: event_time_header
-TEXT: EVENT TIME
+TEXT: PERIODO DEL EVENTO
 
 RESOURCE ID: event_title_anime_week
 TEXT: Semana de la Animación
@@ -24350,6 +24472,9 @@ TEXT: Evento de evolución: Gana {0} veces contra Líderes del Equipo GO Rocket
 RESOURCE ID: evolution_cup_title
 TEXT: Copa Evolución
 
+RESOURCE ID: evolution_description_applin
+TEXT: Este Pokémon puede evolucionar a diferentes Pokémon, dependiendo del tipo de manzana que le des. Las manzanas se encuentran cerca de Poképaradas que tienen un Módulo Señuelo Musgoso activo.
+
 RESOURCE ID: evolution_event_name
 TEXT: Evento de evolución
 
@@ -24478,6 +24603,9 @@ TEXT: Están apareciendo Pikachu Exploradores salvajes
 
 RESOURCE ID: explorer_title
 TEXT: Intercambio de regalos
+
+RESOURCE ID: expo_2025_event_overlay_title
+TEXT: Pokémon GO en EXPO 2025
 
 RESOURCE ID: external_box_name_1
 TEXT: Caja Leyenda Ultraespecial
@@ -26099,7 +26227,7 @@ RESOURCE ID: form_noice
 TEXT: Cara Deshielo
 
 RESOURCE ID: form_normal
-TEXT: Forma de Castform
+TEXT:  
 
 RESOURCE ID: form_oinkologne_female
 TEXT: Hembra
@@ -26183,7 +26311,7 @@ RESOURCE ID: form_rain
 TEXT: Forma Lluvia
 
 RESOURCE ID: form_rapid_strike
-TEXT: Rapid Strike Style
+TEXT: Estilo Fluido
 
 RESOURCE ID: form_red_striped
 TEXT: Forma Raya Roja
@@ -26288,7 +26416,7 @@ RESOURCE ID: form_silvally_water
 TEXT: Tipo: Agua
 
 RESOURCE ID: form_single_strike
-TEXT: Single Strike Style
+TEXT: Estilo Brusco
 
 RESOURCE ID: form_sky
 TEXT: Forma Cielo
@@ -26580,7 +26708,7 @@ TEXT: Un Pase de Incursión se puede usar para unirte a una incursión. Puedes o
 Si quieres participar en más de una incursión al día, puedes comprar Pases de Combate Prémium en la Tienda.
 
 RESOURCE ID: free_stamp_rally_completed_description
-TEXT: Congratulations! You completed the stamp rally! You’re welcome to continue collecting more stamps!
+TEXT: ¡Felicitaciones! ¡Completaste la Búsqueda de sellos! ¡Puedes seguir coleccionando más sellos!
 
 RESOURCE ID: free_ticket_bag_full_error
 TEXT: Tu Bolsa está llena. Haz espacio para un Pase de Incursión.
@@ -26616,7 +26744,7 @@ RESOURCE ID: friend_invited_you_to_ex_raid
 TEXT: te invitó a una incursión EX.
 
 RESOURCE ID: friend_is_at_a_max_battle
-TEXT: Has joined a <b>{0} {1}</b> Battle
+TEXT: Has joined a <b>{0}</b> battle
 
 RESOURCE ID: friend_is_at_a_raid
 TEXT: ¡{0} está en una <b>incursión de {1}</b>!
@@ -26923,7 +27051,7 @@ RESOURCE ID: fusion_resource_black_kyurem_name_plural
 TEXT: Energía Fusión Voltaje
 
 RESOURCE ID: fusion_resource_dawnwings_necrozma_desc
-TEXT: 
+TEXT: Se utiliza en la fusión de Necrozma con Lunala para formar a Necrozma Alas del Alba. Se puede encontrar al derrotar un Necrozma Alas del Alba en incursiones.
 
 RESOURCE ID: fusion_resource_dawnwings_necrozma_name
 TEXT: Energía Fusión Lunar
@@ -26932,7 +27060,7 @@ RESOURCE ID: fusion_resource_dawnwings_necrozma_name_plural
 TEXT: Energía Fusión Lunar
 
 RESOURCE ID: fusion_resource_duskmane_necrozma_desc
-TEXT: 
+TEXT: Se utiliza en la fusión de Necrozma con Solgaleo para formar un Necrozma Melena Crepuscular. Se puede encontrar al derrotar a Necrozma Melena Crepuscular en incursiones.
 
 RESOURCE ID: fusion_resource_duskmane_necrozma_name
 TEXT: Energía Fusión Solar
@@ -28100,6 +28228,9 @@ TEXT: Operación eclosión: Febrero
 RESOURCE ID: general1.ticket.5_gmaxlapras24_title
 TEXT: Entrada: Día de Combates Max de Lapras Gigamax
 
+RESOURCE ID: general1.ticket.5_gmaxsnorlax25_title
+TEXT: Entrada: Día de Combates Max de Snorlax Gigamax
+
 RESOURCE ID: general1.ticket.5_hoopaunboundraidday_title
 TEXT: Entrada: Día de Incursiones de Hoopa Desatado
 
@@ -28277,8 +28408,14 @@ TEXT: Entrada: Investigación Temporal Prémium del Día de Investigación de Or
 RESOURCE ID: general1.ticket._shinycelebi24_title
 TEXT: Entrada: Investigación Magistral "El susurro del bosque"
 
+RESOURCE ID: general1.ticket._sis_apr25_title
+TEXT: Entrada: Investigación Temporal Prémium de Primavera floreada
+
 RESOURCE ID: general1.ticket._slumberingsands24_title
 TEXT: Entrada: Investigación Temporal Prémium "Arenas relajantes"
+
+RESOURCE ID: general1.ticket._sparringpartnersraidday_title
+TEXT: Entrada: Día de Incursiones de Compañeros de sparring
 
 RESOURCE ID: general1.ticket._spelunkercove24_title
 TEXT: Entrada: Investigación Temporal "Encontronazo playero"
@@ -28289,11 +28426,17 @@ TEXT: Entrada: Investigación Temporal "Planeando hacia la victoria"
 RESOURCE ID: general1.ticket._stldrslv0125_title
 TEXT: Entrada: Investigación Temporal Prémium de Voluntad de acero
 
+RESOURCE ID: general1.ticket._sweet_discoveries_apr25_title
+TEXT: Entrada: Investigación Temporal Prémium de Dulces descubrimientos
+
 RESOURCE ID: general1.ticket._takeovermarch24_title
 TEXT: Entrada: Investigación Temporal "Tras el Equipo GO Rocket"
 
 RESOURCE ID: general1.ticket._ttfinale24_title
 TEXT: Entrada: Investigación Temporal Prémium de Triunfo en equipo
+
+RESOURCE ID: general1.ticket._tyrogue0425_title
+TEXT: Entrada: Investigación Temporal Prémium del Día de Eclosiones de Tyrogue
 
 RESOURCE ID: general1.ticket._ultraspace24_title
 TEXT: Entrada: Investigación Temporal "Maravillas del Ultraespacio"
@@ -28685,6 +28828,9 @@ TEXT: Entrada: Investigación Temporal Prémium de la Semana de la Moda
 
 RESOURCE ID: general2.ticket.5_gmaxkingler25_title
 TEXT: Entrada: Día de Combates Max de Kingler Gigamax
+
+RESOURCE ID: general2.ticket.6_horizonscb0425_title
+TEXT: Entrada: Investigación Temporal Prémium del Tintineo de Tinkatink
 
 RESOURCE ID: general2.ticket.6_megaabsolraidday_title
 TEXT: Entrada: Día de Incursiones de Mega-Absol
@@ -29648,6 +29794,12 @@ TEXT: Lapras Gigamax está apareciendo en los combates Max
 
 RESOURCE ID: gmax_max_battles
 TEXT: Los Pokémon Gigamax están apareciendo en los combates Max
+
+RESOURCE ID: gmax_snorlax_lead_up_timed_research
+TEXT: Preparativos para la Investigación Temporal del Día de Combates Max de Snorlax Gigamax
+
+RESOURCE ID: gmax_snorlax_max_battles
+TEXT: Snorlax Gigamax está apareciendo en los combates Max
 
 RESOURCE ID: go_anniversary_event_name
 TEXT: Aniversario de Pokémon GO
@@ -37331,6 +37483,30 @@ TEXT: Cargar ahora
 RESOURCE ID: hoopas_arrival_2021_collection_challenge
 TEXT: Desafío de Colección de La llegada de Hoopa
 
+RESOURCE ID: horizons_collab_event_name
+TEXT: Evento de Celebración de la Serie Horizontes Pokémon
+
+RESOURCE ID: horizons_free_tr_name
+TEXT: Investigación Temporal de Evento de Celebración de la Serie Horizontes Pokémon
+
+RESOURCE ID: horizons_free_tr_name_1
+TEXT: Investigación Temporal de Evento de Celebración de la Serie Horizontes Pokémon (1/4)
+
+RESOURCE ID: horizons_free_tr_name_2
+TEXT: Investigación Temporal de Evento de Celebración de la Serie Horizontes Pokémon (2/4)
+
+RESOURCE ID: horizons_free_tr_name_3
+TEXT: Investigación Temporal de Evento de Celebración de la Serie Horizontes Pokémon (3/4)
+
+RESOURCE ID: horizons_free_tr_name_4
+TEXT: Investigación Temporal de Evento de Celebración de la Serie Horizontes Pokémon (4/4)
+
+RESOURCE ID: horizons_paid_tr_name
+TEXT: Investigación Temporal Prémium del Tintineo de Tinkatink
+
+RESOURCE ID: horizons_promo_free_tr_name
+TEXT: Bonificación de Investigación Temporal de Evento de Celebración de la Serie Horizontes Pokémon
+
 RESOURCE ID: hour_abbrev
 TEXT: h
 
@@ -37552,6 +37728,9 @@ TEXT: Más Polvo Estrella al derrotar a Reclutas del Equipo GO Rocket
 
 RESOURCE ID: increased_stardust_xp_gifts_bonus
 TEXT: Más EXP y Polvo Estrella al abrir regalos
+
+RESOURCE ID: increased_tappable_spawns_mossy_lures
+TEXT: Más manzanas cerca de las Poképaradas con un Módulo Señuelo Musgoso activo
 
 RESOURCE ID: increased_transfer_candy_xl_bonus
 TEXT: Aumento de la transferencia de Caramelos y aumento de la transferencia de Caramelos XL
@@ -38178,6 +38357,9 @@ TEXT: Un objeto en el que se absorben las células de Zygarde. Tienes {0} célul
 RESOURCE ID: item_breakfast_name
 TEXT: Arca de Zygarde
 
+RESOURCE ID: item_description_applin
+TEXT: Usa las manzanas que encuentres cerca de Poképaradas con Módulos Señuelo Musgoso activos para hacer que Applin evolucione.
+
 RESOURCE ID: item_dragon_scale_desc
 TEXT: Escama que hace evolucionar a determinadas especies de Pokémon. Es gruesa y resistente.
 
@@ -38387,6 +38569,9 @@ TEXT: Una entrada para acceder a la Investigación Temporal Prémium del Festiva
 RESOURCE ID: item_event_ticket_evergreen_desc_hemisphereholidays1224
 TEXT: Una entrada para acceder a la Investigación Temporal Prémium de Fiestas de fin de año Parte 1: Vacaciones en la playa hasta el 22 de diciembre de 2024 a las 10:00 a. m. en tu hora local, estés donde estés.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_horizonscb0425
+TEXT: Una entrada para acceder a la Investigación Temporal Prémium del Tintineo de Tinkatink hasta el 22 de abril de 2025 a las 8:00 p. m. en tu hora local, estés donde estés.
+
 RESOURCE ID: item_event_ticket_evergreen_desc_lunarny0125
 TEXT: Una entrada para acceder a la Investigación Temporal Prémium del Año Nuevo Lunar hasta el 2 de febrero de 2025 a las 8:00 p. m. en tu hora local, estés donde estés.
 
@@ -38405,8 +38590,17 @@ TEXT: Una entrada para acceder a la Investigación Temporal Prémium de Año Nue
 RESOURCE ID: item_event_ticket_evergreen_desc_psychspec24
 TEXT: Una entrada para acceder a la Investigación Temporal Prémium  de Psicoespectáculo 2024 del 18 de septiembre a las 10:00 a. m. al 22 de septiembre de 2024 a las 8:00 p. m. en tu hora local, estés donde estés.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_sis_apr25
+TEXT: Una entrada para acceder a la Investigación Temporal Prémium dePrimavera floreada del 9 de abril a las 10:00 a. m. al 14 de abril de 2025 a las 8:00 p. m. en tu hora local, estés donde estés.
+
 RESOURCE ID: item_event_ticket_evergreen_desc_stldrslv0125
 TEXT: Una entrada para acceder a la Investigación Temporal Prémium de Voluntad de acero hasta el 26 de enero de 2025 a las 11:59 p. m. en tu hora local, estés donde estés.
+
+RESOURCE ID: item_event_ticket_evergreen_desc_sweet_discoveries_apr25
+TEXT: Una entrada para acceder a la Investigación Temporal Prémium de Dulces descubrimientos del 24 de abril a las 10:00 a. m. al 29 de abril de 2025 a las 8:00 p. m. en tu hora local, estés donde estés.
+
+RESOURCE ID: item_event_ticket_evergreen_desc_tyrogue0425
+TEXT: Una entrada para acceder a la Investigación Temporal Prémium del Día de Eclosiones de Tyrogue hasta el 6 de abril de 2025 a las 5:00 p. m. en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_evergreen_desc_yamasktr24
 TEXT: Una entrada para acceder a dos Investigaciones Temporales Prémium del Día de Investigación de Yamask y Yamask de Galar el 19 de octubre de 2024 de 2:00 p. m. a 5:00 p. m. en tu hora local, estés donde estés.
@@ -38432,6 +38626,9 @@ TEXT: Esta entrada se activará automáticamente para darte acceso a la Investig
 RESOURCE ID: item_event_ticket_evergreen_details_hemisphereholidays1224
 TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Temporal Prémium de Fiestas de fin de año Parte 1: Vacaciones en la playa el 17 de diciembre, estés donde estés.
 
+RESOURCE ID: item_event_ticket_evergreen_details_horizonscb0425
+TEXT: Esta entrada se activará automáticamente el 16 de abril para darte acceso a la Investigación Temporal Prémium del Tintineo de Tinkatink, estés donde estés.
+
 RESOURCE ID: item_event_ticket_evergreen_details_lunarny0125
 TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Temporal Prémium del Año Nuevo Lunar el 29 de enero, estés donde estés.
 
@@ -38450,8 +38647,17 @@ TEXT: Esta entrada se activará automáticamente para darte acceso a la Investig
 RESOURCE ID: item_event_ticket_evergreen_details_psychspec24
 TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Temporal Prémium de Psicoespectáculo 2024 el 18 de septiembre, estés donde estés.
 
+RESOURCE ID: item_event_ticket_evergreen_details_sis_apr25
+TEXT: Esta entrada se activará automáticamente el 9 de abril para darte acceso a la Investigación Temporal Prémium Primavera floreada, estés donde estés.
+
 RESOURCE ID: item_event_ticket_evergreen_details_stldrslv0125
 TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Temporal Prémium de Voluntad de acero el 21 de enero, estés donde estés.
+
+RESOURCE ID: item_event_ticket_evergreen_details_sweet_discoveries_apr25
+TEXT: Esta entrada se activará automáticamente el 24 de abril para darte acceso a la Investigación Temporal Prémium de Dulces descubrimientos, estés donde estés.
+
+RESOURCE ID: item_event_ticket_evergreen_details_tyrogue0425
+TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Temporal Prémium del Día de Eclosiones de Tyrogue el 6 de abril, estés donde estés.
 
 RESOURCE ID: item_event_ticket_evergreen_details_yamasktr24
 TEXT: Esta entrada se activará automáticamente para darte acceso a dos Investigaciones Temporales Prémium del Día de Investigación de Yamask y Yamask de Galar el 19 de octubre, estés donde estés.
@@ -38500,6 +38706,9 @@ TEXT: Una entrada para acceder a bonificaciones especiales el 1 de febrero de 20
 
 RESOURCE ID: item_event_ticket_gray_desc_gmaxlapras24
 TEXT: Una entrada para acceder a bonificaciones especiales el 8 de diciembre de 2024 de 2:00 p. m. a 5:00 p. m. en tu hora local, estés donde estés.
+
+RESOURCE ID: item_event_ticket_gray_desc_gmaxsnorlax25
+TEXT: Una entrada para acceder a bonificaciones especiales el 19 de abril de 2025 de 2:00 p. m. a 5:00 p. m. en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_gray_desc_gofest2023
 TEXT: Una entrada global para acceder al Festival de Pokémon GO 2023, estés donde estés.
@@ -38567,6 +38776,9 @@ TEXT: Una entrada para acceder a bonificaciones especiales el domingo 19 de ener
 RESOURCE ID: item_event_ticket_gray_desc_shinycelebi
 TEXT: Una entrada para acceder a la Investigación Magistral "El susurro del bosque" desde el 28 de junio de 2024 a las 10:00 a. m. en tu hora local, estés donde estés.
 
+RESOURCE ID: item_event_ticket_gray_desc_sparringpartnersraidday
+TEXT: Una entrada para acceder a bonificaciones especiales el domingo 13 de abril de 2025 de 2:00 p. m. a 5:00 p. m. en tu hora local, estés donde estés.
+
 RESOURCE ID: item_event_ticket_gray_desc_ticketoftreats
 TEXT: Una entrada para acceder a una nueva Investigación Temporal cada jueves de octubre, estés donde estés.
 
@@ -38602,6 +38814,9 @@ TEXT: Esta entrada se activará automáticamente para darte acceso a las bonific
 
 RESOURCE ID: item_event_ticket_gray_details_gmaxlapras24
 TEXT: Esta entrada se activará automáticamente para darte acceso a las bonificaciones especiales el 8 de diciembre, estés donde estés.
+
+RESOURCE ID: item_event_ticket_gray_details_gmaxsnorlax25
+TEXT: Esta entrada se activará automáticamente para darte acceso a bonificaciones especiales el 19 de abril, estés donde estés.
 
 RESOURCE ID: item_event_ticket_gray_details_gofest2023
 TEXT: Esta entrada se activará automáticamente para darte acceso al Festival de Pokémon GO 2023 (Global), el 26 y 27 de agosto de 2023, estés donde estés.
@@ -38665,6 +38880,9 @@ TEXT: Esta entrada se activará automáticamente para darte acceso a las bonific
 
 RESOURCE ID: item_event_ticket_gray_details_shinycelebi
 TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Magistral "El susurro del bosque" el 28 de junio, estés donde estés.
+
+RESOURCE ID: item_event_ticket_gray_details_sparringpartnersraidday
+TEXT: Esta entrada se activará automáticamente para darte acceso a bonificaciones especiales el 13 de abril, estés donde estés.
 
 RESOURCE ID: item_event_ticket_gray_details_ticketoftreats
 TEXT: Esta entrada se activará automáticamente para darte acceso a una serie de Investigaciones Temporales hasta el martes 31 de octubre de 2023 a las 11:59 p. m. en tu hora local, estés donde estés.
@@ -39548,10 +39766,7 @@ RESOURCE ID: item_move_reroll_special_attack_name
 TEXT: MT de ataque cargado
 
 RESOURCE ID: item_mp_desc
-TEXT:  
-
-RESOURCE ID: item_mp_desc_temp
-TEXT: Use Max Particles to take on Max Battles at Power Spots or unlock and level up Max Moves.
+TEXT: Usa Partículas Max para acceder a combates Max en los Nodos Energéticos o para desbloquear y mejorar movimientos Max.
 
 RESOURCE ID: item_mp_name
 TEXT: Partícula Max
@@ -39576,6 +39791,37 @@ TEXT: Monedas de Gimmighoul
 
 RESOURCE ID: item_other_evolution_stone_a_name_plural
 TEXT: Moneda de Gimmighoul
+
+RESOURCE ID: item_other_evolution_stone_maple_a_desc
+TEXT: Una curiosa manzana, de sabor particularmente dulce, que hace evolucionar a una determinada especie de Pokémon.
+
+Las manzanas se encuentran cerca de las Poképaradas que tienen un Módulo Señuelo Musgoso activo.
+
+RESOURCE ID: item_other_evolution_stone_maple_a_name
+TEXT: Manzana Dulce
+
+RESOURCE ID: item_other_evolution_stone_maple_a_name_plural
+TEXT: Sweet Apples
+
+RESOURCE ID: item_other_evolution_stone_maple_b_desc
+TEXT: Una curiosa manzana, de sabor particularmente ácido, que hace evolucionar a una determinada especie de Pokémon.
+
+Las manzanas se encuentran cerca de las Poképaradas que tienen un Módulo Señuelo Musgoso activo.
+
+RESOURCE ID: item_other_evolution_stone_maple_b_name
+TEXT: Manzana Ácida
+
+RESOURCE ID: item_other_evolution_stone_maple_b_name_plural
+TEXT: Tart Apples
+
+RESOURCE ID: item_other_evolution_stone_maple_c_desc
+TEXT: Una curiosa manzana, de sabor particularmente empalagoso, que hace evolucionar a una determinada especie de Pokémon.
+
+RESOURCE ID: item_other_evolution_stone_maple_c_name
+TEXT: Manzana Empalagosa
+
+RESOURCE ID: item_other_evolution_stone_maple_c_name_plural
+TEXT: Syrupy Apples
 
 RESOURCE ID: item_paid_raid_ticket_desc
 TEXT: Puedes usar un Pase de Combate Prémium para unirte a una incursión o para entrar a la Liga de Combates GO Prémium.
@@ -39620,19 +39866,19 @@ RESOURCE ID: item_postcard_inventory_desc
 TEXT: Un álbum para coleccionar postales y recordar lugares de tu aventura y de tus amistades.
 
 RESOURCE ID: item_postcard_inventory_desc_old
-TEXT: A book for collecting Postcards and remembering locations from your and your friends’ journeys.
+TEXT: Un álbum para coleccionar postales y recordar los lugares de tus aventuras con tus amistades.
 
 RESOURCE ID: item_postcard_inventory_desc_stamp
-TEXT: A book for collecting Postcards and stamps from your and your friends’ journeys.
+TEXT: Un álbum para coleccionar postales y sellos de tus aventuras con tus amistades.
 
 RESOURCE ID: item_postcard_inventory_name
 TEXT: Álbum de postales
 
 RESOURCE ID: item_postcard_inventory_name_old
-TEXT: Postcard Book
+TEXT: Álbum de postales
 
 RESOURCE ID: item_postcard_inventory_name_stamp
-TEXT: Scrapbook
+TEXT: Álbum de recuerdos
 
 RESOURCE ID: item_postcard_storage_upgrade_name
 TEXT: Páginas para postales
@@ -39861,6 +40107,9 @@ TEXT: ¡Puedes usarlo para encontrar las guaridas del Equipo GO Rocket!
 
 RESOURCE ID: itemleadermap_title
 TEXT: Radar Rocket
+
+RESOURCE ID: items_picked_up
+TEXT: ¡Encontraste algo!
 
 RESOURCE ID: itemstorageupgrade.1_description
 TEXT: Amplía en {0} el número máximo de objetos que puedes llevar.
@@ -40146,6 +40395,36 @@ TEXT: Investigación Temporal de Fondo del Festival de la Primavera en Flor 2025
 
 RESOURCE ID: kr_cherryblossom_festival_2025_yeouido_bonus
 TEXT: Festival de la Primavera en Flor 2025: Bonificación de Yeouido
+
+RESOURCE ID: kr_ditto_event_2025_ditto_o_clock_active
+TEXT: Ditto are now appearing in large numbers!
+
+RESOURCE ID: kr_ditto_event_2025_ditto_o_clock_desc
+TEXT: At the top of each hour during the event, Ditto will appear in large numbers for three minutes!
+
+RESOURCE ID: kr_ditto_event_2025_ditto_o_clock_title
+TEXT: It’s Ditto time!
+
+RESOURCE ID: kr_ditto_event_2025_ditto_sticker_jamsil_area
+TEXT: More likely to receive event-themed stickers from spinning PokéStops and Gyms in the Pokémon Town 2025 event area
+
+RESOURCE ID: kr_ditto_event_2025_pokemon_town_2025
+TEXT: Pokémon Town 2025
+
+RESOURCE ID: kr_ditto_event_2025_title
+TEXT: 1, 3, 2! It’s Ditto Time!
+
+RESOURCE ID: kr_ditto_event_2025_tr_name
+TEXT: A Study in Purple Timed Research
+
+RESOURCE ID: kr_ditto_event_2025_tr_name_1
+TEXT: A Study in Purple Timed Research (1/3)
+
+RESOURCE ID: kr_ditto_event_2025_tr_name_2
+TEXT: A Study in Purple Timed Research (2/3)
+
+RESOURCE ID: kr_ditto_event_2025_tr_name_3
+TEXT: A Study in Purple Timed Research (3/3)
 
 RESOURCE ID: kr_festival_fr_location_background
 TEXT: Los Deerling y los Pikachu con disfraz atrapados en tareas de Investigación de Campo pueden tener un fondo de la ubicación exclusivo
@@ -43298,6 +43577,9 @@ TEXT: Estudio del magnetismo: Plusle
 RESOURCE ID: magnetic_study_plusle_tr_name
 TEXT: Investigación Temporal de Estudio del magnetismo: Plusle
 
+RESOURCE ID: make_good_kyurem_desc
+TEXT: Encuentro: Kyurem (2025)
+
 RESOURCE ID: make_good_kyurem_title_001
 TEXT: Encuentro 1: Kyurem
 
@@ -43543,6 +43825,81 @@ TEXT: Una sombra asombrosa (6/6)
 
 RESOURCE ID: marshadow_global_sr_name
 TEXT: Una sombra asombrosa
+
+RESOURCE ID: marshadow_sr_00_00
+TEXT: ¡Ajá, %PLAYERNAME%, justo a quien quería ver! Dime, ¿notaste algo inusual con tu sombra últimamente?
+
+RESOURCE ID: marshadow_sr_00_01
+TEXT: Varios Entrenadores de la región afirman haber visto algo extraño en sus sombras.
+
+RESOURCE ID: marshadow_sr_00_02
+TEXT: Estoy casi convencido de que todo esto encaja con algo que investigué hace tiempo, pero tengo que encontrar mis notas antes de poder confirmar mi teoría.
+
+RESOURCE ID: marshadow_sr_00_03
+TEXT: Si te parece, procedamos con el método más infalible: yo busco en mis archivos y tú sales a investigar. ¡Tus observaciones pueden ser clave!
+
+RESOURCE ID: marshadow_sr_01_00
+TEXT: ¡%PLAYERNAME%! ¿Buscas al Profe? Acaba de pasar por aquí hace un segundo. Y llevaba un cuaderno enorme.
+
+RESOURCE ID: marshadow_sr_01_01
+TEXT: El ambiente se puso muy incómodo últimamente con esas sombras raras que andan asustando a la gente. O sea, no es que yo tenga miedo. ¡A mí no me preocupa en lo más mínimo!
+
+RESOURCE ID: marshadow_sr_01_02
+TEXT: Pero si quieres tomarte un descanso de perseguir sombras, podemos ir a dar una vuelta, intercambiar ideas sobre estrategias de combate y comer algo.
+
+RESOURCE ID: marshadow_sr_01_03
+TEXT: ¿No? Bueno, tienes razón, ¡quizá primero deberíamos encontrar al Profesor Willow!
+
+RESOURCE ID: marshadow_sr_02_00
+TEXT: Saludos, %PLAYERNAME%. Noto que mi presencia te tomó por sorpresa. No te preocupes, yo no me sobresalté.
+
+RESOURCE ID: marshadow_sr_02_01
+TEXT: Buscas al Profesor Willow, ¿verdad? Lo vi hace un momento, aunque su comportamiento era un tanto... inusual. Parecía que perseguía algo entre las sombras en aquella dirección.
+
+RESOURCE ID: marshadow_sr_02_02
+TEXT: Estas anomalías en las sombras de las que seguro ya te enteraste son una cuestión que estudié personalmente, aunque mis observaciones aún tienen que dar un resultado definitivo.
+
+RESOURCE ID: marshadow_sr_02_03
+TEXT: Es posible que tu investigación acabe siendo más fructífera. Pero ten cuidado, %PLAYERNAME%.
+
+RESOURCE ID: marshadow_sr_03_00
+TEXT: ¡Oh, %PLAYERNAME%! ¿También andas en busca del Profesor Willow?
+
+RESOURCE ID: marshadow_sr_03_01
+TEXT: ¿Viste esas sombras extrañas? Pues no son una cosa casual: algo se mueve a través de ellas. Algo interesante.
+
+RESOURCE ID: marshadow_sr_03_02
+TEXT: Mientras Blanche anda con sus análisis y Spark salta cada vez que ve una sombra, ¡propongo que encaremos la situación de frente!
+
+RESOURCE ID: marshadow_sr_03_03
+TEXT: Nunca te olvides de mantener tu espíritu de lucha vivo, %PLAYERNAME%. ¡Sea lo que sea eso, nos está poniendo a prueba!
+
+RESOURCE ID: marshadow_sr_04_00
+TEXT: ¡Por fin te encuentro, %PLAYERNAME%! Debemos habernos estado cruzando sin vernos por culpa de todas estas sombras.
+
+RESOURCE ID: marshadow_sr_04_01
+TEXT: Comparé los datos más recientes con mis viejas notas ¡y logré identificar la fuente de este misterio!
+
+RESOURCE ID: marshadow_sr_04_02
+TEXT: Hay una presencia poderosa ahí fuera que observa a los Entrenadores y a los Pokémon. Y, por lo que veo en los datos, debe de andar cerca.
+
+RESOURCE ID: marshadow_sr_04_03
+TEXT: Estamos ante una gran investigación, ¡y tú eres la persona indicada para ella!
+
+RESOURCE ID: marshadow_sr_04_04
+TEXT: Sal a investigar la causa de todas esas extrañas sombras. Pero recuerda tener cuidado: ¡no sabemos a ciencia cierta qué se esconde en la oscuridad!
+
+RESOURCE ID: marshadow_sr_05_00
+TEXT: ¡Gran trabajo, %PLAYERNAME%!
+
+RESOURCE ID: marshadow_sr_05_01
+TEXT: Las sombras extrañas eran en realidad el Pokémon mítico Marshadow, ¡que se estaba escondiendo a simple vista! Más o menos...
+
+RESOURCE ID: marshadow_sr_05_02
+TEXT: Seguir su camino en la oscuridad nos ayudó a acercarnos más de lo que esperábamos, pero fue tu conexión especial con los Pokémon lo que logró finalmente sacarlo a la luz.
+
+RESOURCE ID: marshadow_sr_05_03
+TEXT: ¡Un momento para el recuerdo! No solo resolviste el misterio de las sombras, ¡sino que también entablaste una nueva y poderosa amistad con Marshadow!
 
 RESOURCE ID: master_classic_title
 TEXT: Liga Masterbola Clásica
@@ -44047,6 +44404,12 @@ TEXT: Día de Combates Max de Lapras Gigamax
 
 RESOURCE ID: max_battle_day_gigantamax_lapras_ticketed
 TEXT: Bonificaciones de la entrada del Día de Combates Max de Lapras Gigamax
+
+RESOURCE ID: max_battle_day_gigantamax_snorlax_event_name
+TEXT: Día de Combates Max de Snorlax Gigamax
+
+RESOURCE ID: max_battle_day_gigantamax_snorlax_ticketed
+TEXT: Bonificaciones de la entrada del Día de Combates Max de Snorlax Gigamax
 
 RESOURCE ID: max_battler_box
 TEXT: Caja Combates Max
@@ -44574,9 +44937,9 @@ RESOURCE ID: meshing_option_title
 TEXT: Mallado
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2025-04-16T17:04:50.234650+00:00 for es-MX
-at SHA a402bc82364
-Pipeline 3159593, job 39742215
+TEXT: Built at 2025-04-23T19:20:33.523432+00:00 for es-MX
+at SHA 0d9569809feef
+Pipeline 3173772, job 40065633
 
 RESOURCE ID: mex_fighting_promo_title
 TEXT: Investigación Temporal: Elige tu tipo de lucha
@@ -44754,6 +45117,9 @@ TEXT: {0} min {1} s
 
 RESOURCE ID: ml_bundle_timer_tag
 TEXT: Se actualiza a medianoche
+
+RESOURCE ID: mlb_key
+TEXT: MLB
 
 RESOURCE ID: mobile_games_catch_sr
 TEXT: Mobile Games Show: Desafío de Captura
@@ -46063,6 +46429,9 @@ TEXT: Llama Gélida
 RESOURCE ID: move_name_0468
 TEXT: Canto Ígneo
 
+RESOURCE ID: move_name_0471
+TEXT: Palma Rauda
+
 RESOURCE ID: move_required_to_enable_adventure_effect
 TEXT: {0} no conoce el ataque cargado {1}, por lo que no conocerá un ataque con un Efecto aventura tras fusionarse.
 
@@ -46090,6 +46459,9 @@ TEXT: Mientras {0} esté megaevolucionado, ganarás Caramelos y EXP adicionales,
 RESOURCE ID: mp_bonus_buff_desc_3
 TEXT: Mientras {0} esté megaevolucionado, ganarás Caramelos y EXP adicionales, y tendrás una mayor probabilidad de obtener Caramelos XL cuando atrapes Pokémon de tipo <b>{1}</b>, <b>{2}</b> o <b>{3}</b>.
 
+RESOURCE ID: mp_explore_quarter
+TEXT: 1/4 de la distancia habitual para obtener Partículas Max
+
 RESOURCE ID: mp_replenish.1_description
 TEXT: Una pequeña Caja de Partículas Max. Cada una contiene {0} Partículas Max.
 
@@ -46103,6 +46475,16 @@ TEXT: 3 pequeñas cajas de Partículas Max. Cada una contiene {0} Partículas Ma
 RESOURCE ID: mp_replenish.3_title
 TEXT: 3 Cajas de PM
 ({0})
+
+RESOURCE ID: mp_replenish_rrp.1_title
+TEXT: 1 Remote Raid Pass
+1 Max Particle Pack
+({0} MP)
+
+RESOURCE ID: mp_replenish_rrp.3_title
+TEXT: 3 Remote Raid Passes
+3 Max Particle Packs
+({0} MP)
 
 RESOURCE ID: mrd_berry_easy
 TEXT: Investigación de Minccino: Usa 3 bayas para ayudarte a atrapar Pokémon
@@ -49366,6 +49748,18 @@ TEXT: Planear
 RESOURCE ID: nearby_rsvp_no_rsvps
 TEXT: No tienes futuros combates planeados.
 
+RESOURCE ID: nearby_rsvp_notification_max_battle_key
+TEXT: Join {0} Trainers in a nearby Gigantamax Battle starting soon!
+
+RESOURCE ID: nearby_rsvp_notification_max_battle_key_singular
+TEXT: Join a nearby Gigantamax Battle starting soon!
+
+RESOURCE ID: nearby_rsvp_notification_raid_key
+TEXT: Join {0} Trainers in a nearby Raid Battle starting soon!
+
+RESOURCE ID: nearby_rsvp_notification_raid_key_singular
+TEXT: Join a nearby Raid Battle starting soon!
+
 RESOURCE ID: nearby_rsvp_reminders_header
 TEXT: RECORDATORIOS
 
@@ -49944,7 +50338,7 @@ RESOURCE ID: oneyearanniversary.1_title
 TEXT: Caja Aniversario
 
 RESOURCE ID: ongoing_stamp_collection_header
-TEXT: ONGOING STAMP RALLIES
+TEXT: BÚSQUEDAS DE SELLOS EN CURSO
 
 RESOURCE ID: online_status_onboarding_description
 TEXT: Tu estado de conexión permitirá a tus amistades saber si estás disponible para combates de Entrenador.
@@ -50885,19 +51279,19 @@ RESOURCE ID: passcode_rpc_timeout
 TEXT: Se agotó el tiempo de la solicitud para canjear el código. Comprueba tu configuración de red e inténtalo de nuevo.
 
 RESOURCE ID: pause_dialog_message
-TEXT: You can still receive stamps from your friends even if you pause the rally. If you don’t want to receive stamps from them, you can disable that feature on the Settings page.
+TEXT: Podrás seguir recibiendo sellos de tus amistades incluso después de pausar la búsqueda. Si no quieres recibir sellos de tus amistades, puedes desactivar la función en Opciones.
 
 RESOURCE ID: pause_dialog_subtitle
-TEXT: You will stop collecting stamps for this rally if you pause it. You can resume the rally at any time from the collection page.
+TEXT: Dejarás de coleccionar sellos para esta búsqueda si la pones en pausa. Puedes reanudarla en cualquier momento desde la página de colecciones.
 
 RESOURCE ID: pause_dialog_title
-TEXT: Are you sure you want to pause?
+TEXT: ¿De verdad quieres pausarla?
 
 RESOURCE ID: pause_route_travel_error_toast
 TEXT: Error al pausar la Ruta
 
 RESOURCE ID: pause_stamp_rally_button
-TEXT: PAUSE
+TEXT: PAUSAR
 
 RESOURCE ID: pending_friend_request
 TEXT: Ya tienes una solicitud de amistad pendiente de esta persona.
@@ -55911,7 +56305,7 @@ RESOURCE ID: pokemon_category_1008_2997
 TEXT: Pokémon Paradoja
 
 RESOURCE ID: pokemon_caught_stamp_rally
-TEXT: CAUGHT DURING A STAMP RALLY
+TEXT: ATRAPADO DURANTE UNA BÚSQUEDA DE SELLOS
 
 RESOURCE ID: pokemon_costume_info_transfer_to_professor_confirmation
 TEXT: ¿De verdad quieres transferir este Pokémon de un evento?
@@ -59856,6 +60250,9 @@ TEXT: Uno o más de los Pokémon seleccionados no puede transferirse.
 
 RESOURCE ID: pokemon_info_panel_defended_gym_raid_active_message
 TEXT: Incursión en curso... Tus Pokémon volverán al Gimnasio una vez que termine la incursión.
+
+RESOURCE ID: pokemon_info_pokecoin_label
+TEXT: POKÉCOIN
 
 RESOURCE ID: pokemon_info_pokemon_is_released
 TEXT: {0} fue liberado.
@@ -64530,6 +64927,9 @@ TEXT: Usa un ataque cargado supereficaz en {0} combates de Gimnasio
 RESOURCE ID: quest_battle_supereffective_charge_singular
 TEXT: Usa un ataque cargado supereficaz en un combate de Gimnasio
 
+RESOURCE ID: quest_battle_team_rocket
+TEXT: Misión: Derrota a {0} miembros del Equipo GO Rocket
+
 RESOURCE ID: quest_battle_team_rocket_days
 TEXT: Combate contra miembros del Equipo GO Rocket en {0} días diferentes
 
@@ -64956,6 +65356,9 @@ TEXT: Atrapa {0} Pokémon legendarios
 
 RESOURCE ID: quest_catch_pokemon_legendary_singular
 TEXT: Atrapa un Pokémon legendario
+
+RESOURCE ID: quest_catch_pokemon_legendary_ultra_beast_singular
+TEXT: Atrapa un Pokémon legendario o un Ultraente
 
 RESOURCE ID: quest_catch_pokemon_party_plural
 TEXT: Atrapa {0} Pokémon cuando estés en un equipo
@@ -68785,6 +69188,9 @@ TEXT: Evoluciona {0} Duskull o Shuppet
 RESOURCE ID: quest_hallo19_transfer_plural
 TEXT: Transfiere {0} Pokémon
 
+RESOURCE ID: quest_hatch_egg
+TEXT: Misión: Eclosiona 1 Huevo
+
 RESOURCE ID: quest_hatch_egg_plural
 TEXT: Eclosiona {0} Huevos
 
@@ -69334,6 +69740,9 @@ TEXT: Da más poder a Pokémon legendarios o míticos {0} veces
 RESOURCE ID: quest_power_up_legendary_singular
 TEXT: Da más poder a un Pokémon legendario o mítico
 
+RESOURCE ID: quest_power_up_machop_plural
+TEXT: Da más poder a Machop {0} veces
+
 RESOURCE ID: quest_power_up_max_plural
 TEXT: Da más poder a {0} Pokémon hasta que alcancen sus PC máximos
 
@@ -69693,6 +70102,9 @@ TEXT: Evoluciona un Scorbunny
 
 RESOURCE ID: quest_send_gifts_daily_row
 TEXT: Envía regalos {0} días seguidos
+
+RESOURCE ID: quest_send_gifts_days
+TEXT: Envía un regalo en {0} días diferentes
 
 RESOURCE ID: quest_send_gifts_plural
 TEXT: Envía {0} regalos a amistades
@@ -83867,6 +84279,9 @@ TEXT: Intercambia {0} Pikachu
 RESOURCE ID: quest_trade_plural
 TEXT: Intercambia Pokémon {0} veces
 
+RESOURCE ID: quest_trade_pokemon
+TEXT: Misión: Intercambia 1 Pokémon
+
 RESOURCE ID: quest_trade_singular
 TEXT: Intercambia 1 Pokémon
 
@@ -84146,6 +84561,9 @@ TEXT: Registra tu sueño usando Pokémon GO Plus + durante 1 día
 RESOURCE ID: quest_waina_spin_pokestop_plural
 TEXT: Gira {0} fotodiscos en Poképaradas usando un Pokémon GO Plus +
 
+RESOURCE ID: quest_walk
+TEXT: Misión: Explora {0} km
+
 RESOURCE ID: quest_walk_25km_inaweek_plural
 TEXT: Recibe las recompensas semanales de 25 km de Sincroaventura {0} veces
 
@@ -84337,6 +84755,12 @@ TEXT: Derrota a un Líder del Equipo GO Rocket {0} veces usando solo Pokémon co
 
 RESOURCE ID: quest_win_rocket_leader_less4000cp_plural
 TEXT: Derrota a un Líder del Equipo GO Rocket {0} veces usando solo Pokémon con 4,000 PC o menos
+
+RESOURCE ID: quest_win_shadow_raid_plural
+TEXT: Gana {0} incursiones oscuras
+
+RESOURCE ID: quest_win_shadow_raid_singular
+TEXT: Gana una incursión oscura
 
 RESOURCE ID: quest_wooper_catch_b
 TEXT: Atrapa {0} Wooper o Wooper de Paldea
@@ -86419,6 +86843,12 @@ TEXT: Día de Incursiones: Solosis
 RESOURCE ID: raid_day_solrock
 TEXT: Día de Incursiones: Solrock
 
+RESOURCE ID: raid_day_sparring_partners_event_name
+TEXT: Día de Incursiones de Compañeros de sparring
+
+RESOURCE ID: raid_day_sparring_partners_tr_name
+TEXT: Investigación Temporal del Día de Incursiones de Compañeros de sparring
+
 RESOURCE ID: raid_day_spearow
 TEXT: Día de Incursiones: Spearow
 
@@ -87042,6 +87472,9 @@ No puedes deshacer esta acción.
 
 RESOURCE ID: raid_rsvp_bonus
 TEXT: Plan confirmado
+
+RESOURCE ID: raid_s_pass_daily_limit_temp
+TEXT: You’ve reached your daily limit of Remote Max Battles and Remote Raids. Walk closer to join in person.
 
 RESOURCE ID: raid_share_private_code_message
 TEXT: Comparte este código de grupo con tus amistades. Pueden unirse a ti usando este código de grupo.
@@ -89359,6 +89792,27 @@ TEXT: Gana en {0} incursiones
 RESOURCE ID: raidweek_2019_medium_raid
 TEXT: Gana en {0} incursiones
 
+RESOURCE ID: rally_expo_2025_desc
+TEXT: Búsqueda de sellos de GO exclusiva y solo disponible en EXPO 2025 en Osaka, Kansai (Japón).
+
+RESOURCE ID: rally_expo_2025_desc_detail
+TEXT: Los Pokémon atrapados en los encuentros de recompensa por visitar Poképaradas de la Búsqueda de sellos de GO tendrán un fondo de la ubicación exclusivo de EXPO 2025 de Osaka, Kansai (Japón).
+
+RESOURCE ID: rally_expo_2025_desc_general
+TEXT: ¡Colecciona sellos visitando Poképaradas de la Búsqueda de sellos de GO de EXPO 2025 para obtener recompensas temáticas!
+
+RESOURCE ID: rally_expo_2025_location
+TEXT: Osaka, Kansai (Japón)
+
+RESOURCE ID: rally_expo_2025_rewards_desc
+TEXT: Completa esta Búsqueda de sellos de GO para obtener encuentros con diferentes Pokémon que aparecen en EXPO 2025, además de 25 Caramelos Bulbasaur, 25 Caramelos Charmander y 25 Caramelos Squirtle.
+
+RESOURCE ID: rally_expo_2025_rewards_desc_general
+TEXT: ¡Completa la Búsqueda de sellos de EXPO 2025 Osaka para obtener varios encuentros y recompensas temáticas!
+
+RESOURCE ID: rally_expo_2025_title
+TEXT: Búsqueda de sellos de EXPO 2025
+
 RESOURCE ID: ralts_post_cd_timed_research_name
 TEXT: Investigación Temporal: El Día de la Comunidad de Ralts sigue
 
@@ -89378,13 +89832,13 @@ RESOURCE ID: rating_updated_toast
 TEXT: Calificación actualizada.
 
 RESOURCE ID: reactivate_button
-TEXT: REACTIVATE
+TEXT: CONTINUAR
 
 RESOURCE ID: reactivate_dialog_message
-TEXT: You have paused one or more stamp rallies at this PokéStop. You can resume a rally to continue collecting stamps for it.
+TEXT: Tienes pausadas una o más Búsquedas de sellos en esta Poképarada. Puedes reanudar una búsqueda para continuar coleccionando sellos.
 
 RESOURCE ID: reactivate_dialog_title
-TEXT: Resume this stamp rally?
+TEXT: ¿Reanudar esta Búsqueda de sellos?
 
 RESOURCE ID: ready_raid_button
 TEXT: TODO LISTO
@@ -89623,7 +90077,7 @@ RESOURCE ID: rejoin_warning_modal_title
 TEXT: ¿De verdad quieres salir de tu equipo?
 
 RESOURCE ID: remote_max_battle_invite_push_notif
-TEXT: A friend invited you to join a Max Battle!
+TEXT: A friend invited you to a Max Battle!
 
 RESOURCE ID: remote_raid_battle_helptext
 TEXT: usando un Pase de Incursión Remota
@@ -89853,7 +90307,7 @@ RESOURCE ID: report_route_error_missing_selection
 TEXT: Selecciona el motivo de tu informe.
 
 RESOURCE ID: report_route_error_not_found
-TEXT: This Route cannot be found.
+TEXT: No es posible encontrar esta Ruta.
 
 RESOURCE ID: report_route_error_too_many_reports
 TEXT: Alcanzaste el número máximo de informes de Ruta por hoy.
@@ -90197,7 +90651,7 @@ RESOURCE ID: rewarded_spend_reset_timer_last_day_header
 TEXT: <color=#FF6687FF>Se reinicia en 1 día</color>
 
 RESOURCE ID: rewards_banner
-TEXT: REWARDS
+TEXT: RECOMPENSAS
 
 RESOURCE ID: rising_shadows_event_name
 TEXT: Oscuridad Incipiente
@@ -92153,16 +92607,16 @@ RESOURCE ID: rsvp_attendance_preference_title
 TEXT: Mostrar mis planes a:
 
 RESOURCE ID: rsvp_attendance_tutorial_link_text_key
-TEXT: Learn more where your Trainer nickname is shown in-game here.
+TEXT: Aquí puedes obtener más información sobre dónde se muestra tu apodo de Entrenador en el juego.
 
 RESOURCE ID: rsvp_attendance_tutorial_link_url_key
 TEXT: https://niantic.helpshift.com/hc/{0}/6-pokemon-go/faq/4286-controlling-your-experience-on-pokemon-go/
 
 RESOURCE ID: rsvp_attendance_tutorial_message_key
-TEXT: Other Trainers will be able to view the battles you’ve RSVP’d to. You can change this at any time via Settings.
+TEXT: Otros Entrenadores podrán ver tus combates planeados. Puedes cambiar este ajuste en cualquier momento.
 
 RESOURCE ID: rsvp_attendance_tutorial_title_key
-TEXT: RSVP Visibility
+TEXT: Visibilidad de planes
 
 RESOURCE ID: rsvp_inactive_button_desc
 TEXT: {0} ({1})
@@ -92174,10 +92628,10 @@ RESOURCE ID: rsvp_invitation_notification_string_key
 TEXT: {0} te envió una invitación. Tipo: {1} Hora: {2}
 
 RESOURCE ID: rsvp_invite_already_going
-TEXT: Trainer is already planning on attending this battle.
+TEXT: El Entrenador ya tiene planeado asistir a este combate.
 
 RESOURCE ID: rsvp_invite_does_not_meet_level_requirements
-TEXT: Trainer does not meet level requirements.
+TEXT: El Entrenador no cumple con los requisitos de nivel.
 
 RESOURCE ID: rsvp_invite_friends
 TEXT: Invitar a amistades
@@ -93415,6 +93869,11 @@ TEXT: Bonificaciones del Pase de GO: Nivel 2
 RESOURCE ID: season_pass_milestone_bonus_title_03
 TEXT: Bonificaciones del Pase de GO: Nivel 3
 
+RESOURCE ID: season_pass_premium_rewards_desc_monthly
+TEXT: Las recompensas se desbloquean a medida que subas de nivel. Debes jugar durante el período de tiempo para recibir las recompensas.
+
+<b>La función Pase de GO está en fase de prueba actualmente, y tanto la versión gratuita como la de pago del Pase de GO y sus recompensas únicamente se pueden obtener y canjear en las regiones del mundo en las que está disponible la prueba.</b>
+
 RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_april
 TEXT: Pase de GO Deluxe: Abril + 10 rangos
 
@@ -93426,6 +93885,12 @@ TEXT: Pase de GO Deluxe: Abril
 
 RESOURCE ID: season_pass_premium_track_title_may
 TEXT: Pase de GO Deluxe: Mayo
+
+RESOURCE ID: season_pass_track_upgrade_header_description_100
+TEXT: ¡Consigue recompensas adicionales y desbloquea un <b>Adorno Suerte</b> en el nivel 100!
+
+RESOURCE ID: season_pass_track_upgrade_header_description_50
+TEXT: ¡Consigue recompensas adicionales y desbloquea un <b>Adorno Suerte</b> en el nivel 50!
 
 RESOURCE ID: seasonal_delights_box
 TEXT: Caja Delicias de Temporada
@@ -93485,16 +93950,16 @@ RESOURCE ID: send_giftbox_prompt
 TEXT: Enviar regalo
 
 RESOURCE ID: send_stamp_warning_modal_description_low_friend_level
-TEXT: This Gift includes a stamp, but your friend won’t be able to receive it because you haven’t reached the {0} Friendship level yet. Do you still want to send this Gift?
+TEXT: Este regalo contiene un sello, pero tu amistad no puede recibirlo porque aún no has alcanzado el nivel de amistad {0}. ¿Quieres enviar este regalo de todas maneras?
 
 RESOURCE ID: send_stamp_warning_modal_descripton_already_collected
-TEXT: Your friend has already collected this stamp and cannot receive it again. Do you still want to send this Gift?
+TEXT: Tu amistad ya tiene este sello y no puede volver a recibirlo. ¿Quieres enviar el regalo de todas maneras?
 
 RESOURCE ID: send_stamp_warning_modal_descripton_opted_out
-TEXT: Your friend has opted out of receiving stamps that come with Gifts. Do you still want to send this Gift?
+TEXT: Tu amistad optó por no recibir sellos de regalos. ¿Quieres enviar el regalo de todas maneras?
 
 RESOURCE ID: send_stamp_warning_modal_title
-TEXT: Are you sure?
+TEXT: ¿En serio?
 
 RESOURCE ID: send_video_ad_report_button
 TEXT: ENVIAR INFORME
@@ -93502,11 +93967,20 @@ TEXT: ENVIAR INFORME
 RESOURCE ID: sent_friend_error_info_plural
 TEXT: {0} amistades alcanzaron el límite diario de incursiones remotas. ¡Puedes invitar a otras amistades!
 
+RESOURCE ID: sent_friend_error_info_plural_temp
+TEXT: {0} friends have already met their daily limit of Remote Max Battles and Remote Raids. You can invite more friends!
+
 RESOURCE ID: sent_friend_error_info_singular
 TEXT: 1 de tus amistades alcanzó el límite diario de incursiones remotas. ¡Puedes invitar a otras amistades!
 
+RESOURCE ID: sent_friend_error_info_singular_temp
+TEXT: A friend has already met their daily limit of Remote Max Battles and Remote Raids. You can invite another friend!
+
 RESOURCE ID: sent_friend_error_toast
 TEXT: Tu amistad ya alcanzó el límite diario de incursiones remotas.
+
+RESOURCE ID: sent_friend_error_toast_temp
+TEXT: Trainer has reached their daily limit of Remote Max Battles and Remote Raids.
 
 RESOURCE ID: sent_friend_request_prompt
 TEXT: Enviaste una solicitud de amistad.
@@ -95051,6 +95525,9 @@ TEXT: Investigación Temporal de Pequeños pero poderosos (2/3)
 RESOURCE ID: small_strong_free_tr_name_2
 TEXT: Investigación Temporal de Pequeños pero poderosos (3/3)
 
+RESOURCE ID: snorlax_gmax_tr_2025_title
+TEXT: Investigación Temporal Prémium de Snorlax Gigamax
+
 RESOURCE ID: social_add_friend_facebook
 TEXT: Importa amistades de Facebook.
 
@@ -95098,7 +95575,7 @@ RESOURCE ID: social_other_friend_add_title
 TEXT: OTROS
 
 RESOURCE ID: social_planner_cancel_upcoming_warning
-TEXT: Completing this battle will cancel your upcoming RSVP at this location.
+TEXT: Completar este combate cancelará tus futuros planes confirmados en esta ubicación.
 
 RESOURCE ID: social_planner_cannot_change_active_timeslots_key
 TEXT: No se puede modificar al no haber otros horarios disponibles.
@@ -95119,7 +95596,7 @@ RESOURCE ID: social_planner_error_rsvp_missing
 TEXT: Error. No se encontró ningún plan.
 
 RESOURCE ID: social_planner_error_sending_invites_key
-TEXT: Could not send invite to one or more friends.
+TEXT: No se pudo enviar la invitación a una o más amistades.
 
 RESOURCE ID: social_planner_error_timeslot_passed
 TEXT: Esta hora ya no está disponible.
@@ -95170,7 +95647,7 @@ RESOURCE ID: social_planner_rsvp_not_going_text_key
 TEXT: No voy a ir
 
 RESOURCE ID: social_planner_select_another_time
-TEXT: SELECT ANOTHER TIME
+TEXT: SELECCIONAR OTRA HORA
 
 RESOURCE ID: social_planner_time_conflict_disclaimer_title_key
 TEXT: Conflicto de horario
@@ -95188,7 +95665,7 @@ RESOURCE ID: social_planner_timetable_gui_title_key
 TEXT: Elige una hora para combatir
 
 RESOURCE ID: social_planner_view_in_map
-TEXT: View in Map
+TEXT: Ver en el mapa
 
 RESOURCE ID: social_player_level_too_low
 TEXT: La función de amistad solo está disponible para el nivel {0} y superior. Vuelve para averiguar cuándo está disponible.
@@ -95772,6 +96249,18 @@ TEXT: Evento de Primavera
 RESOURCE ID: spring_cup_great_title
 TEXT: Copa Primavera: Edición Liga Superbola
 
+RESOURCE ID: spring_into_spring_apr2025_cc_grass
+TEXT: Desafío de Colección de Florece la primavera: Días de retoños
+
+RESOURCE ID: spring_into_spring_apr2025_cc_hatch
+TEXT: Desafío de Eclosión de Florece la primavera
+
+RESOURCE ID: spring_into_spring_apr2025_cc_rain
+TEXT: Desafío de Colección de Florece la primavera: Días de lluvia
+
+RESOURCE ID: spring_into_spring_apr2025_cc_sun
+TEXT: Desafío de Colección de Florece la primavera: Días de sol
+
 RESOURCE ID: spritzee_o_clock
 TEXT: Las Spritzee en punto
 
@@ -95781,8 +96270,14 @@ TEXT: ¡Está apareciendo una gran cantidad de Spritzee en la zona!
 RESOURCE ID: squash_confirmation_plural
 TEXT: Puedes unirte a {0} incursiones remotas más hoy. Se usará un Pase de Incursión Remota cuando comience el combate.
 
+RESOURCE ID: squash_confirmation_plural_temp
+TEXT: You can join {0} more Remote Max Battles or Remote Raids today. A Remote Raid Pass will be used when the battle starts.
+
 RESOURCE ID: squash_confirmation_singular
 TEXT: Puedes unirte a 1 incursión remota más hoy. Se usará un Pase de Incursión Remota cuando comience el combate.
+
+RESOURCE ID: squash_confirmation_singular_temp
+TEXT: You can join one more Remote Max Battle or Remote Raid today. A Remote Raid Pass will be used when the battle starts.
 
 RESOURCE ID: squash_toast
 TEXT: Alcanzaste el límite diario de incursiones remotas. Acércate para interactuar con este Gimnasio.
@@ -97247,156 +97742,165 @@ RESOURCE ID: stadium_sights_event_name
 TEXT: Vista del Estadio
 
 RESOURCE ID: stamp_and_open_gift_button
-TEXT: Open & Stamp
+TEXT: Abrir y sellar
 
 RESOURCE ID: stamp_collection_poi_nearby_notification
-TEXT: There’s an uncollected stamp nearby at {0}!
+TEXT: ¡Hay un sello sin recolectar cerca en {0}!
 
 RESOURCE ID: stamp_collection_reward_pokemon_flee_warning_body
-TEXT: If you leave the encounter, the Pokémon may flee.
+TEXT: Si sales de este encuentro, es posible que el Pokémon huya.
 
 RESOURCE ID: stamp_collection_reward_pokemon_flee_warning_title
-TEXT: Are you sure you want to leave this encounter?
+TEXT: ¿De verdad quieres salir de este encuentro?
 
 RESOURCE ID: stamp_collections_page_header
-TEXT: GO STAMP RALLY
+TEXT: BÚSQUEDA DE SELLOS GO
 
 RESOURCE ID: stamp_completed_description
-TEXT: Congratulations! You completed this stamp rally!
+TEXT: ¡Felicitaciones! ¡Completaste esta Búsqueda de sellos!
 
 RESOURCE ID: stamp_info_banner
-TEXT: STAMP INFO
+TEXT: DETALLES DEL SELLO
+
+RESOURCE ID: stamp_mini_game_instruction
+TEXT: Stamp with long press
 
 RESOURCE ID: stamp_page_tutorial_page_1_description
-TEXT: A stamp rally is an activity where you collect stamps at certain PokéStops and Gyms.
+TEXT: Una Búsqueda de sellos es una actividad en la que coleccionas sellos en ciertas Poképaradas y Gimnasios.
 
 RESOURCE ID: stamp_page_tutorial_page_1_header
-TEXT: What is a stamp rally?
+TEXT: ¿Qué es una Búsqueda de sellos?
 
 RESOURCE ID: stamp_page_tutorial_page_2_description
-TEXT: If you visit a PokéStop or Gym where a stamp rally is taking place, a stamp sheet will appear. Follow the directions to collect your stamp!
+TEXT: Si visitas una Poképarada o Gimnasio en los que haya una Búsqueda de sellos activa, aparecerá una hoja de sellos. ¡Sigue las instrucciones para coleccionar sellos!
 
 RESOURCE ID: stamp_page_tutorial_page_2_header
-TEXT: How can I collect stamps?
+TEXT: ¿Cómo puedo coleccionar sellos?
 
 RESOURCE ID: stamp_page_tutorial_page_3_description
-TEXT: Some stamp rallies allow you to collect stamps with help from your friends. You can send and receive Gifts from PokéStops with stamps—if you are a {0} or higher with the other Trainer, the recipient will be able to collect the stamp from the Gift, wherever they are!
+TEXT: Si empiezas una Búsqueda de sellos, aparecerá un ícono de sello en el menú del lado derecho de la pantalla. Toca en este ícono para consultar tu progreso rápidamente.
+
+RESOURCE ID: stamp_page_tutorial_page_3_description_temp
+TEXT: Algunas Búsquedas de sellos te permiten coleccionar sellos con la ayuda de tus amistades. Puedes enviar y recibir regalos de las Poképaradas con sellos: si tienes un nivel de amistad {0} o superior con otro Entrenador, el destinatario podrá coleccionar el sello del regalo, ¡estén donde estén!
 
 RESOURCE ID: stamp_page_tutorial_page_3_header
-TEXT: Collect stamps with friends!
+TEXT: Consulta el progreso de tu Búsqueda de sellos
+
+RESOURCE ID: stamp_page_tutorial_page_3_header_temp
+TEXT: ¡Colecciona sellos con tus amistades!
 
 RESOURCE ID: stamp_page_tutorial_page_4_description
-TEXT: Some stamp rallies offer items or other rewards for collecting stamps. Collect lots of stamps and see what exciting things you can find!
+TEXT: Algunas Búsquedas de sellos ofrecen objetos u otras recompensas por coleccionar sellos. ¡Colecciona muchos sellos y descubre qué cosas increíbles podrás encontrar!
 
 RESOURCE ID: stamp_page_tutorial_page_4_header
-TEXT: Collect them all!
+TEXT: ¡Colecciónalos todos!
+
+RESOURCE ID: stamp_panel_header
+TEXT: Sellos
+
+RESOURCE ID: stamp_panel_header_link
+TEXT: Consultar enlace
 
 RESOURCE ID: stamp_poi_details_location_info_header
-TEXT: What kind of place is this?
+TEXT: ¿Qué tipo de lugar es?
 
 RESOURCE ID: stamp_poi_details_location_info_unvisited
-TEXT: After visiting this location, detailed information will be displayed here.
+TEXT: Una vez que visites este lugar, aquí aparecerá información detallada.
 
 RESOURCE ID: stamp_poi_details_received_from
-TEXT: Received from: {0}
+TEXT: Recibido de: {0}
 
 RESOURCE ID: stamp_poi_details_unvisited
-TEXT: Not visited yet
+TEXT: Sin visitar
 
 RESOURCE ID: stamp_poi_details_visited_date
-TEXT: Visited: {0}
+TEXT: Visitado: {0}
 
 RESOURCE ID: stamp_progression
-TEXT: STAMP PROGRESS
+TEXT: PROGRESO DEL SELLO
 
 RESOURCE ID: stamp_rally_achievement_header
-TEXT: Achievement
+TEXT: Logro
 
 RESOURCE ID: stamp_rally_completed_date
-TEXT: Finished: {0}
+TEXT: Finalizada: {0}
 
 RESOURCE ID: stamp_rally_end_time
-TEXT: until {0}
+TEXT: finaliza: {0}
 
 RESOURCE ID: stamp_rally_ends_on
-TEXT: Ends on: {0}
+TEXT: Finaliza: {0}
 
 RESOURCE ID: stamp_rally_expired_on
-TEXT: Ended on: {0}
+TEXT: Finalizada: {0}
 
 RESOURCE ID: stamp_rally_finishes_in
-TEXT: Ends in: {0}
+TEXT: Termina en: {0}
 
 RESOURCE ID: stamp_rally_item_reward_toast
-TEXT: Collect {0} stamps to receive rewards!
+TEXT: ¡Colecciona {0} sellos para obtener recompensas!
 
 RESOURCE ID: stamp_rally_item_reward_toast_singular
-TEXT: Collect a stamp to receive rewards!
+TEXT: ¡Colecciona un sello para obtener recompensas!
 
 RESOURCE ID: stamp_rally_journal_entry_completion
-TEXT: Completed stamp rally: {0} at {1}
+TEXT: Búsqueda de sellos completada: {0} en {1}
 
 RESOURCE ID: stamp_rally_journal_entry_progress
-TEXT: Collected stamp from {0} for stamp rally: {1}
+TEXT: Sello coleccionado de {0} para la Búsqueda de sellos: {1}
 
 RESOURCE ID: stamp_rally_journal_entry_reward
-TEXT: Received reward from stamp rally: {0}
+TEXT: Recompensa recibida de la Búsqueda de sellos: {0}
 
 RESOURCE ID: stamp_rally_missed_reward_toast
-TEXT: Go to one of the stamp rally locations to claim this reward.
+TEXT: Dirígete a una de las ubicaciones de la Búsqueda de sellos para obtener esta recompensa.
 
 RESOURCE ID: stamp_rally_no_expiration
-TEXT: This event has no end date.
+TEXT: Este evento no tiene fecha de finalización.
 
 RESOURCE ID: stamp_rally_pokemon_item_reward_toast
-TEXT: Collect {0} stamps to encounter a Pokémon and receive other rewards!
+TEXT: ¡Colecciona {0} sellos para encontrarte con un Pokémon y para obtener recompensas!
 
 RESOURCE ID: stamp_rally_pokemon_item_reward_toast_singular
-TEXT: Collect a stamp to encounter a Pokémon and receive other rewards!
+TEXT: ¡Colecciona un sello para encontrarte con un Pokémon y para obtener recompensas!
 
 RESOURCE ID: stamp_rally_pokemon_reward_toast
-TEXT: Collect {0} stamps to encounter a Pokémon!
+TEXT: ¡Colecciona {0} sellos para encontrarte con un Pokémon!
 
 RESOURCE ID: stamp_rally_pokemon_reward_toast_singular
-TEXT: Collect a stamp to encounter a Pokémon!
+TEXT: ¡Colecciona un sello para encontrarte con un Pokémon!
 
 RESOURCE ID: stamp_reward_collected_description
-TEXT: Congratulations! You can collect a reward!
+TEXT: ¡Felicitaciones! ¡Puedes obtener una recompensa!
 
 RESOURCE ID: stamp_reward_toast
-TEXT: Get rewards for collecting stamps!
+TEXT: ¡Obtén recompensas por coleccionar sellos!
 
 RESOURCE ID: stamp_social_receive_tutorial_page_1_header
-TEXT: Collect stamps with your friends!
+TEXT: ¡Colecciona sellos con tus amistades!
 
 RESOURCE ID: stamp_social_receive_tutorial_page_2_header
-TEXT: What is a stamp rally?
+TEXT: ¿Qué es una Búsqueda de sellos?
 
 RESOURCE ID: stamp_social_receive_tutorial_page_3_description
-TEXT: You can view the stamps you collect on the stamp rally page in your Scrapbook.
+TEXT: Puedes ver los sellos que vayas coleccionando en la página de Búsqueda de sellos de tu Álbum de recuerdos.
 
 RESOURCE ID: stamp_social_receive_tutorial_page_3_header
-TEXT: Save stamps in your Scrapbook
+TEXT: Guarda sellos en tu Álbum de recuerdos
 
 RESOURCE ID: stamp_social_send_tutorial_page_1_description
-TEXT: This Gift includes a stamp for a stamp rally. Your friend can collect this stamp from wherever they are when they receive this Gift.
+TEXT: Este regalo contiene un sello para una Búsqueda de sellos. Tu amistad puede coleccionar este sello esté donde esté cuando reciba este regalo.
 
 RESOURCE ID: stamp_social_send_tutorial_page_1_header
-TEXT: Send a stamp!
+TEXT: ¡Envía un sello!
 
 RESOURCE ID: stamp_tutorial_page_1_description
-TEXT: Stamp icons will be displayed above the PokéStops included in the stamp rally.
+TEXT: Los íconos de sellos se mostrarán sobre las Poképaradas que formen parte de una Búsqueda de sellos.
 
-When you tap on these PokéStops, the stamp sheet will appear.
+Cuando toques esas Poképaradas, aparecerá la hoja de sellos.
 
 RESOURCE ID: stamp_tutorial_page_1_header
-TEXT: Stamp rallies at PokéStops
-
-RESOURCE ID: stamp_tutorial_page_2_description
-TEXT: If you have started a stamp rally, a stamp icon will appear in the menu on the right side of the screen. Tap this icon to easily check your progress.
-
-RESOURCE ID: stamp_tutorial_page_2_header
-TEXT: Check your stamp rally progress
+TEXT: Búsqueda de sellos en Poképaradas
 
 RESOURCE ID: standard_raid_box_title
 TEXT: Caja Incursión Estándar
@@ -97652,6 +98156,21 @@ TEXT: En cambio, puede tener problemas contra los ataques de tipo Volador, Psíq
 
 RESOURCE ID: story_mightandmastery_3_3
 TEXT: Gracias a ti, parece que Kubfu está aprendiendo a forjar su propio camino. ¡Sigue dándole poder!
+
+RESOURCE ID: story_mightandmastery_4_0
+TEXT: 
+
+RESOURCE ID: story_mightandmastery_4_1
+TEXT: 
+
+RESOURCE ID: story_mightandmastery_4_2
+TEXT: 
+
+RESOURCE ID: story_mightandmastery_4_3
+TEXT: 
+
+RESOURCE ID: story_mightandmastery_4_4
+TEXT: 
 
 RESOURCE ID: story_quest_cosmog_sol23_0
 TEXT: Cielo estrellado (1/4)
@@ -99033,6 +99552,24 @@ TEXT: Desafío de Colección de la Semana de la Sustentabilidad: Drilbur
 RESOURCE ID: sustainability_week_collection_challenge_trubbish
 TEXT: Desafío de Colección de la Semana de la Sustentabilidad: Trubbish
 
+RESOURCE ID: sweet_discoveries_2025_event_name
+TEXT: Dulces descubrimientos
+
+RESOURCE ID: sweet_discoveries_2025_premium_tr
+TEXT: Investigación Temporal Prémium de Dulces descubrimientos
+
+RESOURCE ID: sweet_discoveries_2025_premium_tr_0
+TEXT: Investigación Temporal Prémium de Dulces descubrimientos (1/2)
+
+RESOURCE ID: sweet_discoveries_2025_premium_tr_1
+TEXT: Investigación Temporal Prémium de Dulces descubrimientos (2/2)
+
+RESOURCE ID: sweet_discoveries_2025_tr
+TEXT: Investigación Temporal de Dulces descubrimientos
+
+RESOURCE ID: sweet_discoveries_bonus_berry_loot_drop
+TEXT: ¡Consigue bayas al atrapar Delibird y Skwovet!
+
 RESOURCE ID: switch_sleep_warning
 TEXT: Mientras te estés conectando a la consola Nintendo Switch, no apagues tu teléfono inteligente ni permitas que entre en modo de reposo.
 
@@ -99172,7 +99709,7 @@ RESOURCE ID: team_picker_load
 TEXT: Cargar
 
 RESOURCE ID: team_picker_no_mega_in_max_warning
-TEXT: Your current party cannot join the battle because it includes a Mega-Evolved Pokémon.
+TEXT: Tu equipo actual no puede unirse al combate porque contiene un Pokémon megaevolucionado.
 
 RESOURCE ID: team_picker_optimize
 TEXT: Optimizar
@@ -99489,6 +100026,12 @@ TEXT: <b>Incluye:</b>
 • 2× EXP por ganar combates Max
 • Una Investigación Temporal que tiene como recompensa un Maxihongo y 25,000 EXP
 
+RESOURCE ID: text_rewards_key_gmaxsnorlax25
+TEXT: <b>Incluye:</b>
+• El límite de recolección de Partículas Max aumenta hasta 4,000 en los Nodos Energéticos y al explorar
+• 2× EXP por ganar en combates Max
+• Una Investigación Temporal que tiene como recompensa un Maxihongo y 25,000 EXP
+
 RESOURCE ID: text_rewards_key_gobattlemay2024
 TEXT: <b>Las recompensas incluyen lo siguiente:</b>
 • 30,000 Polvos Estrella
@@ -99703,6 +100246,15 @@ TEXT: <b>Las bonificaciones incluyen lo siguiente:</b>
 • Ocho Pases de Incursión adicionales al girar fotodiscos en Gimnasios
 • Mayor probabilidad de recibir Caramelos Raros XL en incursiones
 • 50 % más de EXP y el 2× Polvo Estrella por ganar incursiones
+
+RESOURCE ID: text_rewards_key_horizonscb0425
+TEXT: <b>Las recompensas incluyen:</b>
+• Encuentros con Tinkatink
+• 5 Caramelos Tinkatink
+• Pose de Tinkaton
+• 1 Incubadora
+• 30 Ultrabolas
+• 3,000 Polvos Estrella
 
 RESOURCE ID: text_rewards_key_janmonthly2025
 TEXT: <b>Incluye:</b>
@@ -99957,11 +100509,25 @@ TEXT: Una entrada para acceder a una Investigación Magistral que lleva a un enc
 • 1 Módulo Señuelo Glaciar y 1 Módulo Señuelo Musgoso
 • 40,411 EXP y 17,570 Polvos Estrella
 
+RESOURCE ID: text_rewards_key_sis_apr25
+TEXT: <b>Las recompensas incluyen:</b>
+• Encuentros con Remoraid, Fletchling y Gossifleur
+• 2 Superincubadoras
+• 1 Huevo Suerte
+
+¡Los Remoraid y Fletchling de los encuentros en las recompensas de esta investigación y del resto de tareas de investigación tienen más probabilidades de ser brillantes!
+
 RESOURCE ID: text_rewards_key_slumberingsands24
 TEXT: <b>Las recompensas incluyen lo siguiente:</b>
 • Mochila de Komala para el avatar
 • Encuentros con Komala y Slakoth con visera
 • 10,000 EXP, 2,500 Polvos Estrella, 25 Pokébolas, 2 Bayas Pinia Plateadas, 2 Bayas Frambu Doradas y 1 Fragmento Estrella
+
+RESOURCE ID: text_rewards_key_sparringpartnersraidday
+TEXT: <b>Las bonificaciones incluyen:</b>
+• Ocho Pases de Incursión adicionales al girar fotodiscos en Gimnasios
+• Mayor probabilidad de recibir Caramelos Raros XL en incursiones
+• 50 % más EXP y 2× Polvo Estrella al ganar incursiones
 
 RESOURCE ID: text_rewards_key_spelunkercove24
 TEXT: <b>Recompensas incluidas:</b>
@@ -99990,6 +100556,13 @@ TEXT: <b>Las recompensas incluyen:</b>
 • 6,000 EXP y 3,000 Polvos Estrella
 • ¡Y más!
 
+RESOURCE ID: text_rewards_key_sweet_discoveries_apr25
+TEXT: <b>Las recompensas incluyen:</b>
+• Encuentros con Delibird, Bidoof, Cherubi, Munna, Bounsweet, Komala, Skwovet y Applin
+• 2 Módulos Señuelo Musgosos
+
+¡Los Delibird y Skwovet que aparezcan en los encuentros de recompensa de esta investigación y en el resto de tareas de investigación tienen más probabilidades de ser brillantes!
+
 RESOURCE ID: text_rewards_key_takeovermarch24
 TEXT: <b>Las recompensas incluyen lo siguiente:</b>
 • Un encuentro con Pawniard
@@ -100012,6 +100585,12 @@ RESOURCE ID: text_rewards_key_tynamocd24
 TEXT: <b>Las recompensas incluyen lo siguiente:</b>
 • Artículos prémium dentro del juego, como Caramelos Raros y Ultrabolas, entre otros
 • Encuentros adicionales con Tynamo y sus evoluciones
+
+RESOURCE ID: text_rewards_key_tyrogue0425
+TEXT: <b>Las recompensas incluyen:</b>
+• 1 Superincubadora
+• 1 Fragmento Estrella
+• 2,500 EXP
 
 RESOURCE ID: text_rewards_key_ultraspace24
 TEXT: <b>Las recompensas incluyen lo siguiente:</b>
@@ -100445,28 +101024,28 @@ RESOURCE ID: time_left_to_claim_rewards
 TEXT: Tiempo restante para canjear recompensas:
 
 RESOURCE ID: time_span_hr
-TEXT: 1 hour
+TEXT: 1 hora
 
 RESOURCE ID: time_span_hr_min
-TEXT: 1 hour and 1 minute
+TEXT: 1 hora y 1 minuto
 
 RESOURCE ID: time_span_hr_mins
-TEXT: 1 hour and {0} minutes
+TEXT: 1 hora y {0} minutos
 
 RESOURCE ID: time_span_hrs
-TEXT: {0} hours
+TEXT: {0} horas
 
 RESOURCE ID: time_span_hrs_min
-TEXT: {0} hours  and 1 minute
+TEXT: {0} horas y 1 minuto
 
 RESOURCE ID: time_span_hrs_mins
-TEXT: {0} hours and {1} minutes
+TEXT: {0} horas y {1} minutos
 
 RESOURCE ID: time_span_min
-TEXT: 1 minute
+TEXT: 1 minuto
 
 RESOURCE ID: time_span_mins
-TEXT: {0} minutes
+TEXT: {0} minutos
 
 RESOURCE ID: timed_challenge_bonus
 TEXT: Bonificación del desafío:
@@ -101252,6 +101831,9 @@ TEXT: Tareas diarias (Prémium)
 RESOURCE ID: title_event_pass_hourly_bonus_quest
 TEXT: Tareas por hora
 
+RESOURCE ID: title_event_pass_weekly_bonus_quest
+TEXT: Tareas semanales
+
 RESOURCE ID: title_hatch_day_azurill
 TEXT: Día de Eclosiones de Azurill
 
@@ -101421,7 +102003,7 @@ RESOURCE ID: too_far_away_scan
 TEXT: Estás muy lejos de esta Poképarada para colocar un Pokémon o interactuar.
 
 RESOURCE ID: total_stamps_collected
-TEXT: {0} total stamps
+TEXT: Total de sellos: {0}
 
 RESOURCE ID: tr_151_challenge
 TEXT: Desafío 151
@@ -101754,7 +102336,7 @@ RESOURCE ID: tr_gofest2024_earlybird2
 TEXT: Investigación Temporal: A la luz de la luna
 
 RESOURCE ID: tr_gofest2025_global_earlybird
-TEXT: GO Fest 2025: Early Bird Timed Research
+TEXT: Investigación Temporal del Festival de GO 2025: Venta anticipada
 
 RESOURCE ID: tr_gowa2024_global_daily_electric
 TEXT: Investigación Temporal de Más allá del Área Silvestre: Talento Eléctrico
@@ -101890,6 +102472,27 @@ TEXT: Investigación Temporal Prémium: Desde el Ultraespacio
 
 RESOURCE ID: tr_inbound_from_ultra_space_raid_paid_00
 TEXT: Investigación Temporal Prémium: Desde el Ultraespacio (1/1)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_desc
+TEXT: Investigación Temporal de Desafío de cerezos en flor
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title
+TEXT: Desafío de cerezos en flor
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_00
+TEXT: Investigación Temporal de Desafío de cerezos en flor (1/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_01
+TEXT: Investigación Temporal de Desafío de cerezos en flor (2/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_02
+TEXT: Investigación Temporal de Desafío de cerezos en flor (3/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_03
+TEXT: Investigación Temporal de Desafío de cerezos en flor (4/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_04
+TEXT: Investigación Temporal de Desafío de cerezos en flor (5/5)
 
 RESOURCE ID: tr_kr2025_retention_feb_desc
 TEXT: Investigación Temporal de Desafío a la luz de la luna
@@ -102040,6 +102643,15 @@ TEXT: Desbloqueo Global: Una infiltración fantasmal
 
 RESOURCE ID: tr_rotom_mystery_quest_global_00
 TEXT: Desbloqueo Global: Una infiltración fantasmal (1/1)
+
+RESOURCE ID: tr_sis_apr2025
+TEXT: Investigación Temporal Prémium de Primavera floreada
+
+RESOURCE ID: tr_sis_apr2025_0
+TEXT: Investigación Temporal Prémium de Primavera floreada (1/2)
+
+RESOURCE ID: tr_sis_apr2025_1
+TEXT: Investigación Temporal Prémium de Primavera floreada (2/2)
 
 RESOURCE ID: tr_sz_goyang_global
 TEXT: Zona Safari de Goyang: Desafío de Exploración
@@ -102374,6 +102986,9 @@ TEXT: Todos los Pokémon brillantes
 RESOURCE ID: trade_special_extra_one
 TEXT: Un Intercambio Especial adicional
 
+RESOURCE ID: trade_special_extra_two
+TEXT: Dos intercambios especiales adicionales cada día
+
 RESOURCE ID: trade_special_in_pokedex
 TEXT: Pokémon legendarios o brillantes en el Pokédex
 
@@ -102632,6 +103247,12 @@ TEXT: Ahora que alcanzaste el nivel 40, tendrás que completar algunos desafíos
 RESOURCE ID: tutorial_level_40_plus_intro
 TEXT: ¡Felicitaciones por tu increíble progreso!
 
+RESOURCE ID: tutorial_maple_description
+TEXT: ¡Están apareciendo manzanas cerca de Poképaradas que tienen un Módulo Señuelo Musgoso activo! Toca las manzanas para tener la oportunidad de atrapar a Applin o encontrar objetos de evolución de Applin. Pero ten cuidado, ¡porque puede que otros Pokémon intenten llevarse las manzanas!
+
+RESOURCE ID: tutorial_maple_title
+TEXT: Recogida de manzanas
+
 RESOURCE ID: tutorial_route_bonus_0
 TEXT: Obtén Caramelos con tu compañero más rápidamente
 
@@ -102849,6 +103470,18 @@ TEXT: Los Pokémon de tipo Agua son débiles frente a los ataques de tipo Planta
 
 RESOURCE ID: type_tutorial_water__male_speaker
 TEXT: Los Pokémon de tipo Agua son débiles frente a los ataques de tipo Planta y Eléctrico.
+
+RESOURCE ID: tyrogue_hatch_event_name
+TEXT: Día de Eclosiones de Tyrogue
+
+RESOURCE ID: tyrogue_hatch_free_tr_name
+TEXT: Investigación Temporal del Día de Eclosiones de Tyrogue
+
+RESOURCE ID: tyrogue_hatch_lead_event_name
+TEXT: Preparativos del Día de Eclosiones de Tyrogue
+
+RESOURCE ID: tyrogue_hatch_tr_name
+TEXT: Investigación Temporal Prémium del Día de Eclosiones de Tyrogue
 
 RESOURCE ID: ub_arrival_la_title
 TEXT: Aparición de Ultraentes: Los Ángeles

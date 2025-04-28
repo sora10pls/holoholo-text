@@ -1366,6 +1366,12 @@ TEXT: Börtü Böcek Toplama Görevi 3
 RESOURCE ID: april2024_bug_out_collection_challenge_4
 TEXT: Börtü Böcek Toplama Görevi 4
 
+RESOURCE ID: april_fool_pokeball_tappable_event
+TEXT: O Poké Topu da neyin nesi?
+
+RESOURCE ID: april_fool_pokeball_tappable_today_view
+TEXT: Haritada Poké Topları ortaya çıkıyor!
+
 RESOURCE ID: april_power_up_monthly_ticket_title
 TEXT: Güçlendirme Bileti: Nisan
 
@@ -11616,7 +11622,7 @@ RESOURCE ID: batch_transfer_last_more_pokemon
 TEXT: Elinizdeki tek {0}, {1} ve {2} başka Pokémon
 
 RESOURCE ID: batch_transfer_last_more_pokemon_singular
-TEXT: Your only {0}, {1}, and 1 more
+TEXT: Elinizdeki tek {0}, {1} ve 1 başka Pokémon
 
 RESOURCE ID: batch_transfer_last_one_pokemon
 TEXT: Elinizdeki tek {0}
@@ -14798,6 +14804,12 @@ TEXT: GO Fotoğrafta safari şapkalı Pikachu ile 5 adede kadar sürpriz karşı
 RESOURCE ID: bonus_event_spawn_routes
 TEXT: Etkinlik Pokémon’ları rota takip ederken ortaya çıkabilir
 
+RESOURCE ID: bonus_event_stamp_rally
+TEXT: GO Damga Toplama başladı
+
+RESOURCE ID: bonus_event_stamp_rally_location_backgrounds
+TEXT: GO Damga Toplama etkinliği ödül karşılaşmalarında yakalanan Pokémon’lar bir konum arka planına sahip olacak
+
 RESOURCE ID: bonus_event_sticker
 TEXT: Bölgedeki PokéDurakları çevrildiğinde özel etkinlik çıkartması
 
@@ -15107,6 +15119,15 @@ TEXT: Bölgede Mega Latias ve Mega Latios akınları ortaya çıkıyor!
 RESOURCE ID: bonus_milestone_rewards_title
 TEXT: BONUS AŞAMA ÖDÜLLERİ
 
+RESOURCE ID: bonus_move_blastoise_hydro_cannon
+TEXT: Wartortle’ı evrimleştirerek Su Topu güçlü saldırısını bilen Blastoise elde edin!
+
+RESOURCE ID: bonus_move_charizard_blast_burn
+TEXT: Charmeleon’ı evrimleştirerek Tahrip Yanığı güçlü saldırısını bilen Charizard elde edin!
+
+RESOURCE ID: bonus_move_venusaur_frenzy_plant
+TEXT: Ivysaur’u evrimleştirerek Çılgın Bitki güçlü saldırısını bilen Venusaur elde edin!
+
 RESOURCE ID: bonus_mp_cap
 TEXT: Günlük Maksi Parçacık toplama limitinde artış
 
@@ -15163,6 +15184,9 @@ TEXT: Akınlarda Palkia yakalama için fazladan üç Palkia büyük şekeri
 
 RESOURCE ID: bonus_pelipper_delibird_pikachu_photobomb
 TEXT: GO Fotoğrafta Pikachu, Pelipper veya Delibird ile gün başına bir sürpriz karşılaşma
+
+RESOURCE ID: bonus_photobomb_smeargle
+TEXT: GO Fotoğrafta Smeargle ile beş adede kadar sürpriz karşılaşma
 
 RESOURCE ID: bonus_photobomb_unova_pikachu
 TEXT: GO Fotoğrafta her gün Hilbert şapkalı, Hilda şapkalı, Nate siperlikli ve Rosa siperlikli Pikachu’larla sürpriz karşılaşmalar
@@ -15559,6 +15583,9 @@ TEXT: Kazanılan Ultra Yaratık akınlarından 2× yıldız tozu
 
 RESOURCE ID: bonus_unlocked
 TEXT: Bonus açıldı!
+
+RESOURCE ID: bonus_unown_expo
+TEXT: Doğada Unown E, X, P ve O ortaya çıkıyor
 
 RESOURCE ID: bonus_versioned_field_research_2x_daily
 TEXT: PokéDuraklardan günde iki alan araştırması alma şansı (öğleden önce ve öğleden sonra)
@@ -16259,6 +16286,12 @@ TEXT: ÖDÜLLER GELİŞTİRİLDİ!
 RESOURCE ID: bread_battle_resolve_timed_out_title
 TEXT: Herkesin Pokémon’ları yorgun düştü!
 
+RESOURCE ID: bread_battle_reward_bonus_title
+TEXT: + In-Person Bonus
+
+RESOURCE ID: bread_battle_reward_bonus_update
+TEXT: {0} Bonus
+
 RESOURCE ID: bread_battle_reward_title
 TEXT: ÖDÜLLER
 
@@ -16393,6 +16426,9 @@ TEXT: Saldırı Bonusu
 RESOURCE ID: bread_lobby_error_battle_completed
 TEXT: Bu Güç Noktasında daha önce maç yaptınız.
 
+RESOURCE ID: bread_lobby_error_friend_details_unavailable
+TEXT: Something went wrong when sending this invite. Please try again.
+
 RESOURCE ID: bread_lobby_error_lobby_expired
 TEXT: Lobinin süresi doldu.
 
@@ -16407,6 +16443,12 @@ TEXT: Lobi bulunamadı.
 
 RESOURCE ID: bread_lobby_error_no_invite
 TEXT: Davetin süresi doldu.
+
+RESOURCE ID: bread_lobby_error_no_remote_slots_remaining
+TEXT: The maximum number of remote players has been reached.
+
+RESOURCE ID: bread_lobby_error_no_remote_ticket
+TEXT: Uh-oh! You’re out of Remote Raid Passes.
 
 RESOURCE ID: bread_lobby_error_not_in_range
 TEXT: Bu Güç Noktasıyla etkileşime geçmek için yakınına yürüyün.
@@ -16511,7 +16553,8 @@ RESOURCE ID: bread_mp_for_battle_lobby
 TEXT: {0} MP kullanın
 
 RESOURCE ID: bread_mp_for_remote_battle_lobby
-TEXT: Use {0} MP and Remote Raid Pass
+TEXT: Use {0} MP and
+a Remote Raid Pass
 
 RESOURCE ID: bread_mp_storage_full
 TEXT: Maksi Parçacık deponuz dolu.
@@ -16570,11 +16613,20 @@ TEXT: Artık o Güç Noktasında maçlarda yardımcı olup şeker kazanmayacak.
 RESOURCE ID: bread_release_title
 TEXT: {0} geri dönsün mü?
 
+RESOURCE ID: bread_remote_iap_mp_rrp_replenish_description
+TEXT: You need a Remote Raid Pass and Max Particles to join this battle.
+
 RESOURCE ID: bread_remote_iap_mp_rrp_replenish_title
-TEXT: You're out of Remote Raid Passes and MP
+TEXT: You’re out of Remote Raid Passes and Max Particles
 
 RESOURCE ID: bread_remote_invite_in_game_notification
-TEXT: {0} invited you to join a Max Battle!
+TEXT: {0} invited you to a Max Battle!
+
+RESOURCE ID: bread_remote_tutorial_message_0
+TEXT: You’re viewing a Max Battle that is far away. You can join the battle remotely by using a Remote Raid Pass and Max Particles.
+
+RESOURCE ID: bread_remote_tutorial_title_0
+TEXT: Remote Max Battles are here!
 
 RESOURCE ID: bread_remote_use_rrp_confirmation
 TEXT: You can join {0} more Max Battles today. Max Particles are only used when you win. A Remote Raid Pass will be used when the battle starts.
@@ -16656,6 +16708,12 @@ TEXT: Güç Noktası Canavarını alt ettikten sonra maç ekibinizde bulunan bir
 RESOURCE ID: bread_station_tutorial_message_5
 TEXT: Bir Güç Noktasını ziyaret ettikten sonra bir Pokémon’la karşılaşabilirsiniz. O Güç Noktasına Gigantamaks Pokémon’lar yerleştirilmişse bir Dinamaks Pokémon bile ortaya çıkabilir!
 
+RESOURCE ID: bread_station_tutorial_message_6
+TEXT: You can participate in Max Battles remotely by using a Remote Raid Pass and Max Particles.
+
+RESOURCE ID: bread_station_tutorial_message_7
+TEXT: Winning a Max Battle in person grants additional rewards.
+
 RESOURCE ID: bread_station_tutorial_title
 TEXT: 
 
@@ -16673,6 +16731,12 @@ TEXT: Ödüller Kazanın
 
 RESOURCE ID: bread_station_tutorial_title_5
 TEXT: Pokémon’larla Karşılaşın
+
+RESOURCE ID: bread_station_tutorial_title_6
+TEXT: Remote Max Battles
+
+RESOURCE ID: bread_station_tutorial_title_7
+TEXT: In-Person Bonus
 
 RESOURCE ID: bread_stationing_error
 TEXT: Pokémon’unuzu yerleştirirken bir hata oluştu. Lütfen tekrar deneyin.
@@ -18464,6 +18528,24 @@ TEXT: Buluşmaya giriş yap
 
 RESOURCE ID: chicago_fest_july_2017_title
 TEXT: Pokémon GO Festivali
+
+RESOURCE ID: childrens_day_2025_bonus
+TEXT: Çocuk Bayramı Neşesi Bonusları
+
+RESOURCE ID: childrens_day_2025_evolve_move_bonus_lucario
+TEXT: Riolu’yu evrimleştirerek Güçlü Avuç hızlı saldırısını bilen Lucario elde edin!
+
+RESOURCE ID: childrens_day_2025_title
+TEXT: Çocuk Bayramı Neşesi
+
+RESOURCE ID: childrens_day_2025_tr_name
+TEXT: Çocuk Bayramı Neşesi Süreli Araştırması
+
+RESOURCE ID: childrens_day_2025_tr_name_1
+TEXT: Çocuk Bayramı Neşesi Süreli Araştırması (1/2)
+
+RESOURCE ID: childrens_day_2025_tr_name_2
+TEXT: Çocuk Bayramı Neşesi Süreli Araştırması (2/2)
 
 RESOURCE ID: chinesetraditional
 TEXT: 繁體中文
@@ -21416,6 +21498,15 @@ TEXT: {0} Dinamaks maçı kazanın
 RESOURCE ID: dmax_battle_win_singular
 TEXT: Bir Dinamaks maçı kazanın
 
+RESOURCE ID: dmax_entei_max_battles
+TEXT: Dinamaks Entei Maksi Maçlarda ortaya çıkıyor
+
+RESOURCE ID: dmax_entei_weekend_event_name
+TEXT: Dinamaks Entei Maksi Maç Hafta Sonu
+
+RESOURCE ID: dmax_entei_weekend_timed_research
+TEXT: Dinamaks Entei Maksi Maç Hafta Sonu Süreli Araştırması
+
 RESOURCE ID: dmax_ftue_0
 TEXT: Maksi Macera (1/3)
 
@@ -22598,6 +22689,9 @@ TEXT: 1 Şubat, 14.00-17.00
 RESOURCE ID: event_datetime_range_key_gmaxlapras24
 TEXT: 8 Aralık, 14.00-17.00
 
+RESOURCE ID: event_datetime_range_key_gmaxsnorlax25
+TEXT: 19 Nisan, 14.00-17.00
+
 RESOURCE ID: event_datetime_range_key_gobattlemay2024
 TEXT: 4 Mayıs, 00.00 –
 5 Mayıs, 23.59
@@ -22671,6 +22765,10 @@ TEXT: 11 Şubat, 14.00 - 20.00
 
 RESOURCE ID: event_datetime_range_key_hoopaunboundraidday
 TEXT: 15 Şubat, 14.00-17.00
+
+RESOURCE ID: event_datetime_range_key_horizonscb0425
+TEXT: 16 Nisan, 10.00 -
+22 Nisan, 20.00
 
 RESOURCE ID: event_datetime_range_key_janmonthly2025
 TEXT: 1 Ocak, 10.00 –
@@ -22788,9 +22886,16 @@ RESOURCE ID: event_datetime_range_key_shinycelebi24
 TEXT: 28 Haziran, 10.00 -
 3 Temmuz, 20.00
 
+RESOURCE ID: event_datetime_range_key_sis_apr25
+TEXT: 9 Nisan, 10.00 -
+14 Nisan, 20.00
+
 RESOURCE ID: event_datetime_range_key_slumberingsands24
 TEXT: 7 Haziran, 10.00 -
 12 Haziran, 20.00
+
+RESOURCE ID: event_datetime_range_key_sparringpartnersraidday
+TEXT: 13 Nisan, 14.00-17.00
 
 RESOURCE ID: event_datetime_range_key_spelunkercove24
 TEXT: 15 Haziran, 10.00 -
@@ -22808,6 +22913,10 @@ RESOURCE ID: event_datetime_range_key_stunning_styles
 TEXT: 3 Nisan, 10.00 –
 7 Nisan, 20.00
 
+RESOURCE ID: event_datetime_range_key_sweet_discoveries_apr25
+TEXT: 24 Nisan, 10.00 -
+29 Nisan, 20.00
+
 RESOURCE ID: event_datetime_range_key_takeovermarch24
 TEXT: 27 Mart, 00.00 –
 31 Mart, 23.59
@@ -22822,6 +22931,9 @@ TEXT: 23 Ağustos 2024, yerel saatle 10.00 –
 
 RESOURCE ID: event_datetime_range_key_tynamocd24
 TEXT: 21 Temmuz, 14.00-17.00
+
+RESOURCE ID: event_datetime_range_key_tyrogue0425
+TEXT: 6 Nisan, 14.00-17.00
 
 RESOURCE ID: event_datetime_range_key_ultraspace24
 TEXT: 23 Mayıs, 10.00 -
@@ -23571,6 +23683,13 @@ TEXT: Rütbenizi artırıp ödüllerin kilidini açmak için puan kazanın. Bile
 Bilet Görevlerini tamamlayarak kazandığınız ödülleri görevi tamamlar tamamlamaz alabilirsiniz.
 
 
+RESOURCE ID: event_pass_micro_action_modal_desc_ab_test_disclaimer
+TEXT: Rütbenizi artırıp ödüllerin kilidini açmak için puan kazanın. Bilet Görevlerini veya burada sıralanan başarımları tamamlayarak puan kazanabilirsiniz.
+
+Bir Bilet Görevini tamamlayarak kazanacağınız ödülleri görevi tamamlar tamamlamaz alabilirsiniz.
+
+<b>GO Bileti şu anda test aşamasındadır; GO Biletinin ücretsiz ve ücretli versiyonları ile ödülleri yalnızca dünyanın teste tabi bölgelerinde kazanılıp alınabilir.</b>
+
 RESOURCE ID: event_pass_micro_action_modal_points_display
 TEXT: {0} Puan
 
@@ -23593,6 +23712,9 @@ TEXT: 40. Rütbede Verilir
 
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_99
 TEXT: 99. Rütbede Verilir
+
+RESOURCE ID: event_pass_premium_reward_banner_bottom_text_generic_rank
+TEXT: {0}. Rütbede Verilir
 
 RESOURCE ID: event_pass_premium_reward_banner_middle_text
 TEXT: Şanslı Süs Eşyası
@@ -23876,6 +23998,9 @@ TEXT: Evrim Etkinliği: GO Roket Takımı Liderlerine karşı {0} kez zafer kaza
 RESOURCE ID: evolution_cup_title
 TEXT: Evrim Kupası
 
+RESOURCE ID: evolution_description_applin
+TEXT: Bu Pokémon verdiğiniz elma türüne bağlı olarak farklı Pokémon’lara evrimleşebilir. Elmalar etkin bir Yosunlu Yem Modülü olan PokéDurakların yakınında bulunabilir.
+
 RESOURCE ID: evolution_event_name
 TEXT: Evrim Etkinliği
 
@@ -24004,6 +24129,9 @@ TEXT: Doğada Kâşif Pikachu ortaya çıkıyor
 
 RESOURCE ID: explorer_title
 TEXT: Hediye Takası
+
+RESOURCE ID: expo_2025_event_overlay_title
+TEXT: EXPO 2025’te Pokémon GO
 
 RESOURCE ID: external_box_name_1
 TEXT: Ultra Efsane Kutusu
@@ -25616,7 +25744,7 @@ RESOURCE ID: form_noice
 TEXT: Erimiş Surat
 
 RESOURCE ID: form_normal
-TEXT: Normal
+TEXT:  
 
 RESOURCE ID: form_oinkologne_female
 TEXT: Dişi
@@ -25700,7 +25828,7 @@ RESOURCE ID: form_rain
 TEXT: Yağmurlu
 
 RESOURCE ID: form_rapid_strike
-TEXT: Rapid Strike Style
+TEXT: Hızlı Vuruş Tarzı
 
 RESOURCE ID: form_red_striped
 TEXT: Kırmızı Çizgili
@@ -25805,7 +25933,7 @@ RESOURCE ID: form_silvally_water
 TEXT: Türü: Su
 
 RESOURCE ID: form_single_strike
-TEXT: Single Strike Style
+TEXT: Tek Vuruş Tarzı
 
 RESOURCE ID: form_sky
 TEXT: Gökyüzü Formu
@@ -26133,7 +26261,7 @@ RESOURCE ID: friend_invited_you_to_ex_raid
 TEXT: sizi özel akına davet etti!
 
 RESOURCE ID: friend_is_at_a_max_battle
-TEXT: Has joined a <b>{0} {1}</b> Battle
+TEXT: Has joined a <b>{0}</b> battle
 
 RESOURCE ID: friend_is_at_a_raid
 TEXT: {0} <b>{1} akınında!</b>
@@ -26440,7 +26568,7 @@ RESOURCE ID: fusion_resource_black_kyurem_name_plural
 TEXT: Volt Füzyon Enerjisi
 
 RESOURCE ID: fusion_resource_dawnwings_necrozma_desc
-TEXT: 
+TEXT: Necrozma ile Lunala’yı birleştirerek Şafak Kanat Necrozma’ya dönüştürür. Şafak Kanat Necrozma’yı akınlarda alt ederek bulunabilir.
 
 RESOURCE ID: fusion_resource_dawnwings_necrozma_name
 TEXT: Ay Füzyon Enerjisi
@@ -26449,7 +26577,7 @@ RESOURCE ID: fusion_resource_dawnwings_necrozma_name_plural
 TEXT: Ay Füzyon Enerjisi
 
 RESOURCE ID: fusion_resource_duskmane_necrozma_desc
-TEXT: 
+TEXT: Necrozma ile Solgaleo’yu birleştirerek Alacakaranlık Yelesi Necrozma’ya dönüştürür. Alacakaranlık Yelesi Necrozma’yı akınlarda alt ederek bulunabilir.
 
 RESOURCE ID: fusion_resource_duskmane_necrozma_name
 TEXT: Güneş Füzyon Enerjisi
@@ -27596,6 +27724,9 @@ TEXT: Kuluçkalı Keşif Bileti: Şubat
 RESOURCE ID: general1.ticket.5_gmaxlapras24_title
 TEXT: Gigantamaks Lapras Maksi Maç Günü Bileti
 
+RESOURCE ID: general1.ticket.5_gmaxsnorlax25_title
+TEXT: Gigantamaks Snorlax Maksi Maç Günü Bileti
+
 RESOURCE ID: general1.ticket.5_hoopaunboundraidday_title
 TEXT: Serbest Hoopa Akın Günü Bileti
 
@@ -27773,8 +27904,14 @@ TEXT: Oranguru ve Passimian Araştırma Günü Premium Süreli Araştırması Bi
 RESOURCE ID: general1.ticket._shinycelebi24_title
 TEXT: Ormandaki Fısıltılar Ustalık Araştırması Bileti
 
+RESOURCE ID: general1.ticket._sis_apr25_title
+TEXT: Yeşeren Bahar Premium Süreli Araştırması Bileti
+
 RESOURCE ID: general1.ticket._slumberingsands24_title
 TEXT: Uyuklayan Kumlar Premium Süreli Araştırması Bileti
+
+RESOURCE ID: general1.ticket._sparringpartnersraidday_title
+TEXT: İdman Arkadaşları Akın Günü Bileti
 
 RESOURCE ID: general1.ticket._spelunkercove24_title
 TEXT: Plajda Cümbüş Süreli Araştırması Bileti
@@ -27785,11 +27922,17 @@ TEXT: Zafere Yükseliş Süreli Araştırması Bileti
 RESOURCE ID: general1.ticket._stldrslv0125_title
 TEXT: Çelik Kanatlar Premium Süreli Araştırması Bileti
 
+RESOURCE ID: general1.ticket._sweet_discoveries_apr25_title
+TEXT: Taptatlı Keşifler Premium Süreli Araştırması Bileti
+
 RESOURCE ID: general1.ticket._takeovermarch24_title
 TEXT: GO Roket Takımı’nın Peşinde Süreli Araştırması Bileti
 
 RESOURCE ID: general1.ticket._ttfinale24_title
 TEXT: Beraber Zafere Premium Süreli Araştırması Bileti
+
+RESOURCE ID: general1.ticket._tyrogue0425_title
+TEXT: Yumurtadan Çıkan Tyrogue Günü Premium Süreli Araştırması Bileti
 
 RESOURCE ID: general1.ticket._ultraspace24_title
 TEXT: Ultra Uzay Mucizeleri Süreli Araştırması Bileti
@@ -28183,6 +28326,9 @@ TEXT: Moda Haftası Premium Süreli Araştırması Bileti
 
 RESOURCE ID: general2.ticket.5_gmaxkingler25_title
 TEXT: Gigantamaks Kingler Maksi Maç Günü Bileti
+
+RESOURCE ID: general2.ticket.6_horizonscb0425_title
+TEXT: Tirink Tinkatink Premium Süreli Araştırması Bileti
 
 RESOURCE ID: general2.ticket.6_megaabsolraidday_title
 TEXT: Mega Absol Akın Günü Bileti
@@ -29146,6 +29292,12 @@ TEXT: Gigantamaks Lapras Maksi Maçlarda ortaya çıkıyor
 
 RESOURCE ID: gmax_max_battles
 TEXT: Gigantamaks Pokémon’lar Maksi Maçlarda ortaya çıkıyor
+
+RESOURCE ID: gmax_snorlax_lead_up_timed_research
+TEXT: Önümüz Gigantamaks Snorlax Maksi Maç Günü Süreli Araştırması
+
+RESOURCE ID: gmax_snorlax_max_battles
+TEXT: Gigantamaks Snorlax Maksi Maçlarda ortaya çıkıyor
 
 RESOURCE ID: go_anniversary_event_name
 TEXT: Pokémon GO Yıl Dönümü
@@ -36828,6 +36980,30 @@ TEXT: Şimdi Şarj Edin
 RESOURCE ID: hoopas_arrival_2021_collection_challenge
 TEXT: Hoopa'nın Gelişi Toplama Görevi
 
+RESOURCE ID: horizons_collab_event_name
+TEXT: Pokémon Yeni Ufuklar: Dizi Kutlama Etkinliği
+
+RESOURCE ID: horizons_free_tr_name
+TEXT: Pokémon Yeni Ufuklar: Dizi Kutlama Etkinliği Süreli Araştırması
+
+RESOURCE ID: horizons_free_tr_name_1
+TEXT: Pokémon Yeni Ufuklar: Dizi Kutlama Etkinliği Süreli Araştırması (1/4)
+
+RESOURCE ID: horizons_free_tr_name_2
+TEXT: Pokémon Yeni Ufuklar: Dizi Kutlama Etkinliği Süreli Araştırması (2/4)
+
+RESOURCE ID: horizons_free_tr_name_3
+TEXT: Pokémon Yeni Ufuklar: Dizi Kutlama Etkinliği Süreli Araştırması (3/4)
+
+RESOURCE ID: horizons_free_tr_name_4
+TEXT: Pokémon Yeni Ufuklar: Dizi Kutlama Etkinliği Süreli Araştırması (4/4)
+
+RESOURCE ID: horizons_paid_tr_name
+TEXT: Tirink Tinkatink Premium Süreli Araştırması
+
+RESOURCE ID: horizons_promo_free_tr_name
+TEXT: Pokémon Yeni Ufuklar: Dizi Kutlama Etkinliği Bonus Süreli Araştırması
+
 RESOURCE ID: hour_abbrev
 TEXT: sa
 
@@ -37049,6 +37225,9 @@ TEXT: GO Roket Takımı serserilerine karşı maç kazanınca artırılmış yı
 
 RESOURCE ID: increased_stardust_xp_gifts_bonus
 TEXT: Hediye açarak daha fazla TP ve yıldız tozu kazanımı
+
+RESOURCE ID: increased_tappable_spawns_mossy_lures
+TEXT: Aktif Yosunlu Yem Modülü olan PokéDurakların yakınlarında daha fazla elma
 
 RESOURCE ID: increased_transfer_candy_xl_bonus
 TEXT: Daha fazla gönderme şekeri ve büyük gönderme şekeri
@@ -37675,6 +37854,9 @@ TEXT: Zygarde Hücrelerinin toplandığı bir eşya. {0} Zygarde Hücreniz var.
 RESOURCE ID: item_breakfast_name
 TEXT: Zygarde Küpü
 
+RESOURCE ID: item_description_applin
+TEXT: Applin’i evrimleştirmek için etkin bir Yosunlu Yem Modülü olan PokéDurakların yakınında bulduğunuz elmaları kullanın.
+
 RESOURCE ID: item_dragon_scale_desc
 TEXT: Belirli Pokémon türlerinin evrimleşmesini sağlayan bir pul. Çok serttir ve esnek değildir.
 
@@ -37884,6 +38066,9 @@ TEXT: 12 Kasım 2024, yerel saatle 20.00’ye kadar sürecek Hasat Festivali pre
 RESOURCE ID: item_event_ticket_evergreen_desc_hemisphereholidays1224
 TEXT: 22 Aralık 2024, yerel saatle 10.00’a kadar sürecek Yıl Sonu 1. Kısım: Sahil Seyri premium süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_horizonscb0425
+TEXT: 22 Nisan 2025, yerel saatle 20.00’ye kadar sürecek Tirink Tinkatink premium süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
+
 RESOURCE ID: item_event_ticket_evergreen_desc_lunarny0125
 TEXT: 2 Şubat 2025, yerel saatle 20.00’ye kadar sürecek Yeni Ay Yılı premium süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
@@ -37902,8 +38087,17 @@ TEXT: 30 Aralık 2024, yerel saatle 10.00 - 1 Ocak 2025, yerel saatle 20.00 aras
 RESOURCE ID: item_event_ticket_evergreen_desc_psychspec24
 TEXT: 18 Eylül 2024, yerel saatle 10.00 - 22 Eylül 2024, yerel saatle 20.00 arasında gerçekleşecek Muhteşem Psişik 2024 premium süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_sis_apr25
+TEXT: 9 Nisan 2025, yerel saatle 10.00 - 14 Nisan 2025, yerel saatle 20.00 arasında gerçekleşecek Yeşeren Bahar premium süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
+
 RESOURCE ID: item_event_ticket_evergreen_desc_stldrslv0125
 TEXT: 26 Ocak 2025, yerel saatle 23.59’a kadar sürecek Çelik Kanatlar premium süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
+
+RESOURCE ID: item_event_ticket_evergreen_desc_sweet_discoveries_apr25
+TEXT: 24 Nisan 2025, yerel saatle 10.00 - 29 Nisan 2025, yerel saatle 20.00 arasında gerçekleşecek Taptatlı Keşifler premium süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
+
+RESOURCE ID: item_event_ticket_evergreen_desc_tyrogue0425
+TEXT: 6 Nisan 2025, yerel saatle 17.00’ye kadar sürecek Yumurtadan Çıkan Tyrogue Günü premium süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
 RESOURCE ID: item_event_ticket_evergreen_desc_yamasktr24
 TEXT: 19 Ekim 2024’te, yerel saatle 14.00-17.00 arasında gerçekleşecek Yamask ve Galarlı Yamask Araştırma Günü kapsamında iki premium süreli araştırmaya dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
@@ -37929,6 +38123,9 @@ TEXT: Bu bilet Hasat Festivali premium süreli araştırmasına dilediğiniz yer
 RESOURCE ID: item_event_ticket_evergreen_details_hemisphereholidays1224
 TEXT: Bu bilet Yıl Sonu 1. Kısım: Sahil Seyri premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için 17 Aralık’ta otomatik olarak etkinleştirilecek.
 
+RESOURCE ID: item_event_ticket_evergreen_details_horizonscb0425
+TEXT: Bu bilet Tirink Tinkatink premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için 16 Nisan’da otomatik olarak etkinleştirilecek.
+
 RESOURCE ID: item_event_ticket_evergreen_details_lunarny0125
 TEXT: Bu bilet Yeni Ay Yılı premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için 29 Ocak’ta otomatik olarak etkinleştirilecek.
 
@@ -37947,8 +38144,17 @@ TEXT: Bu bilet Yılbaşı 2025 premium süreli araştırmasına dilediğiniz yer
 RESOURCE ID: item_event_ticket_evergreen_details_psychspec24
 TEXT: Bu bilet Muhteşem Psişik 2024 premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için 18 Eylül’de otomatik olarak etkinleştirilecek.
 
+RESOURCE ID: item_event_ticket_evergreen_details_sis_apr25
+TEXT: Bu bilet Yeşeren Bahar premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için 9 Nisan’da otomatik olarak etkinleştirilecek.
+
 RESOURCE ID: item_event_ticket_evergreen_details_stldrslv0125
 TEXT: Bu bilet Çelik Kanatlar premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için 21 Ocak’ta otomatik olarak etkinleştirilecek.
+
+RESOURCE ID: item_event_ticket_evergreen_details_sweet_discoveries_apr25
+TEXT: Bu bilet Taptatlı Keşifler premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için 24 Nisan’da otomatik olarak etkinleştirilecek.
+
+RESOURCE ID: item_event_ticket_evergreen_details_tyrogue0425
+TEXT: Bu bilet 6 Nisan’da gerçekleşecek Yumurtadan Çıkan Tyrogue Günü premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_evergreen_details_yamasktr24
 TEXT: Bu bilet Yamask ve Galarlı Yamask Araştırma Günü kapsamında iki premium süreli araştırmaya dilediğiniz yerden erişebilmeniz için 19 Ekim’de otomatik olarak etkinleştirilecek.
@@ -37997,6 +38203,9 @@ TEXT: 1 Şubat 2025'te, yerel saatle 14.00-17.00 arasında geçerli olacak özel
 
 RESOURCE ID: item_event_ticket_gray_desc_gmaxlapras24
 TEXT: 8 Aralık 2024'te, yerel saatle 14.00-17.00 arasında  geçerli olacak özel bonuslara dilediğiniz yerden hak kazanmanıza olanak tanıyan bir bilet.
+
+RESOURCE ID: item_event_ticket_gray_desc_gmaxsnorlax25
+TEXT: 19 Nisan 2025’te, yerel saatle 14.00-17.00 arasında geçerli olacak özel bonuslara dilediğiniz yerden hak kazanmanıza olanak tanıyan bir bilet.
 
 RESOURCE ID: item_event_ticket_gray_desc_gofest2023
 TEXT: Pokémon GO Festivali 2023: Küresel etkinliğine dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
@@ -38064,6 +38273,9 @@ TEXT: 19 Ocak 2025 Pazar, yerel saatle 14.00-22.00 arasında geçerli olacak öz
 RESOURCE ID: item_event_ticket_gray_desc_shinycelebi
 TEXT: 28 Haziran 2024’te, yerel saatle 10.00’da başlayacak Ormandaki Fısıltılar ustalık araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
+RESOURCE ID: item_event_ticket_gray_desc_sparringpartnersraidday
+TEXT: 13 Nisan 2025 Pazar, yerel saatle 14.00-17.00 arasında geçerli olacak özel bonuslara dilediğiniz yerden hak kazanmanıza olanak tanıyan bir bilet.
+
 RESOURCE ID: item_event_ticket_gray_desc_ticketoftreats
 TEXT: Ekim ayı boyunca her perşembe yeni bir süreli araştırmaya dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
@@ -38099,6 +38311,9 @@ TEXT: Bu bilet 1 Şubat’ta geçerli olacak özel bonuslara dilediğiniz yerden
 
 RESOURCE ID: item_event_ticket_gray_details_gmaxlapras24
 TEXT: Bu bilet 8 Aralık’ta geçerli olacak özel bonuslara dilediğiniz yerden hak kazanabilmeniz için otomatik olarak etkinleştirilecek.
+
+RESOURCE ID: item_event_ticket_gray_details_gmaxsnorlax25
+TEXT: Bu bilet 19 Nisan’da geçerli olacak özel bonuslara dilediğiniz yerden hak kazanabilmeniz için otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_gray_details_gofest2023
 TEXT: Bu bilet, 26-27 Ağustos 2023 tarihlerinde gerçekleşecek Pokémon GO Festivali 2023: Küresel etkinliğine dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
@@ -38162,6 +38377,9 @@ TEXT: Bu bilet 19 Ocak tarihinde geçerli olacak özel bonuslara dilediğiniz ye
 
 RESOURCE ID: item_event_ticket_gray_details_shinycelebi
 TEXT: Bu bilet Ormandaki Fısıltılar ustalık araştırmasına dilediğiniz yerden erişebilmeniz için 28 Haziran’da otomatik olarak etkinleştirilecek.
+
+RESOURCE ID: item_event_ticket_gray_details_sparringpartnersraidday
+TEXT: Bu bilet 13 Nisan’da geçerli olacak özel bonuslara dilediğiniz yerden hak kazanabilmeniz için otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_gray_details_ticketoftreats
 TEXT: Bu bilet 31 Ekim 2023 Salı, yerel saatle 23.59’a kadar bir grup süreli araştırmaya dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
@@ -39045,10 +39263,7 @@ RESOURCE ID: item_move_reroll_special_attack_name
 TEXT: Güçlü TM
 
 RESOURCE ID: item_mp_desc
-TEXT:  
-
-RESOURCE ID: item_mp_desc_temp
-TEXT: Use Max Particles to take on Max Battles at Power Spots or unlock and level up Max Moves.
+TEXT: Maksi Parçacıkları Güç Noktalarında Maksi Maç yapmak veya Maksi Hareketlerin kilidini açıp seviyesini yükseltmek için kullanabilirsiniz.
 
 RESOURCE ID: item_mp_name
 TEXT: Maksi Parçacık
@@ -39073,6 +39288,37 @@ TEXT: ?????? Parası
 
 RESOURCE ID: item_other_evolution_stone_a_name_plural
 TEXT: Gimmighoul Parası
+
+RESOURCE ID: item_other_evolution_stone_maple_a_desc
+TEXT: Belirli bir Pokémon’u evrimleştirebilen tuhaf bir elma. Olağanüstü tatlıdır.
+
+Elmalar etkin bir Yosunlu Yem Modülü olan PokéDurakların yakınında bulunabilir.
+
+RESOURCE ID: item_other_evolution_stone_maple_a_name
+TEXT: Tatlı Elma
+
+RESOURCE ID: item_other_evolution_stone_maple_a_name_plural
+TEXT: Sweet Apples
+
+RESOURCE ID: item_other_evolution_stone_maple_b_desc
+TEXT: Belirli bir Pokémon’u evrimleştirebilen tuhaf bir elma. Olağanüstü ekşidir.
+
+Elmalar etkin bir Yosunlu Yem Modülü olan PokéDurakların yakınında bulunabilir.
+
+RESOURCE ID: item_other_evolution_stone_maple_b_name
+TEXT: Ekşi Elma
+
+RESOURCE ID: item_other_evolution_stone_maple_b_name_plural
+TEXT: Tart Apples
+
+RESOURCE ID: item_other_evolution_stone_maple_c_desc
+TEXT: Belirli bir Pokémon’u evrimleştirebilen tuhaf bir elma. Olağanüstü ballıdır.
+
+RESOURCE ID: item_other_evolution_stone_maple_c_name
+TEXT: Ballı Elma
+
+RESOURCE ID: item_other_evolution_stone_maple_c_name_plural
+TEXT: Syrupy Apples
 
 RESOURCE ID: item_paid_raid_ticket_desc
 TEXT: Premium Maç Bileti, akın maçına katılmak ya da premium GO Maç Ligi ödülleri kazanmak için kullanılabilir.
@@ -39359,6 +39605,9 @@ TEXT: GO Roket Takımı'nın Gizli Üslerini bulmak için bunu kullanabilirsiniz
 RESOURCE ID: itemleadermap_title
 TEXT: Roket Radarı
 
+RESOURCE ID: items_picked_up
+TEXT: Doğada bir şey bulundu!
+
 RESOURCE ID: itemstorageupgrade.1_description
 TEXT: Taşıyabileceğiniz maksimum eşya sayısını {0} artırır.
 
@@ -39643,6 +39892,36 @@ TEXT: Bahar Çiçeği Festivali 2025 Arka Plan Süreli Araştırması (3/3)
 
 RESOURCE ID: kr_cherryblossom_festival_2025_yeouido_bonus
 TEXT: Bahar Çiçeği Festivali 2025 – Yeouido Bonusu
+
+RESOURCE ID: kr_ditto_event_2025_ditto_o_clock_active
+TEXT: Şu anda çok sayıda Ditto ortaya çıkıyor!
+
+RESOURCE ID: kr_ditto_event_2025_ditto_o_clock_desc
+TEXT: Etkinlik sırasında her saat başı üç dakika boyunca çok sayıda Ditto ortaya çıkacak!
+
+RESOURCE ID: kr_ditto_event_2025_ditto_o_clock_title
+TEXT: Ditto vakti geldi!
+
+RESOURCE ID: kr_ditto_event_2025_ditto_sticker_jamsil_area
+TEXT: Pokémon Kasabası 2025 etkinlik alanındaki PokéDurakları ve spor salonlarını döndürerek etkinlik temalı çıkartma kazanmak için daha fazla şans
+
+RESOURCE ID: kr_ditto_event_2025_pokemon_town_2025
+TEXT: Pokémon Kasabası 2025
+
+RESOURCE ID: kr_ditto_event_2025_title
+TEXT: 1, 3, 2! Ditto Vakti Geldi!
+
+RESOURCE ID: kr_ditto_event_2025_tr_name
+TEXT: Mor Metafor Süreli Araştırması
+
+RESOURCE ID: kr_ditto_event_2025_tr_name_1
+TEXT: Mor Metafor Süreli Araştırması (1/3)
+
+RESOURCE ID: kr_ditto_event_2025_tr_name_2
+TEXT: Mor Metafor Süreli Araştırması (2/3)
+
+RESOURCE ID: kr_ditto_event_2025_tr_name_3
+TEXT: Mor Metafor Süreli Araştırması (3/3)
 
 RESOURCE ID: kr_festival_fr_location_background
 TEXT: Alan araştırması görevlerinden yakalanan Deerling’ler ve kostümlü Pikachu’lar ayrıcalıklı bir konum arka planına sahip olabilir
@@ -42778,6 +43057,9 @@ TEXT: Manyetik İnceleme: Plusle
 RESOURCE ID: magnetic_study_plusle_tr_name
 TEXT: Manyetik İnceleme Süreli Araştırması: Plusle
 
+RESOURCE ID: make_good_kyurem_desc
+TEXT: Karşılaşma: Kyurem, 2025
+
 RESOURCE ID: make_good_kyurem_title_001
 TEXT: Karşılaşma: Kyurem 1
 
@@ -43023,6 +43305,81 @@ TEXT: Çarpıcı Bir Gölge (6/6)
 
 RESOURCE ID: marshadow_global_sr_name
 TEXT: Çarpıcı Bir Gölge
+
+RESOURCE ID: marshadow_sr_00_00
+TEXT: Bravo %PLAYERNAME%! Zamanlaman daha iyi olamazdı! Söyle bakalım, son zamanlarda gölgende bir gariplik fark ettin mi?
+
+RESOURCE ID: marshadow_sr_00_01
+TEXT: Bölgedeki birçok Eğitmen gölgelerinde bazı tuhaflıklar gördüklerini bildirdiler.
+
+RESOURCE ID: marshadow_sr_00_02
+TEXT: Bu raporlar benim araştırmalarımda belirttiğim bir noktayla paralellik gösteriyor, ancak emin olmadan önce notlarıma tekrar göz atmalıyım.
+
+RESOURCE ID: marshadow_sr_00_03
+TEXT: Eğer istersen yine her zaman yaptığımızı yapalım: Ben araştırma arşivlerine bakayım, sen de dışarı çıkıp bu durumu bir soruştur. Etrafta yapacağın gözlemler çok işimize yarayabilir!
+
+RESOURCE ID: marshadow_sr_01_00
+TEXT: Ooo naber %PLAYERNAME%? Profesöre mi baktın? Tüh ya, o da daha yeni çıktı. Elinde de böyle kalın bir defter vardı!
+
+RESOURCE ID: marshadow_sr_01_01
+TEXT: Buraların havası bu aralar aşırı garip ya, gölgelerdeki tuhaflıklar milleti acayip korkuttu! Ben öyle şeylerden korkmam gerçi de... Serinkanlıyımdır yani.
+
+RESOURCE ID: marshadow_sr_01_02
+TEXT: Sen de gölge avından bıktıysan gel biraz beraber takılalım. Hem de bir şeyler atıştırırız, maç stratejisi konuşuruz filan. Ne dersin?
+
+RESOURCE ID: marshadow_sr_01_03
+TEXT: Hayır mı? Eh haklısın tabii, profesörü bulmak öncelikli şu anda!
+
+RESOURCE ID: marshadow_sr_02_00
+TEXT: Merhabalar %PLAYERNAME%. Beni gördüğüne şaşırmışa benziyorsun. Ama seni görmek beni hiç şaşırtmadı.
+
+RESOURCE ID: marshadow_sr_02_01
+TEXT: Profesör Willow’u arıyorsun, öyle değil mi? Biraz önce onu gördüğümde biraz tuhaf davranıyordu. Gölgeler içinde bir şeyler arıyormuş gibi şu tarafa doğru ilerlediğini gördüm.
+
+RESOURCE ID: marshadow_sr_02_02
+TEXT: Muhtemelen senin de haberdar olduğun tuhaf gölgeler üzerinde ben de çalışıyorum. Ancak gözlemlerim henüz elle tutulur bir sonuç doğurmuş değil.
+
+RESOURCE ID: marshadow_sr_02_03
+TEXT: Umarım senin araştırmaların benimkilerden daha verimli olur. Ama dikkati elden bırakma sakın %PLAYERNAME%.
+
+RESOURCE ID: marshadow_sr_03_00
+TEXT: Aa %PLAYERNAME%! Sen de Profesör Willow’u mu arıyorsun?
+
+RESOURCE ID: marshadow_sr_03_01
+TEXT: Tuhaf gölgeleri fark ettin mi? Öyle rastgele hareket etmiyorlar. İçlerinde hareket edip ilerleyen bir şey var. Çok ilginç.
+
+RESOURCE ID: marshadow_sr_03_02
+TEXT: Blanche analiz yaparken Spark her bulduğu gölgeye atlayadursun, gel biz ikimiz de bu işi doğrudan çözelim!
+
+RESOURCE ID: marshadow_sr_03_03
+TEXT: İçimizdeki savaşçının ateşini hiç söndürmemeliyiz, bunu sakın unutma %PLAYERNAME%! Karşımızda kim olursa olsun yılmak yok!
+
+RESOURCE ID: marshadow_sr_04_00
+TEXT: Nihayet seni buldum %PLAYERNAME%! Etrafta bu gölgeler varken herhalde birbirimizin yakınından geçip dursak da farkına varmadık.
+
+RESOURCE ID: marshadow_sr_04_01
+TEXT: Son verileri eski notlarımla karşılaştırdım ve nihayet bu tuhaf olayların kaynağını tespit ettim!
+
+RESOURCE ID: marshadow_sr_04_02
+TEXT: Etrafta güçlü bir varlık dolaşıyor, Eğitmenleri ve Pokémon’larını gözlemliyor. Verilere göre gayet de yakınımızda olmalı.
+
+RESOURCE ID: marshadow_sr_04_03
+TEXT: Önümüzde devasa bir araştırma fırsatı var. Ve sen de bu iş için adeta biçilmiş kaftansın!
+
+RESOURCE ID: marshadow_sr_04_04
+TEXT: Hadi bakalım, git ve bu tuhaf gölgelere sebep olan her neyse bul. Ama dikkati sakın elden bırakma. Karanlıktan ne çıkacağını kimse bilemez ne de olsa!
+
+RESOURCE ID: marshadow_sr_05_00
+TEXT: Harika iş çıkardın %PLAYERNAME%!
+
+RESOURCE ID: marshadow_sr_05_01
+TEXT: Tuhaf gölgeler aslında Mitolojik Pokémon Marshadow’muş. Gözümüzün önünde saklanmış resmen! Gerçi gözlerimiz etrafı pek seçemiyordu ama neyse.
+
+RESOURCE ID: marshadow_sr_05_02
+TEXT: Bu karanlıkta onu bulmak beklediğimizden daha kolay oldu ama senin gibi Pokémon’ları yakından tanıyan bir Eğitmenin yardımı olmadan bu esrara ışık tutamazdık.
+
+RESOURCE ID: marshadow_sr_05_03
+TEXT: Bu çok önemli bir başarı! Tuhaf gölgelerin gizemini çözmekle kalmadın, aynı zamanda Marshadow gibi yeni bir arkadaş da edinmiş oldun!
 
 RESOURCE ID: master_classic_title
 TEXT: Usta Ligi Klasik
@@ -43527,6 +43884,12 @@ TEXT: Gigantamaks Lapras Maksi Maç Günü
 
 RESOURCE ID: max_battle_day_gigantamax_lapras_ticketed
 TEXT: Gigantamaks Lapras Maksi Maç Günü Bileti Bonusları
+
+RESOURCE ID: max_battle_day_gigantamax_snorlax_event_name
+TEXT: Gigantamaks Snorlax Maksi Maç Günü
+
+RESOURCE ID: max_battle_day_gigantamax_snorlax_ticketed
+TEXT: Gigantamaks Snorlax Maksi Maç Günü Bileti Bonusları
 
 RESOURCE ID: max_battler_box
 TEXT: Maksi Maç Kutusu
@@ -44054,9 +44417,9 @@ RESOURCE ID: meshing_option_title
 TEXT: İç İçe Geçme
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2025-04-16T17:04:50.234650+00:00 for tr-TR
-at SHA a402bc82364
-Pipeline 3159593, job 39742215
+TEXT: Built at 2025-04-23T19:20:33.523432+00:00 for tr-TR
+at SHA 0d9569809feef
+Pipeline 3173772, job 40065633
 
 RESOURCE ID: mex_fighting_promo_title
 TEXT: Süreli Araştırma: Dövüşçünüzü Seçin
@@ -44234,6 +44597,9 @@ TEXT: {0} DK {1} SN
 
 RESOURCE ID: ml_bundle_timer_tag
 TEXT: Gece yarısında güncellenir
+
+RESOURCE ID: mlb_key
+TEXT: MLB
 
 RESOURCE ID: mobile_games_catch_sr
 TEXT: Mobile Games Show: Catch Challenge
@@ -45543,6 +45909,9 @@ TEXT: Buz Yanığı
 RESOURCE ID: move_name_0468
 TEXT: Meşale Şarkısı
 
+RESOURCE ID: move_name_0471
+TEXT: Üstün El
+
 RESOURCE ID: move_required_to_enable_adventure_effect
 TEXT: {0} {1} güçlü saldırısını bilmiyor, bu nedenle birleştirme sonrasında Macera Etkili bir saldırı bilmiyor olacak.
 
@@ -45570,6 +45939,9 @@ TEXT: {0} mega evrimleşmişken <b>{1}</b>, <b>{2}</b> veya <b>{3}</b> türü Po
 RESOURCE ID: mp_bonus_buff_desc_3
 TEXT: {0} mega evrimleşmişken <b>{1}</b>, <b>{2}</b> veya <b>{3}</b> türü Pokémon’lar yakaladığınızda ekstra şeker ve ekstra TP kazanacak ve büyük şeker alma şansınızı artıracaksınız.
 
+RESOURCE ID: mp_explore_quarter
+TEXT: Maksi Parçacık kazanmak için 1/4 macera mesafesi
+
 RESOURCE ID: mp_replenish.1_description
 TEXT: Küçük bir Maksi Parçacık paketi. Her birinde {0} Maksi Parçacık vardır.
 
@@ -45581,6 +45953,16 @@ TEXT: 3 küçük Maksi Parçacık paketi. Her birinde {0} Maksi Parçacık vard�
 
 RESOURCE ID: mp_replenish.3_title
 TEXT: 3 Maksi Parçacık Paketi ({0} MP)
+
+RESOURCE ID: mp_replenish_rrp.1_title
+TEXT: 1 Remote Raid Pass
+1 Max Particle Pack
+({0} MP)
+
+RESOURCE ID: mp_replenish_rrp.3_title
+TEXT: 3 Remote Raid Passes
+3 Max Particle Packs
+({0} MP)
 
 RESOURCE ID: mrd_berry_easy
 TEXT: Minccino Araştırması: Pokémon yakalarken 3 meyve kullanın
@@ -48835,6 +49217,18 @@ TEXT: KATILIM PLANLA
 
 RESOURCE ID: nearby_rsvp_no_rsvps
 TEXT: Önümüzdeki maçlar için planlanmış katılımınız yok.
+
+RESOURCE ID: nearby_rsvp_notification_max_battle_key
+TEXT: Join {0} Trainers in a nearby Gigantamax Battle starting soon!
+
+RESOURCE ID: nearby_rsvp_notification_max_battle_key_singular
+TEXT: Join a nearby Gigantamax Battle starting soon!
+
+RESOURCE ID: nearby_rsvp_notification_raid_key
+TEXT: Join {0} Trainers in a nearby Raid Battle starting soon!
+
+RESOURCE ID: nearby_rsvp_notification_raid_key_singular
+TEXT: Join a nearby Raid Battle starting soon!
 
 RESOURCE ID: nearby_rsvp_reminders_header
 TEXT: HATIRLATMALAR
@@ -59323,6 +59717,9 @@ TEXT: Seçili Pokémon’lardan biri ya da birkaçı gönderilemiyor.
 RESOURCE ID: pokemon_info_panel_defended_gym_raid_active_message
 TEXT: Akın devam ediyor! Bittiği zaman Pokémon'unuz spor salonuna dönecek.
 
+RESOURCE ID: pokemon_info_pokecoin_label
+TEXT: POKÉPARA
+
 RESOURCE ID: pokemon_info_pokemon_is_released
 TEXT: {0} bırakıldı.
 
@@ -63996,6 +64393,9 @@ TEXT: {0} spor salonu maçında süper etkili bir güçlü saldırı kullanın
 RESOURCE ID: quest_battle_supereffective_charge_singular
 TEXT: Bir spor salonu maçında süper etkili bir güçlü saldırı kullanın
 
+RESOURCE ID: quest_battle_team_rocket
+TEXT: Görev: {0} GO Roket Takımı üyesini alt edin
+
 RESOURCE ID: quest_battle_team_rocket_days
 TEXT: {0} farklı gün GO Roket Takımı üyeleriyle maç yapın
 
@@ -64422,6 +64822,9 @@ TEXT: {0} Efsanevi Pokémon yakalayın
 
 RESOURCE ID: quest_catch_pokemon_legendary_singular
 TEXT: Bir Efsanevi Pokémon yakalayın
+
+RESOURCE ID: quest_catch_pokemon_legendary_ultra_beast_singular
+TEXT: Bir Efsanevi Pokémon veya Ultra Yaratık yakalayın
 
 RESOURCE ID: quest_catch_pokemon_party_plural
 TEXT: Bir ekipteyken {0} Pokémon yakalayın
@@ -68251,6 +68654,9 @@ TEXT: {0} Duskull ya da Shuppet evrimleştirin
 RESOURCE ID: quest_hallo19_transfer_plural
 TEXT: {0} Pokémon gönderin
 
+RESOURCE ID: quest_hatch_egg
+TEXT: Görev: Bir yumurta çatlatın
+
 RESOURCE ID: quest_hatch_egg_plural
 TEXT: {0} yumurta çatlatın
 
@@ -68800,6 +69206,9 @@ TEXT: Efsanevi veya Mitolojik Pokémon'ları {0} kez güçlendirin
 RESOURCE ID: quest_power_up_legendary_singular
 TEXT: Bir Efsanevi veya Mitolojik Pokémon'u güçlendirin
 
+RESOURCE ID: quest_power_up_machop_plural
+TEXT: Machop’ı {0} kez güçlendirin
+
 RESOURCE ID: quest_power_up_max_plural
 TEXT: {0} Pokémon'u maksimum DG'sine güçlendirin
 
@@ -69159,6 +69568,9 @@ TEXT: Bir Scorbunny evrimleştirin
 
 RESOURCE ID: quest_send_gifts_daily_row
 TEXT: Arka arkaya {0} gün Hediye gönderin
+
+RESOURCE ID: quest_send_gifts_days
+TEXT: {0} farklı gün bir Hediye gönderin
 
 RESOURCE ID: quest_send_gifts_plural
 TEXT: Arkadaşlarınıza {0} Hediye gönderin
@@ -83318,6 +83730,9 @@ TEXT: {0} Pikachu takas edin
 RESOURCE ID: quest_trade_plural
 TEXT: {0} kez Pokémon takas edin
 
+RESOURCE ID: quest_trade_pokemon
+TEXT: Görev: Bir Pokémon takas edin
+
 RESOURCE ID: quest_trade_singular
 TEXT: Bir Pokémon takas edin
 
@@ -83597,6 +84012,9 @@ TEXT: Pokémon GO Plus + kullanarak 1 gün boyunca uykunuzu takip edin
 RESOURCE ID: quest_waina_spin_pokestop_plural
 TEXT: Pokémon GO Plus + kullanarak {0} PokéDurak döndürün
 
+RESOURCE ID: quest_walk
+TEXT: Görev: {0} km katedin
+
 RESOURCE ID: quest_walk_25km_inaweek_plural
 TEXT: Macera Senkronizasyonu'nu {0} kez kullanarak bir haftada 25 km yürüyün
 
@@ -83788,6 +84206,12 @@ TEXT: Yalnızca 3.500 DG ya da daha azına sahip bir Pokémon kullanarak bir GO 
 
 RESOURCE ID: quest_win_rocket_leader_less4000cp_plural
 TEXT: Yalnızca 4.000 DG ya da daha azına sahip bir Pokémon kullanarak bir GO Roket Takımı Liderini {0} kez alt edin
+
+RESOURCE ID: quest_win_shadow_raid_plural
+TEXT: {0} gölge akın kazanın
+
+RESOURCE ID: quest_win_shadow_raid_singular
+TEXT: Bir gölge akın kazanın
 
 RESOURCE ID: quest_wooper_catch_b
 TEXT: {0} Wooper veya Paldealı Wooper yakalayın
@@ -85869,6 +86293,12 @@ TEXT: Akın Günü: Solosis
 RESOURCE ID: raid_day_solrock
 TEXT: Akın Günü: Solrock
 
+RESOURCE ID: raid_day_sparring_partners_event_name
+TEXT: İdman Arkadaşları Akın Günü
+
+RESOURCE ID: raid_day_sparring_partners_tr_name
+TEXT: İdman Arkadaşları Akın Günü Süreli Araştırması
+
 RESOURCE ID: raid_day_spearow
 TEXT: Akın Günü: Spearow
 
@@ -86492,6 +86922,9 @@ Bu eylemi geri alamazsınız.
 
 RESOURCE ID: raid_rsvp_bonus
 TEXT: Planlı Katılım
+
+RESOURCE ID: raid_s_pass_daily_limit_temp
+TEXT: You’ve reached your daily limit of Remote Max Battles and Remote Raids. Walk closer to join in person.
 
 RESOURCE ID: raid_share_private_code_message
 TEXT: Bu grup kodunu arkadaşlarınızla paylaşın. Bu kodu girerek size katılabilirler.
@@ -88809,6 +89242,27 @@ TEXT: {0} akın kazanın
 RESOURCE ID: raidweek_2019_medium_raid
 TEXT: {0} akın kazanın
 
+RESOURCE ID: rally_expo_2025_desc
+TEXT: Japonya’nın Kansai bölgesindeki Osaka kentinde gerçekleşecek olan EXPO 2025’e özel GO Damga Toplama etkinliğine yalnızca oradan erişilebilecek.
+
+RESOURCE ID: rally_expo_2025_desc_detail
+TEXT: GO Damga Toplama etkinliğinin gerçekleştiği PokéDurakları ziyaret ederek kazanacağınız ödül karşılaşmalarında yakalanan Pokémon’lar EXPO 2025’e özel Osaka arka planına sahip olacak.
+
+RESOURCE ID: rally_expo_2025_desc_general
+TEXT: GO Damga Toplama PokéDuraklarını ziyaret ederek damga toplayın, EXPO 2025 temalı ödüller kazanın!
+
+RESOURCE ID: rally_expo_2025_location
+TEXT: Osaka, Kansai, Japonya
+
+RESOURCE ID: rally_expo_2025_rewards_desc
+TEXT: Bu GO Damga Toplama etkinliğini tamamlayın, EXPO 2025’te ortaya çıkan farklı Pokémon’larla karşılaşmaların yanı sıra 25 Bulbasaur şekeri, 25 Charmander şekeri ve 25 Squirtle şekeri kazanın!
+
+RESOURCE ID: rally_expo_2025_rewards_desc_general
+TEXT: EXPO 2025 Osaka Damga Toplama etkinliğini tamamlayın, etkinlik temalı karşılaşmalar ve ödüller kazanın!
+
+RESOURCE ID: rally_expo_2025_title
+TEXT: EXPO 2025 Damga Toplama
+
 RESOURCE ID: ralts_post_cd_timed_research_name
 TEXT: Ralts Topluluk Gününün Devamı Süreli Araştırması
 
@@ -88828,7 +89282,7 @@ RESOURCE ID: rating_updated_toast
 TEXT: Puanlama güncellendi.
 
 RESOURCE ID: reactivate_button
-TEXT: ETKİNLEŞTİR
+TEXT: DEVAM ET
 
 RESOURCE ID: reactivate_dialog_message
 TEXT: Bu PokéDuraktaki bir veya birkaç damga toplama etkinliğini duraklattınız. Damga toplamaya devam etmek için toplama etkinliğine devam edin.
@@ -89073,7 +89527,7 @@ RESOURCE ID: rejoin_warning_modal_title
 TEXT: Ekibinizden ayrılmak istediğinize emin misiniz?
 
 RESOURCE ID: remote_max_battle_invite_push_notif
-TEXT: A friend invited you to join a Max Battle!
+TEXT: A friend invited you to a Max Battle!
 
 RESOURCE ID: remote_raid_battle_helptext
 TEXT: Uzak Akın Bileti kullanılıyor
@@ -92860,6 +93314,11 @@ TEXT: 2. Kademe GO Bileti Bonusları
 RESOURCE ID: season_pass_milestone_bonus_title_03
 TEXT: 3. Kademe GO Bileti Bonusları
 
+RESOURCE ID: season_pass_premium_rewards_desc_monthly
+TEXT: Rütbeniz arttıkça ödüllerin kilidi açılır. Ödülleri alabilmek için oyunu verilen süre zarfında oynamalısınız.
+
+<b>GO Bileti şu anda test aşamasındadır; GO Biletinin ücretsiz ve ücretli versiyonları ile ödülleri yalnızca dünyanın teste tabi bölgelerinde kazanılıp alınabilir.</b>
+
 RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_april
 TEXT: Lüks GO Bileti: Nisan + 10 Rütbe
 
@@ -92871,6 +93330,12 @@ TEXT: Lüks GO Bileti: Nisan
 
 RESOURCE ID: season_pass_premium_track_title_may
 TEXT: Lüks GO Bileti: Mayıs
+
+RESOURCE ID: season_pass_track_upgrade_header_description_100
+TEXT: 100. rütbede ilave ödüller kazanıp <b>Şanslı Süs Eşyasının</b> kilidini açabilirsiniz!
+
+RESOURCE ID: season_pass_track_upgrade_header_description_50
+TEXT: 50. rütbede ilave ödüller kazanıp <b>Şanslı Süs Eşyasının</b> kilidini açabilirsiniz!
 
 RESOURCE ID: seasonal_delights_box
 TEXT: Mevsime Özel Kutu
@@ -92947,11 +93412,20 @@ TEXT: ŞİKÂYETİ GÖNDER
 RESOURCE ID: sent_friend_error_info_plural
 TEXT: {0} arkadaşınız günlük uzak akın sınırına ulaşmış. Başka arkadaşlar davet edebilirsiniz!
 
+RESOURCE ID: sent_friend_error_info_plural_temp
+TEXT: {0} friends have already met their daily limit of Remote Max Battles and Remote Raids. You can invite more friends!
+
 RESOURCE ID: sent_friend_error_info_singular
 TEXT: 1 arkadaşınız günlük uzak akın sınırına ulaşmış. Başka bir arkadaş davet edebilirsiniz!
 
+RESOURCE ID: sent_friend_error_info_singular_temp
+TEXT: A friend has already met their daily limit of Remote Max Battles and Remote Raids. You can invite another friend!
+
 RESOURCE ID: sent_friend_error_toast
 TEXT: Eğitmen günlük uzak akın sınırına ulaşmış.
+
+RESOURCE ID: sent_friend_error_toast_temp
+TEXT: Trainer has reached their daily limit of Remote Max Battles and Remote Raids.
 
 RESOURCE ID: sent_friend_request_prompt
 TEXT: Arkadaşlık İsteği gönderdiniz.
@@ -94493,6 +94967,9 @@ TEXT: Küçük Ama Etkili Süreli Araştırması (2/3)
 RESOURCE ID: small_strong_free_tr_name_2
 TEXT: Küçük Ama Etkili Süreli Araştırması (3/3)
 
+RESOURCE ID: snorlax_gmax_tr_2025_title
+TEXT: Gigantamaks Snorlax Premium Süreli Araştırması
+
 RESOURCE ID: social_add_friend_facebook
 TEXT: Facebook arkadaşlarınızı aktarın
 
@@ -94540,7 +95017,7 @@ RESOURCE ID: social_other_friend_add_title
 TEXT: DİĞERLERİ
 
 RESOURCE ID: social_planner_cancel_upcoming_warning
-TEXT: Completing this battle will cancel your upcoming RSVP at this location.
+TEXT: Bu maçı tamamlamak bu konumda planladığınız diğer katılımı iptal edecek.
 
 RESOURCE ID: social_planner_cannot_change_active_timeslots_key
 TEXT: Başka bir zaman aralığı mevcut olmadığı için değişiklik yapılamadı.
@@ -94561,7 +95038,7 @@ RESOURCE ID: social_planner_error_rsvp_missing
 TEXT: Hata. Katılım bulunamadı.
 
 RESOURCE ID: social_planner_error_sending_invites_key
-TEXT: Could not send invite to one or more friends.
+TEXT: Bir veya birden fazla arkadaşa davet gönderilemedi.
 
 RESOURCE ID: social_planner_error_timeslot_passed
 TEXT: Bu zaman aralığı artık mevcut değil.
@@ -94612,7 +95089,7 @@ RESOURCE ID: social_planner_rsvp_not_going_text_key
 TEXT: Katılmıyor
 
 RESOURCE ID: social_planner_select_another_time
-TEXT: SELECT ANOTHER TIME
+TEXT: BAŞKA BİR ZAMAN SEÇİN
 
 RESOURCE ID: social_planner_time_conflict_disclaimer_title_key
 TEXT: Zaman Uyuşmazlığı
@@ -95214,6 +95691,18 @@ TEXT: İlkbahar Etkinliği
 RESOURCE ID: spring_cup_great_title
 TEXT: Bahar Kupası: Süper Lig
 
+RESOURCE ID: spring_into_spring_apr2025_cc_grass
+TEXT: Bahara Merhaba Toplama Görevi: Tomurcuklu Günler
+
+RESOURCE ID: spring_into_spring_apr2025_cc_hatch
+TEXT: Bahara Merhaba Çatlatma Görevi
+
+RESOURCE ID: spring_into_spring_apr2025_cc_rain
+TEXT: Bahara Merhaba Toplama Görevi: Yağmurlu Günler
+
+RESOURCE ID: spring_into_spring_apr2025_cc_sun
+TEXT: Bahara Merhaba Toplama Görevi: Güneşli Günler
+
 RESOURCE ID: spritzee_o_clock
 TEXT: Spritzee Vakti
 
@@ -95223,8 +95712,14 @@ TEXT: Bölgede çok sayıda Spritzee ortaya çıkıyor!
 RESOURCE ID: squash_confirmation_plural
 TEXT: Bugün {0} uzak akına daha katılabilirsiniz. Maç başladığında bir Uzak Akın Bileti kullanılacak.
 
+RESOURCE ID: squash_confirmation_plural_temp
+TEXT: You can join {0} more Remote Max Battles or Remote Raids today. A Remote Raid Pass will be used when the battle starts.
+
 RESOURCE ID: squash_confirmation_singular
 TEXT: Bugün 1 uzak akına daha katılabilirsiniz. Maç başladığında bir Uzak Akın Bileti kullanılacak.
+
+RESOURCE ID: squash_confirmation_singular_temp
+TEXT: You can join one more Remote Max Battle or Remote Raid today. A Remote Raid Pass will be used when the battle starts.
 
 RESOURCE ID: squash_toast
 TEXT: Günlük uzak akın sınırınıza ulaştınız. Bu spor salonuyla etkileşime geçmek için yakınına yürüyün.
@@ -96709,6 +97204,9 @@ TEXT: Tebrikler! Bu damga toplamayı tamamladınız!
 RESOURCE ID: stamp_info_banner
 TEXT: DAMGA BİLGİSİ
 
+RESOURCE ID: stamp_mini_game_instruction
+TEXT: Stamp with long press
+
 RESOURCE ID: stamp_page_tutorial_page_1_description
 TEXT: Damga toplama bazı PokéDurak ve spor salonlarından damga topladığınız bir etkinliktir.
 
@@ -96722,9 +97220,15 @@ RESOURCE ID: stamp_page_tutorial_page_2_header
 TEXT: Nasıl damga toplayabilirim?
 
 RESOURCE ID: stamp_page_tutorial_page_3_description
+TEXT: Bir damga toplama etkinliğine başladığınızda ekranın sağ tarafındaki menüde bir damga simgesi belirir. Bu simgeye dokunarak ilerlemenizi kolayca görüntüleyebilirsiniz.
+
+RESOURCE ID: stamp_page_tutorial_page_3_description_temp
 TEXT: Bazı damga toplama etkinliklerinde arkadaşlarınızla birlikte damga toplayabilirsiniz. Damga içeren PokéDuraklardan Hediye alabilir ve gönderebilirsiniz. Bir Eğitmenle Arkadaşlık seviyeniz {0} veya daha yüksekse yolladığınız Hediyedeki damgayı bulunduğu yerden alabilir!
 
 RESOURCE ID: stamp_page_tutorial_page_3_header
+TEXT: Damga toplama ilerlemenizi görüntüleyin
+
+RESOURCE ID: stamp_page_tutorial_page_3_header_temp
 TEXT: Arkadaşlarınızla damga toplayın!
 
 RESOURCE ID: stamp_page_tutorial_page_4_description
@@ -96732,6 +97236,12 @@ TEXT: Bazı damga toplama etkinlikleri damga topladığınızda eşya ve benzeri
 
 RESOURCE ID: stamp_page_tutorial_page_4_header
 TEXT: Hepsini toplayın!
+
+RESOURCE ID: stamp_panel_header
+TEXT: Damgalar
+
+RESOURCE ID: stamp_panel_header_link
+TEXT: İlgili Bağlantı
 
 RESOURCE ID: stamp_poi_details_location_info_header
 TEXT: Burası nasıl bir yer?
@@ -96833,12 +97343,6 @@ Bu PokéDuraklara dokunduğunuzda bir damga sayfası belirir.
 
 RESOURCE ID: stamp_tutorial_page_1_header
 TEXT: PokéDuraklardaki damga toplamalar
-
-RESOURCE ID: stamp_tutorial_page_2_description
-TEXT: Bir damga toplama etkinliğine başladığınızda ekranın sağ tarafındaki menüde bir damga simgesi belirir. Bu simgeye dokunarak ilerlemenizi kolayca görüntüleyebilirsiniz.
-
-RESOURCE ID: stamp_tutorial_page_2_header
-TEXT: Damga toplama ilerlemenizi görüntüleyin
 
 RESOURCE ID: standard_raid_box_title
 TEXT: Standart Akın Kutusu
@@ -97095,6 +97599,21 @@ TEXT: Öte yandan Uçan, Psişik ve Peri türlerinden gelen saldırılar karşı
 
 RESOURCE ID: story_mightandmastery_3_3
 TEXT: Sayende Kubfu nasıl ilerleyeceğini çok daha iyi biliyor. Güçlenmeye ve güçlendirmeye devam!
+
+RESOURCE ID: story_mightandmastery_4_0
+TEXT: 
+
+RESOURCE ID: story_mightandmastery_4_1
+TEXT: 
+
+RESOURCE ID: story_mightandmastery_4_2
+TEXT: 
+
+RESOURCE ID: story_mightandmastery_4_3
+TEXT: 
+
+RESOURCE ID: story_mightandmastery_4_4
+TEXT: 
 
 RESOURCE ID: story_quest_cosmog_sol23_0
 TEXT: Yıldızlı Gökyüzü (1/4)
@@ -98476,6 +98995,24 @@ TEXT: Sürdürülebilirlik Haftası Toplama Görevi: Drilbur
 RESOURCE ID: sustainability_week_collection_challenge_trubbish
 TEXT: Sürdürülebilirlik Haftası Toplama Görevi: Trubbish
 
+RESOURCE ID: sweet_discoveries_2025_event_name
+TEXT: Taptatlı Keşifler
+
+RESOURCE ID: sweet_discoveries_2025_premium_tr
+TEXT: Taptatlı Keşifler Premium Süreli Araştırması
+
+RESOURCE ID: sweet_discoveries_2025_premium_tr_0
+TEXT: Taptatlı Keşifler Premium Süreli Araştırması (1/2)
+
+RESOURCE ID: sweet_discoveries_2025_premium_tr_1
+TEXT: Taptatlı Keşifler Premium Süreli Araştırması (2/2)
+
+RESOURCE ID: sweet_discoveries_2025_tr
+TEXT: Taptatlı Keşifler Süreli Araştırması
+
+RESOURCE ID: sweet_discoveries_bonus_berry_loot_drop
+TEXT: Delibird ve Skwovet yakalayarak meyve toplayın!
+
 RESOURCE ID: switch_sleep_warning
 TEXT: Nintendo Switch'e bağlanırken akıllı telefonunuzu kapatmayın ya da uyku moduna almayın. 
 
@@ -98933,6 +99470,12 @@ TEXT: <b>Şu bonusları içerir:</b>
 • Başarıyla tamamlanan Maksi Maçlardan 2× TP
 • Maksi Mantar ve 25.000 TP kazandıran süreli araştırma
 
+RESOURCE ID: text_rewards_key_gmaxsnorlax25
+TEXT: <b>Şu bonusları içerir:</b>
+• Güç Noktalarından ve keşiften 4000 adede kadar ilave Maksi Parçacık toplayın
+• Başarıyla tamamlanan Maksi Maçlardan 2× TP
+• Maksi Mantar ve 25.000 TP kazandıran süreli araştırma
+
 RESOURCE ID: text_rewards_key_gobattlemay2024
 TEXT: <b>Şu ödülleri içerir:</b>
 • 30.000 yıldız tozu
@@ -99148,6 +99691,15 @@ TEXT: <b>Şu bonusları içerir:</b>
 • Spor salonu fotoğraf disklerini döndürerek fazladan 8 Akın Bileti
 • Akınlardan daha yüksek Nadir Büyük Şeker alma şansı
 • Başarıyla tamamlanan akınlardan %50 daha fazla TP ve 2× yıldız tozu
+
+RESOURCE ID: text_rewards_key_horizonscb0425
+TEXT: <b>Şu ödülleri içerir:</b>
+• Tinkatink ile karşılaşmalar
+• 5 Tinkatink şekeri
+• Tinkaton Pozu
+• 1 Kuluçka Makinesi
+• 30 Ultra Top
+• 3000 yıldız tozu
 
 RESOURCE ID: text_rewards_key_janmonthly2025
 TEXT: <b>Şu ödülleri içerir:</b>
@@ -99403,11 +99955,26 @@ TEXT: Bulması en zor olan Pokémon’lardan biri olan Parlak Celebi ile bir kar
 • 1 Buzul Yem Modülü ve 1 Yosunlu Yem Modülü
 • 40.411 TP ve 17.570 yıldız tozu
 
+RESOURCE ID: text_rewards_key_sis_apr25
+TEXT: <b>Şu ödülleri içerir:</b>
+• Remoraid, Fletchling ve Gossifleur ile karşılaşmalar
+• 2 Süper Kuluçka Makinesi
+• 1 Şans Yumurtası
+• 5000 TP
+
+Bu araştırmanın ve diğer tüm araştırma görevlerinin ödül karşılaşmalarındaki Remoraid ve Fletchling’lerin Parlak olma ihtimali daha yüksek olacak!
+
 RESOURCE ID: text_rewards_key_slumberingsands24
 TEXT: <b>Şu ödülleri içerir:</b>
 • Komala Sırt Çantası avatar eşyası
 • Komala ve siperlikli Slakoth ile karşılaşmalar
 • 10.000 TP, 2500 yıldız tozu, 25 Poké Topu, 2 Gümüş Pinap Meyvesi, 2 Altın Razz Meyvesi ve 1 Yıldız Parçası
+
+RESOURCE ID: text_rewards_key_sparringpartnersraidday
+TEXT: <b>Şu bonusları içerir:</b>
+• Spor salonu fotoğraf disklerini döndürerek fazladan 8 Akın Bileti
+• Akınlardan daha yüksek Nadir Büyük Şeker alma şansı
+• Başarıyla tamamlanan akınlardan %50 daha fazla TP ve 2× yıldız tozu
 
 RESOURCE ID: text_rewards_key_spelunkercove24
 TEXT: <b>Şu ödülleri içerir:</b>
@@ -99436,6 +100003,13 @@ TEXT: <b>Şu ödülleri içerir:</b>
 • 6000 TP ve 3000 yıldız tozu
 • Ve dahası!
 
+RESOURCE ID: text_rewards_key_sweet_discoveries_apr25
+TEXT: <b>Şu ödülleri içerir:</b>
+• Delibird, Bidoof, Cherubi, Munna, Bounsweet, Komala, Skwovet ve Applin ile karşılaşmalar
+• 2 Yosunlu Yem Modülü
+
+Bu araştırmanın ve diğer tüm araştırma görevlerinin ödül karşılaşmalarındaki Delibird ve Skwovet’lerin Parlak olma ihtimali daha yüksek olacak!
+
 RESOURCE ID: text_rewards_key_takeovermarch24
 TEXT: <b>Ödüller arasında</b>
 • Pawniard ile bir karşılaşma
@@ -99458,6 +100032,12 @@ RESOURCE ID: text_rewards_key_tynamocd24
 TEXT: <b>Şu ödülleri içerir:</b>
 • Nadir Şeker ve Ultra Top gibi premium oyun içi eşyalar
 • Tynamo ve evrimleriyle ilave karşılaşmalar
+
+RESOURCE ID: text_rewards_key_tyrogue0425
+TEXT: <b>Ödüller arasında şunlar yer alıyor:</b>
+• 1 Süper Kuluçka Makinesi
+• 1 Yıldız Parçası
+• 2500 TP
 
 RESOURCE ID: text_rewards_key_ultraspace24
 TEXT: <b>Şu ödülleri içerir:</b>
@@ -100699,6 +101279,9 @@ TEXT: Günlük Görevler – Premium
 RESOURCE ID: title_event_pass_hourly_bonus_quest
 TEXT: Saatlik Görevler
 
+RESOURCE ID: title_event_pass_weekly_bonus_quest
+TEXT: Haftalık Görevler
+
 RESOURCE ID: title_hatch_day_azurill
 TEXT: Yumurtadan Çıkan Azurill Günü
 
@@ -101201,7 +101784,7 @@ RESOURCE ID: tr_gofest2024_earlybird2
 TEXT: Süreli Araştırma: Mehtabın Yükselişi
 
 RESOURCE ID: tr_gofest2025_global_earlybird
-TEXT: GO Fest 2025: Early Bird Timed Research
+TEXT: GO Festivali 2025: Avantajlı Erken Süreli Araştırma
 
 RESOURCE ID: tr_gowa2024_global_daily_electric
 TEXT: Vahşi Bölgenin Ötesinde: Elektrik Uzmanı Süreli Araştırması
@@ -101337,6 +101920,27 @@ TEXT: Ultra Uzaydan Gelenler Premium Süreli Araştırması
 
 RESOURCE ID: tr_inbound_from_ultra_space_raid_paid_00
 TEXT: Ultra Uzaydan Gelenler Premium Süreli Araştırması (1/1)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_desc
+TEXT: Kiraz Çiçeği Görevi Süreli Araştırması
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title
+TEXT: Kiraz Çiçeği Görevi
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_00
+TEXT: Kiraz Çiçeği Görevi Süreli Araştırması (1/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_01
+TEXT: Kiraz Çiçeği Görevi Süreli Araştırması (2/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_02
+TEXT: Kiraz Çiçeği Görevi Süreli Araştırması (3/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_03
+TEXT: Kiraz Çiçeği Görevi Süreli Araştırması (4/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_04
+TEXT: Kiraz Çiçeği Görevi Süreli Araştırması (5/5)
 
 RESOURCE ID: tr_kr2025_retention_feb_desc
 TEXT: Dolunay Görevi Süreli Araştırması
@@ -101487,6 +102091,15 @@ TEXT: Küresel Kilit Açma: Makinedeki Hayalet
 
 RESOURCE ID: tr_rotom_mystery_quest_global_00
 TEXT: Küresel Kilit Açma: Makinedeki Hayalet (1/1)
+
+RESOURCE ID: tr_sis_apr2025
+TEXT: Yeşeren Bahar Premium Süreli Araştırması
+
+RESOURCE ID: tr_sis_apr2025_0
+TEXT: Yeşeren Bahar Premium Süreli Araştırması (1/2)
+
+RESOURCE ID: tr_sis_apr2025_1
+TEXT: Yeşeren Bahar Premium Süreli Araştırması (2/2)
 
 RESOURCE ID: tr_sz_goyang_global
 TEXT: Safari Bölgesi Goyang – Keşif Görevi
@@ -101821,6 +102434,9 @@ TEXT: Tüm Parlak Pokémon’lar
 RESOURCE ID: trade_special_extra_one
 TEXT: 1 ekstra özel takas
 
+RESOURCE ID: trade_special_extra_two
+TEXT: Her gün fazladan 2 özel takas fırsatı
+
 RESOURCE ID: trade_special_in_pokedex
 TEXT: Pokédex'deki Efsanevi veya Parlak Pokémon’lar
 
@@ -102079,6 +102695,12 @@ TEXT: Artık 40. seviyeye ulaştığınıza göre, bir sonraki seviyeye geçmek 
 RESOURCE ID: tutorial_level_40_plus_intro
 TEXT: Olağanüstü ilerlemeniz için tebrikler Eğitmen!
 
+RESOURCE ID: tutorial_maple_description
+TEXT: Etkin bir Yosunlu Yem Modülü olan PokéDurakların yakınında elmalar ortaya çıkıyor! Applin yakalamak veya Applin evrimi için gerekli eşyaları bulabilmek için elmalara dokunun. Ama dikkatli olun, diğer Pokémon’lar elmaları kapmaya çalışabilir!
+
+RESOURCE ID: tutorial_maple_title
+TEXT: Elma Toplama
+
 RESOURCE ID: tutorial_route_bonus_0
 TEXT: Daha hızlıca dost şekeri kazanılır
 
@@ -102295,6 +102917,18 @@ TEXT: Su türü Pokémon’lar, Bitki ve Elektrik türü saldırılarına karş�
 
 RESOURCE ID: type_tutorial_water__male_speaker
 TEXT: Su türü Pokémon’lar, Bitki ve Elektrik türü saldırılarına karşı güçsüzdür.
+
+RESOURCE ID: tyrogue_hatch_event_name
+TEXT: Yumurtadan Çıkan Tyrogue Günü
+
+RESOURCE ID: tyrogue_hatch_free_tr_name
+TEXT: Yumurtadan Çıkan Tyrogue Günü Süreli Araştırması
+
+RESOURCE ID: tyrogue_hatch_lead_event_name
+TEXT: Önümüz Yumurtadan Çıkan Tyrogue Günü
+
+RESOURCE ID: tyrogue_hatch_tr_name
+TEXT: Yumurtadan Çıkan Tyrogue Günü Premium Süreli Araştırması
 
 RESOURCE ID: ub_arrival_la_title
 TEXT: Ultra Yaratıkların Gelişi: Los Angeles

@@ -1379,6 +1379,12 @@ TEXT: むしタイプコレクションチャレンジ3
 RESOURCE ID: april2024_bug_out_collection_challenge_4
 TEXT: むしタイプコレクションチャレンジ4
 
+RESOURCE ID: april_fool_pokeball_tappable_event
+TEXT: モンスターボール？？
+
+RESOURCE ID: april_fool_pokeball_tappable_today_view
+TEXT: モンスターボールがマップ上に出現！
+
 RESOURCE ID: april_power_up_monthly_ticket_title
 TEXT: 強化チケット：4月
 
@@ -14924,6 +14930,12 @@ TEXT: GOスナップショットでサファリ帽をかぶったピカチュウ
 RESOURCE ID: bonus_event_spawn_routes
 TEXT: ルート歩行時に特別なポケモンが出現する可能性
 
+RESOURCE ID: bonus_event_stamp_rally
+TEXT: GOスタンプラリー開催
+
+RESOURCE ID: bonus_event_stamp_rally_location_backgrounds
+TEXT: GOスタンプラリーで捕まえたポケモンにロケーション背景がついている
+
 RESOURCE ID: bonus_event_sticker
 TEXT: エリア内のポケストップを回すとイベントのステッカーがもらえる
 
@@ -15237,6 +15249,15 @@ TEXT: メガラティアスとメガラティオスのレイドがエリア内�
 RESOURCE ID: bonus_milestone_rewards_title
 TEXT: ボーナスマイルストーンリワード
 
+RESOURCE ID: bonus_move_blastoise_hydro_cannon
+TEXT: カメールをカメックスに進化させるとハイドロカノンを覚えている
+
+RESOURCE ID: bonus_move_charizard_blast_burn
+TEXT: リザードをリザードンに進化させるとブラストバーンを覚えている
+
+RESOURCE ID: bonus_move_venusaur_frenzy_plant
+TEXT: フシギソウをフシギバナに進化させるとハードプラントを覚えている
+
 RESOURCE ID: bonus_mp_cap
 TEXT: 一日に集められるマックス粒子上限アップ
 
@@ -15293,6 +15314,9 @@ TEXT: レイドでパルキアを捕まえてもらえるアメXL1個追加
 
 RESOURCE ID: bonus_pelipper_delibird_pikachu_photobomb
 TEXT: 毎日GOスナップショットでピカチュウ、ペリッパー、デリバードのサプライズ1回
+
+RESOURCE ID: bonus_photobomb_smeargle
+TEXT: GOスナップショットでドーブルのサプライズ5回
 
 RESOURCE ID: bonus_photobomb_unova_pikachu
 TEXT: 毎日GOスナップショットでトウヤの帽子、トウコの帽子、キョウヘイのバイザー、もしくは、メイのバイザーをかぶったピカチュウのサプライズ
@@ -15689,6 +15713,9 @@ TEXT: 2×　ウルトラビーストレイドに勝ってもらえるほしの�
 
 RESOURCE ID: bonus_unlocked
 TEXT: ボーナスアンロック！
+
+RESOURCE ID: bonus_unown_expo
+TEXT: アンノーン(E)(X)(P)(O)が野生で出現
 
 RESOURCE ID: bonus_versioned_field_research_2x_daily
 TEXT: ポケストップからフィールドリサーチが2件（午前と午後）出る
@@ -16400,6 +16427,12 @@ TEXT: リワードがアップグレードされました！
 RESOURCE ID: bread_battle_resolve_timed_out_title
 TEXT: たたかえるポケモンがいなくなった
 
+RESOURCE ID: bread_battle_reward_bonus_title
+TEXT: +現地参加ボーナス
+
+RESOURCE ID: bread_battle_reward_bonus_update
+TEXT: ボーナス分{0}
+
 RESOURCE ID: bread_battle_reward_title
 TEXT: リワード
 
@@ -16534,6 +16567,9 @@ TEXT: 攻撃ブースト
 RESOURCE ID: bread_lobby_error_battle_completed
 TEXT: このパワースポットですでにバトルに参加しました
 
+RESOURCE ID: bread_lobby_error_friend_details_unavailable
+TEXT: 招待を送信中に問題が起きました。もう一度お試しください。
+
 RESOURCE ID: bread_lobby_error_lobby_expired
 TEXT: ロビーの時間切れ
 
@@ -16548,6 +16584,12 @@ TEXT: ロビーが見つかりませんでした
 
 RESOURCE ID: bread_lobby_error_no_invite
 TEXT: バトル招待の時間切れ
+
+RESOURCE ID: bread_lobby_error_no_remote_slots_remaining
+TEXT: 遠隔参加者の上限数に達しました
+
+RESOURCE ID: bread_lobby_error_no_remote_ticket
+TEXT: リモートレイドパスを持っていません！
 
 RESOURCE ID: bread_lobby_error_not_in_range
 TEXT: パワースポットへ近づいて参加してください
@@ -16652,7 +16694,7 @@ RESOURCE ID: bread_mp_for_battle_lobby
 TEXT: {0}MP使用
 
 RESOURCE ID: bread_mp_for_remote_battle_lobby
-TEXT: Use {0} MP and Remote Raid Pass
+TEXT: {0}MPとリモートレイドパス使用
 
 RESOURCE ID: bread_mp_storage_full
 TEXT: 持てるマックス粒子の上限に達しました
@@ -16711,14 +16753,23 @@ TEXT: 戻すと、バトルのアシストとアメを見つけることを止�
 RESOURCE ID: bread_release_title
 TEXT: {0}を戻しますか？
 
+RESOURCE ID: bread_remote_iap_mp_rrp_replenish_description
+TEXT: このバトル参加にはリモートレイドパスとマックス粒子が必要です
+
 RESOURCE ID: bread_remote_iap_mp_rrp_replenish_title
-TEXT: You're out of Remote Raid Passes and MP
+TEXT: リモートレイドパスとマックス粒子が足りません
 
 RESOURCE ID: bread_remote_invite_in_game_notification
-TEXT: {0} invited you to join a Max Battle!
+TEXT: {0}さんからマックスバトルへ招待されました！
+
+RESOURCE ID: bread_remote_tutorial_message_0
+TEXT: 遠くのマックスバトルにアクセスしています。リモートレイドパスとマックス粒子を使えば遠くからでも参加できます。
+
+RESOURCE ID: bread_remote_tutorial_title_0
+TEXT: リモートマックスバトル登場！
 
 RESOURCE ID: bread_remote_use_rrp_confirmation
-TEXT: You can join {0} more Max Battles today. Max Particles are only used when you win. A Remote Raid Pass will be used when the battle starts.
+TEXT: 今日あと{0}回マックスバトルに参加できます。マックス粒子はバトル勝利時に使われ、リモートレイドパスはバトル開始時に使われます。
 
 RESOURCE ID: bread_report_pou_reason_emergency
 TEXT: 緊急対応の妨げになる
@@ -16797,6 +16848,12 @@ TEXT: マックスバトルで勝つと、パワースポットボスに挑む�
 RESOURCE ID: bread_station_tutorial_message_5
 TEXT: パワースポットを訪れると、ポケモンと出会えることがあります。キョダイマックスポケモンが配置されているパワースポットでは、ダイマックスポケモンに出会うこともあります。
 
+RESOURCE ID: bread_station_tutorial_message_6
+TEXT: リモートレイドパスとマックス粒子を使うと、離れた場所からマックスバトルに参加できます。
+
+RESOURCE ID: bread_station_tutorial_message_7
+TEXT: 近くにいて参加するマックスバトルに勝つと、追加リワードがもらえます。
+
 RESOURCE ID: bread_station_tutorial_title
 TEXT: 
 
@@ -16814,6 +16871,12 @@ TEXT: リワードをもらう
 
 RESOURCE ID: bread_station_tutorial_title_5
 TEXT: ポケモンとの出会い
+
+RESOURCE ID: bread_station_tutorial_title_6
+TEXT: リモートマックスバトル
+
+RESOURCE ID: bread_station_tutorial_title_7
+TEXT: 現地参加ボーナス
 
 RESOURCE ID: bread_stationing_error
 TEXT: ポケモンを置くことができませんでした。再度お試しください。
@@ -18606,6 +18669,24 @@ TEXT: チェックイン
 RESOURCE ID: chicago_fest_july_2017_title
 TEXT: Pokémon GO Fest
 
+RESOURCE ID: childrens_day_2025_bonus
+TEXT: こどもの日ボーナス
+
+RESOURCE ID: childrens_day_2025_evolve_move_bonus_lucario
+TEXT: リオルをルカリオに進化させるとはっけいを覚えている
+
+RESOURCE ID: childrens_day_2025_title
+TEXT: こどもの日
+
+RESOURCE ID: childrens_day_2025_tr_name
+TEXT: こどもの日タイムチャレンジ
+
+RESOURCE ID: childrens_day_2025_tr_name_1
+TEXT: こどもの日タイムチャレンジ(1/2)
+
+RESOURCE ID: childrens_day_2025_tr_name_2
+TEXT: こどもの日タイムチャレンジ(2/2)
+
 RESOURCE ID: chinesetraditional
 TEXT: 繁體中文
 
@@ -19490,7 +19571,8 @@ RESOURCE ID: collection_aa2024_yogyakarta_day_02
 TEXT: Pikachu's Indonesia Journey コレクションチャレンジ
 
 RESOURCE ID: collection_book_name
-TEXT: スクラップブック
+TEXT: スクラップ
+ブック
 
 RESOURCE ID: collection_challenge_ar_safari_bidoof
 TEXT: 交換チャレンジ：ビッパ
@@ -19538,13 +19620,13 @@ RESOURCE ID: collection_gotour_2024_seaside_metropolis_day_preview
 TEXT: コレクションチャレンジ：海辺の都市
 
 RESOURCE ID: collection_paused
-TEXT: スタンプ集めを一時停止しました
+TEXT: このスタンプラリーを一時停止しました
 
 RESOURCE ID: collection_paused_short
 TEXT: 一時停止しました
 
 RESOURCE ID: collection_reactivated
-TEXT: スタンプ集めを再開しました！
+TEXT: このスタンプラリーを再開しました！
 
 RESOURCE ID: collection_twlantern2023
 TEXT: 台湾ランタンフェスティバル2023
@@ -20712,7 +20794,7 @@ RESOURCE ID: complete_transfer_in_ph_app
 TEXT: Pokémon HOME で完了していない転送があります
 
 RESOURCE ID: completed_stamp_collection_header
-TEXT: 完了済み
+TEXT: 終了済み
 
 RESOURCE ID: confirm_send_button
 TEXT: 贈る
@@ -21448,7 +21530,7 @@ RESOURCE ID: details_banner
 TEXT: 詳細
 
 RESOURCE ID: details_link_key
-TEXT: 詳細は<a href="https://pokemongolive.com/news">ウェブサイト</a>でご確認ください
+TEXT: 詳細は<a href="https://pokemongolive.com/ja/news/">ウェブサイト</a>でご確認ください
 
 RESOURCE ID: details_link_key_cd_recap2024
 TEXT: 詳細は<a href="https://pokemongolive.com/news">ウェブサイト</a>でご確認ください
@@ -21569,6 +21651,15 @@ TEXT: ダイマックスバトルで{0}回勝つ
 
 RESOURCE ID: dmax_battle_win_singular
 TEXT: ダイマックスバトルで勝つ
+
+RESOURCE ID: dmax_entei_max_battles
+TEXT: ダイマックスしたエンテイがマックスバトルに出現
+
+RESOURCE ID: dmax_entei_weekend_event_name
+TEXT: ダイマックスエンテイマックスバトルウィークエンド
+
+RESOURCE ID: dmax_entei_weekend_timed_research
+TEXT: ダイマックスエンテイマックスバトルウィークエンドタイムチャレンジ
 
 RESOURCE ID: dmax_ftue_0
 TEXT: 巨大化のナゾ(1/3)
@@ -22781,6 +22872,9 @@ TEXT: 2月1日2:00PM～5:00PM
 RESOURCE ID: event_datetime_range_key_gmaxlapras24
 TEXT: 12月8日2:00PM～5:00PM
 
+RESOURCE ID: event_datetime_range_key_gmaxsnorlax25
+TEXT: 4月19日2:00PM～5:00PM
+
 RESOURCE ID: event_datetime_range_key_gobattlemay2024
 TEXT: 5月4日12:00AM～
 5月5日11:59PM
@@ -22855,6 +22949,10 @@ TEXT: 2月11日2:00PM～
 
 RESOURCE ID: event_datetime_range_key_hoopaunboundraidday
 TEXT: 2月15日2:00PM～5:00PM
+
+RESOURCE ID: event_datetime_range_key_horizonscb0425
+TEXT: 4月16日10:00AM～
+4月22日8:00PM
 
 RESOURCE ID: event_datetime_range_key_janmonthly2025
 TEXT: 1月1日10:00AM～
@@ -22972,9 +23070,16 @@ RESOURCE ID: event_datetime_range_key_shinycelebi24
 TEXT: 6月28日10:00AM～
 7月3日8:00PM
 
+RESOURCE ID: event_datetime_range_key_sis_apr25
+TEXT: 4月9日10:00AM～
+4月14日8:00PM
+
 RESOURCE ID: event_datetime_range_key_slumberingsands24
 TEXT: 6月7日10:00AM～
 6月12日8:00PM
+
+RESOURCE ID: event_datetime_range_key_sparringpartnersraidday
+TEXT: 4月13日2:00PM～5:00PM
 
 RESOURCE ID: event_datetime_range_key_spelunkercove24
 TEXT: 6月15日10:00AM～
@@ -22992,6 +23097,10 @@ RESOURCE ID: event_datetime_range_key_stunning_styles
 TEXT: 4月3日10:00AM～
 4月7日8:00PM
 
+RESOURCE ID: event_datetime_range_key_sweet_discoveries_apr25
+TEXT: 4月24日10:00AM～
+4月29日8:00PM
+
 RESOURCE ID: event_datetime_range_key_takeovermarch24
 TEXT: 3月27日12:00AM～
 3月31日11:59PM
@@ -23006,6 +23115,9 @@ TEXT: 8月23日10:00AM～
 
 RESOURCE ID: event_datetime_range_key_tynamocd24
 TEXT: 7月21日2:00PM～5:00PM
+
+RESOURCE ID: event_datetime_range_key_tyrogue0425
+TEXT: 4月6日2:00PM～5:00PM
 
 RESOURCE ID: event_datetime_range_key_ultraspace24
 TEXT: 5月23日10:00AM～
@@ -23755,6 +23867,13 @@ TEXT: パスタスクを含む各種成果の達成でランクが上がりリ�
 
 パスタスクのリワードはタスク完了時にもらえます。
 
+RESOURCE ID: event_pass_micro_action_modal_desc_ab_test_disclaimer
+TEXT: パスタスクを含む各種成果の達成でランクが上がりリワードがアンロックされます。
+
+パスタスクのリワードはタスク完了時にもらえます。
+
+<b>GOパスはテスト中の機能であるため、無料・有料GOパスの利用とリワード受取はテストが実施されている場所でのみ可能です。</b>
+
 RESOURCE ID: event_pass_micro_action_modal_points_display
 TEXT: {0} PTS
 
@@ -23778,6 +23897,9 @@ TEXT: ランク40でゲット
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_99
 TEXT: ランク99でゲット
 
+RESOURCE ID: event_pass_premium_reward_banner_bottom_text_generic_rank
+TEXT: ランク{0}でゲット
+
 RESOURCE ID: event_pass_premium_reward_banner_middle_text
 TEXT: キラチャーム
 
@@ -23794,7 +23916,7 @@ RESOURCE ID: event_pass_reward_preview_new_item_indicator
 TEXT: NEW！
 
 RESOURCE ID: event_pass_reward_preview_upsell_description
-TEXT: パスのデラックスバージョンでもらえるリワードです
+TEXT: デラックスコースでもらえるリワードです
 
 RESOURCE ID: event_pass_rewards_journal
 TEXT: {0}のリワードを受け取った！
@@ -23905,7 +24027,7 @@ RESOURCE ID: event_surprise_bonuses_countdown
 TEXT: サプライズボーナスがまもなくスタート！
 
 RESOURCE ID: event_time_header
-TEXT: イベント期間
+TEXT: スタンプラリーの期間
 
 RESOURCE ID: event_title_anime_week
 TEXT: TVアニメコラボウィーク
@@ -24060,6 +24182,9 @@ TEXT: 進化ウィーク：GOロケット団リーダーとのバトルで{0}回
 RESOURCE ID: evolution_cup_title
 TEXT: 進化カップ
 
+RESOURCE ID: evolution_description_applin
+TEXT: 使うりんごによって異なるポケモンに進化します。りんごは、ハーブルアーモジュールが作動中のポケストップの近くで見つけることができます。
+
 RESOURCE ID: evolution_event_name
 TEXT: 進化ウィーク
 
@@ -24188,6 +24313,9 @@ TEXT: 探検すがたの「ピカチュウ」が野生で出現
 
 RESOURCE ID: explorer_title
 TEXT: ギフト交換
+
+RESOURCE ID: expo_2025_event_overlay_title
+TEXT: EXPO2025
 
 RESOURCE ID: external_box_name_1
 TEXT: ハイパーレジェンドボックス
@@ -25534,16 +25662,16 @@ RESOURCE ID: form_defense
 TEXT: Dディフェンスフォルム
 
 RESOURCE ID: form_deoxys_attack
-TEXT: Aアタックフォルム
+TEXT: アタックフォルム
 
 RESOURCE ID: form_deoxys_defense
-TEXT: Dディフェンスフォルム
+TEXT: ディフェンスフォルム
 
 RESOURCE ID: form_deoxys_normal
-TEXT: Nノーマルフォルム
+TEXT: ノーマルフォルム
 
 RESOURCE ID: form_deoxys_speed
-TEXT: Sスピードフォルム
+TEXT: スピードフォルム
 
 RESOURCE ID: form_dialga_normal
 TEXT: ディアルガ
@@ -25813,7 +25941,7 @@ RESOURCE ID: form_noice
 TEXT: ナイスフェイス
 
 RESOURCE ID: form_normal
-TEXT: ポワルンのすがた
+TEXT:  
 
 RESOURCE ID: form_oinkologne_female
 TEXT: メスのすがた
@@ -26326,7 +26454,7 @@ RESOURCE ID: friend_invited_you_to_ex_raid
 TEXT: さんから招待された！
 
 RESOURCE ID: friend_is_at_a_max_battle
-TEXT: Has joined a <b>{0} {1}</b> Battle
+TEXT: <b>{0}</b>バトル参加中
 
 RESOURCE ID: friend_is_at_a_raid
 TEXT: {0}さんは<b>{1}レイド</b>に参加中
@@ -26633,7 +26761,7 @@ RESOURCE ID: fusion_resource_black_kyurem_name_plural
 TEXT: ボルトエナジー
 
 RESOURCE ID: fusion_resource_dawnwings_necrozma_desc
-TEXT: 
+TEXT: ネクロズマとルナアーラを合体させネクロズマ（あかつきのつばさ）にできるエナジー。レイドでネクロズマ（あかつきのつばさ）を倒すと手に入る。
 
 RESOURCE ID: fusion_resource_dawnwings_necrozma_name
 TEXT: ムーンエナジー
@@ -26642,7 +26770,7 @@ RESOURCE ID: fusion_resource_dawnwings_necrozma_name_plural
 TEXT: ムーンエナジー
 
 RESOURCE ID: fusion_resource_duskmane_necrozma_desc
-TEXT: 
+TEXT: ネクロズマとソルガレオを合体させネクロズマ（たそがれのたてがみ）にできるエナジー。レイドでネクロズマ（たそがれのたてがみ）を倒すと手に入る。
 
 RESOURCE ID: fusion_resource_duskmane_necrozma_name
 TEXT: サンエナジー
@@ -27694,6 +27822,9 @@ TEXT: ふかアクセス：2月
 RESOURCE ID: general1.ticket.5_gmaxlapras24_title
 TEXT: ラプラス（キョダイマックス）マックスバトルデイチケット
 
+RESOURCE ID: general1.ticket.5_gmaxsnorlax25_title
+TEXT: カビゴン（キョダイマックス）マックスバトルデイチケット
+
 RESOURCE ID: general1.ticket.5_hoopaunboundraidday_title
 TEXT: ときはなたれしフーパレイドデイチケット
 
@@ -27867,8 +27998,14 @@ TEXT: ヤレユータンとナゲツケサルのリサーチデイプレミア�
 RESOURCE ID: general1.ticket._shinycelebi24_title
 TEXT: 森のささやき続行リサーチチケット
 
+RESOURCE ID: general1.ticket._sis_apr25_title
+TEXT: 春の訪れプレミアムタイムチャレンジチケット
+
 RESOURCE ID: general1.ticket._slumberingsands24_title
 TEXT: 初夏のまどろみプレミアムタイムチャレンジチケット
+
+RESOURCE ID: general1.ticket._sparringpartnersraidday_title
+TEXT: スパーリングパートナーレイドデイチケット
 
 RESOURCE ID: general1.ticket._spelunkercove24_title
 TEXT: ビーチパーティータイムチャレンジチケット
@@ -27879,11 +28016,17 @@ TEXT: 勝利の滑空タイムチャレンジチケット
 RESOURCE ID: general1.ticket._stldrslv0125_title
 TEXT: はがねの決意プレミアムタイムチャレンジチケット
 
+RESOURCE ID: general1.ticket._sweet_discoveries_apr25_title
+TEXT: 甘い果実プレミアムタイムチャレンジチケット
+
 RESOURCE ID: general1.ticket._takeovermarch24_title
 TEXT: GOロケット団追跡タイムチャレンジチケット
 
 RESOURCE ID: general1.ticket._ttfinale24_title
 TEXT: チームリーダーの決意プレミアムタイムチャレンジチケット
+
+RESOURCE ID: general1.ticket._tyrogue0425_title
+TEXT: バルキーふかの日プレミアムタイムチャレンジチケット
 
 RESOURCE ID: general1.ticket._ultraspace24_title
 TEXT: ウルトラスペースワンダータイムチャレンジチケット
@@ -28209,6 +28352,9 @@ TEXT: ファッションウィークプレミアムタイムチャレンジチ�
 
 RESOURCE ID: general2.ticket.5_gmaxkingler25_title
 TEXT: キングラー（キョダイマックス）マックスバトルデイチケット
+
+RESOURCE ID: general2.ticket.6_horizonscb0425_title
+TEXT: かなうちプレミアムタイムチャレンジチケット
 
 RESOURCE ID: general2.ticket.6_megaabsolraidday_title
 TEXT: メガアブソルレイドデイチケット
@@ -29172,6 +29318,12 @@ TEXT: キョダイマックスしたラプラスがマックスバトルに出�
 
 RESOURCE ID: gmax_max_battles
 TEXT: キョダイマックスしたポケモンがマックスバトルに出現
+
+RESOURCE ID: gmax_snorlax_lead_up_timed_research
+TEXT: カビゴン（キョダイマックス）マックスバトルデイ直前タイムチャレンジ
+
+RESOURCE ID: gmax_snorlax_max_battles
+TEXT: キョダイマックスしたカビゴンがマックスバトルに出現
 
 RESOURCE ID: go_anniversary_event_name
 TEXT: Pokémon GOアニバーサリー
@@ -36906,6 +37058,30 @@ TEXT: いますぐチャージ
 RESOURCE ID: hoopas_arrival_2021_collection_challenge
 TEXT: フーパ登場コレクションチャレンジ
 
+RESOURCE ID: horizons_collab_event_name
+TEXT: TVアニメコラボ
+
+RESOURCE ID: horizons_free_tr_name
+TEXT: TVアニメコラボイベントタイムチャレンジ
+
+RESOURCE ID: horizons_free_tr_name_1
+TEXT: TVアニメコラボイベントタイムチャレンジ (1/4)
+
+RESOURCE ID: horizons_free_tr_name_2
+TEXT: TVアニメコラボイベントタイムチャレンジ (2/4)
+
+RESOURCE ID: horizons_free_tr_name_3
+TEXT: TVアニメコラボイベントタイムチャレンジ (3/4)
+
+RESOURCE ID: horizons_free_tr_name_4
+TEXT: TVアニメコラボイベントタイムチャレンジ (4/4)
+
+RESOURCE ID: horizons_paid_tr_name
+TEXT: かなうちプレミアムタイムチャレンジ
+
+RESOURCE ID: horizons_promo_free_tr_name
+TEXT: TVアニメコラボイベントボーナスタイムチャレンジ
+
 RESOURCE ID: hour_abbrev
 TEXT: 時間
 
@@ -37127,6 +37303,9 @@ TEXT: GOロケット団したっぱを倒してもらえるほしのすな増
 
 RESOURCE ID: increased_stardust_xp_gifts_bonus
 TEXT: ギフトを開けてもらえるXP・ほしのすな増
+
+RESOURCE ID: increased_tappable_spawns_mossy_lures
+TEXT: ハーブルアー発動中のポケストップの近くにりんごがより多く落ちている
 
 RESOURCE ID: increased_transfer_candy_xl_bonus
 TEXT: ポケモンを送ってもらえるアメとアメXL増
@@ -37754,6 +37933,9 @@ TEXT: ジガルデのコアとセルが集まった道具。現在は{0}個入�
 RESOURCE ID: item_breakfast_name
 TEXT: ジガルデキューブ
 
+RESOURCE ID: item_description_applin
+TEXT: ハーブルアー作動中のポケストップの近くで見つかるりんごを使って進化させよう！
+
 RESOURCE ID: item_dragon_scale_desc
 TEXT: ある特定のポケモンを進化させるウロコ。固くて丈夫。
 
@@ -37963,6 +38145,9 @@ TEXT: 現地時間2024年11月12日8:00PMまで収穫祭プレミアムタイム
 RESOURCE ID: item_event_ticket_evergreen_desc_hemisphereholidays1224
 TEXT: 現地時間2024年12月22日10:00AMまで砂遊びプレミアムタイムチャレンジが行えるチケット。
 
+RESOURCE ID: item_event_ticket_evergreen_desc_horizonscb0425
+TEXT: 現地時間2025年4月22日8:00PMまでかなうちプレミアムタイムチャレンジが行えるチケット。
+
 RESOURCE ID: item_event_ticket_evergreen_desc_lunarny0125
 TEXT: 現地時間2025年2月2日8:00PMまで旧正月プレミアムタイムチャレンジが行えるチケット。
 
@@ -37981,8 +38166,17 @@ TEXT: 現地時間2024年12月30日10:00AM～2025年1月1日8:00PMにお正月20
 RESOURCE ID: item_event_ticket_evergreen_desc_psychspec24
 TEXT: 現地時間2024年9月18日10:00AM～9月22日8:00PMにエスパーウィーク2024プレミアムタイムチャレンジを行うためのチケット。
 
+RESOURCE ID: item_event_ticket_evergreen_desc_sis_apr25
+TEXT: 現地時間2025年4月9日10:00AM～4月14日8:00PMに春の訪れプレミアムタイムチャレンジを行うためのチケット。
+
 RESOURCE ID: item_event_ticket_evergreen_desc_stldrslv0125
 TEXT: 現地時間2025年1月26日11:59PMまではがねの決意プレミアムタイムチャレンジが行えるチケット。
+
+RESOURCE ID: item_event_ticket_evergreen_desc_sweet_discoveries_apr25
+TEXT: 現地時間2025年4月24日10:00AM～4月29日8:00PMに甘い果実プレミアムタイムチャレンジを行うためのチケット。
+
+RESOURCE ID: item_event_ticket_evergreen_desc_tyrogue0425
+TEXT: 現地時間2025年4月6日5:00PMまでバルキーふかの日プレミアムタイムチャレンジが行えるチケット。
 
 RESOURCE ID: item_event_ticket_evergreen_desc_yamasktr24
 TEXT: 現地時間2024年10月19日2:00PM～5:00PMにデスマスとガラルのデスマスリサーチデイ用に2つのプレミアムタイムチャレンジを行うためのチケット。
@@ -38008,6 +38202,9 @@ TEXT: このチケットは自動的に発動し11月7日に収穫祭プレミ�
 RESOURCE ID: item_event_ticket_evergreen_details_hemisphereholidays1224
 TEXT: このチケットは自動的に発動し12月17日にホリデーパート1：砂遊びプレミアムタイムチャレンジが行えるようになります。
 
+RESOURCE ID: item_event_ticket_evergreen_details_horizonscb0425
+TEXT: このチケットは自動的に発動し4月16日にかなうちプレミアムタイムチャレンジが行えるようになります。
+
 RESOURCE ID: item_event_ticket_evergreen_details_lunarny0125
 TEXT: このチケットは自動的に発動し1月29日に旧正月プレミアムタイムチャレンジが行えるようになります。
 
@@ -38026,8 +38223,17 @@ TEXT: このチケットは自動的に発動し12月30日にお正月2025プレ
 RESOURCE ID: item_event_ticket_evergreen_details_psychspec24
 TEXT: このチケットは自動的に発動し9月18日にエスパーウィーク2024プレミアムタイムチャレンジが行えるようになります。
 
+RESOURCE ID: item_event_ticket_evergreen_details_sis_apr25
+TEXT: このチケットは自動的に発動し4月9日に春の訪れプレミアムタイムチャレンジが行えるようになります。
+
 RESOURCE ID: item_event_ticket_evergreen_details_stldrslv0125
 TEXT: このチケットは自動的に発動し1月21日にはがねの決意プレミアムタイムチャレンジが行えるようになります。
+
+RESOURCE ID: item_event_ticket_evergreen_details_sweet_discoveries_apr25
+TEXT: このチケットは自動的に発動し4月24日に甘い果実プレミアムタイムチャレンジが行えるようになります。
+
+RESOURCE ID: item_event_ticket_evergreen_details_tyrogue0425
+TEXT: このチケットは自動的に発動し4月6日にバルキーふかの日プレミアムタイムチャレンジが行えるようになります。
 
 RESOURCE ID: item_event_ticket_evergreen_details_yamasktr24
 TEXT: このチケットは自動的に発動し10月19日にデスマスとガラルのデスマスリサーチデイプレミアムタイムチャレンジが行えるようになります。
@@ -38076,6 +38282,9 @@ TEXT: 現地時間2025年2月1日2:00PM～5:00PMにボーナスを受け取る�
 
 RESOURCE ID: item_event_ticket_gray_desc_gmaxlapras24
 TEXT: 現地時間2024年12月8日2:00PM～5:00PMにボーナスを受け取るためのチケット。
+
+RESOURCE ID: item_event_ticket_gray_desc_gmaxsnorlax25
+TEXT: 現地時間2025年4月19日2:00PM～5:00PMにボーナスを受け取るためのチケット。
 
 RESOURCE ID: item_event_ticket_gray_desc_gofest2023
 TEXT: Pokémon GO Fest 2023：グローバルに参加できるチケット。
@@ -38143,6 +38352,9 @@ TEXT: 現地時間2025年1月19日2:00PM～10:00PMにボーナスを受け取る
 RESOURCE ID: item_event_ticket_gray_desc_shinycelebi
 TEXT: 現地時間2024年6月28日10:00AMから「森のささやき」続行リサーチを行うためのチケット。
 
+RESOURCE ID: item_event_ticket_gray_desc_sparringpartnersraidday
+TEXT: 現地時間2025年4月13日2:00PM～5:00PMにボーナスを受け取るためのチケット。
+
 RESOURCE ID: item_event_ticket_gray_desc_ticketoftreats
 TEXT: 10月中毎週木曜に始まるタイムチャレンジ用のパス。
 
@@ -38178,6 +38390,9 @@ TEXT: このチケットは自動的に発動し2025年2月1日にボーナス�
 
 RESOURCE ID: item_event_ticket_gray_details_gmaxlapras24
 TEXT: このチケットは自動的に発動し12月8日にボーナスが受け取れるようになります。
+
+RESOURCE ID: item_event_ticket_gray_details_gmaxsnorlax25
+TEXT: このチケットは自動的に発動し4月19日にボーナスが受け取れるようになります。
 
 RESOURCE ID: item_event_ticket_gray_details_gofest2023
 TEXT: このチケットは自動的に発動し、現地時間2023年8月26日・27日開催のPokémon GOFest2023：グローバルに参加できるようになります。
@@ -38241,6 +38456,9 @@ TEXT: このチケットは自動的に発動し1月19日にボーナスが受�
 
 RESOURCE ID: item_event_ticket_gray_details_shinycelebi
 TEXT: このチケットは自動的に発動し6月28日に「森のささやき」続行リサーチが行えるようになります。
+
+RESOURCE ID: item_event_ticket_gray_details_sparringpartnersraidday
+TEXT: このチケットは自動的に発動し4月13日にボーナスが受け取れるようになります。
 
 RESOURCE ID: item_event_ticket_gray_details_ticketoftreats
 TEXT: このチケットは自動的に発動し現地時間2023年10月31日11:59PMまで実りの秋タイムチャレンジが行えるようになります。
@@ -39128,10 +39346,7 @@ RESOURCE ID: item_move_reroll_special_attack_name
 TEXT: わざマシン スペシャル
 
 RESOURCE ID: item_mp_desc
-TEXT:  
-
-RESOURCE ID: item_mp_desc_temp
-TEXT: Use Max Particles to take on Max Battles at Power Spots or unlock and level up Max Moves.
+TEXT: パワースポットで行われるマックスバトルや、マックスわざのレベルアップに必要な粒子。
 
 RESOURCE ID: item_mp_name
 TEXT: マックス粒子
@@ -39156,6 +39371,37 @@ TEXT: ??????コイン
 
 RESOURCE ID: item_other_evolution_stone_a_name_plural
 TEXT: コレクレーのコイン
+
+RESOURCE ID: item_other_evolution_stone_maple_a_desc
+TEXT: ある特定のポケモンを進化させる不思議なりんご。とにかく蜜入り。
+
+ハーブルアーモジュールが作動中のポケストップの近くで見つかる。
+
+RESOURCE ID: item_other_evolution_stone_maple_a_name
+TEXT: あまーいりんご
+
+RESOURCE ID: item_other_evolution_stone_maple_a_name_plural
+TEXT: あまーいりんご
+
+RESOURCE ID: item_other_evolution_stone_maple_b_desc
+TEXT: ある特定のポケモンを進化させる不思議なりんご。とにかく酸っぱい。
+
+ハーブルアーモジュールが作動中のポケストップの近くで見つかる。
+
+RESOURCE ID: item_other_evolution_stone_maple_b_name
+TEXT: すっぱいりんご
+
+RESOURCE ID: item_other_evolution_stone_maple_b_name_plural
+TEXT: すっぱいりんご
+
+RESOURCE ID: item_other_evolution_stone_maple_c_desc
+TEXT: ある特定のポケモンを進化させる不思議なりんご。とにかく甘い。
+
+RESOURCE ID: item_other_evolution_stone_maple_c_name
+TEXT: みついりりんご
+
+RESOURCE ID: item_other_evolution_stone_maple_c_name_plural
+TEXT: みついりりんご
 
 RESOURCE ID: item_paid_raid_ticket_desc
 TEXT: レイドバトルや、GOバトルリーグのプレミアム戦に使用できるパス。
@@ -39203,7 +39449,7 @@ RESOURCE ID: item_postcard_inventory_desc_old
 TEXT: ポストカードを貼って自分やフレンドの足跡を残しておける手帳。
 
 RESOURCE ID: item_postcard_inventory_desc_stamp
-TEXT: ポストカードとスタンプを貼って自分やフレンドの足跡を残しておける手帳。
+TEXT: ポストカードとスタンプを貼って自分やフレンドの思い出を残しておける手帳。
 
 RESOURCE ID: item_postcard_inventory_name
 TEXT: ポストカードブック
@@ -39441,6 +39687,9 @@ TEXT: GOロケット団のアジトを探し出すことに使える！
 
 RESOURCE ID: itemleadermap_title
 TEXT: ロケットレーダー
+
+RESOURCE ID: items_picked_up
+TEXT: 何かを拾った！
 
 RESOURCE ID: itemstorageupgrade.1_description
 TEXT: 持てる道具の上限を{0}増やす。
@@ -39727,6 +39976,36 @@ TEXT: 春の花まつり2025ロケーション背景タイムチャレンジ(3/3
 
 RESOURCE ID: kr_cherryblossom_festival_2025_yeouido_bonus
 TEXT: 春の花まつり2025 – ヨイドボーナス
+
+RESOURCE ID: kr_ditto_event_2025_ditto_o_clock_active
+TEXT: メタモンが大量発生中！
+
+RESOURCE ID: kr_ditto_event_2025_ditto_o_clock_desc
+TEXT: イベント中、正時にメタモンが3分のあいだ大量発生
+
+RESOURCE ID: kr_ditto_event_2025_ditto_o_clock_title
+TEXT: メタモンタイム！
+
+RESOURCE ID: kr_ditto_event_2025_ditto_sticker_jamsil_area
+TEXT: ポケモンタウン2025イベントのエリア内ポケストップ・ジムからイベントテーマステッカーが出る可能性増
+
+RESOURCE ID: kr_ditto_event_2025_pokemon_town_2025
+TEXT: ポケモンタウン2025
+
+RESOURCE ID: kr_ditto_event_2025_title
+TEXT: 132メタモンがいっぱい
+
+RESOURCE ID: kr_ditto_event_2025_tr_name
+TEXT: へんしんタイムチャレンジ
+
+RESOURCE ID: kr_ditto_event_2025_tr_name_1
+TEXT: へんしんタイムチャレンジ(1/3)
+
+RESOURCE ID: kr_ditto_event_2025_tr_name_2
+TEXT: へんしんタイムチャレンジ(2/3)
+
+RESOURCE ID: kr_ditto_event_2025_tr_name_3
+TEXT: へんしんタイムチャレンジ(3/3)
 
 RESOURCE ID: kr_festival_fr_location_background
 TEXT: フィールドタスクで捕まえるシキジカと着飾ったピカチュウにロケーション背景がついている可能性
@@ -42863,6 +43142,9 @@ TEXT: 磁力セミナー：プラスル
 RESOURCE ID: magnetic_study_plusle_tr_name
 TEXT: 磁力セミナータイムチャレンジ：プラスル
 
+RESOURCE ID: make_good_kyurem_desc
+TEXT: 出会い：キュレム2025
+
 RESOURCE ID: make_good_kyurem_title_001
 TEXT: 出会い：キュレム1
 
@@ -43109,6 +43391,81 @@ TEXT: ユニークシャドー (6/6)
 
 RESOURCE ID: marshadow_global_sr_name
 TEXT: ユニークシャドー
+
+RESOURCE ID: marshadow_sr_00_00
+TEXT: あ、%PLAYERNAME%！またちょうど良いところへ。自分の影を見てごらん。何かおかしな動きをしていないかな？
+
+RESOURCE ID: marshadow_sr_00_01
+TEXT: 影が変だと教えてくれるトレーナーがいた。
+
+RESOURCE ID: marshadow_sr_00_02
+TEXT: 依然にも同じような現象を調査したことがあったな。
+
+RESOURCE ID: marshadow_sr_00_03
+TEXT: いつものようにわたしがデータを分析するあいだ、フィールドワークをお願いできるかな？きみの観察眼が必要だ！
+
+RESOURCE ID: marshadow_sr_01_00
+TEXT: よぉっ、%PLAYERNAME%！博士を探してるのか？さっき見かけたぜ。忙しそうだった。
+
+RESOURCE ID: marshadow_sr_01_01
+TEXT: 影の動きがおかしい、って騒いでる人たちもいたな。オレはあまり感じないけど。
+
+RESOURCE ID: marshadow_sr_01_02
+TEXT: 影の調査なんかより、一緒にバトルのヒントでも語り合いながら、何か食べないか？
+
+RESOURCE ID: marshadow_sr_01_03
+TEXT: やめとく？そうだよな、博士に報告したいことがあるんだったらそっちを優先だな。
+
+RESOURCE ID: marshadow_sr_02_00
+TEXT: %PLAYERNAME%、鉢合わせしたようだ。わたしも調査の最中だ。
+
+RESOURCE ID: marshadow_sr_02_01
+TEXT: きみはウィロー博士を探しているのか。先ほど見かけたな。あちらで、何かをたどるような動きをしていた。
+
+RESOURCE ID: marshadow_sr_02_02
+TEXT: 影の異常については聞いていると思うが、わたしなりの推論がある。
+
+RESOURCE ID: marshadow_sr_02_03
+TEXT: きみの調査が正確な結論を導き出すだろう。注意深く調査を続けたまえ、%PLAYERNAME%。
+
+RESOURCE ID: marshadow_sr_03_00
+TEXT: あ、%PLAYERNAME%！ウィロー博士に報告があるのね？
+
+RESOURCE ID: marshadow_sr_03_01
+TEXT: 影が変なふうに見えるのは、目の錯覚じゃないわ。影のなかで何かが動いているような見え方だから。びっくりする何かが潜んでいるに違いないわ。
+
+RESOURCE ID: marshadow_sr_03_02
+TEXT: いやに冷静だったり楽しげだったり、そういう反応はブランシェとスパークに任せておいて、わたしたちは、地に足を付けていましょ！
+
+RESOURCE ID: marshadow_sr_03_03
+TEXT: どんなときも闘志を忘れないことよ、%PLAYERNAME%！敵がいるかもしれないから、弱みを見せずに！
+
+RESOURCE ID: marshadow_sr_04_00
+TEXT: やっと会えたな、%PLAYERNAME%！すれ違いの連続だったようだ。
+
+RESOURCE ID: marshadow_sr_04_01
+TEXT: 直近のデータを、以前の調査結果と照らし合わせてみたところ、場所を特定できた。
+
+RESOURCE ID: marshadow_sr_04_02
+TEXT: 強力な生命反応があった。動きをたどると、トレーナーやポケモンたちを観察するために移動しているかのようだ。
+
+RESOURCE ID: marshadow_sr_04_03
+TEXT: もう少しデータが必要だ。きみは引き続き調査してくれ。
+
+RESOURCE ID: marshadow_sr_04_04
+TEXT: 暗闇に何か潜んでいるか．．．注意は怠るな。
+
+RESOURCE ID: marshadow_sr_05_00
+TEXT: よくやってくれた、%PLAYERNAME%！
+
+RESOURCE ID: marshadow_sr_05_01
+TEXT: ただの影ではないと思われたのは、幻のポケモン、マーシャドーだった。まさに、ただものでないポケモンだった。
+
+RESOURCE ID: marshadow_sr_05_02
+TEXT: 影に身を潜めているポケモンを、きみが引き出してくれたようなものだ。
+
+RESOURCE ID: marshadow_sr_05_03
+TEXT: ナゾを見事に解明してくれただけでなく、マーシャドーを見つけてくれてありがとう。楽しい調査だったよ！
 
 RESOURCE ID: master_classic_title
 TEXT: MLクラシック
@@ -43615,6 +43972,12 @@ TEXT: ラプラス（キョダイマックス）マックスバトルデイ
 
 RESOURCE ID: max_battle_day_gigantamax_lapras_ticketed
 TEXT: ラプラス（キョダイマックス）マックスバトルデイチケットボーナス
+
+RESOURCE ID: max_battle_day_gigantamax_snorlax_event_name
+TEXT: カビゴン（キョダイマックス）マックスバトルデイ
+
+RESOURCE ID: max_battle_day_gigantamax_snorlax_ticketed
+TEXT: カビゴン（キョダイマックス）マックスバトルデイチケットボーナス
 
 RESOURCE ID: max_battler_box
 TEXT: マックスバトラーボックス
@@ -44133,9 +44496,9 @@ RESOURCE ID: meshing_option_title
 TEXT: メッシュ生成
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2025-04-16T17:04:50.234650+00:00 for ja-JP
-at SHA a402bc82364
-Pipeline 3159593, job 39742215
+TEXT: Built at 2025-04-23T19:20:33.523432+00:00 for ja-JP
+at SHA 0d9569809feef
+Pipeline 3173772, job 40065633
 
 RESOURCE ID: mex_fighting_promo_title
 TEXT: タイムチャレンジ：かくとうタイプ
@@ -44313,6 +44676,9 @@ TEXT: {0}分{1}秒
 
 RESOURCE ID: ml_bundle_timer_tag
 TEXT: 午前0時に更新
+
+RESOURCE ID: mlb_key
+TEXT: MLB
 
 RESOURCE ID: mobile_games_catch_sr
 TEXT: Mobile Games Show: Catch Challenge
@@ -45623,6 +45989,9 @@ TEXT: コールドフレア
 RESOURCE ID: move_name_0468
 TEXT: フレアソング
 
+RESOURCE ID: move_name_0471
+TEXT: はやてがえし
+
 RESOURCE ID: move_required_to_enable_adventure_effect
 TEXT: {0}は{1}を覚えていないため、合体後にフィールド効果のあるわざを覚えることはできません
 
@@ -45650,6 +46019,9 @@ TEXT: {0}がメガシンカしているあいだは、{1}・{2}・{3}タイプ�
 RESOURCE ID: mp_bonus_buff_desc_3
 TEXT: {0}がメガシンカしているあいだは、{1}・{2}・{3}タイプのポケモンを捕まえてもらえるアメ・XPとアメXL確率が増えます
 
+RESOURCE ID: mp_explore_quarter
+TEXT: 1/4　マックス粒子の集まる距離
+
 RESOURCE ID: mp_replenish.1_description
 TEXT: {0}マックス粒子をコンパクトな容器に入れたもの。
 
@@ -45663,6 +46035,14 @@ TEXT: {0}マックス粒子をコンパクトな容器に入れたもの3個セ�
 RESOURCE ID: mp_replenish.3_title
 TEXT: マックス粒子パック
 x3 ({0}MP)
+
+RESOURCE ID: mp_replenish_rrp.1_title
+TEXT: リモートレイドパス1枚と
+マックス粒子パック({0}MP)
+
+RESOURCE ID: mp_replenish_rrp.3_title
+TEXT: リモートレイドパスx3と
+マックス粒子パックx3({0}MP)
 
 RESOURCE ID: mrd_berry_easy
 TEXT: チラーミィリサーチ：ポケモンを捕まえるときにきのみ3個を使う
@@ -49037,6 +49417,18 @@ TEXT: 待ち合わせ参加
 RESOURCE ID: nearby_rsvp_no_rsvps
 TEXT: 待ち合わせ参加を設定したバトルはありません
 
+RESOURCE ID: nearby_rsvp_notification_max_battle_key
+TEXT: {0}人のトレーナーが参加するキョダイマックスバトルがもうすぐ始まる！
+
+RESOURCE ID: nearby_rsvp_notification_max_battle_key_singular
+TEXT: 近くでもうすぐキョダイマックスバトルが始まる！
+
+RESOURCE ID: nearby_rsvp_notification_raid_key
+TEXT: {0}人のトレーナーが参加するレイドバトルがもうすぐ始まる！
+
+RESOURCE ID: nearby_rsvp_notification_raid_key_singular
+TEXT: 近くのジムでもうすぐレイドバトルが始まる！
+
 RESOURCE ID: nearby_rsvp_reminders_header
 TEXT: リマインダー
 
@@ -50592,13 +50984,13 @@ RESOURCE ID: passcode_rpc_timeout
 TEXT: 通信環境が安定しないため、コード使用要求がタイムアウトしました。もう一度お試しください。
 
 RESOURCE ID: pause_dialog_message
-TEXT: 一時停止しても、フレンドからスタンプを受け取ることはできます。フレンドから受け取りたくない場合は、設定画面でオフにします。
+TEXT: 一時停止しても、フレンドからスタンプを受け取ることはできます。フレンドから受け取りたくない場合は、設定画面でオフにできます。
 
 RESOURCE ID: pause_dialog_subtitle
-TEXT: このラリー用にスタンプを集めることを止めます。コレクション画面からいつでも再開できます。
+TEXT: このスタンプラリーのスタンプを集めることをやめます。スクラップブックのコレクション画面からいつでも、再開することができます。
 
 RESOURCE ID: pause_dialog_title
-TEXT: 本当に一時停止してもいいですか？
+TEXT: このスタンプラリーを一時停止しますか？
 
 RESOURCE ID: pause_route_travel_error_toast
 TEXT: ルート一時停止エラー
@@ -55614,7 +56006,7 @@ RESOURCE ID: pokemon_category_1008_2997
 TEXT: パラドックスポケモン
 
 RESOURCE ID: pokemon_caught_stamp_rally
-TEXT: スタンプラリー中に捕まえた
+TEXT: スタンプラリーで捕まえた
 
 RESOURCE ID: pokemon_costume_info_transfer_to_professor_confirmation
 TEXT: 本当にこのポケモンを送ってもいいですか？
@@ -59566,6 +59958,9 @@ TEXT: 送ることができないポケモンが含まれています
 
 RESOURCE ID: pokemon_info_panel_defended_gym_raid_active_message
 TEXT: レイドバトルが行われています！配置したポケモンはレイドバトル終了後にジムに戻ります。
+
+RESOURCE ID: pokemon_info_pokecoin_label
+TEXT: ポケコイン
 
 RESOURCE ID: pokemon_info_pokemon_is_released
 TEXT: ばいばい {0}！ 元気でね！
@@ -64244,6 +64639,9 @@ TEXT: こうかばつぐんのスペシャルアタックを使ってジムバ�
 RESOURCE ID: quest_battle_supereffective_charge_singular
 TEXT: こうかばつぐんのスペシャルアタックを使ってジムバトルする・1回
 
+RESOURCE ID: quest_battle_team_rocket
+TEXT: ミッション：GOロケット団員に{0}回勝つ
+
 RESOURCE ID: quest_battle_team_rocket_days
 TEXT: GOロケット団員と{0}日にわたってバトルする
 
@@ -64673,6 +65071,9 @@ TEXT: 伝説のポケモンを{0}匹捕まえる
 
 RESOURCE ID: quest_catch_pokemon_legendary_singular
 TEXT: 伝説のポケモンを捕まえる
+
+RESOURCE ID: quest_catch_pokemon_legendary_ultra_beast_singular
+TEXT: 伝説のポケモンもしくはウルトラビーストを捕まえる
 
 RESOURCE ID: quest_catch_pokemon_party_plural
 TEXT: チーム参加中ポケモンを{0}匹捕まえる
@@ -68503,6 +68904,9 @@ TEXT: ヨマワルかカゲボウズを{0}匹進化させる
 RESOURCE ID: quest_hallo19_transfer_plural
 TEXT: ポケモンを{0}匹送る
 
+RESOURCE ID: quest_hatch_egg
+TEXT: ミッション：タマゴをかえす
+
 RESOURCE ID: quest_hatch_egg_plural
 TEXT: タマゴを{0}個かえす
 
@@ -69052,6 +69456,9 @@ TEXT: 伝説か幻のポケモンを{0}回強化する
 RESOURCE ID: quest_power_up_legendary_singular
 TEXT: 伝説か幻のポケモンを強化する
 
+RESOURCE ID: quest_power_up_machop_plural
+TEXT: ワンリキーを{0}回強化する
+
 RESOURCE ID: quest_power_up_max_plural
 TEXT: ポケモン{0}匹をCP上限まで強化する
 
@@ -69411,6 +69818,9 @@ TEXT: ヒバニーを進化させる
 
 RESOURCE ID: quest_send_gifts_daily_row
 TEXT: ギフトを{0}日連続で贈る
+
+RESOURCE ID: quest_send_gifts_days
+TEXT: {0}日にわたってギフトを贈る
 
 RESOURCE ID: quest_send_gifts_plural
 TEXT: ギフトを{0}個贈る
@@ -83516,6 +83926,9 @@ TEXT: ピカチュウを{0}匹交換する
 RESOURCE ID: quest_trade_plural
 TEXT: ポケモン交換を{0}回行う
 
+RESOURCE ID: quest_trade_pokemon
+TEXT: ミッション：ポケモンを交換する
+
 RESOURCE ID: quest_trade_singular
 TEXT: ポケモンを交換する
 
@@ -83800,6 +84213,9 @@ RESOURCE ID: quest_waina_spin_pokestop_plural
 TEXT: Pokémon GO Plus +でポケストップ
 {0}個を回す
 
+RESOURCE ID: quest_walk
+TEXT: ミッション：{0}km探索する
+
 RESOURCE ID: quest_walk_25km_inaweek_plural
 TEXT: 1週間に25km歩くリワードを{0}回もらう
 
@@ -83991,6 +84407,12 @@ TEXT: CP3,500以下のポケモンのみを使いGOロケット団リーダー�
 
 RESOURCE ID: quest_win_rocket_leader_less4000cp_plural
 TEXT: CP4,000以下のポケモンのみを使いGOロケット団リーダーに{0}回勝つ
+
+RESOURCE ID: quest_win_shadow_raid_plural
+TEXT: シャドウレイドで{0}回勝つ
+
+RESOURCE ID: quest_win_shadow_raid_singular
+TEXT: シャドウレイドで勝つ
 
 RESOURCE ID: quest_wooper_catch_b
 TEXT: ウパーを{0}匹捕まえる
@@ -86071,6 +86493,12 @@ TEXT: ユニランのレイド・デイ
 RESOURCE ID: raid_day_solrock
 TEXT: ソルロックのレイド・デイ
 
+RESOURCE ID: raid_day_sparring_partners_event_name
+TEXT: スパーリングパートナーレイドデイ
+
+RESOURCE ID: raid_day_sparring_partners_tr_name
+TEXT: スパーリングパートナーレイドデイタイムチャレンジ
+
 RESOURCE ID: raid_day_spearow
 TEXT: オニスズメのレイド・デイ
 
@@ -86645,7 +87073,7 @@ RESOURCE ID: raid_nearby_ongoing
 TEXT: 進 行 中
 
 RESOURCE ID: raid_nearby_rsvp
-TEXT: 参加予定
+TEXT: 予定を入れる
 
 RESOURCE ID: raid_need_a_viable_raid_team
 TEXT: レイドバトルに参加できるポケモンがいません。回復しましょう。
@@ -86694,6 +87122,9 @@ TEXT: グループをオープンにしますか？
 
 RESOURCE ID: raid_rsvp_bonus
 TEXT: 待ち合わせ参加
+
+RESOURCE ID: raid_s_pass_daily_limit_temp
+TEXT: リモートマックス・レイドバトル上限に達しました
 
 RESOURCE ID: raid_share_private_code_message
 TEXT: このグループコードを入力すると、友達と一緒にレイドバトルに参加できます。「グループコード入力」ボタンを押してコードを入力します。
@@ -89012,6 +89443,27 @@ TEXT: レイドバトルで{0}回勝つ
 RESOURCE ID: raidweek_2019_medium_raid
 TEXT: レイドバトルで{0}回勝つ
 
+RESOURCE ID: rally_expo_2025_desc
+TEXT: 大阪・関西万博の会場で遊べるスタンプラリーです。
+
+RESOURCE ID: rally_expo_2025_desc_detail
+TEXT: 大阪・関西万博会場にある７つの立体フォトスポットのポケストップを巡るスタンプラリーです。
+
+RESOURCE ID: rally_expo_2025_desc_general
+TEXT: EXPO2025会場のGOスタンプラリーポケストップを巡ってスタンプを集めるとテーマに沿ったリワードがもらえます！
+
+RESOURCE ID: rally_expo_2025_location
+TEXT: 大阪・関西万博の会場
+
+RESOURCE ID: rally_expo_2025_rewards_desc
+TEXT: このGOスタンプラリーを完了するとEXPO2025会場に現れるポケモンとの出会いに加え、フシギダネのアメ25個、ヒトカゲのアメ25個、ゼニガメのアメ25個がもらえます
+
+RESOURCE ID: rally_expo_2025_rewards_desc_general
+TEXT: スタンプを集めていくと、ロケーション背景のついたポケモンと出会えます。
+
+RESOURCE ID: rally_expo_2025_title
+TEXT: EXPO2025スタンプラリー
+
 RESOURCE ID: ralts_post_cd_timed_research_name
 TEXT: ラルトスコミュニティ・デイコンティニュータイムチャレンジ
 
@@ -89037,7 +89489,7 @@ RESOURCE ID: reactivate_dialog_message
 TEXT: 他にも一時停止中のスタンプラリーがあります。再開してからスタンプ集めを始めてください。
 
 RESOURCE ID: reactivate_dialog_title
-TEXT: スタンプ集めを再開しますか？
+TEXT: スタンプラリーを再開しますか？
 
 RESOURCE ID: ready_raid_button
 TEXT: 準備OK！
@@ -89283,7 +89735,7 @@ RESOURCE ID: rejoin_warning_modal_title
 TEXT: チームを抜けてもいいですか？
 
 RESOURCE ID: remote_max_battle_invite_push_notif
-TEXT: A friend invited you to join a Max Battle!
+TEXT: フレンドからマックスバトルへ招待されました！
 
 RESOURCE ID: remote_raid_battle_helptext
 TEXT: リモートレイドパス使用
@@ -89365,7 +89817,7 @@ RESOURCE ID: remote_raid_lobby_max_remote_desc
 TEXT: 別ロビーへの招待状を送ってみるか、しばらくしてから再度お試しください。
 
 RESOURCE ID: remote_raid_lobby_max_remote_players
-TEXT: 遠隔で参加するトレーナーの上限数に達しました
+TEXT: 遠隔参加者の上限数に達しました
 
 RESOURCE ID: remote_raid_lobby_max_remote_title
 TEXT: 遠隔で参加するトレーナー上限
@@ -89795,7 +90247,7 @@ RESOURCE ID: rewarded_spend_claimed_tier_level_header
 TEXT: レベル{0}
 
 RESOURCE ID: rewarded_spend_current_progress_key
-TEXT: 現在の達成ポイント：
+TEXT: 達成ポイント：
 
 RESOURCE ID: rewarded_spend_helpshift_desc
 TEXT: リワードロードは、毎月対象商品の購入額*によりポイントがたまるリワードプログラムの名称です。以下の手順で、特定のポイント数を達成するとリワードロードレベルが上がります。
@@ -93076,6 +93528,11 @@ TEXT: ティア2GOパスボーナス
 RESOURCE ID: season_pass_milestone_bonus_title_03
 TEXT: ティア3GOパスボーナス
 
+RESOURCE ID: season_pass_premium_rewards_desc_monthly
+TEXT: ランクが上がるとリワードがアンロックされます。期限内にプレイしリワードを受け取ってください。
+
+<b>GOパスはテスト中の機能であるため、無料・有料GOパスの利用とリワード受取はテストが実施されている場所でのみ可能です。</b>
+
 RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_april
 TEXT: GOパスデラックス：4月＋10ランク
 
@@ -93087,6 +93544,12 @@ TEXT: GOパスデラックス：4月
 
 RESOURCE ID: season_pass_premium_track_title_may
 TEXT: GOパスデラックス：5月
+
+RESOURCE ID: season_pass_track_upgrade_header_description_100
+TEXT: 追加リワードを入手でき、ランク100で<b>キラチャーム</b>をアンロック！
+
+RESOURCE ID: season_pass_track_upgrade_header_description_50
+TEXT: 追加リワードを入手でき、ランク50で<b>キラチャーム</b>をアンロック！
 
 RESOURCE ID: seasonal_delights_box
 TEXT: 冬のスペシャルボックス
@@ -93149,10 +93612,10 @@ RESOURCE ID: send_stamp_warning_modal_description_low_friend_level
 TEXT: 「{0}」に達していないため、このギフトを贈ってもスタンプは受け取れません。このギフトを贈りますか？
 
 RESOURCE ID: send_stamp_warning_modal_descripton_already_collected
-TEXT: フレンドがすでに持っているスタンプであるため、このギフトを贈ってもスタンプは受け取れません。このギフトを贈りますか？
+TEXT: フレンドがすでに持っているスタンプのため、このギフトを送ってもスタンプは受け取れません。このギフトを送りますか？
 
 RESOURCE ID: send_stamp_warning_modal_descripton_opted_out
-TEXT: フレンドがスタンプを受け取らない設定をオンにしています。このギフトを贈りますか？
+TEXT: フレンドがスタンプを受け取らない設定をオンにしています。このギフトを送りますか？
 
 RESOURCE ID: send_stamp_warning_modal_title
 TEXT: 本当に送りますか？
@@ -93163,11 +93626,20 @@ TEXT: 送信
 RESOURCE ID: sent_friend_error_info_plural
 TEXT: リモートレイド上限に達しており参加できないフレンド：{0}人。
 
+RESOURCE ID: sent_friend_error_info_plural_temp
+TEXT: 上限に達しており参加できないフレンド： {0}人。参加できるフレンドを招待しましょう！
+
 RESOURCE ID: sent_friend_error_info_singular
 TEXT: リモートレイド上限に達しており参加できないフレンド： 1人。
 
+RESOURCE ID: sent_friend_error_info_singular_temp
+TEXT: 上限に達しており参加できないフレンド： 1人。他に参加できるフレンドを招待しましょう！
+
 RESOURCE ID: sent_friend_error_toast
 TEXT: フレンドがリモートレイド上限に達しています
+
+RESOURCE ID: sent_friend_error_toast_temp
+TEXT: フレンドがリモートマックス・レイドバトル上限に達しています
 
 RESOURCE ID: sent_friend_request_prompt
 TEXT: フレンド申請を送りました
@@ -94735,6 +95207,9 @@ TEXT: ミニマイティタイムチャレンジ (2/3)
 RESOURCE ID: small_strong_free_tr_name_2
 TEXT: ミニマイティタイムチャレンジ (3/3)
 
+RESOURCE ID: snorlax_gmax_tr_2025_title
+TEXT: キョダイマックスカビゴンプレミアムタイムチャレンジ
+
 RESOURCE ID: social_add_friend_facebook
 TEXT: Facebookに接続
 
@@ -95460,6 +95935,18 @@ RESOURCE ID: spring_cup_great_title
 TEXT: 春カップ：
 スーパーリーグバージョン
 
+RESOURCE ID: spring_into_spring_apr2025_cc_grass
+TEXT: 春の芽吹きコレクションチャレンジ
+
+RESOURCE ID: spring_into_spring_apr2025_cc_hatch
+TEXT: 春の訪れタマゴふかチャレンジ
+
+RESOURCE ID: spring_into_spring_apr2025_cc_rain
+TEXT: 春の雨コレクションチャレンジ
+
+RESOURCE ID: spring_into_spring_apr2025_cc_sun
+TEXT: 春の日差しコレクションチャレンジ
+
 RESOURCE ID: spritzee_o_clock
 TEXT: シュシュプタイム
 
@@ -95469,8 +95956,14 @@ TEXT: シュシュプがエリア内にたくさん出現
 RESOURCE ID: squash_confirmation_plural
 TEXT: 今日あと{0}回リモートレイドに参加できます。リモートレイドパスはバトル開始時に消費されます。
 
+RESOURCE ID: squash_confirmation_plural_temp
+TEXT: 今日あと{0}回リモートマックス・レイドバトルに参加できます。リモートレイドパスはバトル開始時に消費されます。
+
 RESOURCE ID: squash_confirmation_singular
 TEXT: 今日あと1回リモートレイドに参加できます。リモートレイドパスはバトル開始時に消費されます。
+
+RESOURCE ID: squash_confirmation_singular_temp
+TEXT: 今日あと1回リモートマックス・レイドバトルに参加できます。リモートレイドパスはバトル開始時に消費されます。
 
 RESOURCE ID: squash_toast
 TEXT: リモートで参加できるレイド上限数に達しました。ジムに近づいて参加してください。
@@ -96950,46 +97443,63 @@ RESOURCE ID: stamp_and_open_gift_button
 TEXT: 開けてスタンプを押す
 
 RESOURCE ID: stamp_collection_poi_nearby_notification
-TEXT: {0}でスタンプが取得できます！
+TEXT: {0}でスタンプが手に入ります！
 
 RESOURCE ID: stamp_collection_reward_pokemon_flee_warning_body
-TEXT: この出会いから逃げると、再び出会うことができない可能性があります。
+TEXT: このポケモンから逃げると、再び出会うことができない可能性があります。
 
 RESOURCE ID: stamp_collection_reward_pokemon_flee_warning_title
-TEXT: この出会いから逃げてもいいですか？
+TEXT: このポケモンから逃げてもいいですか？
 
 RESOURCE ID: stamp_collections_page_header
 TEXT: GOスタンプラリー
 
 RESOURCE ID: stamp_completed_description
-TEXT: スタンプをすべて集めました！
+TEXT: おめでとうございます！
+スタンプをすべて集めました！
 
 RESOURCE ID: stamp_info_banner
 TEXT: スタンプ情報
 
+RESOURCE ID: stamp_mini_game_instruction
+TEXT: ぎゅっと長押しでスタンプ！
+
 RESOURCE ID: stamp_page_tutorial_page_1_description
-TEXT: 特定のポケストップ・ジムでスタンプを集める遊びです。
+TEXT: スタンプラリーの対象になっている、ポケストップやジムを訪れて、スタンプを集める遊びです。
 
 RESOURCE ID: stamp_page_tutorial_page_1_header
 TEXT: スタンプラリーとは？
 
 RESOURCE ID: stamp_page_tutorial_page_2_description
-TEXT: スタンプラリーが行われているポケストップ・ジムを訪れると、スタンプシートが表示されます。ガイドに従ってスタンプを押します。
+TEXT: スタンプラリーが開催されているポケストップやジムの上部には、スタンプのアイコンが表示されます。それらのポケストップやジムを訪れると、スタンプシートが表示されますので、ガイドに従ってスタンプを押してください。
 
 RESOURCE ID: stamp_page_tutorial_page_2_header
-TEXT: どう集めるの？
+TEXT: スタンプの集め方
 
 RESOURCE ID: stamp_page_tutorial_page_3_description
-TEXT: フレンドの助けを借りてスタンプを集められるスタンプラリーもあります。フレンドレベルが「{0}」以上であれば、ギフトに含まれるスタンプを受け取ることができます。
+TEXT: スタンプを集め始めると、マップの右側にスタンプのアイコンが表示されるようになります。 このスタンプアイコンをタップすると、簡単に進捗が確認できます。
+
+RESOURCE ID: stamp_page_tutorial_page_3_description_temp
+TEXT: フレンドと協力してスタンプを集められるスタンプラリーもあります。フレンドレベルが「{0}」以上であれば、ギフトに含まれるスタンプを受け取ることができます。
 
 RESOURCE ID: stamp_page_tutorial_page_3_header
+TEXT: 簡単に確認できます
+
+RESOURCE ID: stamp_page_tutorial_page_3_header_temp
 TEXT: フレンドと一緒にスタンプを集めよう！
 
 RESOURCE ID: stamp_page_tutorial_page_4_description
-TEXT: スタンプと一緒に他のリワードが獲得できるスタンプラリーもあります。スタンプをどんどん集めて、スタンプ以外のリワードも受け取りましょう。
+TEXT: スタンプと一緒にリワードが獲得できるスタンプラリーもあります。
+スタンプをどんどん集めて、スタンプ以外のリワードも受け取りましょう。
 
 RESOURCE ID: stamp_page_tutorial_page_4_header
 TEXT: どんどん集めよう！
+
+RESOURCE ID: stamp_panel_header
+TEXT: スタンプ
+
+RESOURCE ID: stamp_panel_header_link
+TEXT: リンクをチェック
 
 RESOURCE ID: stamp_poi_details_location_info_header
 TEXT: どんな場所？
@@ -97001,13 +97511,13 @@ RESOURCE ID: stamp_poi_details_received_from
 TEXT: {0}さんから贈られた
 
 RESOURCE ID: stamp_poi_details_unvisited
-TEXT: 未訪問
+TEXT: まだ訪れていません
 
 RESOURCE ID: stamp_poi_details_visited_date
-TEXT: 行った日：{0}
+TEXT: 訪れた日：{0}
 
 RESOURCE ID: stamp_progression
-TEXT: スタンプ集めの進捗
+TEXT: スタンプラリーの進捗
 
 RESOURCE ID: stamp_rally_achievement_header
 TEXT: 実績
@@ -97028,16 +97538,16 @@ RESOURCE ID: stamp_rally_finishes_in
 TEXT: 終了まで：{0}
 
 RESOURCE ID: stamp_rally_item_reward_toast
-TEXT: スタンプ{0}個でゲット
+TEXT: スタンプを{0}個集めるとリワードがもらえます
 
 RESOURCE ID: stamp_rally_item_reward_toast_singular
-TEXT: スタンプ1個でゲット
+TEXT: スタンプを１個集めるとリワードがもらえます
 
 RESOURCE ID: stamp_rally_journal_entry_completion
 TEXT: {0}スタンプラリーを{1}で完了した！
 
 RESOURCE ID: stamp_rally_journal_entry_progress
-TEXT: {1}スタンプラリーのスタンプを{0}で集めた！
+TEXT: {1}のスタンプを{0}で集めた！
 
 RESOURCE ID: stamp_rally_journal_entry_reward
 TEXT: {0}スタンプラリーでもらった！
@@ -97046,25 +97556,25 @@ RESOURCE ID: stamp_rally_missed_reward_toast
 TEXT: スタンプを集めた場所に行ってください
 
 RESOURCE ID: stamp_rally_no_expiration
-TEXT: 無期限のイベントです
+TEXT: 無期限のスタンプラリーです
 
 RESOURCE ID: stamp_rally_pokemon_item_reward_toast
-TEXT: スタンプ{0}個でポケモンとの出会いを含むリワード
+TEXT: スタンプ{0}個でポケモンとの出会いを含むリワードがもらえます
 
 RESOURCE ID: stamp_rally_pokemon_item_reward_toast_singular
-TEXT: スタンプ1個でポケモンとの出会いを含むリワード
+TEXT: スタンプ1個でポケモンとの出会いを含むリワードがもらえます
 
 RESOURCE ID: stamp_rally_pokemon_reward_toast
-TEXT: スタンプ{0}個で出会える
+TEXT: スタンプを{0}個集めるとポケモンと出会えます
 
 RESOURCE ID: stamp_rally_pokemon_reward_toast_singular
-TEXT: スタンプ1個で出会える
+TEXT: スタンプを１個集めるとポケモンと出会えます
 
 RESOURCE ID: stamp_reward_collected_description
-TEXT: リワードを受け取れます！
+TEXT: おめでとうございます！リワードが受け取れます！
 
 RESOURCE ID: stamp_reward_toast
-TEXT: スタンプを一定数集めてゲット！
+TEXT: スタンプを一定数集めてリワードをゲットしましょう！
 
 RESOURCE ID: stamp_social_receive_tutorial_page_1_header
 TEXT: フレンドと一緒にスタンプを集めよう！
@@ -97079,23 +97589,16 @@ RESOURCE ID: stamp_social_receive_tutorial_page_3_header
 TEXT: スクラップブック
 
 RESOURCE ID: stamp_social_send_tutorial_page_1_description
-TEXT: このギフトは、スタンプラリー用のスタンプを含みます。フレンドがどこにいても、このギフトを受け取るとスタンプ集めが進みます。
+TEXT: このギフトは、スタンプラリー用のスタンプを含みます。フレンドがどこにいても、このギフトを受け取るとスタンプラリーが進みます。
 
 RESOURCE ID: stamp_social_send_tutorial_page_1_header
-TEXT: スタンプのあるカード
+TEXT: スタンプ付いているポストカード
 
 RESOURCE ID: stamp_tutorial_page_1_description
-TEXT: スタンプアイコンの表示されているのがスタンプラリーに含まれるポケストップです。
-これらのポケストップをタップすると、スタンプシートが表示されます。
+TEXT: スタンプアイコンの表示されているポケストップがスタンプラリーの対象です。これらのポケストップをタップすると、スタンプシートが表示されます。
 
 RESOURCE ID: stamp_tutorial_page_1_header
 TEXT: スタンプラリーのポケストップ
-
-RESOURCE ID: stamp_tutorial_page_2_description
-TEXT: スタンプ集めを開始すると、マップ右側のメニューにスタンプアイコンが表示されます。スタンプアイコンをタップして進捗を確認できます。
-
-RESOURCE ID: stamp_tutorial_page_2_header
-TEXT: 素早くチェック
 
 RESOURCE ID: standard_raid_box_title
 TEXT: 標準レイドボックス
@@ -97354,6 +97857,21 @@ TEXT: ひこう、エスパー、フェアリータイプの攻撃には弱い�
 
 RESOURCE ID: story_mightandmastery_3_3
 TEXT: きみのダクマは、それらを考慮したうえで強化されてきたようだね。引き続き頑張ってくれ！
+
+RESOURCE ID: story_mightandmastery_4_0
+TEXT: 
+
+RESOURCE ID: story_mightandmastery_4_1
+TEXT: 
+
+RESOURCE ID: story_mightandmastery_4_2
+TEXT: 
+
+RESOURCE ID: story_mightandmastery_4_3
+TEXT: 
+
+RESOURCE ID: story_mightandmastery_4_4
+TEXT: 
 
 RESOURCE ID: story_quest_cosmog_sol23_0
 TEXT: 輝く星雲 (1/4)
@@ -98738,6 +99256,24 @@ TEXT: サステナビリティデイウィークコレクションチャレン�
 RESOURCE ID: sustainability_week_collection_challenge_trubbish
 TEXT: サステナビリティデイウィークコレクションチャレンジ：ヤブクロン
 
+RESOURCE ID: sweet_discoveries_2025_event_name
+TEXT: 甘い果実
+
+RESOURCE ID: sweet_discoveries_2025_premium_tr
+TEXT: 甘い果実プレミアムタイムチャレンジ
+
+RESOURCE ID: sweet_discoveries_2025_premium_tr_0
+TEXT: 甘い果実プレミアムタイムチャレンジ(1/2)
+
+RESOURCE ID: sweet_discoveries_2025_premium_tr_1
+TEXT: 甘い果実プレミアムタイムチャレンジ(2/2)
+
+RESOURCE ID: sweet_discoveries_2025_tr
+TEXT: 甘い果実タイムチャレンジ
+
+RESOURCE ID: sweet_discoveries_bonus_berry_loot_drop
+TEXT: デリバード・ホシガリスを捕まえてきのみをもらえる
+
 RESOURCE ID: switch_sleep_warning
 TEXT: スマートデバイスがスリープ状態になるなどして、通信が途切れてしまわないよう、ご注意ください
 
@@ -99188,6 +99724,12 @@ TEXT: <b>もらえるもの：</b>
 ・マックスバトル勝利でもらえるXP2倍
 ・完了するとダイキノコと25000XPがもらえるタイムチャレンジ、など
 
+RESOURCE ID: text_rewards_key_gmaxsnorlax25
+TEXT: <b>もらえるもの：</b>
+・パワースポット・探索で集める4000マックス粒子追加
+・マックスバトル勝利でもらえるXP2倍
+・ダイキノコと25000XPがもらえるタイムチャレンジ、など
+
 RESOURCE ID: text_rewards_key_gobattlemay2024
 TEXT: <b>もらえるもの：</b>
 ・30000ほしのすな
@@ -99400,6 +99942,15 @@ TEXT: <b>適用ボーナス：</b>
 ・ジムのフォトディスクを回してもらえるレイドパス8枚追加
 ・レイドでもらえるふしぎなアメXLの可能性増
 ・レイド勝利でもらえるXP50%増とほしのすな2倍、など
+
+RESOURCE ID: text_rewards_key_horizonscb0425
+TEXT: <b>もらえるもの：</b>
+・カヌチャンとの出会い
+・カヌチャンのアメ5個
+・デカヌチャンポーズ
+・ふかそうち1個
+・ハイパーボール30個
+・3000ほしのすな、など
 
 RESOURCE ID: text_rewards_key_janmonthly2025
 TEXT: <b>もらえるもの：</b>
@@ -99650,11 +100201,26 @@ TEXT: めずらしいセレビィに出会える続行リサーチを行うた�
 ・アイスルアー1個とハーブルアー1個
 ・40411XPと17570ほしのすな、など
 
+RESOURCE ID: text_rewards_key_sis_apr25
+TEXT: <b>もらえるもの：</b>
+・テッポウオ、ヤヤコマ、ヒメンカとの出会い
+・スーパーふかそうち2個
+・しあわせタマゴ1個
+・5000XP
+
+タイムチャレンジなどのタスクを完了して出会うと、色違いのテッポウオとヤヤコマに出会える可能性は上がります。
+
 RESOURCE ID: text_rewards_key_slumberingsands24
 TEXT: <b>もらえるもの：</b>
 ・ネッコアラバックパック
 ・ネッコアラとバイザーをつけたナマケロとの出会い
 ・10000XP、2500ほしのすな、モンスターボール25個、ぎんのパイルのみ2個、きんのズリのみ2個、ほしのかけら1個など
+
+RESOURCE ID: text_rewards_key_sparringpartnersraidday
+TEXT: <b>適用ボーナス：</b>
+・ジムのフォトディスクを回してもらえるレイドパス8枚追加
+・レイドでもらえるふしぎなアメXLの可能性増
+・レイド勝利でもらえるXP50%増とほしのすな2倍、など
 
 RESOURCE ID: text_rewards_key_spelunkercove24
 TEXT: <b>もらえるもの：</b>
@@ -99683,6 +100249,13 @@ TEXT: <b>もらえるもの：</b>
 ・6000XPと3000ほしのすな
 ・その他
 
+RESOURCE ID: text_rewards_key_sweet_discoveries_apr25
+TEXT: <b>もらえるもの：</b>
+・デリバード、ビッパ、チェリンボ、ムンナ、アマカジ、ネッコアラ、ホシガリス、カジッチュとの出会い
+・ハーブルアー2個
+
+タイムチャレンジなどのタスクを完了して出会うと、色違いのデリバードとホシガリスに出会える可能性は上がります。
+
 RESOURCE ID: text_rewards_key_takeovermarch24
 TEXT: <b>もらえるもの：</b>
 ・コマタナとの出会い
@@ -99705,6 +100278,12 @@ RESOURCE ID: text_rewards_key_tynamocd24
 TEXT: <b>もらえるもの：</b>
 ・シビシラスとその進化形ポケモンとの出会い
 ・ふしぎなアメ、ハイパーボールなど
+
+RESOURCE ID: text_rewards_key_tyrogue0425
+TEXT: <b>もらえるもの：</b>
+・スーパーふかそうち1個
+・ほしのかけら1個
+・2500XP、など
 
 RESOURCE ID: text_rewards_key_ultraspace24
 TEXT: <b>もらえるもの：</b>
@@ -100941,6 +101520,9 @@ TEXT: デイリータスク – プレミアム
 RESOURCE ID: title_event_pass_hourly_bonus_quest
 TEXT: 1時間タスク
 
+RESOURCE ID: title_event_pass_weekly_bonus_quest
+TEXT: ウィークリータスク
+
 RESOURCE ID: title_hatch_day_azurill
 TEXT: ルリリふかの日
 
@@ -101479,7 +102061,7 @@ RESOURCE ID: tr_gofest2024_earlybird2
 TEXT: タイムチャレンジ：鋭い月光
 
 RESOURCE ID: tr_gofest2025_global_earlybird
-TEXT: GO Fest 2025: Early Bird Timed Research
+TEXT: GOフェスト2025先行タイムチャレンジ
 
 RESOURCE ID: tr_gowa2024_global_daily_electric
 TEXT: ワイルドエリアを越えて：エレキエキスパートタイムチャレンジ
@@ -101629,6 +102211,27 @@ TEXT: ウルトラビースト襲来プレミアムタイムチャレンジ
 
 RESOURCE ID: tr_inbound_from_ultra_space_raid_paid_00
 TEXT: ウルトラビースト襲来プレミアムタイムチャレンジ(1/1)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_desc
+TEXT: お花見タイムチャレンジ
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title
+TEXT: お花見チャレンジ
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_00
+TEXT: お花見タイムチャレンジ (1/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_01
+TEXT: お花見タイムチャレンジ (2/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_02
+TEXT: お花見タイムチャレンジ (3/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_03
+TEXT: お花見タイムチャレンジ (4/5)
+
+RESOURCE ID: tr_kr2025_retention_cherryblossom_title_04
+TEXT: お花見タイムチャレンジ (5/5)
 
 RESOURCE ID: tr_kr2025_retention_feb_desc
 TEXT: 満月タイムチャレンジ
@@ -101780,6 +102383,15 @@ TEXT: グローバルアンロック：ふしぎな存在
 
 RESOURCE ID: tr_rotom_mystery_quest_global_00
 TEXT: グローバルアンロック：ふしぎな存在 (1/1)
+
+RESOURCE ID: tr_sis_apr2025
+TEXT: 春の訪れプレミアムタイムチャレンジ
+
+RESOURCE ID: tr_sis_apr2025_0
+TEXT: 春の訪れプレミアムタイムチャレンジ(1/2)
+
+RESOURCE ID: tr_sis_apr2025_1
+TEXT: 春の訪れプレミアムタイムチャレンジ(2/2)
 
 RESOURCE ID: tr_sz_goyang_global
 TEXT: Safari Zone コヤン：探索チャレンジ
@@ -102116,6 +102728,9 @@ TEXT: 色違いのポケモン全て
 RESOURCE ID: trade_special_extra_one
 TEXT: 特別な交換1回追加
 
+RESOURCE ID: trade_special_extra_two
+TEXT: 特別な交換2回追加
+
 RESOURCE ID: trade_special_in_pokedex
 TEXT: 図鑑に登録済みの伝説および色違いのポケモン
 
@@ -102374,6 +102989,12 @@ TEXT: きみには、さらに上を目指してもらおう。そのために�
 RESOURCE ID: tutorial_level_40_plus_intro
 TEXT: ここまで、よく頑張った！
 
+RESOURCE ID: tutorial_maple_description
+TEXT: ハーブルアーモジュール作動中のポケストップの近くにりんごが落ちています！りんごをタップすると、カジッチュに出会えたり、カジッチュを進化させるためのりんごを見つけたりできます。また、他のポケモンもりんごを目当てにやって来ることがあります！
+
+RESOURCE ID: tutorial_maple_title
+TEXT: りんご狩り
+
 RESOURCE ID: tutorial_route_bonus_0
 TEXT: 相棒のアメをより早く入手
 
@@ -102590,6 +103211,18 @@ TEXT: みずタイプのポケモンが弱いのは、くさ、でんきタイ�
 
 RESOURCE ID: type_tutorial_water__male_speaker
 TEXT: みずタイプのポケモンは、くさ、でんきタイプの攻撃に弱いっ。
+
+RESOURCE ID: tyrogue_hatch_event_name
+TEXT: バルキーふかの日
+
+RESOURCE ID: tyrogue_hatch_free_tr_name
+TEXT: バルキーふかの日タイムチャレンジ
+
+RESOURCE ID: tyrogue_hatch_lead_event_name
+TEXT: バルキーふかの日直前
+
+RESOURCE ID: tyrogue_hatch_tr_name
+TEXT: バルキーふかの日プレミアムタイムチャレンジ
 
 RESOURCE ID: ub_arrival_la_title
 TEXT: ウルトラビースト登場：ロサンゼルス
