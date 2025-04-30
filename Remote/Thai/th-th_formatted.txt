@@ -35,10 +35,13 @@ RESOURCE ID: batch_transfer_last_more_pokemon_singular
 TEXT: {0}และ{1}ที่มีเพียงตัวเดียว (อื่น ๆ อีก 1 ตัว)
 
 RESOURCE ID: behemoth_bash_adventure_effect_battle_log
-TEXT: YOUR DEFENSE IS BOOSTED BY BEHEMOTH BASH’S ADVENTURE EFFECT!
+TEXT: พลังปองกันของคุณไดรับการบูสตจากเอฟเฟกตผจญภัย "โลทะลวงยักษ"
 
 RESOURCE ID: behemoth_blade_adventure_effect_battle_log
-TEXT: YOUR ATTACKS ARE BOOSTED BY BEHEMOTH BLADE’S ADVENTURE EFFECT!
+TEXT: พลังโจมตีของคุณไดรับการบูสตจากเอฟเฟกตผจญภัย "ดาบพิฆาตยักษ"
+
+RESOURCE ID: bonus_cd_move_pawmi
+TEXT: วิวัฒนาการพาม็อตเปนเพอรม็อตที่รูทาโจมตีชารจ "ผาอิฐ"
 
 RESOURCE ID: bonus_cd_move_swinub_cdc
 TEXT: วิวัฒนาการอิโนมูเพื่อรับแมมมูที่รูทาโจมตีชารจ "พลังดึกดำบรรพ"
@@ -108,7 +111,7 @@ RESOURCE ID: bread_remote_use_rrp_confirmation
 TEXT: วันนี้คุณสามารถเขารวมแบตเทิลแมกซไดอีก {0} ครั้ง อนุภาคแมกซจะถูกใชงานเมื่อคุณชนะ สวนบัตรตีบอสระยะไกลจะถูกใชงานเมื่อแบตเทิลเริ่มขึ้น
 
 RESOURCE ID: bread_station_failure_description_cannot_station
-TEXT: {0} cannot be placed at Power Spots.
+TEXT: ไมสามารถวาง{0} ไวที่พาวเวอรสปอตได
 
 RESOURCE ID: bread_station_tutorial_message_6
 TEXT: คุณสามารถเขารวมแบตเทิลแมกซระยะไกลไดโดยการใชบัตรตีบอสระยะไกลและอนุภาคแมกซ
@@ -158,6 +161,9 @@ TEXT: หยุดชั่วคราวแลว
 RESOURCE ID: collection_reactivated
 TEXT: เลนแสตมปแรลลีตอแลว
 
+RESOURCE ID: community_day_pawmi_event_name
+TEXT: คอมมิวนิตี้เดย: พาโม
+
 RESOURCE ID: community_day_vanillite_event_name
 TEXT: คอมมิวนิตี้เดย: วานิเพ็ตติ
 
@@ -202,6 +208,9 @@ TEXT: งานวิจัยแบบจำกัดเวลา Pikachu’s I
 
 RESOURCE ID: em_batik_pikachu_2025_tr_title
 TEXT: งานวิจัยแบบจำกัดเวลา Pikachu’s Indonesia Journey 2025
+
+RESOURCE ID: event_datetime_range_key_cd_pawmi25
+TEXT: วันที่ 11 พฤษภาคม 2025 เวลา 14:00-17:00 น.
 
 RESOURCE ID: event_datetime_range_key_cd_vanillite25
 TEXT: วันที่ 27 เมษายน 2025 เวลา 14:00-17:00 น.
@@ -272,7 +281,10 @@ RESOURCE ID: form_change_move_reroll_title
 TEXT: To change to its {2} form, {0} must learn {1}
 
 RESOURCE ID: form_change_raid_toast
-TEXT: {0} reverted to its {1} form.
+TEXT: {0}เปลี่ยนกลับเปน "ราง{1}"
+
+RESOURCE ID: form_change_warn_needed_move
+TEXT: {0} is required to change form
 
 RESOURCE ID: form_normal
 TEXT:  
@@ -307,6 +319,9 @@ TEXT: ตั๋วงานวิจัยแบบจำกัดเวลา�
 RESOURCE ID: general1.ticket._tyrogue0425_title
 TEXT: ตั๋วงานวิจัยแบบจำกัดเวลาพรีเมียม: วันฟกไขบัลกี
 
+RESOURCE ID: general1.ticket_cd_pawmi25_title
+TEXT: ตั๋วพาโมคอมมิวนิตี้เดย
+
 RESOURCE ID: general1.ticket_cd_vanillite25_title
 TEXT: ตั๋ววานิเพ็ตติคอมมิวนิตี้เดย
 
@@ -327,6 +342,237 @@ TEXT: งานวิจัยแบบจำกัดเวลาเตรี�
 
 RESOURCE ID: gmax_snorlax_max_battles
 TEXT: คาบิกอนกิกะแมกซปรากฏตัวในแบตเทิลแมกซ
+
+RESOURCE ID: go_fest_2025_irl_ancient_temple_00_00
+TEXT: A delight to see you at this historical site, %PLAYERNAME%! This Ancient Temple holds both mysteries and Pokémon in abundance.
+
+RESOURCE ID: go_fest_2025_irl_ancient_temple_00_01
+TEXT: Many Trainers report feeling as though they're being watched, as if invisible guardians are keeping this sacred place safe. And they might be right!
+
+RESOURCE ID: go_fest_2025_irl_ancient_temple_00_02
+TEXT: Last time I visited, I WAS being watched - by a curious Sableye!
+
+RESOURCE ID: go_fest_2025_irl_ancient_temple_00_03
+TEXT: Keep your eyes peeled. This Ancient Temple has attracted Pokémon for a long time - what will you discover?
+
+RESOURCE ID: go_fest_2025_irl_calming_teahouse_00_00
+TEXT: Welcome to the Calming Teahouse, %PLAYERNAME%, where you can steep your worries away!
+
+RESOURCE ID: go_fest_2025_irl_calming_teahouse_00_01
+TEXT: The atmosphere seems to be filled with soothing aromas and floral notes. Ah.. Time feels as if it slows in this environment.
+
+RESOURCE ID: go_fest_2025_irl_calming_teahouse_00_02
+TEXT: Spend enough time here and you'll likely be napping like a Snorlax. One might even say you'll become...Snor-laxed! Haha!
+
+RESOURCE ID: go_fest_2025_irl_calming_teahouse_00_03
+TEXT: Ahem, well - pour yourself a cup of adventure and explore!
+
+RESOURCE ID: go_fest_2025_irl_carnival_grounds_00_00
+TEXT: Step right up, %PLAYERNAME%! Wonder and excitement are the main attractions! Welcome to the Carnival Grounds!
+
+RESOURCE ID: go_fest_2025_irl_carnival_grounds_00_01
+TEXT: The atmosphere here reminds me of cotton candy - sweet, colorful, and guaranteed to make you smile.
+
+RESOURCE ID: go_fest_2025_irl_carnival_grounds_00_02
+TEXT: Just make sure your ice cream cone isn't a smiling Vanillite!
+
+RESOURCE ID: go_fest_2025_irl_carnival_grounds_00_03
+TEXT: The big top awaits, %PLAYERNAME%!
+
+RESOURCE ID: go_fest_2025_irl_mechanical_marvels_00_00
+TEXT: %PLAYERNAME%! At Mechanical Marvels, even the air seems engineered for extraordinary Pokémon encounters.
+
+RESOURCE ID: go_fest_2025_irl_mechanical_marvels_00_01
+TEXT: There's a rhythmic pulsing through the air, not quite natural but somehow deeply organic. It feels as if we're standing at the crossroads of ancient wisdom and future potential.
+
+RESOURCE ID: go_fest_2025_irl_mechanical_marvels_00_02
+TEXT: Just like the different parts of a well-oiled machine, each Pokemon is a part of what makes this habitat unique. Speaking of, be mindful of Klink crossing by!
+
+RESOURCE ID: go_fest_2025_irl_mechanical_marvels_00_03
+TEXT: Time to set your gears in motion and discover what mechanical marvels await!
+
+RESOURCE ID: go_fest_2025_irl_noble_fields_00_00
+TEXT: Valiant Trainer! These Noble Fields call forth the hero that dwells within us all!
+
+RESOURCE ID: go_fest_2025_irl_noble_fields_00_01
+TEXT: There's a certain grandeur here that awakens the noblest parts of one's spirit.
+
+RESOURCE ID: go_fest_2025_irl_noble_fields_00_02
+TEXT: The Pokémon here are remarkable - like the brave Galarian Farfetch'd who wields a thick, tough leek in battle.
+
+RESOURCE ID: go_fest_2025_irl_noble_fields_00_03
+TEXT: Venture forth with courage, %PLAYERNAME% - the honorable Pokémon of Noble Fields await your challenge!
+
+RESOURCE ID: go_fest_2025_irl_sr_city_00_00
+TEXT: %PLAYERNAME%, it's great to see you! I've got the fighting spirit seeing so many talented Trainers and Pokémon in one place.
+
+RESOURCE ID: go_fest_2025_irl_sr_city_00_01
+TEXT: I'm also hearing interesting stories, too! Check this out.
+
+RESOURCE ID: go_fest_2025_irl_sr_city_00_02
+TEXT: I've gathered reports from multiple witnesses of Pokémon that sound a lot like Zacian and Zamazenta.
+
+RESOURCE ID: go_fest_2025_irl_sr_city_00_03
+TEXT: These mighty Warrior Pokémon achieved legendary feats in their time. I'm excited to dig into this development further.
+
+RESOURCE ID: go_fest_2025_irl_sr_city_00_04_branch
+TEXT: Which one should we look into?
+
+RESOURCE ID: go_fest_2025_irl_sr_city_01_00_sword
+TEXT: Alright, now is the time to strike! Let me recall my notes on Zacian..
+
+RESOURCE ID: go_fest_2025_irl_sr_city_01_01_sword
+TEXT: Known as a legendary hero, this Pokémon absorbs metal particles, transforming them into a weapon it uses to battle.
+
+RESOURCE ID: go_fest_2025_irl_sr_city_01_02_sword
+TEXT: Very impressive. I wonder if Zacian could teach my Meltan how to do that? It does absorb metal as well...
+
+RESOURCE ID: go_fest_2025_irl_sr_city_01_03_sword
+TEXT: Ah! I'm jumping ahead of myself. Let's work on finding Zacian first. If we split up our search, we can cut our time in half. Meet back here in a bit!
+
+RESOURCE ID: go_fest_2025_irl_sr_city_02_00_sword
+TEXT: There you are, %PLAYERNAME%! No Zacian sightings for me, though I did find some new information on it.
+
+RESOURCE ID: go_fest_2025_irl_sr_city_02_01_sword
+TEXT: This Pokémon has slumbered for many years. Some say it's Zamazenta's elder sister—others say the two Pokémon are rivals. What do you think, Trainer?
+
+RESOURCE ID: go_fest_2025_irl_sr_city_02_02_sword
+TEXT: Haha, you're right! Who's to say they can't be both? I like your sharp thinking.
+
+RESOURCE ID: go_fest_2025_irl_sr_city_02_03_sword
+TEXT: Let's keep looking. Chaaaaarge!
+
+RESOURCE ID: go_fest_2025_irl_sr_city_03_00_sword
+TEXT: Magnificent, you've found Zacian! Goodness, it truly "steels" the show.
+
+RESOURCE ID: go_fest_2025_irl_sr_city_03_01_sword
+TEXT: Can you believe it has another impressive form as well? When armed with a weapon it used in ancient times, Zacian transforms into its Crowned Sword Form.
+
+RESOURCE ID: go_fest_2025_irl_sr_city_03_02_sword
+TEXT: It needs only a single strike to fell even Gigantamax Pokémon.
+
+RESOURCE ID: go_fest_2025_irl_sr_city_03_03_sword
+TEXT: I'm sure such incredible power will give you quite the edge in a Max Battle soon!
+
+RESOURCE ID: go_fest_2025_irl_sr_city_04_00_sword
+TEXT: %PLAYERNAME%! I've been thinking about Zacian and its Crowned Sword Form.
+
+RESOURCE ID: go_fest_2025_irl_sr_city_04_01_sword
+TEXT: Able to cut down anything with a single strike, it became known as the Fairy King's Sword. It inspired awe in friend and foe alike.
+
+RESOURCE ID: go_fest_2025_irl_sr_city_04_02_sword
+TEXT: I'd be keen to observe it in a Max Battle, if you're up for it.
+
+RESOURCE ID: go_fest_2025_irl_sr_city_04_03_sword
+TEXT: That's the spirit! Ready when you are!
+
+RESOURCE ID: go_fest_2025_irl_sr_city_05_00_sword
+TEXT: Just phenomenal! What an honor to observe such a riveting Max Battle with your Crowned Sword Zacian.
+
+RESOURCE ID: go_fest_2025_irl_sr_city_05_01_sword
+TEXT: Your Zacian empowered me as well! RARGH!! ... Maybe I'll just leave the battle cries to the Pokemon.
+
+RESOURCE ID: go_fest_2025_irl_sr_city_05_02_sword
+TEXT: Whatever challenges may come your way in the future, I know you and Zacian can take on anything together.
+
+RESOURCE ID: go_fest_2025_irl_sr_city_05_03_sword
+TEXT: Until next time, let's GO!
+
+RESOURCE ID: go_fest_2025_irl_sr_park_00_00
+TEXT: Hello there, %PLAYERNAME%! What an exciting day we have ahead of us!
+
+RESOURCE ID: go_fest_2025_irl_sr_park_00_01
+TEXT: There's something heartwarming about watching Trainers connect, catching new Pokémon and making new friends.
+
+RESOURCE ID: go_fest_2025_irl_sr_park_00_02
+TEXT: I've noticed something curious though - a strange fog is rolling in. While I'm not exactly sure what this phenomenon means yet, it certainly warrants investigation.
+
+RESOURCE ID: go_fest_2025_irl_sr_park_00_03
+TEXT: Have fun exploring and we'll reconvene later to discuss my findings.
+
+RESOURCE ID: go_fest_2025_irl_sr_park_01_00
+TEXT: Welcome back, %PLAYERNAME%! I've been monitoring that mysterious fog, and while there are no new updates, I have discovered something else equally fascinating during my research!
+
+RESOURCE ID: go_fest_2025_irl_sr_park_01_01
+TEXT: The Pokémon seem to be gathering around four distinct habitats, each with its own unique characteristics.
+
+RESOURCE ID: go_fest_2025_irl_sr_park_01_02
+TEXT: I've observed Wooloo doting Noble Fields, red and blue Basculin near Sunken Treasure, and even a Heracross at the nearby Carnival Grounds.
+
+RESOURCE ID: go_fest_2025_irl_sr_park_01_03
+TEXT: There's also a fourth habitat that I haven't had the chance to explore yet!
+
+RESOURCE ID: go_fest_2025_irl_sr_park_01_04
+TEXT: Which habitat will your research take you to first? The choice is yours, %PLAYERNAME%!
+
+RESOURCE ID: go_fest_2025_irl_sr_park_02_00
+TEXT: Impressive work on that first habitat! Point us toward our next discovery, %PLAYERNAME%!
+
+RESOURCE ID: go_fest_2025_irl_sr_park_02_01
+TEXT: Another habitat successfully investigated! Where to next, %PLAYERNAME%?
+
+RESOURCE ID: go_fest_2025_irl_sr_park_02_02
+TEXT: Remarkable work, %PLAYERNAME%! Only one more habitat remains unexplored.
+
+RESOURCE ID: go_fest_2025_irl_sr_park_03_00
+TEXT: Well done, %PLAYERNAME%! After analyzing the mysterious fog, I've found evidence suggesting the presence of the mythical steam Pokemon, Volcanion.
+
+RESOURCE ID: go_fest_2025_irl_sr_park_03_01
+TEXT: I was digging into my notes right before you arrived. Did you know that Volcanion harnesses water to create steam?
+
+RESOURCE ID: go_fest_2025_irl_sr_park_03_02
+TEXT: To learn more about this elusive Pokémon, I need you to study other Water-type Pokémon.
+
+RESOURCE ID: go_fest_2025_irl_sr_park_03_03
+TEXT: Pay particular attention if they can also regulate their internal water reservoirs and control temperature. Each observation brings us one step closer to Volcanion!
+
+RESOURCE ID: go_fest_2025_irl_sr_park_04_00
+TEXT: Incredible progress with your Water-type research! Now, to continue our understanding of Volcanion, we need to focus on Fire-type Pokémon.
+
+RESOURCE ID: go_fest_2025_irl_sr_park_04_01
+TEXT: Since Volcanion is currently the only known Pokémon that is both Fire and Water type, understanding how it manages these opposing elements is crucial to our research.
+
+RESOURCE ID: go_fest_2025_irl_sr_park_04_02
+TEXT: I'd like you to observe Fire-type Pokémon in their natural habitats - pay close attention to what mechanisms they use to prevent overheating.
+
+RESOURCE ID: go_fest_2025_irl_sr_park_04_03
+TEXT: These observations will help us understand Volcanion's remarkable dual typing! Your fieldwork continues to be essential to our research, %PLAYERNAME%!
+
+RESOURCE ID: go_fest_2025_irl_sr_park_05_00
+TEXT: Amazing discoveries, %PLAYERNAME%! Thanks to your research on both Water and Fire-type Pokémon, we now have a much clearer understanding of how Volcanion might behave in the wild.
+
+RESOURCE ID: go_fest_2025_irl_sr_park_05_01
+TEXT: Our next challenge is perhaps the most important yet - we need to show Volcanion that you're a trustworthy trainer! Let's focus on demonstrating your exceptional care for Pokémon.
+
+RESOURCE ID: go_fest_2025_irl_sr_park_05_02
+TEXT: When Volcanion witnesses the kindness and respect you show to your Pokémon companions, it will surely recognize the goodness in your heart.
+
+RESOURCE ID: go_fest_2025_irl_sr_park_05_03
+TEXT: Your gentle approach could make all the difference in our ability to encounter this elusive Pokémon!
+
+RESOURCE ID: go_fest_2025_irl_sr_park_06_00
+TEXT: Phenomenal job as always, %PLAYERNAME%! Your patience, dedication, and kind heart have accomplished what many thought impossible - you've successfully gained Volcanion's trust!
+
+RESOURCE ID: go_fest_2025_irl_sr_park_06_01
+TEXT: Now, I encourage you to spend quality time with this mythical Pokémon. Form that special bond that only comes from understanding and respecting each other.
+
+RESOURCE ID: go_fest_2025_irl_sr_park_06_02
+TEXT: This journey has expanded our understanding of Pokémon. It is true that the connection between Trainers and Pokémon is our ultimate research tool!
+
+RESOURCE ID: go_fest_2025_irl_sr_park_06_03
+TEXT: Your experience with Volcanion will inspire Trainers everywhere. I couldn't be prouder of your accomplishment, %PLAYERNAME%!
+
+RESOURCE ID: go_fest_2025_irl_sunkern_treasure_00_00
+TEXT: Ahoy %PLAYERNAME%! Prepare yourself to dive into the depths of the Sunken Treasure habitat. I'm sure you already feel the thrill of adventure washing over you.
+
+RESOURCE ID: go_fest_2025_irl_sunkern_treasure_00_01
+TEXT: The true treasures in these waters aren't gold doubloons or precious gems, but the remarkable Pokémon that call this habitat home.
+
+RESOURCE ID: go_fest_2025_irl_sunkern_treasure_00_02
+TEXT: Those twinkling lights in the distance may be passing glow of an Inkay, or the shining tail fins of a Finneon gliding by.
+
+RESOURCE ID: go_fest_2025_irl_sunkern_treasure_00_03
+TEXT: Set forth to explore this habitat with the heart of an adventurer! May fortune find you, %PLAYERNAME%!
 
 RESOURCE ID: go_tour_global_sr_dialog_01_post_branch_03
 TEXT: ลูกแกวนั้นมีความเกี่ยวของบางอยางกับการ
@@ -467,10 +713,23 @@ TEXT: ตั๋วสำหรับรับโบนัสพิเศษ
 คุณจะสามารถเขารวมไดโดยอัตโนมัติ
 ตามเวลาทองถิ่นทั่วโลก
 
+RESOURCE ID: item_event_ticket_pink_desc_cd_pawmi25
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษ
+พาโมคอมมิวนิตี้เดย
+ในวันที่ 11 พฤษภาคม 2025 14:00 น.
+ตามเวลาทองถิ่นทั่วโลก
+
 RESOURCE ID: item_event_ticket_pink_desc_cd_vanillite25
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษ
 วานิเพ็ตติคอมมิวนิตี้เดย
 ในวันที่ 27 เมษายน 2025 14:00 น.
+ตามเวลาทองถิ่นทั่วโลก
+
+RESOURCE ID: item_event_ticket_pink_details_cd_pawmi25
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษ
+คอมมิวนิตี้เดย "พาโมกับคุณ"
+ในวันที่ 11 พฤษภาคม
+คุณจะสามารถเขารวมไดโดยอัตโนมัติ
 ตามเวลาทองถิ่นทั่วโลก
 
 RESOURCE ID: item_event_ticket_pink_details_cd_vanillite25
@@ -712,10 +971,10 @@ RESOURCE ID: mega_kangaskhan_tr_may_2025_title
 TEXT: งานวิจัยแบบจำกัดเวลาวันตีบอสเมกาการูรา
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-04-25T21:40:35.997566+00:00 for th-TH
-at SHA f3114ba1c7c
-Pipeline 3178489, job 40197119
-Patch from: 0.359.0-SHA-0d956980-RC5, 0.357.1-SHA-8a2f6ed9-RC1
+TEXT: Built at 2025-04-29T23:48:00.860985+00:00 for th-TH
+at SHA abf20c920c5
+Pipeline 3182527, job 40313437
+Patch from: 0.357.2-SHA-a402bc82-RC1, 0.359.0-SHA-90f8e6a0-RC1, 0.361.0-SHA-7fdd9c59-RC1
 
 RESOURCE ID: mlb_key
 TEXT: MLB
@@ -730,22 +989,22 @@ RESOURCE ID: move_name_0471
 TEXT: สวนสลาตัน
 
 RESOURCE ID: move_name_0473
-TEXT: Guard
+TEXT: วอลล
 
 RESOURCE ID: move_name_0474
-TEXT: Spirit
+TEXT: รีคัฟเวอรี
 
 RESOURCE ID: move_name_0475
-TEXT: Guard
+TEXT: วอลล
 
 RESOURCE ID: move_name_0476
-TEXT: Spirit
+TEXT: รีคัฟเวอรี
 
 RESOURCE ID: move_name_0477
-TEXT: Guard
+TEXT: วอลล
 
 RESOURCE ID: move_name_0478
-TEXT: Spirit
+TEXT: รีคัฟเวอรี
 
 RESOURCE ID: move_name_0479
 TEXT: ดาบพิฆาตยักษ
@@ -799,6 +1058,9 @@ TEXT: คุณแนใจหรือไมวาตองกา�
 RESOURCE ID: pause_stamp_rally_button
 TEXT: หยุดชั่วคราว
 
+RESOURCE ID: photobomb_five_pawmi
+TEXT: พาโมแยงซีนถายรูปในโกสแนปช็อต 5 ครั้ง
+
 RESOURCE ID: photobomb_five_vanillite
 TEXT: วานิเพ็ตติแยงซีนถายรูปในโกสแนปช็อต 5 ครั้ง
 
@@ -806,25 +1068,31 @@ RESOURCE ID: pokemon_caught_stamp_rally
 TEXT: จับระหวางเลนแสตมปแรลลี
 
 RESOURCE ID: pokemon_info_evolve_need_bread_move
-TEXT: Needs level {1} {0}.
+TEXT: ตองมี "{0}" เลเวล {1}
 
 RESOURCE ID: pokemon_info_evolve_need_cinematic_move
-TEXT: Must know the Charged Attack {0} to change form
+TEXT: ตองเรียนทาโจมตีชารจ "{0}" เพื่อเปลี่ยนราง
 
 RESOURCE ID: pokemon_info_evolve_need_quick_move
-TEXT: Must know the Fast Attack {0} to change form
+TEXT: ตองเรียนทาโจมตีเร็ว "{0}" เพื่อเปลี่ยนราง
 
 RESOURCE ID: pokemon_info_form_change_confirmation
-TEXT: Do you want to change {0} from its {1} form to its {2} form?
+TEXT: คุณแนใจหรือไมวาตองการเปลี่ยน{0}จาก "ราง{1}" เปน "ราง{2}"?
+
+RESOURCE ID: pokemon_info_form_change_warning
+TEXT: Are you sure you want to change {0} from its {1} form to its {2} form?
 
 RESOURCE ID: pokemon_info_pokecoin_label
 TEXT: โปเกคอยน
 
+RESOURCE ID: pokemon_info_powerspot_warning
+TEXT: {0} will no longer be able to battle at Power Spots.
+
 RESOURCE ID: pokemon_species_form_0888_2576
-TEXT: Crowned Sword Zacian
+TEXT: ซาเชียน (ราชาแหงดาบ)
 
 RESOURCE ID: pokemon_species_form_0889_2578
-TEXT: Crowned Shield Zamazenta
+TEXT: ซามาเซนตา (ราชาแหงโล)
 
 RESOURCE ID: primal_evolution_pokedex_header
 TEXT: รางคืนสูตนกำเนิด
@@ -841,6 +1109,9 @@ TEXT: เอาชนะบอสโปเกมอนประเภทคว�
 RESOURCE ID: quest_hatch_egg
 TEXT: ภารกิจ: ฟกไข
 
+RESOURCE ID: quest_pawmi_catch_b
+TEXT: จับพาโม {0} ตัว
+
 RESOURCE ID: quest_power_up_machop_plural
 TEXT: พาวเวอรอัปวันริกี {0} ครั้ง
 
@@ -852,6 +1123,18 @@ TEXT: ใหโปเกมอนเปลี่ยนเปนรา�
 
 RESOURCE ID: quest_send_gifts_days
 TEXT: สงของขวัญใหเพื่อนรวม {0} วัน
+
+RESOURCE ID: quest_title_pawmi
+TEXT: พาโมกับคุณ
+
+RESOURCE ID: quest_title_pawmi_0
+TEXT: พาโมกับคุณ (1/3)
+
+RESOURCE ID: quest_title_pawmi_1
+TEXT: พาโมกับคุณ (2/3)
+
+RESOURCE ID: quest_title_pawmi_2
+TEXT: พาโมกับคุณ (3/3)
 
 RESOURCE ID: quest_title_vanillite
 TEXT: คอมมิวนิตี้ซันเดย: วานิเพ็ตติ
@@ -882,9 +1165,6 @@ TEXT: ชนะตีบอสชาโดว
 
 RESOURCE ID: quick_invitation_modal_message_string_key
 TEXT: Friends currently selected will not be included.
-
-RESOURCE ID: quick_invitation_modal_title_string_key
-TEXT: Are you sure you want to invite recommended friends?
 
 RESOURCE ID: quick_invitation_widget_title_string_key
 TEXT: RECOMMENDED FRIENDS TO INVITE
@@ -938,7 +1218,10 @@ RESOURCE ID: regional_catch_challenge_reward_event_name
 TEXT: รางวัลคำทาการจับภูมิภาค
 
 RESOURCE ID: remote_bread_battle_invite_sent_confirmation
-TEXT: Invites sent!
+TEXT: สงคำเชิญแลว!
+
+RESOURCE ID: remote_bread_battle_invite_sent_confirmation_singular
+TEXT: Invite sent!
 
 RESOURCE ID: remote_max_battle_invite_push_notif
 TEXT: มีเพื่อนเชิญคุณเขารวมแบตเทิลแมกซ!
@@ -1016,6 +1299,9 @@ TEXT: เลือกเวลาอื่น
 
 RESOURCE ID: social_planner_view_in_map
 TEXT: ดูแผนที่
+
+RESOURCE ID: spawn_pawmi
+TEXT: พาโมปรากฏตัวออกมามากขึ้น!
 
 RESOURCE ID: spawn_vanillite
 TEXT: วานิเพ็ตติปรากฏตัวออกมามากขึ้น!
@@ -1242,6 +1528,13 @@ TEXT: คำทาภูมิภาค
 RESOURCE ID: team_picker_no_mega_in_max_warning
 TEXT: ทีมปจจุบันของคุณไมสามารถเขารวมแบตเทิลได เนื่องจากมีโปเกมอนที่วิวัฒนาการเมกา
 
+RESOURCE ID: text_rewards_key_cd_pawmi25
+TEXT: <b>รางวัลที่จะไดรับ:</b>
+- ไอเท็มภายในเกม เชน บัตรแบตเทิลพรีเมียม
+TM ทาชารจ และลูกอมประหลาด
+- การเผชิญหนากับพาโมที่มีพื้นหลังพิเศษ
+และอื่น ๆ
+
 RESOURCE ID: text_rewards_key_cd_vanillite25
 TEXT: <b>รางวัลที่จะไดรับ:</b>
 - ไอเท็มภายในเกม เชน บัตรแบตเทิลพรีเมียม
@@ -1307,6 +1600,9 @@ TEXT: <b>รางวัลที่จะไดรับ:</b>
 - สะเก็ดดาว 1 ชิ้น
 - 2500 XP
 
+RESOURCE ID: ticket_pawmi_cd
+TEXT: สามารถซื้อตั๋วสำหรับงานวิจัยพิเศษ "พาโมคอมมิวนิตี้เดย" ไดที่รานคา
+
 RESOURCE ID: ticket_vanillite_cd
 TEXT: สามารถซื้อตั๋วสำหรับงานวิจัยพิเศษ "วานิเพ็ตติคอมมิวนิตี้เดย" ไดที่รานคา
 
@@ -1350,7 +1646,7 @@ RESOURCE ID: title_event_pass_weekly_bonus_quest
 TEXT: ภารกิจรายสัปดาห
 
 RESOURCE ID: tm_cannot_unlearn
-TEXT: {0} cannot forget {1}.
+TEXT: {0}ไมสามารถลืมทา "{1}"
 
 RESOURCE ID: total_stamps_collected
 TEXT: แสตมปรวม {0} ดวง
@@ -1378,6 +1674,27 @@ TEXT: งานวิจัยแบบจำกัดเวลาคำท�
 
 RESOURCE ID: tr_kr2025_retention_cherryblossom_title_04
 TEXT: งานวิจัยแบบจำกัดเวลาคำทาดอกซากุระ (5/5)
+
+RESOURCE ID: tr_kr2025_retention_warm_hearted_desc
+TEXT: งานวิจัยแบบจำกัดเวลาคำทาจิตใจเป่ยมไออุน
+
+RESOURCE ID: tr_kr2025_retention_warm_hearted_title
+TEXT: คำทาจิตใจเป่ยมไออุน
+
+RESOURCE ID: tr_kr2025_retention_warm_hearted_title_00
+TEXT: งานวิจัยแบบจำกัดเวลาคำทาจิตใจเป่ยมไออุน (1/5)
+
+RESOURCE ID: tr_kr2025_retention_warm_hearted_title_01
+TEXT: งานวิจัยแบบจำกัดเวลาคำทาจิตใจเป่ยมไออุน (2/5)
+
+RESOURCE ID: tr_kr2025_retention_warm_hearted_title_02
+TEXT: งานวิจัยแบบจำกัดเวลาคำทาจิตใจเป่ยมไออุน (3/5)
+
+RESOURCE ID: tr_kr2025_retention_warm_hearted_title_03
+TEXT: งานวิจัยแบบจำกัดเวลาคำทาจิตใจเป่ยมไออุน (4/5)
+
+RESOURCE ID: tr_kr2025_retention_warm_hearted_title_04
+TEXT: งานวิจัยแบบจำกัดเวลาคำทาจิตใจเป่ยมไออุน (5/5)
 
 RESOURCE ID: tr_sis_apr2025
 TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียม: วสันตผลิบาน
@@ -1410,16 +1727,16 @@ RESOURCE ID: tyrogue_hatch_tr_name
 TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียม: วันฟกไขบัลกี
 
 RESOURCE ID: upgrade_description_zacian
-TEXT: This Pokémon can use Crowned Sword Energy to change forms if it knows the Charged Attack Iron Head. You can get this energy by defeating Crowned Sword Zacian in raids.
+TEXT: หากโปเกมอนตัวนี้รูทาโจมตีชารจ "ไอออนเฮด" จะสามารถใชพลังงานราชาแหงดาบเพื่อเปลี่ยนรางได คุณสามารถรับพลังงานนี้ไดดวยการเอาชนะซาเชียน (ราชาแหงดาบ) ในตีบอส
 
 RESOURCE ID: upgrade_description_zamazenta
-TEXT: This Pokémon can use Crowned Shield Energy to change forms if it knows the Charged Attack Iron Head. You can get this energy by defeating Crowned Shield Zamazenta in raids.
+TEXT: หากโปเกมอนตัวนี้รูทาโจมตีชารจ "ไอออนเฮด" จะสามารถใชพลังงานราชาแหงโลเพื่อเปลี่ยนรางได คุณสามารถรับพลังงานนี้ไดดวยการเอาชนะซามาเซนตา (ราชาแหงโล) ในตีบอส
 
 RESOURCE ID: use_behemoth_bash_effect
-TEXT: Pokémon defense increased in raids and Max Battles.
+TEXT: พลังปองกันของโปเกมอนเพิ่มขึ้นในตีบอสและแบตเทิลแมกซ
 
 RESOURCE ID: use_behemoth_blade_effect
-TEXT: Pokémon attack increased in raids and Max Battles.
+TEXT: พลังโจมตีของโปเกมอนเพิ่มขึ้นในตีบอสและแบตเทิลแมกซ
 
 RESOURCE ID: use_item_again_prompt_desc
 TEXT: Would you like to use another {0}?
@@ -1428,8 +1745,8 @@ RESOURCE ID: use_item_prompt_desc
 TEXT: Would you like to use a {0}?
 
 RESOURCE ID: zacian_move_content
-TEXT: Zacian wields a large, powerful sword for {0} minutes. Strengthens your Pokémon’s attacks in raids and Max Battles.
+TEXT: ซาเชียนกวัดแกวงดาบขนาดใหญทรงพลังเปนเวลา {0} นาที ทำใหพลังโจมตีของโปเกมอนในตีบอสและแบตเทิลแมกซเพิ่มขึ้น
 
 RESOURCE ID: zamazenta_move_content
-TEXT: Zamazenta wields a large, powerful shield for {0} minutes. Strengthens your Pokémon’s defense in raids and Max Battles.
+TEXT: ซามาเซนตากวัดแกวงโลขนาดใหญทรงพลังเปนเวลา {0} นาที ทำใหพลังปองกันของโปเกมอนในตีบอสและแบตเทิลแมกซเพิ่มขึ้น
 
