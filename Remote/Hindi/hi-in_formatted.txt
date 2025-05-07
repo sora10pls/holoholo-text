@@ -10,20 +10,53 @@ TEXT: ATTACK
 RESOURCE ID: attack_training_string_key
 TEXT: ATTACK TRAINING {0}
 
+RESOURCE ID: avatar_backpack_goruckgengar
+TEXT: GORUCK गेंगार बैग
+
+RESOURCE ID: avatar_backpack_goruckpikachu
+TEXT: GORUCK िपकाचू बैग
+
+RESOURCE ID: avatar_backpack_goruckwobbuffet
+TEXT: GORUCK सचमुची बैग
+
 RESOURCE ID: avatar_hat_applinheadband
 TEXT: ूकरा हेयरबैंड
 
 RESOURCE ID: avatar_hat_captainpikachu
 TEXT: कटन िपकाचू टोपी
 
+RESOURCE ID: avatar_mask_zacian
+TEXT: ज़ाशयन माक
+
+RESOURCE ID: avatar_mask_zamazenta
+TEXT: ज़ामाज़ैंटा माक
+
+RESOURCE ID: avatar_outfits
+TEXT: व
+
+RESOURCE ID: avatar_pose_gofest2025
+TEXT: GO Fest 2025 पोज़
+
 RESOURCE ID: avatar_pose_paperplane
 TEXT: पेपर लन पोज़
+
+RESOURCE ID: avatar_pose_rapidstrike
+TEXT: मारशीफ़ू रैिपड टाइक पोज़
+
+RESOURCE ID: avatar_pose_singlestrike
+TEXT: मारशीफ़ू संगल टाइक पोज़
 
 RESOURCE ID: avatar_pose_tinkaton
 TEXT: टाइटनीटा पोज़
 
 RESOURCE ID: avatar_shirt_applinapron
 TEXT: ूकरा एपरन
+
+RESOURCE ID: avatar_shirt_gofest2025black
+TEXT: GO Fest 2025 ट-शट
+
+RESOURCE ID: avatar_shirt_volcanion
+TEXT: वोकनयन ट-शट
 
 RESOURCE ID: badge_event_0120
 TEXT: Completed the GORUCK Backpack Bonus Timed Research
@@ -674,10 +707,10 @@ RESOURCE ID: filter_key_hyper_training
 TEXT: hypertraining
 
 RESOURCE ID: form_change_move_required
-TEXT: Required to change form
+TEXT: फ़ॉम बदलने क लए आवय
 
 RESOURCE ID: form_change_move_reroll_title
-TEXT: To change to its {2} form, {0} must learn {1}
+TEXT: अपने {2} फ़ॉम में परवतत होने क लए, {0} को {1} सीखने क आवयकता है।
 
 RESOURCE ID: form_change_raid_toast
 TEXT: {0} अपने {1} फ़ॉम में लौट आया है
@@ -1406,22 +1439,22 @@ RESOURCE ID: item_other_evolution_stone_maple_c_name_plural
 TEXT: रसीसीला ऐपल
 
 RESOURCE ID: item_resource_crowned_zacian_desc
-TEXT: Used to change Zacian into its Crowned Sword form. It can be found when defeating Crowned Sword Zacian in raids.
+TEXT: यह ज़ाशयन को उसक शाही सॉड फ़ॉम में परवतत करने में काम आता है। इसे रड में शाही सॉड ज़ाशयन को हराकर ात कया जा सकता है।
 
 RESOURCE ID: item_resource_crowned_zacian_name
 TEXT: शाही सॉड एनिज
 
 RESOURCE ID: item_resource_crowned_zacian_name_plural
-TEXT: Crowned Sword Energy
+TEXT: शाही सॉड एनिज
 
 RESOURCE ID: item_resource_crowned_zamazenta_desc
-TEXT: Used to change Zamazenta into its Crowned Shield form. It can be found when defeating Crowned Shield Zamazenta in raids.
+TEXT: यह ज़ामाज़ैंटा को उसक शाही शीड फ़ॉम में परवतत करने में काम आता है। इसे रड में शाही शीड ज़ामाज़ैंटा को हराकर ात कया जा सकता है।
 
 RESOURCE ID: item_resource_crowned_zamazenta_name
 TEXT: शाही शीड एनिज
 
 RESOURCE ID: item_resource_crowned_zamazenta_name_plural
-TEXT: Crowned Shield Energy
+TEXT: शाही शीड एनिज
 
 RESOURCE ID: item_single_stat_increase_desc
 TEXT: Enables a year-long Hyper Training course where you can fully raise one of a Pokémon’s stats.
@@ -1475,10 +1508,10 @@ RESOURCE ID: mega_kangaskhan_tr_may_2025_title
 TEXT: मेगा गारामॉन रड दवस सीमत समय वाल रसच
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-05-07T00:35:22.671022+00:00 for hi-IN
-at SHA b4b96ffb951
-Pipeline 3190922, job 40564016
-Patch from: 0.359.0-SHA-0d956980-RC5, 0.361.0-SHA-01d43987-RC4
+TEXT: Built at 2025-05-07T21:12:31.874054+00:00 for hi-IN
+at SHA fbdd9d7ca5f
+Pipeline 3192191, job 40604780
+Patch from: 0.359.0-SHA-646af5e1-RC3, 0.361.0-SHA-01d43987-RC4
 
 RESOURCE ID: move_name_0469
 TEXT: बहीमथ लड
@@ -1813,10 +1846,10 @@ RESOURCE ID: quests_training_task_available
 TEXT: New Hyper Training Task!
 
 RESOURCE ID: quick_invitation_modal_message_string_key
-TEXT: To invite recommended friends, unselect all friends below.
+TEXT: सुझाए गए दोतों को आमंित करने क लए, नीचे क सभी दोतों को अन-चेक करं।
 
 RESOURCE ID: quick_invitation_widget_title_string_key
-TEXT: RECOMMENDED FRIENDS TO INVITE
+TEXT: आमंण क सुझाव
 
 RESOURCE ID: raid_day_mega_kangaskhan_event_name
 TEXT: रड दवस - मेगा गारामॉन
@@ -1843,7 +1876,7 @@ RESOURCE ID: remote_bread_battle_invite_sent_confirmation
 TEXT: आमंण भेज दए गए हैं!
 
 RESOURCE ID: remote_bread_battle_invite_sent_confirmation_singular
-TEXT: Invite sent!
+TEXT: आमंण भेज दया गया!
 
 RESOURCE ID: remote_max_battle_invite_push_notif
 TEXT: आपक दोत ने आपको एक मैस बैटल में शामल होने क लए आमंण भेजा है!
@@ -1922,7 +1955,7 @@ RESOURCE ID: settings_allow_raid_and_max_battle_friend_requests_tip
 TEXT: Only applies to in-person and nearby raids or Max Battles.
 
 RESOURCE ID: settings_popular_nearby_rsvp
-TEXT: Popular Nearby Raids with RSVPs
+TEXT: आस-पास क RSVP भागीदार वाल लोकय रड
 
 RESOURCE ID: settings_share_raid_and_max_battle_attendance
 TEXT: Share Raid and Max Battle Attendance with Friends
@@ -2216,7 +2249,7 @@ RESOURCE ID: suita_city_rally_location
 TEXT: सुइता, ओसाका, जापान
 
 RESOURCE ID: suita_city_rally_rewards_desc
-TEXT: इस रैल क अंत में, आपका एक पेशल िपकाचू से सामना होगा, जसक पास सुइता शहर का लोकशन बैकाउंड होगा।
+TEXT: इस रैल क अंत में, एक पेशल िपकाचू से आपक मुलाकात होगी, जसक पास सुइता शहर का लोकशन बैकाउंड होगा।
 
 RESOURCE ID: suita_city_rally_title
 TEXT: सुइता शहर टैप रैल
@@ -2371,10 +2404,10 @@ RESOURCE ID: use_behemoth_blade_effect
 TEXT: रड और मैस बैटल में पोकमॉन का अटैक बढ़ गया है।
 
 RESOURCE ID: use_item_again_prompt_desc
-TEXT: Would you like to use another {0}?
+TEXT: या आप एक और {0} का उपयोग करना चाहते हैं?
 
 RESOURCE ID: use_item_prompt_desc
-TEXT: Would you like to use a {0}?
+TEXT: या आप एक {0} का उपयोग करना चाहते हैं?
 
 RESOURCE ID: use_training_token_to_hyper_train
 TEXT: Use a Bottle Cap to train your Pokémon!

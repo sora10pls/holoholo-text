@@ -5,10 +5,19 @@ RESOURCE ID: ambassador_trainer_nameplate
 TEXT: Pendatang Liar
 
 RESOURCE ID: attack_string_key
-TEXT: ATTACK
+TEXT: SERANGAN
 
 RESOURCE ID: attack_training_string_key
 TEXT: ATTACK TRAINING {0}
+
+RESOURCE ID: avatar_backpack_goruckgengar
+TEXT: Ransel GORUCK Gengar
+
+RESOURCE ID: avatar_backpack_goruckpikachu
+TEXT: Ransel GORUCK Pikachu
+
+RESOURCE ID: avatar_backpack_goruckwobbuffet
+TEXT: Ransel GORUCK Wobbuffet
 
 RESOURCE ID: avatar_hat_applinheadband
 TEXT: Bando Applin
@@ -16,8 +25,23 @@ TEXT: Bando Applin
 RESOURCE ID: avatar_hat_captainpikachu
 TEXT: Topi Kapten Pikachu
 
+RESOURCE ID: avatar_mask_zacian
+TEXT: Topeng Zacian
+
+RESOURCE ID: avatar_mask_zamazenta
+TEXT: Topeng Zamazenta
+
+RESOURCE ID: avatar_pose_gofest2025
+TEXT: Pose GO Fest 2025
+
 RESOURCE ID: avatar_pose_paperplane
 TEXT: Pose Pesawat Kertas
+
+RESOURCE ID: avatar_pose_rapidstrike
+TEXT: Pose Urshifu (Aliran Serangan Beruntun)
+
+RESOURCE ID: avatar_pose_singlestrike
+TEXT: Pose Urshifu (Aliran Serangan Tunggal)
 
 RESOURCE ID: avatar_pose_tinkaton
 TEXT: Pose Tinkaton
@@ -28,8 +52,14 @@ TEXT: Set
 RESOURCE ID: avatar_shirt_applinapron
 TEXT: Apron Applin
 
+RESOURCE ID: avatar_shirt_gofest2025black
+TEXT: Kaus GO Fest 2025
+
+RESOURCE ID: avatar_shirt_volcanion
+TEXT: Kaus Volcanion
+
 RESOURCE ID: avatar_socks
-TEXT: Legwear
+TEXT: Busana Kaki
 
 RESOURCE ID: badge_event_0120
 TEXT: Completed the GORUCK Backpack Bonus Timed Research
@@ -597,7 +627,7 @@ RESOURCE ID: crown_clash_tgr_sr_5
 TEXT: Kinerja Kerajaan: Pengambilalihan (5/5)
 
 RESOURCE ID: defense_string_key
-TEXT: DEFENSE
+TEXT: PERTAHANAN
 
 RESOURCE ID: defense_training_string_key
 TEXT: DEFENSE TRAINING {0}
@@ -701,10 +731,10 @@ RESOURCE ID: form_change_collapsed_quest_description
 TEXT: Untuk mengganti wujud Pokémon ini, jadikan ia sebagai partnermu dan bertualanglah bersama
 
 RESOURCE ID: form_change_move_required
-TEXT: Dibutuhkan untuk mengganti wujud
+TEXT: Dibutuhkan untuk berubah wujud
 
 RESOURCE ID: form_change_move_reroll_title
-TEXT: Untuk berganti ke wujud {2}, {0} harus mempelajari {1}
+TEXT: Untuk mengubah ke bentuk {2}, {0} harus mempelajari {1}
 
 RESOURCE ID: form_change_raid_toast
 TEXT: {0} kembali ke wujud {1}
@@ -1223,13 +1253,13 @@ RESOURCE ID: hyper_train_pokemon_title
 TEXT: Train {0}
 
 RESOURCE ID: hyper_train_single_item_description
-TEXT: You can raise one stat with a
+TEXT: Kamu bisa meningkatkan satu statistik dengan
 
 RESOURCE ID: hyper_train_triple_item_description
-TEXT: You can raise all stats with a
+TEXT: Kamu bisa meningkatkan semua statistik dengan
 
 RESOURCE ID: hyper_training
-TEXT: HYPER TRAINING
+TEXT: Latihan Luar Biasa
 
 RESOURCE ID: hyper_training_blanche_training_complete_dialogue_1
 TEXT: The Hyper Training course is complete. Shall we review the data?
@@ -1298,7 +1328,7 @@ RESOURCE ID: hyper_training_prereq_quest_desc
 TEXT: Become Good Buddies with your trainee to begin training its stats.
 
 RESOURCE ID: hyper_training_prereq_quest_title
-TEXT: Become Buddies
+TEXT: Menjadi Partner
 
 RESOURCE ID: hyper_training_see_all_tasks
 TEXT: SEE ALL TASKS
@@ -1439,7 +1469,7 @@ RESOURCE ID: item_expiration_minute_left_plural
 TEXT: You have {0} minutes left to use this item.
 
 RESOURCE ID: item_expiration_minute_left_singular
-TEXT: You have 1 minute left to use this item.
+TEXT: Kamu punya 1 menit lagi untuk menggunakan item ini.
 
 RESOURCE ID: item_other_evolution_stone_maple_a_name_plural
 TEXT: Apel Manis
@@ -1451,7 +1481,7 @@ RESOURCE ID: item_other_evolution_stone_maple_c_name_plural
 TEXT: Apel Nektar
 
 RESOURCE ID: item_resource_crowned_zacian_desc
-TEXT: Digunakan untuk mengganti Zacian ke wujud Raja Pedang. Bisa ditemukan ketika mengalahkan Zacian (Raja Pedang) di Raid.
+TEXT: Digunakan untuk mengubah Zacian ke bentuk Raja Pedang. Bisa ditemukan ketika mengalahkan Zacian (Raja Pedang) di Raid.
 
 RESOURCE ID: item_resource_crowned_zacian_name
 TEXT: Energi Pedang
@@ -1460,7 +1490,7 @@ RESOURCE ID: item_resource_crowned_zacian_name_plural
 TEXT: Energi Pedang
 
 RESOURCE ID: item_resource_crowned_zamazenta_desc
-TEXT: Digunakan untuk mengganti Zamazenta ke wujud Raja Perisai. Bisa ditemukan ketika mengalahkan Zamazenta (Raja Perisai) di Raid.
+TEXT: Digunakan untuk mengubah Zamazenta ke bentuk Raja Perisai. Bisa ditemukan ketika mengalahkan Zamazenta (Raja Perisai) di Raid.
 
 RESOURCE ID: item_resource_crowned_zamazenta_name
 TEXT: Energi Perisai
@@ -1520,10 +1550,10 @@ RESOURCE ID: mega_kangaskhan_tr_may_2025_title
 TEXT: Penelitian Berwaktu Hari Raid Mega Kangaskhan
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-05-07T00:35:22.671022+00:00 for id-ID
-at SHA b4b96ffb951
-Pipeline 3190922, job 40564016
-Patch from: 0.359.0-SHA-0d956980-RC5, 0.361.0-SHA-01d43987-RC4
+TEXT: Built at 2025-05-07T21:12:31.874054+00:00 for id-ID
+at SHA fbdd9d7ca5f
+Pipeline 3192191, job 40604780
+Patch from: 0.359.0-SHA-646af5e1-RC3, 0.361.0-SHA-01d43987-RC4
 
 RESOURCE ID: move_name_0469
 TEXT: Tebasan Behemoth
@@ -1581,7 +1611,7 @@ RESOURCE ID: nearby_rsvp_notification_raid_key_singular
 TEXT: Pertarungan Raid di dekatmu akan segera dimulai!
 
 RESOURCE ID: next
-TEXT: Next
+TEXT: Lanjut
 
 RESOURCE ID: notification_candy_found_plural
 TEXT: {0} Permen {1} ditemukan!
@@ -1639,10 +1669,10 @@ RESOURCE ID: quest_change_form_furfrou
 TEXT: Ganti wujud Furfrou
 
 RESOURCE ID: quest_change_form_zacian
-TEXT: Ubah wujud Zacian
+TEXT: Ubah bentuk Zacian
 
 RESOURCE ID: quest_change_form_zamazenta
-TEXT: Ubah wujud Zamazenta
+TEXT: Ubah bentuk Zamazenta
 
 RESOURCE ID: quest_defeat_dark_or_steel_type_raid
 TEXT: Kalahkan {0} Bos Raid tipe Kegelapan atau Logam
@@ -1861,7 +1891,7 @@ RESOURCE ID: quests_training_task_available
 TEXT: New Hyper Training Task!
 
 RESOURCE ID: quick_invitation_modal_message_string_key
-TEXT: Untuk mengundang teman yang direkomendasikan, hapus centang pada semua teman yang dipilih saat ini.
+TEXT: Untuk mengundang teman yang direkomendasikan, hapus semua centang.
 
 RESOURCE ID: quick_invitation_widget_title_string_key
 TEXT: TEMAN YANG DIREKOMENDASIKAN
@@ -1955,7 +1985,7 @@ RESOURCE ID: season_pass_premium_track_title_june
 TEXT: GO Pass Deluxe: June
 
 RESOURCE ID: select_stat
-TEXT: Select Stat
+TEXT: Pilih Statistik
 
 RESOURCE ID: sent_friend_error_info_plural_temp
 TEXT: {0} teman telah mencapai batas harian partisipasi Pertarungan Max Jarak Jauh dan Raid Jarak Jauh. Kamu dapat mengundang Teman yang lain.
@@ -1976,7 +2006,7 @@ RESOURCE ID: settings_allow_raid_and_max_battle_friend_requests_tip
 TEXT: Only applies to in-person and nearby raids or Max Battles.
 
 RESOURCE ID: settings_popular_nearby_rsvp
-TEXT: Raid Sekitar dengan RSVP yang populer
+TEXT: Raid Sekitar yang populer dengan RSVP
 
 RESOURCE ID: settings_share_raid_and_max_battle_attendance
 TEXT: Share Raid and Max Battle Attendance with Friends
@@ -2401,10 +2431,10 @@ RESOURCE ID: trade_special_extra_two
 TEXT: Tambahan Pertukaran Spesial per hari: 2 kali
 
 RESOURCE ID: training_combat_league_warning
-TEXT: After Hyper Training, this Pokémon will exceed the CP limit for some Battle Leagues.
+TEXT: Setelah Latihan Luar Biasa, Pokémon ini akan melebihi batas CP beberapa Liga Pertarungan.
 
 RESOURCE ID: training_confirmation
-TEXT: Are you sure you want to train {0}?
+TEXT: Yakin ingin melatih {0}?
 
 RESOURCE ID: training_string_key
 TEXT: TRAINING
