@@ -791,7 +791,7 @@ RESOURCE ID: age_confirm_explain
 TEXT: 使用這個類型的帳號登入時，必須符合年齡限制的條件，因此我們將向您進行出生年月日的確認。
 
 RESOURCE ID: age_confirm_fail
-TEXT: 由於您未達這個類型的帳戶所需的<a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">年齡門檻</a>，依照服務條款，您的帳號將被刪除。若您認為已達可登入的門檻，請聯絡客服。
+TEXT: 由於您未達這個類型的帳戶所需的<a href="https://niantic.helpshift.com/hc/faq/4996-i-cannot-login-and-message-shows-sorry-you-do-not-meet-the-age-requirement-to-login-with-this-type-of-account/">年齡門檻</a>，依照服務條款，您的帳號將被刪除。若您認為已達可登入的門檻，請聯絡客服。
 
 RESOURCE ID: age_confirm_popup_confirm
 TEXT: 確定要送出嗎？提交後無法變更。
@@ -918,6 +918,9 @@ TEXT: 請先完成或刪除正在規劃中的路線後，才能規劃全新的�
 
 RESOURCE ID: already_have_account
 TEXT: 已經有帳號了嗎？
+
+RESOURCE ID: ambassador_trainer_nameplate
+TEXT: 來玩耍的
 
 RESOURCE ID: anime_collab_june_india_title
 TEXT: 動畫合作活動 – 印度＆印尼
@@ -4328,6 +4331,12 @@ TEXT: 頭髮
 RESOURCE ID: avatar_halloween
 TEXT: 萬聖節
 
+RESOURCE ID: avatar_hat_applinheadband
+TEXT: 啃果蟲髮箍
+
+RESOURCE ID: avatar_hat_captainpikachu
+TEXT: 船長皮卡丘風帽子
+
 RESOURCE ID: avatar_hat_gotour_kanto_bundle_icon
 TEXT: GO Tour棒球帽
 
@@ -6614,6 +6623,9 @@ TEXT: 伸展台姿勢
 RESOURCE ID: avatar_pose_safariball
 TEXT: GO曠野地帶2024姿勢
 
+RESOURCE ID: avatar_pose_tinkaton
+TEXT: 巨鍛匠姿勢
+
 RESOURCE ID: avatar_pose_wcs2024
 TEXT: WCS 2024烏克麗麗姿勢
 
@@ -6625,6 +6637,9 @@ TEXT: 精選
 
 RESOURCE ID: avatar_sets
 TEXT: 組合
+
+RESOURCE ID: avatar_shirt_applinapron
+TEXT: 啃果蟲圍裙
 
 RESOURCE ID: avatar_shirt_bwhoodie
 TEXT: 黑&白帽T
@@ -14220,6 +14235,12 @@ TEXT: 完成每日獎勵田野調查後可獲得大針蜂超級能量
 RESOURCE ID: beedrill_mega_energy_field_research
 TEXT: 完成田野調查後可獲得大針蜂超級能量
 
+RESOURCE ID: behemoth_bash_adventure_effect_battle_log
+TEXT: YOUR DEFENSE IS BOOSTED BY BEHEMOTH BASH’S ADVENTURE EFFECT!
+
+RESOURCE ID: behemoth_blade_adventure_effect_battle_log
+TEXT: YOUR ATTACKS ARE BOOSTED BY BEHEMOTH BLADE’S ADVENTURE EFFECT!
+
 RESOURCE ID: beloved_buddies_event_name
 TEXT: 共生夥伴
 
@@ -14683,6 +14704,9 @@ TEXT: 讓藍鱷進化成大力鱷後，牠就能學會特殊招式「加農水�
 
 RESOURCE ID: bonus_cd_move_tynamo
 TEXT: 讓麻麻鰻進化成麻麻鰻魚王後，牠就能學會一般招式「伏特替換」！
+
+RESOURCE ID: bonus_cd_move_vanillite
+TEXT: 讓多多冰進化成雙倍多多冰，牠就能學會特殊招式「雪崩」！
 
 RESOURCE ID: bonus_cd_move_wooper_normal
 TEXT: 讓烏波進化成沼王後，牠就能學會特殊招式「水流尾」！
@@ -16151,6 +16175,9 @@ TEXT: 距離極巨化還剩{0}……
 RESOURCE ID: bread_battle_bread_countdown_2
 TEXT: 距離超極巨化還剩{0}……
 
+RESOURCE ID: bread_battle_bread_countdown_special
+TEXT: {0}...
+
 RESOURCE ID: bread_battle_bread_meter_almost_full
 TEXT: 就差一點了！
 
@@ -16266,10 +16293,10 @@ RESOURCE ID: bread_battle_resolve_timed_out_title
 TEXT: 沒有可以戰鬥的寶可夢了
 
 RESOURCE ID: bread_battle_reward_bonus_title
-TEXT: + In-Person Bonus
+TEXT: +現場參加獎勵
 
 RESOURCE ID: bread_battle_reward_bonus_update
-TEXT: {0} Bonus
+TEXT: 額外獎勵{0}
 
 RESOURCE ID: bread_battle_reward_title
 TEXT: 獎勵
@@ -16406,7 +16433,7 @@ RESOURCE ID: bread_lobby_error_battle_completed
 TEXT: 你已經在這個能量點參加過對戰了
 
 RESOURCE ID: bread_lobby_error_friend_details_unavailable
-TEXT: Something went wrong when sending this invite. Please try again.
+TEXT: 傳送邀請時出現了一些問題，請再試一次。
 
 RESOURCE ID: bread_lobby_error_lobby_expired
 TEXT: 此大廳已過期
@@ -16424,10 +16451,10 @@ RESOURCE ID: bread_lobby_error_no_invite
 TEXT: 此對戰邀請已過期
 
 RESOURCE ID: bread_lobby_error_no_remote_slots_remaining
-TEXT: The maximum number of remote players has been reached.
+TEXT: 遠距參戰的訓練家已達到上限
 
 RESOURCE ID: bread_lobby_error_no_remote_ticket
-TEXT: Uh-oh! You’re out of Remote Raid Passes.
+TEXT: 糟糕！現在包包裡沒有遠距團體戰入場券！
 
 RESOURCE ID: bread_lobby_error_not_in_range
 TEXT: 這個能量點太遠了
@@ -16532,8 +16559,7 @@ RESOURCE ID: bread_mp_for_battle_lobby
 TEXT: 使用{0}MP
 
 RESOURCE ID: bread_mp_for_remote_battle_lobby
-TEXT: Use {0} MP and
-a Remote Raid Pass
+TEXT: 使用{0}MP和1張遠距團體戰入場券
 
 RESOURCE ID: bread_mp_storage_full
 TEXT: 能夠持有的極巨粒子已達上限
@@ -16593,22 +16619,22 @@ RESOURCE ID: bread_release_title
 TEXT: 要收回{0}嗎？
 
 RESOURCE ID: bread_remote_iap_mp_rrp_replenish_description
-TEXT: You need a Remote Raid Pass and Max Particles to join this battle.
+TEXT: 還需要遠距團體戰入場券和極巨粒子才能參加這場對戰
 
 RESOURCE ID: bread_remote_iap_mp_rrp_replenish_title
-TEXT: You’re out of Remote Raid Passes and Max Particles
+TEXT: 沒有足夠的遠距團體戰入場券和極巨粒子
 
 RESOURCE ID: bread_remote_invite_in_game_notification
-TEXT: {0} invited you to a Max Battle!
+TEXT: {0} 邀請你一起參加極巨對戰！
 
 RESOURCE ID: bread_remote_tutorial_message_0
-TEXT: You’re viewing a Max Battle that is far away. You can join the battle remotely by using a Remote Raid Pass and Max Particles.
+TEXT: 你現在連接的是遠方的極巨對戰。只要使用遠距團體戰入場券和極巨粒子，就可以遠距參加極巨對戰。
 
 RESOURCE ID: bread_remote_tutorial_title_0
-TEXT: Remote Max Battles are here!
+TEXT: 遠距極巨對戰登場！
 
 RESOURCE ID: bread_remote_use_rrp_confirmation
-TEXT: You can join {0} more Max Battles today. Max Particles are only used when you win. A Remote Raid Pass will be used when the battle starts.
+TEXT: 今天還可以再參加{0}場極巨對戰。只有在極巨對戰中獲勝時，才會消耗極巨粒子。對戰開打時，遠距團體戰入場券才會被收走。
 
 RESOURCE ID: bread_report_pou_reason_emergency
 TEXT: 妨礙緊急車輛進出
@@ -16642,6 +16668,9 @@ TEXT: 請選擇要指派到這個能量點的寶可夢。之後可隨時收回�
 
 RESOURCE ID: bread_station_failure_description
 TEXT: 可指派的寶可夢已達上限，無法指派寶可夢。
+
+RESOURCE ID: bread_station_failure_description_cannot_station
+TEXT: {0} cannot be placed at Power Spots.
 
 RESOURCE ID: bread_station_failure_description_duplicate
 TEXT: 你已經指派寶可夢到這個能量點了
@@ -16688,10 +16717,10 @@ RESOURCE ID: bread_station_tutorial_message_5
 TEXT: 拜訪能量點時可能會遇見寶可夢。在超極巨化寶可夢出沒的能量點將有機會遇見極巨化寶可夢。
 
 RESOURCE ID: bread_station_tutorial_message_6
-TEXT: You can participate in Max Battles remotely by using a Remote Raid Pass and Max Particles.
+TEXT: 只要使用遠距團體戰入場券和極巨粒子，就可以遠距參加極巨對戰。
 
 RESOURCE ID: bread_station_tutorial_message_7
-TEXT: Winning a Max Battle in person grants additional rewards.
+TEXT: 只要參加附近的極巨對戰並獲勝，就可以獲得追加的獎勵。
 
 RESOURCE ID: bread_station_tutorial_title
 TEXT: 
@@ -16712,10 +16741,10 @@ RESOURCE ID: bread_station_tutorial_title_5
 TEXT: 遇見寶可夢
 
 RESOURCE ID: bread_station_tutorial_title_6
-TEXT: Remote Max Battles
+TEXT: 遠距極巨對戰
 
 RESOURCE ID: bread_station_tutorial_title_7
-TEXT: In-Person Bonus
+TEXT: 現場參加獎勵
 
 RESOURCE ID: bread_stationing_error
 TEXT: 無法派出寶可夢。請再試一次。
@@ -18509,22 +18538,22 @@ RESOURCE ID: chicago_fest_july_2017_title
 TEXT: Pokémon GO Fest
 
 RESOURCE ID: childrens_day_2025_bonus
-TEXT: Children’s Day Magic Bonuses
+TEXT: 兒童節獎勵
 
 RESOURCE ID: childrens_day_2025_evolve_move_bonus_lucario
-TEXT: Evolve Riolu to get a Lucario that knows the Fast Attack Force Palm!
+TEXT: 讓利歐路進化成路卡利歐，牠就能學會一般招式「發勁」！
 
 RESOURCE ID: childrens_day_2025_title
-TEXT: Children’s Day Magic
+TEXT: 兒童節
 
 RESOURCE ID: childrens_day_2025_tr_name
-TEXT: Children’s Day Magic Timed Research
+TEXT: 兒童節限時調查
 
 RESOURCE ID: childrens_day_2025_tr_name_1
-TEXT: Children’s Day Magic Timed Research (1/2)
+TEXT: 兒童節限時調查(1/2)
 
 RESOURCE ID: childrens_day_2025_tr_name_2
-TEXT: Children’s Day Magic Timed Research (2/2)
+TEXT: 兒童節限時調查(2/2)
 
 RESOURCE ID: chinesetraditional
 TEXT: 繁體中文
@@ -20555,6 +20584,9 @@ TEXT: 經典社群日：小鋸鱷
 RESOURCE ID: community_day_tynamo_event_name
 TEXT: 社群日：麻麻小魚
 
+RESOURCE ID: community_day_vanillite_event_name
+TEXT: 社群日：迷你冰
+
 RESOURCE ID: community_day_weedle_event_name
 TEXT: 社群日：獨角蟲
 
@@ -21515,6 +21547,15 @@ TEXT: 極巨化雷公極巨對戰週末
 RESOURCE ID: dmax_raikou_weekend_timed_research
 TEXT: 極巨化雷公極巨對戰週末限時調查
 
+RESOURCE ID: dmax_suicune_max_battles
+TEXT: 極巨化的水君在極巨對戰中出現了
+
+RESOURCE ID: dmax_suicune_weekend_event_name
+TEXT: 極巨化水君極巨對戰週末
+
+RESOURCE ID: dmax_suicune_weekend_timed_research
+TEXT: 極巨化水君極巨對戰週末限時調查
+
 RESOURCE ID: dmax_zapdos_max_battles
 TEXT: 極巨化的閃電鳥在極巨對戰中出現了
 
@@ -21920,6 +21961,21 @@ TEXT: 這個裝置能讓寶可夢學會你選定的一般招式
 
 RESOURCE ID: elitefasttm.1_title
 TEXT: 厲害一般招式學習器
+
+RESOURCE ID: em_batik_pikachu_2025_collection_challenge
+TEXT: Pikachu’s Indonesia Journey
+2025收藏家挑戰
+
+RESOURCE ID: em_batik_pikachu_2025_event_title
+TEXT: Pikachu’s Indonesia Journey 2025
+
+RESOURCE ID: em_batik_pikachu_2025_tr_desc_title_00
+TEXT: Pikachu’s Indonesia Journey
+2025限時調查(1/1)
+
+RESOURCE ID: em_batik_pikachu_2025_tr_title
+TEXT: Pikachu’s Indonesia Journey
+2025限時調查
 
 RESOURCE ID: em_carnival_2025_collection_challenge
 TEXT: 收藏家挑戰：
@@ -22617,6 +22673,9 @@ TEXT: 2月9日14:00～17:00
 RESOURCE ID: event_datetime_range_key_cd_sprigatito2025
 TEXT: 1月5日14:00～17:00
 
+RESOURCE ID: event_datetime_range_key_cd_vanillite25
+TEXT: 4月27日14:00～17:00
+
 RESOURCE ID: event_datetime_range_key_cdc_ralts25
 TEXT: 1月25日14:00～17:00
 
@@ -22732,6 +22791,10 @@ RESOURCE ID: event_datetime_range_key_gowa24
 TEXT: 11月23日～
 11月24日
 
+RESOURCE ID: event_datetime_range_key_growingup0525
+TEXT: 5月2日10:00～
+5月7日20:00
+
 RESOURCE ID: event_datetime_range_key_growtogether24
 TEXT: 7月17日10:00～
 9月3日10:00
@@ -22819,6 +22882,9 @@ TEXT: 1月11日14:00～17:00
 
 RESOURCE ID: event_datetime_range_key_megaheracrossraidday
 TEXT: 4月13日14:00～22:00
+
+RESOURCE ID: event_datetime_range_key_megakangaskhanraidday
+TEXT: 5月3日14:00～17:00
 
 RESOURCE ID: event_datetime_range_key_megalucarioraidday24
 TEXT: 7月27日11:00～22:00
@@ -23701,6 +23767,9 @@ TEXT: 在100級獲得！
 
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_02
 TEXT: 在40級獲得！
+
+RESOURCE ID: event_pass_premium_reward_banner_bottom_text_50
+TEXT: 在50級獲得！
 
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_99
 TEXT: 在99級獲得！
@@ -25386,6 +25455,15 @@ TEXT: 確定要讓 {0} 從 {1} 變成 {2} 嗎？
 RESOURCE ID: form_change_failed_toast
 TEXT: 無法改變樣子，請重試一次
 
+RESOURCE ID: form_change_move_required
+TEXT: Required to change form
+
+RESOURCE ID: form_change_move_reroll_title
+TEXT: To change to its {2} form, {0} must learn {1}
+
+RESOURCE ID: form_change_raid_toast
+TEXT: {0} reverted to its {1} form.
+
 RESOURCE ID: form_change_selection_title
 TEXT: 選擇樣子
 
@@ -26249,7 +26327,7 @@ RESOURCE ID: friend_invited_you_to_ex_raid
 TEXT: 邀請你參加VIP團體戰！
 
 RESOURCE ID: friend_is_at_a_max_battle
-TEXT: Has joined a <b>{0}</b> battle
+TEXT: 正在參加<b>{0}</b>對戰
 
 RESOURCE ID: friend_is_at_a_raid
 TEXT: {0}正在參加<b>{1}團體戰</b>
@@ -28125,6 +28203,9 @@ TEXT: 小嘴蝸和蓋蓋蟲社群日入場券
 RESOURCE ID: general1.ticket_cd_sprigatito2025_title
 TEXT: 新葉喵社群日入場券
 
+RESOURCE ID: general1.ticket_cd_vanillite25_title
+TEXT: 迷你冰社群日入場券
+
 RESOURCE ID: general1.ticket_cdc_ralts25_title
 TEXT: 拉魯拉絲經典社群日入場券
 
@@ -28211,6 +28292,9 @@ TEXT: 時裝週特級限時調查入場券
 RESOURCE ID: general2.ticket.5_gmaxkingler25_title
 TEXT: 巨鉗蟹極巨對戰日入場券
 
+RESOURCE ID: general2.ticket.5_megakangaskhanraidday_title
+TEXT: 超級袋獸團體戰日入場券
+
 RESOURCE ID: general2.ticket.6_horizonscb0425_title
 TEXT: 一錘敲定特級限時調查入場券
 
@@ -28228,6 +28312,9 @@ TEXT: 強化入場券：5月
 
 RESOURCE ID: general2.ticket.8_scattered_winds_feb_2025_title
 TEXT: 乘風傳遞的心意特級限時調查入場券
+
+RESOURCE ID: general2.ticket.9_growingup0525_title
+TEXT: 頭好壯壯長大大特級限時調查入場券
 
 RESOURCE ID: general2.ticket._megagalladeraidday_title
 TEXT: 超級艾路雷朵團體戰日入場券
@@ -28412,6 +28499,9 @@ TEXT: 儲存畫面
 
 RESOURCE ID: general_send
 TEXT: 提交
+
+RESOURCE ID: general_settings_allow_stamp_from_gifts
+TEXT:  
 
 RESOURCE ID: general_sign_out
 TEXT: 登出
@@ -35171,6 +35261,15 @@ TEXT: 一起茁壯特級限時調查(3/4)
 RESOURCE ID: grow_together_tr_3
 TEXT: 一起茁壯特級限時調查(4/4)
 
+RESOURCE ID: growing_up_collection_challenge
+TEXT: 頭好壯壯長大大孵蛋挑戰
+
+RESOURCE ID: growing_up_event_name
+TEXT: 頭好壯壯長大大
+
+RESOURCE ID: growing_up_tr_name
+TEXT: 頭好壯壯長大大特級限時調查
+
 RESOURCE ID: grunt_balloon_challenge#1__female_speaker
 TEXT: 我一定會贏……畢竟這可是出人意料的突擊啊！
 
@@ -37500,6 +37599,9 @@ TEXT: 現在沒有空間可以放置寶可夢
 RESOURCE ID: iris_social_name
 TEXT: 團體照
 
+RESOURCE ID: iris_social_nameplates_toast
+TEXT: 顯示寶可夢名稱等資訊
+
 RESOURCE ID: iris_social_not_available_toast_key
 TEXT: 不能選擇這隻寶可夢
 
@@ -37897,8 +37999,14 @@ TEXT: 入場券
 RESOURCE ID: item_event_ticket_09_desc
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年3月21日10:00開始參與特殊調查「密林流氓」。
 
+RESOURCE ID: item_event_ticket_09_desc_growingup0525
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年5月7日20:00前參與頭好壯壯長大大特級限時調查。
+
 RESOURCE ID: item_event_ticket_09_desc_masterball24
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年10月4日參與「長期調查：大師球」。
+
+RESOURCE ID: item_event_ticket_09_details_growingup0525
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間5月2日開始參與頭好壯壯長大大特級限時調查。
 
 RESOURCE ID: item_event_ticket_09_details_masterball24
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在2024年10月4日開始參與 「長期調查：大師球」。
@@ -38139,6 +38247,9 @@ TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時�
 RESOURCE ID: item_event_ticket_gray_desc_megaheracross
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年4月13日14:00～2024年4月13日22:00領取特別的獎勵。
 
+RESOURCE ID: item_event_ticket_gray_desc_megakangaskhanraidday
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年5月3日14:00～17:00領取特別的獎勵。
+
 RESOURCE ID: item_event_ticket_gray_desc_monthlyticketnov24
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2024年11月3日00:00～12月2日23:59前參與可獲得寶可幣及其他獎勵的獎勵田野調查。
 
@@ -38247,6 +38358,9 @@ TEXT: 入場券將會自動啟動。不論你身在何處，都能在當地時�
 RESOURCE ID: item_event_ticket_gray_details_megaheracross
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間2024年4月13日領取特別的獎勵。
 
+RESOURCE ID: item_event_ticket_gray_details_megakangaskhanraidday
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間2025年5月3日領取特別的獎勵。
+
 RESOURCE ID: item_event_ticket_gray_details_monthlyticketnov24
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在2024年11月3日開始參與每日寶可幣獎勵Part3。
 
@@ -38339,6 +38453,9 @@ TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時�
 
 RESOURCE ID: item_event_ticket_pink_desc_cd_sprigatito2025
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年1月5日14:00開始參與新葉喵社群日的特殊調查。
+
+RESOURCE ID: item_event_ticket_pink_desc_cd_vanillite25
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年4月27日14:00開始參與迷你冰社群日的特殊調查。
 
 RESOURCE ID: item_event_ticket_pink_desc_cdc_ralts25
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年1月25日14:00開始參與拉魯拉絲經典社群日的特殊調查。
@@ -38486,6 +38603,9 @@ TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時�
 
 RESOURCE ID: item_event_ticket_pink_details_cd_sprigatito2025
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間1月5日領取特殊調查「解開草貓寶可夢之謎！」。
+
+RESOURCE ID: item_event_ticket_pink_details_cd_vanillite25
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間年4月27日參與特殊調查「解開新雪寶可夢之謎！」。
 
 RESOURCE ID: item_event_ticket_pink_details_cdc_ralts25
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間1月25日參與拉魯拉絲經典社群日特殊調查。
@@ -39188,7 +39308,7 @@ RESOURCE ID: item_other_evolution_stone_maple_a_name
 TEXT: 甜甜蘋果
 
 RESOURCE ID: item_other_evolution_stone_maple_a_name_plural
-TEXT: Sweet Apples
+TEXT: 甜甜蘋果
 
 RESOURCE ID: item_other_evolution_stone_maple_b_desc
 TEXT: 能讓特定寶可夢進化的神奇蘋果。非常酸。
@@ -39199,7 +39319,7 @@ RESOURCE ID: item_other_evolution_stone_maple_b_name
 TEXT: 酸酸蘋果
 
 RESOURCE ID: item_other_evolution_stone_maple_b_name_plural
-TEXT: Tart Apples
+TEXT: 酸酸蘋果
 
 RESOURCE ID: item_other_evolution_stone_maple_c_desc
 TEXT: 能讓特定寶可夢進化的神奇蘋果。非常甜。
@@ -39208,7 +39328,7 @@ RESOURCE ID: item_other_evolution_stone_maple_c_name
 TEXT: 蜜汁蘋果
 
 RESOURCE ID: item_other_evolution_stone_maple_c_name_plural
-TEXT: Syrupy Apples
+TEXT: 蜜汁蘋果
 
 RESOURCE ID: item_paid_raid_ticket_desc
 TEXT: 特級對戰入場券可用來參加團體戰和GO對戰聯盟的特級對戰。
@@ -39302,6 +39422,24 @@ TEXT: 可用來參加遠距團體戰的入場券
 
 RESOURCE ID: item_remote_raid_ticket_name
 TEXT: 遠距團體戰入場券
+
+RESOURCE ID: item_resource_crowned_zacian_desc
+TEXT: Used to change Zacian into its Crowned Sword form. It can be found when defeating Crowned Sword Zacian in raids.
+
+RESOURCE ID: item_resource_crowned_zacian_name
+TEXT: Crowned Sword Energy
+
+RESOURCE ID: item_resource_crowned_zacian_name_plural
+TEXT: Crowned Sword Energy
+
+RESOURCE ID: item_resource_crowned_zamazenta_desc
+TEXT: Used to change Zamazenta into its Crowned Shield form. It can be found when defeating Crowned Shield Zamazenta in raids.
+
+RESOURCE ID: item_resource_crowned_zamazenta_name
+TEXT: Crowned Shield Energy
+
+RESOURCE ID: item_resource_crowned_zamazenta_name_plural
+TEXT: Crowned Shield Energy
 
 RESOURCE ID: item_revive_desc
 TEXT: 讓瀕死的寶可夢重獲生機，並回復一半HP。
@@ -39784,34 +39922,34 @@ RESOURCE ID: kr_cherryblossom_festival_2025_yeouido_bonus
 TEXT: 春花慶典2025 – 汝矣島獎勵
 
 RESOURCE ID: kr_ditto_event_2025_ditto_o_clock_active
-TEXT: Ditto are now appearing in large numbers!
+TEXT: 百變怪大量出現中！
 
 RESOURCE ID: kr_ditto_event_2025_ditto_o_clock_desc
-TEXT: At the top of each hour during the event, Ditto will appear in large numbers for three minutes!
+TEXT: 在活動期間內的每個小時整點時，百變怪將會在3分鐘內大量出現！
 
 RESOURCE ID: kr_ditto_event_2025_ditto_o_clock_title
-TEXT: It’s Ditto time!
+TEXT: 現在是百變怪時刻！
 
 RESOURCE ID: kr_ditto_event_2025_ditto_sticker_jamsil_area
-TEXT: More likely to receive event-themed stickers from spinning PokéStops and Gyms in the Pokémon Town 2025 event area
+TEXT: Pokémon Town 2025活動區域內的寶可補給站和道館出現活動主題貼圖的機率提高
 
 RESOURCE ID: kr_ditto_event_2025_pokemon_town_2025
 TEXT: Pokémon Town 2025
 
 RESOURCE ID: kr_ditto_event_2025_title
-TEXT: 1, 3, 2! It’s Ditto Time!
+TEXT: 1、3、2！現在是百變怪時刻！
 
 RESOURCE ID: kr_ditto_event_2025_tr_name
-TEXT: A Study in Purple Timed Research
+TEXT: 樣紫百變限時調查
 
 RESOURCE ID: kr_ditto_event_2025_tr_name_1
-TEXT: A Study in Purple Timed Research (1/3)
+TEXT: 樣紫百變限時調查(1/3)
 
 RESOURCE ID: kr_ditto_event_2025_tr_name_2
-TEXT: A Study in Purple Timed Research (2/3)
+TEXT: 樣紫百變限時調查(2/3)
 
 RESOURCE ID: kr_ditto_event_2025_tr_name_3
-TEXT: A Study in Purple Timed Research (3/3)
+TEXT: 樣紫百變限時調查(3/3)
 
 RESOURCE ID: kr_festival_fr_location_background
 TEXT: 從田野調查課題捕捉到的四季鹿和穿著服飾的皮卡丘可能會帶著紀念背卡
@@ -44132,6 +44270,9 @@ TEXT: 團體戰日：超級艾路雷朵
 RESOURCE ID: mega_gym_defender_warning
 TEXT: 不能將超級進化後的寶可夢指派至道館。
 
+RESOURCE ID: mega_kangaskhan_tr_may_2025_title
+TEXT: 超級袋獸團體戰日限時調查
+
 RESOURCE ID: mega_level_1
 TEXT: 基礎級
 
@@ -44302,9 +44443,9 @@ RESOURCE ID: meshing_option_title
 TEXT: 網格化
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2025-04-23T19:20:33.523432+00:00 for zh-TW
-at SHA 0d9569809feef
-Pipeline 3173772, job 40065633
+TEXT: Built at 2025-05-09T19:52:05.630211+00:00 for zh-TW
+at SHA 9de234e4dd6
+Pipeline 3195708, job 40716201
 
 RESOURCE ID: mex_fighting_promo_title
 TEXT: 限時調查：格鬥屬性
@@ -45794,8 +45935,38 @@ TEXT: 極寒冷焰
 RESOURCE ID: move_name_0468
 TEXT: 閃焰高歌
 
+RESOURCE ID: move_name_0469
+TEXT: Behemoth Blade
+
+RESOURCE ID: move_name_0470
+TEXT: Behemoth Bash
+
 RESOURCE ID: move_name_0471
 TEXT: 快手還擊
+
+RESOURCE ID: move_name_0473
+TEXT: Guard
+
+RESOURCE ID: move_name_0474
+TEXT: Spirit
+
+RESOURCE ID: move_name_0475
+TEXT: Guard
+
+RESOURCE ID: move_name_0476
+TEXT: Spirit
+
+RESOURCE ID: move_name_0477
+TEXT: Guard
+
+RESOURCE ID: move_name_0478
+TEXT: Spirit
+
+RESOURCE ID: move_name_0479
+TEXT: Behemoth Blade
+
+RESOURCE ID: move_name_0480
+TEXT: Behemoth Bash
 
 RESOURCE ID: move_required_to_enable_adventure_effect
 TEXT: {0}沒有學會{1}，因此合體後不會學會具有冒險效果的招式
@@ -45842,14 +46013,12 @@ TEXT: 極巨粒子組合x3
 ({0}MP)
 
 RESOURCE ID: mp_replenish_rrp.1_title
-TEXT: 1 Remote Raid Pass
-1 Max Particle Pack
-({0} MP)
+TEXT: 1張遠距團體戰入場券和
+極巨粒子組合({0}MP)
 
 RESOURCE ID: mp_replenish_rrp.3_title
-TEXT: 3 Remote Raid Passes
-3 Max Particle Packs
-({0} MP)
+TEXT: 3張遠距團體戰入場券和
+極巨粒子組合x3({0}MP)
 
 RESOURCE ID: mrd_berry_easy
 TEXT: 泡沫栗鼠研究：捕捉寶可夢時使用3顆樹果來輔助
@@ -49200,16 +49369,16 @@ RESOURCE ID: nearby_rsvp_no_rsvps
 TEXT: 沒有預約任何對戰
 
 RESOURCE ID: nearby_rsvp_notification_max_battle_key
-TEXT: Join {0} Trainers in a nearby Gigantamax Battle starting soon!
+TEXT: {0}位訓練家參加的超極巨化對戰即將開始！
 
 RESOURCE ID: nearby_rsvp_notification_max_battle_key_singular
-TEXT: Join a nearby Gigantamax Battle starting soon!
+TEXT: 附近有超極巨化對戰即將開始！
 
 RESOURCE ID: nearby_rsvp_notification_raid_key
-TEXT: Join {0} Trainers in a nearby Raid Battle starting soon!
+TEXT: {0}位訓練家參加的團體戰即將開始！
 
 RESOURCE ID: nearby_rsvp_notification_raid_key_singular
-TEXT: Join a nearby Raid Battle starting soon!
+TEXT: 附近有團體戰即將開始！
 
 RESOURCE ID: nearby_rsvp_reminders_header
 TEXT: 提醒
@@ -49536,6 +49705,12 @@ TEXT: 效果不太好……
 
 RESOURCE ID: not_very_effective_2
 TEXT: 效果不好
+
+RESOURCE ID: notification_candy_found_plural
+TEXT: Found {0} {1} Candy!
+
+RESOURCE ID: notification_candy_found_singular
+TEXT: Found 1 {0} Candy!
 
 RESOURCE ID: notification_from_gym_title
 TEXT: 從道館回來
@@ -51308,6 +51483,9 @@ TEXT: 小鋸鱷將在GO Snapshot中驚喜現身5次
 
 RESOURCE ID: photobomb_five_tynamo
 TEXT: 麻麻小魚將在GO Snapshot中驚喜現身5次
+
+RESOURCE ID: photobomb_five_vanillite
+TEXT: 迷你冰將在GO Snapshot中驚喜現身5次
 
 RESOURCE ID: photobomb_five_weedle
 TEXT: 獨角蟲將在GO Snapshot中驚喜現身5次
@@ -59610,11 +59788,17 @@ TEXT: /{0} km
 RESOURCE ID: pokemon_info_evolve_button
 TEXT: 進化
 
+RESOURCE ID: pokemon_info_evolve_need_bread_move
+TEXT: Needs level {1} {0}.
+
 RESOURCE ID: pokemon_info_evolve_need_buddy_distance
 TEXT: 和這隻夥伴再走 {0} 公里吧
 
 RESOURCE ID: pokemon_info_evolve_need_candies
 TEXT: {0} 的糖果不夠
+
+RESOURCE ID: pokemon_info_evolve_need_cinematic_move
+TEXT: Must know the Charged Attack {0} to change form
 
 RESOURCE ID: pokemon_info_evolve_need_key_item
 TEXT: 需要特殊道具
@@ -59627,6 +59811,9 @@ TEXT: 進化時需要 {0}
 
 RESOURCE ID: pokemon_info_evolve_need_quest_completion
 TEXT: 和這個夥伴一起完成1個挑戰
+
+RESOURCE ID: pokemon_info_evolve_need_quick_move
+TEXT: Must know the Fast Attack {0} to change form
 
 RESOURCE ID: pokemon_info_evolve_need_stardusts
 TEXT: 需要更多星星沙子
@@ -59642,6 +59829,9 @@ TEXT: {0}目前被指派到了能量點
 
 RESOURCE ID: pokemon_info_evolve_quest_bubble_collapsed
 TEXT: 帶牠一起去冒險，讓牠進化吧
+
+RESOURCE ID: pokemon_info_form_change_confirmation
+TEXT: Do you want to change {0} from its {1} form to its {2} form?
 
 RESOURCE ID: pokemon_info_fusion_need_resources
 TEXT: 沒有足夠的{0}！
@@ -59722,7 +59912,7 @@ RESOURCE ID: pokemon_info_panel_defended_gym_raid_active_message
 TEXT: 團體戰開打中！你的寶可夢會在團體戰結束後回到同行隊伍。
 
 RESOURCE ID: pokemon_info_pokecoin_label
-TEXT: POKÉCOIN
+TEXT: 寶可幣
 
 RESOURCE ID: pokemon_info_pokemon_is_released
 TEXT: {0} 再見！
@@ -63245,6 +63435,12 @@ TEXT: 體重新紀錄
 RESOURCE ID: pokemon_size_tiny_encounter
 TEXT: 超迷你！
 
+RESOURCE ID: pokemon_species_form_0888_2576
+TEXT: Crowned Sword Zacian
+
+RESOURCE ID: pokemon_species_form_0889_2578
+TEXT: Crowned Shield Zamazenta
+
 RESOURCE ID: pokemon_town_event_2024
 TEXT: Pokémon Town 2024
 
@@ -65739,6 +65935,9 @@ TEXT: 捕捉{0}隻在2023年社群日登場的寶可夢
 
 RESOURCE ID: quest_dec2024_catch_b
 TEXT: 捕捉{0}隻在2024年社群日登場的寶可夢
+
+RESOURCE ID: quest_defeat_dark_or_steel_type_raid
+TEXT: 戰勝{0}隻惡屬性或鋼屬性的頭目寶可夢
 
 RESOURCE ID: quest_defeat_jessie_james_plural
 TEXT: 打敗武藏或小次郎 {0} 次
@@ -83676,6 +83875,18 @@ TEXT: 究極解鎖2021：劍盾 (4/5)
 RESOURCE ID: quest_title_uu3_aug21_4
 TEXT: 究極解鎖2021：劍盾 (5/5)
 
+RESOURCE ID: quest_title_vanillite
+TEXT: 解開新雪寶可夢之謎！
+
+RESOURCE ID: quest_title_vanillite_0
+TEXT: 解開新雪寶可夢之謎！(1/3)
+
+RESOURCE ID: quest_title_vanillite_1
+TEXT: 解開新雪寶可夢之謎！(2/3)
+
+RESOURCE ID: quest_title_vanillite_2
+TEXT: 解開新雪寶可夢之謎！(3/3)
+
 RESOURCE ID: quest_title_waina_0
 TEXT: Pokémon GO Plus +合作活動 (1/2)
 
@@ -84059,6 +84270,9 @@ TEXT: Valentine's Day: 捕捉 {0} 隻愛心魚
 
 RESOURCE ID: quest_val19_catch_specific_singular
 TEXT: Valentine's Day: 捕捉1隻吉利蛋
+
+RESOURCE ID: quest_vanillite_catch_b
+TEXT: 捕捉{0}隻迷你冰
 
 RESOURCE ID: quest_visit_different_pokestops
 TEXT: 拜訪 {0} 個不同的寶可補給站
@@ -84454,6 +84668,15 @@ TEXT: 明天可獲得新圖章！
 
 RESOURCE ID: quick_feeding_button_label
 TEXT: 快速餵食
+
+RESOURCE ID: quick_invitation_modal_message_string_key
+TEXT: Friends currently selected will not be included.
+
+RESOURCE ID: quick_invitation_modal_title_string_key
+TEXT: Are you sure you want to invite recommended friends?
+
+RESOURCE ID: quick_invitation_widget_title_string_key
+TEXT: RECOMMENDED FRIENDS TO INVITE
 
 RESOURCE ID: quick_move_reroll_confirm_title
 TEXT: 你要讓 {0} 學會新的一般攻擊嗎？
@@ -85772,6 +85995,9 @@ TEXT: 團體戰日：超級赫拉克羅斯
 RESOURCE ID: raid_day_mega_kangaskhan
 TEXT: 團體戰日：袋獸超級袋獸
 
+RESOURCE ID: raid_day_mega_kangaskhan_event_name
+TEXT: 團體戰日：超級袋獸
+
 RESOURCE ID: raid_day_mega_mawile_event_name
 TEXT: 團體戰日：超級大嘴娃
 
@@ -87011,7 +87237,7 @@ RESOURCE ID: raid_rsvp_bonus
 TEXT: 參戰預約
 
 RESOURCE ID: raid_s_pass_daily_limit_temp
-TEXT: You’ve reached your daily limit of Remote Max Battles and Remote Raids. Walk closer to join in person.
+TEXT: 已達到本日遠距極巨對戰和遠距團體戰參戰次數上限
 
 RESOURCE ID: raid_share_private_code_message
 TEXT: 和朋友分享小組代碼，讓朋友加入你的對戰陣容。
@@ -89613,8 +89839,11 @@ TEXT: 如果離開小隊，挑戰進度和尚未領取的獎勵將會消失。
 RESOURCE ID: rejoin_warning_modal_title
 TEXT: 確定要離開小隊嗎？
 
+RESOURCE ID: remote_bread_battle_invite_sent_confirmation
+TEXT: Invites sent!
+
 RESOURCE ID: remote_max_battle_invite_push_notif
-TEXT: A friend invited you to a Max Battle!
+TEXT: 朋友邀請你去參加極巨對戰！
 
 RESOURCE ID: remote_raid_battle_helptext
 TEXT: 使用遠距團體戰入場券
@@ -93507,19 +93736,19 @@ RESOURCE ID: sent_friend_error_info_plural
 TEXT: {0}位朋友已達到今日遠距團體戰參加次數上限。請試著邀請其他朋友！
 
 RESOURCE ID: sent_friend_error_info_plural_temp
-TEXT: {0} friends have already met their daily limit of Remote Max Battles and Remote Raids. You can invite more friends!
+TEXT: {0}位朋友已達到本日遠距極巨對戰和遠距團體戰參戰次數上限。請試著邀請其他朋友！
 
 RESOURCE ID: sent_friend_error_info_singular
 TEXT: 1 位朋友已達到今日遠距團體戰參加次數上限。請試著邀請其他朋友！
 
 RESOURCE ID: sent_friend_error_info_singular_temp
-TEXT: A friend has already met their daily limit of Remote Max Battles and Remote Raids. You can invite another friend!
+TEXT: 1 位朋友已達到本日遠距極巨對戰和遠距團體戰參戰次數上限。請試著邀請其他朋友！
 
 RESOURCE ID: sent_friend_error_toast
 TEXT: 對方已達到本日遠距團體戰參戰次數上限
 
 RESOURCE ID: sent_friend_error_toast_temp
-TEXT: Trainer has reached their daily limit of Remote Max Battles and Remote Raids.
+TEXT: 對方已達到本日遠距極巨對戰和遠距團體戰參戰次數上限
 
 RESOURCE ID: sent_friend_request_prompt
 TEXT: 傳送了1件朋友申請
@@ -93898,6 +94127,9 @@ TEXT: 寶可夢回來
 
 RESOURCE ID: settings_pokemon_return_tip
 TEXT: 被派去防禦道館的寶可夢會在幹勁降為0時回到訓練家身邊
+
+RESOURCE ID: settings_popular_nearby_rsvp
+TEXT: Nearby Popular Raids to RSVP
 
 RESOURCE ID: settings_postcard_optin_name
 TEXT: 在朋友的明信片收納冊中公開自己的暱稱
@@ -95551,6 +95783,9 @@ TEXT: 更多小鋸鱷出現在地圖上！
 RESOURCE ID: spawn_tynamo
 TEXT: 更多麻麻小魚出現在地圖上！
 
+RESOURCE ID: spawn_vanillite
+TEXT: 更多迷你冰出現在地圖上！
+
 RESOURCE ID: spawn_weedle
 TEXT: 更多獨角蟲出現在地圖上
 
@@ -95807,13 +96042,13 @@ RESOURCE ID: squash_confirmation_plural
 TEXT: 今天還可以再參加{0}場遠距團體戰。團體戰開打時，遠距團體戰入場券才會被收走。
 
 RESOURCE ID: squash_confirmation_plural_temp
-TEXT: You can join {0} more Remote Max Battles or Remote Raids today. A Remote Raid Pass will be used when the battle starts.
+TEXT: 今天還可以再參加{0}場遠距極巨對戰或遠距團體戰。對戰開打時，遠距團體戰入場券才會被收走。
 
 RESOURCE ID: squash_confirmation_singular
 TEXT: 今天還可以再參加1場遠距團體戰。團體戰開打時，遠距團體戰入場券才會被收走。
 
 RESOURCE ID: squash_confirmation_singular_temp
-TEXT: You can join one more Remote Max Battle or Remote Raid today. A Remote Raid Pass will be used when the battle starts.
+TEXT: 今天還可以再參加1場遠距極巨對戰或遠距團體戰。對戰開打時，遠距團體戰入場券才會被收走。
 
 RESOURCE ID: squash_toast
 TEXT: 已達到本日遠距團體戰參加次數上限。請到道館附近參加團體戰。
@@ -97296,10 +97531,10 @@ RESOURCE ID: stamp_completed_description
 TEXT: 恭喜你完成這項集章趣了！
 
 RESOURCE ID: stamp_info_banner
-TEXT: 圖章資訊
+TEXT: 集章趣資訊
 
 RESOURCE ID: stamp_mini_game_instruction
-TEXT: Stamp with long press
+TEXT: 緊緊按住即可蓋章！
 
 RESOURCE ID: stamp_page_tutorial_page_1_description
 TEXT: 這是一項在特定的寶可補給站和道館收集圖章的活動。
@@ -97367,7 +97602,7 @@ TEXT: 至{0}為止
 RESOURCE ID: stamp_rally_ends_on
 TEXT: 結束時間：{0}
 
-RESOURCE ID: stamp_rally_expired_on
+RESOURCE ID: stamp_rally_finished_on
 TEXT: 已於{0}結束
 
 RESOURCE ID: stamp_rally_finishes_in
@@ -97691,21 +97926,6 @@ TEXT: 但不擅於對抗飛行屬性、超能力屬性和妖精屬性的攻擊�
 
 RESOURCE ID: story_mightandmastery_3_3
 TEXT: 看來你在強化熊徒弟時已經將這些考量進去了。繼續加油吧！
-
-RESOURCE ID: story_mightandmastery_4_0
-TEXT: 
-
-RESOURCE ID: story_mightandmastery_4_1
-TEXT: 
-
-RESOURCE ID: story_mightandmastery_4_2
-TEXT: 
-
-RESOURCE ID: story_mightandmastery_4_3
-TEXT: 
-
-RESOURCE ID: story_mightandmastery_4_4
-TEXT: 
 
 RESOURCE ID: story_quest_cosmog_sol23_0
 TEXT: 閃耀星雲 (1/4)
@@ -99017,6 +99237,21 @@ TEXT: 這站是終點～站。
 RESOURCE ID: success_inventory_daily_butterfly_limit
 TEXT: 可釘選的明信片已達到上限，彩粉蝶獎牌將不會有任何進度。試著釘選來自朋友的明信片吧！
 
+RESOURCE ID: suita_city_rally_desc
+TEXT: A GO Stamp Rally that takes you around recommended areas in Suita City.
+
+RESOURCE ID: suita_city_rally_desc_detail
+TEXT: Collect stamps by visiting GO Stamp Rally PokéStops in Suita City for themed rewards!
+
+RESOURCE ID: suita_city_rally_location
+TEXT: Suita, Osaka, Japan
+
+RESOURCE ID: suita_city_rally_rewards_desc
+TEXT: Encounter a special Pikachu with a Suita City Location Background at the end of this rally!
+
+RESOURCE ID: suita_city_rally_title
+TEXT: Suita City Stamp Rally
+
 RESOURCE ID: summer_24_tr_title
 TEXT: 初夏小憩限時調查
 
@@ -99427,6 +99662,12 @@ TEXT: <b>可獲得的獎勵：</b>
 ・1張特級對戰入場券、1個特殊招式學習器、神奇糖果
 ・其他
 
+RESOURCE ID: text_rewards_key_cd_vanillite25
+TEXT: <b>可獲得的獎勵：</b>
+・與迷你冰（附有特別背卡）相遇
+・1張特級對戰入場券、1個特殊招式學習器、神奇糖果
+・其他
+
 RESOURCE ID: text_rewards_key_cdc_ralts25
 TEXT: <b>可獲得的獎勵：</b>
 ・與拉魯拉絲（附有特別背卡）相遇
@@ -99728,6 +99969,13 @@ TEXT: Pokémon GO 曠野地帶：全球入場券（率先免費登場）。
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: Pokémon GO 曠野地帶：全球入場券（率先免費登場）
 
+RESOURCE ID: text_rewards_key_growingup0525
+TEXT: <b>可獲得的獎勵：</b>
+・與鯉魚王、吼吼鯨、青綿鳥、路卡利歐、膽小蟲、稚山雀和一對鼠相遇
+・紙飛機姿勢
+・15個凰梨果
+・3000星星沙子等
+
 RESOURCE ID: text_rewards_key_growtogether24
 TEXT: <b>可獲得的獎勵：</b>
 ・旋轉當天第1個寶可補給站轉盤時可獲得5倍XP
@@ -99888,6 +100136,12 @@ TEXT: <b>可獲得的獎勵：</b>
 ・旋轉道館轉盤時可獲得8張額外團體戰入場券
 ・在團體戰獲得神奇糖果XL的機率提高
 ・在團體戰中獲勝時可獲得1.5倍XP及2倍星星沙子
+
+RESOURCE ID: text_rewards_key_megakangaskhanraidday
+TEXT: <b>可獲得的獎勵：</b>
+・旋轉道館轉盤時可獲得8張額外團體戰入場券
+・在團體戰獲得神奇糖果XL的機率提高
+・在團體戰中獲勝時可獲得1.5倍XP及2倍星星沙子等
 
 RESOURCE ID: text_rewards_key_megalucarioraidday24
 TEXT: <b>可獲得的獎勵：</b>
@@ -100506,6 +100760,9 @@ TEXT: 麻麻小魚社群日特殊調查入場券在商店裡上架了
 
 RESOURCE ID: ticket_ultra_space_wonders
 TEXT: 究極空間驚奇限時調查入場券已在商店中上架
+
+RESOURCE ID: ticket_vanillite_cd
+TEXT: 迷你冰社群日特殊調查入場券在商店裡上架了
 
 RESOURCE ID: ticket_weedle
 TEXT: 特殊調查「毛毛時刻」的入場券在商店中上架
@@ -101428,6 +101685,9 @@ TEXT: Pokémon World Championships 2024集寶趣(1/1)
 
 RESOURCE ID: title_zorua_o_clock
 TEXT: 索羅亞大量出現
+
+RESOURCE ID: tm_cannot_unlearn
+TEXT: {0} cannot forget {1}.
 
 RESOURCE ID: tm_elite_master_box
 TEXT: 招式學習器達人禮盒
@@ -103657,6 +103917,12 @@ TEXT: 合眾收藏家挑戰
 RESOURCE ID: unova_event_name
 TEXT: 合眾活動
 
+RESOURCE ID: upgrade_description_zacian
+TEXT: This Pokémon can use Crowned Sword Energy to change forms if it knows the Charged Attack Iron Head. You can get this energy by defeating Crowned Sword Zacian in raids.
+
+RESOURCE ID: upgrade_description_zamazenta
+TEXT: This Pokémon can use Crowned Shield Energy to change forms if it knows the Charged Attack Iron Head. You can get this energy by defeating Crowned Shield Zamazenta in raids.
+
 RESOURCE ID: upgrade_item_bag_button
 TEXT: 升級包包
 
@@ -103882,6 +104148,12 @@ TEXT: 污毒沼澤計畫
 RESOURCE ID: usa_timed_header_0
 TEXT: 污毒沼澤計畫：限時調查
 
+RESOURCE ID: use_behemoth_bash_effect
+TEXT: Pokémon defense increased in raids and Max Battles.
+
+RESOURCE ID: use_behemoth_blade_effect
+TEXT: Pokémon attack increased in raids and Max Battles.
+
 RESOURCE ID: use_field_effect
 TEXT: 使用
 
@@ -103894,8 +104166,14 @@ TEXT: 捕捉寶可夢時的目標環速度降低
 RESOURCE ID: use_item
 TEXT: 使用道具
 
+RESOURCE ID: use_item_again_prompt_desc
+TEXT: Would you like to use another {0}?
+
 RESOURCE ID: use_item_button
 TEXT: 使用{0}
+
+RESOURCE ID: use_item_prompt_desc
+TEXT: Would you like to use a {0}?
 
 RESOURCE ID: use_lucky_egg_rewards
 TEXT: 使用幸運蛋可增加{0}XP！
@@ -105141,6 +105419,12 @@ TEXT: 已更改推薦代碼
 
 RESOURCE ID: your_trainer_code_title
 TEXT: 自己的訓練家代碼
+
+RESOURCE ID: zacian_move_content
+TEXT: Zacian wields a large, powerful sword for {0} minutes. Strengthens your Pokémon’s attacks in raids and Max Battles.
+
+RESOURCE ID: zamazenta_move_content
+TEXT: Zamazenta wields a large, powerful shield for {0} minutes. Strengthens your Pokémon’s defense in raids and Max Battles.
 
 RESOURCE ID: zorua_o_clock_active
 TEXT: 索羅亞大量出現中！

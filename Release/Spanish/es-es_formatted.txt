@@ -792,7 +792,7 @@ RESOURCE ID: age_confirm_explain
 TEXT: Existe un requisito de edad para conectarse con este tipo de cuenta. Confirma tu fecha de nacimiento.
 
 RESOURCE ID: age_confirm_fail
-TEXT: Lo sentimos, pero no cumples con los <a href="https://niantic.helpshift.com/hc/faq/4996-important-notice-pokemon-go-login-age-requirements/">requisitos de edad</a> para conectarte con este tipo de cuenta, por lo que tu cuenta se eliminará conforme a nuestras Condiciones de servicio. Si crees que cumples con los requisitos para conectarte con este tipo de cuenta, ponte en contacto con nosotros.
+TEXT: Lo sentimos, pero no cumples con los <a href="https://niantic.helpshift.com/hc/faq/4996-i-cannot-login-and-message-shows-sorry-you-do-not-meet-the-age-requirement-to-login-with-this-type-of-account/">requisitos de edad</a> para conectarte con este tipo de cuenta, por lo que tu cuenta se eliminará conforme a nuestras Condiciones de servicio. Si crees que cumples con los requisitos para conectarte con este tipo de cuenta, ponte en contacto con nosotros.
 
 RESOURCE ID: age_confirm_popup_confirm
 TEXT: ¿Seguro? Esta información no se puede modificar una vez enviada.
@@ -919,6 +919,9 @@ TEXT: Finaliza o descarta la Ruta actual para comenzar a crear una nueva Ruta.
 
 RESOURCE ID: already_have_account
 TEXT: ¿Ya tienes una cuenta?
+
+RESOURCE ID: ambassador_trainer_nameplate
+TEXT: Visitante salvaje
 
 RESOURCE ID: anime_collab_june_india_title
 TEXT: Celebración de la serie Horizontes Pokémon: India e Indonesia
@@ -4629,6 +4632,12 @@ TEXT: Pelo
 RESOURCE ID: avatar_halloween
 TEXT: Halloween
 
+RESOURCE ID: avatar_hat_applinheadband
+TEXT: Diadema de Applin
+
+RESOURCE ID: avatar_hat_captainpikachu
+TEXT: Gorra de Capitán Pikachu
+
 RESOURCE ID: avatar_hat_gotour_kanto_bundle_icon
 TEXT: Gorra del Tour de GO
 
@@ -7210,6 +7219,9 @@ TEXT: Pose de Pasarela
 RESOURCE ID: avatar_pose_safariball
 TEXT: Pose del Área Silvestre de GO 2024
 
+RESOURCE ID: avatar_pose_tinkaton
+TEXT: Pose de Tinkaton
+
 RESOURCE ID: avatar_pose_wcs2024
 TEXT: Pose con ukelele del Mundial 2024
 
@@ -7221,6 +7233,9 @@ TEXT: Artículos destacados
 
 RESOURCE ID: avatar_sets
 TEXT: CONJUNTOS
+
+RESOURCE ID: avatar_shirt_applinapron
+TEXT: Delantal de Applin
 
 RESOURCE ID: avatar_shirt_bwhoodie
 TEXT: Sudadera estilo Negro y Blanco
@@ -14760,6 +14775,12 @@ TEXT: Bonus diario de tareas de investigación de campo con Megaenergía Beedril
 RESOURCE ID: beedrill_mega_energy_field_research
 TEXT: Investigación de campo con Megaenergía Beedrill como recompensa
 
+RESOURCE ID: behemoth_bash_adventure_effect_battle_log
+TEXT: ¡TU DEFENSA ESTÁ POTENCIADA GRACIAS AL EFECTO AVENTURA DE EMBATE SUPREMO!
+
+RESOURCE ID: behemoth_blade_adventure_effect_battle_log
+TEXT: ¡TUS ATAQUES ESTÁN POTENCIADOS GRACIAS AL EFECTO AVENTURA DE TAJO SUPREMO!
+
 RESOURCE ID: beloved_buddies_event_name
 TEXT: Compañeros de travesía
 
@@ -15223,6 +15244,9 @@ TEXT: ¡Haz evolucionar a Croconaw para conseguir un Feraligatr que conozca el a
 
 RESOURCE ID: bonus_cd_move_tynamo
 TEXT: ¡Haz evolucionar a Eelektrik para conseguir un Eelektross que conozca el ataque rápido Voltiocambio!
+
+RESOURCE ID: bonus_cd_move_vanillite
+TEXT: ¡Haz evolucionar a Vanillish para conseguir un Vanilluxe que conozca el ataque cargado Alud!
 
 RESOURCE ID: bonus_cd_move_wooper_normal
 TEXT: Haz evolucionar a Wooper para conseguir un Quagsire que conozca el ataque cargado Acua Cola
@@ -16691,6 +16715,9 @@ TEXT: Dinamaxización en {0}...
 RESOURCE ID: bread_battle_bread_countdown_2
 TEXT: Gigamaxización en {0}...
 
+RESOURCE ID: bread_battle_bread_countdown_special
+TEXT: {0}...
+
 RESOURCE ID: bread_battle_bread_meter_almost_full
 TEXT: ¡Casi lleno!
 
@@ -16806,10 +16833,10 @@ RESOURCE ID: bread_battle_resolve_timed_out_title
 TEXT: ¡Los Pokémon de todos se han cansado!
 
 RESOURCE ID: bread_battle_reward_bonus_title
-TEXT: + In-Person Bonus
+TEXT: + Bonus presencial
 
 RESOURCE ID: bread_battle_reward_bonus_update
-TEXT: {0} Bonus
+TEXT: Bonus: {0}
 
 RESOURCE ID: bread_battle_reward_title
 TEXT: RECOMPENSAS
@@ -16946,7 +16973,7 @@ RESOURCE ID: bread_lobby_error_battle_completed
 TEXT: Ya has combatido en este nodo energético.
 
 RESOURCE ID: bread_lobby_error_friend_details_unavailable
-TEXT: Something went wrong when sending this invite. Please try again.
+TEXT: Se ha producido un error al enviar esta invitación. Inténtalo de nuevo.
 
 RESOURCE ID: bread_lobby_error_lobby_expired
 TEXT: La sala ha caducado.
@@ -16964,10 +16991,10 @@ RESOURCE ID: bread_lobby_error_no_invite
 TEXT: La invitación ha caducado.
 
 RESOURCE ID: bread_lobby_error_no_remote_slots_remaining
-TEXT: The maximum number of remote players has been reached.
+TEXT: Se ha alcanzado el número máximo de jugadores remotos.
 
 RESOURCE ID: bread_lobby_error_no_remote_ticket
-TEXT: Uh-oh! You’re out of Remote Raid Passes.
+TEXT: ¡Vaya! Te has quedado sin Pases de incursión remota.
 
 RESOURCE ID: bread_lobby_error_not_in_range
 TEXT: Acércate para interactuar con este nodo energético.
@@ -17072,8 +17099,8 @@ RESOURCE ID: bread_mp_for_battle_lobby
 TEXT: Usa {0} PM
 
 RESOURCE ID: bread_mp_for_remote_battle_lobby
-TEXT: Use {0} MP and
-a Remote Raid Pass
+TEXT: Usa {0} PM y
+un Pase de incursión remota
 
 RESOURCE ID: bread_mp_storage_full
 TEXT: Tu almacenamiento de Partículas Max está lleno.
@@ -17133,22 +17160,22 @@ RESOURCE ID: bread_release_title
 TEXT: ¿Quieres que {0} vuelva?
 
 RESOURCE ID: bread_remote_iap_mp_rrp_replenish_description
-TEXT: You need a Remote Raid Pass and Max Particles to join this battle.
+TEXT: Necesitas un Pase de incursión remota y Partículas Max para unirte a este combate.
 
 RESOURCE ID: bread_remote_iap_mp_rrp_replenish_title
-TEXT: You’re out of Remote Raid Passes and Max Particles
+TEXT: No tienes Pases de incursión remota ni Partículas Max
 
 RESOURCE ID: bread_remote_invite_in_game_notification
-TEXT: {0} invited you to a Max Battle!
+TEXT: ¡{0} te ha invitado a unirte a un Combate Max!
 
 RESOURCE ID: bread_remote_tutorial_message_0
-TEXT: You’re viewing a Max Battle that is far away. You can join the battle remotely by using a Remote Raid Pass and Max Particles.
+TEXT: Este Combate Max está lejos. Puedes unirte al combate de manera remota usando un Pase de incursión remota y Partículas Max.
 
 RESOURCE ID: bread_remote_tutorial_title_0
-TEXT: Remote Max Battles are here!
+TEXT: ¡Ya están aquí los Combates Max remotos!
 
 RESOURCE ID: bread_remote_use_rrp_confirmation
-TEXT: You can join {0} more Max Battles today. Max Particles are only used when you win. A Remote Raid Pass will be used when the battle starts.
+TEXT: Puedes unirte a {0} Combates Max remotos más hoy. Las Partículas Max solo se usan cuando ganas. Se usará un Pase de incursión remota cuando comience el combate.
 
 RESOURCE ID: bread_report_pou_reason_emergency
 TEXT: Obstruye los servicios de emergencia
@@ -17182,6 +17209,9 @@ TEXT: Elige el Pokémon que quieras dejar en este nodo energético para que cons
 
 RESOURCE ID: bread_station_failure_description
 TEXT: Se ha alcanzado el límite de Pokémon en este nodo energético.
+
+RESOURCE ID: bread_station_failure_description_cannot_station
+TEXT: {0} no se puede dejar en un nodo energético.
 
 RESOURCE ID: bread_station_failure_description_duplicate
 TEXT: Ya has colocado un Pokémon en este nodo energético.
@@ -17228,10 +17258,10 @@ RESOURCE ID: bread_station_tutorial_message_5
 TEXT: Puedes encontrarte con un Pokémon tras visitar un nodo energético. ¡Puede que aparezcan Pokémon Dinamax si hay Pokémon Gigamax en el nodo energético!
 
 RESOURCE ID: bread_station_tutorial_message_6
-TEXT: You can participate in Max Battles remotely by using a Remote Raid Pass and Max Particles.
+TEXT: Puedes participar en un Combate Max de manera remota usando un Pase de incursión remota y Partículas Max.
 
 RESOURCE ID: bread_station_tutorial_message_7
-TEXT: Winning a Max Battle in person grants additional rewards.
+TEXT: Ganar un Combate Max en persona concede recompensas adicionales.
 
 RESOURCE ID: bread_station_tutorial_title
 TEXT: 
@@ -17252,10 +17282,10 @@ RESOURCE ID: bread_station_tutorial_title_5
 TEXT: Encuentros con Pokémon
 
 RESOURCE ID: bread_station_tutorial_title_6
-TEXT: Remote Max Battles
+TEXT: Combates Max remotos
 
 RESOURCE ID: bread_station_tutorial_title_7
-TEXT: In-Person Bonus
+TEXT: Bonus presencial
 
 RESOURCE ID: bread_stationing_error
 TEXT: Ha habido un error al colocar tus Pokémon. Inténtalo de nuevo.
@@ -21100,6 +21130,9 @@ TEXT: Clásicos del Día de la Comunidad: Totodile
 RESOURCE ID: community_day_tynamo_event_name
 TEXT: Día de la Comunidad: Tynamo
 
+RESOURCE ID: community_day_vanillite_event_name
+TEXT: Día de la Comunidad de Vanillite
+
 RESOURCE ID: community_day_weedle_event_name
 TEXT: Día de la Comunidad: Weedle
 
@@ -22061,6 +22094,15 @@ TEXT: Fin de semana de Combates Max de Raikou Dinamax
 RESOURCE ID: dmax_raikou_weekend_timed_research
 TEXT: Investigación temporal del Fin de semana de Combates Max de Raikou Dinamax
 
+RESOURCE ID: dmax_suicune_max_battles
+TEXT: Suicune Dinamax está apareciendo en los Combates Max
+
+RESOURCE ID: dmax_suicune_weekend_event_name
+TEXT: Fin de semana de Combates Max de Suicune Dinamax
+
+RESOURCE ID: dmax_suicune_weekend_timed_research
+TEXT: Investigación temporal del Fin de semana de Combates Max de Suicune Dinamax
+
 RESOURCE ID: dmax_zapdos_max_battles
 TEXT: Zapdos Dinamax está apareciendo en los Combates Max
 
@@ -22467,6 +22509,18 @@ TEXT: Esta Máquina Técnica te permite elegir un ataque rápido para enseñárs
 
 RESOURCE ID: elitefasttm.1_title
 TEXT: MT élite de ataque rápido
+
+RESOURCE ID: em_batik_pikachu_2025_collection_challenge
+TEXT: Desafío de colección de Viaje de Pikachu a Indonesia 2025
+
+RESOURCE ID: em_batik_pikachu_2025_event_title
+TEXT: Viaje de Pikachu a Indonesia 2025
+
+RESOURCE ID: em_batik_pikachu_2025_tr_desc_title_00
+TEXT: Investigación temporal de Viaje de Pikachu a Indonesia 2025 (1/1)
+
+RESOURCE ID: em_batik_pikachu_2025_tr_title
+TEXT: Investigación temporal de Viaje de Pikachu a Indonesia 2025
 
 RESOURCE ID: em_carnival_2025_collection_challenge
 TEXT: Desafío de colección de Carnaval de la amistad
@@ -23155,6 +23209,9 @@ TEXT: 9 de febrero de 14:00 a 17:00
 RESOURCE ID: event_datetime_range_key_cd_sprigatito2025
 TEXT: 5 de enero de 14:00 a 17:00.
 
+RESOURCE ID: event_datetime_range_key_cd_vanillite25
+TEXT: 27 de abril de 14:00 a 17:00
+
 RESOURCE ID: event_datetime_range_key_cdc_ralts25
 TEXT: 25 de enero de 14:00 a 17:00.
 
@@ -23271,6 +23328,10 @@ RESOURCE ID: event_datetime_range_key_gowa24
 TEXT: Del 23 de noviembre
 al 24 de noviembre
 
+RESOURCE ID: event_datetime_range_key_growingup0525
+TEXT: Del 2 de mayo a las 10:00
+al 7 de mayo a las 20:00.
+
 RESOURCE ID: event_datetime_range_key_growtogether24
 TEXT: Del 17 de julio a las 10:00 al
 3 de septiembre a las 10:00.
@@ -23357,6 +23418,9 @@ TEXT: 11 enero de 14:00 a 17:00.
 
 RESOURCE ID: event_datetime_range_key_megaheracrossraidday
 TEXT: 13 de abril de 14:00 a 22:00
+
+RESOURCE ID: event_datetime_range_key_megakangaskhanraidday
+TEXT: 3 de mayo de 14:00 a 17:00
 
 RESOURCE ID: event_datetime_range_key_megalucarioraidday24
 TEXT: 27 de julio de 11:00 a 22:00
@@ -24240,6 +24304,9 @@ TEXT: Se consigue en el nivel 100
 
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_02
 TEXT: Se consigue en el nivel 40
+
+RESOURCE ID: event_pass_premium_reward_banner_bottom_text_50
+TEXT: Se consigue en el nivel 50
 
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_99
 TEXT: Se consigue en el nivel 99
@@ -25937,6 +26004,15 @@ TEXT: ¿Seguro que quieres cambiar a {0} de su {1} a su {2}?
 RESOURCE ID: form_change_failed_toast
 TEXT: No se ha podido cambiar de forma. Vuelve a intentarlo.
 
+RESOURCE ID: form_change_move_required
+TEXT: Required to change form
+
+RESOURCE ID: form_change_move_reroll_title
+TEXT: To change to its {2} form, {0} must learn {1}
+
+RESOURCE ID: form_change_raid_toast
+TEXT: Se ha revertido a {0} a su forma {1}.
+
 RESOURCE ID: form_change_selection_title
 TEXT: Selecciona una forma
 
@@ -26800,7 +26876,7 @@ RESOURCE ID: friend_invited_you_to_ex_raid
 TEXT: te ha invitado a una incursión EX.
 
 RESOURCE ID: friend_is_at_a_max_battle
-TEXT: Has joined a <b>{0}</b> battle
+TEXT: Se ha unido a un combate de <b>{0}</b>
 
 RESOURCE ID: friend_is_at_a_raid
 TEXT: ¡{0} está en una <b>incursión de {1}</b>!
@@ -28763,6 +28839,9 @@ TEXT: Entrada: Día de la Comunidad de Shelmet y Karrablast
 RESOURCE ID: general1.ticket_cd_sprigatito2025_title
 TEXT: Entrada: Día de la Comunidad de Sprigatito
 
+RESOURCE ID: general1.ticket_cd_vanillite25_title
+TEXT: Entrada: Día de la Comunidad de Vanillite
+
 RESOURCE ID: general1.ticket_cdc_ralts25_title
 TEXT: Entrada: Clásicos del Día de la Comunidad (Ralts)
 
@@ -28856,6 +28935,9 @@ TEXT: Entrada: Investigación temporal prémium de la Semana de la Moda
 RESOURCE ID: general2.ticket.5_gmaxkingler25_title
 TEXT: Entrada: Día de Combates Max de Kingler Gigamax
 
+RESOURCE ID: general2.ticket.5_megakangaskhanraidday_title
+TEXT: Entrada: Día de Incursiones de Mega-Kangaskhan
+
 RESOURCE ID: general2.ticket.6_horizonscb0425_title
 TEXT: Entrada: Investigación temporal prémium ¡Tinkatink rompe el molde!
 
@@ -28873,6 +28955,9 @@ TEXT: Entrada potenciadora: Mayo
 
 RESOURCE ID: general2.ticket.8_scattered_winds_feb_2025_title
 TEXT: Entrada: Investigación temporal prémium de Lo que el viento arrastró
+
+RESOURCE ID: general2.ticket.9_growingup0525_title
+TEXT: Entrada: Investigación temporal prémium de El estirón
 
 RESOURCE ID: general2.ticket._megagalladeraidday_title
 TEXT: Entrada: Día de Incursiones de Mega-Gallade
@@ -29056,6 +29141,9 @@ TEXT: Guardar imagen
 
 RESOURCE ID: general_send
 TEXT: ENVIAR
+
+RESOURCE ID: general_settings_allow_stamp_from_gifts
+TEXT:  
 
 RESOURCE ID: general_sign_out
 TEXT: Salir
@@ -35814,6 +35902,15 @@ TEXT: Investigación temporal prémium "Creciendo juntos" (3/4)
 RESOURCE ID: grow_together_tr_3
 TEXT: Investigación temporal prémium "Creciendo juntos" (4/4)
 
+RESOURCE ID: growing_up_collection_challenge
+TEXT: Desafío de eclosión de El estirón: Crece que te crece
+
+RESOURCE ID: growing_up_event_name
+TEXT: El estirón
+
+RESOURCE ID: growing_up_tr_name
+TEXT: Investigación temporal prémium de El estirón
+
 RESOURCE ID: grunt_balloon_challenge#1__female_speaker
 TEXT: Seguro que gano. ¡El factor sorpresa está de mi lado!
 
@@ -38140,6 +38237,9 @@ TEXT: Ahora mismo no hay suficiente espacio para ese Pokémon.
 RESOURCE ID: iris_social_name
 TEXT: Foto de grupo
 
+RESOURCE ID: iris_social_nameplates_toast
+TEXT: Examina un Pokémon para conocer más sobre él.
+
 RESOURCE ID: iris_social_not_available_toast_key
 TEXT: Este Pokémon no se puede seleccionar.
 
@@ -38537,8 +38637,14 @@ TEXT: Entrada
 RESOURCE ID: item_event_ticket_09_desc
 TEXT: Una entrada para acceder a la investigación especial "Simiestro de la selva" desde el 21 de marzo de 2024 a las 10:00 en tu hora local, estés donde estés.
 
+RESOURCE ID: item_event_ticket_09_desc_growingup0525
+TEXT: Una entrada para acceder a la investigación temporal prémium de El estirón hasta el 7 de mayo de 2025 a las 20:00 en tu hora local, estés donde estés.
+
 RESOURCE ID: item_event_ticket_09_desc_masterball24
 TEXT: Una entrada para acceder a la investigación magistral "Master Ball" desde el 4 de octubre a las 10:00 en tu hora local, estés donde estés.
+
+RESOURCE ID: item_event_ticket_09_details_growingup0525
+TEXT: Esta entrada se activará automáticamente el 2 de mayo para darte acceso a la investigación temporal prémium de El estirón, estés donde estés.
 
 RESOURCE ID: item_event_ticket_09_details_masterball24
 TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación magistral "Master Ball" el 4 de octubre, estés donde estés.
@@ -38779,6 +38885,9 @@ TEXT: Una entrada para acceder a bonus especiales el sábado 11 de noviembre de 
 RESOURCE ID: item_event_ticket_gray_desc_megaheracross
 TEXT: Una entrada para acceder a bonus especiales el sábado 13 de abril de 2024 de 14:00 a 22:00 en tu hora local, estés donde estés.
 
+RESOURCE ID: item_event_ticket_gray_desc_megakangaskhanraidday
+TEXT: Una entrada para acceder a bonus especiales el 3 de mayo de 2025 de 14:00 a 17:00 en tu hora local, estés donde estés.
+
 RESOURCE ID: item_event_ticket_gray_desc_monthlyticketnov24
 TEXT: Una entrada para acceder a la investigación temporal de la recompensa diaria de Pokémonedas (parte 3), a la investigación de campo diaria que entrega Pokémonedas y a otros bonus desde el 3 de noviembre a las 00:00 hasta el 2 de diciembre de 2024 a las 23:59 en tu hora local.
 
@@ -38887,6 +38996,9 @@ TEXT: Esta entrada se activará automáticamente para darte acceso a los bonus e
 RESOURCE ID: item_event_ticket_gray_details_megaheracross
 TEXT: Esta entrada se activará automáticamente para darte acceso a bonus especiales el 13 de abril, estés donde estés.
 
+RESOURCE ID: item_event_ticket_gray_details_megakangaskhanraidday
+TEXT: Esta entrada se activará automáticamente para darte acceso a los bonus especiales el 3 de mayo, estés donde estés.
+
 RESOURCE ID: item_event_ticket_gray_details_monthlyticketnov24
 TEXT: Esta entrada se activará automáticamente para darte acceso a la recompensa diaria de Pokémonedas (parte 3) el 3 de noviembre, estés donde estés.
 
@@ -38979,6 +39091,9 @@ TEXT: Una entrada para acceder a la investigación especial del Día de la Comun
 
 RESOURCE ID: item_event_ticket_pink_desc_cd_sprigatito2025
 TEXT: Una entrada para acceder a la investigación especial del Día de la Comunidad de Sprigatito desde el 5 de enero a las 14:00 en tu hora local, estés donde estés.
+
+RESOURCE ID: item_event_ticket_pink_desc_cd_vanillite25
+TEXT: Una entrada para acceder a la investigación especial del Día de la Comunidad de Vanillite desde el 27 de abril a las 14:00 en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_desc_cdc_ralts25
 TEXT: Una entrada para acceder a la investigación especial del evento Clásicos del Día de la Comunidad de Ralts a partir del 25 de enero a las 14:00 en tu hora local, estés donde estés.
@@ -39126,6 +39241,9 @@ TEXT: Esta entrada se activará automáticamente para darte acceso a la investig
 
 RESOURCE ID: item_event_ticket_pink_details_cd_sprigatito2025
 TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación especial "Una ocasión miáugica" el 5 de enero, estés donde estés.
+
+RESOURCE ID: item_event_ticket_pink_details_cd_vanillite25
+TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación especial "Helado de la Comunidad: Vanillite" el 27 de abril, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_details_cdc_ralts25
 TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación especial "Clásicos del Día de la Comunidad: Ralts" el 25 de enero, estés donde estés.
@@ -39828,7 +39946,7 @@ RESOURCE ID: item_other_evolution_stone_maple_a_name
 TEXT: Manzana Dulce
 
 RESOURCE ID: item_other_evolution_stone_maple_a_name_plural
-TEXT: Sweet Apples
+TEXT: Manzanas Dulces
 
 RESOURCE ID: item_other_evolution_stone_maple_b_desc
 TEXT: Curiosa manzana, de sabor particularmente ácido, que hace evolucionar a una determinada especie de Pokémon.
@@ -39839,7 +39957,7 @@ RESOURCE ID: item_other_evolution_stone_maple_b_name
 TEXT: Manzana Ácida
 
 RESOURCE ID: item_other_evolution_stone_maple_b_name_plural
-TEXT: Tart Apples
+TEXT: Manzanas Ácidas
 
 RESOURCE ID: item_other_evolution_stone_maple_c_desc
 TEXT: Curiosa manzana, de sabor particularmente meloso, que hace evolucionar a una determinada especie de Pokémon.
@@ -39848,7 +39966,7 @@ RESOURCE ID: item_other_evolution_stone_maple_c_name
 TEXT: Manzana Melosa
 
 RESOURCE ID: item_other_evolution_stone_maple_c_name_plural
-TEXT: Syrupy Apples
+TEXT: Manzanas Melosas
 
 RESOURCE ID: item_paid_raid_ticket_desc
 TEXT: Puedes usar un Pase de combate prémium para unirte a una incursión o para entrar a la Liga Combates GO prémium.
@@ -39943,6 +40061,24 @@ TEXT: Un pase para participar en una incursión a distancia.
 
 RESOURCE ID: item_remote_raid_ticket_name
 TEXT: Pase de incursión remota
+
+RESOURCE ID: item_resource_crowned_zacian_desc
+TEXT: Used to change Zacian into its Crowned Sword form. It can be found when defeating Crowned Sword Zacian in raids.
+
+RESOURCE ID: item_resource_crowned_zacian_name
+TEXT: Energía Espada Suprema
+
+RESOURCE ID: item_resource_crowned_zacian_name_plural
+TEXT: Crowned Sword Energy
+
+RESOURCE ID: item_resource_crowned_zamazenta_desc
+TEXT: Used to change Zamazenta into its Crowned Shield form. It can be found when defeating Crowned Shield Zamazenta in raids.
+
+RESOURCE ID: item_resource_crowned_zamazenta_name
+TEXT: Energía Escudo Supremo
+
+RESOURCE ID: item_resource_crowned_zamazenta_name_plural
+TEXT: Crowned Shield Energy
 
 RESOURCE ID: item_revive_desc
 TEXT: Medicina que revive a un Pokémon debilitado y le devuelve la mitad de sus PS.
@@ -44781,6 +44917,9 @@ TEXT: Día de Incursiones: Mega-Gallade
 RESOURCE ID: mega_gym_defender_warning
 TEXT: Los Pokémon megaevolucionados no pueden asignarse para defender un Gimnasio.
 
+RESOURCE ID: mega_kangaskhan_tr_may_2025_title
+TEXT: Investigación temporal del Día de Incursiones de Mega-Kangaskhan
+
 RESOURCE ID: mega_level_1
 TEXT: Nivel básico
 
@@ -44959,9 +45098,9 @@ RESOURCE ID: meshing_option_title
 TEXT: Mallado
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2025-04-23T19:20:33.523432+00:00 for es-ES
-at SHA 0d9569809feef
-Pipeline 3173772, job 40065633
+TEXT: Built at 2025-05-09T19:52:05.630211+00:00 for es-ES
+at SHA 9de234e4dd6
+Pipeline 3195708, job 40716201
 
 RESOURCE ID: mex_fighting_promo_title
 TEXT: Investigación temporal: Elige tu tipo de lucha
@@ -46451,8 +46590,38 @@ TEXT: Llama Gélida
 RESOURCE ID: move_name_0468
 TEXT: Canto Ardiente
 
+RESOURCE ID: move_name_0469
+TEXT: Tajo Supremo
+
+RESOURCE ID: move_name_0470
+TEXT: Embate Supremo
+
 RESOURCE ID: move_name_0471
 TEXT: Palma Rauda
+
+RESOURCE ID: move_name_0473
+TEXT: Barrera
+
+RESOURCE ID: move_name_0474
+TEXT: Espíritu
+
+RESOURCE ID: move_name_0475
+TEXT: Barrera
+
+RESOURCE ID: move_name_0476
+TEXT: Espíritu
+
+RESOURCE ID: move_name_0477
+TEXT: Barrera
+
+RESOURCE ID: move_name_0478
+TEXT: Espíritu
+
+RESOURCE ID: move_name_0479
+TEXT: Tajo Supremo
+
+RESOURCE ID: move_name_0480
+TEXT: Embate Supremo
 
 RESOURCE ID: move_required_to_enable_adventure_effect
 TEXT: {0} no conoce el ataque cargado {1}, por lo que no conocerá un ataque con un efecto aventura tras fusionarse.
@@ -46497,14 +46666,14 @@ RESOURCE ID: mp_replenish.3_title
 TEXT: 3 Packs de PM ({0})
 
 RESOURCE ID: mp_replenish_rrp.1_title
-TEXT: 1 Remote Raid Pass
-1 Max Particle Pack
-({0} MP)
+TEXT: 1 Pase de incursión remota
+1 Pack de Partículas Max
+({0} PM)
 
 RESOURCE ID: mp_replenish_rrp.3_title
-TEXT: 3 Remote Raid Passes
-3 Max Particle Packs
-({0} MP)
+TEXT: 3 Pases de incursión remota
+3 Packs de Partículas Max
+({0} PM)
 
 RESOURCE ID: mrd_berry_easy
 TEXT: Investigación de Minccino: Usa 3 bayas para ayudarte a capturar Pokémon
@@ -49769,16 +49938,16 @@ RESOURCE ID: nearby_rsvp_no_rsvps
 TEXT: No tienes ninguna confirmación de asistencia para futuros combates.
 
 RESOURCE ID: nearby_rsvp_notification_max_battle_key
-TEXT: Join {0} Trainers in a nearby Gigantamax Battle starting soon!
+TEXT: ¡Únete a {0} Entrenadores en un Combate Gigamax cercano a punto de empezar!
 
 RESOURCE ID: nearby_rsvp_notification_max_battle_key_singular
-TEXT: Join a nearby Gigantamax Battle starting soon!
+TEXT: ¡Únete a un Combate Gigamax cercano a punto de empezar!
 
 RESOURCE ID: nearby_rsvp_notification_raid_key
-TEXT: Join {0} Trainers in a nearby Raid Battle starting soon!
+TEXT: ¡Únete a {0} Entrenadores en una incursión cercana a punto de empezar!
 
 RESOURCE ID: nearby_rsvp_notification_raid_key_singular
-TEXT: Join a nearby Raid Battle starting soon!
+TEXT: ¡Únete a una incursión cercana a punto de empezar!
 
 RESOURCE ID: nearby_rsvp_reminders_header
 TEXT: RECORDATORIOS
@@ -50105,6 +50274,12 @@ TEXT: No muy eficaz...
 
 RESOURCE ID: not_very_effective_2
 TEXT: No muy eficaz
+
+RESOURCE ID: notification_candy_found_plural
+TEXT: ¡Se han encontrado {0} Caramelos {1}!
+
+RESOURCE ID: notification_candy_found_singular
+TEXT: ¡Se ha encontrado 1 Caramelo {0}!
 
 RESOURCE ID: notification_from_gym_title
 TEXT: De un Gimnasio
@@ -51867,6 +52042,9 @@ TEXT: 5 encuentros sorpresa con Totodile al usar Instantánea de GO
 
 RESOURCE ID: photobomb_five_tynamo
 TEXT: 5 encuentros sorpresa con Tynamo al usar Instantánea de GO
+
+RESOURCE ID: photobomb_five_vanillite
+TEXT: 5 encuentros sorpresa con Vanillite al usar Instantánea de GO
 
 RESOURCE ID: photobomb_five_weedle
 TEXT: 5 encuentros sorpresa con Weedle al usar Instantánea de GO
@@ -60160,11 +60338,17 @@ TEXT: /{0} km
 RESOURCE ID: pokemon_info_evolve_button
 TEXT: Evolucionar
 
+RESOURCE ID: pokemon_info_evolve_need_bread_move
+TEXT: Necesita {0} de nivel {1}.
+
 RESOURCE ID: pokemon_info_evolve_need_buddy_distance
 TEXT: Camina {0} km más con este compañero.
 
 RESOURCE ID: pokemon_info_evolve_need_candies
 TEXT: Necesitas más Caramelos {0}.
+
+RESOURCE ID: pokemon_info_evolve_need_cinematic_move
+TEXT: Debe conocer el ataque cargado {0} para cambiar de forma
 
 RESOURCE ID: pokemon_info_evolve_need_key_item
 TEXT: Se necesita un objeto especial.
@@ -60177,6 +60361,9 @@ TEXT: Se necesita 1 {0} para evolucionar.
 
 RESOURCE ID: pokemon_info_evolve_need_quest_completion
 TEXT: Termina un desafío con este compañero
+
+RESOURCE ID: pokemon_info_evolve_need_quick_move
+TEXT: Debe conocer el ataque rápido {0} para cambiar de forma
 
 RESOURCE ID: pokemon_info_evolve_need_stardusts
 TEXT: Necesitas más Polvos Estelares.
@@ -60192,6 +60379,9 @@ TEXT: {0} está en un nodo energético.
 
 RESOURCE ID: pokemon_info_evolve_quest_bubble_collapsed
 TEXT: Vivid una aventura juntos para evolucionar
+
+RESOURCE ID: pokemon_info_form_change_confirmation
+TEXT: ¿Quieres cambiar a {0} de su forma {1} a su forma {2}?
 
 RESOURCE ID: pokemon_info_fusion_need_resources
 TEXT: Necesitas más {0} para fusionar.
@@ -60272,7 +60462,7 @@ RESOURCE ID: pokemon_info_panel_defended_gym_raid_active_message
 TEXT: Incursión en curso... Tus Pokémon volverán al Gimnasio una vez que termine la incursión.
 
 RESOURCE ID: pokemon_info_pokecoin_label
-TEXT: POKÉCOIN
+TEXT: POKÉMONEDA
 
 RESOURCE ID: pokemon_info_pokemon_is_released
 TEXT: {0} ha sido liberado.
@@ -63799,6 +63989,12 @@ TEXT: Nuevo récord de peso
 RESOURCE ID: pokemon_size_tiny_encounter
 TEXT: ¡Es muy pequeño!
 
+RESOURCE ID: pokemon_species_form_0888_2576
+TEXT: Zacian Espada Suprema
+
+RESOURCE ID: pokemon_species_form_0889_2578
+TEXT: Zamazenta Escudo Supremo
+
 RESOURCE ID: pokemon_town_event_2024
 TEXT: Pueblo Pokémon 2024
 
@@ -66295,6 +66491,9 @@ TEXT: Captura {0} Pokémon protagonistas de los Días de la Comunidad de 2023
 
 RESOURCE ID: quest_dec2024_catch_b
 TEXT: Captura {0} Pokémon protagonistas de los Días de la Comunidad de 2024
+
+RESOURCE ID: quest_defeat_dark_or_steel_type_raid
+TEXT: Derrota a {0} jefes de incursión de tipo Siniestro o Acero
 
 RESOURCE ID: quest_defeat_jessie_james_plural
 TEXT: Derrota a Jessie o James {0} veces
@@ -84215,6 +84414,18 @@ TEXT: Ultrabonus 2021: Espada y Escudo (4/5)
 RESOURCE ID: quest_title_uu3_aug21_4
 TEXT: Ultrabonus 2021: Espada y Escudo (5/5)
 
+RESOURCE ID: quest_title_vanillite
+TEXT: Helado de la Comunidad: Vanillite
+
+RESOURCE ID: quest_title_vanillite_0
+TEXT: Helado de la Comunidad: Vanillite (1/3)
+
+RESOURCE ID: quest_title_vanillite_1
+TEXT: Helado de la Comunidad: Vanillite (2/3)
+
+RESOURCE ID: quest_title_vanillite_2
+TEXT: Helado de la Comunidad: Vanillite (3/3)
+
 RESOURCE ID: quest_title_waina_0
 TEXT: Dulces sueños (1/2)
 
@@ -84598,6 +84809,9 @@ TEXT: Día de San Valentín: Captura {0} Luvdisc
 
 RESOURCE ID: quest_val19_catch_specific_singular
 TEXT: Día de San Valentín: Captura 1 Chansey
+
+RESOURCE ID: quest_vanillite_catch_b
+TEXT: Captura {0} Vanillite
 
 RESOURCE ID: quest_visit_different_pokestops
 TEXT: Da vueltas a {0} fotodiscos en diferentes Poképaradas
@@ -84992,6 +85206,15 @@ TEXT: ¡Mañana puedes conseguir otro sello de investigación!
 
 RESOURCE ID: quick_feeding_button_label
 TEXT: Tentempié
+
+RESOURCE ID: quick_invitation_modal_message_string_key
+TEXT: Friends currently selected will not be included.
+
+RESOURCE ID: quick_invitation_modal_title_string_key
+TEXT: Are you sure you want to invite recommended friends?
+
+RESOURCE ID: quick_invitation_widget_title_string_key
+TEXT: RECOMMENDED FRIENDS TO INVITE
 
 RESOURCE ID: quick_move_reroll_confirm_title
 TEXT: ¿Quieres enseñar a {0} un nuevo ataque rápido?
@@ -86310,6 +86533,9 @@ TEXT: Día de Incursiones: Mega-Heracross
 RESOURCE ID: raid_day_mega_kangaskhan
 TEXT: Día de Incursiones: Mega-Kangaskhan
 
+RESOURCE ID: raid_day_mega_kangaskhan_event_name
+TEXT: Día de Incursiones: Mega-Kangaskhan
+
 RESOURCE ID: raid_day_mega_mawile_event_name
 TEXT: Día de Incursiones: Mega-Mawile
 
@@ -87554,7 +87780,7 @@ RESOURCE ID: raid_rsvp_bonus
 TEXT: Asistencia confirmada
 
 RESOURCE ID: raid_s_pass_daily_limit_temp
-TEXT: You’ve reached your daily limit of Remote Max Battles and Remote Raids. Walk closer to join in person.
+TEXT: Has alcanzado el límite diario de Combates Max remotos e incursiones remotas. Acércate para unirte en persona.
 
 RESOURCE ID: raid_share_private_code_message
 TEXT: Comparte este código de grupo con tus amigos. Pueden unirse a ti usando este código de grupo.
@@ -90156,8 +90382,11 @@ TEXT: Si sales, tu equipo desaparecerá. Perderás el progreso del desafío y la
 RESOURCE ID: rejoin_warning_modal_title
 TEXT: ¿Seguro que quieres salir de tu equipo?
 
+RESOURCE ID: remote_bread_battle_invite_sent_confirmation
+TEXT: ¡Invitaciones enviadas!
+
 RESOURCE ID: remote_max_battle_invite_push_notif
-TEXT: A friend invited you to a Max Battle!
+TEXT: ¡Alguien te ha invitado a un Combate Max!
 
 RESOURCE ID: remote_raid_battle_helptext
 TEXT: usando un Pase de incursión remota
@@ -94048,19 +94277,19 @@ RESOURCE ID: sent_friend_error_info_plural
 TEXT: {0} de tus amistades han alcanzado el límite diario de incursiones remotas. ¡Puedes invitar a otras amistades!
 
 RESOURCE ID: sent_friend_error_info_plural_temp
-TEXT: {0} friends have already met their daily limit of Remote Max Battles and Remote Raids. You can invite more friends!
+TEXT: {0} amistades han alcanzado el límite diario de Combates Max remotos e incursiones remotas. ¡Puedes invitar a otras amistades!
 
 RESOURCE ID: sent_friend_error_info_singular
 TEXT: 1 de tus amistades ha alcanzado el límite diario de incursiones remotas. ¡Puedes invitar a otras amistades!
 
 RESOURCE ID: sent_friend_error_info_singular_temp
-TEXT: A friend has already met their daily limit of Remote Max Battles and Remote Raids. You can invite another friend!
+TEXT: Una de tus amistades ha alcanzado el límite diario de Combates Max remotos e incursiones remotas. ¡Puedes invitar a otra persona!
 
 RESOURCE ID: sent_friend_error_toast
 TEXT: El Entrenador ha alcanzado el límite diario de incursiones remotas.
 
 RESOURCE ID: sent_friend_error_toast_temp
-TEXT: Trainer has reached their daily limit of Remote Max Battles and Remote Raids.
+TEXT: Esta persona ha alcanzado el límite diario de Combates Max remotos e incursiones remotas.
 
 RESOURCE ID: sent_friend_request_prompt
 TEXT: Has enviado una solicitud de amistad.
@@ -94437,6 +94666,9 @@ TEXT: Regreso del Pokémon
 
 RESOURCE ID: settings_pokemon_return_tip
 TEXT: Un Pokémon que se haya quedado defendiendo un Gimnasio volverá cuando su motivación se acabe.
+
+RESOURCE ID: settings_popular_nearby_rsvp
+TEXT: Nearby Popular Raids to RSVP
 
 RESOURCE ID: settings_postcard_optin_name
 TEXT: Comparte tu apodo en los álbumes de postales de tus amigos
@@ -96098,6 +96330,9 @@ TEXT: ¡Están apareciendo más Totodile en estado salvaje!
 RESOURCE ID: spawn_tynamo
 TEXT: ¡Están apareciendo más Tynamo en estado salvaje!
 
+RESOURCE ID: spawn_vanillite
+TEXT: ¡Están apareciendo más Vanillite en estado salvaje!
+
 RESOURCE ID: spawn_weedle
 TEXT: Más Weedle están apareciendo en estado salvaje
 
@@ -96354,13 +96589,13 @@ RESOURCE ID: squash_confirmation_plural
 TEXT: Puedes unirte a {0} incursiones remotas más hoy. Se usará un pase de incursión remota cuando comience el combate.
 
 RESOURCE ID: squash_confirmation_plural_temp
-TEXT: You can join {0} more Remote Max Battles or Remote Raids today. A Remote Raid Pass will be used when the battle starts.
+TEXT: Puedes unirte a {0} Combates Max remotos o incursiones remotas más hoy. Se usará un Pase de incursión remota cuando comience el combate.
 
 RESOURCE ID: squash_confirmation_singular
 TEXT: Puedes unirte a 1 incursión remota más hoy. Se usará un pase de incursión remota cuando comience el combate.
 
 RESOURCE ID: squash_confirmation_singular_temp
-TEXT: You can join one more Remote Max Battle or Remote Raid today. A Remote Raid Pass will be used when the battle starts.
+TEXT: Puedes unirte a un Combate Max remoto o a una incursión remota más hoy. Se usará un Pase de incursión remota cuando comience el combate.
 
 RESOURCE ID: squash_toast
 TEXT: Has alcanzado el límite diario de incursiones remotas. Acércate para interactuar con este Gimnasio.
@@ -97843,10 +98078,10 @@ RESOURCE ID: stamp_completed_description
 TEXT: ¡Enhorabuena! ¡Has completado esta Caza de sellos!
 
 RESOURCE ID: stamp_info_banner
-TEXT: DETALLES DEL SELLO
+TEXT: DETALLES DE LA CAZA
 
 RESOURCE ID: stamp_mini_game_instruction
-TEXT: Stamp with long press
+TEXT: Mantén pulsada la pantalla para colocar el sello
 
 RESOURCE ID: stamp_page_tutorial_page_1_description
 TEXT: Una Caza de sellos es una actividad en la que coleccionas sellos en determinadas Poképaradas y Gimnasios.
@@ -97914,7 +98149,7 @@ TEXT: finaliza: {0}
 RESOURCE ID: stamp_rally_ends_on
 TEXT: Finaliza: {0}
 
-RESOURCE ID: stamp_rally_expired_on
+RESOURCE ID: stamp_rally_finished_on
 TEXT: Finalizado: {0}
 
 RESOURCE ID: stamp_rally_finishes_in
@@ -98240,21 +98475,6 @@ TEXT: En cambio, puede pasarlas canutas contra los ataques de tipo Volador, Psí
 
 RESOURCE ID: story_mightandmastery_3_3
 TEXT: Gracias a ti, parece que Kubfu está aprendiendo a forjar su propio camino. ¡Sigue dándole poder!
-
-RESOURCE ID: story_mightandmastery_4_0
-TEXT: 
-
-RESOURCE ID: story_mightandmastery_4_1
-TEXT: 
-
-RESOURCE ID: story_mightandmastery_4_2
-TEXT: 
-
-RESOURCE ID: story_mightandmastery_4_3
-TEXT: 
-
-RESOURCE ID: story_mightandmastery_4_4
-TEXT: 
 
 RESOURCE ID: story_quest_cosmog_sol23_0
 TEXT: Cielo estrellado (1/4)
@@ -99566,6 +99786,21 @@ TEXT: ¡Fin del trayecto, colega!
 RESOURCE ID: success_inventory_daily_butterfly_limit
 TEXT: Se ha alcanzado el límite y esta postal no cuenta para la insignia de Vivillon. ¡Prueba a guardar postales de amigos!
 
+RESOURCE ID: suita_city_rally_desc
+TEXT: A GO Stamp Rally that takes you around recommended areas in Suita City.
+
+RESOURCE ID: suita_city_rally_desc_detail
+TEXT: Collect stamps by visiting GO Stamp Rally PokéStops in Suita City for themed rewards!
+
+RESOURCE ID: suita_city_rally_location
+TEXT: Suita, Osaka, Japan
+
+RESOURCE ID: suita_city_rally_rewards_desc
+TEXT: Encounter a special Pikachu with a Suita City Location Background at the end of this rally!
+
+RESOURCE ID: suita_city_rally_title
+TEXT: Suita City Stamp Rally
+
 RESOURCE ID: summer_24_tr_title
 TEXT: Investigación temporal de Arenas estivales
 
@@ -99977,6 +100212,12 @@ TEXT: <b>Recompensas incluidas:</b>
 • Encuentros con Sprigatito con un fondo especial
 • ¡Y más!
 
+RESOURCE ID: text_rewards_key_cd_vanillite25
+TEXT: <b>Recompensas incluidas:</b>
+• Artículos prémium dentro del juego, como un Pase de combate prémium, una MT de ataque cargado y Caramelos Raros
+• Encuentros con Vanillite con un fondo especial
+• ¡Y mucho más!
+
 RESOURCE ID: text_rewards_key_cdc_ralts25
 TEXT: <b>Recompensas incluidas:</b>
 • Artículos prémium dentro del juego, como un Pase de combate prémium, una MT de ataque cargado y Caramelos Raros
@@ -100288,6 +100529,13 @@ Obtén más información sobre los bonus de la entrada <a href="pokemongolive.co
 RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
 TEXT: Una entrada para el evento global del Área Silvestre de Pokémon GO. Esta entrada es gratuita y con acceso anticipado.
 
+RESOURCE ID: text_rewards_key_growingup0525
+TEXT: <b>Recompensas incluidas:</b>
+• Encuentros con Magikarp, Wailmer, Swablu, Lucario, Wimpod, Rookidee y Tandemaus
+• Pose Avión de Papel
+• 15 Bayas Pinia
+• 3000 Polvos Estelares
+
 RESOURCE ID: text_rewards_key_growtogether24
 TEXT: <b>Bonus incluidos:</b>
 • Quíntuple de PX con el primer fotodisco que gires cada día
@@ -100443,6 +100691,12 @@ TEXT: <b>Bonus incluidos:</b>
 • 50 % más PX y el doble de Polvos Estelares al ganar incursiones
 
 RESOURCE ID: text_rewards_key_megaheracrossraidday
+TEXT: <b>Bonus incluidos:</b>
+• Ocho Pases de incursión adicionales al dar vueltas a fotodiscos en Gimnasios
+• Mayor probabilidad de recibir Caramelos Raros ++ en incursiones
+• 50 % más PX y el doble de Polvos Estelares al ganar incursiones
+
+RESOURCE ID: text_rewards_key_megakangaskhanraidday
 TEXT: <b>Bonus incluidos:</b>
 • Ocho Pases de incursión adicionales al dar vueltas a fotodiscos en Gimnasios
 • Mayor probabilidad de recibir Caramelos Raros ++ en incursiones
@@ -101063,6 +101317,9 @@ TEXT: Las entradas para la historia de investigación especial del Día de la Co
 
 RESOURCE ID: ticket_ultra_space_wonders
 TEXT: La entrada para la investigación temporal "Maravillas del Ultraespacio" está disponible en la tienda
+
+RESOURCE ID: ticket_vanillite_cd
+TEXT: Las entradas para la investigación especial del Día de la Comunidad de Vanillite están disponibles en la tienda
 
 RESOURCE ID: ticket_weedle
 TEXT: Las entradas para la historia de investigación especial "Una situación peliaguda" están disponibles en la tienda
@@ -101990,6 +102247,9 @@ TEXT: Búsqueda del tesoro del Campeonato Mundial Pokémon 2024 (1/1)
 
 RESOURCE ID: title_zorua_o_clock
 TEXT: Las Zorua en punto
+
+RESOURCE ID: tm_cannot_unlearn
+TEXT: {0} no puede olvidar {1}.
 
 RESOURCE ID: tm_elite_master_box
 TEXT: Pack Maestría Élite MT
@@ -104196,6 +104456,12 @@ TEXT: Desafío de colección de Teselia
 RESOURCE ID: unova_event_name
 TEXT: Evento de Teselia
 
+RESOURCE ID: upgrade_description_zacian
+TEXT: Este Pokémon puede usar Energía Espada Suprema para cambiar de forma si conoce el ataque cargado Cabeza de Hierro. Puedes obtener esta energía derrotando a Zacian Espada Suprema en incursiones.
+
+RESOURCE ID: upgrade_description_zamazenta
+TEXT: Este Pokémon puede usar Energía Escudo Supremo para cambiar de forma si conoce el ataque cargado Cabeza de Hierro. Puedes obtener esta energía derrotando a Zamazenta Escudo Supremo en incursiones.
+
 RESOURCE ID: upgrade_item_bag_button
 TEXT: Mejorar Bolsa
 
@@ -104421,6 +104687,12 @@ TEXT: Ciénaga Nociva
 RESOURCE ID: usa_timed_header_0
 TEXT: Ciénaga Nociva: Investigación temporal
 
+RESOURCE ID: use_behemoth_bash_effect
+TEXT: La defensa de los Pokémon aumenta en las incursiones y Combates Max.
+
+RESOURCE ID: use_behemoth_blade_effect
+TEXT: El ataque de los Pokémon aumenta en las incursiones y Combates Max.
+
 RESOURCE ID: use_field_effect
 TEXT: USAR
 
@@ -104433,8 +104705,14 @@ TEXT: El blanco se mueve más lento durante los encuentros.
 RESOURCE ID: use_item
 TEXT: USAR OBJETO
 
+RESOURCE ID: use_item_again_prompt_desc
+TEXT: Would you like to use another {0}?
+
 RESOURCE ID: use_item_button
 TEXT: USAR {0}
+
+RESOURCE ID: use_item_prompt_desc
+TEXT: Would you like to use a {0}?
 
 RESOURCE ID: use_lucky_egg_rewards
 TEXT: +{0} PX SI USAS UN HUEVO SUERTE
@@ -105680,6 +105958,12 @@ TEXT: Tu código de invitación ha cambiado.
 
 RESOURCE ID: your_trainer_code_title
 TEXT: Tu código de Entrenador
+
+RESOURCE ID: zacian_move_content
+TEXT: Zacian lleva una espada grande y poderosa durante {0} minutos. Refuerza los ataques de tus Pokémon en las incursiones y Combates Max.
+
+RESOURCE ID: zamazenta_move_content
+TEXT: Zamazenta lleva un escudo grande y poderoso durante {0} minutos. Refuerza la defensa de tus Pokémon en las incursiones y Combates Max.
 
 RESOURCE ID: zorua_o_clock_active
 TEXT: ¡Zorua está apareciendo en grandes cantidades!
