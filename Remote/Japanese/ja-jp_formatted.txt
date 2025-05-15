@@ -508,6 +508,9 @@ TEXT: ボーナスタイムチャレンジあり
 RESOURCE ID: bonus_rrp_limit_20_raids_max_battle
 TEXT: リモートレイド・マックスバトルの1日上限20回
 
+RESOURCE ID: bonus_rrp_limit_30_raids_max_battle
+TEXT: Daily Remote Raid and Max Battle limit increased to 30
+
 RESOURCE ID: bonus_tr_gbl_euic_2026_a_desc
 TEXT: 2026PokémonLAICチャンピオン：ボーナスタイムチャレンジ
 
@@ -773,6 +776,10 @@ RESOURCE ID: event_datetime_range_key_crown_clash_tgr
 TEXT: 5月14日12:00AM～
 5月18日11:59PM
 
+RESOURCE ID: event_datetime_range_key_finalstrike0525
+TEXT: 5月21日10:00AM～
+5月27日8:00PM
+
 RESOURCE ID: event_datetime_range_key_gmaxmachamp25
 TEXT: 5月25日2:00PM～5:00PM
 
@@ -947,6 +954,33 @@ TEXT: シャツ
 RESOURCE ID: filter_top_sweater
 TEXT: セーター
 
+RESOURCE ID: final_strike_event_bonus
+TEXT: 最後の一撃：GOバトルウィークタイムチャレンジボーナス
+
+RESOURCE ID: final_strike_event_name
+TEXT: 最後の一撃：GOバトルウィーク
+
+RESOURCE ID: final_strike_free_tr_name
+TEXT: 最後の一撃：GOバトルウィークタイムチャレンジ
+
+RESOURCE ID: final_strike_free_tr_name_1
+TEXT: 最後の一撃：GOバトルウィークタイムチャレンジ(1/3)
+
+RESOURCE ID: final_strike_free_tr_name_2
+TEXT: 最後の一撃：GOバトルウィークタイムチャレンジ(2/3)
+
+RESOURCE ID: final_strike_free_tr_name_3
+TEXT: 最後の一撃：GOバトルウィークタイムチャレンジ(3/3)
+
+RESOURCE ID: final_strike_premium_tr_name
+TEXT: 最後の一撃：GOバトルウィークプレミアムタイムチャレンジ
+
+RESOURCE ID: final_strike_premium_tr_name_1
+TEXT: 最後の一撃：GOバトルウィークプレミアムタイムチャレンジ(1/2)
+
+RESOURCE ID: final_strike_premium_tr_name_2
+TEXT: 最後の一撃：GOバトルウィークプレミアムタイムチャレンジ(2/2)
+
 RESOURCE ID: form_change_move_required
 TEXT: フォルムチェンジに必須
 
@@ -979,6 +1013,9 @@ TEXT: れきせんのゆうしゃ
 
 RESOURCE ID: galvanic_dojo
 TEXT: 刺激的な道場
+
+RESOURCE ID: general1.ticket.4_finalstrike0525_title
+TEXT: 最後の一撃：GOバトルウィークプレミアムタイムチャレンジチケット
 
 RESOURCE ID: general1.ticket._shadowregigigasraidday_title
 TEXT: レジギガスシャドウレイドデイチケット
@@ -1668,6 +1705,12 @@ TEXT: 現地時間2025年5月18日11:59PMまで「ロイヤルな活躍：占拠
 RESOURCE ID: item_event_ticket_details_crown_clash_tgr
 TEXT: このチケットは自動的に発動し5月14日に「ロイヤルな活躍：占拠」プレミアムタイムチャレンジが行えるようになります。
 
+RESOURCE ID: item_event_ticket_global_desc_finalstrike0525
+TEXT: 現地時間2025年5月27日8:00PMまで「最後の一撃：GOバトルウィーク」プレミアムタイムチャレンジが行えるチケット。
+
+RESOURCE ID: item_event_ticket_global_details_finalstrike0525
+TEXT: このチケットは自動的に発動し5月21日に「最後の一撃：GOバトルウィーク」プレミアムタイムチャレンジが行えるようになります。
+
 RESOURCE ID: item_event_ticket_gray_desc_gmaxmachamp25
 TEXT: 現地時間2025年5月25日2:00PM～5:00PMにボーナスを受け取るためのチケット。
 
@@ -1703,6 +1746,9 @@ TEXT: このチケットは自動的に発動し4月27日に「しんせつポ�
 
 RESOURCE ID: item_event_ticket_pink_details_cdc_machop25
 TEXT: このチケットは自動的に発動し5月24日にワンリキーコミュニティ・デイ復刻のスペシャルリサーチが行えるようになります。
+
+RESOURCE ID: item_expiration_consolation
+TEXT: Your {0} has broken down!
 
 RESOURCE ID: item_expiration_day_left_plural
 TEXT: You have {0} days left to use this item.
@@ -1797,10 +1843,10 @@ RESOURCE ID: mega_kangaskhan_tr_may_2025_title
 TEXT: メガガルーラレイドデイタイムチャレンジ
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-05-13T03:05:48.480245+00:00 for ja-JP
-at SHA cb67288813f
-Pipeline 3198835, job 40813525
-Patch from: 0.361.0-SHA-01d43987-RC4, 0.359.0-SHA-2ec47354-RC2, 0.363.0-SHA-20b4a939-RC1
+TEXT: Built at 2025-05-15T01:09:25.519657+00:00 for ja-JP
+at SHA 57b4627b09a
+Pipeline 3202576, job 40930811
+Patch from: 0.359.0-SHA-0d956980-RC5, 0.361.0-SHA-7a383ef7-RC2, 0.363.0-SHA-20b4a939-RC1
 
 RESOURCE ID: moonless_volcano
 TEXT: 薄暗い火山
@@ -1861,7 +1907,7 @@ RESOURCE ID: photobomb_five_vanillite
 TEXT: GOスナップショットでバニプッチのサプライズ5回
 
 RESOURCE ID: poi_report_photo_details
-TEXT: 問題を表す写真を追加することができます。
+TEXT: 問題を示す写真を追加することができます。
 
 画質が良く、人や動物などが遮ることなく対象物が鮮明に捉えられており、その場所の問題を端的に示す写真を送信してください。
 
@@ -2180,7 +2226,7 @@ RESOURCE ID: prefecture_yamanashi
 TEXT: Yamanashi
 
 RESOURCE ID: purchase_on_web_store_string_key
-TEXT: Web Store
+TEXT: WEB STOREで購入
 
 RESOURCE ID: quest_change_form_zacian
 TEXT: ザシアンのフォルムを変える
@@ -2524,14 +2570,46 @@ TEXT: GOパスデラックス：4月を購入すると以下のリワードが�
 ・キラフレンドになれるアイテムの<a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">キラチャーム</a>1個
 ・その他
 
+RESOURCE ID: season_pass_aug2025_event_duration
+TEXT: August 5 – September 2
+
+RESOURCE ID: season_pass_aug2025_upgrade_description
+TEXT: Purchase GO Pass Deluxe: August to unlock the following rewards!
+
+• One Super Incubator 
+• One <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Lucky Trinket</a>, which allows you to instantly become Lucky Friends with a friend of your choice
+• And much more!
+
+RESOURCE ID: season_pass_base_track_title_aug
+TEXT: GO Pass: August
+
+RESOURCE ID: season_pass_base_track_title_july
+TEXT: GO Pass: July
+
 RESOURCE ID: season_pass_base_track_title_june
 TEXT: GOパス：6月
+
+RESOURCE ID: season_pass_details_link_aug
+TEXT: For more details, visit the <a href="https://pokemongolive.com/post/go-pass-august-2025">website</a>.
+
+RESOURCE ID: season_pass_details_link_july
+TEXT: For more details, visit the <a href="https://pokemongolive.com/post/go-pass-july-2025">website</a>.
 
 RESOURCE ID: season_pass_details_link_june
 TEXT: 詳細は<a href="https://pokemongolive.com/post/go-pass-june-2025">ウェブサイト</a>でご確認ください
 
 RESOURCE ID: season_pass_details_link_may
 TEXT: 詳細は<a href="https://pokemongolive.com/post/go-pass-may-2025">ウェブサイト</a>でご確認ください
+
+RESOURCE ID: season_pass_july2025_event_duration
+TEXT: July 1 – August 5
+
+RESOURCE ID: season_pass_july2025_upgrade_description
+TEXT: Purchase GO Pass Deluxe: July to unlock the following rewards!
+
+• One Super Incubator 
+• One <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Lucky Trinket</a>, which allows you to instantly become Lucky Friends with a friend of your choice
+• And much more!
 
 RESOURCE ID: season_pass_june2025_event_duration
 TEXT: 6月3日～7月1日
@@ -2559,8 +2637,20 @@ TEXT: GOパスデラックス：5月を購入すると以下のリワードが�
 RESOURCE ID: season_pass_premium_rewards_desc_monthly_no_disclaimer
 TEXT: ランクが上がるとリワードがアンロックされます。期限内にプレイしリワードを受け取ってください。
 
+RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_aug
+TEXT: GO Pass Deluxe: August + 10 Ranks
+
+RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_july
+TEXT: GO Pass Deluxe: July + 10 Ranks
+
 RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_june
 TEXT: GOパスデラックス：6月＋10ランク
+
+RESOURCE ID: season_pass_premium_track_title_aug
+TEXT: GO Pass Deluxe: August
+
+RESOURCE ID: season_pass_premium_track_title_july
+TEXT: GO Pass Deluxe: July
 
 RESOURCE ID: season_pass_premium_track_title_june
 TEXT: GOパスデラックス：6月
@@ -2863,13 +2953,13 @@ RESOURCE ID: sr_gofest2025_ss_branch_sword_title
 TEXT: ソードジャーニー
 
 RESOURCE ID: stamp_collection_info_see_link
-TEXT: SEE ON MAP
+TEXT: マップを見る
 
 RESOURCE ID: stamp_info_banner
 TEXT: スタンプラリーの情報
 
 RESOURCE ID: stamp_info_map_header
-TEXT: STAMP RALLY MAP
+TEXT: スタンプラリーマップ
 
 RESOURCE ID: stamp_rally_finished_on
 TEXT: {0}終了
@@ -2885,7 +2975,7 @@ RESOURCE ID: stamp_tutorial_page_2_header
 TEXT: 簡単に確認できます
 
 RESOURCE ID: stamp_web_link_callout
-TEXT: STAMP RALLY MAP
+TEXT: スタンプラリーマップ
 
 RESOURCE ID: start_training
 TEXT: Start Training
@@ -2977,6 +3067,13 @@ TEXT: <b>もらえるもの：</b>
 ・プレミアムバトルパス2枚
 ・スーパーロケットレーダー1個、など
 
+RESOURCE ID: text_rewards_key_finalstrike0525
+TEXT: <b>もらえるもの：</b>
+・アサナン、スカンプー、ヒドイデとの出会い
+・プレミアムバトルパス2枚
+・マックス粒子パック1個
+・しあわせタマゴ4個、など
+
 RESOURCE ID: text_rewards_key_gmaxmachamp25
 TEXT: <b>もらえるもの：</b>
 ・パワースポット・探索で集める4000マックス粒子追加
@@ -3039,10 +3136,10 @@ RESOURCE ID: today_view_throwing_competition
 TEXT: リージョナルスローイング大会
 
 RESOURCE ID: tr_gofest2025_leadup_articuno_1
-TEXT: Ancients Recovered Timed Research: Fleeting Legends - Galarian Articuno
+TEXT: Ancients Recovered Premium Timed Research: Fleeting Legends - Galarian Articuno
 
 RESOURCE ID: tr_gofest2025_leadup_articuno_description
-TEXT: Choose this path to pursue Galarian Articuno
+TEXT: Choose this path to pursue Galarian Articuno.
 
 RESOURCE ID: tr_gofest2025_leadup_articuno_title
 TEXT: Galarian Articuno
@@ -3060,10 +3157,10 @@ RESOURCE ID: tr_gofest2025_leadup_giants
 TEXT: 過去の残像タイムチャレンジ：大地
 
 RESOURCE ID: tr_gofest2025_leadup_moltres_1
-TEXT: Ancients Recovered Timed Research: Fleeting Legends - Galarian Moltres
+TEXT: Ancients Recovered Premium Timed Research: Fleeting Legends - Galarian Moltres
 
 RESOURCE ID: tr_gofest2025_leadup_moltres_description
-TEXT: Choose this path to pursue Galarian Moltres
+TEXT: Choose this path to pursue Galarian Moltres.
 
 RESOURCE ID: tr_gofest2025_leadup_moltres_title
 TEXT: Galarian Moltres
@@ -3078,10 +3175,10 @@ RESOURCE ID: tr_gofest2025_leadup_regi_choice_00
 TEXT: Hmm....looks like we've discovered some mysterious symbols.
 
 RESOURCE ID: tr_gofest2025_leadup_zapdos_1
-TEXT: Ancients Recovered Timed Research: Fleeting Legends - Galarian Zapdos
+TEXT: Ancients Recovered Premium Timed Research: Fleeting Legends - Galarian Zapdos
 
 RESOURCE ID: tr_gofest2025_leadup_zapdos_description
-TEXT: Choose this path to pursue Galarian Zapdos
+TEXT: Choose this path to pursue Galarian Zapdos.
 
 RESOURCE ID: tr_gofest2025_leadup_zapdos_title
 TEXT: Galarian Zapdos
@@ -3171,7 +3268,7 @@ RESOURCE ID: visit_web_store_banner_string_key
 TEXT: <color=#F2A64B>Pokémon GO Web Store</color>でオンラインショップ限定オファーやボーナスをゲット！
 
 RESOURCE ID: visit_web_store_banner_url_key
-TEXT: https://store.pokemongo.com/?utm_source=PGO&utm_medium=in-game-shop&utm_campaign=pgo_webstore_linkout&utm_content=banner_view_webstore
+TEXT: https://store.pokemongo.com/?utm_source=PGO&utm_medium=IAN&utm_campaign=pgo_webstore_linkout&utm_content=banner_view_webstore_IAN
 
 RESOURCE ID: visit_web_store_item_url_key
 TEXT: https://store.pokemongo.com/?itemId={0}
@@ -3180,16 +3277,13 @@ RESOURCE ID: visit_web_store_pokecoin_floater_url_key
 TEXT: https://store.pokemongo.com/?utm_source=PGO&utm_medium=in-game-shop&utm_campaign=pgo_webstore_linkout&utm_content=webstore_icon#POKECOIN
 
 RESOURCE ID: visit_web_store_pokecoin_string_key
-TEXT: <color=#F2A64B>Pokémon GO Web Store</color>で購入するとリワードポイント2倍＋10% ボーナスポケコインがもらえます！
+TEXT: <color=#F2A64B>Pokémon GO Web Store</color>で購入するとリワードポイント2倍や最大＋10%ボーナスポケコインがもらえます！
 
 RESOURCE ID: visit_web_store_pokecoin_url_key
 TEXT: https://store.pokemongo.com/?utm_source=PGO&utm_medium=in-game-shop&utm_campaign=pgo_webstore_linkout&utm_content=banner_pokecoins#POKECOINS
 
 RESOURCE ID: web_store_name_text_key
 TEXT: Web Store
-
-RESOURCE ID: your_training_token_broke_to_coins
-TEXT: Your {0} has broken down!
 
 RESOURCE ID: zacian_move_content
 TEXT: ザシアンが{0}のあいだ強力な剣を振りかざすため、レイドやマックスバトルでのポケモンのこうげきがアップする

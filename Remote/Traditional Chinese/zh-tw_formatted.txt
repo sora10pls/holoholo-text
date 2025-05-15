@@ -511,6 +511,9 @@ TEXT: Bonus Timed Research is available
 RESOURCE ID: bonus_rrp_limit_20_raids_max_battle
 TEXT: 每天可參加遠距團體戰和遠距極巨對戰的上限增加至20次
 
+RESOURCE ID: bonus_rrp_limit_30_raids_max_battle
+TEXT: Daily Remote Raid and Max Battle limit increased to 30
+
 RESOURCE ID: bonus_tr_gbl_euic_2026_a_desc
 TEXT: 2026 Pokémon LAIC冠軍賽：獎勵限時調查
 
@@ -710,7 +713,7 @@ RESOURCE ID: catch_stardust_1.5x
 TEXT: 捕獲寶可夢時的星星沙子增為1.5倍
 
 RESOURCE ID: change_goal
-TEXT: 改變目標
+TEXT: 變更目標
 
 RESOURCE ID: change_goal_warning_description
 TEXT: 目標已達成。將結束{0}的極限特訓。
@@ -719,10 +722,10 @@ RESOURCE ID: change_goal_warning_title
 TEXT: 確定要變更{0}的特訓目標嗎？
 
 RESOURCE ID: change_hyper_training_goal_plural_description
-TEXT: 選擇想鍛鍊的項目和鍛鍊程度（CP會自動提升）
+TEXT: 選擇想鍛鍊的項目和鍛鍊程度（CP將自動提升）
 
 RESOURCE ID: change_hyper_training_goal_single_description
-TEXT: 選擇想鍛鍊的程度（CP會自動提升）
+TEXT: 選擇想鍛鍊的程度（CP將自動提升）
 
 RESOURCE ID: change_hyper_training_goal_title
 TEXT: 變更{0}的特訓目標
@@ -841,6 +844,10 @@ TEXT: 5月24日14:00～17:00
 RESOURCE ID: event_datetime_range_key_crown_clash_tgr
 TEXT: 5月14日00:00～
 5月18日23:59
+
+RESOURCE ID: event_datetime_range_key_finalstrike0525
+TEXT: 5月21日10:00～
+5月27日20:00
 
 RESOURCE ID: event_datetime_range_key_gmaxmachamp25
 TEXT: 5月25日14:00～17:00
@@ -1013,6 +1020,39 @@ TEXT: 上衣
 RESOURCE ID: filter_top_sweater
 TEXT: 毛衣
 
+RESOURCE ID: final_strike_event_bonus
+TEXT: 最後一擊：GO對戰週限時調查獎勵
+
+RESOURCE ID: final_strike_event_name
+TEXT: 最後一擊：GO對戰週
+
+RESOURCE ID: final_strike_free_tr_name
+TEXT: 最後一擊：GO對戰週限時調查
+
+RESOURCE ID: final_strike_free_tr_name_1
+TEXT: 最後一擊：GO對戰週限時調查(1/3)
+
+RESOURCE ID: final_strike_free_tr_name_2
+TEXT: 最後一擊：GO對戰週限時調查(2/3)
+
+RESOURCE ID: final_strike_free_tr_name_3
+TEXT: 最後一擊：GO對戰週限時調查(3/3)
+
+RESOURCE ID: final_strike_premium_tr_name
+TEXT: 最後一擊：GO對戰週特級限時調查
+
+RESOURCE ID: final_strike_premium_tr_name_1
+TEXT: 最後一擊：GO對戰週特級限時調查(1/2)
+
+RESOURCE ID: final_strike_premium_tr_name_2
+TEXT: 最後一擊：GO對戰週特級限時調查(2/2)
+
+RESOURCE ID: form_aegislash_blade
+TEXT: 刀劍形態
+
+RESOURCE ID: form_aegislash_shield
+TEXT: 盾牌形態
+
 RESOURCE ID: form_change_move_required
 TEXT: 形態變化時所需招式
 
@@ -1023,7 +1063,7 @@ RESOURCE ID: form_change_raid_toast
 TEXT: {0}回到了{1}的樣子
 
 RESOURCE ID: form_change_warn_needed_move
-TEXT: {0} is required to change form
+TEXT: 需有{0}才能改變樣子
 
 RESOURCE ID: form_zacian_crowned_sword
 TEXT: 劍之王
@@ -1042,6 +1082,9 @@ TEXT: 正在參加<b>{0}</b>對戰
 
 RESOURCE ID: galvanic_dojo
 TEXT: Galvanic Dojo
+
+RESOURCE ID: general1.ticket.4_finalstrike0525_title
+TEXT: 最後一擊：GO對戰週特級限時調查入場券
 
 RESOURCE ID: general1.ticket._shadowregigigasraidday_title
 TEXT: 雷吉奇卡斯暗影團體戰日入場券
@@ -1536,13 +1579,13 @@ RESOURCE ID: hp_training_string_key
 TEXT: HP特訓{0}
 
 RESOURCE ID: hyper_train_item_expiration_desc
-TEXT: 特訓期間最長1年
+TEXT: 特訓期間最長為期1年
 
 RESOURCE ID: hyper_train_pokemon_title
-TEXT: 特訓{0}
+TEXT: {0}的極限特訓
 
 RESOURCE ID: hyper_train_single_item_description
-TEXT: 鍛鍊一隻
+TEXT: 鍛鍊一項
 
 RESOURCE ID: hyper_train_triple_item_description
 TEXT: 鍛鍊全部
@@ -1617,13 +1660,13 @@ RESOURCE ID: hyper_training_expired_key
 TEXT: Hyper Training Has Ended
 
 RESOURCE ID: hyper_training_last_trained_on
-TEXT: 最近的特訓：{0}
+TEXT: 上次特訓：{0}
 
 RESOURCE ID: hyper_training_prereq_quest_desc
-TEXT: 「正港好夥伴」可以接受極限特訓
+TEXT: 成為「好夥伴」便可以接受極限特訓
 
 RESOURCE ID: hyper_training_prereq_quest_title
-TEXT: 成為夥伴
+TEXT: 成為好夥伴
 
 RESOURCE ID: hyper_training_see_all_tasks
 TEXT: 查看所有課題
@@ -1665,7 +1708,7 @@ RESOURCE ID: hyper_training_training_goal_heading
 TEXT: 特訓目標
 
 RESOURCE ID: hyper_training_view_all_tasks_desc
-TEXT: 課題完成結果將自動更新。每當完成想鍛鍊的項目課題，極限特訓就會更加見效。
+TEXT: 完成課題後的成果將會自動更新。在各個想鍛鍊的項目內完成課題，極限特訓就會有所進展。
 
 RESOURCE ID: hyper_training_willow_training_complete_dialogue_1
 TEXT: Hey, {0}! You and {1} have finished your Hyper Training course.
@@ -1707,7 +1750,7 @@ RESOURCE ID: iris_social_nameplates_toast
 TEXT: 顯示寶可夢名稱等資訊
 
 RESOURCE ID: item_bag_expiring_soon
-TEXT: Expiring Soon
+TEXT: 即將到期
 
 RESOURCE ID: item_event_ticket_09_desc_growingup0525
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年5月7日20:00前參與頭好壯壯長大大特級限時調查。
@@ -1720,6 +1763,12 @@ TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時�
 
 RESOURCE ID: item_event_ticket_details_crown_clash_tgr
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間5月14日開始參與「大展王者風範：佔領」特級限時調查。
+
+RESOURCE ID: item_event_ticket_global_desc_finalstrike0525
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年5月27日20:00前參與「最後一擊：GO對戰週」特級限時調查。
+
+RESOURCE ID: item_event_ticket_global_details_finalstrike0525
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間5月21日開始參與「最後一擊：GO對戰週」特級限時調查。
 
 RESOURCE ID: item_event_ticket_gray_desc_gmaxmachamp25
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年5月25日14:00～17:00領取特別的獎勵。
@@ -1756,6 +1805,9 @@ TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時�
 
 RESOURCE ID: item_event_ticket_pink_details_cdc_machop25
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間5月24日參與腕力經典社群日特殊調查。
+
+RESOURCE ID: item_expiration_consolation
+TEXT: Your {0} has broken down!
 
 RESOURCE ID: item_expiration_day_left_plural
 TEXT: 能使用這個道具的時間還剩{0}天
@@ -1811,16 +1863,16 @@ RESOURCE ID: item_resource_crowned_zamazenta_name_plural
 TEXT: 盾王能量
 
 RESOURCE ID: item_single_stat_increase_desc
-TEXT: Enables a year-long Hyper Training course where you can fully raise one of a Pokémon’s stats.
+TEXT: 為期一年，用於鍛鍊寶可夢部分能力所需的王冠。
 
 RESOURCE ID: item_single_stat_increase_name
 TEXT: 銀色王冠
 
 RESOURCE ID: item_triple_stat_increase_desc
-TEXT: Enables a year-long Hyper Training course where you can fully raise all of a Pokémon’s stats.
+TEXT: 為期一年，用於鍛鍊寶可夢全部能力所需的王冠。
 
 RESOURCE ID: item_triple_stat_increase_name
-TEXT: Gold Bottle Cap
+TEXT: 金色王冠
 
 RESOURCE ID: kr_ditto_event_2025_ditto_o_clock_active
 TEXT: 百變怪大量出現中！
@@ -1880,10 +1932,10 @@ RESOURCE ID: mega_kangaskhan_tr_may_2025_title
 TEXT: 超級袋獸團體戰日限時調查
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-05-13T03:05:48.480245+00:00 for zh-TW
-at SHA cb67288813f
-Pipeline 3198835, job 40813525
-Patch from: 0.361.0-SHA-01d43987-RC4, 0.359.0-SHA-2ec47354-RC2, 0.363.0-SHA-20b4a939-RC1
+TEXT: Built at 2025-05-15T01:09:25.519657+00:00 for zh-TW
+at SHA 57b4627b09a
+Pipeline 3202576, job 40930811
+Patch from: 0.359.0-SHA-0d956980-RC5, 0.361.0-SHA-7a383ef7-RC2, 0.363.0-SHA-20b4a939-RC1
 
 RESOURCE ID: moonless_volcano
 TEXT: Moonless Volcano
@@ -1939,7 +1991,7 @@ RESOURCE ID: nearby_rsvp_notification_raid_key_singular
 TEXT: 附近有團體戰即將開始！
 
 RESOURCE ID: next
-TEXT: 繼續
+TEXT: 下一步
 
 RESOURCE ID: no_farther_stats_improvement
 TEXT: You will not be able to improve {0}’s stats any further.
@@ -2084,10 +2136,10 @@ RESOURCE ID: pokelid_map_url_yamaguchi
 TEXT: https://www.google.com/maps/d/viewer?mid=1h9deeoW7yvfyFUS-PGBxV4rwsewW6F4
 
 RESOURCE ID: pokemon_hypertrained_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer this Pokémon that has undergone Hyper Training?
+TEXT: 你確定要把這隻曾經接受極限特訓的寶可夢傳送給博士嗎？
 
 RESOURCE ID: pokemon_info_caught_breadbattle_remote
-TEXT: REMOTELY CAUGHT AT A MAX BATTLE
+TEXT: 在遠距極巨對戰中捉到
 
 RESOURCE ID: pokemon_info_evolve_need_bread_move
 TEXT: 需要{0}(等級{1})
@@ -2105,13 +2157,16 @@ TEXT: 確定要讓樣子改變如下嗎？
 {2}
 
 RESOURCE ID: pokemon_info_form_change_warning
-TEXT: Are you sure you want to change {0} from its {1} form to its {2} form?
+TEXT: 你真的確定要讓樣子改變如下嗎？
+{0}：
+{1}→
+{2}
 
 RESOURCE ID: pokemon_info_pokecoin_label
 TEXT: 寶可幣
 
 RESOURCE ID: pokemon_info_powerspot_warning
-TEXT: {0} will no longer be able to battle at Power Spots.
+TEXT: {0}將無法參加能量點的對戰
 
 RESOURCE ID: pokemon_info_powerup_is_shadow
 TEXT: Shadow Pokémon cannot receive Hyper Training.
@@ -2270,7 +2325,7 @@ RESOURCE ID: prefecture_yamanashi
 TEXT: Yamanashi
 
 RESOURCE ID: purchase_on_web_store_string_key
-TEXT: Web Store
+TEXT: BUY – WEB STORE
 
 RESOURCE ID: quest_change_form_zacian
 TEXT: 改變蒼響的形態
@@ -2399,22 +2454,22 @@ RESOURCE ID: quest_title_vanillite_2
 TEXT: 解開新雪寶可夢之謎！(3/3)
 
 RESOURCE ID: quest_trainee_battle_gbl_plural
-TEXT: 把受訓寶可夢加入對戰小隊並參加{0}次GO對戰聯盟
+TEXT: 將受訓寶可夢加入對戰小隊，並在GO對戰聯盟中對戰{0}次
 
 RESOURCE ID: quest_trainee_battle_gbl_singular
-TEXT: Battle in the GO Battle League with your trainee in your battle party
+TEXT: 將受訓寶可夢加入對戰小隊，並在GO對戰聯盟中對戰
 
 RESOURCE ID: quest_trainee_battle_gbl_win_plural
-TEXT: Win {0} Trainer Battles in the GO Battle League with your trainee in your battle party
+TEXT: 將受訓寶可夢加入對戰小隊，並在GO對戰聯盟的訓練家對戰中獲勝{0}次
 
 RESOURCE ID: quest_trainee_battle_great_win_plural
 TEXT: Win {0} Trainer Battles in the Great League with your trainee as your buddy
 
 RESOURCE ID: quest_trainee_battle_gym_plural
-TEXT: 把受訓寶可夢加入對戰小隊並參加{0}次道館對戰
+TEXT: 將受訓寶可夢加入對戰小隊，並參加{0}次道館對戰
 
 RESOURCE ID: quest_trainee_battle_gym_singular
-TEXT: Battle in a Gym with your trainee in your battle party
+TEXT: 將受訓寶可夢加入對戰小隊，並參加道館對戰
 
 RESOURCE ID: quest_trainee_battle_master_win_plural
 TEXT: Win {0} Trainer Battles in the Master League with your trainee as your buddy
@@ -2423,22 +2478,22 @@ RESOURCE ID: quest_trainee_battle_plural
 TEXT: Battle with your trainee in your battle party {0} times
 
 RESOURCE ID: quest_trainee_battle_raid_plural
-TEXT: 把受訓寶可夢加入對戰小隊參加{0}場團體戰
+TEXT: 將受訓寶可夢加入對戰小隊，並參加{0}場團體戰
 
 RESOURCE ID: quest_trainee_battle_raid_singular
-TEXT: Battle in a raid with your trainee in your battle party
+TEXT: 將受訓寶可夢加入對戰小隊，並參加團體戰
 
 RESOURCE ID: quest_trainee_battle_singular
 TEXT: Battle with your trainee in your battle party
 
 RESOURCE ID: quest_trainee_battle_team_rocket_plural
-TEXT: 把受訓寶可夢加入對戰小隊與GO火箭隊對戰{0}次
+TEXT: 將受訓寶可夢加入對戰小隊，並與{0}個GO火箭隊成員對戰
 
 RESOURCE ID: quest_trainee_battle_team_rocket_singular
-TEXT: Battle a Team GO Rocket member with your trainee in your battle party
+TEXT: 將受訓寶可夢加入對戰小隊，並與GO火箭隊成員對戰
 
 RESOURCE ID: quest_trainee_battle_trainer_or_team_leader_singular
-TEXT: 把受訓寶可夢加入對戰小隊，和其他訓練家或隊長對戰
+TEXT: 將受訓寶可夢加入對戰小隊，並與其他訓練家或隊長對戰
 
 RESOURCE ID: quest_trainee_battle_ultra_win_plural
 TEXT: Win {0} Trainer Battles in the Ultra League with your trainee as your buddy
@@ -2447,67 +2502,67 @@ RESOURCE ID: quest_trainee_battle_win_plural
 TEXT: Win {0} Battles with your trainee in your Battle Party
 
 RESOURCE ID: quest_trainee_buddy_play_days_plural
-TEXT: Play with your trainee as your buddy on {0} different days
+TEXT: 將受訓寶可夢設成夥伴，並和牠一起玩{0}天
 
 RESOURCE ID: quest_trainee_buddy_play_singular
-TEXT: Play with your trainee as your buddy
+TEXT: 將受訓寶可夢設成夥伴，並和牠一起玩
 
 RESOURCE ID: quest_trainee_catch_pokemon_plural
-TEXT: Catch {0} Pokémon with your trainee as your buddy
+TEXT: 將受訓寶可夢設成夥伴，並捕捉{0}隻寶可夢
 
 RESOURCE ID: quest_trainee_catch_unique_any_plural
-TEXT: 把受訓寶可夢設為夥伴並捕捉{0}種寶可夢
+TEXT: 將受訓寶可夢設成夥伴，並捕捉{0}種不同的寶可夢
 
 RESOURCE ID: quest_trainee_defeat_rocket_leader_plural
-TEXT: Defeat a Team GO Rocket Leader {0} times with your trainee in your battle party
+TEXT: 將受訓寶可夢加入對戰小隊，並打敗GO火箭隊幹部{0}次
 
 RESOURCE ID: quest_trainee_defeat_rocket_plural
-TEXT: 把受訓寶可夢加入對戰小隊並打敗GO火箭隊{0}次
+TEXT: 將受訓寶可夢加入對戰小隊，並打敗{0}個GO火箭隊成員
 
 RESOURCE ID: quest_trainee_explore_buddy_plural
-TEXT: Earn {0} Candies exploring with your trainee as your buddy
+TEXT: 將受訓寶可夢設成夥伴，並和牠一起探索，取得{0}顆糖果
 
 RESOURCE ID: quest_trainee_explore_buddy_singular
-TEXT: Earn a Candy exploring with your trainee as your buddy
+TEXT: 將受訓寶可夢設成夥伴，並和牠一起探索，取得1顆糖果
 
 RESOURCE ID: quest_trainee_explore_km_plural
-TEXT: Explore {0} km with your trainee as your buddy
+TEXT: 將受訓寶可夢設成夥伴，並和牠探索{0}公里
 
 RESOURCE ID: quest_trainee_field_research_plural
-TEXT: Complete {0} Field Research tasks with your trainee as your buddy
+TEXT: 將受訓寶可夢設成夥伴，並完成{0}個田野調查課題
 
 RESOURCE ID: quest_trainee_field_research_singular
-TEXT: Complete a Field Research task with your trainee as your buddy
+TEXT: 將受訓寶可夢設成夥伴，並完成1個田野調查課題
 
 RESOURCE ID: quest_trainee_hatch_egg_plural
-TEXT: Hatch {0} Eggs with your trainee as your buddy
+TEXT: 將受訓寶可夢設成夥伴，並孵化{0}顆蛋
 
 RESOURCE ID: quest_trainee_hatch_egg_singular
-TEXT: Hatch an Egg with your trainee as your buddy
+TEXT: 將受訓寶可夢設成夥伴，並孵化1顆蛋
 
 RESOURCE ID: quest_trainee_power_up_shared_type_plural
-TEXT: Power up a Pokémon that shares a type with your trainee {0} times
+TEXT: 強化1隻和受訓寶可夢相同屬性的寶可夢{0}次
 
 RESOURCE ID: quest_trainee_power_up_shared_type_singular
-TEXT: Power up a Pokémon that shares a type with your trainee
+TEXT: 強化1隻和受訓寶可夢相同屬性的寶可夢
 
 RESOURCE ID: quest_trainee_snapshot_days_plural
-TEXT: Take a snapshot of your trainee on {0} different days
+TEXT: 為受訓寶可夢拍攝GO Snapshot照片{0}天
 
 RESOURCE ID: quest_trainee_snapshot_singular
-TEXT: Take a snapshot of your trainee
+TEXT: 為受訓寶可夢拍攝GO Snapshot照片
 
 RESOURCE ID: quest_trainee_visit_pokestops_plural
-TEXT: Spin {0} PokéStops or Gyms with your trainee as your buddy
+TEXT: 將受訓寶可夢設成夥伴，並旋轉{0}個寶可補給站或道館轉盤
 
 RESOURCE ID: quest_trainee_visit_pokestops_singular
-TEXT: Spin a PokéStop or Gym with your trainee as your buddy
+TEXT: 將受訓寶可夢設成夥伴，並旋轉寶可補給站或道館轉盤
 
 RESOURCE ID: quest_trainee_win_gym_plural
-TEXT: Win {0} Gym battles with your trainee in your battle party
+TEXT: 將受訓寶可夢加入對戰小隊，並在道館對戰中獲勝{0}次
 
 RESOURCE ID: quest_trainee_win_raid_plural
-TEXT: 把受訓寶可夢加入對戰小隊，並在團體戰中獲勝{0}次
+TEXT: 將受訓寶可夢加入對戰小隊，並在團體戰中獲勝{0}次
 
 RESOURCE ID: quest_vanillite_catch_b
 TEXT: 捕捉{0}隻迷你冰
@@ -2522,13 +2577,13 @@ RESOURCE ID: quest_walk_buddy_volcanion_plural
 TEXT: 將波爾凱尼恩設成夥伴，並和牠一起探索，取得{0}顆糖果
 
 RESOURCE ID: quests_training_batch_updated
-TEXT: {0} Hyper Training Tasks Updated
+TEXT: {0}個極限特訓課題有所進展
 
 RESOURCE ID: quests_training_multiple_task_available
-TEXT: {0} New Hyper Training Tasks!
+TEXT: 新的極限特訓課題({0})！
 
 RESOURCE ID: quests_training_task_available
-TEXT: New Hyper Training Task!
+TEXT: 新的極限特訓課題！
 
 RESOURCE ID: quick_invitation_modal_message_string_key
 TEXT: 若要邀請推薦的朋友，需要取消勾選目前已選擇的所有好友
@@ -2585,7 +2640,7 @@ RESOURCE ID: remote_max_battle_invite_push_notif
 TEXT: 朋友邀請你去參加極巨對戰！
 
 RESOURCE ID: remote_raid_and_max_battle_invite_notification_toggle
-TEXT: Raid and Max Battle Invitations
+TEXT: 團體戰和極巨對戰的邀請
 
 RESOURCE ID: rewarded_spend_helpshift_desc
 TEXT: 獎勵之路是根據每月指定商品的消費金額*累積獎勵點數的獎勵方案名稱。依下列步驟達成一定點數，即可提升獎勵之路等級。
@@ -2601,14 +2656,46 @@ TEXT: 獎勵之路是根據每月指定商品的消費金額*累積獎勵點數�
 RESOURCE ID: score_6_none
 TEXT: Won 0 raids
 
+RESOURCE ID: season_pass_aug2025_event_duration
+TEXT: August 5 – September 2
+
+RESOURCE ID: season_pass_aug2025_upgrade_description
+TEXT: Purchase GO Pass Deluxe: August to unlock the following rewards!
+
+• One Super Incubator 
+• One <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Lucky Trinket</a>, which allows you to instantly become Lucky Friends with a friend of your choice
+• And much more!
+
+RESOURCE ID: season_pass_base_track_title_aug
+TEXT: GO Pass: August
+
+RESOURCE ID: season_pass_base_track_title_july
+TEXT: GO Pass: July
+
 RESOURCE ID: season_pass_base_track_title_june
 TEXT: GO Pass: June
+
+RESOURCE ID: season_pass_details_link_aug
+TEXT: For more details, visit the <a href="https://pokemongolive.com/post/go-pass-august-2025">website</a>.
+
+RESOURCE ID: season_pass_details_link_july
+TEXT: For more details, visit the <a href="https://pokemongolive.com/post/go-pass-july-2025">website</a>.
 
 RESOURCE ID: season_pass_details_link_june
 TEXT: For more details, visit the <a href="https://pokemongolive.com/post/go-pass-june-2025">website</a>.
 
 RESOURCE ID: season_pass_details_link_may
 TEXT: 詳情請至<a href="https://pokemongolive.com/post/go-pass-may-2025">網站</a>確認
+
+RESOURCE ID: season_pass_july2025_event_duration
+TEXT: July 1 – August 5
+
+RESOURCE ID: season_pass_july2025_upgrade_description
+TEXT: Purchase GO Pass Deluxe: July to unlock the following rewards!
+
+• One Super Incubator 
+• One <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Lucky Trinket</a>, which allows you to instantly become Lucky Friends with a friend of your choice
+• And much more!
 
 RESOURCE ID: season_pass_june2025_event_duration
 TEXT: June 3 – July 1
@@ -2623,14 +2710,26 @@ TEXT: Purchase GO Pass Deluxe: June to unlock the following rewards!
 RESOURCE ID: season_pass_premium_rewards_desc_monthly_no_disclaimer
 TEXT: Rewards are unlocked as your rank increases. You must play during the time period to receive rewards.
 
+RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_aug
+TEXT: GO Pass Deluxe: August + 10 Ranks
+
+RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_july
+TEXT: GO Pass Deluxe: July + 10 Ranks
+
 RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_june
 TEXT: GO Pass Deluxe: June + 10 Ranks
+
+RESOURCE ID: season_pass_premium_track_title_aug
+TEXT: GO Pass Deluxe: August
+
+RESOURCE ID: season_pass_premium_track_title_july
+TEXT: GO Pass Deluxe: July
 
 RESOURCE ID: season_pass_premium_track_title_june
 TEXT: GO Pass Deluxe: June
 
 RESOURCE ID: select_stat
-TEXT: 決定
+TEXT: 確定
 
 RESOURCE ID: sent_friend_error_info_plural_temp
 TEXT: {0}位朋友已達到本日遠距極巨對戰和遠距團體戰參戰次數上限。請試著邀請其他朋友！
@@ -2645,19 +2744,19 @@ RESOURCE ID: set_hyper_training_goal_title
 TEXT: 設定{0}的特訓目標
 
 RESOURCE ID: settings_allow_raid_and_max_battle_friend_requests
-TEXT: Raid and Max Battle Members
+TEXT: 團體戰和極巨對戰的成員
 
 RESOURCE ID: settings_allow_raid_and_max_battle_friend_requests_tip
-TEXT: Only applies to in-person and nearby raids or Max Battles.
+TEXT: 僅限在現場及附近參加的團體戰和極巨對戰
 
 RESOURCE ID: settings_popular_nearby_rsvp
 TEXT: 附近的熱門團體戰
 
 RESOURCE ID: settings_share_raid_and_max_battle_attendance
-TEXT: Share Raid and Max Battle Attendance with Friends
+TEXT: 與朋友分享團體戰和極巨對戰的參加情況
 
 RESOURCE ID: settings_share_raid_and_max_battle_attendance_tip
-TEXT: By sharing, friends will be able to join a raid or Max Battle you’re in directly from their Friend List.
+TEXT: 可以讓朋友直接從朋友名單來參加團體戰和極巨對戰
 
 RESOURCE ID: shadow_raid_stat_variance_bonus
 TEXT: 在一星暗影團體戰和三星暗影團體戰捕捉到的寶可夢擁有更高的攻擊、防禦和HP。
@@ -2687,7 +2786,7 @@ RESOURCE ID: short_incubator_distance_half
 TEXT: 1/2 Hatch Distance
 
 RESOURCE ID: single_stat_increase_ftue_body
-TEXT: Enables a year-long Hyper Training course where you can fully raise one of a Pokémon’s stats.
+TEXT: 為期一年，用於鍛鍊寶可夢部分能力所需的王冠。
 
 RESOURCE ID: single_stat_increase_ftue_title
 TEXT: 獲得了銀色王冠！
@@ -2972,7 +3071,7 @@ RESOURCE ID: start_training
 TEXT: 開始特訓！
 
 RESOURCE ID: stat_selection_title
-TEXT: 選擇一隻你要鍛鍊的寶可夢
+TEXT: 要鍛鍊哪一項？
 
 RESOURCE ID: stats_increased_string_key_plural
 TEXT: {0}的能力提升了！
@@ -3058,6 +3157,13 @@ TEXT: <b>可獲得的獎勵：</b>
 ・2張特級對戰入場券
 ・1個超級火箭隊雷達等
 
+RESOURCE ID: text_rewards_key_finalstrike0525
+TEXT: <b>可獲得的獎勵：</b>
+・與瑪沙那、臭鼬噗以及好壞星相遇
+・2張特級對戰入場券
+・1個極巨粒子組合
+・4顆幸運蛋等
+
 RESOURCE ID: text_rewards_key_gmaxmachamp25
 TEXT: <b>可獲得的獎勵：</b>
 ・透過能量點和探索可額外收集4000極巨粒子
@@ -3114,22 +3220,22 @@ RESOURCE ID: tm_cannot_unlearn
 TEXT: 無法讓{0}忘記{1}
 
 RESOURCE ID: today_view_hypertraining_section_title
-TEXT: 寶可夢正在接受極限特訓
+TEXT: 正在進行極限特訓
 
 RESOURCE ID: today_view_throwing_competition
 TEXT: 地區丟球大賽
 
 RESOURCE ID: tr_gofest2025_leadup_articuno_1
-TEXT: Ancients Recovered Timed Research: Fleeting Legends - Galarian Articuno
+TEXT: Ancients Recovered Premium Timed Research: Fleeting Legends - Galarian Articuno
 
 RESOURCE ID: tr_gofest2025_leadup_articuno_description
-TEXT: Choose this path to pursue Galarian Articuno
+TEXT: Choose this path to pursue Galarian Articuno.
 
 RESOURCE ID: tr_gofest2025_leadup_articuno_title
 TEXT: Galarian Articuno
 
 RESOURCE ID: tr_gofest2025_leadup_birds
-TEXT: Ancients Recovered Timed Research: Fleeting Legends
+TEXT: Ancients Recovered Premium Timed Research: Fleeting Legends
 
 RESOURCE ID: tr_gofest2025_leadup_gbird_choice
 TEXT: Which of the Legendary Galarian Birds should we seek out?
@@ -3141,10 +3247,10 @@ RESOURCE ID: tr_gofest2025_leadup_giants
 TEXT: Ancients Recovered Timed Research: Legendary Giants
 
 RESOURCE ID: tr_gofest2025_leadup_moltres_1
-TEXT: Ancients Recovered Timed Research: Fleeting Legends - Galarian Moltres
+TEXT: Ancients Recovered Premium Timed Research: Fleeting Legends - Galarian Moltres
 
 RESOURCE ID: tr_gofest2025_leadup_moltres_description
-TEXT: Choose this path to pursue Galarian Moltres
+TEXT: Choose this path to pursue Galarian Moltres.
 
 RESOURCE ID: tr_gofest2025_leadup_moltres_title
 TEXT: Galarian Moltres
@@ -3159,10 +3265,10 @@ RESOURCE ID: tr_gofest2025_leadup_regi_choice_00
 TEXT: Hmm....looks like we've discovered some mysterious symbols.
 
 RESOURCE ID: tr_gofest2025_leadup_zapdos_1
-TEXT: Ancients Recovered Timed Research: Fleeting Legends - Galarian Zapdos
+TEXT: Ancients Recovered Premium Timed Research: Fleeting Legends - Galarian Zapdos
 
 RESOURCE ID: tr_gofest2025_leadup_zapdos_description
-TEXT: Choose this path to pursue Galarian Zapdos
+TEXT: Choose this path to pursue Galarian Zapdos.
 
 RESOURCE ID: tr_gofest2025_leadup_zapdos_title
 TEXT: Galarian Zapdos
@@ -3198,10 +3304,10 @@ RESOURCE ID: tr_tw2025_throwing_challenge_title_00
 TEXT: 巔峰丟球王限時調查(1/1)
 
 RESOURCE ID: training_combat_league_warning
-TEXT: 極限特訓過後，這隻寶可夢將超過部分聯盟的參賽CP限制
+TEXT: 特訓後可能會超過部分聯盟的參賽CP限制
 
 RESOURCE ID: training_confirmation
-TEXT: 確定要訓練{0}嗎？
+TEXT: 確定要讓{0}進行極限特訓嗎？
 
 RESOURCE ID: training_goal_has_been_met
 TEXT: {0}’s training goal has been met. Do you want to end Hyper training?
@@ -3210,7 +3316,7 @@ RESOURCE ID: training_string_key
 TEXT: 特訓
 
 RESOURCE ID: triple_stat_increase_ftue_body
-TEXT: Enables a year-long Hyper Training course where you can fully raise all three of a Pokémon’s stats.
+TEXT: 為期一年，用於鍛鍊寶可夢全部能力所需的王冠。
 
 RESOURCE ID: triple_stat_increase_ftue_title
 TEXT: 獲得了金色王冠！
@@ -3246,13 +3352,13 @@ RESOURCE ID: use_item_prompt_desc
 TEXT: 要使用{0}嗎？
 
 RESOURCE ID: use_training_token_to_hyper_train
-TEXT: 使用王冠鍛鍊寶可夢吧！
+TEXT: 使用王冠來鍛鍊寶可夢吧！
 
 RESOURCE ID: visit_web_store_banner_string_key
 TEXT: Visit the <color=#F2A64B>Pokémon GO Web Store</color> for exclusive offers and bonus rewards!
 
 RESOURCE ID: visit_web_store_banner_url_key
-TEXT: https://store.pokemongo.com/?utm_source=PGO&utm_medium=in-game-shop&utm_campaign=pgo_webstore_linkout&utm_content=banner_view_webstore
+TEXT: https://store.pokemongo.com/?utm_source=PGO&utm_medium=IAN&utm_campaign=pgo_webstore_linkout&utm_content=banner_view_webstore_IAN
 
 RESOURCE ID: visit_web_store_item_url_key
 TEXT: https://store.pokemongo.com/?itemId={0}
@@ -3268,9 +3374,6 @@ TEXT: https://store.pokemongo.com/?utm_source=PGO&utm_medium=in-game-shop&utm_ca
 
 RESOURCE ID: web_store_name_text_key
 TEXT: Web Store
-
-RESOURCE ID: your_training_token_broke_to_coins
-TEXT: Your {0} has broken down!
 
 RESOURCE ID: zacian_move_content
 TEXT: 蒼響將揮舉強力的劍{0}，讓團體戰和極巨對戰中的寶可夢攻擊提升

@@ -77,7 +77,7 @@ RESOURCE ID: avatar_socks
 TEXT: Beinbekleidung
 
 RESOURCE ID: badge_event_0120
-TEXT: Completed the GORUCK Backpack Bonus Timed Research
+TEXT: Die Befristete Bonus-Forschung: GORUCK-Rucksack wurde abgeschlossen
 
 RESOURCE ID: badge_event_0120_title
 TEXT: GORUCK
@@ -500,13 +500,16 @@ RESOURCE ID: bonus_increased_shiny
 TEXT: Erhöhte Chance, Schillernden Pokémon zu begegnen
 
 RESOURCE ID: bonus_premier_ball_catch_rate
-TEXT: Premier Balls have an increased catch rate
+TEXT: Premierbälle haben eine höhere Erfolgsquote
 
 RESOURCE ID: bonus_research_today_view
 TEXT: Bonus Timed Research is available
 
 RESOURCE ID: bonus_rrp_limit_20_raids_max_battle
 TEXT: Tägliches Limit für Fern-Raids und Dyna-Kämpfe auf 20 erhöht
+
+RESOURCE ID: bonus_rrp_limit_30_raids_max_battle
+TEXT: Daily Remote Raid and Max Battle limit increased to 30
 
 RESOURCE ID: bonus_tr_gbl_euic_2026_a_desc
 TEXT: Befristete Bonus-Forschung: Champ der Pokémon LAIC 2026
@@ -834,6 +837,10 @@ RESOURCE ID: event_datetime_range_key_crown_clash_tgr
 TEXT: 14. Mai, 0:00 Uhr bis
 18. Mai, 23:59 Uhr
 
+RESOURCE ID: event_datetime_range_key_finalstrike0525
+TEXT: 21. Mai, 10:00 Uhr bis
+27. Mai, 20:00 Uhr
+
 RESOURCE ID: event_datetime_range_key_gmaxmachamp25
 TEXT: 25. Mai, 14:00 bis 17:00 Uhr
 
@@ -866,25 +873,25 @@ RESOURCE ID: event_name_gofest_2025_raid
 TEXT: Pokémon GO Fest 2025 – Raid-Liebe
 
 RESOURCE ID: event_name_gofest_2025_ticketed
-TEXT: Pokémon GO Fest 2025—Ticketed (Event Hours)
+TEXT: Pokémon GO Fest 2025 – Mit Ticket (Event-Zeitraum)
 
 RESOURCE ID: event_name_gofest_2025_ticketed_all_day
-TEXT: Pokémon GO Fest 2025—Ticketed (All Day)
+TEXT: Pokémon GO Fest 2025 – Mit Ticket (Ganztägig)
 
 RESOURCE ID: event_pass_gofest2025_base_track_title
-TEXT: GO Pass: Ancients Recovered
+TEXT: GO-Pass: Überlieferung der Antike
 
 RESOURCE ID: event_pass_gofest2025_event_duration
-TEXT: June 23 – June 29
+TEXT: 23. Juni bis 29. Juni
 
 RESOURCE ID: event_pass_gofest2025_premium_track_plus_points_title
-TEXT: GO Pass Deluxe: Ancients Recovered + 10 Ranks
+TEXT: GO-Pass-Deluxe: Überlieferung der Antike + 10 Stufen
 
 RESOURCE ID: event_pass_gofest2025_premium_track_title
-TEXT: GO Pass Deluxe: Ancients Recovered
+TEXT: GO-Pass-Deluxe: Überlieferung der Antike
 
 RESOURCE ID: event_pass_gofest2025_track_upgrade_header_description
-TEXT: Earn additional rewards and unlock a <b>Gold Bottle Cap</b> at Rank 80!
+TEXT: Verdiene zusätzliche Belohnungen und schalte einen <b>Goldkronkorken</b> auf Stufe 80 frei!
 
 RESOURCE ID: event_pass_gofest2025_upgrade_description
 TEXT: Purchase the Ancients Recovered Pass Deluxe to unlock the following rewards!
@@ -949,7 +956,7 @@ RESOURCE ID: filter_hats_headpiece
 TEXT: Haar-Accessoires
 
 RESOURCE ID: filter_key_hyper_training
-TEXT: hypertraining
+TEXT: superspezialtraining
 
 RESOURCE ID: filter_legwear_socks
 TEXT: Socken
@@ -1005,6 +1012,33 @@ TEXT: Tops & Shirts
 RESOURCE ID: filter_top_sweater
 TEXT: Pullover
 
+RESOURCE ID: final_strike_event_bonus
+TEXT: Befristeter Forschungs-Bonus: Entscheidender Treffer: GO-Kampfwoche
+
+RESOURCE ID: final_strike_event_name
+TEXT: Entscheidender Treffer: GO-Kampfwoche
+
+RESOURCE ID: final_strike_free_tr_name
+TEXT: Befristete Forschung: Entscheidender Treffer: GO-Kampfwoche
+
+RESOURCE ID: final_strike_free_tr_name_1
+TEXT: Befristete Forschung: Entscheidender Treffer: GO-Kampfwoche (1/3)
+
+RESOURCE ID: final_strike_free_tr_name_2
+TEXT: Befristete Forschung: Entscheidender Treffer: GO-Kampfwoche (2/3)
+
+RESOURCE ID: final_strike_free_tr_name_3
+TEXT: Befristete Forschung: Entscheidender Treffer: GO-Kampfwoche (3/3)
+
+RESOURCE ID: final_strike_premium_tr_name
+TEXT: Befristete Premium-Forschung: Entscheidender Treffer: GO-Kampfwoche
+
+RESOURCE ID: final_strike_premium_tr_name_1
+TEXT: Befristete Premium-Forschung: Entscheidender Treffer: GO-Kampfwoche (1/2)
+
+RESOURCE ID: final_strike_premium_tr_name_2
+TEXT: Befristete Premium-Forschung: Entscheidender Treffer: GO-Kampfwoche (2/2)
+
 RESOURCE ID: form_change_move_required
 TEXT: Wird für den Formwechsel benötigt.
 
@@ -1034,6 +1068,9 @@ TEXT: Ist einem <b>{0}</b>-Kampf beigetreten.
 
 RESOURCE ID: galvanic_dojo
 TEXT: Galvanic Dojo
+
+RESOURCE ID: general1.ticket.4_finalstrike0525_title
+TEXT: Ticket: Befristete Premium-Forschung: Entscheidender Treffer: GO-Kampfwoche
 
 RESOURCE ID: general1.ticket._shadowregigigasraidday_title
 TEXT: Ticket: Crypto-Raid-Tag mit Regigigas
@@ -1075,298 +1112,298 @@ RESOURCE ID: gmax_machamp_max_battles
 TEXT: Gigadynamax-Machomei erscheint in Dyna-Kämpfen
 
 RESOURCE ID: go_fest_2025_irl_ancient_temple_00_00
-TEXT: Isn’t this mystical site something, %PLAYERNAME%? These ruins abound with mysteries AND Pokémon.
+TEXT: Ist dieser geheimnisvolle Ort nicht toll, %PLAYERNAME%? Diese antiken Ruinen stecken voller Rätsel UND Pokémon.
 
 RESOURCE ID: go_fest_2025_irl_ancient_temple_00_01
-TEXT: Many Trainers report feeling like they’re being watched, as if invisible guardians are keeping this sacred place safe. And they might be right!
+TEXT: Viele Trainer haben das Gefühl, dass sie beobachtet werden, als ob unsichtbare Wächter diesen ehrwürdigen Ort beschützen. Und sie haben vielleicht sogar recht!
 
 RESOURCE ID: go_fest_2025_irl_ancient_temple_00_02
-TEXT: Last time I visited, I WAS being watched—by a curious Sableye!
+TEXT: Das letzte Mal, als ich hier zu Besuch war, WURDE ich beobachtet – von einem neugierigen Zobiris!
 
 RESOURCE ID: go_fest_2025_irl_ancient_temple_00_03
-TEXT: Keep your eyes peeled. This temple has attracted Pokémon for a long time—what will you discover?
+TEXT: Halte weiterhin Ausschau. Dieser Tempel zieht seit langer Zeit Pokémon an – was wirst du entdecken?
 
 RESOURCE ID: go_fest_2025_irl_calming_teahouse_00_00
-TEXT: Welcome to the festivi-teas, %PLAYERNAME%! Take a load off and sip your worries away.
+TEXT: Willkommen zu den Festivi-tee-ten, %PLAYERNAME%! Entspanne dich doch ein bisschen bei einem Tässchen Tee.
 
 RESOURCE ID: go_fest_2025_irl_calming_teahouse_00_01
-TEXT: I just love the atmosphere—all soothing aromas and floral notes. Ah... Time feels as if it’s slowing down.
+TEXT: Ich liebe diese Atmosphäre – überall wohltuende Gerüche und blumige Düfte. Ah ... Die Zeit scheint stillzustehen.
 
 RESOURCE ID: go_fest_2025_irl_calming_teahouse_00_02
-TEXT: Spend long enough here and you’ll likely be napping like a Snorlax. One might even say you’ll become...Snor-laxed! Haha!
+TEXT: Wenn du hier lange verweilst, schläfst du irgendwann so viel wie ein Relaxo. Du wirst ein richtiger Tagträumer. Haha!
 
 RESOURCE ID: go_fest_2025_irl_calming_teahouse_00_03
-TEXT: Ahem, well—pour yourself a cup of adventure and explore!
+TEXT: Ähem, also – schenk dir eine Tasse Abenteuer ein und lege los!
 
 RESOURCE ID: go_fest_2025_irl_carnival_grounds_00_00
-TEXT: Step right up, %PLAYERNAME%! Wonder and excitement are the main attractions! Welcome to the carnival!
+TEXT: Komm näher, %PLAYERNAME%! Wunder und Spannung sind die Hauptattraktionen! Willkommen beim Karneval!
 
 RESOURCE ID: go_fest_2025_irl_carnival_grounds_00_01
-TEXT: The atmosphere here reminds me of cotton candy—sweet, colorful, and guaranteed to make you smile.
+TEXT: Die Atmosphäre hier erinnert mich an Zuckerwatte – süß, bunt und sie zaubert einem ein Lächeln aufs Gesicht. 
 
 RESOURCE ID: go_fest_2025_irl_carnival_grounds_00_02
-TEXT: Just make sure your ice cream cone isn’t a smiling Vanillite!
+TEXT: Pass nur auf, dass es sich bei deiner Eiswaffel nicht um ein lächelndes Gelatini handelt!
 
 RESOURCE ID: go_fest_2025_irl_carnival_grounds_00_03
-TEXT: The big top awaits, %PLAYERNAME%!
+TEXT: Das Zirkuszelt erwartet dich, %PLAYERNAME%!
 
 RESOURCE ID: go_fest_2025_irl_mechanical_marvels_00_00
-TEXT: It’s time to gear up for adventure, %PLAYERNAME%! Even the air seems engineered for extraordinary encounters.
+TEXT: Bringe dein Abenteuer auf die Gänge, %PLAYERNAME%! Außergewöhnliche Begegnungen laufen auf Hochtouren.
 
 RESOURCE ID: go_fest_2025_irl_mechanical_marvels_00_01
-TEXT: Do you feel the rhythmic pulsing all around us? Hm...it’s not quite natural, but somehow deeply organic. It’s like we’re standing at the crossroads of ancient wisdom and future potential.
+TEXT: Spürst du das rhythmische Pulsieren um uns herum? Hm ... das kommt nicht wirklich aus der Natur, aber scheint trotzdem organisch zu sein. Als ob wir an der Kreuzung von alter Weisheit und zukünftigem Potenzial stehen würden.
 
 RESOURCE ID: go_fest_2025_irl_mechanical_marvels_00_02
-TEXT: Just like the parts of a well-oiled machine, each Pokémon helps make this habitat unique. Speaking of, look out for crossing Klink!
+TEXT: Genau wie die einzelnen Teile einer gut geölten Maschine hilft jedes Pokémon dabei, diesen Lebensraum einzigartig zu machen. Apropos Maschine, pass auf Klikk auf, die den Weg kreuzen!
 
 RESOURCE ID: go_fest_2025_irl_mechanical_marvels_00_03
-TEXT: Time to set your gears in motion and discover what mechanical marvels await!
+TEXT: Es wird Zeit, einen Gang höher zu schalten und zu entdecken, welche mechanischen Wunder dich erwarten!
 
 RESOURCE ID: go_fest_2025_irl_noble_fields_00_00
-TEXT: Okay, I’ve got just the voice for this... Valiant Trainer! These noble fields call forth the hero that dwells within us all!
+TEXT: Okay, ich weiß wie ich das ankündigen muss ... Kühner Trainer! Diese edlen Felder wecken den Helden, der in uns allen verweilt!
 
 RESOURCE ID: go_fest_2025_irl_noble_fields_00_01
-TEXT: There’s a splendor here that awakens the grandest parts of one’s spirit.
+TEXT: Hier herrscht eine Herrlichkeit, die die grandiosesten Teile des Geistes aller erweckt.
 
 RESOURCE ID: go_fest_2025_irl_noble_fields_00_02
-TEXT: Witness these remarkable Pokémon! Behold the brave Galarian Farfetch’d, who wields a thick, tough leek in battle!
+TEXT: Verrichte dein Augenmerk auf diese bemerkenswerten Pokémon! Erblicke das tapfere Galar-Porenta, das im Kampf eine dicke, robuste Lauchstange schwingt.
 
 RESOURCE ID: go_fest_2025_irl_noble_fields_00_03
-TEXT: Venture forth with courage, %PLAYERNAME%—the honorable Pokémon of these grounds await your challenge!
+TEXT: Wage dich mutig hinaus, %PLAYERNAME% – die ehrwürdigen Pokémon dieser Stätte erwarten deine Herausforderung!
 
 RESOURCE ID: go_fest_2025_irl_sr_city_00_00
-TEXT: Great to see you, %PLAYERNAME%! I’m feeling like legends are afoot with so many talented Trainers and Pokémon in one place.
+TEXT: Schön, dich zu sehen, %PLAYERNAME%! Es fühlt sich an, als ob Legenden unterwegs sind, mit so vielen talentierten Trainer und Pokémon an einem Ort.
 
 RESOURCE ID: go_fest_2025_irl_sr_city_00_01
-TEXT: With things so busy, I’ve picked up some interesting stories. Get a load of this!
+TEXT: Ich habe in der Zwischenzeit auch ein paar interessante Geschichten gehört. Hör dir das mal an!
 
 RESOURCE ID: go_fest_2025_irl_sr_city_00_02
-TEXT: Multiple witnesses have reported Pokémon that sound a lot like—wait for it—Zacian and Zamazenta!
+TEXT: Mehrere Zeugen haben von Pokémon berichtet, die sich nach – halt dich fest – Zacian und Zamazenta anhören!
 
 RESOURCE ID: go_fest_2025_irl_sr_city_00_03
-TEXT: These mighty Warrior Pokémon achieved legendary feats in their time, so you’d better believe I’m excited to dig into this!
+TEXT: Diese mächtigen Krieger-Pokémon haben zu ihrer Zeit legendäre Heldentaten vollbracht und ich bin unglaublich aufgeregt, mehr darüber zu erfahren!
 
 RESOURCE ID: go_fest_2025_irl_sr_city_00_04_branch
-TEXT: Which of the two piques your interest?
+TEXT: Welches der beiden interessiert dich am meisten?
 
 RESOURCE ID: go_fest_2025_irl_sr_city_01_00_shield
-TEXT: A steadfast approach! You’re right—now’s the time to build our defenses! Let me see what notes I have on Zamazenta...
+TEXT: Eine standfeste Vorgehensweise! Du hast recht – jetzt ist die Zeit, unsere Verteidigung aufzubauen! Mal schauen, was ich mir über Zamazenta notiert habe ...
 
 RESOURCE ID: go_fest_2025_irl_sr_city_01_00_sword
-TEXT: A bold approach. You’re right—now’s the time to strike! Let me see what notes I have on Zacian...
+TEXT: Ganz schön mutig. Du hast recht – jetzt ist Zeit, zuzuschlagen! Mal sehen, welche Notizen ich zu Zacian habe ...
 
 RESOURCE ID: go_fest_2025_irl_sr_city_01_01_shield
-TEXT: Ah, here we go. In times past, Zamazenta worked together with a king of the people to save the Galar region.
+TEXT: Ah, ich hab‘s! In der Vergangenheit hat Zamazenta mit einem König der Menschen zusammengearbeitet, um die Galar-Region zu retten.
 
 RESOURCE ID: go_fest_2025_irl_sr_city_01_01_sword
-TEXT: Here we are. Known as a legendary hero, this Pokémon absorbs metal particles, transforming them into a weapon it uses to battle.
+TEXT: Ah, hier sind sie. Dieses Pokémon gilt als legendärer Held. Es nimmt Metall auf, wandelt dies in eine Waffe um und kämpft damit.
 
 RESOURCE ID: go_fest_2025_irl_sr_city_01_02_shield
-TEXT: Such a noble feat! But save the Galar region from what, I wonder? Maybe a question for another day.
+TEXT: Was für eine noble Tat! Aber ich frage mich, vor was sie die Galar-Region gerettet haben? Das ist vielleicht eine Frage für einen anderen Tag.
 
 RESOURCE ID: go_fest_2025_irl_sr_city_01_02_sword
-TEXT: Very impressive. I wonder if Zacian could teach my Meltan how to do that.
+TEXT: Ganz schön beeindruckend. Ich frage mich, ob Zacian das meinem Meltan beibringen könnte.
 
 RESOURCE ID: go_fest_2025_irl_sr_city_01_03_shield
-TEXT: For now, let’s work on finding Zamazenta. Scout the area and let me know what you learn!
+TEXT: Konzentrieren wir uns darauf, Zamazenta zu finden. Spähe mal die Umgebung aus und sag mir, was du findest!
 
 RESOURCE ID: go_fest_2025_irl_sr_city_01_03_sword
-TEXT: But I’m jumping ahead of myself! Let’s find Zacian first. If we split up to search, we can go twice as fast. See you in a bit!
+TEXT: Aber eins nach dem anderen! Lass uns zuerst Zacian finden. Wenn wir uns aufteilen, geht das doppelt so schnell. Also bis bald!
 
 RESOURCE ID: go_fest_2025_irl_sr_city_02_00_shield
-TEXT: There you are, %PLAYERNAME%! No sign of Zamazenta for me, though I did find some new information on it.
+TEXT: Da bist du, %PLAYERNAME%! Kein Zamazenta weit und breit bei mir, aber ich habe ein paar neue Informationen gefunden.
 
 RESOURCE ID: go_fest_2025_irl_sr_city_02_00_sword
-TEXT: There you are, %PLAYERNAME%! No Zacian sightings for me, though I did find some new information.
+TEXT: Da bist du ja, %PLAYERNAME%! Ich habe zwar kein Zacian gesehen, aber dafür mehr Informationen erhalten.
 
 RESOURCE ID: go_fest_2025_irl_sr_city_02_01_shield
-TEXT: According to legends, this Pokémon slept for aeons in statue form. It slept for so long, people forgot it ever existed!
+TEXT: Der Legende nach ist dieses Pokémon in Statuen-Form in einen langen Schlaf gefallen. Es schlief so lange, dass es in Vergessenheit geraten ist!
 
 RESOURCE ID: go_fest_2025_irl_sr_city_02_01_sword
-TEXT: Supposedly, Zacian slumbered for many years. Some say it’s Zamazenta’s elder sister, but others say the two are rivals. What do you think?
+TEXT: Man sagt, es sei wie ein älteres Geschwisterteil, aber auch wie ein Rivale zu Zamazenta, welches in einen langen Schlaf gefallen war. Was denkst du?
 
 RESOURCE ID: go_fest_2025_irl_sr_city_02_02_shield
-TEXT: I can sure relate—I like a good, long nap myself! And if you asked, Meltan would probably tell you I sleep like a statue, too.
+TEXT: Mir geht‘s genauso – ein geruhsames, langes Nickerchen mag ich auch! Und wenn du fragen würdest, würde Meltan dir wahrscheinlich auch sagen, dass ich wie eine Statue schlafe.
 
 RESOURCE ID: go_fest_2025_irl_sr_city_02_02_sword
-TEXT: Well, who’s to say they can’t be both? Haha!
+TEXT: Vielleicht stimmt ja auch beides? Haha!
 
 RESOURCE ID: go_fest_2025_irl_sr_city_02_03_shield
-TEXT: Anyway, I’ve got a good feeling that Zamazenta won't be forgotten for much longer!
+TEXT: Wie dem auch sei, mein Gefühl sagt mir, dass Zamazenta nicht mehr lange vergessen sein wird!
 
 RESOURCE ID: go_fest_2025_irl_sr_city_02_03_sword
-TEXT: Either way, nobody finds anything without looking. Chaaaaarge!
+TEXT: Wie auch immer, niemand findet etwas, ohne danach zu suchen. Looooos!
 
 RESOURCE ID: go_fest_2025_irl_sr_city_03_00_shield
-TEXT: Splendid, you’ve found Zamazenta! It sure is a sight to behold.
+TEXT: Super, du hast Zamazenta gefunden! Was für ein Anblick.
 
 RESOURCE ID: go_fest_2025_irl_sr_city_03_00_sword
-TEXT: Magnificent! You’ve found Zacian! Goodness, it truly “steels” the show.
+TEXT: Ausgezeichnet! Du hast Zacian gefunden! Unglaublich, es „stahl“ wirklich die Show.
 
 RESOURCE ID: go_fest_2025_irl_sr_city_03_01_shield
-TEXT: Would you believe it has another impressive form as well? When armed with its shield, Zamazenta transforms into its Crowned Shield form.
+TEXT: Würdest du mir glauben, dass es auch eine andere beeindruckende Form hat? Wenn es mit seinem Schild gewappnet ist, verwandelt sich Zamazenta in seine Form „König des Schildes“.
 
 RESOURCE ID: go_fest_2025_irl_sr_city_03_01_sword
-TEXT: Can you believe it has another impressive form as well? When armed with the weapon it used in ancient times, Zacian transforms into its Crowned Sword form.
+TEXT: Und es hat sogar noch eine weitere beeindruckende Form! Wenn es die Waffe trägt, die es vor langer Zeit einmal führte, verwandelt sich Zacian in seine Form „König des Schwertes“.
 
 RESOURCE ID: go_fest_2025_irl_sr_city_03_02_shield
-TEXT: I’ve heard that in that form it can shrug off mighty blows, including Dynamax Pokémon attacks!
+TEXT: Ich habe gehört, dass es in dieser Form mächtigen Attacken, sogar von Dynamax-Pokémon, widerstehen kann!
 
 RESOURCE ID: go_fest_2025_irl_sr_city_03_02_sword
-TEXT: I’ve heard that in that form, it can fell even Gigantamax Pokémon with a single strike. I don’t know if I believe that!
+TEXT: Ich habe gehört, dass es in dieser Form selbst Gigadynamax-Pokémon auf einen Streich bezwingt. Ich weiß nicht, ob ich das glauben soll.
 
 RESOURCE ID: go_fest_2025_irl_sr_city_03_03_shield
-TEXT: I’m sure such incredible defensive power will give you a solid advantage in your next Max Battle!
+TEXT: Eine dermaßen starke defensive Kraft gibt dir bei deinem nächsten Dyna-Kampf ein beachtlichen Vorteil!
 
 RESOURCE ID: go_fest_2025_irl_sr_city_03_03_sword
-TEXT: But either way, I’m sure such incredible power will give you the edge in your next Max Battle!
+TEXT: Aber auf jeden Fall bin ich mir sicher, dass dir diese unglaubliche Macht in deinem nächsten Dyna-Kampf einen Vorteil verleiht!
 
 RESOURCE ID: go_fest_2025_irl_sr_city_04_00_shield
-TEXT: %PLAYERNAME%! I’ve been learning more about Zamazenta and its Crowned Shield form.
+TEXT: %PLAYERNAME%! Ich habe mehr über Zamazenta und seine Form „König des Schildes“ herausgefunden.
 
 RESOURCE ID: go_fest_2025_irl_sr_city_04_00_sword
-TEXT: %PLAYERNAME%! I’ve been learning more about Zacian and its Crowned Sword form.
+TEXT: %PLAYERNAME%! Ich habe mehr zu Zacian und seiner Form „König des Schwertes“ erfahren.
 
 RESOURCE ID: go_fest_2025_irl_sr_city_04_01_shield
-TEXT: According to my research, its ability to deflect any attack led to it being known as the Fighting Master’s Shield.
+TEXT: Laut meiner Forschung trug es einst den Namen „Kämpferkönigsschild“, weil es alles und jeden abwehren konnte.
 
 RESOURCE ID: go_fest_2025_irl_sr_city_04_01_sword
-TEXT: According to my research, it became known as the Fairy King’s Sword, inspiring awe in friend and foe alike.
+TEXT: Meinen Forschungen nach trug es einst den Namen „Feenkönigsschwert“ und wurde gleichermaßen gefürchtet und verehrt.
 
 RESOURCE ID: go_fest_2025_irl_sr_city_04_02_shield
-TEXT: Sounds formidable! I’m keen to observe it in a Max Battle, if you’re up for it.
+TEXT: Das klingt vielversprechend! Ich würde es gerne mal in einem Dyna-Kampf sehen, wenn du einverstanden bist.
 
 RESOURCE ID: go_fest_2025_irl_sr_city_04_02_sword
-TEXT: I’m not sure I understand the first part, but the second seems true enough! I’m keen to observe it in a Max Battle, if you’re up for it.
+TEXT: Den ersten Teil verstehe ich nicht so ganz, aber der zweite scheint zu stimmen! Ich würde es gerne in einem Dyna-Kampf beobachten, wenn du dazu bereit bist.
 
 RESOURCE ID: go_fest_2025_irl_sr_city_04_03_shield
-TEXT: That’s the spirit! Ready when you are!
+TEXT: Das ist die richtige Einstellung! Ich bin bereit, wenn du es bist!
 
 RESOURCE ID: go_fest_2025_irl_sr_city_04_03_sword
-TEXT: That’s the spirit! Ready when you are!
+TEXT: Das ist die richtige Einstellung! Von mir aus kann es losgehen!
 
 RESOURCE ID: go_fest_2025_irl_sr_city_05_00_shield
-TEXT: Phenomenal work! What an honor to observe your Crowned Shield Zamazenta in such a riveting Max Battle.
+TEXT: Einfach phänomenal! Es war mir eine Ehre, dein Zamazenta (König des Schildes) in so einem spannenden Dyna-Kampf zu beobachten.
 
 RESOURCE ID: go_fest_2025_irl_sr_city_05_00_sword
-TEXT: Just phenomenal! What an honor to witness your Crowned Sword Zacian in such a riveting Max Battle.
+TEXT: Phänomenal! Was für eine Ehre, dass ich dein Zacian (König des Schwertes) in solch einem spannenden Dyna-Kampf erleben durfte.
 
 RESOURCE ID: go_fest_2025_irl_sr_city_05_01_shield
-TEXT: I’ve never seen such an incredible display of defensive skill. You two can certainly hold your own against Dynamax Pokémon.
+TEXT: Ich habe noch nie eine solch starke Defensive gesehen. Ihr zwei braucht euch vor keinem Dynamax-Pokémon zu fürchten.
 
 RESOURCE ID: go_fest_2025_irl_sr_city_05_01_sword
-TEXT: I feel empowered! I feel...RARGH!!! …Ahem. Maybe I’ll leave the battle cries to the Pokémon.
+TEXT: Ich fühle mich richtig stark! KNURR!!! Ähem, vielleicht überlasse ich die Kampfschreie doch lieber den Pokémon ...
 
 RESOURCE ID: go_fest_2025_irl_sr_city_05_02_shield
-TEXT: Whatever challenges may come your way in the future, I know you and Zamazenta can take on anything together.
+TEXT: Welche Herausforderungen dich auch in der Zukunft erwarten werden, du und Zamazenta könnt es mit allem aufnehmen.
 
 RESOURCE ID: go_fest_2025_irl_sr_city_05_02_sword
-TEXT: Whatever challenges may come your way, I know you and Zacian can handle them together.
+TEXT: Egal welche Herausforderungen dir bevorstehen, ich bin mir sicher, dass du sie zusammen mit Zacian bewältigen kannst.
 
 RESOURCE ID: go_fest_2025_irl_sr_city_05_03_shield
-TEXT: Until next time, let's GO!
+TEXT: Bis zum nächsten Mal, nichts wie raus und GO!
 
 RESOURCE ID: go_fest_2025_irl_sr_city_05_03_sword
-TEXT: Until next time, let’s GO!
+TEXT: Bis zum nächsten Mal – nichts wie raus und GO!
 
 RESOURCE ID: go_fest_2025_irl_sr_park_00_00
-TEXT: Hello there, %PLAYERNAME%! What an exciting day we have ahead of us.
+TEXT: Hallöchen, %PLAYERNAME%! Uns steht ein aufregender Tag bevor.
 
 RESOURCE ID: go_fest_2025_irl_sr_park_00_01
-TEXT: Isn’t there something heartwarming about watching Trainers catch new Pokémon and make new friends?
+TEXT: Ist es nicht herzerwärmend, Trainern dabei zuzuschauen, wie sie neue Pokémon fangen und neue Freundschaften schließen?
 
 RESOURCE ID: go_fest_2025_irl_sr_park_00_02
-TEXT: But I’ve noticed something curious—a strange fog is rolling in. While I’m not sure what this phenomenon means yet, it certainly warrants investigation.
+TEXT: Aber mir ist etwas Seltsames aufgefallen – ein merkwürdiger Nebel ist aufgekommen. Ich bin mir zwar noch nicht sicher, was es mit diesem Phänomen auf sich hat, aber das sollten wir definitiv überprüfen.
 
 RESOURCE ID: go_fest_2025_irl_sr_park_00_03
-TEXT: So let’s get to it! Have fun exploring, and we’ll reconvene later to discuss our findings.
+TEXT: Los geht’s! Viel Spaß beim Erkunden und wir treffen uns später wieder, um unsere Ergebnisse zu besprechen.
 
 RESOURCE ID: go_fest_2025_irl_sr_park_01_00
-TEXT: Welcome back! I’ve been monitoring that mysterious fog. There are no updates, but I discovered something quite fascinating!
+TEXT: Willkommen zurück! Ich habe diesen geheimnisvollen Nebel beobachtet. Hierzu gibt es zwar noch nichts Neues, aber ich habe etwas Faszinierendes entdeckt!
 
 RESOURCE ID: go_fest_2025_irl_sr_park_01_01
-TEXT: Pokémon seem to be gathering around four distinct habitats, each with its own unique characteristics.
+TEXT: Pokémon scheinen sich in vier verschiedenen Lebensräumen zu versammeln und jeder davon hat seine eigenen einzigartigen Eigenschaften.
 
 RESOURCE ID: go_fest_2025_irl_sr_park_01_02
-TEXT: I've observed Wooloo frolicking in local fields, Basculin with red and blue stripes swimming around an underwater trove, and even a Heracross running around a nearby carnival.
+TEXT: Ich habe beobachtet, wie Wolly hier in den Feldern herumtollen, wie rotlinige und blaulinige Barschuft durch eine Unterwasserhöhle schwimmen und sogar wie ein Skaraborn bei einem Karneval durch die Gegend rennt.
 
 RESOURCE ID: go_fest_2025_irl_sr_park_01_03
-TEXT: There’s also a fourth habitat that I haven’t had the chance to explore yet!
+TEXT: Es gibt auch noch einen vierten Lebensraum, den ich noch nicht erkundet habe!
 
 RESOURCE ID: go_fest_2025_irl_sr_park_01_04
-TEXT: Where will your research take you first? The choice is yours, %PLAYERNAME%!
+TEXT: Wohin wird dich deine Forschung zuerst führen? Du hast die Qual der Wahl, %PLAYERNAME%!
 
 RESOURCE ID: go_fest_2025_irl_sr_park_02_00
-TEXT: Impressive work on that first habitat! Point us toward our next discovery, %PLAYERNAME%!
+TEXT: Beeindruckende Arbeit im ersten Lebensraum! Wohin geht es als Nächstes, %PLAYERNAME%?
 
 RESOURCE ID: go_fest_2025_irl_sr_park_02_01
-TEXT: Another habitat successfully investigated! Where to next, %PLAYERNAME%?
+TEXT: Und noch einen Lebensraum erfolgreich erforscht! Was steht jetzt an, %PLAYERNAME%?
 
 RESOURCE ID: go_fest_2025_irl_sr_park_02_02
-TEXT: Remarkable work, %PLAYERNAME%! Only one more habitat left to explore.
+TEXT: Beeindruckende Arbeit, %PLAYERNAME%! Nur noch ein weiterer Lebensraum ist übrig.
 
 RESOURCE ID: go_fest_2025_irl_sr_park_03_00
-TEXT: Well done, %PLAYERNAME%! After analyzing the mysterious fog, I’ve found evidence suggesting a mythic presence—the Steam Pokémon, Volcanion.
+TEXT: Gut gemacht, PLAYERNAME%! Nach der Analyse des geheimnisvollen Nebels habe ich Anzeichen dafür gefunden, die auf eine mystische Präsenz zu schließen lassen – das Dampf-Pokémon Volcanion.
 
 RESOURCE ID: go_fest_2025_irl_sr_park_03_01
-TEXT: I was going over my notes right before you arrived. Did you know that Volcanion harnesses water to create steam?
+TEXT: Ich bin vor deiner Ankunft durch meine Notizen gegangen. Wusstest du, dass Volcanion Wasser dazu nutzt, um Wasserdampf zu erzeugen?
 
 RESOURCE ID: go_fest_2025_irl_sr_park_03_02
-TEXT: To learn more about this elusive Pokémon, I’d like you to dive into studying other Water types.
+TEXT: Um mehr über dieses scheue Pokémon zu erfahren, möchte ich, dass du „meer“ über andere Wasser-Pokémon lernst.
 
 RESOURCE ID: go_fest_2025_irl_sr_park_03_03
-TEXT: See what you can learn about their internal water reservoirs or temperature regulation. Each observation brings us one step closer to Volcanion!
+TEXT: Versuche, etwas über ihre internen Wasserspeicher oder ihren Wärmehaushalt herauszufinden. Jede Beobachtung bringt uns einen Schritt näher zu Volcanion!
 
 RESOURCE ID: go_fest_2025_irl_sr_park_04_00
-TEXT: Incredible progress with your soggy survey! Now let’s turn our attention to Fire-type Pokémon.
+TEXT: Super Fortschritt bei deiner nassen Nachforschung! Lass uns jetzt unsere Aufmerksamkeit auf Feuer-Pokémon richten.
 
 RESOURCE ID: go_fest_2025_irl_sr_park_04_01
-TEXT: Since Volcanion is currently the only known Pokémon that is both Fire- and Water-type, understanding how it manages these opposing elements is crucial.
+TEXT: Da Volcanion momentan das einzige bekannte Pokémon ist, das sowohl vom Typ Feuer als auch Wasser ist, ist es äußerst wichtig, zu verstehen, wie es diese gegenteiligen Elemente beherrscht.
 
 RESOURCE ID: go_fest_2025_irl_sr_park_04_02
-TEXT: I’d like you to turn up the heat on observing Fire types in their natural habitats. Pay close attention to what mechanisms they use to prevent overheating.
+TEXT: Heiz bei deiner Forschung so richtig ein und beobachte Feuer-Pokémon in ihren natürlichen Lebensräumen. Achte dabei darauf, welche Mechanismen sie verwenden, die sie vor Überhitzung schützen.
 
 RESOURCE ID: go_fest_2025_irl_sr_park_04_03
-TEXT: This will help us to better understand Volcanion’s remarkable dual typing. Your fieldwork continues to be essential, %PLAYERNAME%!
+TEXT: Dies wird uns dabei helfen, Volcanions außergewöhnlichen Dualtyp besser zu verstehen. Deine Feldstudien sind weiterhin unerlässlich, %PLAYERNAME%!
 
 RESOURCE ID: go_fest_2025_irl_sr_park_05_00
-TEXT: Amazing discoveries, %PLAYERNAME%! Your research on both Water and Fire types gives us a clearer understanding of how Volcanion might behave in the wild.
+TEXT: Erstaunliche Entdeckungen, %PLAYERNAME%! Deine Forschung zu Wasser- und Feuer-Pokémon gibt uns ein besseres Verständnis, wie wilde Volcanion sich verhalten.
 
 RESOURCE ID: go_fest_2025_irl_sr_park_05_01
-TEXT: Our next challenge is perhaps the most important yet— we need to show Volcanion that you’re a trustworthy Trainer. Let’s focus on demonstrating your exceptional care for Pokémon!
+TEXT: Unsere nächste Herausforderung ist vielleicht die wichtigste bisher – wir müssen Volcanion beweisen, dass du ein vertrauenswürdiger Trainer bist. Wir sollten ihm zeigen, wie sehr du dich um Pokémon kümmerst.
 
 RESOURCE ID: go_fest_2025_irl_sr_park_05_02
-TEXT: When Volcanion witnesses the kindness and respect you show to your Pokémon companions, it will surely recognize the goodness in your heart.
+TEXT: Wenn Volcanion die Liebenswürdigkeit und den Respekt sieht, die du deinen Pokémon entgegenbringst, erkennt es bestimmt, dass du ein gutes Herz hast.
 
 RESOURCE ID: go_fest_2025_irl_sr_park_05_03
-TEXT: Your gentle approach could make all the difference in our ability to encounter this elusive Pokémon!
+TEXT: Deine behutsame Herangehensweise könnte den Unterschied ausmachen, ob wir diesem scheuen Pokémon begegnen oder nicht.
 
 RESOURCE ID: go_fest_2025_irl_sr_park_06_00
-TEXT: Phenomenal job as always! Your patience, dedication, and kind heart have accomplished what many thought impossible—you’ve gained Volcanion’s trust!
+TEXT: Klasse gemacht, wie immer! Durch deine Geduld, Hingabe und Herzlichkeit hast du das erreicht, was viele für unmöglich hielten – du hast Volcanions Vertrauen gewonnen!
 
 RESOURCE ID: go_fest_2025_irl_sr_park_06_01
-TEXT: I encourage you to spend quality time with this Mythical Pokémon. Grow that special bond that only comes from understanding and respecting each other.
+TEXT: Verbringe am besten etwas Zeit mit diesem Mysteriösen Pokémon und verstärke die besondere Bindung mit ihm, die nur durch gegenseitiges Verständnis und Respekt zustande kommt.
 
 RESOURCE ID: go_fest_2025_irl_sr_park_06_02
-TEXT: This journey has expanded our understanding of Pokémon. The connection between Trainers and Pokémon is truly our ultimate research tool!
+TEXT: Diese Reise hat unser Wissen über Pokémon erweitert. Die Verbindung zwischen Trainern und Pokémon ist wahrlich unser ultimatives Forschungsinstrument!
 
 RESOURCE ID: go_fest_2025_irl_sr_park_06_03
-TEXT: Your experience with Volcanion will inspire Trainers everywhere. I couldn’t be prouder, %PLAYERNAME%!
+TEXT: Deine Erfahrung mit Volcanion wird viele Trainer inspirieren. Ich platze fast vor Stolz, %PLAYERNAME%!
 
 RESOURCE ID: go_fest_2025_irl_sunkern_treasure_00_00
-TEXT: Ahoy, %PLAYERNAME%! Prepare yourself to dive into the depths of this watery habitat. I’m sure you already feel the thrill of adventure washing over you.
+TEXT: Ahoi, %PLAYERNAME%! Tauche in die Tiefen dieses Wasser-Lebensraums ein. Du spürst bestimmt schon, wie die Vorfreude auf Abenteuer über dich hereinbricht.
 
 RESOURCE ID: go_fest_2025_irl_sunkern_treasure_00_01
-TEXT: The true treasures in these waters aren’t gold doubloons or precious gems, but the remarkable Pokémon that call this place home.
+TEXT: Die wahren Schätze dieser Gewässer sind keine goldene Dublone oder kostbaren Juwelen, sondern die außergewöhnlichen Pokémon, die hier heimisch sind.
 
 RESOURCE ID: go_fest_2025_irl_sunkern_treasure_00_02
-TEXT: Those twinkling lights in the distance may be the passing glow of an Inkay, or the shining tail fins of a Finneon.
+TEXT: Bei diesen blinkenden Lichtern in der Ferne handelt es sich vielleicht um den flüchtigen Glanz eines Iscalar oder die leuchtenden Schwanzflossen eines Finneon.
 
 RESOURCE ID: go_fest_2025_irl_sunkern_treasure_00_03
-TEXT: Set forth to explore this habitat with the heart of an adventurer! May fortune find you, %PLAYERNAME%!
+TEXT: Setz die Segel und erkunde diesen Lebensraum mit dem Herzen eines Abenteurers! Möge das Glück dir hold sein, %PLAYERNAME%!
 
 RESOURCE ID: go_pass_cumulative_bonuses_header
-TEXT: GO Pass Bonuses
+TEXT: GO-Pass-Boni
 
 RESOURCE ID: gofest2025
 TEXT: Pokémon GO Fest 2025
@@ -1713,6 +1750,12 @@ TEXT: Ein Ticket für den Zugang zur Befristeten Premium-Forschung „Kronen-Cla
 RESOURCE ID: item_event_ticket_details_crown_clash_tgr
 TEXT: Dieses Ticket aktiviert sich am 14. Mai automatisch und gewährt dir Zugang zur Befristeten Premium-Forschung „Kronen-Clash: Übernahme“ (wo immer du dich befindest).
 
+RESOURCE ID: item_event_ticket_global_desc_finalstrike0525
+TEXT: Ein Ticket für den Zugang zur Befristeten Premium-Forschung „Entscheidender Treffer: GO-Kampfwoche“ bis zum 27. Mai 2025 um 20:00 Uhr Ortszeit (wo immer du dich befindest).
+
+RESOURCE ID: item_event_ticket_global_details_finalstrike0525
+TEXT: Dieses Ticket aktiviert sich am 21. Mai automatisch und gewährt dir Zugang zur Befristeten Premium-Forschung „Entscheidender Treffer: GO-Kampfwoche“ (wo immer du dich befindest).
+
 RESOURCE ID: item_event_ticket_gray_desc_gmaxmachamp25
 TEXT: Ein Ticket für den Zugang zu besonderen Boni am 25. Mai 2025 von 14:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
 
@@ -1748,6 +1791,9 @@ TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zum Spezi
 
 RESOURCE ID: item_event_ticket_pink_details_cdc_machop25
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Spezialforschung des Community Day Classic mit Machollo am 24. Mai (wo immer du dich befindest).
+
+RESOURCE ID: item_expiration_consolation
+TEXT: Your {0} has broken down!
 
 RESOURCE ID: item_expiration_day_left_plural
 TEXT: You have {0} days left to use this item.
@@ -1807,7 +1853,7 @@ RESOURCE ID: item_triple_stat_increase_name
 TEXT: Gold Bottle Cap
 
 RESOURCE ID: lure_duration_2_hr
-TEXT: 2-hour Lure Module duration
+TEXT: 2-stündige Lockmodul-Wirkungszeit
 
 RESOURCE ID: lure_module_party_pokemon
 TEXT: Special costumed Pokémon attracted to Lure Modules
@@ -1837,10 +1883,10 @@ RESOURCE ID: mega_kangaskhan_tr_may_2025_title
 TEXT: Befristete Forschung: Raid-Tag mit Mega-Kangama
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-05-13T03:05:48.480245+00:00 for de-DE
-at SHA cb67288813f
-Pipeline 3198835, job 40813525
-Patch from: 0.361.0-SHA-01d43987-RC4, 0.359.0-SHA-2ec47354-RC2, 0.363.0-SHA-20b4a939-RC1
+TEXT: Built at 2025-05-15T01:09:25.519657+00:00 for de-DE
+at SHA 57b4627b09a
+Pipeline 3202576, job 40930811
+Patch from: 0.359.0-SHA-0d956980-RC5, 0.361.0-SHA-7a383ef7-RC2, 0.363.0-SHA-20b4a939-RC1
 
 RESOURCE ID: moonless_volcano
 TEXT: Moonless Volcano
@@ -1919,11 +1965,11 @@ RESOURCE ID: photobomb_five_vanillite
 TEXT: 5 überraschende Begegnungen mit Gelatini in GO-Schnappschuss
 
 RESOURCE ID: poi_report_photo_details
-TEXT: You may also add a photo to highlight the issue with this PokéStop.
+TEXT: Du kannst auch ein Foto hinzufügen, um das Problem mit diesem PokéStop hervorzuheben.
 
-A good photo is high quality, clear, compelling, and descriptive. The photo should show the issue fully, be in focus, and be free of visual obstructions, people, and animals.
+Ein geeignetes Foto ist qualitativ hochwertig, klar, überzeugend und anschaulich. Das Foto sollte außerdem das Problem vollständig darstellen, scharf sein und keine visuellen Einschränkungen, Personen und Tiere zeigen.
 
-You must take the photo yourself for it to be considered.
+Du musst das Foto selbst machen, damit es in Betracht gezogen werden kann.
 
 RESOURCE ID: pokelid_map_url_aichi
 TEXT: https://www.google.com/maps/d/viewer?mid=1cN05gSanA6mceKUyLjbWZc_KX4AJ9Oc
@@ -2046,7 +2092,7 @@ RESOURCE ID: pokemon_hypertrained_transfer_to_professor_confirmation
 TEXT: Do you really want to transfer this Pokémon that has undergone Hyper Training?
 
 RESOURCE ID: pokemon_info_caught_breadbattle_remote
-TEXT: REMOTELY CAUGHT AT A MAX BATTLE
+TEXT: AUS DER FERNE GEFANGEN: DYNA-KAMPF
 
 RESOURCE ID: pokemon_info_evolve_need_bread_move
 TEXT: Benötigt Level {1} {0}.
@@ -2226,7 +2272,7 @@ RESOURCE ID: prefecture_yamanashi
 TEXT: Yamanashi
 
 RESOURCE ID: purchase_on_web_store_string_key
-TEXT: Web Store
+TEXT: KAUFEN – WEBSTORE
 
 RESOURCE ID: quest_change_form_zacian
 TEXT: Ändere Zacians Form
@@ -2376,7 +2422,7 @@ RESOURCE ID: quest_trainee_battle_master_win_plural
 TEXT: Win {0} Trainer Battles in the Master League with your trainee as your buddy
 
 RESOURCE ID: quest_trainee_battle_plural
-TEXT: Battle with your trainee in your battle party {0} times
+TEXT: Kämpfe {0}-mal mit deinem Trainee im Kampfteam
 
 RESOURCE ID: quest_trainee_battle_raid_plural
 TEXT: Battle in {0} raids with your trainee in your battle party
@@ -2385,7 +2431,7 @@ RESOURCE ID: quest_trainee_battle_raid_singular
 TEXT: Battle in a raid with your trainee in your battle party
 
 RESOURCE ID: quest_trainee_battle_singular
-TEXT: Battle with your trainee in your battle party
+TEXT: Kämpfe mit deinem Trainee im Kampfteam
 
 RESOURCE ID: quest_trainee_battle_team_rocket_plural
 TEXT: Battle {0} Team GO Rocket members with your trainee in your battle party
@@ -2541,7 +2587,7 @@ RESOURCE ID: remote_max_battle_invite_push_notif
 TEXT: Ein Freund hat dich zu einem Dyna-Kampf eingeladen!
 
 RESOURCE ID: remote_raid_and_max_battle_invite_notification_toggle
-TEXT: Raid and Max Battle Invitations
+TEXT: Raid- und Dyna-Kampf-Einladungen
 
 RESOURCE ID: rewarded_spend_helpshift_desc
 TEXT: Der Belohnungspfad ist eine Belohnungsfunktion, bei der Trainer jeden Monat mit berechtigten Einkäufen Belohnungspunkte sammeln können.* Sammle eine bestimmte Anzahl an Belohnungspunkten, um beim Belohnungspfad weiterzukommen und Belohnungen freizuschalten!
@@ -2555,26 +2601,58 @@ TEXT: Der Belohnungspfad ist eine Belohnungsfunktion, bei der Trainer jeden Mona
 **Belohnungspunkte verfallen am Ende des Kalendermonats. Selbst wenn ein Trainer alle Belohnungen beansprucht, werden die Belohnungspunkte nicht auf den nächsten Monat übertragen. Trainer, die Kinderkonten verwenden, sind nicht berechtigt, am Belohnungspfad teilzunehmen. Belohnungspunkte sind kein Bargeld oder eine andere Währung und können nicht zwischen Konten übertragen werden. Die Verfügbarkeit und die Bedingungen des Belohnungspfads können sich ändern.
 
 RESOURCE ID: score_6_none
-TEXT: Won 0 raids
+TEXT: Hat 0 Raids gewonnen
+
+RESOURCE ID: season_pass_aug2025_event_duration
+TEXT: August 5 – September 2
+
+RESOURCE ID: season_pass_aug2025_upgrade_description
+TEXT: Purchase GO Pass Deluxe: August to unlock the following rewards!
+
+• One Super Incubator 
+• One <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Lucky Trinket</a>, which allows you to instantly become Lucky Friends with a friend of your choice
+• And much more!
+
+RESOURCE ID: season_pass_base_track_title_aug
+TEXT: GO Pass: August
+
+RESOURCE ID: season_pass_base_track_title_july
+TEXT: GO Pass: July
 
 RESOURCE ID: season_pass_base_track_title_june
-TEXT: GO Pass: June
+TEXT: GO-Pass: Juni
+
+RESOURCE ID: season_pass_details_link_aug
+TEXT: For more details, visit the <a href="https://pokemongolive.com/post/go-pass-august-2025">website</a>.
+
+RESOURCE ID: season_pass_details_link_july
+TEXT: For more details, visit the <a href="https://pokemongolive.com/post/go-pass-july-2025">website</a>.
 
 RESOURCE ID: season_pass_details_link_june
-TEXT: For more details, visit the <a href="https://pokemongolive.com/post/go-pass-june-2025">website</a>.
+TEXT: Weitere Infos findest du auf der <a href="https://pokemongolive.com/post/go-pass-june-2025">Website</a>.
 
 RESOURCE ID: season_pass_details_link_may
 TEXT: Weitere Infos findest du auf der <a href="https://pokemongolive.com/post/go-pass-may-2025">Website</a>.
 
-RESOURCE ID: season_pass_june2025_event_duration
-TEXT: June 3 – July 1
+RESOURCE ID: season_pass_july2025_event_duration
+TEXT: July 1 – August 5
 
-RESOURCE ID: season_pass_june2025_upgrade_description
-TEXT: Purchase GO Pass Deluxe: June to unlock the following rewards!
+RESOURCE ID: season_pass_july2025_upgrade_description
+TEXT: Purchase GO Pass Deluxe: July to unlock the following rewards!
 
-• One Super Incubator
+• One Super Incubator 
 • One <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Lucky Trinket</a>, which allows you to instantly become Lucky Friends with a friend of your choice
 • And much more!
+
+RESOURCE ID: season_pass_june2025_event_duration
+TEXT: 3. Juni – 1. Juli
+
+RESOURCE ID: season_pass_june2025_upgrade_description
+TEXT: Schnapp dir den GO-Pass-Deluxe: Juni, um die folgenden Belohnungen freizuschalten!
+
+• Eine Super-Brutmaschine
+• Ein <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Glücks-Klimbim</a>, mit dem du und ein Freund deiner Wahl sofort Glücks-Freunde werdet
+• Und vieles mehr!
 
 RESOURCE ID: season_pass_may2025_upgrade_description
 TEXT: Schnapp dir den GO-Pass-Deluxe: Mai, um die folgenden Belohnungen freizuschalten!
@@ -2584,13 +2662,25 @@ TEXT: Schnapp dir den GO-Pass-Deluxe: Mai, um die folgenden Belohnungen freizusc
 • Und vieles mehr!
 
 RESOURCE ID: season_pass_premium_rewards_desc_monthly_no_disclaimer
-TEXT: Rewards are unlocked as your rank increases. You must play during the time period to receive rewards.
+TEXT: Belohnungen werden durch das Erklimmen der Stufen freigeschaltet. Du musst während des Zeitraums spielen, um Belohnungen zu erhalten.
+
+RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_aug
+TEXT: GO Pass Deluxe: August + 10 Ranks
+
+RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_july
+TEXT: GO Pass Deluxe: July + 10 Ranks
 
 RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_june
-TEXT: GO Pass Deluxe: June + 10 Ranks
+TEXT: GO-Pass-Deluxe: Juni + 10 Stufen
+
+RESOURCE ID: season_pass_premium_track_title_aug
+TEXT: GO Pass Deluxe: August
+
+RESOURCE ID: season_pass_premium_track_title_july
+TEXT: GO Pass Deluxe: July
 
 RESOURCE ID: season_pass_premium_track_title_june
-TEXT: GO Pass Deluxe: June
+TEXT: GO-Pass-Deluxe: Juni
 
 RESOURCE ID: select_stat
 TEXT: Select Stat
@@ -2608,19 +2698,19 @@ RESOURCE ID: set_hyper_training_goal_title
 TEXT: Set {0}’s Training Goal
 
 RESOURCE ID: settings_allow_raid_and_max_battle_friend_requests
-TEXT: Raid and Max Battle Members
+TEXT: Raid- und Dyna-Kampf-Mitglieder
 
 RESOURCE ID: settings_allow_raid_and_max_battle_friend_requests_tip
-TEXT: Only applies to in-person and nearby raids or Max Battles.
+TEXT: Dies gilt nur für Raids oder Dyna-Kämpfe in Person und in der Nähe.
 
 RESOURCE ID: settings_popular_nearby_rsvp
 TEXT: Beliebte Raids in der Nähe mit RSVPs
 
 RESOURCE ID: settings_share_raid_and_max_battle_attendance
-TEXT: Share Raid and Max Battle Attendance with Friends
+TEXT: Raid- und Dyna-Kampf-Teilnahme mit Freunden teilen
 
 RESOURCE ID: settings_share_raid_and_max_battle_attendance_tip
-TEXT: By sharing, friends will be able to join a raid or Max Battle you’re in directly from their Friend List.
+TEXT: Durch das Teilen können Freunde deinen Raids oder Dyna-Kämpfen direkt über ihre Freundesliste beitreten.
 
 RESOURCE ID: shadow_raid_stat_variance_bonus
 TEXT: Pokémon, die in Stufe-1- und Stufe-3-Crypto-Raids gefangen werden, haben eine größere Varianz bei ihren Angriffs-, Verteidigungs- und KP-Werten.
@@ -2674,7 +2764,7 @@ RESOURCE ID: squash_confirmation_singular_temp
 TEXT: Du kannst heute an einem weiteren Fern-Dyna-Kampf oder Fern-Raid teilnehmen. Ein Fern-Raid-Pass wird eingesetzt, wenn der Kampf beginnt.
 
 RESOURCE ID: sr_gofest2025_global_ss_1
-TEXT: GO Fest 2025: Hero’s Journey (1/6)
+TEXT: GO Fest 2025: Reise des Helden (1/6)
 
 RESOURCE ID: sr_gofest2025_global_ss_2
 TEXT: GO Fest 2025: Hero’s Journey (2/6)
@@ -2692,7 +2782,7 @@ RESOURCE ID: sr_gofest2025_global_ss_6
 TEXT: GO Fest 2025: Hero’s Journey (6/6)
 
 RESOURCE ID: sr_gofest2025_global_volcanion_1
-TEXT: GO Fest 2025: Full Steam Ahead (1/6)
+TEXT: GO Fest 2025: Volldampf voraus (1/6)
 
 RESOURCE ID: sr_gofest2025_global_volcanion_2
 TEXT: GO Fest 2025: Full Steam Ahead (2/6)
@@ -2710,10 +2800,10 @@ RESOURCE ID: sr_gofest2025_global_volcanion_6
 TEXT: GO Fest 2025: Full Steam Ahead (6/6)
 
 RESOURCE ID: sr_gofest2025_irl_city_amer
-TEXT: GO Fest 2025: Full Steam Ahead to Jersey City!
+TEXT: GO Fest 2025: Volldampf voraus nach Jersey City!
 
 RESOURCE ID: sr_gofest2025_irl_city_amer_1
-TEXT: GO Fest 2025: Full Steam Ahead to Jersey City! (1/9)
+TEXT: GO Fest 2025: Volldampf voraus nach Jersey City! (1/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_amer_2
 TEXT: GO Fest 2025: Full Steam Ahead to Jersey City! (2/9)
@@ -2740,10 +2830,10 @@ RESOURCE ID: sr_gofest2025_irl_city_amer_9
 TEXT: GO Fest 2025: Full Steam Ahead to Jersey City! (9/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_apac
-TEXT: GO Fest 2025: Full Steam Ahead to Paris!
+TEXT: GO Fest 2025: Volldampf voraus nach Paris!
 
 RESOURCE ID: sr_gofest2025_irl_city_apac_1
-TEXT: GO Fest 2025: Full Steam Ahead to Osaka! (1/9)
+TEXT: GO Fest 2025: Volldampf voraus nach Osaka! (1/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_apac_2
 TEXT: GO Fest 2025: Full Steam Ahead to Osaka! (2/9)
@@ -2770,10 +2860,10 @@ RESOURCE ID: sr_gofest2025_irl_city_apac_9
 TEXT: GO Fest 2025: Full Steam Ahead to Osaka! (9/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_emea
-TEXT: GO Fest 2025: Jersey City Hero’s Journey
+TEXT: GO Fest 2025: Reise des Helden – Jersey City
 
 RESOURCE ID: sr_gofest2025_irl_city_emea_1
-TEXT: GO Fest 2025: Full Steam Ahead to Paris! (1/9)
+TEXT: GO Fest 2025: Volldampf voraus nach Paris! (1/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_emea_2
 TEXT: GO Fest 2025: Full Steam Ahead to Paris! (2/9)
@@ -2800,16 +2890,16 @@ RESOURCE ID: sr_gofest2025_irl_city_emea_9
 TEXT: GO Fest 2025: Full Steam Ahead to Paris! (9/9)
 
 RESOURCE ID: sr_gofest2025_irl_global_ss
-TEXT: GO Fest 2025: Hero’s Journey
+TEXT: GO Fest 2025: Reise des Helden
 
 RESOURCE ID: sr_gofest2025_irl_global_volcanion
-TEXT: GO Fest 2025: Full Steam Ahead
+TEXT: GO Fest 2025: Volldampf voraus
 
 RESOURCE ID: sr_gofest2025_irl_park_amer
-TEXT: GO Fest 2025: Paris Hero’s Journey
+TEXT: GO Fest 2025: Reise des Helden – Paris
 
 RESOURCE ID: sr_gofest2025_irl_park_amer_1
-TEXT: GO Fest 2025: Jersey City Hero’s Journey (1/9)
+TEXT: GO Fest 2025: Reise des Helden – Jersey City (1/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_amer_2
 TEXT: GO Fest 2025: Jersey City Hero’s Journey (2/9)
@@ -2836,10 +2926,10 @@ RESOURCE ID: sr_gofest2025_irl_park_amer_9
 TEXT: GO Fest 2025: Jersey City Hero’s Journey (9/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_apac
-TEXT: GO Fest 2025: Osaka Hero’s Journey
+TEXT: GO Fest 2025: Reise des Helden – Osaka
 
 RESOURCE ID: sr_gofest2025_irl_park_apac_1
-TEXT: GO Fest 2025: Osaka Hero’s Journey (1/9)
+TEXT: GO Fest 2025: Reise des Helden – Osaka (1/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_apac_2
 TEXT: GO Fest 2025: Osaka Hero’s Journey (2/9)
@@ -2866,10 +2956,10 @@ RESOURCE ID: sr_gofest2025_irl_park_apac_9
 TEXT: GO Fest 2025: Osaka Hero’s Journey (9/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_emea
-TEXT: GO Fest 2025: Full Steam Ahead to Osaka!
+TEXT: GO Fest 2025: Volldampf voraus nach Osaka!
 
 RESOURCE ID: sr_gofest2025_irl_park_emea_1
-TEXT: GO Fest 2025: Paris Hero’s Journey (1/9)
+TEXT: GO Fest 2025: Reise des Helden – Paris (1/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_emea_2
 TEXT: GO Fest 2025: Paris Hero’s Journey (2/9)
@@ -2896,16 +2986,16 @@ RESOURCE ID: sr_gofest2025_irl_park_emea_9
 TEXT: GO Fest 2025: Paris Hero’s Journey (9/9)
 
 RESOURCE ID: sr_gofest2025_ss_branch_shield_description
-TEXT: Choose this to pursue Crowned Shield Zamazenta.
+TEXT: Wähle diese Option, um Zamazenta (König des Schildes) zu verfolgen.
 
 RESOURCE ID: sr_gofest2025_ss_branch_shield_title
-TEXT: Crowned Shield Journey
+TEXT: Reise zum König des Schildes
 
 RESOURCE ID: sr_gofest2025_ss_branch_sword_description
-TEXT: Choose this to pursue Crowned Sword Zacian.
+TEXT: Wähle diese Option, um Zacian (König des Schwertes) zu verfolgen.
 
 RESOURCE ID: sr_gofest2025_ss_branch_sword_title
-TEXT: Crowned Sword Journey
+TEXT: Reise zum König des Schwertes
 
 RESOURCE ID: stamp_collection_info_see_link
 TEXT: SEE ON MAP
@@ -3021,6 +3111,13 @@ TEXT: <b>Enthaltene Belohnungen:</b>
 • 2 Premium-Kampfpässe
 • 1 Super-Rocket-Radar
 
+RESOURCE ID: text_rewards_key_finalstrike0525
+TEXT: <b>Enthaltene Belohnungen:</b>
+• Begegnungen mit Meditie, Skunkapuh und Garstella
+• 2 Premium-Kampfpässe
+• 1 Dyna-Partikel-Beutel
+• 4 Glücks-Eier
+
 RESOURCE ID: text_rewards_key_gmaxmachamp25
 TEXT: <b>Enthält:</b>
 • Sammle bis zu 4000 zusätzliche Dyna-Partikel bei Kraftquellen und Erkundungen
@@ -3083,16 +3180,16 @@ RESOURCE ID: today_view_throwing_competition
 TEXT: Regionale Wurf-Herausforderung
 
 RESOURCE ID: tr_gofest2025_leadup_articuno_1
-TEXT: Ancients Recovered Timed Research: Fleeting Legends - Galarian Articuno
+TEXT: Ancients Recovered Premium Timed Research: Fleeting Legends - Galarian Articuno
 
 RESOURCE ID: tr_gofest2025_leadup_articuno_description
-TEXT: Choose this path to pursue Galarian Articuno
+TEXT: Choose this path to pursue Galarian Articuno.
 
 RESOURCE ID: tr_gofest2025_leadup_articuno_title
 TEXT: Galarian Articuno
 
 RESOURCE ID: tr_gofest2025_leadup_birds
-TEXT: Ancients Recovered Timed Research: Fleeting Legends
+TEXT: Ancients Recovered Premium Timed Research: Fleeting Legends
 
 RESOURCE ID: tr_gofest2025_leadup_gbird_choice
 TEXT: Which of the Legendary Galarian Birds should we seek out?
@@ -3104,10 +3201,10 @@ RESOURCE ID: tr_gofest2025_leadup_giants
 TEXT: Ancients Recovered Timed Research: Legendary Giants
 
 RESOURCE ID: tr_gofest2025_leadup_moltres_1
-TEXT: Ancients Recovered Timed Research: Fleeting Legends - Galarian Moltres
+TEXT: Ancients Recovered Premium Timed Research: Fleeting Legends - Galarian Moltres
 
 RESOURCE ID: tr_gofest2025_leadup_moltres_description
-TEXT: Choose this path to pursue Galarian Moltres
+TEXT: Choose this path to pursue Galarian Moltres.
 
 RESOURCE ID: tr_gofest2025_leadup_moltres_title
 TEXT: Galarian Moltres
@@ -3122,16 +3219,16 @@ RESOURCE ID: tr_gofest2025_leadup_regi_choice_00
 TEXT: Hmm....looks like we've discovered some mysterious symbols.
 
 RESOURCE ID: tr_gofest2025_leadup_zapdos_1
-TEXT: Ancients Recovered Timed Research: Fleeting Legends - Galarian Zapdos
+TEXT: Ancients Recovered Premium Timed Research: Fleeting Legends - Galarian Zapdos
 
 RESOURCE ID: tr_gofest2025_leadup_zapdos_description
-TEXT: Choose this path to pursue Galarian Zapdos
+TEXT: Choose this path to pursue Galarian Zapdos.
 
 RESOURCE ID: tr_gofest2025_leadup_zapdos_title
 TEXT: Galarian Zapdos
 
 RESOURCE ID: tr_goruck_backpack
-TEXT: GORUCK Backpack Bonus Timed Research
+TEXT: Befristete Bonus-Forschung: GORUCK-Rucksack
 
 RESOURCE ID: tr_kr2025_retention_warm_hearted_desc
 TEXT: Befristete Forschung: Warmherzige Herausforderung
@@ -3191,10 +3288,10 @@ RESOURCE ID: upgrade_description_zamazenta
 TEXT: Dieses Pokémon kann Energie: König des Schildes einsetzen, um seine Form zu wechseln, wenn es die Lade-Attacke Eisenschädel beherrscht. Du erhältst diese Energie, indem du Zamazenta (König des Schildes) in Raids besiegst.
 
 RESOURCE ID: upmgmt_main_takedowns_header
-TEXT: PokéStop Report Images ({0})
+TEXT: PokéStop-Bericht-Fotos ({0})
 
 RESOURCE ID: upmgmt_main_type_takedown_item
-TEXT: PokéStop Report Image
+TEXT: PokéStop-Bericht-Foto
 
 RESOURCE ID: use_behemoth_bash_effect
 TEXT: Pokémon-Verteidigung erhöht in Raids und Dyna-Kämpfen
@@ -3212,10 +3309,10 @@ RESOURCE ID: use_training_token_to_hyper_train
 TEXT: Use a Bottle Cap to train your Pokémon!
 
 RESOURCE ID: visit_web_store_banner_string_key
-TEXT: Visit the <color=#F2A64B>Pokémon GO Web Store</color> for exclusive offers and bonus rewards!
+TEXT: Besuche den <color=#F2A64B>Pokémon GO-Webstore</color> für exklusive Angebote und Bonus-Belohnungen!
 
 RESOURCE ID: visit_web_store_banner_url_key
-TEXT: https://store.pokemongo.com/?utm_source=PGO&utm_medium=in-game-shop&utm_campaign=pgo_webstore_linkout&utm_content=banner_view_webstore
+TEXT: https://store.pokemongo.com/?utm_source=PGO&utm_medium=IAN&utm_campaign=pgo_webstore_linkout&utm_content=banner_view_webstore_IAN
 
 RESOURCE ID: visit_web_store_item_url_key
 TEXT: https://store.pokemongo.com/?itemId={0}
@@ -3224,16 +3321,13 @@ RESOURCE ID: visit_web_store_pokecoin_floater_url_key
 TEXT: https://store.pokemongo.com/?utm_source=PGO&utm_medium=in-game-shop&utm_campaign=pgo_webstore_linkout&utm_content=webstore_icon#POKECOIN
 
 RESOURCE ID: visit_web_store_pokecoin_string_key
-TEXT: Get twice the Reward Points and up to 10% bonus PokéCoins on the <color=#F2A64B>Pokémon GO Web Store</color>!
+TEXT: Erhalte doppelt so viele Belohnungspunkte und bis zu 10 % Bonus-PokéMünzen beim <color=#F2A64B>Pokémon GO-Webstore</color>!
 
 RESOURCE ID: visit_web_store_pokecoin_url_key
 TEXT: https://store.pokemongo.com/?utm_source=PGO&utm_medium=in-game-shop&utm_campaign=pgo_webstore_linkout&utm_content=banner_pokecoins#POKECOINS
 
 RESOURCE ID: web_store_name_text_key
-TEXT: Web Store
-
-RESOURCE ID: your_training_token_broke_to_coins
-TEXT: Your {0} has broken down!
+TEXT: Webstore
 
 RESOURCE ID: zacian_move_content
 TEXT: Zacian schwingt {0} lang ein großes, mächtiges Schwert. Stärkt die Attacken deiner Pokémon in Raids und Dyna-Kämpfen.
