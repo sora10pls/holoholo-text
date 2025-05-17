@@ -769,12 +769,12 @@ RESOURCE ID: event_pass_gofest2025_track_upgrade_header_description
 TEXT: Dapatkan hadiah tambahan dan buka <b>Tutup Botol Emas</b> di level 80!
 
 RESOURCE ID: event_pass_gofest2025_upgrade_description
-TEXT: Purchase the Ancients Recovered Pass Deluxe to unlock the following rewards!
+TEXT: Purchase Ancients Recovered Pass Deluxe to unlock the following rewards!
 
-• One <a href="https://niantic.helpshift.com">Gold Bottle Cap</a>, which allows you to enter a Pokemon into a Hyper Training Course and increase its stats
-• A Zacian Mask 
-• A Zamazenta Mask  
-• Access to exclusive Hatch and Raid-focused Bonuses 
+• One <a href="https://niantic.helpshift.com">Gold Bottle Cap</a>, which allows you to enter a Pokémon into a Hyper Training Course and increase its stats
+• A Zacian Mask
+• A Zamazenta Mask
+• Access to exclusive Hatch and Raid-focused Bonuses
 • And much more!
 
 Trainers can earn 1000 points daily from June 23-27 in addition to the points earned by any Pass Tasks. There’s no limit on how many points can be earned during global GO Fest on June 28 and 29!
@@ -915,13 +915,13 @@ RESOURCE ID: form_change_collapsed_quest_description
 TEXT: Untuk mengganti wujud Pokémon ini, jadikan ia sebagai partnermu dan bertualanglah bersama
 
 RESOURCE ID: form_change_move_required
-TEXT: Dibutuhkan untuk berubah wujud
+TEXT: Dibutuhkan untuk berubah bentuk
 
 RESOURCE ID: form_change_move_reroll_title
 TEXT: Untuk mengubah ke bentuk {2}, {0} harus mempelajari {1}
 
 RESOURCE ID: form_change_warn_needed_move
-TEXT: {0} dibutuhkan untuk mengubah bentuk
+TEXT: {0} dibutuhkan untuk berubah bentuk
 
 RESOURCE ID: form_zacian_crowned_sword
 TEXT: Raja Pedang
@@ -1544,6 +1544,12 @@ TEXT: It’d be awesome if you became Good Buddies!
 RESOURCE ID: hyper_training_tasks_heading
 TEXT: Tugas Latihan Luar Biasa
 
+RESOURCE ID: hyper_training_trade_confirm_message
+TEXT: You've previously increased this Pokémon stats through Hyper Training. Stats will be randomized after trading. Proceed with trading?
+
+RESOURCE ID: hyper_training_trade_confirm_title
+TEXT: Do you want to trade this Pokémon that has undergone Hyper Training?
+
 RESOURCE ID: hyper_training_training_goal_heading
 TEXT: Target Latihan
 
@@ -1704,10 +1710,10 @@ RESOURCE ID: mechanical_marvels
 TEXT: Keajaiban Mekanis
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-05-15T22:36:36.776571+00:00 for id-ID
-at SHA 4c6a31face
-Pipeline 3204171, job 40980862
-Patch from: 0.363.0-SHA-5865710a-RC2, 0.361.0-SHA-9de234e4-RC6
+TEXT: Built at 2025-05-16T23:41:39.865318+00:00 for id-ID
+at SHA f88ddf2b676
+Pipeline 3206317, job 41041353
+Patch from: 0.361.0-SHA-7a383ef7-RC2, 0.363.0-SHA-5865710a-RC2
 
 RESOURCE ID: moonless_volcano
 TEXT: Moonless Volcano
@@ -2106,6 +2112,15 @@ TEXT: Di habitat Kuil Kuno, ambil foto Jangmo-o yang kamu tangkap
 RESOURCE ID: quest_gofest2025_live_spin_snapshot_treasure
 TEXT: Di habitat Harta Tenggelam, ambil foto Finneon yang kamu tangkap
 
+RESOURCE ID: quest_log_training_complete
+TEXT: {0} completed their Hyper Training.
+
+RESOURCE ID: quest_log_training_expired
+TEXT: {0}'s Hyper Training has ended.
+
+RESOURCE ID: quest_log_training_task_complete
+TEXT: {0} completed a Hyper Training Task: {1}
+
 RESOURCE ID: quest_machop_catch_b
 TEXT: Tangkap {0} Machop
 
@@ -2272,7 +2287,7 @@ RESOURCE ID: quest_walk_buddy_volcanion_plural
 TEXT: Dapatkan {0} Permen dengan menjelajah bersama Volcanion sebagai Partnermu
 
 RESOURCE ID: quests_training_batch_updated
-TEXT: Pembaruan {0} Tugas Latihan Luar Biasa
+TEXT: {0} Tugas Latihan Luar Biasa Diperbarui
 
 RESOURCE ID: quests_training_multiple_task_available
 TEXT: {0} Tugas Latihan Luar Biasa Baru!
@@ -2291,6 +2306,9 @@ TEXT: Penelitian Berwaktu Hari Raid Bayangan Regigigas
 
 RESOURCE ID: raid_day_shadowregigigas_event_name
 TEXT: Hari Raid Bayangan Regigigas
+
+RESOURCE ID: raid_s_pass_daily_limit
+TEXT: Kamu telah mencapai batas harian partisipasi Pertarungan Max Jarak Jauh dan Raid Jarak Jauh. Mendekatlah untuk ikut secara langsung.
 
 RESOURCE ID: reactivate_dialog_message
 TEXT: Ada Reli Stempel lainnya yang sedang dijeda. Silakan mulai mengumpulkan stempel setelah melanjutkan reli.
@@ -2433,6 +2451,24 @@ TEXT: GO Pass Deluxe: June
 RESOURCE ID: select_stat
 TEXT: Pilih Statistik
 
+RESOURCE ID: sent_friend_error_info_plural
+TEXT: {0} teman telah mencapai batas harian partisipasi Pertarungan Max Jarak Jauh dan Raid Jarak Jauh. Kamu dapat mengundang Teman yang lain.
+
+RESOURCE ID: sent_friend_error_info_plural_archived
+TEXT: {0} Teman telah mencapai batas harian partisipasi Raid Jarak Jauh. Kamu dapat mengundang Teman yang lain.
+
+RESOURCE ID: sent_friend_error_info_singular
+TEXT: Seorang teman telah mencapai batas harian partisipasi Pertarungan Max Jarak Jauh dan Raid Jarak Jauh. Kamu dapat mengundang Teman yang lain.
+
+RESOURCE ID: sent_friend_error_info_singular_archived
+TEXT: 1 teman telah mencapai batas harian partisipasi Raid Jarak Jauh. Silakan undang teman yang lain.
+
+RESOURCE ID: sent_friend_error_toast
+TEXT: Pelatih ini telah mencapai batas harian partisipasi Pertarungan Max Jarak Jauh dan Raid Jarak Jauh.
+
+RESOURCE ID: sent_friend_error_toast_archived
+TEXT: Pelatih ini telah mencapai batas harian partisipasi Raid Jarak Jauh.
+
 RESOURCE ID: set_hyper_training_goal_title
 TEXT: Tetapkan Target Latihan {0}
 
@@ -2495,6 +2531,18 @@ TEXT: Lebih banyak Machop yang muncul di alam liar!
 
 RESOURCE ID: spawn_pawmi
 TEXT: Lebih banyak Pawmi yang muncul di alam liar!
+
+RESOURCE ID: squash_confirmation_plural
+TEXT: Dapat mengikuti {0} Pertarungan Max Jarak Jauh atau Raid Jarak Jauh lagi hari ini. Tiket Raid Jarak Jauh akan digunakan ketika pertarungan dimulai.
+
+RESOURCE ID: squash_confirmation_plural_archived
+TEXT: Dapat mengikuti {0} Raid Jarak Jauh lagi hari ini. Tiket Raid Jarak Jauh akan digunakan ketika pertarungan dimulai.
+
+RESOURCE ID: squash_confirmation_singular
+TEXT: Dapat mengikuti 1 Pertarungan Max Jarak Jauh atau Raid Jarak Jauh lagi hari ini. Tiket Raid Jarak Jauh akan digunakan ketika pertarungan dimulai.
+
+RESOURCE ID: squash_confirmation_singular_archived
+TEXT: Dapat mengikuti 1 Raid Jarak Jauh lagi hari ini. Tiket Raid Jarak Jauh akan digunakan ketika pertarungan dimulai.
 
 RESOURCE ID: sr_gofest2025_global_ss_1
 TEXT: GO Fest 2025: Perjalanan Pahlawan (1/6)

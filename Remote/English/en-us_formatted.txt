@@ -763,12 +763,12 @@ RESOURCE ID: event_pass_gofest2025_track_upgrade_header_description
 TEXT: Earn additional rewards and unlock a <b>Gold Bottle Cap</b> at Rank 80!
 
 RESOURCE ID: event_pass_gofest2025_upgrade_description
-TEXT: Purchase the Ancients Recovered Pass Deluxe to unlock the following rewards!
+TEXT: Purchase Ancients Recovered Pass Deluxe to unlock the following rewards!
 
-• One <a href="https://niantic.helpshift.com">Gold Bottle Cap</a>, which allows you to enter a Pokemon into a Hyper Training Course and increase its stats
-• A Zacian Mask 
-• A Zamazenta Mask  
-• Access to exclusive Hatch and Raid-focused Bonuses 
+• One <a href="https://niantic.helpshift.com">Gold Bottle Cap</a>, which allows you to enter a Pokémon into a Hyper Training Course and increase its stats
+• A Zacian Mask
+• A Zamazenta Mask
+• Access to exclusive Hatch and Raid-focused Bonuses
 • And much more!
 
 Trainers can earn 1000 points daily from June 23-27 in addition to the points earned by any Pass Tasks. There’s no limit on how many points can be earned during global GO Fest on June 28 and 29!
@@ -1529,6 +1529,12 @@ TEXT: It’d be awesome if you became Good Buddies!
 RESOURCE ID: hyper_training_tasks_heading
 TEXT: Hyper Training Tasks
 
+RESOURCE ID: hyper_training_trade_confirm_message
+TEXT: You've previously increased this Pokémon stats through Hyper Training. Stats will be randomized after trading. Proceed with trading?
+
+RESOURCE ID: hyper_training_trade_confirm_title
+TEXT: Do you want to trade this Pokémon that has undergone Hyper Training?
+
 RESOURCE ID: hyper_training_training_goal_heading
 TEXT: Training Goal
 
@@ -1671,10 +1677,10 @@ RESOURCE ID: mechanical_marvels
 TEXT: Mechanical Marvels
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-05-15T22:36:36.776571+00:00 for en-US
-at SHA 4c6a31face
-Pipeline 3204171, job 40980862
-Patch from: 0.363.0-SHA-5865710a-RC2, 0.361.0-SHA-9de234e4-RC6
+TEXT: Built at 2025-05-16T23:41:39.865318+00:00 for en-US
+at SHA f88ddf2b676
+Pipeline 3206317, job 41041353
+Patch from: 0.361.0-SHA-7a383ef7-RC2, 0.363.0-SHA-5865710a-RC2
 
 RESOURCE ID: moonless_volcano
 TEXT: Moonless Volcano
@@ -2049,6 +2055,15 @@ TEXT: In the Ancient Temple habitat, take a snapshot of a Jangmo-o you caught
 RESOURCE ID: quest_gofest2025_live_spin_snapshot_treasure
 TEXT: In the Sunken Treasure habitat, take a snapshot of a Finneon you caught
 
+RESOURCE ID: quest_log_training_complete
+TEXT: {0} completed their Hyper Training.
+
+RESOURCE ID: quest_log_training_expired
+TEXT: {0}'s Hyper Training has ended.
+
+RESOURCE ID: quest_log_training_task_complete
+TEXT: {0} completed a Hyper Training Task: {1}
+
 RESOURCE ID: quest_machop_catch_b
 TEXT: Catch {0} Machop
 
@@ -2232,6 +2247,9 @@ TEXT: Regigigas Shadow Raid Day Timed Research
 RESOURCE ID: raid_day_shadowregigigas_event_name
 TEXT: Regigigas Shadow Raid Day
 
+RESOURCE ID: raid_s_pass_daily_limit
+TEXT: You’ve reached your daily limit of Remote Max Battles and Remote Raids. Walk closer to join in person.
+
 RESOURCE ID: region_chubu
 TEXT: Chubu
 
@@ -2364,6 +2382,24 @@ TEXT: GO Pass Deluxe: June
 RESOURCE ID: select_stat
 TEXT: Select Stat
 
+RESOURCE ID: sent_friend_error_info_plural
+TEXT: {0} friends have already met their daily limit of Remote Max Battles and Remote Raids. You can invite more friends!
+
+RESOURCE ID: sent_friend_error_info_plural_archived
+TEXT: {0} friends have already met their daily limit of Remote Raids. You can invite more friends!
+
+RESOURCE ID: sent_friend_error_info_singular
+TEXT: A friend has already met their daily limit of Remote Max Battles and Remote Raids. You can invite another friend!
+
+RESOURCE ID: sent_friend_error_info_singular_archived
+TEXT: 1 friend has already met their daily limit of Remote Raids. You can invite another friend!
+
+RESOURCE ID: sent_friend_error_toast
+TEXT: Trainer has reached their daily limit of Remote Max Battles and Remote Raids.
+
+RESOURCE ID: sent_friend_error_toast_archived
+TEXT: Trainer has reached their daily limit of Remote Raids.
+
 RESOURCE ID: set_hyper_training_goal_title
 TEXT: Set {0}’s Training Goal
 
@@ -2423,6 +2459,18 @@ TEXT: More Machop are appearing in the wild!
 
 RESOURCE ID: spawn_pawmi
 TEXT: More Pawmi are appearing in the wild!
+
+RESOURCE ID: squash_confirmation_plural
+TEXT: You can join {0} more Remote Max Battles or Remote Raids today. A Remote Raid Pass will be used when the battle starts.
+
+RESOURCE ID: squash_confirmation_plural_archived
+TEXT: You can join {0} more Remote Raids today. A Remote Raid Pass will be used when the battle starts.
+
+RESOURCE ID: squash_confirmation_singular
+TEXT: You can join one more Remote Max Battle or Remote Raid today. A Remote Raid Pass will be used when the battle starts.
+
+RESOURCE ID: squash_confirmation_singular_archived
+TEXT: You can join 1 more Remote Raid today. A Remote Raid Pass will be used when the battle starts.
 
 RESOURCE ID: sr_gofest2025_global_ss_1
 TEXT: GO Fest 2025: Hero’s Journey (1/6)
