@@ -59,7 +59,7 @@ RESOURCE ID: avatar_socks
 TEXT: 레그웨어
 
 RESOURCE ID: badge_event_0120
-TEXT: Completed the GORUCK Backpack Bonus Timed Research
+TEXT: GORUCK 백팩 보너스 시간제한 리서치 완료했다!
 
 RESOURCE ID: badge_event_0120_title
 TEXT: GORUCK
@@ -482,7 +482,7 @@ RESOURCE ID: bonus_mega_aerodactyl_raids
 TEXT: 메가프테라가 에리어 내 특별한 레이드배틀에 출현
 
 RESOURCE ID: bonus_premier_ball_catch_rate
-TEXT: Premier Balls have an increased catch rate
+TEXT: 프리미어볼 사용시 포켓몬을 잡기 쉬워진다
 
 RESOURCE ID: bonus_research_today_view
 TEXT: Bonus Timed Research is available
@@ -1841,25 +1841,25 @@ RESOURCE ID: event_name_gofest_2025_raid
 TEXT: Pokémon GO Fest 2025 - 레이드 옵션
 
 RESOURCE ID: event_name_gofest_2025_ticketed
-TEXT: Pokémon GO Fest 2025—Ticketed (Event Hours)
+TEXT: Pokémon GO Fest 2025 - 티켓 있음(이벤트 개최 중)
 
 RESOURCE ID: event_name_gofest_2025_ticketed_all_day
-TEXT: Pokémon GO Fest 2025—Ticketed (All Day)
+TEXT: Pokémon GO Fest 2025 - 티켓 있음(종일)
 
 RESOURCE ID: event_pass_gofest2025_base_track_title
-TEXT: GO Pass: Ancients Recovered
+TEXT: GO패스: 과거의 잔상
 
 RESOURCE ID: event_pass_gofest2025_event_duration
-TEXT: June 23 – June 29
+TEXT: 6월 23일 - 29일
 
 RESOURCE ID: event_pass_gofest2025_premium_track_plus_points_title
-TEXT: GO Pass Deluxe: Ancients Recovered + 10 Ranks
+TEXT: GO패스 디럭스: 과거의 잔상+10랭크
 
 RESOURCE ID: event_pass_gofest2025_premium_track_title
-TEXT: GO Pass Deluxe: Ancients Recovered
+TEXT: GO패스 디럭스: 과거의 잔상
 
 RESOURCE ID: event_pass_gofest2025_track_upgrade_header_description
-TEXT: Earn additional rewards and unlock a <b>Gold Bottle Cap</b> at Rank 80!
+TEXT: 추가 리워드를 받을 수 있고 랭크80으로 <b>금왕관</b>이 잠금 해제!
 
 RESOURCE ID: event_pass_gofest2025_upgrade_description
 TEXT: Purchase Ancients Recovered Pass Deluxe to unlock the following rewards!
@@ -1921,7 +1921,7 @@ RESOURCE ID: filter_hats_headpiece
 TEXT: 머리 장식
 
 RESOURCE ID: filter_key_hyper_training
-TEXT: hypertraining
+TEXT: 대단한 특훈
 
 RESOURCE ID: filter_legwear_socks
 TEXT: 양말
@@ -2788,13 +2788,16 @@ RESOURCE ID: item_triple_stat_increase_name
 TEXT: 금왕관
 
 RESOURCE ID: lure_duration_2_hr
-TEXT: 2-hour Lure Module duration
+TEXT: 루어모듈 2시간 지속
 
 RESOURCE ID: lure_module_party_pokemon
 TEXT: Special costumed Pokémon attracted to Lure Modules
 
 RESOURCE ID: lure_module_unown
 TEXT: Unown attracted to Lure Modules
+
+RESOURCE ID: lure_rainy_event_2hr
+TEXT: 레이니 루어모듈 2시간 지속
 
 RESOURCE ID: machamp_gmax_tr_2025_title
 TEXT: 거다이맥스 괴력몬 프리미엄 시간제한 리서치
@@ -2815,10 +2818,10 @@ RESOURCE ID: mechanical_marvels
 TEXT: Mechanical Marvels
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-05-21T00:37:46.809117+00:00 for ko-KR
-at SHA e0a578930d2
-Pipeline 3210840, job 41167418
-Patch from: 0.361.0-SHA-9de234e4-RC6, 0.363.0-SHA-5865710a-RC2
+TEXT: Built at 2025-05-21T19:26:32.245944+00:00 for ko-KR
+at SHA d228f4878b8
+Pipeline 3212136, job 41208457
+Patch from: 0.363.0-SHA-20b4a939-RC1, 0.361.0-SHA-f38b0242-RC5
 
 RESOURCE ID: moonless_volcano
 TEXT: Moonless Volcano
@@ -2872,11 +2875,11 @@ RESOURCE ID: photobomb_five_pawmi
 TEXT: GO스냅샷으로 빠모의 서프라이즈 5회
 
 RESOURCE ID: poi_report_photo_details
-TEXT: You may also add a photo to highlight the issue with this PokéStop.
+TEXT: 문제를 알기쉽게 표시하기 위해 사진을 추가할 수 있습니다.
 
-A good photo is high quality, clear, compelling, and descriptive. The photo should show the issue fully, be in focus, and be free of visual obstructions, people, and animals.
+화질이 좋고 사람과 동물 없이 대상물이 선명하게 보여야하며 그 장소의 문제를 단적으로 표현할 수 있는 사진을 보내 주세요.
 
-You must take the photo yourself for it to be considered.
+(본인이 직접 촬영한 사진만 유효합니다)
 
 RESOURCE ID: pokelid_map_url_aichi
 TEXT: https://www.google.com/maps/d/viewer?mid=1cN05gSanA6mceKUyLjbWZc_KX4AJ9Oc
@@ -3037,6 +3040,9 @@ TEXT: 자시안(검왕)
 
 RESOURCE ID: pokemon_species_form_0889_2578
 TEXT: 자마젠타(방패왕)
+
+RESOURCE ID: pokestop_item_passcode_inventory_full
+TEXT: 도구가 가득 찼거나 체크인 할 수 있는 장소에서 떨어졌습니다
 
 RESOURCE ID: prefecture_aichi
 TEXT: Aichi
@@ -3324,7 +3330,7 @@ RESOURCE ID: quest_trainee_battle_master_win_plural
 TEXT: Win {0} Trainer Battles in the Master League with your trainee as your buddy
 
 RESOURCE ID: quest_trainee_battle_plural
-TEXT: Battle with your trainee in your battle party {0} times
+TEXT: 단련할 포켓몬을 배틀 파티에 넣어 배틀을 {0}회 한다
 
 RESOURCE ID: quest_trainee_battle_raid_plural
 TEXT: 단련할 포켓몬을 배틀 파티에 넣어 레이드배틀을 {0}회 한다
@@ -3333,7 +3339,7 @@ RESOURCE ID: quest_trainee_battle_raid_singular
 TEXT: 단련할 포켓몬을 배틀 파티에 넣어 레이드배틀을 1회 한다
 
 RESOURCE ID: quest_trainee_battle_singular
-TEXT: Battle with your trainee in your battle party
+TEXT: 단련할 포켓몬을 배틀 파티에 넣어 배틀을 한다
 
 RESOURCE ID: quest_trainee_battle_team_rocket_plural
 TEXT: 단련할 포켓몬을 배틀 파티에 넣어 GO로켓단과 {0}회 배틀한다
@@ -3506,7 +3512,7 @@ RESOURCE ID: rewarded_spend_helpshift_footer
 TEXT: 자세한 내용은 <a href="https://pokemongolive.com/post/may-reward-road-2025">웹사이트</a>에서 확인해 주세요.
 
 RESOURCE ID: score_6_none
-TEXT: Won 0 raids
+TEXT: 레이드배틀에서 0번 이겼다
 
 RESOURCE ID: season_pass_aug2025_event_duration
 TEXT: August 5 – September 2
@@ -3514,7 +3520,7 @@ TEXT: August 5 – September 2
 RESOURCE ID: season_pass_aug2025_upgrade_description
 TEXT: Purchase GO Pass Deluxe: August to unlock the following rewards!
 
-• One Super Incubator 
+• One Super Incubator
 • One <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Lucky Trinket</a>, which allows you to instantly become Lucky Friends with a friend of your choice
 • And much more!
 
@@ -3545,7 +3551,7 @@ TEXT: July 1 – August 5
 RESOURCE ID: season_pass_july2025_upgrade_description
 TEXT: Purchase GO Pass Deluxe: July to unlock the following rewards!
 
-• One Super Incubator 
+• One Super Incubator
 • One <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Lucky Trinket</a>, which allows you to instantly become Lucky Friends with a friend of your choice
 • And much more!
 
@@ -3605,10 +3611,10 @@ TEXT: 프렌드가 리모트 레이드 최대 수에 도달했습니다.
 RESOURCE ID: set_hyper_training_goal_title
 TEXT: {0}의 특훈 목표 설정
 
-RESOURCE ID: settings_allow_raid_and_max_battle_friend_requests
+RESOURCE ID: settings_allow_raid_and_max_battle_friends_requests
 TEXT: 레이드배틀, 맥스배틀 참가자
 
-RESOURCE ID: settings_allow_raid_and_max_battle_friend_requests_tip
+RESOURCE ID: settings_allow_raid_and_max_battle_friends_requests_tip
 TEXT: 현장 참가와 근처의 레이드배틀, 맥스배틀만 가능
 
 RESOURCE ID: settings_popular_nearby_rsvp
@@ -3675,244 +3681,244 @@ RESOURCE ID: squash_confirmation_singular_archived
 TEXT: 오늘 앞으로 1번 리모트 레이드에 참가할 수 있습니다. 리모트 레이드패스는 배틀 시작 후에 사용됩니다.
 
 RESOURCE ID: sr_gofest2025_global_ss_1
-TEXT: GO Fest 2025: Hero’s Journey (1/6)
+TEXT: GO Fest 2025: 히어로의 여정(1/6)
 
 RESOURCE ID: sr_gofest2025_global_ss_2
-TEXT: GO Fest 2025: Hero’s Journey (2/6)
+TEXT: GO Fest 2025: 히어로의 여정(2/6)
 
 RESOURCE ID: sr_gofest2025_global_ss_3
-TEXT: GO Fest 2025: Hero’s Journey (3/6)
+TEXT: GO Fest 2025: 히어로의 여정(3/6)
 
 RESOURCE ID: sr_gofest2025_global_ss_4
-TEXT: GO Fest 2025: Hero’s Journey (4/6)
+TEXT: GO Fest 2025: 히어로의 여정(4/6)
 
 RESOURCE ID: sr_gofest2025_global_ss_5
-TEXT: GO Fest 2025: Hero’s Journey (5/6)
+TEXT: GO Fest 2025: 히어로의 여정(5/6)
 
 RESOURCE ID: sr_gofest2025_global_ss_6
-TEXT: GO Fest 2025: Hero’s Journey (6/6)
+TEXT: GO Fest 2025: 히어로의 여정(6/6)
 
 RESOURCE ID: sr_gofest2025_global_volcanion_1
-TEXT: GO Fest 2025: Full Steam Ahead (1/6)
+TEXT: GO Fest 2025: 풀스팀!(1/6)
 
 RESOURCE ID: sr_gofest2025_global_volcanion_2
-TEXT: GO Fest 2025: Full Steam Ahead (2/6)
+TEXT: GO Fest 2025: 풀스팀!(2/6)
 
 RESOURCE ID: sr_gofest2025_global_volcanion_3
-TEXT: GO Fest 2025: Full Steam Ahead (3/6)
+TEXT: GO Fest 2025: 풀스팀!(3/6)
 
 RESOURCE ID: sr_gofest2025_global_volcanion_4
-TEXT: GO Fest 2025: Full Steam Ahead (4/6)
+TEXT: GO Fest 2025: 풀스팀!(4/6)
 
 RESOURCE ID: sr_gofest2025_global_volcanion_5
-TEXT: GO Fest 2025: Full Steam Ahead (5/6)
+TEXT: GO Fest 2025: 풀스팀!(5/6)
 
 RESOURCE ID: sr_gofest2025_global_volcanion_6
-TEXT: GO Fest 2025: Full Steam Ahead (6/6)
+TEXT: GO Fest 2025: 풀스팀!(6/6)
 
 RESOURCE ID: sr_gofest2025_irl_city_amer
-TEXT: GO Fest 2025: Full Steam Ahead to Jersey City!
+TEXT: GO Fest 2025: 저지시티로 풀스팀!
 
 RESOURCE ID: sr_gofest2025_irl_city_amer_1
-TEXT: GO Fest 2025: Full Steam Ahead to Jersey City! (1/9)
+TEXT: GO Fest 2025: 저지시티로 풀스팀!(1/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_amer_2
-TEXT: GO Fest 2025: Full Steam Ahead to Jersey City! (2/9)
+TEXT: GO Fest 2025: 저지시티로 풀스팀!(2/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_amer_3
-TEXT: GO Fest 2025: Full Steam Ahead to Jersey City! (3/9)
+TEXT: GO Fest 2025: 저지시티로 풀스팀!(3/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_amer_4
-TEXT: GO Fest 2025: Full Steam Ahead to Jersey City! (4/9)
+TEXT: GO Fest 2025: 저지시티로 풀스팀!(4/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_amer_5
-TEXT: GO Fest 2025: Full Steam Ahead to Jersey City! (5/9)
+TEXT: GO Fest 2025: 저지시티로 풀스팀!(5/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_amer_6
-TEXT: GO Fest 2025: Full Steam Ahead to Jersey City! (6/9)
+TEXT: GO Fest 2025: 저지시티로 풀스팀!(6/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_amer_7
-TEXT: GO Fest 2025: Full Steam Ahead to Jersey City! (7/9)
+TEXT: GO Fest 2025: 저지시티로 풀스팀!(7/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_amer_8
-TEXT: GO Fest 2025: Full Steam Ahead to Jersey City! (8/9)
+TEXT: GO Fest 2025: 저지시티로 풀스팀!(8/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_amer_9
-TEXT: GO Fest 2025: Full Steam Ahead to Jersey City! (9/9)
+TEXT: GO Fest 2025: 저지시티로 풀스팀!(9/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_apac
-TEXT: GO Fest 2025: Full Steam Ahead to Paris!
+TEXT: GO Fest 2025: 파리로 풀스팀!
 
 RESOURCE ID: sr_gofest2025_irl_city_apac_1
-TEXT: GO Fest 2025: Full Steam Ahead to Osaka! (1/9)
+TEXT: GO Fest 2025: 오오사카로 풀스팀!(1/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_apac_2
-TEXT: GO Fest 2025: Full Steam Ahead to Osaka! (2/9)
+TEXT: GO Fest 2025: 오사카로 풀스팀!(2/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_apac_3
-TEXT: GO Fest 2025: Full Steam Ahead to Osaka! (3/9)
+TEXT: GO Fest 2025: 오사카로 풀스팀!(3/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_apac_4
-TEXT: GO Fest 2025: Full Steam Ahead to Osaka! (4/9)
+TEXT: GO Fest 2025: 오사카로 풀스팀!(4/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_apac_5
-TEXT: GO Fest 2025: Full Steam Ahead to Osaka! (5/9)
+TEXT: GO Fest 2025: 오사카로 풀스팀!(5/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_apac_6
-TEXT: GO Fest 2025: Full Steam Ahead to Osaka! (6/9)
+TEXT: GO Fest 2025: 오사카로 풀스팀!(6/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_apac_7
-TEXT: GO Fest 2025: Full Steam Ahead to Osaka! (7/9)
+TEXT: GO Fest 2025: 오사카로 풀스팀!(7/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_apac_8
-TEXT: GO Fest 2025: Full Steam Ahead to Osaka! (8/9)
+TEXT: GO Fest 2025: 오사카로 풀스팀!(8/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_apac_9
-TEXT: GO Fest 2025: Full Steam Ahead to Osaka! (9/9)
+TEXT: GO Fest 2025: 오사카로 풀스팀!(9/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_emea
-TEXT: GO Fest 2025: Jersey City Hero’s Journey
+TEXT: GO Fest 2025: 저지시티 히어로의 여정
 
 RESOURCE ID: sr_gofest2025_irl_city_emea_1
-TEXT: GO Fest 2025: Full Steam Ahead to Paris! (1/9)
+TEXT: GO Fest 2025: 파리로 풀스팀!(1/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_emea_2
-TEXT: GO Fest 2025: Full Steam Ahead to Paris! (2/9)
+TEXT: GO Fest 2025: 파리로 풀스팀!(2/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_emea_3
-TEXT: GO Fest 2025: Full Steam Ahead to Paris! (3/9)
+TEXT: GO Fest 2025: 파리로 풀스팀!(3/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_emea_4
-TEXT: GO Fest 2025: Full Steam Ahead to Paris! (4/9)
+TEXT: GO Fest 2025: 파리로 풀스팀!(4/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_emea_5
-TEXT: GO Fest 2025: Full Steam Ahead to Paris! (5/9)
+TEXT: GO Fest 2025: 파리로 풀스팀!(5/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_emea_6
-TEXT: GO Fest 2025: Full Steam Ahead to Paris! (6/9)
+TEXT: GO Fest 2025: 파리로 풀스팀!(6/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_emea_7
-TEXT: GO Fest 2025: Full Steam Ahead to Paris! (7/9)
+TEXT: GO Fest 2025: 파리로 풀스팀!(7/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_emea_8
-TEXT: GO Fest 2025: Full Steam Ahead to Paris! (8/9)
+TEXT: GO Fest 2025: 파리로 풀스팀!(8/9)
 
 RESOURCE ID: sr_gofest2025_irl_city_emea_9
-TEXT: GO Fest 2025: Full Steam Ahead to Paris! (9/9)
+TEXT: GO Fest 2025: 파리로 풀스팀!(9/9)
 
 RESOURCE ID: sr_gofest2025_irl_global_ss
-TEXT: GO Fest 2025: Hero’s Journey
+TEXT: GO Fest 2025: 히어로의 여정
 
 RESOURCE ID: sr_gofest2025_irl_global_volcanion
-TEXT: GO Fest 2025: Full Steam Ahead
+TEXT: GO Fest 2025: 풀스팀!
 
 RESOURCE ID: sr_gofest2025_irl_park_amer
-TEXT: GO Fest 2025: Paris Hero’s Journey
+TEXT: GO Fest 2025: 파리 히어로의 여정
 
 RESOURCE ID: sr_gofest2025_irl_park_amer_1
-TEXT: GO Fest 2025: Jersey City Hero’s Journey (1/9)
+TEXT: GO Fest 2025: 저지시티 히어로의 여정(1/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_amer_2
-TEXT: GO Fest 2025: Jersey City Hero’s Journey (2/9)
+TEXT: GO Fest 2025: 저지시티 히어로의 여정(2/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_amer_3
-TEXT: GO Fest 2025: Jersey City Hero’s Journey (3/9)
+TEXT: GO Fest 2025: 저지시티 히어로의 여정(3/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_amer_4
-TEXT: GO Fest 2025: Jersey City Hero’s Journey (4/9)
+TEXT: GO Fest 2025: 저지시티 히어로의 여정(4/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_amer_5
-TEXT: GO Fest 2025: Jersey City Hero’s Journey (5/9)
+TEXT: GO Fest 2025: 저지시티 히어로의 여정(5/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_amer_6
-TEXT: GO Fest 2025: Jersey City Hero’s Journey (6/9)
+TEXT: GO Fest 2025: 저지시티 히어로의 여정(6/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_amer_7
-TEXT: GO Fest 2025: Jersey City Hero’s Journey (7/9)
+TEXT: GO Fest 2025: 저지시티 히어로의 여정(7/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_amer_8
-TEXT: GO Fest 2025: Jersey City Hero’s Journey (8/9)
+TEXT: GO Fest 2025: 저지시티 히어로의 여정(8/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_amer_9
-TEXT: GO Fest 2025: Jersey City Hero’s Journey (9/9)
+TEXT: GO Fest 2025: 저지시티 히어로의 여정(9/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_apac
-TEXT: GO Fest 2025: Osaka Hero’s Journey
+TEXT: GO Fest 2025: 오오사카 히어로의 여정
 
 RESOURCE ID: sr_gofest2025_irl_park_apac_1
-TEXT: GO Fest 2025: Osaka Hero’s Journey (1/9)
+TEXT: GO Fest 2025: 오오사카 히어로의 여정(1/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_apac_2
-TEXT: GO Fest 2025: Osaka Hero’s Journey (2/9)
+TEXT: GO Fest 2025: 오오사카 히어로의 여정(2/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_apac_3
-TEXT: GO Fest 2025: Osaka Hero’s Journey (3/9)
+TEXT: GO Fest 2025: 오오사카 히어로의 여정(3/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_apac_4
-TEXT: GO Fest 2025: Osaka Hero’s Journey (4/9)
+TEXT: GO Fest 2025: 오오사카 히어로의 여정(4/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_apac_5
-TEXT: GO Fest 2025: Osaka Hero’s Journey (5/9)
+TEXT: GO Fest 2025: 오오사카 히어로의 여정(5/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_apac_6
-TEXT: GO Fest 2025: Osaka Hero’s Journey (6/9)
+TEXT: GO Fest 2025: 오오사카 히어로의 여정(6/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_apac_7
-TEXT: GO Fest 2025: Osaka Hero’s Journey (7/9)
+TEXT: GO Fest 2025: 오오사카 히어로의 여정(7/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_apac_8
-TEXT: GO Fest 2025: Osaka Hero’s Journey (8/9)
+TEXT: GO Fest 2025: 오오사카 히어로의 여정(8/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_apac_9
-TEXT: GO Fest 2025: Osaka Hero’s Journey (9/9)
+TEXT: GO Fest 2025: 오오사카 히어로의 여정(9/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_emea
-TEXT: GO Fest 2025: Full Steam Ahead to Osaka!
+TEXT: GO Fest 2025: 오오사카로 풀스팀!
 
 RESOURCE ID: sr_gofest2025_irl_park_emea_1
-TEXT: GO Fest 2025: Paris Hero’s Journey (1/9)
+TEXT: GO Fest 2025: 파리 히어로의 여정(1/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_emea_2
-TEXT: GO Fest 2025: Paris Hero’s Journey (2/9)
+TEXT: GO Fest 2025: 파리 히어로의 여정(2/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_emea_3
-TEXT: GO Fest 2025: Paris Hero’s Journey (3/9)
+TEXT: GO Fest 2025: 파리 히어로의 여정(3/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_emea_4
-TEXT: GO Fest 2025: Paris Hero’s Journey (4/9)
+TEXT: GO Fest 2025: 파리 히어로의 여정(4/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_emea_5
-TEXT: GO Fest 2025: Paris Hero’s Journey (5/9)
+TEXT: GO Fest 2025: 파리 히어로의 여정(5/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_emea_6
-TEXT: GO Fest 2025: Paris Hero’s Journey (6/9)
+TEXT: GO Fest 2025: 파리 히어로의 여정(6/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_emea_7
-TEXT: GO Fest 2025: Paris Hero’s Journey (7/9)
+TEXT: GO Fest 2025: 파리 히어로의 여정(7/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_emea_8
-TEXT: GO Fest 2025: Paris Hero’s Journey (8/9)
+TEXT: GO Fest 2025: 파리 히어로의 여정(8/9)
 
 RESOURCE ID: sr_gofest2025_irl_park_emea_9
-TEXT: GO Fest 2025: Paris Hero’s Journey (9/9)
+TEXT: GO Fest 2025: 파리 히어로의 여정(9/9)
 
 RESOURCE ID: sr_gofest2025_ss_branch_shield_description
-TEXT: Choose this to pursue Crowned Shield Zamazenta.
+TEXT: 자마젠타(방패왕)을 진행합니다
 
 RESOURCE ID: sr_gofest2025_ss_branch_shield_title
-TEXT: Crowned Shield Journey
+TEXT: 실드의 여정
 
 RESOURCE ID: sr_gofest2025_ss_branch_sword_description
-TEXT: Choose this to pursue Crowned Sword Zacian.
+TEXT: 자시안(검왕)을 진행합니다
 
 RESOURCE ID: sr_gofest2025_ss_branch_sword_title
-TEXT: Crowned Sword Journey
+TEXT: 소드의 여정
 
 RESOURCE ID: stamp_collection_info_see_link
-TEXT: SEE ON MAP
+TEXT: 맵을 본다
 
 RESOURCE ID: stamp_info_map_header
-TEXT: STAMP RALLY MAP
+TEXT: 스탬프랠리 맵
 
 RESOURCE ID: stamp_pokelid_icon
 TEXT: stamp_pokelid_icon
@@ -3924,7 +3930,7 @@ RESOURCE ID: stamp_tutorial_page_2_header
 TEXT: 스탬프랠리 확인
 
 RESOURCE ID: stamp_web_link_callout
-TEXT: STAMP RALLY MAP
+TEXT: 스탬프랠리 맵
 
 RESOURCE ID: start_training
 TEXT: 특훈 시작!
@@ -4129,7 +4135,7 @@ RESOURCE ID: tr_gofest2025_nj_stream
 TEXT: GO Fest New Jersey Broadcast Bonus Timed Research
 
 RESOURCE ID: tr_goruck_backpack
-TEXT: GORUCK Backpack Bonus Timed Research
+TEXT: GORUCK 백팩 보너스 시간제한 리서치
 
 RESOURCE ID: tr_kr2025_retention_warm_hearted_desc
 TEXT: 패밀리 챌린지 시간제한 리서치
@@ -4189,10 +4195,10 @@ RESOURCE ID: upgrade_description_zamazenta
 TEXT: 이 포켓몬은 아이언헤드를 배우고 있으면 실드 에너지를 사용해서 모습을 바꿀 수 있습니다. 실드 에너지는 레이드에서 자마젠타(방패왕)를 쓰러뜨리면 손에 넣을 수 있습니다.
 
 RESOURCE ID: upmgmt_main_takedowns_header
-TEXT: PokéStop Report Images ({0})
+TEXT: 포켓스톱 보고 이미지({0})
 
 RESOURCE ID: upmgmt_main_type_takedown_item
-TEXT: PokéStop Report Image
+TEXT: 포켓스톱 보고 이미지
 
 RESOURCE ID: use_behemoth_bash_effect
 TEXT: 레이드와 맥스배틀에서 방어 상승
