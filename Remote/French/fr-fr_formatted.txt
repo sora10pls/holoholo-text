@@ -1,7 +1,7 @@
 RESOURCE ID: ancient_temple
 TEXT: Temple ancien
 
-RESOURCE ID: ar_scan_landing_info_desc
+RESOURCE ID: ar_scan_landing_info_desc_temp
 TEXT: Les Dresseur·euse·s peuvent contribuer au développement de la nouvelle technologie de RA en prenant des photos avec leurs appareils mobiles. Ces informations sont utilisées pour réaliser une conception en 3D de lieux réels et pour développer la technologie et les services connexes.
 
 RESOURCE ID: august_eggspedition_title
@@ -204,6 +204,12 @@ TEXT: Étude ponctuelle bonus disponible
 
 RESOURCE ID: bonus_rrp_limit_30_raids_max_battle
 TEXT: La limite quotidienne de Raids à distance et de Combats Dynamax est passée à 30
+
+RESOURCE ID: branching_quest_choice_gui_title
+TEXT: Parcours
+
+RESOURCE ID: branching_quests_title
+TEXT: Parcours
 
 RESOURCE ID: calming_teahouse
 TEXT: Salon de thé apaisant
@@ -2060,7 +2066,7 @@ RESOURCE ID: go_fest_2025_irl_sr_park_06_03
 TEXT: Ton expérience avec Volcanion motivera d’autres Dresseurs et Dresseuses à suivre tes pas. Je suis très fier de toi, %PLAYERNAME% !
 
 RESOURCE ID: go_fest_2025_irl_sunkern_treasure_00_00
-TEXT: Ohé, PLAYERNAME% ! Prépare-toi à plonger dans les profondeurs de cet habitat aquatique. Je suis sûr que tu sens déjà les vagues de l’aventure te transporter.
+TEXT: Ohé, %PLAYERNAME% ! Prépare-toi à plonger dans les profondeurs de cet habitat aquatique. Je suis sûr que tu sens déjà les vagues de l’aventure te transporter.
 
 RESOURCE ID: go_fest_2025_irl_sunkern_treasure_00_01
 TEXT: Les véritables trésors dans ces eaux ne sont pas des pièces anciennes ou des gemmes précieuses, mais les Pokémon remarquables qui ont élu domicile ici.
@@ -2498,10 +2504,10 @@ RESOURCE ID: mechanical_marvels
 TEXT: Merveilles mécaniques
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-06-08T07:08:34.380377+00:00 for fr-FR
-at SHA 599eb7edaf6
-Pipeline 3234590, job 41876494
-Patch from: 0.365.0-SHA-338b2809-RC4, 0.363.2-SHA-910d3be6-RC2, 0.367.0-SHA-1e04fd6b-RC1
+TEXT: Built at 2025-06-11T00:51:20.648844+00:00 for fr-FR
+at SHA 38f67232011
+Pipeline 3237844, job 41974417
+Patch from: 0.365.0-SHA-34f01427-RC2, 0.363.2-SHA-910d3be6-RC2, 0.367.0-SHA-1e04fd6b-RC1
 
 RESOURCE ID: moonless_volcano
 TEXT: Volcan obscur
@@ -2844,7 +2850,7 @@ RESOURCE ID: quest_trainee_battle_trainer_win_plural
 TEXT: Gagne {0} combats contre un autre Dresseur ou Dresseuse avec ton apprenti dans ton équipe de combat
 
 RESOURCE ID: quest_trainee_battle_ultra_win_plural
-TEXT: Gagne 0} combats de Dresseurs dans la Ligue Hyper avec ton apprenti comme Copain
+TEXT: Gagne {0} combats de Dresseurs dans la Ligue Hyper avec ton apprenti comme Copain
 
 RESOURCE ID: quest_trainee_battle_win_plural
 TEXT: Gagne {0} combats avec ton apprenti dans ton équipe de combat
@@ -2873,8 +2879,19 @@ TEXT: Kyushu・Okinawa
 RESOURCE ID: remote_raid_and_max_battle_invite_notification_toggle
 TEXT: Invitations à un Raid et à un Combat Dynamax
 
+RESOURCE ID: rewarded_spend_helpshift_desc
+TEXT: La Route de récompenses est un programme de récompenses mensuel durant lequel les Dresseurs et Dresseuses peuvent gagner des Points de récompenses contre achat d’un produit éligible chaque mois.* Gagne une certaine quantité de Points de récompenses pour passer au niveau suivant de la Route de récompenses et déverrouiller des récompenses !
+
+1. Effectue un achat d’un produit éligible pour gagner des Points de récompenses.*
+2. Déverrouille des récompenses en gagnant des Points de récompenses.
+3. Consulte notre <a href="https://pokemongo.com/news/eggs-pedition-access-june-2025#rewardroad">site Web</a> pour savoir comment récupérer les récompenses déverrouillées.**
+
+*Seuls les achats faits avec de l'argent réel seront pris en compte dans la progression de la Route de récompenses. Les échanges faits avec des PokéPièces ne donneront pas droit à des Points de récompenses.
+
+**Les Points de récompenses expirent à la fin du mois calendaire. Même si un Dresseur ou une Dresseuse récupère chaque récompense, les Points de récompenses ne seront pas reportés d’un mois à l’autre. Les Dresseurs et Dresseuses utilisant des comptes enfant ne sont pas autorisés à participer au programme Route de récompenses. Les Points de récompenses ne sont ni de l’argent ni des devises, et ne sont pas transférables entre les comptes. La disponibilité et les conditions du programme Route de récompenses sont susceptibles d’être modifiées.
+
 RESOURCE ID: rewarded_spend_helpshift_footer
-TEXT: Tous les détails sont sur le <a href="https://pokemongolive.com/post/may-reward-road-2025">site Web</a>.
+TEXT: Tous les détails sont sur le <a href="https://pokemongo.com/news/eggs-pedition-access-june-2025#rewardroad">site Web</a>.
 
 RESOURCE ID: score_6_none
 TEXT: N’a gagné aucun Raid
@@ -3249,7 +3266,7 @@ RESOURCE ID: sr_gofest2025_ss_branch_sword_description
 TEXT: Choisis cette aventure pour te lancer sur la piste de Zacian Épée Suprême.
 
 RESOURCE ID: sr_gofest2025_ss_branch_sword_title
-TEXT: Aventure de l’Épée Suprême
+TEXT: Aventure Épée Suprême
 
 RESOURCE ID: stamp_collection_info_see_link
 TEXT: VOIR SUR LA CARTE
@@ -3365,7 +3382,7 @@ TEXT: Les Dresseurs et Dresseuses d’une région doivent travailler ensemble po
 RESOURCE ID: timed_challenge_work_together_v2_tw_throwing_challenge
 TEXT: Les Dresseurs et Dresseuses d’une région doivent travailler ensemble pour terminer ce défi.
 
-RESOURCE ID: titan_poi_ar_data_opt_in_1
+RESOURCE ID: titan_poi_ar_data_opt_in_1_temp
 TEXT: Vous pouvez activer cette fonctionnalité pour contribuer au développement de la nouvelle technologie de cartographie en réalité augmentée (RA), en scannant les PokéStops ainsi que les Arènes et en nous envoyant vos scans. Notez qu’aucune piste audio ne sera recueillie pour ces scans. Si vous acceptez d’importer un scan, celui-ci sera envoyé à un service tiers, c’est pourquoi les données personnelles fournies à ce service seront limitées lors de l’importation. Le service en question utilise les données envoyées pour réaliser une conception en 3D de lieux réels et pour développer la technologie et les services connexes. Consultez la Politique de confidentialité ci-dessous pour en savoir plus sur la collecte et le traitement limités de données. Si vous choisissez d’activer cette fonctionnalité, vous aurez la possibilité de la désactiver à tout moment via le menu Options.
 
 Tout scan envoyé de cette façon est considéré comme étant du « Contenu RA », tel que défini par les Conditions d’utilisation. En envoyant un scan, vous acceptez nos <a href="terms_of_service_url">Conditions d’utilisation</a> et reconnaissez avoir pris connaissance de notre <a href="privacy_policy_url">Politique de confidentialité</a>.

@@ -1,7 +1,7 @@
 RESOURCE ID: ancient_temple
 TEXT: 고대 사원
 
-RESOURCE ID: ar_scan_landing_info_desc
+RESOURCE ID: ar_scan_landing_info_desc_temp
 TEXT: 트레이너는 공공장소 주변을 걸어다니고 모바일 장치로 사진을 찍어 새로운 AR 기술 개발에 도움을 줄 수 있습니다. 이 정보는 실제 장소의 3D 구조 이해와 관련 기술 및 서비스 구축에 사용됩니다.
 
 RESOURCE ID: attack_string_key
@@ -2264,6 +2264,9 @@ TEXT: 생각하는 것만으로도 가슴이 뜨거워지네. 내 플랜을 따�
 RESOURCE ID: hyper_training_candela_use_dialogue_4_fail
 TEXT: 파트너 레벨이 굿 파트너가 되면 시작할 수 있어. 기다릴게!
 
+RESOURCE ID: hyper_training_completed_key
+TEXT: 대단한 특훈 완료!
+
 RESOURCE ID: hyper_training_defense_1
 TEXT: DEFENSE TRAINING 1
 
@@ -2308,6 +2311,9 @@ TEXT: DEFENSE TRAINING 8
 
 RESOURCE ID: hyper_training_defense_9
 TEXT: DEFENSE TRAINING 9
+
+RESOURCE ID: hyper_training_expired_key
+TEXT: 대단한 특훈이 종료되었습니다
 
 RESOURCE ID: hyper_training_hp_1
 TEXT: HP TRAINING 1
@@ -2400,10 +2406,10 @@ RESOURCE ID: hyper_training_tasks_heading
 TEXT: 대단한 특훈 태스크
 
 RESOURCE ID: hyper_training_trade_confirm_message
-TEXT: You’ve increased this Pokémon’s stats through Hyper Training. Its stats will be randomized when traded. Proceed with trade?
+TEXT: 단련한 포켓몬인데 교환하면 능력치가 랜덤으로 변화합니다. 계속 하겠습니까?
 
 RESOURCE ID: hyper_training_trade_confirm_title
-TEXT: Do you want to trade this Pokémon that has undergone Hyper Training?
+TEXT: 대단한 특훈을 받은 포켓몬을 교환해도 되겠습니까?
 
 RESOURCE ID: hyper_training_training_goal_heading
 TEXT: 특훈 목표
@@ -2493,7 +2499,7 @@ RESOURCE ID: item_event_ticket_gray_details_junemonthly2025
 TEXT: 이 티켓은 자동으로 활성화되어 '부화 정기권: 6월'을 손에 넣을 수 있습니다.
 
 RESOURCE ID: item_expiration_consolation
-TEXT: Your {0} has broken down!
+TEXT: 가지고 있던 {0}(이)가 깨졌다!
 
 RESOURCE ID: item_expiration_day_left_plural
 TEXT: 앞으로 {0}일 사용 가능
@@ -2577,10 +2583,10 @@ RESOURCE ID: mechanical_marvels
 TEXT: 메카니컬 마블
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-06-08T07:08:34.380377+00:00 for ko-KR
-at SHA 599eb7edaf6
-Pipeline 3234590, job 41876494
-Patch from: 0.365.0-SHA-338b2809-RC4, 0.363.2-SHA-910d3be6-RC2, 0.367.0-SHA-1e04fd6b-RC1
+TEXT: Built at 2025-06-11T00:51:20.648844+00:00 for ko-KR
+at SHA 38f67232011
+Pipeline 3237844, job 41974417
+Patch from: 0.365.0-SHA-34f01427-RC2, 0.363.2-SHA-910d3be6-RC2, 0.367.0-SHA-1e04fd6b-RC1
 
 RESOURCE ID: move_name_0472
 TEXT: 썬더프리즌
@@ -2595,7 +2601,7 @@ RESOURCE ID: next
 TEXT: 계속
 
 RESOURCE ID: no_farther_stats_improvement
-TEXT: You will not be able to improve {0}’s stats any further with this Bottle Cap.
+TEXT: 이번 특훈에서 더 이상{0}(을)를 단현할 수 없습니다
 
 RESOURCE ID: noble_fields
 TEXT: 노블 필드
@@ -2749,8 +2755,11 @@ TEXT: 다음 모습으로 바꾸겠습니까?
 RESOURCE ID: pokemon_info_powerspot_warning
 TEXT: {0}(은)는 파워스폿 배틀에 참가할 수 없습니다
 
+RESOURCE ID: pokemon_info_powerup_is_shadow
+TEXT: 그림자 포켓몬에게 대단한 특훈은 할 수 없습니다
+
 RESOURCE ID: pokemon_info_powerup_is_training
-TEXT: This Pokémon is already undergoing Hyper Training.
+TEXT: 이 포켓몬은 대단한 특훈 중입니다
 
 RESOURCE ID: pokemon_info_powerup_ivs_max
 TEXT: 이 포켓몬은 더 이상 훈련할 수 없습니다
@@ -2906,13 +2915,13 @@ RESOURCE ID: quest_gothita_catch_b
 TEXT: 고디탱을 1마리 잡는다
 
 RESOURCE ID: quest_log_training_complete
-TEXT: {0} completed Hyper Training.
+TEXT: {0}(이)가 대단한 특훈을 완료했다!
 
 RESOURCE ID: quest_log_training_expired
-TEXT: {0}’s Hyper Training ended.
+TEXT: {0}의 대단한 특훈이 끝났습니다
 
 RESOURCE ID: quest_log_training_task_complete
-TEXT: {0} completed a Hyper Training Task: {1}
+TEXT: {0}(이)가 대단한 특훈 태스크: {1}(을)를 완료했다!
 
 RESOURCE ID: quest_phantump_catch_b
 TEXT: 나목령을 1마리 잡는다
@@ -2926,11 +2935,17 @@ TEXT: 단련할 포켓몬을 배틀 파티에 넣어 GO배틀리그 대전을 1�
 RESOURCE ID: quest_trainee_battle_gbl_win_plural
 TEXT: 단련할 포켓몬을 배틀 파티에 넣어 GO배틀리그 대전에서 {0}회 이긴다
 
+RESOURCE ID: quest_trainee_battle_great_win_plural
+TEXT: 단련할 포켓몬을 파트너 포켓몬으로 하고 슈퍼리그 대전에서 {0}회 이긴다
+
 RESOURCE ID: quest_trainee_battle_gym_plural
 TEXT: 단련할 포켓몬을 배틀 파티에 넣어 체육관 배틀을 {0}회 한다
 
 RESOURCE ID: quest_trainee_battle_gym_singular
 TEXT: 단련할 포켓몬을 배틀 파티에 넣어 체육관 배틀을 한다
+
+RESOURCE ID: quest_trainee_battle_master_win_plural
+TEXT: 단련할 포켓몬을 파트너 포켓몬으로 하고 마스터리그 대전에서 {0}회 이긴다
 
 RESOURCE ID: quest_trainee_battle_plural
 TEXT: 단련할 포켓몬을 배틀 파티에 넣어 배틀을 {0}회 한다
@@ -2954,16 +2969,19 @@ RESOURCE ID: quest_trainee_battle_trainer_or_team_leader_singular
 TEXT: 단련할 포켓몬을 배틀 파티에 넣어 트레이너 또는 팀 리더와 대전한다
 
 RESOURCE ID: quest_trainee_battle_trainer_plural
-TEXT: Battle another Trainer {0} times with your trainee in your battle party
+TEXT: 단련할 포켓몬을 배틀 파티에 넣어 트레이너 배틀을 {0}회 한다
 
 RESOURCE ID: quest_trainee_battle_trainer_singular
-TEXT: Battle another Trainer with your trainee in your battle party
+TEXT: 단련할 포켓몬을 배틀 파티에 넣어 트레이너 배틀을 1회 한다
 
 RESOURCE ID: quest_trainee_battle_trainer_win_plural
-TEXT: Win {0} battles against another Trainer with your trainee in your battle party
+TEXT: 단련할 포켓몬을 배틀 파티에 넣어 트레이너 대전에서 {0}회 이긴다
+
+RESOURCE ID: quest_trainee_battle_ultra_win_plural
+TEXT: 단련할 포켓몬을 파트너 포켓몬으로 하고 하이퍼리그 대전에서 {0}회 이긴다
 
 RESOURCE ID: quest_trainee_battle_win_plural
-TEXT: Win {0} battles with your trainee in your battle party
+TEXT: 단련할 포켓몬을 배틀 파티에 넣어 배틀에서 {0}회 이긴다
 
 RESOURCE ID: quest_trainee_buddy_play_days_plural
 TEXT: 단련할 파트너 포켓몬과 {0}일 놀아준다
@@ -3061,8 +3079,19 @@ TEXT: Kyushu・Okinawa
 RESOURCE ID: remote_raid_and_max_battle_invite_notification_toggle
 TEXT: 레이드배틀, 맥스배틀의 초대가 왔을 때
 
+RESOURCE ID: rewarded_spend_helpshift_desc
+TEXT: 리워드 로드는 매월 대상 상품 구매 금액*에 따라 포인트가 쌓이는 리워드 프로그램의 이름입니다. 다음 순서로 특정 포인트 수를 달성하면 리워드 로드 레벨이 올라갑니다.
+
+1. 대상 상품을 구매한다.*
+2. 리워드 포인트가 쌓인다.
+3. <a href="https://pokemongo.com/news/eggs-pedition-access-june-2025#rewardroad">웹사이트</a>에서 받을 수 있는 리워드**를 확인한다.
+
+*현실세계의 통화 구매만 적용되며 포켓코인을 사용한 교환으로는 포인트는 받을 수 없습니다.
+
+**리워드 포인트 기한은 월말까지로 이월되지 않습니다. 어린이 계정 사용자 트레이너는 리워드 프로그램에 참여할 수 없습니다. 리워드 포인트는 현금 및 어떠한 종류의 화폐가 아니며, 계정 간 이동을 할 수 없습니다. 리워드 프로그램의 이용가능성과 조건은 변경될 수 있습니다.
+
 RESOURCE ID: rewarded_spend_helpshift_footer
-TEXT: 자세한 내용은 <a href="https://pokemongolive.com/post/may-reward-road-2025">웹사이트</a>에서 확인해 주세요.
+TEXT: 자세한 내용은 <a href="https://pokemongo.com/news/eggs-pedition-access-june-2025#rewardroad">웹사이트</a>에서 확인해 주세요.
 
 RESOURCE ID: score_6_none
 TEXT: 레이드배틀에서 0번 이겼다
@@ -3218,6 +3247,9 @@ TEXT: 2× Hatch Stardust
 
 RESOURCE ID: short_hatch_xp_double
 TEXT: 2× Hatch XP
+
+RESOURCE ID: short_incubator_distance_half
+TEXT: 1/2 알 부화 거리
 
 RESOURCE ID: single_stat_increase_ftue_body
 TEXT: 포켓몬을 1년에 걸쳐 부분적으로 단련할 때 필요한 왕관.
@@ -3576,7 +3608,7 @@ TEXT: 지역 내 트레이너가 하나가 되어 완료를 목표로 하는 챌
 RESOURCE ID: timed_challenge_work_together_v2_tw_throwing_challenge
 TEXT: 지역 내 트레이너가 하나가 되어 완료를 목표로 하는 챌린지 입니다!
 
-RESOURCE ID: titan_poi_ar_data_opt_in_1
+RESOURCE ID: titan_poi_ar_data_opt_in_1_temp
 TEXT: 이 기능을 활성화하고 포켓스톱과 체육관을 스캔하고 스캔 데이터를 업로드하여 새로운 AR 지도 기술 개발에 도움을 줄 수 있습니다. 이 스캔에서 오디오는 수집되지 않습니다. 스캔을 업로드하는 경우 제3자 서비스와 스캔을 직접 공유하고 업로드 도중 제한된 개인 데이터가 이 서비스로 전송됩니다. 이 서비스는 이 정보를 활용하여 실제 장소의 3D 구조 이해와 관련 기술 및 서비스를 구축합니다. 아래 링크로 제공되는 개인정보처리방침에서 제한적 데이터 수집 및 활용에 대해 알아볼 수 있습니다. 이 기능을 활성화한 경우 설정 메뉴에서 언제든 비활성화할 수 있습니다.
 
 이 기능을 사용하여 업로드된 스캔은 이용약관에서 정의된 것과 같이 "AR 콘텐츠"입니다. 스캔을 업로드하면 <a href="terms_of_service_url">이용약관</a>에 동의하고 <a href="privacy_policy_url">개인정보처리방침</a>을 읽었음을 확인합니다.
@@ -3585,49 +3617,52 @@ RESOURCE ID: today_view_hypertraining_section_title
 TEXT: 대단한 특훈 중
 
 RESOURCE ID: tr_gofest2025_leadup_articuno_1
-TEXT: Ancients Recovered Premium Timed Research: Fleeting Legends – Galarian Articuno
+TEXT: 과거의 잔상 프리미엄 시간제한 리서치: 대공 - 가라르의 프리져
 
 RESOURCE ID: tr_gofest2025_leadup_articuno_description
-TEXT: Choose this path to pursue Galarian Articuno.
+TEXT: 이 길을 선택하면 프리져(가라르의 모습)를 찾을 수 있습니다
 
 RESOURCE ID: tr_gofest2025_leadup_articuno_title
-TEXT: Galarian Articuno
+TEXT: 프리져(가라르의 모습)
 
 RESOURCE ID: tr_gofest2025_leadup_birds
-TEXT: Ancients Recovered Premium Timed Research: Fleeting Legends
+TEXT: 과거의 잔상 프리미엄 시간제한 리서치: 대공
 
 RESOURCE ID: tr_gofest2025_leadup_gbird_choice
-TEXT: Which of the Galarian legendary bird Pokémon should we seek out?
+TEXT: 어떤 가라르지방 전설의 새 포켓몬을 찾겠습니까?
 
 RESOURCE ID: tr_gofest2025_leadup_gbird_choice_00
-TEXT: Which of the Galarian legendary bird Pokémon should we seek out?
+TEXT: 어떤 가라르지방 전설의 새 포켓몬을 찾겠습니까?
+
+RESOURCE ID: tr_gofest2025_leadup_giants
+TEXT: 과거의 잔상 시간제한 리서치: 대지
 
 RESOURCE ID: tr_gofest2025_leadup_moltres_1
-TEXT: Ancients Recovered Premium Timed Research: Fleeting Legends – Galarian Moltres
+TEXT: 과거의 잔상 프리미엄 시간제한 리서치: 대공 - 가라르의 파이어
 
 RESOURCE ID: tr_gofest2025_leadup_moltres_description
-TEXT: Choose this path to pursue Galarian Moltres.
+TEXT: 이 길을 선택하면 파이어(가라르의 모습)를 찾을 수 있습니다
 
 RESOURCE ID: tr_gofest2025_leadup_moltres_title
-TEXT: Galarian Moltres
+TEXT: 파이어(가라르의 모습)
 
 RESOURCE ID: tr_gofest2025_leadup_regi_branch_title
-TEXT: Mysterious Symbols
+TEXT: 신비한 기호
 
 RESOURCE ID: tr_gofest2025_leadup_regi_choice
-TEXT: Choose a symbol.
+TEXT: 기호를 선택한다
 
 RESOURCE ID: tr_gofest2025_leadup_regi_choice_00
-TEXT: It looks like the mysterious symbols are connected to Pokémon...
+TEXT: 흐음... 신기한 기로같은 것을 발견했나보구나
 
 RESOURCE ID: tr_gofest2025_leadup_zapdos_1
-TEXT: Ancients Recovered Premium Timed Research: Fleeting Legends – Galarian Zapdos
+TEXT: 과거의 잔상 프리미엄 시간제한 리서치: 대공 - 가라르의 썬더
 
 RESOURCE ID: tr_gofest2025_leadup_zapdos_description
-TEXT: Choose this path to pursue Galarian Zapdos.
+TEXT: 이 길을 선택하면 썬더(가라르의 모습)를 찾을 수 있습니다
 
 RESOURCE ID: tr_gofest2025_leadup_zapdos_title
-TEXT: Galarian Zapdos
+TEXT: 썬더(가라르의 모습)
 
 RESOURCE ID: tr_gofest2025_nj_stream
 TEXT: GO Fest 뉴저지 배포 보너스 시간제한 리서치
@@ -3642,7 +3677,7 @@ RESOURCE ID: training_confirmation
 TEXT: {0}에게 대단한 특훈을 하겠습니까?
 
 RESOURCE ID: training_goal_has_been_met
-TEXT: {0} met its training goal! Do you want to end Hyper Training?
+TEXT: {0}의 특훈 목표를 달성했습니다. 대단한 특훈를 끝내겠습니까?
 
 RESOURCE ID: training_string_key
 TEXT: 특훈

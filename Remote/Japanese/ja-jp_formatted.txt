@@ -1,4 +1,4 @@
-RESOURCE ID: ar_scan_landing_info_desc
+RESOURCE ID: ar_scan_landing_info_desc_temp
 TEXT: トレーナーは公共の場所を歩き回りながらモバイルデバイスで一連の写真を撮影することにより、新しいAR技術の開発を支援できます。 この情報は、現実世界の場所や関連する技術とサービスに関する3Dへの理解を深めるために使用されます。
 
 RESOURCE ID: attack_string_key
@@ -2557,10 +2557,10 @@ RESOURCE ID: marshadow_sr_00_02
 TEXT: 以前にも同じような現象を調査したことがあったな。
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-06-08T07:08:34.380377+00:00 for ja-JP
-at SHA 599eb7edaf6
-Pipeline 3234590, job 41876494
-Patch from: 0.365.0-SHA-338b2809-RC4, 0.363.2-SHA-910d3be6-RC2, 0.367.0-SHA-1e04fd6b-RC1
+TEXT: Built at 2025-06-11T00:51:20.648844+00:00 for ja-JP
+at SHA 38f67232011
+Pipeline 3237844, job 41974417
+Patch from: 0.365.0-SHA-34f01427-RC2, 0.363.2-SHA-910d3be6-RC2, 0.367.0-SHA-1e04fd6b-RC1
 
 RESOURCE ID: moonless_volcano
 TEXT: 薄暗い火山
@@ -2894,7 +2894,7 @@ RESOURCE ID: quest_trainee_battle_gbl_win_plural
 TEXT: 鍛えるポケモンをバトルパーティに入れてGOバトルリーグ対戦で{0}回勝つ
 
 RESOURCE ID: quest_trainee_battle_great_win_plural
-TEXT: 鍛えるポケモンをバトルパーティに入れてGOバトルリーグのスーパーリーグ対戦で{0}回勝つ
+TEXT: 鍛えるポケモンを相棒にしてスーパーリーグ対戦で{0}回勝つ
 
 RESOURCE ID: quest_trainee_battle_gym_plural
 TEXT: 鍛えるポケモンをバトルパーティに入れてジムバトルを{0}回行う
@@ -2903,7 +2903,7 @@ RESOURCE ID: quest_trainee_battle_gym_singular
 TEXT: 鍛えるポケモンをバトルパーティに入れてジムバトルを行う
 
 RESOURCE ID: quest_trainee_battle_master_win_plural
-TEXT: 鍛えるポケモンをバトルパーティに入れてGOバトルリーグのマスターリーグ対戦で{0}回勝つ
+TEXT: 鍛えるポケモンを相棒にしてマスターリーグ対戦で{0}回勝つ
 
 RESOURCE ID: quest_trainee_battle_raid_plural
 TEXT: 鍛えるポケモンをバトルパーティに入れてレイドを{0}回行う
@@ -2930,7 +2930,7 @@ RESOURCE ID: quest_trainee_battle_trainer_win_plural
 TEXT: 鍛えるポケモンをバトルパーティに入れてトレーナー対戦で{0}回勝つ
 
 RESOURCE ID: quest_trainee_battle_ultra_win_plural
-TEXT: 鍛えるポケモンをバトルパーティに入れてGOバトルリーグのハイパーリーグ対戦で{0}回勝つ
+TEXT: 鍛えるポケモンを相棒にしてハイパーリーグ対戦で{0}回勝つ
 
 RESOURCE ID: quest_trainee_battle_win_plural
 TEXT: 鍛えるポケモンをバトルパーティに入れて{0}回バトルに勝つ
@@ -3028,8 +3028,19 @@ TEXT: Kinki
 RESOURCE ID: region_kyushu_okinawa
 TEXT: Kyushu・Okinawa
 
+RESOURCE ID: rewarded_spend_helpshift_desc
+TEXT: リワードロードは、毎月対象商品の購入額*によりポイントがたまるリワードプログラムの名称です。以下の手順で、特定のポイント数を達成するとリワードロードレベルが上がります。
+
+1. 対象商品を購入する*
+2.リワードポイントをためる
+3.<a href="https://pokemongo.com/news/eggs-pedition-access-june-2025#rewardroad">ウェブサイト</a>で受け取れるリワード**をチェックする
+
+*現実世界の通貨での購入にのみ適用され、ポケコインを使用した引き換えではポイントがもらえません。 
+
+**リワードポイントの期限は月末に切れるため、持ち越しはできません。子供アカウント使用のトレーナーはリワードロードプログラムに参加できません。リワードポイントは現金およびいかなる種類の通貨ではなく、アカウント間で移動できません。リワードロードプログラムの可用性と条件は変更されることがあります。
+
 RESOURCE ID: rewarded_spend_helpshift_footer
-TEXT: 詳細は<a href="https://pokemongolive.com/post/may-reward-road-2025">ウェブサイト</a>でご確認ください
+TEXT: 詳細は<a href="https://pokemongo.com/news/eggs-pedition-access-june-2025#rewardroad">ウェブサイト</a>でご確認ください
 
 RESOURCE ID: season19_delightful_days
 TEXT: 楽しい日々
@@ -3476,7 +3487,7 @@ TEXT: 地域内のトレーナーが一丸となって完了を目指すチャ�
 RESOURCE ID: timed_challenge_work_together_v2_tw_throwing_challenge
 TEXT: 地域内のトレーナーが一丸となって完了を目指すチャレンジです！
 
-RESOURCE ID: titan_poi_ar_data_opt_in_1
+RESOURCE ID: titan_poi_ar_data_opt_in_1_temp
 TEXT: この機能を有効にすると、ポケストップやジムをスキャンし、そのスキャンデータをアップロードすることにより、新しいARマッピング技術の開発を支援できます。 このスキャン機能では音声は収集されません。 スキャンデータのアップロードを選択した場合、そのデータは第三者サービスに直接共有されます。また、アップロード中に、限定された個人情報がサービスに送信されます。 このサービスは、アップロードされた情報を使用し、現実世界の場所や、関連する技術とサービスに関する3D理解を深めます。 この限定されたデータ収集とデータ使用の詳細についてはプライバシーポリシーでご確認いただけます。プライバシーポリシーには下のリンクからアクセスしてください。 この機能を有効にしても、「設定」メニューから無効にすれば、いつでもオプトアウトできます。
 
 この機能を使用してアップロードされたスキャンデータは、利用規約で定義されている「ARコンテンツ」となります。 スキャンデータをアップロードすると、<a href="terms_of_service_url">利用規約</a>に同意し、<a href="privacy_policy_url">プライバシーポリシー</a>を読んで理解したとみなされます。

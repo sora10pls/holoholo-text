@@ -2,6 +2,9 @@ RESOURCE ID: ancient_temple
 TEXT: Kuil Kuno
 
 RESOURCE ID: ar_scan_landing_info_desc
+TEXT: Pelatih bisa membantu membuat peta 3D dari lokasi PokéStop dan Gym favorit mereka dengan berjalan di sekitar tempat umum dan mengambil serangkaian potret dengan perangkat seluler. Kami bisa menggunakan data yang dikumpulkan dengan cara ini untuk terus mengembangkan dan menyempurnakan fitur AR Pokémon GO.
+
+RESOURCE ID: ar_scan_landing_info_desc_temp
 TEXT: Pelatih dapat membantu upaya pengembangan teknologi AR dengan berkeliling tempat umum dan memfoto beberapa titik dengan perangkat seluler mereka. Informasi ini akan digunakan untuk membangun pemahaman 3D pada tempat-tempat di dunia nyata serta teknologi dan layanan terkait.
 
 RESOURCE ID: attack_training_string_key
@@ -1423,10 +1426,10 @@ RESOURCE ID: event_pass_gofest2025_upgrade_description
 TEXT: Beli Tiket GO Luks: Bayangan Masa Lalu untuk membuka hadiah berikut!
 
 • Satu <a href="https://niantic.helpshift.com">Tutup Botol Emas</a>, yang digunakan untuk memulai Latihan Luar Biasa yang dapat kamu selesaikan untuk meningkatkan seluruh statistik Pokémon
-• Item avatar Masker Zacian
-• Item avatar Masker Zamazenta
+• Item avatar Topeng Zacian
+• Item avatar Topeng Zamazenta
 • Bonus eksklusif yang berfokus pada Penetasan dan Raid
-•　Dan masih banyak lagi!
+• Dan masih banyak lagi!
 
 Pelatih dapat memperoleh 1000 Poin GO harian mulai 23 hingga 27 Juni sebagai tambahan dari Poin GO yang diperoleh dari Tugas Tiket. Tidak ada limit jumlah Poin GO yang dapat diperoleh selama Pokémon GO Fest: Global pada 28 dan 29 Juni!
 
@@ -2289,7 +2292,7 @@ RESOURCE ID: hyper_training_candela_use_dialogue_4_fail
 TEXT: Kamu bisa mulai setelah menjadi Partner Baik dengan Pokémon. Aku tidak sabar untuk mulai!
 
 RESOURCE ID: hyper_training_completed_key
-TEXT: Latihan Luar Biasa selesai!
+TEXT: Latihan Luar Biasa Selesai!
 
 RESOURCE ID: hyper_training_defense_1
 TEXT: LATIHAN PERTAHANAN 1
@@ -2337,7 +2340,7 @@ RESOURCE ID: hyper_training_defense_9
 TEXT: LATIHAN PERTAHANAN 9
 
 RESOURCE ID: hyper_training_expired_key
-TEXT: Latihan Luar Biasa telah berakhir
+TEXT: Latihan Luar Biasa Telah Berakhir
 
 RESOURCE ID: hyper_training_hp_1
 TEXT: LATIHAN HP 1
@@ -2396,7 +2399,6 @@ TEXT: Coba tebak, {0}! Kamu dan {1} telah menyelesaikan Latihan Luar Biasa!
 RESOURCE ID: hyper_training_spark_training_complete_dialogue_2
 TEXT: Kalian berdua telah berkembang dengan pesat. Selamat!
 
-
 RESOURCE ID: hyper_training_spark_training_complete_dialogue_2_100
 TEXT: Aku sangat takjub dengan perkembangan Pokémonmu. Kamu berhasil mengeluarkan potensi terbaiknya!
 
@@ -2422,7 +2424,7 @@ RESOURCE ID: hyper_training_spark_use_dialogue_4_fail
 TEXT: Betapa serunya kalau kalian menjadi Partner Baik!
 
 RESOURCE ID: hyper_training_trade_confirm_message
-TEXT: Kamu telah meningkatkan statistik Pokémon ini melalui Latihan Luar Biasa. Statistiknya akan berubah secara acak ketika ditukarkan. Lanjutkan pertukaran?
+TEXT: Kamu telah meningkatkan statistik Pokémon ini melalui Latihan Luar Biasa. Statistiknya akan diacak ketika ditukarkan. Lanjutkan pertukaran?
 
 RESOURCE ID: hyper_training_trade_confirm_title
 TEXT: Yakin ingin mentransfer Pokémon yang telah menjalani Latihan Luar Biasa ini?
@@ -2584,10 +2586,10 @@ RESOURCE ID: mechanical_marvels
 TEXT: Keajaiban Mekanis
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-06-08T07:08:34.380377+00:00 for id-ID
-at SHA 599eb7edaf6
-Pipeline 3234590, job 41876494
-Patch from: 0.365.0-SHA-338b2809-RC4, 0.363.2-SHA-910d3be6-RC2, 0.367.0-SHA-1e04fd6b-RC1
+TEXT: Built at 2025-06-11T00:51:20.648844+00:00 for id-ID
+at SHA 38f67232011
+Pipeline 3237844, job 41974417
+Patch from: 0.365.0-SHA-34f01427-RC2, 0.363.2-SHA-910d3be6-RC2, 0.367.0-SHA-1e04fd6b-RC1
 
 RESOURCE ID: moonless_volcano
 TEXT: Vulkan Gelap
@@ -3076,8 +3078,19 @@ TEXT: Kyushu・Okinawa
 RESOURCE ID: remote_raid_and_max_battle_invite_notification_toggle
 TEXT: Undangan Raid dan Pertarungan Max
 
+RESOURCE ID: rewarded_spend_helpshift_desc
+TEXT: Jalur Hadiah adalah program hadiah bulanan berupa Pelatih dapat menerima Poin Hadiah sesuai dengan pembelian yang dilakukan setiap bulan.* Dapatkan beberapa Poin Hadiah untuk meningkatkan level Jalur Hadiah dan membuka hadiah!
+
+1. Lakukan pembelian yang sah untuk mendapatkan Poin Hadiah.*
+2. Buka hadiah dengan mendapatkan Poin Hadiah.
+3. Kunjungi <a href="https://pokemongo.com/news/eggs-pedition-access-june-2025#rewardroad">situs web</a> kami guna mempelajari cara menerima hadiah yang terbuka.**
+
+*Hanya pembelian yang dilakukan dengan mata uang asli yang dihitung untuk progres Jalur Hadiah. Poin Hadiah tidak dapat diperoleh dengan penukaran menggunakan PokéCoin.
+
+**Poin Hadiah akan kedaluwarsa saat akhir bulan. Meskipun Pelatih telah mengambil hadiah, Poin Hadiah tidak akan dilanjutkan ke bulan berikutnya. Pelatih yang menggunakan akun anak-anak tidak dapat berpartisipasi dalam program Jalur Hadiah. Poin Hadiah bukanlah uang tunai atau mata uang lainnya sehingga tidak dapat ditransfer ke akun lain. Ketersediaan dan kebijakan program Jalur Hadiah dapat berubah.
+
 RESOURCE ID: rewarded_spend_helpshift_footer
-TEXT: Untuk detail lebih lanjut, kunjungi <a href="https://pokemongolive.com/post/may-reward-road-2025">situs web</a>.
+TEXT: Untuk detail lebih lanjut, kunjungi <a href="https://pokemongo.com/news/eggs-pedition-access-june-2025#rewardroad">situs web</a>.
 
 RESOURCE ID: score_6_none
 TEXT: Menang 0 Raid
@@ -3236,7 +3249,7 @@ RESOURCE ID: short_hatch_stardust_double
 TEXT: Debu Bintang Penetasan x2
 
 RESOURCE ID: short_hatch_xp_double
-TEXT: XP Penetasan x2
+TEXT: XP Penetasan ×2
 
 RESOURCE ID: short_incubator_distance_half
 TEXT: Jarak Penetasan ×1/2
@@ -3598,10 +3611,10 @@ TEXT: Pelatih dalam satu wilayah harus bersatu sebagai komunitas untuk menyelesa
 RESOURCE ID: timed_challenge_work_together_v2_tw_throwing_challenge
 TEXT: Pelatih dalam satu wilayah harus bersatu sebagai komunitas untuk menyelesaikan tantangan ini!
 
-RESOURCE ID: titan_poi_ar_data_opt_in_1
+RESOURCE ID: titan_poi_ar_data_opt_in_1_temp
 TEXT: Anda dapat mengaktifkan fitur ini untuk membantu upaya pengembangan teknologi pemetaan AR dengan memindai PokéStops dan Gym lalu mengunggah data hasil pindaian. Audio tidak terekam dalam pindaian ini. Jika Anda mengunggah pindaian, Anda membagikan pindaian tersebut langsung ke layanan pihak ketiga dan data pribadi tertentu akan dikirim ke layanan ini selama proses mengunggah. Layanan ini menggunakan informasi untuk membangun pemahaman 3D pada tempat-tempat di dunia nyata serta teknologi dan layanan terkait. Silakan baca lebih lanjut tentang pengumpulan dan penggunaan data terbatas ini dengan mengklik tautan Kebijakan Privasi berikut. Jika Anda mengaktifkan fitur ini, Anda dapat menghentikan partisipasi dengan menonaktifkan fitur via Menu Pengaturan.
 
-Pindaian yang diunggah menggunakan fitur ini adalah "Konten AR" sebagaimana didefinisikan dalam Persyaratan Layanan. Dengan mengunggah pindaian, Anda menyetujui <a href="terms_of_service_url">Persyaratan Layanan</a> dan mengakui bahwa Anda telah membaca <a href="privacy_policy_url">Kebijakan Privasi</a>
+Pindaian yang diunggah menggunakan fitur ini adalah "Konten AR" sebagaimana didefinisikan dalam Persyaratan Layanan. Dengan mengunggah pindaian, Anda menyetujui <a href="terms_of_service_url">Persyaratan Layanan</a> dan mengakui bahwa Anda telah membaca <a href="privacy_policy_url">Kebijakan Privasi</a>.
 
 RESOURCE ID: today_view_hypertraining_section_title
 TEXT: Pokémon di Latihan Luar Biasa
