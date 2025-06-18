@@ -1,5 +1,8 @@
-RESOURCE ID: ar_scan_landing_info_desc_temp
+RESOURCE ID: ar_scan_landing_info_desc
 TEXT: Trainers can help efforts to develop new AR technology by walking around public places and taking a series of pictures with their mobile devices. This information will be used to build a 3D understanding of real-world places and related technologies and services.
+
+RESOURCE ID: ar_scan_landing_info_desc_out
+TEXT: Trainers can help build 3D maps of the locations of their favorite PokéStops and Gyms by walking around public places and taking a series of pictures with their mobile devices. We can use data collected this way to continue to develop and refine AR features for Pokémon GO.
 
 RESOURCE ID: august_eggspedition_title
 TEXT: Eggs-pedition Access: August
@@ -1776,6 +1779,18 @@ TEXT: Our understanding of Pokémon has really grown thanks to this journey. The
 RESOURCE ID: go_fest_2025_global_sr_volcanion_05_03
 TEXT: Your experience with Volcanion is going to inspire Trainers everywhere, %PLAYERNAME%. I couldn’t be more proud of you!
 
+RESOURCE ID: go_fest_2025_irl_sr_city_02_03_shield
+TEXT: Anyway, I’ve got a good feeling that Zamazenta won’t be forgotten for much longer!
+
+RESOURCE ID: go_fest_2025_irl_sr_city_05_03_shield
+TEXT: Until next time, let’s GO!
+
+RESOURCE ID: go_fest_2025_irl_sr_park_01_02
+TEXT: I’ve observed Wooloo frolicking in local fields, Basculin with red and blue stripes swimming around an underwater trove, and even a Heracross running around a nearby carnival.
+
+RESOURCE ID: go_fest_2025_irl_sr_park_05_01
+TEXT: Our next challenge is perhaps the most important yet—we need to show Volcanion that you’re a trustworthy Trainer. Let’s focus on demonstrating your exceptional care for Pokémon!
+
 RESOURCE ID: go_fest_amer_event_name
 TEXT: Instrumental Wonders
 
@@ -1897,7 +1912,7 @@ RESOURCE ID: hyper_training_candela_training_complete_dialogue_2
 TEXT: Look at how much stronger it became!
 
 RESOURCE ID: hyper_training_candela_training_expire_dialogue_2
-TEXT: Let's see if it became any stronger!
+TEXT: Let’s see if it became any stronger!
 
 RESOURCE ID: hyper_training_candela_use_dialogue_1
 TEXT: A {0}! Let’s kick off a special process called Hyper Training for {1}!
@@ -2061,6 +2076,9 @@ TEXT: In life AND in Hyper Training, the path you take depends on your goals! Le
 RESOURCE ID: hyper_training_willow_use_dialogue_4_fail
 TEXT: Adventure with {0} until you’re Good Buddies, and then training can begin!
 
+RESOURCE ID: invite_recommended_friends_callout
+TEXT: New: Quickly invite recommended friends!
+
 RESOURCE ID: item_event_ticket_06_desc_julymonthly2025
 TEXT: A ticket for Eggs-pedition Access: July, which is active from July 3 at 10:00 a.m. to August 3, 2025, at 10:00 a.m. local time, wherever you are.
 
@@ -2179,10 +2197,10 @@ RESOURCE ID: lure_module_unown
 TEXT: Unown attracted to Lure Modules
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-06-13T01:21:36.115586+00:00 for en-US
-at SHA d0a6f3eeb41
-Pipeline 3241719, job 42089247
-Patch from: 0.365.0-SHA-338b2809-RC4, 0.363.2-SHA-910d3be6-RC2, 0.367.0-SHA-7a469735-RC2
+TEXT: Built at 2025-06-18T16:47:43.449417+00:00 for en-US
+at SHA 3e272525a65
+Pipeline 3248702, job 42260777
+Patch from: 0.365.0-SHA-338b2809-RC4, 0.363.2-SHA-55fedd05-RC1, 0.367.0-SHA-1e04fd6b-RC1
 
 RESOURCE ID: move_name_0472
 TEXT: Thunder Cage
@@ -2351,6 +2369,9 @@ TEXT: Now armed with a weapon it used in ancient times, this Pokémon needs only
 
 RESOURCE ID: pokemon_desc_0889_2578
 TEXT: Its ability to deflect any attack led to it being known as the Fighting Master's Shield. It was feared and respected by all.
+
+RESOURCE ID: pokemon_info_powerup_is_shadow
+TEXT: Shadow Pokémon cannot undergo Hyper Training.
 
 RESOURCE ID: pokemon_info_powerup_is_training
 TEXT: This Pokémon is already undergoing Hyper Training.
@@ -2576,6 +2597,9 @@ TEXT: Kinki
 
 RESOURCE ID: region_kyushu_okinawa
 TEXT: Kyushu・Okinawa
+
+RESOURCE ID: rewarded_spend_helpshift_blog_url
+TEXT: https://pokemongo.com/news/eggs-pedition-access-june-2025#rewardroad
 
 RESOURCE ID: rewarded_spend_helpshift_desc
 TEXT: The Reward Road is a monthly reward program where Trainers can earn Reward Points with eligible purchases every month.* Earn a certain amount of Reward Points to level up the Reward Road and unlock rewards!
@@ -2998,10 +3022,14 @@ TEXT: Trainers in a region must work as a community to complete this challenge.
 RESOURCE ID: timed_challenge_work_together_v2_tw_throwing_challenge
 TEXT: Trainers in a region must work as a community to complete this challenge.
 
-RESOURCE ID: titan_poi_ar_data_opt_in_1_temp
+RESOURCE ID: titan_poi_ar_data_opt_in_1
 TEXT: You can choose to enable this feature to help efforts to develop new AR mapping technology by scanning PokéStops and Gyms and uploading your scan data. Audio is not collected on these scans. If you choose to upload a scan, you are sharing the scan directly with a third-party service and limited personal data will be sent to this service during the upload. This service uses this information to build a 3D understanding of real-world places and related technologies and services. You can read more about this limited data collection and use in the Privacy Policy linked below. If you choose to enable this feature, you can opt out at any time by disabling it via the Settings Menu. 
 
 A scan uploaded using this feature is “AR Content” as defined in the Terms of Service. By uploading a scan you agree to the <a href="terms_of_service_url">Terms of Service</a> and acknowledge that you have read the <a href="privacy_policy_url">Privacy Policy</a>.
+
+RESOURCE ID: titan_poi_ar_data_opt_in_1_old
+TEXT: We’re developing new AR technology and would like to enlist your help. Would you like to aid our research by using the PokéStop Scan feature to scan PokéStops and Gyms and upload your scan data? If you choose to enable this feature, you can opt out at any time by disabling it via the Settings menu.
+<a href="titan_ar_data_policy_url">Learn more</a>.
 
 RESOURCE ID: tr_gofest2025_leadup_articuno_1
 TEXT: Ancients Recovered Premium Timed Research: Fleeting Legends – Galarian Articuno

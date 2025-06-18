@@ -2,10 +2,10 @@ RESOURCE ID: ancient_temple
 TEXT: Templo Ancestral
 
 RESOURCE ID: ar_scan_landing_info_desc
-TEXT: Trainers can help build 3D maps of the locations of their favorite PokéStops and Gyms by walking around public places and taking a series of pictures with their mobile devices. We can use data collected this way to continue to develop and refine AR features for Pokémon GO.
-
-RESOURCE ID: ar_scan_landing_info_desc_temp
 TEXT: Los Entrenadores pueden ayudar a desarrollar la nueva tecnología de RA pasándose por lugares públicos y sacando una serie de imágenes con sus dispositivos móviles. Esta información se usará para conocer en 3D los lugares reales, así como tecnologías y servicios relacionados.
+
+RESOURCE ID: ar_scan_landing_info_desc_out
+TEXT: Los Entrenadores pueden ayudar a construir mapas en 3D de las ubicaciones de sus Poképaradas y Gimnasios favoritos caminando por lugares públicos y tomando una serie de fotografías con sus dispositivos móviles. Podemos usar los datos recogidos de esta manera para continuar desarrollando y refinando las funciones de RA de Pokémon GO.
 
 RESOURCE ID: attack_string_key
 TEXT: ATAQUE
@@ -2550,6 +2550,9 @@ TEXT: Aventúrate con {0} hasta alcanzar el nivel de Buenos Compañeros, ¡y ent
 RESOURCE ID: hypnotic_tundra
 TEXT: Tundra Hipnótica
 
+RESOURCE ID: invite_recommended_friends_callout
+TEXT: New: Quickly invite recommended friends!
+
 RESOURCE ID: item_bag_expiring_soon
 TEXT: Expira pronto
 
@@ -2576,6 +2579,9 @@ TEXT: Una entrada para acceder a la Investigación Temporal Prémium de Huellas 
 
 RESOURCE ID: item_event_ticket_evergreen_desc_serenert0525
 TEXT: Una entrada para acceder a la Investigación Temporal Prémium de Investigación Temporal Prémium de Retiro pacífico hasta el 3 de junio de 2025 a las 8:00 p. m. en tu hora local, estés donde estés.
+
+RESOURCE ID: item_event_ticket_evergreen_desc_sis_apr25
+TEXT: Una entrada para acceder a la Investigación Temporal Prémium de Primavera floreada del 9 de abril a las 10:00 a. m. al 14 de abril de 2025 a las 8:00 p. m. en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_evergreen_details_go_fest_amer_june25
 TEXT: Esta entrada se activará automáticamente el 7 de junio para darte acceso a la Investigación Temporal Prémium de Prodigios instrumentales, estés donde estés.
@@ -2722,10 +2728,10 @@ RESOURCE ID: mechanical_marvels
 TEXT: Maravillas Mecánicas
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-06-13T01:21:36.115586+00:00 for es-MX
-at SHA d0a6f3eeb41
-Pipeline 3241719, job 42089247
-Patch from: 0.365.0-SHA-338b2809-RC4, 0.363.2-SHA-910d3be6-RC2, 0.367.0-SHA-7a469735-RC2
+TEXT: Built at 2025-06-18T16:47:43.449417+00:00 for es-MX
+at SHA 3e272525a65
+Pipeline 3248702, job 42260777
+Patch from: 0.365.0-SHA-338b2809-RC4, 0.363.2-SHA-55fedd05-RC1, 0.367.0-SHA-1e04fd6b-RC1
 
 RESOURCE ID: moonless_volcano
 TEXT: Volcán Oscuro
@@ -3258,6 +3264,9 @@ TEXT: Kyushu・Okinawa
 
 RESOURCE ID: remote_raid_and_max_battle_invite_notification_toggle
 TEXT: Invitaciones a incursiones y combates Max
+
+RESOURCE ID: rewarded_spend_helpshift_blog_url
+TEXT: https://pokemongo.com/news/eggs-pedition-access-june-2025#rewardroad
 
 RESOURCE ID: rewarded_spend_helpshift_desc
 TEXT: Camino a las recompensas es un programa mensual de recompensas en el que los Entrenadores pueden obtener puntos de recompensa cada mes con compras válidas.* ¡Logra una cantidad determinada de puntos de recompensa para subir de nivel en Camino a las recompensas y desbloquear premios!
@@ -4178,10 +4187,14 @@ TEXT: Los Entrenadores de una región deben trabajar como una comunidad para com
 RESOURCE ID: timed_challenge_work_together_v2_tw_throwing_challenge
 TEXT: Los Entrenadores de una región deben trabajar como una comunidad para completar este desafío.
 
-RESOURCE ID: titan_poi_ar_data_opt_in_1_temp
+RESOURCE ID: titan_poi_ar_data_opt_in_1
 TEXT: Puedes elegir activar esta opción para ayudar a desarrollar la nueva tecnología de mapeo de RA escaneando Poképaradas y Gimnasios, y cargando tus datos de escaneo. No se recoge el sonido en estos escaneos. Si eliges cargar un escaneo, lo compartirás directamente con un servicio de terceros y a este servicio se enviarán datos personales limitados durante la carga. Este servicio usa la información para conocer en 3D los lugares reales, así como tecnologías y servicios relacionados. Puedes seguir informándote sobre la recogida de datos limitada y el uso en la Política de privacidad que se vincula más abajo. Si eliges activar esta función, podrás darte de baja en cualquier momento desactivándola en el menú Ajustes.
 
 Un escaneo cargado con esta función se considera “Contenido de RA” como se define en las Condiciones de servicio. Al cargar un escaneo, aceptas las <a href="terms_of_service_url">Condiciones de servicio</a> y reconoces haber leído la <a href="privacy_policy_url">Política de privacidad</a>.
+
+RESOURCE ID: titan_poi_ar_data_opt_in_1_old
+TEXT: Estamos desarrollando una nueva tecnología de RA y nos encantaría contar con tu ayuda. ¿Te gustaría colaborar con nuestra investigación usando la función Escaneo de Poképaradas para escanear Poképaradas y Gimnasios, y cargar los datos escaneados? Si decides activar esta función, podrás desactivarla en cualquier momento en el menú de Opciones.
+<a href="titan_ar_data_policy_url">Más información</a>.
 
 RESOURCE ID: today_view_hypertraining_section_title
 TEXT: Pokémon en Entrenamiento Extremo

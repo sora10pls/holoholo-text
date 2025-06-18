@@ -2,10 +2,10 @@ RESOURCE ID: ancient_temple
 TEXT: Antik Tapınak
 
 RESOURCE ID: ar_scan_landing_info_desc
-TEXT: Eğitmenler, halka açık yerlerde dolaşıp mobil cihazlarıyla fotoğraf çekerek en sevdikleri PokéDurak ve Spor Salonu konumlarının 3 boyutlu haritalarını oluşturmaya yardımcı olabilirler. Pokémon GO için AR özelliklerini geliştirmeye ve iyileştirmeye devam etmek amacıyla bu şekilde toplanan verileri kullanabiliriz.
-
-RESOURCE ID: ar_scan_landing_info_desc_temp
 TEXT: Eğitmenler, halka açık yerlerde dolaşıp mobil cihazlarıyla fotoğraf çekerek yeni AR teknolojisinin geliştirilmesine katkı sağlayabilirler. Bu bilgiler fiziksel dünyadaki yerlerin ve ilgili teknoloji ile hizmetlerin 3B olarak anlaşılması için kullanılacaktır.
+
+RESOURCE ID: ar_scan_landing_info_desc_out
+TEXT: Eğitmenler, halka açık yerlerde dolaşıp mobil cihazlarıyla fotoğraf çekerek en sevdikleri PokéDurak ve Spor Salonu konumlarının 3 boyutlu haritalarını oluşturmaya yardımcı olabilirler. Pokémon GO için AR özelliklerini geliştirmeye ve iyileştirmeye devam etmek amacıyla bu şekilde toplanan verileri kullanabiliriz.
 
 RESOURCE ID: attack_string_key
 TEXT: SALDIRI
@@ -2387,10 +2387,10 @@ RESOURCE ID: hyper_training_expired_key
 TEXT: Hiper Eğitim Sona Erdi
 
 RESOURCE ID: hyper_training_goals_met
-TEXT: You’ve met your Hyper Training goal!
+TEXT: Hiper Eğitim hedefinize ulaştınız!
 
 RESOURCE ID: hyper_training_has_ended
-TEXT: Hyper Training has ended.
+TEXT: Hiper Eğitim sona erdi.
 
 RESOURCE ID: hyper_training_hp_1
 TEXT: SP EĞİTİMİ 1
@@ -2526,6 +2526,9 @@ TEXT: {0} ile İyi Dost olana kadar maceraya devam et, ondan sonra eğitime baş
 
 RESOURCE ID: hypnotic_tundra
 TEXT: Büyüleyici Tundra
+
+RESOURCE ID: invite_recommended_friends_callout
+TEXT: New: Quickly invite recommended friends!
 
 RESOURCE ID: item_bag_expiring_soon
 TEXT: Bitmek Üzere
@@ -2684,10 +2687,10 @@ RESOURCE ID: mechanical_marvels
 TEXT: Mekanik Mucizeler
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-06-13T01:21:36.115586+00:00 for tr-TR
-at SHA d0a6f3eeb41
-Pipeline 3241719, job 42089247
-Patch from: 0.365.0-SHA-338b2809-RC4, 0.363.2-SHA-910d3be6-RC2, 0.367.0-SHA-7a469735-RC2
+TEXT: Built at 2025-06-18T16:47:43.449417+00:00 for tr-TR
+at SHA 3e272525a65
+Pipeline 3248702, job 42260777
+Patch from: 0.365.0-SHA-338b2809-RC4, 0.363.2-SHA-55fedd05-RC1, 0.367.0-SHA-1e04fd6b-RC1
 
 RESOURCE ID: moonless_volcano
 TEXT: Işıksız Yanardağ
@@ -3202,6 +3205,9 @@ TEXT: Kyushu・Okinawa
 
 RESOURCE ID: remote_raid_and_max_battle_invite_notification_toggle
 TEXT: Akın ve Maksi Maç Davetleri
+
+RESOURCE ID: rewarded_spend_helpshift_blog_url
+TEXT: https://pokemongo.com/news/eggs-pedition-access-june-2025#rewardroad
 
 RESOURCE ID: rewarded_spend_helpshift_desc
 TEXT: Ödül Yolu, Eğitmenlerin belirli alışverişlerinden ödül puanı kazanabilecekleri aylık bir ödül programıdır.* Ödül puanı kazanarak Ödül Yolu seviyenizi artırıp ödüllerin kilidini açın!
@@ -3760,10 +3766,14 @@ TEXT: Bir bölgedeki Eğitmenler bu görevi tamamlamak için bir topluluk olarak
 RESOURCE ID: timed_challenge_work_together_v2_tw_throwing_challenge
 TEXT: Bir bölgedeki Eğitmenler bu görevi tamamlamak için bir topluluk olarak birlikte çalışmalıdır.
 
-RESOURCE ID: titan_poi_ar_data_opt_in_1_temp
+RESOURCE ID: titan_poi_ar_data_opt_in_1
 TEXT: PokéDurak'ları ve Spor Salonlarını tarayıp tarama verilerinizi yükleyerek yeni AR haritalama teknolojisi geliştirme çalışmalarına yardımcı olmak için bu özelliği etkinleştirmeyi seçebilirsiniz. Bu taramalarda ses verileri toplanmaz. Bir taramayı yüklemeyi seçerseniz taramayı doğrudan üçüncü taraf hizmet ile paylaşmış olursunuz. Yükleme işlemi sırasında bu hizmete sınırlı kişisel veriler gönderilecektir. Bu hizmet, bilgileri kullanarak fiziksel dünyadaki yerlerin ve ilgili teknoloji ile hizmetlerin 3B olarak anlaşılmasını sağlayacaktır. Bu sınırlı veri toplama ve kullanımı hakkında daha fazla bilgiyi aşağıdaki Gizlilik Politikası'nda okuyabilirsiniz. Bu özelliği etkinleştirmeyi seçerseniz Ayarlar Menüsünden istediğiniz zaman devre dışı bırakabilirsiniz.
 
 Bu özellik kullanılarak yüklenen bir tarama, Hizmet Şartları'nda tanımlandığı şekilde "AR İçeriği" olarak kabul edilir. Bir taramayı yükleyerek <a href="terms_of_service_url">Hizmet Şartları</a>'nı kabul etmiş ve <a href="privacy_policy_url">Gizlilik Politikası</a>'nı okuduğunuzu onaylamış olursunuz.
+
+RESOURCE ID: titan_poi_ar_data_opt_in_1_old
+TEXT: Yeni AR teknolojisi geliştiriyoruz ve bu süreçte sizin de bize yardımcı olmanızı istiyoruz. PokéDurak Taraması özelliğini kullanarak PokéDurak ve spor salonlarını tarayıp, tarama verilerini yükleyerek bize yardımcı olmak ister misiniz? Bu özelliği etkinleştirmeyi seçerseniz istediğiniz zaman Ayarlar menüsünden tekrar devre dışı bırakabilirsiniz.
+<a href="titan_ar_data_policy_url">Ayrıntılı bilgi edinin</a>.
 
 RESOURCE ID: today_view_hypertraining_section_title
 TEXT: Hiper Eğitimdeki Pokémon’lar

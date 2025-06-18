@@ -1,8 +1,11 @@
 RESOURCE ID: ancient_temple
 TEXT: วัดโบราณ
 
-RESOURCE ID: ar_scan_landing_info_desc_temp
+RESOURCE ID: ar_scan_landing_info_desc
 TEXT: เทรนเนอรสามารถชวยลงแรงเพื่อพัฒนาเทคโนโลยี AR ไดโดยเดินไปรอบๆ สถานที่สาธารณะและถายรูปชุดหนึ่งดวยอุปกรณมือถือของเขา ขอมูลนี้จะใชเพื่อสรางความเขาใจสถานที่ในโลกจริงแบบ 3 มิติ รวมถึงเทคโนโลยีและบริการที่เกี่ยวของดวย
+
+RESOURCE ID: ar_scan_landing_info_desc_out
+TEXT: โปเกมอนเทรนเนอรสามารถมีสวนรวมในการสรางแผนที่ 3D ของเสาโปเกสต็อปและยิมโปรดได โดยการเดินไปรอบ ๆ สถานที่สาธารณะและบันทึกภาพดวยโทรศัพท ขอมูลเหลานี้จะชวยใหเราสามารถพัฒนาและปรับปรุงลูกเลน AR ตอไปไดในอนาคต
 
 RESOURCE ID: attack_string_key
 TEXT: พลังโจมตี
@@ -207,6 +210,12 @@ TEXT: งานวิจัยพารทเนอร: MLB (3/4)
 
 RESOURCE ID: badge_event_0125_title_03
 TEXT: งานวิจัยพารทเนอร: MLB (4/4)
+
+RESOURCE ID: bck_event_npc06_defeat__female_speaker_backup
+TEXT: ถาแขงสกีละก็ไมมีทางแพแท ๆ
+
+RESOURCE ID: bck_event_npc06_defeat__male_speaker_backup
+TEXT: ถาแขงสกีละก็ไมมีทางแพแท ๆ
 
 RESOURCE ID: behemoth_bash_adventure_effects_mapview_dialog
 TEXT: รางกายของซามาเซนตากลายเปนโลอันแข็งแกรง ทำใหแดเมจที่โปเกมอนของคุณไดรับในตีบอสและแบตเทิลแมกซลดลง
@@ -1444,6 +1453,12 @@ TEXT: Pokémon GO Fest 2025 - มีตั๋ว (กำลังจัดอี
 RESOURCE ID: event_name_gofest_2025_ticketed_all_day
 TEXT: Pokémon GO Fest 2025 - มีตั๋ว (ทั้งวัน)
 
+RESOURCE ID: event_npc06_defeat__female_speaker
+TEXT: ถาแขงสกีละก็ไมมีทางแพแท ๆ
+
+RESOURCE ID: event_npc06_defeat__male_speaker
+TEXT: ถาแขงสกีละก็ไมมีทางแพแท ๆ
+
 RESOURCE ID: event_pass_gofest2025_base_track_title
 TEXT: บัตรผาน GO: โบราณหวนคืน
 
@@ -1473,6 +1488,10 @@ TEXT: ซื้อบัตรผาน GO Deluxe: โบราณหวน�
 
 RESOURCE ID: event_season19_name
 TEXT: ฤดูกาลปจจุบัน: วันแสนรื่นรมย
+
+RESOURCE ID: event_wcs_22_npc02_crafted_pre_battle
+TEXT: ถาเรื่องแบตเทิลละก็ ฉันเกงเกินใคร
+เลยขอบอก!
 
 RESOURCE ID: fae_swamp
 TEXT: หนองน้ำแฟรี่
@@ -1693,73 +1712,84 @@ RESOURCE ID: global_challenge_complete_tw_throwing_challenge
 TEXT: คำทาภูมิภาคเสร็จสิ้น
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_00_00
-TEXT: It’s great to see you, %PLAYERNAME%! With all the talented Trainers and Pokémon around, it feels like legends are afoot!
+TEXT: ดีใจที่ไดเจอนะ %PLAYERNAME%!
+มีโปเกมอนกับเทรนเนอรเต็มไปหมดเลย วันนี้นาจะมีโอกาสไดคนพบหรือเรียนรูอะไรใหม ๆ แนเลย
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_00_01
-TEXT: I’ve picked up some interesting stories in all the hubbub. Get a load of this!
+TEXT: และฉันก็เลือกรายงานที่นาสนใจบางสวนมาใหแลว
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_00_02
-TEXT: I swapped notes with a researcher from another region, and they shared their own findings about Zacian and Zamazenta.
+TEXT: เทานี้เราก็นาจะสำรวจและตรวจสอบเกี่ยวกับซาเชียนและซามาเซนตาได
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_00_03
-TEXT: These mighty Warrior Pokémon achieved legendary feats in their time, so you’d better believe I’m excited to dig into this!
+TEXT: โปเกมอนนักรบทั้งสองเปนที่รูจักในฐานะ
+ผูกลาแหงตำนาน
+ไมนึกเลยวาเราจะไดศึกษาเกี่ยวกับพวกมัน!
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_00_04_branch
-TEXT: Now, tell me—which of the two most piques your interest?
+TEXT: ไหนบอกมาสิวา เธอสนใจตัวไหนมากกวากัน?
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_01_00_shield
 TEXT: All right then, brace yourself! Let me see what notes I have on Zamazenta.
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_01_00_sword
-TEXT: A bold approach. You’re right—now’s the time to strike! Let me see what my notes say about Zacian...
+TEXT: เปนตัวเลือกที่เด็ดเดี่ยวมาก
+ใชแลว! เวลาแบบนี้มันตองลุยเขาไปกอน!
+ดูสิวามีขอมูลอะไรเกี่ยวกับซาเชียนบาง...
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_01_01_shield
 TEXT: Here we go. “In times past, Zamazenta worked together with a king of the people to save the Galar region.”
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_01_01_sword
-TEXT: Here we are. Known as a legendary hero, this Pokémon absorbs metal particles, transforming them into a weapon it uses to battle.
+TEXT: มันคือโปเกมอนที่ถูกเรียกวาผูกลาในตำนาน
+สามารถดูดซับโลหะมาเปลี่ยนใหเปนอาวุธ
+ใชในการตอสูได
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_01_02_shield
 TEXT: What a noble feat! But save Galar from what, I wonder? Something to ask about if we ever meet it, I suppose!
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_01_02_sword
-TEXT: Very impressive. I wonder if Zacian could teach my Meltan how to do that.
+TEXT: นาทึ่งไปเลย ซาเชียนจะสอนเคล็บลับ
+ใหเมลตันของฉันไดไหมนะ?
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_01_03_shield
 TEXT: Now here’s a question I do have the answer to, though: What type of Pokémon is Hero of Many Battles Zamazenta? Any guesses?
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_01_03_sword
-TEXT: Now, with this talk of metal, you might think Hero of Many Battles Zacian is a Steel type—but it’s actually not! Any guesses?
+TEXT: พูดถึงโลหะแลว เธออาจจะคิดวาซาเชียนรางผูกลาศึกแหงตำนานเปนประเภทโลหะ แตที่จริงมันไมใช! รูไหมวามันเปนประเภทอะไร?
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_02_00_shield
 TEXT: Figured out what type of Pokémon Zamazenta is, %PLAYERNAME%?
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_02_00_sword
-TEXT: Figured out what type of Pokémon Zacian is, %PLAYERNAME%?
+TEXT: รูหรือยังวาซาเชียนเปนประเภทอะไร %PLAYERNAME%?
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_02_01_shield
 TEXT: Right you are! It’s a Fighting type!
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_02_01_sword
-TEXT: Exactly! It’s a Fairy type!
+TEXT: ใชแลว! ประเภทแฟรี่!
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_02_02_shield
 TEXT: According to legends, this Pokémon slept for aeons in statue form. It slept for so long, people forgot that it ever existed.
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_02_02_sword
-TEXT: Supposedly, Zacian slumbered for many years. Some say it’s Zamazenta’s elder sister, but others say the two are rivals. What do you think?
+TEXT: วากันวา ซาเชียนหลับใหลมาเปนเวลาหลายป
+บางก็เชื่อวามันเปนพี่สาวของซามาเซนตา
+บางก็เชื่อวาทั้งสองเปนคูแขงกัน
+แลวเธอคิดวายังไงละ?
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_02_03_shield
 TEXT: Saving the entire Galar region would make anyone need a little shut-eye. In fact, I might take a nice nap of my own! Let’s catch up later.
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_02_03_sword
-TEXT: Well, I’m sure any sibling would tell you they can be both! Haha!
+TEXT: อาจจะเปนทั้งพี่สาวและคูแขงเลยก็ได! ฮาฮา!
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_03_00_shield
 TEXT: Hi again! I’m...*yawn*...feeling nice and refreshed! Now, where were we? Ah, yes—can you believe Zamazenta has another impressive form?
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_03_00_sword
-TEXT: Can you believe that Zacian actually has another impressive form?
+TEXT: รูไหมวา ที่จริงแลวซาเชียนมีรางที่นาทึ่งอีกราง?
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_03_01_shield
 TEXT: When wielding its shield, Zamazenta takes on its Crowned Shield form and becomes both Fighting and Steel type!
@@ -1771,7 +1801,9 @@ RESOURCE ID: go_fest_2025_global_sr_swsh_03_02_shield
 TEXT: In that form, it can shrug off impressive blows—even Dynamax Pokémon attacks! Talk about “steel-ing” the show!
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_03_02_sword
-TEXT: I hear that in that form, it can fell even Gigantamax Pokémon with a single strike. Talk about “steel-ing” the show!
+TEXT: วากันวา เมื่ออยูในรางนั้น
+แมแตโปเกมอนกิกะแมกซก็จัดการได
+ในดาบเดียวเลยละ!
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_03_03_shield
 TEXT: How incredible would it be to witness Zamazenta in a Max Battle someday? I just know if anyone could do that, it’d be you.
@@ -2389,8 +2421,37 @@ TEXT: โบนัสตั๋วซากปรักหักพังมา�
 RESOURCE ID: go_pass_cumulative_bonuses_header
 TEXT: โบนัสบัตรผาน GO
 
+RESOURCE ID: go_tour_live_sr_dialog_04_cliff_01
+TEXT: ไมเลวเลยนี่! ถาแกเปนคนในทีมฉันละก็
+ฉันจะเลื่อนขั้นใหเดี๋ยวนี้เลย
+
+RESOURCE ID: go_tour_live_sr_dialog_05_04
+TEXT: ดีแลวที่เธอไมยอมใหพลังนั้นไปอยูใน
+กำมือของแกงโกร็อกเกต ถาพวกนั้นได
+พลังที่สามารถเปลี่ยนแปลงโลกนี้ไปครอง
+ละก็ จะเกิดอะไรขึ้นก็ไมรู
+
+RESOURCE ID: go_tour_live_sr_dialog_05_cliff_defeat
+TEXT: อึก! ถาหัวหนาใหญรูเรื่องนี้เขาละก็...
+
+RESOURCE ID: gofest2020_quest_rocket_dialogue_2_3
+TEXT: ถาฉันจำไมผิดละก็... พวกหัวหนาทีมไดเห็นหนึ่งในบอลลูนเหลานี้ที่ GO Fest เมื่อปที่แลว แลวก็ระหวางการยึดครองของพวกนั้นเมื่อไมกี่สัปดาหกอนดวย
+
 RESOURCE ID: gofest2025_details_link
 TEXT: ตรวจสอบรายละเอียดไดที่<a href="https://pokemongolive.com/post/gofest2025">เว็บไซต</a>นี้
+
+RESOURCE ID: gotour2022_challenger_dragon_blackthorn_quote
+TEXT: มังกรเปนโปเกมอนศักดิ์สิทธิ์ที่เต็มไปดวยพลังชีวิต
+ถาไมเอาจริงละก็ ไมมีทางเอาชนะไดหรอกนะ
+
+RESOURCE ID: gotour2022_challenger_ice_mahogany_loss
+TEXT: ถาแขงสกีละก็ไมมีทางแพแท ๆ
+
+RESOURCE ID: grunt_generic_defeat#5__female_speaker
+TEXT: ถาแกเขารวมกับแกงโกร็อกเกตละก็ แกอาจจะกลายเปนหัวหนาเลยก็ได
+
+RESOURCE ID: grunt_generic_defeat#5__male_speaker
+TEXT: ถาแกเขารวมกับแกงโกร็อกเกตละก็ แกอาจจะกลายเปนหัวหนาเลยก็ได
 
 RESOURCE ID: hatch_candy_double
 TEXT: 2× ลูกอมฟกไข
@@ -2768,6 +2829,9 @@ TEXT: 1/2 ระยะทางฟกไข
 RESOURCE ID: incubator_distance_quarter
 TEXT: 1/4 ระยะทางฟกไข
 
+RESOURCE ID: invite_recommended_friends_callout
+TEXT: New: Quickly invite recommended friends!
+
 RESOURCE ID: item_bag_expiring_soon
 TEXT: หมดอายุเร็ว ๆ นี้
 
@@ -2972,10 +3036,10 @@ RESOURCE ID: mechanical_marvels
 TEXT: กลไกอัศจรรย
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-06-13T01:21:36.115586+00:00 for th-TH
-at SHA d0a6f3eeb41
-Pipeline 3241719, job 42089247
-Patch from: 0.365.0-SHA-338b2809-RC4, 0.363.2-SHA-910d3be6-RC2, 0.367.0-SHA-7a469735-RC2
+TEXT: Built at 2025-06-18T16:47:43.449417+00:00 for th-TH
+at SHA 3e272525a65
+Pipeline 3248702, job 42260777
+Patch from: 0.365.0-SHA-338b2809-RC4, 0.363.2-SHA-55fedd05-RC1, 0.367.0-SHA-1e04fd6b-RC1
 
 RESOURCE ID: moonless_volcano
 TEXT: ภูเขาไฟไรแสงจันทร
@@ -3330,6 +3394,12 @@ TEXT: Yamanashi
 RESOURCE ID: purchase_on_web_store_string_key
 TEXT: ซื้อที่ WEB STORE
 
+RESOURCE ID: quest_dialogue_jirachi_global_3_2
+TEXT: หากการคำนวณของฉันถูกตองแลวละก็ โปเกมอนมายาแหงการอวยพรอาจจะพรอมที่จะตื่นขึ้นในไมชา และเราควรเตรียมตัวใหพรอมที่จะทำการปลุก!
+
+RESOURCE ID: quest_gofest_2021_dialogue_rockstarzigzagoon_5_1
+TEXT: เมื่อพวกกาลารจิกุซากุมะเตรียมตัวเสร็จแลว ถายภาพที่ระลึกกันไหม? ถาพวกมันสามารถนั่งนิ่ง ๆ ไดละก็นะ!
+
 RESOURCE ID: quest_gothita_catch_b
 TEXT: จับโกธิมู
 
@@ -3347,6 +3417,75 @@ TEXT: ภารกิจการฝกขั้นสุดยอดที�
 
 RESOURCE ID: quest_phantump_catch_b
 TEXT: จับโบคุเร
+
+RESOURCE ID: quest_special_dialogue_akala_3_7
+TEXT: ถาฉันไดพบกับเทพผูพิทักษบางละก็ อาจจะพอ
+ตั้งสมมติฐานไดวาทำไมพวกมันถึงปรากฏตัวขึ้น...
+
+RESOURCE ID: quest_special_dialogue_bidoof_branch_quest_2_0
+TEXT: ยินดีตอนรับกลับมานะ!
+ดูเหมือนวาระหวางออกสำรวจจะถายรูปบิปปา
+มาไดพอสมควรสินะ! ถาเปนภาพบิปปาละก็
+ถายมาเทาไหรเอามาใหดูทั้งหมดเลยยังได!
+
+RESOURCE ID: quest_special_dialogue_dec20cd_2_5
+TEXT: หากมองในเรื่องของยุทธวิธีแลว ถือวาแกงโกร็อกเกตทำไดดีมากทีเดียว ถาอยูฝ่งเดียวกันละก็...
+
+RESOURCE ID: quest_special_dialogue_larvitar_cdc_2_3
+TEXT: นอกจากเปลือกที่แข็งราวกับหินแลว มันยัง
+มีความเร็วสูงอีกดวย ถาอาละวาดขึ้นมาละก็
+พลังทำลายลางไมเปนรองใครเลยละ
+
+RESOURCE ID: quest_special_dialogue_onboard_sr_0_4
+TEXT: หากขวางบอลไปที่กลางตัวโปเกมอนไดถูกจังหวะละก็
+จะสามารถขวางไดดี เยี่ยม หรือสุดยอดอีกดวย!
+
+RESOURCE ID: quest_special_dialogue_onboard_sr_1_4
+TEXT: หากใชเครื่องหอมกอนออกไปผจญภัยระยะยาวละก็
+จะไดเจอโปเกมอนมากขึ้นเยอะเลย เปนไอเท็มโปรด
+ของฉันเลยละ
+
+RESOURCE ID: quest_special_dialogue_rockethq11_3_3
+TEXT: ถาเราเอาชนะหัวหนาของพวกเขาในการแบตเทิล
+ไดละก็ เราอาจจะยับยั้งแผนการชั่วรายนั้นได
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_2
+TEXT: ขอใหคุณภูมิใจกับชัยชนะที่ไดรับมา แตก็อยาเหลิง
+จนลืมตัว ถาหากแกงโกร็อกเกตเขาไปยุงเกี่ยว
+กับอัลตราบีสตละก็...
+
+RESOURCE ID: quest_special_dialogue_rockethq1_4_4
+TEXT: ถาเขาคือคนที่ฉันคิดละก็ เขาจะตองลงชื่อทุก ๆ ขอความของเขาดวยอักษร “G”
+
+RESOURCE ID: quest_special_dialogue_rockethq9_4_1
+TEXT: ถาเปนเธอที่ลมแกงโกร็อกเกต
+มาไดมากมายละก็จะตองชวย
+โฮโอออกมาไดอยางแนนอน!
+
+RESOURCE ID: quest_special_dialogue_season4_0_5
+TEXT: ฉันเองก็ยังไมแนใจวาทำไมฮูปาถึงมาอยูที่นี่ได
+การตามรอยมันเปนเรื่องยาก แตถาเธอรวมมือดวยละก็
+เราตองไขปริศนานี้ไดอยางแนนอน!
+
+RESOURCE ID: quest_special_dialogue_season4_3_1
+TEXT: ถาเปนทุกทีก็ถือวางานวิจัยเสร็จสิ้นละนะ
+แตถาเปนฮูปาละก็ อะไรก็เกิดขึ้นได
+
+RESOURCE ID: quest_special_dialogue_starly_1_1
+TEXT: แมวาจะตัวเล็ก แตก็สามารถกระพือปกไดอยาง
+รุนแรง ยิ่งถาอยูดวยกันเปนฝูงละก็...
+
+RESOURCE ID: quest_special_dialogue_starly_1_4
+TEXT: ถาวิวัฒนาการละก็...ตองแข็งแกรงยิ่งกวา
+เดิมแน ๆ
+
+RESOURCE ID: quest_special_dialogue_teddiursa_0_4
+TEXT: ถาเปนเธอละก็จะตองหาที่มาของกลิ่นหอม
+นี่ไดแน!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_2_2
+TEXT: ถาฉันเปนริงกุมะละก็...คงปนขึ้นไปสำรวจ
+กับเก็บผลไพนไดงาย ๆ เลย!
 
 RESOURCE ID: quest_title_eevee
 TEXT: คอมมิวนิตี้เดย (รีเทิรน): อีวุย
@@ -3515,6 +3654,9 @@ TEXT: Kyushu・Okinawa
 
 RESOURCE ID: remote_raid_and_max_battle_invite_notification_toggle
 TEXT: คำเชิญเขารวมตีบอสและแบตเทิลแมกซ
+
+RESOURCE ID: rewarded_spend_helpshift_blog_url
+TEXT: https://pokemongo.com/news/eggs-pedition-access-june-2025#rewardroad
 
 RESOURCE ID: rewarded_spend_helpshift_desc
 TEXT: เสนทางรางวัล คือ โปรแกรมรางวัลรายเดือน
@@ -4120,10 +4262,14 @@ TEXT: เทรนเนอรในภูมิภาคจะตอง�
 RESOURCE ID: timed_challenge_work_together_v2_tw_throwing_challenge
 TEXT: เทรนเนอรในภูมิภาคจะตองทำงานรวมกันเพื่อทำคำทานี้ใหเสร็จสมบูรณ
 
-RESOURCE ID: titan_poi_ar_data_opt_in_1_temp
+RESOURCE ID: titan_poi_ar_data_opt_in_1
 TEXT: คุณสามารถเลือกเปดใชงานฟเจอรนี้เพื่อชวยลงแรงในการพัฒนาเทคโนโลยีการสรางแผนที่ AR แบบใหมดวยการสแกนเสาโปเกสต็อปและยิม แลวอัปโหลดขอมูลที่คุณสแกน โดยจะไมมีการเก็บขอมูลเสียงระหวางการสแกนนี้ หากคุณเลือกอัปโหลดขอมูลการสแกน คุณจะแชรขอมูลที่สแกนใหกับบริการของบุคคลที่สามโดยตรง และบริการนี้จะไดรับขอมูลสวนบุคคลแบบจำกัดระหวางการอัปโหลดดวย บริการนี้จะใชขอมูลนี้เพื่อสรางความเขาใจสถานที่ในโลกจริงแบบ 3 มิติ รวมถึงเทคโนโลยีและบริการที่เกี่ยวของดวย คุณสามารถอานเพิ่มเติมเกี่ยวกับการเก็บขอมูลแบบจำกัดและการใชขอมูลไดในนโยบายความเปนสวนตัวที่ลิงกดานลาง หากคุณเลือกเปดใชงานฟเจอรนี้ คุณสามารถปดใชงานไดตลอดเวลาโดยปดผานเมนูการตั้งคา
 
 ขอมูลการสแกนที่อัปโหลดโดยใชฟเจอรนี้เรียกวา “เนื้อหา AR” ตามคำจำกัดความในเงื่อนไขการใหบริการ เมื่ออัปโหลดขอมูลการสแกน จะถือวาคุณยอมรับ<a href="terms_of_service_url">เงื่อนไขการใหบริการ</a>และรับทราบวาคุณไดอาน<a href="privacy_policy_url">นโยบายความเปนสวนตัว</a>แลว
+
+RESOURCE ID: titan_poi_ar_data_opt_in_1_old
+TEXT: เรากำลังพัฒนาเทคโนโลยี AR ใหมและตองการความชวยเหลือจากคุณ คุณตองการชวยเหลือการวิจัยของเราโดยใชลูกเลนการสแกนเสาโปเกสต็อปในการสแกนเสาโปเกสต็อปและยิม และอัปโหลดขอมูลการสแกนของคุณหรือไม? หากคุณเลือกที่จะเปดใชงานลูกเลนนี้ คุณสามารถยกเลิกไดตลอดเวลาโดยปดการใชงานผานเมนูการตั้งคา 
+<a href="titan_ar_data_policy_url">เรียนรูเพิ่มเติม</a>
 
 RESOURCE ID: today_view_hypertraining_section_title
 TEXT: กำลังรับการฝกขั้นสุดยอด
