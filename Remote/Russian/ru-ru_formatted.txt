@@ -37,6 +37,18 @@ TEXT: Участие в Яичной Экспедиции: Август (3/4)
 RESOURCE ID: august_eggspedition_title_4
 TEXT: Участие в Яичной Экспедиции: Август (4/4)
 
+RESOURCE ID: avatar_gloves_wristbandblue
+TEXT: Браслет GO Команда Мистика
+
+RESOURCE ID: avatar_gloves_wristbandred
+TEXT: Браслет GO Команда Доблесть
+
+RESOURCE ID: avatar_gloves_wristbandwhite
+TEXT: Браслет GO
+
+RESOURCE ID: avatar_gloves_wristbandyellow
+TEXT: Браслет GO Команда Инстинкт
+
 RESOURCE ID: avatar_hat_mlbballcap
 TEXT: Кепка MLB
 
@@ -220,6 +232,9 @@ TEXT: Эволюционируй Иви, чтобы получить его Эв
 RESOURCE ID: bonus_cd_move_jangmo_o
 TEXT: Эволюционируй Хакамо-о, чтобы получить Коммо-о, который знает Заряженную Атаку Лязгающая Чешуя! 
 
+RESOURCE ID: bonus_cd_move_quaxly
+TEXT: Эволюционируй Куаксвелла, чтобы получить Куаквавала, который знает Заряженную Атаку Гидропушка!
+
 RESOURCE ID: bonus_rrp_limit_30_raids_max_battle
 TEXT: Дневной лимит Удалённых Рейдов и Битв Макс увеличен до 30
 
@@ -270,6 +285,9 @@ TEXT: 10:00 3 августа –
 
 RESOURCE ID: event_datetime_range_key_cd_jangmo_o25
 TEXT: 21 июня, 14:00 – 17:00
+
+RESOURCE ID: event_datetime_range_key_cd_quaxly25
+TEXT: 20 июля, 14:00 – 17:00 по местному времени
 
 RESOURCE ID: event_datetime_range_key_cdc_eevee25
 TEXT: 14:00 5 июля –
@@ -367,6 +385,9 @@ TEXT: Билет: Премиум-Квест на Время Спокойный �
 
 RESOURCE ID: general1.ticket_cd_jangmo_o25_title
 TEXT: Билет: День Сообщества Джангмо-о
+
+RESOURCE ID: general1.ticket_cd_quaxly25_title
+TEXT: Билет: День Сообщества Куаксли
 
 RESOURCE ID: general1.ticket_cdc_eevee25_title
 TEXT: Билет: Классический День Сообщества Иви
@@ -1012,11 +1033,17 @@ TEXT: Этот билет активируется автоматически, �
 RESOURCE ID: item_event_ticket_pink_desc_cd_jangmo_o25
 TEXT: Билет на Специальный Квест День Сообщества Джангмо-о с 14:00 21 июня по местному времени, вне зависимости от твоего местонахождения.
 
+RESOURCE ID: item_event_ticket_pink_desc_cd_quaxly25
+TEXT: Билет на Специальный Квест День Сообщества Куаксли с 14:00 20 июля по местному времени, вне зависимости от твоего местонахождения.
+
 RESOURCE ID: item_event_ticket_pink_desc_cdc_eevee25
 TEXT: Билет на Специальный Квест Классический День Сообщества Иви с 14:00 5 июля по местному времени, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_pink_details_cd_jangmo_o25
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к Специальному Квесту День Сообщества Джангмо-о 21 июня, вне зависимости от твоего местонахождения.
+
+RESOURCE ID: item_event_ticket_pink_details_cd_quaxly25
+TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к Специальному Квесту Всплеск Стиля 20 июля, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_pink_details_cdc_eevee25
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к Специальному Квесту Классический День Сообщества Иви 5 июля, вне зависимости от твоего местонахождения.
@@ -1067,16 +1094,16 @@ RESOURCE ID: kr2025_lotte_baseball_title
 TEXT: Сезонное Событие Lotte Giants
 
 RESOURCE ID: kr_festival_raid_event_area
-TEXT: Event exclusive raids featuring Pikachu wearing a party hat, Deerling(Summer Form), and Lapras wearing a scarf appearing in the Jangheung area
+TEXT: Event-exclusive raids featuring Pikachu wearing a party hat, Lapras wearing a scarf, and Summer Form Deerling will take place in the Jangheung area
 
 RESOURCE ID: kr_festival_raid_location_background
-TEXT: Pokémon encountered from event exclusive raids may have an exclusive Location Background
+TEXT: Pokémon encountered from event raids may have an exclusive Location Background
 
 RESOURCE ID: kr_festival_tr_daily_nationwide
-TEXT: To celebrate the 2025 Summer Water Festival, daily Timed Research will be available across Korea. Don’t miss your chance to claim rewards each day!
+TEXT: To celebrate Summer Water Festival 2025, daily Timed Research will be available across Korea. Don’t miss your chance to claim rewards each day!
 
 RESOURCE ID: kr_festival_tr_location_background
-TEXT: Some of the Pokémon caught from Timed Research tasks have an exclusive Location Background
+TEXT: Pokémon caught from Timed Research tasks may have an exclusive Location Background
 
 RESOURCE ID: kr_summer_festival_2025_daily_tr_name
 TEXT: Ready, Set, Splash! Daily Timed Research
@@ -1127,10 +1154,10 @@ RESOURCE ID: kr_summer_festival_2025_tr_name_3
 TEXT: Soak Up Summer Location Background Timed Research (3/3)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-06-25T21:41:40.191250+00:00 for ru-RU
-at SHA 87d707311b9
-Pipeline 3256473, job 42458748
-Patch from: 0.367.0-SHA-7a469735-RC2, 0.365.1-SHA-1be6be1e-RC1, 0.369.0-SHA-a10e9a7f-RC1
+TEXT: Built at 2025-06-27T18:07:09.449196+00:00 for ru-RU
+at SHA a9e199bbeb9
+Pipeline 3259665, job 42547526
+Patch from: 0.369.0-SHA-a10e9a7f-RC1, 0.367.2-SHA-da650b30-RC1, 0.367.1-SHA-423aa95e-RC1
 
 RESOURCE ID: moonless_volcano
 TEXT: Безлунный Вулкан
@@ -1189,6 +1216,9 @@ TEXT: Билет: Премиум-Квест на Время Следы Ямпе�
 RESOURCE ID: photobomb_five_jangmo_o
 TEXT: 5 неожиданных встреч с Джангмо-о в Стоп-кадре GO
 
+RESOURCE ID: photobomb_five_quaxly
+TEXT: 5 неожиданных встреч с Куаксли в Стоп-кадре GO
+
 RESOURCE ID: pokemon_desc_0888_2576
 TEXT: Зэйшиан, теперь вооружённый древним оружием, одним ударом может повалить на землю даже Гигантамакс-Покемона.
 
@@ -1226,6 +1256,9 @@ TEXT: Покемон {0} завершил Задание для Гипертре
 RESOURCE ID: quest_phantump_catch_b
 TEXT: Поймай Фантампа
 
+RESOURCE ID: quest_quaxly_catch_b
+TEXT: Поймай Куаксли ×{0}
+
 RESOURCE ID: quest_title_eevee
 TEXT: Классический День Сообщества: Иви
 
@@ -1249,6 +1282,18 @@ TEXT: Джангмо-о Да! (2/3)
 
 RESOURCE ID: quest_title_jangmo_o_2
 TEXT: Джангмо-о Да! (3/3)
+
+RESOURCE ID: quest_title_quaxly
+TEXT: Всплеск Стиля
+
+RESOURCE ID: quest_title_quaxly_0
+TEXT: Всплеск Стиля (1/3)
+
+RESOURCE ID: quest_title_quaxly_1
+TEXT: Всплеск Стиля (2/3)
+
+RESOURCE ID: quest_title_quaxly_2
+TEXT: Всплеск Стиля (3/3)
 
 RESOURCE ID: quest_trainee_battle_trainer_plural
 TEXT: Сразись с другим Тренером вместе со своим тренируемым Покемоном в твоей боевой команде ×{0}
@@ -1414,7 +1459,7 @@ RESOURCE ID: serene_retreat_tr_name_2
 TEXT: Премиум-Квест на Время Спокойный Отдых (2/2)
 
 RESOURCE ID: settings_hold_to_attack_label
-TEXT: Press & Hold to Fast Attack
+TEXT: Press and Hold to Fast Attack
 
 RESOURCE ID: short_bonus_daily_raid_pass_plus_one
 TEXT: +1 Ежедневный Пропуск на Удалённый Рейд
@@ -1448,6 +1493,9 @@ TEXT: Появляется больше диких Иви!
 
 RESOURCE ID: spawn_jangmo_o
 TEXT: Появляется больше диких Джангмо-о!
+
+RESOURCE ID: spawn_quaxly
+TEXT: Появляется больше диких Куаксли!
 
 RESOURCE ID: sr_gofest2025_global_ss_2
 TEXT: Фестиваль GO 2025: Путь Героя (2/6)
@@ -1671,6 +1719,12 @@ TEXT: <b>Включает следующие награды:</b>
 • Встречи с Джангмо-о с Особым Фоном
 • И другие!
 
+RESOURCE ID: text_rewards_key_cd_quaxly25
+TEXT: <b>Включает следующие награды:</b>
+• Внутриигровые премиум-предметы, такие как Боевой Премиум-Пропуск, Заряженная TM и Редкие Конфеты
+• Встречи с Куаксли с Особым Фоном
+• И другие!
+
 RESOURCE ID: text_rewards_key_cd_shelmetkarrablast25
 TEXT: <b>Включает следующие награды:</b>
 • Внутриигровые премиум-предметы, такие как боевой премиум-пропуск, заряженная TM и редкие конфеты
@@ -1762,6 +1816,9 @@ TEXT: Билет, дающий доступ к Специальному Кве�
 
 RESOURCE ID: ticket_jangmo_o_cd
 TEXT: Билет, дающий доступ к Специальному Квесту День Сообщества Джангмо-о, доступен в магазине
+
+RESOURCE ID: ticket_quaxly_cd
+TEXT: Билет, дающий доступ к Специальному Квесту День Сообщества Куаксли, доступен в магазине
 
 RESOURCE ID: titan_poi_ar_data_opt_in_1
 TEXT: You can choose to enable this feature to help efforts to develop new AR mapping technology by scanning PokéStops and Gyms and uploading your scan data. Audio is not collected on these scans. If you choose to upload a scan, you are sharing the scan directly with a third-party service and limited personal data will be sent to this service during the upload. This service uses this information to build a 3D understanding of real-world places and related technologies and services. You can read more about this limited data collection and use in the Privacy Policy linked below. If you choose to enable this feature, you can opt out at any time by disabling it via the Settings Menu. 

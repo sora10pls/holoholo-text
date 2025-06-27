@@ -37,6 +37,18 @@ TEXT: 孵蛋證：8月(3/4)
 RESOURCE ID: august_eggspedition_title_4
 TEXT: 孵蛋證：8月(4/4)
 
+RESOURCE ID: avatar_gloves_wristbandblue
+TEXT: GO手環 叡智隊
+
+RESOURCE ID: avatar_gloves_wristbandred
+TEXT: GO手環 武勇隊
+
+RESOURCE ID: avatar_gloves_wristbandwhite
+TEXT: GO手環
+
+RESOURCE ID: avatar_gloves_wristbandyellow
+TEXT: GO手環 靈犀隊
+
 RESOURCE ID: avatar_hat_mlbballcap
 TEXT: MLB棒球帽
 
@@ -239,6 +251,9 @@ TEXT: 讓伊布進化，牠就能學會各寶可夢的特定招式
 RESOURCE ID: bonus_cd_move_jangmo_o
 TEXT: 讓鱗甲龍進化成杖尾鱗甲龍，牠就能學會特殊招式「鱗片噪音」！
 
+RESOURCE ID: bonus_cd_move_quaxly
+TEXT: 讓湧躍鴨進化成狂歡浪舞鴨，牠就能學會特殊招式「加農水炮」！
+
 RESOURCE ID: bonus_research_today_view
 TEXT: 可領取獎勵限時調查
 
@@ -292,6 +307,9 @@ TEXT: 8月3日10:00～
 
 RESOURCE ID: event_datetime_range_key_cd_jangmo_o25
 TEXT: 6月21日14:00～17:00
+
+RESOURCE ID: event_datetime_range_key_cd_quaxly25
+TEXT: 7月20日14:00～17:00
 
 RESOURCE ID: event_datetime_range_key_cdc_eevee25
 TEXT: 7月5日14:00～
@@ -383,6 +401,9 @@ TEXT: 寧靜山莊特級限時調查入場券
 
 RESOURCE ID: general1.ticket_cd_jangmo_o25_title
 TEXT: 心鱗寶社群日入場券
+
+RESOURCE ID: general1.ticket_cd_quaxly25_title
+TEXT: 潤水鴨社群日入場券
 
 RESOURCE ID: general1.ticket_cdc_eevee25_title
 TEXT: 伊布經典社群日入場券
@@ -523,7 +544,7 @@ RESOURCE ID: go_fest_2025_global_sr_swsh_05_02_sword
 TEXT: 雖然一起思考戰略也很開心。不過我想你應該比我在行。
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_05_03_shield
-TEXT: Anyhow, until next time, let’s GO!
+TEXT: 那麼，下次再見囉！
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_05_03_sword
 TEXT: 那麼下次再見囉！
@@ -1154,11 +1175,17 @@ TEXT: 入場券將會自動啟用。不論你身在何處，都可以領取6月�
 RESOURCE ID: item_event_ticket_pink_desc_cd_jangmo_o25
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年6月21日14:00開始參與心鱗寶社群日的特殊調查。
 
+RESOURCE ID: item_event_ticket_pink_desc_cd_quaxly25
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年7月20日14:00開始參與潤水鴨社群日的特殊調查。
+
 RESOURCE ID: item_event_ticket_pink_desc_cdc_eevee25
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年7月5日14:00開始參與伊布經典社群日的特殊調查。
 
 RESOURCE ID: item_event_ticket_pink_details_cd_jangmo_o25
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在6月21日參與社群日特殊調查「解開鱗片寶可夢之謎！」。
+
+RESOURCE ID: item_event_ticket_pink_details_cd_quaxly25
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間7月20日參與特殊調查「解開小鴨寶可夢之謎！」。
 
 RESOURCE ID: item_event_ticket_pink_details_cdc_eevee25
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間7月5日參與伊布經典社群日特殊調查。
@@ -1211,16 +1238,16 @@ TEXT: 樂天巨人隊
 賽季活動
 
 RESOURCE ID: kr_festival_raid_event_area
-TEXT: Event exclusive raids featuring Pikachu wearing a party hat, Deerling(Summer Form), and Lapras wearing a scarf appearing in the Jangheung area
+TEXT: Event-exclusive raids featuring Pikachu wearing a party hat, Lapras wearing a scarf, and Summer Form Deerling will take place in the Jangheung area
 
 RESOURCE ID: kr_festival_raid_location_background
-TEXT: Pokémon encountered from event exclusive raids may have an exclusive Location Background
+TEXT: Pokémon encountered from event raids may have an exclusive Location Background
 
 RESOURCE ID: kr_festival_tr_daily_nationwide
-TEXT: To celebrate the 2025 Summer Water Festival, daily Timed Research will be available across Korea. Don’t miss your chance to claim rewards each day!
+TEXT: To celebrate Summer Water Festival 2025, daily Timed Research will be available across Korea. Don’t miss your chance to claim rewards each day!
 
 RESOURCE ID: kr_festival_tr_location_background
-TEXT: Some of the Pokémon caught from Timed Research tasks have an exclusive Location Background
+TEXT: Pokémon caught from Timed Research tasks may have an exclusive Location Background
 
 RESOURCE ID: kr_summer_festival_2025_daily_tr_name
 TEXT: Ready, Set, Splash! Daily Timed Research
@@ -1277,16 +1304,16 @@ RESOURCE ID: lure_module_unown
 TEXT: 誘餌模組將吸引未知圖騰
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-06-25T21:41:40.191250+00:00 for zh-TW
-at SHA 87d707311b9
-Pipeline 3256473, job 42458748
-Patch from: 0.367.0-SHA-7a469735-RC2, 0.365.1-SHA-1be6be1e-RC1, 0.369.0-SHA-a10e9a7f-RC1
+TEXT: Built at 2025-06-27T18:07:09.449196+00:00 for zh-TW
+at SHA a9e199bbeb9
+Pipeline 3259665, job 42547526
+Patch from: 0.369.0-SHA-a10e9a7f-RC1, 0.367.2-SHA-da650b30-RC1, 0.367.1-SHA-423aa95e-RC1
 
 RESOURCE ID: moonless_volcano
 TEXT: 昏暗火山
 
 RESOURCE ID: motor_accessibility_settings_title
-TEXT: Motor Accessibility
+TEXT: 操作流暢度
 
 RESOURCE ID: move_name_0472
 TEXT: 雷電囚籠
@@ -1330,6 +1357,9 @@ TEXT: 來電汪的庭院特級限時調查入場券
 RESOURCE ID: photobomb_five_jangmo_o
 TEXT: 心鱗寶將在GO Snapshot中驚喜現身5次
 
+RESOURCE ID: photobomb_five_quaxly
+TEXT: 潤水鴨將在GO Snapshot中驚喜現身5次
+
 RESOURCE ID: pokemon_desc_0888_2576
 TEXT: 用過去使用的兵器武裝自己。 即使是超極巨化寶可夢， 也能以一劍將之拿下。
 
@@ -1363,6 +1393,9 @@ TEXT: {0}完成了極限特訓課題：{1}！
 RESOURCE ID: quest_phantump_catch_b
 TEXT: 捕捉1隻小木靈
 
+RESOURCE ID: quest_quaxly_catch_b
+TEXT: 捕捉{0}隻潤水鴨
+
 RESOURCE ID: quest_title_eevee
 TEXT: 經典社群日：伊布
 
@@ -1386,6 +1419,18 @@ TEXT: 解開鱗片寶可夢之謎！(2/3)
 
 RESOURCE ID: quest_title_jangmo_o_2
 TEXT: 解開鱗片寶可夢之謎！(3/3)
+
+RESOURCE ID: quest_title_quaxly
+TEXT: 解開小鴨寶可夢之謎！
+
+RESOURCE ID: quest_title_quaxly_0
+TEXT: 解開小鴨寶可夢之謎！(1/3)
+
+RESOURCE ID: quest_title_quaxly_1
+TEXT: 解開小鴨寶可夢之謎！(2/3)
+
+RESOURCE ID: quest_title_quaxly_2
+TEXT: 解開小鴨寶可夢之謎！(3/3)
 
 RESOURCE ID: quest_trainee_battle_trainer_plural
 TEXT: 將受訓寶可夢加入對戰小隊，並參加{0}次訓練家對戰
@@ -1554,7 +1599,7 @@ RESOURCE ID: serene_retreat_tr_name_2
 TEXT: 寧靜山莊特級限時調查(2/2)
 
 RESOURCE ID: settings_hold_to_attack_label
-TEXT: Press & Hold to Fast Attack
+TEXT: 透過長按發動一般招式
 
 RESOURCE ID: short_bonus_daily_raid_pass_plus_one
 TEXT: 每天團體戰入場券+1
@@ -1588,6 +1633,9 @@ TEXT: 更多伊布出現在地圖上！
 
 RESOURCE ID: spawn_jangmo_o
 TEXT: 更多心鱗寶出現在地圖上！
+
+RESOURCE ID: spawn_quaxly
+TEXT: 更多潤水鴨出現在地圖上！
 
 RESOURCE ID: sr_gofest2025_global_ss_2
 TEXT: GO Fest 2025：英雄之旅(2/6)
@@ -1823,6 +1871,12 @@ TEXT: <b>可獲得的獎勵：</b>
 ・1張特級對戰入場券、1個特殊招式學習器、神奇糖果
 ・其他
 
+RESOURCE ID: text_rewards_key_cd_quaxly25
+TEXT: <b>可獲得的獎勵：</b>
+・與潤水鴨（附有特別背卡）相遇
+・1張特級對戰入場券、1個特殊招式學習器、神奇糖果
+・其他
+
 RESOURCE ID: text_rewards_key_cdc_eevee25
 TEXT: <b>可獲得的獎勵：</b>
 ・與伊布（附有特別背卡）相遇
@@ -1891,6 +1945,9 @@ TEXT: 伊布經典社群日特殊調查入場券在商店裡上架了
 
 RESOURCE ID: ticket_jangmo_o_cd
 TEXT: 心鱗寶社群日特殊調查入場券在商店裡上架了
+
+RESOURCE ID: ticket_quaxly_cd
+TEXT: 潤水鴨社群日特殊調查入場券在商店裡上架了
 
 RESOURCE ID: titan_poi_ar_data_opt_in_1
 TEXT: 您可以選擇啟用此功能，透過掃描寶可補給站和道館並上傳您的掃描資料來幫助開發新的 AR 地圖技術。 這些掃描沒有收集音訊。 如果您選擇上傳掃描件，則將直接與第三方服務共用掃描件，並且有限的個人資料將在上傳過程中傳送給該服務。 該服務使用此類資訊來建構對現實世界地點和相關技術和服務的 3D 理解。 您可以在下方連結的隱私權政策中閱讀有關此有限資料收集和使用的更多資訊。 如果您選擇啟用此功能，可以隨時透過「設定」選單將其停用。
