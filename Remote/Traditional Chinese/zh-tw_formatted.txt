@@ -254,6 +254,12 @@ TEXT: 讓鱗甲龍進化成杖尾鱗甲龍，牠就能學會特殊招式「鱗�
 RESOURCE ID: bonus_cd_move_quaxly
 TEXT: 讓湧躍鴨進化成狂歡浪舞鴨，牠就能學會特殊招式「加農水炮」！
 
+RESOURCE ID: bonus_golem_rollout
+TEXT: 讓阿羅拉隆隆石進化成阿羅拉隆隆岩，牠就能學會一般招式「滾動」！
+
+RESOURCE ID: bonus_location_background_t1_raid
+TEXT: 在一星團體戰中遇見的寶可夢會帶著紀念背卡
+
 RESOURCE ID: bonus_research_today_view
 TEXT: 可領取獎勵限時調查
 
@@ -262,6 +268,12 @@ TEXT: 每天可參加遠距團體戰和遠距極巨對戰的上限增加至30次
 
 RESOURCE ID: bonus_space_time_distortion_upcoming
 TEXT: 跡象顯示接下來幾天會出現變異！
+
+RESOURCE ID: bonus_spin_poke_ball_increase
+TEXT: 可在寶可補給站和道館獲得的精靈球增加
+
+RESOURCE ID: bonus_summer_pikachu_t1_raid
+TEXT: 換上夏日服飾的皮卡丘將在一星團體戰中出現
 
 RESOURCE ID: combat_title_season_19
 TEXT: GO對戰聯盟：快樂每一天
@@ -277,6 +289,27 @@ TEXT: 社群日：潤水鴨
 
 RESOURCE ID: contest_rank
 TEXT: Rank {0}
+
+RESOURCE ID: desc_sampler_tr_emea_road_trip_berlin
+TEXT: 「Pokémon GO 公路旅行」將在8月9日造訪柏林。帶著柏林紀念背卡的寶可夢將在限定團體戰登場。
+
+RESOURCE ID: desc_sampler_tr_emea_road_trip_cologne
+TEXT: 「Pokémon GO 公路旅行」將在8月20日～8月24日造訪科隆。帶著科隆紀念背卡的寶可夢將在限定團體戰登場。
+
+RESOURCE ID: desc_sampler_tr_emea_road_trip_hague
+TEXT: 「Pokémon GO 公路旅行」將在8月16日造訪海牙。帶著海牙紀念背卡的寶可夢將在限定團體戰登場。
+
+RESOURCE ID: desc_sampler_tr_emea_road_trip_london
+TEXT: 「Pokémon GO 公路旅行」將在7月19日造訪倫敦。帶著倫敦紀念背卡的寶可夢將在限定團體戰登場。
+
+RESOURCE ID: desc_sampler_tr_emea_road_trip_manchester
+TEXT: 「Pokémon GO 公路旅行」將在7月16日造訪曼徹斯特。帶著曼徹斯特紀念背卡的寶可夢將在限定團體戰登場。
+
+RESOURCE ID: desc_sampler_tr_emea_road_trip_paris
+TEXT: 「Pokémon GO 公路旅行」將在7月26日造訪巴黎。帶著巴黎紀念背卡的寶可夢將在限定團體戰登場。
+
+RESOURCE ID: desc_sampler_tr_emea_road_trip_valencia
+TEXT: 「Pokémon GO 公路旅行」將在8月2日造訪瓦倫西亞。帶著瓦倫西亞紀念背卡的寶可夢將在限定團體戰登場。
 
 RESOURCE ID: details_link_key
 TEXT: 詳情請至<a href="https://pokemongo.com/news">網站</a>確認
@@ -329,6 +362,9 @@ RESOURCE ID: event_datetime_range_key_go_fest_emea_june25
 TEXT: 6月14日10:00～
 6月18日20:00
 
+RESOURCE ID: event_datetime_range_key_hisuianlilligantraidday
+TEXT: 7月12日14:00～17:00
+
 RESOURCE ID: event_datetime_range_key_julymonthly2025
 TEXT: 7月3日10:00～
 8月3日10:00
@@ -369,6 +405,9 @@ TEXT: 如果購買GO Pass豪華版：昔日殘影，將能解鎖下列獎勵！
 RESOURCE ID: event_season19_name
 TEXT: 本季：快樂每一天
 
+RESOURCE ID: event_tag_emea_road_trip
+TEXT: Pokémon GO 公路旅行
+
 RESOURCE ID: fae_swamp
 TEXT: 妖精沼澤
 
@@ -392,6 +431,9 @@ TEXT: 9週年紀念特級限時調查入場券
 
 RESOURCE ID: general1.ticket.5_augmonthly2025_title
 TEXT: 孵蛋證：8月
+
+RESOURCE ID: general1.ticket.5_hisuianlilligantraidday_title
+TEXT: 裙兒小姐（洗翠的樣子）團體戰日入場券
 
 RESOURCE ID: general1.ticket._2025_ancientsrecovered_fleetinglegends
 TEXT: 昔日殘影特級限時調查：天空入場券
@@ -837,8 +879,14 @@ TEXT: 在「海底秘寶」捕捉這些寶可夢！
 RESOURCE ID: hatch_xp_1.5x
 TEXT: 孵蛋的XP增為1.5倍
 
+RESOURCE ID: hisui_celebration_event_name
+TEXT: 究極解鎖：洗翠慶典
+
 RESOURCE ID: hisui_celebration_space_time_distortion_event_name
 TEXT: 洗翠慶典：時空變異
+
+RESOURCE ID: hisuian_liligant_raid_day_event_name
+TEXT: 團體戰日：裙兒小姐（洗翠的樣子）
 
 RESOURCE ID: hyper_training_attack_1
 TEXT: 攻擊特訓1
@@ -1172,11 +1220,17 @@ TEXT: 入場券將會自動啟用，不論你身在何處，都能在7月1日開
 RESOURCE ID: item_event_ticket_gray_desc_augmonthly2025
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年8月3日10:00～9月3日10:00領取「孵蛋證：8月」。
 
+RESOURCE ID: item_event_ticket_gray_desc_hisuianlilligantraidday
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年7月12日14:00～17:00領取特別的獎勵。
+
 RESOURCE ID: item_event_ticket_gray_desc_junemonthly2025
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年6月3日10:00～7月3日10:00領取「孵蛋證：6月」。
 
 RESOURCE ID: item_event_ticket_gray_details_augmonthly2025
 TEXT: 入場券將會自動啟用。不論你身在何處，都可以領取8月的孵蛋證。
+
+RESOURCE ID: item_event_ticket_gray_details_hisuianlilligantraidday
+TEXT: 入場券將會自動啟動。不論你身在何處，都能在當地時間2025年7月12日領取特別的獎勵。
 
 RESOURCE ID: item_event_ticket_gray_details_junemonthly2025
 TEXT: 入場券將會自動啟用。不論你身在何處，都可以領取6月的孵蛋證。
@@ -1313,10 +1367,10 @@ RESOURCE ID: lure_module_unown
 TEXT: 誘餌模組將吸引未知圖騰
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-06-30T23:04:24.187227+00:00 for zh-TW
-at SHA 9c88535749c
-Pipeline 3262136, job 42630300
-Patch from: 0.369.0-SHA-a10e9a7f-RC1, 0.367.2-SHA-da650b30-RC1, 0.367.1-SHA-423aa95e-RC1
+TEXT: Built at 2025-07-02T21:46:27.364263+00:00 for zh-TW
+at SHA 6914808540c
+Pipeline 3265393, job 42725968
+Patch from: 0.367.2-SHA-da650b30-RC1, 0.369.0-SHA-a10e9a7f-RC1, 0.367.1-SHA-423aa95e-RC1
 
 RESOURCE ID: moonless_volcano
 TEXT: 昏暗火山
@@ -1335,6 +1389,9 @@ TEXT: 捏碎
 
 RESOURCE ID: move_name_0486
 TEXT: 巨龍威能
+
+RESOURCE ID: move_name_0487
+TEXT: 流水旋舞
 
 RESOURCE ID: no_farther_stats_improvement
 TEXT: 在本次特訓中，已經無法再讓{0}進行鍛鍊了
@@ -1829,6 +1886,25 @@ TEXT: GO Fest 2025：前往巴黎奮發蒸汽！(8/9)
 RESOURCE ID: sr_gofest2025_irl_park_emea_9
 TEXT: GO Fest 2025：前往巴黎奮發蒸汽！(9/9)
 
+RESOURCE ID: steel_and_scales_event_name
+TEXT: 究極解鎖：鋼＆鱗片
+
+RESOURCE ID: steel_scales_uu_july2025_cc_bagon
+TEXT: 鋼＆鱗片
+收藏家挑戰：寶貝龍
+
+RESOURCE ID: steel_scales_uu_july2025_cc_beldum
+TEXT: 鋼＆鱗片
+收藏家挑戰：鐵啞鈴
+
+RESOURCE ID: steel_scales_uu_july2025_cc_dratini
+TEXT: 鋼＆鱗片
+收藏家挑戰：迷你龍
+
+RESOURCE ID: steel_scales_uu_july2025_cc_rookidee
+TEXT: 鋼＆鱗片
+收藏家挑戰：稚山雀
+
 RESOURCE ID: t5_2025_explore_title
 TEXT: 交流限時調查
 
@@ -1909,6 +1985,12 @@ TEXT: <b>可獲得的獎勵：</b>
 
 活動期間內完成這個調查等課題後，遇見異色哥德寶寶和小木靈的機率會提高。
 
+RESOURCE ID: text_rewards_key_hisuianlilligantraidday
+TEXT: <b>可獲得的獎勵：</b>
+・旋轉道館轉盤時可獲得8張額外團體戰入場券
+・在團體戰獲得神奇糖果XL的機率提高
+・在團體戰中獲勝時可獲得1.5倍XP及2倍星星沙子等
+
 RESOURCE ID: text_rewards_key_julymonthly2025
 TEXT: <b>可獲得的獎勵：</b>
 ・旋轉當天第1個寶可補給站轉盤時可獲得只能使用1次的孵化器
@@ -1966,6 +2048,37 @@ TEXT: 您可以選擇啟用此功能，透過掃描寶可補給站和道館並�
 RESOURCE ID: titan_poi_ar_data_opt_in_1_old
 TEXT: 我們正在開發新的AR技術，希望各位能協助我們掃描並上傳寶可補給站及道館的相關數據。開啟掃描功能後，你隨時都能將此功能關閉。
 <a href="titan_ar_data_policy_url">瞭解詳情</a>
+
+RESOURCE ID: title_sampler_tr_emea_road_trip_berlin
+TEXT: Pokémon GO 公路旅行：
+柏林限時調查
+
+RESOURCE ID: title_sampler_tr_emea_road_trip_cologne
+TEXT: Pokémon GO 公路旅行：
+科隆限時調查
+
+RESOURCE ID: title_sampler_tr_emea_road_trip_hague
+TEXT: Pokémon GO 公路旅行：
+海牙限時調查
+
+RESOURCE ID: title_sampler_tr_emea_road_trip_london
+TEXT: Pokémon GO 公路旅行：
+倫敦限時調查
+
+RESOURCE ID: title_sampler_tr_emea_road_trip_manchester
+TEXT: Pokémon GO 公路旅行：
+曼徹斯特限時調查
+
+RESOURCE ID: title_sampler_tr_emea_road_trip_paris
+TEXT: Pokémon GO 公路旅行：
+巴黎限時調查
+
+RESOURCE ID: title_sampler_tr_emea_road_trip_valencia
+TEXT: Pokémon GO 公路旅行：
+瓦倫西亞限時調查
+
+RESOURCE ID: title_tr_emea_road_trip
+TEXT: Pokémon GO 公路旅行限時調查
 
 RESOURCE ID: tr_gofest2025_leadup_articuno_1
 TEXT: 昔日殘影特級限時調查：天空 - 伽勒爾急凍鳥
