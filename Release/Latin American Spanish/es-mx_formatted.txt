@@ -1601,7 +1601,10 @@ RESOURCE ID: ar_scan_landing_info
 TEXT: ¿Para qué sirve la función Escaneo de Poképarada?
 
 RESOURCE ID: ar_scan_landing_info_desc
-TEXT: Los Entrenadores pueden ayudar a construir mapas en 3D de las ubicaciones de sus Poképaradas y Gimnasios favoritos al caminar por lugares públicos y tomar fotos con sus celulares. Podemos usar los datos recopilados de esta manera para continuar desarrollando y puliendo las funciones de RA de Pokémon GO.
+TEXT: Los Entrenadores pueden ayudar a desarrollar la nueva tecnología de RA pasándose por lugares públicos y sacando una serie de imágenes con sus dispositivos móviles. Esta información se usará para conocer en 3D los lugares reales, así como tecnologías y servicios relacionados.
+
+RESOURCE ID: ar_scan_landing_info_desc_out
+TEXT: Los Entrenadores pueden ayudar a construir mapas en 3D de las ubicaciones de sus Poképaradas y Gimnasios favoritos caminando por lugares públicos y tomando una serie de fotografías con sus dispositivos móviles. Podemos usar los datos recogidos de esta manera para continuar desarrollando y refinando las funciones de RA de Pokémon GO.
 
 RESOURCE ID: ar_scan_landing_pokestop
 TEXT: Escanear Poképarada
@@ -2036,7 +2039,7 @@ RESOURCE ID: attack_string_key
 TEXT: ATAQUE
 
 RESOURCE ID: attack_training_string_key
-TEXT: ENTRENAMIENTO DE ATAQUE: {0}
+TEXT: ENTRENAMIENTO DE ATAQUE {0}
 
 RESOURCE ID: august22_bug_out_collection_challenge
 TEXT: Desafío de Colección de Insectival
@@ -4699,6 +4702,15 @@ TEXT: Gorra de Mellizos de Minnesota
 RESOURCE ID: avatar_hat_mlbwhitesox
 TEXT: Gorra de Medias Blancas de Chicago
 
+RESOURCE ID: avatar_hat_suitblue
+TEXT: Sombrero azul del Festival de GO 2025
+
+RESOURCE ID: avatar_hat_suitred
+TEXT: Sombrero rojo del Festival de GO 2025
+
+RESOURCE ID: avatar_hat_suityellow
+TEXT: Sombrero amarillo del Festival de GO 2025
+
 RESOURCE ID: avatar_hat_wcs2024
 TEXT: Gorro de pescador del Mundial 2024
 
@@ -7218,6 +7230,9 @@ TEXT: Pantalones estilo Mostaz
 RESOURCE ID: avatar_pants_plaidpants
 TEXT: Pantalones de cuadros
 
+RESOURCE ID: avatar_pants_suit
+TEXT: Pantalones del Festival de GO 2025
+
 RESOURCE ID: avatar_pants_teamyellpants
 TEXT: Pantalones del Equipo Yell
 
@@ -7349,6 +7364,15 @@ TEXT: Camiseta de Meloetta brillante
 
 RESOURCE ID: avatar_shirt_staryusweater
 TEXT: Suéter de Staryu
+
+RESOURCE ID: avatar_shirt_suitblue
+TEXT: Chamarra azul del Festival de GO 2025
+
+RESOURCE ID: avatar_shirt_suitred
+TEXT: Chamarra roja del Festival de GO 2025
+
+RESOURCE ID: avatar_shirt_suityellow
+TEXT: Chamarra amarilla del Festival de GO 2025
 
 RESOURCE ID: avatar_shirt_teamyellcrop
 TEXT: Top corto del Equipo Yell
@@ -15714,6 +15738,12 @@ TEXT: Evoluciona a Zweilous para conseguir un Hydreigon que conozca el ataque ca
 RESOURCE ID: bonus_cd_move_dratini_cdc
 TEXT: ¡Evoluciona a Dragonair para conseguir un Dragonite que conozca el ataque cargado Meteoro Dragón!
 
+RESOURCE ID: bonus_cd_move_eevee
+TEXT: ¡Los Eevee atrapados durante el evento conocerán el ataque cargado Último Recurso!
+
+RESOURCE ID: bonus_cd_move_eevee_evolutions
+TEXT: ¡Evoluciona a Eevee para obtener una evolución que conozca un ataque destacado!
+
 RESOURCE ID: bonus_cd_move_fennekin
 TEXT: ¡Evoluciona a Braixen para obtener un Delphox que conozca el ataque cargado Anillo de Fuego!
 
@@ -15731,6 +15761,9 @@ TEXT: ¡Evoluciona a Sliggoo para conseguir un Goodra que conozca el ataque carg
 
 RESOURCE ID: bonus_cd_move_grubbin
 TEXT: ¡Evoluciona a Charjabug para obtener un Vikavolt que conozca el ataque rápido Cambiavoltaje!
+
+RESOURCE ID: bonus_cd_move_jangmo_o
+TEXT: ¡Evoluciona a Hakamo-o para conseguir un Kommo-o que conozca el ataque cargado Fragor Escamas!
 
 RESOURCE ID: bonus_cd_move_karrablast
 TEXT: ¡Evoluciona a Karrablast para conseguir un Escavalier que conozca el ataque cargado Coraza Afilada!
@@ -16519,7 +16552,7 @@ RESOURCE ID: bonus_rrp_limit_20_raids_max_battle
 TEXT: El límite diario de incursiones remotas y combates Max remotos aumentó a 20
 
 RESOURCE ID: bonus_rrp_limit_30_raids_max_battle
-TEXT: Daily Remote Raid and Max Battle limit increased to 30
+TEXT: El límite diario de incursiones remotas y combates Max remotos aumentó a 30
 
 RESOURCE ID: bonus_rrp_limit_uncap
 TEXT: Sin límite diario para las incursiones remotas
@@ -22794,6 +22827,9 @@ TEXT: Día de la Comunidad: Duskull
 RESOURCE ID: community_day_eevee_event_name
 TEXT: Día de la Comunidad: Eevee
 
+RESOURCE ID: community_day_eevee_event_name_cdc
+TEXT: Clásicos del Día de la Comunidad: Eevee
+
 RESOURCE ID: community_day_eggs_togetic
 TEXT: Togepi está eclosionando en los Huevos
 
@@ -23756,7 +23792,7 @@ RESOURCE ID: defense_string_key
 TEXT: DEFENSA
 
 RESOURCE ID: defense_training_string_key
-TEXT: ENTRENAMIENTO DE DEFENSA: {0}
+TEXT: ENTRENAMIENTO DE DEFENSA {0}
 
 RESOURCE ID: delete
 TEXT: Eliminar
@@ -25082,8 +25118,8 @@ TEXT: Del 2 de agosto a las 10:00 a. m. al
 12 de agosto a las 11:59 p. m.
 
 RESOURCE ID: event_datetime_range_key_ancientsrecovered_fleetinglegends
-TEXT: June 23, 10:00 a.m. –
-June 29, 6:00 p.m.
+TEXT: Del 23 de junio a las 10:00 a. m. 
+al 29 de junio a las 06:00 p. m.
 
 RESOURCE ID: event_datetime_range_key_anniversary24
 TEXT: Del 28 de junio a las 10:00 a. m. al
@@ -25126,6 +25162,9 @@ TEXT: 16 de marzo de 10:00 a. m. a 8:00 p. m.
 RESOURCE ID: event_datetime_range_key_cd_fuecoco25
 TEXT: 8 de marzo de 2:00 p. m. a 5:00 p. m.
 
+RESOURCE ID: event_datetime_range_key_cd_jangmo_o25
+TEXT: 21 de junio de 2:00 p. m. a 5:00 p. m.
+
 RESOURCE ID: event_datetime_range_key_cd_pawmi25
 TEXT: 11 de mayo de 2:00 p. m. a 5:00 p. m.
 
@@ -25141,6 +25180,9 @@ TEXT: 5 de enero de 2:00 p. m. a 5:00 p. m.
 
 RESOURCE ID: event_datetime_range_key_cd_vanillite25
 TEXT: 27 de abril de 2:00 p. m. a 5:00 p. m.
+
+RESOURCE ID: event_datetime_range_key_cdc_eevee25
+TEXT: Del 5 de julio a las 2:00 p. m. al 6 de julio a las 5:00 p. m.
 
 RESOURCE ID: event_datetime_range_key_cdc_machop25
 TEXT: 24 de mayo de 2:00 p. m. a 5:00 p. m.
@@ -25406,6 +25448,10 @@ TEXT: 14 de diciembre de 2:00 p. m. a 5:00 p. m.
 RESOURCE ID: event_datetime_range_key_nye12302025
 TEXT: Del 30 de diciembre a las 10:00 a. m. al
 1 de enero a las 8:00 p. m.
+
+RESOURCE ID: event_datetime_range_key_pawprint_20250620
+TEXT: Del 20 de junio a las 12:00 a. m. 
+al 22 de junio a las 11:59 p. m.
 
 RESOURCE ID: event_datetime_range_key_ponytacd24
 TEXT: 14 de septiembre de 2:00 p. m. a 5:00 p. m.
@@ -25918,7 +25964,7 @@ RESOURCE ID: event_name_gofest_2025_hatch
 TEXT: Festival de Pokémon GO 2025: Amante de la eclosión
 
 RESOURCE ID: event_name_gofest_2025_leadup
-TEXT: Ancients Recovered
+TEXT: Restauración ancestral
 
 RESOURCE ID: event_name_gofest_2025_raid
 TEXT: Festival de Pokémon GO 2025: Amante de las incursiones
@@ -26275,18 +26321,18 @@ RESOURCE ID: event_pass_gofest2025_premium_track_title
 TEXT: Pase de GO Deluxe: Restauración ancestral
 
 RESOURCE ID: event_pass_gofest2025_track_upgrade_header_description
-TEXT: ¡Obtén recompensas adicionales y desbloquea una <b>Tapa Dorada</b> en el nivel 100!
+TEXT: ¡Obtén recompensas adicionales y desbloquea una <b>Tapa Dorada</b> en elrango 100!
 
 RESOURCE ID: event_pass_gofest2025_upgrade_description
-TEXT: Purchase GO Pass Deluxe: Ancients Recovered to unlock the following rewards!
+TEXT: ¡Compra el Pase de GO Deluxe: Restauración ancestral para desbloquear las siguientes recompensas!
 
-• One <a href="https://niantic.helpshift.com">Gold Bottle Cap</a>, which is used to start a Hyper Training course that you can complete to increase all of a Pokémon’s stats
-• Zacian Mask avatar item
-• Zamazenta Mask avatar item
-• Exclusive hatch- and raid-focused bonuses
-• And much more!
+• Una <a href="https://niantic.helpshift.com/hc/faq/5103-what-is-hyper-training/">Tapa Dorada</a>, que se usa para comenzar una sesión de Entrenamiento Extremo para aumentar todas las características de un Pokémon
+• Máscara de Zacian para el avatar
+• Máscara de Zamazenta para el avatar
+• Bonificaciones exclusivas para la eclosión y para las incursiones
+• ¡Y mucho más!
 
-Trainers can earn 1,000 GO Points daily from June 23 to 27 in addition to the GO Points earned by Pass Tasks. There’s no limit on how many GO Points can be earned during Pokémon GO Fest: Global on June 28 and 29!
+Los Entrenadores pueden obtener 1,000 puntos de GO al día del 23 al 27 de junio, además de los puntos de GO que obtengan con las tareas del Pase. ¡No hay un límite de obtención de puntos de GO durante el evento Festival de Pokémon GO: Global del 28 y 29 de junio!
 
 RESOURCE ID: event_pass_micro_action_modal_desc
 TEXT: Obtén puntos para aumentar tu rango y desbloquear recompensas. Puedes conseguir puntos completando tareas del Pase o a través de estos objetivos.
@@ -27067,7 +27113,7 @@ RESOURCE ID: facebook_login_button
 TEXT: Facebook
 
 RESOURCE ID: fae_swamp
-TEXT: Fae Swamp
+TEXT: Ciénaga Feérica
 
 RESOURCE ID: fairy_type_event
 TEXT: Ola de Tipo: Hada
@@ -27658,7 +27704,7 @@ RESOURCE ID: filter_outfit_onesie
 TEXT: Overoles
 
 RESOURCE ID: filter_outfit_sets
-TEXT: Sets
+TEXT: Conjuntos
 
 RESOURCE ID: filter_pose_animated
 TEXT: Animadas
@@ -29469,7 +29515,7 @@ RESOURCE ID: galarian_pokedex_header
 TEXT: Forma de Galar
 
 RESOURCE ID: galvanic_dojo
-TEXT: Galvanic Dojo
+TEXT: Dojo Electrizante
 
 RESOURCE ID: gardevoir_gallade_synchronoise_catch
 TEXT: Los Gardevoir o Gallade encontrados después de las incursiones conocerán Sincrorruido
@@ -30567,7 +30613,7 @@ RESOURCE ID: general1.ticket.5_title
 TEXT: Entrada: Festival de Pokémon GO 2021
 
 RESOURCE ID: general1.ticket._2025_ancientsrecovered_fleetinglegends
-TEXT: Ancients Recovered Premium Timed Research: Fleeting Legends Ticket
+TEXT: Entrada: Investigación Temporal Prémium de Restauración ancestral "Leyendas voladoras"
 
 RESOURCE ID: general1.ticket._adventuretry2024_title
 TEXT: Entrada: Investigación Temporal Prémium de Semana de Aventuras
@@ -31049,6 +31095,9 @@ TEXT: Entrada: Día de la Comunidad de Bounsweet
 RESOURCE ID: general1.ticket_cd_fuecoco25_title
 TEXT: Entrada: Día de la Comunidad de Fuecoco
 
+RESOURCE ID: general1.ticket_cd_jangmo_o25_title
+TEXT: Entrada: Día de la Comunidad de Jangmo-o
+
 RESOURCE ID: general1.ticket_cd_pawmi25_title
 TEXT: Entrada: Día de la Comunidad de Pawmi
 
@@ -31063,6 +31112,9 @@ TEXT: Entrada: Día de la Comunidad de Sprigatito
 
 RESOURCE ID: general1.ticket_cd_vanillite25_title
 TEXT: Entrada: Día de la Comunidad de Vanillite
+
+RESOURCE ID: general1.ticket_cdc_eevee25_title
+TEXT: Entrada: Clásicos del Día de la Comunidad (Eevee)
 
 RESOURCE ID: general1.ticket_cdc_machop25_title
 TEXT: Entrada: Clásicos del Día de la Comunidad de Machop
@@ -32412,211 +32464,211 @@ RESOURCE ID: go_fest_2024_irl_sr_park_05_04
 TEXT: Creo que lo que realmente quiero decir es: ¡muchas gracias por tu amistad, %PLAYERNAME%!
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_00_00
-TEXT: Great to see you, %PLAYERNAME%! I’m feeling like legends are afoot with so many talented Trainers and Pokémon around.
+TEXT: It’s great to see you, %PLAYERNAME%! With all the talented Trainers and Pokémon around, it feels like legends are afoot!
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_00_01
-TEXT: With things so busy, I’ve picked up some interesting stories. Get a load of this!
+TEXT: I’ve picked up some interesting stories in all the hubbub. Get a load of this!
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_00_02
-TEXT: I traded notes with a Researcher from another region and they shared their own findings about Zacian and Zamazenta!
+TEXT: I swapped notes with a researcher from another region, and they shared their own findings about Zacian and Zamazenta.
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_00_03
 TEXT: These mighty Warrior Pokémon achieved legendary feats in their time, so you’d better believe I’m excited to dig into this!
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_00_04_branch
-TEXT: Which of the two piques your interest?
+TEXT: Now, tell me—which of the two most piques your interest?
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_01_00_shield
-TEXT: Alright, brace yourself! Let me see what the notes say about Zamazenta.
+TEXT: All right then, brace yourself! Let me see what notes I have on Zamazenta.
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_01_00_sword
-TEXT: A bold approach. You’re right—now’s the time to strike! Let me see what the notes say about Zacian...
+TEXT: A bold approach. You’re right—now’s the time to strike! Let me see what my notes say about Zacian...
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_01_01_shield
-TEXT: Here we are. In times past, Zamazenta worked together with a king of the people to save the Galar region.
+TEXT: Here we go. “In times past, Zamazenta worked together with a king of the people to save the Galar region.”
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_01_01_sword
 TEXT: Here we are. Known as a legendary hero, this Pokémon absorbs metal particles, transforming them into a weapon it uses to battle.
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_01_02_shield
-TEXT: A noble feat! From what, I wonder? Something to inquire about should we ever meet it!
+TEXT: What a noble feat! But save Galar from what, I wonder? Something to ask about if we ever meet it, I suppose!
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_01_02_sword
 TEXT: Very impressive. I wonder if Zacian could teach my Meltan how to do that.
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_01_03_shield
-TEXT: Now here's a question I do have the answer to: What type of Pokémon is Zamazenta? Any guesses?
+TEXT: Now here’s a question I do have the answer to, though: What type of Pokémon is Hero of Many Battles Zamazenta? Any guesses?
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_01_03_sword
-TEXT: With all this metal talk, you might think Zacian is a Steel-type Pokémon, but you'd be surprised! Any guesses?
+TEXT: Now, with this talk of metal, you might think Hero of Many Battles Zacian is a Steel type—but it’s actually not! Any guesses?
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_02_00_shield
-TEXT: Have you figured out what type of Pokémon Zamazenta is, %PLAYERNAME%?
+TEXT: Figured out what type of Pokémon Zamazenta is, %PLAYERNAME%?
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_02_00_sword
-TEXT: Have you figured out what type of Pokémon Zacian is, %PLAYERNAME%?
+TEXT: Figured out what type of Pokémon Zacian is, %PLAYERNAME%?
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_02_01_shield
-TEXT: Yes, it's a Fighting-type!
+TEXT: Right you are! It’s a Fighting type!
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_02_01_sword
-TEXT: Yes, it's a Fairy-type!
+TEXT: Exactly! It’s a Fairy type!
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_02_02_shield
-TEXT: This Pokémon slept for aeons while in the form of a statue. It was asleep for so long, people forgot that it ever existed.
+TEXT: According to legends, this Pokémon slept for aeons in statue form. It slept for so long, people forgot that it ever existed.
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_02_02_sword
 TEXT: Supposedly, Zacian slumbered for many years. Some say it’s Zamazenta’s elder sister, but others say the two are rivals. What do you think?
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_02_03_shield
-TEXT: Saving the Galar region would tire anyone out! I do enjoy a restorative nap as well.. Come find me in a bit!
+TEXT: Saving the entire Galar region would make anyone need a little shut-eye. In fact, I might take a nice nap of my own! Let’s catch up later.
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_02_03_sword
-TEXT: Well, who’s to say they can’t be both? Haha!
+TEXT: Well, I’m sure any sibling would tell you they can be both! Haha!
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_03_00_shield
-TEXT: Ah, I'm feeling refreshed! Now where were we... Can you believe Zamazenta has another impressive form as well?
+TEXT: Hi again! I’m...*yawn*...feeling nice and refreshed! Now, where were we? Ah, yes—can you believe Zamazenta has another impressive form?
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_03_00_sword
-TEXT: Can you believe Zacian has another impressive form as well?
+TEXT: Can you believe that Zacian actually has another impressive form?
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_03_01_shield
-TEXT: With its shield Zamazenta transforms into its Crowned Shield Form.
+TEXT: When wielding its shield, Zamazenta takes on its Crowned Shield form and becomes both Fighting and Steel type!
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_03_01_sword
-TEXT: When armed with the weapon it used in ancient times, Zacian transforms into its Crowned Sword form.
+TEXT: When armed with the weapon it wielded in ancient times, Zacian takes on its Crowned Sword form and becomes both Fairy and Steel type!
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_03_02_shield
-TEXT: It can shrug off impressive blows, including the attacks of Dynamax Pokémon. That's one way to "steel" the show!
+TEXT: In that form, it can shrug off impressive blows—even Dynamax Pokémon attacks! Talk about “steel-ing” the show!
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_03_02_sword
-TEXT: I’ve heard that in that form, it can fell even Gigantamax Pokémon with a single strike. That's one way to "steel" the show!
+TEXT: I hear that in that form, it can fell even Gigantamax Pokémon with a single strike. Talk about “steel-ing” the show!
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_03_03_shield
-TEXT: How incredible would it be to witness Zamazenta in a Max Battle someday? I just know if anyone could do that, it'd be you.
+TEXT: How incredible would it be to witness Zamazenta in a Max Battle someday? I just know if anyone could do that, it’d be you.
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_03_03_sword
-TEXT: How incredible would it be to witness Zacian in a Max Battle someday? I just know if anyone could do that, it'd be you.
+TEXT: How incredible would it be to witness Zacian in a Max Battle one day? I just know if anyone could do that, it’d be you.
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_04_00_shield
-TEXT: %PLAYERNAME%! I’ve been learning more about Zamazenta and its Crowned Sword form.
+TEXT: Ahoy, %PLAYERNAME%! I’ve been learning more about Zamazenta and its Crowned Shield form.
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_04_00_sword
-TEXT: %PLAYERNAME%! I’ve been learning more about Zacian and its Crowned Sword form.
+TEXT: Ahoy, %PLAYERNAME%! I’ve been learning more about Zacian and its Crowned Sword form.
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_04_01_shield
-TEXT: Its ability to deflect any attack led to it being known as the Fighting Master's Shield. Now, how would you go about finding weaknesses in its defense?
+TEXT: According to my research, its ability to deflect any attack led to it being known as the Fighting Master’s Shield. Now, how would you go about finding weaknesses in its defense?
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_04_01_sword
-TEXT: According to my research, it became known as the Fairy King’s Sword, inspiring awe in friend and foe alike. Now, how would you go about battling such a formidabble force?
+TEXT: According to my research, it became known as the Fairy King’s Sword, inspiring awe in friend and foe alike. Now, how would you go about taking on such a formidable opponent?
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_04_02_shield
-TEXT: In its Crowned Shield Form, Zamazenta also becomes a Steel-type Pokémon in addition to Fighting-type. Do you know what Steel-types are weak against?
+TEXT: As I mentioned, Crowned Shield Zamazenta is both Steel and Fighting type. And do you know what Steel types are weak against?
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_04_02_sword
-TEXT: In its Crowned Sword Form, Zacian becomes a Steel-type Pokémon in addition to Fairy-type. Do you know what Steel-types are weak against?
+TEXT: As I mentioned, Crowned Sword Zacian becomes both Fairy and Steel type. Do you know what Steel types are weak against?
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_04_03_shield
-TEXT: Think on it and get back to me when you're ready!
+TEXT: Think on it and get back to me when you’re ready!
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_04_03_sword
-TEXT: Think on it and get back to me when you're ready!
+TEXT: Think on it and get back to me when you’re ready!
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_05_00_shield
-TEXT: Ready to regale me with your knowledge on Steel-type Pokémon, %PLAYERNAME%?
+TEXT: Ready to regale me with your Steel type knowledge, %PLAYERNAME%?
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_05_00_sword
-TEXT: Ready to regale me with your knowledge on Steel-type Pokémon, %PLAYERNAME%?
+TEXT: Ready to regale me with your Steel type knowledge, %PLAYERNAME%?
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_05_01_shield
-TEXT: That's right, Steel-types are weak against Fighting, Fire, and Ground-type Pokémon. Seems like you've got plenty of choices for your battle strategy to take on Zamazenta!
+TEXT: Correct! Steel types are weak against Fire-, Fighting-, and Ground-type Pokémon! You’ve got plenty of choices to take on Zamazenta!
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_05_01_sword
-TEXT: That's right, Steel-types are weak against Fighting, Fire, and Ground-type Pokémon. Seems like you've got plenty of choices for your battle strategy to take on Zacian!
+TEXT: That’s right, Steel-types are weak against Fire-, Fighting-, and Ground-type Pokémon. You’ve got plenty of choices to take on Zacian!
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_05_02_shield
-TEXT: Our time together has certainly reinforced my love of research. There is always something new to learn.
+TEXT: Our time together has reinforced my love of research. There is always something new to learn.
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_05_02_sword
-TEXT: Our time together has certainly reinforced my love of research. There is always something new to learn.
+TEXT: Our time together has reinforced my love of research. There’s always something new to learn.
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_05_03_shield
-TEXT: Until next time, let’s GO!
+TEXT: Anyhow, until next time, let’s GO!
 
 RESOURCE ID: go_fest_2025_global_sr_swsh_05_03_sword
-TEXT: Until next time, let’s GO!
+TEXT: Anyhow, until next time, let’s GO!
 
 RESOURCE ID: go_fest_2025_global_sr_volcanion_00_00
-TEXT: Hello, %PLAYERNAME%! What an exciting day! And to make today even more special, I have extraordinary news!
+TEXT: Hey there, %PLAYERNAME%! What an exciting day it is! And it’s about to get even more exciting, because I have some extraordinary news!
 
 RESOURCE ID: go_fest_2025_global_sr_volcanion_00_01
-TEXT: I've found evidence of mythical Volcanion nearby - a thick fog I discovered during my morning walk.
+TEXT: I came across an unusual fog during my morning walk. I’ve got a hunch this could mean the Mythical Pokémon Volcanion is nearby.
 
 RESOURCE ID: go_fest_2025_global_sr_volcanion_00_02
-TEXT: As the only known Fire and Water-type Pokémon at this time, Volcanion produces this steam-like fog from the arms on its back.
+TEXT: You see, Volcanion is the only known Fire- and Water-type Pokémon, and it lets out billows of steam.
 
 RESOURCE ID: go_fest_2025_global_sr_volcanion_00_03
-TEXT: While you explore, I'll analyze the steam's composition. Enjoy your adventure, and we'll meet later to compare findings!
+TEXT: You head out and explore, and I’ll analyze the fog’s composition. Enjoy some adventure, and we’ll meet up later to compare findings!
 
 RESOURCE ID: go_fest_2025_global_sr_volcanion_01_00
-TEXT: Welcome back, %PLAYERNAME%! Just as fire and water combine to create steam, our environments greatly influence which Pokémon we encounter.
+TEXT: Welcome back, %PLAYERNAME%. No news on the fog, but it’s got me thinking about how the environment changes what Pokémon we find.
 
 RESOURCE ID: go_fest_2025_global_sr_volcanion_01_01
-TEXT: This, of course, presents a perfect opportunity for scientific research! By tracking hourly changes in Pokémon habitats, we can gather valuable data.
+TEXT: Which, of course, presents the perfect opportunity for research! We can gather valuable data if we track hourly changes in Pokémon habitats.
 
 RESOURCE ID: go_fest_2025_global_sr_volcanion_01_02
-TEXT: These observations could provide crucial insights into Volcanion's habitat preferences and behaviours.
+TEXT: And those observations could help us glean crucial insights into Volcanion’s habitat preferences and behaviors.
 
 RESOURCE ID: go_fest_2025_global_sr_volcanion_01_03
-TEXT: I encourage you to explore these habitat changes. Get out there and see what you discover, %PLAYERNAME%!
+TEXT: Which brings us to your part. Why don’t you get out there and investigate these habitat changes?
 
 RESOURCE ID: go_fest_2025_global_sr_volcanion_02_00
 TEXT: Fantastic work, %PLAYERNAME%!
 
 RESOURCE ID: go_fest_2025_global_sr_volcanion_02_01
-TEXT: As a Pokémon that harnesses water to create steam, I'd like you to study Water-type Pokémon in their natural habitats.
+TEXT: Given that we’re investigating Pokémon that use water, I’d like you to study some Water types in their natural habitats.
 
 RESOURCE ID: go_fest_2025_global_sr_volcanion_02_02
-TEXT: See what you can learn about how they adapt to their environments.
+TEXT: See what you can learn about the ways in which they adapt to their environments.
 
 RESOURCE ID: go_fest_2025_global_sr_volcanion_02_03
-TEXT: Each observation brings us one step closer to Volcanion! I'm counting on you, %PLAYERNAME%!
+TEXT: Every observation brings us one step closer to Volcanion! I’m counting on you, my friend!
 
 RESOURCE ID: go_fest_2025_global_sr_volcanion_03_00
-TEXT: Incredible progress with your soggy survey! Now let’s turn our attention to Fire-type Pokémon.
+TEXT: You’ve made some incredible progress on your soggy survey, so let’s turn our attention to Fire types.
 
 RESOURCE ID: go_fest_2025_global_sr_volcanion_03_01
-TEXT: Since Volcanion is currently the only known Pokémon that is both Fire and Water type, understanding how it behaves is crucial.
+TEXT: Since Volcanion is currently the only known Pokémon to be both Fire- and Water-type, it’s critical that we understand how it behaves.
 
 RESOURCE ID: go_fest_2025_global_sr_volcanion_03_02
-TEXT: I’d like you to turn up the heat on observing Fire types in their natural habitats. Pay close attention to what mechanisms they use to prevent overheating.
+TEXT: Let’s observe Fire types in their natural habitats. And try to pay close attention to the mechanisms they use to keep from overheating.
 
 RESOURCE ID: go_fest_2025_global_sr_volcanion_03_03
-TEXT: This will help us to better understand Volcanion. Your fieldwork continues to be essential, %PLAYERNAME%!
+TEXT: The conclusions we draw will help us understand Volcanion. Remember, your fieldwork is essential, %PLAYERNAME%!
 
 RESOURCE ID: go_fest_2025_global_sr_volcanion_04_00
-TEXT: Amazing discoveries, %PLAYERNAME%! Your research on both Water and Fire types gives us a clearer understanding of how Volcanion might behave in the wild.
+TEXT: Amazing discoveries, %PLAYERNAME%! Your survey of Water and Fire types has given us a clearer understanding of how Volcanion might behave in the wild.
 
 RESOURCE ID: go_fest_2025_global_sr_volcanion_04_01
-TEXT: Our next challenge is perhaps the most important yet - we need to show Volcanion that you're a trustworthy trainer! Let's focus on demonstrating your exceptional care for Pokémon.
+TEXT: Now, our next challenge might be the most important yet. We’ve got to show Volcanion that you’re a Trainer who can be trusted. Let’s focus on demonstrating your incredible care for Pokémon!
 
 RESOURCE ID: go_fest_2025_global_sr_volcanion_04_02
-TEXT: When Volcanion witnesses the kindness and respect you show to your Pokémon companions, it will surely recognize the goodness in your heart.
+TEXT: I’m sure when Volcanion sees the kindness and respect you show your Pokémon companions, it’ll recognize the goodness in your heart.
 
 RESOURCE ID: go_fest_2025_global_sr_volcanion_04_03
-TEXT: Your gentle approach could make all the difference in our ability to encounter this elusive Pokémon!
+TEXT: Your approach could make all the difference in our chances of encountering this elusive Pokémon!
 
 RESOURCE ID: go_fest_2025_global_sr_volcanion_05_00
-TEXT: Phenomenal job as always, %PLAYERNAME%! Your patience, dedication, and kind heart have accomplished what many thought impossible - you've gained Volcanion's trust!
+TEXT: Phenomenal job as always, %PLAYERNAME%! Once again, your patience, dedication, and kind heart have accomplished what many might’ve thought impossible—you’ve gained Volcanion’s trust!
 
 RESOURCE ID: go_fest_2025_global_sr_volcanion_05_01
-TEXT: I encourage you to spend quality time with this Mythical Pokémon. Grow that special bond that only comes from understanding and respecting each other.
+TEXT: Try to spend some quality time with this Mythical Pokémon and grow the special bond that only comes from mutual understanding and respect.
 
 RESOURCE ID: go_fest_2025_global_sr_volcanion_05_02
-TEXT: This journey has expanded our understanding of Pokémon. The connection between Trainers and Pokémon is truly our ultimate research tool!
+TEXT: Our understanding of Pokémon has really grown thanks to this journey. The connection between Trainers and Pokémon is truly the ultimate research tool!
 
 RESOURCE ID: go_fest_2025_global_sr_volcanion_05_03
-TEXT: Your experience with Volcanion will inspire Trainers everywhere. I couldn't be prouder, %PLAYERNAME%!
+TEXT: Your experience with Volcanion is going to inspire Trainers everywhere, %PLAYERNAME%. I couldn’t be more proud of you!
 
 RESOURCE ID: go_fest_2025_irl_ancient_temple_00_00
 TEXT: Qué lugar tan místico, %PLAYERNAME%. Estas ruinas están repletas de misterios y de Pokémon.
@@ -36806,7 +36858,7 @@ RESOURCE ID: gofest2025_content_hashtag
 TEXT: #PokemonGOFest2025
 
 RESOURCE ID: gofest2025_details_link
-TEXT: For more details, visit the <a href="https://pokemongolive.com/post/gofest2025">website</a>.
+TEXT: Para obtener más información, visita el <a href="https://pokemongo.com/news/go-pass-ancients-recovered-2025">sitio web</a>.
 
 RESOURCE ID: gofest2025_jerseycity
 TEXT: Festival de Pokémon GO 2025: Jersey City
@@ -37027,10 +37079,22 @@ TEXT: Desafío de Colección de Templo Ancestral
 RESOURCE ID: gofest_2025_habitat_emea_ancient_temple_description
 TEXT: ¡Captura estos Pokémon en el hábitat Templo Ancestral!
 
+RESOURCE ID: gofest_2025_habitat_emea_ancient_temple_make_good
+TEXT: Desafío de Colección de Templo Ancestral
+
+RESOURCE ID: gofest_2025_habitat_emea_ancient_temple_make_good_description
+TEXT: ¡Captura estos Pokémon en el hábitat Templo Ancestral!
+
 RESOURCE ID: gofest_2025_habitat_emea_carnival_grounds
 TEXT: Desafío de Colección de Recinto del Carnaval
 
 RESOURCE ID: gofest_2025_habitat_emea_carnival_grounds_description
+TEXT: ¡Atrapa estos Pokémon en el hábitat Recinto del Carnaval!
+
+RESOURCE ID: gofest_2025_habitat_emea_carnival_grounds_make_good
+TEXT: Desafío de Colección de Recinto del Carnaval
+
+RESOURCE ID: gofest_2025_habitat_emea_carnival_grounds_make_good_description
 TEXT: ¡Atrapa estos Pokémon en el hábitat Recinto del Carnaval!
 
 RESOURCE ID: gofest_2025_habitat_emea_noble_fields
@@ -37039,10 +37103,22 @@ TEXT: Desafío de Colección de Campos Nobles
 RESOURCE ID: gofest_2025_habitat_emea_noble_fields_description
 TEXT: ¡Atrapa estos Pokémon en el hábitat Campos Nobles!
 
+RESOURCE ID: gofest_2025_habitat_emea_noble_fields_make_good
+TEXT: Desafío de Colección de Campos Nobles
+
+RESOURCE ID: gofest_2025_habitat_emea_noble_fields_make_good_description
+TEXT: ¡Atrapa estos Pokémon en el hábitat Campos Nobles!
+
 RESOURCE ID: gofest_2025_habitat_emea_sunken_treasure
 TEXT: Desafío de Colección de Tesoro Sumergido
 
 RESOURCE ID: gofest_2025_habitat_emea_sunken_treasure_description
+TEXT: ¡Atrapa estos Pokémon en el hábitat Tesoro Sumergido!
+
+RESOURCE ID: gofest_2025_habitat_emea_sunken_treasure_make_good
+TEXT: Desafío de Colección de Tesoro Sumergido
+
+RESOURCE ID: gofest_2025_habitat_emea_sunken_treasure_make_good_description
 TEXT: ¡Atrapa estos Pokémon en el hábitat Tesoro Sumergido!
 
 RESOURCE ID: gofest_2025_habitat_fae_swamp
@@ -40589,7 +40665,7 @@ RESOURCE ID: hp_string_key
 TEXT: PS
 
 RESOURCE ID: hp_training_string_key
-TEXT: ENTRENAMIENTO DE PS: {0}
+TEXT: ENTRENAMIENTO DE PS {0}
 
 RESOURCE ID: hyper_train_item_expiration_desc
 TEXT: El Entrenamiento Extremo debe completarse en un año.
@@ -40607,205 +40683,211 @@ RESOURCE ID: hyper_training
 TEXT: ENTRENAMIENTO EXTREMO
 
 RESOURCE ID: hyper_training_attack_1
-TEXT: ATTACK TRAINING 1
+TEXT: ENTRENAMIENTO DE ATAQUE 1
 
 RESOURCE ID: hyper_training_attack_10
-TEXT: ATTACK TRAINING 10
+TEXT: ENTRENAMIENTO DE ATAQUE 10
 
 RESOURCE ID: hyper_training_attack_11
-TEXT: ATTACK TRAINING 11
+TEXT: ENTRENAMIENTO DE ATAQUE 11
 
 RESOURCE ID: hyper_training_attack_12
-TEXT: ATTACK TRAINING 12
+TEXT: ENTRENAMIENTO DE ATAQUE 12
 
 RESOURCE ID: hyper_training_attack_13
-TEXT: ATTACK TRAINING 13
+TEXT: ENTRENAMIENTO DE ATAQUE 13
 
 RESOURCE ID: hyper_training_attack_14
-TEXT: ATTACK TRAINING 14
+TEXT: ENTRENAMIENTO DE ATAQUE 14
 
 RESOURCE ID: hyper_training_attack_15
-TEXT: ATTACK TRAINING 15
+TEXT: ENTRENAMIENTO DE ATAQUE 15
 
 RESOURCE ID: hyper_training_attack_2
-TEXT: ATTACK TRAINING 2
+TEXT: ENTRENAMIENTO DE ATAQUE 2
 
 RESOURCE ID: hyper_training_attack_3
-TEXT: ATTACK TRAINING 3
+TEXT: ENTRENAMIENTO DE ATAQUE 3
 
 RESOURCE ID: hyper_training_attack_4
-TEXT: ATTACK TRAINING 4
+TEXT: ENTRENAMIENTO DE ATAQUE 4
 
 RESOURCE ID: hyper_training_attack_5
-TEXT: ATTACK TRAINING 5
+TEXT: ENTRENAMIENTO DE ATAQUE 5
 
 RESOURCE ID: hyper_training_attack_6
-TEXT: ATTACK TRAINING 6
+TEXT: ENTRENAMIENTO DE ATAQUE 6
 
 RESOURCE ID: hyper_training_attack_7
-TEXT: ATTACK TRAINING 7
+TEXT: ENTRENAMIENTO DE ATAQUE 7
 
 RESOURCE ID: hyper_training_attack_8
-TEXT: ATTACK TRAINING 8
+TEXT: ENTRENAMIENTO DE ATAQUE 8
 
 RESOURCE ID: hyper_training_attack_9
-TEXT: ATTACK TRAINING 9
+TEXT: ENTRENAMIENTO DE ATAQUE 9
 
 RESOURCE ID: hyper_training_blanche_training_complete_dialogue_1
-TEXT: The Hyper Training course is complete. Shall we review the data?
+TEXT: El Entrenamiento Extremo terminó. ¿Revisamos los datos?
 
 RESOURCE ID: hyper_training_blanche_training_complete_dialogue_2
-TEXT: Congratulations. {0} is measurably improved.
+TEXT: Felicitaciones. {0} mejoró bastante.
 
 RESOURCE ID: hyper_training_blanche_training_complete_dialogue_2_100
-TEXT: Perfection. {0} has maximized its potential.
+TEXT: Perfecto. {0} alcanzó su máximo potencial.
 
 RESOURCE ID: hyper_training_blanche_training_expire_dialogue_1
-TEXT: Greetings, {0}. The allotted time for your Hyper Training course has ended.
+TEXT: Saludos, {0}. El tiempo de tu plan de Entrenamiento Extremo llegó a su fin.
 
 RESOURCE ID: hyper_training_blanche_training_expire_dialogue_2
-TEXT: These are the results of your efforts.
+TEXT: Este es el resultado de tu rendimiento.
 
 RESOURCE ID: hyper_training_blanche_use_dialogue_1
-TEXT: Thank you for the {0}. I’ll initiate a Hyper Training course for you and your Pokémon.
+TEXT: Gracias por la {0}. Daré comienzo al Entrenamiento Extremo para ti y tu Pokémon.
 
 RESOURCE ID: hyper_training_blanche_use_dialogue_2
-TEXT: This intensive process will push the limits of what’s possible for {0}.
+TEXT: Este programa intensivo llevará a {0} al límite.
 
 RESOURCE ID: hyper_training_blanche_use_dialogue_3_fail
-TEXT: However, you must ensure your Pokémon is prepared before we begin.
+TEXT: Pero debes asegurarte de que tu Pokémon está listo antes de comenzar.
 
 RESOURCE ID: hyper_training_blanche_use_dialogue_3_success
-TEXT: Keeping your goals in mind, I’ve created a custom training protocol. Let us learn all we can from your Pokémon’s efforts.
+TEXT: Teniendo en cuenta tus objetivos, preparé un protocolo de entrenamiento personalizado. Descubramos todo lo que podamos con el esfuerzo de tu Pokémon.
 
 RESOURCE ID: hyper_training_blanche_use_dialogue_4_fail
-TEXT: Speak with me again once you and your Pokémon are Good Buddies.
+TEXT: Vuelve a hablar conmigo cuando tu Pokémon y tú hayan alcanzado el nivel de Buenos Compañeros.
 
 RESOURCE ID: hyper_training_candela_training_complete_dialogue_1
-TEXT: You made it, {0}! You and {1} have completed Hyper Training.
+TEXT: ¡Lo lograste, {0}! {1} y tú completaron el Entrenamiento Extremo.
 
 RESOURCE ID: hyper_training_candela_training_complete_dialogue_2
-TEXT: Look at how much stronger it became!
+TEXT: ¡Mira qué fuerte que se volvió!
 
 RESOURCE ID: hyper_training_candela_training_complete_dialogue_2_100
-TEXT: INCREDIBLE! Your Pokémon is giving 100% in battle!
+TEXT: ¡INCREÍBLE! ¡Tu Pokémon da el 100 % en combate!
 
 RESOURCE ID: hyper_training_candela_training_expire_dialogue_1
-TEXT: Hey, {0}! How did Hyper Training with {1} go?
+TEXT: ¡Hola, {0}! ¿Cómo fue el Entrenamiento Extremo con {1}?
 
 RESOURCE ID: hyper_training_candela_training_expire_dialogue_2
-TEXT: Let's see if it became any stronger!
+TEXT: ¡Veamos si es más fuerte ahora!
 
 RESOURCE ID: hyper_training_candela_use_dialogue_1
-TEXT: A {0}! Let’s kick off a special process called Hyper Training for {1}!
+TEXT: ¡Una {0}! ¡Comencemos un proceso especial llamado Entrenamiento Extremo para {1}!
 
 RESOURCE ID: hyper_training_candela_use_dialogue_2
-TEXT: Your battles will be even more exciting once you bring out your Pokémon’s potential.
+TEXT: Tus combates serán aún más emocionantes cuando tu Pokémon alcance todo su potencial.
 
 RESOURCE ID: hyper_training_candela_use_dialogue_3_fail
-TEXT: But this kind of training requires grit, passion, and a strong bond.
+TEXT: Aunque este tipo de entrenamiento requiere valor, pasión y un vínculo fuerte.
 
 RESOURCE ID: hyper_training_candela_use_dialogue_3_success
-TEXT: I’m getting fired up just thinking about it! Follow my training plan, and you’ll have no problem hitting your goals.
+TEXT: ¡Me emociona solo imaginármelo! Sigue mi plan de entrenamiento y no tendrás problemas en alcanzar tus objetivos.
 
 RESOURCE ID: hyper_training_candela_use_dialogue_4_fail
-TEXT: You can begin once you’re at least Good Buddies with your Pokémon. I can’t wait to get started!
+TEXT: Podrás comenzar una vez que hayas alcanzado el nivel de Buenos Compañeros con tu Pokémon. ¡Qué ganas de empezar!
 
 RESOURCE ID: hyper_training_completed_key
-TEXT: Hyper Training Complete!
+TEXT: ¡Entrenamiento Extremo completado!
 
 RESOURCE ID: hyper_training_defense_1
-TEXT: DEFENSE TRAINING 1
+TEXT: ENTRENAMIENTO DE DEFENSA 1
 
 RESOURCE ID: hyper_training_defense_10
-TEXT: DEFENSE TRAINING 10
+TEXT: ENTRENAMIENTO DE DEFENSA 10
 
 RESOURCE ID: hyper_training_defense_11
-TEXT: DEFENSE TRAINING 11
+TEXT: ENTRENAMIENTO DE DEFENSA 11
 
 RESOURCE ID: hyper_training_defense_12
-TEXT: DEFENSE TRAINING 12
+TEXT: ENTRENAMIENTO DE DEFENSA 12
 
 RESOURCE ID: hyper_training_defense_13
-TEXT: DEFENSE TRAINING 13
+TEXT: ENTRENAMIENTO DE DEFENSA 13
 
 RESOURCE ID: hyper_training_defense_14
-TEXT: DEFENSE TRAINING 14
+TEXT: ENTRENAMIENTO DE DEFENSA 14
 
 RESOURCE ID: hyper_training_defense_15
-TEXT: DEFENSE TRAINING 15
+TEXT: ENTRENAMIENTO DE DEFENSA 15
 
 RESOURCE ID: hyper_training_defense_2
-TEXT: DEFENSE TRAINING 2
+TEXT: ENTRENAMIENTO DE DEFENSA 2
 
 RESOURCE ID: hyper_training_defense_3
-TEXT: DEFENSE TRAINING 3
+TEXT: ENTRENAMIENTO DE DEFENSA 3
 
 RESOURCE ID: hyper_training_defense_4
-TEXT: DEFENSE TRAINING 4
+TEXT: ENTRENAMIENTO DE DEFENSA 4
 
 RESOURCE ID: hyper_training_defense_5
-TEXT: DEFENSE TRAINING 5
+TEXT: ENTRENAMIENTO DE DEFENSA 5
 
 RESOURCE ID: hyper_training_defense_6
-TEXT: DEFENSE TRAINING 6
+TEXT: ENTRENAMIENTO DE DEFENSA 6
 
 RESOURCE ID: hyper_training_defense_7
-TEXT: DEFENSE TRAINING 7
+TEXT: ENTRENAMIENTO DE DEFENSA 7
 
 RESOURCE ID: hyper_training_defense_8
-TEXT: DEFENSE TRAINING 8
+TEXT: ENTRENAMIENTO DE DEFENSA 8
 
 RESOURCE ID: hyper_training_defense_9
-TEXT: DEFENSE TRAINING 9
+TEXT: ENTRENAMIENTO DE DEFENSA 9
 
 RESOURCE ID: hyper_training_expired_key
-TEXT: Hyper Training Has Ended
+TEXT: El Entrenamiento Extremo terminó
+
+RESOURCE ID: hyper_training_goals_met
+TEXT: ¡Ya alcanzaste tu objetivo del Entrenamiento Extremo!
+
+RESOURCE ID: hyper_training_has_ended
+TEXT: El Entrenamiento Extremo ha terminado.
 
 RESOURCE ID: hyper_training_hp_1
-TEXT: HP TRAINING 1
+TEXT: ENTRENAMIENTO DE PS 1
 
 RESOURCE ID: hyper_training_hp_10
-TEXT: HP TRAINING 10
+TEXT: ENTRENAMIENTO DE PS 10
 
 RESOURCE ID: hyper_training_hp_11
-TEXT: HP TRAINING 11
+TEXT: ENTRENAMIENTO DE PS 11
 
 RESOURCE ID: hyper_training_hp_12
-TEXT: HP TRAINING 12
+TEXT: ENTRENAMIENTO DE PS 12
 
 RESOURCE ID: hyper_training_hp_13
-TEXT: HP TRAINING 13
+TEXT: ENTRENAMIENTO DE PS 13
 
 RESOURCE ID: hyper_training_hp_14
-TEXT: HP TRAINING 14
+TEXT: ENTRENAMIENTO DE PS 14
 
 RESOURCE ID: hyper_training_hp_15
-TEXT: HP TRAINING 15
+TEXT: ENTRENAMIENTO DE PS 15
 
 RESOURCE ID: hyper_training_hp_2
-TEXT: HP TRAINING 2
+TEXT: ENTRENAMIENTO DE PS 2
 
 RESOURCE ID: hyper_training_hp_3
-TEXT: HP TRAINING 3
+TEXT: ENTRENAMIENTO DE PS 3
 
 RESOURCE ID: hyper_training_hp_4
-TEXT: HP TRAINING 4
+TEXT: ENTRENAMIENTO DE PS 4
 
 RESOURCE ID: hyper_training_hp_5
-TEXT: HP TRAINING 5
+TEXT: ENTRENAMIENTO DE PS 5
 
 RESOURCE ID: hyper_training_hp_6
-TEXT: HP TRAINING 6
+TEXT: ENTRENAMIENTO DE PS 6
 
 RESOURCE ID: hyper_training_hp_7
-TEXT: HP TRAINING 7
+TEXT: ENTRENAMIENTO DE PS 7
 
 RESOURCE ID: hyper_training_hp_8
-TEXT: HP TRAINING 8
+TEXT: ENTRENAMIENTO DE PS 8
 
 RESOURCE ID: hyper_training_hp_9
-TEXT: HP TRAINING 9
+TEXT: ENTRENAMIENTO DE PS 9
 
 RESOURCE ID: hyper_training_last_trained_on
 TEXT: Último entrenamiento: {0}
@@ -40820,43 +40902,43 @@ RESOURCE ID: hyper_training_see_all_tasks
 TEXT: VER TODAS LAS TAREAS
 
 RESOURCE ID: hyper_training_spark_training_complete_dialogue_1
-TEXT: Guess what, {0}? You and {1} have finished Hyper Training!
+TEXT: ¿Sabes qué, {0}? ¡{1} y tú terminaron el Entrenamiento Extremo!
 
 RESOURCE ID: hyper_training_spark_training_complete_dialogue_2
-TEXT: The two of you have grown so much. Congrats!
+TEXT: Y mejoraron muchísimo. ¡Felicitaciones!
 
 RESOURCE ID: hyper_training_spark_training_complete_dialogue_2_100
-TEXT: I can’t believe how much your Pokémon has grown. You brought out its very best!
+TEXT: No puedo creer todo lo que creció tu Pokémon. ¡Sacaste todo su potencial!
 
 RESOURCE ID: hyper_training_spark_training_expire_dialogue_1
-TEXT: Phew, you’ve been doing this Hyper Training thing for a while! {0} looks ready to call it quits.
+TEXT: ¡Guau, estuviste haciendo este Entrenamiento Extremo durante mucho tiempo! Parece que {0} ya está a punto para terminar.
 
 RESOURCE ID: hyper_training_spark_training_expire_dialogue_2
-TEXT: This is how much it’s grown!
+TEXT: ¡Aquí tienes todo lo que ha mejorado!
 
 RESOURCE ID: hyper_training_spark_use_dialogue_1
-TEXT: Whoa! Thanks for the {0}. It’s time to start Hyper Training!
+TEXT: ¡Guau! Gracias por la {0}. ¡Hora del Entrenamiento Extremo!
 
 RESOURCE ID: hyper_training_spark_use_dialogue_2
-TEXT: {0} must be really special to you.
+TEXT: {0} debe ser muy especial para ti.
 
 RESOURCE ID: hyper_training_spark_use_dialogue_3_fail
-TEXT: But {0} doesn’t seem ready right now. Why don’t you spend more time getting to know each other?
+TEXT: Pero no parece que tu Pokémon esté preparado aún. ¿Por qué no pasas un poco más de tiempo con {0} para conocerse mejor?
 
 RESOURCE ID: hyper_training_spark_use_dialogue_3_success
-TEXT: I’m gonna get a training plan together that’s just as special. This’ll be so much fun!
+TEXT: Voy a crear un plan de entrenamiento que sea igual de especial. ¡Qué divertido!
 
 RESOURCE ID: hyper_training_spark_use_dialogue_4_fail
-TEXT: It’d be awesome if you became Good Buddies!
+TEXT: ¡Sería ideal si alcanzaran el nivel de Buenos Compañeros!
 
 RESOURCE ID: hyper_training_tasks_heading
 TEXT: Tareas de Entrenamiento Extremo
 
 RESOURCE ID: hyper_training_trade_confirm_message
-TEXT: You’ve increased this Pokémon’s stats through Hyper Training. Its stats will be randomized when traded. Proceed with trade?
+TEXT: Aumentaste las características de este Pokémon con el Entrenamiento Extremo. Sus características serán aleatorias cuando se intercambie. ¿Quieres continuar con el intercambio?
 
 RESOURCE ID: hyper_training_trade_confirm_title
-TEXT: Do you want to trade this Pokémon that has undergone Hyper Training?
+TEXT: ¿Seguro que quieres intercambiar este Pokémon que recibió un Entrenamiento Extremo?
 
 RESOURCE ID: hyper_training_training_goal_heading
 TEXT: Objetivo del entrenamiento
@@ -40865,37 +40947,37 @@ RESOURCE ID: hyper_training_view_all_tasks_desc
 TEXT: Las recompensas de las tareas se concederán automáticamente al finalizarlas. Solo puedes completar una tarea por característica a la vez.
 
 RESOURCE ID: hyper_training_willow_training_complete_dialogue_1
-TEXT: Hey, {0}! You and {1} have finished your Hyper Training course.
+TEXT: ¡Hola, {0}! {1} y tú terminaron el Entrenamiento Extremo.
 
 RESOURCE ID: hyper_training_willow_training_complete_dialogue_2
-TEXT: Here are the results. Congratulations on everything you learned!
+TEXT: Estos son los resultados. Felicitaciones por todo lo que aprendieron.
 
 RESOURCE ID: hyper_training_willow_training_complete_dialogue_2_100
-TEXT: The results couldn’t be any better. This journey took you two to the very top!
+TEXT: Los resultados no podrían ser mejores. ¡Esta aventura los llevó a la cima!
 
 RESOURCE ID: hyper_training_willow_training_expire_dialogue_1
-TEXT: That’s all the time we have for Hyper Training with {0}.
+TEXT: Ese era todo el tiempo que teníamos para el Entrenamiento Extremo con {0}.
 
 RESOURCE ID: hyper_training_willow_training_expire_dialogue_2
-TEXT: Good effort! Let’s see the results.
+TEXT: ¡Buen trabajo! Veamos los resultados.
 
 RESOURCE ID: hyper_training_willow_use_dialogue_1
-TEXT: Is that a {0}? I’m thrilled to facilitate Hyper Training for you and {1}!
+TEXT: ¿Eso es una {0}? ¡Estoy encantado de ayudarte con el Entrenamiento Extremo para {1} y para ti!
 
 RESOURCE ID: hyper_training_willow_use_dialogue_2
-TEXT: This special process can increase your Pokémon’s Attack, Defense, or HP.
+TEXT: Este proceso especial puede aumentar el Ataque, la Defensa o los PS de tu Pokémon.
 
 RESOURCE ID: hyper_training_willow_use_dialogue_3_fail
-TEXT: But you need a strong bond with your Pokémon to start Hyper Training.
+TEXT: Pero necesitas fortalecer tu vínculo con tu Pokémon para comenzar el Entrenamiento Extremo.
 
 RESOURCE ID: hyper_training_willow_use_dialogue_3_success
-TEXT: In life AND in Hyper Training, the path you take depends on your goals! Let’s see where this new journey takes us.
+TEXT: Como sucede en la vida misma, ¡el camino que elijas en el Entrenamiento Extremo dependerá de tus objetivos! Veamos adónde nos lleva.
 
 RESOURCE ID: hyper_training_willow_use_dialogue_4_fail
-TEXT: Adventure with {0} until you’re Good Buddies, and then training can begin!
+TEXT: Aventúrate con {0} hasta alcanzar el nivel de Buenos Compañeros, ¡y entonces empezamos!
 
 RESOURCE ID: hypnotic_tundra
-TEXT: Hypnotic Tundra
+TEXT: Tundra Hipnótica
 
 RESOURCE ID: iap_battle_pass_ticket_name
 TEXT: Pase de Investigación Temporal de Liga de Combates GO
@@ -41388,6 +41470,9 @@ TEXT: No puedes invitar a amistades a esta incursión.
 
 RESOURCE ID: invite_action_label
 TEXT: Invitar
+
+RESOURCE ID: invite_recommended_friends_callout
+TEXT: New: Quickly invite recommended friends!
 
 RESOURCE ID: ios_health_read_helptext
 TEXT: Pokémon GO necesita acceder a tus datos de actividad para ayudarte a eclosionar Huevos Pokémon, ayudar a tus Pokémon a encontrar Caramelos y mostrar la distancia total recorrida.
@@ -41942,7 +42027,7 @@ RESOURCE ID: item_event_ticket_10_name
 TEXT: Entrada
 
 RESOURCE ID: item_event_ticket_2025_ancientsrecovered_fleetinglegends
-TEXT: A ticket to access Ancients Recovered Premium Timed Research: Fleeting Legends until June 29, 2025, at 6:00 p.m. local time, wherever you are.
+TEXT: Una entrada para acceder a la Investigación Temporal Prémium de Restauración ancestral "Leyendas voladoras" hasta el 29 de junio de 2025 a las 6:00 p. m. en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_desc_crown_clash_tgr
 TEXT: Una entrada para acceder a la Investigación Temporal Prémium de Rivalidad real: Invasión hasta el 18 de mayo de 2025 a las 11:59 p. m. en tu hora local, estés donde estés.
@@ -41951,7 +42036,7 @@ RESOURCE ID: item_event_ticket_desc_stunning_styles
 TEXT: Una entrada para acceder a la Investigación Temporal Prémium de Estilos espectaculares hasta el 7 de abril de 2025 a las 8:00 p. m. en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_details_2025_ancientsrecovered_fleetinglegends
-TEXT: This ticket will automatically activate on June 23 at 10:00 a.m. to give you access to Ancients Recovered Premium Timed Research: Fleeting Legends, wherever you are.
+TEXT: Esta entrada se activará automáticamente el 23 de junio a las 10:00 a. m. para darte acceso a la Investigación Temporal Prémium de Restauración ancestral "Leyendas voladoras", estés donde estés.
 
 RESOURCE ID: item_event_ticket_details_crown_clash_tgr
 TEXT: Esta entrada se activará automáticamente el 14 de mayo para darte acceso a la Investigación Temporal Prémium de Rivalidad real: Invasión, estés donde estés.
@@ -42007,6 +42092,9 @@ TEXT: Una entrada para acceder a la Investigación Temporal "Contando ovejas" de
 RESOURCE ID: item_event_ticket_evergreen_desc_nye12302025
 TEXT: Una entrada para acceder a la Investigación Temporal Prémium de Año Nuevo 2025 desde el 30 de diciembre de 2024 a las 10:00 a. m. hasta el 1 de enero de 2025 a las 8:00 p. m. en tu hora local, estés donde estés.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_pawprint_20250620
+TEXT: Una entrada para acceder a la Investigación Temporal Prémium de Huellas de Yamper del 20 de junio a las 12:00 a. m. al 22 de junio de 2025 a las 11:59 p. m. en tu hora local, estés donde estés.
+
 RESOURCE ID: item_event_ticket_evergreen_desc_psychspec24
 TEXT: Una entrada para acceder a la Investigación Temporal Prémium  de Psicoespectáculo 2024 del 18 de septiembre a las 10:00 a. m. al 22 de septiembre de 2024 a las 8:00 p. m. en tu hora local, estés donde estés.
 
@@ -42014,7 +42102,7 @@ RESOURCE ID: item_event_ticket_evergreen_desc_serenert0525
 TEXT: Una entrada para acceder a la Investigación Temporal Prémium de Investigación Temporal Prémium de Retiro pacífico hasta el 3 de junio de 2025 a las 8:00 p. m. en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_evergreen_desc_sis_apr25
-TEXT: Una entrada para acceder a la Investigación Temporal Prémium dePrimavera floreada del 9 de abril a las 10:00 a. m. al 14 de abril de 2025 a las 8:00 p. m. en tu hora local, estés donde estés.
+TEXT: Una entrada para acceder a la Investigación Temporal Prémium de Primavera floreada del 9 de abril a las 10:00 a. m. al 14 de abril de 2025 a las 8:00 p. m. en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_evergreen_desc_stldrslv0125
 TEXT: Una entrada para acceder a la Investigación Temporal Prémium de Voluntad de acero hasta el 26 de enero de 2025 a las 11:59 p. m. en tu hora local, estés donde estés.
@@ -42072,6 +42160,9 @@ TEXT: Esta entrada se activará automáticamente para darte acceso a la Investig
 
 RESOURCE ID: item_event_ticket_evergreen_details_nye12302025
 TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Temporal Prémium de Año Nuevo 2025 el 30 de diciembre de 2024, estés donde estés.
+
+RESOURCE ID: item_event_ticket_evergreen_details_pawprint_20250620
+TEXT: Esta entrada se activará automáticamente el 20 de junio para darte acceso a la Investigación Temporal Prémium de Huellas de Yamper, estés donde estés.
 
 RESOURCE ID: item_event_ticket_evergreen_details_psychspec24
 TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Temporal Prémium de Psicoespectáculo 2024 el 18 de septiembre, estés donde estés.
@@ -42412,6 +42503,9 @@ TEXT: Una entrada para acceder a la Investigación Temporal "Carnaval del amor" 
 RESOURCE ID: item_event_ticket_pink_desc_cd_fuecoco25
 TEXT: Una entrada para acceder a la Investigación Especial del Día de la Comunidad de Fuecoco desde el 8 de marzo a las 2:00 p. m. en tu hora local, estés donde estés.
 
+RESOURCE ID: item_event_ticket_pink_desc_cd_jangmo_o25
+TEXT: Una entrada para acceder a la Investigación Especial del Día de la Comunidad de Jangmo-o desde el 21 de junio a las 2:00 p. m. en tu hora local, estés donde estés.
+
 RESOURCE ID: item_event_ticket_pink_desc_cd_pawmi25
 TEXT: Una entrada para acceder a la Investigación Especial del Día de la Comunidad de Pawmi desde el 11 de mayo a las 2:00 p. m. en tu hora local, estés donde estés.
 
@@ -42426,6 +42520,9 @@ TEXT: Una entrada para acceder a la Investigación Especial del Día de la Comun
 
 RESOURCE ID: item_event_ticket_pink_desc_cd_vanillite25
 TEXT: Una entrada para acceder a la Investigación Especial del Día de la Comunidad de Vanillite desde el 27 de abril a las 2:00 p. m. en tu hora local, estés donde estés.
+
+RESOURCE ID: item_event_ticket_pink_desc_cdc_eevee25
+TEXT: Una entrada para acceder a la Investigación Especial del evento "Clásicos del Día de la Comunidad: Eevee" desde el 5 de julio a las 2:00 p. m. en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_desc_cdc_machop25
 TEXT: Una entrada para acceder a la Investigación Especial del evento Clásicos del Día de la Comunidad de Machop desde el 24 de mayo a las 2:00 p. m. en tu hora local, estés donde estés.
@@ -42568,6 +42665,9 @@ TEXT: Esta entrada se activará automáticamente para darte acceso a la Investig
 RESOURCE ID: item_event_ticket_pink_details_cd_fuecoco25
 TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Especial "A crocapella" el 8 de marzo, estés donde estés.
 
+RESOURCE ID: item_event_ticket_pink_details_cd_jangmo_o25
+TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Especial del Día de la Comunidad "¡Vamos, Jangmo-o!" el 21 de junio, estés donde estés.
+
 RESOURCE ID: item_event_ticket_pink_details_cd_pawmi25
 TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Especial del Día de la Comunidad de Tú y Pawmi el 11 de mayo, estés donde estés.
 
@@ -42582,6 +42682,9 @@ TEXT: Esta entrada se activará automáticamente para darte acceso a la Investig
 
 RESOURCE ID: item_event_ticket_pink_details_cd_vanillite25
 TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Especial "Helado de la Comunidad: Vanillite" el 27 de abril, estés donde estés.
+
+RESOURCE ID: item_event_ticket_pink_details_cdc_eevee25
+TEXT: Esta entrada se activará automáticamente para darte acceso a la Investigación Especial “Clásicos del Día de la Comunidad de Eevee”, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_details_cdc_machop25
 TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación especial de Clásicos del Día de la Comunidad de Machop el 24 de mayo, estés donde estés.
@@ -42887,7 +42990,7 @@ RESOURCE ID: item_evergreen_ticket_name
 TEXT: Entrada
 
 RESOURCE ID: item_expiration_consolation
-TEXT: Your {0} has broken down!
+TEXT: ¡Tu {0} se rompió!
 
 RESOURCE ID: item_expiration_day_left_plural
 TEXT: Te quedan {0} días para usar este objeto.
@@ -43947,6 +44050,12 @@ TEXT: Investigación Temporal Prémium de Kingler Gigamax
 
 RESOURCE ID: korean
 TEXT: 한국어
+
+RESOURCE ID: kr2025_lotte_baseball_desc
+TEXT: Investigación Temporal de Evento de temporada de Lotte Giants
+
+RESOURCE ID: kr2025_lotte_baseball_title
+TEXT: Evento de temporada de Lotte Giants
 
 RESOURCE ID: kr_cherryblossom_festival_2025_tag
 TEXT: Festival de la Primavera en Flor
@@ -48540,9 +48649,9 @@ RESOURCE ID: meshing_option_title
 TEXT: Mallado
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2025-06-26T21:20:21.704363+00:00 for es-MX
-at SHA da650b30bde
-Pipeline 3258220, job 42507347
+TEXT: Built at 2025-07-07T22:46:44.632829+00:00 for es-MX
+at SHA e93362d7b5c
+Pipeline 3269217, job 42810691
 
 RESOURCE ID: mex_fighting_promo_title
 TEXT: Investigación Temporal: Elige tu tipo de lucha
@@ -48824,7 +48933,7 @@ RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: Emite un rayo misterioso. Atrae Pokémon nocturnos y permite la evolución nocturna durante el día.
 
 RESOURCE ID: moonless_volcano
-TEXT: Moonless Volcano
+TEXT: Volcán Oscuro
 
 RESOURCE ID: mop_event_name
 TEXT: Montañas de poder
@@ -50070,6 +50179,9 @@ TEXT: Corte Supremo
 
 RESOURCE ID: move_name_0480
 TEXT: Golpe Supremo
+
+RESOURCE ID: move_name_0484
+TEXT: Fragor Escamas
 
 RESOURCE ID: move_name_0485
 TEXT: Garra Aplastante
@@ -53663,7 +53775,7 @@ RESOURCE ID: no_created_routes
 TEXT: No has creado ninguna Ruta.
 
 RESOURCE ID: no_farther_stats_improvement
-TEXT: You will not be able to improve {0}’s stats any further with this Bottle Cap.
+TEXT: Ya no podrás mejorar más las características de {0} con esta Tapa.
 
 RESOURCE ID: no_friend_score_description
 TEXT: 
@@ -54953,11 +55065,35 @@ TEXT: Error al pausar la Ruta
 RESOURCE ID: pause_stamp_rally_button
 TEXT: PAUSAR
 
+RESOURCE ID: paw_prints_event_name
+TEXT: Huellas de Yamper
+
+RESOURCE ID: paw_prints_furfrou_tr
+TEXT: Investigación Temporal de Furfrou
+
+RESOURCE ID: paw_prints_paid_tr
+TEXT: Investigación Temporal Prémium de Huellas de Yamper
+
+RESOURCE ID: paw_prints_paid_tr_0
+TEXT: Investigación Temporal Prémium de Huellas de Yamper (1/2)
+
+RESOURCE ID: paw_prints_paid_tr_1
+TEXT: Investigación Temporal Prémium de Huellas de Yamper (2/2)
+
+RESOURCE ID: paw_prints_poochyena_tr
+TEXT: Investigación Temporal de Poochyena
+
+RESOURCE ID: paw_prints_snubbull_tr
+TEXT: Investigación Temporal de Snubbull
+
 RESOURCE ID: pending_friend_request
 TEXT: Ya tienes una solicitud de amistad pendiente de esta persona.
 
 RESOURCE ID: performance_successfully_updated
 TEXT: Tu configuración de rendimiento se actualizó con éxito.
+
+RESOURCE ID: pgorelease.general1.ticket.2_pawprint_20250620_title
+TEXT: Entrada: Investigación Temporal Prémium de Huellas de Yamper
 
 RESOURCE ID: pgp_bluetooth_enabling
 TEXT: Activando bluetooth...
@@ -55390,6 +55526,9 @@ TEXT: 5 encuentros sorpresa con Grubbin al usar Foto GO
 
 RESOURCE ID: photobomb_five_hoppip
 TEXT: 5 encuentros sorpresa con Hoppip al usar Foto GO
+
+RESOURCE ID: photobomb_five_jangmo_o
+TEXT: 5 encuentros sorpresa con Jangmo-o al usar Foto GO
 
 RESOURCE ID: photobomb_five_larvitar_cdc
 TEXT: 5 encuentros sorpresa con Larvitar al usar Foto GO
@@ -64081,13 +64220,13 @@ RESOURCE ID: pokemon_info_powerup_confirmation_2
 TEXT: Si das más poder a este Pokémon, sus PC superarán el máximo para la {0}.
 
 RESOURCE ID: pokemon_info_powerup_is_shadow
-TEXT: Shadow Pokémon cannot receive Hyper Training.
+TEXT: Los Pokémon oscuros no pueden recibir el Entrenamiento Extremo.
 
 RESOURCE ID: pokemon_info_powerup_is_training
-TEXT: This Pokémon is already undergoing Hyper Training.
+TEXT: Este Pokémon ya se encuentra en un Entrenamiento Extremo.
 
 RESOURCE ID: pokemon_info_powerup_ivs_max
-TEXT: This Pokémon cannot be trained any further!
+TEXT: ¡Este Pokémon ya no puede entrenar más!
 
 RESOURCE ID: pokemon_info_powerup_need_candies
 TEXT: Necesitas más Caramelos {0}.
@@ -73299,6 +73438,9 @@ TEXT: Investigación de Feebas: Haz {0} lanzamientos geniales
 RESOURCE ID: quest_jan19rsd_land_nice_plural
 TEXT: Investigación de Feebas: Haz {0} lanzamientos buenos
 
+RESOURCE ID: quest_jangmo_o_catch_b
+TEXT: Atrapa {0} Jangmo-o
+
 RESOURCE ID: quest_johtofestival_catch_special17_plural
 TEXT: Festival de Johto: Atrapa {0} Sunkern
 
@@ -73492,13 +73634,13 @@ RESOURCE ID: quest_local_trainer_battle
 TEXT: Desafía a un Entrenador que se encuentre cerca de ti escaneando su código de combate.
 
 RESOURCE ID: quest_log_training_complete
-TEXT: {0} completed Hyper Training.
+TEXT: {0} completó el Entrenamiento Extremo.
 
 RESOURCE ID: quest_log_training_expired
-TEXT: {0}’s Hyper Training ended.
+TEXT: El Entrenamiento Extremo de {0} terminó.
 
 RESOURCE ID: quest_log_training_task_complete
-TEXT: {0} completed a Hyper Training Task: {1}
+TEXT: {0} completó una tarea de Entrenamiento Extremo: {1}
 
 RESOURCE ID: quest_lucky_plural
 TEXT: Consigue {0} Pokémon con suerte en intercambios
@@ -85165,6 +85307,18 @@ TEXT: Moviendo el esqueleto con Duskull (3/4)
 RESOURCE ID: quest_title_duskt_3
 TEXT: Moviendo el esqueleto con Duskull (4/4)
 
+RESOURCE ID: quest_title_eevee
+TEXT: Clásicos del Día de la Comunidad: Eevee
+
+RESOURCE ID: quest_title_eevee_0
+TEXT: Clásicos del Día de la Comunidad: Eevee (1/3)
+
+RESOURCE ID: quest_title_eevee_1
+TEXT: Clásicos del Día de la Comunidad: Eevee (2/3)
+
+RESOURCE ID: quest_title_eevee_2
+TEXT: Clásicos del Día de la Comunidad: Eevee (3/3)
+
 RESOURCE ID: quest_title_eevet
 TEXT: Lo que quieras ser
 
@@ -85518,6 +85672,18 @@ TEXT: Brincando y saltando (3/4)
 
 RESOURCE ID: quest_title_hoppt_3
 TEXT: Brincando y saltando (4/4)
+
+RESOURCE ID: quest_title_jangmo_o
+TEXT: ¡Vamos, Jangmo-o!
+
+RESOURCE ID: quest_title_jangmo_o_0
+TEXT: ¡Vamos, Jangmo-o! (1/3)
+
+RESOURCE ID: quest_title_jangmo_o_1
+TEXT: ¡Vamos, Jangmo-o! (2/3)
+
+RESOURCE ID: quest_title_jangmo_o_2
+TEXT: ¡Vamos, Jangmo-o! (3/3)
 
 RESOURCE ID: quest_title_jirachi_0
 TEXT: Festival de Pokémon GO 2019: Chicago (1/5)
@@ -88408,17 +88574,11 @@ TEXT: Combate en la Liga de Combates GO con el Pokémon en entrenamiento en tu e
 RESOURCE ID: quest_trainee_battle_gbl_win_plural
 TEXT: Gana {0} combates de Entrenador de la Liga de Combates GO con el Pokémon en entrenamiento en tu equipo de combate
 
-RESOURCE ID: quest_trainee_battle_great_win_plural
-TEXT: Win {0} Trainer Battles in the Great League with your trainee as your buddy
-
 RESOURCE ID: quest_trainee_battle_gym_plural
 TEXT: Combate en un Gimnasio {0} veces con el Pokémon en entrenamiento en tu equipo de combate
 
 RESOURCE ID: quest_trainee_battle_gym_singular
 TEXT: Combate en un Gimnasio con el Pokémon en entrenamiento en tu equipo de combate
-
-RESOURCE ID: quest_trainee_battle_master_win_plural
-TEXT: Win {0} Trainer Battles in the Master League with your trainee as your buddy
 
 RESOURCE ID: quest_trainee_battle_plural
 TEXT: Combate con tu Pokémon en entrenamiento en tu equipo de combate {0} veces
@@ -88442,19 +88602,16 @@ RESOURCE ID: quest_trainee_battle_trainer_or_team_leader_singular
 TEXT: Combate contra otro Entrenador o Líder de Equipo con el Pokémon en entrenamiento en tu equipo de combate
 
 RESOURCE ID: quest_trainee_battle_trainer_plural
-TEXT: Battle another Trainer {0} times with your trainee in your battle party
+TEXT: Combate contra otro Entrenador {0} veces con el Pokémon en entrenamiento en tu equipo de combate
 
 RESOURCE ID: quest_trainee_battle_trainer_singular
-TEXT: Battle another Trainer with your trainee in your battle party
+TEXT: Combate contra otro Entrenador con el Pokémon en entrenamiento en tu equipo de combate
 
 RESOURCE ID: quest_trainee_battle_trainer_win_plural
-TEXT: Win {0} battles against another Trainer with your trainee in your battle party
-
-RESOURCE ID: quest_trainee_battle_ultra_win_plural
-TEXT: Win {0} Trainer Battles in the Ultra League with your trainee as your buddy
+TEXT: Gana {0} combates contra otro Entrenador con el Pokémon en entrenamiento en tu equipo de combate
 
 RESOURCE ID: quest_trainee_battle_win_plural
-TEXT: Win {0} battles with your trainee in your battle party
+TEXT: Gana {0} combates con el Pokémon en entrenamiento en tu equipo de combate
 
 RESOURCE ID: quest_trainee_buddy_play_days_plural
 TEXT: Juega con el Pokémon en entrenamiento como tu compañero en {0} días diferentes
@@ -94900,12 +95057,15 @@ TEXT: Nivel {0}
 RESOURCE ID: rewarded_spend_current_progress_key
 TEXT: Progreso actual:
 
+RESOURCE ID: rewarded_spend_helpshift_blog_url
+TEXT: https://pokemongo.com/news/eggs-pedition-access-june-2025#rewardroad
+
 RESOURCE ID: rewarded_spend_helpshift_desc
 TEXT: Camino a las recompensas es un programa mensual de recompensas en el que los Entrenadores pueden obtener puntos de recompensa cada mes con compras válidas.* ¡Logra una cantidad determinada de puntos de recompensa para subir de nivel en Camino a las recompensas y desbloquear premios!
 
 1. Realiza una compra válida para obtener puntos de recompensa.*
 2. Desbloquea recompensas obteniendo puntos de recompensa.
-3. Visita nuestro <a href="https://pokemongolive.com/post/may-reward-road-2025">sitio web</a> para descubrir cómo canjear las recompensas desbloqueadas.**
+3. Visita nuestro <a href="https://pokemongo.com/news/eggs-pedition-access-june-2025#rewardroad">sitio web</a> para descubrir cómo canjear las recompensas desbloqueadas.**
 
 *Solo las compras con divisas del mundo real contarán para el progreso de Camino a las recompensas. Las transacciones con Pokémonedas no otorgarán puntos de recompensa.
 
@@ -94915,7 +95075,7 @@ RESOURCE ID: rewarded_spend_helpshift_expiration_timer_key
 TEXT: Finalización del periodo actual: {0} - {1}.
 
 RESOURCE ID: rewarded_spend_helpshift_footer
-TEXT: Para obtener más información, visita el <a href="https://pokemongolive.com/post/may-reward-road-2025">sitio web</a>.
+TEXT: Para obtener más información, visita el <a href="https://pokemongo.com/news/eggs-pedition-access-june-2025#rewardroad">sitio web</a>.
 
 RESOURCE ID: rewarded_spend_helpshift_title
 TEXT: ¡Una nueva forma de obtener recompensas!
@@ -98145,23 +98305,23 @@ TEXT: ¡Adquiere el Pase de GO Deluxe: Abril para desbloquear las siguientes rec
 • ¡Y mucho más!
 
 RESOURCE ID: season_pass_aug2025_event_duration
-TEXT: August 5 – September 2
+TEXT: Del 5 de agosto al 2 de septiembre
 
 RESOURCE ID: season_pass_aug2025_upgrade_description
-TEXT: Purchase GO Pass Deluxe: August to unlock the following rewards!
+TEXT: ¡Adquiere el Pase de GO Deluxe: Agosto para desbloquear las siguientes recompensas!
 
-• One Super Incubator
-• One <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Lucky Trinket</a>, which allows you to instantly become Lucky Friends with a friend of your choice
-• And much more!
+• Una Superincubadora
+• Un <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Adorno Suerte</a>, que te permite entablar una Amistad con Suerte al instante con quien elijas
+• ¡Y mucho más!
 
 RESOURCE ID: season_pass_base_track_title_april
 TEXT: Pase de GO: Abril
 
 RESOURCE ID: season_pass_base_track_title_aug
-TEXT: GO Pass: August
+TEXT: Pase de GO: Agosto
 
 RESOURCE ID: season_pass_base_track_title_july
-TEXT: GO Pass: July
+TEXT: Pase de GO: Julio
 
 RESOURCE ID: season_pass_base_track_title_june
 TEXT: Pase de GO: Junio
@@ -98176,10 +98336,10 @@ RESOURCE ID: season_pass_details_link
 TEXT: Para obtener más información, visita el <a href="https://pokemongolive.com/post/go-pass-test-2025">sitio web</a>.
 
 RESOURCE ID: season_pass_details_link_aug
-TEXT: For more details, visit the <a href="https://pokemongolive.com/post/go-pass-august-2025">website</a>.
+TEXT: Para obtener más información, visita el <a href="https://pokemongolive.com/post/go-pass-august-2025">sitio web</a>.
 
 RESOURCE ID: season_pass_details_link_july
-TEXT: For more details, visit the <a href="https://pokemongolive.com/post/go-pass-july-2025">website</a>.
+TEXT: Para obtener más información, visita el <a href="https://pokemongolive.com/post/go-pass-july-2025">sitio web</a>.
 
 RESOURCE ID: season_pass_details_link_june
 TEXT: Para obtener más información, visita el <a href="https://pokemongolive.com/post/go-pass-june-2025">sitio web</a>.
@@ -98188,14 +98348,14 @@ RESOURCE ID: season_pass_details_link_may
 TEXT: Para obtener más información, visita el <a href="https://pokemongolive.com/post/go-pass-may-2025">sitio web</a>.
 
 RESOURCE ID: season_pass_july2025_event_duration
-TEXT: July 1 – August 5
+TEXT: Del 1 de julio al 5 de agosto
 
 RESOURCE ID: season_pass_july2025_upgrade_description
-TEXT: Purchase GO Pass Deluxe: July to unlock the following rewards!
+TEXT: ¡Adquiere el Pase de GO Deluxe: Julio para desbloquear las siguientes recompensas!
 
-• One Super Incubator
-• One <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Lucky Trinket</a>, which allows you to instantly become Lucky Friends with a friend of your choice
-• And much more!
+• Una Superincubadora
+• Un <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Adorno Suerte</a>, que te permite entablar una Amistad con Suerte al instante con quien elijas
+• ¡Y mucho más!
 
 RESOURCE ID: season_pass_june2025_event_duration
 TEXT: Del 3 de junio al 1 de julio
@@ -98247,10 +98407,10 @@ RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_april
 TEXT: Pase de GO Deluxe: Abril + 10 rangos
 
 RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_aug
-TEXT: GO Pass Deluxe: August + 10 Ranks
+TEXT: Pase de GO Deluxe: Agosto + 10 rangos
 
 RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_july
-TEXT: GO Pass Deluxe: July + 10 Ranks
+TEXT: Pase de GO Deluxe: Julio + 10 rangos
 
 RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_june
 TEXT: Pase de GO Deluxe: Junio + 10 rangos
@@ -98262,10 +98422,10 @@ RESOURCE ID: season_pass_premium_track_title_april
 TEXT: Pase de GO Deluxe: Abril
 
 RESOURCE ID: season_pass_premium_track_title_aug
-TEXT: GO Pass Deluxe: August
+TEXT: Pase de GO Deluxe: Agosto
 
 RESOURCE ID: season_pass_premium_track_title_july
-TEXT: GO Pass Deluxe: July
+TEXT: Pase de GO Deluxe: Julio
 
 RESOURCE ID: season_pass_premium_track_title_june
 TEXT: Pase de GO Deluxe: Junio
@@ -99599,28 +99759,28 @@ RESOURCE ID: shop_ticket_gift_info_require_purchase
 TEXT: Tras comprar una entrada, ¡puedes comprar {0} entradas con descuentos para regalar a tus amistades!
 
 RESOURCE ID: short_bonus_daily_raid_pass_plus_one
-TEXT: +1 Daily Raid Pass
+TEXT: +1 Pase de Incursión diario
 
 RESOURCE ID: short_bonus_go_tour_2023_add_on_raid_02
-TEXT: +5,000 Raid XP
+TEXT: +5,000× EXP por incursión
 
 RESOURCE ID: short_bonus_raid_1_xl_candy
-TEXT: +1 Candy XL for Raids
+TEXT: +1 Caramelo XL en incursiones
 
 RESOURCE ID: short_bonus_raid_3_candy
-TEXT: +3 Candy for Raids
+TEXT: +3 Caramelos en incursiones
 
 RESOURCE ID: short_hatch_candy_double
-TEXT: 2× Hatch Candy
+TEXT: 2× Caramelos por eclosión
 
 RESOURCE ID: short_hatch_stardust_double
-TEXT: 2× Hatch Stardust
+TEXT: 2× Polvo Estelar por eclosión
 
 RESOURCE ID: short_hatch_xp_double
-TEXT: 2× Hatch XP
+TEXT: 2× EXP por eclosión
 
 RESOURCE ID: short_incubator_distance_half
-TEXT: 1/2 Hatch Distance
+TEXT: 1/2 de la distancia para eclosionar
 
 RESOURCE ID: show_nearby_tap_prompt
 TEXT: Toca una Poképarada
@@ -100052,7 +100212,7 @@ RESOURCE ID: social_planner_detail_other_trainers
 TEXT: Otros Entrenadores
 
 RESOURCE ID: social_planner_error_rsvp_exists
-TEXT: You have already RSVP’d to this time slot.
+TEXT: Ya confirmaste un plan a esta hora.
 
 RESOURCE ID: social_planner_error_rsvp_failure
 TEXT: Error. Inténtalo de nuevo.
@@ -100356,6 +100516,9 @@ TEXT: ¡Están apareciendo más Grubbin salvajes!
 
 RESOURCE ID: spawn_hoppip
 TEXT: Están apareciendo más Hoppip salvajes
+
+RESOURCE ID: spawn_jangmo_o
+TEXT: ¡Están apareciendo más Jangmo-o salvajes!
 
 RESOURCE ID: spawn_larvitar_cdc
 TEXT: ¡Están apareciendo más Larvitar salvajes!
@@ -104560,14 +104723,14 @@ TEXT: Esta Investigación Temporal, que te desafía a explorar y completar tarea
 
 Durante el evento, los Pokémon que te encuentres en esta Investigación Temporal tienen la misma probabilidad de ser brillantes que los que eclosionen de Huevos, los que te encuentres en estado salvaje o aquellos que te encuentres en las Investigaciones de Campo.
 
-<b>Las recompensas incluyen lo siguiente:</b>
+<b>Las recompensas incluyen:</b>
 • 2 Incubadoras y 1 Superincubadora.
 
 RESOURCE ID: text_rewards_key_ancientsrecovered_fleetinglegends
-TEXT: <b>Included rewards:</b>
-• An encounter with your choice of Galarian Articuno, Galarian Zapdos, or Galarian Moltres
-• An encounter with a Rookidee
-• And more!
+TEXT: <b>Las recompensas incluyen:
+• Un encuentro, a tu elección, con Articuno de Galar, Zapdos de Galar o Moltres de Galar</b>
+• Un encuentro con un Rookidee
+• ¡Y más!
 
 RESOURCE ID: text_rewards_key_anniversary24
 TEXT: <b>Recompensas incluidas:</b>
@@ -104605,22 +104768,22 @@ TEXT: <b>Incluye:</b>
 • ¡Y mucho más!
 
 RESOURCE ID: text_rewards_key_bagoncdc
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Artículos prémium dentro del juego, como Caramelos Raros y Ultrabolas, entre otros. 
 • Encuentros adicionales con Bagon y sus evoluciones.
 
 RESOURCE ID: text_rewards_key_beldumcdc24
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Artículos prémium dentro del juego, como Caramelos Raros y Ultrabolas, entre otros
 • Encuentros adicionales con Beldum y sus evoluciones
 
 RESOURCE ID: text_rewards_key_bellsproutcd2024
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Artículos prémium dentro del juego, como Caramelos Raros y Ultrabolas, entre otros. 
 • Encuentros adicionales con Bellsprout y sus evoluciones.
 
 RESOURCE ID: text_rewards_key_bounsweetcd2024
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Artículos prémium dentro del juego, como Caramelos Raros y Ultrabolas, entre otros. 
 • Encuentros adicionales con Bounsweet y sus evoluciones.
 
@@ -104644,6 +104807,12 @@ TEXT: <b>Las recompensas incluyen:</b>
 • Encuentros con Fuecoco con un fondo especial
 • ¡Y mucho más!
 
+RESOURCE ID: text_rewards_key_cd_jangmo_o25
+TEXT: <b>Las recompensas incluyen:</b>
+• Artículos prémium dentro del juego, como un Pase de Combate Prémium, una MT de ataque cargado y Caramelos Raros
+• Encuentros con Jangmo-o con un fondo especial
+• ¡Y mucho más!
+
 RESOURCE ID: text_rewards_key_cd_pawmi25
 TEXT: <b>Las recompensas incluyen:</b>
 • Artículos prémium dentro del juego, como un Pase de Combate Prémium, una MT de ataque cargado y Caramelos Raros
@@ -104651,18 +104820,18 @@ TEXT: <b>Las recompensas incluyen:</b>
 • ¡Y mucho más!
 
 RESOURCE ID: text_rewards_key_cd_recap2024
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Artículos prémium dentro del juego, como Caramelos Raros, una MT élite de ataque rápido, una MT élite de ataque cargado y más.
 • Encuentros con Pokémon destacados en los eventos del Día de la Comunidad 2024, ¡con fondos especiales!
 
 RESOURCE ID: text_rewards_key_cd_shelmetkarrablast25
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Artículos prémium dentro del juego, como un Pase de Combate Prémium, una MT de ataque cargado y Caramelos Raros
 • Encuentros con Shelmet y Karrablast con un fondo especial
 • ¡Y mucho más!
 
 RESOURCE ID: text_rewards_key_cd_sprigatito2025
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Artículos prémium dentro del juego, como un Pase de Combate Prémium, una MT de ataque cargado y Caramelos Raros
 • Encuentros con Sprigatito con un fondo especial
 • ¡Y más!
@@ -104673,26 +104842,32 @@ TEXT: <b>Las recompensas incluyen:</b>
 • Encuentros con Vanillite con un fondo especial
 • ¡Y mucho más!
 
+RESOURCE ID: text_rewards_key_cdc_eevee25
+TEXT: <b>Las recompensas incluyen:</b>
+• Artículos prémium dentro del juego, como un Pase de Combate Prémium, una MT de ataque cargado y Caramelos Raros
+• Encuentros con Eevee con un fondo especial
+• ¡Y mucho más!
+
 RESOURCE ID: text_rewards_key_cdc_machop25
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Artículos prémium dentro del juego, como un Pase de Combate Prémium, una MT de ataque cargado y Caramelos Raros
 • Encuentros con Totodile con un fondo especial
 • ¡Y mucho más!
 
 RESOURCE ID: text_rewards_key_cdc_ralts25
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Artículos prémium dentro del juego, como un Pase de Combate Prémium, una MT de ataque cargado y Caramelos Raros
 • Encuentros con Ralts con un fondo especial
 • ¡Y mucho más!
 
 RESOURCE ID: text_rewards_key_cdc_totodile25
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Artículos prémium dentro del juego, como un Pase de Combate Prémium, una MT de ataque cargado y Caramelos Raros
 • Encuentros con Totodile con un fondo especial
 • ¡Y mucho más!
 
 RESOURCE ID: text_rewards_key_chargedembers1224
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • 1 Superincubadora
 • 1 Fragmento Estrella
 • 2,500 EXP
@@ -104705,9 +104880,9 @@ Mientras esta Investigación Temporal esté activa, los Pokémon con los que te 
 Esta Investigación Temporal estará disponible el 3 de marzo de 2024 de 2 p. m. a 5 p. m. en tu hora local ¡y te desafiará a completar tareas de Investigación de Campo que requieren más encuentros con el Pokémon destacado que hayas elegido!
 
 RESOURCE ID: text_rewards_key_cleffahatchday2024
-TEXT: <b>Las bonificaciones incluyen lo siguiente:</b>
+TEXT: <b>Las bonificaciones incluyen:</b>
 • 2× Polvo Estrella por eclosión
-<b>Las recompensas incluyen las siguientes:</b>
+<b>Las recompensas incluyen:</b>
 • 1 Superincubadora y 1 Fragmento Estrella
 • 2,500 EXP
 
@@ -104738,13 +104913,13 @@ TEXT: <b>Incluye:</b>
 • ¡Y mucho más!
 
 RESOURCE ID: text_rewards_key_falinksraidday
-TEXT: <b>Las bonificaciones incluyen lo siguiente:</b>
+TEXT: <b>Las bonificaciones incluyen:</b>
 • Ocho Pases de Incursión adicionales al girar fotodiscos en Gimnasios
 • Mayor probabilidad de recibir Caramelos Raros XL en incursiones
 • 50 % más EXP y 2× Polvo Estrella por ganar incursiones
 
 RESOURCE ID: text_rewards_key_fashionjan25
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Pose de Pasarela
 • Encuentros con Dragonite con disfraz de la Semana de la Moda, Minccino con disfraz de la Semana de la Moda y Furfrou
 • 3,500 EXP y 3,500 Polvos Estrella
@@ -104856,12 +105031,12 @@ TEXT: <b>Las recompensas incluyen:</b>
 ¡Los Gothita y Phantump encontrados durante el evento, incluyendo los de encuentros de recompensa de esta investigación, tienen más probabilidades de ser brillantes!
 
 RESOURCE ID: text_rewards_key_gobattlemay2024
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • 30,000 Polvos Estrella
 • 3 Caramelos Raros, 3 Caramelos Raros XL y 1 Fragmento Estrella
 
 RESOURCE ID: text_rewards_key_gobattlenov2024
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • 30,000 Polvos Estrella
 • 3 Caramelos Raros, 3 Caramelos Raros XL y 1 Fragmento Estrella
 
@@ -104923,16 +105098,16 @@ TEXT: <b>Las bonificaciones incluyen lo siguiente</b>
 • 1 Fragmento Estrella, 5 Caramelos XL de cada uno de los Ultraentes y 10 Caramelos Cosmog
 
 RESOURCE ID: text_rewards_key_goomycd2024
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Artículos prémium dentro del juego, como Caramelos Raros y Ultrabolas, entre otros
 • Encuentros adicionales con Goomy y sus evoluciones
 
 RESOURCE ID: text_rewards_key_gotourhatch2024
-TEXT: <b>Las bonificaciones incluyen lo siguiente:</b>
+TEXT: <b>Las bonificaciones incluyen:</b>
 • 2× EXP por eclosión
 • 2× Polvo Estrella por eclosión
 • 2× Caramelos por eclosión
-<b>Las recompensas incluyen las siguientes:</b>
+<b>Las recompensas incluyen:</b>
 • Máscara de Pikachu para el avatar
 • Una Superincubadora
 • 4,000 Polvos Estrella
@@ -104952,11 +105127,11 @@ TEXT: <b>Las bonificaciones incluyen:</b>
 • ¡Y más!
 
 RESOURCE ID: text_rewards_key_gotourraid2024
-TEXT: <b>Las bonificaciones incluyen lo siguiente:</b>
+TEXT: <b>Las bonificaciones incluyen:</b>
 • 5,000 EXP adicionales por completar incursiones
 • Un Caramelo adicional en las incursiones 
 • Dos Pases de Incursión adicionales gratuitos al día al girar fotodiscos en Gimnasios
-<b>Las recompensas incluyen lo siguiente:</b>
+<b>Las recompensas incluyen:</b>
 • Una máscara de Eevee para el avatar
 • 5 Caramelos Heatran XL, 5 Caramelos Giratina XL, 5 Caramelos Cresselia XL y 5 Caramelos Darkrai XL
 • 10 Caramelos Dialga y 10 Caramelos Palkia
@@ -104996,7 +105171,7 @@ TEXT: <b>Incluye:</b>• Hasta dos Pases de Incursión cada día al girar fotodi
 Obtén más información sobre las bonificaciones de la entrada <a href="https://pokemongolive.com/gowildarea/global">aquí</a>.
 
 RESOURCE ID: text_rewards_key_gowa24
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Un encuentro con Toxtricity, el Pokémon Punk
 • Hasta 5 Pases de Incursión gratuitos cada día al girar fotodiscos en Gimnasios
 • Mayor probabilidad de que Toxel eclosione de los Huevos de 10 km
@@ -105040,7 +105215,7 @@ TEXT: <b>Las bonificaciones incluyen:</b>
 • 9 Caramelos Raros, 2 Huevos Suerte, 2 Inciensos y 2 Fragmentos Estrella
 
 RESOURCE ID: text_rewards_key_halloween1tr24
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Encuentros con Pokémon del evento, entre los que se incluye un primer vistazo a los nuevos Pokémon disfrazados que debutarán en la segunda parte del evento: Froakie con disfraz de Halloween y Rowlet con disfraz de Halloween
 • Encuentros con Pokémon del evento, como Pikachu con sombrero de bruja, Spiritomb y Morpeko
 • 3× Caramelos por captura
@@ -105049,17 +105224,17 @@ TEXT: <b>Las recompensas incluyen lo siguiente:</b>
 Nota: Si ya has adquirido uno de los overoles de Morpeko en la Tienda de moda, ya no podrás recibir el mismo artículo de nuevo como recompensa de la investigación.
 
 RESOURCE ID: text_rewards_key_halloween2tr24
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Encuentros con los Pokémon del evento, como Pikachu con sombrero de bruja y los siguientes Pokémon con disfraces de Halloween: Vulpix, Gengar, Piplup, Drifblim, Froakie, Pumpkaboo y Rowlet
 
 RESOURCE ID: text_rewards_key_harvest1124
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Encuentros con Smoliv
 • Dos Módulos Señuelo Musgosos, un Incienso y un Huevo Suerte
 •4,000 EXP y 2,000 Polvos Estrella
 
 RESOURCE ID: text_rewards_key_hemisphereholidays1224
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Encuentros con Jynx, Lapras, Sneasel, Snorunt, Vanillite, Cubchoo, Cryogonal, Bergmite y Sandygast 
 • 2 Pases de Combate Prémium
 • 1 Incubadora
@@ -105072,7 +105247,7 @@ TEXT: <b>Incluye:</b>
 • 50% más EXP y 2× Polvo Estrella por ganar incursiones
 
 RESOURCE ID: text_rewards_key_hoopaunboundraidday
-TEXT: <b>Las bonificaciones incluyen lo siguiente:</b>
+TEXT: <b>Las bonificaciones incluyen:</b>
 • Ocho Pases de Incursión adicionales al girar fotodiscos en Gimnasios
 • Mayor probabilidad de recibir Caramelos Raros XL en incursiones
 • 50 % más de EXP y el 2× Polvo Estrella por ganar incursiones
@@ -105123,13 +105298,13 @@ TEXT: <b>Incluye:</b>
 • ¡Y mucho más!
 
 RESOURCE ID: text_rewards_key_lunarny0125
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • 2 Huevos Suerte
 • 1 Incubadora
 • 12,000 EXP
 
 RESOURCE ID: text_rewards_key_mankeycd24
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Artículos prémium dentro del juego, como Caramelos Raros y Ultrabola, entre otros
 • Encuentros adicionales con Mankey y sus evoluciones
 
@@ -105150,26 +105325,26 @@ TEXT: <b>Incluye:</b>
 • ¡Y mucho más!
 
 RESOURCE ID: text_rewards_key_masterball24
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Una Masterbola: una Pokébola que atrapa cualquier Pokémon salvaje y no falla nunca
 • Encuentros con Weezing de Galar, Farfetch’d de Galar, Mr. Mime de Galar y Stunfisk de Galar
 • 18,000 EXP y 10,000 Polvos Estrella
 • Artículos prémium dentro del juego, como Ultrabolas, Bayas Pinia Plateadas y MT de ataque cargado
 
 RESOURCE ID: text_rewards_key_mawileraidday
-TEXT: <b>Las bonificaciones incluyen lo siguiente:</b>
+TEXT: <b>Las bonificaciones incluyen:</b>
 • Ocho Pases de Incursión adicionales al girar fotodiscos en Gimnasios
 • Mayor probabilidad de recibir Caramelos Raros XL en incursiones
 • 50 % más EXP y 2× Polvo Estrella por ganar incursiones
 
 RESOURCE ID: text_rewards_key_maxoutfinale1124
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Encuentros con Passimian, Falinks y Smoliv
 • Pose Decidida
 • 2,500 EXP y 1,000 Polvos Estrella
 
 RESOURCE ID: text_rewards_key_maxoutfinaleraids1124
-TEXT: <b>Las bonificaciones incluyen lo siguiente:</b>
+TEXT: <b>Las bonificaciones incluyen:</b>
 • Cinco Pases de Incursión adicionales al día al girar fotodiscos en Gimnasios
 • Tres Caramelos adicionales al atrapar Pokémon en incursiones de nivel 5
 • Un Caramelo XL adicional al atrapar Pokémon en incursiones de nivel 5
@@ -105196,13 +105371,13 @@ TEXT: <b>Las bonificaciones incluyen:</b>
 • 50 % más EXP y 2× Polvo Estrella por ganar incursiones
 
 RESOURCE ID: text_rewards_key_megagalladeraidday
-TEXT: <b>Las bonificaciones incluyen lo siguiente:</b>
+TEXT: <b>Las bonificaciones incluyen:</b>
 • Ocho Pases de Incursión adicionales al girar fotodiscos en Gimnasios
 • Mayor probabilidad de recibir Caramelos Raros XL en incursiones
 • 50 % más EXP y 2× Polvo Estrella por ganar incursiones
 
 RESOURCE ID: text_rewards_key_megaheracrossraidday
-TEXT: <b>Las bonificaciones incluyen lo siguiente:</b>
+TEXT: <b>Las bonificaciones incluyen:</b>
 • Ocho Pases de Incursión adicionales al girar fotodiscos en Gimnasios
 • Mayor probabilidad de recibir Caramelos Raros XL en incursiones
 • 50 % más EXP y 2× Polvo Estrella por ganar incursiones
@@ -105214,7 +105389,7 @@ TEXT: <b>Las bonificaciones incluyen:</b>
 • 50 % más EXP y 2× Polvo Estrella al ganar incursiones
 
 RESOURCE ID: text_rewards_key_megalucarioraidday24
-TEXT: <b>Las bonificaciones incluyen lo siguiente:</b>
+TEXT: <b>Las bonificaciones incluyen:</b>
 • 13 Pases de Combate adicionales al girar fotodiscos en Gimnasios
 • Mayor probabilidad de obtener Caramelos Raros XL en las incursiones
 • 3× EXP y 2× Polvo Estrella por ganar incursiones
@@ -105233,7 +105408,7 @@ TEXT: <b>Las recompensas incluyen:</b>
 • 60 Ultrabolas, 3 Piedras Unova, 5 Bayas Frambu Doradas, 5 Bayas Pinia Plateadas, 1 Módulo Señuelo, 2 Inciensos ¡y mucho más!
 
 RESOURCE ID: text_rewards_key_monochromeholidaysdec2024
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Encuentros con Wooloo con estilo invernal
 • Sudadera de Wooloo para el avatar
 • 2 Inciensos
@@ -105244,7 +105419,7 @@ TEXT: <b>Las recompensas incluyen lo siguiente:</b>
 RESOURCE ID: text_rewards_key_monthlyticketnov24
 TEXT: Esta entrada te entrega bonificaciones, una Investigación Temporal con 200 Pokémonedas de bonificación y tareas de Investigación de Campo diarias que entregan Pokémonedas adicionales del 3 de noviembre al 2 de diciembre de 2024.
 
-<b>Las bonificaciones incluyen lo siguiente:</b>
+<b>Las bonificaciones incluyen:</b>
 • Una tarea de Investigación de Campo la primera vez que inicias sesión cada día con la que recibirás 20 Pokémonedas
 • 3× EXP por tu primera captura del día y por girar el primer fotodisco del día
 • Abre hasta 50 regalos cada día
@@ -105256,7 +105431,7 @@ Nota: Debes tener tres tareas de Investigación de Campo o menos activas para po
 RESOURCE ID: text_rewards_key_monthlyticketoct24
 TEXT: Esta entrada te entrega bonificaciones, una Investigación Temporal con 200 Pokémonedas de bonificación y tareas de Investigación de Campo diarias que entregan Pokémonedas adicionales del 3 de octubre al 2 de noviembre de 2024.
 
-<b>Las bonificaciones incluyen lo siguiente:</b>
+<b>Las bonificaciones incluyen:</b>
 • Una tarea de Investigación de Campo la primera vez que inicias sesión cada día con la que recibirás 20 Pokémonedas
 • 3× EXP por tu primera captura del día y por girar el primer fotodisco del día
 • Abre hasta 50 regalos cada día
@@ -105268,7 +105443,7 @@ Nota: Debes tener tres tareas de Investigación de Campo o menos activas para po
 RESOURCE ID: text_rewards_key_monthlyticketsept24
 TEXT: Esta entrada te entrega bonificaciones, una Investigación Temporal con 200 Pokémonedas de bonificación y tareas de Investigación de Campo diarias que entregan Pokémonedas adicionales del 3 de septiembre al 2 de octubre de 2024.
 
-<b>Las bonificaciones incluyen lo siguiente:</b>
+<b>Las bonificaciones incluyen:</b>
 • Una tarea de Investigación de Campo la primera vez que inicias sesión cada día con la que recibirás 20 Pokémonedas
 • 3× EXP por tu primera captura del día y por girar el primer fotodisco del día
 • Abre hasta 50 regalos cada día
@@ -105278,25 +105453,31 @@ TEXT: Esta entrada te entrega bonificaciones, una Investigación Temporal con 20
 Nota: Debes tener tres tareas de Investigación de Campo o menos activas para poder recibir la tarea de Investigación de Campo de bonificaciones la primera vez que inicies sesión cada día. Debes canjear la recompensa de 20 Pokémonedas tras completar la tarea para recibirla cada día. Obtén más información sobre las tareas de Investigación de Campo de bonificación <a href="https://niantic.helpshift.com/hc/es/6-pokemon-go/faq/2479-why-does-my-field-research-task-have-a-bonus-tag/">aquí</a>.
 
 RESOURCE ID: text_rewards_key_necrozmafusionraidday
-TEXT: <b>Las bonificaciones incluyen lo siguiente:</b>
+TEXT: <b>Las bonificaciones incluyen:</b>
 • Ocho Pases de Incursión Adicionales al girar fotodiscos en Gimnasios
 • Mayor probabilidad de recibir Caramelos Raros XL en incursiones
 • 50 % más EXP y 2× Polvo Estrella por ganar incursiones
 
 RESOURCE ID: text_rewards_key_nye12302025
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • 3 Pases de Combate Prémium
 • 3 Huevos Suerte
 • Encuentros con los Pokémon del evento, incluyendo Raticate con gorro de fiesta, Pikachu con gorro de copos de nieve, Jigglypuff con cinta, Hoothoot con conjunto de Año Nuevo y Wobbuffet con gorro de fiesta
 •2,025 Polvos Estrella
 
+RESOURCE ID: text_rewards_key_pawprint_20250620
+TEXT: <b>Las recompensas incluyen: </b>
+• Encuentros con Snubbull, Poochyena, Furfrou y Rockruff
+
+ ¡Los Snubbull, Poochyena y Furfrou que aparezcan en los encuentros de recompensa de esta investigación y en el resto de tareas de investigación tienen más probabilidades de ser brillantes!
+
 RESOURCE ID: text_rewards_key_ponytacd24
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Artículos prémium dentro del juego, como Caramelos Raros y Ultrabolas, entre otros
 • Encuentros adicionales con Ponyta, Ponyta de Galar y sus evoluciones
 
 RESOURCE ID: text_rewards_key_poppliocd24_title
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Artículos prémium dentro del juego, como Caramelos Raros y Ultrabolas, entre otros
 • Encuentros adicionales con Popplio y sus evoluciones
 
@@ -105313,7 +105494,7 @@ TEXT: <b>Incluye:</b>
 • 50% más EXP y 2× Polvo Estrella por ganar incursiones
 
 RESOURCE ID: text_rewards_key_psychspec24
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Encuentros con Morelull y Hatenna
 • 15,000 EXP
 • 1 Superincubadora y 1 Fragmento Estrella
@@ -105341,12 +105522,12 @@ TEXT: <b>Las recompensas incluyen:</b>
 • 500 Polvos Estrella
 
 RESOURCE ID: text_rewards_key_sewaddlecd24
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Artículos prémium dentro del juego, como Caramelos Raros y Ultrabolas, entre otros
 • Encuentros adicionales con Sewaddle y sus evoluciones
 
 RESOURCE ID: text_rewards_key_shadowhoohraidday
-TEXT: <b>Las bonificaciones incluyen lo siguiente:</b>
+TEXT: <b>Las bonificaciones incluyen:</b>
 • Ocho Pases de Incursión adicionales al girar fotodiscos en Gimnasios
 • Mayor probabilidad de recibir Caramelos Raros XL en incursiones
 • 50 % más EXP y  2× Polvo Estrella por ganar incursiones
@@ -105383,7 +105564,7 @@ TEXT: <b>Las recompensas incluyen:</b>
 ¡Los Remoraid y Fletchling de los encuentros en las recompensas de esta investigación y del resto de tareas de investigación tienen más probabilidades de ser brillantes!
 
 RESOURCE ID: text_rewards_key_slumberingsands24
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Mochila de Komala para el avatar
 • Encuentros con Komala y Slakoth con visera
 • 10,000 EXP, 2,500 Polvos Estrella, 25 Pokébolas, 2 Bayas Pinia Plateadas, 2 Bayas Frambu Doradas y 1 Fragmento Estrella
@@ -105406,7 +105587,7 @@ TEXT: <b>Las recompensas incluyen:</b>
 • 1 Incubadora, 1 Superincubadora y 20 Caramelos Emolga
 
 RESOURCE ID: text_rewards_key_stldrslv0125
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Encuentros con Rookidee, Weezing de Galar, Azumarill, Jumpluff, Sneasel, Diggersby, Pancham, Inkay y Clodsire
 • 1 MT élite de ataque cargado
 • 20,000 Polvos Estrella
@@ -105429,7 +105610,7 @@ TEXT: <b>Las recompensas incluyen:</b>
 ¡Los Delibird y Skwovet que aparezcan en los encuentros de recompensa de esta investigación y en el resto de tareas de investigación tienen más probabilidades de ser brillantes!
 
 RESOURCE ID: text_rewards_key_takeovermarch24
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Un encuentro con Pawniard
 • 6 Componentes Misteriosos, 1 Superincubadora y 1 Radar Rocket
 
@@ -105441,13 +105622,13 @@ TEXT: <b>Incluye:</b>
 • ¡Y mucho más!
 
 RESOURCE ID: text_rewards_key_ttfinale24
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Encuentros con Ponyta, Lapras y Elekid con accesorios de los Líderes de Equipo
 • 1 Incubadora, 1 Superincubadora, 2 Pases de Combate Prémium, 1 Incienso, 1 Módulo Señuelo y 1 Radar Rocket
 • 10,000 EXP y 5,000 Polvos Estrella
 
 RESOURCE ID: text_rewards_key_tynamocd24
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Artículos prémium dentro del juego, como Caramelos Raros y Ultrabolas, entre otros
 • Encuentros adicionales con Tynamo y sus evoluciones
 
@@ -105458,7 +105639,7 @@ TEXT: <b>Las recompensas incluyen:</b>
 • 2,500 EXP
 
 RESOURCE ID: text_rewards_key_ultraspace24
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Siete encuentros con Mareanie
 • Alas de Naganadel 
 • 4 Pases de Combate Prémium, 15 Ultrabolas, 15 Superbolas, 15 Pokébolas y 1 Huevo Suerte
@@ -105502,7 +105683,7 @@ Durante el evento, los Pokémon que te encuentres en esta Investigación Tempora
 Estas Investigaciones Temporales estará disponible el 19 de octubre de 2024 de 2:00 p. m. a 5:00 p. m. en tu hora local.
 
 RESOURCE ID: text_rewards_key_zarude
-TEXT: <b>Las recompensas incluyen lo siguiente:</b>
+TEXT: <b>Las recompensas incluyen:</b>
 • Un encuentro con Zarude
 • Encuentros con Zigzagoon de Galar, Seedot, Cacnea, Absol y Scraggy
 • 5 Caramelos Raros, 10 Caramelos Zarude, 3 Caramelos Zarude XL
@@ -105649,6 +105830,9 @@ TEXT: Las entradas para la historia de la Investigación Especial "Moviendo el e
 RESOURCE ID: ticket_eevee
 TEXT: Las entradas para una historia de Investigación Especial exclusiva están disponibles en la Tienda
 
+RESOURCE ID: ticket_eevee_cdc
+TEXT: Las entradas para la historia de Investigación Especial "Clásicos del Día de la Comunidad: Eevee" están disponibles en la Tienda
+
 RESOURCE ID: ticket_electabuzz
 TEXT: Las entradas para la historia de la Investigación Especial "Un Electabuzz electrizante" están disponibles en la Tienda
 
@@ -105695,6 +105879,9 @@ TEXT: Entrada para una historia de Investigación Especial disponible en la Tien
 
 RESOURCE ID: ticket_hoppip
 TEXT: Las entradas para la historia de la Investigación Especial "Brincando y saltando" están disponibles en la Tienda
+
+RESOURCE ID: ticket_jangmo_o_cd
+TEXT: Las entradas para la Investigación Especial del Día de la Comunidad de Jangmo-o están disponibles en la Tienda
 
 RESOURCE ID: ticket_larvitar_cdc
 TEXT: Las entradas para la historia de la Investigación Especial "Clásicos del Día de la Comunidad: Dratini" están disponibles en la Tienda
@@ -106508,6 +106695,11 @@ RESOURCE ID: titan_poi_ar_data_no_thanks_button
 TEXT: AHORA NO
 
 RESOURCE ID: titan_poi_ar_data_opt_in_1
+TEXT: Puedes elegir activar esta opción para ayudar a desarrollar la nueva tecnología de mapeo de RA escaneando Poképaradas y Gimnasios, y cargando tus datos de escaneo. No se recoge el sonido en estos escaneos. Si eliges cargar un escaneo, lo compartirás directamente con un servicio de terceros y a este servicio se enviarán datos personales limitados durante la carga. Este servicio usa la información para conocer en 3D los lugares reales, así como tecnologías y servicios relacionados. Puedes seguir informándote sobre la recogida de datos limitada y el uso en la Política de privacidad que se vincula más abajo. Si eliges activar esta función, podrás darte de baja en cualquier momento desactivándola en el menú Ajustes.
+
+Un escaneo cargado con esta función se considera “Contenido de RA” como se define en las Condiciones de servicio. Al cargar un escaneo, aceptas las <a href="terms_of_service_url">Condiciones de servicio</a> y reconoces haber leído la <a href="privacy_policy_url">Política de privacidad</a>.
+
+RESOURCE ID: titan_poi_ar_data_opt_in_1_old
 TEXT: Estamos desarrollando una nueva tecnología de RA y nos encantaría contar con tu ayuda. ¿Te gustaría colaborar con nuestra investigación usando la función Escaneo de Poképaradas para escanear Poképaradas y Gimnasios, y cargar los datos escaneados? Si decides activar esta función, podrás desactivarla en cualquier momento en el menú de Opciones.
 <a href="titan_ar_data_policy_url">Más información</a>.
 
@@ -107228,55 +107420,55 @@ RESOURCE ID: tr_gofest2025_global_earlybird
 TEXT: Investigación Temporal del Festival de GO 2025: Venta anticipada
 
 RESOURCE ID: tr_gofest2025_leadup_articuno_1
-TEXT: Ancients Recovered Premium Timed Research: Fleeting Legends – Galarian Articuno
+TEXT: Investigación Temporal Prémium de Restauración ancestral: Leyendas voladoras (Articuno de Galar)
 
 RESOURCE ID: tr_gofest2025_leadup_articuno_description
-TEXT: Choose this path to pursue Galarian Articuno.
+TEXT: Elige esta opción para investigar a Articuno de Galar.
 
 RESOURCE ID: tr_gofest2025_leadup_articuno_title
-TEXT: Galarian Articuno
+TEXT: Articuno de Galar
 
 RESOURCE ID: tr_gofest2025_leadup_birds
-TEXT: Ancients Recovered Premium Timed Research: Fleeting Legends
+TEXT: Investigación Temporal Prémium de Restauración ancestral: Leyendas voladoras
 
 RESOURCE ID: tr_gofest2025_leadup_gbird_choice
-TEXT: Which of the Galarian legendary bird Pokémon should we seek out?
+TEXT: ¿Qué ave legendaria de Galar deberíamos buscar?
 
 RESOURCE ID: tr_gofest2025_leadup_gbird_choice_00
-TEXT: Which of the Galarian legendary bird Pokémon should we seek out?
+TEXT: ¿Qué ave legendaria de Galar deberíamos buscar?
 
 RESOURCE ID: tr_gofest2025_leadup_giants
-TEXT: Ancients Recovered Timed Research: Legendary Giants
+TEXT: Investigación Temporal de Restauración ancestral: Gigantes legendarios
 
 RESOURCE ID: tr_gofest2025_leadup_moltres_1
-TEXT: Ancients Recovered Premium Timed Research: Fleeting Legends – Galarian Moltres
+TEXT: Investigación Temporal Prémium de Restauración ancestral: Leyendas voladoras (Moltres de Galar)
 
 RESOURCE ID: tr_gofest2025_leadup_moltres_description
-TEXT: Choose this path to pursue Galarian Moltres.
+TEXT: Elige esta opción para investigar a Moltres de Galar.
 
 RESOURCE ID: tr_gofest2025_leadup_moltres_title
-TEXT: Galarian Moltres
+TEXT: Moltres de Galar
 
 RESOURCE ID: tr_gofest2025_leadup_regi_branch_title
-TEXT: Mysterious Symbols
+TEXT: Símbolos misteriosos
 
 RESOURCE ID: tr_gofest2025_leadup_regi_choice
-TEXT: Choose a symbol.
+TEXT: Elige un símbolo.
 
 RESOURCE ID: tr_gofest2025_leadup_regi_choice_00
-TEXT: It looks like the mysterious symbols are connected to Pokémon...
+TEXT: Parece que los símbolos misteriosos están conectados a los Pokémon...
 
 RESOURCE ID: tr_gofest2025_leadup_zapdos_1
-TEXT: Ancients Recovered Premium Timed Research: Fleeting Legends – Galarian Zapdos
+TEXT: Investigación Temporal Prémium de Restauración ancestral: Leyendas voladoras (Zapdos de Galar)
 
 RESOURCE ID: tr_gofest2025_leadup_zapdos_description
-TEXT: Choose this path to pursue Galarian Zapdos.
+TEXT: Elige esta opción para investigar a Zapdos de Galar.
 
 RESOURCE ID: tr_gofest2025_leadup_zapdos_title
-TEXT: Galarian Zapdos
+TEXT: Zapdos de Galar
 
 RESOURCE ID: tr_gofest2025_nj_stream
-TEXT: GO Fest New Jersey Broadcast Bonus Timed Research
+TEXT: Bonificación de Investigación Temporal de la retransmisión del Festival de GO de New Jersey
 
 RESOURCE ID: tr_goruck_backpack
 TEXT: Bonificación de Investigación Temporal de la Mochila GORUCK
@@ -108110,7 +108302,7 @@ RESOURCE ID: training_confirmation
 TEXT: ¿Seguro que quieres entrenar a {0}?
 
 RESOURCE ID: training_goal_has_been_met
-TEXT: {0} met its training goal! Do you want to end Hyper Training?
+TEXT: ¡{0} logró su objetivo! ¿Quieres terminar el Entrenamiento Extremo?
 
 RESOURCE ID: training_round_number
 TEXT: Combate {0}
