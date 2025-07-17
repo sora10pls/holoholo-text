@@ -58,6 +58,12 @@ TEXT: Fai evolvere Graveler di Alola per ottenere un Golem di Alola che conosce 
 RESOURCE ID: bonus_location_background_t1_raid
 TEXT: Esclusivo Sfondo di posizione disponibile per i Pokémon incontrati nei raid di livello uno
 
+RESOURCE ID: bonus_mp_gain_explore
+TEXT: Particelle Dynamax aggiuntive dall’esplorazione
+
+RESOURCE ID: bonus_mp_gain_power_spot
+TEXT: Particelle Dynamax aggiuntive visitando i punti energetici
+
 RESOURCE ID: bonus_space_time_distortion_upcoming
 TEXT: Tieni gli occhi aperti: nei prossimi giorni potrebbero verificarsi dei fenomeni insoliti!
 
@@ -69,6 +75,9 @@ TEXT: Pikachu con stile estivo sta apparendo nei raid di livello uno
 
 RESOURCE ID: bonus_today_1_hr_lure_regular_only
 TEXT: I moduli esca standard durano un’ora
+
+RESOURCE ID: butterfree_gmax_tr_2025_title
+TEXT: Ricerca a tempo premium della giornata Lotte Dynamax dedicata a Butterfree Gigamax
 
 RESOURCE ID: combat_move_attack_transformation
 TEXT: TRASFORMAZIONE!
@@ -128,6 +137,9 @@ al 6 luglio alle 20:00
 RESOURCE ID: event_datetime_range_key_cd_quaxly25
 TEXT: 20 luglio dalle 14:00 alle 17:00 ora locale
 
+RESOURCE ID: event_datetime_range_key_gmaxbutterfree25
+TEXT: 3 agosto dalle 14:00 alle 17:00
+
 RESOURCE ID: event_datetime_range_key_gmaxlapras25
 TEXT: 19 luglio dalle 14:00 alle 17:00
 
@@ -181,6 +193,15 @@ TEXT: Biglietto per la ricerca a tempo premium “Gelati in allegria”
 RESOURCE ID: general1.ticket_cd_quaxly25_title
 TEXT: Biglietto per il Community Day dedicato a Quaxly
 
+RESOURCE ID: general2.ticket.8_gmaxbutterfree25_title
+TEXT: Biglietto per la giornata Lotte Dynamax dedicata a Butterfree Gigamax
+
+RESOURCE ID: gmax_butterfree_lead_up_timed_research
+TEXT: Ricerca a tempo del preludio alla giornata Lotte Dynamax dedicata a Butterfree Gigamax
+
+RESOURCE ID: gmax_butterfree_max_battles
+TEXT: Butterfree Gigamax sta apparendo nelle Lotte Dynamax
+
 RESOURCE ID: gmax_lapras_lead_up_timed_research
 TEXT: Ricerca a tempo del preludio alla giornata Lotte Dynamax dedicata a Lapras Gigamax
 
@@ -198,6 +219,12 @@ TEXT: Se trasferisci questo Pokémon, perderà lo Sfondo di posizione.
 
 RESOURCE ID: invite_recommended_friends_callout
 TEXT: Novità: invita rapidamente gli amici suggeriti!
+
+RESOURCE ID: item_event_ticket_08_desc_gmaxbutterfree25
+TEXT: Un biglietto per accedere ai bonus speciali il 3 agosto 2025 dalle 14:00 alle 17:00 ora locale, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_08_details_gmaxbutterfree25
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso ai bonus speciali il 3 agosto, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_evergreen_desc_9thparty0725
 TEXT: Un biglietto per accedere alla ricerca a tempo premium dedicata alla Festa del 9° anniversario fino al 6 luglio 2025 alle 20:00 ora locale, ovunque ti trovi.
@@ -309,6 +336,12 @@ TEXT: Sfondi di posizione
 RESOURCE ID: location_card_tutorial_message
 TEXT: Hai ricevuto uno Sfondo di posizione. Questi sfondi sono rari e si possono ricevere catturando Pokémon in luoghi particolari. Pronti, partenza... GO! Collezionane un sacco!
 
+RESOURCE ID: max_battle_day_gigantamax_butterfree_event_name
+TEXT: Giornata Lotte Dynamax dedicata a Butterfree Gigamax
+
+RESOURCE ID: max_battle_day_gigantamax_butterfree_ticketed
+TEXT: Bonus del biglietto per la giornata Lotte Dynamax dedicata a Butterfree Gigamax
+
 RESOURCE ID: max_boost.1_description
 TEXT: Un fungo che raddoppia i danni inflitti dai tuoi Pokémon nelle Lotte Dynamax per 30 minuti.
 
@@ -316,10 +349,10 @@ RESOURCE ID: max_boost.3_description
 TEXT: 3 Funghimax. Raddoppiano i danni inflitti dai tuoi Pokémon nelle Lotte Dynamax per 30 minuti.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-07-16T20:44:51.836189+00:00 for it-IT
-at SHA a4fcaa41c6c
-Pipeline 3282319, job 43253950
-Patch from: 0.371.0-SHA-4714bee9-RC3, 0.369.1-SHA-bafdbfb1-RC1
+TEXT: Built at 2025-07-17T21:33:05.884071+00:00 for it-IT
+at SHA fd9a2cc5ac8
+Pipeline 3284139, job 43321823
+Patch from: 0.371.0-SHA-a128ea7f-RC2, 0.369.1-SHA-bafdbfb1-RC1
 
 RESOURCE ID: motor_accessibility_settings_title
 TEXT: Accessibilità motoria
@@ -350,6 +383,9 @@ TEXT: Il Pokémon si trasforma nella sua Forma Spada quando utilizza un attacco 
 
 RESOURCE ID: pokemon_ibfc_name_0681
 TEXT: Forma Spada
+
+RESOURCE ID: quest_power_up_darumaka_plural
+TEXT: Potenzia Darumaka {0} volte
 
 RESOURCE ID: quest_power_up_passimian_plural
 TEXT: Potenzia Passimian {0} volte
@@ -492,11 +528,23 @@ TEXT: <b>Le ricompense includono:</b>
 • Un Pezzo Stella
 • 9.999 unità di polvere di stelle
 
+RESOURCE ID: text_rewards_key_ancientsrecovered_fleetinglegends
+TEXT: <b>Le ricompense includono:</b>
+• Un incontro con un Pokémon a tua scelta tra Articuno di Galar, Zapdos di Galar o Moltres di Galar
+• Un incontro con un Rookidee
+• E altro ancora!
+
 RESOURCE ID: text_rewards_key_cd_quaxly25
 TEXT: <b>Le ricompense includono:</b>
 • Strumenti premium nel gioco come un biglietto lotta premium, una MT attacco caricato e Caramelle Rare
 • Incontri con Quaxly con uno Sfondo speciale
 • E altro ancora!
+
+RESOURCE ID: text_rewards_key_gmaxbutterfree25
+TEXT: <b>Include:</b>
+• Raccogli fino a 4.000 particelle Dynamax al giorno dai punti energetici e dall’esplorazione
+• Doppio dei PE quando porti a termine una Lotta Dynamax con successo
+• Una ricerca a tempo che avrà come ricompensa un Fungomax e 25.000 PE
 
 RESOURCE ID: text_rewards_key_hisuianlilligantraidday
 TEXT: <b>I bonus includono:</b>
@@ -527,6 +575,9 @@ Gli Staryu che incontrerai come ricompensa di questa ricerca e di tutte le altre
 
 RESOURCE ID: ticket_quaxly_cd
 TEXT: I biglietti per la ricerca speciale del Community Day dedicato a Quaxly sono disponibili nel negozio
+
+RESOURCE ID: titan_poi_ar_data_opt_in_1_old
+TEXT: Stiamo sviluppando una nuova tecnologia AR e abbiamo bisogno del tuo aiuto. Ti andrebbe di darci una mano nelle nostre ricerche scansionando i Pokéstop e le Palestre con la funzione scansione Pokéstop per poi condividere i tuoi dati? Se scegli di abilitare questa funzione, potrai disattivarla in qualsiasi momento dalle impostazioni.<a href="titan_ar_data_policy_url">Scopri di più</a>.
 
 RESOURCE ID: title_sampler_tr_emea_road_trip_berlin
 TEXT: Ricerca a tempo di Berlino della campagna “Road trip di Pokémon GO”
