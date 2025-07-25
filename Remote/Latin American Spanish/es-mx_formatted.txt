@@ -13,20 +13,38 @@ TEXT: Pose con Helado
 RESOURCE ID: batch_transfer_unique_location_card_pokemon
 TEXT: {0} Pokémon con un fondo poco común
 
+RESOURCE ID: bonus_blade_bash_boost_01
+TEXT: Increased power for the Behemoth Blade and Behemoth Bash Adventure Effects
+
+RESOURCE ID: bonus_blade_bash_boost_02
+TEXT: Large increase to the power of the Behemoth Blade and Behemoth Bash Adventure Effects
+
+RESOURCE ID: bonus_blade_bash_boost_03
+TEXT: Massive increase to the power of the Behemoth Blade and Behemoth Bash Adventure Effects
+
+RESOURCE ID: bonus_desc_corviknight_iron_head
+TEXT: Evoluciona a Corvisquire para conseguir un Corviknight que conozca el ataque cargado Cabeza de Hierro
+
+RESOURCE ID: bonus_desc_machamp_payback
+TEXT: Evoluciona a Machoke para conseguir un Machamp que conozca el ataque cargado Revancha
+
+RESOURCE ID: bonus_dmax_shiny_chance_increase
+TEXT: Increased chance of encountering Shiny Pokémon in encounters with Dynamax Pokémon
+
 RESOURCE ID: bonus_ee_appearance
 TEXT: Eternamax Eternatus now appearing in special Max Battles
 
 RESOURCE ID: bonus_feature_behemoth_blade_and_behemoth_bash_boost_max
-TEXT: Increased power for Behemoth Blade and Behemoth Bash during Max Battle
+TEXT: Increased power for Behemoth Blade and Behemoth Bash during Max Battles
 
 RESOURCE ID: bonus_feature_behemoth_blade_and_behemoth_bash_boost_max_01
-TEXT: Increase to the power of Behemoth Blade and Behemoth Bash during Max Battle
+TEXT: Increased power for Behemoth Blade and Behemoth Bash during Max Battles
 
 RESOURCE ID: bonus_feature_behemoth_blade_and_behemoth_bash_boost_max_02
-TEXT: Large increase to the power of Behemoth Blade and Behemoth Bash during Max Battle
+TEXT: Large power increase for Behemoth Blade and Behemoth Bash during Max Battle
 
 RESOURCE ID: bonus_feature_behemoth_blade_and_behemoth_bash_boost_max_03
-TEXT: Very large increase to the power of Behemoth Blade and Behemoth Bash during Max Battle
+TEXT: Massive power increase for Behemoth Blade and Behemoth Bash during Max Battles
 
 RESOURCE ID: bonus_feature_gmax_blastoise
 TEXT: Featured this hour: Gigantamax Blastoise
@@ -62,10 +80,10 @@ RESOURCE ID: bonus_feature_gmax_snorlax
 TEXT: Featured this hour: Gigantamax Snorlax
 
 RESOURCE ID: bonus_feature_gmax_toxtricity_amped
-TEXT: Featured this hour: Gigantamax Toxtricity, Amped Form
+TEXT: Featured this hour: Gigantamax Toxtricity (Amped Form)
 
 RESOURCE ID: bonus_feature_gmax_toxtricity_low_key
-TEXT: Featured this hour: Gigantamax Toxtricity, Low Key Form
+TEXT: Featured this hour: Gigantamax Toxtricity (Low Key Form)
 
 RESOURCE ID: bonus_feature_gmax_venusaur
 TEXT: Featured this hour: Gigantamax Venusaur
@@ -103,11 +121,26 @@ TEXT: Mayor número de Partículas Max al explorar
 RESOURCE ID: bonus_mp_gain_power_spot
 TEXT: Mayor número de Partículas Max al visitar Nodos Energéticos
 
+RESOURCE ID: bonus_power_spot_bonus_spawn
+TEXT: Increased chance of encountering Pokémon at Power Spots
+
+RESOURCE ID: bonus_rrp_limit_uncap_max_battle
+TEXT: Sin límite diario para los combates Max remotos
+
+RESOURCE ID: bonus_rrp_limit_uncap_raid_max_battle
+TEXT: Sin límite diario para las incursiones remotas y los combates Max remotos
+
 RESOURCE ID: bonus_skarmory_steel_wing_brave_bird
 TEXT: Skarmory caught will know the Fast Attack Steel Wing and the Charged Attack Brave Bird
 
+RESOURCE ID: bonus_souvenir_ticket_cactus_fruit
+TEXT: Mayor probabilidad de recibir un Boleto deteriorado o una Fruta de Cactus como Souvenir de tu compañero
+
 RESOURCE ID: bonus_spin_poke_ball_increase
 TEXT: Más Pokébolas de lo habitual al girar fotodiscos en Poképaradas y Gimnasios
+
+RESOURCE ID: bonus_stationing_additional_candy
+TEXT: Increased Candy rewards from Pokémon placed at Power Spots
 
 RESOURCE ID: bonus_summer_pikachu_t1_raid
 TEXT: Pikachu con estilo veraniego está apareciendo en las incursiones de nivel 1
@@ -116,25 +149,25 @@ RESOURCE ID: bonus_today_1_hr_lure_regular_only
 TEXT: Los Módulos Señuelo estándar duran 1 hora
 
 RESOURCE ID: bread_890_tutorial_message_0
-TEXT: After defeating Eternamax Eternatus, you will earn extra Eternatus Candy. Eternatus cannot be caught after battle.
+TEXT: Tras derrotar a Eternatus Dinamax Infinito, obtendrás Caramelos Eternatus adicionales. Eternatus no se podrá atrapar tras el combate.
 
 RESOURCE ID: bread_890_tutorial_message_1
-TEXT: You may encounter Eternatus via adventure passes or during special events.
+TEXT: Es posible que te encuentres con Eternatus con Pases de Aventura o durante eventos especiales.
 
 RESOURCE ID: bread_890_tutorial_title_0
-TEXT: Take Down Eternatus
+TEXT: Derrota a Eternatus
 
 RESOURCE ID: bread_890_tutorial_title_1
-TEXT: Encounter Eternatus
+TEXT: Encuentra a Eternatus
 
 RESOURCE ID: bread_more_mp_to_reach_daily_limit
 TEXT: Puedes recolectar {0} PM más hoy
 
 RESOURCE ID: bread_move_upgrade_maxed_boosted
-TEXT: Max+
+TEXT: Máximo+
 
 RESOURCE ID: bread_move_upgrade_unlocked
-TEXT: Unlocked+
+TEXT: Desbloqueada+
 
 RESOURCE ID: bread_mp_cooldown
 TEXT: Vuelve otro día para recolectar más Partículas Max.
@@ -205,22 +238,25 @@ RESOURCE ID: dmax_latios_latias_weekend_timed_research
 TEXT: Investigación Temporal del Fin de Semana de Combates Max de Latias Dinamax y Latios Dinamax
 
 RESOURCE ID: dynamax_cannon_adventure_effect_battle_log
-TEXT: MAX MOVES ARE POWERED UP BY ETERNATUS’S ADVENTURE EFFECT
+TEXT: LOS MOVIMIENTOS MAX SON POTENCIADOS POR EL EFECTO AVENTURA DE ETERNATUS
 
 RESOURCE ID: dynamax_cannon_adventure_effects_mapview_dialog
-TEXT: A surge of power emanates, adding a bonus to Max Moves of your Max Pokémon and Eternatus. Moves at Max Level will receive a significant bonus.
+TEXT: Una ola de poder emana, añadiendo una bonificación a los movimientos Max de tus Pokémon Max y de Eternatus. Los movimientos al nivel máximo recibirán una bonificación considerable.
 
 RESOURCE ID: dynamax_cannon_content
-TEXT: A surge of power emanates for {0}, adding a bonus to Max Moves of your Max Pokémon and Eternatus. Moves at Max Level will receive a significant bonus.
+TEXT: Una ola de poder que emana durante {0}, añadiendo una bonificación a los movimientos Max de tus Pokémon Max y de Eternatus. Los movimientos al nivel máximo recibirán una bonificación considerable.
 
 RESOURCE ID: encounter_pokemon_was_caught_and_contained
-TEXT: The power of {0} was contained!
+TEXT: ¡Se contuvo el poder de {0}!
 
 RESOURCE ID: entering_lightweight_alternate_form
 TEXT: ¡Aegislash cambió a la forma Espada!
 
 RESOURCE ID: entering_lightweight_default_form
 TEXT: ¡Aegislash cambió a la forma Escudo!
+
+RESOURCE ID: error_no_duplicate_pokemon
+TEXT: You can only have one {0}
 
 RESOURCE ID: event_datetime_range_key_adventurewk0729
 TEXT: Del 29 de julio a las 10:00 a. m. al
@@ -242,6 +278,15 @@ RESOURCE ID: event_datetime_range_key_waterfestival_july25
 TEXT: Del 15 de julio a las 10:00 a. m. al 
 20 de julio a las 8:00 p. m.
 
+RESOURCE ID: event_pass_title_max_finale_2025
+TEXT: Pase de GO: Clausura Max
+
+RESOURCE ID: event_pass_title_max_finale_2025_deluxe
+TEXT: Pase de GO Deluxe: Clausura Max
+
+RESOURCE ID: event_pass_title_max_finale_2025_deluxe_and_10
+TEXT: Pase de GO Deluxe: Clausura Max + 10 rangos
+
 RESOURCE ID: event_tag_emea_road_trip
 TEXT: El viaje de Pokémon GO
 
@@ -249,7 +294,7 @@ RESOURCE ID: fast_attack_0_damage_shield_forme
 TEXT: ATAQUES RÁPIDOS EN FORMA ESCUDO: 0 DAÑO
 
 RESOURCE ID: field_effect_bonus
-TEXT: Adventure Effect Bonus
+TEXT: Bonificación de Efecto aventura
 
 RESOURCE ID: form_eternatus_eternamax
 TEXT: Eternamax
@@ -304,6 +349,36 @@ TEXT: Butterfree Gigamax está apareciendo en los combates Max
 
 RESOURCE ID: gmax_lapras_lead_up_timed_research
 TEXT: Preparativos para la Investigación Temporal del Día de Combates Max de Lapras Gigamax
+
+RESOURCE ID: gofest2025_maxfinale_base_track_title
+TEXT: GO Pass: Max Finale
+
+RESOURCE ID: gofest2025_maxfinale_event_duration
+TEXT: August 18 – August 24
+
+RESOURCE ID: gofest2025_maxfinale_event_pass_details_link
+TEXT: For more details, visit the <a href="https://pokemongo.com/gofestmaxfinale">website</a>.
+
+RESOURCE ID: gofest2025_maxfinale_event_pass_title
+TEXT: GO Fest: Max Finale
+
+RESOURCE ID: gofest2025_maxfinale_pass_track_upgrade_header_description
+TEXT: Earn additional rewards and instantly unlock an <b>increased chance to encounter Shiny Pokémon in Dynamax Battles</b>!
+
+RESOURCE ID: gofest2025_maxfinale_premium_track_title
+TEXT: GO Pass Deluxe: Max Finale
+
+RESOURCE ID: gofest2025_maxfinale_upgrade_description
+TEXT: Purchase GO Pass Deluxe: Max Finale to unlock the following rewards!
+
+• A significant amount of Eternatus Candy and Eternatus Candy XL
+• Several encounters with Dynamax Pokémon
+• The Eternatus Helmet avatar item
+• And much more!
+
+Trainers can earn 50 bonus GO Points daily from August 18 to August 22, in addition to the points earned by Pass Tasks. There’s no limit on how many points can be earned during the global event on August 23 and 24!
+
+All encounters in GO Pass: Max Finale will be with Dynamax Pokémon!
 
 RESOURCE ID: hisui_celebration_event_name
 TEXT: Ultrabonificación: Celebración de Hisui
@@ -438,34 +513,34 @@ RESOURCE ID: maxfinale_2025_ep_bonus_title
 TEXT: GO Pass: Max Finale Pass Bonuses
 
 RESOURCE ID: maxfinale_2025_ep_bonus_title_00
-TEXT: GO Pass: Max Finale Bonuses - Tier 1
+TEXT: Tier 1 GO Pass: Max Finale Bonuses
 
 RESOURCE ID: maxfinale_2025_ep_bonus_title_01
-TEXT: GO Pass: Max Finale Bonuses - Tier 2
+TEXT: Tier 2 GO Pass: Max Finale Bonuses
 
 RESOURCE ID: maxfinale_2025_ep_bonus_title_02
-TEXT: GO Pass: Max Finale Bonuses - Tier 3
+TEXT: Tier 3 GO Pass: Max Finale Bonuses
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-07-23T22:41:21.557480+00:00 for es-MX
-at SHA 9e5dc33d591
-Pipeline 3291341, job 43592820
-Patch from: 0.371.0-SHA-ba658d24-RC1, 0.373.0-SHA-09c86a63-RC1
+TEXT: Built at 2025-07-25T22:50:12.488651+00:00 for es-MX
+at SHA 4dfcf3e83e4
+Pipeline 3294959, job 43743143
+Patch from: 0.373.0-SHA-09c86a63-RC1, 0.371.0-SHA-4714bee9-RC3
 
 RESOURCE ID: motor_accessibility_settings_title
 TEXT: Accesibilidad motriz
 
 RESOURCE ID: move_name_0482
-TEXT: Dynamax Cannon
+TEXT: Cañón Dinamax
 
 RESOURCE ID: move_name_0483
-TEXT: Dynamax Cannon
+TEXT: Cañón Dinamax
 
 RESOURCE ID: move_name_0487
 TEXT: Danza Acuática
 
 RESOURCE ID: no_encounter_notification
-TEXT: {0} cannot be caught after the battle.
+TEXT: No se puede atrapar a {0} tras el combate.
 
 RESOURCE ID: num_completed_tasks_label
 TEXT: {0} tareas completadas
@@ -494,14 +569,59 @@ TEXT: Kioto
 RESOURCE ID: prefecture_tokyo
 TEXT: Tokio
 
+RESOURCE ID: quest_catch_galar_starters
+TEXT: Catch {0} Grookey, Scorbunny, or Sobble
+
+RESOURCE ID: quest_catch_pokemon_galar
+TEXT: Catch {0} Pokémon originally discovered in the Galar Region
+
+RESOURCE ID: quest_catch_zacian
+TEXT: Catch a Zacian
+
+RESOURCE ID: quest_catch_zamazenta
+TEXT: Catch a Zamazenta
+
+RESOURCE ID: quest_directive_gmax_win
+TEXT: Win a Gigantamax Battle
+
+RESOURCE ID: quest_directive_t1_dmax_win
+TEXT: Win a one-star Dynamax Battle
+
+RESOURCE ID: quest_directive_t2_t3_dmax_win
+TEXT: Win a two- or three-star Dynamax Battle
+
+RESOURCE ID: quest_directive_t4_t5_dmax_win
+TEXT: Win a four- or five-star Dynamax Battle
+
 RESOURCE ID: quest_power_up_darumaka_plural
 TEXT: Da más poder a Darumaka {0} veces
+
+RESOURCE ID: quest_power_up_fairy_fighting
+TEXT: Power up Fairy- or Fighting-type Pokémon {0} times
 
 RESOURCE ID: quest_power_up_passimian_plural
 TEXT: Da más poder a Passimian {0} veces
 
+RESOURCE ID: quest_raid_t1_win
+TEXT: Win a one-star raid
+
+RESOURCE ID: quest_raid_t3_win
+TEXT: Win a three-star raid
+
 RESOURCE ID: quest_special_dialogue_dmax_ftue_1_3
 TEXT: ¿Por qué no empiezas a recolectar Partículas Max mientras voy investigando estos movimientos?
+
+RESOURCE ID: quest_wcs_anaheim_scav_hunt_00
+TEXT: Spin the Pokémon GO Zone PokéStop
+
+RESOURCE ID: quest_wcs_anaheim_scav_hunt_01
+TEXT: Spin the Pokémon Play Lab PokéStop
+
+RESOURCE ID: quest_wcs_anaheim_scav_hunt_02
+TEXT: Spin the Welcome to Worlds 2025! PokéStop
+
+RESOURCE ID: quest_wcs_anaheim_scav_hunt_03
+TEXT: Spin the Pokémon WCS Arena PokéStop
 
 RESOURCE ID: quests_completed_story_quests_collapsed_header
 TEXT: Completadas ({0})
@@ -604,6 +724,21 @@ TEXT: Pase de GO Deluxe: Septiembre
 RESOURCE ID: settings_hold_to_attack_label
 TEXT: Mantener pulsado para el ataque rápido
 
+RESOURCE ID: special_trade_bonus_expiration
+TEXT: Some aditional Special Trade bonuses will expire.
+
+RESOURCE ID: special_trade_confirm_bonus
+TEXT: You currently have {0} Special Trade left.
+
+RESOURCE ID: special_trade_confirm_bonus_plural
+TEXT: You currently have {0} Special Trades left.
+
+RESOURCE ID: special_trade_per_day_plural
+TEXT: Up to {0} Special Trades per day
+
+RESOURCE ID: special_trade_remaining_select
+TEXT: Special Trades Left: {0}
+
 RESOURCE ID: station_cooldown
 TEXT: Vuelve otro día para recolectar más Partículas Max.
 
@@ -626,7 +761,34 @@ RESOURCE ID: summer_concert_event_name
 TEXT: Concierto estival
 
 RESOURCE ID: surge_and_pokemon_escape
-TEXT: A surge of power pushes you back and {0} escapes!
+TEXT: ¡Una ola de poder te empuja hacia atrás y {0} se escapa!
+
+RESOURCE ID: sweet_swarm_event_name
+TEXT: Dulce enjambre
+
+RESOURCE ID: sweets_swarm_combee_event_name
+TEXT: Dulce enjambre: Combee
+
+RESOURCE ID: sweets_swarm_combee_tr_name
+TEXT: Investigación Temporal de Dulce enjambre: Combee
+
+RESOURCE ID: sweets_swarm_combee_tr_name_1
+TEXT: Investigación Temporal de Dulce enjambre: Combee (1/2)
+
+RESOURCE ID: sweets_swarm_combee_tr_name_2
+TEXT: Investigación Temporal de Dulce enjambre: Combee (2/2)
+
+RESOURCE ID: sweets_swarm_swirlix_event_name
+TEXT: Dulce enjambre: Swirlix
+
+RESOURCE ID: sweets_swarm_swirlix_tr_name
+TEXT: Investigación Temporal de Dulce enjambre: Swirlix
+
+RESOURCE ID: sweets_swarm_swirlix_tr_name_1
+TEXT: Investigación Temporal de Dulce enjambre: Swirlix (1/2)
+
+RESOURCE ID: sweets_swarm_swirlix_tr_name_2
+TEXT: Investigación Temporal de Dulce enjambre: Swirlix (2/2)
 
 RESOURCE ID: text_rewards_key_adventurewk0729
 TEXT: <b>Las recompensas incluyen:</b>
@@ -699,6 +861,21 @@ TEXT: <b>Las recompensas incluyen:</b>
 
 ¡Los Staryu de las recompensas de esta investigación y del resto de tareas de investigación tienen más probabilidades de ser brillantes!
 
+RESOURCE ID: title_bonus_anaheim_greetings
+TEXT: Bonificaciones adicionales de ¡Saludos desde Anaheim!
+
+RESOURCE ID: title_bonus_wcs_2024_champ
+TEXT: Bonificaciones adicionales del Campeonato Mundial Pokémon 2024
+
+RESOURCE ID: title_dark_skies
+TEXT: Cielos oscuros
+
+RESOURCE ID: title_dark_sky_emergence
+TEXT: Entre el cielo oscuro
+
+RESOURCE ID: title_go_fest_max_finale_2025
+TEXT: Festival de GO 2025: Clausura Max
+
 RESOURCE ID: title_sampler_tr_emea_road_trip_berlin
 TEXT: Investigación Temporal de El viaje de Pokémon GO: Berlín
 
@@ -719,6 +896,12 @@ TEXT: Investigación Temporal de El viaje de Pokémon GO: París
 
 RESOURCE ID: title_sampler_tr_emea_road_trip_valencia
 TEXT: Investigación Temporal de El viaje de Pokémon GO: Valencia
+
+RESOURCE ID: title_tr_dark_skies
+TEXT: Investigación Temporal de Cielos oscuros
+
+RESOURCE ID: title_tr_dark_skies_00
+TEXT: Investigación Temporal de Cielos oscuros (1/1)
 
 RESOURCE ID: title_tr_emea_road_trip
 TEXT: Investigación Temporal de El viaje de Pokémon GO
@@ -741,11 +924,53 @@ TEXT: Investigación Temporal de Un viaje Gigamax (4/5)
 RESOURCE ID: title_tr_g_journey_2025_04
 TEXT: Investigación Temporal de Un viaje Gigamax (5/5)
 
+RESOURCE ID: title_tr_go_fest_max_finale_2025
+TEXT: Investigación Temporal del Festival de GO 2025: Clausura Max
+
+RESOURCE ID: title_tr_go_fest_max_finale_2025_00
+TEXT: Investigación Temporal del Festival de GO 2025: Clausura Max (1/2)
+
+RESOURCE ID: title_tr_go_fest_max_finale_2025_01
+TEXT: GO Fest: Max Finale Timed Research (2/2)
+
+RESOURCE ID: title_tr_max_mystery
+TEXT: Bonificación de Investigación Temporal de Misterios Max
+
+RESOURCE ID: title_tr_max_mystery_00
+TEXT: Bonificación de Investigación Temporal de Misterios Max (1/1)
+
+RESOURCE ID: title_tr_wcs_2024_champ
+TEXT: Bonificación de Investigación Temporal del Campeonato Mundial Pokémon 2024
+
+RESOURCE ID: title_tr_wcs_2024_champ_00
+TEXT: Bonificación de Investigación Temporal: Campeonato Mundial Pokémon 2024 (1/2)
+
+RESOURCE ID: title_tr_wcs_2024_champ_01
+TEXT: Bonificación de Investigación Temporal: Campeonato Mundial Pokémon 2024 (2/2)
+
+RESOURCE ID: title_tr_wcs_anaheim_greetings
+TEXT: Bonificación de Investigación Temporal de ¡Saludos desde Anaheim!
+
+RESOURCE ID: title_tr_wcs_anaheim_greetings_00
+TEXT: Bonificación de Investigación Temporal de ¡Saludos desde Anaheim! (1/1)
+
+RESOURCE ID: title_wcs_2025_scavenger_hunt
+TEXT: Búsqueda del tesoro del Campeonato Mundial Pokémon 2025
+
+RESOURCE ID: title_wcs_2025_scavenger_hunt_00
+TEXT: Búsqueda del tesoro del Campeonato Mundial Pokémon 2025 (1/1)
+
+RESOURCE ID: trade_exclusion_reason_friend_reached_daily_limit_temp
+TEXT: Your friend can’t make any more Special Trades today.
+
+RESOURCE ID: trade_exclusion_reason_player_reached_daily_limit_temp
+TEXT: You can’t make any more Special Trades today.
+
 RESOURCE ID: tyrogue_hatch_lead_event_name
 TEXT: Preparativos para el Día de Eclosiones de Tyrogue
 
 RESOURCE ID: use_dynamax_cannon_effect
-TEXT: Max Pokémon and Eternatus receive a bonus to their Max Moves.
+TEXT: Los Pokémon Max y Eternatus reciben una bonificación para sus movimientos Max.
 
 RESOURCE ID: water_festival_july2025_cc_fish
 TEXT: Desafío de Colección del Festival Acuático: Misión pesquera
@@ -758,6 +983,39 @@ TEXT: Desafío de Colección del Festival Acuático: Nadaremos
 
 RESOURCE ID: water_festival_tr_name
 TEXT: Investigación Temporal Prémium de Un helado, una sonrisa
+
+RESOURCE ID: wcs_2025_anaheim_event_title
+TEXT: Campeonato Mundial Pokémon 2025 en Anaheim
+
+RESOURCE ID: wcs_2025_anaheim_event_title_extended
+TEXT: Bonificaciones prolongadas del Campeonato Mundial Pokémon 2025 en Anaheim
+
+RESOURCE ID: wcs_2025_anaheim_irl_event_title
+TEXT: Campeonato Mundial Pokémon 2025 en Anaheim
+
+RESOURCE ID: wcs_2025_anaheim_special_background
+TEXT: Los Pikachu con disfraz encontrados en incursiones y en Investigaciones de Campo pueden tener un fondo de la ubicación de Anaheim
+
+RESOURCE ID: wcs_2025_great_league_tr_path_a
+TEXT: Elige a Lileep
+
+RESOURCE ID: wcs_2025_great_league_tr_path_a_desc
+TEXT: Forma y entrena un equipo Pokémon con Lapras, Sableye y Cradily para la Liga Superbola de la Liga de Combates GO.
+
+RESOURCE ID: wcs_2025_great_league_tr_path_b
+TEXT: Elige a Squirtle
+
+RESOURCE ID: wcs_2025_great_league_tr_path_b_desc
+TEXT: Forma y entrena un equipo Pokémon con Blastoise, Stunfisk y Malamar para la Liga Superbola de la Liga de Combates GO.
+
+RESOURCE ID: wcs_2025_great_league_tr_path_c
+TEXT: Elige a Sentret
+
+RESOURCE ID: wcs_2025_great_league_tr_path_c_desc
+TEXT: Forma y entrena un equipo Pokémon con Furret, Quagsire y Golisopod para la Liga Superbola de la Liga de Combates GO.
+
+RESOURCE ID: wcs_anaheim2025_collection_challenge
+TEXT: Desafío de Colección de Fragantes naranjales
 
 RESOURCE ID: yokohama
 TEXT: 
