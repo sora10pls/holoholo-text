@@ -4,6 +4,9 @@ TEXT: Passe GO : août - tâches quotidiennes
 RESOURCE ID: august_weekly_quests_title
 TEXT: Passe GO : août - tâches hebdomadaires
 
+RESOURCE ID: avatar_bag_pinapberry
+TEXT: Sac Baie Nanana
+
 RESOURCE ID: avatar_hat_eternatus
 TEXT: Casque Éthernatos
 
@@ -266,7 +269,7 @@ RESOURCE ID: bonus_desc_machamp_payback
 TEXT: Faites évoluer Machopeur pour obtenir un Mackogneur connaissant l’Attaque Chargée Représailles
 
 RESOURCE ID: bonus_dmax_shiny_chance_increase
-TEXT: Davantage de chances de rencontrer des Pokémon chromatiques dans les rencontres avec des Pokémon Dynamax
+TEXT: Plus de chances de rencontrer des Pokémon Dynamax chromatiques parmi ceux généralement présents dans les Combats D-Max de niveau un à quatre
 
 RESOURCE ID: bonus_ee_appearance
 TEXT: Éthernatos Infinimax apparaît maintenant dans des Combats Dynamax spéciaux
@@ -326,7 +329,7 @@ RESOURCE ID: bonus_feature_gmax_venusaur
 TEXT: En vedette cette heure : Florizarre Gigamax
 
 RESOURCE ID: bonus_increased_shiny_short
-TEXT: Plus de chances de rencontrer des Pokémon chromatiques.
+TEXT: + de chances de Pokémon chromatiques
 
 RESOURCE ID: bonus_power_spot_bonus_spawn
 TEXT: Davantage de chances de rencontrer des Pokémon aux Sources d’Énergie
@@ -444,6 +447,14 @@ TEXT: Le 9 août de 11h à 17h
 RESOURCE ID: event_datetime_range_key_originraidday
 TEXT: Le 10 août de 11h à 17h
 
+RESOURCE ID: event_datetime_range_key_sunkissedctr0825
+TEXT: Du 25 août à 10h
+au 31 août à 20h
+
+RESOURCE ID: event_datetime_range_key_sunkissedetr0825
+TEXT: Du 25 août à 10h
+au 31 août à 20h
+
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_60
 TEXT: Récompense obtenue au rang 60
 
@@ -480,11 +491,20 @@ TEXT: Ticket pour l’Étude ponctuelle premium de la Semaine Aventure
 RESOURCE ID: general1.ticket._gbw_wcs_aug25_title
 TEXT: Ticket pour l’Étude ponctuelle premium Mondiaux 2025
 
+RESOURCE ID: general1.ticket._gowa24_title
+TEXT: Ticket Terres Sauvages Pokémon GO : Mondial
+
 RESOURCE ID: general1.ticket._munchlax0825_title
 TEXT: Ticket pour l’Étude ponctuelle premium Journée Éclosion Goinfrex
 
 RESOURCE ID: general1.ticket._originraidday_title
 TEXT: Ticket pour la Journée de Raids Originelle
+
+RESOURCE ID: general1.ticket._sunkissedctr0825_title
+TEXT: Ticket pour l’Étude ponctuelle premium Baie chic
+
+RESOURCE ID: general1.ticket._sunkissedetr0825_title
+TEXT: Ticket pour l’Étude ponctuelle premium Rivages ensoleillés
 
 RESOURCE ID: general1.ticket_cd_rookidee25_title
 TEXT: Ticket pour la Journée Communauté de Minisange
@@ -555,6 +575,7 @@ TEXT: Passe GO deluxe : Finale Max
 RESOURCE ID: gofest2025_maxfinale_upgrade_description
 TEXT: Achète le Passe GO deluxe : Finale Max pour déverrouiller les récompenses suivantes !
 
+• Plus de chances de rencontrer des Pokémon Dynamax chromatiques parmi ceux généralement présents dans les Combats D-Max de niveau un à quatre
 • Un nombre important de Bonbons Éthernatos et de Bonbons L Éthernatos
 • Plusieurs rencontres avec des Pokémon Dynamax
 • L’objet pour avatar Casque Éthernatos
@@ -585,6 +606,12 @@ TEXT: Un ticket pour accéder à l’Étude ponctuelle premium Mondiaux 2025 du
 RESOURCE ID: item_event_ticket_evergreen_desc_munchlax0825
 TEXT: Un ticket pour accéder à l’Étude ponctuelle premium Journée Éclosion Goinfrex jusqu’au 9 août 2025 à 17h, heure locale, où que tu sois.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_sunkissedctr0825
+TEXT: Un ticket pour accéder à l’Étude ponctuelle premium Baie chic jusqu’au 31 août 2025 à 20h, heure locale, où que tu sois.
+
+RESOURCE ID: item_event_ticket_evergreen_desc_sunkissedetr0825
+TEXT: Un ticket pour accéder à l’Étude ponctuelle premium Rivages ensoleillés jusqu’au 31 août 2025 à 20h, heure locale, où que tu sois.
+
 RESOURCE ID: item_event_ticket_evergreen_details_adventurewk0729
 TEXT: Ce ticket s’activera automatiquement le 29 juillet pour te donner accès à l’Étude ponctuelle premium de la Semaine Aventure, où que tu sois.
 
@@ -593,6 +620,12 @@ TEXT: Ce ticket s’activera automatiquement le 15 août pour te donner accès 
 
 RESOURCE ID: item_event_ticket_evergreen_details_munchlax0825
 TEXT: Ce ticket s’activera automatiquement le 9 août pour te donner accès à l’Étude ponctuelle premium Journée Éclosion Goinfrex, où que tu sois.
+
+RESOURCE ID: item_event_ticket_evergreen_details_sunkissedctr0825
+TEXT: Ce ticket s’activera automatiquement le 25 août pour te donner accès à l’Étude ponctuelle premium Baie chic, où que tu sois.
+
+RESOURCE ID: item_event_ticket_evergreen_details_sunkissedetr0825
+TEXT: Ce ticket s’activera automatiquement le 25 août pour te donner accès à l’Étude ponctuelle premium Rivages ensoleillés, où que tu sois.
 
 RESOURCE ID: item_event_ticket_gray_desc_originraidday
 TEXT: Un ticket pour accéder à des bonus spéciaux le dimanche 10 août 2025 de 11h à 17h (heures locales), où que tu sois.
@@ -624,38 +657,92 @@ au 12 août à 20h
 RESOURCE ID: item_event_ticket_pink_details_fossil_researchtr2025
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude ponctuelle premium Journée Étude Fossiles le 2 août, où que tu sois.
 
+RESOURCE ID: item_global_event_ticket_desc_gowa24
+TEXT: Un ticket pour accéder à l’Étude spéciale de l’évènement Terres Sauvages Pokémon GO : Mondial, du 23 au 24 novembre 2024, où que tu sois.
+
+RESOURCE ID: item_global_event_ticket_details_gowa24
+TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude spéciale et aux bonus de l’évènement Terres Sauvages Pokémon GO : Mondial le 23 novembre, où que tu sois.
+
 RESOURCE ID: kr_lotteworld_collab_2025_tag
-TEXT: Sweet Spooky World
+TEXT: Monde délicieusement effrayant
 
 RESOURCE ID: kr_lotteworld_collab_2025_themed_park_bonus
-TEXT: Sweet Spooky World – Lotte World Bonus
+TEXT: Monde délicieusement effrayant – Bonus Lotte World
 
 RESOURCE ID: kr_lotteworld_collab_2025_title
-TEXT: Sweet Spooky World
+TEXT: Monde délicieusement effrayant
 
 RESOURCE ID: kr_lotteworld_collab_2025_tr_name
-TEXT: Sweet Spooky World Timed Research
+TEXT: Monde délicieusement effrayant – Étude ponctuelle
 
 RESOURCE ID: kr_lotteworld_collab_2025_tr_name_1
-TEXT: Sweet Spooky World Timed Research (1/4)
+TEXT: Monde délicieusement effrayant – Étude ponctuelle (1/4)
 
 RESOURCE ID: kr_lotteworld_collab_2025_tr_name_2
-TEXT: Sweet Spooky World Timed Research (2/4)
+TEXT: Monde délicieusement effrayant – Étude ponctuelle (2/4)
 
 RESOURCE ID: kr_lotteworld_collab_2025_tr_name_3
-TEXT: Sweet Spooky World Timed Research (3/4)
+TEXT: Monde délicieusement effrayant – Étude ponctuelle (3/4)
 
 RESOURCE ID: kr_lotteworld_collab_2025_tr_name_4
-TEXT: Sweet Spooky World Timed Research (4/4)
+TEXT: Monde délicieusement effrayant – Étude ponctuelle (4/4)
 
 RESOURCE ID: kr_lotteworld_collab_event_raid
-TEXT: Gengar wearing a Spooky Festival costume appearing in raids
+TEXT: Ectoplasma portant un costume du Festival effrayant dans les Raids
 
 RESOURCE ID: kr_lotteworld_collab_photobomb_announcing
-TEXT: Catch Misdreavus via GO Snapshot to complete the Collection Challenge
+TEXT: Attrape Feuforêve via Cliché GO pour terminer le Défi de collection
 
 RESOURCE ID: kr_lotteworld_collab_sep2025_cc
-TEXT: Sweet Spooky World Collection Challenge
+TEXT: Monde délicieusement effrayant – Défi de collection
+
+RESOURCE ID: make_good_origin_dialga_desc
+TEXT: Rencontre : Dialga Originel
+
+RESOURCE ID: make_good_origin_dialga_title_001
+TEXT: Rencontre : 1 Dialga Originel
+
+RESOURCE ID: make_good_origin_palkia_desc
+TEXT: Rencontre : Palkia Originel
+
+RESOURCE ID: make_good_origin_palkia_title_001
+TEXT: Rencontre : 1 Palkia Originel
+
+RESOURCE ID: make_good_origin_palkia_title_002
+TEXT: Rencontre : 2 Palkia Originel
+
+RESOURCE ID: make_good_origin_palkia_title_003
+TEXT: Rencontre : 3 Palkia Originel
+
+RESOURCE ID: make_good_origin_palkia_title_004
+TEXT: Rencontre : 4 Palkia Originel
+
+RESOURCE ID: make_good_origin_palkia_title_005
+TEXT: Rencontre : 5 Palkia Originel
+
+RESOURCE ID: make_good_origin_palkia_title_006
+TEXT: Rencontre : 6 Palkia Originel
+
+RESOURCE ID: make_good_origin_palkia_title_007
+TEXT: Rencontre : 7 Palkia Originel
+
+RESOURCE ID: make_good_orign_dialga_title_002
+TEXT: Rencontre : 2 Dialga Originel
+
+RESOURCE ID: make_good_orign_dialga_title_003
+TEXT: Rencontre : 3 Dialga Originel
+
+RESOURCE ID: make_good_orign_dialga_title_004
+TEXT: Rencontre : 4 Dialga Originel
+
+RESOURCE ID: make_good_orign_dialga_title_005
+TEXT: Rencontre : 5 Dialga Originel
+
+RESOURCE ID: make_good_orign_dialga_title_006
+TEXT: Rencontre : 6 Dialga Originel
+
+RESOURCE ID: make_good_orign_dialga_title_007
+TEXT: Rencontre : 7 Dialga Originel
 
 RESOURCE ID: maxfinale_2025_ep_bonus_title
 TEXT: Bonus du Passe GO : Finale Max
@@ -670,16 +757,16 @@ RESOURCE ID: maxfinale_2025_ep_bonus_title_02
 TEXT: Bonus du Passe GO : Finale Max échelon 3
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-08-12T00:24:01.171495+00:00 for fr-FR
-at SHA eed65239724
-Pipeline 3316123, job 44479314
-Patch from: 0.375.0-SHA-1124c099-RC1, 0.373.2-SHA-2d618a35-RC1
+TEXT: Built at 2025-08-16T01:40:12.668833+00:00 for fr-FR
+at SHA 9c0f64601d9
+Pipeline 3326251, job 44773631
+Patch from: 0.375.0-SHA-efbdf7b6-RC2, 0.373.2-SHA-2d618a35-RC1
 
 RESOURCE ID: minicollect_help_desc_type_bread
-TEXT: Collect Dynamax Pokémon.
+TEXT: Obtiens des Pokémon Dynamax.
 
 RESOURCE ID: minicollect_help_desc_type_dough
-TEXT: Collect Gigantamax Pokémon.
+TEXT: Obtiens des Pokémon Gigamax.
 
 RESOURCE ID: move_name_0482
 TEXT: Canon Dynamax
@@ -709,7 +796,7 @@ RESOURCE ID: photobomb_five_rookidee
 TEXT: Minisange s’introduit 5 fois dans tes Clichés GO
 
 RESOURCE ID: photobomb_three_misdreavus
-TEXT: 3 surprise encounters with Misdreavus in GO Snapshot per day
+TEXT: Feuforêve s’introduit 3 fois par jour dans tes Clichés GO
 
 RESOURCE ID: pokemon_desc_0854_2477
 TEXT: On raconte que ce Pokémon est né lorsqu'une âme esseulée a plongé dans un reste de thé noir froid.
@@ -725,6 +812,114 @@ TEXT: Son goût et son parfum sont très particuliers. Seuls les Dresseurs en le
 
 RESOURCE ID: pokemon_desc_0890_2581
 TEXT: Désormais immense, son noyau émet un pouvoir infini qui déforme l’espace-temps autour de lui.
+
+RESOURCE ID: quest_battle_bug_charge_plural
+TEXT: Use a Bug-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_bug_charge_singular
+TEXT: Use a Bug-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_dark_charge_plural
+TEXT: Use a Dark-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_dark_charge_singular
+TEXT: Use a Dark-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_dragon_charge_plural
+TEXT: Use a Dragon-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_dragon_charge_singular
+TEXT: Use a Dragon-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_electric_charge_plural
+TEXT: Use an Electric-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_electric_charge_singular
+TEXT: Use an Electric-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_fairy_charge_plural
+TEXT: Use a Fairy-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_fairy_charge_singular
+TEXT: Use a Fairy-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_fighting_charge_plural
+TEXT: Use a Fighting-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_fighting_charge_singular
+TEXT: Use a Fighting-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_fire_charge_plural
+TEXT: Use a Fire-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_fire_charge_singular
+TEXT: Use a Fire-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_flying_charge_plural
+TEXT: Use a Flying-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_flying_charge_singular
+TEXT: Use a Flying-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_ghost_charge_plural
+TEXT: Use a Ghost-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_ghost_charge_singular
+TEXT: Use a Ghost-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_grass_charge_plural
+TEXT: Use a Grass-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_grass_charge_singular
+TEXT: Use a Grass-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_ground_charge_plural
+TEXT: Use a Ground-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_ground_charge_singular
+TEXT: Use a Ground-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_ice_charge_plural
+TEXT: Use an Ice-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_ice_charge_singular
+TEXT: Use an Ice-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_normal_charge_plural
+TEXT: Use a Normal-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_normal_charge_singular
+TEXT: Use a Normal-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_poison_charge_plural
+TEXT: Use a Poison-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_poison_charge_singular
+TEXT: Use a Poison-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_psychic_charge_plural
+TEXT: Use a Psychic-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_psychic_charge_singular
+TEXT: Use a Psychic-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_rock_charge_plural
+TEXT: Use a Rock-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_rock_charge_singular
+TEXT: Use a Rock-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_steel_charge_plural
+TEXT: Use a Steel-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_steel_charge_singular
+TEXT: Use a Steel-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_water_charge_plural
+TEXT: Use a Water-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_water_charge_singular
+TEXT: Use a Water-type Charged Attack in a battle
 
 RESOURCE ID: quest_catch_galar_starters
 TEXT: Attrape {0} Ouistempo, Flambino ou Larméléon
@@ -819,35 +1014,38 @@ TEXT: Fais tourner le PokéStop Welcome to Worlds 2025!
 RESOURCE ID: quest_wcs_anaheim_scav_hunt_03
 TEXT: Fais tourner le PokéStop Pokémon WCS Arena
 
+RESOURCE ID: quest_win_raid_lvl1_plural
+TEXT: Gagne {0} Raids de niveau 1
+
 RESOURCE ID: raid_hour_raids_five_shadow
 TEXT: Nombre de Raids obscurs de niveau 5 augmenté
 
 RESOURCE ID: rally_paris_2025_desc
-TEXT: Earn encounters with Charmander by completing the Rally!
+TEXT: Earn encounters with Charmander by completing the rally!
 
 RESOURCE ID: rally_paris_2025_desc_detail
-TEXT: Collect stamps by visiting GO Stamp Rally PokéStops, across a scenic route in the heart of Paris!
+TEXT: Collect stamps by visiting GO Stamp Rally PokéStops on a scenic path in the heart of Paris!
 
 RESOURCE ID: rally_paris_2025_location
 TEXT: Paris, France
 
 RESOURCE ID: rally_paris_2025_rewards_desc
-TEXT: Complete the GO Stamp Rally to earn encounters with Charmander while also collecting enough resources to Mega Evolve into Mega Charizard X or Mega Charizard Y.
+TEXT: Complete this stamp rally to earn encounters with Charmander while also collecting enough Mega Energy to Mega Evolve your Charizard into Mega Charizard X or Mega Charizard Y.
 
 RESOURCE ID: rally_paris_2025_stamp_description_1
-TEXT: This park is the closest to Les Halles, and a great place to relax, or participate in raids. Many trainers regroup there on Community Days due to its accessibility.
+TEXT: This park is the closest to Les Halles, and it’s a great place to relax or take on raids. Many Trainers meet there on Community Days due to its accessibility.
 
 RESOURCE ID: rally_paris_2025_stamp_description_2
-TEXT: Between the Louvre and the Saint-Germain-l'Auxerrois church, this spot offers a great view of Paris, while being close to the Seine river.
+TEXT: Between the Louvre and the Saint-Germain-l’Auxerrois church, this spot offers a great view of Paris by the Seine river.
 
 RESOURCE ID: rally_paris_2025_stamp_description_3
-TEXT: Place Colette is right in front of the "Salle Richelieu", hosting "La Comédie Française", France's most famous theater troupe.
+TEXT: Place Colette is right in front of the Salle Richelieu, which hosts La Comédie-Française, France’s most famous theatre troupe.
 
 RESOURCE ID: rally_paris_2025_stamp_description_4
-TEXT: This chalet is hiding under the Louvre and the Tuileries Garden, inside a mall built within Paris's old walls. You can see the inverted Pyramid of the Louvre, as well as multiple statues too!
+TEXT: This chalet hides under the Louvre and the Jardin des Tuileries, inside a mall built within Paris’s old walls. You can see the inverted pyramid of the Louvre, as well as multiple statues!
 
 RESOURCE ID: rally_paris_2025_stamp_description_5
-TEXT: At the start of Europe's most famous avenue, "Les Champs Élysées", you can visit one of Paris's first parks, laid out by famous achitect and designer, André Le Notre in 1667.
+TEXT: At the start of one of Europe’s most famous avenues, Les Champs-Élysées, you can visit one of Paris’s first parks, laid out by the famous architect and designer André Le Nôtre in 1667.
 
 RESOURCE ID: rally_paris_2025_stamp_description_6
 TEXT: The Westfield mall in Les Halles hosts the Lumiose City tourism hub.
@@ -930,6 +1128,15 @@ TEXT: City Safari: Vancouver 2025 (2/3)
 RESOURCE ID: safari_city_2025_vancouver_title_02
 TEXT: City Safari: Vancouver 2025 (3/3)
 
+RESOURCE ID: season19_finale_cosmetic_tr_name
+TEXT: Étude ponctuelle premium Baie chic
+
+RESOURCE ID: season19_finale_encounter_tr_name
+TEXT: Étude ponctuelle premium Rivages ensoleillés
+
+RESOURCE ID: season19_finale_free_tr_name
+TEXT: Étude ponctuelle Rivages ensoleillés
+
 RESOURCE ID: season_19_tgr_sr_1
 TEXT: Jours heureux : Offensive (1/5)
 
@@ -946,7 +1153,7 @@ RESOURCE ID: season_19_tgr_sr_5
 TEXT: Jours heureux : Offensive (5/5)
 
 RESOURCE ID: shadow_raid_kyogre_event_name
-TEXT: Week-end de Raids obscurs :Kyogre
+TEXT: Week-end de Raids obscurs : Kyogre
 
 RESOURCE ID: spawn_rookidee
 TEXT: Davantage de Minisange apparaissent dans la nature.
@@ -965,6 +1172,9 @@ TEXT: Jusqu’à {0} Échanges spéciaux par jour.
 
 RESOURCE ID: special_trade_remaining_select
 TEXT: Échanges spéciaux restants : {0}
+
+RESOURCE ID: sunkissed_shores_event_name
+TEXT: Rivages ensoleillés
 
 RESOURCE ID: surge_and_pokemon_escape
 TEXT: Une puissance accrue te repousse et {0} s’échappe !
@@ -1025,6 +1235,24 @@ TEXT: <b>Donne accès aux récompenses suivantes :</b>
 • Un passe de combat premium
 • 25 000 Poussières Étoiles
 
+RESOURCE ID: text_rewards_key_gowa24impactedshoptext10.1
+TEXT: Un ticket pour accéder à l’évènement Terres Sauvages Pokémon GO : Mondial, que vous avez reçu en avant-première et gratuitement.
+
+<b>Donne accès aux récompenses suivantes :</b>
+• Une rencontre avec Salarsen, le Pokémon Punk
+• Jusqu’à 5 passes de Raid gratuits chaque jour en faisant tourner les PhotoDisques des Arènes
+• Plus de chances de faire éclore Toxizap des Œufs de 10 km
+• Jusqu’à 6 Échanges spéciaux par jour et un coût en Poussières Étoiles réduit pour les Échanges
+• Distance d’éclosion diminuée de moitié
+• 2 fois plus de Bonbons pour chaque Pokémon attrapé
+• Plus de chances de rencontrer des Pokémon chromatiques pendant l’évènementt
+• Achète le ticket au plus tard le 22 octobre et joue entre les 15 et 22 octobre pour obtenir une Étude ponctuelle offrant l’objet pour avatar Masque Toxizap
+
+Obtiens plus d’informations sur les bonus du ticket <a href="pokemongolive.com/gowildarea/global">ici</a>.
+
+RESOURCE ID: text_rewards_key_gowa24impactedshoptext9.24
+TEXT: Un ticket pour l’évènement Terres Sauvages Pokémon GO : Mondial, que vous avez reçu en avant-première et gratuitement.
+
 RESOURCE ID: text_rewards_key_munchlax0825
 TEXT: <b>Donne accès aux récompenses suivantes :</b>
 • 2 Super-Incubateurs
@@ -1037,6 +1265,20 @@ TEXT: <b>Donne accès aux bonus suivants :</b>
 • Plus de chances de recevoir un Super Bonbon L dans les Combats de Raids
 • 3 fois plus de PX de Raid et 2 fois plus de Poussières Étoiles en remportant des Raids
 • Un Super Bonbon L garanti pour chaque Dialga Originel ou Palkia Originel attrapé
+
+RESOURCE ID: text_rewards_key_sunkissedctr0825
+TEXT: <b>Donne accès aux récompenses suivantes :</b>
+• Des rencontres avec Kokiyas et Ossatueur d'Alola
+• L’objet pour avatar Sac Baie Nanana
+• 15 Super Balls
+• 25 Baies Nanana
+• 4 000 PX et 3 000 Poussières Étoiles
+
+RESOURCE ID: text_rewards_key_sunkissedetr0825
+TEXT: <b>Donne accès aux récompenses suivantes :</b>
+• Des rencontres avec Parecool portant une visière et Oyacata
+• 2 passes de combat premium
+• 3 000 Poussières Étoiles
 
 RESOURCE ID: ticket_rookidee_cd
 TEXT: Ticket pour l’Étude spéciale de la Journée Communauté de Minisange disponible dans la Boutique

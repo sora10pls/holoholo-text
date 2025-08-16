@@ -7,6 +7,9 @@ TEXT: Tareas diarias del Pase de GO: Agosto
 RESOURCE ID: august_weekly_quests_title
 TEXT: Tareas semanales del Pase de GO: Agosto
 
+RESOURCE ID: avatar_bag_pinapberry
+TEXT: Bolso de Baya Pinia
+
 RESOURCE ID: avatar_hat_eternatus
 TEXT: Casco de Eternatus
 
@@ -272,7 +275,7 @@ RESOURCE ID: bonus_diamond_badge_mega_eng
 TEXT: Puedes recibir Megaenergía Tyranitar al girar fotodiscos en Poképaradas y Gimnasios
 
 RESOURCE ID: bonus_dmax_shiny_chance_increase
-TEXT: Mayor probabilidad de encontrar Pokémon brillantes en los encuentros con Pokémon Dinamax
+TEXT: Mayor probabilidad de encontrar Pokémon Dinamax brillantes que normalmente aparecen en Combates Max de nivel 1 al 4
 
 RESOURCE ID: bonus_ee_appearance
 TEXT: Eternatus Dinamax Infinito está apareciendo en combates Max especiales
@@ -332,7 +335,7 @@ RESOURCE ID: bonus_feature_gmax_venusaur
 TEXT: Destacado de la hora: Venusaur Gigamax
 
 RESOURCE ID: bonus_increased_shiny_short
-TEXT: Increased Shiny Pokémon Chance
+TEXT: Más probabilidad de Pokémon brillantes
 
 RESOURCE ID: bonus_pearl_badge_mega_eng
 TEXT: Puedes recibir Megaenergía Salamence al girar fotodiscos en Poképaradas y Gimnasios
@@ -386,7 +389,7 @@ RESOURCE ID: bread_move_upgrade_unlocked
 TEXT: Desbloqueada+
 
 RESOURCE ID: bread_remote_use_rrp_confirmation_no_limits
-TEXT: Max Particles are only used when you win. A Remote Raid Pass will be used when the battle starts.
+TEXT: Las Partículas Max solo se usan cuando ganas. Se usará un Pase de Incursión Remota cuando comience el combate.
 
 RESOURCE ID: buddy_detail_candy
 TEXT: Obtén Caramelos
@@ -468,8 +471,35 @@ TEXT: 9 de agosto de 11:00 a. m. a 5:00 p. m.
 RESOURCE ID: event_datetime_range_key_originraidday
 TEXT: 10 de agosto de 11:00 a. m. a 5:00 p. m.
 
+RESOURCE ID: event_datetime_range_key_sunkissedctr0825
+TEXT: Del 25 de agosto a las 10:00 a. m. al
+31 de agosto a las 8:00 p. m.
+
+RESOURCE ID: event_datetime_range_key_sunkissedetr0825
+TEXT: Del 25 de agosto a las 10:00 a. m. al
+31 de agosto a las 8:00 p. m.
+
+RESOURCE ID: event_pass_micro_action_modal_desc_ab_test_disclaimer
+TEXT: Obtén puntos para aumentar tu rango y desbloquear recompensas. Puedes conseguir puntos completando tareas del Pase o a través de los objetivos que se muestran aquí.
+
+Las recompensas que consigas por completar tareas del Pase se entregarán tan pronto como termines la tarea.
+
+<b>La función Pase de GO está en fase de prueba actualmente, y tanto la versión gratuita como la de pago del Pase de GO y sus recompensas únicamente se pueden obtener y canjear en las regiones del mundo en las que está disponible la prueba.</b>
+
+RESOURCE ID: event_pass_premium_reward_banner_bottom_text_02
+TEXT: Se obtiene en el rango 40
+
+RESOURCE ID: event_pass_premium_reward_banner_bottom_text_50
+TEXT: Se obtiene en el rango 50
+
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_60
-TEXT: Awarded at Rank 60
+TEXT: Se obtiene en el rango 60
+
+RESOURCE ID: event_pass_premium_reward_banner_bottom_text_99
+TEXT: Se obtiene en el rango 99
+
+RESOURCE ID: event_pass_premium_reward_banner_bottom_text_generic_rank
+TEXT: Se obtiene en el rango {0}
 
 RESOURCE ID: event_pass_title_max_finale_2025
 TEXT: Pase de GO: Clausura Max
@@ -507,8 +537,14 @@ TEXT: Forma 10 %
 RESOURCE ID: fossil_research_day_event_name
 TEXT: Día de Investigación de Fósiles
 
+RESOURCE ID: general1.ticket.1_halloween_title
+TEXT: Entrada: Investigación Temporal de Halloween
+
 RESOURCE ID: general1.ticket.2_cozyco25_title
 TEXT: Entrada: Investigación Temporal Prémium de Compañeros acogedores
+
+RESOURCE ID: general1.ticket.2_fairyevent2024_title
+TEXT: Entrada: Sueños deslumbrantes
 
 RESOURCE ID: general1.ticket.2_fossil_researchtr2025_title
 TEXT: Entrada: Investigación Temporal Prémium del Día de Investigación de Fósiles
@@ -524,6 +560,9 @@ TEXT: Una entrada para acceder a las siguientes bonificaciones el sábado 11 de 
 Puedes encontrar más información en las Noticias dentro de la aplicación.
 
 <b>Debes jugar durante las horas especificadas para recibir todas las bonificaciones del evento especial.</b>
+
+RESOURCE ID: general1.ticket.2_halloween_title
+TEXT: Entrada: Investigación Temporal de Yamask
 
 RESOURCE ID: general1.ticket.2_hisuiraid2023_samurott_description
 TEXT: Una entrada para acceder a las siguientes bonificaciones el domingo 3 de diciembre de 2023 de 2 p. m. a 10 p. m. en tu hora local, estés donde estés.
@@ -549,17 +588,77 @@ Puedes encontrar más información en las Noticias dentro de la aplicación.
 
 <b>Debes jugar durante las horas especificadas para recibir todas las bonificaciones del evento especial.</b>
 
+RESOURCE ID: general1.ticket.2_tgrtakejan2024_title
+TEXT: Entrada: Investigación Temporal del Equipo GO Rocket
+
+RESOURCE ID: general1.ticket.4_finalstrike0525_title
+TEXT: Entrada: Investigación Temporal de Estilo Definitivo (Semana de Combates GO)
+
+RESOURCE ID: general1.ticket.4_title
+TEXT: Entrada: Tour de Pokémon GO (Johto)
+
 RESOURCE ID: general1.ticket._adventurewk0729_title
 TEXT: Entrada: Investigación Temporal Prémium de Semana de Aventuras
 
+RESOURCE ID: general1.ticket._aquaticparadise24_title
+TEXT: Entrada: Investigación Temporal de Patipasitos exploradores
+
 RESOURCE ID: general1.ticket._gbw_wcs_aug25_title
 TEXT: Entrada: Investigación Temporal Prémium del Mundial 2025
+
+RESOURCE ID: general1.ticket._gofest2025ver1_title
+TEXT: Entrada: Festival de Pokémon GO 2025 (Global)
+
+RESOURCE ID: general1.ticket._gofestraid24_title
+TEXT: Entrada: Investigación Temporal Prémium de Desde el Ultraespacio
+
+RESOURCE ID: general1.ticket._gowa24_title
+TEXT: Entrada: Área Silvestre de Pokémon GO (Global)
+
+RESOURCE ID: general1.ticket._growtogether24_title
+TEXT: Entrada: Investigación Temporal Prémium de Creciendo juntos
 
 RESOURCE ID: general1.ticket._munchlax0825_title
 TEXT: Entrada: Investigación Temporal Prémium del Día de Eclosiones de Munchlax
 
 RESOURCE ID: general1.ticket._originraidday_title
 TEXT: Entrada: Día de Incursiones de Origen
+
+RESOURCE ID: general1.ticket._shinycelebi24_title
+TEXT: Entrada: Investigación Magistral del El susurro del bosque
+
+RESOURCE ID: general1.ticket._slumberingsands24_title
+TEXT: Entrada: Investigación Temporal Prémium de Arenas relajantes
+
+RESOURCE ID: general1.ticket._spelunkercove24_title
+TEXT: Entrada: Investigación Temporal de Encontronazo playero
+
+RESOURCE ID: general1.ticket._stadiumsights24_title
+TEXT: Entrada: Investigación Temporal de Planeando hacia la victoria
+
+RESOURCE ID: general1.ticket._sunkissedctr0825_title
+TEXT: Entrada: Investigación Temporal Prémium de Baya a la moda
+
+RESOURCE ID: general1.ticket._sunkissedetr0825_title
+TEXT: Entrada: Investigación Temporal Prémium de Costa soleada
+
+RESOURCE ID: general1.ticket._takeovermarch24_title
+TEXT: Entrada: Investigación Temporal del Tras el Equipo GO Rocket
+
+RESOURCE ID: general1.ticket._ultraspace24_title
+TEXT: Entrada: Investigación Temporal de Maravillas del Ultraespacio
+
+RESOURCE ID: general1.ticket.anniversary_bundle_title
+TEXT: Entrada: Investigación Temporal de la Fiesta del 7.º Aniversario
+
+RESOURCE ID: general1.ticket.beachweek2023_title
+TEXT: Entrada: Investigación Temporal del Festival Acuático (Semana de la Playa)
+
+RESOURCE ID: general1.ticket.holiday2022_title
+TEXT: Entrada: Investigación Temporal de Fiestas invernales
+
+RESOURCE ID: general1.ticket.masterwork_sm_title
+TEXT: Entrada: Investigación Magistral de Al cien por 151
 
 RESOURCE ID: general1.ticket.megahoenn_description
 TEXT: Una entrada para acceder a las siguientes bonificaciones el sábado 3 de diciembre de 2022 de 2 p. m. a 10 p. m. en tu hora local, estés donde estés.
@@ -649,6 +748,7 @@ TEXT: Pase de GO Deluxe: Clausura Max
 RESOURCE ID: gofest2025_maxfinale_upgrade_description
 TEXT: ¡Compra el Pase de GO Deluxe: Clausura Max para desbloquear las siguientes recompensas!
 
+• Mayor probabilidad de encontrar Pokémon Dinamax brillantes que normalmente aparecen en Combates Max de nivel 1 al 4
 • Una gran cantidad de Caramelos Eternatus y Caramelos Eternatus XL
 • Montones de encuentros con Pokémon Dinamax
 • El Casco de Eternatus para el avatar 
@@ -659,16 +759,16 @@ Además de los puntos obtenidos en las tareas del Pase, los Entrenadores podrán
 ¡Todos los encuentros del Pase de GO: Clausura Max serán con Pokémon Dinamax!
 
 RESOURCE ID: gofest_2025_finale_deluxe_event_pass_track_unlock_description
-TEXT: Earn additional rewards at each rank.
+TEXT: Obtén recompensas adicionales con cada rango.
 
 RESOURCE ID: gofest_2025_finale_deluxe_event_pass_track_unlock_plus_points_description
-TEXT: Earn additional rewards at each rank and instantly gain 10 ranks.
+TEXT: Obtén recompensas adicionales con cada rango y obtén 10 rangos al instante.
 
 RESOURCE ID: gofest_2025_finale_deluxe_event_pass_track_unlock_plus_points_title
-TEXT: GO Pass Deluxe: Max Finale + 10 Ranks
+TEXT: Pase de GO Deluxe: Clausura Max + 10 rangos
 
 RESOURCE ID: gofest_2025_finale_deluxe_event_pass_track_unlock_title
-TEXT: GO Pass Deluxe: Max Finale
+TEXT: Pase de GO Deluxe: Clausura Max
 
 RESOURCE ID: item_event_ticket_evergreen_desc_adventurewk0729
 TEXT: Una entrada para acceder a la Investigación Temporal Prémium de Semana de Aventuras hasta el 3 de agosto de 2025 a las 8:00 p. m. en tu hora local, estés donde estés.
@@ -679,6 +779,12 @@ TEXT: Una entrada para acceder a la Investigación Temporal Prémium del Mundial
 RESOURCE ID: item_event_ticket_evergreen_desc_munchlax0825
 TEXT: Una entrada para acceder a la Investigación Temporal Prémium del Día de Eclosiones de Munchlax hasta el 9 de agosto de 2025 a las 5:00 p. m. en tu hora local, estés donde estés.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_sunkissedctr0825
+TEXT: Una entrada para acceder a la Investigación Temporal Prémium de Baya a la moda hasta el 31 de agosto de 2025 a las 8:00 p. m. en tu hora local, estés donde estés.
+
+RESOURCE ID: item_event_ticket_evergreen_desc_sunkissedetr0825
+TEXT: Una entrada para acceder a la Investigación Temporal Prémium de Costa soleada hasta el 31 de agosto de 2025 a las 8:00 p. m. en tu hora local, estés donde estés.
+
 RESOURCE ID: item_event_ticket_evergreen_details_adventurewk0729
 TEXT: Esta entrada se activará automáticamente el 29 de julio para darte acceso a la Investigación Temporal Prémium de Semana de Aventuras, estés donde estés.
 
@@ -687,6 +793,12 @@ TEXT: Esta entrada se activará automáticamente el 15 de agosto para darte acce
 
 RESOURCE ID: item_event_ticket_evergreen_details_munchlax0825
 TEXT: Esta entrada se activará automáticamente el 9 de agosto para darte acceso a la Investigación Temporal Prémium del Día de Eclosiones de Munchlax, estés donde estés.
+
+RESOURCE ID: item_event_ticket_evergreen_details_sunkissedctr0825
+TEXT: Esta entrada se activará automáticamente el 25 de agosto para darte acceso a la Investigación Temporal Prémium de Baya a la moda, estés donde estés.
+
+RESOURCE ID: item_event_ticket_evergreen_details_sunkissedetr0825
+TEXT: Esta entrada se activará automáticamente el 25 de agosto para darte acceso a la Investigación Temporal Prémium de Costa soleada, estés donde estés.
 
 RESOURCE ID: item_event_ticket_gray_desc_originraidday
 TEXT: Una entrada para acceder a bonificaciones especiales el domingo 10 de agosto de 2025 de 11:00 a. m. a 5:00 p. m. en tu hora local, estés donde estés.
@@ -754,6 +866,57 @@ TEXT: Catch Misdreavus via GO Snapshot to complete the Collection Challenge
 RESOURCE ID: kr_lotteworld_collab_sep2025_cc
 TEXT: Sweet Spooky World Collection Challenge
 
+RESOURCE ID: make_good_origin_dialga_desc
+TEXT: Encounter: Origin Forme Dialga
+
+RESOURCE ID: make_good_origin_dialga_title_001
+TEXT: Encounter: 1 Origin Forme Dialga
+
+RESOURCE ID: make_good_origin_palkia_desc
+TEXT: Encounter: Origin Forme Palkia
+
+RESOURCE ID: make_good_origin_palkia_title_001
+TEXT: Encounter: 1 Origin Forme Palkia
+
+RESOURCE ID: make_good_origin_palkia_title_002
+TEXT: Encounter: 2 Origin Forme Palkia
+
+RESOURCE ID: make_good_origin_palkia_title_003
+TEXT: Encounter: 3 Origin Forme Palkia
+
+RESOURCE ID: make_good_origin_palkia_title_004
+TEXT: Encounter: 4 Origin Forme Palkia
+
+RESOURCE ID: make_good_origin_palkia_title_005
+TEXT: Encounter: 5 Origin Forme Palkia
+
+RESOURCE ID: make_good_origin_palkia_title_006
+TEXT: Encounter: 6 Origin Forme Palkia
+
+RESOURCE ID: make_good_origin_palkia_title_007
+TEXT: Encounter: 7 Origin Forme Palkia
+
+RESOURCE ID: make_good_orign_dialga_title_002
+TEXT: Encounter: 2 Origin Forme Dialga
+
+RESOURCE ID: make_good_orign_dialga_title_003
+TEXT: Encounter: 3 Origin Forme Dialga
+
+RESOURCE ID: make_good_orign_dialga_title_004
+TEXT: Encounter: 4 Origin Forme Dialga
+
+RESOURCE ID: make_good_orign_dialga_title_005
+TEXT: Encounter: 5 Origin Forme Dialga
+
+RESOURCE ID: make_good_orign_dialga_title_006
+TEXT: Encounter: 6 Origin Forme Dialga
+
+RESOURCE ID: make_good_orign_dialga_title_007
+TEXT: Encounter: 7 Origin Forme Dialga
+
+RESOURCE ID: max_battle_2x_xp
+TEXT: 2× EXP por ganar combates Max
+
 RESOURCE ID: maxfinale_2025_ep_bonus_title
 TEXT: Bonificaciones del Pase de GO: Clausura Max
 
@@ -767,10 +930,10 @@ RESOURCE ID: maxfinale_2025_ep_bonus_title_02
 TEXT: Bonificaciones del Pase de GO: Clausura Max (Nivel 3)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-08-12T00:24:01.171495+00:00 for es-MX
-at SHA eed65239724
-Pipeline 3316123, job 44479314
-Patch from: 0.375.0-SHA-1124c099-RC1, 0.373.2-SHA-2d618a35-RC1
+TEXT: Built at 2025-08-16T01:40:12.668833+00:00 for es-MX
+at SHA 9c0f64601d9
+Pipeline 3326251, job 44773631
+Patch from: 0.375.0-SHA-efbdf7b6-RC2, 0.373.2-SHA-2d618a35-RC1
 
 RESOURCE ID: minicollect_help_desc_type_bread
 TEXT: Collect Dynamax Pokémon.
@@ -836,6 +999,114 @@ TEXT: ¡Ganaste un sorteo para un evento en vivo!
 
 RESOURCE ID: push_gifted_ticket
 TEXT: ¡Recibiste una entrada para un evento en vivo!
+
+RESOURCE ID: quest_battle_bug_charge_plural
+TEXT: Use a Bug-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_bug_charge_singular
+TEXT: Use a Bug-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_dark_charge_plural
+TEXT: Use a Dark-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_dark_charge_singular
+TEXT: Use a Dark-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_dragon_charge_plural
+TEXT: Use a Dragon-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_dragon_charge_singular
+TEXT: Use a Dragon-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_electric_charge_plural
+TEXT: Use an Electric-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_electric_charge_singular
+TEXT: Use an Electric-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_fairy_charge_plural
+TEXT: Use a Fairy-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_fairy_charge_singular
+TEXT: Use a Fairy-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_fighting_charge_plural
+TEXT: Use a Fighting-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_fighting_charge_singular
+TEXT: Use a Fighting-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_fire_charge_plural
+TEXT: Use a Fire-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_fire_charge_singular
+TEXT: Use a Fire-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_flying_charge_plural
+TEXT: Use a Flying-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_flying_charge_singular
+TEXT: Use a Flying-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_ghost_charge_plural
+TEXT: Use a Ghost-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_ghost_charge_singular
+TEXT: Use a Ghost-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_grass_charge_plural
+TEXT: Use a Grass-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_grass_charge_singular
+TEXT: Use a Grass-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_ground_charge_plural
+TEXT: Use a Ground-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_ground_charge_singular
+TEXT: Use a Ground-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_ice_charge_plural
+TEXT: Use an Ice-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_ice_charge_singular
+TEXT: Use an Ice-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_normal_charge_plural
+TEXT: Use a Normal-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_normal_charge_singular
+TEXT: Use a Normal-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_poison_charge_plural
+TEXT: Use a Poison-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_poison_charge_singular
+TEXT: Use a Poison-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_psychic_charge_plural
+TEXT: Use a Psychic-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_psychic_charge_singular
+TEXT: Use a Psychic-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_rock_charge_plural
+TEXT: Use a Rock-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_rock_charge_singular
+TEXT: Use a Rock-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_steel_charge_plural
+TEXT: Use a Steel-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_steel_charge_singular
+TEXT: Use a Steel-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_water_charge_plural
+TEXT: Use a Water-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_water_charge_singular
+TEXT: Use a Water-type Charged Attack in a battle
 
 RESOURCE ID: quest_catch_galar_starters
 TEXT: Atrapa {0} Grookey, Scorbunny o Sobble
@@ -936,35 +1207,38 @@ TEXT: Gira el fotodisco de la Poképarada de Welcome to Worlds 2025
 RESOURCE ID: quest_wcs_anaheim_scav_hunt_03
 TEXT: Gira el fotodisco de la Poképarada de Pokémon WCS Arena
 
+RESOURCE ID: quest_win_raid_lvl1_plural
+TEXT: Gana {0} incursiones de nivel 1
+
 RESOURCE ID: raid_hour_raids_five_shadow
 TEXT: Mayor número de incursiones oscuras de nivel 5
 
 RESOURCE ID: rally_paris_2025_desc
-TEXT: Earn encounters with Charmander by completing the Rally!
+TEXT: Earn encounters with Charmander by completing the rally!
 
 RESOURCE ID: rally_paris_2025_desc_detail
-TEXT: Collect stamps by visiting GO Stamp Rally PokéStops, across a scenic route in the heart of Paris!
+TEXT: Collect stamps by visiting GO Stamp Rally PokéStops on a scenic path in the heart of Paris!
 
 RESOURCE ID: rally_paris_2025_location
 TEXT: Paris, France
 
 RESOURCE ID: rally_paris_2025_rewards_desc
-TEXT: Complete the GO Stamp Rally to earn encounters with Charmander while also collecting enough resources to Mega Evolve into Mega Charizard X or Mega Charizard Y.
+TEXT: Complete this stamp rally to earn encounters with Charmander while also collecting enough Mega Energy to Mega Evolve your Charizard into Mega Charizard X or Mega Charizard Y.
 
 RESOURCE ID: rally_paris_2025_stamp_description_1
-TEXT: This park is the closest to Les Halles, and a great place to relax, or participate in raids. Many trainers regroup there on Community Days due to its accessibility.
+TEXT: This park is the closest to Les Halles, and it’s a great place to relax or take on raids. Many Trainers meet there on Community Days due to its accessibility.
 
 RESOURCE ID: rally_paris_2025_stamp_description_2
-TEXT: Between the Louvre and the Saint-Germain-l'Auxerrois church, this spot offers a great view of Paris, while being close to the Seine river.
+TEXT: Between the Louvre and the Saint-Germain-l’Auxerrois church, this spot offers a great view of Paris by the Seine river.
 
 RESOURCE ID: rally_paris_2025_stamp_description_3
-TEXT: Place Colette is right in front of the "Salle Richelieu", hosting "La Comédie Française", France's most famous theater troupe.
+TEXT: Place Colette is right in front of the Salle Richelieu, which hosts La Comédie-Française, France’s most famous theatre troupe.
 
 RESOURCE ID: rally_paris_2025_stamp_description_4
-TEXT: This chalet is hiding under the Louvre and the Tuileries Garden, inside a mall built within Paris's old walls. You can see the inverted Pyramid of the Louvre, as well as multiple statues too!
+TEXT: This chalet hides under the Louvre and the Jardin des Tuileries, inside a mall built within Paris’s old walls. You can see the inverted pyramid of the Louvre, as well as multiple statues!
 
 RESOURCE ID: rally_paris_2025_stamp_description_5
-TEXT: At the start of Europe's most famous avenue, "Les Champs Élysées", you can visit one of Paris's first parks, laid out by famous achitect and designer, André Le Notre in 1667.
+TEXT: At the start of one of Europe’s most famous avenues, Les Champs-Élysées, you can visit one of Paris’s first parks, laid out by the famous architect and designer André Le Nôtre in 1667.
 
 RESOURCE ID: rally_paris_2025_stamp_description_6
 TEXT: The Westfield mall in Les Halles hosts the Lumiose City tourism hub.
@@ -1047,6 +1321,15 @@ TEXT: City Safari: Vancouver 2025 (2/3)
 RESOURCE ID: safari_city_2025_vancouver_title_02
 TEXT: City Safari: Vancouver 2025 (3/3)
 
+RESOURCE ID: season19_finale_cosmetic_tr_name
+TEXT: Investigación Temporal Prémium de Baya a la moda
+
+RESOURCE ID: season19_finale_encounter_tr_name
+TEXT: Investigación Temporal Prémium de Costa soleada
+
+RESOURCE ID: season19_finale_free_tr_name
+TEXT: Investigación Temporal de Costa soleada
+
 RESOURCE ID: season_19_tgr_sr_1
 TEXT: Días Maravillosos: Invasión (1/5)
 
@@ -1069,19 +1352,19 @@ RESOURCE ID: spawn_rookidee
 TEXT: ¡Están apareciendo más Rookidee salvajes!
 
 RESOURCE ID: special_trade_bonus_expiration
-TEXT: The bonus for additional Special Trades expired.
+TEXT: La bonificación de intercambios especiales adicionales caducó.
 
 RESOURCE ID: special_trade_confirm_bonus
-TEXT: You have {0} Special Trade remaining.
+TEXT: Te queda {0} intercambio especial.
 
 RESOURCE ID: special_trade_confirm_bonus_plural
-TEXT: You have {0} Special Trades remaining.
+TEXT: Te quedan {0} intercambios especiales.
 
 RESOURCE ID: special_trade_per_day_plural
-TEXT: Up to {0} Special Trades per day.
+TEXT: Hasta {0} intercambios especiales al día.
 
 RESOURCE ID: special_trade_remaining_select
-TEXT: Special Trades remaining: {0}
+TEXT: Intercambios especiales restantes: {0}
 
 RESOURCE ID: starpiece.1_description
 TEXT: Fragmento de una bonita gema que te hace ganar 50 % más Polvo Estrella durante 30 minutos.
@@ -1091,6 +1374,9 @@ TEXT: 25 Fragmentos Estrella que te hacen ganar 50 % más Polvo Estrella durante
 
 RESOURCE ID: starpiece.8_description
 TEXT: 8 Fragmentos Estrella que te hacen ganar 50 % más Polvo Estrella durante 30 minutos.
+
+RESOURCE ID: sunkissed_shores_event_name
+TEXT: Costa soleada
 
 RESOURCE ID: surge_and_pokemon_escape
 TEXT: ¡Una ola de poder te empuja hacia atrás y {0} se escapa!
@@ -1167,6 +1453,24 @@ TEXT: <b>Las recompensas incluyen:<b>
 • Encuentros con Lickitung, Lapras, Azumarill, Sableye, Swalot, Claydol, Carbink, Guzzlord y Lokix
 • Un Pase de Combate Prémium
 • 25,000 Polvos Estrella
+
+RESOURCE ID: text_rewards_key_gmaxbutterfree25
+TEXT: <b>Incluye:</b>
+• El límite de recolección de Partículas Max aumenta hasta 4,000 en los Nodos Energéticos y al explorar
+• 2× EXP por ganar combates Max
+• Una Investigación Temporal que tiene como recompensa un Maxihongo y 25,000 EXP
+
+RESOURCE ID: text_rewards_key_gmaxmachamp25
+TEXT: <b>Incluye:</b>
+• El límite de recolección de Partículas Max aumenta hasta 4,000 en los Nodos Energéticos y al explorar
+• 2× EXP por ganar combates Max
+• Una Investigación Temporal que tiene como recompensa un Maxihongo y 25,000 EXP
+
+RESOURCE ID: text_rewards_key_gmaxsnorlax25
+TEXT: <b>Incluye:</b>
+• El límite de recolección de Partículas Max aumenta hasta 4,000 en los Nodos Energéticos y al explorar
+• 2× EXP por ganar combates Max
+• Una Investigación Temporal que tiene como recompensa un Maxihongo y 25,000 EXP
 
 RESOURCE ID: text_rewards_key_gofest2025ver1
 TEXT: <b>Incluye:</b>
@@ -1250,6 +1554,20 @@ TEXT: <b>Las recompensas incluyen:</b>
 • Cinco Pases de Combate Prémium
 • 20 Caramelos Crabrawler
 
+RESOURCE ID: text_rewards_key_sunkissedctr0825
+TEXT: <b>Las recompensas incluyen:<b>
+• Encuentros con Shellder y Marowak de Alola
+• Bolso de Baya Pinia para el avatar
+• 15 Superbolas
+• 25 Bayas Pinia
+•4,000 EXP y 3,000 Polvos Estrella
+
+RESOURCE ID: text_rewards_key_sunkissedetr0825
+TEXT: <b>Las recompensas incluyen:<b>
+• Encuentros con Slakoth con visera y Dondozo
+• 2 Pases de Combate Prémium
+• 3,000 Polvos Estrella
+
 RESOURCE ID: ticket_rookidee_cd
 TEXT: Las entradas para la Investigación Especial del Día de la Comunidad de Rookidee están disponibles en la Tienda
 
@@ -1269,13 +1587,13 @@ RESOURCE ID: title_go_fest_max_finale_2025
 TEXT: Festival de GO 2025: Clausura Max
 
 RESOURCE ID: title_gofest2025_finale_event_pass_daily_bonus_quest
-TEXT: GO Pass: Max Finale Daily Tasks
+TEXT: Tareas diarias del Pase de GO: Clausura Max
 
 RESOURCE ID: title_gofest2025_finale_event_pass_daily_bonus_quest_premium
-TEXT: GO Pass Deluxe: Max Finale Daily Tasks
+TEXT: Tareas diarias del Pase de GO Deluxe: Clausura Max
 
 RESOURCE ID: title_gofest2025_finale_event_pass_hourly_bonus_quest
-TEXT: GO Pass: Max Finale Hourly Tasks
+TEXT: Tareas por hora del Pase de GO: Clausura Max
 
 RESOURCE ID: title_tr_dark_skies
 TEXT: Investigación Temporal de Cielos oscuros
@@ -1320,10 +1638,10 @@ RESOURCE ID: title_wcs_2025_scavenger_hunt_00
 TEXT: Búsqueda del tesoro del Campeonato Mundial Pokémon 2025 (1/1)
 
 RESOURCE ID: trade_exclusion_reason_friend_reached_daily_limit_temp
-TEXT: Your friend can’t make any more Special Trades today.
+TEXT: Tu amistad no puede realizar más intercambios especiales hoy.
 
 RESOURCE ID: trade_exclusion_reason_player_reached_daily_limit_temp
-TEXT: You can’t make any more Special Trades today.
+TEXT: No puedes realizar más intercambios especiales hoy.
 
 RESOURCE ID: use_dynamax_cannon_effect
 TEXT: Los Pokémon Max y Eternatus reciben una bonificación para sus movimientos Max.

@@ -4,6 +4,9 @@ TEXT: ภารกิจรายวันบัตรผาน GO: สิง
 RESOURCE ID: august_weekly_quests_title
 TEXT: ภารกิจรายสัปดาหบัตรผาน GO: สิงหาคม
 
+RESOURCE ID: avatar_bag_pinapberry
+TEXT: กระเปาผลไพน
+
 RESOURCE ID: avatar_hat_eternatus
 TEXT: หมวกกันน็อกมุเก็นไดนา
 
@@ -266,7 +269,7 @@ RESOURCE ID: bonus_desc_machamp_payback
 TEXT: วิวัฒนาการโกริกีเปนไคริกีที่รูทาโจมตีชารจ "เอาคืน"
 
 RESOURCE ID: bonus_dmax_shiny_chance_increase
-TEXT: เพิ่มโอกาสเผชิญหนากับโปเกมอนสีแตกตางจากการเผชิญหนากับโปเกมอนไดแมกซ
+TEXT: โอกาสเพิ่มขึ้นที่จะไดเผชิญหนากับโปเกมอนไดแมกซสีแตกตางที่มักพบในแบตเทิลไดแมกซหนึ่งดาวถึงสี่ดาว
 
 RESOURCE ID: bonus_ee_appearance
 TEXT: มุเก็นไดนา (มุเก็นไดแมกซ) กำลังปรากฏตัวในแบตเทิลแมกซพิเศษ
@@ -326,7 +329,7 @@ RESOURCE ID: bonus_feature_gmax_venusaur
 TEXT: โปเกมอนเดนชั่วโมงนี้: ฟุชิกิบานะกิกะแมกซ
 
 RESOURCE ID: bonus_increased_shiny_short
-TEXT: Increased Shiny Pokémon Chance
+TEXT: เผชิญหนากับโปเกมอนสีแตกตางงายขึ้น
 
 RESOURCE ID: bonus_power_spot_bonus_spawn
 TEXT: เพิ่มโอกาสเผชิญหนากับโปเกมอนที่พาวเวอรสปอต
@@ -368,7 +371,7 @@ RESOURCE ID: bread_move_upgrade_unlocked
 TEXT: ปลดล็อก+
 
 RESOURCE ID: bread_remote_use_rrp_confirmation_no_limits
-TEXT: Max Particles are only used when you win. A Remote Raid Pass will be used when the battle starts.
+TEXT: อนุภาคแมกซจะถูกใชงานเมื่อคุณชนะ สวนบัตรตีบอสระยะไกลจะถูกใชงานเมื่อแบตเทิลเริ่มขึ้น
 
 RESOURCE ID: community_day_rookidee_event_name
 TEXT: คอมมิวนิตี้เดย: โคโคการะ
@@ -447,8 +450,16 @@ TEXT: 9 สิงหาคม เวลา 11:00-17:00 น.
 RESOURCE ID: event_datetime_range_key_originraidday
 TEXT: 10 สิงหาคม เวลา 11:00-17:00 น.
 
+RESOURCE ID: event_datetime_range_key_sunkissedctr0825
+TEXT: 25 สิงหาคม เวลา 10:00 น.
+ถึง 31 สิงหาคม เวลา 20:00 น.
+
+RESOURCE ID: event_datetime_range_key_sunkissedetr0825
+TEXT: 25 สิงหาคม เวลา 10:00 น.
+ถึง 31 สิงหาคม เวลา 20:00 น.
+
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_60
-TEXT: Awarded at Rank 60
+TEXT: ไดรับเมื่อถึงระดับ 60
 
 RESOURCE ID: event_pass_title_max_finale_2025
 TEXT: บัตรผาน GO: ฟนาเลแมกซ
@@ -488,6 +499,12 @@ TEXT: ตั๋วงานวิจัยแบบจำกัดเวลา�
 
 RESOURCE ID: general1.ticket._originraidday_title
 TEXT: ตั๋ววันตีบอสดั้งเดิม
+
+RESOURCE ID: general1.ticket._sunkissedctr0825_title
+TEXT: ตั๋วงานวิจัยแบบจำกัดเวลาพรีเมียม: แตงตัวรับลมรอน
+
+RESOURCE ID: general1.ticket._sunkissedetr0825_title
+TEXT: ตั๋วงานวิจัยแบบจำกัดเวลาพรีเมียม: ชายฝ่งอาบแสง
 
 RESOURCE ID: general1.ticket_cd_rookidee25_title
 TEXT: ตั๋วโคโคการะคอมมิวนิตี้เดย
@@ -586,6 +603,7 @@ TEXT: บัตรผาน GO Deluxe: ฟนาเลแมกซ
 RESOURCE ID: gofest2025_maxfinale_upgrade_description
 TEXT: ซื้อบัตรผาน GO Deluxe: ฟนาเลแมกซเพื่อปลดล็อกรางวัลตอไปนี้!
 
+- โอกาสเพิ่มขึ้นที่จะไดเผชิญหนากับโปเกมอนไดแมกซสีแตกตางที่มักพบในแบตเทิลไดแมกซหนึ่งดาวถึงสี่ดาว
 - ลูกอมและลูกอม XL มุเก็นไดนาจำนวนมาก
 - การเผชิญหนากับโปเกมอนไดแมกซหลายครั้ง
 - ไอเท็มอวาตารหมวกกันน็อกมุเก็นไดนา
@@ -596,16 +614,16 @@ TEXT: ซื้อบัตรผาน GO Deluxe: ฟนาเลแม�
 โปเกมอนที่เผชิญหนาในบัตรผาน GO : ฟนาเลแมกซจะเปนโปเกมอนไดแมกซทั้งหมด
 
 RESOURCE ID: gofest_2025_finale_deluxe_event_pass_track_unlock_description
-TEXT: Earn additional rewards at each rank.
+TEXT: รับรางวัลเพิ่มเติมในแตละระดับ
 
 RESOURCE ID: gofest_2025_finale_deluxe_event_pass_track_unlock_plus_points_description
-TEXT: Earn additional rewards at each rank and instantly gain 10 ranks.
+TEXT: รับรางวัลเพิ่มเติมในแตละระดับ และระดับเพิ่มขึ้น 10 ระดับทันที
 
 RESOURCE ID: gofest_2025_finale_deluxe_event_pass_track_unlock_plus_points_title
-TEXT: GO Pass Deluxe: Max Finale + 10 Ranks
+TEXT: บัตรผาน GO Deluxe: ฟนาเลแมกซ + 10 ระดับ
 
 RESOURCE ID: gofest_2025_finale_deluxe_event_pass_track_unlock_title
-TEXT: GO Pass Deluxe: Max Finale
+TEXT: บัตรผาน GO Deluxe: ฟนาเลแมกซ
 
 RESOURCE ID: item_event_ticket_evergreen_desc_adventurewk0729
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลาพรีเมียม: สัปดาหแหงการผจญภัย
@@ -618,6 +636,14 @@ TEXT: ตั๋วสำหรับเขารวมงานวิจ�
 RESOURCE ID: item_event_ticket_evergreen_desc_munchlax0825
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลาพรีเมียม: วันฟกไขกอนเบะ
 ถึงวันที่ 9 สิงหาคม 2025 เวลา 17:00 น. ตามเวลาทองถิ่นทั่วโลก
+
+RESOURCE ID: item_event_ticket_evergreen_desc_sunkissedctr0825
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลาพรีเมียม: แตงตัวรับลมรอน
+ถึงวันที่ 31 สิงหาคม 2025 เวลา 20:00 น. ตามเวลาทองถิ่นทั่วโลก
+
+RESOURCE ID: item_event_ticket_evergreen_desc_sunkissedetr0825
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลาพรีเมียม: ชายฝ่งอาบแสง
+ถึงวันที่ 31 สิงหาคม 2025 เวลา 20:00 น. ตามเวลาทองถิ่นทั่วโลก
 
 RESOURCE ID: item_event_ticket_evergreen_details_adventurewk0729
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลาพรีเมียม: สัปดาหแหงการผจญภัย
@@ -634,6 +660,18 @@ TEXT: ตั๋วสำหรับเขารวมงานวิจ�
 RESOURCE ID: item_event_ticket_evergreen_details_munchlax0825
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลาพรีเมียม: วันฟกไขกอนเบะ
 ในวันที่ 9 สิงหาคม
+คุณจะสามารถเขารวมไดโดยอัตโนมัติ
+ตามเวลาทองถิ่นทั่วโลก
+
+RESOURCE ID: item_event_ticket_evergreen_details_sunkissedctr0825
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลาพรีเมียม: แตงตัวรับลมรอน
+ในวันที่ 25 สิงหาคม
+คุณจะสามารถเขารวมไดโดยอัตโนมัติ
+ตามเวลาทองถิ่นทั่วโลก
+
+RESOURCE ID: item_event_ticket_evergreen_details_sunkissedetr0825
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลาพรีเมียม: ชายฝ่งอาบแสง
+ในวันที่ 25 สิงหาคม
 คุณจะสามารถเขารวมไดโดยอัตโนมัติ
 ตามเวลาทองถิ่นทั่วโลก
 
@@ -715,6 +753,54 @@ TEXT: Catch Misdreavus via GO Snapshot to complete the Collection Challenge
 RESOURCE ID: kr_lotteworld_collab_sep2025_cc
 TEXT: Sweet Spooky World Collection Challenge
 
+RESOURCE ID: make_good_origin_dialga_desc
+TEXT: Encounter: Origin Forme Dialga
+
+RESOURCE ID: make_good_origin_dialga_title_001
+TEXT: Encounter: 1 Origin Forme Dialga
+
+RESOURCE ID: make_good_origin_palkia_desc
+TEXT: Encounter: Origin Forme Palkia
+
+RESOURCE ID: make_good_origin_palkia_title_001
+TEXT: Encounter: 1 Origin Forme Palkia
+
+RESOURCE ID: make_good_origin_palkia_title_002
+TEXT: Encounter: 2 Origin Forme Palkia
+
+RESOURCE ID: make_good_origin_palkia_title_003
+TEXT: Encounter: 3 Origin Forme Palkia
+
+RESOURCE ID: make_good_origin_palkia_title_004
+TEXT: Encounter: 4 Origin Forme Palkia
+
+RESOURCE ID: make_good_origin_palkia_title_005
+TEXT: Encounter: 5 Origin Forme Palkia
+
+RESOURCE ID: make_good_origin_palkia_title_006
+TEXT: Encounter: 6 Origin Forme Palkia
+
+RESOURCE ID: make_good_origin_palkia_title_007
+TEXT: Encounter: 7 Origin Forme Palkia
+
+RESOURCE ID: make_good_orign_dialga_title_002
+TEXT: Encounter: 2 Origin Forme Dialga
+
+RESOURCE ID: make_good_orign_dialga_title_003
+TEXT: Encounter: 3 Origin Forme Dialga
+
+RESOURCE ID: make_good_orign_dialga_title_004
+TEXT: Encounter: 4 Origin Forme Dialga
+
+RESOURCE ID: make_good_orign_dialga_title_005
+TEXT: Encounter: 5 Origin Forme Dialga
+
+RESOURCE ID: make_good_orign_dialga_title_006
+TEXT: Encounter: 6 Origin Forme Dialga
+
+RESOURCE ID: make_good_orign_dialga_title_007
+TEXT: Encounter: 7 Origin Forme Dialga
+
 RESOURCE ID: maxfinale_2025_ep_bonus_title
 TEXT: โบนัสบัตรผานของบัตรผาน GO: ฟนาเลแมกซ
 
@@ -728,10 +814,10 @@ RESOURCE ID: maxfinale_2025_ep_bonus_title_02
 TEXT: โบนัสบัตรผาน GO: ฟนาเลแมกซ Tier 3
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-08-12T00:24:01.171495+00:00 for th-TH
-at SHA eed65239724
-Pipeline 3316123, job 44479314
-Patch from: 0.375.0-SHA-1124c099-RC1, 0.373.2-SHA-2d618a35-RC1
+TEXT: Built at 2025-08-16T01:40:12.668833+00:00 for th-TH
+at SHA 9c0f64601d9
+Pipeline 3326251, job 44773631
+Patch from: 0.375.0-SHA-efbdf7b6-RC2, 0.373.2-SHA-2d618a35-RC1
 
 RESOURCE ID: minicollect_help_desc_type_bread
 TEXT: Collect Dynamax Pokémon.
@@ -789,6 +875,114 @@ RESOURCE ID: pokemon_desc_0890_2581
 TEXT: มีพลังอันไรขีดจำกัด
 ปลอยออกมาจากแกนกลางที่ขยายยักษ
 จนสามารถบิดเวลารอบ ๆ ได
+
+RESOURCE ID: quest_battle_bug_charge_plural
+TEXT: Use a Bug-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_bug_charge_singular
+TEXT: Use a Bug-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_dark_charge_plural
+TEXT: Use a Dark-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_dark_charge_singular
+TEXT: Use a Dark-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_dragon_charge_plural
+TEXT: Use a Dragon-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_dragon_charge_singular
+TEXT: Use a Dragon-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_electric_charge_plural
+TEXT: Use an Electric-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_electric_charge_singular
+TEXT: Use an Electric-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_fairy_charge_plural
+TEXT: Use a Fairy-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_fairy_charge_singular
+TEXT: Use a Fairy-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_fighting_charge_plural
+TEXT: Use a Fighting-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_fighting_charge_singular
+TEXT: Use a Fighting-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_fire_charge_plural
+TEXT: Use a Fire-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_fire_charge_singular
+TEXT: Use a Fire-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_flying_charge_plural
+TEXT: Use a Flying-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_flying_charge_singular
+TEXT: Use a Flying-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_ghost_charge_plural
+TEXT: Use a Ghost-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_ghost_charge_singular
+TEXT: Use a Ghost-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_grass_charge_plural
+TEXT: Use a Grass-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_grass_charge_singular
+TEXT: Use a Grass-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_ground_charge_plural
+TEXT: Use a Ground-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_ground_charge_singular
+TEXT: Use a Ground-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_ice_charge_plural
+TEXT: Use an Ice-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_ice_charge_singular
+TEXT: Use an Ice-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_normal_charge_plural
+TEXT: Use a Normal-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_normal_charge_singular
+TEXT: Use a Normal-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_poison_charge_plural
+TEXT: Use a Poison-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_poison_charge_singular
+TEXT: Use a Poison-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_psychic_charge_plural
+TEXT: Use a Psychic-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_psychic_charge_singular
+TEXT: Use a Psychic-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_rock_charge_plural
+TEXT: Use a Rock-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_rock_charge_singular
+TEXT: Use a Rock-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_steel_charge_plural
+TEXT: Use a Steel-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_steel_charge_singular
+TEXT: Use a Steel-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_water_charge_plural
+TEXT: Use a Water-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_water_charge_singular
+TEXT: Use a Water-type Charged Attack in a battle
 
 RESOURCE ID: quest_catch_galar_starters
 TEXT: จับซารุโนริ, ฮิบานี หรือเมซซอน {0} ตัว
@@ -884,35 +1078,38 @@ TEXT: หมุนเสาโปเกสต็อปที่ Welcome to World
 RESOURCE ID: quest_wcs_anaheim_scav_hunt_03
 TEXT: หมุนเสาโปเกสต็อปที่ Pokémon WCS Arena
 
+RESOURCE ID: quest_win_raid_lvl1_plural
+TEXT: ชนะตีบอสหนึ่งดาว {0} ครั้ง
+
 RESOURCE ID: raid_hour_raids_five_shadow
 TEXT: เพิ่มจำนวนตีบอสชาโดวหาดาว
 
 RESOURCE ID: rally_paris_2025_desc
-TEXT: Earn encounters with Charmander by completing the Rally!
+TEXT: Earn encounters with Charmander by completing the rally!
 
 RESOURCE ID: rally_paris_2025_desc_detail
-TEXT: Collect stamps by visiting GO Stamp Rally PokéStops, across a scenic route in the heart of Paris!
+TEXT: Collect stamps by visiting GO Stamp Rally PokéStops on a scenic path in the heart of Paris!
 
 RESOURCE ID: rally_paris_2025_location
 TEXT: Paris, France
 
 RESOURCE ID: rally_paris_2025_rewards_desc
-TEXT: Complete the GO Stamp Rally to earn encounters with Charmander while also collecting enough resources to Mega Evolve into Mega Charizard X or Mega Charizard Y.
+TEXT: Complete this stamp rally to earn encounters with Charmander while also collecting enough Mega Energy to Mega Evolve your Charizard into Mega Charizard X or Mega Charizard Y.
 
 RESOURCE ID: rally_paris_2025_stamp_description_1
-TEXT: This park is the closest to Les Halles, and a great place to relax, or participate in raids. Many trainers regroup there on Community Days due to its accessibility.
+TEXT: This park is the closest to Les Halles, and it’s a great place to relax or take on raids. Many Trainers meet there on Community Days due to its accessibility.
 
 RESOURCE ID: rally_paris_2025_stamp_description_2
-TEXT: Between the Louvre and the Saint-Germain-l'Auxerrois church, this spot offers a great view of Paris, while being close to the Seine river.
+TEXT: Between the Louvre and the Saint-Germain-l’Auxerrois church, this spot offers a great view of Paris by the Seine river.
 
 RESOURCE ID: rally_paris_2025_stamp_description_3
-TEXT: Place Colette is right in front of the "Salle Richelieu", hosting "La Comédie Française", France's most famous theater troupe.
+TEXT: Place Colette is right in front of the Salle Richelieu, which hosts La Comédie-Française, France’s most famous theatre troupe.
 
 RESOURCE ID: rally_paris_2025_stamp_description_4
-TEXT: This chalet is hiding under the Louvre and the Tuileries Garden, inside a mall built within Paris's old walls. You can see the inverted Pyramid of the Louvre, as well as multiple statues too!
+TEXT: This chalet hides under the Louvre and the Jardin des Tuileries, inside a mall built within Paris’s old walls. You can see the inverted pyramid of the Louvre, as well as multiple statues!
 
 RESOURCE ID: rally_paris_2025_stamp_description_5
-TEXT: At the start of Europe's most famous avenue, "Les Champs Élysées", you can visit one of Paris's first parks, laid out by famous achitect and designer, André Le Notre in 1667.
+TEXT: At the start of one of Europe’s most famous avenues, Les Champs-Élysées, you can visit one of Paris’s first parks, laid out by the famous architect and designer André Le Nôtre in 1667.
 
 RESOURCE ID: rally_paris_2025_stamp_description_6
 TEXT: The Westfield mall in Les Halles hosts the Lumiose City tourism hub.
@@ -995,6 +1192,15 @@ TEXT: City Safari: Vancouver 2025 (2/3)
 RESOURCE ID: safari_city_2025_vancouver_title_02
 TEXT: City Safari: Vancouver 2025 (3/3)
 
+RESOURCE ID: season19_finale_cosmetic_tr_name
+TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียม: แตงตัวรับลมรอน
+
+RESOURCE ID: season19_finale_encounter_tr_name
+TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียม: ชายฝ่งอาบแสง
+
+RESOURCE ID: season19_finale_free_tr_name
+TEXT: งานวิจัยแบบจำกัดเวลาชายฝ่งอาบแสง
+
 RESOURCE ID: season_19_tgr_sr_1
 TEXT: วันแสนรื่นรมย: ยึดครอง (1/5)
 
@@ -1017,19 +1223,22 @@ RESOURCE ID: spawn_rookidee
 TEXT: โคโคการะปรากฏตัวออกมามากขึ้น!
 
 RESOURCE ID: special_trade_bonus_expiration
-TEXT: The bonus for additional Special Trades expired.
+TEXT: โบนัสแลกเปลี่ยนแบบพิเศษเพิ่มเติมหมดอายุ
 
 RESOURCE ID: special_trade_confirm_bonus
-TEXT: You have {0} Special Trade remaining.
+TEXT: แลกเปลี่ยนแบบพิเศษไดอีก {0} ครั้ง
 
 RESOURCE ID: special_trade_confirm_bonus_plural
-TEXT: You have {0} Special Trades remaining.
+TEXT: แลกเปลี่ยนแบบพิเศษไดอีก {0} ครั้ง
 
 RESOURCE ID: special_trade_per_day_plural
-TEXT: Up to {0} Special Trades per day.
+TEXT: แลกเปลี่ยนแบบพิเศษได {0} ครั้งตอวัน
 
 RESOURCE ID: special_trade_remaining_select
-TEXT: Special Trades remaining: {0}
+TEXT: แลกเปลี่ยนแบบพิเศษคงเหลือ: {0} ครั้ง
+
+RESOURCE ID: sunkissed_shores_event_name
+TEXT: ชายฝ่งอาบแสง
 
 RESOURCE ID: surge_and_pokemon_escape
 TEXT: พลังงานอันรุนแรงผลักคุณออกไป และ{0}ไดหายไปแลว!
@@ -1107,6 +1316,20 @@ TEXT: <b>โบนัสที่จะไดรับ:</b>
 - 3× XP ตีบอสและ 2× สตารดัสตเมื่อตีบอสเสร็จสิ้น
 - การันตีลูกอมประหลาด XL 1 เม็ดจากการจับดีอัลกา (ฟอรมดั้งเดิม) หรือพัลเกีย (ฟอรมดั้งเดิม)
 
+RESOURCE ID: text_rewards_key_sunkissedctr0825
+TEXT: <b>รางวัลที่จะไดรับ:</b>
+- การเผชิญหนากับเชลเดอรและการะการะ (รางอโลลา)
+- ไอเท็มอวาตารกระเปาผลไพน
+- ซูเปอรบอล 15 ลูก
+- ผลไพน 25 ผล
+- 4,000 XP และ 3,000 สตารดัสต
+
+RESOURCE ID: text_rewards_key_sunkissedetr0825
+TEXT: <b>รางวัลที่จะไดรับ:</b>
+- การเผชิญหนากับนามาเคโรสวมหมวกกันแดดและเฮรัชเชอร
+- บัตรแบตเทิลพรีเมียม 2 ใบ
+- 3,000 สตารดัสต
+
 RESOURCE ID: ticket_rookidee_cd
 TEXT: สามารถซื้อตั๋วสำหรับงานวิจัยพิเศษ "โคโคการะคอมมิวนิตี้เดย" ไดที่รานคา
 
@@ -1126,13 +1349,13 @@ RESOURCE ID: title_go_fest_max_finale_2025
 TEXT: GO Fest: ฟนาเลแมกซ
 
 RESOURCE ID: title_gofest2025_finale_event_pass_daily_bonus_quest
-TEXT: GO Pass: Max Finale Daily Tasks
+TEXT: ภารกิจรายวันบัตรผาน GO: ฟนาเลแมกซ
 
 RESOURCE ID: title_gofest2025_finale_event_pass_daily_bonus_quest_premium
-TEXT: GO Pass Deluxe: Max Finale Daily Tasks
+TEXT: ภารกิจรายวันบัตรผาน GO Deluxe: ฟนาเลแมกซ
 
 RESOURCE ID: title_gofest2025_finale_event_pass_hourly_bonus_quest
-TEXT: GO Pass: Max Finale Hourly Tasks
+TEXT: ภารกิจรายชั่วโมงบัตรผาน GO: ฟนาเลแมกซ
 
 RESOURCE ID: title_tr_dark_skies
 TEXT: งานวิจัยแบบจำกัดเวลานภาทะมึน
@@ -1177,10 +1400,10 @@ RESOURCE ID: title_wcs_2025_scavenger_hunt_00
 TEXT: 2025 Pokémon World Championships: เกมลาสมบัติ (1/1)
 
 RESOURCE ID: trade_exclusion_reason_friend_reached_daily_limit_temp
-TEXT: Your friend can’t make any more Special Trades today.
+TEXT: วันนี้เพื่อนของคุณถึงขีดจำกัดสูงสุดแลว จึงไมสามารถแลกเปลี่ยนแบบพิเศษได
 
 RESOURCE ID: trade_exclusion_reason_player_reached_daily_limit_temp
-TEXT: You can’t make any more Special Trades today.
+TEXT: แลกเปลี่ยนแบบพิเศษถึงขีดจำกัดสูงสุดแลว
 
 RESOURCE ID: use_dynamax_cannon_effect
 TEXT: ความแรงของทาแมกซของโปเกมอนแมกซและมุเก็นไดนาเพิ่มขึ้น

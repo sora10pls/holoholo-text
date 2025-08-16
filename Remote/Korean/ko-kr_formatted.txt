@@ -4,6 +4,9 @@ TEXT: GO패스: 8월 데일리 태스크
 RESOURCE ID: august_weekly_quests_title
 TEXT: GO패스: 8월 위클리 태스크
 
+RESOURCE ID: avatar_bag_pinapberry
+TEXT: 파인열매 가방
+
 RESOURCE ID: avatar_hat_eternatus
 TEXT: 무한다이노 머리 장식
 
@@ -266,7 +269,7 @@ RESOURCE ID: bonus_desc_machamp_payback
 TEXT: 근육몬를 괴력몬으로 진화시키면 스페셜 어택 보복을 배운다
 
 RESOURCE ID: bonus_dmax_shiny_chance_increase
-TEXT: 다이맥스 포켓몬과의 만남에서 색이 다른 포켓몬일 확률 증가
+TEXT: 별1~별4 다이맥스 배틀에서 색이 다른 다이맥스 포켓몬과 만날 확률 증가
 
 RESOURCE ID: bonus_ee_appearance
 TEXT: 무한다이노(무한다이맥스)가 특별한 맥스배틀에 출현 중
@@ -326,7 +329,7 @@ RESOURCE ID: bonus_feature_gmax_venusaur
 TEXT: 현재 주목하는 포켓몬: 거다이맥스 이상해꽃
 
 RESOURCE ID: bonus_increased_shiny_short
-TEXT: Increased Shiny Pokémon Chance
+TEXT: 색이 다른 포켓몬과 만날 확률 증가
 
 RESOURCE ID: bonus_power_spot_bonus_spawn
 TEXT: 파워스폿에서 포켓몬과 만날 확률 증가
@@ -368,7 +371,7 @@ RESOURCE ID: bread_move_upgrade_unlocked
 TEXT: 잠금 해제+
 
 RESOURCE ID: bread_remote_use_rrp_confirmation_no_limits
-TEXT: Max Particles are only used when you win. A Remote Raid Pass will be used when the battle starts.
+TEXT: 맥스 파티클은 배틀 승리시 사용되며, 리모트 레이드패스는 배틀 시작시에 사용됩니다.
 
 RESOURCE ID: community_day_rookidee_event_name
 TEXT: 커뮤니티 데이: 파라꼬
@@ -444,8 +447,16 @@ TEXT: 8월 9일11시～17시
 RESOURCE ID: event_datetime_range_key_originraidday
 TEXT: 8월 10일 11시~17시
 
+RESOURCE ID: event_datetime_range_key_sunkissedctr0825
+TEXT: 8월 25일 10시 ~ 
+8월 31일 20시
+
+RESOURCE ID: event_datetime_range_key_sunkissedetr0825
+TEXT: 8월 25일 10시 ~ 
+8월 31일 20시
+
 RESOURCE ID: event_pass_premium_reward_banner_bottom_text_60
-TEXT: Awarded at Rank 60
+TEXT: 랭크60에서 받는다
 
 RESOURCE ID: event_pass_title_max_finale_2025
 TEXT: GO패스: 맥스 피날레
@@ -488,6 +499,12 @@ TEXT: 먹고자 부화데이 프리미엄 시간제한 리서치 티켓
 
 RESOURCE ID: general1.ticket._originraidday_title
 TEXT: 오리진 레이드 데이 티켓
+
+RESOURCE ID: general1.ticket._sunkissedctr0825_title
+TEXT: 여름의 모습 프리미엄 시간제한 리서치 티켓
+
+RESOURCE ID: general1.ticket._sunkissedetr0825_title
+TEXT: 햇살 가득한 해변 프리미엄 시간제한 리서치 티켓
 
 RESOURCE ID: general1.ticket_cd_rookidee25_title
 TEXT: 파라꼬 커뮤니티 데이 티켓
@@ -558,6 +575,7 @@ TEXT: GO패스 디럭스: 맥스 피날레
 RESOURCE ID: gofest2025_maxfinale_upgrade_description
 TEXT: GO패스 디럭스: 맥스 피날레'를 구매하면 다음 리워드를 받을 수 있습니다!
 
+- 별1~별4 다이맥스 배틀에서 색이 다른 다이맥스 포켓몬과 만날 확률 증가
 - 다량의 '무한다이노의 사탕'과 '사탕 X'L
 - 다이맥스한 포켓몬과 몇번의 만남
 - 의상 아이템의 '무한다이노 머리 장식'
@@ -568,16 +586,16 @@ TEXT: GO패스 디럭스: 맥스 피날레'를 구매하면 다음 리워드를 
 'GO패스: 맥스 피날레' 사용으로 만날 수 있는 포켓몬은 모두 다이맥스한 포켓몬입니다.
 
 RESOURCE ID: gofest_2025_finale_deluxe_event_pass_track_unlock_description
-TEXT: Earn additional rewards at each rank.
+TEXT: 랭크마다 추가 리워드를 받을 수 있습니다.
 
 RESOURCE ID: gofest_2025_finale_deluxe_event_pass_track_unlock_plus_points_description
-TEXT: Earn additional rewards at each rank and instantly gain 10 ranks.
+TEXT: 랭크마다 받을 수 있는 추가 리워드에 덧붙여 10랭크 상승할 수 있습니다.
 
 RESOURCE ID: gofest_2025_finale_deluxe_event_pass_track_unlock_plus_points_title
-TEXT: GO Pass Deluxe: Max Finale + 10 Ranks
+TEXT: GO패스 디럭스: 맥스 피날레 +10랭크
 
 RESOURCE ID: gofest_2025_finale_deluxe_event_pass_track_unlock_title
-TEXT: GO Pass Deluxe: Max Finale
+TEXT: GO패스 디럭스: 맥스 피날레
 
 RESOURCE ID: item_event_ticket_evergreen_desc_adventurewk0729
 TEXT: 현지시간 2025년 8월 3일 20시까지 어드벤처 위크 프리미엄 시간제한 리서치를 진행할 수 있는 티켓.
@@ -588,6 +606,12 @@ TEXT: 현지시간 2025년 8월 15일 10시 ~ 8월 17일 20시에 'WCS2025 프�
 RESOURCE ID: item_event_ticket_evergreen_desc_munchlax0825
 TEXT: 현지시간 2025년 8월 9일 17시까지 먹고자 부화데이 프리미엄 시간제한 리서치를 진행할 수 있는 티켓.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_sunkissedctr0825
+TEXT: 현지시간 2025년 8월 31일 20시까지 여름의 모습 프리미엄 시간제한 리서치를 진행할 수 있는 티켓.
+
+RESOURCE ID: item_event_ticket_evergreen_desc_sunkissedetr0825
+TEXT: 현지시간 2025년 8월 31일 20시까지 햇살 가득한 해변 프리미엄 시간제한 리서치를 진행할 수 있는 티켓.
+
 RESOURCE ID: item_event_ticket_evergreen_details_adventurewk0729
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2025년 7월 29일에 어드벤처 위크 프리미엄 시간제한 리서치를 손에 넣을 수 있습니다.
 
@@ -596,6 +620,12 @@ TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2025년 8월 15일
 
 RESOURCE ID: item_event_ticket_evergreen_details_munchlax0825
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2025년 8월 9일에 먹고자 부화데이 프리미엄 시간제한 리서치를 손에 넣을 수 있습니다.
+
+RESOURCE ID: item_event_ticket_evergreen_details_sunkissedctr0825
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2025년 8월 25일에 여름의 모습 프리미엄 시간제한 리서치를 손에 넣을 수 있습니다.
+
+RESOURCE ID: item_event_ticket_evergreen_details_sunkissedetr0825
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 년 8월 25일에 햇살 가득한 해변 프리미엄 시간제한 리서치를 손에 넣을 수 있습니다.
 
 RESOURCE ID: item_event_ticket_gray_desc_originraidday
 TEXT: 현지 시간 2025년 8월 10일 11시~ 17시에 보너스를 받기 위한 티켓.
@@ -660,6 +690,54 @@ TEXT: Catch Misdreavus via GO Snapshot to complete the Collection Challenge
 RESOURCE ID: kr_lotteworld_collab_sep2025_cc
 TEXT: Sweet Spooky World Collection Challenge
 
+RESOURCE ID: make_good_origin_dialga_desc
+TEXT: Encounter: Origin Forme Dialga
+
+RESOURCE ID: make_good_origin_dialga_title_001
+TEXT: Encounter: 1 Origin Forme Dialga
+
+RESOURCE ID: make_good_origin_palkia_desc
+TEXT: Encounter: Origin Forme Palkia
+
+RESOURCE ID: make_good_origin_palkia_title_001
+TEXT: Encounter: 1 Origin Forme Palkia
+
+RESOURCE ID: make_good_origin_palkia_title_002
+TEXT: Encounter: 2 Origin Forme Palkia
+
+RESOURCE ID: make_good_origin_palkia_title_003
+TEXT: Encounter: 3 Origin Forme Palkia
+
+RESOURCE ID: make_good_origin_palkia_title_004
+TEXT: Encounter: 4 Origin Forme Palkia
+
+RESOURCE ID: make_good_origin_palkia_title_005
+TEXT: Encounter: 5 Origin Forme Palkia
+
+RESOURCE ID: make_good_origin_palkia_title_006
+TEXT: Encounter: 6 Origin Forme Palkia
+
+RESOURCE ID: make_good_origin_palkia_title_007
+TEXT: Encounter: 7 Origin Forme Palkia
+
+RESOURCE ID: make_good_orign_dialga_title_002
+TEXT: Encounter: 2 Origin Forme Dialga
+
+RESOURCE ID: make_good_orign_dialga_title_003
+TEXT: Encounter: 3 Origin Forme Dialga
+
+RESOURCE ID: make_good_orign_dialga_title_004
+TEXT: Encounter: 4 Origin Forme Dialga
+
+RESOURCE ID: make_good_orign_dialga_title_005
+TEXT: Encounter: 5 Origin Forme Dialga
+
+RESOURCE ID: make_good_orign_dialga_title_006
+TEXT: Encounter: 6 Origin Forme Dialga
+
+RESOURCE ID: make_good_orign_dialga_title_007
+TEXT: Encounter: 7 Origin Forme Dialga
+
 RESOURCE ID: maxfinale_2025_ep_bonus_title
 TEXT: GO패스: 맥스 피날레 패스 보너스
 
@@ -673,10 +751,10 @@ RESOURCE ID: maxfinale_2025_ep_bonus_title_02
 TEXT: 티어3 GO패스: 맥스 피날레 패스 보너스
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-08-12T00:24:01.171495+00:00 for ko-KR
-at SHA eed65239724
-Pipeline 3316123, job 44479314
-Patch from: 0.375.0-SHA-1124c099-RC1, 0.373.2-SHA-2d618a35-RC1
+TEXT: Built at 2025-08-16T01:40:12.668833+00:00 for ko-KR
+at SHA 9c0f64601d9
+Pipeline 3326251, job 44773631
+Patch from: 0.375.0-SHA-efbdf7b6-RC2, 0.373.2-SHA-2d618a35-RC1
 
 RESOURCE ID: minicollect_help_desc_type_bread
 TEXT: Collect Dynamax Pokémon.
@@ -731,6 +809,114 @@ TEXT: 매우 독특한 맛과 향을 가졌다. 신뢰하는 트레이너에게�
 
 RESOURCE ID: pokemon_desc_0890_2581
 TEXT: 거대해진 코어에서 무한한 파워가 방출되기 때문에 주위 시공을 일그러뜨린다.
+
+RESOURCE ID: quest_battle_bug_charge_plural
+TEXT: Use a Bug-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_bug_charge_singular
+TEXT: Use a Bug-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_dark_charge_plural
+TEXT: Use a Dark-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_dark_charge_singular
+TEXT: Use a Dark-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_dragon_charge_plural
+TEXT: Use a Dragon-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_dragon_charge_singular
+TEXT: Use a Dragon-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_electric_charge_plural
+TEXT: Use an Electric-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_electric_charge_singular
+TEXT: Use an Electric-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_fairy_charge_plural
+TEXT: Use a Fairy-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_fairy_charge_singular
+TEXT: Use a Fairy-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_fighting_charge_plural
+TEXT: Use a Fighting-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_fighting_charge_singular
+TEXT: Use a Fighting-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_fire_charge_plural
+TEXT: Use a Fire-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_fire_charge_singular
+TEXT: Use a Fire-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_flying_charge_plural
+TEXT: Use a Flying-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_flying_charge_singular
+TEXT: Use a Flying-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_ghost_charge_plural
+TEXT: Use a Ghost-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_ghost_charge_singular
+TEXT: Use a Ghost-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_grass_charge_plural
+TEXT: Use a Grass-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_grass_charge_singular
+TEXT: Use a Grass-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_ground_charge_plural
+TEXT: Use a Ground-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_ground_charge_singular
+TEXT: Use a Ground-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_ice_charge_plural
+TEXT: Use an Ice-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_ice_charge_singular
+TEXT: Use an Ice-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_normal_charge_plural
+TEXT: Use a Normal-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_normal_charge_singular
+TEXT: Use a Normal-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_poison_charge_plural
+TEXT: Use a Poison-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_poison_charge_singular
+TEXT: Use a Poison-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_psychic_charge_plural
+TEXT: Use a Psychic-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_psychic_charge_singular
+TEXT: Use a Psychic-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_rock_charge_plural
+TEXT: Use a Rock-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_rock_charge_singular
+TEXT: Use a Rock-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_steel_charge_plural
+TEXT: Use a Steel-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_steel_charge_singular
+TEXT: Use a Steel-type Charged Attack in a battle
+
+RESOURCE ID: quest_battle_water_charge_plural
+TEXT: Use a Water-type Charged Attack in {0} battles
+
+RESOURCE ID: quest_battle_water_charge_singular
+TEXT: Use a Water-type Charged Attack in a battle
 
 RESOURCE ID: quest_catch_galar_starters
 TEXT:  흥나숭, 염버니, 울머기 중 하나를 {0}마리 잡는다
@@ -825,35 +1011,38 @@ TEXT: Welcome to Worlds 2025! 포켓스톱을 돌린다
 RESOURCE ID: quest_wcs_anaheim_scav_hunt_03
 TEXT:  Pokémon WCS Arena 포켓스톱을 돌린다
 
+RESOURCE ID: quest_win_raid_lvl1_plural
+TEXT: 별1 레이드배틀을 {0}번 이긴다
+
 RESOURCE ID: raid_hour_raids_five_shadow
 TEXT: 별5 그림자 레이드 증가
 
 RESOURCE ID: rally_paris_2025_desc
-TEXT: Earn encounters with Charmander by completing the Rally!
+TEXT: Earn encounters with Charmander by completing the rally!
 
 RESOURCE ID: rally_paris_2025_desc_detail
-TEXT: Collect stamps by visiting GO Stamp Rally PokéStops, across a scenic route in the heart of Paris!
+TEXT: Collect stamps by visiting GO Stamp Rally PokéStops on a scenic path in the heart of Paris!
 
 RESOURCE ID: rally_paris_2025_location
 TEXT: Paris, France
 
 RESOURCE ID: rally_paris_2025_rewards_desc
-TEXT: Complete the GO Stamp Rally to earn encounters with Charmander while also collecting enough resources to Mega Evolve into Mega Charizard X or Mega Charizard Y.
+TEXT: Complete this stamp rally to earn encounters with Charmander while also collecting enough Mega Energy to Mega Evolve your Charizard into Mega Charizard X or Mega Charizard Y.
 
 RESOURCE ID: rally_paris_2025_stamp_description_1
-TEXT: This park is the closest to Les Halles, and a great place to relax, or participate in raids. Many trainers regroup there on Community Days due to its accessibility.
+TEXT: This park is the closest to Les Halles, and it’s a great place to relax or take on raids. Many Trainers meet there on Community Days due to its accessibility.
 
 RESOURCE ID: rally_paris_2025_stamp_description_2
-TEXT: Between the Louvre and the Saint-Germain-l'Auxerrois church, this spot offers a great view of Paris, while being close to the Seine river.
+TEXT: Between the Louvre and the Saint-Germain-l’Auxerrois church, this spot offers a great view of Paris by the Seine river.
 
 RESOURCE ID: rally_paris_2025_stamp_description_3
-TEXT: Place Colette is right in front of the "Salle Richelieu", hosting "La Comédie Française", France's most famous theater troupe.
+TEXT: Place Colette is right in front of the Salle Richelieu, which hosts La Comédie-Française, France’s most famous theatre troupe.
 
 RESOURCE ID: rally_paris_2025_stamp_description_4
-TEXT: This chalet is hiding under the Louvre and the Tuileries Garden, inside a mall built within Paris's old walls. You can see the inverted Pyramid of the Louvre, as well as multiple statues too!
+TEXT: This chalet hides under the Louvre and the Jardin des Tuileries, inside a mall built within Paris’s old walls. You can see the inverted pyramid of the Louvre, as well as multiple statues!
 
 RESOURCE ID: rally_paris_2025_stamp_description_5
-TEXT: At the start of Europe's most famous avenue, "Les Champs Élysées", you can visit one of Paris's first parks, laid out by famous achitect and designer, André Le Notre in 1667.
+TEXT: At the start of one of Europe’s most famous avenues, Les Champs-Élysées, you can visit one of Paris’s first parks, laid out by the famous architect and designer André Le Nôtre in 1667.
 
 RESOURCE ID: rally_paris_2025_stamp_description_6
 TEXT: The Westfield mall in Les Halles hosts the Lumiose City tourism hub.
@@ -936,6 +1125,15 @@ TEXT: City Safari: Vancouver 2025 (2/3)
 RESOURCE ID: safari_city_2025_vancouver_title_02
 TEXT: City Safari: Vancouver 2025 (3/3)
 
+RESOURCE ID: season19_finale_cosmetic_tr_name
+TEXT: 여름의 모습 프리미엄 시간제한 리서치
+
+RESOURCE ID: season19_finale_encounter_tr_name
+TEXT: 햇살 가득한 해변 프리미엄 시간제한 리서치
+
+RESOURCE ID: season19_finale_free_tr_name
+TEXT: 햇살 가득한 해변 시간제한 리서치
+
 RESOURCE ID: season_19_tgr_sr_1
 TEXT: 즐거운 날들: 점령(1/5)
 
@@ -958,19 +1156,22 @@ RESOURCE ID: spawn_rookidee
 TEXT: 파라꼬가 야생에서 많이 출현!
 
 RESOURCE ID: special_trade_bonus_expiration
-TEXT: The bonus for additional Special Trades expired.
+TEXT: 특별한 교환 추가 보너스 시간 만료
 
 RESOURCE ID: special_trade_confirm_bonus
-TEXT: You have {0} Special Trade remaining.
+TEXT: 앞으로 {0}회 특별한 교환을 할 수 있습니다
 
 RESOURCE ID: special_trade_confirm_bonus_plural
-TEXT: You have {0} Special Trades remaining.
+TEXT: 앞으로 {0}회 특별한 교환을 할 수 있습니다
 
 RESOURCE ID: special_trade_per_day_plural
-TEXT: Up to {0} Special Trades per day.
+TEXT: 하루에 가능한 특별한 교환 총 {0}회.
 
 RESOURCE ID: special_trade_remaining_select
-TEXT: Special Trades remaining: {0}
+TEXT: 특별한 교환 남은 수: {0}
+
+RESOURCE ID: sunkissed_shores_event_name
+TEXT: 햇살 가득한 해변
 
 RESOURCE ID: surge_and_pokemon_escape
 TEXT: 강렬한 에너지에 밀려 {0}(을)를 놓쳤다! 
@@ -1044,6 +1245,20 @@ TEXT: <b>받을 수 있는 리워드:</b>
 - 레이드배틀 승리 시 받을 수 있는 XP 3배와 별의모래 2배 등
 - 오리진폼 디아루가 또는 오리진폼 펄기아를 잡았을 때 받을 수 있는 이상한사탕XL 반드시 1개 획득
 
+RESOURCE ID: text_rewards_key_sunkissedctr0825
+TEXT: <b>받을 수 있는 리워드:</b>
+- 셀러, 텅구리(알로라의 모습)와의 만남
+- 의상 아이템 파인열매 가방
+- 슈퍼볼 15개
+- 파인열매 25개
+- 4,000XP와 별의모래 3,000개 등
+
+RESOURCE ID: text_rewards_key_sunkissedetr0825
+TEXT: <b>받을 수 있는 리워드:</b>
+- 선캡 쓴 게을로와 어써러셔와의 만남
+- 프리미엄 배틀패스 2개
+- 3,000 별의모래
+
 RESOURCE ID: ticket_rookidee_cd
 TEXT: 파라꼬 커뮤니티 데이 스페셜리서치 티켓이 숍에 등장
 
@@ -1063,13 +1278,13 @@ RESOURCE ID: title_go_fest_max_finale_2025
 TEXT: GO Fest: 맥스 피날레
 
 RESOURCE ID: title_gofest2025_finale_event_pass_daily_bonus_quest
-TEXT: GO Pass: Max Finale Daily Tasks
+TEXT: GO패스: 맥스 피날레 데일리 태스크
 
 RESOURCE ID: title_gofest2025_finale_event_pass_daily_bonus_quest_premium
-TEXT: GO Pass Deluxe: Max Finale Daily Tasks
+TEXT: GO패스 디럭스: 맥스 피날레 데일리 태스크
 
 RESOURCE ID: title_gofest2025_finale_event_pass_hourly_bonus_quest
-TEXT: GO Pass: Max Finale Hourly Tasks
+TEXT: GO패스: 맥스 피날레 1시간 태스크
 
 RESOURCE ID: title_tr_dark_skies
 TEXT: 자흑의 하늘 시간제한 리서치
@@ -1114,10 +1329,10 @@ RESOURCE ID: title_wcs_2025_scavenger_hunt_00
 TEXT: 포켓몬 월드챔피언십2025 보물 모으기(1/1)
 
 RESOURCE ID: trade_exclusion_reason_friend_reached_daily_limit_temp
-TEXT: Your friend can’t make any more Special Trades today.
+TEXT: 오늘은 상한 수에 도달해서 프렌드와 특별한 교환을 할 수 없습니다
 
 RESOURCE ID: trade_exclusion_reason_player_reached_daily_limit_temp
-TEXT: You can’t make any more Special Trades today.
+TEXT: 특별한 교환 최대 수에 도달했습니다
 
 RESOURCE ID: use_dynamax_cannon_effect
 TEXT: 맥스 포켓몬, 무한다이노가 가진 맥스기술의 위력 상승
