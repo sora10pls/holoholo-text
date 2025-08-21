@@ -40,6 +40,9 @@ TEXT: 2025 Dünya Şampiyonası Tişörtü (Sarı)
 RESOURCE ID: avatar_shoes_eternatus
 TEXT: Eternatus Ayakkabısı
 
+RESOURCE ID: badge_detail_reward_header
+TEXT: Rewards
+
 RESOURCE ID: badge_safari_2025_amsterdam_add_on_hatch
 TEXT: Amsterdam 2025
 
@@ -269,7 +272,7 @@ RESOURCE ID: bonus_desc_machamp_payback
 TEXT: Machoke’u evrimleştirerek Ödeşme güçlü saldırısını bilen Machamp elde edin
 
 RESOURCE ID: bonus_dmax_shiny_chance_increase
-TEXT: 1ila 4 yıldızlı Dinamaks Maçları’nda karşılaşılabilen Parlak Dinamaks Pokémon’larla daha fazla karşılaşma şansı
+TEXT: Genellikle bir ila dört yıldızlı Dinamaks Maçlarında görülen Parlak Dinamaks Pokémon’larla karşılaşma şansında artış
 
 RESOURCE ID: bonus_ee_appearance
 TEXT: Eternamaks Eternatus özel Maksi Maçlarda ortaya çıkıyor
@@ -373,6 +376,15 @@ TEXT: Kilidi Açık+
 RESOURCE ID: bread_remote_use_rrp_confirmation_no_limits
 TEXT: Maksi Parçacıklar yalnızca galibiyet elde ettiğinizde kullanılır. Maç başladığında bir Uzak Akın Bileti kullanılır.
 
+RESOURCE ID: city_manhole_253
+TEXT: Iitate
+
+RESOURCE ID: city_manhole_255
+TEXT: Futaba
+
+RESOURCE ID: city_manhole_91
+TEXT: Namie
+
 RESOURCE ID: community_day_rookidee_event_name
 TEXT: Topluluk Günü: Rookidee
 
@@ -441,6 +453,9 @@ RESOURCE ID: event_datetime_range_key_gbw_wcs_aug25
 TEXT: 15 Ağustos, 10.00 -
 17 Ağustos, 20.00
 
+RESOURCE ID: event_datetime_range_key_megagyaradosraidday
+TEXT: 31 Ağustos, 14.00-17.00
+
 RESOURCE ID: event_datetime_range_key_munchlax0825
 TEXT: 9 Ağustos, 11.00-17.00
 
@@ -479,11 +494,26 @@ TEXT: Eternatus
 RESOURCE ID: fossil_research_day_event_name
 TEXT: Fosil Araştırma Günü
 
+RESOURCE ID: friends_list_pending_invites_section_header
+TEXT: Bekleyen Davetler
+
+RESOURCE ID: friends_list_section_header
+TEXT: Arkadaş Listesi
+
+RESOURCE ID: friends_mutual_friends_count_plural
+TEXT: {0} ortak arkadaş
+
+RESOURCE ID: friends_mutual_friends_count_singular
+TEXT: 1 ortak arkadaş
+
 RESOURCE ID: general1.ticket.2_cozyco25_title
 TEXT: Keyifli Dostlar Premium Süreli Araştırması Bileti
 
 RESOURCE ID: general1.ticket.2_fossil_researchtr2025_title
 TEXT: Fosil Araştırma Günü Premium Süreli Araştırması Bileti
+
+RESOURCE ID: general1.ticket.5_megagyaradosraidday_title
+TEXT: Mega Gyarados Akın Günü Bileti
 
 RESOURCE ID: general1.ticket._adventurewk0729_title
 TEXT: Macera Haftası Premium Süreli Araştırması Bileti
@@ -505,6 +535,12 @@ TEXT: Güneşli Sahiller Premium Süreli Araştırması Bileti
 
 RESOURCE ID: general1.ticket_cd_rookidee25_title
 TEXT: Rookidee Topluluk Günü Bileti
+
+RESOURCE ID: general_minutes_remaining
+TEXT: {0}m
+
+RESOURCE ID: general_seconds_remaining
+TEXT: {0}s
 
 RESOURCE ID: go_fest_max_finale_2025_tr_00_00
 TEXT: %PLAYERNAME%, bu çalkantılı zamanlarda seni görmek ne güzel. Bu fırtına daha önce gördüklerime hiç benzemiyor doğrusu.
@@ -572,7 +608,7 @@ TEXT: Lüks GO Bileti: Maksi Final
 RESOURCE ID: gofest2025_maxfinale_upgrade_description
 TEXT: Lüks GO Bileti: Maksi Final satın alarak şu ödüllerin kilidini açabilirsiniz!
 
-• 1ila 4 yıldızlı Dinamaks Maçları’nda karşılaşılabilen Parlak Dinamaks Pokémon’larla daha fazla karşılaşma şansı
+• Genellikle bir ila dört yıldızlı Dinamaks Maçlarında görülen Parlak Dinamaks Pokémon’larla karşılaşma şansında artış
 • Hatırı sayılır miktarda Eternatus şekeri ve Eternatus büyük şekeri
 • Dinamaks Pokémon’larla birçok karşılaşma
 • Eternatus Kaskı avatar eşyası
@@ -624,8 +660,14 @@ TEXT: Bu bilet Meyveli Şıklık premium süreli araştırmasına dilediğiniz y
 RESOURCE ID: item_event_ticket_evergreen_details_sunkissedetr0825
 TEXT: Bu bilet Güneşli Sahiller premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için 25 Ağustos’ta otomatik olarak etkinleştirilecek.
 
+RESOURCE ID: item_event_ticket_gray_desc_megagyaradosraidday
+TEXT: 31 Ağustos 2025’te, yerel saatle 14.00-17.00 arasında geçerli olacak özel bonuslara dilediğiniz yerden hak kazanmanıza olanak tanıyan bir bilet.
+
 RESOURCE ID: item_event_ticket_gray_desc_originraidday
 TEXT: 10 Ağustos 2025 Pazar, yerel saatle 11.00-17.00 arasında geçerli olacak özel bonuslara dilediğiniz yerden hak kazanmanıza olanak tanıyan bir bilet.
+
+RESOURCE ID: item_event_ticket_gray_details_megagyaradosraidday
+TEXT: Bu bilet 31 Ağustos’ta geçerli olacak özel bonuslara dilediğiniz yerden hak kazanabilmeniz için otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_gray_details_originraidday
 TEXT: Bu bilet 10 Ağustos’ta geçerli olacak özel bonuslara dilediğiniz yerden hak kazanabilmeniz için otomatik olarak etkinleştirilecek.
@@ -655,43 +697,61 @@ RESOURCE ID: item_event_ticket_pink_details_fossil_researchtr2025
 TEXT: Bu bilet Fosil Araştırma Günü premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için 2 Ağustos’ta otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: kr_lotteworld_collab_2025_tag
-TEXT: Sweet Spooky World
+TEXT: Tatlı Ürkütücü Dünya
 
 RESOURCE ID: kr_lotteworld_collab_2025_themed_park_bonus
-TEXT: Sweet Spooky World – Lotte World Bonus
+TEXT: Tatlı Ürkütücü Dünya – Lotte World Bonusu
 
 RESOURCE ID: kr_lotteworld_collab_2025_title
-TEXT: Sweet Spooky World
+TEXT: Tatlı Ürkütücü Dünya
 
 RESOURCE ID: kr_lotteworld_collab_2025_tr_name
-TEXT: Sweet Spooky World Timed Research
+TEXT: Tatlı Ürkütücü Dünya Süreli Araştırması
 
 RESOURCE ID: kr_lotteworld_collab_2025_tr_name_1
-TEXT: Sweet Spooky World Timed Research (1/4)
+TEXT: Tatlı Ürkütücü Dünya Süreli Araştırması (1/4)
 
 RESOURCE ID: kr_lotteworld_collab_2025_tr_name_2
-TEXT: Sweet Spooky World Timed Research (2/4)
+TEXT: Tatlı Ürkütücü Dünya Süreli Araştırması (2/4)
 
 RESOURCE ID: kr_lotteworld_collab_2025_tr_name_3
-TEXT: Sweet Spooky World Timed Research (3/4)
+TEXT: Tatlı Ürkütücü Dünya Süreli Araştırması (3/4)
 
 RESOURCE ID: kr_lotteworld_collab_2025_tr_name_4
-TEXT: Sweet Spooky World Timed Research (4/4)
+TEXT: Tatlı Ürkütücü Dünya Süreli Araştırması (4/4)
 
 RESOURCE ID: kr_lotteworld_collab_event_raid
-TEXT: Gengar wearing a Spooky Festival costume appearing in raids
+TEXT: Akınlarda Ürkütücü Festival kostümlü Gengar ortaya çıkıyor
 
 RESOURCE ID: kr_lotteworld_collab_photobomb_announcing
-TEXT: Catch Misdreavus via GO Snapshot to complete the Collection Challenge
+TEXT: Toplama görevini tamamlamak için Misdreavus’ı GO Fotoğrafla yakalayın
 
 RESOURCE ID: kr_lotteworld_collab_sep2025_cc
-TEXT: Sweet Spooky World Collection Challenge
+TEXT: Tatlı Ürkütücü Dünya Toplama Görevi
 
 RESOURCE ID: make_good_origin_dialga_desc
 TEXT: Karşılaşma: Orijin Formu Dialga
 
 RESOURCE ID: make_good_origin_dialga_title_001
 TEXT: Karşılaşma: 1 Orijin Formu Dialga
+
+RESOURCE ID: make_good_origin_dialga_title_002
+TEXT: Karşılaşma: 2 Orijin Formu Dialga
+
+RESOURCE ID: make_good_origin_dialga_title_003
+TEXT: Karşılaşma: 3 Orijin Formu Dialga
+
+RESOURCE ID: make_good_origin_dialga_title_004
+TEXT: Karşılaşma: 4 Orijin Formu Dialga
+
+RESOURCE ID: make_good_origin_dialga_title_005
+TEXT: Karşılaşma: 5 Orijin Formu Dialga
+
+RESOURCE ID: make_good_origin_dialga_title_006
+TEXT: Karşılaşma: 6 Orijin Formu Dialga
+
+RESOURCE ID: make_good_origin_dialga_title_007
+TEXT: Karşılaşma: 7 Orijin Formu Dialga
 
 RESOURCE ID: make_good_origin_palkia_desc
 TEXT: Karşılaşma: Orijin Formu Palkia
@@ -717,24 +777,6 @@ TEXT: Karşılaşma: 6 Orijin Formu Palkia
 RESOURCE ID: make_good_origin_palkia_title_007
 TEXT: Karşılaşma: 7 Orijin Formu Palkia
 
-RESOURCE ID: make_good_orign_dialga_title_002
-TEXT: Karşılaşma: 2 Orijin Formu Dialga
-
-RESOURCE ID: make_good_orign_dialga_title_003
-TEXT: Karşılaşma: 3 Orijin Formu Dialga
-
-RESOURCE ID: make_good_orign_dialga_title_004
-TEXT: Karşılaşma: 4 Orijin Formu Dialga
-
-RESOURCE ID: make_good_orign_dialga_title_005
-TEXT: Karşılaşma: 5 Orijin Formu Dialga
-
-RESOURCE ID: make_good_orign_dialga_title_006
-TEXT: Karşılaşma: 6 Orijin Formu Dialga
-
-RESOURCE ID: make_good_orign_dialga_title_007
-TEXT: Karşılaşma: 7 Orijin Formu Dialga
-
 RESOURCE ID: maxfinale_2025_ep_bonus_title
 TEXT: GO Bileti: Maksi Final Bonusları
 
@@ -748,10 +790,10 @@ RESOURCE ID: maxfinale_2025_ep_bonus_title_02
 TEXT: 3. Kademe GO Bileti: Maksi Final Bonusları
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-08-16T01:40:12.668833+00:00 for tr-TR
-at SHA 9c0f64601d9
-Pipeline 3326251, job 44773631
-Patch from: 0.375.0-SHA-efbdf7b6-RC2, 0.373.2-SHA-2d618a35-RC1
+TEXT: Built at 2025-08-21T01:34:15.421207+00:00 for tr-TR
+at SHA f6a1106b4b8
+Pipeline 3332817, job 45040092
+Patch from: 0.373.2-SHA-2d618a35-RC1, 0.375.0-SHA-e10d5ed3-RC4, 0.377.0-SHA-66580fe4-RC1
 
 RESOURCE ID: minicollect_help_desc_type_bread
 TEXT: Dinamaks Pokémon toplayın.
@@ -764,6 +806,9 @@ TEXT: Dinamaks Topu
 
 RESOURCE ID: move_name_0483
 TEXT: Dinamaks Topu
+
+RESOURCE ID: move_name_0488
+TEXT: Chilling Water
 
 RESOURCE ID: munchlax_hatch_day_event_name
 TEXT: Yumurtadan Çıkan Munchlax Günü
@@ -783,11 +828,14 @@ TEXT: Maç bittikten sonra {0} yakalanamaz.
 RESOURCE ID: origin_raid_day_event_name
 TEXT: Ultra Kilit Açma: Orijin Akın Günü
 
+RESOURCE ID: party_play_see_details_label
+TEXT: SEE DETAILS
+
 RESOURCE ID: photobomb_five_rookidee
 TEXT: GO Fotoğrafta Rookidee ile 5 sürpriz karşılaşma
 
 RESOURCE ID: photobomb_three_misdreavus
-TEXT: 3 surprise encounters with Misdreavus in GO Snapshot per day
+TEXT: GO Fotoğrafta Misdreavus ile günde 3 sürpriz karşılaşma
 
 RESOURCE ID: pokemon_desc_0854_2477
 TEXT: Bu Pokémon'un yalnız bir ruh, soğuk ve eski bir fincan çaya sahip olduğu zaman doğduğu söylenir.
@@ -1119,6 +1167,9 @@ TEXT: City Safari: Vancouver 2025 (2/3)
 RESOURCE ID: safari_city_2025_vancouver_title_02
 TEXT: City Safari: Vancouver 2025 (3/3)
 
+RESOURCE ID: screen_social_title
+TEXT: Sosyal
+
 RESOURCE ID: season19_finale_cosmetic_tr_name
 TEXT: Meyveli Şıklık Premium Süreli Araştırması
 
@@ -1226,6 +1277,12 @@ TEXT: <b>Şu ödülleri içerir:</b>
 • 1 Premium Maç Bileti
 • 25.000 yıldız tozu
 
+RESOURCE ID: text_rewards_key_megagyaradosraidday
+TEXT: <b>Şu bonusları içerir:</b>
+• Spor salonu fotoğraf disklerini döndürerek fazladan 8 Akın Bileti
+• Akınlardan daha yüksek Nadir Büyük Şeker alma şansı
+• Başarıyla tamamlanan akınlardan %50 daha fazla TP ve 2× yıldız tozu
+
 RESOURCE ID: text_rewards_key_munchlax0825
 TEXT: <b>Şu ödülleri içerir:</b>
 • 2 Süper Kuluçka Makinesi
@@ -1322,11 +1379,17 @@ TEXT: 2025 Pokémon Dünya Şampiyonası Hazine Avı
 RESOURCE ID: title_wcs_2025_scavenger_hunt_00
 TEXT: 2025 Pokémon Dünya Şampiyonası Hazine Avı (1/1)
 
-RESOURCE ID: trade_exclusion_reason_friend_reached_daily_limit_temp
+RESOURCE ID: trade_exclusion_reason_friend_reached_daily_limit
 TEXT: Arkadaşınız bugün daha fazla özel takas yapamaz.
 
-RESOURCE ID: trade_exclusion_reason_player_reached_daily_limit_temp
+RESOURCE ID: trade_exclusion_reason_friend_reached_daily_limit_old
+TEXT: Arkadaşınız bugün zaten bir özel takas yapmış.
+
+RESOURCE ID: trade_exclusion_reason_player_reached_daily_limit
 TEXT: Bugün daha fazla özel takas yapamazsınız.
+
+RESOURCE ID: trade_exclusion_reason_player_reached_daily_limit_out
+TEXT: Bugün zaten bir özel takas yaptınız.
 
 RESOURCE ID: use_dynamax_cannon_effect
 TEXT: Maksi Pokémon’lar ile Eternatus’un Maksi Hareketlerine bir bonus eklendi.
@@ -1366,4 +1429,195 @@ TEXT: Portakal Bahçeleri Toplama Görevi
 
 RESOURCE ID: wcs_aug25_tr_title
 TEXT: 2025 Dünya Şampiyonası Premium Süreli Araştırması
+
+RESOURCE ID: weekly_challenges_challenge_almost_complete_in_app_notification
+TEXT: Your weekly challenge is {0} complete and ends soon!
+
+RESOURCE ID: weekly_challenges_choose_group_label
+TEXT: Grup Seçin
+
+RESOURCE ID: weekly_challenges_claim_reward_button
+TEXT: Ödülleri Al!
+
+RESOURCE ID: weekly_challenges_create_group_button_label
+TEXT: Grup Oluştur
+
+RESOURCE ID: weekly_challenges_create_new_group_label
+TEXT: Arkadaş davet edin!
+
+RESOURCE ID: weekly_challenges_description
+TEXT: Diğer Eğitmenlerle birlikte haftalık görevleri tamamlayın, ödüller kazanın!
+
+RESOURCE ID: weekly_challenges_encounter_reward_toast
+TEXT: You must claim your Weekly Challenge encounter reward first.
+
+RESOURCE ID: weekly_challenges_entry_all_groups_label
+TEXT: CHOOSE YOUR GROUP
+
+RESOURCE ID: weekly_challenges_error_creating_party
+TEXT: Hata. Lütfen tekrar deneyin.
+
+RESOURCE ID: weekly_challenges_error_joining_party
+TEXT: Hata. Lütfen tekrar deneyin.
+
+RESOURCE ID: weekly_challenges_friend_level_too_low_for_invite
+TEXT: Trainer needs to be level {0} to join a Weekly Challenge.
+
+RESOURCE ID: weekly_challenges_friend_list_empty
+TEXT: Arkadaşınız yok
+
+RESOURCE ID: weekly_challenges_friend_request_modal_desc
+TEXT: Arkadaşlık isteğinizi kabul ettiklerinde Yakın Arkadaş olacaksınız.
+
+RESOURCE ID: weekly_challenges_group_invitation_label
+TEXT: {0} sizi davet etti!
+
+RESOURCE ID: weekly_challenges_group_invitation_label_plus_one
+TEXT: {0} and 1 other invited you!
+
+RESOURCE ID: weekly_challenges_group_invitation_label_plus_others
+TEXT: {0} and {1} others invited you!
+
+RESOURCE ID: weekly_challenges_in_app_notification_invite
+TEXT: <b>{0}</b> sizi haftalık görev grubuna davet etti!
+
+RESOURCE ID: weekly_challenges_invite_friends
+TEXT: Arkadaş Davet Et
+
+RESOURCE ID: weekly_challenges_invite_friends_title
+TEXT: {0} taneye kadararkadaş davet edin!
+
+RESOURCE ID: weekly_challenges_invite_push_notification_toggle_title
+TEXT: Görev Davetleri
+
+RESOURCE ID: weekly_challenges_invite_sent_confirmation
+TEXT: Haftalık görev davetleri gönderildi!
+
+RESOURCE ID: weekly_challenges_join_error_invite_expired_title
+TEXT: Davetiye Süresi Doldu
+
+RESOURCE ID: weekly_challenges_join_error_modal_body
+TEXT: Lütfen başka bir haftalık görev grubuna katılmayı deneyin.
+
+RESOURCE ID: weekly_challenges_join_error_party_full_title
+TEXT: {0} Adlı Oyuncunun Grubu Dolu
+
+RESOURCE ID: weekly_challenges_join_group_button_label
+TEXT: Gruba Katıl
+
+RESOURCE ID: weekly_challenges_join_matchmaking_confirmation_body
+TEXT: You will be paired with up to 3 other Trainers. You can choose to leave and join another group at any time.
+
+RESOURCE ID: weekly_challenges_join_matchmaking_confirmation_title
+TEXT: Are you sure you want to join a group with other Trainers?
+
+RESOURCE ID: weekly_challenges_join_party_confirmation_message
+TEXT: Bu gruba katıldığınızda diğer tüm davetleri reddetmiş olacaksınız ama istediğiniz zaman ayrılıp başka bir gruba katılabilirsiniz.
+
+RESOURCE ID: weekly_challenges_join_party_confirmation_title
+TEXT: {0} adlı oyuncunun grubuna katılmak istediğinize emin misiniz?
+
+RESOURCE ID: weekly_challenges_join_random_group_label
+TEXT: Bana bir grup bul!
+
+RESOURCE ID: weekly_challenges_leave_group_label
+TEXT: Gruptan Ayrıl
+
+RESOURCE ID: weekly_challenges_leave_party_message
+TEXT: Ayrılırsanız hiçbir görev ödülü alamayacaksınız ve skorunuz sıfırlanacak.
+
+RESOURCE ID: weekly_challenges_leave_party_title
+TEXT: Bu haftalık görev grubundan ayrılmak istediğinize emin misiniz?
+
+RESOURCE ID: weekly_challenges_leave_party_toast
+TEXT: You have left the Weekly Challenge group
+
+RESOURCE ID: weekly_challenges_lets_go_button
+TEXT: HADİ GİDELİM!
+
+RESOURCE ID: weekly_challenges_matchmaking_finding_player
+TEXT: finding...
+
+RESOURCE ID: weekly_challenges_matchmaking_success_in_app_notification
+TEXT: You have been matched with a Weekly Challenge group!
+
+RESOURCE ID: weekly_challenges_milestone_modal_label
+TEXT: Haftalık görevin %{0} kadarını tamamladınız!
+
+RESOURCE ID: weekly_challenges_new_friends_expiry_header
+TEXT: Become Friends for the next Weekly Challenge!
+
+RESOURCE ID: weekly_challenges_new_friends_header
+TEXT: Yakın Arkadaş olmak için bu Eğitmenleri ekleyin!
+
+RESOURCE ID: weekly_challenges_new_social_tab_tutorial_body
+TEXT: Group up with others to complete activities and earn rewards.
+
+RESOURCE ID: weekly_challenges_new_social_tab_tutorial_title
+TEXT: New Social tab has been added!
+
+RESOURCE ID: weekly_challenges_not_available
+TEXT: Check back in next week for a new challenge!
+
+RESOURCE ID: weekly_challenges_pending_invites_plural
+TEXT: {0} bekleyen davet
+
+RESOURCE ID: weekly_challenges_pending_invites_singular
+TEXT: 1 bekleyen davet
+
+RESOURCE ID: weekly_challenges_previous_player_progress_multiple
+TEXT: FROM {0} OTHER TRAINERS: {1}
+
+RESOURCE ID: weekly_challenges_previous_player_progress_singular
+TEXT: FROM 1 OTHER TRAINER: {0}
+
+RESOURCE ID: weekly_challenges_progress_in_app_notification_toggle_title
+TEXT: Weekly Challenge Progress
+
+RESOURCE ID: weekly_challenges_progress_push_notification_toggle_title
+TEXT: Challenge Progress
+
+RESOURCE ID: weekly_challenges_reward_preview_description
+TEXT: Complete this week's challenge to claim these rewards!
+
+RESOURCE ID: weekly_challenges_rewards_prefix
+TEXT: ÖDÜLLER:
+
+RESOURCE ID: weekly_challenges_ribbon_banner
+TEXT: Weekly Challenge
+
+RESOURCE ID: weekly_challenges_see_details_label
+TEXT: Detayları Görüntüle
+
+RESOURCE ID: weekly_challenges_settings_category_title
+TEXT: Weekly Challenges
+
+RESOURCE ID: weekly_challenges_title
+TEXT: Haftalık Görev
+
+RESOURCE ID: weekly_challenges_today_score_title
+TEXT: Günün Skorları
+
+RESOURCE ID: weekly_challenges_tutorial_1_body
+TEXT: Her hafta yeni bir görev açıklanacak. Hafta boyunca üç taneye kadar Eğitmenle birlikte bir grup kurarak göreve katılabilir ve ödüller kazanabilirsiniz!
+
+RESOURCE ID: weekly_challenges_tutorial_1_title
+TEXT: Haftalık Görevler
+
+RESOURCE ID: weekly_challenges_tutorial_2_body
+TEXT: Ne tür bir gruba dahil olmak istediğinizi seçin!
+1. Üç Eğitmenle eşleşip yeni arkadaşlar edinebilirsiniz
+2. Kendi arkadaşlarınızdan oluşan bir grup kurabilirsiniz
+
+RESOURCE ID: weekly_challenges_tutorial_2_title
+TEXT: Bir Grup Seçin
+
+RESOURCE ID: weekly_challenges_tutorial_3_body
+TEXT: Arkadaşlarınızla haftalık görevlere katılarak arkadaşlık seviyenizi yükseltebilirsiniz!
+
+RESOURCE ID: weekly_challenges_tutorial_3_title
+TEXT: Arkadaşlık İlerlemesi
+
+RESOURCE ID: weekly_challenges_view_invites_label
+TEXT: Davetleri Görüntüle
 

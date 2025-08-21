@@ -373,6 +373,15 @@ TEXT: Unlocked+
 RESOURCE ID: bread_remote_use_rrp_confirmation_no_limits
 TEXT: Max Particles are only used when you win. A Remote Raid Pass will be used when the battle starts.
 
+RESOURCE ID: city_manhole_253
+TEXT: Iitate
+
+RESOURCE ID: city_manhole_255
+TEXT: Futaba
+
+RESOURCE ID: city_manhole_91
+TEXT: Namie
+
 RESOURCE ID: community_day_rookidee_event_name
 TEXT: Community Day: Rookidee
 
@@ -450,6 +459,9 @@ RESOURCE ID: event_datetime_range_key_gbw_wcs_aug25
 TEXT: August 15, 10:00 a.m. –
 August 17, 8:00 p.m.
 
+RESOURCE ID: event_datetime_range_key_megagyaradosraidday
+TEXT: August 31, 2:00 p.m. – 5:00 p.m.
+
 RESOURCE ID: event_datetime_range_key_munchlax0825
 TEXT: August 9, 11:00 a.m. – 5:00 p.m.
 
@@ -488,11 +500,26 @@ TEXT: Eternatus
 RESOURCE ID: fossil_research_day_event_name
 TEXT: Fossil Research Day
 
+RESOURCE ID: friends_list_pending_invites_section_header
+TEXT: Your Pending Invites
+
+RESOURCE ID: friends_list_section_header
+TEXT: Friends List
+
+RESOURCE ID: friends_mutual_friends_count_plural
+TEXT: {0} mutual friends
+
+RESOURCE ID: friends_mutual_friends_count_singular
+TEXT: 1 mutual friend
+
 RESOURCE ID: general1.ticket.2_cozyco25_title
 TEXT: Cozy Companions Premium Timed Research Ticket
 
 RESOURCE ID: general1.ticket.2_fossil_researchtr2025_title
 TEXT: Fossil Research Day Premium Timed Research Ticket
+
+RESOURCE ID: general1.ticket.5_megagyaradosraidday_title
+TEXT: Mega Gyarados Raid Day Ticket
 
 RESOURCE ID: general1.ticket._adventurewk0729_title
 TEXT: Adventure Week Premium Timed Research Ticket
@@ -514,6 +541,12 @@ TEXT: Sunkissed Shores Premium Timed Research Ticket
 
 RESOURCE ID: general1.ticket_cd_rookidee25_title
 TEXT: Rookidee Community Day Ticket
+
+RESOURCE ID: general_minutes_remaining
+TEXT: {0}m
+
+RESOURCE ID: general_seconds_remaining
+TEXT: {0}s
 
 RESOURCE ID: go_fest_max_finale_2025_tr_00_00
 TEXT: %PLAYERNAME%, it’s a relief to see you in these tumultuous times. This storm is unlike anything I’ve ever seen.
@@ -636,8 +669,14 @@ TEXT: This ticket will automatically activate on August 25 to give you access to
 RESOURCE ID: item_event_ticket_evergreen_details_sunkissedetr0825
 TEXT: This ticket will automatically activate on August 25 to give you access to the Sunkissed Shores Premium Timed Research, wherever you are.
 
+RESOURCE ID: item_event_ticket_gray_desc_megagyaradosraidday
+TEXT: A ticket to access special bonuses on August 31, 2025, from 2:00 p.m. to 5:00 p.m. local time, wherever you are.
+
 RESOURCE ID: item_event_ticket_gray_desc_originraidday
 TEXT: A ticket to access special bonuses on Sunday, August 10, 2025, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_gray_details_megagyaradosraidday
+TEXT: This ticket will automatically activate to give you access to special bonuses on August 31, wherever you are.
 
 RESOURCE ID: item_event_ticket_gray_details_originraidday
 TEXT: This ticket will automatically activate to give you access to special bonuses on August 10, wherever you are.
@@ -711,6 +750,24 @@ TEXT: Encounter: Origin Forme Dialga
 RESOURCE ID: make_good_origin_dialga_title_001
 TEXT: Encounter: 1 Origin Forme Dialga
 
+RESOURCE ID: make_good_origin_dialga_title_002
+TEXT: Encounter: 2 Origin Forme Dialga
+
+RESOURCE ID: make_good_origin_dialga_title_003
+TEXT: Encounter: 3 Origin Forme Dialga
+
+RESOURCE ID: make_good_origin_dialga_title_004
+TEXT: Encounter: 4 Origin Forme Dialga
+
+RESOURCE ID: make_good_origin_dialga_title_005
+TEXT: Encounter: 5 Origin Forme Dialga
+
+RESOURCE ID: make_good_origin_dialga_title_006
+TEXT: Encounter: 6 Origin Forme Dialga
+
+RESOURCE ID: make_good_origin_dialga_title_007
+TEXT: Encounter: 7 Origin Forme Dialga
+
 RESOURCE ID: make_good_origin_palkia_desc
 TEXT: Encounter: Origin Forme Palkia
 
@@ -735,24 +792,6 @@ TEXT: Encounter: 6 Origin Forme Palkia
 RESOURCE ID: make_good_origin_palkia_title_007
 TEXT: Encounter: 7 Origin Forme Palkia
 
-RESOURCE ID: make_good_orign_dialga_title_002
-TEXT: Encounter: 2 Origin Forme Dialga
-
-RESOURCE ID: make_good_orign_dialga_title_003
-TEXT: Encounter: 3 Origin Forme Dialga
-
-RESOURCE ID: make_good_orign_dialga_title_004
-TEXT: Encounter: 4 Origin Forme Dialga
-
-RESOURCE ID: make_good_orign_dialga_title_005
-TEXT: Encounter: 5 Origin Forme Dialga
-
-RESOURCE ID: make_good_orign_dialga_title_006
-TEXT: Encounter: 6 Origin Forme Dialga
-
-RESOURCE ID: make_good_orign_dialga_title_007
-TEXT: Encounter: 7 Origin Forme Dialga
-
 RESOURCE ID: maxfinale_2025_ep_bonus_title
 TEXT: GO Pass: Max Finale Pass Bonuses
 
@@ -766,10 +805,10 @@ RESOURCE ID: maxfinale_2025_ep_bonus_title_02
 TEXT: Tier 3 GO Pass: Max Finale Bonuses
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-08-16T01:40:12.668833+00:00 for en-US
-at SHA 9c0f64601d9
-Pipeline 3326251, job 44773631
-Patch from: 0.375.0-SHA-efbdf7b6-RC2, 0.373.2-SHA-2d618a35-RC1
+TEXT: Built at 2025-08-21T01:34:15.421207+00:00 for en-US
+at SHA f6a1106b4b8
+Pipeline 3332817, job 45040092
+Patch from: 0.373.2-SHA-2d618a35-RC1, 0.375.0-SHA-e10d5ed3-RC4, 0.377.0-SHA-66580fe4-RC1
 
 RESOURCE ID: minicollect_help_desc_type_bread
 TEXT: Collect Dynamax Pokémon.
@@ -782,6 +821,9 @@ TEXT: Dynamax Cannon
 
 RESOURCE ID: move_name_0483
 TEXT: Dynamax Cannon
+
+RESOURCE ID: move_name_0488
+TEXT: Chilling Water
 
 RESOURCE ID: munchlax_hatch_day_event_name
 TEXT: Munchlax Hatch Day
@@ -800,6 +842,9 @@ TEXT: {0} cannot be caught after the battle.
 
 RESOURCE ID: origin_raid_day_event_name
 TEXT: Ultra Unlock: Origin Raid Day
+
+RESOURCE ID: party_play_see_details_label
+TEXT: SEE DETAILS
 
 RESOURCE ID: photobomb_five_rookidee
 TEXT: 5 surprise encounters with Rookidee in GO Snapshot
@@ -1137,6 +1182,9 @@ TEXT: City Safari: Vancouver 2025 (2/3)
 RESOURCE ID: safari_city_2025_vancouver_title_02
 TEXT: City Safari: Vancouver 2025 (3/3)
 
+RESOURCE ID: screen_social_title
+TEXT: Social
+
 RESOURCE ID: season19_finale_cosmetic_tr_name
 TEXT: Berry Chic Premium Timed Research
 
@@ -1244,6 +1292,12 @@ TEXT: <b>Included rewards:</b>
 • A Premium Battle Pass
 • 25,000 Stardust
 
+RESOURCE ID: text_rewards_key_megagyaradosraidday
+TEXT: <b>Included bonuses:</b>
+• Eight additional Raid Passes from spinning Photo Discs at Gyms
+• Increased chance to receive Rare Candy XL from raids
+• 50% more XP and 2× Stardust for successfully completing raids
+
 RESOURCE ID: text_rewards_key_munchlax0825
 TEXT: <b>Included rewards:</b>
 • 2 Super Incubators
@@ -1343,11 +1397,17 @@ TEXT: 2025 Pokémon World Championships Scavenger Hunt
 RESOURCE ID: title_wcs_2025_scavenger_hunt_00
 TEXT: 2025 Pokémon World Championships Scavenger Hunt (1/1)
 
-RESOURCE ID: trade_exclusion_reason_friend_reached_daily_limit_temp
+RESOURCE ID: trade_exclusion_reason_friend_reached_daily_limit
 TEXT: Your friend can’t make any more Special Trades today.
 
-RESOURCE ID: trade_exclusion_reason_player_reached_daily_limit_temp
+RESOURCE ID: trade_exclusion_reason_friend_reached_daily_limit_old
+TEXT: Your friend has already made a Special Trade today.
+
+RESOURCE ID: trade_exclusion_reason_player_reached_daily_limit
 TEXT: You can’t make any more Special Trades today.
+
+RESOURCE ID: trade_exclusion_reason_player_reached_daily_limit_out
+TEXT: You’ve already made a Special Trade today.
 
 RESOURCE ID: use_dynamax_cannon_effect
 TEXT: Max Pokémon and Eternatus receive a bonus to their Max Moves.
@@ -1393,4 +1453,195 @@ TEXT: Orange Groves Collection Challenge
 
 RESOURCE ID: wcs_aug25_tr_title
 TEXT: 2025 Worlds Premium Timed Research
+
+RESOURCE ID: weekly_challenges_challenge_almost_complete_in_app_notification
+TEXT: Your weekly challenge is {0} complete and ends soon!
+
+RESOURCE ID: weekly_challenges_choose_group_label
+TEXT: Choose Group
+
+RESOURCE ID: weekly_challenges_claim_reward_button
+TEXT: Claim rewards!
+
+RESOURCE ID: weekly_challenges_create_group_button_label
+TEXT: Create Group
+
+RESOURCE ID: weekly_challenges_create_new_group_label
+TEXT: Invite friends!
+
+RESOURCE ID: weekly_challenges_description
+TEXT: Complete a weekly challenge with other Trainers and earn rewards!
+
+RESOURCE ID: weekly_challenges_encounter_reward_toast
+TEXT: You must claim your Weekly Challenge encounter reward first.
+
+RESOURCE ID: weekly_challenges_entry_all_groups_label
+TEXT: CHOOSE YOUR GROUP
+
+RESOURCE ID: weekly_challenges_error_creating_party
+TEXT: Error. Please try again.
+
+RESOURCE ID: weekly_challenges_error_joining_party
+TEXT: Error. Please try again.
+
+RESOURCE ID: weekly_challenges_friend_level_too_low_for_invite
+TEXT: Trainer needs to be level {0} to join a Weekly Challenge.
+
+RESOURCE ID: weekly_challenges_friend_list_empty
+TEXT: No friends available
+
+RESOURCE ID: weekly_challenges_friend_request_modal_desc
+TEXT: You will become Great Friends when they accept your Friend Request.
+
+RESOURCE ID: weekly_challenges_group_invitation_label
+TEXT: {0} invited you!
+
+RESOURCE ID: weekly_challenges_group_invitation_label_plus_one
+TEXT: {0} and 1 other invited you!
+
+RESOURCE ID: weekly_challenges_group_invitation_label_plus_others
+TEXT: {0} and {1} others invited you!
+
+RESOURCE ID: weekly_challenges_in_app_notification_invite
+TEXT: <b>{0}</b> has invited you to join their weekly challenge group!
+
+RESOURCE ID: weekly_challenges_invite_friends
+TEXT: Invite Friends
+
+RESOURCE ID: weekly_challenges_invite_friends_title
+TEXT: Invite up to {0} friends!
+
+RESOURCE ID: weekly_challenges_invite_push_notification_toggle_title
+TEXT: Challenge Invitations
+
+RESOURCE ID: weekly_challenges_invite_sent_confirmation
+TEXT: Weekly challenge invites sent!
+
+RESOURCE ID: weekly_challenges_join_error_invite_expired_title
+TEXT: Invite Expired
+
+RESOURCE ID: weekly_challenges_join_error_modal_body
+TEXT: Please try joining a different weekly challenge group.
+
+RESOURCE ID: weekly_challenges_join_error_party_full_title
+TEXT: {0}’s Group Is Full
+
+RESOURCE ID: weekly_challenges_join_group_button_label
+TEXT: Join Group
+
+RESOURCE ID: weekly_challenges_join_matchmaking_confirmation_body
+TEXT: You will be paired with up to 3 other Trainers. You can choose to leave and join another group at any time.
+
+RESOURCE ID: weekly_challenges_join_matchmaking_confirmation_title
+TEXT: Are you sure you want to join a group with other Trainers?
+
+RESOURCE ID: weekly_challenges_join_party_confirmation_message
+TEXT: Joining this group will decline all other invites, but you can leave and join another group at any time.
+
+RESOURCE ID: weekly_challenges_join_party_confirmation_title
+TEXT: Are you sure you want to join {0}’s group?
+
+RESOURCE ID: weekly_challenges_join_random_group_label
+TEXT: Find me a group!
+
+RESOURCE ID: weekly_challenges_leave_group_label
+TEXT: Leave Group
+
+RESOURCE ID: weekly_challenges_leave_party_message
+TEXT: If you leave, you won’t receive any challenge rewards, and your score will reset.
+
+RESOURCE ID: weekly_challenges_leave_party_title
+TEXT: Are you sure you want to leave this weekly challenge group?
+
+RESOURCE ID: weekly_challenges_leave_party_toast
+TEXT: You have left the Weekly Challenge group
+
+RESOURCE ID: weekly_challenges_lets_go_button
+TEXT: LET’S GO!
+
+RESOURCE ID: weekly_challenges_matchmaking_finding_player
+TEXT: finding...
+
+RESOURCE ID: weekly_challenges_matchmaking_success_in_app_notification
+TEXT: You have been matched with a Weekly Challenge group!
+
+RESOURCE ID: weekly_challenges_milestone_modal_label
+TEXT: You’ve completed {0}% of the weekly challenge!
+
+RESOURCE ID: weekly_challenges_new_friends_expiry_header
+TEXT: Become Friends for the next Weekly Challenge!
+
+RESOURCE ID: weekly_challenges_new_friends_header
+TEXT: Add these Trainers to become Great Friends!
+
+RESOURCE ID: weekly_challenges_new_social_tab_tutorial_body
+TEXT: Group up with others to complete activities and earn rewards.
+
+RESOURCE ID: weekly_challenges_new_social_tab_tutorial_title
+TEXT: New Social tab has been added!
+
+RESOURCE ID: weekly_challenges_not_available
+TEXT: Check back in next week for a new challenge!
+
+RESOURCE ID: weekly_challenges_pending_invites_plural
+TEXT: {0} total pending invites
+
+RESOURCE ID: weekly_challenges_pending_invites_singular
+TEXT: 1 total pending invite
+
+RESOURCE ID: weekly_challenges_previous_player_progress_multiple
+TEXT: FROM {0} OTHER TRAINERS: {1}
+
+RESOURCE ID: weekly_challenges_previous_player_progress_singular
+TEXT: FROM 1 OTHER TRAINER: {0}
+
+RESOURCE ID: weekly_challenges_progress_in_app_notification_toggle_title
+TEXT: Weekly Challenge Progress
+
+RESOURCE ID: weekly_challenges_progress_push_notification_toggle_title
+TEXT: Challenge Progress
+
+RESOURCE ID: weekly_challenges_reward_preview_description
+TEXT: Complete this week's challenge to claim these rewards!
+
+RESOURCE ID: weekly_challenges_rewards_prefix
+TEXT: REWARDS:
+
+RESOURCE ID: weekly_challenges_ribbon_banner
+TEXT: Weekly Challenge
+
+RESOURCE ID: weekly_challenges_see_details_label
+TEXT: See Details
+
+RESOURCE ID: weekly_challenges_settings_category_title
+TEXT: Weekly Challenges
+
+RESOURCE ID: weekly_challenges_title
+TEXT: Weekly Challenge
+
+RESOURCE ID: weekly_challenges_today_score_title
+TEXT: Today’s Scores
+
+RESOURCE ID: weekly_challenges_tutorial_1_body
+TEXT: Every week a new challenge will be posted. Join a group with up to three other Trainers to complete the challenge within the week and earn rewards!
+
+RESOURCE ID: weekly_challenges_tutorial_1_title
+TEXT: Weekly Challenges
+
+RESOURCE ID: weekly_challenges_tutorial_2_body
+TEXT: Choose the kind of group you want to join!
+1. Get matched with three other Trainers and make new friends
+2. Create a group with your friends
+
+RESOURCE ID: weekly_challenges_tutorial_2_title
+TEXT: Choose a Group
+
+RESOURCE ID: weekly_challenges_tutorial_3_body
+TEXT: Complete weekly challenges with your friends to level up your friendship!
+
+RESOURCE ID: weekly_challenges_tutorial_3_title
+TEXT: Friendship Progress
+
+RESOURCE ID: weekly_challenges_view_invites_label
+TEXT: View Invites
 

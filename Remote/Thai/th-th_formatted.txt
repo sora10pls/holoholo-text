@@ -40,6 +40,9 @@ TEXT: เสื้อยืด WCS 2025 (สีเหลือง)
 RESOURCE ID: avatar_shoes_eternatus
 TEXT: รองเทามุเก็นไดนา
 
+RESOURCE ID: badge_detail_reward_header
+TEXT: Rewards
+
 RESOURCE ID: badge_safari_2025_amsterdam_add_on_hatch
 TEXT: Amsterdam 2025
 
@@ -269,7 +272,7 @@ RESOURCE ID: bonus_desc_machamp_payback
 TEXT: วิวัฒนาการโกริกีเปนไคริกีที่รูทาโจมตีชารจ "เอาคืน"
 
 RESOURCE ID: bonus_dmax_shiny_chance_increase
-TEXT: โอกาสเพิ่มขึ้นที่จะไดเผชิญหนากับโปเกมอนไดแมกซสีแตกตางที่มักพบในแบตเทิลไดแมกซหนึ่งดาวถึงสี่ดาว
+TEXT: โอกาสเพิ่มขึ้นที่จะไดเผชิญหนากับโปเกมอนไดแมกซสีแตกตางในแบตเทิลไดแมกซหนึ่งดาวถึงสี่ดาว
 
 RESOURCE ID: bonus_ee_appearance
 TEXT: มุเก็นไดนา (มุเก็นไดแมกซ) กำลังปรากฏตัวในแบตเทิลแมกซพิเศษ
@@ -373,6 +376,15 @@ TEXT: ปลดล็อก+
 RESOURCE ID: bread_remote_use_rrp_confirmation_no_limits
 TEXT: อนุภาคแมกซจะถูกใชงานเมื่อคุณชนะ สวนบัตรตีบอสระยะไกลจะถูกใชงานเมื่อแบตเทิลเริ่มขึ้น
 
+RESOURCE ID: city_manhole_253
+TEXT: Iitate
+
+RESOURCE ID: city_manhole_255
+TEXT: Futaba
+
+RESOURCE ID: city_manhole_91
+TEXT: Namie
+
 RESOURCE ID: community_day_rookidee_event_name
 TEXT: คอมมิวนิตี้เดย: โคโคการะ
 
@@ -444,6 +456,9 @@ RESOURCE ID: event_datetime_range_key_gbw_wcs_aug25
 TEXT: 15 สิงหาคม เวลา 10:00 น.
 ถึง 17 สิงหาคม เวลา 20:00 น.
 
+RESOURCE ID: event_datetime_range_key_megagyaradosraidday
+TEXT: 31 สิงหาคม เวลา 14:00-17:00 น.
+
 RESOURCE ID: event_datetime_range_key_munchlax0825
 TEXT: 9 สิงหาคม เวลา 11:00-17:00 น.
 
@@ -482,11 +497,26 @@ TEXT: มุเก็นไดนา
 RESOURCE ID: fossil_research_day_event_name
 TEXT: วันวิจัยฟอสซิล
 
+RESOURCE ID: friends_list_pending_invites_section_header
+TEXT: คำเชิญที่รอดำเนินการ
+
+RESOURCE ID: friends_list_section_header
+TEXT: รายชื่อเพื่อน
+
+RESOURCE ID: friends_mutual_friends_count_plural
+TEXT: เพื่อนรวมกัน {0} คน
+
+RESOURCE ID: friends_mutual_friends_count_singular
+TEXT: เพื่อนรวมกัน 1 คน
+
 RESOURCE ID: general1.ticket.2_cozyco25_title
 TEXT: ตั๋วงานวิจัยแบบจำกัดเวลาพรีเมียม: สหายแสนสบาย
 
 RESOURCE ID: general1.ticket.2_fossil_researchtr2025_title
 TEXT: ตั๋วงานวิจัยแบบจำกัดเวลาพรีเมียม: วันวิจัยฟอสซิล
+
+RESOURCE ID: general1.ticket.5_megagyaradosraidday_title
+TEXT: ตั๋ว "วันตีบอสเมกาเกียราดอส"
 
 RESOURCE ID: general1.ticket._adventurewk0729_title
 TEXT: ตั๋วงานวิจัยแบบจำกัดเวลาพรีเมียม: สัปดาหแหงการผจญภัย
@@ -508,6 +538,12 @@ TEXT: ตั๋วงานวิจัยแบบจำกัดเวลา�
 
 RESOURCE ID: general1.ticket_cd_rookidee25_title
 TEXT: ตั๋วโคโคการะคอมมิวนิตี้เดย
+
+RESOURCE ID: general_minutes_remaining
+TEXT: {0}m
+
+RESOURCE ID: general_seconds_remaining
+TEXT: {0}s
 
 RESOURCE ID: go_fest_max_finale_2025_tr_00_00
 TEXT: %PLAYERNAME% ไดพบเธอในชวงเวลา
@@ -603,7 +639,7 @@ TEXT: บัตรผาน GO Deluxe: ฟนาเลแมกซ
 RESOURCE ID: gofest2025_maxfinale_upgrade_description
 TEXT: ซื้อบัตรผาน GO Deluxe: ฟนาเลแมกซเพื่อปลดล็อกรางวัลตอไปนี้!
 
-- โอกาสเพิ่มขึ้นที่จะไดเผชิญหนากับโปเกมอนไดแมกซสีแตกตางที่มักพบในแบตเทิลไดแมกซหนึ่งดาวถึงสี่ดาว
+- โอกาสเพิ่มขึ้นที่จะไดเผชิญหนากับโปเกมอนไดแมกซสีแตกตางในแบตเทิลไดแมกซหนึ่งดาวถึงสี่ดาว
 - ลูกอมและลูกอม XL มุเก็นไดนาจำนวนมาก
 - การเผชิญหนากับโปเกมอนไดแมกซหลายครั้ง
 - ไอเท็มอวาตารหมวกกันน็อกมุเก็นไดนา
@@ -675,9 +711,20 @@ TEXT: ตั๋วสำหรับเขารวมงานวิจ�
 คุณจะสามารถเขารวมไดโดยอัตโนมัติ
 ตามเวลาทองถิ่นทั่วโลก
 
+RESOURCE ID: item_event_ticket_gray_desc_megagyaradosraidday
+TEXT: ตั๋วสำหรับรับโบนัสพิเศษในวันที่
+31 สิงหาคม 2025 เวลา 14:00-17:00 น.
+ตามเวลาทองถิ่นทั่วโลก
+
 RESOURCE ID: item_event_ticket_gray_desc_originraidday
 TEXT: ตั๋วสำหรับรับโบนัสพิเศษในวันที่
 10 สิงหาคม 2025 เวลา 11:00-17:00 น.
+ตามเวลาทองถิ่นทั่วโลก
+
+RESOURCE ID: item_event_ticket_gray_details_megagyaradosraidday
+TEXT: ตั๋วสำหรับรับโบนัสพิเศษ
+ในวันที่ 31 สิงหาคม
+คุณจะสามารถเขารวมไดโดยอัตโนมัติ
 ตามเวลาทองถิ่นทั่วโลก
 
 RESOURCE ID: item_event_ticket_gray_details_originraidday
@@ -754,52 +801,52 @@ RESOURCE ID: kr_lotteworld_collab_sep2025_cc
 TEXT: Sweet Spooky World Collection Challenge
 
 RESOURCE ID: make_good_origin_dialga_desc
-TEXT: Encounter: Origin Forme Dialga
+TEXT: เผชิญหนา: ดีอัลกา (ฟอรมดั้งเดิม)
 
 RESOURCE ID: make_good_origin_dialga_title_001
-TEXT: Encounter: 1 Origin Forme Dialga
+TEXT: เผชิญหนา: ดีอัลกา (ฟอรมดั้งเดิม) 1
+
+RESOURCE ID: make_good_origin_dialga_title_002
+TEXT: เผชิญหนา: ดีอัลกา (ฟอรมดั้งเดิม) 2
+
+RESOURCE ID: make_good_origin_dialga_title_003
+TEXT: เผชิญหนา: ดีอัลกา (ฟอรมดั้งเดิม) 3
+
+RESOURCE ID: make_good_origin_dialga_title_004
+TEXT: เผชิญหนา: ดีอัลกา (ฟอรมดั้งเดิม) 4
+
+RESOURCE ID: make_good_origin_dialga_title_005
+TEXT: เผชิญหนา: ดีอัลกา (ฟอรมดั้งเดิม) 5
+
+RESOURCE ID: make_good_origin_dialga_title_006
+TEXT: เผชิญหนา: ดีอัลกา (ฟอรมดั้งเดิม) 6
+
+RESOURCE ID: make_good_origin_dialga_title_007
+TEXT: เผชิญหนา: ดีอัลกา (ฟอรมดั้งเดิม) 7
 
 RESOURCE ID: make_good_origin_palkia_desc
-TEXT: Encounter: Origin Forme Palkia
+TEXT: เผชิญหนา: พัลเกีย (ฟอรมดั้งเดิม)
 
 RESOURCE ID: make_good_origin_palkia_title_001
-TEXT: Encounter: 1 Origin Forme Palkia
+TEXT: เผชิญหนา: พัลเกีย (ฟอรมดั้งเดิม) 1
 
 RESOURCE ID: make_good_origin_palkia_title_002
-TEXT: Encounter: 2 Origin Forme Palkia
+TEXT: เผชิญหนา: พัลเกีย (ฟอรมดั้งเดิม) 2
 
 RESOURCE ID: make_good_origin_palkia_title_003
-TEXT: Encounter: 3 Origin Forme Palkia
+TEXT: เผชิญหนา: พัลเกีย (ฟอรมดั้งเดิม) 3
 
 RESOURCE ID: make_good_origin_palkia_title_004
-TEXT: Encounter: 4 Origin Forme Palkia
+TEXT: เผชิญหนา: พัลเกีย (ฟอรมดั้งเดิม) 4
 
 RESOURCE ID: make_good_origin_palkia_title_005
-TEXT: Encounter: 5 Origin Forme Palkia
+TEXT: เผชิญหนา: พัลเกีย (ฟอรมดั้งเดิม) 5
 
 RESOURCE ID: make_good_origin_palkia_title_006
-TEXT: Encounter: 6 Origin Forme Palkia
+TEXT: เผชิญหนา: พัลเกีย (ฟอรมดั้งเดิม) 6
 
 RESOURCE ID: make_good_origin_palkia_title_007
-TEXT: Encounter: 7 Origin Forme Palkia
-
-RESOURCE ID: make_good_orign_dialga_title_002
-TEXT: Encounter: 2 Origin Forme Dialga
-
-RESOURCE ID: make_good_orign_dialga_title_003
-TEXT: Encounter: 3 Origin Forme Dialga
-
-RESOURCE ID: make_good_orign_dialga_title_004
-TEXT: Encounter: 4 Origin Forme Dialga
-
-RESOURCE ID: make_good_orign_dialga_title_005
-TEXT: Encounter: 5 Origin Forme Dialga
-
-RESOURCE ID: make_good_orign_dialga_title_006
-TEXT: Encounter: 6 Origin Forme Dialga
-
-RESOURCE ID: make_good_orign_dialga_title_007
-TEXT: Encounter: 7 Origin Forme Dialga
+TEXT: เผชิญหนา: พัลเกีย (ฟอรมดั้งเดิม) 7
 
 RESOURCE ID: maxfinale_2025_ep_bonus_title
 TEXT: โบนัสบัตรผานของบัตรผาน GO: ฟนาเลแมกซ
@@ -814,22 +861,25 @@ RESOURCE ID: maxfinale_2025_ep_bonus_title_02
 TEXT: โบนัสบัตรผาน GO: ฟนาเลแมกซ Tier 3
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-08-16T01:40:12.668833+00:00 for th-TH
-at SHA 9c0f64601d9
-Pipeline 3326251, job 44773631
-Patch from: 0.375.0-SHA-efbdf7b6-RC2, 0.373.2-SHA-2d618a35-RC1
+TEXT: Built at 2025-08-21T01:34:15.421207+00:00 for th-TH
+at SHA f6a1106b4b8
+Pipeline 3332817, job 45040092
+Patch from: 0.373.2-SHA-2d618a35-RC1, 0.375.0-SHA-e10d5ed3-RC4, 0.377.0-SHA-66580fe4-RC1
 
 RESOURCE ID: minicollect_help_desc_type_bread
-TEXT: Collect Dynamax Pokémon.
+TEXT: รวบรวมโปเกมอนไดแมกซ
 
 RESOURCE ID: minicollect_help_desc_type_dough
-TEXT: Collect Gigantamax Pokémon.
+TEXT: รวบรวมโปเกมอนกิกะแมกซ
 
 RESOURCE ID: move_name_0482
 TEXT: ปนใหญไดแมกซ
 
 RESOURCE ID: move_name_0483
 TEXT: ปนใหญไดแมกซ
+
+RESOURCE ID: move_name_0488
+TEXT: Chilling Water
 
 RESOURCE ID: munchlax_hatch_day_event_name
 TEXT: วันฟกไขกอนเบะ
@@ -848,6 +898,9 @@ TEXT: ไมสามารถเผชิญหนา{0}ไดหล�
 
 RESOURCE ID: origin_raid_day_event_name
 TEXT: ปลดล็อกอัลตรา: วันตีบอสดั้งเดิม
+
+RESOURCE ID: party_play_see_details_label
+TEXT: SEE DETAILS
 
 RESOURCE ID: photobomb_five_rookidee
 TEXT: โคโคการะแยงซีนถายรูปในโกสแนปช็อต 5 ครั้ง
@@ -1192,6 +1245,9 @@ TEXT: City Safari: Vancouver 2025 (2/3)
 RESOURCE ID: safari_city_2025_vancouver_title_02
 TEXT: City Safari: Vancouver 2025 (3/3)
 
+RESOURCE ID: screen_social_title
+TEXT: โซเชียล
+
 RESOURCE ID: season19_finale_cosmetic_tr_name
 TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียม: แตงตัวรับลมรอน
 
@@ -1302,6 +1358,13 @@ TEXT: <b>รางวัลที่จะไดรับ:</b>
 - บัตรแบตเทิลพรีเมียม 1 ใบ
 - 25,000 สตารดัสต
 
+RESOURCE ID: text_rewards_key_megagyaradosraidday
+TEXT: <b>โบนัสที่จะไดรับ:</b>
+- บัตรตีบอสเพิ่ม 8 ใบจากการหมุน
+แผนภาพที่ยิม
+- เพิ่มโอกาสไดรับลูกอมประหลาด XL จากตีบอส
+- เพิ่ม XP 50% และ 2× สตารดัสตเมื่อตีบอสเสร็จสิ้น
+
 RESOURCE ID: text_rewards_key_munchlax0825
 TEXT: <b>รางวัลที่จะไดรับ:</b>
 - เครื่องฟกไขชั้นเยี่ยม 2 ชิ้น
@@ -1399,11 +1462,17 @@ TEXT: 2025 Pokémon World Championships: เกมลาสมบัติ
 RESOURCE ID: title_wcs_2025_scavenger_hunt_00
 TEXT: 2025 Pokémon World Championships: เกมลาสมบัติ (1/1)
 
-RESOURCE ID: trade_exclusion_reason_friend_reached_daily_limit_temp
+RESOURCE ID: trade_exclusion_reason_friend_reached_daily_limit
 TEXT: วันนี้เพื่อนของคุณถึงขีดจำกัดสูงสุดแลว จึงไมสามารถแลกเปลี่ยนแบบพิเศษได
 
-RESOURCE ID: trade_exclusion_reason_player_reached_daily_limit_temp
+RESOURCE ID: trade_exclusion_reason_friend_reached_daily_limit_old
+TEXT: วันนี้เพื่อนของคุณไดทำการแลกเปลี่ยนแบบพิเศษไปแลว
+
+RESOURCE ID: trade_exclusion_reason_player_reached_daily_limit
 TEXT: แลกเปลี่ยนแบบพิเศษถึงขีดจำกัดสูงสุดแลว
+
+RESOURCE ID: trade_exclusion_reason_player_reached_daily_limit_out
+TEXT: วันนี้คุณไดทำการแลกเปลี่ยนแบบพิเศษไปแลว
 
 RESOURCE ID: use_dynamax_cannon_effect
 TEXT: ความแรงของทาแมกซของโปเกมอนแมกซและมุเก็นไดนาเพิ่มขึ้น
@@ -1443,4 +1512,195 @@ TEXT: คำทานักสะสมสวนสม
 
 RESOURCE ID: wcs_aug25_tr_title
 TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียม: 2025 WCS
+
+RESOURCE ID: weekly_challenges_challenge_almost_complete_in_app_notification
+TEXT: Your weekly challenge is {0} complete and ends soon!
+
+RESOURCE ID: weekly_challenges_choose_group_label
+TEXT: เลือกกลุม
+
+RESOURCE ID: weekly_challenges_claim_reward_button
+TEXT: รับรางวัล!
+
+RESOURCE ID: weekly_challenges_create_group_button_label
+TEXT: สรางกลุม
+
+RESOURCE ID: weekly_challenges_create_new_group_label
+TEXT: เชิญเพื่อน!
+
+RESOURCE ID: weekly_challenges_description
+TEXT: เทรนเนอร 4 คนรวมมือกันทำคำทาใหเสร็จสิ้น!
+
+RESOURCE ID: weekly_challenges_encounter_reward_toast
+TEXT: You must claim your Weekly Challenge encounter reward first.
+
+RESOURCE ID: weekly_challenges_entry_all_groups_label
+TEXT: CHOOSE YOUR GROUP
+
+RESOURCE ID: weekly_challenges_error_creating_party
+TEXT: เกิดขอผิดพลาด โปรดลองใหมอีกครั้ง
+
+RESOURCE ID: weekly_challenges_error_joining_party
+TEXT: เกิดขอผิดพลาด โปรดลองใหมอีกครั้ง
+
+RESOURCE ID: weekly_challenges_friend_level_too_low_for_invite
+TEXT: Trainer needs to be level {0} to join a Weekly Challenge.
+
+RESOURCE ID: weekly_challenges_friend_list_empty
+TEXT: ไมมีเพื่อนที่เขารวมได
+
+RESOURCE ID: weekly_challenges_friend_request_modal_desc
+TEXT: เมื่ออีกฝายตอบรับคำขอเปนเพื่อน จะกลายเปน "เพื่อนสนิท"
+
+RESOURCE ID: weekly_challenges_group_invitation_label
+TEXT: {0} ไดเชิญคุณ!
+
+RESOURCE ID: weekly_challenges_group_invitation_label_plus_one
+TEXT: {0} and 1 other invited you!
+
+RESOURCE ID: weekly_challenges_group_invitation_label_plus_others
+TEXT: {0} and {1} others invited you!
+
+RESOURCE ID: weekly_challenges_in_app_notification_invite
+TEXT: <b>{0}</b> ไดเชิญใหคุณเขารวมกลุมคำทารายสัปดาห!
+
+RESOURCE ID: weekly_challenges_invite_friends
+TEXT: เชิญเพื่อน
+
+RESOURCE ID: weekly_challenges_invite_friends_title
+TEXT: เชิญเพื่อน (สูงสุด {0} คน)
+
+RESOURCE ID: weekly_challenges_invite_push_notification_toggle_title
+TEXT: คำเชิญ
+
+RESOURCE ID: weekly_challenges_invite_sent_confirmation
+TEXT: สงคำเชิญคำทารายสัปดาหแลว
+
+RESOURCE ID: weekly_challenges_join_error_invite_expired_title
+TEXT: คำเชิญหมดอายุแลว
+
+RESOURCE ID: weekly_challenges_join_error_modal_body
+TEXT: โปรดเขารวมกลุมคำทารายสัปดาหอื่น
+
+RESOURCE ID: weekly_challenges_join_error_party_full_title
+TEXT: กลุมของ {0} เต็มแลว
+
+RESOURCE ID: weekly_challenges_join_group_button_label
+TEXT: เขารวมกลุม
+
+RESOURCE ID: weekly_challenges_join_matchmaking_confirmation_body
+TEXT: You will be paired with up to 3 other Trainers. You can choose to leave and join another group at any time.
+
+RESOURCE ID: weekly_challenges_join_matchmaking_confirmation_title
+TEXT: Are you sure you want to join a group with other Trainers?
+
+RESOURCE ID: weekly_challenges_join_party_confirmation_message
+TEXT: เมื่อเขารวมกลุมนี้จะไมสามารถตอบรับคำเชิญอื่นได คุณสามารถออกจากกลุมและไปเขารวมกลุมอื่นไดทุกเมื่อ
+
+RESOURCE ID: weekly_challenges_join_party_confirmation_title
+TEXT: เขารวมกลุมของ {0} หรือไม?
+
+RESOURCE ID: weekly_challenges_join_random_group_label
+TEXT: หาผูเขารวม!
+
+RESOURCE ID: weekly_challenges_leave_group_label
+TEXT: ออกจากกลุม
+
+RESOURCE ID: weekly_challenges_leave_party_message
+TEXT: จะไมสามารถรับรางวัลหลังคำทาเสร็จสิ้นได และคะแนนก็จะถูกรีเซ็ตดวยเชนกัน
+
+RESOURCE ID: weekly_challenges_leave_party_title
+TEXT: ออกจากกลุมคำทารายสัปดาหนี้หรือไม?
+
+RESOURCE ID: weekly_challenges_leave_party_toast
+TEXT: You have left the Weekly Challenge group
+
+RESOURCE ID: weekly_challenges_lets_go_button
+TEXT: เริ่มคำทา!
+
+RESOURCE ID: weekly_challenges_matchmaking_finding_player
+TEXT: finding...
+
+RESOURCE ID: weekly_challenges_matchmaking_success_in_app_notification
+TEXT: You have been matched with a Weekly Challenge group!
+
+RESOURCE ID: weekly_challenges_milestone_modal_label
+TEXT: คำทารายสัปดาหเสร็จสิ้น {0}%!
+
+RESOURCE ID: weekly_challenges_new_friends_expiry_header
+TEXT: Become Friends for the next Weekly Challenge!
+
+RESOURCE ID: weekly_challenges_new_friends_header
+TEXT: เพิ่มเปนเพื่อนแลวเปน "เพื่อนสนิท" กันเถอะ!
+
+RESOURCE ID: weekly_challenges_new_social_tab_tutorial_body
+TEXT: Group up with others to complete activities and earn rewards.
+
+RESOURCE ID: weekly_challenges_new_social_tab_tutorial_title
+TEXT: New Social tab has been added!
+
+RESOURCE ID: weekly_challenges_not_available
+TEXT: Check back in next week for a new challenge!
+
+RESOURCE ID: weekly_challenges_pending_invites_plural
+TEXT: คำเชิญที่รอดำเนินการ {0} รายการ
+
+RESOURCE ID: weekly_challenges_pending_invites_singular
+TEXT: คำเชิญที่รอดำเนินการ 1 รายการ
+
+RESOURCE ID: weekly_challenges_previous_player_progress_multiple
+TEXT: FROM {0} OTHER TRAINERS: {1}
+
+RESOURCE ID: weekly_challenges_previous_player_progress_singular
+TEXT: FROM 1 OTHER TRAINER: {0}
+
+RESOURCE ID: weekly_challenges_progress_in_app_notification_toggle_title
+TEXT: Weekly Challenge Progress
+
+RESOURCE ID: weekly_challenges_progress_push_notification_toggle_title
+TEXT: Challenge Progress
+
+RESOURCE ID: weekly_challenges_reward_preview_description
+TEXT: Complete this week's challenge to claim these rewards!
+
+RESOURCE ID: weekly_challenges_rewards_prefix
+TEXT: รางวัล: 
+
+RESOURCE ID: weekly_challenges_ribbon_banner
+TEXT: Weekly Challenge
+
+RESOURCE ID: weekly_challenges_see_details_label
+TEXT: ดูรายละเอียด
+
+RESOURCE ID: weekly_challenges_settings_category_title
+TEXT: Weekly Challenges
+
+RESOURCE ID: weekly_challenges_title
+TEXT: คำทารายสัปดาห
+
+RESOURCE ID: weekly_challenges_today_score_title
+TEXT: คะแนนของวันนี้
+
+RESOURCE ID: weekly_challenges_tutorial_1_body
+TEXT: คำทาใหมจะปรากฏขึ้นทุกสัปดาห เขารวมกลุมกับเทรนเนอรอีกสูงสุด 3 คน แลวทำคำทาใหเสร็จสิ้นภายในเวลาเพื่อรับรางวัล!
+
+RESOURCE ID: weekly_challenges_tutorial_1_title
+TEXT: คำทารายสัปดาห
+
+RESOURCE ID: weekly_challenges_tutorial_2_body
+TEXT: เลือกวิธีเขารวมจากวิธีดังตอไปนี้
+1. จับกลุมกับเทรนเนอรอื่นอีก 3 คน
+2. สรางกลุมกับเพื่อน
+
+RESOURCE ID: weekly_challenges_tutorial_2_title
+TEXT: เขารวมกลุม
+
+RESOURCE ID: weekly_challenges_tutorial_3_body
+TEXT: เมื่อทำคำทารายสัปดาหเสร็จสิ้น ระดับมิตรภาพกับเพื่อนจะเพิ่มขึ้น
+
+RESOURCE ID: weekly_challenges_tutorial_3_title
+TEXT: ระดับมิตรภาพคืบหนา
+
+RESOURCE ID: weekly_challenges_view_invites_label
+TEXT: ดูคำเชิญ
 
