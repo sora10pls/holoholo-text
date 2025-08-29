@@ -22,11 +22,33 @@ TEXT: Casquette victoire Mondiaux 2025
 RESOURCE ID: avatar_hat_wcs2025visor
 TEXT: Visière Mondiaux 2025
 
+RESOURCE ID: avatar_n_backpack_clemont
+TEXT: Sac à dos style Lem
+
+RESOURCE ID: avatar_n_glasses_clemont
+TEXT: Lunettes style Lem
+
+RESOURCE ID: avatar_n_shirt_clemont
+TEXT: Tenue style Lem
+
+RESOURCE ID: avatar_n_shirt_concierge
+TEXT: Chemise aloha de Haru
+La réceptionniste Pokémon
+
+RESOURCE ID: avatar_n_shoes_clemont
+TEXT: Chaussures style Lem
+
 RESOURCE ID: avatar_pants_eternatus
 TEXT: Pantalon Éthernatos
 
 RESOURCE ID: avatar_pants_wcs2025champion
 TEXT: Pantalon victoire Mondiaux 2025
+
+RESOURCE ID: avatar_pose_concierge
+TEXT: Pose étirements
+
+RESOURCE ID: avatar_pose_s20gbl
+TEXT: Pose Lem
 
 RESOURCE ID: avatar_shirt_eternatus
 TEXT: Haut Éthernatos
@@ -424,8 +446,8 @@ RESOURCE ID: event_datetime_range_key_cd_flabebe25
 TEXT: Le 14 septembre de 14h à 17h
 
 RESOURCE ID: event_datetime_range_key_conciergecb0925
-TEXT: Du 16 septembre à 10h
-au 22 septembre à 20h
+TEXT: Du 9 septembre à 10h
+au 14 septembre à 20h
 
 RESOURCE ID: event_datetime_range_key_gbw_wcs_aug25
 TEXT: Du 15 août à 10h
@@ -644,7 +666,7 @@ RESOURCE ID: incubator_recap_title
 TEXT: Ton Incubateur ponctuel est arrivé à expiration
 
 RESOURCE ID: item_event_ticket_evergreen_desc_conciergecb0925
-TEXT: Un ticket pour accéder à l’Étude ponctuelle premium En bord de mer jusqu’au 22 septembre 2025 à 20h, heure locale, où que tu sois.
+TEXT: Un ticket pour accéder à l’Étude ponctuelle premium En bord de mer jusqu’au 14 septembre 2025 à 20h, heure locale, où que tu sois.
 
 RESOURCE ID: item_event_ticket_evergreen_desc_gbw_wcs_aug25
 TEXT: Un ticket pour accéder à l’Étude ponctuelle premium Mondiaux 2025 du 15 août à 10h au 17 août 2025 à 20h (heures locales), où que tu sois.
@@ -659,7 +681,7 @@ RESOURCE ID: item_event_ticket_evergreen_desc_sunkissedetr0825
 TEXT: Un ticket pour accéder à l’Étude ponctuelle premium Rivages ensoleillés jusqu’au 31 août 2025 à 20h, heure locale, où que tu sois.
 
 RESOURCE ID: item_event_ticket_evergreen_details_conciergecb0925
-TEXT: Ce ticket s’activera automatiquement le 16 septembre pour te donner accès à l’Étude ponctuelle premium En bord de mer, où que tu sois.
+TEXT: Ce ticket s’activera automatiquement le 9 septembre pour te donner accès à l’Étude ponctuelle premium En bord de mer, où que tu sois.
 
 RESOURCE ID: item_event_ticket_evergreen_details_gbw_wcs_aug25
 TEXT: Ce ticket s’activera automatiquement le 15 août pour te donner accès à l’Étude ponctuelle premium Mondiaux 2025, où que tu sois.
@@ -817,10 +839,10 @@ RESOURCE ID: maxfinale_2025_ep_bonus_title_02
 TEXT: Bonus du Passe GO : Finale Max échelon 3
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-08-29T01:21:32.569274+00:00 for fr-FR
-at SHA eed1f4ac17a
-Pipeline 3346239, job 45549933
-Patch from: 0.375.1-SHA-209d97be-RC1, 0.377.0-SHA-bc176ae7-RC3
+TEXT: Built at 2025-08-29T23:21:27.944320+00:00 for fr-FR
+at SHA cde95d30a7a
+Pipeline 3347785, job 45617830
+Patch from: 0.377.0-SHA-66580fe4-RC1, 0.375.2-SHA-ba322e6e-RC2
 
 RESOURCE ID: minicollect_help_desc_type_bread
 TEXT: Obtiens des Pokémon Dynamax.
@@ -1067,6 +1089,73 @@ TEXT: Gagne un Raid de niveau 1
 
 RESOURCE ID: quest_raid_t3_win
 TEXT: Gagne un Raid de niveau 3
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_10
+TEXT: Ce poème fait allusion aux deux formes de Hoopa : Hoopa Enchaîné et Hoopa Déchaîné.
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_11
+TEXT: Et je ressens un pouvoir mystérieux émanant de la bouteille. Ses motifs rappellent ceux de Hoopa, tu ne trouves pas ?
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_12
+TEXT: Je suis surexcité ! Ça fait un moment qu’on essaie d’en savoir plus sur Hoopa, et j’ai l’impression que c’est la dernière pièce du puzzle.
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_13
+TEXT: Bien entendu, %PLAYERNAME%, j’aurai besoin de ton aide pour tout comprendre.
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_14
+TEXT: Essaie d’en apprendre plus sur le terrain, et je resterai ici pour analyser le poème et la bouteille.
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_8
+TEXT: Et sous cette forme, il restera 
+Jusqu’à ce qu’une offrande tu fasses une seconde fois.
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_9
+TEXT: La poésie n’est pas mon fort, mais la rime est plutôt jolie.
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_1_0
+TEXT: Merci pour ton aide, %PLAYERNAME%.
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_1_1
+TEXT: J’ai analysé le poème et la bouteille à laquelle il était attaché, et j’ai quelque chose à partager.
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_1_2
+TEXT: Le poème semble donner des indices sur la façon de changer la forme de Hoopa, et je crois que la bouteille joue un rôle dans ce processus.
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_1_3
+TEXT: Cela dit, les pouvoirs de la bouteille semblent être en sommeil. Mais avec plus de recherche, je sais que nous trouverons comment l’utiliser pour changer la forme de Hoopa.
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_1_4
+TEXT: Après tout ce que nous avons surmonté pour en arriver là, je ne doute pas que nous y arriverons.
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_1_5
+TEXT: Tu veux bien m’aider, pour qu’on puisse voir l’autre forme de Hoopa ?
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_0
+TEXT: Eurêka ! %PLAYERNAME%, je viens d’avoir une idée de génie.
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_1
+TEXT: Tu te souviens de ces vers du poème ? 
+« Offre des sucreries et de la poussière que tu as trouvées. 
+Pour que la forme de Hoopa soit déchaînée. »
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_2
+TEXT: Je crois que le poème nous dit d’utiliser les Bonbons Hoopa et des Poussières Étoiles pour changer la forme de Hoopa.
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_3
+TEXT: Tu peux obtenir des Poussières Étoiles en attrapant des Pokémon et en participant à des Raids, mais tu ne peux obtenir des Bonbons Hoopa qu’en partant à l’aventure avec Hoopa comme copain.
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_4
+TEXT: Heureusement, j’ai réussi à convertir les pouvoirs de la bouteille en Bonbons Hoopa. Une fois que tu auras tout ce qu’il te faut, tu pourras transformer ton Hoopa Enchaîné en Hoopa Déchaîné.
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_5
+TEXT: Un autre passage du poème semble pertinent ici :
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_6
+TEXT: « Et sous cette forme, il restera 
+Jusqu’à ce qu’une offrande tu fasses une seconde fois. »
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_7
+TEXT: On dirait que tu auras aussi besoin de Bonbons Hoopa et de Poussières Étoiles pour retransformer Hoopa Déchaîné en Hoopa Enchaîné, mais sans doute pas autant.
 
 RESOURCE ID: quest_title_flabebe
 TEXT: Pouvoir floral

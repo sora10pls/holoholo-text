@@ -22,11 +22,33 @@ TEXT: หมวกแชมเป้ยน WCS 2025
 RESOURCE ID: avatar_hat_wcs2025visor
 TEXT: หมวกกันแดด WCS 2025
 
+RESOURCE ID: avatar_n_backpack_clemont
+TEXT: กระเปาเปสไตลซีตรอง
+
+RESOURCE ID: avatar_n_glasses_clemont
+TEXT: แวนตาสไตลซีตรอง
+
+RESOURCE ID: avatar_n_shirt_clemont
+TEXT: ชุดสไตลซีตรอง
+
+RESOURCE ID: avatar_n_shirt_concierge
+TEXT: โปเกมอน คอนเซียรจ
+เสื้อเชิ้ตอโลฮาของฮารุ
+
+RESOURCE ID: avatar_n_shoes_clemont
+TEXT: รองเทาสไตลซีตรอง
+
 RESOURCE ID: avatar_pants_eternatus
 TEXT: กางเกงมุเก็นไดนา
 
 RESOURCE ID: avatar_pants_wcs2025champion
 TEXT: กางเกงแชมเป้ยน WCS 2025
+
+RESOURCE ID: avatar_pose_concierge
+TEXT: ทาโพสยืดเหยียด
+
+RESOURCE ID: avatar_pose_s20gbl
+TEXT: ทาโพสซีตรอง
 
 RESOURCE ID: avatar_shirt_eternatus
 TEXT: เสื้อมุเก็นไดนา
@@ -424,8 +446,8 @@ RESOURCE ID: event_datetime_range_key_cd_flabebe25
 TEXT: 14 กันยายน เวลา 14:00-17:00 น.
 
 RESOURCE ID: event_datetime_range_key_conciergecb0925
-TEXT: 16 กันยายน เวลา 10:00 น. ถึง
-22 กันยายน เวลา 20:00 น.
+TEXT: 9 กันยายน เวลา 10:00 น. ถึง
+14 กันยายน เวลา 20:00 น.
 
 RESOURCE ID: event_datetime_range_key_gbw_wcs_aug25
 TEXT: 15 สิงหาคม เวลา 10:00 น.
@@ -676,7 +698,7 @@ TEXT: เครื่องฟกไขจำกัดเวลาหม�
 
 RESOURCE ID: item_event_ticket_evergreen_desc_conciergecb0925
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลาพรีเมียม: ริมหาด
-ถึงวันที่ 22 กันยายน 2025 เวลา 20:00 น. ตามเวลาทองถิ่นทั่วโลก
+ถึงวันที่ 14 กันยายน 2025 เวลา 20:00 น. ตามเวลาทองถิ่นทั่วโลก
 
 RESOURCE ID: item_event_ticket_evergreen_desc_gbw_wcs_aug25
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลาพรีเมียม: 2025 WCS
@@ -697,7 +719,7 @@ TEXT: ตั๋วสำหรับเขารวมงานวิจ�
 
 RESOURCE ID: item_event_ticket_evergreen_details_conciergecb0925
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลาพรีเมียม: ริมหาด
-ในวันที่ 16 กันยายน
+ในวันที่ 9 กันยายน
 คุณจะสามารถเขารวมไดโดยอัตโนมัติ
 ตามเวลาทองถิ่นทั่วโลก
 
@@ -889,10 +911,10 @@ RESOURCE ID: maxfinale_2025_ep_bonus_title_02
 TEXT: โบนัสบัตรผาน GO: ฟนาเลแมกซ Tier 3
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-08-29T01:21:32.569274+00:00 for th-TH
-at SHA eed1f4ac17a
-Pipeline 3346239, job 45549933
-Patch from: 0.375.1-SHA-209d97be-RC1, 0.377.0-SHA-bc176ae7-RC3
+TEXT: Built at 2025-08-29T23:21:27.944320+00:00 for th-TH
+at SHA cde95d30a7a
+Pipeline 3347785, job 45617830
+Patch from: 0.377.0-SHA-66580fe4-RC1, 0.375.2-SHA-ba322e6e-RC2
 
 RESOURCE ID: minicollect_help_desc_type_bread
 TEXT: รวบรวมโปเกมอนไดแมกซ
@@ -1148,6 +1170,94 @@ TEXT: ชนะตีบอสหนึ่งดาว
 
 RESOURCE ID: quest_raid_t3_win
 TEXT: ชนะตีบอสสามดาว
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_10
+TEXT: บทกวีสอดคลองกับขอเท็จจริงที่วาฮูปามีหลายรางคือ
+ฮูปารางถูกผนึก และ ฮูปารางปลดปลอย
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_11
+TEXT: ยิ่งไปกวานั้น ฉันรูสึกถึง...พลังลึกลับที่เล็ดลอดออกมา
+จากไห ลวดลายบนมันชวนใหนึกถึงฮูปา
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_12
+TEXT: เรื่องนี้ทำใหฉันตื่นเตนสุด ๆ ไปเลย! เราพยายามศึกษา
+เกี่ยวกับฮูปากันมาระยะหนึ่งแลว และไมแนวานี่อาจเปน
+จิ๊กซอวชิ้นสุดทายของปริศนาก็เปนได
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_13
+TEXT: แนนอนวาฉันคงตองขอความรวมมือ
+จาก %PLAYERNAME% ดวย!
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_14
+TEXT: ชวยออกไปตรวจสอบขางนอกดูหนอยไดไหม? สวนฉัน
+จะพยายามไขปริศนาของบทกวีและไหนี่ตอไป
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_8
+TEXT: And in this form it shall remain 
+Until an offering is made again.
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_9
+TEXT: ฉันไมคอยถนัดพวกบทกวีเทาไหร
+แตก็ไมเลวใชไหมละ!
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_1_0
+TEXT: ขอบคุณนะ %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_1_1
+TEXT: ฉันวิเคราะหไหและบทกวีที่มากับมันจนคนพบ
+อะไรบางอยางแลวละ
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_1_2
+TEXT: ดูเหมือวาบทกวีจะบอกใบเกี่ยวกับวิธีการเปลี่ยนราง
+ของฮูปา และฉันเชื่อวาไหนี้นาจะมีสวนเกี่ยวของ
+ในกระบวนการนั้น
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_1_3
+TEXT: ถาเราสามารถหาทางดึงพลังของไหนี้ได
+เราตองเปลี่ยนรางของฮูปาไดแน!
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_1_4
+TEXT: เราไขปริศนามาไดถึงจุดนี้แลว ฉันเชื่อวารอบนี้
+เราก็ตองทำไดอีกอยางแนนอน
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_1_5
+TEXT: เธอชวยออกไปตรวจสอบเพิ่มเติมหนอยไดไหม?
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_0
+TEXT: สำเร็จ! %PLAYERNAME%
+นี่เปนการคนพบครั้งใหญเลยละ
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_1
+TEXT: จำบทกวีสวนที่กลาวถึงของหวานและผงไดไหม?
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_2
+TEXT: ดูเหมือนมันจะหมายความวาเราตองใชลูกอมฮูปา
+และสตารดัสตในการเปลี่ยนรางละ!
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_3
+TEXT: เธอสามารถสะสมสตารดัสตไดโดยการจับโปเกมอน
+และตอสูในการตีบอส แตลูกอมฮูปาสามารถหาไดจาก
+การออกผจญภัยรวมกับฮูปาในฐานะคูหูเทานั้น
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_4
+TEXT: โชคดีที่ฉันสามารถแปลงพลังของไหเปนลูกอมฮูปาได
+เมื่อเธอรวบรวมทุกอยางครบแลวก็จะสามารถเปลี่ยน
+ฮูปารางถูกผนึกปนฮูปารางปลดปลอยไดละ
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_5
+TEXT: มีบทกวีอีกสวนที่ฉันคิดวานาจะมีความเกี่ยวของ
+กับการเปลี่ยนรางเชนกัน
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_6
+TEXT: «Когда время настанет 
+Вернуться к форме исходной, 
+Примени то же самое – 
+Станет Хуппа вновь Заключённым.»
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_7
+TEXT: ดูเหมือนวาเธอจะตองใชลูกอมฮูปาและสตารดัสต
+เพื่อเปลี่ยนฮูปารางปลดปลอยกลับเปนฮูปารางถูกผนึก
+แตฉันวาเราอาจจะไมตองใชของในปริมาณเทาเดิม
 
 RESOURCE ID: quest_title_flabebe
 TEXT: พลังดอกไม
