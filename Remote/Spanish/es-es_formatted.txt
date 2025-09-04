@@ -72,7 +72,7 @@ RESOURCE ID: avatar_shoes_eternatus
 TEXT: Zapatos de Eternatus
 
 RESOURCE ID: badge_detail_reward_header
-TEXT: Rewards
+TEXT: Recompensas
 
 RESOURCE ID: badge_event_0144
 TEXT: Investigación de socio de Historias de Transformación: FamilyMart
@@ -413,6 +413,14 @@ TEXT: 7 de septiembre de 14:00 a 17:00.
 RESOURCE ID: event_datetime_range_key_originraidday
 TEXT: 10 de agosto de 11:00 a 17:00
 
+RESOURCE ID: event_datetime_range_key_psychicspectgr
+TEXT: Del 16 de septiembre a las 00:00 al
+21 de septiembre a las 23:59.
+
+RESOURCE ID: event_datetime_range_key_shadowgroudonraidweekend
+TEXT: Del 20 de septiembre a las 06:00 al
+21 de septiembre a las 22:00.
+
 RESOURCE ID: event_datetime_range_key_sunkissedctr0825
 TEXT: Del 25 de agosto a las 10:00 al
 31 de agosto a las 20:00.
@@ -434,7 +442,7 @@ RESOURCE ID: event_season20_name
 TEXT: Temporada actual: Historias de Transformación
 
 RESOURCE ID: friends_list_pending_invites_section_header
-TEXT: Invitaciones pendientes
+TEXT: Tus invitaciones pendientes
 
 RESOURCE ID: friends_list_section_header
 TEXT: Lista de amistades
@@ -447,6 +455,9 @@ TEXT: 1 amistad en común
 
 RESOURCE ID: general1.ticket.5_megagyaradosraidday_title
 TEXT: Entrada: Día de Incursiones de Mega-Gyarados
+
+RESOURCE ID: general1.ticket.5_psychicspectgr_title
+TEXT: Entrada: Investigación temporal prémium de Psicoespectáculo: Toma de control
 
 RESOURCE ID: general1.ticket._gbw_wcs_aug25_title
 TEXT: Entrada: Investigación temporal prémium del Mundial 2025
@@ -473,10 +484,10 @@ RESOURCE ID: general2.ticket._gowa25_title
 TEXT: Entrada: Área Silvestre de Pokémon GO 2025 (Global)
 
 RESOURCE ID: general_minutes_remaining
-TEXT: {0}M
+TEXT: {0} min
 
 RESOURCE ID: general_seconds_remaining
-TEXT: {0}S
+TEXT: {0} s
 
 RESOURCE ID: go_fest_max_finale_2025_tr_00_00
 TEXT: %PLAYERNAME%, ¡qué alegría verte en estos tiempos tan convulsos! Esta tormenta no se parece a ninguna otra que haya visto antes.
@@ -569,6 +580,9 @@ TEXT: Pase de GO deluxe: Clausura Max
 RESOURCE ID: great_league_championship_series
 TEXT: Copa Serie de Campeonatos 2025
 
+RESOURCE ID: groudon shadow raid weekend ticket
+TEXT: Entrada: Fin semana de incursiones de Groudon
+
 RESOURCE ID: increased_mega_form_duration_bonus
 TEXT: Triple de duración de la megaevolución
 
@@ -644,11 +658,23 @@ TEXT: Una entrada para acceder a bonus especiales el 7 de septiembre de 2025 de 
 RESOURCE ID: item_event_ticket_gray_desc_originraidday
 TEXT: Una entrada para acceder a bonus especiales el domingo 10 de agosto de 2025 de 11:00 a 17:00 en tu hora local, estés donde estés.
 
+RESOURCE ID: item_event_ticket_gray_desc_psychicspectgr
+TEXT: Una entrada para acceder a la investigación temporal prémium de Psicoespectáculo: Toma de control hasta el 21 de septiembre de 2025 a las 23:59 en tu hora local, estés donde estés.
+
+RESOURCE ID: item_event_ticket_gray_desc_shadowgroudonraidweekend
+TEXT: Una entrada para acceder a bonus especiales hasta el 21 de septiembre de 2025 a las 22:00 en tu hora local, estés donde estés.
+
 RESOURCE ID: item_event_ticket_gray_details_megagyaradosraidday
 TEXT: Esta entrada se activará automáticamente para darte acceso a los bonus especiales el 31 de agosto, estés donde estés.
 
 RESOURCE ID: item_event_ticket_gray_details_megasharpedoraidday
 TEXT: Esta entrada se activará automáticamente para darte acceso a bonus especiales el 7 de septiembre, estés donde estés.
+
+RESOURCE ID: item_event_ticket_gray_details_psychicspectgr
+TEXT: Esta entrada se activará automáticamente el 16 de septiembre para darte acceso a la investigación temporal prémium de Psicoespectáculo: Toma de control, estés donde estés.
+
+RESOURCE ID: item_event_ticket_gray_details_shadowgroudonraidweekend
+TEXT: Esta entrada se activará automáticamente para darte acceso a bonus especiales el 20 de septiembre, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_desc_cd_flabebe25
 TEXT: Una entrada para acceder a la investigación especial del Día de la Comunidad de Flabébé, Flower Power, desde el 14 de septiembre a las 14:00 en tu hora local, estés donde estés.
@@ -761,10 +787,10 @@ RESOURCE ID: max_battle_win_plus3000_bonus
 TEXT: 3000 PX adicionales al completar Combates Max
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-08-29T23:21:27.944320+00:00 for es-ES
-at SHA cde95d30a7a
-Pipeline 3347785, job 45617830
-Patch from: 0.377.0-SHA-66580fe4-RC1, 0.375.2-SHA-ba322e6e-RC2
+TEXT: Built at 2025-09-04T01:12:26.097492+00:00 for es-ES
+at SHA 6b7180c52dc
+Pipeline 3352975, job 45800320
+Patch from: 0.375.2-SHA-ba322e6e-RC2, 0.377.0-SHA-66580fe4-RC1, 0.379.0-SHA-c9f2d815-RC1
 
 RESOURCE ID: minicollect_help_desc_type_bread
 TEXT: Consigue Pokémon Dinamax.
@@ -775,8 +801,11 @@ TEXT: Consigue Pokémon Gigamax.
 RESOURCE ID: move_name_0488
 TEXT: Agua Fría
 
+RESOURCE ID: news_feed_featured_tag
+TEXT: FEATURED
+
 RESOURCE ID: party_play_see_details_label
-TEXT: SEE DETAILS
+TEXT: MÁS INFORMACIÓN
 
 RESOURCE ID: photobomb_five_flabebe
 TEXT: 5 encuentros sorpresa con Flabébé al usar Instantánea de GO
@@ -807,6 +836,36 @@ TEXT: Se alimenta de la energía que brota de la tierra de Galar absorbiéndola 
 
 RESOURCE ID: profile_banner_level_updates
 TEXT: ¡Se avecinan cambios en los niveles de Entrenador! Obtén más información <a href="https://pokemongo.com/post/pgo-leveling-update-announce-2025">aquí</a>.
+
+RESOURCE ID: psychic_spec_tgr_paid_tr
+TEXT: Investigación temporal prémium: Psicoespectáculo
+
+RESOURCE ID: psychic_spec_tgr_paid_tr_1
+TEXT: Investigación temporal prémium: Psicoespectáculo (1/2)
+
+RESOURCE ID: psychic_spec_tgr_paid_tr_2
+TEXT: Investigación temporal prémium: Psicoespectáculo (2/2)
+
+RESOURCE ID: psychic_spectacular_tgr_event_name
+TEXT: Psicoespectáculo: Toma de control
+
+RESOURCE ID: psychic_spectacular_tgr_sr_1
+TEXT: Psicoespectáculo: Toma de control (1/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_2
+TEXT: Psicoespectáculo: Toma de control (2/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_3
+TEXT: Psicoespectáculo: Toma de control (3/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_4
+TEXT: Psicoespectáculo: Toma de control (4/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_5
+TEXT: Psicoespectáculo: Toma de control (5/5)
+
+RESOURCE ID: psychic_tgr_takeover_collection_challenge
+TEXT: Desafío de colección de Psicoespectáculo: Un tono oscuro
 
 RESOURCE ID: quest_battle_bug_charge_plural
 TEXT: Usa un ataque cargado de tipo Bicho en {0} combates
@@ -930,6 +989,9 @@ TEXT: Captura un Bulbasaur, Charmander o Squirtle
 
 RESOURCE ID: quest_catch_pokemon_galar
 TEXT: Captura {0} Pokémon originalmente descubiertos en la región de Galar
+
+RESOURCE ID: quest_catch_solrock_lunatone_plural
+TEXT: Captura {0} Solrock o Lunatone
 
 RESOURCE ID: quest_catch_water_fighting_plural
 TEXT: Captura {0} Pokémon de tipo Agua o Lucha
@@ -1173,7 +1235,7 @@ RESOURCE ID: rally_paris_2025_title
 TEXT: Caza de sellos de París
 
 RESOURCE ID: rewarded_spend_helpshift_blog_url
-TEXT: https://pokemongo.com/es/news/eggs-pedition-access-july-2025
+TEXT: https://pokemongo.com/news/go-pass-september-2025#rewardroad
 
 RESOURCE ID: s19_tgr_takeover_collection_challenge
 TEXT: Desafío de colección
@@ -1323,6 +1385,9 @@ TEXT: ¡Adquiere el Pase de GO deluxe de septiembre para desbloquear las siguien
 •  Una <a href="https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/2358-incubators-hatching-pokemon-eggs/">Incubadora Temporal</a>, que es una Incubadora adicional sin límite que dura un tiempo limitado para eclosionar Huevos mientras exploras
 • ¡Y mucho más!
 
+RESOURCE ID: shadow_raid_weekend_groudon_event_name
+TEXT: Fin de semana de incursiones oscuras: Groudon
+
 RESOURCE ID: slulo_event_title
 TEXT: Festival de PX
 
@@ -1361,6 +1426,9 @@ TEXT: Hasta {0} intercambios especiales al día.
 
 RESOURCE ID: special_trade_remaining_select
 TEXT: Intercambios especiales restantes: {0}
+
+RESOURCE ID: stardust_cost_trade_reduced_bonus
+TEXT: Coste reducido de Polvos Estelares en los intercambios
 
 RESOURCE ID: sunkissed_shores_event_name
 TEXT: Costa soleada
@@ -1423,6 +1491,17 @@ TEXT: <b>Bonus incluidos:</b>
 • Mayor probabilidad de recibir Caramelos Raros ++ en incursiones
 • 50 % más PX y el doble de Polvos Estelares al ganar incursiones
 
+RESOURCE ID: text_rewards_key_psychicspectgr
+TEXT: <b>Recompensas incluidas:</b>
+• Encuentros con Slowpoke, Gothita, Solosis, Oranguru, Hatenna, Wyrdeer ¡y más Pokémon!
+• 2 Pases de combate prémium
+• 1 Superradar Rocket
+
+RESOURCE ID: text_rewards_key_shadowgroudonraidweekend
+TEXT: <b>Bonus incluidos:</b>
+• Cinco Pases de incursión adicionales al dar vueltas a fotodiscos en Gimnasios
+• 50 % más PX y el doble de Polvos Estelares al ganar incursiones
+
 RESOURCE ID: text_rewards_key_sunkissedctr0825
 TEXT: <b>Recompensas incluidas:</b>
 • Encuentros con Shellder y Marowak de Alola
@@ -1458,6 +1537,9 @@ TEXT: Tareas de cada hora del Pase de GO: Clausura Max
 RESOURCE ID: title_tr_go_fest_max_finale_2025_00
 TEXT: Investigación temporal del Festival de GO: Clausura Max (1/2)
 
+RESOURCE ID: trade_day_event_name
+TEXT: Día de intercambios
+
 RESOURCE ID: trade_exclusion_reason_friend_reached_daily_limit
 TEXT: Esta persona no puede realizar más intercambios especiales hoy.
 
@@ -1470,6 +1552,9 @@ TEXT: No puedes realizar más intercambios especiales hoy.
 RESOURCE ID: trade_exclusion_reason_player_reached_daily_limit_out
 TEXT: Hoy ya has realizado un intercambio especial.
 
+RESOURCE ID: trade_guaranteed_candyxl_2
+TEXT: 2 Caramelos ++ garantizados al intercambiar Pokémon
+
 RESOURCE ID: wcs_aug25_tr_title
 TEXT: Investigación temporal prémium del Mundial 2025
 
@@ -1477,7 +1562,7 @@ RESOURCE ID: weedle_drop_mega_energy
 TEXT: Capturar Weedle puede tener como recompensa Megaenergía Beedrill
 
 RESOURCE ID: weekly_challenges_challenge_almost_complete_in_app_notification
-TEXT: Your weekly challenge is {0}% complete and ends soon!
+TEXT: ¡Tu desafío semanal está al {0} % y termina pronto!
 
 RESOURCE ID: weekly_challenges_choose_group_label
 TEXT: Elegir grupo
@@ -1495,10 +1580,10 @@ RESOURCE ID: weekly_challenges_description
 TEXT: ¡Completa un desafío semanal con otros Entrenadores para conseguir recompensas!
 
 RESOURCE ID: weekly_challenges_encounter_reward_toast
-TEXT: You must claim your Weekly Challenge reward encounter first
+TEXT: Primero debes recoger tu encuentro de recompensa de desafío semanal.
 
 RESOURCE ID: weekly_challenges_entry_all_groups_label
-TEXT: CHOOSE YOUR GROUP
+TEXT: ELIGE TU GRUPO
 
 RESOURCE ID: weekly_challenges_error_creating_party
 TEXT: Error. Inténtalo de nuevo.
@@ -1507,7 +1592,7 @@ RESOURCE ID: weekly_challenges_error_joining_party
 TEXT: Error. Inténtalo de nuevo.
 
 RESOURCE ID: weekly_challenges_friend_level_too_low_for_invite
-TEXT: Trainer needs to be level {0} to join a weekly challenge.
+TEXT: El Entrenador debe tener como mínimo el nivel {0} para unirse a un desafío semanal.
 
 RESOURCE ID: weekly_challenges_friend_list_empty
 TEXT: No hay amistades disponibles
@@ -1519,10 +1604,10 @@ RESOURCE ID: weekly_challenges_group_invitation_label
 TEXT: ¡{0} te ha invitado!
 
 RESOURCE ID: weekly_challenges_group_invitation_label_plus_one
-TEXT: {0} and 1 other invited you!
+TEXT: ¡{0} y alguien más te han invitado!
 
 RESOURCE ID: weekly_challenges_group_invitation_label_plus_others
-TEXT: {0} and {1} others invited you!
+TEXT: ¡{0} y {1} más te han invitado!
 
 RESOURCE ID: weekly_challenges_in_app_notification_invite
 TEXT: ¡<b>{0}</b> te ha invitado a unirte a su grupo del desafío semanal!
@@ -1552,10 +1637,10 @@ RESOURCE ID: weekly_challenges_join_group_button_label
 TEXT: Unirse al grupo
 
 RESOURCE ID: weekly_challenges_join_matchmaking_confirmation_body
-TEXT: You will be paired with up to three other Trainers. You can choose to leave and join another group at any time.
+TEXT: Se te emparejará con hasta tres Entrenadores. Puedes elegir abandonar el grupo y unirte a otro en cualquier momento.
 
 RESOURCE ID: weekly_challenges_join_matchmaking_confirmation_title
-TEXT: Are you sure you want to join a group with other Trainers?
+TEXT: ¿Seguro que quieres unirte a un grupo con otros Entrenadores?
 
 RESOURCE ID: weekly_challenges_join_party_confirmation_message
 TEXT: Si te unes a este grupo, se rechazarán el resto de invitaciones, pero puedes salir del grupo y unirte a otro en cualquier momento.
@@ -1576,34 +1661,34 @@ RESOURCE ID: weekly_challenges_leave_party_title
 TEXT: ¿Seguro que quieres salir de este grupo del desafío semanal?
 
 RESOURCE ID: weekly_challenges_leave_party_toast
-TEXT: You have left the Weekly Challenge group.
+TEXT: Has abandonado el grupo de desafío semanal.
 
 RESOURCE ID: weekly_challenges_lets_go_button
 TEXT: ¡VAMOS ALLÁ!
 
 RESOURCE ID: weekly_challenges_matchmaking_finding_player
-TEXT: finding...
+TEXT: Buscando...
 
 RESOURCE ID: weekly_challenges_matchmaking_success_in_app_notification
-TEXT: You have been matched with a weekly challenge group!
+TEXT: ¡Se te ha asignado un grupo de desafío semanal!
 
 RESOURCE ID: weekly_challenges_milestone_modal_label
 TEXT: ¡Habéis completado el {0} % del desafío semanal!
 
 RESOURCE ID: weekly_challenges_new_friends_expiry_header
-TEXT: Become Friends for the Next Weekly Challenge!
+TEXT: ¡Haz amistades para el próximo desafío semanal!
 
 RESOURCE ID: weekly_challenges_new_friends_header
 TEXT: ¡Añade a estos Entrenadores para alcanzar el nivel Gran Amistad!
 
 RESOURCE ID: weekly_challenges_new_social_tab_tutorial_body
-TEXT: Group up with others to complete activities and earn rewards.
+TEXT: Forma equipo con otros jugadores para completar actividades y obtener recompensas.
 
 RESOURCE ID: weekly_challenges_new_social_tab_tutorial_title
-TEXT: A new tab has been added: Social!
+TEXT: Se ha añadido una nueva pestaña: Social
 
 RESOURCE ID: weekly_challenges_not_available
-TEXT: Check back in next week for a new challenge!
+TEXT: ¡Vueve la semana que viene para disfrutar de un nuevo desafío!
 
 RESOURCE ID: weekly_challenges_pending_invites_plural
 TEXT: {0} invitaciones pendientes
@@ -1612,31 +1697,31 @@ RESOURCE ID: weekly_challenges_pending_invites_singular
 TEXT: 1 invitación pendiente
 
 RESOURCE ID: weekly_challenges_previous_player_progress_multiple
-TEXT: FROM {0} OTHER TRAINERS: {1}
+TEXT: DE OTROS {0} ENTRENADORES: {1}
 
 RESOURCE ID: weekly_challenges_previous_player_progress_singular
-TEXT: FROM 1 OTHER TRAINER: {0}
+TEXT: DE OTRO ENTRENADOR: {0}
 
 RESOURCE ID: weekly_challenges_progress_in_app_notification_toggle_title
-TEXT: Weekly Challenge Progress
+TEXT: Progreso del desafío semanal
 
 RESOURCE ID: weekly_challenges_progress_push_notification_toggle_title
-TEXT: Challenge Progress
+TEXT: Progreso del desafío
 
 RESOURCE ID: weekly_challenges_reward_preview_description
-TEXT: Complete this week’s challenge to claim these rewards!
+TEXT: ¡Completa el desafío de esta semana para obtener estas recompensas!
 
 RESOURCE ID: weekly_challenges_rewards_prefix
 TEXT: RECOMPENSAS:
 
 RESOURCE ID: weekly_challenges_ribbon_banner
-TEXT: Weekly Challenge
+TEXT: Desafío semanal
 
 RESOURCE ID: weekly_challenges_see_details_label
 TEXT: Más información
 
 RESOURCE ID: weekly_challenges_settings_category_title
-TEXT: Weekly Challenges
+TEXT: Desafíos semanales
 
 RESOURCE ID: weekly_challenges_title
 TEXT: Desafío semanal

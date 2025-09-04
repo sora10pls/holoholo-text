@@ -494,6 +494,14 @@ TEXT: 7 de septiembre de 2:00 p. m. a 5:00 p. m.
 RESOURCE ID: event_datetime_range_key_originraidday
 TEXT: 10 de agosto de 11:00 a. m. a 5:00 p. m.
 
+RESOURCE ID: event_datetime_range_key_psychicspectgr
+TEXT: Del 16 de septiembre a las 12:00 a. m. al
+21 de septiembre a las 11:59 p. m.
+
+RESOURCE ID: event_datetime_range_key_shadowgroudonraidweekend
+TEXT: Del 20 de septiembre a las 6:00 a. m. al
+21 de septiembre a las 10:00 p. m.
+
 RESOURCE ID: event_datetime_range_key_sunkissedctr0825
 TEXT: Del 25 de agosto a las 10:00 a. m. al
 31 de agosto a las 8:00 p. m.
@@ -624,6 +632,9 @@ TEXT: Entrada: Tour de Pokémon GO (Johto)
 
 RESOURCE ID: general1.ticket.5_megagyaradosraidday_title
 TEXT: Entrada: Día de Incursiones de Mega-Gyarados
+
+RESOURCE ID: general1.ticket.5_psychicspectgr_title
+TEXT: Entrada: Investigación Temporal Prémium de Psicoespectáculo (Invasión)
 
 RESOURCE ID: general1.ticket._aquaticparadise24_title
 TEXT: Entrada: Investigación Temporal de Patipasitos exploradores
@@ -783,7 +794,7 @@ RESOURCE ID: gofest2025_maxfinale_premium_track_title
 TEXT: Pase de GO Deluxe: Clausura Max
 
 RESOURCE ID: gofest2025_maxfinale_upgrade_description
-TEXT: ¡Compra el Pase de GO Deluxe: Clausura Max para desbloquear las siguientes recompensas!
+TEXT: ¡Adquiere el Pase de GO Deluxe: Clausura Max para desbloquear las siguientes recompensas!
 
 • Mayor probabilidad de encontrar Pokémon Dinamax brillantes que suelen aparecer en combates Dinamax de nivel 1 al 4.
 • Una gran cantidad de Caramelos Eternatus y Caramelos Eternatus XL
@@ -809,6 +820,9 @@ TEXT: Pase de GO Deluxe: Clausura Max
 
 RESOURCE ID: great_league_championship_series
 TEXT: Copa Serie de Campeonatos 2025
+
+RESOURCE ID: groudon shadow raid weekend ticket
+TEXT: Entrada: Fin Semana de Incursiones Oscuras de Groudon
 
 RESOURCE ID: increased_mega_form_duration_bonus
 TEXT: 3× duración de la megaevolución
@@ -885,11 +899,23 @@ TEXT: Una entrada para acceder a bonificaciones especiales el 7 de septiembre de
 RESOURCE ID: item_event_ticket_gray_desc_originraidday
 TEXT: Una entrada para acceder a bonificaciones especiales el domingo 10 de agosto de 2025 de 11:00 a. m. a 5:00 p. m. en tu hora local, estés donde estés.
 
+RESOURCE ID: item_event_ticket_gray_desc_psychicspectgr
+TEXT: Una entrada para acceder a la Investigación Temporal Prémium de Psicoespectáculo: Invasión hasta el 21 de septiembre de 2025 a las 11:59 p. m. en tu hora local, estés donde estés.
+
+RESOURCE ID: item_event_ticket_gray_desc_shadowgroudonraidweekend
+TEXT: Una entrada para acceder a bonificaciones especiales hasta el 21 de septiembre de 2025 a las 10:00 p. m. en tu hora local, estés donde estés.
+
 RESOURCE ID: item_event_ticket_gray_details_megagyaradosraidday
 TEXT: Esta entrada se activará automáticamente para darte acceso a bonificaciones especiales el 31 de agosto, estés donde estés.
 
 RESOURCE ID: item_event_ticket_gray_details_megasharpedoraidday
 TEXT: Esta entrada se activará automáticamente para darte acceso a bonificaciones especiales el 7 de septiembre, estés donde estés.
+
+RESOURCE ID: item_event_ticket_gray_details_psychicspectgr
+TEXT: Esta entrada se activará automáticamente el 16 de septiembre para darte acceso a la Investigación Temporal Prémium de Psicoespectáculo: Invasión, estés donde estés.
+
+RESOURCE ID: item_event_ticket_gray_details_shadowgroudonraidweekend
+TEXT: Esta entrada se activará automáticamente para darte acceso a bonificaciones especiales el 20 de septiembre, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_desc_cd_flabebe25
 TEXT: Una entrada para acceder a la Investigación Especial del Día de la Comunidad de Flabébé, Un camino de flores, desde el 14 de septiembre a las 2:00 p. m. en tu hora local, estés donde estés.
@@ -1020,10 +1046,10 @@ RESOURCE ID: maxfinale_2025_ep_bonus_title_02
 TEXT: Bonificaciones del Pase de GO: Clausura Max (Nivel 3)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-08-29T23:21:27.944320+00:00 for es-MX
-at SHA cde95d30a7a
-Pipeline 3347785, job 45617830
-Patch from: 0.377.0-SHA-66580fe4-RC1, 0.375.2-SHA-ba322e6e-RC2
+TEXT: Built at 2025-09-04T01:12:26.097492+00:00 for es-MX
+at SHA 6b7180c52dc
+Pipeline 3352975, job 45800320
+Patch from: 0.375.2-SHA-ba322e6e-RC2, 0.377.0-SHA-66580fe4-RC1, 0.379.0-SHA-c9f2d815-RC1
 
 RESOURCE ID: minicollect_help_desc_type_bread
 TEXT: Obtén Pokémon Dinamax.
@@ -1033,6 +1059,9 @@ TEXT: Obtén Pokémon Gigamax.
 
 RESOURCE ID: move_name_0488
 TEXT: Agua Fría
+
+RESOURCE ID: news_feed_featured_tag
+TEXT: FEATURED
 
 RESOURCE ID: party_play_see_details_label
 TEXT: SEE DETAILS
@@ -1074,6 +1103,36 @@ TEXT: Activa el acceso a la ubicación en segundo plano para obtener Caramelos, 
 
 RESOURCE ID: profile_banner_level_updates
 TEXT: ¡Se avecinan cambios en los niveles de Entrenador! Obtén más información <a href="https://pokemongo.com/post/pgo-leveling-update-announce-2025">aquí</a>.
+
+RESOURCE ID: psychic_spec_tgr_paid_tr
+TEXT: Investigación Temporal Prémium: Psicoespectáculo
+
+RESOURCE ID: psychic_spec_tgr_paid_tr_1
+TEXT: Investigación Temporal Prémium: Psicoespectáculo (1/2)
+
+RESOURCE ID: psychic_spec_tgr_paid_tr_2
+TEXT: Investigación Temporal Prémium: Psicoespectáculo (2/2)
+
+RESOURCE ID: psychic_spectacular_tgr_event_name
+TEXT: Psicoespectáculo: Invasión
+
+RESOURCE ID: psychic_spectacular_tgr_sr_1
+TEXT: Psicoespectáculo: Invasión (1/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_2
+TEXT: Psicoespectáculo: Invasión (2/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_3
+TEXT: Psicoespectáculo: Invasión (3/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_4
+TEXT: Psicoespectáculo: Invasión (4/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_5
+TEXT: Psicoespectáculo: Invasión (5/5)
+
+RESOURCE ID: psychic_tgr_takeover_collection_challenge
+TEXT: Desafío de Colección de Psicoespectáculo: Reunión oscura
 
 RESOURCE ID: quest_battle_bug_charge_plural
 TEXT: Use a Bug-type Charged Attack in {0} battles
@@ -1197,6 +1256,9 @@ TEXT: Atrapa un Bulbasaur, Charmander o Squirtle
 
 RESOURCE ID: quest_catch_pokemon_galar
 TEXT: Atrapa {0} Pokémon originalmente descubiertos en la región de Galar
+
+RESOURCE ID: quest_catch_solrock_lunatone_plural
+TEXT: Atrapa {0} Solrock o Lunatone
 
 RESOURCE ID: quest_catch_water_fighting_plural
 TEXT: Atrapa {0} Pokémon de tipo Agua o Pelea
@@ -1445,6 +1507,9 @@ TEXT: Búsqueda de sellos de París
 RESOURCE ID: remote_max_battler_box
 TEXT: Caja Combates Max Remotos
 
+RESOURCE ID: rewarded_spend_helpshift_blog_url
+TEXT: https://pokemongo.com/news/go-pass-september-2025#rewardroad
+
 RESOURCE ID: s19_tgr_takeover_collection_challenge
 TEXT: Desafío de Colección
 
@@ -1593,6 +1658,15 @@ TEXT: ¡Adquiere el Pase de GO Deluxe de septiembre para desbloquear las siguien
 • Una <a href="https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/2358-incubators-hatching-pokemon-eggs/">Incubadora Temporal<a href="https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/2358-incubators-hatching-pokemon-eggs/">, que es una Incubadora infinita adicional que dura un tiempo limitado para que puedas eclosionar Huevos mientras exploras
 • ¡Y mucho más!
 
+RESOURCE ID: season_pass_track_upgrade_header_description_100
+TEXT: ¡Obtén recompensas adicionales y desbloquea un <b>Adorno Suerte</b> en el nivel 100!
+
+RESOURCE ID: season_pass_track_upgrade_header_description_50
+TEXT: ¡Obtén recompensas adicionales y desbloquea un <b>Adorno Suerte</b> en el nivel 50!
+
+RESOURCE ID: shadow_raid_weekend_groudon_event_name
+TEXT: Fin de Semana de Incursiones Oscuras: Groudon
+
 RESOURCE ID: slulo_event_title
 TEXT: Festival de EXP
 
@@ -1631,6 +1705,9 @@ TEXT: Hasta {0} intercambios especiales al día.
 
 RESOURCE ID: special_trade_remaining_select
 TEXT: Intercambios especiales restantes: {0}
+
+RESOURCE ID: stardust_cost_trade_reduced_bonus
+TEXT: Costo reducido de Polvo Estrella para los intercambios
 
 RESOURCE ID: starpiece.1_description
 TEXT: Fragmento de una bonita gema que te hace ganar 50 % más Polvo Estrella durante 30 minutos.
@@ -1783,6 +1860,17 @@ TEXT: <b>Incluye:</b>
 • Mayor probabilidad de recibir Caramelos Raros XL en incursiones
 • 50 % más EXP y 2× Polvo Estrella por ganar incursiones
 
+RESOURCE ID: text_rewards_key_psychicspectgr
+TEXT: <b>Las recompensas incluyen:</b>
+• Encuentros con Slowpoke, Gothita, Solosis, Oranguru, Hatenna, Wyrdeer ¡y más Pokémon!
+• 2 Pases de Combate Prémium
+• 1 Superradar Rocket
+
+RESOURCE ID: text_rewards_key_shadowgroudonraidweekend
+TEXT: <b>Las bonificaciones incluyen:</b>
+• Cinco Pases de Incursión adicionales al girar fotodiscos en Gimnasios
+• 50 % más EXP y 2× Polvo Estrella al ganar incursiones
+
 RESOURCE ID: text_rewards_key_sunkissedctr0825
 TEXT: <b>Las recompensas incluyen:<b>
 • Encuentros con Shellder y Marowak de Alola
@@ -1818,6 +1906,9 @@ TEXT: Tareas por hora del Pase de GO: Clausura Max
 RESOURCE ID: title_tr_go_fest_max_finale_2025_01
 TEXT: Investigación Temporal del Festival de GO 2025: Clausura Max (2/2)
 
+RESOURCE ID: trade_day_event_name
+TEXT: Día de Intercambios
+
 RESOURCE ID: trade_exclusion_reason_friend_reached_daily_limit
 TEXT: Tu amistad no puede realizar más intercambios especiales hoy.
 
@@ -1829,6 +1920,9 @@ TEXT: No puedes realizar más intercambios especiales hoy.
 
 RESOURCE ID: trade_exclusion_reason_player_reached_daily_limit_out
 TEXT: Ya realizaste un intercambio especial hoy.
+
+RESOURCE ID: trade_guaranteed_candyxl_2
+TEXT: 2 Caramelos XL garantizados al intercambiar un Pokémon
 
 RESOURCE ID: wcs_aug25_tr_title
 TEXT: Investigación Temporal Prémium del Mundial 2025

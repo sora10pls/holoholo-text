@@ -470,6 +470,14 @@ TEXT: 7 de setembro de 2025, das 14h às 17h.
 RESOURCE ID: event_datetime_range_key_originraidday
 TEXT: 10 de agosto, das 11h às 17h
 
+RESOURCE ID: event_datetime_range_key_psychicspectgr
+TEXT: De 16 de setembro, à 0h
+até 21 de setembro, às 23h59
+
+RESOURCE ID: event_datetime_range_key_shadowgroudonraidweekend
+TEXT: De 20 de setembro, às 6h
+até 21 de setembro, às 22h
+
 RESOURCE ID: event_datetime_range_key_sunkissedctr0825
 TEXT: De 25 de agosto, às 10h
 até 31 de agosto, às 20h
@@ -507,6 +515,9 @@ TEXT: 1 amigo em comum
 
 RESOURCE ID: general1.ticket.5_megagyaradosraidday_title
 TEXT: Ingresso para o Dia de Reides de Mega Gyarados
+
+RESOURCE ID: general1.ticket.5_psychicspectgr_title
+TEXT: Ingresso para a Pesquisa Temporária Premium de Espetáculo Psíquico: A Invasão
 
 RESOURCE ID: general1.ticket._gbw_wcs_aug25_title
 TEXT: Ingresso para a Pesquisa Temporária Premium do Mundial 2025
@@ -629,6 +640,9 @@ TEXT: Passe GO Deluxe: Max Encerramento
 RESOURCE ID: great_league_championship_series
 TEXT: Copa da Série de Campeonatos 2025
 
+RESOURCE ID: groudon shadow raid weekend ticket
+TEXT: Ingresso para o Fim de Semana de Reides Sombrosos: Groudon
+
 RESOURCE ID: increased_mega_form_duration_bonus
 TEXT: 3× duração da Megaevolução
 
@@ -707,11 +721,23 @@ TEXT: Um ingresso para acessar bônus especiais em 7 de setembro de 2025, das 14
 RESOURCE ID: item_event_ticket_gray_desc_originraidday
 TEXT: Um ingresso para acessar bônus especiais no domingo, 10 de agosto de 2025, das 11h às 17h do seu horário local, de onde você estiver.
 
+RESOURCE ID: item_event_ticket_gray_desc_psychicspectgr
+TEXT: Um ingresso para acessar a Pesquisa Temporária Premium de Espetáculo Psíquico: A Invasão até 21 de setembro de 2025, às 23h59 do seu horário local, de onde você estiver.
+
+RESOURCE ID: item_event_ticket_gray_desc_shadowgroudonraidweekend
+TEXT: Um ingresso para acessar bônus especiais até 21 de setembro de 2025, às 22h do seu horário local, de onde você estiver.
+
 RESOURCE ID: item_event_ticket_gray_details_megagyaradosraidday
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a bônus especiais em 31 de agosto, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_gray_details_megasharpedoraidday
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a bônus especiais em 7 de setembro, de onde você estiver.
+
+RESOURCE ID: item_event_ticket_gray_details_psychicspectgr
+TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à Pesquisa Temporária Premium de Espetáculo Psíquico: A Invasão no dia 16 de setembro, de onde você estiver.
+
+RESOURCE ID: item_event_ticket_gray_details_shadowgroudonraidweekend
+TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a bônus especiais em 20 de setembro, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_pink_desc_cd_flabebe25
 TEXT: Um ingresso para acessar a Pesquisa Especial do Dia Comunitário de Flabébé, Flores Fortes, a partir de 14 de setembro, às 14h do seu horário local, de onde você estiver.
@@ -836,10 +862,10 @@ RESOURCE ID: maxfinale_2025_ep_bonus_title_02
 TEXT: Bônus do Passe GO: Max Encerramento (nível 3)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-08-29T23:21:27.944320+00:00 for pt-BR
-at SHA cde95d30a7a
-Pipeline 3347785, job 45617830
-Patch from: 0.377.0-SHA-66580fe4-RC1, 0.375.2-SHA-ba322e6e-RC2
+TEXT: Built at 2025-09-04T01:12:26.097492+00:00 for pt-BR
+at SHA 6b7180c52dc
+Pipeline 3352975, job 45800320
+Patch from: 0.375.2-SHA-ba322e6e-RC2, 0.377.0-SHA-66580fe4-RC1, 0.379.0-SHA-c9f2d815-RC1
 
 RESOURCE ID: minicollect_help_desc_type_bread
 TEXT: Colecionar Pokémon Dinamax.
@@ -849,6 +875,9 @@ TEXT: Colecionar Pokémon Gigamax.
 
 RESOURCE ID: move_name_0488
 TEXT: Água Fria
+
+RESOURCE ID: news_feed_featured_tag
+TEXT: FEATURED
 
 RESOURCE ID: party_play_see_details_label
 TEXT: SEE DETAILS
@@ -883,113 +912,143 @@ TEXT: O núcleo em seu peito absorve a energia emanada pelas terras da região d
 RESOURCE ID: profile_banner_level_updates
 TEXT: Atualizações chegando aos níveis de Treinador! Saiba mais <a href="https://pokemongo.com/post/pgo-leveling-update-announce-2025">aqui</a>.
 
+RESOURCE ID: psychic_spec_tgr_paid_tr
+TEXT: Pesquisa Temporária Premium de Espetáculo Psíquico
+
+RESOURCE ID: psychic_spec_tgr_paid_tr_1
+TEXT: Pesquisa Temporária Premium de Espetáculo Psíquico (1/2)
+
+RESOURCE ID: psychic_spec_tgr_paid_tr_2
+TEXT: Pesquisa Temporária Premium de Espetáculo Psíquico (2/2)
+
+RESOURCE ID: psychic_spectacular_tgr_event_name
+TEXT: Espetáculo Psíquico: A Invasão
+
+RESOURCE ID: psychic_spectacular_tgr_sr_1
+TEXT: Espetáculo Psíquico: A Invasão (1/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_2
+TEXT: Espetáculo Psíquico: A Invasão (2/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_3
+TEXT: Espetáculo Psíquico: A Invasão (3/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_4
+TEXT: Espetáculo Psíquico: A Invasão (4/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_5
+TEXT: Espetáculo Psíquico: A Invasão (5/5)
+
+RESOURCE ID: psychic_tgr_takeover_collection_challenge
+TEXT: Desafio de Coleção de Espetáculo Psíquico: Reunião Sombrosa
+
 RESOURCE ID: quest_battle_bug_charge_plural
-TEXT: Use a Bug-type Charged Attack in {0} battles
+TEXT: Usar um Ataque Carregado de tipo Inseto em {0} batalhas.
 
 RESOURCE ID: quest_battle_bug_charge_singular
-TEXT: Use a Bug-type Charged Attack in a battle
+TEXT: Usar um Ataque Carregado de tipo Inseto em 1 batalha.
 
 RESOURCE ID: quest_battle_dark_charge_plural
-TEXT: Use a Dark-type Charged Attack in {0} battles
+TEXT: Usar um Ataque Carregado de tipo Sombrio em {0} batalhas.
 
 RESOURCE ID: quest_battle_dark_charge_singular
-TEXT: Use a Dark-type Charged Attack in a battle
+TEXT: Usar um Ataque Carregado de tipo Sombrio em 1 batalha.
 
 RESOURCE ID: quest_battle_dragon_charge_plural
-TEXT: Use a Dragon-type Charged Attack in {0} battles
+TEXT: Usar um Ataque Carregado de tipo Dragão em {0} batalhas.
 
 RESOURCE ID: quest_battle_dragon_charge_singular
-TEXT: Use a Dragon-type Charged Attack in a battle
+TEXT: Usar um Ataque Carregado de tipo Dragão em 1 batalha.
 
 RESOURCE ID: quest_battle_electric_charge_plural
-TEXT: Use an Electric-type Charged Attack in {0} battles
+TEXT: Usar um Ataque Carregado de tipo Elétrico em {0} batalhas.
 
 RESOURCE ID: quest_battle_electric_charge_singular
-TEXT: Use an Electric-type Charged Attack in a battle
+TEXT: Usar um Ataque Carregado de tipo Elétrico em 1 batalha.
 
 RESOURCE ID: quest_battle_fairy_charge_plural
-TEXT: Use a Fairy-type Charged Attack in {0} battles
+TEXT: Usar um Ataque Carregado de tipo Fada em {0} batalhas.
 
 RESOURCE ID: quest_battle_fairy_charge_singular
-TEXT: Use a Fairy-type Charged Attack in a battle
+TEXT: Usar um Ataque Carregado de tipo Fada em 1 batalha.
 
 RESOURCE ID: quest_battle_fighting_charge_plural
-TEXT: Use a Fighting-type Charged Attack in {0} battles
+TEXT: Usar um Ataque Carregado de tipo Lutador em {0} batalhas.
 
 RESOURCE ID: quest_battle_fighting_charge_singular
-TEXT: Use a Fighting-type Charged Attack in a battle
+TEXT: Usar um Ataque Carregado de tipo Lutador em 1 batalha.
 
 RESOURCE ID: quest_battle_fire_charge_plural
-TEXT: Use a Fire-type Charged Attack in {0} battles
+TEXT: Usar um Ataque Carregado de tipo Fogo em {0} batalhas.
 
 RESOURCE ID: quest_battle_fire_charge_singular
-TEXT: Use a Fire-type Charged Attack in a battle
+TEXT: Usar um Ataque Carregado de tipo Fogo em 1 batalha.
 
 RESOURCE ID: quest_battle_flying_charge_plural
-TEXT: Use a Flying-type Charged Attack in {0} battles
+TEXT: Usar um Ataque Carregado de tipo Voador em {0} batalhas.
 
 RESOURCE ID: quest_battle_flying_charge_singular
-TEXT: Use a Flying-type Charged Attack in a battle
+TEXT: Usar um Ataque Carregado de tipo Voador em 1 batalha.
 
 RESOURCE ID: quest_battle_ghost_charge_plural
-TEXT: Use a Ghost-type Charged Attack in {0} battles
+TEXT: Usar um Ataque Carregado de tipo Fantasma em {0} batalhas.
 
 RESOURCE ID: quest_battle_ghost_charge_singular
-TEXT: Use a Ghost-type Charged Attack in a battle
+TEXT: Usar um Ataque Carregado de tipo Fantasma em 1 batalha.
 
 RESOURCE ID: quest_battle_grass_charge_plural
-TEXT: Use a Grass-type Charged Attack in {0} battles
+TEXT: Usar um Ataque Carregado de tipo Planta em {0} batalhas.
 
 RESOURCE ID: quest_battle_grass_charge_singular
-TEXT: Use a Grass-type Charged Attack in a battle
+TEXT: Usar um Ataque Carregado de tipo Planta em 1 batalha.
 
 RESOURCE ID: quest_battle_ground_charge_plural
-TEXT: Use a Ground-type Charged Attack in {0} battles
+TEXT: Usar um Ataque Carregado de tipo Terrestre em {0} batalhas.
 
 RESOURCE ID: quest_battle_ground_charge_singular
-TEXT: Use a Ground-type Charged Attack in a battle
+TEXT: Usar um Ataque Carregado de tipo Terrestre em 1 batalha.
 
 RESOURCE ID: quest_battle_ice_charge_plural
-TEXT: Use an Ice-type Charged Attack in {0} battles
+TEXT: Usar um Ataque Carregado de tipo Gelo em {0} batalhas.
 
 RESOURCE ID: quest_battle_ice_charge_singular
-TEXT: Use an Ice-type Charged Attack in a battle
+TEXT: Usar um Ataque Carregado de tipo Gelo em 1 batalha.
 
 RESOURCE ID: quest_battle_normal_charge_plural
-TEXT: Use a Normal-type Charged Attack in {0} battles
+TEXT: Usar um Ataque Carregado de tipo Normal em {0} batalhas.
 
 RESOURCE ID: quest_battle_normal_charge_singular
-TEXT: Use a Normal-type Charged Attack in a battle
+TEXT: Usar um Ataque Carregado de tipo Normal em 1 batalha.
 
 RESOURCE ID: quest_battle_poison_charge_plural
-TEXT: Use a Poison-type Charged Attack in {0} battles
+TEXT: Usar um Ataque Carregado de tipo Venenoso em {0} batalhas.
 
 RESOURCE ID: quest_battle_poison_charge_singular
-TEXT: Use a Poison-type Charged Attack in a battle
+TEXT: Usar um Ataque Carregado de tipo Venenoso em 1 batalha.
 
 RESOURCE ID: quest_battle_psychic_charge_plural
-TEXT: Use a Psychic-type Charged Attack in {0} battles
+TEXT: Usar um Ataque Carregado de tipo Psíquico em {0} batalhas.
 
 RESOURCE ID: quest_battle_psychic_charge_singular
-TEXT: Use a Psychic-type Charged Attack in a battle
+TEXT: Usar um Ataque Carregado de tipo Psíquico em 1 batalha.
 
 RESOURCE ID: quest_battle_rock_charge_plural
-TEXT: Use a Rock-type Charged Attack in {0} battles
+TEXT: Usar um Ataque Carregado de tipo Pedra em {0} batalhas.
 
 RESOURCE ID: quest_battle_rock_charge_singular
-TEXT: Use a Rock-type Charged Attack in a battle
+TEXT: Usar um Ataque Carregado de tipo Pedra em 1 batalha.
 
 RESOURCE ID: quest_battle_steel_charge_plural
-TEXT: Use a Steel-type Charged Attack in {0} battles
+TEXT: Usar um Ataque Carregado de tipo Aço em {0} batalhas.
 
 RESOURCE ID: quest_battle_steel_charge_singular
-TEXT: Use a Steel-type Charged Attack in a battle
+TEXT: Usar um Ataque Carregado de tipo Aço em 1 batalha.
 
 RESOURCE ID: quest_battle_water_charge_plural
-TEXT: Use a Water-type Charged Attack in {0} battles
+TEXT: Usar um Ataque Carregado de tipo Água em {0} batalhas.
 
 RESOURCE ID: quest_battle_water_charge_singular
-TEXT: Use a Water-type Charged Attack in a battle
+TEXT: Usar um Ataque Carregado de tipo Água em 1 batalha.
 
 RESOURCE ID: quest_candy_keldeo_singular
 TEXT: Ganhar 1 Doce com Keldeo como seu Pokémon Companheiro.
@@ -1005,6 +1064,9 @@ TEXT: Pegar 1 Bulbasaur, Charmander, ou Squirtle.
 
 RESOURCE ID: quest_catch_pokemon_galar
 TEXT: Pegar {0} Pokémon originalmente descobertos na região de Galar.
+
+RESOURCE ID: quest_catch_solrock_lunatone_plural
+TEXT: Pegar {0} Solrock ou Lunatone.
 
 RESOURCE ID: quest_catch_water_fighting_plural
 TEXT: Pegar {0} Pokémon de tipo Água ou Lutador.
@@ -1253,6 +1315,9 @@ TEXT: Caça aos Selos de Paris
 RESOURCE ID: remote_max_battler_box
 TEXT: Combo de Batalha Max a Distância
 
+RESOURCE ID: rewarded_spend_helpshift_blog_url
+TEXT: https://pokemongo.com/news/go-pass-september-2025#rewardroad
+
 RESOURCE ID: s19_tgr_takeover_collection_challenge
 TEXT: Desafio de coleção
 
@@ -1404,6 +1469,9 @@ TEXT: Ao comprar o Passe GO Deluxe: setembro, as seguintes recompensas serão de
 RESOURCE ID: season_pass_track_upgrade_header_description_50
 TEXT: Ganhe recompensas adicionais e desbloqueie um <b>Globo da Sorte</b> no Ranque 50!
 
+RESOURCE ID: shadow_raid_weekend_groudon_event_name
+TEXT: Fim de Semana de Reides Sombrosos: Groudon
+
 RESOURCE ID: slulo_event_title
 TEXT: Explosão de PE
 
@@ -1442,6 +1510,9 @@ TEXT: Até {0} Trocas Especiais por dia.
 
 RESOURCE ID: special_trade_remaining_select
 TEXT: Trocas Especiais restantes: {0}
+
+RESOURCE ID: stardust_cost_trade_reduced_bonus
+TEXT: Custo de Poeira Estelar por trocas reduzido.
 
 RESOURCE ID: sunkissed_shores_event_name
 TEXT: Litoral Ensolarado
@@ -1504,6 +1575,17 @@ TEXT: <b>Os bônus incluem:</b>
 • Maior chance de receber Doce Raro GG de Reides
 • 50% a mais de PE e 2× Poeira Estelar por completar Reides com sucesso
 
+RESOURCE ID: text_rewards_key_psychicspectgr
+TEXT: <b>As recompensas incluem:</b>
+• Encontros com Slowpoke, Gothita, Solosis, Oranguru, Hatenna, Wyrdeer e muito mais!
+• 2 Passes de Batalha Premium
+• 1 Super-radar Rocket
+
+RESOURCE ID: text_rewards_key_shadowgroudonraidweekend
+TEXT: <b>Os bônus incluem:</b>
+• 5 Passes de Reide adicionais ao girar Fotodiscos de Ginásios
+• 50% a mais de PE e 2× Poeira Estelar por completar Reides com sucesso
+
 RESOURCE ID: text_rewards_key_sunkissedctr0825
 TEXT: <b>As recompensas incluem:</b>
 • Encontros com Shellder e Marowak de Alola
@@ -1539,6 +1621,9 @@ TEXT: Tarefas por hora do Passe GO: Max Encerramento
 RESOURCE ID: title_tr_go_fest_max_finale_2025_01
 TEXT: Pesquisa Temporária do Festival de Pokémon GO: Max Encerramento (2/2)
 
+RESOURCE ID: trade_day_event_name
+TEXT: Dia de Troca
+
 RESOURCE ID: trade_exclusion_reason_friend_reached_daily_limit
 TEXT: Seu amigo não pode mais fazer Trocas Especiais hoje.
 
@@ -1550,6 +1635,9 @@ TEXT: Você não pode mais fazer Trocas Especiais hoje.
 
 RESOURCE ID: trade_exclusion_reason_player_reached_daily_limit_out
 TEXT: Você já realizou uma troca especial hoje.
+
+RESOURCE ID: trade_guaranteed_candyxl_2
+TEXT: 2 Doces GG garantidos ao realizar trocas de Pokémon.
 
 RESOURCE ID: wcs_aug25_tr_title
 TEXT: Pesquisa Temporária Premium do Mundial 2025

@@ -470,6 +470,14 @@ TEXT: 7 Eylül, 14.00-17.00
 RESOURCE ID: event_datetime_range_key_originraidday
 TEXT: 10 Ağustos, 11.00-17.00
 
+RESOURCE ID: event_datetime_range_key_psychicspectgr
+TEXT: 16 Eylül, 00.00 –
+21 Eylül, 23.59
+
+RESOURCE ID: event_datetime_range_key_shadowgroudonraidweekend
+TEXT: 20 Eylül, 06.00 –
+21 Eylül, 22.00
+
 RESOURCE ID: event_datetime_range_key_sunkissedctr0825
 TEXT: 25 Ağustos, 10.00 -
 31 Ağustos, 20.00
@@ -491,7 +499,7 @@ RESOURCE ID: event_season20_name
 TEXT: Şu Anki Sezon: Dönüşüm Hikâyeleri
 
 RESOURCE ID: friends_list_pending_invites_section_header
-TEXT: Bekleyen Davetler
+TEXT: Your Pending Invites
 
 RESOURCE ID: friends_list_section_header
 TEXT: Arkadaş Listesi
@@ -504,6 +512,9 @@ TEXT: 1 ortak arkadaş
 
 RESOURCE ID: general1.ticket.5_megagyaradosraidday_title
 TEXT: Mega Gyarados Akın Günü Bileti
+
+RESOURCE ID: general1.ticket.5_psychicspectgr_title
+TEXT: Muhteşem Psişik: İstila Premium Süreli Araştırması Bileti
 
 RESOURCE ID: general1.ticket._gbw_wcs_aug25_title
 TEXT: 2025 Dünya Şampiyonası Premium Süreli Araştırması Bileti
@@ -626,6 +637,9 @@ TEXT: Lüks GO Bileti: Maksi Final
 RESOURCE ID: great_league_championship_series
 TEXT: 2025 Şampiyona Serisi Kupası
 
+RESOURCE ID: groudon shadow raid weekend ticket
+TEXT: Gölge Groudon Akın Hafta Sonu Bileti
+
 RESOURCE ID: increased_mega_form_duration_bonus
 TEXT: 3× mega evrim süresi
 
@@ -701,11 +715,23 @@ TEXT: 7 Eylül 2025’te, yerel saatle 14.00-17.00 arasında geçerli olacak öz
 RESOURCE ID: item_event_ticket_gray_desc_originraidday
 TEXT: 10 Ağustos 2025 Pazar, yerel saatle 11.00-17.00 arasında geçerli olacak özel bonuslara dilediğiniz yerden hak kazanmanıza olanak tanıyan bir bilet.
 
+RESOURCE ID: item_event_ticket_gray_desc_psychicspectgr
+TEXT: 21 Eylül 2025, yerel saatle 23.59’a kadar sürecek Muhteşem Psişik: İstila premium süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
+
+RESOURCE ID: item_event_ticket_gray_desc_shadowgroudonraidweekend
+TEXT: 21 Eylül 2025, yerel saatle 22.00’ye kadar geçerli olacak özel bonuslara dilediğiniz yerden hak kazanmanıza olanak tanıyan bir bilet.
+
 RESOURCE ID: item_event_ticket_gray_details_megagyaradosraidday
 TEXT: Bu bilet 31 Ağustos’ta geçerli olacak özel bonuslara dilediğiniz yerden hak kazanabilmeniz için otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_gray_details_megasharpedoraidday
 TEXT: Bu bilet 7 Eylül’de geçerli olacak özel bonuslara dilediğiniz yerden hak kazanabilmeniz için otomatik olarak etkinleştirilecek.
+
+RESOURCE ID: item_event_ticket_gray_details_psychicspectgr
+TEXT: Bu bilet Muhteşem Psişik: İstila premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için 16 Eylül’de otomatik olarak etkinleştirilecek.
+
+RESOURCE ID: item_event_ticket_gray_details_shadowgroudonraidweekend
+TEXT: Bu bilet özel bonuslara dilediğiniz yerden hak kazanabilmeniz için 20 Eylül’de otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_pink_desc_cd_flabebe25
 TEXT: 14 Eylül’de, yerel saatle 14.00’te başlayacak Flabébé Topluluk Günü özel araştırması Çiçek Gücü’ne dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
@@ -830,10 +856,10 @@ RESOURCE ID: maxfinale_2025_ep_bonus_title_02
 TEXT: 3. Kademe GO Bileti: Maksi Final Bonusları
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-08-29T23:21:27.944320+00:00 for tr-TR
-at SHA cde95d30a7a
-Pipeline 3347785, job 45617830
-Patch from: 0.377.0-SHA-66580fe4-RC1, 0.375.2-SHA-ba322e6e-RC2
+TEXT: Built at 2025-09-04T01:12:26.097492+00:00 for tr-TR
+at SHA 6b7180c52dc
+Pipeline 3352975, job 45800320
+Patch from: 0.375.2-SHA-ba322e6e-RC2, 0.377.0-SHA-66580fe4-RC1, 0.379.0-SHA-c9f2d815-RC1
 
 RESOURCE ID: minicollect_help_desc_type_bread
 TEXT: Dinamaks Pokémon toplayın.
@@ -843,6 +869,9 @@ TEXT: Gigantamaks Pokémon toplayın.
 
 RESOURCE ID: move_name_0488
 TEXT: Üşüten Su
+
+RESOURCE ID: news_feed_featured_tag
+TEXT: FEATURED
 
 RESOURCE ID: party_play_see_details_label
 TEXT: SEE DETAILS
@@ -877,113 +906,143 @@ TEXT: Göğsündeki çekirdek, Galar bölgesinin topraklarından yayılan enerji
 RESOURCE ID: profile_banner_level_updates
 TEXT: Eğitmen seviyelerine güncellemeler geliyor! Ayrıntılı bilgi <a href="https://pokemongo.com/post/pgo-leveling-update-announce-2025">burada</a>.
 
+RESOURCE ID: psychic_spec_tgr_paid_tr
+TEXT: Muhteşem Psişik Premium Süreli Araştırması
+
+RESOURCE ID: psychic_spec_tgr_paid_tr_1
+TEXT: Muhteşem Psişik Premium Süreli Araştırması (1/2)
+
+RESOURCE ID: psychic_spec_tgr_paid_tr_2
+TEXT: Muhteşem Psişik Premium Süreli Araştırması (2/2)
+
+RESOURCE ID: psychic_spectacular_tgr_event_name
+TEXT: Muhteşem Psişik: İstila
+
+RESOURCE ID: psychic_spectacular_tgr_sr_1
+TEXT: Muhteşem Psişik: İstila (1/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_2
+TEXT: Muhteşem Psişik: İstila (2/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_3
+TEXT: Muhteşem Psişik: İstila (3/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_4
+TEXT: Muhteşem Psişik: İstila (4/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_5
+TEXT: Muhteşem Psişik: İstila (5/5)
+
+RESOURCE ID: psychic_tgr_takeover_collection_challenge
+TEXT: Muhteşem Psişik Toplama Görevi: Gölgeler Bir Arada
+
 RESOURCE ID: quest_battle_bug_charge_plural
-TEXT: Use a Bug-type Charged Attack in {0} battles
+TEXT: {0} maçta bir Böcek türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_bug_charge_singular
-TEXT: Use a Bug-type Charged Attack in a battle
+TEXT: Bir maçta bir Böcek türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_dark_charge_plural
-TEXT: Use a Dark-type Charged Attack in {0} battles
+TEXT: {0} maçta bir Karanlık tür güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_dark_charge_singular
-TEXT: Use a Dark-type Charged Attack in a battle
+TEXT: Bir maçta bir Karanlık tür güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_dragon_charge_plural
-TEXT: Use a Dragon-type Charged Attack in {0} battles
+TEXT: {0} maçta bir Ejderha türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_dragon_charge_singular
-TEXT: Use a Dragon-type Charged Attack in a battle
+TEXT: Bir maçta bir Ejderha türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_electric_charge_plural
-TEXT: Use an Electric-type Charged Attack in {0} battles
+TEXT: {0} maçta bir Elektrik türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_electric_charge_singular
-TEXT: Use an Electric-type Charged Attack in a battle
+TEXT: Bir maçta bir Elektrik türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_fairy_charge_plural
-TEXT: Use a Fairy-type Charged Attack in {0} battles
+TEXT: {0} maçta bir Peri türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_fairy_charge_singular
-TEXT: Use a Fairy-type Charged Attack in a battle
+TEXT: Bir maçta bir Peri türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_fighting_charge_plural
-TEXT: Use a Fighting-type Charged Attack in {0} battles
+TEXT: {0} maçta bir Dövüşçü türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_fighting_charge_singular
-TEXT: Use a Fighting-type Charged Attack in a battle
+TEXT: Bir maçta bir Dövüşçü türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_fire_charge_plural
-TEXT: Use a Fire-type Charged Attack in {0} battles
+TEXT: {0} maçta bir Ateş türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_fire_charge_singular
-TEXT: Use a Fire-type Charged Attack in a battle
+TEXT: Bir maçta bir Ateş türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_flying_charge_plural
-TEXT: Use a Flying-type Charged Attack in {0} battles
+TEXT: {0} maçta bir Uçan tür güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_flying_charge_singular
-TEXT: Use a Flying-type Charged Attack in a battle
+TEXT: Bir maçta bir Uçan tür güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_ghost_charge_plural
-TEXT: Use a Ghost-type Charged Attack in {0} battles
+TEXT: {0} maçta bir Hayalet türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_ghost_charge_singular
-TEXT: Use a Ghost-type Charged Attack in a battle
+TEXT: Bir maçta bir Hayalet türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_grass_charge_plural
-TEXT: Use a Grass-type Charged Attack in {0} battles
+TEXT: {0} maçta bir Bitki türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_grass_charge_singular
-TEXT: Use a Grass-type Charged Attack in a battle
+TEXT: Bir maçta bir Bitki türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_ground_charge_plural
-TEXT: Use a Ground-type Charged Attack in {0} battles
+TEXT: {0} maçta bir Yer türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_ground_charge_singular
-TEXT: Use a Ground-type Charged Attack in a battle
+TEXT: Bir maçta bir Yer türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_ice_charge_plural
-TEXT: Use an Ice-type Charged Attack in {0} battles
+TEXT: {0} maçta bir Buz türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_ice_charge_singular
-TEXT: Use an Ice-type Charged Attack in a battle
+TEXT: Bir maçta bir Buz türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_normal_charge_plural
-TEXT: Use a Normal-type Charged Attack in {0} battles
+TEXT: {0} maçta bir Normal tür güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_normal_charge_singular
-TEXT: Use a Normal-type Charged Attack in a battle
+TEXT: Bir maçta bir Normal tür güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_poison_charge_plural
-TEXT: Use a Poison-type Charged Attack in {0} battles
+TEXT: {0} maçta bir Zehir türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_poison_charge_singular
-TEXT: Use a Poison-type Charged Attack in a battle
+TEXT: Bir maçta bir Zehir türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_psychic_charge_plural
-TEXT: Use a Psychic-type Charged Attack in {0} battles
+TEXT: {0} maçta bir Psişik tür güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_psychic_charge_singular
-TEXT: Use a Psychic-type Charged Attack in a battle
+TEXT: Bir maçta bir Psişik tür güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_rock_charge_plural
-TEXT: Use a Rock-type Charged Attack in {0} battles
+TEXT: {0} maçta bir Kaya türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_rock_charge_singular
-TEXT: Use a Rock-type Charged Attack in a battle
+TEXT: Bir maçta bir Kaya türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_steel_charge_plural
-TEXT: Use a Steel-type Charged Attack in {0} battles
+TEXT: {0} maçta bir Çelik türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_steel_charge_singular
-TEXT: Use a Steel-type Charged Attack in a battle
+TEXT: Bir maçta bir Çelik türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_water_charge_plural
-TEXT: Use a Water-type Charged Attack in {0} battles
+TEXT: {0} maçta bir Su türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_battle_water_charge_singular
-TEXT: Use a Water-type Charged Attack in a battle
+TEXT: Bir maçta bir Su türü güçlü saldırısı kullanın
 
 RESOURCE ID: quest_candy_keldeo_singular
 TEXT: Keldeo Dost Pokémon’unuzken bir şeker kazanın
@@ -999,6 +1058,9 @@ TEXT: Bir Bulbasaur, Charmander veya Squirtle yakalayın
 
 RESOURCE ID: quest_catch_pokemon_galar
 TEXT: İlk olarak Galar bölgesinde keşfedilmiş {0} Pokémon yakalayın
+
+RESOURCE ID: quest_catch_solrock_lunatone_plural
+TEXT: {0} Solrock veya Lunatone yakalayın
 
 RESOURCE ID: quest_catch_water_fighting_plural
 TEXT: {0} Su veya Dövüşçü türü Pokémon yakalayın
@@ -1244,6 +1306,9 @@ TEXT: Paris Damga Toplama
 RESOURCE ID: remote_max_battler_box
 TEXT: Uzak Maksi Maç Kutusu
 
+RESOURCE ID: rewarded_spend_helpshift_blog_url
+TEXT: https://pokemongo.com/news/go-pass-september-2025#rewardroad
+
 RESOURCE ID: s19_tgr_takeover_collection_challenge
 TEXT: Toplama Görevi
 
@@ -1391,6 +1456,9 @@ TEXT: Lüks GO Bileti: Eylül’ü satın alarak şu ödüllerin kilidini açabi
 • Keşfederken yumurta çatlatmanız için sınırlı süreli bir sonsuz Kuluçka Makinesi olan bir <a href="https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/2358-incubators-hatching-pokemon-eggs/">Süreli Kuluçka Makinesi</a>!
 • Ve daha fazlası!
 
+RESOURCE ID: shadow_raid_weekend_groudon_event_name
+TEXT: Gölge Akın Hafta Sonu: Groudon
+
 RESOURCE ID: slulo_event_title
 TEXT: TP Şöleni
 
@@ -1429,6 +1497,9 @@ TEXT: Her gün {0} adede kadar özel takas fırsatı.
 
 RESOURCE ID: special_trade_remaining_select
 TEXT: Kalan özel takas: {0}
+
+RESOURCE ID: stardust_cost_trade_reduced_bonus
+TEXT: Takaslarda daha düşük yıldız tozu bedeli
 
 RESOURCE ID: sunkissed_shores_event_name
 TEXT: Güneşli Sahiller
@@ -1491,6 +1562,17 @@ TEXT: <b>Şu bonusları içerir:</b>
 • Akınlardan daha yüksek Nadir Büyük Şeker alma şansı
 • Başarıyla tamamlanan akınlardan %50 daha fazla TP ve 2× yıldız tozu
 
+RESOURCE ID: text_rewards_key_psychicspectgr
+TEXT: <b>Şu ödülleri içerir:</b>
+• Slowpoke, Gothita, Solosis, Oranguru, Hatenna, Wyrdeer ve diğer Pokémon’larla karşılaşmalar!
+• 2 Premium Maç Bileti
+• 1 Süper Roket Radarı
+
+RESOURCE ID: text_rewards_key_shadowgroudonraidweekend
+TEXT: <b>Şu bonusları içerir:</b>
+• Spor salonu fotoğraf disklerini döndürerek fazladan 5 Akın Bileti
+• Başarıyla tamamlanan akınlardan %50 daha fazla TP ve 2× yıldız tozu
+
 RESOURCE ID: text_rewards_key_sunkissedctr0825
 TEXT: <b>Şu ödülleri içerir:</b>
 • Shellder ve Alolalı Marowak ile karşılaşmalar
@@ -1526,6 +1608,9 @@ TEXT: GO Bileti: Maksi Final Saatlik Görevleri
 RESOURCE ID: title_tr_go_fest_max_finale_2025_01
 TEXT: GO Festivali: Maksi Final Süreli Araştırması (2/2)
 
+RESOURCE ID: trade_day_event_name
+TEXT: Takas Günü
+
 RESOURCE ID: trade_exclusion_reason_friend_reached_daily_limit
 TEXT: Arkadaşınız bugün daha fazla özel takas yapamaz.
 
@@ -1537,6 +1622,9 @@ TEXT: Bugün daha fazla özel takas yapamazsınız.
 
 RESOURCE ID: trade_exclusion_reason_player_reached_daily_limit_out
 TEXT: Bugün zaten bir özel takas yaptınız.
+
+RESOURCE ID: trade_guaranteed_candyxl_2
+TEXT: Pokémon takaslarından garanti 2 büyük şeker kazanımı
 
 RESOURCE ID: wcs_aug25_tr_title
 TEXT: 2025 Dünya Şampiyonası Premium Süreli Araştırması
@@ -1674,10 +1762,10 @@ RESOURCE ID: weekly_challenges_not_available
 TEXT: Check back in next week for a new challenge!
 
 RESOURCE ID: weekly_challenges_pending_invites_plural
-TEXT: {0} bekleyen davet
+TEXT: {0} total pending invites
 
 RESOURCE ID: weekly_challenges_pending_invites_singular
-TEXT: 1 bekleyen davet
+TEXT: 1 total pending invite
 
 RESOURCE ID: weekly_challenges_previous_player_progress_multiple
 TEXT: FROM {0} OTHER TRAINERS: {1}

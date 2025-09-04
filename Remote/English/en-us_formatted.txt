@@ -395,6 +395,14 @@ TEXT: September 7, 2:00 p.m. – 5:00 p.m.
 RESOURCE ID: event_datetime_range_key_originraidday
 TEXT: August 10, 11:00 a.m. – 5:00 p.m.
 
+RESOURCE ID: event_datetime_range_key_psychicspectgr
+TEXT: September 16, 12:00 a.m. –
+September 21, 11:59 p.m.
+
+RESOURCE ID: event_datetime_range_key_shadowgroudonraidweekend
+TEXT: September 20, 6:00 a.m. –
+September 21, 10:00 p.m.
+
 RESOURCE ID: event_datetime_range_key_sunkissedctr0825
 TEXT: August 25, 10:00 a.m. –
 August 31, 8:00 p.m.
@@ -429,6 +437,9 @@ TEXT: 1 mutual friend
 
 RESOURCE ID: general1.ticket.5_megagyaradosraidday_title
 TEXT: Mega Gyarados Raid Day Ticket
+
+RESOURCE ID: general1.ticket.5_psychicspectgr_title
+TEXT: Psychic Spectacular: Taken Over Premium Timed Research Ticket
 
 RESOURCE ID: general1.ticket._gbw_wcs_aug25_title
 TEXT: 2025 Worlds Premium Timed Research Ticket
@@ -524,6 +535,9 @@ TEXT: Earn additional rewards at each rank and instantly gain 10 ranks.
 RESOURCE ID: great_league_championship_series
 TEXT: 2025 Championship Series Cup
 
+RESOURCE ID: groudon shadow raid weekend ticket
+TEXT: Shadow Groudon Raid Weekend Ticket
+
 RESOURCE ID: increased_mega_form_duration_bonus
 TEXT: 3× Mega Evolution duration
 
@@ -602,11 +616,23 @@ TEXT: A ticket to access special bonuses on September 7, 2025, from 2:00 p.m. to
 RESOURCE ID: item_event_ticket_gray_desc_originraidday
 TEXT: A ticket to access special bonuses on Sunday, August 10, 2025, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
 
+RESOURCE ID: item_event_ticket_gray_desc_psychicspectgr
+TEXT: A ticket to access the Psychic Spectacular: Taken Over Premium Timed Research until September 21, 2025, at 11:59 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_gray_desc_shadowgroudonraidweekend
+TEXT: A ticket to access special bonuses until September 21, 2025, at 10:00 p.m. local time, wherever you are.
+
 RESOURCE ID: item_event_ticket_gray_details_megagyaradosraidday
 TEXT: This ticket will automatically activate to give you access to special bonuses on August 31, wherever you are.
 
 RESOURCE ID: item_event_ticket_gray_details_megasharpedoraidday
 TEXT: This ticket will automatically activate to give you access to special bonuses on September 7, wherever you are.
+
+RESOURCE ID: item_event_ticket_gray_details_psychicspectgr
+TEXT: This ticket will automatically activate on September 16 to give you access to the Psychic Spectacular: Taken Over Premium Timed Research, wherever you are.
+
+RESOURCE ID: item_event_ticket_gray_details_shadowgroudonraidweekend
+TEXT: This ticket will automatically activate to give you access to special bonuses on September 20, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_desc_cd_flabebe25
 TEXT: A ticket to access the Flabébé Community Day Special Research, Flower Power, starting September 14 at 2:00 p.m. local time, wherever you are.
@@ -725,10 +751,10 @@ RESOURCE ID: max_battle_win_plus3000_bonus
 TEXT: Additional 3,000 XP awarded for successful Max Battles
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-08-29T23:21:27.944320+00:00 for en-US
-at SHA cde95d30a7a
-Pipeline 3347785, job 45617830
-Patch from: 0.377.0-SHA-66580fe4-RC1, 0.375.2-SHA-ba322e6e-RC2
+TEXT: Built at 2025-09-04T01:12:26.097492+00:00 for en-US
+at SHA 6b7180c52dc
+Pipeline 3352975, job 45800320
+Patch from: 0.375.2-SHA-ba322e6e-RC2, 0.377.0-SHA-66580fe4-RC1, 0.379.0-SHA-c9f2d815-RC1
 
 RESOURCE ID: minicollect_help_desc_type_bread
 TEXT: Collect Dynamax Pokémon.
@@ -738,6 +764,9 @@ TEXT: Collect Gigantamax Pokémon.
 
 RESOURCE ID: move_name_0488
 TEXT: Chilling Water
+
+RESOURCE ID: news_feed_featured_tag
+TEXT: FEATURED
 
 RESOURCE ID: party_play_see_details_label
 TEXT: SEE DETAILS
@@ -771,6 +800,36 @@ TEXT: The core on its chest absorbs energy emanating from the lands of the Galar
 
 RESOURCE ID: profile_banner_level_updates
 TEXT: Updates are coming to Trainer levels! Learn more <a href="https://pokemongo.com/post/pgo-leveling-update-announce-2025">here</a>.
+
+RESOURCE ID: psychic_spec_tgr_paid_tr
+TEXT: Psychic Spectacular Premium Timed Research
+
+RESOURCE ID: psychic_spec_tgr_paid_tr_1
+TEXT: Psychic Spectacular Premium Timed Research (1/2)
+
+RESOURCE ID: psychic_spec_tgr_paid_tr_2
+TEXT: Psychic Spectacular Premium Timed Research (2/2)
+
+RESOURCE ID: psychic_spectacular_tgr_event_name
+TEXT: Psychic Spectacular: Taken Over
+
+RESOURCE ID: psychic_spectacular_tgr_sr_1
+TEXT: Psychic Spectacular: Taken Over (1/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_2
+TEXT: Psychic Spectacular: Taken Over (2/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_3
+TEXT: Psychic Spectacular: Taken Over (3/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_4
+TEXT: Psychic Spectacular: Taken Over (4/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_5
+TEXT: Psychic Spectacular: Taken Over (5/5)
+
+RESOURCE ID: psychic_tgr_takeover_collection_challenge
+TEXT: Psychic Spectacular Collection Challenge: Gathering Shadows
 
 RESOURCE ID: quest_battle_bug_charge_plural
 TEXT: Use a Bug-type Charged Attack in {0} battles
@@ -888,6 +947,9 @@ TEXT: Catch {0} Bulbasaur, Charmander, or Squirtle
 
 RESOURCE ID: quest_catch_kanto_starters_singular
 TEXT: Catch a Bulbasaur, Charmander, or Squirtle
+
+RESOURCE ID: quest_catch_solrock_lunatone_plural
+TEXT: Catch {0} Solrock or Lunatone
 
 RESOURCE ID: quest_catch_water_fighting_plural
 TEXT: Catch {0} Water- or Fighting-type Pokémon
@@ -1091,6 +1153,9 @@ TEXT: The Jardin des Tuileries in front of the Louvre offers a great walk during
 RESOURCE ID: rally_paris_2025_title
 TEXT: Paris Stamp Rally
 
+RESOURCE ID: rewarded_spend_helpshift_blog_url
+TEXT: https://pokemongo.com/news/go-pass-september-2025#rewardroad
+
 RESOURCE ID: s19_tgr_takeover_collection_challenge
 TEXT: Collection Challenge
 
@@ -1239,6 +1304,9 @@ TEXT: Purchase GO Pass Deluxe: September to unlock the following rewards!
 • One <a href="https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/2358-incubators-hatching-pokemon-eggs/">Timed Incubator</a>, an additional limited time infinite Incubator for hatching Eggs as you explore!
 • And much more!
 
+RESOURCE ID: shadow_raid_weekend_groudon_event_name
+TEXT: Shadow Raid Weekend: Groudon
+
 RESOURCE ID: slulo_event_title
 TEXT: XP Celebration
 
@@ -1262,6 +1330,9 @@ TEXT: XP Celebration Timed Research (50/50)
 
 RESOURCE ID: spawn_flabebe
 TEXT: More Flabébé are appearing in the wild!
+
+RESOURCE ID: stardust_cost_trade_reduced_bonus
+TEXT: Stardust Cost for trade reduced
 
 RESOURCE ID: sunkissed_shores_event_name
 TEXT: Sunkissed Shores
@@ -1324,6 +1395,17 @@ TEXT: <b>Included bonuses:</b>
 • Increased chance to receive Rare Candy XL from raids
 • 50% more XP and 2× Stardust for successfully completing raids
 
+RESOURCE ID: text_rewards_key_psychicspectgr
+TEXT: <b>Included rewards:</b>
+• Encounters with Slowpoke, Gothita, Solosis, Oranguru, Hatenna, Wyrdeer, and more!
+• 2 Premium Battle Passes
+• 1 Super Rocket Radar
+
+RESOURCE ID: text_rewards_key_shadowgroudonraidweekend
+TEXT: <b>Included bonuses:</b>
+• Five additional Raid Passes from spinning Photo Discs at Gyms
+• 50% more XP and 2× Stardust for successfully completing raids
+
 RESOURCE ID: text_rewards_key_sunkissedctr0825
 TEXT: <b>Included rewards:</b>
 • Encounters with Shellder and Alolan Marowak
@@ -1359,6 +1441,9 @@ TEXT: GO Pass Deluxe: Max Finale Daily Tasks
 RESOURCE ID: title_gofest2025_finale_event_pass_hourly_bonus_quest
 TEXT: GO Pass: Max Finale Hourly Tasks
 
+RESOURCE ID: trade_day_event_name
+TEXT: Trade Day
+
 RESOURCE ID: trade_exclusion_reason_friend_reached_daily_limit
 TEXT: Your friend can’t make any more Special Trades today.
 
@@ -1370,6 +1455,9 @@ TEXT: You can’t make any more Special Trades today.
 
 RESOURCE ID: trade_exclusion_reason_player_reached_daily_limit_out
 TEXT: You’ve already made a Special Trade today.
+
+RESOURCE ID: trade_guaranteed_candyxl_2
+TEXT: Guaranteed 2 Candy XL when trading Pokémon
 
 RESOURCE ID: v2_egg_incubation_complete|1
 TEXT: Excellent! You’ve successfully put the Egg in the Incubator. Keep exploring and it’ll hatch soon enough!

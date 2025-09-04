@@ -312,13 +312,13 @@ RESOURCE ID: badge_safari_2025_vancouver_day_00_title
 TEXT: Pokémon GO City Safari
 
 RESOURCE ID: badge_safari_2025_vancouver_day_01
-TEXT: 曼谷，2025年9月27日
+TEXT: 溫哥華，2025年9月27日
 
 RESOURCE ID: badge_safari_2025_vancouver_day_01_title
 TEXT: Pokémon GO City Safari
 
 RESOURCE ID: badge_safari_2025_vancouver_day_02
-TEXT: 曼谷，2025年9月28日
+TEXT: 溫哥華，2025年9月28日
 
 RESOURCE ID: badge_safari_2025_vancouver_day_02_title
 TEXT: Pokémon GO City Safari
@@ -482,6 +482,14 @@ TEXT: 9月7日14:00～17:00
 RESOURCE ID: event_datetime_range_key_originraidday
 TEXT: 8月10日11:00～17:00
 
+RESOURCE ID: event_datetime_range_key_psychicspectgr
+TEXT: 9月16日00:00～
+9月21日23:59
+
+RESOURCE ID: event_datetime_range_key_shadowgroudonraidweekend
+TEXT: 9月20日6:00～
+9月21日22:00
+
 RESOURCE ID: event_datetime_range_key_sunkissedctr0825
 TEXT: 8月25日10:00～
 8月31日20:00
@@ -522,6 +530,9 @@ TEXT: 有1位共同朋友
 
 RESOURCE ID: general1.ticket.5_megagyaradosraidday_title
 TEXT: 超級暴鯉龍團體戰日入場券
+
+RESOURCE ID: general1.ticket.5_psychicspectgr_title
+TEXT: 超能力週：佔領特級限時調查入場券
 
 RESOURCE ID: general1.ticket._gbw_wcs_aug25_title
 TEXT: WCS2025特級限時調查入場券
@@ -644,6 +655,9 @@ TEXT: GO Pass豪華版：最後一極
 RESOURCE ID: great_league_championship_series
 TEXT: Championship2025系列盃
 
+RESOURCE ID: groudon shadow raid weekend ticket
+TEXT: 暗影固拉多團體戰週末入場券
+
 RESOURCE ID: increased_mega_form_duration_bonus
 TEXT: 超級進化時間延長為3倍
 
@@ -719,11 +733,23 @@ TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時�
 RESOURCE ID: item_event_ticket_gray_desc_originraidday
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年8月10日11:00～17:00領取特別的獎勵。
 
+RESOURCE ID: item_event_ticket_gray_desc_psychicspectgr
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年9月21日23:59前參與「超能力週：佔領」特級限時調查。
+
+RESOURCE ID: item_event_ticket_gray_desc_shadowgroudonraidweekend
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年9月21日22:00為止領取特別的獎勵。
+
 RESOURCE ID: item_event_ticket_gray_details_megagyaradosraidday
 TEXT: 入場券將會自動啟動。不論你身在何處，都能在當地時間2025年8月31日領取特別的獎勵。
 
 RESOURCE ID: item_event_ticket_gray_details_megasharpedoraidday
 TEXT: 入場券將會自動啟動。不論你身在何處，都可以在當地時間2025年9月7日領取特別的獎勵。
+
+RESOURCE ID: item_event_ticket_gray_details_psychicspectgr
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間9月16日開始參與「超能力週：佔領」特級限時調查。
+
+RESOURCE ID: item_event_ticket_gray_details_shadowgroudonraidweekend
+TEXT: 入場券將會自動啟動。不論你身在何處，都能在當地時間2025年9月20日領取特別的獎勵。
 
 RESOURCE ID: item_event_ticket_pink_desc_cd_flabebe25
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年9月14日14:00開始參與花蓓蓓社群日的特殊調查。
@@ -848,10 +874,10 @@ RESOURCE ID: maxfinale_2025_ep_bonus_title_02
 TEXT: 第3階段GO Pass：最後一極獎勵
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-08-29T23:21:27.944320+00:00 for zh-TW
-at SHA cde95d30a7a
-Pipeline 3347785, job 45617830
-Patch from: 0.377.0-SHA-66580fe4-RC1, 0.375.2-SHA-ba322e6e-RC2
+TEXT: Built at 2025-09-04T01:12:26.097492+00:00 for zh-TW
+at SHA 6b7180c52dc
+Pipeline 3352975, job 45800320
+Patch from: 0.375.2-SHA-ba322e6e-RC2, 0.377.0-SHA-66580fe4-RC1, 0.379.0-SHA-c9f2d815-RC1
 
 RESOURCE ID: minicollect_help_desc_type_bread
 TEXT: 獲得極巨化寶可夢
@@ -860,7 +886,10 @@ RESOURCE ID: minicollect_help_desc_type_dough
 TEXT: 獲得超極巨化寶可夢
 
 RESOURCE ID: move_name_0488
-TEXT: Chilling Water
+TEXT: 潑冷水
+
+RESOURCE ID: news_feed_featured_tag
+TEXT: FEATURED
 
 RESOURCE ID: party_play_see_details_label
 TEXT: SEE DETAILS
@@ -894,6 +923,36 @@ TEXT: 會用胸部的核心吸收 伽勒爾的大地湧出的能量， 藉以保
 
 RESOURCE ID: profile_banner_level_updates
 TEXT: 預計更新訓練家等級！詳情請確認<a href="https://pokemongo.com/post/pgo-leveling-update-announce-2025">此處</a>。
+
+RESOURCE ID: psychic_spec_tgr_paid_tr
+TEXT: 超能力週特級限時調查
+
+RESOURCE ID: psychic_spec_tgr_paid_tr_1
+TEXT: 超能力週特級限時調查(1/2)
+
+RESOURCE ID: psychic_spec_tgr_paid_tr_2
+TEXT: 超能力週特級限時調查(2/2)
+
+RESOURCE ID: psychic_spectacular_tgr_event_name
+TEXT: 超能力週：佔領
+
+RESOURCE ID: psychic_spectacular_tgr_sr_1
+TEXT: 超能力週：佔領(1/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_2
+TEXT: 超能力週：佔領(2/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_3
+TEXT: 超能力週：佔領(3/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_4
+TEXT: 超能力週：佔領(4/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_5
+TEXT: 超能力週：佔領(5/5)
+
+RESOURCE ID: psychic_tgr_takeover_collection_challenge
+TEXT: 超能力週收藏家挑戰：追蹤暗影
 
 RESOURCE ID: quest_battle_bug_charge_plural
 TEXT: Use a Bug-type Charged Attack in {0} battles
@@ -1017,6 +1076,9 @@ TEXT: 捕捉1隻妙蛙種子、小火龍或傑尼龜
 
 RESOURCE ID: quest_catch_pokemon_galar
 TEXT: 捕捉{0}隻在伽勒爾地區首次被發現的寶可夢
+
+RESOURCE ID: quest_catch_solrock_lunatone_plural
+TEXT: 捕捉{0}隻太陽岩或月石
 
 RESOURCE ID: quest_catch_water_fighting_plural
 TEXT: 捕捉{0}隻水屬性或格鬥屬性的寶可夢
@@ -1222,43 +1284,46 @@ RESOURCE ID: raid_win_plus3000_bonus
 TEXT: 完成團體戰後可獲得額外的3000XP
 
 RESOURCE ID: rally_paris_2025_desc
-TEXT: Earn encounters with Charmander by completing the rally!
+TEXT: 完成集章趣後就能遇見小火龍！
 
 RESOURCE ID: rally_paris_2025_desc_detail
-TEXT: Collect stamps by visiting GO Stamp Rally PokéStops on a scenic path in the heart of Paris!
+TEXT: 巡訪設置在巴黎市中心的指定寶可補給站，並蓋上那裡的圖章吧！
 
 RESOURCE ID: rally_paris_2025_location
-TEXT: Paris, France
+TEXT: 法國，巴黎
 
 RESOURCE ID: rally_paris_2025_rewards_desc
-TEXT: Complete this stamp rally to earn encounters with Charmander while also collecting enough Mega Energy to Mega Evolve your Charizard into Mega Charizard X or Mega Charizard Y.
+TEXT: 遇見小火龍（收集超級能量可以讓噴火龍超級進化成超級噴火龍Ｘ或超級噴火龍Ｙ）
 
 RESOURCE ID: rally_paris_2025_stamp_description_1
-TEXT: This park is the closest to Les Halles, and it’s a great place to relax or take on raids. Many Trainers meet there on Community Days due to its accessibility.
+TEXT: 巴黎大堂附近最適合參加團體戰的公園。社群日時有不少訓練家會聚在這裡參加團體戰。
 
 RESOURCE ID: rally_paris_2025_stamp_description_2
-TEXT: Between the Louvre and the Saint-Germain-l’Auxerrois church, this spot offers a great view of Paris by the Seine river.
+TEXT: 位於羅浮宮博物館和聖日耳曼歐塞爾教堂之間的景點，可以清楚地欣賞塞納河和巴黎街景。
 
 RESOURCE ID: rally_paris_2025_stamp_description_3
-TEXT: Place Colette is right in front of the Salle Richelieu, which hosts La Comédie-Française, France’s most famous theatre troupe.
+TEXT: 科萊特廣場位於法國最具代表性的劇院，也就是法蘭西喜劇院的總部前。
 
 RESOURCE ID: rally_paris_2025_stamp_description_4
-TEXT: This chalet hides under the Louvre and the Jardin des Tuileries, inside a mall built within Paris’s old walls. You can see the inverted pyramid of the Louvre, as well as multiple statues!
+TEXT: 這間小屋設置於杜樂麗花園和羅浮宮博物館之間，以羅浮宮倒金字塔聞名的地下購物中心裡。
 
 RESOURCE ID: rally_paris_2025_stamp_description_5
-TEXT: At the start of one of Europe’s most famous avenues, Les Champs-Élysées, you can visit one of Paris’s first parks, laid out by the famous architect and designer André Le Nôtre in 1667.
+TEXT: 由園林設計師安德烈・勒諾特爾於1667年設計而成的花園。面對著優美且著名的香榭麗舍大道。
 
 RESOURCE ID: rally_paris_2025_stamp_description_6
-TEXT: The Westfield mall in Les Halles hosts the Lumiose City tourism hub.
+TEXT: 位於巴黎大堂的Westfield商場內，近似於密阿雷市觀光中樞的景點。
 
 RESOURCE ID: rally_paris_2025_stamp_description_7
-TEXT: The Jardin des Tuileries in front of the Louvre offers a great walk during your adventure with classic Parisian sights.
+TEXT: 位於羅浮宮博物館和協和廣場之間的杜樂麗花園。是一個漫步巴黎的絕佳景點。
 
 RESOURCE ID: rally_paris_2025_title
-TEXT: Paris Stamp Rally
+TEXT: 巴黎集章趣
 
 RESOURCE ID: remote_max_battler_box
 TEXT: 遠距極巨對戰者禮盒
+
+RESOURCE ID: rewarded_spend_helpshift_blog_url
+TEXT: https://pokemongo.com/news/go-pass-september-2025#rewardroad
 
 RESOURCE ID: s19_tgr_takeover_collection_challenge
 TEXT: 收藏家挑戰
@@ -1407,6 +1472,9 @@ TEXT: 如果購買GO Pass豪華版：9月，將能解鎖下列獎勵！
 ・孵蛋次數無上限的「<a href="https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/2358-incubators-hatching-pokemon-eggs/">限時孵化器</a>」
 ・其他
 
+RESOURCE ID: shadow_raid_weekend_groudon_event_name
+TEXT: 暗影團體戰週末：固拉多
+
 RESOURCE ID: slulo_event_title
 TEXT: XP快快升
 
@@ -1445,6 +1513,9 @@ TEXT: 一天最多可進行{0}次特殊交換
 
 RESOURCE ID: special_trade_remaining_select
 TEXT: 特殊交換還剩：{0}次
+
+RESOURCE ID: stardust_cost_trade_reduced_bonus
+TEXT: 交換寶可夢所需的星星沙子減少
 
 RESOURCE ID: sunkissed_shores_event_name
 TEXT: 海灘狂歡
@@ -1507,6 +1578,17 @@ TEXT: <b>可獲得的獎勵：</b>
 ・在團體戰獲得神奇糖果XL的機率提高
 ・在團體戰中獲勝時可獲得1.5倍XP及2倍星星沙子等
 
+RESOURCE ID: text_rewards_key_psychicspectgr
+TEXT: <b>可獲得的獎勵：</b>
+・與呆呆獸、哥德寶寶、單卵細胞球、智揮猩、迷布莉姆、詭角鹿等相遇的機會
+・2張特級對戰入場券
+・1個超級火箭隊雷達等
+
+RESOURCE ID: text_rewards_key_shadowgroudonraidweekend
+TEXT: <b>可獲得的獎勵：</b>
+・旋轉道館轉盤時可獲得5張額外團體戰入場券
+・在團體戰中獲勝時可獲得1.5倍XP及2倍星星沙子等
+
 RESOURCE ID: text_rewards_key_sunkissedctr0825
 TEXT: <b>可獲得的獎勵：</b>
 ・與大舌貝和嘎啦嘎啦（阿羅拉的樣子）相遇
@@ -1542,6 +1624,9 @@ TEXT: GO Pass：最後一極每小時任務
 RESOURCE ID: title_tr_go_fest_max_finale_2025_01
 TEXT: GO Fest：最後一極限時調查(2/2)
 
+RESOURCE ID: trade_day_event_name
+TEXT: 交換日
+
 RESOURCE ID: trade_exclusion_reason_friend_reached_daily_limit
 TEXT: 朋友今天的次數已達上限，所以無法進行特殊交換
 
@@ -1553,6 +1638,9 @@ TEXT: 特殊交換次數已達上限
 
 RESOURCE ID: trade_exclusion_reason_player_reached_daily_limit_out
 TEXT: 今天已經做過特殊交換囉
+
+RESOURCE ID: trade_guaranteed_candyxl_2
+TEXT: 交換寶可夢時一定可獲得2個糖果XL
 
 RESOURCE ID: wcs_2025_anaheim_special_background
 TEXT: 在團體戰和田野調查遇見的換上服飾的皮卡丘可能會帶著安那翰紀念背卡

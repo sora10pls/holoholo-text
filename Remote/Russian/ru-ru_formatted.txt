@@ -770,6 +770,14 @@ TEXT: 7 сентября, 14:00 – 17:00
 RESOURCE ID: event_datetime_range_key_originraidday
 TEXT: 10 августа, 11:00 – 17:00
 
+RESOURCE ID: event_datetime_range_key_psychicspectgr
+TEXT: 12:00 16 сентября –
+23:59 21 сентября
+
+RESOURCE ID: event_datetime_range_key_shadowgroudonraidweekend
+TEXT: 06:00 20 сентября –
+22:00 21 сентября
+
 RESOURCE ID: event_datetime_range_key_sunkissedctr0825
 TEXT: 10:00 25 августа –
 20:00 31 августа
@@ -804,6 +812,9 @@ TEXT: 1 общий друг
 
 RESOURCE ID: general1.ticket.5_megagyaradosraidday_title
 TEXT: Билет: Рейдовый День: Мега-Гиарадос
+
+RESOURCE ID: general1.ticket.5_psychicspectgr_title
+TEXT: Билет: Премиум-Квест на Время Психофеерия: Захват
 
 RESOURCE ID: general1.ticket._gbw_wcs_aug25_title
 TEXT: Билет: Премиум-Квест на Время ЧМ 2025
@@ -944,6 +955,9 @@ TEXT: Делюкс-Пропуск GO: Финал Макс
 RESOURCE ID: great_league_championship_series
 TEXT: Кубок Серии Игр Чемпионата 2025
 
+RESOURCE ID: groudon shadow raid weekend ticket
+TEXT: Билет: Теневые Рейдовые Выходные: Граудон
+
 RESOURCE ID: increased_mega_form_duration_bonus
 TEXT: 3× время действия Мегаэволюции
 
@@ -1019,11 +1033,23 @@ TEXT: Билет, дающий доступ к специальным бону�
 RESOURCE ID: item_event_ticket_gray_desc_originraidday
 TEXT: Билет, дающий доступ к специальным бонусам 10 августа 2025 с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения.
 
+RESOURCE ID: item_event_ticket_gray_desc_psychicspectgr
+TEXT: Билет, дающий доступ к Премиум-Квесту на Время Психофеерия: Захват до 23:59 21 сентября 2025 по местному времени, вне зависимости от твоего местонахождения.
+
+RESOURCE ID: item_event_ticket_gray_desc_shadowgroudonraidweekend
+TEXT: Билет, дающий доступ к специальным бонусам до 22:00 21 сентября 2025 по местному времени, вне зависимости от твоего местонахождения.
+
 RESOURCE ID: item_event_ticket_gray_details_megagyaradosraidday
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальным бонусам 31 августа, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_gray_details_megasharpedoraidday
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальным бонусам 7 сентября, вне зависимости от твоего местонахождения.
+
+RESOURCE ID: item_event_ticket_gray_details_psychicspectgr
+TEXT: Этот билет активируется автоматически 16 сентября, чтобы дать тебе доступ к Премиум-Квесту на Время Психофеерия: Захват, вне зависимости от твоего местонахождения.
+
+RESOURCE ID: item_event_ticket_gray_details_shadowgroudonraidweekend
+TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальным бонусам 20 сентября, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_pink_desc_cd_flabebe25
 TEXT: Билет на Специальный Квест День Сообщества Флабебе Сила Цветов с 14:00 14 сентября по местному времени, вне зависимости от твоего местонахождения.
@@ -1148,10 +1174,10 @@ RESOURCE ID: maxfinale_2025_ep_bonus_title_02
 TEXT: Бонусы Пропуска GO: Финал Макс: Уровень 3
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-08-29T23:21:27.944320+00:00 for ru-RU
-at SHA cde95d30a7a
-Pipeline 3347785, job 45617830
-Patch from: 0.377.0-SHA-66580fe4-RC1, 0.375.2-SHA-ba322e6e-RC2
+TEXT: Built at 2025-09-04T01:12:26.097492+00:00 for ru-RU
+at SHA 6b7180c52dc
+Pipeline 3352975, job 45800320
+Patch from: 0.375.2-SHA-ba322e6e-RC2, 0.377.0-SHA-66580fe4-RC1, 0.379.0-SHA-c9f2d815-RC1
 
 RESOURCE ID: minicollect_help_desc_type_bread
 TEXT: Собери Динамакс-Покемонов.
@@ -1161,6 +1187,9 @@ TEXT: Собери Гигантамакс-Покемонов.
 
 RESOURCE ID: move_name_0488
 TEXT: Холодный Душ
+
+RESOURCE ID: news_feed_featured_tag
+TEXT: FEATURED
 
 RESOURCE ID: party_play_see_details_label
 TEXT: SEE DETAILS
@@ -1198,113 +1227,143 @@ TEXT: Звёздная Пыль
 RESOURCE ID: profile_banner_level_updates
 TEXT: Скоро произойдут обновления в системе уровней Тренеров! Узнай больше <a href="https://pokemongo.com/post/pgo-leveling-update-announce-2025">здесь</a>.
 
+RESOURCE ID: psychic_spec_tgr_paid_tr
+TEXT: Премиум-Квест на Время Психофеерия
+
+RESOURCE ID: psychic_spec_tgr_paid_tr_1
+TEXT: Премиум-Квест на Время Психофеерия (1/2)
+
+RESOURCE ID: psychic_spec_tgr_paid_tr_2
+TEXT: Премиум-Квест на Время Психофеерия (2/2)
+
+RESOURCE ID: psychic_spectacular_tgr_event_name
+TEXT: Психофеерия: Захват
+
+RESOURCE ID: psychic_spectacular_tgr_sr_1
+TEXT: Психофеерия: Захват (1/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_2
+TEXT: Психофеерия: Захват (2/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_3
+TEXT: Психофеерия: Захват (3/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_4
+TEXT: Психофеерия: Захват (4/5)
+
+RESOURCE ID: psychic_spectacular_tgr_sr_5
+TEXT: Психофеерия: Захват (5/5)
+
+RESOURCE ID: psychic_tgr_takeover_collection_challenge
+TEXT: Психофеерия: Коллекционное Испытание: В Погоне за Тенями
+
 RESOURCE ID: quest_battle_bug_charge_plural
-TEXT: Use a Bug-type Charged Attack in {0} battles
+TEXT: Используй Заряженную Атаку типа Насекомое в битвах ×{0}
 
 RESOURCE ID: quest_battle_bug_charge_singular
-TEXT: Use a Bug-type Charged Attack in a battle
+TEXT: Используй Заряженную Атаку типа Насекомое в битве
 
 RESOURCE ID: quest_battle_dark_charge_plural
-TEXT: Use a Dark-type Charged Attack in {0} battles
+TEXT: Используй Заряженную Атаку типа Тёмный в битвах ×{0}
 
 RESOURCE ID: quest_battle_dark_charge_singular
-TEXT: Use a Dark-type Charged Attack in a battle
+TEXT: Используй Заряженную Атаку типа Тёмный в битве
 
 RESOURCE ID: quest_battle_dragon_charge_plural
-TEXT: Use a Dragon-type Charged Attack in {0} battles
+TEXT: Используй Заряженную Атаку типа Дракон в битвах ×{0}
 
 RESOURCE ID: quest_battle_dragon_charge_singular
-TEXT: Use a Dragon-type Charged Attack in a battle
+TEXT: Используй Заряженную Атаку типа Дракон в битве
 
 RESOURCE ID: quest_battle_electric_charge_plural
-TEXT: Use an Electric-type Charged Attack in {0} battles
+TEXT: Используй Заряженную Атаку типа Электро в битвах ×{0}
 
 RESOURCE ID: quest_battle_electric_charge_singular
-TEXT: Use an Electric-type Charged Attack in a battle
+TEXT: Используй Заряженную Атаку типа Электро в битве
 
 RESOURCE ID: quest_battle_fairy_charge_plural
-TEXT: Use a Fairy-type Charged Attack in {0} battles
+TEXT: Используй Заряженную Атаку типа Фея в битвах ×{0}
 
 RESOURCE ID: quest_battle_fairy_charge_singular
-TEXT: Use a Fairy-type Charged Attack in a battle
+TEXT: Используй Заряженную Атаку типа Фея в битве
 
 RESOURCE ID: quest_battle_fighting_charge_plural
-TEXT: Use a Fighting-type Charged Attack in {0} battles
+TEXT: Используй Заряженную Атаку типа Боевой в битвах ×{0}
 
 RESOURCE ID: quest_battle_fighting_charge_singular
-TEXT: Use a Fighting-type Charged Attack in a battle
+TEXT: Используй Заряженную Атаку типа Боевой в битве
 
 RESOURCE ID: quest_battle_fire_charge_plural
-TEXT: Use a Fire-type Charged Attack in {0} battles
+TEXT: Используй Заряженную Атаку типа Огонь в битвах ×{0}
 
 RESOURCE ID: quest_battle_fire_charge_singular
-TEXT: Use a Fire-type Charged Attack in a battle
+TEXT: Используй Заряженную Атаку типа Огонь в битве
 
 RESOURCE ID: quest_battle_flying_charge_plural
-TEXT: Use a Flying-type Charged Attack in {0} battles
+TEXT: Используй Заряженную Атаку типа Летающий в битвах ×{0}
 
 RESOURCE ID: quest_battle_flying_charge_singular
-TEXT: Use a Flying-type Charged Attack in a battle
+TEXT: Используй Заряженную Атаку типа Летающий в битве
 
 RESOURCE ID: quest_battle_ghost_charge_plural
-TEXT: Use a Ghost-type Charged Attack in {0} battles
+TEXT: Используй Заряженную Атаку типа Привидение в битвах ×{0}
 
 RESOURCE ID: quest_battle_ghost_charge_singular
-TEXT: Use a Ghost-type Charged Attack in a battle
+TEXT: Используй Заряженную Атаку типа Привидение в битве
 
 RESOURCE ID: quest_battle_grass_charge_plural
-TEXT: Use a Grass-type Charged Attack in {0} battles
+TEXT: Используй Заряженную Атаку типа Трава в битвах ×{0}
 
 RESOURCE ID: quest_battle_grass_charge_singular
-TEXT: Use a Grass-type Charged Attack in a battle
+TEXT: Используй Заряженную Атаку типа Трава в битве
 
 RESOURCE ID: quest_battle_ground_charge_plural
-TEXT: Use a Ground-type Charged Attack in {0} battles
+TEXT: Используй Заряженную Атаку типа Земля в битвах ×{0}
 
 RESOURCE ID: quest_battle_ground_charge_singular
-TEXT: Use a Ground-type Charged Attack in a battle
+TEXT: Используй Заряженную Атаку типа Земля в битве
 
 RESOURCE ID: quest_battle_ice_charge_plural
-TEXT: Use an Ice-type Charged Attack in {0} battles
+TEXT: Используй Заряженную Атаку типа Лёд в битвах ×{0}
 
 RESOURCE ID: quest_battle_ice_charge_singular
-TEXT: Use an Ice-type Charged Attack in a battle
+TEXT: Используй Заряженную Атаку типа Лёд в битве
 
 RESOURCE ID: quest_battle_normal_charge_plural
-TEXT: Use a Normal-type Charged Attack in {0} battles
+TEXT: Используй Заряженную Атаку типа Обычный в битвах ×{0}
 
 RESOURCE ID: quest_battle_normal_charge_singular
-TEXT: Use a Normal-type Charged Attack in a battle
+TEXT: Используй Заряженную Атаку типа Обычный в битве
 
 RESOURCE ID: quest_battle_poison_charge_plural
-TEXT: Use a Poison-type Charged Attack in {0} battles
+TEXT: Используй Заряженную Атаку типа Яд в битвах ×{0}
 
 RESOURCE ID: quest_battle_poison_charge_singular
-TEXT: Use a Poison-type Charged Attack in a battle
+TEXT: Используй Заряженную Атаку типа Яд в битве
 
 RESOURCE ID: quest_battle_psychic_charge_plural
-TEXT: Use a Psychic-type Charged Attack in {0} battles
+TEXT: Используй Заряженную Атаку типа Психо в битвах ×{0}
 
 RESOURCE ID: quest_battle_psychic_charge_singular
-TEXT: Use a Psychic-type Charged Attack in a battle
+TEXT: Используй Заряженную Атаку типа Психо в битве
 
 RESOURCE ID: quest_battle_rock_charge_plural
-TEXT: Use a Rock-type Charged Attack in {0} battles
+TEXT: Используй Заряженную Атаку типа Камень в битвах ×{0}
 
 RESOURCE ID: quest_battle_rock_charge_singular
-TEXT: Use a Rock-type Charged Attack in a battle
+TEXT: Используй Заряженную Атаку типа Камень в битве
 
 RESOURCE ID: quest_battle_steel_charge_plural
-TEXT: Use a Steel-type Charged Attack in {0} battles
+TEXT: Используй Заряженную Атаку типа Сталь в битвах ×{0}
 
 RESOURCE ID: quest_battle_steel_charge_singular
-TEXT: Use a Steel-type Charged Attack in a battle
+TEXT: Используй Заряженную Атаку типа Сталь в битве
 
 RESOURCE ID: quest_battle_water_charge_plural
-TEXT: Use a Water-type Charged Attack in {0} battles
+TEXT: Используй Заряженную Атаку типа Вода в битвах ×{0}
 
 RESOURCE ID: quest_battle_water_charge_singular
-TEXT: Use a Water-type Charged Attack in a battle
+TEXT: Используй Заряженную Атаку типа Вода в битве
 
 RESOURCE ID: quest_candy_keldeo_singular
 TEXT: Заработай Конфету с Кельдио в качестве Покемона-приятеля
@@ -1320,6 +1379,9 @@ TEXT: Поймай Бульбазавра, Чармандера или Скви�
 
 RESOURCE ID: quest_catch_pokemon_galar
 TEXT: Поймай Покемонов, впервые обнаруженных в Регионе Галар ×{0}
+
+RESOURCE ID: quest_catch_solrock_lunatone_plural
+TEXT: Поймай Солрока или Лунатона ×{0}
 
 RESOURCE ID: quest_catch_water_fighting_plural
 TEXT: Поймай Покемонов типов Вода или Боевой ×{0}
@@ -1582,6 +1644,9 @@ TEXT: Марафон Печатей Париж
 RESOURCE ID: remote_max_battler_box
 TEXT: Коробка для Удалённых Битв Макс
 
+RESOURCE ID: rewarded_spend_helpshift_blog_url
+TEXT: https://pokemongo.com/news/go-pass-september-2025#rewardroad
+
 RESOURCE ID: s19_tgr_takeover_collection_challenge
 TEXT: Коллекционное испытание
 
@@ -1733,6 +1798,9 @@ TEXT: Приобрети Делюкс-Пропуск GO: Сентябрь, чт�
 RESOURCE ID: season_pass_track_upgrade_header_description_50
 TEXT: Заработай дополнительные награды и получи доступ к <b>Удачливой Капсуле</b> в Ранге 50!
 
+RESOURCE ID: shadow_raid_weekend_groudon_event_name
+TEXT: Теневые Рейдовые Выходные: Граудон
+
 RESOURCE ID: slulo_event_title
 TEXT: Праздник XP
 
@@ -1771,6 +1839,9 @@ TEXT: Специальных Обменов в день: до {0}
 
 RESOURCE ID: special_trade_remaining_select
 TEXT: Осталось Специальных Обменов: {0}
+
+RESOURCE ID: stardust_cost_trade_reduced_bonus
+TEXT: Цена Звёздной Пыли для обмена снижена
 
 RESOURCE ID: sunkissed_shores_event_name
 TEXT: Солнечные Берега
@@ -1833,6 +1904,17 @@ TEXT: <b>Включает следующие бонусы:</b>
 • Больше шансов получить Редкие Конфеты XL в рейдах
 • На 50% больше XP и 2× Звёздной Пыли за успешное завершение рейдов
 
+RESOURCE ID: text_rewards_key_psychicspectgr
+TEXT: <b>Включает следующие награды:</b>
+• Встречи со Слоупоком, Гофитой, Солосисом, Орангуру, Хатенной, Вирдиром и другими!
+• 2 Боевых Премиум-Пропуска
+• 1 Суперракетный Радар
+
+RESOURCE ID: text_rewards_key_shadowgroudonraidweekend
+TEXT: <b>Включает следующие бонусы:</b>
+• 5 дополнительных Пропусков на Рейды за прокрутку Фотодисков в Гимах
+• На 50% больше XP и 2× Звёздной Пыли за успешное завершение рейдов
+
 RESOURCE ID: text_rewards_key_sunkissedctr0825
 TEXT: <b>Включает следующие награды:</b>
 • Встречи с Шеллдером и Алольским Мароваком
@@ -1874,6 +1956,9 @@ TEXT: Почасовые Задания Пропуска GO: Финал Макс
 RESOURCE ID: title_tr_go_fest_max_finale_2025_01
 TEXT: Квест на Время Фестиваль GO: Финал Макс (2/2)
 
+RESOURCE ID: trade_day_event_name
+TEXT: День Обмена
+
 RESOURCE ID: trade_exclusion_reason_friend_reached_daily_limit
 TEXT: Твой друг больше не может совершать Специальные Обмены сегодня.
 
@@ -1885,6 +1970,9 @@ TEXT: Ты больше не можешь совершать Специальн�
 
 RESOURCE ID: trade_exclusion_reason_player_reached_daily_limit_out
 TEXT: Сегодня уже был совершён специальный обмен.
+
+RESOURCE ID: trade_guaranteed_candyxl_2
+TEXT: 2 гарантированные Конфеты XL при обмене Покемона
 
 RESOURCE ID: wcs_aug25_tr_title
 TEXT: Премиум-Квест на Время ЧМ 2025
