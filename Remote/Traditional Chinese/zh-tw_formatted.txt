@@ -4,6 +4,18 @@ TEXT: https://niantic.helpshift.com/hc/faq/5242-my-account-has-been-locked-or-re
 RESOURCE ID: additional_candy_max_battle_singular
 TEXT: One additional Candy for completing Max Battles
 
+RESOURCE ID: apac2025_fullmoon_clefairy_o_clock_desc_1
+TEXT: 活動期間內，皮皮會在每天13:00和19:00出現
+
+RESOURCE ID: apac2025_fullmoon_clefairy_o_clock_desc_2
+TEXT: 皮皮大量出現中！
+
+RESOURCE ID: apac2025_fullmoon_clefairy_o_clock_title
+TEXT: 皮皮即將出現！
+
+RESOURCE ID: apac2025_fullmoon_title
+TEXT: 賞月舞
+
 RESOURCE ID: apple_encounters_evo_item_drop_bonus
 TEXT: 點擊蘋果後遇見的寶可夢持有啃果蟲進化所需的蘋果機率提高
 
@@ -462,6 +474,9 @@ TEXT: 讓花葉蒂進化成花潔夫人，牠就能學會特殊招式「潑冷�
 RESOURCE ID: bonus_cd_move_solosis
 TEXT: 讓雙卵細胞球進化成人造細胞卵後，牠就能學會一般招式「撒嬌」！
 
+RESOURCE ID: bonus_dai_clefairy
+TEXT: 使用散步小薰香，就有機會吸引到皮皮
+
 RESOURCE ID: bonus_event_stamp_rally_encounter_pokemon
 TEXT: 除了「穿著水藍色襯衫的皮卡丘（橘子）」之外，還能在GO集章趣的寶可補給站及其周圍遇見各個圖章主題的寶可夢
 
@@ -482,6 +497,15 @@ TEXT: Six additional Candy for completing Raid Battles
 
 RESOURCE ID: bonus_tw_route_campaign_routes
 TEXT: 在「走出趣！」路線可能會遇見換上服飾的卡比獸
+
+RESOURCE ID: bundle.midautumn.incubator
+TEXT: 賞月舞孵化器禮盒
+
+RESOURCE ID: bundle.midautumn.maxparticle
+TEXT: 賞月舞極巨粒子禮盒
+
+RESOURCE ID: bundle.midautumn.raid
+TEXT: 賞月舞團體戰禮盒
 
 RESOURCE ID: challenge_buddy_affection_single
 TEXT: 和夥伴獲得心心
@@ -711,6 +735,9 @@ TEXT: Masterpiece Form
 
 RESOURCE ID: form_sinistcha_unremarkable
 TEXT: Unremarkable Form
+
+RESOURCE ID: friend_picker_max_selection_toast
+TEXT: 最多可以邀請{0}人
 
 RESOURCE ID: friends_list_pending_invites_section_header
 TEXT: 未確認的邀請
@@ -1159,10 +1186,10 @@ RESOURCE ID: mega_metagross_raid_day_event_name
 TEXT: 超級巨金怪團體戰日
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-09-27T01:38:02.373711+00:00 for zh-TW
-at SHA fd4c269f6ff
-Pipeline 3385398, job 47010635
-Patch from: 0.377.1-SHA-e8413828-RC1, 0.379.0-SHA-7ac7a8aa-RC5, 0.381.0-SHA-87544fd7-RC2
+TEXT: Built at 2025-10-01T00:46:59.810678+00:00 for zh-TW
+at SHA 192e54a1f80
+Pipeline 3389775, job 47145245
+Patch from: 0.379.0-SHA-c9f2d815-RC1, 0.381.1-SHA-eb88fc61-RC1, 0.377.1-SHA-7a0ecec2-RC3, 0.383.0-SHA-39615c1a-RC1
 
 RESOURCE ID: minicollect_help_desc_type_bread
 TEXT: 獲得極巨化寶可夢
@@ -1549,6 +1576,9 @@ TEXT: 「身影姿態未曾改，直至再次獻祭時」
 
 RESOURCE ID: quest_special_dialogue_hoopaunbound_2_7
 TEXT: 看來如果我們不再次獻上糖果和星星沙子，牠就會一直維持解放胡帕的形態。可是我總覺得也許條件不會完全一樣。
+
+RESOURCE ID: quest_spend_stardust_plural
+TEXT: Spend {0} Stardust
 
 RESOURCE ID: quest_title_flabebe
 TEXT: 解開單朵寶可夢之謎！
@@ -1940,6 +1970,9 @@ TEXT: 如果購買GO Pass豪華版：9月，將能解鎖下列獎勵！
 RESOURCE ID: shadow_raid_weekend_groudon_event_name
 TEXT: 暗影團體戰週末：固拉多
 
+RESOURCE ID: shop_fully_upgraded
+TEXT: 你的{0}已升級至上限
+
 RESOURCE ID: shop_quick_wild_balls_get_them_here
 TEXT: 「強大的寶可夢」不容易捕獲，建議使用GO狩獵球。
 
@@ -2149,7 +2182,7 @@ TEXT: <b>可獲得的獎勵：</b>
 ・捕捉寶可夢時糖果加倍
 ・在活動期間內與異色寶可夢相遇的機率提升
 
-關於入場券的獎勵詳情，請參照<a href="pokemongo.com/gowildarea/global">此處</a>。
+關於入場券的獎勵詳情，請參照<a href="https://pokemongo.com/gowildarea/global">此處</a>。
 
 RESOURCE ID: text_rewards_key_harvestfestival_oct25
 TEXT: <b>可獲得的獎勵：</b>
@@ -2189,7 +2222,8 @@ RESOURCE ID: text_rewards_key_megametagrossraidday
 TEXT: <b>可獲得的獎勵：</b>
 ・旋轉道館轉盤時可獲得8張額外團體戰入場券
 ・在團體戰獲得神奇糖果XL的機率提高
-・在團體戰中獲勝時可獲得1.5倍XP及2倍星星沙子等
+・完成團體戰後可獲得額外的5000XP
+・參加團體戰時可獲得2倍的星星沙子
 
 RESOURCE ID: text_rewards_key_megasharpedoraidday
 TEXT: <b>可獲得的獎勵：</b>
@@ -2225,6 +2259,18 @@ TEXT: 這是可透過GO Pass獲得的孵化器，使用次數無上限。可使�
 
 RESOURCE ID: timed_incubator_ftue_title
 TEXT: 你得到了限時孵化器！
+
+RESOURCE ID: timed_research_event
+TEXT: 現可領取活動主題限時調查
+
+RESOURCE ID: tr_apac2025_fullmoon_desc
+TEXT: 賞月舞限時調查
+
+RESOURCE ID: tr_apac2025_fullmoon_title_00
+TEXT: 賞月舞限時調查(1/2)
+
+RESOURCE ID: tr_apac2025_fullmoon_title_01
+TEXT: 賞月舞限時調查(2/2)
 
 RESOURCE ID: tr_gowa2025_irl_shadow_lc_1
 TEXT: Shadow Rescue (1/2)
@@ -2307,6 +2353,27 @@ TEXT: 美食巡禮
 RESOURCE ID: weedle_drop_mega_energy
 TEXT: 若捕捉到獨角蟲，將有機會獲得大針蜂超級能量
 
+RESOURCE ID: weekly_challenges_add_friend_enable_body
+TEXT: 一起達成週間大挑戰後友誼等級會提升。這個設定之後可以隨時更改。
+
+RESOURCE ID: weekly_challenges_add_friend_enable_title
+TEXT: 要接受來自週間大挑戰成員的朋友申請嗎？
+
+RESOURCE ID: weekly_challenges_add_friend_enabled_off_toast
+TEXT: 已關閉來自週間大挑戰成員的朋友申請
+
+RESOURCE ID: weekly_challenges_add_friend_enabled_on_toast
+TEXT: 已開啟來自週間大挑戰成員的朋友申請
+
+RESOURCE ID: weekly_challenges_allow_friend_requests_toggle_tip
+TEXT: 達成週間大挑戰後友誼等級會提升
+
+RESOURCE ID: weekly_challenges_allow_friend_requests_toggle_title
+TEXT: 週間大挑戰成員
+
+RESOURCE ID: weekly_challenges_canceled_invite_success_toast
+TEXT: 已取消邀請{0}
+
 RESOURCE ID: weekly_challenges_challenge_almost_complete_in_app_notification
 TEXT: 進行了{0}%的週間大挑戰即將結束！
 
@@ -2315,6 +2382,9 @@ TEXT: 選擇小組
 
 RESOURCE ID: weekly_challenges_claim_reward_button
 TEXT: 領取獎勵！
+
+RESOURCE ID: weekly_challenges_complete_share_message
+TEXT: 大家同心協力達成了週間大挑戰！希望下週也能一起達成目標！
 
 RESOURCE ID: weekly_challenges_create_group_button_label
 TEXT: 建立小組
@@ -2336,6 +2406,9 @@ TEXT: 發生錯誤。請再試一次。
 
 RESOURCE ID: weekly_challenges_error_joining_party
 TEXT: 發生錯誤。請再試一次。
+
+RESOURCE ID: weekly_challenges_error_sending_invitation
+TEXT: 傳送週間大挑戰的邀請時發生錯誤。請再試一次。
 
 RESOURCE ID: weekly_challenges_friend_level_too_low_for_invite
 TEXT: 未達到等級{0}無法參加
@@ -2372,6 +2445,9 @@ TEXT: 邀請朋友（最多{0}人）
 
 RESOURCE ID: weekly_challenges_invite_push_notification_toggle_title
 TEXT: 邀請
+
+RESOURCE ID: weekly_challenges_invite_reciever_limit_error
+TEXT: 本週能夠接受的邀請已達上限
 
 RESOURCE ID: weekly_challenges_invite_sent_confirmation
 TEXT: 已傳送週間大挑戰邀請
@@ -2424,6 +2500,12 @@ TEXT: 正在尋找訓練家……
 RESOURCE ID: weekly_challenges_matchmaking_success_in_app_notification
 TEXT: 找到一起參加週間大挑戰的訓練家了！
 
+RESOURCE ID: weekly_challenges_matchmaking_tutorial_1_body
+TEXT: 可以和其他3位隨機配對的訓練家參加小組。
+
+RESOURCE ID: weekly_challenges_matchmaking_tutorial_1_title
+TEXT: 配對
+
 RESOURCE ID: weekly_challenges_milestone_modal_label
 TEXT: 週間大挑戰達成{0}%！
 
@@ -2448,6 +2530,9 @@ TEXT: 有{0}件未確認的邀請
 RESOURCE ID: weekly_challenges_pending_invites_singular
 TEXT: 有1件未確認的邀請
 
+RESOURCE ID: weekly_challenges_player_already_in_challenge
+TEXT: 已在其他小組挑戰週間大挑戰
+
 RESOURCE ID: weekly_challenges_previous_player_progress_multiple
 TEXT: 其他{0}位訓練家：{1}
 
@@ -2469,11 +2554,17 @@ TEXT: 獎勵：
 RESOURCE ID: weekly_challenges_ribbon_banner
 TEXT: 週間大挑戰
 
+RESOURCE ID: weekly_challenges_sans_matchmaking_tutorial_2_body
+TEXT: 參加或建立小組開始週間大挑戰。
+
 RESOURCE ID: weekly_challenges_see_details_label
 TEXT: 查看詳情
 
 RESOURCE ID: weekly_challenges_settings_category_title
 TEXT: 週間大挑戰
+
+RESOURCE ID: weekly_challenges_skip_button
+TEXT: 跳過
 
 RESOURCE ID: weekly_challenges_title
 TEXT: 週間大挑戰
