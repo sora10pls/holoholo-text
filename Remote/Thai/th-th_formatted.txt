@@ -2676,6 +2676,30 @@ TEXT: รวมมือกัน 4 คนทำคำทารายส�
 RESOURCE ID: feature_weekly_challenges_name
 TEXT: คำทารายสัปดาห
 
+RESOURCE ID: form_gourgeist_average
+TEXT: พันธุกลาง
+
+RESOURCE ID: form_gourgeist_large
+TEXT: พันธุใหญ
+
+RESOURCE ID: form_gourgeist_small
+TEXT: พันธุเล็ก
+
+RESOURCE ID: form_gourgeist_super
+TEXT: พันธุใหญยักษ
+
+RESOURCE ID: form_pumpkaboo_average
+TEXT: พันธุกลาง
+
+RESOURCE ID: form_pumpkaboo_large
+TEXT: พันธุใหญ
+
+RESOURCE ID: form_pumpkaboo_small
+TEXT: พันธุเล็ก
+
+RESOURCE ID: form_pumpkaboo_super
+TEXT: พันธุใหญยักษ
+
 RESOURCE ID: general1.ticket._enchanted_hollow_nov25_title
 TEXT: ตั๋วงานวิจัยแบบจำกัดเวลาพรีเมียม: แชกายในผืนปา
 
@@ -3209,10 +3233,10 @@ RESOURCE ID: meetup_check_in_research_title_gowa2025
 TEXT: งานวิจัยแบบจำกัดเวลาเช็กอินงานพบปะ: GO ไวลดแอเรีย
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-11-04T01:17:37.187351+00:00 for th-TH
-at SHA 0621ec152de
-Pipeline 3428244, job 48242731
-Patch from: 0.387.0-SHA-415ba74d-RC2, 0.385.1-SHA-705313b7-RC1
+TEXT: Built at 2025-11-04T20:18:06.491140+00:00 for th-TH
+at SHA 4f698523b99
+Pipeline 3429438, job 48267345
+Patch from: 0.385.0-SHA-d627e07f-RC3, 0.387.0-SHA-d36b4c9c-RC1
 
 RESOURCE ID: mighty_ftue_encounter_dialog_1
 TEXT: ที่เธอเจอคือโปเกมอนทรงพลัง!
@@ -3263,6 +3287,8 @@ TEXT: Poké Lids ที่อยูตามพื้นที่ตาง
 เมื่อคุณแวะสถานที่แหงนั้นและแตะที่เสาโปเกสต็อป "Poké Lids" จะไดรับแสตมป Poké Lids ที่มีดีไซนเปนเอกลักษณเฉพาะพื้นที่นั้น ๆ
 นอกจากนั้น ยังสามารถรวมมือกับเพื่อนในการสะสมแสตมปแรลลี GO นี้ไดอีกดวย
 เมื่อสงของขวัญที่ไดรับจากเสาโปเกสต็อป Poké Lids ใหเพื่อน เพื่อนคนดังกลาวจะไดรับแสตมปเดียวกัน ทำใหสามารถสนุกไปกับการเลนแสตมปแรลลีดวยกันได!
+
+แสตมปที่เพื่อนสงมาใหก็จะแสดงในสมุดภาพเชนกัน แตจะไมถูกนับในแทร็กรางวัล
 
 RESOURCE ID: pokelid_image_placeholder_text
 TEXT: เร็ว ๆ นี้
@@ -3371,7 +3397,7 @@ RESOURCE ID: quest_visit_gym_singular
 TEXT: แวะไปที่ยิม
 
 RESOURCE ID: quests_log_complete_weekly_challenge_quest
-TEXT: Completed weekly challenge: {0}
+TEXT: คำทารายสัปดาห: "{0}" เสร็จสิ้น!
 
 RESOURCE ID: raid_win_plus5000_bonus
 TEXT: +5,000 XP เมื่อตีบอสเสร็จสิ้น
@@ -3599,10 +3625,13 @@ TEXT: เพื่อนของคุณไดแชรแสตมป�
 RESOURCE ID: stamp_social_receive_tutorial_page_2_description
 TEXT: แสตมปแรลลีคือกิจกรรมสะสมแสตมปจากเสาโปเกสต็อปและยิมที่กำหนด ในระหวาง "แสตมปแรลลี Poké Lids" คุณสามารถรวมมือกับเพื่อน ๆ ในการสะสมแสตมปเหลานั้นได โดยไมจำเปนตองไปเยือนสถานที่ที่กำหนดดวยตัวเอง
 
-RESOURCE ID: stamp_social_receive_tutorial_page_3_description_temp
+RESOURCE ID: stamp_social_receive_tutorial_page_3_description
 TEXT: คุณสามารถดูแสตมปที่สะสมไดจากหนาแสตมปแรลลีในสมุดภาพ
 
 (แสตมปแรลลีบางสวนสามารถสงแสตมปไปพรอมของขวัญใหเพื่อนเพื่อรวมสนุกไปดวยกันได แสตมปที่เพื่อนสงมาใหก็จะแสดงในสมุดภาพเชนกัน แตจะไมถูกนับในแทร็กรางวัล)
+
+RESOURCE ID: stamp_social_receive_tutorial_page_3_description_out
+TEXT: คุณสามารถดูแสตมปที่สะสมไดจากหนาแสตมปแรลลีในสมุดภาพ
 
 RESOURCE ID: stat_at_max
 TEXT: This stat cannot be trained any further.
@@ -3724,7 +3753,7 @@ TEXT: ตอนนี้เธอก็ถึงเลเวล {0} แลว
 ถัดไปได
 
 RESOURCE ID: weekly_challenges_matchmaking_error_finding_group
-TEXT: Error Finding Group
+TEXT: เกิดขอผิดพลาดในการคนหากลุม
 
 RESOURCE ID: weekly_challenges_matchmaking_finding_group
 TEXT: Challenge will start once a trainer is found.

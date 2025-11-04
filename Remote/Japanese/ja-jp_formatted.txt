@@ -1710,7 +1710,7 @@ RESOURCE ID: gowa_2025_global_sr_intro_2_2
 TEXT: だが、ベロバーのおかげで、なんだがすごい場所まできたな。フェアリータイプとあくタイプのポケモンであふれている。
 
 RESOURCE ID: gowa_2025_global_sr_intro_2_3
-TEXT: 調査を兼ねて、探索してみよう！
+TEXT: 探索を兼ねて、調査してみよう！
 
 RESOURCE ID: gowa_2025_habitat_irl_cc_friday
 TEXT: GOワイルドエリア：長崎コレクションチャレンジ
@@ -1976,10 +1976,10 @@ RESOURCE ID: max_battle_win_plus5000_bonus
 TEXT: マックスバトル勝利で5000XP追加
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-11-04T01:17:37.187351+00:00 for ja-JP
-at SHA 0621ec152de
-Pipeline 3428244, job 48242731
-Patch from: 0.387.0-SHA-415ba74d-RC2, 0.385.1-SHA-705313b7-RC1
+TEXT: Built at 2025-11-04T20:18:06.491140+00:00 for ja-JP
+at SHA 4f698523b99
+Pipeline 3429438, job 48267345
+Patch from: 0.385.0-SHA-d627e07f-RC3, 0.387.0-SHA-d36b4c9c-RC1
 
 RESOURCE ID: observatory_exhibition_bonus_event_title
 TEXT: ポケモン天文台巡回企画展
@@ -2001,6 +2001,8 @@ TEXT: 日本各地にある「ポケふた」は、ポケモンGO内でポケス
 現地を訪れて「ポケふた」のポケストップをタップすると、その地域ならではのデザインのポケふたスタンプが手に入ります。
 さらに、このGOスタンプラリーではフレンドと一緒にスタンプを集めることができます。
 ポケふたのポケストップで手に入れたギフトをフレンドに送ると、そのフレンドも同じスタンプが入手でき、一緒にスタンプラリーを楽しめます！
+
+ギフトされたスタンプはスクラップブックにコレクションされますが、リワードトラックにはカウントされません。リワードは実際に現地を訪れてスタンプを集めたときのみ獲得できます。
 
 RESOURCE ID: pokelid_image_placeholder_text
 TEXT: Coming Soon
@@ -2028,7 +2030,7 @@ RESOURCE ID: pokemon_desc_0647_0150
 TEXT: 戦う覚悟を決めたことで全身に気力が みなぎりケルディオの姿を変えた。
 
 RESOURCE ID: pokemon_evolution_not_enough_candy_toast
-TEXT: You don't have enough candy to evolve this Pokémon.
+TEXT: 進化に必要なアメが足りません
 
 RESOURCE ID: pokemon_info_caught_raid_nnm_with_lobby
 TEXT: メガレイドで{0}人のトレーナーと捕まえた
@@ -2049,7 +2051,10 @@ RESOURCE ID: pokemon_info_caught_raid_rnp_with_lobby
 TEXT: リモートゲンシレイドで{0}人のトレーナーと捕まえた
 
 RESOURCE ID: pokemon_info_form_change_confirmation_no_form
-TEXT: {0}のすがたを{1}から{2}に変えてもいいですか？
+TEXT: 以下のように変えますか？
+{0}：
+{1}→
+{2}
 
 RESOURCE ID: pokemon_info_form_change_warning_short
 TEXT: 本当にこのポケモンのすがたを変えてもいいですか？
@@ -2073,7 +2078,7 @@ RESOURCE ID: quest_catch_impidimp
 TEXT: ベロバーを捕まえる
 
 RESOURCE ID: quest_catch_pikachu_singular
-TEXT: Catch a Pikachu
+TEXT: ピカチュウを捕まえる
 
 RESOURCE ID: quest_complete_routes_days_row_plural
 TEXT: ルートを{0}日にわたって連続で歩く
@@ -2214,10 +2219,13 @@ TEXT: フレンドからスタンプが贈られました。ポケふたスタ�
 RESOURCE ID: stamp_social_receive_tutorial_page_2_description
 TEXT: 特定のポケストップ・ジムでスタンプを集める遊びです。ポケふたスタンプラリーでは、フレンドと協力して実際に場所を訪れることなくスタンプを集めることが可能です。
 
-RESOURCE ID: stamp_social_receive_tutorial_page_3_description_temp
+RESOURCE ID: stamp_social_receive_tutorial_page_3_description
 TEXT: 集めたスタンプはスクラップブック内のスタンプラリー画面で見ることができます。
 
-（ギフトとしてスタンプを贈り、フレンドと一緒に楽しめるスタンプラリーもあります。フレンドから贈られたスタンプもスクラップブックに表示されますが、リワードトラックにはカウントされません。）
+また、一部のスタンプラリーでは、スタンプをギフトと一緒にフレンドへ送れる場合があります。その場合、ギフトされたスタンプはスクラップブックにコレクションされますが、リワードトラックにはカウントされません。リワードは実際に現地を訪れてスタンプを集めたときのみ獲得できます。
+
+RESOURCE ID: stamp_social_receive_tutorial_page_3_description_out
+TEXT: 集めたスタンプはスクラップブック内のスタンプラリー画面で見ることができます。
 
 RESOURCE ID: stamp_social_send_tutorial_page_1_description
 TEXT: このギフトにはスタンプラリーのスタンプが含まれます。フレンドはどこにいても、受け取るとスタンプを押すことができ、スタンプラリーを進められます。
@@ -2309,7 +2317,7 @@ RESOURCE ID: weekly_challenges_matchmaking_error_finding_group
 TEXT: エラー：グループが見つかりません
 
 RESOURCE ID: weekly_challenges_matchmaking_finding_group
-TEXT: Challenge will start once a trainer is found.
+TEXT: 参加者が見つかり次第チャレンジ開始となります
 
 RESOURCE ID: welcome_level_up_faster_desc
 TEXT: レベル上限の引き上げとともに、リワードが見直され、よりスピーディーにレベルアップできるようになりました。
