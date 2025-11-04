@@ -79,6 +79,9 @@ TEXT: Legacy 50
 RESOURCE ID: bonus_clefairy_special_background
 TEXT: Field Research in the area may award an encounter with Clefairy with a Special Background
 
+RESOURCE ID: city_manhole_1(ibusuki)
+TEXT: Ibusuki
+
 RESOURCE ID: city_manhole_100_c0f4
 TEXT: Machida
 
@@ -412,6 +415,9 @@ TEXT: Higashiosaka
 RESOURCE ID: city_manhole_19_b579
 TEXT: Tonosho
 
+RESOURCE ID: city_manhole_2(ibusuki)
+TEXT: Ibusuki
+
 RESOURCE ID: city_manhole_200_20c4
 TEXT: Higashiosaka
 
@@ -742,6 +748,9 @@ TEXT: Tottori
 RESOURCE ID: city_manhole_29_b46c
 TEXT: Sumita
 
+RESOURCE ID: city_manhole_3(ibusuki)
+TEXT: Ibusuki
+
 RESOURCE ID: city_manhole_300_b965
 TEXT: Kanazawa
 
@@ -1024,6 +1033,9 @@ TEXT: Higashimatsushima
 RESOURCE ID: city_manhole_49_38b6
 TEXT: Matsushima
 
+RESOURCE ID: city_manhole_5(ibusuki)
+TEXT: Ibusuki
+
 RESOURCE ID: city_manhole_50_3a01
 TEXT: Shiogama
 
@@ -1053,6 +1065,9 @@ TEXT: Yamamoto
 
 RESOURCE ID: city_manhole_59_00b5
 TEXT: Ishikari
+
+RESOURCE ID: city_manhole_6(ibusuki)
+TEXT: Ibusuki
 
 RESOURCE ID: city_manhole_60_b0e4
 TEXT: Eniwa
@@ -1087,6 +1102,9 @@ TEXT: Monbetsu
 RESOURCE ID: city_manhole_6_594a
 TEXT: Hirono
 
+RESOURCE ID: city_manhole_7(ibusuki)
+TEXT: Ibusuki
+
 RESOURCE ID: city_manhole_70_2346
 TEXT: Engaru
 
@@ -1120,6 +1138,9 @@ TEXT: Wakasa
 RESOURCE ID: city_manhole_7_057d
 TEXT: Noda
 
+RESOURCE ID: city_manhole_8(ibusuki)
+TEXT: Ibusuki
+
 RESOURCE ID: city_manhole_80_6936
 TEXT: Misasa
 
@@ -1152,6 +1173,9 @@ TEXT: Soma
 
 RESOURCE ID: city_manhole_8_ec1c
 TEXT: Tanohata
+
+RESOURCE ID: city_manhole_9(ibusuki)
+TEXT: Ibusuki
 
 RESOURCE ID: city_manhole_90_3800
 TEXT: Minamisoma
@@ -1279,6 +1303,10 @@ TEXT: Woven Web Premium Timed Research
 RESOURCE ID: event_datetime_range_key_enchanted_hollow_nov25
 TEXT: November 4, 10:00 a.m. –
 November 9, 8:00 p.m.
+
+RESOURCE ID: event_datetime_range_key_gowa25_leadup
+TEXT: November 10 –
+November 14
 
 RESOURCE ID: event_pass_gowa_2025_bonus_1
 TEXT: Tier 1 GO Pass: Into the Wild Bonuses
@@ -1508,6 +1536,9 @@ TEXT: Jumbo Variety
 
 RESOURCE ID: general1.ticket._enchanted_hollow_nov25_title
 TEXT: Woven Web Premium Timed Research Ticket
+
+RESOURCE ID: general2.ticket._gowa25_leadup_title
+TEXT: Ready for the Wild Premium Timed Research Ticket
 
 RESOURCE ID: general_progress_km
 TEXT: {0}/{1} km
@@ -1746,6 +1777,12 @@ TEXT: I’m excited to see the next chapter unfold. Until next time, %PLAYERNAME
 RESOURCE ID: halloween_2025_pass_details_link
 TEXT: For more details, visit the <a href="https://pokemongo.com/news/go-pass-halloween-2025">website</a>.
 
+RESOURCE ID: item_event_ticket_6_desc_gowa25_leadup
+TEXT: A ticket to access the Ready for the Wild Premium Timed Research from November 10 at 10:00 a.m. to November 14, 2025, at 8:00 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_6_details_gowa25_leadup
+TEXT: This ticket will automatically activate to give you access to the Ready for the Wild Premium Timed Research on November 10 at 10:00 a.m. local time, wherever you are.
+
 RESOURCE ID: item_event_ticket_evergreen_desc_enchanted_hollow_nov25
 TEXT: A ticket to access the Woven Web Premium Timed Research until November 9, 2025, at 8:00 p.m. local time, wherever you are.
 
@@ -1914,10 +1951,10 @@ RESOURCE ID: max_battle_win_plus5000_bonus
 TEXT: Additional 5,000 XP awarded for successful Max Battles
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-10-30T21:48:21.846207+00:00 for en-US
-at SHA d2a956e7724
-Pipeline 3424925, job 48161035
-Patch from: 0.387.0-SHA-d36b4c9c-RC1, 0.385.1-SHA-705313b7-RC1
+TEXT: Built at 2025-11-04T01:17:37.187351+00:00 for en-US
+at SHA 0621ec152de
+Pipeline 3428244, job 48242731
+Patch from: 0.387.0-SHA-415ba74d-RC2, 0.385.1-SHA-705313b7-RC1
 
 RESOURCE ID: observatory_exhibition_bonus_event_title
 TEXT: Pokémon Observatory Exhibition Tour
@@ -1967,6 +2004,9 @@ TEXT: Cobalion, Terrakion, and Virizion taught this Pokémon how to fight. It da
 RESOURCE ID: pokemon_desc_0647_0150
 TEXT: Keldeo has strengthened its resolve for battle, filling its body with power and changing its form.
 
+RESOURCE ID: pokemon_evolution_not_enough_candy_toast
+TEXT: You don't have enough candy to evolve this Pokémon.
+
 RESOURCE ID: pokemon_info_caught_raid_nnm_with_lobby
 TEXT: CAUGHT AT A MEGA RAID WITH {0} TRAINERS
 
@@ -2001,13 +2041,16 @@ RESOURCE ID: pokemon_learn_new_quick_move
 TEXT: Learn a new Fast Attack
 
 RESOURCE ID: pokemon_no_longer_able_battle_powerspots
-TEXT: This Pokémon will no longer be able to battle at Power Spots
+TEXT: No longer be able to battle at Power Spots
 
 RESOURCE ID: pokemon_will
 TEXT: {0} will:
 
 RESOURCE ID: quest_catch_impidimp
 TEXT: Catch an Impidimp
+
+RESOURCE ID: quest_catch_pikachu_singular
+TEXT: Catch a Pikachu
 
 RESOURCE ID: quest_complete_routes_days_row_plural
 TEXT: Follow a Route {0} days in a row
@@ -2118,6 +2161,9 @@ TEXT: You can view the stamps you collect on the stamp rally page in your Scrapb
 
 In addition, certain stamp rallies let you send stamps to your friends along with a Gift. Stamps you get from Gifts will be collected in your Scrapbook, but they don’t count toward the reward track. Rewards can only be obtained when you visit the location and collect the stamps yourself.
 
+RESOURCE ID: stat_at_max
+TEXT: This stat cannot be trained any further.
+
 RESOURCE ID: tcg_mega_lucario_ex_release_celebration_event_name
 TEXT: Pokémon TCG: Mega Lucario ex Release Celebration
 
@@ -2143,6 +2189,16 @@ TEXT: <b>Includes:</b>
 
 <a href="https://pokemongo.com/gowildarea/global">Learn more about the ticket bonuses here</a>.
 
+RESOURCE ID: text_rewards_key_gowa25_leadup
+TEXT: <b>Includes:</b>
+• Encounters with Dynamax Ralts and Dynamax Sableye
+• 1 Max Mushroom
+• 5 Premium Battle Passes
+• 2 Incubators
+• 2 Lucky Eggs
+• 2 Star Pieces
+• And more!
+
 RESOURCE ID: text_rewards_key_gowa25_save
 TEXT: <b>Includes:</b>
 • An encounter with Grimmsnarl, the Bulk Up Pokémon
@@ -2167,6 +2223,18 @@ TEXT: Pokémon GO Mega Training!
 RESOURCE ID: tr_jp2025_aeon_mall_tr
 TEXT: Pokémon GO Mega Training! Timed Research
 
+RESOURCE ID: tr_sg2025_suntec_header_00
+TEXT: Catch the Holiday Magic Timed Research (1/2)
+
+RESOURCE ID: tr_sg2025_suntec_header_01
+TEXT: Catch the Holiday Magic Timed Research (2/2)
+
+RESOURCE ID: tr_sg2025_suntec_title
+TEXT: Catch the Holiday Magic
+
+RESOURCE ID: tr_sg2025_suntec_tr_title
+TEXT: Catch the Holiday Magic Timed Research
+
 RESOURCE ID: tutorial_level_up_quests_0
 TEXT: Congratulations on your remarkable progress!
 
@@ -2175,6 +2243,9 @@ TEXT: Now that you’ve reached level {0}, there are new challenges you’ll hav
 
 RESOURCE ID: weekly_challenges_matchmaking_error_finding_group
 TEXT: Error Finding Group
+
+RESOURCE ID: weekly_challenges_matchmaking_finding_group
+TEXT: Challenge will start once a trainer is found.
 
 RESOURCE ID: welcome_level_up_faster_desc
 TEXT: Better rewards, easier to level up, and more levels.

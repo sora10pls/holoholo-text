@@ -77,7 +77,10 @@ RESOURCE ID: badge_smores_01_title
 TEXT: Niveau original 50
 
 RESOURCE ID: bonus_clefairy_special_background
-TEXT: Field Research in the area may award an encounter with Clefairy with a Special Background
+TEXT: Les Études de terrain dans cette zone peuvent offrir en récompense une rencontre avec Mélofée doté d’un Fond spécial
+
+RESOURCE ID: city_manhole_1(ibusuki)
+TEXT: Ibusuki
 
 RESOURCE ID: city_manhole_100_c0f4
 TEXT: Machida
@@ -412,6 +415,9 @@ TEXT: Higashiosaka
 RESOURCE ID: city_manhole_19_b579
 TEXT: Tonosho
 
+RESOURCE ID: city_manhole_2(ibusuki)
+TEXT: Ibusuki
+
 RESOURCE ID: city_manhole_200_20c4
 TEXT: Higashiosaka
 
@@ -742,6 +748,9 @@ TEXT: Tottori
 RESOURCE ID: city_manhole_29_b46c
 TEXT: Sumita
 
+RESOURCE ID: city_manhole_3(ibusuki)
+TEXT: Ibusuki
+
 RESOURCE ID: city_manhole_300_b965
 TEXT: Kanazawa
 
@@ -1024,6 +1033,9 @@ TEXT: Higashimatsushima
 RESOURCE ID: city_manhole_49_38b6
 TEXT: Matsushima
 
+RESOURCE ID: city_manhole_5(ibusuki)
+TEXT: Ibusuki
+
 RESOURCE ID: city_manhole_50_3a01
 TEXT: Shiogama
 
@@ -1056,6 +1068,9 @@ TEXT: Yamamoto
 
 RESOURCE ID: city_manhole_59_00b5
 TEXT: Ishikari
+
+RESOURCE ID: city_manhole_6(ibusuki)
+TEXT: Ibusuki
 
 RESOURCE ID: city_manhole_60_b0e4
 TEXT: Eniwa
@@ -1090,6 +1105,9 @@ TEXT: Monbetsu
 RESOURCE ID: city_manhole_6_594a
 TEXT: Hirono
 
+RESOURCE ID: city_manhole_7(ibusuki)
+TEXT: Ibusuki
+
 RESOURCE ID: city_manhole_70_2346
 TEXT: Engaru
 
@@ -1123,6 +1141,9 @@ TEXT: Wakasa
 RESOURCE ID: city_manhole_7_057d
 TEXT: Noda
 
+RESOURCE ID: city_manhole_8(ibusuki)
+TEXT: Ibusuki
+
 RESOURCE ID: city_manhole_80_6936
 TEXT: Misasa
 
@@ -1155,6 +1176,9 @@ TEXT: Soma
 
 RESOURCE ID: city_manhole_8_ec1c
 TEXT: Tanohata
+
+RESOURCE ID: city_manhole_9(ibusuki)
+TEXT: Ibusuki
 
 RESOURCE ID: city_manhole_90_3800
 TEXT: Minamisoma
@@ -1282,6 +1306,10 @@ TEXT: Étude ponctuelle premium Toile tissée
 RESOURCE ID: event_datetime_range_key_enchanted_hollow_nov25
 TEXT: Du 4 novembre à 10h
 au 9 novembre à 20h
+
+RESOURCE ID: event_datetime_range_key_gowa25_leadup
+TEXT: Du 10 novembre
+au 14 novembre
 
 RESOURCE ID: event_pass_gowa_2025_bonus_1
 TEXT: Bonus du Passe GO : Âme sauvage échelon 1
@@ -1511,6 +1539,9 @@ TEXT: Variété Giga
 
 RESOURCE ID: general1.ticket._enchanted_hollow_nov25_title
 TEXT: Ticket pour l’Étude ponctuelle premium Toile tissée
+
+RESOURCE ID: general2.ticket._gowa25_leadup_title
+TEXT: Ticket pour l’Étude ponctuelle premium Préparatifs sauvages
 
 RESOURCE ID: general_progress_km
 TEXT: {0}/{1} km
@@ -1767,6 +1798,12 @@ TEXT: Un Ballon de ravitaillement apparaîtra toutes les heures. Appuie dessus p
 RESOURCE ID: halloween_2025_pass_details_link
 TEXT: Tous les détails sont sur le <a href="https://pokemongo.com/news/go-pass-halloween-2025">site Web</a>.
 
+RESOURCE ID: item_event_ticket_6_desc_gowa25_leadup
+TEXT: Un ticket pour accéder à l’Étude ponctuelle premium Préparatifs sauvages du 10 novembre à 10h au 14 novembre 2025 à 20h (heures locales), où que tu sois.
+
+RESOURCE ID: item_event_ticket_6_details_gowa25_leadup
+TEXT: Ce ticket sera automatiquement activé pour te donner accès à l’Étude ponctuelle premium Préparatifs sauvages le 10 novembre à 10h (heure locale), où que tu sois.
+
 RESOURCE ID: item_event_ticket_evergreen_desc_enchanted_hollow_nov25
 TEXT: Un ticket pour accéder à l’Étude ponctuelle premium Toile tissée jusqu’au 9 novembre 2025 à 20h, heure locale, où que tu sois.
 
@@ -1935,13 +1972,13 @@ RESOURCE ID: max_battle_win_plus5000_bonus
 TEXT: 5 000 PX supplémentaires pour chaque Combat Dynamax remporté
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-10-30T21:48:21.846207+00:00 for fr-FR
-at SHA d2a956e7724
-Pipeline 3424925, job 48161035
-Patch from: 0.387.0-SHA-d36b4c9c-RC1, 0.385.1-SHA-705313b7-RC1
+TEXT: Built at 2025-11-04T01:17:37.187351+00:00 for fr-FR
+at SHA 0621ec152de
+Pipeline 3428244, job 48242731
+Patch from: 0.387.0-SHA-415ba74d-RC2, 0.385.1-SHA-705313b7-RC1
 
 RESOURCE ID: observatory_exhibition_bonus_event_title
-TEXT: Pokémon Observatory Exhibition Tour
+TEXT: Visite de l’exposition Observatoire Pokémon
 
 RESOURCE ID: poi_contrib_unavailable_limit_distance
 TEXT: {0} trop loin pour que tu puisses contribuer.
@@ -1989,6 +2026,9 @@ TEXT: Cobaltium, Terrakium et Viridium lui ont appris à se battre. Il poursuit 
 RESOURCE ID: pokemon_desc_0647_0150
 TEXT: Bien décidé à se battre, Keldeo a changé de forme grâce à l’énergie qui parcourt maintenant tout son corps.
 
+
+RESOURCE ID: pokemon_evolution_not_enough_candy_toast
+TEXT: You don't have enough candy to evolve this Pokémon.
 
 RESOURCE ID: pokemon_info_caught_raid_nnm_with_lobby
 TEXT: ATTRAPÉ LORS D’UN MÉGA-RAID AVEC {0} DRESSEURS ET DRESSEUSES
@@ -2041,6 +2081,9 @@ TEXT: Gagne {0} cœurs avec ton copain de type Fée
 RESOURCE ID: quest_catch_impidimp
 TEXT: Attrape un Grimalin
 
+RESOURCE ID: quest_catch_pikachu_singular
+TEXT: Catch a Pikachu
+
 RESOURCE ID: quest_complete_routes_days_row_plural
 TEXT: Suis une Route {0} jours d’affilée
 
@@ -2066,7 +2109,7 @@ RESOURCE ID: quests_claim_reward
 TEXT: Récompense
 
 RESOURCE ID: quests_log_complete_weekly_challenge_quest
-TEXT: Completed weekly challenge: {0}
+TEXT: Défi hebdomadaire terminé : {0}
 
 RESOURCE ID: raid_win_plus5000_bonus
 TEXT: 5 000 PX supplémentaires pour chaque Raid remporté
@@ -2213,6 +2256,9 @@ TEXT: Tu peux consulter les tampons obtenus sur la page des chasses aux tampons 
 
 De plus, certaines chasses aux tampons te permettent d’envoyer des tampons à tes amis avec un Cadeau. Les tampons obtenus par des Cadeaux seront rassemblés dans ton album, mais ils ne comptent pas dans la ligne des récompenses. Tu n’obtiens de récompenses qu’en visitant le lieu et en collectionnant les tampons toi-même.
 
+RESOURCE ID: stat_at_max
+TEXT: This stat cannot be trained any further.
+
 RESOURCE ID: tapubulu_special_move_bonus
 TEXT: Les Tokotoro attrapés pendant l’évènement connaîtront l’Attaque Chargée Ire de la Nature
 
@@ -2250,6 +2296,16 @@ TEXT: <b>Donne accès aux bonus suivants :</b>
 
 <a href="https://pokemongolive.com/gowildarea/global">Obtiens plus d’informations sur les bonus du ticket ici</a>.
 
+RESOURCE ID: text_rewards_key_gowa25_leadup
+TEXT: <b>Donne accès aux récompenses suivantes :</b>
+• Des rencontres avec Tarsal Dynamax et Ténéfix Dynamax 
+• 1 Maxi Champi
+• 5 passes de combat premium
+• 2 Incubateurs
+• 2 Œufs Chance
+• 2 Morceaux d’Étoiles
+• Et bien plus encore !
+
 RESOURCE ID: text_rewards_key_gowa25_save
 TEXT: <b>Donne accès aux bonus suivants :</b>
 • Une rencontre avec Angoliath, le Pokémon Gonflette
@@ -2274,6 +2330,18 @@ TEXT: Méga Entraînement Pokémon GO !
 RESOURCE ID: tr_jp2025_aeon_mall_tr
 TEXT: Étude ponctuelle Méga Entraînement Pokémon GO !
 
+RESOURCE ID: tr_sg2025_suntec_header_00
+TEXT: Étude ponctuelle Magie des fêtes d’hiver (1/2)
+
+RESOURCE ID: tr_sg2025_suntec_header_01
+TEXT: Étude ponctuelle Magie des fêtes d’hiver (2/2)
+
+RESOURCE ID: tr_sg2025_suntec_title
+TEXT: Magie des fêtes d’hiver
+
+RESOURCE ID: tr_sg2025_suntec_tr_title
+TEXT: Étude ponctuelle Magie des fêtes d’hiver
+
 RESOURCE ID: tutorial_level_up_quests_0
 TEXT: Bravo pour tes progrès extraordinaires !
 
@@ -2281,7 +2349,10 @@ RESOURCE ID: tutorial_level_up_quests_1
 TEXT: Maintenant que tu as atteint le niveau {0}, tu vas devoir relever de nouveaux défis avant de pouvoir passer au niveau suivant.
 
 RESOURCE ID: weekly_challenges_matchmaking_error_finding_group
-TEXT: Error Finding Group
+TEXT: Une erreur s’est produite lors de la recherche d’un groupe
+
+RESOURCE ID: weekly_challenges_matchmaking_finding_group
+TEXT: Challenge will start once a trainer is found.
 
 RESOURCE ID: welcome_level_up_faster_desc
 TEXT: De meilleures récompenses, une progression plus rapide et encore plus de niveaux.
