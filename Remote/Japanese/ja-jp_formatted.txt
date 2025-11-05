@@ -82,6 +82,9 @@ TEXT: レガシー50
 RESOURCE ID: bonus_clefairy_special_background
 TEXT: エリア内のフィールドリサーチでスペシャル背景つきピッピに出会える可能性
 
+RESOURCE ID: bonus_supply_balloon
+TEXT: GOサファリボールの補給気球が毎時出現
+
 RESOURCE ID: city_manhole_1(ibusuki)
 TEXT: 指宿市
 
@@ -1321,6 +1324,10 @@ TEXT: 11月4日10:00AM～
 RESOURCE ID: event_datetime_range_key_gowa25_leadup
 TEXT: 11月10日～14日
 
+RESOURCE ID: event_datetime_range_key_high_voltage_nov25
+TEXT: 11月18日10:00AM～
+11月22日8:00PM
+
 RESOURCE ID: event_pass_gowa_2025_bonus_1
 TEXT: ティア1GOパス：ワイルドウィークボーナス
 
@@ -1549,6 +1556,9 @@ TEXT: ギガだましゅ
 
 RESOURCE ID: general1.ticket._enchanted_hollow_nov25_title
 TEXT: 森林浴プレミアムタイムチャレンジチケット
+
+RESOURCE ID: general1.ticket._high_voltage_nov25_title
+TEXT: ハッピーorハングリー？プレミアムタイムチャレンジチケット
 
 RESOURCE ID: general2.ticket._gowa25_leadup_title
 TEXT: ワイルドウィークプレミアムタイムチャレンジチケット
@@ -1799,6 +1809,21 @@ TEXT: PokémonGOワイルドエリア2025：長崎 – 延長ボーナス
 RESOURCE ID: halloween_2025_pass_details_link
 TEXT: 詳細は<a href="https://pokemongo.com/news/go-pass-halloween-2025">ウェブサイト</a>でご確認ください
 
+RESOURCE ID: high_voltage_event_nme
+TEXT: ハイボルテージ
+
+RESOURCE ID: high_voltage_nov2025_cc_1
+TEXT: 帯電キューティーコレクションチャレンジ
+
+RESOURCE ID: high_voltage_prem_tr_name
+TEXT: ハッピーorハングリー？プレミアムタイムチャレンジ
+
+RESOURCE ID: high_voltage_prem_tr_name_0
+TEXT: ハッピーorハングリー？プレミアムタイムチャレンジ(1/2)
+
+RESOURCE ID: high_voltage_prem_tr_name_1
+TEXT: ハッピーorハングリー？プレミアムタイムチャレンジ(2/2)
+
 RESOURCE ID: item_event_ticket_6_desc_gowa25_leadup
 TEXT: 現地時間2025年11月10日10:00AM～11月14日8:00PMにワイルドウィークプレミアムタイムチャレンジを行うためのチケット。
 
@@ -1808,8 +1833,14 @@ TEXT: このチケットは自動的に発動し2025年11月10日10:00AMに「�
 RESOURCE ID: item_event_ticket_evergreen_desc_enchanted_hollow_nov25
 TEXT: 現地時間2025年11月9日8:00PMまで森林浴プレミアムタイムチャレンジが行えるチケット。
 
+RESOURCE ID: item_event_ticket_evergreen_desc_high_voltage_nov25
+TEXT: 現地時間2025年11月22日8:00PMまでハッピーorハングリー？プレミアムタイムチャレンジが行えるチケット。
+
 RESOURCE ID: item_event_ticket_evergreen_details_enchanted_hollow_nov25
 TEXT: このチケットは自動的に発動し11月4日に森林浴プレミアムタイムチャレンジが行えるようになります。
+
+RESOURCE ID: item_event_ticket_evergreen_details_high_voltage_nov25
+TEXT: このチケットは自動的に発動し11月18日にハッピーorハングリー？プレミアムタイムチャレンジが行えるようになります。
 
 RESOURCE ID: item_giftbox_storage_upgrade_earned_name
 TEXT: ギフトの保管スペース
@@ -1976,10 +2007,10 @@ RESOURCE ID: max_battle_win_plus5000_bonus
 TEXT: マックスバトル勝利で5000XP追加
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-11-04T20:18:06.491140+00:00 for ja-JP
-at SHA 4f698523b99
-Pipeline 3429438, job 48267345
-Patch from: 0.385.0-SHA-d627e07f-RC3, 0.387.0-SHA-d36b4c9c-RC1
+TEXT: Built at 2025-11-05T01:52:06.852856+00:00 for ja-JP
+at SHA e42f0bb5b5e
+Pipeline 3430069, job 48280936
+Patch from: 0.387.0-SHA-415ba74d-RC2, 0.385.1-SHA-a0c2d4c7-RC3
 
 RESOURCE ID: observatory_exhibition_bonus_event_title
 TEXT: ポケモン天文台巡回企画展
@@ -2233,6 +2264,9 @@ TEXT: このギフトにはスタンプラリーのスタンプが含まれま�
 RESOURCE ID: stat_at_max
 TEXT: これ以上鍛えられない項目です
 
+RESOURCE ID: supply_balloon_postcard
+TEXT: PokémonGOワイルドエリアでお楽しみください！
+
 RESOURCE ID: tcg_mega_lucario_ex_release_celebration_event_name
 TEXT: ポケモンカード：メガルカリオexコラボ
 
@@ -2280,6 +2314,18 @@ TEXT: <b>もらえるもの：</b>
 
 チケットボーナスについての詳細は <a href="https://pokemongo.com/gowildarea/global">こちら</a>でご確認ください。
 
+RESOURCE ID: text_rewards_key_high_voltage_nov25
+TEXT: <b>もらえるもの：</b>
+・エモンガ、デデンネ、トゲデマル、モルペコとの出会い
+・マグネットルアー1個
+・プレミアムバトルパス2枚
+・わざマシンスペシャル1個
+・すごいわざマシンスペシャル1個
+・10000ほしのすな
+・その他
+
+タイムチャレンジなどのタスクを完了して出会うと、色違いのエモンガ、デデンネ、トゲデマル、モルペコに出会いやすくなります。
+
 RESOURCE ID: tr_jp2025_aeon_mall_header_00
 TEXT: ポケモンGOメガとっくん！タイムチャレンジ(1/2)
 
@@ -2312,6 +2358,9 @@ TEXT: きみには、さらに上を目指してもらおう。そのために�
 
 RESOURCE ID: use_lucky_egg_rewards
 TEXT: しあわせタマゴを使うと、+{0}XP！
+
+RESOURCE ID: visit_web_store_item_url_key
+TEXT: https://store.pokemongo.com/?utm_source=PGO&utm_medium=in-game-shop&utm_campaign=pgo_webstore_linkout&utm_content=sku_button&itemId={0}
 
 RESOURCE ID: weekly_challenges_matchmaking_error_finding_group
 TEXT: エラー：グループが見つかりません

@@ -106,6 +106,9 @@ TEXT: Tres Caramelos XL adicionales por completar incursiones
 RESOURCE ID: bonus_raid_6_candy_all_raids
 TEXT: Seis Caramelos adicionales por completar incursiones
 
+RESOURCE ID: bonus_supply_balloon
+TEXT: Cada hora durante el evento aparecerá un globo con provisiones con Safaribolas GO
+
 RESOURCE ID: branch_lny_egg_bonus_description_key
 TEXT: Si eliges este deseo, podrás eclosionar Huevos recorriendo 1/2 de la distancia si los colocas en una Incubadora durante el evento del Año Nuevo Lunar. Recibirás tareas que te desafíen a atrapar Pokémon o hacer eclosionar Huevos, ¡y quizá te encuentres con Pokémon como Darumaka de Galar!
 
@@ -1347,6 +1350,10 @@ RESOURCE ID: event_datetime_range_key_gowa25_leadup
 TEXT: Del 10 de noviembre
 al 14 de noviembre
 
+RESOURCE ID: event_datetime_range_key_high_voltage_nov25
+TEXT: Del 18 de noviembre a las 10:00 a. m.
+al 22 de noviembre a las 08:00 p. m.
+
 RESOURCE ID: event_pass_gowa_2025_bonus_1
 TEXT: Bonificaciones del Pase de GO: Una expedición silvestre Nivel 1
 
@@ -1590,6 +1597,9 @@ TEXT: Variante Enorme
 
 RESOURCE ID: general1.ticket._enchanted_hollow_nov25_title
 TEXT: Entrada: Investigación Temporal Prémium de Tejiendo la tela
+
+RESOURCE ID: general1.ticket._high_voltage_nov25_title
+TEXT: Entrada: Investigación Temporal Prémium de Feliz o voraz
 
 RESOURCE ID: general2.ticket._gowa25_leadup_title
 TEXT: Entrada: Investigación Temporal Prémium de Preparativos silvestres
@@ -1888,6 +1898,21 @@ TEXT: Aparecerá un globo con provisiones cada hora. ¡Tócalo para obtener Safa
 RESOURCE ID: halloween_2025_pass_details_link
 TEXT: Para obtener más información, visita el <a href="https://pokemongo.com/news/go-pass-halloween-2025">sitio web</a>.
 
+RESOURCE ID: high_voltage_event_nme
+TEXT: Alto voltaje
+
+RESOURCE ID: high_voltage_nov2025_cc_1
+TEXT: Desafío de Colección de Ternuritas eléctricas
+
+RESOURCE ID: high_voltage_prem_tr_name
+TEXT: Investigación Temporal Prémium de Feliz o voraz
+
+RESOURCE ID: high_voltage_prem_tr_name_0
+TEXT: Investigación Temporal Prémium de Feliz o voraz (1/2)
+
+RESOURCE ID: high_voltage_prem_tr_name_1
+TEXT: Investigación Temporal Prémium de Feliz o voraz (2/2)
+
 RESOURCE ID: incense_duration_two_hours
 TEXT: El Incienso dura 2 horas
 
@@ -1900,8 +1925,14 @@ TEXT: Esta entrada se activará automáticamente para darte acceso a la Investig
 RESOURCE ID: item_event_ticket_evergreen_desc_enchanted_hollow_nov25
 TEXT: Una entrada para acceder a la Investigación Temporal Prémium de Tejiendo la tela hasta el 9 de noviembre de 2025 a las 8:00 p. m. en tu hora local, estés donde estés.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_high_voltage_nov25
+TEXT: Una entrada para acceder a la Investigación Temporal Prémium Feliz o voraz hasta el 22 de noviembre de 2025 a las 8:00 p. m. en tu hora local, estés donde estés.
+
 RESOURCE ID: item_event_ticket_evergreen_details_enchanted_hollow_nov25
 TEXT: Esta entrada se activará automáticamente el 4 de noviembre para darte acceso a la Investigación Temporal Prémium de Tejiendo la tela, estés donde estés.
+
+RESOURCE ID: item_event_ticket_evergreen_details_high_voltage_nov25
+TEXT: Esta entrada se activará automáticamente el 18 de noviembre para darte acceso a la Investigación Temporal Prémium de Feliz o voraz, estés donde estés.
 
 RESOURCE ID: item_giftbox_storage_upgrade_earned_name
 TEXT: Almacenamiento de regalos
@@ -2068,10 +2099,10 @@ RESOURCE ID: meetup_check_in_research_title_gowa2025
 TEXT: Investigación Temporal por participar en una reunión: Área Silvestre de GO
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-11-04T20:18:06.491140+00:00 for es-MX
-at SHA 4f698523b99
-Pipeline 3429438, job 48267345
-Patch from: 0.385.0-SHA-d627e07f-RC3, 0.387.0-SHA-d36b4c9c-RC1
+TEXT: Built at 2025-11-05T01:52:06.852856+00:00 for es-MX
+at SHA e42f0bb5b5e
+Pipeline 3430069, job 48280936
+Patch from: 0.387.0-SHA-415ba74d-RC2, 0.385.1-SHA-a0c2d4c7-RC3
 
 RESOURCE ID: mighty_ftue_encounter_dialog_1
 TEXT: ¡Encontraste un Pokémon formidable! Este es un Pokémon poderoso difícil de atrapar, pero el esfuerzo vale mucho la pena.
@@ -2487,6 +2518,9 @@ TEXT: Una Búsqueda de sellos GO que te lleva a lugares recomendados en Suita.
 RESOURCE ID: suita_city_rally_desc_detail
 TEXT: ¡Colecciona sellos visitando Poképaradas de la Búsqueda de sellos GO de Suita para obtener recompensas temáticas!
 
+RESOURCE ID: supply_balloon_postcard
+TEXT: ¡Disfruta de estas Safaribolas GO durante el Área Silvestre de Pokémon GO!
+
 RESOURCE ID: tapubulu_special_move_bonus
 TEXT: Los Tapu Bulu que atrapes durante el evento conocerán el ataque cargado Ira Natural
 
@@ -2546,6 +2580,18 @@ TEXT: <b>Incluye:</b>
 
 Obtén más información sobre las bonificaciones de la entrada <a href="https://pokemongo.com/gowildarea/global">aquí</a>.
 
+RESOURCE ID: text_rewards_key_high_voltage_nov25
+TEXT: <b>Las recompensas incluyen:</b>
+• Encuentros con Emolga, Dedenne, Togedemaru y Morpeko
+• 1 Módulo Señuelo Magnético
+• 2 Pases de Combate Prémium
+• 1 MT de ataque cargado
+• 1 MT élite de ataque cargado
+• 10,000 Polvos Estrella
+• ¡Y mucho más!
+
+¡Los Emolga, Dedenne, Togedemaru y Morpeko de los encuentros en las recompensas de esta investigación y del resto de tareas de investigación tienen más probabilidades de ser brillantes!
+
 RESOURCE ID: today_view_field_research_section_title
 TEXT: Investigación de Campo
 
@@ -2593,6 +2639,9 @@ TEXT: ¡Felicitaciones por tu increíble progreso!
 
 RESOURCE ID: tutorial_level_up_quests_1
 TEXT: Ahora que alcanzaste el nivel {0}, hay nuevos desafíos que tendrás que completar para pasar al siguiente nivel.
+
+RESOURCE ID: visit_web_store_item_url_key
+TEXT: https://store.pokemongo.com/?utm_source=PGO&utm_medium=in-game-shop&utm_campaign=pgo_webstore_linkout&utm_content=sku_button&itemId={0}
 
 RESOURCE ID: weekly_challenges_matchmaking_error_finding_group
 TEXT: Error al buscar grupo

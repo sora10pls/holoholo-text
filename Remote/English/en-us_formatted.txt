@@ -64,6 +64,9 @@ TEXT: Level 50 Medal Pose
 RESOURCE ID: avatar_pose_pokeballbuddy
 TEXT: GO Wild Area 2025 Pose
 
+RESOURCE ID: badge_event_0089
+TEXT: Catch a Swablu
+
 RESOURCE ID: badge_smores_00
 TEXT: Achieved level {0} by October 15, 2025.
 
@@ -78,6 +81,9 @@ TEXT: Legacy 50
 
 RESOURCE ID: bonus_clefairy_special_background
 TEXT: Field Research in the area may award an encounter with Clefairy with a Special Background
+
+RESOURCE ID: bonus_supply_balloon
+TEXT: A Supply Balloon giving GO Safari Balls will appear hourly during the event
 
 RESOURCE ID: city_manhole_1(ibusuki)
 TEXT: Ibusuki
@@ -1308,6 +1314,10 @@ RESOURCE ID: event_datetime_range_key_gowa25_leadup
 TEXT: November 10 –
 November 14
 
+RESOURCE ID: event_datetime_range_key_high_voltage_nov25
+TEXT: November 18, 10:00 a.m. –
+November 22, 8:00 p.m.
+
 RESOURCE ID: event_pass_gowa_2025_bonus_1
 TEXT: Tier 1 GO Pass: Into the Wild Bonuses
 
@@ -1536,6 +1546,9 @@ TEXT: Jumbo Variety
 
 RESOURCE ID: general1.ticket._enchanted_hollow_nov25_title
 TEXT: Woven Web Premium Timed Research Ticket
+
+RESOURCE ID: general1.ticket._high_voltage_nov25_title
+TEXT: Happy or Hangry Premium Timed Research Ticket
 
 RESOURCE ID: general2.ticket._gowa25_leadup_title
 TEXT: Ready for the Wild Premium Timed Research Ticket
@@ -1777,6 +1790,21 @@ TEXT: I’m excited to see the next chapter unfold. Until next time, %PLAYERNAME
 RESOURCE ID: halloween_2025_pass_details_link
 TEXT: For more details, visit the <a href="https://pokemongo.com/news/go-pass-halloween-2025">website</a>.
 
+RESOURCE ID: high_voltage_event_nme
+TEXT: High Voltage
+
+RESOURCE ID: high_voltage_nov2025_cc_1
+TEXT: Charged Cuties Collection Challenge
+
+RESOURCE ID: high_voltage_prem_tr_name
+TEXT: Happy or Hangry Premium Timed Research
+
+RESOURCE ID: high_voltage_prem_tr_name_0
+TEXT: Happy or Hangry Premium Timed Research (1/2)
+
+RESOURCE ID: high_voltage_prem_tr_name_1
+TEXT: Happy or Hangry Premium Timed Research (2/2)
+
 RESOURCE ID: item_event_ticket_6_desc_gowa25_leadup
 TEXT: A ticket to access the Ready for the Wild Premium Timed Research from November 10 at 10:00 a.m. to November 14, 2025, at 8:00 p.m. local time, wherever you are.
 
@@ -1786,8 +1814,14 @@ TEXT: This ticket will automatically activate to give you access to the Ready fo
 RESOURCE ID: item_event_ticket_evergreen_desc_enchanted_hollow_nov25
 TEXT: A ticket to access the Woven Web Premium Timed Research until November 9, 2025, at 8:00 p.m. local time, wherever you are.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_high_voltage_nov25
+TEXT: A ticket to access the Happy or Hangry Premium Timed Research until November 22, 2025, at 8:00 p.m. local time, wherever you are.
+
 RESOURCE ID: item_event_ticket_evergreen_details_enchanted_hollow_nov25
 TEXT: This ticket will automatically activate on November 4 to give you access to the Woven Web Premium Timed Research, wherever you are.
+
+RESOURCE ID: item_event_ticket_evergreen_details_high_voltage_nov25
+TEXT: This ticket will automatically activate on November 18 to give you access to the Happy or Hangry Premium Timed Research, wherever you are.
 
 RESOURCE ID: item_giftbox_storage_upgrade_earned_name
 TEXT: Gift Storage
@@ -1951,10 +1985,10 @@ RESOURCE ID: max_battle_win_plus5000_bonus
 TEXT: Additional 5,000 XP awarded for successful Max Battles
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-11-04T20:18:06.491140+00:00 for en-US
-at SHA 4f698523b99
-Pipeline 3429438, job 48267345
-Patch from: 0.385.0-SHA-d627e07f-RC3, 0.387.0-SHA-d36b4c9c-RC1
+TEXT: Built at 2025-11-05T01:52:06.852856+00:00 for en-US
+at SHA e42f0bb5b5e
+Pipeline 3430069, job 48280936
+Patch from: 0.387.0-SHA-415ba74d-RC2, 0.385.1-SHA-a0c2d4c7-RC3
 
 RESOURCE ID: observatory_exhibition_bonus_event_title
 TEXT: Pokémon Observatory Exhibition Tour
@@ -2169,6 +2203,9 @@ TEXT: You can view the stamps you collect on the stamp rally page in your Scrapb
 RESOURCE ID: stat_at_max
 TEXT: This stat cannot be trained any further.
 
+RESOURCE ID: supply_balloon_postcard
+TEXT: Enjoy these GO Safari Balls during Pokémon GO Wild Area!
+
 RESOURCE ID: tcg_mega_lucario_ex_release_celebration_event_name
 TEXT: Pokémon TCG: Mega Lucario ex Release Celebration
 
@@ -2216,6 +2253,18 @@ TEXT: <b>Includes:</b>
 
 Learn more about the ticket bonuses <a href="https://pokemongo.com/gowildarea/global">here</a>.
 
+RESOURCE ID: text_rewards_key_high_voltage_nov25
+TEXT: <b>Included rewards:</b>
+• Encounters with Emolga, Dedenne, Togedemaru, and Morpeko
+• 1 Magnetic Lure Module
+• 2 Premium Battle Passes
+• 1 Charged TM
+• 1 Elite Charged TM
+• 10,000 Stardust
+• And more!
+
+Emolga, Dedenne, Togedemaru, and Morpeko found in reward encounters for this research and all other research tasks are more likely to be Shiny!
+
 RESOURCE ID: tr_jp2025_aeon_mall_header_00
 TEXT: Pokémon GO Mega Training! Timed Research (1/2)
 
@@ -2245,6 +2294,9 @@ TEXT: Congratulations on your remarkable progress!
 
 RESOURCE ID: tutorial_level_up_quests_1
 TEXT: Now that you’ve reached level {0}, there are new challenges you’ll have to complete in order to progress to the next level.
+
+RESOURCE ID: visit_web_store_item_url_key
+TEXT: https://store.pokemongo.com/?utm_source=PGO&utm_medium=in-game-shop&utm_campaign=pgo_webstore_linkout&utm_content=sku_button&itemId={0}
 
 RESOURCE ID: weekly_challenges_matchmaking_error_finding_group
 TEXT: Error Finding Group

@@ -79,6 +79,9 @@ TEXT: Niveau original 50
 RESOURCE ID: bonus_clefairy_special_background
 TEXT: Les Études de terrain dans cette zone peuvent offrir en récompense une rencontre avec Mélofée doté d’un Fond spécial
 
+RESOURCE ID: bonus_supply_balloon
+TEXT: Un Ballon de ravitaillement rempli de Safari GO Balls apparaîtra chaque heure pendant l’évènement
+
 RESOURCE ID: city_manhole_1(ibusuki)
 TEXT: Ibusuki
 
@@ -1311,6 +1314,10 @@ RESOURCE ID: event_datetime_range_key_gowa25_leadup
 TEXT: Du 10 novembre
 au 14 novembre
 
+RESOURCE ID: event_datetime_range_key_high_voltage_nov25
+TEXT: Du 18 novembre à 10h
+au 22 novembre à 20h
+
 RESOURCE ID: event_pass_gowa_2025_bonus_1
 TEXT: Bonus du Passe GO : Âme sauvage échelon 1
 
@@ -1539,6 +1546,9 @@ TEXT: Variété Giga
 
 RESOURCE ID: general1.ticket._enchanted_hollow_nov25_title
 TEXT: Ticket pour l’Étude ponctuelle premium Toile tissée
+
+RESOURCE ID: general1.ticket._high_voltage_nov25_title
+TEXT: Ticket pour l’Étude ponctuelle premium Rassasié ou Affamé
 
 RESOURCE ID: general2.ticket._gowa25_leadup_title
 TEXT: Ticket pour l’Étude ponctuelle premium Préparatifs sauvages
@@ -1798,6 +1808,21 @@ TEXT: Un Ballon de ravitaillement apparaîtra toutes les heures. Appuie dessus p
 RESOURCE ID: halloween_2025_pass_details_link
 TEXT: Tous les détails sont sur le <a href="https://pokemongo.com/news/go-pass-halloween-2025">site Web</a>.
 
+RESOURCE ID: high_voltage_event_nme
+TEXT: Haute tension
+
+RESOURCE ID: high_voltage_nov2025_cc_1
+TEXT: Défi de collection Compagnons électrisants
+
+RESOURCE ID: high_voltage_prem_tr_name
+TEXT: Étude ponctuelle premium Rassasié ou Affamé
+
+RESOURCE ID: high_voltage_prem_tr_name_0
+TEXT: Étude ponctuelle premium Rassasié ou Affamé (1/2)
+
+RESOURCE ID: high_voltage_prem_tr_name_1
+TEXT: Étude ponctuelle premium Rassasié ou Affamé (2/2)
+
 RESOURCE ID: item_event_ticket_6_desc_gowa25_leadup
 TEXT: Un ticket pour accéder à l’Étude ponctuelle premium Préparatifs sauvages du 10 novembre à 10h au 14 novembre 2025 à 20h (heures locales), où que tu sois.
 
@@ -1807,8 +1832,14 @@ TEXT: Ce ticket sera automatiquement activé pour te donner accès à l’Étude
 RESOURCE ID: item_event_ticket_evergreen_desc_enchanted_hollow_nov25
 TEXT: Un ticket pour accéder à l’Étude ponctuelle premium Toile tissée jusqu’au 9 novembre 2025 à 20h, heure locale, où que tu sois.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_high_voltage_nov25
+TEXT: Un ticket pour accéder à l’Étude ponctuelle premium Rassasié ou Affamé jusqu’au 22 novembre 2025 à 20h, heure locale, où que tu sois.
+
 RESOURCE ID: item_event_ticket_evergreen_details_enchanted_hollow_nov25
 TEXT: Ce ticket s’activera automatiquement le 4 novembre pour te donner accès à l’Étude ponctuelle premium Toile tissée, où que tu sois.
+
+RESOURCE ID: item_event_ticket_evergreen_details_high_voltage_nov25
+TEXT: Ce ticket s’activera automatiquement le 18 novembre pour te donner accès à l’Étude ponctuelle premium Rassasié ou Affamé, où que tu sois.
 
 RESOURCE ID: item_giftbox_storage_upgrade_earned_name
 TEXT: Stockage de Cadeaux
@@ -1972,10 +2003,10 @@ RESOURCE ID: max_battle_win_plus5000_bonus
 TEXT: 5 000 PX supplémentaires pour chaque Combat Dynamax remporté
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-11-04T20:18:06.491140+00:00 for fr-FR
-at SHA 4f698523b99
-Pipeline 3429438, job 48267345
-Patch from: 0.385.0-SHA-d627e07f-RC3, 0.387.0-SHA-d36b4c9c-RC1
+TEXT: Built at 2025-11-05T01:52:06.852856+00:00 for fr-FR
+at SHA e42f0bb5b5e
+Pipeline 3430069, job 48280936
+Patch from: 0.387.0-SHA-415ba74d-RC2, 0.385.1-SHA-a0c2d4c7-RC3
 
 RESOURCE ID: observatory_exhibition_bonus_event_title
 TEXT: Visite de l’exposition Observatoire Pokémon
@@ -2264,6 +2295,9 @@ TEXT: Tu peux consulter les tampons obtenus dans la page des chasses aux tampons
 RESOURCE ID: stat_at_max
 TEXT: This stat cannot be trained any further.
 
+RESOURCE ID: supply_balloon_postcard
+TEXT: Utilise ces Safari GO Balls pendant l’évènement Terres Sauvages Pokémon GO !
+
 RESOURCE ID: tapubulu_special_move_bonus
 TEXT: Les Tokotoro attrapés pendant l’évènement connaîtront l’Attaque Chargée Ire de la Nature
 
@@ -2323,6 +2357,18 @@ TEXT: <b>Donne accès aux bonus suivants :</b>
 
 Obtiens plus d’informations sur les bonus du ticket <a href="https://pokemongolive.com/gowildarea/global">ici</a>.
 
+RESOURCE ID: text_rewards_key_high_voltage_nov25
+TEXT: <b>Donne accès aux récompenses suivantes :</b>
+• Des rencontres avec Emolga, Dedenne, Togedemaru et Morpeko
+• 1 Module Leurre Magnétique
+• 2 passes de combat premium
+• 1 CT Attaque Chargée
+• 1 CT Attaque Chargée d’élite
+• 10 000 Poussières Étoiles
+• Et bien plus encore !
+
+Les Emolga, les Dedenne, les Togedemaru et les Morpeko rencontrés en tant que récompense pendant cette Étude et toutes les autres tâches d’Études auront plus de chances d’être chromatiques !
+
 RESOURCE ID: tr_jp2025_aeon_mall_header_00
 TEXT: Étude ponctuelle Méga Entraînement Pokémon GO ! (1/2)
 
@@ -2352,6 +2398,9 @@ TEXT: Bravo pour tes progrès extraordinaires !
 
 RESOURCE ID: tutorial_level_up_quests_1
 TEXT: Maintenant que tu as atteint le niveau {0}, tu vas devoir relever de nouveaux défis avant de pouvoir passer au niveau suivant.
+
+RESOURCE ID: visit_web_store_item_url_key
+TEXT: https://store.pokemongo.com/?utm_source=PGO&utm_medium=in-game-shop&utm_campaign=pgo_webstore_linkout&utm_content=sku_button&itemId={0}
 
 RESOURCE ID: weekly_challenges_matchmaking_error_finding_group
 TEXT: Une erreur s’est produite lors de la recherche d’un groupe

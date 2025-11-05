@@ -100,6 +100,9 @@ TEXT: 完成團體戰時一定可獲得3個額外的糖果XL
 RESOURCE ID: bonus_raid_6_candy_all_raids
 TEXT: 完成團體戰時一定可獲得6個額外的糖果
 
+RESOURCE ID: bonus_supply_balloon
+TEXT: 每小時都會出現GO狩獵球的補給氣球
+
 RESOURCE ID: city_manhole_1(ibusuki)
 TEXT: 指宿市
 
@@ -1342,6 +1345,10 @@ TEXT: 11月4日10:00～
 RESOURCE ID: event_datetime_range_key_gowa25_leadup
 TEXT: 11月10日～14日
 
+RESOURCE ID: event_datetime_range_key_high_voltage_nov25
+TEXT: 11月18日10:00～
+11月22日20:00
+
 RESOURCE ID: event_pass_gowa_2025_bonus_1
 TEXT: 第1階段GO Pass：曠野週獎勵
 
@@ -1576,6 +1583,9 @@ TEXT: 巨顆種
 
 RESOURCE ID: general1.ticket._enchanted_hollow_nov25_title
 TEXT: 森林浴特級限時調查入場券
+
+RESOURCE ID: general1.ticket._high_voltage_nov25_title
+TEXT: Happy or Hangry？特級限時調查入場券
 
 RESOURCE ID: general2.ticket._gowa25_leadup_title
 TEXT: 曠野週特級限時調查入場券
@@ -1874,6 +1884,21 @@ TEXT: 每小時會出現1次可獲得GO狩獵球的補給氣球
 RESOURCE ID: halloween_2025_pass_details_link
 TEXT: 詳情請至<a href="https://pokemongo.com/news/go-pass-halloween-2025">網站</a>確認
 
+RESOURCE ID: high_voltage_event_nme
+TEXT: 鼠定高壓電
+
+RESOURCE ID: high_voltage_nov2025_cc_1
+TEXT: 帶電小可愛收藏家挑戰
+
+RESOURCE ID: high_voltage_prem_tr_name
+TEXT: Happy or Hangry？特級限時調查
+
+RESOURCE ID: high_voltage_prem_tr_name_0
+TEXT: Happy or Hangry？特級限時調查(1/2)
+
+RESOURCE ID: high_voltage_prem_tr_name_1
+TEXT: Happy or Hangry？特級限時調查(2/2)
+
 RESOURCE ID: incense_duration_two_hours
 TEXT: 薰香時間延長為2小時
 
@@ -1886,8 +1911,14 @@ TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時�
 RESOURCE ID: item_event_ticket_evergreen_desc_enchanted_hollow_nov25
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年11月9日20:00前參與森林浴特級限時調查。
 
+RESOURCE ID: item_event_ticket_evergreen_desc_high_voltage_nov25
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年11月22日20:00前參與Happy or Hangry？特級限時調查。
+
 RESOURCE ID: item_event_ticket_evergreen_details_enchanted_hollow_nov25
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間11月4日開始參與森林浴特級限時調查。
+
+RESOURCE ID: item_event_ticket_evergreen_details_high_voltage_nov25
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間11月18日開始參與Happy or Hangry？特級限時調查。
 
 RESOURCE ID: item_giftbox_storage_upgrade_earned_name
 TEXT: 友情禮物保管空間
@@ -2054,10 +2085,10 @@ RESOURCE ID: meetup_check_in_research_title_gowa2025
 TEXT: 見面會簽到限時調查：GO曠野地帶
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-11-04T20:18:06.491140+00:00 for zh-TW
-at SHA 4f698523b99
-Pipeline 3429438, job 48267345
-Patch from: 0.385.0-SHA-d627e07f-RC3, 0.387.0-SHA-d36b4c9c-RC1
+TEXT: Built at 2025-11-05T01:52:06.852856+00:00 for zh-TW
+at SHA e42f0bb5b5e
+Pipeline 3430069, job 48280936
+Patch from: 0.387.0-SHA-415ba74d-RC2, 0.385.1-SHA-a0c2d4c7-RC3
 
 RESOURCE ID: mighty_ftue_encounter_dialog_1
 TEXT: 你遇見的是強大的寶可夢！強大的寶可夢雖然不太好捕捉，但值得努力一試。
@@ -2461,6 +2492,9 @@ TEXT: Pokémon GO曠野地帶入場券包含了可以獲得GO狩獵球的獎勵�
 RESOURCE ID: strong_encounter_tutorial_title
 TEXT: 該如何收集GO狩獵球
 
+RESOURCE ID: supply_balloon_postcard
+TEXT: 歡迎在Pokémon GO曠野地帶靈活運用！
+
 RESOURCE ID: tapubulu_special_move_bonus
 TEXT: 在此活動期間捉到的卡璞・哞哞，將學會特殊招式「自然之怒」
 
@@ -2502,7 +2536,7 @@ RESOURCE ID: text_rewards_key_gowa25_leadup
 TEXT: <b>可獲得的獎勵：</b>
 ・與極巨化拉魯拉絲和極巨化勾魂眼相遇
 ・1個極巨菇菇
-5張特級對戰入場券
+・5張特級對戰入場券
 ・2個孵化器
 ・2顆幸運蛋
 ・2個星星碎片
@@ -2519,6 +2553,18 @@ TEXT: <b>可獲得的獎勵：</b>
 ・在活動期間內與異色寶可夢相遇的機率提升
 
 關於入場券的獎勵詳情，請參照<a href="https://pokemongo.com/gowildarea/global">此處</a>。
+
+RESOURCE ID: text_rewards_key_high_voltage_nov25
+TEXT: <b>可獲得的獎勵：</b>
+・與電飛鼠、咚咚鼠、托戈德瑪爾和莫魯貝可相遇 
+・1個磁鐵誘餌模組
+・2張特級對戰入場券
+・1個特殊招式學習器
+・1個厲害特殊招式學習器
+・10000星星沙子
+・其它
+
+完成限時調查等課題後，遇見異色電飛鼠、咚咚鼠、托戈德瑪爾和莫魯貝可的機率會提高。
 
 RESOURCE ID: today_view_field_research_section_title
 TEXT: 田野調查
@@ -2567,6 +2613,9 @@ TEXT: 真是辛苦你了！
 
 RESOURCE ID: tutorial_level_up_quests_1
 TEXT: 升上{0}級之後，必須精益求精。你將會面臨難易度更高的挑戰。
+
+RESOURCE ID: visit_web_store_item_url_key
+TEXT: https://store.pokemongo.com/?utm_source=PGO&utm_medium=in-game-shop&utm_campaign=pgo_webstore_linkout&utm_content=sku_button&itemId={0}
 
 RESOURCE ID: weekly_challenges_matchmaking_error_finding_group
 TEXT: 尋找小組時出現錯誤

@@ -79,6 +79,9 @@ TEXT: Eski 50
 RESOURCE ID: bonus_clefairy_special_background
 TEXT: Bu bölgede yapılan alan araştırmaları özel arka planlı Clefairy ile bir karşılaşma kazandırabilir
 
+RESOURCE ID: bonus_supply_balloon
+TEXT: Etkinlik sırasında saatte bir kez GO Safari Topu veren bir Tedarik Balonu ortaya çıkacak
+
 RESOURCE ID: bonus_taipei_photobomb
 TEXT: GO Fotoğrafta yeşil gömlekli Pikachu (meyve) ve Corsola ile 5 sürpriz karşılaşma
 
@@ -1317,6 +1320,10 @@ RESOURCE ID: event_datetime_range_key_gowa25_leadup
 TEXT: 10 Kasım -
 14 Kasım
 
+RESOURCE ID: event_datetime_range_key_high_voltage_nov25
+TEXT: 18 Kasım, 10.00 –
+22 Kasım, 20.00
+
 RESOURCE ID: event_pass_gowa_2025_bonus_1
 TEXT: 1. Kademe GO Bileti: Vahşi Macera Bonusları
 
@@ -1549,6 +1556,9 @@ TEXT: Jumbo Boy Cins
 
 RESOURCE ID: general1.ticket._enchanted_hollow_nov25_title
 TEXT: Örülen Ağlar Premium Süreli Araştırması Bileti
+
+RESOURCE ID: general1.ticket._high_voltage_nov25_title
+TEXT: Mutlu veya Obur Premium Süreli Araştırması Bileti
 
 RESOURCE ID: general2.ticket._gowa25_leadup_title
 TEXT: Vahşi Maceraya Hazırlık Premium Süreli Araştırması Bileti
@@ -1808,6 +1818,21 @@ TEXT: Bir Tedarik Balonu saatte bir ortaya çıkacak. GO Safari Topu almak için
 RESOURCE ID: halloween_2025_pass_details_link
 TEXT: Ayrıntıları <a href="https://pokemongo.com/news/go-pass-halloween-2025">internet sitemizden</a> öğrenebilirsiniz.
 
+RESOURCE ID: high_voltage_event_nme
+TEXT: Yüksek Voltaj
+
+RESOURCE ID: high_voltage_nov2025_cc_1
+TEXT: Sevimli ve Elektrikli Toplama Görevi
+
+RESOURCE ID: high_voltage_prem_tr_name
+TEXT: Mutlu veya Obur Premium Süreli Araştırması
+
+RESOURCE ID: high_voltage_prem_tr_name_0
+TEXT: Mutlu veya Obur Premium Süreli Araştırması (1/2)
+
+RESOURCE ID: high_voltage_prem_tr_name_1
+TEXT: Mutlu veya Obur Premium Süreli Araştırması (2/2)
+
 RESOURCE ID: incense_day_type_shuffle_event_name
 TEXT: Tütsü Günü: Tür Karıştırma
 
@@ -1820,8 +1845,14 @@ TEXT: Bu bilet Vahşi Maceraya Hazırlık premium süreli araştırmasına diled
 RESOURCE ID: item_event_ticket_evergreen_desc_enchanted_hollow_nov25
 TEXT: 9 Kasım 2025, yerel saatle 20.00’ye kadar sürecek Örülen Ağlar premium süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_high_voltage_nov25
+TEXT: 22 Kasım 2025, yerel saatle 20.00’ye kadar sürecek Mutlu veya Obur premium süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
+
 RESOURCE ID: item_event_ticket_evergreen_details_enchanted_hollow_nov25
 TEXT: Bu bilet Örülen Ağlar premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için 4 Kasım’da otomatik olarak etkinleştirilecek.
+
+RESOURCE ID: item_event_ticket_evergreen_details_high_voltage_nov25
+TEXT: Bu bilet Mutlu veya Obur premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için 18 Kasım’da otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_giftbox_storage_upgrade_earned_name
 TEXT: Hediye Deposu
@@ -1985,10 +2016,10 @@ RESOURCE ID: max_battle_win_plus5000_bonus
 TEXT: Başarıyla tamamlanan Maksi Maçlardan fazladan 5000 TP
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-11-04T20:18:06.491140+00:00 for tr-TR
-at SHA 4f698523b99
-Pipeline 3429438, job 48267345
-Patch from: 0.385.0-SHA-d627e07f-RC3, 0.387.0-SHA-d36b4c9c-RC1
+TEXT: Built at 2025-11-05T01:52:06.852856+00:00 for tr-TR
+at SHA e42f0bb5b5e
+Pipeline 3430069, job 48280936
+Patch from: 0.387.0-SHA-415ba74d-RC2, 0.385.1-SHA-a0c2d4c7-RC3
 
 RESOURCE ID: mighty_ftue_encounter_dialog_1
 TEXT: Bir muazzam Pokémon bulmuşsun! Muazzam Pokémon’ları yakalamak zordur ama tüm çabalara değer doğrusu.
@@ -2280,6 +2311,9 @@ TEXT: Topladığınız damgaları Koleksiyon Defterinizdeki damga toplama etkinl
 RESOURCE ID: stat_at_max
 TEXT: This stat cannot be trained any further.
 
+RESOURCE ID: supply_balloon_postcard
+TEXT: Pokémon GO Vahşi Bölgesi sırasında bu GO Safari Toplarının tadını çıkarın!
+
 RESOURCE ID: tapubulu_special_move_bonus
 TEXT: Bu etkinlik sırasında yakalanan Tapu Bulu’lar Doğanın Çılgınlığı güçlü saldırısını biliyor olacak
 
@@ -2339,6 +2373,18 @@ TEXT: <b>Şu bonusları içerir:</b>
 
 Bilet bonusları hakkındaki ayrıntıları <a href="https://pokemongolive.com/gowildarea/global">buradan</a> öğrenebilirsiniz.
 
+RESOURCE ID: text_rewards_key_high_voltage_nov25
+TEXT: <b>Şu ödülleri içerir:</b>
+• Emolga, Dedenne, Togedemaru ve Morpeko ile karşılaşmalar
+• 1 Manyetik Yem Modülü
+• 2 Premium Maç Bileti
+• 1 Güçlü TM
+• 1 Elit Güçlü TM
+• 10.000 yıldız tozu
+• Ve dahası!
+
+Bu araştırmanın ve diğer tüm araştırma görevlerinin ödül karşılaşmalarındaki Emolga, Dedenne, Togedemaru ve Morpeko’ların Parlak olma ihtimali daha yüksek olacak!
+
 RESOURCE ID: tr_jp2025_aeon_mall_header_00
 TEXT: Pokémon GO Mega Eğitim! Süreli Araştırması (1/2)
 
@@ -2368,6 +2414,9 @@ TEXT: Olağanüstü bir ilerleme kaydettiniz! Tebrikler!
 
 RESOURCE ID: tutorial_level_up_quests_1
 TEXT: Artık {0}. seviyeye ulaştığınıza göre, bir sonraki seviyeye geçmek için tamamlamanız gereken yeni görevler olacak.
+
+RESOURCE ID: visit_web_store_item_url_key
+TEXT: https://store.pokemongo.com/?utm_source=PGO&utm_medium=in-game-shop&utm_campaign=pgo_webstore_linkout&utm_content=sku_button&itemId={0}
 
 RESOURCE ID: weekly_challenges_matchmaking_error_finding_group
 TEXT: Grup Bulma Hatası
