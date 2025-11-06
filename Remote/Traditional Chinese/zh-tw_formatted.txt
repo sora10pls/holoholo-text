@@ -100,8 +100,14 @@ TEXT: 完成團體戰時一定可獲得3個額外的糖果XL
 RESOURCE ID: bonus_raid_6_candy_all_raids
 TEXT: 完成團體戰時一定可獲得6個額外的糖果
 
+RESOURCE ID: bonus_rrp_limit_30
+TEXT: 每天可參加遠距團體戰的上限增加至30次
+
 RESOURCE ID: bonus_supply_balloon
 TEXT: 每小時都會出現GO狩獵球的補給氣球
+
+RESOURCE ID: bonus_today_tauros_standard_lure
+TEXT: More Tauros attracted to standard Lure Modules
 
 RESOURCE ID: city_manhole_1(ibusuki)
 TEXT: 指宿市
@@ -1723,7 +1729,8 @@ RESOURCE ID: gowa_2025_global_sr_fairy_5_0
 TEXT: Say, have you ever heard the story of the fairy prince who could attract Pokémon with the power of his music? Oh, you haven’t? Er, maybe I just made it up...
 
 RESOURCE ID: gowa_2025_global_sr_fairy_5_1
-TEXT: In any case, I may not be a fairy prince, but I do know a little about Fairy-type Pokémon that I can share!
+TEXT: 對於妖精王子般的你，我有一個問題。妖精屬性的寶可夢擅長對付超能力和幽靈屬性。那不擅長對付的是？
+
 
 RESOURCE ID: gowa_2025_global_sr_fairy_5_2
 TEXT: They’re strong against Fighting-, Dragon-, and Dark-type Pokémon, but they’re weak to Poison and Steel types.
@@ -1756,25 +1763,25 @@ RESOURCE ID: gowa_2025_global_sr_fairy_7_3
 TEXT: I’m excited to see the next chapter unfold. Until next time, %PLAYERNAME%!
 
 RESOURCE ID: gowa_2025_global_sr_intro_1_0
-TEXT: Oh, where could they be?! Ah—%PLAYERNAME%!
+TEXT: 奇怪，到底放哪去了？！啊，這不是%PLAYERNAME%嗎！
 
 RESOURCE ID: gowa_2025_global_sr_intro_1_1
-TEXT: You don’t happen to have seen my field notes anywhere, do you? It’s like they disappeared into thin air!
+TEXT: 我找不到剛才整理好的筆記。我記得明明放在這裡的。
 
 RESOURCE ID: gowa_2025_global_sr_intro_1_2
-TEXT: Sorry you have to see me in such a tizzy. I must’ve missed something...
+TEXT: 我真是太粗心了……會是忘在哪啊……
 
 RESOURCE ID: gowa_2025_global_sr_intro_1_3
-TEXT: Hm? Do you see something over there?
+TEXT: 嗯？那是什麼？
 
 RESOURCE ID: gowa_2025_global_sr_intro_2_0
-TEXT: Aha! It looks like Impidimp, the Wily Pokémon, was behind my missing notes!
+TEXT: 啊～！原來是捉弄寶可夢搗蛋小妖！看來我的筆記是被偷了啊。
 
 RESOURCE ID: gowa_2025_global_sr_intro_2_1
-TEXT: Impidimp like to sneak into people’s homes to steal things and feast on the negative energy of the frustrated occupants.
+TEXT: 聽說搗蛋小妖不但會溜進民宅偷盜，還喜歡人們悔恨時所散發出的負面能量。
 
 RESOURCE ID: gowa_2025_global_sr_intro_2_2
-TEXT: Oho, but look where Impidimp has led us! This place is rife with Fairy- and Dark-type Pokémon!
+TEXT: 不過多虧有搗蛋小妖，這裡似乎成了一個不得了的地方呢。到處都是妖精屬性和惡屬性的寶可夢。
 
 RESOURCE ID: gowa_2025_global_sr_intro_2_3
 TEXT: Feeling bold? Then let’s do some exploring!
@@ -2085,10 +2092,10 @@ RESOURCE ID: meetup_check_in_research_title_gowa2025
 TEXT: 見面會簽到限時調查：GO曠野地帶
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-11-05T01:52:06.852856+00:00 for zh-TW
-at SHA e42f0bb5b5e
-Pipeline 3430069, job 48280936
-Patch from: 0.387.0-SHA-415ba74d-RC2, 0.385.1-SHA-a0c2d4c7-RC3
+TEXT: Built at 2025-11-06T23:10:45.301074+00:00 for zh-TW
+at SHA 99b843695f3
+Pipeline 3432899, job 48352692
+Patch from: 0.387.0-SHA-efd3446d-RC1, 0.385.2-SHA-0b9fa9bd-RC1
 
 RESOURCE ID: mighty_ftue_encounter_dialog_1
 TEXT: 你遇見的是強大的寶可夢！強大的寶可夢雖然不太好捕捉，但值得努力一試。
@@ -2160,7 +2167,7 @@ RESOURCE ID: pokemon_desc_0647_0150
 TEXT: Keldeo has strengthened its resolve for battle, filling its body with power and changing its form.
 
 RESOURCE ID: pokemon_evolution_not_enough_candy_toast
-TEXT: You don't have enough candy to evolve this Pokémon.
+TEXT: You don’t have enough Candy to evolve this Pokémon.
 
 RESOURCE ID: pokemon_info_caught_raid_nnm_with_lobby
 TEXT: 在超級團體戰中和{0}位訓練家捉到
@@ -2196,10 +2203,10 @@ RESOURCE ID: pokemon_learn_new_quick_move
 TEXT: 學會新的一般招式
 
 RESOURCE ID: pokemon_no_longer_able_battle_powerspots
-TEXT: 這隻寶可夢將無法參加能量點的對戰
+TEXT: 再也無法參加能量點的對戰
 
 RESOURCE ID: pokemon_will
-TEXT: {0}將會：
+TEXT: {0}將會發生以下變化：
 
 RESOURCE ID: quest_buddy_affection_dark_plural
 TEXT: 將惡屬性的寶可夢設成夥伴，並和牠獲得{0}顆心心
@@ -2335,6 +2342,9 @@ TEXT: 如果購買GO Pass豪華版：11月，將能解鎖下列獎勵！
 ・1個超級孵化器
 ・能成為亮晶晶好朋友的道具「<a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">亮晶晶首飾</a>」
 ・其他
+
+RESOURCE ID: selection_disabled_pokemon_toast
+TEXT: This Pokémon is assigned to a Gym.
 
 RESOURCE ID: settings_special_egg_reminder
 TEXT: 速孵蛋提醒
@@ -2484,7 +2494,7 @@ RESOURCE ID: stamp_social_receive_tutorial_page_3_description_out
 TEXT: 你可以在剪貼簿中的集章趣頁面查看收集到的圖章。
 
 RESOURCE ID: stat_at_max
-TEXT: This stat cannot be trained any further.
+TEXT: 這個項目無法再進行鍛鍊了
 
 RESOURCE ID: strong_encounter_tutorial_message
 TEXT: Pokémon GO曠野地帶入場券包含了可以獲得GO狩獵球的獎勵。
@@ -2618,10 +2628,10 @@ RESOURCE ID: visit_web_store_item_url_key
 TEXT: https://store.pokemongo.com/?utm_source=PGO&utm_medium=in-game-shop&utm_campaign=pgo_webstore_linkout&utm_content=sku_button&itemId={0}
 
 RESOURCE ID: weekly_challenges_matchmaking_error_finding_group
-TEXT: 尋找小組時出現錯誤
+TEXT: 尋找小組時發生錯誤
 
 RESOURCE ID: weekly_challenges_matchmaking_finding_group
-TEXT: Challenge will start once a trainer is found.
+TEXT: Challenge will start once another Trainer is found.
 
 RESOURCE ID: weekly_challenges_today_view_pending_invite_multiple
 TEXT: 有{0}件未確定的邀請

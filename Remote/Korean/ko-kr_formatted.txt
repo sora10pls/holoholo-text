@@ -91,6 +91,9 @@ TEXT: 포켓스톱 또는 체육관에서 이벤트 관련 5km 알이 나올 확
 RESOURCE ID: bonus_6_daily_raid_passes
 TEXT: 체육관의 포토디스크를 돌려 레이드패스 6개까지 입수
 
+RESOURCE ID: bonus_cd_move_noibat
+TEXT: 음뱃을 음번으로 진화시키면 스페셜 어택 폭음파를 배운다
+
 RESOURCE ID: bonus_clefairy_special_background
 TEXT: 에리어내 필드리서치로 스페셜 배경이 있는 삐삐와 만날 수 있음
 
@@ -106,8 +109,14 @@ TEXT: 레이드배틀에서 받을 수 있는 사탕XL 3개 추가
 RESOURCE ID: bonus_raid_6_candy_all_raids
 TEXT: 레이드배틀에서 받을 수 있는 사탕 6개 추가
 
+RESOURCE ID: bonus_rrp_limit_30
+TEXT: 리모트 레이드 1일 최대 30회
+
 RESOURCE ID: bonus_supply_balloon
 TEXT: GO사파리볼의 보급 기구가 매시간 출현
+
+RESOURCE ID: bonus_today_tauros_standard_lure
+TEXT: More Tauros attracted to standard Lure Modules
 
 RESOURCE ID: city_manhole_1
 TEXT: 요코하마
@@ -3191,10 +3200,10 @@ RESOURCE ID: meetup_check_in_research_title_gowa2025
 TEXT: 미트업 체크인 시간제한 리서치: GO 와일드 에리어
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-11-05T01:52:06.852856+00:00 for ko-KR
-at SHA e42f0bb5b5e
-Pipeline 3430069, job 48280936
-Patch from: 0.387.0-SHA-415ba74d-RC2, 0.385.1-SHA-a0c2d4c7-RC3
+TEXT: Built at 2025-11-06T23:10:45.301074+00:00 for ko-KR
+at SHA 99b843695f3
+Pipeline 3432899, job 48352692
+Patch from: 0.387.0-SHA-efd3446d-RC1, 0.385.2-SHA-0b9fa9bd-RC1
 
 RESOURCE ID: mighty_ftue_encounter_dialog_1
 TEXT: 네가 만난 것은 강한 포켓몬! 잡기 어렵지만 노력할 만한 포켓몬이야.
@@ -3343,7 +3352,7 @@ RESOURCE ID: quest_visit_gym_singular
 TEXT: 체육관을 방문
 
 RESOURCE ID: quests_log_complete_weekly_challenge_quest
-TEXT: Completed weekly challenge: {0}
+TEXT: 위클리 챌린지: {0}(을)를 완료했다.
 
 RESOURCE ID: raid_win_plus5000_bonus
 TEXT: 레이드배틀 승리로 5,000XP 추가
@@ -3432,6 +3441,9 @@ TEXT: GO패스 디럭스: 11월을 구매하면 다음 리워드가 해제합니
 - 슈퍼 부화장치 1개
 - 반짝반짝 프렌드가 될 수 있는 도구 <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">반짝이 참</a> 1개
 - 기타
+
+RESOURCE ID: selection_disabled_pokemon_toast
+TEXT: This Pokémon is assigned to a Gym.
 
 RESOURCE ID: settings_special_egg_reminder
 TEXT: 바로 부화 알 리마인드
@@ -3717,10 +3729,10 @@ RESOURCE ID: visit_web_store_item_url_key
 TEXT: https://store.pokemongo.com/?utm_source=PGO&utm_medium=in-game-shop&utm_campaign=pgo_webstore_linkout&utm_content=sku_button&itemId={0}
 
 RESOURCE ID: weekly_challenges_matchmaking_error_finding_group
-TEXT: Error Finding Group
+TEXT: 오류: 그룹을 찾을 수 없습니다
 
 RESOURCE ID: weekly_challenges_matchmaking_finding_group
-TEXT: Challenge will start once a trainer is found.
+TEXT: 참가자를 한 사람 더 찾으면 챌린지를 시작합니다.
 
 RESOURCE ID: weekly_challenges_today_view_pending_invite_multiple
 TEXT: 미확정 초대 {0}건

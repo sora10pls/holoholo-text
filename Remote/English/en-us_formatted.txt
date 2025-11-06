@@ -82,8 +82,14 @@ TEXT: Legacy 50
 RESOURCE ID: bonus_clefairy_special_background
 TEXT: Field Research in the area may award an encounter with Clefairy with a Special Background
 
+RESOURCE ID: bonus_rrp_limit_30
+TEXT: Daily Remote Raid limit increased to 30
+
 RESOURCE ID: bonus_supply_balloon
 TEXT: A Supply Balloon giving GO Safari Balls will appear hourly during the event
+
+RESOURCE ID: bonus_today_tauros_standard_lure
+TEXT: More Tauros attracted to standard Lure Modules
 
 RESOURCE ID: city_manhole_1(ibusuki)
 TEXT: Ibusuki
@@ -1985,10 +1991,10 @@ RESOURCE ID: max_battle_win_plus5000_bonus
 TEXT: Additional 5,000 XP awarded for successful Max Battles
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-11-05T01:52:06.852856+00:00 for en-US
-at SHA e42f0bb5b5e
-Pipeline 3430069, job 48280936
-Patch from: 0.387.0-SHA-415ba74d-RC2, 0.385.1-SHA-a0c2d4c7-RC3
+TEXT: Built at 2025-11-06T23:10:45.301074+00:00 for en-US
+at SHA 99b843695f3
+Pipeline 3432899, job 48352692
+Patch from: 0.387.0-SHA-efd3446d-RC1, 0.385.2-SHA-0b9fa9bd-RC1
 
 RESOURCE ID: observatory_exhibition_bonus_event_title
 TEXT: Pokémon Observatory Exhibition Tour
@@ -2041,7 +2047,7 @@ RESOURCE ID: pokemon_desc_0647_0150
 TEXT: Keldeo has strengthened its resolve for battle, filling its body with power and changing its form.
 
 RESOURCE ID: pokemon_evolution_not_enough_candy_toast
-TEXT: You don't have enough candy to evolve this Pokémon.
+TEXT: You don’t have enough Candy to evolve this Pokémon.
 
 RESOURCE ID: pokemon_info_caught_raid_nnm_with_lobby
 TEXT: CAUGHT AT A MEGA RAID WITH {0} TRAINERS
@@ -2077,7 +2083,7 @@ RESOURCE ID: pokemon_learn_new_quick_move
 TEXT: Learn a new Fast Attack
 
 RESOURCE ID: pokemon_no_longer_able_battle_powerspots
-TEXT: No longer be able to battle at Power Spots
+TEXT: No longer able to battle at Power Spots
 
 RESOURCE ID: pokemon_will
 TEXT: {0} will:
@@ -2142,6 +2148,9 @@ TEXT: Purchase GO Pass Deluxe: November to unlock the following rewards!
 • One Super Incubator
 • One <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Lucky Trinket</a>, which allows you to instantly become Lucky Friends with a friend of your choice
 • And much more!
+
+RESOURCE ID: selection_disabled_pokemon_toast
+TEXT: This Pokémon is assigned to a Gym.
 
 RESOURCE ID: settings_special_egg_reminder
 TEXT: Daily Adventure Egg Reminder
@@ -2302,7 +2311,7 @@ RESOURCE ID: weekly_challenges_matchmaking_error_finding_group
 TEXT: Error Finding Group
 
 RESOURCE ID: weekly_challenges_matchmaking_finding_group
-TEXT: Challenge will start once a trainer is found.
+TEXT: Challenge will start once another Trainer is found.
 
 RESOURCE ID: welcome_level_up_faster_desc
 TEXT: Better rewards, easier to level up, and more levels.

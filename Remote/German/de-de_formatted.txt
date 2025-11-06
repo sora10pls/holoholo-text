@@ -79,8 +79,14 @@ TEXT: Pionier 50
 RESOURCE ID: bonus_clefairy_special_background
 TEXT: Eine Feldforschung in der Gegend kann zu einer Begegnung mit Piepi mit Spezialhintergrund führen
 
+RESOURCE ID: bonus_rrp_limit_30
+TEXT: Tägliches Limit für Fern-Raids auf 30 erhöht
+
 RESOURCE ID: bonus_supply_balloon
 TEXT: Ein Versorgungsballon, mit GO-Safaribällen erscheint stündlich während des Events.
+
+RESOURCE ID: bonus_today_tauros_standard_lure
+TEXT: More Tauros attracted to standard Lure Modules
 
 RESOURCE ID: city_manhole_1(ibusuki)
 TEXT: Ibusuki
@@ -2003,10 +2009,10 @@ RESOURCE ID: max_battle_win_plus5000_bonus
 TEXT: Zusätzliche 5000 EP für gewonnene Dyna-Kämpfe
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-11-05T01:52:06.852856+00:00 for de-DE
-at SHA e42f0bb5b5e
-Pipeline 3430069, job 48280936
-Patch from: 0.387.0-SHA-415ba74d-RC2, 0.385.1-SHA-a0c2d4c7-RC3
+TEXT: Built at 2025-11-06T23:10:45.301074+00:00 for de-DE
+at SHA 99b843695f3
+Pipeline 3432899, job 48352692
+Patch from: 0.387.0-SHA-efd3446d-RC1, 0.385.2-SHA-0b9fa9bd-RC1
 
 RESOURCE ID: observatory_exhibition_bonus_event_title
 TEXT: Pokémon-Observatorium-Ausstellungstour
@@ -2057,7 +2063,7 @@ RESOURCE ID: pokemon_desc_0647_0150
 TEXT: Durch seinen starken Kampfeswillen wurde sein Körper mit purer Willenskraft erfüllt, woraufhin es diese Form annehmen konnte.
 
 RESOURCE ID: pokemon_evolution_not_enough_candy_toast
-TEXT: You don't have enough candy to evolve this Pokémon.
+TEXT: Du hast nicht genug Bonbons, um dieses Pokémon zu entwickeln.
 
 RESOURCE ID: pokemon_info_caught_raid_nnm_with_lobby
 TEXT: BEI EINEM MEGA-RAID MIT {0} TRAINERN GEFANGEN
@@ -2093,7 +2099,7 @@ RESOURCE ID: pokemon_learn_new_quick_move
 TEXT: Eine neue Sofort-Attacke lernen
 
 RESOURCE ID: pokemon_no_longer_able_battle_powerspots
-TEXT: Nicht mehr an Kraftquellen kämpfen können
+TEXT: Kann nicht mehr an Kraftquellen kämpfen
 
 RESOURCE ID: pokemon_will
 TEXT: {0} wird:
@@ -2108,7 +2114,7 @@ RESOURCE ID: quest_catch_impidimp
 TEXT: Fange ein Bähmon
 
 RESOURCE ID: quest_catch_pikachu_singular
-TEXT: Catch a Pikachu
+TEXT: Fange ein Pikachu
 
 RESOURCE ID: quest_complete_routes_days_row_plural
 TEXT: Erkunde {0} Tage hintereinander eine Route.
@@ -2213,6 +2219,9 @@ TEXT: Schnapp dir den GO-Pass-Deluxe: November, um die folgenden Belohnungen fre
 • Ein <a href="https://niantic.helpshift.com/hc/de/6-pokemon-go/faq/4945-what-is-the-lucky-trinket/">Glücks-Klimbim</a>, mit dem du und ein Freund deiner Wahl sofort Glücks-Freunde werdet
 • Und vieles mehr!
 
+RESOURCE ID: selection_disabled_pokemon_toast
+TEXT: This Pokémon is assigned to a Gym.
+
 RESOURCE ID: settings_special_egg_reminder
 TEXT: Tägliche Abenteuer-Ei-Erinnerung
 
@@ -2265,11 +2274,16 @@ TEXT: Dein Freund hat einen Stempel mit dir geteilt! Schließe dich der Poké Li
 RESOURCE ID: stamp_social_receive_tutorial_page_2_description
 TEXT: Eine Stempel-Rallye ist eine Aktivität, bei der du Stempel von bestimmten PokéStops und Arenen sammeln kannst. Während der Poké Lid-Stempel-Rallye kannst du mit Freunden zusammenarbeiten, um diese Stempel zu sammeln, selbst wenn du nicht vor Ort bist.
 
+RESOURCE ID: stamp_social_receive_tutorial_page_3_description
+TEXT: Du kannst dir die Stempel, die du sammelst, in der Rubrik Stempel-Rallye deines Sammelalbums ansehen.
+
+Darüber hinaus kannst du bei bestimmten Stempel-Rallyes Stempel zusammen mit einem Geschenk an deine Freunde schicken. Stempel, die du durch Geschenke erhältst, werden in deinem Sammelalbum gespeichert, zählen aber nicht für die Belohnungsleiste. Belohnungen erhältst du nur, wenn du den Ort besuchst und den Stempel selbst sammelst.
+
 RESOURCE ID: stamp_social_receive_tutorial_page_3_description_out
 TEXT: Du kannst dir die Stempel, die du sammelst, in der Rubrik Stempel-Rallye deines Sammelalbums ansehen.
 
 RESOURCE ID: stat_at_max
-TEXT: This stat cannot be trained any further.
+TEXT: Dieser Statuswert kann nicht weiter trainiert werden.
 
 RESOURCE ID: supply_balloon_postcard
 TEXT: Freue dich während Pokémon GO-Naturzone auf diese GO-Safaribälle
@@ -2382,7 +2396,7 @@ RESOURCE ID: weekly_challenges_matchmaking_error_finding_group
 TEXT: Fehler beim Finden einer Crew
 
 RESOURCE ID: weekly_challenges_matchmaking_finding_group
-TEXT: Challenge will start once a trainer is found.
+TEXT: Die Herausforderung beginnt, sobald ein anderer Trainer gefunden wurde.
 
 RESOURCE ID: welcome_level_up_faster_desc
 TEXT: Bessere Belohnungen, schnelleres Aufleveln und mehr Level.
