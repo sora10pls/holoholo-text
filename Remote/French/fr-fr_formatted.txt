@@ -76,6 +76,9 @@ TEXT: Niveau 50 atteint avant le 15 octobre 2025.
 RESOURCE ID: badge_smores_01_title
 TEXT: Niveau original 50
 
+RESOURCE ID: battle_ruleset_error_pokemon
+TEXT: This Pokémon can't be used.
+
 RESOURCE ID: block_remote_trade_bread
 TEXT: Les Pokémon auxquels tu as ajouté le mot-clé d’Échange à distance ne peuvent pas être assignés aux Sources d’Énergie.
 
@@ -2003,6 +2006,102 @@ TEXT: Une Poké Ball très performante au taux de réussite supérieur.
 RESOURCE ID: item_xl_rare_candy_desc_short
 TEXT: Transforme cela en un Bonbon de n’importe quel Pokémon.
 
+RESOURCE ID: keldeo_evergreen_sr_dialogue_0_0
+TEXT: Greetings %PLAYERNAME%! During my morning walk, I witnessed something extraordinary - a figure gliding across the lake's surface, moving too fast to follow!
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_0_1
+TEXT: I suspect this mysterious Pokémon must be Keldeo, the Colt Pokémon!
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_0_2
+TEXT: According to legend, Keldeo joined forces with Cobalion, Terrakion, and Virizion, who taught it the ways of battle.
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_0_3
+TEXT: Perhaps this is why Keldeo appears to be looking for promising trainers like yourself to join it on its journey. So get out there and see if you can keep pace with Keldeo!
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_1_0
+TEXT: Ah, %PLAYERNAME%, still looking for Keldeo? I’ve been reviewing my research and this Pokémon possesses some truly extraordinary abilities.
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_1_1
+TEXT: By blasting water from its hooves, Keldeo can glide across any body of water - running over oceans and rivers to travel the world.
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_1_2
+TEXT: Quite remarkable - who needs boats or planes with abilities like that?
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_1_3
+TEXT: If you're fortunate enough to encounter Keldeo out there, act fast - don’t let the opportunity dash away!
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_2_0
+TEXT: Welcome back %PLAYERNAME%! As you’ve likely noticed, Keldeo has two types: Water and Fighting!
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_2_1
+TEXT: This rare and powerful combination makes Keldeo incredibly versatile in battle.
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_2_2
+TEXT: Few Pokémon can master both the fluid grace of water techniques and the raw intensity of fighting moves quite like Keldeo.
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_2_3
+TEXT: Understanding these type advantages will be crucial to helping Keldeo reach its full potential. Now hoof it and put this knowledge to good use!
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_3_0
+TEXT: Hello again, %PLAYERNAME%! Back for more insights on Keldeo?
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_3_1
+TEXT: It has been said that t dashes across the world, seeking more opportunities to further its training.
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_3_2
+TEXT: An accomplished trainer like yourself would certainly catch its attention!
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_3_3
+TEXT: Keep exploring %PLAYERNAME% - the more we understand Keldeo's behaviors, the better our chances of finding it.
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_4_0
+TEXT: There you are, %PLAYERNAME%! I've made a fascinating discovery in my research that I simply must share with you.
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_4_1
+TEXT: Legends speak of a hidden power within Keldeo.
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_4_2
+TEXT: When Keldeo strengthens its resolve for battle, it fills its body with power and changes into its Resolute Form!
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_4_3
+TEXT: Keep exploring %PLAYERNAME%! If you're fortunate enough to encounter Keldeo, you may be able to witness this transformation first hand.
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_5_0
+TEXT: %PLAYERNAME%! There you are!
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_5_1
+TEXT: My latest data suggests that Keldeo is nearby.
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_5_2
+TEXT: This could be your opportunity to finally encounter this Mythical Pokemon!
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_5_3
+TEXT: Be ready, %PLAYERNAME% - I feel something extraordinary may be right around the corner.
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_6_0
+TEXT: Excellent work as always, %PLAYERNAME%. I'm thrilled to see you have successfully befriended Keldeo.
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_6_1
+TEXT: Now that this extraordinary Pokemon has joined your team, I must tell you more about its Resolute Form.
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_6_2
+TEXT: The power that lay hidden in its body covers its horn, turning it into a sword that can slice through anything.
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_6_3
+TEXT: I have a feeling with your support Keldeo will be ready to take this monumental step forward.
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_7_0
+TEXT: Fantastic work, %PLAYERNAME%! I think Keldeo is ready to change into its Resolute Form.
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_7_1
+TEXT: You've proven yourself to be the kind of trainer Keldeo needs to reach its full potential.
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_7_2
+TEXT: The transformation you'll witness is a testament to your skill, your bond with Keldeo, and your commitment to helping this remarkable Pokémon grow.
+
+RESOURCE ID: keldeo_evergreen_sr_dialogue_7_3
+TEXT: Congratulations, %PLAYERNAME% - you've just become part of Keldeo's legend yourself!
+
 RESOURCE ID: level_onboard_modal_backfill
 TEXT: Récupère les récompenses de ton nouveau niveau !
 
@@ -2096,10 +2195,10 @@ RESOURCE ID: max_battle_win_plus5000_bonus
 TEXT: 5 000 PX supplémentaires pour chaque Combat Dynamax remporté
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-11-11T02:21:00.686697+00:00 for fr-FR
-at SHA 631a00e2475
-Pipeline 3436409, job 48439979
-Patch from: 0.387.0-SHA-efd3446d-RC1, 0.385.2-SHA-0b9fa9bd-RC1, 0.389.0-SHA-5532759a-RC1
+TEXT: Built at 2025-11-13T00:06:00.400491+00:00 for fr-FR
+at SHA e50639a52ca
+Pipeline 3439241, job 48520669
+Patch from: 0.385.2-SHA-0b9fa9bd-RC1, 0.387.0-SHA-415ba74d-RC2, 0.389.0-SHA-5532759a-RC1
 
 RESOURCE ID: move_name_0489
 TEXT: Lame Ointe
@@ -2218,6 +2317,42 @@ TEXT: Le Pokémon est actuellement destiné à participer à un Échange à dist
 
 RESOURCE ID: pokemon_will
 TEXT: Actions de {0} :
+
+RESOURCE ID: ptc_auth_consent_needed
+TEXT: Tu dois autoriser Pokémon GO à accéder à ton compte au Cercle des Dresseurs Pokémon pour continuer à jouer.
+
+RESOURCE ID: ptc_auth_consent_needed_out
+TEXT: Tu dois autoriser Pokémon GO à accéder à ton compte au Club des Dresseurs Pokémon pour continuer à jouer.
+
+RESOURCE ID: ptc_auth_link_message
+TEXT: Lie un compte au Cercle des Dresseurs Pokémon à ton compte Pokémon GO pour recevoir : {0}
+
+RESOURCE ID: ptc_auth_link_message_out
+TEXT: Lie un compte au Club des Dresseurs Pokémon à ton compte Pokémon GO pour recevoir : {0}
+
+RESOURCE ID: ptc_claim_reward_msg
+TEXT: Tu as lié ton compte au Cercle des Dresseurs Pokémon avec succès et gagné un Incubateur.
+
+RESOURCE ID: ptc_claim_reward_msg_out
+TEXT: Tu as lié ton compte au Club des Dresseurs Pokémon avec succès et gagné un Incubateur.
+
+RESOURCE ID: ptc_login_button
+TEXT: Cercle des Dresseurs Pokémon
+
+RESOURCE ID: ptc_login_button_out
+TEXT: Club des Dresseurs Pokémon
+
+RESOURCE ID: ptc_login_server_unreachable
+TEXT: Nous sommes désolés, mais le Cercle des Dresseurs Pokémon n’est pas disponible pour le moment.
+
+RESOURCE ID: ptc_login_server_unreachable_out
+TEXT: Nous sommes désolés, mais le Club des Dresseurs Pokémon n’est pas disponible pour le moment.
+
+RESOURCE ID: ptc_login_title
+TEXT: Cercle des Dresseurs Pokémon
+
+RESOURCE ID: ptc_login_title_out
+TEXT: Club des Dresseurs Pokémon
 
 RESOURCE ID: quest_branch_choose_tepig
 TEXT: Choisir Gruikui
@@ -2414,6 +2549,9 @@ TEXT: Tu as atteint ta limite quotidienne de {0} Échanges à distance.
 RESOURCE ID: remote_trade_decline_confirmation_toast
 TEXT: L’Échange à distance avec {0} a été refusé.
 
+RESOURCE ID: remote_trade_decline_modal_body
+TEXT: This trade will be canceled but you can always start a new one.
+
 RESOURCE ID: remote_trade_decline_modal_title
 TEXT: Veux-tu vraiment refuser cet Échange à distance avec {0} ?
 
@@ -2453,8 +2591,11 @@ TEXT: Aucun des Pokémon de ton ami n’est prêt à être échangé.
 RESOURCE ID: remote_trade_friend_no_tagged_pokemon_title
 TEXT: Ton ami n’est pas prêt
 
+RESOURCE ID: remote_trade_friend_pokemon_title
+TEXT: {0}'s Pokémon
+
 RESOURCE ID: remote_trade_header_text
-TEXT: Pokémon you requested from {0}
+TEXT: Les Pokémon que tu souhaites obtenir de chez {0} :
 
 RESOURCE ID: remote_trade_initiate_body
 TEXT: {0} a commencé un Échange à distance !
@@ -2477,6 +2618,9 @@ TEXT: Examiner la demande faite par {0}
 RESOURCE ID: remote_trade_offer_selection_title
 TEXT: Choisis un de tes Pokémon à échanger.
 
+RESOURCE ID: remote_trade_offer_selection_title_singular
+TEXT: Select your Pokémon to offer.
+
 RESOURCE ID: remote_trade_offer_selection_tooltip
 TEXT: Les Pokémon choisis ne seront pas disponibles avant la fin de l’échange.
 
@@ -2498,8 +2642,17 @@ TEXT: Avant d’effectuer un Échange à distance
 RESOURCE ID: remote_trade_player_not_enough_stardust
 TEXT: Tu n’as pas assez de Poussières Étoiles.
 
+RESOURCE ID: remote_trade_player_pokemon_title
+TEXT: {0}'s Pokémon
+
+RESOURCE ID: remote_trade_player_tagged_pokemon_unavailable_message
+TEXT: Your tagged Pokémon aren’t ready to be remotely traded. Tag more Pokémon to start a trade.
+
 RESOURCE ID: remote_trade_pokemon_selected_subtitle
 TEXT: {0} va en choisir un à échanger avec toi.
+
+RESOURCE ID: remote_trade_pokemon_selected_subtitle_singular
+TEXT: {0} will review the trade with you.
 
 RESOURCE ID: remote_trade_pokemon_selected_title
 TEXT: Ta demande
@@ -2507,8 +2660,23 @@ TEXT: Ta demande
 RESOURCE ID: remote_trade_pokemon_tagged_for_trade
 TEXT: Pokémon ayant un mot-clé d’Échange à distance
 
+RESOURCE ID: remote_trade_push_notification_reminder_body
+TEXT: Stay updated with your remote trade and improve your gameplay experience.
+
+RESOURCE ID: remote_trade_push_notification_reminder_title
+TEXT: Enable notifications
+
 RESOURCE ID: remote_trade_push_notification_setting
 TEXT: Demandes d’Échange à distance
+
+RESOURCE ID: remote_trade_push_notification_step_1
+TEXT: 1. Go to Settings > Pokémon GO
+
+RESOURCE ID: remote_trade_push_notification_step_2
+TEXT: 2. Tap Notifications
+
+RESOURCE ID: remote_trade_push_notification_step_3
+TEXT: 3. Turn on Allow Notifications
 
 RESOURCE ID: remote_trade_receive_offer_subtitle
 TEXT: Examine les Pokémon demandés par {0} pour terminer l’échange.
@@ -2521,6 +2689,9 @@ TEXT: Commencer
 
 RESOURCE ID: remote_trade_receive_request_pokemon_header
 TEXT: {0} souhaite obtenir l’un de ceux-ci :
+
+RESOURCE ID: remote_trade_receive_request_pokemon_header_singular
+TEXT: {0} requested this Pokémon:
 
 RESOURCE ID: remote_trade_receive_request_subtitle
 TEXT: {0} souhaite obtenir un Pokémon. Examine l’échange pour continuer.
@@ -2549,6 +2720,12 @@ TEXT: Montrer les Pokémon non enregistrés dans ton Pokédex
 RESOURCE ID: remote_trade_tag_details
 TEXT: Visible pour les Amis pour toujours
 
+RESOURCE ID: remote_trade_tag_reminder_body
+TEXT: Go to your “Remote Trade” tag to indicate which Pokémon your friends can choose from.
+
+RESOURCE ID: remote_trade_tag_reminder_title
+TEXT: Before you remote trade
+
 RESOURCE ID: remote_trade_time_locked_message
 TEXT: Un Pokémon peut être échangé à distance {0} jours après l’avoir attrapé. Les Pokémon auxquels tu as ajouté le mot-clé d’Échange à distance avant le conserveront.
 
@@ -2569,6 +2746,14 @@ TEXT: Impossible d’échanger à distance des Pokémon attrapés récemment
 
 RESOURCE ID: remote_trade_unlock_bf+
 TEXT: Devenez Amis pour toujours pour déverrouiller les Échanges à distance.
+
+RESOURCE ID: remote_trade_unlock_body
+TEXT: Trade from anywhere in the world with your Forever Friend.
+
+To remote trade Pokémon, you will need to tag them to your remote trade tag.
+
+RESOURCE ID: remote_trade_unlock_title
+TEXT: Remote Trading Unlocked
 
 RESOURCE ID: remote_trade_view_friend_pokemon_none
 TEXT: Actuellement, le mot-clé d’Échange à distance a été ajouté à aucun Pokémon.
@@ -2780,6 +2965,24 @@ Les Emolga, les Dedenne, les Togedemaru et les Morpeko rencontrés en tant que r
 RESOURCE ID: ticket_pikipek_cd
 TEXT: Ticket pour l’Étude spéciale de la Journée Communauté de Picassaut disponible dans la Boutique
 
+RESOURCE ID: tips_remote_trade_first_request_conversation_1
+TEXT: You started your first remote trade! You can check the trade status by coming back here. If your friend does not respond, the trade is cancelled.
+
+RESOURCE ID: tips_remote_trade_first_response_conversation_1
+TEXT: Good job! Next, your friend will review your trade. You can check the trade status by coming back here. If your friend does not respond, the trade is cancelled.
+
+RESOURCE ID: tips_remote_trading_intro_conversation_1
+TEXT: Wow, you two must be excellent friends! You can now remote trade with each other.
+
+RESOURCE ID: tips_remote_trading_intro_conversation_2
+TEXT: Remote trades work slightly differently than normal trades. To start, tag Pokémon you’d like to trade with the “Remote Trade” tag.
+
+RESOURCE ID: tips_remote_trading_intro_conversation_3
+TEXT: You can see and choose Pokémon from your friend’s tagged Pokémon. They can also see and choose from yours.
+
+RESOURCE ID: tips_remote_trading_intro_conversation_4
+TEXT: Don’t worry, you’ll both review the chosen Pokémon before finalizing the trade. Have fun!
+
 RESOURCE ID: tr_jp2025_aeon_mall_header_00
 TEXT: Étude ponctuelle Méga Entraînement Pokémon GO ! (1/2)
 
@@ -2823,6 +3026,9 @@ TEXT: Au niveau 10, tu peux échanger des Pokémon avec tes amis. Tu pourras ai
 
 Tu dois être à proximité d’un ami pour effectuer l’échange. Tu peux effectuer des Échanges à distance après avoir atteint le niveau Ami pour toujours avec un ami.
 
+RESOURCE ID: tutorial_help_button_remote_trade_pop_up_body
+TEXT: Learn more about remote trades.
+
 RESOURCE ID: tutorial_level_up_quests_0
 TEXT: Bravo pour tes progrès extraordinaires !
 
@@ -2831,6 +3037,21 @@ TEXT: Maintenant que tu as atteint le niveau {0}, tu vas devoir relever de nouv
 
 RESOURCE ID: tutorial_remote_trade_candy_bonuses_body
 TEXT: De même, tu peux gagner des Bonbons supplémentaires en fonction du lieu où le Pokémon a été attrapé. Plus la distance est importante (jusqu’à un maximum de 100 km), plus tu obtiendras de Bonbons !
+
+RESOURCE ID: tutorial_remote_trade_icon_glossary_location_bg
+TEXT: Has a Location Background
+
+RESOURCE ID: tutorial_remote_trade_icon_glossary_special_bg
+TEXT: Has a Special Background
+
+RESOURCE ID: tutorial_remote_trade_icon_glossary_title
+TEXT: Icon Glossary
+
+RESOURCE ID: tutorial_remote_trade_icon_glossary_top
+TEXT: Some Pokémon may have these icons by their name.
+
+RESOURCE ID: tutorial_remote_trade_icon_glossary_unregistered
+TEXT: You haven’t caught the Pokémon
 
 RESOURCE ID: tutorial_remote_trade_locked_pokemon_body
 TEXT: Les Pokémon ont besoin d’un peu de temps avant de pouvoir être échangés à distance.
@@ -2900,6 +3121,9 @@ TEXT: Mot-clé d’Échange à distance
 
 RESOURCE ID: tutorial_tag_remote_trade_title
 TEXT: Qu’est-ce que le mot-clé d’Échange à distance ?
+
+RESOURCE ID: tutorial_unregistered_remote_trade_pop_up_body
+TEXT: Find Pokémon you haven’t caught before.
 
 RESOURCE ID: view_trade_pokemon
 TEXT: VOIR L’ÉCHANGE DE POKÉMON
