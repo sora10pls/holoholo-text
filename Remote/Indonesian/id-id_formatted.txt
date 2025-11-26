@@ -1,6 +1,12 @@
 RESOURCE ID: additional_candy_raid_singular
 TEXT: Tambahan 1 Permen dari Raid
 
+RESOURCE ID: additional_rewards_local_max_battles_bonus
+TEXT: Hadiah tambahan dari menyelesaikan Pertarungan Max secara langsung
+
+RESOURCE ID: additional_rewards_local_raids_bonus
+TEXT: Hadiah tambahan dari menyelesaikan Raid secara langsung
+
 RESOURCE ID: allow_stamp_from_gift_settings_desc
 TEXT: Kamu tidak akan lagi menerima stempel Poké Lids dari Hadiah.
 
@@ -167,7 +173,7 @@ RESOURCE ID: badge_safari_2025_sydney_day_02_title
 TEXT: Pokémon GO City Safari
 
 RESOURCE ID: battle_ruleset_error_pokemon
-TEXT: This Pokémon can't be used.
+TEXT: Pokémon ini tidak dapat digunakan.
 
 RESOURCE ID: block_remote_trade_bread
 TEXT: Pokémon yang dilabeli untuk Pertukaran Jarak Jauh tidak bisa ditempatkan di Power Spot.
@@ -289,6 +295,9 @@ TEXT: Tinjau dan selesaikan Pertukaran Jarak Jauh!
 RESOURCE ID: details_link_key_cd_recap2025
 TEXT: Untuk detail lebih lanjut, kunjungi <a href="https://pokemongolive.com/news">situs web</a>.
 
+RESOURCE ID: details_link_key_gotour2026
+TEXT: Untuk detail lebih lanjut, kunjungi <a href="https://pokemongo.com/gotour/global/">situs web</a>
+
 RESOURCE ID: dmax_eevee_max_battle_event_name
 TEXT: Pertarungan Max Akhir Pekan Eevee Dynamax
 
@@ -344,6 +353,10 @@ TEXT: 6 Desember, 9.00–
 RESOURCE ID: event_datetime_range_key_finaljustice2025
 TEXT: 25 November, 10.00 –
 30 November, 20.00
+
+RESOURCE ID: event_datetime_range_key_gotour2026
+TEXT: 28 Februari –
+1 Maret
 
 RESOURCE ID: event_datetime_range_key_gowa25_leadup
 TEXT: 10 November –
@@ -481,6 +494,9 @@ TEXT: Penelitian Berwaktu Premium Bersiap untuk Alam Liar
 
 RESOURCE ID: general_settings_allow_stamp_from_gifts
 TEXT: Terima stempel Poké Lids dari Hadiah
+
+RESOURCE ID: gotour_2026_ticket_title
+TEXT: Tur Pokémon GO: Kalos  – Tiket Global
 
 RESOURCE ID: gowa_2025_deluxe_event_pass_track_unlock_plus_points_title
 TEXT: Tiket GO Luks: Menuju Alam Liar + 10 Rank
@@ -805,6 +821,12 @@ TEXT: Tiket ini akan aktif secara otomatis pada 30 November dan memberimu akses 
 RESOURCE ID: item_event_ticket_pink_details_cd_recap2025
 TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Spesial Hari Komunitas Desember, di mana pun kamu berada.
 
+RESOURCE ID: item_global_event_ticket_desc_gotour2026
+TEXT: Tiket yang memberikan penelitian dan akses ke bonus untuk Tur Pokémon GO: Kalos  – Global pada 28 Februari dan 1 Maret, 2026, di mana pun kamu berada.
+
+RESOURCE ID: item_global_event_ticket_details_gotour2026
+TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke bonus spesial pada 28 Februari, di mana pun kamu berada.
+
 RESOURCE ID: journey_paldea_event_name
 TEXT: Perjalanan menuju Paldea
 
@@ -992,10 +1014,10 @@ RESOURCE ID: meetup_check_in_research_title_community_recap_2
 TEXT: Penelitian Berwaktu Check-In Kopdar: Hari Komunitas (3/3)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-11-26T02:21:59.924814+00:00 for id-ID
-at SHA 79c6dc0196b
-Pipeline 3453146, job 48842769
-Patch from: 0.389.0-SHA-1737211e-RC4, 0.387.1-SHA-d1abce9b-RC1, 0.391.0-SHA-386a01ae-RC1
+TEXT: Built at 2025-11-26T19:40:02.952766+00:00 for id-ID
+at SHA 391c5ef31d3
+Pipeline 3453905, job 48857808
+Patch from: 0.389.0-SHA-77adb879-RC3, 0.389.1-SHA-fb884504-RC1, 0.391.0-SHA-386a01ae-RC1
 
 RESOURCE ID: move_name_0489
 TEXT: Pedang Mistis
@@ -1345,7 +1367,7 @@ RESOURCE ID: remote_trade_decline_confirmation_toast
 TEXT: Pertukaran Jarak Jauh dengan {0} telah ditolak.
 
 RESOURCE ID: remote_trade_decline_modal_body
-TEXT: This trade will be canceled, but you can start a new one.
+TEXT: Pertukaran ini akan dibatalkan. Kamu dapat memulai pertukaran baru.
 
 RESOURCE ID: remote_trade_decline_modal_title
 TEXT: Kamu yakin ingin menolak Pertukaran Jarak Jauh dengan {0}?
@@ -1387,7 +1409,7 @@ RESOURCE ID: remote_trade_friend_no_tagged_pokemon_title
 TEXT: Temanmu Belum Siap
 
 RESOURCE ID: remote_trade_friend_pokemon_title
-TEXT: {0}’s Pokémon
+TEXT: Pokémonnya {0}
 
 RESOURCE ID: remote_trade_header_text
 TEXT: Pokémonnya {0}
@@ -1414,7 +1436,7 @@ RESOURCE ID: remote_trade_offer_selection_title
 TEXT: Pilih 1 Pokémon untuk ditawarkan.
 
 RESOURCE ID: remote_trade_offer_selection_title_singular
-TEXT: Select your Pokémon to offer.
+TEXT: Pilih Pokémon untuk ditawarkan.
 
 RESOURCE ID: remote_trade_offer_selection_tooltip
 TEXT: Pokémon yang dipilih akan sibuk sampai pertukaran selesai.
@@ -1438,16 +1460,16 @@ RESOURCE ID: remote_trade_player_not_enough_stardust
 TEXT: Debu Bintang tidak cukup.
 
 RESOURCE ID: remote_trade_player_pokemon_title
-TEXT: {0}’s Pokémon
+TEXT: Pokémonnya {0}
 
 RESOURCE ID: remote_trade_player_tagged_pokemon_unavailable_message
-TEXT: Your tagged Pokémon aren’t ready to be traded remotely. Tag more Pokémon to start a trade.
+TEXT: Pokémonmu yang dilabeli belum siap untuk ditukar jarak jauh. Labeli Pokémon lainnya untuk memulai pertukaran.
 
 RESOURCE ID: remote_trade_pokemon_selected_subtitle
 TEXT: {0} akan memilih 1 untuk bertukar denganmu.
 
 RESOURCE ID: remote_trade_pokemon_selected_subtitle_singular
-TEXT: {0} will review the trade with you.
+TEXT: {0} akan meninjau pertukaranmu.
 
 RESOURCE ID: remote_trade_pokemon_selected_title
 TEXT: Permintaanmu
@@ -1456,22 +1478,22 @@ RESOURCE ID: remote_trade_pokemon_tagged_for_trade
 TEXT: Pokémon dilabeli untuk pertukaran jarak jauh
 
 RESOURCE ID: remote_trade_push_notification_reminder_body
-TEXT: Stay up to date with your Remote Trade and improve your gameplay experience.
+TEXT: Terima notifikasi Pertukaran Jarak Jauh untuk pengalaman permainan yang lebih mulus.
 
 RESOURCE ID: remote_trade_push_notification_reminder_title
-TEXT: Enable Notifications
+TEXT: Terima Notifikasi
 
 RESOURCE ID: remote_trade_push_notification_setting
 TEXT: Permintaan Pertukaran Jarak Jauh
 
 RESOURCE ID: remote_trade_push_notification_step_1
-TEXT: 1. Go to Settings > Pokémon GO
+TEXT: 1. Buka Pengaturan > Pokémon GO
 
 RESOURCE ID: remote_trade_push_notification_step_2
-TEXT: 2. Tap Notifications
+TEXT: 2. Ketuk Notifikasi
 
 RESOURCE ID: remote_trade_push_notification_step_3
-TEXT: 3. Turn on Allow Notifications
+TEXT: 3. Ganti ke Izinkan Notifikasi
 
 RESOURCE ID: remote_trade_receive_offer_subtitle
 TEXT: Tinjau Pokémon yang diminta oleh {0} untuk menetapkan pertukaran.
@@ -1486,7 +1508,7 @@ RESOURCE ID: remote_trade_receive_request_pokemon_header
 TEXT: {0} meminta salah satu dari:
 
 RESOURCE ID: remote_trade_receive_request_pokemon_header_singular
-TEXT: {0} requested this Pokémon:
+TEXT: {0} meminta Pokémon ini:
 
 RESOURCE ID: remote_trade_receive_request_subtitle
 TEXT: Tinjau Pokémon yang diminta oleh {0} untuk melanjutkan.
@@ -1516,10 +1538,10 @@ RESOURCE ID: remote_trade_tag_details
 TEXT: Terlihat oleh Teman Selamanya
 
 RESOURCE ID: remote_trade_tag_reminder_body
-TEXT: Use your Remote Trade tag to indicate which Pokémon your friends can choose from.
+TEXT: Gunakan label Pertukaran Jarak Jauh-mu untuk memilih Pokémon yang dapat dipilih temanmu.
 
 RESOURCE ID: remote_trade_tag_reminder_title
-TEXT: Before You Trade Remotely
+TEXT: Sebelum Bertukar Jarak Jauh
 
 RESOURCE ID: remote_trade_time_locked_message
 TEXT: Pokémon hanya bisa ditukar dari jarak jauh {0} hari setelah ditangkap. Pokémon yang sudah dilabeli sebelumnya akan tetap memiliki label Pertukaran Jarak Jauh.
@@ -1543,9 +1565,9 @@ RESOURCE ID: remote_trade_unlock_bf+
 TEXT: Menjadi Teman Selamanya untuk membuka Pertukaran Jarak Jauh.
 
 RESOURCE ID: remote_trade_unlock_body
-TEXT: Trade from anywhere in the world with your Forever Friend.
+TEXT: Bertukar dari mana pun di seluruh dunia dengan "Teman Selamanya".
 
-To trade Pokémon remotely, you need to tag them with your Remote Trade tag.
+Untuk bertukar, kamu perlu melabeli Pokémonmu dengan label Pertukaran Jarak Jauh.
 
 RESOURCE ID: remote_trade_unlock_title
 TEXT: Pertukaran Jarak Jauh Dibuka
@@ -1690,6 +1712,22 @@ TEXT: Jalur Berharga (10/12)
 
 RESOURCE ID: season_gbl_forecast_title_21
 TEXT: Pokémon GO: Jalur Berharga
+
+RESOURCE ID: season_pass_december2025_event_duration
+TEXT: 2 Desember – 6 Januari
+
+RESOURCE ID: season_pass_december2025_track_upgrade_header_description
+TEXT: Dapatkan hadiah tambahan dan buka <b>Mesin Penetas Berwaktu</b> di Rank 20!
+
+RESOURCE ID: season_pass_december2025_upgrade_description
+TEXT: Beli Tiket GO Luks: Desember untuk membuka hadiah berikut!
+
+• 1 Mesin Penetas Super
+• 1 <a href="https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/2358-incubators-hatching-pokemon-eggs/">Mesin Penetas Berwaktu</a>, mesin penetas tambahan dengan penggunaan tak terbatas yang bisa kamu gunakan dalam waktu tertentu untuk menetaskan Telur saat kamu menjelajah!
+• Dan masih banyak lagi!
+
+RESOURCE ID: season_pass_details_link_december2025
+TEXT: Untuk detail lebih lanjut, kunjungi <a href="https://pokemongo.com/go-pass">situs web</a>.
 
 RESOURCE ID: season_pass_details_link_november2025
 TEXT: Untuk detail lebih lanjut, kunjungi <a href="https://pokemongo.com/go-pass">situs web</a>.
@@ -1925,6 +1963,17 @@ TEXT: <b>Termasuk Hadiah:<b>
 • 9 Permen Langka untuk Pelatih level 30 atau kurang
 • 90 Bola Ultra, 3 Batu Unova, 1 Jamur Max, 1 Tiket Pertarungan Premium, 1 Modul Umpan, 1 Pewangi, dan banyak lagi!
 
+RESOURCE ID: text_rewards_key_gotour2026
+TEXT: <b>Termasuk:</b>
+• Pilihan medali event X Version atau Y Version
+• Penelitian Spesial yang mengantarmu ke pertemuan dengan Xerneas atau Yveltal
+• Penelitian Mahakarya yang mengantarmu ke pertemuan dengan Diancie Bersinar
+• Penelitian Berwaktu di mana kamu bisa memilih 1 Potongan eksklusif daerah untuk diberikan pada Furfrou selama event—Furfrou-mu akan mempertahankan Potongan tersebut selama kamu tidak mengubahnya!
+ • Pertemuan kejutan di Foto GO dengan Latias pada hari Sabtu dan Latios di hari Minggu
+• Peningkatan peluang bertemu dengan Pokémon Bersinar
+• Durasi Pewangi ×2
+• Dan banyak lagi!
+
 RESOURCE ID: text_rewards_key_gowa25
 TEXT: <b>Termasuk:</b>
 • Pertemuan dengan Grimmsnarl, Pokémon Memperbesar Otot
@@ -1998,22 +2047,22 @@ TEXT: For a chance to become Lucky Friends with a Trainer, become Best Friends w
 Trade with a Lucky Friend to receive a Lucky Pokémon! You can become Lucky Friends again later.
 
 RESOURCE ID: tips_remote_trade_first_request_conversation_1
-TEXT: You started your first Remote Trade! You can check the trade status by coming back here. If your friend does not respond, the trade is canceled.
+TEXT: Kamu telah memulai Pertukaran Jarak Jauh pertamamu! Kamu dapat memeriksa status pertukaranmu dengan kembali ke sini. Pertukaran dibatalkan jika temanmu tidak merespon.
 
 RESOURCE ID: tips_remote_trade_first_response_conversation_1
-TEXT: Good job! Next, your friend will review your trade. You can check the trade status by coming back here. If your friend does not respond, the trade is canceled.
+TEXT: Kerja bagus! Selanjutnya, temanmu akan meninjau pertukaranmu. Kamu bisa memeriksa status pertukaran dengan kembali ke sini. Pertukaran dibatalkan jika temanmu tidak merespon.
 
 RESOURCE ID: tips_remote_trading_intro_conversation_1
-TEXT: Wow, you two must be excellent friends! You can now trade remotely with each other.
+TEXT: Wow, kalian pasti teman yang sangat akrab! Sekarang kamu dapat bertukar satu sama lain dari jarak jauh.
 
 RESOURCE ID: tips_remote_trading_intro_conversation_2
-TEXT: Remote Trades work slightly differently than normal trades. To start, tag Pokémon you’d like to trade with the Remote Trade tag.
+TEXT: Pertukaran Jarak Jauh sedikit berbeda dari pertukaran biasa. Pertama-tama, labeli Pokémon yang akan kamu tukarkan dengan label Pertukaran Jarak Jauh.
 
 RESOURCE ID: tips_remote_trading_intro_conversation_3
-TEXT: You can see your friend’s tagged Pokémon and choose from them. They can also see and choose from yours.
+TEXT: Kamu bisa melihat Pokémon temanmu yang dilabeli dan memilihnya. Mereka juga bisa melihat dan memilih Pokémonmu yang dilabeli.
 
 RESOURCE ID: tips_remote_trading_intro_conversation_4
-TEXT: Don’t worry, you’ll both review the chosen Pokémon before finalizing the trade. Have fun!
+TEXT: Jangan khawatir. Kalian dapat meninjau lagi Pokémon yang dipilih sebelum memfinalkan pertukaran. Silakan coba!
 
 RESOURCE ID: tr_jp2025_aeon_mall_header_00
 TEXT: Penelitian Berwaktu Pelatihan Mega Pokémon GO! (1/2)
@@ -2059,25 +2108,25 @@ TEXT: Di level 10, kamu bisa bertukar Pokémon dengan temanmu. Pertukaran bisa m
 Kamu harus berada di dekat teman untuk bertukar dengan mereka. Kamu bisa melakukan Pertukaran Jarak Jauh dengan teman begitu kamu menjadi Teman Selamanya dengan mereka.
 
 RESOURCE ID: tutorial_help_button_remote_trade_pop_up_body
-TEXT: Learn more about Remote Trades.
+TEXT: Rincian Pertukaran Jarak Jauh.
 
 RESOURCE ID: tutorial_remote_trade_candy_bonuses_body
 TEXT: Sama juga seperti Pertukaran Lokal, kamu bisa mendapatkan bonus Permen berdasarkan lokasi penangkapan Pokémon. Semakin jauh mereka ditangkap (hingga sekitar 100 km), semakin banyak Permen yang kamu dapatkan!
 
 RESOURCE ID: tutorial_remote_trade_icon_glossary_location_bg
-TEXT: Has a Location Background
+TEXT: Berlatar belakang lokasi
 
 RESOURCE ID: tutorial_remote_trade_icon_glossary_special_bg
-TEXT: Has a Special Background
+TEXT: Berlatar belakang spesial
 
 RESOURCE ID: tutorial_remote_trade_icon_glossary_title
-TEXT: Icon Glossary
+TEXT: Rincian Ikon
 
 RESOURCE ID: tutorial_remote_trade_icon_glossary_top
-TEXT: Some Pokémon may have these icons by their name.
+TEXT: Pokémon dapat memiliki ikon berikut di nama mereka.
 
 RESOURCE ID: tutorial_remote_trade_icon_glossary_unregistered
-TEXT: You haven’t caught this Pokémon
+TEXT: Belum ditangkap
 
 RESOURCE ID: tutorial_remote_trade_locked_pokemon_body
 TEXT: Pokémon yang ditangkap sesaat setelahnya tidak dapat ditukarkan secara jarak jauh.
@@ -2149,7 +2198,7 @@ RESOURCE ID: tutorial_tag_remote_trade_title
 TEXT: Apa itu label Pertukaran Jarak Jauh?
 
 RESOURCE ID: tutorial_unregistered_remote_trade_pop_up_body
-TEXT: Find Pokémon you haven’t caught before.
+TEXT: Temukan Pokémon yang belum kamu tangkap.
 
 RESOURCE ID: view_trade_pokemon
 TEXT: LIHAT POKÉMON PERTUKARAN
@@ -2165,6 +2214,9 @@ TEXT: Eror: Gagal Menemukan Grup
 
 RESOURCE ID: weekly_challenges_matchmaking_finding_group
 TEXT: Tantangan akan dimulai begitu Pelatih lain ditemukan.
+
+RESOURCE ID: winter_weekend_event_name
+TEXT: Akhir Pekan Musim Dingin
 
 RESOURCE ID: yokohama
 TEXT: 

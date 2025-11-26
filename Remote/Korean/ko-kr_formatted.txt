@@ -1,6 +1,12 @@
 RESOURCE ID: additional_candy_raid_singular
 TEXT: 레이드에서 받을 수 있는 사탕 1개 추가
 
+RESOURCE ID: additional_rewards_local_max_battles_bonus
+TEXT: 현장 참가 맥스배틀 완료로 추가 리워드
+
+RESOURCE ID: additional_rewards_local_raids_bonus
+TEXT: 현장 참가 레이드 완료로 추가 리워드
+
 RESOURCE ID: allow_stamp_from_gift_settings_desc
 TEXT: 선물에서 포켓몬 맨홀 스탬프를 받지 않습니다.
 
@@ -304,6 +310,9 @@ TEXT: 리모트 교환을 확인하고 완료하세요
 RESOURCE ID: details_link_key_cd_recap2025
 TEXT: 자세한 내용은 <a href="https://pokemongolive.com/news">웹사이트</a>에서 확인해 주세요.
 
+RESOURCE ID: details_link_key_gotour2026
+TEXT: 자세한 내용은 <a href="https://pokemongo.com/gotour/global/">웹사이트</a>에서 확인해 주세요.
+
 RESOURCE ID: dmax_eevee_max_battle_event_name
 TEXT: 다이맥스 이브이 맥스배틀 위켄드
 
@@ -359,6 +368,10 @@ TEXT: 12월 6일 9:00 ~
 RESOURCE ID: event_datetime_range_key_finaljustice2025
 TEXT: 11월 25일 10:00 ~ 
 11월 30일 20:00
+
+RESOURCE ID: event_datetime_range_key_gotour2026
+TEXT: 2월 28일~
+3월 1일
 
 RESOURCE ID: event_datetime_range_key_gowa25_leadup
 TEXT: 11월 10일~
@@ -496,6 +509,9 @@ TEXT: 와일드 위크 프리미엄 시간제한 리서치 티켓
 
 RESOURCE ID: general_settings_allow_stamp_from_gifts
 TEXT: 선물에서 포켓몬 맨홀 스탬프를 받는다
+
+RESOURCE ID: gotour_2026_ticket_title
+TEXT: Pokémon GO Tour: 칼로스지방 - 글로벌 티켓
 
 RESOURCE ID: gowa2025_leadup_collection_challenge
 TEXT: 와일드 위크 컬렉션 챌린지
@@ -838,6 +854,12 @@ TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2025년 11월 30�
 RESOURCE ID: item_event_ticket_pink_details_cd_recap2025
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 12월 6일에 12월 커뮤니티 데이 스페셜리서치가 진행됩니다.
 
+RESOURCE ID: item_global_event_ticket_desc_gotour2026
+TEXT: 현지시간 2026년 2월 28일~3월 1일에 Pokémon GO Tour: 칼로스지방 - 글로벌의 보너스와 스폐셜리서치 등을 받을 수 있는 티켓.
+
+RESOURCE ID: item_global_event_ticket_details_gotour2026
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2026년 2월 28일에 발생하는 보너스와 시간제한 리서치를 손에 넣을 수 있습니다.
+
 RESOURCE ID: jeju_island_rally_2025_desc
 TEXT: 한국 제주도 추천 명소를 다니는 GO스탬프랠리!
 
@@ -1031,10 +1053,10 @@ RESOURCE ID: meetup_check_in_research_title_community_recap_2
 TEXT: 미트업 체크인 시간제한 리서치: 커뮤니티 데이(3/3)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-11-26T02:21:59.924814+00:00 for ko-KR
-at SHA 79c6dc0196b
-Pipeline 3453146, job 48842769
-Patch from: 0.389.0-SHA-1737211e-RC4, 0.387.1-SHA-d1abce9b-RC1, 0.391.0-SHA-386a01ae-RC1
+TEXT: Built at 2025-11-26T19:40:02.952766+00:00 for ko-KR
+at SHA 391c5ef31d3
+Pipeline 3453905, job 48857808
+Patch from: 0.389.0-SHA-77adb879-RC3, 0.389.1-SHA-fb884504-RC1, 0.391.0-SHA-386a01ae-RC1
 
 RESOURCE ID: move_name_0489
 TEXT: 신비의칼
@@ -1790,6 +1812,22 @@ TEXT: 보물찾기의 길(10/12)
 RESOURCE ID: season_gbl_forecast_title_21
 TEXT: Pokémon GO: 보물찾기의 길
 
+RESOURCE ID: season_pass_december2025_event_duration
+TEXT: 12월 2일~1월 6일
+
+RESOURCE ID: season_pass_december2025_track_upgrade_header_description
+TEXT: 추가 리워드를 손에 넣을 수 있고 랭크20으로 <b>시간제한 부화장치</b>를 잠금 해제!
+
+RESOURCE ID: season_pass_december2025_upgrade_description
+TEXT: GO패스 디럭스: 12월을 구매하면 다음 리워드를 잠금해제할 수 있습니다!
+
+- 슈퍼 부화장치 1개
+- 횟수 제한 없이 알을 부화할 수 있는 <a href="https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/2358-incubators-hatching-pokemon-eggs/">시간제한 부화장치</a> 1개
+- 기타
+
+RESOURCE ID: season_pass_details_link_december2025
+TEXT: 자세한 내용은 <a href="https://pokemongo.com/go-pass">웹사이트</a>에서 확인해 주세요.
+
 RESOURCE ID: season_pass_details_link_november2025
 TEXT: 자세한 내용은 <a href="https://pokemongo.com/go-pass">웹사이트</a>에서 확인해 주세요.
 
@@ -2038,6 +2076,17 @@ TEXT: <b>받을 수 있는 리워드:</b>
 - 이상한사탕XL 3개와 이상한사탕 6개(트레이너 레벨31 이상)
 - 이상한사탕 9개(트레이너 레벨 30이하)
 - 하이퍼볼 90개, 하나의 돌 3개, 다이버섯 1개, 프리미엄 배틀패스 1개, 루어모듈 1개, 향로 1개 등
+
+RESOURCE ID: text_rewards_key_gotour2026
+TEXT: <b>받을 수 있는 것:</b>
+- X 또는 Y 이벤트 참가용 메달
+- 제르네아스 또는 이벨타르와 만날 수 있는 스페셜리서치
+- 희귀한 디안시와 만날 수 있는 장기리서치
+- 이벤트 중 트리미앙의 장소 한정 컷을 선택하고 모습을 바꿀 수 있는 시간제한 리서치(컷은 다시 바꾸기 전까지 유지됩니다)
+-  GO스냅샷으로 라티아스(토요일), 라티오스(일요일) 서프라이즈 각 1회
+- 색이 다른 포켓몬과 만날 확률 증가
+- 향로 지속시간 2배
+- 기타
 
 RESOURCE ID: text_rewards_key_gowa25
 TEXT: <b>받을 수 있는 것:</b>

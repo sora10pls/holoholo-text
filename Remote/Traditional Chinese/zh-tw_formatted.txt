@@ -1,6 +1,12 @@
 RESOURCE ID: additional_candy_raid_singular
 TEXT: 參加團體戰時可獲得1個額外的糖果
 
+RESOURCE ID: additional_rewards_local_max_battles_bonus
+TEXT: 參加現場極巨對戰後可獲得額外獎勵
+
+RESOURCE ID: additional_rewards_local_raids_bonus
+TEXT: 參加現場團體戰後可獲得額外獎勵
+
 RESOURCE ID: allow_stamp_from_gift_settings_desc
 TEXT: 將無法接收友情禮物中的寶可夢人孔蓋圖章。
 
@@ -294,6 +300,9 @@ TEXT: 請確認並完成遠距交換
 RESOURCE ID: details_link_key_cd_recap2025
 TEXT: 詳情請至<a href="https://pokemongolive.com/news">網站</a>確認
 
+RESOURCE ID: details_link_key_gotour2026
+TEXT: 詳情請至 <a href="https://pokemongo.com/gotour/global/">網站</a>確認
+
 RESOURCE ID: dmax_eevee_max_battle_event_name
 TEXT: 極巨化伊布極巨對戰週末
 
@@ -351,6 +360,10 @@ TEXT: 12月6日9:00～
 RESOURCE ID: event_datetime_range_key_finaljustice2025
 TEXT: 11月25日10:00～
 11月30日20:00
+
+RESOURCE ID: event_datetime_range_key_gotour2026
+TEXT: 2月28日～
+3月1日
 
 RESOURCE ID: event_datetime_range_key_gowa25_leadup
 TEXT: 11月10日～14日
@@ -487,6 +500,9 @@ TEXT: 曠野週特級限時調查入場券
 
 RESOURCE ID: general_settings_allow_stamp_from_gifts
 TEXT: 接收友情禮物中的寶可夢人孔蓋圖章
+
+RESOURCE ID: gotour_2026_ticket_title
+TEXT: Pokémon GO Tour：卡洛斯地區 − 全球入場券
 
 RESOURCE ID: gowa_2025_deluxe_event_pass_track_unlock_plus_points_title
 TEXT: GO Pass豪華版：曠野週＋10級
@@ -817,6 +833,12 @@ TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時�
 RESOURCE ID: item_event_ticket_pink_details_cd_recap2025
 TEXT: 入場券將會自動啟用，不論你在何處都能在活動時間內領取「12月社群日」的特殊調查。
 
+RESOURCE ID: item_global_event_ticket_desc_gotour2026
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2026年2月28日～3月1日領取Pokémon GO Tour：卡洛斯地區 − 全球的獎勵和特殊調查。
+
+RESOURCE ID: item_global_event_ticket_details_gotour2026
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間2026年2月28日領取特別的獎勵。
+
 RESOURCE ID: journey_paldea_event_name
 TEXT: 帕底亞地區之旅
 
@@ -1007,10 +1029,10 @@ TEXT: 見面會簽到
 限時調查：社群日(3/3)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-11-26T02:21:59.924814+00:00 for zh-TW
-at SHA 79c6dc0196b
-Pipeline 3453146, job 48842769
-Patch from: 0.389.0-SHA-1737211e-RC4, 0.387.1-SHA-d1abce9b-RC1, 0.391.0-SHA-386a01ae-RC1
+TEXT: Built at 2025-11-26T19:40:02.952766+00:00 for zh-TW
+at SHA 391c5ef31d3
+Pipeline 3453905, job 48857808
+Patch from: 0.389.0-SHA-77adb879-RC3, 0.389.1-SHA-fb884504-RC1, 0.391.0-SHA-386a01ae-RC1
 
 RESOURCE ID: move_name_0489
 TEXT: 神秘之劍
@@ -1707,6 +1729,21 @@ TEXT: 尋寶之旅(10/12)
 RESOURCE ID: season_gbl_forecast_title_21
 TEXT: Pokémon GO：尋寶之旅
 
+RESOURCE ID: season_pass_december2025_event_duration
+TEXT: 12月2日～1月6日
+
+RESOURCE ID: season_pass_december2025_track_upgrade_header_description
+TEXT: 可獲得追加的獎勵，並且在級別升上20級後解鎖<b>限時孵化器</b>！
+
+RESOURCE ID: season_pass_december2025_upgrade_description
+TEXT: 如果購買GO Pass豪華版：12月，將能解鎖下列獎勵！
+・1個超級孵化器
+・孵蛋次數無上限的「<a href="https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/2358-incubators-hatching-pokemon-eggs/">限時孵化器</a>」
+・其他
+
+RESOURCE ID: season_pass_details_link_december2025
+TEXT: （詳情請至<a href="https://pokemongo.com/go-pass">網站</a>確認）
+
 RESOURCE ID: season_pass_details_link_november2025
 TEXT: （詳情請至<a href="https://pokemongo.com/go-pass">網站</a>確認）
 
@@ -1948,6 +1985,17 @@ TEXT: <b>可獲得的獎勵：</b>
 ・3顆神奇糖果XL和6顆神奇糖果（訓練家等級31以上）
 ・9顆神奇糖果（訓練家等級30以下）
 ・90個高級球、3個合眾之石、1個極巨菇菇、1張特級對戰入場券、1個誘餌模組、1個薰香等
+
+RESOURCE ID: text_rewards_key_gotour2026
+TEXT: <b>可獲得的獎勵：</b>
+・X或Y的活動獎牌
+・可遇見哲爾尼亞斯或伊裴爾塔爾的特殊調查
+・可遇見稀有的蒂安希的長期調查
+・活動期間內可選擇多麗米亞的地區限定造型並可改變樣子的限時調查（造型將維持至下次變更）
+・各1次拉帝亞斯（星期六）和拉帝歐斯（星期日）GO Snapshot驚喜邂逅
+・更容易遇見異色寶可夢
+・薰香時間加倍
+・其他
 
 RESOURCE ID: text_rewards_key_gowa25
 TEXT: <b>可獲得的獎勵：</b>

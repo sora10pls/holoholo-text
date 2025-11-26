@@ -4,6 +4,12 @@ TEXT: このゲームでフレンドを追加すると自分とフレンドが�
 RESOURCE ID: additional_candy_raid_singular
 TEXT: レイドでもらえるアメ1個追加
 
+RESOURCE ID: additional_rewards_local_max_battles_bonus
+TEXT: 現地参加のマックスバトル完了で追加リワード
+
+RESOURCE ID: additional_rewards_local_raids_bonus
+TEXT: 現地参加のレイド完了で追加リワード
+
 RESOURCE ID: allow_stamp_from_gift_settings_desc
 TEXT: ギフトからポケふたスタンプを受け取ることができなくなります。
 
@@ -318,6 +324,9 @@ TEXT: リモート交換を確認して完了させてください
 RESOURCE ID: details_link_key_cd_recap2025
 TEXT: 詳細は<a href="https://pokemongolive.com/news">ウェブサイト</a>でご確認ください
 
+RESOURCE ID: details_link_key_gotour2026
+TEXT: （詳細は<a href="https://pokemongo.com/gotour/global/">ウェブサイト</a>でご確認ください）
+
 RESOURCE ID: dmax_eevee_max_battle_event_name
 TEXT: ダイマックスイーブイマックスバトルウィークエンド
 
@@ -376,6 +385,10 @@ TEXT: 12月6日9:00AM～
 RESOURCE ID: event_datetime_range_key_finaljustice2025
 TEXT: 11月25日10:00AM～
 11月30日8:00PM
+
+RESOURCE ID: event_datetime_range_key_gotour2026
+TEXT: 2月28日～
+3月1日
 
 RESOURCE ID: event_datetime_range_key_gowa25_leadup
 TEXT: 11月10日～14日
@@ -515,6 +528,9 @@ TEXT: ワイルドウィークプレミアムタイムチャレンジチケッ�
 
 RESOURCE ID: general_settings_allow_stamp_from_gifts
 TEXT: ギフトからポケふたのスタンプを受け取る
+
+RESOURCE ID: gotour_2026_ticket_title
+TEXT: Pokémon GO Tour：カロス地方 – グローバルチケット
 
 RESOURCE ID: gowa_2025_deluxe_event_pass_track_unlock_plus_points_title
 TEXT: GOパスデラックス：ワイルドウィーク＋10ランク
@@ -776,6 +792,12 @@ TEXT: このチケットは自動的に発動し11月30日に「きつつきポ�
 RESOURCE ID: item_event_ticket_pink_details_cd_recap2025
 TEXT: このチケットは自動的に発動し12月6日に「12月のコミュニティ・デイ」スペシャルリサーチが行えるようになります。
 
+RESOURCE ID: item_global_event_ticket_desc_gotour2026
+TEXT: 現地時間2026年2月28日・3月1日にPokémon GO Tour：カロス地方 – グローバルのボーナスとスペシャルリサーチなどが受け取れるチケット。
+
+RESOURCE ID: item_global_event_ticket_details_gotour2026
+TEXT: このチケットは自動的に発動し2月28日にボーナスが受け取れるようになります。
+
 RESOURCE ID: item_postcard_inventory_desc_stamp
 TEXT: ポストカードやスタンプを、自分やフレンドの旅の思い出として残しておける手帳。
 
@@ -972,10 +994,10 @@ TEXT: ミートアップチェックイン
 タイムチャレンジ：コミュニティ・デイ(3/3)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-11-26T02:21:59.924814+00:00 for ja-JP
-at SHA 79c6dc0196b
-Pipeline 3453146, job 48842769
-Patch from: 0.389.0-SHA-1737211e-RC4, 0.387.1-SHA-d1abce9b-RC1, 0.391.0-SHA-386a01ae-RC1
+TEXT: Built at 2025-11-26T19:40:02.952766+00:00 for ja-JP
+at SHA 391c5ef31d3
+Pipeline 3453905, job 48857808
+Patch from: 0.389.0-SHA-77adb879-RC3, 0.389.1-SHA-fb884504-RC1, 0.391.0-SHA-386a01ae-RC1
 
 RESOURCE ID: move_name_0489
 TEXT: しんぴのつるぎ
@@ -1672,6 +1694,22 @@ TEXT: 宝探しの旅路(10/12)
 RESOURCE ID: season_gbl_forecast_title_21
 TEXT: Pokémon GO：宝探しの旅路
 
+RESOURCE ID: season_pass_december2025_event_duration
+TEXT: 12月2日～1月6日
+
+RESOURCE ID: season_pass_december2025_track_upgrade_header_description
+TEXT: 追加リワードを入手でき、ランク20で<b>ジゲンふかそうち</b>をアンロック！
+
+RESOURCE ID: season_pass_december2025_upgrade_description
+TEXT: GOパスデラックス：12月を購入すると以下のリワードがアンロックできます！
+
+・スーパーふかそうち1個
+・回数制限なしでタマゴがかえせる<a href="https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/2358-incubators-hatching-pokemon-eggs/">ジゲンふかそうち</a>1個
+・その他
+
+RESOURCE ID: season_pass_details_link_december2025
+TEXT: （詳細は<a href="https://pokemongo.com/go-pass">ウェブサイト</a>でご確認ください）
+
 RESOURCE ID: season_pass_details_link_november2025
 TEXT: （詳細は<a href="https://pokemongo.com/go-pass">ウェブサイト</a>でご確認ください）
 
@@ -1940,6 +1978,17 @@ TEXT: <b>もらえるもの：</b>
 ・ふしぎなアメXL3個とふしぎなアメ6個（レベル31以上のトレーナー）
 ・ふしぎなアメ9個（レベル30以下のトレーナー）
 ・ハイパーボール90個、イッシュのいし3個、ダイキノコ1個、プレミアムバトルパス1枚、ルアーモジュール1個、おこう1個、など
+
+RESOURCE ID: text_rewards_key_gotour2026
+TEXT: <b>もらえるもの：</b>
+・XかYのイベント参加用メダル
+・ゼルネアスかイベルタルに出会えるスペシャルリサーチ
+・めずらしいディアンシーに出会える続行リサーチ
+・イベント中にトリミアンの場所限定カットを選択してすがたを変えることができるタイムチャレンジ（カットは再変更しない限りキープされます）
+・GOスナップショットのラティアス（土曜）とラティオス（日曜）サプライズ各1回
+・色違いポケモンにより出会いやすい
+・おこう持続時間2倍
+・その他
 
 RESOURCE ID: text_rewards_key_gowa25
 TEXT: <b>もらえるもの：</b>

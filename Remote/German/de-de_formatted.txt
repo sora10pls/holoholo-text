@@ -1,6 +1,12 @@
 RESOURCE ID: additional_candy_raid_singular
 TEXT: Ein zusätzliches Bonbon für Raids
 
+RESOURCE ID: additional_rewards_local_max_battles_bonus
+TEXT: Zusätzliche Belohnungen für den Abschluss von Dyna-Kämpfen vor Ort
+
+RESOURCE ID: additional_rewards_local_raids_bonus
+TEXT: Zusätzliche Belohnungen für den Abschluss von Raids vor Ort
+
 RESOURCE ID: allow_stamp_from_gift_settings_desc
 TEXT: Du erhälst keine PokéLid-Stempel mehr von Geschenken.
 
@@ -319,6 +325,9 @@ TEXT: Fern-Tausch überprüfen und abschließen!
 RESOURCE ID: details_link_key_cd_recap2025
 TEXT: Weitere Infos findest du auf der <a href="https://https://pokemongo.com/de/news">Website</a>.
 
+RESOURCE ID: details_link_key_gotour2026
+TEXT: Weitere Infos findest du auf der <a href="https://pokemongo.com/gotour/global/">Website</a>.
+
 RESOURCE ID: dmax_eevee_max_battle_event_name
 TEXT: Dyna-Kampfwochenende mit Dynamax-Evoli
 
@@ -374,6 +383,10 @@ TEXT: 6. Dezember, 09:00 Uhr bis
 RESOURCE ID: event_datetime_range_key_finaljustice2025
 TEXT: 25. November, 10:00 Uhr bis
 30. November, 20:00 Uhr
+
+RESOURCE ID: event_datetime_range_key_gotour2026
+TEXT: 28. Februar bis
+1. März
 
 RESOURCE ID: event_datetime_range_key_gowa25_leadup
 TEXT: 10. November bis
@@ -511,6 +524,9 @@ TEXT: Ticket: Befristete Premium-Forschung „Bereit fürs Abenteuer“
 
 RESOURCE ID: general_settings_allow_stamp_from_gifts
 TEXT: Erhalte Poké Lid-Stempel aus Geschenken
+
+RESOURCE ID: gotour_2026_ticket_title
+TEXT: Ticket: Pokémon GO Tour: Kalos – Global
 
 RESOURCE ID: gowa_2025_deluxe_event_pass_track_unlock_plus_points_title
 TEXT: GO-Pass-Deluxe: Auf ins Abenteuer + 10 Stufen
@@ -835,6 +851,12 @@ TEXT: Dieses Ticket aktiviert sich am 30. November automatisch und gewährt dir 
 RESOURCE ID: item_event_ticket_pink_details_cd_recap2025
 TEXT: Dieses Ticket aktiviert sich am 6. Dezember automatisch und gewährt dir Zugang zur Spezialforschung zum Community Day im Dezember (wo immer du dich befindest).
 
+RESOURCE ID: item_global_event_ticket_desc_gotour2026
+TEXT: Ein Ticket, das dir während der Pokémon GO Tour: Kalos – Global vom 28. Februar bis 1. März 2026 Zugang zu Forschungen und Boni verschafft (wo immer du dich befindest).
+
+RESOURCE ID: item_global_event_ticket_details_gotour2026
+TEXT: Dieses Ticket aktiviert sich am 28. Februar automatisch und gewährt dir Zugang zu besonderen Boni (wo immer du dich befindest).
+
 RESOURCE ID: journey_paldea_event_name
 TEXT: Reise nach Paldea
 
@@ -1022,10 +1044,10 @@ RESOURCE ID: meetup_check_in_research_title_community_recap_2
 TEXT: Befristete Forschung: Anmeldung zu Treffen – Community Day (3/3)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-11-26T02:21:59.924814+00:00 for de-DE
-at SHA 79c6dc0196b
-Pipeline 3453146, job 48842769
-Patch from: 0.389.0-SHA-1737211e-RC4, 0.387.1-SHA-d1abce9b-RC1, 0.391.0-SHA-386a01ae-RC1
+TEXT: Built at 2025-11-26T19:40:02.952766+00:00 for de-DE
+at SHA 391c5ef31d3
+Pipeline 3453905, job 48857808
+Patch from: 0.389.0-SHA-77adb879-RC3, 0.389.1-SHA-fb884504-RC1, 0.391.0-SHA-386a01ae-RC1
 
 RESOURCE ID: move_name_0489
 TEXT: Mystoschwert
@@ -1716,6 +1738,22 @@ TEXT: Wertvolle Pfade (10/12)
 RESOURCE ID: season_gbl_forecast_title_21
 TEXT: Pokémon GO: Wertvolle Pfade
 
+RESOURCE ID: season_pass_december2025_event_duration
+TEXT: 2. Dezember bis 6. Januar
+
+RESOURCE ID: season_pass_december2025_track_upgrade_header_description
+TEXT: Verdiene zusätzliche Belohnungen und schalte eine <b>Befristete Brutmaschine</b> bei Stufe 20 frei!
+
+RESOURCE ID: season_pass_december2025_upgrade_description
+TEXT: Schnapp dir den GO-Pass-Deluxe: Dezember, um die folgenden Belohnungen freizuschalten!
+
+• Eine Super-Brutmaschine
+• Eine <a href="https://niantic.helpshift.com/hc/de/6-pokemon-go/faq/2358-incubators-hatching-pokemon-eggs/">Befristete Brutmaschine</a>, eine zusätzliche, zeitlich begrenzte Brutmaschine zum Ausbrüten von Eiern, die du unbegrenzt nutzen kannst, während du auf Erkundung gehst!
+• Und vieles mehr!
+
+RESOURCE ID: season_pass_details_link_december2025
+TEXT: Weitere Infos findest du auf der <a href="https://pokemongo.com/de/go-pass">Website</a>.
+
 RESOURCE ID: season_pass_details_link_november2025
 TEXT: Weitere Infos findest du auf der <a href="https://pokemongo.com/de/go-pass">Website</a>.
 
@@ -1949,6 +1987,17 @@ TEXT: <b>Enthält: </b>
 • 3 Sonderbonbons XL und 6 Sonderbonbons für Trainer ab Level 31
 • 9 Sonderbonbons für Trainer mit Level 30 oder niedriger
 • 90 Hyperbälle, 3 Einall-Steine, 1 Dyna-Pilz, 1 Premium-Kampf-Pass, 1 Lockmodul, 1 Rauch und mehr!
+
+RESOURCE ID: text_rewards_key_gotour2026
+TEXT: <b>Enthält:</b>
+• Deine Wahl einer Event-Medaille (X-Version oder Y-Version)
+• Spezialforschung, die zu einer Begegnung mit Xerneas oder Yveltal führt
+• Meisterwerk-Forschung, die zu einer Begegnung mit einem Schillernden Diancie führt
+• Befristete Forschung, die dir während des Events den regionsexklusiven Schnitt für Coiffwaff freischaltet – dein Coiffwaff behält den Schnitt, bis du ihn wieder änderst!
+ • Eine überraschende Begegnungen in GO-Schnappschuss mit Latias am Samstag und Latios am Sonntag
+• Erhöhte Chance, Schillernden Pokémon zu begegnen
+• 2× Rauch-Wirkungszeit 
+• Und mehr!
 
 RESOURCE ID: text_rewards_key_gowa25
 TEXT: <b>Enthält:</b>
