@@ -425,15 +425,29 @@ RESOURCE ID: event_datetime_range_key_journeytpaldea25
 TEXT: 2 Aralık, 10.00 –
 9 Aralık, 20.00
 
+RESOURCE ID: event_datetime_range_key_kyuremfusionraidday
+TEXT: 10 Ocak, 14.00-17.00
+
 RESOURCE ID: event_datetime_range_key_masterball25
 TEXT: 2 Aralık, 10.00 –
 10 Şubat, 20.00
+
+RESOURCE ID: event_datetime_range_key_nye012026
+TEXT: 31 Aralık, 10.00 -
+4 Ocak, 20.00
+
+RESOURCE ID: event_datetime_range_key_pinch_perfect
+TEXT: 6 Ocak, 10.00 -
+11 Ocak, 20.00
 
 RESOURCE ID: event_datetime_range_key_sunmoon_researchtr2025
 TEXT: 20 Aralık, 14.00-17.00
 
 RESOURCE ID: event_season21_name
 TEXT: Şu Anki Sezon: Kıymetli Yollar
+
+RESOURCE ID: evergreenticket.1.nye012026
+TEXT: Yılbaşı 2026 Premium Süreli Araştırması Bileti
 
 RESOURCE ID: friend_wants_to_lucky_remote_trade_prompt
 TEXT: {0} size şanslı uzak takas isteği gönderdi.
@@ -489,6 +503,9 @@ TEXT: Kol Kuvveti Premium Süreli Araştırması Bileti
 RESOURCE ID: general1.ticket.5_journeytpaldea25_title
 TEXT: Paldea’ya Yolculuk Premium Süreli Araştırması Bileti
 
+RESOURCE ID: general1.ticket._kyuremfusionraidday_title
+TEXT: Kyurem Birleştirme Akın Günü Bileti
+
 RESOURCE ID: general1.ticket_cd_grookey25_title
 TEXT: Grookey Community Day Ticket
 
@@ -503,6 +520,9 @@ TEXT: Gigantamaks Snorlax Maksi Maç Günü Bileti
 
 RESOURCE ID: general2.ticket.7_masterball25_title
 TEXT: Ustalık Araştırması: Yakalanmayan Kalmasın
+
+RESOURCE ID: general2.ticket2.pinch_perfect
+TEXT: Çevik Çimdik Premium Süreli Araştırması Bileti
 
 RESOURCE ID: general_download
 TEXT: Download
@@ -580,6 +600,12 @@ TEXT: Tamamlanan Maksi Maçlardan ilave şeker
 RESOURCE ID: increased_max_battle_candy_xl_bonus
 TEXT: Tamamlanan Maksi Maçlardan ilave büyük şeker
 
+RESOURCE ID: item_event_ticket_02_desc_pinch_perfect
+TEXT: 6 Ocak 2026, yerel saatle 10.00 - 11 Ocak 2026, yerel saatle 20.00 arasında gerçekleşecek Çevik Çimdik premium süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
+
+RESOURCE ID: item_event_ticket_02_details_pinch_perfect
+TEXT: Bu bilet Çevik Çimdik premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için 6 Ocak’ta otomatik olarak etkinleştirilecek.
+
 RESOURCE ID: item_event_ticket_06_desc_gmaxsnorlax25
 TEXT: 14 Aralık 2025’te, yerel saatle 14.00-17.00 arasında geçerli olacak özel bonuslara dilediğiniz yerden hak kazanmanıza olanak tanıyan bir bilet.
 
@@ -603,8 +629,20 @@ TEXT: Bu bilet Solrock ve Lunatone premium süreli araştırmalarına dilediğin
 RESOURCE ID: item_event_ticket_evergreen_desc_journeytpaldea25
 TEXT: 9 Aralık 2025, yerel saatle 20.00’ye kadar sürecek Paldea’ya Yolculuk premium süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_nye0126
+TEXT: 31 Aralık 2025, yerel saatle 10.00 - 4 Ocak 2026, yerel saatle 20.00 arasında gerçekleşecek Yılbaşı 2026 premium süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
+
 RESOURCE ID: item_event_ticket_evergreen_details_journeytpaldea25
 TEXT: Bu bilet Paldea’ya Yolculuk premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için 2 Aralık’ta otomatik olarak etkinleştirilecek.
+
+RESOURCE ID: item_event_ticket_evergreen_details_nye0126
+TEXT: Bu bilet Yılbaşı 2026 premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için 31 Aralık 2025’te otomatik olarak etkinleştirilecek.
+
+RESOURCE ID: item_event_ticket_gray_desc_kyuremfusionraidday
+TEXT: 10 Ocak 2026’da, yerel saatle 14.00-17.00 arasında geçerli olacak özel bonuslara dilediğiniz yerden hak kazanmanıza olanak tanıyan bir bilet.
+
+RESOURCE ID: item_event_ticket_gray_details_kyuremfusionraidday
+TEXT: Bu bilet 10 Ocak tarihinde geçerli olacak özel bonuslara dilediğiniz yerden hak kazanabilmeniz için otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_pink_desc_cd_grookey25
 TEXT: A ticket to access the Grookey Community Day Special Research starting January 18 at 2:00 p.m. local time, wherever you are.
@@ -829,16 +867,46 @@ RESOURCE ID: meetup_check_in_research_title_community_recap_2
 TEXT: Buluşmaya Giriş Süreli Araştırması: Topluluk Günü (3/3)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-12-20T03:51:44.449347+00:00 for tr-TR
-at SHA 23ed10cfad6
-Pipeline 3479419, job 49439158
-Patch from: 0.393.0-SHA-e526fe9a-RC2, 0.391.1-SHA-2a6aec88-RC1
+TEXT: Built at 2025-12-23T00:54:50.095973+00:00 for tr-TR
+at SHA 6a23684eeae
+Pipeline 3480927, job 49463658
+Patch from: 0.391.1-SHA-2a6aec88-RC1, 0.393.0-SHA-e526fe9a-RC2, 0.395.0-SHA-482ca764-RC1
+
+RESOURCE ID: move_name_0491
+TEXT: Zihin Patlaması
+
+RESOURCE ID: move_name_0492
+TEXT: Davul Çalma
+
+RESOURCE ID: nye_jan2026
+TEXT: Yılbaşı 2026
+
+RESOURCE ID: nye_jan26_collection
+TEXT: Yılbaşı 2026 Toplama Görevi
+
+RESOURCE ID: paid_tr_nye_jan2026
+TEXT: Yılbaşı 2026 Premium Süreli Araştırması
+
+RESOURCE ID: paid_tr_nye_jan2026_0
+TEXT: Yılbaşı 2026 Premium Süreli Araştırması
+
+RESOURCE ID: paid_tr_pinch_perfect_jan2026
+TEXT: Çevik Çimdik Premium Süreli Araştırması
+
+RESOURCE ID: paid_tr_pinch_perfect_jan2026_0
+TEXT: Çevik Çimdik Premium Süreli Araştırması (1/2)
+
+RESOURCE ID: paid_tr_pinch_perfect_jan2026_1
+TEXT: Çevik Çimdik Premium Süreli Araştırması (2/2)
 
 RESOURCE ID: photobomb_five_grookey
 TEXT: 5 surprise encounters with Grookey in GO Snapshot
 
 RESOURCE ID: photobomb_five_piplup
 TEXT: GO Fotoğrafta Piplup ile 5 sürpriz karşılaşma
+
+RESOURCE ID: pinch_perfect_event_name_jan2026
+TEXT: Çevik Çimdik
 
 RESOURCE ID: pokedex_sort_size
 TEXT: Size
@@ -962,6 +1030,9 @@ TEXT: Piplup Panayırı (2/3)
 
 RESOURCE ID: quest_title_piplup_2
 TEXT: Piplup Panayırı (3/3)
+
+RESOURCE ID: raid_day_kyurem_event_name
+TEXT: Kyurem Birleştirme Akın Günü
 
 RESOURCE ID: raid_hour_raids_five_outside_stadium
 TEXT: Stadyum dışındaki beş yıldızlı akınların sayısında artış
@@ -1300,6 +1371,15 @@ TEXT: Ayrıntıları <a href="https://pokemongo.com/news/go-pass-january-2026">i
 RESOURCE ID: season_pass_details_link_winter_holidays_2025
 TEXT: Ayrıntıları <a href="https://pokemongo.com/news/go-pass-winter_holidays-2025">internet sitemizden</a> öğrenebilirsiniz.
 
+RESOURCE ID: season_pass_january2026_event_duration
+TEXT: 7 Ocak - 5 Şubat
+
+RESOURCE ID: season_pass_january2026_upgrade_description
+TEXT: Lüks GO Bileti: Ocak’ı satın alarak şu ödüllerin kilidini açabilirsiniz:
+• Bir Süper Kuluçka Makinesi
+• Dilediğiniz bir arkadaşınızla anında Şanslı Arkadaş olma fırsatı sağlayan bir <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Şanslı Süs Eşyası</a>
+• Ve daha fazlası!
+
 RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_winter_holidays_2025
 TEXT: Lüks GO Bileti: Kış Tatili 2025 + 10 Rütbe
 
@@ -1489,9 +1569,28 @@ TEXT: <b>Şu ödülleri içerir:</b>
 • 2 Premium Maç Bileti
 • 3000 yıldız tozu
 
+RESOURCE ID: text_rewards_key_kyuremfusionraidday
+TEXT: <b>Şu bonusları içerir:</b>
+• Spor salonu fotoğraf disklerini döndürerek fazladan 8 Akın Bileti
+• Akınlardan daha yüksek Nadir Büyük Şeker alma şansı
+• Başarıyla tamamlanan akınlardan %50 daha fazla TP ve 2× yıldız tozu
+
 RESOURCE ID: text_rewards_key_masterball25
 TEXT: <b>Şu ödülü içerir:</b>
 • 1 Usta Top
+
+RESOURCE ID: text_rewards_key_nye012026
+TEXT: <b>Şu ödül ve bonusları içerir:</b>
+• Silindir parti şapkalı Pikachu ile etkinlik temalı 11 karşılaşma
+• 2 Premium Maç Bileti
+• 3000 yıldız tozu
+• Spor salonu fotoğraf disklerini döndürerek günde ilave 1 Akın Bileti
+
+RESOURCE ID: text_rewards_key_pinch_perfect
+TEXT: <b>Şu ödülleri içerir:</b>
+• Dhelmise ve Klawf’ın da dahil olduğu etkinlik temalı Pokémon’larla karşılaşmalar
+• 2 Premium Maç Bileti
+• 19.000 yıldız tozu
 
 RESOURCE ID: text_rewards_key_sunmoon_researchtr2025
 TEXT: Alan araştırması görevlerini tamamlamanızı gerektiren bu iki süreli araştırma öne çıkan Pokémon’lar Lunatone ve Solrock ile karşılaşmalar kazandırır.
@@ -1577,6 +1676,15 @@ TEXT: Car Free Day Timed Research (1/2)
 
 RESOURCE ID: tr_id2026_car_free_day_01
 TEXT: Car Free Day Timed Research (2/2)
+
+RESOURCE ID: tr_pinch_perfect_clauncher_jan2026_0
+TEXT: Çevik Çimdik: Clauncher Süreli Araştırması
+
+RESOURCE ID: tr_pinch_perfect_corphish_jan2026_0
+TEXT: Çevik Çimdik: Corphish Süreli Araştırması
+
+RESOURCE ID: tr_pinch_perfect_dwebble_jan2026_0
+TEXT: Çevik Çimdik: Dwebble Süreli Araştırması
 
 RESOURCE ID: trade_warning_bullet_background_location
 TEXT: Pokémon konum arka planına sahip

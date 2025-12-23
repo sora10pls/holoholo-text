@@ -483,6 +483,9 @@ RESOURCE ID: event_datetime_range_key_journeytpaldea25
 TEXT: Du 2 décembre à 10h 
 au 9 décembre à 20h
 
+RESOURCE ID: event_datetime_range_key_kyuremfusionraidday
+TEXT: Le 10 janvier de 14h à 17h
+
 RESOURCE ID: event_datetime_range_key_lunarny0125
 TEXT: Du 29 janvier à 22h 
 au 2 février à 20h
@@ -503,9 +506,16 @@ RESOURCE ID: event_datetime_range_key_monochromeholidaysdec2024
 TEXT: Du 22 décembre à 10h 
 au 27 décembre à 20h
 
+RESOURCE ID: event_datetime_range_key_nye012026
+TEXT: Du 31 décembre à 10h au 4 janvier à 20h
+
 RESOURCE ID: event_datetime_range_key_nye12302025
 TEXT: Du 30 décembre à 10h 
 au 1ᵉʳ janvier à 20h
+
+RESOURCE ID: event_datetime_range_key_pinch_perfect
+TEXT: Du 6 janvier à 10h 
+au 11 janvier à 20h
 
 RESOURCE ID: event_datetime_range_key_sis_apr25
 TEXT: Du 9 avril à 10h au 14 avril à 20h
@@ -526,6 +536,9 @@ au 29 avril à 20h
 
 RESOURCE ID: event_season21_name
 TEXT: Saison en cours : Parcours précieux
+
+RESOURCE ID: evergreenticket.1.nye012026
+TEXT: Ticket pour l’Étude ponctuelle premium Nouvel An 2026
 
 RESOURCE ID: friendship_detail_gift
 TEXT: Cadeau
@@ -578,6 +591,9 @@ TEXT: Ticket pour l’Étude ponctuelle premium Monter sur le ring
 RESOURCE ID: general1.ticket.5_journeytpaldea25_title
 TEXT: Ticket pour l’Étude ponctuelle premium Aventure à Paldea
 
+RESOURCE ID: general1.ticket._kyuremfusionraidday_title
+TEXT: Ticket pour la Journée de Raids Fusion de Kyurem
+
 RESOURCE ID: general1.ticket_cd_grookey25_title
 TEXT: Ticket pour la Journée Communauté de Ouistempo
 
@@ -592,6 +608,9 @@ TEXT: Ticket pour la Journée Combat Dynamax Ronflex Gigamax
 
 RESOURCE ID: general2.ticket.7_masterball25_title
 TEXT: Étude magistrale Capture précieuse
+
+RESOURCE ID: general2.ticket2.pinch_perfect
+TEXT: Ticket pour l’Étude ponctuelle premium Pinces parfaites
 
 RESOURCE ID: general_download
 TEXT: Download
@@ -669,6 +688,12 @@ TEXT: Des Bonbons supplémentaires après avoir remporté des Combats Dynamax
 RESOURCE ID: increased_max_battle_candy_xl_bonus
 TEXT: Des Bonbons L supplémentaires après avoir remporté des Combats Dynamax
 
+RESOURCE ID: item_event_ticket_02_desc_pinch_perfect
+TEXT: Un ticket pour accéder à l’Étude ponctuelle premium Pinces parfaites du 6 janvier 2026 à 10h au 11 janvier 2026 à 20h (heures locales), où que tu sois.
+
+RESOURCE ID: item_event_ticket_02_details_pinch_perfect
+TEXT: Ce ticket s’activera automatiquement le 6 janvier pour te donner accès à l’Étude ponctuelle premium Pinces parfaites, où que tu sois.
+
 RESOURCE ID: item_event_ticket_06_desc_gmaxsnorlax25
 TEXT: Un ticket pour accéder à des bonus spéciaux le 14 décembre 2025 de 14h à 17h (heures locales), où que tu sois.
 
@@ -692,8 +717,20 @@ TEXT: Ce ticket s’activera automatiquement pour te donner accès aux Études p
 RESOURCE ID: item_event_ticket_evergreen_desc_journeytpaldea25
 TEXT: Un ticket pour accéder à l’Étude ponctuelle premium Aventure à Paldea jusqu’au 9 décembre 2025 à 20h, heure locale, où que tu sois.
 
+RESOURCE ID: item_event_ticket_evergreen_desc_nye0126
+TEXT: Un ticket pour accéder à l’Étude ponctuelle premium Nouvel An 2026 du 31 décembre 2025 à 10h au 4 janvier 2026 à 20h, heures locales, où que tu sois.
+
 RESOURCE ID: item_event_ticket_evergreen_details_journeytpaldea25
 TEXT: Ce ticket s’activera automatiquement le 2 décembre pour te donner accès à l’Étude ponctuelle premium Aventure à Paldea, où que tu sois.
+
+RESOURCE ID: item_event_ticket_evergreen_details_nye0126
+TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude ponctuelle premium Nouvel An 2026 le 31 décembre 2025, où que tu sois.
+
+RESOURCE ID: item_event_ticket_gray_desc_kyuremfusionraidday
+TEXT: Un ticket pour accéder à des bonus spéciaux le 10 janvier 2026 de 14h à 17h, heures locales, où que tu sois.
+
+RESOURCE ID: item_event_ticket_gray_details_kyuremfusionraidday
+TEXT: Ce ticket s’activera automatiquement pour te donner accès à des bonus spéciaux le 10 janvier, où que tu sois.
 
 RESOURCE ID: item_event_ticket_pink_desc_cd_grookey25
 TEXT: Un ticket pour accéder à l’Étude spéciale de la Journée Communauté de Ouistempo dès le 18 janvier à 14h, heure locale, où que tu sois.
@@ -918,16 +955,46 @@ RESOURCE ID: meetup_check_in_research_title_community_recap_2
 TEXT: Étude ponctuelle Participation à un évènement en personne : Journée Communauté (3/3)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2025-12-20T03:51:44.449347+00:00 for fr-FR
-at SHA 23ed10cfad6
-Pipeline 3479419, job 49439158
-Patch from: 0.393.0-SHA-e526fe9a-RC2, 0.391.1-SHA-2a6aec88-RC1
+TEXT: Built at 2025-12-23T00:54:50.095973+00:00 for fr-FR
+at SHA 6a23684eeae
+Pipeline 3480927, job 49463658
+Patch from: 0.391.1-SHA-2a6aec88-RC1, 0.393.0-SHA-e526fe9a-RC2, 0.395.0-SHA-482ca764-RC1
+
+RESOURCE ID: move_name_0491
+TEXT: Caboche-Kaboum
+
+RESOURCE ID: move_name_0492
+TEXT: Tambour Battant
+
+RESOURCE ID: nye_jan2026
+TEXT: Nouvel An 2026
+
+RESOURCE ID: nye_jan26_collection
+TEXT: Défi de collection Nouvel An 2026
+
+RESOURCE ID: paid_tr_nye_jan2026
+TEXT: Étude ponctuelle premium Nouvel An 2026
+
+RESOURCE ID: paid_tr_nye_jan2026_0
+TEXT: Étude ponctuelle premium Nouvel An 2026
+
+RESOURCE ID: paid_tr_pinch_perfect_jan2026
+TEXT: Étude ponctuelle premium Pinces parfaites
+
+RESOURCE ID: paid_tr_pinch_perfect_jan2026_0
+TEXT: Étude ponctuelle premium Pinces parfaites (1/2)
+
+RESOURCE ID: paid_tr_pinch_perfect_jan2026_1
+TEXT: Étude ponctuelle premium Pinces parfaites (2/2)
 
 RESOURCE ID: photobomb_five_grookey
 TEXT: Ouistempo s’introduit 5 fois dans tes Clichés GO
 
 RESOURCE ID: photobomb_five_piplup
 TEXT: Tiplouf s’introduit 5 fois dans tes Clichés GO
+
+RESOURCE ID: pinch_perfect_event_name_jan2026
+TEXT: Pinces parfaites
 
 RESOURCE ID: pokedex_sort_size
 TEXT: Size
@@ -1052,6 +1119,9 @@ TEXT: Fier comme Tiplouf (2/3)
 
 RESOURCE ID: quest_title_piplup_2
 TEXT: Fier comme Tiplouf (3/3)
+
+RESOURCE ID: raid_day_kyurem_event_name
+TEXT: Journée de Raids Fusion de Kyurem
 
 RESOURCE ID: raid_hour_raids_five_outside_stadium
 TEXT: Davantage de Raids de niveau 5 en dehors du stade
@@ -1391,6 +1461,16 @@ TEXT: Tous les détails sont sur le <a href="https://pokemongo.com/news/go-pass-
 RESOURCE ID: season_pass_details_link_winter_holidays_2025
 TEXT: Tous les détails sont sur le <a href="https://pokemongo.com/news/go-pass-winter_holidays-2025">site Web</a>.
 
+RESOURCE ID: season_pass_january2026_event_duration
+TEXT: Du 7 janvier au 5 février
+
+RESOURCE ID: season_pass_january2026_upgrade_description
+TEXT: Achète le Passe GO deluxe : janvier pour déverrouiller les récompenses suivantes !
+
+• Un Super-Incubateur
+• Un <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Bibelot Chance</a>, qui te permet de devenir instantanément Ami Chanceux avec l’ami de ton choix
+• Et plus encore !
+
 RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_winter_holidays_2025
 TEXT: Passe GO deluxe : Fêtes d’hiver 2025 + 10 rangs
 
@@ -1580,9 +1660,28 @@ TEXT: <b>Donne accès aux récompenses suivantes :</b>
 • 2 passes de combat premium
 • 3 000 Poussières Étoiles
 
+RESOURCE ID: text_rewards_key_kyuremfusionraidday
+TEXT: <b>Donne accès aux bonus suivants :</b>
+• 8 passes de Raid supplémentaires en faisant tourner les PhotoDisques des Arènes
+• Plus de chances de recevoir un Super Bonbon L dans les Raids
+• 50 % de PX en plus et le double de Poussières Étoiles quand tu gagnes des Raids
+
 RESOURCE ID: text_rewards_key_masterball25
 TEXT: <b>Donne accès aux récompenses suivantes :</b>
 • 1 Master Ball
+
+RESOURCE ID: text_rewards_key_nye012026
+TEXT: <b>Donne accès aux récompenses et aux bonus suivants :</b>
+• 11 rencontres avec des Pokémon sur le thème de l’évènement, avec notamment Pikachu coiffé d’un chapeau haut-de-forme de fête
+• 2 passes de combat premium
+• 3 000 Poussières Étoiles
+• 1 passe de Raid supplémentaire par jour en faisant tourner les PhotoDisques d’Arènes
+
+RESOURCE ID: text_rewards_key_pinch_perfect
+TEXT: <b>Donne accès aux récompenses suivantes :</b>
+• Des rencontres avec des Pokémon sur le thème de l’évènement, dont Sinistrail et Craparoi
+• 2 passes de Raid premium 
+• 19 000 PX
 
 RESOURCE ID: text_rewards_key_sunmoon_researchtr2025
 TEXT: Ces deux séries d’Études ponctuelles, qui t’encouragent à terminer des tâches d’Études de terrain, te donneront accès à des rencontres avec les Pokémon en vedette Solaroc et Séléroc !
@@ -1666,6 +1765,15 @@ TEXT: Car Free Day Timed Research (1/2)
 
 RESOURCE ID: tr_id2026_car_free_day_01
 TEXT: Car Free Day Timed Research (2/2)
+
+RESOURCE ID: tr_pinch_perfect_clauncher_jan2026_0
+TEXT: Étude ponctuelle Pinces parfaites : Flingouste
+
+RESOURCE ID: tr_pinch_perfect_corphish_jan2026_0
+TEXT: Étude ponctuelle Pinces parfaites : Écrapince
+
+RESOURCE ID: tr_pinch_perfect_dwebble_jan2026_0
+TEXT: Étude ponctuelle Pinces parfaites : Crabicoque
 
 RESOURCE ID: trade_warning_bullet_background_location
 TEXT: Le Pokémon a un Fond de lieu
