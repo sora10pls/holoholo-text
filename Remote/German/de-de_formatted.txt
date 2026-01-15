@@ -166,6 +166,12 @@ TEXT: Akkup-Tasche
 RESOURCE ID: avatar_hat_snom
 TEXT: Snomnom-Mütze
 
+RESOURCE ID: avatar_n_hat_communityambassador
+TEXT: Community-Ambassador-Kappe
+
+RESOURCE ID: avatar_n_pose_communityambassador
+TEXT: Community-Ambassador-Pose
+
 RESOURCE ID: avatar_pose_heart
 TEXT: Herz-Pose
 
@@ -232,6 +238,15 @@ TEXT: Entwickle Chimstix, um ein Gortrom zu erhalten, das die Lade-Attacke Flora
 RESOURCE ID: bonus_cd_move_piplup
 TEXT: Entwickle Pliprin, um ein Impoleon zu erhalten, das die Lade-Attacke Aquahaubitze beherrscht!
 
+RESOURCE ID: bonus_ppk_event_pokemon_fr
+TEXT: Exklusive PokéPark KANTO-Feldforschung ist jetzt verfügbar
+
+RESOURCE ID: bonus_ppk_event_pokemon_spawn
+TEXT: Im Gebiet erscheinen PokéPark KANTO-Pokémon im Freien
+
+RESOURCE ID: bonus_ppk_special_background
+TEXT: Pokémon, die in Stufe-5-Raids gefangen wurden, haben einen exklusiven PokéPark KANTO-Ortshintergrund.
+
 RESOURCE ID: bread_battle_won_none
 TEXT: In 0 Dyna-Kämpfen gekämpft
 
@@ -240,6 +255,45 @@ TEXT: {0} Dyna-Kämpfe gewonnen
 
 RESOURCE ID: bread_battle_won_singular
 TEXT: Einen Dyna-Kampf gewonnen
+
+RESOURCE ID: bread_iap_max_mp_replenish_warning
+TEXT: Du hast die maximale Anzahl von {0} Dyna-Partikel-Packs erreicht. Bitte verwende deine Dyna-Partikel-Packs und versuche es erneut.
+
+RESOURCE ID: buddy_event_collection_challenge_1
+TEXT: Klasse Kumpel: Sammler-Herausforderung – Aufgehende Freundschaft
+
+RESOURCE ID: buddy_event_collection_challenge_2
+TEXT: Klasse Kumpel: Sammler-Herausforderung – Kleine Freunde, großes Potenzial
+
+RESOURCE ID: buddy_event_collection_challenge_3
+TEXT: Klasse Kumpel: Sammler-Herausforderung – Crypto-Sammlung
+
+RESOURCE ID: buddy_event_event_name
+TEXT: Klasse Kumpel
+
+RESOURCE ID: buddy_event_premium_tr_title
+TEXT: Befristete Premium-Forschung „Klasse Kumpel“
+
+RESOURCE ID: buddy_event_tgr_event_name
+TEXT: Klasse Kumpel: Übernahme
+
+RESOURCE ID: buddy_event_tgr_sr_1
+TEXT: Klasse Kumpel: Übernahme (1/5)
+
+RESOURCE ID: buddy_event_tgr_sr_2
+TEXT: Klasse Kumpel: Übernahme (2/5)
+
+RESOURCE ID: buddy_event_tgr_sr_3
+TEXT: Klasse Kumpel: Übernahme (3/5)
+
+RESOURCE ID: buddy_event_tgr_sr_4
+TEXT: Klasse Kumpel: Übernahme (4/5)
+
+RESOURCE ID: buddy_event_tgr_sr_5
+TEXT: Klasse Kumpel: Übernahme (5/5)
+
+RESOURCE ID: buddy_hearts_bonus
+TEXT: Zusätzliche Kumpel-Herzen für die Interaktion mit deinem Kumpel-Pokémon
 
 RESOURCE ID: city_manhole_382
 TEXT: Kuwana
@@ -350,7 +404,7 @@ RESOURCE ID: city_manhole_417
 TEXT: Sakai
 
 RESOURCE ID: city_manhole_418
-TEXT: Enchizen-cho
+TEXT: Echizen-cho
 
 RESOURCE ID: city_manhole_419
 TEXT: Wakasa
@@ -430,9 +484,16 @@ TEXT: Miyako
 RESOURCE ID: city_manhole_yamada
 TEXT: Yamada
 
+RESOURCE ID: combat_move_entering_busted_form
+TEXT: Mimikyu’s disguise is busted!
+
 RESOURCE ID: combat_move_stat_change
 TEXT: ATTACKE & VERTEIDIGUNG
 GEWECHSELT!
+
+RESOURCE ID: combat_move_transformed_blocked
+TEXT: TRANSFORMED!
+BLOCKED!
 
 RESOURCE ID: community_celebration_today_view
 TEXT: Community-Feier
@@ -458,6 +519,10 @@ TEXT: Es gab ein Problem beim Herunterladen der Inhalte. Bitte überprüfe deine
 RESOURCE ID: downloading_avatar_assets_warning_title
 TEXT: Inhalte können nicht heruntergeladen werden
 
+RESOURCE ID: event_datetime_range_key_buddy_event
+TEXT: 20. Januar, 10:00 Uhr bis
+25. Januar, 19:59 Uhr Ortszeit
+
 RESOURCE ID: event_datetime_range_key_cd_grookey25
 TEXT: 18. Januar, 14:00 bis 17:00 Uhr
 
@@ -481,6 +546,9 @@ TEXT: 20. Dezember, 14:00 bis 17:00 Uhr
 RESOURCE ID: event_datetime_range_key_wattsup_jan2026
 TEXT: 13. Januar, 10:00 Uhr bis
 18. Januar, 20:00 Uhr Ortszeit
+
+RESOURCE ID: event_title_ppk
+TEXT: PokéPark KANTO
 
 RESOURCE ID: evergreenticket.1.nye012026
 TEXT: Ticket: Befristete Premium-Forschung „Neujahr 2026“
@@ -514,6 +582,9 @@ TEXT: Wenn ihr noch {0} Tag länger zusammen spielt, werdet ihr {1}!
 
 RESOURCE ID: general1.ticket.4_sunmoon_researchtr2025_title
 TEXT: Ticket: Himmlischer Forschungstag
+
+RESOURCE ID: general1.ticket.5_buddy_event_title
+TEXT: Ticket: Befristete Premium-Forschung „Klasse Kumpel“
 
 RESOURCE ID: general1.ticket._kyuremfusionraidday_title
 TEXT: Ticket: Raid-Tag mit Kyurem-Fusion
@@ -612,8 +683,14 @@ TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befri
 RESOURCE ID: item_event_ticket_evergreen_details_wattsup_jan2026
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Premium-Forschung „Spannung pur“ am 13. Januar (wo immer du dich befindest).
 
+RESOURCE ID: item_event_ticket_gray_desc_buddy_event
+TEXT: Ein Ticket für den Zugang zur Befristeten Premium-Forschung „Klasse Kumpel“ bis zum 25. Januar 2026 um 20:00 Uhr Ortszeit (wo immer du dich befindest).
+
 RESOURCE ID: item_event_ticket_gray_desc_kyuremfusionraidday
 TEXT: Ein Ticket für den Zugang zu besonderen Boni am 10. Januar 2026 von 14:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
+
+RESOURCE ID: item_event_ticket_gray_details_buddy_event
+TEXT: Dieses Ticket aktiviert sich am 20. Januar automatisch und gewährt dir Zugang zur Befristeten Premium-Forschung „Klasse Kumpel“ (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_gray_details_kyuremfusionraidday
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zu besonderen Boni am 10. Januar (wo immer du dich befindest).
@@ -629,6 +706,12 @@ TEXT: Dieses Ticket aktiviert sich am 18. Januar automatisch und gewährt dir Zu
 
 RESOURCE ID: item_event_ticket_pink_details_cdc_piplup26
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Spezialforschung „Plinfa-Parade“ am Community Day Classic mit Plinfa (wo immer du dich befindest).
+
+RESOURCE ID: item_mp_replenish_desc
+TEXT: Ein kleines Pack mit Dyna-Partikeln. Jedes Pack enthält {0} Dyna-Partikel.
+
+RESOURCE ID: item_mp_replenish_name
+TEXT: Dyna-Partikel-Pack
 
 RESOURCE ID: kr_festival_red_striped_basculin_bonus
 TEXT: Barschuft (Rotlinige Form) werden in der Nähe der Flüsse in der Gegend von Pyeongchan von Lockmodulen und Rauch angelockt
@@ -670,16 +753,35 @@ RESOURCE ID: lucky_remote_trade_initiate_body
 TEXT: Glücks-Fern-Tausch-Anfrage von {0}!
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-01-09T19:09:22.539915+00:00 for de-DE
-at SHA 279e64f9690
-Pipeline 3491684, job 49648934
-Patch from: 0.395.0-SHA-482ca764-RC1, 0.393.0-SHA-bb1c42df-RC1
+TEXT: Built at 2026-01-15T01:34:52.841803+00:00 for de-DE
+at SHA 7b97f268348
+Pipeline 3498146, job 49767646
+Patch from: 0.393.0-SHA-de39624e-RC3, 0.395.0-SHA-66d31ba0-RC2
 
 RESOURCE ID: move_name_0491
 TEXT: Knallkopf
 
 RESOURCE ID: move_name_0492
 TEXT: Trommelschläge
+
+RESOURCE ID: mp_replenish.1_title
+TEXT: DP-Pack ({0} DP)
+
+RESOURCE ID: mp_replenish.3_description
+TEXT: Drei kleine Packs mit Dyna-Partikeln. Jedes Pack enthält {0} Dyna-Partikel.
+
+RESOURCE ID: mp_replenish.3_title
+TEXT: 3 DP-Packs ({0} DP)
+
+RESOURCE ID: mp_replenish_rrp.1_title
+TEXT: 1 Fern-Raid-Pass
+1 Dyna-Partikel-Pack
+({0} DP)
+
+RESOURCE ID: mp_replenish_rrp.3_title
+TEXT: 3 Fern-Raid-Pässe
+3 Dyna-Partikel-Packs
+({0} DP)
 
 RESOURCE ID: nye_jan2026
 TEXT: Neujahr 2026
@@ -756,11 +858,23 @@ TEXT: Terapagos
 RESOURCE ID: pokemon_name_1025
 TEXT: Infamomo
 
+RESOURCE ID: pokémon_ibfc_desc_0778
+TEXT: Once per battle, the shroud that covers the Pokémon can protect it from a Charged Attack. The Pokémon’s Defense will be lowered until the end of battle.
+
+RESOURCE ID: pokémon_ibfc_desc_header_0778
+TEXT: BATTLE-ONLY FORM: BUSTED FORM
+
 RESOURCE ID: quest_grookey_catch_b
 TEXT: Fange {0} Chimpep
 
 RESOURCE ID: quest_piplup_catch_b
 TEXT: Fange {0} Plinfa.
+
+RESOURCE ID: quest_snapshot_bug_unique_plural
+TEXT: Mache Schnappschüsse von {0} verschiedenen Käfer-Pokémon.
+
+RESOURCE ID: quest_snapshot_wild_flying_singular
+TEXT: Mache einen Schnappschuss von einem wilden Flug-Pokémon.
 
 RESOURCE ID: quest_title_grookey
 TEXT: Chimpep bringt Pep
@@ -941,6 +1055,9 @@ TEXT: Wilde Chimpep erscheinen mit vermehrter Häufigkeit!
 RESOURCE ID: spawn_piplup
 TEXT: Wilde Plinfa erscheinen mit vermehrter Häufigkeit!
 
+RESOURCE ID: stamp_rally_missed_prefecture_reward_toast
+TEXT: To claim this reward, tap the stamp button while at one of the Poké Lid Stamp Rally locations in this prefecture.
+
 RESOURCE ID: sticker_count_format
 TEXT: ×{0}
 
@@ -983,6 +1100,12 @@ TEXT: Helfenhafte Hufe (8/8)
 RESOURCE ID: sun_moon_research_day_event_name
 TEXT: Himmlischer Forschungstag
 
+RESOURCE ID: text_rewards_key_buddy_event
+TEXT: <b>Enthaltene Belohnungen:</b>
+• Begegnungen with Karpador, Wablu, Pam-Pam, Psiau, Hefel und mehr! 
+• 1 Knursp
+• Herz-Pose
+
 RESOURCE ID: text_rewards_key_cd_grookey25
 TEXT: <b>Enthaltene Belohnungen:</b>
 • Hochwertige In-Game-Items wie einen Premium-Kampf-Pass, eine Lade-TM und Sonderbonbons
@@ -994,6 +1117,13 @@ TEXT: <b>Enthaltene Belohnungen:</b>
 • Hochwertige In-Game-Items wie einen Premium-Kampf-Pass, eine Lade-TM und Sonderbonbons
 • Begegnungen mit Plinfa mit Spezialhintergrund
 • Und mehr!
+
+RESOURCE ID: text_rewards_key_finalstrike0525
+TEXT: <b>Enthaltene Belohnungen:</b>
+• Begegnungen mit Meditie, Skunkapuh und Garstella
+• 2 Premium-Kampfpässe
+• 1 Dyna-Partikel-Pack
+• 4 Glücks-Eier
 
 RESOURCE ID: text_rewards_key_kyuremfusionraidday
 TEXT: <b>Enthaltene Boni:</b>
@@ -1013,6 +1143,12 @@ TEXT: <b>Enthaltene Belohnungen:</b>
 • Begegnungen mit Event-Pokémon wie Moruda und Klibbe
 • 2 Premium-Kampfpässe
 • 19 000 EP
+
+RESOURCE ID: text_rewards_key_steelskyline0925
+TEXT: <b>Enthaltene Belohnungen:</b>
+• Begegnungen mit Galar-Mauzi und Dynamax-Duraludon
+• 800 Dyna-Partikel
+• 3000 Sternenstaub
 
 RESOURCE ID: text_rewards_key_sunmoon_researchtr2025
 TEXT: Diese Befristete Forschung, bei der du Feldforschungsaufgaben abschließen musst, führt zu Begegnungen mit den Pokémon Sonnfel und Lunastein.

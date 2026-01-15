@@ -166,6 +166,12 @@ TEXT: デンヂムシ　バッグ
 RESOURCE ID: avatar_hat_snom
 TEXT: ユキハミ　ニットキャップ
 
+RESOURCE ID: avatar_n_hat_communityambassador
+TEXT: コミュニティアンバサダー　キャップ
+
+RESOURCE ID: avatar_n_pose_communityambassador
+TEXT: コミュニティアンバサダー　ポーズ
+
 RESOURCE ID: avatar_pose_heart
 TEXT: ハート　ポーズ
 
@@ -231,6 +237,51 @@ TEXT: バチンキーバチンキーをゴリランダーに進化させると�
 
 RESOURCE ID: bonus_cd_move_piplup
 TEXT: ポッタイシをエンペルトに進化させるとハイドロカノンを覚えている
+
+RESOURCE ID: bonus_ppk_event_pokemon_fr
+TEXT: ポケパークカントー限定フィールドリサーチあり
+
+RESOURCE ID: bonus_ppk_event_pokemon_spawn
+TEXT: ポケパークカントーに関連したポケモンがエリア内に出現
+
+RESOURCE ID: bonus_ppk_special_background
+TEXT: 5つ星レイドで捕まえるポケモンにポケパークカントーのロケーション背景がつく
+
+RESOURCE ID: buddy_event_collection_challenge_1
+TEXT: 大切な相棒コレクションチャレンジ：もっちもち
+
+RESOURCE ID: buddy_event_collection_challenge_2
+TEXT: 大切な相棒コレクションチャレンジ：のびしろ
+
+RESOURCE ID: buddy_event_collection_challenge_3
+TEXT: 大切な相棒コレクションチャレンジ：シャドウ追跡
+
+RESOURCE ID: buddy_event_event_name
+TEXT: 大切な相棒
+
+RESOURCE ID: buddy_event_premium_tr_title
+TEXT: 大切な相棒プレミアムタイムチャレンジ
+
+RESOURCE ID: buddy_event_tgr_event_name
+TEXT: 大切な相棒：占拠
+
+RESOURCE ID: buddy_event_tgr_sr_1
+TEXT: 大切な相棒：占拠(1/5)
+
+RESOURCE ID: buddy_event_tgr_sr_2
+TEXT: 大切な相棒：占拠(2/5)
+
+RESOURCE ID: buddy_event_tgr_sr_3
+TEXT: 大切な相棒：占拠(3/5)
+
+RESOURCE ID: buddy_event_tgr_sr_4
+TEXT: 大切な相棒：占拠(4/5)
+
+RESOURCE ID: buddy_event_tgr_sr_5
+TEXT: 大切な相棒：占拠(5/5)
+
+RESOURCE ID: buddy_hearts_bonus
+TEXT: 相棒のポケモンと遊んで獲得できる相棒ハート追加
 
 RESOURCE ID: city_manhole_382
 TEXT: 桑名市
@@ -421,9 +472,16 @@ TEXT: 宮古市
 RESOURCE ID: city_manhole_yamada
 TEXT: 山田町
 
+RESOURCE ID: combat_move_entering_busted_form
+TEXT: Mimikyu’s disguise is busted!
+
 RESOURCE ID: combat_move_stat_change
 TEXT: こうげきが変化した！
 ぼうぎょが変化した！
+
+RESOURCE ID: combat_move_transformed_blocked
+TEXT: TRANSFORMED!
+BLOCKED!
 
 RESOURCE ID: community_celebration_today_view
 TEXT: コミュニティセレブレーション
@@ -448,6 +506,10 @@ TEXT: アセットのダウンロード中に問題が発生しました。通�
 
 RESOURCE ID: downloading_avatar_assets_warning_title
 TEXT: アセットダウンロード未完了
+
+RESOURCE ID: event_datetime_range_key_buddy_event
+TEXT: 1月20日10:00AM～
+1月25日7:59PM
 
 RESOURCE ID: event_datetime_range_key_cd_grookey25
 TEXT: 1月18日2:00PM～5:00PM
@@ -475,6 +537,9 @@ TEXT: 1月13日10:00AM～
 
 RESOURCE ID: event_pass_additional_bonus_rank_divider_title
 TEXT: パスのタスクをすべて完了しました！
+
+RESOURCE ID: event_title_ppk
+TEXT: ポケパークカントー
 
 RESOURCE ID: evergreenticket.1.nye012026
 TEXT: お正月2026プレミアムタイムチャレンジチケット
@@ -508,6 +573,9 @@ TEXT: あと{0}日間一緒にプレイして{1}に！
 
 RESOURCE ID: general1.ticket.4_sunmoon_researchtr2025_title
 TEXT: 天空リサーチデイチケット
+
+RESOURCE ID: general1.ticket.5_buddy_event_title
+TEXT: 大切な相棒プレミアムタイムチャレンジチケット
 
 RESOURCE ID: general1.ticket._kyuremfusionraidday_title
 TEXT: キュレム合体レイドデイチケット
@@ -606,8 +674,14 @@ TEXT: このチケットは自動的に発動し12月31日にお正月2026プレ
 RESOURCE ID: item_event_ticket_evergreen_details_wattsup_jan2026
 TEXT: このチケットは自動的に発動し1月13日に「ハイワッテージ」プレミアムタイムチャレンジが行えるようになります。
 
+RESOURCE ID: item_event_ticket_gray_desc_buddy_event
+TEXT: 現地時間2026年1月25日8:00PMまで「大切な相棒」プレミアムタイムチャレンジが行えるチケット。
+
 RESOURCE ID: item_event_ticket_gray_desc_kyuremfusionraidday
 TEXT: 現地時間2026年1月10日2:00PM～5:00PMにボーナスを受け取るためのチケット。
+
+RESOURCE ID: item_event_ticket_gray_details_buddy_event
+TEXT: このチケットは自動的に発動し1月20日に「大切な相棒」プレミアムタイムチャレンジが行えるようになります。
 
 RESOURCE ID: item_event_ticket_gray_details_kyuremfusionraidday
 TEXT: このチケットは自動的に発動し1月10日にボーナスが受け取れるようになります。
@@ -664,10 +738,10 @@ RESOURCE ID: lucky_remote_trade_initiate_body
 TEXT: {0}さんからキラリモート交換リクエストが届いています！
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-01-09T19:09:22.539915+00:00 for ja-JP
-at SHA 279e64f9690
-Pipeline 3491684, job 49648934
-Patch from: 0.395.0-SHA-482ca764-RC1, 0.393.0-SHA-bb1c42df-RC1
+TEXT: Built at 2026-01-15T01:34:52.841803+00:00 for ja-JP
+at SHA 7b97f268348
+Pipeline 3498146, job 49767646
+Patch from: 0.393.0-SHA-de39624e-RC3, 0.395.0-SHA-66d31ba0-RC2
 
 RESOURCE ID: move_name_0491
 TEXT: ビックリヘッド
@@ -747,11 +821,23 @@ TEXT: テラパゴス
 RESOURCE ID: pokemon_name_1025
 TEXT: モモワロウ
 
+RESOURCE ID: pokémon_ibfc_desc_0778
+TEXT: Once per battle, the shroud that covers the Pokémon can protect it from a Charged Attack. The Pokémon’s Defense will be lowered until the end of battle.
+
+RESOURCE ID: pokémon_ibfc_desc_header_0778
+TEXT: BATTLE-ONLY FORM: BUSTED FORM
+
 RESOURCE ID: quest_grookey_catch_b
 TEXT: サルノリを{0}匹捕まえる
 
 RESOURCE ID: quest_piplup_catch_b
 TEXT: ポッチャマを{0}匹捕まえる
+
+RESOURCE ID: quest_snapshot_bug_unique_plural
+TEXT: 野生のむしタイプのポケモン{0}種類のGOスナップショット写真を撮る
+
+RESOURCE ID: quest_snapshot_wild_flying_singular
+TEXT: ひこうタイプの野生ポケモンのGOスナップショット写真を撮る
 
 RESOURCE ID: quest_title_grookey
 TEXT: こざるポケモンを解明せよ！
@@ -935,6 +1021,9 @@ TEXT: サルノリがより多く野生で出現
 RESOURCE ID: spawn_piplup
 TEXT: ポッチャマがより多く野生で出現
 
+RESOURCE ID: stamp_rally_missed_prefecture_reward_toast
+TEXT: To claim this reward, tap the stamp button while at one of the Poké Lid Stamp Rally locations in this prefecture.
+
 RESOURCE ID: sticker_count_format
 TEXT: ×{0}
 
@@ -976,6 +1065,12 @@ TEXT: 駆け巡るヒーロー (8/8)
 
 RESOURCE ID: sun_moon_research_day_event_name
 TEXT: 天空リサーチデイ
+
+RESOURCE ID: text_rewards_key_buddy_event
+TEXT: <b>もらえるもの：</b>
+・コイキング、チルット、ヤンチャム、ニャスパー、パピモッチなどとの出会い 
+・ポフィン1個
+・ハートポーズ、など
 
 RESOURCE ID: text_rewards_key_cd_grookey25
 TEXT: <b>もらえるもの：</b>
