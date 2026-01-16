@@ -741,7 +741,7 @@ TEXT: {0}의 알림 기능을 설정 했습니다
 RESOURCE ID: adventure_sync_settings_missing
 TEXT: 이 기능을 사용하려면 다음을 겨주셔야합니다.
 
-1. 설정> 일반> 언제마 모험 모드
+1. 설정> 일반> 언제나 모험 모드
 
 2. 설정> 알림 설정> 언제나 모험 모드 상태
 
@@ -1489,6 +1489,12 @@ TEXT: 강화 티켓: 4월(4/4)
 RESOURCE ID: aprilfools_event_name
 TEXT: 장난끼 많은 포켓몬
 
+RESOURCE ID: aps_choose_a_form_key
+TEXT: Choose a form:
+
+RESOURCE ID: aps_first_time_tutorial_text
+TEXT: Take a photo with a person and the ground in view.
+
 RESOURCE ID: aquatic_paradise_collection_challenge
 TEXT: 워터 파라다이스 컬렉션 챌린지
 
@@ -1579,6 +1585,9 @@ TEXT: 사용하시는 기기는 AR을 지원하지 않습니다.
 RESOURCE ID: ar_not_supported_title
 TEXT: 기기 문제
 
+RESOURCE ID: ar_photo_booth
+TEXT: GO Photo Booth
+
 RESOURCE ID: ar_photo_safari_ar_error
 TEXT: 에러가 발생하여 AR포토 사파리를 종료했습니다.
 
@@ -1621,6 +1630,129 @@ TEXT: 리스트를 완료한다
 RESOURCE ID: ar_photo_safari_win
 TEXT: 모든 포켓몬을 기록했다!
 
+RESOURCE ID: ar_photo_social_capture_helper
+TEXT: Take a photo to see {0}
+
+RESOURCE ID: ar_photo_social_capture_hint_no_depth
+TEXT: AR camera is warming up, please wait.
+
+RESOURCE ID: ar_photo_social_capture_hint_no_ground
+TEXT: Make sure the ground is in view.
+
+RESOURCE ID: ar_photo_social_capture_hint_no_person
+TEXT: Try taking a photo of a person!
+
+RESOURCE ID: ar_photo_social_capture_hint_ready
+TEXT: When you’re ready, take a photo!
+
+RESOURCE ID: ar_photo_social_capture_review_next_helper
+TEXT: Tap Next to see photos with {0}
+
+RESOURCE ID: ar_photo_social_confirm_title
+TEXT: Do you want a photo with {0}?
+
+RESOURCE ID: ar_photo_social_entry_button
+TEXT: Take a Photo
+
+RESOURCE ID: ar_photo_social_entry_label
+TEXT: Take a photo with a Pokémon!
+
+RESOURCE ID: ar_photo_social_failed_to_load
+TEXT: Failed to load
+
+RESOURCE ID: ar_photo_social_frame_tab_title
+TEXT: Frame
+
+RESOURCE ID: ar_photo_social_ftue_text_1
+TEXT: 1. Choose a Pokémon
+
+RESOURCE ID: ar_photo_social_ftue_text_2
+TEXT: 2. Take a photo
+
+RESOURCE ID: ar_photo_social_ftue_text_3
+TEXT: 3. Decorate & share
+
+RESOURCE ID: ar_photo_social_ftue_title
+TEXT: Pick a Pokémon to take a photo with!
+
+RESOURCE ID: ar_photo_social_hashtag
+TEXT: #PokemonGO
+
+RESOURCE ID: ar_photo_social_horizontal_mode_hint
+TEXT: Rotate phone to portrait mode for best results
+
+RESOURCE ID: ar_photo_social_name_tag_friend_code
+TEXT: Trainer: {0}
+
+RESOURCE ID: ar_photo_social_new_photo_text
+TEXT: Take New Photo
+
+RESOURCE ID: ar_photo_social_photo_error_reason_general
+TEXT: Something went wrong. Please try again.
+
+RESOURCE ID: ar_photo_social_photo_error_reason_ground
+TEXT: Please try again with the ground in view.
+
+RESOURCE ID: ar_photo_social_photo_error_reason_person
+TEXT: Tip: Try including a person in the photo for the best results!
+
+RESOURCE ID: ar_photo_social_photo_error_title
+TEXT: Photo Tip
+
+RESOURCE ID: ar_photo_social_pokemon_catch_and_collect
+TEXT: Catch and collect Pokémon in Pokémon GO!
+
+RESOURCE ID: ar_photo_social_pokemon_name_prompt
+TEXT: Find {0} and other Pokémon in Pokémon GO!
+
+RESOURCE ID: ar_photo_social_pokemon_selection_prompt
+TEXT: Pick a Pokémon to take a photo with!
+
+RESOURCE ID: ar_photo_social_popular_title
+TEXT: Suggestions
+
+RESOURCE ID: ar_photo_social_review_confirm_exit_message
+TEXT: If you leave this page, these photos will be lost.
+
+RESOURCE ID: ar_photo_social_review_confirm_exit_title
+TEXT: Do you want to take a new photo?
+
+RESOURCE ID: ar_photo_social_share_default_referral_text
+TEXT: Take a photo with a Pokémon in Pokémon GO!
+
+RESOURCE ID: ar_photo_social_share_referral_text
+TEXT: Take a photo with a Pokémon in Pokémon GO!
+
+RESOURCE ID: ar_photo_social_summary_confirm_exit_message
+TEXT: Your photos will not be saved.
+
+RESOURCE ID: ar_photo_social_summary_confirm_exit_title
+TEXT: Do you want to exit?
+
+RESOURCE ID: ar_photo_social_summary_confirm_leave
+TEXT: Leave
+
+RESOURCE ID: ar_photo_social_summary_confirm_leave_title
+TEXT: Do you want to leave?
+
+RESOURCE ID: ar_photo_social_surprise_string
+TEXT: SURPRISE!
+
+RESOURCE ID: ar_photo_social_take_another_photo
+TEXT: Take another photo
+
+RESOURCE ID: ar_photo_social_take_photo_prompt
+TEXT: Take a photo to see {0}
+
+RESOURCE ID: ar_photo_social_timer_off_label
+TEXT: Timer Off
+
+RESOURCE ID: ar_photo_social_timer_on_label
+TEXT: Timer On
+
+RESOURCE ID: ar_photo_social_valid_pokemon_warning
+TEXT: Sorry, you can’t currently take a photo with {0}.
+
 RESOURCE ID: ar_plus_arcore_installation_desc
 TEXT: AR 설치를 위해서는 「ARCore」가 필요합니다. 지금 바로 설치하겠습니까? 설치 후에는 Pokémon GO를 다시 시작해 주세요.
 
@@ -1651,6 +1783,9 @@ TEXT: 넓은 평지에서 장소를 향해
 
 RESOURCE ID: ar_plus_no_thanks
 TEXT: 나중에 사용한다.
+
+RESOURCE ID: ar_plus_not_supported_desc
+TEXT: This feature is not supported on this device.
 
 RESOURCE ID: ar_plus_photo_first_time_use_dialog
 TEXT: 카메라 준비가 되었습니다!
@@ -1949,6 +2084,9 @@ TEXT: 공유할 사진을 선택
 RESOURCE ID: arphoto_show_me
 TEXT: 자세히 보기
 
+RESOURCE ID: arphoto_social_take_new
+TEXT: Take New Photo
+
 RESOURCE ID: arphoto_tutorial_angle_description
 TEXT: 그 포켓몬이 잘 나오는 앵글을 정합니다.
 
@@ -2228,6 +2366,9 @@ TEXT: 싸리용(뻗은 모습) 백팩
 
 RESOURCE ID: avatar_backpack_whitekyurem
 TEXT: 화이트큐레무 백팩
+
+RESOURCE ID: avatar_bag_charjabug
+TEXT: 전지충이 가방
 
 RESOURCE ID: avatar_bag_pinapberry
 TEXT: 파인열매 가방
@@ -4496,6 +4637,9 @@ TEXT: 시카고 화이트삭스 모자
 
 RESOURCE ID: avatar_hat_partyhat
 TEXT: 파티 모자
+
+RESOURCE ID: avatar_hat_snom
+TEXT: 누니머기 니트모자
 
 RESOURCE ID: avatar_hat_suitblue
 TEXT: GO Fest 2025 모자(파랑)
@@ -6963,6 +7107,9 @@ TEXT: GO Fest 2025 상의(빨강)
 RESOURCE ID: avatar_shirt_suityellow
 TEXT: GO Fest 2025 상의(노랑)
 
+RESOURCE ID: avatar_shirt_sweatersudowoodo
+TEXT: 꼬지모 스웨터
+
 RESOURCE ID: avatar_shirt_teamyellcrop
 TEXT: 옐단 상의
 
@@ -6998,6 +7145,9 @@ TEXT: 우르 재킷
 
 RESOURCE ID: avatar_shoes
 TEXT: 신발
+
+RESOURCE ID: avatar_shoes_blacephelon
+TEXT: 두파팡 부츠
 
 RESOURCE ID: avatar_shoes_eternatus
 TEXT: 무한다이노 신발
@@ -11532,8 +11682,29 @@ TEXT: 방콕, 2025년 9월 28일
 RESOURCE ID: badge_safari_2025_bangkok_sunday_title
 TEXT: Pokémon GO City Safari
 
-RESOURCE ID: badge_safari_2025_buenosaires_add_on_hatch
+RESOURCE ID: badge_safari_2025_buenos_aires_add_on_hatch
 TEXT: 부에노스아이레스2025
+
+RESOURCE ID: badge_safari_2025_buenos_aires_add_on_hatch_title
+TEXT: Pokémon GO City Safari - 알 옵션
+
+RESOURCE ID: badge_safari_2025_buenos_aires_add_on_raid
+TEXT: 부에노스아이레스2025
+
+RESOURCE ID: badge_safari_2025_buenos_aires_add_on_raid_title
+TEXT: Pokémon GO City Safari - 레이드 옵션
+
+RESOURCE ID: badge_safari_2025_buenos_aires_saturday
+TEXT: 부에노스아이레스, 2025년 12월 13일
+
+RESOURCE ID: badge_safari_2025_buenos_aires_saturday_title
+TEXT: Pokémon GO City Safari
+
+RESOURCE ID: badge_safari_2025_buenos_aires_sunday
+TEXT: 부에노스아이레스, 2025년 12월 14일
+
+RESOURCE ID: badge_safari_2025_buenos_aires_sunday_title
+TEXT: Pokémon GO City Safari
 
 RESOURCE ID: badge_safari_2025_buenosaires_add_on_hatch_test
 TEXT: 부에노스아이레스2025
@@ -11541,37 +11712,16 @@ TEXT: 부에노스아이레스2025
 RESOURCE ID: badge_safari_2025_buenosaires_add_on_hatch_test_title
 TEXT: Pokémon GO City Safari - 알 옵션
 
-RESOURCE ID: badge_safari_2025_buenosaires_add_on_hatch_title
-TEXT: Pokémon GO City Safari - 알 옵션
-
-RESOURCE ID: badge_safari_2025_buenosaires_add_on_raid
-TEXT: 부에노스아이레스2025
-
 RESOURCE ID: badge_safari_2025_buenosaires_add_on_raid_test
 TEXT: 부에노스아이레스2025
 
 RESOURCE ID: badge_safari_2025_buenosaires_add_on_raid_test_title
 TEXT: Pokémon GO City Safari - 레이드 옵션
 
-RESOURCE ID: badge_safari_2025_buenosaires_add_on_raid_title
-TEXT: Pokémon GO City Safari - 레이드 옵션
-
 RESOURCE ID: badge_safari_2025_buenosaires_day_00
 TEXT: 부에노스아이레스2025
 
 RESOURCE ID: badge_safari_2025_buenosaires_day_00_title
-TEXT: Pokémon GO City Safari
-
-RESOURCE ID: badge_safari_2025_buenosaires_day_01
-TEXT: 부에노스아이레스, 2025년 12월 13일
-
-RESOURCE ID: badge_safari_2025_buenosaires_day_01_title
-TEXT: Pokémon GO City Safari
-
-RESOURCE ID: badge_safari_2025_buenosaires_day_02
-TEXT: 부에노스아이레스, 2025년 12월 14일
-
-RESOURCE ID: badge_safari_2025_buenosaires_day_02_title
 TEXT: Pokémon GO City Safari
 
 RESOURCE ID: badge_safari_2025_cancun_add_on_hatch
@@ -11646,16 +11796,16 @@ TEXT: 마이애미2025
 RESOURCE ID: badge_safari_2025_miami_day_00_title
 TEXT: Pokémon GO City Safari
 
-RESOURCE ID: badge_safari_2025_miami_day_01
+RESOURCE ID: badge_safari_2025_miami_saturday
 TEXT: 마이애미, 2025년 12월 13일
 
-RESOURCE ID: badge_safari_2025_miami_day_01_title
+RESOURCE ID: badge_safari_2025_miami_saturday_title
 TEXT: Pokémon GO City Safari
 
-RESOURCE ID: badge_safari_2025_miami_day_02
+RESOURCE ID: badge_safari_2025_miami_sunday
 TEXT: 마이애미, 2025년 12월 14일
 
-RESOURCE ID: badge_safari_2025_miami_day_02_title
+RESOURCE ID: badge_safari_2025_miami_sunday_title
 TEXT: Pokémon GO City Safari
 
 RESOURCE ID: badge_safari_2025_milan_add_on_hatch
@@ -11856,16 +12006,16 @@ TEXT: 시드니2025
 RESOURCE ID: badge_safari_2025_sydney_day_00_title
 TEXT: Pokémon GO City Safari
 
-RESOURCE ID: badge_safari_2025_sydney_day_01
+RESOURCE ID: badge_safari_2025_sydney_saturday
 TEXT: 시드니, 2025년 12월 13일
 
-RESOURCE ID: badge_safari_2025_sydney_day_01_title
+RESOURCE ID: badge_safari_2025_sydney_saturday_title
 TEXT: Pokémon GO City Safari
 
-RESOURCE ID: badge_safari_2025_sydney_day_02
+RESOURCE ID: badge_safari_2025_sydney_sunday
 TEXT: 시드니, 2025년 12월 14일
 
-RESOURCE ID: badge_safari_2025_sydney_day_02_title
+RESOURCE ID: badge_safari_2025_sydney_sunday_title
 TEXT: Pokémon GO City Safari
 
 RESOURCE ID: badge_safari_2025_valencia_add_on_hatch
@@ -15946,6 +16096,9 @@ TEXT: 가라르의 포니타를 가라르의 날쌩마로 진화시키면 와일
 RESOURCE ID: bonus_cd_move_goomy
 TEXT: 미끄네일을 미끄래곤으로 진화시키면 번개펀치를 배운다
 
+RESOURCE ID: bonus_cd_move_grookey
+TEXT: Evolve Thwackey to get a Rillaboom that knows the Charged Attack Frenzy Plant!
+
 RESOURCE ID: bonus_cd_move_grubbin
 TEXT: 전지충이를 투구뿌논으로 진화하면 볼트체인지를 배운다
 
@@ -15981,6 +16134,9 @@ TEXT: 빠모트를 빠르모트로 진화시키면 스페셜 어택 깨트리기
 
 RESOURCE ID: bonus_cd_move_pikipek
 TEXT: 크라파를 왕큰부리로 진화시키면 스페셜 어택 부리캐논을 배운다
+
+RESOURCE ID: bonus_cd_move_piplup
+TEXT: 팽태자를 엠페르트로 진화시키면 하이드로캐논을 배운다!
 
 RESOURCE ID: bonus_cd_move_poliwag_politoed
 TEXT: 슈륙챙이를 왕구리로 진화시키면 냉동빔을 배울 수 있다!
@@ -18064,13 +18220,13 @@ RESOURCE ID: bread_battle_widget_team_count
 TEXT: 팀 {0}
 
 RESOURCE ID: bread_battle_won_none
-TEXT: Battled in 0 Max Battles
+TEXT: 맥스배틀을 0회 진행했다
 
 RESOURCE ID: bread_battle_won_plural
-TEXT: Won {0} Max Battles
+TEXT: 맥스배틀에서 {0}회 이겼다
 
 RESOURCE ID: bread_battle_won_singular
-TEXT: Won a Max Battle
+TEXT: 맥스배틀에서 1회 이겼다
 
 RESOURCE ID: bread_cannot_enter_lobby_not_eligible_desc
 TEXT: 파워스폿이 배틀에는 다이맥스 포켓몬이 필요합니다.
@@ -22488,6 +22644,15 @@ TEXT: 히가시소노기
 RESOURCE ID: city_manhole_44
 TEXT: 기센누마
 
+RESOURCE ID: city_manhole_441
+TEXT: 나하
+
+RESOURCE ID: city_manhole_444
+TEXT: 이키
+
+RESOURCE ID: city_manhole_445
+TEXT: 사자
+
 RESOURCE ID: city_manhole_44_4580
 TEXT: 기센누마
 
@@ -22859,15 +23024,6 @@ TEXT: 마치다
 
 RESOURCE ID: city_manhole_9_ed48
 TEXT: 오츠치
-
-RESOURCE ID: city_manhole_iki
-TEXT: 이키
-
-RESOURCE ID: city_manhole_naha
-TEXT: 나하
-
-RESOURCE ID: city_manhole_saza
-TEXT: 사자
 
 RESOURCE ID: city_manhole_shimabara
 TEXT: 시마바라
@@ -24346,6 +24502,9 @@ TEXT: 하이퍼리그
 RESOURCE ID: combat_use_this_party
 TEXT: 결정
 
+RESOURCE ID: community_celebration_today_view
+TEXT: 커뮤니티 기념
+
 RESOURCE ID: community_day_abra_event_name
 TEXT: 커뮤니티 데이: 캐이시
 
@@ -24475,6 +24634,9 @@ TEXT: 커뮤니티 데이: 딥상어동
 RESOURCE ID: community_day_goomy_event_name
 TEXT: 커뮤니티 데이: 미끄메라
 
+RESOURCE ID: community_day_grookey_event_name
+TEXT: Community Day: Grookey
+
 RESOURCE ID: community_day_grubbin_event_name
 TEXT: 커뮤니티 데이: 턱지충이
 
@@ -24534,6 +24696,12 @@ TEXT: 커뮤니티 데이: 빠모
 
 RESOURCE ID: community_day_pikipek_event_name
 TEXT: 커뮤니티 데이: 콕코구리
+
+RESOURCE ID: community_day_piplup_details_link
+TEXT: 자세한 내용은 <a href="https://pokemongolive.com/post/communitydayclassic-piplup-jan-2026">웹사이트</a>에서 확인해 주세요.
+
+RESOURCE ID: community_day_piplup_event_name_cdc
+TEXT: 커뮤니티 데이(복각): 팽도리
 
 RESOURCE ID: community_day_poliwag_event_name
 TEXT: 커뮤니티 데이: 발챙이
@@ -25613,6 +25781,12 @@ TEXT: 자세한 내용은 <a href="https://pokemongolive.com/post/mega-mawile-ra
 RESOURCE ID: details_link_key_megalucarioraidday24
 TEXT: 자세한 내용은 <a href="https://pokemongolive.com/post/mega-lucario-raid-ultra-unlock">웹사이트</a>에서 확인해 주세요.
 
+RESOURCE ID: details_link_key_new_year_jan2026
+TEXT: 자세한 내용은 <a href="https://pokemongolive.com/post/new-years-2026">웹사이트</a>에서 확인해 주세요.
+
+RESOURCE ID: details_link_key_pinch_perfect_event_name_jan2026
+TEXT: 자세한 내용은 <a href="https://pokemongo.com/news/pinch-perfect-2026">웹사이트</a>에서 확인해 주세요.
+
 RESOURCE ID: details_link_key_ponytacd24
 TEXT: 자세한 내용은 <a href="https://pokemongolive.com/news">웹사이트</a>에서 확인해 주세요.
 
@@ -25866,6 +26040,12 @@ TEXT: 다운로드한다
 
 RESOURCE ID: downloading_assets_in_progress_title
 TEXT: 에셋 다운로드 중
+
+RESOURCE ID: downloading_avatar_assets_warning_body
+TEXT: There was an issue downloading assets. Please ensure you have stable network access and restart the game.
+
+RESOURCE ID: downloading_avatar_assets_warning_title
+TEXT: Cannot Download Assets
 
 RESOURCE ID: dragon_type_event
 TEXT: Type Surge: Dragon
@@ -27156,6 +27336,9 @@ TEXT: 9월 14일 14시 ~ 17시
 RESOURCE ID: event_datetime_range_key_cd_fuecoco25
 TEXT: 3월 8일 14시 ~ 17시
 
+RESOURCE ID: event_datetime_range_key_cd_grookey25
+TEXT: January 18, 2:00 p.m. – 5:00 p.m.
+
 RESOURCE ID: event_datetime_range_key_cd_jangmo_o25
 TEXT: 6월 21일 14시~17시
 
@@ -27196,6 +27379,9 @@ TEXT: 7월 5일 14시~7월 6일 17시
 
 RESOURCE ID: event_datetime_range_key_cdc_machop25
 TEXT: 5월 24일 14:00 ~ 17:00
+
+RESOURCE ID: event_datetime_range_key_cdc_piplup26
+TEXT: 1월 4일 14시~17시
 
 RESOURCE ID: event_datetime_range_key_cdc_ralts25
 TEXT: 1월 25일 14시~17시
@@ -27646,6 +27832,9 @@ TEXT: 8월 25일 10시 ~
 RESOURCE ID: event_datetime_range_key_sunkissedetr0825
 TEXT: 8월 25일 10시 ~ 
 8월 31일 20시
+
+RESOURCE ID: event_datetime_range_key_sunmoon_researchtr2025
+TEXT: 12월 20일 14시~17시
 
 RESOURCE ID: event_datetime_range_key_sweet_discoveries_apr25
 TEXT: 4월 25일 10시~
@@ -31599,6 +31788,18 @@ TEXT: 체육관 배틀 / 레이드배틀
 RESOURCE ID: friendship_detail_capabilities
 TEXT: 보너스
 
+RESOURCE ID: friendship_detail_gift
+TEXT: Gift
+
+RESOURCE ID: friendship_detail_item_bonus
+TEXT: Item bonus
+
+RESOURCE ID: friendship_detail_item_plural
+TEXT: +{0} items
+
+RESOURCE ID: friendship_detail_item_singular
+TEXT: +{0} item
+
 RESOURCE ID: friendship_detail_just_friends
 TEXT: 우정레벨이 올라가면 보너스가 있습니다. 하트 아이콘을 터치해봅시다.
 
@@ -31627,16 +31828,16 @@ RESOURCE ID: friendship_detail_trade
 TEXT: 교환
 
 RESOURCE ID: friendship_detail_unlock_reqs_plural
-TEXT: 앞으로 {0}일 함께 플레이해서 {1}로!
-
-RESOURCE ID: friendship_detail_unlock_reqs_plural_temp
 TEXT: 앞으로 {0}프렌드 포인트를 획득하고 {1}가 되자!
+
+RESOURCE ID: friendship_detail_unlock_reqs_plural_out
+TEXT: 앞으로 {0}일 함께 플레이해서 {1}로!
 
 RESOURCE ID: friendship_detail_unlock_reqs_singular
-TEXT: 앞으로 {0}일 함께 플레이해서 {1}로!
-
-RESOURCE ID: friendship_detail_unlock_reqs_singular_temp
 TEXT: 앞으로 {0}프렌드 포인트를 획득하고 {1}가 되자!
+
+RESOURCE ID: friendship_detail_unlock_reqs_singular_out
+TEXT: 앞으로 {0}일 함께 플레이해서 {1}로!
 
 RESOURCE ID: friendship_detail_unlocked_trading
 TEXT: 교환할 수 있는 포켓몬:
@@ -32871,6 +33072,9 @@ TEXT: 마지막 일격: GO배틀위크 프리미엄 시간제한 리서치 티�
 RESOURCE ID: general1.ticket.4_name
 TEXT: Pokémon GO Tour: 성도지방
 
+RESOURCE ID: general1.ticket.4_sunmoon_researchtr2025_title
+TEXT: 천공 리서치데이 티켓
+
 RESOURCE ID: general1.ticket.4_title
 TEXT: 티켓: Ticket: Pokémon GO Tour: 성도지방
 
@@ -33468,6 +33672,9 @@ TEXT: 플라베베 커뮤니티 데이 티켓
 RESOURCE ID: general1.ticket_cd_fuecoco25_title
 TEXT: 뜨아거 커뮤니티 데이 티켓
 
+RESOURCE ID: general1.ticket_cd_grookey25_title
+TEXT: Grookey Community Day Ticket
+
 RESOURCE ID: general1.ticket_cd_jangmo_o25_title
 TEXT: 짜랑꼬 커뮤니티 데이 티켓
 
@@ -33506,6 +33713,9 @@ TEXT: 이브이 커뮤니티 데이(복각) 티켓
 
 RESOURCE ID: general1.ticket_cdc_machop25_title
 TEXT: 알통몬 커뮤니티 데이(복각) 티켓
+
+RESOURCE ID: general1.ticket_cdc_piplup26_title
+TEXT: 팽도리 커뮤니티 데이(복각) 티켓
 
 RESOURCE ID: general1.ticket_cdc_ralts25_title
 TEXT: 랄토스 커뮤니티 데이(복각) 티켓
@@ -33738,8 +33948,14 @@ TEXT: 결정
 RESOURCE ID: general_done_exclamation_point
 TEXT: 완료!
 
+RESOURCE ID: general_download
+TEXT: Download
+
 RESOURCE ID: general_error
 TEXT: Error
+
+RESOURCE ID: general_get_started
+TEXT: Get Started
 
 RESOURCE ID: general_go
 TEXT: GO
@@ -33836,6 +34052,9 @@ TEXT: 포켓몬
 
 RESOURCE ID: general_pokemon_inventory_full
 TEXT: 지닌 포켓몬이 가득합니다
+
+RESOURCE ID: general_pokemon_trainer
+TEXT: Pokémon Trainer
 
 RESOURCE ID: general_progress_km
 TEXT: {0}/{1}km
@@ -33988,6 +34207,9 @@ TEXT: #PokemonGOFest2021 를 붙여서 공유된 사진을 소개합니다!
 RESOURCE ID: ghost_type_event
 TEXT: Type Surge: Ghost
 
+RESOURCE ID: gift_additional_items
+TEXT: 선물 내용이 호화로워질 수 있음
+
 RESOURCE ID: gift_from_prompt
 TEXT: Greetings from
 
@@ -34015,6 +34237,9 @@ TEXT: 하루에 열 수 있는 선물 20개 추가
 RESOURCE ID: gift_open_one_and_half
 TEXT: 1.5× 개봉 가능한 선물
 
+RESOURCE ID: gift_pokemon_wild
+TEXT: 이벤트 테마 포켓몬을 잡으면 추가 도구를 가지고 있을 수 있음
+
 RESOURCE ID: gift_pokestop_guaranteed
 TEXT: 포켓스톱 스핀 선물 확정
 
@@ -34038,6 +34263,9 @@ TEXT: 도구 가방에 지닐 수 있는 선물 수 증가
 
 RESOURCE ID: gift_storage_one_and_half
 TEXT: 1.5× 도구 가방에 지닐 수 있는 선물
+
+RESOURCE ID: gift_xp_double
+TEXT: 2× 선물을 보냈을 때 받을 수 있는 XP
 
 RESOURCE ID: giftbox_log_opened
 TEXT: {0}님이 보내준 선물을 열었다!
@@ -43953,6 +44181,22 @@ TEXT: 강력한 냉기가 {0}동안 나와 타겟 링의 속도가 느려집니�
 RESOURCE ID: ice_type_event
 TEXT: Type Surge: Ice
 
+RESOURCE ID: id2026_car_free_day_title
+TEXT: Car Free Day
+
+RESOURCE ID: id2026_car_free_day_tv_event_desc
+TEXT: Car Free Day is live! You can find Pikachu wearing a red party hat with a Location Background via Field and Timed Research—don’t miss out!
+
+RESOURCE ID: id2026_car_free_day_tv_event_title
+TEXT: You’re at Car Free Day!
+
+RESOURCE ID: id2026_car_free_day_tv_id_desc
+TEXT: Come celebrate Indonesia Car Free Day in Jakarta every Sunday from 6:00 a.m. to 9:45 a.m.
+Complete Field Research or Timed Research to encounter Pikachu wearing a red party hat with a Location Background.
+
+RESOURCE ID: id2026_car_free_day_tv_id_title
+TEXT: Join Car Free Day!
+
 RESOURCE ID: in_techfest_2025_bonus
 TEXT: Pokémon GO College Fest 2025 이벤트 보너스
 
@@ -45059,6 +45303,9 @@ TEXT: 현지시간 2025년 5월 18일 23시 59분까지 크라운 클래시: 점
 RESOURCE ID: item_event_ticket_desc_stunning_styles
 TEXT: 현지시간 2025년 4월 7일 20시까지 유니크 스타일 프리미엄 시간제한 리서치를 진행할 수 있는 티켓.
 
+RESOURCE ID: item_event_ticket_desc_sunmoon_researchtr2025
+TEXT: 현지시간 2025년 12월 20일 14:00~17:00까지 솔록과 루나톤 프리미엄 시간제한 리서치를 진행하기 위한 티켓
+
 RESOURCE ID: item_event_ticket_details_2025_ancientsrecovered_fleetinglegends
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2025년 6월 23일에 '과거의 잔상 프리미엄 시간제한 리서치: 대공'을 손에 넣을 수 있습니다.
 
@@ -45070,6 +45317,9 @@ TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2024년 11월 18�
 
 RESOURCE ID: item_event_ticket_details_stunning_styles
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2025년 4월 3일에 유니크 스타일 프리미엄 시간제한 리서치를 손에 넣을 수 있습니다.
+
+RESOURCE ID: item_event_ticket_details_sunmoon_researchtr2025
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 12월 20일에 솔록과 루나톤 프리미엄 시간제한 리서치가 진행됩니다.
 
 RESOURCE ID: item_event_ticket_evergreen_desc_9thparty0725
 TEXT: 현지시간 2025년 7월 6일 20시까지 9주년 기념 프리미엄 시간제한 리서치를 진행할 수 있는 티켓.
@@ -45694,6 +45944,9 @@ TEXT: 현지시간 2025년 9월 14일 14시부터 플라베베 커뮤니티 데�
 RESOURCE ID: item_event_ticket_pink_desc_cd_fuecoco25
 TEXT: 현지시간 2025년 3월 8일 14시부터 뜨아거 커뮤니티 데이 스페셜리서치를 진행하기 위한 티켓.
 
+RESOURCE ID: item_event_ticket_pink_desc_cd_grookey25
+TEXT: A ticket to access the Grookey Community Day Special Research starting January 18 at 2:00 p.m. local time, wherever you are.
+
 RESOURCE ID: item_event_ticket_pink_desc_cd_jangmo_o25
 TEXT: 현지시간 2025년 6월 21일 14시부터 짜랑꼬 커뮤니티 데이 스페셜리서치를 진행하기 위한 티켓.
 
@@ -45732,6 +45985,9 @@ TEXT: 현지시간 2025년 7월 25일 14시부터 이브이 커뮤니티 데이(
 
 RESOURCE ID: item_event_ticket_pink_desc_cdc_machop25
 TEXT: 현지시간 2025년 5월 24일 14시부터 알통몬 커뮤니티 데이(복각) 스페셜리서치를 진행하기 위한 티켓.
+
+RESOURCE ID: item_event_ticket_pink_desc_cdc_piplup26
+TEXT: 현지시간 2026년 1월 4일 14시부터 팽도리 커뮤니티 데이(복각) 스페셜리서치를 진행하기 위한 티켓.
 
 RESOURCE ID: item_event_ticket_pink_desc_cdc_ralts25
 TEXT: 현지시간 2025년 1월 25일 14시부터 랄토스 커뮤니티 데이(복각) 스페셜리서치를 진행하기 위한 티켓.
@@ -45885,6 +46141,9 @@ TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2025년 9월 14일
 RESOURCE ID: item_event_ticket_pink_details_cd_fuecoco25
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2025년 3월 8일에 '불꽃악어포켓몬의 수수께끼를 풀어라!' 스페셜리서치가 진행됩니다.
 
+RESOURCE ID: item_event_ticket_pink_details_cd_grookey25
+TEXT: This ticket will automatically activate on January 18 to give you access to the Special Research Grooving with Grookey, wherever you are.
+
 RESOURCE ID: item_event_ticket_pink_details_cd_jangmo_o25
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 6월 21일 '비늘포켓몬의 수수께끼를 풀어라!' 스페셜리서치가 진행됩니다.
 
@@ -45923,6 +46182,9 @@ TEXT: 이 티켓은 자동으로 활성화되어 현지시간 7월 5일에 이�
 
 RESOURCE ID: item_event_ticket_pink_details_cdc_machop25
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 5월 24일 알통몬 커뮤니티 데이(복각) 스페셜리서치가 진행됩니다.
+
+RESOURCE ID: item_event_ticket_pink_details_cdc_piplup26
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 1월 4일에 팽도리 커뮤니티 데이(복각) 스페셜리서치가 진행됩니다.
 
 RESOURCE ID: item_event_ticket_pink_details_cdc_ralts25
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 1월 25일 랄토스 커뮤니티 데이(복각) 스페셜리서치가 진행됩니다.
@@ -47386,7 +47648,6 @@ TEXT: 관동 이벤트
 RESOURCE ID: keldeo_evergreen_sr_dialogue_0_0
 TEXT: 안녕, %PLAYERNAME%! 오늘 아침에 엄청난 것을 봤어. 눈깜짝할 사이에 수면을 미끄러지듯 움직이는 물체!
 
-
 RESOURCE ID: keldeo_evergreen_sr_dialogue_0_1
 TEXT: 망아지포켓몬 케르디오가 아닐까 생각해.
 
@@ -47401,7 +47662,6 @@ TEXT: 또 만났네, %PLAYERNAME%. 케르디오는 못 봤어? 전 세계를 달
 
 RESOURCE ID: keldeo_evergreen_sr_dialogue_1_1
 TEXT: 발굽에서 물을 뿜어내 바다와 강 등의 수면을 달려 이동할 수 있어.
-
 
 RESOURCE ID: keldeo_evergreen_sr_dialogue_1_2
 TEXT: 배도 비행기도 필요 없어.
@@ -47617,7 +47877,7 @@ RESOURCE ID: kr_festival_raid_location_background
 TEXT: 이벤트 레이드에서 잡은 포켓몬에게 한정 로케이션 배경이 있을 가능성 
 
 RESOURCE ID: kr_festival_red_striped_basculin_bonus
-TEXT: Red-Striped Basculin may encountered while using lure or Incense near a river in the event area
+TEXT: Red-Striped Basculin will be attracted to Lure Modules or Incense near rivers in the Pyeongchang area
 
 RESOURCE ID: kr_festival_tr_daily_nationwide
 TEXT: 2025 여름 물축제를 기념하여 한국에서 시간제한 리서치 배포 중!
@@ -47755,10 +48015,10 @@ RESOURCE ID: kr_summer_festival_2025_tr_name_3
 TEXT: 정남진 장흥 물축제 로케이션 배경 있는 시간제한 리서치(3/3)
 
 RESOURCE ID: kr_winter_festival_2026_pyeongchang_bonus
-TEXT: Pyeongchang Winter Festival 2026 - Pyeongchang Bonus
+TEXT: Pyeongchang Winter Festival 2026 – Pyeongchang Bonus
 
 RESOURCE ID: kr_winter_festival_2026_riverside_bonus
-TEXT: Pyeongchang Winter Festival 2026 - Riverside Bonus
+TEXT: Pyeongchang Winter Festival 2026 – Riverside Bonus
 
 RESOURCE ID: kr_winter_festival_2026_tag
 TEXT: Pyeongchang Trout Festival
@@ -47779,10 +48039,10 @@ RESOURCE ID: kr_winter_festival_2026_tr_name_3
 TEXT: Pyeongchang Winter Festival Location Background Timed Research (3/3)
 
 RESOURCE ID: kr_winter_festival_location_background_in_wild
-TEXT: Pikachu wearing a Winter Beanie appearing in wild may have an exclusive location background in the event area
+TEXT: Pikachu wearing a snowflake beanie encountered in the wild may have a Pyeongchang Winter Festival Location Background
 
 RESOURCE ID: kr_winter_festival_raid_event_area
-TEXT: Event-exclusive raids featuring Pikachu wearing a Winter Beanie, Deerling(Witner Form) appearing in the event area
+TEXT: Event-exclusive raids featuring Pikachu wearing a snowflake beanie and Winter Form Deerling will take place in the Pyeongchang area
 
 RESOURCE ID: lake_trio_event_name
 TEXT: 호수의 신화 이벤트
@@ -50561,6 +50821,12 @@ TEXT: 다음 교환은 반짝반짝 교환입니다! 교환에 내보낼 포켓�
 RESOURCE ID: lucky_friends_notification_details_from_charm
 TEXT: 반짝이 참을 사용해서 {0}님과 반짝반짝 프렌드가 되었다!
 
+RESOURCE ID: lucky_remote_trade_confirm_body
+TEXT: Complete your Lucky Remote Trade with {0}!
+
+RESOURCE ID: lucky_remote_trade_initiate_body
+TEXT: {0} sent you a Lucky Remote Trade request!
+
 RESOURCE ID: lucky_trade_confirm_extra_message
 TEXT: 반짝반짝 교환은 반짝반짝 프렌드가 되고 1번만 할 수 있습니다.
 
@@ -52497,9 +52763,9 @@ RESOURCE ID: meshing_option_title
 TEXT: 메싱
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2025-12-17T09:07:15.346458+00:00 for ko-KR
-at SHA f1a16bcf186
-Pipeline 3475072, job 49357298
+TEXT: Built at 2026-01-16T09:06:38.336408+00:00 for ko-KR
+at SHA 89cf719ffef
+Pipeline 3500573, job 49820114
 
 RESOURCE ID: mex_fighting_promo_title
 TEXT: 시간제한 리서치: 격투타입
@@ -59460,6 +59726,9 @@ TEXT: GO스냅샷으로 딥상어동의 서프라이즈 5회
 RESOURCE ID: photobomb_five_goomy
 TEXT: GO스냅샷으로 미끄메라의 서프라이즈 5회
 
+RESOURCE ID: photobomb_five_grookey
+TEXT: 5 surprise encounters with Grookey in GO Snapshot
+
 RESOURCE ID: photobomb_five_grubbin
 TEXT: GO스냅샷으로 턱지충이의 서프라이즈 5회
 
@@ -59510,6 +59779,9 @@ TEXT: GO스냅샷으로 빠모의 서프라이즈 5회
 
 RESOURCE ID: photobomb_five_pikipek
 TEXT: GO스냅샷으로 콕코구리의 서프라이즈 5회
+
+RESOURCE ID: photobomb_five_piplup
+TEXT: GO스냅샷으로 팽도리의 서프라이즈 5회
 
 RESOURCE ID: photobomb_five_poliwag
 TEXT: GO스냅샷으로 발챙이의 서프라이즈 5회
@@ -60887,6 +61159,9 @@ TEXT: 강함
 
 RESOURCE ID: pokedex_sort_number
 TEXT: 번호
+
+RESOURCE ID: pokedex_sort_size
+TEXT: Size
 
 RESOURCE ID: pokedex_sort_unfavorite
 TEXT: 즐겨찾기 해제
@@ -72057,6 +72332,12 @@ TEXT: 코라이돈
 RESOURCE ID: pokemon_name_1008
 TEXT: 미라이돈 
 
+RESOURCE ID: pokemon_name_1009
+TEXT: Walking Wake
+
+RESOURCE ID: pokemon_name_1010
+TEXT: Iron Leaves
+
 RESOURCE ID: pokemon_name_1011
 TEXT: 과미르
 
@@ -72066,8 +72347,41 @@ TEXT: 차데스
 RESOURCE ID: pokemon_name_1013
 TEXT: 그우린차
 
+RESOURCE ID: pokemon_name_1014
+TEXT: Okidogi
+
+RESOURCE ID: pokemon_name_1015
+TEXT: Munkidori
+
+RESOURCE ID: pokemon_name_1016
+TEXT: Fezandipiti
+
+RESOURCE ID: pokemon_name_1017
+TEXT: Ogerpon
+
+RESOURCE ID: pokemon_name_1018
+TEXT: Archaludon
+
 RESOURCE ID: pokemon_name_1019
 TEXT: 과미드라
+
+RESOURCE ID: pokemon_name_1020
+TEXT: Gouging Fire
+
+RESOURCE ID: pokemon_name_1021
+TEXT: Raging Bolt
+
+RESOURCE ID: pokemon_name_1022
+TEXT: Iron Boulder
+
+RESOURCE ID: pokemon_name_1023
+TEXT: Iron Crown
+
+RESOURCE ID: pokemon_name_1024
+TEXT: Terapagos
+
+RESOURCE ID: pokemon_name_1025
+TEXT: Pecharunt
 
 RESOURCE ID: pokemon_name_bread
 TEXT: 다이맥스 {0}
@@ -78036,6 +78350,9 @@ TEXT: Take a photo in the Team Valor habitat
 RESOURCE ID: quest_gotoursik_photo_willow
 TEXT: Take a photo in the Professor Willow habitat
 
+RESOURCE ID: quest_grookey_catch_b
+TEXT: Catch {0} Grookey
+
 RESOURCE ID: quest_grookey_evolve
 TEXT: 흥나숭을 1마리 진화시킨다
 
@@ -78548,6 +78865,9 @@ TEXT: 엽서 {0}장을 핀 고정한다
 
 RESOURCE ID: quest_pin_postcard_singular
 TEXT: 엽서 1장을 핀 고정한다
+
+RESOURCE ID: quest_piplup_catch_b
+TEXT: 팽도리를 {0}마리 잡는다
 
 RESOURCE ID: quest_platinum_johto_badge
 TEXT: 성도 메달을 플래티넘으로 만든다
@@ -82906,7 +83226,7 @@ RESOURCE ID: quest_special_dialogue_lvl_43_2_2
 TEXT: 배틀 스타일은 아주 다양하지.
 
 RESOURCE ID: quest_special_dialogue_lvl_43_2_3
-TEXT: 다양한 배틀을 보는 것도 즐겁지. 너의 전략을 치밀해. 하지만 새로 진화할 수 있는 포켓몬이 있는지 다시 검토해보는 것은 어때?
+TEXT: 다양한 배틀을 보는 것도 즐겁지. 너의 전략은 치밀해. 하지만 새로 진화할 수 있는 포켓몬이 있는지 다시 검토해보는 것은 어때?
 
 RESOURCE ID: quest_special_dialogue_lvl_43_2_4
 TEXT: 다음에 부탁할 건 포켓몬을 잡는 것만이 아니야.
@@ -84133,7 +84453,7 @@ RESOURCE ID: quest_special_dialogue_meloetta_1_4
 TEXT: 너는 언제나 처럼 조사를 진행해줘
 
 RESOURCE ID: quest_special_dialogue_meloetta_2_0
-TEXT: 협력해줘서 고마워! 뭔가 마음을 풍요로워지는 조사였어. 포켓몬은 배가 부르고.
+TEXT: 협력해줘서 고마워! 뭔가 마음이 풍요로워지는 조사였어. 포켓몬은 배가 부르고.
 
 RESOURCE ID: quest_special_dialogue_meloetta_2_1
 TEXT: 그 신비한 멜로디도 다시 들을 수 있었어.
@@ -90286,6 +90606,18 @@ TEXT: 커뮤니티 데이: 미끄메라(3/4)
 RESOURCE ID: quest_title_goomy_3
 TEXT: 커뮤니티 데이: 미끄메라(4/4)
 
+RESOURCE ID: quest_title_grookey
+TEXT: Grooving with Grookey
+
+RESOURCE ID: quest_title_grookey_0
+TEXT: Grooving with Grookey (1/3)
+
+RESOURCE ID: quest_title_grookey_1
+TEXT: Grooving with Grookey (2/3)
+
+RESOURCE ID: quest_title_grookey_2
+TEXT: Grooving with Grookey (3/3)
+
 RESOURCE ID: quest_title_grubbin
 TEXT: 유충포켓몬의 수수께끼를 풀어라!
 
@@ -91158,6 +91490,18 @@ TEXT: 딱따구리포켓몬의 수수께끼를 풀어라!(2/3)
 
 RESOURCE ID: quest_title_pikipek_2
 TEXT: 딱따구리포켓몬의 수수께끼를 풀어라!(3/3)
+
+RESOURCE ID: quest_title_piplup
+TEXT: 팽도리 퍼레이드
+
+RESOURCE ID: quest_title_piplup_0
+TEXT: 팽도리 퍼레이드(1/3)
+
+RESOURCE ID: quest_title_piplup_1
+TEXT: 팽도리 퍼레이드(2/3)
+
+RESOURCE ID: quest_title_piplup_2
+TEXT: 팽도리 퍼레이드(3/3)
 
 RESOURCE ID: quest_title_player_progression
 TEXT: 더 높은 곳으로!
@@ -96615,6 +96959,9 @@ TEXT: 레이드 수 증가
 RESOURCE ID: raid_hour_raids_five
 TEXT: 별5 레이드 증가
 
+RESOURCE ID: raid_hour_raids_five_outside_stadium
+TEXT: 스타디움 밖의 별5 레이드 증가
+
 RESOURCE ID: raid_hour_raids_five_shadow
 TEXT: 별5 그림자 레이드 증가
 
@@ -99814,10 +100161,10 @@ RESOURCE ID: remote_trade_confirmation_dialog_singular
 TEXT: 정말로 보내겠습니까?
 
 RESOURCE ID: remote_trade_daily_limit
-TEXT: 리모트 교환의 1일 상한에 도달했습니다
-
-RESOURCE ID: remote_trade_daily_limit_temp
 TEXT: 리모트 교환 상한(1일 {0}외)에 도달했습니다
+
+RESOURCE ID: remote_trade_daily_limit_out
+TEXT: 리모트 교환의 1일 상한에 도달했습니다
 
 RESOURCE ID: remote_trade_decline_confirmation_toast
 TEXT: {0}님과의 리모트 교환을 하지 않았습니다.
@@ -99849,11 +100196,22 @@ TEXT: {0}님과의 리모트 교환이 곧 기한 종료 되었습니다
 RESOURCE ID: remote_trade_expire_soon_body
 TEXT: {0}님과의 리모트 교환이 곧 기한 종료가 됩니다
 
-RESOURCE ID: remote_trade_friend_daily_limit
-TEXT: 프렌드가 리모트 교환의 1일 상한에 도달했습니다
+RESOURCE ID: remote_trade_first_time_body
+TEXT: Your friend has some time to respond to your trade request.
 
-RESOURCE ID: remote_trade_friend_daily_limit_temp
+If a trade expires, the request will be canceled but you won’t lose your opportunity to remote trade with this friend.
+
+RESOURCE ID: remote_trade_first_time_title
+TEXT: Come back later!
+
+RESOURCE ID: remote_trade_friend_all_time_locked_pokemon_message
+TEXT: Your friend’s Pokémon aren’t ready to be traded remotely.
+
+RESOURCE ID: remote_trade_friend_daily_limit
 TEXT: 프렌드가 리모트 교환 상한(1일 {0}회)에 도달했습니다
+
+RESOURCE ID: remote_trade_friend_daily_limit_out
+TEXT: 프렌드가 리모트 교환의 1일 상한에 도달했습니다
 
 RESOURCE ID: remote_trade_friend_in_remote_trade
 TEXT: 프렌드는 현재 리모트 교환을 진행하고 있습니다
@@ -99872,6 +100230,9 @@ TEXT: {0}님에게 요청한 포켓몬
 
 RESOURCE ID: remote_trade_initiate_body
 TEXT: {0}님이 리모트 교환을 시작했습니다!
+
+RESOURCE ID: remote_trade_inventory_select_error_toast
+TEXT: Select 1–3 Pokémon to trade with your friend.
 
 RESOURCE ID: remote_trade_locked
 TEXT: 프렌드 포인트를 {0} 올려 리모트 교환을 잠금 해제
@@ -99981,6 +100342,9 @@ TEXT: 리모트 교환 태그를 삭제하겠습니까?
 RESOURCE ID: remote_trade_request_sent_toast
 TEXT: {0}님에게 리모트 교환을 요청했습니다
 
+RESOURCE ID: remote_trade_select_offer_error_toast
+TEXT: Select one Pokémon to trade with your friend.
+
 RESOURCE ID: remote_trade_select_text
 TEXT: 원하는 포켓몬 선태(1~3마리)
 
@@ -100063,6 +100427,12 @@ TEXT: 태그 삭제를 못했습니다.
 
 RESOURCE ID: reorder_pokemon_tag_error
 TEXT: 태그 순서를 변경하지 못했습니다
+
+RESOURCE ID: repeatable_friendship_detail_unlock_reqs_plural
+TEXT: Play together to earn {0} more friendship points and get additional bonuses.
+
+RESOURCE ID: repeatable_friendship_detail_unlock_reqs_singular
+TEXT: Play together to earn {0} more friendship point and get additional bonuses.
 
 RESOURCE ID: report_issues_link
 TEXT: https://pokemongo.nianticlabs.com/support/contact/en
@@ -100356,6 +100726,12 @@ TEXT: 하랑우탄 프리미엄 시간제한 리서치
 RESOURCE ID: research_day_passimian_and_oranguru_tr_name_passimian
 TEXT: 내던숭이 프리미엄 시간제한 리서치
 
+RESOURCE ID: research_day_sun_moon_tr_name_lunatone
+TEXT: 루나톤 프리미엄 시간제한 리서치
+
+RESOURCE ID: research_day_sun_moon_tr_name_solrock
+TEXT: 솔록 프리미엄 시간제한 리서치
+
 RESOURCE ID: research_day_yamask_and_gyamask_event_name
 TEXT: 데스마스와 가라르 데스마스 리서치데이
 
@@ -100385,6 +100761,9 @@ TEXT: 이미 작성된 AR 세션에 참가하겠습니까?
 
 RESOURCE ID: resume_route_travel_error_toast
 TEXT: 루트 재개 에러
+
+RESOURCE ID: retake_button
+TEXT: Retake Photo
 
 RESOURCE ID: retention_friend_bonus_message
 TEXT: “Pokémon GO”를 프렌드와 플레이해서 XP, 알, 도구를 선물에서 손에 넣으세요!
@@ -103613,6 +103992,9 @@ TEXT: 나
 RESOURCE ID: scrolls_cup_great_title
 TEXT: 스크롤컵: 슈퍼리그 버전
 
+RESOURCE ID: search_favorite_added
+TEXT: Search term added to Favorites
+
 RESOURCE ID: search_filter_help_url
 TEXT: https://niantic.helpshift.com/hc/faq/1486-searching-filtering-your-pokemon-inventory/
 
@@ -103621,6 +104003,9 @@ TEXT: 모든 키워드를 본다
 
 RESOURCE ID: search_label
 TEXT: 검색
+
+RESOURCE ID: search_name_and_num_label
+TEXT: Search name or number
 
 RESOURCE ID: searching_for_legends_event_name
 TEXT: 천지 신화
@@ -103886,6 +104271,30 @@ TEXT: 이건 그 답을 찾는 여정이기도 하지.
 RESOURCE ID: season21_precious_paths_sr_1_3
 TEXT: 이렇게 생각해봐 앞으로 자기 자신에 관해서 그리고 포켓몬에 대해서 생각하지 못한 발견이 있을지 모른다고.
 
+RESOURCE ID: season21_precious_paths_sr_2_0
+TEXT: 배틀이다, %PLAYERNAME%! 포켓몬과의 유대감을 깊게 할거라면 역시 배틀이지!
+
+RESOURCE ID: season21_precious_paths_sr_2_1
+TEXT: 누가 강한지 정하는 게 아니라 이겨도 졌어도 자신만의 허들을 넘었거나 포켓몬과의 마음이 통할 수 있는 기회 그것이 배틀이야.
+
+RESOURCE ID: season21_precious_paths_sr_2_2
+TEXT: 다른 종류의 배틀을 통해 배운것을 마음에 새겨둬.
+
+RESOURCE ID: season21_precious_paths_sr_2_3
+TEXT: 제일 중요한 건 언제나 즐기는 마음. 그게 가능하다면 승자가 될 수 있어!
+
+RESOURCE ID: season21_precious_paths_sr_3_0
+TEXT: 아주 훌륭했어, %PLAYERNAME%! 한계를 뛰어넘는 모습이 감동적이었어.
+
+RESOURCE ID: season21_precious_paths_sr_3_1
+TEXT: 전략을 잘 세워둔 증거군. 쉬운 일이 아니지.
+
+RESOURCE ID: season21_precious_paths_sr_3_2
+TEXT: 더 배틀 실력을 갈고 닦아 트레이너로서의 가능성과 네 포켓몬의 가능성을 최대한 끌어올릴 수 있도록 해보는 게 어때?
+
+RESOURCE ID: season21_precious_paths_sr_3_3
+TEXT: 또 보겠지만 기억해둬. 언제나 뒤에서 응원하고 있을게!
+
 RESOURCE ID: season21_precious_paths_title
 TEXT: 보물찾기의 길
 
@@ -104070,6 +104479,9 @@ TEXT: GO패스: 10월
 RESOURCE ID: season_pass_base_track_title_sep
 TEXT: GO패스: 9월
 
+RESOURCE ID: season_pass_base_track_title_winter_holidays_2025
+TEXT: GO패스: 윈터2025
+
 RESOURCE ID: season_pass_bonus_hatch_xp_stardust
 TEXT: 알을 부화햇을 때 받을 수 있는 XP, 별의모래 증가
 
@@ -104098,6 +104510,9 @@ TEXT: 자세한 내용은 <a href="https://pokemongo.com/go-pass">웹사이트</
 RESOURCE ID: season_pass_details_link_halloween_2025
 TEXT: 자세한 내용은 <a href="https://pokemongo.com/news/go-pass-halloween-2025">웹사이트</a>에서 확인해 주세요.
 
+RESOURCE ID: season_pass_details_link_january2026
+TEXT: 자세한 내용은 <a href="https://pokemongo.com/news/go-pass-january-2026">웹사이트</a>에서 확인해 주세요.
+
 RESOURCE ID: season_pass_details_link_july
 TEXT: 자세한 내용은 <a href="https://pokemongo.com/post/go-pass-july-2025">웹사이트</a>에서 확인해 주세요.
 
@@ -104115,6 +104530,9 @@ TEXT: 자세한 내용은 <a href="https://pokemongo.com/go-pass">웹사이트</
 
 RESOURCE ID: season_pass_details_link_september2025
 TEXT: 자세한 내용은 <a href="https://pokemongo.com/go-pass">웹사이트</a>에서 확인해 주세요.
+
+RESOURCE ID: season_pass_details_link_winter_holidays_2025
+TEXT: 자세한 내용은 <a href="https://pokemongo.com/news/go-pass-winter_holidays-2025">웹사이트</a>에서 확인해 주세요.
 
 RESOURCE ID: season_pass_halloween_2025_event_duration
 TEXT: 10월 21일~11월 2일
@@ -104246,6 +104664,9 @@ TEXT: GO패스 디럭스: 10월+10랭크
 RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_sep
 TEXT: GO패스 디럭스: 9월+10랭크
 
+RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_winter_holidays_2025
+TEXT: GO패스 디럭스: 윈터2025 + 10랭크
+
 RESOURCE ID: season_pass_premium_track_title_april
 TEXT: GO패스 디럭스: 4월
 
@@ -104285,6 +104706,9 @@ TEXT: GO패스 디럭스: 10월
 RESOURCE ID: season_pass_premium_track_title_sep
 TEXT: GO패스 디럭스: 9월
 
+RESOURCE ID: season_pass_premium_track_title_winter_holidays_2025
+TEXT: GO패스 디럭스: 윈터2025
+
 RESOURCE ID: season_pass_september2025_event_duration
 TEXT: 9월 2일~10월 7일
 
@@ -104306,6 +104730,20 @@ TEXT: 추가 리워드를 입수할 수 있고 랭그 100으로 <b>반짝이 참
 
 RESOURCE ID: season_pass_track_upgrade_header_description_50
 TEXT: 추가 리워드를 입수를 할 수 있고 랭크50으로<b>반짝이 참</b>를 잠금 해제!
+
+RESOURCE ID: season_pass_winter_holidays_2025_event_duration
+TEXT: 12월 18일~12월 29일
+
+RESOURCE ID: season_pass_winter_holidays_2025_track_upgrade_header_description
+TEXT: 추가 리워드를 입수를 할 수 있고 랭크50으로<b>누니머기 니트모자</b>를 잠금 해제!
+
+RESOURCE ID: season_pass_winter_holidays_2025_upgrade_description
+TEXT: GO 패스 디럭스: 윈터2025를 구매하면 다음 리워드를 받을 수 있습니다!
+
+- 의상 아이템 누니머기 니트모자
+- 이벤트와 어울리는 포켓몬과의 만남
+- 이상한사탕XL
+- 기타
 
 RESOURCE ID: seasonal_delights_box
 TEXT: 윈터 스페셜 박스
@@ -105691,7 +106129,7 @@ RESOURCE ID: shop_inventory_full_visit_shop
 TEXT: 숍에서 지닐 수 있는 도구의 상한을 늘립니다
 
 RESOURCE ID: shop_inventory_more_capacity
-TEXT: Not enough space in your Item Bag!
+TEXT: 도구 가방이 가득 찼습니다!
 
 RESOURCE ID: shop_limited_time
 TEXT: 기간 한정!
@@ -106548,6 +106986,9 @@ TEXT: 딥상어동이 야생에서 많이 출현
 RESOURCE ID: spawn_goomy
 TEXT: 미끄메라가 야생에서 많이 출현!
 
+RESOURCE ID: spawn_grookey
+TEXT: More Grookey are appearing in the wild!
+
 RESOURCE ID: spawn_grubbin
 TEXT: 턱지충이가 야생에서 많이 출현!
 
@@ -106601,6 +107042,9 @@ TEXT: 구구가 야생에서 많이 출현!
 
 RESOURCE ID: spawn_pikipek
 TEXT: 콕코구리가 야생에서 많이 출현!
+
+RESOURCE ID: spawn_piplup
+TEXT: 팽도리가 야생에서 더 많이 출현!
 
 RESOURCE ID: spawn_poliwag
 TEXT: 발챙이가 야생에서 많이 출현!
@@ -109072,6 +109516,9 @@ TEXT: 강철의 결심 시간제한 리서치(3/3)
 RESOURCE ID: sticker_box
 TEXT: 스티커 박스
 
+RESOURCE ID: sticker_count_format
+TEXT: ×{0}
+
 RESOURCE ID: sticker_default_desc
 TEXT: 스티커는 보상에 포함되는 경우가 있습니다.
 
@@ -109120,6 +109567,9 @@ TEXT: 승리포켓몬, 비크티니의 Pokémon GO Fest 한정 스티커.
 RESOURCE ID: sticker_photo_dontsave
 TEXT: 저장하지 않는다
 
+RESOURCE ID: sticker_photo_remove_stickers
+TEXT: Remove Stickers
+
 RESOURCE ID: sticker_photo_save
 TEXT: 저장
 
@@ -109128,6 +109578,12 @@ TEXT: 다른 이미지로 저장됩니다. 저장하면 붙인 스티커는 소�
 
 RESOURCE ID: sticker_photo_save_header
 TEXT: 변경을 저장하겠습니까?
+
+RESOURCE ID: sticker_photo_save_stickers
+TEXT: Save Stickers
+
+RESOURCE ID: sticker_photo_save_warning
+TEXT: You can’t edit or remove stickers after you save.
 
 RESOURCE ID: stickers_tutorial_adjust_body
 TEXT: 스티커를 선택하고 사진 위에 붙이고 싶은 장소를 탭 합니다. 핀치인, 핀아웃으로 크기를 조절하고 'X'로 제거합니다.
@@ -109434,31 +109890,31 @@ RESOURCE ID: story_quest_dark_flames_june23_branch_choice_1_4
 TEXT: 네가 선택해 줄래? 뜨거운 불꽃타입 포켓몬일지, 미스테리한 악타입으로 할지 부탁할게.
 
 RESOURCE ID: story_quest_keldeo_story_title
-TEXT: 변화하는 이야기
+TEXT: 달리는 히어로
 
 RESOURCE ID: story_quest_keldeo_story_title_0
-TEXT: 변화하는 이야기(1/8)
+TEXT: 달리는 히어로(1/8)
 
 RESOURCE ID: story_quest_keldeo_story_title_1
-TEXT: 변화하는 이야기(2/8)
+TEXT: 달리는 히어로(2/8)
 
 RESOURCE ID: story_quest_keldeo_story_title_2
-TEXT: 변화하는 이야기(3/8)
+TEXT: 달리는 히어로(3/8)
 
 RESOURCE ID: story_quest_keldeo_story_title_3
-TEXT: 변화하는 이야기(4/8)
+TEXT: 달리는 히어로(4/8)
 
 RESOURCE ID: story_quest_keldeo_story_title_4
-TEXT: 변화하는 이야기(5/8)
+TEXT: 달리는 히어로(5/8)
 
 RESOURCE ID: story_quest_keldeo_story_title_5
-TEXT: 변화하는 이야기(6/8)
+TEXT: 달리는 히어로(6/8)
 
 RESOURCE ID: story_quest_keldeo_story_title_6
-TEXT: 변화하는 이야기(7/8)
+TEXT: 달리는 히어로(7/8)
 
 RESOURCE ID: story_quest_keldeo_story_title_7
-TEXT: 변화하는 이야기(8/8)
+TEXT: 달리는 히어로(8/8)
 
 RESOURCE ID: story_quest_mateointro_0
 TEXT: 루트에서 만나자!(1/4)
@@ -109536,7 +109992,7 @@ RESOURCE ID: story_quest_mateointro_3_2
 TEXT: 잘 부탁한다고 전해달라더군. 너에게 주는 선물도 준비했어.
 
 RESOURCE ID: story_quest_mateointro_3_3
-TEXT: 다음에 마테오를 마났을 때,  언제 한번 보자고 전해줘.
+TEXT: 다음에 마테오를 만났을 때,  언제 한번 보자고 전해줘.
 
 RESOURCE ID: story_quest_mateointro_3_4
 TEXT: 그리고 너에게는 계속해서 루트에서 선물 교환을 부탁하고 싶군. 전 세계 트레이너와 연결할 수 있는 계기가 될 거야!
@@ -110662,6 +111118,9 @@ TEXT: 서머 이벤트
 RESOURCE ID: summer_solstice_event_name
 TEXT: 여름 이벤트
 
+RESOURCE ID: sun_moon_research_day_event_name
+TEXT: 천공 리서치데이
+
 RESOURCE ID: sunken_treasure
 TEXT: 해저 보물
 
@@ -111170,6 +111629,12 @@ TEXT: <b>받을 수 있는 리워드:</b>
 - 프리미엄 배틀패스, 기술머신스페셜, 이상한사탕 
 - 기타
 
+RESOURCE ID: text_rewards_key_cd_grookey25
+TEXT: <b>Included rewards:</b>
+• Premium in-game items, such as a Premium Battle Pass, a Charged TM, and Rare Candy
+• Encounters with Grookey with a Special Background
+• And more!
+
 RESOURCE ID: text_rewards_key_cd_jangmo_o25
 TEXT: <b>받을 수 있는 리워드:</b>
 - 짜랑꼬(스페셜 배경 있음)와의 만남
@@ -111243,6 +111708,12 @@ TEXT: <b>받을 수 있는 리워드:</b>
 RESOURCE ID: text_rewards_key_cdc_machop25
 TEXT: <b>받을 수 있는 리워드:</b>
 - 알통몬(스페셜 배경 있음)와의 만남
+- 프리미엄 배틀패스, 기술머신스페셜, 이상한사탕 
+- 기타
+
+RESOURCE ID: text_rewards_key_cdc_piplup26
+TEXT: <b>받을 수 있는 리워드:</b>
+- 팽도리(스페셜 배경 있음)와의 만남
 - 프리미엄 배틀패스, 기술머신스페셜, 이상한사탕 
 - 기타
 
@@ -112231,6 +112702,13 @@ TEXT: <b>받을 수 있는 리워드:</b>
 - 프리미엄 배틀패스 2개
 - 3,000 별의모래
 
+RESOURCE ID: text_rewards_key_sunmoon_researchtr2025
+TEXT: 필드리서치를 진행함에 따라 루나톤과 솔록을 만날 수 있는 시간제한 리서치입니다.
+
+이벤트 개최 중 시간제한 리서치에서 만날 수 있는 포켓몬은 색이 다른 포켓몬을 포함합니다.(필드리서치에서 만날 수 있는 색이 다른 포켓몬과 같은 확률)
+
+시간제한 리서치는 현지시간 2025년 12월 20일 14시~17시까지 진행할 수 있습니다.
+
 RESOURCE ID: text_rewards_key_sweet_discoveries_apr25
 TEXT: <b>받을 수 있는 리워드:</b>
 - 딜리버드, 비버니, 체리버, 몽나, 달콤아, 자말라, 탐리스, 과사삭벌레와의 만남
@@ -112513,6 +112991,9 @@ TEXT: 승리의 활공 시간제한 리서치 티켓이 숍에 등장
 RESOURCE ID: ticket_goomy
 TEXT: 미끄메라 커뮤니티 데이 스페셜리서치 티켓이 숍에 등장
 
+RESOURCE ID: ticket_grookey_cd
+TEXT: Ticket for the Grookey Community Day Special Research available in the shop
+
 RESOURCE ID: ticket_grubbin
 TEXT: 턱지충이 커뮤니티 데이 스페셜리서치 티켓이 숍에 등장
 
@@ -112584,6 +113065,9 @@ TEXT: 빠모 커뮤니티 데이 스페셜리서치 티켓이 숍에 등장
 
 RESOURCE ID: ticket_pikipek_cd
 TEXT: 콕코구리 커뮤니티 데이 스페셜리서치 티켓이 숍에 등장
+
+RESOURCE ID: ticket_piplup_cdc
+TEXT: 팽도리 커뮤니티 데이(복각) 스페셜리서치 티켓이 숍에 등장
 
 RESOURCE ID: ticket_poliwag
 TEXT: 올챙이포켓몬의 수수께끼를 풀어라!' 티켓이 숍에 등장
@@ -112979,14 +113463,14 @@ RESOURCE ID: tips_friends_tutorial_gifts_title
 TEXT: 선물 주고 받기
 
 RESOURCE ID: tips_friends_tutorial_lucky_body
-TEXT: 프렌드와 '베스트 프렌드'가 되어 계속해서 함께 모험을 하면 반짝반짝 프렌드로 될 때가 있습니다. 
-
-반짝반짝 프렌드와 교환을 하면로 반짝반짝 포켓몬이 되어 반짝반짝 설정은 리셋되지만 그 후에 또 반짝반짝 프렌드가 될 수도 있습니다.
-
-RESOURCE ID: tips_friends_tutorial_lucky_body_temp
 TEXT: 프렌드와 '베스트 프렌드'가 되어 계속해서 함께 모험을 하면 반짝반짝 프렌드가 될 수 있습니다. 
 
 반짝반짝 프렌드와 교환을 하면로 반짝반짝 포켓몬이 됩니다! 반짝반짝 설정은 리셋되지만 그 후에 또 반짝반짝 프렌드가 될 수도 있습니다.
+
+RESOURCE ID: tips_friends_tutorial_lucky_body_out
+TEXT: 프렌드와 '베스트 프렌드'가 되어 계속해서 함께 모험을 하면 반짝반짝 프렌드로 될 때가 있습니다. 
+
+반짝반짝 프렌드와 교환을 하면로 반짝반짝 포켓몬이 되어 반짝반짝 설정은 리셋되지만 그 후에 또 반짝반짝 프렌드가 될 수도 있습니다.
 
 RESOURCE ID: tips_friends_tutorial_lucky_title
 TEXT: 반짝반짝 프렌드
@@ -114378,6 +114862,33 @@ TEXT: 와일드 다크 스핀
 RESOURCE ID: tr_gowa2025_poi_fairy
 TEXT: 와일드 페어리 스핀
 
+RESOURCE ID: tr_hut_hut_desc_00
+TEXT: 퍼스트다운...
+
+RESOURCE ID: tr_hut_hut_desc_01
+TEXT: 세컨드다운...
+
+RESOURCE ID: tr_hut_hut_desc_02
+TEXT: 서드 다운...
+
+RESOURCE ID: tr_hut_hut_desc_03
+TEXT: 터치다운!
+
+RESOURCE ID: tr_hut_hut_title
+TEXT: 준비! 시작! 보너스 시간제한 리서치
+
+RESOURCE ID: tr_hut_hut_title_00
+TEXT: 준비! 시작! 보너스 시간제한 리서치(1/4)
+
+RESOURCE ID: tr_hut_hut_title_01
+TEXT: 준비! 시작! 보너스 시간제한 리서치(2/4)
+
+RESOURCE ID: tr_hut_hut_title_02
+TEXT: 준비! 시작! 보너스 시간제한 리서치(3/4)
+
+RESOURCE ID: tr_hut_hut_title_03
+TEXT: 준비! 시작! 보너스 시간제한 리서치(4/4)
+
 RESOURCE ID: tr_ice_mastery_catch_berg
 TEXT: 꽁어름을 {0}마리 잡는다
 
@@ -114416,6 +114927,15 @@ TEXT: 마스터리 시리즈 시간제한 리서치(9/10)
 
 RESOURCE ID: tr_ice_mastery_dec2023_9
 TEXT: 마스터리 시리즈 시간제한 리서치(10/10)
+
+RESOURCE ID: tr_id2026_car_free_day
+TEXT: Car Free Day Timed Research
+
+RESOURCE ID: tr_id2026_car_free_day_00
+TEXT: Car Free Day Timed Research (1/2)
+
+RESOURCE ID: tr_id2026_car_free_day_01
+TEXT: Car Free Day Timed Research (2/2)
 
 RESOURCE ID: tr_inbound_from_ultra_space_raid
 TEXT: 울트라비스트 습격 시간제한 리서치
@@ -115139,6 +115659,30 @@ TEXT: 훌륭해! 이제 너와 프렌드에게 새로운 포켓몬이 생겼구�
 
 RESOURCE ID: trade_tutorial_complete_2
 TEXT: 계속 교환해서 프렌드와의 우정레벨을 올리자! 그러다 '반짝반짝 프렌드'가 될지 몰라
+
+RESOURCE ID: trade_warning_bullet_background_location
+TEXT: Pokémon has a Location Background
+
+RESOURCE ID: trade_warning_bullet_background_special
+TEXT: Pokémon has a Special Background
+
+RESOURCE ID: trade_warning_bullet_battle_party
+TEXT: Pokémon will be removed from battle party
+
+RESOURCE ID: trade_warning_bullet_buddy
+TEXT: Buddy Level will be reset
+
+RESOURCE ID: trade_warning_bullet_hyper_training
+TEXT: Pokémon’s stats will change
+
+RESOURCE ID: trade_warning_bullet_max
+TEXT: Max Move levels will be reset
+
+RESOURCE ID: trade_warning_bullet_mega
+TEXT: Mega Level will be reset
+
+RESOURCE ID: trade_warning_bullet_primal
+TEXT: Primal Level will be reset
 
 RESOURCE ID: trade_warning_friend_level_lower
 TEXT: CP와 HP가 조정됩니다.
@@ -118081,6 +118625,12 @@ TEXT: 윈터 시간제한 리서치(3/4)
 RESOURCE ID: winter_holiday_timed_research_4
 TEXT: 윈터 시간제한 리서치(4/4)
 
+RESOURCE ID: winter_holidays_2025_part_1_event_name
+TEXT: 윈터 이벤트 2025 파트1
+
+RESOURCE ID: winter_holidays_2025_part_2_event_name
+TEXT: 윈터 이벤트 2025 파트2
+
 RESOURCE ID: winter_holidays_collection_part1_catch
 TEXT: 홀리데이 파트1 컬렉션 챌린지: 아이스
 
@@ -118110,6 +118660,15 @@ TEXT: 겨울 이벤트
 
 RESOURCE ID: winter_weekend_event_name
 TEXT: 윈터 위켄드
+
+RESOURCE ID: winter_weekend_tr_name
+TEXT: 윈터 위켄드 시간제한 리서치
+
+RESOURCE ID: winter_weekend_tr_name_1
+TEXT: 윈터 위켄드 시간제한 리서치(1/2)
+
+RESOURCE ID: winter_weekend_tr_name_2
+TEXT: 윈터 위켄드 시간제한 리서치(2/2)
 
 RESOURCE ID: winter_wishes_tr_title
 TEXT: 윈터 위시
@@ -118191,6 +118750,9 @@ TEXT: 팀 참가 중 루트 완료 XP 증가
 
 RESOURCE ID: yesterday
 TEXT: 어제
+
+RESOURCE ID: yokohama
+TEXT: 
 
 RESOURCE ID: yokohama_7a63
 TEXT: 
