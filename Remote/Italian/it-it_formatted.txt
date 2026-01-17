@@ -504,6 +504,9 @@ TEXT: Per ulteriori informazioni, visita il <a href="https://pokemongolive.com/p
 RESOURCE ID: community_day_piplup_event_name_cdc
 TEXT: Community Day Classico dedicato a Piplup
 
+RESOURCE ID: datetime_range_format
+TEXT: {0}, {1} – {2}, {3}
+
 RESOURCE ID: details_link_key_new_year_jan2026
 TEXT: Per ulteriori informazioni, visita il <a href="https://pokemongolive.com/post/new-years-2026">sito</a>.
 
@@ -536,6 +539,9 @@ al 4 gennaio alle 20:00
 RESOURCE ID: event_datetime_range_key_pinch_perfect
 TEXT: Dal 6 gennaio alle 10:00
 all’11 gennaio alle 20:00
+
+RESOURCE ID: event_datetime_range_key_raikoushadowraidday
+TEXT: 24 gennaio dalle 14:00 alle 17:00
 
 RESOURCE ID: event_datetime_range_key_sunmoon_researchtr2025
 TEXT: 20 dicembre dalle 14:00 alle 17:00
@@ -591,6 +597,9 @@ TEXT: Biglietto per il Community Day dedicato a Grookey
 
 RESOURCE ID: general1.ticket_cdc_piplup26_title
 TEXT: Biglietto per il Community Day Classico dedicato a Piplup
+
+RESOURCE ID: general2.ticket.6_shadowraikouraidday_title
+TEXT: Biglietto per il giorno di raid Ombra dedicato a Raikou
 
 RESOURCE ID: general2.ticket2.pinch_perfect
 TEXT: Biglietto per la ricerca a tempo premium dell’evento “Chela perfetta”
@@ -686,11 +695,17 @@ TEXT: Un biglietto per accedere alla ricerca a tempo premium dell’evento “Am
 RESOURCE ID: item_event_ticket_gray_desc_kyuremfusionraidday
 TEXT: Un biglietto per accedere ai bonus speciali il 10 gennaio 2026 dalle 14:00 alle 17:00 ora locale, ovunque ti trovi.
 
+RESOURCE ID: item_event_ticket_gray_desc_raikoushadowraidday
+TEXT: Un biglietto per accedere ai bonus speciali fino al 24 gennaio 2026 alle 17:00 ora locale, ovunque ti trovi.
+
 RESOURCE ID: item_event_ticket_gray_details_buddy_event
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo premium dell’evento “Amici preziosi” il 20 gennaio, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_gray_details_kyuremfusionraidday
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso ai bonus speciali il 10 gennaio, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_gray_details_raikoushadowraidday
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso ai bonus speciali il 24 gennaio, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_pink_desc_cd_grookey25
 TEXT: Un biglietto per accedere alla ricerca speciale del Community Day dedicato a Grookey dal 18 gennaio alle 14:00 ora locale, ovunque ti trovi.
@@ -744,10 +759,10 @@ RESOURCE ID: lucky_remote_trade_initiate_body
 TEXT: {0} ti ha mandato una richiesta di scambio da remoto fortunato!
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-01-15T01:34:52.841803+00:00 for it-IT
-at SHA 7b97f268348
-Pipeline 3498146, job 49767646
-Patch from: 0.393.0-SHA-de39624e-RC3, 0.395.0-SHA-66d31ba0-RC2
+TEXT: Built at 2026-01-17T01:59:13.141606+00:00 for it-IT
+at SHA fb790a858a6
+Pipeline 3501653, job 49842875
+Patch from: 0.395.0-SHA-89cf719f-RC4, 0.393.0-SHA-bb1c42df-RC1
 
 RESOURCE ID: move_name_0491
 TEXT: Sbalorditesta
@@ -790,6 +805,156 @@ TEXT: Chela perfetta
 
 RESOURCE ID: pokedex_sort_size
 TEXT: Dimensioni
+
+RESOURCE ID: pokemon_desc_tmpevo_0036_0001
+TEXT: It flies by using the power of moonlight to control gravity within a radius of over 32 feet around it.
+
+RESOURCE ID: pokemon_desc_tmpevo_0071_0001
+TEXT: The volume of this Pokémon's acid has increased due to Mega Evolution, filling its mouth. If it's not careful, the acid will overflow and spill out.
+
+RESOURCE ID: pokemon_desc_tmpevo_0121_0001
+TEXT: Its movements have become more humanlike. Whether it's simply trying to communicate or wants to supplant humanity is unclear.
+
+RESOURCE ID: pokemon_desc_tmpevo_0149_0001
+TEXT: Mega Evolution has excessively powered up this Pokémon's feelings of kindness. It finishes off its opponents with mercy in its heart.
+
+RESOURCE ID: pokemon_desc_tmpevo_0154_0001
+TEXT: This Pokémon can fire a tremendously powerful Solar Beam from its four flowers. Another name for this is Mega Sol Cannon.
+
+RESOURCE ID: pokemon_desc_tmpevo_0160_0001
+TEXT: With its arms and hoodlike fin, this Pokémon forms a gigantic set of jaws with a bite 10 times as powerful as Mega Feraligatr's actual jaws.
+
+RESOURCE ID: pokemon_desc_tmpevo_0227_0001
+TEXT: It flies faster than the speed of sound. After whipping up shock waves to send enemies flying, it finishes them off with its talons.
+
+RESOURCE ID: pokemon_desc_tmpevo_0229_0001
+TEXT: Houndoom's entire body generates heat when it Mega Evolves. Its intense, fiery breath turns its opponents to charcoal.
+
+RESOURCE ID: pokemon_desc_tmpevo_0478_0001
+TEXT: This Pokémon can use eerie cold air imbued with ghost energy to freeze even insubstantial things, such as flames or the wind.
+
+RESOURCE ID: pokemon_desc_tmpevo_0500_0001
+TEXT: Brandishing a blazing flame shaped like a serpentine spear, it rushes in to rescue its imperiled allies.
+
+RESOURCE ID: pokemon_desc_tmpevo_0545_0001
+TEXT: Its deadly venom gives off a faint glow. The venom affects Scolipede's mind, honing its viciousness.
+
+RESOURCE ID: pokemon_desc_tmpevo_0560_0001
+TEXT: Mega Evolution has caused Scrafty's shed skin to turn white, growing tough and supple. Of course, this Pokémon is still as feisty as ever.
+
+RESOURCE ID: pokemon_desc_tmpevo_0604_0001
+TEXT: It now generates 10 times the electricity it did before Mega Evolving. It discharges this electricity from its false Eelektrik, which are made of mucus.
+
+RESOURCE ID: pokemon_desc_tmpevo_0609_0001
+TEXT: One of its eyes is a window linking our world with the afterlife. This Pokémon draws in hatred and converts it into power.
+
+RESOURCE ID: pokemon_desc_tmpevo_0652_0001
+TEXT: It has fortified armor and a will to defend at all costs. Both are absurdly strong.
+
+RESOURCE ID: pokemon_desc_tmpevo_0655_0001
+TEXT: It wields flaming branches to dazzle its opponents before incinerating them with a huge fireball.
+
+RESOURCE ID: pokemon_desc_tmpevo_0658_0001
+TEXT: This Pokémon spins a giant shuriken at high speed to make it float, then clings to it upside down to catch opponents unawares.
+
+RESOURCE ID: pokemon_desc_tmpevo_0668_0001
+TEXT: This Pokémon spews flames hotter than 18,000 degrees Fahrenheit. It swings around its grand, blazing mane as it protects its allies.
+
+RESOURCE ID: pokemon_desc_tmpevo_0687_0001
+TEXT: It uses its colorful lights to overwrite the personalities and memories of others—and to control them.
+
+RESOURCE ID: pokemon_desc_tmpevo_0689_0001
+TEXT: It uses its many arms to toy with its opponents. This keeps the head extremely busy.
+
+RESOURCE ID: pokemon_desc_tmpevo_0691_0001
+TEXT: It spits a liquid that causes the regenerative power of cells to run wild. The liquid is deadly poison to everything other than itself.
+
+RESOURCE ID: pokemon_desc_tmpevo_0701_0001
+TEXT: Mega Evolution has pumped up all its muscles. Hawlucha flexes to show off its strength.
+
+RESOURCE ID: pokemon_desc_tmpevo_0718_0001
+TEXT: In response to people's emotions during an unprecedented crisis, Zygarde Mega Evolves and calms the situation with its unmatched power.
+
+RESOURCE ID: pokemon_desc_tmpevo_0780_0001
+TEXT: Drampa's cells have been invigorated, allowing it to regain its youth. It manipulates the atmosphere to summon storms.
+
+RESOURCE ID: pokemon_desc_tmpevo_0870_0001
+TEXT: Mega Falinks has taken on the ultimate battle formation, which can be achieved only if the troopers and brass have the strongest of bonds.
+
+RESOURCE ID: pokemon_name_0036_0001
+TEXT: Mega Clefable
+
+RESOURCE ID: pokemon_name_0071_0001
+TEXT: Mega Victreebel
+
+RESOURCE ID: pokemon_name_0121_0001
+TEXT: Mega Starmie
+
+RESOURCE ID: pokemon_name_0149_0001
+TEXT: Mega Dragonite
+
+RESOURCE ID: pokemon_name_0154_0001
+TEXT: Mega Meganium
+
+RESOURCE ID: pokemon_name_0160_0001
+TEXT: Mega Feraligatr
+
+RESOURCE ID: pokemon_name_0227_0001
+TEXT: Mega Skarmory
+
+RESOURCE ID: pokemon_name_0229_0001
+TEXT: Mega Houndoom
+
+RESOURCE ID: pokemon_name_0478_0001
+TEXT: Mega Frosslass
+
+RESOURCE ID: pokemon_name_0500_0001
+TEXT: Mega Emboar
+
+RESOURCE ID: pokemon_name_0545_0001
+TEXT: Mega Scolipede
+
+RESOURCE ID: pokemon_name_0560_0001
+TEXT: Mega Scrafty
+
+RESOURCE ID: pokemon_name_0604_0001
+TEXT: Mega Elektross
+
+RESOURCE ID: pokemon_name_0609_0001
+TEXT: Mega Chandelure
+
+RESOURCE ID: pokemon_name_0652_0001
+TEXT: Mega Chesnaught
+
+RESOURCE ID: pokemon_name_0655_0001
+TEXT: Mega Delphox
+
+RESOURCE ID: pokemon_name_0658_0001
+TEXT: Mega Greninja
+
+RESOURCE ID: pokemon_name_0668_0001
+TEXT: Mega Pyroar
+
+RESOURCE ID: pokemon_name_0687_0001
+TEXT: Mega Malamar
+
+RESOURCE ID: pokemon_name_0689_0001
+TEXT: Mega Barbanacle
+
+RESOURCE ID: pokemon_name_0691_0001
+TEXT: Mega Dragalge
+
+RESOURCE ID: pokemon_name_0701_0001
+TEXT: Mega Hawlucha
+
+RESOURCE ID: pokemon_name_0718_0001
+TEXT: Mega Zygarde
+
+RESOURCE ID: pokemon_name_0780_0001
+TEXT: Mega Drampa
+
+RESOURCE ID: pokemon_name_0870_0001
+TEXT: Mega Falinks
 
 RESOURCE ID: pokemon_name_1009
 TEXT: Acquecrespe
@@ -1021,8 +1186,20 @@ TEXT: Acquista il biglietto GO deluxe dell’evento “Feste invernali” 2025 e
 RESOURCE ID: see_bonus_ranks_button
 TEXT: VEDI LIVELLI AGGIUNTIVI
 
+RESOURCE ID: shadow_raid_day_raikou_event_name
+TEXT: Giorno di raid Ombra dedicato a Raikou
+
+RESOURCE ID: shadow_raikou_website_link
+TEXT: Per ulteriori informazioni, visita il <a href="https://pokemongo.com/post/shadow-raikou-raid-day-2026">sito</a>.
+
 RESOURCE ID: shop_inventory_more_capacity
 TEXT: Non hai abbastanza spazio Borsa!
+
+RESOURCE ID: social_planner_rsvp_going_count
+TEXT: Partecipanti: {0}
+
+RESOURCE ID: social_planner_timeslot_friend_attending_key_singular
+TEXT: Partecipanti: {0}
 
 RESOURCE ID: spawn_grookey
 TEXT: Più Grookey stanno apparendo allo stato selvatico!
@@ -1111,6 +1288,11 @@ TEXT: <b>Le ricompense includono:</b>
 • Incontri con Pokémon dell’evento, tra cui Dhelmise e Klawf
 • Due biglietti raid premium 
 • 19.000 PE
+
+RESOURCE ID: text_rewards_key_raikoushadowraidday
+TEXT: <b>I bonus includono:</b>
+• Cinque biglietti raid aggiuntivi facendo girare i dischi foto delle Palestre
+• 50% di PE in più e doppio della polvere di stelle quando porti a termine un raid con successo
 
 RESOURCE ID: text_rewards_key_sunmoon_researchtr2025
 TEXT: Queste due ricerche a tempo, che ti richiedono di completare missioni di ricerca sul campo, ti danno la possibilità di incontrare i Pokémon protagonisti dell’evento, Lunatone e Solrock.

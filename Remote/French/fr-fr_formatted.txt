@@ -308,13 +308,13 @@ RESOURCE ID: city_manhole_386
 TEXT: Owase
 
 RESOURCE ID: city_manhole_387
-TEXT: Otsuki
+TEXT: Ōtsuki
 
 RESOURCE ID: city_manhole_388
 TEXT: Mihara
 
 RESOURCE ID: city_manhole_389
-TEXT: Otoyo
+TEXT: Ōtoyo
 
 RESOURCE ID: city_manhole_390
 TEXT: Tsuno
@@ -344,7 +344,7 @@ RESOURCE ID: city_manhole_398
 TEXT: Yamagata
 
 RESOURCE ID: city_manhole_399
-TEXT: Sagae
+TEXT: Saga
 
 RESOURCE ID: city_manhole_400
 TEXT: Okura
@@ -374,7 +374,7 @@ RESOURCE ID: city_manhole_408
 TEXT: Mito
 
 RESOURCE ID: city_manhole_409
-TEXT: Hitachiota
+TEXT: Hitachiōta
 
 RESOURCE ID: city_manhole_410
 TEXT: Suzuka
@@ -401,7 +401,7 @@ RESOURCE ID: city_manhole_417
 TEXT: Sakai
 
 RESOURCE ID: city_manhole_418
-TEXT: Echizen-cho
+TEXT: Echizen
 
 RESOURCE ID: city_manhole_419
 TEXT: Wakasa
@@ -425,7 +425,7 @@ RESOURCE ID: city_manhole_430
 TEXT: Sunagawa
 
 RESOURCE ID: city_manhole_431
-TEXT: Yubetsu
+TEXT: Yūbetsu
 
 RESOURCE ID: city_manhole_432
 TEXT: Betsukai
@@ -437,7 +437,7 @@ RESOURCE ID: city_manhole_434
 TEXT: Susaki
 
 RESOURCE ID: city_manhole_435
-TEXT: Toyo
+TEXT: Tōyō
 
 RESOURCE ID: city_manhole_437
 TEXT: Kasenuma Park
@@ -503,6 +503,9 @@ TEXT: Tous les détails sont sur le <a href="https://pokemongolive.com/post/comm
 
 RESOURCE ID: community_day_piplup_event_name_cdc
 TEXT: Les classiques de la Journée Communauté : Tiplouf
+
+RESOURCE ID: datetime_range_format
+TEXT: {0}, {1} – {2}, {3}
 
 RESOURCE ID: details_link_key_new_year_jan2026
 TEXT: Tous les détails sont sur le <a href="https://pokemongolive.com/post/new-years-2026">site Web</a>.
@@ -606,6 +609,9 @@ RESOURCE ID: event_datetime_range_key_pinch_perfect
 TEXT: Du 6 janvier à 10h 
 au 11 janvier à 20h
 
+RESOURCE ID: event_datetime_range_key_raikoushadowraidday
+TEXT: Le 24 janvier de 14h à 17h
+
 RESOURCE ID: event_datetime_range_key_sis_apr25
 TEXT: Du 9 avril à 10h au 14 avril à 20h
 
@@ -660,6 +666,12 @@ TEXT: Gagne {0} point d’amitié de plus en jouant ensemble pour devenir {1} 
 RESOURCE ID: friendship_detail_unlock_reqs_singular_out
 TEXT: Jouez ensemble {0} jour de plus pour devenir {1}.
 
+RESOURCE ID: fusion_unfuse_description_kyurem_black
+TEXT: Kyurem Noir va se séparer en Zekrom et Kyurem. De l’Énergie fusion sera nécessaire pour les fusionner à nouveau.
+
+RESOURCE ID: fusion_unfuse_description_kyurem_white
+TEXT: Kyurem Blanc va se séparer en Reshiram et Kyurem. De l’Énergie fusion sera nécessaire pour les fusionner à nouveau.
+
 RESOURCE ID: general1.ticket.4_sunmoon_researchtr2025_title
 TEXT: Ticket pour la Journée Étude céleste
 
@@ -678,6 +690,9 @@ TEXT: Ticket pour la Journée Communauté de Ouistempo
 
 RESOURCE ID: general1.ticket_cdc_piplup26_title
 TEXT: Ticket pour Les classiques de la Journée Communauté – Tiplouf
+
+RESOURCE ID: general2.ticket.6_shadowraikouraidday_title
+TEXT: Ticket pour la Journée de Raids obscurs Raikou
 
 RESOURCE ID: general2.ticket2.pinch_perfect
 TEXT: Ticket pour l’Étude ponctuelle premium Pinces parfaites
@@ -773,11 +788,17 @@ TEXT: Un ticket pour accéder à l’Étude ponctuelle premium Amitié solide ju
 RESOURCE ID: item_event_ticket_gray_desc_kyuremfusionraidday
 TEXT: Un ticket pour accéder à des bonus spéciaux le 10 janvier 2026 de 14h à 17h, heures locales, où que tu sois.
 
+RESOURCE ID: item_event_ticket_gray_desc_raikoushadowraidday
+TEXT: Un ticket pour accéder aux bonus spéciaux jusqu’au 24 janvier 2026 à 17h, heure locale, où que tu sois.
+
 RESOURCE ID: item_event_ticket_gray_details_buddy_event
 TEXT: Ce ticket s’activera automatiquement le 20 janvier pour te donner accès à l’Étude ponctuelle premium Amitié solide, où que tu sois.
 
 RESOURCE ID: item_event_ticket_gray_details_kyuremfusionraidday
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à des bonus spéciaux le 10 janvier, où que tu sois.
+
+RESOURCE ID: item_event_ticket_gray_details_raikoushadowraidday
+TEXT: Ce ticket s’activera automatiquement pour te donner accès à des bonus spéciaux le 24 janvier, où que tu sois.
 
 RESOURCE ID: item_event_ticket_pink_desc_cd_grookey25
 TEXT: Un ticket pour accéder à l’Étude spéciale de la Journée Communauté de Ouistempo dès le 18 janvier à 14h, heure locale, où que tu sois.
@@ -831,10 +852,10 @@ RESOURCE ID: lucky_remote_trade_initiate_body
 TEXT: {0} t’a envoyé une demande d’Échange Chanceux à distance !
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-01-15T01:34:52.841803+00:00 for fr-FR
-at SHA 7b97f268348
-Pipeline 3498146, job 49767646
-Patch from: 0.393.0-SHA-de39624e-RC3, 0.395.0-SHA-66d31ba0-RC2
+TEXT: Built at 2026-01-17T01:59:13.141606+00:00 for fr-FR
+at SHA fb790a858a6
+Pipeline 3501653, job 49842875
+Patch from: 0.395.0-SHA-89cf719f-RC4, 0.393.0-SHA-bb1c42df-RC1
 
 RESOURCE ID: move_name_0491
 TEXT: Caboche-Kaboum
@@ -877,6 +898,156 @@ TEXT: Taille
 
 RESOURCE ID: pokemon_desc_0839
 TEXT: Il est d'une nature paisible, mais si les humains tentent de piller ses mines, il enrage et brûle tout avec des flammes à 1 500 ºC.
+
+RESOURCE ID: pokemon_desc_tmpevo_0036_0001
+TEXT: It flies by using the power of moonlight to control gravity within a radius of over 32 feet around it.
+
+RESOURCE ID: pokemon_desc_tmpevo_0071_0001
+TEXT: The volume of this Pokémon's acid has increased due to Mega Evolution, filling its mouth. If it's not careful, the acid will overflow and spill out.
+
+RESOURCE ID: pokemon_desc_tmpevo_0121_0001
+TEXT: Its movements have become more humanlike. Whether it's simply trying to communicate or wants to supplant humanity is unclear.
+
+RESOURCE ID: pokemon_desc_tmpevo_0149_0001
+TEXT: Mega Evolution has excessively powered up this Pokémon's feelings of kindness. It finishes off its opponents with mercy in its heart.
+
+RESOURCE ID: pokemon_desc_tmpevo_0154_0001
+TEXT: This Pokémon can fire a tremendously powerful Solar Beam from its four flowers. Another name for this is Mega Sol Cannon.
+
+RESOURCE ID: pokemon_desc_tmpevo_0160_0001
+TEXT: With its arms and hoodlike fin, this Pokémon forms a gigantic set of jaws with a bite 10 times as powerful as Mega Feraligatr's actual jaws.
+
+RESOURCE ID: pokemon_desc_tmpevo_0227_0001
+TEXT: It flies faster than the speed of sound. After whipping up shock waves to send enemies flying, it finishes them off with its talons.
+
+RESOURCE ID: pokemon_desc_tmpevo_0229_0001
+TEXT: Houndoom's entire body generates heat when it Mega Evolves. Its intense, fiery breath turns its opponents to charcoal.
+
+RESOURCE ID: pokemon_desc_tmpevo_0478_0001
+TEXT: This Pokémon can use eerie cold air imbued with ghost energy to freeze even insubstantial things, such as flames or the wind.
+
+RESOURCE ID: pokemon_desc_tmpevo_0500_0001
+TEXT: Brandishing a blazing flame shaped like a serpentine spear, it rushes in to rescue its imperiled allies.
+
+RESOURCE ID: pokemon_desc_tmpevo_0545_0001
+TEXT: Its deadly venom gives off a faint glow. The venom affects Scolipede's mind, honing its viciousness.
+
+RESOURCE ID: pokemon_desc_tmpevo_0560_0001
+TEXT: Mega Evolution has caused Scrafty's shed skin to turn white, growing tough and supple. Of course, this Pokémon is still as feisty as ever.
+
+RESOURCE ID: pokemon_desc_tmpevo_0604_0001
+TEXT: It now generates 10 times the electricity it did before Mega Evolving. It discharges this electricity from its false Eelektrik, which are made of mucus.
+
+RESOURCE ID: pokemon_desc_tmpevo_0609_0001
+TEXT: One of its eyes is a window linking our world with the afterlife. This Pokémon draws in hatred and converts it into power.
+
+RESOURCE ID: pokemon_desc_tmpevo_0652_0001
+TEXT: It has fortified armor and a will to defend at all costs. Both are absurdly strong.
+
+RESOURCE ID: pokemon_desc_tmpevo_0655_0001
+TEXT: It wields flaming branches to dazzle its opponents before incinerating them with a huge fireball.
+
+RESOURCE ID: pokemon_desc_tmpevo_0658_0001
+TEXT: This Pokémon spins a giant shuriken at high speed to make it float, then clings to it upside down to catch opponents unawares.
+
+RESOURCE ID: pokemon_desc_tmpevo_0668_0001
+TEXT: This Pokémon spews flames hotter than 18,000 degrees Fahrenheit. It swings around its grand, blazing mane as it protects its allies.
+
+RESOURCE ID: pokemon_desc_tmpevo_0687_0001
+TEXT: It uses its colorful lights to overwrite the personalities and memories of others—and to control them.
+
+RESOURCE ID: pokemon_desc_tmpevo_0689_0001
+TEXT: It uses its many arms to toy with its opponents. This keeps the head extremely busy.
+
+RESOURCE ID: pokemon_desc_tmpevo_0691_0001
+TEXT: It spits a liquid that causes the regenerative power of cells to run wild. The liquid is deadly poison to everything other than itself.
+
+RESOURCE ID: pokemon_desc_tmpevo_0701_0001
+TEXT: Mega Evolution has pumped up all its muscles. Hawlucha flexes to show off its strength.
+
+RESOURCE ID: pokemon_desc_tmpevo_0718_0001
+TEXT: In response to people's emotions during an unprecedented crisis, Zygarde Mega Evolves and calms the situation with its unmatched power.
+
+RESOURCE ID: pokemon_desc_tmpevo_0780_0001
+TEXT: Drampa's cells have been invigorated, allowing it to regain its youth. It manipulates the atmosphere to summon storms.
+
+RESOURCE ID: pokemon_desc_tmpevo_0870_0001
+TEXT: Mega Falinks has taken on the ultimate battle formation, which can be achieved only if the troopers and brass have the strongest of bonds.
+
+RESOURCE ID: pokemon_name_0036_0001
+TEXT: Mega Clefable
+
+RESOURCE ID: pokemon_name_0071_0001
+TEXT: Mega Victreebel
+
+RESOURCE ID: pokemon_name_0121_0001
+TEXT: Mega Starmie
+
+RESOURCE ID: pokemon_name_0149_0001
+TEXT: Mega Dragonite
+
+RESOURCE ID: pokemon_name_0154_0001
+TEXT: Mega Meganium
+
+RESOURCE ID: pokemon_name_0160_0001
+TEXT: Mega Feraligatr
+
+RESOURCE ID: pokemon_name_0227_0001
+TEXT: Mega Skarmory
+
+RESOURCE ID: pokemon_name_0229_0001
+TEXT: Mega Houndoom
+
+RESOURCE ID: pokemon_name_0478_0001
+TEXT: Mega Frosslass
+
+RESOURCE ID: pokemon_name_0500_0001
+TEXT: Mega Emboar
+
+RESOURCE ID: pokemon_name_0545_0001
+TEXT: Mega Scolipede
+
+RESOURCE ID: pokemon_name_0560_0001
+TEXT: Mega Scrafty
+
+RESOURCE ID: pokemon_name_0604_0001
+TEXT: Mega Elektross
+
+RESOURCE ID: pokemon_name_0609_0001
+TEXT: Mega Chandelure
+
+RESOURCE ID: pokemon_name_0652_0001
+TEXT: Mega Chesnaught
+
+RESOURCE ID: pokemon_name_0655_0001
+TEXT: Mega Delphox
+
+RESOURCE ID: pokemon_name_0658_0001
+TEXT: Mega Greninja
+
+RESOURCE ID: pokemon_name_0668_0001
+TEXT: Mega Pyroar
+
+RESOURCE ID: pokemon_name_0687_0001
+TEXT: Mega Malamar
+
+RESOURCE ID: pokemon_name_0689_0001
+TEXT: Mega Barbanacle
+
+RESOURCE ID: pokemon_name_0691_0001
+TEXT: Mega Dragalge
+
+RESOURCE ID: pokemon_name_0701_0001
+TEXT: Mega Hawlucha
+
+RESOURCE ID: pokemon_name_0718_0001
+TEXT: Mega Zygarde
+
+RESOURCE ID: pokemon_name_0780_0001
+TEXT: Mega Drampa
+
+RESOURCE ID: pokemon_name_0870_0001
+TEXT: Mega Falinks
 
 RESOURCE ID: pokemon_name_1009
 TEXT: Serpente-Eau
@@ -1108,6 +1279,12 @@ TEXT: Achète le Passe GO deluxe : Fêtes d’hiver 2025 pour déverrouiller l
 RESOURCE ID: see_bonus_ranks_button
 TEXT: VOIR RANGS BONUS
 
+RESOURCE ID: shadow_raid_day_raikou_event_name
+TEXT: Journée de Raids obscurs Raikou
+
+RESOURCE ID: shadow_raikou_website_link
+TEXT: Tous les détails sont sur le <a href="https://pokemongo.com/post/shadow-raikou-raid-day-2026">site Web</a>.
+
 RESOURCE ID: spawn_grookey
 TEXT: Davantage de Ouistempo apparaissent dans la nature.
 
@@ -1115,7 +1292,7 @@ RESOURCE ID: spawn_piplup
 TEXT: Davantage de Tiplouf apparaissent dans la nature.
 
 RESOURCE ID: stamp_rally_missed_prefecture_reward_toast
-TEXT: To claim this reward, tap the stamp button while at one of the Poké Lid Stamp Rally locations in this prefecture.
+TEXT: Pour obtenir cette récompense, appuie sur le bouton du tampon quand tu te trouves à proximité des lieux de la Chasse aux tampons Poké Lid de cette préfecture.
 
 RESOURCE ID: sticker_count_format
 TEXT: ×{0}
@@ -1195,6 +1372,11 @@ TEXT: <b>Donne accès aux récompenses suivantes :</b>
 • Des rencontres avec des Pokémon sur le thème de l’évènement, dont Sinistrail et Craparoi
 • 2 passes de Raid premium 
 • 19 000 PX
+
+RESOURCE ID: text_rewards_key_raikoushadowraidday
+TEXT: <b>Donne accès aux bonus suivants :</b>
+• 5 passes de Raid supplémentaires en faisant tourner les PhotoDisques des Arènes
+• 50 % de PX en plus et le double de Poussières Étoiles quand tu gagnes des Raids
 
 RESOURCE ID: text_rewards_key_sunmoon_researchtr2025
 TEXT: Ces deux séries d’Études ponctuelles, qui t’encouragent à terminer des tâches d’Études de terrain, te donneront accès à des rencontres avec les Pokémon en vedette Solaroc et Séléroc !

@@ -507,6 +507,9 @@ TEXT: 자세한 내용은 <a href="https://pokemongolive.com/post/communitydaycl
 RESOURCE ID: community_day_piplup_event_name_cdc
 TEXT: 커뮤니티 데이(복각): 팽도리
 
+RESOURCE ID: datetime_range_format
+TEXT: {0}, {1} – {2}, {3}
+
 RESOURCE ID: details_link_key_new_year_jan2026
 TEXT: 자세한 내용은 <a href="https://pokemongolive.com/post/new-years-2026">웹사이트</a>에서 확인해 주세요.
 
@@ -539,6 +542,9 @@ TEXT: 12월 31일 10시 ~
 RESOURCE ID: event_datetime_range_key_pinch_perfect
 TEXT: 1월 6일 10시~
 1월 11일 20시
+
+RESOURCE ID: event_datetime_range_key_raikoushadowraidday
+TEXT: 1월 24일 14시~17시
 
 RESOURCE ID: event_datetime_range_key_sunmoon_researchtr2025
 TEXT: 12월 20일 14시~17시
@@ -594,6 +600,9 @@ TEXT: 흥나숭 커뮤니티 데이 티켓
 
 RESOURCE ID: general1.ticket_cdc_piplup26_title
 TEXT: 팽도리 커뮤니티 데이(복각) 티켓
+
+RESOURCE ID: general2.ticket.6_shadowraikouraidday_title
+TEXT: 라이코 그림자 레이드 데이 티켓
 
 RESOURCE ID: general2.ticket2.pinch_perfect
 TEXT: 해변의 낭떠러지 프리미엄 시간제한 리서치 티켓
@@ -689,11 +698,17 @@ TEXT: 현지시간 2026년 1월 25일 20시까지 소중한 파트너 프리미�
 RESOURCE ID: item_event_ticket_gray_desc_kyuremfusionraidday
 TEXT: 현지시간 2026년 1월 10일 14시~17시에 보너스를 받기 위한 티켓.
 
+RESOURCE ID: item_event_ticket_gray_desc_raikoushadowraidday
+TEXT: 현지시간 2026년 1월 24일 17시까지 보너스를 받기 위한 티켓.
+
 RESOURCE ID: item_event_ticket_gray_details_buddy_event
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2026년 1월 20일에 소중한 파트너 프리미엄 시간제한 리서치를 손에 넣을 수 있습니다.
 
 RESOURCE ID: item_event_ticket_gray_details_kyuremfusionraidday
 TEXT: 이 티켓은 자동으로 활성화되어 1월 10일에 발생하는 보너스를 손에 넣을 수 있습니다.
+
+RESOURCE ID: item_event_ticket_gray_details_raikoushadowraidday
+TEXT: 이 티켓은 자동으로 활성화되어 1월 24일에 발생하는 보너스를 손에 넣을 수 있습니다.
 
 RESOURCE ID: item_event_ticket_pink_desc_cd_grookey25
 TEXT: 현지시간 2026년 1월 18일 14시부터 흥나숭 커뮤니티 데이 스페셜리서치를 진행하기 위한 티켓.
@@ -741,7 +756,7 @@ RESOURCE ID: kr_winter_festival_2026_tr_name_3
 TEXT: 평창 겨울축제 로케이션 배경 시간제한 리서치(3/3)
 
 RESOURCE ID: kr_winter_festival_location_background_in_wild
-TEXT: 야생에서 만나는 눈송이 비니의 피카츄에 겨율축제 로케이션 배경이 있을 수도 있음
+TEXT: 야생에서 만나는 눈송이 비니의 피카츄에 겨울축제 로케이션 배경이 있을 수도 있음
 
 RESOURCE ID: kr_winter_festival_raid_event_area
 TEXT: 눈송이 비니의 피카츄와 사철록(겨울의 모습)이 평창 구역 이벤트 한정 레이드에 등장
@@ -753,10 +768,10 @@ RESOURCE ID: lucky_remote_trade_initiate_body
 TEXT: {0}님의 반짝반짝 리모트 교환 요청이 있습니다
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-01-15T01:34:52.841803+00:00 for ko-KR
-at SHA 7b97f268348
-Pipeline 3498146, job 49767646
-Patch from: 0.393.0-SHA-de39624e-RC3, 0.395.0-SHA-66d31ba0-RC2
+TEXT: Built at 2026-01-17T01:59:13.141606+00:00 for ko-KR
+at SHA fb790a858a6
+Pipeline 3501653, job 49842875
+Patch from: 0.395.0-SHA-89cf719f-RC4, 0.393.0-SHA-bb1c42df-RC1
 
 RESOURCE ID: move_name_0491
 TEXT: 깜짝헤드
@@ -797,44 +812,195 @@ TEXT: 해변의 낭떠러지
 RESOURCE ID: pokedex_sort_size
 TEXT: 사이즈
 
+RESOURCE ID: pokemon_desc_tmpevo_0036_0001
+TEXT: It flies by using the power of moonlight to control gravity within a radius of over 32 feet around it.
+
+RESOURCE ID: pokemon_desc_tmpevo_0071_0001
+TEXT: The volume of this Pokémon's acid has increased due to Mega Evolution, filling its mouth. If it's not careful, the acid will overflow and spill out.
+
+RESOURCE ID: pokemon_desc_tmpevo_0121_0001
+TEXT: Its movements have become more humanlike. Whether it's simply trying to communicate or wants to supplant humanity is unclear.
+
+RESOURCE ID: pokemon_desc_tmpevo_0149_0001
+TEXT: Mega Evolution has excessively powered up this Pokémon's feelings of kindness. It finishes off its opponents with mercy in its heart.
+
+RESOURCE ID: pokemon_desc_tmpevo_0154_0001
+TEXT: This Pokémon can fire a tremendously powerful Solar Beam from its four flowers. Another name for this is Mega Sol Cannon.
+
+RESOURCE ID: pokemon_desc_tmpevo_0160_0001
+TEXT: With its arms and hoodlike fin, this Pokémon forms a gigantic set of jaws with a bite 10 times as powerful as Mega Feraligatr's actual jaws.
+
+RESOURCE ID: pokemon_desc_tmpevo_0227_0001
+TEXT: It flies faster than the speed of sound. After whipping up shock waves to send enemies flying, it finishes them off with its talons.
+
+RESOURCE ID: pokemon_desc_tmpevo_0229_0001
+TEXT: Houndoom's entire body generates heat when it Mega Evolves. Its intense, fiery breath turns its opponents to charcoal.
+
+RESOURCE ID: pokemon_desc_tmpevo_0478_0001
+TEXT: This Pokémon can use eerie cold air imbued with ghost energy to freeze even insubstantial things, such as flames or the wind.
+
+RESOURCE ID: pokemon_desc_tmpevo_0500_0001
+TEXT: Brandishing a blazing flame shaped like a serpentine spear, it rushes in to rescue its imperiled allies.
+
+RESOURCE ID: pokemon_desc_tmpevo_0545_0001
+TEXT: Its deadly venom gives off a faint glow. The venom affects Scolipede's mind, honing its viciousness.
+
+RESOURCE ID: pokemon_desc_tmpevo_0560_0001
+TEXT: Mega Evolution has caused Scrafty's shed skin to turn white, growing tough and supple. Of course, this Pokémon is still as feisty as ever.
+
+RESOURCE ID: pokemon_desc_tmpevo_0604_0001
+TEXT: It now generates 10 times the electricity it did before Mega Evolving. It discharges this electricity from its false Eelektrik, which are made of mucus.
+
+RESOURCE ID: pokemon_desc_tmpevo_0609_0001
+TEXT: One of its eyes is a window linking our world with the afterlife. This Pokémon draws in hatred and converts it into power.
+
+RESOURCE ID: pokemon_desc_tmpevo_0652_0001
+TEXT: It has fortified armor and a will to defend at all costs. Both are absurdly strong.
+
+RESOURCE ID: pokemon_desc_tmpevo_0655_0001
+TEXT: It wields flaming branches to dazzle its opponents before incinerating them with a huge fireball.
+
+RESOURCE ID: pokemon_desc_tmpevo_0658_0001
+TEXT: This Pokémon spins a giant shuriken at high speed to make it float, then clings to it upside down to catch opponents unawares.
+
+RESOURCE ID: pokemon_desc_tmpevo_0668_0001
+TEXT: This Pokémon spews flames hotter than 18,000 degrees Fahrenheit. It swings around its grand, blazing mane as it protects its allies.
+
+RESOURCE ID: pokemon_desc_tmpevo_0687_0001
+TEXT: It uses its colorful lights to overwrite the personalities and memories of others—and to control them.
+
+RESOURCE ID: pokemon_desc_tmpevo_0689_0001
+TEXT: It uses its many arms to toy with its opponents. This keeps the head extremely busy.
+
+RESOURCE ID: pokemon_desc_tmpevo_0691_0001
+TEXT: It spits a liquid that causes the regenerative power of cells to run wild. The liquid is deadly poison to everything other than itself.
+
+RESOURCE ID: pokemon_desc_tmpevo_0701_0001
+TEXT: Mega Evolution has pumped up all its muscles. Hawlucha flexes to show off its strength.
+
+RESOURCE ID: pokemon_desc_tmpevo_0718_0001
+TEXT: In response to people's emotions during an unprecedented crisis, Zygarde Mega Evolves and calms the situation with its unmatched power.
+
+RESOURCE ID: pokemon_desc_tmpevo_0780_0001
+TEXT: Drampa's cells have been invigorated, allowing it to regain its youth. It manipulates the atmosphere to summon storms.
+
+RESOURCE ID: pokemon_desc_tmpevo_0870_0001
+TEXT: Mega Falinks has taken on the ultimate battle formation, which can be achieved only if the troopers and brass have the strongest of bonds.
+
+RESOURCE ID: pokemon_name_0036_0001
+TEXT: Mega Clefable
+
+RESOURCE ID: pokemon_name_0071_0001
+TEXT: Mega Victreebel
+
+RESOURCE ID: pokemon_name_0121_0001
+TEXT: Mega Starmie
+
+RESOURCE ID: pokemon_name_0149_0001
+TEXT: Mega Dragonite
+
+RESOURCE ID: pokemon_name_0154_0001
+TEXT: Mega Meganium
+
+RESOURCE ID: pokemon_name_0160_0001
+TEXT: Mega Feraligatr
+
+RESOURCE ID: pokemon_name_0227_0001
+TEXT: Mega Skarmory
+
+RESOURCE ID: pokemon_name_0229_0001
+TEXT: Mega Houndoom
+
+RESOURCE ID: pokemon_name_0478_0001
+TEXT: Mega Frosslass
+
+RESOURCE ID: pokemon_name_0500_0001
+TEXT: Mega Emboar
+
+RESOURCE ID: pokemon_name_0545_0001
+TEXT: Mega Scolipede
+
+RESOURCE ID: pokemon_name_0560_0001
+TEXT: Mega Scrafty
+
+RESOURCE ID: pokemon_name_0604_0001
+TEXT: Mega Elektross
+
+RESOURCE ID: pokemon_name_0609_0001
+TEXT: Mega Chandelure
+
+RESOURCE ID: pokemon_name_0652_0001
+TEXT: Mega Chesnaught
+
+RESOURCE ID: pokemon_name_0655_0001
+TEXT: Mega Delphox
+
+RESOURCE ID: pokemon_name_0658_0001
+TEXT: Mega Greninja
+
+RESOURCE ID: pokemon_name_0668_0001
+TEXT: Mega Pyroar
+
+RESOURCE ID: pokemon_name_0687_0001
+TEXT: Mega Malamar
+
+RESOURCE ID: pokemon_name_0689_0001
+TEXT: Mega Barbanacle
+
+RESOURCE ID: pokemon_name_0691_0001
+TEXT: Mega Dragalge
+
+RESOURCE ID: pokemon_name_0701_0001
+TEXT: Mega Hawlucha
+
+RESOURCE ID: pokemon_name_0718_0001
+TEXT: Mega Zygarde
+
+RESOURCE ID: pokemon_name_0780_0001
+TEXT: Mega Drampa
+
+RESOURCE ID: pokemon_name_0870_0001
+TEXT: Mega Falinks
+
 RESOURCE ID: pokemon_name_1009
-TEXT: Walking Wake
+TEXT: 굽이치는물결
+
 
 RESOURCE ID: pokemon_name_1010
-TEXT: Iron Leaves
+TEXT: 무쇠잎새
 
 RESOURCE ID: pokemon_name_1014
-TEXT: Okidogi
+TEXT: 조타구
 
 RESOURCE ID: pokemon_name_1015
-TEXT: Munkidori
+TEXT: 이야후
 
 RESOURCE ID: pokemon_name_1016
-TEXT: Fezandipiti
+TEXT: 기로치
 
 RESOURCE ID: pokemon_name_1017
-TEXT: Ogerpon
+TEXT: 오거폰
 
 RESOURCE ID: pokemon_name_1018
-TEXT: Archaludon
+TEXT: 브리두라스
 
 RESOURCE ID: pokemon_name_1020
-TEXT: Gouging Fire
+TEXT: 꿰뚫는화염
 
 RESOURCE ID: pokemon_name_1021
-TEXT: Raging Bolt
+TEXT: 날뛰는우레
 
 RESOURCE ID: pokemon_name_1022
-TEXT: Iron Boulder
+TEXT: 무쇠암석
 
 RESOURCE ID: pokemon_name_1023
-TEXT: Iron Crown
+TEXT: 무쇠감투
 
 RESOURCE ID: pokemon_name_1024
-TEXT: Terapagos
+TEXT: 테라파고스
 
 RESOURCE ID: pokemon_name_1025
-TEXT: Pecharunt
+TEXT: 복숭악동
 
 RESOURCE ID: pokémon_ibfc_desc_0778
 TEXT: Once per battle, the shroud that covers the Pokémon can protect it from a Charged Attack. The Pokémon’s Defense will be lowered until the end of battle.
@@ -1033,6 +1199,12 @@ TEXT: GO 패스 디럭스: 윈터2025를 구매하면 다음 리워드를 받을
 RESOURCE ID: see_bonus_ranks_button
 TEXT: SEE BONUS RANKS
 
+RESOURCE ID: shadow_raid_day_raikou_event_name
+TEXT: 라이코 그림자 레이드 데이
+
+RESOURCE ID: shadow_raikou_website_link
+TEXT: 자세한 내용은 <a href="https://pokemongo.com/post/shadow-raikou-raid-day-2026">웹사이트</a>에서 확인해 주세요.
+
 RESOURCE ID: shop_inventory_more_capacity
 TEXT: 도구 가방이 가득 찼습니다!
 
@@ -1126,6 +1298,11 @@ TEXT: <b>받을 수 있는 리워드:</b>
 - 타타륜, 절벼게, 기타 이벤트와 어울리는 포켓몬과의 만남
 - 프리미엄 레이드패스 2개
 -19,000XP
+
+RESOURCE ID: text_rewards_key_raikoushadowraidday
+TEXT: <b>받을 수 있는 보너스:</b>
+- 체육관 포토디스크를 돌려 추가 레이드패스 5개
+- 레이드배틀 승리 시 받을 수 있는 XP 50% 증가와 별의모래 2배 등
 
 RESOURCE ID: text_rewards_key_sunmoon_researchtr2025
 TEXT: 필드리서치를 진행함에 따라 루나톤과 솔록을 만날 수 있는 시간제한 리서치입니다.
