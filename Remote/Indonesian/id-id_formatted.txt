@@ -76,9 +76,6 @@ TEXT: 3. Hias & bagikan
 RESOURCE ID: ar_photo_social_ftue_title
 TEXT: Pilih Pokémon untuk berfoto bersama!
 
-RESOURCE ID: ar_photo_social_hashtag
-TEXT: #PokemonGO
-
 RESOURCE ID: ar_photo_social_horizontal_mode_hint
 TEXT: Putar ponsel ke mode potret untuk hasil terbaik.
 
@@ -121,6 +118,15 @@ TEXT: Ingin mengambil foto baru?
 RESOURCE ID: ar_photo_social_share_default_referral_text
 TEXT: Ambil foto bersama Pokémon di Pokémon GO!
 
+RESOURCE ID: ar_photo_social_share_more_photos
+TEXT: Show more photos
+
+RESOURCE ID: ar_photo_social_share_more_photos_prompt
+TEXT: Want to see more photos with {0}?
+
+RESOURCE ID: ar_photo_social_share_prompt
+TEXT: Share your photos online!
+
 RESOURCE ID: ar_photo_social_share_referral_text
 TEXT: Ambil foto bersama Pokémon di Pokémon GO!
 
@@ -145,12 +151,6 @@ TEXT: Ambil foto lain
 RESOURCE ID: ar_photo_social_take_photo_prompt
 TEXT: Ambil foto untuk melihat {0}
 
-RESOURCE ID: ar_photo_social_timer_off_label
-TEXT: Timer Off
-
-RESOURCE ID: ar_photo_social_timer_on_label
-TEXT: Timer On
-
 RESOURCE ID: ar_photo_social_valid_pokemon_warning
 TEXT: Maaf, saat ini kamu tidak bisa mengambil foto bersama {0}.
 
@@ -163,12 +163,6 @@ TEXT: Ambil Foto Baru
 RESOURCE ID: asakusa_routes_event_title
 TEXT: 8 Panorama Rute Asakusa
 
-RESOURCE ID: avatar_bag_charjabug
-TEXT: Tas Charjabug
-
-RESOURCE ID: avatar_hat_snom
-TEXT: Beanie Snom
-
 RESOURCE ID: avatar_n_hat_communityambassador
 TEXT: Topi Ambasador Komunitas
 
@@ -177,60 +171,6 @@ TEXT: Pose Ambasador Komunitas
 
 RESOURCE ID: avatar_pose_heart
 TEXT: Pose Hati
-
-RESOURCE ID: avatar_shirt_sweatersudowoodo
-TEXT: Sweter Sudowoodo
-
-RESOURCE ID: avatar_shoes_blacephelon
-TEXT: Sepatu Blacephalon
-
-RESOURCE ID: badge_safari_2025_buenos_aires_add_on_hatch
-TEXT: Buenos Aires 2025
-
-RESOURCE ID: badge_safari_2025_buenos_aires_add_on_hatch_title
-TEXT: Pokémon GO City Safari—Penggila Telur
-
-RESOURCE ID: badge_safari_2025_buenos_aires_add_on_raid
-TEXT: Buenos Aires 2025
-
-RESOURCE ID: badge_safari_2025_buenos_aires_add_on_raid_title
-TEXT: Pokémon GO City Safari—Pencinta Raid
-
-RESOURCE ID: badge_safari_2025_buenos_aires_saturday
-TEXT: Buenos Aires, 13 Desember 2025
-
-RESOURCE ID: badge_safari_2025_buenos_aires_saturday_title
-TEXT: Pokémon GO City Safari
-
-RESOURCE ID: badge_safari_2025_buenos_aires_sunday
-TEXT: Buenos Aires, 14 Desember 2025
-
-RESOURCE ID: badge_safari_2025_buenos_aires_sunday_title
-TEXT: Pokémon GO City Safari
-
-RESOURCE ID: badge_safari_2025_miami_saturday
-TEXT: Miami, 13 Desember 2025
-
-RESOURCE ID: badge_safari_2025_miami_saturday_title
-TEXT: Pokémon GO City Safari
-
-RESOURCE ID: badge_safari_2025_miami_sunday
-TEXT: Miami, 14 Desember 2025
-
-RESOURCE ID: badge_safari_2025_miami_sunday_title
-TEXT: Pokémon GO City Safari
-
-RESOURCE ID: badge_safari_2025_sydney_saturday
-TEXT: Sydney, 13 Desember 2025
-
-RESOURCE ID: badge_safari_2025_sydney_saturday_title
-TEXT: Pokémon GO City Safari
-
-RESOURCE ID: badge_safari_2025_sydney_sunday
-TEXT: Sydney, 14 Desember 2025
-
-RESOURCE ID: badge_safari_2025_sydney_sunday_title
-TEXT: Pokémon GO City Safari
 
 RESOURCE ID: battle_condition_mega_enrage
 TEXT: {0} is protecting itself with Mega Energy
@@ -259,11 +199,14 @@ TEXT: One additional Candy from catching Pokémon in five-star and Mega raids
 RESOURCE ID: bonus_candy_xl_raids_t5_plus_mega
 TEXT: One additional Candy XL from catching Pokémon in five-star and Mega raids
 
+RESOURCE ID: bonus_cd_move_alolan_vulpix
+TEXT: Evolusikan Alolan Vulpix untuk mendapatkan Alolan Ninetales yang mempelajari Air Dingin!
+
 RESOURCE ID: bonus_cd_move_grookey
 TEXT: Evolusikan Thwackey untuk mendapatkan Rillaboom yang mempelajari Hard Plant!
 
-RESOURCE ID: bonus_cd_move_piplup
-TEXT: Evolusikan Prinplup untuk mendapatkan Empoleon yang mempelajari Hydro Cannon!
+RESOURCE ID: bonus_cd_move_vulpix
+TEXT: Evolusikan Vulpix untuk mendapatkan Ninetales yang mempelajari Energy Ball!
 
 RESOURCE ID: bonus_gift_inventory_40
 TEXT: Gift storage increased to 40
@@ -313,6 +256,9 @@ TEXT: Premier Balls have an increased catch rate
 RESOURCE ID: bonus_raid_3_xl_candy_t5_and_mega
 TEXT: Six additional Candy XL for successful five-star raids and Mega Raids
 
+RESOURCE ID: bonus_raid_3_xl_candy_t5_and_mega_temp
+TEXT: Three additional Candy XL from successful five-star and Mega Raids
+
 RESOURCE ID: bonus_raid_6_candy_t5_and_mega
 TEXT: Six additional Candy for successful five-star raids and Mega Raids
 
@@ -325,7 +271,7 @@ TEXT: Increased chance of encountering White Flower Flabébé, Orange Flower Fla
 RESOURCE ID: bonus_routes_flabebe_tainan
 TEXT: Increased chance of encountering White Flower Flabébé, Orange Flower Flabébé, and Blue Flower Flabébé on Routes
 
-RESOURCE ID: bonus_scatterbug_pin_3
+RESOURCE ID: bonus_scatterbug_pin_3_temp
 TEXT: Scatterbug appear 3x more quickly based on pinned Postcards
 
 RESOURCE ID: bonus_scatterbug_pin_6
@@ -538,20 +484,11 @@ TEXT: Assabu
 RESOURCE ID: city_manhole_440
 TEXT: Yuni
 
-RESOURCE ID: city_manhole_441
-TEXT: Naha
-
 RESOURCE ID: city_manhole_442
 TEXT: Tsubetsu
 
 RESOURCE ID: city_manhole_443
 TEXT: Sapporo
-
-RESOURCE ID: city_manhole_444
-TEXT: Iki
-
-RESOURCE ID: city_manhole_445
-TEXT: Saza
 
 RESOURCE ID: city_manhole_446
 TEXT: Inagi
@@ -585,17 +522,11 @@ RESOURCE ID: combat_move_transformed_blocked
 TEXT: TRANSFORMED!
 BLOCKED!
 
-RESOURCE ID: community_celebration_today_view
-TEXT: Perayaan Komunitas
-
 RESOURCE ID: community_day_grookey_event_name
 TEXT: Hari Komunitas: Grookey
 
-RESOURCE ID: community_day_piplup_details_link
-TEXT: Untuk detail lebih lanjut, kunjungi <a href="https://pokemongolive.com/post/communitydayclassic-piplup-jan-2026">situs web</a>.
-
-RESOURCE ID: community_day_piplup_event_name_cdc
-TEXT: Hari Komunitas Klasik: Piplup
+RESOURCE ID: community_day_vulpix_event_name
+TEXT: Hari Komunitas: Vulpix dan Alolan Vulpix
 
 RESOURCE ID: datetime_range_format
 TEXT: {0}, {1} – {2}, {3}
@@ -605,12 +536,6 @@ TEXT: At the top of each hour, Unown will appear in large numbers!
 
 RESOURCE ID: details_link_key_dmax_ho_oh
 TEXT: Untuk detail lebih lanjut, kunjungi <a href="https://pokemongo.com/news/ho-oh-max-battle-weekend-2026">situs web</a>.
-
-RESOURCE ID: details_link_key_new_year_jan2026
-TEXT: Untuk detail lebih lanjut, kunjungi <a href="https://pokemongolive.com/post/new-years-2026">situs web</a>.
-
-RESOURCE ID: details_link_key_pinch_perfect_event_name_jan2026
-TEXT: Untuk detail lebih lanjut, kunjungi <a href="https://pokemongo.com/news/pinch-perfect-2026">situs web</a>.
 
 RESOURCE ID: dmax_ho_oh_lead_up_timed_research
 TEXT: Penelitian Berwaktu Event Pendahuluan Pertarungan Max Akhir Pekan Ho-Oh Dynamax
@@ -662,8 +587,8 @@ TEXT: 20 Januari, 10.00 –
 RESOURCE ID: event_datetime_range_key_cd_grookey25
 TEXT: 18 Januari, pukul 14.00 – 17.00
 
-RESOURCE ID: event_datetime_range_key_cdc_piplup26
-TEXT: 4 Januari, pukul 14.00 – 17.00
+RESOURCE ID: event_datetime_range_key_cd_vulpix26
+TEXT: 1 Februari, pukul 14.00 – 17.00
 
 RESOURCE ID: event_datetime_range_key_dmaxhooh26
 TEXT: 31 Januari, 6.00 –
@@ -686,9 +611,6 @@ TEXT: 6 Januari, 10.00 –
 
 RESOURCE ID: event_datetime_range_key_raikoushadowraidday
 TEXT: 24 Januari, pukul 14.00 – 17.00
-
-RESOURCE ID: event_datetime_range_key_sunmoon_researchtr2025
-TEXT: 20 Desember, pukul 14.00 – 17.00
 
 RESOURCE ID: event_datetime_range_key_wattsup_jan2026
 TEXT: 13 Januari, 10.00 –
@@ -749,38 +671,11 @@ RESOURCE ID: form_furfrou_star
 TEXT: Potongan
 Bintang
 
-RESOURCE ID: friendship_detail_gift
-TEXT: Hadiah
-
-RESOURCE ID: friendship_detail_item_bonus
-TEXT: Bonus Item
-
-RESOURCE ID: friendship_detail_item_plural
-TEXT: +{0} item
-
-RESOURCE ID: friendship_detail_item_singular
-TEXT: +{0} item
-
-RESOURCE ID: friendship_detail_unlock_reqs_plural
-TEXT: Dapatkan {0} poin pertemanan lagi dengan bermain bersama untuk menjadi {1}!
-
-RESOURCE ID: friendship_detail_unlock_reqs_plural_out
-TEXT: Bermain bersama selama {0} hari lagi untuk menjadi {1}!
-
-RESOURCE ID: friendship_detail_unlock_reqs_singular
-TEXT: Dapatkan {0} poin pertemanan lagi dengan bermain bersama untuk menjadi {1}!
-
-RESOURCE ID: friendship_detail_unlock_reqs_singular_out
-TEXT: Bermain bersama selama {0} hari lagi untuk menjadi {1}!
-
 RESOURCE ID: fusion_unfuse_description_kyurem_black
 TEXT: Kyurem Hitam akan terpisah menjadi Zekrom dan Kyurem. Energi Fusi diperlukan untuk memfusikannya lagi.
 
 RESOURCE ID: fusion_unfuse_description_kyurem_white
 TEXT: Kyurem Putih akan terpisah menjadi Reshiram dan Kyurem. Energi Fusi diperlukan untuk memfusikannya lagi.
-
-RESOURCE ID: general1.ticket.4_sunmoon_researchtr2025_title
-TEXT: Tiket Hari Penelitian Selestial
 
 RESOURCE ID: general1.ticket.5_buddy_event_title
 TEXT: Tiket Penelitian Berwaktu Premium Sahabat Berharga
@@ -797,8 +692,8 @@ TEXT: Tiket Hari Raid Fusi Kyurem
 RESOURCE ID: general1.ticket_cd_grookey25_title
 TEXT: Tiket Hari Komunitas Grookey
 
-RESOURCE ID: general1.ticket_cdc_piplup26_title
-TEXT: Tiket Hari Komunitas Klasik Piplup
+RESOURCE ID: general1.ticket_cd_vulpix26_title
+TEXT: Tiket Hari Komunitas Vulpix dan Alolan Vulpix
 
 RESOURCE ID: general2.ticket.6_shadowraikouraidday_title
 TEXT: Tiket Hari Raid Bayangan Raikou
@@ -814,15 +709,6 @@ TEXT: Mulai
 
 RESOURCE ID: general_pokemon_trainer
 TEXT: Pelatih Pokémon
-
-RESOURCE ID: gift_additional_items
-TEXT: Item tambahan dapat ditemukan di Hadiah
-
-RESOURCE ID: gift_pokemon_wild
-TEXT: Pokémon liar bertema event dapat menjatuhkan item tambahan ketika ditangkap
-
-RESOURCE ID: gift_xp_double
-TEXT: XP ×2 dari mengirim Hadiah
 
 RESOURCE ID: go_tour_ep_bonus_title_deluxe_00
 TEXT: Tier 1 GO Pass Deluxe: Road to Kalos Bonuses
@@ -904,9 +790,6 @@ TEXT: Selesaikan Tugas Tiket untuk Membuka Rank Bonus
 RESOURCE ID: ho_oh_dmax_tr_2025_title
 TEXT: Penelitian Berwaktu Premium Pertarungan Max Akhir Pekan Ho-Oh Dynamax
 
-RESOURCE ID: id2026_car_free_day_title
-TEXT: Car Free Day
-
 RESOURCE ID: id2026_car_free_day_tv_event_desc
 TEXT: Car Free Day telah dimulai! Temukan Pikachu bertopi pesta merah dengan Latar Belakang Lokasi melalui Penelitian Lapangan dan Berwaktu. Jangan sampai ketinggalan!
 
@@ -942,7 +825,7 @@ RESOURCE ID: in_techfest_2025_tr_name_3
 TEXT: Penelitian Berwaktu Pokémon GO College Fest 2026 (3/3)
 
 RESOURCE ID: increased_mega_level_caught_desc
-TEXT: Some Pokémon you catch from Super Mega Raids or reasearch may have increased Mega Levels.
+TEXT: Some Pokémon you catch from Super Mega Raids or research may already have at least one Mega Level.
 
 RESOURCE ID: increased_mega_level_caught_title
 TEXT: Increased Mega Levels
@@ -980,12 +863,6 @@ TEXT: Tiket untuk mengakses bonus spesial dari 31 Januari, pukul 6.00 hingga 1 F
 
 RESOURCE ID: item_event_ticket_08_details_gmaxhooh26
 TEXT: Tiket ini akan aktif secara otomatis pada 31 Januari dan memberimu akses ke bonus spesial, di mana pun kamu berada.
-
-RESOURCE ID: item_event_ticket_desc_sunmoon_researchtr2025
-TEXT: Tiket untuk mengakses Penelitian Berwaktu Premium Solrock dan Lunatone pada 20 Desember 2025, mulai pukul 14.00 hingga 17.00 waktu setempat, di mana pun kamu berada.
-
-RESOURCE ID: item_event_ticket_details_sunmoon_researchtr2025
-TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Berwaktu Premium Solrock dan Lunatone pada 20 Desember, di mana pun kamu berada.
 
 RESOURCE ID: item_event_ticket_evergreen_desc_intotdepths26
 TEXT: Tiket untuk mengakses Penelitian Berwaktu Premium Menuju Kedalaman hingga 1 Februari 2026, pukul 20.00 waktu setempat, di mana pun kamu berada.
@@ -1026,47 +903,14 @@ TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke bonus spesial 
 RESOURCE ID: item_event_ticket_pink_desc_cd_grookey25
 TEXT: Tiket untuk mengakses Penelitian Spesial Hari Komunitas Grookey mulai 18 Januari, pukul 14.00 waktu setempat, di mana pun kamu berada.
 
-RESOURCE ID: item_event_ticket_pink_desc_cdc_piplup26
-TEXT: Tiket untuk mengakses Penelitian Spesial Hari Komunitas Klasik Piplup, Parade Piplup, mulai 4 Januari, pukul 14.00 waktu setempat, di mana pun kamu berada.
+RESOURCE ID: item_event_ticket_pink_desc_cd_vulpix26
+TEXT: Tiket untuk mengakses Penelitian Spesial Hari Komunitas Vulpix dan Alolan Vulpix mulai 1 Februari, pukul 14.00 waktu setempat, di mana pun kamu berada.
 
 RESOURCE ID: item_event_ticket_pink_details_cd_grookey25
 TEXT: Tiket ini akan aktif secara otomatis pada 18 Januari dan memberimu akses ke Penelitian Spesial Berirama bersama Grookey, di mana pun kamu berada.
 
-RESOURCE ID: item_event_ticket_pink_details_cdc_piplup26
-TEXT: Tiket ini akan aktif secara otomatis dan memberimu akses ke Penelitian Spesial Hari Komunitas Klasik Piplup pada 4 Januari, di mana pun kamu berada.
-
-RESOURCE ID: kr_festival_red_striped_basculin_bonus
-TEXT: Basculin (Wujud Bergaris Merah) akan terpikat oleh Modul Umpan atau Pewangi dekat sungai di Pyeongchang.
-
-RESOURCE ID: kr_winter_festival_2026_pyeongchang_bonus
-TEXT: Festival Musim Dingin Pyeongchang 2026 – Bonus Pyeongchang
-
-RESOURCE ID: kr_winter_festival_2026_riverside_bonus
-TEXT: Festival Musim Dingin Pyeongchang 2026 – Bonus Tepi Sungai
-
-RESOURCE ID: kr_winter_festival_2026_tag
-TEXT: Festival Forel Pyeongchang
-
-RESOURCE ID: kr_winter_festival_2026_title
-TEXT: Festival Musim Dingin Pyeongchang 2026
-
-RESOURCE ID: kr_winter_festival_2026_tr_name
-TEXT: Penelitian Berwaktu Latar Belakang Lokasi Festival Musim Dingin Pyeongchang
-
-RESOURCE ID: kr_winter_festival_2026_tr_name_1
-TEXT: Penelitian Berwaktu Latar Belakang Lokasi Festival Musim Dingin Pyeongchang (1/3)
-
-RESOURCE ID: kr_winter_festival_2026_tr_name_2
-TEXT: Penelitian Berwaktu Latar Belakang Lokasi Festival Musim Dingin Pyeongchang (2/3)
-
-RESOURCE ID: kr_winter_festival_2026_tr_name_3
-TEXT: Penelitian Berwaktu Latar Belakang Lokasi Festival Musim Dingin Pyeongchang (3/3)
-
-RESOURCE ID: kr_winter_festival_location_background_in_wild
-TEXT: Pikachu bertopi kupluk salju yang ditemukan di alam liar mungkin memiliki Latar Belakang Lokasi Festival Musim Dingin Pyeongchang.
-
-RESOURCE ID: kr_winter_festival_raid_event_area
-TEXT: Raid eksklusif event dengan Pikachu bertopi kupluk salju dan Deerling (Wujud Musim Dingin) akan berlangsung di area Pyeongchang.
+RESOURCE ID: item_event_ticket_pink_details_cd_vulpix26
+TEXT: Tiket ini akan aktif secara otomatis pada 1 Februari dan memberimu akses ke Penelitian Spesial Es dan Api, di mana pun kamu berada.
 
 RESOURCE ID: lobby_group_size_warning
 TEXT: Suggested group size of this raid is {0} players.
@@ -1080,14 +924,11 @@ TEXT: {0} Mega-Evolved Pokémon in lobby
 RESOURCE ID: lobby_mega_count_zero
 TEXT: {0} Mega Pokemon in Lobby
 
-RESOURCE ID: lucky_remote_trade_confirm_body
-TEXT: Selesaikan Pertukaran Jarak Jauh Istimewa dengan {0}!
-
-RESOURCE ID: lucky_remote_trade_initiate_body
-TEXT: {0} mengirimimu permintaan Pertukaran Jarak Jauh Istimewa!
-
 RESOURCE ID: max_battle_day_dmax_ho_oh_ticketed
 TEXT: Bonus Tiket Pertarungan Max Akhir Pekan Ho-Oh Dynamax
+
+RESOURCE ID: mega2026_ditto_cant_break_shields
+TEXT: Ditto cannot break shields with Transform.
 
 RESOURCE ID: mega2026_ftue_conversation_1_1
 TEXT: Hey, %PLAYERNAME%! Would you like to learn more about Mega Evolution? I’ll walk you through it.
@@ -1116,14 +957,23 @@ TEXT: When you catch a Pokémon that shares a type with your Mega-Evolved Pokém
 RESOURCE ID: mega2026_ftue_conversation_4_2
 TEXT: There are other advantages when you Mega Evolve a Pokémon. Keep learning about this fascinating change in appearance by finding other Pokémon to Mega Evolve.
 
+RESOURCE ID: mega2026_ftue_conversation_nope
+TEXT: View the tutorial again from any Mega Raid.
+
 RESOURCE ID: mega2026_ftue_desc_1_title
 TEXT: Learn how to Mega Evolve your Pokémon!
+
+RESOURCE ID: mega2026_ftue_desc_1_title_temp
+TEXT: Catch a Pokémon and learn how to Mega Evolve them!
 
 RESOURCE ID: mega2026_ftue_lets_do_it_button
 TEXT: LET’S DO IT!
 
 RESOURCE ID: mega2026_ftue_modal_1_title
 TEXT: Start your Mega Evolution journey!
+
+RESOURCE ID: mega2026_ftue_modal_1_title_temp
+TEXT: Try out Mega Evolution!
 
 RESOURCE ID: mega_bonus_candy_plural
 TEXT: {0}
@@ -1139,7 +989,7 @@ Bonus Candy XL
 
 RESOURCE ID: mega_bonus_xl_candy_singular
 TEXT: {0}
-Bonus XL Candy
+Bonus Candy XL
 
 RESOURCE ID: mega_bonus_xp_plural
 TEXT: {0}
@@ -1254,10 +1104,10 @@ RESOURCE ID: mega_perk_cp_boost_excellentplus
 TEXT: Greatly Enhanced CP
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-01-22T01:40:42.787908+00:00 for id-ID
-at SHA cea32c75318
-Pipeline 3507086, job 49949842
-Patch from: 0.393.0-SHA-43a8c027-RC4, 0.397.0-SHA-839dae57-RC1, 0.395.0-SHA-89cf719f-RC4
+TEXT: Built at 2026-01-24T00:21:53.492182+00:00 for id-ID
+at SHA 59b95516a4a
+Pipeline 3510607, job 50034904
+Patch from: 0.395.1-SHA-ef2086b7-RC2, 0.397.0-SHA-5a918511-RC2
 
 RESOURCE ID: move_name_0491
 TEXT: Kepala Meletus
@@ -1289,8 +1139,8 @@ TEXT: Penelitian Berwaktu Premium Tebing Tepi Laut (2/2)
 RESOURCE ID: photobomb_five_grookey
 TEXT: 5 pertemuan kejutan dengan Grookey di Foto GO
 
-RESOURCE ID: photobomb_five_piplup
-TEXT: 5 pertemuan kejutan dengan Piplup di Foto GO
+RESOURCE ID: photobomb_five_vulpix
+TEXT: 5 pertemuan kejutan dengan Vulpix dan Alolan Vulpix di Foto GO
 
 RESOURCE ID: photobomb_latias_latios
 TEXT: Encounter Latias or Latios in GO Snapshot
@@ -1448,45 +1298,6 @@ TEXT: Mega Drampa
 RESOURCE ID: pokemon_name_0870_0001
 TEXT: Mega Falinks
 
-RESOURCE ID: pokemon_name_1009
-TEXT: Walking Wake
-
-RESOURCE ID: pokemon_name_1010
-TEXT: Iron Leaves
-
-RESOURCE ID: pokemon_name_1014
-TEXT: Okidogi
-
-RESOURCE ID: pokemon_name_1015
-TEXT: Munkidori
-
-RESOURCE ID: pokemon_name_1016
-TEXT: Fezandipiti
-
-RESOURCE ID: pokemon_name_1017
-TEXT: Ogerpon
-
-RESOURCE ID: pokemon_name_1018
-TEXT: Archaludon
-
-RESOURCE ID: pokemon_name_1020
-TEXT: Gouging Fire
-
-RESOURCE ID: pokemon_name_1021
-TEXT: Raging Bolt
-
-RESOURCE ID: pokemon_name_1022
-TEXT: Iron Boulder
-
-RESOURCE ID: pokemon_name_1023
-TEXT: Iron Crown
-
-RESOURCE ID: pokemon_name_1024
-TEXT: Terapagos
-
-RESOURCE ID: pokemon_name_1025
-TEXT: Pecharunt
-
 RESOURCE ID: pokémon_ibfc_desc_0778
 TEXT: Once per battle, the shroud that covers the Pokémon can protect it from a Charged Attack. The Pokémon’s Defense will be lowered until the end of battle.
 
@@ -1620,9 +1431,6 @@ TEXT: Spin an event PokéStop at a GO Tour: Kalos Official Route start point
 RESOURCE ID: quest_grookey_catch_b
 TEXT: Tangkap {0} Grookey
 
-RESOURCE ID: quest_piplup_catch_b
-TEXT: Tangkap {0} Piplup
-
 RESOURCE ID: quest_power_up_dark_psychic_plural
 TEXT: Power up Psychic- or Dark-type Pokémon {0} times
 
@@ -1668,17 +1476,20 @@ TEXT: Berirama bersama Grookey (2/3)
 RESOURCE ID: quest_title_grookey_2
 TEXT: Berirama bersama Grookey (3/3)
 
-RESOURCE ID: quest_title_piplup
-TEXT: Parade Piplup
+RESOURCE ID: quest_title_vulpix
+TEXT: Es dan Api
 
-RESOURCE ID: quest_title_piplup_0
-TEXT: Parade Piplup (1/3)
+RESOURCE ID: quest_title_vulpix_0
+TEXT: Es dan Api (1/3)
 
-RESOURCE ID: quest_title_piplup_1
-TEXT: Parade Piplup (2/3)
+RESOURCE ID: quest_title_vulpix_1
+TEXT: Es dan Api (2/3)
 
-RESOURCE ID: quest_title_piplup_2
-TEXT: Parade Piplup (3/3)
+RESOURCE ID: quest_title_vulpix_2
+TEXT: Es dan Api (3/3)
+
+RESOURCE ID: quest_vulpix_catch_b
+TEXT: Tangkap {0} Vulpix atau Alolan Vulpix
 
 RESOURCE ID: raid_approach_multiple_post_list
 TEXT: USED WHEN YOU WIN: {0}
@@ -1700,55 +1511,22 @@ TEXT: YOU CAN JOIN ONE MORE REMOTE RAID TODAY.
 RESOURCE ID: raid_day_kyurem_event_name
 TEXT: Hari Raid Fusi Kyurem
 
-RESOURCE ID: raid_hour_raids_five_outside_stadium
-TEXT: Peningkatan jumlah Raid bintang lima di luar stadium
-
 RESOURCE ID: raid_message_heal_pokemon
 TEXT: Heal your Pokémon
-
-RESOURCE ID: remote_trade_daily_limit
-TEXT: Kamu telah mencapai limit harian {0} Pertukaran Jarak Jauh.
-
-RESOURCE ID: remote_trade_daily_limit_out
-TEXT: Kamu sudah melakukan Pertukaran Jarak Jauh untuk hari ini.
 
 RESOURCE ID: remote_trade_first_time_body
 TEXT: Tunggu temanmu untuk merespons permintaan pertukaranmu.
 
 Jika pertukaran kedaluwarsa, permintaan akan dibatalkan, tetapi kamu tidak akan kehilangan kesempatan pertukaran jarak jauh dengan teman ini.
 
-RESOURCE ID: remote_trade_first_time_title
-TEXT: Kembali lagi nanti!
-
-RESOURCE ID: remote_trade_friend_all_time_locked_pokemon_message
-TEXT: Pokémon temanmu belum siap untuk pertukaran jarak jauh.
-
-RESOURCE ID: remote_trade_friend_daily_limit
-TEXT: Temanmu telah mencapai limit harian {0} Pertukaran Jarak Jauh.
-
-RESOURCE ID: remote_trade_friend_daily_limit_out
-TEXT: Temanmu sudah melakukan Pertukaran Jarak Jauh untuk hari ini.
-
-RESOURCE ID: remote_trade_inventory_select_error_toast
-TEXT: Pilih 1–3 Pokémon untuk bertukar dengan temanmu.
-
-RESOURCE ID: remote_trade_player_pokemon_title
-TEXT: Pokémon-mu
-
-RESOURCE ID: remote_trade_select_offer_error_toast
-TEXT: Pilih 1 Pokémon untuk bertukar dengan temanmu.
+RESOURCE ID: remote_trade_time_locked_message_singular_day
+TEXT: Pokémon ini bisa ditukarkan dari jarak jauh setelah 1 hari dan akan tetap memiliki label Pertukaran Jarak Jauh.
 
 RESOURCE ID: repeatable_friendship_detail_unlock_reqs_plural
 TEXT: Bermainlah bersama untuk {0} poin pertemanan yang lebih banyak dan bonus tambahan.
 
 RESOURCE ID: repeatable_friendship_detail_unlock_reqs_singular
 TEXT: Bermainlah bersama untuk {0} poin pertemanan yang lebih banyak dan bonus tambahan.
-
-RESOURCE ID: research_day_sun_moon_tr_name_lunatone
-TEXT: Penelitian Berwaktu Premium Lunatone
-
-RESOURCE ID: research_day_sun_moon_tr_name_solrock
-TEXT: Penelitian Berwaktu Premium Solrock
 
 RESOURCE ID: retake_button
 TEXT: Ambil Ulang Foto
@@ -1758,30 +1536,6 @@ TEXT: Istilah pencarian ditambahkan ke Favorit
 
 RESOURCE ID: search_name_and_num_label
 TEXT: Cari nama atau nomor
-
-RESOURCE ID: season21_precious_paths_sr_2_0
-TEXT: Bersiaplah untuk bertarung, %PLAYERNAME%! Pertarungan adalah cara yang bagus untuk mempererat hubungan dengan Pokémonmu!
-
-RESOURCE ID: season21_precious_paths_sr_2_1
-TEXT: Namun, pertarungan tidak selalu tentang siapa yang terkuat. Menang atau kalah, pertarungan membantu kita menguji batas kemampuan dan mempererat hubungan kita dengan Pokémon kita.
-
-RESOURCE ID: season21_precious_paths_sr_2_2
-TEXT: Aku ingin kamu mencoba beberapa jenis pertarungan yang berbeda dan mencatat apa yang kamu pelajari.
-
-RESOURCE ID: season21_precious_paths_sr_2_3
-TEXT: Ingat, kuncinya adalah bersenang-senang sebanyak mungkin! Pertahankan itu dan kamu akan selalu menjadi juara di mataku!
-
-RESOURCE ID: season21_precious_paths_sr_3_0
-TEXT: Hebat sekali, %PLAYERNAME%! Melihatmu melewati masa-masa sulit itu sungguh menginspirasi!
-
-RESOURCE ID: season21_precious_paths_sr_3_1
-TEXT: Perjalanan untuk menguasai taktik pertarungan tidaklah mudah, tapi kamu sudah jelas berada di jalur yang tepat.
-
-RESOURCE ID: season21_precious_paths_sr_3_2
-TEXT: Bagaimana kalau kamu terus menantang dirimu sendiri untuk maju lebih jauh dan lihat kemampuan apa lagi yang kamu dan Pokémonmu bisa lakukan?
-
-RESOURCE ID: season21_precious_paths_sr_3_3
-TEXT: Aku yakin kita akan segera bertemu lagi. Sampai saat itu, aku akan terus mendukungmu!
 
 RESOURCE ID: season21_precious_paths_sr_4_0
 TEXT: Halo, %PLAYERNAME%! Apa kamu merasa semakin dekat untuk menemukan apa yang paling berharga bagimu?
@@ -1831,15 +1585,6 @@ TEXT: Mereka memiliki minat yang berbeda, tapi kekuatan sejati mereka berasal da
 RESOURCE ID: season21_precious_paths_sr_7_3
 TEXT: Aku pun jelas telah berkembang sebagai seorang profesor setelah bertemu denganmu dan para Pelatih lainnya selama bertahun-tahun, %PLAYERNAME%.
 
-RESOURCE ID: season_pass_base_track_title_winter_holidays_2025
-TEXT: Tiket GO: Liburan Musim Dingin 2025
-
-RESOURCE ID: season_pass_details_link_january2026
-TEXT: Untuk detail lebih lanjut, kunjungi <a href="https://pokemongo.com/news/go-pass-january-2026">situs web</a>.
-
-RESOURCE ID: season_pass_details_link_winter_holidays_2025
-TEXT: Untuk detail lebih lanjut, kunjungi <a href="https://pokemongo.com/news/go-pass-winter_holidays-2025">situs web</a>
-
 RESOURCE ID: season_pass_january2026_event_duration
 TEXT: 6 Januari - 5 Februari
 
@@ -1848,26 +1593,6 @@ TEXT: Beli Tiket GO Luks: Januari untuk membuka hadiah berikut!
 
 • Satu Mesin Penetas Super
 • Satu <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Ornamen Istimewa</a>, yang dalam sekejap membuatmu menjadi Teman Istimewa dengan teman pilihanmu
-• Dan masih banyak lagi!
-
-RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_winter_holidays_2025
-TEXT: Tiket GO Luks: Liburan Musim Dingin 2025 + 10 Rank
-
-RESOURCE ID: season_pass_premium_track_title_winter_holidays_2025
-TEXT: Tiket GO Luks: Liburan Musim Dingin 2025
-
-RESOURCE ID: season_pass_winter_holidays_2025_event_duration
-TEXT: 18 Desember – 29 Desember
-
-RESOURCE ID: season_pass_winter_holidays_2025_track_upgrade_header_description
-TEXT: Dapatkan hadiah tambahan dan buka <b>Beanie Snom</b> di level 50!
-
-RESOURCE ID: season_pass_winter_holidays_2025_upgrade_description
-TEXT: Beli Tiket GO Luks: Liburan Musim Dingin 2025 untuk membuka hadiah berikut!
-
-• Item avatar Beanie Snom
-• Pertemuan dengan Pokémon bertema event
-• Permen Langka XL
 • Dan masih banyak lagi!
 
 RESOURCE ID: see_bonus_ranks_button
@@ -1879,14 +1604,11 @@ TEXT: Hari Raid Bayangan Raikou
 RESOURCE ID: shadow_raikou_website_link
 TEXT: Untuk detail lebih lanjut, kunjungi <a href="https://pokemongo.com/post/shadow-raikou-raid-day-2026">situs web</a>.
 
-RESOURCE ID: shop_inventory_more_capacity
-TEXT: Tas Itemmu sudah penuh!
-
 RESOURCE ID: spawn_grookey
 TEXT: Lebih banyak Grookey yang muncul di alam liar!
 
-RESOURCE ID: spawn_piplup
-TEXT: Lebih banyak Piplup yang muncul di alam liar!
+RESOURCE ID: spawn_vulpix
+TEXT: Lebih banyak Vulpix dan Alolan Vulpix yang muncul di alam liar!
 
 RESOURCE ID: sr_go_tour_2026_global_title
 TEXT: GO Tour 2026: An X-ceptional Yarn
@@ -1921,9 +1643,6 @@ TEXT: GO Tour 2026: A Balancing Act (3/3)
 RESOURCE ID: stamp_rally_missed_prefecture_reward_toast
 TEXT: To claim this reward, tap the stamp button while at one of the Poké Lid Stamp Rally locations in this prefecture.
 
-RESOURCE ID: sticker_count_format
-TEXT: ×{0}
-
 RESOURCE ID: sticker_photo_remove_stickers
 TEXT: Lepas Stiker
 
@@ -1932,36 +1651,6 @@ TEXT: Simpan Stiker
 
 RESOURCE ID: sticker_photo_save_warning
 TEXT: Kamu tidak bisa memperbaiki atau melepas stiker setelah menyimpannya.
-
-RESOURCE ID: story_quest_keldeo_story_title
-TEXT: Tapak Hero
-
-RESOURCE ID: story_quest_keldeo_story_title_0
-TEXT: Tapak Hero (1/8)
-
-RESOURCE ID: story_quest_keldeo_story_title_1
-TEXT: Tapak Hero (2/8)
-
-RESOURCE ID: story_quest_keldeo_story_title_2
-TEXT: Tapak Hero (3/8)
-
-RESOURCE ID: story_quest_keldeo_story_title_3
-TEXT: Tapak Hero (4/8)
-
-RESOURCE ID: story_quest_keldeo_story_title_4
-TEXT: Tapak Hero (5/8)
-
-RESOURCE ID: story_quest_keldeo_story_title_5
-TEXT: Tapak Hero (6/8)
-
-RESOURCE ID: story_quest_keldeo_story_title_6
-TEXT: Tapak Hero (7/8)
-
-RESOURCE ID: story_quest_keldeo_story_title_7
-TEXT: Tapak Hero (8/8)
-
-RESOURCE ID: sun_moon_research_day_event_name
-TEXT: Hari Penelitian Selestial
 
 RESOURCE ID: tag_go_tour_kalos_los_angeles
 TEXT: GO Tour: Kalos – Los Angeles
@@ -1990,13 +1679,19 @@ TEXT: <b>Termasuk Hadiah:</b>
 • Pertemuan dengan Grookey dengan Latar Belakang Spesial
 • Dan banyak lagi!
 
-RESOURCE ID: text_rewards_key_cdc_piplup26
+RESOURCE ID: text_rewards_key_cd_vulpix26
 TEXT: <b>Termasuk Hadiah:</b>
 • Item Premium dalam game seperti Tiket Pertarungan Premium, MJ Super, dan Permen Langka
-• Pertemuan dengan Piplup dengan Latar Belakang Spesial
+• Pertemuan dengan Vulpix dan Alolan Vulpix dengan Latar Belakang Spesial
 • Dan banyak lagi!
 
 RESOURCE ID: text_rewards_key_dmaxhooh26
+TEXT: <b>Termasuk:</b>
+• XP ×2 dengan memenangkan Pertarungan Max
+• Permen dan Permen XL dari Pertarungan Max bintang lima bertambah
+• Penelitian Berwaktu yang berhadiah 25.000 XP dan 50.000 Debu Bintang
+
+RESOURCE ID: text_rewards_key_dmaxhooh26_out
 TEXT: <b>Termasuk:</b>
 • Kumpulkan hingga 4.000 Partikel Max tambahan dari Power Spot dan penjelajahan
 • XP ×2 dengan memenangkan Pertarungan Max
@@ -2032,13 +1727,6 @@ TEXT: <b>Termasuk Bonus:</b>
 • 5 Tiket Raid ekstra dari memutar Disk Foto di Gym
 • Ekstra 50% XP dan Debu Bintang ×2 dengan memenangkan Raid
 
-RESOURCE ID: text_rewards_key_sunmoon_researchtr2025
-TEXT: Kedua rangkaian Penelitian Berwaktu yang menantangmu untuk menyelesaikan Penelitian Lapangan ini mengarah pada pertemuan dengan Pokémon Pilihan Lunatone dan Solrock!
-
-Selama event berlangsung, Pokémon yang ditemui selama Penelitian Berwaktu memiliki peluang yang sama untuk muncul sebagai Pokémon Bersinar seperti yang ditemui melalui Penelitian Lapangan.
-
-Penelitian Berwaktu ini akan tersedia pada tanggal 20 Desember 2025, mulai pukul 14.00 hingga 17.00 waktu setempat.
-
 RESOURCE ID: text_rewards_key_wattsup_jan2026
 TEXT: <b>Termasuk Hadiah dan Bonus:</b>
 • Pertemuan dengan Tadbulb
@@ -2049,18 +1737,8 @@ TEXT: <b>Termasuk Hadiah dan Bonus:</b>
 RESOURCE ID: ticket_grookey_cd
 TEXT: Tiket untuk Penelitian Spesial Hari Komunitas Grookey tersedia di toko
 
-RESOURCE ID: ticket_piplup_cdc
-TEXT: Tiket untuk Penelitian Spesial Hari Komunitas Klasik Piplup tersedia di toko
-
-RESOURCE ID: tips_friends_tutorial_lucky_body
-TEXT: Jadilah Teman Terbaik dan teruslah berinteraksi dengan Pelatih lain untuk mendapatkan kesempatan menjadi Teman Istimewa.
-
-Dapatkan Pokémon Istimewa dari hasil bertukar dengan Teman Istimewa! Kamu dapat menjadi Teman Istimewa lagi nanti.
-
-RESOURCE ID: tips_friends_tutorial_lucky_body_out
-TEXT: Jadilah Teman Terbaik dan teruslah berinteraksi setiap hari dengan Pelatih lain untuk mendapatkan kesempatan menjadi Teman Istimewa.
-
-Dapatkan Pokémon Istimewa dari hasil bertukar dengan Teman Istimewa! Kamu dapat menjadi Teman Istimewa lagi nanti.
+RESOURCE ID: ticket_vulpix_cd
+TEXT: Tiket untuk Penelitian Spesial Hari Komunitas Vulpix dan Alolan Vulpix tersedia di toko
 
 RESOURCE ID: title_addon_kalos_hatch
 TEXT: GO Tour: Kalos – Egg-thusiast
@@ -2188,33 +1866,6 @@ TEXT: Very Fairy Timed Research (3/4)
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title_03
 TEXT: Very Fairy Timed Research (4/4)
 
-RESOURCE ID: tr_hut_hut_desc_00
-TEXT: First Down...
-
-RESOURCE ID: tr_hut_hut_desc_01
-TEXT: Second Down...
-
-RESOURCE ID: tr_hut_hut_desc_02
-TEXT: Third Down...
-
-RESOURCE ID: tr_hut_hut_desc_03
-TEXT: Touchdown!
-
-RESOURCE ID: tr_hut_hut_title
-TEXT: Bonus Penelitian Berwaktu Hut, Hut, Hike!
-
-RESOURCE ID: tr_hut_hut_title_00
-TEXT: Bonus Penelitian Berwaktu Hut, Hut, Hike! (1/4)
-
-RESOURCE ID: tr_hut_hut_title_01
-TEXT: Bonus Penelitian Berwaktu Hut, Hut, Hike! (2/4)
-
-RESOURCE ID: tr_hut_hut_title_02
-TEXT: Bonus Penelitian Berwaktu Hut, Hut, Hike! (3/4)
-
-RESOURCE ID: tr_hut_hut_title_03
-TEXT: Bonus Penelitian Berwaktu Hut, Hut, Hike! (4/4)
-
 RESOURCE ID: tr_id2026_car_free_day
 TEXT: Penelitian Berwaktu Car Free Day
 
@@ -2235,30 +1886,6 @@ TEXT: Penelitian Berwaktu Tebing Tepi Laut: Corphish
 
 RESOURCE ID: tr_pinch_perfect_dwebble_jan2026_0
 TEXT: Penelitian Berwaktu Tebing Tepi Laut: Dwebble
-
-RESOURCE ID: trade_warning_bullet_background_location
-TEXT: Pokémon memiliki Latar Belakang Lokasi
-
-RESOURCE ID: trade_warning_bullet_background_special
-TEXT: Pokémon memiliki Latar Belakang Spesial
-
-RESOURCE ID: trade_warning_bullet_battle_party
-TEXT: Pokémon akan dikeluarkan dari tim pertarungan
-
-RESOURCE ID: trade_warning_bullet_buddy
-TEXT: Level Partner akan direset
-
-RESOURCE ID: trade_warning_bullet_hyper_training
-TEXT: Statistik Pokémon akan berubah
-
-RESOURCE ID: trade_warning_bullet_max
-TEXT: Level Jurus Max akan direset
-
-RESOURCE ID: trade_warning_bullet_mega
-TEXT: Level Mega akan direset
-
-RESOURCE ID: trade_warning_bullet_primal
-TEXT: Level Primal akan direset
 
 RESOURCE ID: tutorial_need_mega_title
 TEXT: Mega Evolve to Ready Up
@@ -2308,6 +1935,9 @@ TEXT: JOIN THE RAID BATTLE ({0} {1} ARE ONLY USED WHEN YOU WIN.)
 RESOURCE ID: use_raid_ticket_confirmation_ticket_return_count_singular
 TEXT: JOIN THE RAID BATTLE ({0} {1} IS ONLY USED WHEN YOU WIN.)
 
+RESOURCE ID: vulpix_cd_website_link
+TEXT: Untuk detail lebih lanjut, kunjungi <a href="https://pokemongo.com/news/202601_communityday-february-2026-vulpix">situs web</a>.
+
 RESOURCE ID: watts_up_event_name
 TEXT: Daya Setrum Tinggi
 
@@ -2334,19 +1964,4 @@ TEXT: Gabung ke Grup
 
 RESOURCE ID: weekly_challenges_join_random_group_label
 TEXT: Carikan Grup!
-
-RESOURCE ID: winter_holidays_2025_part_1_event_name
-TEXT: Liburan Musim Dingin 2025 Bag. 1
-
-RESOURCE ID: winter_holidays_2025_part_2_event_name
-TEXT: Liburan Musim Dingin 2025 Bag. 2
-
-RESOURCE ID: winter_weekend_tr_name
-TEXT: Penelitian Berwaktu Akhir Pekan Musim Dingin
-
-RESOURCE ID: winter_weekend_tr_name_1
-TEXT: Penelitian Berwaktu Akhir Pekan Musim Dingin (1/2)
-
-RESOURCE ID: winter_weekend_tr_name_2
-TEXT: Penelitian Berwaktu Akhir Pekan Musim Dingin (2/2)
 

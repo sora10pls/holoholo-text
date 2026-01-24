@@ -76,9 +76,6 @@ TEXT: 3. 裝飾＆分享
 RESOURCE ID: ar_photo_social_ftue_title
 TEXT: 選擇想要一起拍照的寶可夢！
 
-RESOURCE ID: ar_photo_social_hashtag
-TEXT: #PokemonGO
-
 RESOURCE ID: ar_photo_social_horizontal_mode_hint
 TEXT: 請將裝置轉為直向
 
@@ -121,6 +118,15 @@ TEXT: 要拍別的照片嗎？
 RESOURCE ID: ar_photo_social_share_default_referral_text
 TEXT: 在Pokémon GO和寶可夢一起拍照！
 
+RESOURCE ID: ar_photo_social_share_more_photos
+TEXT: Show more photos
+
+RESOURCE ID: ar_photo_social_share_more_photos_prompt
+TEXT: Want to see more photos with {0}?
+
+RESOURCE ID: ar_photo_social_share_prompt
+TEXT: Share your photos online!
+
 RESOURCE ID: ar_photo_social_share_referral_text
 TEXT: 在Pokémon GO和寶可夢一起拍照！
 
@@ -160,12 +166,6 @@ TEXT: 這個裝置不支援此功能
 RESOURCE ID: arphoto_social_take_new
 TEXT: 拍照（新照片）
 
-RESOURCE ID: avatar_bag_charjabug
-TEXT: 蟲電寶側背包
-
-RESOURCE ID: avatar_hat_snom
-TEXT: 雪吞蟲針織帽
-
 RESOURCE ID: avatar_n_hat_communityambassador
 TEXT: 社群大使帽子
 
@@ -174,60 +174,6 @@ TEXT: 社群大使姿勢
 
 RESOURCE ID: avatar_pose_heart
 TEXT: 比心姿勢
-
-RESOURCE ID: avatar_shirt_sweatersudowoodo
-TEXT: 樹才怪毛衣
-
-RESOURCE ID: avatar_shoes_blacephelon
-TEXT: 砰頭小丑長靴
-
-RESOURCE ID: badge_safari_2025_buenos_aires_add_on_hatch
-TEXT: 布宜諾斯艾利斯2025
-
-RESOURCE ID: badge_safari_2025_buenos_aires_add_on_hatch_title
-TEXT: Pokémon GO City Safari—孵蛋加值包
-
-RESOURCE ID: badge_safari_2025_buenos_aires_add_on_raid
-TEXT: 布宜諾斯艾利斯2025
-
-RESOURCE ID: badge_safari_2025_buenos_aires_add_on_raid_title
-TEXT: Pokémon GO City Safari—團體戰加值包
-
-RESOURCE ID: badge_safari_2025_buenos_aires_saturday
-TEXT: 布宜諾斯艾利斯，2025年12月13日
-
-RESOURCE ID: badge_safari_2025_buenos_aires_saturday_title
-TEXT: Pokémon GO City Safari
-
-RESOURCE ID: badge_safari_2025_buenos_aires_sunday
-TEXT: 布宜諾斯艾利斯，2025年12月14日
-
-RESOURCE ID: badge_safari_2025_buenos_aires_sunday_title
-TEXT: Pokémon GO City Safari
-
-RESOURCE ID: badge_safari_2025_miami_saturday
-TEXT: 邁阿密，2025年12月13日
-
-RESOURCE ID: badge_safari_2025_miami_saturday_title
-TEXT: Pokémon GO City Safari
-
-RESOURCE ID: badge_safari_2025_miami_sunday
-TEXT: 邁阿密，2025年12月14日
-
-RESOURCE ID: badge_safari_2025_miami_sunday_title
-TEXT: Pokémon GO City Safari
-
-RESOURCE ID: badge_safari_2025_sydney_saturday
-TEXT: 雪梨，2025年12月13日
-
-RESOURCE ID: badge_safari_2025_sydney_saturday_title
-TEXT: Pokémon GO City Safari
-
-RESOURCE ID: badge_safari_2025_sydney_sunday
-TEXT: 雪梨，2025年12月14日
-
-RESOURCE ID: badge_safari_2025_sydney_sunday_title
-TEXT: Pokémon GO City Safari
 
 RESOURCE ID: battle_condition_mega_enrage
 TEXT: {0} is protecting itself with Mega Energy
@@ -256,11 +202,14 @@ TEXT: One additional Candy from catching Pokémon in five-star and Mega raids
 RESOURCE ID: bonus_candy_xl_raids_t5_plus_mega
 TEXT: One additional Candy XL from catching Pokémon in five-star and Mega raids
 
+RESOURCE ID: bonus_cd_move_alolan_vulpix
+TEXT: 讓阿羅拉六尾進化成阿羅拉九尾，牠就能學會特殊招式「潑冷水」！
+
 RESOURCE ID: bonus_cd_move_grookey
 TEXT: 讓啪咚猴進化成轟擂金剛猩，牠就能學會特殊招式「瘋狂植物」！
 
-RESOURCE ID: bonus_cd_move_piplup
-TEXT: 讓波皇子進化成帝王拿波，牠就能學會特殊招式「加農水炮」！
+RESOURCE ID: bonus_cd_move_vulpix
+TEXT: 讓六尾進化成九尾，牠就能學會特殊招式「能量球」！
 
 RESOURCE ID: bonus_gift_inventory_40
 TEXT: Gift storage increased to 40
@@ -310,6 +259,9 @@ TEXT: Premier Balls have an increased catch rate
 RESOURCE ID: bonus_raid_3_xl_candy_t5_and_mega
 TEXT: Six additional Candy XL for successful five-star raids and Mega Raids
 
+RESOURCE ID: bonus_raid_3_xl_candy_t5_and_mega_temp
+TEXT: Three additional Candy XL from successful five-star and Mega Raids
+
 RESOURCE ID: bonus_raid_6_candy_t5_and_mega
 TEXT: Six additional Candy for successful five-star raids and Mega Raids
 
@@ -322,7 +274,7 @@ TEXT: Increased chance of encountering White Flower Flabébé, Orange Flower Fla
 RESOURCE ID: bonus_routes_flabebe_tainan
 TEXT: Increased chance of encountering White Flower Flabébé, Orange Flower Flabébé, and Blue Flower Flabébé on Routes
 
-RESOURCE ID: bonus_scatterbug_pin_3
+RESOURCE ID: bonus_scatterbug_pin_3_temp
 TEXT: Scatterbug appear 3x more quickly based on pinned Postcards
 
 RESOURCE ID: bonus_scatterbug_pin_6
@@ -339,15 +291,6 @@ TEXT: Event-exclusive Special Research now available
 
 RESOURCE ID: bonus_zygarde_cell_daily_25
 TEXT: Chance of finding Zygarde Cells on up to 25 Routes per day
-
-RESOURCE ID: bread_battle_won_none
-TEXT: 參加過0次極巨對戰
-
-RESOURCE ID: bread_battle_won_plural
-TEXT: 在極巨對戰中獲勝過{0}次
-
-RESOURCE ID: bread_battle_won_singular
-TEXT: 在極巨對戰中獲勝過
 
 RESOURCE ID: buddy_event_collection_challenge_1
 TEXT: 重要的夥伴收藏家挑戰：軟Q軟Q
@@ -544,20 +487,11 @@ TEXT: Assabu
 RESOURCE ID: city_manhole_440
 TEXT: Yuni
 
-RESOURCE ID: city_manhole_441
-TEXT: 那霸市
-
 RESOURCE ID: city_manhole_442
 TEXT: Tsubetsu
 
 RESOURCE ID: city_manhole_443
 TEXT: Sapporo
-
-RESOURCE ID: city_manhole_444
-TEXT: 壹岐市
-
-RESOURCE ID: city_manhole_445
-TEXT: 佐佐町
 
 RESOURCE ID: city_manhole_446
 TEXT: Inagi
@@ -591,17 +525,11 @@ RESOURCE ID: combat_move_transformed_blocked
 TEXT: TRANSFORMED!
 BLOCKED!
 
-RESOURCE ID: community_celebration_today_view
-TEXT: 社群慶典
-
 RESOURCE ID: community_day_grookey_event_name
 TEXT: 社群日：敲音猴
 
-RESOURCE ID: community_day_piplup_details_link
-TEXT: 詳情請至<a href="https://pokemongolive.com/post/communitydayclassic-piplup-jan-2026">網站</a>確認
-
-RESOURCE ID: community_day_piplup_event_name_cdc
-TEXT: 經典社群日：波加曼
+RESOURCE ID: community_day_vulpix_event_name
+TEXT: 社群日：六尾＆阿羅拉六尾
 
 RESOURCE ID: datetime_range_format
 TEXT: {0}, {1} –
@@ -612,12 +540,6 @@ TEXT: At the top of each hour, Unown will appear in large numbers!
 
 RESOURCE ID: details_link_key_dmax_ho_oh
 TEXT: （詳情請至<a href="https://pokemongo.com/news/ho-oh-max-battle-weekend-2026">網站</a>確認）
-
-RESOURCE ID: details_link_key_new_year_jan2026
-TEXT: 詳情請至<a href="https://pokemongolive.com/post/new-years-2026">網站</a>確認
-
-RESOURCE ID: details_link_key_pinch_perfect_event_name_jan2026
-TEXT: 詳情請至<a href="https://pokemongo.com/news/pinch-perfect-2026">網站</a>確認
 
 RESOURCE ID: dmax_ho_oh_lead_up_timed_research
 TEXT: 極巨化鳳王極巨對戰週末前導限時調查
@@ -669,8 +591,8 @@ TEXT: 1月20日10:00～
 RESOURCE ID: event_datetime_range_key_cd_grookey25
 TEXT: 1月18日14:00～17:00
 
-RESOURCE ID: event_datetime_range_key_cdc_piplup26
-TEXT: 1月4日14:00～17:00
+RESOURCE ID: event_datetime_range_key_cd_vulpix26
+TEXT: 2月1日14:00～17:00
 
 RESOURCE ID: event_datetime_range_key_dmaxhooh26
 TEXT: 1月31日6:00～
@@ -693,9 +615,6 @@ TEXT: 1月6日10:00～
 
 RESOURCE ID: event_datetime_range_key_raikoushadowraidday
 TEXT: 1月24日14:00～17:00
-
-RESOURCE ID: event_datetime_range_key_sunmoon_researchtr2025
-TEXT: 12月20日14:00～17:00
 
 RESOURCE ID: event_datetime_range_key_wattsup_jan2026
 TEXT: 1月13日10:00～
@@ -728,21 +647,6 @@ TEXT: +{0}
 RESOURCE ID: friendship_detail_item_singular
 TEXT: +{0}
 
-RESOURCE ID: friendship_detail_unlock_reqs_plural
-TEXT: 再獲得{0}朋友點數成為{1}吧！
-
-RESOURCE ID: friendship_detail_unlock_reqs_plural_out
-TEXT: 再一起玩 {0} 天，就能成為 {1}！
-
-RESOURCE ID: friendship_detail_unlock_reqs_singular
-TEXT: 再獲得{0}朋友點數成為{1}吧！
-
-RESOURCE ID: friendship_detail_unlock_reqs_singular_out
-TEXT: 再一起玩 {0} 天，就能成為 {1}！
-
-RESOURCE ID: general1.ticket.4_sunmoon_researchtr2025_title
-TEXT: 天空調查日入場券
-
 RESOURCE ID: general1.ticket.5_buddy_event_title
 TEXT: 重要的夥伴特級限時調查入場券
 
@@ -758,8 +662,8 @@ TEXT: 酋雷姆合體團體戰日入場券
 RESOURCE ID: general1.ticket_cd_grookey25_title
 TEXT: 敲音猴社群日入場券
 
-RESOURCE ID: general1.ticket_cdc_piplup26_title
-TEXT: 波加曼經典社群日入場券
+RESOURCE ID: general1.ticket_cd_vulpix26_title
+TEXT: 六尾和阿羅拉六尾社群日入場券
 
 RESOURCE ID: general2.ticket.6_shadowraikouraidday_title
 TEXT: 雷公暗影團體戰日入場券
@@ -775,15 +679,6 @@ TEXT: 開始
 
 RESOURCE ID: general_pokemon_trainer
 TEXT: 寶可夢訓練家
-
-RESOURCE ID: gift_additional_items
-TEXT: 友情禮物的內容有可能變得更豪華
-
-RESOURCE ID: gift_pokemon_wild
-TEXT: 捕捉到活動主題寶可夢時，寶可夢可能持有額外道具
-
-RESOURCE ID: gift_xp_double
-TEXT: 傳送友情禮物獲得的XP加倍
 
 RESOURCE ID: go_tour_ep_bonus_title_deluxe_00
 TEXT: Tier 1 GO Pass Deluxe: Road to Kalos Bonuses
@@ -903,7 +798,7 @@ RESOURCE ID: in_techfest_2025_tr_name_3
 TEXT: Pokémon GO College Fest 2026 限時調查(3/3)
 
 RESOURCE ID: increased_mega_level_caught_desc
-TEXT: Some Pokémon you catch from Super Mega Raids or reasearch may have increased Mega Levels.
+TEXT: Some Pokémon you catch from Super Mega Raids or research may already have at least one Mega Level.
 
 RESOURCE ID: increased_mega_level_caught_title
 TEXT: Increased Mega Levels
@@ -941,12 +836,6 @@ TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時�
 
 RESOURCE ID: item_event_ticket_08_details_gmaxhooh26
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間1月31日領取特別的獎勵。
-
-RESOURCE ID: item_event_ticket_desc_sunmoon_researchtr2025
-TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年12月20日14:00～17:00參與太陽岩和月石特級限時調查。
-
-RESOURCE ID: item_event_ticket_details_sunmoon_researchtr2025
-TEXT: 入場券將會自動啟用，不論你身在何處，都能在12月20日開始參與太陽岩和月石特級限時調查。
 
 RESOURCE ID: item_event_ticket_evergreen_desc_intotdepths26
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2026年2月1日20:00前參與「洞窟深處」特級限時調查。
@@ -987,47 +876,14 @@ TEXT: 入場券將會自動啟動。不論你身在何處，都能在當地時�
 RESOURCE ID: item_event_ticket_pink_desc_cd_grookey25
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2026年1月18日14:00開始參與敲音猴社群日的特殊調查。
 
-RESOURCE ID: item_event_ticket_pink_desc_cdc_piplup26
-TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2026年1月4日14:00開始參與波加曼經典社群日的特殊調查。
+RESOURCE ID: item_event_ticket_pink_desc_cd_vulpix26
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2026年2月1日14:00開始參與六尾和阿羅拉六尾社群日的特殊調查。
 
 RESOURCE ID: item_event_ticket_pink_details_cd_grookey25
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間1月18日開始參與「解開小猴寶可夢之謎！」的特殊調查。
 
-RESOURCE ID: item_event_ticket_pink_details_cdc_piplup26
-TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間1月4日參與波加曼經典社群日特殊調查。
-
-RESOURCE ID: kr_festival_red_striped_basculin_bonus
-TEXT: 在平昌地區的河邊，野蠻鱸魚（紅條紋的樣子）會對誘餌模組、薰香產生反應
-
-RESOURCE ID: kr_winter_festival_2026_pyeongchang_bonus
-TEXT: 平昌冬季慶典2026 – 平昌獎勵
-
-RESOURCE ID: kr_winter_festival_2026_riverside_bonus
-TEXT: 平昌冬季慶典2026 – 河邊獎勵
-
-RESOURCE ID: kr_winter_festival_2026_tag
-TEXT: 平昌鱒魚節
-
-RESOURCE ID: kr_winter_festival_2026_title
-TEXT: 平昌冬季慶典2026
-
-RESOURCE ID: kr_winter_festival_2026_tr_name
-TEXT: 平昌冬季慶典紀念背卡限時調查
-
-RESOURCE ID: kr_winter_festival_2026_tr_name_1
-TEXT: 平昌冬季慶典紀念背卡限時調查(1/3)
-
-RESOURCE ID: kr_winter_festival_2026_tr_name_2
-TEXT: 平昌冬季慶典紀念背卡限時調查(2/3)
-
-RESOURCE ID: kr_winter_festival_2026_tr_name_3
-TEXT: 平昌冬季慶典紀念背卡限時調查(3/3)
-
-RESOURCE ID: kr_winter_festival_location_background_in_wild
-TEXT: 在地圖上遇見的戴著冬季花紋毛線帽的皮卡丘可能會帶著平昌冬季慶典紀念背卡
-
-RESOURCE ID: kr_winter_festival_raid_event_area
-TEXT: 戴著冬季花紋毛線帽的皮卡丘和四季鹿（冬天的樣子）將在平昌地區的活動限定團體戰登場
+RESOURCE ID: item_event_ticket_pink_details_cd_vulpix26
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間2月1日開始參與「冰與火」的特殊調查。
 
 RESOURCE ID: lobby_group_size_warning
 TEXT: Suggested group size of this raid is {0} players.
@@ -1041,14 +897,11 @@ TEXT: {0} Mega-Evolved Pokémon in lobby
 RESOURCE ID: lobby_mega_count_zero
 TEXT: {0} Mega Pokemon in Lobby
 
-RESOURCE ID: lucky_remote_trade_confirm_body
-TEXT: 請完成與{0}的亮晶晶遠距交換！
-
-RESOURCE ID: lucky_remote_trade_initiate_body
-TEXT: 收到{0}傳來的亮晶晶遠距交換提議了！
-
 RESOURCE ID: max_battle_day_dmax_ho_oh_ticketed
 TEXT: 極巨化鳳王極巨對戰週末入場券獎勵
+
+RESOURCE ID: mega2026_ditto_cant_break_shields
+TEXT: Ditto cannot break shields with Transform.
 
 RESOURCE ID: mega2026_ftue_conversation_1_1
 TEXT: Hey, %PLAYERNAME%! Would you like to learn more about Mega Evolution? I’ll walk you through it.
@@ -1077,14 +930,23 @@ TEXT: When you catch a Pokémon that shares a type with your Mega-Evolved Pokém
 RESOURCE ID: mega2026_ftue_conversation_4_2
 TEXT: There are other advantages when you Mega Evolve a Pokémon. Keep learning about this fascinating change in appearance by finding other Pokémon to Mega Evolve.
 
+RESOURCE ID: mega2026_ftue_conversation_nope
+TEXT: View the tutorial again from any Mega Raid.
+
 RESOURCE ID: mega2026_ftue_desc_1_title
 TEXT: Learn how to Mega Evolve your Pokémon!
+
+RESOURCE ID: mega2026_ftue_desc_1_title_temp
+TEXT: Catch a Pokémon and learn how to Mega Evolve them!
 
 RESOURCE ID: mega2026_ftue_lets_do_it_button
 TEXT: LET’S DO IT!
 
 RESOURCE ID: mega2026_ftue_modal_1_title
 TEXT: Start your Mega Evolution journey!
+
+RESOURCE ID: mega2026_ftue_modal_1_title_temp
+TEXT: Try out Mega Evolution!
 
 RESOURCE ID: mega_bonus_candy_plural
 TEXT: {0}
@@ -1100,7 +962,7 @@ Bonus Candy XL
 
 RESOURCE ID: mega_bonus_xl_candy_singular
 TEXT: {0}
-Bonus XL Candy
+Bonus Candy XL
 
 RESOURCE ID: mega_bonus_xp_plural
 TEXT: {0}
@@ -1215,10 +1077,10 @@ RESOURCE ID: mega_perk_cp_boost_excellentplus
 TEXT: Greatly Enhanced CP
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-01-22T01:40:42.787908+00:00 for zh-TW
-at SHA cea32c75318
-Pipeline 3507086, job 49949842
-Patch from: 0.393.0-SHA-43a8c027-RC4, 0.397.0-SHA-839dae57-RC1, 0.395.0-SHA-89cf719f-RC4
+TEXT: Built at 2026-01-24T00:21:53.492182+00:00 for zh-TW
+at SHA 59b95516a4a
+Pipeline 3510607, job 50034904
+Patch from: 0.395.1-SHA-ef2086b7-RC2, 0.397.0-SHA-5a918511-RC2
 
 RESOURCE ID: move_name_0491
 TEXT: 驚爆大頭
@@ -1250,8 +1112,8 @@ TEXT: 海邊斷崖特級限時調查(2/2)
 RESOURCE ID: photobomb_five_grookey
 TEXT: 敲音猴將在GO Snapshot中驚喜現身5次
 
-RESOURCE ID: photobomb_five_piplup
-TEXT: 波加曼將在GO Snapshot中驚喜現身5次
+RESOURCE ID: photobomb_five_vulpix
+TEXT: 六尾和阿羅拉六尾將在GO Snapshot中驚喜現身5次
 
 RESOURCE ID: photobomb_latias_latios
 TEXT: Encounter Latias or Latios in GO Snapshot
@@ -1584,9 +1446,6 @@ TEXT: Spin an event PokéStop at a GO Tour: Kalos Official Route start point
 RESOURCE ID: quest_grookey_catch_b
 TEXT: 捕捉{0}隻敲音猴
 
-RESOURCE ID: quest_piplup_catch_b
-TEXT: 捕捉{0}隻波加曼
-
 RESOURCE ID: quest_power_up_dark_psychic_plural
 TEXT: Power up Psychic- or Dark-type Pokémon {0} times
 
@@ -1632,17 +1491,20 @@ TEXT: 解開小猴寶可夢之謎！(2/3)
 RESOURCE ID: quest_title_grookey_2
 TEXT: 解開小猴寶可夢之謎！(3/3)
 
-RESOURCE ID: quest_title_piplup
-TEXT: 波加曼大駕光臨
+RESOURCE ID: quest_title_vulpix
+TEXT: 冰與火
 
-RESOURCE ID: quest_title_piplup_0
-TEXT: 波加曼大駕光臨 (1/3)
+RESOURCE ID: quest_title_vulpix_0
+TEXT: 冰與火 (1/3)
 
-RESOURCE ID: quest_title_piplup_1
-TEXT: 波加曼大駕光臨 (2/3)
+RESOURCE ID: quest_title_vulpix_1
+TEXT: 冰與火 (2/3)
 
-RESOURCE ID: quest_title_piplup_2
-TEXT: 波加曼大駕光臨 (3/3)
+RESOURCE ID: quest_title_vulpix_2
+TEXT: 冰與火 (3/3)
+
+RESOURCE ID: quest_vulpix_catch_b
+TEXT: 捕捉{0}隻六尾或阿羅拉六尾
 
 RESOURCE ID: raid_approach_multiple_post_list
 TEXT: USED WHEN YOU WIN: {0}
@@ -1664,17 +1526,8 @@ TEXT: YOU CAN JOIN ONE MORE REMOTE RAID TODAY.
 RESOURCE ID: raid_day_kyurem_event_name
 TEXT: 酋雷姆合體團體戰日
 
-RESOURCE ID: raid_hour_raids_five_outside_stadium
-TEXT: 競技場外的五星團體戰增加
-
 RESOURCE ID: raid_message_heal_pokemon
 TEXT: Heal your Pokémon
-
-RESOURCE ID: remote_trade_daily_limit
-TEXT: 已經達到遠距交換上限(1天{0}次)
-
-RESOURCE ID: remote_trade_daily_limit_out
-TEXT: 已經達到遠距交換的每日上限
 
 RESOURCE ID: remote_trade_first_time_body
 TEXT: 等待朋友回應。
@@ -1687,32 +1540,20 @@ TEXT: 請稍等
 RESOURCE ID: remote_trade_friend_all_time_locked_pokemon_message
 TEXT: 對方的寶可夢還不能用來遠距交換。
 
-RESOURCE ID: remote_trade_friend_daily_limit
-TEXT: 朋友已經達到遠距交換上限(1天{0}次)
-
-RESOURCE ID: remote_trade_friend_daily_limit_out
-TEXT: 朋友已經達到遠距交換每日上限
-
 RESOURCE ID: remote_trade_inventory_select_error_toast
 TEXT: 請選擇1～3隻要用來遠距交換的寶可夢
 
-RESOURCE ID: remote_trade_player_pokemon_title
-TEXT: 自己的寶可夢
-
 RESOURCE ID: remote_trade_select_offer_error_toast
 TEXT: 請選擇1隻要用來遠距交換的寶可夢
+
+RESOURCE ID: remote_trade_time_locked_message_singular_day
+TEXT: 這隻寶可夢1天後可以用來遠距交換。（標籤會保持附加狀態）
 
 RESOURCE ID: repeatable_friendship_detail_unlock_reqs_plural
 TEXT: 再獲得{0}朋友點數以獲取額外獎勵吧！
 
 RESOURCE ID: repeatable_friendship_detail_unlock_reqs_singular
 TEXT: 再獲得{0}朋友點數以獲取額外獎勵吧！
-
-RESOURCE ID: research_day_sun_moon_tr_name_lunatone
-TEXT: 月石特級限時調查
-
-RESOURCE ID: research_day_sun_moon_tr_name_solrock
-TEXT: 太陽岩特級限時調查
 
 RESOURCE ID: retake_button
 TEXT: 重新拍照
@@ -1722,30 +1563,6 @@ TEXT: 已新增至常用搜尋
 
 RESOURCE ID: search_name_and_num_label
 TEXT: 使用寶可夢名或編號搜尋
-
-RESOURCE ID: season21_precious_paths_sr_2_0
-TEXT: 對戰吧，%PLAYERNAME%！若要加強與寶可夢之間的牽絆，果然還是得靠對戰！
-
-RESOURCE ID: season21_precious_paths_sr_2_1
-TEXT: 對戰的目的，與其說是要分出誰才是最強者，不如說無論輸贏，這都是個能讓自己跨越心中障礙，並與寶可夢達到心意相通的絕佳機會。
-
-RESOURCE ID: season21_precious_paths_sr_2_2
-TEXT: 透過不同種類的對戰將學到的事好好地記在心中吧。
-
-RESOURCE ID: season21_precious_paths_sr_2_3
-TEXT: 最重要的是，不管什麼時候都要享受其中。只要做到這點，就能成為贏家！
-
-RESOURCE ID: season21_precious_paths_sr_3_0
-TEXT: 太精彩了，%PLAYERNAME%！你擺脫困境的樣子太令我感動了。
-
-RESOURCE ID: season21_precious_paths_sr_3_1
-TEXT: 這代表你的戰略制定得很成功。這並不是件簡單的事。
-
-RESOURCE ID: season21_precious_paths_sr_3_2
-TEXT: 何不進一步磨練你的對戰技術，努力將你身為訓練家的可能性，以及你的寶可夢的可能性最大限度地激發出來？
-
-RESOURCE ID: season21_precious_paths_sr_3_3
-TEXT: 雖然我想我們很快就能再見面，但我希望你記得──我隨時都在默默地為你加油喔！
 
 RESOURCE ID: season21_precious_paths_sr_4_0
 TEXT: 嘿，%PLAYERNAME%！關於什麼才是最有價值的事，你是否快要找到自己的答案了呢？
@@ -1795,14 +1612,8 @@ TEXT: 那就是隊長們。他們雖然興趣各不相同，卻很重視彼此�
 RESOURCE ID: season21_precious_paths_sr_7_3
 TEXT: %PLAYERNAME%，我呢，對你和其他訓練家除了感謝還是感謝。我覺得我學到了很多，研究也有很大的進展。
 
-RESOURCE ID: season_pass_base_track_title_winter_holidays_2025
-TEXT: GO Pass：冬日假期2025
-
 RESOURCE ID: season_pass_details_link_january2026
 TEXT: （詳情請至<a href="https://pokemongo.com/news/go-pass-january-2026">網站</a>確認）
-
-RESOURCE ID: season_pass_details_link_winter_holidays_2025
-TEXT: （詳情請至<a href="https://pokemongo.com/news/go-pass-winter_holidays-2025">網站</a>確認）
 
 RESOURCE ID: season_pass_january2026_event_duration
 TEXT: 1月6日～2月5日
@@ -1814,26 +1625,6 @@ TEXT: 如果購買GO Pass豪華版：1月，將能解鎖下列獎勵！
 ・能成為亮晶晶好朋友的道具「<a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">亮晶晶首飾</a>」
 ・其他
 
-RESOURCE ID: season_pass_premium_track_plus_ten_ranks_title_winter_holidays_2025
-TEXT: GO Pass豪華版：冬日假期2025＋10級
-
-RESOURCE ID: season_pass_premium_track_title_winter_holidays_2025
-TEXT: GO Pass豪華版：冬日假期2025
-
-RESOURCE ID: season_pass_winter_holidays_2025_event_duration
-TEXT: 12月18日～12月29日
-
-RESOURCE ID: season_pass_winter_holidays_2025_track_upgrade_header_description
-TEXT: 可獲得追加的獎勵，並且在級別升上50級後解鎖<b>雪吞蟲針織帽</b>！
-
-RESOURCE ID: season_pass_winter_holidays_2025_upgrade_description
-TEXT: 如果購買GO Pass豪華版：冬日假期2025，將能解鎖下列獎勵！
-
-・換裝道具「雪吞蟲針織帽」
-・與活動主題寶可夢相遇
-・神奇糖果XL
-・其他
-
 RESOURCE ID: see_bonus_ranks_button
 TEXT: 查看獎勵級別
 
@@ -1843,14 +1634,11 @@ TEXT: 雷公暗影團體戰日
 RESOURCE ID: shadow_raikou_website_link
 TEXT: （詳情請至<a href="https://pokemongo.com/post/shadow-raikou-raid-day-2026">網站</a>確認）
 
-RESOURCE ID: shop_inventory_more_capacity
-TEXT: 包包滿了！
-
 RESOURCE ID: spawn_grookey
 TEXT: 更多敲音猴出現在地圖上！
 
-RESOURCE ID: spawn_piplup
-TEXT: 更多波加曼出現在地圖上！
+RESOURCE ID: spawn_vulpix
+TEXT: 更多六尾和阿羅拉六尾出現在地圖上！
 
 RESOURCE ID: sr_go_tour_2026_global_title
 TEXT: GO Tour 2026: An X-ceptional Yarn
@@ -1885,9 +1673,6 @@ TEXT: GO Tour 2026: A Balancing Act (3/3)
 RESOURCE ID: stamp_rally_missed_prefecture_reward_toast
 TEXT: To claim this reward, tap the stamp button while at one of the Poké Lid Stamp Rally locations in this prefecture.
 
-RESOURCE ID: sticker_count_format
-TEXT: ×{0}
-
 RESOURCE ID: sticker_photo_remove_stickers
 TEXT: 移除貼圖
 
@@ -1896,36 +1681,6 @@ TEXT: 儲存貼圖
 
 RESOURCE ID: sticker_photo_save_warning
 TEXT: 儲存後無法重貼或移除貼圖。
-
-RESOURCE ID: story_quest_keldeo_story_title
-TEXT: 四處奔馳的英雄
-
-RESOURCE ID: story_quest_keldeo_story_title_0
-TEXT: 四處奔馳的英雄(1/8)
-
-RESOURCE ID: story_quest_keldeo_story_title_1
-TEXT: 四處奔馳的英雄(2/8)
-
-RESOURCE ID: story_quest_keldeo_story_title_2
-TEXT: 四處奔馳的英雄(3/8)
-
-RESOURCE ID: story_quest_keldeo_story_title_3
-TEXT: 四處奔馳的英雄(4/8)
-
-RESOURCE ID: story_quest_keldeo_story_title_4
-TEXT: 四處奔馳的英雄(5/8)
-
-RESOURCE ID: story_quest_keldeo_story_title_5
-TEXT: 四處奔馳的英雄(6/8)
-
-RESOURCE ID: story_quest_keldeo_story_title_6
-TEXT: 四處奔馳的英雄(7/8)
-
-RESOURCE ID: story_quest_keldeo_story_title_7
-TEXT: 四處奔馳的英雄(8/8)
-
-RESOURCE ID: sun_moon_research_day_event_name
-TEXT: 天空調查日
 
 RESOURCE ID: tag_go_tour_kalos_los_angeles
 TEXT: GO Tour: Kalos – Los Angeles
@@ -1954,13 +1709,19 @@ TEXT: <b>可獲得的獎勵：</b>
 ・1張特級對戰入場券、1個特殊招式學習器、神奇糖果
 ・其他
 
-RESOURCE ID: text_rewards_key_cdc_piplup26
+RESOURCE ID: text_rewards_key_cd_vulpix26
 TEXT: <b>可獲得的獎勵：</b>
-・與波加曼（附有特別背卡）相遇
+・與六尾和阿羅拉六尾（附有特別背卡）相遇
 ・1張特級對戰入場券、1個特殊招式學習器、神奇糖果
 ・其他
 
 RESOURCE ID: text_rewards_key_dmaxhooh26
+TEXT: <b>可獲得的獎勵：</b>
+・在極巨對戰獲勝時XP變成2倍
+・完成傳說極巨對戰時獲得的糖果與糖果XL增加
+・完成後即可獲得25000XP及50000星星沙子的限時調查課題
+
+RESOURCE ID: text_rewards_key_dmaxhooh26_out
 TEXT: <b>可獲得的獎勵：</b>
 ・透過能量點和探索可額外收集4000極巨粒子
 ・在極巨對戰獲勝時XP變成2倍
@@ -1996,11 +1757,6 @@ TEXT: <b>可獲得的獎勵：</b>
 ・旋轉道館轉盤時可獲得5張額外團體戰入場券
 ・在團體戰中獲勝時可獲得1.5倍XP及2倍星星沙子等
 
-RESOURCE ID: text_rewards_key_sunmoon_researchtr2025
-TEXT: 在本限時調查中，只要在當地時間2025年12月20日14:00～17:00完成田野調查課題，就可以遇見月石和太陽岩。
-
-在活動舉辦期間，可透過本限時調查遇見的寶可夢包含了異色寶可夢（機率會與完成活動的田野調查時可遇見的寶可夢相同）。
-
 RESOURCE ID: text_rewards_key_wattsup_jan2026
 TEXT: <b>可獲得的獎勵：</b>
 ・與光蚪仔相遇
@@ -2011,18 +1767,8 @@ TEXT: <b>可獲得的獎勵：</b>
 RESOURCE ID: ticket_grookey_cd
 TEXT: 敲音猴社群日特殊調查入場券在商店裡上架了
 
-RESOURCE ID: ticket_piplup_cdc
-TEXT: 波加曼經典社群日特殊調查入場券在商店裡上架了
-
-RESOURCE ID: tips_friends_tutorial_lucky_body
-TEXT: 若和朋友成為「正港好朋友」後繼續保持互動，便有機會和他們成為亮晶晶好朋友。
-
-和亮晶晶好朋友交換寶可夢時，該寶可夢將會變成亮晶晶寶可夢！之後亮晶晶好朋友將回到正港好朋友，但你們還是有機會再次成為亮晶晶好朋友。
-
-RESOURCE ID: tips_friends_tutorial_lucky_body_out
-TEXT: 你有機會和你的正港好朋友成為亮晶晶好朋友。和亮晶晶好朋友交換寶可夢時，該寶可夢將會變成亮晶晶寶可夢。
-
-其後亮晶晶好朋友將回到正港好朋友，但你們還是有機會再次成為亮晶晶好朋友。
+RESOURCE ID: ticket_vulpix_cd
+TEXT: 六尾和阿羅拉六尾社群日特殊調查入場券在商店裡上架了
 
 RESOURCE ID: title_addon_kalos_hatch
 TEXT: GO Tour: Kalos – Egg-thusiast
@@ -2150,33 +1896,6 @@ TEXT: Very Fairy Timed Research (3/4)
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title_03
 TEXT: Very Fairy Timed Research (4/4)
 
-RESOURCE ID: tr_hut_hut_desc_00
-TEXT: 第一檔……
-
-RESOURCE ID: tr_hut_hut_desc_01
-TEXT: 第二檔……
-
-RESOURCE ID: tr_hut_hut_desc_02
-TEXT: 第三檔……
-
-RESOURCE ID: tr_hut_hut_desc_03
-TEXT: 達陣！
-
-RESOURCE ID: tr_hut_hut_title
-TEXT: 預備！GO！獎勵限時調查
-
-RESOURCE ID: tr_hut_hut_title_00
-TEXT: 預備！GO！獎勵限時調查(1/4)
-
-RESOURCE ID: tr_hut_hut_title_01
-TEXT: 預備！GO！獎勵限時調查(2/4)
-
-RESOURCE ID: tr_hut_hut_title_02
-TEXT: 預備！GO！獎勵限時調查(3/4)
-
-RESOURCE ID: tr_hut_hut_title_03
-TEXT: 預備！GO！獎勵限時調查(4/4)
-
 RESOURCE ID: tr_id2026_car_free_day
 TEXT: 無車日限時調查
 
@@ -2209,9 +1928,6 @@ TEXT: 將從對戰小隊移除
 
 RESOURCE ID: trade_warning_bullet_buddy
 TEXT: 夥伴等級將被重置
-
-RESOURCE ID: trade_warning_bullet_hyper_training
-TEXT: 寶可夢的能力將會改變
 
 RESOURCE ID: trade_warning_bullet_max
 TEXT: 極巨招式等級將被重置
@@ -2270,6 +1986,9 @@ TEXT: JOIN THE RAID BATTLE ({0} {1} ARE ONLY USED WHEN YOU WIN.)
 RESOURCE ID: use_raid_ticket_confirmation_ticket_return_count_singular
 TEXT: JOIN THE RAID BATTLE ({0} {1} IS ONLY USED WHEN YOU WIN.)
 
+RESOURCE ID: vulpix_cd_website_link
+TEXT: （詳情請至<a href="https://pokemongo.com/news/202601_communityday-february-2026-vulpix">網站</a>確認）
+
 RESOURCE ID: watts_up_event_name
 TEXT: 電光高瓦數
 
@@ -2290,19 +2009,4 @@ TEXT: 電光高瓦數2全球大挑戰獎勵
 
 RESOURCE ID: watts_up_tier3_reward
 TEXT: 電光高瓦數3全球大挑戰獎勵
-
-RESOURCE ID: winter_holidays_2025_part_1_event_name
-TEXT: 冬日假期2025 Part 1
-
-RESOURCE ID: winter_holidays_2025_part_2_event_name
-TEXT: 冬日假期2025 Part 2
-
-RESOURCE ID: winter_weekend_tr_name
-TEXT: 冬季週末限時調查
-
-RESOURCE ID: winter_weekend_tr_name_1
-TEXT: 冬季週末限時調查 (1/2)
-
-RESOURCE ID: winter_weekend_tr_name_2
-TEXT: 冬季週末限時調查 (2/2)
 
