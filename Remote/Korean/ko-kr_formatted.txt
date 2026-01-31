@@ -482,7 +482,7 @@ RESOURCE ID: bonus_cd_move_vulpix
 TEXT: 식스테일를 나인테일로 진화시키면 에너지볼을 배운다
 
 RESOURCE ID: bonus_extra_carbink_global_masterwork
-TEXT: Masterwork Bonus for GO Tour IRL Ticket-Holders
+TEXT: Masterwork Research bonus for in-person GO Tour ticket holders
 
 RESOURCE ID: bonus_gift_inventory_40
 TEXT: Gift storage increased to 40
@@ -512,7 +512,7 @@ RESOURCE ID: bonus_mega_cp_boost
 TEXT: Boosted CP for all Mega-Evolved Pokémon
 
 RESOURCE ID: bonus_mega_energy_spin_chance
-TEXT: Chance of Mega Energy from spinnning Pokestops or Gyms
+TEXT: Chance of receiving Mega Energy from spinning PokéStops or Gyms
 
 RESOURCE ID: bonus_ppk_event_pokemon_fr
 TEXT: PokéPark KANTO 한정 필드리서치 있음
@@ -539,7 +539,7 @@ RESOURCE ID: bonus_raid_3_xl_candy_t5_and_mega_temp
 TEXT: Three additional Candy XL from successful five-star and Mega Raids
 
 RESOURCE ID: bonus_raid_5k_xp_mega
-TEXT: Additional 5000 XP from successful Mega Raids
+TEXT: Additional 5,000 XP awarded for successful Mega Raids
 
 RESOURCE ID: bonus_raid_6_candy_t5_and_mega
 TEXT: Six additional Candy for successful five-star raids and Mega Raids
@@ -835,6 +835,9 @@ TEXT: PASS REWARDS
 RESOURCE ID: claim_all_pokemon_left_to_catch
 TEXT: You have {0} Pokémon left to catch.
 
+RESOURCE ID: claim_all_pokemon_left_to_catch_singular
+TEXT: You have 1 Pokémon left to catch.
+
 RESOURCE ID: claim_all_quest_rewards_btn
 TEXT: CLAIM ALL
 
@@ -891,6 +894,9 @@ TEXT: At the top of each hour, Unown will appear in large numbers!
 
 RESOURCE ID: details_link_key_dmax_ho_oh
 TEXT: 자세한 내용은 <a href="https://pokemongo.com/news/ho-oh-max-battle-weekend-2026">웹사이트</a>에서 확인해 주세요.
+
+RESOURCE ID: details_link_key_oricorio_mastery_feb2026
+TEXT: 자세한 내용은 <a href="https://pokemongolive.com/post/catch-mastery-oricorio-2026">웹사이트</a>에서 확인해 주세요.
 
 RESOURCE ID: dmax_ho_oh_lead_up_timed_research
 TEXT: 다이맥스 칠색조 맥스배틀 위켄드 직전 시간제한 리서치
@@ -988,7 +994,7 @@ RESOURCE ID: enhanced_currency_ftue_title
 TEXT: Use Link Charges to Join Mega Raids
 
 RESOURCE ID: enhanced_currency_large_3rrp_title
-TEXT: 600 Link Charges + 3 Remote Raid Pass
+TEXT: 600 Link Charges + 3 Remote Raid Passes
 
 RESOURCE ID: enhanced_currency_large_rrp_title
 TEXT: 600 Link Charges + 1 Remote Raid Pass
@@ -1032,6 +1038,9 @@ TEXT: 1월 20일 10시~
 RESOURCE ID: event_datetime_range_key_carnivaloflamigo26
 TEXT: 2월 3일 10시~
 2월 8일 20시
+
+RESOURCE ID: event_datetime_range_key_catch_mastery_oricorio
+TEXT: 2월 7일 10시~20시
 
 RESOURCE ID: event_datetime_range_key_cd_grookey25
 TEXT: 1월 18일 14시~17시
@@ -1331,6 +1340,9 @@ TEXT: 식스테일과 식스테일(알로라의 모습) 커뮤니티 데이 티�
 RESOURCE ID: general2.ticket.6_shadowraikouraidday_title
 TEXT: 라이코 그림자 레이드 데이 티켓
 
+RESOURCE ID: general2.ticket2.catch_mastery_oricorio
+TEXT: 마스터리 시리즈: 춤추새 프리미엄 시간제한 리서치 티켓
+
 RESOURCE ID: general2.ticket2.pinch_perfect
 TEXT: 해변의 낭떠러지 프리미엄 시간제한 리서치 티켓
 
@@ -1467,13 +1479,19 @@ RESOURCE ID: go_tour_2026_masterwork_sr_dialog_09_03
 TEXT: Thank you for all your efforts, %PLAYERNAME%. Keep that sparkle alive, wherever your journey takes you!
 
 RESOURCE ID: go_tour_ep_bonus_title_deluxe_00
-TEXT: Tier 1 GO Pass Deluxe: Road to Kalos Bonuses
+TEXT: Tier 1 Deluxe Bonuses
 
 RESOURCE ID: go_tour_ep_bonus_title_deluxe_01
-TEXT: Tier 2 GO Pass Deluxe: Road to Kalos Bonuses
+TEXT: Tier 2 Deluxe Bonuses
 
 RESOURCE ID: go_tour_ep_bonus_title_deluxe_02
-TEXT: Tier 3 GO Pass Deluxe: Road to Kalos Bonuses
+TEXT: Tier 3 Deluxe Bonuses
+
+RESOURCE ID: go_tour_kalos_furfrou_branch_tr_dialog_00_00
+TEXT: Fashions change, and so does Furfrou's trim.
+
+RESOURCE ID: go_tour_kalos_furfrou_branch_tr_dialog_00_01
+TEXT: Time to set a new trend! And remember: the style that looks best is the one that speaks to you.
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_02_00
 TEXT: %PLAYERNAME%, did you know that just Mega Energy isn't enough to Mega Evolve a Pokémon. To Mega Evolve, a Pokémon also needs a strong bond with its Trainer.
@@ -1652,6 +1670,9 @@ TEXT: I’d bet a Flying-type Pokémon like Yveltal understands that. I hope you
 RESOURCE ID: go_tour_kalos_irl_sr_yveltal_dialog_03_03
 TEXT: Keep that in mind—and don’t forget the power of Mega Evolution—and you’re sure to prevail in your next encounter!
 
+RESOURCE ID: go_tour_kalos_portals_intro_tr_dialog_00_00
+TEXT: The appearance of all these powerful Pokémon threw me for a loop. Then I thought: what if they were teleported here by Hoopa? Let's find out!
+
 RESOURCE ID: gotour2026_boqus_header_daily
 TEXT: Road to Kalos: Daily Bonus Tasks
 
@@ -1812,8 +1833,14 @@ TEXT: Link Charges
 RESOURCE ID: item_enhanced_currency_quickshop_need_x_more_to_enter
 TEXT: You need {0} more Link Charges to enter this battle.
 
+RESOURCE ID: item_event_ticket_02_desc_catch_mastery_oricorio
+TEXT: 현지시간 2026년 2월 7일 10시~20시에 마스터리 시리즈: 춤추새 프리미엄 시간제한 리서치를 진행하기 위한 티켓.
+
 RESOURCE ID: item_event_ticket_02_desc_pinch_perfect
 TEXT: 현지시간 2026년 1월 6일 10시 ~ 1월 11일 20시까지 '해변의 낭떠러지' 프리미엄 시간제한 리서치를 진행할 수 있는 티켓
+
+RESOURCE ID: item_event_ticket_02_details_catch_mastery_oricorio
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2026년 2월 7일에 마스터리 시리즈: 춤추새 프리미엄 시간제한 리서치를 손에 넣을 수 있습니다.
 
 RESOURCE ID: item_event_ticket_02_details_pinch_perfect
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2026년 1월 6일에 해변의 낭떠러지 프리미엄 시간제한 리서치를 손에 넣을 수 있습니다.
@@ -2127,10 +2154,10 @@ RESOURCE ID: message_open_settings
 TEXT: 설정 열기
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-01-30T22:26:21.249539+00:00 for ko-KR
-at SHA 12f09bf5599
-Pipeline 3520387, job 50293830
-Patch from: 0.395.1-SHA-2504d2e4-RC1, 0.397.0-SHA-839dae57-RC1
+TEXT: Built at 2026-01-31T03:04:05.106327+00:00 for ko-KR
+at SHA edb3e7cf225
+Pipeline 3521039, job 50305716
+Patch from: 0.397.0-SHA-03021482-RC4, 0.395.1-SHA-ef2086b7-RC2
 
 RESOURCE ID: move_name_0491
 TEXT: 깜짝헤드
@@ -2149,6 +2176,9 @@ TEXT: 새해 2026
 
 RESOURCE ID: nye_jan26_collection
 TEXT: 새해 2026 컬렉션 챌린지
+
+RESOURCE ID: oricorio_mastery_feb2026
+TEXT: 마스터리 시리즈: 춤추새
 
 RESOURCE ID: paid_tr_nye_jan2026
 TEXT: 새해 2026 프리미엄 시간제한 리서치
@@ -2505,7 +2535,7 @@ RESOURCE ID: quest_catch_kalos_pokemon_singular
 TEXT: Catch a Pokémon originally discovered in the Kalos region
 
 RESOURCE ID: quest_evolve_eevee_sylveon
-TEXT: Evolve an Eevee to Sylveon
+TEXT: Evolve Eevee into Sylveon
 
 RESOURCE ID: quest_form_change_furfrou_debutante
 TEXT: Form change a Furfrou to have a Debutante Trim
@@ -2538,13 +2568,13 @@ RESOURCE ID: quest_grookey_catch_b
 TEXT: 흥나숭을 {0}마리 잡는다
 
 RESOURCE ID: quest_medal_fairy_platinum
-TEXT: Earn the Platinum Fairy Medal
+TEXT: Earn a platinum medal for catching Fairy types
 
 RESOURCE ID: quest_medal_kalos_gold
-TEXT: Earn the Gold Kalos Medal
+TEXT: Earn the gold Kalos medal
 
 RESOURCE ID: quest_medal_rock_platinum
-TEXT: Earn the Platinum Rock Medal
+TEXT: Earn a platinum medal for catching Rock types
 
 RESOURCE ID: quest_power_up_dark_psychic_plural
 TEXT: Power up Psychic- or Dark-type Pokémon {0} times
@@ -2735,6 +2765,22 @@ TEXT: 팀 리더들 말이야. 흥미는 다 제각각이지만 서로 배우고
 RESOURCE ID: season21_precious_paths_sr_7_3
 TEXT: 나도, %PLAYERNAME%, 너와 다른 트레이너들에게 감사하는 마음이 커. 덕분에 배움이 많았고 연구가 많이 진행되었다고 생각하고 있어.
 
+RESOURCE ID: season_pass_details_link_february2026
+TEXT: 자세한 내용은 <a href="https://pokemongo.com/news/go-pass-february-2026">웹사이트</a>에서 확인해 주세요.
+
+RESOURCE ID: season_pass_february2026_event_duration
+TEXT: 2월 3일~3월 3일
+
+RESOURCE ID: season_pass_february2026_track_upgrade_header_description
+TEXT: 추가 리워드와 <b>1,000포켓코인</b>을 받을 수 있습니다!
+
+RESOURCE ID: season_pass_february2026_upgrade_description
+TEXT: GO패스 디럭스: 2월을 구매하면 다음 리워드를 받을 수 있습니다!
+
+- 1,000포켓코인
+- 슈퍼 부화장치 1개
+- 기타
+
 RESOURCE ID: season_pass_january2026_event_duration
 TEXT: 1월 6일~2월 5일
 
@@ -2849,6 +2895,12 @@ TEXT: <b>받을 수 있는 리워드:</b>
 - 하이퍼볼 10개
 - 파인열매 10개
 - 별의모래 3,000개
+
+RESOURCE ID: text_rewards_key_catch_mastery_oricorio
+TEXT: <b>받을 수 있는 리워드:</b>
+- 춤추새(현지의 스타일)와의 만남 40회
+- 몬스터볼과 나무열매
+- 12,000XP와 별의모래 3,000개
 
 RESOURCE ID: text_rewards_key_cd_grookey25
 TEXT: <b>받을 수 있는 리워드:</b>
@@ -3078,6 +3130,78 @@ TEXT: 카 프리데이 시간제한 리서치(2/2)
 
 RESOURCE ID: tr_nz_blacephalon_makegood_jan2026_header_0
 TEXT: 레이드 아워: 두파팡
+
+RESOURCE ID: tr_oricorio_mastery_catch_hoothoot
+TEXT: 부우부를 {0}마리 잡는다
+
+RESOURCE ID: tr_oricorio_mastery_catch_starly
+TEXT: 찌르꼬를 {0}마리 잡는다
+
+RESOURCE ID: tr_oricorio_mastery_feb2026
+TEXT: 마스터리 시리즈: 춤추새 시간제한 리서치
+
+RESOURCE ID: tr_oricorio_mastery_feb2026_header_0
+TEXT: 마스터리 시리즈: 춤추새 시간제한 리서치(1/10)
+
+RESOURCE ID: tr_oricorio_mastery_feb2026_header_1
+TEXT: 마스터리 시리즈: 춤추새 시간제한 리서치(2/10)
+
+RESOURCE ID: tr_oricorio_mastery_feb2026_header_2
+TEXT: 마스터리 시리즈: 춤추새 시간제한 리서치(3/10)
+
+RESOURCE ID: tr_oricorio_mastery_feb2026_header_3
+TEXT: 마스터리 시리즈: 춤추새 시간제한 리서치(4/10)
+
+RESOURCE ID: tr_oricorio_mastery_feb2026_header_4
+TEXT: 마스터리 시리즈: 춤추새 시간제한 리서치(5/10)
+
+RESOURCE ID: tr_oricorio_mastery_feb2026_header_5
+TEXT: 마스터리 시리즈: 춤추새 시간제한 리서치(6/10)
+
+RESOURCE ID: tr_oricorio_mastery_feb2026_header_6
+TEXT: 마스터리 시리즈: 춤추새 시간제한 리서치(7/10)
+
+RESOURCE ID: tr_oricorio_mastery_feb2026_header_7
+TEXT: 마스터리 시리즈: 춤추새 시간제한 리서치(8/10)
+
+RESOURCE ID: tr_oricorio_mastery_feb2026_header_8
+TEXT: 마스터리 시리즈: 춤추새 시간제한 리서치(9/10)
+
+RESOURCE ID: tr_oricorio_mastery_feb2026_header_9
+TEXT: 마스터리 시리즈: 춤추새 시간제한 리서치(10/10)
+
+RESOURCE ID: tr_oricorio_mastery_paid_feb2026
+TEXT: 마스터리 시리즈: 춤추새 프리미엄 시간제한 리서치
+
+RESOURCE ID: tr_oricorio_mastery_paid_feb2026_header_0
+TEXT: 마스터리 시리즈: 춤추새 프리미엄 시간제한 리서치(1/10)
+
+RESOURCE ID: tr_oricorio_mastery_paid_feb2026_header_1
+TEXT: 마스터리 시리즈: 춤추새 프리미엄 시간제한 리서치(2/10)
+
+RESOURCE ID: tr_oricorio_mastery_paid_feb2026_header_2
+TEXT: 마스터리 시리즈: 춤추새 프리미엄 시간제한 리서치(3/10)
+
+RESOURCE ID: tr_oricorio_mastery_paid_feb2026_header_3
+TEXT: 마스터리 시리즈: 춤추새 프리미엄 시간제한 리서치(4/10)
+
+RESOURCE ID: tr_oricorio_mastery_paid_feb2026_header_4
+TEXT: 마스터리 시리즈: 춤추새 프리미엄 시간제한 리서치(5/10)
+
+RESOURCE ID: tr_oricorio_mastery_paid_feb2026_header_5
+TEXT: 마스터리 시리즈: 춤추새 프리미엄 시간제한 리서치(6/10)
+
+RESOURCE ID: tr_oricorio_mastery_paid_feb2026_header_6
+TEXT: 마스터리 시리즈: 춤추새 프리미엄 시간제한 리서치(7/10)
+
+RESOURCE ID: tr_oricorio_mastery_paid_feb2026_header_7
+TEXT: 마스터리 시리즈: 춤추새 프리미엄 시간제한 리서치(8/10)
+
+RESOURCE ID: tr_oricorio_mastery_paid_feb2026_header_8
+TEXT: 마스터리 시리즈: 춤추새 프리미엄 시간제한 리서치(9/10)
+
+RESOURCE ID: tr_oricorio_mastery_paid_feb2026_header_9
+TEXT: 마스터리 시리즈: 춤추새 프리미엄 시간제한 리서치(10/10)
 
 RESOURCE ID: tr_pinch_perfect_clauncher_jan2026_0
 TEXT: 해변의 낭떠러지: 완철포 시간제한 리서치
