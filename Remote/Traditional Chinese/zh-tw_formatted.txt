@@ -917,6 +917,9 @@ TEXT: At the top of each hour, Unown will appear in large numbers!
 RESOURCE ID: details_link_key_dmax_ho_oh
 TEXT: （詳情請至<a href="https://pokemongo.com/news/ho-oh-max-battle-weekend-2026">網站</a>確認）
 
+RESOURCE ID: details_link_key_lunar_new_year_feb2026
+TEXT: （詳情請至<a href="https://pokemongo.com/news/lunar-new-year-event-2026">網站</a>確認）
+
 RESOURCE ID: details_link_key_oricorio_mastery_feb2026
 TEXT: （詳情請至<a href="https://pokemongolive.com/post/catch-mastery-oricorio-2026">網站</a>確認）
 
@@ -1080,6 +1083,10 @@ TEXT: 1月27日10:00～
 
 RESOURCE ID: event_datetime_range_key_kyuremfusionraidday
 TEXT: 1月10日14:00～17:00
+
+RESOURCE ID: event_datetime_range_key_lunarny0226
+TEXT: 2月17日10:00～
+2月21日20:00
 
 RESOURCE ID: event_datetime_range_key_nye012026
 TEXT: 12月31日10:00～
@@ -1358,6 +1365,9 @@ TEXT: 極巨化鳳王極巨對戰週末特級限時調查入場券
 
 RESOURCE ID: general1.ticket._kyuremfusionraidday_title
 TEXT: 酋雷姆合體團體戰日入場券
+
+RESOURCE ID: general1.ticket._lunarny0226_title
+TEXT: 農曆春節2026特級限時調查入場券
 
 RESOURCE ID: general1.ticket_cd_grookey25_title
 TEXT: 敲音猴社群日入場券
@@ -1706,13 +1716,13 @@ RESOURCE ID: gofest_welcome_generic
 TEXT: Welcome to Pokémon GO Fest – Global!
 
 RESOURCE ID: gotour2026_boqus_header_daily
-TEXT: Road to Kalos: Daily Bonus Tasks
+TEXT: Road to Kalos: Daily Tasks
 
 RESOURCE ID: gotour2026_boqus_header_daily_prem
-TEXT: Road to Kalos: Deluxe Daily Bonus Tasks
+TEXT: Road to Kalos: Deluxe Daily Tasks
 
 RESOURCE ID: gotour2026_boqus_header_hourly
-TEXT: Road to Kalos: Hourly Bonus Tasks
+TEXT: Road to Kalos: Hourly Tasks
 
 RESOURCE ID: gotour2026_irl_boqus_header_hourly
 TEXT: Road to Kalos: Hourly Bonus Tasks
@@ -1766,6 +1776,9 @@ TEXT: Welcome to Pokémon GO Tour – Global!
 
 RESOURCE ID: gowild_welcome_generic
 TEXT: Welcome to Pokémon GO Wild Area – Global!
+
+RESOURCE ID: great_league_championship_series_2026
+TEXT: 2026GO Championship盃
 
 RESOURCE ID: habitat_kalos_central
 TEXT: Central Village
@@ -1837,11 +1850,17 @@ TEXT: Pokémon GO College Fest 2026 限時調查(2/3)
 RESOURCE ID: in_techfest_2025_tr_name_3
 TEXT: Pokémon GO College Fest 2026 限時調查(3/3)
 
+RESOURCE ID: increased_gift_rare_candy
+TEXT: 開啟友情禮物時獲得神奇糖果的機率提高
+
 RESOURCE ID: increased_mega_level_caught_desc
 TEXT: Some Pokémon you catch from Super Mega Raids or research may already have at least one Mega Level.
 
 RESOURCE ID: increased_mega_level_caught_title
 TEXT: Increased Mega Levels
+
+RESOURCE ID: increased_stardust_gifts_bonus
+TEXT: 開啟友情禮物時可獲得的星星沙子增加
 
 RESOURCE ID: into_depths_event_name
 TEXT: 洞窟深處
@@ -1898,6 +1917,9 @@ TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時�
 RESOURCE ID: item_event_ticket_evergreen_desc_intotdepths26
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2026年2月1日20:00前參與「洞窟深處」特級限時調查。
 
+RESOURCE ID: item_event_ticket_evergreen_desc_lunarny0226
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2026年2月17日10:00～2月21日20:00參與農曆春節2026特級限時調查。
+
 RESOURCE ID: item_event_ticket_evergreen_desc_nye0126
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2025年12月31日10:00～2026年1月4日20:00參與新年2026特級限時調查。
 
@@ -1909,6 +1931,9 @@ TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時�
 
 RESOURCE ID: item_event_ticket_evergreen_details_intotdepths26
 TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間1月27日開始參與「洞窟深處」特級限時調查。
+
+RESOURCE ID: item_event_ticket_evergreen_details_lunarny0226
+TEXT: 入場券將會自動啟用，不論你身在何處，都能在當地時間2月17日開始參與農曆春節2026特級限時調查。
 
 RESOURCE ID: item_event_ticket_evergreen_details_nye0126
 TEXT: 入場券將會自動啟動。不論你身在何處，都可以在當地時間12月31日開始參與新年2026特級限時調查。
@@ -1957,6 +1982,12 @@ TEXT: {0} Mega-Evolved Pokémon in lobby
 
 RESOURCE ID: lobby_mega_count_zero
 TEXT: {0} Mega-Evolved Pokémon in Lobby
+
+RESOURCE ID: lunar_new_year_feb2026
+TEXT: 農曆春節2026
+
+RESOURCE ID: lunar_new_year_feb26_collection
+TEXT: 農曆春節2026收藏家挑戰
 
 RESOURCE ID: max_battle_day_dmax_ho_oh_ticketed
 TEXT: 極巨化鳳王極巨對戰週末入場券獎勵
@@ -2156,10 +2187,10 @@ RESOURCE ID: message_open_settings
 TEXT: 開啟設定
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-02-04T18:10:01.777916+00:00 for zh-TW
-at SHA 9c094ea60e0
-Pipeline 3526498, job 50433620
-Patch from: 0.395.1-SHA-ef2086b7-RC2, 0.397.1-SHA-1fcfff58-RC1, 0.399.0-SHA-aaaad29e-RC1
+TEXT: Built at 2026-02-05T01:34:40.307811+00:00 for zh-TW
+at SHA ce578d857ea
+Pipeline 3528006, job 50465131
+Patch from: 0.397.1-SHA-1fcfff58-RC1, 0.399.0-SHA-45852136-RC1, 0.395.1-SHA-2504d2e4-RC1
 
 RESOURCE ID: move_name_0491
 TEXT: 驚爆大頭
@@ -2181,6 +2212,12 @@ TEXT: 新年2026收藏家挑戰
 
 RESOURCE ID: oricorio_mastery_feb2026
 TEXT: 捕捉達人：花舞鳥
+
+RESOURCE ID: paid_tr_lunar_new_year_feb2026
+TEXT: 農曆春節2026特級限時調查
+
+RESOURCE ID: paid_tr_lunar_new_year_feb2026_header_0
+TEXT: 農曆春節2026特級限時調查(1/1)
 
 RESOURCE ID: paid_tr_nye_jan2026
 TEXT: 新年2026特級限時調查
@@ -2771,6 +2808,30 @@ TEXT: 那就是隊長們。他們雖然興趣各不相同，卻很重視彼此�
 RESOURCE ID: season21_precious_paths_sr_7_3
 TEXT: %PLAYERNAME%，我呢，對你和其他訓練家除了感謝還是感謝。我覺得我學到了很多，研究也有很大的進展。
 
+RESOURCE ID: season21_precious_paths_sr_8_0
+TEXT: 嘿，%PLAYERNAME%！你平常有在送友情禮物來表達感謝之意嗎？
+
+RESOURCE ID: season21_precious_paths_sr_8_1
+TEXT: 說句話關心別人，或是送個友情禮物，著實是件令人開心的事呢。
+
+RESOURCE ID: season21_precious_paths_sr_8_2
+TEXT: 巧遇馬戴奧並從他那拿到友情禮物時，有時候會收到沒去過的地方的明信片，所以會更開心。
+
+RESOURCE ID: season21_precious_paths_sr_8_3
+TEXT: 如果你最近沒有送過友情禮物，快去送一下吧！
+
+RESOURCE ID: season21_precious_paths_sr_9_0
+TEXT: 哦，%PLAYERNAME%！你有聽我的話去送友情禮物了嗎？
+
+RESOURCE ID: season21_precious_paths_sr_9_1
+TEXT: 接下來是樹果。送給寶可夢的感謝心意。
+
+RESOURCE ID: season21_precious_paths_sr_9_2
+TEXT: 每當美錄坦看見寶芬和樹果時，牠的反應真的很有趣。
+
+RESOURCE ID: season21_precious_paths_sr_9_3
+TEXT: 這時候還是個絕佳的拍照時機。你也快去試試看吧！
+
 RESOURCE ID: season_pass_details_link_february2026
 TEXT: （詳情請至<a href="https://pokemongo.com/news/go-pass-february-2026">網站</a>確認）
 
@@ -2947,6 +3008,14 @@ TEXT: <b>可獲得的獎勵：</b>
 ・在團體戰獲得神奇糖果XL的機率提高
 ・在團體戰中獲勝時可獲得1.5倍XP及2倍星星沙子等
 
+RESOURCE ID: text_rewards_key_lunarny0226
+TEXT: <b>可獲得的獎勵：</b>
+・與斑斑馬和火紅不倒翁相遇
+・200寶可幣
+・3000星星沙子
+・2個幸運蛋
+・1個薰香
+
 RESOURCE ID: text_rewards_key_nye012026
 TEXT: <b>可獲得的獎勵：</b>
 ・與戴著派對禮帽的皮卡丘等活動主題寶可夢相遇
@@ -2977,6 +3046,9 @@ TEXT: 敲音猴社群日特殊調查入場券在商店裡上架了
 
 RESOURCE ID: ticket_vulpix_cd
 TEXT: 六尾和阿羅拉六尾社群日特殊調查入場券在商店裡上架了
+
+RESOURCE ID: timed_research_heart_pattern_spinda
+TEXT: 可透過限時調查遇見愛心斑點的晃晃斑
 
 RESOURCE ID: title_addon_kalos_hatch
 TEXT: GO Tour: Kalos – Egg-thusiast
@@ -3317,6 +3389,9 @@ TEXT: JOIN THE RAID BATTLE ({0} {1} ARE ONLY USED WHEN YOU WIN.)
 
 RESOURCE ID: use_raid_ticket_confirmation_ticket_return_count_singular
 TEXT: JOIN THE RAID BATTLE ({0} {1} IS ONLY USED WHEN YOU WIN.)
+
+RESOURCE ID: valentines_day_2026_timed_research_tiitle
+TEXT: 情人節活動限時調查
 
 RESOURCE ID: vulpix_cd_website_link
 TEXT: （詳情請至<a href="https://pokemongo.com/news/202601_communityday-february-2026-vulpix">網站</a>確認）
