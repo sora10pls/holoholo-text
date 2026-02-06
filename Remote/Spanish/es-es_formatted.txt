@@ -58,6 +58,9 @@ TEXT: ¿Quieres una foto con {0}?
 RESOURCE ID: ar_photo_social_entry_button
 TEXT: Sacar una foto
 
+RESOURCE ID: ar_photo_social_entry_label
+TEXT: ¡Tómate una foto con tu Pokémon favorito!
+
 RESOURCE ID: ar_photo_social_failed_to_load
 TEXT: Error al cargar
 
@@ -75,6 +78,9 @@ TEXT: 3. Decora y comparte
 
 RESOURCE ID: ar_photo_social_ftue_title
 TEXT: ¡Elige un Pokémon para hacerte una foto con él!
+
+RESOURCE ID: ar_photo_social_hashtag
+TEXT: #Pokemon30
 
 RESOURCE ID: ar_photo_social_horizontal_mode_hint
 TEXT: Coloca el teléfono en modo retrato para obtener los mejores resultados.
@@ -112,6 +118,9 @@ TEXT: Si sales de esta página, se perderán tus fotos.
 RESOURCE ID: ar_photo_social_review_confirm_exit_title
 TEXT: ¿Quieres hacer una nueva foto?
 
+RESOURCE ID: ar_photo_social_share_default_referral_text
+TEXT: ¡Tómate una foto con tu Pokémon favorito en Pokémon GO! https://pokemongo.com/es
+
 RESOURCE ID: ar_photo_social_share_more_photos
 TEXT: Ver más fotos
 
@@ -120,6 +129,9 @@ TEXT: ¿Quieres ver más fotos con {0}?
 
 RESOURCE ID: ar_photo_social_share_prompt
 TEXT: ¡Comparte tus fotos en línea!
+
+RESOURCE ID: ar_photo_social_share_referral_text
+TEXT: ¡Tómate una foto con tu Pokémon favorito en Pokémon GO!
 
 RESOURCE ID: ar_photo_social_summary_confirm_exit_message
 TEXT: No se guardarán las fotos.
@@ -145,6 +157,9 @@ TEXT: Esta función no está disponible para este dispositivo.
 RESOURCE ID: ar_plus_photo_prompt_title
 TEXT: ¡Fotografía Pokémon como nunca antes con la nueva cámara de RA+!
 
+RESOURCE ID: avatar_hat_xerneas
+TEXT: Accesorio de Xerneas
+
 RESOURCE ID: avatar_n_hat_communityambassador
 TEXT: Gorra de embajadores de la comunidad
 
@@ -156,6 +171,21 @@ TEXT: Pose de Carnaval
 
 RESOURCE ID: avatar_pose_heart
 TEXT: Pose de Corazón
+
+RESOURCE ID: avatar_shirt_gotour_black
+TEXT: Camiseta del Tour de GO 2026 (negra)
+
+RESOURCE ID: avatar_shirt_gotour_grey
+TEXT: Camiseta del Tour de GO 2026 (gris)
+
+RESOURCE ID: avatar_shirt_shinydiancie
+TEXT: Camiseta de Diancie variocolor
+
+RESOURCE ID: avatar_shirt_yveltal
+TEXT: Abrigo de Yveltal
+
+RESOURCE ID: avatar_shirt_zygarde
+TEXT: Chaqueta de Zygarde
 
 RESOURCE ID: badge_go_tour_2026_global
 TEXT: Febrero y marzo 2026
@@ -461,7 +491,7 @@ RESOURCE ID: bonus_cd_move_vulpix
 TEXT: ¡Haz evolucionar a Vulpix para conseguir un Ninetales que conozca el ataque cargado Energibola!
 
 RESOURCE ID: bonus_extra_carbink_diancie_energy
-TEXT: Chance for Carbink to be holding Diancie Mega Energy when caught in the wild
+TEXT: Wild Carbink may be holding Diancie Mega Energy
 
 RESOURCE ID: bonus_extra_carbink_global_masterwork
 TEXT: Masterwork Research bonus for in-person GO Tour ticket holders
@@ -476,16 +506,16 @@ RESOURCE ID: bonus_gift_open_daily_200
 TEXT: Open up to 200 Gifts per day
 
 RESOURCE ID: bonus_gotour_2026_other_mega_level_daily_points_6
-TEXT: Earn up to 6 points towards increasing a Pokémon's Mega Level per day
+TEXT: Earn up to 6 points daily toward increasing any Pokémon’s Mega Level
 
 RESOURCE ID: bonus_gotour_2026_other_mega_level_points_6x
-TEXT: Earn 6 points per Mega Evolution towards increasing a Pokémon's Mega level
+TEXT: Earn 6 points per Mega Evolution toward increasing any Pokémon’s Mega Level
 
 RESOURCE ID: bonus_gotour_irl_2026_mega_level_daily_points_30
-TEXT: Earn up to 30 points towards increasing any Victreebel or Malamar's Mega Level per day
+TEXT: Earn up to 30 points daily toward increasing the Mega Level of any Victreebel or Malamar
 
 RESOURCE ID: bonus_gotour_irl_2026_mega_level_daily_points_6
-TEXT: Earn up to 6 points towards increasing any Victreebel or Malamar's Mega Level per day
+TEXT: Earn up to 6 points daily toward increasing the Mega Level of any Victreebel or Malamar
 
 RESOURCE ID: bonus_gotour_kalos_furfrou
 TEXT: Explore the park to get different Furfrou trims not usually available in the region!
@@ -498,6 +528,24 @@ TEXT: Chance to discover Zygarde Cells on more Routes per day
 
 RESOURCE ID: bonus_incense_costume_pikachu
 TEXT: Incense may attract costumed Pikachu
+
+RESOURCE ID: bonus_incense_hisui_costume_pikachu
+TEXT: El Incienso podrá atraer a Pikachu con gorra de Luka y a Pikachu con pañuelo de Kira
+
+RESOURCE ID: bonus_incense_johto_costume_pikachu
+TEXT: El Incienso podrá atraer a Pikachu con gorra de Eco y a Pikachu con gorro de Lira
+
+RESOURCE ID: bonus_incense_kanto_costume_pikachu
+TEXT: El Incienso podrá atraer a Pikachu con gorro de Hoja y a Pikachu con gorra de Rojo
+
+RESOURCE ID: bonus_incense_sinnoh_costume_pikachu
+TEXT: El Incienso podrá atraer a Pikachu con gorra de León y a Pikachu con gorro de Maya
+
+RESOURCE ID: bonus_incense_unova_a_costume_pikachu
+TEXT: El Incienso podrá atraer a Pikachu con gorra de Lucho y a Pikachu con gorra de Liza
+
+RESOURCE ID: bonus_incense_unova_b_costume_pikachu
+TEXT: El Incienso podrá atraer a Pikachu con visera de Rizzo y a Pikachu con visera de Nanci
 
 RESOURCE ID: bonus_mateo_encounter_daily_25
 TEXT: Intercambia regalos con Mateo en hasta 25 Rutas cada día
@@ -547,11 +595,17 @@ TEXT: Increased chance of encountering White Flower Flabébé, Orange Flower Fla
 RESOURCE ID: bonus_routes_flabebe_tainan
 TEXT: Increased chance of encountering White Flower Flabébé, Orange Flower Flabébé, and Blue Flower Flabébé on Routes
 
+RESOURCE ID: bonus_scatterbug_pin_1
+TEXT: Aparece un Scatterbug cada regalo guardado por región
+
 RESOURCE ID: bonus_scatterbug_pin_3_temp
 TEXT: Mayor progreso en las submedallas de Scatterbug por cada postal guardada
 
 RESOURCE ID: bonus_scatterbug_pin_6
 TEXT: Aumento significativo del progreso en las submedallas de Scatterbug por cada postal guardada
+
+RESOURCE ID: bonus_special_background_t1_t5_raid
+TEXT: Los Pokémon capturados en las incursiones de nivel 1 a nivel 5 podrán tener un fondo especial
 
 RESOURCE ID: bonus_special_background_t5_and_mega_raid
 TEXT: Pokémon caught from five-star raids and Mega Raids may have a Special Background
@@ -561,6 +615,24 @@ TEXT: GO Tour: Kalos stickers available from Gifts and spinning PokéStops
 
 RESOURCE ID: bonus_today_event_sr
 TEXT: Ya está disponible la investigación especial exclusiva del evento
+
+RESOURCE ID: bonus_today_hoenn_spawn
+TEXT: ¡Están apareciendo Pokémon de la región de Hoenn  en estado salvaje!
+
+RESOURCE ID: bonus_today_johto_spawn
+TEXT: ¡Están apareciendo Pokémon de la región de Johto en estado salvaje!
+
+RESOURCE ID: bonus_today_kanto_spawn
+TEXT: ¡Están apareciendo Pokémon de la región de Kanto en estado salvaje!
+
+RESOURCE ID: bonus_today_sinnoh_spawn
+TEXT: ¡Están apareciendo Pokémon de la región de Sinnoh  en estado salvaje!
+
+RESOURCE ID: bonus_today_unova_spawn
+TEXT: ¡Están apareciendo Pokémon de la región de Teselia en estado salvaje!
+
+RESOURCE ID: bonus_today_zygarde_cell
+TEXT: Las células de Zygarde pueden aparecer al final de hasta 5 Rutas cada día
 
 RESOURCE ID: bonus_zygarde_cell_daily_25
 TEXT: Probabilidad de encontrar células de Zygarde en hasta 25 Rutas cada día
@@ -981,6 +1053,15 @@ TEXT: Eligir Música
 RESOURCE ID: em_carnival_2026_tr_path_b_desc
 TEXT: Escoge este camino para conseguir un encuentro con Jigglypuff, Ludicolo y Kricketot, ¡además de recompensas como Incienso y pegatinas!
 
+RESOURCE ID: enamorus_therian_paid_tr_name
+TEXT: Investigación temporal prémium del Día de Incursiones de Enamorus Forma Tótem
+
+RESOURCE ID: enamorus_therian_raid_day_event_name
+TEXT: Día de Incursiones: Enamorus Forma Tótem
+
+RESOURCE ID: enamorus_therian_website_link
+TEXT: Para obtener más información, visita el <a href="https://pokemongo.com/news/enamorus-therian-raid-day-2026">sitio web</a>.
+
 RESOURCE ID: encounter_score_daily_bonus
 TEXT: Daily Field Book Bonus
 
@@ -998,6 +1079,9 @@ TEXT: Usa Cargas Unión para unirte a las megaincursiones
 RESOURCE ID: enhanced_currency_large_3rrp_title
 TEXT: 600 Link Charges + 3 Remote Raid Passes
 
+RESOURCE ID: enhanced_currency_large_description
+TEXT: 600 Link Charges to join a Mega Raid in-person or remotely.
+
 RESOURCE ID: enhanced_currency_large_rrp_title
 TEXT: 600 Link Charges + 1 Remote Raid Pass
 
@@ -1006,6 +1090,9 @@ TEXT: 600 Link Charges
 
 RESOURCE ID: enhanced_currency_maxed_out_warning
 TEXT: Has alcanzado el número máximo de Cargas Unión ({0}). Inténtalo de nuevo cuando tengas menos Cargas Unión.
+
+RESOURCE ID: enhanced_currency_medium_description
+TEXT: 200 Link Charges to join a Mega Raid in-person or remotely.
 
 RESOURCE ID: enhanced_currency_medium_rrp_title
 TEXT: 200 Link Charges + 1 Remote Raid Pass
@@ -1053,6 +1140,13 @@ TEXT: 1 de febrero de 14:00 a 17:00
 RESOURCE ID: event_datetime_range_key_dmaxhooh26
 TEXT: Del 31 de enero a las 06:00
 al 1 de febrero a las 21:00
+
+RESOURCE ID: event_datetime_range_key_enamorustherianraidday
+TEXT: 14 de febrero de 14:00 a 17:00
+
+RESOURCE ID: event_datetime_range_key_gmaxmeowth26
+TEXT: Del 15 de febrero a las 14:00 –
+al 15 de febrero a las 17:00
 
 RESOURCE ID: event_datetime_range_key_intotdepths26
 TEXT: Del 27 de enero a las 10:00 
@@ -1325,6 +1419,9 @@ TEXT: Kyurem Negro se separará en Zekrom y Kyurem. Necesitarás Energía Fusió
 RESOURCE ID: fusion_unfuse_description_kyurem_white
 TEXT: Kyurem Blanco se separará en Reshiram y Kyurem. Necesitarás Energía Fusión para fusionarlos de nuevo.
 
+RESOURCE ID: general1.ticket.4_gmaxmeowth26_title
+TEXT: Entrada: Día de Combates Max de Meowth Gigamax
+
 RESOURCE ID: general1.ticket.5_buddy_event_title
 TEXT: Entrada: Investigación temporal prémium de Colegas valiosos
 
@@ -1349,6 +1446,9 @@ TEXT: Entrada: Día de la Comunidad de Grookey
 RESOURCE ID: general1.ticket_cd_vulpix26_title
 TEXT: Entrada: Día de la Comunidad de Vulpix y Vulpix de Alola
 
+RESOURCE ID: general2.ticket.6_enamorustherianraidday_title
+TEXT: Entrada: Día de Incursiones de Enamorus Forma Tótem
+
 RESOURCE ID: general2.ticket.6_shadowraikouraidday_title
 TEXT: Entrada: Día de Incursiones oscuras de Raikou
 
@@ -1366,6 +1466,15 @@ TEXT: Primeros pasos
 
 RESOURCE ID: general_pokemon_trainer
 TEXT: Entrenador Pokémon
+
+RESOURCE ID: gmax_meowth_lead_up_timed_research
+TEXT: Previa de la investigación temporal del Día de Combates Max de Meowth Gigamax
+
+RESOURCE ID: gmax_meowth_max_battles
+TEXT: Meowth Gigamax está apareciendo en los Combates Max
+
+RESOURCE ID: gmax_meowth_website_link
+TEXT: Para obtener más información, visita el <a href="https://pokemongo.com/news/gigantamax-meowth-max-battle-day-2026">sitio web</a>.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_00_00
 TEXT: %PLAYERNAME%! Excuse the mess—I’m looking for some notes.
@@ -1500,10 +1609,10 @@ RESOURCE ID: go_tour_ep_bonus_title_deluxe_02
 TEXT: Tier 3 Deluxe Bonuses
 
 RESOURCE ID: go_tour_kalos_furfrou_branch_tr_dialog_00_00
-TEXT: Fashions change, and so does Furfrou's trim.
+TEXT: Fashions may change, but so can Furfrou’s trim!
 
 RESOURCE ID: go_tour_kalos_furfrou_branch_tr_dialog_00_01
-TEXT: Time to set a new trend! And remember: the style that looks best is the one that speaks to you.
+TEXT: No matter how busy you are, there’s always time to set a new trend! And remember, the style that speaks to you is the one that looks best.
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_02_00
 TEXT: %PLAYERNAME%, did you know that Mega Energy alone isn’t enough to Mega Evolve a Pokémon? It also needs to have a strong bond with its Trainer.
@@ -1683,22 +1792,22 @@ RESOURCE ID: go_tour_kalos_irl_sr_yveltal_dialog_03_03
 TEXT: Keep that in mind—and don’t forget the power of Mega Evolution—and you’re sure to prevail in your next encounter!
 
 RESOURCE ID: go_tour_kalos_portals_intro_tr_dialog_00_00
-TEXT: The appearance of all these powerful Pokémon threw me for a loop. Then I thought: what if they were teleported here by Hoopa? Let's find out!
+TEXT: The appearance of all these powerful Pokémon threw me for a loop. Then I had a wild thought: What if they were teleported here by Hoopa? There’s only one way to find out!
 
 RESOURCE ID: gofest_welcome_generic
-TEXT: Welcome to Pokémon GO Fest – Global!
+TEXT: Welcome to Pokémon GO Fest: Global!
 
 RESOURCE ID: gotour2026_boqus_header_daily
-TEXT: Camino a Kalos: Tareas de bonus diarios
+TEXT: Camino a Kalos: Tareas diarias
 
 RESOURCE ID: gotour2026_boqus_header_daily_prem
-TEXT: Camino a Kalos: Tareas de bonus diarios (Prémium)
+TEXT: Camino a Kalos: Tareas diarias (Prémium)
 
 RESOURCE ID: gotour2026_boqus_header_hourly
-TEXT: Camino a Kalos: Tareas de bonus de cada hora
+TEXT: Camino a Kalos: Tareas de cada hora
 
 RESOURCE ID: gotour2026_irl_boqus_header_hourly
-TEXT: Road to Kalos: Hourly Bonus Tasks
+TEXT: Road to Kalos: Hourly Tasks
 
 RESOURCE ID: gotour2026_welcome
 TEXT: Pokémon GO Tour: Kalos
@@ -1745,10 +1854,10 @@ RESOURCE ID: gotour_2026_welcome_global
 TEXT: Welcome to Pokémon GO Tour: Kalos – Global!
 
 RESOURCE ID: gotour_welcome_generic
-TEXT: Welcome to Pokémon GO Tour – Global!
+TEXT: Welcome to Pokémon GO Tour: Global!
 
 RESOURCE ID: gowild_welcome_generic
-TEXT: Welcome to Pokémon GO Wild Area – Global!
+TEXT: Welcome to Pokémon GO Wild Area: Global!
 
 RESOURCE ID: great_league_championship_series_2026
 TEXT: Copa de la Serie de Campeonatos de Pokémon GO 2026
@@ -1866,9 +1975,6 @@ TEXT: Link Charge
 RESOURCE ID: item_enhanced_currency_name_plural
 TEXT: Link Charges
 
-RESOURCE ID: item_enhanced_currency_quickshop_need_x_more_to_enter
-TEXT: You need {0} more Link Charges to enter this battle.
-
 RESOURCE ID: item_event_ticket_02_desc_catch_mastery_oricorio
 TEXT: Una entrada para acceder a la investigación temporal prémium de Objetivo de Captura: Oricorio el 7 de febrero de 2026 de 10:00 a 20:00 en tu hora local, estés donde estés.
 
@@ -1920,6 +2026,12 @@ TEXT: Esta entrada se activará automáticamente para darte acceso a la investig
 RESOURCE ID: item_event_ticket_gray_desc_buddy_event
 TEXT: Una entrada para acceder a la investigación temporal prémium de Colegas valiosos hasta el 25 de enero de 2026 a las 20:00 en tu hora local, estés donde estés.
 
+RESOURCE ID: item_event_ticket_gray_desc_enamorustherianraidday
+TEXT: Una entrada para acceder a la investigación temporal prémium del Día de Incursiones de Enamorus Forma Tótem y a los bonus especiales el 14 de febrero de 14:00 a 17:00 en tu hora local, estés donde estés.
+
+RESOURCE ID: item_event_ticket_gray_desc_gmaxmeowth26
+TEXT: Una entrada para acceder a bonus especiales el 15 de febrero de 2026 de 14:00 a 17:00 en tu hora local, estés donde estés.
+
 RESOURCE ID: item_event_ticket_gray_desc_kyuremfusionraidday
 TEXT: Una entrada para acceder a bonus especiales el 10 de enero de 2026 de 14:00 a 17:00 en tu hora local, estés donde estés.
 
@@ -1928,6 +2040,12 @@ TEXT: Una entrada para acceder a bonus especiales hasta el 24 de enero de 2026 a
 
 RESOURCE ID: item_event_ticket_gray_details_buddy_event
 TEXT: Esta entrada se activará automáticamente el 20 de enero para darte acceso a la investigación temporal prémium de Colegas valiosos, estés donde estés.
+
+RESOURCE ID: item_event_ticket_gray_details_enamorustherianraidday
+TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal prémium del Día de Incursiones de Enamorus Forma Tótem y a bonus especiales el 14 de febrero, estés donde estés.
+
+RESOURCE ID: item_event_ticket_gray_details_gmaxmeowth26
+TEXT: Esta entrada se activará automáticamente para darte acceso a los bonus especiales el 15 de febrero, estés donde estés.
 
 RESOURCE ID: item_event_ticket_gray_details_kyuremfusionraidday
 TEXT: Esta entrada se activará automáticamente para darte acceso a los bonus especiales el 10 de enero, estés donde estés.
@@ -1946,6 +2064,12 @@ TEXT: Esta entrada se activará automáticamente el 18 de enero para darte acces
 
 RESOURCE ID: item_event_ticket_pink_details_cd_vulpix26
 TEXT: Esta entrada se activará automáticamente el 1 de febrero para darte acceso a la investigación especial Frío y caliente, estés donde estés.
+
+RESOURCE ID: item_paid_raid_ticket_name_plural
+TEXT: Premium Battle Passes
+
+RESOURCE ID: item_remote_raid_ticket_name_plural
+TEXT: Remote Raid Passes
 
 RESOURCE ID: lobby_group_size_warning
 TEXT: El tamaño del grupo sugerido para esta incursión es de {0} jugadores.
@@ -1967,6 +2091,12 @@ TEXT: Desafío de colección del Año Nuevo Lunar 2026
 
 RESOURCE ID: max_battle_day_dmax_ho_oh_ticketed
 TEXT: Bonus de la entrada del Fin de semana de Combates Max de Ho-Oh Dinamax
+
+RESOURCE ID: max_battle_day_gmax_meowth_event_name
+TEXT: Día de Combates Max de Meowth Gigamax
+
+RESOURCE ID: max_battle_day_gmax_meowth_ticketed
+TEXT: Bonus de la entrada del Día de Combates Max de Meowth Gigamax
 
 RESOURCE ID: mega2026_ditto_cant_break_shields
 TEXT: Ditto no puede romper los escudos mientras esté transformado.
@@ -2071,7 +2201,7 @@ RESOURCE ID: mega_level_bottom_section
 TEXT: Haz megaevolucionar tu Pokémon para obtener Caramelos adicionales y PC potenciados
 
 RESOURCE ID: mega_level_energy_hint
-TEXT: Defeat a Super Mega Raid to earn lots of Mega Energy!
+TEXT: Win a Super Mega Raid to earn lots of Mega Energy!
 
 RESOURCE ID: mega_level_energy_requirement_message
 TEXT: Haz megaevolucionar a {0} {1} veces más para alcanzar el el nivel máximo y usa después la Megaenergía para desbloquear el {2}.
@@ -2148,10 +2278,13 @@ RESOURCE ID: mega_perk_cp_boost_excellentplus
 TEXT: PC muy mejorados
 
 RESOURCE ID: mega_remote_iap_nc_rrp_title
-TEXT: Uh-oh! You’re out of Remote Raid Passes and Link Charges.
+TEXT: Uh-oh! You’re out of Remote Raid Passes and don’t have enough Link Charges.
 
 RESOURCE ID: mega_trainers_suggested_count
-TEXT: {0}+ Trainers with Mega Pokémon
+TEXT: {0}+ Trainers with Mega-Evolved Pokémon
+
+RESOURCE ID: meowth_gmax_tr_2026_title
+TEXT: Investigación temporal prémium de Meowth Gigamax
 
 RESOURCE ID: message_camera_permission_required
 TEXT: Para hacer fotos, abre la configuración de tu teléfono y da permiso a Pokémon GO para acceder a la cámara.
@@ -2163,10 +2296,10 @@ RESOURCE ID: message_open_settings
 TEXT: Abrir Opciones
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-02-05T01:34:40.307811+00:00 for es-ES
-at SHA ce578d857ea
-Pipeline 3528006, job 50465131
-Patch from: 0.397.1-SHA-1fcfff58-RC1, 0.399.0-SHA-45852136-RC1, 0.395.1-SHA-2504d2e4-RC1
+TEXT: Built at 2026-02-06T10:45:46.908574+00:00 for es-ES
+at SHA 1f227f063dc
+Pipeline 3530407, job 50533119
+Patch from: 0.397.1-SHA-a184f5e0-RC3, 0.399.0-SHA-45852136-RC1, 0.395.1-SHA-ef2086b7-RC2
 
 RESOURCE ID: move_name_0491
 TEXT: Cabeza Sorpresa
@@ -2440,6 +2573,60 @@ Pokémon with day Portraits will appear between {0} and Pokémon with night Port
 RESOURCE ID: pokestop_field_book_title
 TEXT: PokéStops
 
+RESOURCE ID: portals_to_power_tr_0
+TEXT: Investigación temporal: Portales de poder (1/5)
+
+RESOURCE ID: portals_to_power_tr_1
+TEXT: Investigación temporal: Portales de poder (2/5)
+
+RESOURCE ID: portals_to_power_tr_2
+TEXT: Investigación temporal: Portales de poder (3/5)
+
+RESOURCE ID: portals_to_power_tr_3
+TEXT: Investigación temporal: Portales de poder (4/5)
+
+RESOURCE ID: portals_to_power_tr_4
+TEXT: Investigación temporal: Portales de poder (5/5)
+
+RESOURCE ID: portals_to_power_tr_title
+TEXT: Portales de poder
+
+RESOURCE ID: portals_to_power_tr_title_hoenn
+TEXT: Investigación temporal de Portales de poder: Hoenn
+
+RESOURCE ID: portals_to_power_tr_title_hoenn_0
+TEXT: Investigación temporal de Portales de poder: Hoenn (1/1)
+
+RESOURCE ID: portals_to_power_tr_title_johto
+TEXT: Investigación temporal de Portales de poder: Johto
+
+RESOURCE ID: portals_to_power_tr_title_johto_0
+TEXT: Investigación temporal de Portales de poder: Johto (1/1)
+
+RESOURCE ID: portals_to_power_tr_title_kanto
+TEXT: Investigación temporal de Portales de poder: Kanto
+
+RESOURCE ID: portals_to_power_tr_title_kanto_0
+TEXT: Investigación temporal de Portales de poder: Kanto (1/1)
+
+RESOURCE ID: portals_to_power_tr_title_prelude
+TEXT: Inicio de la investigación temporal de Portales de poder
+
+RESOURCE ID: portals_to_power_tr_title_prelude_0
+TEXT: Inicio de la investigación temporal de Portales de poder (1/1)
+
+RESOURCE ID: portals_to_power_tr_title_sinnoh
+TEXT: Investigación temporal de Portales de poder: Sinnoh
+
+RESOURCE ID: portals_to_power_tr_title_sinnoh_0
+TEXT: Investigación temporal de Portales de poder: Sinnoh (1/1)
+
+RESOURCE ID: portals_to_power_tr_title_unova
+TEXT: Investigación temporal de Portales de poder: Teselia
+
+RESOURCE ID: portals_to_power_tr_title_unova_0
+TEXT: Investigación temporal de Portales de poder: Teselia (1/1)
+
 RESOURCE ID: primal_level_bottom_section
 TEXT: Reviértelo a su forma Primigenia para obtener Caramelos adicionales e incrementar los PS
 
@@ -2465,13 +2652,13 @@ RESOURCE ID: quest_branch_choose_debutante
 TEXT: Choose Debutante Trim
 
 RESOURCE ID: quest_branch_choose_debutante_desc
-TEXT: Select this option to unlock the ability to give your Furfrou the Debutante Trim. This ability lasts for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
+TEXT: Select this option to change your usual regional Furfrou trim or trims to the Debutante Trim for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
 
 RESOURCE ID: quest_branch_choose_diamond
 TEXT: Choose Diamond Trim
 
 RESOURCE ID: quest_branch_choose_diamond_desc
-TEXT: Select this option to unlock the ability to give your Furfrou the Diamond Trim. This ability lasts for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
+TEXT: Select this option to change your usual regional Furfrou trim or trims to the Diamond Trim for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
 
 RESOURCE ID: quest_branch_choose_fennekin
 TEXT: Choose Fennekin
@@ -2489,25 +2676,25 @@ RESOURCE ID: quest_branch_choose_kabuki
 TEXT: Choose Kabuki Trim
 
 RESOURCE ID: quest_branch_choose_kabuki_desc
-TEXT: Select this option to unlock the ability to give your Furfrou the Kabuki Trim. This ability lasts for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
+TEXT: Select this option to change your usual regional Furfrou trim or trims to the Kabuki Trim for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
 
 RESOURCE ID: quest_branch_choose_la_reine
 TEXT: Choose La Reine Trim
 
 RESOURCE ID: quest_branch_choose_la_reine_desc
-TEXT: Select this option to unlock the ability to give your Furfrou the La Reine Trim. This ability lasts for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
+TEXT: Select this option to change your usual regional Furfrou trim or trims to the La Reine Trim for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
 
 RESOURCE ID: quest_branch_choose_pharaoh
 TEXT: Choose Pharaoh Trim
 
 RESOURCE ID: quest_branch_choose_pharaoh_desc
-TEXT: Select this option to unlock the ability to give your Furfrou the Pharaoh Trim. This ability lasts for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
+TEXT: Select this option to change your usual regional Furfrou trim or trims to the Pharaoh Trim for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
 
 RESOURCE ID: quest_branch_choose_star
 TEXT: Choose Star Trim
 
 RESOURCE ID: quest_branch_choose_star_desc
-TEXT: Select this option to unlock the ability to give your Furfrou the Star Trim. This ability lasts for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
+TEXT: Select this option to change your usual regional Furfrou trim or trims to the Star Trim for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
 
 RESOURCE ID: quest_branch_choose_trim_prompt
 TEXT: Elige un corte de Furfrou
@@ -2528,14 +2715,26 @@ TEXT: Select this option to receive the Y Version medal and Yveltal-themed rewar
 
 During GO Tour: Kalos – Global, you will be able to get Field Research tasks that award an encounter with Unown Y.
 
+RESOURCE ID: quest_catch_bidoof_singular
+TEXT: Captura un Bidoof
+
 RESOURCE ID: quest_catch_eevee_singular
 TEXT: Catch an Eevee
+
+RESOURCE ID: quest_catch_hoppip_singular
+TEXT: Captura un Hoppip
 
 RESOURCE ID: quest_catch_kalos_pokemon
 TEXT: Captura {0} Pokémon descubiertos originalmente en la región de Kalos
 
 RESOURCE ID: quest_catch_kalos_pokemon_singular
 TEXT: Captura un Pokémon descubierto originalmente en la región de Kalos
+
+RESOURCE ID: quest_catch_lillipup_singular
+TEXT: Captura un Lillipup
+
+RESOURCE ID: quest_catch_poochyena_singular
+TEXT: Captura un Poochyena
 
 RESOURCE ID: quest_evolve_eevee_sylveon
 TEXT: Evolve Eevee into Sylveon
@@ -2578,6 +2777,12 @@ TEXT: Earn the gold Kalos medal
 
 RESOURCE ID: quest_medal_rock_platinum
 TEXT: Earn a platinum medal for catching Rock types
+
+RESOURCE ID: quest_pokestop_edit_singular
+TEXT: Submit a PokéStop Edit
+
+RESOURCE ID: quest_pokestop_nominate_singular
+TEXT: Submit a PokéStop Nomination
 
 RESOURCE ID: quest_power_up_dark_psychic_plural
 TEXT: Power up Psychic- or Dark-type Pokémon {0} times
@@ -2687,6 +2892,9 @@ RESOURCE ID: return_to_map_day_night_tutorial_body_text
 TEXT: These Pokémon have Portraits that reflect where they were caught.
 
 Keep track of these Pokémon in your Field Book.
+
+RESOURCE ID: road_to_kalos_title
+TEXT: Camino a Kalos
 
 RESOURCE ID: route_play_no_routes_gamesite_message
 TEXT: There are no Routes nearby. Browse to find Routes that are farther away.
@@ -2808,7 +3016,7 @@ RESOURCE ID: shadow_raikou_website_link
 TEXT: Para obtener más información, visita el <a href="https://pokemongo.com/post/shadow-raikou-raid-day-2026">sitio web</a>.
 
 RESOURCE ID: share_referral_link_default
-TEXT: ¡Hazte una foto con un Pokémon en Pokémon GO!
+TEXT: ¡Tómate una foto con tu Pokémon favorito en Pokémon GO! https://pokemongo.com/es
 
 RESOURCE ID: shop_enhanced_currency_description_plural
 TEXT: You need {0} more Link Charges to enter this battle.
@@ -2937,6 +3145,24 @@ TEXT: <b>Incluye:</b>
 • Consigue hasta 4000 Partículas Max adicionales en los nodos energéticos y al explorar
 • Doble de PX por ganar en Combates Max
 • Una investigación temporal que tiene como recompensa 25 000 PX
+
+RESOURCE ID: text_rewards_key_enamorustherianraidday
+TEXT: <b>Recompensas incluidas:</b>
+• 1 Meteorito
+• 3 Revivir
+• 5 Bayas Frambu
+• 20 Poké Balls
+• 1000 PX
+• 1000 Polvos Estelares
+<b>Bonus incluidos:</b>
+• 8 Pases de incursión adicionales al dar vueltas a fotodiscos en los Gimnasios
+• Mayor probabilidad de recibir Caramelos Raros ++ en las incursiones
+• 50 % más PX y el doble de Polvos Estelares al completar incursiones
+
+RESOURCE ID: text_rewards_key_gmaxmeowth26
+TEXT: <b>Incluye:</b>
+• Doble de PX por ganar en Combates Max
+• Una investigación temporal que tiene como recompensas 6400 Partículas Max, 25 000 PX y una Maxiseta
 
 RESOURCE ID: text_rewards_key_intotdepths26
 TEXT: <b>Recompensas incluidas:</b>
@@ -3276,6 +3502,9 @@ TEXT: GO Tour: Kalos – Tainan, Park Experience
 
 RESOURCE ID: unown_o_clock_active
 TEXT: Unown are now appearing in large numbers!
+
+RESOURCE ID: use_raid_ticket_confirmation_buy_currency
+TEXT: Get More {0}
 
 RESOURCE ID: use_raid_ticket_confirmation_switch_currency_plural
 TEXT: Switch to {0} and {1}

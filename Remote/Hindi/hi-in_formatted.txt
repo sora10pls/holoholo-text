@@ -26,7 +26,10 @@ RESOURCE ID: aps_choose_a_form_key
 TEXT: फ़ॉम चुनें -
 
 RESOURCE ID: ar_photo_social_entry_label
-TEXT: पोकमॉन क साथ फ़ोटो लं!
+TEXT: अपने चहेता पोकमॉन क साथ फ़ोटो लं!
+
+RESOURCE ID: ar_photo_social_hashtag
+TEXT: #Pokemon30
 
 RESOURCE ID: ar_photo_social_horizontal_mode_hint
 TEXT: बेहतर परणामों क लए फ़ोन को घुमा कर पोटेट मोड में लाएँ।
@@ -44,7 +47,7 @@ RESOURCE ID: ar_photo_social_pokemon_selection_prompt
 TEXT: साथ में फ़ोटो लने क लए कसी पोकमॉन को चुनें!
 
 RESOURCE ID: ar_photo_social_share_default_referral_text
-TEXT: Pokémon GO में पोकमॉन क साथ फ़ोटो लं!
+TEXT: Pokémon GO में अपने चहेता पोकमॉन क साथ फ़ोटो खींचें!  https://pokemongo.com/
 
 RESOURCE ID: ar_photo_social_share_more_photos
 TEXT: और फोटो दखाएँ
@@ -56,7 +59,7 @@ RESOURCE ID: ar_photo_social_share_prompt
 TEXT: अपनी फ़ोटो ऑनलाइन शेयर करं!
 
 RESOURCE ID: ar_photo_social_share_referral_text
-TEXT: Pokémon GO में पोकमॉन क साथ फ़ोटो लं!
+TEXT: Pokémon GO में अपने चहेता पोकमॉन क साथ फ़ोटो खींचें!
 
 RESOURCE ID: ar_photo_social_summary_confirm_leave
 TEXT: जाएँ
@@ -79,6 +82,9 @@ TEXT: मा करं, आप इस समय {0} क साथ फ़�
 RESOURCE ID: arphoto_social_take_new
 TEXT: नई फ़ोटो लं
 
+RESOURCE ID: avatar_hat_xerneas
+TEXT: ज़नयस हेडवेयर
+
 RESOURCE ID: avatar_n_hat_communityambassador
 TEXT: कयुनट लडर टोपी
 
@@ -90,6 +96,21 @@ TEXT: कानवल पोज़
 
 RESOURCE ID: avatar_pose_heart
 TEXT: हाट पोज़
+
+RESOURCE ID: avatar_shirt_gotour_black
+TEXT: GO Tour 2026 ट-शट (काल)
+
+RESOURCE ID: avatar_shirt_gotour_grey
+TEXT: GO Tour 2026 ट-शट (लट)
+
+RESOURCE ID: avatar_shirt_shinydiancie
+TEXT: डायंसी (शाइनी) ट-शट
+
+RESOURCE ID: avatar_shirt_yveltal
+TEXT: इवेटाल कोट
+
+RESOURCE ID: avatar_shirt_zygarde
+TEXT: ज़ाइगाड जैकट
 
 RESOURCE ID: badge_go_tour_2026_global
 TEXT: फ़रवर – माच, 2026
@@ -380,10 +401,10 @@ RESOURCE ID: blog_link_wattsup_jan2026
 TEXT: अधक जानकार क लए <a href="https://pokemongolive.com/post/high-zaptitude-2026">वेबसाइट</a> पर जाएं।
 
 RESOURCE ID: bonus_candy_raids_t5_plus_mega
-TEXT: One additional Candy from catching Pokémon in five-star and Mega Raids
+TEXT: फ़ाइव-टार रड और मेगा रड में पोकमॉन पकड़ने पर एक अतरत कड
 
 RESOURCE ID: bonus_candy_xl_raids_t5_plus_mega
-TEXT: One additional Candy XL from catching Pokémon in five-star and Mega Raids
+TEXT: फ़ाइव-टार रड और मेगा रड में पोकमॉन पकड़ने पर एक अतरत कडी XL
 
 RESOURCE ID: bonus_cd_move_alolan_vulpix
 TEXT: चाज्ड अटैक चलग वॉटर जानने वाल अलोला नाइनटस को पाने क लए अलोला वलपस को वकसत करं!
@@ -395,7 +416,7 @@ RESOURCE ID: bonus_cd_move_vulpix
 TEXT: चाज्ड अटैक एनिज बॉल जानने वाल नाइनटस को पाने क लए वलपस को वकसत करं!
 
 RESOURCE ID: bonus_extra_carbink_diancie_energy
-TEXT: Chance for Carbink to be holding Diancie Mega Energy when caught in the wild
+TEXT: Wild Carbink may be holding Diancie Mega Energy
 
 RESOURCE ID: bonus_extra_carbink_global_masterwork
 TEXT: Masterwork Research bonus for in-person GO Tour ticket holders
@@ -410,16 +431,16 @@ RESOURCE ID: bonus_gift_open_daily_200
 TEXT: Open up to 200 Gifts per day
 
 RESOURCE ID: bonus_gotour_2026_other_mega_level_daily_points_6
-TEXT: Earn up to 6 points towards increasing a Pokémon's Mega Level per day
+TEXT: Earn up to 6 points daily toward increasing any Pokémon’s Mega Level
 
 RESOURCE ID: bonus_gotour_2026_other_mega_level_points_6x
-TEXT: Earn 6 points per Mega Evolution towards increasing a Pokémon's Mega level
+TEXT: Earn 6 points per Mega Evolution toward increasing any Pokémon’s Mega Level
 
 RESOURCE ID: bonus_gotour_irl_2026_mega_level_daily_points_30
-TEXT: Earn up to 30 points towards increasing any Victreebel or Malamar's Mega Level per day
+TEXT: Earn up to 30 points daily toward increasing the Mega Level of any Victreebel or Malamar
 
 RESOURCE ID: bonus_gotour_irl_2026_mega_level_daily_points_6
-TEXT: Earn up to 6 points towards increasing any Victreebel or Malamar's Mega Level per day
+TEXT: Earn up to 6 points daily toward increasing the Mega Level of any Victreebel or Malamar
 
 RESOURCE ID: bonus_gotour_kalos_furfrou
 TEXT: Explore the park to get different Furfrou trims not usually available in the region!
@@ -433,8 +454,26 @@ TEXT: Chance to discover Zygarde Cells on more Routes per day
 RESOURCE ID: bonus_incense_costume_pikachu
 TEXT: Incense may attract costumed Pikachu
 
+RESOURCE ID: bonus_incense_hisui_costume_pikachu
+TEXT: इंसेंस से रइ क टोपी या आकार का माल पहने िपकाचू आकिषत हो सकते हैं
+
+RESOURCE ID: bonus_incense_johto_costume_pikachu
+TEXT: इंसेंस से ईथन क हैट या लाइरा क हैट पहने िपकाचू आकिषत हो सकते हैं
+
+RESOURCE ID: bonus_incense_kanto_costume_pikachu
+TEXT: इंसेंस से लफ़ क हैट या रड क हैट पहने िपकाचू आकिषत हो सकते हैं
+
+RESOURCE ID: bonus_incense_sinnoh_costume_pikachu
+TEXT: इंसेंस से लूकस का हैट या हकार का हैट पहने िपकाचू आकिषत हो सकते हैं
+
+RESOURCE ID: bonus_incense_unova_a_costume_pikachu
+TEXT: इंसेंस से हबट का हैट या हडा का हैट पहने िपकाचू आकिषत हो सकते हैं
+
+RESOURCE ID: bonus_incense_unova_b_costume_pikachu
+TEXT: इंसेंस से नेट क टोपी या रोज़ा क टोपी पहने िपकाचू आकिषत हो सकते हैं
+
 RESOURCE ID: bonus_mateo_encounter_daily_25
-TEXT: Exchange Gifts with Mateo on up to 25 Routes per day
+TEXT: हर दन अधकतम 25 ट पर मातेओ क साथ गट एसचेंज करं
 
 RESOURCE ID: bonus_mega_cp_boost
 TEXT: Boosted CP for all Mega-Evolved Pokémon
@@ -464,7 +503,7 @@ RESOURCE ID: bonus_raid_3_xl_candy_t5_and_mega
 TEXT: Six additional Candy XL for successful five-star raids and Mega Raids
 
 RESOURCE ID: bonus_raid_3_xl_candy_t5_and_mega_temp
-TEXT: Three additional Candy XL from successful five-star and Mega Raids
+TEXT: सफल फ़ाइव-टार रड और मेगा रड क लए तीन अतरत कडी XL
 
 RESOURCE ID: bonus_raid_5k_xp_mega
 TEXT: Additional 5,000 XP awarded for successful Mega Raids
@@ -473,7 +512,7 @@ RESOURCE ID: bonus_raid_6_candy_t5_and_mega
 TEXT: Six additional Candy for successful five-star raids and Mega Raids
 
 RESOURCE ID: bonus_routes_flabebe
-TEXT: Increased chance of Flabébé appearing on Routes
+TEXT: लबेबे का ट पर दखने का अधक चांस
 
 RESOURCE ID: bonus_routes_flabebe_los_angeles
 TEXT: Increased chance of encountering White Flower Flabébé, Orange Flower Flabébé, and Yellow Flower Flabébé on Routes
@@ -481,11 +520,17 @@ TEXT: Increased chance of encountering White Flower Flabébé, Orange Flower Fla
 RESOURCE ID: bonus_routes_flabebe_tainan
 TEXT: Increased chance of encountering White Flower Flabébé, Orange Flower Flabébé, and Blue Flower Flabébé on Routes
 
+RESOURCE ID: bonus_scatterbug_pin_1
+TEXT: येक रजन क हर एक गट िपन करने पर एक कटरबग दखाई देगा
+
 RESOURCE ID: bonus_scatterbug_pin_3_temp
-TEXT: Increased Scatterbug sub-medal progress for each pinned Postcard
+TEXT: हर एक िपन कए गए पोटकाड क लए, कटरबग सब-मेडल क गत में बढ़त
 
 RESOURCE ID: bonus_scatterbug_pin_6
-TEXT: Significantly increased Scatterbug sub-medal progress for each pinned Postcard
+TEXT: हर एक िपन कए गए पोटकाड क लए, कटरबग सब-मेडल क गत में भार बढ़त
+
+RESOURCE ID: bonus_special_background_t1_t5_raid
+TEXT: वन-टार और फ़ाइव-टार रड से पकड़े गए पोकमॉन क पास पैशल बैकाउंड हो सकता है
 
 RESOURCE ID: bonus_special_background_t5_and_mega_raid
 TEXT: Pokémon caught from five-star raids and Mega Raids may have a Special Background
@@ -494,10 +539,28 @@ RESOURCE ID: bonus_stickers_gotour_kalos
 TEXT: GO Tour: Kalos stickers available from Gifts and spinning PokéStops
 
 RESOURCE ID: bonus_today_event_sr
-TEXT: Event-exclusive Special Research now available
+TEXT: सफ़ इवेंट में मलने वाल पेशल रसच अब उपलध है
+
+RESOURCE ID: bonus_today_hoenn_spawn
+TEXT: जंगल में होएन रजन क पोकमॉन दखाई दे रहे हैं!
+
+RESOURCE ID: bonus_today_johto_spawn
+TEXT: जंगल में जोहतो रजन क पोकमॉन दखाई दे रहे हैं!
+
+RESOURCE ID: bonus_today_kanto_spawn
+TEXT: जंगल में कांतो रजन क पोकमॉन दखाई दे रहे हैं!
+
+RESOURCE ID: bonus_today_sinnoh_spawn
+TEXT: जंगल में सनोह रजन क पोकमॉन दखाई दे रहे हैं!
+
+RESOURCE ID: bonus_today_unova_spawn
+TEXT: जंगल में युनोवा रजन क पोकमॉन दखाई दे रहे हैं!
+
+RESOURCE ID: bonus_today_zygarde_cell
+TEXT: ज़ाइगाड सेल तदन 5 ट तक क अंत पर दखाई दे सकते हैं
 
 RESOURCE ID: bonus_zygarde_cell_daily_25
-TEXT: Chance to discover Zygarde Cells on up to 25 Routes per day
+TEXT: हर दन कल 25 ट तक पर ज़ाइगाड सेल मलने का चांस
 
 RESOURCE ID: buddy_event_collection_challenge_1
 TEXT: अनमोल दोत कलशन चैलंज - दोती क मठास
@@ -536,7 +599,7 @@ RESOURCE ID: buddy_hearts_bonus
 TEXT: अपने पाटनर पोकमॉन क साथ इंटरैट करने से अतरत पाटनर हाट पाएँ
 
 RESOURCE ID: campfire_meetup_go_tour_2026
-TEXT: Meetup Check-In Timed Research: GO Tour 2026
+TEXT: मीट-अप चेक-इन सीमत समय वाल रसच - GO Tour 2026
 
 RESOURCE ID: carnival_flamigo_event_name
 TEXT: लमीगो कानवल
@@ -767,7 +830,7 @@ RESOURCE ID: claim_all_pokemon_left_to_catch_singular
 TEXT: You have 1 Pokémon left to catch.
 
 RESOURCE ID: claim_all_quest_rewards_btn
-TEXT: CLAIM ALL
+TEXT: सभी लम करं
 
 RESOURCE ID: claim_all_quests_confirmation_modal_message
 TEXT: You will be claiming {0} items.
@@ -778,10 +841,10 @@ RESOURCE ID: claim_all_quests_confirmation_modal_title
 TEXT: Do you want to claim all rewards?
 
 RESOURCE ID: claim_all_quests_partial_success_message
-TEXT: Some rewards must be claimed separately.
+TEXT: कछ रवॉड अलग से लैम करने होंगे।
 
 RESOURCE ID: claim_all_quests_validation_failed_message
-TEXT: No rewards could be claimed. Please claim any remaining rewards individually.
+TEXT: कोई भी रवॉड लम नहीं कया गया। कसी भी बचे ए रवॉड को अलग से एक-एक कर लम करं।
 
 RESOURCE ID: claim_all_rewards_confirmation
 TEXT: Do you want to claim all rewards?
@@ -911,6 +974,15 @@ TEXT: यूिज़क चुनें
 RESOURCE ID: em_carnival_2026_tr_path_b_desc
 TEXT: जलपफ़, लुडकोलो, और िकटॉट से मुलाकात करने क लए इस पथ को चुनें, और साथ ही इंसेंस और टकर जैसे रवॉड भी पाएँ!
 
+RESOURCE ID: enamorus_therian_paid_tr_name
+TEXT: सेेड बीट फ़ॉम एनैमरस रड दवस ीमयम सीमत समय वाल रसच
+
+RESOURCE ID: enamorus_therian_raid_day_event_name
+TEXT: रड दवस - सेेड बीट फ़ॉम एनैमरस
+
+RESOURCE ID: enamorus_therian_website_link
+TEXT: अधक जानकार क लए <a href="https://pokemongo.com/news/enamorus-therian-raid-day-2026">वेबसाइट</a> पर जाएं।
+
 RESOURCE ID: encounter_score_daily_bonus
 TEXT: Daily Field Book Bonus
 
@@ -928,6 +1000,9 @@ TEXT: Use Link Charges to Join Mega Raids
 RESOURCE ID: enhanced_currency_large_3rrp_title
 TEXT: 600 Link Charges + 3 Remote Raid Passes
 
+RESOURCE ID: enhanced_currency_large_description
+TEXT: 600 Link Charges to join a Mega Raid in-person or remotely.
+
 RESOURCE ID: enhanced_currency_large_rrp_title
 TEXT: 600 Link Charges + 1 Remote Raid Pass
 
@@ -936,6 +1011,9 @@ TEXT: 600 Link Charges
 
 RESOURCE ID: enhanced_currency_maxed_out_warning
 TEXT: You have reached the max number of Link Charges ({0}). Please try again when you have fewer Link Charges.
+
+RESOURCE ID: enhanced_currency_medium_description
+TEXT: 200 Link Charges to join a Mega Raid in-person or remotely.
 
 RESOURCE ID: enhanced_currency_medium_rrp_title
 TEXT: 200 Link Charges + 1 Remote Raid Pass
@@ -984,6 +1062,13 @@ RESOURCE ID: event_datetime_range_key_dmaxhooh26
 TEXT: 31 जनवर, सुबह 6:00 बजे –
 1 फ़रवर, रात 9:00 बजे
 
+RESOURCE ID: event_datetime_range_key_enamorustherianraidday
+TEXT: 14 फ़रवर, दुपहर 2:00 बजे – शाम 5:00 बजे
+
+RESOURCE ID: event_datetime_range_key_gmaxmeowth26
+TEXT: 15 फ़रवर, दोपहर 2:00 बजे –
+15 फ़रवर, शाम 5:00 बजे
+
 RESOURCE ID: event_datetime_range_key_intotdepths26
 TEXT: 29 जनवर, सुबह 10:00 बजे -
 2 फ़रवर, शाम 8:00 बजे
@@ -1011,7 +1096,7 @@ TEXT: 13 जनवर, सुबह 10:00 बजे –
 18 जनवर, शाम 8:00 बजे
 
 RESOURCE ID: event_tag_mega_night
-TEXT: GO Tour: Mega Night
+TEXT: GO Tour : मेगा नाइट
 
 RESOURCE ID: event_title_ppk
 TEXT: PokéPark कांतो
@@ -1062,16 +1147,16 @@ RESOURCE ID: field_book_apr_2026_sub9
 TEXT: April Page 10
 
 RESOURCE ID: field_book_entry_caught_by_in
-TEXT: Caught near {0} in {1}
+TEXT: {1}में {0} क पास पकड़ा
 
 RESOURCE ID: field_book_entry_caught_in
-TEXT: Caught in {0}
+TEXT: {0} में पकड़ा
 
 RESOURCE ID: field_book_entry_hint
 TEXT: Can be found during the {0}.
 
 RESOURCE ID: field_book_entry_hint_day
-TEXT: Can be found during the day.
+TEXT: दन में दखाई देते हैं।
 
 RESOURCE ID: field_book_entry_hint_night
 TEXT: Can be found during the night.
@@ -1146,10 +1231,10 @@ RESOURCE ID: field_book_may_2026_sub9
 TEXT: May Page 10
 
 RESOURCE ID: field_book_new_entry_screen_title
-TEXT: Added to Field Book!
+TEXT: फ़ीड बुक में जोड़ा!
 
 RESOURCE ID: field_book_page_complete
-TEXT: Field Book page complete!
+TEXT: फ़ीड बुक पेज पूरा!
 
 RESOURCE ID: field_book_page_completed
 TEXT: Completed!
@@ -1185,10 +1270,10 @@ RESOURCE ID: fieldbook_header_message
 TEXT: Catch Pokémon with Portraits for your Field Book!
 
 RESOURCE ID: fieldbook_page_card_details_button
-TEXT: Details
+TEXT: ववरण
 
 RESOURCE ID: fieldbook_pages_section_header
-TEXT: Field Book Pages
+TEXT: फ़ीड बुक क पेज
 
 RESOURCE ID: fieldbook_post_catch_ftue_conversation_0
 TEXT: Wow, what a wonderful Pokémon!
@@ -1223,10 +1308,10 @@ RESOURCE ID: fieldbook_tab_ftue_conversation_0
 TEXT: Those Pokémon you just caught have piqued my interest. Let’s keep track of them in this Field Book.
 
 RESOURCE ID: filter_key_day
-TEXT: day
+TEXT: दन
 
 RESOURCE ID: filter_key_night
-TEXT: night
+TEXT: रात
 
 RESOURCE ID: filter_label_day_night_pokemon
 TEXT: Portraits
@@ -1255,6 +1340,9 @@ TEXT: लैक यूरम, ज़ेोम और यूरम
 RESOURCE ID: fusion_unfuse_description_kyurem_white
 TEXT: हाइट यूरम, रशरैम और यूरम में अलग हो जाएगा। फर से यूज़न करने क लए, यूज़न एनिज क आवयकता होगी।
 
+RESOURCE ID: general1.ticket.4_gmaxmeowth26_title
+TEXT: जायगैंटामैस याउथ मैस बैटल डे टकट
+
 RESOURCE ID: general1.ticket.5_buddy_event_title
 TEXT: अनमोल दोत ीमयम सीमत समय वाल रसच टकट
 
@@ -1279,6 +1367,9 @@ TEXT: ूक कयुनट डे टकट
 RESOURCE ID: general1.ticket_cd_vulpix26_title
 TEXT: वलपस और अलोला वलपस कयुनट डे टकट
 
+RESOURCE ID: general2.ticket.6_enamorustherianraidday_title
+TEXT: सेेड बीट फ़ॉम एनैमरस रड दवस टकट
+
 RESOURCE ID: general2.ticket.6_shadowraikouraidday_title
 TEXT: राइको शैडो रड दवस टकट
 
@@ -1287,6 +1378,15 @@ TEXT: कच माटर - ऑरकोरयो ीमय
 
 RESOURCE ID: general2.ticket2.pinch_perfect
 TEXT: िपंच परफ़ेट ीमयम सीमत समय वाल रसच टकट
+
+RESOURCE ID: gmax_meowth_lead_up_timed_research
+TEXT: जायगैंटामैस याउथ मैस बैटल डे ी-इवेंट सीमत समय वाल रसच
+
+RESOURCE ID: gmax_meowth_max_battles
+TEXT: जायगैंटामैस याउथ मैस बैटल में दखीई दे रहे हैं
+
+RESOURCE ID: gmax_meowth_website_link
+TEXT: अधक जानकार क लए <a href="https://pokemongo.com/news/gigantamax-meowth-max-battle-day-2026">वेबसाइट</a> पर जाएँ।
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_00_00
 TEXT: %PLAYERNAME%! Excuse the mess—I’m looking for some notes.
@@ -1421,10 +1521,10 @@ RESOURCE ID: go_tour_ep_bonus_title_deluxe_02
 TEXT: Tier 3 Deluxe Bonuses
 
 RESOURCE ID: go_tour_kalos_furfrou_branch_tr_dialog_00_00
-TEXT: Fashions change, and so does Furfrou's trim.
+TEXT: Fashions may change, but so can Furfrou’s trim!
 
 RESOURCE ID: go_tour_kalos_furfrou_branch_tr_dialog_00_01
-TEXT: Time to set a new trend! And remember: the style that looks best is the one that speaks to you.
+TEXT: No matter how busy you are, there’s always time to set a new trend! And remember, the style that speaks to you is the one that looks best.
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_02_00
 TEXT: %PLAYERNAME%, did you know that Mega Energy alone isn’t enough to Mega Evolve a Pokémon? It also needs to have a strong bond with its Trainer.
@@ -1604,22 +1704,22 @@ RESOURCE ID: go_tour_kalos_irl_sr_yveltal_dialog_03_03
 TEXT: Keep that in mind—and don’t forget the power of Mega Evolution—and you’re sure to prevail in your next encounter!
 
 RESOURCE ID: go_tour_kalos_portals_intro_tr_dialog_00_00
-TEXT: The appearance of all these powerful Pokémon threw me for a loop. Then I thought: what if they were teleported here by Hoopa? Let's find out!
+TEXT: The appearance of all these powerful Pokémon threw me for a loop. Then I had a wild thought: What if they were teleported here by Hoopa? There’s only one way to find out!
 
 RESOURCE ID: gofest_welcome_generic
-TEXT: Welcome to Pokémon GO Fest – Global!
+TEXT: Welcome to Pokémon GO Fest: Global!
 
 RESOURCE ID: gotour2026_boqus_header_daily
-TEXT: Road to Kalos: Daily Tasks
+TEXT: कालोस जाने वाल सड़क - दैनक टाक
 
 RESOURCE ID: gotour2026_boqus_header_daily_prem
-TEXT: Road to Kalos: Deluxe Daily Tasks
+TEXT: कालोस जाने वाल सड़क - डीलस दैनक टाक
 
 RESOURCE ID: gotour2026_boqus_header_hourly
-TEXT: Road to Kalos: Hourly Tasks
+TEXT: कालोस जाने वाल सड़क - हर घंट क टाक
 
 RESOURCE ID: gotour2026_irl_boqus_header_hourly
-TEXT: Road to Kalos: Hourly Bonus Tasks
+TEXT: Road to Kalos: Hourly Tasks
 
 RESOURCE ID: gotour2026_welcome
 TEXT: Pokémon GO Tour: Kalos
@@ -1666,10 +1766,10 @@ RESOURCE ID: gotour_2026_welcome_global
 TEXT: Welcome to Pokémon GO Tour: Kalos – Global!
 
 RESOURCE ID: gotour_welcome_generic
-TEXT: Welcome to Pokémon GO Tour – Global!
+TEXT: Welcome to Pokémon GO Tour: Global!
 
 RESOURCE ID: gowild_welcome_generic
-TEXT: Welcome to Pokémon GO Wild Area – Global!
+TEXT: Welcome to Pokémon GO Wild Area: Global!
 
 RESOURCE ID: great_league_championship_series_2026
 TEXT: 2026 GO चैंिपयनशप सीरज़ कप
@@ -1678,19 +1778,19 @@ RESOURCE ID: habitat_kalos_central
 TEXT: Central Village
 
 RESOURCE ID: habitat_kalos_central_active
-TEXT: Current Habitat: Central Village
+TEXT: मौजूदा आवास - सेंटल वलज
 
 RESOURCE ID: habitat_kalos_coastal
 TEXT: Coastal Laboratory
 
 RESOURCE ID: habitat_kalos_coastal_active
-TEXT: Current Habitat: Coastal Laboratory
+TEXT: मौजूदा आवास - कोटल लैब
 
 RESOURCE ID: habitat_kalos_mountain
 TEXT: Mountain Manor
 
 RESOURCE ID: habitat_kalos_mountain_active
-TEXT: Current Habitat: Mountain Manor
+TEXT: मौजूदा आवास - पहाड़ी इलाका
 
 RESOURCE ID: hide_bonus_ranks_earn_additional_rewards
 TEXT: अतरत रवॉड पाएँ!
@@ -1783,9 +1883,6 @@ TEXT: Link Charge
 RESOURCE ID: item_enhanced_currency_name_plural
 TEXT: Link Charges
 
-RESOURCE ID: item_enhanced_currency_quickshop_need_x_more_to_enter
-TEXT: You need {0} more Link Charges to enter this battle.
-
 RESOURCE ID: item_event_ticket_02_desc_catch_mastery_oricorio
 TEXT: थानीय समयानुसार 7 फ़रवर, 2026 को सुबह 10:00 बजे से रात 8:00 बजे तक कच माटर - ऑरकोरयो ीमयम सीमत समय वाल रसच का एसेस टकट।
 
@@ -1837,6 +1934,12 @@ TEXT: यह टकट 13 जनवर, 2026 को अपने आप �
 RESOURCE ID: item_event_ticket_gray_desc_buddy_event
 TEXT: अनमोल दोत ीमयम सीमत समय वाल रसच को थानीय समयानुसार 25 जनवर 2026, रात 8 बजे एसेस करने क टकट।
 
+RESOURCE ID: item_event_ticket_gray_desc_enamorustherianraidday
+TEXT: थानीय समयानुसार 14 फ़रवर, दुपहर 2:00 बजे से शाम 5:00 बजे तक होने वाल सेेड बीट फ़ॉम एनैमरस रड दवस ीमयम सीमत समय वाल रसच और पेशल बोनस को एसेस करने क टकट।
+
+RESOURCE ID: item_event_ticket_gray_desc_gmaxmeowth26
+TEXT: थानीय समयानुसार, 15 फ़रवर, 2026 को दुपहर 2:00 बजे से लकर शाम 5:00 बजे तक मलने वाल पेशल बोनस क टकट।
+
 RESOURCE ID: item_event_ticket_gray_desc_kyuremfusionraidday
 TEXT: थानीय समयानुसार, 10 जनवर, 2026 को दुपहर 2:00 बजे से लकर शाम 5:00 बजे तक मलने वाल पेशल बोनस क टकट।
 
@@ -1845,6 +1948,12 @@ TEXT: थानीय समयानुसार, 24 जनवर, 2026 �
 
 RESOURCE ID: item_event_ticket_gray_details_buddy_event
 TEXT: यह टकट 20 जनवर को अपने आप ऐटवेट होकर, आपको अनमोल दोत ीमयम सीमत समय वाल रसच का ऐसेस देगी।
+
+RESOURCE ID: item_event_ticket_gray_details_enamorustherianraidday
+TEXT: यह टकट 14 फ़रवर को अपने आप ऐटवेट होकर, आपको सेेड बीट फ़ॉम एनैमरस रड दवस ीमयम सीमत समय वाल रसच और पेशल बोनस का ऐसेस देगी।
+
+RESOURCE ID: item_event_ticket_gray_details_gmaxmeowth26
+TEXT: यह टकट 15 फ़रवर को अपने आप ऐटवेट होकर, आपको पेशल बोनस का ऐसेस देगी।
 
 RESOURCE ID: item_event_ticket_gray_details_kyuremfusionraidday
 TEXT: यह टकट अपने आप ऐटवेट होकर, आपको 10 जनवर को मलने वाल पेशल बोनस का ऐसेस देगा।
@@ -1863,6 +1972,12 @@ TEXT: यह टकट 18 जनवर को अपने आप ऐ�
 
 RESOURCE ID: item_event_ticket_pink_details_cd_vulpix26
 TEXT: यह टकट 1 फ़रवर को अपने आप ऐटवेट होकर, आपको पेशल रसच फ़ायर एंड आइस का ऐसेस देगी।
+
+RESOURCE ID: item_paid_raid_ticket_name_plural
+TEXT: Premium Battle Passes
+
+RESOURCE ID: item_remote_raid_ticket_name_plural
+TEXT: Remote Raid Passes
 
 RESOURCE ID: lobby_group_size_warning
 TEXT: Suggested group size of this raid is {0} players.
@@ -1884,6 +1999,12 @@ TEXT: चं नववष 2026 कलशन चैलंज
 
 RESOURCE ID: max_battle_day_dmax_ho_oh_ticketed
 TEXT: डायनामैस हो-ओह मैस बैटल वीकंड टकट बोनस
+
+RESOURCE ID: max_battle_day_gmax_meowth_event_name
+TEXT: जायगैंटामैस याउथ मैस बैटल डे
+
+RESOURCE ID: max_battle_day_gmax_meowth_ticketed
+TEXT: जायगैंटामैस याउथ मैस बैटल डे टकट बोनस
 
 RESOURCE ID: mega2026_ditto_cant_break_shields
 TEXT: Ditto cannot break shields while transformed.
@@ -1958,10 +2079,10 @@ TEXT: {0}
 Bonus XP
 
 RESOURCE ID: mega_daily_point_bonus_30
-TEXT: Earn up to 30 points daily toward increasing any Pokémon’s Mega Level
+TEXT: हर दन, कसी भी पोकमॉन क मेगा लवल को बढ़ाने क लए, कल 30 पॉइंट तक कमाएँ
 
 RESOURCE ID: mega_daily_point_bonus_6
-TEXT: Earn up to 6 points daily toward increasing any Pokémon’s Mega Level
+TEXT: हर दन, कसी भी पोकमॉन क मेगा लवल को बढ़ाने क लए, कल 6 पॉइंट तक कमाएँ
 
 RESOURCE ID: mega_hud_border_text_1
 TEXT: CANDY BOOST TYPES
@@ -1988,7 +2109,7 @@ RESOURCE ID: mega_level_bottom_section
 TEXT: Mega Evolve your Pokémon for bonus Candy and boosted CP
 
 RESOURCE ID: mega_level_energy_hint
-TEXT: Defeat a Super Mega Raid to earn lots of Mega Energy!
+TEXT: Win a Super Mega Raid to earn lots of Mega Energy!
 
 RESOURCE ID: mega_level_energy_requirement_message
 TEXT: Mega Evolve {0} {1} more times to reach Max Level, then use Mega Energy to unlock {2}.
@@ -2065,10 +2186,13 @@ RESOURCE ID: mega_perk_cp_boost_excellentplus
 TEXT: Greatly Enhanced CP
 
 RESOURCE ID: mega_remote_iap_nc_rrp_title
-TEXT: Uh-oh! You’re out of Remote Raid Passes and Link Charges.
+TEXT: Uh-oh! You’re out of Remote Raid Passes and don’t have enough Link Charges.
 
 RESOURCE ID: mega_trainers_suggested_count
-TEXT: {0}+ Trainers with Mega Pokémon
+TEXT: {0}+ Trainers with Mega-Evolved Pokémon
+
+RESOURCE ID: meowth_gmax_tr_2026_title
+TEXT: जायगैंटामैस याउथ ीमयम सीमत समय वाल रसच
 
 RESOURCE ID: message_camera_permission_required
 TEXT: फ़ोटो लने क लए, अपने फ़ोन क सेटंग खोलं और Pokémon GO को कमरा एसेस दें।
@@ -2080,10 +2204,10 @@ RESOURCE ID: message_open_settings
 TEXT: सेटंग खोलं
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-02-05T01:34:40.307811+00:00 for hi-IN
-at SHA ce578d857ea
-Pipeline 3528006, job 50465131
-Patch from: 0.397.1-SHA-1fcfff58-RC1, 0.399.0-SHA-45852136-RC1, 0.395.1-SHA-2504d2e4-RC1
+TEXT: Built at 2026-02-06T10:45:46.908574+00:00 for hi-IN
+at SHA 1f227f063dc
+Pipeline 3530407, job 50533119
+Patch from: 0.397.1-SHA-a184f5e0-RC3, 0.399.0-SHA-45852136-RC1, 0.395.1-SHA-ef2086b7-RC2
 
 RESOURCE ID: move_name_0491
 TEXT: माइंड लोन
@@ -2092,10 +2216,10 @@ RESOURCE ID: move_name_0492
 TEXT: डम बीटंग
 
 RESOURCE ID: natural_art_day
-TEXT: Day
+TEXT: दन
 
 RESOURCE ID: natural_art_night
-TEXT: Night
+TEXT: रात
 
 RESOURCE ID: nye_jan2026
 TEXT: नव वष 2026
@@ -2137,13 +2261,13 @@ RESOURCE ID: photobomb_five_vulpix
 TEXT: GO नैपशॉट में वलपस और अलोला वलपस क साथ 5 सराइज़ मुलाकतें
 
 RESOURCE ID: photobomb_latias_latios
-TEXT: Encounter Latias or Latios in GO Snapshot
+TEXT: GO Snapshot में लाटयास या लाटयोस से मुलाकात करं
 
 RESOURCE ID: pinch_perfect_event_name_jan2026
 TEXT: िपंच परफ़ेट
 
 RESOURCE ID: pokemon_day_night_info_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer this Pokémon with a Portrait?
+TEXT: या आप सच में पोटेट वाल इस पोकमॉन को को टांसफ़र करना चाहते है?
 
 RESOURCE ID: pokemon_desc_tmpevo_0036_0001
 TEXT: यह चांद क रोशनी क शत का इतेमाल कर अपने आस-पास 32 फ़ुट से ज़्यादा क दायर में ेवट को कंटोल करक उड़ता है।
@@ -2351,7 +2475,7 @@ RESOURCE ID: pokemon_name_1025
 TEXT: पेचारंट
 
 RESOURCE ID: pokestop_field_book
-TEXT: Field Book
+TEXT: फ़ीड बुक
 
 RESOURCE ID: pokestop_field_book_message
 TEXT: Find Pokémon for your Field Book at this PokéStop. These Pokémon have Portraits that reflect where they were caught.
@@ -2364,7 +2488,61 @@ TEXT: Find Pokémon for your Field Book at this PokéStop. These Pokémon have P
 Pokémon with day Portraits will appear between {0} and Pokémon with night Portraits will appear between {1}.
 
 RESOURCE ID: pokestop_field_book_title
-TEXT: PokéStops
+TEXT: पोकटॉप
+
+RESOURCE ID: portals_to_power_tr_0
+TEXT: पावर पोटल सीमत समय वाल रसच (1/5)
+
+RESOURCE ID: portals_to_power_tr_1
+TEXT: पावर पोटल सीमत समय वाल रसच (2/5)
+
+RESOURCE ID: portals_to_power_tr_2
+TEXT: पावर पोटल सीमत समय वाल रसच (3/5)
+
+RESOURCE ID: portals_to_power_tr_3
+TEXT: पावर पोटल सीमत समय वाल रसच (4/5)
+
+RESOURCE ID: portals_to_power_tr_4
+TEXT: पावर पोटल सीमत समय वाल रसच (5/5)
+
+RESOURCE ID: portals_to_power_tr_title
+TEXT: पावर पोटल
+
+RESOURCE ID: portals_to_power_tr_title_hoenn
+TEXT: पावर पोटल – होएन सीमत समय वाल रसच
+
+RESOURCE ID: portals_to_power_tr_title_hoenn_0
+TEXT: पावर पोटल – होएन सीमत समय वाल रसच (1/1)
+
+RESOURCE ID: portals_to_power_tr_title_johto
+TEXT: पावर पोटल – जोहतो सीमत समय वाल रसच
+
+RESOURCE ID: portals_to_power_tr_title_johto_0
+TEXT: पावर पोटल – जोहतो सीमत समय वाल रसच (1/1)
+
+RESOURCE ID: portals_to_power_tr_title_kanto
+TEXT: पावर पोटल – कांतो सीमत समय वाल रसच
+
+RESOURCE ID: portals_to_power_tr_title_kanto_0
+TEXT: पावर पोटल – कांतो सीमत समय वाल रसच (1/1)
+
+RESOURCE ID: portals_to_power_tr_title_prelude
+TEXT: पावर पोटल – ेलूड सीमत समय वाल रसच
+
+RESOURCE ID: portals_to_power_tr_title_prelude_0
+TEXT: पावर पोटल – ेलूड सीमत समय वाल रसच (1/1)
+
+RESOURCE ID: portals_to_power_tr_title_sinnoh
+TEXT: पावर पोटल – सनोह सीमत समय वाल रसच
+
+RESOURCE ID: portals_to_power_tr_title_sinnoh_0
+TEXT: पावर पोटल – सनोह सीमत समय वाल रसच (1/1)
+
+RESOURCE ID: portals_to_power_tr_title_unova
+TEXT: पावर पोटल – युनोवा सीमत समय वाल रसच
+
+RESOURCE ID: portals_to_power_tr_title_unova_0
+TEXT: पावर पोटल – युनोवा सीमत समय वाल रसच (1/1)
 
 RESOURCE ID: primal_level_bottom_section
 TEXT: Revert to its primal form to get bonus Candy and increase CP
@@ -2391,13 +2569,13 @@ RESOURCE ID: quest_branch_choose_debutante
 TEXT: Choose Debutante Trim
 
 RESOURCE ID: quest_branch_choose_debutante_desc
-TEXT: Select this option to unlock the ability to give your Furfrou the Debutante Trim. This ability lasts for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
+TEXT: Select this option to change your usual regional Furfrou trim or trims to the Debutante Trim for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
 
 RESOURCE ID: quest_branch_choose_diamond
 TEXT: Choose Diamond Trim
 
 RESOURCE ID: quest_branch_choose_diamond_desc
-TEXT: Select this option to unlock the ability to give your Furfrou the Diamond Trim. This ability lasts for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
+TEXT: Select this option to change your usual regional Furfrou trim or trims to the Diamond Trim for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
 
 RESOURCE ID: quest_branch_choose_fennekin
 TEXT: Choose Fennekin
@@ -2415,28 +2593,28 @@ RESOURCE ID: quest_branch_choose_kabuki
 TEXT: Choose Kabuki Trim
 
 RESOURCE ID: quest_branch_choose_kabuki_desc
-TEXT: Select this option to unlock the ability to give your Furfrou the Kabuki Trim. This ability lasts for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
+TEXT: Select this option to change your usual regional Furfrou trim or trims to the Kabuki Trim for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
 
 RESOURCE ID: quest_branch_choose_la_reine
 TEXT: Choose La Reine Trim
 
 RESOURCE ID: quest_branch_choose_la_reine_desc
-TEXT: Select this option to unlock the ability to give your Furfrou the La Reine Trim. This ability lasts for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
+TEXT: Select this option to change your usual regional Furfrou trim or trims to the La Reine Trim for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
 
 RESOURCE ID: quest_branch_choose_pharaoh
 TEXT: Choose Pharaoh Trim
 
 RESOURCE ID: quest_branch_choose_pharaoh_desc
-TEXT: Select this option to unlock the ability to give your Furfrou the Pharaoh Trim. This ability lasts for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
+TEXT: Select this option to change your usual regional Furfrou trim or trims to the Pharaoh Trim for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
 
 RESOURCE ID: quest_branch_choose_star
 TEXT: Choose Star Trim
 
 RESOURCE ID: quest_branch_choose_star_desc
-TEXT: Select this option to unlock the ability to give your Furfrou the Star Trim. This ability lasts for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
+TEXT: Select this option to change your usual regional Furfrou trim or trims to the Star Trim for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
 
 RESOURCE ID: quest_branch_choose_trim_prompt
-TEXT: Choose a Furfrou trim
+TEXT: फ़ुरू का लुक चुनें
 
 RESOURCE ID: quest_branch_choose_x
 TEXT: Choose X Version
@@ -2454,14 +2632,26 @@ TEXT: Select this option to receive the Y Version medal and Yveltal-themed rewar
 
 During GO Tour: Kalos – Global, you will be able to get Field Research tasks that award an encounter with Unown Y.
 
+RESOURCE ID: quest_catch_bidoof_singular
+TEXT: एक बीडूफ़ पकड़ें
+
 RESOURCE ID: quest_catch_eevee_singular
 TEXT: Catch an Eevee
 
+RESOURCE ID: quest_catch_hoppip_singular
+TEXT: एक हॉिपप पकड़ें
+
 RESOURCE ID: quest_catch_kalos_pokemon
-TEXT: Catch {0} Pokémon originally discovered in the Kalos region
+TEXT: {0} पोकमॉन पकड़ें जनक पहल खोज कालोस रजन में ई थी
 
 RESOURCE ID: quest_catch_kalos_pokemon_singular
-TEXT: Catch a Pokémon originally discovered in the Kalos region
+TEXT: एक पोकमॉन पकड़ें जसक पहल खोज कालोस रजन में ई थी
+
+RESOURCE ID: quest_catch_lillipup_singular
+TEXT: एक ललपप पकड़ें
+
+RESOURCE ID: quest_catch_poochyena_singular
+TEXT: एक पूचीयेना पकड़ें
 
 RESOURCE ID: quest_evolve_eevee_sylveon
 TEXT: Evolve Eevee into Sylveon
@@ -2504,6 +2694,12 @@ TEXT: Earn the gold Kalos medal
 
 RESOURCE ID: quest_medal_rock_platinum
 TEXT: Earn a platinum medal for catching Rock types
+
+RESOURCE ID: quest_pokestop_edit_singular
+TEXT: Submit a PokéStop Edit
+
+RESOURCE ID: quest_pokestop_nominate_singular
+TEXT: Submit a PokéStop Nomination
 
 RESOURCE ID: quest_power_up_dark_psychic_plural
 TEXT: Power up Psychic- or Dark-type Pokémon {0} times
@@ -2598,7 +2794,7 @@ RESOURCE ID: raid_special_background
 TEXT: Pokémon encountered from event raids may have an exclusive Special Background
 
 RESOURCE ID: rebuild_event_pass_pages
-TEXT: The GO Pass page was refreshed.
+TEXT: GO पास पेज रश आ।
 
 RESOURCE ID: remote_raid_battle_helptext_nc
 TEXT: Using Link Charges and a Remote Raid Pass
@@ -2636,6 +2832,9 @@ RESOURCE ID: return_to_map_day_night_tutorial_body_text
 TEXT: These Pokémon have Portraits that reflect where they were caught.
 
 Keep track of these Pokémon in your Field Book.
+
+RESOURCE ID: road_to_kalos_title
+TEXT: कालोस जाने वाल सड़क
 
 RESOURCE ID: route_play_no_routes_gamesite_message
 TEXT: There are no Routes nearby. Browse to find Routes that are farther away.
@@ -2756,7 +2955,7 @@ RESOURCE ID: shadow_raikou_website_link
 TEXT: अधक जानकार क लए <a href="https://pokemongo.com/post/shadow-raikou-raid-day-2026">वेबसाइट</a> पर जाएं।
 
 RESOURCE ID: share_referral_link_default
-TEXT: Pokémon GO में पोकमॉन क साथ फ़ोटो लं!
+TEXT: Pokémon GO में अपने चहेता पोकमॉन क साथ फ़ोटो खींचें!  https://pokemongo.com/
 
 RESOURCE ID: shop_enhanced_currency_description_plural
 TEXT: You need {0} more Link Charges to enter this battle.
@@ -2777,34 +2976,34 @@ RESOURCE ID: spawn_vulpix
 TEXT: जंगल में और ज़्यादा वलपस और अलोला वलपस दखाई दे रहे हैं!
 
 RESOURCE ID: sr_go_tour_2026_global_title
-TEXT: GO Tour 2026: An X-ceptional Yarn
+TEXT: GO Tour 2026 : XY क कथा
 
 RESOURCE ID: sr_go_tour_2026_global_title_00
-TEXT: GO Tour 2026: An X-ceptional Yarn (1/5)
+TEXT: GO Tour 2026 : XY क कथा (1/5)
 
 RESOURCE ID: sr_go_tour_2026_global_title_01
-TEXT: GO Tour 2026: An X-ceptional Yarn (2/5)
+TEXT: GO Tour 2026 : XY क कथा (2/5)
 
 RESOURCE ID: sr_go_tour_2026_global_title_02
-TEXT: GO Tour 2026: An X-ceptional Yarn (3/5)
+TEXT: GO Tour 2026 : XY क कथा (3/5)
 
 RESOURCE ID: sr_go_tour_2026_global_title_03
-TEXT: GO Tour 2026: An X-ceptional Yarn (4/5)
+TEXT: GO Tour 2026 : XY क कथा (4/5)
 
 RESOURCE ID: sr_go_tour_2026_global_title_04
-TEXT: GO Tour 2026: An X-ceptional Yarn (5/5)
+TEXT: GO Tour 2026 : XY क कथा (5/5)
 
 RESOURCE ID: sr_go_tour_2026_irl_title
-TEXT: GO Tour 2026: A Balancing Act
+TEXT: GO Tour 2026 : जीवन और वनाश
 
 RESOURCE ID: sr_go_tour_2026_irl_title_00
-TEXT: GO Tour 2026: A Balancing Act (1/3)
+TEXT: GO Tour 2026 : जीवन और वनाश (1/3)
 
 RESOURCE ID: sr_go_tour_2026_irl_title_01
-TEXT: GO Tour 2026: A Balancing Act (2/3)
+TEXT: GO Tour 2026 : जीवन और वनाश (2/3)
 
 RESOURCE ID: sr_go_tour_2026_irl_title_02
-TEXT: GO Tour 2026: A Balancing Act (3/3)
+TEXT: GO Tour 2026 : जीवन और वनाश (3/3)
 
 RESOURCE ID: stamp_rally_missed_prefecture_reward_toast
 TEXT: यह रवॉड ात करने क लए, इस ांत क पोक लड टैप रैल वाल कसी भी लोकशन पर पँच कर, टैप बटन दबाएँ।
@@ -2868,6 +3067,24 @@ TEXT: <b>शामल रवॉड -</b>
 • पावर पॉट और एसलोर करने से अतरत 4,000 मैस पाटकल एकत करं
 • मैस बैटल को सफलतापूवक पूरा करने पर 2× XP पाएँ
 • 25,000 XP दान करने वाल सीमत समय वाल रसच
+
+RESOURCE ID: text_rewards_key_enamorustherianraidday
+TEXT: <b>शामल रवॉड -</b>
+• 1 मीटयोराइट
+• 3 रवाइव
+• 5 रैज़ बेर
+• 20 पोक बॉल
+• 1,000 XP
+• 1,000 टार-डट
+<b>शामल बोनस - </b>
+जम क फ़ोटो डक िपन करने से 8 अतरत रड पास
+• रड से रयर कडी XL ात करने क ज़्यादा संभावना
+• रड को सफलतापूवक पूरा करने पर 50% अधक XP और 2× टार-डट
+
+RESOURCE ID: text_rewards_key_gmaxmeowth26
+TEXT: <b>शामल रवॉड -</b>
+• मैस बैटल से 2× XP
+• सीमत समय वाल रसच जो 6,400 मैस पाटकल, 25,000 XP, और एक मैस मशम देगी
 
 RESOURCE ID: text_rewards_key_intotdepths26
 TEXT: <b>शामल रवॉड -</b>
@@ -2936,28 +3153,28 @@ RESOURCE ID: title_gallery_permission_required
 TEXT: Pokémon GO को फ़ोटो एसेस दें
 
 RESOURCE ID: title_hoopa_hoopla
-TEXT: Hoopa Hoopla!
+TEXT: ला पा!
 
 RESOURCE ID: title_unown_o_clock
 TEXT: Unown O’Clock
 
 RESOURCE ID: today_view_fieldbook_tab_label
-TEXT: Field Book
+TEXT: फ़ीड बुक
 
 RESOURCE ID: today_view_gopass_tab_label
-TEXT: GO Pass
+TEXT: GO पास
 
 RESOURCE ID: today_view_research_tab_label
-TEXT: Research
+TEXT: रसच
 
 RESOURCE ID: today_view_special_tab_label
-TEXT: Special
+TEXT: पेशल
 
 RESOURCE ID: today_view_timed_tab_label
-TEXT: Timed
+TEXT: सीमत समय वाल
 
 RESOURCE ID: today_view_today_tab_label
-TEXT: Today
+TEXT: आज
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title
 TEXT: Poodle Caboodle Timed Research
@@ -3170,16 +3387,16 @@ RESOURCE ID: tutorial_need_mega_title
 TEXT: Mega Evolve to Ready Up
 
 RESOURCE ID: tv_title_go_tour_2026_global
-TEXT: GO Tour: Kalos – Global
+TEXT: GO Tour : कालोस – लोबल
 
 RESOURCE ID: tv_title_go_tour_2026_global_extended
-TEXT: GO Tour: Kalos – Global, Extended Bonuses
+TEXT: GO Tour : कालोस – ताइनान, वतृत बोनस
 
 RESOURCE ID: tv_title_go_tour_2026_global_extended_ticket
-TEXT: GO Tour: Kalos – Global, Ticket Extended Bonuses
+TEXT: GO Tour : कालोस – लोबल, टकट क वतृत बोनस
 
 RESOURCE ID: tv_title_go_tour_2026_global_ticket
-TEXT: GO Tour: Kalos – Global, Ticket Bonuses
+TEXT: GO Tour : कालोस – लोबल, टकट बोनस
 
 RESOURCE ID: tv_title_go_tour_2026_la
 TEXT: GO Tour: Kalos – Los Angeles
@@ -3207,6 +3424,9 @@ TEXT: GO Tour: Kalos – Tainan, Park Experience
 
 RESOURCE ID: unown_o_clock_active
 TEXT: Unown are now appearing in large numbers!
+
+RESOURCE ID: use_raid_ticket_confirmation_buy_currency
+TEXT: Get More {0}
 
 RESOURCE ID: use_raid_ticket_confirmation_switch_currency_plural
 TEXT: Switch to {0} and {1}
