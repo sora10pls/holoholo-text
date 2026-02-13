@@ -1,8 +1,26 @@
+RESOURCE ID: active_bonuses_label
+TEXT: Bonuses:
+
+RESOURCE ID: ar_photo_social_bonus_text
+TEXT: Bonus
+
 RESOURCE ID: ar_photo_social_entry_label
 TEXT: Take a photo with your favorite Pokémon!
 
 RESOURCE ID: ar_photo_social_hashtag
 TEXT: #Pokemon30
+
+RESOURCE ID: ar_photo_social_message_save_disabled
+TEXT: To save photos, open your device settings and give Pokémon GO access to photos.
+
+RESOURCE ID: ar_photo_social_name_tag_prompt
+TEXT: Tap the Pokémon’s name to move the label around
+
+RESOURCE ID: ar_photo_social_photo_shared
+TEXT: Photo shared
+
+RESOURCE ID: ar_photo_social_review_confirm_exit_message
+TEXT: If you leave this page, any unsaved photos will be lost.
 
 RESOURCE ID: ar_photo_social_share_default_referral_text
 TEXT: Snap a pic with your favorite Pokémon in Pokémon GO!  https://pokemongo.com/
@@ -17,7 +35,16 @@ RESOURCE ID: ar_photo_social_share_prompt
 TEXT: Share your photos online!
 
 RESOURCE ID: ar_photo_social_share_referral_text
-TEXT: Snap a pic with your favorite Pokémon in Pokémon GO!
+TEXT: Snap a pic with your favorite Pokémon in Pokémon GO! {0}
+
+RESOURCE ID: ar_photo_social_share_sign_in
+TEXT: Start Playing Pokémon GO
+
+RESOURCE ID: ar_photo_social_title_save_disabled
+TEXT: Allow Pokémon GO to save images?
+
+RESOURCE ID: avatar_generic_name
+TEXT:  
 
 RESOURCE ID: avatar_hat_xerneas
 TEXT: Xerneas Headwear
@@ -428,9 +455,6 @@ RESOURCE ID: bonus_premier_ball_catch_rate_boost_small
 TEXT: Premier Balls have an increased catch rate
 
 RESOURCE ID: bonus_raid_3_xl_candy_t5_and_mega
-TEXT: Six additional Candy XL for successful five-star raids and Mega Raids
-
-RESOURCE ID: bonus_raid_3_xl_candy_t5_and_mega_temp
 TEXT: Three additional Candy XL from successful five-star and Mega Raids
 
 RESOURCE ID: bonus_raid_5k_xp_mega
@@ -708,13 +732,13 @@ RESOURCE ID: em_carnival_2026_tr_path_a
 TEXT: Choose Dance
 
 RESOURCE ID: em_carnival_2026_tr_path_a_desc
-TEXT: Choose this path for an encounter with Clefairy, Alolan Marowak, and Quaxly, plus rewards including Incense and stickers!
+TEXT: Choose this path for encounters with Clefairy, Alolan Marowak, and Quaxly, plus rewards including Incense and stickers!
 
 RESOURCE ID: em_carnival_2026_tr_path_b
 TEXT: Choose Music
 
 RESOURCE ID: em_carnival_2026_tr_path_b_desc
-TEXT: Choose this path for an encounter with Jigglypuff, Ludicolo, and Kricketot, plus rewards including Incense and stickers!
+TEXT: Choose this path for encounters with Jigglypuff, Ludicolo, and Kricketot, plus rewards including Incense and stickers!
 
 RESOURCE ID: enamorus_therian_paid_tr_name
 TEXT: Therian Forme Enamorus Raid Day Premium Timed Research
@@ -1087,6 +1111,15 @@ TEXT: Gigantamax Meowth is appearing in Max Battles
 
 RESOURCE ID: gmax_meowth_website_link
 TEXT: For more details, visit the <a href="https://pokemongo.com/news/gigantamax-meowth-max-battle-day-2026">website</a>.
+
+RESOURCE ID: go_pass_milestone_rank
+TEXT: Major Milestone
+
+RESOURCE ID: go_pass_milestone_rewards
+TEXT: Milestone Rewards:
+
+RESOURCE ID: go_pass_rank_level_rewards
+TEXT: Rank {0} Rewards
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_00_00
 TEXT: %PLAYERNAME%! Excuse the mess—I’m looking for some notes.
@@ -1888,16 +1921,19 @@ RESOURCE ID: message_open_settings
 TEXT: Open Settings
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-02-10T22:04:44.096094+00:00 for en-US
-at SHA b68fb11b3ec
-Pipeline 3535223, job 50681985
-Patch from: 0.397.0-SHA-5a918511-RC2, 0.399.0-SHA-45852136-RC1
+TEXT: Built at 2026-02-13T23:09:24.654123+00:00 for en-US
+at SHA 6d6c847e658
+Pipeline 3541342, job 50979693
+Patch from: 0.399.0-SHA-dbc59b42-RC4, 0.397.1-SHA-7b7c416a-RC5
 
 RESOURCE ID: natural_art_day
 TEXT: Day
 
 RESOURCE ID: natural_art_night
 TEXT: Night
+
+RESOURCE ID: next_rank_label
+TEXT: Next rank:
 
 RESOURCE ID: oricorio_mastery_feb2026
 TEXT: Catch Mastery: Oricorio
@@ -2556,6 +2592,9 @@ TEXT: X Version
 
 RESOURCE ID: tag_y_version
 TEXT: Y Version
+
+RESOURCE ID: tap_to_skip_message
+TEXT: Tap to Skip
 
 RESOURCE ID: text_rewards_key_buddy_event
 TEXT: <b>Included rewards:</b>

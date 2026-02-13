@@ -1,8 +1,20 @@
+RESOURCE ID: ar_photo_social_bonus_text
+TEXT: Bonus
+
 RESOURCE ID: ar_photo_social_entry_label
 TEXT: ¡Tómate una foto con tu Pokémon favorito!
 
 RESOURCE ID: ar_photo_social_hashtag
 TEXT: #Pokemon30
+
+RESOURCE ID: ar_photo_social_message_save_disabled
+TEXT: To save photos, open your device settings and give Pokémon GO access to photos.
+
+RESOURCE ID: ar_photo_social_name_tag_prompt
+TEXT: Tap the Pokémon’s name to move the label around
+
+RESOURCE ID: ar_photo_social_photo_shared
+TEXT: Photo shared
 
 RESOURCE ID: ar_photo_social_share_default_referral_text
 TEXT: ¡Tómate una foto con tu Pokémon favorito en Pokémon GO! https://pokemongo.com/es-MX
@@ -17,7 +29,16 @@ RESOURCE ID: ar_photo_social_share_prompt
 TEXT: ¡Comparte tus fotos en línea!
 
 RESOURCE ID: ar_photo_social_share_referral_text
-TEXT: ¡Tómate una foto con tu Pokémon favorito en Pokémon GO!
+TEXT: ¡Tómate una foto con tu Pokémon favorito en Pokémon GO! {0}
+
+RESOURCE ID: ar_photo_social_share_sign_in
+TEXT: Start Playing Pokémon GO
+
+RESOURCE ID: ar_photo_social_title_save_disabled
+TEXT: Allow Pokémon GO to save images?
+
+RESOURCE ID: avatar_generic_name
+TEXT:  
 
 RESOURCE ID: avatar_hat_xerneas
 TEXT: Accesorio de Xerneas
@@ -311,7 +332,7 @@ RESOURCE ID: badge_go_tour_2026_tainan_vip_title
 TEXT: Tour de GO: Kalos – Tainan (VIP)
 
 RESOURCE ID: batch_transfer_unique_day_night_level_pokemon
-TEXT: {0} Pokémon with a Portrait
+TEXT: {0} Pokémon con retrato
 
 RESOURCE ID: battle_condition_mega_enrage
 TEXT: {0} se está protegiendo con Megaenergía
@@ -331,11 +352,14 @@ TEXT: ¡Solo los Pokémon megaevolucionados pueden romper los Escudos!
 RESOURCE ID: battle_mega_swap_ready
 TEXT: ¡Es el momento de sacar tu Pokémon megaevolucionado!
 
+RESOURCE ID: bonus_2x_xl_candy_chance
+TEXT: 2× probabilidad de obtener Caramelos XL por atrapar Pokémon
+
 RESOURCE ID: bonus_candy_raids_t5_plus_mega
-TEXT: One additional Candy from catching Pokémon in five-star and Mega Raids
+TEXT: Un Caramelo adicional por atrapar Pokémon en incursiones de nivel 5 y megaincursiones
 
 RESOURCE ID: bonus_candy_xl_raids_t5_plus_mega
-TEXT: One additional Candy XL from catching Pokémon in five-star and Mega Raids
+TEXT: Un Caramelo XL adicional por atrapar Pokémon en incursiones de nivel 5 y megaincursiones
 
 RESOURCE ID: bonus_cd_move_alolan_vulpix
 TEXT: ¡Evoluciona a Vulpix de Alola para conseguir un Ninetales de Alola que conozca el ataque cargado Agua Fría!
@@ -347,7 +371,7 @@ RESOURCE ID: bonus_extra_carbink_diancie_energy
 TEXT: Wild Carbink may be holding Diancie Mega Energy
 
 RESOURCE ID: bonus_extra_carbink_global_masterwork
-TEXT: Masterwork Research bonus for in-person GO Tour ticket holders
+TEXT: Bonificación de la Investigación Magistral para quienes tengan una entrada del Tour de GO en persona
 
 RESOURCE ID: bonus_gift_inventory_40
 TEXT: El almacenamiento de regalos aumentó a 40
@@ -379,6 +403,9 @@ TEXT: Intercambia más regalos con Mateo cada día
 RESOURCE ID: bonus_gotour_zygarde_cell
 TEXT: Probabilidad de encontrar células de Zygarde en más Rutas cada día
 
+RESOURCE ID: bonus_hourly_pass_tasks
+TEXT: Las bonificaciones por hora de las tareas del Pase entregan puntos del Tour adicionales
+
 RESOURCE ID: bonus_incense_costume_pikachu
 TEXT: El Incienso puede atraer a Pikachu disfrazados
 
@@ -386,10 +413,10 @@ RESOURCE ID: bonus_incense_hisui_costume_pikachu
 TEXT: El Incienso podrá atraer a Pikachu con gorra de Luka y a Pikachu con pañuelo de Kira
 
 RESOURCE ID: bonus_incense_johto_costume_pikachu
-TEXT: Incense may attract Pikachu wearing Ethan’s hat or Pikachu wearing Lyra’s hat
+TEXT: El Incienso podrá atraer a  Pikachu con gorra de Ethan y a  Pikachu con gorro de Lyra
 
 RESOURCE ID: bonus_incense_kanto_costume_pikachu
-TEXT: Incense may attract Pikachu wearing Leaf’s hat or Pikachu wearing Red’s hat
+TEXT: El Incienso podrá atraer a  Pikachu con sombrero de Leaf y a  Pikachu con gorra de Red
 
 RESOURCE ID: bonus_incense_sinnoh_costume_pikachu
 TEXT: El Incienso puede atraer a Pikachu con gorra de León y a Pikachu con gorro de Dawn
@@ -401,13 +428,13 @@ RESOURCE ID: bonus_incense_unova_b_costume_pikachu
 TEXT: El Incienso podrá atraer a Pikachu con visera de Rizzo y a Pikachu con visera de Nanci
 
 RESOURCE ID: bonus_mateo_encounter_daily_25
-TEXT: Exchange Gifts with Mateo on up to 25 Routes per day
+TEXT: Intercambia regalos con Mateo en hasta 25 Rutas cada día
 
 RESOURCE ID: bonus_mega_cp_boost
 TEXT: PC potenciados para todos los Pokémon megaevolucionados
 
 RESOURCE ID: bonus_mega_energy_spin_chance
-TEXT: Chance of receiving Mega Energy from spinning PokéStops or Gyms
+TEXT: Mayor probabilidad de recibir Megaenergía al girar fotodiscos en Poképaradas o Gimnasios
 
 RESOURCE ID: bonus_ppk_event_pokemon_fr
 TEXT: Ya están disponibles las Investigaciones de Campo exclusivas de PokéPark KANTO
@@ -431,19 +458,16 @@ RESOURCE ID: bonus_premier_ball_catch_rate_boost_small
 TEXT: El índice de captura de las Honorbolas aumentó
 
 RESOURCE ID: bonus_raid_3_xl_candy_t5_and_mega
-TEXT: Seis Caramelos XL adicionales por completar incursiones de nivel 5 y megaincursiones
-
-RESOURCE ID: bonus_raid_3_xl_candy_t5_and_mega_temp
-TEXT: Three additional Candy XL from successful five-star and Mega Raids
+TEXT: Tres Caramelos XL adicionales por completar incursiones de nivel 5 y megaincursiones
 
 RESOURCE ID: bonus_raid_5k_xp_mega
-TEXT: Additional 5,000 XP awarded for successful Mega Raids
+TEXT: 5,000 EXP adicionales por completar megaincursiones
 
 RESOURCE ID: bonus_raid_6_candy_t5_and_mega
 TEXT: Seis Caramelos adicionales por completar incursiones de nivel 5 y megaincursiones
 
 RESOURCE ID: bonus_routes_flabebe
-TEXT: Increased chance of Flabébé appearing on Routes
+TEXT: Mayor probabilidad de que Flabébé aparezca en las Rutas
 
 RESOURCE ID: bonus_routes_flabebe_los_angeles
 TEXT: Mayor probabilidad de encontrarte con Flabébé Flor Blanca , Flabébé Flor Naranja y Flabébé Flor Amarilla en las Rutas
@@ -455,10 +479,10 @@ RESOURCE ID: bonus_scatterbug_pin_1
 TEXT: Aparece un Scatterbug cada regalo guardado por región
 
 RESOURCE ID: bonus_scatterbug_pin_3_temp
-TEXT: Increased Scatterbug sub-medal progress for each pinned Postcard
+TEXT: Mayor progreso en las Submedallas de Scatterbug por cada postal guardada
 
 RESOURCE ID: bonus_scatterbug_pin_6
-TEXT: Significantly increased Scatterbug sub-medal progress for each pinned Postcard
+TEXT: Aumento significativo del progreso en las Submedallas de Scatterbug por cada postal guardada
 
 RESOURCE ID: bonus_special_background_t1_t5_raid
 TEXT: Los Pokémon atrapados en las incursiones de nivel 1 a nivel 5 podrán tener un fondo especial
@@ -473,7 +497,7 @@ RESOURCE ID: bonus_stickers_gotour_kalos
 TEXT: Calcomanías del Tour de GO: Kalos disponibles como regalos y al girar fotodiscos en Poképaradas
 
 RESOURCE ID: bonus_today_event_sr
-TEXT: Event-exclusive Special Research now available
+TEXT: Ya está disponible la Investigación Especial exclusiva del evento
 
 RESOURCE ID: bonus_today_hoenn_spawn
 TEXT: ¡Están apareciendo Pokémon de la región de Hoenn en estado salvaje!
@@ -494,7 +518,7 @@ RESOURCE ID: bonus_today_zygarde_cell
 TEXT: Las células de Zygarde pueden aparecer al final de hasta 5 Rutas cada día
 
 RESOURCE ID: bonus_zygarde_cell_daily_25
-TEXT: Chance to discover Zygarde Cells on up to 25 Routes per day
+TEXT: Probabilidad de encontrar células de Zygarde en hasta 25 Rutas cada día
 
 RESOURCE ID: buddy_event_collection_challenge_1
 TEXT: Desafío de Colección de Queridos Compañeros: Con las patas en la masa
@@ -533,7 +557,7 @@ RESOURCE ID: buddy_hearts_bonus
 TEXT: Corazones adicionales por interactuar con tu Pokémon compañero
 
 RESOURCE ID: campfire_meetup_go_tour_2026
-TEXT: Meetup Check-In Timed Research: GO Tour 2026
+TEXT: Investigación Temporal por participar en una reunión: Tour de GO 2026
 
 RESOURCE ID: carnival_flamigo_event_name
 TEXT: El carnaval de Flamigo
@@ -560,7 +584,7 @@ RESOURCE ID: carnival_flamigo_website_link
 TEXT: Para obtener más información, visita el <a href="https://pokemongolive.com/post/carnival-of-flamigo-2026">sitio web</a>.
 
 RESOURCE ID: check_out_field_book
-TEXT: Check out Field Book
+TEXT: Mira tu Cuaderno
 
 RESOURCE ID: city_manhole_418
 TEXT: Echizen-cho
@@ -572,25 +596,25 @@ RESOURCE ID: city_manhole_446
 TEXT: Inagi
 
 RESOURCE ID: claim_all_a_pokemon_has_appeared
-TEXT: A Pokémon has appeared!
+TEXT: ¡Apareció un Pokémon!
 
 RESOURCE ID: claim_all_item_bag_inventory
-TEXT: Item Bag: {0}/{1}
+TEXT: Bolsa: {0}/{1}
 
 RESOURCE ID: claim_all_items_left_to_claim
-TEXT: You will claim {0} items.
+TEXT: Obtendrás {0} artículos.
 
 RESOURCE ID: claim_all_pass_rewards_header
-TEXT: PASS REWARDS
+TEXT: RECOMPENSAS DEL PASE
 
 RESOURCE ID: claim_all_pokemon_left_to_catch
-TEXT: You have {0} Pokémon left to catch.
+TEXT: Te quedan {0} Pokémon por atrapar.
 
 RESOURCE ID: claim_all_pokemon_left_to_catch_singular
-TEXT: You have 1 Pokémon left to catch.
+TEXT: Te queda 1 Pokémon por atrapar.
 
 RESOURCE ID: claim_all_quest_rewards_btn
-TEXT: CLAIM ALL
+TEXT: RECLAMAR TODO
 
 RESOURCE ID: claim_all_quests_confirmation_modal_message
 TEXT: You will be claiming {0} items.
@@ -601,13 +625,13 @@ RESOURCE ID: claim_all_quests_confirmation_modal_title
 TEXT: Do you want to claim all rewards?
 
 RESOURCE ID: claim_all_quests_partial_success_message
-TEXT: Some rewards must be claimed separately.
+TEXT: Algunas recompensas deben reclamarse de manera individual.
 
 RESOURCE ID: claim_all_quests_validation_failed_message
-TEXT: No rewards could be claimed. Please claim any remaining rewards individually.
+TEXT: No se pudo reclamar ninguna recompensa. Reclama las recompensas restantes de manera individual.
 
 RESOURCE ID: claim_all_rewards_confirmation
-TEXT: Do you want to claim all rewards?
+TEXT: ¿Quieres reclamar todas las recompensas?
 
 RESOURCE ID: combat_move_entering_busted_form
 TEXT: Mimikyu’s disguise is busted!
@@ -624,19 +648,19 @@ TEXT: {0}, {1} –
 {2}, {3}
 
 RESOURCE ID: day_and_night_pokemon_ftue_1_body_text_key
-TEXT: Pokémon with these icons have Portraits that reflect when and where they were caught.
+TEXT: Los Pokémon con estos íconos tienen unos retratos que indican cuándo y dónde se atraparon.
 
 RESOURCE ID: day_and_night_pokemon_ftue_2_secondary_body_text_key
-TEXT: Pokémon with Portraits can be found at special PokéStops.
+TEXT: Los Pokémon con retratos se pueden encontrar en Poképaradas especiales.
 
 RESOURCE ID: day_and_night_pokemon_text_key
-TEXT: Find Pokémon at PokéStops
+TEXT: Encuentra Pokémon en las Poképaradas
 
 RESOURCE ID: day_night_encounter_ftue_1_secondary_body_text_key
-TEXT: Pokémon caught with these icons will have Portraits that reflect when and where they were caught.
+TEXT: Los Pokémon que atrapes con estos íconos tendrán unos retratos que indican cuándo y dónde se capturaron.
 
 RESOURCE ID: day_night_tutorial_detail_page
-TEXT: This Pokémon’s Portrait reflects where it was caught.
+TEXT: Este retrato del Pokémon indica dónde se atrapó.
 
 RESOURCE ID: desc_unown_o_clock
 TEXT: At the top of each hour, Unown will appear in large numbers!
@@ -660,7 +684,7 @@ RESOURCE ID: dmax_ho_oh_weekend_timed_research
 TEXT: Investigación Temporal del Fin de Semana de Combates Max de Ho-Oh Dinamax
 
 RESOURCE ID: dn_poi_tutorial_nearby
-TEXT: Discover Pokémon with Portraits by catching Pokémon with these icons!
+TEXT: ¡Descubre Pokémon con retratos atrapando Pokémon con estos íconos!
 
 RESOURCE ID: em_carnival_2026_rally_cologne_desc
 TEXT: ¡Te damos la bienvenida a El carnaval de Flamigo!
@@ -735,18 +759,18 @@ RESOURCE ID: enamorus_therian_website_link
 TEXT: Para obtener más información, visita el <a href="https://pokemongo.com/news/enamorus-therian-raid-day-2026">sitio web</a>.
 
 RESOURCE ID: encounter_score_daily_bonus
-TEXT: Daily Field Book Bonus
+TEXT: Bonificación diaria del Cuaderno de campo
 
 RESOURCE ID: enhanced_currency_abbreviated
-TEXT: LC
+TEXT: CV
 
 RESOURCE ID: enhanced_currency_ftue_body
-TEXT: Link Charges can be used to join Mega Raids in place of Raid Passes. Link Charges are required to join Mega Raids remotely.
+TEXT: Las Cargas Vínculo se pueden utilizar para unirse a las megaincursiones en lugar de los Pases de Incursión. Las Cargas Vínculo son un requisito para unirse a las megaincursiones remotas.
 
-You can earn Link Charges from activities such as weekly challenges, Campfire check-ins, and opening Gifts.
+Puedes obtener Cargas Vínculo en actividades como los Desafíos Semanales, al participar en Campfire o abriendo regalos.
 
 RESOURCE ID: enhanced_currency_ftue_title
-TEXT: Use Link Charges to Join Mega Raids
+TEXT: Usa Cargas Vínculo para unirte a las megaincursiones
 
 RESOURCE ID: enhanced_currency_large_3rrp_title
 TEXT: 600 Link Charges + 3 Remote Raid Passes
@@ -779,18 +803,18 @@ RESOURCE ID: enhanced_currency_title
 TEXT: 50 Link Charges
 
 RESOURCE ID: enhanced_mega_raid_tutorial_body_1
-TEXT: Battle with eight or more Trainers to take down challenging Mega-Evolved Pokémon. You can earn extra Mega Energy to power up your Pokémon!
+TEXT: Combate junto a ocho o más Entrenadores para derrotar a desafiantes Pokémon megaevolucionados. ¡Podrás obtener Megaenergía adicional para dar más poder a tus Pokémon!
 
 RESOURCE ID: enhanced_mega_raid_tutorial_body_2
-TEXT: The Raid Boss will shield itself in battle and take less damage.
+TEXT: El Jefe de Incursión usará Escudos en el combate para recibir menos daño.
 
-You can break one shield using a Charged Attack from your Mega-Evolved Pokémon. Work together to take down the boss’s defenses!
+Podrás romper uno de esos Escudos usando el ataque cargado de tus Pokémon megaevolucionados. ¡Trabaja codo con codo para reducir las defensas del Jefe!
 
 RESOURCE ID: enhanced_mega_raid_tutorial_title_1
-TEXT: New Super Mega Raid!
+TEXT: ¡Nuevas supermegaincursiones!
 
 RESOURCE ID: enhanced_mega_raid_tutorial_title_2
-TEXT: Mega Evolve to Power Up Your Attacks!
+TEXT: ¡Megaevoluciona para potenciar tus ataques!
 
 RESOURCE ID: event_datetime_range_key_buddy_event
 TEXT: Del 20 de enero a las 10:00 a. m. 
@@ -829,7 +853,7 @@ RESOURCE ID: event_datetime_range_key_raikoushadowraidday
 TEXT: 24 enero de 2:00 p. m. a 5:00 p. m.
 
 RESOURCE ID: event_tag_mega_night
-TEXT: GO Tour: Mega Night
+TEXT: Tour de GO: Noche Mega
 
 RESOURCE ID: event_title_ppk
 TEXT: PokéPark KANTO
@@ -838,219 +862,219 @@ RESOURCE ID: extra_guaranteed_xl_candy_mega_five_star_raids
 TEXT: One additional guaranteed Candy XL from Mega Raids and five-star raids
 
 RESOURCE ID: feature_dbs_pokestop_ftue_conv_1
-TEXT: You’ve discovered a special PokéStop! I’m curious about the Pokémon that are close by. Let’s try to catch one!
+TEXT: ¡Encontraste una Poképarada especial! Me pregunto qué Pokémon habrá alrededor. ¡Atrapemos uno!
 
 RESOURCE ID: feature_first_fieldbook_ftue_conv_1
-TEXT: Great job completing your first Field Book page! These items should help you continue your research.
+TEXT: ¡Qué gran trabajo hiciste al completar tu primera página del Cuaderno de campo! Estos artículos deberían ayudarte a continuar con tu investigación.
 
 RESOURCE ID: field_book_apr_2026
-TEXT: APRIL
+TEXT: ABRIL
 
 RESOURCE ID: field_book_apr_2026_sub0
-TEXT: April Page 1
+TEXT: Página 1 de abril
 
 RESOURCE ID: field_book_apr_2026_sub1
-TEXT: April Page 2
+TEXT: Página 2 de abril
 
 RESOURCE ID: field_book_apr_2026_sub2
-TEXT: April Page 3
+TEXT: Página 3 de abril
 
 RESOURCE ID: field_book_apr_2026_sub3
-TEXT: April Page 4
+TEXT: Página 4 de abril
 
 RESOURCE ID: field_book_apr_2026_sub4
-TEXT: April Page 5
+TEXT: Página 5 de abril
 
 RESOURCE ID: field_book_apr_2026_sub5
-TEXT: April Page 6
+TEXT: Página 6 de abril
 
 RESOURCE ID: field_book_apr_2026_sub6
-TEXT: April Page 7
+TEXT: Página 7 de abril
 
 RESOURCE ID: field_book_apr_2026_sub7
-TEXT: April Page 8
+TEXT: Página 8 de abril
 
 RESOURCE ID: field_book_apr_2026_sub8
-TEXT: April Page 9
+TEXT: Página 9 de abril
 
 RESOURCE ID: field_book_apr_2026_sub9
-TEXT: April Page 10
+TEXT: Página 10 de abril
 
 RESOURCE ID: field_book_entry_caught_by_in
-TEXT: Caught near {0} in {1}
+TEXT: Atrapado cerca de {0} en {1}
 
 RESOURCE ID: field_book_entry_caught_in
-TEXT: Caught in {0}
+TEXT: Atrapado en {0}
 
 RESOURCE ID: field_book_entry_hint
 TEXT: Can be found during the {0}.
 
 RESOURCE ID: field_book_entry_hint_day
-TEXT: Can be found during the day.
+TEXT: Se puede encontrar durante el día.
 
 RESOURCE ID: field_book_entry_hint_night
 TEXT: Can be found during the night.
 
 RESOURCE ID: field_book_find_nearby_button
-TEXT: Find Nearby
+TEXT: Encontrar cerca
 
 RESOURCE ID: field_book_mar_2026
-TEXT: MARCH
+TEXT: MARZO
 
 RESOURCE ID: field_book_mar_2026_sub0
-TEXT: March Page 1
+TEXT: Página 1 de marzo
 
 RESOURCE ID: field_book_mar_2026_sub1
-TEXT: March Page 2
+TEXT: Página 2 de marzo
 
 RESOURCE ID: field_book_mar_2026_sub2
-TEXT: March Page 3
+TEXT: Página 3 de marzo
 
 RESOURCE ID: field_book_mar_2026_sub3
-TEXT: March Page 4
+TEXT: Página 4 de marzo
 
 RESOURCE ID: field_book_mar_2026_sub4
-TEXT: March Page 5
+TEXT: Página 5 de marzo
 
 RESOURCE ID: field_book_mar_2026_sub5
-TEXT: March Page 6
+TEXT: Página 6 de marzo
 
 RESOURCE ID: field_book_mar_2026_sub6
-TEXT: March Page 7
+TEXT: Página 7 de marzo
 
 RESOURCE ID: field_book_mar_2026_sub7
-TEXT: March Page 8
+TEXT: Página 8 de marzo
 
 RESOURCE ID: field_book_mar_2026_sub8
-TEXT: March Page 9
+TEXT: Página 9 de marzo
 
 RESOURCE ID: field_book_mar_2026_sub9
-TEXT: March Page 10
+TEXT: Página 10 de marzo
 
 RESOURCE ID: field_book_may_2026
-TEXT: MAY
+TEXT: MAYO
 
 RESOURCE ID: field_book_may_2026_sub0
-TEXT: May Page 1
+TEXT: Página 1 de mayo
 
 RESOURCE ID: field_book_may_2026_sub1
-TEXT: May Page 2
+TEXT: Página 2 de mayo
 
 RESOURCE ID: field_book_may_2026_sub2
-TEXT: May Page 3
+TEXT: Página 3 de mayo
 
 RESOURCE ID: field_book_may_2026_sub3
-TEXT: May Page 4
+TEXT: Página 4 de mayo
 
 RESOURCE ID: field_book_may_2026_sub4
-TEXT: May Page 5
+TEXT: Página 5 de mayo
 
 RESOURCE ID: field_book_may_2026_sub5
-TEXT: May Page 6
+TEXT: Página 6 de mayo
 
 RESOURCE ID: field_book_may_2026_sub6
-TEXT: May Page 7
+TEXT: Página 7 de mayo
 
 RESOURCE ID: field_book_may_2026_sub7
-TEXT: May Page 8
+TEXT: Página 8 de mayo
 
 RESOURCE ID: field_book_may_2026_sub8
-TEXT: May Page 9
+TEXT: Página 9 de mayo
 
 RESOURCE ID: field_book_may_2026_sub9
-TEXT: May Page 10
+TEXT: Página 10 de mayo
 
 RESOURCE ID: field_book_new_entry_screen_title
-TEXT: Added to Field Book!
+TEXT: ¡Añadido al Cuaderno de campo!
 
 RESOURCE ID: field_book_page_complete
-TEXT: Field Book page complete!
+TEXT: ¡Página del Cuaderno de campo completada!
 
 RESOURCE ID: field_book_page_completed
-TEXT: Completed!
+TEXT: ¡Completada!
 
 RESOURCE ID: field_book_summary_entry_callout_firstregister
-TEXT: Registered to Pokédex!
+TEXT: ¡Registrado en el Pokédex!
 
 RESOURCE ID: field_book_summary_entry_callout_shiny
-TEXT: Shiny Pokémon!
+TEXT: ¡Pokémon brillante!
 
 RESOURCE ID: field_book_summary_entry_callout_xxl
-TEXT: XXL Pokémon!
+TEXT: ¡Pokémon XXL!
 
 RESOURCE ID: field_book_summary_entry_callout_xxs
-TEXT: XXS Pokémon!
+TEXT: ¡Pokémon XXS!
 
 RESOURCE ID: field_book_summary_stat_day_night_pokemon_caught
-TEXT: Pokémon with Portraits
+TEXT: Pokémon con retratos
 
 RESOURCE ID: field_book_text_key
-TEXT: Field Book
+TEXT: Cuaderno de campo
 
 RESOURCE ID: field_book_view_pokemon_button
-TEXT: See Pokémon
+TEXT: Ver Pokémon
 
 RESOURCE ID: fieldbook_daily_challenge_header
-TEXT: Today
+TEXT: Hoy
 
 RESOURCE ID: fieldbook_daily_challenge_message
-TEXT: Catch Pokémon with a Day Portrait and a Night Portrait for a small reward!
+TEXT: ¡Atrapa Pokémon con un retrato diurno o un retrato nocturno para obtener una pequeña recompensa!
 
 RESOURCE ID: fieldbook_header_message
-TEXT: Catch Pokémon with Portraits for your Field Book!
+TEXT: ¡Atrapa Pokémon con retratos para tu Cuaderno de campo!
 
 RESOURCE ID: fieldbook_page_card_details_button
-TEXT: Details
+TEXT: Detalles
 
 RESOURCE ID: fieldbook_pages_section_header
-TEXT: Field Book Pages
+TEXT: Páginas del Cuaderno de campo
 
 RESOURCE ID: fieldbook_post_catch_ftue_conversation_0
-TEXT: Wow, what a wonderful Pokémon!
+TEXT: ¡Guau, un Pokémon maravilloso!
 
 RESOURCE ID: fieldbook_post_catch_ftue_conversation_1
-TEXT: Let’s keep track of these Pokémon in this Field Book. How many can you find?
+TEXT: Llevemos un registro de estos Pokémon con este Cuaderno de campo. ¿Cuántos podrás encontrar?
 
 RESOURCE ID: fieldbook_summary_all_caught_flavor_text
-TEXT: You caught them all!
+TEXT: ¡Atrapaste todos!
 
 RESOURCE ID: fieldbook_summary_few_caught_flavor_text
-TEXT: Good job!
+TEXT: ¡Buen trabajo!
 
 RESOURCE ID: fieldbook_summary_several_caught_flavor_text
-TEXT: Wow!
+TEXT: ¡Guau!
 
 RESOURCE ID: fieldbook_summary_species_caught_text
-TEXT: You caught {0} different Pokémon with Portraits!
+TEXT: ¡Atrapaste {0} Pokémon diferentes con retratos!
 
 RESOURCE ID: fieldbook_summary_species_caught_text_singular
 TEXT: You caught 1 Pokemon with a Portrait!
 
 RESOURCE ID: fieldbook_tab_ftue_1_body_text_key
-TEXT: Pokémon in your Field Book have Portraits that reflect where they were caught.
+TEXT: Los Pokémon en tu Cuaderno de campo tienen retratos que indican dónde se atraparon.
 
-Try and complete all your Field Book pages!
+¡Trata de completar todas las páginas de tu Cuaderno de campo!
 
 RESOURCE ID: fieldbook_tab_ftue_2_secondary_body_text_key
-TEXT: Pokémon with Portraits can be found at special PokéStops.
+TEXT: Los Pokémon con retratos se pueden encontrar en Poképaradas especiales.
 
 RESOURCE ID: fieldbook_tab_ftue_conversation_0
-TEXT: Those Pokémon you just caught have piqued my interest. Let’s keep track of them in this Field Book.
+TEXT: Esos Pokémon que acabas de atrapar me resultan interesantes. Vamos a registrarlos en este Cuaderno de campo.
 
 RESOURCE ID: filter_key_day
-TEXT: day
+TEXT: día
 
 RESOURCE ID: filter_key_night
-TEXT: night
+TEXT: noche
 
 RESOURCE ID: filter_label_day_night_pokemon
-TEXT: Portraits
+TEXT: Retratos
 
 RESOURCE ID: first_catch_bonus_desc
-TEXT: Earn more XP, Candy, or Stardust for the first Pokémon with a Portrait you catch each day.
+TEXT: Obtén más EXP, Caramelos o Polvo Estrella por el primer Pokémon con un retrato que atrapes cada día.
 
 RESOURCE ID: first_catch_bonus_title
-TEXT: First Catch Bonus
+TEXT: Bonificación por primera captura
 
 RESOURCE ID: fusion_resource_black_kyurem_desc
 TEXT: Se utiliza en la fusión de Kyurem con Zekrom para formar un Kyurem Negro. Se puede encontrar al derrotar a Kyurem Negro en incursiones.
@@ -1105,6 +1129,15 @@ TEXT: Meowth Gigamax está apareciendo en los combates Max
 
 RESOURCE ID: gmax_meowth_website_link
 TEXT: Para obtener más información, visita el <a href="https://pokemongo.com/news/gigantamax-meowth-max-battle-day-2026">sitio web</a>.
+
+RESOURCE ID: go_pass_milestone_rank
+TEXT: Major Milestone
+
+RESOURCE ID: go_pass_milestone_rewards
+TEXT: Milestone Rewards:
+
+RESOURCE ID: go_pass_rank_level_rewards
+TEXT: Rank {0} Rewards
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_00_00
 TEXT: %PLAYERNAME%! Excuse the mess—I’m looking for some notes.
@@ -1230,13 +1263,13 @@ RESOURCE ID: go_tour_2026_masterwork_sr_dialog_09_03
 TEXT: Thank you for all your efforts, %PLAYERNAME%. Keep that sparkle alive, wherever your journey takes you!
 
 RESOURCE ID: go_tour_ep_bonus_title_deluxe_00
-TEXT: Bonificaciones del Pase de GO Deluxe: Camino a Kalos Nivel 1
+TEXT: Bonificaciones Deluxe Nivel 1
 
 RESOURCE ID: go_tour_ep_bonus_title_deluxe_01
-TEXT: Bonificaciones del Pase de GO Deluxe: Camino a Kalos Nivel 2
+TEXT: Bonificaciones Deluxe Nivel 2
 
 RESOURCE ID: go_tour_ep_bonus_title_deluxe_02
-TEXT: Bonificaciones del Pase de GO Deluxe: Camino a Kalos Nivel 3
+TEXT: Bonificaciones Deluxe Nivel 3
 
 RESOURCE ID: go_tour_kalos_furfrou_branch_tr_dialog_00_00
 TEXT: Fashions may change, but so can Furfrou’s trim!
@@ -1428,16 +1461,16 @@ RESOURCE ID: gofest_welcome_generic
 TEXT: Welcome to Pokémon GO Fest: Global!
 
 RESOURCE ID: gotour2026_boqus_header_daily
-TEXT: Road to Kalos: Daily Tasks
+TEXT: Camino a Kalos: Tareas diarias
 
 RESOURCE ID: gotour2026_boqus_header_daily_prem
-TEXT: Road to Kalos: Deluxe Daily Tasks
+TEXT: Camino a Kalos: Tareas diarias (Prémium)
 
 RESOURCE ID: gotour2026_boqus_header_hourly
-TEXT: Road to Kalos: Hourly Tasks
+TEXT: Camino a Kalos: Tareas por hora
 
 RESOURCE ID: gotour2026_irl_boqus_header_hourly
-TEXT: Road to Kalos: Hourly Tasks
+TEXT: Camino a Kalos: Tareas por hora
 
 RESOURCE ID: gotour2026_welcome
 TEXT: Tour de Pokémon GO: Kalos
@@ -1458,7 +1491,7 @@ RESOURCE ID: gotour_2026_event_duration
 TEXT: Del 23 de febrero al 1 de marzo
 
 RESOURCE ID: gotour_2026_event_pass_deluxe_title
-TEXT: GO Pass Deluxe: Road to Kalos
+TEXT: Pase de GO Deluxe: Camino a Kalos
 
 RESOURCE ID: gotour_2026_event_pass_details_link
 TEXT: Para obtener más información, visita el <a href="https://pokemongo.com/post/road-to-kalos-event/">sitio web</a>.
@@ -1467,7 +1500,7 @@ RESOURCE ID: gotour_2026_event_pass_title
 TEXT: Tour de Pokémon GO: Kalos
 
 RESOURCE ID: gotour_2026_pass_track_upgrade_header_description
-TEXT: Earn additional rewards and instantly unlock an <b>encounter with Hoopa Unbound</b>!
+TEXT: ¡Obtén recompensas adicionales y desbloquea al instante un <b>encuentro con Hoopa Desatado</b>!
 
 RESOURCE ID: gotour_2026_upgrade_description
 TEXT: ¡Adquiere el Pase de GO Deluxe: Camino a Kalos para desbloquear las siguientes recompensas!
@@ -1496,19 +1529,19 @@ RESOURCE ID: habitat_kalos_central
 TEXT: Aldea del Centro
 
 RESOURCE ID: habitat_kalos_central_active
-TEXT: Current Habitat: Central Village
+TEXT: Hábitat actual:  Aldea del Centro
 
 RESOURCE ID: habitat_kalos_coastal
 TEXT: Laboratorio en la Costa
 
 RESOURCE ID: habitat_kalos_coastal_active
-TEXT: Current Habitat: Coastal Laboratory
+TEXT: Hábitat actual:  Laboratorio en la Costa
 
 RESOURCE ID: habitat_kalos_mountain
 TEXT: Mansión de Montaña
 
 RESOURCE ID: habitat_kalos_mountain_active
-TEXT: Current Habitat: Mountain Manor
+TEXT: Hábitat actual: Mansión de Montaña
 
 RESOURCE ID: hide_bonus_ranks_earn_additional_rewards
 TEXT: ¡Obtén recompensas adicionales!
@@ -1520,10 +1553,10 @@ RESOURCE ID: ho_oh_dmax_tr_2025_title
 TEXT: Investigación Temporal Prémium del Fin de Semana de Combates Max de Ho-Oh Dinamax
 
 RESOURCE ID: home_transfer_error_day_night
-TEXT: You can’t send Pokémon with Portraits.
+TEXT: Los Pokémon con retrato no pueden enviarse.
 
 RESOURCE ID: in_person_tickets
-TEXT: In-Person Event Tickets
+TEXT: Entradas de eventos en persona
 
 RESOURCE ID: incentive_gengar_encounter_key
 TEXT: Encuentro con Gengar
@@ -1559,19 +1592,19 @@ RESOURCE ID: into_depths_website_link
 TEXT: Para obtener más información, visita el <a href="https://pokemongolive.com/post/into-the-depths-2026">sitio web</a>.
 
 RESOURCE ID: item_enhanced_currency_desc
-TEXT: Link Charges can be used to enter Mega Raids in place of Raid passes. Link Charges are required to enter Mega Raids Remotely.
+TEXT: Las Cargas Vínculo se pueden utilizar para unirse a las megaincursiones en lugar de los Pases de Incursión. Las Cargas Vínculo son un requisito para unirse a las megaincursiones remotas.
 
-Earn Link Charges from activities such as Weekly Challenges, Campfire Check-Ins, and opening Gifts.
+Puedes obtener Cargas Vínculo en actividades como los Desafíos Semanales, al participar en Campfire o abriendo regalos.
 
 RESOURCE ID: item_enhanced_currency_holder_desc
-TEXT: A container that holds Link Charges. It can hold up to {0} charges at a time.
+TEXT: Un recipiente que contiene Cargas Vínculo. Puede almacenar hasta {0} cargas simultáneas.
 
 RESOURCE ID: item_enhanced_currency_holder_desc_count
-TEXT: A container that holds Link Charges, which are used to join Mega Raids.
-Gather charges from activities like weekly challenges, Campfire check-ins, and opening Gifts from friends.
+TEXT: Un recipiente que contiene Cargas Vínculo usadas para unirse a las megaincursiones.
+Obtén cargas en actividades como los Desafíos Semanales, al participar en Campfire o abriendo regalos de tus amistades.
 
 RESOURCE ID: item_enhanced_currency_holder_name
-TEXT: Link Holder
+TEXT: Portavínculos
 
 RESOURCE ID: item_enhanced_currency_name
 TEXT: Link Charge
@@ -1649,13 +1682,16 @@ RESOURCE ID: lobby_group_size_warning
 TEXT: El tamaño del grupo sugerido para esta incursión es de {0} jugadores.
 
 RESOURCE ID: lobby_mega_count_plural
-TEXT: {0} Mega-Evolved Pokémon in Lobby
+TEXT: {0} Pokémon megaevolucionado en la sala.
 
 RESOURCE ID: lobby_mega_count_singular
 TEXT: {0} Pokémon megaevolucionado en la sala.
 
 RESOURCE ID: lobby_mega_count_zero
-TEXT: {0} Mega-Evolved Pokémon in Lobby
+TEXT: {0} Pokémon megaevolucionado en la sala.
+
+RESOURCE ID: lobby_ready_progress
+TEXT: Listos: {0} de {1}
 
 RESOURCE ID: lunar_new_year_feb2026
 TEXT: Año Nuevo Lunar 2026
@@ -1712,7 +1748,7 @@ RESOURCE ID: maxfinale_2025_ep_bonus_title_01
 TEXT: Bonificaciones del Pase de GO: Clausura Max Nivel 2
 
 RESOURCE ID: mega2026_ditto_cant_break_shields
-TEXT: Ditto cannot break shields while transformed.
+TEXT: Ditto no puede romper los Escudos mientras esté transformado.
 
 RESOURCE ID: mega2026_ftue_conversation_1_1
 TEXT: ¡Hola, %PLAYERNAME%! ¿Te gustaría saber más sobre la megaevolución? Yo te ayudo.
@@ -1742,13 +1778,13 @@ RESOURCE ID: mega2026_ftue_conversation_4_2
 TEXT: Y existen más ventajas por megaevolucionar a un Pokémon. Sigue aprendiendo sobre este impresionante cambio de apariencia buscando a otros Pokémon que puedan megaevolucionar.
 
 RESOURCE ID: mega2026_ftue_conversation_nope
-TEXT: View the tutorial again from any Mega Raid.
+TEXT: Sigue el tutorial de nuevo desde cualquier megaincursión.
 
 RESOURCE ID: mega2026_ftue_desc_1_title
 TEXT: ¡Aprende a megaevolucionar a tus Pokémon!
 
 RESOURCE ID: mega2026_ftue_desc_1_title_temp
-TEXT: Catch a Pokémon and learn how to Mega Evolve it!
+TEXT: ¡Atrapa un Pokémon y descubre cómo megaevolucionarlo!
 
 RESOURCE ID: mega2026_ftue_lets_do_it_button
 TEXT: ¡VAMOS!
@@ -1757,11 +1793,11 @@ RESOURCE ID: mega2026_ftue_modal_1_title
 TEXT: ¡Comienza tu aventura con la megaevolución!
 
 RESOURCE ID: mega2026_ftue_modal_1_title_temp
-TEXT: Try out Mega Evolution!
+TEXT: ¡Prueba la megaevolución!
 
 RESOURCE ID: mega_bonus_candy_plural
 TEXT: {0}
-Bonus Candy
+Caramelos adicionales
 
 RESOURCE ID: mega_bonus_candy_singular
 TEXT: {0}
@@ -1769,7 +1805,7 @@ Caramelos adicionales
 
 RESOURCE ID: mega_bonus_xl_candy_plural
 TEXT: {0}
-Bonus Candy XL
+Caramelos XL adicionales
 
 RESOURCE ID: mega_bonus_xl_candy_singular
 TEXT: {0}
@@ -1777,17 +1813,17 @@ Caramelos XL adicionales
 
 RESOURCE ID: mega_bonus_xp_plural
 TEXT: {0}
-Bonus XP
+EXP adicionales
 
 RESOURCE ID: mega_bonus_xp_singular
 TEXT: {0}
 EXP adicionales
 
 RESOURCE ID: mega_daily_point_bonus_30
-TEXT: Earn up to 30 points daily toward increasing any Pokémon’s Mega Level
+TEXT: Consigue hasta 30 puntos diarios para aumentar el meganivel de cualquier Pokémon
 
 RESOURCE ID: mega_daily_point_bonus_6
-TEXT: Earn up to 6 points daily toward increasing any Pokémon’s Mega Level
+TEXT: Consigue hasta 6 puntos diarios para aumentar el meganivel de cualquier Pokémon
 
 RESOURCE ID: mega_hud_border_text_1
 TEXT: TIPOS DE CARAMELOS MEJORADOS
@@ -1796,7 +1832,7 @@ RESOURCE ID: mega_hud_border_text_2
 TEXT: BONIFICACIONES OBTENIDAS
 
 RESOURCE ID: mega_level_4
-TEXT: Super Max Level
+TEXT: nivel supermáximo
 
 RESOURCE ID: mega_level_4_ftue_body_details_prompt
 TEXT: Este Pokémon ya puede alcanzar el nivel supermáximo y obtener bonificaciones aún más potentes. Descubre más información en la página de la megaevolución.
@@ -1808,7 +1844,7 @@ RESOURCE ID: mega_level_4_ftue_title
 TEXT: ¡Nuevo meganivel disponible!
 
 RESOURCE ID: mega_level_banner_level_up
-TEXT: Mega Level Up!
+TEXT: ¡Aumento de meganivel!
 
 RESOURCE ID: mega_level_bottom_section
 TEXT: Megaevoluciona tu Pokémon para obtener Caramelos adicionales y PC potenciados
@@ -1864,34 +1900,34 @@ RESOURCE ID: mega_level_unlock_cost_message
 TEXT: Usa la Megaenergía para desbloquear el {0}.
 
 RESOURCE ID: mega_level_up_unlock_confirmation_title
-TEXT: Do you want to level up to {0}?
+TEXT: ¿Quieres subir al {0}?
 
 RESOURCE ID: mega_level_up_unlock_confirmation_title_level
 TEXT: Do you want to level up to {0}?
 
 RESOURCE ID: mega_level_up_unlock_cost_error_toast
-TEXT: Not enough {0} Mega Energy.
+TEXT: No tienes suficiente Megaenergía {0}.
 
 RESOURCE ID: mega_level_up_unlock_description
-TEXT: Use Mega Energy to reach a higher Mega Level.
+TEXT: Usa Megaenergía para alcanzar el meganivel más alto.
 
 RESOURCE ID: mega_level_up_unlock_dialog_confirmation
-TEXT: LEVEL UP
+TEXT: SUBIR DE NIVEL
 
 RESOURCE ID: mega_level_up_unlock_title
-TEXT: MEGA LEVEL UP
+TEXT: AUMENTO DE MEGANIVEL
 
 RESOURCE ID: mega_perk_candy_bonus_excellentplus
-TEXT: Greatly enhanced Catch Candy bonus
+TEXT: Bonificación de Caramelos por captura muy mejorada
 
 RESOURCE ID: mega_perk_catch_xp_bonus_excellentplus
-TEXT: Greatly enhanced Catch XP bonus
+TEXT: Bonificación de EXP por captura muy mejorada
 
 RESOURCE ID: mega_perk_cp_boost
-TEXT: Enhanced CP
+TEXT: PC mejorados
 
 RESOURCE ID: mega_perk_cp_boost_excellentplus
-TEXT: Greatly Enhanced CP
+TEXT: PC muy mejorados
 
 RESOURCE ID: mega_remote_iap_nc_rrp_title
 TEXT: Uh-oh! You’re out of Remote Raid Passes and don’t have enough Link Charges.
@@ -1912,16 +1948,16 @@ RESOURCE ID: message_open_settings
 TEXT: Abrir Opciones
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-02-10T22:04:44.096094+00:00 for es-MX
-at SHA b68fb11b3ec
-Pipeline 3535223, job 50681985
-Patch from: 0.397.0-SHA-5a918511-RC2, 0.399.0-SHA-45852136-RC1
+TEXT: Built at 2026-02-13T23:09:24.654123+00:00 for es-MX
+at SHA 6d6c847e658
+Pipeline 3541342, job 50979693
+Patch from: 0.399.0-SHA-dbc59b42-RC4, 0.397.1-SHA-7b7c416a-RC5
 
 RESOURCE ID: natural_art_day
-TEXT: Day
+TEXT: Día
 
 RESOURCE ID: natural_art_night
-TEXT: Night
+TEXT: Noche
 
 RESOURCE ID: oricorio_mastery_feb2026
 TEXT: Arte de la Captura: Oricorio
@@ -1933,13 +1969,13 @@ RESOURCE ID: paid_tr_lunar_new_year_feb2026_header_0
 TEXT: Investigación Temporal Prémium del Año Nuevo Lunar 2026 (1/1)
 
 RESOURCE ID: past_field_books_button
-TEXT: PAST FIELD BOOKS
+TEXT: CUADERNOS PREVIOS
 
 RESOURCE ID: photobomb_five_vulpix
 TEXT: 5 encuentros sorpresa con Vulpix o Vulpix de Alola al usar Foto GO
 
 RESOURCE ID: photobomb_latias_latios
-TEXT: Encounter Latias or Latios in GO Snapshot
+TEXT: Encuéntrate con Latias o Latios al usar  Foto GO
 
 RESOURCE ID: pokelid_map_url_ibaraki
 TEXT: https://www.google.com/maps/d/viewer?mid=19eE0n8bRolfsO4ftHpDa4ho_lGOGFME
@@ -1948,7 +1984,7 @@ RESOURCE ID: pokelid_map_url_yamagata
 TEXT: https://www.google.com/maps/d/viewer?mid=1IL9LvVsDHPNVwEDb8V7AwlbGD5ZMALQ
 
 RESOURCE ID: pokemon_day_night_info_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer this Pokémon with a Portrait?
+TEXT: ¿Seguro que quieres transferir este Pokémon con un retrato?
 
 RESOURCE ID: pokemon_desc_tmpevo_0036_0001
 TEXT: Se desplaza flotando gracias al poder de la luz lunar, que le permite controlar la gravedad en un radio de 10 m.
@@ -2038,7 +2074,7 @@ RESOURCE ID: pokemon_ibfc_name_0778
 TEXT: Busted Form
 
 RESOURCE ID: pokemon_id_number_tag
-TEXT: #{0}
+TEXT: N.º {0}
 
 RESOURCE ID: pokemon_name_0036_0001
 TEXT: Mega-Clefable
@@ -2113,12 +2149,12 @@ RESOURCE ID: pokemon_name_0870_0001
 TEXT: Mega-Falinks
 
 RESOURCE ID: pokestop_field_book
-TEXT: Field Book
+TEXT: Cuaderno de campo
 
 RESOURCE ID: pokestop_field_book_message
-TEXT: Find Pokémon for your Field Book at this PokéStop. These Pokémon have Portraits that reflect where they were caught.
+TEXT: Encuentra Pokémon para tu Cuaderno de campo en esta Poképarada. Estos Pokémon tienen unos retratos que indican dónde fueron capturados.
 
-Pokémon with Day Portraits will appear between 6:00 a.m. and 6:00 p.m., and Pokémon with Night Portraits will appear between 6:00 p.m. and 6:00 a.m.
+Los Pokémon con retratos diurnos aparecerán entre las 6:00 a. m. y las 6:00 p. m., mientras que los Pokémon con retratos nocturnos aparecerán entre las 6:00 a. m. y las 6:00 p. m.
 
 RESOURCE ID: pokestop_field_book_message_with_times
 TEXT: Find Pokémon for your Field Book at this PokéStop. These Pokémon have Portraits that reflect where they were caught.
@@ -2126,7 +2162,7 @@ TEXT: Find Pokémon for your Field Book at this PokéStop. These Pokémon have P
 Pokémon with day Portraits will appear between {0} and Pokémon with night Portraits will appear between {1}.
 
 RESOURCE ID: pokestop_field_book_title
-TEXT: PokéStops
+TEXT: Poképaradas
 
 RESOURCE ID: portals_to_power_tr_0
 TEXT: Investigación Temporal de Portales de poder (1/5)
@@ -2147,55 +2183,55 @@ RESOURCE ID: portals_to_power_tr_title
 TEXT: Portales de poder
 
 RESOURCE ID: portals_to_power_tr_title_hoenn
-TEXT: Portals to Power – Hoenn Timed Research
+TEXT: Investigación Temporal de Portales de poder: Hoenn
 
 RESOURCE ID: portals_to_power_tr_title_hoenn_0
-TEXT: Portals to Power – Hoenn Timed Research (1/1)
+TEXT: Investigación Temporal de Portales de poder: Hoenn (1/1)
 
 RESOURCE ID: portals_to_power_tr_title_johto
-TEXT: Portals to Power – Johto Timed Research
+TEXT: Investigación Temporal de Portales de poder: Johto
 
 RESOURCE ID: portals_to_power_tr_title_johto_0
-TEXT: Portals to Power – Johto Timed Research (1/1)
+TEXT: Investigación Temporal de Portales de poder: Johto (1/1)
 
 RESOURCE ID: portals_to_power_tr_title_kanto
-TEXT: Portals to Power – Kanto Timed Research
+TEXT: Investigación Temporal de Portales de poder: Kanto
 
 RESOURCE ID: portals_to_power_tr_title_kanto_0
-TEXT: Portals to Power – Kanto Timed Research (1/1)
+TEXT: Investigación Temporal de Portales de poder: Kanto (1/1)
 
 RESOURCE ID: portals_to_power_tr_title_prelude
-TEXT: Portals to Power – Prelude Timed Research
+TEXT: Inicio de la Investigación Temporal de Portales de poder
 
 RESOURCE ID: portals_to_power_tr_title_prelude_0
-TEXT: Portals to Power – Prelude Timed Research (1/1)
+TEXT: Inicio de la Investigación Temporal de Portales de poder (1/1)
 
 RESOURCE ID: portals_to_power_tr_title_sinnoh
-TEXT: Portals to Power – Sinnoh Timed Research
+TEXT: Investigación Temporal de Portales de poder: Sinnoh
 
 RESOURCE ID: portals_to_power_tr_title_sinnoh_0
-TEXT: Portals to Power – Sinnoh Timed Research (1/1)
+TEXT: Investigación Temporal de Portales de poder: Sinnoh (1/1)
 
 RESOURCE ID: portals_to_power_tr_title_unova
-TEXT: Portals to Power – Unova Timed Research
+TEXT: Investigación Temporal de Portales de poder: Unova
 
 RESOURCE ID: portals_to_power_tr_title_unova_0
-TEXT: Portals to Power – Unova Timed Research (1/1)
+TEXT: Investigación temporal de Portales de poder: Unova (1/1)
 
 RESOURCE ID: primal_level_bottom_section
-TEXT: Revert to its primal form to get bonus Candy and increase CP
+TEXT: Reviértelo a su forma Primigenia para obtener Caramelos adicionales e incrementar los PS
 
 RESOURCE ID: primal_perk_candy_bonus_excellentplus
-TEXT: Greatly enhanced Catch Candy bonus
+TEXT: Bonificación de Caramelos por captura muy mejorada
 
 RESOURCE ID: primal_perk_catch_xp_bonus_excellentplus
-TEXT: Greatly enhanced Catch XP bonus
+TEXT: Bonificación de EXP por captura muy mejorada
 
 RESOURCE ID: primal_perk_cp_boost
-TEXT: Enhanced CP
+TEXT: PC mejorados
 
 RESOURCE ID: primal_perk_cp_boost_excellentplus
-TEXT: Greatly Enhanced CP
+TEXT: PC muy mejorados
 
 RESOURCE ID: quest_branch_choose_chespin
 TEXT: Elegir a Chespin
@@ -2252,7 +2288,7 @@ RESOURCE ID: quest_branch_choose_star_desc
 TEXT: Selecciona esta opción para desbloquear el Corte Estrella para tus Furfrou. Esta posibilidad estará activa durante el resto del evento. Cambiar el corte de tus Furfrou de uno a otro tendrá un costo de 25 Caramelos Furfrou y 10,000 Polvos Estrella.
 
 RESOURCE ID: quest_branch_choose_trim_prompt
-TEXT: Choose a Furfrou trim
+TEXT: Elige un corte de Furfrou
 
 RESOURCE ID: quest_branch_choose_x
 TEXT: Elegir la Versión X
@@ -2280,10 +2316,10 @@ RESOURCE ID: quest_catch_hoppip_singular
 TEXT: Atrapa un Hoppip
 
 RESOURCE ID: quest_catch_kalos_pokemon
-TEXT: Catch {0} Pokémon originally discovered in the Kalos region
+TEXT: Atrapa {0} Pokémon descubiertos originalmente en la región de Kalos
 
 RESOURCE ID: quest_catch_kalos_pokemon_singular
-TEXT: Catch a Pokémon originally discovered in the Kalos region
+TEXT: Atrapa un Pokémon descubierto originalmente en la región de Kalos
 
 RESOURCE ID: quest_catch_lillipup_singular
 TEXT: Atrapa un Lillipup
@@ -2292,7 +2328,7 @@ RESOURCE ID: quest_catch_poochyena_singular
 TEXT: Atrapa un Poochyena
 
 RESOURCE ID: quest_evolve_eevee_sylveon
-TEXT: Evolve Eevee into Sylveon
+TEXT: Evoluciona un Eevee a Sylveon
 
 RESOURCE ID: quest_form_change_furfrou_debutante
 TEXT: Form change a Furfrou to have a Debutante Trim
@@ -2325,13 +2361,13 @@ RESOURCE ID: quest_go_tour_25_scavenger_hunt_landorus
 TEXT: Encuentra y gira el fotodisco de la Poképarada con una imagen del Pokémon Abundancia en su Forma Encarnada
 
 RESOURCE ID: quest_medal_fairy_platinum
-TEXT: Earn a platinum medal for catching Fairy types
+TEXT: Consigue una insignia de platino por atrapar Pokémon de tipo Hada
 
 RESOURCE ID: quest_medal_kalos_gold
-TEXT: Earn the gold Kalos medal
+TEXT: Consigue la insignia de oro de Kalos
 
 RESOURCE ID: quest_medal_rock_platinum
-TEXT: Earn a platinum medal for catching Rock types
+TEXT: Consigue una insignia de platino por atrapar Pokémon de tipo Roca
 
 RESOURCE ID: quest_pokestop_edit_singular
 TEXT: Contribute an edit to a PokéStop
@@ -2388,7 +2424,7 @@ RESOURCE ID: quest_vulpix_catch_b
 TEXT: Atrapa {0} Vulpix o Vulpix de Alola
 
 RESOURCE ID: quests_claim_field_book_quest_encounter_first
-TEXT: Complete your Field Book encounter first!
+TEXT: ¡Completa antes tu encuentro del Cuaderno de campo!
 
 RESOURCE ID: quests_log_complete_field_book_page
 TEXT: Complete Field Book Page: {0}
@@ -2417,7 +2453,7 @@ RESOURCE ID: raid_special_background
 TEXT: Pokémon encountered from event raids may have an exclusive Special Background
 
 RESOURCE ID: rebuild_event_pass_pages
-TEXT: The GO Pass page was refreshed.
+TEXT: Se refrescó la página del Pase de GO.
 
 RESOURCE ID: remote_raid_battle_helptext_nc
 TEXT: Using Link Charges and a Remote Raid Pass
@@ -2426,15 +2462,15 @@ RESOURCE ID: remote_trade_time_locked_message_singular_day
 TEXT: Puedes intercambiar este Pokémon remotamente en 1 día. Este Pokémon mantendrá la etiqueta de intercambio remoto.
 
 RESOURCE ID: return_to_map_day_night_tutorial_body_text
-TEXT: These Pokémon have Portraits that reflect where they were caught.
+TEXT: Estos Pokémon tienen unos retratos que indican dónde se atraparon.
 
-Keep track of these Pokémon in your Field Book.
+Lleva un registro de estos Pokémon con tu Cuaderno de campo.
 
 RESOURCE ID: road_to_kalos_title
 TEXT: Camino a Kalos
 
 RESOURCE ID: route_play_no_routes_gamesite_message
-TEXT: There are no Routes nearby. Browse to find Routes that are farther away.
+TEXT: No hay Rutas cerca. Haz una búsqueda para descubrir Rutas más lejanas.
 
 RESOURCE ID: season21_precious_paths_sr_6_0
 TEXT: ¡Llegaste en el momento perfecto, %PLAYERNAME%! Me encontré con varios Entrenadores viajando con sus Pokémon y me acordé de ti.
@@ -2511,7 +2547,7 @@ RESOURCE ID: see_bonus_ranks_button
 TEXT: VER RANGOS ADICIONALES
 
 RESOURCE ID: see_field_book
-TEXT: SEE FIELD BOOK
+TEXT: VER CUADERNO DE CAMPO
 
 RESOURCE ID: shadow_raid_day_raikou_event_name
 TEXT: Día de Incursiones Oscuras de Raikou
@@ -2541,34 +2577,34 @@ RESOURCE ID: spawn_vulpix
 TEXT: ¡Están apareciendo más Vulpix y Vulpix de Alola salvajes!
 
 RESOURCE ID: sr_go_tour_2026_global_title
-TEXT: GO Tour 2026: An X-ceptional Yarn
+TEXT: Tour de GO 2026: Una Y-storia eXcepcional
 
 RESOURCE ID: sr_go_tour_2026_global_title_00
-TEXT: GO Tour 2026: An X-ceptional Yarn (1/5)
+TEXT: Tour de GO 2026: Una Y-storia eXcepcional (1/5)
 
 RESOURCE ID: sr_go_tour_2026_global_title_01
-TEXT: GO Tour 2026: An X-ceptional Yarn (2/5)
+TEXT: Tour de GO 2026: Una Y-storia eXcepcional (2/5)
 
 RESOURCE ID: sr_go_tour_2026_global_title_02
-TEXT: GO Tour 2026: An X-ceptional Yarn (3/5)
+TEXT: Tour de GO 2026: Una Y-storia eXcepcional (3/5)
 
 RESOURCE ID: sr_go_tour_2026_global_title_03
-TEXT: GO Tour 2026: An X-ceptional Yarn (4/5)
+TEXT: Tour de GO 2026: Una Y-storia eXcepcional (4/5)
 
 RESOURCE ID: sr_go_tour_2026_global_title_04
-TEXT: GO Tour 2026: An X-ceptional Yarn (5/5)
+TEXT: Tour de GO 2026: Una Y-storia eXcepcional (5/5)
 
 RESOURCE ID: sr_go_tour_2026_irl_title
-TEXT: GO Tour 2026: A Balancing Act
+TEXT: Tour de GO 2026: Cuestión de equilibrio
 
 RESOURCE ID: sr_go_tour_2026_irl_title_00
-TEXT: GO Tour 2026: A Balancing Act (1/3)
+TEXT: Tour de GO 2026: Cuestión de equilibrio (1/3)
 
 RESOURCE ID: sr_go_tour_2026_irl_title_01
-TEXT: GO Tour 2026: A Balancing Act (2/3)
+TEXT: Tour de GO 2026: Cuestión de equilibrio (2/3)
 
 RESOURCE ID: sr_go_tour_2026_irl_title_02
-TEXT: GO Tour 2026: A Balancing Act (3/3)
+TEXT: Tour de GO 2026: Cuestión de equilibrio (3/3)
 
 RESOURCE ID: stamp_rally_missed_prefecture_reward_toast
 TEXT: Para obtener esta recompensa, toca el botón de sello mientras estás en una de las ubicaciones de Búsqueda de sellos de Poké Lids en esta prefectura.
@@ -2587,6 +2623,9 @@ TEXT: Versión X
 
 RESOURCE ID: tag_y_version
 TEXT: Versión Y
+
+RESOURCE ID: tap_to_skip_message
+TEXT: Tap to Skip
 
 RESOURCE ID: text_rewards_key_buddy_event
 TEXT: <b>Las recompensas incluyen:</b>
@@ -2683,28 +2722,28 @@ RESOURCE ID: title_gallery_permission_required
 TEXT: Permitir a Pokémon GO acceder a las fotos
 
 RESOURCE ID: title_hoopa_hoopla
-TEXT: Hoopa Hoopla!
+TEXT: ¡Hurra, Hoopa!
 
 RESOURCE ID: title_unown_o_clock
 TEXT: Unown O’Clock
 
 RESOURCE ID: today_view_fieldbook_tab_label
-TEXT: Field Book
+TEXT: Cuaderno de campo
 
 RESOURCE ID: today_view_gopass_tab_label
-TEXT: GO Pass
+TEXT: Pase de GO
 
 RESOURCE ID: today_view_research_tab_label
-TEXT: Research
+TEXT: Investigación
 
 RESOURCE ID: today_view_special_tab_label
-TEXT: Special
+TEXT: Especial
 
 RESOURCE ID: today_view_timed_tab_label
-TEXT: Timed
+TEXT: Temporal
 
 RESOURCE ID: today_view_today_tab_label
-TEXT: Today
+TEXT: Hoy
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title
 TEXT: Investigación Temporal de Aventuras caninas
@@ -2902,16 +2941,16 @@ RESOURCE ID: tutorial_need_mega_title
 TEXT: Megaevoluciona para prepararte
 
 RESOURCE ID: tv_title_go_tour_2026_global
-TEXT: GO Tour: Kalos – Global
+TEXT: Tour de GO: Kalos – Global
 
 RESOURCE ID: tv_title_go_tour_2026_global_extended
-TEXT: GO Tour: Kalos – Global, Extended Bonuses
+TEXT: Tour de GO: Kalos – Global (Bonificaciones prolongadas)
 
 RESOURCE ID: tv_title_go_tour_2026_global_extended_ticket
-TEXT: GO Tour: Kalos – Global, Ticket Extended Bonuses
+TEXT: Tour de GO: Kalos – Global (Bonificaciones prolongadas de la entrada)
 
 RESOURCE ID: tv_title_go_tour_2026_global_ticket
-TEXT: GO Tour: Kalos – Global, Ticket Bonuses
+TEXT: Tour de GO: Kalos – Global (Bonificaciones de la entrada)
 
 RESOURCE ID: tv_title_go_tour_2026_la
 TEXT: GO Tour: Kalos – Los Angeles
@@ -2962,11 +3001,11 @@ RESOURCE ID: vulpix_cd_website_link
 TEXT: Para obtener más información, visita el <a href="https://pokemongo.com/news/202601_communityday-february-2026-vulpix">sitio web</a>.
 
 RESOURCE ID: what_is_field_book_key
-TEXT: What is a Field Book?
+TEXT: ¿Qué es un Cuaderno de campo?
 
 RESOURCE ID: wyf_event_name
 TEXT: ¿Cuál es tu favorito?
 
 RESOURCE ID: you_caught_day_night_pokemon
-TEXT: You caught a Pokémon for your Field Book!
+TEXT: ¡Atrapaste un Pokémon para tu Cuaderno de campo!
 

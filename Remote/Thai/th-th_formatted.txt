@@ -1,6 +1,9 @@
 RESOURCE ID: aps_choose_a_form_key
 TEXT: เลือกราง: 
 
+RESOURCE ID: ar_photo_social_bonus_text
+TEXT: Bonus
+
 RESOURCE ID: ar_photo_social_entry_label
 TEXT: ถายภาพกับโปเกมอนโปรดของคุณ!
 
@@ -9,6 +12,15 @@ TEXT: #Pokemon30
 
 RESOURCE ID: ar_photo_social_horizontal_mode_hint
 TEXT: จัดอุปกรณใหอยูในแนวตั้ง (โหมดภาพถายบุคคล)
+
+RESOURCE ID: ar_photo_social_message_save_disabled
+TEXT: To save photos, open your device settings and give Pokémon GO access to photos.
+
+RESOURCE ID: ar_photo_social_name_tag_prompt
+TEXT: Tap the Pokémon’s name to move the label around
+
+RESOURCE ID: ar_photo_social_photo_shared
+TEXT: Photo shared
 
 RESOURCE ID: ar_photo_social_pokemon_catch_and_collect
 TEXT: จับและสะสมโปเกมอนไปเรื่อย ๆ กันเลย!
@@ -29,7 +41,16 @@ RESOURCE ID: ar_photo_social_share_prompt
 TEXT: แชรภาพที่ถายมาจนถึงตอนนี้กันเลย!
 
 RESOURCE ID: ar_photo_social_share_referral_text
-TEXT: ใช Pokémon GO ถายภาพกับโปเกมอนโปรดกันเลย!
+TEXT: ใช Pokémon GO ถายภาพกับโปเกมอนโปรดกันเลย! {0}
+
+RESOURCE ID: ar_photo_social_share_sign_in
+TEXT: Start Playing Pokémon GO
+
+RESOURCE ID: ar_photo_social_title_save_disabled
+TEXT: Allow Pokémon GO to save images?
+
+RESOURCE ID: avatar_generic_name
+TEXT:  
 
 RESOURCE ID: avatar_hat_xerneas
 TEXT: หมวกเซอเนียส
@@ -326,22 +347,22 @@ RESOURCE ID: batch_transfer_unique_day_night_level_pokemon
 TEXT: โปเกมอนที่มีภาพเหมือน {0} ตัว
 
 RESOURCE ID: battle_condition_mega_enrage
-TEXT: {0} is protecting itself with Mega Energy
+TEXT: {0}กำลังปกปองตัวเองดวยโลยักษ
 
 RESOURCE ID: battle_mega_impact_callout
-TEXT: {0}’s Charged Attack broke through a shield
+TEXT: ทาโจมตีชารจของ{0}ทะลวงผานโล!
 
 RESOURCE ID: battle_mega_shields_broken
-TEXT: All shields broken!
+TEXT: โลถูกทำลายหมดแลว!
 
 RESOURCE ID: battle_mega_swap_fainted_mega
-TEXT: Heal your Mega-Evolved Pokémon to break shields!
+TEXT: ฟ้นฟูโปเกมอนที่วิวัฒนาการเมกาเพื่อทำลายโล!
 
 RESOURCE ID: battle_mega_swap_no_mega
-TEXT: Only Mega-Evolved Pokémon can break shields!
+TEXT: ถาเปนโปเกมอนวิวัฒนาการเมกาจะทำลายโลได!
 
 RESOURCE ID: battle_mega_swap_ready
-TEXT: Time to bring out your Mega-Evolved Pokémon!
+TEXT: ตอบโตดวยโปเกมอนที่วิวัฒนาการเมกา!
 
 RESOURCE ID: bonus_candy_raids_t5_plus_mega
 TEXT: +1 ลูกอมจากการจับโปเกมอนในตีบอสหาดาวและตีบอสเมกา
@@ -356,10 +377,10 @@ RESOURCE ID: bonus_cd_move_vulpix
 TEXT: วิวัฒนาการโรคอนเปนคิวคอนที่รูทาโจมตีชารจ "เอนเนอรจี้บอล"
 
 RESOURCE ID: bonus_extra_carbink_diancie_energy
-TEXT: Wild Carbink may be holding Diancie Mega Energy
+TEXT: เมเลซีปาอาจมีพลังงานเมกาของดีแอนซี
 
 RESOURCE ID: bonus_extra_carbink_global_masterwork
-TEXT: Masterwork Research bonus for in-person GO Tour ticket holders
+TEXT: โบนัสงานวิจัยระยะยาวสำหรับผูมีตั๋ว GO Tour (เขารวม ณ สถานที่จริง)
 
 RESOURCE ID: bonus_gift_inventory_40
 TEXT: Gift storage increased to 40
@@ -419,7 +440,7 @@ RESOURCE ID: bonus_mega_cp_boost
 TEXT: Boosted CP for all Mega-Evolved Pokémon
 
 RESOURCE ID: bonus_mega_energy_spin_chance
-TEXT: Chance of receiving Mega Energy from spinning PokéStops or Gyms
+TEXT: โอกาสไดรับพลังงานเมกาจากการหมุนเสาโปเกสต็อปหรือยิม
 
 RESOURCE ID: bonus_ppk_event_pokemon_fr
 TEXT: งานวิจัยภาคสนามเฉพาะ PokéPark KANTO ใชงานไดแลว
@@ -440,13 +461,10 @@ RESOURCE ID: bonus_premier_ball_catch_rate_boost_small
 TEXT: Premier Balls have an increased catch rate
 
 RESOURCE ID: bonus_raid_3_xl_candy_t5_and_mega
-TEXT: Six additional Candy XL for successful five-star raids and Mega Raids
-
-RESOURCE ID: bonus_raid_3_xl_candy_t5_and_mega_temp
 TEXT: +3 ลูกอม XL จากการชนะตีบอสหาดาวและตีบอสเมกา
 
 RESOURCE ID: bonus_raid_5k_xp_mega
-TEXT: Additional 5,000 XP awarded for successful Mega Raids
+TEXT: +5,000 XP เมื่อตีบอสเมกาเสร็จสิ้น
 
 RESOURCE ID: bonus_raid_6_candy_t5_and_mega
 TEXT: Six additional Candy for successful five-star raids and Mega Raids
@@ -935,38 +953,38 @@ RESOURCE ID: enhanced_currency_ftue_title
 TEXT: ใชเพื่อเขารวมตีบอสเมกา
 
 RESOURCE ID: enhanced_currency_large_3rrp_title
-TEXT: 600 Link Charges + 3 Remote Raid Passes
+TEXT: 600 ลิงกชารจ + 3 บัตรตีบอสระยะไกล
 
 RESOURCE ID: enhanced_currency_large_description
-TEXT: A pack of 600 Link Charges, used to join Mega Raids in-person or remotely.
+TEXT: ชุดเติมลิงกชารจที่จำเปนสำหรับการเขารวมตีบอสเมกาจำนวน 600 ลิงกชารจ
 
 RESOURCE ID: enhanced_currency_large_rrp_title
-TEXT: 600 Link Charges + 1 Remote Raid Pass
+TEXT: 600 ลิงกชารจ + 1 บัตรตีบอสระยะไกล
 
 RESOURCE ID: enhanced_currency_large_title
-TEXT: 600 Link Charges
+TEXT: 600 ลิงกชารจ
 
 RESOURCE ID: enhanced_currency_maxed_out_warning
-TEXT: You have reached the max number of Link Charges ({0}). Please try again when you have fewer Link Charges.
+TEXT: คุณมีลิงกชารจถึงจำนวนสูงสุด {0} แลว โปรดลองอีกครั้งหลังใช
 
 RESOURCE ID: enhanced_currency_medium_description
-TEXT: A pack of 200 Link Charges, used to join Mega Raids in-person or remotely.
+TEXT: ชุดเติมลิงกชารจที่จำเปนสำหรับการเขารวมตีบอสเมกาจำนวน 200 ลิงกชารจ
 
 RESOURCE ID: enhanced_currency_medium_rrp_title
-TEXT: 200 Link Charges + 1 Remote Raid Pass
+TEXT: 200 ลิงกชารจ + 1 บัตรตีบอสระยะไกล
 
 RESOURCE ID: enhanced_currency_medium_title
-TEXT: 200 Link Charges
+TEXT: 200 ลิงกชารจ
 
 RESOURCE ID: enhanced_currency_rrp_title
-TEXT: 50 Link Charges + 1 Remote Raid Pass
+TEXT: 50 ลิงกชารจ + 1 บัตรตีบอสระยะไกล
 
 RESOURCE ID: enhanced_currency_title
-TEXT: 50 Link Charges
+TEXT: 50 ลิงกชารจ
 
 RESOURCE ID: enhanced_mega_raid_tutorial_body_1
 TEXT: ตีบอสโปเกมอนวิวัฒนาการเมกาสุดแกรง แบตเทิลโดยรวมมือกันกับเทรนเนอร 8 คนขึ้นไป
-หากตีไดสำเร็จ จะไดรับพลังงานเมกาจำนวนมาก
+หากตีบอสไดสำเร็จ จะไดรับพลังงานเมกาจำนวนมาก
 
 RESOURCE ID: enhanced_mega_raid_tutorial_body_2
 TEXT: บอสโปเกมอนจะตอสูโดยใชโลปองกันเพื่อไมใหไดรับแดเมจ
@@ -1025,7 +1043,7 @@ RESOURCE ID: event_title_ppk
 TEXT: PokéPark KANTO
 
 RESOURCE ID: extra_guaranteed_xl_candy_mega_five_star_raids
-TEXT: One additional guaranteed Candy XL from Mega Raids and five-star raids
+TEXT: การันตี +1 ลูกอม XL จากตีบอสเมกาและตีบอสหาดาว
 
 RESOURCE ID: feature_dbs_pokestop_ftue_conv_1
 TEXT: พบเสาโปเกสต็อปพิเศษแลวสินะ! ใกล ๆ นี้มีโปเกมอนตัวไหนอยูกันแน? ลองไปจับกันเถอะ!
@@ -1287,6 +1305,15 @@ TEXT: เนียสกิกะแมกซปรากฏตัวใน�
 RESOURCE ID: gmax_meowth_website_link
 TEXT: ตรวจสอบรายละเอียดไดที่<a href="https://pokemongo.com/news/gigantamax-meowth-max-battle-day-2026">เว็บไซต</a>นี้
 
+RESOURCE ID: go_pass_milestone_rank
+TEXT: Major Milestone
+
+RESOURCE ID: go_pass_milestone_rewards
+TEXT: Milestone Rewards:
+
+RESOURCE ID: go_pass_rank_level_rewards
+TEXT: Rank {0} Rewards
+
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_00_00
 TEXT: %PLAYERNAME%! Excuse the mess—I’m looking for some notes.
 
@@ -1411,13 +1438,13 @@ RESOURCE ID: go_tour_2026_masterwork_sr_dialog_09_03
 TEXT: Thank you for all your efforts, %PLAYERNAME%. Keep that sparkle alive, wherever your journey takes you!
 
 RESOURCE ID: go_tour_ep_bonus_title_deluxe_00
-TEXT: Tier 1 Deluxe Bonuses
+TEXT: โบนัส Deluxe Tier 1
 
 RESOURCE ID: go_tour_ep_bonus_title_deluxe_01
-TEXT: Tier 2 Deluxe Bonuses
+TEXT: โบนัส Deluxe Tier 2
 
 RESOURCE ID: go_tour_ep_bonus_title_deluxe_02
-TEXT: Tier 3 Deluxe Bonuses
+TEXT: โบนัส Deluxe Tier 3
 
 RESOURCE ID: go_tour_kalos_furfrou_branch_tr_dialog_00_00
 TEXT: Fashions may change, but so can Furfrou’s trim!
@@ -1534,79 +1561,116 @@ RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_05_04
 TEXT: The time has come to face Yveltal! Good luck, %PLAYERNAME%!
 
 RESOURCE ID: go_tour_kalos_irl_sr_branch_dialog_01_00
-TEXT: Let’s focus your efforts today. Would you rather research the Life Pokémon, Xerneas, or the Destruction Pokémon, Yveltal?
+TEXT: สนใจจะวิจัยอะไรละ
+ระหวางโปเกมอนแหงชีวิต เซอเนียส
+กับโปเกมอนแหงการทำลาย อีเวลทอล
 
 RESOURCE ID: go_tour_kalos_irl_sr_dialog_00_00
-TEXT: Hi there, %PLAYERNAME%! Have you noticed all the Pokémon first discovered in Kalos that are around today?
+TEXT: สวัสดี %PLAYERNAME%! วันนี้เปนวันที่
+เจอโปเกมอนที่ถูกคนพบครั้งแรกใน
+ภูมิภาคคาลอสบอยเลย ไดสังเกตมั้ย
 
 RESOURCE ID: go_tour_kalos_irl_sr_dialog_00_01
-TEXT: And Kalos means Mega Evolution! Something tells me you’re going to need a strong Mega-Evolved Pokémon for your adventures.
+TEXT: พูดถึงคาลอสก็ตองพูดถึงวิวัฒนาการเมกา!
+หากอยากไปทาทายแบบพรอมสุด ๆ ละก็
+ลองเช็กดูวามีโปเกมอนที่วิวัฒนาการเมกา
+ไดอยูมั้ย
 
 RESOURCE ID: go_tour_kalos_irl_sr_dialog_00_02
-TEXT: Most Trainers remember their first Mega Evolution experience fondly, whether it involved a Bug type like Beedrill or a Fighting type like Lucario.
+TEXT: ยังจำตอนที่ทำใหโปเกมอนวิวัฒนาการเมกา
+ครั้งแรกไดอยูมั้ย นาจะเปนสเปยร ไมก็ลูคาริโอ...
 
 RESOURCE ID: go_tour_kalos_irl_sr_dialog_00_03
-TEXT: And if you ask me, revisiting old memories can be the best way to start making new ones!
+TEXT: แตแลวก็มาถึงวันนี้ มาทำใหเปนวันพิเศษ
+วันแหงกาวแรกของการผจญภัยครั้งใหม
+กันเถอะ!
 
 RESOURCE ID: go_tour_kalos_irl_sr_xerneas_dialog_02_00
-TEXT: With Xerneas around, I’m even more certain that a Mega-Evolved Pokémon will be helpful!
+TEXT: เซอเนียสงั้นเหรอ
+ถามีโปเกมอนที่วิวัฒนาการเมกาไดอยูดวยนี่
+คอนขางนาอุนใจเลยนะ!
 
 RESOURCE ID: go_tour_kalos_irl_sr_xerneas_dialog_02_01
-TEXT: Keep an eye out for colorful lights while you’re exploring—it could mean you’re getting close. You see, when the horns on Xerneas’s head shine in seven colors, it’s said to be sharing everlasting life.
+TEXT: สำรวจรอบ ๆ โดยพยายามมองหา
+แสงสีรุงนะ วากันวาเซอเนียสผูแบงชีวิต
+อันเปนนิรันดรนั้น เขาบนหัวจะเปลงแสงสีรุง
 
 RESOURCE ID: go_tour_kalos_irl_sr_xerneas_dialog_02_02
-TEXT: That sounds invigorating in theory, but forever sure is a long time!
+TEXT: "แบงชีวิตอันเปนนิรันดร" ฟงดูยิ่งใหญมากเลยใชมั้ย!
 
 RESOURCE ID: go_tour_kalos_irl_sr_xerneas_dialog_02_03
-TEXT: You might also want to look out for strange trees. Supposedly, Xerneas slept for a thousand years in the form of a tree before its revival.
+TEXT: อีกทั้ง บางก็วามันหลับอยูในรางตนไม
+นาน 1000 ปดวยเชนกัน
+อยางไรก็ลองดูพวกตนไมดวย
 
 RESOURCE ID: go_tour_kalos_irl_sr_xerneas_dialog_02_04
-TEXT: Those are all the tips I have for you, %PLAYERNAME%. But who knows? You just might be the one to discover even more!
+TEXT: เทาที่รูก็ประมาณนี้ละ %PLAYERNAME%
+หากพบอะไรที่นาจะเปนคำใบอื่นเพิ่มเติม
+อยาลืมบอกกันดวยนะ!
 
 RESOURCE ID: go_tour_kalos_irl_sr_xerneas_dialog_03_00
-TEXT: The world is so full of life, %PLAYERNAME%. Everywhere I turn, there’s always lots of people and Pokémon on the horizon.
+TEXT: ในโลกเรานั้นเต็มไปดวยชีวิตมากมาย
+ไมวาจะมองทอดไปบนทองฟา ใตผืนดิน
+และเสนสุดขอบฟา ก็เห็นไดวาทุก ๆ ที่
+มีโปเกมอนและมนุษยอยูมากมาย
 
 RESOURCE ID: go_tour_kalos_irl_sr_xerneas_dialog_03_01
-TEXT: It’s so special that we all get to share this world together, don’t you think?
+TEXT: รูสึกพิเศษที่ไดแบงปนเวลาและพื้นที่รวมกัน วามั้ย
 
 RESOURCE ID: go_tour_kalos_irl_sr_xerneas_dialog_03_02
-TEXT: Maybe that’s why Xerneas shares life with others.
+TEXT: ที่เซอเนียสแบงปนชีวิต ก็อาจจะเปน
+ความรูสึกแบบนั้นก็เปนได
 
 RESOURCE ID: go_tour_kalos_irl_sr_xerneas_dialog_03_03
-TEXT: Keep that in mind—and don’t forget the power of Mega Evolution—and you’re sure to prevail in your next encounter!
+TEXT: จำเรื่องนี้เอาไวใหดี แลวออกสำรวจตอไป
+โดยเชื่อมั่นในพลังของวิวัฒนาการเมกา!
 
 RESOURCE ID: go_tour_kalos_irl_sr_yveltal_dialog_02_00
-TEXT: With Yveltal around, I’m even more certain a Mega-Evolved Pokémon will be helpful!
+TEXT: อีเวลทอลงั้นเหรอ ถามีโปเกมอนที่วิวัฒนาการเมกาไดอยูดวยก็จะคอนขางนาอุนใจเลยนะ!
 
 RESOURCE ID: go_tour_kalos_irl_sr_yveltal_dialog_02_01
-TEXT: Keep an eye out for red lights while you’re exploring. Yveltal’s wings and tail are said to glow in that color when it absorbs the life force of those around it.
+TEXT: สำรวจรอบ ๆ โดยพยายามมองหา
+แสงสีแดงนะ วากันวาเมื่อปกและขนหาง
+สยายออกกวางแลวเปลงเปนประกายสีแดง
+จะสูบพลังชีวิตจากสิ่งมีชีวิตตาง ๆ
 
 RESOURCE ID: go_tour_kalos_irl_sr_yveltal_dialog_02_02
-TEXT: Yikes! Maybe I ought to get a little distance...
+TEXT: อาว! แบบนี้ถาคนพบแลวเขาใกลเกินไป
+ก็คงอันตรายนาดู...
 
 RESOURCE ID: go_tour_kalos_irl_sr_yveltal_dialog_02_03
-TEXT: One more thing! I’ve heard that it can turn into a cocoon. What a find that would be!
+TEXT: แลวก็ บางก็วามันจะกลายเปนดักแดหลังได
+สูบพลังชีวิต ลองหาพวกดักแดดูก็เปนอีกวิธีนะ
 
 RESOURCE ID: go_tour_kalos_irl_sr_yveltal_dialog_02_04
-TEXT: Those are all the tips I have for you, %PLAYERNAME%. But who knows? You just might be the one to discover more!
+TEXT: เทาที่รูก็ประมาณนี้ละ %PLAYERNAME%
+หากพบอะไรที่นาจะเปนคำใบอื่นเพิ่มเติม
+อยาลืมบอกกันดวยนะ!
 
 RESOURCE ID: go_tour_kalos_irl_sr_yveltal_dialog_03_00
-TEXT: Do you ever wonder what it’d be like to fly? Soaring up and down through the sky... It would open up a whole new dimension of movement!
+TEXT: หากบินไปบนทองฟากวางใหญ
+ไดอยางอิสระแลวละก็...
+หากสามารถโฉบผานกอนเมฆและสายลม
+ไดอยางอิสระแลวละก็...
 
 RESOURCE ID: go_tour_kalos_irl_sr_yveltal_dialog_03_01
-TEXT: The sky might seem empty of life, but the clouds and the wind have energies of their own.
+TEXT: เพียงแคลองจินตนาการดู ก็รูสึกไดรับพลัง
+ทำใหรูสึกมั่นใจมากขึ้นทันทีเลยนะ
 
 RESOURCE ID: go_tour_kalos_irl_sr_yveltal_dialog_03_02
-TEXT: I’d bet a Flying-type Pokémon like Yveltal understands that. I hope you’ve learned more about its perspective as you’ve researched it.
+TEXT: หากไมทำความเขาใจมุมมองของมันใหดี
+ก็จะไมสามารถหาโปเกมอนในตำนาน
+อยางอีเวลทอลเจอแนนอน
 
 RESOURCE ID: go_tour_kalos_irl_sr_yveltal_dialog_03_03
-TEXT: Keep that in mind—and don’t forget the power of Mega Evolution—and you’re sure to prevail in your next encounter!
+TEXT: จำเรื่องนี้เอาไวใหดี แลวออกสำรวจตอไป
+โดยเชื่อมั่นในพลังของวิวัฒนาการเมกา!
 
 RESOURCE ID: go_tour_kalos_portals_intro_tr_dialog_00_00
 TEXT: The appearance of all these powerful Pokémon threw me for a loop. Then I had a wild thought: What if they were teleported here by Hoopa? There’s only one way to find out!
 
 RESOURCE ID: gofest_welcome_generic
-TEXT: Welcome to Pokémon GO Fest: Global!
+TEXT: ยินดีตอนรับสู Pokémon GO Fest: ทั่วโลก!
 
 RESOURCE ID: gotour2026_boqus_header_daily
 TEXT: เสนทางสูคาลอส: ภารกิจรายวัน
@@ -1618,7 +1682,7 @@ RESOURCE ID: gotour2026_boqus_header_hourly
 TEXT: เสนทางสูคาลอส: ภารกิจรายชั่วโมง
 
 RESOURCE ID: gotour2026_irl_boqus_header_hourly
-TEXT: Road to Kalos: Hourly Tasks
+TEXT: เสนทางสูคาลอส: ภารกิจรายชั่วโมง
 
 RESOURCE ID: gotour2026_welcome
 TEXT: Pokémon GO Tour: Kalos
@@ -1639,7 +1703,7 @@ RESOURCE ID: gotour_2026_event_duration
 TEXT: February 23 – March 1
 
 RESOURCE ID: gotour_2026_event_pass_deluxe_title
-TEXT: GO Pass Deluxe: Road to Kalos
+TEXT: บัตรผาน GO Deluxe: เสนทางสูคาลอส
 
 RESOURCE ID: gotour_2026_event_pass_details_link
 TEXT: For more details, visit the <a href="https://pokemongo.com/post/road-to-kalos-event/">website</a>.
@@ -1648,7 +1712,7 @@ RESOURCE ID: gotour_2026_event_pass_title
 TEXT: Pokémon GO Tour: Kalos
 
 RESOURCE ID: gotour_2026_pass_track_upgrade_header_description
-TEXT: Earn additional rewards and instantly unlock an <b>encounter with Hoopa Unbound</b>!
+TEXT: รับรางวัลเพิ่มเติมและปลดล็อก<b>การเผชิญหนากับฮูปารางปลดปลอย</b>ทันที!
 
 RESOURCE ID: gotour_2026_upgrade_description
 TEXT: Purchase GO Pass Deluxe: Road to Kalos to unlock the following rewards!
@@ -1662,13 +1726,13 @@ TEXT: Purchase GO Pass Deluxe: Road to Kalos to unlock the following rewards!
 Trainers can earn 150 bonus GO Points daily from February 23 to 27 in addition to the points earned by Pass Tasks. There’s no limit on how many points can be earned during the global event on February 28 and March 1!
 
 RESOURCE ID: gotour_2026_welcome_global
-TEXT: Welcome to Pokémon GO Tour: Kalos – Global!
+TEXT: ยินดีตอนรับสู Pokémon GO Tour: คาลอส - ทั่วโลก!
 
 RESOURCE ID: gotour_welcome_generic
-TEXT: Welcome to Pokémon GO Tour: Global!
+TEXT: ยินดีตอนรับสู Pokémon GO Tour: ทั่วโลก!
 
 RESOURCE ID: gowild_welcome_generic
-TEXT: Welcome to Pokémon GO Wild Area: Global!
+TEXT: ยินดีตอนรับสู Pokémon GO ไวลดแอเรีย: ทั่วโลก!
 
 RESOURCE ID: great_league_championship_series_2026
 TEXT: การแขงขัน GO Championship 2026
@@ -1719,10 +1783,10 @@ RESOURCE ID: increased_gift_rare_candy
 TEXT: เพิ่มโอกาสไดรับลูกอมประหลาดจากการเปดของขวัญ
 
 RESOURCE ID: increased_mega_level_caught_desc
-TEXT: Some Pokémon you catch from Super Mega Raids or research may already have at least one Mega Level.
+TEXT: เมื่อจับโปเกมอนจากตีบอสซูเปอรเมกาหรืองานวิจัย มันอาจเปนโปเกมอนที่มีระดับเมกา 1 ขึ้นไป
 
 RESOURCE ID: increased_mega_level_caught_title
-TEXT: Increased Mega Levels
+TEXT: โปเกมอนที่ระดับเมกาสูง
 
 RESOURCE ID: increased_stardust_gifts_bonus
 TEXT: เพิ่มสตารดัสตจากการเปดของขวัญ
@@ -1740,9 +1804,9 @@ RESOURCE ID: into_depths_website_link
 TEXT: ตรวจสอบรายละเอียดไดที่<a href="https://pokemongolive.com/post/into-the-depths-2026">เว็บไซต</a>นี้
 
 RESOURCE ID: item_enhanced_currency_desc
-TEXT: Link Charges can be used to enter Mega Raids in place of Raid passes. Link Charges are required to enter Mega Raids Remotely.
+TEXT: สามารถใชลิงกชารจแทนบัตรตีบอสเพื่อเขารวมตีบอสเมกาได และจำเปนตองใชลิงกชารจในกรณีที่เขารวมตีบอสเมกาจากระยะไกล
 
-Earn Link Charges from activities such as Weekly Challenges, Campfire Check-Ins, and opening Gifts.
+สามารถสะสมลิงกชารจไดจากกิจกรรมตาง ๆ เชน คำทารายสัปดาห, การเช็กอิน Campfire และการเปดของขวัญ เปนตน
 
 RESOURCE ID: item_enhanced_currency_holder_desc
 TEXT: อุปกรณเก็บลิงกชารจ สามารถเก็บไดสูงสุด {0} ในคราวเดียว
@@ -1755,10 +1819,10 @@ RESOURCE ID: item_enhanced_currency_holder_name
 TEXT: อุปกรณเก็บลิงก
 
 RESOURCE ID: item_enhanced_currency_name
-TEXT: Link Charge
+TEXT: ลิงกชารจ
 
 RESOURCE ID: item_enhanced_currency_name_plural
-TEXT: Link Charges
+TEXT: ลิงกชารจ
 
 RESOURCE ID: item_event_ticket_02_desc_catch_mastery_oricorio
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลาพรีเมียมผูเชี่ยวชาญการจับ: โอโดริโดริ
@@ -1862,19 +1926,19 @@ TEXT: ตั๋วสำหรับเขารวมงานวิจ�
 ทั่วโลก
 
 RESOURCE ID: item_paid_raid_ticket_name_plural
-TEXT: Premium Battle Passes
+TEXT: บัตรแบตเทิลพรีเมียม
 
 RESOURCE ID: item_remote_raid_ticket_name_plural
-TEXT: Remote Raid Passes
+TEXT: บัตรตีบอสระยะไกล
 
 RESOURCE ID: lobby_group_size_warning
-TEXT: Suggested group size of this raid is {0} players.
+TEXT: จำนวนผูเขารวมที่แนะนำ: {0} คน
 
 RESOURCE ID: lobby_mega_count_plural
 TEXT: จำนวนโปเกมอนที่วิวัฒนาการเมกา: {0}
 
 RESOURCE ID: lobby_mega_count_singular
-TEXT: {0} Mega-Evolved Pokémon in lobby
+TEXT: จำนวนโปเกมอนที่วิวัฒนาการเมกา: {0}
 
 RESOURCE ID: lobby_mega_count_zero
 TEXT: จำนวนโปเกมอนที่วิวัฒนาการเมกา: {0}
@@ -1931,31 +1995,31 @@ RESOURCE ID: mega2026_ditto_cant_break_shields
 TEXT: เมตามอนไมสามารถทำลายโลปองกันไดแมจะแปลงราง
 
 RESOURCE ID: mega2026_ftue_conversation_1_1
-TEXT: Hey, %PLAYERNAME%! Would you like to learn more about Mega Evolution? I’ll walk you through it.
+TEXT: ไง %PLAYERNAME%! มาเรียนรูเกี่ยวกับวิวัฒนาการเมกาไหม?
 
 RESOURCE ID: mega2026_ftue_conversation_1_2
-TEXT: I spy just the right Pokémon to help with this lesson.
+TEXT: มีโปเกมอนที่นาจะเปนตัวอยางที่ดีอยูแถวนี้พอดีเลย
 
 RESOURCE ID: mega2026_ftue_conversation_1_3
-TEXT: Let’s go catch that Beedrill!
+TEXT: นั่น สเปยร! ไปจับกันเลย!
 
 RESOURCE ID: mega2026_ftue_conversation_2_1
-TEXT: I have some Mega Energy you can use. You can get more from winning a Mega Raid. Now, let’s Mega Evolve this Beedrill!
+TEXT: ตอไปก็ใชใชพลังงานเมกานี้วิวัฒนาการเมกากันเลย พลังงานเมกาสามารถหาไดจากตีบอสเมกานะ
 
 RESOURCE ID: mega2026_ftue_conversation_3_1
-TEXT: Great work! Beedrill has Mega Evolved!
+TEXT: วิวัฒนาการเมกาใหกับสเปยรไดแลวสินะ!
 
 RESOURCE ID: mega2026_ftue_conversation_3_2
-TEXT: A Mega-Evolved Pokémon can help find extra Candy when you catch Pokémon that share its type.
+TEXT: โปเกมอนที่วิวัฒนาการเมกาจะหาลูกอมมาใหมากขึ้นเมื่อจับโปเกมอนที่เปนประเภทเดียวกับมัน
 
 RESOURCE ID: mega2026_ftue_conversation_3_3
-TEXT: I see a Weedle! Let’s catch it.
+TEXT: นั่นบีเดิลนี่ จับมันเลย!
 
 RESOURCE ID: mega2026_ftue_conversation_4_1
-TEXT: When you catch a Pokémon that shares a type with your Mega-Evolved Pokémon, you’ll earn extra Candy.
+TEXT: ดูจำนวนลูกอมสิ ตองเยอะกวาปกติแน ๆ
 
 RESOURCE ID: mega2026_ftue_conversation_4_2
-TEXT: There are other advantages when you Mega Evolve a Pokémon. Keep learning about this fascinating change in appearance by finding other Pokémon to Mega Evolve.
+TEXT: การวิวัฒนาการเมกาใหกับโปเกมอนยังมีขอดีอีกหลายอยาง แตจริง ๆ แคศึกษารูปลักษณของมันที่เปลี่ยนไปจากเดิมอยางเดียวก็สนุกแลว
 
 RESOURCE ID: mega2026_ftue_conversation_nope
 TEXT: สามารถอานใหมอีกครั้งไดเมื่อเขารวมตีบอสเมกา
@@ -1967,7 +2031,7 @@ RESOURCE ID: mega2026_ftue_desc_1_title_temp
 TEXT: จับโปเกมอนและเรียนรูวิธีวิวัฒนาการเมกากัน!
 
 RESOURCE ID: mega2026_ftue_lets_do_it_button
-TEXT: LET’S DO IT!
+TEXT: ลองกันเลย!
 
 RESOURCE ID: mega2026_ftue_modal_1_title
 TEXT: Start your Mega Evolution journey!
@@ -1981,7 +2045,7 @@ TEXT: {0}
 
 RESOURCE ID: mega_bonus_candy_singular
 TEXT: {0}
-Bonus Candy
+โบนัสลูกอม
 
 RESOURCE ID: mega_bonus_xl_candy_plural
 TEXT: {0}
@@ -1989,7 +2053,7 @@ TEXT: {0}
 
 RESOURCE ID: mega_bonus_xl_candy_singular
 TEXT: {0}
-Bonus Candy XL
+โบนัสลูกอม XL
 
 RESOURCE ID: mega_bonus_xp_plural
 TEXT: {0}
@@ -1997,7 +2061,7 @@ TEXT: {0}
 
 RESOURCE ID: mega_bonus_xp_singular
 TEXT: {0}
-Bonus XP
+โบนัส XP
 
 RESOURCE ID: mega_daily_point_bonus_30
 TEXT: รับสูงสุด 30 แตมทุกวันตอระดับเมกาของโปเกมอนที่สูงขึ้น
@@ -2006,10 +2070,10 @@ RESOURCE ID: mega_daily_point_bonus_6
 TEXT: รับสูงสุด 6 แตมทุกวันตอระดับเมกาของโปเกมอนที่สูงขึ้น
 
 RESOURCE ID: mega_hud_border_text_1
-TEXT: CANDY BOOST TYPES
+TEXT: ประเภทที่ไดลูกอมเพิ่ม
 
 RESOURCE ID: mega_hud_border_text_2
-TEXT: BONUSES EARNED
+TEXT: จำนวนที่ไดรับ
 
 RESOURCE ID: mega_level_3
 TEXT: ระดับแมกซ
@@ -2024,66 +2088,85 @@ RESOURCE ID: mega_level_4_ftue_body_evolve_prompt
 TEXT: โปเกมอนตัวนี้สามารถไปถึงระดับซูเปอรแมกซไดแลว
 
 RESOURCE ID: mega_level_4_ftue_title
-TEXT: New Mega Level available!
+TEXT: ระดับเมกาใหมมาแลว
 
 RESOURCE ID: mega_level_banner_level_up
 TEXT: ระดับเมกาเพิ่มขึ้นแลว!
 
 RESOURCE ID: mega_level_bottom_section
-TEXT: Mega Evolve your Pokémon for bonus Candy and boosted CP
+TEXT: เพิ่มลูกอมและ CP เมื่อวิวัฒนาการเมกา
 
 RESOURCE ID: mega_level_energy_hint
-TEXT: Win a Super Mega Raid to earn lots of Mega Energy!
+TEXT: ชนะตีบอสซูเปอรเมกาเพื่อรับพลังงานเมกาจำนวนมาก!
 
 RESOURCE ID: mega_level_energy_requirement_message
-TEXT: Mega Evolve {0} {1} more times to reach Max Level, then use Mega Energy to unlock {2}.
+TEXT: วิวัฒนาการเมกา{0}อีก {1} ครั้งเพื่อใหถึงระดับแมกซ แลวจะสามารถปลดล็อก{2}ได (ตองใชพลังงานเมกา)
 
 RESOURCE ID: mega_level_energy_requirement_message_singular
-TEXT: Mega Evolve {0} {1} more time to reach Max Level, then use Mega Energy to unlock {2}.
+TEXT: วิวัฒนาการเมกา{0}อีก {1} ครั้งเพื่อใหถึงระดับแมกซ แลวจะสามารถปลดล็อก{2}ได (ตองใชพลังงานเมกา)
 
 RESOURCE ID: mega_level_tutorial_2026_page1_body
-TEXT: Mega Evolution is a powerful type of Evolution that only some Pokémon can do. Mega-Evolved Pokémon are stronger in Raid Battles and grant extra bonuses when you catch other Pokémon.
+TEXT: วิวัฒนาการเมกาคือการปลดปลอยพลังแฝงที่โปเกมอนสวนหนึ่งมี เพื่อใหมันพาวเวอรอัปขามขีดจำกัดของการวิวัฒนาการที่ผานมาได โปเกมอนที่วิวัฒนาการเมกาจะแข็งแกรงยิ่งกวาเดิมในแบตเทิลตีบอสและมอบโบนัสเพิ่มลูกอมเวลาจับโปเกมอน
 
-To Mega Evolve a Pokémon, you need to collect Mega Energy.
+จำเปนตองมีพลังงานเมกาเพียงพอในการวิวัฒนาการเมกา
 
 RESOURCE ID: mega_level_tutorial_2026_page1_title
-TEXT: Mega Evolution
+TEXT: วิวัฒนาการเมกา
 
 RESOURCE ID: mega_level_tutorial_2026_page2_body
-TEXT: Mega Energy is energy unique to each Pokémon that can Mega Evolve. It is earned by:
-• Winning Mega Raids
-• Completing certain research tasks
-• Adventuring with a Buddy Pokémon that has Mega Evolved
+TEXT: พลังงานเมกานั้นเปนแหลงพลังงาน
+เฉพาะของโปเกมอนแตละตัวที่จำเปน
+สำหรับการวิวัฒนาการเมกา
+โดยสามารถรับไดโดยวิธีตอไปนี้
+• ชนะตีบอสเมกา
+• ทำงานวิจัยที่กำหนดเสร็จสิ้น
+• ผจญภัยไปกับโปเกมอนคูหูที่เคย
+วิวัฒนาการเมกา
 
 RESOURCE ID: mega_level_tutorial_2026_page2_title
-TEXT: Mega Energy
+TEXT: พลังงานเมกา
 
 RESOURCE ID: mega_level_tutorial_2026_page3_body
-TEXT: After Mega Evolving a Pokémon once, you can Mega Evolve it again after it rests without using more Mega Energy. You can use Mega Energy while it’s resting to Mega Evolve it sooner.
+TEXT: หลังจากที่วิวัฒนาการเมกาใหกับโปเกมอน
+เปนครั้งแรก เมื่อชวงพักสิ้นสุด
+คุณจะสามารถวิวัฒนาการเมกาใหกับมัน
+ไดอีกครั้งโดยไมตองใชพลังงานเมกา
+แมจะเปนในชวงพัก ก็สามารถใช
+พลังงานเมกาเพื่อวิวัฒนาการเมกาได
 
 RESOURCE ID: mega_level_tutorial_2026_page3_title
-TEXT: Rest Period
+TEXT: ชวงพัก
 
 RESOURCE ID: mega_level_tutorial_2026_page4_body
-TEXT: When you catch a Pokémon that shares a type with your Mega-Evolved Pokémon, you’ll receive the following bonuses. These bonuses increase based on your Mega Level.
-• Extra Candy
-• Extra XP
-• An increased chance of receiving Candy XL
+TEXT: เมื่อจับโปเกมอนที่มีประเภทเดียวกับ
+โปเกมอนที่วิวัฒนาการเมกาของคุณ
+คุณจะไดรับโบนัสตามระดับเมกา
+ดังตอไปนี้
+• ลูกอมเพิ่มเติม
+• XP เพิ่มเติม
+• เพิ่มโอกาสในการไดรับลูกอม XL
 
 RESOURCE ID: mega_level_tutorial_2026_page4_title
-TEXT: Catch Bonuses
+TEXT: โบนัสการจับ
 
 RESOURCE ID: mega_level_tutorial_2026_page5_body
-TEXT: When a Pokémon’s Mega Level increases, you’ll get more bonuses, and its rest period will shorten. Each time you Mega Evolve a Pokémon, you work towards increasing its Mega Level. You need to use Mega Energy to raise a Pokémon’s Mega Level to the final stage, Super Max Level.
+TEXT: เมื่อระดับเมกาของโปเกมอนสูงขึ้น
+คุณจะไดรับโบนัสเพิ่มขึ้นและชวงเวลา
+ที่ตองรอเพื่อวิวัฒนาการเมกาอีกครั้ง
+จะสั้นลง
+ทุกครั้งที่โปเกมอนวิวัฒนาการเมกา
+ระดับเมกาจะคอย ๆ เพิ่มขึ้น
+แตการเพิ่มถึงระดับซูเปอรแมกซนั้น
+จำเปนตองใชพลังงานเมกา
 
 RESOURCE ID: mega_level_tutorial_2026_page5_title
-TEXT: Mega Levels
+TEXT: ระดับเมกา
 
 RESOURCE ID: mega_level_unlock_cost_message
-TEXT: Use Mega Energy to unlock {0}.
+TEXT: ใชพลังงานเมกาเพื่อปลดล็อก{0}
 
 RESOURCE ID: mega_level_up_unlock_confirmation_title
-TEXT: คุณตองการอัปเลเวลเปน {0} หรือไม
+TEXT: คุณตองการเพิ่มระดับเปน {0} หรือไม
 
 RESOURCE ID: mega_level_up_unlock_confirmation_title_level
 TEXT: Do you want to level up to {0}?
@@ -2095,7 +2178,7 @@ RESOURCE ID: mega_level_up_unlock_description
 TEXT: ใชพลังงานเมกาเพื่อเพิ่มระดับเมกา
 
 RESOURCE ID: mega_level_up_unlock_dialog_confirmation
-TEXT: เลเวลอัป
+TEXT: ระดับเพิ่มขึ้น
 
 RESOURCE ID: mega_level_up_unlock_title
 TEXT: ระดับเมกาเพิ่มขึ้น
@@ -2104,7 +2187,7 @@ RESOURCE ID: mega_perk_candy_bonus_excellentplus
 TEXT: เพิ่มโบนัสลูกอมจากการจับอยางมาก
 
 RESOURCE ID: mega_perk_catch_xp_bonus_excellentplus
-TEXT: เพิ่มโบนัส XP การจับอยางมาก
+TEXT: เพิ่มโบนัส XP จากการจับอยางมาก
 
 RESOURCE ID: mega_perk_cp_boost
 TEXT: เพิ่ม CP
@@ -2112,11 +2195,17 @@ TEXT: เพิ่ม CP
 RESOURCE ID: mega_perk_cp_boost_excellentplus
 TEXT: เพิ่ม CP อยางมาก
 
+RESOURCE ID: mega_perk_xl_bonus_excellent
+TEXT: เพิ่มโอกาสรับลูกอม XL อยางมาก
+
+RESOURCE ID: mega_perk_xl_bonus_great
+TEXT: เพิ่มโอกาสรับลูกอม XL
+
 RESOURCE ID: mega_remote_iap_nc_rrp_title
-TEXT: Uh-oh! You’re out of Remote Raid Passes and don’t have enough Link Charges.
+TEXT: คุณไมมีบัตรตีบอสระยะไกลและมีลิงกชารจไมเพียงพอ!
 
 RESOURCE ID: mega_trainers_suggested_count
-TEXT: {0}+ Trainers with Mega-Evolved Pokémon
+TEXT: เทรนเนอรพรอมโปเกมอนที่วิวัฒนาการเมกา: {0}+
 
 RESOURCE ID: meowth_gmax_tr_2026_title
 TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียม: เนียสกิกะแมกซ
@@ -2131,10 +2220,10 @@ RESOURCE ID: message_open_settings
 TEXT: ไปที่การตั้งคา
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-02-10T22:04:44.096094+00:00 for th-TH
-at SHA b68fb11b3ec
-Pipeline 3535223, job 50681985
-Patch from: 0.397.0-SHA-5a918511-RC2, 0.399.0-SHA-45852136-RC1
+TEXT: Built at 2026-02-13T23:09:24.654123+00:00 for th-TH
+at SHA 6d6c847e658
+Pipeline 3541342, job 50979693
+Patch from: 0.399.0-SHA-dbc59b42-RC4, 0.397.1-SHA-7b7c416a-RC5
 
 RESOURCE ID: natural_art_day
 TEXT: กลางวัน
@@ -2506,13 +2595,19 @@ RESOURCE ID: primal_perk_candy_bonus_excellentplus
 TEXT: เพิ่มโบนัสลูกอมจากการจับอยางมาก
 
 RESOURCE ID: primal_perk_catch_xp_bonus_excellentplus
-TEXT: เพิ่มโบนัส XP การจับอยางมาก
+TEXT: เพิ่มโบนัส XP จากการจับอยางมาก
 
 RESOURCE ID: primal_perk_cp_boost
 TEXT: เพิ่ม CP
 
 RESOURCE ID: primal_perk_cp_boost_excellentplus
 TEXT: เพิ่ม CP อยางมาก
+
+RESOURCE ID: primal_perk_xl_bonus_excellent
+TEXT: เพิ่มโอกาสรับลูกอม XL อยางมาก
+
+RESOURCE ID: primal_perk_xl_bonus_great
+TEXT: เพิ่มโอกาสรับลูกอม XL
 
 RESOURCE ID: quest_branch_choose_chespin
 TEXT: Choose Chespin
@@ -2524,13 +2619,13 @@ RESOURCE ID: quest_branch_choose_debutante
 TEXT: Choose Debutante Trim
 
 RESOURCE ID: quest_branch_choose_debutante_desc
-TEXT: Select this option to change your usual regional Furfrou trim or trims to the Debutante Trim for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
+TEXT: เมื่อเลือกเสนทางนี้ ในระหวางอีเวนต จะสามารถเปลี่ยนทริมเมียนเปนทรงสุภาพสตรีได (ในการเปลี่ยนรางทริมเมียน จำเปนตองใชลูกอมทริมเมียน 25 เม็ดและ 10,000 สตารดัสต)
 
 RESOURCE ID: quest_branch_choose_diamond
 TEXT: Choose Diamond Trim
 
 RESOURCE ID: quest_branch_choose_diamond_desc
-TEXT: Select this option to change your usual regional Furfrou trim or trims to the Diamond Trim for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
+TEXT: เมื่อเลือกเสนทางนี้ ในระหวางอีเวนต จะสามารถเปลี่ยนทริมเมียนเปนทรงขาวหลามตัดได (ในการเปลี่ยนรางทริมเมียน จำเปนตองใชลูกอมทริมเมียน 25 เม็ดและ 10,000 สตารดัสต)
 
 RESOURCE ID: quest_branch_choose_fennekin
 TEXT: Choose Fennekin
@@ -2548,25 +2643,25 @@ RESOURCE ID: quest_branch_choose_kabuki
 TEXT: Choose Kabuki Trim
 
 RESOURCE ID: quest_branch_choose_kabuki_desc
-TEXT: Select this option to change your usual regional Furfrou trim or trims to the Kabuki Trim for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
+TEXT: เมื่อเลือกเสนทางนี้ ในระหวางอีเวนต จะสามารถเปลี่ยนทริมเมียนเปนทรงคาบูกิได (ในการเปลี่ยนรางทริมเมียน จำเปนตองใชลูกอมทริมเมียน 25 เม็ดและ 10,000 สตารดัสต)
 
 RESOURCE ID: quest_branch_choose_la_reine
 TEXT: Choose La Reine Trim
 
 RESOURCE ID: quest_branch_choose_la_reine_desc
-TEXT: Select this option to change your usual regional Furfrou trim or trims to the La Reine Trim for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
+TEXT: เมื่อเลือกเสนทางนี้ ในระหวางอีเวนต จะสามารถเปลี่ยนทริมเมียนเปนทรงราชินีได (ในการเปลี่ยนรางทริมเมียน จำเปนตองใชลูกอมทริมเมียน 25 เม็ดและ 10,000 สตารดัสต)
 
 RESOURCE ID: quest_branch_choose_pharaoh
 TEXT: Choose Pharaoh Trim
 
 RESOURCE ID: quest_branch_choose_pharaoh_desc
-TEXT: Select this option to change your usual regional Furfrou trim or trims to the Pharaoh Trim for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
+TEXT: เมื่อเลือกเสนทางนี้ ในระหวางอีเวนต จะสามารถเปลี่ยนทริมเมียนเปนทรงฟาโรหได (ในการเปลี่ยนรางทริมเมียน จำเปนตองใชลูกอมทริมเมียน 25 เม็ดและ 10,000 สตารดัสต)
 
 RESOURCE ID: quest_branch_choose_star
 TEXT: Choose Star Trim
 
 RESOURCE ID: quest_branch_choose_star_desc
-TEXT: Select this option to change your usual regional Furfrou trim or trims to the Star Trim for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
+TEXT: เมื่อเลือกเสนทางนี้ ในระหวางอีเวนต จะสามารถเปลี่ยนทริมเมียนเปนทรงดาวได (ในการเปลี่ยนรางทริมเมียน จำเปนตองใชลูกอมทริมเมียน 25 เม็ดและ 10,000 สตารดัสต)
 
 RESOURCE ID: quest_branch_choose_trim_prompt
 TEXT: เปลี่ยนรางทริมเมียน
@@ -2611,7 +2706,7 @@ RESOURCE ID: quest_catch_poochyena_singular
 TEXT: จับโปชิเอนา
 
 RESOURCE ID: quest_evolve_eevee_sylveon
-TEXT: Evolve Eevee into Sylveon
+TEXT: วิวัฒนาการอีวุยเปนนิมเฟย
 
 RESOURCE ID: quest_form_change_furfrou_debutante
 TEXT: Form change a Furfrou to have a Debutante Trim
@@ -2641,19 +2736,19 @@ RESOURCE ID: quest_go_tour_2026_zygarde_route_spin
 TEXT: Spin an event PokéStop at a GO Tour: Kalos Official Route start point
 
 RESOURCE ID: quest_medal_fairy_platinum
-TEXT: Earn a platinum medal for catching Fairy types
+TEXT: จับโปเกมอนประเภทแฟรี่เพื่อรับเหรียญรางวัลแพลทินัม
 
 RESOURCE ID: quest_medal_kalos_gold
-TEXT: Earn the gold Kalos medal
+TEXT: ไดรับเหรียญรางวัล "คาลอส" ทอง
 
 RESOURCE ID: quest_medal_rock_platinum
-TEXT: Earn a platinum medal for catching Rock types
+TEXT: จับโปเกมอนประเภทหินเพื่อรับเหรียญรางวัลแพลทินัม
 
 RESOURCE ID: quest_pokestop_edit_singular
-TEXT: Contribute an edit to a PokéStop
+TEXT: ปรับแตงเสาโปเกสต็อป
 
 RESOURCE ID: quest_pokestop_nominate_singular
-TEXT: Nominate a PokéStop
+TEXT: ยื่นคำขอเสาโปเกสต็อป
 
 RESOURCE ID: quest_power_up_dark_psychic_plural
 TEXT: Power up Psychic- or Dark-type Pokémon {0} times
@@ -2715,24 +2810,24 @@ RESOURCE ID: quests_log_complete_field_book_page
 TEXT: Complete Field Book Page: {0}
 
 RESOURCE ID: raid_approach_multiple_post_list
-TEXT: USED WHEN YOU WIN: {0}
+TEXT: ใชเมื่อชนะ: {0}
 
 RESOURCE ID: raid_approach_multiple_pre_rp
-TEXT: USED WHEN THE BATTLE STARTS:
-A PREMIUM BATTLE PASS
+TEXT: ใชเมื่อเริ่มแบตเทิล:
+บัตรแบตเทิลพรีเมียม
 
 RESOURCE ID: raid_approach_multiple_pre_rrp
-TEXT: USED WHEN THE BATTLE STARTS:
-A REMOTE RAID PASS
+TEXT: ใชเมื่อเริ่มแบตเทิล:
+บัตรตีบอสระยะไกล
 
 RESOURCE ID: raid_approach_multiple_remote_usage_plural
-TEXT: YOU CAN JOIN {0} MORE REMOTE RAIDS TODAY.
+TEXT: วันนี้สามารถเขารวมตีบอสระยะไกลไดอีก {0} ครั้ง
 
 RESOURCE ID: raid_approach_multiple_remote_usage_singular
-TEXT: YOU CAN JOIN ONE MORE REMOTE RAID TODAY.
+TEXT: วันนี้สามารถเขารวมตีบอสระยะไกลไดอีก 1 ครั้ง
 
 RESOURCE ID: raid_message_heal_pokemon
-TEXT: Heal your Pokémon
+TEXT: ฟ้นฟูโปเกมอน
 
 RESOURCE ID: raid_special_background
 TEXT: Pokémon encountered from event raids may have an exclusive Special Background
@@ -2741,7 +2836,7 @@ RESOURCE ID: rebuild_event_pass_pages
 TEXT: อัปเดตบัตรผาน GO แลว
 
 RESOURCE ID: remote_raid_battle_helptext_nc
-TEXT: Using Link Charges and a Remote Raid Pass
+TEXT: ใชลิงกชารจกับบัตรตีบอสระยะไกล
 
 RESOURCE ID: remote_trade_time_locked_message_singular_day
 TEXT: สามารถเสนอโปเกมอนตัวนี้ในการแลกเปลี่ยนระยะไกลไดในอีก 1 วัน (อยูในสภาพติดแท็กแลกเปลี่ยนระยะไกลตอไป)
@@ -2867,16 +2962,16 @@ RESOURCE ID: share_referral_link_default
 TEXT: ใช Pokémon GO ถายภาพกับโปเกมอนโปรดกันเลย! https://pokemongo.com/
 
 RESOURCE ID: shop_enhanced_currency_description_plural
-TEXT: You need {0} more Link Charges to enter this battle.
+TEXT: ตองการอีก {0} ลิงกชารจเพื่อเขารวมแบตเทิลนี้
 
 RESOURCE ID: shop_enhanced_currency_description_singular
-TEXT: You need 1 more Link Charge to enter this battle.
+TEXT: ตองการอีก 1 ลิงกชารจเพื่อเขารวมแบตเทิลนี้
 
 RESOURCE ID: shop_enhanced_currency_title
-TEXT: Not enough Link Charges.
+TEXT: ลิงกชารจไมเพียงพอ
 
 RESOURCE ID: shop_remote_raid_passes_title
-TEXT: Uh-oh! You’re out of Remote Raid Passes.
+TEXT: คุณไมมีบัตรตีบอสระยะไกล!
 
 RESOURCE ID: sign_in_bonus_key
 TEXT: ลงชื่อเขาใชหรือสรางบัญชีเพื่อรับโบนัส!
@@ -2931,6 +3026,9 @@ TEXT: X Version
 
 RESOURCE ID: tag_y_version
 TEXT: Y Version
+
+RESOURCE ID: tap_to_skip_message
+TEXT: Tap to Skip
 
 RESOURCE ID: text_rewards_key_buddy_event
 TEXT: <b>รางวัลที่จะไดรับ:</b>
@@ -3251,10 +3349,10 @@ RESOURCE ID: tr_oricorio_mastery_paid_feb2026_header_9
 TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียมผูเชี่ยวชาญการจับ: โอโดริโดริ (10/10)
 
 RESOURCE ID: tutorial_need_mega_body
-TEXT: Mega-Evolved Pokémon are essential in Super Mega Raids
+TEXT: จำเปนตองใชโปเกมอนที่วิวัฒนาการเมกา
 
 RESOURCE ID: tutorial_need_mega_title
-TEXT: Mega Evolve to Ready Up
+TEXT: วิวัฒนาการเมกาเพื่อเตรียมพรอม!
 
 RESOURCE ID: tv_title_go_tour_2026_global
 TEXT: GO Tour: คาลอส - ทั่วโลก
@@ -3296,19 +3394,19 @@ RESOURCE ID: unown_o_clock_active
 TEXT: Unown are now appearing in large numbers!
 
 RESOURCE ID: use_raid_ticket_confirmation_buy_currency
-TEXT: Get more {0}
+TEXT: เติม {0}
 
 RESOURCE ID: use_raid_ticket_confirmation_switch_currency_plural
-TEXT: Switch to {0} and {1}
+TEXT: เปลี่ยนเปน {0} และ {1}
 
 RESOURCE ID: use_raid_ticket_confirmation_switch_currency_singular
-TEXT: Switch to {0}
+TEXT: เปลี่ยนเปน {0}
 
 RESOURCE ID: use_raid_ticket_confirmation_ticket_return_count_plural
-TEXT: JOIN THE RAID BATTLE ({0} {1} ARE ONLY USED WHEN YOU WIN.)
+TEXT: เขารวมแบตเทิลตีบอส! (ใช {0} {1}เมื่อชนะ)
 
 RESOURCE ID: use_raid_ticket_confirmation_ticket_return_count_singular
-TEXT: JOIN THE RAID BATTLE ({0} {1} IS ONLY USED WHEN YOU WIN.)
+TEXT: เขารวมแบตเทิลตีบอส! (ใช {0} {1}เมื่อชนะ)
 
 RESOURCE ID: valentines_day_2026_timed_research_tiitle
 TEXT: งานวิจัยแบบจำกัดเวลาอีเวนตวาเลนไทน

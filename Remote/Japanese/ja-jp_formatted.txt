@@ -1,5 +1,23 @@
+RESOURCE ID: active_bonuses_label
+TEXT: ボーナス：
+
+RESOURCE ID: ar_photo_social_bonus_text
+TEXT: Bonus
+
 RESOURCE ID: ar_photo_social_hashtag
 TEXT: #Pokemon30
+
+RESOURCE ID: ar_photo_social_message_save_disabled
+TEXT: To save photos, open your device settings and give Pokémon GO access to photos.
+
+RESOURCE ID: ar_photo_social_name_tag_prompt
+TEXT: Tap the Pokémon’s name to move the label around
+
+RESOURCE ID: ar_photo_social_photo_shared
+TEXT: Photo shared
+
+RESOURCE ID: ar_photo_social_review_confirm_exit_message
+TEXT: この画面から出ると、保存前の写真は失われます。
 
 RESOURCE ID: ar_photo_social_share_default_referral_text
 TEXT: 『ポケモンGO』を使って好きなポケモンと一緒の写真を撮ろう！https://pokemongo.com/
@@ -14,7 +32,16 @@ RESOURCE ID: ar_photo_social_share_prompt
 TEXT: これまでに撮った写真をシェアしよう！
 
 RESOURCE ID: ar_photo_social_share_referral_text
-TEXT: 『ポケモンGO』を使って好きなポケモンと一緒の写真を撮ろう！
+TEXT: 『ポケモンGO』を使って好きなポケモンと一緒の写真を撮ろう！ {0}
+
+RESOURCE ID: ar_photo_social_share_sign_in
+TEXT: Start Playing Pokémon GO
+
+RESOURCE ID: ar_photo_social_title_save_disabled
+TEXT: Allow Pokémon GO to save images?
+
+RESOURCE ID: avatar_generic_name
+TEXT:  
 
 RESOURCE ID: avatar_hat_xerneas
 TEXT: ゼルネアス　ヘッドウェア
@@ -311,22 +338,22 @@ RESOURCE ID: batch_transfer_unique_day_night_level_pokemon
 TEXT: ポートレートつきポケモン{0}匹
 
 RESOURCE ID: battle_condition_mega_enrage
-TEXT: {0} is protecting itself with Mega Energy
+TEXT: {0}は巨大シールドで自分を守っている
 
 RESOURCE ID: battle_mega_impact_callout
-TEXT: {0}’s Charged Attack broke through a shield
+TEXT: {0}のスペシャルアタックがシールドを突破！
 
 RESOURCE ID: battle_mega_shields_broken
-TEXT: All shields broken!
+TEXT: シールドをすべて破った！
 
 RESOURCE ID: battle_mega_swap_fainted_mega
-TEXT: Heal your Mega-Evolved Pokémon to break shields!
+TEXT: メガシンカしたポケモンを回復させてシールド打破！
 
 RESOURCE ID: battle_mega_swap_no_mega
-TEXT: Only Mega-Evolved Pokémon can break shields!
+TEXT: メガシンカポケモンならシールドを破れる！
 
 RESOURCE ID: battle_mega_swap_ready
-TEXT: Time to bring out your Mega-Evolved Pokémon!
+TEXT: メガシンカしたポケモンで応戦！
 
 RESOURCE ID: bonus_candy_raids_t5_plus_mega
 TEXT: 5つ星とメガレイドでポケモンを捕まえてもらえるアメ1個追加
@@ -425,9 +452,6 @@ RESOURCE ID: bonus_premier_ball_catch_rate_boost_small
 TEXT: Premier Balls have an increased catch rate
 
 RESOURCE ID: bonus_raid_3_xl_candy_t5_and_mega
-TEXT: Six additional Candy XL for successful five-star raids and Mega Raids
-
-RESOURCE ID: bonus_raid_3_xl_candy_t5_and_mega_temp
 TEXT: 5つ星レイド・メガレイド勝利でもらえるアメXL3個追加
 
 RESOURCE ID: bonus_raid_5k_xp_mega
@@ -740,7 +764,7 @@ RESOURCE ID: enhanced_currency_large_3rrp_title
 TEXT: 600リンクチャージ+リモートレイドパス3枚
 
 RESOURCE ID: enhanced_currency_large_description
-TEXT: A pack of 600 Link Charges, used to join Mega Raids in-person or remotely.
+TEXT: メガレイド参加に必要なリンクチャージを600充填したもの。
 
 RESOURCE ID: enhanced_currency_large_rrp_title
 TEXT: 600リンクチャージ+リモートレイドパス1枚
@@ -749,10 +773,10 @@ RESOURCE ID: enhanced_currency_large_title
 TEXT: 600リンクチャージ
 
 RESOURCE ID: enhanced_currency_maxed_out_warning
-TEXT: You have reached the max number of Link Charges ({0}). Please try again when you have fewer Link Charges.
+TEXT: 一度に持てるリンクチャージの上限{0}を超えています。使ってから再度お試しください。
 
 RESOURCE ID: enhanced_currency_medium_description
-TEXT: A pack of 200 Link Charges, used to join Mega Raids in-person or remotely.
+TEXT: メガレイド参加に必要なリンクチャージを200充填したもの。
 
 RESOURCE ID: enhanced_currency_medium_rrp_title
 TEXT: 200リンクチャージ+リモートレイドパス1枚
@@ -822,7 +846,7 @@ RESOURCE ID: event_title_ppk
 TEXT: ポケパークカントー
 
 RESOURCE ID: extra_guaranteed_xl_candy_mega_five_star_raids
-TEXT: One additional guaranteed Candy XL from Mega Raids and five-star raids
+TEXT: 5つ星レイド・メガレイド勝利で追加のアメXL1個確定
 
 RESOURCE ID: feature_dbs_pokestop_ftue_conv_1
 TEXT: 特別なポケストップを見つけたな！近くにはどんなポケモンがいるんだろう？捕まえてみよう！
@@ -1085,6 +1109,15 @@ TEXT: キョダイマックスしたニャースがマックスバトルに出�
 RESOURCE ID: gmax_meowth_website_link
 TEXT: （詳細は<a href="https://pokemongo.com/news/gigantamax-meowth-max-battle-day-2026>ウェブサイト</a>でご確認ください）
 
+RESOURCE ID: go_pass_milestone_rank
+TEXT: メジャーマイルストーン
+
+RESOURCE ID: go_pass_milestone_rewards
+TEXT: マイルストーンリワード：
+
+RESOURCE ID: go_pass_rank_level_rewards
+TEXT: ランク{0}のリワード
+
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_00_00
 TEXT: %PLAYERNAME%！ちょっとバタバタしていて、失礼。資料を探していたんだ。
 
@@ -1293,7 +1326,7 @@ RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_05_04
 TEXT: ここで気を抜くことのないよう、よろしく頼んだよ、%PLAYERNAME%！
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_01_00
-TEXT: はかいポケモンであるゼルネアスのことは知っているね？
+TEXT: はかいポケモンであるイベルタルのことは知っているね？
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_01_01
 TEXT: 翼と尾羽を広げて赤く輝くとき、生き物の命を吸い取る、と言われている。命を吸いつくすと繭の姿に戻る、とも。
@@ -1416,7 +1449,7 @@ RESOURCE ID: gotour2026_boqus_header_hourly
 TEXT: カロスへの道：1時間ボーナスタスク
 
 RESOURCE ID: gotour2026_irl_boqus_header_hourly
-TEXT: カロスへの道：1時間ボーナスタスク
+TEXT: カロスへの道：1時間タスク
 
 RESOURCE ID: gotour2026_welcome
 TEXT: Pokémon GO Tour: Kalos
@@ -1512,10 +1545,10 @@ RESOURCE ID: increased_gift_rare_candy
 TEXT: ギフトを開けてもらえるふしぎなアメの確率アップ
 
 RESOURCE ID: increased_mega_level_caught_desc
-TEXT: Some Pokémon you catch from Super Mega Raids or research may already have at least one Mega Level.
+TEXT: スーパーメガレイドなどで捕まえると、メガレベル1以上のポケモンである場合があります。
 
 RESOURCE ID: increased_mega_level_caught_title
-TEXT: Increased Mega Levels
+TEXT: メガレベルが高いポケモン
 
 RESOURCE ID: increased_stardust_gifts_bonus
 TEXT: ギフトを開けてもらえるほしのすな増
@@ -1533,16 +1566,16 @@ RESOURCE ID: into_depths_website_link
 TEXT: （詳細は<a href="https://pokemongolive.com/post/into-the-depths-2026">ウェブサイト</a>でご確認ください）
 
 RESOURCE ID: item_enhanced_currency_desc
-TEXT: Link Charges can be used to enter Mega Raids in place of Raid passes. Link Charges are required to enter Mega Raids Remotely.
+TEXT: レイドパスの代わりにリンクチャージを使用してメガレイドに参加できます。離れた場所からメガレイドに参加する場合、リンクチャージが必須になります。
 
-Earn Link Charges from activities such as Weekly Challenges, Campfire Check-Ins, and opening Gifts.
+リンクチャージは、ウィークリーチャレンジ、Campfireチェックイン、ギフト開封で入手できます。
 
 RESOURCE ID: item_enhanced_currency_holder_desc
-TEXT: リンクチャージを溜めておける容器。一度に{0}まで溜められる。
+TEXT: リンクチャージを収めるホルダー。一度に{0}まで収納できる。
 
 RESOURCE ID: item_enhanced_currency_holder_desc_count
-TEXT: メガレイドに参加するために必要なリンクチャージを溜めておける容器。
-リンクチャージは、ウィークリーチャレンジ、Campfireチェックイン、フレンドからのギフト開封、などで溜めることができます。
+TEXT: メガレイドに参加するために必要なリンクチャージを収めるホルダー。
+リンクチャージは、ウィークリーチャレンジ、Campfireチェックイン、フレンドからのギフト開封、などで入手できます。
 
 RESOURCE ID: item_enhanced_currency_holder_name
 TEXT: リンクホルダー
@@ -1614,19 +1647,19 @@ RESOURCE ID: item_event_ticket_pink_details_cd_vulpix26
 TEXT: このチケットは自動的に発動し2月1日に「氷と炎」スペシャルリサーチが行えるようになります。
 
 RESOURCE ID: item_paid_raid_ticket_name_plural
-TEXT: Premium Battle Passes
+TEXT: プレミアムバトルパス
 
 RESOURCE ID: item_remote_raid_ticket_name_plural
-TEXT: Remote Raid Passes
+TEXT: リモートレイドパス
 
 RESOURCE ID: lobby_group_size_warning
-TEXT: Suggested group size of this raid is {0} players.
+TEXT: 推奨される参加者数：{0}人
 
 RESOURCE ID: lobby_mega_count_plural
 TEXT: メガシンカしたポケモンの数：{0}
 
 RESOURCE ID: lobby_mega_count_singular
-TEXT: {0} Mega-Evolved Pokémon in lobby
+TEXT: メガシンカしたポケモンの数：{0}
 
 RESOURCE ID: lobby_mega_count_zero
 TEXT: メガシンカしたポケモンの数：{0}
@@ -1683,31 +1716,31 @@ RESOURCE ID: mega2026_ditto_cant_break_shields
 TEXT: メタモンはへんしんを使ってもシールドを破れません
 
 RESOURCE ID: mega2026_ftue_conversation_1_1
-TEXT: Hey, %PLAYERNAME%! Would you like to learn more about Mega Evolution? I’ll walk you through it.
+TEXT: やぁ、%PLAYERNAME%！メガシンカについて学んでみないか？
 
 RESOURCE ID: mega2026_ftue_conversation_1_2
-TEXT: I spy just the right Pokémon to help with this lesson.
+TEXT: 良い例になりそうなポケモンが近くにいるぞ。
 
 RESOURCE ID: mega2026_ftue_conversation_1_3
-TEXT: Let’s go catch that Beedrill!
+TEXT: ほら、スピアーだ！捕まえてみよう。
 
 RESOURCE ID: mega2026_ftue_conversation_2_1
-TEXT: I have some Mega Energy you can use. You can get more from winning a Mega Raid. Now, let’s Mega Evolve this Beedrill!
+TEXT: 次はメガシンカだ。メガエナジーはこれを使うといい。メガレイドに勝つと手に入るものだ。
 
 RESOURCE ID: mega2026_ftue_conversation_3_1
-TEXT: Great work! Beedrill has Mega Evolved!
+TEXT: メガシンカさせることができたな！
 
 RESOURCE ID: mega2026_ftue_conversation_3_2
-TEXT: A Mega-Evolved Pokémon can help find extra Candy when you catch Pokémon that share its type.
+TEXT: メガシンカしたポケモンと同じタイプのポケモンを捕まえると、アメを多く見つけてくれるんだ。
 
 RESOURCE ID: mega2026_ftue_conversation_3_3
-TEXT: I see a Weedle! Let’s catch it.
+TEXT: ちょうどビードルがいる。捕まえよう！
 
 RESOURCE ID: mega2026_ftue_conversation_4_1
-TEXT: When you catch a Pokémon that shares a type with your Mega-Evolved Pokémon, you’ll earn extra Candy.
+TEXT: アメの数を見てごらん。多いはずだ。
 
 RESOURCE ID: mega2026_ftue_conversation_4_2
-TEXT: There are other advantages when you Mega Evolve a Pokémon. Keep learning about this fascinating change in appearance by finding other Pokémon to Mega Evolve.
+TEXT: 他にもポケモンをメガシンカさせると、良いことがたくさんあるぞ。変化した見た目をよく観察するだけでも楽しいんだが。
 
 RESOURCE ID: mega2026_ftue_conversation_nope
 TEXT: メガレイド参加時に表示させることができます
@@ -1719,7 +1752,7 @@ RESOURCE ID: mega2026_ftue_desc_1_title_temp
 TEXT: ポケモンを捕まえて、メガシンカさせる方法を学ぼう！
 
 RESOURCE ID: mega2026_ftue_lets_do_it_button
-TEXT: LET’S DO IT!
+TEXT: やってみる
 
 RESOURCE ID: mega2026_ftue_modal_1_title
 TEXT: Start your Mega Evolution journey!
@@ -1733,7 +1766,7 @@ TEXT: {0}
 
 RESOURCE ID: mega_bonus_candy_singular
 TEXT: {0}
-Bonus Candy
+アメボーナス
 
 RESOURCE ID: mega_bonus_xl_candy_plural
 TEXT: {0}
@@ -1741,7 +1774,7 @@ TEXT: {0}
 
 RESOURCE ID: mega_bonus_xl_candy_singular
 TEXT: {0}
-Bonus Candy XL
+アメXLボーナス
 
 RESOURCE ID: mega_bonus_xp_plural
 TEXT: {0}
@@ -1749,7 +1782,7 @@ XPボーナス
 
 RESOURCE ID: mega_bonus_xp_singular
 TEXT: {0}
-Bonus XP
+XPボーナス
 
 RESOURCE ID: mega_daily_point_bonus_30
 TEXT: ポケモンのメガレベルアップに加算されるポイントを30まで毎日獲得
@@ -1758,10 +1791,10 @@ RESOURCE ID: mega_daily_point_bonus_6
 TEXT: ポケモンのメガレベルアップに加算されるポイントを6まで毎日獲得
 
 RESOURCE ID: mega_hud_border_text_1
-TEXT: CANDY BOOST TYPES
+TEXT: アメが増えるポケモンのタイプ
 
 RESOURCE ID: mega_hud_border_text_2
-TEXT: BONUSES EARNED
+TEXT: 獲得数
 
 RESOURCE ID: mega_level_4
 TEXT: スーパーマックスレベル
@@ -1773,63 +1806,63 @@ RESOURCE ID: mega_level_4_ftue_body_evolve_prompt
 TEXT: このポケモンはスーパーマックスレベルまで到達することができるようになりました。
 
 RESOURCE ID: mega_level_4_ftue_title
-TEXT: New Mega Level available!
+TEXT: 新メガレベル登場
 
 RESOURCE ID: mega_level_banner_level_up
 TEXT: メガレベルアップした！
 
 RESOURCE ID: mega_level_bottom_section
-TEXT: Mega Evolve your Pokémon for bonus Candy and boosted CP
+TEXT: メガシンカでアメ・CP増
 
 RESOURCE ID: mega_level_energy_hint
 TEXT: スーパーメガレイド勝利で大量メガエナジーゲット！
 
 RESOURCE ID: mega_level_energy_requirement_message
-TEXT: Mega Evolve {0} {1} more times to reach Max Level, then use Mega Energy to unlock {2}.
+TEXT: {0}をあと{1}回メガシンカさせてマックスレベルに達すると{2}を目指せます(要メガエナジー)
 
 RESOURCE ID: mega_level_energy_requirement_message_singular
-TEXT: Mega Evolve {0} {1} more time to reach Max Level, then use Mega Energy to unlock {2}.
+TEXT: {0}をあと{1}回メガシンカさせてマックスレベルに達すると{2}を目指せます(要メガエナジー)
 
 RESOURCE ID: mega_level_tutorial_2026_page1_body
-TEXT: Mega Evolution is a powerful type of Evolution that only some Pokémon can do. Mega-Evolved Pokémon are stronger in Raid Battles and grant extra bonuses when you catch other Pokémon.
+TEXT: 一部のポケモンに秘められた力を解放して、これまでの進化の限界を超えるパワーアップを可能にすること。メガシンカしたポケモンは、レイドバトルでより強力に戦うことができ、ポケモンを捕まえたときにアメが増えるボーナス効果をもたらします。
 
-To Mega Evolve a Pokémon, you need to collect Mega Energy.
+メガシンカさせるには、十分なメガエナジーが必要です。
 
 RESOURCE ID: mega_level_tutorial_2026_page1_title
-TEXT: Mega Evolution
+TEXT: メガシンカ
 
 RESOURCE ID: mega_level_tutorial_2026_page2_body
-TEXT: Mega Energy is energy unique to each Pokémon that can Mega Evolve. It is earned by:
-• Winning Mega Raids
-• Completing certain research tasks
-• Adventuring with a Buddy Pokémon that has Mega Evolved
+TEXT: メガエナジーとは、個々のポケモン特有のメガシンカに必要な活力源のこと。メガエナジーは以下の方法で集めることができます。
+・メガレイドに勝つ
+・特定のリサーチタスクを完了する
+・メガシンカしたことのある相棒ポケモンと探索する  
 
 RESOURCE ID: mega_level_tutorial_2026_page2_title
-TEXT: Mega Energy
+TEXT: メガエナジー
 
 RESOURCE ID: mega_level_tutorial_2026_page3_body
-TEXT: After Mega Evolving a Pokémon once, you can Mega Evolve it again after it rests without using more Mega Energy. You can use Mega Energy while it’s resting to Mega Evolve it sooner.
+TEXT: 初めてポケモンをメガシンカさせたあと、休憩時間を挟んで、メガエナジーを使うことなく再びメガシンカさせることができます。休憩時間内でも、メガエナジーを使えばメガシンカは可能です。
 
 RESOURCE ID: mega_level_tutorial_2026_page3_title
-TEXT: Rest Period
+TEXT: 休憩時間
 
 RESOURCE ID: mega_level_tutorial_2026_page4_body
-TEXT: When you catch a Pokémon that shares a type with your Mega-Evolved Pokémon, you’ll receive the following bonuses. These bonuses increase based on your Mega Level.
-• Extra Candy
-• Extra XP
-• An increased chance of receiving Candy XL
+TEXT: メガシンカしたポケモンと同じタイプのポケモンを捕まえると、メガレベルに応じて以下のボーナスがもらえます。
+・追加のアメ
+・ボーナスXP
+・アメXL入手の確率アップ
 
 RESOURCE ID: mega_level_tutorial_2026_page4_title
-TEXT: Catch Bonuses
+TEXT: 捕まえてもらうボーナス
 
 RESOURCE ID: mega_level_tutorial_2026_page5_body
-TEXT: When a Pokémon’s Mega Level increases, you’ll get more bonuses, and its rest period will shorten. Each time you Mega Evolve a Pokémon, you work towards increasing its Mega Level. You need to use Mega Energy to raise a Pokémon’s Mega Level to the final stage, Super Max Level.
+TEXT: メガレベルが上がると、もらえるボーナスが増え、次にメガシンカできるまでの時間が短くなります。ポケモンをメガシンカさせるたびに、メガレベル上昇に貢献しますが、スーパーマックスレベルにまで上げるには、メガエナジーが必要になります。
 
 RESOURCE ID: mega_level_tutorial_2026_page5_title
-TEXT: Mega Levels
+TEXT: メガレベル
 
 RESOURCE ID: mega_level_unlock_cost_message
-TEXT: Use Mega Energy to unlock {0}.
+TEXT: メガエナジーを使って{0}をアンロック
 
 RESOURCE ID: mega_level_up_unlock_confirmation_title
 TEXT: {0}をレベルアップしますか？
@@ -1884,16 +1917,19 @@ RESOURCE ID: message_open_settings
 TEXT: 設定を開く
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-02-10T22:04:44.096094+00:00 for ja-JP
-at SHA b68fb11b3ec
-Pipeline 3535223, job 50681985
-Patch from: 0.397.0-SHA-5a918511-RC2, 0.399.0-SHA-45852136-RC1
+TEXT: Built at 2026-02-13T23:09:24.654123+00:00 for ja-JP
+at SHA 6d6c847e658
+Pipeline 3541342, job 50979693
+Patch from: 0.399.0-SHA-dbc59b42-RC4, 0.397.1-SHA-7b7c416a-RC5
 
 RESOURCE ID: natural_art_day
 TEXT: 昼の出会い
 
 RESOURCE ID: natural_art_night
 TEXT: 夜の出会い
+
+RESOURCE ID: next_rank_label
+TEXT: 次ランク：
 
 RESOURCE ID: oricorio_mastery_feb2026
 TEXT: マスタリーシリーズ：オドリドリ
@@ -2311,10 +2347,10 @@ RESOURCE ID: quest_medal_rock_platinum
 TEXT: いわタイプポケモンを捕まえてもらえるメダルをプラチナにする
 
 RESOURCE ID: quest_pokestop_edit_singular
-TEXT: Contribute an edit to a PokéStop
+TEXT: ポケストップを編集する
 
 RESOURCE ID: quest_pokestop_nominate_singular
-TEXT: Nominate a PokéStop
+TEXT: ポケストップを申請する
 
 RESOURCE ID: quest_power_up_dark_psychic_plural
 TEXT: Power up Psychic- or Dark-type Pokémon {0} times
@@ -2374,24 +2410,24 @@ RESOURCE ID: quests_log_complete_field_book_page
 TEXT: Complete Field Book Page: {0}
 
 RESOURCE ID: raid_approach_multiple_post_list
-TEXT: USED WHEN YOU WIN: {0}
+TEXT: 勝利時に消費：{0}
 
 RESOURCE ID: raid_approach_multiple_pre_rp
-TEXT: USED WHEN THE BATTLE STARTS:
-A PREMIUM BATTLE PASS
+TEXT: バトル開始時に消費：
+プレミアムバトルパス
 
 RESOURCE ID: raid_approach_multiple_pre_rrp
-TEXT: USED WHEN THE BATTLE STARTS:
-A REMOTE RAID PASS
+TEXT: バトル開始時に消費：
+リモートレイドパス
 
 RESOURCE ID: raid_approach_multiple_remote_usage_plural
-TEXT: YOU CAN JOIN {0} MORE REMOTE RAIDS TODAY.
+TEXT: 今日はあと{0}回リモートレイドに参加できます
 
 RESOURCE ID: raid_approach_multiple_remote_usage_singular
-TEXT: YOU CAN JOIN ONE MORE REMOTE RAID TODAY.
+TEXT: 今日はあと1回リモートレイドに参加できます
 
 RESOURCE ID: raid_message_heal_pokemon
-TEXT: Heal your Pokémon
+TEXT: ポケモンを回復
 
 RESOURCE ID: raid_special_background
 TEXT: イベントのレイドで捕まえるポケモンに限定スペシャル背景がついている可能性
@@ -2560,6 +2596,9 @@ TEXT: X Version
 
 RESOURCE ID: tag_y_version
 TEXT: Y Version
+
+RESOURCE ID: tap_to_skip_message
+TEXT: Tap to Skip
 
 RESOURCE ID: text_rewards_key_buddy_event
 TEXT: <b>もらえるもの：</b>
@@ -2888,10 +2927,10 @@ TEXT: マスタリーシリーズ：オドリドリ
 プレミアムタイムチャレンジ (10/10)
 
 RESOURCE ID: tutorial_need_mega_body
-TEXT: Mega-Evolved Pokémon are essential in Super Mega Raids
+TEXT: メガシンカしたポケモンが必要です。
 
 RESOURCE ID: tutorial_need_mega_title
-TEXT: Mega Evolve to Ready Up
+TEXT: メガシンカさせて準備完了！
 
 RESOURCE ID: tv_title_go_tour_2026_global
 TEXT: GO Tour：カロス地方 – グローバル
@@ -2933,7 +2972,7 @@ RESOURCE ID: unown_o_clock_active
 TEXT: Unown are now appearing in large numbers!
 
 RESOURCE ID: use_raid_ticket_confirmation_buy_currency
-TEXT: Get more {0}
+TEXT: {0}を入手
 
 RESOURCE ID: use_raid_ticket_confirmation_switch_currency_plural
 TEXT: {0}と{1}にする
@@ -2942,10 +2981,10 @@ RESOURCE ID: use_raid_ticket_confirmation_switch_currency_singular
 TEXT: {0}にする
 
 RESOURCE ID: use_raid_ticket_confirmation_ticket_return_count_plural
-TEXT: JOIN THE RAID BATTLE ({0} {1} ARE ONLY USED WHEN YOU WIN.)
+TEXT: レイドバトルに参加！({0}{1}は勝利時に消費されます）
 
 RESOURCE ID: use_raid_ticket_confirmation_ticket_return_count_singular
-TEXT: JOIN THE RAID BATTLE ({0} {1} IS ONLY USED WHEN YOU WIN.)
+TEXT: レイドバトルに参加！({0}{1}は勝利時に消費されます）
 
 RESOURCE ID: valentines_day_2026_timed_research_tiitle
 TEXT: バレンタインタイムチャレンジ

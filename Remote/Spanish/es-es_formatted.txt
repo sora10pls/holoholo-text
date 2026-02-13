@@ -1,11 +1,23 @@
 RESOURCE ID: ar_encounter_no_gyro_err
 TEXT: No se detecta la orientación de tu teléfono. ¿Quieres desactivar el modo RA?
 
+RESOURCE ID: ar_photo_social_bonus_text
+TEXT: Bonus
+
 RESOURCE ID: ar_photo_social_entry_label
 TEXT: ¡Tómate una foto con tu Pokémon favorito!
 
 RESOURCE ID: ar_photo_social_hashtag
 TEXT: #Pokemon30
+
+RESOURCE ID: ar_photo_social_message_save_disabled
+TEXT: To save photos, open your device settings and give Pokémon GO access to photos.
+
+RESOURCE ID: ar_photo_social_name_tag_prompt
+TEXT: Tap the Pokémon’s name to move the label around
+
+RESOURCE ID: ar_photo_social_photo_shared
+TEXT: Photo shared
 
 RESOURCE ID: ar_photo_social_share_default_referral_text
 TEXT: ¡Tómate una foto con tu Pokémon favorito en Pokémon GO! https://pokemongo.com/es
@@ -20,10 +32,19 @@ RESOURCE ID: ar_photo_social_share_prompt
 TEXT: ¡Comparte tus fotos en línea!
 
 RESOURCE ID: ar_photo_social_share_referral_text
-TEXT: ¡Tómate una foto con tu Pokémon favorito en Pokémon GO!
+TEXT: ¡Tómate una foto con tu Pokémon favorito en Pokémon GO! {0}
+
+RESOURCE ID: ar_photo_social_share_sign_in
+TEXT: Start Playing Pokémon GO
+
+RESOURCE ID: ar_photo_social_title_save_disabled
+TEXT: Allow Pokémon GO to save images?
 
 RESOURCE ID: ar_plus_photo_prompt_title
 TEXT: ¡Fotografía Pokémon como nunca antes con la nueva cámara de RA+!
+
+RESOURCE ID: avatar_generic_name
+TEXT:  
 
 RESOURCE ID: avatar_hat_xerneas
 TEXT: Accesorio de Xerneas
@@ -317,7 +338,7 @@ RESOURCE ID: badge_go_tour_2026_tainan_vip_title
 TEXT: Tour de GO en Kalos: Tainan (VIP)
 
 RESOURCE ID: batch_transfer_unique_day_night_level_pokemon
-TEXT: {0} Pokémon with a Portrait
+TEXT: {0} Pokémon con retrato
 
 RESOURCE ID: battle_condition_mega_enrage
 TEXT: {0} se está protegiendo con Megaenergía
@@ -350,7 +371,7 @@ RESOURCE ID: bonus_cd_move_vulpix
 TEXT: ¡Haz evolucionar a Vulpix para conseguir un Ninetales que conozca el ataque cargado Energibola!
 
 RESOURCE ID: bonus_extra_carbink_diancie_energy
-TEXT: Wild Carbink may be holding Diancie Mega Energy
+TEXT: Los Carbink salvajes podrán tener Megaenergía Diancie
 
 RESOURCE ID: bonus_extra_carbink_global_masterwork
 TEXT: Bonus de la investigación magistral para quienes tengan entradas en persona del Tour de GO
@@ -365,16 +386,16 @@ RESOURCE ID: bonus_gift_open_daily_200
 TEXT: Open up to 200 Gifts per day
 
 RESOURCE ID: bonus_gotour_2026_other_mega_level_daily_points_6
-TEXT: Earn up to 6 points daily toward increasing any Pokémon’s Mega Level
+TEXT: Consigue hasta 6 puntos diarios para aumentar el meganivel de cualquier Pokémon
 
 RESOURCE ID: bonus_gotour_2026_other_mega_level_points_6x
-TEXT: Earn 6 points per Mega Evolution toward increasing any Pokémon’s Mega Level
+TEXT: Consigue 6 puntos por megaevolución para aumentar el meganivel de cualquier Pokémon
 
 RESOURCE ID: bonus_gotour_irl_2026_mega_level_daily_points_30
-TEXT: Earn up to 30 points daily toward increasing the Mega Level of any Victreebel or Malamar
+TEXT: Consigue hasta 30 puntos diarios para aumentar el meganivel de cualquier Victreebel o Malamar
 
 RESOURCE ID: bonus_gotour_irl_2026_mega_level_daily_points_6
-TEXT: Earn up to 6 points daily toward increasing the Mega Level of any Victreebel or Malamar
+TEXT: Consigue hasta 6 puntos diarios para aumentar el meganivel de cualquier Victreebel o Malamar
 
 RESOURCE ID: bonus_gotour_kalos_furfrou
 TEXT: Explore the park to get different Furfrou trims not usually available in the region!
@@ -434,9 +455,6 @@ RESOURCE ID: bonus_premier_ball_catch_rate_boost_small
 TEXT: Premier Balls have an increased catch rate
 
 RESOURCE ID: bonus_raid_3_xl_candy_t5_and_mega
-TEXT: Six additional Candy XL for successful five-star raids and Mega Raids
-
-RESOURCE ID: bonus_raid_3_xl_candy_t5_and_mega_temp
 TEXT: Tres Caramelos ++ adicionales al ganar en incursiones de nivel 5 y en megaincursiones
 
 RESOURCE ID: bonus_raid_5k_xp_mega
@@ -560,7 +578,7 @@ RESOURCE ID: carnival_flamigo_website_link
 TEXT: Para obtener más información, visita el <a href="https://pokemongolive.com/post/carnival-of-flamigo-2026">sitio web</a>.
 
 RESOURCE ID: check_out_field_book
-TEXT: Check out Field Book
+TEXT: Mira tu cuaderno
 
 RESOURCE ID: city_manhole_418
 TEXT: Echizen-cho
@@ -587,7 +605,7 @@ RESOURCE ID: claim_all_pokemon_left_to_catch_singular
 TEXT: Te queda 1 Pokémon por capturar.
 
 RESOURCE ID: claim_all_quest_rewards_btn
-TEXT: CLAIM ALL
+TEXT: RECLAMAR TODO
 
 RESOURCE ID: claim_all_quests_confirmation_modal_message
 TEXT: You will be claiming {0} items.
@@ -598,10 +616,10 @@ RESOURCE ID: claim_all_quests_confirmation_modal_title
 TEXT: Do you want to claim all rewards?
 
 RESOURCE ID: claim_all_quests_partial_success_message
-TEXT: Some rewards must be claimed separately.
+TEXT: Algunas recompensas deben reclamarse de manera individual.
 
 RESOURCE ID: claim_all_quests_validation_failed_message
-TEXT: No rewards could be claimed. Please claim any remaining rewards individually.
+TEXT: No se ha podido reclamar ninguna recompensa. Reclama las recompensas restantes de manera individual.
 
 RESOURCE ID: claim_all_rewards_confirmation
 TEXT: ¿Quieres recoger todas las recompensas?
@@ -621,19 +639,19 @@ TEXT: {0}, {1} –
 {2}, {3}
 
 RESOURCE ID: day_and_night_pokemon_ftue_1_body_text_key
-TEXT: Pokémon with these icons have Portraits that reflect when and where they were caught.
+TEXT: Los Pokémon con estos iconos tienen unos retratos que indican cuándo y dónde se capturaron.
 
 RESOURCE ID: day_and_night_pokemon_ftue_2_secondary_body_text_key
-TEXT: Pokémon with Portraits can be found at special PokéStops.
+TEXT: Los Pokémon con retratos se pueden encontrar en Poképaradas especiales.
 
 RESOURCE ID: day_and_night_pokemon_text_key
 TEXT: Find Pokémon at PokéStops
 
 RESOURCE ID: day_night_encounter_ftue_1_secondary_body_text_key
-TEXT: Pokémon caught with these icons will have Portraits that reflect when and where they were caught.
+TEXT: Los Pokémon que captures con estos iconos tendrán unos retratos que indican cuándo y dónde se capturaron.
 
 RESOURCE ID: day_night_tutorial_detail_page
-TEXT: This Pokémon’s Portrait reflects where it was caught.
+TEXT: Este retrato del Pokémon indica dónde se capturó.
 
 RESOURCE ID: desc_unown_o_clock
 TEXT: At the top of each hour, Unown will appear in large numbers!
@@ -657,7 +675,7 @@ RESOURCE ID: dmax_ho_oh_weekend_timed_research
 TEXT: Investigación temporal del Fin de semana de Combates Max de Ho-Oh Dinamax
 
 RESOURCE ID: dn_poi_tutorial_nearby
-TEXT: Discover Pokémon with Portraits by catching Pokémon with these icons!
+TEXT: ¡Descubre Pokémon con retratos capturando Pokémon con estos iconos!
 
 RESOURCE ID: em_carnival_2026_rally_cologne_desc
 TEXT: ¡Te damos la bienvenida a El carnaval de Flamigo!
@@ -714,13 +732,13 @@ RESOURCE ID: em_carnival_2026_tr_path_a
 TEXT: Eligir Baile
 
 RESOURCE ID: em_carnival_2026_tr_path_a_desc
-TEXT: Escoge este camino para conseguir un encuentro con Clefairy, Marowak de Alola y Quaxly, ¡además de recompensas como Incienso y pegatinas!
+TEXT: Escoge este camino para conseguir encuentros con Clefairy, Marowak de Alola y Quaxly, ¡además de recompensas como Incienso y pegatinas!
 
 RESOURCE ID: em_carnival_2026_tr_path_b
 TEXT: Eligir Música
 
 RESOURCE ID: em_carnival_2026_tr_path_b_desc
-TEXT: Escoge este camino para conseguir un encuentro con Jigglypuff, Ludicolo y Kricketot, ¡además de recompensas como Incienso y pegatinas!
+TEXT: Escoge este camino para conseguir encuentros con Jigglypuff, Ludicolo y Kricketot, ¡además de recompensas como Incienso y pegatinas!
 
 RESOURCE ID: enamorus_therian_paid_tr_name
 TEXT: Investigación temporal prémium del Día de Incursiones de Enamorus Forma Tótem
@@ -732,7 +750,7 @@ RESOURCE ID: enamorus_therian_website_link
 TEXT: Para obtener más información, visita el <a href="https://pokemongo.com/news/enamorus-therian-raid-day-2026">sitio web</a>.
 
 RESOURCE ID: encounter_score_daily_bonus
-TEXT: Daily Field Book Bonus
+TEXT: Bonus diario del cuaderno de campo
 
 RESOURCE ID: enhanced_currency_abbreviated
 TEXT: CU
@@ -746,34 +764,34 @@ RESOURCE ID: enhanced_currency_ftue_title
 TEXT: Usa Cargas Unión para unirte a las megaincursiones
 
 RESOURCE ID: enhanced_currency_large_3rrp_title
-TEXT: 600 Link Charges + 3 Remote Raid Passes
+TEXT: 600 Cargas Unión + 3 Pases de incursión remota
 
 RESOURCE ID: enhanced_currency_large_description
-TEXT: A pack of 600 Link Charges, used to join Mega Raids in-person or remotely.
+TEXT: Un lote de 600 Cargas Unión, usadas para unirse a las megaincursiones en persona o a distancia.
 
 RESOURCE ID: enhanced_currency_large_rrp_title
-TEXT: 600 Link Charges + 1 Remote Raid Pass
+TEXT: 600 Cargas Unión + 1 Pase de incursión remota
 
 RESOURCE ID: enhanced_currency_large_title
-TEXT: 600 Link Charges
+TEXT: 600 Cargas Unión
 
 RESOURCE ID: enhanced_currency_maxed_out_warning
 TEXT: Has alcanzado el número máximo de Cargas Unión ({0}). Inténtalo de nuevo cuando tengas menos Cargas Unión.
 
 RESOURCE ID: enhanced_currency_medium_description
-TEXT: A pack of 200 Link Charges, used to join Mega Raids in-person or remotely.
+TEXT: Un lote de 200 Cargas Unión, usadas para unirse a las megaincursiones en persona o a distancia.
 
 RESOURCE ID: enhanced_currency_medium_rrp_title
-TEXT: 200 Link Charges + 1 Remote Raid Pass
+TEXT: 200 Cargas Unión + 1 Pase de incursión remota
 
 RESOURCE ID: enhanced_currency_medium_title
-TEXT: 200 Link Charges
+TEXT: 200 Cargas Unión
 
 RESOURCE ID: enhanced_currency_rrp_title
-TEXT: 50 Link Charges + 1 Remote Raid Pass
+TEXT: 50 Cargas Unión + 1 Pase de incursión remota
 
 RESOURCE ID: enhanced_currency_title
-TEXT: 50 Link Charges
+TEXT: 50 Cargas Unión
 
 RESOURCE ID: enhanced_mega_raid_tutorial_body_1
 TEXT: Combate junto a ocho o más Entrenadores para derrotar a potentes Pokémon megaevolucionados. ¡Podrás conseguir Megaenergía adicional para dar más poder a tus Pokémon!
@@ -838,7 +856,7 @@ RESOURCE ID: extra_guaranteed_xl_candy_mega_five_star_raids
 TEXT: One additional guaranteed Candy XL from Mega Raids and five-star raids
 
 RESOURCE ID: feature_dbs_pokestop_ftue_conv_1
-TEXT: You’ve discovered a special PokéStop! I’m curious about the Pokémon that are close by. Let’s try to catch one!
+TEXT: ¡Has encontrado una Poképarada especial! Me pregunto qué Pokémon habrá alrededor. ¡Capturemos uno!
 
 RESOURCE ID: feature_egg_special_ftue_conv_1
 TEXT: ¡Llegas en el momento perfecto, %PLAYERNAME%! He descubierto un nuevo Huevo muy extraño. Nunca había visto uno con este tono azulado.
@@ -847,216 +865,216 @@ RESOURCE ID: feature_egg_special_ftue_conv_2
 TEXT: Noto cómo irradia calor tras un breve paseo por el laboratorio, ¡como si estuviera a punto de eclosionar! Me da en la nariz que no necesita estar incubando tanto tiempo como los otros.
 
 RESOURCE ID: feature_first_fieldbook_ftue_conv_1
-TEXT: Great job completing your first Field Book page! These items should help you continue your research.
+TEXT: ¡Qué gran trabajo has hecho al completar tu primera página del cuaderno de campo! Estos artículos deberían ayudarte a continuar con tu investigación.
 
 RESOURCE ID: field_book_apr_2026
-TEXT: APRIL
+TEXT: ABRIL
 
 RESOURCE ID: field_book_apr_2026_sub0
-TEXT: April Page 1
+TEXT: Página 1 de abril
 
 RESOURCE ID: field_book_apr_2026_sub1
-TEXT: April Page 2
+TEXT: Página 2 de abril
 
 RESOURCE ID: field_book_apr_2026_sub2
-TEXT: April Page 3
+TEXT: Página 3 de abril
 
 RESOURCE ID: field_book_apr_2026_sub3
-TEXT: April Page 4
+TEXT: Página 4 de abril
 
 RESOURCE ID: field_book_apr_2026_sub4
-TEXT: April Page 5
+TEXT: Página 5 de abril
 
 RESOURCE ID: field_book_apr_2026_sub5
-TEXT: April Page 6
+TEXT: Página 6 de abril
 
 RESOURCE ID: field_book_apr_2026_sub6
-TEXT: April Page 7
+TEXT: Página 7 de abril
 
 RESOURCE ID: field_book_apr_2026_sub7
-TEXT: April Page 8
+TEXT: Página 8 de abril
 
 RESOURCE ID: field_book_apr_2026_sub8
-TEXT: April Page 9
+TEXT: Página 9 de abril
 
 RESOURCE ID: field_book_apr_2026_sub9
-TEXT: April Page 10
+TEXT: Página 10 de abril
 
 RESOURCE ID: field_book_entry_caught_by_in
-TEXT: Caught near {0} in {1}
+TEXT: Capturado cerca de {0} en {1}
 
 RESOURCE ID: field_book_entry_caught_in
-TEXT: Caught in {0}
+TEXT: Capturado en {0}
 
 RESOURCE ID: field_book_entry_hint
 TEXT: Can be found during the {0}.
 
 RESOURCE ID: field_book_entry_hint_day
-TEXT: Can be found during the day.
+TEXT: Se puede encontrar durante el día.
 
 RESOURCE ID: field_book_entry_hint_night
 TEXT: Can be found during the night.
 
 RESOURCE ID: field_book_find_nearby_button
-TEXT: Find Nearby
+TEXT: Encontrar alrededor
 
 RESOURCE ID: field_book_mar_2026
-TEXT: MARCH
+TEXT: MARZO
 
 RESOURCE ID: field_book_mar_2026_sub0
-TEXT: March Page 1
+TEXT: Página 1 de marzo
 
 RESOURCE ID: field_book_mar_2026_sub1
-TEXT: March Page 2
+TEXT: Página 2 de marzo
 
 RESOURCE ID: field_book_mar_2026_sub2
-TEXT: March Page 3
+TEXT: Página 3 de marzo
 
 RESOURCE ID: field_book_mar_2026_sub3
-TEXT: March Page 4
+TEXT: Página 4 de marzo
 
 RESOURCE ID: field_book_mar_2026_sub4
-TEXT: March Page 5
+TEXT: Página 5 de marzo
 
 RESOURCE ID: field_book_mar_2026_sub5
-TEXT: March Page 6
+TEXT: Página 6 de marzo
 
 RESOURCE ID: field_book_mar_2026_sub6
-TEXT: March Page 7
+TEXT: Página 7 de marzo
 
 RESOURCE ID: field_book_mar_2026_sub7
-TEXT: March Page 8
+TEXT: Página 8 de marzo
 
 RESOURCE ID: field_book_mar_2026_sub8
-TEXT: March Page 9
+TEXT: Página 9 de marzo
 
 RESOURCE ID: field_book_mar_2026_sub9
-TEXT: March Page 10
+TEXT: Página 10 de marzo
 
 RESOURCE ID: field_book_may_2026
-TEXT: MAY
+TEXT: MAYO
 
 RESOURCE ID: field_book_may_2026_sub0
-TEXT: May Page 1
+TEXT: Página 1 de mayo
 
 RESOURCE ID: field_book_may_2026_sub1
-TEXT: May Page 2
+TEXT: Página 2 de mayo
 
 RESOURCE ID: field_book_may_2026_sub2
-TEXT: May Page 3
+TEXT: Página 3 de mayo
 
 RESOURCE ID: field_book_may_2026_sub3
-TEXT: May Page 4
+TEXT: Página 4 de mayo
 
 RESOURCE ID: field_book_may_2026_sub4
-TEXT: May Page 5
+TEXT: Página 5 de mayo
 
 RESOURCE ID: field_book_may_2026_sub5
-TEXT: May Page 6
+TEXT: Página 6 de mayo
 
 RESOURCE ID: field_book_may_2026_sub6
-TEXT: May Page 7
+TEXT: Página 7 de mayo
 
 RESOURCE ID: field_book_may_2026_sub7
-TEXT: May Page 8
+TEXT: Página 8 de mayo
 
 RESOURCE ID: field_book_may_2026_sub8
-TEXT: May Page 9
+TEXT: Página 9 de mayo
 
 RESOURCE ID: field_book_may_2026_sub9
-TEXT: May Page 10
+TEXT: Página 10 de mayo
 
 RESOURCE ID: field_book_new_entry_screen_title
-TEXT: Added to Field Book!
+TEXT: ¡Añadido al cuaderno de campo!
 
 RESOURCE ID: field_book_page_complete
-TEXT: Field Book page complete!
+TEXT: ¡Página del cuaderno de campo completada!
 
 RESOURCE ID: field_book_page_completed
-TEXT: Completed!
+TEXT: ¡Completada!
 
 RESOURCE ID: field_book_summary_entry_callout_firstregister
-TEXT: Registered to Pokédex!
+TEXT: ¡Registrado en la Pokédex!
 
 RESOURCE ID: field_book_summary_entry_callout_shiny
-TEXT: Shiny Pokémon!
+TEXT: ¡Pokémon variocolor!
 
 RESOURCE ID: field_book_summary_entry_callout_xxl
-TEXT: XXL Pokémon!
+TEXT: ¡Pokémon XXL!
 
 RESOURCE ID: field_book_summary_entry_callout_xxs
-TEXT: XXS Pokémon!
+TEXT: ¡Pokémon XXS!
 
 RESOURCE ID: field_book_summary_stat_day_night_pokemon_caught
-TEXT: Pokémon with Portraits
+TEXT: Pokémon con retratos
 
 RESOURCE ID: field_book_text_key
-TEXT: Field Book
+TEXT: Cuaderno de campo
 
 RESOURCE ID: field_book_view_pokemon_button
-TEXT: See Pokémon
+TEXT: Ver Pokémon
 
 RESOURCE ID: fieldbook_daily_challenge_header
-TEXT: Today
+TEXT: Hoy
 
 RESOURCE ID: fieldbook_daily_challenge_message
-TEXT: Catch Pokémon with a Day Portrait and a Night Portrait for a small reward!
+TEXT: ¡Captura Pokémon con un retrato diurno o un retrato nocturno para obtener una pequeña recompensa!
 
 RESOURCE ID: fieldbook_header_message
-TEXT: Catch Pokémon with Portraits for your Field Book!
+TEXT: ¡Captura Pokémon con retratos para tu cuaderno de campo!
 
 RESOURCE ID: fieldbook_page_card_details_button
-TEXT: Details
+TEXT: Detalles
 
 RESOURCE ID: fieldbook_pages_section_header
-TEXT: Field Book Pages
+TEXT: Páginas del cuaderno de campo
 
 RESOURCE ID: fieldbook_post_catch_ftue_conversation_0
-TEXT: Wow, what a wonderful Pokémon!
+TEXT: ¡Guau, un Pokémon maravilloso!
 
 RESOURCE ID: fieldbook_post_catch_ftue_conversation_1
-TEXT: Let’s keep track of these Pokémon in this Field Book. How many can you find?
+TEXT: Llevemos un registro de estos Pokémon con este cuaderno de campo. ¿Cuántos podrás encontrar?
 
 RESOURCE ID: fieldbook_summary_all_caught_flavor_text
-TEXT: You caught them all!
+TEXT: ¡Has capturado todos!
 
 RESOURCE ID: fieldbook_summary_few_caught_flavor_text
-TEXT: Good job!
+TEXT: ¡Buen trabajo!
 
 RESOURCE ID: fieldbook_summary_several_caught_flavor_text
-TEXT: Wow!
+TEXT: ¡Hala!
 
 RESOURCE ID: fieldbook_summary_species_caught_text
-TEXT: You caught {0} different Pokémon with Portraits!
+TEXT: ¡Has capturado {0} Pokémon diferentes con retratos!
 
 RESOURCE ID: fieldbook_summary_species_caught_text_singular
 TEXT: You caught 1 Pokemon with a Portrait!
 
 RESOURCE ID: fieldbook_tab_ftue_1_body_text_key
-TEXT: Pokémon in your Field Book have Portraits that reflect where they were caught.
+TEXT: Los Pokémon en tu cuaderno de campo tienen retratos que indican dónde se capturaron.
 
-Try and complete all your Field Book pages!
+¡Trata de completar todas las páginas de tu cuaderno de campo!
 
 RESOURCE ID: fieldbook_tab_ftue_2_secondary_body_text_key
-TEXT: Pokémon with Portraits can be found at special PokéStops.
+TEXT: Los Pokémon con retratos se pueden encontrar en Poképaradas especiales.
 
 RESOURCE ID: fieldbook_tab_ftue_conversation_0
-TEXT: Those Pokémon you just caught have piqued my interest. Let’s keep track of them in this Field Book.
+TEXT: Esos Pokémon que acabas de capturar me resultan interesantes. Vamos a registrarlos en este cuaderno de campo.
 
 RESOURCE ID: filter_key_day
-TEXT: day
+TEXT: día
 
 RESOURCE ID: filter_key_night
-TEXT: night
+TEXT: noche
 
 RESOURCE ID: filter_label_day_night_pokemon
-TEXT: Portraits
+TEXT: Retratos
 
 RESOURCE ID: first_catch_bonus_desc
-TEXT: Earn more XP, Candy, or Stardust for the first Pokémon with a Portrait you catch each day.
+TEXT: Consigue más PX, Caramelos o Polvos Estelares por el primer Pokémon con un retrato que captures cada día.
 
 RESOURCE ID: first_catch_bonus_title
-TEXT: First Catch Bonus
+TEXT: Bonus por primera captura
 
 RESOURCE ID: fusion_resource_black_kyurem_desc
 TEXT: Se utiliza en la fusión de Kyurem con Zekrom para formar un Kyurem Negro. Se puede encontrar al derrotar a Kyurem Negro en incursiones.
@@ -1106,128 +1124,137 @@ TEXT: Meowth Gigamax está apareciendo en los Combates Max
 RESOURCE ID: gmax_meowth_website_link
 TEXT: Para obtener más información, visita el <a href="https://pokemongo.com/news/gigantamax-meowth-max-battle-day-2026">sitio web</a>.
 
+RESOURCE ID: go_pass_milestone_rank
+TEXT: Major Milestone
+
+RESOURCE ID: go_pass_milestone_rewards
+TEXT: Milestone Rewards:
+
+RESOURCE ID: go_pass_rank_level_rewards
+TEXT: Rank {0} Rewards
+
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_00_00
-TEXT: %PLAYERNAME%! Excuse the mess—I’m looking for some notes.
+TEXT: ¡%PLAYERNAME%! Perdón por el desastre que tengo, pero es que ando buscando unas notas.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_00_01
-TEXT: I received an interesting report about a Pokémon today. The witness only caught a glimpse, but from the description, it could be something special.
+TEXT: Me acaba de llegar un informe interesante sobre un Pokémon. Quien lo ha visto solo pudo hacerlo de refilón, pero, por la descripción, podría ser algo especial.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_00_02
-TEXT: I have a theory that it’s a Pokémon originally discovered in the Kalos region.
+TEXT: Tengo la teoría de que es un Pokémon originalmente descubierto en la región de Kalos.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_00_03
-TEXT: I’m trying to dig up some old research to corroborate my hunch, but I haven’t had much luck. Would you like to help? Don’t worry, I’ll handle the paperwork!
+TEXT: Estoy tratando de desempolvar una antigua investigación para corroborar mi corazonada, pero no estoy teniendo mucha suerte. ¿Me echas una mano? No te preocupes, ¡que yo me encargo del papeleo!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_00_04
-TEXT: I’d like you to brush up on Pokémon from Kalos. In the meantime, I’ll try to pick out the diamond in this rough!
+TEXT: Quiero refrescar los Pokémon de Kalos en mi memoria. Mientras tanto, ¡voy a picar piedra hasta encontrar un diamante entre todo esto!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_01_00
-TEXT: I knew you’d deliver—you’re a superstar!
+TEXT: ¡Sabía que ibas a cumplir, eres toda una estrella!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_01_01
-TEXT: How did I do? Well, I almost have my notes organized, but I’ll need more time to actually find what I’m looking for.
+TEXT: ¿Que cómo me ha ido? Pues casi tengo mis notas organizadas, pero voy a necesitar más tiempo para ponerme a leerlas para encontrar lo que busco.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_01_02
-TEXT: It’s easy to forget to check the clock when I’m poring over old research.
+TEXT: Es fácil que se te pase el tiempo volando cuando te pones con investigaciones antiguas.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_01_03
-TEXT: Anyhow, that’s my problem. Why don’t you spend some more time in the field while I keep digging?
+TEXT: Pero ese es mi problema. ¿Por qué no pasas un rato más ahí fuera mientras yo sigo indagando?
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_02_00
-TEXT: Success! I’ve got my notes in order! Now, let’s get down to it.
+TEXT: ¡Eureka! ¡Tengo las notas en orden! Ahora, ¡al lío!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_02_01
-TEXT: The report mentioned that the Pokémon in question was jewel-like. Could it be a Carbink?
+TEXT: El informe mencionaba que el Pokémon en cuestión parecía una joya. ¿Podría ser Carbink?
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_02_02
-TEXT: Jewels mean sparkles, and sparkles make me think of Fairy types. That might be what we’re searching for.
+TEXT: Las joyas brillan, y el brillo me recuerda a los Pokémon de tipo Hada. Puede que sea lo que andamos buscando.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_02_03
-TEXT: Haha, I know that look! You’re ready to dive into adventure!
+TEXT: ¡Me conozco esa mirada! ¡Estás deseando lanzarte a la aventura!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_03_00
-TEXT: %PLAYERNAME%, I’m stuck between a Rock- and a Fairy-type place.
+TEXT: %PLAYERNAME%, estoy dudando si tenemos una situación de tipo Roca o Hada.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_03_01
-TEXT: I was reviewing my notes on Fairy-type Pokémon from the Kalos region, but none of them are a perfect fit.
+TEXT: Estaba revisando mis notas sobre los Pokémon de tipo Hada de Kalos y ninguno encaja a la perefección.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_03_02
-TEXT: Jewels can get confused with rocks, so...maybe the Pokémon we’re looking for is a Rock type?
+TEXT: Las joyas a veces se confunden con las rocas, así que, a lo mejor... ¿el Pokémo que andamos buscando es de tipo Roca?
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_03_03
-TEXT: So, let’s study Rock types next! We’re so close to crystallizing this information. I can feel it!
+TEXT: ¡Analicemos los Pokémon de tipo Roca ahora! Estamos muy cerca de cristalizar toda esta información, ¡lo noto!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_04_00
-TEXT: Astounding work out there! I think we’re truly onto something now.
+TEXT: ¡Gran trabajo! Creo que tenemos algo concreto ahora.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_04_01
-TEXT: It seems like Fairy type and Rock type are both possibilities at this point. Which could it be?
+TEXT: Ahora mismo, parece que los Pokémon de tipo Hada y de tipo Roca son las dos opciones posibles. ¿Cuál será?
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_04_02
-TEXT: The answer is—unsurprisingly—more learning! Let’s keep looking into both types. Surely that’ll make our answer crystal clear.
+TEXT: La respuesta es, para sorpresa de nadie, ¡más investigación! Sigamos analizando ambos tipos. Seguro que eso nos ayuda a conseguir una respuesta brillante.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_04_03
-TEXT: The pressure’s on now! But I know you can handle it, %PLAYERNAME%.
+TEXT: ¡Qué presión! Pero sé que puedes con ello, %PLAYERNAME%.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_05_00
-TEXT: You’ve been putting your all into this research, %PLAYERNAME%, but I think we might’ve run into a wall.
+TEXT: Lo has dado todo en esta investigación, %PLAYERNAME%. Pero creo que hemos llegado a un callejón sin salida.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_05_01
-TEXT: Why don’t we take a break and relax for a bit? Maybe you’ll end up running into our elusive Pokémon.
+TEXT: ¿Te parece si nos tomamos un respiro? Igual acabas encontrándote con el misterioso Pokémon.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_05_02
-TEXT: Meltan and I will take a walk and do some pondering before we continue our work.
+TEXT: Meltan y yo vamos a darnos un paseo y reflexionar un poco antes de seguir con el trabajo.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_05_03
-TEXT: I’m sure your Pokémon would love to spend time with you, too!
+TEXT: ¡Y seguro que tus Pokémon también están deseando pasar tiempo contigo!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_06_00
-TEXT: I see you’ve found a Carbink! That’s great, though now that I get a closer look, it doesn’t match the reports.
+TEXT: ¡Veo que has encontrado un Carbink! Genial, aunque, ahora que lo veo de cerca, no concuerda con lo que sale en los informes.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_06_01
-TEXT: %PLAYERNAME%... What if we’ve been searching for the Mythical Pokémon Diancie this whole time?
+TEXT: %PLAYERNAME%... ¿Y si hemos estado buscando al Pokémon singular Diancie todo este tiempo?
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_06_02
-TEXT: Some speculate that Diancie is the result of a Carbink’s sudden transformation, so that could explain the similarities.
+TEXT: Hay quien afirma que Diancie es el resultado de una transformación súbita de Carbink, eso podría explicar las similitudes.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_06_03
-TEXT: This treasure hunt isn’t over yet!
+TEXT: ¡Pero la búsqueda no ha terminado aún!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_07_00
-TEXT: Exciting news, %PLAYERNAME%!
+TEXT: ¡Buenas noticias, %PLAYERNAME%!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_07_01
-TEXT: I just caught a glimpse of what I’m sure is Diancie! But its coloring seemed unusual, so I’ll need to take a closer look.
+TEXT: ¡Acabo de avistar algo y estoy seguro de que es Diancie! Pero su coloración parecía diferente, voy a tener que echarle un vistazo más de cerca.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_07_02
-TEXT: What a dazzling opportunity! I knew if we kept mining for answers we’d strike it big.
+TEXT: ¡Brillante ocasión! Estaba convencido de que si seguíamos picando encontraríamos algo importante.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_07_03
-TEXT: Let’s get back out there and see what we can find.
+TEXT: Salgamos ahí fuera de nuevo a ver qué podemos encontrar.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_08_00
-TEXT: You’ve done it, %PLAYERNAME%! And what a unique color! Incredible!
+TEXT: ¡Lo has conseguido, %PLAYERNAME%! Y qué color tan especial. ¡Increíble!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_08_01
-TEXT: Did you know Diancie can instantly create diamonds by compressing the carbon in the air between its hands?
+TEXT: ¿Sabías que Diancie puede crear una gran cantidad de diamantes en un instante comprimiendo con las manos el carbono que flota en el aire?
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_08_02
-TEXT: Marvelous to be sure, but there’s still plenty more to be learned about Diancie.
+TEXT: Maravilloso, sin duda, pero aún tenemos que aprender más sobre Diancie.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_08_03
-TEXT: And I know you’re the best Trainer to help it reach its full potential!
+TEXT: Y sé que eres la persona ideal para ayudarlo a alcanzar todo su potencial.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_09_00
-TEXT: Diancie looks like it’s taken quite a shine to you. In fact, it looks ready to Mega Evolve!
+TEXT: Parece que Diancie te ha hecho brillar. Y, de hecho, ¡parece estar listo para megaevolucionar!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_09_01
-TEXT: I’ve recently heard Mega Diancie is also known as the Royal Pink Princess. The dazzling diamond on its forehead is a whopping 2,000 carats!
+TEXT: Hace poco descubrí que el diamante que tiene en la frente es de nada más y nada menos que 2000 quilates y se le conoce como la Princesa Real Rosada.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_09_02
-TEXT: Let me get my sunglasses, because this Mega Evolution is going to be bright!
+TEXT: Espera a que me ponga las gafas de sol, ¡porque esta megaevolución nos va a deslumbrar con su brillo!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_09_03
-TEXT: Thank you for all your efforts, %PLAYERNAME%. Keep that sparkle alive, wherever your journey takes you!
+TEXT: Gracias por todo tu esfuerzo, %PLAYERNAME%. ¡Mantén ese brillo en las aventuras venideras!
 
 RESOURCE ID: go_tour_ep_bonus_title_deluxe_00
 TEXT: Bonus deluxe del nivel 1
@@ -1239,118 +1266,118 @@ RESOURCE ID: go_tour_ep_bonus_title_deluxe_02
 TEXT: Bonus deluxe del nivel 3
 
 RESOURCE ID: go_tour_kalos_furfrou_branch_tr_dialog_00_00
-TEXT: Fashions may change, but so can Furfrou’s trim!
+TEXT: Las modas cambian, ¡y los cortes de Furfrou también!
 
 RESOURCE ID: go_tour_kalos_furfrou_branch_tr_dialog_00_01
-TEXT: No matter how busy you are, there’s always time to set a new trend! And remember, the style that speaks to you is the one that looks best.
+TEXT: No importa lo ocupado que se esté, ¡siempre hay tiempo para crear nuevas tendencias! Y recuerda que el estilo que te llame la atención es el que mejor te quedará.
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_02_00
-TEXT: %PLAYERNAME%, did you know that Mega Energy alone isn’t enough to Mega Evolve a Pokémon? It also needs to have a strong bond with its Trainer.
+TEXT: %PLAYERNAME%, ¿sabías que la Megaenergía por sí sola no basta para hacer que un Pokémon megaevolucione? También debe tener un estrecho vínculo con su Entrenador.
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_02_01
-TEXT: After all, the most meaningful stories aren’t just about the ancient past—they’re also about the relationships we have with our Pokémon today!
+TEXT: Al fin y al cabo, las historias más importantes no hablan solo del pasado ancestral, ¡sino de las relaciones que tenemos con nuestros Pokémon en la actualidad!
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_02_02
-TEXT: And as the hero of that tale, you have to choose which Pokémon you’re going to train! If it’s a Pokémon like Charizard, will it become Mega Charizard X or Mega Charizard Y?
+TEXT: ¡Como héroe de esa historia, tienes que elegir el Pokémon que vas a entrenar! Si se trata de un Pokémon como Charizard, ¿se convertirá en Mega-Charizard X o Mega-Charizard Y?
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_02_03
-TEXT: Get ready to choose your path, %PLAYERNAME%—there’s Mega Evolution to be done!
+TEXT: Prepárate para escoger tu camino, %PLAYERNAME%. ¡Te espera mucha megaevolución!
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_03_00
-TEXT: Everyone needs help sometimes, even the strongest among us. Look at me—I get help with my research from professors all across the world.
+TEXT: Todos necesitamos ayuda alguna vez, incluso los más fuertes. Mírame a mí: profesores de todo el planeta me ayudan con mi investigación.
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_03_01
-TEXT: Keeping up with friends in far-flung places might sound like a lot of effort, but friendship’s like a Scatterbug—it can thrive in any climate or region.
+TEXT: Puede parecer que mantenerse en contacto con amigos que viven en lugares lejanos requiere un gran esfuerzo, pero la amistad es como un Scatterbug: es capaz de florecer en cualquier clima o región.
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_03_02
-TEXT: %PLAYERNAME%, how about you reach out to some of the people who’ve helped you along your journey?
+TEXT: %PLAYERNAME%, ¿por qué no te pones en contacto con algunas de las personas que te han ayudado a lo largo de tu aventura?
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_03_03
-TEXT: Gifts as simple as a sticker on a Postcard can let people know that you appreciate them.
+TEXT: Regalos tan simples como una pegatina o una postal pueden hacer saber a la otra persona que la aprecias.
 
 RESOURCE ID: go_tour_kalos_global_sr_intro_dialog_00_00
-TEXT: Ahh, Kalos! Home of delicious patisserie, high fashion, and fascinating Pokémon! Photos don’t do it justice.
+TEXT: ¡Ahh, Kalos! Hogar de deliciosos pasteles, alta costura y fascinantes Pokémon. Las fotos no le hacen justicia.
 
 RESOURCE ID: go_tour_kalos_global_sr_intro_dialog_00_01
-TEXT: Now, I’d like to tell you a story about a Legendary Pokémon that was first discovered in Kalos.
+TEXT: Quiero contarte la historia de un Pokémon legendario que se descubrió originalmente en Kalos.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_01_00
-TEXT: Are you familiar with the legend of Xerneas, also known as the Life Pokémon? There are countless stories about it.
+TEXT: ¿Te suena la leyenda de Xerneas, también conocido como el Pokémon Creación? Existen incontables historias acerca de él.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_01_01
-TEXT: In some, Xerneas’s horns shine seven different colors when it shares life energy. Others describe it slumbering in the form of a great tree.
+TEXT: En algunas de ellas, sus cuernos brillan  en siete colores diferentes cuando comparte el don de la vida eterna. Otras lo describen durmiendo bajo la apariencia de un árbol.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_01_02
-TEXT: All of these tales show how deeply Xerneas changed the Kalos region.
+TEXT: Todas estas historias reflejan lo mucho que Xerneas cambió la región de Kalos.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_01_03
-TEXT: Study up on the place a bit more and you’ll definitely get a sense of how big its impact was!
+TEXT: ¡Estudia un poco más el lugar y seguro que te haces una idea del gran impacto que tuvo!
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_04_00
-TEXT: Are you ready for a plot twist? Xerneas has a counterpart!
+TEXT: ¿Todo listo para un giro de guion? ¡Xerneas tiene un homólogo opuesto!
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_04_01
-TEXT: Xerneas is the Life Pokémon, and its counterpart, Yveltal, is the Destruction Pokémon. One shares life energy, while the other absorbs it.
+TEXT: Xerneas es el Pokémon Creación y su homólogo opuesto, Yveltal, es el Pokémon Destrucción. Uno comparte energía vital, mientras que el otro la absorbe.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_04_02
-TEXT: It makes you wonder how they feel about each other. Are they enemies...or do they work together?
+TEXT: Me pregunto qué opinarán el uno del otro. ¿Son enemigos... o van de la mano?
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_04_03
-TEXT: Maybe you’ll find the answer as you train and learn more about these Pokémon.
+TEXT: Quizá encuentres la respuesta mientras entrenas y obtienes más información sobre estos Pokémon.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_05_00
-TEXT: I sense the grand finale approaching, %PLAYERNAME%!
+TEXT: ¡Me da la sensación de que se acerca el colofón final, %PLAYERNAME%!
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_05_01
-TEXT: You’ve witnessed firsthand the beauty of many Pokémon that were first discovered in the Kalos region.
+TEXT: Has presenciado de primera mano la belleza de muchos Pokémon que se descubrieron originalmente en la región de Kalos.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_05_02
-TEXT: You rallied your friends and helped bring out your Pokémon’s inner strength.
+TEXT: Has reunido a tus amistades y ayudado a sacar toda la fuerza interior de tus Pokémon.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_05_03
-TEXT: And though we’re nearing the end of this story, something new still awaits just around the corner.
+TEXT: Y, aunque nos acercamos al final de esta historia, algo nuevo nos sigue aguardando a la vuelta de la esquina.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_05_04
-TEXT: The time has come to face Xerneas! Good luck, %PLAYERNAME%!
+TEXT: ¡Ha llegado la hora de enfrentarse a Xerneas! ¡Buena suerte, %PLAYERNAME%!
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_01_00
-TEXT: Are you familiar with the legend of Yveltal, also known as the Destruction Pokémon? There are countless stories about it.
+TEXT: ¿Te suena la leyenda de Yveltal, también conocido como el Pokémon Destrucción? Existen incontables historias acerca de él.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_01_01
-TEXT: In some, Yveltal’s wings and tail glow red when it absorbs life energy. Others say it will someday turn into a great cocoon.
+TEXT: En algunas de ellas, se dice que, al extender sus alas y las plumas de la cola, emite un brillo carmesí que absorbe la energía vital. Otras cuentan que algún día regresará a su forma de crisálida.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_01_02
-TEXT: All these tales show how deeply Yveltal changed the Kalos region.
+TEXT: Todas estas historias reflejan lo mucho que Yveltal cambió la región de Kalos.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_01_03
-TEXT: Study up on the place a bit more and you’ll definitely get a sense of how big its impact was!
+TEXT: ¡Estudia un poco más el lugar y seguro que te haces una idea del gran impacto que tuvo!
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_04_00
-TEXT: Are you ready for a plot twist? Yveltal has a counterpart!
+TEXT: ¿Todo listo para un giro de guion? ¡Yveltal tiene un homólogo opuesto!
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_04_01
-TEXT: Yveltal is the Destruction Pokémon, and its counterpart, Xerneas, is the Life Pokémon. One absorbs life energy, while the other shares it.
+TEXT: Yveltal es el Pokémon Destrucción y su homólogo opuesto, Xerneas, es el Pokémon Creación. Uno absorbe energía vital, mientras que el otro comparte el don de la vida eterna.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_04_02
-TEXT: It makes you wonder how they feel about each other. Are they enemies...or do they work together?
+TEXT: Me pregunto qué opinarán el uno del otro. ¿Son enemigos... o van de la mano?
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_04_03
-TEXT: Maybe you’ll find the answer as you train and learn more about these Pokémon.
+TEXT: Quizá encuentres la respuesta mientras entrenas y obtienes más información sobre estos Pokémon.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_05_00
-TEXT: The grand finale is approaching, %PLAYERNAME%!
+TEXT: ¡Se acerca el colofón final, %PLAYERNAME%!
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_05_01
-TEXT: You’ve witnessed firsthand the beauty of many Pokémon that were first discovered in the Kalos region.
+TEXT: Has presenciado de primera mano la belleza de muchos Pokémon que se descubrieron originalmente en la región de Kalos.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_05_02
-TEXT: You rallied your friends and helped bring out your Pokémon’s inner strength.
+TEXT: Has reunido a tus amistades y ayudado a sacar toda la fuerza interior de tus Pokémon.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_05_03
-TEXT: And though we’re nearing the end of this story, something new still awaits just around the corner.
+TEXT: Y, aunque nos acercamos al final de esta historia, algo nuevo nos sigue aguardando a la vuelta de la esquina.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_05_04
-TEXT: The time has come to face Yveltal! Good luck, %PLAYERNAME%!
+TEXT: ¡Ha llegado la hora de enfrentarse a Yveltal! ¡Buena suerte, %PLAYERNAME%!
 
 RESOURCE ID: go_tour_kalos_irl_sr_branch_dialog_01_00
 TEXT: Tomemos una decisión para hoy. ¿Prefieres investigar al Pokémon Creación, Xerneas, o al Pokémon Destrucción, Yveltal?
@@ -1422,10 +1449,10 @@ RESOURCE ID: go_tour_kalos_irl_sr_yveltal_dialog_03_03
 TEXT: Recuerda esto y no te olvides del poder de la megaevolución , ¡y seguro que saldrás triunfante en vuestro encuentro!
 
 RESOURCE ID: go_tour_kalos_portals_intro_tr_dialog_00_00
-TEXT: The appearance of all these powerful Pokémon threw me for a loop. Then I had a wild thought: What if they were teleported here by Hoopa? There’s only one way to find out!
+TEXT: La aparición de todos estos potentes Pokémon me ha dejado descolocado. Pero he tenido una idea loca: ¿y si los ha teletransportado Hoopa hasta aquí? ¡Solo hay una forma de averiguarlo!
 
 RESOURCE ID: gofest_welcome_generic
-TEXT: Welcome to Pokémon GO Fest: Global!
+TEXT: ¡Te damos la bienvenida al evento global del Festival de Pokémon GO!
 
 RESOURCE ID: gotour2026_boqus_header_daily
 TEXT: Camino a Kalos: Tareas diarias
@@ -1481,13 +1508,13 @@ TEXT: Purchase GO Pass Deluxe: Road to Kalos to unlock the following rewards!
 Trainers can earn 150 bonus GO Points daily from February 23 to 27 in addition to the points earned by Pass Tasks. There’s no limit on how many points can be earned during the global event on February 28 and March 1!
 
 RESOURCE ID: gotour_2026_welcome_global
-TEXT: Welcome to Pokémon GO Tour: Kalos – Global!
+TEXT: ¡Te damos la bienvenida al evento global del Tour de Pokémon GO: Kalos!
 
 RESOURCE ID: gotour_welcome_generic
-TEXT: Welcome to Pokémon GO Tour: Global!
+TEXT: ¡Te damos la bienvenida al evento global del Tour de Pokémon GO!
 
 RESOURCE ID: gowild_welcome_generic
-TEXT: Welcome to Pokémon GO Wild Area: Global!
+TEXT: ¡Te damos la bienvenida al evento global del  Área Silvestre de Pokémon GO!
 
 RESOURCE ID: great_league_championship_series_2026
 TEXT: Copa de la Serie de Campeonatos de Pokémon GO 2026
@@ -1520,7 +1547,7 @@ RESOURCE ID: ho_oh_dmax_tr_2025_title
 TEXT: Investigación temporal prémium del Fin de semana de Combates Max de Ho-Oh Dinamax
 
 RESOURCE ID: home_transfer_error_day_night
-TEXT: You can’t send Pokémon with Portraits.
+TEXT: Los Pokémon con retrato no pueden enviarse.
 
 RESOURCE ID: in_person_tickets
 TEXT: Entradas de eventos en persona
@@ -1562,9 +1589,9 @@ RESOURCE ID: item_beans_name_plural
 TEXT: Células de Zygarde
 
 RESOURCE ID: item_enhanced_currency_desc
-TEXT: Link Charges can be used to enter Mega Raids in place of Raid passes. Link Charges are required to enter Mega Raids Remotely.
+TEXT: Las Cargas Unión se pueden utilizar para unirse a las megaincursiones en lugar de los Pases de incursión. Las Cargas Unión son un requisito para unirse a las megaincursiones a distancia.
 
-Earn Link Charges from activities such as Weekly Challenges, Campfire Check-Ins, and opening Gifts.
+Puedes obtener Cargas Unión en actividades como los desafíos semanales, al participar en Campfire o abriendo regalos.
 
 RESOURCE ID: item_enhanced_currency_holder_desc
 TEXT: Un recipiente que contiene Cargas Unión. Puede almacenar hasta {0} cargas simultáneas.
@@ -1577,10 +1604,10 @@ RESOURCE ID: item_enhanced_currency_holder_name
 TEXT: Batería Unión
 
 RESOURCE ID: item_enhanced_currency_name
-TEXT: Link Charge
+TEXT: Carga Unión
 
 RESOURCE ID: item_enhanced_currency_name_plural
-TEXT: Link Charges
+TEXT: Cargas Unión
 
 RESOURCE ID: item_event_ticket_02_desc_catch_mastery_oricorio
 TEXT: Una entrada para acceder a la investigación temporal prémium de Objetivo de Captura: Oricorio el 7 de febrero de 2026 de 10:00 a 20:00 en tu hora local, estés donde estés.
@@ -1643,10 +1670,10 @@ RESOURCE ID: item_event_ticket_pink_details_cd_vulpix26
 TEXT: Esta entrada se activará automáticamente el 1 de febrero para darte acceso a la investigación especial Frío y caliente, estés donde estés.
 
 RESOURCE ID: item_paid_raid_ticket_name_plural
-TEXT: Premium Battle Passes
+TEXT: Pases de combate prémium
 
 RESOURCE ID: item_remote_raid_ticket_name_plural
-TEXT: Remote Raid Passes
+TEXT: Pases de incursión remota
 
 RESOURCE ID: lobby_group_size_warning
 TEXT: El tamaño del grupo sugerido para esta incursión es de {0} jugadores.
@@ -1811,7 +1838,7 @@ RESOURCE ID: mega_level_bottom_section
 TEXT: Haz megaevolucionar tu Pokémon para obtener Caramelos adicionales y PC potenciados
 
 RESOURCE ID: mega_level_energy_hint
-TEXT: Win a Super Mega Raid to earn lots of Mega Energy!
+TEXT: ¡Gana en una supermegaincursión para conseguir un montón de Megaenergía!
 
 RESOURCE ID: mega_level_energy_requirement_message
 TEXT: Haz megaevolucionar a {0} {1} veces más para alcanzar el el nivel máximo y usa después la Megaenergía para desbloquear el {2}.
@@ -1890,11 +1917,14 @@ TEXT: PC mejorados
 RESOURCE ID: mega_perk_cp_boost_excellentplus
 TEXT: PC muy mejorados
 
+RESOURCE ID: mega_perk_xl_bonus_great
+TEXT: Más probabilidad de conseguir Caramelos ++
+
 RESOURCE ID: mega_remote_iap_nc_rrp_title
-TEXT: Uh-oh! You’re out of Remote Raid Passes and don’t have enough Link Charges.
+TEXT: ¡Vaya! Te has quedado sin Pases de incursión remota y no tienes suficientes Cargas Unión.
 
 RESOURCE ID: mega_trainers_suggested_count
-TEXT: {0}+ Trainers with Mega-Evolved Pokémon
+TEXT: Más de {0} Entrenadores con Pokémon megaevolucionados
 
 RESOURCE ID: meowth_gmax_tr_2026_title
 TEXT: Investigación temporal prémium de Meowth Gigamax
@@ -1909,16 +1939,16 @@ RESOURCE ID: message_open_settings
 TEXT: Abrir Opciones
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-02-10T22:04:44.096094+00:00 for es-ES
-at SHA b68fb11b3ec
-Pipeline 3535223, job 50681985
-Patch from: 0.397.0-SHA-5a918511-RC2, 0.399.0-SHA-45852136-RC1
+TEXT: Built at 2026-02-13T23:09:24.654123+00:00 for es-ES
+at SHA 6d6c847e658
+Pipeline 3541342, job 50979693
+Patch from: 0.399.0-SHA-dbc59b42-RC4, 0.397.1-SHA-7b7c416a-RC5
 
 RESOURCE ID: natural_art_day
-TEXT: Day
+TEXT: Día
 
 RESOURCE ID: natural_art_night
-TEXT: Night
+TEXT: Noche
 
 RESOURCE ID: oricorio_mastery_feb2026
 TEXT: Objetivo de captura: Oricorio
@@ -1930,7 +1960,7 @@ RESOURCE ID: paid_tr_lunar_new_year_feb2026_header_0
 TEXT: Investigación temporal prémium del Año Nuevo Lunar 2026 (1/1)
 
 RESOURCE ID: past_field_books_button
-TEXT: PAST FIELD BOOKS
+TEXT: CUADERNOS PREVIOS
 
 RESOURCE ID: photobomb_five_vulpix
 TEXT: 5 encuentros sorpresa con Vulpix o Vulpix de Alola al usar Instantánea de GO
@@ -1961,7 +1991,7 @@ TEXT: ¡Busca los sellos por todo Japón!
 Puedes consultar las ubicaciones de las Poké Lids en el siguiente sitio web.
 
 RESOURCE ID: pokemon_day_night_info_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer this Pokémon with a Portrait?
+TEXT:  ¿Seguro que quieres transferir este Pokémon con un retrato?
 
 RESOURCE ID: pokemon_desc_tmpevo_0036_0001
 TEXT: Se desplaza flotando gracias al poder de la luz lunar, que le confiere el control de la gravedad en un radio de 10 m.
@@ -2048,7 +2078,7 @@ RESOURCE ID: pokemon_ibfc_name_0778
 TEXT: Busted Form
 
 RESOURCE ID: pokemon_id_number_tag
-TEXT: #{0}
+TEXT: N.º {0}
 
 RESOURCE ID: pokemon_name_0036_0001
 TEXT: Mega-Clefable
@@ -2123,12 +2153,12 @@ RESOURCE ID: pokemon_name_0870_0001
 TEXT: Mega-Falinks
 
 RESOURCE ID: pokestop_field_book
-TEXT: Field Book
+TEXT: Cuaderno de campo
 
 RESOURCE ID: pokestop_field_book_message
-TEXT: Find Pokémon for your Field Book at this PokéStop. These Pokémon have Portraits that reflect where they were caught.
+TEXT: Encuentra Pokémon para tu cuaderno de campo en esta Poképarada. Estos Pokémon tienen unos retratos que indican dónde han sido capturados.
 
-Pokémon with Day Portraits will appear between 6:00 a.m. and 6:00 p.m., and Pokémon with Night Portraits will appear between 6:00 p.m. and 6:00 a.m.
+Los Pokémon con retratos diurnos aparecerán entre las 06:00 y las 18:00, mientras que los Pokémon con retratos nocturnos aparecerán entre las 18:00 y las 06:00.
 
 RESOURCE ID: pokestop_field_book_message_with_times
 TEXT: Find Pokémon for your Field Book at this PokéStop. These Pokémon have Portraits that reflect where they were caught.
@@ -2136,7 +2166,7 @@ TEXT: Find Pokémon for your Field Book at this PokéStop. These Pokémon have P
 Pokémon with day Portraits will appear between {0} and Pokémon with night Portraits will appear between {1}.
 
 RESOURCE ID: pokestop_field_book_title
-TEXT: PokéStops
+TEXT: Poképaradas
 
 RESOURCE ID: portals_to_power_tr_0
 TEXT: Investigación temporal: Portales de poder (1/5)
@@ -2207,6 +2237,9 @@ TEXT: PC mejorados
 RESOURCE ID: primal_perk_cp_boost_excellentplus
 TEXT: PC muy mejorados
 
+RESOURCE ID: primal_perk_xl_bonus_great
+TEXT: Más probabilidad de conseguir Caramelos ++
+
 RESOURCE ID: quest_branch_choose_chespin
 TEXT: Choose Chespin
 
@@ -2217,13 +2250,13 @@ RESOURCE ID: quest_branch_choose_debutante
 TEXT: Choose Debutante Trim
 
 RESOURCE ID: quest_branch_choose_debutante_desc
-TEXT: Select this option to change your usual regional Furfrou trim or trims to the Debutante Trim for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
+TEXT: Selecciona esta opción para cambiar el corte o cortes regionales habituales de tu Furfrou por el Corte Señorita durante el resto del evento. Cambiar el corte de tus Furfrou de uno a otro tendrá un coste de 25 Caramelos Furfrou y 10 000 Polvos Estelares.
 
 RESOURCE ID: quest_branch_choose_diamond
 TEXT: Choose Diamond Trim
 
 RESOURCE ID: quest_branch_choose_diamond_desc
-TEXT: Select this option to change your usual regional Furfrou trim or trims to the Diamond Trim for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
+TEXT: Selecciona esta opción para cambiar el corte o cortes regionales habituales de tu Furfrou por el Corte Rombo durante el resto del evento. Cambiar el corte de tus Furfrou de uno a otro tendrá un coste de 25 Caramelos Furfrou y 10 000 Polvos Estelares.
 
 RESOURCE ID: quest_branch_choose_fennekin
 TEXT: Choose Fennekin
@@ -2241,25 +2274,25 @@ RESOURCE ID: quest_branch_choose_kabuki
 TEXT: Choose Kabuki Trim
 
 RESOURCE ID: quest_branch_choose_kabuki_desc
-TEXT: Select this option to change your usual regional Furfrou trim or trims to the Kabuki Trim for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
+TEXT: Selecciona esta opción para cambiar el corte o cortes regionales habituales de tu Furfrou por el Corte Kabuki durante el resto del evento. Cambiar el corte de tus Furfrou de uno a otro tendrá un coste de 25 Caramelos Furfrou y 10 000 Polvos Estelares.
 
 RESOURCE ID: quest_branch_choose_la_reine
 TEXT: Choose La Reine Trim
 
 RESOURCE ID: quest_branch_choose_la_reine_desc
-TEXT: Select this option to change your usual regional Furfrou trim or trims to the La Reine Trim for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
+TEXT: Selecciona esta opción para cambiar el corte o cortes regionales habituales de tu Furfrou por el Corte Aristocrático durante el resto del evento. Cambiar el corte de tus Furfrou de uno a otro tendrá un coste de 25 Caramelos Furfrou y 10 000 Polvos Estelares.
 
 RESOURCE ID: quest_branch_choose_pharaoh
 TEXT: Choose Pharaoh Trim
 
 RESOURCE ID: quest_branch_choose_pharaoh_desc
-TEXT: Select this option to change your usual regional Furfrou trim or trims to the Pharaoh Trim for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
+TEXT: Selecciona esta opción para cambiar el corte o cortes regionales habituales de tu Furfrou por el Corte Faraónico durante el resto del evento. Cambiar el corte de tus Furfrou de uno a otro tendrá un coste de 25 Caramelos Furfrou y 10 000 Polvos Estelares.
 
 RESOURCE ID: quest_branch_choose_star
 TEXT: Choose Star Trim
 
 RESOURCE ID: quest_branch_choose_star_desc
-TEXT: Select this option to change your usual regional Furfrou trim or trims to the Star Trim for the remainder of the event. Changing your Furfrou from one trim to any other trim will cost 25 Furfrou Candy and 10,000 Stardust.
+TEXT: Selecciona esta opción para cambiar el corte o cortes regionales habituales de tu Furfrou por el Corte Estrella durante el resto del evento. Cambiar el corte de tus Furfrou de uno a otro tendrá un coste de 25 Caramelos Furfrou y 10 000 Polvos Estelares.
 
 RESOURCE ID: quest_branch_choose_trim_prompt
 TEXT: Elige un corte de Furfrou
@@ -2395,7 +2428,7 @@ RESOURCE ID: quest_vulpix_catch_b
 TEXT: Captura {0} Vulpix o Vulpix de Alola
 
 RESOURCE ID: quests_claim_field_book_quest_encounter_first
-TEXT: Complete your Field Book encounter first!
+TEXT: ¡Completa antes tu encuentro del cuaderno de campo!
 
 RESOURCE ID: quests_log_complete_field_book_page
 TEXT: Complete Field Book Page: {0}
@@ -2421,21 +2454,21 @@ RESOURCE ID: raid_message_heal_pokemon
 TEXT: Cura tus Pokémon
 
 RESOURCE ID: raid_special_background
-TEXT: Pokémon encountered from event raids may have an exclusive Special Background
+TEXT: Los Pokémon que te encuentres en incursiones del evento podrán tener un fondo especial exclusivo
 
 RESOURCE ID: rebuild_event_pass_pages
-TEXT: The GO Pass page was refreshed.
+TEXT: Se ha refrescado la página del Pase de GO.
 
 RESOURCE ID: remote_raid_battle_helptext_nc
-TEXT: Using Link Charges and a Remote Raid Pass
+TEXT: Usa Cargas Unión y un Pase de incursión remota
 
 RESOURCE ID: remote_trade_time_locked_message_singular_day
 TEXT: Puedes intercambiar este Pokémon a distancia en 1 día. Este Pokémon mantendrá la etiqueta de intercambio remoto.
 
 RESOURCE ID: return_to_map_day_night_tutorial_body_text
-TEXT: These Pokémon have Portraits that reflect where they were caught.
+TEXT: Estos Pokémon tienen unos retratos que indican dónde se han capturado.
 
-Keep track of these Pokémon in your Field Book.
+Lleva un registro de estos Pokémon con tu cuaderno de campo.
 
 RESOURCE ID: road_to_kalos_title
 TEXT: Camino a Kalos
@@ -2511,7 +2544,7 @@ RESOURCE ID: see_bonus_ranks_button
 TEXT: VER NIVELES ADICIONALES
 
 RESOURCE ID: see_field_book
-TEXT: SEE FIELD BOOK
+TEXT: VER CUADERNO DE CAMPO
 
 RESOURCE ID: shadow_raid_day_raikou_event_name
 TEXT: Día de Incursiones oscuras de Raikou
@@ -2523,16 +2556,16 @@ RESOURCE ID: share_referral_link_default
 TEXT: ¡Tómate una foto con tu Pokémon favorito en Pokémon GO! https://pokemongo.com/es
 
 RESOURCE ID: shop_enhanced_currency_description_plural
-TEXT: You need {0} more Link Charges to enter this battle.
+TEXT: Necesitas {0} Cargas Unión más para unirte a este combate.
 
 RESOURCE ID: shop_enhanced_currency_description_singular
-TEXT: You need 1 more Link Charge to enter this battle.
+TEXT: Necesitas 1 Carga Unión más para unirte a este combate.
 
 RESOURCE ID: shop_enhanced_currency_title
-TEXT: Not enough Link Charges.
+TEXT: No tienes suficientes Cargas Unión.
 
 RESOURCE ID: shop_remote_raid_passes_title
-TEXT: Uh-oh! You’re out of Remote Raid Passes.
+TEXT: ¡Vaya! Te has quedado sin Pases de incursión remota.
 
 RESOURCE ID: sign_in_bonus_key
 TEXT: Inicia sesión o crea una cuenta para recibir bonus.
@@ -2595,6 +2628,9 @@ TEXT: X Version
 
 RESOURCE ID: tag_y_version
 TEXT: Y Version
+
+RESOURCE ID: tap_to_skip_message
+TEXT: Tap to Skip
 
 RESOURCE ID: text_rewards_key_buddy_event
 TEXT: <b>Recompensas incluidas:</b>
@@ -2697,22 +2733,22 @@ RESOURCE ID: title_unown_o_clock
 TEXT: Unown O’Clock
 
 RESOURCE ID: today_view_fieldbook_tab_label
-TEXT: Field Book
+TEXT: Cuaderno de campo
 
 RESOURCE ID: today_view_gopass_tab_label
-TEXT: GO Pass
+TEXT: Pase de GO
 
 RESOURCE ID: today_view_research_tab_label
-TEXT: Research
+TEXT: Investigación
 
 RESOURCE ID: today_view_special_tab_label
-TEXT: Special
+TEXT: Especial
 
 RESOURCE ID: today_view_timed_tab_label
-TEXT: Timed
+TEXT: Temporal
 
 RESOURCE ID: today_view_today_tab_label
-TEXT: Today
+TEXT: Hoy
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title
 TEXT: Poodle Caboodle Timed Research
@@ -2949,10 +2985,10 @@ RESOURCE ID: use_raid_ticket_confirmation_buy_currency
 TEXT: Get more {0}
 
 RESOURCE ID: use_raid_ticket_confirmation_switch_currency_plural
-TEXT: Switch to {0} and {1}
+TEXT: Cambiar a {0} y {1}
 
 RESOURCE ID: use_raid_ticket_confirmation_switch_currency_singular
-TEXT: Switch to {0}
+TEXT: Cambiar a {0}
 
 RESOURCE ID: use_raid_ticket_confirmation_ticket_return_count_plural
 TEXT: ÚNETE A LA INCURSIÓN (SOLO SE USAN {0} {1} TRAS GANAR).
@@ -2967,11 +3003,11 @@ RESOURCE ID: vulpix_cd_website_link
 TEXT: Para obtener más información, visita el <a href="https://pokemongo.com/news/202601_communityday-february-2026-vulpix">sitio web</a>.
 
 RESOURCE ID: what_is_field_book_key
-TEXT: What is a Field Book?
+TEXT: ¿Qué es un cuaderno de campo?
 
 RESOURCE ID: wyf_event_name
 TEXT: ¿Cuál es tu favorito?
 
 RESOURCE ID: you_caught_day_night_pokemon
-TEXT: You caught a Pokémon for your Field Book!
+TEXT: ¡Has capturado un Pokémon para tu cuaderno de campo!
 
