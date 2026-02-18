@@ -16,6 +16,9 @@ TEXT: Tap the Pokémon’s name to move the label around
 RESOURCE ID: ar_photo_social_photo_shared
 TEXT: Photo shared
 
+RESOURCE ID: ar_photo_social_review_confirm_exit_message
+TEXT: Jika kamu meninggalkan halaman ini, foto-foto yang belum disimpan akan hilang.
+
 RESOURCE ID: ar_photo_social_share_default_referral_text
 TEXT: Jepret foto bersama Pokémon favoritmu di Pokémon GO! https://pokemongo.com/
 
@@ -29,7 +32,7 @@ RESOURCE ID: ar_photo_social_share_prompt
 TEXT: Bagikan fotomu secara daring!
 
 RESOURCE ID: ar_photo_social_share_referral_text
-TEXT: Jepret foto bersama Pokémon favoritmu di Pokémon GO! {0}
+TEXT: Ambil foto bersama Pokémon di Pokémon GO!
 
 RESOURCE ID: ar_photo_social_share_sign_in
 TEXT: Start Playing Pokémon GO
@@ -371,13 +374,13 @@ RESOURCE ID: bonus_extra_carbink_global_masterwork
 TEXT: Bonus Penelitian Mahakarya untuk pemegang tiket Tur GO yang hadir langsung
 
 RESOURCE ID: bonus_gift_inventory_40
-TEXT: Gift storage increased to 40
+TEXT: Penyimpanan Hadiah ditingkatkan menjadi 40
 
 RESOURCE ID: bonus_gift_open_daily_100
-TEXT: Open up to 100 Gifts per day
+TEXT: Buka hingga 100 Hadiah per hari
 
 RESOURCE ID: bonus_gift_open_daily_200
-TEXT: Open up to 200 Gifts per day
+TEXT: Buka hingga 200 Hadiah per hari
 
 RESOURCE ID: bonus_gotour_2026_other_mega_level_daily_points_6
 TEXT: Dapatkan hingga 6 poin per hari dari meningkatkan Level Mega Pokémon mana pun
@@ -392,16 +395,16 @@ RESOURCE ID: bonus_gotour_irl_2026_mega_level_daily_points_6
 TEXT: Dapatkan hingga 6 poin per hari dari meningkatkan Level Mega Victreebel atau Malamar
 
 RESOURCE ID: bonus_gotour_kalos_furfrou
-TEXT: Explore the park to get different Furfrou trims not usually available in the region!
+TEXT: Jelajahi taman untuk mendapatkan berbagai potongan Furfrou yang biasanya tidak tersedia di daerah ini!
 
 RESOURCE ID: bonus_gotour_mateo_encounter
-TEXT: Exchange more Gifts with Mateo each day
+TEXT: Bertukar lebih banyak Hadiah dengan Mateo setiap hari 
 
 RESOURCE ID: bonus_gotour_zygarde_cell
-TEXT: Chance to discover Zygarde Cells on more Routes per day
+TEXT: Kesempatan untuk menemukan Sel Zygarde di lebih banyak Rute per hari
 
 RESOURCE ID: bonus_incense_costume_pikachu
-TEXT: Incense may attract costumed Pikachu
+TEXT: Pewangi akan memikat Pikachu berkostum
 
 RESOURCE ID: bonus_incense_hisui_costume_pikachu
 TEXT: Pewangi akan memikat Pikachu bertopi Rei atau Pikachu bertudung Akari
@@ -425,7 +428,7 @@ RESOURCE ID: bonus_mateo_encounter_daily_25
 TEXT: Bertukar Hadiah dengan Mateo di hingga 25 Rute per hari
 
 RESOURCE ID: bonus_mega_cp_boost
-TEXT: Boosted CP for all Mega-Evolved Pokémon
+TEXT: Peningkatan CP untuk semua Pokémon hasil Evolusi Mega
 
 RESOURCE ID: bonus_mega_energy_spin_chance
 TEXT: Peluang untuk menerima Energi Mega dari memutar PokéStop atau Gym
@@ -440,13 +443,13 @@ RESOURCE ID: bonus_ppk_special_background
 TEXT: Pokémon yang ditangkap dari Raid bintang lima akan memiliki Latar Belakang Lokasi PokéPark KANTO eksklusif.
 
 RESOURCE ID: bonus_premier_ball_catch_rate_boost_high
-TEXT: Premier Balls have a massively increased catch rate
+TEXT: Bola Premier memiliki peningkatan peluang tangkap yang sangat tinggi
 
 RESOURCE ID: bonus_premier_ball_catch_rate_boost_med
-TEXT: Premier Balls have a largely increased catch rate
+TEXT: Bola Premier memiliki peningkatan peluang tangkap yang lebih tinggi
 
 RESOURCE ID: bonus_premier_ball_catch_rate_boost_small
-TEXT: Premier Balls have an increased catch rate
+TEXT: Bola Premier memiliki peningkatan peluang tangkap
 
 RESOURCE ID: bonus_raid_3_xl_candy_t5_and_mega
 TEXT: Tambahan 3 Permen XL dari memenangkan Raid bintang 5 dan Raid Mega
@@ -455,21 +458,24 @@ RESOURCE ID: bonus_raid_5k_xp_mega
 TEXT: Tambahan hadiah 5.000 XP setelah memenangkan Raid Mega
 
 RESOURCE ID: bonus_raid_6_candy_t5_and_mega
-TEXT: Six additional Candy for successful five-star raids and Mega Raids
+TEXT: Tambahan 6 Permen dari memenangkan Raid bintang 5 dan Raid Mega
+
+RESOURCE ID: bonus_raid_6_xl_candy_t5_and_mega
+TEXT: Tambahan 6 Permen XL dari memenangkan Raid bintang 5 dan Raid Mega
 
 RESOURCE ID: bonus_routes_flabebe
 TEXT: Peningkatan peluang Flabébé muncul di Rute
 
 RESOURCE ID: bonus_routes_flabebe_los_angeles
-TEXT: Increased chance of encountering White Flower Flabébé, Orange Flower Flabébé, and Yellow Flower Flabébé on Routes
+TEXT: Peningkatan peluang bertemu dengan Flabébé Bunga Putih, Flabébé Bunga Oranye, dan Flabébé Bunga Kuning di Rute.
 
 RESOURCE ID: bonus_routes_flabebe_tainan
-TEXT: Increased chance of encountering White Flower Flabébé, Orange Flower Flabébé, and Blue Flower Flabébé on Routes
+TEXT: Peningkatan peluang bertemu dengan Flabébé Bunga Putih, Flabébé Bunga Oranye, dan Flabébé Bunga Biru di Rute.
 
 RESOURCE ID: bonus_scatterbug_pin_1
 TEXT: Scatterbug muncul setelah setiap 1 Hadiah disematkan pada tiap daerah
 
-RESOURCE ID: bonus_scatterbug_pin_3_temp
+RESOURCE ID: bonus_scatterbug_pin_3
 TEXT: Peningkatan progres sub-medali Scatterbug untuk setiap Kartu Pos yang disematkan
 
 RESOURCE ID: bonus_scatterbug_pin_6
@@ -479,10 +485,10 @@ RESOURCE ID: bonus_special_background_t1_t5_raid
 TEXT: Pokémon yang ditangkap dari Raid bintang 1 atau 5 mungkin akan memiliki Latar Belakang Spesial
 
 RESOURCE ID: bonus_special_background_t5_and_mega_raid
-TEXT: Pokémon caught from five-star raids and Mega Raids may have a Special Background
+TEXT: Pokémon yang ditangkap dari Raid bintang 5 dan Raid Mega mungkin akan memiliki Latar Belakang Spesial
 
 RESOURCE ID: bonus_stickers_gotour_kalos
-TEXT: GO Tour: Kalos stickers available from Gifts and spinning PokéStops
+TEXT: Stiker Tur GO: Kalos tersedia dari Hadiah dan memutar PokéStop
 
 RESOURCE ID: bonus_today_event_sr
 TEXT: Penelitian Spesial eksklusif event kini tersedia
@@ -648,7 +654,7 @@ RESOURCE ID: day_night_tutorial_detail_page
 TEXT: Potret Pokémon ini menampilkan tempat ia ditangkap.
 
 RESOURCE ID: desc_unown_o_clock
-TEXT: At the top of each hour, Unown will appear in large numbers!
+TEXT: Pada tepat setiap jam, Unown akan muncul secara massal!
 
 RESOURCE ID: details_link_key_dmax_ho_oh
 TEXT: Untuk detail lebih lanjut, kunjungi <a href="https://pokemongo.com/news/ho-oh-max-battle-weekend-2026">situs web</a>.
@@ -1375,7 +1381,7 @@ RESOURCE ID: fieldbook_summary_species_caught_text
 TEXT: Kamu menangkap {0} jenis Pokémon ber-Potret!
 
 RESOURCE ID: fieldbook_summary_species_caught_text_singular
-TEXT: You caught 1 Pokemon with a Portrait!
+TEXT: You caught 1 Pokémon with a Portrait!
 
 RESOURCE ID: fieldbook_tab_ftue_1_body_text_key
 TEXT: Pokémon di Buku Lapangan-mu memiliki Potret yang menampilkan tempat mereka ditangkap.
@@ -1537,7 +1543,7 @@ RESOURCE ID: go_tour_2026_masterwork_sr_dialog_02_03
 TEXT: Haha, aku tahu ekspresi itu! Kamu siap untuk berpetualang!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_03_00
-TEXT: %PLAYERNAME%, I’m stuck between a Rock- and a Fairy-type place.
+TEXT: %PLAYERNAME%, aku dibuat galau oleh tipe Bebatuan dan tipe Peri.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_03_01
 TEXT: Aku sedang meninjau ulang catatanku tentang tipe Peri dari Daerah Kalos, tapi tidak ada satu pun yang benar-benar cocok.
@@ -1576,7 +1582,7 @@ RESOURCE ID: go_tour_2026_masterwork_sr_dialog_06_00
 TEXT: Aku lihat kamu telah menemukan Carbink! Kerja bagus, tapi sekarang kalau kuperhatikan lebih dekat, ia tidak sesuai dengan Pokémon yang dilaporkan.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_06_01
-TEXT: %PLAYERNAME%... Bagaimana jika selama ini kita telah mencari Pokémon Mitos, Diancie?
+TEXT: %PLAYERNAME%... Bagaimana jika selama ini yang kita cari itu Pokémon Mitos, Diancie?
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_06_02
 TEXT: Beberapa orang berspekulasi bahwa Diancie adalah mutasi dari Carbink. Hal ini bisa menjelaskan kemiripan mereka.
@@ -1636,112 +1642,114 @@ RESOURCE ID: go_tour_kalos_furfrou_branch_tr_dialog_00_01
 TEXT: Sesibuk apa pun, selalu ada waktu untuk menciptakan tren baru! Dan ingat, gaya yang sesuai dengan kepribadianmu adalah gaya yang terlihat paling cocok untukmu.
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_02_00
-TEXT: %PLAYERNAME%, did you know that Mega Energy alone isn’t enough to Mega Evolve a Pokémon? It also needs to have a strong bond with its Trainer.
+TEXT: %PLAYERNAME%, apa kamu tahu bahwa Energi Mega saja tidak cukup untuk melakukan Evolusi Mega pada Pokémon? Pokémon juga membutuhkan ikatan yang kuat dengan Pelatihnya.
+
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_02_01
-TEXT: After all, the most meaningful stories aren’t just about the ancient past—they’re also about the relationships we have with our Pokémon today!
+TEXT: Bagaimanapun, cerita yang paling bermakna bukan hanya tentang zaman dahulu kala—tapi juga tentang hubungan yang kita miliki dengan Pokémon kita saat ini!
+
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_02_02
-TEXT: And as the hero of that tale, you have to choose which Pokémon you’re going to train! If it’s a Pokémon like Charizard, will it become Mega Charizard X or Mega Charizard Y?
+TEXT: Dan sebagai tokoh utama dalam kisah tersebut, kamu harus memilih Pokémon mana yang akan kamu latih! Jika itu Pokémon seperti Charizard, apa ia akan menjadi Mega Charizard X atau Mega Charizard Y?
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_02_03
-TEXT: Get ready to choose your path, %PLAYERNAME%—there’s Mega Evolution to be done!
+TEXT: Bersiaplah untuk memilih jalanmu, %PLAYERNAME%—ada Evolusi Mega yang harus dilakukan!
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_03_00
-TEXT: Everyone needs help sometimes, even the strongest among us. Look at me—I get help with my research from professors all across the world.
+TEXT: Setiap orang sesekali membutuhkan bantuan, bahkan yang terkuat sekalipun. Lihatlah aku—aku mendapatkan bantuan untuk penelitianku dari para profesor di seluruh dunia.
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_03_01
-TEXT: Keeping up with friends in far-flung places might sound like a lot of effort, but friendship’s like a Scatterbug—it can thrive in any climate or region.
+TEXT: Menjaga hubungan dengan teman-teman di tempat yang berjauhan mungkin terdengar seperti usaha yang besar, tapi persahabatan itu seperti Scatterbug—bisa berkembang di iklim atau daerah mana pun.
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_03_02
-TEXT: %PLAYERNAME%, how about you reach out to some of the people who’ve helped you along your journey?
+TEXT: %PLAYERNAME%, bagaimana kalau kamu menghubungi beberapa orang yang telah membantumu selama perjalananmu?
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_03_03
-TEXT: Gifts as simple as a sticker on a Postcard can let people know that you appreciate them.
+TEXT: Hadiah sesederhana stiker di kartu pos bisa memberi tahu orang-orang bahwa kamu menghargai mereka.
 
 RESOURCE ID: go_tour_kalos_global_sr_intro_dialog_00_00
-TEXT: Ahh, Kalos! Home of delicious patisserie, high fashion, and fascinating Pokémon! Photos don’t do it justice.
+TEXT: Ahh, Kalos! Rumah dari kue-kue lezat, mode kelas atas, dan Pokémon yang menakjubkan! Foto saja tidak bisa menggambarkan keindahannya dengan sempurna.
 
 RESOURCE ID: go_tour_kalos_global_sr_intro_dialog_00_01
-TEXT: Now, I’d like to tell you a story about a Legendary Pokémon that was first discovered in Kalos.
+TEXT: Sekarang, aku ingin memberitahumu cerita tentang Pokémon Legendaris yang pertama kali ditemukan di Kalos.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_01_00
-TEXT: Are you familiar with the legend of Xerneas, also known as the Life Pokémon? There are countless stories about it.
+TEXT: Apa kamu tahu tentang legenda Xerneas, yang juga dikenal sebagai Pokémon Kehidupan? Tak terhitung jumlah cerita tentangnya.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_01_01
-TEXT: In some, Xerneas’s horns shine seven different colors when it shares life energy. Others describe it slumbering in the form of a great tree.
+TEXT: Dalam beberapa versi, kabarnya Xerneas membagikan kehidupan abadi saat tanduk di kepalanya memancarkan cahaya tujuh warna. Versi lain mengatakan bahwa ia tidur selama 1000 tahun dalam wujud pohon, lalu bangkit kembali.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_01_02
-TEXT: All of these tales show how deeply Xerneas changed the Kalos region.
+TEXT: Semua kisah ini menunjukkan betapa dalamnya Xerneas mengubah wilayah Kalos.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_01_03
-TEXT: Study up on the place a bit more and you’ll definitely get a sense of how big its impact was!
+TEXT: Pelajari Kalos lebih jauh dan kamu pasti akan memahami betapa besar dampak Xerneas!
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_04_00
-TEXT: Are you ready for a plot twist? Xerneas has a counterpart!
+TEXT: Apa kamu siap untuk kejutan cerita? Sama seperti Xerneas, Yveltal adalah Pokémon yang memegang kunci dari Kalos!
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_04_01
-TEXT: Xerneas is the Life Pokémon, and its counterpart, Yveltal, is the Destruction Pokémon. One shares life energy, while the other absorbs it.
+TEXT: Berlawanan dengan Xerneas yang merupakan Pokémon Kehidupan, Yveltal adalah Pokémon Penghancuran. Yang satu membagikan kehidupan, sementara yang lain menyerapnya.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_04_02
-TEXT: It makes you wonder how they feel about each other. Are they enemies...or do they work together?
+TEXT: Hal ini membuat kita bertanya-tanya bagaimana perasaan mereka terhadap satu sama lain. Apa mereka musuh... ataukah mereka bekerja sama?
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_04_03
-TEXT: Maybe you’ll find the answer as you train and learn more about these Pokémon.
+TEXT: Mungkin kamu akan menemukan jawabannya saat berlatih dan mempelajari Pokémon ini lebih jauh.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_05_00
-TEXT: I sense the grand finale approaching, %PLAYERNAME%!
+TEXT: Aku merasakan babak final akan segera tiba, %PLAYERNAME%!
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_05_01
-TEXT: You’ve witnessed firsthand the beauty of many Pokémon that were first discovered in the Kalos region.
+TEXT: Kamu telah menyaksikan sendiri keindahan banyak Pokémon yang pertama kali ditemukan di Daerah Kalos.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_05_02
-TEXT: You rallied your friends and helped bring out your Pokémon’s inner strength.
+TEXT: Kamu mengumpulkan teman-temanmu dan telah membantu mengeluarkan kekuatan dalam diri Pokémon-mu.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_05_03
-TEXT: And though we’re nearing the end of this story, something new still awaits just around the corner.
+TEXT: Dan meskipun kita hampir sampai di akhir cerita ini, sesuatu yang baru masih menanti di depan mata.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_05_04
-TEXT: The time has come to face Xerneas! Good luck, %PLAYERNAME%!
+TEXT: Saatnya menghadapi Xerneas! Semoga beruntung, %PLAYERNAME%!
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_01_00
-TEXT: Are you familiar with the legend of Yveltal, also known as the Destruction Pokémon? There are countless stories about it.
+TEXT: Apa kamu tahu tentang legenda Yveltal, yang juga dikenal sebagai Pokémon Penghancuran? Tak terhitung jumlah cerita tentangnya.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_01_01
-TEXT: In some, Yveltal’s wings and tail glow red when it absorbs life energy. Others say it will someday turn into a great cocoon.
+TEXT: Dalam beberapa versi, kabarnya Yveltal menyerap nyawa makhluk hidup saat sayap dan bulu ekornya terentang lebar dan bersinar merah. Versi lain mengatakan bahwa ketika hidupnya berakhir, Yveltal kembali ke wujud kepompong.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_01_02
-TEXT: All these tales show how deeply Yveltal changed the Kalos region.
+TEXT: Semua kisah ini menunjukkan betapa dalamnya Yveltal mengubah wilayah Kalos.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_01_03
-TEXT: Study up on the place a bit more and you’ll definitely get a sense of how big its impact was!
+TEXT: Pelajari Kalos lebih jauh dan kamu pasti akan memahami betapa besar dampak Yveltal!
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_04_00
-TEXT: Are you ready for a plot twist? Yveltal has a counterpart!
+TEXT: Apa kamu siap untuk kejutan cerita? Sama seperti Yveltal, Xerneas adalah Pokémon yang memegang kunci dari Kalos!
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_04_01
-TEXT: Yveltal is the Destruction Pokémon, and its counterpart, Xerneas, is the Life Pokémon. One absorbs life energy, while the other shares it.
+TEXT: Berlawanan dengan Yveltal yang merupakan Pokémon Penghancuran, Xerneas adalah Pokémon Kehidupan. Yang satu menyerap kehidupan, sementara yang lain membagikannya.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_04_02
-TEXT: It makes you wonder how they feel about each other. Are they enemies...or do they work together?
+TEXT: Hal ini membuat kita bertanya-tanya bagaimana perasaan mereka terhadap satu sama lain. Apa mereka musuh... ataukah mereka bekerja sama?
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_04_03
-TEXT: Maybe you’ll find the answer as you train and learn more about these Pokémon.
+TEXT: Mungkin kamu akan menemukan jawabannya saat berlatih dan mempelajari Pokémon ini lebih jauh.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_05_00
-TEXT: The grand finale is approaching, %PLAYERNAME%!
+TEXT: Aku merasakan babak final akan segera tiba, %PLAYERNAME%!
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_05_01
-TEXT: You’ve witnessed firsthand the beauty of many Pokémon that were first discovered in the Kalos region.
+TEXT: Kamu telah menyaksikan sendiri keindahan banyak Pokémon yang pertama kali ditemukan di Daerah Kalos.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_05_02
-TEXT: You rallied your friends and helped bring out your Pokémon’s inner strength.
+TEXT: Kamu mengumpulkan teman-temanmu dan telah membantu mengeluarkan kekuatan dalam diri Pokémon-mu.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_05_03
-TEXT: And though we’re nearing the end of this story, something new still awaits just around the corner.
+TEXT: Dan meskipun kita hampir sampai di akhir cerita ini, sesuatu yang baru masih menanti di depan mata.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_05_04
-TEXT: The time has come to face Yveltal! Good luck, %PLAYERNAME%!
+TEXT: Saatnya menghadapi Yveltal! Semoga beruntung, %PLAYERNAME%!
 
 RESOURCE ID: go_tour_kalos_irl_sr_branch_dialog_01_00
 TEXT: Mari kita fokuskan upayamu hari ini. Apa kamu ingin meneliti Pokémon Kehidupan, Xerneas, atau Pokémon Penghancuran, Yveltal?
@@ -1831,48 +1839,47 @@ RESOURCE ID: gotour2026_irl_boqus_header_hourly
 TEXT: Jalan menuju Kalos: Tugas Per Jam
 
 RESOURCE ID: gotour2026_welcome
-TEXT: Pokémon GO Tour: Kalos
+TEXT: Tur Pokémon GO: Kalos
 
 RESOURCE ID: gotour2026_welcome_banner_la
-TEXT: Welcome to Pokémon GO Tour: Kalos – Los Angeles!
+TEXT: Selamat datang di Tur Pokémon GO: Kalos – Los Angeles!
 
 RESOURCE ID: gotour2026_welcome_banner_tainan
-TEXT: Welcome to Pokémon GO Tour: Kalos – Tainan!
+TEXT: Selamat datang di Tur Pokémon GO: Kalos – Tainan!
 
 RESOURCE ID: gotour_2025_pass_track_upgrade_header_description
 TEXT: Dapatkan hadiah tambahan dan langsung membuka <b>pertemuan dengan Victini</b>!
 
 RESOURCE ID: gotour_2026_beautiful_day_tr_title
-TEXT: A Beautiful Day to Celebrate! Timed Research
+TEXT: Penelitian Berwaktu Hari Indah untuk Selebrasi!
 
 RESOURCE ID: gotour_2026_beautiful_day_tr_title_00
-TEXT: A Beautiful Day to Celebrate! Timed Research (1/1)
+TEXT: Penelitian Berwaktu Hari Indah untuk Selebrasi! (1/1)
 
 RESOURCE ID: gotour_2026_event_duration
-TEXT: February 23 – March 1
+TEXT: 23 Februari – 1 Maret
 
 RESOURCE ID: gotour_2026_event_pass_deluxe_title
 TEXT: Tiket GO Luks: Jalan menuju Kalos
 
 RESOURCE ID: gotour_2026_event_pass_details_link
-TEXT: For more details, visit the <a href="https://pokemongo.com/post/road-to-kalos-event/">website</a>.
+TEXT: Untuk detail lebih lanjut, kunjungi <a href="https://pokemongo.com/post/road-to-kalos-event/">situs web</a>.
 
 RESOURCE ID: gotour_2026_event_pass_title
-TEXT: Pokémon GO Tour: Kalos
+TEXT: Tiket GO: Jalan Menuju Kalos
 
 RESOURCE ID: gotour_2026_pass_track_upgrade_header_description
 TEXT: Dapatkan hadiah tambahan dan langsung membuka <b>pertemuan dengan Hoopa Bebas</b>!
 
 RESOURCE ID: gotour_2026_upgrade_description
-TEXT: Purchase GO Pass Deluxe: Road to Kalos to unlock the following rewards!
+TEXT: Beli Tiket Tur Luks untuk membuka hadiah berikut!
+• Pertemuan dengan Victini
+• Satu <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Ornamen Istimewa</a> yang dalam sekejap membuatmu menjadi Teman Istimewa dengan teman pilihanmu
+• Sel Zygarde
+• Item avatar Jaket Zygarde
+• Dan masih banyak lagi!
 
-• An encounter with Hoopa Unbound
-• One <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Lucky Trinket</a>, which allows you to instantly become Lucky Friends with a friend of your choice
-• Zygarde Cells
-• The Zygarde Jacket avatar item
-• And much more!
-
-Trainers can earn 150 bonus GO Points daily from February 23 to 27 in addition to the points earned by Pass Tasks. There’s no limit on how many points can be earned during the global event on February 28 and March 1!
+Pelatih dapat memperoleh 150 Poin GO bonus harian dari 23 hingga 27 Februari, sebagai tambahan dari poin yang diperoleh dari Tugas Tiket. Tidak ada limit jumlah poin yang dapat diperoleh selama event global pada 28 Februari dan 1 Maret!
 
 RESOURCE ID: gotour_2026_welcome_global
 TEXT: Selamat datang di Tur Pokémon GO: Kalos – Global!
@@ -1887,19 +1894,19 @@ RESOURCE ID: great_league_championship_series_2026
 TEXT: Piala Seri GO Championship 2026
 
 RESOURCE ID: habitat_kalos_central
-TEXT: Central Village
+TEXT: Desa Sentral
 
 RESOURCE ID: habitat_kalos_central_active
 TEXT: Habitat saat ini: Desa Sentral
 
 RESOURCE ID: habitat_kalos_coastal
-TEXT: Coastal Laboratory
+TEXT: Laboratorium Pesisir
 
 RESOURCE ID: habitat_kalos_coastal_active
 TEXT: Habitat saat ini: Laboratorium Pesisir
 
 RESOURCE ID: habitat_kalos_mountain
-TEXT: Mountain Manor
+TEXT: Kawasan Pegunungan
 
 RESOURCE ID: habitat_kalos_mountain_active
 TEXT: Habitat saat ini: Kawasan Pegunungan
@@ -2312,10 +2319,10 @@ RESOURCE ID: message_open_settings
 TEXT: Buka Pengaturan
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-02-13T23:09:24.654123+00:00 for id-ID
-at SHA 6d6c847e658
-Pipeline 3541342, job 50979693
-Patch from: 0.399.0-SHA-dbc59b42-RC4, 0.397.1-SHA-7b7c416a-RC5
+TEXT: Built at 2026-02-18T18:06:34.953346+00:00 for id-ID
+at SHA b95ac9f47d8
+Pipeline 3546097, job 51288594
+Patch from: 0.399.1-SHA-853bae10-RC2, 0.397.1-SHA-aca8ba5a-RC4, 0.401.0-SHA-1d3c71a6-RC1
 
 RESOURCE ID: natural_art_day
 TEXT: Siang
@@ -2532,7 +2539,7 @@ Pokémon ber-Potret Siang akan muncul pukul 6.00 – 18.00 dan Pokémon ber-Potr
 RESOURCE ID: pokestop_field_book_message_with_times
 TEXT: Find Pokémon for your Field Book at this PokéStop. These Pokémon have Portraits that reflect where they were caught.
 
-Pokémon with day Portraits will appear between {0} and Pokémon with night Portraits will appear between {1}.
+Pokémon with Day Portraits will appear {0}, and Pokémon with Night Portraits will appear {1}.
 
 RESOURCE ID: pokestop_field_book_title
 TEXT: PokéStop
@@ -2619,55 +2626,55 @@ RESOURCE ID: primal_perk_xl_bonus_great
 TEXT: Peningkatan Peluang Permen XL
 
 RESOURCE ID: quest_branch_choose_chespin
-TEXT: Choose Chespin
+TEXT: Pilih Chespin
 
 RESOURCE ID: quest_branch_choose_chespin_bg_desc
-TEXT: Select this path for a series of encounters with Chespin, the Spiny Nut Pokémon, that have exclusive GO Tour: Kalos Special Backgrounds.
+TEXT: Pilih jalur ini untuk serangkaian pertemuan dengan Chespin, si Pokémon Buah Kastanya, yang memiliki Latar Belakang Spesial Tur GO: Kalos eksklusif.
 
 RESOURCE ID: quest_branch_choose_debutante
-TEXT: Choose Debutante Trim
+TEXT: Pilih Potongan Feminin
 
 RESOURCE ID: quest_branch_choose_debutante_desc
 TEXT: Pilih opsi ini untuk mengubah potongan Furfrou regionalmu yang biasa menjadi Potongan Feminin hingga akhir event. Mengubah potongan Furfrou-mu dari satu potongan ke potongan lainnya akan membutuhkan 25 Permen Furfrou dan 10.000 Debu Bintang.
 
 RESOURCE ID: quest_branch_choose_diamond
-TEXT: Choose Diamond Trim
+TEXT: Pilih Potongan Intan
 
 RESOURCE ID: quest_branch_choose_diamond_desc
 TEXT: Pilih opsi ini untuk mengubah potongan Furfrou regionalmu yang biasa menjadi Potongan Intan hingga akhir event. Mengubah potongan Furfrou-mu dari satu potongan ke potongan lainnya akan membutuhkan 25 Permen Furfrou dan 10.000 Debu Bintang.
 
 RESOURCE ID: quest_branch_choose_fennekin
-TEXT: Choose Fennekin
+TEXT: Pilih Fennekin
 
 RESOURCE ID: quest_branch_choose_fennekin_bg_desc
-TEXT: Select this path for a series of encounters with Fennekin, the Fox Pokémon, that have exclusive GO Tour: Kalos Special Backgrounds.
+TEXT: Pilih jalur ini untuk serangkaian pertemuan dengan Fennekin, si Pokémon Rubah, yang memiliki Latar Belakang Spesial Tur GO: Kalos eksklusif.
 
 RESOURCE ID: quest_branch_choose_froakie
-TEXT: Choose Froakie
+TEXT: Pilih Froakie
 
 RESOURCE ID: quest_branch_choose_froakie_bg_desc
-TEXT: Select this path for a series of encounters with Froakie, the Bubble Frog Pokémon, that have exclusive GO Tour: Kalos Special Backgrounds.
+TEXT: Pilih jalur ini untuk serangkaian pertemuan dengan Froakie, si Pokémon Katak Busa, yang memiliki Latar Belakang Spesial Tur GO: Kalos eksklusif.
 
 RESOURCE ID: quest_branch_choose_kabuki
-TEXT: Choose Kabuki Trim
+TEXT: Pilih Potongan Kabuki
 
 RESOURCE ID: quest_branch_choose_kabuki_desc
 TEXT: Pilih opsi ini untuk mengubah potongan Furfrou regionalmu yang biasa menjadi Potongan Kabuki hingga akhir event. Mengubah potongan Furfrou-mu dari satu potongan ke potongan lainnya akan membutuhkan 25 Permen Furfrou dan 10.000 Debu Bintang.
 
 RESOURCE ID: quest_branch_choose_la_reine
-TEXT: Choose La Reine Trim
+TEXT: Pilih Potongan Ratu
 
 RESOURCE ID: quest_branch_choose_la_reine_desc
 TEXT: Pilih opsi ini untuk mengubah potongan Furfrou regionalmu yang biasa menjadi Potongan Ratu hingga akhir event. Mengubah potongan Furfrou-mu dari satu potongan ke potongan lainnya akan membutuhkan 25 Permen Furfrou dan 10.000 Debu Bintang.
 
 RESOURCE ID: quest_branch_choose_pharaoh
-TEXT: Choose Pharaoh Trim
+TEXT: Pilih Potongan Firaun
 
 RESOURCE ID: quest_branch_choose_pharaoh_desc
 TEXT: Pilih opsi ini untuk mengubah potongan Furfrou regionalmu yang biasa menjadi Potongan Firaun hingga akhir event. Mengubah potongan Furfrou-mu dari satu potongan ke potongan lainnya akan membutuhkan 25 Permen Furfrou dan 10.000 Debu Bintang.
 
 RESOURCE ID: quest_branch_choose_star
-TEXT: Choose Star Trim
+TEXT: Pilih Potongan Bintang
 
 RESOURCE ID: quest_branch_choose_star_desc
 TEXT: Pilih opsi ini untuk mengubah potongan Furfrou regionalmu yang biasa menjadi Potongan Bintang hingga akhir event. Mengubah potongan Furfrou-mu dari satu potongan ke potongan lainnya akan membutuhkan 25 Permen Furfrou dan 10.000 Debu Bintang.
@@ -2676,26 +2683,26 @@ RESOURCE ID: quest_branch_choose_trim_prompt
 TEXT: Pilih wujud Furfrou
 
 RESOURCE ID: quest_branch_choose_x
-TEXT: Choose X Version
+TEXT: Pilih X Version
 
 RESOURCE ID: quest_branch_choose_x_desc
-TEXT: Select this option to receive the X Version medal and Xerneas-themed rewards and bonuses during your GO Tour: Kalos adventure.
+TEXT: Pilih opsi ini untuk menerima medali X Version, hadiah bertema Xerneas, dan bonus selama petualanganmu di Tur GO: Kalos.
 
-During GO Tour: Kalos – Global, you will be able to get Field Research tasks that award an encounter with Unown X.
+Selama Tur GO: Kalos – Global, kamu bisa mendapatkan tugas Penelitian Lapangan yang menghadiahkan pertemuan dengan Unown X.
 
 RESOURCE ID: quest_branch_choose_y
-TEXT: Choose Y Version
+TEXT: Pilih Y Version
 
 RESOURCE ID: quest_branch_choose_y_desc
-TEXT: Select this option to receive the Y Version medal and Yveltal-themed rewards and bonuses during your GO Tour: Kalos adventure.
+TEXT: Pilih opsi ini untuk menerima medali Y Version, hadiah bertema Yveltal, dan bonus selama petualanganmu di Tur GO: Kalos.
 
-During GO Tour: Kalos – Global, you will be able to get Field Research tasks that award an encounter with Unown Y.
+Selama Tur GO: Kalos – Global, kamu bisa mendapatkan tugas Penelitian Lapangan yang menghadiahkan pertemuan dengan Unown Y.
 
 RESOURCE ID: quest_catch_bidoof_singular
 TEXT: Tangkap Bidoof
 
 RESOURCE ID: quest_catch_eevee_singular
-TEXT: Catch an Eevee
+TEXT: Tangkap Eevee
 
 RESOURCE ID: quest_catch_hoppip_singular
 TEXT: Tangkap Hoppip
@@ -2716,31 +2723,31 @@ RESOURCE ID: quest_evolve_eevee_sylveon
 TEXT: Evolusikan Eevee menjadi Sylveon
 
 RESOURCE ID: quest_form_change_furfrou_debutante
-TEXT: Form change a Furfrou to have a Debutante Trim
+TEXT: Ubah wujud Furfrou menjadi wujud Potongan Feminin
 
 RESOURCE ID: quest_form_change_furfrou_diamond
-TEXT: Form change a Furfrou to have a Diamond Trim
+TEXT: Ubah wujud Furfrou menjadi wujud Potongan Intan
 
 RESOURCE ID: quest_form_change_furfrou_heart
-TEXT: Form change a Furfrou to have a Heart Trim
+TEXT: Ubah wujud Furfrou menjadi wujud Potongan Hati
 
 RESOURCE ID: quest_form_change_furfrou_kabuki
-TEXT: Form change a Furfrou to have a Kabuki Trim
+TEXT: Ubah wujud Furfrou menjadi wujud Potongan Kabuki
 
 RESOURCE ID: quest_form_change_furfrou_la_reine
-TEXT: Form change a Furfrou to have a La Reine Trim
+TEXT: Ubah wujud Furfrou menjadi wujud Potongan Ratu
 
 RESOURCE ID: quest_form_change_furfrou_pharoah
-TEXT: Form change a Furfrou to have a Pharaoh Trim
+TEXT: Ubah wujud Furfrou menjadi wujud Potongan Firaun
 
 RESOURCE ID: quest_form_change_furfrou_star
-TEXT: Form change a Furfrou to have a Star Trim
+TEXT: Ubah wujud Furfrou menjadi wujud Potongan Bintang
 
 RESOURCE ID: quest_furfrou_trim
-TEXT: Change a Furfrou’s trim
+TEXT: Ganti wujud Furfrou
 
 RESOURCE ID: quest_go_tour_2026_zygarde_route_spin
-TEXT: Spin an event PokéStop at a GO Tour: Kalos Official Route start point
+TEXT: Putar PokéStop event di titik awal Rute Resmi Tur GO: Kalos
 
 RESOURCE ID: quest_medal_fairy_platinum
 TEXT: Dapatkan medali platinum dengan menangkap tipe Peri
@@ -2758,31 +2765,31 @@ RESOURCE ID: quest_pokestop_nominate_singular
 TEXT: Kirimkan Nominasi PokéStop
 
 RESOURCE ID: quest_power_up_dark_psychic_plural
-TEXT: Power up Psychic- or Dark-type Pokémon {0} times
+TEXT: Perkuat Pokémon tipe Psychic atau Kegelapan {0} kali
 
 RESOURCE ID: quest_power_up_grass_poison_plural
-TEXT: Power up Grass or Poison-type Pokémon {0} times
+TEXT: Perkuat Pokémon tipe Daun atau Racun {0} kali
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_debutante
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Debutante Trim
+TEXT: Putar PokéStop yang memiliki gambar Furfrou yang memiliki Potongan Feminin
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_diamond
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Diamond Trim
+TEXT: Putar PokéStop yang memiliki gambar Furfrou yang memiliki Potongan Intan
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_heart
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Heart Trim
+TEXT: Putar PokéStop yang memiliki gambar Furfrou yang memiliki Potongan Hati
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_kabuki
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Kabuki Trim
+TEXT: Putar PokéStop yang memiliki gambar Furfrou yang memiliki Potongan Kabuki
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_la_reine
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a La Reine Trim
+TEXT: Putar PokéStop yang memiliki gambar Furfrou yang memiliki Potongan Ratu
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_pharoah
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Pharaoh Trim
+TEXT: Putar PokéStop yang memiliki gambar Furfrou yang memiliki Potongan Firaun
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_star
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Star Trim
+TEXT: Putar PokéStop yang memiliki gambar Furfrou yang memiliki Potongan Bintang
 
 RESOURCE ID: quest_snapshot_bug_unique_plural
 TEXT: Ambil foto {0} Pokémon tipe Serangga yang berbeda
@@ -2809,7 +2816,7 @@ RESOURCE ID: quests_claim_field_book_quest_encounter_first
 TEXT: Selesaikan pertemuan Buku Lapangan-mu terlebih dahulu!
 
 RESOURCE ID: quests_log_complete_field_book_page
-TEXT: Complete Field Book Page: {0}
+TEXT: Complete Field Book page: {0}
 
 RESOURCE ID: raid_approach_multiple_post_list
 TEXT: DIGUNAKAN SAAT KAMU MENANG: {0}
@@ -2832,7 +2839,7 @@ RESOURCE ID: raid_message_heal_pokemon
 TEXT: Pulihkan Pokémon-mu
 
 RESOURCE ID: raid_special_background
-TEXT: Pokémon yang ditangkap dari Raid event mungkin memiliki Latar Belakang Spesial eksklusif.
+TEXT: Pokémon yang ditangkap dari Raid event mungkin memiliki Latar Belakang Spesial eksklusif
 
 RESOURCE ID: rebuild_event_pass_pages
 TEXT: Halaman Tiket GO telah diperbarui.
@@ -2985,13 +2992,13 @@ RESOURCE ID: stamp_rally_missed_prefecture_reward_toast
 TEXT: Untuk mengambil hadiah ini, ketuk tombol stempel saat berada di salah satu lokasi Reli Stempel Poké Lids di prefektur ini.
 
 RESOURCE ID: tag_go_tour_kalos_los_angeles
-TEXT: GO Tour: Kalos – Los Angeles
+TEXT: Tur GO: Kalos – Los Angeles
 
 RESOURCE ID: tag_go_tour_kalos_short
-TEXT: GO Tour: Kalos
+TEXT: Tur GO: Kalos
 
 RESOURCE ID: tag_go_tour_kalos_tainan
-TEXT: GO Tour: Kalos – Tainan
+TEXT: Tur GO: Kalos – Tainan
 
 RESOURCE ID: tag_x_version
 TEXT: X Version
@@ -3085,10 +3092,10 @@ RESOURCE ID: timed_research_heart_pattern_spinda
 TEXT: Penelitian Berwaktu berhadiah pertemuan dengan Spinda berpola hati
 
 RESOURCE ID: title_addon_kalos_hatch
-TEXT: GO Tour: Kalos – Egg-thusiast
+TEXT: Tur GO: Kalos – Penggila Telur
 
 RESOURCE ID: title_addon_kalos_raid
-TEXT: GO Tour: Kalos – Raid Lover
+TEXT: Tur GO: Kalos – Pencinta Raid
 
 RESOURCE ID: title_camera_permission_required
 TEXT: Izinkan Pokémon GO untuk Mengakses Kamera
@@ -3100,7 +3107,7 @@ RESOURCE ID: title_hoopa_hoopla
 TEXT: Hula Hoopa!
 
 RESOURCE ID: title_unown_o_clock
-TEXT: Unown O’Clock
+TEXT: Saatnya Unown
 
 RESOURCE ID: today_view_fieldbook_tab_label
 TEXT: Buku Lapangan
@@ -3121,118 +3128,118 @@ RESOURCE ID: today_view_today_tab_label
 TEXT: Hari ini
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title
-TEXT: Poodle Caboodle Timed Research
+TEXT: Penelitian Berwaktu Bulu-Bulu Pudel
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_00
-TEXT: Poodle Caboodle Timed Research (1/6)
+TEXT: Penelitian Berwaktu Bulu-Bulu Pudel (1/6)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_01
-TEXT: Poodle Caboodle Timed Research (2/6)
+TEXT: Penelitian Berwaktu Bulu-Bulu Pudel (2/6)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_02
-TEXT: Poodle Caboodle Timed Research (3/6)
+TEXT: Penelitian Berwaktu Bulu-Bulu Pudel (3/6)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_03
-TEXT: Poodle Caboodle Timed Research (4/6)
+TEXT: Penelitian Berwaktu Bulu-Bulu Pudel (4/6)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_04
-TEXT: Poodle Caboodle Timed Research (5/6)
+TEXT: Penelitian Berwaktu Bulu-Bulu Pudel (5/6)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_05
-TEXT: Poodle Caboodle Timed Research (6/6)
+TEXT: Penelitian Berwaktu Bulu-Bulu Pudel (6/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_desc_friday
-TEXT: Spa Day Timed Research (Friday)
+TEXT: Penelitian Berwaktu Hari Spa (Jumat)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_desc_saturday
-TEXT: Spa Day Timed Research (Saturday)
+TEXT: Penelitian Berwaktu Hari Spa (Sabtu)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_desc_sunday
-TEXT: Spa Day Timed Research (Sunday)
+TEXT: Penelitian Berwaktu Hari Spa (Minggu)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title
-TEXT: Spa Day Timed Research
+TEXT: Penelitian Berwaktu Hari Spa
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_00
-TEXT: Spa Day Timed Research (1/6)
+TEXT: Penelitian Berwaktu Hari Spa (1/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_01
-TEXT: Spa Day Timed Research (2/6)
+TEXT: Penelitian Berwaktu Hari Spa (2/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_02
-TEXT: Spa Day Timed Research (3/6)
+TEXT: Penelitian Berwaktu Hari Spa (3/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_03
-TEXT: Spa Day Timed Research (4/6)
+TEXT: Penelitian Berwaktu Hari Spa (4/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_04
-TEXT: Spa Day Timed Research (5/6)
+TEXT: Penelitian Berwaktu Hari Spa (5/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_05
-TEXT: Spa Day Timed Research (6/6)
+TEXT: Penelitian Berwaktu Hari Spa (6/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_zygarde_title
-TEXT: En Garde! Timed Research
+TEXT: Penelitian Berwaktu En Garde!
 
 RESOURCE ID: tr_go_tour_2026_irl_zygarde_title_00
-TEXT: En Garde! Timed Research (1/1)
+TEXT: Penelitian Berwaktu En Garde! (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_altaria_title
-TEXT: Mega Altaria Timed Research
+TEXT: Penelitian Berwaktu Mega Altaria
 
 RESOURCE ID: tr_go_tour_2026_mega_night_altaria_title_00
-TEXT: Mega Altaria Timed Research (1/1)
+TEXT: Penelitian Berwaktu Mega Altaria (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_ampharos_title
-TEXT: Mega Ampharos Timed Research
+TEXT: Penelitian Berwaktu Mega Ampharos
 
 RESOURCE ID: tr_go_tour_2026_mega_night_ampharos_title_00
-TEXT: Mega Ampharos Timed Research (1/1)
+TEXT: Penelitian Berwaktu Mega Ampharos (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_charizard_title
-TEXT: Mega Charizard X Timed Research
+TEXT: Penelitian Berwaktu Mega Charizard X
 
 RESOURCE ID: tr_go_tour_2026_mega_night_charizard_title_00
-TEXT: Mega Charizard X Timed Research (1/1)
+TEXT: Penelitian Berwaktu Mega Charizard X (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_garchomp_title
-TEXT: Mega Garchomp Timed Research
+TEXT: Penelitian Berwaktu Mega Garchomp
 
 RESOURCE ID: tr_go_tour_2026_mega_night_garchomp_title_00
-TEXT: Mega Garchomp Timed Research (1/1)
+TEXT: Penelitian Berwaktu Mega Garchomp (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_salamence_title
-TEXT: Mega Salamence Timed Research
+TEXT: Penelitian Berwaktu Mega Salamence
 
 RESOURCE ID: tr_go_tour_2026_mega_night_salamence_title_00
-TEXT: Mega Salamence Timed Research (1/1)
+TEXT: Penelitian Berwaktu Mega Salamence (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_sceptile_title
-TEXT: Mega Sceptile Timed Research
+TEXT: Penelitian Berwaktu Mega Sceptile
 
 RESOURCE ID: tr_go_tour_2026_mega_night_sceptile_title_00
-TEXT: Mega Sceptile Timed Research (1/1)
+TEXT: Penelitian Berwaktu Mega Sceptile (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_title
-TEXT: Mega Finale Timed Research
+TEXT: Penelitian Berwaktu Mega Finale
 
 RESOURCE ID: tr_go_tour_2026_mega_night_title_00
-TEXT: Mega Finale Timed Research (1/1)
+TEXT: Penelitian Berwaktu Mega Finale (1/1)
 
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title
-TEXT: Very Fairy Timed Research
+TEXT: Penelitian Berwaktu Peri Periang
 
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title_00
-TEXT: Very Fairy Timed Research (1/4)
+TEXT: Penelitian Berwaktu Peri Periang (1/4)
 
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title_01
-TEXT: Very Fairy Timed Research (2/4)
+TEXT: Penelitian Berwaktu Peri Periang (2/4)
 
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title_02
-TEXT: Very Fairy Timed Research (3/4)
+TEXT: Penelitian Berwaktu Peri Periang (3/4)
 
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title_03
-TEXT: Very Fairy Timed Research (4/4)
+TEXT: Penelitian Berwaktu Peri Periang (4/4)
 
 RESOURCE ID: tr_oricorio_mastery_catch_hoothoot
 TEXT: Tangkap {0} Hoothoot
@@ -3325,31 +3332,31 @@ RESOURCE ID: tv_title_go_tour_2026_global_ticket
 TEXT: Tur GO: Kalos – Global, Bonus Tiket
 
 RESOURCE ID: tv_title_go_tour_2026_la
-TEXT: GO Tour: Kalos – Los Angeles
+TEXT: Tur GO: Kalos – Los Angeles
 
 RESOURCE ID: tv_title_go_tour_2026_la_city
-TEXT: GO Tour: Kalos – Los Angeles, City Experience
+TEXT: Tur GO: Kalos – Los Angeles, Pakar Kota
 
 RESOURCE ID: tv_title_go_tour_2026_la_city_extended
-TEXT: GO Tour: Kalos – Los Angeles, Extended Bonuses
+TEXT: Tur GO: Kalos – Los Angeles, Perpanjangan Bonus
 
 RESOURCE ID: tv_title_go_tour_2026_la_park
-TEXT: GO Tour: Kalos – Los Angeles, Park Experience
+TEXT: Tur GO: Kalos – Los Angeles, Pakar Taman
 
 RESOURCE ID: tv_title_go_tour_2026_tainan
-TEXT: GO Tour: Kalos – Tainan
+TEXT: Tur GO: Kalos – Tainan
 
 RESOURCE ID: tv_title_go_tour_2026_tainan_city
-TEXT: GO Tour: Kalos – Tainan, City Experience
+TEXT: Tur GO: Kalos – Tainan, Pakar Kota
 
 RESOURCE ID: tv_title_go_tour_2026_tainan_city_extended
-TEXT: GO Tour: Kalos – Tainan, Extended Bonuses
+TEXT: Tur GO: Kalos – Tainan, Perpanjangan Bonus
 
 RESOURCE ID: tv_title_go_tour_2026_tainan_park
-TEXT: GO Tour: Kalos – Tainan, Park Experience
+TEXT: Tur GO: Kalos – Tainan, Pakar Taman
 
 RESOURCE ID: unown_o_clock_active
-TEXT: Unown are now appearing in large numbers!
+TEXT: Terjadi kemunculan massal Unown!
 
 RESOURCE ID: use_raid_ticket_confirmation_buy_currency
 TEXT: Dapatkan {0}

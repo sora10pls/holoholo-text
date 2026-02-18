@@ -1,3 +1,6 @@
+RESOURCE ID: active_bonuses_label
+TEXT: Bonus:
+
 RESOURCE ID: ar_encounter_no_gyro_err
 TEXT: No se detecta la orientación de tu teléfono. ¿Quieres desactivar el modo RA?
 
@@ -11,13 +14,16 @@ RESOURCE ID: ar_photo_social_hashtag
 TEXT: #Pokemon30
 
 RESOURCE ID: ar_photo_social_message_save_disabled
-TEXT: To save photos, open your device settings and give Pokémon GO access to photos.
+TEXT: Para guardar las fotos, abre la configuración de tu dispositivo y da permiso a Pokémon GO para acceder a las fotos.
 
 RESOURCE ID: ar_photo_social_name_tag_prompt
-TEXT: Tap the Pokémon’s name to move the label around
+TEXT: Toca el nombre del Pokémon para mover la etiqueta
 
 RESOURCE ID: ar_photo_social_photo_shared
-TEXT: Photo shared
+TEXT: Foto compartida
+
+RESOURCE ID: ar_photo_social_review_confirm_exit_message
+TEXT: Si sales de esta página, se perderán las fotos que no hayas guardado.
 
 RESOURCE ID: ar_photo_social_share_default_referral_text
 TEXT: ¡Tómate una foto con tu Pokémon favorito en Pokémon GO! https://pokemongo.com/es
@@ -35,10 +41,10 @@ RESOURCE ID: ar_photo_social_share_referral_text
 TEXT: ¡Tómate una foto con tu Pokémon favorito en Pokémon GO! {0}
 
 RESOURCE ID: ar_photo_social_share_sign_in
-TEXT: Start Playing Pokémon GO
+TEXT: Comienza a jugar a Pokémon GO
 
 RESOURCE ID: ar_photo_social_title_save_disabled
-TEXT: Allow Pokémon GO to save images?
+TEXT: ¿Permitir que Pokémon GO guarde imágenes?
 
 RESOURCE ID: ar_plus_photo_prompt_title
 TEXT: ¡Fotografía Pokémon como nunca antes con la nueva cámara de RA+!
@@ -377,13 +383,13 @@ RESOURCE ID: bonus_extra_carbink_global_masterwork
 TEXT: Bonus de la investigación magistral para quienes tengan entradas en persona del Tour de GO
 
 RESOURCE ID: bonus_gift_inventory_40
-TEXT: Gift storage increased to 40
+TEXT: El almacenamiento de regalos ha aumentado a 40
 
 RESOURCE ID: bonus_gift_open_daily_100
-TEXT: Open up to 100 Gifts per day
+TEXT: Abre hasta 100 regalos cada día
 
 RESOURCE ID: bonus_gift_open_daily_200
-TEXT: Open up to 200 Gifts per day
+TEXT: Abre hasta 200 regalos cada día
 
 RESOURCE ID: bonus_gotour_2026_other_mega_level_daily_points_6
 TEXT: Consigue hasta 6 puntos diarios para aumentar el meganivel de cualquier Pokémon
@@ -398,16 +404,16 @@ RESOURCE ID: bonus_gotour_irl_2026_mega_level_daily_points_6
 TEXT: Consigue hasta 6 puntos diarios para aumentar el meganivel de cualquier Victreebel o Malamar
 
 RESOURCE ID: bonus_gotour_kalos_furfrou
-TEXT: Explore the park to get different Furfrou trims not usually available in the region!
+TEXT: ¡Explora el parque para conseguir diferentes cortes de Furfrou que no suelen estar disponibles en tu región!
 
 RESOURCE ID: bonus_gotour_mateo_encounter
-TEXT: Exchange more Gifts with Mateo each day
+TEXT: Intercambia más regalos con Mateo cada día
 
 RESOURCE ID: bonus_gotour_zygarde_cell
-TEXT: Chance to discover Zygarde Cells on more Routes per day
+TEXT: Probabilidad de encontrar células de Zygarde en más Rutas cada día
 
 RESOURCE ID: bonus_incense_costume_pikachu
-TEXT: Incense may attract costumed Pikachu
+TEXT: El Incienso puede atraer a Pikachu disfrazados
 
 RESOURCE ID: bonus_incense_hisui_costume_pikachu
 TEXT: El Incienso podrá atraer a Pikachu con gorra de Luka y a Pikachu con pañuelo de Kira
@@ -431,7 +437,7 @@ RESOURCE ID: bonus_mateo_encounter_daily_25
 TEXT: Intercambia regalos con Mateo en hasta 25 Rutas cada día
 
 RESOURCE ID: bonus_mega_cp_boost
-TEXT: Boosted CP for all Mega-Evolved Pokémon
+TEXT: PC potenciados para todos los Pokémon megaevolucionados
 
 RESOURCE ID: bonus_mega_energy_spin_chance
 TEXT: Mayor probabilidad de recibir Megaenergía al dar vueltas a fotodiscos en Poképaradas o Gimnasios
@@ -446,13 +452,13 @@ RESOURCE ID: bonus_ppk_special_background
 TEXT: Los Pokémon capturados en incursiones de nivel 5 tendrán un fondo de lugar exclusivo de PokéPark KANTO
 
 RESOURCE ID: bonus_premier_ball_catch_rate_boost_high
-TEXT: Premier Balls have a massively increased catch rate
+TEXT: Las Honor Balls tienen una eficacia enorme en la captura
 
 RESOURCE ID: bonus_premier_ball_catch_rate_boost_med
-TEXT: Premier Balls have a largely increased catch rate
+TEXT: Las Honor Balls tienen una eficacia aún mayor en la captura
 
 RESOURCE ID: bonus_premier_ball_catch_rate_boost_small
-TEXT: Premier Balls have an increased catch rate
+TEXT: Las Honor Balls tienen una mayor eficacia en la captura
 
 RESOURCE ID: bonus_raid_3_xl_candy_t5_and_mega
 TEXT: Tres Caramelos ++ adicionales al ganar en incursiones de nivel 5 y en megaincursiones
@@ -461,21 +467,24 @@ RESOURCE ID: bonus_raid_5k_xp_mega
 TEXT: 5000 PX adicionales al completar megaincursiones
 
 RESOURCE ID: bonus_raid_6_candy_t5_and_mega
-TEXT: Six additional Candy for successful five-star raids and Mega Raids
+TEXT: Seis Caramelos adicionales por completar incursiones de nivel 5 y megaincursiones
+
+RESOURCE ID: bonus_raid_6_xl_candy_t5_and_mega
+TEXT: Seis Caramelos ++ adicionales por completar incursiones de nivel 5 y megaincursiones
 
 RESOURCE ID: bonus_routes_flabebe
 TEXT: Mayor probabilidad de que Flabébé aparezca en las Rutas
 
 RESOURCE ID: bonus_routes_flabebe_los_angeles
-TEXT: Increased chance of encountering White Flower Flabébé, Orange Flower Flabébé, and Yellow Flower Flabébé on Routes
+TEXT: Mayor probabilidad de encontrarte con Flabébé Flor Blanca , Flabébé Flor Naranja y Flabébé Flor Amarilla en las Rutas
 
 RESOURCE ID: bonus_routes_flabebe_tainan
-TEXT: Increased chance of encountering White Flower Flabébé, Orange Flower Flabébé, and Blue Flower Flabébé on Routes
+TEXT: Mayor probabilidad de encontrarte con Flabébé Flor Blanca , Flabébé Flor Naranja y Flabébé Flor Azul en las Rutas
 
 RESOURCE ID: bonus_scatterbug_pin_1
 TEXT: Aparece un Scatterbug cada regalo guardado por región
 
-RESOURCE ID: bonus_scatterbug_pin_3_temp
+RESOURCE ID: bonus_scatterbug_pin_3
 TEXT: Mayor progreso en las submedallas de Scatterbug por cada postal guardada
 
 RESOURCE ID: bonus_scatterbug_pin_6
@@ -485,10 +494,10 @@ RESOURCE ID: bonus_special_background_t1_t5_raid
 TEXT: Los Pokémon capturados en las incursiones de nivel 1 a nivel 5 podrán tener un fondo especial
 
 RESOURCE ID: bonus_special_background_t5_and_mega_raid
-TEXT: Pokémon caught from five-star raids and Mega Raids may have a Special Background
+TEXT: Los Pokémon capturados en las incursiones de nivel 5 y en las megaincursiones podrán tener un fondo especial
 
 RESOURCE ID: bonus_stickers_gotour_kalos
-TEXT: GO Tour: Kalos stickers available from Gifts and spinning PokéStops
+TEXT: Pegatinas del Tour de GO: Kalos disponibles como regalos y al dar vueltas a fotodiscos en Poképaradas
 
 RESOURCE ID: bonus_today_event_sr
 TEXT: Ya está disponible la investigación especial exclusiva del evento
@@ -654,7 +663,7 @@ RESOURCE ID: day_night_tutorial_detail_page
 TEXT: Este retrato del Pokémon indica dónde se capturó.
 
 RESOURCE ID: desc_unown_o_clock
-TEXT: At the top of each hour, Unown will appear in large numbers!
+TEXT: Al comienzo de cada hora, ¡Unown aparecerá en grandes cantidades!
 
 RESOURCE ID: details_link_key_dmax_ho_oh
 TEXT: Para obtener más información, visita el <a href="https://pokemongo.com/news/ho-oh-max-battle-weekend-2026">sitio web</a>.
@@ -1048,7 +1057,7 @@ RESOURCE ID: fieldbook_summary_species_caught_text
 TEXT: ¡Has capturado {0} Pokémon diferentes con retratos!
 
 RESOURCE ID: fieldbook_summary_species_caught_text_singular
-TEXT: You caught 1 Pokemon with a Portrait!
+TEXT: You caught 1 Pokémon with a Portrait!
 
 RESOURCE ID: fieldbook_tab_ftue_1_body_text_key
 TEXT: Los Pokémon en tu cuaderno de campo tienen retratos que indican dónde se capturaron.
@@ -1125,13 +1134,13 @@ RESOURCE ID: gmax_meowth_website_link
 TEXT: Para obtener más información, visita el <a href="https://pokemongo.com/news/gigantamax-meowth-max-battle-day-2026">sitio web</a>.
 
 RESOURCE ID: go_pass_milestone_rank
-TEXT: Major Milestone
+TEXT: Hito principal
 
 RESOURCE ID: go_pass_milestone_rewards
-TEXT: Milestone Rewards:
+TEXT: Recompensas del hito:
 
 RESOURCE ID: go_pass_rank_level_rewards
-TEXT: Rank {0} Rewards
+TEXT: Recompensas del nivel {0}
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_00_00
 TEXT: ¡%PLAYERNAME%! Perdón por el desastre que tengo, pero es que ando buscando unas notas.
@@ -1467,45 +1476,45 @@ RESOURCE ID: gotour2026_irl_boqus_header_hourly
 TEXT: Camino a Kalos: Tareas de cada hora
 
 RESOURCE ID: gotour2026_welcome
-TEXT: Pokémon GO Tour: Kalos
+TEXT: Tour de Pokémon GO: Kalos
 
 RESOURCE ID: gotour2026_welcome_banner_la
-TEXT: Welcome to Pokémon GO Tour: Kalos – Los Angeles!
+TEXT: ¡Te damos la bienvenida al Tour de Pokémon GO: Kalos de Los Ángeles!
 
 RESOURCE ID: gotour2026_welcome_banner_tainan
-TEXT: Welcome to Pokémon GO Tour: Kalos – Tainan!
+TEXT: ¡Te damos la bienvenida al Tour de Pokémon GO: Kalos de Tainan!
 
 RESOURCE ID: gotour_2026_beautiful_day_tr_title
-TEXT: A Beautiful Day to Celebrate! Timed Research
+TEXT: Investigación temporal: ¡Un día precioso para celebrar!
 
 RESOURCE ID: gotour_2026_beautiful_day_tr_title_00
-TEXT: A Beautiful Day to Celebrate! Timed Research (1/1)
+TEXT: Investigación temporal: ¡Un día precioso para celebrar! (1/1)
 
 RESOURCE ID: gotour_2026_event_duration
-TEXT: February 23 – March 1
+TEXT: Del 23 de febrero al 1 de marzo
 
 RESOURCE ID: gotour_2026_event_pass_deluxe_title
 TEXT: Pase de GO deluxe: Camino a Kalos
 
 RESOURCE ID: gotour_2026_event_pass_details_link
-TEXT: For more details, visit the <a href="https://pokemongo.com/post/road-to-kalos-event/">website</a>.
+TEXT: Para obtener más información, visita el <a href="https://pokemongo.com/post/road-to-kalos-event/">sitio web</a>.
 
 RESOURCE ID: gotour_2026_event_pass_title
-TEXT: Pokémon GO Tour: Kalos
+TEXT: Pase de GO: Camino a Kalos
 
 RESOURCE ID: gotour_2026_pass_track_upgrade_header_description
 TEXT: ¡Consigue recompensas adicionales y desbloquea al instante un <b>encuentro con Hoopa Desatado</b>!
 
 RESOURCE ID: gotour_2026_upgrade_description
-TEXT: Purchase GO Pass Deluxe: Road to Kalos to unlock the following rewards!
+TEXT: ¡Adquiere el Pase de GO deluxe de Camino a Kalos para desbloquear las siguientes recompensas!
 
-• An encounter with Hoopa Unbound
-• One <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Lucky Trinket</a>, which allows you to instantly become Lucky Friends with a friend of your choice
-• Zygarde Cells
-• The Zygarde Jacket avatar item
-• And much more!
+• Un encuentro con Hoopa Desatado 
+• Un <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Recuerdo Suerte</a>, que te permite entablar una Amistad con Suerte al instante con quien escojas
+• Células de Zygarde
+• La chaqueta de Zygarde para el avatar
+• ¡Y mucho más!
 
-Trainers can earn 150 bonus GO Points daily from February 23 to 27 in addition to the points earned by Pass Tasks. There’s no limit on how many points can be earned during the global event on February 28 and March 1!
+Además de los puntos obtenidos en las tareas del Pase, los Entrenadores podrán conseguir 150 puntos adicionales diarios del 23 al 27 de febrero. ¡Y durante el evento global del 28 de febrero al 1 de marzo no habrá límite de puntos!
 
 RESOURCE ID: gotour_2026_welcome_global
 TEXT: ¡Te damos la bienvenida al evento global del Tour de Pokémon GO: Kalos!
@@ -1520,19 +1529,19 @@ RESOURCE ID: great_league_championship_series_2026
 TEXT: Copa de la Serie de Campeonatos de Pokémon GO 2026
 
 RESOURCE ID: habitat_kalos_central
-TEXT: Central Village
+TEXT: Aldea Central
 
 RESOURCE ID: habitat_kalos_central_active
 TEXT: Hábitat actual: Aldea Central
 
 RESOURCE ID: habitat_kalos_coastal
-TEXT: Coastal Laboratory
+TEXT: Laboratorio Costero
 
 RESOURCE ID: habitat_kalos_coastal_active
 TEXT: Hábitat actual: Laboratorio Costero
 
 RESOURCE ID: habitat_kalos_mountain
-TEXT: Mountain Manor
+TEXT: Mansión de Montaña
 
 RESOURCE ID: habitat_kalos_mountain_active
 TEXT: Hábitat actual: Mansión de Montaña
@@ -1823,10 +1832,10 @@ RESOURCE ID: mega_level_4
 TEXT: Nivel supermáximo
 
 RESOURCE ID: mega_level_4_ftue_body_details_prompt
-TEXT: This Pokémon can now reach Super Max Level and earn even stronger bonuses. Learn more on the Mega Level page.
+TEXT: Este Pokémon ya puede alcanzar el nivel supermáximo y obtener bonus aún más potentes. Descubre más información en la página de la megaevolución.
 
 RESOURCE ID: mega_level_4_ftue_body_evolve_prompt
-TEXT: This Pokémon can now reach Super Max Level. Mega Evolve this Pokémon to earn bonuses and learn more.
+TEXT: Este Pokémon ya puede alcanzar el nivel supermáximo. Haz megaevolucionar a este Pokémon para obtener bonus y conocer más detalles.
 
 RESOURCE ID: mega_level_4_ftue_title
 TEXT: ¡Nuevo meganivel disponible!
@@ -1939,10 +1948,10 @@ RESOURCE ID: message_open_settings
 TEXT: Abrir Opciones
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-02-13T23:09:24.654123+00:00 for es-ES
-at SHA 6d6c847e658
-Pipeline 3541342, job 50979693
-Patch from: 0.399.0-SHA-dbc59b42-RC4, 0.397.1-SHA-7b7c416a-RC5
+TEXT: Built at 2026-02-18T18:06:34.953346+00:00 for es-ES
+at SHA b95ac9f47d8
+Pipeline 3546097, job 51288594
+Patch from: 0.399.1-SHA-853bae10-RC2, 0.397.1-SHA-aca8ba5a-RC4, 0.401.0-SHA-1d3c71a6-RC1
 
 RESOURCE ID: natural_art_day
 TEXT: Día
@@ -2163,7 +2172,7 @@ Los Pokémon con retratos diurnos aparecerán entre las 06:00 y las 18:00, mient
 RESOURCE ID: pokestop_field_book_message_with_times
 TEXT: Find Pokémon for your Field Book at this PokéStop. These Pokémon have Portraits that reflect where they were caught.
 
-Pokémon with day Portraits will appear between {0} and Pokémon with night Portraits will appear between {1}.
+Pokémon with Day Portraits will appear {0}, and Pokémon with Night Portraits will appear {1}.
 
 RESOURCE ID: pokestop_field_book_title
 TEXT: Poképaradas
@@ -2241,55 +2250,55 @@ RESOURCE ID: primal_perk_xl_bonus_great
 TEXT: Más probabilidad de conseguir Caramelos ++
 
 RESOURCE ID: quest_branch_choose_chespin
-TEXT: Choose Chespin
+TEXT: Elegir a Chespin
 
 RESOURCE ID: quest_branch_choose_chespin_bg_desc
-TEXT: Select this path for a series of encounters with Chespin, the Spiny Nut Pokémon, that have exclusive GO Tour: Kalos Special Backgrounds.
+TEXT: Selecciona este camino para tener una serie de encuentros con Chespin, el Pokémon Erizo, con fondos especiales y exclusivos del Tour de GO: Kalos.
 
 RESOURCE ID: quest_branch_choose_debutante
-TEXT: Choose Debutante Trim
+TEXT: Elegir el Corte Señorita
 
 RESOURCE ID: quest_branch_choose_debutante_desc
 TEXT: Selecciona esta opción para cambiar el corte o cortes regionales habituales de tu Furfrou por el Corte Señorita durante el resto del evento. Cambiar el corte de tus Furfrou de uno a otro tendrá un coste de 25 Caramelos Furfrou y 10 000 Polvos Estelares.
 
 RESOURCE ID: quest_branch_choose_diamond
-TEXT: Choose Diamond Trim
+TEXT: Elegir el Corte Rombo
 
 RESOURCE ID: quest_branch_choose_diamond_desc
 TEXT: Selecciona esta opción para cambiar el corte o cortes regionales habituales de tu Furfrou por el Corte Rombo durante el resto del evento. Cambiar el corte de tus Furfrou de uno a otro tendrá un coste de 25 Caramelos Furfrou y 10 000 Polvos Estelares.
 
 RESOURCE ID: quest_branch_choose_fennekin
-TEXT: Choose Fennekin
+TEXT: Elegir a Fennekin
 
 RESOURCE ID: quest_branch_choose_fennekin_bg_desc
-TEXT: Select this path for a series of encounters with Fennekin, the Fox Pokémon, that have exclusive GO Tour: Kalos Special Backgrounds.
+TEXT: Selecciona este camino para tener una serie de encuentros con Fennekin, el Pokémon Zorro, con fondos especiales y exclusivos del Tour de GO: Kalos.
 
 RESOURCE ID: quest_branch_choose_froakie
-TEXT: Choose Froakie
+TEXT: Elegir a Froakie
 
 RESOURCE ID: quest_branch_choose_froakie_bg_desc
-TEXT: Select this path for a series of encounters with Froakie, the Bubble Frog Pokémon, that have exclusive GO Tour: Kalos Special Backgrounds.
+TEXT: Selecciona este camino para tener una serie de encuentros con Froakie, el Pokémon Burburrana, con fondos especiales y exclusivos del Tour de GO: Kalos.
 
 RESOURCE ID: quest_branch_choose_kabuki
-TEXT: Choose Kabuki Trim
+TEXT: Elegir el Corte Kabuki
 
 RESOURCE ID: quest_branch_choose_kabuki_desc
 TEXT: Selecciona esta opción para cambiar el corte o cortes regionales habituales de tu Furfrou por el Corte Kabuki durante el resto del evento. Cambiar el corte de tus Furfrou de uno a otro tendrá un coste de 25 Caramelos Furfrou y 10 000 Polvos Estelares.
 
 RESOURCE ID: quest_branch_choose_la_reine
-TEXT: Choose La Reine Trim
+TEXT: Elegir el Corte Aristocrático
 
 RESOURCE ID: quest_branch_choose_la_reine_desc
 TEXT: Selecciona esta opción para cambiar el corte o cortes regionales habituales de tu Furfrou por el Corte Aristocrático durante el resto del evento. Cambiar el corte de tus Furfrou de uno a otro tendrá un coste de 25 Caramelos Furfrou y 10 000 Polvos Estelares.
 
 RESOURCE ID: quest_branch_choose_pharaoh
-TEXT: Choose Pharaoh Trim
+TEXT: Elegir el Corte Faraónico
 
 RESOURCE ID: quest_branch_choose_pharaoh_desc
 TEXT: Selecciona esta opción para cambiar el corte o cortes regionales habituales de tu Furfrou por el Corte Faraónico durante el resto del evento. Cambiar el corte de tus Furfrou de uno a otro tendrá un coste de 25 Caramelos Furfrou y 10 000 Polvos Estelares.
 
 RESOURCE ID: quest_branch_choose_star
-TEXT: Choose Star Trim
+TEXT: Elegir el Corte Estrella
 
 RESOURCE ID: quest_branch_choose_star_desc
 TEXT: Selecciona esta opción para cambiar el corte o cortes regionales habituales de tu Furfrou por el Corte Estrella durante el resto del evento. Cambiar el corte de tus Furfrou de uno a otro tendrá un coste de 25 Caramelos Furfrou y 10 000 Polvos Estelares.
@@ -2298,26 +2307,26 @@ RESOURCE ID: quest_branch_choose_trim_prompt
 TEXT: Elige un corte de Furfrou
 
 RESOURCE ID: quest_branch_choose_x
-TEXT: Choose X Version
+TEXT: Elegir la Versión X
 
 RESOURCE ID: quest_branch_choose_x_desc
-TEXT: Select this option to receive the X Version medal and Xerneas-themed rewards and bonuses during your GO Tour: Kalos adventure.
+TEXT: Selecciona esta opción para recibir la insignia Versión X, así como recompensas y bonus centrados en Xerneas durante tu aventura en el Tour de GO: Kalos.
 
-During GO Tour: Kalos – Global, you will be able to get Field Research tasks that award an encounter with Unown X.
+Durante el evento global del Tour de GO: Kalos, podrás obtener tareas de investigación de campo que tienen como recompensa un encuentro con Unown X.
 
 RESOURCE ID: quest_branch_choose_y
-TEXT: Choose Y Version
+TEXT: Elegir la Versión Y
 
 RESOURCE ID: quest_branch_choose_y_desc
-TEXT: Select this option to receive the Y Version medal and Yveltal-themed rewards and bonuses during your GO Tour: Kalos adventure.
+TEXT: Selecciona esta opción para recibir la insignia Versión Y, así como recompensas y bonus centrados en Yveltal durante tu aventura en el Tour de GO: Kalos.
 
-During GO Tour: Kalos – Global, you will be able to get Field Research tasks that award an encounter with Unown Y.
+Durante el evento global del Tour de GO: Kalos, podrás obtener tareas de investigación de campo que tienen como recompensa un encuentro con Unown Y.
 
 RESOURCE ID: quest_catch_bidoof_singular
 TEXT: Captura un Bidoof
 
 RESOURCE ID: quest_catch_eevee_singular
-TEXT: Catch an Eevee
+TEXT: Captura un Eevee
 
 RESOURCE ID: quest_catch_hoppip_singular
 TEXT: Captura un Hoppip
@@ -2338,31 +2347,31 @@ RESOURCE ID: quest_evolve_eevee_sylveon
 TEXT: Haz evolucionar a Eevee a Sylveon
 
 RESOURCE ID: quest_form_change_furfrou_debutante
-TEXT: Form change a Furfrou to have a Debutante Trim
+TEXT: Cambia la forma a un Furfrou para que tenga el Corte Señorita
 
 RESOURCE ID: quest_form_change_furfrou_diamond
-TEXT: Form change a Furfrou to have a Diamond Trim
+TEXT: Cambia la forma a un Furfrou para que tenga el Corte Rombo
 
 RESOURCE ID: quest_form_change_furfrou_heart
-TEXT: Form change a Furfrou to have a Heart Trim
+TEXT: Cambia la forma a un Furfrou para que tenga el Corte Corazón
 
 RESOURCE ID: quest_form_change_furfrou_kabuki
-TEXT: Form change a Furfrou to have a Kabuki Trim
+TEXT: Cambia la forma a un Furfrou para que tenga el Corte Kabuki
 
 RESOURCE ID: quest_form_change_furfrou_la_reine
-TEXT: Form change a Furfrou to have a La Reine Trim
+TEXT: Cambia la forma a un Furfrou para que tenga el Corte Aristocrático
 
 RESOURCE ID: quest_form_change_furfrou_pharoah
-TEXT: Form change a Furfrou to have a Pharaoh Trim
+TEXT: Cambia la forma a un Furfrou para que tenga el Corte Faraónico
 
 RESOURCE ID: quest_form_change_furfrou_star
-TEXT: Form change a Furfrou to have a Star Trim
+TEXT: Cambia la forma a un Furfrou para que tenga el Corte Estrella
 
 RESOURCE ID: quest_furfrou_trim
-TEXT: Change a Furfrou’s trim
+TEXT: Cambia el corte de un Furfrou
 
 RESOURCE ID: quest_go_tour_2026_zygarde_route_spin
-TEXT: Spin an event PokéStop at a GO Tour: Kalos Official Route start point
+TEXT: Da vueltas a un fotodisco en la Poképarada de un inicio de la Ruta oficial del Tour de GO: Kalos
 
 RESOURCE ID: quest_medal_fairy_platinum
 TEXT: Consigue una insignia de platino por capturar Pokémon de tipo Hada
@@ -2380,31 +2389,31 @@ RESOURCE ID: quest_pokestop_nominate_singular
 TEXT: Nominate a PokéStop
 
 RESOURCE ID: quest_power_up_dark_psychic_plural
-TEXT: Power up Psychic- or Dark-type Pokémon {0} times
+TEXT: Da más poder a Pokémon de tipo Psíquico o de tipo Siniestro {0} veces
 
 RESOURCE ID: quest_power_up_grass_poison_plural
-TEXT: Power up Grass or Poison-type Pokémon {0} times
+TEXT: Da más poder a Pokémon de tipo Planta o de tipo Veneno {0} veces
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_debutante
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Debutante Trim
+TEXT: Da vueltas al fotodisco de la Poképarada que tiene una imagen de Furfrou con Corte Señorita
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_diamond
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Diamond Trim
+TEXT: Da vueltas al fotodisco de la Poképarada que tiene una imagen de Furfrou con Corte Rombo
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_heart
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Heart Trim
+TEXT: Da vueltas al fotodisco de la Poképarada que tiene una imagen de Furfrou con Corte Corazón
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_kabuki
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Kabuki Trim
+TEXT: Da vueltas al fotodisco de la Poképarada que tiene una imagen de Furfrou con Corte Kabuki
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_la_reine
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a La Reine Trim
+TEXT: Da vueltas al fotodisco de la Poképarada que tiene una imagen de Furfrou con Corte Aristocrático
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_pharoah
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Pharaoh Trim
+TEXT: Da vueltas al fotodisco de la Poképarada que tiene una imagen de Furfrou con Corte Faraónico
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_star
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Star Trim
+TEXT: Da vueltas al fotodisco de la Poképarada que tiene una imagen de Furfrou con Corte Estrella
 
 RESOURCE ID: quest_snapshot_bug_unique_plural
 TEXT: Consigue instantáneas de {0} Pokémon de tipo Bicho diferentes
@@ -2431,7 +2440,7 @@ RESOURCE ID: quests_claim_field_book_quest_encounter_first
 TEXT: ¡Completa antes tu encuentro del cuaderno de campo!
 
 RESOURCE ID: quests_log_complete_field_book_page
-TEXT: Complete Field Book Page: {0}
+TEXT: Complete Field Book page: {0}
 
 RESOURCE ID: raid_approach_multiple_post_list
 TEXT: EMPLEADO AL GANAR: {0}
@@ -2615,19 +2624,19 @@ TEXT: Puedes ver los sellos que hayas coleccionado en la página de Caza de sell
 Además, algunas Cazas de sellos te permiten enviar sellos a tus amistades junto con un regalo. Los sellos que obtengas de los regalos quedarán recogidos en tu Álbum, pero no contarán para el progreso de las recompensas. Las recompensas solo se pueden obtener visitando la ubicación y coleccionando los sellos en persona.
 
 RESOURCE ID: tag_go_tour_kalos_los_angeles
-TEXT: GO Tour: Kalos – Los Angeles
+TEXT: Tour de GO en Kalos: Los Ángeles
 
 RESOURCE ID: tag_go_tour_kalos_short
-TEXT: GO Tour: Kalos
+TEXT: Tour de GO: Kalos
 
 RESOURCE ID: tag_go_tour_kalos_tainan
-TEXT: GO Tour: Kalos – Tainan
+TEXT: Tour de GO en Kalos: Tainan
 
 RESOURCE ID: tag_x_version
-TEXT: X Version
+TEXT: Versión X
 
 RESOURCE ID: tag_y_version
-TEXT: Y Version
+TEXT: Versión Y
 
 RESOURCE ID: tap_to_skip_message
 TEXT: Tap to Skip
@@ -2715,10 +2724,10 @@ RESOURCE ID: timed_research_heart_pattern_spinda
 TEXT: Investigación temporal con encuentros con Spinda con dibujo de corazón como recompensa
 
 RESOURCE ID: title_addon_kalos_hatch
-TEXT: GO Tour: Kalos – Egg-thusiast
+TEXT: Tour de GO en Kalos: Amante de la eclosión
 
 RESOURCE ID: title_addon_kalos_raid
-TEXT: GO Tour: Kalos – Raid Lover
+TEXT: Tour de GO en Kalos: Amante de las incursiones
 
 RESOURCE ID: title_camera_permission_required
 TEXT: Permitir a Pokémon GO acceder a la cámara
@@ -2730,7 +2739,7 @@ RESOURCE ID: title_hoopa_hoopla
 TEXT: ¡Alehop, Hoopa!
 
 RESOURCE ID: title_unown_o_clock
-TEXT: Unown O’Clock
+TEXT: Las Unown en punto
 
 RESOURCE ID: today_view_fieldbook_tab_label
 TEXT: Cuaderno de campo
@@ -2751,118 +2760,118 @@ RESOURCE ID: today_view_today_tab_label
 TEXT: Hoy
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title
-TEXT: Poodle Caboodle Timed Research
+TEXT: Investigación temporal: Aventuras perrunas
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_00
-TEXT: Poodle Caboodle Timed Research (1/6)
+TEXT: Investigación temporal: Aventuras perrunas (1/6)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_01
-TEXT: Poodle Caboodle Timed Research (2/6)
+TEXT: Investigación temporal: Aventuras perrunas (2/6)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_02
-TEXT: Poodle Caboodle Timed Research (3/6)
+TEXT: Investigación temporal: Aventuras perrunas (3/6)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_03
-TEXT: Poodle Caboodle Timed Research (4/6)
+TEXT: Investigación temporal: Aventuras perrunas (4/6)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_04
-TEXT: Poodle Caboodle Timed Research (5/6)
+TEXT: Investigación temporal: Aventuras perrunas (5/6)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_05
-TEXT: Poodle Caboodle Timed Research (6/6)
+TEXT: Investigación temporal: Aventuras perrunas (6/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_desc_friday
-TEXT: Spa Day Timed Research (Friday)
+TEXT: Investigación temporal: Día de spa (viernes)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_desc_saturday
-TEXT: Spa Day Timed Research (Saturday)
+TEXT: Investigación temporal: Día de spa (sábado)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_desc_sunday
-TEXT: Spa Day Timed Research (Sunday)
+TEXT: Investigación temporal: Día de spa (domingo)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title
-TEXT: Spa Day Timed Research
+TEXT: Investigación temporal: Día de spa
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_00
-TEXT: Spa Day Timed Research (1/6)
+TEXT: Investigación temporal: Día de spa (1/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_01
-TEXT: Spa Day Timed Research (2/6)
+TEXT: Investigación temporal: Día de spa (2/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_02
-TEXT: Spa Day Timed Research (3/6)
+TEXT: Investigación temporal: Día de spa (3/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_03
-TEXT: Spa Day Timed Research (4/6)
+TEXT: Investigación temporal: Día de spa (4/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_04
-TEXT: Spa Day Timed Research (5/6)
+TEXT: Investigación temporal: Día de spa (5/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_05
-TEXT: Spa Day Timed Research (6/6)
+TEXT: Investigación temporal: Día de spa (6/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_zygarde_title
-TEXT: En Garde! Timed Research
+TEXT: Investigación temporal: ¡En garde!
 
 RESOURCE ID: tr_go_tour_2026_irl_zygarde_title_00
-TEXT: En Garde! Timed Research (1/1)
+TEXT: Investigación temporal: ¡En garde! (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_altaria_title
-TEXT: Mega Altaria Timed Research
+TEXT: Investigación temporal: Mega-Altaria
 
 RESOURCE ID: tr_go_tour_2026_mega_night_altaria_title_00
-TEXT: Mega Altaria Timed Research (1/1)
+TEXT: Investigación temporal: Mega-Altaria (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_ampharos_title
-TEXT: Mega Ampharos Timed Research
+TEXT: Investigación temporal: Mega-Ampharos
 
 RESOURCE ID: tr_go_tour_2026_mega_night_ampharos_title_00
-TEXT: Mega Ampharos Timed Research (1/1)
+TEXT: Investigación temporal: Mega-Ampharos (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_charizard_title
-TEXT: Mega Charizard X Timed Research
+TEXT: Investigación temporal: Mega-Charizard X
 
 RESOURCE ID: tr_go_tour_2026_mega_night_charizard_title_00
-TEXT: Mega Charizard X Timed Research (1/1)
+TEXT: Investigación temporal: Mega-Charizard X (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_garchomp_title
-TEXT: Mega Garchomp Timed Research
+TEXT: Investigación temporal: Mega-Garchomp
 
 RESOURCE ID: tr_go_tour_2026_mega_night_garchomp_title_00
-TEXT: Mega Garchomp Timed Research (1/1)
+TEXT: Investigación temporal: Mega-Garchomp (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_salamence_title
-TEXT: Mega Salamence Timed Research
+TEXT: Investigación temporal: Mega-Salamence
 
 RESOURCE ID: tr_go_tour_2026_mega_night_salamence_title_00
-TEXT: Mega Salamence Timed Research (1/1)
+TEXT: Investigación temporal: Mega-Salamence (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_sceptile_title
-TEXT: Mega Sceptile Timed Research
+TEXT: Investigación temporal: Mega-Sceptile
 
 RESOURCE ID: tr_go_tour_2026_mega_night_sceptile_title_00
-TEXT: Mega Sceptile Timed Research (1/1)
+TEXT: Investigación temporal: Mega-Sceptile (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_title
-TEXT: Mega Finale Timed Research
+TEXT: Investigación temporal: Megafinal
 
 RESOURCE ID: tr_go_tour_2026_mega_night_title_00
-TEXT: Mega Finale Timed Research (1/1)
+TEXT: Investigación temporal: Megafinal (1/1)
 
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title
-TEXT: Very Fairy Timed Research
+TEXT: Investigación temporal: Sumamente feérico
 
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title_00
-TEXT: Very Fairy Timed Research (1/4)
+TEXT: investigación temporal: Sumamente feérico (1/4)
 
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title_01
-TEXT: Very Fairy Timed Research (2/4)
+TEXT: investigación temporal: Sumamente feérico (2/4)
 
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title_02
-TEXT: Very Fairy Timed Research (3/4)
+TEXT: investigación temporal: Sumamente feérico (3/4)
 
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title_03
-TEXT: Very Fairy Timed Research (4/4)
+TEXT: investigación temporal: Sumamente feérico (4/4)
 
 RESOURCE ID: tr_oricorio_mastery_catch_hoothoot
 TEXT: Captura {0} Hoothoot
@@ -2955,31 +2964,31 @@ RESOURCE ID: tv_title_go_tour_2026_global_ticket
 TEXT: Tour de GO en Kalos: Global (Bonus de la entrada)
 
 RESOURCE ID: tv_title_go_tour_2026_la
-TEXT: GO Tour: Kalos – Los Angeles
+TEXT: Tour de GO en Kalos: Los Ángeles
 
 RESOURCE ID: tv_title_go_tour_2026_la_city
-TEXT: GO Tour: Kalos – Los Angeles, City Experience
+TEXT: Tour de GO en Kalos: Los Ángeles (Experiencia en la ciudad)
 
 RESOURCE ID: tv_title_go_tour_2026_la_city_extended
-TEXT: GO Tour: Kalos – Los Angeles, Extended Bonuses
+TEXT: Tour de GO en Kalos: Los Ángeles (Bonus complementarios)
 
 RESOURCE ID: tv_title_go_tour_2026_la_park
-TEXT: GO Tour: Kalos – Los Angeles, Park Experience
+TEXT: Tour de GO en Kalos: Los Ángeles (Experiencia en el parque)
 
 RESOURCE ID: tv_title_go_tour_2026_tainan
-TEXT: GO Tour: Kalos – Tainan
+TEXT: Tour de GO en Kalos: Tainan
 
 RESOURCE ID: tv_title_go_tour_2026_tainan_city
-TEXT: GO Tour: Kalos – Tainan, City Experience
+TEXT: Tour de GO en Kalos: Tainan (Experiencia en la ciudad)
 
 RESOURCE ID: tv_title_go_tour_2026_tainan_city_extended
-TEXT: GO Tour: Kalos – Tainan, Extended Bonuses
+TEXT: Tour de GO en Kalos: Tainan (Bonus complementarios)
 
 RESOURCE ID: tv_title_go_tour_2026_tainan_park
-TEXT: GO Tour: Kalos – Tainan, Park Experience
+TEXT: Tour de GO en Kalos: Tainan (Experiencia en el parque)
 
 RESOURCE ID: unown_o_clock_active
-TEXT: Unown are now appearing in large numbers!
+TEXT: ¡Unown está apareciendo en grandes cantidades!
 
 RESOURCE ID: use_raid_ticket_confirmation_buy_currency
 TEXT: Get more {0}

@@ -1,5 +1,8 @@
+RESOURCE ID: active_bonuses_label
+TEXT: Bonuslar:
+
 RESOURCE ID: ar_photo_social_bonus_text
-TEXT: Bonus
+TEXT: Bonuslar
 
 RESOURCE ID: ar_photo_social_entry_label
 TEXT: Favori Pokémon’unuzla bir fotoğraf çekin!
@@ -8,13 +11,16 @@ RESOURCE ID: ar_photo_social_hashtag
 TEXT: #Pokemon30
 
 RESOURCE ID: ar_photo_social_message_save_disabled
-TEXT: To save photos, open your device settings and give Pokémon GO access to photos.
+TEXT: Fotoğrafları kaydetmek için cihaz ayarlarınızı açıp Pokémon GO’nun fotoğraflara erişimine izin verin.
 
 RESOURCE ID: ar_photo_social_name_tag_prompt
-TEXT: Tap the Pokémon’s name to move the label around
+TEXT: Etiketin yerini değiştirmek için Pokémon’un adına dokunun
 
 RESOURCE ID: ar_photo_social_photo_shared
-TEXT: Photo shared
+TEXT: Fotoğraf paylaşıldı
+
+RESOURCE ID: ar_photo_social_review_confirm_exit_message
+TEXT: Bu sayfadan ayrılırsanız kaydedilmemiş fotoğraflar silinecek.
 
 RESOURCE ID: ar_photo_social_share_default_referral_text
 TEXT: Pokémon GO’da favori Pokémon’unuzla bir fotoğraf çekin! https://pokemongo.com/
@@ -32,10 +38,10 @@ RESOURCE ID: ar_photo_social_share_referral_text
 TEXT: Pokémon GO’da favori Pokémon’unuzla bir fotoğraf çekin! {0}
 
 RESOURCE ID: ar_photo_social_share_sign_in
-TEXT: Start Playing Pokémon GO
+TEXT: Pokémon GO Oyna
 
 RESOURCE ID: ar_photo_social_title_save_disabled
-TEXT: Allow Pokémon GO to save images?
+TEXT: Pokémon GO’nun görselleri kaydetmesine izin verilsin mi?
 
 RESOURCE ID: avatar_generic_name
 TEXT:  
@@ -371,13 +377,13 @@ RESOURCE ID: bonus_extra_carbink_global_masterwork
 TEXT: Canlı etkinliklere katılan GO Tur bilet sahipleri için ustalık araştırması bonusu
 
 RESOURCE ID: bonus_gift_inventory_40
-TEXT: Gift storage increased to 40
+TEXT: Hediye deposu 40’a yükselir
 
 RESOURCE ID: bonus_gift_open_daily_100
-TEXT: Open up to 100 Gifts per day
+TEXT: Her gün 100 adede kadar Hediye açabilirsiniz
 
 RESOURCE ID: bonus_gift_open_daily_200
-TEXT: Open up to 200 Gifts per day
+TEXT: Her gün 200 adede kadar Hediye açabilirsiniz
 
 RESOURCE ID: bonus_gotour_2026_other_mega_level_daily_points_6
 TEXT: Herhangi bir Pokémon’un mega seviyesini artırma yolunda günde 6 puana kadar kazanın
@@ -392,16 +398,16 @@ RESOURCE ID: bonus_gotour_irl_2026_mega_level_daily_points_6
 TEXT: Herhangi bir Victreebel veya Malamar’ın mega seviyesini artırma yolunda günlük 6 puana kadar kazanın
 
 RESOURCE ID: bonus_gotour_kalos_furfrou
-TEXT: Explore the park to get different Furfrou trims not usually available in the region!
+TEXT: Bu bölgede normalde görülmeyen farklı Furfrou süslerini elde etmek için parkı keşfe çıkın!
 
 RESOURCE ID: bonus_gotour_mateo_encounter
-TEXT: Exchange more Gifts with Mateo each day
+TEXT: Her gün Mateo ile daha çok Hediye takası
 
 RESOURCE ID: bonus_gotour_zygarde_cell
-TEXT: Chance to discover Zygarde Cells on more Routes per day
+TEXT: Günde daha çok rotada Zygarde Hücresiyle karşılaşma şansı
 
 RESOURCE ID: bonus_incense_costume_pikachu
-TEXT: Incense may attract costumed Pikachu
+TEXT: Tütsü kostümlü Pikachu’ları çekebilir
 
 RESOURCE ID: bonus_incense_hisui_costume_pikachu
 TEXT: Tütsü, Rei kasketli Pikachu’yu veya Akari bandanalı Pikachu’yu çekebilir
@@ -425,7 +431,7 @@ RESOURCE ID: bonus_mateo_encounter_daily_25
 TEXT: Günde 25 adede kadar rotada Mateo ile Hediye takas edin
 
 RESOURCE ID: bonus_mega_cp_boost
-TEXT: Boosted CP for all Mega-Evolved Pokémon
+TEXT: Tüm mega evrimleşmiş Pokémon’lar için artırılmış DG
 
 RESOURCE ID: bonus_mega_energy_spin_chance
 TEXT: PokéDurak veya spor salonu döndürerek mega enerji edinme şansı
@@ -440,13 +446,13 @@ RESOURCE ID: bonus_ppk_special_background
 TEXT: Beş yıldızlı akınlarda yakalanan Pokémon’lar ayrıcalıklı bir PokéPark KANTO konum arka planına sahip olacak
 
 RESOURCE ID: bonus_premier_ball_catch_rate_boost_high
-TEXT: Premier Balls have a massively increased catch rate
+TEXT: Prömiyer Topların yakalama oranı fazlasıyla yükselir
 
 RESOURCE ID: bonus_premier_ball_catch_rate_boost_med
-TEXT: Premier Balls have a largely increased catch rate
+TEXT: Prömiyer Topların yakalama oranı çok yükselir
 
 RESOURCE ID: bonus_premier_ball_catch_rate_boost_small
-TEXT: Premier Balls have an increased catch rate
+TEXT: Prömiyer Topların yakalama oranı yükselir
 
 RESOURCE ID: bonus_raid_3_xl_candy_t5_and_mega
 TEXT: Başarıyla tamamlanan beş yıldızlı ve mega akınlardan ilave üç büyük şeker
@@ -455,21 +461,24 @@ RESOURCE ID: bonus_raid_5k_xp_mega
 TEXT: Başarıyla tamamlanan mega akınlardan ilave 5000 TP
 
 RESOURCE ID: bonus_raid_6_candy_t5_and_mega
-TEXT: Six additional Candy for successful five-star raids and Mega Raids
+TEXT: Başarıyla tamamlanan beş yıldızlı ve mega akınlardan fazladan altı şeker
+
+RESOURCE ID: bonus_raid_6_xl_candy_t5_and_mega
+TEXT: Başarıyla tamamlanan beş yıldızlı ve mega akınlardan fazladan altı büyük şeker
 
 RESOURCE ID: bonus_routes_flabebe
 TEXT: Flabébé’nin rotalarda ortaya çıkma şansında artış
 
 RESOURCE ID: bonus_routes_flabebe_los_angeles
-TEXT: Increased chance of encountering White Flower Flabébé, Orange Flower Flabébé, and Yellow Flower Flabébé on Routes
+TEXT: Rotalarda Beyaz Çiçek Flabébé, Turuncu Çiçek Flabébé ve Sarı Çiçek Flabébé ile karşılaşma şansında artış
 
 RESOURCE ID: bonus_routes_flabebe_tainan
-TEXT: Increased chance of encountering White Flower Flabébé, Orange Flower Flabébé, and Blue Flower Flabébé on Routes
+TEXT: Rotalarda Beyaz Çiçek Flabébé, Turuncu Çiçek Flabébé ve Mavi Çiçek Flabébé ile karşılaşma şansında artış
 
 RESOURCE ID: bonus_scatterbug_pin_1
 TEXT: Bölge başına sabitlenen her bir Hediyeden sonra Scatterbug ortaya çıkar
 
-RESOURCE ID: bonus_scatterbug_pin_3_temp
+RESOURCE ID: bonus_scatterbug_pin_3
 TEXT: Sabitlenen her bir kartpostal için Scatterbug alt madalya ilerlemesinde artış
 
 RESOURCE ID: bonus_scatterbug_pin_6
@@ -479,10 +488,10 @@ RESOURCE ID: bonus_special_background_t1_t5_raid
 TEXT: Bir veya beş yıldızlı akınlarda yakalanan Pokémon’lar özel arka plana sahip olabilir
 
 RESOURCE ID: bonus_special_background_t5_and_mega_raid
-TEXT: Pokémon caught from five-star raids and Mega Raids may have a Special Background
+TEXT: Beş yıldızlı ve mega akınlarda yakalanan Pokémon’lar özel arka plana sahip olabilir
 
 RESOURCE ID: bonus_stickers_gotour_kalos
-TEXT: GO Tour: Kalos stickers available from Gifts and spinning PokéStops
+TEXT: Hediye açarak ve PokéDurak döndürerek GO Tur: Kalos temalı çıkartmalar elde edebilirsiniz
 
 RESOURCE ID: bonus_today_event_sr
 TEXT: Etkinliğe mahsus özel araştırma çıktı
@@ -687,7 +696,7 @@ RESOURCE ID: day_night_tutorial_detail_page
 TEXT: Bu Pokémon’un Portresi onun nerede yakalandığını yansıtır.
 
 RESOURCE ID: desc_unown_o_clock
-TEXT: At the top of each hour, Unown will appear in large numbers!
+TEXT: Her saat başı çok sayıda Unown ortaya çıkacak!
 
 RESOURCE ID: details_link_key_dmax_ho_oh
 TEXT: Ayrıntıları <a href="https://pokemongo.com/news/ho-oh-max-battle-weekend-2026">internet sitemizden</a> öğrenebilirsiniz.
@@ -1077,7 +1086,7 @@ RESOURCE ID: fieldbook_summary_species_caught_text
 TEXT: {0} farklı Portreli Pokémon yakaladınız!
 
 RESOURCE ID: fieldbook_summary_species_caught_text_singular
-TEXT: You caught 1 Pokemon with a Portrait!
+TEXT: You caught 1 Pokémon with a Portrait!
 
 RESOURCE ID: fieldbook_tab_ftue_1_body_text_key
 TEXT: Saha Defterinizdeki Pokémon’ların yakalandıkları yeri yansıtan Portreleri vardır.
@@ -1154,136 +1163,136 @@ RESOURCE ID: gmax_meowth_website_link
 TEXT: Ayrıntıları <a href="https://pokemongo.com/news/gigantamax-meowth-max-battle-day-2026">internet sitemizden</a> öğrenebilirsiniz.
 
 RESOURCE ID: go_pass_milestone_rank
-TEXT: Major Milestone
+TEXT: Büyük Aşama
 
 RESOURCE ID: go_pass_milestone_rewards
-TEXT: Milestone Rewards:
+TEXT: Aşama Ödülleri:
 
 RESOURCE ID: go_pass_rank_level_rewards
-TEXT: Rank {0} Rewards
+TEXT: {0}. Rütbe Ödülleri
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_00_00
-TEXT: %PLAYERNAME%! Excuse the mess—I’m looking for some notes.
+TEXT: %PLAYERNAME%! Dağınıklığımın kusuruna bakma. Bazı notları arıyordum da...
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_00_01
-TEXT: I received an interesting report about a Pokémon today. The witness only caught a glimpse, but from the description, it could be something special.
+TEXT: Bugün bir Pokémon’la ilgili ilginç bir haber aldım. Raporu gönderen kişi bir an görüp hemen gözden kaybettiğini söylese de tasvir ettiği şey çok mu çok özel olabilir.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_00_02
-TEXT: I have a theory that it’s a Pokémon originally discovered in the Kalos region.
+TEXT: Söz konusu Pokémon’un ilk olarak Kalos bölgesinde keşfedilmiş olabileceğine dair bir teorim var.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_00_03
-TEXT: I’m trying to dig up some old research to corroborate my hunch, but I haven’t had much luck. Would you like to help? Don’t worry, I’ll handle the paperwork!
+TEXT: Bu teorimi kanıtlamak için eski araştırmalarıma bir göz atayım dedim ama henüz pek bir şey bulamadım. Bana yardım etmek ister misin? Merak etme, bütün evrak işlerini ben halledeceğim!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_00_04
-TEXT: I’d like you to brush up on Pokémon from Kalos. In the meantime, I’ll try to pick out the diamond in this rough!
+TEXT: Senden Kalos bölgesinden gelen Pokémon’larla ilgini bilgilerini artırmanı rica edeceğim. Bu arada ben de bu kalabalığın içinde aradığımı bulmaya çalışacağım!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_01_00
-TEXT: I knew you’d deliver—you’re a superstar!
+TEXT: Başaracağını biliyordum! Harikasın!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_01_01
-TEXT: How did I do? Well, I almost have my notes organized, but I’ll need more time to actually find what I’m looking for.
+TEXT: Benim tarafımda işler nasıl mı gitti? Eh, notlarımı düzenlemeyi bitirdim sayılır ama aradığımı bulmak için biraz daha zamana ihtiyacım var.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_01_02
-TEXT: It’s easy to forget to check the clock when I’m poring over old research.
+TEXT: Eski araştırmaları gözden geçirirken zaman çok çabuk geçiyor malum.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_01_03
-TEXT: Anyhow, that’s my problem. Why don’t you spend some more time in the field while I keep digging?
+TEXT: Her neyse, bu benim sorunum. Sen istersen çıkıp dışarıda biraz daha vakit geçirerek araştırmana devam edebilirsin!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_02_00
-TEXT: Success! I’ve got my notes in order! Now, let’s get down to it.
+TEXT: Başardım! Notlarımı tamamen düzenledim! Eh hadi başlayalım o zaman.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_02_01
-TEXT: The report mentioned that the Pokémon in question was jewel-like. Could it be a Carbink?
+TEXT: Rapordaki tarife bakılırsa bu Pokémon mücevhere benziyormuş. Acaba Carbink olabilir mi?
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_02_02
-TEXT: Jewels mean sparkles, and sparkles make me think of Fairy types. That might be what we’re searching for.
+TEXT: Mücevher demek aynı zamanda ışıltı demek ve bu da bana Peri türlerini düşündürdü. Bir Peri türünün peşinde olabiliriz yani.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_02_03
-TEXT: Haha, I know that look! You’re ready to dive into adventure!
+TEXT: Haha, gözlerinden anladım! Maceraya atılmaya hazırsın!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_03_00
-TEXT: %PLAYERNAME%, I’m stuck between a Rock- and a Fairy-type place.
+TEXT: %PLAYERNAME%, aşağı tükürsem Kaya türü, yukarı tükürsem Peri türü.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_03_01
-TEXT: I was reviewing my notes on Fairy-type Pokémon from the Kalos region, but none of them are a perfect fit.
+TEXT: Kalos bölgesindeki Pokémon’larla ilgili notlarımı gözden geçiriyordum ama hiçbiri de elimizdeki tarife tam olarak uymuyor.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_03_02
-TEXT: Jewels can get confused with rocks, so...maybe the Pokémon we’re looking for is a Rock type?
+TEXT: Mücevherler kaya gibi de görünebilir, yani belki de aradığımız Pokémon bir Kaya türüdür...
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_03_03
-TEXT: So, let’s study Rock types next! We’re so close to crystallizing this information. I can feel it!
+TEXT: Hadi o zaman şimdi de biraz Kaya türlerini çalışalım! Sonuca çok yaklaştık, bunu hissedebiliyorum!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_04_00
-TEXT: Astounding work out there! I think we’re truly onto something now.
+TEXT: Harika iş çıkardın! Yavaş yavaş sonuç almaya başlıyoruz.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_04_01
-TEXT: It seems like Fairy type and Rock type are both possibilities at this point. Which could it be?
+TEXT: Şu noktada hem Peri türleri hem de Kaya türleri ihtimaller arasında. Acaba hangisi olabilir?
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_04_02
-TEXT: The answer is—unsurprisingly—more learning! Let’s keep looking into both types. Surely that’ll make our answer crystal clear.
+TEXT: Bunun cevabı tabii ki yine bilgimizi artırmaktan geçiyor. Her iki türle de ilgili bir şeyler öğrenmeye devam edelim. Eninde sonunda kaya gibi sağlam ve periler gibi ışıl ışıl bir sonuca varacağımızdan eminim.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_04_03
-TEXT: The pressure’s on now! But I know you can handle it, %PLAYERNAME%.
+TEXT: Eh, hadi bakalım! Bu işin de üstesinden gelebileceğine eminim %PLAYERNAME%.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_05_00
-TEXT: You’ve been putting your all into this research, %PLAYERNAME%, but I think we might’ve run into a wall.
+TEXT: Biliyorum, bu araştırmaya kendini tamamen vermiş durumdasın %PLAYERNAME% ama maalesef bir çıkmaza girmiş olabiliriz.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_05_01
-TEXT: Why don’t we take a break and relax for a bit? Maybe you’ll end up running into our elusive Pokémon.
+TEXT: Biraz mola verip dinlenmeye ne dersin? Belki bu arada aradığımız esrarengiz Pokémon’a rastlarsın.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_05_02
-TEXT: Meltan and I will take a walk and do some pondering before we continue our work.
+TEXT: Ben de Meltan’la birlikte yürüyüşe çıkıp çalışmaya geri dönmeden önce biraz düşüneceğim.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_05_03
-TEXT: I’m sure your Pokémon would love to spend time with you, too!
+TEXT: Eminim senin Pokémon’un da seninle biraz vakit geçirmek istiyordur!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_06_00
-TEXT: I see you’ve found a Carbink! That’s great, though now that I get a closer look, it doesn’t match the reports.
+TEXT: Bir Carbink bulmuşsun! Bu harika ama şimdi dikkatle bakıyorum da rapordaki tarife pek uymuyor.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_06_01
-TEXT: %PLAYERNAME%... What if we’ve been searching for the Mythical Pokémon Diancie this whole time?
+TEXT: %PLAYERNAME%... Ya aradığımız Mitolojik Pokémon Diancie ise?
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_06_02
-TEXT: Some speculate that Diancie is the result of a Carbink’s sudden transformation, so that could explain the similarities.
+TEXT: Bazılarına göre Diancie, Carbink’in aniden dönüşümünün bir sonucu olarak ortaya çıkmıştır. Eh, bu da aralarındaki benzerlikleri açıklayabilir.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_06_03
-TEXT: This treasure hunt isn’t over yet!
+TEXT: Ama keşif maceramız henüz bitmedi!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_07_00
-TEXT: Exciting news, %PLAYERNAME%!
+TEXT: Harika haberlerim var %PLAYERNAME%!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_07_01
-TEXT: I just caught a glimpse of what I’m sure is Diancie! But its coloring seemed unusual, so I’ll need to take a closer look.
+TEXT: Diancie olduğundan neredeyse emin olduğum bir şeyle karşılaştım! Ama renkleri biraz tuhaf görünüyordu, onun için daha yakından bir bakmam gerekiyor.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_07_02
-TEXT: What a dazzling opportunity! I knew if we kept mining for answers we’d strike it big.
+TEXT: Ne kadar göz kamaştırıcı bir fırsat! Cevap aramaya devam ettiğimiz müddetçe sonuca varacağımızdan emindim zaten.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_07_03
-TEXT: Let’s get back out there and see what we can find.
+TEXT: Hadi tekrar dışarı çıkıp bu kez neler bulacağımıza bir bakalım.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_08_00
-TEXT: You’ve done it, %PLAYERNAME%! And what a unique color! Incredible!
+TEXT: Başardın %PLAYERNAME%! Ne kadar da eşsiz bir renk! Tam anlamıyla şahane!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_08_01
-TEXT: Did you know Diancie can instantly create diamonds by compressing the carbon in the air between its hands?
+TEXT: Diancie’nin havadaki karbonu ellerinin arasında sıkıştırarak anında elmas oluşturabilirdiğini biliyor muydun?
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_08_02
-TEXT: Marvelous to be sure, but there’s still plenty more to be learned about Diancie.
+TEXT: Bu gerçekten harika, üstelik Diancie hakkında öğreneceğimiz daha neler neler var.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_08_03
-TEXT: And I know you’re the best Trainer to help it reach its full potential!
+TEXT: Hem potansiyeline ulaşması için onun da senin gibi yetenekli bir Eğitmene ihtiyacı var!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_09_00
-TEXT: Diancie looks like it’s taken quite a shine to you. In fact, it looks ready to Mega Evolve!
+TEXT: Diancie seni çok sevmişe benziyor. Üstelik sanki mega evrimleşmeye de hazır görünüyor!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_09_01
-TEXT: I’ve recently heard Mega Diancie is also known as the Royal Pink Princess. The dazzling diamond on its forehead is a whopping 2,000 carats!
+TEXT: Geçenlerde duyduğuma göre Diancie aynı zamanda Asil Pembe Prenses olarak da biliniyormuş. Alnındaki göz kamaştırıcı pırlanta tam tamına 2000 karatmış!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_09_02
-TEXT: Let me get my sunglasses, because this Mega Evolution is going to be bright!
+TEXT: Bir dakika, güneş gözlüğümü alayım çünkü bu mega evrim gerçekten de göz kamaştıracak!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_09_03
-TEXT: Thank you for all your efforts, %PLAYERNAME%. Keep that sparkle alive, wherever your journey takes you!
+TEXT: Tüm yaptıkların için çok teşekkürler %PLAYERNAME%. Yolculuğun seni nereye götürürse götürsün içindeki kıvılcımı canlı tutmaya devam et!
 
 RESOURCE ID: go_tour_ep_bonus_title_deluxe_00
 TEXT: 1. Kademe Lüks Bonusları
@@ -1301,112 +1310,112 @@ RESOURCE ID: go_tour_kalos_furfrou_branch_tr_dialog_00_01
 TEXT: Ne kadar meşgul olursan ol, yeni bir akım oluşturmaya her zaman vakit vardır! Ve unutma, seni en iyi yansıtan tarz en iyi tarzdır.
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_02_00
-TEXT: %PLAYERNAME%, did you know that Mega Energy alone isn’t enough to Mega Evolve a Pokémon? It also needs to have a strong bond with its Trainer.
+TEXT: %PLAYERNAME%, bir Pokémon’u mega evrimleştirmek için mega enerjinin yeterli olmadığını biliyor muydun? Aynı zamanda Pokémon ve Eğitmeni arasında güçlü bir bağa ihtiyaç vardır.
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_02_01
-TEXT: After all, the most meaningful stories aren’t just about the ancient past—they’re also about the relationships we have with our Pokémon today!
+TEXT: Ne de olsa anlamlı hikâyelerin pek çoğu yalnızca eski zamanlarla değil bugün Pokémon’larımızla kurduğumuz bağlarla da ilgilidir!
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_02_02
-TEXT: And as the hero of that tale, you have to choose which Pokémon you’re going to train! If it’s a Pokémon like Charizard, will it become Mega Charizard X or Mega Charizard Y?
+TEXT: Bu hikâyenin kahramanı olarak sen de hangi Pokémon’u eğiteceğini seçmelisin! Eğer Charizard gibi bir Pokémon seçeceksen Mega Charizard X mi olacak, yoksa Mega Charizard Y mi?
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_02_03
-TEXT: Get ready to choose your path, %PLAYERNAME%—there’s Mega Evolution to be done!
+TEXT: Yolunu seçmeye hazır ol %PLAYERNAME%, daha yapacağımız çok mega evrim var!
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_03_00
-TEXT: Everyone needs help sometimes, even the strongest among us. Look at me—I get help with my research from professors all across the world.
+TEXT: Herkes zaman zaman yardıma ihtiyaç duyar, en güçlü olanlarımız bile. Beni ele alalım mesela, dünyanın dört bir yanındaki profesörlerden araştırmalarım için sürekli yardım alıyorum.
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_03_01
-TEXT: Keeping up with friends in far-flung places might sound like a lot of effort, but friendship’s like a Scatterbug—it can thrive in any climate or region.
+TEXT: Uzaktaki arkadaşlarla kurulan bağlantıları devam ettirmek bazen zor görünse de arkadaşlık adeta bir Scatterbug gibidir, her iklimde ve bölgede serpilip büyüyebilir.
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_03_02
-TEXT: %PLAYERNAME%, how about you reach out to some of the people who’ve helped you along your journey?
+TEXT: %PLAYERNAME%, sana maceranda yardımcı olmuş olan arkadaşlarınla bağlantı kurmaya ne dersin?
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_03_03
-TEXT: Gifts as simple as a sticker on a Postcard can let people know that you appreciate them.
+TEXT: Bir kartpostala eklenen çıkartma kadar basit bir hediye bile onlara ne kadar değer verdiğinin bir göstergesi olabilir.
 
 RESOURCE ID: go_tour_kalos_global_sr_intro_dialog_00_00
-TEXT: Ahh, Kalos! Home of delicious patisserie, high fashion, and fascinating Pokémon! Photos don’t do it justice.
+TEXT: Ah Kalos! Lezzetli hamur işleri, lüks moda evleri ve şahane Pokémon’larıyla ünlüdür! Fotoğraf görmek yetmez, gidip bizzat ziyaret etmek gerekir.
 
 RESOURCE ID: go_tour_kalos_global_sr_intro_dialog_00_01
-TEXT: Now, I’d like to tell you a story about a Legendary Pokémon that was first discovered in Kalos.
+TEXT: Şimdi sana ilk olarak Kalos’ta keşfedilmiş bir Efsanevi Pokémon hakkında bir hikâye anlatmak istiyorum.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_01_00
-TEXT: Are you familiar with the legend of Xerneas, also known as the Life Pokémon? There are countless stories about it.
+TEXT: Yaşam Enerjili Pokémon olarak da bilinen Xerneas’ın efsanesini duydun mu? Hakkında sayısız hikâye vardır.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_01_01
-TEXT: In some, Xerneas’s horns shine seven different colors when it shares life energy. Others describe it slumbering in the form of a great tree.
+TEXT: Bu hikâyelerin bazılarında yaşam enerjisi paylaşırken Xerneas’ın boynuzları yedi renkte parlar. Diğerleri ise onun görkemli bir ağaç formunda uyuduğunu anlatır.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_01_02
-TEXT: All of these tales show how deeply Xerneas changed the Kalos region.
+TEXT: Tüm bu hikâyeler Xerneas’ın Kalos bölgesini ne kadar derinden değiştirdiğinin birer göstergesidir.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_01_03
-TEXT: Study up on the place a bit more and you’ll definitely get a sense of how big its impact was!
+TEXT: Bu bölge hakkında araştırma yaparsan onun etkisinin ne kadar büyük olduğunu daha iyi anlayabilirsin!
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_04_00
-TEXT: Are you ready for a plot twist? Xerneas has a counterpart!
+TEXT: Sürpriz bir gelişmeye hazır mısın? Xerneas’ın bir de karşıtı var!
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_04_01
-TEXT: Xerneas is the Life Pokémon, and its counterpart, Yveltal, is the Destruction Pokémon. One shares life energy, while the other absorbs it.
+TEXT: Xerneas Yaşam Enerjili Pokémon’dur, karşıtı Yveltal ise İmha Eden Pokémon. Biri yaşam enerjisini paylaşırken diğeri onu emer.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_04_02
-TEXT: It makes you wonder how they feel about each other. Are they enemies...or do they work together?
+TEXT: Acaba birbirleri hakkında ne düşünüyorlar? Yani düşmanlar mı, yoksa işbirliği mi yapıyorlar?
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_04_03
-TEXT: Maybe you’ll find the answer as you train and learn more about these Pokémon.
+TEXT: Belki bu Pokémon’ları eğitip onlar hakkındaki bilgini artırırken bu sorunun cevabını da bulabilirsin.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_05_00
-TEXT: I sense the grand finale approaching, %PLAYERNAME%!
+TEXT: Büyük finalin yaklaşmakta olduğunu seziyorum %PLAYERNAME%!
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_05_01
-TEXT: You’ve witnessed firsthand the beauty of many Pokémon that were first discovered in the Kalos region.
+TEXT: İlk olarak Kalos bölgesinde keşfedilmiş birçok Pokémon’un eşsiz güzelliğini bizzat deneyimledin.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_05_02
-TEXT: You rallied your friends and helped bring out your Pokémon’s inner strength.
+TEXT: Arkadaşlarınla işbirliği yaparak Pokémon’larının güç ve iradelerini ortaya çıkarmalarına yardım ettin.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_05_03
-TEXT: And though we’re nearing the end of this story, something new still awaits just around the corner.
+TEXT: Bu hikâyenin sonuna yaklaşıyor olsak da seni yepyeni maceraların beklediğine eminim.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_05_04
-TEXT: The time has come to face Xerneas! Good luck, %PLAYERNAME%!
+TEXT: Xerneas’la karşılaşma vakti geldi! İyi şanslar %PLAYERNAME%!
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_01_00
-TEXT: Are you familiar with the legend of Yveltal, also known as the Destruction Pokémon? There are countless stories about it.
+TEXT: İmha Eden Pokémon olarak da bilinen Yveltal’ın efsanesini duydun mu? Hakkında sayısız hikâye vardır.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_01_01
-TEXT: In some, Yveltal’s wings and tail glow red when it absorbs life energy. Others say it will someday turn into a great cocoon.
+TEXT: Bu hikâyelerin bazılarında yaşam enerjisi emerken Yveltal’ın kanatları ve kuyruğu kırmızı renkte parlar. Diğerleri ise onun bir gün büyük bir kozaya dönüşeceğini söyler.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_01_02
-TEXT: All these tales show how deeply Yveltal changed the Kalos region.
+TEXT: Tüm bu hikâyeler Yveltal’ın Kalos bölgesini ne kadar derinden değiştirdiğinin birer göstergesidir.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_01_03
-TEXT: Study up on the place a bit more and you’ll definitely get a sense of how big its impact was!
+TEXT: Bu bölge hakkında araştırma yaparsan onun etkisinin ne kadar büyük olduğunu daha iyi anlayabilirsin!
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_04_00
-TEXT: Are you ready for a plot twist? Yveltal has a counterpart!
+TEXT: Sürpriz bir gelişmeye hazır mısın? Yveltal’ın bir de karşıtı var!
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_04_01
-TEXT: Yveltal is the Destruction Pokémon, and its counterpart, Xerneas, is the Life Pokémon. One absorbs life energy, while the other shares it.
+TEXT: Yveltal İmha Eden Pokémon’dur, karşıtı Xerneas ise Yaşam Enerjili Pokémon. Biri yaşam enerjisini emerken diğeri onu paylaşır.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_04_02
-TEXT: It makes you wonder how they feel about each other. Are they enemies...or do they work together?
+TEXT: Acaba birbirleri hakkında ne düşünüyorlar? Yani düşmanlar mı, yoksa işbirliği mi yapıyorlar?
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_04_03
-TEXT: Maybe you’ll find the answer as you train and learn more about these Pokémon.
+TEXT: Belki bu Pokémon’ları eğitip onlar hakkındaki bilgini artırırken bu sorunun cevabını da bulabilirsin.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_05_00
-TEXT: The grand finale is approaching, %PLAYERNAME%!
+TEXT: Büyük final yaklaşıyor %PLAYERNAME%!
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_05_01
-TEXT: You’ve witnessed firsthand the beauty of many Pokémon that were first discovered in the Kalos region.
+TEXT: İlk olarak Kalos bölgesinde keşfedilmiş birçok Pokémon’un eşsiz güzelliğini bizzat deneyimledin.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_05_02
-TEXT: You rallied your friends and helped bring out your Pokémon’s inner strength.
+TEXT: Arkadaşlarınla işbirliği yaparak Pokémon’larının güç ve iradelerini ortaya çıkarmalarına yardım ettin.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_05_03
-TEXT: And though we’re nearing the end of this story, something new still awaits just around the corner.
+TEXT: Bu hikâyenin sonuna yaklaşıyor olsak da seni yepyeni maceraların beklediğine eminim.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_05_04
-TEXT: The time has come to face Yveltal! Good luck, %PLAYERNAME%!
+TEXT: Yveltal’la karşılaşma vakti geldi! İyi şanslar %PLAYERNAME%!
 
 RESOURCE ID: go_tour_kalos_irl_sr_branch_dialog_01_00
 TEXT: Her neyse, şimdi senin yapacaklarına odaklanalım. Yaşam Enerjili Pokémon Xerneas’ı mı, yoksa İmha Eden Pokémon Yveltal’ı mı araştırmak istersin?
@@ -1496,45 +1505,45 @@ RESOURCE ID: gotour2026_irl_boqus_header_hourly
 TEXT: Kalos Yollarında: Saatlik Görevler
 
 RESOURCE ID: gotour2026_welcome
-TEXT: Pokémon GO Tour: Kalos
+TEXT: Pokémon GO Tur: Kalos
 
 RESOURCE ID: gotour2026_welcome_banner_la
-TEXT: Welcome to Pokémon GO Tour: Kalos – Los Angeles!
+TEXT: Pokémon GO Tur: Kalos – Los Angeles etkinliğine hoş geldiniz!
 
 RESOURCE ID: gotour2026_welcome_banner_tainan
-TEXT: Welcome to Pokémon GO Tour: Kalos – Tainan!
+TEXT: Pokémon GO Tur: Kalos – Tainan etkinliğine hoş geldiniz!
 
 RESOURCE ID: gotour_2026_beautiful_day_tr_title
-TEXT: A Beautiful Day to Celebrate! Timed Research
+TEXT: Kutlanası Bir Gün Süreli Araştırması
 
 RESOURCE ID: gotour_2026_beautiful_day_tr_title_00
-TEXT: A Beautiful Day to Celebrate! Timed Research (1/1)
+TEXT: Kutlanası Bir Gün Süreli Araştırması (1/1)
 
 RESOURCE ID: gotour_2026_event_duration
-TEXT: February 23 – March 1
+TEXT: 23 Şubat - 1 Mart
 
 RESOURCE ID: gotour_2026_event_pass_deluxe_title
 TEXT: Lüks GO Bileti: Kalos Yollarında
 
 RESOURCE ID: gotour_2026_event_pass_details_link
-TEXT: For more details, visit the <a href="https://pokemongo.com/post/road-to-kalos-event/">website</a>.
+TEXT: Ayrıntıları <a href="https://pokemongo.com/post/road-to-kalos-event/">internet sitemizden</a> öğrenebilirsiniz.
 
 RESOURCE ID: gotour_2026_event_pass_title
-TEXT: Pokémon GO Tour: Kalos
+TEXT: GO Bileti: Kalos Yollarında
 
 RESOURCE ID: gotour_2026_pass_track_upgrade_header_description
 TEXT: Ek ödüller kazanıp anında <b>Serbest Hoopa ile bir karşılaşmanın</b> kilidini açın!
 
 RESOURCE ID: gotour_2026_upgrade_description
-TEXT: Purchase GO Pass Deluxe: Road to Kalos to unlock the following rewards!
+TEXT: Lüks GO Bileti: Kalos Yollarında’yı satın alarak şu ödüllerin kilidini açabilirsiniz:
 
-• An encounter with Hoopa Unbound
-• One <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Lucky Trinket</a>, which allows you to instantly become Lucky Friends with a friend of your choice
-• Zygarde Cells
-• The Zygarde Jacket avatar item
-• And much more!
+• Serbest Hoopa ile bir karşılaşma
+• Dilediğiniz bir arkadaşınızla anında Şanslı Arkadaş olma fırsatı sağlayan bir <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Şanslı Süs Eşyası</a>
+• Zygarde Hücreleri
+• Zygarde Montu avatar eşyası
+• Ve daha fazlası!
 
-Trainers can earn 150 bonus GO Points daily from February 23 to 27 in addition to the points earned by Pass Tasks. There’s no limit on how many points can be earned during the global event on February 28 and March 1!
+Eğitmenler 23-27 Şubat tarihleri arasında Bilet Görevlerinden kazandıkları puanlara ek olarak günde 150 bonus GO Puanı kazanabilirler. 28 Şubat-1 Mart tarihleri arasında gerçekleşecek küresel etkinlikte kazanılabilecek puanlarda hiçbir sınırlama olmayacak!
 
 RESOURCE ID: gotour_2026_welcome_global
 TEXT: Pokémon GO Tur: Kalos – Küresel etkinliğine hoş geldiniz!
@@ -1549,19 +1558,19 @@ RESOURCE ID: great_league_championship_series_2026
 TEXT: 2026 GO Şampiyonası Serisi Kupası
 
 RESOURCE ID: habitat_kalos_central
-TEXT: Central Village
+TEXT: Merkez Kasabası
 
 RESOURCE ID: habitat_kalos_central_active
 TEXT: Şu anki habitat: Merkez Kasabası
 
 RESOURCE ID: habitat_kalos_coastal
-TEXT: Coastal Laboratory
+TEXT: Sahil Laboratuvarı
 
 RESOURCE ID: habitat_kalos_coastal_active
 TEXT: Şu anki habitat: Sahil Laboratuvarı
 
 RESOURCE ID: habitat_kalos_mountain
-TEXT: Mountain Manor
+TEXT: Dağ Köşkü
 
 RESOURCE ID: habitat_kalos_mountain_active
 TEXT: Şu anki habitat: Dağ Köşkü
@@ -1977,22 +1986,25 @@ RESOURCE ID: message_camera_permission_required
 TEXT: Fotoğraf çekmek için telefon ayarlarınızı açıp Pokémon GO’nun kameraya erişimine izin verin.
 
 RESOURCE ID: message_gallery_permission_required
-TEXT: Fotoğrafları indirmek için telefon ayarlarınızı açıp Pokémon GO’nun fotoğraflara erişimine verin.
+TEXT: Fotoğrafları indirmek için telefon ayarlarınızı açıp Pokémon GO’nun fotoğraflara erişimine izin verin.
 
 RESOURCE ID: message_open_settings
 TEXT: Ayarları aç
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-02-13T23:09:24.654123+00:00 for tr-TR
-at SHA 6d6c847e658
-Pipeline 3541342, job 50979693
-Patch from: 0.399.0-SHA-dbc59b42-RC4, 0.397.1-SHA-7b7c416a-RC5
+TEXT: Built at 2026-02-18T18:06:34.953346+00:00 for tr-TR
+at SHA b95ac9f47d8
+Pipeline 3546097, job 51288594
+Patch from: 0.399.1-SHA-853bae10-RC2, 0.397.1-SHA-aca8ba5a-RC4, 0.401.0-SHA-1d3c71a6-RC1
 
 RESOURCE ID: natural_art_day
 TEXT: Gündüz
 
 RESOURCE ID: natural_art_night
 TEXT: Gece
+
+RESOURCE ID: next_rank_label
+TEXT: Bir sonraki rütbe:
 
 RESOURCE ID: oricorio_mastery_feb2026
 TEXT: Yakalama Ustalığı: Oricorio
@@ -2203,7 +2215,7 @@ Gündüz Portreli Pokémon’lar 06:00-18:00 saatleri arasında, Gece Portreli P
 RESOURCE ID: pokestop_field_book_message_with_times
 TEXT: Find Pokémon for your Field Book at this PokéStop. These Pokémon have Portraits that reflect where they were caught.
 
-Pokémon with day Portraits will appear between {0} and Pokémon with night Portraits will appear between {1}.
+Pokémon with Day Portraits will appear {0}, and Pokémon with Night Portraits will appear {1}.
 
 RESOURCE ID: pokestop_field_book_title
 TEXT: PokéDuraklar
@@ -2284,55 +2296,55 @@ RESOURCE ID: primal_perk_xl_bonus_great
 TEXT: Artırılmış büyük şeker şansı
 
 RESOURCE ID: quest_branch_choose_chespin
-TEXT: Choose Chespin
+TEXT: Chespin’i seçin
 
 RESOURCE ID: quest_branch_choose_chespin_bg_desc
-TEXT: Select this path for a series of encounters with Chespin, the Spiny Nut Pokémon, that have exclusive GO Tour: Kalos Special Backgrounds.
+TEXT: Ayrıcalıklı GO Tur: Kalos özel arka planlarına sahip Dikenli Kestane Pokémon Chespin ile bir dizi karşılaşma için bu yolu seçin
 
 RESOURCE ID: quest_branch_choose_debutante
-TEXT: Choose Debutante Trim
+TEXT: Sosyetik Süslüyü seçin
 
 RESOURCE ID: quest_branch_choose_debutante_desc
 TEXT: Furfrou’nuzun her zamanki bölgesel süs veya süslerini etkinliğin geri kalanı boyunca Sosyetik Süslüye çevirmek için bu seçeneği seçin. Furfrou’nuzun süsünü değiştirmenin bedeli 25 Furfrou şekeri ve 10.000 yıldız tozudur.
 
 RESOURCE ID: quest_branch_choose_diamond
-TEXT: Choose Diamond Trim
+TEXT: Karo Süslüyü seçin
 
 RESOURCE ID: quest_branch_choose_diamond_desc
 TEXT: Furfrou’nuzun her zamanki bölgesel süs veya süslerini etkinliğin geri kalanı boyunca Karo Süslüye çevirmek için bu seçeneği seçin. Furfrou’nuzun süsünü değiştirmenin bedeli 25 Furfrou şekeri ve 10.000 yıldız tozudur.
 
 RESOURCE ID: quest_branch_choose_fennekin
-TEXT: Choose Fennekin
+TEXT: Fennekin’i seçin
 
 RESOURCE ID: quest_branch_choose_fennekin_bg_desc
-TEXT: Select this path for a series of encounters with Fennekin, the Fox Pokémon, that have exclusive GO Tour: Kalos Special Backgrounds.
+TEXT: Ayrıcalıklı GO Tur: Kalos özel arka planlarına sahip Tilki Pokémon Fennekin ile bir dizi karşılaşma için bu yolu seçin
 
 RESOURCE ID: quest_branch_choose_froakie
-TEXT: Choose Froakie
+TEXT: Froakie’yi seçin
 
 RESOURCE ID: quest_branch_choose_froakie_bg_desc
-TEXT: Select this path for a series of encounters with Froakie, the Bubble Frog Pokémon, that have exclusive GO Tour: Kalos Special Backgrounds.
+TEXT: Ayrıcalıklı GO Tur: Kalos özel arka planlarına sahip Baloncuklu Kurbağa Pokémon Froakie ile bir dizi karşılaşma için bu yolu seçin
 
 RESOURCE ID: quest_branch_choose_kabuki
-TEXT: Choose Kabuki Trim
+TEXT: Kabuki Süslüyü seçin
 
 RESOURCE ID: quest_branch_choose_kabuki_desc
 TEXT: Furfrou’nuzun her zamanki bölgesel süs veya süslerini etkinliğin geri kalanı boyunca Kabuki Süslüye çevirmek için bu seçeneği seçin. Furfrou’nuzun süsünü değiştirmenin bedeli 25 Furfrou şekeri ve 10.000 yıldız tozudur.
 
 RESOURCE ID: quest_branch_choose_la_reine
-TEXT: Choose La Reine Trim
+TEXT: La Reine Süslüyü seçin
 
 RESOURCE ID: quest_branch_choose_la_reine_desc
 TEXT: Furfrou’nuzun her zamanki bölgesel süs veya süslerini etkinliğin geri kalanı boyunca La Reine Süslüye çevirmek için bu seçeneği seçin. Furfrou’nuzun süsünü değiştirmenin bedeli 25 Furfrou şekeri ve 10.000 yıldız tozudur.
 
 RESOURCE ID: quest_branch_choose_pharaoh
-TEXT: Choose Pharaoh Trim
+TEXT: Firavun Süslüyü seçin
 
 RESOURCE ID: quest_branch_choose_pharaoh_desc
 TEXT: Furfrou’nuzun her zamanki bölgesel süs veya süslerini etkinliğin geri kalanı boyunca Firavun Süslüye çevirmek için bu seçeneği seçin. Furfrou’nuzun süsünü değiştirmenin bedeli 25 Furfrou şekeri ve 10.000 yıldız tozudur.
 
 RESOURCE ID: quest_branch_choose_star
-TEXT: Choose Star Trim
+TEXT: Yıldız Süslüyü seçin
 
 RESOURCE ID: quest_branch_choose_star_desc
 TEXT: Furfrou’nuzun her zamanki bölgesel süs veya süslerini etkinliğin geri kalanı boyunca Yıldız Süslüye çevirmek için bu seçeneği seçin. Furfrou’nuzun süsünü değiştirmenin bedeli 25 Furfrou şekeri ve 10.000 yıldız tozudur.
@@ -2341,26 +2353,26 @@ RESOURCE ID: quest_branch_choose_trim_prompt
 TEXT: Bir Furfrou süsü seçin
 
 RESOURCE ID: quest_branch_choose_x
-TEXT: Choose X Version
+TEXT: X Versiyonunu seçin
 
 RESOURCE ID: quest_branch_choose_x_desc
-TEXT: Select this option to receive the X Version medal and Xerneas-themed rewards and bonuses during your GO Tour: Kalos adventure.
+TEXT: GO Tour: Kalos maceranız sırasında X Versiyonu madalyası ve Xerneas temalı ödüller kazanmak için bu seçeneği seçin.
 
-During GO Tour: Kalos – Global, you will be able to get Field Research tasks that award an encounter with Unown X.
+GO Tour: Kalos – Küresel sırasında Unown X ile bir karşılaşma kazandıran alan araştırması görevleri alabileceksiniz.
 
 RESOURCE ID: quest_branch_choose_y
-TEXT: Choose Y Version
+TEXT: Y Versiyonunu seçin
 
 RESOURCE ID: quest_branch_choose_y_desc
-TEXT: Select this option to receive the Y Version medal and Yveltal-themed rewards and bonuses during your GO Tour: Kalos adventure.
+TEXT: GO Tour: Kalos maceranız sırasında Y Versiyonu madalyası ve Yveltal temalı ödüller kazanmak için bu seçeneği seçin.
 
-During GO Tour: Kalos – Global, you will be able to get Field Research tasks that award an encounter with Unown Y.
+GO Tour: Kalos – Küresel sırasında Unown Y ile bir karşılaşma kazandıran alan araştırması görevleri alabileceksiniz.
 
 RESOURCE ID: quest_catch_bidoof_singular
 TEXT: Bir Bidoof yakalayın
 
 RESOURCE ID: quest_catch_eevee_singular
-TEXT: Catch an Eevee
+TEXT: Bir Eevee yakalayın
 
 RESOURCE ID: quest_catch_hoppip_singular
 TEXT: Bir Hoppip yakalayın
@@ -2381,31 +2393,31 @@ RESOURCE ID: quest_evolve_eevee_sylveon
 TEXT: Eevee’yi Sylveon’a evrimleştirin
 
 RESOURCE ID: quest_form_change_furfrou_debutante
-TEXT: Form change a Furfrou to have a Debutante Trim
+TEXT: Furfrou’nun formunu değiştirerek Sosyetik Süslü hale getirin
 
 RESOURCE ID: quest_form_change_furfrou_diamond
-TEXT: Form change a Furfrou to have a Diamond Trim
+TEXT: Furfrou’nun formunu değiştirerek Karo Süslü hale getirin
 
 RESOURCE ID: quest_form_change_furfrou_heart
-TEXT: Form change a Furfrou to have a Heart Trim
+TEXT: Furfrou’nun formunu değiştirerek Kalp Süslü hale getirin
 
 RESOURCE ID: quest_form_change_furfrou_kabuki
-TEXT: Form change a Furfrou to have a Kabuki Trim
+TEXT: Furfrou’nun formunu değiştirerek Kabuki Süslü hale getirin
 
 RESOURCE ID: quest_form_change_furfrou_la_reine
-TEXT: Form change a Furfrou to have a La Reine Trim
+TEXT: Furfrou’nun formunu değiştirerek La Reine Süslü hale getirin
 
 RESOURCE ID: quest_form_change_furfrou_pharoah
-TEXT: Form change a Furfrou to have a Pharaoh Trim
+TEXT: Furfrou’nun formunu değiştirerek Firavun Süslü hale getirin
 
 RESOURCE ID: quest_form_change_furfrou_star
-TEXT: Form change a Furfrou to have a Star Trim
+TEXT: Furfrou’nun formunu değiştirerek Yıldız Süslü hale getirin
 
 RESOURCE ID: quest_furfrou_trim
-TEXT: Change a Furfrou’s trim
+TEXT: Bir Furfrou’nun süsünü değiştirin
 
 RESOURCE ID: quest_go_tour_2026_zygarde_route_spin
-TEXT: Spin an event PokéStop at a GO Tour: Kalos Official Route start point
+TEXT: Bir GO Tur: Kalos resmî rotasının başlangıç noktasında bulunan bir etkinlik PokéDurağı döndürün
 
 RESOURCE ID: quest_medal_fairy_platinum
 TEXT: Peri türü yakalama için platin madalya kazanın
@@ -2423,31 +2435,31 @@ RESOURCE ID: quest_pokestop_nominate_singular
 TEXT: Bir PokéDurak aday gösterin
 
 RESOURCE ID: quest_power_up_dark_psychic_plural
-TEXT: Power up Psychic- or Dark-type Pokémon {0} times
+TEXT: Psişik veya Karanlık tür Pokémon’ları {0} kez güçlendirin
 
 RESOURCE ID: quest_power_up_grass_poison_plural
-TEXT: Power up Grass or Poison-type Pokémon {0} times
+TEXT: Bitki veya Zehir türü Pokémon’ları {0} kez güçlendirin
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_debutante
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Debutante Trim
+TEXT: Sosyetik Süslü Furfrou’nun resminin yer aldığı PokéDurağı döndürün
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_diamond
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Diamond Trim
+TEXT: Karo Süslü Furfrou’nun resminin yer aldığı PokéDurağı döndürün
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_heart
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Heart Trim
+TEXT: Kalp Süslü Furfrou’nun resminin yer aldığı PokéDurağı döndürün
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_kabuki
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Kabuki Trim
+TEXT: Kabuki Süslü Furfrou’nun resminin yer aldığı PokéDurağı döndürün
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_la_reine
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a La Reine Trim
+TEXT: La Reine Süslü Furfrou’nun resminin yer aldığı PokéDurağı döndürün
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_pharoah
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Pharaoh Trim
+TEXT: Firavun Süslü Furfrou’nun resminin yer aldığı PokéDurağı döndürün
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_star
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Star Trim
+TEXT: Yıldız Süslü Furfrou’nun resminin yer aldığı PokéDurağı döndürün
 
 RESOURCE ID: quest_snapshot_bug_unique_plural
 TEXT: {0} farklı Böcek türü Pokémon’un fotoğrafını çekin
@@ -2474,7 +2486,7 @@ RESOURCE ID: quests_claim_field_book_quest_encounter_first
 TEXT: Önce Saha Defteri karşılaşmanızı tamamlayın!
 
 RESOURCE ID: quests_log_complete_field_book_page
-TEXT: Complete Field Book Page: {0}
+TEXT: Complete Field Book page: {0}
 
 RESOURCE ID: raid_approach_multiple_post_list
 TEXT: ŞUNU KAZANDIĞINIZDA KULLANILIR: {0}
@@ -2647,19 +2659,19 @@ RESOURCE ID: stamp_rally_missed_prefecture_reward_toast
 TEXT: Bu ödülü almak için bu vilayetteki Poké Lid Damga Toplama konumlarından birindeyken damga düğmesine dokunun.
 
 RESOURCE ID: tag_go_tour_kalos_los_angeles
-TEXT: GO Tour: Kalos – Los Angeles
+TEXT: GO Tur: Kalos – Los Angeles
 
 RESOURCE ID: tag_go_tour_kalos_short
-TEXT: GO Tour: Kalos
+TEXT: GO Tur: Kalos
 
 RESOURCE ID: tag_go_tour_kalos_tainan
-TEXT: GO Tour: Kalos – Tainan
+TEXT: GO Tur: Kalos – Tainan
 
 RESOURCE ID: tag_x_version
-TEXT: X Version
+TEXT: X Versiyonu
 
 RESOURCE ID: tag_y_version
-TEXT: Y Version
+TEXT: Y Versiyonu
 
 RESOURCE ID: tap_to_skip_message
 TEXT: Tap to Skip
@@ -2747,10 +2759,10 @@ RESOURCE ID: timed_research_heart_pattern_spinda
 TEXT: Kalp desenli Spinda ile karşılaşmalar kazandıran süreli araştırma
 
 RESOURCE ID: title_addon_kalos_hatch
-TEXT: GO Tour: Kalos – Egg-thusiast
+TEXT: GO Tur: Kalos – Yumurta Meraklısı
 
 RESOURCE ID: title_addon_kalos_raid
-TEXT: GO Tour: Kalos – Raid Lover
+TEXT: GO Tur: Kalos – Akınsever
 
 RESOURCE ID: title_camera_permission_required
 TEXT: Pokémon GO’nun Kameraya Erişimine İzin Verin
@@ -2762,7 +2774,7 @@ RESOURCE ID: title_hoopa_hoopla
 TEXT: Hop Dedik Hoopa!
 
 RESOURCE ID: title_unown_o_clock
-TEXT: Unown O’Clock
+TEXT: Unown Vakti
 
 RESOURCE ID: today_view_fieldbook_tab_label
 TEXT: Saha Defteri
@@ -2783,118 +2795,118 @@ RESOURCE ID: today_view_today_tab_label
 TEXT: Bugün
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title
-TEXT: Poodle Caboodle Timed Research
+TEXT: Kanişli Bir İş Süreli Araştırması
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_00
-TEXT: Poodle Caboodle Timed Research (1/6)
+TEXT: Kanişli Bir İş Süreli Araştırması (1/6)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_01
-TEXT: Poodle Caboodle Timed Research (2/6)
+TEXT: Kanişli Bir İş Süreli Araştırması (2/6)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_02
-TEXT: Poodle Caboodle Timed Research (3/6)
+TEXT: Kanişli Bir İş Süreli Araştırması (3/6)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_03
-TEXT: Poodle Caboodle Timed Research (4/6)
+TEXT: Kanişli Bir İş Süreli Araştırması (4/6)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_04
-TEXT: Poodle Caboodle Timed Research (5/6)
+TEXT: Kanişli Bir İş Süreli Araştırması (5/6)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_05
-TEXT: Poodle Caboodle Timed Research (6/6)
+TEXT: Kanişli Bir İş Süreli Araştırması (6/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_desc_friday
-TEXT: Spa Day Timed Research (Friday)
+TEXT: Kişisel Bakım Günü Süreli Araştırması (Cuma)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_desc_saturday
-TEXT: Spa Day Timed Research (Saturday)
+TEXT: Kişisel Bakım Günü Süreli Araştırması (Cumartesi)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_desc_sunday
-TEXT: Spa Day Timed Research (Sunday)
+TEXT: Kişisel Bakım Günü Süreli Araştırması (Pazar)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title
-TEXT: Spa Day Timed Research
+TEXT: Kişisel Bakım Günü Süreli Araştırması
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_00
-TEXT: Spa Day Timed Research (1/6)
+TEXT: Kişisel Bakım Günü Süreli Araştırması (1/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_01
-TEXT: Spa Day Timed Research (2/6)
+TEXT: Kişisel Bakım Günü Süreli Araştırması (2/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_02
-TEXT: Spa Day Timed Research (3/6)
+TEXT: Kişisel Bakım Günü Süreli Araştırması (3/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_03
-TEXT: Spa Day Timed Research (4/6)
+TEXT: Kişisel Bakım Günü Süreli Araştırması (4/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_04
-TEXT: Spa Day Timed Research (5/6)
+TEXT: Kişisel Bakım Günü Süreli Araştırması (5/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_05
-TEXT: Spa Day Timed Research (6/6)
+TEXT: Kişisel Bakım Günü Süreli Araştırması (6/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_zygarde_title
-TEXT: En Garde! Timed Research
+TEXT: Çok Hücreli Rotalar Süreli Araştırması
 
 RESOURCE ID: tr_go_tour_2026_irl_zygarde_title_00
-TEXT: En Garde! Timed Research (1/1)
+TEXT: Çok Hücreli Rotalar Süreli Araştırması (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_altaria_title
-TEXT: Mega Altaria Timed Research
+TEXT: Mega Altaria Süreli Araştırması
 
 RESOURCE ID: tr_go_tour_2026_mega_night_altaria_title_00
-TEXT: Mega Altaria Timed Research (1/1)
+TEXT: Mega Altaria Süreli Araştırması (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_ampharos_title
-TEXT: Mega Ampharos Timed Research
+TEXT: Mega Ampharos Süreli Araştırması
 
 RESOURCE ID: tr_go_tour_2026_mega_night_ampharos_title_00
-TEXT: Mega Ampharos Timed Research (1/1)
+TEXT: Mega Ampharos Süreli Araştırması (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_charizard_title
-TEXT: Mega Charizard X Timed Research
+TEXT: Mega Charizard X Süreli Araştırması
 
 RESOURCE ID: tr_go_tour_2026_mega_night_charizard_title_00
-TEXT: Mega Charizard X Timed Research (1/1)
+TEXT: Mega Charizard X Süreli Araştırması (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_garchomp_title
-TEXT: Mega Garchomp Timed Research
+TEXT: Mega Garchomp Süreli Araştırması
 
 RESOURCE ID: tr_go_tour_2026_mega_night_garchomp_title_00
-TEXT: Mega Garchomp Timed Research (1/1)
+TEXT: Mega Garchomp Süreli Araştırması (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_salamence_title
-TEXT: Mega Salamence Timed Research
+TEXT: Mega Salamence Süreli Araştırması
 
 RESOURCE ID: tr_go_tour_2026_mega_night_salamence_title_00
-TEXT: Mega Salamence Timed Research (1/1)
+TEXT: Mega Salamence Süreli Araştırması (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_sceptile_title
-TEXT: Mega Sceptile Timed Research
+TEXT: Mega Sceptile Süreli Araştırması
 
 RESOURCE ID: tr_go_tour_2026_mega_night_sceptile_title_00
-TEXT: Mega Sceptile Timed Research (1/1)
+TEXT: Mega Sceptile Süreli Araştırması (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_title
-TEXT: Mega Finale Timed Research
+TEXT: Mega Final Süreli Araştırması
 
 RESOURCE ID: tr_go_tour_2026_mega_night_title_00
-TEXT: Mega Finale Timed Research (1/1)
+TEXT: Mega Final Süreli Araştırması (1/1)
 
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title
-TEXT: Very Fairy Timed Research
+TEXT: Pek Perili Süreli Araştırması
 
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title_00
-TEXT: Very Fairy Timed Research (1/4)
+TEXT: Pek Perili Süreli Araştırması (1/4)
 
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title_01
-TEXT: Very Fairy Timed Research (2/4)
+TEXT: Pek Perili Süreli Araştırması (2/4)
 
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title_02
-TEXT: Very Fairy Timed Research (3/4)
+TEXT: Pek Perili Süreli Araştırması (3/4)
 
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title_03
-TEXT: Very Fairy Timed Research (4/4)
+TEXT: Pek Perili Süreli Araştırması (4/4)
 
 RESOURCE ID: tr_oricorio_mastery_catch_hoothoot
 TEXT: {0} Hoothoot yakalayın
@@ -2987,31 +2999,31 @@ RESOURCE ID: tv_title_go_tour_2026_global_ticket
 TEXT: GO Tur: Kalos – Küresel, Bilet Bonusları
 
 RESOURCE ID: tv_title_go_tour_2026_la
-TEXT: GO Tour: Kalos – Los Angeles
+TEXT: GO Tur: Kalos – Los Angeles
 
 RESOURCE ID: tv_title_go_tour_2026_la_city
-TEXT: GO Tour: Kalos – Los Angeles, City Experience
+TEXT: GO Tur: Kalos – Los Angeles, Şehir Tecrübesi
 
 RESOURCE ID: tv_title_go_tour_2026_la_city_extended
-TEXT: GO Tour: Kalos – Los Angeles, Extended Bonuses
+TEXT: GO Tur: Kalos – Los Angeles, Süresi Uzatılmış Bonuslar
 
 RESOURCE ID: tv_title_go_tour_2026_la_park
-TEXT: GO Tour: Kalos – Los Angeles, Park Experience
+TEXT: GO Tur: Kalos – Los Angeles, Park Tecrübesi
 
 RESOURCE ID: tv_title_go_tour_2026_tainan
-TEXT: GO Tour: Kalos – Tainan
+TEXT: GO Tur: Kalos – Tainan
 
 RESOURCE ID: tv_title_go_tour_2026_tainan_city
-TEXT: GO Tour: Kalos – Tainan, City Experience
+TEXT: GO Tur: Kalos – Tainan, Şehir Tecrübesi
 
 RESOURCE ID: tv_title_go_tour_2026_tainan_city_extended
-TEXT: GO Tour: Kalos – Tainan, Extended Bonuses
+TEXT: GO Tur: Kalos – Tainan, Süresi Uzatılmış Bonuslar
 
 RESOURCE ID: tv_title_go_tour_2026_tainan_park
-TEXT: GO Tour: Kalos – Tainan, Park Experience
+TEXT: GO Tur: Kalos – Tainan, Park Tecrübesi
 
 RESOURCE ID: unown_o_clock_active
-TEXT: Unown are now appearing in large numbers!
+TEXT: Şu anda çok sayıda Unown ortaya çıkıyor!
 
 RESOURCE ID: use_raid_ticket_confirmation_buy_currency
 TEXT: Daha fazla {0} edinin

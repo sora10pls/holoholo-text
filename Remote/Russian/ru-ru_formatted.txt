@@ -1,5 +1,8 @@
+RESOURCE ID: active_bonuses_label
+TEXT: Бонусы:
+
 RESOURCE ID: ar_photo_social_bonus_text
-TEXT: Bonus
+TEXT: Бонус
 
 RESOURCE ID: ar_photo_social_entry_label
 TEXT: Сделай фото со своим любимым Покемоном!
@@ -8,13 +11,16 @@ RESOURCE ID: ar_photo_social_hashtag
 TEXT: #Pokemon30
 
 RESOURCE ID: ar_photo_social_message_save_disabled
-TEXT: To save photos, open your device settings and give Pokémon GO access to photos.
+TEXT: Чтобы сохранить фото, открой настройки своего устройства и разреши Pokémon GO доступ к фото.
 
 RESOURCE ID: ar_photo_social_name_tag_prompt
-TEXT: Tap the Pokémon’s name to move the label around
+TEXT: Нажми на имя Покемона, чтобы перетащить лейбл
 
 RESOURCE ID: ar_photo_social_photo_shared
-TEXT: Photo shared
+TEXT: Фото отправлено
+
+RESOURCE ID: ar_photo_social_review_confirm_exit_message
+TEXT: Если ты покинешь эту страницу, несохранённые фото будут потеряны.
 
 RESOURCE ID: ar_photo_social_share_default_referral_text
 TEXT: Сфоткайся со своим любимым Покемоном в Pokémon GO!  https://pokemongo.com/
@@ -32,10 +38,10 @@ RESOURCE ID: ar_photo_social_share_referral_text
 TEXT: Сфоткайся со своим любимым Покемоном в Pokémon GO! {0}
 
 RESOURCE ID: ar_photo_social_share_sign_in
-TEXT: Start Playing Pokémon GO
+TEXT: Начать играть в Pokémon GO
 
 RESOURCE ID: ar_photo_social_title_save_disabled
-TEXT: Allow Pokémon GO to save images?
+TEXT: Разрешить Pokémon GO сохранять изображения?
 
 RESOURCE ID: avatar_generic_name
 TEXT:  
@@ -371,13 +377,13 @@ RESOURCE ID: bonus_extra_carbink_global_masterwork
 TEXT: Бонус Непревзойдённого Квеста для посетителей местного события Тур GO
 
 RESOURCE ID: bonus_gift_inventory_40
-TEXT: Gift storage increased to 40
+TEXT: Хранилище Подарков увеличено до 40
 
 RESOURCE ID: bonus_gift_open_daily_100
-TEXT: Open up to 100 Gifts per day
+TEXT: Открывай до 100 Подарков в день
 
 RESOURCE ID: bonus_gift_open_daily_200
-TEXT: Open up to 200 Gifts per day
+TEXT: Открывай до 200 Подарков в день
 
 RESOURCE ID: bonus_gotour_2026_other_mega_level_daily_points_6
 TEXT: Зарабатывай до 6 очков ежедневно, чтобы повысить Мегауровень любого Покемона
@@ -392,16 +398,16 @@ RESOURCE ID: bonus_gotour_irl_2026_mega_level_daily_points_6
 TEXT: Зарабатывай до 6 очков ежедневно, чтобы повысить Мегауровень любого Виктрибела или Маламара
 
 RESOURCE ID: bonus_gotour_kalos_furfrou
-TEXT: Explore the park to get different Furfrou trims not usually available in the region!
+TEXT: Исследуй парк, чтобы получить разные причёски Фурфру, которые обычно недоступны в регионе!
 
 RESOURCE ID: bonus_gotour_mateo_encounter
-TEXT: Exchange more Gifts with Mateo each day
+TEXT: Обменивайся большим количеством Подарков с Матео каждый день
 
 RESOURCE ID: bonus_gotour_zygarde_cell
-TEXT: Chance to discover Zygarde Cells on more Routes per day
+TEXT: Шанс обнаружить Клетки Зайгарда на большем количестве Маршрутов в день
 
 RESOURCE ID: bonus_incense_costume_pikachu
-TEXT: Incense may attract costumed Pikachu
+TEXT: Ладан может привлечь Пикачу в костюмах
 
 RESOURCE ID: bonus_incense_hisui_costume_pikachu
 TEXT: Ладан может привлечь Пикачу в фуражке Рея или Пикачу в косынке Акари
@@ -425,7 +431,7 @@ RESOURCE ID: bonus_mateo_encounter_daily_25
 TEXT: Обменяйся подарками с Матео на Маршрутах, до 25 Маршрутов в день
 
 RESOURCE ID: bonus_mega_cp_boost
-TEXT: Boosted CP for all Mega-Evolved Pokémon
+TEXT: Усиленная БС для всех прошедших Мегаэволюцию Покемонов
 
 RESOURCE ID: bonus_mega_energy_spin_chance
 TEXT: Шанс получить Мегаэнергию за прокрутку Покестопов или Гимов
@@ -440,13 +446,13 @@ RESOURCE ID: bonus_ppk_special_background
 TEXT: Покемоны, пойманные в пятизвёздочных рейдах, будут иметь эксклюзивный Фон Места PokéPark КАНТО
 
 RESOURCE ID: bonus_premier_ball_catch_rate_boost_high
-TEXT: Premier Balls have a massively increased catch rate
+TEXT: Премьер-Боллы имеют невероятно высокий показатель поимки
 
 RESOURCE ID: bonus_premier_ball_catch_rate_boost_med
-TEXT: Premier Balls have a largely increased catch rate
+TEXT: Премьер-Боллы имеют значительно более высокий показатель поимки
 
 RESOURCE ID: bonus_premier_ball_catch_rate_boost_small
-TEXT: Premier Balls have an increased catch rate
+TEXT: Премьер-Боллы имеют более высокий показатель поимки
 
 RESOURCE ID: bonus_raid_3_xl_candy_t5_and_mega
 TEXT: 3 дополнительных Конфеты XL за успешное прохождение пятизвёздочных рейдов и Мегарейдов
@@ -455,21 +461,24 @@ RESOURCE ID: bonus_raid_5k_xp_mega
 TEXT: Дополнительные 5000 XP за успешное прохождение Мегарейдов
 
 RESOURCE ID: bonus_raid_6_candy_t5_and_mega
-TEXT: Six additional Candy for successful five-star raids and Mega Raids
+TEXT: 6 дополнительных Конфет за успешное прохождение пятизвёздочных рейдов и Мегарейдов
+
+RESOURCE ID: bonus_raid_6_xl_candy_t5_and_mega
+TEXT: 6 дополнительных Конфет XL за успешное прохождение пятизвёздочных рейдов и Мегарейдов
 
 RESOURCE ID: bonus_routes_flabebe
 TEXT: Больше шансов появления Флабебе на Маршрутах
 
 RESOURCE ID: bonus_routes_flabebe_los_angeles
-TEXT: Increased chance of encountering White Flower Flabébé, Orange Flower Flabébé, and Yellow Flower Flabébé on Routes
+TEXT: Больше шансов встретить Флабебе-Белый Цветок, Флабебе-Оранжевый Цветок и Флабебе-Жёлтый Цветок на Маршрутах
 
 RESOURCE ID: bonus_routes_flabebe_tainan
-TEXT: Increased chance of encountering White Flower Flabébé, Orange Flower Flabébé, and Blue Flower Flabébé on Routes
+TEXT: Больше шансов встретить Флабебе-Белый Цветок, Флабебе-Оранжевый Цветок и Флабебе-Голубой Цветок на Маршрутах
 
 RESOURCE ID: bonus_scatterbug_pin_1
 TEXT: Скаттербаг появляется после каждого добавления Подарка из региона
 
-RESOURCE ID: bonus_scatterbug_pin_3_temp
+RESOURCE ID: bonus_scatterbug_pin_3
 TEXT: Каждая добавленная Открытка увеличивает прогресс мини-медали Скаттербаг
 
 RESOURCE ID: bonus_scatterbug_pin_6
@@ -479,10 +488,10 @@ RESOURCE ID: bonus_special_background_t1_t5_raid
 TEXT: Покемоны, пойманные в однозвёздочных или пятизвёздочных рейдах, могут иметь Особый Фон
 
 RESOURCE ID: bonus_special_background_t5_and_mega_raid
-TEXT: Pokémon caught from five-star raids and Mega Raids may have a Special Background
+TEXT: Покемоны, пойманные в пятизвёздочных рейдах и Мегарейдах, могут иметь Особый Фон
 
 RESOURCE ID: bonus_stickers_gotour_kalos
-TEXT: GO Tour: Kalos stickers available from Gifts and spinning PokéStops
+TEXT: Наклейки Тура GO: Калос будут доступны в Подарках и при прокрутке Покестопов
 
 RESOURCE ID: bonus_today_event_sr
 TEXT: Уже доступен эксклюзивный Специальный Квест события
@@ -825,7 +834,7 @@ RESOURCE ID: day_night_tutorial_detail_page
 TEXT: Портрет этого Покемона показывает, где он был пойман.
 
 RESOURCE ID: desc_unown_o_clock
-TEXT: At the top of each hour, Unown will appear in large numbers!
+TEXT: Аноуны будут появляться в больших количествах в начале каждого часа!
 
 RESOURCE ID: details_link_key_dmax_ho_oh
 TEXT: Чтобы узнать больше, посети <a href="https://pokemongo.com/news/ho-oh-max-battle-weekend-2026">этот сайт</a>.
@@ -1213,7 +1222,7 @@ RESOURCE ID: fieldbook_summary_species_caught_text
 TEXT: Поймано разных Покемонов с Портретами: {0}!
 
 RESOURCE ID: fieldbook_summary_species_caught_text_singular
-TEXT: You caught 1 Pokemon with a Portrait!
+TEXT: You caught 1 Pokémon with a Portrait!
 
 RESOURCE ID: fieldbook_tab_ftue_1_body_text_key
 TEXT: У Покемонов в твоём Полевом Журнале есть Портреты, которые показывают, где они были пойманы.
@@ -1287,13 +1296,13 @@ RESOURCE ID: gmax_meowth_website_link
 TEXT: Чтобы узнать больше, посети  <a href="https://pokemongo.com/news/gigantamax-meowth-max-battle-day-2026">этот сайт</a>.
 
 RESOURCE ID: go_pass_milestone_rank
-TEXT: Major Milestone
+TEXT: Значимое Достижение
 
 RESOURCE ID: go_pass_milestone_rewards
-TEXT: Milestone Rewards:
+TEXT: Награды за Достижение Цели:
 
 RESOURCE ID: go_pass_rank_level_rewards
-TEXT: Rank {0} Rewards
+TEXT: Награды в Ранге {0}
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_00_00
 TEXT: %PLAYERNAME%! Извини за беспорядок – я ищу кое-какие заметки.
@@ -1437,112 +1446,112 @@ RESOURCE ID: go_tour_kalos_furfrou_branch_tr_dialog_00_01
 TEXT: Как бы много дел у тебя ни было, всегда найдётся время задать новый тренд! И помни, стиль который тебе по душе – это и есть самый лучший стиль.
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_02_00
-TEXT: %PLAYERNAME%, did you know that Mega Energy alone isn’t enough to Mega Evolve a Pokémon? It also needs to have a strong bond with its Trainer.
+TEXT: %PLAYERNAME%, знаешь ли ты, что одной Мегаэнергии недостаточно, чтобы мегаэволюционировать Покемона? Для этого также нужна крепкая связь с Тренером.
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_02_01
-TEXT: After all, the most meaningful stories aren’t just about the ancient past—they’re also about the relationships we have with our Pokémon today!
+TEXT: Ведь самые значимые истории не только о древнем прошлом, но и о наших отношениях с Покемонами сегодня!
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_02_02
-TEXT: And as the hero of that tale, you have to choose which Pokémon you’re going to train! If it’s a Pokémon like Charizard, will it become Mega Charizard X or Mega Charizard Y?
+TEXT: И как главному герою этого сказания, тебе нужно выбрать Покемона, которого ты будешь тренировать! Если этот Покемон, скажем, Чаризард, станет ли он Мега-Чаризардом X или Мега-Чаризардом Y?
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_02_03
-TEXT: Get ready to choose your path, %PLAYERNAME%—there’s Mega Evolution to be done!
+TEXT: Приготовься выбрать свой путь, %PLAYERNAME% – Мегаэволюция ждёт!
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_03_00
-TEXT: Everyone needs help sometimes, even the strongest among us. Look at me—I get help with my research from professors all across the world.
+TEXT: Каждому иногда нужна помощь, даже самым сильным из нас. Посмотри на меня – я получаю помощь с моими исследованиями от профессоров со всего мира.
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_03_01
-TEXT: Keeping up with friends in far-flung places might sound like a lot of effort, but friendship’s like a Scatterbug—it can thrive in any climate or region.
+TEXT: Поддерживать связь с друзьями на другом конце света может показаться нелёгкой задачей, но дружба, как Скаттербаг, может процветать в любом климате или регионе.
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_03_02
-TEXT: %PLAYERNAME%, how about you reach out to some of the people who’ve helped you along your journey?
+TEXT: %PLAYERNAME%, почему бы тебе не связаться с теми, кто помогал тебе во время твоих приключений?
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_03_03
-TEXT: Gifts as simple as a sticker on a Postcard can let people know that you appreciate them.
+TEXT: Даже такой простой Подарок, как наклейка на Открытке, станет отличным напоминанием, что ты их ценишь.
 
 RESOURCE ID: go_tour_kalos_global_sr_intro_dialog_00_00
-TEXT: Ahh, Kalos! Home of delicious patisserie, high fashion, and fascinating Pokémon! Photos don’t do it justice.
+TEXT: Ах, Калос! Родина вкуснейших пирожных, высокой моды и удивительных Покемонов! Фотографии не могут передать всё это.
 
 RESOURCE ID: go_tour_kalos_global_sr_intro_dialog_00_01
-TEXT: Now, I’d like to tell you a story about a Legendary Pokémon that was first discovered in Kalos.
+TEXT: Вообще-то я хотел бы рассказать тебе историю о Легендарном Покемоне, впервые обнаруженном в Калосе.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_01_00
-TEXT: Are you familiar with the legend of Xerneas, also known as the Life Pokémon? There are countless stories about it.
+TEXT: Знакома ли тебе легенда о Зирнисе, также известном как Покемон-Жизнь? Существует бесчисленное количество историй о нём.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_01_01
-TEXT: In some, Xerneas’s horns shine seven different colors when it shares life energy. Others describe it slumbering in the form of a great tree.
+TEXT: В одних говорится, что рога Зирниса сияют радужным светом, когда он делится жизненной энергией. Другие описывают его в виде большого дремлющего дерева.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_01_02
-TEXT: All of these tales show how deeply Xerneas changed the Kalos region.
+TEXT: Все эти сказания показывают, как глубоко Зирнис изменил регион Калос.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_01_03
-TEXT: Study up on the place a bit more and you’ll definitely get a sense of how big its impact was!
+TEXT: Изучи это место подробнее, и ты точно поймёшь, насколько большим было его влияние!
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_04_00
-TEXT: Are you ready for a plot twist? Xerneas has a counterpart!
+TEXT: Любишь неожиданные повороты сюжета? У Зирниса есть сородич!
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_04_01
-TEXT: Xerneas is the Life Pokémon, and its counterpart, Yveltal, is the Destruction Pokémon. One shares life energy, while the other absorbs it.
+TEXT: Зирнис, Покемон-Жизнь, а его сородич – Ивелтал, Покемон-Разрушение. Пока один делится жизненной энергией, другой её поглощает.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_04_02
-TEXT: It makes you wonder how they feel about each other. Are they enemies...or do they work together?
+TEXT: Это заставляет задуматься о том, как они относятся друг к другу. Они враги... или действуют вместе?
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_04_03
-TEXT: Maybe you’ll find the answer as you train and learn more about these Pokémon.
+TEXT: Возможно, ты найдёшь ответ, когда будешь тренироваться и узнаешь больше об этих Покемонах.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_05_00
-TEXT: I sense the grand finale approaching, %PLAYERNAME%!
+TEXT: Я чувствую, что приближается грандиозный финал, %PLAYERNAME%!
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_05_01
-TEXT: You’ve witnessed firsthand the beauty of many Pokémon that were first discovered in the Kalos region.
+TEXT: Тебе удалось своими глазами увидеть всю красоту и многообразие Покемонов, впервые обнаруженных в регионе Калос.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_05_02
-TEXT: You rallied your friends and helped bring out your Pokémon’s inner strength.
+TEXT: У тебя получилось укрепить связь с друзьями и помочь своим Покемонам проявить их внутреннюю силу.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_05_03
-TEXT: And though we’re nearing the end of this story, something new still awaits just around the corner.
+TEXT: И хотя мы приближаемся к концу этой истории, новые приключения уже не за горами.
 
 RESOURCE ID: go_tour_kalos_global_sr_xerneas_dialog_05_04
-TEXT: The time has come to face Xerneas! Good luck, %PLAYERNAME%!
+TEXT: Пришло время встретиться с Зирнисом! Удачи, %PLAYERNAME%!
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_01_00
-TEXT: Are you familiar with the legend of Yveltal, also known as the Destruction Pokémon? There are countless stories about it.
+TEXT: Знакома ли тебе легенда об Ивелтале, также известном как Покемон-Разрушение? Существует бесчисленное количество историй о нём.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_01_01
-TEXT: In some, Yveltal’s wings and tail glow red when it absorbs life energy. Others say it will someday turn into a great cocoon.
+TEXT: В одних говорится, что крылья и хвост Ивелтала светятся красным, когда он поглощает жизненную энергию. Другие говорят, что когда-нибудь он превратится в большой кокон.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_01_02
-TEXT: All these tales show how deeply Yveltal changed the Kalos region.
+TEXT: Все эти сказания показывают, как глубоко Ивелтал изменил регион Калос.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_01_03
-TEXT: Study up on the place a bit more and you’ll definitely get a sense of how big its impact was!
+TEXT: Изучи это место подробнее, и ты точно поймёшь, насколько большим было его влияние!
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_04_00
-TEXT: Are you ready for a plot twist? Yveltal has a counterpart!
+TEXT: Любишь неожиданные повороты сюжета? У Ивелтала есть сородич!
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_04_01
-TEXT: Yveltal is the Destruction Pokémon, and its counterpart, Xerneas, is the Life Pokémon. One absorbs life energy, while the other shares it.
+TEXT: Ивелтал, Покемон-Разрушение, а его сородич – Зирнис, Покемон-Жизнь. Пока один поглощает жизненную энергию, другой ею делится.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_04_02
-TEXT: It makes you wonder how they feel about each other. Are they enemies...or do they work together?
+TEXT: Это заставляет задуматься о том, как они относятся друг к другу. Они враги... или действуют вместе?
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_04_03
-TEXT: Maybe you’ll find the answer as you train and learn more about these Pokémon.
+TEXT: Возможно, ты найдёшь ответ, когда будешь тренироваться и узнаешь больше об этих Покемонах.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_05_00
-TEXT: The grand finale is approaching, %PLAYERNAME%!
+TEXT: Грандиозный финал приближается, %PLAYERNAME%!
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_05_01
-TEXT: You’ve witnessed firsthand the beauty of many Pokémon that were first discovered in the Kalos region.
+TEXT: Тебе удалось своими глазами увидеть всю красоту и многообразие Покемонов, впервые обнаруженных в регионе Калос.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_05_02
-TEXT: You rallied your friends and helped bring out your Pokémon’s inner strength.
+TEXT: У тебя получилось укрепить связь с друзьями и помочь своим Покемонам проявить их внутреннюю силу.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_05_03
-TEXT: And though we’re nearing the end of this story, something new still awaits just around the corner.
+TEXT: И хотя мы приближаемся к концу этой истории, новые приключения уже не за горами.
 
 RESOURCE ID: go_tour_kalos_global_sr_yveltal_dialog_05_04
-TEXT: The time has come to face Yveltal! Good luck, %PLAYERNAME%!
+TEXT: Пришло время встретиться с Ивелталом! Удачи, %PLAYERNAME%!
 
 RESOURCE ID: go_tour_kalos_irl_sr_branch_dialog_01_00
 TEXT: Давай сегодня сосредоточим твои усилия. Ты предпочтёшь изучать Зирниса, Покемона-Жизнь или Ивелтала, Покемона-Разрушение?
@@ -1632,45 +1641,45 @@ RESOURCE ID: gotour2026_irl_boqus_header_hourly
 TEXT: Дорога в Калос: Почасовые Задания
 
 RESOURCE ID: gotour2026_welcome
-TEXT: Pokémon GO Tour: Kalos
+TEXT: Тур Pokémon GO: Калос
 
 RESOURCE ID: gotour2026_welcome_banner_la
-TEXT: Welcome to Pokémon GO Tour: Kalos – Los Angeles!
+TEXT: Добро пожаловать на Тур Pokémon GO: Калос – Лос-Анджелес!
 
 RESOURCE ID: gotour2026_welcome_banner_tainan
-TEXT: Welcome to Pokémon GO Tour: Kalos – Tainan!
+TEXT: Добро пожаловать на Тур Pokémon GO: Калос – Тайнань!
 
 RESOURCE ID: gotour_2026_beautiful_day_tr_title
-TEXT: A Beautiful Day to Celebrate! Timed Research
+TEXT: Квест на Время Прекрасный День для Праздника
 
 RESOURCE ID: gotour_2026_beautiful_day_tr_title_00
-TEXT: A Beautiful Day to Celebrate! Timed Research (1/1)
+TEXT: Квест на Время Прекрасный День для Праздника (1/1)
 
 RESOURCE ID: gotour_2026_event_duration
-TEXT: February 23 – March 1
+TEXT: 23 февраля – 1 марта
 
 RESOURCE ID: gotour_2026_event_pass_deluxe_title
 TEXT: Делюкс-Пропуск GO: Дорога в Калос
 
 RESOURCE ID: gotour_2026_event_pass_details_link
-TEXT: For more details, visit the <a href="https://pokemongo.com/post/road-to-kalos-event/">website</a>.
+TEXT: Чтобы узнать больше, посети <a href="https://pokemongo.com/post/road-to-kalos-event/">этот сайт</a>.
 
 RESOURCE ID: gotour_2026_event_pass_title
-TEXT: Pokémon GO Tour: Kalos
+TEXT: Пропуск GO: Дорога в Калос
 
 RESOURCE ID: gotour_2026_pass_track_upgrade_header_description
 TEXT: Заработай награды и мгновенно получи доступ к <b>встрече со Свободным Хуппой</b>!
 
 RESOURCE ID: gotour_2026_upgrade_description
-TEXT: Purchase GO Pass Deluxe: Road to Kalos to unlock the following rewards!
+TEXT: Приобрети Делюкс-Пропуск GO: Дорога в Калос, чтобы получить доступ к следующим наградам!
 
-• An encounter with Hoopa Unbound
-• One <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Lucky Trinket</a>, which allows you to instantly become Lucky Friends with a friend of your choice
-• Zygarde Cells
-• The Zygarde Jacket avatar item
-• And much more!
+• Встреча со Свободным Хуппой
+• 1 <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Удачливая Капсула</a>, которая позволит тебе моментально стать Удачливыми Друзьями с любым твоим другом на выбор
+• Клетки Зайгарда
+• Предмет для аватара Куртка Зайгард
+• И многим другим!
 
-Trainers can earn 150 bonus GO Points daily from February 23 to 27 in addition to the points earned by Pass Tasks. There’s no limit on how many points can be earned during the global event on February 28 and March 1!
+С 23 по 27 февраля Тренеры могут ежедневно зарабатывать 150 бонусных Очков GO в дополнение к очкам, заработанным за выполнение заданий GO Tour. Количество очков, заработанное во время глобального события 28 февраля и 1 марта, не ограничено!
 
 RESOURCE ID: gotour_2026_welcome_global
 TEXT: Добро пожаловать на Тур Pokémon GO: Калос – По Всему Миру!
@@ -1685,19 +1694,19 @@ RESOURCE ID: great_league_championship_series_2026
 TEXT: Кубок Серии Игр Чемпионата GO 2026
 
 RESOURCE ID: habitat_kalos_central
-TEXT: Central Village
+TEXT: Центральная Деревня
 
 RESOURCE ID: habitat_kalos_central_active
 TEXT: Территория: Центральная Деревня
 
 RESOURCE ID: habitat_kalos_coastal
-TEXT: Coastal Laboratory
+TEXT: Прибрежная Лаборатория
 
 RESOURCE ID: habitat_kalos_coastal_active
 TEXT: Территория: Прибрежная Лаборатория
 
 RESOURCE ID: habitat_kalos_mountain
-TEXT: Mountain Manor
+TEXT: Горная Усадьба
 
 RESOURCE ID: habitat_kalos_mountain_active
 TEXT: Территория: Горная Усадьба
@@ -2104,16 +2113,19 @@ RESOURCE ID: message_open_settings
 TEXT: Открыть настройки
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-02-13T23:09:24.654123+00:00 for ru-RU
-at SHA 6d6c847e658
-Pipeline 3541342, job 50979693
-Patch from: 0.399.0-SHA-dbc59b42-RC4, 0.397.1-SHA-7b7c416a-RC5
+TEXT: Built at 2026-02-18T18:06:34.953346+00:00 for ru-RU
+at SHA b95ac9f47d8
+Pipeline 3546097, job 51288594
+Patch from: 0.399.1-SHA-853bae10-RC2, 0.397.1-SHA-aca8ba5a-RC4, 0.401.0-SHA-1d3c71a6-RC1
 
 RESOURCE ID: natural_art_day
 TEXT: День
 
 RESOURCE ID: natural_art_night
 TEXT: Ночь
+
+RESOURCE ID: next_rank_label
+TEXT: Следующий ранг:
 
 RESOURCE ID: oricorio_mastery_feb2026
 TEXT: Мастерство Поимки: Орикорио
@@ -2318,7 +2330,7 @@ TEXT: Найди Покемонов для своего Полевого Жур�
 RESOURCE ID: pokestop_field_book_message_with_times
 TEXT: Find Pokémon for your Field Book at this PokéStop. These Pokémon have Portraits that reflect where they were caught.
 
-Pokémon with day Portraits will appear between {0} and Pokémon with night Portraits will appear between {1}.
+Pokémon with Day Portraits will appear {0}, and Pokémon with Night Portraits will appear {1}.
 
 RESOURCE ID: pokestop_field_book_title
 TEXT: Покестопы
@@ -2399,55 +2411,55 @@ RESOURCE ID: primal_perk_xl_bonus_great
 TEXT: Больше шансов получить Конфеты XL
 
 RESOURCE ID: quest_branch_choose_chespin
-TEXT: Choose Chespin
+TEXT: Выбери Чеспина
 
 RESOURCE ID: quest_branch_choose_chespin_bg_desc
-TEXT: Select this path for a series of encounters with Chespin, the Spiny Nut Pokémon, that have exclusive GO Tour: Kalos Special Backgrounds.
+TEXT: Выбери этот путь для серии встреч с Чеспином, Покемоном-Колючий Орех, с эксклюзивными Особыми Фонами Тур GO: Калос.
 
 RESOURCE ID: quest_branch_choose_debutante
-TEXT: Choose Debutante Trim
+TEXT: Выбери форму Причёска-Дебютант
 
 RESOURCE ID: quest_branch_choose_debutante_desc
 TEXT: Выбери этот вариант, чтобы изменить обычную региональную причёску или причёски твоего Фурфру на форму Причёска-Дебютант до окончания события. Изменение причёски твоего Фурфру с одной на любую другую будет стоить 25 Фурфру-Конфет и 10 000 Звёздной Пыли.
 
 RESOURCE ID: quest_branch_choose_diamond
-TEXT: Choose Diamond Trim
+TEXT: Выбери форму Причёска-Алмаз
 
 RESOURCE ID: quest_branch_choose_diamond_desc
 TEXT: Выбери этот вариант, чтобы изменить обычную региональную причёску или причёски твоего Фурфру на форму Причёска-Алмаз до окончания события. Изменение причёски твоего Фурфру с одной на любую другую будет стоить 25 Фурфру-Конфет и 10 000 Звёздной Пыли.
 
 RESOURCE ID: quest_branch_choose_fennekin
-TEXT: Choose Fennekin
+TEXT: Выбери Феннекина
 
 RESOURCE ID: quest_branch_choose_fennekin_bg_desc
-TEXT: Select this path for a series of encounters with Fennekin, the Fox Pokémon, that have exclusive GO Tour: Kalos Special Backgrounds.
+TEXT: Выбери этот путь для серии встреч с Феннекином, Покемоном-Лисой, с эксклюзивными Особыми Фонами Тур GO: Калос.
 
 RESOURCE ID: quest_branch_choose_froakie
-TEXT: Choose Froakie
+TEXT: Выбери Фроки
 
 RESOURCE ID: quest_branch_choose_froakie_bg_desc
-TEXT: Select this path for a series of encounters with Froakie, the Bubble Frog Pokémon, that have exclusive GO Tour: Kalos Special Backgrounds.
+TEXT: Выбери этот путь для серии встреч с Фроки, Покемоном Лягушка-Пузырь, с эксклюзивными Особыми Фонами Тур GO: Калос.
 
 RESOURCE ID: quest_branch_choose_kabuki
-TEXT: Choose Kabuki Trim
+TEXT: Выбери форму Причёска-Кабуки
 
 RESOURCE ID: quest_branch_choose_kabuki_desc
 TEXT: Выбери этот вариант, чтобы изменить обычную региональную причёску или причёски твоего Фурфру на форму Причёска-Кабуки до окончания события. Изменение причёски твоего Фурфру с одной на любую другую будет стоить 25 Фурфру-Конфет и 10 000 Звёздной Пыли.
 
 RESOURCE ID: quest_branch_choose_la_reine
-TEXT: Choose La Reine Trim
+TEXT: Выбери форму Причёска-Королева
 
 RESOURCE ID: quest_branch_choose_la_reine_desc
 TEXT: Выбери этот вариант, чтобы изменить обычную региональную причёску или причёски твоего Фурфру на форму Причёска-Королева до окончания события. Изменение причёски твоего Фурфру с одной на любую другую будет стоить 25 Фурфру-Конфет и 10 000 Звёздной Пыли.
 
 RESOURCE ID: quest_branch_choose_pharaoh
-TEXT: Choose Pharaoh Trim
+TEXT: Выбери форму Причёска-Фараон
 
 RESOURCE ID: quest_branch_choose_pharaoh_desc
 TEXT: Выбери этот вариант, чтобы изменить обычную региональную причёску или причёски твоего Фурфру на форму Причёска-Фараон до окончания события. Изменение причёски твоего Фурфру с одной на любую другую будет стоить 25 Фурфру-Конфет и 10 000 Звёздной Пыли.
 
 RESOURCE ID: quest_branch_choose_star
-TEXT: Choose Star Trim
+TEXT: Выбери форму Причёска-Звезда
 
 RESOURCE ID: quest_branch_choose_star_desc
 TEXT: Выбери этот вариант, чтобы изменить обычную региональную причёску или причёски твоего Фурфру на форму Причёска-Звезда до окончания события. Изменение причёски твоего Фурфру с одной на любую другую будет стоить 25 Фурфру-Конфет и 10 000 Звёздной Пыли.
@@ -2456,7 +2468,7 @@ RESOURCE ID: quest_branch_choose_trim_prompt
 TEXT: Выбери причёску Фурфру
 
 RESOURCE ID: quest_branch_choose_x
-TEXT: Choose X Version
+TEXT: Выбери Версию X
 
 RESOURCE ID: quest_branch_choose_x_desc
 TEXT: Select this option to receive the X Version medal and Xerneas-themed rewards and bonuses during your GO Tour: Kalos adventure.
@@ -2464,7 +2476,7 @@ TEXT: Select this option to receive the X Version medal and Xerneas-themed rewar
 During GO Tour: Kalos – Global, you will be able to get Field Research tasks that award an encounter with Unown X.
 
 RESOURCE ID: quest_branch_choose_y
-TEXT: Choose Y Version
+TEXT: Выбери Версию Y
 
 RESOURCE ID: quest_branch_choose_y_desc
 TEXT: Select this option to receive the Y Version medal and Yveltal-themed rewards and bonuses during your GO Tour: Kalos adventure.
@@ -2475,7 +2487,7 @@ RESOURCE ID: quest_catch_bidoof_singular
 TEXT: Поймай Бидуфа
 
 RESOURCE ID: quest_catch_eevee_singular
-TEXT: Catch an Eevee
+TEXT: Поймай Иви
 
 RESOURCE ID: quest_catch_hoppip_singular
 TEXT: Поймай Хоппипа
@@ -2496,31 +2508,31 @@ RESOURCE ID: quest_evolve_eevee_sylveon
 TEXT: Эволюционируй Иви в Сильвеона
 
 RESOURCE ID: quest_form_change_furfrou_debutante
-TEXT: Form change a Furfrou to have a Debutante Trim
+TEXT: Измени форму Фурфру на Причёска-Дебютант
 
 RESOURCE ID: quest_form_change_furfrou_diamond
-TEXT: Form change a Furfrou to have a Diamond Trim
+TEXT: Измени форму Фурфру на Причёска-Алмаз
 
 RESOURCE ID: quest_form_change_furfrou_heart
-TEXT: Form change a Furfrou to have a Heart Trim
+TEXT: Измени форму Фурфру на Причёска-Сердце
 
 RESOURCE ID: quest_form_change_furfrou_kabuki
-TEXT: Form change a Furfrou to have a Kabuki Trim
+TEXT: Измени форму Фурфру на Причёска-Кабуки
 
 RESOURCE ID: quest_form_change_furfrou_la_reine
-TEXT: Form change a Furfrou to have a La Reine Trim
+TEXT: Измени форму Фурфру на Причёска-Королева
 
 RESOURCE ID: quest_form_change_furfrou_pharoah
-TEXT: Form change a Furfrou to have a Pharaoh Trim
+TEXT: Измени форму Фурфру на Причёска-Фараон
 
 RESOURCE ID: quest_form_change_furfrou_star
-TEXT: Form change a Furfrou to have a Star Trim
+TEXT: Измени форму Фурфру на Причёска-Звезда
 
 RESOURCE ID: quest_furfrou_trim
-TEXT: Change a Furfrou’s trim
+TEXT: Поменяй стрижку Фурфру
 
 RESOURCE ID: quest_go_tour_2026_zygarde_route_spin
-TEXT: Spin an event PokéStop at a GO Tour: Kalos Official Route start point
+TEXT: Покрути Покестоп события в точке старта Официального Маршрута Тура GO: Калос
 
 RESOURCE ID: quest_medal_fairy_platinum
 TEXT: Заработай платиновую медаль за поимку Покемонов типа Фея
@@ -2538,31 +2550,31 @@ RESOURCE ID: quest_pokestop_nominate_singular
 TEXT: Подай заявку на добавление Покестопа
 
 RESOURCE ID: quest_power_up_dark_psychic_plural
-TEXT: Power up Psychic- or Dark-type Pokémon {0} times
+TEXT: Усиль Покемонов типов Психо или Тёмный ×{0}
 
 RESOURCE ID: quest_power_up_grass_poison_plural
-TEXT: Power up Grass or Poison-type Pokémon {0} times
+TEXT: Усиль Покемонов типов Трава или Яд ×{0}
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_debutante
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Debutante Trim
+TEXT: Покрути Покестоп с изображением Фурфру Причёска-Дебютант
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_diamond
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Diamond Trim
+TEXT: Покрути Покестоп с изображением Фурфру Причёска-Алмаз
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_heart
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Heart Trim
+TEXT: Покрути Покестоп с изображением Фурфру Причёска-Сердце
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_kabuki
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Kabuki Trim
+TEXT: Покрути Покестоп с изображением Фурфру Причёска-Кабуки
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_la_reine
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a La Reine Trim
+TEXT: Покрути Покестоп с изображением Фурфру Причёска-Королева
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_pharoah
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Pharaoh Trim
+TEXT: Покрути Покестоп с изображением Фурфру Причёска-Фараон
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_star
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Star Trim
+TEXT: Покрути Покестоп с изображением Фурфру Причёска-Звезда
 
 RESOURCE ID: quest_snapshot_bug_unique_plural
 TEXT: Сделай фото разных Покемонов типа Насекомое ×{0}
@@ -2589,7 +2601,7 @@ RESOURCE ID: quests_claim_field_book_quest_encounter_first
 TEXT: Сначала заверши встречи своего Полевого Журнала!
 
 RESOURCE ID: quests_log_complete_field_book_page
-TEXT: Complete Field Book Page: {0}
+TEXT: Complete Field Book page: {0}
 
 RESOURCE ID: raid_approach_multiple_post_list
 TEXT: ИСПОЛЬЗУЕТСЯ ПРИ ПОБЕДЕ: {0}
@@ -2765,19 +2777,19 @@ RESOURCE ID: stamp_rally_missed_prefecture_reward_toast
 TEXT: Чтобы получить эту награду, нажми на кнопку печати, находясь в одном из мест Марафона Печатей Poké Lid в этой префектуре.
 
 RESOURCE ID: tag_go_tour_kalos_los_angeles
-TEXT: GO Tour: Kalos – Los Angeles
+TEXT: Тур GO: Калос – Лос-Анджелес
 
 RESOURCE ID: tag_go_tour_kalos_short
-TEXT: GO Tour: Kalos
+TEXT: Тур GO: Калос
 
 RESOURCE ID: tag_go_tour_kalos_tainan
-TEXT: GO Tour: Kalos – Tainan
+TEXT: Тур GO: Калос – Тайнань
 
 RESOURCE ID: tag_x_version
-TEXT: X Version
+TEXT: Версия X
 
 RESOURCE ID: tag_y_version
-TEXT: Y Version
+TEXT: Версия Y
 
 RESOURCE ID: tap_to_skip_message
 TEXT: Tap to Skip
@@ -2865,10 +2877,10 @@ RESOURCE ID: timed_research_heart_pattern_spinda
 TEXT: Квест на Время, наградами за который являются встречи со Спиндой с узором в виде сердечка
 
 RESOURCE ID: title_addon_kalos_hatch
-TEXT: GO Tour: Kalos – Egg-thusiast
+TEXT: Тур GO: Калос – Яичный Энтузиазм
 
 RESOURCE ID: title_addon_kalos_raid
-TEXT: GO Tour: Kalos – Raid Lover
+TEXT: Тур GO: Калос – Любовь к Рейдам
 
 RESOURCE ID: title_camera_permission_required
 TEXT: Разрешить Pokémon GO Доступ к Камере
@@ -2880,7 +2892,7 @@ RESOURCE ID: title_hoopa_hoopla
 TEXT: Хуппа-Хайп!
 
 RESOURCE ID: title_unown_o_clock
-TEXT: Unown O’Clock
+TEXT: Аноун-Час
 
 RESOURCE ID: today_view_fieldbook_tab_label
 TEXT: Полевой Журнал
@@ -2901,118 +2913,118 @@ RESOURCE ID: today_view_today_tab_label
 TEXT: Сегодня
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title
-TEXT: Poodle Caboodle Timed Research
+TEXT: Квест на Время Пудель и Компания
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_00
-TEXT: Poodle Caboodle Timed Research (1/6)
+TEXT: Квест на Время Пудель и Компания (1/6)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_01
-TEXT: Poodle Caboodle Timed Research (2/6)
+TEXT: Квест на Время Пудель и Компания (2/6)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_02
-TEXT: Poodle Caboodle Timed Research (3/6)
+TEXT: Квест на Время Пудель и Компания (3/6)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_03
-TEXT: Poodle Caboodle Timed Research (4/6)
+TEXT: Квест на Время Пудель и Компания (4/6)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_04
-TEXT: Poodle Caboodle Timed Research (5/6)
+TEXT: Квест на Время Пудель и Компания (5/6)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_05
-TEXT: Poodle Caboodle Timed Research (6/6)
+TEXT: Квест на Время Пудель и Компания (6/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_desc_friday
-TEXT: Spa Day Timed Research (Friday)
+TEXT: Квест на Время День в Спа (пятница)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_desc_saturday
-TEXT: Spa Day Timed Research (Saturday)
+TEXT: Квест на Время День в Спа (суббота)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_desc_sunday
-TEXT: Spa Day Timed Research (Sunday)
+TEXT: Квест на Время День в Спа (воскресенье)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title
-TEXT: Spa Day Timed Research
+TEXT: Квест на Время День в Спа
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_00
-TEXT: Spa Day Timed Research (1/6)
+TEXT: Квест на Время День в Спа (1/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_01
-TEXT: Spa Day Timed Research (2/6)
+TEXT: Квест на Время День в Спа (2/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_02
-TEXT: Spa Day Timed Research (3/6)
+TEXT: Квест на Время День в Спа (3/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_03
-TEXT: Spa Day Timed Research (4/6)
+TEXT: Квест на Время День в Спа (4/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_04
-TEXT: Spa Day Timed Research (5/6)
+TEXT: Квест на Время День в Спа (5/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_05
-TEXT: Spa Day Timed Research (6/6)
+TEXT: Квест на Время День в Спа (6/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_zygarde_title
-TEXT: En Garde! Timed Research
+TEXT: Квест на Время Многоклеточное
 
 RESOURCE ID: tr_go_tour_2026_irl_zygarde_title_00
-TEXT: En Garde! Timed Research (1/1)
+TEXT: Квест на Время Многоклеточное (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_altaria_title
-TEXT: Mega Altaria Timed Research
+TEXT: Квест на Время Мега-Алтария
 
 RESOURCE ID: tr_go_tour_2026_mega_night_altaria_title_00
-TEXT: Mega Altaria Timed Research (1/1)
+TEXT: Квест на Время Мега-Алтария (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_ampharos_title
-TEXT: Mega Ampharos Timed Research
+TEXT: Квест на Время Мега-Амфарос
 
 RESOURCE ID: tr_go_tour_2026_mega_night_ampharos_title_00
-TEXT: Mega Ampharos Timed Research (1/1)
+TEXT: Квест на Время Мега-Амфарос (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_charizard_title
-TEXT: Mega Charizard X Timed Research
+TEXT: Квест на Время Мега-Чаризард X
 
 RESOURCE ID: tr_go_tour_2026_mega_night_charizard_title_00
-TEXT: Mega Charizard X Timed Research (1/1)
+TEXT: Квест на Время Мега-Чаризард X (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_garchomp_title
-TEXT: Mega Garchomp Timed Research
+TEXT: Квест на Время Мега-Гарчомп
 
 RESOURCE ID: tr_go_tour_2026_mega_night_garchomp_title_00
-TEXT: Mega Garchomp Timed Research (1/1)
+TEXT: Квест на Время Мега-Гарчомп (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_salamence_title
-TEXT: Mega Salamence Timed Research
+TEXT: Квест на Время Мега-Саламенс
 
 RESOURCE ID: tr_go_tour_2026_mega_night_salamence_title_00
-TEXT: Mega Salamence Timed Research (1/1)
+TEXT: Квест на Время Мега-Саламенс (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_sceptile_title
-TEXT: Mega Sceptile Timed Research
+TEXT: Квест на Время Мега-Септайл
 
 RESOURCE ID: tr_go_tour_2026_mega_night_sceptile_title_00
-TEXT: Mega Sceptile Timed Research (1/1)
+TEXT: Квест на Время Мега-Септайл (1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_title
-TEXT: Mega Finale Timed Research
+TEXT: Квест на Время Мегафинал
 
 RESOURCE ID: tr_go_tour_2026_mega_night_title_00
-TEXT: Mega Finale Timed Research (1/1)
+TEXT: Квест на Время Мегафинал (1/1)
 
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title
-TEXT: Very Fairy Timed Research
+TEXT: Квест на Время Очень Феерично
 
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title_00
-TEXT: Very Fairy Timed Research (1/4)
+TEXT: Квест на Время Очень Феерично (1/4)
 
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title_01
-TEXT: Very Fairy Timed Research (2/4)
+TEXT: Квест на Время Очень Феерично (2/4)
 
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title_02
-TEXT: Very Fairy Timed Research (3/4)
+TEXT: Квест на Время Очень Феерично (3/4)
 
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title_03
-TEXT: Very Fairy Timed Research (4/4)
+TEXT: Квест на Время Очень Феерично (4/4)
 
 RESOURCE ID: tr_oricorio_mastery_catch_hoothoot
 TEXT: Поймай Хутхутов ×{0}
@@ -3105,31 +3117,31 @@ RESOURCE ID: tv_title_go_tour_2026_global_ticket
 TEXT: Тур GO: Калос – По Всему Миру, Бонусы Билета
 
 RESOURCE ID: tv_title_go_tour_2026_la
-TEXT: GO Tour: Kalos – Los Angeles
+TEXT: Тур GO: Калос – Лос-Анджелес
 
 RESOURCE ID: tv_title_go_tour_2026_la_city
-TEXT: GO Tour: Kalos – Los Angeles, City Experience
+TEXT: Тур GO: Калос – Лос-Анджелес, Город
 
 RESOURCE ID: tv_title_go_tour_2026_la_city_extended
-TEXT: GO Tour: Kalos – Los Angeles, Extended Bonuses
+TEXT: Тур GO: Калос – Лос-Анджелес, Расширенные Бонусы
 
 RESOURCE ID: tv_title_go_tour_2026_la_park
-TEXT: GO Tour: Kalos – Los Angeles, Park Experience
+TEXT: Тур GO: Калос – Лос-Анджелес, Парк
 
 RESOURCE ID: tv_title_go_tour_2026_tainan
-TEXT: GO Tour: Kalos – Tainan
+TEXT: Тур GO: Калос – Тайнань
 
 RESOURCE ID: tv_title_go_tour_2026_tainan_city
-TEXT: GO Tour: Kalos – Tainan, City Experience
+TEXT: Тур GO: Калос – Тайнань, Город
 
 RESOURCE ID: tv_title_go_tour_2026_tainan_city_extended
-TEXT: GO Tour: Kalos – Tainan, Extended Bonuses
+TEXT: Тур GO: Калос – Тайнань, Расширенные Бонусы
 
 RESOURCE ID: tv_title_go_tour_2026_tainan_park
-TEXT: GO Tour: Kalos – Tainan, Park Experience
+TEXT: Тур GO: Калос – Тайнань, Парк
 
 RESOURCE ID: unown_o_clock_active
-TEXT: Unown are now appearing in large numbers!
+TEXT: Аноуны появляются в больших количествах!
 
 RESOURCE ID: use_raid_ticket_confirmation_buy_currency
 TEXT: Нужно ещё: {0}

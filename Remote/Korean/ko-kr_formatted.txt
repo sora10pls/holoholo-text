@@ -10,6 +10,9 @@ TEXT: Tap the Pokémon’s name to move the label around
 RESOURCE ID: ar_photo_social_photo_shared
 TEXT: Photo shared
 
+RESOURCE ID: ar_photo_social_review_confirm_exit_message
+TEXT: 이 화면에서 나가면 저장 전 사진은 사라집니다.
+
 RESOURCE ID: ar_photo_social_share_default_referral_text
 TEXT: Pokémon GO를 사용해서 좋아하는 포켓몬과 함께 사진을 찍자! https://pokemongo.com/
 
@@ -368,13 +371,13 @@ RESOURCE ID: bonus_extra_carbink_global_masterwork
 TEXT: GO Tour(현장 참가) 티켓 보유자에게는 장기리서치 보너스
 
 RESOURCE ID: bonus_gift_inventory_40
-TEXT: Gift storage increased to 40
+TEXT: 지닐 수 있는 선물 수가 40개
 
 RESOURCE ID: bonus_gift_open_daily_100
-TEXT: Open up to 100 Gifts per day
+TEXT: 열 수 있는 선물의 최대 수 100개
 
 RESOURCE ID: bonus_gift_open_daily_200
-TEXT: Open up to 200 Gifts per day
+TEXT: 열 수 있는 선물의 최대 수 200개
 
 RESOURCE ID: bonus_go_tour_2023_add_on_raid_03
 TEXT: 별5 레이드에서 포켓몬의 사탕 6개 추가
@@ -383,28 +386,31 @@ RESOURCE ID: bonus_go_tour_2023_add_on_raid_04
 TEXT: 별5 레이드에서 포켓몬의 사탕XL 3개 추가
 
 RESOURCE ID: bonus_gotour_2026_other_mega_level_daily_points_6
-TEXT: Earn up to 6 points daily toward increasing any Pokémon’s Mega Level
+TEXT: 포켓몬 메가레벨업에 가산 되는 포인트를 6까지 매일 획득
 
 RESOURCE ID: bonus_gotour_2026_other_mega_level_points_6x
-TEXT: Earn 6 points per Mega Evolution toward increasing any Pokémon’s Mega Level
+TEXT: 포켓몬 메가레벨업에 가산되는 포인트를 6까지 메가진화 시마다 획득
 
 RESOURCE ID: bonus_gotour_irl_2026_mega_level_daily_points_30
-TEXT: Earn up to 30 points daily toward increasing the Mega Level of any Victreebel or Malamar
+TEXT: 우츠보트 또는 칼라마네로의 메가레벨업에 가산되는 포인트를 30까지 매일 획득
 
 RESOURCE ID: bonus_gotour_irl_2026_mega_level_daily_points_6
-TEXT: Earn up to 6 points daily toward increasing the Mega Level of any Victreebel or Malamar
+TEXT: 우츠보트 또는 칼라마네로의 메가레벨업에 가산되는 포인트를 6까지 매일 획득
 
 RESOURCE ID: bonus_gotour_kalos_furfrou
-TEXT: Explore the park to get different Furfrou trims not usually available in the region!
+TEXT: 평소에는 볼수 없느 컷의 트리미앙이 공원에 출현
 
 RESOURCE ID: bonus_gotour_mateo_encounter
-TEXT: Exchange more Gifts with Mateo each day
+TEXT: 마테오와 하루에 더 많이 선물을 교환할 수 있다
 
 RESOURCE ID: bonus_gotour_zygarde_cell
-TEXT: Chance to discover Zygarde Cells on more Routes per day
+TEXT: 하루에 더 많이 지가르데 셀을 발견할 수 있다
+
+RESOURCE ID: bonus_hourly_pass_tasks
+TEXT: 추가 투어 포인트를 받을 수 있는 1시간 데일리 패스 태스크
 
 RESOURCE ID: bonus_incense_costume_pikachu
-TEXT: Incense may attract costumed Pikachu
+TEXT: 의상의 피카츄가 향로에 반응할 때가 있다
 
 RESOURCE ID: bonus_incense_hisui_costume_pikachu
 TEXT: 히스이지방 모자를 쓴 피카츄 2종이 향로에 반응
@@ -428,7 +434,7 @@ RESOURCE ID: bonus_mateo_encounter_daily_25
 TEXT: 마테오와 선물 교환(1일 최대 25루트까지)
 
 RESOURCE ID: bonus_mega_cp_boost
-TEXT: Boosted CP for all Mega-Evolved Pokémon
+TEXT: 메가진화한 모든 포켓몬의 CP증가
 
 RESOURCE ID: bonus_mega_energy_spin_chance
 TEXT: 포켓스톱, 체육관 스핀으로 메가 에너지를 받을 수도 있다
@@ -443,25 +449,28 @@ RESOURCE ID: bonus_ppk_special_background
 TEXT: 별5 레이드에서 잡을 수 있는 포켓몬에 PokéPark KANTO의 로케이션 배경이 있음
 
 RESOURCE ID: bonus_premier_ball_catch_rate_boost_high
-TEXT: Premier Balls have a massively increased catch rate
+TEXT: 프리미어볼 사용시 포켓몬을 대폭 잡기 쉬워진다
 
 RESOURCE ID: bonus_premier_ball_catch_rate_boost_med
-TEXT: Premier Balls have a largely increased catch rate
+TEXT: 프리미어볼 사용시 포켓몬을 상당히 잡기 쉬워진다
 
 RESOURCE ID: bonus_premier_ball_catch_rate_boost_small
-TEXT: Premier Balls have an increased catch rate
+TEXT: 프리미어볼 사용시 포켓몬을 잡기 쉬워진다
 
 RESOURCE ID: bonus_raid_1_xl_candy
 TEXT: 별5 레이드배틀과 메가 레이드에서 사탕XL 1개 추가
 
 RESOURCE ID: bonus_raid_3_xl_candy_t5_and_mega
-TEXT: 별5 레이드배틀, 메가 레이드에서 이기면 받을 수 있는 사탕XL 3개 추가
+TEXT: 별5 레이드, 메가 레이드에서 받을 수 있는 사탕XL 6개 추가
 
 RESOURCE ID: bonus_raid_5k_xp_mega
 TEXT: 메가 레이드배틀 승리로 5,000XP 추가
 
 RESOURCE ID: bonus_raid_6_candy_t5_and_mega
-TEXT: Six additional Candy for successful five-star raids and Mega Raids
+TEXT: 별5 레이드, 메가 레이드에서 받을 수 있는 포켓몬의 사탕 6개 추가
+
+RESOURCE ID: bonus_raid_6_xl_candy_t5_and_mega
+TEXT: 별5 레이드, 메가 레이드에서 받을 수 있는 사탕XL 6개 추가
 
 RESOURCE ID: bonus_routes_flabebe
 TEXT: 루트에서 플라베베와 만날 확률 증가
@@ -475,8 +484,8 @@ TEXT: 루트에서 하얀 꽃, 오렌지색 꽃, 파란 꽃의 플라베베와 �
 RESOURCE ID: bonus_scatterbug_pin_1
 TEXT: 선물을 지방마다 1개 핀으로 저장할 때마다 분이벌레와의 만남 
 
-RESOURCE ID: bonus_scatterbug_pin_3_temp
-TEXT: 핀 고정 엽서의 분이벌레 서브 메달 진척 증가
+RESOURCE ID: bonus_scatterbug_pin_3
+TEXT: 선물(지방마다) 3개 핀으로 저장할 때마다 분이벌레와의 만남 
 
 RESOURCE ID: bonus_scatterbug_pin_6
 TEXT: 핀 고정 엽서의 분이벌레 서브 메달 진척 대폭 증가
@@ -485,10 +494,10 @@ RESOURCE ID: bonus_special_background_t1_t5_raid
 TEXT: 별1, 별5 레이드배틀에서 잡은 포켓몬에게 스페셜 배경이 있을 수 있다
 
 RESOURCE ID: bonus_special_background_t5_and_mega_raid
-TEXT: Pokémon caught from five-star raids and Mega Raids may have a Special Background
+TEXT: 별5 레이드배틀, 메가 레이드에서 잡은 포켓몬에게 스페셜 배경이 있을 수도 있다
 
 RESOURCE ID: bonus_stickers_gotour_kalos
-TEXT: GO Tour: Kalos stickers available from Gifts and spinning PokéStops
+TEXT: 선물과 포켓스톱 스핀으로 GO Tour - 칼로스지방 스티커를 받을 수 있다
 
 RESOURCE ID: bonus_today_event_sr
 TEXT: 이벤트 한정 스페셜리서치 있음
@@ -773,22 +782,22 @@ RESOURCE ID: city_manhole_yamada
 TEXT: 야마다
 
 RESOURCE ID: claim_all_a_pokemon_has_appeared
-TEXT: A Pokémon has appeared!
+TEXT: 포켓몬 발견!
 
 RESOURCE ID: claim_all_item_bag_inventory
-TEXT: Item Bag: {0}/{1}
+TEXT: 도구 가방: {0}/{1}
 
 RESOURCE ID: claim_all_items_left_to_claim
-TEXT: You will claim {0} items.
+TEXT: {0}개의 리워드를 도구 가방에 넣습니다.
 
 RESOURCE ID: claim_all_pass_rewards_header
-TEXT: PASS REWARDS
+TEXT: 패스 리워드
 
 RESOURCE ID: claim_all_pokemon_left_to_catch
-TEXT: You have {0} Pokémon left to catch.
+TEXT: 잡을 포켓몬: {0}마리
 
 RESOURCE ID: claim_all_pokemon_left_to_catch_singular
-TEXT: You have 1 Pokémon left to catch.
+TEXT: 잡을 포켓몬: 1마리
 
 RESOURCE ID: claim_all_quest_rewards_btn
 TEXT: 모아서 받기
@@ -808,7 +817,7 @@ RESOURCE ID: claim_all_quests_validation_failed_message
 TEXT: 모아서 받을 수 있는 리워드가 없습니다. 리워드가 남아 있는 경우 개별로 손에 넣으세요.
 
 RESOURCE ID: claim_all_rewards_confirmation
-TEXT: Do you want to claim all rewards?
+TEXT: 모든 것을 한번에 받겠습니까?
 
 RESOURCE ID: combat_move_entering_busted_form
 TEXT: Mimikyu’s disguise is busted!
@@ -839,7 +848,7 @@ RESOURCE ID: day_night_tutorial_detail_page
 TEXT: 이 포켓몬 포트레이트에는 잡은 장소가 반영됩니다
 
 RESOURCE ID: desc_unown_o_clock
-TEXT: At the top of each hour, Unown will appear in large numbers!
+TEXT: 정시에 안농이 대량발생
 
 RESOURCE ID: details_link_key_dmax_ho_oh
 TEXT: 자세한 내용은 <a href="https://pokemongo.com/news/ho-oh-max-battle-weekend-2026">웹사이트</a>에서 확인해 주세요.
@@ -1223,7 +1232,7 @@ RESOURCE ID: fieldbook_summary_species_caught_text
 TEXT: {0}종류의 포트레이트가 있는 포켓몬을 잡았다!
 
 RESOURCE ID: fieldbook_summary_species_caught_text_singular
-TEXT: You caught 1 Pokemon with a Portrait!
+TEXT: You caught 1 Pokémon with a Portrait!
 
 RESOURCE ID: fieldbook_tab_ftue_1_body_text_key
 TEXT: 필드북에 표시되는 포켓몬에게는 잡은 장소를 반영한 포트레이트가 있습니다.
@@ -1306,142 +1315,143 @@ RESOURCE ID: go_pass_rank_level_rewards
 TEXT: Rank {0} Rewards
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_00_00
-TEXT: %PLAYERNAME%! Excuse the mess—I’m looking for some notes.
+TEXT: %PLAYERNAME%! 잠깐 정신이 없어서 미안. 자료를 찾고 있었거든.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_00_01
-TEXT: I received an interesting report about a Pokémon today. The witness only caught a glimpse, but from the description, it could be something special.
+TEXT: 오늘 받은 포켓몬의 목격 정보 관해서 조사하고 싶은 게 있어.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_00_02
-TEXT: I have a theory that it’s a Pokémon originally discovered in the Kalos region.
+TEXT: 칼로스지방에서 발견된 포켓몬인 것은 확실한데
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_00_03
-TEXT: I’m trying to dig up some old research to corroborate my hunch, but I haven’t had much luck. Would you like to help? Don’t worry, I’ll handle the paperwork!
+TEXT: 이전에 했던 조사 결과와 비교하면서 확인해야지. 너에게 부탁을 해도 괜찮지?
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_00_04
-TEXT: I’d like you to brush up on Pokémon from Kalos. In the meantime, I’ll try to pick out the diamond in this rough!
+TEXT: 나는 어쨌든 자료를 찾지 않으면 작업을 진행할 수 없으니까 이 일에 집중할게!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_01_00
-TEXT: I knew you’d deliver—you’re a superstar!
+TEXT: 너에게 부탁하면 금방 해낼 거라 생각했어. 정말 대단해!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_01_01
-TEXT: How did I do? Well, I almost have my notes organized, but I’ll need more time to actually find what I’m looking for.
+TEXT: 비결을 물어보고 싶을 정도야. 덕분에 자료를 발견했고 정리하는 것까지 진행했어.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_01_02
-TEXT: It’s easy to forget to check the clock when I’m poring over old research.
+TEXT: 생각보다 시간이 걸렸지만
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_01_03
-TEXT: Anyhow, that’s my problem. Why don’t you spend some more time in the field while I keep digging?
+TEXT: 너는 좀 더 필드워크를 진행해 줘.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_02_00
-TEXT: Success! I’ve got my notes in order! Now, let’s get down to it.
+TEXT: 좋아! 이제야 좀 이해하겠어.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_02_01
-TEXT: The report mentioned that the Pokémon in question was jewel-like. Could it be a Carbink?
+TEXT: 목격 보고에는 보석 같다, 고 있었는데 아마 멜리시일지 모르겠군.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_02_02
-TEXT: Jewels mean sparkles, and sparkles make me think of Fairy types. That might be what we’re searching for.
+TEXT: 보석의 반짝임으로 연상 되는 것은 페어리타입 포켓몬이지.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_02_03
-TEXT: Haha, I know that look! You’re ready to dive into adventure!
+TEXT: 자기만 믿으라는 얼굴이군. 그럼 조사를 부탁할게.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_03_00
-TEXT: %PLAYERNAME%, I’m stuck between a Rock- and a Fairy-type place.
+TEXT: %PLAYERNAME%, 페어리타입이라는 부분이 걸려.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_03_01
-TEXT: I was reviewing my notes on Fairy-type Pokémon from the Kalos region, but none of them are a perfect fit.
+TEXT: 칼로스지방 포켓몬 중에 목격 정보와 일치하는 페어리타입 포켓몬은 없어.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_03_02
-TEXT: Jewels can get confused with rocks, so...maybe the Pokémon we’re looking for is a Rock type?
+TEXT: 보석, 광석, 돌... 바위타입 포켓몬일지도?
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_03_03
-TEXT: So, let’s study Rock types next! We’re so close to crystallizing this information. I can feel it!
+TEXT: 바위타입 포켓몬을 조사해 봐야겠군. 이게 나중에 결실을 볼지 어떨지 모르지만...!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_04_00
-TEXT: Astounding work out there! I think we’re truly onto something now.
+TEXT: 좋아! 이제 알겠군.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_04_01
-TEXT: It seems like Fairy type and Rock type are both possibilities at this point. Which could it be?
+TEXT: 페어리타입, 바위타입 양쪽 다 가능성이 있어 보여.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_04_02
-TEXT: The answer is—unsurprisingly—more learning! Let’s keep looking into both types. Surely that’ll make our answer crystal clear.
+TEXT: 시간은 걸리겠지만 양쪽을 모두 꼼꼼하게 조사하는 수밖에 없군.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_04_03
-TEXT: The pressure’s on now! But I know you can handle it, %PLAYERNAME%.
+TEXT: 시간과의 싸움이 되겠어. 잘 부탁한다, %PLAYERNAME%.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_05_00
-TEXT: You’ve been putting your all into this research, %PLAYERNAME%, but I think we might’ve run into a wall.
+TEXT: 지금까지의 노력에 감사를 표하지, %PLAYERNAME%. 하지만 약간의 벽을 마주친 것 같군.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_05_01
-TEXT: Why don’t we take a break and relax for a bit? Maybe you’ll end up running into our elusive Pokémon.
+TEXT: 조금 쉬면서 상황을 볼까?
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_05_02
-TEXT: Meltan and I will take a walk and do some pondering before we continue our work.
+TEXT: 멜탄과 산책하면서 머리를 식혀볼게.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_05_03
-TEXT: I’m sure your Pokémon would love to spend time with you, too!
+TEXT: 너도 네 포켓몬과 함께 조금 여유를 가져보도록 해.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_06_00
-TEXT: I see you’ve found a Carbink! That’s great, though now that I get a closer look, it doesn’t match the reports.
+TEXT: 멜리시를 잡았구나. 하지만 보고 받은 포켓몬과 조금 다른 것 같은데.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_06_01
-TEXT: %PLAYERNAME%... What if we’ve been searching for the Mythical Pokémon Diancie this whole time?
+TEXT: %PLAYERNAME%... 생각해 봤는데... 환상의 포켓몬 디안시일 가능성은 없을까?
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_06_02
-TEXT: Some speculate that Diancie is the result of a Carbink’s sudden transformation, so that could explain the similarities.
+TEXT: 가능성은 있다고 생각해. 디안시는 멜리시의 돌연변이라고 전해지고 있어.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_06_03
-TEXT: This treasure hunt isn’t over yet!
+TEXT: 이제부터 시작이겠어!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_07_00
-TEXT: Exciting news, %PLAYERNAME%!
+TEXT: 들어봐, %PLAYERNAME%!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_07_01
-TEXT: I just caught a glimpse of what I’m sure is Diancie! But its coloring seemed unusual, so I’ll need to take a closer look.
+TEXT: 디안시같은 포켓몬을 봤는데 색이 조금 다른 것 같았어.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_07_02
-TEXT: What a dazzling opportunity! I knew if we kept mining for answers we’d strike it big.
+TEXT: 드디어 광맥을 찾은 느낌이군.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_07_03
-TEXT: Let’s get back out there and see what we can find.
+TEXT: 계속해서 찾아보자.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_08_00
-TEXT: You’ve done it, %PLAYERNAME%! And what a unique color! Incredible!
+TEXT: 잘했어. %PLAYERNAME%! 정말 아름다운 색이야!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_08_01
-TEXT: Did you know Diancie can instantly create diamonds by compressing the carbon in the air between its hands?
+TEXT: 디안시는 양손의 틈으로 공기 중의 탄소를 압축하여 많은 다이아를 한순간에 만들어 낸다고 해.
+
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_08_02
-TEXT: Marvelous to be sure, but there’s still plenty more to be learned about Diancie.
+TEXT: 그 외에도 놀라운 일이 많이 있을 거야.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_08_03
-TEXT: And I know you’re the best Trainer to help it reach its full potential!
+TEXT: 너라면 디안시의 걸맞은 트레이너로서 많은 것들을 발견할 수 있을 거야.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_09_00
-TEXT: Diancie looks like it’s taken quite a shine to you. In fact, it looks ready to Mega Evolve!
+TEXT: 디안시와의 유대감이 깊어진 것 같구나. 메가진화할 수 있을지 몰라.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_09_01
-TEXT: I’ve recently heard Mega Diancie is also known as the Royal Pink Princess. The dazzling diamond on its forehead is a whopping 2,000 carats!
+TEXT: 최근에 알게 된 것인데, 메가디안시의 눈부시게 빛나는 이마의 다이아는 무려 2000캐럿이고, 별명은 로열 핑크 프린세스라고 하더군!
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_09_02
-TEXT: Let me get my sunglasses, because this Mega Evolution is going to be bright!
+TEXT: 메가진화하면 측정할 수 없을 정도의 반짝임이라 선글라스가 필요하겠어.
 
 RESOURCE ID: go_tour_2026_masterwork_sr_dialog_09_03
-TEXT: Thank you for all your efforts, %PLAYERNAME%. Keep that sparkle alive, wherever your journey takes you!
+TEXT: %PLAYERNAME%, 정말 고마워. 계속해서 빛나는 트레이너의 길을 가길 바랄게!
 
 RESOURCE ID: go_tour_ep_bonus_title_deluxe_00
-TEXT: 티어1 디럭스 보너스
+TEXT: 티어1 GO패스 디럭스: 칼로스로의 길 보너스
 
 RESOURCE ID: go_tour_ep_bonus_title_deluxe_01
-TEXT: 티어2 디럭스 보너스
+TEXT: 티어2 GO패스 디럭스: 칼로스로의 길 보너스
 
 RESOURCE ID: go_tour_ep_bonus_title_deluxe_02
-TEXT: 티어3 디럭스 보너스
+TEXT: 티어3 GO패스 디럭스: 칼로스로의 길 보너스
 
 RESOURCE ID: go_tour_kalos_furfrou_branch_tr_dialog_00_00
-TEXT: Fashions may change, but so can Furfrou’s trim!
+TEXT: 패션은 돌고 돌아. 트리미앙의 컷도 언제나 같으면 재미없지!
 
 RESOURCE ID: go_tour_kalos_furfrou_branch_tr_dialog_00_01
-TEXT: No matter how busy you are, there’s always time to set a new trend! And remember, the style that speaks to you is the one that looks best.
+TEXT: 트리미앙으로 패션 트렌드를 만들어 보자! 물론, 자신다움을 추구한 스타일도 좋아!
 
 RESOURCE ID: go_tour_kalos_global_sr_dialog_02_00
 TEXT: %PLAYERNAME%, did you know that Mega Energy alone isn’t enough to Mega Evolve a Pokémon? It also needs to have a strong bond with its Trainer.
@@ -1623,7 +1633,7 @@ RESOURCE ID: go_tour_kalos_irl_sr_yveltal_dialog_03_03
 TEXT: 이런 것들을 염두하고 메가진화의 힘을 믿고 탐색을 계속 해줘!
 
 RESOURCE ID: go_tour_kalos_portals_intro_tr_dialog_00_00
-TEXT: The appearance of all these powerful Pokémon threw me for a loop. Then I had a wild thought: What if they were teleported here by Hoopa? There’s only one way to find out!
+TEXT: 평소에는 볼 수 없는 강력한 포켓몬의 수들.. 마치 후파가 링으로 부른 것 같아.... 거기까지 생각하고 문득 생각했어. 진짜라면? 조사해 보자!
 
 RESOURCE ID: gofest_welcome_generic
 TEXT: Pokémon GO Fest: 글로벌에 어서 오세요!
@@ -1650,36 +1660,35 @@ RESOURCE ID: gotour2026_welcome_banner_tainan
 TEXT: Pokémon GO Tour: 칼로스지방 - 타이난에 어서 오세요!
 
 RESOURCE ID: gotour_2026_beautiful_day_tr_title
-TEXT: A Beautiful Day to Celebrate! Timed Research
+TEXT: 기념하기 좋은 날 시간제한 리서치
 
 RESOURCE ID: gotour_2026_beautiful_day_tr_title_00
-TEXT: A Beautiful Day to Celebrate! Timed Research (1/1)
+TEXT: 기념하기 좋은 날 시간제한 리서치(1/1)
 
 RESOURCE ID: gotour_2026_event_duration
-TEXT: February 23 – March 1
+TEXT: 2월 23일~3월 1일
 
 RESOURCE ID: gotour_2026_event_pass_deluxe_title
 TEXT: GO패스 디럭스: 칼로스로의 길
 
 RESOURCE ID: gotour_2026_event_pass_details_link
-TEXT: For more details, visit the <a href="https://pokemongo.com/post/road-to-kalos-event/">website</a>.
+TEXT: 자세한 내용은 <a href="https://pokemongo.com/post/road-to-kalos-event/">웹사이트</a>에서 확인해 주세요.
 
 RESOURCE ID: gotour_2026_event_pass_title
-TEXT: Pokémon GO Tour: Kalos
+TEXT: GO패스: 칼로스로의 길
 
 RESOURCE ID: gotour_2026_pass_track_upgrade_header_description
 TEXT: 프리미엄 리워드를 받고 <b>굴레를 벗어난 후파를 만날 수 있습니다</b>!
 
 RESOURCE ID: gotour_2026_upgrade_description
-TEXT: Purchase GO Pass Deluxe: Road to Kalos to unlock the following rewards!
+TEXT: GO패스 디럭스: 칼로스로의 길'을 구매하면 다음 리워드를 받을 수 있습니다!
+- 굴레를 벗어난 후파와의 만남
+- 반짝반짝 프렌드가 될 수 있는 도구 <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">반짝이 참 1개</a>
+- 지가르데 셀
+- 의상 아이템 지가르데 바람막이 점퍼
+- 기타
 
-• An encounter with Hoopa Unbound
-• One <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/">Lucky Trinket</a>, which allows you to instantly become Lucky Friends with a friend of your choice
-• Zygarde Cells
-• The Zygarde Jacket avatar item
-• And much more!
-
-Trainers can earn 150 bonus GO Points daily from February 23 to 27 in addition to the points earned by Pass Tasks. There’s no limit on how many points can be earned during the global event on February 28 and March 1!
+ 패스 태스크를 완료하면 받을 수 있는 포인트와 2월 23일~27일까지 매일 150 보너스 포인트를 획득할 수 있습니다. 2월월 28일, 3월 1일의 글로벌 이벤트 개최시에는 포인트 상한 없이 획득할 수 있습니다.
 
 RESOURCE ID: gotour_2026_welcome_global
 TEXT: Pokémon GO Tour: 칼로스지방 - 글로벌에 어서 오세요!
@@ -1845,6 +1854,9 @@ TEXT: 프리미엄 배틀패스
 
 RESOURCE ID: item_remote_raid_ticket_name_plural
 TEXT: 리모트 레이드패스
+
+RESOURCE ID: kr_festival_raid_location_background
+TEXT: 이벤트 레이드에서 잡은 포켓몬에게 한정 로케이션 배경이 있을 수 있다
 
 RESOURCE ID: kr_winter_festival_location_background_in_wild
 TEXT: 야생에서 만나는 눈송이 비니의 피카츄에 겨울축제 로케이션 배경이 있을 수도 있음
@@ -2116,10 +2128,10 @@ RESOURCE ID: message_open_settings
 TEXT: 설정 열기
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-02-13T23:09:24.654123+00:00 for ko-KR
-at SHA 6d6c847e658
-Pipeline 3541342, job 50979693
-Patch from: 0.399.0-SHA-dbc59b42-RC4, 0.397.1-SHA-7b7c416a-RC5
+TEXT: Built at 2026-02-18T18:06:34.953346+00:00 for ko-KR
+at SHA b95ac9f47d8
+Pipeline 3546097, job 51288594
+Patch from: 0.399.1-SHA-853bae10-RC2, 0.397.1-SHA-aca8ba5a-RC4, 0.401.0-SHA-1d3c71a6-RC1
 
 RESOURCE ID: natural_art_day
 TEXT: 낮의 만남
@@ -2378,7 +2390,7 @@ TEXT: 이 포켓스톱에서 필드북용 포켓몬을 발견할 수 있습니�
 RESOURCE ID: pokestop_field_book_message_with_times
 TEXT: Find Pokémon for your Field Book at this PokéStop. These Pokémon have Portraits that reflect where they were caught.
 
-Pokémon with day Portraits will appear between {0} and Pokémon with night Portraits will appear between {1}.
+Pokémon with Day Portraits will appear {0}, and Pokémon with Night Portraits will appear {1}.
 
 RESOURCE ID: pokestop_field_book_title
 TEXT: 포켓스톱
@@ -2456,55 +2468,55 @@ RESOURCE ID: quest_branch_choose_chespin
 TEXT: 도치마론
 
 RESOURCE ID: quest_branch_choose_chespin_bg_desc
-TEXT: Select this path for a series of encounters with Chespin, the Spiny Nut Pokémon, that have exclusive GO Tour: Kalos Special Backgrounds.
+TEXT: 이것을 선택하면 Pokémon GO Tour: 칼로스지방 스페셜 배경이 있는 도치마론과 만날 수 있습니다.
 
 RESOURCE ID: quest_branch_choose_debutante
 TEXT: 레이디컷
 
 RESOURCE ID: quest_branch_choose_debutante_desc
-TEXT: 이것을 선택하면 이벤트 기간 중 트리미앙을 레이디컷으로 변화시킬 수 있습니다.(트리미앙의 모습을 바꾸려면 트리미앙의 사탕 25개와 별의모래 10,000개가 필요합니다)
+TEXT: 이것을 선택하면 트리미앙을 레이디컷으로 변화시킬 수 있습니다.(트리미앙의 모습을 바꾸려면 트리미앙의 사탕 25개와 별의모래 10,000개가 필요합니다)
 
 RESOURCE ID: quest_branch_choose_diamond
 TEXT: 다이아컷
 
 RESOURCE ID: quest_branch_choose_diamond_desc
-TEXT: 이것을 선택하면 이벤트 기간 중 트리미앙을 다이아컷으로 변화시킬 수 있습니다.(트리미앙의 모습을 바꾸려면 트리미앙의 사탕 25개와 별의모래 10,000개가 필요합니다)
+TEXT: 이것을 선택하면 트리미앙을 다이아컷으로 변화시킬 수 있습니다.(트리미앙의 모습을 바꾸려면 트리미앙의 사탕 25개와 별의모래 10,000개가 필요합니다)
 
 RESOURCE ID: quest_branch_choose_fennekin
 TEXT: 푸호꼬
 
 RESOURCE ID: quest_branch_choose_fennekin_bg_desc
-TEXT: Select this path for a series of encounters with Fennekin, the Fox Pokémon, that have exclusive GO Tour: Kalos Special Backgrounds.
+TEXT: 이것을 선택하면 Pokémon GO Tour: 칼로스지방 스페셜 배경이 있는 푸호꼬와 만날 수 있습니다.
 
 RESOURCE ID: quest_branch_choose_froakie
 TEXT: 개구마르
 
 RESOURCE ID: quest_branch_choose_froakie_bg_desc
-TEXT: Select this path for a series of encounters with Froakie, the Bubble Frog Pokémon, that have exclusive GO Tour: Kalos Special Backgrounds.
+TEXT: 이것을 선택하면 Pokémon GO Tour: 칼로스지방 스페셜 배경이 있는 개구마르와 만날 수 있습니다.
 
 RESOURCE ID: quest_branch_choose_kabuki
 TEXT: 가부키컷
 
 RESOURCE ID: quest_branch_choose_kabuki_desc
-TEXT: 이것을 선택하면 이벤트 기간 중 트리미앙을 가부키컷으로 변화시킬 수 있습니다.(트리미앙의 모습을 바꾸려면 트리미앙의 사탕 25개와 별의모래 10,000개가 필요합니다)
+TEXT: 이것을 선택하면 트리미앙을 가부키컷으로 변화시킬 수 있습니다.(트리미앙의 모습을 바꾸려면 트리미앙의 사탕 25개와 별의모래 10,000개가 필요합니다)
 
 RESOURCE ID: quest_branch_choose_la_reine
 TEXT: 퀸컷
 
 RESOURCE ID: quest_branch_choose_la_reine_desc
-TEXT: 이것을 선택하면 이벤트 기간 중 트리미앙을 퀸컷으로 변화시킬 수 있습니다.(트리미앙의 모습을 바꾸려면 트리미앙의 사탕 25개와 별의모래 10,000개가 필요합니다)
+TEXT: 이것을 선택하면 트리미앙을 퀸컷으로 변화시킬 수 있습니다.(트리미앙의 모습을 바꾸려면 트리미앙의 사탕 25개와 별의모래 10,000개가 필요합니다)
 
 RESOURCE ID: quest_branch_choose_pharaoh
 TEXT: 킹덤컷
 
 RESOURCE ID: quest_branch_choose_pharaoh_desc
-TEXT: 이것을 선택하면 이벤트 기간 중 트리미앙을 킹덤컷으로 변화시킬 수 있습니다.(트리미앙의 모습을 바꾸려면 트리미앙의 사탕 25개와 별의모래 10,000개가 필요합니다)
+TEXT: 이것을 선택하면 트리미앙을 킹덤컷으로 변화시킬 수 있습니다.(트리미앙의 모습을 바꾸려면 트리미앙의 사탕 25개와 별의모래 10,000개가 필요합니다)
 
 RESOURCE ID: quest_branch_choose_star
 TEXT: 스타컷
 
 RESOURCE ID: quest_branch_choose_star_desc
-TEXT: 이것을 선택하면 이벤트 기간 중 트리미앙을 스타컷으로 변화시킬 수 있습니다.(트리미앙의 모습을 바꾸려면 트리미앙의 사탕 25개와 별의모래 10,000개가 필요합니다)
+TEXT: 이것을 선택하면 트리미앙을 스타컷으로 변화시킬 수 있습니다.(트리미앙의 모습을 바꾸려면 트리미앙의 사탕 25개와 별의모래 10,000개가 필요합니다)
 
 RESOURCE ID: quest_branch_choose_trim_prompt
 TEXT: 트리미앙의 모습을 변화시킨다
@@ -2513,23 +2525,23 @@ RESOURCE ID: quest_branch_choose_x
 TEXT: X Version
 
 RESOURCE ID: quest_branch_choose_x_desc
-TEXT: Select this option to receive the X Version medal and Xerneas-themed rewards and bonuses during your GO Tour: Kalos adventure.
+TEXT: 이것을 선택하면 X Version 메달을 받을 수 있으며 제르네아스 관련 보너스가 적용됩니다.
 
-During GO Tour: Kalos – Global, you will be able to get Field Research tasks that award an encounter with Unown X.
+Pokémon GO Tour: 칼로스지방 - 글로벌에서 안농(x)과 만날 수 있는 필드리서치가 등장합니다.
 
 RESOURCE ID: quest_branch_choose_y
-TEXT: Choose Y Version
+TEXT: Y Version
 
 RESOURCE ID: quest_branch_choose_y_desc
-TEXT: Select this option to receive the Y Version medal and Yveltal-themed rewards and bonuses during your GO Tour: Kalos adventure.
+TEXT: 이것을 선택하면 Y Version 메달을 받을 수 있으며 이벨타르 관련 보너스가 적용됩니다.
 
-During GO Tour: Kalos – Global, you will be able to get Field Research tasks that award an encounter with Unown Y.
+Pokémon GO Tour: 칼로스지방 - 글로벌에서 안농(Y)과 만날 수 있는 필드리서치가 등장합니다.
 
 RESOURCE ID: quest_catch_bidoof_singular
 TEXT: 비버니를 1마리 잡는다
 
 RESOURCE ID: quest_catch_eevee_singular
-TEXT: Catch an Eevee
+TEXT: 이브이를 1마리 잡는다
 
 RESOURCE ID: quest_catch_hoppip_singular
 TEXT: 통통코를 1마리 잡는다
@@ -2550,31 +2562,31 @@ RESOURCE ID: quest_evolve_eevee_sylveon
 TEXT: 이브이를 님피아로 진화한다
 
 RESOURCE ID: quest_form_change_furfrou_debutante
-TEXT: Form change a Furfrou to have a Debutante Trim
+TEXT: 트리미앙을 레이디컷으로 모습을 변화시킨다
 
 RESOURCE ID: quest_form_change_furfrou_diamond
-TEXT: Form change a Furfrou to have a Diamond Trim
+TEXT: 트리미앙을 다이아컷으로 모습을 변화시킨다
 
 RESOURCE ID: quest_form_change_furfrou_heart
-TEXT: Form change a Furfrou to have a Heart Trim
+TEXT: 트리미앙을 하트컷으로 모습을 변화시킨다
 
 RESOURCE ID: quest_form_change_furfrou_kabuki
-TEXT: Form change a Furfrou to have a Kabuki Trim
+TEXT: 트리미앙을 가부키컷으로 모습을 변화시킨다
 
 RESOURCE ID: quest_form_change_furfrou_la_reine
-TEXT: Form change a Furfrou to have a La Reine Trim
+TEXT: 트리미앙을 퀸컷으로 모습을 변화시킨다
 
 RESOURCE ID: quest_form_change_furfrou_pharoah
-TEXT: Form change a Furfrou to have a Pharaoh Trim
+TEXT: 트리미앙을 킹덤컷으로 모습을 변화시킨다
 
 RESOURCE ID: quest_form_change_furfrou_star
-TEXT: Form change a Furfrou to have a Star Trim
+TEXT: 트리미앙을 스타컷으로 모습을 변화시킨다
 
 RESOURCE ID: quest_furfrou_trim
-TEXT: Change a Furfrou’s trim
+TEXT: 트리미앙의 모습을 변화시킨다
 
 RESOURCE ID: quest_go_tour_2026_zygarde_route_spin
-TEXT: Spin an event PokéStop at a GO Tour: Kalos Official Route start point
+TEXT: GO Tour: 칼로스지방 공식 루트의 시작 지점에 있는 이벤트용 포켓스톱을 돌린다
 
 RESOURCE ID: quest_medal_fairy_platinum
 TEXT: 페어리타입 포켓몬을 잡고 받을 수 있는 메달을 플래티넘으로 만든다
@@ -2592,31 +2604,31 @@ RESOURCE ID: quest_pokestop_nominate_singular
 TEXT: 포켓스톱 신청
 
 RESOURCE ID: quest_power_up_dark_psychic_plural
-TEXT: Power up Psychic- or Dark-type Pokémon {0} times
+TEXT: 에스퍼타입 또는 악타입 포켓몬을 {0}회 강화한다
 
 RESOURCE ID: quest_power_up_grass_poison_plural
-TEXT: Power up Grass or Poison-type Pokémon {0} times
+TEXT: 풀타입 또는 독타입 포켓몬을 {0}회 강화한다
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_debutante
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Debutante Trim
+TEXT: 레이디컷 트리미앙이 디자인 된 포켓스톱을 돌린다
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_diamond
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Diamond Trim
+TEXT: 다이아컷 트리미앙이 디자인 된 포켓스톱을 돌린다
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_heart
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Heart Trim
+TEXT: 하트컷 트리미앙이 디자인 된 포켓스톱을 돌린다
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_kabuki
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Kabuki Trim
+TEXT: 가부키컷 트리미앙이 디자인 된 포켓스톱을 돌린다
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_la_reine
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a La Reine Trim
+TEXT: 퀸컷 트리미앙이 디자인 된 포켓스톱을 돌린다
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_pharoah
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Pharaoh Trim
+TEXT: 킹덤컷 트리미앙이 디자인 된 포켓스톱을 돌린다
 
 RESOURCE ID: quest_scavenger_hunt_furfrou_star
-TEXT: Spin the PokéStop that has an image of a Furfrou sporting a Star Trim
+TEXT: 스타컷 트리미앙이 디자인 된 포켓스톱을 돌린다
 
 RESOURCE ID: quest_snapshot_bug_unique_plural
 TEXT: 야생의 벌레타입 포켓몬 {0}종류의 GO스냅샷을 찍는다
@@ -2643,7 +2655,7 @@ RESOURCE ID: quests_claim_field_book_quest_encounter_first
 TEXT: 아직 안잡은 포켓몬이 있습니다!
 
 RESOURCE ID: quests_log_complete_field_book_page
-TEXT: Complete Field Book Page: {0}
+TEXT: Complete Field Book page: {0}
 
 RESOURCE ID: raid_approach_multiple_post_list
 TEXT: 승리시 사용: {0}
@@ -2666,7 +2678,7 @@ RESOURCE ID: raid_message_heal_pokemon
 TEXT: 포켓몬의 회복
 
 RESOURCE ID: raid_special_background
-TEXT: Pokémon encountered from event raids may have an exclusive Special Background
+TEXT: 이벤트 레이드에서 잡은 포켓몬에게 한정 스페셜 배경이 있을 수 있다
 
 RESOURCE ID: rebuild_event_pass_pages
 TEXT: GO패스를 갱신했습니다
@@ -2819,13 +2831,13 @@ RESOURCE ID: stamp_rally_missed_prefecture_reward_toast
 TEXT: 지역 내 포켓몬 맨홀 뚜껑 스탬프랠리 지정 장소에 있는 경우 스탬프 버튼을 탭 하면 리워드를 받을 수 있습니다
 
 RESOURCE ID: tag_go_tour_kalos_los_angeles
-TEXT: GO Tour: Kalos – Los Angeles
+TEXT: Pokémon GO Tour: 칼로스지방 - 로스앤젤레스
 
 RESOURCE ID: tag_go_tour_kalos_short
-TEXT: GO Tour: Kalos
+TEXT: Pokémon GO Tour: 칼로스지방
 
 RESOURCE ID: tag_go_tour_kalos_tainan
-TEXT: GO Tour: Kalos – Tainan
+TEXT: Pokémon GO Tour: 칼로스지방 - 타이난
 
 RESOURCE ID: tag_x_version
 TEXT: X Version
@@ -2918,10 +2930,10 @@ RESOURCE ID: timed_research_heart_pattern_spinda
 TEXT: 시간제한 리서치에서 하트 얼룩무늬가 있는 "얼루기"와의 만남
 
 RESOURCE ID: title_addon_kalos_hatch
-TEXT: GO Tour: Kalos – Egg-thusiast
+TEXT: GO Tour: 칼로스지방
 
 RESOURCE ID: title_addon_kalos_raid
-TEXT: GO Tour: Kalos – Raid Lover
+TEXT: GO Tour: 칼로스지방 - 레이드 옵션
 
 RESOURCE ID: title_camera_permission_required
 TEXT: 카메라 접근 허용
@@ -2933,7 +2945,7 @@ RESOURCE ID: title_hoopa_hoopla
 TEXT: 후파 후플라!
 
 RESOURCE ID: title_unown_o_clock
-TEXT: Unown O’Clock
+TEXT: 안농 대량발생
 
 RESOURCE ID: today_view_fieldbook_tab_label
 TEXT: 필드북
@@ -2954,118 +2966,118 @@ RESOURCE ID: today_view_today_tab_label
 TEXT: 오늘
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title
-TEXT: Poodle Caboodle Timed Research
+TEXT: 트리밍 시간제한 리서치
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_00
-TEXT: Poodle Caboodle Timed Research (1/6)
+TEXT: 트리밍 시간제한 리서치(1/6)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_01
-TEXT: Poodle Caboodle Timed Research (2/6)
+TEXT: 트리밍 시간제한 리서치(2/6)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_02
-TEXT: Poodle Caboodle Timed Research (3/6)
+TEXT: 트리밍 시간제한 리서치(3/6)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_03
-TEXT: Poodle Caboodle Timed Research (4/6)
+TEXT: 트리밍 시간제한 리서치(4/6)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_04
-TEXT: Poodle Caboodle Timed Research (5/6)
+TEXT: 트리밍 시간제한 리서치(5/6)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title_05
-TEXT: Poodle Caboodle Timed Research (6/6)
+TEXT: 트리밍 시간제한 리서치(6/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_desc_friday
-TEXT: Spa Day Timed Research (Friday)
+TEXT: 헤어컷 시간제한 리서치(금요일)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_desc_saturday
-TEXT: Spa Day Timed Research (Saturday)
+TEXT: 헤어컷 시간제한 리서치(토요일)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_desc_sunday
-TEXT: Spa Day Timed Research (Sunday)
+TEXT: 헤어컷 시간제한 리서치(일요일)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title
-TEXT: Spa Day Timed Research
+TEXT: 헤어컷 시간제한 리서치
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_00
-TEXT: Spa Day Timed Research (1/6)
+TEXT: 헤어컷 시간제한 리서치(1/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_01
-TEXT: Spa Day Timed Research (2/6)
+TEXT: 헤어컷 시간제한 리서치(2/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_02
-TEXT: Spa Day Timed Research (3/6)
+TEXT: 헤어컷 시간제한 리서치(3/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_03
-TEXT: Spa Day Timed Research (4/6)
+TEXT: 헤어컷 시간제한 리서치(4/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_04
-TEXT: Spa Day Timed Research (5/6)
+TEXT: 헤어컷 시간제한 리서치(5/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_furfrou_title_05
-TEXT: Spa Day Timed Research (6/6)
+TEXT: 헤어컷 시간제한 리서치(6/6)
 
 RESOURCE ID: tr_go_tour_2026_irl_zygarde_title
-TEXT: En Garde! Timed Research
+TEXT: 균형과 질서 시간제한 리서치
 
 RESOURCE ID: tr_go_tour_2026_irl_zygarde_title_00
-TEXT: En Garde! Timed Research (1/1)
+TEXT: 균형과 질서 시간제한 리서치(1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_altaria_title
-TEXT: Mega Altaria Timed Research
+TEXT: 메가파비코리 시간제한 리서치
 
 RESOURCE ID: tr_go_tour_2026_mega_night_altaria_title_00
-TEXT: Mega Altaria Timed Research (1/1)
+TEXT: 메가파비코리 시간제한 리서치(1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_ampharos_title
-TEXT: Mega Ampharos Timed Research
+TEXT: 메가전룡 시간제한 리서치
 
 RESOURCE ID: tr_go_tour_2026_mega_night_ampharos_title_00
-TEXT: Mega Ampharos Timed Research (1/1)
+TEXT: 메가전룡 시간제한 리서치(1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_charizard_title
-TEXT: Mega Charizard X Timed Research
+TEXT: 메가리자몽X 시간제한 리서치
 
 RESOURCE ID: tr_go_tour_2026_mega_night_charizard_title_00
-TEXT: Mega Charizard X Timed Research (1/1)
+TEXT: 메가리자몽X 시간제한 리서치(1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_garchomp_title
-TEXT: Mega Garchomp Timed Research
+TEXT: 메가한카리아스 시간제한 리서치
 
 RESOURCE ID: tr_go_tour_2026_mega_night_garchomp_title_00
-TEXT: Mega Garchomp Timed Research (1/1)
+TEXT: 메가한카리아스 시간제한 리서치(1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_salamence_title
-TEXT: Mega Salamence Timed Research
+TEXT: 메가보만다 시간제한 리서치
 
 RESOURCE ID: tr_go_tour_2026_mega_night_salamence_title_00
-TEXT: Mega Salamence Timed Research (1/1)
+TEXT: 메가보만다 시간제한 리서치(1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_sceptile_title
-TEXT: Mega Sceptile Timed Research
+TEXT: 메가나무킹 시간제한 리서치
 
 RESOURCE ID: tr_go_tour_2026_mega_night_sceptile_title_00
-TEXT: Mega Sceptile Timed Research (1/1)
+TEXT: 메가나무킹 시간제한 리서치(1/1)
 
 RESOURCE ID: tr_go_tour_2026_mega_night_title
-TEXT: Mega Finale Timed Research
+TEXT: 메가 피날레 시간제한 리서치
 
 RESOURCE ID: tr_go_tour_2026_mega_night_title_00
-TEXT: Mega Finale Timed Research (1/1)
+TEXT: 메가 피날레 시간제한 리서치(1/1)
 
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title
-TEXT: Very Fairy Timed Research
+TEXT: 요정 시간제한 리서치
 
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title_00
-TEXT: Very Fairy Timed Research (1/4)
+TEXT: 요정 시간제한 리서치(1/4)
 
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title_01
-TEXT: Very Fairy Timed Research (2/4)
+TEXT: 요정 시간제한 리서치(2/4)
 
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title_02
-TEXT: Very Fairy Timed Research (3/4)
+TEXT: 요정 시간제한 리서치(3/4)
 
 RESOURCE ID: tr_go_tour_2026_secret_fairy_title_03
-TEXT: Very Fairy Timed Research (4/4)
+TEXT: 요정 시간제한 리서치(4/4)
 
 RESOURCE ID: tr_oricorio_mastery_catch_hoothoot
 TEXT: 부우부를 {0}마리 잡는다
@@ -3143,7 +3155,7 @@ RESOURCE ID: trade_warning_bullet_mega
 TEXT: 메가레벨 리셋
 
 RESOURCE ID: tutorial_need_mega_body
-TEXT: Mega-Evolved Pokémon are essential in Super Mega Raids
+TEXT: 메가진화한 포켓몬이 필요합니다.
 
 RESOURCE ID: tutorial_need_mega_title
 TEXT: 메가진화하고 준비 완료!
@@ -3161,31 +3173,31 @@ RESOURCE ID: tv_title_go_tour_2026_global_ticket
 TEXT: GO Tour: 칼로스지방 – 글로벌, 티켓 보너스
 
 RESOURCE ID: tv_title_go_tour_2026_la
-TEXT: GO Tour: Kalos – Los Angeles
+TEXT: GO Tour: 칼로스지방 - 로스앤젤레스
 
 RESOURCE ID: tv_title_go_tour_2026_la_city
-TEXT: GO Tour: Kalos – Los Angeles, City Experience
+TEXT: GO Tour: 칼로스지방 - 로스앤젤레스, 도시 체험
 
 RESOURCE ID: tv_title_go_tour_2026_la_city_extended
-TEXT: GO Tour: Kalos – Los Angeles, Extended Bonuses
+TEXT: GO Tour: 칼로스지방 - 로스앤젤레스, 연장 보너스
 
 RESOURCE ID: tv_title_go_tour_2026_la_park
-TEXT: GO Tour: Kalos – Los Angeles, Park Experience
+TEXT: GO Tour: 칼로스지방 - 로스앤젤레스, 공원 체험
 
 RESOURCE ID: tv_title_go_tour_2026_tainan
-TEXT: GO Tour: Kalos – Tainan
+TEXT: GO Tour: 칼로스지방 - 타이난
 
 RESOURCE ID: tv_title_go_tour_2026_tainan_city
-TEXT: GO Tour: Kalos – Tainan, City Experience
+TEXT: GO Tour: 칼로스지방 - 타이난, 도시 체험
 
 RESOURCE ID: tv_title_go_tour_2026_tainan_city_extended
-TEXT: GO Tour: Kalos – Tainan, Extended Bonuses
+TEXT: GO Tour: 칼로스지방 - 타이난, 연장 보너스
 
 RESOURCE ID: tv_title_go_tour_2026_tainan_park
-TEXT: GO Tour: Kalos – Tainan, Park Experience
+TEXT: GO Tour: 칼로스지방 - 타이난, 공원 체험
 
 RESOURCE ID: unown_o_clock_active
-TEXT: Unown are now appearing in large numbers!
+TEXT: 안농이 대량발생 중!
 
 RESOURCE ID: use_raid_ticket_confirmation_buy_currency
 TEXT: {0}(을)를 입수
