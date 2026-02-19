@@ -756,7 +756,7 @@ RESOURCE ID: enhanced_currency_abbreviated
 TEXT: LC
 
 RESOURCE ID: enhanced_currency_ftue_body
-TEXT: レイドパスの代わりにリンクチャージを使用してメガレイドに参加できます。離れた場所からメガレイドに参加する場合、リンクチャージが必須になります。
+TEXT: レイドパスの代わりにリンクチャージを使用してメガレイドに参加できます。離れた場所からスーパーメガレイドに参加する場合、リンクチャージが必須になります。
 
 リンクチャージは、ウィークリーチャレンジ、Campfireチェックイン、ギフト開封で入手できます。
 
@@ -1546,6 +1546,9 @@ TEXT: 期間限定ボーナス
 RESOURCE ID: increased_gift_rare_candy
 TEXT: ギフトを開けてもらえるふしぎなアメの確率アップ
 
+RESOURCE ID: increased_mega_level_caught_desc
+TEXT: リサーチやタイムチャレンジなどで捕まえるポケモンは、メガレベル1以上の場合があります。
+
 RESOURCE ID: increased_mega_level_caught_desc_temp
 TEXT: スーパーメガレイドなどで捕まえると、メガレベル1以上のポケモンである場合があります。
 
@@ -1568,7 +1571,7 @@ RESOURCE ID: into_depths_website_link
 TEXT: （詳細は<a href="https://pokemongolive.com/post/into-the-depths-2026">ウェブサイト</a>でご確認ください）
 
 RESOURCE ID: item_enhanced_currency_desc
-TEXT: レイドパスの代わりにリンクチャージを使用してメガレイドに参加できます。離れた場所からメガレイドに参加する場合、リンクチャージが必須になります。
+TEXT: レイドパスの代わりにリンクチャージを使用してメガレイドに参加できます。離れた場所からスーパーメガレイドに参加する場合、リンクチャージが必須になります。
 
 リンクチャージは、ウィークリーチャレンジ、Campfireチェックイン、ギフト開封で入手できます。
 
@@ -1897,7 +1900,16 @@ RESOURCE ID: mega_perk_cp_boost_excellentplus
 TEXT: CP大幅増
 
 RESOURCE ID: mega_perk_xl_bonus_excellent
+TEXT: メガレベルに応じてアメXL確率アップ
+
+RESOURCE ID: mega_perk_xl_bonus_excellent_temp
 TEXT: アメXL確率大幅アップ
+
+RESOURCE ID: mega_perk_xl_bonus_great
+TEXT: メガレベルに応じてアメXL確率アップ
+
+RESOURCE ID: mega_perk_xl_bonus_great_temp
+TEXT: アメXL確率アップ
 
 RESOURCE ID: mega_remote_iap_nc_rrp_title
 TEXT: リモートレイドパスを持っておらず、リンクチャージが足りません！
@@ -1919,10 +1931,10 @@ RESOURCE ID: message_open_settings
 TEXT: 設定を開く
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-02-19T03:42:00.787909+00:00 for ja-JP
-at SHA ee00ddd1d22
-Pipeline 3547263, job 51336411
-Patch from: 0.399.1-SHA-8ecc6639-RC1, 0.397.1-SHA-aca8ba5a-RC4, 0.401.0-SHA-1d3c71a6-RC1
+TEXT: Built at 2026-02-19T16:02:52.459780+00:00 for ja-JP
+at SHA 6aa53b81ec7
+Pipeline 3548046, job 51387602
+Patch from: 0.397.1-SHA-aca8ba5a-RC4, 0.399.0-SHA-0447d5a7-RC2, 0.401.0-SHA-1d3c71a6-RC1
 
 RESOURCE ID: natural_art_day
 TEXT: 昼の出会い
@@ -2719,6 +2731,27 @@ TEXT: 期限あり
 
 RESOURCE ID: today_view_today_tab_label
 TEXT: 今日
+
+RESOURCE ID: tr_go_tour_2026_bonus_x_title
+TEXT: ボーナスタイムチャレンジ – アンノーン(X)
+
+RESOURCE ID: tr_go_tour_2026_bonus_x_title_00
+TEXT: ボーナスタイムチャレンジ – アンノーン(X)(1/1)
+
+RESOURCE ID: tr_go_tour_2026_bonus_y_title
+TEXT: ボーナスタイムチャレンジ – アンノーン(Y)
+
+RESOURCE ID: tr_go_tour_2026_bonus_y_title_00
+TEXT: ボーナスタイムチャレンジ – アンノーン(Y)(1/1)
+
+RESOURCE ID: tr_go_tour_2026_bonus_za_title
+TEXT: ボーナスタイムチャレンジ – アンノーン(Z)&(A)
+
+RESOURCE ID: tr_go_tour_2026_bonus_za_title_00
+TEXT: ボーナスタイムチャレンジ – アンノーン(Z)&(A)(1/2)
+
+RESOURCE ID: tr_go_tour_2026_bonus_za_title_01
+TEXT: ボーナスタイムチャレンジ – アンノーン(Z)&(A)(2/2)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title
 TEXT: トリミングタイムチャレンジ

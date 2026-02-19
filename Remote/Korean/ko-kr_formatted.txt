@@ -386,16 +386,16 @@ RESOURCE ID: bonus_go_tour_2023_add_on_raid_04
 TEXT: 별5 레이드에서 포켓몬의 사탕XL 3개 추가
 
 RESOURCE ID: bonus_gotour_2026_other_mega_level_daily_points_6
-TEXT: 포켓몬 메가레벨업에 가산 되는 포인트를 6까지 매일 획득
+TEXT: 포켓몬 메가레벨업에 가산 되는 포인트를 6포인트까지 매일 획득
 
 RESOURCE ID: bonus_gotour_2026_other_mega_level_points_6x
-TEXT: 포켓몬 메가레벨업에 가산되는 포인트를 6까지 메가진화 시마다 획득
+TEXT: 포켓몬 메가레벨업에 가산되는 포인트를 메가진화 시마다 6포인트 획득
 
 RESOURCE ID: bonus_gotour_irl_2026_mega_level_daily_points_30
-TEXT: 우츠보트 또는 칼라마네로의 메가레벨업에 가산되는 포인트를 30까지 매일 획득
+TEXT: 우츠보트 또는 칼라마네로의 메가레벨업에 가산되는 포인트를 30포인트까지 매일 획득
 
 RESOURCE ID: bonus_gotour_irl_2026_mega_level_daily_points_6
-TEXT: 우츠보트 또는 칼라마네로의 메가레벨업에 가산되는 포인트를 6까지 매일 획득
+TEXT: 우츠보트 또는 칼라마네로의 메가레벨업에 가산되는 포인트를 6포인트까지 매일 획득
 
 RESOURCE ID: bonus_gotour_kalos_furfrou
 TEXT: 평소에는 볼수 없느 컷의 트리미앙이 공원에 출현
@@ -950,7 +950,7 @@ RESOURCE ID: enhanced_currency_abbreviated
 TEXT: LC
 
 RESOURCE ID: enhanced_currency_ftue_body
-TEXT: 레이드패스 대신 링크차지를 사용하여 메가 레이드에 참가할 수 있습니다. 떨어진 장소에서 메가 레이드에 참가할 경우 링크차지가 반드시 필요합니다.
+TEXT: 레이드패스 대신 링크차지를 사용하여 메가 레이드에 참가할 수 있습니다. 떨어진 장소에서 메가 슈퍼 메가 레이드에 참가할 경우 링크차지가 반드시 필요합니다.
 
 링크차지는 위클리 챌린지, Campfire 체크인, 프렌드의 선물 개봉으로 손에 넣을 수 있습니다.
 
@@ -991,7 +991,7 @@ RESOURCE ID: enhanced_mega_raid_tutorial_body_1
 TEXT: 더 강한 메가진화 포켓몬 레이드배틀입니다. 8명 이상의 트레이너가 협력해서 배틀할 것을 추천합니다. 쓰러뜨리면 메가 에너지를 많이 손에 넣을 수 있습니다.
 
 RESOURCE ID: enhanced_mega_raid_tutorial_body_2
-TEXT: 레이드 보스 포켓몬은 대미지를 받지 않도록 실드를 구사하며 배틀합니다.
+TEXT: 레이드 보스 포켓몬은 대미지를 약하게 하려고 실드를 구사하며 배틀합니다.
 
 메가진화한 포켓몬의 스페셜 어택으로 이 실드를 깰 수 있습니다. 레이드 참가자와 협력하여 보스 포켓몬을 쓰러뜨리세요.
 
@@ -1747,6 +1747,9 @@ TEXT: 기간 한정 보너스
 RESOURCE ID: increased_gift_rare_candy
 TEXT: 선물을 열어 받을 수 있는 이상한사탕의 확률 증가
 
+RESOURCE ID: increased_mega_level_caught_desc
+TEXT: 리서치에서 잡은 포켓몬은 메가 레벨 1 이상일 수 있습니다.
+
 RESOURCE ID: increased_mega_level_caught_desc_temp
 TEXT: 슈퍼 메가 레이드 등에서 잡으면 메가레벨1 이상의 포켓몬일 수 있습니다.
 
@@ -1769,7 +1772,7 @@ RESOURCE ID: into_depths_website_link
 TEXT: 자세한 내용은 <a href="https://pokemongolive.com/post/into-the-depths-2026">웹사이트</a>에서 확인해 주세요.
 
 RESOURCE ID: item_enhanced_currency_desc
-TEXT: 레이드패스 대신 링크차지를 사용하여 메가 레이드에 참가할 수 있습니다. 떨어진 장소에서 메가 레이드에 참가할 경우 링크차지가 반드시 필요합니다.
+TEXT: 레이드패스 대신 링크차지를 사용하여 메가 레이드에 참가할 수 있습니다. 떨어진 장소에서 메가 슈퍼 메가 레이드에 참가할 경우 링크차지가 반드시 필요합니다.
 
 링크차지는 위클리 챌린지, Campfire 체크인, 프렌드의 선물 개봉으로 손에 넣을 수 있습니다.
 
@@ -2106,7 +2109,13 @@ TEXT: CP 대폭 증가
 RESOURCE ID: mega_perk_xl_bonus_excellent
 TEXT: 사탕XL 확률 추가 업
 
+RESOURCE ID: mega_perk_xl_bonus_excellent_temp
+TEXT: 사탕XL 확률 추가 업
+
 RESOURCE ID: mega_perk_xl_bonus_great
+TEXT: 사탕XL 확률 업
+
+RESOURCE ID: mega_perk_xl_bonus_great_temp
 TEXT: 사탕XL 확률 업
 
 RESOURCE ID: mega_remote_iap_nc_rrp_title
@@ -2128,10 +2137,10 @@ RESOURCE ID: message_open_settings
 TEXT: 설정 열기
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-02-19T03:42:00.787909+00:00 for ko-KR
-at SHA ee00ddd1d22
-Pipeline 3547263, job 51336411
-Patch from: 0.399.1-SHA-8ecc6639-RC1, 0.397.1-SHA-aca8ba5a-RC4, 0.401.0-SHA-1d3c71a6-RC1
+TEXT: Built at 2026-02-19T16:02:52.459780+00:00 for ko-KR
+at SHA 6aa53b81ec7
+Pipeline 3548046, job 51387602
+Patch from: 0.397.1-SHA-aca8ba5a-RC4, 0.399.0-SHA-0447d5a7-RC2, 0.401.0-SHA-1d3c71a6-RC1
 
 RESOURCE ID: natural_art_day
 TEXT: 낮의 만남
@@ -2964,6 +2973,27 @@ TEXT: 기한 있음
 
 RESOURCE ID: today_view_today_tab_label
 TEXT: 오늘
+
+RESOURCE ID: tr_go_tour_2026_bonus_x_title
+TEXT: 보너스 시간제한 리서치 - 안농(X)
+
+RESOURCE ID: tr_go_tour_2026_bonus_x_title_00
+TEXT: 보너스 시간제한 리서치 - 안농(X)(1/1)
+
+RESOURCE ID: tr_go_tour_2026_bonus_y_title
+TEXT: 보너스 시간제한 리서치 - 안농(Y)
+
+RESOURCE ID: tr_go_tour_2026_bonus_y_title_00
+TEXT: 보너스 시간제한 리서치 - 안농(Y)(1/1)
+
+RESOURCE ID: tr_go_tour_2026_bonus_za_title
+TEXT: 보너스 시간제한 리서치 - 안농(Z)&(A)
+
+RESOURCE ID: tr_go_tour_2026_bonus_za_title_00
+TEXT: 보너스 시간제한 리서치 - 안농(Z)&(A)(1/2)
+
+RESOURCE ID: tr_go_tour_2026_bonus_za_title_01
+TEXT: 보너스 시간제한 리서치 - 안농(Z)&(A)(2/2)
 
 RESOURCE ID: tr_go_tour_2026_global_furfrou_title
 TEXT: 트리밍 시간제한 리서치
