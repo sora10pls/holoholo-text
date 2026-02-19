@@ -629,12 +629,12 @@ RESOURCE ID: claim_all_quest_rewards_btn
 TEXT: TOUT RÉCUPÉRER
 
 RESOURCE ID: claim_all_quests_confirmation_modal_message
-TEXT: You will be claiming {0} items.
+TEXT: Tu vas récupérer {0} objets.
 
-Item Bag: {1}/{2}
+Sac d’objets : {1}/{2}
 
 RESOURCE ID: claim_all_quests_confirmation_modal_title
-TEXT: Do you want to claim all rewards?
+TEXT: Veux-tu obtenir toutes les récompenses ?
 
 RESOURCE ID: claim_all_quests_partial_success_message
 TEXT: Certaines récompenses doivent être récupérées séparément.
@@ -924,7 +924,7 @@ RESOURCE ID: field_book_entry_hint_day
 TEXT: Peut être rencontré de jour.
 
 RESOURCE ID: field_book_entry_hint_night
-TEXT: Can be found during the night.
+TEXT: Peut être rencontré de nuit.
 
 RESOURCE ID: field_book_find_nearby_button
 TEXT: Trouver à proximité
@@ -1059,7 +1059,7 @@ RESOURCE ID: fieldbook_summary_species_caught_text
 TEXT: Tu as attrapé {0} Pokémon avec des Portraits différents !
 
 RESOURCE ID: fieldbook_summary_species_caught_text_singular
-TEXT: You caught 1 Pokémon with a Portrait!
+TEXT: Tu as attrapé 1 Pokémon avec un Portrait !
 
 RESOURCE ID: fieldbook_tab_ftue_1_body_text_key
 TEXT: Les Pokémon dans ton Album de terrain ont des Portraits qui illustrent où ils ont été attrapés.
@@ -1565,7 +1565,7 @@ TEXT: Bonus à durée limitée
 RESOURCE ID: increased_gift_rare_candy
 TEXT: Plus de chances de recevoir des Super Bonbons en ouvrant des Cadeaux
 
-RESOURCE ID: increased_mega_level_caught_desc
+RESOURCE ID: increased_mega_level_caught_desc_temp
 TEXT: Certains Pokémon attrapés dans des Super Méga-Raids ou des Études peuvent déjà avoir un Méga-Niveau.
 
 RESOURCE ID: increased_mega_level_caught_title
@@ -1943,10 +1943,10 @@ RESOURCE ID: message_open_settings
 TEXT: Accéder aux Options
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-02-18T18:06:34.953346+00:00 for fr-FR
-at SHA b95ac9f47d8
-Pipeline 3546097, job 51288594
-Patch from: 0.399.1-SHA-853bae10-RC2, 0.397.1-SHA-aca8ba5a-RC4, 0.401.0-SHA-1d3c71a6-RC1
+TEXT: Built at 2026-02-19T03:42:00.787909+00:00 for fr-FR
+at SHA ee00ddd1d22
+Pipeline 3547263, job 51336411
+Patch from: 0.399.1-SHA-8ecc6639-RC1, 0.397.1-SHA-aca8ba5a-RC4, 0.401.0-SHA-1d3c71a6-RC1
 
 RESOURCE ID: natural_art_day
 TEXT: Jour
@@ -2074,6 +2074,12 @@ TEXT: nᵒ {0}
 RESOURCE ID: pokemon_info_mega_evolve_need_resources
 TEXT: Il te faut plus de Méga-Énergie {0}.
 
+RESOURCE ID: pokemon_info_primal_evolve_need_resources
+TEXT: Il te faut plus de Primo-Énergie {0}
+
+RESOURCE ID: pokemon_info_primal_resource_label
+TEXT: Primo-Énergies {0}
+
 RESOURCE ID: pokemon_name_0036_0001
 TEXT: Méga-Mélodelfe
 
@@ -2155,9 +2161,9 @@ TEXT: Trouve des Pokémon pour ton Album de terrain à ce PokéStop. Ces Pokémo
 Les Pokémon dotés d’un Portrait diurne apparaîtront entre 6h et 18h, tandis que les Pokémon dotés d’un Portrait nocturne apparaîtront entre 18h et 6h.
 
 RESOURCE ID: pokestop_field_book_message_with_times
-TEXT: Find Pokémon for your Field Book at this PokéStop. These Pokémon have Portraits that reflect where they were caught.
+TEXT: Trouve des Pokémon pour ton Album de terrain à ce PokéStop. Ces Pokémon sont dotés de Portraits qui illustrent l’endroit où ils ont été attrapés.
 
-Pokémon with Day Portraits will appear {0}, and Pokémon with Night Portraits will appear {1}.
+Les Pokémon dotés d’un Portrait diurne apparaîtront entre {0}, tandis que les Pokémon dotés d’un Portrait nocturne apparaîtront entre {1}.
 
 RESOURCE ID: pokestop_field_book_title
 TEXT: PokéStops
@@ -2428,7 +2434,7 @@ RESOURCE ID: quests_claim_field_book_quest_encounter_first
 TEXT: Termine d’abord ta rencontre de l’Album de terrain !
 
 RESOURCE ID: quests_log_complete_field_book_page
-TEXT: Complete Field Book page: {0}
+TEXT: Page de l’Album de terrain terminée : {0}
 
 RESOURCE ID: raid_approach_multiple_post_list
 TEXT: UTILISÉ EN CAS DE VICTOIRE : {0}
