@@ -424,6 +424,14 @@ TEXT: Te queda 1 Pokémon por atrapar.
 RESOURCE ID: claim_all_quest_rewards_btn
 TEXT: RECLAMAR TODO
 
+RESOURCE ID: claim_all_quests_confirmation_modal_message
+TEXT: Vas a recibir {0} artículos.
+
+Bolsa: {1}/{2}
+
+RESOURCE ID: claim_all_quests_confirmation_modal_title
+TEXT: ¿Quieres reclamar todas las recompensas?
+
 RESOURCE ID: claim_all_quests_partial_success_message
 TEXT: Algunas recompensas deben reclamarse de manera individual.
 
@@ -621,6 +629,9 @@ TEXT: Atrapado en {0}
 RESOURCE ID: field_book_entry_hint_day
 TEXT: Se puede encontrar durante el día.
 
+RESOURCE ID: field_book_entry_hint_night
+TEXT: Se puede encontrar durante la noche.
+
 RESOURCE ID: field_book_find_nearby_button
 TEXT: Encontrar cerca
 
@@ -754,7 +765,7 @@ RESOURCE ID: fieldbook_summary_species_caught_text
 TEXT: ¡Atrapaste {0} Pokémon diferentes con retratos!
 
 RESOURCE ID: fieldbook_summary_species_caught_text_singular
-TEXT: You caught 1 Pokémon with a Portrait!
+TEXT: ¡Atrapaste un Pokémon con retrato!
 
 RESOURCE ID: fieldbook_tab_ftue_1_body_text_key
 TEXT: Los Pokémon en tu Cuaderno de campo tienen retratos que indican dónde se atraparon.
@@ -1523,9 +1534,9 @@ RESOURCE ID: message_gallery_permission_required
 TEXT: Para descargar las fotos, abre la configuración de tu teléfono y da permiso a Pokémon GO para acceder a las fotos.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-02-25T04:21:09.899187+00:00 for es-MX
-at SHA e2a69f8df28
-Pipeline 3556194, job 51726283
+TEXT: Built at 2026-02-26T04:53:44.107975+00:00 for es-MX
+at SHA 4df96c3aac0
+Pipeline 3558843, job 51824039
 Patch from: 0.399.1-SHA-8ecc6639-RC1, 0.401.0-SHA-1d3c71a6-RC1
 
 RESOURCE ID: natural_art_day
@@ -1573,9 +1584,9 @@ TEXT: Encuentra Pokémon para tu Cuaderno de campo en esta Poképarada. Estos Po
 Los Pokémon con retratos diurnos aparecerán entre las 6:00 a. m. y las 6:00 p. m., mientras que los Pokémon con retratos nocturnos aparecerán entre las 6:00 a. m. y las 6:00 p. m.
 
 RESOURCE ID: pokestop_field_book_message_with_times
-TEXT: Find Pokémon for your Field Book at this PokéStop. These Pokémon have Portraits that reflect where they were caught.
+TEXT: Encuentra Pokémon para tu Cuaderno de campo en esta Poképarada. Estos Pokémon tienen unos retratos que indican dónde fueron atrapados.
 
-Pokémon with Day Portraits will appear {0}, and Pokémon with Night Portraits will appear {1}.
+Los Pokémon con retratos diurnos aparecerán de {0}, mientras que los Pokémon con retratos nocturnos aparecerán de {1}.
 
 RESOURCE ID: pokestop_field_book_title
 TEXT: Poképaradas
@@ -1770,7 +1781,7 @@ RESOURCE ID: quests_claim_field_book_quest_encounter_first
 TEXT: ¡Completa antes tu encuentro del Cuaderno de campo!
 
 RESOURCE ID: quests_log_complete_field_book_page
-TEXT: Complete Field Book page: {0}
+TEXT: Página del Cuaderno de campo completada: {0}
 
 RESOURCE ID: raid_approach_multiple_post_list
 TEXT: SE USARÁ AL GANAR: {0}
@@ -2207,6 +2218,15 @@ TEXT: Investigación Temporal Prémium de Arte de la Captura: Oricorio (9/10)
 
 RESOURCE ID: tr_oricorio_mastery_paid_feb2026_header_9
 TEXT: Investigación Temporal Prémium de Arte de la Captura: Oricorio (10/10)
+
+RESOURCE ID: tr_ppk_raid_lc_makegood_articuno_header_0
+TEXT: PokéPark Kanto Raid: Articuno
+
+RESOURCE ID: tr_ppk_raid_lc_makegood_moltres_header_0
+TEXT: PokéPark Kanto Raid: Moltres
+
+RESOURCE ID: tr_ppk_raid_lc_makegood_zapdos_header_0
+TEXT: PokéPark Kanto Raid: Zapdos
 
 RESOURCE ID: trade_guaranteed_candyxl_2
 TEXT: 2 Caramelos XL garantizados al intercambiar Pokémon
