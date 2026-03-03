@@ -267,6 +267,13 @@ TEXT: Veux-tu obtenir toutes les récompenses ?
 RESOURCE ID: claim_all_rewards_confirmation
 TEXT: Veux-tu obtenir toutes les récompenses ?
 
+RESOURCE ID: combat_move_entering_busted_form
+TEXT: Le déguisement de Mimiqui tombe !
+
+RESOURCE ID: combat_move_transformed_blocked
+TEXT: TRANSFORMÉ !
+BLOQUÉE !
+
 RESOURCE ID: combat_title_season_22
 TEXT: Ligue Combat GO : Souvenirs vivants
 
@@ -296,6 +303,37 @@ TEXT: Dimanche durée doublée
 
 RESOURCE ID: double_time_sunday_lure_one_hour
 TEXT: Les Modules Leurre durent 1 heure (sauf les Modules Leurre Dorés)
+
+RESOURCE ID: em_holi_2026_collection_challenge
+TEXT: Défi de collection Fête des couleurs 2026
+
+RESOURCE ID: em_holi_2026_event_title
+TEXT: Fête des couleurs 2026
+
+RESOURCE ID: em_holi_2026_tr_desc_title_00
+TEXT: Étude ponctuelle Fête des couleurs 2026 (1/3)
+
+RESOURCE ID: em_holi_2026_tr_desc_title_01
+TEXT: Étude ponctuelle Fête des couleurs 2026 (2/3)
+
+RESOURCE ID: em_holi_2026_tr_desc_title_02
+TEXT: Étude ponctuelle Fête des couleurs 2026 (3/3)
+
+RESOURCE ID: em_holi_2026_tr_path_a_desc
+TEXT: Choisis ce parcours pour obtenir une rencontre avec Pikachu portant un kurta ainsi que des récompenses, dont des stickers et un Œuf Chance !
+
+RESOURCE ID: em_holi_2026_tr_path_b_desc
+TEXT: Choisis ce parcours pour obtenir une rencontre avec Pikachu portant un sari ainsi que des récompenses, dont des stickers et un Œuf Chance !
+
+RESOURCE ID: em_holi_2026_tr_title
+TEXT: Étude ponctuelle Fête des couleurs 2026
+
+RESOURCE ID: em_holi_2026_tv_desc
+TEXT: Pendant l’évènement, des Pokémon hauts en couleur apparaîtront à 10h, à 13h et à 19h chaque jour !
+Consulte le blog pour plus d’informations sur l’évènement.
+
+RESOURCE ID: em_holi_2026_tv_title
+TEXT: Des Pokémon de toutes les couleurs célèbrent la Fête des couleurs !
 
 RESOURCE ID: enamorus_therian_paid_tr_name
 TEXT: Étude ponctuelle premium Journée de Raids Amovénus Forme Totémique
@@ -999,7 +1037,7 @@ RESOURCE ID: lunar_new_year_feb26_collection
 TEXT: Défi de collection Nouvel An lunaire 2026
 
 RESOURCE ID: make_good_akari_pikachu_desc
-TEXT: GO Tour Encounter: Pikachu
+TEXT: Rencontre Circuit GO : Pikachu
 
 RESOURCE ID: masterwork_shiny_diancie_title
 TEXT: Étude magistrale Scintillement éclatant
@@ -1244,10 +1282,10 @@ RESOURCE ID: message_gallery_permission_required
 TEXT: Pour télécharger les photos, ouvre les paramètres de ton téléphone et autorise Pokémon GO à accéder aux photos.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-02-28T09:53:45.866120+00:00 for fr-FR
-at SHA 9da78b730d8
-Pipeline 3563758, job 52033285
-Patch from: 0.399.1-SHA-8ecc6639-RC1, 0.401.0-SHA-0fb0c533-RC3, 0.403.0-SHA-47e90574-RC1
+TEXT: Built at 2026-03-03T05:36:46.337931+00:00 for fr-FR
+at SHA 2b7dd7796b0
+Pipeline 3567551, job 52250566
+Patch from: 0.401.0-SHA-1d3c71a6-RC1, 0.399.1-SHA-8ecc6639-RC1, 0.403.0-SHA-47e90574-RC1
 
 RESOURCE ID: more_power_spots_active
 TEXT: Davantage de Sources d’Énergie actives
@@ -1274,10 +1312,16 @@ RESOURCE ID: pokelid_map_url_yamagata
 TEXT: https://www.google.com/maps/d/viewer?mid=1IL9LvVsDHPNVwEDb8V7AwlbGD5ZMALQ
 
 RESOURCE ID: pokemon_ibfc_desc_0778
-TEXT: Once per battle, the shroud that covers the Pokémon can protect it from a Charged Attack, after which Mimikyu’s Defense will be lowered until the end of battle.
+TEXT: Une fois par combat, le déguisement qui couvre le Pokémon peut le protéger d’une Attaque Chargée. Par la suite, la Défense de Mimiqui baisse jusqu’à la fin du combat.
+
+RESOURCE ID: pokemon_ibfc_desc_header_0778
+TEXT: FORME RÉSERVÉE AUX COMBATS : FORME DÉMASQUÉE
 
 RESOURCE ID: pokemon_ibfc_desc_header_form_info
 TEXT: FORME RÉSERVÉE AUX COMBATS : {0}
+
+RESOURCE ID: pokemon_ibfc_name_0778
+TEXT: Forme Démasquée
 
 RESOURCE ID: pokemon_info_mega_evolve_need_resources
 TEXT: Il te faut plus de Méga-Énergie {0}.
@@ -2133,13 +2177,13 @@ RESOURCE ID: tr_oricorio_mastery_paid_feb2026_header_9
 TEXT: Étude ponctuelle premium Maîtrise de capture : Plumeline (10/10)
 
 RESOURCE ID: tr_ppk_raid_lc_makegood_articuno_header_0
-TEXT: PokéPark KANTO Raid: Articuno
+TEXT: Raid PokéPark KANTO : Artikodin
 
 RESOURCE ID: tr_ppk_raid_lc_makegood_moltres_header_0
-TEXT: PokéPark KANTO Raid: Moltres
+TEXT: Raid PokéPark KANTO : Sulfura
 
 RESOURCE ID: tr_ppk_raid_lc_makegood_zapdos_header_0
-TEXT: PokéPark KANTO Raid: Zapdos
+TEXT: Raid PokéPark KANTO : Électhor
 
 RESOURCE ID: tutorial_need_mega_body
 TEXT: Les Pokémon méga-évolués sont indispensables dans les Super Méga-Raids
@@ -2200,6 +2244,9 @@ TEXT: Jusqu’à 7 Échanges spéciaux par jour
 
 RESOURCE ID: up_to_8_special_trades_per_day
 TEXT: Jusqu’à 8 Échanges spéciaux par jour
+
+RESOURCE ID: upmgmt_summary_success_points
+TEXT: Points de zone ajoutés à un PokéStop ou une Arène : {0}
 
 RESOURCE ID: use_raid_ticket_confirmation_buy_currency
 TEXT: Obtiens plus de {0}

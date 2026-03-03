@@ -309,6 +309,13 @@ TEXT: Tidak ada hadiah yang bisa diambil. Silakan ambil hadiah yang tersisa satu
 RESOURCE ID: claim_all_rewards_confirmation
 TEXT: Ambil semua hadiah?
 
+RESOURCE ID: combat_move_entering_busted_form
+TEXT: Samaran Mimikyu ketahuan!
+
+RESOURCE ID: combat_move_transformed_blocked
+TEXT: WUJUD BERUBAH!
+JURUS DIHALANGI!
+
 RESOURCE ID: combat_title_season_22
 TEXT: GO Battle League: Kenangan dalam Gerakan
 
@@ -357,6 +364,37 @@ TEXT: Minggu Memikat
 RESOURCE ID: double_time_sunday_lure_one_hour
 TEXT: Durasi Modul Umpan 1 Jam (tidak termasuk Modul Umpan Keemasan)
 
+RESOURCE ID: em_holi_2026_collection_challenge
+TEXT: Tantangan Koleksi Festival Warna 2026
+
+RESOURCE ID: em_holi_2026_event_title
+TEXT: Festival Warna 2026
+
+RESOURCE ID: em_holi_2026_tr_desc_title_00
+TEXT: Penelitian Berwaktu Festival Warna 2026 (1/3)
+
+RESOURCE ID: em_holi_2026_tr_desc_title_01
+TEXT: Penelitian Berwaktu Festival Warna 2026 (2/3)
+
+RESOURCE ID: em_holi_2026_tr_desc_title_02
+TEXT: Penelitian Berwaktu Festival Warna 2026 (3/3)
+
+RESOURCE ID: em_holi_2026_tr_path_a_desc
+TEXT: Pilih jalur ini untuk pertemuan dengan Pikachu berkemeja Kurta, plus hadiah termasuk stiker dan Telur Kebahagiaan!
+
+RESOURCE ID: em_holi_2026_tr_path_b_desc
+TEXT: Pilih jalur ini untuk pertemuan dengan Pikachu berkostum Saree, plus hadiah termasuk stiker dan Telur Kebahagiaan!
+
+RESOURCE ID: em_holi_2026_tr_title
+TEXT: Penelitian Berwaktu Festival Warna 2026
+
+RESOURCE ID: em_holi_2026_tv_desc
+TEXT: Selama event berlangsung, Pokémon berwarna-warni akan muncul setiap hari pada pukul 10.00, 13.00, dan 19.00!
+ Kunjungi blog untuk melihat detail event.
+
+RESOURCE ID: em_holi_2026_tv_title
+TEXT: Pokémon berwarna-warni akan datang untuk merayakan Festival Warna!
+
 RESOURCE ID: enamorus_therian_paid_tr_name
 TEXT: Penelitian Berwaktu Premium Hari Raid Enamorus Bentuk Therian
 
@@ -373,7 +411,7 @@ RESOURCE ID: enhanced_currency_abbreviated
 TEXT: ML
 
 RESOURCE ID: enhanced_currency_ftue_body
-TEXT: Muatan Link bisa digunakan untuk mengikuti Mega Raid sebagai pengganti Tiket Raid. Muatan Link diperlukan untuk mengikuti Raid Mega Super secara jarak jauh.
+TEXT: Muatan Link bisa digunakan untuk mengikuti Raid Mega sebagai pengganti Tiket Raid. Muatan Link diperlukan untuk mengikuti Raid Mega Super secara jarak jauh.
 
 Kamu bisa mendapatkan Muatan Link dari berbagai aktivitas seperti tantangan mingguan, Check-in di Campfire, dan membuka Hadiah.
 
@@ -1531,7 +1569,7 @@ RESOURCE ID: increased_gift_rare_candy
 TEXT: Peningkatan peluang menerima Permen Langka dari membuka Hadiah
 
 RESOURCE ID: increased_mega_level_caught_desc
-TEXT: Beberapa Pokémon yang kamu tangkap dari Raid Mega Super atau penelitian mungkin memiliki satu Level Mega atau lebih.
+TEXT: Beberapa Pokémon yang kamu tangkap dari penelitian mungkin memiliki satu Level Mega atau lebih.
 
 RESOURCE ID: increased_mega_level_caught_desc_temp
 TEXT: Beberapa Pokémon yang kamu tangkap dari Raid Mega Super atau penelitian mungkin memiliki satu Level Mega atau lebih.
@@ -1552,7 +1590,7 @@ RESOURCE ID: item_bugoutbuddies2026_milestone_name
 TEXT: Pertemuan dengan Dottler
 
 RESOURCE ID: item_enhanced_currency_desc
-TEXT: Muatan Link bisa digunakan untuk mengikuti Mega Raid sebagai pengganti Tiket Raid. Muatan Link diperlukan untuk mengikuti Raid Mega Super secara jarak jauh.
+TEXT: Muatan Link bisa digunakan untuk mengikuti Raid Mega sebagai pengganti Tiket Raid. Muatan Link diperlukan untuk mengikuti Raid Mega Super secara jarak jauh.
 
 Kamu bisa mendapatkan Muatan Link dari berbagai aktivitas seperti tantangan mingguan, Check-in di Campfire, dan membuka Hadiah.
 
@@ -1627,7 +1665,7 @@ RESOURCE ID: lunar_new_year_feb26_collection
 TEXT: Tantangan Koleksi Tahun Baru Lunar 2026
 
 RESOURCE ID: make_good_akari_pikachu_desc
-TEXT: GO Tour Encounter: Pikachu
+TEXT: Pertemuan Tur GO: Pikachu
 
 RESOURCE ID: masterwork_shiny_diancie_title
 TEXT: Penelitian Mahakarya: Berkilau dan Bersinar
@@ -1860,13 +1898,13 @@ RESOURCE ID: mega_perk_reduced_energy_great
 TEXT: Pengurangan pesat penggunaan Energi Mega
 
 RESOURCE ID: mega_perk_xl_bonus_excellent
-TEXT: Peningkatan Pesat Peluang Permen XL
+TEXT: Peningkatan Peluang Permen XL seiring peningkatan Level Mega
 
 RESOURCE ID: mega_perk_xl_bonus_excellent_temp
 TEXT: Peningkatan Pesat Peluang Permen XL
 
 RESOURCE ID: mega_perk_xl_bonus_great
-TEXT: Peningkatan Peluang Permen XL
+TEXT: Peningkatan Peluang Permen XL seiring peningkatan Level Mega
 
 RESOURCE ID: mega_perk_xl_bonus_great_temp
 TEXT: Peningkatan Peluang Permen XL
@@ -1887,10 +1925,10 @@ RESOURCE ID: message_gallery_permission_required
 TEXT: Untuk mengunduh foto, buka pengaturan ponselmu dan berikan akses foto pada Pokémon GO.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-02-28T09:53:45.866120+00:00 for id-ID
-at SHA 9da78b730d8
-Pipeline 3563758, job 52033285
-Patch from: 0.399.1-SHA-8ecc6639-RC1, 0.401.0-SHA-0fb0c533-RC3, 0.403.0-SHA-47e90574-RC1
+TEXT: Built at 2026-03-03T05:36:46.337931+00:00 for id-ID
+at SHA 2b7dd7796b0
+Pipeline 3567551, job 52250566
+Patch from: 0.401.0-SHA-1d3c71a6-RC1, 0.399.1-SHA-8ecc6639-RC1, 0.403.0-SHA-47e90574-RC1
 
 RESOURCE ID: more_power_spots_active
 TEXT: Power Spot aktif tambahan
@@ -1938,10 +1976,16 @@ RESOURCE ID: pokemon_day_night_info_transfer_to_professor_confirmation
 TEXT: Yakin ingin mentransfer Pokémon ber-Potret ini?
 
 RESOURCE ID: pokemon_ibfc_desc_0778
-TEXT: Once per battle, the shroud that covers the Pokémon can protect it from a Charged Attack, after which Mimikyu’s Defense will be lowered until the end of battle.
+TEXT: Sekali dalam satu pertarungan, kain yang menutupi Pokémon bisa melindunginya dari Jurus Super, setelah itu Pertahanan Mimikyu akan diturunkan hingga akhir pertarungan.
+
+RESOURCE ID: pokemon_ibfc_desc_header_0778
+TEXT: BENTUK KHUSUS PERTARUNGAN: WUJUD KETAHUAN
 
 RESOURCE ID: pokemon_ibfc_desc_header_form_info
 TEXT: BENTUK KHUSUS PERTARUNGAN: {0}
+
+RESOURCE ID: pokemon_ibfc_name_0778
+TEXT: Wujud Ketahuan
 
 RESOURCE ID: pokestop_field_book
 TEXT: Buku Lapangan
@@ -2878,13 +2922,13 @@ RESOURCE ID: tr_oricorio_mastery_paid_feb2026_header_9
 TEXT: Penelitian Berwaktu Premium Master Menangkap: Oricorio (10/10)
 
 RESOURCE ID: tr_ppk_raid_lc_makegood_articuno_header_0
-TEXT: PokéPark KANTO Raid: Articuno
+TEXT: Raid PokéPark KANTO: Articuno
 
 RESOURCE ID: tr_ppk_raid_lc_makegood_moltres_header_0
-TEXT: PokéPark KANTO Raid: Moltres
+TEXT: Raid PokéPark KANTO: Moltres
 
 RESOURCE ID: tr_ppk_raid_lc_makegood_zapdos_header_0
-TEXT: PokéPark KANTO Raid: Zapdos
+TEXT: Raid PokéPark KANTO: Zapdos
 
 RESOURCE ID: tutorial_need_mega_body
 TEXT: Pokémon Evolusi Mega sangat penting dalam Raid Mega Super
@@ -2957,6 +3001,9 @@ TEXT: Hingga 7 Pertukaran Spesial per hari
 
 RESOURCE ID: up_to_8_special_trades_per_day
 TEXT: Hingga 8 Pertukaran Spesial per hari
+
+RESOURCE ID: upmgmt_summary_success_points
+TEXT: Total {0} titik lokasi ditambahkan ke PokéStop atau Gym
 
 RESOURCE ID: use_raid_ticket_confirmation_buy_currency
 TEXT: Dapatkan {0}
