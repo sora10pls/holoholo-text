@@ -294,6 +294,13 @@ TEXT: Willst du alle Belohnungen abholen?
 RESOURCE ID: claim_all_rewards_confirmation
 TEXT: Willst du alle Belohnungen abholen?
 
+RESOURCE ID: combat_move_entering_busted_form
+TEXT: Mimigmas Verkleidung wurde entlarvt!
+
+RESOURCE ID: combat_move_transformed_blocked
+TEXT: VERWANDLUNG!
+BLOCKIERT!
+
 RESOURCE ID: combat_title_season_22
 TEXT: GO-Kampfliga: Erinnerungen in Bewegung
 
@@ -327,7 +334,10 @@ TEXT: Doppeldauer-Sonntag
 RESOURCE ID: double_time_sunday_lure_one_hour
 TEXT: 1-stündige Wirkungszeit für Lockmodule (außer Gold-Lockmodule)
 
-RESOURCE ID: em_holi_2026_collection_challenge
+RESOURCE ID: em_holi_2026_collection_challenge_1
+TEXT: Farbfestival 2026: Sammler-Herausforderung
+
+RESOURCE ID: em_holi_2026_collection_challenge_2
 TEXT: Farbfestival 2026: Sammler-Herausforderung
 
 RESOURCE ID: em_holi_2026_event_title
@@ -1062,7 +1072,7 @@ RESOURCE ID: lunar_new_year_feb26_collection
 TEXT: Mondneujahr 2026: Sammler-Herausforderung
 
 RESOURCE ID: make_good_akari_pikachu_desc
-TEXT: GO Tour Encounter: Pikachu
+TEXT: GO Tour-Begegnung: Pikachu
 
 RESOURCE ID: masterwork_shiny_diancie_title
 TEXT: Meisterwerk-Forschung: Funkeln und Schillern
@@ -1105,6 +1115,12 @@ TEXT: Dyna-Kampftag mit Gigadynamax-Mauzi: Ticket-Boni
 
 RESOURCE ID: max_monday
 TEXT: Dyna-Montag
+
+RESOURCE ID: meetup_check_in_research_title_friendship_fridays
+TEXT: Meetup Check-In Timed Research: Friendship Fridays
+
+RESOURCE ID: meetup_check_in_research_title_super_mega_raids
+TEXT: Meetup Check-In Timed Research: Super Mega Raids
 
 RESOURCE ID: mega2026_ditto_cant_break_shields
 TEXT: Ditto kann keine Schilde zerschlagen, während es eine andere Gestalt angenommen hat.
@@ -1307,10 +1323,10 @@ RESOURCE ID: message_gallery_permission_required
 TEXT: Öffne deine Handy-Einstellungen und gib Pokémon GO Zugriff auf Fotos, um Fotos herunterzuladen.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-03-03T05:36:46.337931+00:00 for de-DE
-at SHA 2b7dd7796b0
-Pipeline 3567551, job 52250566
-Patch from: 0.401.0-SHA-1d3c71a6-RC1, 0.399.1-SHA-8ecc6639-RC1, 0.403.0-SHA-47e90574-RC1
+TEXT: Built at 2026-03-04T01:24:57.990395+00:00 for de-DE
+at SHA 994dd7c7ba8
+Pipeline 3569369, job 52345862
+Patch from: 0.401.0-SHA-0fb0c533-RC3, 0.399.1-SHA-853bae10-RC2, 0.403.0-SHA-47e90574-RC1
 
 RESOURCE ID: more_power_spots_active
 TEXT: Zusätzliche aktive Kraftquellen
@@ -1336,11 +1352,20 @@ TEXT: https://www.google.com/maps/d/viewer?mid=19eE0n8bRolfsO4ftHpDa4ho_lGOGFME
 RESOURCE ID: pokelid_map_url_yamagata
 TEXT: https://www.google.com/maps/d/viewer?mid=1IL9LvVsDHPNVwEDb8V7AwlbGD5ZMALQ
 
+RESOURCE ID: pokemon_desc_0778_busted
+TEXT: Es wird traurig, wenn seine wahre Gestalt zum Vorschein zu kommen droht. Wer sein Kostüm beschädigt, zieht seine Rachsucht auf sich.
+
 RESOURCE ID: pokemon_ibfc_desc_0778
-TEXT: Once per battle, the shroud that covers the Pokémon can protect it from a Charged Attack, after which Mimikyu’s Defense will be lowered until the end of battle.
+TEXT: Einmal pro Kampf kann die Hülle, die das Pokémon umgibt, es vor einer Lade-Attacke beschützen. Danach wird Mimigmas Verteidigung bis zum Kampfende gesenkt.
+
+RESOURCE ID: pokemon_ibfc_desc_header_0778
+TEXT: NUR KAMPFFORM: ENTLARVTE FORM
 
 RESOURCE ID: pokemon_ibfc_desc_header_form_info
 TEXT: Nur Kampfform: {0}
+
+RESOURCE ID: pokemon_ibfc_name_0778
+TEXT: Entlarvte Form
 
 RESOURCE ID: pokestop_field_book_message_with_times
 TEXT: Finde Pokémon für dein Feldbuch bei diesem PokéStop. Diese Pokémon haben Portraits, die reflektieren, wo sie gefangen wurden.
@@ -1599,6 +1624,9 @@ TEXT: Hopplo Hopp (2/3)
 
 RESOURCE ID: quest_title_scorbunny_2
 TEXT: Hopplo Hopp (3/3)
+
+RESOURCE ID: quest_win_super_mega_raid_plural
+TEXT: Win {0} Super Mega Raids
 
 RESOURCE ID: quests_log_complete_field_book_page
 TEXT: Vervollständige Feldbuchseite {0}
@@ -2187,13 +2215,13 @@ RESOURCE ID: tr_oricorio_mastery_paid_feb2026_header_9
 TEXT: Befristete Premium-Forschung: Fangkunst – Choreogel (10/10)
 
 RESOURCE ID: tr_ppk_raid_lc_makegood_articuno_header_0
-TEXT: PokéPark KANTO Raid: Articuno
+TEXT: PokéPark KANTO-Raid: Arktos
 
 RESOURCE ID: tr_ppk_raid_lc_makegood_moltres_header_0
-TEXT: PokéPark KANTO Raid: Moltres
+TEXT: PokéPark KANTO-Raid: Lavados
 
 RESOURCE ID: tr_ppk_raid_lc_makegood_zapdos_header_0
-TEXT: PokéPark KANTO Raid: Zapdos
+TEXT: PokéPark KANTO-Raid: Zapdos
 
 RESOURCE ID: tutorial_need_mega_body
 TEXT: Mega-Entwicklungs-Pokémon sind essenziell in Super-Mega-Raids
