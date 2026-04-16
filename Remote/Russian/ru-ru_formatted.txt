@@ -71,7 +71,7 @@ RESOURCE ID: bonus_3x_candy
 TEXT: 3× Конфет за Поимку
 
 RESOURCE ID: bonus_5000_xp_raid
-TEXT: +5000 XP for successful completion of a raid
+TEXT: 5,000 XP for successful completion of a raid
 
 RESOURCE ID: bonus_cd_move_lechonk
 TEXT: Эволюционируй Лечонка, чтобы получить Ойнколона, который знает Быструю Атаку Плевок Грязью!
@@ -90,6 +90,12 @@ TEXT: 2× время действия Удачливого Яйца
 
 RESOURCE ID: bonus_choice_2x_lucky_egg_desc
 TEXT: Выбери этот бонус, чтобы получить увеличенное время действия Удачливого Яйца до окончания действия билета
+
+RESOURCE ID: bonus_choice_2x_star_piece
+TEXT: 2× время действия Осколка Звезды
+
+RESOURCE ID: bonus_choice_2x_star_piece_desc
+TEXT: Выбери этот бонус, чтобы получить увеличенное время действия Осколка Звезды до окончания действия билета
 
 RESOURCE ID: bonus_event_mega_stamp_rally_rewards
 TEXT: Во время этого Марафона Печатей GO на MEGA FESTA 2026: Сеул, повстречай разных Покемонов в праздничных колпаках в качестве награды
@@ -1307,7 +1313,7 @@ RESOURCE ID: combat_challenge_error_993_2
 TEXT: Друг недоступен для битвы.
 
 RESOURCE ID: combat_pvpn_preview_league
-TEXT: Preview Cup (Experimental)
+TEXT: Пробный Кубок (Экспериментальный)
 
 RESOURCE ID: community_day_lechonk_event_name
 TEXT: День Сообщества: Лечонк
@@ -1473,10 +1479,10 @@ RESOURCE ID: event_ticket_date_time_range_months
 TEXT: {startDate} – {endDate}
 
 RESOURCE ID: evergreen_week_tr_1_0
-TEXT: Great to see you, %PLAYERNAME%! We've got all sorts of Pokémon to catch and plenty of research that needs doing ahead of us. I can't wait to get started!
+TEXT: Great to see you, %PLAYERNAME%! We’ve got all sorts of Pokémon to catch and plenty of research that needs doing. I can't wait to get started!
 
 RESOURCE ID: evergreen_week_tr_1_1
-TEXT: Which of these paths are you looking forward to the most?
+TEXT: Which of these paths sounds most interesting to you?
 
 RESOURCE ID: evergreen_week_tr_battle
 TEXT: Choose Your Path Timed Research: Battle
@@ -1485,10 +1491,10 @@ RESOURCE ID: evergreen_week_tr_battle_button_text_key
 TEXT: Battle
 
 RESOURCE ID: evergreen_week_tr_battle_description_key_1
-TEXT: Choose this option for an additional 5000 XP from completing raids.
+TEXT: Choose this path to get an additional 5,000 XP for completing raids.
 
 RESOURCE ID: evergreen_week_tr_battle_description_key_2
-TEXT: Choose this option for extra Mysterious Components from Team GO Rocket Grunts.
+TEXT: Choose this option to get extra Mysterious Components from Team GO Rocket Grunts.
 
 RESOURCE ID: evergreen_week_tr_battle_key
 TEXT: Battle
@@ -1500,10 +1506,10 @@ RESOURCE ID: evergreen_week_tr_catch_button_text_key
 TEXT: Catch
 
 RESOURCE ID: evergreen_week_tr_catch_description_key_1
-TEXT: Choose this option for 1.5x XP from Nice, Great, and Excellent Throws.
+TEXT: Choose this path to get 1.5× XP for catching Pokémon with Nice Throws or better.
 
 RESOURCE ID: evergreen_week_tr_catch_description_key_2
-TEXT: Choose this option for additional Candy for catching Pokémon with Nice, Great, and Excellent Throws.
+TEXT: Choose this path to get additional Candy for catching Pokémon with Nice Throws or better.
 
 RESOURCE ID: evergreen_week_tr_catch_key
 TEXT: Catch
@@ -1515,10 +1521,10 @@ RESOURCE ID: evergreen_week_tr_explore_button_text_key
 TEXT: Explore
 
 RESOURCE ID: evergreen_week_tr_explore_description_key_1
-TEXT: Choose this option for 5x XP from spinning Pokestops.
+TEXT: Choose this path to get 5× XP for spinning PokéStops.
 
 RESOURCE ID: evergreen_week_tr_explore_description_key_2
-TEXT: Choose this option for 1/2 Hatch Distance.
+TEXT: Choose this path to get a 1/2 Egg Hatch Distance bonus.
 
 RESOURCE ID: evergreen_week_tr_explore_key
 TEXT: Explore
@@ -1832,6 +1838,12 @@ TEXT: Устройство, которое автоматически броса
 RESOURCE ID: item_soft_sfida_name
 TEXT: Гаджет Исследователя
 
+RESOURCE ID: item_star_piece_name
+TEXT: Осколок Звезды
+
+RESOURCE ID: item_star_piece_name_plural
+TEXT: Осколки Звезды
+
 RESOURCE ID: item_steeled_resolve_milestone_name
 TEXT: Суперракетный Радар
 
@@ -1839,10 +1851,10 @@ RESOURCE ID: kr2026_school_festa_oclock
 TEXT: School Rush
 
 RESOURCE ID: kr2026_school_festa_oclock_desc
-TEXT: During the event period, Starter Pokémon will appear for 5 minutes at 8:00 a.m., 12:00 p.m., and 7:00 p.m. every day!
+TEXT: During the event period, first partner Pokémon will appear for 5 minutes at 8:00 a.m., 12:00 p.m., and 7:00 p.m. every day!
 
 RESOURCE ID: kr2026_school_festa_oclock_live
-TEXT: It’s School Rush – Starter Pokémon will appear at the School Zone!
+TEXT: It’s School Rush—first partner Pokémon will appear at the School Zone!
 
 RESOURCE ID: kr2026_school_festa_title
 TEXT: School Festa
@@ -1923,10 +1935,10 @@ RESOURCE ID: mega_perk_xl_bonus_excellent_temp
 TEXT: Намного больше шансов получить Конфеты XL
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-04-14T21:51:59.162238+00:00 for ru-RU
-at SHA 58e36bb4438
-Pipeline 3630183, job 53359553
-Patch from: 0.407.0-SHA-a7ebc338-RC2, 0.409.0-SHA-b586ed26-RC1, 0.405.1-SHA-47f639eb-RC1
+TEXT: Built at 2026-04-16T00:23:22.923435+00:00 for ru-RU
+at SHA dfb35ad9b6c
+Pipeline 3632955, job 53404238
+Patch from: 0.405.1-SHA-47f639eb-RC1, 0.407.0-SHA-06d8efd1-RC3, 0.409.0-SHA-0f4dd89d-RC1
 
 RESOURCE ID: move_name_0494
 TEXT: Гигатонный Молот
@@ -2294,6 +2306,18 @@ TEXT: Используй Ладан Ежедневных Приключений
 RESOURCE ID: quest_use_max_potions_plural
 TEXT: Используй Эликсиры Макс ×{0}
 
+RESOURCE ID: quest_use_revive_plural
+TEXT: Используй любое Оживление на Покемоне ×{0}
+
+RESOURCE ID: quest_use_revive_singular
+TEXT: Используй любое Оживление на Покемоне
+
+RESOURCE ID: quest_use_star_piece_plural
+TEXT: Используй Осколок Звезды ×{0}
+
+RESOURCE ID: quest_use_star_piece_singular
+TEXT: Используй Осколок Звезды
+
 RESOURCE ID: quest_win_super_mega_raid_plural
 TEXT: Победи в Супер-Мегарейдах ×{0}
 
@@ -2440,6 +2464,9 @@ TEXT: Билеты
 RESOURCE ID: shop_quick_exchange_incense_ordinary
 TEXT: Обменять Покемонеты на Ладан?
 
+RESOURCE ID: shop_quick_exchange_star_piece
+TEXT: Обменять Покемонеты на Осколок Звезды?
+
 RESOURCE ID: showing_all_ranks
 TEXT: Показаны Все Ранги
 
@@ -2585,6 +2612,9 @@ TEXT: Гаджет Исследователя выключен
 RESOURCE ID: soft_sfida_map_btn_on
 TEXT: Гаджет Исследователя включен.
 
+RESOURCE ID: soft_sfida_map_btn_out_of_pokeball
+TEXT: Нет Поке-Боллов.
+
 RESOURCE ID: soft_sfida_map_btn_out_of_pokeballs
 TEXT: Нет Поке-Боллов.
 
@@ -2601,6 +2631,9 @@ RESOURCE ID: soft_sfida_recap_description_singular
 TEXT: – пойманы с твоим Гаджетом Исследователя.
 
 RESOURCE ID: soft_sfida_recap_header2
+TEXT: {0} Pokémon
+
+RESOURCE ID: soft_sfida_recap_header2_plural
 TEXT: {0} Pokémon
 
 RESOURCE ID: soft_sfida_settings_dialog_desc
@@ -2699,6 +2732,9 @@ TEXT: Выбери этот вариант, чтобы получить встр
 RESOURCE ID: stamp_poi_details_unvisited
 TEXT: Ещё не поставлена
 
+RESOURCE ID: star_piece_duration_double
+TEXT: 2× действие Осколка Звезды
+
 RESOURCE ID: steeled_resolve_taken_over_event_name
 TEXT: Стальная Решимость: Захват
 
@@ -2769,6 +2805,15 @@ TEXT: Чтобы узнать больше, посети <a href="https://pokemo
 
 RESOURCE ID: tips_loading_screen_friendship_lucky_egg
 TEXT: Используй Удачливое Яйцо, чтобы удвоить Очки Опыта (XP), которые ты зарабатываешь за повышение уровня Дружбы с другими Тренерами.
+
+RESOURCE ID: tips_potion_revive_tutorial_intro_0
+TEXT: Похоже, твой Покемон потерял боевую способность. Вот несколько Эликсиров и Оживлений, которые можно использовать для восстановления ОЖ твоего Покемона.
+
+RESOURCE ID: tips_potion_revive_tutorial_outro_0
+TEXT: Собирай больше Эликсиров и Оживлений, побеждая в Рейдах и прокручивая Фотодиски Покестопов и Гимов!
+
+RESOURCE ID: tips_revive_tutorial_select_item_toast
+TEXT: Используй Оживления, чтобы оживить Покемона, потерявшего боевую способность.
 
 RESOURCE ID: title_euro_egg_2026_title
 TEXT: Яичное Приключение
