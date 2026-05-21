@@ -35,7 +35,7 @@ RESOURCE ID: avatar_shirt_gofest2026zeraora
 TEXT: 捷拉奧拉T恤
 
 RESOURCE ID: badge_cr_2026_001_title
-TEXT: 10th Anniversary Celebration
+TEXT: 10週年慶典
 
 RESOURCE ID: badge_gofest_2026_chicago_addon_hatch
 TEXT: 芝加哥，2026年6月4日～7日
@@ -616,6 +616,9 @@ TEXT: Link Charge storage limit increased to 2,000
 RESOURCE ID: bonus_reward_1-5x_catch_quality_xp
 TEXT: 以Nice/Great/Excellent捉到寶可夢時的XP增為1.5倍
 
+RESOURCE ID: bonus_reward_third_hatch_distance
+TEXT: 孵蛋所需的行走距離減為1/3
+
 RESOURCE ID: buy_in_app_label
 TEXT: BUY IN-APP
 
@@ -704,16 +707,26 @@ RESOURCE ID: city_manhole_473
 TEXT: Shika
 
 RESOURCE ID: claim_other_rewards
-TEXT: CLAIM OTHER REWARDS
+TEXT: 領取其他獎勵
 
 RESOURCE ID: claim_stardust
-TEXT: CLAIM STARDUST
+TEXT: 領取星星沙子
 
 RESOURCE ID: community_day_classic_deino_event_name
 TEXT: 經典社群日：單首龍
 
+RESOURCE ID: coordianted_raid_tutorial_body_2
+TEXT: 從手邊的寶可夢中選出6隻來組隊戰鬥。
+
+所有寶可夢在陷入瀕死後，經過一段時間會自動回復。
+
+RESOURCE ID: coordianted_raid_tutorial_body_3
+TEXT: 當頭目寶可夢的HP所剩不多時，可發動齊力攻擊來打倒牠。
+
+當參加對戰的訓練家們一起將裝置舉至頭上，便能累積齊力攻擊的能量。
+
 RESOURCE ID: coordinated_attack_countdown
-TEXT: Keep holding it up!
+TEXT: 繼續舉高！
 
 RESOURCE ID: coordinated_attack_countdown_out
 TEXT: 距離發動攻擊還剩{0}……
@@ -777,14 +790,20 @@ TEXT: LEGO Store Copenhagen Timed Research
 RESOURCE ID: details_link_key_mega_falinks_raid_day
 TEXT: 詳情請至<a href="https://pokemongo.com/news/falinks-super-mega-raid-day-2026">網站</a>確認
 
+RESOURCE ID: device_light_prompt
+TEXT: Device Light (Recommended)
+
+RESOURCE ID: device_light_prompt_desc
+TEXT: Allow use of device's flashlight during raid
+
 RESOURCE ID: enhanced_currency_consolation_desc
-TEXT: You will receive Stardust instead of Link Charges. To claim more Link Charges, use Link Charges to join Mega Raids.
+TEXT: 將領取星星沙子而非連結能。若想獲得連結能，請在超級團體戰中使用連結能。
 
 RESOURCE ID: enhanced_currency_consolation_title
-TEXT: Your Link Holder is Full
+TEXT: 連結儲存器已滿
 
 RESOURCE ID: enhanced_currency_description
-TEXT: A pack of 50 Link Charges, used to join Mega Raids in-person or remotely.
+TEXT: 填充了50連結能的物品。參加超級團體戰時需要消耗連結能。
 
 RESOURCE ID: enhanced_currency_full_desc
 TEXT: 連結儲存器已經滿了。請在超級團體戰使用連結能，騰出空間。
@@ -814,7 +833,7 @@ RESOURCE ID: event_pass_gofest2026_event_duration
 TEXT: July 6 – July 12
 
 RESOURCE ID: event_pass_gofest2026_premium_track_plus_points_title
-TEXT: GO Pass: Road of Legends + 10 Ranks
+TEXT: GO Pass Deluxe: Road of Legends + 10 Ranks
 
 RESOURCE ID: event_pass_gofest2026_premium_track_title
 TEXT: GO Pass Deluxe: Road of Legends
@@ -905,6 +924,12 @@ TEXT: 徒步形態
 RESOURCE ID: form_gimmighoul_paldea
 TEXT: 寶箱形態
 
+RESOURCE ID: fossil_museum_tr_title_01
+TEXT: 寶可夢化石博物館(1/2)
+
+RESOURCE ID: fossil_museum_tr_title_02
+TEXT: 寶可夢化石博物館(2/2)
+
 RESOURCE ID: general1.ticket_cdc_deino26_title
 TEXT: 單首龍經典社群日入場券
 
@@ -984,19 +1009,19 @@ RESOURCE ID: mega_speedup_unlock_description
 TEXT: 可使用超級能量提升超級等級
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-05-19T02:43:05.206402+00:00 for zh-TW
-at SHA dfdbc1d9c60
-Pipeline 3689923, job 54288787
-Patch from: 0.411.1-SHA-2d73f6b4-RC1, 0.413.0-SHA-0bb829a5-RC1
+TEXT: Built at 2026-05-21T20:54:13.590800+00:00 for zh-TW
+at SHA f3f502e7da4
+Pipeline 3696270, job 54396110
+Patch from: 0.411.2-SHA-dd662e9f-RC1, 0.413.0-SHA-3cbed8dc-RC3
 
 RESOURCE ID: move_name_0497
 TEXT: 等離子閃電拳
 
 RESOURCE ID: need_more_temp_evo_resource_error_toast
-TEXT: Need more {0}.
+TEXT: 需要更多的{0}
 
 RESOURCE ID: not_enough_temp_evo_resource_error_toast
-TEXT: Not enough {0}.
+TEXT: 沒有足夠的{0}
 
 RESOURCE ID: only_mega_pokemon_can_break_shields
 TEXT: 僅有超級進化寶可夢能擊破頭目寶可夢的防禦網
@@ -1023,13 +1048,13 @@ RESOURCE ID: partnership_target_2026_tr_title
 TEXT: 訓練家集合！獎勵限時調查
 
 RESOURCE ID: pokecoin_comparison_label
-TEXT: <color=#95AAAB><s>{strikeout-quantity}</s></color> <b>{quantity}</b> PokéCoins
+TEXT: <color=#95AAAB><s>{strikeout-quantity}</s></color> <b>{quantity}</b> <nobr>PokéCoins</nobr>
 
 RESOURCE ID: pokecoin_with_quantity
 TEXT: <size=142%><b>{quantity}</b></size> PokéCoins
 
 RESOURCE ID: pokedex_info_battle_special_header
-TEXT: MEGA EVOLUTION ATTACK
+TEXT: 超級進化招式
 
 RESOURCE ID: pokemon_desc_0670_3347
 TEXT: 抱著在太古時代滅絕的植物，是稀有的花葉蒂。據說牠蘊藏著強大的力量。
@@ -1062,16 +1087,16 @@ RESOURCE ID: pokemon_desc_tmpevo_0998_0001
 TEXT: 背鰭的劍因超級進化而變得更巨大。會從上腹部的劍柄射出光束招式。
 
 RESOURCE ID: pokemon_info_caught_raid_nnc
-TEXT: CAUGHT AT A UNITY RAID
+TEXT: 在齊力團體戰中捉到的
 
 RESOURCE ID: pokemon_info_caught_raid_nnc_with_lobby
-TEXT: CAUGHT AT A UNITY RAID WITH {0} TRAINERS
+TEXT: 在齊力團體戰中和{0}位訓練家捉到的
 
 RESOURCE ID: pokemon_info_caught_raid_rnc
-TEXT: REMOTELY CAUGHT AT A UNITY RAID
+TEXT: 在遠距齊力團體戰中捉到的
 
 RESOURCE ID: pokemon_info_caught_raid_rnc_with_lobby
-TEXT: REMOTELY CAUGHT AT A UNITY RAID WITH {0} TRAINERS
+TEXT: 在遠距齊力團體戰中和{0}位訓練家捉到的
 
 RESOURCE ID: pokemon_info_mega_evolve_need_resources_x_modifier
 TEXT: 
@@ -1122,13 +1147,16 @@ RESOURCE ID: primal_speedup_unlock_description
 TEXT: 可使用原始能量提升原始等級
 
 RESOURCE ID: quest_buddy_affection_zeraora_plural
-TEXT: Earn {0} hearts with Zeraora as your buddy
+TEXT: 將捷拉奧拉設成夥伴，並和牠獲得{0}顆心心
 
 RESOURCE ID: quest_charged_attack_singular
 TEXT: Use a Charged Attack
 
 RESOURCE ID: quest_defeat_fighting_type_raid_singular
 TEXT: 戰勝格鬥屬性的頭目寶可夢
+
+RESOURCE ID: quest_defeat_mega_mewtwo
+TEXT: Defeat Mega Mewtwo
 
 RESOURCE ID: quest_deino_catch_b
 TEXT: 捕捉{0}隻單首龍
@@ -1137,7 +1165,7 @@ RESOURCE ID: quest_mega_evolve_mewtwo
 TEXT: 讓超夢超級進化
 
 RESOURCE ID: quest_walk_buddy_zeraora_singular
-TEXT: Earn a Candy exploring with Zeraora as your buddy
+TEXT: 將捷拉奧拉設成夥伴，並和牠一起探索，取得1顆糖果
 
 RESOURCE ID: raid_day_mega_falinks_event_name
 TEXT: 團體戰日：超級列陣兵
@@ -1159,6 +1187,51 @@ TEXT: Encounter Pikachu with an exclusive LEGO Special Background as you explore
 
 RESOURCE ID: rally_irl_copenhagen_lego_2026_title
 TEXT: GO Fest 2026: Copenhagen – LEGO Stamp Rally
+
+RESOURCE ID: rally_tokyo_koto_2026_desc
+TEXT: 江東區限定的「GO集章趣」。
+
+RESOURCE ID: rally_tokyo_koto_2026_desc_detail
+TEXT: 拜訪設置在江東區景點的寶可補給站，並蓋上那裡的圖章吧！
+
+RESOURCE ID: rally_tokyo_koto_2026_location
+TEXT: 東京都江東區
+
+RESOURCE ID: rally_tokyo_koto_2026_rewards_desc
+TEXT: 能遇見帶著江東區紀念背卡的水邊相關寶可夢和傑尼龜！
+
+RESOURCE ID: rally_tokyo_koto_2026_title
+TEXT: 東京：江東區集章趣
+
+RESOURCE ID: rally_tokyo_minato_2026_desc
+TEXT: 港區限定的「GO集章趣」。
+
+RESOURCE ID: rally_tokyo_minato_2026_desc_detail
+TEXT: 拜訪設置在能欣賞港區現代景觀的地點中的寶可補給站，並蓋上那裡的圖章吧！
+
+RESOURCE ID: rally_tokyo_minato_2026_location
+TEXT: 東京都港區
+
+RESOURCE ID: rally_tokyo_minato_2026_rewards_desc
+TEXT: 能遇見帶著港區紀念背卡的水邊相關寶可夢和妙蛙種子！
+
+RESOURCE ID: rally_tokyo_minato_2026_title
+TEXT: 東京：港區集章趣
+
+RESOURCE ID: rally_tokyo_shinagawa_2026_desc
+TEXT: 品川區限定的「GO集章趣」。
+
+RESOURCE ID: rally_tokyo_shinagawa_2026_desc_detail
+TEXT: 拜訪設置在品川區歷史街道的寶可補給站，並蓋上那裡的圖章吧！
+
+RESOURCE ID: rally_tokyo_shinagawa_2026_location
+TEXT: 東京都品川區
+
+RESOURCE ID: rally_tokyo_shinagawa_2026_rewards_desc
+TEXT: 能遇見帶著品川區紀念背卡的水邊相關寶可夢和小火龍！
+
+RESOURCE ID: rally_tokyo_shinagawa_2026_title
+TEXT: 東京：品川區集章趣
 
 RESOURCE ID: season_pass_amer_2026_event_duration
 TEXT: 6月2日～8日
@@ -1401,115 +1474,115 @@ RESOURCE ID: sr_gofest2026_global_zeraora_8_6
 TEXT: Until next time, my friend!
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_1_1
-TEXT: I’m thrilled to see you, %PLAYERNAME%!
+TEXT: 很開心能見到你，%PLAYERNAME%！
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_1_2
-TEXT: Making new friends, seeing new sights, trying new foods... All of this is so exciting!
+TEXT: 這裡的景色不錯，食物又好吃……而且我有預感會有新夥伴加入！
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_1_3
-TEXT: And even more exciting than that—I’ve heard the Mythical Pokémon Zeraora is in the area!
+TEXT: 雖然剛才說的這些都是很棒的經驗，不過更棒的是，有人目擊到了捷拉奧拉。
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_1_4
-TEXT: Maybe it could sense this gathering of strong Trainers like you and came to investigate.
+TEXT: 或許是訓練家們聚在一起，吸引牠現身了吧。
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_1_5
-TEXT: Well, we’d better get out there and show it what we’re made of!
+TEXT: 事不宜遲，開始調查吧！
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_2_1
-TEXT: *huff huff* Wait! Let me catch my breath... Phew! You sure took what I said about getting out there to heart, didn’t you?
+TEXT: 等、等等！我有點喘不過氣……呼～也不用急成這樣……
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_2_2
-TEXT: One thing’s for sure—if Zeraora is watching, it’ll be plenty impressed by your skills!
+TEXT: 要是捷拉奧拉正在看著，可是會嚇一跳的！
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_2_3
-TEXT: And on that note, I actually have a hunch it’s closer than we think. I’ve spied a few flashes of light off in the distance.
+TEXT: 我感覺牠比想像中來得近，我們邊走邊仔細觀察四周吧。
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_2_4
-TEXT: And wherever Zeraora runs, you get flashes of lightning and the echo of thunder. I guess we’re not the only ones getting charged up!
+TEXT: 據說當捷拉奧拉奔馳而過時，周圍將充斥著電閃雷鳴。所以也要留意光和聲音。
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_3_1
-TEXT: Here’s a question! Do you know how Zeraora fights? It’s a real shock!
+TEXT: 你知道捷拉奧拉是怎麼戰鬥的嗎？雖然聽了會令人有點震驚。
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_3_2
-TEXT: You see, it electrifies its claws and uses them to tear its opponents apart.
+TEXT: 牠會讓雙手雙腳的爪子帶電，然後將對手撕裂。
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_3_3
-TEXT: Even if they manage to dodge the attack, they’ll still get zapped by the flying sparks. Watt incredible power! Ahem.
+TEXT: 就算對手躲開牠的攻擊，也會因飛散的電擊而觸電。
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_3_4
-TEXT: In any event, we’d best prepare ourselves.
+TEXT: 我們最好也多加留意。
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_3_5
-TEXT: I’ll try to collect information on its whereabouts while you get out there and power up your knowledge on Electric types.
+TEXT: 趁你調查電屬性寶可夢的時候，我會再稍微收集一些資訊。
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_4_1
-TEXT: Think fast—what are the strengths and weaknesses of Electric-type Pokémon?
+TEXT: 考考你，電屬性寶可夢的招式特徵是什麼？限2秒內回答。
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_4_2
-TEXT: That’s right! They’re super effective against Water- and Flying-type Pokémon and weak against Ground types.
+TEXT: 你答對了！特徵是對水屬性和飛行屬性效果絕佳，不過對地面屬性可就沒什麼效果。
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_4_3
-TEXT: You’re pretty quick on your feet! That’ll come in handy.
+TEXT: 你的反應還是這麼快！
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_4_4
-TEXT: Zeraora runs as fast as lightning strikes. That’s plenty speedy, but I’m sure you’ll be able to catch it.
+TEXT: 我說過當捷拉奧拉奔馳而過時，周圍將充斥著電閃雷鳴，而且牠的奔跑速度與落雷相同。雖然並非毫無可能，但你能追得上牠嗎？
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_4_5
-TEXT: So, up for some storm chasing? Let’s GO!
+TEXT: 現在可不是悠哉的時候，走吧！
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_5_1
-TEXT: Whew! All that exploring really zapped my energy. I could use a break, but you look like you’re bursting with energy!
+TEXT: 呼～～！走了不少路，我的體力已經快用完了。不過你看起來還很有精神呢！
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_5_2
-TEXT: And speaking of energy, did you know that electricity sparks from the pads on Zeraora’s limbs?
+TEXT: 說到體力，捷拉奧拉能儲存電能，還會從手腳的肉球放電，將那股能量釋放出來。
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_5_3
-TEXT: I’m glad I don’t have that power—imagine trying to brush my hair!
+TEXT: 咦？當牠在放電的同時觸碰到物品或自己時，會發生什麼事……
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_5_4
-TEXT: What’s say we make use of that energy of yours and see what you’re made of? Go get ’em!
+TEXT: ……我稍微休息一下，你自己一個人也要繼續搜尋下去！
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_6_1
-TEXT: %PLAYERNAME%, there you are!
+TEXT: %PLAYERNAME%，終於找到你了！
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_6_2
-TEXT: I just ran into Spark and some new friends he made—and guess what? They spotted Zeraora not far from here!
+TEXT: 我剛才遇見了史帕克。照他所說，捷拉奧拉似乎就在附近。
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_6_3
-TEXT: That might explain the unusual charge to the air. I can feel my hair standing on end—and not because of my styling gel, either! Haha!
+TEXT: 或許就是因為這樣，我才會覺得空氣中帶著電。我的頭髮好像都豎起來了……這可不是用髮膠抓出來的喔！哈、哈、哈……
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_6_4
-TEXT: We must be close. Go take a look around!
+TEXT: 仔細搜索一下周圍吧！
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_7_1
-TEXT: Outstanding work, %PLAYERNAME%! You’ve captured lightning in a Poké Ball!
+TEXT: 好厲害啊，%PLAYERNAME%！看起來就像是把雷電收進了精靈球一樣！
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_7_2
-TEXT: Just look at all those sparks. If I could just measure the voltage... *ZAP*
+TEXT: 感覺一碰就會觸電……
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_7_3
-TEXT: Whoa! Talk about energy to spare!
+TEXT: 我被電了一下？！
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_7_4
-TEXT: I’d love to observe Zeraora out on the field. You should spend some time getting to know each other!
+TEXT: 或許有必要讓牠發散過剩的能量。和捷拉奧拉一起探索看看吧！
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_8_1
-TEXT: You know what I’d call that? A total success! Thank you for always helping me with my research.
+TEXT: 如何用一句話形容今天所發生的事？那就是「創舉」！！有你的協助才能完成這項創舉。
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_8_2
-TEXT: And for your efforts, you’ve got a powerful new friend to join you on your journey.
+TEXT: 你順利讓捷拉奧拉成為了你的新夥伴。
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_8_3
-TEXT: You both deserve a round of applause for all your efforts. Maybe even a thunderclap! Haha!
+TEXT: 我想要為你獻上雷鳴般的熱烈掌聲！
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_8_4
-TEXT: Anyway, I can’t wait to see how far you two will go together.
+TEXT: 希望你能和捷拉奧拉一起去追求無限的可能。
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_8_5
-TEXT: Something tells me we’ve only seen the first sparks of Zeraora’s potential. But for now, we celebrate!
+TEXT: 關於捷拉奧拉，還有很多我們不知道的事情。好期待思考研究主題呀。
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_8_6
-TEXT: Until next time, my friend!
+TEXT: 那麼下次再見囉！
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_amer
 TEXT: GO Fest 2026: A Thunderous Discovery in Chicago!
@@ -1816,7 +1889,7 @@ RESOURCE ID: tr_gofest2026_global_mewtwo_y_6
 TEXT: GO Fest 2026: Genetic Mastery Y (6/6)
 
 RESOURCE ID: tr_gofest2026_irl_city_amer_1
-TEXT: GO Fest 2026: Chicago Expert (1/3)
+TEXT: GO Fest 2026：芝加哥專家(1/3)
 
 RESOURCE ID: tr_gofest2026_irl_city_amer_1_1
 TEXT: 嘿，%PLAYERNAME%，仔細聽好了。今天將會是個精彩萬分的日子！
@@ -1834,7 +1907,7 @@ RESOURCE ID: tr_gofest2026_irl_city_amer_1_5
 TEXT: 讓我見識你的實力吧，%PLAYERNAME%！雖然對你來說可能太簡單了！
 
 RESOURCE ID: tr_gofest2026_irl_city_amer_2
-TEXT: GO Fest 2026: Chicago Expert (2/3)
+TEXT: GO Fest 2026：芝加哥專家(2/3)
 
 RESOURCE ID: tr_gofest2026_irl_city_amer_2_1
 TEXT: 好了，%PLAYERNAME%，靜下心來聽我說，接下來才是重頭戲。
@@ -1876,7 +1949,7 @@ RESOURCE ID: tr_gofest2026_irl_city_amer_title
 TEXT: GO專家 ：芝加哥
 
 RESOURCE ID: tr_gofest2026_irl_city_apac_1
-TEXT: GO Fest 2026: Tokyo Expert (1/3)
+TEXT: GO Fest 2026：東京專家(1/3)
 
 RESOURCE ID: tr_gofest2026_irl_city_apac_1_1
 TEXT: %PLAYERNAME%，是你啊。今天要進行的挑戰稍微難了點，不過你應該沒問題的。
@@ -1897,7 +1970,7 @@ RESOURCE ID: tr_gofest2026_irl_city_apac_1_6
 TEXT: 那麼%PLAYERNAME%，等你準備好了就開始吧。我會拭目以待的。
 
 RESOURCE ID: tr_gofest2026_irl_city_apac_2
-TEXT: GO Fest 2026: Tokyo Expert (2/3)
+TEXT: GO Fest 2026：東京專家(2/3)
 
 RESOURCE ID: tr_gofest2026_irl_city_apac_2_1
 TEXT: 你不僅達成了條件，手法也相當巧妙。
@@ -1939,10 +2012,10 @@ RESOURCE ID: tr_gofest2026_irl_city_apac_title
 TEXT: GO專家 ：東京
 
 RESOURCE ID: tr_gofest2026_irl_city_collection_amer
-TEXT: GO Fest 2026: Chicago Collection District
+TEXT: GO Fest 2026：芝加哥收藏地帶
 
 RESOURCE ID: tr_gofest2026_irl_city_collection_amer_1
-TEXT: GO Fest 2026: Chicago Collection District (1/2)
+TEXT: GO Fest 2026：芝加哥收藏地帶(1/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_collection_amer_1_1
 TEXT: 你已完成了收藏地帶！
@@ -1957,13 +2030,15 @@ RESOURCE ID: tr_gofest2026_irl_city_collection_amer_1_4
 TEXT: 你真不愧是經驗老到的訓練家，%PLAYERNAME%！
 
 RESOURCE ID: tr_gofest2026_irl_city_collection_amer_2
-TEXT: GO Fest 2026: Chicago Collection District (2/2)
+TEXT: GO Fest 2026：芝加哥收藏地帶(2/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_collection_apac
-TEXT: GO Fest 2026: Tokyo Collection District
+TEXT: GO Fest 2026：東京
+收藏地帶
 
 RESOURCE ID: tr_gofest2026_irl_city_collection_apac_1
-TEXT: GO Fest 2026: Tokyo Collection District (1/2)
+TEXT: GO Fest 2026：東京
+收藏地帶(1/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_collection_apac_1_1
 TEXT: 你已完成了收藏地帶的挑戰。
@@ -1978,13 +2053,14 @@ RESOURCE ID: tr_gofest2026_irl_city_collection_apac_1_4
 TEXT: %PLAYERNAME%，看來不用我說，你也有好好地在實踐這件事。
 
 RESOURCE ID: tr_gofest2026_irl_city_collection_apac_2
-TEXT: GO Fest 2026: Tokyo Collection District (2/2)
+TEXT: GO Fest 2026：東京
+收藏地帶(2/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_collection_emea
-TEXT: GO Fest 2026: Copenhagen Collection District
+TEXT: GO Fest 2026：哥本哈根收藏地帶
 
 RESOURCE ID: tr_gofest2026_irl_city_collection_emea_1
-TEXT: GO Fest 2026: Copenhagen Collection District (1/2)
+TEXT: GO Fest 2026：哥本哈根收藏地帶(1/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_collection_emea_1_1
 TEXT: 收藏地帶的挑戰已結束！
@@ -1999,10 +2075,10 @@ RESOURCE ID: tr_gofest2026_irl_city_collection_emea_1_4
 TEXT: 看樣子這些特質是你與生俱來的呢，%PLAYERNAME%。
 
 RESOURCE ID: tr_gofest2026_irl_city_collection_emea_2
-TEXT: GO Fest 2026: Copenhagen Collection District (2/2)
+TEXT: GO Fest 2026：哥本哈根收藏地帶(2/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_emea_1
-TEXT: GO Fest 2026: Copenhagen Expert (1/3)
+TEXT: GO Fest 2026：哥本哈根專家(1/3)
 
 RESOURCE ID: tr_gofest2026_irl_city_emea_1_1
 TEXT: 這不是%PLAYERNAME%嗎！也是，像你這樣的訓練家，才能應付今天準備的挑戰。
@@ -2023,7 +2099,7 @@ RESOURCE ID: tr_gofest2026_irl_city_emea_1_6
 TEXT: 讓我看看你的實力，%PLAYERNAME%。那就開始吧！
 
 RESOURCE ID: tr_gofest2026_irl_city_emea_2
-TEXT: GO Fest 2026: Copenhagen Expert (2/3)
+TEXT: GO Fest 2026：哥本哈根專家(2/3)
 
 RESOURCE ID: tr_gofest2026_irl_city_emea_2_1
 TEXT: %PLAYERNAME%，真不愧是你啊。真是熱血沸騰！
@@ -2068,10 +2144,10 @@ RESOURCE ID: tr_gofest2026_irl_city_emea_title
 TEXT: GO專家 ：哥本哈根
 
 RESOURCE ID: tr_gofest2026_irl_city_friendship_amer
-TEXT: GO Fest 2026: Chicago Friendship District
+TEXT: GO Fest 2026：芝加哥友好地帶
 
 RESOURCE ID: tr_gofest2026_irl_city_friendship_amer_1
-TEXT: GO Fest 2026: Chicago Friendship District (1/2)
+TEXT: GO Fest 2026：芝加哥友好地帶(1/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_friendship_amer_1_1
 TEXT: 你已完成了友好地帶！
@@ -2086,13 +2162,15 @@ RESOURCE ID: tr_gofest2026_irl_city_friendship_amer_1_4
 TEXT: 就我今天所看到的，你是位心胸開闊的訓練家呢，%PLAYERNAME%。
 
 RESOURCE ID: tr_gofest2026_irl_city_friendship_amer_2
-TEXT: GO Fest 2026: Chicago Friendship District (2/2)
+TEXT: GO Fest 2026：芝加哥友好地帶(2/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_friendship_apac
-TEXT: GO Fest 2026: Tokyo Friendship District
+TEXT: GO Fest 2026：東京
+友好地帶
 
 RESOURCE ID: tr_gofest2026_irl_city_friendship_apac_1
-TEXT: GO Fest 2026: Tokyo Friendship District (1/2)
+TEXT: GO Fest 2026：東京
+友好地帶(1/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_friendship_apac_1_1
 TEXT: 你已完成了友好地帶的挑戰。
@@ -2107,13 +2185,14 @@ RESOURCE ID: tr_gofest2026_irl_city_friendship_apac_1_4
 TEXT: %PLAYERNAME%，你實際證明了這點。我對夥伴之間的牽絆相當重視，而且遠比你所想的還要深得多。
 
 RESOURCE ID: tr_gofest2026_irl_city_friendship_apac_2
-TEXT: GO Fest 2026: Tokyo Friendship District (2/2)
+TEXT: GO Fest 2026：東京
+友好地帶(2/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_friendship_emea
-TEXT: GO Fest 2026: Copenhagen Friendship District
+TEXT: GO Fest 2026：哥本哈根友好地帶
 
 RESOURCE ID: tr_gofest2026_irl_city_friendship_emea_1
-TEXT: GO Fest 2026: Copenhagen Friendship District (1/2)
+TEXT: GO Fest 2026：哥本哈根友好地帶(1/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_friendship_emea_1_1
 TEXT: 友好地帶的挑戰已結束！
@@ -2125,13 +2204,13 @@ RESOURCE ID: tr_gofest2026_irl_city_friendship_emea_1_3
 TEXT: 內心溫暖的人，不管做什麼都會順順利利的喔，%PLAYERNAME%！
 
 RESOURCE ID: tr_gofest2026_irl_city_friendship_emea_2
-TEXT: GO Fest 2026: Copenhagen Friendship District (2/2)
+TEXT: GO Fest 2026：哥本哈根友好地帶(2/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_full4_amer
-TEXT: GO Fest 2026: Chicago Complete
+TEXT: GO Fest 2026：芝加哥完成
 
 RESOURCE ID: tr_gofest2026_irl_city_full4_amer_1
-TEXT: GO Fest 2026: Chicago Complete (1/2)
+TEXT: GO Fest 2026：芝加哥完成(1/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_full4_amer_1_1
 TEXT: %PLAYERNAME%！你已經完成了所有挑戰！？真是厲害！
@@ -2149,7 +2228,7 @@ RESOURCE ID: tr_gofest2026_irl_city_full4_amer_1_5
 TEXT: 跟隨你的直覺去吧，%PLAYERNAME%。找出希爾拉並阻止他們。交給你了！
 
 RESOURCE ID: tr_gofest2026_irl_city_full4_amer_2
-TEXT: GO Fest 2026: Chicago Complete (2/2)
+TEXT: GO Fest 2026：芝加哥完成(2/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_full4_amer_2_1
 TEXT: 哎呀，我真的很感謝你，%PLAYERNAME%。
@@ -2158,10 +2237,10 @@ RESOURCE ID: tr_gofest2026_irl_city_full4_amer_extra_1
 TEXT: 另外，這是我的邀請，要是你的直覺嗅到一絲不對勁……靈犀隊隨時等著你！
 
 RESOURCE ID: tr_gofest2026_irl_city_full4_apac
-TEXT: GO Fest 2026: Tokyo Complete
+TEXT: GO Fest 2026：東京完成
 
 RESOURCE ID: tr_gofest2026_irl_city_full4_apac_1
-TEXT: GO Fest 2026: Tokyo Complete (1/2)
+TEXT: GO Fest 2026：東京完成(1/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_full4_apac_1_1
 TEXT: %PLAYERNAME%，你已經完成所有挑戰。這份成果所代表的意思已經很明白了。
@@ -2176,7 +2255,7 @@ RESOURCE ID: tr_gofest2026_irl_city_full4_apac_1_4
 TEXT: 就請你去替我找出克里夫吧。
 
 RESOURCE ID: tr_gofest2026_irl_city_full4_apac_2
-TEXT: GO Fest 2026: Tokyo Complete (2/2)
+TEXT: GO Fest 2026：東京完成(2/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_full4_apac_2_1
 TEXT: 我由衷感謝你，%PLAYERNAME%。
@@ -2188,10 +2267,10 @@ RESOURCE ID: tr_gofest2026_irl_city_full4_apac_extra_2
 TEXT: ……那我推薦你加入叡智隊。你這個等級的訓練家，有資格加入。
 
 RESOURCE ID: tr_gofest2026_irl_city_full4_emea
-TEXT: GO Fest 2026: Copenhagen Complete
+TEXT: GO Fest 2026：哥本哈根完成
 
 RESOURCE ID: tr_gofest2026_irl_city_full4_emea_1
-TEXT: GO Fest 2026: Copenhagen Complete (1/2)
+TEXT: GO Fest 2026：哥本哈根完成(1/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_full4_emea_1_1
 TEXT: 你已經完成了所有挑戰呀！
@@ -2209,7 +2288,7 @@ RESOURCE ID: tr_gofest2026_irl_city_full4_emea_1_5
 TEXT: 找到亞洛並阻止他吧。拜託了！
 
 RESOURCE ID: tr_gofest2026_irl_city_full4_emea_2
-TEXT: GO Fest 2026: Copenhagen Complete (2/2)
+TEXT: GO Fest 2026：哥本哈根完成(2/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_full4_emea_2_1
 TEXT: 謝謝你，%PLAYERNAME%。真的非常感謝你。
@@ -2221,10 +2300,10 @@ RESOURCE ID: tr_gofest2026_irl_city_full4_emea_extra_2
 TEXT: 要是你想找個能發揮實力的地方……武勇隊隨時都很歡迎你！
 
 RESOURCE ID: tr_gofest2026_irl_city_investigation_amer
-TEXT: GO Fest 2026: Chicago Investigation District
+TEXT: GO Fest 2026：芝加哥實地調查地帶
 
 RESOURCE ID: tr_gofest2026_irl_city_investigation_amer_1
-TEXT: GO Fest 2026: Chicago Investigation District (1/2)
+TEXT: GO Fest 2026：芝加哥實地調查地帶(1/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_investigation_amer_1_1
 TEXT: 你已完成了實地調查地帶！
@@ -2236,13 +2315,13 @@ RESOURCE ID: tr_gofest2026_irl_city_investigation_amer_1_3
 TEXT: 而且還具備好奇心，真是太棒了，%PLAYERNAME%！
 
 RESOURCE ID: tr_gofest2026_irl_city_investigation_amer_2
-TEXT: GO Fest 2026: Chicago Investigation District (2/2)
+TEXT: GO Fest 2026：芝加哥實地調查地帶(2/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_investigation_apac
-TEXT: GO Fest 2026: Tokyo Investigation District
+TEXT: GO Fest 2026：東京實地調查地帶
 
 RESOURCE ID: tr_gofest2026_irl_city_investigation_apac_1
-TEXT: GO Fest 2026: Tokyo Investigation District (1/2)
+TEXT: GO Fest 2026：東京實地調查地帶(1/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_investigation_apac_1_1
 TEXT: 你已完成了實地調查地帶的挑戰。
@@ -2257,13 +2336,13 @@ RESOURCE ID: tr_gofest2026_irl_city_investigation_apac_1_4
 TEXT: %PLAYERNAME%，幹得好。
 
 RESOURCE ID: tr_gofest2026_irl_city_investigation_apac_2
-TEXT: GO Fest 2026: Tokyo Investigation District (2/2)
+TEXT: GO Fest 2026：東京實地調查地帶(2/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_investigation_emea
-TEXT: GO Fest 2026: Copenhagen Investigation District
+TEXT: GO Fest 2026：哥本哈根實地調查地帶
 
 RESOURCE ID: tr_gofest2026_irl_city_investigation_emea_1
-TEXT: GO Fest 2026: Copenhagen Investigation District (1/2)
+TEXT: GO Fest 2026：哥本哈根實地調查地帶(1/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_investigation_emea_1_1
 TEXT: 實地調查地帶的挑戰已結束！
@@ -2275,13 +2354,13 @@ RESOURCE ID: tr_gofest2026_irl_city_investigation_emea_1_3
 TEXT: 看來你作為訓練家，平常活動時就這麼有耐心呢，%PLAYERNAME%！
 
 RESOURCE ID: tr_gofest2026_irl_city_investigation_emea_2
-TEXT: GO Fest 2026: Copenhagen Investigation District (2/2)
+TEXT: GO Fest 2026：哥本哈根實地調查地帶(2/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_scouting_amer
-TEXT: GO Fest 2026: Chicago Scouting District
+TEXT: GO Fest 2026：芝加哥冒險地帶
 
 RESOURCE ID: tr_gofest2026_irl_city_scouting_amer_1
-TEXT: GO Fest 2026: Chicago Scouting District (1/2)
+TEXT: GO Fest 2026：芝加哥冒險地帶(1/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_scouting_amer_1_1
 TEXT: 你已完成了冒險地帶！
@@ -2293,13 +2372,13 @@ RESOURCE ID: tr_gofest2026_irl_city_scouting_amer_1_3
 TEXT: 我能感受到滿滿的正能量喔，%PLAYERNAME%！
 
 RESOURCE ID: tr_gofest2026_irl_city_scouting_amer_2
-TEXT: GO Fest 2026: Chicago Scouting District (2/2)
+TEXT: GO Fest 2026：芝加哥冒險地帶(2/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_scouting_apac
-TEXT: GO Fest 2026: Tokyo Scouting District
+TEXT: GO Fest 2026：東京冒險地帶
 
 RESOURCE ID: tr_gofest2026_irl_city_scouting_apac_1
-TEXT: GO Fest 2026: Tokyo Scouting District (1/2)
+TEXT: GO Fest 2026：東京冒險地帶(1/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_scouting_apac_1_1
 TEXT: 你已完成了冒險地帶的挑戰。
@@ -2314,13 +2393,13 @@ RESOURCE ID: tr_gofest2026_irl_city_scouting_apac_1_4
 TEXT: 除了平時的活動範圍，你在其他地方也對寶可夢研究有所貢獻。所以%PLAYERNAME%，讓我為你獻上喝彩吧。
 
 RESOURCE ID: tr_gofest2026_irl_city_scouting_apac_2
-TEXT: GO Fest 2026: Tokyo Scouting District (2/2)
+TEXT: GO Fest 2026：東京冒險地帶(2/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_scouting_emea
-TEXT: GO Fest 2026: Copenhagen Scouting District
+TEXT: GO Fest 2026：哥本哈根冒險地帶
 
 RESOURCE ID: tr_gofest2026_irl_city_scouting_emea_1
-TEXT: GO Fest 2026: Copenhagen Scouting District (1/2)
+TEXT: GO Fest 2026：哥本哈根冒險地帶(1/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_scouting_emea_1_1
 TEXT: 冒險地帶的挑戰已結束！
@@ -2335,118 +2414,118 @@ RESOURCE ID: tr_gofest2026_irl_city_scouting_emea_1_4
 TEXT: 謝謝你，保持這個狀態繼續前進吧！
 
 RESOURCE ID: tr_gofest2026_irl_city_scouting_emea_2
-TEXT: GO Fest 2026: Copenhagen Scouting District (2/2)
+TEXT: GO Fest 2026：哥本哈根冒險地帶(2/2)
 
 RESOURCE ID: tr_gofest2026_irl_city_x_amer
-TEXT: GO Fest 2026: Chicago Expert X
+TEXT: GO Fest 2026：芝加哥專家X
 
 RESOURCE ID: tr_gofest2026_irl_city_x_amer_3
-TEXT: GO Fest 2026: Chicago Expert X (3/3)
+TEXT: GO Fest 2026：芝加哥專家X(3/3)
 
 RESOURCE ID: tr_gofest2026_irl_city_x_apac
-TEXT: GO Fest 2026: Tokyo Expert X
+TEXT: GO Fest 2026：東京專家X
 
 RESOURCE ID: tr_gofest2026_irl_city_x_apac_3
-TEXT: GO Fest 2026: Tokyo Expert X (3/3)
+TEXT: GO Fest 2026：東京專家X(3/3)
 
 RESOURCE ID: tr_gofest2026_irl_city_x_emea
-TEXT: GO Fest 2026: Copenhagen Expert X
+TEXT: GO Fest 2026：哥本哈根專家X
 
 RESOURCE ID: tr_gofest2026_irl_city_x_emea_3
-TEXT: GO Fest 2026: Copenhagen Expert X (3/3)
+TEXT: GO Fest 2026：哥本哈根專家X(3/3)
 
 RESOURCE ID: tr_gofest2026_irl_city_y_amer
-TEXT: GO Fest 2026: Chicago Expert Y
+TEXT: GO Fest 2026：芝加哥專家Y
 
 RESOURCE ID: tr_gofest2026_irl_city_y_amer_3
-TEXT: GO Fest 2026: Chicago Expert Y (3/3)
+TEXT: GO Fest 2026：芝加哥專家Y(3/3)
 
 RESOURCE ID: tr_gofest2026_irl_city_y_apac
-TEXT: GO Fest 2026: Tokyo Expert Y
+TEXT: GO Fest 2026：東京專家Y
 
 RESOURCE ID: tr_gofest2026_irl_city_y_apac_3
-TEXT: GO Fest 2026: Tokyo Expert Y (3/3)
+TEXT: GO Fest 2026：東京專家Y(3/3)
 
 RESOURCE ID: tr_gofest2026_irl_city_y_emea
-TEXT: GO Fest 2026: Copenhagen Expert Y
+TEXT: GO Fest 2026：哥本哈根專家Y
 
 RESOURCE ID: tr_gofest2026_irl_city_y_emea_3
-TEXT: GO Fest 2026: Copenhagen Expert Y (3/3)
+TEXT: GO Fest 2026：哥本哈根專家Y(3/3)
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_1_1
-TEXT: %PLAYERNAME%, you made it! This place is amazing, right?! Every single zone is totally different, so you’ve gotta explore ALL of ’em!
+TEXT: %PLAYERNAME%，你來啦！這個地方很棒吧？每一區都截然不同。一定要全部探索過，徹底調查才是！
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_1_2
-TEXT: And hey, trust your instincts. They’ll let you know when something good’s nearby.
+TEXT: 如果你察覺到附近有些什麼，就相信自己的直覺去行動吧。
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_1_3
-TEXT: Oh, but heads up! Team GO Rocket is here, and they are definitely plotting something.
+TEXT: 啊，不過我先提醒你，GO火箭隊也在這邊出沒喔。他們肯定在策劃些什麼。
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_1_4
-TEXT: No idea what it is yet, but y’know, just watch yourself.
+TEXT: 不曉得他們究竟在覬覦什麼。去吧，當心點。
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_1_5
-TEXT: Don’t let ’em slow you down, though. Just have fun, stay alert, and keep exploring!
+TEXT: 不過太過小心也不是個辦法。像平常一樣留意周遭，但也要盡情享受其中喔！
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_2_1
-TEXT: Hey, %PLAYERNAME%! Buckle up—you are NOT gonna believe this.
+TEXT: 嘿，%PLAYERNAME%！別嚇到了，我有個不得了的消息。
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_2_2
-TEXT: I’ve been digging into what Team GO Rocket’s been so interested in...and it’s Mewtwo!
+TEXT: 調查過後……我發現GO火箭隊的目標竟然是超夢！
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_2_3
-TEXT: Wild, right?! Out of all the Pokémon they could mess with! My intuition doesn’t miss—I knew something big was coming, and here it is!
+TEXT: 很不妙對吧？比起其他寶可夢，超夢是最不能拱手讓人的寶可夢！我之前的不祥預感看來要成真了。
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_2_4
-TEXT: A Pokémon that legendary deserves to be protected, not messed with.
+TEXT: 超夢是必須優先保護的傳說的寶可夢。
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_2_5
-TEXT: We need a plan and we need to act, like, yesterday! You in?
+TEXT: 我們一起想辦法解決吧！要分秒必爭，知道嗎？
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_3_1
-TEXT: Okay, %PLAYERNAME%, no time to waste. Team GO Rocket is making their move, and it’s nothing good.
+TEXT: 嘿，%PLAYERNAME%，可不能再繼續磨蹭。GO火箭隊的動向越來越清楚了。
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_3_2
-TEXT: Not gonna lie, their nonsense has me totally charged up. I am ready to GO!
+TEXT: 這種荒謬的事情最氣人了，我現在就要立刻突擊！
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_3_3
-TEXT: I was thinking about confronting them on my own, but then I remembered we’re way stronger together!
+TEXT: 我雖然想這麼說，但我們一起戰鬥會更強！
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_3_4
-TEXT: So here’s my thinking: You trust your gut, I trust mine, and together, there’s no way we can lose.
+TEXT: 我的想法是……你相信你的直覺，我相信我的直覺，我們並肩作戰就不可能會輸。
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_3_5
-TEXT: Whaddaya say? Let’s save Mewtwo!
+TEXT: 準備好了嗎？一起拯救超夢吧！
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_4_1
-TEXT: %PLAYERNAME%! You did it! Mewtwo is safe—and I KNOW Team GO Rocket didn’t see THAT coming!
+TEXT: %PLAYERNAME%！幹得好！順利守護住超夢了……還有啊，那些傢伙驚訝的表情，看了真痛快！
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_4_2
-TEXT: But here’s the thing now: Mewtwo wants to battle you, and I think a Mega Evolution is on the horizon.
+TEXT: 不過現在必須思考的是，超夢似乎即將超級進化的這件事。
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_4_3
-TEXT: No flying solo on this one. A Pokémon that powerful needs all hands on deck!
+TEXT: 這件事一個人可應付不來。需要所有人同心協力去對戰！
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_4_4
-TEXT: Round up every Trainer you can find. The more the merrier, and trust me, you aren’t gonna regret the backup.
+TEXT: 把能召集到的訓練家都找過來吧，越多越好。正所謂團結力量大！
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_4_5
-TEXT: This is a once-in-a-lifetime thing, %PLAYERNAME%. Don’t miss it! GO! GO! GO!
+TEXT: 看來這會是畢生難得的體驗，%PLAYERNAME%。千萬別錯過，GO！GO！GO！
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_5_1
-TEXT: %PLAYERNAME%! You actually defeated a Mega-Evolved Mewtwo!
+TEXT: %PLAYERNAME%！你順利打倒了超級進化後的超夢呀！
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_5_2
-TEXT: Once again, my gut was totally right. I knew you could pull it off!
+TEXT: 果然拜託你準沒錯！
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_5_3
-TEXT: Honestly, I need a sec. My heart’s still RACING.
+TEXT: 等等我，我興奮的心情還沒冷靜下來呢。
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_5_4
-TEXT: You’re incredible, %PLAYERNAME%. Seriously, I mean it.
+TEXT: 你真的很厲害呢，%PLAYERNAME%。我說真的，你好強。
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_5_5
-TEXT: Now go celebrate! A win this big deserves an equally huge snack!
+TEXT: 去吃點什麼好吃的東西慶祝吧！
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_act_1
 TEXT: GO Fest 2026: Chicago – Act 1
@@ -2461,73 +2540,73 @@ RESOURCE ID: tr_gofest2026_irl_park_amer_act_4
 TEXT: GO Fest 2026: Chicago – Act 4
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_1_1
-TEXT: %PLAYERNAME%, I see you have arrived. Welcome.
+TEXT: %PLAYERNAME%，看來你順利抵達了呢。
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_1_2
-TEXT: Know that each zone here exhibits distinct properties, and thus offers excellent potential for data collection.
+TEXT: 做調查的目的，是為了收集特色明確的各區域的數據。
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_1_3
-TEXT: However, there is one matter that requires our attention before we can explore.
+TEXT: 不過在開始調查前，有一個必須解決的問題。
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_1_4
-TEXT: Team GO Rocket has been sighted within the grounds, and I’m sure you know that’s unlikely to be a coincidence.
+TEXT: 那就是GO火箭隊。他們的出沒並不是偶然。
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_1_5
-TEXT: Proceed carefully, %PLAYERNAME%. I will continue to monitor the situation closely.
+TEXT: 你要小心行事，%PLAYERNAME%。我也會盡快掌握情況。
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_2_1
-TEXT: %PLAYERNAME%, I’ve completed a preliminary analysis of the situation.
+TEXT: %PLAYERNAME%，我已經理解情況了。
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_2_2
-TEXT: Team GO Rocket’s activities here are oriented toward a single objective: capturing Mewtwo.
+TEXT: GO火箭隊的目的只有一個，他們鎖定了超夢。
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_2_3
-TEXT: In their hands, Pokémon with its capabilities could prove catastrophic.
+TEXT: 要是強大的寶可夢落入那些傢伙的手裡，恐怕會招致毀滅性的後果。
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_2_4
-TEXT: I have been cross-referencing Team GO Rocket’s patterns of behavior to attempt to predict their next move.
+TEXT: 試著從GO火箭隊過去的行動模式，分析出該如何處理吧。
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_2_5
-TEXT: Will you assist me in uncovering their plan, %PLAYERNAME%?
+TEXT: %PLAYERNAME%，你可以協助我掌握他們的計畫嗎？
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_3_1
-TEXT: %PLAYERNAME%. There have been unfavorable developments.
+TEXT: %PLAYERNAME%，事情變得更糟了。
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_3_2
-TEXT: Analysis alone will not be enough to resolve the threat posed by Team GO Rocket’s current activities.
+TEXT: 即使預測GO火箭隊的行動，似乎也無法有效地排除威脅。
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_3_3
-TEXT: To that end, while it may require us to grapple with potential unknowns, I’ve identified what I believe to be the most efficient course of action.
+TEXT: 我試著根據他們過去的行動模式，將潛在的未知數納入考量，並思索處理方式。
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_3_4
-TEXT: I’m not accustomed to relying on factors that fall outside the scope of my analysis—yet the situation demands it.
+TEXT: 雖然偏離分析讓我感到不安，不過現在也沒有其他好方法了。
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_3_5
-TEXT: Together, we can dismantle their operation. I suggest we waste no time.
+TEXT: 我們一起聯手阻止那幫人的計畫吧，動作要快。
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_4_1
-TEXT: %PLAYERNAME%, you stopped Team GO Rocket and saved Mewtwo.
+TEXT: %PLAYERNAME%，你成功地打倒了GO火箭隊，守護住了超夢。
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_4_2
-TEXT: I did not predict it would Mega Evolve, however.
+TEXT: 不過，我沒預料到牠會超級進化。
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_4_3
-TEXT: A lone Trainer is ill-suited to the battle to come. There are simply too many significant variables to account for.
+TEXT: 訓練家應該無法獨自與牠抗衡，畢竟要考慮的變動因素太多了。
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_4_4
-TEXT: Seek out others to join you in this challenge. Coordination will be essential for what comes next.
+TEXT: 你必須和周圍的人們一起攜手迎接挑戰。為了接下來的狀況，合作與協調是不可或缺的。
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_4_5
-TEXT: You have proven yourself capable, but this is not a moment for hesitation—you’ll need allies.
+TEXT: 我知道你的能力很好，但現在可不是猶豫的時候，眼下的局勢正需要夥伴。
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_5_1
-TEXT: I see that you return successful, %PLAYERNAME%.
+TEXT: 看來進展得很順利，%PLAYERNAME%。
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_5_2
-TEXT: Defeating a Mega-Evolved Mewtwo is no trivial achievement. I intend to document all that I observed here today, as it will prove invaluable to our research.
+TEXT: 你打倒了超級進化後的超夢，我們把這個成就完完整整地彙整進報告裡吧。
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_5_3
-TEXT: You’ve done well, %PLAYERNAME%.
+TEXT: 幹得好，%PLAYERNAME%！
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_act_1
 TEXT: GO Fest 2026: Tokyo – Act 1
@@ -2542,79 +2621,79 @@ RESOURCE ID: tr_gofest2026_irl_park_apac_act_4
 TEXT: GO Fest 2026: Tokyo – Act 4
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_1_1
-TEXT: Hey hey, %PLAYERNAME%! Now we’re really getting started!
+TEXT: 嗨～%PLAYERNAME%！趕緊開始吧！
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_1_2
-TEXT: Every zone out here’s different, so be sure to explore. No hanging around in one spot!
+TEXT: 這裡的每一個區域都截然不同，全部都要探索喔。記得不要在同一個地方待太久。
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_1_3
-TEXT: One more thing. Team GO Rocket decided to crash the party. Surprise, surprise.
+TEXT: 還有，GO火箭隊不請自來了。那些傢伙真是學不乖。
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_1_4
-TEXT: I don’t know what they’re planning yet, but whatever it is, we’re not letting it slide.
+TEXT: 雖然還不知道他們在盤算什麼，但我不會讓他們得逞的。
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_1_5
-TEXT: Get moving and see what each zone has to offer. You never know what you might discover out there—just watch out for those troublemakers.
+TEXT: 開始探索吧。那些傢伙們有可能會來搗亂，時時要留意喔。
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_2_1
-TEXT: Okay %PLAYERNAME%, things just got complicated.
+TEXT: 是這樣的，%PLAYERNAME%，發生了一些問題。
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_2_2
-TEXT: We’ve been tracking Team GO Rocket’s moves, and we finally figured out what they’re after. It’s Mewtwo.
+TEXT: 我知道GO火箭隊在覬覦什麼了……就是超夢。
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_2_3
-TEXT: I’ll be honest with you, that burns me up. Team GO Rocket thinks they can just grab a Pokémon like Mewtwo?
+TEXT: 真是的，難道GO火箭隊以為他們可以奪走像超夢這樣的寶可夢嗎？
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_2_4
-TEXT: No chance. Ponyta and I are ready to crash the party.
+TEXT: 想得美，我和小火馬會把他們擊潰的。
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_2_5
-TEXT: So tell me, %PLAYERNAME%, are you in? Because I need someone I can count on for this one.
+TEXT: %PLAYERNAME%，你要加入嗎？如果你願意幫忙，我會很高興的。
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_3_1
-TEXT: Alright, %PLAYERNAME%. No more waiting around. It’s time to move.
+TEXT: 好了，%PLAYERNAME%。快沒時間了。
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_3_2
-TEXT: Team GO Rocket is making their play, and you know I don’t do “standing around.”
+TEXT: GO火箭隊已經開始蠢蠢欲動，我們差不多該採取行動了。
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_3_3
-TEXT: Could I charge in solo? Yeah, probably. But probably isn’t good enough this time.
+TEXT: 雖然我單打獨鬥也無妨，但有你在，我應該會更安心。
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_3_4
-TEXT: I’m not too proud to say that this one calls for a team effort.
+TEXT: 這一次我想要速戰速決！
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_3_5
-TEXT: So let’s get moving and take ’em down!
+TEXT: 那我們走吧！
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_3_6
-TEXT: Those Team GO Rocket punks don’t stand a chance if we work together.
+TEXT: 去給GO火箭隊一個教訓。
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_4_1
-TEXT: %PLAYERNAME%! You beat Team GO Rocket and freed Mewtwo! And now it’s going to Mega Evolve before taking you on? Oh, I love this.
+TEXT: %PLAYERNAME%！你擊敗GO火箭隊，拯救了超夢耶！而且在對戰前牠好像要超級進化了，是吧？真是讓人期待。
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_4_2
-TEXT: But listen. We’re talking Mega-Evolved Mewtwo here. This is going to be a heck of a challenge, so you’re going to need backup. Don’t even think about going alone.
+TEXT: 不過啊，超級進化後的超夢，可不是好應付的對手喔。如果不多找些夥伴，是沒辦法跟牠抗衡的。
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_4_3
-TEXT: Rally every Trainer you can find and head into battle together. The more, the better.
+TEXT: 你把能召集到的訓練家都找過來，讓他們參加團體戰吧，人越多越好。
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_4_4
-TEXT: This is the big one. Go give Mewtwo the battle it’s looking for!
+TEXT: 這將會是最大的挑戰。來一場不被超夢壓制的戰鬥吧。
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_5_1
-TEXT: Yes! %PLAYERNAME%, that’s what I’m talking about!
+TEXT: 好耶！%PLAYERNAME%。這就是我想看到的！
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_5_2
-TEXT: You just defeated Mega-Evolved Mewtwo. I knew right from the start that you had it in you.
+TEXT: 你順利打倒了超級進化後的超夢。拜託你真是正確的決定啊。
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_5_3
-TEXT: Watching that battle reminded me why I love being a Pokémon Trainer. The fire, the focus... I live for it.
+TEXT: 剛才看著對戰，我想起自己剛當上寶可夢訓練家的時候。那種投注在對戰的熱情、專注力……當時那是我生命的意義。
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_5_4
-TEXT: What you showed out there is exactly what I mean when I talk about real strength.
+TEXT: 我覺得你展現了真正的強大。
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_5_5
-TEXT: Go rest up—but not for too long. That battle got me all fired up, and now I want a go!
+TEXT: 稍微休息一下吧。不過，馬上就要繼續開始調查喔。剛才的對戰點燃了我的幹勁，我打算今天一鼓作氣地往前衝！
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_act_1
 TEXT: GO Fest 2026: Copenhagen – Act 1
@@ -2639,7 +2718,7 @@ TEXT: 距離回復還剩{0}……
 
 RESOURCE ID: visit_web_store_item_purchase_page_url_key
 TEXT: 
-https://store.pokemongo.com/zh-Hant/purchase/item/{0}?utm_source=PGO&utm_medium=in-game-shop&utm_campaign=pgo_webstore_linkout&utm_content=sku_button
+https://store.pokemongo.com/zh-Hant/purchase/item/{0}?utm_source=PGO&utm_medium=in-game-shop&utm_campaign=pgo_webstore_linkout&utm_content={1}
 
 RESOURCE ID: wayfarer_bonus_title_01
 TEXT: Wayfarer獎勵限時調查(1/2)

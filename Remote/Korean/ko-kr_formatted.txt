@@ -652,6 +652,16 @@ TEXT: CLAIM STARDUST
 RESOURCE ID: community_day_classic_deino_event_name
 TEXT: 커뮤니티 데이(복각): 모노두
 
+RESOURCE ID: coordianted_raid_tutorial_body_2
+TEXT: 지닌 포켓몬에서 6마리로 배틀 파티를 만들어 배틀합니다.
+
+모든 포켓몬이 기절하면 일정 시간 후 자동으로 회복합니다.
+
+RESOURCE ID: coordianted_raid_tutorial_body_3
+TEXT: 보스 포켓몬의 HP가 얼마 안 남은 상태에서 유니티 어택을 사용할 수 있습니다.
+
+배틀에 참가한 트레이너가 한꺼번에 기기를 머리 위로 올리면 유니티 어택 에너지를 모을 수 있습니다.
+
 RESOURCE ID: coordinated_attack_countdown
 TEXT: Keep holding it up!
 
@@ -717,6 +727,12 @@ TEXT: LEGO Store Copenhagen Timed Research
 RESOURCE ID: details_link_key_mega_falinks_raid_day
 TEXT: 자세한 내용은 <a href="https://pokemongo.com/news/falinks-super-mega-raid-day-2026">웹사이트</a>에서 확인해 주세요.
 
+RESOURCE ID: device_light_prompt
+TEXT: Device Light (Recommended)
+
+RESOURCE ID: device_light_prompt_desc
+TEXT: Allow use of device's flashlight during raid
+
 RESOURCE ID: enhanced_currency_consolation_desc
 TEXT: You will receive Stardust instead of Link Charges. To claim more Link Charges, use Link Charges to join Mega Raids.
 
@@ -754,7 +770,7 @@ RESOURCE ID: event_pass_gofest2026_event_duration
 TEXT: July 6 – July 12
 
 RESOURCE ID: event_pass_gofest2026_premium_track_plus_points_title
-TEXT: GO Pass: Road of Legends + 10 Ranks
+TEXT: GO Pass Deluxe: Road of Legends + 10 Ranks
 
 RESOURCE ID: event_pass_gofest2026_premium_track_title
 TEXT: GO Pass Deluxe: Road of Legends
@@ -845,6 +861,12 @@ TEXT: 도보폼
 RESOURCE ID: form_gimmighoul_paldea
 TEXT: 상자폼
 
+RESOURCE ID: fossil_museum_tr_title_01
+TEXT: 포켓몬 화석박물관(1/2)
+
+RESOURCE ID: fossil_museum_tr_title_02
+TEXT: 포켓몬 화석박물관(2/2)
+
 RESOURCE ID: general1.ticket_cdc_deino26_title
 TEXT: 모노두 커뮤니티 데이(복각) 티켓
 
@@ -927,10 +949,10 @@ RESOURCE ID: mega_speedup_unlock_description
 TEXT: 메가 에너지를 사용해서 레벨을 올릴 수 있습니다
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-05-19T02:43:05.206402+00:00 for ko-KR
-at SHA dfdbc1d9c60
-Pipeline 3689923, job 54288787
-Patch from: 0.411.1-SHA-2d73f6b4-RC1, 0.413.0-SHA-0bb829a5-RC1
+TEXT: Built at 2026-05-21T20:54:13.590800+00:00 for ko-KR
+at SHA f3f502e7da4
+Pipeline 3696270, job 54396110
+Patch from: 0.411.2-SHA-dd662e9f-RC1, 0.413.0-SHA-3cbed8dc-RC3
 
 RESOURCE ID: move_name_0497
 TEXT: 플라스마피스트
@@ -966,7 +988,7 @@ RESOURCE ID: partnership_target_2026_tr_title
 TEXT: 트레이너 집합! 보너스 시간제한 리서치 
 
 RESOURCE ID: pokecoin_comparison_label
-TEXT: <color=#95AAAB><s>{strikeout-quantity}</s></color> <b>{quantity}</b> PokéCoins
+TEXT: <color=#95AAAB><s>{strikeout-quantity}</s></color> <b>{quantity}</b> <nobr>PokéCoins</nobr>
 
 RESOURCE ID: pokecoin_with_quantity
 TEXT: <size=142%><b>{quantity}</b></size> PokéCoins
@@ -1073,6 +1095,9 @@ TEXT: Use a Charged Attack
 RESOURCE ID: quest_defeat_fighting_type_raid_singular
 TEXT: 격투타입의 보스 포켓몬에게 이긴다
 
+RESOURCE ID: quest_defeat_mega_mewtwo
+TEXT: Defeat Mega Mewtwo
+
 RESOURCE ID: quest_deino_catch_b
 TEXT: 모노두를 {0}마리 잡는다
 
@@ -1102,6 +1127,51 @@ TEXT: Encounter Pikachu with an exclusive LEGO Special Background as you explore
 
 RESOURCE ID: rally_irl_copenhagen_lego_2026_title
 TEXT: GO Fest 2026: Copenhagen – LEGO Stamp Rally
+
+RESOURCE ID: rally_tokyo_koto_2026_desc
+TEXT: 고토 한정 'GO스탬프랠리'입니다
+
+RESOURCE ID: rally_tokyo_koto_2026_desc_detail
+TEXT: 도쿄 고토 뷰 포인트에 설치된 포켓스톱을 방문하고 스탬프를 찍어보세요!
+
+RESOURCE ID: rally_tokyo_koto_2026_location
+TEXT: 도쿄 고토
+
+RESOURCE ID: rally_tokyo_koto_2026_rewards_desc
+TEXT: 고토 로케이션 배경이 있는 물가와 관련된 포켓몬과 꼬부기를 만날 수 있습니다!
+
+RESOURCE ID: rally_tokyo_koto_2026_title
+TEXT: 도쿄: 고토 스탬프랠리
+
+RESOURCE ID: rally_tokyo_minato_2026_desc
+TEXT: 미나토 한정 'GO스탬프랠리'입니다
+
+RESOURCE ID: rally_tokyo_minato_2026_desc_detail
+TEXT: 도쿄 미나토의 근대적 경관을 즐길 수 있는 장소에 설치된 포켓스톱을 방문하고 스탬프를 찍어보세요!
+
+RESOURCE ID: rally_tokyo_minato_2026_location
+TEXT: 도쿄 미나토
+
+RESOURCE ID: rally_tokyo_minato_2026_rewards_desc
+TEXT: 미나토 로케이션 배경이 있는 물가와 관련된 포켓몬과 이상해씨를 만날 수 있습니다!
+
+RESOURCE ID: rally_tokyo_minato_2026_title
+TEXT: 도쿄: 미나토 스탬프랠리
+
+RESOURCE ID: rally_tokyo_shinagawa_2026_desc
+TEXT: 시나가와 한정 'GO스탬프랠리'입니다
+
+RESOURCE ID: rally_tokyo_shinagawa_2026_desc_detail
+TEXT: 도쿄 시나가와의 역사적인 길을 따라 설치된 포켓스톱을 방문하고 스탬프를 찍어보세요!
+
+RESOURCE ID: rally_tokyo_shinagawa_2026_location
+TEXT: 도쿄 시나가와
+
+RESOURCE ID: rally_tokyo_shinagawa_2026_rewards_desc
+TEXT: 시나가와 로케이션 배경이 있는 물가와 관련된 포켓몬과 파이리를 만날 수 있습니다!
+
+RESOURCE ID: rally_tokyo_shinagawa_2026_title
+TEXT: 도쿄: 시나가와 스탬프랠리
 
 RESOURCE ID: season_pass_amer_2026_event_duration
 TEXT: 6월 2일 - 8일
@@ -1374,115 +1444,117 @@ RESOURCE ID: sr_gofest2026_global_zeraora_8_6
 TEXT: Until next time, my friend!
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_1_1
-TEXT: I’m thrilled to see you, %PLAYERNAME%!
+TEXT: 만나서 반가워, %PLAYERNAME%!
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_1_2
-TEXT: Making new friends, seeing new sights, trying new foods... All of this is so exciting!
+TEXT: 경치도 좋고 음식도 맛있고... 동료도 늘어날 것 같은 느낌이야!
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_1_3
-TEXT: And even more exciting than that—I’ve heard the Mythical Pokémon Zeraora is in the area!
+TEXT: 모든 것이 멋진 경험이지만 더 대단하게도 제라오라가 목격되었어!
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_1_4
-TEXT: Maybe it could sense this gathering of strong Trainers like you and came to investigate.
+TEXT: 트레이너 모임에 이끌려서 나타난 건지도 모르지.
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_1_5
-TEXT: Well, we’d better get out there and show it what we’re made of!
+TEXT: 어서 조사해 보자!
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_2_1
-TEXT: *huff huff* Wait! Let me catch my breath... Phew! You sure took what I said about getting out there to heart, didn’t you?
+TEXT: 잠, 잠깐 기다려 줘! 숨이... 휴우, 그렇게 급하게 가지 않아도... 
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_2_2
-TEXT: One thing’s for sure—if Zeraora is watching, it’ll be plenty impressed by your skills!
+TEXT: 제라오라가 보고 있다면 깜짝 놀랄 거야!
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_2_3
-TEXT: And on that note, I actually have a hunch it’s closer than we think. I’ve spied a few flashes of light off in the distance.
+TEXT: 생각보다 근처에 있을 것 같아. 잘 살펴 보면서 가자.
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_2_4
-TEXT: And wherever Zeraora runs, you get flashes of lightning and the echo of thunder. I guess we’re not the only ones getting charged up!
+TEXT: 제라오라가 달리면 번개가 치고 우렛소리가 울려 퍼진다고 해. 빛과 소리에도 주의를 기울여.
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_3_1
-TEXT: Here’s a question! Do you know how Zeraora fights? It’s a real shock!
+TEXT: 제라오라가 어떻게 배틀하는 지 아니? 약간 충격적이지만,
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_3_2
-TEXT: You see, it electrifies its claws and uses them to tear its opponents apart.
+TEXT: "양 손발톱에 전기를 머금어 상대를 갈가리 찢어.
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_3_3
-TEXT: Even if they manage to dodge the attack, they’ll still get zapped by the flying sparks. Watt incredible power! Ahem.
+TEXT: 공격을 피하더라도 흩날리는 전격으로 감전시켜 버리지.
+
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_3_4
-TEXT: In any event, we’d best prepare ourselves.
+TEXT: 우리도 주의하면서 가자.
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_3_5
-TEXT: I’ll try to collect information on its whereabouts while you get out there and power up your knowledge on Electric types.
+TEXT: 네가 전기타입 포켓몬을 조사하는 동안 좀 더 정보를 모아볼게.
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_4_1
-TEXT: Think fast—what are the strengths and weaknesses of Electric-type Pokémon?
+TEXT: 퀴즈야. 전기타입 포켓몬의 기술 특징을 2초안에 답해봐.
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_4_2
-TEXT: That’s right! They’re super effective against Water- and Flying-type Pokémon and weak against Ground types.
+TEXT: 정답! 물타입과 비행타입에는 효과가 굉장하고 땅타입에는 약해.
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_4_3
-TEXT: You’re pretty quick on your feet! That’ll come in handy.
+TEXT: 여전히 머리가 좋구나!
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_4_4
-TEXT: Zeraora runs as fast as lightning strikes. That’s plenty speedy, but I’m sure you’ll be able to catch it.
+TEXT: 제라오라가 제라오라가 달려 나가면 번개가 번쩍인다고 하는데 달리는 스피드는 번개가 치는 것과 동일해. 불가능하진 않지만 쫓아갈 수 있을까?
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_4_5
-TEXT: So, up for some storm chasing? Let’s GO!
+TEXT: のんびりと構えてはいられないな。行こう！
+가만히 있을 수 없지. 가자!
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_5_1
-TEXT: Whew! All that exploring really zapped my energy. I could use a break, but you look like you’re bursting with energy!
+TEXT: 후우우우! 꽤 걸어서 체력의 한계가 오고 있어. 너는 아직 힘이 있나 보구나!
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_5_2
-TEXT: And speaking of energy, did you know that electricity sparks from the pads on Zeraora’s limbs?
+TEXT: 체력이라고 하면 제라오라는 전기 에너지를 모을 수 있어. 그 에너지를 손발의 볼록살에서 전기를 내보내는 거야.
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_5_3
-TEXT: I’m glad I don’t have that power—imagine trying to brush my hair!
+TEXT: 응? 방전하면서 물건과 자신이 접촉하면 어떻게 되는 거지...?
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_5_4
-TEXT: What’s say we make use of that energy of yours and see what you’re made of? Go get ’em!
+TEXT: ... 난 좀 쉴테니 너라도 탐색을 계속해줘!
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_6_1
-TEXT: %PLAYERNAME%, there you are!
+TEXT: %PLAYERNAME%, 겨우 찾았다!
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_6_2
-TEXT: I just ran into Spark and some new friends he made—and guess what? They spotted Zeraora not far from here!
+TEXT: 아까 스파크를 만났는데 제라오라는 근처에 있는 것 같다고 하더군.
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_6_3
-TEXT: That might explain the unusual charge to the air. I can feel my hair standing on end—and not because of my styling gel, either! Haha!
+TEXT: 공기에 전기가 띄고 있는 듯한 느낌은 그것 때문일지도 몰라. 머리가 일어서는 듯한... 이건 헤어젤로 세운게 아니라고! 하하하....
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_6_4
-TEXT: We must be close. Go take a look around!
+TEXT: 주변을 잘 찾아보자!
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_7_1
-TEXT: Outstanding work, %PLAYERNAME%! You’ve captured lightning in a Poké Ball!
+TEXT: 대단해, %PLAYERNAME%! 마치 몬스터볼 안에 번개를 넣은 것 같아!
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_7_2
-TEXT: Just look at all those sparks. If I could just measure the voltage... *ZAP*
+TEXT: 만지면 감전 될 것 같아....
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_7_3
-TEXT: Whoa! Talk about energy to spare!
+TEXT: 짜릿한 느낌인데!?
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_7_4
-TEXT: I’d love to observe Zeraora out on the field. You should spend some time getting to know each other!
+TEXT: 남아도는 에너지를 발산 시켜야 하는 건지도. 제라오라와 함께 탐색을 해봐!
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_8_1
-TEXT: You know what I’d call that? A total success! Thank you for always helping me with my research.
+TEXT: 오늘 일을 한마디로 하면? 쾌거!! 네 협력 덕분으로 쾌거였어.
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_8_2
-TEXT: And for your efforts, you’ve got a powerful new friend to join you on your journey.
+TEXT: 제라오라를 새로운 동료로 맞이할 수 있었어.
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_8_3
-TEXT: You both deserve a round of applause for all your efforts. Maybe even a thunderclap! Haha!
+TEXT: 우레와 같은 박수를 보내고 싶어!
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_8_4
-TEXT: Anyway, I can’t wait to see how far you two will go together.
+TEXT: 제라오라와 함께 무한한 가능성을 추구했으면 좋겠어.
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_8_5
-TEXT: Something tells me we’ve only seen the first sparks of Zeraora’s potential. But for now, we celebrate!
+TEXT: 제라오라에 대해서는 아직 모르는 게 많아. 연구 테마를 생각하는 것도 즐거워.
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_8_6
-TEXT: Until next time, my friend!
+TEXT: 그럼 또 보자!
 
 RESOURCE ID: sr_gofest2026_irl_park_zeraora_amer
 TEXT: GO Fest 2026: A Thunderous Discovery in Chicago!
@@ -2346,259 +2418,259 @@ RESOURCE ID: tr_gofest2026_irl_city_y_emea_3
 TEXT: GO Fest 2026: Copenhagen Expert Y (3/3)
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_1_1
-TEXT: %PLAYERNAME%, you made it! This place is amazing, right?! Every single zone is totally different, so you’ve gotta explore ALL of ’em!
+TEXT: %PLAYERNAME%, 왔구나! 아주 힘이 넘치는 장소지? 에리어마다 전혀 달라. 모두 조사해야지!
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_1_2
-TEXT: And hey, trust your instincts. They’ll let you know when something good’s nearby.
+TEXT: 근처에 뭔가 있을 것 같으면 직감을 믿고 움직여.
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_1_3
-TEXT: Oh, but heads up! Team GO Rocket is here, and they are definitely plotting something.
+TEXT: 아, 미리 말해두지만 GO로켓단이 있어. 뭔가 꾸미고 있는 게 틀림없어.
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_1_4
-TEXT: No idea what it is yet, but y’know, just watch yourself.
+TEXT: 뭘 노리는 지는 몰라. 조심해.
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_1_5
-TEXT: Don’t let ’em slow you down, though. Just have fun, stay alert, and keep exploring!
+TEXT: 그렇다고 과하게 주의하는 건 아니지. 언제나처럼 주변에 조심하면서 충분히 즐기라고!
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_2_1
-TEXT: Hey, %PLAYERNAME%! Buckle up—you are NOT gonna believe this.
+TEXT: 안녕, %PLAYERNAME%! 깜짝 놀랐어 대단한 뉴스인데.
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_2_2
-TEXT: I’ve been digging into what Team GO Rocket’s been so interested in...and it’s Mewtwo!
+TEXT: GO로켓단의 목적을 조사했더니... 놀랍게도 뮤츠였어!
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_2_3
-TEXT: Wild, right?! Out of all the Pokémon they could mess with! My intuition doesn’t miss—I knew something big was coming, and here it is!
+TEXT: 정말 위험해. 다른 어떤 포켓몬보다 더 녀석들 손에 넣게 둘 수 없어! 내 안좋은 예감이 맞았어.
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_2_4
-TEXT: A Pokémon that legendary deserves to be protected, not messed with.
+TEXT: 그 무엇보다도 보호받아야 할 전설의 포켓몬.
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_2_5
-TEXT: We need a plan and we need to act, like, yesterday! You in?
+TEXT: 같이 어떻게 해보자. 1초라도 빨리 말이야. 알았지?
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_3_1
-TEXT: Okay, %PLAYERNAME%, no time to waste. Team GO Rocket is making their move, and it’s nothing good.
+TEXT: 자, %PLAYERNAME%. 가만이 있으면 안된다고. GO로켓단의 움직임이 보이기 시작했어.
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_3_2
-TEXT: Not gonna lie, their nonsense has me totally charged up. I am ready to GO!
+TEXT: 이런 부조리함이 제일 짜증나, 지금이라도 바로 돌격!
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_3_3
-TEXT: I was thinking about confronting them on my own, but then I remembered we’re way stronger together!
+TEXT: 이라고 말하고 싶지만, 다 같이 싸운다면 더 강해질 수 있어!
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_3_4
-TEXT: So here’s my thinking: You trust your gut, I trust mine, and together, there’s no way we can lose.
+TEXT: 내가 이쪽부터 넌 저쪽부터 처럼 양쪽에서 노리는 거야.
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_3_5
-TEXT: Whaddaya say? Let’s save Mewtwo!
+TEXT: 준비는 됐니? 뮤츠를 구하자!
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_4_1
-TEXT: %PLAYERNAME%! You did it! Mewtwo is safe—and I KNOW Team GO Rocket didn’t see THAT coming!
+TEXT: %PLAYERNAME%, 해냈어! 뮤츠를 지켰어... 그리고 녀석들의 놀란 얼굴이 통쾌했어!
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_4_2
-TEXT: But here’s the thing now: Mewtwo wants to battle you, and I think a Mega Evolution is on the horizon.
+TEXT: 하지만 지금 생각해야 하는 것은 뮤츠가 메가진화 했다는 점이야.
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_4_3
-TEXT: No flying solo on this one. A Pokémon that powerful needs all hands on deck!
+TEXT: 이거야말로 혼자서는 무리지. 모두 다같이 하나가 되어 배틀!
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_4_4
-TEXT: Round up every Trainer you can find. The more the merrier, and trust me, you aren’t gonna regret the backup.
+TEXT: 최대한 모을 수 있는 트레이너를 모아봐. 많을수록 좋아. 철벽의 단결력을 보여주자고!
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_4_5
-TEXT: This is a once-in-a-lifetime thing, %PLAYERNAME%. Don’t miss it! GO! GO! GO!
+TEXT: 다시 없을 체험이 될 거야, %PLAYERNAME%. 실수 하지 말고 GO, GO, GO!
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_5_1
-TEXT: %PLAYERNAME%! You actually defeated a Mega-Evolved Mewtwo!
+TEXT: %PLAYERNAME%! 메가진화한 뮤츠를 쓰러뜨렸구나!
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_5_2
-TEXT: Once again, my gut was totally right. I knew you could pull it off!
+TEXT: 역시 너한테 부탁하길 잘했어!
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_5_3
-TEXT: Honestly, I need a sec. My heart’s still RACING.
+TEXT: 잠깐 기다려줘, 아직 진정이 안되서.
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_5_4
-TEXT: You’re incredible, %PLAYERNAME%. Seriously, I mean it.
+TEXT: 넌 정말 대단해, %PLAYERNAME%. 진심으로 말하는 거야.
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_5_5
-TEXT: Now go celebrate! A win this big deserves an equally huge snack!
+TEXT: 축하의 의미로 맛있는 거 먹으로 가자!
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_act_1
-TEXT: GO Fest 2026: Chicago – Act 1
+TEXT: GO Fest 2026: 시카고 - 액트1
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_act_2
-TEXT: GO Fest 2026: Chicago – Act 2
+TEXT: GO Fest 2026: 시카고 - 액트2
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_act_3
-TEXT: GO Fest 2026: Chicago – Act 3
+TEXT: GO Fest 2026: 시카고 - 액트3
 
 RESOURCE ID: tr_gofest2026_irl_park_amer_act_4
-TEXT: GO Fest 2026: Chicago – Act 4
+TEXT: GO Fest 2026: 시카고 - 액트4
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_1_1
-TEXT: %PLAYERNAME%, I see you have arrived. Welcome.
+TEXT: %PLAYERNAME%. 무사히 도착했구나.
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_1_2
-TEXT: Know that each zone here exhibits distinct properties, and thus offers excellent potential for data collection.
+TEXT: 이 장소의 조사 말인데, 각 에리어가 표시하는 명확한 특성을 데이터화 하는게 목적이야.
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_1_3
-TEXT: However, there is one matter that requires our attention before we can explore.
+TEXT: 조사를 시작하기 전에 하나 해결해야할 문제가 있어.
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_1_4
-TEXT: Team GO Rocket has been sighted within the grounds, and I’m sure you know that’s unlikely to be a coincidence.
+TEXT: GO로켓단이야. 우연히 출몰한 게 아니야.
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_1_5
-TEXT: Proceed carefully, %PLAYERNAME%. I will continue to monitor the situation closely.
+TEXT: 주의하면서 선수치자, %PLAYERNAME% 나도 상황 파악을 서두를게.
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_2_1
-TEXT: %PLAYERNAME%, I’ve completed a preliminary analysis of the situation.
+TEXT: %PLAYERNAME%, 상황 파악이 끝났어.
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_2_2
-TEXT: Team GO Rocket’s activities here are oriented toward a single objective: capturing Mewtwo.
+TEXT: GO로켓단의 목적은 하나. 뮤츠를 노리고 있는 듯해.
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_2_3
-TEXT: In their hands, Pokémon with its capabilities could prove catastrophic.
+TEXT: 강력한 포켓몬이 그들 손에 들어가면 파과를 초래할지 몰라.
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_2_4
-TEXT: I have been cross-referencing Team GO Rocket’s patterns of behavior to attempt to predict their next move.
+TEXT: GO로켓단의 과거 행동 패턴에서 어떻게 대응하면 될지 분석해 보자.
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_2_5
-TEXT: Will you assist me in uncovering their plan, %PLAYERNAME%?
+TEXT: 그들의 계획을 밝히고 싶어. %PLAYERNAME%, 협력 가능하지?
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_3_1
-TEXT: %PLAYERNAME%. There have been unfavorable developments.
+TEXT: %PLAYERNAME%, 사태가 악화했어.
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_3_2
-TEXT: Analysis alone will not be enough to resolve the threat posed by Team GO Rocket’s current activities.
+TEXT: GO로켓단의 행동을 예측해도 효과적인 위협을 제거하지 못하는 것 같아.
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_3_3
-TEXT: To that end, while it may require us to grapple with potential unknowns, I’ve identified what I believe to be the most efficient course of action.
+TEXT: 과거의 행동 패턴을 근거로 잠재적인 미지수를 가미해서 내 나름대로 대처 방법을 생각해 봤어.
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_3_4
-TEXT: I’m not accustomed to relying on factors that fall outside the scope of my analysis—yet the situation demands it.
+TEXT: 분석에서 벗어나는 걸 좋아하지 않지만 오늘은 이것 말고 방법이 없군.
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_3_5
-TEXT: Together, we can dismantle their operation. I suggest we waste no time.
+TEXT: 협력해서 그들의 계획을 막아 보자. 서두르자.
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_4_1
-TEXT: %PLAYERNAME%, you stopped Team GO Rocket and saved Mewtwo.
+TEXT: %PLAYERNAME%, GO로켓단을 제거하고 뮤츠는 지켰어.
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_4_2
-TEXT: I did not predict it would Mega Evolve, however.
+TEXT: 하지만 메가진화할 거라고는 예상하지 못했어.
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_4_3
-TEXT: A lone Trainer is ill-suited to the battle to come. There are simply too many significant variables to account for.
+TEXT: 혼자서는 맞서기 어려울 거야. 고려할 변동 요인이 너무 많아.
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_4_4
-TEXT: Seek out others to join you in this challenge. Coordination will be essential for what comes next.
+TEXT: 주변 사람들과 협력해서 극복해야애. 다음에 일어날 일을 위해 연계와 조정이 필요할 거야.
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_4_5
-TEXT: You have proven yourself capable, but this is not a moment for hesitation—you’ll need allies.
+TEXT: 네 능력이 높다는 것은 알고 있지만 주저하고 있을 상황이 아니야. 동료가 필요한 상황이라고.
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_5_1
-TEXT: I see that you return successful, %PLAYERNAME%.
+TEXT: 성공리 진행했구나 %PLAYERNAME%.
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_5_2
-TEXT: Defeating a Mega-Evolved Mewtwo is no trivial achievement. I intend to document all that I observed here today, as it will prove invaluable to our research.
+TEXT: 메가진화한 뮤츠를 쓰러뜨렸다는 공적을 놓치지 말고 리포트에 정리하자.
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_5_3
-TEXT: You’ve done well, %PLAYERNAME%.
+TEXT: 잘 해냈어 %PLAYERNAME%.
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_act_1
-TEXT: GO Fest 2026: Tokyo – Act 1
+TEXT: GO Fest 2026: 도쿄 - 액트1
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_act_2
-TEXT: GO Fest 2026: Tokyo – Act 2
+TEXT: GO Fest 2026: 도쿄 - 액트2
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_act_3
-TEXT: GO Fest 2026: Tokyo – Act 3
+TEXT: GO Fest 2026: 도쿄 - 액트3
 
 RESOURCE ID: tr_gofest2026_irl_park_apac_act_4
-TEXT: GO Fest 2026: Tokyo – Act 4
+TEXT: GO Fest 2026: 도쿄 액트4
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_1_1
-TEXT: Hey hey, %PLAYERNAME%! Now we’re really getting started!
+TEXT: %PLAYERNAME% 안녕! 어서 시작하자!
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_1_2
-TEXT: Every zone out here’s different, so be sure to explore. No hanging around in one spot!
+TEXT: 여기 있는 각 에리어는 다 다르니까 모두 가보도록 해. 하나의 장소에만 있지 마.
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_1_3
-TEXT: One more thing. Team GO Rocket decided to crash the party. Surprise, surprise.
+TEXT: 그리고, GO로켓단이 초대받지 않은 손님으로 출현 중이야. 질리는 녀석들이야.
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_1_4
-TEXT: I don’t know what they’re planning yet, but whatever it is, we’re not letting it slide.
+TEXT: 뭘 꾸미고 있는지 아직 모르지만 마음대로 하게 놔두지 않아.
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_1_5
-TEXT: Get moving and see what each zone has to offer. You never know what you might discover out there—just watch out for those troublemakers.
+TEXT: 탐색을 시작해. 녀석들이 방해할지 모르니까 주의헤
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_2_1
-TEXT: Okay %PLAYERNAME%, things just got complicated.
+TEXT: 좋아 %PLAYERNAME%, 약간의 문제가 생겼어.
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_2_2
-TEXT: We’ve been tracking Team GO Rocket’s moves, and we finally figured out what they’re after. It’s Mewtwo.
+TEXT: GO로켓단이 노리는 게 뭔지 알았어, 뮤츠야.
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_2_3
-TEXT: I’ll be honest with you, that burns me up. Team GO Rocket thinks they can just grab a Pokémon like Mewtwo?
+TEXT: 정말 GO로켓단은 뮤츠 같은 포켓몬을 뺏어 갈 수 있다고 생각하는 걸까?
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_2_4
-TEXT: No chance. Ponyta and I are ready to crash the party.
+TEXT: 그렇게 놔두지 않지. 포니타와 내가 막아주겠어.
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_2_5
-TEXT: So tell me, %PLAYERNAME%, are you in? Because I need someone I can count on for this one.
+TEXT: %PLAYERNAME%, 너라면 어떻게 할래? 협력해주면 좋겠는데.
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_3_1
-TEXT: Alright, %PLAYERNAME%. No more waiting around. It’s time to move.
+TEXT: 좋아, %PLAYERNAME%. 시간이 이제 얼마 안남았어.
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_3_2
-TEXT: Team GO Rocket is making their play, and you know I don’t do “standing around.”
+TEXT: GO로켓단이 움직이기 시작했으니 어떻게든 해야해
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_3_3
-TEXT: Could I charge in solo? Yeah, probably. But probably isn’t good enough this time.
+TEXT: 혼자서 맞서도 되지만 네가 있다면 마음이 든든할 거야.
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_3_4
-TEXT: I’m not too proud to say that this one calls for a team effort.
+TEXT: 이번에는 빨리 해치워버리자!
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_3_5
-TEXT: So let’s get moving and take ’em down!
+TEXT: 좋았어, 가자!
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_3_6
-TEXT: Those Team GO Rocket punks don’t stand a chance if we work together.
+TEXT: 우리가 힘을 합치면 GO로켓단도 별거 아닐 거야.
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_4_1
-TEXT: %PLAYERNAME%! You beat Team GO Rocket and freed Mewtwo! And now it’s going to Mega Evolve before taking you on? Oh, I love this.
+TEXT: %PLAYERNAME%! GO로켓단을 쓰러뜨려서 뮤츠를 구했어! 배틀 전에 메가진화 할 것 같지? 두근 거려.
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_4_2
-TEXT: But listen. We’re talking Mega-Evolved Mewtwo here. This is going to be a heck of a challenge, so you’re going to need backup. Don’t even think about going alone.
+TEXT: 하지만 메가진화 한 뮤츠라니 아주 강할 거야. 동료를 모으지 않으면 도전도 못할 거야.
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_4_3
-TEXT: Rally every Trainer you can find and head into battle together. The more, the better.
+TEXT: 최대한 모을 수 있는 트레이너를 모아, 배틀에 참가하자. 많을수록 좋아.
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_4_4
-TEXT: This is the big one. Go give Mewtwo the battle it’s looking for!
+TEXT: 이번 건은 최대의 도전이 될 거야. 뮤츠에 압도 당하지 않게 배틀 하는 거야!
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_5_1
-TEXT: Yes! %PLAYERNAME%, that’s what I’m talking about!
+TEXT: 해냈어! %PLAYERNAME%. 바로 이걸 보고 싶었다고!
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_5_2
-TEXT: You just defeated Mega-Evolved Mewtwo. I knew right from the start that you had it in you.
+TEXT: 메가진화한 뮤츠를 쓰러뜨렸어. 너에게 부탁하길 잘했어.
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_5_3
-TEXT: Watching that battle reminded me why I love being a Pokémon Trainer. The fire, the focus... I live for it.
+TEXT: 배틀을 보면서 포켓몬 트레이너였을 때를 떠올렸어. 배틀에 대한 열정, 의식의 집중, 살아 있다는 실감.
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_5_4
-TEXT: What you showed out there is exactly what I mean when I talk about real strength.
+TEXT: 너에게서 진정한 강함을 본 것 같아.
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_5_5
-TEXT: Go rest up—but not for too long. That battle got me all fired up, and now I want a go!
+TEXT: 조금 쉬도록 해. 하지만 곧 조사를 다시 시작할 거야. 아까 배틀로 기세가 붙었으니 오늘은 많이 진행하자!
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_act_1
-TEXT: GO Fest 2026: Copenhagen – Act 1
+TEXT: GO Fest 2026: 코펜하겐 - 액트1
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_act_2
-TEXT: GO Fest 2026: Copenhagen – Act 2
+TEXT: GO Fest 2026: 코펜하겐 - 액트2
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_act_3
-TEXT: GO Fest 2026: Copenhagen – Act 3
+TEXT: GO Fest 2026: 코펜하겐 - 액트3
 
 RESOURCE ID: tr_gofest2026_irl_park_emea_act_4
-TEXT: GO Fest 2026: Copenhagen – Act 4
+TEXT: GO Fest 2026: 코펜하겐 - 액트4
 
 RESOURCE ID: unclaimed_assigned_reward
 TEXT: You have an unclaimed reward that you can obtain at this PokéStop.
@@ -2610,7 +2682,7 @@ RESOURCE ID: unstun_in_key
 TEXT: 회복까지 {0}...
 
 RESOURCE ID: visit_web_store_item_purchase_page_url_key
-TEXT: https://store.pokemongo.com/ko/purchase/item/{0}?utm_source=PGO&utm_medium=in-game-shop&utm_campaign=pgo_webstore_linkout&utm_content=sku_button
+TEXT: https://store.pokemongo.com/ko/purchase/item/{0}?utm_source=PGO&utm_medium=in-game-shop&utm_campaign=pgo_webstore_linkout&utm_content={1}
 
 RESOURCE ID: wayfarer_bonus_title_01
 TEXT: Wayfarer 보너스 시간제한 리서치(1/2)
