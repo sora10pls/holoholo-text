@@ -58,6 +58,15 @@ TEXT: Низ Чемпиона ЧМ 2026
 RESOURCE ID: avatar_shirt_ jleague_2026
 TEXT: Футболка Джей-Лига 2026
 
+RESOURCE ID: avatar_shirt_gofest_finale_chesnaught
+TEXT: Футболка Чеснот
+
+RESOURCE ID: avatar_shirt_gofest_finale_delphox
+TEXT: Футболка Делфокс
+
+RESOURCE ID: avatar_shirt_gofest_finale_greninja
+TEXT: Футболка Грениндзя
+
 RESOURCE ID: avatar_shirt_lego_hat_2026
 TEXT: Кепка LEGO®
  Pokémon 2026
@@ -331,73 +340,79 @@ RESOURCE ID: badge_safari_2026_riodejaneiro_day_02_title
 TEXT: Городское Сафари Pokémon GO
 
 RESOURCE ID: batch_transfer_100_pokemon_plural
-TEXT: {0} ★ 100% Pokémon
+TEXT: ★ 100% Покемоны: {0}
 
 RESOURCE ID: batch_transfer_100_pokemon_singular
-TEXT: {0} ★ 100% Pokémon
+TEXT: ★ 100% Покемон: {0}
 
 RESOURCE ID: batch_transfer_hyper_trained_pokemon_plural
-TEXT: {0} Hyper Trained
+TEXT: Прошедшие Гипертренировку: {0}
 
 RESOURCE ID: batch_transfer_hyper_trained_pokemon_singular
-TEXT: {0} Hyper Trained
+TEXT: Прошедший Гипертренировку: {0}
 
 RESOURCE ID: batch_transfer_unique_bread_dough_level_pokemon_plural
-TEXT: {0} Gigantamax
+TEXT: Гигантамакс: {0}
 
 RESOURCE ID: batch_transfer_unique_bread_dough_level_pokemon_singular
-TEXT: {0} Gigantamax
+TEXT: Гигантамакс: {0}
 
 RESOURCE ID: batch_transfer_unique_bread_level_pokemon_plural
-TEXT: {0} Dynamax
+TEXT: Динамакс: {0}
 
 RESOURCE ID: batch_transfer_unique_bread_level_pokemon_singular
-TEXT: {0} Dynamax
+TEXT: Динамакс: {0}
 
 RESOURCE ID: batch_transfer_unique_event_pokemon_plural
-TEXT: {0} Event
+TEXT: Ивент: {0}
 
 RESOURCE ID: batch_transfer_unique_event_pokemon_singular
-TEXT: {0} Event
+TEXT: Ивент: {0}
 
 RESOURCE ID: batch_transfer_unique_location_background_pokemon_plural
-TEXT: {0} Location Backgrounds
+TEXT: С Фонами Места: {0}
 
 RESOURCE ID: batch_transfer_unique_location_background_pokemon_singular
-TEXT: {0} Location Background
+TEXT: С Фоном Места:{0}
 
 RESOURCE ID: batch_transfer_unique_mega_level_pokemon_plural
-TEXT: {0} Mega- or Primal-Leveled
+TEXT: Покемоны Мегауровня или Протоуровня: {0}
 
 RESOURCE ID: batch_transfer_unique_mega_level_pokemon_singular
-TEXT: {0} Mega- or Primal-Leveled
+TEXT: Покемон Мегауровня или Протоуровня: {0}
 
 RESOURCE ID: batch_transfer_unique_special_background_pokemon_plural
-TEXT: {0} Special Backgrounds
+TEXT: С Особыми Фонами: {0}
 
 RESOURCE ID: batch_transfer_unique_special_background_pokemon_singular
-TEXT: {0} Special Background
+TEXT: С Особым Фоном: {0}
+
+RESOURCE ID: batch_transfer_unique_warning_title
+TEXT: Твой выбор содержит Покемонов, соответствующих следующим критериям:
 
 RESOURCE ID: batch_transfer_unique_xxl_pokemon_plural
-TEXT: {0} XXL
+TEXT: XXL: {0}
 
 RESOURCE ID: batch_transfer_unique_xxl_pokemon_singular
-TEXT: {0} XXL
+TEXT: XXL: {0}
 
 RESOURCE ID: batch_transfer_unique_xxs_pokemon_plural
-TEXT: {0} XXS
+TEXT: XXS: {0}
 
 RESOURCE ID: batch_transfer_unique_xxs_pokemon_singular
-TEXT: {0} XXS
+TEXT: XXS: {0}
 
 RESOURCE ID: bonus_partner_campaign_sponsored_fr_mcdonald's
 TEXT: Уже доступен эксклюзивный Полевой Квест, спонсируемый Макдоналдс, c периодически обновляемыми наградами
 
+RESOURCE ID: bonus_rare_candy_xl_catch_lucario
+TEXT: 1 гарантированная Редкая Конфета XL за поимку Лукарио
+
 RESOURCE ID: bonus_rare_candy_xl_catch_starmie
-TEXT: One guaranteed Rare Candy XL when catching Starmie
+TEXT: 1 гарантированная Редкая Конфета XL за поимку Старми
 
 RESOURCE ID: bonus_today_zygarde_cell_temp
-TEXT: Zygarde Cells can be claimed when completing a Route up to 5 times per day
+TEXT: Zygarde Cells can appear at the end of up to 5 Routes per day
 
 RESOURCE ID: box_gocatch
 TEXT: GO Catch Box
@@ -440,6 +455,9 @@ TEXT: Isahaya
 
 RESOURCE ID: city_manhole_481
 TEXT: Saikai
+
+RESOURCE ID: complete_lucky_remote_trade_prompt
+TEXT: Просмотри и заверши <color=#F2A64B><b>Удачный Удалённый Обмен</b></color>!
 
 RESOURCE ID: day_out_2026_title_00
 TEXT: Pokémon Day Out
@@ -522,8 +540,11 @@ TEXT: Квест на Время День Вынашивания Яиц: Ого�
 RESOURCE ID: fire_ice_hatch_event_name
 TEXT: День Вынашивания Яиц: Огонь и Лёд
 
+RESOURCE ID: friend_wants_to_lucky_remote_trade_prompt
+TEXT: Пришёл запрос на <color=#F2A64B><b>Удачный Удалённый Обмен</b></color>от Тренера {0}.
+
 RESOURCE ID: friend_wants_to_lucky_trade_prompt
-TEXT: {0} wants to <color=#F2A64B><b>Lucky Trade</b></color> with you.
+TEXT: {0} хочет совершить <color=#F2A64B><b>Удачный Обмен</b></color> с тобой.
 
 RESOURCE ID: future_sight_+_move_content
 TEXT: Мьюту выпускает психическую энергию {0}, показывая, когда у встречающихся Покемонов высокие характеристики.
@@ -549,6 +570,66 @@ TEXT: For more details, visit the <a href="https://Pokémongo.com/gofest/megafin
 RESOURCE ID: gym_sponsored_mcdonalds
 TEXT: Макдоналдс
 
+RESOURCE ID: item_event_pass_point_live_ops_09_name
+TEXT: Очки Пропуска
+
+RESOURCE ID: item_event_pass_point_live_ops_10_name
+TEXT: Очки Пропуска
+
+RESOURCE ID: item_event_pass_point_live_ops_11_name
+TEXT: Очки Пропуска
+
+RESOURCE ID: item_event_pass_point_live_ops_12_name
+TEXT: Очки Пропуска
+
+RESOURCE ID: item_event_pass_point_live_ops_13_name
+TEXT: Очки Пропуска
+
+RESOURCE ID: item_event_pass_point_live_ops_14_name
+TEXT: Очки Пропуска
+
+RESOURCE ID: item_event_pass_point_live_ops_15_name
+TEXT: Очки Пропуска
+
+RESOURCE ID: item_event_pass_point_live_ops_16_name
+TEXT: Очки Пропуска
+
+RESOURCE ID: item_event_pass_point_live_ops_17_name
+TEXT: Очки Пропуска
+
+RESOURCE ID: item_event_pass_point_live_ops_18_name
+TEXT: Очки Пропуска
+
+RESOURCE ID: item_event_pass_point_live_ops_19_name
+TEXT: Очки Пропуска
+
+RESOURCE ID: item_event_pass_point_live_ops_20_name
+TEXT: Очки Пропуска
+
+RESOURCE ID: item_event_pass_point_monthly_05_name
+TEXT: Очки Пропуска
+
+RESOURCE ID: item_event_pass_point_monthly_06_name
+TEXT: Очки Пропуска
+
+RESOURCE ID: item_event_pass_point_monthly_07_name
+TEXT: Очки Пропуска
+
+RESOURCE ID: item_event_pass_point_monthly_08_name
+TEXT: Очки Пропуска
+
+RESOURCE ID: item_event_pass_point_monthly_09_name
+TEXT: Очки Пропуска
+
+RESOURCE ID: item_event_pass_point_monthly_10_name
+TEXT: Очки Пропуска
+
+RESOURCE ID: item_event_pass_point_monthly_11_name
+TEXT: Очки Пропуска
+
+RESOURCE ID: item_event_pass_point_monthly_12_name
+TEXT: Очки Пропуска
+
 RESOURCE ID: item_event_ticket_desc_megastarmieraidday
 TEXT: Билет, дающий доступ к специальным бонусам в субботу, 22 августа 2026 с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения.
 
@@ -556,10 +637,10 @@ RESOURCE ID: item_event_ticket_details_megastarmieraidday
 TEXT: Этот билет активируется автоматически 22 августа, чтобы дать тебе доступ к специальным бонусам, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_global_event_ticket_desc_gowa26
-TEXT: A ticket to access the Pokémon GO Wild Area 2026: Global Special Research on November 14 and November 15, 2026, local time, wherever you are.
+TEXT: A ticket to access the Pokémon GO Wild Area 2026: Global Special Research on November 14 and November 15, 2026, wherever you are.
 
 RESOURCE ID: item_global_event_ticket_details_gowa26
-TEXT: This ticket will automatically activate to give you access to the Pokémon GO Wild Area 2026: Global Special Research on November 14 and 15, local time, wherever you are. Details can be found in the in-game News.
+TEXT: This ticket will automatically activate to give you access to the Pokémon GO Wild Area 2026: Global Special Research on November 14 and 15, wherever you are. Details can be found in the in-game News.
 
 You must play during the specified time to receive all the event bonuses.
 
@@ -603,16 +684,22 @@ RESOURCE ID: lobby_shield_break_power
 TEXT: {0}/{1} Shield break potential
 
 RESOURCE ID: lucky_remote_trade_completion_overlay_message
-TEXT: {0} completed the <color=#F2A64B><b>Lucky Remote Trade</b></color>!
+TEXT: Игрок {0}завершил <color=#F2A64B><b>Удачный Удалённый Обмен</b></color>!
+
+RESOURCE ID: lucky_remote_trade_confirm_body
+TEXT: Заверши <color=#F2A64B><b>Удачный Удалённый Обмен</b></color> с Тренером {0}!
+
+RESOURCE ID: lucky_remote_trade_initiate_body
+TEXT: Пришёл запрос на <color=#F2A64B><b>Удачный Удалённый Обмен</b></color>от Тренера {0}!
 
 RESOURCE ID: lucky_remote_trade_overlay_complete
-TEXT: Review and Complete <color=#F2A64B><b>Lucky Remote Trade</b></color>
+TEXT: Просмотри и Заверши <color=#F2A64B><b>Удачный Удалённый Обмен</b></color>
 
 RESOURCE ID: lucky_remote_trade_overlay_respond
-TEXT: Review <color=#F2A64B><b>Lucky Remote Trade</b></color> Request
+TEXT: Просмотри Запрос на <color=#F2A64B><b>Удачный Удалённый Обмен</b></color>
 
 RESOURCE ID: lucky_remote_trade_waiting_for_response
-TEXT: Waiting for response to <color=#F2A64B><b>Lucky Remote Trade</b></color>.
+TEXT: Ожидание ответа на <color=#F2A64B><b>Удачный Удалённый Обмен</b></color>.
 
 RESOURCE ID: mcdonald_japan_ collab_2026_event_name
 TEXT: Назад в Макдоналдс
@@ -633,10 +720,10 @@ RESOURCE ID: mega_raid_shiny_boost
 TEXT: Increased chance of encountering Shiny Pokémon from Mega Raids
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-08-10T23:29:18.099028+00:00 for ru-RU
-at SHA 7467817e563
-Pipeline 3866309, job 56846989
-Patch from: 0.425.0-SHA-73e817e6-RC3, 0.423.1-SHA-70644676-RC1
+TEXT: Built at 2026-08-13T01:16:57.546690+00:00 for ru-RU
+at SHA 8365a56ec161
+Pipeline 3871833, job 56925460
+Patch from: 0.425.0-SHA-4f83d1f4-RC4, 0.423.1-SHA-70644676-RC1
 
 RESOURCE ID: move_mega_evo_boost_bonus
 TEXT: MEGA EVOLUTION BONUS
@@ -747,7 +834,7 @@ RESOURCE ID: pgo_lego_collab_2026_tr_title
 TEXT: Квест на Время Коллаборация Pokémon GO и LEGO
 
 RESOURCE ID: pokemon_location_background_info_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer this Pokémon with a Location Background?
+TEXT: Ты точно хочешь передать этого Покемона с Фоном Места?
 
 RESOURCE ID: pokemon_run_2026_hongkong_title
 TEXT: Pokémon RUN 30: Гонконг
@@ -771,13 +858,13 @@ RESOURCE ID: pokemon_run_2026_thailand_title
 TEXT: Pokémon RUN 30: Таиланд
 
 RESOURCE ID: pokemon_special_background_info_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer this Pokémon with a Special Background?
+TEXT: Ты точно хочешь передать этого Покемона с Особым Фоном?
 
 RESOURCE ID: pokemon_transfer_to_professor_warning_message
-TEXT: Are you sure you want to transfer this Pokémon to the professor?
+TEXT: Ты точно хочешь передать этого Покемона профессору?
 
 RESOURCE ID: pokemon_transfer_to_professor_warning_title
-TEXT: Your selected Pokémon meets the following criteria:
+TEXT: Выбранный тобой Покемон соответствует следующим критериям:
 
 RESOURCE ID: pxp_2026_loc_raids_academy
 TEXT: SF Raids! – California Academy of Sciences
@@ -918,13 +1005,13 @@ RESOURCE ID: quest_snapshot_storage_froakie
 TEXT: Take a snapshot of your Froakie
 
 RESOURCE ID: quest_special_dialogue_zygarde_1_2_temp
-TEXT: Curiously, several mentioned unusual activity along nearby Routes. Some Trainers even said they spotted something they couldn’t quite identify!
+TEXT: Curiously, several mentioned unusual activity along nearby Routes. Some Trainers even spotted something they couldn’t identify!
 
 RESOURCE ID: quest_special_dialogue_zygarde_1_3_temp
 TEXT: I have a theory about what might be drawing attention out there, but I’d like to look through my research materials a tad more first. Maybe even reread that article from earlier...
 
 RESOURCE ID: quest_special_dialogue_zygarde_3_5_temp
-TEXT: And where can you find those Cells? Well, do you recall the unusual activity along Routes I mentioned earlier? I reckon it may have been caused by Zygarde Cells!
+TEXT: And where can you find those cells? Well, do you recall the unusual activity along Routes I mentioned earlier? I reckon it may have been caused by Zygarde Cells!
 
 RESOURCE ID: quest_wcs_2026_catch_water_or_normal_plural
 TEXT: Catch {0} Water- or Normal-type Pokémon
@@ -1139,6 +1226,9 @@ TEXT: A famous row of colorful Victorian homes.
 RESOURCE ID: rally_pxp_2026_title
 TEXT: PokémonXP 2026 Stamp Rally
 
+RESOURCE ID: remote_trade_overlay_complete
+TEXT: Просмотри и Заверши Запрос на Удалённый Обмен
+
 RESOURCE ID: report_route_bug_info_zygarde_temp
 TEXT: Zygarde Cells are not guaranteed to appear at the end of every Route.
 
@@ -1293,40 +1383,40 @@ RESOURCE ID: short_event_pass_gofest2026_finale_weekend_wild_shiny_bonus
 TEXT: Increased Weekend Wild Pokémon Shiny Chance
 
 RESOURCE ID: single_transfer_100_pokemon
-TEXT: ★ 100% Pokémon
+TEXT: ★ 100% Покемон
 
 RESOURCE ID: single_transfer_bread_dough_level_pokemon
-TEXT: Gigantamax
+TEXT: Гигантамакс
 
 RESOURCE ID: single_transfer_bread_level_pokemon
-TEXT: Dynamax
+TEXT: Динамакс
 
 RESOURCE ID: single_transfer_buddy_level_pokemon
-TEXT: Buddy Leveled
+TEXT: Уровень Приятеля
 
 RESOURCE ID: single_transfer_event_pokemon
-TEXT: Event
+TEXT: Ивент
 
 RESOURCE ID: single_transfer_hyper_trained_pokemon
-TEXT: Hyper Trained
+TEXT: Прошедший Гипертренировку
 
 RESOURCE ID: single_transfer_legendary_or_mythical_or_ultra_beast_pokemon
-TEXT: Legendary Pokémon, Mythical Pokémon, or Ultra Beast
+TEXT: Легендарный Покемон, Мифический Покемон или Ультрачудовище
 
 RESOURCE ID: single_transfer_location_background_pokemon
-TEXT: Location Background
+TEXT: С Фоном Места
 
 RESOURCE ID: single_transfer_lucky_pokemon
-TEXT: Lucky
+TEXT: Удачливый
 
 RESOURCE ID: single_transfer_shiny_pokemon
-TEXT: Shiny
+TEXT: Сияющий
 
 RESOURCE ID: single_transfer_special_background_pokemon
-TEXT: Special Background
+TEXT: С Особым Фоном
 
 RESOURCE ID: single_transfer_unique_mega_level_pokemon
-TEXT: Mega- or Primal-Leveled
+TEXT: Мегауровень или Протоуровень
 
 RESOURCE ID: single_transfer_xxl_pokemon
 TEXT: XXL
@@ -1367,18 +1457,18 @@ TEXT: Pokémon GO: Летнее Приключение
 RESOURCE ID: text_rewards_key_gowa26
 TEXT: <b>Includes:</b>
 • Up to 6 free Raid Passes each day from spinning Gym Photo Discs
-• Increased chance of receiving event 10 km Eggs from Poké Stops
+• Increased chance of receiving event 10 km Eggs from PokéStops
 • Up to 6 Special Trades per day and reduced Stardust cost for trades
-• 1/2 hatch distance for eggs placed in incubators
-• 2x catch candy for catching Pokémon
+• 1/2 Hatch Distance when Eggs are placed in an Incubator during the event
+• 2× Candy for catching Pokémon
 • A higher chance to encounter Shiny Pokémon during the event
-Learn more about the ticket bonuses <a href=“pokemongo.com/gowildarea/global”>here</a>.
+Learn more about the ticket bonuses <a href="pokemongo.com/gowildarea/global">here</a>.
 
 RESOURCE ID: title_tr_pxp_2026_stream
-TEXT: PokémonXP Bonus Timed Research
+TEXT: Дополнительный Квест на Время PokémonXP
 
 RESOURCE ID: title_tr_pxp_2026_stream_00
-TEXT: PokémonXP Bonus Timed Research (1/1)
+TEXT: Дополнительный Квест на Время PokémonXP (1/1)
 
 RESOURCE ID: title_tr_wcs_2025_champ
 TEXT: Дополнительный Квест на Время Победитель Международного Чемпионата Покемон 2025
