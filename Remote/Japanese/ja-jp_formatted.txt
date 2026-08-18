@@ -463,6 +463,15 @@ TEXT: 諫早市
 RESOURCE ID: city_manhole_481
 TEXT: 西海市
 
+RESOURCE ID: city_manhole_483
+TEXT: 対馬市
+
+RESOURCE ID: city_manhole_484
+TEXT: 岡谷市
+
+RESOURCE ID: city_manhole_485
+TEXT: 木祖村
+
 RESOURCE ID: complete_lucky_remote_trade_prompt
 TEXT: <color=#F2A64B><b>キラリモート交換</b></color>を確認して完了させてください
 
@@ -576,10 +585,10 @@ RESOURCE ID: gbl_sets_extra_fifteen_total
 TEXT: 1日のGOバトルリーグ対戦数10追加（計15戦）
 
 RESOURCE ID: gbl_stat_variance_bonus
-TEXT: GOバトルリーグで捕まえるポケモン（伝説のポケモンは除く）のこうげき・ぼうぎょ・HPの幅が広い
+TEXT: GOバトルリーグで捕まえる伝説ポケモン以外のポケモンのこうげき・ぼうぎょ・HP幅が広い
 
 RESOURCE ID: general2.ticket._gowa26_title
-TEXT: Pokémon GO Wild Area 2026 Global Ticket
+TEXT: PokémonGOワイルドエリア2026グローバルチケット
 
 RESOURCE ID: gofest2026_finale_details_link
 TEXT: 詳細は<a href="https://Pokémongo.com/gofest/megafinale">ウェブサイト</a>でご確認ください
@@ -654,12 +663,15 @@ RESOURCE ID: item_event_ticket_details_megastarmieraidday
 TEXT: このチケットは自動的に発動し8月22日にボーナスが受け取れるようになります。
 
 RESOURCE ID: item_global_event_ticket_desc_gowa26
-TEXT: A ticket to access the Pokémon GO Wild Area 2026: Global Special Research on November 14 and November 15, 2026, wherever you are.
+TEXT: 現地時間2026年11月14日・15日にPokémonGOワイルドエリア2026：グローバルスペシャルリサーチを行うためのチケット。
 
 RESOURCE ID: item_global_event_ticket_details_gowa26
-TEXT: This ticket will automatically activate to give you access to the Pokémon GO Wild Area 2026: Global Special Research on November 14 and 15, wherever you are. Details can be found in the in-game News.
+TEXT: このチケットは自動的に発動し11月14日・15日にPokémonGOワイルドエリア2026：グローバルスペシャルリサーチが行えるようになります。詳細はゲーム内ニュースでご確認ください。
 
-You must play during the specified time to receive all the event bonuses.
+イベントに関連するすべてのボーナスを受け取るには、開催時間内に遊び終える必要があります。
+
+RESOURCE ID: item_soft_sfida_limit_upgrade_earned_name
+TEXT: おでかけキャッチャー
 
 RESOURCE ID: item_wcs2026_milestone_name
 TEXT: 着飾ったピカチュウ
@@ -737,10 +749,10 @@ RESOURCE ID: mega_raid_shiny_boost
 TEXT: メガレイドで色違いポケモンに出会いやすい
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-08-13T01:16:57.546690+00:00 for ja-JP
-at SHA 8365a56ec161
-Pipeline 3871833, job 56925460
-Patch from: 0.425.0-SHA-4f83d1f4-RC4, 0.423.1-SHA-70644676-RC1
+TEXT: Built at 2026-08-18T00:48:15.368257+00:00 for ja-JP
+at SHA 4c5aa5ac97f
+Pipeline 3880013, job 57040572
+Patch from: 0.423.1-SHA-70644676-RC1, 0.425.0-SHA-73e817e6-RC3, 0.427.0-SHA-bafb3348-RC1
 
 RESOURCE ID: move_mega_evo_boost_bonus
 TEXT: メガシンカボーナス
@@ -1466,14 +1478,14 @@ RESOURCE ID: summer_quest_title
 TEXT: Pokémon GO：サマークエスト
 
 RESOURCE ID: text_rewards_key_gowa26
-TEXT: <b>Includes:</b>
-• Up to 6 free Raid Passes each day from spinning Gym Photo Discs
-• Increased chance of receiving event 10 km Eggs from PokéStops
-• Up to 6 Special Trades per day and reduced Stardust cost for trades
-• 1/2 Hatch Distance when Eggs are placed in an Incubator during the event
-• 2× Candy for catching Pokémon
-• A higher chance to encounter Shiny Pokémon during the event
-Learn more about the ticket bonuses <a href="pokemongo.com/gowildarea/global">here</a>.
+TEXT: <b>もらえるもの：</b>
+・毎日ジムのフォトディスクを回してもらえるレイドパス上限6枚
+・ポケストップを回してもらえる10kmタマゴ確率アップ
+・一日にできる特別な交換計6回と交換に必要なほしのすな減
+・イベント中にふかそうちにセットするタマゴのふか距離半減
+・ポケモンを捕まえてもらえるアメ2倍
+・イベント期間中に色違いポケモンに出会いやすい、など
+チケットボーナスについての詳細は <a href="https://pokemongo.com/gowildarea/global">こちら</a>でご確認ください。
 
 RESOURCE ID: title_tr_pxp_2026_stream
 TEXT: ポケモンXPボーナスタイムチャレンジ
@@ -1555,6 +1567,90 @@ TEXT: 空を翔ける冒険タイムチャレンジ：緑
 
 RESOURCE ID: tr_jp_2026_ana_group_red_0_header
 TEXT: 空を翔ける冒険タイムチャレンジ：赤
+
+RESOURCE ID: tr_kr_tr_test_2026_feature_button_text_1
+TEXT: 探索
+
+RESOURCE ID: tr_kr_tr_test_2026_feature_button_text_2
+TEXT: 捕まえる
+
+RESOURCE ID: tr_kr_tr_test_2026_feature_button_text_3
+TEXT: 回す
+
+RESOURCE ID: tr_kr_tr_test_2026_feature_button_text_4
+TEXT: GOスナップショット
+
+RESOURCE ID: tr_kr_tr_test_2026_feature_button_text_5
+TEXT: 相棒
+
+RESOURCE ID: tr_kr_tr_test_2026_feature_button_text_6
+TEXT: タマゴふか
+
+RESOURCE ID: tr_kr_tr_test_2026_feature_button_text_7
+TEXT: ギフト
+
+RESOURCE ID: tr_kr_tr_test_2026_feature_button_text_8
+TEXT: レイドバトル
+
+RESOURCE ID: tr_kr_tr_test_2026_feature_key_1
+TEXT: 探索に焦点を当てた冒険の道です。
+
+RESOURCE ID: tr_kr_tr_test_2026_feature_key_2
+TEXT: ポケモンを捕まえることに焦点を当てた冒険の道です。
+
+RESOURCE ID: tr_kr_tr_test_2026_feature_key_3
+TEXT: ポケストップを回すことに焦点を当てた冒険の道です。
+
+RESOURCE ID: tr_kr_tr_test_2026_feature_key_4
+TEXT: GOスナップショット撮影に焦点を当てた冒険の道です。
+
+RESOURCE ID: tr_kr_tr_test_2026_feature_key_5
+TEXT: 相棒ポケモンに焦点を当てた冒険の道です。
+
+RESOURCE ID: tr_kr_tr_test_2026_feature_key_6
+TEXT: タマゴをかえすことに焦点を当てた冒険の道です。
+
+RESOURCE ID: tr_kr_tr_test_2026_feature_key_7
+TEXT: ギフトに焦点を当てた冒険の道です。
+
+RESOURCE ID: tr_kr_tr_test_2026_feature_key_8
+TEXT: レイドバトルに焦点を当てた冒険の道です。
+
+RESOURCE ID: tr_kr_tr_test_2026_week1_0
+TEXT: 4週間リレータイムチャレンジ：パート1(1/2)
+
+RESOURCE ID: tr_kr_tr_test_2026_week1_1
+TEXT: 4週間リレータイムチャレンジ：パート1(2/2)
+
+RESOURCE ID: tr_kr_tr_test_2026_week1_title
+TEXT: 4週間リレータイムチャレンジ：パート1
+
+RESOURCE ID: tr_kr_tr_test_2026_week2
+TEXT: 4週間リレータイムチャレンジ：パート2
+
+RESOURCE ID: tr_kr_tr_test_2026_week2_0
+TEXT: 4週間リレータイムチャレンジ：パート2(1/2)
+
+RESOURCE ID: tr_kr_tr_test_2026_week2_1
+TEXT: 4週間リレータイムチャレンジ：パート2(2/2)
+
+RESOURCE ID: tr_kr_tr_test_2026_week3
+TEXT: 4週間リレータイムチャレンジ：パート3
+
+RESOURCE ID: tr_kr_tr_test_2026_week3_0
+TEXT: 4週間リレータイムチャレンジ：パート3(1/2)
+
+RESOURCE ID: tr_kr_tr_test_2026_week3_1
+TEXT: 4週間リレータイムチャレンジ：パート3(2/2)
+
+RESOURCE ID: tr_kr_tr_test_2026_week4
+TEXT: 4週間リレータイムチャレンジ：パート4
+
+RESOURCE ID: tr_kr_tr_test_2026_week4_0
+TEXT: 4週間リレータイムチャレンジ：パート4(1/2)
+
+RESOURCE ID: tr_kr_tr_test_2026_week4_1
+TEXT: 4週間リレータイムチャレンジ：パート4(2/2)
 
 RESOURCE ID: tr_mcdonalds_collab_july2026
 TEXT: バック・トゥ・マクドナルドボーナスタイムチャレンジ
