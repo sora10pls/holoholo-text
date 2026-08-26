@@ -299,6 +299,9 @@ TEXT: Okaya
 RESOURCE ID: city_manhole_485
 TEXT: Kiso
 
+RESOURCE ID: combat_title_season_24
+TEXT: โกแบตเทิลลีก: เส้นทางสนธยา
+
 RESOURCE ID: complete_lucky_remote_trade_prompt
 TEXT: ตรวจสอบและยืนยันการ<color=#F2A64B><b>แลกเปลี่ยนระยะไกลนำโชค</b></color>
 
@@ -402,6 +405,9 @@ TEXT: ซื้อบัตรผ่าน GO Deluxe: รอยเส้นท�
 วันที่ 11 และ 12 จะไม่มีการจำกัด
 จำนวนแต้ม GO สูงสุดที่สามารถรับได้!
 
+RESOURCE ID: event_season24_name
+TEXT: ฤดูกาลปัจจุบัน: เส้นทางสนธยา
+
 RESOURCE ID: friend_wants_to_lucky_remote_trade_prompt
 TEXT: {0} ส่งคำขอ<color=#F2A64B><b>แลกเปลี่ยนระยะไกลนำโชค</b></color>มาให้คุณ
 
@@ -424,7 +430,7 @@ RESOURCE ID: gbl_stat_variance_bonus
 TEXT: พลังโจมตี พลังป้องกัน และ HP ของโปเกมอนที่จับจากโกแบตเทิลลีก (ยกเว้นโปเกมอนในตำนาน) จะหลากหลายยิ่งขึ้น
 
 RESOURCE ID: general2.ticket._gowa26_title
-TEXT: Pokémon GO Wild Area 2026: Global Ticket
+TEXT: ตั๋ว Pokémon GO ไวลด์แอเรีย 2026: ทั่วโลก
 
 RESOURCE ID: gofest2026_battle_district
 TEXT: Battle District
@@ -567,12 +573,18 @@ TEXT: ตั๋วสำหรับรับโบนัสพิเศษ
 ตามเวลาท้องถิ่นทั่วโลก
 
 RESOURCE ID: item_global_event_ticket_desc_gowa26
-TEXT: A ticket to access the Pokémon GO Wild Area 2026: Global Special Research on November 14 and November 15, 2026, wherever you are.
+TEXT: ตั๋วสำหรับเข้าร่วมงานวิจัยพิเศษ
+Pokémon GO ไวลด์แอเรีย 2026: ทั่วโลก
+ในวันที่ 14-15 พฤศจิกายน 2026ทั่วโลก
 
 RESOURCE ID: item_global_event_ticket_details_gowa26
-TEXT: This ticket will automatically activate to give you access to the Pokémon GO Wild Area 2026: Global Special Research on November 14 and 15, wherever you are. Details can be found in the in-game News.
+TEXT: ตั๋วนี้จะทำให้คุณเข้าร่วมงานวิจัยพิเศษ Pokémon GO ไวลด์แอเรีย 2026: ทั่วโลก
+ในวันที่ 14-15 พฤศจิกายน
+ได้โดยอัตโนมัติไม่ว่าคุณจะอยู่ที่ใดในโลก
+สามารถดูรายละเอียดได้ที่ข่าวสารในเกม
 
-You must play during the specified time to receive all the event bonuses.
+คุณต้องเล่นเกมในช่วงเวลาที่กำหนด
+เพื่อรับโบนัสทั้งหมดจากอีเวนต์
 
 RESOURCE ID: item_soft_sfida_limit_upgrade_earned_name
 TEXT: เครื่องมือนักสำรวจ
@@ -587,10 +599,10 @@ RESOURCE ID: jp_iap_link2
 TEXT: https://scopelyexplore.helpshift.com/hc/ja/5-pokemon-go/faq/1490-%E7%89%B9%E5%AE%9A%E5%95%86%E5%8F%96%E5%BC%95%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A4%E3%81%8F%E8%A1%A8%E7%A4%BA/
 
 RESOURCE ID: kindling_2026_mini_collection
-TEXT: Kanto Homecoming: Road to Mewtwo
+TEXT: เยี่ยมชมภูมิภาคคันโต: เส้นทางสู่มิวทู
 
 RESOURCE ID: kindling_2026_mini_collection_desc
-TEXT: Catch the Pokémon from the Kanto Homecoming Timed Research to encounter Mewtwo!
+TEXT: จับโปเกมอนจากงานวิจัยแบบจำกัดเวลาเยี่ยมชมภูมิภาคคันโตเพื่อเผชิญหน้ากับมิวทู!
 
 RESOURCE ID: lobby_shield_break_power
 TEXT: ศักยภาพทำลายโล่ {0}/{1}
@@ -629,10 +641,10 @@ RESOURCE ID: mega_raid_shiny_boost
 TEXT: เพิ่มโอกาสเผชิญหน้ากับโปเกมอนสีแตกต่างจากตีบอสเมก้า
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-08-25T00:39:24.215034+00:00 for th-TH
-at SHA 327cb4e2544
-Pipeline 3895507, job 57281112
-Patch from: 0.427.0-SHA-bafb3348-RC1, 0.425.1-SHA-966e4c2a-RC1
+TEXT: Built at 2026-08-26T01:07:20.006486+00:00 for th-TH
+at SHA 2e2920214a9
+Pipeline 3898520, job 57331254
+Patch from: 0.427.0-SHA-05b59ce2-RC3, 0.425.1-SHA-966e4c2a-RC1
 
 RESOURCE ID: move_mega_evo_boost_bonus
 TEXT: โบนัสวิวัฒนาการเมก้า
@@ -845,7 +857,8 @@ RESOURCE ID: quest_catch_froakie_family_plural
 TEXT: จับเคโรมัตซึ, เกโคกาชิระ หรือเก็คโคกะ {0} ตัว
 
 RESOURCE ID: quest_catch_kanto_pokemon_days
-TEXT: Catch Pokémon originally discovered in the Kanto region on {0} different days
+TEXT: จับโปเกมอนที่ถูกค้นพบครั้งแรก
+ในภูมิภาคคันโตรวม {0} วัน
 
 RESOURCE ID: quest_defeat_mega_dragonite_singular
 TEXT: เอาชนะเมก้าไคริว
@@ -1250,6 +1263,12 @@ TEXT: City Safari: รีโอเดจาเนโร 2026 (3/3)
 RESOURCE ID: search_filter_help_url
 TEXT: https://scopelyexplore.helpshift.com/hc/faq/1126-searching-filtering-your-pokemon-inventory/
 
+RESOURCE ID: season24_twilight_trails
+TEXT: เส้นทางสนธยา
+
+RESOURCE ID: season_gbl_forecast_title_24
+TEXT: Pokémon GO: เส้นทางสนธยา
+
 RESOURCE ID: season_pass_april2025_upgrade_description
 TEXT: ซื้อบัตรผ่าน GO Deluxe: เมษายน เพื่อปลดล็อกรางวัลต่อไปนี้!
 
@@ -1301,6 +1320,9 @@ TEXT: ซื้อบัตรผ่าน GO Deluxe: ธันวาคม เ�
 - เครื่องฟักไข่ชั้นเยี่ยม 1 ชิ้น
 - <a href="https://scopelyexplore.helpshift.com/hc/faq/1118-incubators-hatching-pokemon-eggs/">เครื่องฟักไข่จำกัดเวลา</a>ที่สามารถฟักไข่ได้ไม่จำกัดจำนวนครั้ง 1 ชิ้น
 - และอื่น ๆ
+
+RESOURCE ID: season_pass_details_link_sep2026
+TEXT: ตรวจสอบรายละเอียดได้ที่<a href="https://pokemongo.com/news/go-pass-september-2026">เว็บไซต์</a>นี้
 
 RESOURCE ID: season_pass_details_link_wcs_2026
 TEXT: ตรวจสอบรายละเอียดได้ที่<a href="https://pokemongo.com/news/world-championships-event-2026">เว็บไซต์</a>นี้
@@ -1375,6 +1397,19 @@ TEXT: บัตรผ่าน GO Deluxe: โปเกมอน XP & WCS 2026 + 
 RESOURCE ID: season_pass_premium_track_title_wcs_2026
 TEXT: บัตรผ่าน GO Deluxe: โปเกมอน XP & WCS 2026
 
+RESOURCE ID: season_pass_sep2026_event_duration
+TEXT: 8 กันยายน ถึง 6 ตุลาคม
+
+RESOURCE ID: season_pass_sep2026_track_upgrade_header_description
+TEXT: รับรางวัลเพิ่มเติมและปลดล็อก<b>เครื่องฟักไข่จำกัดเวลา</b>ที่ระดับ 20!
+
+RESOURCE ID: season_pass_sep2026_upgrade_description
+TEXT: ซื้อบัตรผ่าน GO Deluxe: กันยายน เพื่อปลดล็อกรางวัลต่อไปนี้!
+
+- เครื่องฟักไข่ชั้นเยี่ยม 1 ชิ้น
+- <a href="https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/2358-incubators-hatching-pokemon-eggs/">เครื่องฟักไข่จำกัดเวลา</a>ที่สามารถฟักไข่ได้ไม่จำกัดจำนวนครั้ง 1 ชิ้น
+- และอื่น ๆ
+
 RESOURCE ID: season_pass_september2025_upgrade_description
 TEXT: ซื้อบัตรผ่าน GO Deluxe: กันยายน เพื่อปลดล็อกรางวัลต่อไปนี้!
 
@@ -1414,7 +1449,7 @@ RESOURCE ID: settings_wearables_device_troubleshooting_url
 TEXT: https://scopelyexplore.helpshift.com/hc/faq/1337-pairing-and-connecting-pokemon-go-to-official-devices/
 
 RESOURCE ID: shield_break_adventure_effect_battle_log
-TEXT: YOUR ATTACKS ARE BOOSTED BY DYNAMIC PUNCH+’S ADVENTURE EFFECT!
+TEXT: พลังโจมตีของคุณได้รับการบูสต์จากเอฟเฟกต์ผจญภัย "หมัดดินระเบิด+"
 
 RESOURCE ID: shop_discount_disclaimer_helpshift_url
 TEXT: https://scopelyexplore.helpshift.com/hc/faq/1267-notice-regarding-discount-rates-displayed-in-the-shop/
@@ -1516,14 +1551,15 @@ TEXT: ตั๋วสำหรับเข้าร่วมงานวิจ�
 ภาคสนามโบนัสได้<a href="https://scopelyexplore.helpshift.com/hc/faq/1098-why-does-my-field-research-task-have-a-bonus-tag/">ที่นี่</a>
 
 RESOURCE ID: text_rewards_key_gowa26
-TEXT: <b>Includes:</b>
-• Up to 6 free Raid Passes each day from spinning Gym Photo Discs
-• Increased chance of receiving event 10 km Eggs from PokéStops
-• Up to 6 Special Trades per day and reduced Stardust cost for trades
-• 1/2 Hatch Distance when Eggs are placed in an Incubator during the event
-• 2× Candy for catching Pokémon
-• A higher chance to encounter Shiny Pokémon during the event
-Learn more about the ticket bonuses <a href="pokemongo.com/gowildarea/global">here</a>.
+TEXT: <b>สิ่งที่จะได้รับ:</b>
+- บัตรตีบอสฟรีสูงสุด 6 ใบในแต่ละวัน โดยการหมุนแผ่นภาพที่ยิม
+- เพิ่มโอกาสได้รับไข่ 10 กม. จากการหมุนเสาโปเกสต็อป
+- แลกเปลี่ยนแบบพิเศษได้สูงสุด 6 ครั้งต่อวัน และลดปริมาณสตาร์ดัสต์ที่ใช้สำหรับแลกเปลี่ยน
+- 1/2 ระยะทางฟักไข่สำหรับไข่ที่วางไว้ในเครื่องฟักไข่ในช่วงอีเวนต์
+- 2× ลูกอมจากการจับโปเกมอน
+- โอกาสในการเผชิญหน้ากับโปเกมอนสีแตกต่างจะเพิ่มขึ้นในระหว่างอีเวนต์
+
+เรียนรู้เพิ่มเติมเกี่ยวกับโบนัสตั๋วได้<a href="pokemongo.com/gowildarea/global">ที่นี่</a>
 
 RESOURCE ID: text_rewards_key_monthlyticketnov24
 TEXT: ตั๋วสำหรับรับโบนัส, งานวิจัยแบบจำกัดเวลาที่มีรางวัลเป็น 200 โบนัสโปเกคอยน์ และงานวิจัยภาคสนามโบนัสประจำวันที่มีรางวัลเป็นโบนัสโปเกคอยน์
@@ -1637,7 +1673,7 @@ RESOURCE ID: title_wcs_2026_scavenger_hunt_00
 TEXT: 2026 Pokémon World Championships: เกมล่าสมบัติ (1/1)
 
 RESOURCE ID: today_view_welcome_back_tab_label
-TEXT: Kanto Homecoming
+TEXT: เยี่ยมชมภูมิภาคคันโต
 
 RESOURCE ID: tr_gofest2026_finale_branch_chespin_desc
 TEXT: เมื่อเลือกเส้นทางนี้ จะได้รับพลังงานเมก้าเพื่อวิวัฒนาการเมก้าบริการอน, โอกาสในการเผชิญหน้ากับฮาริมารอนสีแตกต่างเพิ่มขึ้น, การเผชิญหน้ากับฮาริมารอนที่มีพื้นหลังพิเศษ, ลูกอมฮาริมารอน และลูกอมฮาริมารอน XL
@@ -1652,40 +1688,40 @@ RESOURCE ID: tr_gofest2026_finale_starter_choice
 TEXT: GO Fest 2026: ตัวเลือกเมก้าแห่งเมก้าฟินาเล
 
 RESOURCE ID: tr_kindling_2026_set_01_header
-TEXT: Kanto Homecoming Timed Research (1/12)
+TEXT: งานวิจัยแบบจำกัดเวลาเยี่ยมชมภูมิภาคคันโต (1/12)
 
 RESOURCE ID: tr_kindling_2026_set_02_header
-TEXT: Kanto Homecoming Timed Research (2/12)
+TEXT: งานวิจัยแบบจำกัดเวลาเยี่ยมชมภูมิภาคคันโต (2/12)
 
 RESOURCE ID: tr_kindling_2026_set_03_header
-TEXT: Kanto Homecoming Timed Research (3/12)
+TEXT: งานวิจัยแบบจำกัดเวลาเยี่ยมชมภูมิภาคคันโต (3/12)
 
 RESOURCE ID: tr_kindling_2026_set_04_header
-TEXT: Kanto Homecoming Timed Research (4/12)
+TEXT: งานวิจัยแบบจำกัดเวลาเยี่ยมชมภูมิภาคคันโต (4/12)
 
 RESOURCE ID: tr_kindling_2026_set_05_header
-TEXT: Kanto Homecoming Timed Research (5/12)
+TEXT: งานวิจัยแบบจำกัดเวลาเยี่ยมชมภูมิภาคคันโต (5/12)
 
 RESOURCE ID: tr_kindling_2026_set_06_header
-TEXT: Kanto Homecoming Timed Research (6/12)
+TEXT: งานวิจัยแบบจำกัดเวลาเยี่ยมชมภูมิภาคคันโต (6/12)
 
 RESOURCE ID: tr_kindling_2026_set_07_header
-TEXT: Kanto Homecoming Timed Research (7/12)
+TEXT: งานวิจัยแบบจำกัดเวลาเยี่ยมชมภูมิภาคคันโต (7/12)
 
 RESOURCE ID: tr_kindling_2026_set_08_header
-TEXT: Kanto Homecoming Timed Research (8/12)
+TEXT: งานวิจัยแบบจำกัดเวลาเยี่ยมชมภูมิภาคคันโต (8/12)
 
 RESOURCE ID: tr_kindling_2026_set_09_header
-TEXT: Kanto Homecoming Timed Research (9/12)
+TEXT: งานวิจัยแบบจำกัดเวลาเยี่ยมชมภูมิภาคคันโต (9/12)
 
 RESOURCE ID: tr_kindling_2026_set_10_header
-TEXT: Kanto Homecoming Timed Research (10/12)
+TEXT: งานวิจัยแบบจำกัดเวลาเยี่ยมชมภูมิภาคคันโต (10/12)
 
 RESOURCE ID: tr_kindling_2026_set_11_header
-TEXT: Kanto Homecoming Timed Research (11/12)
+TEXT: งานวิจัยแบบจำกัดเวลาเยี่ยมชมภูมิภาคคันโต (11/12)
 
 RESOURCE ID: tr_kindling_2026_set_12_header
-TEXT: Kanto Homecoming Timed Research (12/12)
+TEXT: งานวิจัยแบบจำกัดเวลาเยี่ยมชมภูมิภาคคันโต (12/12)
 
 RESOURCE ID: tr_kr_tr_test_2026_feature_button_text_1
 TEXT: สำรวจ

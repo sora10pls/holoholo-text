@@ -312,6 +312,9 @@ TEXT: Okaya
 RESOURCE ID: city_manhole_485
 TEXT: Kiso
 
+RESOURCE ID: combat_title_season_24
+TEXT: GO Maç Ligi: Akşamüstü Keyfi
+
 RESOURCE ID: complete_lucky_remote_trade_prompt
 TEXT: <color=#F2A64B><b>Şanslı uzak takası</b></color> gözden geçirip tamamlayın!
 
@@ -396,6 +399,9 @@ TEXT: Lüks GO Bileti: Efsanelerin Yolu’nu satın alarak şu ödüllerin kilid
 • Ve çok daha fazlası!
 
 Eğitmenler 6-10 Temmuz tarihleri arasında Bilet Görevlerinde kazandıkları puanlara ek olarak her gün 1000 GO Puanı kazanabilecek. 11-12 Temmuz’da gerçekleşecek Pokémon GO Festivali: Küresel sırasında kazanılabilecek GO Puanında ise sınır yok!
+
+RESOURCE ID: event_season24_name
+TEXT: Şu Anki Sezon: Akşamüstü Keyfi
 
 RESOURCE ID: friend_wants_to_lucky_remote_trade_prompt
 TEXT: {0} size <color=#F2A64B><b>şanslı uzak takas</b></color> isteği gönderdi.
@@ -569,10 +575,10 @@ RESOURCE ID: jp_iap_link2
 TEXT: https://scopelyexplore.helpshift.com/hc/ja/5-pokemon-go/faq/1490-%E7%89%B9%E5%AE%9A%E5%95%86%E5%8F%96%E5%BC%95%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A4%E3%81%8F%E8%A1%A8%E7%A4%BA/
 
 RESOURCE ID: kindling_2026_mini_collection
-TEXT: Kanto Homecoming: Road to Mewtwo
+TEXT: Kanto Yuvaya Dönüş: Mewtwo’ya Doğru
 
 RESOURCE ID: kindling_2026_mini_collection_desc
-TEXT: Catch the Pokémon from the Kanto Homecoming Timed Research to encounter Mewtwo!
+TEXT: Kanto Yuvaya Dönüş süreli araştırmasında Pokémon yakalayın, Mewtwo ile karşılaşın!
 
 RESOURCE ID: lobby_shield_break_power
 TEXT: {0}/{1} kalkan kırma potansiyeli
@@ -611,10 +617,10 @@ RESOURCE ID: mega_raid_shiny_boost
 TEXT: Mega akınlarda Parlak Pokémon’larla karşılaşma şansında artış
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-08-25T00:39:24.215034+00:00 for tr-TR
-at SHA 327cb4e2544
-Pipeline 3895507, job 57281112
-Patch from: 0.427.0-SHA-bafb3348-RC1, 0.425.1-SHA-966e4c2a-RC1
+TEXT: Built at 2026-08-26T01:07:20.006486+00:00 for tr-TR
+at SHA 2e2920214a9
+Pipeline 3898520, job 57331254
+Patch from: 0.427.0-SHA-05b59ce2-RC3, 0.425.1-SHA-966e4c2a-RC1
 
 RESOURCE ID: move_mega_evo_boost_bonus
 TEXT: MEGA EVRİM BONUSU
@@ -800,7 +806,7 @@ RESOURCE ID: quest_catch_froakie_family_plural
 TEXT: {0} Froakie, Frogadier veya Greninja yakalayın
 
 RESOURCE ID: quest_catch_kanto_pokemon_days
-TEXT: Catch Pokémon originally discovered in the Kanto region on {0} different days
+TEXT: {0} farklı gün ilk olarak Kanto bölgesinde keşfedilmiş Pokémon yakalayın
 
 RESOURCE ID: quest_defeat_mega_dragonite_singular
 TEXT: Mega Dragonite’ı alt edin
@@ -1174,6 +1180,12 @@ TEXT: Şehir Safarisi: Rio de Janeiro 2026 (3/3)
 RESOURCE ID: search_filter_help_url
 TEXT: https://scopelyexplore.helpshift.com/hc/faq/1126-searching-filtering-your-pokemon-inventory/
 
+RESOURCE ID: season24_twilight_trails
+TEXT: Akşamüstü Keyfi
+
+RESOURCE ID: season_gbl_forecast_title_24
+TEXT: Pokémon GO: Akşamüstü Keyfi
+
 RESOURCE ID: season_pass_april2025_upgrade_description
 TEXT: Lüks GO Bileti: Nisan’ı satın alarak şu ödüllerin kilidini açabilirsiniz:
 • Xerneas ile ilave bir karşılaşma
@@ -1212,6 +1224,9 @@ TEXT: Lüks GO Bileti: Aralık’ı satın alarak şu ödüllerin kilidini açab
 • Bir Süper Kuluçka Makinesi
 • Keşif yaparken yumurta çatlatmak için sınırlı süreliğine kullanabileceğiniz ilave bir sonsuz Kuluçka Makinesi olan bir <a href="https://scopelyexplore.helpshift.com/hc/faq/1118-incubators-hatching-pokemon-eggs/">Süreli Kuluçka Makinesi</a>!
 • Ve daha fazlası!
+
+RESOURCE ID: season_pass_details_link_sep2026
+TEXT: Ayrıntıları <a href="https://pokemongo.com/news/go-pass-september-2026">internet sitemizden</a> öğrenebilirsiniz.
 
 RESOURCE ID: season_pass_details_link_wcs_2026
 TEXT: Ayrıntıları <a href="https://pokemongo.com/news/world-championships-event-2026">internet sitemizden</a> öğrenebilirsiniz.
@@ -1269,6 +1284,19 @@ TEXT: Lüks GO Bileti: PokémonXP ve 2026 Dünya Şampiyonası + 6 Rütbe
 
 RESOURCE ID: season_pass_premium_track_title_wcs_2026
 TEXT: Lüks GO Bileti: PokémonXP ve 2026 Dünya Şampiyonası
+
+RESOURCE ID: season_pass_sep2026_event_duration
+TEXT: 8 Eylül-6 Ekim
+
+RESOURCE ID: season_pass_sep2026_track_upgrade_header_description
+TEXT: 20. rütbede ilave ödüller kazanıp <b>Süreli Kuluçka Makinesinin</b> kilidini açabilirsiniz!
+
+RESOURCE ID: season_pass_sep2026_upgrade_description
+TEXT: Lüks GO Bileti: Eylül’ü satın alarak şu ödüllerin kilidini açabilirsiniz:
+
+• Bir Süper Kuluçka Makinesi
+• Keşif yaparken yumurta çatlatmak için sınırlı süreliğine kullanabileceğiniz ilave bir sonsuz Kuluçka Makinesi olan bir <a href="https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/2358-incubators-hatching-pokemon-eggs/">Süreli Kuluçka Makinesi</a>!
+• Ve daha fazlası!
 
 RESOURCE ID: season_pass_september2025_upgrade_description
 TEXT: Lüks GO Bileti: Eylül’ü satın alarak şu ödüllerin kilidini açabilirsiniz:
@@ -1509,7 +1537,7 @@ RESOURCE ID: title_wcs_2026_scavenger_hunt_00
 TEXT: 2026 Pokémon Dünya Şampiyonası Hazine Avı (1/1)
 
 RESOURCE ID: today_view_welcome_back_tab_label
-TEXT: Kanto Homecoming
+TEXT: Kanto Yuvaya Dönüş
 
 RESOURCE ID: tr_gofest2026_finale_branch_chespin_desc
 TEXT: Chesnaught’ı mega evrimleştirmek için gereken miktarda mega enerji, Parlak Chespin’le karşılaşma şansında artış, özel arka plana sahip Chespin’lerle karşılaşmalar, Chespin şekeri ve büyük şeker kazanmak için bu yolu seçin.
@@ -1524,40 +1552,40 @@ RESOURCE ID: tr_gofest2026_finale_starter_choice
 TEXT: GO Festivali 2026: Mega Final Mega Seçimi
 
 RESOURCE ID: tr_kindling_2026_set_01_header
-TEXT: Kanto Homecoming Timed Research (1/12)
+TEXT: Kanto Yuvaya Dönüş Süreli Araştırması (1/12)
 
 RESOURCE ID: tr_kindling_2026_set_02_header
-TEXT: Kanto Homecoming Timed Research (2/12)
+TEXT: Kanto Yuvaya Dönüş Süreli Araştırması (2/12)
 
 RESOURCE ID: tr_kindling_2026_set_03_header
-TEXT: Kanto Homecoming Timed Research (3/12)
+TEXT: Kanto Yuvaya Dönüş Süreli Araştırması (3/12)
 
 RESOURCE ID: tr_kindling_2026_set_04_header
-TEXT: Kanto Homecoming Timed Research (4/12)
+TEXT: Kanto Yuvaya Dönüş Süreli Araştırması (4/12)
 
 RESOURCE ID: tr_kindling_2026_set_05_header
-TEXT: Kanto Homecoming Timed Research (5/12)
+TEXT: Kanto Yuvaya Dönüş Süreli Araştırması (5/12)
 
 RESOURCE ID: tr_kindling_2026_set_06_header
-TEXT: Kanto Homecoming Timed Research (6/12)
+TEXT: Kanto Yuvaya Dönüş Süreli Araştırması (6/12)
 
 RESOURCE ID: tr_kindling_2026_set_07_header
-TEXT: Kanto Homecoming Timed Research (7/12)
+TEXT: Kanto Yuvaya Dönüş Süreli Araştırması (7/12)
 
 RESOURCE ID: tr_kindling_2026_set_08_header
-TEXT: Kanto Homecoming Timed Research (8/12)
+TEXT: Kanto Yuvaya Dönüş Süreli Araştırması (8/12)
 
 RESOURCE ID: tr_kindling_2026_set_09_header
-TEXT: Kanto Homecoming Timed Research (9/12)
+TEXT: Kanto Yuvaya Dönüş Süreli Araştırması (9/12)
 
 RESOURCE ID: tr_kindling_2026_set_10_header
-TEXT: Kanto Homecoming Timed Research (10/12)
+TEXT: Kanto Yuvaya Dönüş Süreli Araştırması (10/12)
 
 RESOURCE ID: tr_kindling_2026_set_11_header
-TEXT: Kanto Homecoming Timed Research (11/12)
+TEXT: Kanto Yuvaya Dönüş Süreli Araştırması (11/12)
 
 RESOURCE ID: tr_kindling_2026_set_12_header
-TEXT: Kanto Homecoming Timed Research (12/12)
+TEXT: Kanto Yuvaya Dönüş Süreli Araştırması (12/12)
 
 RESOURCE ID: tr_kr_tr_test_2026_feature_button_text_1
 TEXT: Keşif Yapma
