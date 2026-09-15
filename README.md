@@ -1,6 +1,13 @@
 # holoholo-text
-A repository containing all text for Pokémon GO, in all available languages.  
-Includes text from the latest release (0.427.0), as well as the latest remote text.
+A repository containing all text for Pokémon GO, in all available languages.
 
-## Credits
-Formatted text is inspired by [PokeMiners](https://github.com/PokeMiners). Thanks for all your hard work over the years.
+## Release
+This directory contains local text from the latest release of the game: 0.427.0.
+
+## Remote
+This directory contains remote text from the server.
+
+## Formats
+Text files ending in `_formatted.txt` are formatted to match how [PokeMiners](https://github.com/PokeMiners) have released their text updates in the past.  
+
+Text files ending in `_raw.json` are direct, unedited rips.
