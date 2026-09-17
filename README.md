@@ -2,7 +2,7 @@
 A repository containing all text for Pokémon GO, in all available languages.
 
 ## Release
-This directory contains local text from the latest release of the game: 0.429.0.
+This directory contains local text from the latest release of the game: 0.429.1.
 
 ## Remote
 This directory contains remote text from the server.
