@@ -35,10 +35,10 @@ RESOURCE ID: allow_gift_list_prompt_button_label
 TEXT: YES, ALLOW
 
 RESOURCE ID: allow_gift_list_prompt_desc
-TEXT: After unpausing the following friend will be able to send you paid gifts again.
+TEXT: If you select Allow, this friend will be able to send you paid gifts again.
 
 RESOURCE ID: allow_gift_list_prompt_title
-TEXT: Allow Gifting?
+TEXT: Allow paid gifts?
 
 RESOURCE ID: apac2026_fullmoon_o_clock_desc
 TEXT: During the event period, event-themed Pokémon will appear daily at 12:00 p.m., 1:00 p.m., 7:00 p.m., and 8:00 p.m.!
@@ -52,8 +52,86 @@ TEXT: Dancing in the Moonlight 2026
 RESOURCE ID: applin_apple_drop_bonus
 TEXT: Wild Applin have an increased chance of holding Tart Apples, Sweet Apples, or Syrupy Apples
 
+RESOURCE ID: appraise_size_huge_1|1
+TEXT: It would be categorized as unusually large.
+
+RESOURCE ID: appraise_size_huge_1|1b
+TEXT: It would be categorized as unusually large.
+
+RESOURCE ID: appraise_size_huge_2|1
+TEXT: Hey, it’s enormous!
+
+RESOURCE ID: appraise_size_huge_2|1b
+TEXT: Hey, it’s enormous!
+
+RESOURCE ID: appraise_size_huge_3|1
+TEXT: It’s just HUGE!
+
+RESOURCE ID: appraise_size_huge_3|1b
+TEXT: It’s just HUGE!
+
+RESOURCE ID: appraise_size_large_1|1
+TEXT: It is above average in size.
+
+RESOURCE ID: appraise_size_large_1|1b
+TEXT: It’s above average in size.
+
+RESOURCE ID: appraise_size_large_2|1
+TEXT: It’s rather sizable, that’s for sure!
+
+RESOURCE ID: appraise_size_large_3|1
+TEXT: It’s a BIG one!
+
+RESOURCE ID: appraise_size_large_3|1b
+TEXT: It’s a BIG one!
+
+RESOURCE ID: appraise_size_small_1|1
+TEXT: It is below average in size.
+
+RESOURCE ID: appraise_size_small_1|1b
+TEXT: It’s below average in size.
+
+RESOURCE ID: appraise_size_small_2|1
+TEXT: Aww, it’s a small one! It’s rather cute, I’d say.
+
+RESOURCE ID: appraise_size_small_3|1
+TEXT: It’s a little small for its kind, don’t you think?
+
+RESOURCE ID: appraise_size_tiny_1|1
+TEXT: It would be categorized as unusually small.
+
+RESOURCE ID: appraise_size_tiny_1|1b
+TEXT: It would be categorized as unusually small.
+
+RESOURCE ID: appraise_size_tiny_2|1
+TEXT: That’s a li’l one you’ve got there!
+
+RESOURCE ID: appraise_size_tiny_2|1b
+TEXT: That’s a li’l one you’ve got there!
+
+RESOURCE ID: appraise_size_tiny_3|1
+TEXT: It’s pretty petite, huh?
+
 RESOURCE ID: appraise_size_tiny_3|1b
-TEXT: Your {0} is pretty petite, huh?
+TEXT: It’s pretty petite, huh?
+
+RESOURCE ID: appraise_size_xxl_1|1
+TEXT: It’s...colossal. This is indeed exceptional—fascinating!
+
+RESOURCE ID: appraise_size_xxl_2|1
+TEXT: It’s gigantic—the largest I’ve ever seen!
+
+RESOURCE ID: appraise_size_xxl_3|1
+TEXT: It’s massive! This might be one of the biggest ones in the world...
+
+RESOURCE ID: appraise_size_xxs_1|1
+TEXT: It’s tinier than any we have on record. Astounding.
+
+RESOURCE ID: appraise_size_xxs_2|1
+TEXT: It’s so tiny, I almost didn’t notice it!
+
+RESOURCE ID: appraise_size_xxs_3|1
+TEXT: Wh-whoa. I’ve never seen one so tiny!
 
 RESOURCE ID: ardk_download_confirm_body
 TEXT: To fully enjoy the AR buddy feature, please download the Scopely Explore AR Platform. (You can turn off this trial at any time.)
@@ -570,7 +648,7 @@ RESOURCE ID: gift_multi_delete_plural
 TEXT: Discard these {0} Gifts?
 
 RESOURCE ID: gifting_error_description_temp
-TEXT: Unfortunately, this Friend is now ineligible for receiving this paid gift. This can happen for a variety of reasons.
+TEXT: Unfortunately, this friend cannot receive this paid gift. This can happen for a variety of reasons.
 
 You can choose a new friend to send this to now.
 
@@ -791,10 +869,10 @@ RESOURCE ID: item_fall_marathon_2026_milestone_name
 TEXT: Bramblin Encounter
 
 RESOURCE ID: item_inventory_paid_gift_banner_subtitle
-TEXT: Send to your Friends?
+TEXT: Send to your friends?
 
 RESOURCE ID: item_inventory_paid_gift_banner_title
-TEXT: You have paid gifts
+TEXT: You have paid gifts!
 
 RESOURCE ID: kr_fcseoul_collab_2026_bonus_raid_lc_desc
 TEXT: During event hours on October 24, Charmander caught from raids around the Seoul World Cup Stadium event area may have an exclusive Location Background
@@ -944,10 +1022,10 @@ RESOURCE ID: mega_staraptor_raid_day_event_name
 TEXT: Staraptor Super Mega Raid Day
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-09-24T05:21:12.957005+00:00 for en-US
-at SHA 6210d7033b5
-Pipeline 3966222, job 58396566
-Patch from: 0.429.2-SHA-ea3abc5d-RC1, 0.431.0-SHA-8123c737-RC1
+TEXT: Built at 2026-09-25T01:02:34.710192+00:00 for en-US
+at SHA c5627299131
+Pipeline 3969198, job 58438768
+Patch from: 0.429.2-SHA-ea3abc5d-RC1, 0.431.0-SHA-98b5070c-RC6
 
 RESOURCE ID: monodepth_ar_plus_required_toast
 TEXT: Turn on Scopely Explore AR to use Reality Blending.
@@ -977,7 +1055,7 @@ RESOURCE ID: paid_gift_already_purchased_modal_button
 TEXT: GO TO INVENTORY
 
 RESOURCE ID: paid_gift_already_purchased_modal_message
-TEXT: Please check your inventory to send your paid gift.
+TEXT: You can send it from your inventory.
 
 RESOURCE ID: paid_gift_already_purchased_modal_title
 TEXT: You have already purchased this paid gift.
@@ -1010,10 +1088,10 @@ RESOURCE ID: pause_gift_list_prompt_button_label
 TEXT: YES, PAUSE
 
 RESOURCE ID: pause_gift_list_prompt_desc
-TEXT: The following Friend will be unable to send you paid gifts. You can enable them to send again at any point.
+TEXT: The following friend will be unable to send you paid gifts. You can allow them to send paid gifts again at any point.
 
 RESOURCE ID: pause_gift_list_prompt_title
-TEXT: Pause Gifting?
+TEXT: Pause paid gifts?
 
 RESOURCE ID: pause_gift_list_title
 TEXT: Pause Gifts List
@@ -1046,7 +1124,7 @@ RESOURCE ID: pokemon_info_no_hurt_pokemon
 TEXT: All Pokémon are fully healed.
 
 RESOURCE ID: premium_gift_ftue_desc
-TEXT: You can now send and receive more types of gifts through the Shop!
+TEXT: You can now send and receive more types of gifts through the shop!
 
 Do you want to opt in? You can change this at any point in Settings.
 
@@ -1054,10 +1132,10 @@ RESOURCE ID: premium_gift_ftue_title
 TEXT: Introducing More Gifting Options in the Shop
 
 RESOURCE ID: premium_gift_notification_event_pass_desc
-TEXT: Greetings, <b>{0}</b>! Here’s an GO Pass for you. Let’s see who can complete it and get all the rewards!
+TEXT: Hi, <b>{0}</b>! Here’s a GO Pass Deluxe for you. Can you complete it and get all the rewards?
 
-Sincerely,
-—<b>{1}</b>
+Cheers,
+<b>{1}</b>
 
 RESOURCE ID: premium_gift_notification_event_pass_title
 TEXT: GO Pass
@@ -1068,29 +1146,29 @@ TEXT: Gift For You
 RESOURCE ID: premium_gift_notification_multiple_trainers_desc
 TEXT: Greetings, <b>{0}</b>!
 
-Your Friends sent some gifts for you!
+Your friends sent you some gifts!
 
 
 RESOURCE ID: premium_gift_notification_one_trainer_multiple_items_desc
-TEXT: Greetings, <b>{0}</b>!
+TEXT: Hi, <b>{0}</b>!
 
-Here are gifts for you!
+I hope you enjoy these gifts!
 {2}
 
-Sincerely,
-—<b>{1}</b>
+Cheers,
+<b>{1}</b>
 
 RESOURCE ID: premium_gift_notification_one_trainer_one_item_desc
-TEXT: Greetings, <b>{0}</b>!
+TEXT: Hi, <b>{0}</b>!
 
 Here’s a gift for you!
 {2}
 
-Sincerely,
-—<b>{1}</b>
+Cheers,
+<b>{1}</b>
 
 RESOURCE ID: premium_gift_received_event_pass
-TEXT: {0} gifted you an GO Pass!
+TEXT: {0} gifted you a GO Pass Deluxe!
 
 RESOURCE ID: premium_gift_received_event_ticket
 TEXT: {0} gifted you a ticket for an event!
@@ -1102,7 +1180,7 @@ RESOURCE ID: premium_gift_received_item_single
 TEXT: {0} gifted you a {1}!
 
 RESOURCE ID: premium_gift_sent
-TEXT: You sent a paid gift to {0}
+TEXT: You sent a paid gift to {0}.
 
 RESOURCE ID: privacy_policy_update_notice
 TEXT: Please review the updated Scopely Explore Privacy Policy for additional information about new product features and how we process personal data.
@@ -1584,10 +1662,10 @@ RESOURCE ID: settings_advanced_privacy_title
 TEXT: Privacy
 
 RESOURCE ID: settings_allow_paid_gifts_desc_off
-TEXT: Turning off this feature will pause Friends to send you paid gifts. This does not include free gifts.
+TEXT: Turning off this feature will pause friends from sending you paid gifts. This does not include free Gifts.
 
 RESOURCE ID: settings_allow_paid_gifts_desc_on
-TEXT: Turning on this feature will allow Friends to send you paid gifts. You can pause specific Friends from sending you paid gifts in the Paused Friends List once turned on.
+TEXT: Turning on this feature will allow friends to send you paid gifts. You can pause specific friends from sending you paid gifts in the Pause Gifts List once this feature is turned on.
 
 RESOURCE ID: settings_allow_paid_gifts_title_off
 TEXT: Turn Off Paid Gifts from Friends?
@@ -1611,7 +1689,7 @@ RESOURCE ID: settings_pause_gifts_list
 TEXT: Pause Gifts List
 
 RESOURCE ID: settings_pause_gifts_list_tip
-TEXT: Selected Friends will not be able to send you paid gifts. This does not include free gifts.
+TEXT: Selected friends will not be able to send you paid gifts. They can still send you free Gifts.
 
 RESOURCE ID: shima_collab_2026_tr_1
 TEXT: adidas Timed Research (1/3)
@@ -1629,7 +1707,7 @@ RESOURCE ID: shima_collab_2026_tv_title
 TEXT: Pokémon GO: adidas
 
 RESOURCE ID: shop_already_unlocked_premium_event_pass
-TEXT: You’ve already unlocked this GO Pass Deluxe
+TEXT: You’ve already unlocked this GO Pass Deluxe.
 
 RESOURCE ID: shop_fully_upgraded_purchasable
 TEXT: Your {0} is fully upgraded! Earn more storage by leveling up!
@@ -1647,12 +1725,12 @@ TEXT: You can send <b>{0}</b> total paid gifts today. This gift cannot be used b
 RESOURCE ID: shop_gift_friend_ineligible_description_temp
 TEXT: You may not be able to send paid gifts—including items, tickets, and event passes—to some friends. This can happen for the following reasons:
 
- • They already own the ticket or event pass, or have already received it from someone else
- • For tickets, they may have active or completed research that prevents them from receiving it
- • Your friendship level is too low
- • They have disabled paid gifts
- • Their account is not eligible due to restrictions
- • Cross-currency gifting is not supported
+• They already own the ticket or event pass, or someone else sent it to them
+• They may have active or completed research that prevents them from receiving tickets
+• Your friendship level is too low
+• They have disabled paid gifts
+• Their account is not eligible due to restrictions
+• Cross-currency gifting is not supported
 
 RESOURCE ID: shop_gift_purchase_invitation_sent_generic_description
 TEXT: Your gift has been sent to {0}.

@@ -17,7 +17,7 @@ RESOURCE ID: abi_new_player_onboarding_opt_in_info
 TEXT: Se puede deshabilitar en cualquier momento en el menú de Configuración de la cuenta social de Scopely Explore.
 
 RESOURCE ID: about_screen_copyright1
-TEXT: ©2016-2023 Scopely Explore, Inc.
+TEXT: ©2016-2026 Scopely Explore, Inc.
 
 RESOURCE ID: add_friends_niantic_title
 TEXT: Amistad en Scopely Explore Games
@@ -35,10 +35,10 @@ RESOURCE ID: allow_gift_list_prompt_button_label
 TEXT: YES, ALLOW
 
 RESOURCE ID: allow_gift_list_prompt_desc
-TEXT: After unpausing the following friend will be able to send you paid gifts again.
+TEXT: If you select Allow, this friend will be able to send you paid gifts again.
 
 RESOURCE ID: allow_gift_list_prompt_title
-TEXT: Allow Gifting?
+TEXT: Allow paid gifts?
 
 RESOURCE ID: apac2026_fullmoon_o_clock_desc
 TEXT: Mientras dure el evento, ¡aparecerán Pokémon del evento a las 12:00 p. m., 1:00 p. m., 7:00 p. m. y 8:00 p. m. cada día!
@@ -569,7 +569,7 @@ RESOURCE ID: gift_multi_delete_plural
 TEXT: Discard these {0} Gifts?
 
 RESOURCE ID: gifting_error_description_temp
-TEXT: Unfortunately, this Friend is now ineligible for receiving this paid gift. This can happen for a variety of reasons.
+TEXT: Unfortunately, this friend cannot receive this paid gift. This can happen for a variety of reasons.
 
 You can choose a new friend to send this to now.
 
@@ -790,10 +790,10 @@ RESOURCE ID: item_fall_marathon_2026_milestone_name
 TEXT: Encuentro con Bramblin
 
 RESOURCE ID: item_inventory_paid_gift_banner_subtitle
-TEXT: Send to your Friends?
+TEXT: Send to your friends?
 
 RESOURCE ID: item_inventory_paid_gift_banner_title
-TEXT: You have paid gifts
+TEXT: You have paid gifts!
 
 RESOURCE ID: kr_fcseoul_collab_2026_bonus_raid_lc_desc
 TEXT: During event hours on October 24, Charmander caught from raids around the Seoul World Cup Stadium event area may have an exclusive Location Background
@@ -946,10 +946,10 @@ RESOURCE ID: mega_staraptor_raid_day_event_name
 TEXT: Día de Supermegaincursiones de Staraptor
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-09-24T05:21:12.957005+00:00 for es-MX
-at SHA 6210d7033b5
-Pipeline 3966222, job 58396566
-Patch from: 0.429.2-SHA-ea3abc5d-RC1, 0.431.0-SHA-8123c737-RC1
+TEXT: Built at 2026-09-25T01:02:34.710192+00:00 for es-MX
+at SHA c5627299131
+Pipeline 3969198, job 58438768
+Patch from: 0.429.2-SHA-ea3abc5d-RC1, 0.431.0-SHA-98b5070c-RC6
 
 RESOURCE ID: monodepth_ar_plus_required_toast
 TEXT: Activa Scopely Explore AR para usar la función Integrar realidad.
@@ -979,7 +979,7 @@ RESOURCE ID: paid_gift_already_purchased_modal_button
 TEXT: GO TO INVENTORY
 
 RESOURCE ID: paid_gift_already_purchased_modal_message
-TEXT: Please check your inventory to send your paid gift.
+TEXT: You can send it from your inventory.
 
 RESOURCE ID: paid_gift_already_purchased_modal_title
 TEXT: You have already purchased this paid gift.
@@ -1012,10 +1012,10 @@ RESOURCE ID: pause_gift_list_prompt_button_label
 TEXT: YES, PAUSE
 
 RESOURCE ID: pause_gift_list_prompt_desc
-TEXT: The following Friend will be unable to send you paid gifts. You can enable them to send again at any point.
+TEXT: The following friend will be unable to send you paid gifts. You can allow them to send paid gifts again at any point.
 
 RESOURCE ID: pause_gift_list_prompt_title
-TEXT: Pause Gifting?
+TEXT: Pause paid gifts?
 
 RESOURCE ID: pause_gift_list_title
 TEXT: Pause Gifts List
@@ -1051,7 +1051,7 @@ RESOURCE ID: pokemon_location_card_info_transfer_to_professor_confirmation
 TEXT: ¿De verdad quieres transferir este Pokémon que tiene un fondo raro?
 
 RESOURCE ID: premium_gift_ftue_desc
-TEXT: You can now send and receive more types of gifts through the Shop!
+TEXT: You can now send and receive more types of gifts through the shop!
 
 Do you want to opt in? You can change this at any point in Settings.
 
@@ -1059,10 +1059,10 @@ RESOURCE ID: premium_gift_ftue_title
 TEXT: Introducing More Gifting Options in the Shop
 
 RESOURCE ID: premium_gift_notification_event_pass_desc
-TEXT: Greetings, <b>{0}</b>! Here’s an GO Pass for you. Let’s see who can complete it and get all the rewards!
+TEXT: Hi, <b>{0}</b>! Here’s a GO Pass Deluxe for you. Can you complete it and get all the rewards?
 
-Sincerely,
-—<b>{1}</b>
+Cheers,
+<b>{1}</b>
 
 RESOURCE ID: premium_gift_notification_event_pass_title
 TEXT: GO Pass
@@ -1073,29 +1073,29 @@ TEXT: Gift For You
 RESOURCE ID: premium_gift_notification_multiple_trainers_desc
 TEXT: Greetings, <b>{0}</b>!
 
-Your Friends sent some gifts for you!
+Your friends sent you some gifts!
 
 
 RESOURCE ID: premium_gift_notification_one_trainer_multiple_items_desc
-TEXT: Greetings, <b>{0}</b>!
+TEXT: Hi, <b>{0}</b>!
 
-Here are gifts for you!
+I hope you enjoy these gifts!
 {2}
 
-Sincerely,
-—<b>{1}</b>
+Cheers,
+<b>{1}</b>
 
 RESOURCE ID: premium_gift_notification_one_trainer_one_item_desc
-TEXT: Greetings, <b>{0}</b>!
+TEXT: Hi, <b>{0}</b>!
 
 Here’s a gift for you!
 {2}
 
-Sincerely,
-—<b>{1}</b>
+Cheers,
+<b>{1}</b>
 
 RESOURCE ID: premium_gift_received_event_pass
-TEXT: {0} gifted you an GO Pass!
+TEXT: {0} gifted you a GO Pass Deluxe!
 
 RESOURCE ID: premium_gift_received_event_ticket
 TEXT: {0} gifted you a ticket for an event!
@@ -1107,7 +1107,7 @@ RESOURCE ID: premium_gift_received_item_single
 TEXT: {0} gifted you a {1}!
 
 RESOURCE ID: premium_gift_sent
-TEXT: You sent a paid gift to {0}
+TEXT: You sent a paid gift to {0}.
 
 RESOURCE ID: privacy_policy_update_notice
 TEXT: Por favor, revisa la política de privacidad actualizada de Scopely Explore para obtener información adicional sobre nuevas características del producto y cómo procesamos los datos personales.
@@ -1578,14 +1578,21 @@ TEXT: Pase de GO Deluxe: Celebración del evento de colaboración
 RESOURCE ID: season_pass_premium_track_title_mega_squads_2026
 TEXT: Pase de GO Deluxe: Megaescuadrones
 
+RESOURCE ID: season_pass_september2025_upgrade_description
+TEXT: ¡Adquiere el Pase de GO Deluxe: Septiembre para desbloquear las siguientes recompensas!
+
+• Una Superincubadora
+• Una <a href="https://scopelyexplore.helpshift.com/hc/faq/1118-incubators-hatching-pokemon-eggs/">Incubadora Temporal<a href="https://scopelyexplore.helpshift.com/hc/faq/1118-incubators-hatching-pokemon-eggs/">, que es una Incubadora infinita adicional que dura un tiempo limitado para que puedas eclosionar Huevos mientras exploras
+• ¡Y mucho más!
+
 RESOURCE ID: settings_advanced_privacy_title
 TEXT: Privacidad
 
 RESOURCE ID: settings_allow_paid_gifts_desc_off
-TEXT: Turning off this feature will pause Friends to send you paid gifts. This does not include free gifts.
+TEXT: Turning off this feature will pause friends from sending you paid gifts. This does not include free Gifts.
 
 RESOURCE ID: settings_allow_paid_gifts_desc_on
-TEXT: Turning on this feature will allow Friends to send you paid gifts. You can pause specific Friends from sending you paid gifts in the Paused Friends List once turned on.
+TEXT: Turning on this feature will allow friends to send you paid gifts. You can pause specific friends from sending you paid gifts in the Pause Gifts List once this feature is turned on.
 
 RESOURCE ID: settings_allow_paid_gifts_title_off
 TEXT: Turn Off Paid Gifts from Friends?
@@ -1609,7 +1616,7 @@ RESOURCE ID: settings_pause_gifts_list
 TEXT: Pause Gifts List
 
 RESOURCE ID: settings_pause_gifts_list_tip
-TEXT: Selected Friends will not be able to send you paid gifts. This does not include free gifts.
+TEXT: Selected friends will not be able to send you paid gifts. They can still send you free Gifts.
 
 RESOURCE ID: settings_wearables_device_troubleshooting_url
 TEXT: https://scopelyexplore.helpshift.com/hc/es/5-pokemon-go/faq/1337-pairing-and-connecting-pokemon-go-to-official-devices/
@@ -1630,7 +1637,7 @@ RESOURCE ID: shima_collab_2026_tv_title
 TEXT: Pokémon GO: adidas
 
 RESOURCE ID: shop_already_unlocked_premium_event_pass
-TEXT: You’ve already unlocked this GO Pass Deluxe
+TEXT: You’ve already unlocked this GO Pass Deluxe.
 
 RESOURCE ID: shop_fully_upgraded_purchasable
 TEXT: ¡Tu {0} se amplió al máximo! Consigue más almacenamiento subiendo de nivel.
@@ -1648,12 +1655,12 @@ TEXT: You can send <b>{0}</b> total paid gifts today. This gift cannot be used b
 RESOURCE ID: shop_gift_friend_ineligible_description_temp
 TEXT: You may not be able to send paid gifts—including items, tickets, and event passes—to some friends. This can happen for the following reasons:
 
- • They already own the ticket or event pass, or have already received it from someone else
- • For tickets, they may have active or completed research that prevents them from receiving it
- • Your friendship level is too low
- • They have disabled paid gifts
- • Their account is not eligible due to restrictions
- • Cross-currency gifting is not supported
+• They already own the ticket or event pass, or someone else sent it to them
+• They may have active or completed research that prevents them from receiving tickets
+• Your friendship level is too low
+• They have disabled paid gifts
+• Their account is not eligible due to restrictions
+• Cross-currency gifting is not supported
 
 RESOURCE ID: shop_gift_purchase_invitation_sent_generic_description
 TEXT: Your gift has been sent to {0}.
