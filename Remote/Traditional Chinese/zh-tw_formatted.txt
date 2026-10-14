@@ -20,13 +20,13 @@ RESOURCE ID: adventure_effect_activation_lobby_active
 TEXT: This Adventure Effect is currently active.
 
 RESOURCE ID: allow_gift_list_prompt_button_label
-TEXT: YES, ALLOW
+TEXT: 是，我要收取。
 
 RESOURCE ID: allow_gift_list_prompt_desc
-TEXT: If you select Allow, this friend will be able to send you paid gifts again.
+TEXT: 選擇收取之後，將重新開放收取這位朋友的付費贈禮。
 
 RESOURCE ID: allow_gift_list_prompt_title
-TEXT: Allow paid gifts?
+TEXT: 要收取付費贈禮嗎？
 
 RESOURCE ID: apac2026_fullmoon_o_clock_desc
 TEXT: 活動期間內，活動主題寶可夢會在每天12:00、13:00、19:00和20:00出現
@@ -386,7 +386,7 @@ RESOURCE ID: breakfast_tappable_tutorial_body_out
 TEXT: 只要遊玩路線，就有機會找到基格爾德・細胞。收集到所需數量的細胞後，即可合成基格爾德。
 
 RESOURCE ID: breakfast_tappable_tutorial_body_temp2
-TEXT: Collect up to 3 Zygarde Cells per day by completing Routes. Assemble your Zygarde Cells to create different Zygarde forms.
+TEXT: 只要完成路線，1天最多可收集3個基格爾德・細胞，並根據收集到的數量合成基格爾德的各種形態。
 
 RESOURCE ID: city_manhole_474
 TEXT: 輪島市
@@ -439,7 +439,7 @@ RESOURCE ID: community_day_zorua_event_name
 TEXT: 社群日：索羅亞
 
 RESOURCE ID: confirm_gift_purchase_v2_reward_points_prefix
-TEXT: You will receive
+TEXT: 可獲得的禮物：
 
 RESOURCE ID: delete_gift_message
 TEXT: 友情禮物不會被計為包包裡的道具。
@@ -526,10 +526,10 @@ RESOURCE ID: general_view_pokemon
 TEXT: 查看寶可夢
 
 RESOURCE ID: generic_event_pass_premium_unlock
-TEXT: GO Pass Deluxe
+TEXT: GO Pass豪華版
 
 RESOURCE ID: generic_event_pass_premium_unlock_plus_points
-TEXT: GO Pass Deluxe + Ranks
+TEXT: GO Pass豪華版＋級
 
 RESOURCE ID: gengar_bonus_raid
 TEXT: 超級耿鬼將在團體戰中出現
@@ -544,9 +544,9 @@ RESOURCE ID: gift_multi_delete_plural
 TEXT: 要丟棄{0}個友情禮物嗎？
 
 RESOURCE ID: gifting_error_description_temp
-TEXT: Unfortunately, this friend cannot receive this paid gift. This can happen for a variety of reasons.
+TEXT: 基於某些原因（各種可能性），你的朋友無法收取這份禮物。
 
-You can choose a new friend to send this to now.
+你可以選擇其他朋友來贈送。
 
 RESOURCE ID: gmax_duraludon_max_battles
 TEXT: Gigantamax Duraludon is appearing in Max Battles
@@ -903,7 +903,7 @@ RESOURCE ID: halloween_spooky_surprise_tappable_today_view
 TEXT: 驚喜盒出現在地圖上
 
 RESOURCE ID: iap_friend_picker_last_sent
-TEXT: Last Sent
+TEXT: 最後送禮的朋友
 
 RESOURCE ID: ibfc_minior_transformed
 TEXT: 小隕星的樣子發生了變化！
@@ -1056,10 +1056,10 @@ RESOURCE ID: item_fall_marathon_2026_milestone_name
 TEXT: 遇見納噬草
 
 RESOURCE ID: item_inventory_paid_gift_banner_subtitle
-TEXT: Send to your friends?
+TEXT: 要送給朋友嗎？
 
 RESOURCE ID: item_inventory_paid_gift_banner_title
-TEXT: You have paid gifts!
+TEXT: 已購買的禮物
 
 RESOURCE ID: item_mp_name_plural
 TEXT: Max Particles
@@ -1160,10 +1160,10 @@ RESOURCE ID: mega_evolve_pokemon_to_use_in_this_party
 TEXT: 請讓耿鬼進行超級進化
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-10-10T01:30:09.155088+00:00 for zh-TW
-at SHA 59b2e4089cd
-Pipeline 4012512, job 59119892
-Patch from: 0.431.0-SHA-ecb3d867-RC5, 0.433.0-SHA-d37b1aa1-RC1
+TEXT: Built at 2026-10-14T01:27:43.825708+00:00 for zh-TW
+at SHA 46a25b64966
+Pipeline 4019736, job 59225155
+Patch from: 0.435.0-SHA-5bec7604-RC1, 0.431.0-SHA-98b5070c-RC6, 0.433.0-SHA-a810fd7d-RC2
 
 RESOURCE ID: meteor_desc_1
 TEXT: 在看得到流星雨的夜裡，小隕星有可能出現。
@@ -1439,19 +1439,19 @@ RESOURCE ID: one_or_more_pokemon_exceed_this_leagues_cp_limit
 TEXT: 含有超過此聯盟CP上限的寶可夢
 
 RESOURCE ID: paid_gift_already_purchased_modal_button
-TEXT: GO TO INVENTORY
+TEXT: 前往包包
 
 RESOURCE ID: paid_gift_already_purchased_modal_message
-TEXT: You can send it from your inventory.
+TEXT: 可從包包傳送
 
 RESOURCE ID: paid_gift_already_purchased_modal_title
-TEXT: You have already purchased this paid gift.
+TEXT: 已經購買過的禮物
 
 RESOURCE ID: paid_gift_regift_no_longer_available_modal_message
-TEXT: This item is no longer available and cannot be gifted.
+TEXT: 這個商品已下架，因此無法作為禮物贈送。
 
 RESOURCE ID: paid_gift_regift_no_longer_available_modal_title
-TEXT: Gifting Error
+TEXT: 發生錯誤
 
 RESOURCE ID: partnership_gengar_2026_event_title
 TEXT: 寶可夢卡牌30週年慶典
@@ -1469,16 +1469,16 @@ RESOURCE ID: partnership_gengar_2026_tr_title
 TEXT: 寶可夢卡牌30週年慶典獎勵限時調查
 
 RESOURCE ID: pause_gift_list_prompt_button_label
-TEXT: YES, PAUSE
+TEXT: 是，我要停止。
 
 RESOURCE ID: pause_gift_list_prompt_desc
-TEXT: The following friend will be unable to send you paid gifts. You can allow them to send paid gifts again at any point.
+TEXT: 以下的朋友將無法再傳送付費贈禮給你。之後隨時可以重啟。
 
 RESOURCE ID: pause_gift_list_prompt_title
-TEXT: Pause paid gifts?
+TEXT: 要停止收取付費贈禮嗎？
 
 RESOURCE ID: pause_gift_list_title
-TEXT: Pause Gifts List
+TEXT: 停止收取禮物的名單
 
 RESOURCE ID: photobomb_five_zorua
 TEXT: 索羅亞將在GO Snapshot中驚喜現身5次
@@ -1505,63 +1505,57 @@ RESOURCE ID: pokemon_info_no_hurt_pokemon
 TEXT: 所有寶可夢都活力充沛
 
 RESOURCE ID: premium_gift_ftue_desc
-TEXT: You can now send and receive more types of gifts through the shop!
+TEXT: 在商店可買來送給朋友的禮物種類增加了！
 
-Do you want to opt in? You can change this at any point in Settings.
+要開啟設定嗎？之後隨時可以變更設定。
 
 RESOURCE ID: premium_gift_ftue_title
-TEXT: Introducing More Gifting Options in the Shop
+TEXT: 可贈送給朋友的道具增加了
 
 RESOURCE ID: premium_gift_notification_event_pass_desc
-TEXT: Hi, <b>{0}</b>! Here’s a GO Pass Deluxe for you. Can you complete it and get all the rewards?
+TEXT: 嗨，<b>{0}</b>！送你GO Pass豪華版。請收下。
 
-Cheers,
+謝謝。
 <b>{1}</b>
 
 RESOURCE ID: premium_gift_notification_event_pass_title
 TEXT: GO Pass
 
 RESOURCE ID: premium_gift_notification_items_title
-TEXT: Gift For You
+TEXT: 禮物
 
 RESOURCE ID: premium_gift_notification_multiple_trainers_desc
-TEXT: Greetings, <b>{0}</b>!
+TEXT: <b>{0}</b>！
 
-Your friends sent you some gifts!
+收到朋友送來的禮物了！
 
 
 RESOURCE ID: premium_gift_notification_one_trainer_multiple_items_desc
-TEXT: Hi, <b>{0}</b>!
+TEXT: 嗨，<b>{0}</b>！送你一些禮物。
 
-I hope you enjoy these gifts!
-{2}
-
-Cheers,
+希望會對你有幫助。
 <b>{1}</b>
 
 RESOURCE ID: premium_gift_notification_one_trainer_one_item_desc
-TEXT: Hi, <b>{0}</b>!
+TEXT: 嗨，<b>{0}</b>！這份禮物是我的一點心意。
 
-Here’s a gift for you!
-{2}
-
-Cheers,
+請收取。
 <b>{1}</b>
 
 RESOURCE ID: premium_gift_received_event_pass
-TEXT: {0} gifted you a GO Pass Deluxe!
+TEXT: {0}送了GO Pass豪華版給你！
 
 RESOURCE ID: premium_gift_received_event_ticket
-TEXT: {0} gifted you a ticket for an event!
+TEXT: {0}送了活動入場券給你！
 
 RESOURCE ID: premium_gift_received_item_multi
-TEXT: {0} gifted you a {1} and more!
+TEXT: {0}送了{1}等禮物給你！
 
 RESOURCE ID: premium_gift_received_item_single
-TEXT: {0} gifted you a {1}!
+TEXT: {0}送了{1}給你！
 
 RESOURCE ID: premium_gift_sent
-TEXT: You sent a paid gift to {0}.
+TEXT: 已傳送付費贈禮給{0}
 
 RESOURCE ID: privacy_policy_update_notice
 TEXT: 請查看Scopely Explore最新的隱私權政策，確認新功能及個人資料的處理方式。
@@ -1687,6 +1681,9 @@ TEXT: Return to the raid to catch the Raid Boss.
 
 RESOURCE ID: raid_battle_complete_rejoin_modal_title
 TEXT: Rejoin raid?
+
+RESOURCE ID: raid_encounter_flee_warning_button_text
+TEXT: FLEE
 
 RESOURCE ID: raid_encounter_flee_warning_modal_body
 TEXT: If you flee from this Pokémon, you won’t be able to return.
@@ -1934,22 +1931,22 @@ RESOURCE ID: settings_advanced_privacy_title
 TEXT: 隱私權
 
 RESOURCE ID: settings_allow_paid_gifts_desc_off
-TEXT: Turning off this feature will pause friends from sending you paid gifts. This does not include free Gifts.
+TEXT: 只要關閉此設定，即可停止收取朋友購買的禮物。不過免費禮物仍可繼續領取。
 
 RESOURCE ID: settings_allow_paid_gifts_desc_on
-TEXT: Turning on this feature will allow friends to send you paid gifts. You can pause specific friends from sending you paid gifts in the Pause Gifts List once this feature is turned on.
+TEXT: 只要開啟此設定，即可收取朋友購買的禮物。也可以選擇要停止收取哪些朋友的付費贈禮。
 
 RESOURCE ID: settings_allow_paid_gifts_title_off
-TEXT: Turn Off Paid Gifts from Friends?
+TEXT: 要關閉此設定以停止收取朋友的付費贈禮嗎？
 
 RESOURCE ID: settings_allow_paid_gifts_title_on
-TEXT: Turn On Paid Gifts from Friends?
+TEXT: 要開啟此設定以收取朋友的付費贈禮嗎？
 
 RESOURCE ID: settings_pause_gifts_list
-TEXT: Pause Gifts List
+TEXT: 停止收取禮物的名單
 
 RESOURCE ID: settings_pause_gifts_list_tip
-TEXT: Selected friends will not be able to send you paid gifts. They can still send you free Gifts.
+TEXT: 可以選擇朋友並停止收取對方的付費贈禮。不過免費禮物仍可繼續領取。
 
 RESOURCE ID: settings_show_location_card_background
 TEXT: 在個人檔案顯示夥伴寶可夢所擁有的稀有背卡
@@ -1973,23 +1970,23 @@ RESOURCE ID: shima_collab_2026_tv_title
 TEXT: Pokémon GO：adidas
 
 RESOURCE ID: shop_already_unlocked_premium_event_pass
-TEXT: You’ve already unlocked this GO Pass Deluxe.
+TEXT: 已購買此GO Pass豪華版
 
 RESOURCE ID: shop_gift_confirm_purchase_warning_description
-TEXT: You can send <b>{0}</b> total paid gifts today. This gift cannot be used by another player or refunded.
+TEXT: 今天總共還可送<b>{0}</b>個禮物。付費贈禮無法轉贈給其他玩家使用，也無法退費。
 
 RESOURCE ID: shop_gift_friend_ineligible_description_temp
-TEXT: You may not be able to send paid gifts—including items, tickets, and event passes—to some friends. This can happen for the following reasons:
+TEXT: 即使購買道具及活動入場券等禮物送給朋友，對方也有可能因為以下因素而無法收取。
 
-• They already own the ticket or event pass, or someone else sent it to them
-• They may have active or completed research that prevents them from receiving tickets
-• Your friendship level is too low
-• They have disabled paid gifts
-• Their account is not eligible due to restrictions
-• Cross-currency gifting is not supported
+・對方已購買或已收過相同禮物。
+・受到進行中或已完成的調查等影響而無法收取。
+・友誼等級不夠高
+・對方關閉了收取付費贈禮的功能
+・對方的帳號受到了限制
+・當雙方使用的貨幣不同時，彼此無法贈送或收取禮物
 
 RESOURCE ID: shop_gift_purchase_invitation_sent_generic_description
-TEXT: Your gift has been sent to {0}.
+TEXT: 已將禮物送給{0}！
 
 RESOURCE ID: social_online_consent_privacy
 TEXT: 請注意：開啟「顯示上線狀態」功能後，你在玩的所有Scopely Explore遊戲都將會啟用此功能。
@@ -2172,7 +2169,7 @@ RESOURCE ID: tr_gowa2026_poi_steel
 TEXT: A Wild Pursuit – Steel
 
 RESOURCE ID: tutorial_route_bonus_2_temp
-TEXT: Certain Pokémon may appear more often in the wild on Routes
+TEXT: 特定的野生寶可夢在路線上出現的機率有可能提高
 
 RESOURCE ID: unfriend_niantic_friend_tip
 TEXT: 只要在這個遊戲中刪除此朋友，就會在雙方都有遊玩的所有Scopely Explore遊戲中刪除朋友。
@@ -2181,6 +2178,9 @@ RESOURCE ID: unlink_account_failed_login_not_removable
 TEXT: <size=36>無法解除此帳號的綁定</size>
 
 你可能已經將此帳號與其他Scopely Explore服務綁定。請先綁定其他登入帳號，再解除此帳號的綁定。
+
+RESOURCE ID: username_suggestion_disclaimer_new_user
+TEXT: 小秘訣：其他訓練家會看到這個名稱，因此請勿使用本名。訓練家名稱之後也可以修改。
 
 RESOURCE ID: verbose_logs_info_body
 TEXT: 遊戲紀錄內包含可協助Scopely Explore改善Pokémon GO的寶貴資訊，若你允許系統儲存遊戲紀錄，系統將在遊戲內的各活動結束後將遊戲紀錄上傳與Scopely Explore分享。
