@@ -352,6 +352,24 @@ TEXT: You can find Zygarde Cells while you’re following a Route. You can assem
 RESOURCE ID: breakfast_tappable_tutorial_body_temp2
 TEXT: Collect up to 3 Zygarde Cells per day by completing Routes. Assemble your Zygarde Cells to create different Zygarde forms.
 
+RESOURCE ID: buddy_multilplayer_qr_display_header
+TEXT: Buddy Group 2D Code
+
+RESOURCE ID: buddy_multiplayer_create_session
+TEXT: Create Group 2D Code
+
+RESOURCE ID: buddy_multiplayer_mapping_timeout
+TEXT: The current Buddy Group closed due to inactivity. To continue, please retry by scanning a Group 2D Code.
+
+RESOURCE ID: buddy_multiplayer_qr_guidance
+TEXT: Scan a Group 2D Code
+
+RESOURCE ID: buddy_multiplayer_scan_button
+TEXT: Scan a Group 2D Code
+
+RESOURCE ID: buddy_multiplayer_timeout_dialog_description
+TEXT: The current Buddy Group closed due to inactivity. To continue, please retry by scanning a Group 2D Code.
+
 RESOURCE ID: city_manhole_477
 TEXT: Minamimaki
 
@@ -364,6 +382,9 @@ TEXT: Omachi
 RESOURCE ID: city_manhole_482
 TEXT: Ina
 
+RESOURCE ID: combat_matchmaking_invalid_qr
+TEXT: Invalid 2D Code.
+
 RESOURCE ID: community_day_zorua_event_name
 TEXT: Community Day: Zorua
 
@@ -375,6 +396,9 @@ TEXT: Gifts do not count toward Item Bag storage.
 
 RESOURCE ID: details_link_key_dmax_sinnoh_lake_max_battle
 TEXT: For more details, visit the <a href="https://pokemongo.com/news/dynamax-uxie-mesprit-azelf-max-battle-day-2026">website</a>.
+
+RESOURCE ID: details_link_key_megachandelureraidday
+TEXT: For more details, visit the <a href="https://pokemongo.com/news/chandelure-super-mega-raid-day-2026">website</a>.
 
 RESOURCE ID: dmax_azelf_lake_max_battles
 TEXT: Dynamax Azelf is appearing in Max Battles
@@ -409,6 +433,9 @@ TEXT: European Space Agency Event 2026 Timed Research
 RESOURCE ID: event_datetime_range_key_cd_zorua26
 TEXT: October 10, 2:00 p.m. – 5:00 p.m.
 
+RESOURCE ID: event_mega_chandelure_raid_day_timed_research
+TEXT: Chandelure Super Mega Raid Day Timed Research
+
 RESOURCE ID: evergreen_week_event_name_twilight_trails
 TEXT: Choose Your Path: Twilight Trails
 
@@ -440,6 +467,9 @@ TEXT: Zorua Community Day Ticket
 
 RESOURCE ID: general2.ticket.2_sandilehatchday26_title
 TEXT: Sandile Hatch Day Premium Timed Research Ticket
+
+RESOURCE ID: general2.ticket.5_megachandelureraidday
+TEXT: Chandelure Super Mega Raid Day Ticket
 
 RESOURCE ID: general2.ticket.6.dmax_sinnoh_lake_max_battle
 TEXT: Dynamax Uxie, Mesprit, and Azelf Max Battle Day Ticket
@@ -956,11 +986,23 @@ TEXT: This Pokémon’s background cannot be displayed on your Trainer profile.
 RESOURCE ID: item_bag_bonus
 TEXT: bonus
 
+RESOURCE ID: item_bag_category_berries_and_poffins
+TEXT: Berries and Poffins
+
 RESOURCE ID: item_bag_category_featured
 TEXT: Featured
 
+RESOURCE ID: item_bag_category_incubators
+TEXT: Incubators
+
+RESOURCE ID: item_event_ticket_gray_desc_megachandelureraidday
+TEXT: A ticket to access special bonuses on Saturday, October 31, 2026, from 2:00 p.m. to 5:00 p.m. local time, wherever you are.
+
 RESOURCE ID: item_event_ticket_gray_desc_sandilehatchday26
 TEXT: A ticket to access the Sandile Hatch Day Premium Timed Research and special bonuses on October 17, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_gray_details_megachandelureraidday
+TEXT: This ticket will automatically activate on October 31 to give you access to special bonuses, wherever you are.
 
 RESOURCE ID: item_event_ticket_gray_details_sandilehatchday26
 TEXT: This ticket will automatically activate to give you access to the Sandile Hatch Day Premium Timed Research and special bonuses on October 17, wherever you are.
@@ -988,6 +1030,9 @@ TEXT: You have paid gifts!
 
 RESOURCE ID: item_mp_name_plural
 TEXT: Max Particles
+
+RESOURCE ID: journal_player_fled
+TEXT: Fled from a raid encounter with {0}.
 
 RESOURCE ID: jp_aeon_mall_collab_2026_event_desc
 TEXT: A special event is available at AEON Malls across Japan from October 19 to November 1!
@@ -1070,20 +1115,34 @@ TEXT: Dynamax Uxie, Mesprit, and Azelf Max Battle Day Ticket Bonuses
 RESOURCE ID: meetup_check_in_research_title_gowa2026
 TEXT: Meetup Check-In Timed Research: GO Wild Area
 
+RESOURCE ID: mega_chandelure_global_challenge
+TEXT: Chandelure Super Mega Raid Day Global Challenge
+
+RESOURCE ID: mega_chandelure_raid_day_event_name
+TEXT: Chandelure Super Mega Raid Day
+
 RESOURCE ID: mega_evolve_pokemon_to_use_in_this_party
 TEXT: Mega Evolve {0} to use this party.
 
+RESOURCE ID: mega_level_tutorial_cp_downscaling_1_body
+TEXT: If a Mega Pokémon’s CP exceeds certain Battle Leagues, their levels will be temporarily adjusted to where its CP is within that Battle League’s limits.
+
+Pokémon at Super Max Level will not have the Greatly Increased CP bonus in Master League.
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-10-14T01:27:43.825708+00:00 for en-US
-at SHA 46a25b64966
-Pipeline 4019736, job 59225155
-Patch from: 0.435.0-SHA-5bec7604-RC1, 0.431.0-SHA-98b5070c-RC6, 0.433.0-SHA-a810fd7d-RC2
+TEXT: Built at 2026-10-16T22:34:57.171068+00:00 for en-US
+at SHA d68311f630a
+Pipeline 4029884, job 59396785
+Patch from: 0.431.0-SHA-8123c737-RC1, 0.433.0-SHA-94a605de-RC4, 0.435.0-SHA-5bec7604-RC1
 
 RESOURCE ID: meteor_desc_1
 TEXT: Find Minior in the evenings during meteor showers.
 
 RESOURCE ID: meteor_title_1
 TEXT: METEOR SHOWER
+
+RESOURCE ID: minior_shower_tr_name
+TEXT: Minior Shower Timed Research
 
 RESOURCE ID: month_april
 TEXT: April
@@ -1304,6 +1363,15 @@ TEXT: <<move_name_0359>>+
 RESOURCE ID: move_name_0619
 TEXT: <<move_name_0064>>+
 
+RESOURCE ID: nearby_incomplete_raid_header
+TEXT: IN PROGRESS
+
+RESOURCE ID: nearby_incomplete_raid_widget_header
+TEXT: REJOIN
+
+RESOURCE ID: nearby_incomplete_raid_widget_title
+TEXT: Rejoin the {0} raid
+
 RESOURCE ID: night_out_2026_stream_tr_01
 TEXT: Pokémon Night Out Timed Research (1/2)
 
@@ -1340,6 +1408,12 @@ TEXT: Pokémon Night Out Timed Research: An Electric Choice
 RESOURCE ID: oclock_generic_desc
 TEXT: Event-themed Pokémon are appearing more frequently in the wild!
 
+RESOURCE ID: ominous_wind_base_increased_level_bonus
+TEXT: Mega Chandelure at Super Max Level will have its CP boosted from November 2 at 12:00 p.m. through November 15, 2026, at 12:00pm PST.
+
+RESOURCE ID: ominous_wind_base_power_boost_bonus
+TEXT: Ominous Wind+ will have its power increased from November 2 at 12:00 p.m.  through November 15, 2026, at 12:00 p.m. PST.
+
 RESOURCE ID: paid_gift_already_purchased_modal_button
 TEXT: GO TO INVENTORY
 
@@ -1370,6 +1444,9 @@ TEXT: Pokémon TCG 30th Celebration Event Bonus Timed Research (3/3)
 RESOURCE ID: partnership_gengar_2026_tr_title
 TEXT: Pokémon TCG 30th Celebration Event Bonus Timed Research
 
+RESOURCE ID: party_play_scan_qr_code
+TEXT: Scan the party’s 2D code.
+
 RESOURCE ID: pause_gift_list_prompt_button_label
 TEXT: YES, PAUSE
 
@@ -1399,6 +1476,13 @@ TEXT: No Pokémon need to be revived.
 
 RESOURCE ID: pokemon_info_no_hurt_pokemon
 TEXT: All Pokémon are fully healed.
+
+RESOURCE ID: pokestop_button_read_qr_code
+TEXT: READ 2D CODE
+
+RESOURCE ID: pokestop_check_in_notice
+TEXT: Welcome to {0}!
+Please use the camera to read the 2D Code to check in.
 
 RESOURCE ID: premium_gift_ftue_desc
 TEXT: You can now send and receive more types of gifts through the shop!
@@ -1459,11 +1543,59 @@ TEXT: {0} gifted you a {1}!
 RESOURCE ID: premium_gift_sent
 TEXT: You sent a paid gift to {0}.
 
+RESOURCE ID: ptc_account_creation_prompt
+TEXT: No Pokémon Trainer Central account?
+
+RESOURCE ID: ptc_auth_consent_needed_out
+TEXT: You must give Pokémon GO access to your Pokémon Trainer Central account to continue playing.
+
+RESOURCE ID: ptc_auth_link_disclaimer
+TEXT: Once linked, Pokémon Trainer Central cannot be unlinked.
+
+RESOURCE ID: ptc_auth_link_message_out
+TEXT: Link a Pokémon Trainer Central account to your Pokémon GO account to earn an {0}.
+
+RESOURCE ID: ptc_auth_parent_consent_needed
+TEXT: You’ll need a parent or guardian to give Pokémon GO access to your Pokémon Trainer Central account.
+
+RESOURCE ID: ptc_auth_timed_research_message
+TEXT: Link or validate your Pokémon Trainer Central account by tapping the Account option in Pokémon GO’s Settings menu.
+
+RESOURCE ID: ptc_auth_timed_research_title
+TEXT: Pokémon Trainer Central Reward
+
+RESOURCE ID: ptc_auth_validate_message
+TEXT: Validate your Pokémon Trainer Central account to earn a {0}.
+
+RESOURCE ID: ptc_auth_validate_success
+TEXT: Pokémon Trainer Central account successfully validated! Pokémon GO will restart.
+
+RESOURCE ID: ptc_claim_reward_msg_out
+TEXT: You have successfully linked your Pokémon Trainer Central account and earned an Incubator.
+
+RESOURCE ID: ptc_login_button_out
+TEXT: Pokémon Trainer Central
+
+RESOURCE ID: ptc_login_server_unreachable_out
+TEXT: The Pokémon Trainer Central is currently unavailable. We apologize for the inconvenience.
+
+RESOURCE ID: ptc_login_title_out
+TEXT: Pokémon Trainer Central
+
+RESOURCE ID: qr_code_title
+TEXT: Scan the 2D Code
+
+RESOURCE ID: qr_decode_problem
+TEXT: 2D Code recognition failed. Please try manual input.
+
 RESOURCE ID: quest_buddy_affection_dragon_plural
 TEXT: Earn {0} hearts with a Dragon-type buddy
 
 RESOURCE ID: quest_buddy_affection_steel_plural
 TEXT: Earn {0} hearts with a Steel-type buddy
+
+RESOURCE ID: quest_defeat_ghost_fire_type_raid_singular
+TEXT: Defeat a Fire- or Ghost-type Raid Boss
 
 RESOURCE ID: quest_explore_buddy_dragon
 TEXT: Earn a Candy exploring with a Dragon type as your buddy
@@ -1599,6 +1731,9 @@ TEXT: Display a buddy’s rare background on your Trainer profile!
 
 RESOURCE ID: rare_background_ftue_profile_swap_buddies_button
 TEXT: SWAP BUDDIES
+
+RESOURCE ID: recycle_dialog_quantity
+TEXT: QUANTITY: {0}
 
 RESOURCE ID: recycle_discard_all
 TEXT: YES, DISCARD ALL
@@ -1827,6 +1962,21 @@ TEXT: You may not be able to send paid gifts—including items, tickets, and eve
 RESOURCE ID: shop_gift_purchase_invitation_sent_generic_description
 TEXT: Your gift has been sent to {0}.
 
+RESOURCE ID: social_add_friend_qr
+TEXT: 2D Code
+
+RESOURCE ID: social_add_friend_qr_v2
+TEXT: SCAN 2D CODE
+
+RESOURCE ID: social_my_qr_code
+TEXT: My 2D Code
+
+RESOURCE ID: social_qr_code_prompt
+TEXT: Scan this 2D Code with another Trainer’s scanner.
+
+RESOURCE ID: social_qr_scan_prompt
+TEXT: Scan a Trainer’s 2D Code
+
 RESOURCE ID: soft_sfida_alert_pokemon_storage
 TEXT: Your Pokémon storage is full.
 
@@ -1962,6 +2112,13 @@ TEXT: <b>Included rewards:</b>
 • Encounters with Zorua with a Special Background
 • And more!
 
+RESOURCE ID: text_rewards_key_chandelureraidday
+TEXT: <b>Included bonuses:</b>
+• Eight additional Raid Passes from spinning Photo Discs at Gyms
+• Increased chance to receive Rare Candy XL from raids
+• Additional 5,000 Stardust from successfully completing Super Mega Raids
+• Additional 5,000 XP from successfully completing Super Mega Raids
+
 RESOURCE ID: text_rewards_key_dmaxsinnohlakemaxbattle26
 TEXT: <b>Includes:</b>
 • 2× XP from Max Battles
@@ -1982,6 +2139,12 @@ RESOURCE ID: tips_friends_tutorial_add_body
 TEXT: Add friends by entering their Trainer Code or scanning their 2D code. Adding friends in Pokémon GO will connect you in all Scopely Explore games you both play.
 
 You can also add friends by connecting your account to Facebook on the Add Friend screen.
+
+RESOURCE ID: tips_tasks_weather_boost_body
+TEXT: Certain Pokémon appear more frequently when the weather matches their type. These Pokémon have higher CP, are stronger in battle, and award extra Stardust when they’re caught.
+
+RESOURCE ID: tips_tasks_weather_boost_title
+TEXT: Weather Boosts
 
 RESOURCE ID: tr_apac_2026_mid_autumn_1
 TEXT: Dancing in the Moonlight 2026 Timed Research: Moonlit Path

@@ -403,6 +403,9 @@ TEXT: Geschenke zählen nicht zur Item-Beutel-Aufbewahrung.
 RESOURCE ID: details_link_key_dmax_sinnoh_lake_max_battle
 TEXT: Weitere Infos findest du auf der <a href="https://pokemongo.com/news/dynamax-uxie-mesprit-azelf-max-battle-day-2026">Website</a>.
 
+RESOURCE ID: details_link_key_megachandelureraidday
+TEXT: Weitere Infos findest du auf der <a href="https://pokemongo.com/news/chandelure-super-mega-raid-day-2026">Website</a>.
+
 RESOURCE ID: dmax_azelf_lake_max_battles
 TEXT: Dynamax-Tobutz erscheint in Dyna-Kämpfen
 
@@ -421,6 +424,9 @@ TEXT: Drehe {0} Drachen-PokéStops.
 RESOURCE ID: dragon_poi_spin_singular
 TEXT: Drehe einen Drachen-PokéStop.
 
+RESOURCE ID: enhanced_currency_full_desc
+TEXT: Voller Link-Speicher. Nutze Link-Ladungen bei Mega-Raids, um mehr einzulösen.
+
 RESOURCE ID: esa_2026_title
 TEXT: European Space Agency Event 2026
 
@@ -435,6 +441,9 @@ TEXT: Befristete Forschung: European Space Agency Event 2026
 
 RESOURCE ID: event_datetime_range_key_cd_zorua26
 TEXT: 10. Oktober, 14:00 bis 17:00 Uhr
+
+RESOURCE ID: event_mega_chandelure_raid_day_timed_research
+TEXT: Befristete Forschung: Super-Mega-Raid-Tag mit Skelabra
 
 RESOURCE ID: evergreen_week_event_name_twilight_trails
 TEXT: Wähle deinen Pfad: Abendgoldpfade
@@ -474,6 +483,9 @@ TEXT: Ticket: Community Day mit Zorua
 RESOURCE ID: general2.ticket.2_sandilehatchday26_title
 TEXT: Ticket: Befristete Premium-Forschung am Ganovil-Schlüpftag
 
+RESOURCE ID: general2.ticket.5_megachandelureraidday
+TEXT: Ticket: Super-Mega-Raid-Tag mit Skelabra
+
 RESOURCE ID: general2.ticket.6.dmax_sinnoh_lake_max_battle
 TEXT: Ticket: Dyna-Kampftag mit Dynamax-Selfe, Vesprit und Tobutz
 
@@ -510,7 +522,7 @@ RESOURCE ID: gmax_duraludon_max_battles
 TEXT: Gigadynamax-Duraludon erscheint in Dyna-Kämpfen
 
 RESOURCE ID: gowa2026_leadup_collection_challenge
-TEXT: Into the Wild Collection Challenge
+TEXT: Auf ins Abenteuer: Sammler-Herausforderung
 
 RESOURCE ID: gowa_2026
 TEXT: Pokémon GO-Naturzone 2026
@@ -989,11 +1001,23 @@ TEXT: Der Hintergrund dieses Pokémon kann nicht auf deinem Trainerprofil angeze
 RESOURCE ID: item_bag_bonus
 TEXT: Bonus
 
+RESOURCE ID: item_bag_category_berries_and_poffins
+TEXT: Berries and Poffins
+
 RESOURCE ID: item_bag_category_featured
 TEXT: Aktuell
 
+RESOURCE ID: item_bag_category_incubators
+TEXT: Incubators
+
+RESOURCE ID: item_event_ticket_gray_desc_megachandelureraidday
+TEXT: Ein Ticket für den Zugang zu besonderen Boni am Samstag, 31. Oktober 2026 von 14:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
+
 RESOURCE ID: item_event_ticket_gray_desc_sandilehatchday26
 TEXT: Ein Ticket zur Teilnahme an der Befristeten Premium-Forschung „Ganovil-Schlüpftag“ am 17. Oktober von 11:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
+
+RESOURCE ID: item_event_ticket_gray_details_megachandelureraidday
+TEXT: Dieses Ticket aktiviert sich am 31. Oktober automatisch und gewährt dir Zugang zu besonderen Boni (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_gray_details_sandilehatchday26
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Befristeten Premium-Forschung „Ganovil-Schlüpftag“ am 17. Oktober (wo immer du dich befindest).
@@ -1020,7 +1044,10 @@ RESOURCE ID: item_inventory_paid_gift_banner_title
 TEXT: Du hast gekaufte Geschenke!
 
 RESOURCE ID: item_mp_name_plural
-TEXT: Max Particles
+TEXT: Dyna-Partikel
+
+RESOURCE ID: journal_player_fled
+TEXT: Fled from a raid encounter with {0}.
 
 RESOURCE ID: jp_aeon_mall_collab_2026_event_desc
 TEXT: Vom 19. Oktober bis 1. November findet in den AEON Malls in ganz Japan ein besonderes Event statt!
@@ -1121,20 +1148,34 @@ TEXT: Dyna-Kampftag mit Dynamax-Selfe, Vesprit und Tobutz: Ticket-Boni
 RESOURCE ID: meetup_check_in_research_title_gowa2026
 TEXT: Befristete Forschung: Anmeldung zu Treffen – GO-Naturzone
 
+RESOURCE ID: mega_chandelure_global_challenge
+TEXT: Globale Herausforderung: Super-Mega-Raid-Tag mit Skelabra
+
+RESOURCE ID: mega_chandelure_raid_day_event_name
+TEXT: Super-Mega-Raid-Tag mit Skelabra
+
 RESOURCE ID: mega_evolve_pokemon_to_use_in_this_party
 TEXT: Löse bei {0} die Mega-Entwicklung aus, um dieses Team einzusetzen.
 
+RESOURCE ID: mega_level_tutorial_cp_downscaling_1_body
+TEXT: If a Mega Pokémon’s CP exceeds certain Battle Leagues, their levels will be temporarily adjusted to where its CP is within that Battle League’s limits.
+
+Pokémon at Super Max Level will not have the Greatly Increased CP bonus in Master League.
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-10-14T01:27:43.825708+00:00 for de-DE
-at SHA 46a25b64966
-Pipeline 4019736, job 59225155
-Patch from: 0.435.0-SHA-5bec7604-RC1, 0.431.0-SHA-98b5070c-RC6, 0.433.0-SHA-a810fd7d-RC2
+TEXT: Built at 2026-10-16T22:34:57.171068+00:00 for de-DE
+at SHA d68311f630a
+Pipeline 4029884, job 59396785
+Patch from: 0.431.0-SHA-8123c737-RC1, 0.433.0-SHA-94a605de-RC4, 0.435.0-SHA-5bec7604-RC1
 
 RESOURCE ID: meteor_desc_1
 TEXT: Finde Meteno abends während eines Meteorschauers.
 
 RESOURCE ID: meteor_title_1
 TEXT: METEORSCHAUER
+
+RESOURCE ID: minior_shower_tr_name
+TEXT: Befristete Forschung: Meteno-Schauer
 
 RESOURCE ID: monodepth_ar_plus_required_toast
 TEXT: Aktiviere Scopely Explore AR, um Reality Blending zu nutzen.
@@ -1361,6 +1402,15 @@ TEXT: <<move_name_0359>>+
 RESOURCE ID: move_name_0619
 TEXT: <<move_name_0064>>+
 
+RESOURCE ID: nearby_incomplete_raid_header
+TEXT: IN PROGRESS
+
+RESOURCE ID: nearby_incomplete_raid_widget_header
+TEXT: REJOIN
+
+RESOURCE ID: nearby_incomplete_raid_widget_title
+TEXT: Rejoin the {0} raid
+
 RESOURCE ID: niantic_anniversary_event
 TEXT: Scopely Explore: Geburtstags-Event
 
@@ -1405,6 +1455,12 @@ TEXT: Befristete Forschung: Pokémon Elektrisierende Nacht – Eine elektrisiere
 
 RESOURCE ID: oclock_generic_desc
 TEXT: Wilde Event-Pokémon erscheinen mit vermehrter Häufigkeit!
+
+RESOURCE ID: ominous_wind_base_increased_level_bonus
+TEXT: Der Level von Mega-Skelabra wird vom 2. November um 21:00 Uhr bis zum 15. November 2026 um 21:00 Uhr (MEZ) erhöht.
+
+RESOURCE ID: ominous_wind_base_power_boost_bonus
+TEXT: Die Stärke von Unheilböen+ wird vom 2. November um 21:00 Uhr bis zum 15. November 2026 um 21:00 Uhr (MEZ) erhöht.
 
 RESOURCE ID: paid_gift_already_purchased_modal_button
 TEXT: ZUM INVENTAR
@@ -1546,6 +1602,9 @@ TEXT: Verdiene {0} Herzen mit einem Drachen-Pokémon als Kumpel.
 RESOURCE ID: quest_buddy_affection_steel_plural
 TEXT: Verdiene {0} Herzen mit einem Stahl-Pokémon als Kumpel.
 
+RESOURCE ID: quest_defeat_ghost_fire_type_raid_singular
+TEXT: Besiege einen Raid-Boss vom Typ Feuer oder Geist.
+
 RESOURCE ID: quest_explore_buddy_dragon
 TEXT: Verdiene ein Bonbon durch das Erkunden mit einem Drachen-Pokémon als Kumpel.
 
@@ -1598,10 +1657,10 @@ RESOURCE ID: quest_title_zorua_2
 TEXT: Trickser-Weg (3/3)
 
 RESOURCE ID: quest_walk_buddy_dragon_plural
-TEXT: Earn {0} Candies exploring with a Dragon-type Pokémon as your buddy
+TEXT: Verdiene {0} Bonbons durch das Erkunden mit einem Drachen-Pokémon als Kumpel.
 
 RESOURCE ID: quest_walk_buddy_steel_plural
-TEXT: Earn {0} Candies exploring with a Steel-type Pokémon as your buddy
+TEXT: Verdiene {0} Bonbons durch das Erkunden mit einem Stahl-Pokémon als Kumpel.
 
 RESOURCE ID: quest_zorua_catch_b
 TEXT: Fange {0} Zorua
@@ -1619,7 +1678,7 @@ RESOURCE ID: raid_battle_complete_rejoin_modal_title
 TEXT: Raid erneut beitreten?
 
 RESOURCE ID: raid_encounter_flee_warning_button_text
-TEXT: FLEE
+TEXT: FLIEHEN
 
 RESOURCE ID: raid_encounter_flee_warning_modal_body
 TEXT: Wenn du vor diesem Pokémon fliehst, kannst du nicht zurückkommen.
@@ -1628,34 +1687,34 @@ RESOURCE ID: raid_encounter_flee_warning_modal_title
 TEXT: Willst du wirklich fliehen?
 
 RESOURCE ID: rally_gowa_2026_cdmx_desc
-TEXT: Welcome to GO Wild Area: Mexico City!
+TEXT: Willkommen zur Pokémon GO-Naturzone: Mexiko-Stadt!
 
 RESOURCE ID: rally_gowa_2026_cdmx_desc_detail
-TEXT: Collect stamps by visiting GO Stamp Rally PokéStops in Mexico City during your ticketed event day!
+TEXT: Sammle Stempel, indem du mit deinem Event-Ticket GO-Stempel-Rallye-PokéStops in Mexiko-Stadt besuchst!
 
 RESOURCE ID: rally_gowa_2026_cdmx_location
-TEXT: Mexico City, Mexico
+TEXT: Mexiko-Stadt, Mexiko
 
 RESOURCE ID: rally_gowa_2026_cdmx_rewards_desc
-TEXT: Complete this rally to encounter an event-exclusive Machamp wearing a modern jacket with a Mexico City Location Background!
+TEXT: Schließe diese Rallye ab, um einem exklusiven Machomei mit modischer Jacke und einem Mexiko-Stadt-Ortshintergrund zu begegnen!
 
 RESOURCE ID: rally_gowa_2026_cdmx_title
-TEXT: GO Wild Area: Mexico City Stamp Rally
+TEXT: GO-Naturzone: Stempel-Rallye – Mexiko-Stadt
 
 RESOURCE ID: rally_gowa_2026_sendai_desc
-TEXT: Welcome to GO Wild Area: Sendai・Tohoku!
+TEXT: Willkommen zur GO-Naturzone: Sendai Tohoku!
 
 RESOURCE ID: rally_gowa_2026_sendai_desc_detail
-TEXT: Collect stamps by visiting GO Stamp Rally PokéStops in Sendai during your ticketed event day!
+TEXT: Sammle Stempel, indem du mit deinem Event-Ticket GO-Stempel-Rallye-PokéStops in Sendai besuchst!
 
 RESOURCE ID: rally_gowa_2026_sendai_location
 TEXT: Sendai・Tohoku, Japan
 
 RESOURCE ID: rally_gowa_2026_sendai_rewards_desc
-TEXT: Complete this rally to encounter an event-exclusive Machamp wearing a modern jacket with a Sendai・Tohoku Location Background!
+TEXT: Schließe diese Rallye ab, um einem exklusiven Machomei mit modischer Jacke und einem Sendai-Tohoku-Ortshintergrund zu begegnen!
 
 RESOURCE ID: rally_gowa_2026_sendai_title
-TEXT: GO Wild Area: Sendai・Tohoku Stamp Rally
+TEXT: GO-Naturzone: Stempel-Rallye – Sendai Tohoku
 
 RESOURCE ID: rare_background_disclaimer_text
 TEXT: Dieser Hintergrund kann auf deinem Trainerprofil angezeigt werden, wenn du dieses Pokémon zu deinem Kumpel machst.
@@ -1680,6 +1739,9 @@ TEXT: Zeige einen seltenen Kumpel-Hintergrund auf deinem Trainerprofil an!
 
 RESOURCE ID: rare_background_ftue_profile_swap_buddies_button
 TEXT: KUMPEL WECHSELN
+
+RESOURCE ID: recycle_dialog_quantity
+TEXT: QUANTITY: {0}
 
 RESOURCE ID: recycle_discard_all
 TEXT: JA, ALLE ENTFERNEN
@@ -1921,7 +1983,7 @@ RESOURCE ID: shop_already_unlocked_premium_event_pass
 TEXT: Du hast diesen GO-Pass-Deluxe bereits freigeschaltet.
 
 RESOURCE ID: shop_gift_confirm_purchase_warning_description
-TEXT: Du kannst heute insgesamt <b>{0}</b> gekaufte Geschenke verschicken. Dieses Geschenk kann nicht von einem anderen Spieler verwendet oder erstattet werden.
+TEXT: Du kannst insgesamt bis zu 20 gekaufte Geschenke pro Tag verschicken. Dieses Geschenk kann nicht von einem anderen Spieler verwendet oder erstattet werden.
 
 RESOURCE ID: shop_gift_friend_ineligible_description_temp
 TEXT: Du kannst einigen Freunden möglicherweise keine gekauften Geschenke wie Items, Tickets und Event-Pässe schicken. Dies kann folgende Gründe haben:
@@ -2075,6 +2137,13 @@ TEXT: <b>Enthaltene Belohnungen:</b>
 • Begegnungen mit Zorua mit Spezialhintergrund
 • Und mehr!
 
+RESOURCE ID: text_rewards_key_chandelureraidday
+TEXT: <b>Enthaltene Boni:</b>
+• 8 zusätzliche Raid-Pässe durch das Drehen von Fotoscheiben auf Arenen
+• Erhöhte Chance auf Sonderbonbons XL für Raids
+• Zusätzliche 5000 Sternenstaub für den erfolgreichen Abschluss von Super-Mega-Raids
+• Zusätzliche 5000 EP für den erfolgreichen Abschluss von Super-Mega-Raids
+
 RESOURCE ID: text_rewards_key_dmaxsinnohlakemaxbattle26
 TEXT: <b>Enthält:</b>
 • 2× EP aus Dyna-Kämpfen
@@ -2095,6 +2164,15 @@ RESOURCE ID: tips_friends_tutorial_add_body
 TEXT: Füge Freunde hinzu, indem du ihren Trainer-Code eingibst oder ihren 2D-Code scannst. Wenn du Freunde in Pokémon GO hinzufügst, sind sie mit dir in allen Scopely Explore-Spielen verbunden, die ihr beide spielt.
 
 Du kannst auch Freunde hinzufügen, indem du dein Konto auf dem Bildschirm „Freund hinzufügen“ mit Facebook verknüpfst.
+
+RESOURCE ID: tips_tasks_weather_boost_body
+TEXT: Certain Pokémon appear more frequently when the weather matches their type. These Pokémon have higher CP, are stronger in battle, and award extra Stardust when they’re caught.
+
+RESOURCE ID: tips_tasks_weather_boost_title
+TEXT: Weather Boosts
+
+RESOURCE ID: title_event_pass_daily_bonus_quest_premium
+TEXT: Tägliche Aufgaben – Deluxe
 
 RESOURCE ID: tr_apac_2026_mid_autumn_1
 TEXT: Befristete Forschung: Mondscheintanz 2026 – Monderhellter Pfad

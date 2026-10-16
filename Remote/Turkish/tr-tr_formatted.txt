@@ -423,6 +423,9 @@ TEXT: Hediyeler Eşya Çantasında yer kaplamaz.
 RESOURCE ID: details_link_key_dmax_sinnoh_lake_max_battle
 TEXT: Ayrıntıları <a href="https://pokemongo.com/news/dynamax-uxie-mesprit-azelf-max-battle-day-2026">internet sitemizden</a> öğrenebilirsiniz.
 
+RESOURCE ID: details_link_key_megachandelureraidday
+TEXT: Ayrıntıları <a href="https://pokemongo.com/news/chandelure-super-mega-raid-day-2026">internet sitemizden</a> öğrenebilirsiniz.
+
 RESOURCE ID: dmax_azelf_lake_max_battles
 TEXT: Dinamaks Azelf Maksi Maçlarda ortaya çıkıyor
 
@@ -459,6 +462,9 @@ TEXT: Avrupa Uzay Ajansı Etkinliği 2026 Süreli Araştırması
 RESOURCE ID: event_datetime_range_key_cd_zorua26
 TEXT: 10 Ekim, 14.00-17.00
 
+RESOURCE ID: event_mega_chandelure_raid_day_timed_research
+TEXT: Chandelure Süper Mega Akın Günü Süreli Araştırması
+
 RESOURCE ID: evergreen_week_event_name_twilight_trails
 TEXT: Yolunu Seç: Akşamüstü Keyfi
 
@@ -493,6 +499,9 @@ TEXT: Zorua Topluluk Günü Bileti
 
 RESOURCE ID: general2.ticket.2_sandilehatchday26_title
 TEXT: Yumurtadan Çıkan Sandile Günü Premium Süreli Araştırması Bileti
+
+RESOURCE ID: general2.ticket.5_megachandelureraidday
+TEXT: Chandelure Süper Mega Akın Günü Bileti
 
 RESOURCE ID: general2.ticket.6.dmax_sinnoh_lake_max_battle
 TEXT: Dinamaks Uxie, Mesprit ve Azelf Maksi Maç Günü Bileti
@@ -992,16 +1001,16 @@ RESOURCE ID: in_fol_2026_tr_title
 TEXT: Işık Festivali 2026 Süreli Araştırması
 
 RESOURCE ID: incomplete_raid_battle_rejoin_modal_body
-TEXT: Rejoin the raid to continue battling the Raid Boss.
+TEXT: Akın Canavarıyla maça devam için akına tekrar katılın.
 
 RESOURCE ID: incomplete_raid_battle_rejoin_modal_title
-TEXT: Rejoin raid?
+TEXT: Akına tekrar katılınsın mı?
 
 RESOURCE ID: incomplete_raid_encounter_rejoin_modal_body
-TEXT: Return to the encounter to catch the Raid Boss.
+TEXT: Akın Canavarını yakalamak için karşılaşmaya geri dönün.
 
 RESOURCE ID: incomplete_raid_encounter_rejoin_modal_title
-TEXT: Return to Raid Boss encounter?
+TEXT: Akın Canavarı karşılaşmasına dönülsün mü?
 
 RESOURCE ID: ineligible_rare_background_disclaimer_text
 TEXT: Bu Pokémon’un arka planı Eğitmen profilinizde gösterilemez.
@@ -1009,11 +1018,23 @@ TEXT: Bu Pokémon’un arka planı Eğitmen profilinizde gösterilemez.
 RESOURCE ID: item_bag_bonus
 TEXT: bonus
 
+RESOURCE ID: item_bag_category_berries_and_poffins
+TEXT: Berries and Poffins
+
 RESOURCE ID: item_bag_category_featured
 TEXT: Öne Çıkanlar
 
+RESOURCE ID: item_bag_category_incubators
+TEXT: Incubators
+
+RESOURCE ID: item_event_ticket_gray_desc_megachandelureraidday
+TEXT: 31 Ekim 2026 Cumartesi, yerel saatle 14.00-17.00 arasında geçerli olacak özel bonuslara dilediğiniz yerden hak kazanmanıza olanak tanıyan bir bilet.
+
 RESOURCE ID: item_event_ticket_gray_desc_sandilehatchday26
 TEXT: 17 Ekim 2026, yerel saatle 11.00-17.00 arasında gerçekleşecek Yumurtadan Çıkan Sandile Günü premium süreli araştırmasına dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
+
+RESOURCE ID: item_event_ticket_gray_details_megachandelureraidday
+TEXT: Bu bilet özel bonuslara dilediğiniz yerden hak kazanabilmeniz için 31 Ekim’de otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_gray_details_sandilehatchday26
 TEXT: Bu bilet Yumurtadan Çıkan Sandile Günü premium süreli araştırmasına dilediğiniz yerden erişebilmeniz için 17 Ekim’de otomatik olarak etkinleştirilecek.
@@ -1041,6 +1062,9 @@ TEXT: Ücretli hediyeleriniz var!
 
 RESOURCE ID: item_mp_name_plural
 TEXT: Maksi Parçacıklar
+
+RESOURCE ID: journal_player_fled
+TEXT: Fled from a raid encounter with {0}.
 
 RESOURCE ID: jp_aeon_mall_collab_2026_event_desc
 TEXT: Tüm Japonya’daki AEON Mall’larda 19 Ekim ile 1 Kasım arasında özel bir etkinlik gerçekleşiyor!
@@ -1138,20 +1162,34 @@ TEXT: Dinamaks Uxie, Mesprit ve Azelf Maksi Maç Günü Bileti Bonusları
 RESOURCE ID: meetup_check_in_research_title_gowa2026
 TEXT: Buluşmaya Giriş Süreli Araştırması: GO Vahşi Bölgesi
 
+RESOURCE ID: mega_chandelure_global_challenge
+TEXT: Chandelure Süper Mega Akın Günü Küresel Görevi
+
+RESOURCE ID: mega_chandelure_raid_day_event_name
+TEXT: Chandelure Süper Mega Akın Günü
+
 RESOURCE ID: mega_evolve_pokemon_to_use_in_this_party
 TEXT: Bu ekibi kullanmak için {0} mega evrimleştirilmeli.
 
+RESOURCE ID: mega_level_tutorial_cp_downscaling_1_body
+TEXT: If a Mega Pokémon’s CP exceeds certain Battle Leagues, their levels will be temporarily adjusted to where its CP is within that Battle League’s limits.
+
+Pokémon at Super Max Level will not have the Greatly Increased CP bonus in Master League.
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-10-14T01:27:43.825708+00:00 for tr-TR
-at SHA 46a25b64966
-Pipeline 4019736, job 59225155
-Patch from: 0.435.0-SHA-5bec7604-RC1, 0.431.0-SHA-98b5070c-RC6, 0.433.0-SHA-a810fd7d-RC2
+TEXT: Built at 2026-10-16T22:34:57.171068+00:00 for tr-TR
+at SHA d68311f630a
+Pipeline 4029884, job 59396785
+Patch from: 0.431.0-SHA-8123c737-RC1, 0.433.0-SHA-94a605de-RC4, 0.435.0-SHA-5bec7604-RC1
 
 RESOURCE ID: meteor_desc_1
 TEXT: Akşamları meteor yağmuru sırasında Minior bulun.
 
 RESOURCE ID: meteor_title_1
 TEXT: METEOR YAĞMURU
+
+RESOURCE ID: minior_shower_tr_name
+TEXT: Minior Yağmuru Süreli Araştırması
 
 RESOURCE ID: monodepth_ar_plus_required_toast
 TEXT: Gerçeklik Karıştırıcıyı kullanmak için Scopely Explore AR’ı açın.
@@ -1381,6 +1419,15 @@ TEXT: <<move_name_0359>>+
 RESOURCE ID: move_name_0619
 TEXT: <<move_name_0064>>+
 
+RESOURCE ID: nearby_incomplete_raid_header
+TEXT: IN PROGRESS
+
+RESOURCE ID: nearby_incomplete_raid_widget_header
+TEXT: REJOIN
+
+RESOURCE ID: nearby_incomplete_raid_widget_title
+TEXT: Rejoin the {0} raid
+
 RESOURCE ID: night_out_2026_stream_tr_01
 TEXT: Pokémon Night Out Süreli Araştırması (1/2)
 
@@ -1416,6 +1463,12 @@ TEXT: Pokémon Night Out Süreli Araştırması: Çarpıcı Tercih
 
 RESOURCE ID: oclock_generic_desc
 TEXT: Etkinlik temalı Pokémon’lar doğada daha sık ortaya çıkıyor!
+
+RESOURCE ID: ominous_wind_base_increased_level_bonus
+TEXT: 2 Kasım 2026, Pasifik saatiyle 12.00 (GMT -8) - 15 Kasım 2026, Pasifik saatiyle 12.00 (GMT -8) arasında Mega Chandelure’un seviyesi artacak.
+
+RESOURCE ID: ominous_wind_base_power_boost_bonus
+TEXT: 2 Kasım 2026, Pasifik saatiyle 12.00 (GMT -8) - 15 Kasım 2026, Pasifik saatiyle 12.00 (GMT -8) arasında Uğursuz Rüzgâr+ gücünü artıracak.
 
 RESOURCE ID: paid_gift_already_purchased_modal_button
 TEXT: ENVANTERE GİT
@@ -1601,6 +1654,9 @@ TEXT: Bir Ejderha türü dostla {0} kalp kazanın
 RESOURCE ID: quest_buddy_affection_steel_plural
 TEXT: Bir Çelik türü dostla {0} kalp kazanın
 
+RESOURCE ID: quest_defeat_ghost_fire_type_raid_singular
+TEXT: Ateş ya da Hayalet türü bir Akın Canavarı alt edin
+
 RESOURCE ID: quest_explore_buddy_dragon
 TEXT: Bir Ejderha türü dostunuzken keşfe çıkarak bir şeker kazanın
 
@@ -1609,6 +1665,12 @@ TEXT: Bir Çelik türü dostunuzken keşfe çıkarak bir şeker kazanın
 
 RESOURCE ID: quest_partner_spin_rally_familymart
 TEXT: {0} FamilyMart PokéDurağı ya da spor salonu döndürün
+
+RESOURCE ID: quest_power_up_plural
+TEXT: Pokémon’ları {0} kez güçlendirin
+
+RESOURCE ID: quest_rocket_power_up_plural
+TEXT: Pokémon’ları {0} kez güçlendirin
 
 RESOURCE ID: quest_safari2026_boston_visit_unique_pokestops_plural
 TEXT: Boston’da {0} farklı PokéDurak veya spor salonu döndürün
@@ -1621,6 +1683,9 @@ TEXT: {0} farklı vahşi Bitki türü Pokémon’un fotoğrafını çekin
 
 RESOURCE ID: quest_snapshot_wild_plural_grass_or_bug
 TEXT: {0} farklı vahşi Bitki veya Böcek türü Pokémon’un fotoğrafını çekin
+
+RESOURCE ID: quest_snapshot_wild_singular
+TEXT: Bir vahşi Pokémon’un fotoğrafını çekin
 
 RESOURCE ID: quest_special_dialogue_zygarde_1_2
 TEXT: Yakınlardaki rotalarda olağandışı şeyler olduğuna dair raporlar alıyorum. Bazı Eğitmenler ne olduğunu anlayamadıkları bir şeyle karşılaştıklarını söylediler!
@@ -1662,25 +1727,25 @@ RESOURCE ID: quest_zorua_catch_b
 TEXT: {0} Zorua yakalayın
 
 RESOURCE ID: raid_battle_complete_lost_modal_body
-TEXT: The Raid Boss was not defeated in time.
+TEXT: Akın Canavarı zamanında alt edilemedi.
 
 RESOURCE ID: raid_battle_complete_lost_modal_title
-TEXT: The Raid Battle has ended.
+TEXT: Akın maçı sona erdi.
 
 RESOURCE ID: raid_battle_complete_rejoin_modal_body
-TEXT: Return to the raid to catch the Raid Boss.
+TEXT: Akın Canavarını yakalamak için akına geri dönün.
 
 RESOURCE ID: raid_battle_complete_rejoin_modal_title
-TEXT: Rejoin raid?
+TEXT: Akına tekrar katılınsın mı?
 
 RESOURCE ID: raid_encounter_flee_warning_button_text
-TEXT: FLEE
+TEXT: AYRIL
 
 RESOURCE ID: raid_encounter_flee_warning_modal_body
-TEXT: If you flee from this Pokémon, you won’t be able to return.
+TEXT: Bu karşılaşmadan ayrılırsanız bir daha geri dönemezsiniz.
 
 RESOURCE ID: raid_encounter_flee_warning_modal_title
-TEXT: Are you sure you want to flee?
+TEXT: Ayrılmak istediğinize emin misiniz?
 
 RESOURCE ID: rally_gowa_2026_cdmx_desc
 TEXT: GO Vahşi Bölgesi: Meksiko’ya hoş geldiniz!
@@ -1735,6 +1800,9 @@ TEXT: Dostunuzun nadir arka planını Eğitmen profilinizde gösterin!
 
 RESOURCE ID: rare_background_ftue_profile_swap_buddies_button
 TEXT: DOST DEĞİŞTİR
+
+RESOURCE ID: recycle_dialog_quantity
+TEXT: QUANTITY: {0}
 
 RESOURCE ID: recycle_discard_all
 TEXT: TÜMÜNÜ SİL
@@ -1976,7 +2044,7 @@ RESOURCE ID: shop_already_unlocked_premium_event_pass
 TEXT: Bu Lüks GO Bileti’nin kilidini zaten açmışsınız.
 
 RESOURCE ID: shop_gift_confirm_purchase_warning_description
-TEXT: Bugün toplam <b>{0}</b> ücretli hediye yollayabilirsiniz. Bu hediye başka bir oyuncu tarafından kullanılamaz veya iade edilerek ücreti talep edilemez.
+TEXT: Her gün toplam 20 ücretli hediye yollayabilirsiniz. Bu hediye başka bir oyuncu tarafından kullanılamaz veya iade edilerek ücreti talep edilemez.
 
 RESOURCE ID: shop_gift_friend_ineligible_description_temp
 TEXT: Bazı arkadaşlarınıza ücretli hediye (eşyalar, biletler ve etkinlik biletleri de dahil olmak üzere) gönderemezsiniz. Bunun nedenleri şunlar olabilir:
@@ -2133,6 +2201,13 @@ TEXT: <b>Şu ödülleri içerir:</b>
 • Özel arka planlı Zorua ile karşılaşmalar
 • Ve daha fazlası!
 
+RESOURCE ID: text_rewards_key_chandelureraidday
+TEXT: <b>Şu bonusları içerir:</b>
+• Spor salonu fotoğraf disklerini döndürerek ilave 8 Akın Bileti
+• Akınlardan daha yüksek Nadir Büyük Şeker alma şansı
+• Başarıyla tamamlanan süper mega akınlardan ilave 5000 yıldız tozu
+• Başarıyla tamamlanan süper mega akınlardan ilave 5000 TP
+
 RESOURCE ID: text_rewards_key_dmaxsinnohlakemaxbattle26
 TEXT: <b>Şu bonusları içerir:</b>
 • Maksi Maçlardan 2× TP
@@ -2153,6 +2228,18 @@ RESOURCE ID: tips_friends_tutorial_add_body
 TEXT: Arkadaş eklemek için bir kullanıcının Eğitmen kodunu girebilir veya 2D kodunu tarayabilirsiniz. Pokémon GO’da eklediğiniz bir arkadaş ile her ikinizin de oynadığı tüm Scopely Explore oyunlarında da arkadaş olursunuz.
 
 Ayrıca Arkadaş Ekle ekranından hesabınızı Facebook ile bağlayarak da arkadaş ekleyebilirsiniz.
+
+RESOURCE ID: tips_tasks_snapshot_wild_title
+TEXT: Vahşi Pokémon’ları Fotoğraflamak
+
+RESOURCE ID: tips_tasks_weather_boost_body
+TEXT: Certain Pokémon appear more frequently when the weather matches their type. These Pokémon have higher CP, are stronger in battle, and award extra Stardust when they’re caught.
+
+RESOURCE ID: tips_tasks_weather_boost_title
+TEXT: Weather Boosts
+
+RESOURCE ID: title_event_pass_daily_bonus_quest_premium
+TEXT: Günlük Görevler – Lüks
 
 RESOURCE ID: tr_apac_2026_mid_autumn_1
 TEXT: Ay Işığında Dans 2026 Süreli Araştırması: Mehtaplı Yol

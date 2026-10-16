@@ -409,6 +409,9 @@ TEXT: Los regalos no ocupan espacio en la Bolsa.
 RESOURCE ID: details_link_key_dmax_sinnoh_lake_max_battle
 TEXT: Para obtener más información, visita el  <a href="https://pokemongo.com/news/dynamax-uxie-mesprit-azelf-max-battle-day-2026">sitio web</a>.
 
+RESOURCE ID: details_link_key_megachandelureraidday
+TEXT: Para obtener más información, visita el <a href="https://pokemongo.com/news/chandelure-super-mega-raid-day-2026">sitio web</a>.
+
 RESOURCE ID: dmax_azelf_lake_max_battles
 TEXT: Azelf Dinamax está apareciendo en los Combates Max
 
@@ -441,6 +444,9 @@ TEXT: Investigación temporal del Evento de la Agencia Espacial Europea 2026
 
 RESOURCE ID: event_datetime_range_key_cd_zorua26
 TEXT: 10 octubre de 14:00 a 17:00.
+
+RESOURCE ID: event_mega_chandelure_raid_day_timed_research
+TEXT: Investigación temporal del Día de supermegaincursiones: Chandelure
 
 RESOURCE ID: evergreen_week_event_name_twilight_trails
 TEXT: Escoge tu camino: Caminos Crepusculares
@@ -476,6 +482,9 @@ TEXT: Entrada: Día de la Comunidad de Zorua
 
 RESOURCE ID: general2.ticket.2_sandilehatchday26_title
 TEXT: Entrada: Investigación temporal prémium del Día de eclosiones de Sandile
+
+RESOURCE ID: general2.ticket.5_megachandelureraidday
+TEXT: Entrada: Día de supermegaincursiones de Chandelure
 
 RESOURCE ID: general2.ticket.6.dmax_sinnoh_lake_max_battle
 TEXT: Entrada: Día de Combates Max de Uxie, Mesprit y Azelf Dinamax
@@ -992,14 +1001,26 @@ TEXT: El fondo de este Pokémon no se puede mostrar en tu perfil de Entrenador.
 RESOURCE ID: item_bag_bonus
 TEXT: bonus
 
+RESOURCE ID: item_bag_category_berries_and_poffins
+TEXT: Berries and Poffins
+
 RESOURCE ID: item_bag_category_featured
 TEXT: Destacado
+
+RESOURCE ID: item_bag_category_incubators
+TEXT: Incubators
 
 RESOURCE ID: item_beans_desc
 TEXT: Las células de Zygarde se pueden agrupar y disgregar para sintetizar diferentes formas de Zygarde. Puedes tener {0} células de Zygarde al mismo tiempo.
 
+RESOURCE ID: item_event_ticket_gray_desc_megachandelureraidday
+TEXT: Una entrada para acceder a bonus especiales el sábado 31 de octubre de 2026 de 14:00 a 17:00 en tu hora local, estés donde estés.
+
 RESOURCE ID: item_event_ticket_gray_desc_sandilehatchday26
 TEXT: Una entrada para acceder a la investigación temporal prémium del Día de eclosiones de Sandile y a los bonus especiales el 17 de octubre de 11:00 a 17:00 en tu hora local, estés donde estés.
+
+RESOURCE ID: item_event_ticket_gray_details_megachandelureraidday
+TEXT: Esta entrada se activará automáticamente el 31 de octubre para darte acceso a los bonus especiales, estés donde estés.
 
 RESOURCE ID: item_event_ticket_gray_details_sandilehatchday26
 TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación temporal prémium del Día de eclosiones de Sandile y a bonus especiales el 17 de octubre, estés donde estés.
@@ -1027,6 +1048,9 @@ TEXT: ¡Tienes regalos de pago!
 
 RESOURCE ID: item_mp_name_plural
 TEXT: Partículas Max
+
+RESOURCE ID: journal_player_fled
+TEXT: Fled from a raid encounter with {0}.
 
 RESOURCE ID: jp_aeon_mall_collab_2026_event_desc
 TEXT: ¡Un evento especial está disponible en los AEON Mall de Japón del 19 de octubre al 1 de noviembre!
@@ -1121,20 +1145,34 @@ TEXT: Bonus de la entrada del Día de Combates Max: Uxie, Mesprit y Azelf Dinama
 RESOURCE ID: meetup_check_in_research_title_gowa2026
 TEXT: Investigación temporal por participar en una quedada: Área Silvestre de GO
 
+RESOURCE ID: mega_chandelure_global_challenge
+TEXT: Desafío global del Día de supermegaincursiones: Chandelure
+
+RESOURCE ID: mega_chandelure_raid_day_event_name
+TEXT: Día de supermegaincursiones: Chandelure
+
 RESOURCE ID: mega_evolve_pokemon_to_use_in_this_party
 TEXT: Haz megaevolucionar a {0} para usar este equipo.
 
+RESOURCE ID: mega_level_tutorial_cp_downscaling_1_body
+TEXT: If a Mega Pokémon’s CP exceeds certain Battle Leagues, their levels will be temporarily adjusted to where its CP is within that Battle League’s limits.
+
+Pokémon at Super Max Level will not have the Greatly Increased CP bonus in Master League.
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-10-14T01:27:43.825708+00:00 for es-ES
-at SHA 46a25b64966
-Pipeline 4019736, job 59225155
-Patch from: 0.435.0-SHA-5bec7604-RC1, 0.431.0-SHA-98b5070c-RC6, 0.433.0-SHA-a810fd7d-RC2
+TEXT: Built at 2026-10-16T22:34:57.171068+00:00 for es-ES
+at SHA d68311f630a
+Pipeline 4029884, job 59396785
+Patch from: 0.431.0-SHA-8123c737-RC1, 0.433.0-SHA-94a605de-RC4, 0.435.0-SHA-5bec7604-RC1
 
 RESOURCE ID: meteor_desc_1
 TEXT: Busca a Minior por las noches, durante las lluvias de meteoritos.
 
 RESOURCE ID: meteor_title_1
 TEXT: LLUVIA DE METEORITOS
+
+RESOURCE ID: minior_shower_tr_name
+TEXT: Investigación temporal: Lluvia de Minior
 
 RESOURCE ID: monodepth_ar_plus_required_toast
 TEXT: Activa Scopely Explore AR para usar la función Realidad combinada.
@@ -1361,6 +1399,15 @@ TEXT: <<move_name_0359>>+
 RESOURCE ID: move_name_0619
 TEXT: <<move_name_0064>>+
 
+RESOURCE ID: nearby_incomplete_raid_header
+TEXT: IN PROGRESS
+
+RESOURCE ID: nearby_incomplete_raid_widget_header
+TEXT: REJOIN
+
+RESOURCE ID: nearby_incomplete_raid_widget_title
+TEXT: Rejoin the {0} raid
+
 RESOURCE ID: niantic_anniversary_event
 TEXT: Evento de cumpleaños de Scopely Explore
 
@@ -1402,6 +1449,12 @@ TEXT: Investigación temporal de la Noche Electrizante Pokémon: Una elección e
 
 RESOURCE ID: oclock_generic_desc
 TEXT: ¡Están apareciendo Pokémon del evento en estado salvaje con más frecuencia!
+
+RESOURCE ID: ominous_wind_base_increased_level_bonus
+TEXT: El nivel de Mega-Chandelure se verá incrementado del 2 de noviembre a las 21:00 al 15 de noviembre de 2026 a las 21:00 (hora peninsular).
+
+RESOURCE ID: ominous_wind_base_power_boost_bonus
+TEXT: Viento Aciago+ verá incrementado su poder del 2 de noviembre a las 21:00 al 15 de noviembre de 2026 a las 21:00 (hora peninsular).
 
 RESOURCE ID: one_or_more_pokemon_exceed_this_leagues_cp_limit
 TEXT: Uno o varios Pokémon superan el límite de PC de esta liga.
@@ -1576,6 +1629,9 @@ TEXT: Consigue {0} corazones con un compañero de tipo Dragón
 RESOURCE ID: quest_buddy_affection_steel_plural
 TEXT: Consigue {0} corazones con un compañero de tipo Acero
 
+RESOURCE ID: quest_defeat_ghost_fire_type_raid_singular
+TEXT: Derrota a un jefe de incursión de tipo Fuego o Fantasma
+
 RESOURCE ID: quest_explore_buddy_dragon
 TEXT: Consigue un Caramelo explorando con un Pokémon de tipo Dragón como tu compañero
 
@@ -1710,6 +1766,9 @@ TEXT: ¡Muestra el fondo único de un compañero en tu perfil de Entrenador!
 
 RESOURCE ID: rare_background_ftue_profile_swap_buddies_button
 TEXT: CAMBIAR DE COMPAÑERO
+
+RESOURCE ID: recycle_dialog_quantity
+TEXT: QUANTITY: {0}
 
 RESOURCE ID: recycle_discard_all
 TEXT: SÍ, DESCARTAR TODOS
@@ -1937,7 +1996,7 @@ RESOURCE ID: shop_already_unlocked_premium_event_pass
 TEXT: Ya has desbloqueado este Pase de GO deluxe.
 
 RESOURCE ID: shop_gift_confirm_purchase_warning_description
-TEXT: Puedes enviar un total de <b>{0}</b> regalos de pago hoy. Este regalo no lo puede utilizar otro jugador ni se puede reembolsar.
+TEXT: Puedes enviar un total de 20 regalos de pago al día. Este regalo no lo puede utilizar otro jugador ni se puede reembolsar.
 
 RESOURCE ID: shop_gift_friend_ineligible_description_temp
 TEXT: Es posible que no puedas enviar regalos de pago (como objetos, entradas y pases de eventos) a determinadas amistades, algo que puede deberse a las siguientes razones:
@@ -2097,6 +2156,13 @@ TEXT: <b>Recompensas incluidas:</b>
 • Encuentros con Zorua con un fondo especial
 • ¡Y mucho más!
 
+RESOURCE ID: text_rewards_key_chandelureraidday
+TEXT: <b>Bonus incluidos:</b>
+• Ocho Pases de incursión adicionales al dar vueltas a fotodiscos en Gimnasios
+• Mayor probabilidad de recibir Caramelos Raros ++ en incursiones
+• 5000 Polvos Estelares adicionales al completar supermegaincursiones
+• 5000 PX adicionales al completar supermegaincursiones
+
 RESOURCE ID: text_rewards_key_dmaxsinnohlakemaxbattle26
 TEXT: <b>Incluye:</b>
 • Doble de PX por ganar en Combates Max
@@ -2117,6 +2183,12 @@ RESOURCE ID: tips_friends_tutorial_add_body
 TEXT: Añade amigos introduciendo su código de Entrenador o escaneando su código en 2D. Al agregar un amigo en Pokémon GO, estaréis conectados en todos los juegos de Scopely Explore a los que juguéis ambos.
 
 También puedes añadir amigos conectando tu cuenta a Facebook en la pantalla Añadir amigos.
+
+RESOURCE ID: tips_tasks_weather_boost_body
+TEXT: Certain Pokémon appear more frequently when the weather matches their type. These Pokémon have higher CP, are stronger in battle, and award extra Stardust when they’re caught.
+
+RESOURCE ID: tips_tasks_weather_boost_title
+TEXT: Weather Boosts
 
 RESOURCE ID: title_event_pass_daily_bonus_quest_premium
 TEXT: Tareas diarias (deluxe)

@@ -382,6 +382,9 @@ TEXT: Les Cadeaux ne prennent pas de place dans ton Sac d’objets.
 RESOURCE ID: details_link_key_dmax_sinnoh_lake_max_battle
 TEXT: Pour plus d’informations, rends-toi sur le <a href="https://pokemongo.com/news/dynamax-uxie-mesprit-azelf-max-battle-day-2026">site Web</a>.
 
+RESOURCE ID: details_link_key_megachandelureraidday
+TEXT: Pour plus d’informations, rends-toi sur le <a href="https://pokemongo.com/news/chandelure-super-mega-raid-day-2026">site Web</a>.
+
 RESOURCE ID: dmax_azelf_lake_max_battles
 TEXT: Créfadet Dynamax apparaît dans les Combats Dynamax
 
@@ -415,6 +418,9 @@ TEXT: Étude ponctuelle Évènement Agence spatiale européenne 2026
 RESOURCE ID: event_datetime_range_key_cd_zorua26
 TEXT: Le 10 octobre de 14h à 17h
 
+RESOURCE ID: event_mega_chandelure_raid_day_timed_research
+TEXT: Étude ponctuelle Journée de Super Méga-Raids Lugulabre
+
 RESOURCE ID: evergreen_week_event_name_twilight_trails
 TEXT: Choisis ton parcours : Sentiers crépusculaires
 
@@ -441,6 +447,9 @@ TEXT: Ticket pour la Journée Communauté de Zorua
 
 RESOURCE ID: general2.ticket.2_sandilehatchday26_title
 TEXT: Ticket pour l’Étude ponctuelle premium Journée Éclosion Mascaïman
+
+RESOURCE ID: general2.ticket.5_megachandelureraidday
+TEXT: Ticket pour la Journée de Super Méga-Raids Lugulabre
 
 RESOURCE ID: general2.ticket.6.dmax_sinnoh_lake_max_battle
 TEXT: Ticket pour la Journée Combat Dynamax Créhelf, Créfollet et Créfadet Dynamax
@@ -478,7 +487,7 @@ RESOURCE ID: gmax_duraludon_max_battles
 TEXT: Duralugon Gigamax apparaît dans les Combats Dynamax
 
 RESOURCE ID: gowa2026_leadup_collection_challenge
-TEXT: Into the Wild Collection Challenge
+TEXT: Défi de collection Âme sauvage
 
 RESOURCE ID: gowa_2026
 TEXT: Terres Sauvages Pokémon GO 2026
@@ -957,11 +966,23 @@ TEXT: Le fond de ce Pokémon ne peut pas être affiché sur ton profil.
 RESOURCE ID: item_bag_bonus
 TEXT: bonus
 
+RESOURCE ID: item_bag_category_berries_and_poffins
+TEXT: Berries and Poffins
+
 RESOURCE ID: item_bag_category_featured
 TEXT: En vedette
 
+RESOURCE ID: item_bag_category_incubators
+TEXT: Incubators
+
+RESOURCE ID: item_event_ticket_gray_desc_megachandelureraidday
+TEXT: Un ticket pour accéder à des bonus spéciaux le samedi 31 octobre 2026 de 14h à 17h, heures locales, où que tu sois.
+
 RESOURCE ID: item_event_ticket_gray_desc_sandilehatchday26
 TEXT: Un ticket pour accéder à l’Étude ponctuelle premium Journée Éclosion Mascaïman et à des bonus spéciaux le 17 octobre de 11h à 17h, heures locales, où que tu sois.
+
+RESOURCE ID: item_event_ticket_gray_details_megachandelureraidday
+TEXT: Ce ticket s’activera automatiquement le 31 octobre pour te donner accès à des bonus spéciaux, où que tu sois.
 
 RESOURCE ID: item_event_ticket_gray_details_sandilehatchday26
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à l’Étude ponctuelle premium Journée Éclosion Mascaïman et à des bonus spéciaux le 17 octobre où que tu sois.
@@ -988,7 +1009,10 @@ RESOURCE ID: item_inventory_paid_gift_banner_title
 TEXT: Tu as des Cadeaux payants !
 
 RESOURCE ID: item_mp_name_plural
-TEXT: Max Particles
+TEXT: Particules Max
+
+RESOURCE ID: journal_player_fled
+TEXT: Fled from a raid encounter with {0}.
 
 RESOURCE ID: jp_aeon_mall_collab_2026_event_desc
 TEXT: Un évènement spécial aux AEON Malls au Japon du 19 octobre au 1ᵉʳ novembre !
@@ -1083,20 +1107,34 @@ TEXT: Bonus du ticket pour la Journée Combat Dynamax Créhelf, Créfollet et Cr
 RESOURCE ID: meetup_check_in_research_title_gowa2026
 TEXT: Étude ponctuelle Participation à un évènement en personne : Terres Sauvages GO
 
+RESOURCE ID: mega_chandelure_global_challenge
+TEXT: Défi global Journée de Super Méga-Raids Lugulabre
+
+RESOURCE ID: mega_chandelure_raid_day_event_name
+TEXT: Journée de Super Méga-Raids Lugulabre
+
 RESOURCE ID: mega_evolve_pokemon_to_use_in_this_party
 TEXT: Fais méga-évoluer {0} pour utiliser cette équipe.
 
+RESOURCE ID: mega_level_tutorial_cp_downscaling_1_body
+TEXT: If a Mega Pokémon’s CP exceeds certain Battle Leagues, their levels will be temporarily adjusted to where its CP is within that Battle League’s limits.
+
+Pokémon at Super Max Level will not have the Greatly Increased CP bonus in Master League.
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-10-14T01:27:43.825708+00:00 for fr-FR
-at SHA 46a25b64966
-Pipeline 4019736, job 59225155
-Patch from: 0.435.0-SHA-5bec7604-RC1, 0.431.0-SHA-98b5070c-RC6, 0.433.0-SHA-a810fd7d-RC2
+TEXT: Built at 2026-10-16T22:34:57.171068+00:00 for fr-FR
+at SHA d68311f630a
+Pipeline 4029884, job 59396785
+Patch from: 0.431.0-SHA-8123c737-RC1, 0.433.0-SHA-94a605de-RC4, 0.435.0-SHA-5bec7604-RC1
 
 RESOURCE ID: meteor_desc_1
 TEXT: Trouve Météno les soirs de pluies de météores.
 
 RESOURCE ID: meteor_title_1
 TEXT: PLUIE DE MÉTÉORES
+
+RESOURCE ID: minior_shower_tr_name
+TEXT: Étude ponctuelle Pluie de Météno
 
 RESOURCE ID: month_april
 TEXT: Avril
@@ -1320,6 +1358,15 @@ TEXT: <<move_name_0359>> +
 RESOURCE ID: move_name_0619
 TEXT: <<move_name_0064>> +
 
+RESOURCE ID: nearby_incomplete_raid_header
+TEXT: IN PROGRESS
+
+RESOURCE ID: nearby_incomplete_raid_widget_header
+TEXT: REJOIN
+
+RESOURCE ID: nearby_incomplete_raid_widget_title
+TEXT: Rejoin the {0} raid
+
 RESOURCE ID: night_out_2026_stream_tr_01
 TEXT: Étude ponctuelle Soirée électrisante Pokémon (1/2)
 
@@ -1355,6 +1402,12 @@ TEXT: Étude ponctuelle Soirée électrisante Pokémon : Un choix Électrik
 
 RESOURCE ID: oclock_generic_desc
 TEXT: Des Pokémon sur le thème de l’évènement apparaîtront plus souvent dans la nature.
+
+RESOURCE ID: ominous_wind_base_increased_level_bonus
+TEXT: Le niveau de Méga-Lugulabre sera augmenté du 2 novembre à midi au 15 novembre 2026 à midi PST.
+
+RESOURCE ID: ominous_wind_base_power_boost_bonus
+TEXT: L’attaque Vent Mauvais + sera plus puissante du 2 novembre à midi au 15 novembre 2026 à midi PST.
 
 RESOURCE ID: one_or_more_pokemon_exceed_this_leagues_cp_limit
 TEXT: Les PC d’un ou plusieurs Pokémon dépassent la limite de PC de cette ligue.
@@ -1487,6 +1540,9 @@ TEXT: Gagne {0} cœurs avec ton copain de type Dragon
 RESOURCE ID: quest_buddy_affection_steel_plural
 TEXT: Gagne {0} cœurs avec ton copain de type Acier
 
+RESOURCE ID: quest_defeat_ghost_fire_type_raid_singular
+TEXT: Gagne contre un Boss de Raid de type Feu ou Spectre
+
 RESOURCE ID: quest_explore_buddy_dragon
 TEXT: Gagne un Bonbon en partant en exploration avec un Pokémon de type Dragon comme copain
 
@@ -1539,10 +1595,10 @@ RESOURCE ID: quest_title_zorua_2
 TEXT: Sur la piste du fripon (3/3)
 
 RESOURCE ID: quest_walk_buddy_dragon_plural
-TEXT: Earn {0} Candies exploring with a Dragon-type Pokémon as your buddy
+TEXT: Gagne {0} Bonbons en partant en exploration avec un Pokémon de type Dragon comme copain
 
 RESOURCE ID: quest_walk_buddy_steel_plural
-TEXT: Earn {0} Candies exploring with a Steel-type Pokémon as your buddy
+TEXT: Gagne {0} Bonbons en partant en exploration avec un Pokémon de type Acier comme copain
 
 RESOURCE ID: quest_zorua_catch_b
 TEXT: Attrape {0} Zorua
@@ -1560,7 +1616,7 @@ RESOURCE ID: raid_battle_complete_rejoin_modal_title
 TEXT: Reprendre le Raid ?
 
 RESOURCE ID: raid_encounter_flee_warning_button_text
-TEXT: FLEE
+TEXT: FUITE
 
 RESOURCE ID: raid_encounter_flee_warning_modal_body
 TEXT: Si tu prends la fuite, tu ne pourras plus revenir.
@@ -1569,34 +1625,34 @@ RESOURCE ID: raid_encounter_flee_warning_modal_title
 TEXT: Veux-tu vraiment t’enfuir ?
 
 RESOURCE ID: rally_gowa_2026_cdmx_desc
-TEXT: Welcome to GO Wild Area: Mexico City!
+TEXT: Bienvenue dans les Terres Sauvages GO : Mexico !
 
 RESOURCE ID: rally_gowa_2026_cdmx_desc_detail
-TEXT: Collect stamps by visiting GO Stamp Rally PokéStops in Mexico City during your ticketed event day!
+TEXT: Obtiens des tampons en visitant les PokéStops de la Chasse aux tampons GO à Mexico pendant ta journée d’évènement avec ticket !
 
 RESOURCE ID: rally_gowa_2026_cdmx_location
-TEXT: Mexico City, Mexico
+TEXT: Mexico, Mexique
 
 RESOURCE ID: rally_gowa_2026_cdmx_rewards_desc
-TEXT: Complete this rally to encounter an event-exclusive Machamp wearing a modern jacket with a Mexico City Location Background!
+TEXT: Termine cette chasse pour rencontrer un Mackogneur portant une veste moderne exclusif à l’évènement et doté d’un Fond de lieu de Mexico !
 
 RESOURCE ID: rally_gowa_2026_cdmx_title
-TEXT: GO Wild Area: Mexico City Stamp Rally
+TEXT: Chasse aux tampons Terres Sauvages GO : Mexico
 
 RESOURCE ID: rally_gowa_2026_sendai_desc
-TEXT: Welcome to GO Wild Area: Sendai・Tohoku!
+TEXT: Bienvenue dans les Terres Sauvages GO : Sendai • Tohoku !
 
 RESOURCE ID: rally_gowa_2026_sendai_desc_detail
-TEXT: Collect stamps by visiting GO Stamp Rally PokéStops in Sendai during your ticketed event day!
+TEXT: Obtiens des tampons en visitant les PokéStops de la Chasse aux tampons GO à Sendai pendant ta journée d’évènement avec ticket !
 
 RESOURCE ID: rally_gowa_2026_sendai_location
-TEXT: Sendai・Tohoku, Japan
+TEXT: Sendai・Tohoku, Japon
 
 RESOURCE ID: rally_gowa_2026_sendai_rewards_desc
-TEXT: Complete this rally to encounter an event-exclusive Machamp wearing a modern jacket with a Sendai・Tohoku Location Background!
+TEXT: Termine cette chasse pour rencontrer un Mackogneur portant une veste moderne exclusif à l’évènement et doté d’un Fond de lieu de Sendai • Tohoku !
 
 RESOURCE ID: rally_gowa_2026_sendai_title
-TEXT: GO Wild Area: Sendai・Tohoku Stamp Rally
+TEXT: Chasse aux tampons Terres Sauvages GO : Sendai • Tohoku
 
 RESOURCE ID: rare_background_disclaimer_text
 TEXT: Ce fond peut être affiché sur ton profil si tu choisis ce Pokémon comme copain.
@@ -1621,6 +1677,9 @@ TEXT: Affiche le fond rare d’un copain sur ton profil !
 
 RESOURCE ID: rare_background_ftue_profile_swap_buddies_button
 TEXT: CHANGER DE COPAIN
+
+RESOURCE ID: recycle_dialog_quantity
+TEXT: QUANTITY: {0}
 
 RESOURCE ID: recycle_discard_all
 TEXT: OUI, TOUT JETER
@@ -2002,6 +2061,13 @@ TEXT: <b>Donne accès aux récompenses suivantes :</b>
 • Des rencontres avec Zorua avec un Fond spécial
 • Et plus encore !
 
+RESOURCE ID: text_rewards_key_chandelureraidday
+TEXT: <b>Donne accès aux bonus suivants :</b>
+• 8 passes de Raid supplémentaires en faisant tourner les PhotoDisques des Arènes
+• Plus de chances de recevoir un Super Bonbon L des Raids
+• 5 000 Poussières Étoiles supplémentaires pour chaque Super Méga-Raid remporté
+• 5 000 PX supplémentaires pour chaque Super Méga-Raid remporté
+
 RESOURCE ID: text_rewards_key_dmaxsinnohlakemaxbattle26
 TEXT: <b>Donne accès aux bonus suivants :</b>
 • 2 fois plus de PX pour chaque Combat Dynamax remporté
@@ -2017,6 +2083,15 @@ TEXT: <b>Donne accès aux bonus suivants :</b>
 
 RESOURCE ID: ticket_zorua_cd
 TEXT: Ticket pour l’Étude spéciale de la Journée Communauté de Zorua disponible dans la Boutique
+
+RESOURCE ID: tips_tasks_weather_boost_body
+TEXT: Certain Pokémon appear more frequently when the weather matches their type. These Pokémon have higher CP, are stronger in battle, and award extra Stardust when they’re caught.
+
+RESOURCE ID: tips_tasks_weather_boost_title
+TEXT: Weather Boosts
+
+RESOURCE ID: title_event_pass_daily_bonus_quest_premium
+TEXT: Tâches quotidiennes (deluxe)
 
 RESOURCE ID: tr_apac_2026_mid_autumn_1
 TEXT: Étude ponctuelle Danses au clair de lune 2026 : Sentier lunaire

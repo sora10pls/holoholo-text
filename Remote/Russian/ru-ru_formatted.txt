@@ -448,6 +448,9 @@ TEXT: Подарки не занимают место в Рюкзаке для �
 RESOURCE ID: details_link_key_dmax_sinnoh_lake_max_battle
 TEXT: Чтобы узнать больше, посети <a href="https://pokemongo.com/news/dynamax-uxie-mesprit-azelf-max-battle-day-2026">этот сайт</a>.
 
+RESOURCE ID: details_link_key_megachandelureraidday
+TEXT: Чтобы узнать больше, посети <a href="https://pokemongo.com/news/chandelure-super-mega-raid-day-2026">этот сайт</a>.
+
 RESOURCE ID: dmax_azelf_lake_max_battles
 TEXT: Динамакс-Азелф появляется в Битвах Макс
 
@@ -480,6 +483,9 @@ TEXT: Квест на Время Событие Европейское Косм�
 
 RESOURCE ID: event_datetime_range_key_cd_zorua26
 TEXT: 10 октября, 14:00 – 17:00
+
+RESOURCE ID: event_mega_chandelure_raid_day_timed_research
+TEXT: Квест на Время День Супер-Мегарейдов Шанделюр
 
 RESOURCE ID: evergreen_week_event_name_twilight_trails
 TEXT: Выбери Свой Путь: Сумеречные Тропы
@@ -515,6 +521,9 @@ TEXT: Билет: День Сообщества Зоруа
 
 RESOURCE ID: general2.ticket.2_sandilehatchday26_title
 TEXT: Билет: Премиум-Квест на Время День Вынашивания Яиц: Сэндайл
+
+RESOURCE ID: general2.ticket.5_megachandelureraidday
+TEXT: Билет: День Супер-Мегарейдов Шанделюр
 
 RESOURCE ID: general2.ticket.6.dmax_sinnoh_lake_max_battle
 TEXT: Билет: День Битв Макс: Динамакс-Юкси, Динамакс-Месприт и Динамакс-Азелф
@@ -552,7 +561,7 @@ RESOURCE ID: gmax_duraludon_max_battles
 TEXT: Gigantamax Duraludon is appearing in Max Battles
 
 RESOURCE ID: gowa2026_leadup_collection_challenge
-TEXT: Into the Wild Collection Challenge
+TEXT: Коллекционное Испытание Навстречу Неизведанному
 
 RESOURCE ID: gowa_2026
 TEXT: Нетронутые Земли Pokémon GO 2026
@@ -905,6 +914,9 @@ TEXT: Хэллоуин 2026: Часть 2
 RESOURCE ID: halloween_spooky_surprise_tappable_today_view
 TEXT: Жуткие сюрпризы появляются на карте!
 
+RESOURCE ID: home_transporter_energy
+TEXT: Энергия Транспортёра GO
+
 RESOURCE ID: iap_friend_picker_last_sent
 TEXT: Недавние
 
@@ -1017,16 +1029,16 @@ RESOURCE ID: in_fol_2026_tr_title
 TEXT: Квест на Время Фестиваль Огней 2026
 
 RESOURCE ID: incomplete_raid_battle_rejoin_modal_body
-TEXT: Rejoin the raid to continue battling the Raid Boss.
+TEXT: Присоединиться к рейду снова, чтобы продолжить сражаться с Рейдовым Боссом.
 
 RESOURCE ID: incomplete_raid_battle_rejoin_modal_title
-TEXT: Rejoin raid?
+TEXT: Присоединиться к рейду снова?
 
 RESOURCE ID: incomplete_raid_encounter_rejoin_modal_body
-TEXT: Return to the encounter to catch the Raid Boss.
+TEXT: Вернуться ко встрече, чтобы поймать Рейдового Босса.
 
 RESOURCE ID: incomplete_raid_encounter_rejoin_modal_title
-TEXT: Return to Raid Boss encounter?
+TEXT: Вернуться ко встрече с Рейдовым Боссом?
 
 RESOURCE ID: ineligible_rare_background_disclaimer_text
 TEXT: Фон этого Покемона не может отображаться в твоём профиле Тренера.
@@ -1034,11 +1046,23 @@ TEXT: Фон этого Покемона не может отображатьс�
 RESOURCE ID: item_bag_bonus
 TEXT: бонус
 
+RESOURCE ID: item_bag_category_berries_and_poffins
+TEXT: Berries and Poffins
+
 RESOURCE ID: item_bag_category_featured
 TEXT: Актуальное
 
+RESOURCE ID: item_bag_category_incubators
+TEXT: Incubators
+
+RESOURCE ID: item_event_ticket_gray_desc_megachandelureraidday
+TEXT: Билет, дающий доступ к специальным бонусам в субботу, 31 октября 2026 с 14:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения.
+
 RESOURCE ID: item_event_ticket_gray_desc_sandilehatchday26
 TEXT: Билет, дающий доступ к Премиум-Квесту на Время День Вынашивания Яиц: Сэндайл и специальным бонусам 17 октября с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения.
+
+RESOURCE ID: item_event_ticket_gray_details_megachandelureraidday
+TEXT: Этот билет активируется автоматически 31 октября, чтобы дать тебе доступ к специальным бонусам, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_gray_details_sandilehatchday26
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к Премиум-Квесту на Время День Вынашивания Яиц: Сэндайл и специальным бонусам 17 октября, вне зависимости от твоего местонахождения.
@@ -1065,7 +1089,10 @@ RESOURCE ID: item_inventory_paid_gift_banner_title
 TEXT: У тебя есть платные подарки!
 
 RESOURCE ID: item_mp_name_plural
-TEXT: Max Particles
+TEXT: Частицы Макс
+
+RESOURCE ID: journal_player_fled
+TEXT: Fled from a raid encounter with {0}.
 
 RESOURCE ID: jp_aeon_mall_collab_2026_event_desc
 TEXT: Специальное событие доступно в AEON Malls по всей Японии с 19 октября по 1 ноября!
@@ -1157,20 +1184,34 @@ TEXT: Бонусы Билета День Битв Макс: Динамакс-Ю�
 RESOURCE ID: meetup_check_in_research_title_gowa2026
 TEXT: Meetup Check-In Timed Research: GO Wild Area
 
+RESOURCE ID: mega_chandelure_global_challenge
+TEXT: Глобальное Испытание День Супер-Мегарейдов Шанделюр
+
+RESOURCE ID: mega_chandelure_raid_day_event_name
+TEXT: День Супер-Мегарейдов Шанделюр
+
 RESOURCE ID: mega_evolve_pokemon_to_use_in_this_party
 TEXT: Мегаэволюционируй Покемона  {0}, чтобы использовать эту команду.
 
+RESOURCE ID: mega_level_tutorial_cp_downscaling_1_body
+TEXT: If a Mega Pokémon’s CP exceeds certain Battle Leagues, their levels will be temporarily adjusted to where its CP is within that Battle League’s limits.
+
+Pokémon at Super Max Level will not have the Greatly Increased CP bonus in Master League.
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-10-14T01:27:43.825708+00:00 for ru-RU
-at SHA 46a25b64966
-Pipeline 4019736, job 59225155
-Patch from: 0.435.0-SHA-5bec7604-RC1, 0.431.0-SHA-98b5070c-RC6, 0.433.0-SHA-a810fd7d-RC2
+TEXT: Built at 2026-10-16T22:34:57.171068+00:00 for ru-RU
+at SHA d68311f630a
+Pipeline 4029884, job 59396785
+Patch from: 0.431.0-SHA-8123c737-RC1, 0.433.0-SHA-94a605de-RC4, 0.435.0-SHA-5bec7604-RC1
 
 RESOURCE ID: meteor_desc_1
 TEXT: Найди Миниоров вечером во время метеоритных потоков.
 
 RESOURCE ID: meteor_title_1
 TEXT: МЕТЕОРИТНЫЙ ПОТОК
+
+RESOURCE ID: minior_shower_tr_name
+TEXT: Квест на Время Поток Миниоров
 
 RESOURCE ID: monodepth_ar_plus_required_toast
 TEXT: Включи режим Scopely Explore AR, чтобы использовать функцию Реалистичного Наложения.
@@ -1400,6 +1441,15 @@ TEXT: <<move_name_0359>>+
 RESOURCE ID: move_name_0619
 TEXT: <<move_name_0064>>+
 
+RESOURCE ID: nearby_incomplete_raid_header
+TEXT: IN PROGRESS
+
+RESOURCE ID: nearby_incomplete_raid_widget_header
+TEXT: REJOIN
+
+RESOURCE ID: nearby_incomplete_raid_widget_title
+TEXT: Rejoin the {0} raid
+
 RESOURCE ID: niantic_anniversary_event
 TEXT: Событие День Рождения Scopely Explore
 
@@ -1441,6 +1491,12 @@ TEXT: Квест на Время Pokémon Night Out: Электро Выбор
 
 RESOURCE ID: oclock_generic_desc
 TEXT: В окрестностях чаще появляются дикие тематические Ивент-Покемоны!
+
+RESOURCE ID: ominous_wind_base_increased_level_bonus
+TEXT: Уровень Мега-Шанделюра будет увеличен с 12:00 2 ноября до 12:00 15 ноября 2026.
+
+RESOURCE ID: ominous_wind_base_power_boost_bonus
+TEXT: Атака Зловещий Ветер+ будет усилена с 12:00 2 ноября до 12:00 15 ноября 2026.
 
 RESOURCE ID: one_or_more_pokemon_exceed_this_leagues_cp_limit
 TEXT: Один или более Покемонов превышают максимальную БС этой лиги.
@@ -1632,6 +1688,9 @@ TEXT: Заработай сердечки с Покемоном типа Дра�
 RESOURCE ID: quest_buddy_affection_steel_plural
 TEXT: Заработай сердечки с Покемоном типа Сталь в качестве приятеля ×{0}
 
+RESOURCE ID: quest_defeat_ghost_fire_type_raid_singular
+TEXT: Победи Рейдового Босса типов Огонь или Привидение
+
 RESOURCE ID: quest_explore_buddy_dragon
 TEXT: Заработай Конфету с Покемоном типа Дракон в качестве приятеля
 
@@ -1684,64 +1743,64 @@ RESOURCE ID: quest_title_zorua_2
 TEXT: Тропа Ловкача (3/3)
 
 RESOURCE ID: quest_walk_buddy_dragon_plural
-TEXT: Earn {0} Candies exploring with a Dragon-type Pokémon as your buddy
+TEXT: Заработай Конфеты с Покемоном типа Дракон в качестве приятеля ×{0}
 
 RESOURCE ID: quest_walk_buddy_steel_plural
-TEXT: Earn {0} Candies exploring with a Steel-type Pokémon as your buddy
+TEXT: Заработай Конфеты с Покемоном типа Сталь в качестве приятеля ×{0}
 
 RESOURCE ID: quest_zorua_catch_b
 TEXT: Поймай Зоруа ×{0}
 
 RESOURCE ID: raid_battle_complete_lost_modal_body
-TEXT: The Raid Boss was not defeated in time.
+TEXT: Рейдовый Босс не был побеждён вовремя.
 
 RESOURCE ID: raid_battle_complete_lost_modal_title
-TEXT: The Raid Battle has ended.
+TEXT: Рейд уже закончился.
 
 RESOURCE ID: raid_battle_complete_rejoin_modal_body
-TEXT: Return to the raid to catch the Raid Boss.
+TEXT: Вернуться к рейду, чтобы поймать Рейдового Босса.
 
 RESOURCE ID: raid_battle_complete_rejoin_modal_title
-TEXT: Rejoin raid?
+TEXT: Присоединиться к рейду снова?
 
 RESOURCE ID: raid_encounter_flee_warning_button_text
-TEXT: FLEE
+TEXT: УЙТИ
 
 RESOURCE ID: raid_encounter_flee_warning_modal_body
-TEXT: If you flee from this Pokémon, you won’t be able to return.
+TEXT: Если ты уйдёшь от этого Покемона, ты не сможешь к нему вернуться.
 
 RESOURCE ID: raid_encounter_flee_warning_modal_title
-TEXT: Are you sure you want to flee?
+TEXT: Ты действительно хочешь уйти?
 
 RESOURCE ID: rally_gowa_2026_cdmx_desc
-TEXT: Welcome to GO Wild Area: Mexico City!
+TEXT: Добро пожаловать в Нетронутые Земли GO: Мехико!
 
 RESOURCE ID: rally_gowa_2026_cdmx_desc_detail
-TEXT: Collect stamps by visiting GO Stamp Rally PokéStops in Mexico City during your ticketed event day!
+TEXT: Собирай печати, посещая Покестопы Марафона Печатей GO вМехико по билетам в день события!
 
 RESOURCE ID: rally_gowa_2026_cdmx_location
-TEXT: Mexico City, Mexico
+TEXT: Мехико, Мексика
 
 RESOURCE ID: rally_gowa_2026_cdmx_rewards_desc
-TEXT: Complete this rally to encounter an event-exclusive Machamp wearing a modern jacket with a Mexico City Location Background!
+TEXT: Заверши этот марафон, чтобы встретить эксклюзивного Мачампа в модной куртке с Фоном Места Мехико!
 
 RESOURCE ID: rally_gowa_2026_cdmx_title
-TEXT: GO Wild Area: Mexico City Stamp Rally
+TEXT: Нетронутые Земли GO: Марафон Печатей Мехико
 
 RESOURCE ID: rally_gowa_2026_sendai_desc
-TEXT: Welcome to GO Wild Area: Sendai・Tohoku!
+TEXT: Добро пожаловать в Нетронутые Земли GO: Сендай・Тохоку!
 
 RESOURCE ID: rally_gowa_2026_sendai_desc_detail
-TEXT: Collect stamps by visiting GO Stamp Rally PokéStops in Sendai during your ticketed event day!
+TEXT: Собирай печати, посещая Покестопы Марафона Печатей GO в городе Сендай по билетам в день события!
 
 RESOURCE ID: rally_gowa_2026_sendai_location
-TEXT: Sendai・Tohoku, Japan
+TEXT: Сендай・Тохоку, Япония
 
 RESOURCE ID: rally_gowa_2026_sendai_rewards_desc
-TEXT: Complete this rally to encounter an event-exclusive Machamp wearing a modern jacket with a Sendai・Tohoku Location Background!
+TEXT: Заверши этот марафон, чтобы встретить эксклюзивного Мачампа в модной куртке с Фоном Места Сендай・Тохоку!
 
 RESOURCE ID: rally_gowa_2026_sendai_title
-TEXT: GO Wild Area: Sendai・Tohoku Stamp Rally
+TEXT: Нетронутые Земли GO: Марафон Печатей Сендай・Тохоку
 
 RESOURCE ID: rare_background_disclaimer_text
 TEXT: Этот фон может отображаться в твоём профиле Тренера, если этот Покемон был выбран в качестве приятеля.
@@ -1766,6 +1825,9 @@ TEXT: Показывай редкий фон приятеля в своём пр
 
 RESOURCE ID: rare_background_ftue_profile_swap_buddies_button
 TEXT: ПОМЕНЯТЬ ПРИЯТЕЛЯ
+
+RESOURCE ID: recycle_dialog_quantity
+TEXT: QUANTITY: {0}
 
 RESOURCE ID: recycle_discard_all
 TEXT: ДА, УДАЛИТЬ ВСЕ
@@ -2182,6 +2244,13 @@ TEXT: <b>Включает следующие награды:</b>
 • Встречи с Зоруа с Особым Фоном
 • И другие!
 
+RESOURCE ID: text_rewards_key_chandelureraidday
+TEXT: <b>Включает следующие бонусы:</b>
+• 8 дополнительных Пропусков на Рейды за прокрутку Фотодисков в Гимах
+• Больше шансов получить Редкие Конфеты XL в рейдах
+• Дополнительные 5000 Звёздной Пыли за успешное прохождение Супер-Мегарейдов
+• Дополнительные 5000 XP за успешное прохождение Супер-Мегарейдов
+
 RESOURCE ID: text_rewards_key_dmaxsinnohlakemaxbattle26
 TEXT: <b>Включает:</b>
 • 2× XP в Битвах Макс
@@ -2202,6 +2271,21 @@ RESOURCE ID: tips_friends_tutorial_add_body
 TEXT: Чтобы добавить друга, введи его Код Тренера или отсканируй 2D-код. Если ты добавишь друга в Pokémon GO, он также станет твоим другом во всех играх Scopely Explore, в которые вы играете.
 
 Также можно добавить друзей, привязав аккаунт Facebook из вкладки Добавить в Друзья.
+
+RESOURCE ID: tips_tasks_weather_boost_body
+TEXT: Certain Pokémon appear more frequently when the weather matches their type. These Pokémon have higher CP, are stronger in battle, and award extra Stardust when they’re caught.
+
+RESOURCE ID: tips_tasks_weather_boost_title
+TEXT: Weather Boosts
+
+RESOURCE ID: title_event_pass_daily_bonus_quest
+TEXT: Ежедневные Задания
+
+RESOURCE ID: title_event_pass_daily_bonus_quest_premium
+TEXT: Ежедневные Задания – Делюкс
+
+RESOURCE ID: title_event_pass_hourly_bonus_quest
+TEXT: Почасовые Задания
 
 RESOURCE ID: tr_apac_2026_mid_autumn_1
 TEXT: Квест на Время Танцы в Лунном Свете 2026: Лунный Путь

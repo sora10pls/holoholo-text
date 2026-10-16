@@ -426,6 +426,9 @@ TEXT: Os presentes não contam no armazenamento da Bolsa.
 RESOURCE ID: details_link_key_dmax_sinnoh_lake_max_battle
 TEXT: Para mais informações, visite o <a href="https://pokemongo.com/news/dynamax-uxie-mesprit-azelf-max-battle-day-2026">site</a>.
 
+RESOURCE ID: details_link_key_megachandelureraidday
+TEXT: Para mais informações, visite o <a href="https://pokemongo.com/news/chandelure-super-mega-raid-day-2026">site</a>.
+
 RESOURCE ID: dmax_azelf_lake_max_battles
 TEXT: Azelf Dinamax está aparecendo em Batalhas Max
 
@@ -458,6 +461,9 @@ TEXT: Pesquisa Temporária do Evento da Agência Espacial Europeia 2026
 
 RESOURCE ID: event_datetime_range_key_cd_zorua26
 TEXT: 10 de outubro, das 14h às 17h
+
+RESOURCE ID: event_mega_chandelure_raid_day_timed_research
+TEXT: Pesquisa Temporária do Dia de Super Megarreides: Chandelure
 
 RESOURCE ID: evergreen_week_event_name_twilight_trails
 TEXT: Escolha seu Caminho: Trilhas do Entardecer
@@ -493,6 +499,9 @@ TEXT: Ingresso para o Dia Comunitário de Zorua
 
 RESOURCE ID: general2.ticket.2_sandilehatchday26_title
 TEXT: Ingresso para a Pesquisa Temporária Premium do Dia de Chocar Sandile
+
+RESOURCE ID: general2.ticket.5_megachandelureraidday
+TEXT: Ingresso para o Dia de Super Megarreides: Chandelure
 
 RESOURCE ID: general2.ticket.6.dmax_sinnoh_lake_max_battle
 TEXT: Ingresso do Dia de Batalhas Max: Uxie, Mesprit e Azelf Dinamax
@@ -530,7 +539,7 @@ RESOURCE ID: gmax_duraludon_max_battles
 TEXT: Gigantamax Duraludon is appearing in Max Battles
 
 RESOURCE ID: gowa2026_leadup_collection_challenge
-TEXT: Into the Wild Collection Challenge
+TEXT: Desafio de Coleção de Natureza Selvagem
 
 RESOURCE ID: gowa_2026
 TEXT: Área Selvagem do Pokémon GO 2026
@@ -1009,11 +1018,23 @@ TEXT: O fundo deste Pokémon não pode ser exibido no seu perfil de Treinador.
 RESOURCE ID: item_bag_bonus
 TEXT: bônus
 
+RESOURCE ID: item_bag_category_berries_and_poffins
+TEXT: Berries and Poffins
+
 RESOURCE ID: item_bag_category_featured
 TEXT: Destaques
 
+RESOURCE ID: item_bag_category_incubators
+TEXT: Incubators
+
+RESOURCE ID: item_event_ticket_gray_desc_megachandelureraidday
+TEXT: Um ingresso para acessar bônus especiais no sábado, 31 de outubro de 2026, das 14h às 17h do seu horário local, de onde você estiver.
+
 RESOURCE ID: item_event_ticket_gray_desc_sandilehatchday26
 TEXT: Um ingresso para acessar a Pesquisa Temporária Premium do Dia de Chocar Sandile e bônus especiais em 17 de outubro, das 11h às 17h do seu horário local, de onde você estiver.
+
+RESOURCE ID: item_event_ticket_gray_details_megachandelureraidday
+TEXT: Este ingresso será ativado automaticamente no dia 31 de outubro para lhe garantir acesso a bônus especiais, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_gray_details_sandilehatchday26
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à Pesquisa Temporária Premium do Dia de Chocar Sandile no dia 17 de outubro, de onde você estiver.
@@ -1040,7 +1061,10 @@ RESOURCE ID: item_inventory_paid_gift_banner_title
 TEXT: Você tem presentes pagos!
 
 RESOURCE ID: item_mp_name_plural
-TEXT: Max Particles
+TEXT: Partículas Max
+
+RESOURCE ID: journal_player_fled
+TEXT: Fled from a raid encounter with {0}.
 
 RESOURCE ID: jp_aeon_mall_collab_2026_event_desc
 TEXT: Um evento especial está disponível nos AEON Malls por todo o Japão de 19 de outubro a 1º de novembro!
@@ -1141,20 +1165,34 @@ TEXT: Bônus do Ingresso do Dia de Batalhas Max: Uxie, Mesprit e Azelf Dinamax
 RESOURCE ID: meetup_check_in_research_title_gowa2026
 TEXT: Meetup Check-In Timed Research: GO Wild Area
 
+RESOURCE ID: mega_chandelure_global_challenge
+TEXT: Desafio Global de Dia de Super Megarreides: Chandelure
+
+RESOURCE ID: mega_chandelure_raid_day_event_name
+TEXT: Dia de Super Megarreides: Chandelure
+
 RESOURCE ID: mega_evolve_pokemon_to_use_in_this_party
 TEXT: Megaevolua {0} para usar esta equipe.
 
+RESOURCE ID: mega_level_tutorial_cp_downscaling_1_body
+TEXT: If a Mega Pokémon’s CP exceeds certain Battle Leagues, their levels will be temporarily adjusted to where its CP is within that Battle League’s limits.
+
+Pokémon at Super Max Level will not have the Greatly Increased CP bonus in Master League.
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-10-14T01:27:43.825708+00:00 for pt-BR
-at SHA 46a25b64966
-Pipeline 4019736, job 59225155
-Patch from: 0.435.0-SHA-5bec7604-RC1, 0.431.0-SHA-98b5070c-RC6, 0.433.0-SHA-a810fd7d-RC2
+TEXT: Built at 2026-10-16T22:34:57.171068+00:00 for pt-BR
+at SHA d68311f630a
+Pipeline 4029884, job 59396785
+Patch from: 0.431.0-SHA-8123c737-RC1, 0.433.0-SHA-94a605de-RC4, 0.435.0-SHA-5bec7604-RC1
 
 RESOURCE ID: meteor_desc_1
 TEXT: Encontre Minior durante chuvas de meteoros noturnas.
 
 RESOURCE ID: meteor_title_1
 TEXT: CHUVA DE METEOROS
+
+RESOURCE ID: minior_shower_tr_name
+TEXT: Pesquisa Temporária de Chuva de Minior
 
 RESOURCE ID: monodepth_ar_plus_required_toast
 TEXT: Ative Scopely Explore AR para usar a realidade combinada.
@@ -1384,6 +1422,15 @@ TEXT: <<move_name_0359>>+
 RESOURCE ID: move_name_0619
 TEXT: <<move_name_0064>>+
 
+RESOURCE ID: nearby_incomplete_raid_header
+TEXT: IN PROGRESS
+
+RESOURCE ID: nearby_incomplete_raid_widget_header
+TEXT: REJOIN
+
+RESOURCE ID: nearby_incomplete_raid_widget_title
+TEXT: Rejoin the {0} raid
+
 RESOURCE ID: niantic_anniversary_event
 TEXT: Evento de Aniversário da Scopely Explore
 
@@ -1425,6 +1472,12 @@ TEXT: Pesquisa Temporária de Pokémon Curtir a Noite: Uma Escolha Elétrica
 
 RESOURCE ID: oclock_generic_desc
 TEXT: Pokémon selvagens temáticos de evento estão aparecendo com mais frequência!
+
+RESOURCE ID: ominous_wind_base_increased_level_bonus
+TEXT: O nível de Mega Chandelure será aumentado de 2 de novembro, às 12h, até 15 de novembro de 2026, às 12h (horário do Pacífico).
+
+RESOURCE ID: ominous_wind_base_power_boost_bonus
+TEXT: Vento Ominoso+ terá seu poder aumentado de 2 de novembro, às 12h, até 15 de novembro de 2026, às 12h (horário do Pacífico).
 
 RESOURCE ID: one_or_more_pokemon_exceed_this_leagues_cp_limit
 TEXT: Um ou mais Pokémon excedeu o limite de PC desta liga.
@@ -1613,6 +1666,9 @@ TEXT: Ganhar {0} corações com um companheiro de tipo Dragão.
 RESOURCE ID: quest_buddy_affection_steel_plural
 TEXT: Ganhar {0} corações com um companheiro de tipo Aço.
 
+RESOURCE ID: quest_defeat_ghost_fire_type_raid_singular
+TEXT: Derrote um Chefe de Reide de tipo Fogo ou de tipo Fantasma
+
 RESOURCE ID: quest_explore_buddy_dragon
 TEXT: Ganhar 1 Doce explorando com um Pokémon de tipo Dragão como seu companheiro.
 
@@ -1665,10 +1721,10 @@ RESOURCE ID: quest_title_zorua_2
 TEXT: Trilha do Traquino (3/3)
 
 RESOURCE ID: quest_walk_buddy_dragon_plural
-TEXT: Earn {0} Candies exploring with a Dragon-type Pokémon as your buddy
+TEXT: Ganhar {0} Doces explorando com um Pokémon de tipo Dragão como seu companheiro.
 
 RESOURCE ID: quest_walk_buddy_steel_plural
-TEXT: Earn {0} Candies exploring with a Steel-type Pokémon as your buddy
+TEXT: Ganhar {0} Doces explorando com um Pokémon de tipo Aço como seu companheiro.
 
 RESOURCE ID: quest_zorua_catch_b
 TEXT: Pegar {0} Zorua.
@@ -1686,7 +1742,7 @@ RESOURCE ID: raid_battle_complete_rejoin_modal_title
 TEXT: Voltar ao Reide?
 
 RESOURCE ID: raid_encounter_flee_warning_button_text
-TEXT: FLEE
+TEXT: FUGIR
 
 RESOURCE ID: raid_encounter_flee_warning_modal_body
 TEXT: Se você fugir deste Pokémon, não poderá voltar.
@@ -1695,34 +1751,34 @@ RESOURCE ID: raid_encounter_flee_warning_modal_title
 TEXT: Tem certeza de que deseja fugir?
 
 RESOURCE ID: rally_gowa_2026_cdmx_desc
-TEXT: Welcome to GO Wild Area: Mexico City!
+TEXT: Boas-vindas à Área Selvagem do Pokémon GO: Cidade do México!
 
 RESOURCE ID: rally_gowa_2026_cdmx_desc_detail
-TEXT: Collect stamps by visiting GO Stamp Rally PokéStops in Mexico City during your ticketed event day!
+TEXT: Colete selos visitando Poképaradas da Caça aos Selos GO na Cidade do México durante o dia do evento com ingresso!
 
 RESOURCE ID: rally_gowa_2026_cdmx_location
-TEXT: Mexico City, Mexico
+TEXT: Cidade do México, México
 
 RESOURCE ID: rally_gowa_2026_cdmx_rewards_desc
-TEXT: Complete this rally to encounter an event-exclusive Machamp wearing a modern jacket with a Mexico City Location Background!
+TEXT: Complete esta Caça aos Selos para encontrar um Machamp exclusivo do evento com uma jaqueta moderna e Fundo de Localidade da Cidade do México!
 
 RESOURCE ID: rally_gowa_2026_cdmx_title
-TEXT: GO Wild Area: Mexico City Stamp Rally
+TEXT: Caça aos Selos da Área Selvagem GO: Cidade do México
 
 RESOURCE ID: rally_gowa_2026_sendai_desc
-TEXT: Welcome to GO Wild Area: Sendai・Tohoku!
+TEXT: Boas-vindas à Área Selvagem do Pokémon GO: Sendai・Tohoku!
 
 RESOURCE ID: rally_gowa_2026_sendai_desc_detail
-TEXT: Collect stamps by visiting GO Stamp Rally PokéStops in Sendai during your ticketed event day!
+TEXT: Colete selos visitando Poképaradas da Caça aos Selos GO em Sendai durante o dia do evento com ingresso!
 
 RESOURCE ID: rally_gowa_2026_sendai_location
-TEXT: Sendai・Tohoku, Japan
+TEXT: Sendai・Tohoku, Japão
 
 RESOURCE ID: rally_gowa_2026_sendai_rewards_desc
-TEXT: Complete this rally to encounter an event-exclusive Machamp wearing a modern jacket with a Sendai・Tohoku Location Background!
+TEXT: Complete esta Caça aos Selos para encontrar um Machamp exclusivo do evento com uma jaqueta moderna e Fundo de Localidade de Sendai・Tohoku!
 
 RESOURCE ID: rally_gowa_2026_sendai_title
-TEXT: GO Wild Area: Sendai・Tohoku Stamp Rally
+TEXT: Caça aos Selos da Área Selvagem GO: Sendai・Tohoku
 
 RESOURCE ID: rare_background_disclaimer_text
 TEXT: Este fundo pode ser exibido no seu perfil de Treinador se este Pokémon for escolhido como seu companheiro.
@@ -1747,6 +1803,9 @@ TEXT: Exibir fundo raro de companheiro no seu perfil de Treinador!
 
 RESOURCE ID: rare_background_ftue_profile_swap_buddies_button
 TEXT: TROCAR COMPANHEIRO
+
+RESOURCE ID: recycle_dialog_quantity
+TEXT: QUANTITY: {0}
 
 RESOURCE ID: recycle_discard_all
 TEXT: SIM, DESCARTAR TODOS
@@ -2171,6 +2230,13 @@ TEXT: <b>As recompensas incluem:</b>
 •Encontros com Zorua com um Fundo Especial
 • E muito mais!
 
+RESOURCE ID: text_rewards_key_chandelureraidday
+TEXT: <b>Os bônus incluem:</b>
+• 8 Passes de Reide adicionais ao girar Fotodiscos de Ginásios
+• Maior chance de receber Doce Raro GG de Reides
+• 5.000 Poeira Estelar a mais por completar Super Megarreides com sucesso
+• 5.000 PE adicionais por completar Super Megarreides com sucesso
+
 RESOURCE ID: text_rewards_key_dmaxsinnohlakemaxbattle26
 TEXT: <b>Inclui:</b>
 • 2× PE de Batalhas Max
@@ -2191,6 +2257,15 @@ RESOURCE ID: tips_friends_tutorial_add_body
 TEXT: Adicione amigos inserindo o código de Treinador ou escaneando o código 2D deles. Adicionar um amigo no Pokémon GO conectará vocês em todos os jogos da Scopely Explore que ambos jogarem.
 
 Você também pode adicionar amigos conectando sua conta ao Facebook, na tela de Adicionar amigo.
+
+RESOURCE ID: tips_tasks_weather_boost_body
+TEXT: Certain Pokémon appear more frequently when the weather matches their type. These Pokémon have higher CP, are stronger in battle, and award extra Stardust when they’re caught.
+
+RESOURCE ID: tips_tasks_weather_boost_title
+TEXT: Weather Boosts
+
+RESOURCE ID: title_event_pass_daily_bonus_quest_premium
+TEXT: Tarefas Diárias – Deluxe
 
 RESOURCE ID: tr_apac_2026_mid_autumn_1
 TEXT: Pesquisa Temporária de Dançando ao Luar 2026: Caminho Enluarado

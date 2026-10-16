@@ -376,6 +376,9 @@ TEXT: ギフトは道具バッグ内のアイテムとしてカウントされ�
 RESOURCE ID: details_link_key_dmax_sinnoh_lake_max_battle
 TEXT: 詳細は<a href="https://pokemongo.com/news/dynamax-uxie-mesprit-azelf-max-battle-day-2026">ウェブサイト</a>でご確認ください
 
+RESOURCE ID: details_link_key_megachandelureraidday
+TEXT: 詳細は<a href="https://pokemongo.com/news/chandelure-super-mega-raid-day-2026">ウェブサイト</a>でご確認ください
+
 RESOURCE ID: dmax_azelf_lake_max_battles
 TEXT: ダイマックスしたアグノムがマックスバトルに出現
 
@@ -410,6 +413,9 @@ TEXT: 欧州宇宙機関イベント2026タイムチャレンジ
 RESOURCE ID: event_datetime_range_key_cd_zorua26
 TEXT: 10月10日2:00PM～5:00PM
 
+RESOURCE ID: event_mega_chandelure_raid_day_timed_research
+TEXT: シャンデラスーパーメガレイドデイタイムチャレンジ
+
 RESOURCE ID: evergreen_week_event_name_twilight_trails
 TEXT: 選べる冒険：黄昏の旅路
 
@@ -433,6 +439,9 @@ TEXT: ゾロアコミュニティ・デイチケット
 
 RESOURCE ID: general2.ticket.2_sandilehatchday26_title
 TEXT: メグロコふかの日プレミアムタイムチャレンジチケット
+
+RESOURCE ID: general2.ticket.5_megachandelureraidday
+TEXT: シャンデラスーパーメガレイドデイチケット
 
 RESOURCE ID: general2.ticket.6.dmax_sinnoh_lake_max_battle
 TEXT: ダイマックスユクシー・エムリット
@@ -950,11 +959,23 @@ TEXT: このポケモンについている背景は、トレーナープロフ�
 RESOURCE ID: item_bag_bonus
 TEXT: ボーナス
 
+RESOURCE ID: item_bag_category_berries_and_poffins
+TEXT: きのみ＆ポフィン
+
 RESOURCE ID: item_bag_category_featured
 TEXT: 注目アイテム
 
+RESOURCE ID: item_bag_category_incubators
+TEXT: ふかそうち
+
+RESOURCE ID: item_event_ticket_gray_desc_megachandelureraidday
+TEXT: 現地時間2026年10月31日2:00PM～10:00PMにボーナスを受け取るためのチケット。
+
 RESOURCE ID: item_event_ticket_gray_desc_sandilehatchday26
 TEXT: 現地時間2026年10月17日11:00AM～5:00PMにメグロコふかの日のプレミアムタイムチャレンジが行えるチケット。
+
+RESOURCE ID: item_event_ticket_gray_details_megachandelureraidday
+TEXT: このチケットは自動的に発動し10月31日にボーナスが受け取れるようになります。
 
 RESOURCE ID: item_event_ticket_gray_details_sandilehatchday26
 TEXT: このチケットは自動的に発動し10月17日に「メグロコふかの日」プレミアムタイムチャレンジが行えるようになります。
@@ -982,6 +1003,9 @@ TEXT: 購入したプレゼント
 
 RESOURCE ID: item_mp_name_plural
 TEXT: マックス粒子
+
+RESOURCE ID: journal_player_fled
+TEXT: Fled from a raid encounter with {0}.
 
 RESOURCE ID: jp_aeon_mall_collab_2026_event_desc
 TEXT: 全国のイオンモールで10月19日～11月1日に特別なイベント開催
@@ -1081,20 +1105,34 @@ TEXT: ダイマックスユクシー・エムリット
 RESOURCE ID: meetup_check_in_research_title_gowa2026
 TEXT: ミートアップチェックインタイムチャレンジ：GOワイルドエリア
 
+RESOURCE ID: mega_chandelure_global_challenge
+TEXT: シャンデラスーパーメガレイドデイグローバルチャレンジ
+
+RESOURCE ID: mega_chandelure_raid_day_event_name
+TEXT: シャンデラスーパーメガレイドデイ
+
 RESOURCE ID: mega_evolve_pokemon_to_use_in_this_party
 TEXT: {0}をメガシンカさせてください
 
+RESOURCE ID: mega_level_tutorial_cp_downscaling_1_body
+TEXT: メガシンカしたポケモンのCPが特定リーグの上限を超える場合、参戦できる範囲に調整されます。
+
+スーパーマックスレベルに達しているポケモンも、マスターリーグでCPが大幅に上がることはありません。
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-10-14T01:27:43.825708+00:00 for ja-JP
-at SHA 46a25b64966
-Pipeline 4019736, job 59225155
-Patch from: 0.435.0-SHA-5bec7604-RC1, 0.431.0-SHA-98b5070c-RC6, 0.433.0-SHA-a810fd7d-RC2
+TEXT: Built at 2026-10-16T22:34:57.171068+00:00 for ja-JP
+at SHA d68311f630a
+Pipeline 4029884, job 59396785
+Patch from: 0.431.0-SHA-8123c737-RC1, 0.433.0-SHA-94a605de-RC4, 0.435.0-SHA-5bec7604-RC1
 
 RESOURCE ID: meteor_desc_1
 TEXT: 流星群が見られる夜にメテノが出現することがあります。
 
 RESOURCE ID: meteor_title_1
 TEXT: 流星群
+
+RESOURCE ID: minior_shower_tr_name
+TEXT: メテノシャワータイムチャレンジ
 
 RESOURCE ID: month_april
 TEXT: 4月
@@ -1318,6 +1356,15 @@ TEXT: <<move_name_0359>>+
 RESOURCE ID: move_name_0619
 TEXT: <<move_name_0064>>+
 
+RESOURCE ID: nearby_incomplete_raid_header
+TEXT: IN PROGRESS
+
+RESOURCE ID: nearby_incomplete_raid_widget_header
+TEXT: REJOIN
+
+RESOURCE ID: nearby_incomplete_raid_widget_title
+TEXT: Rejoin the {0} raid
+
 RESOURCE ID: night_out_2026_stream_tr_01
 TEXT: Pokémon Night Out タイムチャレンジ(1/2)
 
@@ -1353,6 +1400,12 @@ TEXT: Pokémon Night Out タイムチャレンジ：ビビッ！とチョイス
 
 RESOURCE ID: oclock_generic_desc
 TEXT: イベントテーマポケモンがより頻繁に野生で出現
+
+RESOURCE ID: ominous_wind_base_increased_level_bonus
+TEXT: メガシャンデラのレベルが上がる（11月2日12:00PM～15日12:00PM太平洋標準時）
+
+RESOURCE ID: ominous_wind_base_power_boost_bonus
+TEXT: 「あやしいかぜ+」の威力が増す（11月2日12:00PM～15日12:00PM太平洋標準時）
 
 RESOURCE ID: paid_gift_already_purchased_modal_button
 TEXT: 道具バッグへ
@@ -1475,6 +1528,9 @@ TEXT: ドラゴンタイプ相棒ポケモンのハートを{0}個獲得する
 
 RESOURCE ID: quest_buddy_affection_steel_plural
 TEXT: はがねタイプ相棒ポケモンのハートを{0}個獲得する
+
+RESOURCE ID: quest_defeat_ghost_fire_type_raid_singular
+TEXT: ゴーストタイプかほのおタイプのボスポケモンに勝つ
 
 RESOURCE ID: quest_explore_buddy_dragon
 TEXT: 相棒のドラゴンタイプポケモンと探索してアメを1個もらう
@@ -1610,6 +1666,9 @@ TEXT: 相棒についている背景をトレーナープロフィールに表�
 
 RESOURCE ID: rare_background_ftue_profile_swap_buddies_button
 TEXT: 相棒を交代
+
+RESOURCE ID: recycle_dialog_quantity
+TEXT: 持っている量：{0}
 
 RESOURCE ID: recycle_discard_all
 TEXT: はい、すべて捨てます
@@ -1976,6 +2035,13 @@ TEXT: <b>もらえるもの：</b>
 ・プレミアムバトルパス、わざマシンスペシャル、ふしぎなアメ
 ・その他
 
+RESOURCE ID: text_rewards_key_chandelureraidday
+TEXT: <b>適用ボーナス：</b>
+・ジムのフォトディスクを回してもらえるレイドパス8枚追加
+・レイドでもらえるふしぎなアメXLの可能性増
+・スーパーメガレイド勝利でもらえる5000ほしのすな追加
+・スーパーメガレイド勝利でもらえる5000XP追加、など
+
 RESOURCE ID: text_rewards_key_dmaxsinnohlakemaxbattle26
 TEXT: <b>もらえるもの：</b>
 ・マックスバトルでもらえるXP2倍
@@ -1991,6 +2057,12 @@ TEXT: <b>適用ボーナス：</b>
 
 RESOURCE ID: ticket_zorua_cd
 TEXT: ゾロアコミュニティ・デイスペシャルリサーチのチケットがショップに登場
+
+RESOURCE ID: tips_tasks_weather_boost_body
+TEXT: 特定のポケモンが、そのタイプに合う天候下で出会いやすくなります。これらのポケモンには、CPがより高くなる、バトルでのワザの強さがブーストされる、などの特徴があります。捕まえると、ほしのすなが多くもらえます。
+
+RESOURCE ID: tips_tasks_weather_boost_title
+TEXT: 天候によるブースト
 
 RESOURCE ID: tr_apac_2026_mid_autumn_1
 TEXT: おつきみダンス2026タイムチャレンジ：月夜の小径
