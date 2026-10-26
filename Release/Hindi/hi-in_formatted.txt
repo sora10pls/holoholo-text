@@ -410,7 +410,7 @@ RESOURCE ID: add_friends_privacy_prompt
 TEXT: दोस्तों को आपकी ट्रेनर प्रोफ़ाइल, उपलब्धियां और आपके द्वारा पकड़े गए पोकेमॉन दिखाई देंगे। जब आप दोस्तों को गिफ़्ट भेजते हैं या उनके साथ पोकेमॉन ट्रेड करते हैं, तो वे आपकी लोकेशन भी देख सकेंगे।
 
 RESOURCE ID: add_niantic_friend_tip
-TEXT: इस गेम में इस दोस्त को शामिल करने पर, यह उन सभी Scopely Explore में एक दोस्त की तरह जुड़ जाएगा जिन्हें आप दोनों खेलते हैं।
+TEXT: यदि आप इस गेम में इन्हें दोस्त के रूप में जोड़ लेंगे, तो आप दोनों जो भी Scopely Explore गेम खेलेंगे, उन सभी में ये आपके दोस्त के रूप में जोड़े जाएँगे।
 
 RESOURCE ID: add_referrer_already_added_accept_invite
 TEXT: आपको इस ट्रेनर ने दोस्ती की रिक्वेस्ट भेजी है जिसे आपने अभी तक स्वीकार नहीं किया है। रेफ़रल रिवॉर्ड पाते रहने के लिए स्वीकार करें। आप चाहें, तो कोई दूसरा रेफ़रल कोड डाल सकते हैं।
@@ -726,6 +726,9 @@ TEXT: पकड़ने के स्थान को अस्थायी र
 RESOURCE ID: advanced_settings_streamer_mode_toggle_description
 TEXT: इस सेटिंग को चालू कर, पोकेमॉन को पकड़ने के स्थान को अस्थायी रूप से छिपाएँ
 
+RESOURCE ID: adventure_effect_activation_lobby_active
+TEXT: This Adventure Effect is currently active.
+
 RESOURCE ID: adventure_effect_incense_table_header
 TEXT: इंसेंस से आकर्षित हुए पोकेमॉन
 
@@ -977,10 +980,10 @@ RESOURCE ID: allow_gift_list_prompt_button_label
 TEXT: YES, ALLOW
 
 RESOURCE ID: allow_gift_list_prompt_desc
-TEXT: After unpausing the following friend will be able to send you paid gifts again.
+TEXT: If you select Allow, this friend will be able to send you paid gifts again.
 
 RESOURCE ID: allow_gift_list_prompt_title
-TEXT: Allow Gifting?
+TEXT: Allow paid gifts?
 
 RESOURCE ID: allow_notifications_prompt_1
 TEXT: 1. सेटिंग > Pokémon GO पर जाएं।
@@ -2077,7 +2080,7 @@ RESOURCE ID: ardk_download_button
 TEXT: डाउनलोड करें
 
 RESOURCE ID: ardk_download_confirm_body
-TEXT: AR पार्टनर लेवल का पूरा मज़ा लेने के लिए, कृपया Scopely Explore AR Platform डाउनलोड करें। (आप जब चाहें इस ट्रायल को बंद कर सकते हैं।)
+TEXT: AR पार्टनर फ़ीचर का पूरा आनंद लेने के लिए, कृपया Scopely Explore AR Platform डाउनलोड करें। (आप जब चाहें इस ट्रायल को समाप्त कर सकते हैं।)
 
 RESOURCE ID: ardk_download_confirm_size
 TEXT: डाउनलोड साइज़: {0} MB
@@ -2102,7 +2105,7 @@ TEXT: हो गया!
 शेयर किए गए AR अनुभव में आपका स्वागत है!
 
 RESOURCE ID: ardk_download_prompt_multiplayer_legal_tos_description
-TEXT: Scopely Explore आपके AR सेशन के दौरान आपके कैमरे का जियोस्पेशल डेटा प्रोसेस करेगा। {0}।
+TEXT: AR सेशन के समय, Scopely Explore आपके कैमरे से मिलने वाले जियोस्पेशल डेटा को प्रोसेस करेगा। {0}।
 
 RESOURCE ID: ardk_download_prompt_multiplayer_legal_tos_link_text
 TEXT: और जानें
@@ -2124,7 +2127,7 @@ RESOURCE ID: ardk_download_prompt_title_dbow
 TEXT: शेयर किए गए AR अनुभवों का मज़ा लेने के लिए, अतिरिक्त कॉन्टेंट डाउनलोड करना होगा
 
 RESOURCE ID: ardk_download_prompt_title_monodepth
-TEXT: AR का बेहतरीन अनुभव पाने के लिए, Scopely Explore AR पैकेज डाउनलोड करना ज़रूरी है।
+TEXT: और भी जीवंत AR अनुभव का आनंद लेने के लिए, Scopely Explore AR पैकेज डाउनलोड करना होगा।
 
 RESOURCE ID: ardk_update_confirm_body
 TEXT: कृपया सर्वश्रेष्ठ AR अनुभव डाउनलोड करें।
@@ -12196,49 +12199,49 @@ RESOURCE ID: badge_gowa_2026_cdmx_addon_battle
 TEXT: Mexico City, November 6–8, 2026
 
 RESOURCE ID: badge_gowa_2026_cdmx_addon_battle_title
-TEXT: GO Wild Area 2026 – Mexico City: Battle Ready
+TEXT: GO Wild Area: Battle Ready
 
 RESOURCE ID: badge_gowa_2026_cdmx_addon_friday
 TEXT: Mexico City, Friday, November 6, 2026, 10:00 a.m. – 6:00 p.m.
 
 RESOURCE ID: badge_gowa_2026_cdmx_addon_friday_title
-TEXT: GO Wild Area 2026 – Mexico City: Extra Day (Friday)
+TEXT: GO Wild Area 2026: Extra Day (Friday)
 
 RESOURCE ID: badge_gowa_2026_cdmx_addon_hatch
 TEXT: Mexico City, November 6–8, 2026
 
 RESOURCE ID: badge_gowa_2026_cdmx_addon_hatch_title
-TEXT: GO Wild Area 2026 – Mexico City: Egg–thusiast
+TEXT: GO Wild Area 2026: Egg-thusiast
 
 RESOURCE ID: badge_gowa_2026_cdmx_addon_saturday
 TEXT: Mexico City, Saturday, November 7, 2026, 10:00 a.m. – 6:00 p.m.
 
 RESOURCE ID: badge_gowa_2026_cdmx_addon_saturday_title
-TEXT: GO Wild Area 2026 – Mexico City: Extra Day (Saturday)
+TEXT: GO Wild Area 2026: Extra Day (Saturday)
 
 RESOURCE ID: badge_gowa_2026_cdmx_addon_sunday
 TEXT: Mexico City, Sunday, November 8, 2026, 10:00 a.m. – 6:00 p.m.
 
 RESOURCE ID: badge_gowa_2026_cdmx_addon_sunday_title
-TEXT: GO Wild Area 2026 – Mexico City: Extra Day (Sunday)
+TEXT: GO Wild Area 2026: Extra Day (Sunday)
 
 RESOURCE ID: badge_gowa_2026_cdmx_friday
 TEXT: Mexico City, Friday, November 6, 2026, 10:00 a.m. – 6:00 p.m.
 
 RESOURCE ID: badge_gowa_2026_cdmx_friday_title
-TEXT: GO Wild Area 2026 – Mexico City: Friday
+TEXT: GO Wild Area 2026: Friday
 
 RESOURCE ID: badge_gowa_2026_cdmx_saturday
 TEXT: Mexico City, Saturday, November 7, 2026, 10:00 a.m. – 6:00 p.m.
 
 RESOURCE ID: badge_gowa_2026_cdmx_saturday_title
-TEXT: GO Wild Area 2026 – Mexico City: Saturday
+TEXT: GO Wild Area 2026: Saturday
 
 RESOURCE ID: badge_gowa_2026_cdmx_sunday
 TEXT: Mexico City, Sunday, November 8, 2026, 10:00 a.m. – 6:00 p.m.
 
 RESOURCE ID: badge_gowa_2026_cdmx_sunday_title
-TEXT: GO Wild Area 2026 – Mexico City: Sunday
+TEXT: GO Wild Area 2026: Sunday
 
 RESOURCE ID: badge_gowa_2026_cdmx_test
 TEXT: Mexico City, November 6–8, 2026
@@ -12280,49 +12283,49 @@ RESOURCE ID: badge_gowa_2026_sendai_addon_battle
 TEXT: Sendai・Tohoku, November 6–8, 2026
 
 RESOURCE ID: badge_gowa_2026_sendai_addon_battle_title
-TEXT: GO Wild Area 2026 – Sendai・Tohoku: Battle Ready
+TEXT: GO Wild Area 2026: Battle Ready
 
 RESOURCE ID: badge_gowa_2026_sendai_addon_friday
 TEXT: Sendai・Tohoku, Friday, November 6, 2026, 10:00 a.m. – 6:00 p.m.
 
 RESOURCE ID: badge_gowa_2026_sendai_addon_friday_title
-TEXT: GO Wild Area 2026 – Sendai・Tohoku: Extra Day (Friday)
+TEXT: GO Wild Area 2026: Extra Day (Friday)
 
 RESOURCE ID: badge_gowa_2026_sendai_addon_hatch
 TEXT: Sendai・Tohoku, November 6–8, 2026
 
 RESOURCE ID: badge_gowa_2026_sendai_addon_hatch_title
-TEXT: GO Wild Area 2026 – Sendai・Tohoku: Egg–thusiast
+TEXT: GO Wild Area 2026: Egg-thusiast
 
 RESOURCE ID: badge_gowa_2026_sendai_addon_saturday
 TEXT: Sendai・Tohoku, Saturday, November 7, 2026, 10:00 a.m. – 6:00 p.m.
 
 RESOURCE ID: badge_gowa_2026_sendai_addon_saturday_title
-TEXT: GO Wild Area 2026 – Sendai・Tohoku: Extra Day (Saturday)
+TEXT: GO Wild Area 2026: Extra Day (Saturday)
 
 RESOURCE ID: badge_gowa_2026_sendai_addon_sunday
 TEXT: Sendai・Tohoku, Sunday, November 8, 2026, 10:00 a.m. – 6:00 p.m.
 
 RESOURCE ID: badge_gowa_2026_sendai_addon_sunday_title
-TEXT: GO Wild Area 2026 – Sendai・Tohoku: Extra Day (Sunday)
+TEXT: GO Wild Area 2026: Extra Day (Sunday)
 
 RESOURCE ID: badge_gowa_2026_sendai_friday
 TEXT: Sendai・Tohoku, Friday, November 6, 2026, 10:00 a.m. – 6:00 p.m.
 
 RESOURCE ID: badge_gowa_2026_sendai_friday_title
-TEXT: GO Wild Area 2026 – Sendai・Tohoku: Friday
+TEXT: GO Wild Area 2026: Friday
 
 RESOURCE ID: badge_gowa_2026_sendai_saturday
 TEXT: Sendai・Tohoku, Saturday, November 7, 2026, 10:00 a.m. – 6:00 p.m.
 
 RESOURCE ID: badge_gowa_2026_sendai_saturday_title
-TEXT: GO Wild Area 2026 – Sendai・Tohoku: Saturday
+TEXT: GO Wild Area 2026: Saturday
 
 RESOURCE ID: badge_gowa_2026_sendai_sunday
 TEXT: Sendai・Tohoku, Sunday, November 8, 2026, 10:00 a.m. – 6:00 p.m.
 
 RESOURCE ID: badge_gowa_2026_sendai_sunday_title
-TEXT: GO Wild Area 2026 – Sendai・Tohoku: Sunday
+TEXT: GO Wild Area 2026: Sunday
 
 RESOURCE ID: badge_gowa_2026_sendai_test
 TEXT: Sendai・Tohoku, November 6–8, 2026
@@ -17562,7 +17565,7 @@ RESOURCE ID: bidoof_day_event
 TEXT: बीडूफ़ डे
 
 RESOURCE ID: blacklisted_app_found_lockout
-TEXT: हमने एक ऐसे सॉफ़्टवेयर की पहचान की है जिसकी वजह से आपको अपने डिवाइस पर Pokémon GO इस्तेमाल करने में दिक्कत हो सकती है। इसमें आपकी लोकेशन को गलत बताने वाले ऐप्लिकेशन शामिल हैं। बिना अनुमति वाले ऐसे सॉफ़्टवेयर इस्तेमाल करना जो सीधे Pokémon GO पर असर पड़ता है, Scopely Explore की सेवा की शर्तों का उल्लंघन है। ऐसा करने से, आपका खाता भी बंद हो सकता है। गेम खेलना जारी रखने के लिए, आपको ऐसे सभी ऐप्लिकेशन अनइंस्टॉल करने होंगे।
+TEXT: हमने आपके डिवाइस पर ऐसे सॉफ़्टवेयर का पता लगा है जो Pokémon GO के ठीक से चलने में बाधा डाल सकता है। इसमें आपका स्थान झूठा दिखाने वाले ऐप्लिकेशन भी आते हैं। Pokémon GO पर सीधा प्रभाव डालने वाले अनधिकृत सॉफ़्टवेयर का उपयोग करना Scopely Explore की सेवा की शर्तों का उल्लंघन है, और इससे आप अपना अकाउंट खो सकते हैं। गेम आगे खेलने के लिए, आपको ऐसे सभी ऐप्लिकेशन अनइंस्टॉल करने होंगे।
 
 RESOURCE ID: blanche_apr23_event_title
 TEXT: एक मिस्टिक हीरो
@@ -20838,6 +20841,9 @@ TEXT: रूट पर चलने से आपको ज़ाइगार्ड
 
 RESOURCE ID: breakfast_tappable_tutorial_body_temp
 TEXT: रूट को पूरा करने के बाद आपको ज़ाइगार्ड सेल मिल सकते हैं। ज़ाइगार्ड सेल को एक-साथ जोड़कर, आप अलग-अलग ज़ाइगार्ड फ़ॉर्म बना सकते हैं।
+
+RESOURCE ID: breakfast_tappable_tutorial_body_temp2
+TEXT: Collect up to 3 Zygarde Cells per day by completing Routes. Assemble your Zygarde Cells to create different Zygarde forms.
 
 RESOURCE ID: breakthrough_free_remote_raid_pass
 TEXT: रिसर्च में नई खोज से रिमोट रेड पास
@@ -25207,6 +25213,15 @@ TEXT: Hasami
 RESOURCE ID: city_manhole_476
 TEXT: Goto
 
+RESOURCE ID: city_manhole_477
+TEXT: Minamimaki
+
+RESOURCE ID: city_manhole_478
+TEXT: Yamanouchi
+
+RESOURCE ID: city_manhole_479
+TEXT: Omachi
+
 RESOURCE ID: city_manhole_47_603e
 TEXT: इशिनोमाकि
 
@@ -25218,6 +25233,9 @@ TEXT: Isahaya
 
 RESOURCE ID: city_manhole_481
 TEXT: Saikai
+
+RESOURCE ID: city_manhole_482
+TEXT: Ina
 
 RESOURCE ID: city_manhole_483
 TEXT: Tsushima
@@ -26846,12 +26864,12 @@ RESOURCE ID: combat_lets_not_battle
 TEXT: अभी नहीं
 
 RESOURCE ID: combat_log_upload_complete_modal_body
-TEXT:  Scopely Explore के साथ अपने गेम का लोगो शेयर करने के लिए शुक्रिया। इस डेटा से हमें Pokémon GO को बेहतर बनाने में मदद मिलेगी।
+TEXT: Scopely Explore के साथ अपने गेम लॉग साझा करने के लिए धन्यवाद। इस डेटा से हम Pokémon GO को और अच्छा बना पाएँगे।
 
-ज़्यादा सहायता के लिए, कृपया सहायता से संपर्क करें और अपने अपलोड किए गए गेम लॉग का उल्लेख करें
+अधिक सहायता के लिए, कृपया सहायता टीम से संपर्क करें और अपने अपलोड किए गए गेम लॉग का उल्लेख करें।
 
 RESOURCE ID: combat_log_upload_modal_body
-TEXT: अगर आपको पिछली ट्रेनर बैटल के दौरान समस्याएं हुई थीं, तो गेम लॉगिंग फ़ीचर के ज़रिए अपने गेम लॉग अपलोड करने पर विचार करें, ताकि आप उन्हें Scopely Explore के साथ शेयर कर सकें
+TEXT: यदि पिछली ट्रेनर बैटल में आपको समस्याएँ आई थीं, तो गेम लॉगिंग फ़ीचर से अपने गेम लॉग अपलोड करके उन्हें Scopely Explore के साथ साझा करने पर विचार करें।
 
 RESOURCE ID: combat_log_upload_modal_complete_title
 TEXT: अपलोड हो गया!
@@ -28526,7 +28544,7 @@ RESOURCE ID: delete_gift_confirmation
 TEXT: क्या आपको वाकई इस गिफ़्ट को खारिज करना है?
 
 RESOURCE ID: delete_gift_message
-TEXT: Gifts do not count toward Item Bag storage.
+TEXT: गिफ़्ट, आइटम बैग की स्टोरेज क्षमता में नहीं गिने जाते।
 
 RESOURCE ID: delete_pokemon_tag_confirmation
 TEXT: इस टैग को उस पोकेमॉन से हटा दिया जाएगा जिसे यह लगाया गया था। प्रोफ़ेसर विलो को पोकेमॉन ट्रांसफ़र नहीं होगा।
@@ -28614,6 +28632,9 @@ TEXT: अधिक जानकारी के लिए, <a href="https://poke
 
 RESOURCE ID: details_link_key_dmax_ho_oh
 TEXT: अधिक जानकारी की लिए <a href="https://pokemongo.com/news/ho-oh-max-battle-weekend-2026">वेबसाइट</a> पर जाएं।
+
+RESOURCE ID: details_link_key_dmax_sinnoh_lake_max_battle
+TEXT: अधिक जानकारी की लिए <a href="https://pokemongo.com/news/dynamax-uxie-mesprit-azelf-max-battle-day-2026">वेबसाइट</a> पर जाएँ।
 
 RESOURCE ID: details_link_key_entei_shadow_raid_day
 TEXT: अधिक जानकारी की लिए <a href="https://pokemongolive.com/news/shadow-entei-raid-day-2026">वेबसाइट</a> पर जाएँ।
@@ -28840,6 +28861,9 @@ TEXT: जंगल में पकड़े गए डिट्टो के प�
 RESOURCE ID: dmax_articuno_max_battles
 TEXT: डायनामैक्स आर्टिकूनो मैक्स बैटल में दिखाई दे रहे हैं
 
+RESOURCE ID: dmax_azelf_lake_max_battles
+TEXT: डायनामैक्स ऐज़ेल्फ़ मैक्स बैटल में दिखाई दे रहे हैं
+
 RESOURCE ID: dmax_battle_win_plural
 TEXT: {0} डायनामैक्स बैटल जीतें
 
@@ -28906,6 +28930,9 @@ TEXT: डायनामैक्स लूगिया मैक्स बै�
 RESOURCE ID: dmax_lugia_weekend_timed_research
 TEXT: डायनामैक्स लूगिया मैक्स बैटल वीकेंड सीमित समय वाली रिसर्च
 
+RESOURCE ID: dmax_mesprit_lake_max_battles
+TEXT: डायनामैक्स मेस्प्रिट मैक्स बैटल में दिखाई दे रहे हैं
+
 RESOURCE ID: dmax_moltres_max_battles
 TEXT: डायनामैक्स मोल्ट्रेस मैक्स बैटल में दिखाई दे रहे हैं
 
@@ -28918,6 +28945,9 @@ TEXT: डायनामैक्स राइको मैक्स बैट�
 RESOURCE ID: dmax_raikou_weekend_timed_research
 TEXT: डायनामैक्स राइको मैक्स बैटल वीकेंड सीमित समय वाली रिसर्च
 
+RESOURCE ID: dmax_sinnoh_lake_mbd_tr_oct26
+TEXT: डायनामैक्स युक्सी, मेस्प्रिट, और ऐज़ेल्फ़ मैक्स बैटल डे प्रीमियम सीमित समय वाली रिसर्च
+
 RESOURCE ID: dmax_suicune_max_battles
 TEXT: डायनामैक्स सुइकून मैक्स बैटल में दिखाई दे रहे हैं
 
@@ -28926,6 +28956,9 @@ TEXT: डायनामैक्स सुइकून मैक्स बै�
 
 RESOURCE ID: dmax_suicune_weekend_timed_research
 TEXT: डायनामैक्स सुइकून मैक्स बैटल वीकेंड सीमित समय वाली रिसर्च
+
+RESOURCE ID: dmax_uxie_lake_max_battles
+TEXT: डायनामैक्स युक्सी मैक्स बैटल में दिखाई दे रहे हैं
 
 RESOURCE ID: dmax_zapdos_max_battles
 TEXT: डायनामैक्स ज़ैपडोस मैक्स बैटल में दिखाई दे रहे हैं
@@ -29032,10 +29065,10 @@ RESOURCE ID: downloading_avatar_assets_warning_title
 TEXT: एसेट डाउनलोड नहीं हो पाए
 
 RESOURCE ID: dragon_poi_spin_plural
-TEXT: Spin {0} Dragon type-themed PokéStops
+TEXT: Spin {0} Dragon type–themed PokéStops
 
 RESOURCE ID: dragon_poi_spin_singular
-TEXT: Spin a Dragon type-themed PokéStop
+TEXT: Spin a Dragon type–themed PokéStop
 
 RESOURCE ID: dragon_type_event
 TEXT: टाइप सर्ज : ड्रैगन
@@ -33279,7 +33312,7 @@ RESOURCE ID: fb_invite_friend_list_permission_not_granted
 TEXT: आपने Facebook के अपने दोस्तों की लिस्ट को एक्सेस करने की अनुमति नहीं दी है।
 
 RESOURCE ID: fb_invite_import_friends_info
-TEXT: अगर आप Facebook के दोस्तों को इंपोर्ट करने का विकल्प चुनते हैं, तो Scopely Explore आपके Facebook के उन दोस्तों की लिस्ट को एक्सेस करेगा जो पहले से ही Pokémon GO पर हैं और उन्होंने भी Facebook दोस्तों को इंपोर्ट करने का विकल्प चुना है। आपकी Facebook प्रोफ़ाइल पर दिखने वाला आपका नाम और फ़ोटो आपके ट्रेनर के नाम के साथ दिखाई देगी। आप जब चाहें अपना विचार बदल सकते हैं और अपनी Pokémon GO की दोस्ती की लिस्ट से खिलाड़ियों को हटा सकते हैं या Facebook में ऐप अनुमतियों को एडिट कर सकते हैं। ज़्यादा जानकारी के लिए, सहायता केंद्र पर जाएं।
+TEXT: यदि आप Facebook दोस्तों को इंपोर्ट करने का विकल्प चुनते हैं, तो Scopely Explore आपके Facebook के उन दोस्तों की सूची को एक्सेस करेगा जो पहले से ही Pokémon GO पर हैं और जिन्होंने भी Facebook दोस्तों को इंपोर्ट करने का विकल्प चुना है। आपकी Facebook प्रोफ़ाइल का नाम और फ़ोटो आपके ट्रेनर नाम के साथ दिखाई देंगे। आप कभी भी अपना निर्णय बदल सकते हैं और अपनी Pokémon GO दोस्तों की सूची से खिलाड़ियों को हटा सकते हैं, या Facebook में ऐप अनुमतियों को एडिट कर सकते हैं। अधिक जानकारी के लिए, सहायता केंद्र पर जाएँ।
 
 RESOURCE ID: fb_invite_import_friends_title
 TEXT: Facebook से दोस्त इंपोर्ट करें?
@@ -35730,9 +35763,9 @@ RESOURCE ID: friend_singular
 TEXT: दोस्त
 
 RESOURCE ID: friend_sort_online_not_available_body
-TEXT: ऑनलाइन स्टेटस शेयर करने पर ही क्रमित करने का यह तरीका इस्तेमाल किया जा सकता है। 
- 
-नोट: आपका ऑनलाइन स्टेटस शेयर होने पर वह आपके द्वारा खेले जाने वाले सभी Scopely Explore गेम्स के लिए शेयर हो जाएगा।
+TEXT: आप इस सॉर्ट विकल्प का उपयोग तभी कर सकते हैं जब आप अपनी ऑनलाइन स्थिति साझा करें।
+
+ध्यान दें: ऑनलाइन स्थिति साझा करने पर, वह आपकी सभी Scopely Explore गेम में साझा होगी।
 
 RESOURCE ID: friend_sort_online_not_available_cancel_button
 TEXT: नहीं
@@ -35951,7 +35984,7 @@ RESOURCE ID: friendslist_sort_online
 TEXT: ऑनलाइन
 
 RESOURCE ID: friendslist_sort_online_unavailable
-TEXT: अगर आपने Scopely Explore Online में शामिल नहीं हुए, तो आप दोस्तों को ऑनलाइन स्टेटस से क्रमित नहीं कर सकते हैं।
+TEXT: जब तक आप Scopely Explore Online के लिए सहमति नहीं देते, तब तक आप दोस्तों को उनकी ऑनलाइन स्थिति के अनुसार सॉर्ट नहीं कर सकते।
 
 RESOURCE ID: friendslist_sort_raid
 TEXT: ({0}) रेड में
@@ -38075,6 +38108,9 @@ TEXT: सवाडल कम्युनिटी डे टिकट
 RESOURCE ID: general1.ticket_tynamocd24_title
 TEXT: टायनमो कम्युनिटी डे टिकट
 
+RESOURCE ID: general2.ticket.2_sandilehatchday26_title
+TEXT: सैंडायल हैच डे प्रीमियम सीमित समय वाली रिसर्च टिकट
+
 RESOURCE ID: general2.ticket.5._gowa2024hatchver1_title
 TEXT: वाइल्ड वीक - हैच
 
@@ -38107,6 +38143,9 @@ TEXT: अल्ट्रा अनलॉक - स्टारमी सुपर
 
 RESOURCE ID: general2.ticket.5_shayminmasterworkrerun
 TEXT: मास्टरवर्क रिसर्च - आभार की जगमगाहट
+
+RESOURCE ID: general2.ticket.6.dmax_sinnoh_lake_max_battle
+TEXT: डायनामैक्स युक्सी, मेस्प्रिट, और ऐज़ेल्फ़ मैक्स बैटल डे टिकट
 
 RESOURCE ID: general2.ticket.6.replay_go_bigger
 TEXT: रीप्ले - GO बिग टिकट टिकट
@@ -38450,6 +38489,9 @@ TEXT: चालू करें
 RESOURCE ID: general_value_plus
 TEXT: {0}+
 
+RESOURCE ID: general_view_pokemon
+TEXT: पोकेमॉन देखें
+
 RESOURCE ID: general_vs
 TEXT: VS
 
@@ -38566,13 +38608,13 @@ RESOURCE ID: gift_from_sponsor
 TEXT: स्पॉन्सर गिफ़्ट खोलें
 
 RESOURCE ID: gift_multi_delete_button_text
-TEXT: DISCARD ({0})
+TEXT: ({0}) नष्ट करें
 
 RESOURCE ID: gift_multi_delete_complete
-TEXT: Your selection has been cleared.
+TEXT: आपका चयन हटा दिया गया है।
 
 RESOURCE ID: gift_multi_delete_plural
-TEXT: Discard these {0} Gifts?
+TEXT: यह {0} गिफ़्ट नष्ट करें?
 
 RESOURCE ID: gift_open_bonus_rewards
 TEXT: गिफ़्ट खोलने पर बोनस रिवॉर्ड
@@ -38634,7 +38676,7 @@ TEXT: हमें खेद है।
 इसके बजाय, अगर आपको रिफ़ंड चाहिए, तो आप app store के ज़रिए इसका अनुरोध कर सकते हैं।
 
 RESOURCE ID: gifting_error_description_temp
-TEXT: Unfortunately, this Friend is now ineligible for receiving this paid gift. This can happen for a variety of reasons.
+TEXT: Unfortunately, this friend cannot receive this paid gift. This can happen for a variety of reasons.
 
 You can choose a new friend to send this to now.
 
@@ -39220,6 +39262,9 @@ TEXT: जायगैंटामैक्स बटरफ़्री मैक
 
 RESOURCE ID: gmax_cinderace_max_battles
 TEXT: जायगैंटामैक्स सिंडरएस मैक्स बैटल में दिखाई दे रहे हैं
+
+RESOURCE ID: gmax_duraludon_max_battles
+TEXT: Gigantamax Duraludon is appearing in Max Battles
 
 RESOURCE ID: gmax_garbodor_lead_up_timed_research
 TEXT: जायगैंटामैक्स गारबोडर मैक्स बैटल डे प्री-इवेंट सीमित समय वाली रिसर्च
@@ -46503,6 +46548,9 @@ TEXT: वाइल्ड वीक कलेक्शन चैलेंज
 RESOURCE ID: gowa2025_leadup_global_todayview_bonus
 TEXT: वाइल्ड वीक अतिरिक्त बोनस
 
+RESOURCE ID: gowa2026_leadup_collection_challenge
+TEXT: Into the Wild Collection Challenge
+
 RESOURCE ID: gowa_2024
 TEXT: Pokémon GO वाइल्ड एरिया 2024
 
@@ -46936,10 +46984,10 @@ RESOURCE ID: gowa_2026_all_weekend_ticketed
 TEXT: Pokémon GO Wild Area 2026: All Weekend (Ticket)
 
 RESOURCE ID: gowa_2026_cdmx
-TEXT: Pokémon GO Wild Area 2026: Mexico City
+TEXT: Pokémon GO Wild Area: Mexico City
 
 RESOURCE ID: gowa_2026_cdmx_extended_bonus
-TEXT: Pokémon GO Wild Area 2026: Mexico City – Extended Bonuses
+TEXT: Pokémon GO Wild Area: Mexico City – Extended Bonuses
 
 RESOURCE ID: gowa_2026_content_hashtag
 TEXT: Post photos with #GOWildArea2026, and we’ll share our favorites!
@@ -46996,10 +47044,10 @@ RESOURCE ID: gowa_2026_sat_ticketed
 TEXT: Pokémon GO Wild Area 2026: Saturday Event Hours (Ticket)
 
 RESOURCE ID: gowa_2026_sendai
-TEXT: Pokémon GO Wild Area 2026: Sendai・Tohoku
+TEXT: Pokémon GO Wild Area: Sendai・Tohoku
 
 RESOURCE ID: gowa_2026_sendai_extended_bonus
-TEXT: Pokémon GO Wild Area 2026: Sendai・Tohoku – Extended Bonuses
+TEXT: Pokémon GO Wild Area: Sendai・Tohoku – Extended Bonuses
 
 RESOURCE ID: gowa_2026_steel_badge_candy_xl_bonus
 TEXT: One additional Candy XL from catching Steel-type mighty Pokémon
@@ -49334,6 +49382,9 @@ TEXT: आज खत्म हो रहा है!
 RESOURCE ID: iap_sale_time_left_label
 TEXT: बचा हुआ समय : 
 
+RESOURCE ID: ibfc_minior_transformed
+TEXT: मिनियोर ने फ़ॉर्म बदला!
+
 RESOURCE ID: ibfc_warn_needed_move
 TEXT: बैटल में क्रैमोरंट का फ़ॉर्म बदलने के लिए {0} की आवश्यकता है
 
@@ -49432,6 +49483,39 @@ TEXT: अपने कॅम्पस को एक्सप्लोर कर 
 
 RESOURCE ID: in_collegefest_2026_tv_title
 TEXT: Pokémon GO कॉलेज फ़ेस्ट आ गया है!
+
+RESOURCE ID: in_fol_2026_collection_challenge
+TEXT: Festival of Lights 2026 Collection Challenge
+
+RESOURCE ID: in_fol_2026_event_sparkle_o_clock
+TEXT: It’s Sparkle O’Clock! Glowing Pokémon are lighting up the Festival of Lights!
+
+RESOURCE ID: in_fol_2026_event_title
+TEXT: Festival of Lights 2026
+
+RESOURCE ID: in_fol_2026_event_tv_desc
+TEXT: Festival of Lights celebrations are underway! Encounter special Pokémon at 6:00 p.m., 6:30 p.m., 7:00 p.m., and 7:30 p.m. local time, and find Pikachu wearing a saree or kurta in raids. Visit the blog for more details.
+
+RESOURCE ID: in_fol_2026_tr_desc_title_00
+TEXT: Festival of Lights 2026 Timed Research (1/3)
+
+RESOURCE ID: in_fol_2026_tr_desc_title_01
+TEXT: Festival of Lights 2026 Timed Research (2/3)
+
+RESOURCE ID: in_fol_2026_tr_desc_title_02
+TEXT: Festival of Lights 2026 Timed Research (3/3)
+
+RESOURCE ID: in_fol_2026_tr_dialog_00
+TEXT: The Festival of Lights is here, %PLAYERNAME%! Choose your festive Pikachu, and let’s celebrate!
+
+RESOURCE ID: in_fol_2026_tr_path_a_desc
+TEXT: Choose this path for an encounter with Pikachu wearing a kurta with a Special Background, plus rewards including stickers and the Sparkler Pose for your avatar!
+
+RESOURCE ID: in_fol_2026_tr_path_b_desc
+TEXT: Choose this path for an encounter with Pikachu wearing a saree with a Special Background, plus rewards including stickers and the Sparkler Pose for your avatar!
+
+RESOURCE ID: in_fol_2026_tr_title
+TEXT: Festival of Lights 2026 Timed Research
 
 RESOURCE ID: in_person_tickets
 TEXT: प्रत्यक्ष इवेंट टिकट
@@ -49613,6 +49697,18 @@ TEXT: {0} लोगों ने आपको दोस्ती की रि�
 RESOURCE ID: incoming_friend_request_prompt_singular
 TEXT: एक व्यक्ति ने आपको दोस्ती की रिक्वेस्ट भेजी।
 
+RESOURCE ID: incomplete_raid_battle_rejoin_modal_body
+TEXT: Rejoin the raid to continue battling the Raid Boss.
+
+RESOURCE ID: incomplete_raid_battle_rejoin_modal_title
+TEXT: Rejoin raid?
+
+RESOURCE ID: incomplete_raid_encounter_rejoin_modal_body
+TEXT: Return to the encounter to catch the Raid Boss.
+
+RESOURCE ID: incomplete_raid_encounter_rejoin_modal_title
+TEXT: Return to Raid Boss encounter?
+
 RESOURCE ID: increased_adventure_sync_rewards
 TEXT: अगले हफ़्ते ज़्यादा एडवेंचर मोड रिवॉर्ड
 
@@ -49777,6 +49873,9 @@ TEXT: पोकेमॉन फ़ेस्टिवल: जकार्ता 2
 
 RESOURCE ID: indonesian
 TEXT: Bahasa Indonesia
+
+RESOURCE ID: ineligible_rare_background_disclaimer_text
+TEXT: इस पोकेमॉन का बैकग्राउंड आपकी ट्रेनर प्रोफ़ाइल पर नहीं दिखाया जा सकता
 
 RESOURCE ID: initial_onboarding_privacy_tip
 TEXT: प्राइवसी कंट्रोल: आपकी सुरक्षा हमारी प्राथमिकता है, इसलिए आप यह नियंत्रित कर सकते हैं कि कौन से फ़ीचर चालू रहें।
@@ -50260,7 +50359,7 @@ RESOURCE ID: item_amer2026_milestone_name
 TEXT: स्पार्क के थीम वाली एक्सेसरी पहने एलेकिड
 
 RESOURCE ID: item_bag_bonus
-TEXT: bonus
+TEXT: बोनस
 
 RESOURCE ID: item_bag_category_berries
 TEXT: बेरी
@@ -50272,7 +50371,7 @@ RESOURCE ID: item_bag_category_evolution
 TEXT: विकास आइटम
 
 RESOURCE ID: item_bag_category_featured
-TEXT: Featured
+TEXT: फ़ीचर्ड
 
 RESOURCE ID: item_bag_category_gifts
 TEXT: गिफ़्ट
@@ -51248,6 +51347,9 @@ TEXT: स्थानीय समयानुसार 18 नवंबर 2024 
 RESOURCE ID: item_event_ticket_gray_desc_raikoushadowraidday
 TEXT: स्थानीय समयानुसार, 24 जनवरी, 2026 शाम 5:00 बजे तक मिलने वाले स्पेशल बोनस को एक्सेस करने की टिकट।
 
+RESOURCE ID: item_event_ticket_gray_desc_sandilehatchday26
+TEXT: स्थानीय समयानुसार 17 अक्तूबर, सुबह 11:00 बजे से शाम 5:00 बजे तक होने वाली सैंडायल हैच डे प्रीमियम सीमित समय वाली रिसर्च के स्पेशल बोनस को एक्सेस करने की टिकट।
+
 RESOURCE ID: item_event_ticket_gray_desc_shadowgroudonraidweekend
 TEXT: स्थानीय समयानुसार, 21 सितंबर, 2025 रात 10:00 बजे तक मिलने वाले स्पेशल बोनस को एक्सेस करने की टिकट।
 
@@ -51433,6 +51535,9 @@ TEXT: यह टिकट 16 सितम्बर को अपने आप �
 
 RESOURCE ID: item_event_ticket_gray_details_raikoushadowraidday
 TEXT: यह टिकट अपने आप ऐक्टिवेट होकर, आपको 24 जनवरी को मिलने वाले स्पेशल बोनस का ऐक्सेस देगा।
+
+RESOURCE ID: item_event_ticket_gray_details_sandilehatchday26
+TEXT: यह टिकट 17 अक्तूबर को अपने आप ऐक्टिवेट होकर, आपको सैंडायल हैच डे प्रीमियम सीमित समय वाली रिसर्च और स्पेशल बोनस का ऐक्सेस देगी।
 
 RESOURCE ID: item_event_ticket_gray_details_shadowgroudonraidweekend
 TEXT: यह टिकट अपने आप ऐक्टिवेट होकर आपको 20 सितंबर के स्पेशल बोनस का ऐक्सेस देगी।
@@ -52030,6 +52135,12 @@ TEXT: An extra event ticket from a purchase error. You can send it to a friend o
 RESOURCE ID: item_event_ticket_pink_to_gift_name
 TEXT: अतिरिक्त टिकट
 
+RESOURCE ID: item_event_ticket_s24_oct_24_maxbattle_desc
+TEXT: स्थानीय समयानुसार, 24 अक्तूबर, 2026 को दुपहर 2:00 बजे से शाम 5:00 बजे तक मिलने वाले स्पेशल बोनस को एक्सेस करने की टिकट।
+
+RESOURCE ID: item_event_ticket_s24_oct_24_maxbattle_details
+TEXT: यह टिकट अपने आप ऐक्टिवेट होकर, आपको 24 अक्तूबर के स्पेशल बोनस का ऐक्सेस देगी।
+
 RESOURCE ID: item_event_ticket_s24_oct_3_maxbattle_desc_gmaxcinderace26
 TEXT: स्थानीय समयानुसार, 3 अक्तूबर, 2026 को दुपहर 2:00 बजे से शाम 5:00 बजे तक मिलने वाले स्पेशल बोनस को एक्सेस करने की टिकट।
 
@@ -52409,7 +52520,7 @@ RESOURCE ID: item_hyper_potion_desc_short
 TEXT: एक पोकेमॉन की HP को 200 पॉइंट रिस्टोर करें।
 
 RESOURCE ID: item_hyper_potion_name
-TEXT: सुपर दवा
+TEXT: हाइपर दवा
 
 RESOURCE ID: item_incense_beluga_box_desc
 TEXT: एक पुराना रहस्यमय बॉक्स। इसे खोलने पर, एक खास पोकेमॉन थोड़ी देर के लिए बाहर आता है।
@@ -52475,10 +52586,10 @@ RESOURCE ID: item_incubator_timed_name
 TEXT: समयबद्ध इन्क्यूबेटर
 
 RESOURCE ID: item_inventory_paid_gift_banner_subtitle
-TEXT: Send to your Friends?
+TEXT: Send to your friends?
 
 RESOURCE ID: item_inventory_paid_gift_banner_title
-TEXT: You have paid gifts
+TEXT: You have paid gifts!
 
 RESOURCE ID: item_item_pack_desc
 TEXT: इससे आपका आइटम बैग बड़ा होता है।
@@ -52626,6 +52737,9 @@ TEXT: पावर स्पॉट पर मैक्स बैटल चुन
 
 RESOURCE ID: item_mp_name
 TEXT: मैक्स पार्टिकल
+
+RESOURCE ID: item_mp_name_plural
+TEXT: Max Particles
 
 RESOURCE ID: item_mp_replenish_desc
 TEXT: मैक्स पार्टिकल का छोटा पैक। प्रत्येक में {0} मैक्स पार्टिकल होते हैं।
@@ -52905,7 +53019,7 @@ RESOURCE ID: item_super_potion_desc_short
 TEXT: एक पोकेमॉन की HP को 50 पॉइंट रिस्टोर करें।
 
 RESOURCE ID: item_super_potion_name
-TEXT: हाइपर दवा
+TEXT: सुपर दवा
 
 RESOURCE ID: item_team_change_desc
 TEXT: एक खास कॉइन जिसके द्वारा ट्रेनर टीम बदल सकते हैं। यह 365 दिनों में सिर्फ़ एक बार खरीदा जा सकता है।
@@ -53239,6 +53353,36 @@ TEXT: जर्नियर बॉक्स
 
 RESOURCE ID: jp_2026_ana_title
 TEXT: आसमानी उड़ान
+
+RESOURCE ID: jp_aeon_mall_collab_2026_event_desc
+TEXT: 19 अक्तूबर से 1 नवंबर तक पूरे जापान के AEON Mall में एक विशेष इवेंट उपलब्ध है!
+
+RESOURCE ID: jp_aeon_mall_collab_2026_lure_bonus
+TEXT: AEON Mall में लगाए गए अट्रैक्ट मॉड्यूल, सामान्य से अधिक पोकेमॉन को आकर्षित करेंगे
+
+RESOURCE ID: jp_aeon_mall_collab_2026_title
+TEXT: AEON Mall हैलोवीन ईवेंट 2026
+
+RESOURCE ID: jp_aeon_mall_collab_2026_tr_1_name
+TEXT: AEON Mall हैलोवीन ईवेंट 2026 सीमित समय वाली रिसर्च - पार्ट 1
+
+RESOURCE ID: jp_aeon_mall_collab_2026_tr_1_name_1
+TEXT: AEON Mall हैलोवीन ईवेंट 2026 सीमित समय वाली रिसर्च - पार्ट 1 (1/2)
+
+RESOURCE ID: jp_aeon_mall_collab_2026_tr_1_name_2
+TEXT: AEON Mall हैलोवीन ईवेंट 2026 सीमित समय वाली रिसर्च - पार्ट 1 (2/2)
+
+RESOURCE ID: jp_aeon_mall_collab_2026_tr_2_name
+TEXT: AEON Mall हैलोवीन ईवेंट 2026 सीमित समय वाली रिसर्च - पार्ट 2
+
+RESOURCE ID: jp_aeon_mall_collab_2026_tr_2_name_1
+TEXT: AEON Mall हैलोवीन ईवेंट 2026 सीमित समय वाली रिसर्च - पार्ट 2 (1/2)
+
+RESOURCE ID: jp_aeon_mall_collab_2026_tr_2_name_2
+TEXT: AEON Mall हैलोवीन ईवेंट 2026 सीमित समय वाली रिसर्च - पार्ट 2 (2/2)
+
+RESOURCE ID: jp_aeon_mall_collab_2026_tr_bonus
+TEXT: हर सप्ताह AEON Mall जाएँ और विशेष सीमित समय वाली रिसर्च पूरी कर एक विशेष पिकाचु से मुलाकात करें
 
 RESOURCE ID: jp_iap_link1
 TEXT: https://scopelyexplore.helpshift.com/hc/ja/5-pokemon-go/faq/1492-%E8%B3%87%E9%87%91%E6%B1%BA%E6%B8%88%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A4%E3%81%8F%E8%A1%A8%E7%A4%BA/
@@ -53637,28 +53781,28 @@ RESOURCE ID: kr_ditto_event_2025_tr_name_3
 TEXT: ट्रांस्फ़ॉर्मेशन सीमित समय वाली रिसर्च (3/3)
 
 RESOURCE ID: kr_fcseoul_collab_2026_bonus_raid_lc_desc
-TEXT: During event hours on October 24, Charmander caught from raids around the Seoul World Cup Stadium event area may have an exclusive Location Background
+TEXT: अक्तूबर 24 को ईवेंट के चलते समय, सियोल वर्ल्ड कप स्टेडियम ईवेंट एरिया के आस-पास होने वाली रेड से पकड़े गए चारमैंडर के पास विशेष लोकेशन बैकग्राउंड हो सकता है
 
 RESOURCE ID: kr_fcseoul_collab_2026_bonus_tr_lc_desc
-TEXT: Charizard encountered from event Timed Research will have an exclusive Location Background
+TEXT: ईवेंट की सीमित समय वाली रिसर्च में मुलाकात होने वाले चारिज़ार्ड के पास विशेष लोकेशन बैकग्राउंड होगा
 
 RESOURCE ID: kr_fcseoul_collab_2026_bonus_wild_pokemon
-TEXT: Catch Fire-type Pokémon around the Seoul World Cup Stadium event area—let’s fire it up for FC Seoul!
+TEXT: सियोल वर्ल्ड कप स्टेडियम ईवेंट एरिया के आस-पास फ़ायर टाइप पोकेमॉन पकड़ें—और FC सियोल के लिए उत्साह की आग जलाएँ!
 
 RESOURCE ID: kr_fcseoul_collab_2026_title
-TEXT: FC Seoul Event 2026
+TEXT: FC सियोल ईवेंट 2026
 
 RESOURCE ID: kr_fcseoul_collab_2026_tr_name
-TEXT: FC Seoul Event 2026 Timed Research
+TEXT: FC सियोल ईवेंट 2026 सीमित समय वाली रिसर्च
 
 RESOURCE ID: kr_fcseoul_collab_2026_tr_name_1
-TEXT: FC Seoul Event 2026 Timed Research (1/3)
+TEXT: FC सियोल ईवेंट 2026 सीमित समय वाली रिसर्च (1/3)
 
 RESOURCE ID: kr_fcseoul_collab_2026_tr_name_2
-TEXT: FC Seoul Event 2026 Timed Research (2/3)
+TEXT: FC सियोल ईवेंट 2026 सीमित समय वाली रिसर्च (2/3)
 
 RESOURCE ID: kr_fcseoul_collab_2026_tr_name_3
-TEXT: FC Seoul Event 2026 Timed Research (3/3)
+TEXT: FC सियोल ईवेंट 2026 सीमित समय वाली रिसर्च (3/3)
 
 RESOURCE ID: kr_festival_fr_location_background
 TEXT: फ़ील्ड रिसर्च टास्क से पकड़े गए डीयर्लिंग और कॉस्ट्यूम वाले पिकाचू का विशेष लोकेशन बैकग्राउंड हो सकता है
@@ -53736,13 +53880,13 @@ RESOURCE ID: kr_hanbok_pikachu_picnic_2026_tr_name_3
 TEXT: पिकाचू चला कोरिया 2026 सीमित समय वाली रिसर्च (3/3)
 
 RESOURCE ID: kr_hangul_day_2026_bonus_desc
-TEXT: Celebrate Hangul Day with event-themed Pokémon appearing in the wild! Use Incense or Lure Modules to encounter special Pokémon.
+TEXT: इस हंगुल डे का अवसर, जंगल में दिखने वाले इवेंट की थीम वाले पोकेमॉन के साथ मनाएँ! इंसेंस या अट्रैक्ट मॉड्यूल से स्पेशल पोकेमॉन को आकर्षित कर उनसे मुलाकात करें।
 
 RESOURCE ID: kr_hangul_day_2026_title
-TEXT: Hangul Day 2026
+TEXT: हंगुल डे 2026
 
 RESOURCE ID: kr_hangul_day_sep2026_cc_title
-TEXT: Hangul Day 2026 Collection Challenge
+TEXT: हंगुल डे 2026 2026 कलेक्शन चैलेंज
 
 RESOURCE ID: kr_lantern_festival_2025_bonus
 TEXT: सोउल लैन्टर्न फ़ेस्टिवल इवेंट बोनस
@@ -53994,7 +54138,7 @@ RESOURCE ID: large_raid_courtesy_reminder
 TEXT: दूसरों के साथ अच्छा व्यवहार करें और असल ज़िंदगी में आस-पास के वातावरण का सम्मान करें।
 
 RESOURCE ID: last_played_date_setting_description
-TEXT: मैंने पिछली बार जब Scopely Explore गेम खेला था, उसकी जानकारी दोस्तों को देखने की अनुमति दें।
+TEXT: मेरे दोस्तों को यह देखने दें कि मैंने पिछली बार Scopely Explore का कोई गेम कब खेली थी।
 
 RESOURCE ID: last_played_today
 TEXT: पिछली बार खेलने का समय: आज
@@ -56602,7 +56746,7 @@ RESOURCE ID: log_verbose_raid_modal_desc_cache
 TEXT: रेड का डेटा 24 घंटों के लिए या आपके अगले रेड तक के लिए स्टोर कर लिया जाएगा और आप इस समय के भीतर सेटिंग मेन्यू में जाकर इसे कभी भी अपलोड कर सकते हैं।
 
 RESOURCE ID: log_verbose_raid_modal_desc_info
-TEXT: आपने जिन रेड में हिस्सा लिया है उनका डेटा आप रेड लॉग फ़ीचर की मदद से अपलोड कर सकते हैं। इससे Scopely Explore को आगे होने वाली रेड को बेहतर बनाने में मदद मिलेगी।
+TEXT: आपने जिन रेड में भाग लिया है, उनका डेटा आप रेड लॉग फ़ीचर की सहायता से अपलोड कर सकते हैं। इससे Scopely Explore को आगे होने वाली रेड सुधारने में सहायता मिलेगी।
 
 RESOURCE ID: log_verbose_raid_modal_desc_url_desc
 TEXT: ज़्यादा जानकारी के लिए,
@@ -57417,8 +57561,23 @@ TEXT: मुलाकात - 11 ज़ेक्रोम
 RESOURCE ID: make_good_zekrom_title_012
 TEXT: मुलाकात - 12 ज़ेक्रोम
 
+RESOURCE ID: mall_event_apac_30th_anniversary_title
+TEXT: पोकेमॉन 30वीं ऐनिवर्सरी मॉल एक्सप्लोरेशन
+
+RESOURCE ID: mall_event_apac_30th_anniversary_tr_desc
+TEXT: पार्टी हैट पहने पिकाचू और ढेर सारे फ़र्स्ट पार्टनर पोकेमॉन से मुलाकातें पाने के लिए, सीमित समय वाली रिसर्च को पूरा करें।
+
+RESOURCE ID: mall_event_apac_30th_anniversary_tr_desc_title_01
+TEXT: मॉल एक्सप्लोरेशन सीमित समय वाली रिसर्च (1/2)
+
+RESOURCE ID: mall_event_apac_30th_anniversary_tr_desc_title_02
+TEXT: मॉल एक्सप्लोरेशन सीमित समय वाली रिसर्च (2/2)
+
+RESOURCE ID: mall_event_apac_30th_anniversary_tr_title
+TEXT: मॉल एक्सप्लोरेशन सीमित समय वाली रिसर्च
+
 RESOURCE ID: manage_gifts_header
-TEXT: Manage Gifts
+TEXT: गिफ़्ट मैनेज करें
 
 RESOURCE ID: manage_items_button
 TEXT: आइटम मैनेज करें
@@ -58162,6 +58321,12 @@ TEXT: मैक्स बैटल जीतने पर 2× XP
 RESOURCE ID: max_battle_day_dmax_ho_oh_ticketed
 TEXT: डायनामैक्स हो-ओह मैक्स बैटल वीकेंड टिकट बोनस
 
+RESOURCE ID: max_battle_day_dmax_sinnoh_lake_event_name
+TEXT: डायनामैक्स युक्सी, मेस्प्रिट, और ऐज़ेल्फ़ मैक्स बैटल डे
+
+RESOURCE ID: max_battle_day_dmax_sinnoh_lake_ticketed
+TEXT: डायनामैक्स युक्सी, मेस्प्रिट, और ऐज़ेल्फ़ मैक्स बैटल डे टिकट बोनस
+
 RESOURCE ID: max_battle_day_gigantamax_butterfree_event_name
 TEXT: जायगैंटामैक्स बटरफ़्री मैक्स बैटल डे
 
@@ -58452,6 +58617,9 @@ TEXT: मीट-अप चेक-इन सीमित समय वाली �
 
 RESOURCE ID: meetup_check_in_research_title_gowa2025
 TEXT: मीट-अप चेक-इन सीमित समय वाली रिसर्च - GO वाइल्ड एरिया
+
+RESOURCE ID: meetup_check_in_research_title_gowa2026
+TEXT: Meetup Check-In Timed Research: GO Wild Area
 
 RESOURCE ID: meetup_check_in_research_title_hatch
 TEXT: मीट-अप चेक-इन सीमित समय वाली रिसर्च - हैच डे
@@ -59132,9 +59300,15 @@ RESOURCE ID: message_open_settings
 TEXT: सेटिंग खोलें
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2026-10-15T21:41:43.080561+00:00 for hi-IN
-at SHA 0f52e3f0fe0
-Pipeline 4026354, job 59341426
+TEXT: Built at 2026-10-23T20:38:17.131643+00:00 for hi-IN
+at SHA b075bde4917
+Pipeline 4047392, job 59677347
+
+RESOURCE ID: meteor_desc_1
+TEXT: उल्कावृष्टि के चलती शामों में मिनियोर को ढूँढ निकालें।
+
+RESOURCE ID: meteor_title_1
+TEXT: मीटियोर शावर
 
 RESOURCE ID: mex_fighting_promo_title
 TEXT: सीमित समय वाली रिसर्च : अपना फ़ाइटिंग टाइप चुनें
@@ -59386,10 +59560,10 @@ RESOURCE ID: monochrome_holiday_tr_name_2
 TEXT: शीप पोकेमॉन के सपने प्रीमियम सीमित समय वाली रिसर्च (2/2)
 
 RESOURCE ID: monodepth_ar_plus_required_toast
-TEXT: रिऐलिटी ब्लेंडिंग की सुविधा का इस्तेमाल करने के लिए, Scopely Explore AR चालू करें।
+TEXT: रिऐलिटी ब्लेंडिंग की सुविधा का उपयोग करने के लिए, Scopely Explore AR चालू करें।
 
 RESOURCE ID: monodepth_ar_plus_toggle_warning
-TEXT: अगर आप Scopely Explore AR बंद करते हैं, तो रिऐलिटी ब्लेंडिंग भी बंद हो जाएगा।
+TEXT: Scopely Explore AR बंद करने पर, रिऐलिटी ब्लेंडिंग भी बंद हो जाएगी।
 
 RESOURCE ID: monodepth_download_prompt_success_message
 TEXT: अब आप अपने पोकेमॉन के साथ, AR का बेहतरीन अनुभव पा सकते हैं!
@@ -59400,38 +59574,71 @@ TEXT: लैंडस्केप मोड में, रिऐलिटी ब
 RESOURCE ID: month_apr
 TEXT: अप्रैल
 
+RESOURCE ID: month_april
+TEXT: April
+
 RESOURCE ID: month_aug
 TEXT: अगस्त
+
+RESOURCE ID: month_august
+TEXT: August
 
 RESOURCE ID: month_dec
 TEXT: दिसंबर
 
+RESOURCE ID: month_december
+TEXT: December
+
 RESOURCE ID: month_feb
 TEXT: फ़रवरी
+
+RESOURCE ID: month_february
+TEXT: February
 
 RESOURCE ID: month_jan
 TEXT: जनवरी
 
+RESOURCE ID: month_january
+TEXT: January
+
 RESOURCE ID: month_jul
 TEXT: जुलाई
+
+RESOURCE ID: month_july
+TEXT: July
 
 RESOURCE ID: month_jun
 TEXT: जून
 
+RESOURCE ID: month_june
+TEXT: June
+
 RESOURCE ID: month_mar
 TEXT: मार्च
 
+RESOURCE ID: month_march
+TEXT: March
+
 RESOURCE ID: month_may
-TEXT: मई
+TEXT: May
 
 RESOURCE ID: month_nov
 TEXT: नवंबर
 
+RESOURCE ID: month_november
+TEXT: November
+
 RESOURCE ID: month_oct
 TEXT: अक्तूबर
 
+RESOURCE ID: month_october
+TEXT: October
+
 RESOURCE ID: month_sep
 TEXT: सितंबर
+
+RESOURCE ID: month_september
+TEXT: September
 
 RESOURCE ID: moongeist_beam_adventure_effects_mapview_dialog
 TEXT: खतरनाक किरण उत्सर्जित करता है। रात में पाए जाने वाले पोकेमॉन को आकर्षित करता है और दिन में भी रात्रिकालीन विकास की अनुमति देता है।
@@ -60744,8 +60951,23 @@ TEXT: <<move_name_0275>>+
 RESOURCE ID: move_name_0497
 TEXT: प्लाज़्मा फ़िस्ट
 
+RESOURCE ID: move_name_0498
+TEXT: <<move_name_0296>>+
+
+RESOURCE ID: move_name_0499
+TEXT: <<move_name_0083>>+
+
+RESOURCE ID: move_name_0500
+TEXT: <<move_name_0298>>+
+
+RESOURCE ID: move_name_0501
+TEXT: <<move_name_0299>>+
+
 RESOURCE ID: move_name_0502
 TEXT: <<move_name_0311>>+
+
+RESOURCE ID: move_name_0503
+TEXT: <<move_name_0122>>+
 
 RESOURCE ID: move_name_0504
 TEXT: <<move_name_0399>>+
@@ -60756,17 +60978,47 @@ TEXT: <<move_name_0252>>+
 RESOURCE ID: move_name_0506
 TEXT: <<move_name_0087>>+
 
+RESOURCE ID: move_name_0507
+TEXT: <<move_name_0060>>+
+
 RESOURCE ID: move_name_0508
 TEXT: <<move_name_0303>>+
 
 RESOURCE ID: move_name_0509
 TEXT: <<move_name_0488>>+
 
+RESOURCE ID: move_name_0510
+TEXT: <<move_name_0070>>+
+
 RESOURCE ID: move_name_0512
 TEXT: <<move_name_0383>>+
 
+RESOURCE ID: move_name_0513
+TEXT: <<move_name_0045>>+
+
+RESOURCE ID: move_name_0514
+TEXT: <<move_name_0333>>+
+
 RESOURCE ID: move_name_0515
 TEXT: <<move_name_0277>>+
+
+RESOURCE ID: move_name_0516
+TEXT: <<move_name_0116>>+
+
+RESOURCE ID: move_name_0517
+TEXT: <<move_name_0379>>+
+
+RESOURCE ID: move_name_0518
+TEXT: <<move_name_0077>>+
+
+RESOURCE ID: move_name_0519
+TEXT: <<move_name_0267>>+
+
+RESOURCE ID: move_name_0520
+TEXT: <<move_name_0100>>+
+
+RESOURCE ID: move_name_0521
+TEXT: <<move_name_0306>>+
 
 RESOURCE ID: move_name_0522
 TEXT: <<move_name_0038>>+
@@ -60774,17 +61026,95 @@ TEXT: <<move_name_0038>>+
 RESOURCE ID: move_name_0523
 TEXT: <<move_name_0016>>+
 
+RESOURCE ID: move_name_0524
+TEXT: <<move_name_0032>>+
+
+RESOURCE ID: move_name_0525
+TEXT: <<move_name_0117>>+
+
+RESOURCE ID: move_name_0526
+TEXT: <<move_name_0317>>+
+
+RESOURCE ID: move_name_0527
+TEXT: <<move_name_0316>>+
+
+RESOURCE ID: move_name_0528
+TEXT: <<move_name_0086>>+
+
 RESOURCE ID: move_name_0529
 TEXT: <<move_name_0265>>+
+
+RESOURCE ID: move_name_0530
+TEXT: <<move_name_0088>>+
+
+RESOURCE ID: move_name_0531
+TEXT: <<move_name_0268>>+
+
+RESOURCE ID: move_name_0532
+TEXT: <<move_name_0408>>+
 
 RESOURCE ID: move_name_0533
 TEXT: <<move_name_0035>>+
 
+RESOURCE ID: move_name_0534
+TEXT: <<move_name_0279>>+
+
+RESOURCE ID: move_name_0535
+TEXT: <<move_name_0042>>+
+
+RESOURCE ID: move_name_0536
+TEXT: <<move_name_0084>>+
+
+RESOURCE ID: move_name_0537
+TEXT: <<move_name_0067>>+
+
+RESOURCE ID: move_name_0538
+TEXT: <<move_name_0036>>+
+
+RESOURCE ID: move_name_0539
+TEXT: <<move_name_0051>>+
+
+RESOURCE ID: move_name_0540
+TEXT: <<move_name_0066>>+
+
 RESOURCE ID: move_name_0541
 TEXT: <<move_name_0039>>+
 
+RESOURCE ID: move_name_0542
+TEXT: <<move_name_0341>>+
+
+RESOURCE ID: move_name_0543
+TEXT: <<move_name_0301>>+
+
+RESOURCE ID: move_name_0544
+TEXT: <<move_name_0366>>+
+
+RESOURCE ID: move_name_0545
+TEXT: <<move_name_0365>>+
+
+RESOURCE ID: move_name_0546
+TEXT: <<move_name_0384>>+
+
 RESOURCE ID: move_name_0547
 TEXT: <<move_name_0256>>+
+
+RESOURCE ID: move_name_0548
+TEXT: <<move_name_0245>>+
+
+RESOURCE ID: move_name_0549
+TEXT: <<move_name_0031>>+
+
+RESOURCE ID: move_name_0550
+TEXT: <<move_name_0285>>+
+
+RESOURCE ID: move_name_0551
+TEXT: <<move_name_0332>>+
+
+RESOURCE ID: move_name_0552
+TEXT: <<move_name_0247>>+
+
+RESOURCE ID: move_name_0553
+TEXT: <<move_name_0040>>+
 
 RESOURCE ID: move_name_0554
 TEXT: <<move_name_0330>>+
@@ -60792,11 +61122,32 @@ TEXT: <<move_name_0330>>+
 RESOURCE ID: move_name_0555
 TEXT: <<move_name_0293>>+
 
+RESOURCE ID: move_name_0556
+TEXT: <<move_name_0386>>+
+
+RESOURCE ID: move_name_0558
+TEXT: <<move_name_0101>>+
+
+RESOURCE ID: move_name_0559
+TEXT: <<move_name_0046>>+
+
+RESOURCE ID: move_name_0560
+TEXT: <<move_name_0085>>+
+
+RESOURCE ID: move_name_0561
+TEXT: <<move_name_0022>>+
+
 RESOURCE ID: move_name_0562
 TEXT: <<move_name_0471>>+
 
+RESOURCE ID: move_name_0563
+TEXT: <<move_name_0251>>+
+
 RESOURCE ID: move_name_0564
 TEXT: <<move_name_0069>>+
+
+RESOURCE ID: move_name_0565
+TEXT: <<move_name_0304>>+
 
 RESOURCE ID: move_name_0566
 TEXT: <<move_name_0059>>+
@@ -60807,14 +61158,53 @@ TEXT: <<move_name_0382>>+
 RESOURCE ID: move_name_0568
 TEXT: <<move_name_0284>>+
 
+RESOURCE ID: move_name_0569
+TEXT: <<move_name_0103>>+
+
+RESOURCE ID: move_name_0571
+TEXT: <<move_name_0108>>+
+
 RESOURCE ID: move_name_0572
 TEXT: <<move_name_0030>>+
+
+RESOURCE ID: move_name_0573
+TEXT: <<move_name_0028>>+
+
+RESOURCE ID: move_name_0574
+TEXT: <<move_name_0091>>+
+
+RESOURCE ID: move_name_0575
+TEXT: <<move_name_0331>>+
+
+RESOURCE ID: move_name_0577
+TEXT: <<move_name_0065>>+
+
+RESOURCE ID: move_name_0578
+TEXT: <<move_name_0314>>+
+
+RESOURCE ID: move_name_0579
+TEXT: <<move_name_0074>>+
 
 RESOURCE ID: move_name_0580
 TEXT: <<move_name_0080>>+
 
+RESOURCE ID: move_name_0582
+TEXT: <<move_name_0497>>+
+
 RESOURCE ID: move_name_0583
 TEXT: <<move_name_0123>>+
+
+RESOURCE ID: move_name_0584
+TEXT: <<move_name_0024>>+
+
+RESOURCE ID: move_name_0585
+TEXT: <<move_name_0372>>+
+
+RESOURCE ID: move_name_0586
+TEXT: <<move_name_0082>>+
+
+RESOURCE ID: move_name_0587
+TEXT: <<move_name_0359>>+
 
 RESOURCE ID: move_name_0590
 TEXT: ग्लेव रश
@@ -60827,6 +61217,9 @@ TEXT: स्नाइप शॉट
 
 RESOURCE ID: move_name_0593
 TEXT: डाइव
+
+RESOURCE ID: move_name_0619
+TEXT: <<move_name_0064>>+
 
 RESOURCE ID: move_required_to_enable_adventure_effect
 TEXT: {0} को चार्ज्ड अटैक {1} नहीं आता है, इसलिए इसे फ़्यूज़न के बाद फ़ील्ड इफ़ेक्ट वाला अटैक नहीं सीख पाएगा।
@@ -64441,16 +64834,16 @@ RESOURCE ID: next_set_coming_on
 TEXT: देखें कि {0} को क्या नया आ रहा है!
 
 RESOURCE ID: niantic_anniversary_event
-TEXT: Scopely Explore बर्थडे इवेंट
+TEXT: Scopely Explore जन्मदिन इवेंट
 
 RESOURCE ID: niantic_game_preview_list_title
-TEXT: खेलकर देखने के लिए अन्य Scopely Explore गेम
+TEXT: खेलने के लिए अन्य Scopely Explore गेम
 
 RESOURCE ID: niantic_profile_privacy_settings_title
 TEXT: प्राइवेसी सेटिंग
 
 RESOURCE ID: niantic_social_overview_desc
-TEXT: पेश है Scopely Explore Social! इस नए सोशल फ़ीचर की मदद से, आप ये काम कर सकते हैं।
+TEXT: Scopely Explore Social आ गया है! इस नए सोशल फ़ीचर से अब आप ये काम कर सकते हैं।
 
 RESOURCE ID: nickit_website_link
 TEXT: अधिक जानकारी की लिए <a href="https://pokemongo.com/news/communityday-august-2026-nickit">वेबसाइट</a> पर जाएँ।
@@ -64953,7 +65346,7 @@ RESOURCE ID: paid_gift_already_purchased_modal_button
 TEXT: GO TO INVENTORY
 
 RESOURCE ID: paid_gift_already_purchased_modal_message
-TEXT: Please check your inventory to send your paid gift.
+TEXT: You can send it from your inventory.
 
 RESOURCE ID: paid_gift_already_purchased_modal_title
 TEXT: You have already purchased this paid gift.
@@ -65542,7 +65935,7 @@ RESOURCE ID: party_play_code_invalid
 TEXT: यह टीम नहीं मिली।
 
 RESOURCE ID: party_play_code_of_conduct_body
-TEXT: सुरक्षा संबंधी दिशानिर्देशों के लिए Scopely Explore आचार संहिता को देखें।
+TEXT: सुरक्षित और सम्मानपूर्वक खेलने के बारे में दिशानिर्देशों के लिए, कृपया Scopely Explore आचार संहिता देखें।
 
 RESOURCE ID: party_play_code_of_conduct_button
 TEXT: आचार संहिता
@@ -65933,10 +66326,10 @@ RESOURCE ID: pause_gift_list_prompt_button_label
 TEXT: YES, PAUSE
 
 RESOURCE ID: pause_gift_list_prompt_desc
-TEXT: The following Friend will be unable to send you paid gifts. You can enable them to send again at any point.
+TEXT: The following friend will be unable to send you paid gifts. You can allow them to send paid gifts again at any point.
 
 RESOURCE ID: pause_gift_list_prompt_title
-TEXT: Pause Gifting?
+TEXT: Pause paid gifts?
 
 RESOURCE ID: pause_gift_list_title
 TEXT: Pause Gifts List
@@ -66997,7 +67390,7 @@ RESOURCE ID: poi_contrib_failed_error
 TEXT: सब्मिशन फ़ेल हो गया। कृपया फिर से कोशिश करें।
 
 RESOURCE ID: poi_contrib_ghostinfo_label
-TEXT: Scopely Explore गेम्स में इस्तेमाल हुए Wayspot
+TEXT: अन्य Scopely Explore गेम में उपयोग किए गए Wayspot
 
 RESOURCE ID: poi_contrib_identical_desc_error
 TEXT: डिस्क्रिप्शन बिलकुल एक जैसे हैं। कृपया अपडेट किया हुआ डिस्क्रिप्शन सबमिट करें।
@@ -67216,7 +67609,7 @@ RESOURCE ID: poi_contrib_success_header
 TEXT: योगदान के लिए आपका शुक्रिया।
 
 RESOURCE ID: poi_contrib_tutorial_dupe_body
-TEXT: नीला आइकॉन Pokémon GO में इस्तेमाल हुए वेस्पॉट को दिखाता है। नारंगी आइकॉन दूसरे Scopely Explore गेम्स में इस्तेमाल हुए वेस्पॉट को दिखाता है। पोकेस्टॉप के लिए नया नॉमिनेशन सबमिट करते समय, कृपया किसी भी टाइप के वेस्पॉट का डुप्लीकेट सबमिट करने से बचें।
+TEXT: नीला आइकॉन Pokémon GO में उपयोग किए जाने वाले स्वीकृत Wayspot दिखाता है। नारंगी आइकॉन अन्य Scopely Explore गेम में उपयोग किए जाने वाले स्वीकृत Wayspot दिखाता है। पोकेस्टॉप के लिए नया नॉमिनेशन सबमिट करते समय, कृपया इन दोनों में से किसी भी प्रकार के Wayspot का डुप्लीकेट सबमिट करने से बचें।
 
 RESOURCE ID: poi_contrib_tutorial_dupe_title
 TEXT: चेक करें कि कोई डुप्लीकेट तो नहीं है
@@ -67595,7 +67988,7 @@ RESOURCE ID: poi_sub_tut_desc_1
 TEXT: पोकेस्टॉप गेम के अंदर कुछ ऐसी लोकेशन्स होती हैं जो ट्रेनर्स को बाहर निकलने, नई जगहें देखने और समुदाय के लोगों से मिलने के लिए प्रेरित करती हैं। पोकेस्टॉप में आम तौर पर नागरिक, शैक्षिक या कलात्मक मूल्य शामिल होता है। चाहे वह कोई आर्ट हो या कोई ऐसा जेम हो जिसकी जानकारी सिर्फ़ स्थानीय लोगों को है।
 
 RESOURCE ID: poi_sub_tut_desc_2
-TEXT: आपने जो लोकेशन चुनी है उसका कोई नाम, विवरण, और फ़ोटो डालें। आपने जिन पोकेस्टॉप को नॉमिनेट किया है उनकी समीक्षा दूसरे Scopely Explore प्लेयर करेंगे, तो कृपया सही और पूरी जानकारी दें!
+TEXT: अपने चुने हुए लोकेशन का नाम, विवरण और फ़ोटो सबमिट करें। इसके बाद अन्य Scopely Explore प्लेयर आपके नामांकित पोकस्टॉप की समीक्षा करेंगे, इसलिए कृपया सब कुछ पूरा और सटीक भरें!
 
 RESOURCE ID: poi_sub_tut_desc_3
 TEXT: पोकेस्टॉप का शैक्षिक और सांस्कृतिक मूल्य होना चाहिए और उनकी जगह पैदल चलने वालों के लिए सुरक्षित होने के साथ-साथ और जाने लायक भी होनी चाहिए। निजी आवासों, सीज़नल या गैर-स्थायी लोकेशन या आपातकालीन सेवा देने वाले वाहनों के आने में रुकावट बनने वाली जगहों पर लोकेशन को नॉमिनेट करने से बचें।
@@ -75176,6 +75569,9 @@ TEXT: डिफ़ेंस में बदलाव
 RESOURCE ID: pokemon_ibfc_desc_0681
 TEXT: जब यह पोकेमॉन किसी चार्ज्ड अटैक का इस्तेमाल करता है तो यह अपने ब्लेड फ़ॉर्म में परिवर्तित हो जाता है, और जब यह प्रोटेक्ट शील्ड का इस्तेमाल करता है तो यह अपने शील्ड फ़ॉर्म में परिवर्तित हो जाता है।
 
+RESOURCE ID: pokemon_ibfc_desc_0774
+TEXT: इस पोकेमॉन के पास जब तक आधी या उससे ज़्यादा HP हो, तो इसका बाहरी कवच इसके आंतरिक कोर को ढंके रख, इसके डिफ़ेंस को बढ़ाता है।
+
 RESOURCE ID: pokemon_ibfc_desc_0778
 TEXT: हर बैटल में एक बार, हुडी चार्ज्ड अटैक से बचा सकता है, जिसके बाद बैटल खत्म होने तक मिमिक्यू का डिफ़ेंस कम हो जाएगा।
 
@@ -75199,6 +75595,9 @@ TEXT: बैटल स्पेशल फ़ॉर्म - {0}
 
 RESOURCE ID: pokemon_ibfc_name_0681
 TEXT: ब्लेड फ़ॉर्म
+
+RESOURCE ID: pokemon_ibfc_name_0774
+TEXT: मीटियोर फ़ॉर्म
 
 RESOURCE ID: pokemon_ibfc_name_0778
 TEXT: रिवील फ़ॉर्म
@@ -75506,13 +75905,13 @@ RESOURCE ID: pokemon_info_multi_transfer_ultra_beast_pokemon_error
 TEXT: आप अल्ट्रा बीस्ट नहीं चुन सकते हैं।
 
 RESOURCE ID: pokemon_info_no_evolve_pokemon
-TEXT: No Pokémon can use this item to evolve.
+TEXT: विकसित होने के लिए कोई भी पोकेमॉन इस आइटम का प्रयोग नहीं कर सकता।
 
 RESOURCE ID: pokemon_info_no_fainted_pokemon
-TEXT: No Pokémon need to be revived.
+TEXT: रिवाइव करने के लिए कोई पोकेमॉन नहीं हैं।
 
 RESOURCE ID: pokemon_info_no_hurt_pokemon
-TEXT: All Pokémon are fully healed.
+TEXT: सभी पोकेमॉन पूरे हील हुए हुए हैं।
 
 RESOURCE ID: pokemon_info_no_stats_available
 TEXT: इस पोकेमॉन के और कोई आँकड़े ट्रेन नहीं किए जा सकते।
@@ -80001,7 +80400,7 @@ RESOURCE ID: prefecture_yamanashi
 TEXT: यामानाशि
 
 RESOURCE ID: premium_gift_ftue_desc
-TEXT: You can now send and receive more types of gifts through the Shop!
+TEXT: You can now send and receive more types of gifts through the shop!
 
 Do you want to opt in? You can change this at any point in Settings.
 
@@ -80009,10 +80408,10 @@ RESOURCE ID: premium_gift_ftue_title
 TEXT: Introducing More Gifting Options in the Shop
 
 RESOURCE ID: premium_gift_notification_event_pass_desc
-TEXT: Greetings, <b>{0}</b>! Here’s an GO Pass for you. Let’s see who can complete it and get all the rewards!
+TEXT: Hi, <b>{0}</b>! Here’s a GO Pass Deluxe for you. Can you complete it and get all the rewards?
 
-Sincerely,
-—<b>{1}</b>
+Cheers,
+<b>{1}</b>
 
 RESOURCE ID: premium_gift_notification_event_pass_title
 TEXT: GO Pass
@@ -80023,29 +80422,29 @@ TEXT: Gift For You
 RESOURCE ID: premium_gift_notification_multiple_trainers_desc
 TEXT: Greetings, <b>{0}</b>!
 
-Your Friends sent some gifts for you!
+Your friends sent you some gifts!
 
 
 RESOURCE ID: premium_gift_notification_one_trainer_multiple_items_desc
-TEXT: Greetings, <b>{0}</b>!
+TEXT: Hi, <b>{0}</b>!
 
-Here are gifts for you!
+I hope you enjoy these gifts!
 {2}
 
-Sincerely,
-—<b>{1}</b>
+Cheers,
+<b>{1}</b>
 
 RESOURCE ID: premium_gift_notification_one_trainer_one_item_desc
-TEXT: Greetings, <b>{0}</b>!
+TEXT: Hi, <b>{0}</b>!
 
 Here’s a gift for you!
 {2}
 
-Sincerely,
-—<b>{1}</b>
+Cheers,
+<b>{1}</b>
 
 RESOURCE ID: premium_gift_received_event_pass
-TEXT: {0} gifted you an GO Pass!
+TEXT: {0} gifted you a GO Pass Deluxe!
 
 RESOURCE ID: premium_gift_received_event_ticket
 TEXT: {0} gifted you a ticket for an event!
@@ -80057,7 +80456,7 @@ RESOURCE ID: premium_gift_received_item_single
 TEXT: {0} gifted you a {1}!
 
 RESOURCE ID: premium_gift_sent
-TEXT: You sent a paid gift to {0}
+TEXT: You sent a paid gift to {0}.
 
 RESOURCE ID: premium_label
 TEXT: डीलक्स
@@ -80368,7 +80767,7 @@ RESOURCE ID: privacy_policy_title
 TEXT: Pokémon GO की गोपनीयता नीति
 
 RESOURCE ID: privacy_policy_update_notice
-TEXT: नए प्रोडक्ट फ़ीचर और हमारे द्वारा व्यक्तिगत डेटा प्रोसेस करने के तरीके के बारे में अतिरिक्त जानकारी के लिए कृपया अपडेट की गई Scopely Explore प्राइवेसी पॉलिसी देखें.
+TEXT: नए प्रोडक्ट फ़ीचर और हमारे द्वारा व्यक्तिगत डेटा प्रोसेस करने के तरीके के बारे में अतिरिक्त जानकारी के लिए कृपया अपडेट की गई Scopely Explore प्राइवेसी पॉलिसी देखें।
 
 RESOURCE ID: privacy_policy_url
 TEXT: https://www.nianticlabs.com/privacy/hi
@@ -84784,7 +85183,7 @@ RESOURCE ID: quest_explore_buddy_dark
 TEXT: डार्क टाइप पार्टनर पोकेमॉन के साथ एक्सप्लोर करते हुए एक कैंडी कमाएँ
 
 RESOURCE ID: quest_explore_buddy_dragon
-TEXT: Earn a Candy exploring with a Dragon-type as your buddy
+TEXT: Earn a Candy exploring with a Dragon type as your buddy
 
 RESOURCE ID: quest_explore_buddy_electric
 TEXT: अपने पार्टनर के रूप में इलेक्ट्रिक टाइप के साथ एक्सप्लोर करते हुए कैंडी हासिल करें
@@ -84805,7 +85204,7 @@ RESOURCE ID: quest_explore_buddy_routes_singular
 TEXT: रूट पर अपने पार्टनर के साथ एक्सप्लोर करते समय कैंडी हासिल करें
 
 RESOURCE ID: quest_explore_buddy_steel
-TEXT: Earn a Candy exploring with a Steel-type as your buddy
+TEXT: Earn a Candy exploring with a Steel type as your buddy
 
 RESOURCE ID: quest_explore_km
 TEXT: {0} km एक्सप्लोर करें
@@ -86336,7 +86735,7 @@ RESOURCE ID: quest_partner_spin_rally_aeonmall
 TEXT: AEON Mall के {0} पोकेस्टॉप या जिम को स्पिन करें
 
 RESOURCE ID: quest_partner_spin_rally_familymart
-TEXT: {0} Familymart पोकेस्टॉप या जिम को स्पिन करें
+TEXT: FamilyMart के {0} पोकेस्टॉप या जिम को स्पिन करें
 
 RESOURCE ID: quest_partner_spin_rally_mcdonalds
 TEXT: McDonald’s के {0} पोकेस्टॉप या जिम को स्पिन करें
@@ -86907,6 +87306,9 @@ TEXT: {0} राउलेट विकसित करें
 
 RESOURCE ID: quest_rowlet_snapshot_b
 TEXT: {0} राउलेट का स्नैपशॉट लें
+
+RESOURCE ID: quest_safari2026_boston_visit_unique_pokestops_plural
+TEXT: Spin {0} different PokéStops or Gyms in Boston
 
 RESOURCE ID: quest_sandt_catch_b
 TEXT: {0} सैंडश्रू को पकड़ें
@@ -101987,6 +102389,9 @@ TEXT: मिशन : {0} km एक्सप्लोर करें
 RESOURCE ID: quest_walk_25km_inaweek_plural
 TEXT: एडवेंचर मोड का {0} बार इस्तेमाल करके एक हफ़्ते में 25 km चलें
 
+RESOURCE ID: quest_walk_buddy_dragon_plural
+TEXT: Earn {0} Candies exploring with a Dragon-type Pokémon as your buddy
+
 RESOURCE ID: quest_walk_buddy_fairy_plural
 TEXT: किसी फ़ेरी टाइप पोकेमॉन को अपना पार्टनर बना कर साथ-साथ एक्सप्लोर करते हुए {0} कैंडी कमाएं
 
@@ -101998,6 +102403,9 @@ TEXT: अपने पार्टनर के साथ चलते हुए
 
 RESOURCE ID: quest_walk_buddy_singular
 TEXT: अपने पार्टनर के साथ चलते हुए कैंडी हासिल करें
+
+RESOURCE ID: quest_walk_buddy_steel_plural
+TEXT: Earn {0} Candies exploring with a Steel-type Pokémon as your buddy
 
 RESOURCE ID: quest_walk_buddy_volcanion_plural
 TEXT: वोल्केनियन को अपना पार्टनर बना कर साथ-साथ एक्सप्लोर करते हुए {0} कैंडी कमाएं
@@ -102511,6 +102919,18 @@ TEXT: रेड अटेंडेंस दोस्तों के साथ 
 
 RESOURCE ID: raid_attendance_online_disclaimer_message
 TEXT: आपके दोस्त अब भी आपकी रेड अटेंडेंस देख पाएंगे। आप इसे बाद में सेटिंग्स में जाकर बदल सकते हैं।
+
+RESOURCE ID: raid_battle_complete_lost_modal_body
+TEXT: The Raid Boss was not defeated in time.
+
+RESOURCE ID: raid_battle_complete_lost_modal_title
+TEXT: The Raid Battle has ended.
+
+RESOURCE ID: raid_battle_complete_rejoin_modal_body
+TEXT: Return to the raid to catch the Raid Boss.
+
+RESOURCE ID: raid_battle_complete_rejoin_modal_title
+TEXT: Rejoin raid?
 
 RESOURCE ID: raid_battle_retreat_confirmation
 TEXT: क्या आप वाकई छोड़कर जाना चाहते हैं?
@@ -104794,6 +105214,12 @@ TEXT: आपके सभी पोकेमॉन बेहोश हो गए
 
 RESOURCE ID: raid_defeat_try_again
 TEXT: पोकेमॉन चुनें या बेहोश हो गए पोकेमॉन को हील करें और बैटल में वापसी करें!
+
+RESOURCE ID: raid_encounter_flee_warning_modal_body
+TEXT: If you flee from this Pokémon, you won’t be able to return.
+
+RESOURCE ID: raid_encounter_flee_warning_modal_title
+TEXT: Are you sure you want to flee?
 
 RESOURCE ID: raid_enter_group_code
 TEXT: प्राइवेट ग्रुप
@@ -107640,6 +108066,36 @@ TEXT: इस रैली को पूरा करने पर आपकी �
 RESOURCE ID: rally_gowa_2025_title
 TEXT: GO वाइल्ड एरिया 2025 स्टैम्प रैली
 
+RESOURCE ID: rally_gowa_2026_cdmx_desc
+TEXT: Welcome to GO Wild Area: Mexico City!
+
+RESOURCE ID: rally_gowa_2026_cdmx_desc_detail
+TEXT: Collect stamps by visiting GO Stamp Rally PokéStops in Mexico City during your ticketed event day!
+
+RESOURCE ID: rally_gowa_2026_cdmx_location
+TEXT: Mexico City, Mexico
+
+RESOURCE ID: rally_gowa_2026_cdmx_rewards_desc
+TEXT: Complete this rally to encounter an event-exclusive Machamp wearing a modern jacket with a Mexico City Location Background!
+
+RESOURCE ID: rally_gowa_2026_cdmx_title
+TEXT: GO Wild Area 2026 – Mexico City Stamp Rally
+
+RESOURCE ID: rally_gowa_2026_sendai_desc
+TEXT: Welcome to GO Wild Area: Sendai・Tohoku!
+
+RESOURCE ID: rally_gowa_2026_sendai_desc_detail
+TEXT: Collect stamps by visiting GO Stamp Rally PokéStops in Sendai during your ticketed event day!
+
+RESOURCE ID: rally_gowa_2026_sendai_location
+TEXT: Sendai・Tohoku, Japan
+
+RESOURCE ID: rally_gowa_2026_sendai_rewards_desc
+TEXT: Complete this rally to encounter an event-exclusive Machamp wearing a modern jacket with a Sendai・Tohoku Location Background!
+
+RESOURCE ID: rally_gowa_2026_sendai_title
+TEXT: GO Wild Area 2026 – Sendai・Tohoku Stamp Rally
+
 RESOURCE ID: rally_irl_copenhagen_lego_2026_desc
 TEXT: GO Fest कोपेनहेगन और LEGO की जादू भारी दुनिया को एक्सप्लोर करें!
 
@@ -107922,6 +108378,30 @@ TEXT: रॉल्ट्स कम्युनिटी डे कंटिन�
 RESOURCE ID: rank
 TEXT: रैंक
 
+RESOURCE ID: rare_background_disclaimer_text
+TEXT: इस पोकेमॉन को अपना पार्टनर बनाकर, आप इस बैकग्राउंड को अपनी ट्रेनर प्रोफ़ाइल पर दिखा सकते हैं
+
+RESOURCE ID: rare_background_ftue_pokemon_detail_button
+TEXT: पार्टनर बनाएँ
+
+RESOURCE ID: rare_background_ftue_pokemon_detail_desc
+TEXT: इस पोकेमॉन के पास एक ऐसा बैकग्राउंड है, जिसे आप इस पोकेमॉन को अपना पार्टनर बनाकर अपनी ट्रेनर प्रोफ़ाइल पर दिखा सकते हैं
+
+RESOURCE ID: rare_background_ftue_pokemon_detail_title
+TEXT: रेयर बैकग्राउंड
+
+RESOURCE ID: rare_background_ftue_profile_modal_body
+TEXT: यदि आप कुछ चुने गए लोकेशन बैकग्राउंड या स्पैशल बैकग्राउंड वाले पोकेमॉन को अपना पार्टनर बनाएँ, तो वह रेयर बैकग्राउंड आपकी ट्रेनर प्रोफ़ाइल पर दिखाई देगा
+
+RESOURCE ID: rare_background_ftue_profile_modal_title
+TEXT: अपनी ट्रेनर प्रोफ़ाइल को बैकग्राउंड से सजाएँ
+
+RESOURCE ID: rare_background_ftue_profile_panel_title
+TEXT: अपनी ट्रेनर प्रोफ़ाइल पर किसी पार्टनर पोकेमॉन का रेयर बैकग्राउंड दिखाएँ!
+
+RESOURCE ID: rare_background_ftue_profile_swap_buddies_button
+TEXT: पार्टनर स्वॉप करें
+
 RESOURCE ID: rare_candy_usage_confirmation
 TEXT: रेयर कैंडी को {0} कैंडी में बदलें?
 
@@ -108010,7 +108490,7 @@ RESOURCE ID: recycle_dialog_suffix
 TEXT: {0}?
 
 RESOURCE ID: recycle_discard_all
-TEXT: YES, DISCARD ALL
+TEXT: जी हाँ, सभी नष्ट करें
 
 RESOURCE ID: reduced_buddy_candy_distance_routes
 TEXT: अपने पार्टनर के साथ रूट को एक्सप्लोर करते समय, पार्टनर कैंडी कमाने की दूरी घटी
@@ -109653,9 +110133,9 @@ TEXT: दिलचस्प हाइलाइट मार्क करने �
 2. अन्य पिन से कम से कम {1} मीटर दूर।
 
 RESOURCE ID: route_creation_onboarding_page_4
-TEXT: बनाए गए रूट रिव्यू और स्वीकृति के लिए Scopely Explore को सबमिट किए गए हैं। अगर आपके रूट को खारिज कर दिया जाता है तो आप को रूट फिर से एडिट कर सबमिच करने का मौका मिल सकता है। 
+TEXT: बनाए गए रूट रिव्यू और स्वीकृति के लिए Scopely Explore को सबमिट किए गए हैं। रूट अस्वीकृत होने पर, आपको उसे एडिट करके फिर से सबमिट करने का अवसर मिल सकता है।
 
-अब वक्त है अपना रूट बनाने का!
+अपना रूट बनाने का समय आ गया है!
 
 RESOURCE ID: route_creation_onboarding_title_1
 TEXT: रूट बनाने का तरीका
@@ -109881,9 +110361,9 @@ RESOURCE ID: route_enforcement_long_ban_context
 TEXT: भावी उल्लंघनों के परिणामस्वरूप Pokémon GO पर स्थायी प्रतिबंध लगाया जा सकता है। भविष्य में उल्लंघनों से बचने के लिए कृपया हमारे <a href="player_guidelines_link_dsa">प्लेयर दिशानिर्देश</a> पढ़ें।
 
 RESOURCE ID: route_enforcement_long_ban_description
-TEXT: खिलाड़ियों के लिए रूट संबंधी गाइडलाइन का बार-बार या गंभीर उल्लंघन करने की वजह से आपके Scopely Explore अकाउंट को Pokémon GO के लिए {0} वर्षों के लिए प्रतिबंधित कर दिया गया है।
+TEXT: हमारे रूट संबंधी प्लेयर दिशानिर्देश का बार-बार या गंभीर उल्लंघन करने के कारण, आपके Scopely Explore अकाउंट को {0} वर्ष के लिए Pokémon GO से प्रतिबंधित कर दिया गया है।
 
-इससे अधिक उल्लंघन होने पर हमेशा के लिए प्रतिबंधित कर दिया जाएगा।
+आगे उल्लंघन करने पर आपके अकाउंट को स्थायी रूप से प्रतिबंधित किया जा सकता है।
 
 RESOURCE ID: route_enforcement_long_ban_description_b
 TEXT: हमारे <a href="player_guidelines_link_dsa">प्लेयर दिशानिर्देशों</a> के बार-बार या गंभीर उल्लंघन के कारण आपके Pokémon GO अकाउंट को {0} वर्षों के लिए प्रतिबंधित कर दिया गया है।
@@ -109899,7 +110379,7 @@ RESOURCE ID: route_enforcement_long_ban_title
 TEXT: आपको Pokémon GO का उपयोग करने से रोक दिया गया है।
 
 RESOURCE ID: route_enforcement_permanent_ban_description
-TEXT: खिलाड़ियों के लिए रूट संबंधी गाइडलाइन का बार-बार या गंभीर उल्लंघन करने की वजह से आपके Scopely Explore अकाउंट को Pokémon GO के लिए प्रतिबंधित कर दिया गया है।
+TEXT: रूट के लिए हमारे प्लेयर दिशानिर्देश का बार-बार या गंभीर उल्लंघन करने के कारण आपके Scopely Explore अकाउंट को Pokémon GO से प्रतिबंधित कर दिया गया है।
 
 RESOURCE ID: route_enforcement_permanent_ban_description_b
 TEXT: हमारे <a href="player_guidelines_link_dsa">प्लेयर दिशानिर्देशों</a> के बार-बार या गंभीर उल्लंघन के कारण आपके Pokémon GO अकाउंट पर प्रतिबंध लगा दिया गया है।
@@ -110074,7 +110554,7 @@ RESOURCE ID: route_move_closer_to_resume
 TEXT: रिकॉर्डिंग फिर से शुरू करने के लिए उसी जगह पर जाएं जहां पर आपने इसे रोका था।
 
 RESOURCE ID: route_nearby_help_official_route
-TEXT: Scopely Explore पार्टनर्स द्वारा बनाए गए रूट पर यह लेबल है।
+TEXT: Scopely Explore पार्टनर द्वारा बनाए गए रूट पर यह लेबल होता है।
 
 RESOURCE ID: route_nearby_label
 TEXT: {0} रूट
@@ -110186,7 +110666,7 @@ RESOURCE ID: route_play_label
 TEXT: रूट शुरू करें
 
 RESOURCE ID: route_play_low_rating_description
-TEXT: If you experienced an issue, you can report the Route for Scopely Explore to review.
+TEXT: कोई समस्या होने पर, आप समीक्षा के लिए Scopely Explore को इस रूट की रिपोर्ट कर सकते हैं।
 
 RESOURCE ID: route_play_low_rating_title
 TEXT: Did you experience any issues on this Route?
@@ -110379,7 +110859,7 @@ RESOURCE ID: route_removal_appeal_form_title
 TEXT: रूट हटाए जाने की अपील करें
 
 RESOURCE ID: route_report_body
-TEXT: जब आप Scopely Explore से किसी रूट की रिपोर्ट करते हैं, तो हम उस रूट की समीक्षा कर अपनी नीतियों के अनुसार उचित कार्रवाई करते हैं। रूट के क्रिएटर के साथ आपकी पहचान कभी भी शेयर नहीं की जाएगी। आपके रिपोर्ट सबमिट करने पर इसे आपकी ओर से यह कन्फ़र्मेशन माना जाएगा कि वह रिपोर्ट सही है।
+TEXT: जब आप Scopely Explore को किसी रूट की रिपोर्ट करते हैं, तो हम उस रूट की समीक्षा करके अपनी नीतियों के अनुसार उचित कार्यवाही करते हैं। आपकी पहचान रूट के निर्माता के साथ कभी भी साझा नहीं की जाएगी। रिपोर्ट सबमिट करके, आप पुष्टि करते हैं कि यह रिपोर्ट सच्ची है।
 
 RESOURCE ID: route_report_submit_description
 TEXT: Thank you for submitting a report. We’re sorry for any inconvenience you experienced.
@@ -110653,10 +111133,10 @@ RESOURCE ID: route_submission_result_reject_description
 TEXT: आपके रूट को खारिज कर दिया गया है, क्योंकि रूट के नाम और/या विवरण में अनुचित वाक्य या लिंक शामिल हैं। आप इस रूट को एडिट करके फिर से सबमिट कर सकेंगे।
 
 RESOURCE ID: route_submission_result_reject_message_bullying
-TEXT: Scopely Explore किसी के खिलाफ़ उत्पीड़न, डराने, अपमान या धमकी की अनुमति नहीं देता है।
+TEXT: Scopely Explore किसी के भी विरुद्ध धौंस, उत्पीड़न, अपमान या धमकी की अनुमति नहीं देता।
 
 RESOURCE ID: route_submission_result_reject_message_hate
-TEXT: Scopely Explore द्वेषपूर्ण व्यवहार, घृणास्पद भाषण या घृणास्पद विचारधाराओं को बढ़ावा देने की अनुमति नहीं देता है। इसमें नस्ल, जातीयता, धर्म, लिंग या किसी अन्य पहचान के आधार पर नफ़रत को बढ़ावा देना शामिल है, लेकिन यह यहीं तक सीमित नहीं है।
+TEXT: Scopely Explore द्वेषपूर्ण व्यवहार, घृणा भाषण या घृणा फैलाने वाली विचारधाराओं के प्रचार की अनुमति नहीं देता। इसमें नस्ल, जातीयता, धर्म, लिंग या किसी भी अन्य पहचान के आधार पर घृणा का प्रचार  शामिल है, पर यह इन्हीं तक सीमित नहीं है।
 
 RESOURCE ID: route_submission_result_reject_message_suicide
 TEXT: यदि आपको या आपके किसी जानने वाले के मन में आत्महत्या या खुद को नुकसान पहुंचाने के विचार आते हैं, तो सहायता उपलब्ध है। कृपया <a href="route_mental_health_resources_link">मानसिक स्वास्थ्य संसाधन</a> पृष्ठ पर एक नज़र डालें।
@@ -111280,31 +111760,46 @@ RESOURCE ID: s_pinap_g_razz_pokestop_drop_bonus
 TEXT: पोकेस्टॉप और जिम को स्पिन करने से, सिल्वर पाइनऐप बेरी और गोल्डन रैज़ बेरी मिलने का चांस
 
 RESOURCE ID: sa_account_creation_prompt
+TEXT: क्या आपके पास Kids @ Scopely Explore अकाउंट नहीं है?
+
+RESOURCE ID: sa_account_creation_prompt_out
 TEXT: कोई Niantic Kids अकाउंट नहीं है?
 
 RESOURCE ID: sa_auth_failed
 TEXT: पुष्टि नहीं की जा सकी। कृपया फिर से कोशिश करें या किसी दूसरे लिंक किए गए अकाउंट से कोशिश करें।
 
 RESOURCE ID: sa_auth_failed_permissions
+TEXT: इस गेम को खेलने के लिए, कृपया अपने माता-पिता या अभिभावक से उनके Kids @ Scopely Explore अकाउंट में लॉग इन करवाएँ और अपने अकाउंट के लिए अनुमति चालू करवाएँ।
+
+RESOURCE ID: sa_auth_failed_permissions_out
 TEXT: इस गेम को खेलने के लिए, कृपया माता-पिता या अभिभावक से उनके Niantic Kids अकाउंट में लॉग इन करवाएं और आपके अकाउंट के लिए परमिशन चालू करवाएं।
 
 RESOURCE ID: sa_forgot_password_url
-TEXT: https://sso.niantic.kidswebservices.com/en/password/forgot
+TEXT: https://sso.scopelyexplore.kidswebservices.com/hi/password/forgot
 
 RESOURCE ID: sa_login_button
+TEXT: Kids @ Scopely Explore
+
+RESOURCE ID: sa_login_button_out
 TEXT: Niantic Kids
 
 RESOURCE ID: sa_login_server_unreachable
+TEXT: Kids @ Scopely Explore इस समय उपलब्ध नहीं है। हमें असुविधा के लिए खेद है।
+
+RESOURCE ID: sa_login_server_unreachable_out
 TEXT: Niantic Kids अभी उपलब्ध नहीं है। हम इस असुविधा के लिए माफ़ी चाहते हैं।
 
 RESOURCE ID: sa_login_title
+TEXT: Kids @ Scopely Explore
+
+RESOURCE ID: sa_login_title_out
 TEXT: Niantic Kids
 
 RESOURCE ID: sa_parent_dashboard_url
-TEXT: https://parents.nianticlabs.com/en/login
+TEXT: https://app.parents.scopelyexplore.com/portal/hi/login
 
 RESOURCE ID: sa_registration_url
-TEXT: https://sso.niantic.kidswebservices.com/en/register
+TEXT: https://scopelyexplore-sso.kws.superawesome.tv/hi/register
 
 RESOURCE ID: sableye_drop_mega_energy
 TEXT: कालज़र पकड़ने पर सेबलआई मेगा एनर्जी मिलने की संभावना होगी
@@ -111828,6 +112323,9 @@ TEXT: City Safari - रियो डी जेनेरो 2026 (2/3)
 RESOURCE ID: safari_city_2026_rdj_title_02
 TEXT: City Safari - रियो डी जेनेरो 2026 (3/3)
 
+RESOURCE ID: safari_city_boston_makegood_tr_dialog_00_00
+TEXT: Hello, %PLAYERNAME%! Ready to explore Boston?
+
 RESOURCE ID: safari_city_leave_behind_dialog_00_00
 TEXT: हैलो %PLAYERNAME%। आपको यहाँ देख कर बहुत अच्छा लगा।यह शहर मेरे पसंदीदा शहरों में से एक है, और यह बाकी पोकेमॉन ट्रेनर में भी बहुत मशुहर है।
 
@@ -111975,8 +112473,14 @@ TEXT: स्वागत है आपका %PLAYERNAME%! और आपकी �
 RESOURCE ID: safari_city_sr_dialog_02_01
 TEXT: कुछ अच्छे स्नैपशॉट लिए? कुछ अच्छा खाना खाया?
 
+RESOURCE ID: safari_city_sr_dialog_02_01_backup
+TEXT: How was your journey?
+
 RESOURCE ID: safari_city_sr_dialog_02_02
 TEXT: देखने के लिए बहुत कुछ है इसलिए आप ज़रूर साथ में मज़े करें! मुझे यकीन हैं आप और ईवी बहुत सारे सफ़र साथ में ही करेंगे।
+
+RESOURCE ID: safari_city_sr_dialog_02_02_backup
+TEXT: There’s a lot to see, so I hope you enjoy exploring! I have no doubt there are many more journeys waiting for you.
 
 RESOURCE ID: safari_city_sr_dialog_branch_00_backup
 TEXT: फिर से हैलो %PLAYERNAME%!
@@ -112031,6 +112535,15 @@ TEXT: सफ़ारी ज़ोन
 
 RESOURCE ID: safety_warning_yes
 TEXT: मैं एक यात्री हूँ
+
+RESOURCE ID: sandile_hatch_day_event_name
+TEXT: सैंडायल हैच डे
+
+RESOURCE ID: sandile_hatch_day_free_tr
+TEXT: सैंडायल हैच डे सीमित समय वाली रिसर्च
+
+RESOURCE ID: sandile_hatch_day_paid_tr
+TEXT: सैंडायल हैच डे प्रीमियम सीमित समय वाली रिसर्च
 
 RESOURCE ID: sapphire_badge_today_view
 TEXT: सफ़ायर वर्ज़न
@@ -113351,6 +113864,9 @@ TEXT: अधिक जानकारी की लिए <a href="https://pokem
 RESOURCE ID: season_pass_details_link_november2025
 TEXT: अधिक जानकारी की लिए <a href="https://pokemongo.com/go-pass">वेबसाइट</a> पर जाएं।
 
+RESOURCE ID: season_pass_details_link_oct2026
+TEXT: अधिक जानकारी की लिए <a href="https://pokemongo.com/news/go-pass-october-2026">वेबसाइट</a> पर जाएँ।
+
 RESOURCE ID: season_pass_details_link_october2025
 TEXT: अधिक जानकारी की लिए <a href="https://pokemongo.com/go-pass">वेबसाइट</a> पर जाएं।
 
@@ -113442,6 +113958,9 @@ RESOURCE ID: season_pass_harvest_festival_2026_event_duration
 TEXT: 29 सितम्बर –5 अक्तूबर
 
 RESOURCE ID: season_pass_harvest_festival_2026_track_upgrade_header_description
+TEXT: अतिरिक्त रिवॉर्ड पाएँ और रैंक 2 पर एक <b>सुपर रॉकेट रेडार</b> अनलॉक करें!
+
+RESOURCE ID: season_pass_harvest_festival_2026_track_upgrade_header_description_out
 TEXT: अतिरिक्त रिवॉर्ड पाएँ और रैंक 1 पर एक <b>सुपर रॉकेट रेडार</b> अनलॉक करें!
 
 RESOURCE ID: season_pass_harvest_festival_2026_upgrade_description
@@ -113591,6 +114110,18 @@ RESOURCE ID: season_pass_november2025_upgrade_description
 TEXT: नीचे दिये गए रिवॉर्ड को अनलॉक करने के लिए GO पास डीलक्स - नवंबर खरीदें!
 • एक सुपर इनक्यूबेटर
 • एक <a href="https://scopelyexplore.helpshift.com/hc/faq/1147-what-is-the-lucky-trinket/"> लकी चार्म</a>, जो आपको अपनी पसंद के दोस्त के साथ तुरंत लकी दोस्त बनाएगा
+• और और-भी बहुत कुछ!
+
+RESOURCE ID: season_pass_oct2026_event_duration
+TEXT: 6 अक्तूबर – 3 नवंबर
+
+RESOURCE ID: season_pass_oct2026_track_upgrade_header_description
+TEXT: अतिरिक्त रिवॉर्ड जीतकर रैंक 100 पर एक <b>लकी चार्म</b> अनलॉक करें!
+
+RESOURCE ID: season_pass_oct2026_upgrade_description
+TEXT: नीचे दिये गए रिवॉर्ड को अनलॉक करने के लिए GO पास डीलक्स - अक्तूबर खरीदें!
+• एक सुपर इनक्यूबेटर
+• एक <a href="https://niantic.helpshift.com/hc/faq/4945-what-is-the-lucky-trinket/"> लकी चार्म</a>, जो आपको अपनी पसंद के दोस्त के साथ तुरंत लकी दोस्त बनाएगा
 • और और-भी बहुत कुछ!
 
 RESOURCE ID: season_pass_october2025_event_duration
@@ -114229,10 +114760,10 @@ RESOURCE ID: settings_allow_paid_gifts
 TEXT: दोस्तों को आपको पेमेंट वाले गिफ़्ट भेजने की अनुमति दें।
 
 RESOURCE ID: settings_allow_paid_gifts_desc_off
-TEXT: Turning off this feature will pause Friends to send you paid gifts. This does not include free gifts.
+TEXT: Turning off this feature will pause friends from sending you paid gifts. This does not include free Gifts.
 
 RESOURCE ID: settings_allow_paid_gifts_desc_on
-TEXT: Turning on this feature will allow Friends to send you paid gifts. You can pause specific Friends from sending you paid gifts in the Paused Friends List once turned on.
+TEXT: Turning on this feature will allow friends to send you paid gifts. You can pause specific friends from sending you paid gifts in the Pause Gifts List once this feature is turned on.
 
 RESOURCE ID: settings_allow_paid_gifts_title_off
 TEXT: Turn Off Paid Gifts from Friends?
@@ -114478,7 +115009,7 @@ RESOURCE ID: settings_pause_gifts_list
 TEXT: Pause Gifts List
 
 RESOURCE ID: settings_pause_gifts_list_tip
-TEXT: Selected Friends will not be able to send you paid gifts. This does not include free gifts.
+TEXT: Selected friends will not be able to send you paid gifts. They can still send you free Gifts.
 
 RESOURCE ID: settings_pbp_check_other_menu
 TEXT: पेयर किए गए अपने मौजूदा डिवाइस को एक्सेस करने के लिए, कृपया सेटिंग मेनू के ज़रिए Pokémon GO Plus स्क्रीन पर जाएं।
@@ -114660,6 +115191,9 @@ TEXT: Campfire दिखाएं
 
 RESOURCE ID: settings_show_campfire_tip
 TEXT: Pokémon GO में Campfire बटन चालू करें
+
+RESOURCE ID: settings_show_location_card_background
+TEXT: ट्रेनर प्रोफ़ाइल पर पार्टनर पोकेमॉन का रेयर बैकग्राउंड दिखाएँ
 
 RESOURCE ID: settings_sound_effects
 TEXT: साउंड
@@ -115194,7 +115728,7 @@ RESOURCE ID: shop_already_own_this_ticket
 TEXT: आपके पास पहले से ही इस ईवेंट की टिकट है या यह रिसर्च आपके पास जारी है या पूरी हो रखी है जिस की वजह से आप इस टिकट को फिर से खरीद नहीं सकते।
 
 RESOURCE ID: shop_already_unlocked_premium_event_pass
-TEXT: You’ve already unlocked this GO Pass Deluxe
+TEXT: You’ve already unlocked this GO Pass Deluxe.
 
 RESOURCE ID: shop_battle_tickets_title
 TEXT: आपके पास प्रीमियम बैटल पास खत्म हो गए हैं!
@@ -115346,12 +115880,12 @@ TEXT: ऐसा हो सकता है कि आप कुछ दोस्�
 RESOURCE ID: shop_gift_friend_ineligible_description_temp
 TEXT: You may not be able to send paid gifts—including items, tickets, and event passes—to some friends. This can happen for the following reasons:
 
- • They already own the ticket or event pass, or have already received it from someone else
- • For tickets, they may have active or completed research that prevents them from receiving it
- • Your friendship level is too low
- • They have disabled paid gifts
- • Their account is not eligible due to restrictions
- • Cross-currency gifting is not supported
+• They already own the ticket or event pass, or someone else sent it to them
+• They may have active or completed research that prevents them from receiving tickets
+• Your friendship level is too low
+• They have disabled paid gifts
+• Their account is not eligible due to restrictions
+• Cross-currency gifting is not supported
 
 RESOURCE ID: shop_gift_friend_ineligible_title
 TEXT: गिफ़्ट नहीं भेजें सकते
@@ -116555,14 +117089,14 @@ RESOURCE ID: social_offline_toast
 TEXT: अपना ऑनलाइन स्टेटस शेयर न करना
 
 RESOURCE ID: social_online_consent_note_body
-TEXT: आपके जो दोस्त Scopely Explore Online में शामिल हैं, उन्हें आपका ऑनलाइन स्टेटस दिखाई देगा।
-आप उसी बटन पर टैप करके जब चाहें अपना स्टेटस शेयर करना बंद कर सकते हैं।
+TEXT: आपके जिन दोस्तों ने Scopely Explore Online के लिए सहमति दी है, उन्हें आपका ऑनलाइन स्टेटस दिखाई देगा।
+आप जब चाहें, इसी बटन पर टैप करके अपनी स्थिति साझा करना रोक सकते हैं।
 
 RESOURCE ID: social_online_consent_note_header
 TEXT: अब आपका ऑनलाइन स्टेटस शेयर हो रहा है!
 
 RESOURCE ID: social_online_consent_privacy
-TEXT: नोट: ऑनलाइन-स्टेटस शेयरिंग को चालू करने से यह आपके द्वारा खेले जाने वाले सभी Scopely Explore गेम्स के लिए चालू हो जाएगा।
+TEXT: ध्यान दें: ऑनलाइन स्थिति साझा करने का विकल्प चालू करने पर, यह आपकी सभी Scopely Explore गेम में चालू हो जाएगा।
 
 RESOURCE ID: social_online_toast
 TEXT: अपना ऑनलाइन स्टेटस शेयर करना
@@ -116695,6 +117229,9 @@ TEXT: मेरे ट्रेनर कोड शेयर करें
 
 RESOURCE ID: social_send_my_code_v2
 TEXT: कोड शेयर करें
+
+RESOURCE ID: soft_sfida_alert_pokemon_storage
+TEXT: Your Pokémon storage is full.
 
 RESOURCE ID: soft_sfida_btn_back_to_map
 TEXT: मैप पर लौटें
@@ -117553,7 +118090,7 @@ RESOURCE ID: sponsored_gift_tutorial_description_1
 TEXT: जब आप अपने आस-पास की दुनिया एक्सप्लोर करते हैं, तो आपको अपनी जगह के हिसाब से स्पॉन्सर मैसेज के साथ-साथ स्पॉन्सर गिफ़्ट भी मिल सकता है। स्पॉन्सर गिफ़्ट अब एक नए अंदाज़ में!
 
 RESOURCE ID: sponsored_gift_tutorial_description_2
-TEXT: हमेशा की तरह, हम आपकी निजी जानकारी को प्रायोजकों के साथ शेयर नहीं करते हैं। इस सुविधा के बारे में ज़्यादा जानने के लिए, Scopely Exploreसपोर्ट देखें।
+TEXT: हमेशा के जैसे, हम आपकी निजी जानकारी को प्रायोजकों के साथ शेयर नहीं करते हैं। इस सुविधा के विषय में अधिक जानने के लिए, कृपया Scopely Explore Support देखें।
 
 RESOURCE ID: sponsored_gift_tutorial_description_3
 TEXT: आप अपनी सेटिंग से स्पॉन्सर गिफ़्ट मैनेज कर सकते हैं। इससे उन गिफ़्ट पर असर नहीं पड़ता जिन्हें आपने अपने दोस्तों के साथ एक्सचेंज किया है, भले ही आपने स्पॉन्सर जगहों से गिफ़्ट मिले हों।
@@ -119758,6 +120295,105 @@ TEXT: GO वाइल्ड एरिया - नागासाकि– फ़े
 RESOURCE ID: sr_gowa2025_irl_6
 TEXT: GO वाइल्ड एरिया - नागासाकि– फ़ेरी टेल और वाइल्ड ट्रेल (6/6)
 
+RESOURCE ID: sr_gowa2026_global_dark_2
+TEXT: GO Wild Area 2026: Path to Mastery – Dragon (2/6)
+
+RESOURCE ID: sr_gowa2026_global_dark_3
+TEXT: GO Wild Area 2026: Path to Mastery – Dragon (3/6)
+
+RESOURCE ID: sr_gowa2026_global_dark_4
+TEXT: GO Wild Area 2026: Path to Mastery – Dragon (4/6)
+
+RESOURCE ID: sr_gowa2026_global_dark_5
+TEXT: GO Wild Area 2026: Path to Mastery – Dragon (5/6)
+
+RESOURCE ID: sr_gowa2026_global_dark_6
+TEXT: GO Wild Area 2026: Path to Mastery – Dragon (6/6)
+
+RESOURCE ID: sr_gowa2026_global_dragon_title
+TEXT: GO Wild Area 2026: Path to Mastery – Dragon
+
+RESOURCE ID: sr_gowa2026_global_quest_branch_dragon_description
+TEXT: Choose this path to become an accomplished Dragon-type Trainer. Tasks will be focused on catching, powering up, and evolving Dragon-type Pokémon. Completing this research awards the Dragon Defender medal!
+
+RESOURCE ID: sr_gowa2026_global_quest_branch_dragon_title
+TEXT: Dragon
+
+RESOURCE ID: sr_gowa2026_global_quest_branch_steel_description
+TEXT: Choose this path to become an accomplished Steel-type Trainer. Tasks will be focused on catching, powering up, and evolving Steel-type Pokémon. Completing this research awards the Steel Scholar medal!
+
+RESOURCE ID: sr_gowa2026_global_quest_branch_steel_title
+TEXT: Steel
+
+RESOURCE ID: sr_gowa2026_global_steel_2
+TEXT: GO Wild Area 2026: Path to Mastery – Steel (2/6)
+
+RESOURCE ID: sr_gowa2026_global_steel_3
+TEXT: GO Wild Area 2026: Path to Mastery – Steel (3/6)
+
+RESOURCE ID: sr_gowa2026_global_steel_4
+TEXT: GO Wild Area 2026: Path to Mastery – Steel (4/6)
+
+RESOURCE ID: sr_gowa2026_global_steel_5
+TEXT: GO Wild Area 2026: Path to Mastery – Steel (5/6)
+
+RESOURCE ID: sr_gowa2026_global_steel_6
+TEXT: GO Wild Area 2026: Path to Mastery – Steel (6/6)
+
+RESOURCE ID: sr_gowa2026_global_steel_title
+TEXT: GO Wild Area 2026: Path to Mastery – Steel
+
+RESOURCE ID: sr_gowa2026_global_title
+TEXT: GO Wild Area 2026: Streets to Skies (1/6)
+
+RESOURCE ID: sr_gowa2026_irl_cdmx
+TEXT: GO Wild Area: Mexico City – The Suspense Is Building
+
+RESOURCE ID: sr_gowa2026_irl_cdmx_1
+TEXT: GO Wild Area: Mexico City – The Suspense Is Building (1/6)
+
+RESOURCE ID: sr_gowa2026_irl_cdmx_2
+TEXT: GO Wild Area: Mexico City – The Suspense Is Building (2/6)
+
+RESOURCE ID: sr_gowa2026_irl_cdmx_3
+TEXT: GO Wild Area: Mexico City – The Suspense Is Building (3/6)
+
+RESOURCE ID: sr_gowa2026_irl_cdmx_4
+TEXT: GO Wild Area: Mexico City – The Suspense Is Building (4/6)
+
+RESOURCE ID: sr_gowa2026_irl_cdmx_5
+TEXT: GO Wild Area: Mexico City – The Suspense Is Building (5/6)
+
+RESOURCE ID: sr_gowa2026_irl_cdmx_6
+TEXT: GO Wild Area: Mexico City – The Suspense Is Building (6/6)
+
+RESOURCE ID: sr_gowa2026_irl_sendai
+TEXT: GO Wild Area: Sendai・Tohoku – The Suspense Is Building
+
+RESOURCE ID: sr_gowa2026_irl_sendai_1
+TEXT: GO Wild Area: Sendai・Tohoku – The Suspense Is Building (1/6)
+
+RESOURCE ID: sr_gowa2026_irl_sendai_2
+TEXT: GO Wild Area: Sendai・Tohoku – The Suspense Is Building (2/6)
+
+RESOURCE ID: sr_gowa2026_irl_sendai_3
+TEXT: GO Wild Area: Sendai・Tohoku – The Suspense Is Building (3/6)
+
+RESOURCE ID: sr_gowa2026_irl_sendai_4
+TEXT: GO Wild Area: Sendai・Tohoku – The Suspense Is Building (4/6)
+
+RESOURCE ID: sr_gowa2026_irl_sendai_5
+TEXT: GO Wild Area: Sendai・Tohoku – The Suspense Is Building (5/6)
+
+RESOURCE ID: sr_gowa2026_irl_sendai_6
+TEXT: GO Wild Area: Sendai・Tohoku – The Suspense Is Building (6/6)
+
+RESOURCE ID: sr_safari_city_boston_2026_makegood_sat_header
+TEXT: City Safari: Boston 2026 (Day 1)
+
+RESOURCE ID: sr_safari_city_boston_2026_makegood_sun_header
+TEXT: City Safari: Boston 2026 (Day 2)
+
 RESOURCE ID: sr_ticket_in_shop
 TEXT: शॉप में एक स्पेशल रिसर्च स्टोरी की टिकट उपलब्ध है
 
@@ -120060,10 +120696,10 @@ RESOURCE ID: steel_and_scales_event_name
 TEXT: अल्ट्रा अनलॉक - स्टील और स्केल्स
 
 RESOURCE ID: steel_poi_spin_plural
-TEXT: Spin {0} Steel type-themed PokéStops
+TEXT: Spin {0} Steel type–themed PokéStops
 
 RESOURCE ID: steel_poi_spin_singular
-TEXT: Spin a Steel type-themed PokéStop
+TEXT: Spin a Steel type–themed PokéStop
 
 RESOURCE ID: steel_scales_uu_july2025_cc_bagon
 TEXT: स्टील और स्केल्ज़ कलेक्शन चैलेंज - बेगॉन
@@ -122692,6 +123328,11 @@ TEXT: <b>शामिल रिवॉर्ड -</b>
 • मैक्स बैटल को सफलतापूर्वक पूरा करने पर 2× XP पाएँ
 • 25,000 XP प्रदान करने वाली सीमित समय वाली रिसर्च
 
+RESOURCE ID: text_rewards_key_dmaxsinnohlakemaxbattle26
+TEXT: <b>शामिल रिवॉर्ड -</b>
+• मैक्स बैटल से 2× XP
+• सीमित समय वाली रिसर्च जो 6,400 मैक्स पार्टिकल, 25,000 XP, और एक मैक्स मशरूम देगी
+
 RESOURCE ID: text_rewards_key_enamorustherianraidday
 TEXT: <b>शामिल रिवॉर्ड -</b>
 • 1 मीटियोराइट
@@ -123637,6 +124278,14 @@ TEXT: <b>शामिल रिवॉर्ड -</b>
 • 2 सुपर इनक्यूबेटर
 • 1 स्टार पीस
 • 10,000 XP और 5,000 स्टार-डस्ट
+
+RESOURCE ID: text_rewards_key_sandilehatchday26
+TEXT: <b>शामिल बोनस-</b>
+• 2 सुपर इनक्यूबेटर
+• 1 स्टार पीस
+• 10,000 XP
+• 5,000 स्टार-डस्ट
+• अंडों के हैच करने की दूरी 1/4
 
 RESOURCE ID: text_rewards_key_scatteredwindsfeb25
 TEXT: <b>शामिल रिवॉर्ड -</b>
@@ -124595,9 +125244,9 @@ RESOURCE ID: tips_friends_online_status_title
 TEXT: ऑनलाइन स्टेटस
 
 RESOURCE ID: tips_friends_tutorial_add_body
-TEXT: लोगों का ट्रेनर कोड लेकर या उनका QR कोड स्कैन करके उन्हें दोस्त के रूप में जोड़ें। Pokémon GO में दोस्त के रूप में जोड़ेंने से आप दोनो उन सारे Scopely Explore गेम में दोस्त बन जएंगे जो आप खेलते है।
+TEXT: लोगों का ट्रेनर कोड डालकर या उनका 2D कोड स्कैन करके उन्हें दोस्त के रूप में जोड़ें। Pokémon GO में दोस्त के रूप में जोड़ने से आप दोनों उन सारे Scopely Explore गेम में दोस्त बन जाएँगे जो आप दोनों खेलते हैं।
 
- आप 'दोस्त जोड़ें' स्क्रीन पर अपने अकाउंट को Facebook से कनेक्ट करके भी दोस्त जोड़ सकते हैं।
+आप 'दोस्त जोड़ें' स्क्रीन पर अपने अकाउंट को Facebook से कनेक्ट करके भी दोस्त जोड़ सकते हैं।
 
 RESOURCE ID: tips_friends_tutorial_add_title
 TEXT: दोस्त जोड़ें
@@ -127482,6 +128131,12 @@ TEXT: वाइल्ड एंड डार्क स्पिन
 RESOURCE ID: tr_gowa2025_poi_fairy
 TEXT: वाइल्ड एंड फ़ेयरी स्पिन
 
+RESOURCE ID: tr_gowa2026_poi_dragon
+TEXT: A Wild Pursuit – Dragon
+
+RESOURCE ID: tr_gowa2026_poi_steel
+TEXT: A Wild Pursuit – Steel
+
 RESOURCE ID: tr_hut_hut_desc_00
 TEXT: पहला डाउन...
 
@@ -129081,6 +129736,9 @@ TEXT: नए रूट पर इंसेंस से ज़्यादा �
 RESOURCE ID: tutorial_route_bonus_2
 TEXT: रूट पर अनूठे पोकेमॉन दिख सकते हैं
 
+RESOURCE ID: tutorial_route_bonus_2_temp
+TEXT: Certain Pokémon may appear more often in the wild on Routes
+
 RESOURCE ID: tutorial_route_play_body_0
 TEXT: अपनी लोकल कम्युनिटी को ढूँढ़े और रूट एक्सप्लोर कर रिवॉर्ड हासिल करें 
 
@@ -129993,7 +130651,7 @@ RESOURCE ID: unclaimed_assigned_reward
 TEXT: इस पोकेस्टॉप पर आपके प्राप्त करने के लिए एक रिवॉर्ड है जिसे आपने अभी क्लेम नहीं किया।
 
 RESOURCE ID: unfriend_niantic_friend_tip
-TEXT: इस गेम से इस दोस्त को हटाने पर, यह उन सभी Scopely Explore में से दोस्तों की लिस्ट से हट जाएगा जिन्हें आप दोनों खेलते हैं
+TEXT: यदि आप इस गेम में इस दोस्त को हटा देंगे, तो आप दोनों जो भी Scopely Explore गेम खेलेंगे, उन सभी में से ये आपके दोस्त के रूप में हटाए जाएँगे।
 
 RESOURCE ID: unfriend_niantic_friend_title
 TEXT: क्या आपको वाकई {0} से दोस्ती खत्म करनी है?
@@ -130057,9 +130715,9 @@ TEXT: <size=36><b>इस अकाउंट को अनलिंक नही�
 यह अकाउंट आपके ऐक्टिव गेम सेशन से लिंक किया गया है।
 
 RESOURCE ID: unlink_account_failed_login_not_removable
-TEXT: <size=36><b>यह अकाउंट अनलिंक नहीं किया जा सकता है!</b></size>
+TEXT: <size=36><b>यह अकाउंट अनलिंक नहीं किया जा सकता!</b></size>
 
-आपने शायद इस Scopely Explore प्रोडक्ट को किसी दूसरे लॉग इन से लिंक किया है। इसे अनलिंक करने के लिए, कृपया एक अतिरिक्त लॉग इन का तरीका लिंक करें।
+हो सकता है कि आपने यह लॉग इन किसी अन्य Scopely Explore प्रोडक्ट से भी लिंक किया हो। इस लॉग इन को अनलिंक करने के लिए, कृपया एक अतिरिक्त लॉग इन विकल्प लिंक करें।
 
 RESOURCE ID: unlock_max_move_plural
 TEXT: {0} मैक्स मूव अनलॉक करें
@@ -130587,9 +131245,9 @@ RESOURCE ID: verbose_logs_disable_title
 TEXT: क्या आप इन लॉग को सेव करना बंद करना चाहते हैं?
 
 RESOURCE ID: verbose_logs_info_body
-TEXT: गेम लॉग में उपयोगी जानकारी होती है, जिससे Scopely Explore को Pokémon GO के कुछ खास पहलुओं को बेहतर बनाने में मदद मिलती है। अगर आप अपने गेम लॉग को सेव करने की अनुमति देते हैं, तो आप उन्हें अपलोड करके Scopely Explore के साथ शेयर कर सकते हैं।
+TEXT: गेम लॉग में उपयोगी जानकारी होती है,  जिससे Scopely Explore को Pokémon GO में कुछ सुधार करने में सहायता मिल सकती है। यदि आप अपने गेम लॉग को सेव करने की अनुमति देते हैं, तो आप उन्हें अपलोड करके Scopely Explore के साथ साझा कर सकते हैं।
 
-हर गतिविधि का लॉग 24 घंटों के लिए या उस गतिविधि में आपके फिर से हिस्सा लेने तक स्टोर करके रखा जाता है। आप सेटिंग मेनू में जाकर किसी भी समय लॉग अपलोड कर सकते हैं।
+प्रत्येक गतिविधि का गेम लॉग 24 घंटों तक या उस गतिविधि में आपके फिर से भाग लेने तक सेव रहता है। आप सेटिंग मेन्यू में जाकर किसी भी समय गेम लॉग अपलोड कर सकते हैं।
 
 RESOURCE ID: verbose_logs_info_learn_more
 TEXT: और जानें
@@ -130660,6 +131318,9 @@ TEXT: पोकेमॉन GO को खेलते हुए एक्सप�
 RESOURCE ID: view_all_tags_title
 TEXT: {0} को लगाए गए सभी टैग देखें
 
+RESOURCE ID: view_external_profile
+TEXT: SCOPELY EXPLORE प्रोफ़ाइल
+
 RESOURCE ID: view_in_map
 TEXT: मैप में देखें
 
@@ -130727,7 +131388,7 @@ RESOURCE ID: vps_download_prompt_continue
 TEXT: आइए, शुरू करें!
 
 RESOURCE ID: vps_download_prompt_legal_tos_description
-TEXT: इस फ़ीचर का इस्तेमाल करने के लिए AR को चालू करें। AR फ़ोटो सफ़ारी के दौरान Scopely Explore आपके कैमरे के जियोस्पेशियल डेटा को प्रोसेस करेगा। {0}
+TEXT: इस फ़ीचर का उपयोग करने के लिए AR चालू करें। AR फ़ोटो सफ़ारी के समय, Scopely Explore आपके कैमरे से मिलने वाले भू-स्थानिक डेटा को प्रोसेस करेगा। {0}
 
 RESOURCE ID: vps_guardian_oob_toast
 TEXT: आप पोकेमॉन प्लेग्राउंड एरिया के बाहर हैं। पोकेमॉन रखने के लिए सीमा के अंदर जाएँ।
@@ -131153,7 +131814,7 @@ RESOURCE ID: wayfarer_bonus_title_02
 TEXT: Wayfarer बोनस सीमित समय वाली रिसर्च (2/2)
 
 RESOURCE ID: wayfarer_eligible_body
-TEXT: बधाई हो! आप Scopely Explore Wayfarer के योग्य हो गए हैं, यह एक ऐसा प्रोग्राम है जिसके ज़रिए आप अपने आस-पास की दुनिया की अद्भुत और दिलचस्प जगहों के बारे में जानकारी देकर नायांटिक खेलों को और बेहतर बना सकेंगे। पोकेस्टॉप के नॉमिनेशन और एडिट करने के फ़ीचर्स को अनलॉक करने के लिए वेफ़ेयरर ट्यूटोरियल को पूरा करें।
+TEXT: बधाई हो! आप Scopely Explore Wayfarer के योग्य हो गए हैं। यह एक ऐसा प्रोग्राम है जिससे आप अपने आस-पास की दुनिया के अनोखे और रोचक स्थानों के बारे में विवरण देकर Scopely Explore गेम को और भी बढ़िया बना सकते हैं। पोकेस्टॉप के नॉमिनेशन और एडिट करने के फ़ीचर को अनलॉक करने के लिए Wayfarer ट्यूटोरियल को पूरा करें।
 
 RESOURCE ID: wayfarer_eligible_goto
 TEXT: वेफ़ेयरर पर जाएं
