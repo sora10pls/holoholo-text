@@ -185,6 +185,9 @@ TEXT: GO Wild Area 2026: Sunday
 RESOURCE ID: bonus_cd_move_pawniard
 TEXT: Evolve Bisharp to get a Kingambit that knows the Charged Attack Kowtow Cleave!
 
+RESOURCE ID: bonus_energy_max_battles
+TEXT: Energy collected during Max Battles fills the meter faster
+
 RESOURCE ID: bonus_incense_event_sb
 TEXT: Event-themed Pokémon attracted to Incense may have a Special Background
 
@@ -268,6 +271,9 @@ TEXT: Master Ball Throw Bonus
 
 RESOURCE ID: encounter_score_new_pokemon
 TEXT: New Pokémon Caught Bonus
+
+RESOURCE ID: event_details_link_gowa_2026
+TEXT: Learn more about the ticket bonuses <a href=“pokemongo.com/gowildarea/global”>here</a>.
 
 RESOURCE ID: event_mega_chandelure_raid_day_timed_research
 TEXT: Chandelure Super Mega Raid Day Timed Research
@@ -776,10 +782,10 @@ TEXT: If a Mega-Evolved Pokémon’s CP exceeds certain Battle Leagues, their le
 Pokémon at Super Max Level will not have the greatly enhanced CP bonus in Master League.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-10-24T00:20:49.016765+00:00 for en-US
-at SHA 799aa887df2
-Pipeline 4048116, job 59688838
-Patch from: 0.435.0-SHA-d5d32cc5-RC2, 0.433.1-SHA-0f52e3f0-RC1
+TEXT: Built at 2026-10-28T00:34:05.832253+00:00 for en-US
+at SHA eb39dfa4ddd
+Pipeline 4056315, job 59806318
+Patch from: 0.435.0-SHA-b075bde4-RC4, 0.437.0-SHA-d1d1a55c-RC2, 0.433.1-SHA-0f52e3f0-RC1
 
 RESOURCE ID: meteor_desc_1
 TEXT: Find Minior in the evenings during meteor showers.
@@ -1397,13 +1403,13 @@ RESOURCE ID: sandile_hatch_day_paid_tr
 TEXT: Sandile Hatch Day Premium Timed Research
 
 RESOURCE ID: score_raids_max_battles_none
-TEXT: Completed 0 Raids or Max Battles
+TEXT: Completed 0 raids or Max Battles
 
 RESOURCE ID: score_raids_max_battles_plural
-TEXT: Completed {0} Raids or Max Battles
+TEXT: Completed {0} raids or Max Battles
 
 RESOURCE ID: score_raids_max_battles_singular
-TEXT: Completed 1 Raid or Max Battle
+TEXT: Completed 1 raid or Max Battle
 
 RESOURCE ID: season_pass_base_track_title_halloween2026
 TEXT: GO Pass: Halloween 2026
@@ -1470,6 +1476,12 @@ TEXT: GO Pass Deluxe: Halloween 2026 + 10 Ranks
 RESOURCE ID: season_pass_premium_track_title_halloween2026
 TEXT: GO Pass Deluxe: Halloween 2026
 
+RESOURCE ID: select_a_paid_gift
+TEXT: Select a paid gift to send to your friend
+
+RESOURCE ID: sending_paid_gift_to
+TEXT: You are sending this paid gift to:
+
 RESOURCE ID: settings_allow_paid_gifts_desc_off
 TEXT: Turning off this feature will pause friends from sending you paid gifts. This does not include free Gifts.
 
@@ -1489,9 +1501,9 @@ RESOURCE ID: shop_gift_confirm_purchase_warning_description
 TEXT: You can send a total of 20 paid gifts per day. This gift cannot be used by another player or refunded.
 
 RESOURCE ID: shop_gift_friend_ineligible_description_temp
-TEXT: You may not be able to send paid gifts—including items, tickets, and event passes—to some friends. This can happen for the following reasons:
+TEXT: You may not be able to send paid gifts—including items, tickets, and GO Pass Deluxes —to some friends. This can happen for the following reasons:
 
-• They already own the ticket or event pass, or someone else sent it to them
+• They already own the ticket or GO Pass Deluxe, or have reached the limit for an item in this gift
 • They may have active or completed research that prevents them from receiving tickets
 • Your friendship level is too low
 • They have disabled paid gifts

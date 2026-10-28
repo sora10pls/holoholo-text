@@ -275,6 +275,9 @@ TEXT: เพิ่มโอกาสได้รับไข่ 10 กม. ธ�
 RESOURCE ID: bonus_cd_move_pawniard
 TEXT: วิวัฒนาการคิริคิซันเป็นโดโดเกซันที่รู้ท่าโจมตีชาร์จ "ขอขมาฟาดฟัน"
 
+RESOURCE ID: bonus_energy_max_battles
+TEXT: พลังงานที่รวบรวมได้ระหว่างแบตเทิลแมกซ์จะทำให้เกจเต็มเร็วขึ้น
+
 RESOURCE ID: bonus_incense_event_sb
 TEXT: โปเกมอนธีมอีเวนต์ที่ถูกดึงดูดด้วยเครื่องหอมอาจมีพื้นหลังพิเศษ
 
@@ -421,6 +424,9 @@ TEXT: แสตมป์แรลลีเทศกาลคลามิงโ�
 
 RESOURCE ID: error_social_player_banned
 TEXT: คุณไม่สามารถเข้าถึงฟีเจอร์นี้ได้
+
+RESOURCE ID: event_details_link_gowa_2026
+TEXT: เรียนรู้เพิ่มเติมเกี่ยวกับโบนัสตั๋วได้<a href="pokemongo.com/gowildarea/global">ที่นี่</a>
 
 RESOURCE ID: event_mega_chandelure_raid_day_timed_research
 TEXT: งานวิจัยแบบจำกัดเวลาวันตีบอสซูเปอร์เมก้าแชนเดลา
@@ -1074,13 +1080,13 @@ RESOURCE ID: item_bag_bonus
 TEXT: โบนัส
 
 RESOURCE ID: item_bag_category_berries_and_poffins
-TEXT: Berries and Poffins
+TEXT: ผลไม้และโปฟฟิน
 
 RESOURCE ID: item_bag_category_featured
 TEXT: ไอเท็มแนะนำ
 
 RESOURCE ID: item_bag_category_incubators
-TEXT: Incubators
+TEXT: เครื่องฟักไข่
 
 RESOURCE ID: item_event_ticket_gray_desc_megachandelureraidday
 TEXT: ตั๋วสำหรับรับโบนัสพิเศษในวันที่
@@ -1136,7 +1142,7 @@ RESOURCE ID: item_mp_name_plural
 TEXT: อนุภาคแมกซ์
 
 RESOURCE ID: journal_player_fled
-TEXT: Fled from a raid encounter with {0}.
+TEXT: หนีจาก{0}ที่เผชิญหน้าในตีบอสแล้ว
 
 RESOURCE ID: jp_aeon_mall_collab_2026_event_desc
 TEXT: จัดอีเวนต์พิเศษที่ AEON Mall ทั่วประเทศญี่ปุ่นในวันที่ 19 ตุลาคม - 1 พฤศจิกายน
@@ -1267,10 +1273,10 @@ TEXT: หาก CP ของโปเกมอนที่วิวัฒนา�
 CP ของโปเกมอนที่ถึงระดับซูเปอร์แมกซ์เองก็จะไม่เพิ่มขึ้นอย่างมากในมาสเตอร์ลีกเช่นกัน
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-10-24T00:20:49.016765+00:00 for th-TH
-at SHA 799aa887df2
-Pipeline 4048116, job 59688838
-Patch from: 0.435.0-SHA-d5d32cc5-RC2, 0.433.1-SHA-0f52e3f0-RC1
+TEXT: Built at 2026-10-28T00:34:05.832253+00:00 for th-TH
+at SHA eb39dfa4ddd
+Pipeline 4056315, job 59806318
+Patch from: 0.435.0-SHA-b075bde4-RC4, 0.437.0-SHA-d1d1a55c-RC2, 0.433.1-SHA-0f52e3f0-RC1
 
 RESOURCE ID: meteor_desc_1
 TEXT: เมเทโนอาจปรากฏตัวในค่ำคืนที่มีฝนดาวตก
@@ -1513,13 +1519,13 @@ RESOURCE ID: move_name_0619
 TEXT: <<move_name_0064>>+
 
 RESOURCE ID: nearby_incomplete_raid_header
-TEXT: IN PROGRESS
+TEXT: กำลังดำเนินการ
 
 RESOURCE ID: nearby_incomplete_raid_widget_header
-TEXT: REJOIN
+TEXT: เข้าร่วมอีกครั้ง
 
 RESOURCE ID: nearby_incomplete_raid_widget_title
-TEXT: Rejoin the {0} raid
+TEXT: เข้าร่วมตีบอส{0}อีกครั้ง
 
 RESOURCE ID: niantic_anniversary_event
 TEXT: อีเวนต์วันครบรอบของ Scopely Explore
@@ -1583,7 +1589,7 @@ AR ให้เข้ากับสภาพแวดล้อมของค�
 ปุ่มระบบผสานความเป็นจริง
 
 RESOURCE ID: ominous_wind_base_increased_level_bonus
-TEXT: เพิ่มระดับของเมก้าแชนเดลา (วันที่ 2 พฤศจิกายน เวลา 12.00 น. ถึงวันที่ 15 พฤศจิกายน เวลา 12.00 น. ตามเวลามาตรฐานแปซิฟิก)
+TEXT: เพิ่ม CP ของเมก้าแชนเดลาที่ระดับซูเปอร์แมกซ์ (วันที่ 2 พฤศจิกายน เวลา 12.00 น. ถึงวันที่ 15 พฤศจิกายน เวลา 12.00 น. ตามเวลามาตรฐานแปซิฟิก)
 
 RESOURCE ID: ominous_wind_base_power_boost_bonus
 TEXT: เพิ่มความแรงของ "สายลมบอกเหตุ+" (วันที่ 2 พฤศจิกายน เวลา 12.00 น. ถึงวันที่ 15 พฤศจิกายน เวลา 12.00 น. ตามเวลามาตรฐานแปซิฟิก)
@@ -1707,6 +1713,45 @@ TEXT: กรุณาทบทวนนโยบายความเป็น�
 ล่าสุดของ Scopely Explore สำหรับ
 ข้อมูลเพิ่มเติมเกี่ยวกับระบบใหม่ต่าง ๆ
 และการจัดการข้อมูลส่วนบุคคล
+
+RESOURCE ID: ptc_account_creation_prompt
+TEXT: ไม่มีบัญชีของศูนย์โปเกมอนเทรนเนอร์?
+
+RESOURCE ID: ptc_auth_consent_needed_out
+TEXT: คุณต้องอนุญาตให้ Pokémon GO เข้าถึงบัญชีศูนย์โปเกมอนเทรนเนอร์ของคุณเพื่อเล่นต่อ
+
+RESOURCE ID: ptc_auth_link_disclaimer
+TEXT: หากเชื่อมโยงกับศูนย์โปเกมอนเทรนเนอร์แล้ว จะไม่สามารถยกเลิกการเชื่อมโยงได้
+
+RESOURCE ID: ptc_auth_link_message_out
+TEXT: เชื่อมโยงบัญชีศูนย์โปเกมอนเทรนเนอร์เข้ากับบัญชี Pokémon GO ของคุณเพื่อรับ{0}
+
+RESOURCE ID: ptc_auth_parent_consent_needed
+TEXT: คุณจำเป็นต้องให้พ่อแม่หรือผู้ปกครองทำการอนุญาตให้ Pokémon GO เข้าถึงบัญชีศูนย์โปเกมอนเทรนเนอร์ของคุณ
+
+RESOURCE ID: ptc_auth_timed_research_message
+TEXT: เชื่อมโยงหรือยืนยันบัญชีศูนย์โปเกมอนเทรนเนอร์โดยการแตะที่ "บัญชี" ในเมนูการตั้งค่าของ Pokémon GO
+
+RESOURCE ID: ptc_auth_timed_research_title
+TEXT: รางวัลศูนย์โปเกมอนเทรนเนอร์
+
+RESOURCE ID: ptc_auth_validate_message
+TEXT: ยืนยันบัญชีศูนย์โปเกมอนเทรนเนอร์ของคุณเพื่อรับ{0}
+
+RESOURCE ID: ptc_auth_validate_success
+TEXT: ยืนยันบัญชีศูนย์โปเกมอนเทรนเนอร์สำเร็จแล้ว! Pokémon GO จะรีสตาร์ท
+
+RESOURCE ID: ptc_claim_reward_msg_out
+TEXT: คุณเชื่อมต่อบัญชีศูนย์โปเกมอนเทรนเนอร์เรียบร้อย และได้รับเครื่องฟักไข่แล้ว
+
+RESOURCE ID: ptc_login_button_out
+TEXT: ศูนย์โปเกมอนเทรนเนอร์
+
+RESOURCE ID: ptc_login_server_unreachable_out
+TEXT: ขณะนี้ศูนย์โปเกมอนเทรนเนอร์เกิดเหตุขัดข้อง ขออภัยในความไม่สะดวก
+
+RESOURCE ID: ptc_login_title_out
+TEXT: ศูนย์โปเกมอนเทรนเนอร์
 
 RESOURCE ID: quest_branch_choose_mega_chesnaught
 TEXT: เลือกเมก้าบริการอน
@@ -1924,7 +1969,7 @@ RESOURCE ID: rare_background_ftue_profile_swap_buddies_button
 TEXT: สลับคู่หู
 
 RESOURCE ID: recycle_dialog_quantity
-TEXT: QUANTITY: {0}
+TEXT: มีอยู่: {0}
 
 RESOURCE ID: recycle_discard_all
 TEXT: ใช่ ทิ้งทั้งหมดเลย
@@ -2008,13 +2053,13 @@ RESOURCE ID: sandile_hatch_day_paid_tr
 TEXT: งานวิจัยแบบจำกัดเวลาพรีเมียม: วันฟักไข่เมะกุโรโกะ
 
 RESOURCE ID: score_raids_max_battles_none
-TEXT: Completed 0 Raids or Max Battles
+TEXT: Completed 0 raids or Max Battles
 
 RESOURCE ID: score_raids_max_battles_plural
-TEXT: Completed {0} Raids or Max Battles
+TEXT: Completed {0} raids or Max Battles
 
 RESOURCE ID: score_raids_max_battles_singular
-TEXT: Completed 1 Raid or Max Battle
+TEXT: Completed 1 raid or Max Battle
 
 RESOURCE ID: season_pass_base_track_title_halloween2026
 TEXT: บัตรผ่าน GO: ฮาโลวีน 2026
@@ -2082,6 +2127,12 @@ TEXT: บัตรผ่าน GO Deluxe: ฮาโลวีน 2026 + 10 ระ
 
 RESOURCE ID: season_pass_premium_track_title_halloween2026
 TEXT: บัตรผ่าน GO Deluxe: ฮาโลวีน 2026
+
+RESOURCE ID: select_a_paid_gift
+TEXT: Select a paid gift to send to your friend
+
+RESOURCE ID: sending_paid_gift_to
+TEXT: You are sending this paid gift to:
 
 RESOURCE ID: server_maintenance_block
 TEXT: กำลังจะเริ่มการปิดปรับปรุงระบบ! ไม่สามารถใช้งานฟีเจอร์นี้ได้ในขณะนี้
@@ -2288,10 +2339,10 @@ Scopely Explore ทั้งหมดที่คุณทั้งคู่เ�
 Facebook บนหน้าจอเพิ่มเพื่อนได้เช่นกัน
 
 RESOURCE ID: tips_tasks_weather_boost_body
-TEXT: Certain Pokémon appear more frequently when the weather matches their type. These Pokémon have higher CP, are stronger in battle, and award extra Stardust when they’re caught.
+TEXT: โปเกมอนที่กำหนดจะปรากฏตัวบ่อยขึ้นเมื่อสภาพอากาศเหมาะกับประเภทของมัน โปเกมอนเหล่านี้มีลักษณะพิเศษ เช่น CP สูง เพิ่มความแข็งแกร่งในการต่อสู้ และจะได้รับสตาร์ดัสต์เพิ่มมากขึ้นเมื่อจับได้
 
 RESOURCE ID: tips_tasks_weather_boost_title
-TEXT: Weather Boosts
+TEXT: บูสต์สภาพอากาศ
 
 RESOURCE ID: titan_poi_ar_data_opt_in_1_old
 TEXT: เรากำลังพัฒนาเทคโนโลยี AR ใหม่และต้องการความช่วยเหลือจากคุณ คุณต้องการช่วยเหลือการวิจัยของเราโดยใช้ฟีเจอร์การสแกนเสาโปเกสต็อปในการสแกนเสาโปเกสต็อปและยิม และอัปโหลดข้อมูลการสแกนของคุณหรือไม่? หากคุณเลือกที่จะเปิดใช้งานฟีเจอร์นี้ คุณสามารถยกเลิกได้ตลอดเวลาโดยปิดการใช้งานผ่านเมนูการตั้งค่า 
