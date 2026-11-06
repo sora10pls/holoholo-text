@@ -92,6 +92,9 @@ TEXT: 捨てる
 RESOURCE ID: details_link_key_megachandelureraidday
 TEXT: 詳細は<a href="https://pokemongo.com/news/chandelure-super-mega-raid-day-2026">ウェブサイト</a>でご確認ください
 
+RESOURCE ID: dragon_poi_spin_plural
+TEXT: 違うドラゴンタイプテーマのポケストップ{0}個を回す
+
 RESOURCE ID: dynamax_cannon_ae_half_cost_bonus
 TEXT: 50%　ムゲンダイナのフィールド効果ダイマックスほうの発動に必要な道具やアメの量
 
@@ -488,10 +491,10 @@ TEXT: メガシンカしたポケモンのCPが特定リーグの上限を超え
 スーパーマックスレベルに達しているポケモンも、マスターリーグでCPが大幅に上がることはありません。
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-11-03T19:34:23.749057+00:00 for ja-JP
-at SHA 534885091ad
-Pipeline 4073493, job 60075419
-Patch from: 0.437.0-SHA-6174fcca-RC4, 0.435.98-SHA-b3319c4b-RC1
+TEXT: Built at 2026-11-06T00:56:32.081142+00:00 for ja-JP
+at SHA c36620063aca
+Pipeline 4080589, job 60204301
+Patch from: 0.437.0-SHA-2396e31c-RC3, 0.435.98-SHA-b3319c4b-RC1
 
 RESOURCE ID: minior_shower_tr_name
 TEXT: メテノシャワータイムチャレンジ
@@ -549,6 +552,12 @@ TEXT: スーパーマックスレベルに達したメガシャンデラのCPが
 
 RESOURCE ID: ominous_wind_base_power_boost_bonus
 TEXT: 「あやしいかぜ+」の威力が増す（11月2日12:00PM～15日12:00PM太平洋標準時）
+
+RESOURCE ID: paid_gift_friend_ineligible_learn_more_url
+TEXT: https://scopelyexplore.helpshift.com/hc/faq/2591-how-can-i-purchase-items-as-gifts-for-friends/
+
+RESOURCE ID: pause_gift_list_prompt_desc
+TEXT: 以下のフレンドはあなたに有料プレゼントを送ることができなくなります。あとからいつでも再開できます。
 
 RESOURCE ID: pawniard_website_link
 TEXT: 詳細は<a href="https://pokemongo.com/news/communityday-november-2026-pawniard">ウェブサイト</a>でご確認ください
@@ -651,7 +660,7 @@ RESOURCE ID: raid_battle_complete_rejoin_modal_body
 TEXT: レイドに再参加して、ボスポケモンを捕まえましょう。
 
 RESOURCE ID: raid_encounter_flee_warning_modal_confirm_button
-TEXT: FLEE
+TEXT: 逃げる
 
 RESOURCE ID: raid_share_private_code_message
 TEXT: このグループコードを入力すると、友達と一緒にバトルできます。「グループコード入力」ボタンを押してコードを入力します。
@@ -819,16 +828,49 @@ TEXT: 贈り先：
 RESOURCE ID: shop_gift_confirm_purchase_warning_description
 TEXT: 有料プレゼントは、1日に20個まで送ることができます。別プレイヤーが使用できず、払い戻しができません。
 
+RESOURCE ID: shop_gift_friend_ineligible_description
+TEXT: 以下の理由でフレンドが有料プレゼントを受け取ることができないことがあります。
+・すでにチケットを持っている
+・対象リサーチやチャレンジを進行中か完了している
+ ・他の人がチケットを贈った
+・仲良し度が低い
+・有料プレゼントを受け取らない設定にしている
+
 RESOURCE ID: shop_gift_friend_ineligible_description_temp
 TEXT: 贈る相手が以下の理由によりプレゼントを受け取れない場合があります。
 
 ・チケットやGOパスデラックスを自分で購入している
-・上限に達していて追加できない
+・上限まで保持しているアイテム
 ・進行中または完了済みリサーチなどに関連して受け取れない
 ・仲良し度が低い
-・有料ギフトの受領をオフにしている
+・有料プレゼントの受領をオフにしている
 ・制限のかかったアカウントである
-・異なる貨幣をまたぐ贈答ができない
+・異なる貨幣をまたぐ贈答
+
+RESOURCE ID: shop_gift_purchase_user_limit_description
+TEXT: 一日に贈ることができる有料プレゼントは{0}個です。明日また贈ることができます。
+
+ 過剰な贈答や偽造ギフトを防ぐため上限を設けています。
+
+RESOURCE ID: shop_gift_purchase_user_limit_title
+TEXT: 有料プレゼント上限
+
+RESOURCE ID: shop_gift_purchase_user_max_limit_description
+TEXT: このイベントのプレゼント用チケットを{0}枚まで購入できます。
+ 過剰な贈答や偽造プレゼントを防ぐため上限を設けています。
+
+RESOURCE ID: shop_gift_purchase_user_max_limit_title
+TEXT: 有料プレゼント上限
+
+RESOURCE ID: shop_gifting_policy_modal_description
+TEXT: •フレンドのために購入したプレゼントは返金の対象外です。
+ • 贈ったあとにキャンセルできません。
+ • 有料プレゼントの一日の上限数は{0}個です。
+
+RESOURCE ID: shop_gifting_policy_modal_description_limited
+TEXT: •フレンドのために購入したプレゼントは返金の対象外です。
+ •贈ったあとにキャンセルできません。
+ •贈ることができるこのイベントの有料プレゼント上限数は{0}個です。
 
 RESOURCE ID: sku.name.web-gowa-2024-box-4
 TEXT: GOワイルドエリアブースターボックス
@@ -850,6 +892,9 @@ TEXT: GOワイルドエリア2026：ドラゴンマスタリー(5/6)
 
 RESOURCE ID: sr_gowa2026_global_dragon_6
 TEXT: GOワイルドエリア2026：ドラゴンマスタリー(6/6)
+
+RESOURCE ID: steel_poi_spin_plural
+TEXT: 違うはがねタイプテーマのポケストップ{0}個を回す
 
 RESOURCE ID: text_rewards_key_cd_pawniard26
 TEXT: <b>もらえるもの：</b>

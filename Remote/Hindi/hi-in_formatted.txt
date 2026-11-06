@@ -281,6 +281,24 @@ TEXT: रूट पर चलने से आपको ज़ाइगार्ड
 RESOURCE ID: breakfast_tappable_tutorial_body_out2
 TEXT: रूट को पूरा करने के बाद आपको ज़ाइगार्ड सेल मिल सकते हैं। ज़ाइगार्ड सेल को एक-साथ जोड़कर, आप अलग-अलग ज़ाइगार्ड फ़ॉर्म बना सकते हैं।
 
+RESOURCE ID: buddy_multilplayer_qr_display_header
+TEXT: पार्टनर ग्रुप 2D कोड
+
+RESOURCE ID: buddy_multiplayer_create_session
+TEXT: ग्रुप का 2D कोड बनाएं
+
+RESOURCE ID: buddy_multiplayer_mapping_timeout
+TEXT: कोई गतिविधि न होने के कारण यह पार्टनर ग्रुप बंद हो गया है। जारी रखने के लिए, कृपया ग्रुप का 2D कोड स्कैन करके फिर से प्रयास करें।
+
+RESOURCE ID: buddy_multiplayer_qr_guidance
+TEXT: ग्रुप का 2D कोड स्कैन करें
+
+RESOURCE ID: buddy_multiplayer_scan_button
+TEXT: ग्रुप 2D कोड स्कैन करें
+
+RESOURCE ID: buddy_multiplayer_timeout_dialog_description
+TEXT: कोई गतिविधि न होने के कारण यह पार्टनर ग्रुप बंद हो गया है। जारी रखने के लिए, कृपया ग्रुप का 2D कोड स्कैन करके फिर से प्रयास करें।
+
 RESOURCE ID: city_manhole_474
 TEXT: वाजिमा
 
@@ -317,6 +335,9 @@ TEXT: ओकाया
 RESOURCE ID: city_manhole_485
 TEXT: कीसो
 
+RESOURCE ID: combat_matchmaking_invalid_qr
+TEXT: 2D कोड मान्य नहीं है
+
 RESOURCE ID: community_day_pawniard_event_name
 TEXT: कम्युनिटी डे - पॉन्यार्ड
 
@@ -324,7 +345,7 @@ RESOURCE ID: confirm_gift_purchase_v2_reward_points_prefix
 TEXT: मिलेंगे
 
 RESOURCE ID: delete_gift_ok
-TEXT: Discard
+TEXT: नष्ट करें
 
 RESOURCE ID: details_link_key_megachandelureraidday
 TEXT: अधिक जानकारी की लिए <a href="https://pokemongo.com/news/chandelure-super-mega-raid-day-2026">वेबसाइट</a> पर जाएँ।
@@ -337,6 +358,9 @@ TEXT: ड्रैगन टाइप थीम वाला पोकेस्�
 
 RESOURCE ID: dynamax_cannon_ae_half_cost_bonus
 TEXT: इटर्नेटस का डायनामैक्स कैनन फ़ील्ड इफ़ेक्ट एक्टीवेट करने की लागत 50% कम
+
+RESOURCE ID: encounter_score_master_ball_throw
+TEXT: मास्टर बॉल थ्रो बोनस
 
 RESOURCE ID: eternatus_returns_event_title
 TEXT: इटर्नेटस की वापसी
@@ -879,10 +903,10 @@ TEXT: यदि मेगा एवॉल्व हुए पोकेमॉन 
 सुपर मैक्स लेवल वाले पोकेमॉन को मास्टर लीग में "बहुत बढ़ा CP" बोनस नहीं मिलेगा।
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-11-03T19:34:23.749057+00:00 for hi-IN
-at SHA 534885091ad
-Pipeline 4073493, job 60075419
-Patch from: 0.437.0-SHA-6174fcca-RC4, 0.435.98-SHA-b3319c4b-RC1
+TEXT: Built at 2026-11-06T00:56:32.081142+00:00 for hi-IN
+at SHA c36620063aca
+Pipeline 4080589, job 60204301
+Patch from: 0.437.0-SHA-2396e31c-RC3, 0.435.98-SHA-b3319c4b-RC1
 
 RESOURCE ID: minior_shower_tr_name
 TEXT: मिनियोर शावर सीमित समय वाली रिसर्च
@@ -986,11 +1010,17 @@ TEXT: आप इसे अपनी इन्वेंट्री से भे
 RESOURCE ID: paid_gift_already_purchased_modal_title
 TEXT: आपने पहले से ही यह पेमेंट वाला गिफ़्ट खरीदा हुआ है।
 
+RESOURCE ID: paid_gift_friend_ineligible_learn_more_url
+TEXT: https://scopelyexplore.helpshift.com/hc/faq/2591-how-can-i-purchase-items-as-gifts-for-friends/
+
 RESOURCE ID: paid_gift_regift_no_longer_available_modal_message
 TEXT: यह आइटम अब उपलब्ध नहीं है और इसे गिफ़्ट नहीं किया जा सकता।
 
 RESOURCE ID: paid_gift_regift_no_longer_available_modal_title
 TEXT: गिफ़्ट एरर
+
+RESOURCE ID: party_play_scan_qr_code
+TEXT: टीम का 2D कोड स्कैन करें
 
 RESOURCE ID: pause_gift_list_prompt_button_label
 TEXT: जी हाँ, पॉज़ करें
@@ -1012,6 +1042,13 @@ TEXT: GO स्नैपशॉट में पॉन्यार्ड के �
 
 RESOURCE ID: poi_contrib_report_reason_ai_generated_or_doctored_photo
 TEXT: AI-Generated or Doctored Photo
+
+RESOURCE ID: pokestop_button_read_qr_code
+TEXT: 2D कोड पढ़ें
+
+RESOURCE ID: pokestop_check_in_notice
+TEXT: {0} में आपका स्वागत है!
+चेक इन करने के लिए, कृपया कैमरे से 2D कोड स्कैन करें।
 
 RESOURCE ID: premium_gift_ftue_desc
 TEXT: अब आप शॉप से और भी प्रकार के गिफ़्ट भेज और पा सकते हैं!
@@ -1110,6 +1147,12 @@ TEXT: पोकेमॉन ट्रेनर सेंट्रल अभी �
 
 RESOURCE ID: ptc_login_title_out
 TEXT: पोकेमॉन ट्रेनर सेंट्रल
+
+RESOURCE ID: qr_code_title
+TEXT: 2D कोड स्कैन करें
+
+RESOURCE ID: qr_decode_problem
+TEXT: 2D कोड स्कैन नहीं हो सका। कृपया मैनुअल इनपुट से प्रयास करें।
 
 RESOURCE ID: quest_buddy_affection_dragon_plural
 TEXT: ड्रैगन टाइप पार्टनर के साथ {0} हार्ट कमाएँ
@@ -1412,6 +1455,21 @@ TEXT: आपका गिफ़्ट {0} को भेज दिया गय�
 
 RESOURCE ID: sku.name.web-gowa-2024-box-4
 TEXT: GO वाइल्ड एरिया बूस्टर बॉक्स
+
+RESOURCE ID: social_add_friend_qr
+TEXT: 2D कोड
+
+RESOURCE ID: social_add_friend_qr_v2
+TEXT: 2D कोड स्कैन करें
+
+RESOURCE ID: social_my_qr_code
+TEXT: मेरा 2D कोड
+
+RESOURCE ID: social_qr_code_prompt
+TEXT: किसी दूसरे ट्रेनर के स्कैनर से यह 2D कोड स्कैन करें।
+
+RESOURCE ID: social_qr_scan_prompt
+TEXT: ट्रेनर का 2D कोड स्कैन करें
 
 RESOURCE ID: soft_sfida_alert_pokemon_storage
 TEXT: आपकी पोकेमॉन स्टोरेज भर गई है।

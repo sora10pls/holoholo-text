@@ -768,10 +768,10 @@ TEXT: Jika CP Pokémon yang telah melakukan Evolusi Mega melampaui batas Battle 
 Pokémon dengan Level Maks. Super tidak akan mendapatkan bonus peningkatan pesat CP di Liga Master. 
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-11-03T19:34:23.749057+00:00 for id-ID
-at SHA 534885091ad
-Pipeline 4073493, job 60075419
-Patch from: 0.437.0-SHA-6174fcca-RC4, 0.435.98-SHA-b3319c4b-RC1
+TEXT: Built at 2026-11-06T00:56:32.081142+00:00 for id-ID
+at SHA c36620063aca
+Pipeline 4080589, job 60204301
+Patch from: 0.437.0-SHA-2396e31c-RC3, 0.435.98-SHA-b3319c4b-RC1
 
 RESOURCE ID: minior_shower_tr_name
 TEXT: Penelitian Berwaktu Hujan Minior
@@ -869,6 +869,9 @@ TEXT: Kamu bisa mengirimkannya dari Tas Item.
 RESOURCE ID: paid_gift_already_purchased_modal_title
 TEXT: Kamu telah membeli hadiah berbayar ini.
 
+RESOURCE ID: paid_gift_friend_ineligible_learn_more_url
+TEXT: https://scopelyexplore.helpshift.com/hc/faq/2591-how-can-i-purchase-items-as-gifts-for-friends/
+
 RESOURCE ID: paid_gift_regift_no_longer_available_modal_message
 TEXT: Item ini tidak lagi tersedia dan tidak dapat dihadiahkan.
 
@@ -897,7 +900,10 @@ RESOURCE ID: photobomb_five_pawniard
 TEXT: 5 pertemuan kejutan dengan Pawniard di Foto GO
 
 RESOURCE ID: poi_contrib_report_reason_ai_generated_or_doctored_photo
-TEXT: AI-Generated or Doctored Photo
+TEXT: Foto Buatan AI atau Hasil Rekayasa
+
+RESOURCE ID: pokemon_run_2026_thailand_title
+TEXT: Pokémon RUN 30: Tailan
 
 RESOURCE ID: pokestop_button_read_qr_code
 TEXT: BACA KODE 2D
@@ -1095,25 +1101,25 @@ RESOURCE ID: raid_encounter_flee_warning_modal_body
 TEXT: Jika kamu mundur dari Pokémon ini, kamu tidak akan bisa kembali lagi.
 
 RESOURCE ID: raid_encounter_flee_warning_modal_confirm_button
-TEXT: FLEE
+TEXT: MUNDUR
 
 RESOURCE ID: raid_encounter_flee_warning_modal_title
 TEXT: Yakin ingin mundur?
 
 RESOURCE ID: rally_apac_30_regional_tailand_desc
-TEXT: Rayakan PokéXciting! di Thailand!
+TEXT: Rayakan PokéXciting! di Tailan!
 
 RESOURCE ID: rally_apac_30_regional_tailand_desc_detail
 TEXT: Temukan Pikachu PokéXciting! dengan mengunjungi PokéStop spesial di sekitar kota Bangkok. Lihat peta untuk detail lebih lanjut.
 
 RESOURCE ID: rally_apac_30_regional_tailand_location
-TEXT: Bangkok, Thailand
+TEXT: Bangkok, Tailan
 
 RESOURCE ID: rally_apac_30_regional_tailand_reward_desc
 TEXT: Jelajahi Bangkok untuk bertemu dengan Pikachu PokéXciting! (Oranye) yang memiliki Latar Belakang Lokasi Bangkok eksklusif.
 
 RESOURCE ID: rally_apac_30_regional_thailand_title
-TEXT: Reli Stempel PokéXciting! – Thailand
+TEXT: Reli Stempel PokéXciting! – Tailan
 
 RESOURCE ID: rally_cdmx_2026_desc
 TEXT: Reli Stempel GO eksklusif yang hanya tersedia di Mexico City.
@@ -1129,6 +1135,9 @@ TEXT: Temui Hawlucha dengan Latar Belakang Lokasi Mexico City selama reli ini.
 
 RESOURCE ID: rally_cdmx_2026_title
 TEXT: Reli Stempel Mexico City – Hawlucha
+
+RESOURCE ID: rally_city_safari_2025_bangkok_location
+TEXT: Bangkok, Tailan
 
 RESOURCE ID: rally_ddm_cdmx_2026_desc
 TEXT: Selamat datang di Reli Stempel Día de Muertos – Duskull
@@ -1173,7 +1182,7 @@ RESOURCE ID: rally_gowa_2026_sendai_title
 TEXT: Reli Stempel GO Wild Area 2026 – Sendai・Tohoku
 
 RESOURCE ID: rally_sendai_2026_desc
-TEXT: Reli Stempel eksklusif yang hanya tersedia di wilayah Sendai • Tohoku.
+TEXT: Reli Stempel eksklusif yang hanya tersedia di wilayah Sendai • Tohoku!
 
 RESOURCE ID: rally_sendai_2026_desc_detail
 TEXT: Kumpulkan stempel dengan mengunjungi PokéStop Reli Stempel GO di sepanjang jalur bersejarah di wilayah Sendai • Tohoku!
@@ -1264,10 +1273,10 @@ RESOURCE ID: season_pass_premium_track_title_halloween2026
 TEXT: Tiket GO Luks: Halloween 2026
 
 RESOURCE ID: select_a_paid_gift
-TEXT: Select a paid gift to send to your friend
+TEXT: Pilih hadiah berbayar untuk dikirimkan kepada temanmu.
 
 RESOURCE ID: sending_paid_gift_to
-TEXT: You are sending this paid gift to:
+TEXT: Kamu mengirim hadiah berbayar ini ke:
 
 RESOURCE ID: settings_allow_paid_gifts_desc_off
 TEXT: Menonaktifkan fitur ini akan menghentikan sementara pengiriman hadiah berbayar dari teman kepadamu. Hal ini tidak mencakup Hadiah gratis.
@@ -1294,14 +1303,14 @@ RESOURCE ID: shop_gift_confirm_purchase_warning_description
 TEXT: Kamu bisa mengirim total 20 hadiah berbayar hari ini. Hadiah ini tidak bisa digunakan oleh pemain lain atau dikembalikan.
 
 RESOURCE ID: shop_gift_friend_ineligible_description_temp
-TEXT: Kamu mungkin tidak dapat mengirim hadiah berbayar—termasuk item, tiket, dan tiket event—kepada beberapa teman. Hal ini dapat terjadi karena alasan berikut:
-
-• Mereka sudah memiliki tiket atau tiket event terkait, atau orang lain telah mengirimkannya kepada mereka
-• Mereka mungkin memiliki penelitian yang aktif atau telah selesai yang menghalangi mereka menerima tiket
-• Tingkat pertemananmu terlalu rendah
-• Mereka telah menonaktifkan fitur hadiah berbayar
-• Akun mereka tidak memenuhi syarat karena adanya pembatasan
-• Pengiriman hadiah lintas mata uang tidak didukung
+TEXT: Kamu tidak dapat mengirim hadiah berbayar jika penerimanya:
+• Telah memiliki tiket atau Tiket GO Luks
+• Telah mencapai batas untuk item tersebut
+• Memiliki penelitian yang sedang berlangsung atau telah selesai yang mencegah mereka menerima tiket tersebut
+• Belum memenuhi persyaratan Level Pertemanan
+• Telah menonaktifkan penerimaan hadiah berbayar
+• Memiliki batasan yang membuat mereka tidak memenuhi syarat
+• Menggunakan mata uang yang berbeda; pengiriman hadiah lintas mata uang tidak didukung
 
 RESOURCE ID: shop_gift_purchase_invitation_sent_generic_description
 TEXT: Hadiahmu telah dikirimkan ke {0}.
@@ -1319,7 +1328,7 @@ RESOURCE ID: social_my_qr_code
 TEXT: Kode 2D-ku
 
 RESOURCE ID: social_qr_code_prompt
-TEXT: Pindai kode 2D dengan perangkat Pelatih lain.
+TEXT: Pindai kode 2D ini dengan perangkat Pelatih lain.
 
 RESOURCE ID: social_qr_scan_prompt
 TEXT: Pindai kode 2D Pelatih

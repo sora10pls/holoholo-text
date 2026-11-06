@@ -203,18 +203,6 @@ TEXT: 只要完成路線，就能找到基格爾德・細胞。收集到所需�
 RESOURCE ID: buddy_multilplayer_qr_display_header
 TEXT: 二維條碼
 
-RESOURCE ID: buddy_multiplayer_mapping_timeout
-TEXT: 由於未進行操作，夥伴小組已經解散。請從讀取二維條碼重新開始。
-
-RESOURCE ID: buddy_multiplayer_qr_guidance
-TEXT: 讀取夥伴小組二維條碼
-
-RESOURCE ID: buddy_multiplayer_scan_button
-TEXT: 讀取夥伴小組二維條碼
-
-RESOURCE ID: buddy_multiplayer_timeout_dialog_description
-TEXT: 由於未進行操作，夥伴小組已經解散。請從讀取二維條碼重新開始。
-
 RESOURCE ID: city_manhole_474
 TEXT: 輪島市
 
@@ -267,7 +255,7 @@ RESOURCE ID: details_link_key_megachandelureraidday
 TEXT: 詳情請至<a href="https://pokemongo.com/news/chandelure-super-mega-raid-day-2026">網站</a>確認
 
 RESOURCE ID: dragon_poi_spin_plural
-TEXT: 旋轉{0}個龍屬性主題的寶可補給站轉盤
+TEXT: 旋轉{0}個不同的龍屬性主題寶可補給站轉盤
 
 RESOURCE ID: dragon_poi_spin_singular
 TEXT: 旋轉龍屬性主題的寶可補給站轉盤
@@ -279,7 +267,7 @@ RESOURCE ID: encounter_score_master_ball_throw
 TEXT: 大師球投擲獎勵
 
 RESOURCE ID: encounter_score_new_pokemon
-TEXT: 新的寶可夢捕捉獎勵
+TEXT: 新寶可夢捕捉獎勵
 
 RESOURCE ID: eternatus_returns_event_title
 TEXT: 無極汰那再襲
@@ -824,10 +812,10 @@ TEXT: 若超級進化後的寶可夢CP超過特定聯盟的參賽CP限制，其C
 達到超級頂尖級的寶可夢的CP在大師聯盟也不會大幅上升。
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-11-03T19:34:23.749057+00:00 for zh-TW
-at SHA 534885091ad
-Pipeline 4073493, job 60075419
-Patch from: 0.437.0-SHA-6174fcca-RC4, 0.435.98-SHA-b3319c4b-RC1
+TEXT: Built at 2026-11-06T00:56:32.081142+00:00 for zh-TW
+at SHA c36620063aca
+Pipeline 4080589, job 60204301
+Patch from: 0.437.0-SHA-2396e31c-RC3, 0.435.98-SHA-b3319c4b-RC1
 
 RESOURCE ID: minior_shower_tr_name
 TEXT: 小隕星雨限時調查
@@ -931,6 +919,9 @@ TEXT: 可從包包傳送
 RESOURCE ID: paid_gift_already_purchased_modal_title
 TEXT: 已完成購買的贈禮
 
+RESOURCE ID: paid_gift_friend_ineligible_learn_more_url
+TEXT: https://scopelyexplore.helpshift.com/hc/faq/2591-how-can-i-purchase-items-as-gifts-for-friends/
+
 RESOURCE ID: paid_gift_regift_no_longer_available_modal_message
 TEXT: 這個商品已下架，因此無法作為贈禮贈送。
 
@@ -938,7 +929,7 @@ RESOURCE ID: paid_gift_regift_no_longer_available_modal_title
 TEXT: 發生錯誤
 
 RESOURCE ID: party_play_scan_qr_code
-TEXT: 讀取小隊的二維條碼
+TEXT: 掃描小隊的二維條碼
 
 RESOURCE ID: pause_gift_list_prompt_button_label
 TEXT: 是，我要停止。
@@ -959,11 +950,14 @@ RESOURCE ID: photobomb_five_pawniard
 TEXT: 駒刀小兵將在GO Snapshot中驚喜現身5次
 
 RESOURCE ID: poi_contrib_report_reason_ai_generated_or_doctored_photo
-TEXT: AI-Generated or Doctored Photo
+TEXT: 使用AI製作、變造後的照片
+
+RESOURCE ID: pokestop_button_read_qr_code
+TEXT: 掃描二維條碼
 
 RESOURCE ID: pokestop_check_in_notice
-TEXT: 歡迎來到 {0} ！
-請用裝置的照相機讀取二維條碼後登入。
+TEXT: 歡迎來到{0}！
+請用裝置的照相機掃描二維條碼後簽到。
 
 RESOURCE ID: premium_gift_ftue_desc
 TEXT: 商店裡可買來送給朋友的贈禮種類增加了！
@@ -1051,12 +1045,6 @@ TEXT: 寶可夢訓練家中央站暫時無法連線，敬請見諒。
 RESOURCE ID: ptc_login_title_out
 TEXT: 寶可夢訓練家中央站
 
-RESOURCE ID: qr_code_title
-TEXT: 讀取二維條碼
-
-RESOURCE ID: qr_decode_problem
-TEXT: 無法讀取二維條碼。請嘗試以手動輸入。
-
 RESOURCE ID: quest_buddy_affection_dragon_plural
 TEXT: 將龍屬性的寶可夢設成夥伴，並和牠獲得{0}顆心心
 
@@ -1142,7 +1130,7 @@ RESOURCE ID: raid_encounter_flee_warning_modal_body
 TEXT: 如果逃離這隻寶可夢，將無法再回頭捕捉牠。
 
 RESOURCE ID: raid_encounter_flee_warning_modal_confirm_button
-TEXT: FLEE
+TEXT: 逃走
 
 RESOURCE ID: raid_encounter_flee_warning_modal_title
 TEXT: 確定要逃走嗎？
@@ -1314,10 +1302,13 @@ RESOURCE ID: season_pass_premium_track_title_halloween2026
 TEXT: GO Pass豪華版：萬聖節2026
 
 RESOURCE ID: select_a_paid_gift
-TEXT: Select a paid gift to send to your friend
+TEXT: 選擇贈禮
 
 RESOURCE ID: sending_paid_gift_to
-TEXT: You are sending this paid gift to:
+TEXT: 贈送對象：
+
+RESOURCE ID: settings_allow_paid_gifts
+TEXT: 讓朋友可以送付費贈禮給你
 
 RESOURCE ID: settings_allow_paid_gifts_desc_off
 TEXT: 只要關閉此設定，即可停止收取朋友購買的贈禮。免費的友情禮物仍可繼續收取。
@@ -1343,33 +1334,60 @@ TEXT: 已購買此GO Pass豪華版
 RESOURCE ID: shop_gift_confirm_purchase_warning_description
 TEXT: 每天最多可送20個付費贈禮。付費贈禮無法轉贈給其他玩家使用，也無法退費。
 
-RESOURCE ID: shop_gift_friend_ineligible_description_temp
-TEXT: 即使購買道具及活動入場券等禮物送給朋友，對方也有可能因為以下因素而無法收取。
+RESOURCE ID: shop_gift_friend_ineligible_description
+TEXT: 朋友可能因為下列理由而無法接收付費贈禮：
+• 他已經買了入場券
+• 他已經開始或完成入場券可參加的調查或挑戰
+• 他已經收到別人送的入場券
+• 你們之間的友誼等級還不夠高
+• 他關閉了收取付費贈禮的功能
 
-・對方已購買或已收過相同贈禮
+RESOURCE ID: shop_gift_friend_ineligible_description_temp
+TEXT: 受贈人有可能因為以下因素而無法收取贈禮。
+
+・已自行購買入場券或GO Pass豪華版
+・道具的持有數量已達到上限
 ・受到進行中或已完成的調查等影響而無法收取
 ・友誼等級不夠高
-・對方關閉了收取付費贈禮的功能
-・對方的帳號受到了限制
-・當雙方使用的貨幣不同時，彼此無法贈送或收取贈禮
+・關閉了收取付費贈禮的功能
+・帳號受到了限制
+・與贈禮人使用不同的貨幣
 
 RESOURCE ID: shop_gift_purchase_invitation_sent_generic_description
 TEXT: 已將贈禮送給{0}！
 
+RESOURCE ID: shop_gift_purchase_user_limit_description
+TEXT: 每一天最多可贈送{0}個付費贈禮，若要贈送更多贈禮，請等到明天。
+
+這是為了避免各位花費過度及阻止贈禮偽造。
+
+RESOURCE ID: shop_gift_purchase_user_limit_title
+TEXT: 已達付費贈禮上限
+
+RESOURCE ID: shop_gift_purchase_user_max_limit_title
+TEXT: 已達付費贈禮上限
+
+RESOURCE ID: shop_gifting_policy_modal_description
+TEXT: • 買來送給朋友的贈禮不能退費
+• 贈送之後不能取消
+• 每天只能贈送{0}個付費贈禮
+
+RESOURCE ID: shop_gifting_policy_modal_description_limited
+TEXT: • 買來送給朋友的贈禮不能退費
+• 贈送之後不能取消
+• 這個活動能贈送的付費贈禮上限是{0}個
+
 RESOURCE ID: sku.name.web-gowa-2024-box-4
 TEXT: GO曠野地帶加強禮盒
-
-RESOURCE ID: social_add_friend_qr_v2
-TEXT: 讀取二維條碼
 
 RESOURCE ID: social_my_qr_code
 TEXT: 二維條碼
 
 RESOURCE ID: social_qr_code_prompt
-TEXT: 請朋友使用他自己的裝置讀取二維條碼
+TEXT: 請朋友掃描此二維條碼
 
 RESOURCE ID: social_qr_scan_prompt
-TEXT: 讀取朋友的二維條碼
+TEXT: 掃描朋友的二維條碼
 
 RESOURCE ID: soft_sfida_alert_pokemon_storage
 TEXT: 寶可夢盒已滿。
@@ -1483,7 +1501,7 @@ RESOURCE ID: sr_safari_city_boston_2026_makegood_sun_header
 TEXT: City Safari：波士頓2026（第2天）
 
 RESOURCE ID: steel_poi_spin_plural
-TEXT: 旋轉{0}個鋼屬性主題的寶可補給站轉盤
+TEXT: 旋轉{0}個不同的鋼屬性主題寶可補給站轉盤
 
 RESOURCE ID: steel_poi_spin_singular
 TEXT: 旋轉鋼屬性主題的寶可補給站轉盤

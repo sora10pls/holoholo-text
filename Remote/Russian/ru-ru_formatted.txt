@@ -237,7 +237,7 @@ RESOURCE ID: details_link_key_megachandelureraidday
 TEXT: Чтобы узнать больше, посети <a href="https://pokemongo.com/news/chandelure-super-mega-raid-day-2026">этот сайт</a>.
 
 RESOURCE ID: dragon_poi_spin_plural
-TEXT: Покрути тематические Покестопы типа Дракон ×{0}
+TEXT: Покрути разные тематические Покестопы типа Дракон ×{0}
 
 RESOURCE ID: dragon_poi_spin_singular
 TEXT: Покрути 1 тематический Покестоп типа Дракон
@@ -971,10 +971,10 @@ TEXT: Если БС Мегаэволюционировавшего Покемо�
 У Покемонов Супер-Максимального Уровня не будет бонуса значительно усиленной БС в Мастер-Лиге.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-11-03T19:34:23.749057+00:00 for ru-RU
-at SHA 534885091ad
-Pipeline 4073493, job 60075419
-Patch from: 0.437.0-SHA-6174fcca-RC4, 0.435.98-SHA-b3319c4b-RC1
+TEXT: Built at 2026-11-06T00:56:32.081142+00:00 for ru-RU
+at SHA c36620063aca
+Pipeline 4080589, job 60204301
+Patch from: 0.437.0-SHA-2396e31c-RC3, 0.435.98-SHA-b3319c4b-RC1
 
 RESOURCE ID: minior_shower_tr_name
 TEXT: Квест на Время Поток Миниоров
@@ -987,6 +987,9 @@ TEXT: Шанс получить Частицы Макс при поимке те
 
 RESOURCE ID: n_go_fest _pose_alola greeting
 TEXT: Поза Приветствия Алола
+
+RESOURCE ID: n_pose_001_display_name
+TEXT: Поза Силы
 
 RESOURCE ID: n_pose_036_display_name
 TEXT: Поза с Букетом Грасидей
@@ -1084,6 +1087,9 @@ TEXT: У Мега-Шанделюра Супер-Максимального Ур�
 RESOURCE ID: ominous_wind_base_power_boost_bonus
 TEXT: Атака Зловещий Ветер+ будет усилена с 12:00 PST 2 ноября до 12:00 PST 15 ноября 2026.
 
+RESOURCE ID: paid_gift_friend_ineligible_learn_more_url
+TEXT: https://scopelyexplore.helpshift.com/hc/faq/2591-how-can-i-purchase-items-as-gifts-for-friends/
+
 RESOURCE ID: party_play_scan_qr_code
 TEXT: Отсканируй 2D-код команды.
 
@@ -1094,7 +1100,7 @@ RESOURCE ID: photobomb_five_pawniard
 TEXT: 5 неожиданных встреч с Поуниардом в Стоп-Кадре GO
 
 RESOURCE ID: poi_contrib_report_reason_ai_generated_or_doctored_photo
-TEXT: AI-Generated or Doctored Photo
+TEXT: Фото Создано с Помощью ИИ или Подделано
 
 RESOURCE ID: pokestop_button_read_qr_code
 TEXT: ПРОЧИТАЙ 2D-КОД
@@ -1405,13 +1411,23 @@ RESOURCE ID: season_pass_premium_track_title_halloween2026
 TEXT: Делюкс-Пропуск GO: Хэллоуин 2026
 
 RESOURCE ID: select_a_paid_gift
-TEXT: Select a paid gift to send to your friend
+TEXT: Выбери платный подарок для отправки другу
 
 RESOURCE ID: sending_paid_gift_to
-TEXT: You are sending this paid gift to:
+TEXT: Ты отправляешь этот платный подарок:
 
 RESOURCE ID: shop_gift_confirm_purchase_warning_description
 TEXT: Ты можешь отправлять в общей сложности 20 платных подарков в день. Этот подарок не может быть использован другим игроком или возвращён.
+
+RESOURCE ID: shop_gift_friend_ineligible_description_temp
+TEXT: Ты не можешь отправлять платные подарки, если:
+• У получателя уже есть билет или Делюкс-Пропуск GO
+• Получатель достиг лимит по этому предмету
+• У получателя есть текущий или завершённый квест, который не позволяет ему получить билет
+• У получателя уровень Дружбы ниже необходимого
+• У получателя отключены платные подарки
+• У получателя есть ограничения, которые делают платные подарки недоступными
+ • Получатель использует другую валюту; отправка подарков в другой валюте не поддерживается
 
 RESOURCE ID: sku.name.web-gowa-2024-box-4
 TEXT: Коробка Усиления Нетронутые Земли GO
@@ -1534,7 +1550,7 @@ RESOURCE ID: sr_safari_city_boston_2026_makegood_sun_header
 TEXT: Городское Сафари: Бостон 2026 (День 2)
 
 RESOURCE ID: steel_poi_spin_plural
-TEXT: Покрути тематические Покестопы типа Сталь ×{0}
+TEXT: Покрути разные тематические Покестопы типа Сталь ×{0}
 
 RESOURCE ID: steel_poi_spin_singular
 TEXT: Покрути 1 тематический Покестоп типа Сталь

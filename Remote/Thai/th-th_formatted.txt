@@ -269,6 +269,24 @@ TEXT: คุณอาจพบซีการ์ดเซลล์หลัง�
 หนึ่งแล้วจะสามารถนำมาประกอบ
 เพื่อสร้างซีการ์ดได้
 
+RESOURCE ID: buddy_multilplayer_qr_display_header
+TEXT: บาร์โค้ด 2 มิติกลุ่มคู่หู
+
+RESOURCE ID: buddy_multiplayer_create_session
+TEXT: สร้างโค้ดกลุ่ม
+
+RESOURCE ID: buddy_multiplayer_mapping_timeout
+TEXT: กลุ่มคู่หูนี้ปิดลงแล้วเนื่องจากไม่มีการเคลื่อนไหว กรุณาเริ่มใหม่อีกครั้งจากการสแกนโค้ดกลุ่ม
+
+RESOURCE ID: buddy_multiplayer_qr_guidance
+TEXT: สแกนโค้ดกลุ่ม
+
+RESOURCE ID: buddy_multiplayer_scan_button
+TEXT: สแกนโค้ดกลุ่ม
+
+RESOURCE ID: buddy_multiplayer_timeout_dialog_description
+TEXT: กลุ่มคู่หูนี้ปิดลงแล้วเนื่องจากไม่มีการเคลื่อนไหว กรุณาเริ่มใหม่อีกครั้งจากการสแกนโค้ดกลุ่ม
+
 RESOURCE ID: city_manhole_474
 TEXT: วาจิมะ
 
@@ -305,6 +323,9 @@ TEXT: โอกายะ
 RESOURCE ID: city_manhole_485
 TEXT: คิโสะ
 
+RESOURCE ID: combat_matchmaking_invalid_qr
+TEXT: โค้ดไม่ถูกต้อง
+
 RESOURCE ID: community_day_pawniard_event_name
 TEXT: คอมมิวนิตี้เดย์: โคมาทานา
 
@@ -312,13 +333,13 @@ RESOURCE ID: confirm_gift_purchase_v2_reward_points_prefix
 TEXT: จะได้รับ: 
 
 RESOURCE ID: delete_gift_ok
-TEXT: Discard
+TEXT: ทิ้ง
 
 RESOURCE ID: details_link_key_megachandelureraidday
 TEXT: ตรวจสอบรายละเอียดได้ที่<a href="https://pokemongo.com/news/chandelure-super-mega-raid-day-2026">เว็บไซต์</a>นี้
 
 RESOURCE ID: dragon_poi_spin_plural
-TEXT: หมุนเสาโปเกสต็อปธีมประเภทมังกร {0} แห่ง
+TEXT: หมุนเสาโปเกสต็อปธีมประเภทมังกรที่ไม่ซ้ำกัน {0} ครั้ง
 
 RESOURCE ID: dragon_poi_spin_singular
 TEXT: หมุนเสาโปเกสต็อปธีมประเภทมังกร
@@ -373,6 +394,12 @@ TEXT: แสตมป์แรลลีเทศกาลคลามิงโ�
 
 RESOURCE ID: em_carnival_2026_rally_rio_title
 TEXT: แสตมป์แรลลีเทศกาลคลามิงโก้ - รีโอเดจาเนโร
+
+RESOURCE ID: encounter_score_master_ball_throw
+TEXT: โบนัสจากการใช้มาสเตอร์บอล
+
+RESOURCE ID: encounter_score_new_pokemon
+TEXT: โบนัสจากการจับโปเกมอนใหม่
 
 RESOURCE ID: eternatus_returns_event_title
 TEXT: การกลับมาของมุเก็นไดนา
@@ -1103,10 +1130,10 @@ TEXT: หาก CP ของโปเกมอนที่วิวัฒนา�
 CP ของโปเกมอนที่ถึงระดับซูเปอร์แมกซ์เองก็จะไม่เพิ่มขึ้นอย่างมากในมาสเตอร์ลีกเช่นกัน
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-11-03T19:34:23.749057+00:00 for th-TH
-at SHA 534885091ad
-Pipeline 4073493, job 60075419
-Patch from: 0.437.0-SHA-6174fcca-RC4, 0.435.98-SHA-b3319c4b-RC1
+TEXT: Built at 2026-11-06T00:56:32.081142+00:00 for th-TH
+at SHA c36620063aca
+Pipeline 4080589, job 60204301
+Patch from: 0.437.0-SHA-2396e31c-RC3, 0.435.98-SHA-b3319c4b-RC1
 
 RESOURCE ID: minior_shower_tr_name
 TEXT: งานวิจัยแบบจำกัดเวลาฝนเมเทโน
@@ -1216,11 +1243,17 @@ TEXT: สามารถส่งได้จากกระเป๋า
 RESOURCE ID: paid_gift_already_purchased_modal_title
 TEXT: ซื้อของขวัญแล้ว
 
+RESOURCE ID: paid_gift_friend_ineligible_learn_more_url
+TEXT: https://scopelyexplore.helpshift.com/hc/faq/2591-how-can-i-purchase-items-as-gifts-for-friends/
+
 RESOURCE ID: paid_gift_regift_no_longer_available_modal_message
 TEXT: ไม่สามารถส่งเป็นของขวัญได้เนื่องจากไม่สามารถใช้งานได้แล้ว
 
 RESOURCE ID: paid_gift_regift_no_longer_available_modal_title
 TEXT: เกิดข้อผิดพลาด
+
+RESOURCE ID: party_play_scan_qr_code
+TEXT: สแกนบาร์โค้ด 2 มิติของปาร์ตี้
 
 RESOURCE ID: pause_gift_list_prompt_button_label
 TEXT: ใช่ หยุดรับ
@@ -1242,6 +1275,13 @@ TEXT: โคมาทานาแย่งซีนถ่ายรูปใน�
 
 RESOURCE ID: poi_contrib_report_reason_ai_generated_or_doctored_photo
 TEXT: AI-Generated or Doctored Photo
+
+RESOURCE ID: pokestop_button_read_qr_code
+TEXT: สแกนบาร์โค้ด 2 มิติ
+
+RESOURCE ID: pokestop_check_in_notice
+TEXT: ยินดีต้อนรับสู่{0}!
+กรุณาใช้กล้องถ่ายรูปอ่านบาร์โค้ด 2 มิติเพื่อเช็กอิน
 
 RESOURCE ID: premium_gift_ftue_desc
 TEXT: เพิ่มชนิดของของขวัญให้เพื่อนในร้านค้าแล้ว!
@@ -1334,6 +1374,12 @@ TEXT: ขณะนี้ศูนย์โปเกมอนเทรนเน�
 
 RESOURCE ID: ptc_login_title_out
 TEXT: ศูนย์โปเกมอนเทรนเนอร์
+
+RESOURCE ID: qr_code_title
+TEXT: สแกนบาร์โค้ด 2 มิติ
+
+RESOURCE ID: qr_decode_problem
+TEXT: การสแกนบาร์โค้ด 2 มิติล้มเหลว กรุณากรอกข้อมูลด้วยตนเอง
 
 RESOURCE ID: quest_buddy_affection_dragon_plural
 TEXT: ได้รับหัวใจร่วมกันกับคู่หูประเภทมังกร
@@ -1698,6 +1744,21 @@ TEXT: ส่งของขวัญให้ {0} แล้ว!
 RESOURCE ID: sku.name.web-gowa-2024-box-4
 TEXT: กล่องบูสต์ GO ไวลด์แอเรีย
 
+RESOURCE ID: social_add_friend_qr
+TEXT: บาร์โค้ด 2 มิติ
+
+RESOURCE ID: social_add_friend_qr_v2
+TEXT: สแกนบาร์โค้ด 2 มิติ
+
+RESOURCE ID: social_my_qr_code
+TEXT: บาร์โค้ด 2 มิติ
+
+RESOURCE ID: social_qr_code_prompt
+TEXT: ใช้อุปกรณ์ของเพื่อนสแกนโค้ด
+
+RESOURCE ID: social_qr_scan_prompt
+TEXT: สแกนโค้ดของเพื่อน
+
 RESOURCE ID: soft_sfida_alert_pokemon_storage
 TEXT: ที่เก็บโปเกมอนเต็ม
 
@@ -1804,7 +1865,7 @@ RESOURCE ID: sr_safari_city_boston_2026_makegood_sun_header
 TEXT: City Safari: บอสตัน 2026 (วันที่ 2)
 
 RESOURCE ID: steel_poi_spin_plural
-TEXT: หมุนเสาโปเกสต็อปธีมประเภทโลหะ {0} แห่ง
+TEXT: หมุนเสาโปเกสต็อปธีมประเภทโลหะที่ไม่ซ้ำกัน {0} ครั้ง
 
 RESOURCE ID: steel_poi_spin_singular
 TEXT: หมุนเสาโปเกสต็อปธีมประเภทโลหะ
