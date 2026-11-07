@@ -209,6 +209,30 @@ TEXT: Scanner un code 2D de groupe
 RESOURCE ID: buddy_multiplayer_timeout_dialog_description
 TEXT: Le Groupe de copains actuel est fermé en raison d’un manque d’activité. Pour continuer, essaie à nouveau de scanner un code 2D de groupe.
 
+RESOURCE ID: city_manhole_486
+TEXT: Shibukawa
+
+RESOURCE ID: city_manhole_487
+TEXT: Geisei
+
+RESOURCE ID: city_manhole_488
+TEXT: Sakawa
+
+RESOURCE ID: city_manhole_489
+TEXT: Tosa
+
+RESOURCE ID: city_manhole_490
+TEXT: Naganohara
+
+RESOURCE ID: city_manhole_491
+TEXT: Numata
+
+RESOURCE ID: city_manhole_492
+TEXT: Shimanto
+
+RESOURCE ID: city_manhole_493
+TEXT: Ino
+
 RESOURCE ID: combat_matchmaking_invalid_qr
 TEXT: Code 2D non valide.
 
@@ -757,10 +781,10 @@ TEXT: Si les PC d’un Pokémon méga-évolué dépassent les limites de certain
 Les Pokémon ayant atteint le Super Niveau Max ne bénéficieront pas du bonus de PC fortement augmentés en Ligue Master.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-11-06T00:56:32.081142+00:00 for fr-FR
-at SHA c36620063aca
-Pipeline 4080589, job 60204301
-Patch from: 0.437.0-SHA-2396e31c-RC3, 0.435.98-SHA-b3319c4b-RC1
+TEXT: Built at 2026-11-07T00:39:18.752246+00:00 for fr-FR
+at SHA 25bcca1ef84
+Pipeline 4083835, job 60265410
+Patch from: 0.437.0-SHA-17709004-RC5, 0.435.98-SHA-b3319c4b-RC1
 
 RESOURCE ID: minior_shower_tr_name
 TEXT: Étude ponctuelle Pluie de Météno
@@ -1303,6 +1327,9 @@ TEXT: Les Cellules de Zygarde n’apparaissent pas forcément sur toutes les Rou
 RESOURCE ID: revert_pokemon_to_its_primal_form_to_use_this_party
 TEXT: Fais revenir {0} à sa forme Primo pour utiliser cette équipe.
 
+RESOURCE ID: sa_registration_url
+TEXT: https://sso.scopelyexplore.kidswebservices.com/fr/register
+
 RESOURCE ID: safari_city_boston_makegood_tr_dialog_00_00
 TEXT: Salut, %PLAYERNAME% ! Prépare-toi à explorer Boston !
 
@@ -1365,13 +1392,23 @@ RESOURCE ID: season_pass_premium_track_title_halloween2026
 TEXT: Passe GO deluxe : Halloween 2026
 
 RESOURCE ID: select_a_paid_gift
-TEXT: Select a paid gift to send to your friend
+TEXT: Choisis un Cadeau payant à envoyer à ton ami
 
 RESOURCE ID: sending_paid_gift_to
-TEXT: You are sending this paid gift to:
+TEXT: Tu envoies ce Cadeau payant à :
 
 RESOURCE ID: shop_gift_confirm_purchase_warning_description
 TEXT: Tu peux envoyer 20 Cadeaux payants au total par jour. Ce Cadeau ne peut pas être utilisé par une autre personne ou remboursé.
+
+RESOURCE ID: shop_gift_friend_ineligible_description_temp
+TEXT: Tu ne peux pas envoyer un Cadeau payant si le bénéficiaire :
+• possède déjà le ticket ou le Passe GO deluxe
+• a atteint la limite concernant cet objet
+• possède une Étude en cours ou une Étude terminée qui l’empêche de recevoir le ticket
+• n’a pas atteint le Niveau d’amitié requis
+• a désactivé les Cadeaux payants
+• est inéligible à cause de restrictions
+• utilise une monnaie différente ; l’envoi de Cadeaux payants dans une monnaie différente n’est pas pris en charge
 
 RESOURCE ID: sku.name.web-gowa-2024-box-4
 TEXT: Boîte Boost Terres Sauvages GO
@@ -1509,6 +1546,15 @@ TEXT: <b>Donne accès aux bonus suivants :</b>
 • 5 000 Poussières Étoiles supplémentaires pour chaque Super Méga-Raid remporté
 • 5 000 PX supplémentaires pour chaque Super Méga-Raid remporté
 
+RESOURCE ID: th_poke_center_bangkok_bonus_0
+TEXT: Receive themed stickers when you spin PokéStops in Thailand
+
+RESOURCE ID: th_poke_center_bangkok_title
+TEXT: Pokémon Center BANGKOK Opens!
+
+RESOURCE ID: th_poke_center_bangkok_tv_desc
+TEXT: The Pokémon Center in Bangkok is now open! Timed Research offers rewards and stickers, with more stickers available from PokéStop spins. Visit the blog for details.
+
 RESOURCE ID: three_additional_candy_xl_max_battle_bonus
 TEXT: Trois Bonbons L supplémentaires pour chaque Combat Dynamax remporté
 
@@ -1577,6 +1623,24 @@ TEXT: Poursuite sauvage – Acier
 
 RESOURCE ID: tr_gowa2026_power_up_title
 TEXT: Terres Sauvages GO : Mackogneur Gigamax à recharger
+
+RESOURCE ID: tr_poke_center_bgk_2026
+TEXT: Pokémon Center BANGKOK Opens! Timed Research
+
+RESOURCE ID: tr_poke_center_bgk_2026_id_1_header
+TEXT: Pokémon Center BANGKOK Opens! Timed Research (1/5)
+
+RESOURCE ID: tr_poke_center_bgk_2026_id_2_header
+TEXT: Pokémon Center BANGKOK Opens! Timed Research (2/5)
+
+RESOURCE ID: tr_poke_center_bgk_2026_id_3_header
+TEXT: Pokémon Center BANGKOK Opens! Timed Research (3/5)
+
+RESOURCE ID: tr_poke_center_bgk_2026_id_4_header
+TEXT: Pokémon Center BANGKOK Opens! Timed Research (4/5)
+
+RESOURCE ID: tr_poke_center_bgk_2026_id_5_header
+TEXT: Pokémon Center BANGKOK Opens! Timed Research (5/5)
 
 RESOURCE ID: tutorial_route_bonus_2
 TEXT: Certains Pokémon peuvent apparaître plus souvent dans la nature sur les Routes
