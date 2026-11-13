@@ -22,6 +22,9 @@ TEXT: pantalones de pastelero
 RESOURCE ID: avatar_pose_gowa2026
 TEXT: Pose del Área Silvestre de GO 2026
 
+RESOURCE ID: avatar_pose_starballoon
+TEXT: Pose de Globo Estrella
+
 RESOURCE ID: avatar_shirt_gothiclolitashorts
 TEXT: conjunto de pantalones cortos góticos
 
@@ -44,11 +47,29 @@ RESOURCE ID: avatar_shirt_nightout
 TEXT: camiseta de béisbol de
 Noche Electrizante Pokémon
 
+RESOURCE ID: avatar_shoes_crocs-gengar
+TEXT: Pokémon Gengar Classic Clog
+
+RESOURCE ID: avatar_shoes_crocs-jigglypuff
+TEXT: Pokémon Jigglypuff Classic Platform Clog
+
+RESOURCE ID: avatar_shoes_crocs-pikachu
+TEXT: Pokémon Pikachu Classic Clog
+
 RESOURCE ID: avatar_shoes_gothiclolita
 TEXT: botas góticas
 
 RESOURCE ID: avatar_socks_gothiclolita
 TEXT: calcetines góticos
+
+RESOURCE ID: batch_transfer_unique_language_tag_pokemon
+TEXT: {0} Pokémon con una etiqueta de idioma
+
+RESOURCE ID: batch_transfer_unique_language_tag_pokemon_plural
+TEXT: {0} con una etiqueta de idioma
+
+RESOURCE ID: batch_transfer_unique_language_tag_pokemon_singular
+TEXT: {0} con una etiqueta de idioma
 
 RESOURCE ID: bonus_cd_move_pawniard
 TEXT: ¡Haz evolucionar a Bisharp para conseguir un Kingambit que conozca el ataque cargado Genufendiente!
@@ -125,6 +146,9 @@ TEXT: Descartar
 RESOURCE ID: details_link_key_megachandelureraidday
 TEXT: Para obtener más información, visita el <a href="https://pokemongo.com/news/chandelure-super-mega-raid-day-2026">sitio web</a>.
 
+RESOURCE ID: details_link_key_megaclefableraidday
+TEXT: Para obtener más información, visita el <a href="https://pokemongo.com/news/clefable-super-mega-raid-day-2026">sitio web</a>.
+
 RESOURCE ID: dragon_poi_spin_plural
 TEXT: Da vueltas a {0} Poképaradas diferentes con temática de tipo Dragón
 
@@ -175,6 +199,9 @@ TEXT: ¡Compra el Pase de GO deluxe: Caminos Dinamax para desbloquear recompensa
 RESOURCE ID: event_pass_premium_track_title_gowa_leadout_2026
 TEXT: Pase de GO deluxe: Caminos Dinamax
 
+RESOURCE ID: filter_key_language_tag
+TEXT: etiquetadeidioma
+
 RESOURCE ID: filter_key_profile_background
 TEXT: fondodeperfil
 
@@ -182,13 +209,16 @@ RESOURCE ID: five_additional_candy_max_battle_bonus
 TEXT: Cinco Caramelos adicionales por completar Combates Max
 
 RESOURCE ID: flip_to_dim_settings_description
-TEXT: Dims the screen when you hold your phone upside down to help save battery.
+TEXT: Atenúa la luz de la pantalla cuando tienes el teléfono bocabajo para ayudarte a ahorrar batería.
 
 RESOURCE ID: general1.ticket_cd_pawniard26_title
 TEXT: Entrada: Día de la Comunidad de Pawniard
 
 RESOURCE ID: general2.ticket.5_megachandelureraidday
 TEXT: Entrada: Día de supermegaincursiones de Chandelure
+
+RESOURCE ID: general2.ticket.5_megaclefableraidday
+TEXT: Entrada: Día de supermegaincursiones de Clefable
 
 RESOURCE ID: gowa2026_leadup_collection_challenge
 TEXT: Desafío de colección de Hacia lo silvestre
@@ -448,6 +478,27 @@ TEXT: Alucinante, ¡¿verdad?! Pero bueno, es momento de seguir, %PLAYERNAME%. �
 RESOURCE ID: gowa_2026_leadout_event_title
 TEXT: Caminos Dinamax
 
+RESOURCE ID: gowa_2026_leadout_event_title_kindling
+TEXT: Caminos Dinamax
+
+RESOURCE ID: gowa_2026_leadout_max_candy_bonus
+TEXT: Cinco Caramelos adicionales y tres Caramelos ++ adicionales por completar Combates Max
+
+RESOURCE ID: gowa_2026_leadout_mp_cap_2400
+TEXT: Acumula hasta 2400 Partículas Max
+
+RESOURCE ID: gowa_2026_leadout_power_spot_mp_8x
+TEXT: Ocho veces más Partículas Max al visitar nodos energéticos
+
+RESOURCE ID: gowa_2026_leadout_premium_banner_bottom
+TEXT: Más encuentros con Pokémon Dinamax y Caramelos Eternatus ++
+
+RESOURCE ID: gowa_2026_leadout_refresh_30_min
+TEXT: Los Combates Max se refrescan cada 30 minutos
+
+RESOURCE ID: gowa_2026_leadout_upgrade_header
+TEXT: Hazte con la mejora al Pase de GO deluxe: Caminos Dinamax
+
 RESOURCE ID: great_league_championship_series_2026
 TEXT: Copa Serie de Campeonatos de GO 2026
 
@@ -473,22 +524,22 @@ RESOURCE ID: halloween_spooky_surprise_tappable_today_view
 TEXT: ¡Están apareciendo sorpresas terroríficas en el mapa!
 
 RESOURCE ID: high_refresh_rate_prompt_body
-TEXT: Get smoother visuals and more responsive gameplay, which may affect battery life. You can change this anytime in Settings.
+TEXT: Consigue efectos visuales más fluidos y un mejor rendimiento, lo que puede afectar a la duración de la batería. Podrás cambiarlo en cualquier momento en Opciones.
 
 RESOURCE ID: high_refresh_rate_prompt_dismiss_button
-TEXT: MAYBE LATER
+TEXT: MÁS TARDE
 
 RESOURCE ID: high_refresh_rate_prompt_enable_button
-TEXT: TURN ON
+TEXT: ACTIVAR
 
 RESOURCE ID: high_refresh_rate_prompt_title
-TEXT: Update Your Refresh Rate
+TEXT: Modificar tu frecuencia de actualización
 
 RESOURCE ID: high_refresh_rate_settings_description
-TEXT: Get smoother visuals and more responsive gameplay. This may affect battery life.
+TEXT: Obtén efectos visuales fluidos y un mejor rendimiento. Puede afectar a la duración de la batería.
 
 RESOURCE ID: high_refresh_rate_settings_title
-TEXT: Improve Visuals and Animations
+TEXT: Mejora los efectos visuales y animaciones
 
 RESOURCE ID: in.fol.2026.bundle_title
 TEXT: Caja del Festival de las Luces
@@ -547,8 +598,14 @@ TEXT: Incubadoras
 RESOURCE ID: item_event_ticket_gray_desc_megachandelureraidday
 TEXT: Una entrada para acceder a bonus especiales el sábado 31 de octubre de 2026 de 14:00 a 17:00 en tu hora local, estés donde estés.
 
+RESOURCE ID: item_event_ticket_gray_desc_megaclefableraidday
+TEXT: Una entrada para acceder a bonus especiales el sábado 28 de noviembre de 2026 de 14:00 a 17:00 en tu hora local, estés donde estés.
+
 RESOURCE ID: item_event_ticket_gray_details_megachandelureraidday
 TEXT: Esta entrada se activará automáticamente el 31 de octubre para darte acceso a los bonus especiales, estés donde estés.
+
+RESOURCE ID: item_event_ticket_gray_details_megaclefableraidday
+TEXT: Esta entrada se activará automáticamente el 28 de noviembre para darte acceso a los bonus especiales, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_desc_cd_pawniard26
 TEXT: Una entrada para acceder a la investigación especial del Día de la Comunidad de Pawniard, "Érase una vez un peón", desde el 21 de noviembre a las 14:00 en tu hora local, estés donde estés.
@@ -583,6 +640,15 @@ TEXT: Desafío global del Día de supermegaincursiones: Chandelure
 RESOURCE ID: mega_chandelure_raid_day_event_name
 TEXT: Día de supermegaincursiones: Chandelure
 
+RESOURCE ID: mega_clefable_global_challenge
+TEXT: Desafío global del Día de supermegaincursiones: Clefable
+
+RESOURCE ID: mega_clefable_raid_day_event_name
+TEXT: Día de supermegaincursiones: Clefable
+
+RESOURCE ID: mega_clefable_raid_day_timed_research
+TEXT: Investigación temporal del Día de supermegaincursiones: Clefable
+
 RESOURCE ID: mega_evolve_pokemon_to_use_in_this_party
 TEXT: Haz megaevolucionar a {0} para usar este equipo.
 
@@ -592,13 +658,19 @@ TEXT: Si los PC de un Pokémon megaevolucionado superan el límite de determinad
 Los Pokémon en el nivel supermáximo no contarán con el bonus de PC muy mejorados en la Liga Master Ball.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-11-08T23:43:43.146817+00:00 for es-ES
-at SHA d7b5f22335d
-Pipeline 4086232, job 60300249
-Patch from: 0.437.0-SHA-17709004-RC5, 0.435.2-SHA-64391288-RC1, 0.439.0-SHA-310604ba-RC1
+TEXT: Built at 2026-11-13T02:26:46.307191+00:00 for es-ES
+at SHA 75857a8ba20
+Pipeline 4097987, job 60494265
+Patch from: 0.437.0-SHA-2396e31c-RC3, 0.435.2-SHA-18494160-RC2, 0.439.0-SHA-3df493e8-RC2
 
 RESOURCE ID: minior_shower_tr_name
 TEXT: Investigación temporal: Lluvia de Minior
+
+RESOURCE ID: moonblast_base_increased_level_bonus
+TEXT: El nivel de Mega-Clefable se verá incrementado del 30 de noviembre a las 21:00 al 13 de diciembre de 2026 a las 21:00 (hora peninsular).
+
+RESOURCE ID: moonblast_base_power_boost_bonus
+TEXT: Fuerza Lunar+ verá incrementado su poder del 30 de noviembre a las 21:00 al 13 de diciembre de 2026 a las 21:00 (hora peninsular).
 
 RESOURCE ID: move_name_0615
 TEXT: Genufendiente
@@ -669,6 +741,60 @@ TEXT: 5 encuentros sorpresa con Pawniard al usar Instantánea de GO
 RESOURCE ID: poi_contrib_report_reason_ai_generated_or_doctored_photo
 TEXT: Foto generada o editada con IA
 
+RESOURCE ID: pokemon_language_tag_info_transfer_to_professor_confirmation
+TEXT: ¿Seguro que quieres transferir este Pokémon que tiene una etiqueta de idioma?
+
+RESOURCE ID: pokemon_name_chip_entry_format
+TEXT: {0}: {1}
+
+RESOURCE ID: pokemon_name_chip_language_brazilianportuguese
+TEXT: Portugués (Brasil)
+
+RESOURCE ID: pokemon_name_chip_language_chinesetraditional
+TEXT: Chino (tradicional)
+
+RESOURCE ID: pokemon_name_chip_language_english
+TEXT: Inglés
+
+RESOURCE ID: pokemon_name_chip_language_french
+TEXT: Francés
+
+RESOURCE ID: pokemon_name_chip_language_german
+TEXT: Alemán
+
+RESOURCE ID: pokemon_name_chip_language_hindi
+TEXT: Hindi
+
+RESOURCE ID: pokemon_name_chip_language_indonesian
+TEXT: Indonesio
+
+RESOURCE ID: pokemon_name_chip_language_italian
+TEXT: Italiano
+
+RESOURCE ID: pokemon_name_chip_language_japanese
+TEXT: Japonés
+
+RESOURCE ID: pokemon_name_chip_language_korean
+TEXT: Coreano
+
+RESOURCE ID: pokemon_name_chip_language_russian
+TEXT: Ruso
+
+RESOURCE ID: pokemon_name_chip_language_spanish
+TEXT: Español (Europa)
+
+RESOURCE ID: pokemon_name_chip_language_spanishlatinamerican
+TEXT: Español (Latinoamérica)
+
+RESOURCE ID: pokemon_name_chip_language_thai
+TEXT: Tailandés
+
+RESOURCE ID: pokemon_name_chip_language_turkish
+TEXT: Turco
+
+RESOURCE ID: pokemon_name_chip_modal_title
+TEXT: ¿Sabías que los Pokémon pueden tener un nombre diferente en otros idiomas?
+
 RESOURCE ID: pokestop_button_read_qr_code
 TEXT: LEER CÓDIGO 2D
 
@@ -715,6 +841,183 @@ TEXT: La Central de Entrenadores Pokémon no está disponible en estos momentos.
 RESOURCE ID: ptc_login_title_out
 TEXT: Central de Entrenadores Pokémon
 
+RESOURCE ID: ptr_2026_bonus_name_chips
+TEXT: Los Pokémon capturados en las investigaciones temporales tendrán etiquetas de idioma con sus nombres en el idioma que elijas
+
+RESOURCE ID: ptr_2026_bonus_special_background
+TEXT: Encuentra a Pikachu, Chatot y más Pokémon con fondos especiales en las investigaciones temporales
+
+RESOURCE ID: ptr_2026_branch_de
+TEXT: Alemán
+
+RESOURCE ID: ptr_2026_branch_de_description
+TEXT: Elige alemán para tu desafío de idioma.
+
+RESOURCE ID: ptr_2026_branch_en
+TEXT: Inglés
+
+RESOURCE ID: ptr_2026_branch_en_description
+TEXT: Elige inglés para tu desafío de idioma.
+
+RESOURCE ID: ptr_2026_branch_es
+TEXT: Español (Europa)
+
+RESOURCE ID: ptr_2026_branch_es_description
+TEXT: Elige español (europeo) para tu desafío de idioma.
+
+RESOURCE ID: ptr_2026_branch_es_latam
+TEXT: Español (Latinoamérica)
+
+RESOURCE ID: ptr_2026_branch_es_latam_description
+TEXT: Elige español (latinoamericano) para tu desafío de idioma.
+
+RESOURCE ID: ptr_2026_branch_fr
+TEXT: Francés
+
+RESOURCE ID: ptr_2026_branch_fr_description
+TEXT: Elige francés para tu desafío de idioma.
+
+RESOURCE ID: ptr_2026_branch_hi
+TEXT: Hindi
+
+RESOURCE ID: ptr_2026_branch_hi_description
+TEXT: Elige hindi para tu desafío de idioma.
+
+RESOURCE ID: ptr_2026_branch_id
+TEXT: Indonesio
+
+RESOURCE ID: ptr_2026_branch_id_description
+TEXT: Elige indonesio para tu desafío de idioma.
+
+RESOURCE ID: ptr_2026_branch_it
+TEXT: Italiano
+
+RESOURCE ID: ptr_2026_branch_it_description
+TEXT: Elige italiano para tu desafío de idioma.
+
+RESOURCE ID: ptr_2026_branch_ja
+TEXT: Japonés
+
+RESOURCE ID: ptr_2026_branch_ja_description
+TEXT: Elige japonés para tu desafío de idioma.
+
+RESOURCE ID: ptr_2026_branch_ko
+TEXT: Coreano
+
+RESOURCE ID: ptr_2026_branch_ko_description
+TEXT: Elige coreano para tu desafío de idioma.
+
+RESOURCE ID: ptr_2026_branch_pt_br
+TEXT: Portugués (Brasil)
+
+RESOURCE ID: ptr_2026_branch_pt_br_description
+TEXT: Elige portugués (brasileño) para tu desafío de idioma.
+
+RESOURCE ID: ptr_2026_branch_ru
+TEXT: Ruso
+
+RESOURCE ID: ptr_2026_branch_ru_description
+TEXT: Elige ruso para tu desafío de idioma.
+
+RESOURCE ID: ptr_2026_branch_th
+TEXT: Tailandés
+
+RESOURCE ID: ptr_2026_branch_th_description
+TEXT: Elige tailandés para tu desafío de idioma.
+
+RESOURCE ID: ptr_2026_branch_tr
+TEXT: Turco
+
+RESOURCE ID: ptr_2026_branch_tr_description
+TEXT: Elige turco para tu desafío de idioma.
+
+RESOURCE ID: ptr_2026_branch_zh_tw
+TEXT: Chino (tradicional)
+
+RESOURCE ID: ptr_2026_branch_zh_tw_description
+TEXT: Elige chino (tradicional) para tu desafío de idioma.
+
+RESOURCE ID: ptr_2026_event_name
+TEXT: Captura un nuevo idioma con Duolingo
+
+RESOURCE ID: ptr_2026_section_1_title
+TEXT: Investigación temporal de Duolingo
+
+RESOURCE ID: ptr_2026_section_2_title
+TEXT: Investigación temporal de Duolingo (1/4): Captura tus primeras palabras
+
+RESOURCE ID: ptr_2026_section_3_title
+TEXT: Investigación temporal de Duolingo (2/4): Explora el mundo
+
+RESOURCE ID: ptr_2026_section_4_title
+TEXT: Investigación temporal de Duolingo (3/4): Aprende y crece
+
+RESOURCE ID: ptr_2026_section_5_title
+TEXT: Investigación temporal de Duolingo (4/4): Hora de repasar
+
+RESOURCE ID: ptr_2026_section_6_title
+TEXT: Investigación temporal de Duolingo: ¡Sigue así!
+
+RESOURCE ID: ptr_2026_willow_01_01
+TEXT: ¡Hola, %PLAYERNAME%!
+
+RESOURCE ID: ptr_2026_willow_01_02
+TEXT: Los Entrenadores del mundo hablan diferentes idiomas, ¡pero la emoción de descubrir un Pokémon es algo universal!
+
+RESOURCE ID: ptr_2026_willow_01_03
+TEXT: Aprender cómo se comunican los Entrenadores en otros idiomas cuando hacen un descubrimiento puede ayudarnos a unir nuestras fuerzas allá donde nos lleve la investigación.
+
+RESOURCE ID: ptr_2026_willow_01_04
+TEXT: Dime qué idioma te gustaría practicar. ¡Y no te preocupes! Te voy a dar algunos consejos muy prácticos.
+
+RESOURCE ID: ptr_2026_willow_01_05
+TEXT: Con tu ingenio y curiosidad, ¡estoy seguro de que acabarás hasta sorprendiéndote!
+
+RESOURCE ID: ptr_2026_willow_02_01
+TEXT: Empecemos con algunas habilidades esenciales que todo Entrenador debería aprender.
+
+RESOURCE ID: ptr_2026_willow_02_02
+TEXT: Comenzaremos buscando Pokémon por los alrededores. No quites ojo a números que te resulten familiares, palabras que se repitan y patrones en estas misiones.
+
+RESOURCE ID: ptr_2026_willow_02_03
+TEXT: Sigue tu instinto de Entrenador: puede que sepas más de lo que piensas.
+
+RESOURCE ID: ptr_2026_willow_02_04
+TEXT: Y, entre tú y yo... ¡ten siempre una Poké Ball a mano y haz que cada lanzamiento cuente!
+
+RESOURCE ID: ptr_2026_willow_03_01
+TEXT: ¡Gran trabajo! ¡Cuántos Pokémon has capturado, %PLAYERNAME%!
+
+RESOURCE ID: ptr_2026_willow_03_02
+TEXT: Voy a necesitar tu ayuda ahí fuera para el siguiente paso, ¡no es algo que pueda hacerse en un laboratorio!
+
+RESOURCE ID: ptr_2026_willow_03_03
+TEXT: ¿Por qué no sales a echar un vistazo a algunas de las Poképaradas y Gimnasios de la zona?
+
+RESOURCE ID: ptr_2026_willow_03_04
+TEXT: El camino es más importante que el destino, así que no bajes la guardia con los nuevos descubrimientos que encuentres en tu travesía.
+
+RESOURCE ID: ptr_2026_willow_04_01
+TEXT: ¡Genial, %PLAYERNAME%! ¡Has explorado muchísimo de lo que hay alrededor!
+
+RESOURCE ID: ptr_2026_willow_04_02
+TEXT: Ahora echemos un vistazo al crecimiento de los Pokémon. Pueden volverse más fuertes cuando entrenan, ¡y la evolución no es algo que nos sorprenda a estas alturas!
+
+RESOURCE ID: ptr_2026_willow_04_03
+TEXT: Y si tienes un Huevo, llévalo contigo en tu aventura. ¡Puede que cuando eclosione te lleve a encontrar un nuevo descubrimiento!
+
+RESOURCE ID: ptr_2026_willow_04_04
+TEXT: Esas son todas las pistas que puedo darte por ahora. ¡Veamos cuánto podéis desarrollaros juntos tú y tu Pokémon!
+
+RESOURCE ID: ptr_2026_willow_05_01
+TEXT: ¡Alucinante, %PLAYERNAME%! Es una maravilla ver cómo tu cuidado y trabajo duro acaban dando sus frutos, ¿a que sí?
+
+RESOURCE ID: ptr_2026_willow_05_02
+TEXT: Llevemos todo lo que hemos aprendido a la práctica. Las tareas finales deberían resultarte familiares.
+
+RESOURCE ID: ptr_2026_willow_05_03
+TEXT: ¡Confía en lo que has aprendido, %PLAYERNAME%!
+
 RESOURCE ID: qr_code_title
 TEXT: Escanea el código 2D
 
@@ -733,11 +1036,419 @@ TEXT: Captura un Sliggoo de Hisui
 RESOURCE ID: quest_complete_raids_or_max_battles
 TEXT: Completa {0} incursiones o Combates Max
 
+RESOURCE ID: quest_defeat_fairy_flying_type_raid_singular
+TEXT: Derrota a un jefe de incursión de tipo Volador o de tipo Hada
+
 RESOURCE ID: quest_defeat_ghost_fire_type_raid_singular
 TEXT: Derrota a un jefe de incursión de tipo Fuego o Fantasma
 
 RESOURCE ID: quest_pawniard_catch_b
 TEXT: Captura {0} Pawniard
+
+RESOURCE ID: quest_ptr_2026_catch_de_plural
+TEXT: Fange {0} Pokémon.
+
+RESOURCE ID: quest_ptr_2026_catch_de_singular
+TEXT: Fange ein Pokémon.
+
+RESOURCE ID: quest_ptr_2026_catch_en_plural
+TEXT: Catch {0} Pokémon
+
+RESOURCE ID: quest_ptr_2026_catch_en_singular
+TEXT: Catch a Pokémon
+
+RESOURCE ID: quest_ptr_2026_catch_es_latam_plural
+TEXT: Atrapa {0} Pokémon
+
+RESOURCE ID: quest_ptr_2026_catch_es_latam_singular
+TEXT: Atrapa un Pokémon
+
+RESOURCE ID: quest_ptr_2026_catch_es_plural
+TEXT: Captura {0} Pokémon
+
+RESOURCE ID: quest_ptr_2026_catch_es_singular
+TEXT: Captura 1 Pokémon
+
+RESOURCE ID: quest_ptr_2026_catch_fr_plural
+TEXT: Attrape {0} Pokémon
+
+RESOURCE ID: quest_ptr_2026_catch_fr_singular
+TEXT: Attrape un Pokémon
+
+RESOURCE ID: quest_ptr_2026_catch_hi_plural
+TEXT: {0} पोकेमॉन पकड़ें
+
+RESOURCE ID: quest_ptr_2026_catch_hi_singular
+TEXT: पोकेमॉन पकड़ें
+
+RESOURCE ID: quest_ptr_2026_catch_id_plural
+TEXT: Tangkap {0} Pokémon
+
+RESOURCE ID: quest_ptr_2026_catch_id_singular
+TEXT: Tangkap Pokémon
+
+RESOURCE ID: quest_ptr_2026_catch_it_plural
+TEXT: Cattura {0} Pokémon
+
+RESOURCE ID: quest_ptr_2026_catch_it_singular
+TEXT: Cattura un Pokémon
+
+RESOURCE ID: quest_ptr_2026_catch_ja_plural
+TEXT: ポケモンを{0}匹捕まえる
+
+RESOURCE ID: quest_ptr_2026_catch_ja_singular
+TEXT: ポケモンを1匹捕まえる
+
+RESOURCE ID: quest_ptr_2026_catch_ko_plural
+TEXT: 포켓몬 {0}마리를 잡는다
+
+RESOURCE ID: quest_ptr_2026_catch_ko_singular
+TEXT: 포켓몬 1마리를 잡는다
+
+RESOURCE ID: quest_ptr_2026_catch_pt_br_plural
+TEXT: Pegar {0} Pokémon.
+
+RESOURCE ID: quest_ptr_2026_catch_pt_br_singular
+TEXT: Pegar 1 Pokémon.
+
+RESOURCE ID: quest_ptr_2026_catch_ru_plural
+TEXT: Поймай Покемонов ×{0}
+
+RESOURCE ID: quest_ptr_2026_catch_ru_singular
+TEXT: Поймай Покемона
+
+RESOURCE ID: quest_ptr_2026_catch_th_plural
+TEXT: จับโปเกมอน {0} ตัว
+
+RESOURCE ID: quest_ptr_2026_catch_th_singular
+TEXT: จับโปเกมอน
+
+RESOURCE ID: quest_ptr_2026_catch_tr_plural
+TEXT: {0} Pokémon yakalayın
+
+RESOURCE ID: quest_ptr_2026_catch_tr_singular
+TEXT: Bir Pokémon yakalayın
+
+RESOURCE ID: quest_ptr_2026_catch_zh_tw_plural
+TEXT: 捕捉{0}隻寶可夢
+
+RESOURCE ID: quest_ptr_2026_catch_zh_tw_singular
+TEXT: 捕捉1隻寶可夢
+
+RESOURCE ID: quest_ptr_2026_evolve_de_plural
+TEXT: Entwickle {0} Pokémon.
+
+RESOURCE ID: quest_ptr_2026_evolve_en_plural
+TEXT: Evolve {0} Pokémon
+
+RESOURCE ID: quest_ptr_2026_evolve_es_latam_plural
+TEXT: Evoluciona {0} Pokémon
+
+RESOURCE ID: quest_ptr_2026_evolve_es_plural
+TEXT: Haz evolucionar {0} Pokémon
+
+RESOURCE ID: quest_ptr_2026_evolve_fr_plural
+TEXT: Fais évoluer {0} Pokémon
+
+RESOURCE ID: quest_ptr_2026_evolve_hi_plural
+TEXT: {0} पोकेमॉन को विकसित करें
+
+RESOURCE ID: quest_ptr_2026_evolve_id_plural
+TEXT: Evolusikan {0} Pokémon
+
+RESOURCE ID: quest_ptr_2026_evolve_it_plural
+TEXT: Fai evolvere {0} Pokémon
+
+RESOURCE ID: quest_ptr_2026_evolve_ja_plural
+TEXT: ポケモンを{0}匹進化させる
+
+RESOURCE ID: quest_ptr_2026_evolve_ko_plural
+TEXT: 포켓몬을 {0}마리 진화시킨다
+
+RESOURCE ID: quest_ptr_2026_evolve_pt_br_plural
+TEXT: Evoluir {0} Pokémon.
+
+RESOURCE ID: quest_ptr_2026_evolve_ru_plural
+TEXT: Эволюционируй Покемонов ×{0}
+
+RESOURCE ID: quest_ptr_2026_evolve_th_plural
+TEXT: วิวัฒนาการโปเกมอน {0} ตัว
+
+RESOURCE ID: quest_ptr_2026_evolve_tr_plural
+TEXT: {0} Pokémon evrimleştirin
+
+RESOURCE ID: quest_ptr_2026_evolve_zh_tw_plural
+TEXT: 讓{0}隻寶可夢進化
+
+RESOURCE ID: quest_ptr_2026_hatch_de_singular
+TEXT: Brüte ein Ei aus.
+
+RESOURCE ID: quest_ptr_2026_hatch_en_singular
+TEXT: Hatch an Egg
+
+RESOURCE ID: quest_ptr_2026_hatch_es_latam_singular
+TEXT: Eclosiona un Huevo
+
+RESOURCE ID: quest_ptr_2026_hatch_es_singular
+TEXT: Haz eclosionar 1 Huevo
+
+RESOURCE ID: quest_ptr_2026_hatch_fr_singular
+TEXT: Fais éclore un Œuf
+
+RESOURCE ID: quest_ptr_2026_hatch_hi_singular
+TEXT: 1 अंडा हैच करें
+
+RESOURCE ID: quest_ptr_2026_hatch_id_singular
+TEXT: Tetaskan Telur
+
+RESOURCE ID: quest_ptr_2026_hatch_it_singular
+TEXT: Fai schiudere un Uovo
+
+RESOURCE ID: quest_ptr_2026_hatch_ja_singular
+TEXT: タマゴを1個かえす
+
+RESOURCE ID: quest_ptr_2026_hatch_ko_singular
+TEXT: 알을 1개 부화한다
+
+RESOURCE ID: quest_ptr_2026_hatch_pt_br_singular
+TEXT: Chocar 1 Ovo.
+
+RESOURCE ID: quest_ptr_2026_hatch_ru_singular
+TEXT: Выноси 1 яйцо
+
+RESOURCE ID: quest_ptr_2026_hatch_th_singular
+TEXT: ฟักไข่ 1 ใบ
+
+RESOURCE ID: quest_ptr_2026_hatch_tr_singular
+TEXT: Bir yumurta çatlatın
+
+RESOURCE ID: quest_ptr_2026_hatch_zh_tw_singular
+TEXT: 孵化1顆蛋
+
+RESOURCE ID: quest_ptr_2026_nice_de_plural
+TEXT: Lande {0} gute Würfe.
+
+RESOURCE ID: quest_ptr_2026_nice_en_plural
+TEXT: Make {0} Nice Throws
+
+RESOURCE ID: quest_ptr_2026_nice_es_latam_plural
+TEXT: Haz {0} lanzamientos buenos
+
+RESOURCE ID: quest_ptr_2026_nice_es_plural
+TEXT: Haz {0} buenos lanzamientos
+
+RESOURCE ID: quest_ptr_2026_nice_fr_plural
+TEXT: Fais {0} Jolis lancers
+
+RESOURCE ID: quest_ptr_2026_nice_hi_plural
+TEXT: {0} बढ़िया थ्रो करें
+
+RESOURCE ID: quest_ptr_2026_nice_id_plural
+TEXT: Lakukan {0} Nice Throw
+
+RESOURCE ID: quest_ptr_2026_nice_it_plural
+TEXT: Effettua {0} bei tiri
+
+RESOURCE ID: quest_ptr_2026_nice_ja_plural
+TEXT: ナイススローを{0}回投げる
+
+RESOURCE ID: quest_ptr_2026_nice_ko_plural
+TEXT: Nice가 나오게 {0}회 던진다
+
+RESOURCE ID: quest_ptr_2026_nice_pt_br_plural
+TEXT: Fazer {0} Boas Jogadas.
+
+RESOURCE ID: quest_ptr_2026_nice_ru_plural
+TEXT: Сделай Хорошие Броски ×{0}
+
+RESOURCE ID: quest_ptr_2026_nice_th_plural
+TEXT: ทำการขว้างได้ดี {0} ครั้ง
+
+RESOURCE ID: quest_ptr_2026_nice_tr_plural
+TEXT: {0} iyi atış yapın
+
+RESOURCE ID: quest_ptr_2026_nice_zh_tw_plural
+TEXT: 投出{0}次Nice
+
+RESOURCE ID: quest_ptr_2026_power_de_plural
+TEXT: Verwende {0} Power-ups bei Pokémon.
+
+RESOURCE ID: quest_ptr_2026_power_en_plural
+TEXT: Power up Pokémon {0} times
+
+RESOURCE ID: quest_ptr_2026_power_es_latam_plural
+TEXT: Da más poder a un Pokémon {0} veces
+
+RESOURCE ID: quest_ptr_2026_power_es_plural
+TEXT: Da más poder a un Pokémon {0} veces
+
+RESOURCE ID: quest_ptr_2026_power_fr_plural
+TEXT: Recharge un Pokémon {0} fois
+
+RESOURCE ID: quest_ptr_2026_power_hi_plural
+TEXT: पोकेमॉन को {0} बार पावर-अप करें
+
+RESOURCE ID: quest_ptr_2026_power_id_plural
+TEXT: Perkuat Pokémon {0} kali
+
+RESOURCE ID: quest_ptr_2026_power_it_plural
+TEXT: Potenzia dei Pokémon {0} volte
+
+RESOURCE ID: quest_ptr_2026_power_ja_plural
+TEXT: ポケモンを{0}回強化する
+
+RESOURCE ID: quest_ptr_2026_power_ko_plural
+TEXT: 포켓몬을 {0}회 강화한다
+
+RESOURCE ID: quest_ptr_2026_power_pt_br_plural
+TEXT: Fortalecer seus Pokémon {0} vezes.
+
+RESOURCE ID: quest_ptr_2026_power_ru_plural
+TEXT: Усиль Покемонов ×{0}
+
+RESOURCE ID: quest_ptr_2026_power_th_plural
+TEXT: พาวเวอร์อัปโปเกมอน {0} ครั้ง
+
+RESOURCE ID: quest_ptr_2026_power_tr_plural
+TEXT: Pokémon’ları {0} kez güçlendirin
+
+RESOURCE ID: quest_ptr_2026_power_zh_tw_plural
+TEXT: 強化寶可夢{0}次
+
+RESOURCE ID: quest_ptr_2026_spin_de_plural
+TEXT: Drehe {0} PokéStops oder Arenen.
+
+RESOURCE ID: quest_ptr_2026_spin_de_singular
+TEXT: Drehe einen PokéStop oder eine Arena.
+
+RESOURCE ID: quest_ptr_2026_spin_en_plural
+TEXT: Spin {0} PokéStops or Gyms
+
+RESOURCE ID: quest_ptr_2026_spin_en_singular
+TEXT: Spin a PokéStop or Gym
+
+RESOURCE ID: quest_ptr_2026_spin_es_latam_plural
+TEXT: Gira {0} fotodiscos en Poképaradas o Gimnasios
+
+RESOURCE ID: quest_ptr_2026_spin_es_latam_singular
+TEXT: Gira 1 fotodisco en una Poképarada o Gimnasio
+
+RESOURCE ID: quest_ptr_2026_spin_es_plural
+TEXT: Da vueltas a {0} fotodiscos en Poképaradas o Gimnasios
+
+RESOURCE ID: quest_ptr_2026_spin_es_singular
+TEXT: Da vueltas a 1 fotodisco en una Poképarada o Gimnasio
+
+RESOURCE ID: quest_ptr_2026_spin_fr_plural
+TEXT: Fais tourner {0} PokéStops ou Arènes
+
+RESOURCE ID: quest_ptr_2026_spin_fr_singular
+TEXT: Fais tourner un PokéStop ou une Arène
+
+RESOURCE ID: quest_ptr_2026_spin_hi_plural
+TEXT: {0} पोकेस्टॉप या जिम को स्पिन करें
+
+RESOURCE ID: quest_ptr_2026_spin_hi_singular
+TEXT: 1 पोकेस्टॉप या जिम को स्पिन करें
+
+RESOURCE ID: quest_ptr_2026_spin_id_plural
+TEXT: Putar {0} PokéStop atau Gym
+
+RESOURCE ID: quest_ptr_2026_spin_id_singular
+TEXT: Putar PokéStop atau Gym
+
+RESOURCE ID: quest_ptr_2026_spin_it_plural
+TEXT: Fai girare {0} dischi di Pokéstop o Palestre
+
+RESOURCE ID: quest_ptr_2026_spin_it_singular
+TEXT: Fai girare un disco del Pokéstop o della Palestra
+
+RESOURCE ID: quest_ptr_2026_spin_ja_plural
+TEXT: ポケストップ・ジム{0}個を回す
+
+RESOURCE ID: quest_ptr_2026_spin_ja_singular
+TEXT: ポケストップ・ジム1個を回す
+
+RESOURCE ID: quest_ptr_2026_spin_ko_plural
+TEXT: 포켓스톱 또는 체육관을 {0}개 돌린다
+
+RESOURCE ID: quest_ptr_2026_spin_ko_singular
+TEXT: 포켓스톱 또는 체육관을 1개 돌린다
+
+RESOURCE ID: quest_ptr_2026_spin_pt_br_plural
+TEXT: Girar {0} Poképaradas ou Ginásios.
+
+RESOURCE ID: quest_ptr_2026_spin_pt_br_singular
+TEXT: Girar 1 Poképarada ou Ginásio.
+
+RESOURCE ID: quest_ptr_2026_spin_ru_plural
+TEXT: Покрути Покестопы или Гимы ×{0}
+
+RESOURCE ID: quest_ptr_2026_spin_ru_singular
+TEXT: Покрути 1 Покестоп или Гим
+
+RESOURCE ID: quest_ptr_2026_spin_th_plural
+TEXT: หมุนเสาโปเกสต็อปหรือยิม {0} ครั้ง
+
+RESOURCE ID: quest_ptr_2026_spin_th_singular
+TEXT: หมุนเสาโปเกสต็อปหรือยิม
+
+RESOURCE ID: quest_ptr_2026_spin_tr_plural
+TEXT: {0} PokéDurak ya da spor salonu döndürün
+
+RESOURCE ID: quest_ptr_2026_spin_tr_singular
+TEXT: Bir PokéDurak ya da spor salonu döndürün
+
+RESOURCE ID: quest_ptr_2026_spin_zh_tw_plural
+TEXT: 旋轉{0}個寶可補給站或道館轉盤
+
+RESOURCE ID: quest_ptr_2026_spin_zh_tw_singular
+TEXT: 旋轉1個寶可補給站或道館轉盤
+
+RESOURCE ID: quest_ptr_2026_walk_de_plural
+TEXT: Erkunde {0} km.
+
+RESOURCE ID: quest_ptr_2026_walk_en_plural
+TEXT: Explore {0} km
+
+RESOURCE ID: quest_ptr_2026_walk_es_latam_plural
+TEXT: Explora {0} km
+
+RESOURCE ID: quest_ptr_2026_walk_es_plural
+TEXT: Explora {0} km
+
+RESOURCE ID: quest_ptr_2026_walk_fr_plural
+TEXT: Explore {0} km
+
+RESOURCE ID: quest_ptr_2026_walk_hi_plural
+TEXT: {0} km एक्सप्लोर करें
+
+RESOURCE ID: quest_ptr_2026_walk_id_plural
+TEXT: Jelajah {0} km
+
+RESOURCE ID: quest_ptr_2026_walk_it_plural
+TEXT: Esplora {0} km
+
+RESOURCE ID: quest_ptr_2026_walk_ja_plural
+TEXT: {0}km 探索する
+
+RESOURCE ID: quest_ptr_2026_walk_ko_plural
+TEXT: {0}km 탐색한다
+
+RESOURCE ID: quest_ptr_2026_walk_pt_br_plural
+TEXT: Explorar {0} km.
+
+RESOURCE ID: quest_ptr_2026_walk_ru_plural
+TEXT: Пройди {0} км
+
+RESOURCE ID: quest_ptr_2026_walk_th_plural
+TEXT: สำรวจ {0} กม.
+
+RESOURCE ID: quest_ptr_2026_walk_tr_plural
+TEXT: {0} km katedin
+
+RESOURCE ID: quest_ptr_2026_walk_zh_tw_plural
+TEXT: 探索{0}公里
 
 RESOURCE ID: quest_safari2026_boston_visit_unique_pokestops_plural
 TEXT: Da vueltas a fotodiscos en {0} Poképaradas o Gimnasios diferentes en Boston
@@ -977,38 +1688,44 @@ TEXT: Selecciona un regalo de pago para enviar a una de tus amistades
 RESOURCE ID: sending_paid_gift_to
 TEXT: Vas a enviar este regalo de pago a:
 
+RESOURCE ID: settings_advanced_quality_title
+TEXT: Rendimiento
+
 RESOURCE ID: settings_refresh_rate_balanced
-TEXT: Balanced
+TEXT: Equilibrado
 
 RESOURCE ID: settings_refresh_rate_balanced_recommended
-TEXT: Balanced (Recommended)
+TEXT: Equilibrado (recomendado)
 
 RESOURCE ID: settings_refresh_rate_high
-TEXT: High
+TEXT: Alto
 
 RESOURCE ID: settings_refresh_rate_high_recommended
-TEXT: High (Recommended)
+TEXT: Alto (recomendado)
 
 RESOURCE ID: settings_refresh_rate_incompatible_device
-TEXT: This device is not compatible for higher refresh rates.
+TEXT: Este dispositivo no es compatible con una mayor frecuencia de actualización.
 
 RESOURCE ID: settings_refresh_rate_low
-TEXT: Low
+TEXT: Bajo
 
 RESOURCE ID: settings_refresh_rate_low_recommended
-TEXT: Low (Recommended)
+TEXT: Bajo (recomendado)
 
 RESOURCE ID: settings_refresh_rate_name
-TEXT: Refresh Rate
+TEXT: Frecuencia de actualización
 
 RESOURCE ID: settings_refresh_rate_updated_balanced
-TEXT: Refresh Rate updated to Balanced.
+TEXT: Se ha configurado la frecuencia de actualización a Equilibrado.
 
 RESOURCE ID: settings_refresh_rate_updated_high
-TEXT: Refresh Rate updated to High.
+TEXT: Se ha configurado la frecuencia de actualización a Alto.
 
 RESOURCE ID: settings_refresh_rate_updated_low
-TEXT: Refresh Rate updated to Low.
+TEXT: Se ha configurado la frecuencia de actualización a Bajo.
+
+RESOURCE ID: settings_unlock_base_framerate_description
+TEXT: Habilitar efectos visuales más fluidos y con una mejor respuesta que pueden afectar a la duración de la batería.
 
 RESOURCE ID: shop_gift_confirm_purchase_warning_description
 TEXT: Puedes enviar un total de 20 regalos de pago al día. Este regalo no lo puede utilizar otro jugador ni se puede reembolsar.
@@ -1022,6 +1739,9 @@ TEXT: No puedes enviar un regalo de pago si la persona:
 • Ha desactivado los regalos de pago
 • Tiene restricciones que no le permiten recibirlos
 • Usa una moneda diferente; no se permiten los regalos entre monedas diferentes
+
+RESOURCE ID: single_transfer_language_tag_pokemon
+TEXT: Etiqueta de idioma
 
 RESOURCE ID: sku.name.web-gowa-2024-box-4
 TEXT: Caja Mejora del Área Silvestre de GO
@@ -1081,14 +1801,21 @@ TEXT: <b>Bonus incluidos:</b>
 • 5000 Polvos Estelares adicionales al completar supermegaincursiones
 • 5000 PX adicionales al completar supermegaincursiones
 
+RESOURCE ID: text_rewards_key_megaclefableraidday
+TEXT: <b>Bonus incluidos:</b>
+• Ocho Pases de incursión adicionales al dar vueltas a fotodiscos en Gimnasios
+• Mayor probabilidad de recibir Caramelos Raros ++ en incursiones
+• 5000 Polvos Estelares adicionales al completar supermegaincursiones
+• 5000 PX adicionales al completar supermegaincursiones
+
 RESOURCE ID: th_poke_center_bangkok_bonus_0
-TEXT: Receive themed stickers when you spin PokéStops in Thailand
+TEXT: Recibe pegatinas temáticas cuando das vueltas a Poképaradas en Tailandia
 
 RESOURCE ID: th_poke_center_bangkok_title
-TEXT: Pokémon Center BANGKOK Opens!
+TEXT: ¡Apertura de Pokémon Center BANGKOK!
 
 RESOURCE ID: th_poke_center_bangkok_tv_desc
-TEXT: The Pokémon Center in Bangkok is now open! Timed Research offers rewards and stickers, with more stickers available from PokéStop spins. Visit the blog for details.
+TEXT: ¡El Pokémon Center de Bangkok ya ha abierto! La investigación temporal ofrece recompensas y pegatinas, y tienes más pegatinas disponibles al dar vueltas a las Poképaradas. Visita el blog para obtener más información.
 
 RESOURCE ID: three_additional_candy_xl_max_battle_bonus
 TEXT: Tres Caramelos ++ adicionales por completar Combates Max
@@ -1154,22 +1881,25 @@ RESOURCE ID: tr_gowa2026_power_up_title
 TEXT: Área Silvestre de GO: A tope con Machamp Gigamax
 
 RESOURCE ID: tr_poke_center_bgk_2026
-TEXT: Pokémon Center BANGKOK Opens! Timed Research
+TEXT: Investigación temporal: ¡Apertura de Pokémon Center BANGKOK!
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_1_header
-TEXT: Pokémon Center BANGKOK Opens! Timed Research (1/5)
+TEXT: Investigación temporal: ¡Apertura de Pokémon Center BANGKOK! (1/5)
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_2_header
-TEXT: Pokémon Center BANGKOK Opens! Timed Research (2/5)
+TEXT: Investigación temporal: ¡Apertura de Pokémon Center BANGKOK! (2/5)
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_3_header
-TEXT: Pokémon Center BANGKOK Opens! Timed Research (3/5)
+TEXT: Investigación temporal: ¡Apertura de Pokémon Center BANGKOK! (3/5)
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_4_header
-TEXT: Pokémon Center BANGKOK Opens! Timed Research (4/5)
+TEXT: Investigación temporal: ¡Apertura de Pokémon Center BANGKOK! (4/5)
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_5_header
-TEXT: Pokémon Center BANGKOK Opens! Timed Research (5/5)
+TEXT: Investigación temporal: ¡Apertura de Pokémon Center BANGKOK! (5/5)
+
+RESOURCE ID: trade_warning_bullet_language_tag
+TEXT: El Pokémon tiene una etiqueta de idioma
 
 RESOURCE ID: tutorial_route_bonus_2
 TEXT: Determinados Pokémon podrán aparecer con más frecuencia en estado salvaje en las Rutas

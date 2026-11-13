@@ -19,6 +19,9 @@ TEXT: パティシエ　パンツ
 RESOURCE ID: avatar_pose_gowa2026
 TEXT: GO ワイルドエリア 2026　ポーズ
 
+RESOURCE ID: avatar_pose_starballoon
+TEXT: 星バルーン　ポーズ
+
 RESOURCE ID: avatar_shirt_gothiclolitashorts
 TEXT: ハロウィン衣装　パンツセット
 
@@ -41,6 +44,15 @@ RESOURCE ID: avatar_shirt_nightout
 TEXT: ポケモン　ナイトアウト
 野球ジャージ
 
+RESOURCE ID: avatar_shoes_crocs-gengar
+TEXT: ポケモン ゲンガー クラシック クロッグ
+
+RESOURCE ID: avatar_shoes_crocs-jigglypuff
+TEXT: ポケモン プリン クラシック プラットフォーム クロッグ
+
+RESOURCE ID: avatar_shoes_crocs-pikachu
+TEXT: ポケモン ピカチュウ クラシック クロッグ
+
 RESOURCE ID: avatar_shoes_gothiclolita
 TEXT: ハロウィン衣装　ブーツ
 
@@ -55,6 +67,15 @@ TEXT: キョダイマックス（{0}）
 
 RESOURCE ID: batch_transfer_unique_bread_level_pokemon
 TEXT: ダイマックス（{0}）
+
+RESOURCE ID: batch_transfer_unique_language_tag_pokemon
+TEXT: 言語タグがついているポケモン（{0}）
+
+RESOURCE ID: batch_transfer_unique_language_tag_pokemon_plural
+TEXT: 言語タグつきポケモン{0}匹
+
+RESOURCE ID: batch_transfer_unique_language_tag_pokemon_singular
+TEXT: 言語タグつきポケモン{0}匹
 
 RESOURCE ID: bonus_cd_move_pawniard
 TEXT: キリキザンをドドゲザンに進化させるとドゲザンを覚えている
@@ -116,6 +137,9 @@ TEXT: 捨てる
 RESOURCE ID: details_link_key_megachandelureraidday
 TEXT: 詳細は<a href="https://pokemongo.com/news/chandelure-super-mega-raid-day-2026">ウェブサイト</a>でご確認ください
 
+RESOURCE ID: details_link_key_megaclefableraidday
+TEXT: 詳細は<a href="https://pokemongo.com/news/clefable-super-mega-raid-day-2026">ウェブサイト</a>でご確認ください
+
 RESOURCE ID: download_all_assets_progress_indicator
 TEXT: {1}MBのうち{0}MBをダウンロード済み
 
@@ -167,6 +191,9 @@ TEXT: GOパスデラックス：大きな足跡を購入すると、イベント
 RESOURCE ID: event_pass_premium_track_title_gowa_leadout_2026
 TEXT: GOパスデラックス：大きな足跡
 
+RESOURCE ID: filter_key_language_tag
+TEXT: 言語タグ
+
 RESOURCE ID: filter_key_profile_background
 TEXT: プロフィール背景
 
@@ -181,6 +208,9 @@ TEXT: コマタナコミュニティ・デイチケット
 
 RESOURCE ID: general2.ticket.5_megachandelureraidday
 TEXT: シャンデラスーパーメガレイドデイチケット
+
+RESOURCE ID: general2.ticket.5_megaclefableraidday
+TEXT: ピクシースーパーメガレイドデイチケット
 
 RESOURCE ID: gowa2026_leadup_collection_challenge
 TEXT: ワイルドウィークコレクションチャレンジ
@@ -440,6 +470,27 @@ TEXT: ポケモンの世界は、未知と驚異にあふれていて、終わ�
 RESOURCE ID: gowa_2026_leadout_event_title
 TEXT: 大きな足跡
 
+RESOURCE ID: gowa_2026_leadout_event_title_kindling
+TEXT: 大きな足跡
+
+RESOURCE ID: gowa_2026_leadout_max_candy_bonus
+TEXT: マックスバトル完了でもらえるアメ5個とアメXL3個追加
+
+RESOURCE ID: gowa_2026_leadout_mp_cap_2400
+TEXT: 2400マックス粒子まで集められる
+
+RESOURCE ID: gowa_2026_leadout_power_spot_mp_8x
+TEXT: 8×　パワースポットで集められるマックス粒子
+
+RESOURCE ID: gowa_2026_leadout_premium_banner_bottom
+TEXT: ダイマックスしたポケモンとの出会いとムゲンダイナのアメXL増
+
+RESOURCE ID: gowa_2026_leadout_refresh_30_min
+TEXT: 30分ごとにマックスバトルが更新される
+
+RESOURCE ID: gowa_2026_leadout_upgrade_header
+TEXT: GOパスデラックス：大きな足跡
+
 RESOURCE ID: great_league_championship_series_2027
 TEXT: 2027GOチャンピオンシップカップ
 
@@ -462,22 +513,22 @@ RESOURCE ID: halloween_spooky_surprise_tappable_today_view
 TEXT: サプライズボックスがマップ上に出現
 
 RESOURCE ID: high_refresh_rate_prompt_body
-TEXT: Get smoother visuals and more responsive gameplay, which may affect battery life. You can change this anytime in Settings.
+TEXT: より滑らかな画面の動きと、反応が良い操作性を実現できる可能性がありますが、リフレッシュレートを上げると、バッテリー消費も上がります。いつでも設定から変更できます。
 
 RESOURCE ID: high_refresh_rate_prompt_dismiss_button
-TEXT: MAYBE LATER
+TEXT: 今はやめておく
 
 RESOURCE ID: high_refresh_rate_prompt_enable_button
-TEXT: TURN ON
+TEXT: オンにする
 
 RESOURCE ID: high_refresh_rate_prompt_title
 TEXT: リフレッシュレートの変更
 
 RESOURCE ID: high_refresh_rate_settings_description
-TEXT: Get smoother visuals and more responsive gameplay. This may affect battery life.
+TEXT: より滑らかな画面とより高い反応速度を実現（バッテリーを多く消費する場合があります）
 
 RESOURCE ID: high_refresh_rate_settings_title
-TEXT: Improve Visuals and Animations
+TEXT: より滑らかな画面の動き
 
 RESOURCE ID: in.fol.2026.bundle_title
 TEXT: 光のフェスティバルボックス
@@ -494,8 +545,14 @@ TEXT: ふかそうち
 RESOURCE ID: item_event_ticket_gray_desc_megachandelureraidday
 TEXT: 現地時間2026年10月31日2:00PM～10:00PMにボーナスを受け取るためのチケット。
 
+RESOURCE ID: item_event_ticket_gray_desc_megaclefableraidday
+TEXT: 現地時間2026年11月28日2:00PM～5:00PMにボーナスを受け取るためのチケット。
+
 RESOURCE ID: item_event_ticket_gray_details_megachandelureraidday
 TEXT: このチケットは自動的に発動し10月31日にボーナスが受け取れるようになります。
+
+RESOURCE ID: item_event_ticket_gray_details_megaclefableraidday
+TEXT: このチケットは自動的に発動し11月28日にボーナスが受け取れるようになります。
 
 RESOURCE ID: item_event_ticket_pink_desc_cd_pawniard26
 TEXT: 現地時間2026年11月21日2:00PMからコマタナコミュニティ・デイのスペシャルリサーチを行うためのチケット。
@@ -536,19 +593,34 @@ TEXT: シャンデラスーパーメガレイドデイグローバルチャレ�
 RESOURCE ID: mega_chandelure_raid_day_event_name
 TEXT: シャンデラスーパーメガレイドデイ
 
+RESOURCE ID: mega_clefable_global_challenge
+TEXT: ピクシースーパーメガレイドデイグローバルチャレンジ
+
+RESOURCE ID: mega_clefable_raid_day_event_name
+TEXT: ピクシースーパーメガレイドデイ
+
+RESOURCE ID: mega_clefable_raid_day_timed_research
+TEXT: ピクシースーパーメガレイドデイタイムチャレンジ
+
 RESOURCE ID: mega_level_tutorial_cp_downscaling_1_body
 TEXT: メガシンカしたポケモンのCPが特定リーグの上限を超える場合、参戦できる範囲に調整されます。
 
 スーパーマックスレベルに達しているポケモンも、マスターリーグでCPが大幅に上がることはありません。
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-11-08T23:43:43.146817+00:00 for ja-JP
-at SHA d7b5f22335d
-Pipeline 4086232, job 60300249
-Patch from: 0.437.0-SHA-17709004-RC5, 0.435.2-SHA-64391288-RC1, 0.439.0-SHA-310604ba-RC1
+TEXT: Built at 2026-11-13T02:26:46.307191+00:00 for ja-JP
+at SHA 75857a8ba20
+Pipeline 4097987, job 60494265
+Patch from: 0.437.0-SHA-2396e31c-RC3, 0.435.2-SHA-18494160-RC2, 0.439.0-SHA-3df493e8-RC2
 
 RESOURCE ID: minior_shower_tr_name
 TEXT: メテノシャワータイムチャレンジ
+
+RESOURCE ID: moonblast_base_increased_level_bonus
+TEXT: スーパーマックスレベルに達したメガピクシーのCPが上がる（11月30日12:00PM～12月13日12:00PM太平洋標準時）
+
+RESOURCE ID: moonblast_base_power_boost_bonus
+TEXT: 「ムーンフォース+」の威力が増す（11月30日12:00PM～12月13日12:00PM太平洋標準時）
 
 RESOURCE ID: move_name_0615
 TEXT: ドゲザン
@@ -619,6 +691,60 @@ TEXT: GOスナップショットでコマタナのサプライズ5回
 RESOURCE ID: poi_contrib_report_reason_ai_generated_or_doctored_photo
 TEXT: AIで生成・改ざんされた写真
 
+RESOURCE ID: pokemon_language_tag_info_transfer_to_professor_confirmation
+TEXT: 言語タグのついたポケモンを本当に送ってもいいですか？
+
+RESOURCE ID: pokemon_name_chip_entry_format
+TEXT: {0}：{1}
+
+RESOURCE ID: pokemon_name_chip_language_brazilianportuguese
+TEXT: ポルトガル語（ブラジル）
+
+RESOURCE ID: pokemon_name_chip_language_chinesetraditional
+TEXT: 中国語（繁体）
+
+RESOURCE ID: pokemon_name_chip_language_english
+TEXT: 英語
+
+RESOURCE ID: pokemon_name_chip_language_french
+TEXT: フランス語
+
+RESOURCE ID: pokemon_name_chip_language_german
+TEXT: ドイツ語
+
+RESOURCE ID: pokemon_name_chip_language_hindi
+TEXT: ヒンディー語
+
+RESOURCE ID: pokemon_name_chip_language_indonesian
+TEXT: インドネシア語
+
+RESOURCE ID: pokemon_name_chip_language_italian
+TEXT: イタリア語
+
+RESOURCE ID: pokemon_name_chip_language_japanese
+TEXT: 日本語
+
+RESOURCE ID: pokemon_name_chip_language_korean
+TEXT: 韓国語
+
+RESOURCE ID: pokemon_name_chip_language_russian
+TEXT: ロシア語
+
+RESOURCE ID: pokemon_name_chip_language_spanish
+TEXT: スペイン語（欧州）
+
+RESOURCE ID: pokemon_name_chip_language_spanishlatinamerican
+TEXT: スペイン語（ラテンアメリカ）
+
+RESOURCE ID: pokemon_name_chip_language_thai
+TEXT: タイ語
+
+RESOURCE ID: pokemon_name_chip_language_turkish
+TEXT: トルコ語
+
+RESOURCE ID: pokemon_name_chip_modal_title
+TEXT: ポケモンの名前は各国語でどのように表現するか知っていますか？
+
 RESOURCE ID: ptc_account_creation_prompt
 TEXT: ポケモントレーナーセントラルのアカウントを持っていませんか？
 
@@ -653,6 +779,183 @@ TEXT: ポケモントレーナーセントラルは現在ご利用いただけ�
 RESOURCE ID: ptc_login_title_out
 TEXT: ポケモントレーナーセントラル
 
+RESOURCE ID: ptr_2026_bonus_name_chips
+TEXT: タイムチャレンジで捕まえるポケモンに、選んだ言語で名前が表示されるタグがついている
+
+RESOURCE ID: ptr_2026_bonus_special_background
+TEXT: タイムチャレンジでピカチュウ、ペラップなどのポケモン（スペシャル背景つき）に出会える
+
+RESOURCE ID: ptr_2026_branch_de
+TEXT: ドイツ語
+
+RESOURCE ID: ptr_2026_branch_de_description
+TEXT: ドイツ語を選んでチャレンジを行う
+
+RESOURCE ID: ptr_2026_branch_en
+TEXT: 英語
+
+RESOURCE ID: ptr_2026_branch_en_description
+TEXT: 英語を選んでチャレンジを行う
+
+RESOURCE ID: ptr_2026_branch_es
+TEXT: スペイン語（欧州）
+
+RESOURCE ID: ptr_2026_branch_es_description
+TEXT: 欧州スペイン語を選んでチャレンジを行う
+
+RESOURCE ID: ptr_2026_branch_es_latam
+TEXT: スペイン語（ラテンアメリカ）
+
+RESOURCE ID: ptr_2026_branch_es_latam_description
+TEXT: ラテンアメリカスペイン語を選んでチャレンジを行う
+
+RESOURCE ID: ptr_2026_branch_fr
+TEXT: フランス語
+
+RESOURCE ID: ptr_2026_branch_fr_description
+TEXT: フランス語を選んでチャレンジを行う
+
+RESOURCE ID: ptr_2026_branch_hi
+TEXT: ヒンディー語
+
+RESOURCE ID: ptr_2026_branch_hi_description
+TEXT: ヒンディー語を選んでチャレンジを行う
+
+RESOURCE ID: ptr_2026_branch_id
+TEXT: インドネシア語
+
+RESOURCE ID: ptr_2026_branch_id_description
+TEXT: インドネシア語を選んでチャレンジを行う
+
+RESOURCE ID: ptr_2026_branch_it
+TEXT: イタリア語
+
+RESOURCE ID: ptr_2026_branch_it_description
+TEXT: イタリア語を選んでチャレンジを行う
+
+RESOURCE ID: ptr_2026_branch_ja
+TEXT: 日本語
+
+RESOURCE ID: ptr_2026_branch_ja_description
+TEXT: 日本語を選んでチャレンジを行う
+
+RESOURCE ID: ptr_2026_branch_ko
+TEXT: 韓国語
+
+RESOURCE ID: ptr_2026_branch_ko_description
+TEXT: 韓国語を選んでチャレンジを行う
+
+RESOURCE ID: ptr_2026_branch_pt_br
+TEXT: ポルトガル語（ブラジル）
+
+RESOURCE ID: ptr_2026_branch_pt_br_description
+TEXT: ブラジルポルトガル語を選んでチャレンジを行う
+
+RESOURCE ID: ptr_2026_branch_ru
+TEXT: ロシア語
+
+RESOURCE ID: ptr_2026_branch_ru_description
+TEXT: ロシア語を選んでチャレンジを行う
+
+RESOURCE ID: ptr_2026_branch_th
+TEXT: タイ語
+
+RESOURCE ID: ptr_2026_branch_th_description
+TEXT: タイ語を選んでチャレンジを行う
+
+RESOURCE ID: ptr_2026_branch_tr
+TEXT: トルコ語
+
+RESOURCE ID: ptr_2026_branch_tr_description
+TEXT: トルコ語を選んでチャレンジを行う
+
+RESOURCE ID: ptr_2026_branch_zh_tw
+TEXT: 中国語（繁体）
+
+RESOURCE ID: ptr_2026_branch_zh_tw_description
+TEXT: 繁体中国語を選んでチャレンジを行う
+
+RESOURCE ID: ptr_2026_event_name
+TEXT: 世界の言語をリサーチ！：Duolingoコラボイベント
+
+RESOURCE ID: ptr_2026_section_1_title
+TEXT: Duolingo タイムチャレンジ
+
+RESOURCE ID: ptr_2026_section_2_title
+TEXT: Duolingo タイムチャレンジ(1/4)：言葉をとらえる
+
+RESOURCE ID: ptr_2026_section_3_title
+TEXT: Duolingo タイムチャレンジ(2/4)：世界を探索
+
+RESOURCE ID: ptr_2026_section_4_title
+TEXT: Duolingo タイムチャレンジ(3/4)：学びと成長
+
+RESOURCE ID: ptr_2026_section_5_title
+TEXT: Duolingo タイムチャレンジ(4/4)：レビュータイム
+
+RESOURCE ID: ptr_2026_section_6_title
+TEXT: Duolingo タイムチャレンジ：その調子！
+
+RESOURCE ID: ptr_2026_willow_01_01
+TEXT: やぁ、%PLAYERNAME%！
+
+RESOURCE ID: ptr_2026_willow_01_02
+TEXT: トレーナー同士、ポケモンを通じて仲良くなれることが多いと思わないか？話す言葉は違っても、だ。
+
+RESOURCE ID: ptr_2026_willow_01_03
+TEXT: 今日はそんなコスモポリタンなトレーナーであるきみにぴったりの調査を用意した。きっと気に入ってもらえると思うよ。
+
+RESOURCE ID: ptr_2026_willow_01_04
+TEXT: まずは、調査に使う言葉を選んでみてくれ。ヒントを出すから、あまり難しく考えなくていいぞ。
+
+RESOURCE ID: ptr_2026_willow_01_05
+TEXT: きみなら簡単にこなせるはずだ！
+
+RESOURCE ID: ptr_2026_willow_02_01
+TEXT: まずは、基本のキ、から。
+
+RESOURCE ID: ptr_2026_willow_02_02
+TEXT: つまり、ポケモンを探すこと。数字とパターンに注意して。
+
+RESOURCE ID: ptr_2026_willow_02_03
+TEXT: トレーナーの勘が物を言う調査だ。
+
+RESOURCE ID: ptr_2026_willow_02_04
+TEXT: モンスターボールは切らさないように…それに、工夫して投げてみよう！
+
+RESOURCE ID: ptr_2026_willow_03_01
+TEXT: やったな！素敵なポケモンを捕まえることができたな、%PLAYERNAME%！
+
+RESOURCE ID: ptr_2026_willow_03_02
+TEXT: 次に行うのは、より広範囲でのフィールドワーク。
+
+RESOURCE ID: ptr_2026_willow_03_03
+TEXT: つまりだ。周りにあるポケストップやジムをチェック。
+
+RESOURCE ID: ptr_2026_willow_03_04
+TEXT: ちょっと先まで足を延ばす必要があるかもしれない。
+
+RESOURCE ID: ptr_2026_willow_04_01
+TEXT: よくやった、%PLAYERNAME%！周りを観察する機会になったかな？
+
+RESOURCE ID: ptr_2026_willow_04_02
+TEXT: 次は、ポケモンの成長が関係してくる。より強く、そして進化できるポケモンは進化。
+
+RESOURCE ID: ptr_2026_willow_04_03
+TEXT: タマゴは持っているかな？タマゴをセットしているか、確認してから出発だ。
+
+RESOURCE ID: ptr_2026_willow_04_04
+TEXT: ヒントは以上だ。ポケモンとの冒険を楽しみながら、自分の成長にもつながるような調査になることを願っているよ！
+
+RESOURCE ID: ptr_2026_willow_05_01
+TEXT: すばらしい、%PLAYERNAME%！努力が報われる感覚って、心地よいものだよね？
+
+RESOURCE ID: ptr_2026_willow_05_02
+TEXT: 次は、ここまでの調査項目のおさらいだ。気を引き締めていこう！
+
+RESOURCE ID: ptr_2026_willow_05_03
+TEXT: 実力を発揮して一気に進めてくれ、%PLAYERNAME%！
+
 RESOURCE ID: quest_catch_dmax_machop
 TEXT: ダイマックスワンリキーを捕まえる
 
@@ -665,11 +968,419 @@ TEXT: ヒスイヌメイルを捕まえる
 RESOURCE ID: quest_complete_raids_or_max_battles
 TEXT: レイドかマックスバトルを{0}回完了する
 
+RESOURCE ID: quest_defeat_fairy_flying_type_raid_singular
+TEXT: ひこうタイプかフェアリータイプのボスポケモンに勝つ
+
 RESOURCE ID: quest_defeat_ghost_fire_type_raid_singular
 TEXT: ゴーストタイプかほのおタイプのボスポケモンに勝つ
 
 RESOURCE ID: quest_pawniard_catch_b
 TEXT: コマタナを{0}匹捕まえる
+
+RESOURCE ID: quest_ptr_2026_catch_de_plural
+TEXT: Fange {0} Pokémon.
+
+RESOURCE ID: quest_ptr_2026_catch_de_singular
+TEXT: Fange ein Pokémon.
+
+RESOURCE ID: quest_ptr_2026_catch_en_plural
+TEXT: Catch {0} Pokémon
+
+RESOURCE ID: quest_ptr_2026_catch_en_singular
+TEXT: Catch a Pokémon
+
+RESOURCE ID: quest_ptr_2026_catch_es_latam_plural
+TEXT: Atrapa {0} Pokémon
+
+RESOURCE ID: quest_ptr_2026_catch_es_latam_singular
+TEXT: Atrapa un Pokémon
+
+RESOURCE ID: quest_ptr_2026_catch_es_plural
+TEXT: Captura {0} Pokémon
+
+RESOURCE ID: quest_ptr_2026_catch_es_singular
+TEXT: Captura 1 Pokémon
+
+RESOURCE ID: quest_ptr_2026_catch_fr_plural
+TEXT: Attrape {0} Pokémon
+
+RESOURCE ID: quest_ptr_2026_catch_fr_singular
+TEXT: Attrape un Pokémon
+
+RESOURCE ID: quest_ptr_2026_catch_hi_plural
+TEXT: {0} पोकेमॉन पकड़ें
+
+RESOURCE ID: quest_ptr_2026_catch_hi_singular
+TEXT: पोकेमॉन पकड़ें
+
+RESOURCE ID: quest_ptr_2026_catch_id_plural
+TEXT: Tangkap {0} Pokémon
+
+RESOURCE ID: quest_ptr_2026_catch_id_singular
+TEXT: Tangkap Pokémon
+
+RESOURCE ID: quest_ptr_2026_catch_it_plural
+TEXT: Cattura {0} Pokémon
+
+RESOURCE ID: quest_ptr_2026_catch_it_singular
+TEXT: Cattura un Pokémon
+
+RESOURCE ID: quest_ptr_2026_catch_ja_plural
+TEXT: ポケモンを{0}匹捕まえる
+
+RESOURCE ID: quest_ptr_2026_catch_ja_singular
+TEXT: ポケモンを1匹捕まえる
+
+RESOURCE ID: quest_ptr_2026_catch_ko_plural
+TEXT: 포켓몬 {0}마리를 잡는다
+
+RESOURCE ID: quest_ptr_2026_catch_ko_singular
+TEXT: 포켓몬 1마리를 잡는다
+
+RESOURCE ID: quest_ptr_2026_catch_pt_br_plural
+TEXT: Pegar {0} Pokémon.
+
+RESOURCE ID: quest_ptr_2026_catch_pt_br_singular
+TEXT: Pegar 1 Pokémon.
+
+RESOURCE ID: quest_ptr_2026_catch_ru_plural
+TEXT: Поймай Покемонов ×{0}
+
+RESOURCE ID: quest_ptr_2026_catch_ru_singular
+TEXT: Поймай Покемона
+
+RESOURCE ID: quest_ptr_2026_catch_th_plural
+TEXT: จับโปเกมอน {0} ตัว
+
+RESOURCE ID: quest_ptr_2026_catch_th_singular
+TEXT: จับโปเกมอน
+
+RESOURCE ID: quest_ptr_2026_catch_tr_plural
+TEXT: {0} Pokémon yakalayın
+
+RESOURCE ID: quest_ptr_2026_catch_tr_singular
+TEXT: Bir Pokémon yakalayın
+
+RESOURCE ID: quest_ptr_2026_catch_zh_tw_plural
+TEXT: 捕捉{0}隻寶可夢
+
+RESOURCE ID: quest_ptr_2026_catch_zh_tw_singular
+TEXT: 捕捉1隻寶可夢
+
+RESOURCE ID: quest_ptr_2026_evolve_de_plural
+TEXT: Entwickle {0} Pokémon.
+
+RESOURCE ID: quest_ptr_2026_evolve_en_plural
+TEXT: Evolve {0} Pokémon
+
+RESOURCE ID: quest_ptr_2026_evolve_es_latam_plural
+TEXT: Evoluciona {0} Pokémon
+
+RESOURCE ID: quest_ptr_2026_evolve_es_plural
+TEXT: Haz evolucionar {0} Pokémon
+
+RESOURCE ID: quest_ptr_2026_evolve_fr_plural
+TEXT: Fais évoluer {0} Pokémon
+
+RESOURCE ID: quest_ptr_2026_evolve_hi_plural
+TEXT: {0} पोकेमॉन को विकसित करें
+
+RESOURCE ID: quest_ptr_2026_evolve_id_plural
+TEXT: Evolusikan {0} Pokémon
+
+RESOURCE ID: quest_ptr_2026_evolve_it_plural
+TEXT: Fai evolvere {0} Pokémon
+
+RESOURCE ID: quest_ptr_2026_evolve_ja_plural
+TEXT: ポケモンを{0}匹進化させる
+
+RESOURCE ID: quest_ptr_2026_evolve_ko_plural
+TEXT: 포켓몬을 {0}마리 진화시킨다
+
+RESOURCE ID: quest_ptr_2026_evolve_pt_br_plural
+TEXT: Evoluir {0} Pokémon.
+
+RESOURCE ID: quest_ptr_2026_evolve_ru_plural
+TEXT: Эволюционируй Покемонов ×{0}
+
+RESOURCE ID: quest_ptr_2026_evolve_th_plural
+TEXT: วิวัฒนาการโปเกมอน {0} ตัว
+
+RESOURCE ID: quest_ptr_2026_evolve_tr_plural
+TEXT: {0} Pokémon evrimleştirin
+
+RESOURCE ID: quest_ptr_2026_evolve_zh_tw_plural
+TEXT: 讓{0}隻寶可夢進化
+
+RESOURCE ID: quest_ptr_2026_hatch_de_singular
+TEXT: Brüte ein Ei aus.
+
+RESOURCE ID: quest_ptr_2026_hatch_en_singular
+TEXT: Hatch an Egg
+
+RESOURCE ID: quest_ptr_2026_hatch_es_latam_singular
+TEXT: Eclosiona un Huevo
+
+RESOURCE ID: quest_ptr_2026_hatch_es_singular
+TEXT: Haz eclosionar 1 Huevo
+
+RESOURCE ID: quest_ptr_2026_hatch_fr_singular
+TEXT: Fais éclore un Œuf
+
+RESOURCE ID: quest_ptr_2026_hatch_hi_singular
+TEXT: 1 अंडा हैच करें
+
+RESOURCE ID: quest_ptr_2026_hatch_id_singular
+TEXT: Tetaskan Telur
+
+RESOURCE ID: quest_ptr_2026_hatch_it_singular
+TEXT: Fai schiudere un Uovo
+
+RESOURCE ID: quest_ptr_2026_hatch_ja_singular
+TEXT: タマゴを1個かえす
+
+RESOURCE ID: quest_ptr_2026_hatch_ko_singular
+TEXT: 알을 1개 부화한다
+
+RESOURCE ID: quest_ptr_2026_hatch_pt_br_singular
+TEXT: Chocar 1 Ovo.
+
+RESOURCE ID: quest_ptr_2026_hatch_ru_singular
+TEXT: Выноси 1 яйцо
+
+RESOURCE ID: quest_ptr_2026_hatch_th_singular
+TEXT: ฟักไข่ 1 ใบ
+
+RESOURCE ID: quest_ptr_2026_hatch_tr_singular
+TEXT: Bir yumurta çatlatın
+
+RESOURCE ID: quest_ptr_2026_hatch_zh_tw_singular
+TEXT: 孵化1顆蛋
+
+RESOURCE ID: quest_ptr_2026_nice_de_plural
+TEXT: Lande {0} gute Würfe.
+
+RESOURCE ID: quest_ptr_2026_nice_en_plural
+TEXT: Make {0} Nice Throws
+
+RESOURCE ID: quest_ptr_2026_nice_es_latam_plural
+TEXT: Haz {0} lanzamientos buenos
+
+RESOURCE ID: quest_ptr_2026_nice_es_plural
+TEXT: Haz {0} buenos lanzamientos
+
+RESOURCE ID: quest_ptr_2026_nice_fr_plural
+TEXT: Fais {0} Jolis lancers
+
+RESOURCE ID: quest_ptr_2026_nice_hi_plural
+TEXT: {0} बढ़िया थ्रो करें
+
+RESOURCE ID: quest_ptr_2026_nice_id_plural
+TEXT: Lakukan {0} Nice Throw
+
+RESOURCE ID: quest_ptr_2026_nice_it_plural
+TEXT: Effettua {0} bei tiri
+
+RESOURCE ID: quest_ptr_2026_nice_ja_plural
+TEXT: ナイススローを{0}回投げる
+
+RESOURCE ID: quest_ptr_2026_nice_ko_plural
+TEXT: Nice가 나오게 {0}회 던진다
+
+RESOURCE ID: quest_ptr_2026_nice_pt_br_plural
+TEXT: Fazer {0} Boas Jogadas.
+
+RESOURCE ID: quest_ptr_2026_nice_ru_plural
+TEXT: Сделай Хорошие Броски ×{0}
+
+RESOURCE ID: quest_ptr_2026_nice_th_plural
+TEXT: ทำการขว้างได้ดี {0} ครั้ง
+
+RESOURCE ID: quest_ptr_2026_nice_tr_plural
+TEXT: {0} iyi atış yapın
+
+RESOURCE ID: quest_ptr_2026_nice_zh_tw_plural
+TEXT: 投出{0}次Nice
+
+RESOURCE ID: quest_ptr_2026_power_de_plural
+TEXT: Verwende {0} Power-ups bei Pokémon.
+
+RESOURCE ID: quest_ptr_2026_power_en_plural
+TEXT: Power up Pokémon {0} times
+
+RESOURCE ID: quest_ptr_2026_power_es_latam_plural
+TEXT: Da más poder a un Pokémon {0} veces
+
+RESOURCE ID: quest_ptr_2026_power_es_plural
+TEXT: Da más poder a un Pokémon {0} veces
+
+RESOURCE ID: quest_ptr_2026_power_fr_plural
+TEXT: Recharge un Pokémon {0} fois
+
+RESOURCE ID: quest_ptr_2026_power_hi_plural
+TEXT: पोकेमॉन को {0} बार पावर-अप करें
+
+RESOURCE ID: quest_ptr_2026_power_id_plural
+TEXT: Perkuat Pokémon {0} kali
+
+RESOURCE ID: quest_ptr_2026_power_it_plural
+TEXT: Potenzia dei Pokémon {0} volte
+
+RESOURCE ID: quest_ptr_2026_power_ja_plural
+TEXT: ポケモンを{0}回強化する
+
+RESOURCE ID: quest_ptr_2026_power_ko_plural
+TEXT: 포켓몬을 {0}회 강화한다
+
+RESOURCE ID: quest_ptr_2026_power_pt_br_plural
+TEXT: Fortalecer seus Pokémon {0} vezes.
+
+RESOURCE ID: quest_ptr_2026_power_ru_plural
+TEXT: Усиль Покемонов ×{0}
+
+RESOURCE ID: quest_ptr_2026_power_th_plural
+TEXT: พาวเวอร์อัปโปเกมอน {0} ครั้ง
+
+RESOURCE ID: quest_ptr_2026_power_tr_plural
+TEXT: Pokémon’ları {0} kez güçlendirin
+
+RESOURCE ID: quest_ptr_2026_power_zh_tw_plural
+TEXT: 強化寶可夢{0}次
+
+RESOURCE ID: quest_ptr_2026_spin_de_plural
+TEXT: Drehe {0} PokéStops oder Arenen.
+
+RESOURCE ID: quest_ptr_2026_spin_de_singular
+TEXT: Drehe einen PokéStop oder eine Arena.
+
+RESOURCE ID: quest_ptr_2026_spin_en_plural
+TEXT: Spin {0} PokéStops or Gyms
+
+RESOURCE ID: quest_ptr_2026_spin_en_singular
+TEXT: Spin a PokéStop or Gym
+
+RESOURCE ID: quest_ptr_2026_spin_es_latam_plural
+TEXT: Gira {0} fotodiscos en Poképaradas o Gimnasios
+
+RESOURCE ID: quest_ptr_2026_spin_es_latam_singular
+TEXT: Gira 1 fotodisco en una Poképarada o Gimnasio
+
+RESOURCE ID: quest_ptr_2026_spin_es_plural
+TEXT: Da vueltas a {0} fotodiscos en Poképaradas o Gimnasios
+
+RESOURCE ID: quest_ptr_2026_spin_es_singular
+TEXT: Da vueltas a 1 fotodisco en una Poképarada o Gimnasio
+
+RESOURCE ID: quest_ptr_2026_spin_fr_plural
+TEXT: Fais tourner {0} PokéStops ou Arènes
+
+RESOURCE ID: quest_ptr_2026_spin_fr_singular
+TEXT: Fais tourner un PokéStop ou une Arène
+
+RESOURCE ID: quest_ptr_2026_spin_hi_plural
+TEXT: {0} पोकेस्टॉप या जिम को स्पिन करें
+
+RESOURCE ID: quest_ptr_2026_spin_hi_singular
+TEXT: 1 पोकेस्टॉप या जिम को स्पिन करें
+
+RESOURCE ID: quest_ptr_2026_spin_id_plural
+TEXT: Putar {0} PokéStop atau Gym
+
+RESOURCE ID: quest_ptr_2026_spin_id_singular
+TEXT: Putar PokéStop atau Gym
+
+RESOURCE ID: quest_ptr_2026_spin_it_plural
+TEXT: Fai girare {0} dischi di Pokéstop o Palestre
+
+RESOURCE ID: quest_ptr_2026_spin_it_singular
+TEXT: Fai girare un disco del Pokéstop o della Palestra
+
+RESOURCE ID: quest_ptr_2026_spin_ja_plural
+TEXT: ポケストップ・ジム{0}個を回す
+
+RESOURCE ID: quest_ptr_2026_spin_ja_singular
+TEXT: ポケストップ・ジム1個を回す
+
+RESOURCE ID: quest_ptr_2026_spin_ko_plural
+TEXT: 포켓스톱 또는 체육관을 {0}개 돌린다
+
+RESOURCE ID: quest_ptr_2026_spin_ko_singular
+TEXT: 포켓스톱 또는 체육관을 1개 돌린다
+
+RESOURCE ID: quest_ptr_2026_spin_pt_br_plural
+TEXT: Girar {0} Poképaradas ou Ginásios.
+
+RESOURCE ID: quest_ptr_2026_spin_pt_br_singular
+TEXT: Girar 1 Poképarada ou Ginásio.
+
+RESOURCE ID: quest_ptr_2026_spin_ru_plural
+TEXT: Покрути Покестопы или Гимы ×{0}
+
+RESOURCE ID: quest_ptr_2026_spin_ru_singular
+TEXT: Покрути 1 Покестоп или Гим
+
+RESOURCE ID: quest_ptr_2026_spin_th_plural
+TEXT: หมุนเสาโปเกสต็อปหรือยิม {0} ครั้ง
+
+RESOURCE ID: quest_ptr_2026_spin_th_singular
+TEXT: หมุนเสาโปเกสต็อปหรือยิม
+
+RESOURCE ID: quest_ptr_2026_spin_tr_plural
+TEXT: {0} PokéDurak ya da spor salonu döndürün
+
+RESOURCE ID: quest_ptr_2026_spin_tr_singular
+TEXT: Bir PokéDurak ya da spor salonu döndürün
+
+RESOURCE ID: quest_ptr_2026_spin_zh_tw_plural
+TEXT: 旋轉{0}個寶可補給站或道館轉盤
+
+RESOURCE ID: quest_ptr_2026_spin_zh_tw_singular
+TEXT: 旋轉1個寶可補給站或道館轉盤
+
+RESOURCE ID: quest_ptr_2026_walk_de_plural
+TEXT: Erkunde {0} km.
+
+RESOURCE ID: quest_ptr_2026_walk_en_plural
+TEXT: Explore {0} km
+
+RESOURCE ID: quest_ptr_2026_walk_es_latam_plural
+TEXT: Explora {0} km
+
+RESOURCE ID: quest_ptr_2026_walk_es_plural
+TEXT: Explora {0} km
+
+RESOURCE ID: quest_ptr_2026_walk_fr_plural
+TEXT: Explore {0} km
+
+RESOURCE ID: quest_ptr_2026_walk_hi_plural
+TEXT: {0} km एक्सप्लोर करें
+
+RESOURCE ID: quest_ptr_2026_walk_id_plural
+TEXT: Jelajah {0} km
+
+RESOURCE ID: quest_ptr_2026_walk_it_plural
+TEXT: Esplora {0} km
+
+RESOURCE ID: quest_ptr_2026_walk_ja_plural
+TEXT: {0}km 探索する
+
+RESOURCE ID: quest_ptr_2026_walk_ko_plural
+TEXT: {0}km 탐색한다
+
+RESOURCE ID: quest_ptr_2026_walk_pt_br_plural
+TEXT: Explorar {0} km.
+
+RESOURCE ID: quest_ptr_2026_walk_ru_plural
+TEXT: Пройди {0} км
+
+RESOURCE ID: quest_ptr_2026_walk_th_plural
+TEXT: สำรวจ {0} กม.
+
+RESOURCE ID: quest_ptr_2026_walk_tr_plural
+TEXT: {0} km katedin
+
+RESOURCE ID: quest_ptr_2026_walk_zh_tw_plural
+TEXT: 探索{0}公里
 
 RESOURCE ID: quest_special_dialogue_zygarde_1_2
 TEXT: ルートの端で、なにか不思議なことが起こったという報告だ。得体のしれないものを見た、と言うものもいるらしい。
@@ -889,7 +1600,7 @@ RESOURCE ID: settings_refresh_rate_high
 TEXT: 高
 
 RESOURCE ID: settings_refresh_rate_high_recommended
-TEXT: 高い（推奨）
+TEXT: 高（推奨）
 
 RESOURCE ID: settings_refresh_rate_incompatible_device
 TEXT: このデバイスは高リフレッシュレートに適しません
@@ -913,7 +1624,7 @@ RESOURCE ID: settings_refresh_rate_updated_low
 TEXT: リフレッシュレートを低に設定しました
 
 RESOURCE ID: settings_unlock_base_framerate_description
-TEXT: 滑らかなビジュアル（バッテリーを多く消費する場合があります）
+TEXT: より滑らかで反応が速い画面（バッテリーを多く消費する場合があります）
 
 RESOURCE ID: shop_gift_confirm_purchase_warning_description
 TEXT: 有料プレゼントは、1日に20個まで送ることができます。別プレイヤーが使用できず、払い戻しができません。
@@ -962,6 +1673,9 @@ TEXT: •フレンドのために購入したプレゼントは返金の対象�
  •贈ったあとにキャンセルできません。
  •贈ることができるこのイベントの有料プレゼント上限数は{0}個です。
 
+RESOURCE ID: single_transfer_language_tag_pokemon
+TEXT: 言語タグ
+
 RESOURCE ID: sku.name.web-gowa-2024-box-4
 TEXT: GOワイルドエリアブースターボックス
 
@@ -993,6 +1707,13 @@ TEXT: <b>もらえるもの：</b>
 ・その他
 
 RESOURCE ID: text_rewards_key_chandelureraidday
+TEXT: <b>適用ボーナス：</b>
+・ジムのフォトディスクを回してもらえるレイドパス8枚追加
+・レイドでもらえるふしぎなアメXLの可能性増
+・スーパーメガレイド勝利でもらえる5000ほしのすな追加
+・スーパーメガレイド勝利でもらえる5000XP追加、など
+
+RESOURCE ID: text_rewards_key_megaclefableraidday
 TEXT: <b>適用ボーナス：</b>
 ・ジムのフォトディスクを回してもらえるレイドパス8枚追加
 ・レイドでもらえるふしぎなアメXLの可能性増
@@ -1145,6 +1866,9 @@ TEXT: Pokémon Center BANGKOK開店記念タイムチャレンジ(4/5)
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_5_header
 TEXT: Pokémon Center BANGKOK開店記念タイムチャレンジ(5/5)
+
+RESOURCE ID: trade_warning_bullet_language_tag
+TEXT: 言語タグがついているポケモン
 
 RESOURCE ID: tutorial_route_bonus_2
 TEXT: 特定の野生ポケモンがルート上により頻繁に出現することがある
