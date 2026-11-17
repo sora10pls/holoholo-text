@@ -396,6 +396,9 @@ TEXT: Shimanto
 RESOURCE ID: city_manhole_493
 TEXT: Ino
 
+RESOURCE ID: collections_filter_group_key
+TEXT: Collections
+
 RESOURCE ID: combat_matchmaking_invalid_qr
 TEXT: โค้ดไม่ถูกต้อง
 
@@ -521,11 +524,32 @@ TEXT: ซื้อบัตรผ่าน GO Deluxe: ร่องรอยข�
 RESOURCE ID: event_pass_premium_track_title_gowa_leadout_2026
 TEXT: บัตรผ่าน GO Deluxe: ร่องรอยขนาดใหญ่
 
+RESOURCE ID: evolutions_filter_group_key
+TEXT: Evolutions
+
+RESOURCE ID: filter_key_event
+TEXT: event
+
 RESOURCE ID: filter_key_language_tag
 TEXT: แท็กภาษา
 
+RESOURCE ID: filter_key_more_than
+TEXT: morethan
+
+RESOURCE ID: filter_key_new_pokedex_entry
+TEXT: newpokedexentry
+
 RESOURCE ID: filter_key_profile_background
 TEXT: พื้นหลังโพรไฟล์
+
+RESOURCE ID: filter_label_100
+TEXT: ★ 100%
+
+RESOURCE ID: filter_label_more_than_one
+TEXT: More Than 1
+
+RESOURCE ID: filter_label_new_pokedex_entry
+TEXT: New Pokédex Entry
 
 RESOURCE ID: five_additional_candy_max_battle_bonus
 TEXT: +5 ลูกอมเมื่อแบตเทิลแมกซ์เสร็จสิ้น
@@ -1226,6 +1250,9 @@ TEXT: อนุภาคแมกซ์
 RESOURCE ID: journal_player_fled
 TEXT: หนีจาก{0}ที่เผชิญหน้าในตีบอสแล้ว
 
+RESOURCE ID: jp_jleague_collab_2026_tr_name_2_desc
+TEXT: GO! ครึ่งหลัง
+
 RESOURCE ID: kr_mega_festa_rally_2026_rewards_desc_general
 TEXT: เคลียร์ "แสตมป์แรลลี MEGA FESTA 2026: โซล" เพื่อเผชิญหน้ากับโปเกมอนตามธีม
 
@@ -1277,10 +1304,10 @@ TEXT: หาก CP ของโปเกมอนที่วิวัฒนา�
 CP ของโปเกมอนที่ถึงระดับซูเปอร์แมกซ์เองก็จะไม่เพิ่มขึ้นอย่างมากในมาสเตอร์ลีกเช่นกัน
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-11-14T02:11:58.044648+00:00 for th-TH
-at SHA 2ffc79505f7
-Pipeline 4101628, job 60546289
-Patch from: 0.437.0-SHA-0699286a-RC6, 0.439.0-SHA-3df493e8-RC2, 0.435.98-SHA-b3319c4b-RC1
+TEXT: Built at 2026-11-17T23:15:34.939095+00:00 for th-TH
+at SHA f4b280cc27d
+Pipeline 4110836, job 60669493
+Patch from: 0.439.0-SHA-310604ba-RC1, 0.435.2-SHA-18494160-RC2, 0.437.0-SHA-17709004-RC5
 
 RESOURCE ID: minior_shower_tr_name
 TEXT: งานวิจัยแบบจำกัดเวลาฝนเมเทโน
@@ -1423,11 +1450,23 @@ TEXT: รายการหยุดรับของขวัญ
 RESOURCE ID: pawniard_website_link
 TEXT: ตรวจสอบรายละเอียดได้ที่<a href="https://pokemongo.com/news/communityday-november-2026-pawniard">เว็บไซต์</a>นี้
 
+RESOURCE ID: phenomenaandeffects_filter_group_key
+TEXT: Phenomena and Effects
+
 RESOURCE ID: photobomb_five_pawniard
 TEXT: โคมาทานาแย่งซีนถ่ายรูปในโกสแนปช็อต 5 ครั้ง
 
+RESOURCE ID: plus_ranks
+TEXT: +{0} RANKS
+
 RESOURCE ID: poi_contrib_report_reason_ai_generated_or_doctored_photo
 TEXT: ภาพที่สร้าง/ตัดต่อด้วย AI
+
+RESOURCE ID: pokemon_inventory_see_all
+TEXT: SEE ALL ({0})
+
+RESOURCE ID: pokemon_inventory_storage_full_banner_subtitle
+TEXT: Upgrade?
 
 RESOURCE ID: pokemon_language_tag_info_transfer_to_professor_confirmation
 TEXT: คุณแน่ใจใช่ไหมว่าต้องการถ่ายโอน
@@ -1485,6 +1524,9 @@ RESOURCE ID: pokemon_name_chip_modal_title
 TEXT: รู้ไหมว่าแต่ละภาษา
 เรียกชื่อโปเกมอน
 อย่างไรบ้าง?
+
+RESOURCE ID: pokemon_search_did_you_mean
+TEXT: Did you mean...
 
 RESOURCE ID: pokestop_button_read_qr_code
 TEXT: สแกนบาร์โค้ด 2 มิติ
@@ -1796,6 +1838,12 @@ TEXT: เอาล่ะ ทีนี้เรามาลองนำทุก�
 
 RESOURCE ID: ptr_2026_willow_05_03
 TEXT: เชื่อในสิ่งที่ได้เรียนรู้มาเข้าไว้นะ %PLAYERNAME%!
+
+RESOURCE ID: purchase_includes
+TEXT: Purchase Includes:
+
+RESOURCE ID: purchase_options_with_number
+TEXT: PURCHASE OPTIONS ({0})
 
 RESOURCE ID: qr_code_title
 TEXT: สแกนบาร์โค้ด 2 มิติ
@@ -2537,6 +2585,9 @@ TEXT: เลือกของขวัญ
 RESOURCE ID: sending_paid_gift_to
 TEXT: ส่งให้: 
 
+RESOURCE ID: settings_advanced_quality_title
+TEXT: ประสิทธิภาพ
+
 RESOURCE ID: settings_allow_paid_gifts_desc_off
 TEXT: เมื่อตั้งค่าเป็นปิด จะหยุดการรับของขวัญที่เพื่อนซื้อแบบชำระเงิน ส่วนของขวัญฟรีจะยังได้รับต่อไป
 
@@ -2556,16 +2607,16 @@ RESOURCE ID: settings_pause_gifts_list_tip
 TEXT: สามารถเลือกเพื่อนเพื่อหยุดรับของขวัญแบบชำระเงินจากเพื่อนเหล่านั้นได้ แต่ยังคงรับของขวัญฟรีได้ตามปกติ
 
 RESOURCE ID: settings_refresh_rate_balanced
-TEXT: Balanced
+TEXT: สมดุล
 
 RESOURCE ID: settings_refresh_rate_balanced_recommended
 TEXT: Balanced (Recommended)
 
 RESOURCE ID: settings_refresh_rate_high
-TEXT: High
+TEXT: สูง
 
 RESOURCE ID: settings_refresh_rate_high_recommended
-TEXT: High (Recommended)
+TEXT: สูง (แนะนำ)
 
 RESOURCE ID: settings_refresh_rate_incompatible_device
 TEXT: This device is not compatible for higher refresh rates.
@@ -2577,7 +2628,7 @@ RESOURCE ID: settings_refresh_rate_low_recommended
 TEXT: Low (Recommended)
 
 RESOURCE ID: settings_refresh_rate_name
-TEXT: Refresh Rate
+TEXT: อัตราการรีเฟรช
 
 RESOURCE ID: settings_refresh_rate_updated_balanced
 TEXT: Refresh Rate updated to Balanced.
@@ -2610,6 +2661,9 @@ TEXT: ส่งของขวัญให้ {0} แล้ว!
 
 RESOURCE ID: single_transfer_language_tag_pokemon
 TEXT: แท็กภาษา
+
+RESOURCE ID: sizes_filter_group_key
+TEXT: Sizes
 
 RESOURCE ID: sku.name.web-gowa-2024-box-4
 TEXT: กล่องบูสต์ GO ไวลด์แอเรีย
@@ -2740,6 +2794,9 @@ TEXT: หมุนเสาโปเกสต็อปธีมประเภ�
 RESOURCE ID: steel_poi_spin_singular
 TEXT: หมุนเสาโปเกสต็อปธีมประเภทโลหะ
 
+RESOURCE ID: teamgorocket_filter_group_key
+TEXT: Team GO Rocket
+
 RESOURCE ID: text_rewards_key_cd_pawniard26
 TEXT: <b>รางวัลที่จะได้รับ:</b>
 - ไอเท็มภายในเกม เช่น บัตรแบตเทิลพรีเมียม
@@ -2768,13 +2825,13 @@ TEXT: <b>โบนัสที่จะได้รับ:</b>
 เสร็จสิ้น
 
 RESOURCE ID: th_poke_center_bangkok_bonus_0
-TEXT: Receive themed stickers when you spin PokéStops in Thailand
+TEXT: รับสติกเกอร์ตามธีมจากการหมุนเสาโปเกสต็อปในประเทศไทย
 
 RESOURCE ID: th_poke_center_bangkok_title
-TEXT: Pokémon Center BANGKOK Opens!
+TEXT: ฉลองเปิด Pokémon Center BANGKOK
 
 RESOURCE ID: th_poke_center_bangkok_tv_desc
-TEXT: The Pokémon Center in Bangkok is now open! Timed Research offers rewards and stickers, with more stickers available from PokéStop spins. Visit the blog for details.
+TEXT: Pokémon Center BANGKOK เปิดแล้ว! ทำงานวิจัยแบบจำกัดเวลาให้เสร็จสิ้นเพื่อรับสติกเกอร์ สติกเกอร์ที่ได้รับจากการหมุนเสาโปเกสต็อปก็เพิ่มขึ้นด้วย ดูรายละเอียดเพิ่มเติมได้ที่บล็อก
 
 RESOURCE ID: three_additional_candy_xl_max_battle_bonus
 TEXT: +3 ลูกอม XL เมื่อแบตเทิลแมกซ์เสร็จสิ้น
@@ -2843,22 +2900,22 @@ RESOURCE ID: tr_gowa2026_power_up_title
 TEXT: GO ไวลด์แอเรีย: สัปดาห์พาวเวอร์อัปไคริกีกิกะแมกซ์!
 
 RESOURCE ID: tr_poke_center_bgk_2026
-TEXT: Pokémon Center BANGKOK Opens! Timed Research
+TEXT: งานวิจัยแบบจำกัดเวลาฉลองเปิด Pokémon Center BANGKOK
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_1_header
-TEXT: Pokémon Center BANGKOK Opens! Timed Research (1/5)
+TEXT: งานวิจัยแบบจำกัดเวลาฉลองเปิด Pokémon Center BANGKOK (1/5)
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_2_header
-TEXT: Pokémon Center BANGKOK Opens! Timed Research (2/5)
+TEXT: งานวิจัยแบบจำกัดเวลาฉลองเปิด Pokémon Center BANGKOK (2/5)
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_3_header
-TEXT: Pokémon Center BANGKOK Opens! Timed Research (3/5)
+TEXT: งานวิจัยแบบจำกัดเวลาฉลองเปิด Pokémon Center BANGKOK (3/5)
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_4_header
-TEXT: Pokémon Center BANGKOK Opens! Timed Research (4/5)
+TEXT: งานวิจัยแบบจำกัดเวลาฉลองเปิด Pokémon Center BANGKOK (4/5)
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_5_header
-TEXT: Pokémon Center BANGKOK Opens! Timed Research (5/5)
+TEXT: งานวิจัยแบบจำกัดเวลาฉลองเปิด Pokémon Center BANGKOK (5/5)
 
 RESOURCE ID: trade_warning_bullet_language_tag
 TEXT: โปเกมอนที่มีแท็กภาษา
@@ -2898,4 +2955,7 @@ TEXT: รับรางวัลเพิ่มเติมและปลด�
 
 RESOURCE ID: username_suggestion_disclaimer_new_user
 TEXT: เคล็ดลับ: กรุณาอย่าใช้ชื่อจริง เนื่องจากเทรนเนอร์คนอื่นสามารถเห็นชื่อนี้ได้ คุณสามารถเปลี่ยนชื่อเทรนเนอร์ได้ในภายหลัง
+
+RESOURCE ID: web_includes
+TEXT: WEB INCLUDES:
 

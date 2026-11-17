@@ -251,6 +251,9 @@ TEXT: Shimanto
 RESOURCE ID: city_manhole_493
 TEXT: Ino
 
+RESOURCE ID: collections_filter_group_key
+TEXT: Collections
+
 RESOURCE ID: combat_matchmaking_invalid_qr
 TEXT: Código 2D inválido.
 
@@ -319,11 +322,32 @@ TEXT: Compre o Passe GO Deluxe: Trilhas Dinamax para desbloquear recompensas adi
 RESOURCE ID: event_pass_premium_track_title_gowa_leadout_2026
 TEXT: Passe GO Deluxe: Trilhas Dinamax
 
+RESOURCE ID: evolutions_filter_group_key
+TEXT: Evolutions
+
+RESOURCE ID: filter_key_event
+TEXT: event
+
 RESOURCE ID: filter_key_language_tag
 TEXT: tagdeidioma
 
+RESOURCE ID: filter_key_more_than
+TEXT: morethan
+
+RESOURCE ID: filter_key_new_pokedex_entry
+TEXT: newpokedexentry
+
 RESOURCE ID: filter_key_profile_background
 TEXT: fundodeperfil
+
+RESOURCE ID: filter_label_100
+TEXT: ★ 100%
+
+RESOURCE ID: filter_label_more_than_one
+TEXT: More Than 1
+
+RESOURCE ID: filter_label_new_pokedex_entry
+TEXT: New Pokédex Entry
 
 RESOURCE ID: five_additional_candy_max_battle_bonus
 TEXT: 5 Doces adicionais por completar Batalhas Max
@@ -873,16 +897,16 @@ TEXT: Se o PC de um Pokémon Megaevoluído ultrapassar o limite em certas Ligas 
 Pokémon no Super Nível Máximo não receberão o bônus de PC muito intensificado na Liga Mestra.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-11-14T02:11:58.044648+00:00 for pt-BR
-at SHA 2ffc79505f7
-Pipeline 4101628, job 60546289
-Patch from: 0.437.0-SHA-0699286a-RC6, 0.439.0-SHA-3df493e8-RC2, 0.435.98-SHA-b3319c4b-RC1
+TEXT: Built at 2026-11-17T23:15:34.939095+00:00 for pt-BR
+at SHA f4b280cc27d
+Pipeline 4110836, job 60669493
+Patch from: 0.439.0-SHA-310604ba-RC1, 0.435.2-SHA-18494160-RC2, 0.437.0-SHA-17709004-RC5
 
 RESOURCE ID: minior_shower_tr_name
 TEXT: Pesquisa Temporária de Chuva de Minior
 
 RESOURCE ID: moonblast_base_increased_level_bonus
-TEXT: O nível de Mega Clefable será aumentado de 30 de novembro de 2026, às 12h, até 13 de dezembro de 2026, às 12h (horário do Pacífico).
+TEXT: Mega Clefable no Super Nível Máximo terá seu PC aumentado de 30 de novembro de 2026, às 12h, até 13 de dezembro de 2026, às 12h (horário do Pacífico).
 
 RESOURCE ID: moonblast_base_power_boost_bonus
 TEXT: Explosão Lunar+ terá seu poder aumentado de 30 de novembro de 2026, às 12h, até 13 de dezembro de 2026, às 12h (horário do Pacífico).
@@ -950,11 +974,23 @@ TEXT: Escaneie o código 2D do grupo.
 RESOURCE ID: pawniard_website_link
 TEXT: Para mais informações, visite o <a href="https://pokemongo.com/news/communityday-november-2026-pawniard">site</a>.
 
+RESOURCE ID: phenomenaandeffects_filter_group_key
+TEXT: Phenomena and Effects
+
 RESOURCE ID: photobomb_five_pawniard
 TEXT: 5 encontros surpresa com Pawniard ao usar o Retrato GO
 
+RESOURCE ID: plus_ranks
+TEXT: +{0} RANKS
+
 RESOURCE ID: poi_contrib_report_reason_ai_generated_or_doctored_photo
 TEXT: Foto gerada ou editada por IA
+
+RESOURCE ID: pokemon_inventory_see_all
+TEXT: SEE ALL ({0})
+
+RESOURCE ID: pokemon_inventory_storage_full_banner_subtitle
+TEXT: Upgrade?
 
 RESOURCE ID: pokemon_language_tag_info_transfer_to_professor_confirmation
 TEXT: Quer mesmo transferir este Pokémon com uma tag de idioma?
@@ -1009,6 +1045,9 @@ TEXT: Turco
 
 RESOURCE ID: pokemon_name_chip_modal_title
 TEXT: Você sabia que os Pokémon podem ter nomes diferentes em idiomas diferentes?
+
+RESOURCE ID: pokemon_search_did_you_mean
+TEXT: Did you mean...
 
 RESOURCE ID: pokestop_button_read_qr_code
 TEXT: LER CÓDIGO 2D
@@ -1235,6 +1274,12 @@ TEXT: Agora, vamos colocar em prática tudo o que você descobriu. Você já dev
 
 RESOURCE ID: ptr_2026_willow_05_03
 TEXT: Confie no que você aprendeu, %PLAYERNAME%!
+
+RESOURCE ID: purchase_includes
+TEXT: Purchase Includes:
+
+RESOURCE ID: purchase_options_with_number
+TEXT: PURCHASE OPTIONS ({0})
 
 RESOURCE ID: qr_code_title
 TEXT: Escaneie o código 2D
@@ -1970,6 +2015,9 @@ TEXT: Você não pode enviar um presente pago se o destinatário:
 RESOURCE ID: single_transfer_language_tag_pokemon
 TEXT: Tag de idioma
 
+RESOURCE ID: sizes_filter_group_key
+TEXT: Sizes
+
 RESOURCE ID: sku.name.web-gowa-2024-box-4
 TEXT: Combo de Apoio da Área Selvagem GO
 
@@ -2108,6 +2156,9 @@ TEXT: Girar {0} Poképaradas temáticas de tipo Aço diferentes.
 RESOURCE ID: steel_poi_spin_singular
 TEXT: Girar 1 Poképarada temática de tipo Aço.
 
+RESOURCE ID: teamgorocket_filter_group_key
+TEXT: Team GO Rocket
+
 RESOURCE ID: text_rewards_key_cd_pawniard26
 TEXT: <b>As recompensas incluem:</b>
 • Itens premium de jogo, como 1 Passe de Batalha Premium, 1 MT de Ataque Carregado e Doce Raro
@@ -2129,13 +2180,13 @@ TEXT: <b>Os bônus incluem:</b>
 • 5.000 PE adicionais por completar Super Megarreides com sucesso
 
 RESOURCE ID: th_poke_center_bangkok_bonus_0
-TEXT: Receive themed stickers when you spin PokéStops in Thailand
+TEXT: Ganhe adesivos temáticos ao girar Poképaradas na Tailândia
 
 RESOURCE ID: th_poke_center_bangkok_title
-TEXT: Pokémon Center BANGKOK Opens!
+TEXT: Inauguração do Pokémon Center BANGKOK!
 
 RESOURCE ID: th_poke_center_bangkok_tv_desc
-TEXT: The Pokémon Center in Bangkok is now open! Timed Research offers rewards and stickers, with more stickers available from PokéStop spins. Visit the blog for details.
+TEXT: O Pokémon Center de Bangkok já está aberto! A Pesquisa Temporária oferece recompensas e adesivos, e você pode conseguir ainda mais adesivos ao girar Poképaradas. Acesse o blog para saber mais.
 
 RESOURCE ID: three_additional_candy_xl_max_battle_bonus
 TEXT: 3 Doces GG adicionais por completar Batalhas Max
@@ -2207,22 +2258,22 @@ RESOURCE ID: tr_gowa2026_power_up_title
 TEXT: Área Selvagem GO: Fortalecimento de Machamp Gigamax
 
 RESOURCE ID: tr_poke_center_bgk_2026
-TEXT: Pokémon Center BANGKOK Opens! Timed Research
+TEXT: Pesquisa Temporária de Inauguração do Pokémon Center BANGKOK!
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_1_header
-TEXT: Pokémon Center BANGKOK Opens! Timed Research (1/5)
+TEXT: Pesquisa Temporária de Inauguração do Pokémon Center BANGKOK! (1/5)
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_2_header
-TEXT: Pokémon Center BANGKOK Opens! Timed Research (2/5)
+TEXT: Pesquisa Temporária de Inauguração do Pokémon Center BANGKOK! (2/5)
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_3_header
-TEXT: Pokémon Center BANGKOK Opens! Timed Research (3/5)
+TEXT: Pesquisa Temporária de Inauguração do Pokémon Center BANGKOK! (3/5)
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_4_header
-TEXT: Pokémon Center BANGKOK Opens! Timed Research (4/5)
+TEXT: Pesquisa Temporária de Inauguração do Pokémon Center BANGKOK! (4/5)
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_5_header
-TEXT: Pokémon Center BANGKOK Opens! Timed Research (5/5)
+TEXT: Pesquisa Temporária de Inauguração do Pokémon Center BANGKOK! (5/5)
 
 RESOURCE ID: trade_warning_bullet_language_tag
 TEXT: Pokémon tem uma tag de idioma
@@ -2258,4 +2309,7 @@ TEXT: Compre o Passe GO Deluxe: Chamados do Crepúsculo para desbloquear as segu
 
 RESOURCE ID: twilight_trails_finale_event_pass_upgrade_header_description
 TEXT: Ganhe recompensas adicionais e desbloqueie a Pose com Balão de Estrela no Ranque 16!
+
+RESOURCE ID: web_includes
+TEXT: WEB INCLUDES:
 

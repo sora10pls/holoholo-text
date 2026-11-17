@@ -254,6 +254,9 @@ TEXT: Shimanto
 RESOURCE ID: city_manhole_493
 TEXT: Ino
 
+RESOURCE ID: collections_filter_group_key
+TEXT: Collections
+
 RESOURCE ID: combat_matchmaking_invalid_qr
 TEXT: Codice 2D non valido.
 
@@ -322,17 +325,38 @@ TEXT: Acquista il biglietto GO deluxe dell’evento “Sentieri Dynamax” per s
 RESOURCE ID: event_pass_premium_track_title_gowa_leadout_2026
 TEXT: Biglietto GO deluxe dell’evento “Sentieri Dynamax”
 
+RESOURCE ID: evolutions_filter_group_key
+TEXT: Evolutions
+
+RESOURCE ID: filter_key_event
+TEXT: event
+
 RESOURCE ID: filter_key_language_tag
 TEXT: etichettadellalingua
 
+RESOURCE ID: filter_key_more_than
+TEXT: morethan
+
+RESOURCE ID: filter_key_new_pokedex_entry
+TEXT: newpokedexentry
+
 RESOURCE ID: filter_key_profile_background
 TEXT: sfondoprofilo
+
+RESOURCE ID: filter_label_100
+TEXT: ★ 100%
+
+RESOURCE ID: filter_label_more_than_one
+TEXT: More Than 1
+
+RESOURCE ID: filter_label_new_pokedex_entry
+TEXT: New Pokédex Entry
 
 RESOURCE ID: five_additional_candy_max_battle_bonus
 TEXT: Cinque caramelle aggiuntive quando porti a termine una Lotta Dynamax
 
 RESOURCE ID: flip_to_dim_settings_description
-TEXT: Dims the screen when you hold your phone upside down to help save battery.
+TEXT: Oscura lo schermo quando tieni il telefono capovolto, per agevolare il risparmio batteria.
 
 RESOURCE ID: general1.ticket_cd_pawniard26_title
 TEXT: Biglietto per il Community Day dedicato a Pawniard
@@ -734,22 +758,22 @@ RESOURCE ID: halloween_spooky_surprise_tappable_today_view
 TEXT: Delle sorprese inquietanti stanno apparendo sulla mappa!
 
 RESOURCE ID: high_refresh_rate_prompt_body
-TEXT: Get smoother visuals and more responsive gameplay, which may affect battery life. You can change this anytime in Settings.
+TEXT: Ottieni effetti visivi più fluidi e un’esperienza di gioco più reattiva. Queste impostazioni possono incidere sulla durata della batteria. Puoi modificare la tua scelta in qualsiasi momento nelle Impostazioni.
 
 RESOURCE ID: high_refresh_rate_prompt_dismiss_button
-TEXT: MAYBE LATER
+TEXT: NON ADESSO
 
 RESOURCE ID: high_refresh_rate_prompt_enable_button
-TEXT: TURN ON
+TEXT: ATTIVA
 
 RESOURCE ID: high_refresh_rate_prompt_title
-TEXT: Update Your Refresh Rate
+TEXT: Migliora la frequenza di aggiornamento
 
 RESOURCE ID: high_refresh_rate_settings_description
-TEXT: Get smoother visuals and more responsive gameplay. This may affect battery life.
+TEXT: Ottieni effetti visivi più fluidi e un’esperienza di gioco più reattiva. Queste impostazioni possono incidere sulla durata della batteria.
 
 RESOURCE ID: high_refresh_rate_settings_title
-TEXT: Improve Visuals and Animations
+TEXT: Migliora effetti visivi e animazioni
 
 RESOURCE ID: in.fol.2026.bundle_title
 TEXT: Festival of Lights Box
@@ -871,10 +895,10 @@ TEXT: Se un Pokémon megaevoluto supera il limite massimo di PL consentito in de
  I Pokémon che hanno raggiunto il super livello massimo non otterranno un aumento significativo del bonus PE da cattura nella Lega Master.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-11-14T02:11:58.044648+00:00 for it-IT
-at SHA 2ffc79505f7
-Pipeline 4101628, job 60546289
-Patch from: 0.437.0-SHA-0699286a-RC6, 0.439.0-SHA-3df493e8-RC2, 0.435.98-SHA-b3319c4b-RC1
+TEXT: Built at 2026-11-17T23:15:34.939095+00:00 for it-IT
+at SHA f4b280cc27d
+Pipeline 4110836, job 60669493
+Patch from: 0.439.0-SHA-310604ba-RC1, 0.435.2-SHA-18494160-RC2, 0.437.0-SHA-17709004-RC5
 
 RESOURCE ID: minior_shower_tr_name
 TEXT: Ricerca a tempo della pioggia di Minior
@@ -916,7 +940,7 @@ RESOURCE ID: month_september
 TEXT: Settembre
 
 RESOURCE ID: moonblast_base_increased_level_bonus
-TEXT: Il livello di MegaClefable sarà aumentato dal 30 novembre alle 12:00 fino al 13 dicembre 2026 alla stessa ora (GMT -8).
+TEXT: I PL di MegaClefable al super livello massimo saranno aumentati dal 30 novembre alle 12:00 PST (GMT -8) fino al 13 dicembre 2026 alla stessa ora.
 
 RESOURCE ID: moonblast_base_power_boost_bonus
 TEXT: La potenza di Forza Lunare+ sarà aumentata dal 30 novembre alle 12:00 fino al 13 dicembre 2026 alla stessa ora (GMT -8).
@@ -984,11 +1008,23 @@ TEXT: Scansiona il codice 2D.
 RESOURCE ID: pawniard_website_link
 TEXT: Per ulteriori informazioni, visita il <a href="https://pokemongo.com/news/communityday-november-2026-pawniard">sito</a>.
 
+RESOURCE ID: phenomenaandeffects_filter_group_key
+TEXT: Phenomena and Effects
+
 RESOURCE ID: photobomb_five_pawniard
 TEXT: Cinque incontri a sorpresa con Pawniard in modalità foto GO
 
+RESOURCE ID: plus_ranks
+TEXT: +{0} RANKS
+
 RESOURCE ID: poi_contrib_report_reason_ai_generated_or_doctored_photo
 TEXT: Foto generata o manipolata con l’IA
+
+RESOURCE ID: pokemon_inventory_see_all
+TEXT: SEE ALL ({0})
+
+RESOURCE ID: pokemon_inventory_storage_full_banner_subtitle
+TEXT: Upgrade?
 
 RESOURCE ID: pokemon_language_tag_info_transfer_to_professor_confirmation
 TEXT: Vuoi davvero trasferire questo Pokémon con etichetta della lingua?
@@ -1043,6 +1079,9 @@ TEXT: Turco
 
 RESOURCE ID: pokemon_name_chip_modal_title
 TEXT: Lo sapevi che i Pokémon possono avere nomi diversi a seconda della lingua?
+
+RESOURCE ID: pokemon_search_did_you_mean
+TEXT: Did you mean...
 
 RESOURCE ID: pokestop_button_read_qr_code
 TEXT: LEGGI CODICE 2D
@@ -1269,6 +1308,12 @@ TEXT: Ora mettiamo a frutto tutte le tue scoperte. Le missioni finali non dovreb
 
 RESOURCE ID: ptr_2026_willow_05_03
 TEXT: Affidati a ciò che hai imparato, %PLAYERNAME%!
+
+RESOURCE ID: purchase_includes
+TEXT: Purchase Includes:
+
+RESOURCE ID: purchase_options_with_number
+TEXT: PURCHASE OPTIONS ({0})
 
 RESOURCE ID: qr_code_title
 TEXT: Scansiona il codice 2D
@@ -1949,38 +1994,44 @@ TEXT: Seleziona un regalo a pagamento da inviare al tuo amico
 RESOURCE ID: sending_paid_gift_to
 TEXT: Stai inviando questo regalo a pagamento a:
 
+RESOURCE ID: settings_advanced_quality_title
+TEXT: Prestazioni
+
 RESOURCE ID: settings_refresh_rate_balanced
-TEXT: Balanced
+TEXT: Bilanciata
 
 RESOURCE ID: settings_refresh_rate_balanced_recommended
-TEXT: Balanced (Recommended)
+TEXT: Bilanciata (consigliata)
 
 RESOURCE ID: settings_refresh_rate_high
-TEXT: High
+TEXT: Alta
 
 RESOURCE ID: settings_refresh_rate_high_recommended
-TEXT: High (Recommended)
+TEXT: Alta (consigliata)
 
 RESOURCE ID: settings_refresh_rate_incompatible_device
-TEXT: This device is not compatible for higher refresh rates.
+TEXT: Questo dispositivo non è compatibile con frequenze di aggiornamento più alte.
 
 RESOURCE ID: settings_refresh_rate_low
-TEXT: Low
+TEXT: Basso
 
 RESOURCE ID: settings_refresh_rate_low_recommended
-TEXT: Low (Recommended)
+TEXT: Bassa (consigliata)
 
 RESOURCE ID: settings_refresh_rate_name
-TEXT: Refresh Rate
+TEXT: Frequenza di aggiornamento
 
 RESOURCE ID: settings_refresh_rate_updated_balanced
-TEXT: Refresh Rate updated to Balanced.
+TEXT: Frequenza di aggiornamento impostata su bilanciata.
 
 RESOURCE ID: settings_refresh_rate_updated_high
-TEXT: Refresh Rate updated to High.
+TEXT: Frequenza di aggiornamento impostata su alta.
 
 RESOURCE ID: settings_refresh_rate_updated_low
-TEXT: Refresh Rate updated to Low.
+TEXT: Frequenza di aggiornamento impostata su bassa.
+
+RESOURCE ID: settings_unlock_base_framerate_description
+TEXT: Abilita effetti visivi più fluidi e reattivi. Queste impostazioni possono incidere sulla durata della batteria.
 
 RESOURCE ID: shop_gift_confirm_purchase_warning_description
 TEXT: Puoi inviare un totale di 20 regali a pagamento oggi. Questo regalo non può essere utilizzato da un altro giocatore né rimborsato.
@@ -1997,6 +2048,9 @@ TEXT: Non puoi inviare un regalo a pagamento se il ricevente:
 
 RESOURCE ID: single_transfer_language_tag_pokemon
 TEXT: Etichetta della lingua
+
+RESOURCE ID: sizes_filter_group_key
+TEXT: Sizes
 
 RESOURCE ID: sku.name.web-gowa-2024-box-4
 TEXT: pacco boost Terre Selvagge di GO
@@ -2133,6 +2187,9 @@ TEXT: Fai girare i dischi di {0} diversi Pokéstop a tema Pokémon di tipo Accia
 RESOURCE ID: steel_poi_spin_singular
 TEXT: Fai girare il disco di un Pokéstop a tema Pokémon di tipo Acciaio
 
+RESOURCE ID: teamgorocket_filter_group_key
+TEXT: Team GO Rocket
+
 RESOURCE ID: text_rewards_key_cd_pawniard26
 TEXT: <b>Le ricompense includono:</b>
 • Strumenti premium nel gioco come un biglietto lotta premium, una MT attacco caricato e Caramelle Rare
@@ -2154,13 +2211,13 @@ TEXT: <b>I bonus includono:</b>
 • 5.000 PE aggiuntivi quando porti a termine un super megaraid con successo
 
 RESOURCE ID: th_poke_center_bangkok_bonus_0
-TEXT: Receive themed stickers when you spin PokéStops in Thailand
+TEXT: Ottieni adesivi a tema facendo girare i dischi dei Pokéstop situati in Thailandia.
 
 RESOURCE ID: th_poke_center_bangkok_title
-TEXT: Pokémon Center BANGKOK Opens!
+TEXT: Apertura del Pokémon Center a BANGKOK!
 
 RESOURCE ID: th_poke_center_bangkok_tv_desc
-TEXT: The Pokémon Center in Bangkok is now open! Timed Research offers rewards and stickers, with more stickers available from PokéStop spins. Visit the blog for details.
+TEXT: Il Pokémon Center di Bangkok ha aperto i battenti! La ricerca a tempo offre ricompense e adesivi. Adesivi aggiuntivi sono disponibili facendo girare i dischi dei Pokéstop. Leggi il nostro blog per ulteriori dettagli.
 
 RESOURCE ID: three_additional_candy_xl_max_battle_bonus
 TEXT: Tre caramelle L aggiuntive quando porti a termine una Lotta Dynamax
@@ -2232,22 +2289,22 @@ RESOURCE ID: tr_gowa2026_power_up_title
 TEXT: Potenziamento Machamp Gigamax dell’evento “Terre Selvagge di GO”
 
 RESOURCE ID: tr_poke_center_bgk_2026
-TEXT: Pokémon Center BANGKOK Opens! Timed Research
+TEXT: Ricerca a tempo dell’Apertura del Pokémon Center a BANGKOK!
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_1_header
-TEXT: Pokémon Center BANGKOK Opens! Timed Research (1/5)
+TEXT: Ricerca a tempo dell’Apertura del Pokémon Center a BANGKOK! (1/5)
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_2_header
-TEXT: Pokémon Center BANGKOK Opens! Timed Research (2/5)
+TEXT: Ricerca a tempo dell’Apertura del Pokémon Center a BANGKOK! (2/5)
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_3_header
-TEXT: Pokémon Center BANGKOK Opens! Timed Research (3/5)
+TEXT: Ricerca a tempo dell’Apertura del Pokémon Center a BANGKOK! (3/5)
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_4_header
-TEXT: Pokémon Center BANGKOK Opens! Timed Research (4/5)
+TEXT: Ricerca a tempo dell’Apertura del Pokémon Center a BANGKOK! (4/5)
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_5_header
-TEXT: Pokémon Center BANGKOK Opens! Timed Research (5/5)
+TEXT: Ricerca a tempo dell’Apertura del Pokémon Center a BANGKOK! (5/5)
 
 RESOURCE ID: trade_warning_bullet_language_tag
 TEXT: Pokémon con etichetta della lingua
@@ -2286,4 +2343,7 @@ TEXT: Ottieni ricompense aggiuntive e sblocca la posa palloncino a forma di stel
 
 RESOURCE ID: username_suggestion_disclaimer_new_user
 TEXT: Consiglio: non usare il tuo vero nome, perché sarà visibile agli altri Allenatori. Potrai modificarlo in seguito.
+
+RESOURCE ID: web_includes
+TEXT: WEB INCLUDES:
 

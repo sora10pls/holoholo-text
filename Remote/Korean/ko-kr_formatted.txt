@@ -335,6 +335,9 @@ TEXT: Shimanto
 RESOURCE ID: city_manhole_493
 TEXT: Ino
 
+RESOURCE ID: collections_filter_group_key
+TEXT: Collections
+
 RESOURCE ID: community_day_pawniard_event_name
 TEXT: 커뮤니티 데이: 자망칼
 
@@ -401,11 +404,32 @@ TEXT: GO패스 디럭스: 커다란 발자국을 구매하면 이벤트와 관�
 RESOURCE ID: event_pass_premium_track_title_gowa_leadout_2026
 TEXT: GO패스 디럭스: 커다란 발자국
 
+RESOURCE ID: evolutions_filter_group_key
+TEXT: Evolutions
+
+RESOURCE ID: filter_key_event
+TEXT: event
+
 RESOURCE ID: filter_key_language_tag
 TEXT: 언어 태그
 
+RESOURCE ID: filter_key_more_than
+TEXT: morethan
+
+RESOURCE ID: filter_key_new_pokedex_entry
+TEXT: newpokedexentry
+
 RESOURCE ID: filter_key_profile_background
 TEXT: 프로필 배경
+
+RESOURCE ID: filter_label_100
+TEXT: ★ 100%
+
+RESOURCE ID: filter_label_more_than_one
+TEXT: More Than 1
+
+RESOURCE ID: filter_label_new_pokedex_entry
+TEXT: New Pokédex Entry
 
 RESOURCE ID: five_additional_candy_max_battle_bonus
 TEXT: 맥스배틀에서 받을 수 있는 사탕 5개 추가
@@ -976,10 +1000,10 @@ TEXT: 메가진화한 포켓몬의 CP가 특정 리그의 상한을 넘는 경�
 슈퍼 맥스 레벨에 달성한 포켓몬이 마스터리그에서 CP가 대폭 올라가지는 않습니다.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-11-14T02:11:58.044648+00:00 for ko-KR
-at SHA 2ffc79505f7
-Pipeline 4101628, job 60546289
-Patch from: 0.437.0-SHA-0699286a-RC6, 0.439.0-SHA-3df493e8-RC2, 0.435.98-SHA-b3319c4b-RC1
+TEXT: Built at 2026-11-17T23:15:34.939095+00:00 for ko-KR
+at SHA f4b280cc27d
+Pipeline 4110836, job 60669493
+Patch from: 0.439.0-SHA-310604ba-RC1, 0.435.2-SHA-18494160-RC2, 0.437.0-SHA-17709004-RC5
 
 RESOURCE ID: minior_shower_tr_name
 TEXT: 메테노 샤워 시간제한 리서치
@@ -1113,14 +1137,26 @@ TEXT: 선물 수령 정지 리스트
 RESOURCE ID: pawniard_website_link
 TEXT: 자세한 내용은 <a href="https://pokemongo.com/news/communityday-november-2026-pawniard">웹사이트</a>에서 확인해 주세요.
 
+RESOURCE ID: phenomenaandeffects_filter_group_key
+TEXT: Phenomena and Effects
+
 RESOURCE ID: photobomb_five_pawniard
 TEXT: GO스냅샷으로 자망칼의 서프라이즈 5회
+
+RESOURCE ID: plus_ranks
+TEXT: +{0} RANKS
 
 RESOURCE ID: poi_contrib_report_reason_ai_generated_or_doctored_photo
 TEXT: AI생성 또는 조작된 사진
 
 RESOURCE ID: pokemon_info_transfer_to_professor
 TEXT: 박사에게 보낸다
+
+RESOURCE ID: pokemon_inventory_see_all
+TEXT: SEE ALL ({0})
+
+RESOURCE ID: pokemon_inventory_storage_full_banner_subtitle
+TEXT: Upgrade?
 
 RESOURCE ID: pokemon_language_tag_info_transfer_to_professor_confirmation
 TEXT: 언어 태그가 있는 포켓몬을 정말로 보내겠습니까?
@@ -1175,6 +1211,9 @@ TEXT: 튀르키예어
 
 RESOURCE ID: pokemon_name_chip_modal_title
 TEXT: 포켓몬 이름이 각 언어로 어떻게 표현하는지 아십니까?
+
+RESOURCE ID: pokemon_search_did_you_mean
+TEXT: Did you mean...
 
 RESOURCE ID: premium_gift_ftue_desc
 TEXT: 숍에서 구매할 수 있는 프렌드에게 보낼 수 있는 선물의 종류가 늘었습니다!
@@ -1441,6 +1480,12 @@ TEXT: 다음은 지금까지의 조사 항목을 복습하는 거야. 정신 차
 
 RESOURCE ID: ptr_2026_willow_05_03
 TEXT: 지금까지 배운 걸 잘 기억하고 실력 발휘해 봐, %PLAYERNAME%!
+
+RESOURCE ID: purchase_includes
+TEXT: Purchase Includes:
+
+RESOURCE ID: purchase_options_with_number
+TEXT: PURCHASE OPTIONS ({0})
 
 RESOURCE ID: quest_buddy_affection_dragon_plural
 TEXT: 드래곤타입 파트너 포켓몬의 하트를 {0}개 획득한다
@@ -2081,6 +2126,14 @@ TEXT: 자세한 내용은 <a href="https://pokemongo.com/news/halloween-part-1-2
 RESOURCE ID: season_pass_details_link_nov2026
 TEXT: 자세한 내용은 <a href="https://pokemongo.com/news/go-pass-november-2026">웹사이트</a>에서 확인해 주세요.
 
+RESOURCE ID: season_pass_fall_marathon_2026_upgrade_description
+TEXT: GO패스 디럭스: 가을 마라톤을 구매하면 다음 리워드를 받을 수 있습니다!
+
+- 썬더볼트의 메가 에너지
+- 이벤트와 어울리는 포켓몬과의 만남
+- 이상한사탕XL
+- 기타
+
 RESOURCE ID: season_pass_halloween2026_event_duration
 TEXT: 10월 27일~11월 5일
 
@@ -2114,6 +2167,22 @@ TEXT: GO패스 디럭스: 핼러윈 2026 + 10랭크
 
 RESOURCE ID: season_pass_premium_track_title_halloween2026
 TEXT: GO패스 디럭스: 핼러윈 2026
+
+RESOURCE ID: season_pass_spring_marathon_2026_upgrade_description
+TEXT: GO패스 디럭스: 봄 마라톤을 구매하면 다음 리워드를 받을 수 있습니다!
+
+- 마라톤 슈즈(블랙)
+- 이벤트와 어울리는 포켓몬과의 만남
+- 이상한사탕XL
+- 기타
+
+RESOURCE ID: season_pass_summermarathon2026_upgrade_description
+TEXT: GO패스 디럭스: 여름 마라톤을 구매하면 다음 리워드를 받을 수 있습니다!
+
+- 슈퍼 부화장치
+- 이벤트와 어울리는 포켓몬과의 만남
+- 이상한사탕XL
+- 기타
 
 RESOURCE ID: select_a_paid_gift
 TEXT: 보낼 선물 선택
@@ -2200,6 +2269,9 @@ TEXT: {0}님이 보낸 이벤트 티켓 선물이 도착했습니다!
 
 RESOURCE ID: single_transfer_language_tag_pokemon
 TEXT: 언어 태그
+
+RESOURCE ID: sizes_filter_group_key
+TEXT: Sizes
 
 RESOURCE ID: sku.name.web-gowa-2024-box-4
 TEXT: GO 와일드 에리어 부스터 박스
@@ -2315,6 +2387,9 @@ TEXT: 다른 강철타입 테마 포켓스톱을 {0}개 돌린다
 RESOURCE ID: steel_poi_spin_singular
 TEXT: 강철타입 테마 포켓스톱을 1개 돌린다
 
+RESOURCE ID: teamgorocket_filter_group_key
+TEXT: Team GO Rocket
+
 RESOURCE ID: text_rewards_key_cd_pawniard26
 TEXT: <b>받을 수 있는 리워드:</b>
 - 자망칼(스페셜 배경 있음)과의 만남
@@ -2336,13 +2411,13 @@ TEXT: <b>받을 수 있는 보너스:</b>
 - 슈퍼 메가 레이드 승리로 받을 수 있는 5,000 XP 추가 등
 
 RESOURCE ID: th_poke_center_bangkok_bonus_0
-TEXT: Receive themed stickers when you spin PokéStops in Thailand
+TEXT: 타이의 포켓스톱을 돌렸을 때 테마 스티커가 나온다
 
 RESOURCE ID: th_poke_center_bangkok_title
-TEXT: Pokémon Center BANGKOK Opens!
+TEXT: Pokémon Center BANGKOK 오픈 기념
 
 RESOURCE ID: th_poke_center_bangkok_tv_desc
-TEXT: The Pokémon Center in Bangkok is now open! Timed Research offers rewards and stickers, with more stickers available from PokéStop spins. Visit the blog for details.
+TEXT: Pokémon Center BANGKOK 오픈! 시간제한 리서치로 스티커를 받을 수 있습니다. 포켓스톱을 돌렸을 때 받을 수 있는 스티커도 늘어납니다. 자세한 내용은 공식 블로그에서 확인하세요.
 
 RESOURCE ID: three_additional_candy_xl_max_battle_bonus
 TEXT: 맥스배틀에서 받을 수 있는 사탕XL 3개 추가
@@ -2411,22 +2486,22 @@ RESOURCE ID: tr_gowa2026_power_up_title
 TEXT: GO 와일드 에리어: 거다이맥스 괴력몬  강화 주간
 
 RESOURCE ID: tr_poke_center_bgk_2026
-TEXT: Pokémon Center BANGKOK Opens! Timed Research
+TEXT: Pokémon Center BANGKOK 오픈 기념 시간제한 리서치
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_1_header
-TEXT: Pokémon Center BANGKOK Opens! Timed Research (1/5)
+TEXT: Pokémon Center BANGKOK 오픈 기념 시간제한 리서치(1/5)
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_2_header
-TEXT: Pokémon Center BANGKOK Opens! Timed Research (2/5)
+TEXT: Pokémon Center BANGKOK 오픈 기념 시간제한 리서치(2/5)
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_3_header
-TEXT: Pokémon Center BANGKOK Opens! Timed Research (3/5)
+TEXT: Pokémon Center BANGKOK 오픈 기념 시간제한 리서치(3/5)
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_4_header
-TEXT: Pokémon Center BANGKOK Opens! Timed Research (4/5)
+TEXT: Pokémon Center BANGKOK 오픈 기념 시간제한 리서치(4/5)
 
 RESOURCE ID: tr_poke_center_bgk_2026_id_5_header
-TEXT: Pokémon Center BANGKOK Opens! Timed Research (5/5)
+TEXT: Pokémon Center BANGKOK 오픈 기념 시간제한 리서치(6/5)
 
 RESOURCE ID: trade_warning_bullet_language_tag
 TEXT: 언어 태그가 있는 포켓몬 
@@ -2465,4 +2540,7 @@ TEXT: 추가 리워드를 받을 수 있고 랭크 16에서 별모양 풍선 포
 
 RESOURCE ID: username_suggestion_disclaimer_new_user
 TEXT: 팁) 다른 트레이너가 볼 수 있는 이름이니 실명을 쓰지 마세요. 트레이너명은 나중에 변경할 수 있습니다.
+
+RESOURCE ID: web_includes
+TEXT: WEB INCLUDES:
 
