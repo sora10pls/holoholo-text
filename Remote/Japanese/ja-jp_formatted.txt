@@ -86,6 +86,9 @@ TEXT: マックスバトル中にメーターが早くたまる
 RESOURCE ID: bonus_incense_event_sb
 TEXT: おこうに反応するイベントテーマのポケモンにスペシャル背景がついていることがある
 
+RESOURCE ID: bonus_mega_duration_96hr
+TEXT: メガシンカ96時間持続
+
 RESOURCE ID: bonus_today_zygarde_cell
 TEXT: ルートのゴールで（1日5ルートまで）ジガルデ・セルが出現
 
@@ -635,10 +638,10 @@ TEXT: メガシンカしたポケモンのCPが特定リーグの上限を超え
 スーパーマックスレベルに達しているポケモンも、マスターリーグでCPが大幅に上がることはありません。
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-11-19T01:43:47.361024+00:00 for ja-JP
-at SHA 22ac39e9aa2
-Pipeline 4115441, job 60743354
-Patch from: 0.435.2-SHA-18494160-RC2, 0.437.0-SHA-0699286a-RC6, 0.439.0-SHA-6e900373-RC3
+TEXT: Built at 2026-11-20T22:50:47.903523+00:00 for ja-JP
+at SHA 2cc35f23581
+Pipeline 4122771, job 60854325
+Patch from: 0.437.0-SHA-6174fcca-RC4, 0.439.0-SHA-6e900373-RC3, 0.435.2-SHA-64391288-RC1
 
 RESOURCE ID: minior_shower_tr_name
 TEXT: メテノシャワータイムチャレンジ
@@ -1961,4 +1964,10 @@ TEXT: 追加リワードを入手でき、ランク16で星バルーンポーズ
 
 RESOURCE ID: web_includes
 TEXT: ウェブ購入：
+
+RESOURCE ID: webstore_auto_refill_failed_notification
+TEXT: リフィルの処理エラーが発生しました。ウェブストアの設定を確認してください。
+
+RESOURCE ID: webstore_auto_refill_notification
+TEXT: オートリフィルを開始し、{0}ポケコインが追加されました
 

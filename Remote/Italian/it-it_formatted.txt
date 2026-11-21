@@ -200,6 +200,9 @@ TEXT: L’energia raccolta durante le Lotte Dynamax riempie l’indicatore più 
 RESOURCE ID: bonus_incense_event_sb
 TEXT: I Pokémon a tema dell’evento attratti dall’aroma possono avere uno Sfondo speciale
 
+RESOURCE ID: bonus_mega_duration_96hr
+TEXT: La megaevoluzione durerà 96 ore
+
 RESOURCE ID: bonus_today_zygarde_cell_out
 TEXT: Le cellule di Zygarde possono apparire al termine di un numero massimo di cinque percorsi al giorno
 
@@ -255,7 +258,7 @@ RESOURCE ID: city_manhole_493
 TEXT: Ino
 
 RESOURCE ID: collections_filter_group_key
-TEXT: Collections
+TEXT: Collezioni
 
 RESOURCE ID: combat_matchmaking_invalid_qr
 TEXT: Codice 2D non valido.
@@ -326,19 +329,19 @@ RESOURCE ID: event_pass_premium_track_title_gowa_leadout_2026
 TEXT: Biglietto GO deluxe dell’evento “Sentieri Dynamax”
 
 RESOURCE ID: evolutions_filter_group_key
-TEXT: Evolutions
+TEXT: Evoluzioni
 
 RESOURCE ID: filter_key_event
-TEXT: event
+TEXT: evento
 
 RESOURCE ID: filter_key_language_tag
 TEXT: etichettadellalingua
 
 RESOURCE ID: filter_key_more_than
-TEXT: morethan
+TEXT: piudiu
 
 RESOURCE ID: filter_key_new_pokedex_entry
-TEXT: newpokedexentry
+TEXT: nuovaaggiuntapokedex
 
 RESOURCE ID: filter_key_profile_background
 TEXT: sfondoprofilo
@@ -347,10 +350,10 @@ RESOURCE ID: filter_label_100
 TEXT: ★ 100%
 
 RESOURCE ID: filter_label_more_than_one
-TEXT: More Than 1
+TEXT: Più di uno
 
 RESOURCE ID: filter_label_new_pokedex_entry
-TEXT: New Pokédex Entry
+TEXT: Nuova aggiunta al Pokédex
 
 RESOURCE ID: five_additional_candy_max_battle_bonus
 TEXT: Cinque caramelle aggiuntive quando porti a termine una Lotta Dynamax
@@ -737,7 +740,7 @@ RESOURCE ID: gowa_2026_sun_ticketed
 TEXT: Terre Selvagge di Pokémon GO 2026: ore dell’evento di domenica (biglietto)
 
 RESOURCE ID: great_league_championship_series_2027
-TEXT: Coppa GO dei EUIC 2027: edizione Lega Mega
+TEXT: Coppa GO degli EUIC 2027: edizione Lega Mega
 
 RESOURCE ID: great_league_championship_series_2027_out
 TEXT: Coppa GO dei Campionati 2027
@@ -898,10 +901,10 @@ TEXT: Se un Pokémon megaevoluto supera il limite massimo di PL consentito in de
  I Pokémon che hanno raggiunto il super livello massimo non otterranno un aumento significativo del bonus PE da cattura nella Lega Master.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-11-19T01:43:47.361024+00:00 for it-IT
-at SHA 22ac39e9aa2
-Pipeline 4115441, job 60743354
-Patch from: 0.435.2-SHA-18494160-RC2, 0.437.0-SHA-0699286a-RC6, 0.439.0-SHA-6e900373-RC3
+TEXT: Built at 2026-11-20T22:50:47.903523+00:00 for it-IT
+at SHA 2cc35f23581
+Pipeline 4122771, job 60854325
+Patch from: 0.437.0-SHA-6174fcca-RC4, 0.439.0-SHA-6e900373-RC3, 0.435.2-SHA-64391288-RC1
 
 RESOURCE ID: minior_shower_tr_name
 TEXT: Ricerca a tempo della pioggia di Minior
@@ -1012,22 +1015,22 @@ RESOURCE ID: pawniard_website_link
 TEXT: Per ulteriori informazioni, visita il <a href="https://pokemongo.com/news/communityday-november-2026-pawniard">sito</a>.
 
 RESOURCE ID: phenomenaandeffects_filter_group_key
-TEXT: Phenomena and Effects
+TEXT: Fenomeni ed effetti
 
 RESOURCE ID: photobomb_five_pawniard
 TEXT: Cinque incontri a sorpresa con Pawniard in modalità foto GO
 
 RESOURCE ID: plus_ranks
-TEXT: +{0} RANKS
+TEXT: +{0} LIVELLI
 
 RESOURCE ID: poi_contrib_report_reason_ai_generated_or_doctored_photo
 TEXT: Foto generata o manipolata con l’IA
 
 RESOURCE ID: pokemon_inventory_see_all
-TEXT: SEE ALL ({0})
+TEXT: VEDI TUTTI ({0})
 
 RESOURCE ID: pokemon_inventory_storage_full_banner_subtitle
-TEXT: Upgrade?
+TEXT: Amplia?
 
 RESOURCE ID: pokemon_language_tag_info_transfer_to_professor_confirmation
 TEXT: Vuoi davvero trasferire questo Pokémon con etichetta della lingua?
@@ -1084,7 +1087,7 @@ RESOURCE ID: pokemon_name_chip_modal_title
 TEXT: Lo sapevi che i Pokémon possono avere nomi diversi a seconda della lingua?
 
 RESOURCE ID: pokemon_search_did_you_mean
-TEXT: Did you mean...
+TEXT: Forse volevi dire...
 
 RESOURCE ID: pokestop_button_read_qr_code
 TEXT: LEGGI CODICE 2D
@@ -1313,10 +1316,10 @@ RESOURCE ID: ptr_2026_willow_05_03
 TEXT: Affidati a ciò che hai imparato, %PLAYERNAME%!
 
 RESOURCE ID: purchase_includes
-TEXT: Purchase Includes:
+TEXT: L’acquisto include:
 
 RESOURCE ID: purchase_options_with_number
-TEXT: PURCHASE OPTIONS ({0})
+TEXT: OPZIONI D’ACQUISTO ({0})
 
 RESOURCE ID: qr_code_title
 TEXT: Scansiona il codice 2D
@@ -2053,7 +2056,7 @@ RESOURCE ID: single_transfer_language_tag_pokemon
 TEXT: Etichetta della lingua
 
 RESOURCE ID: sizes_filter_group_key
-TEXT: Sizes
+TEXT: Dimensioni
 
 RESOURCE ID: sku.name.web-gowa-2024-box-4
 TEXT: pacco boost Terre Selvagge di GO
@@ -2348,5 +2351,11 @@ RESOURCE ID: username_suggestion_disclaimer_new_user
 TEXT: Consiglio: non usare il tuo vero nome, perché sarà visibile agli altri Allenatori. Potrai modificarlo in seguito.
 
 RESOURCE ID: web_includes
-TEXT: WEB INCLUDES:
+TEXT: INCLUSO ONLINE:
+
+RESOURCE ID: webstore_auto_refill_failed_notification
+TEXT: Si è verificato un problema durante l’elaborazione della ricarica. Controlla le impostazioni nello store online.
+
+RESOURCE ID: webstore_auto_refill_notification
+TEXT: La ricarica automatica delle tue Pokémonete è stata avviata. {0} Pokémonete sono state aggiunte al tuo saldo.
 

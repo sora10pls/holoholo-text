@@ -260,6 +260,9 @@ TEXT: 맥스 배틀 중 게이지가 빨리 채워진다
 RESOURCE ID: bonus_incense_event_sb
 TEXT: 향로에 반응하는 이벤트 관련 포켓몬에게 스페셜 배경이 있을 수 이다
 
+RESOURCE ID: bonus_mega_duration_96hr
+TEXT: 메가진화 96시간 지속
+
 RESOURCE ID: bonus_today_zygarde_cell
 TEXT: 하루 5루트까지 루트 끝나는 지점에서 지가르데 셀 발견.
 
@@ -312,28 +315,28 @@ RESOURCE ID: city_manhole_485
 TEXT: 키소
 
 RESOURCE ID: city_manhole_486
-TEXT: Shibukawa
+TEXT: 시부카와
 
 RESOURCE ID: city_manhole_487
-TEXT: Geisei
+TEXT: 게이세이
 
 RESOURCE ID: city_manhole_488
-TEXT: Sakawa
+TEXT: 사카와
 
 RESOURCE ID: city_manhole_489
-TEXT: Tosa
+TEXT: 토사
 
 RESOURCE ID: city_manhole_490
-TEXT: Naganohara
+TEXT: 나가노하라
 
 RESOURCE ID: city_manhole_491
-TEXT: Numata
+TEXT: 누마타
 
 RESOURCE ID: city_manhole_492
-TEXT: Shimanto
+TEXT: 시만토
 
 RESOURCE ID: city_manhole_493
-TEXT: Ino
+TEXT: 이노
 
 RESOURCE ID: collections_filter_group_key
 TEXT: Collections
@@ -435,7 +438,16 @@ RESOURCE ID: five_additional_candy_max_battle_bonus
 TEXT: 맥스배틀에서 받을 수 있는 사탕 5개 추가
 
 RESOURCE ID: flip_to_dim_settings_description
-TEXT: Dims the screen when you hold your phone upside down to help save battery.
+TEXT: 핸드폰을 거꾸로 하면 화면 밝기가 낮아져서 절전 모드가 된다
+
+RESOURCE ID: fossil_museum_bonus_event_title
+TEXT: 포켓몬 화석 박물관
+
+RESOURCE ID: fossil_museum_tr_title_01
+TEXT: 포켓몬 화석 박물관(1/2)
+
+RESOURCE ID: fossil_museum_tr_title_02
+TEXT: 포켓몬 화석 박물관(2/2)
 
 RESOURCE ID: general1.ticket_cd_pawniard26_title
 TEXT: 자망칼 커뮤니티 데이 티켓
@@ -854,22 +866,22 @@ RESOURCE ID: halloween_spooky_surprise_tappable_today_view
 TEXT: 서프라이즈 박스가 맵에 출현!
 
 RESOURCE ID: high_refresh_rate_prompt_body
-TEXT: Get smoother visuals and more responsive gameplay, which may affect battery life. You can change this anytime in Settings.
+TEXT: 더 부드러운 화면의 움직임과 빠른 반응의 조작성을 실현할 수 있으나 새로고침 빈도를 올리면 배터리 소모도 증가합니다. 언제라도 설정에서 변경할 수 있습니다.
 
 RESOURCE ID: high_refresh_rate_prompt_dismiss_button
-TEXT: MAYBE LATER
+TEXT: 다음에 한다
 
 RESOURCE ID: high_refresh_rate_prompt_enable_button
-TEXT: TURN ON
+TEXT: 설정한다
 
 RESOURCE ID: high_refresh_rate_prompt_title
-TEXT: Update Your Refresh Rate
+TEXT: 새로고침 빈도 변경
 
 RESOURCE ID: high_refresh_rate_settings_description
-TEXT: Get smoother visuals and more responsive gameplay. This may affect battery life.
+TEXT: 더 부드러운 화면과 더 높은 반응속도를 실현(배터리 소모가 많을 수 있습니다)
 
 RESOURCE ID: high_refresh_rate_settings_title
-TEXT: Improve Visuals and Animations
+TEXT: 더 부드러운 화면의 움직임
 
 RESOURCE ID: iap_friend_picker_last_sent
 TEXT: 최근에 보낸 프렌드
@@ -1003,10 +1015,10 @@ TEXT: 메가진화한 포켓몬의 CP가 특정 리그의 상한을 넘는 경�
 슈퍼 맥스 레벨에 달성한 포켓몬이 마스터리그에서 CP가 대폭 올라가지는 않습니다.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2026-11-19T01:43:47.361024+00:00 for ko-KR
-at SHA 22ac39e9aa2
-Pipeline 4115441, job 60743354
-Patch from: 0.435.2-SHA-18494160-RC2, 0.437.0-SHA-0699286a-RC6, 0.439.0-SHA-6e900373-RC3
+TEXT: Built at 2026-11-20T22:50:47.903523+00:00 for ko-KR
+at SHA 2cc35f23581
+Pipeline 4122771, job 60854325
+Patch from: 0.437.0-SHA-6174fcca-RC4, 0.439.0-SHA-6e900373-RC3, 0.435.2-SHA-64391288-RC1
 
 RESOURCE ID: minior_shower_tr_name
 TEXT: 메테노 샤워 시간제한 리서치
@@ -1048,7 +1060,7 @@ RESOURCE ID: month_september
 TEXT: 9월
 
 RESOURCE ID: moonblast_base_increased_level_bonus
-TEXT: 메가 픽시의 레벨이 올라갑니다(11월 30일 12시~12월 13일 12시 PST)
+TEXT: 슈퍼 맥스 레벨이 된 메가픽시의 CP가 올라갑니다(11월 30일 12시~12월 13일 12시 PST)
 
 RESOURCE ID: moonblast_base_power_boost_bonus
 TEXT: 문포스의 위력이 증가(11월 30일 12시~ 12월 13일 12시 PST)
@@ -2193,6 +2205,9 @@ TEXT: 보낼 선물 선택
 RESOURCE ID: sending_paid_gift_to
 TEXT: 받을 사람: 
 
+RESOURCE ID: settings_advanced_quality_title
+TEXT: 성능
+
 RESOURCE ID: settings_allow_paid_gifts_desc_off
 TEXT: 이 설정을 끄면 프렌드가 구입한 선물을 받을 수 없습니다. 무료 선물은 계속해서 받을 수 있습니다.
 
@@ -2212,37 +2227,40 @@ RESOURCE ID: settings_pause_gifts_list_tip
 TEXT: 프렌드를 선택하고 유료 선물 받기를 멈출 수 있습니다. 무료 선물은 받을 수 있습니다.
 
 RESOURCE ID: settings_refresh_rate_balanced
-TEXT: Balanced
+TEXT: 중간
 
 RESOURCE ID: settings_refresh_rate_balanced_recommended
-TEXT: Balanced (Recommended)
+TEXT: 중간(권장)
 
 RESOURCE ID: settings_refresh_rate_high
-TEXT: High
+TEXT: 높음
 
 RESOURCE ID: settings_refresh_rate_high_recommended
-TEXT: High (Recommended)
+TEXT: 높음(권장)
 
 RESOURCE ID: settings_refresh_rate_incompatible_device
-TEXT: This device is not compatible for higher refresh rates.
+TEXT: 이 디바이스는 높은 새로고침에 적합아지 않습니다
 
 RESOURCE ID: settings_refresh_rate_low
-TEXT: Low
+TEXT: 낮음
 
 RESOURCE ID: settings_refresh_rate_low_recommended
-TEXT: Low (Recommended)
+TEXT: 낮음(권장)
 
 RESOURCE ID: settings_refresh_rate_name
-TEXT: Refresh Rate
+TEXT: 새로고침
 
 RESOURCE ID: settings_refresh_rate_updated_balanced
-TEXT: Refresh Rate updated to Balanced.
+TEXT: 개로고침 빈도를 중간으로 설정했습니다
 
 RESOURCE ID: settings_refresh_rate_updated_high
-TEXT: Refresh Rate updated to High.
+TEXT: 새로고침 빈도를 높음으로 설정했습니다
 
 RESOURCE ID: settings_refresh_rate_updated_low
-TEXT: Refresh Rate updated to Low.
+TEXT: 새로고침 빈도를 낮음으로 설정했습니다
+
+RESOURCE ID: settings_unlock_base_framerate_description
+TEXT: 더 부드럽고 빠른 반응의 화면(배터리 소모가 많을 수 있습니다)
 
 RESOURCE ID: shop_already_unlocked_premium_event_pass
 TEXT: 이미 GO패스 디럭스를 구매했습니다
@@ -2546,4 +2564,10 @@ TEXT: 팁) 다른 트레이너가 볼 수 있는 이름이니 실명을 쓰지 �
 
 RESOURCE ID: web_includes
 TEXT: WEB INCLUDES:
+
+RESOURCE ID: webstore_auto_refill_failed_notification
+TEXT: 충전 처리 에러입니다. web store 설정을 확인해 주세요.
+
+RESOURCE ID: webstore_auto_refill_notification
+TEXT: 자동 충전을 시작하여 {0}포켓코인이 추가되었습니다.
 
